@@ -1,0 +1,200 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Atorvastatin",
+        "properties": {
+          "name": "Atorvastatin"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "Fluvastatin",
+        "properties": {
+          "name": "Fluvastatin"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "Statin",
+        "properties": {
+          "name": "Statin"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "cirrhosis",
+        "properties": {
+          "name": "cirrhosis"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "hepatocellular carcinoma",
+        "properties": {
+          "name": "hepatocellular carcinoma"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "hepatitis C virus infection",
+        "properties": {
+          "name": "hepatitis C virus infection"
+        }
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "医脉通心血管",
+        "properties": {
+          "chunk_id": "1498",
+          "source": "医脉通心血管",
+          "text": "Simon T G , Bonilla H , Yan P , et al. Atorvastatin and fluvastatin are associated with dose‐dependent reductions in cirrhosis and hepatocellular carcinoma, among patients with hepatitis C virus: Results from ERCHIVES[J]. Hepatology, 2016, 64(1): 47-57."
+        }
+      },
+      {
+        "id": "ev_2",
+        "type": "Evidence",
+        "name": "医脉通心血管",
+        "properties": {
+          "chunk_id": "1498",
+          "source": "医脉通心血管",
+          "text": "Bellosta S , Corsini A . Statin drug interactions and related adverse reactions[J]. Expert Opinion on Drug Safety, 2012, 11(6): 933-946."
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "属于类别",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1498",
+              "source": "医脉通心血管",
+              "text": "Statin drug interactions and related adverse reactions"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "属于类别",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1498",
+              "source": "医脉通心血管",
+              "text": "Statin drug interactions and related adverse reactions"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "用于治疗",
+        "properties": {
+          "effect": "dose‐dependent reductions",
+          "population": "patients with hepatitis C virus",
+          "evidence": [
+            {
+              "chunk_index": "1498",
+              "source": "医脉通心血管",
+              "text": "Atorvastatin and fluvastatin are associated with dose‐dependent reductions in cirrhosis and hepatocellular carcinoma, among patients with hepatitis C virus: Results from ERCHIVES[J]. Hepatology, 2016, 64(1): 47-57."
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "用于治疗",
+        "properties": {
+          "effect": "dose‐dependent reductions",
+          "population": "patients with hepatitis C virus",
+          "evidence": [
+            {
+              "chunk_index": "1498",
+              "source": "医脉通心血管",
+              "text": "Atorvastatin and fluvastatin are associated with dose‐dependent reductions in cirrhosis and hepatocellular carcinoma, among patients with hepatitis C virus: Results from ERCHIVES[J]. Hepatology, 2016, 64(1): 47-57."
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "用于治疗",
+        "properties": {
+          "effect": "dose‐dependent reductions",
+          "population": "patients with hepatitis C virus",
+          "evidence": [
+            {
+              "chunk_index": "1498",
+              "source": "医脉通心血管",
+              "text": "Atorvastatin and fluvastatin are associated with dose‐dependent reductions in cirrhosis and hepatocellular carcinoma, among patients with hepatitis C virus: Results from ERCHIVES[J]. Hepatology, 2016, 64(1): 47-57."
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "用于治疗",
+        "properties": {
+          "effect": "dose‐dependent reductions",
+          "population": "patients with hepatitis C virus",
+          "evidence": [
+            {
+              "chunk_index": "1498",
+              "source": "医脉通心血管",
+              "text": "Atorvastatin and fluvastatin are associated with dose‐dependent reductions in cirrhosis and hepatocellular carcinoma, among patients with hepatitis C virus: Results from ERCHIVES[J]. Hepatology, 2016, 64(1): 47-57."
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_3",
+        "name": "相互作用",
+        "properties": {
+          "description": "Statin drug interactions and related adverse reactions",
+          "evidence": [
+            {
+              "chunk_index": "1498",
+              "source": "医脉通心血管",
+              "text": "Bellosta S , Corsini A . Statin drug interactions and related adverse reactions[J]. Expert Opinion on Drug Safety, 2012, 11(6): 933-946."
+            }
+          ]
+        }
+      }
+    ],
+    "chunk_index": 1498,
+    "source": "医脉通心血管",
+    "text": ".[J]. Journal of Hepatology, 2015, 63(5): 1111-1117.[10] Simon T G , Bonilla H , Yan P , et al. Atorvastatin and fluvastatin are associated with dose‐dependent reductions in cirrhosis and hepatocellular carcinoma, among patients with hepatitis C virus: Results from ERCHIVES[J]. Hepatology, 2016, 64(1): 47-57.[11] Bellosta S , Corsini A . Statin drug interactions and related adverse reactions[J]. Expert Opinion on Drug Safety, 2012, 11(6): 933-946."
+  }
+]

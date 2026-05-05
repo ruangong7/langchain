@@ -1,0 +1,359 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Food",
+        "name": "乙醇",
+        "properties": {
+          "类型": "饮品",
+          "关键成分": "乙醇"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "西柚",
+        "properties": {
+          "类型": "食物",
+          "关键成分": "呋喃香豆素"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "硝苯地平",
+        "properties": {
+          "通用名": "硝苯地平"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "氨氯地平",
+        "properties": {
+          "通用名": "氨氯地平"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "他汀类药物",
+        "properties": {
+          "名称": "他汀类药物",
+          "代表药品": [
+            "辛伐他汀",
+            "阿托伐他汀",
+            "洛伐他汀"
+          ]
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "辛伐他汀",
+        "properties": {
+          "通用名": "辛伐他汀"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "properties": {
+          "通用名": "阿托伐他汀"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "洛伐他汀",
+        "properties": {
+          "通用名": "洛伐他汀"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Food",
+        "name": "红曲",
+        "properties": {
+          "类型": "中药材",
+          "关键成分": "他汀类似物"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Food",
+        "name": "驱蚊液",
+        "properties": {
+          "类型": "化学品",
+          "关键成分": "避蚊胺, 酒精"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Food",
+        "name": "防晒霜",
+        "properties": {
+          "类型": "化学品",
+          "关键成分": "二苯甲酮"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Food",
+        "name": "碘酒",
+        "properties": {
+          "类型": "化学品",
+          "关键成分": "碘"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Food",
+        "name": "红药水",
+        "properties": {
+          "类型": "化学品",
+          "关键成分": "汞"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "头晕",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "SideEffect",
+        "name": "心跳加快",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "SideEffect",
+        "name": "恶心",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "SideEffect",
+        "name": "肝损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "SideEffect",
+        "name": "横纹肌溶解",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "急性肾衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "SideEffect",
+        "name": "过敏",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "SideEffect",
+        "name": "红肿",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "SideEffect",
+        "name": "昏厥",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Mechanism",
+        "name": "抑制代谢消除",
+        "properties": {
+          "机制类型": "抑制代谢"
+        }
+      },
+      {
+        "id": "ent_24",
+        "type": "Mechanism",
+        "name": "促进吸收",
+        "properties": {
+          "机制类型": "促进吸收"
+        }
+      },
+      {
+        "id": "ent_25",
+        "type": "Mechanism",
+        "name": "化学反应形成有毒物质",
+        "properties": {
+          "机制类型": "化学反应"
+        }
+      },
+      {
+        "id": "ent_26",
+        "type": "Population",
+        "name": "过敏体质人群",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Evidence",
+        "name": "医学界",
+        "properties": {
+          "chunk_id": 1358,
+          "来源": "医学界"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "西柚与硝苯地平相互作用",
+        "properties": {
+          "mechanism": [
+            "ent_23",
+            "ent_24"
+          ],
+          "consequences": [
+            "ent_14",
+            "ent_15",
+            "ent_16"
+          ],
+          "evidence": {
+            "chunk_index": 1358,
+            "source": "医学界",
+            "text": "当西柚与降压药同服（如硝苯地平），会使药效增加几倍到几十倍，引起头晕恶心，比较危险。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "西柚与氨氯地平相互作用",
+        "properties": {
+          "recommendation": "不推荐合用",
+          "evidence": {
+            "chunk_index": 1358,
+            "source": "医学界",
+            "text": "目前未发现西柚汁对氨氯地平的药动学有显著影响，但仍不推荐西柚汁与氨氯地平合用。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "西柚与他汀类药物相互作用",
+        "properties": {
+          "consequences": [
+            "ent_17",
+            "ent_18",
+            "ent_19"
+          ],
+          "evidence": {
+            "chunk_index": 1358,
+            "source": "医学界",
+            "text": "提醒降血脂的他汀类药物，如辛伐他汀、阿托伐他汀、洛伐他汀等，如果在服这类药期间同时吃大量西柚或喝西柚汁，会使药物在体内蓄积，增大肝损伤、横纹肌溶解等不良反应的风险，甚至引起急性肾衰竭。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "name": "西柚与红曲相互作用",
+        "properties": {
+          "recommendation": "不宜合用",
+          "evidence": {
+            "chunk_index": 1358,
+            "source": "医学界",
+            "text": "保健品红曲中含有他汀类似物，也不宜吃西柚。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_11",
+        "name": "驱蚊液与防晒霜相互作用",
+        "properties": {
+          "mechanism": [
+            "ent_24"
+          ],
+          "consequences": [
+            "ent_20",
+            "ent_21",
+            "ent_22"
+          ],
+          "population": [
+            "ent_26"
+          ],
+          "evidence": {
+            "chunk_index": 1358,
+            "source": "医学界",
+            "text": "台湾的王女士因喷完驱蚊液后涂抹防晒霜，大腿和手背出现过敏红肿现象，还发生了昏厥。——驱蚊液的主要成分为避蚊胺和酒精，而防晒霜中含有二苯甲酮，大量的避蚊胺、酒精和二苯甲酮混合，高温还促进皮肤吸收这些化学成分，引起过敏。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_13",
+        "name": "碘酒与红药水相互作用",
+        "properties": {
+          "mechanism": [
+            "ent_25"
+          ],
+          "consequences": [],
+          "evidence": {
+            "chunk_index": 1358,
+            "source": "医学界",
+            "text": "下面的混搭也要小心：碘酒中含的碘会与红药水中的汞发生反应，形成碘化汞，会沉着在皮肤表面，汞本身就具有毒性，对身体有害"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_5",
+        "name": "辛伐他汀属于他汀类药物",
+        "properties": {}
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_5",
+        "name": "阿托伐他汀属于他汀类药物",
+        "properties": {}
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_5",
+        "name": "洛伐他汀属于他汀类药物",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1358,
+    "source": "医学界",
+    "text": "。由于乙醇和药物在体内代谢有一个过程，故喝酒的人应在服药前2日禁酒，直到停药7日后方可解禁。案例四湖北一个老人为了降压，吃了2片降压药，之后又吃了小半个柚子。半个小时后就感觉头晕得厉害，心跳也很快，甚至在送医院的半路上晕了过去。——西柚中含有的生物活性成分：一是能促使药物迅速进入血液，等于加大药量；二是可抑制降压药的代谢消除，提高药物的浓度。当西柚与降压药同服（如硝苯地平），会使药效增加几倍到几十倍，引起头晕恶心，比较危险。——目前未发现西柚汁对氨氯地平的药动学有显著影响，但仍不推荐西柚汁与氨氯地平合用。提醒降血脂的他汀类药物，如辛伐他汀、阿托伐他汀、洛伐他汀等，如果在服这类药期间同时吃大量西柚或喝西柚汁，会使药物在体内蓄积，增大肝损伤、横纹肌溶解等不良反应的风险，甚至引起急性肾衰竭。保健品红曲中含有他汀类似物，也不宜吃西柚。案例五台湾的王女士因喷完驱蚊液后涂抹防晒霜，大腿和手背出现过敏红肿现象，还发生了昏厥。——驱蚊液的主要成分为避蚊胺和酒精，而防晒霜中含有二苯甲酮，大量的避蚊胺、酒精和二苯甲酮混合，高温还促进皮肤吸收这些化学成分，引起过敏。——过敏严重的，通常是过敏体质的人，一般人正常涂抹不太可能引起毒性反应。提醒在使用防晒霜、驱蚊液的时候，要掌握正确的方法。最好的方法是：一是，先涂抹防晒霜，间隔半小时以上，待皮肤吸收后再喷驱蚊液；二是，防晒霜和驱蚊液不要在同一部位使用。下面的混搭也要小心：碘酒中含的碘会与红药水中的汞发生反应，形成碘化汞，会沉着在皮肤表面，汞本身就具有毒性，对身体有害"
+  }
+]

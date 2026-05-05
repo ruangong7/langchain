@@ -1,0 +1,199 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "CYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP2B6",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP2C8",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP2C9",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP2C19",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "CYP3A4/5",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "CYP2C",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Mechanism",
+        "name": "抑制",
+        "properties": {
+          "机制类型": "抑制"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Mechanism",
+        "name": "诱导",
+        "properties": {
+          "机制类型": "诱导"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Indicator",
+        "name": "AUC",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Indicator",
+        "name": "AUCR",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Mechanism",
+        "name": "时间依赖性抑制",
+        "properties": {
+          "机制类型": "时间依赖性抑制"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Mechanism",
+        "name": "可逆性抑制",
+        "properties": {
+          "机制类型": "可逆性抑制"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "在研药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_16",
+        "target_id": "ent_10",
+        "name": "在研药物抑制代谢酶",
+        "properties": {
+          "evidence": {
+            "chunk_index": 124,
+            "source": "GMP办公室",
+            "text": "当静态机制模型或PBPK模型用于预测由于代谢酶活性被抑制引起的药物相互作用时，模型应仅包括抑制机制（即该模型预测不应该同时包括诱导和抑制两种机制）来确定所评估的在研药物抑制代谢酶的能力。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_16",
+        "target_id": "ent_11",
+        "name": "在研药物诱导代谢酶",
+        "properties": {
+          "evidence": {
+            "chunk_index": 124,
+            "source": "GMP办公室",
+            "text": "应评估在研药物是否会诱导主要的CYP同工酶CYP1A2、CYP2B6、CYP2C8、CYP2C9、CYP2C19和CYP3A4。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_16",
+        "target_id": "ent_12",
+        "name": "在研药物影响AUC",
+        "properties": {
+          "evidence": {
+            "chunk_index": 124,
+            "source": "GMP办公室",
+            "text": "应计算预测存在和不存在抑制剂时指针底物AUC的预测比值R1。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_16",
+        "target_id": "ent_13",
+        "name": "在研药物影响AUCR",
+        "properties": {
+          "evidence": {
+            "chunk_index": 124,
+            "source": "GMP办公室",
+            "text": "如果根据静态或动态机制模型（例如PBPK模型）预测存在和不存在在研药物时敏感指针底物的AUC比值（AUCR）≥1.25，则应使用敏感指针底物开展临床药物相互作用研究。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_16",
+        "target_id": "ent_14",
+        "name": "在研药物具有时间依赖性抑制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 124,
+            "source": "GMP办公室",
+            "text": "对于时间依赖性抑制（TDI）的基础模型，应计算在研药物存在和不存在抑制剂时的AUC预测比率R2，如图2所示。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_16",
+        "target_id": "ent_15",
+        "name": "在研药物具有可逆性抑制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 124,
+            "source": "GMP办公室",
+            "text": "对于可逆性抑制的基础模型，应计算预测存在和不存在抑制剂时指针底物AUC的预测比值R1。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 124,
+    "source": "GMP办公室",
+    "text": "。（2）数据分析对于可逆性抑制的基础模型，应计算预测存在和不存在抑制剂时指针底物AUC的预测比值R1。对于CYP3A，R1，gut应按图1所示进行计算。对于时间依赖性抑制（TDI）的基础模型，应计算在研药物存在和不存在抑制剂时的AUC预测比率R2，如图2所示。 如果R1≥1.02，R2≥1.25或R1,gut≥11，则应通过采用机制模型或敏感指针底物的临床药物相互作用研究来进一步确认潜在的药物相互作用。如果根据静态或动态机制模型（例如PBPK模型）预测存在和不存在在研药物时敏感指针底物的AUC比值（AUCR）≥1.25，则应使用敏感指针底物开展临床药物相互作用研究。当静态机制模型或PBPK模型用于预测由于代谢酶活性被抑制引起的药物相互作用时，模型应仅包括抑制机制（即该模型预测不应该同时包括诱导和抑制两种机制）来确定所评估的在研药物抑制代谢酶的能力。评估在研药物是否是代谢酶抑制剂的体外试验的具体要求详见附录3。3.评估在研药物是否为代谢酶的诱导剂（1）研究内容应评估在研药物是否会诱导主要的CYP同工酶CYP1A2、CYP2B6、CYP2C8、CYP2C9、CYP2C19和CYP3A4。因对CYP3A4/5和CYP2C的诱导作用都需要激活孕烷X受体（Pregnane X receptor，PXR），故研究初期，可只评估CYP1A2，CYP2B6和CYP3A4/5。若未见对CYP3A4/5酶的诱导，则可不必再评价对CYP2C酶的诱导作用。但若在研药物可以诱导CYP3A4/5，则应评估其诱导CYP2C的可能性"
+  }
+]

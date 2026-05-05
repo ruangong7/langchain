@@ -1,0 +1,381 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "他汀",
+        "properties": {
+          "别名列表": [
+            "他汀类药物"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Disease",
+        "name": "肝病",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "肝细胞脂肪变",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "肝炎",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "肝硬化",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "肝癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "乙肝",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "丙肝",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Mechanism",
+        "name": "延缓肝细胞脂肪变",
+        "properties": {
+          "机制类型": "延缓病理进程"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Mechanism",
+        "name": "抗炎与抗纤维化",
+        "properties": {
+          "机制类型": "抗炎与抗纤维化"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Mechanism",
+        "name": "降低门脉压力",
+        "properties": {
+          "机制类型": "降低门脉压力"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Mechanism",
+        "name": "抗肿瘤细胞增殖",
+        "properties": {
+          "机制类型": "抗肿瘤"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Evidence",
+        "name": "医脉通神经科_chunk_1559",
+        "properties": {
+          "chunk_id": "chunk_1559",
+          "source": "医脉通神经科",
+          "text": "。因为根据目前的研究，在大多数肝病患者中处方他汀不仅不会造成不良影响，甚至对肝病本身具有一定益处。在机制研究中，目前认为他汀可以延缓肝细胞脂肪变，在肝炎患者中可以起到抗炎与抗纤维化的作用，在已经形成的肝硬化患者中能够降低门脉压力，在肝癌患者中也有抗肿瘤细胞增殖的作用。如果说上面这些仅仅只是体外研究，那么近几年的临床研究中观察到的他汀肝获益则更使人信服，下面我们举几个肝炎患者大型临床研究的例子。中国台湾的一项队列研究利用全民医疗数据库，以1：1的比例匹配了长期使用他汀的乙肝患者与不长期使用他汀的乙肝患者各6543名，最终发现使用他汀的乙肝患者发生肝硬化的风险几乎仅为不使用他汀者的一半（HR=0.512; 95%CI=0.413–0.634; P<0.001），对于失代偿肝硬化也具有相同趋势。图2  乙肝患者肝硬化风险降低与使用他汀相关在丙肝患者中，来自该数据库的队列研究也得出了他汀可以降低丙肝患者肝硬化风险的结论，并且使用他汀时间越久的患者，发生肝硬化的风险也越低。尽管那些短时间使用他汀者的肝硬化风险也显著降低这一结论让人存疑，但毕竟没有发现他汀会使肝硬化增加的证据。来自美国退伍军人的队列研究（ERCHIVES研究）显示，9135名丙肝患者中发生肝硬化与肝癌的风险随着他汀使用量的增加而降低，其中肝硬化的趋势与台湾的研究相同，尽管只短时间应用他汀仍可以观察到肝硬化风险降低；但对于肝癌，至少需要使用他汀＞90天才能观察到获益"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "他汀对肝病有益",
+        "properties": {
+          "effect": "具有一定益处",
+          "evidence": [
+            {
+              "chunk_index": 1559,
+              "source": "医脉通神经科",
+              "text": "在大多数肝病患者中处方他汀不仅不会造成不良影响，甚至对肝病本身具有一定益处。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "他汀延缓肝细胞脂肪变",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1559,
+              "source": "医脉通神经科",
+              "text": "在机制研究中，目前认为他汀可以延缓肝细胞脂肪变"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "他汀对肝炎有抗炎抗纤维化作用",
+        "properties": {
+          "mechanism": "抗炎与抗纤维化",
+          "evidence": [
+            {
+              "chunk_index": 1559,
+              "source": "医脉通神经科",
+              "text": "在肝炎患者中可以起到抗炎与抗纤维化的作用"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "他汀在肝炎中抗炎抗纤维化",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1559,
+              "source": "医脉通神经科",
+              "text": "在肝炎患者中可以起到抗炎与抗纤维化的作用"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "他汀对肝硬化可降低门脉压力",
+        "properties": {
+          "mechanism": "降低门脉压力",
+          "evidence": [
+            {
+              "chunk_index": 1559,
+              "source": "医脉通神经科",
+              "text": "在已经形成的肝硬化患者中能够降低门脉压力"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "他汀在肝硬化中降低门脉压力",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1559,
+              "source": "医脉通神经科",
+              "text": "在已经形成的肝硬化患者中能够降低门脉压力"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "他汀对肝癌有抗肿瘤作用",
+        "properties": {
+          "mechanism": "抗肿瘤细胞增殖",
+          "evidence": [
+            {
+              "chunk_index": 1559,
+              "source": "医脉通神经科",
+              "text": "在肝癌患者中也有抗肿瘤细胞增殖的作用"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "他汀在肝癌中抗肿瘤细胞增殖",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1559,
+              "source": "医脉通神经科",
+              "text": "在肝癌患者中也有抗肿瘤细胞增殖的作用"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "他汀降低乙肝患者肝硬化风险",
+        "properties": {
+          "effect_direction": "降低",
+          "quantitative_effect": "HR=0.512; 95%CI=0.413–0.634; P<0.001",
+          "population": "乙肝患者",
+          "evidence": [
+            {
+              "chunk_index": 1559,
+              "source": "医脉通神经科",
+              "text": "最终发现使用他汀的乙肝患者发生肝硬化的风险几乎仅为不使用他汀者的一半（HR=0.512; 95%CI=0.413–0.634; P<0.001）"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "他汀降低丙肝患者肝硬化风险",
+        "properties": {
+          "effect_direction": "降低",
+          "population": "丙肝患者",
+          "evidence": [
+            {
+              "chunk_index": 1559,
+              "source": "医脉通神经科",
+              "text": "在丙肝患者中，来自该数据库的队列研究也得出了他汀可以降低丙肝患者肝硬化风险的结论，并且使用他汀时间越久的患者，发生肝硬化的风险也越低。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "他汀降低丙肝患者肝癌风险",
+        "properties": {
+          "effect_direction": "降低",
+          "condition": "至少需要使用他汀＞90天",
+          "population": "丙肝患者",
+          "evidence": [
+            {
+              "chunk_index": 1559,
+              "source": "医脉通神经科",
+              "text": "来自美国退伍军人的队列研究（ERCHIVES研究）显示，9135名丙肝患者中发生肝硬化与肝癌的风险随着他汀使用量的增加而降低...但对于肝癌，至少需要使用他汀＞90天才能观察到获益"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_1",
+        "target_id": "ent_13",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_13",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_2",
+        "target_id": "ent_13",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_14",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_3",
+        "target_id": "ent_13",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_15",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_4",
+        "target_id": "ent_13",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_16",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_5",
+        "target_id": "ent_13",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_17",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_6",
+        "target_id": "ent_13",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_18",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_7",
+        "target_id": "ent_13",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_19",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_8",
+        "target_id": "ent_13",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_20",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_9",
+        "target_id": "ent_13",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_21",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_10",
+        "target_id": "ent_13",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_22",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_11",
+        "target_id": "ent_13",
+        "name": "证据支持",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1559,
+    "source": "医脉通神经科",
+    "text": "。因为根据目前的研究，在大多数肝病患者中处方他汀不仅不会造成不良影响，甚至对肝病本身具有一定益处。在机制研究中，目前认为他汀可以延缓肝细胞脂肪变，在肝炎患者中可以起到抗炎与抗纤维化的作用，在已经形成的肝硬化患者中能够降低门脉压力，在肝癌患者中也有抗肿瘤细胞增殖的作用。如果说上面这些仅仅只是体外研究，那么近几年的临床研究中观察到的他汀肝获益则更使人信服，下面我们举几个肝炎患者大型临床研究的例子。中国台湾的一项队列研究利用全民医疗数据库，以1：1的比例匹配了长期使用他汀的乙肝患者与不长期使用他汀的乙肝患者各6543名，最终发现使用他汀的乙肝患者发生肝硬化的风险几乎仅为不使用他汀者的一半（HR=0.512; 95%CI=0.413–0.634; P<0.001），对于失代偿肝硬化也具有相同趋势。图2  乙肝患者肝硬化风险降低与使用他汀相关在丙肝患者中，来自该数据库的队列研究也得出了他汀可以降低丙肝患者肝硬化风险的结论，并且使用他汀时间越久的患者，发生肝硬化的风险也越低。尽管那些短时间使用他汀者的肝硬化风险也显著降低这一结论让人存疑，但毕竟没有发现他汀会使肝硬化增加的证据。来自美国退伍军人的队列研究（ERCHIVES研究）显示，9135名丙肝患者中发生肝硬化与肝癌的风险随着他汀使用量的增加而降低，其中肝硬化的趋势与台湾的研究相同，尽管只短时间应用他汀仍可以观察到肝硬化风险降低；但对于肝癌，至少需要使用他汀＞90天才能观察到获益"
+  }
+]

@@ -1,0 +1,314 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "多潘立酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "辛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "他汀类降脂药",
+        "properties": {
+          "代表药品": [
+            "阿托伐他汀",
+            "辛伐他汀",
+            "洛伐他汀",
+            "西立伐他汀"
+          ]
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "心律失常",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "横纹肌溶解",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "他汀类药物相关性肌病",
+        "properties": {
+          "默认严重程度": "中"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "艾司唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "苯二氮类镇静催眠药",
+        "properties": {
+          "代表药品": [
+            "咪达唑仑",
+            "艾司唑仑"
+          ]
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "布洛芬",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "双氯芬酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Enzyme",
+        "name": "CYP2C9",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "非甾体类解热镇痛药",
+        "properties": {
+          "代表药品": [
+            "布洛芬",
+            "双氯芬酸"
+          ]
+        }
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1131,
+          "source": "凡默谷",
+          "text": "故多潘立酮与其合用时，可能因代谢减少，药物体内蓄积浓度升高; 及两药对心脏传导的双重抑制作用，使患者发生心律失常的风险显著增加，甚至有致命性侵害，临床禁止两药联合使用。"
+        }
+      },
+      {
+        "id": "ev_2",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1131,
+          "source": "凡默谷",
+          "text": "研究发现，脂溶性他汀( 如: 辛伐他汀、阿托伐他汀、洛伐他汀和西立伐他汀) 均通过对代谢酶 CYP3A4 产生竞争性抑制作用，两药联合时可导致伏立康唑与他汀类降脂药血药浓度均发生不同程度的升高。易诱发他汀类药物相关性肌病。Doran，E．等报道过辛伐他汀与伏立康唑合用时导致横纹肌溶解的个案［11］，建议联合用药时，应减少他汀类药物常规使用剂量，以减少不良反应的发生。"
+        }
+      },
+      {
+        "id": "ev_3",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1131,
+          "source": "凡默谷",
+          "text": "苯二氮类镇静催眠药均是 CYP3A4 底物，通过竞争性抑制代谢酶使伏立康唑体内代谢减慢，血药浓度增加。研究表明，伏立康唑可使口服咪达唑仑的 AUC 显著增加 15． 5 倍［12］。艾司唑仑联合应用时情况类似，故临床联合用药建议咪达唑仑/ 艾司唑仑减量使用。"
+        }
+      },
+      {
+        "id": "ev_4",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1131,
+          "source": "凡默谷",
+          "text": "非甾体类解热镇痛药布洛芬与双氯芬酸与伏立康唑联合使用时同为底物竞争 CYP2C9 相同结合位点，导致布洛芬及双氯芬酸血药浓度显著升高，而伏立康唑因其经 CYP2C9 代谢不足 10% ，故血药浓度影响较小"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "多潘立酮与伏立康唑相互作用",
+        "properties": {
+          "mechanism": "代谢减少 + 心脏传导双重抑制",
+          "consequence": "心律失常风险显著增加，甚至致命",
+          "recommendation": "临床禁止联合使用",
+          "evidence": {
+            "chunk_index": 1131,
+            "source": "凡默谷",
+            "text": "故多潘立酮与其合用时，可能因代谢减少，药物体内蓄积浓度升高; 及两药对心脏传导的双重抑制作用，使患者发生心律失常的风险显著增加，甚至有致命性侵害，临床禁止两药联合使用。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "伏立康唑与他汀类降脂药相互作用",
+        "properties": {
+          "mechanism": "竞争性抑制 CYP3A4",
+          "consequence": "双方血药浓度升高，诱发他汀类药物相关性肌病，可能导致横纹肌溶解",
+          "recommendation": "联合用药时应减少他汀类药物剂量",
+          "evidence": {
+            "chunk_index": 1131,
+            "source": "凡默谷",
+            "text": "研究发现，脂溶性他汀( 如: 辛伐他汀、阿托伐他汀、洛伐他汀和西立伐他汀) 均通过对代谢酶 CYP3A4 产生竞争性抑制作用，两药联合时可导致伏立康唑与他汀类降脂药血药浓度均发生不同程度的升高。易诱发他汀类药物相关性肌病。Doran，E．等报道过辛伐他汀与伏立康唑合用时导致横纹肌溶解的个案［11］，建议联合用药时，应减少他汀类药物常规使用剂量，以减少不良反应的发生。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_12",
+        "name": "伏立康唑与苯二氮类镇静催眠药相互作用",
+        "properties": {
+          "mechanism": "竞争性抑制 CYP3A4",
+          "consequence": "咪达唑仑 AUC 增加 15.5 倍，艾司唑仑类似",
+          "recommendation": "建议咪达唑仑/艾司唑仑减量使用",
+          "evidence": {
+            "chunk_index": 1131,
+            "source": "凡默谷",
+            "text": "苯二氮类镇静催眠药均是 CYP3A4 底物，通过竞争性抑制代谢酶使伏立康唑体内代谢减慢，血药浓度增加。研究表明，伏立康唑可使口服咪达唑仑的 AUC 显著增加 15． 5 倍［12］。艾司唑仑联合应用时情况类似，故临床联合用药建议咪达唑仑/ 艾司唑仑减量使用。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_16",
+        "name": "伏立康唑与非甾体类解热镇痛药相互作用",
+        "properties": {
+          "mechanism": "竞争 CYP2C9 结合位点",
+          "consequence": "布洛芬和双氯芬酸血药浓度显著升高，伏立康唑影响小",
+          "recommendation": "",
+          "evidence": {
+            "chunk_index": 1131,
+            "source": "凡默谷",
+            "text": "非甾体类解热镇痛药布洛芬与双氯芬酸与伏立康唑联合使用时同为底物竞争 CYP2C9 相同结合位点，导致布洛芬及双氯芬酸血药浓度显著升高，而伏立康唑因其经 CYP2C9 代谢不足 10% ，故血药浓度影响较小"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "name": "阿托伐他汀属于他汀类降脂药",
+        "properties": {}
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "辛伐他汀属于他汀类降脂药",
+        "properties": {}
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_12",
+        "name": "咪达唑仑属于苯二氮类镇静催眠药",
+        "properties": {}
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_12",
+        "name": "艾司唑仑属于苯二氮类镇静催眠药",
+        "properties": {}
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_13",
+        "target_id": "ent_16",
+        "name": "布洛芬属于非甾体类解热镇痛药",
+        "properties": {}
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_14",
+        "target_id": "ent_16",
+        "name": "双氯芬酸属于非甾体类解热镇痛药",
+        "properties": {}
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_5",
+        "target_id": "ent_9",
+        "name": "他汀类降脂药可能导致他汀类药物相关性肌病",
+        "properties": {}
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "name": "辛伐他汀与伏立康唑合用可能导致横纹肌溶解",
+        "properties": {}
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "多潘立酮与伏立康唑合用增加心律失常风险",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1131,
+    "source": "凡默谷",
+    "text": "。故多潘立酮与其合用时，可能因代谢减少，药物体内蓄积浓度升高; 及两药对心脏传导的双重抑制作用，使患者发生心律失常的风险显著增加，甚至有致命性侵害，临床禁止两药联合使用。3.2.5   伏立康唑与降脂药阿托伐他汀/ 辛伐他汀 ( CYP3A4 底物)研究发现，脂溶性他汀( 如: 辛伐他汀、阿托伐他汀、洛伐他汀和西立伐他汀) 均通过对代谢酶 CYP3A4 产生竞争性抑制作用，两药联合时可导致伏立康唑与他汀类降脂药血药浓度均发生不同程度的升高。易诱发他汀类药物相关性肌病。Doran，E．等报道过辛伐他汀与伏立康唑合用时导致横纹肌溶解的个案［11］，建议联合用药时，应减少他汀类药物常规使用剂量，以减少不良反应的发生。3.2.6   伏立康唑与苯二氮类镇静催眠药咪达唑仑/ 艾司唑仑( CYP3A4 底物)苯二氮类镇静催眠药均是 CYP3A4 底物，通过竞争性抑制代谢酶使伏立康唑体内代谢减慢，血药浓度增加。研究表明，伏立康唑可使口服咪达唑仑的 AUC 显著增加 15． 5 倍［12］。艾司唑仑联合应用时情况类似，故临床联合用药建议咪达唑仑/ 艾司唑仑减量使用。3.2.7 伏立康唑与解热镇痛药布洛芬/ 双氯芬酸 ( CYP2C9 底物)非甾体类解热镇痛药布洛芬与双氯芬酸与伏立康唑联合使用时同为底物竞争 CYP2C9 相同结合位点，导致布洛芬及双氯芬酸血药浓度显著升 高，而伏立康唑因其经 CYP2C9 代谢不足 10% ，故血药浓度影响较小"
+  }
+]

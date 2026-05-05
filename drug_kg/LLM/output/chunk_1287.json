@@ -1,0 +1,335 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "阿司匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Indicator",
+        "name": "国际标准化比值",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Population",
+        "name": "胃肠道出血高危人群",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "非甾体抗炎药",
+        "properties": {
+          "别名列表": [
+            "NSAIDs"
+          ]
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Mechanism",
+        "name": "竞争抑制",
+        "properties": {
+          "机制类型": "竞争抑制"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "COX-1",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "COX-2",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "布洛芬",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "SideEffect",
+        "name": "胃肠道不良反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "非选择性COX抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "选择性COX-2抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "血栓栓塞事件",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "双氯芬酸钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "吲哚美辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "安乃近",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "华法林与阿司匹林联合使用",
+        "properties": {
+          "后果": [
+            "出血风险增加"
+          ],
+          "建议": "将抗凝药物和阿司匹林调整到最低有效剂量，国际标准化比值应控制在2.0～2.5，阿司匹林剂量不超过100mg/天",
+          "证据": {
+            "chunk_index": 1287,
+            "source": "北京老年医院",
+            "text": "首先要评估联合抗凝治疗的必要性，应该将抗凝药物和阿司匹林调整到最低有效剂量，如与华法林联合时，国际标准化比值应控制在2.0～2.5，阿司匹林的剂量不要超过100mg/天。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "华法林影响国际标准化比值",
+        "properties": {
+          "建议值范围": "2.0～2.5",
+          "证据": {
+            "chunk_index": 1287,
+            "source": "北京老年医院",
+            "text": "如与华法林联合时，国际标准化比值应控制在2.0～2.5"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "阿司匹林可能导致出血",
+        "properties": {
+          "证据": {
+            "chunk_index": 1287,
+            "source": "北京老年医院",
+            "text": "其次要注重预防和监测出血不良反应"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "APPLIES_TO",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "出血不良反应适用于胃肠道出血高危人群",
+        "properties": {
+          "证据": {
+            "chunk_index": 1287,
+            "source": "北京老年医院",
+            "text": "胃肠道出血高危人群可预防性给予抑酸药物等"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "name": "阿司匹林属于非甾体抗炎药",
+        "properties": {
+          "证据": {
+            "chunk_index": 1287,
+            "source": "北京老年医院",
+            "text": "非甾体抗炎药（NSAIDs）具有解热镇痛、抗炎抗风湿作用...特异性COX-1抑制剂（小剂量阿司匹林<300mg/每日）"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "name": "小剂量阿司匹林与其他非甾体抗炎药联合应用",
+        "properties": {
+          "后果": [
+            "胃肠道不良反应增加",
+            "抗血小板疗效受影响"
+          ],
+          "证据": {
+            "chunk_index": 1287,
+            "source": "北京老年医院",
+            "text": "小剂量阿司匹林与其他非甾体抗炎药类药物联合应用可能导致两方面的问题：胃肠道不良反应增加，抗血小板疗效受影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_12",
+        "name": "布洛芬属于非选择性COX抑制剂",
+        "properties": {
+          "证据": {
+            "chunk_index": 1287,
+            "source": "北京老年医院",
+            "text": "非选择性COX抑制剂(高剂量阿司匹林、布洛芬、双氯芬酸钠、吲哚美辛、安乃近等)"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_15",
+        "target_id": "ent_12",
+        "name": "双氯芬酸钠属于非选择性COX抑制剂",
+        "properties": {
+          "证据": {
+            "chunk_index": 1287,
+            "source": "北京老年医院",
+            "text": "非选择性COX抑制剂(高剂量阿司匹林、布洛芬、双氯芬酸钠、吲哚美辛、安乃近等)"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_16",
+        "target_id": "ent_12",
+        "name": "吲哚美辛属于非选择性COX抑制剂",
+        "properties": {
+          "证据": {
+            "chunk_index": 1287,
+            "source": "北京老年医院",
+            "text": "非选择性COX抑制剂(高剂量阿司匹林、布洛芬、双氯芬酸钠、吲哚美辛、安乃近等)"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_17",
+        "target_id": "ent_12",
+        "name": "安乃近属于非选择性COX抑制剂",
+        "properties": {
+          "证据": {
+            "chunk_index": 1287,
+            "source": "北京老年医院",
+            "text": "非选择性COX抑制剂(高剂量阿司匹林、布洛芬、双氯芬酸钠、吲哚美辛、安乃近等)"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "name": "阿司匹林与布洛芬相互作用",
+        "properties": {
+          "机制": "竞争抑制",
+          "机制实体": "ent_7",
+          "靶点": "COX-1",
+          "靶点实体": "ent_8",
+          "后果": [
+            "影响阿司匹林抗血小板效应"
+          ],
+          "建议": "给药间隔>5小时可能减小其相互作用",
+          "证据": {
+            "chunk_index": 1287,
+            "source": "北京老年医院",
+            "text": "其中布洛芬与阿司匹林共同作用于COX-1结合位点，产生竞争抑制，而影响阿司匹林抗血小板效应。若小剂量阿司匹林与非选择性COX抑制剂联合用药，可导致消化道不良反应增加，给药间隔>5小时可能减小其相互作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_11",
+        "target_id": "ent_7",
+        "name": "阿司匹林与布洛芬相互作用的机制是竞争抑制",
+        "properties": {}
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_12",
+        "name": "小剂量阿司匹林与非选择性COX抑制剂联合用药",
+        "properties": {
+          "后果": [
+            "消化道不良反应增加"
+          ],
+          "建议": "给药间隔>5小时可能减小其相互作用",
+          "证据": {
+            "chunk_index": 1287,
+            "source": "北京老年医院",
+            "text": "若小剂量阿司匹林与非选择性COX抑制剂联合用药，可导致消化道不良反应增加，给药间隔>5小时可能减小其相互作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_13",
+        "target_id": "ent_14",
+        "name": "选择性COX-2抑制剂可能增加血栓栓塞事件风险",
+        "properties": {
+          "机制": "只抑制前列环素，不抑制血栓素A2",
+          "证据": {
+            "chunk_index": 1287,
+            "source": "北京老年医院",
+            "text": "然而，由于选择性COX-2抑制剂只抑制前列环素,而不抑制血栓素A2的产生，可能会增加血栓栓塞事件的风险"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1287,
+    "source": "北京老年医院",
+    "text": "。首先要评估联合抗凝治疗的必要性，应该将抗凝药物和阿司匹林调整到最低有效剂量，如与华法林联合时，国际标准化比值应控制在2.0～2.5，阿司匹林的剂量不要超过100mg/天。其次要注重预防和监测出血不良反应，胃肠道出血高危人群可预防性给予抑酸药物等。03阿司匹林与其他非甾体抗炎药类药物可以联合应用吗？非甾体抗炎药（NSAIDs）具有解热镇痛、抗炎抗风湿作用，根据其抑制环氧化酶（COX）亚型的种类不同分为以下四类：特异性COX-1抑制剂（小剂量阿司匹林<300mg/每日）小剂量阿司匹林与其他非甾体抗炎药类药物联合应用可能导致两方面的问题：胃肠道不良反应增加，抗血小板疗效受影响。非选择性COX抑制剂(高剂量阿司匹林、布洛芬、双氯芬酸钠、吲哚美辛、安乃近等)可以同时抑制COX-1和COX-2 ,几乎所有非选择性NSAIDs均可抑制血小板聚集，但是除了阿司匹林以外，对血小板的抑制作用较弱且都是可逆的。其中布洛芬与阿司匹林共同作用于COX-1结合位点，产生竞争抑制，而影响阿司匹林抗血小板效应。若小剂量阿司匹林与非选择性COX抑制剂联合用药，可导致消化道不良反应增加，给药间隔>5小时可能减小其相互作用。选择性COX-2抑制剂与特异性COX-2抑制剂以上两类药物对COX-1几乎无抑制作用，相较于非选择性COX抑制剂，它们在抗炎症反应的同时不抑制胃肠黏膜中起保护作用的前列腺素的合成，从而减轻了胃肠道不良反应。然而，由于选择性COX-2抑制剂只抑制前列环素,而不抑制血栓素A2的产生，可能会增加血栓栓塞事件的风险"
+  }
+]

@@ -1,0 +1,433 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "β-内酰胺类抗菌药",
+        "properties": {
+          "alias": [
+            "青霉素类",
+            "头孢菌素类",
+            "头霉素类",
+            "氧头孢烯类",
+            "碳青霉烯类",
+            "单环类"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "大环内酯类抗菌药",
+        "properties": {
+          "alias": [
+            "14元环大环内酯类",
+            "15元环大环内酯类",
+            "16元环大环内酯类"
+          ]
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "泰利霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "CYP3A5",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "他汀类降脂药",
+        "properties": {
+          "alias": [
+            "脂溶性他汀类药"
+          ]
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "辛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "洛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "SideEffect",
+        "name": "横纹肌溶解",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "钙离子拮抗剂",
+        "properties": {
+          "alias": [
+            "CCB类降压药"
+          ]
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "硝苯地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "氨氯地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "非洛地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "SideEffect",
+        "name": "严重低血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "DrugClass",
+        "name": "DPP-4抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "沙格列汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": "1509",
+          "source": "医脉通泌尿外科"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "name": "属于类别",
+        "properties": {}
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "name": "属于类别",
+        "properties": {}
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_2",
+        "name": "属于类别",
+        "properties": {}
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_9",
+        "name": "属于类别",
+        "properties": {}
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_9",
+        "name": "属于类别",
+        "properties": {}
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_12",
+        "target_id": "ent_9",
+        "name": "属于类别",
+        "properties": {}
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_15",
+        "target_id": "ent_14",
+        "name": "属于类别",
+        "properties": {}
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_16",
+        "target_id": "ent_14",
+        "name": "属于类别",
+        "properties": {}
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_17",
+        "target_id": "ent_14",
+        "name": "属于类别",
+        "properties": {}
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_20",
+        "target_id": "ent_19",
+        "name": "属于类别",
+        "properties": {}
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "name": "作用机制",
+        "properties": {
+          "mechanism_type": "抑制",
+          "evidence": {
+            "chunk_index": 1509,
+            "source": "医脉通泌尿外科",
+            "text": "大环内酯类（除阿奇霉素外）如克拉霉素、红霉素、泰利霉素通常对CYP3A4/5和P-gp有较强的抑制作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "name": "作用机制",
+        "properties": {
+          "mechanism_type": "抑制",
+          "evidence": {
+            "chunk_index": 1509,
+            "source": "医脉通泌尿外科",
+            "text": "大环内酯类（除阿奇霉素外）如克拉霉素、红霉素、泰利霉素通常对CYP3A4/5和P-gp有较强的抑制作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "name": "作用机制",
+        "properties": {
+          "mechanism_type": "抑制",
+          "evidence": {
+            "chunk_index": 1509,
+            "source": "医脉通泌尿外科",
+            "text": "大环内酯类（除阿奇霉素外）如克拉霉素、红霉素、泰利霉素通常对CYP3A4/5和P-gp有较强的抑制作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP3A4抑制",
+          "consequence": "增加横纹肌溶解风险",
+          "suggestion": "需谨慎或避免联用",
+          "evidence": {
+            "chunk_index": 1509,
+            "source": "医脉通泌尿外科",
+            "text": "他汀类降脂药：脂溶性他汀类药（辛伐他汀、洛伐他汀和阿托伐他汀）在体内主要通过CYP3A4代谢，与CYP3A4强抑制剂如克拉霉素、红霉素、泰利霉素合用可显著减慢前者的代谢，增加横纹肌溶解风险，需谨慎或避免联用。"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_9",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP3A4抑制",
+          "consequence": "增加横纹肌溶解风险",
+          "suggestion": "需谨慎或避免联用",
+          "evidence": {
+            "chunk_index": 1509,
+            "source": "医脉通泌尿外科",
+            "text": "他汀类降脂药：脂溶性他汀类药（辛伐他汀、洛伐他汀和阿托伐他汀）在体内主要通过CYP3A4代谢，与CYP3A4强抑制剂如克拉霉素、红霉素、泰利霉素合用可显著减慢前者的代谢，增加横纹肌溶解风险，需谨慎或避免联用。"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_9",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP3A4抑制",
+          "consequence": "增加横纹肌溶解风险",
+          "suggestion": "需谨慎或避免联用",
+          "evidence": {
+            "chunk_index": 1509,
+            "source": "医脉通泌尿外科",
+            "text": "他汀类降脂药：脂溶性他汀类药（辛伐他汀、洛伐他汀和阿托伐他汀）在体内主要通过CYP3A4代谢，与CYP3A4强抑制剂如克拉霉素、红霉素、泰利霉素合用可显著减慢前者的代谢，增加横纹肌溶解风险，需谨慎或避免联用。"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_14",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP3A4抑制",
+          "consequence": "增强降压效果，可能致严重低血压",
+          "evidence": {
+            "chunk_index": 1509,
+            "source": "医脉通泌尿外科",
+            "text": "钙离子拮抗剂（CCB）类降压药：如硝苯地平、氨氯地平、非洛地平等，主要经肝脏CYP3A4代谢，CYP3A4强抑制剂如克拉霉素能够显著抑制其代谢，而增强降压效果，可能致严重低血压。"
+          }
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_19",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP3A4/5抑制",
+          "consequence": "显著升高沙格列汀的血药浓度",
+          "suggestion": "合用时沙格列汀的日剂量不应超过2.5 mg",
+          "evidence": {
+            "chunk_index": 1509,
+            "source": "医脉通泌尿外科",
+            "text": "DPP-4抑制剂：降糖药沙格列汀主要通过CYP3A4/5代谢，与CYP3A4/5强抑制剂如克拉霉素、泰利霉素合用时，能显著升高前者的血药浓度，合用时沙格列汀的日剂量不应超过2.5 mg"
+          }
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_19",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP3A4/5抑制",
+          "consequence": "显著升高沙格列汀的血药浓度",
+          "suggestion": "合用时沙格列汀的日剂量不应超过2.5 mg",
+          "evidence": {
+            "chunk_index": 1509,
+            "source": "医脉通泌尿外科",
+            "text": "DPP-4抑制剂：降糖药沙格列汀主要通过CYP3A4/5代谢，与CYP3A4/5强抑制剂如克拉霉素、泰利霉素合用时，能显著升高前者的血药浓度，合用时沙格列汀的日剂量不应超过2.5 mg"
+          }
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_3",
+        "target_id": "ent_21",
+        "name": "影响指标",
+        "properties": {
+          "effect": "升高",
+          "target_drug": "沙格列汀",
+          "evidence": {
+            "chunk_index": 1509,
+            "source": "医脉通泌尿外科",
+            "text": "与CYP3A4/5强抑制剂如克拉霉素、泰利霉素合用时，能显著升高前者的血药浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_5",
+        "target_id": "ent_21",
+        "name": "影响指标",
+        "properties": {
+          "effect": "升高",
+          "target_drug": "沙格列汀",
+          "evidence": {
+            "chunk_index": 1509,
+            "source": "医脉通泌尿外科",
+            "text": "与CYP3A4/5强抑制剂如克拉霉素、泰利霉素合用时，能显著升高前者的血药浓度"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1509,
+    "source": "医脉通泌尿外科",
+    "text": "作者：高丽丽本文为作者授权医脉通发布，未经授权请勿转载。导读 抗菌药是对细菌等微生物有抑制或杀灭作用的一类药物，包括抗生素和人工合成抗菌药，如β-内酰胺类抗菌药、大环内酯类抗菌药、喹诺酮类抗菌药等。那么，使用这三类抗菌药，需注意其他哪些药物呢？这篇文章带您了解下。一、β-内酰胺类抗菌药如青霉素类、头孢菌素类、头霉素类、氧头孢烯类、碳青霉烯类、单环类（氨曲南）等。图1 （点击可查看大图）二、大环内酯类抗菌药根据化学结构，大环内酯类可分为14元环（如红霉素、罗红霉素、克拉霉素、泰利霉素、地红霉素、喹红霉素等）、15元环（如阿奇霉素等）、16元环（如螺旋霉素、麦迪霉素、乙酰螺旋霉素、乙酰麦迪霉素、交沙霉素、吉他霉素等）。大环内酯类（除阿奇霉素外）如克拉霉素、红霉素、泰利霉素通常对CYP3A4/5和P-gp有较强的抑制作用。（1）他汀类降脂药：脂溶性他汀类药（辛伐他汀、洛伐他汀和阿托伐他汀）在体内主要通过CYP3A4代谢，与CYP3A4强抑制剂如克拉霉素、红霉素、泰利霉素合用可显著减慢前者的代谢，增加横纹肌溶解风险，需谨慎或避免联用。（2）钙离子拮抗剂（CCB）类降压药：如硝苯地平、氨氯地平、非洛地平等，主要经肝脏CYP3A4代谢，CYP3A4强抑制剂如克拉霉素能够显著抑制其代谢，而增强降压效果，可能致严重低血压。（3）DPP-4抑制剂：降糖药沙格列汀主要通过CYP3A4/5代谢，与CYP3A4/5强抑制剂如克拉霉素、泰利霉素合用时，能显著升高前者的血药浓度，合用时沙格列汀的日剂量不应超过2.5 mg"
+  }
+]

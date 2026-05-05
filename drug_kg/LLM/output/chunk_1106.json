@@ -1,0 +1,194 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利伐沙班",
+        "properties": {
+          "通用名": "利伐沙班",
+          "剂型": "口服",
+          "规格": [
+            "10 mg",
+            "15 mg",
+            "20 mg"
+          ],
+          "生物利用度": "80%～100%（10 mg剂量）",
+          "达峰时间": "2～4 h",
+          "血浆蛋白结合率": "92%～95%",
+          "主要结合蛋白": "白蛋白"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP2J2",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "水解酶",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体",
+          "别名列表": [
+            "P糖蛋白"
+          ]
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "BCRP",
+        "properties": {
+          "类型": "转运体",
+          "别名列表": [
+            "乳腺癌耐药蛋白"
+          ]
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "抗凝药物",
+        "properties": {
+          "名称": "抗凝药物"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "利伐沙班可能导致出血",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1106,
+            "source": "凡默谷",
+            "text": "出血是一种存在于全部抗凝药物中的致命不良反应，利伐沙班也不例外［10］。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "利伐沙班属于抗凝药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1106,
+            "source": "凡默谷",
+            "text": "出血是一种存在于全部抗凝药物中的致命不良反应，利伐沙班也不例外［10］。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "利伐沙班经CYP3A4代谢",
+        "properties": {
+          "机制": "代谢",
+          "evidence": {
+            "chunk_index": 1106,
+            "source": "凡默谷",
+            "text": "约有 51% 在肝脏代谢，经由细胞色素P450酶（CYP）3A4、CYP2J2及水解酶将其转化为无活性的代谢产物"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "利伐沙班经CYP2J2代谢",
+        "properties": {
+          "机制": "代谢",
+          "evidence": {
+            "chunk_index": 1106,
+            "source": "凡默谷",
+            "text": "约有 51% 在肝脏代谢，经由细胞色素P450酶（CYP）3A4、CYP2J2及水解酶将其转化为无活性的代谢产物"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "利伐沙班经水解酶代谢",
+        "properties": {
+          "机制": "代谢",
+          "evidence": {
+            "chunk_index": 1106,
+            "source": "凡默谷",
+            "text": "肝脏水解酶的水解作用约占总代谢的14%［7］"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "利伐沙班受P-gp转运体影响",
+        "properties": {
+          "机制": "转运",
+          "evidence": {
+            "chunk_index": 1106,
+            "source": "凡默谷",
+            "text": "体内过程涉及到的转运体主要有 P 糖蛋白（P-gp）以及乳腺癌耐药蛋白（BCRP）［8-9］"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "利伐沙班受BCRP转运体影响",
+        "properties": {
+          "机制": "转运",
+          "evidence": {
+            "chunk_index": 1106,
+            "source": "凡默谷",
+            "text": "体内过程涉及到的转运体主要有 P 糖蛋白（P-gp）以及乳腺癌耐药蛋白（BCRP）［8-9］"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1106,
+    "source": "凡默谷",
+    "text": "。 关于利伐沙班的体内药动学行为，已有大量文 献报道。利伐沙班的常用临床剂量有 3 种：10、15、 20 mg，其中 10 mg 口服绝对生物利用度可达到 80%～100%，且不受饮食影响［5］ 。利伐沙班单次口 服 2～4 h 后在体内达到最大血药浓度（Cmax），几乎 完全吸收［6］ 。血浆蛋白结合率可达到 92%～95%， 主要结合蛋白为白蛋白。已有文献表明：利伐沙班 被吸收入血后，约有 51% 在肝脏代谢，经由细胞色 素P450酶（CYP）3A4、CYP2J2及水解酶将其转化为无活性的代谢产物，其中肝脏水解酶的水解作用约 占总代谢的14%［7］ 。代谢产物中30%经过尿液排出 体外，21% 通过胆汁进入肠道随粪便排泄；口服剂 量中约 43%保持原型，同样经过尿液及粪便两种途 径排泄。体内过程涉及到的转运体主要有 P 糖蛋 白（P-gp）以及乳腺癌耐药蛋白（BCRP）［8-9］ 。因此， 代谢酶 CYP3A4、CYP2J2，以及转运体 P-gp、BCRP 成为利伐沙班与临床药物相互作用的重要靶点。出血是一种存在于全部抗凝药物中的致命不 良反应，利伐沙班也不例外［10］ 。综述利伐沙班与临 床药物之间的药物-药物相互作用（DDI）将会为临 床用药提供有效的预警与理论指导。本文聚焦药物代谢酶及转运体，分别从利伐沙班与心血管系统 药物、抗肿瘤药物、以及代谢靶点相关药物合用等 方面系统综述药动学介导的利伐沙班相关 DDI 的 研究进展，旨在为利伐沙班的临床合理用药提供更 科学、更直接的指导依据"
+  }
+]

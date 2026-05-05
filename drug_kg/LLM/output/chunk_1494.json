@@ -1,0 +1,410 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "瑞舒伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "普伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "匹伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "他汀类",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP2C9",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP2C8",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "OATP1B1",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "葡萄糖醛酸转移酶",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "抗真菌药",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "抗抑郁药",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "钙离子通道拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "类固醇激素",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "抗病毒药",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "SideEffect",
+        "name": "急性肝衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "SideEffect",
+        "name": "横纹肌溶解",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "肝损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Evidence",
+        "name": "医脉通心血管",
+        "properties": {
+          "chunk_id": "1494",
+          "source": "医脉通心血管"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "属于类别",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "瑞舒伐他汀受CYP2C9少量影响，但总体上普伐他汀与瑞舒伐他汀受CYP的影响较小。匹伐他汀经CYP2C8、CYP2C9少量代谢。除了酶以外，他汀代谢同时受肝、肠道或肾的转运体影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "属于类别",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "瑞舒伐他汀受CYP2C9少量影响，但总体上普伐他汀与瑞舒伐他汀受CYP的影响较小。匹伐他汀经CYP2C8、CYP2C9少量代谢。除了酶以外，他汀代谢同时受肝、肠道或肾的转运体影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "属于类别",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "瑞舒伐他汀受CYP2C9少量影响，但总体上普伐他汀与瑞舒伐他汀受CYP的影响较小。匹伐他汀经CYP2C8、CYP2C9少量代谢。除了酶以外，他汀代谢同时受肝、肠道或肾的转运体影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "涉及机制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "瑞舒伐他汀受CYP2C9少量影响"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "name": "涉及机制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "匹伐他汀经CYP2C8、CYP2C9少量代谢。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "name": "涉及机制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "匹伐他汀经CYP2C8、CYP2C9少量代谢。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "涉及机制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "所有他汀吸收进入肝细胞都需要OATP1B1的参与。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "name": "涉及机制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "P-gp可以将多种他汀排入胆道或肠道"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_9",
+        "name": "涉及机制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "葡萄糖醛酸转移酶可以使多种他汀变得易于消除"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_11",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP3A4代谢",
+          "consequence": "互相影响血药浓度，可能造成急性肝衰竭、横纹肌溶解等严重副作用",
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "最常见的是CYP3A4代谢的他汀，会与抗生素、抗真菌药、抗抑郁药、钙离子通道拮抗剂、类固醇激素、抗病毒药等多种药物作用，互相影响血药浓度，从而可能造成急性肝衰竭、横纹肌溶解等严重副作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_12",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP3A4代谢",
+          "consequence": "互相影响血药浓度，可能造成急性肝衰竭、横纹肌溶解等严重副作用",
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "最常见的是CYP3A4代谢的他汀，会与抗生素、抗真菌药、抗抑郁药、钙离子通道拮抗剂、类固醇激素、抗病毒药等多种药物作用，互相影响血药浓度，从而可能造成急性肝衰竭、横纹肌溶解等严重副作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_13",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP3A4代谢",
+          "consequence": "互相影响血药浓度，可能造成急性肝衰竭、横纹肌溶解等严重副作用",
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "最常见的是CYP3A4代谢的他汀，会与抗生素、抗真菌药、抗抑郁药、钙离子通道拮抗剂、类固醇激素、抗病毒药等多种药物作用，互相影响血药浓度，从而可能造成急性肝衰竭、横纹肌溶解等严重副作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_14",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP3A4代谢",
+          "consequence": "互相影响血药浓度，可能造成急性肝衰竭、横纹肌溶解等严重副作用",
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "最常见的是CYP3A4代谢的他汀，会与抗生素、抗真菌药、抗抑郁药、钙离子通道拮抗剂、类固醇激素、抗病毒药等多种药物作用，互相影响血药浓度，从而可能造成急性肝衰竭、横纹肌溶解等严重副作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_15",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP3A4代谢",
+          "consequence": "互相影响血药浓度，可能造成急性肝衰竭、横纹肌溶解等严重副作用",
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "最常见的是CYP3A4代谢的他汀，会与抗生素、抗真菌药、抗抑郁药、钙离子通道拮抗剂、类固醇激素、抗病毒药等多种药物作用，互相影响血药浓度，从而可能造成急性肝衰竭、横纹肌溶解等严重副作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_16",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP3A4代谢",
+          "consequence": "互相影响血药浓度，可能造成急性肝衰竭、横纹肌溶解等严重副作用",
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "最常见的是CYP3A4代谢的他汀，会与抗生素、抗真菌药、抗抑郁药、钙离子通道拮抗剂、类固醇激素、抗病毒药等多种药物作用，互相影响血药浓度，从而可能造成急性肝衰竭、横纹肌溶解等严重副作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_17",
+        "name": "可能导致",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "从而可能造成急性肝衰竭、横纹肌溶解等严重副作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_18",
+        "name": "可能导致",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "从而可能造成急性肝衰竭、横纹肌溶解等严重副作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_19",
+        "name": "可能导致",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1494,
+            "source": "医脉通心血管",
+            "text": "关于他汀与其他药物相互作用所致的肝损伤"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1494,
+    "source": "医脉通心血管",
+    "text": "。瑞舒伐他汀受CYP2C9少量影响，但总体上普伐他汀与瑞舒伐他汀受CYP的影响较小。匹伐他汀经CYP2C8、CYP2C9少量代谢。除了酶以外，他汀代谢同时受肝、肠道或肾的转运体影响。所有他汀吸收进入肝细胞都需要OATP1B1的参与。P-gp可以将多种他汀排入胆道或肠道，葡萄糖醛酸转移酶可以使多种他汀变得易于消除，如果受阻滞会均使相关他汀滞留。表1  影响他汀的因素关于他汀与其他药物相互作用所致的肝损伤，尽管目前没有大型临床研究证实，而且在所谓他汀肝损伤中占到的比例也未可知，不过个案报道已非常普遍，不乏一些非常严重的病例。最常见的是CYP3A4代谢的他汀，会与抗生素、抗真菌药、抗抑郁药、钙离子通道拮抗剂、类固醇激素、抗病毒药等多种药物作用，互相影响血药浓度，从而可能造成急性肝衰竭、横纹肌溶解等严重副作用。除此外，其他酶及转运体受影响后造成肝损害也时有报道，需要我们一起警惕"
+  }
+]

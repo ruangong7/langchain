@@ -1,0 +1,157 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利伐沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "氟康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP2J2",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "唑类抗真菌药",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "酮康唑与利伐沙班联用导致利伐沙班体内蓄积，增加出血风险",
+        "properties": {
+          "mechanism": [
+            "抑制CYP3A4",
+            "抑制P-gp"
+          ],
+          "effect": {
+            "AUC_increase_percent": 82,
+            "Cmax_increase_percent": 53,
+            "clearance_decrease_percent": 45
+          },
+          "risk": "增加出血风险",
+          "recommendation": "应避免联用",
+          "evidence": {
+            "chunk_index": 1113,
+            "source": "凡默谷",
+            "text": "酮康唑对利伐沙班药动学影响的研究结果显示：10 mg利伐沙班同时联用 200 mg酮康唑，血液中利伐沙班 AUC、Cmax分别增加 82%、53%。利伐沙班的表观清除率平均降低了 45%，提示利伐沙班的体内清除受到明显抑制；当酮康唑合用剂量达到 400 mg 时，利伐沙班的体内代谢被进一步抑制，AUC值提高了 158%，清除率降低了 61%。二者联用导致了利伐沙班的体内蓄积，增加出血风险，因此酮康唑作为强效 CYP3A4、P-gp 的抑制剂应该避免与利伐沙班联用［9，71］ 。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "氟康唑对利伐沙班的体内代谢影响较小",
+        "properties": {
+          "mechanism": [
+            "抑制CYP3A4"
+          ],
+          "effect": {
+            "AUC_increase_percent": "<50",
+            "Cmax_increase_percent": "<50"
+          },
+          "risk": "无临床相关性",
+          "recommendation": "",
+          "evidence": {
+            "chunk_index": 1113,
+            "source": "凡默谷",
+            "text": "与酮康唑不同，氟康唑仅作为CYP3A4抑制剂对利伐沙班的体内代谢影响较小，AUC、Cmax的增加都低于50%（表3），并未出现临床相关性［73-74］"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "name": "酮康唑属于唑类抗真菌药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1113,
+            "source": "凡默谷",
+            "text": "多种唑类抗真菌药都已被证实对 CYP3A4、P-gp有不同程度的抑制活性，其中酮康唑的抑制效果最为突出。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "name": "氟康唑属于唑类抗真菌药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1113,
+            "source": "凡默谷",
+            "text": "多种唑类抗真菌药都已被证实对 CYP3A4、P-gp有不同程度的抑制活性..."
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "利伐沙班可能导致出血",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1113,
+            "source": "凡默谷",
+            "text": "二者联用导致了利伐沙班的体内蓄积，增加出血风险"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1113,
+    "source": "凡默谷",
+    "text": "。P-gp作为肿瘤细胞多药耐药的重要靶点，参与 了大多数抗肿瘤药物的体内代谢。另外，CYP2J2 在肺癌、乳腺癌、前列腺癌等多种肿瘤组织中高表 达 ，同时在肿瘤的发生及转移过程中起重要作 用［12，68-70］ 。上述 3 点使得评估抗肿瘤药物与利伐沙 班之间发生DDI风险至关重要。3利伐沙班与其他药物合用 利伐沙班体内过程关系到代谢酶转运蛋白多 个靶点，因此存在大量关于评估作用于同样靶点的 药物与利伐沙班之间潜在 DDI的药动学研究，以下 内容综述了基于 CYP3A4、P-gp 的体内药动学研究 进展（相关体内动力学数据汇总于表3［71-76］ ），为全面 评估利伐沙班DDI发生的风险提供依据。 3.1 抗真菌药物 多种唑类抗真菌 药 都 已 被 证 实 对 CYP3A4、P-gp有不同程度的抑制活性，其中酮康唑的抑制效 果最为突出。酮康唑对利伐沙班药动学影响的研 究结果显示：10 mg利伐沙班同时联用 200 mg酮康 唑，血液中利伐沙班 AUC、Cmax分别增加 82%、53%。利伐沙班的表观清除率平均降低了 45%，提示利伐 沙班的体内清除受到明显抑制；当酮康唑合用剂量 达到 400 mg 时，利伐沙班的体内代谢被进一步抑 制，AUC值提高了 158%，清除率降低了 61%。二者 联用导致了利伐沙班的体内蓄积，增加出血风险， 因此酮康唑作为强效 CYP3A4、P-gp 的抑制剂应该 避免与利伐沙班联用［9，71］ 。与酮康唑不同，氟康唑 仅作为CYP3A4抑制剂对利伐沙班的体内代谢影响 较小，AUC、Cmax的增加都低于50%（表3），并未出现 临床相关性［73-74］"
+  }
+]

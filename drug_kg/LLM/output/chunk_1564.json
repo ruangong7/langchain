@@ -1,0 +1,129 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "Statins",
+        "properties": {
+          "alias": [
+            "他汀类药物"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Disease",
+        "name": "liver diseases",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "Cirrhosis",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "Chronic Hepatitis B",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "hepatitis C virus infection",
+        "properties": {}
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "医脉通神经科",
+        "properties": {
+          "chunk_id": 1564,
+          "source": "医脉通神经科",
+          "text": ". JAMA, 2016, 65(3): 2008-2024.[7] Pose E , Trebicka J , Mookerjee R P , et al. Statins: old drugs as new therapy for liver diseases?[J]. Journal of Hepatology, 2018.[8] Huang Y W , Lee C L , Yang S S , et al. Statins Reduce the Risk of Cirrhosis and Its Decompensation in Chronic Hepatitis B Patients: A Nationwide Cohort Study[J]. American Journal of Gastroenterology, 2017, 111(7): 976.[9] Yu M L. Statin use and the risk of cirrhosis development in patients with hepatitis C virus infection.[J]. Journal of Hepatology, 2015, 63(5): 1111-1117.[10] Simon T G , Bonilla H , Yan P , et al"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "他汀类药物治疗肝病",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1564,
+              "source": "医脉通神经科",
+              "text": "Statins: old drugs as new therapy for liver diseases?"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "他汀类药物降低肝硬化风险",
+        "properties": {
+          "effect_direction": "decrease",
+          "evidence": [
+            {
+              "chunk_index": 1564,
+              "source": "医脉通神经科",
+              "text": "Statins Reduce the Risk of Cirrhosis and Its Decompensation in Chronic Hepatitis B Patients"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "他汀类药物降低肝硬化风险",
+        "properties": {
+          "effect_direction": "decrease",
+          "evidence": [
+            {
+              "chunk_index": 1564,
+              "source": "医脉通神经科",
+              "text": "Statin use and the risk of cirrhosis development in patients with hepatitis C virus infection."
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_1",
+        "target_id": "ev_1",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_5",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_2",
+        "target_id": "ev_1",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_6",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_3",
+        "target_id": "ev_1",
+        "name": "证据支持",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1564,
+    "source": "医脉通神经科",
+    "text": ". JAMA, 2016, 65(3): 2008-2024.[7] Pose E , Trebicka J , Mookerjee R P , et al. Statins: old drugs as new therapy for liver diseases?[J]. Journal of Hepatology, 2018.[8] Huang Y W , Lee C L , Yang S S , et al. Statins Reduce the Risk of Cirrhosis and Its Decompensation in Chronic Hepatitis B Patients: A Nationwide Cohort Study[J]. American Journal of Gastroenterology, 2017, 111(7): 976.[9] Yu M L. Statin use and the risk of cirrhosis development in patients with hepatitis C virus infection.[J]. Journal of Hepatology, 2015, 63(5): 1111-1117.[10] Simon T G , Bonilla H , Yan P , et al"
+  }
+]

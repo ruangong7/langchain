@@ -1,0 +1,87 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "代谢酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "转运体",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Mechanism",
+        "name": "时间依赖性抑制",
+        "properties": {
+          "机制类型": "时间依赖性抑制"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Mechanism",
+        "name": "诱导作用",
+        "properties": {
+          "机制类型": "诱导作用"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_3",
+        "name": "药物相互作用涉及时间依赖性抑制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1209,
+            "source": "凡默谷",
+            "text": "课程将聚焦于代谢酶介导的时间依赖性抑制，诱导作用以及代谢酶与转运体共同参与介导的DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_4",
+        "name": "药物相互作用涉及诱导作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1209,
+            "source": "凡默谷",
+            "text": "课程将聚焦于代谢酶介导的时间依赖性抑制，诱导作用以及代谢酶与转运体共同参与介导的DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "代谢酶与转运体共同参与介导的DDI",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1209,
+            "source": "凡默谷",
+            "text": "课程将聚焦于代谢酶介导的时间依赖性抑制，诱导作用以及代谢酶与转运体共同参与介导的DDI"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1209,
+    "source": "凡默谷",
+    "text": "PBPK在复杂的药物相互作用DDI中的应用Addressing Complex Drug-Drug Interactions through PBPK Modeling and Simulation直播时间2025年10月28号 周二早   9:00-11:00语 言全中文演讲和问答主讲人张新元 Xinyuan (Susie) Zhang  博士Simulations Plus公司，法规事务部副总裁前FDA审评专家周海英  博士Simulations Plus公司，执行总监直播入口见下方海报请识别上图二维码进入直播间电脑端的会议链接（复制到浏览器）：https://88ws3.xetsl.com/sl/4suoeo如有问题，请添加凡默谷客服微信（请务必写清：姓名+单位）谢绝无关人员，谢绝广告方式线上直播（可回放）小鹅通（无需下载APP)微信端或电脑端均可观看课程简介生理药代动力学PBPK模型是预测复杂药物相互作用（DDI）的重要工具，尤其当临床研究难以开展时。本次公开课将重点探讨PBPK模型在多机制或多途径介导的DDI研究中的应用，通过案例分析展示其如何整合体外数据、生理参数与临床观测数据，以模拟不同联合给药方案的体内暴露。课程将聚焦于代谢酶介导的时间依赖性抑制，诱导作用以及代谢酶与转运体共同参与介导的DDI；并讨论监管机构的审评要点、模型验证的最佳实践，PBPK建模如何支持药物全生命周期研发决策。通过应用PBPK技术，科研与临床人员能够更精准地预测DDI、优化给药方案，从而提升患者的用药安全"
+  }
+]

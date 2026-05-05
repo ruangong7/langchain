@@ -1,0 +1,377 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "洛哌丁胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "多奈哌齐",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "西洛他唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "BCRP",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "心脏毒性",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "脱氢紫堇碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "OAT1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "OAT3",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "荷叶碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "OCT1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "MATE1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Enzyme",
+        "name": "CYP",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Symptom",
+        "name": "中枢神经系统副作用",
+        "properties": {}
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1055,
+          "source": "凡默谷",
+          "text": "值得强调的是，洛哌丁胺血药浓度升高的时间迟于中枢神经系统副作用表现的时间，因此单纯依靠血药浓度监测来判断有无不良DDI是不可取的，临床医务工作者应掌握药物转运体介导的DDI，更加安全合理地使用药物。此外，Takeuchi等研究发现，多奈哌齐和西洛他唑的联用会增加多奈哌齐在心脏和脑中的分布，原因在于两药都是BCRP的底物，联用后，多奈哌齐外排减少，增加了多奈哌齐在心脏和脑中的分布，这是两药联用后出现明显心脏毒性的主要原因[13]。Chen等发现，当脱氢紫堇碱与OAT1及OAT3的抑制剂联用时，由于发生DDI,导致脱氢紫堇碱在心脏分布减少[14]。治疗肥胖相关疾病的药物荷叶碱与治疗糖尿病药物二甲双胍联用，由于两药在OCT1和MATE1发生DDI，导致二甲双胍在靶器官肝脏中的分布减少[15]。2.3转运体介导DDI对药物代谢的影响发生在代谢过程的DDI约占药代动力学相互作用的40%，也是最具临床意义的一类相互作用。一般认为，由于转运体没有使药物的化学结构发生改变，因此药物转运体没有代谢药物的功能，仅具有转运药物的能力。随着研究的深人，现今认为药物转运体也参与某些药物的代谢过程，主要表现在影响既是某转运体的底物（或抑制剂）同时又是细胞色素P450酶（CYP)系中某CYP亚型的底物（或抑制剂）的药物的代谢过程，临床上这类药物发生的DDI必须加倍重视"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "多奈哌齐与西洛他唑联用",
+        "properties": {
+          "mechanism": "两药均为BCRP底物，联用后多奈哌齐外排减少",
+          "consequence": "增加多奈哌齐在心脏和脑中的分布，导致明显心脏毒性",
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "Takeuchi等研究发现，多奈哌齐和西洛他唑的联用会增加多奈哌齐在心脏和脑中的分布，原因在于两药都是BCRP的底物，联用后，多奈哌齐外排减少，增加了多奈哌齐在心脏和脑中的分布，这是两药联用后出现明显心脏毒性的主要原因[13]。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "脱氢紫堇碱与OAT1抑制剂联用",
+        "properties": {
+          "mechanism": "OAT1抑制剂导致脱氢紫堇碱在心脏分布减少",
+          "consequence": "脱氢紫堇碱在心脏分布减少",
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "Chen等发现，当脱氢紫堇碱与OAT1及OAT3的抑制剂联用时，由于发生DDI,导致脱氢紫堇碱在心脏分布减少[14]。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "name": "脱氢紫堇碱与OAT3抑制剂联用",
+        "properties": {
+          "mechanism": "OAT3抑制剂导致脱氢紫堇碱在心脏分布减少",
+          "consequence": "脱氢紫堇碱在心脏分布减少",
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "Chen等发现，当脱氢紫堇碱与OAT1及OAT3的抑制剂联用时，由于发生DDI,导致脱氢紫堇碱在心脏分布减少[14]。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "name": "荷叶碱与二甲双胍联用",
+        "properties": {
+          "mechanism": "两药在OCT1和MATE1发生DDI",
+          "consequence": "二甲双胍在肝脏中的分布减少",
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "治疗肥胖相关疾病的药物荷叶碱与治疗糖尿病药物二甲双胍联用，由于两药在OCT1和MATE1发生DDI，导致二甲双胍在靶器官肝脏中的分布减少[15]。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "name": "洛哌丁胺影响血药浓度监测可靠性",
+        "properties": {
+          "consequence": "血药浓度升高时间迟于中枢神经系统副作用表现，不能单靠血药浓度判断DDI",
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "值得强调的是，洛哌丁胺血药浓度升高的时间迟于中枢神经系统副作用表现的时间，因此单纯依靠血药浓度监测来判断有无不良DDI是不可取的"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_15",
+        "name": "洛哌丁胺可能导致中枢神经系统副作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "洛哌丁胺血药浓度升高的时间迟于中枢神经系统副作用表现的时间"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_1",
+        "target_id": "ent_5",
+        "name": "多奈哌齐与西洛他唑联用增加心脏毒性风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "这是两药联用后出现明显心脏毒性的主要原因[13]。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_1",
+        "target_id": "ent_4",
+        "name": "多奈哌齐与西洛他唑联用机制涉及BCRP",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "原因在于两药都是BCRP的底物"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_4",
+        "target_id": "ent_11",
+        "name": "荷叶碱与二甲双胍联用机制涉及OCT1",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "由于两药在OCT1和MATE1发生DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_4",
+        "target_id": "ent_12",
+        "name": "荷叶碱与二甲双胍联用机制涉及MATE1",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "由于两药在OCT1和MATE1发生DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_2",
+        "target_id": "ent_7",
+        "name": "脱氢紫堇碱与OAT1抑制剂联用机制涉及OAT1",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "当脱氢紫堇碱与OAT1及OAT3的抑制剂联用时"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_3",
+        "target_id": "ent_8",
+        "name": "脱氢紫堇碱与OAT3抑制剂联用机制涉及OAT3",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "当脱氢紫堇碱与OAT1及OAT3的抑制剂联用时"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_11",
+        "name": "CYP与OCT1共同影响药物代谢",
+        "properties": {
+          "mechanism": "药物同时为CYP和转运体底物/抑制剂时，转运体参与代谢过程",
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "现今认为药物转运体也参与某些药物的代谢过程，主要表现在影响既是某转运体的底物（或抑制剂）同时又是细胞色素P450酶（CYP)系中某CYP亚型的底物（或抑制剂）的药物的代谢过程"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_12",
+        "name": "CYP与MATE1共同影响药物代谢",
+        "properties": {
+          "mechanism": "药物同时为CYP和转运体底物/抑制剂时，转运体参与代谢过程",
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "现今认为药物转运体也参与某些药物的代谢过程，主要表现在影响既是某转运体的底物（或抑制剂）同时又是细胞色素P450酶（CYP)系中某CYP亚型的底物（或抑制剂）的药物的代谢过程"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_4",
+        "name": "CYP与BCRP共同影响药物代谢",
+        "properties": {
+          "mechanism": "药物同时为CYP和转运体底物/抑制剂时，转运体参与代谢过程",
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "现今认为药物转运体也参与某些药物的代谢过程，主要表现在影响既是某转运体的底物（或抑制剂）同时又是细胞色素P450酶（CYP)系中某CYP亚型的底物（或抑制剂）的药物的代谢过程"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_7",
+        "name": "CYP与OAT1共同影响药物代谢",
+        "properties": {
+          "mechanism": "药物同时为CYP和转运体底物/抑制剂时，转运体参与代谢过程",
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "现今认为药物转运体也参与某些药物的代谢过程，主要表现在影响既是某转运体的底物（或抑制剂）同时又是细胞色素P450酶（CYP)系中某CYP亚型的底物（或抑制剂）的药物的代谢过程"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_8",
+        "name": "CYP与OAT3共同影响药物代谢",
+        "properties": {
+          "mechanism": "药物同时为CYP和转运体底物/抑制剂时，转运体参与代谢过程",
+          "evidence": {
+            "chunk_index": 1055,
+            "source": "凡默谷",
+            "text": "现今认为药物转运体也参与某些药物的代谢过程，主要表现在影响既是某转运体的底物（或抑制剂）同时又是细胞色素P450酶（CYP)系中某CYP亚型的底物（或抑制剂）的药物的代谢过程"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1055,
+    "source": "凡默谷",
+    "text": "。值得强调的是，洛哌 丁胺血药浓度升高的时间迟于中枢神经系统副作 用表现的时间，因此单纯依靠血药浓度监测来判 断有无不良DDI是不可取的，临床医务工作者应掌握药物转运体介导的DDI，更加安全合理地使 用药物。此外，Takeuchi等研究发现，多奈哌齐和 西洛他唑的联用会增加多奈哌齐在心脏和脑中的 分布，原因在于两药都是BCRP的底物，联用后， 多奈哌齐外排减少，增加了多奈哌齐在心脏和脑 中的分布，这是两药联用后出现明显心脏毒性的 主要原因[13]。Chen等发现，当脱氢紫堇碱与 OAT1及OAT3的抑制剂联用时，由于发生DDI,导 致脱氢紫堇碱在心脏分布减少[14]。治疗肥胖相 关疾病的药物荷叶碱与治疗糖尿病药物二甲双胍 联用，由于两药在OCT1和MATE1发生DDI，导致 二甲双胍在靶器官肝脏中的分布减少[15]。2.3转运体介导DDI对药物代谢的影响发生 在代谢过程的DDI约占药代动力学相互作用的 40%，也是最具临床意义的一类相互作用。一般 认为，由于转运体没有使药物的化学结构发生改变，因此药物转运体没有代谢药物的功能，仅具有 转运药物的能力。随着研究的深人，现今认为药 物转运体也参与某些药物的代谢过程，主要表现 在影响既是某转运体的底物（或抑制剂）同时又 是细胞色素P450酶（CYP)系中某CYP亚型的底 物（或抑制剂）的药物的代谢过程，临床上这类药 物发生的DDI必须加倍重视"
+  }
+]

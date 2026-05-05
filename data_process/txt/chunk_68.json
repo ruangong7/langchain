@@ -1,0 +1,7 @@
+[
+  {
+    "text": "。GRAS / IIG化合物的三个最常预测的靶点是聚腺苷酸结合蛋白1（127个预测值），脂肪酸结合蛋白3（95个预测值）和鞘氨醇1-磷酸酯受体Edg-3（89个预测值），它们分别与眼-咽肌营养不良、心脏利用脂肪酸和多发性硬化症有关。重要的是，以前报道的生物活性数量与GRAS / IIG化合物的预测生物活性数量之间没有强相关性（Pearson线性相关r = 0.17；见图1C），这表明安全化合物存在大量未知的多药理学空间，并且作者的机器学习方法独立于先前获取的GRAS和IIG化合物的生物活性数据。图1.非活性成分（IIG）和安全（GRAS）化合物类似于FDA批准的药物，并具有已知或潜在的新型生物活性（A）显示了研究的总体流程和所利用的数据集。（从FDA网站（https://www.fda.gov）提取并整理了通常被认为是GRAS和IIG化合物的CAS号，并使用CACTUS NIH网络服务器（https://cactus.nci.nih.gov）将其转换为SMILES结构表示形式。这些化学表示被用来计算其理化特性（http://rdkit.org），并与批准的药物（https://www.drμgbank.ca）进行性质分布的比较。从ChEMBL22（http://ebi.ac.uk/chembl）中提取生物活性数据，以鉴定先前报道的GRAS / IIG化合物活性，并建立机器学习模型（https://scikit-learn.org）以预测其他GRAS / IIG化合物的生物活性",
+    "source": "DrugAI",
+    "chunk_index": 68
+  }
+]

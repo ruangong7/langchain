@@ -1,0 +1,137 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "BCRP",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "OCT",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "OAT",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "OATP",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "MATE",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Mechanism",
+        "name": "ATP依赖性药物摄取",
+        "properties": {
+          "机制类型": "转运体介导的摄取"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Mechanism",
+        "name": "双向转运分析",
+        "properties": {
+          "机制类型": "外排转运体评估"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Mechanism",
+        "name": "摄取分析",
+        "properties": {
+          "机制类型": "SLC转运体底物或抑制剂评估"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "表观渗透率",
+        "properties": {
+          "英文名": "apparent permeability",
+          "缩写": "Papp"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "外排率",
+        "properties": {
+          "英文名": "Efflux ratio",
+          "缩写": "ER"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Indicator",
+        "name": "净外排率",
+        "properties": {
+          "英文名": "net Efflux ratio",
+          "缩写": "net ER"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "高渗透性药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Food",
+        "name": "三磷酸腺苷",
+        "properties": {
+          "类型": "内源性物质",
+          "英文名": "adenosine triphosphate",
+          "缩写": "ATP"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Population",
+        "name": "人肝细胞",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Population",
+        "name": "Caco-2细胞",
+        "properties": {}
+      }
+    ],
+    "relations": [],
+    "chunk_index": 1007,
+    "source": "凡默谷",
+    "text": "。下文描述了用于研究转运体介导的DDI的体外测试系统的详细信息：（1）膜囊泡：如果使用由内向外的膜囊泡体外系统评估在研药物是否是P-gp或BCRP的底物或抑制剂，当底物为高渗透性药物时可能无法进行鉴定。使用膜囊泡的分析应直接测定三磷酸腺苷（adenosine triphosphate，ATP）依赖性、转运体介导的药物摄取。（2）基于细胞系统的双向转运分析：双向测定法评估在研药物是否是外排转运体如P-gp或BCRP的底物或抑制剂。细胞在具有顶端（apical，AP）和基底外侧（basolateral，BL）结构的小室中单层生长，小室的底部有一层具有通透性的膜，膜上有微孔。将试验药添加到单层细胞的AP或BL侧，随着时间的推移测量通过单层细胞渗透入接收室中的药量。应在AP→BL（吸收）和BL→AP（流出）两个方向上计算药物的表观渗透率（apparent permeability，Papp），并根据BL→AP与AP→BL的Papp值的比值计算底物的外排率（Efflux ratio, ER）。对于细胞系计算其净外排率（net ER），对于Caco-2细胞则计算其ER值；再使用强抑制剂观察该药物转运是否被显著抑制。其中，ER＝Papp（BL→AP）/Papp（AP→BL）；net ER=[（表达细胞的ER）/（非表达细胞的ER）]。（3）基于细胞系统的摄取分析：摄取试验评估在研药物是否是溶质载体（solute carrier，SLC）转运体的底物或抑制剂，如OCT，OAT，OATP和MATE。可使用人肝细胞或肝细胞系进行悬浮，铺板或夹层培养分析"
+  }
+]

@@ -1,0 +1,337 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "宁格替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "吉非替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP1A1",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "西达本胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "紫杉醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "卡铂",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "NSCLC",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "吡咯替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "腹泻",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "洛哌丁胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "阿帕替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "SGLT2抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "DPP4抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "脯氨酸恒格列净",
+        "properties": {
+          "成分": "恒格列净"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "磷酸瑞格列汀",
+        "properties": {
+          "成分": "瑞格列汀"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "格列苯脲",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Disease",
+        "name": "二型糖尿病",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "宁格替尼与吉非替尼联用",
+        "properties": {
+          "mechanism": "吉非替尼抑制CYP1A1等酶，使宁格替尼的N-去甲基代谢物M1血浆暴露量降低84%",
+          "effect_on_source": "M1血浆暴露量降低84%",
+          "effect_on_target": "宁格替尼药动学未显著变化",
+          "evidence": {
+            "chunk_index": 1043,
+            "source": "凡默谷",
+            "text": "宁格替尼单独用药时，N-去甲基代谢物M1的血 浆暴露量约为原形药物的1.7倍，联用吉非替尼 后，因对CYP1A1等酶的抑制作用使得M1的血浆 暴露量降低了 84%，但宁格替尼的药动学未发生 显著变化。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "吉非替尼抑制CYP1A1",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1043,
+            "source": "凡默谷",
+            "text": "联用吉非替尼 后，因对CYP1A1等酶的抑制作用使得M1的血浆 暴露量降低了 84%"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "西达本胺与紫杉醇联用",
+        "properties": {
+          "effect_on_source": "药动学未受显著影响",
+          "effect_on_target": "药动学未受显著影响",
+          "clinical_use": "用于NSCLC治疗",
+          "evidence": {
+            "chunk_index": 1043,
+            "source": "凡默谷",
+            "text": "联用西达本胺、紫杉醇以及卡铂用于NSCLC 患者的治疗。血药浓度检测结果表明，联用后西 达本胺以及紫杉醇的药动学均未受到显著影响 且患者耐受性良好[46]。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "name": "西达本胺与卡铂联用",
+        "properties": {
+          "clinical_use": "用于NSCLC治疗",
+          "mechanism": "西达本胺对铂类药物诱导的NSCLC细胞DNA损伤凋亡具有协同作用",
+          "evidence": {
+            "chunk_index": 1043,
+            "source": "凡默谷",
+            "text": "体外试验证明西达本胺对铂类药物诱导的 NSCLC细胞的DNA损伤细胞凋亡具有协同作用， 因此联用西达本胺、紫杉醇以及卡铂用于NSCLC 患者的治疗。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "name": "吡咯替尼导致腹泻",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1043,
+            "source": "凡默谷",
+            "text": "吡咯替尼常见的副作用为腹泻"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_10",
+        "name": "吡咯替尼与洛哌丁胺进行DDI试验",
+        "properties": {
+          "status": "已完成，数据未公开",
+          "trial_id": "CTR20192650",
+          "evidence": {
+            "chunk_index": 1043,
+            "source": "凡默谷",
+            "text": "吡咯替尼和止泻药洛哌丁胺的人体DDI试验（登记号 CTR20192650)已完成，但数据未公开。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "name": "吉非替尼与阿帕替尼药动学影响研究",
+        "properties": {
+          "status": "正在进行中",
+          "trial_id": "CTR20201086",
+          "population": "NSCLC患者",
+          "evidence": {
+            "chunk_index": 1043,
+            "source": "凡默谷",
+            "text": "吉非替尼 对阿帕替尼在NSCLC患者中的药动学影响研究 正在进行中（登记号CTR20201086)。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_13",
+        "name": "二甲双胍与SGLT2抑制剂联用",
+        "properties": {
+          "clinical_context": "糖尿病进展至需联合用药控制血糖",
+          "evidence": {
+            "chunk_index": 1043,
+            "source": "凡默谷",
+            "text": "如二甲双胍和SGLT2抑制剂的联 用[47]"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_14",
+        "name": "二甲双胍与DPP4抑制剂联用",
+        "properties": {
+          "clinical_context": "糖尿病进展至需联合用药控制血糖",
+          "evidence": {
+            "chunk_index": 1043,
+            "source": "凡默谷",
+            "text": "二甲双胍和DPP4抑制剂的联用[48]"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_15",
+        "target_id": "ent_13",
+        "name": "脯氨酸恒格列净属于SGLT2抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1043,
+            "source": "凡默谷",
+            "text": "脯氨酸恒格列净是由江苏恒瑞研发的口服 SGLT-2抑制剂"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_12",
+        "name": "恒格列净与二甲双胍联用",
+        "properties": {
+          "ddi_result": "无药动学相关的DDI",
+          "tolerability": "良好",
+          "evidence": {
+            "chunk_index": 1043,
+            "source": "凡默谷",
+            "text": "临床试 验表明恒格列净和二甲双胍无药动学相关的DDI 且联用耐受性良好[49]。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_16",
+        "target_id": "ent_14",
+        "name": "磷酸瑞格列汀属于DPP4抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1043,
+            "source": "凡默谷",
+            "text": "磷酸瑞格列汀是江苏恒瑞研发的DPP4抑制 剂"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_16",
+        "target_id": "ent_18",
+        "name": "磷酸瑞格列汀用于治疗二型糖尿病",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1043,
+            "source": "凡默谷",
+            "text": "拟用于二型糖尿病 的治疗。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_16",
+        "target_id": "ent_17",
+        "name": "瑞格列汀与格列苯脲联用",
+        "properties": {
+          "ddi_result": "无药动学相关的相互作用",
+          "evidence": {
+            "chunk_index": 1043,
+            "source": "凡默谷",
+            "text": "与格列苯脲联用后，无药动学相关的相 互作用[50]"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1043,
+    "source": "凡默谷",
+    "text": "。宁格替尼单独用药时，N-去甲基代谢物M1的血 浆暴露量约为原形药物的1.7倍，联用吉非替尼 后，因对CYP1A1等酶的抑制作用使得M1的血浆 暴露量降低了 84%，但宁格替尼的药动学未发生 显著变化。体外试验证明西达本胺对铂类药物诱导的 NSCLC细胞的DNA损伤细胞凋亡具有协同作用， 因此联用西达本胺、紫杉醇以及卡铂用于NSCLC 患者的治疗。血药浓度检测结果表明，联用后西 达本胺以及紫杉醇的药动学均未受到显著影响 且患者耐受性良好[46]。吡咯替尼常见的副作用为腹泻，吡咯替尼和止泻药洛哌丁胺的人体DDI试验（登记号 CTR20192650)已完成，但数据未公开。吉非替尼 对阿帕替尼在NSCLC患者中的药动学影响研究 正在进行中（登记号CTR20201086)。4.3降糖药的联合应用当糖尿病进展到一定 程度，单一用药无法有效控制血糖时，需要联合 服用降糖药，如二甲双胍和SGLT2抑制剂的联 用[47]、二甲双胍和DPP4抑制剂的联用[48]等。脯氨酸恒格列净是由江苏恒瑞研发的口服 SGLT-2抑制剂，目前正处于上市申请中，临床试 验表明恒格列净和二甲双胍无药动学相关的DDI 且联用耐受性良好[49]。磷酸瑞格列汀是江苏恒瑞研发的DPP4抑制 剂，目前正处于上市申请中，拟用于二型糖尿病 的治疗。与格列苯脲联用后，无药动学相关的相 互作用[50]"
+  }
+]

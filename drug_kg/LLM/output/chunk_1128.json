@@ -1,0 +1,223 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "properties": {
+          "通用名": "伏立康唑",
+          "代谢酶": [
+            "CYP2C19",
+            "CYP3A4",
+            "CYP2C9"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "properties": {
+          "通用名": "奥美拉唑"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "properties": {
+          "代表药品": [
+            "奥美拉唑"
+          ]
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP2C19",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP2C9",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "视觉异常",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "神经系统异常",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "肝肾功能异常",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "药物相关性不良反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1128,
+          "source": "凡默谷",
+          "text": "伏立康唑与质子泵抑制剂奥美拉唑( CYP2C19抑制剂) 联合质子泵抑制剂的体内主要代谢酶是CYP2C19，与伏立康唑合用时，二者竞争 CYP2C19 的同一结合位点，使伏立康唑与质子泵抑制剂血药浓度均发生不同程度的升高，疗效增强的同时也导致药物相关性不良反应风险增加"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "伏立康唑与奥美拉唑相互作用",
+        "properties": {
+          "机制": "竞争CYP2C19结合位点",
+          "后果": [
+            "血药浓度升高",
+            "药物相关性不良反应风险增加"
+          ],
+          "证据": {
+            "chunk_index": 1128,
+            "source": "凡默谷",
+            "text": "伏立康唑与质子泵抑制剂奥美拉唑( CYP2C19抑制剂) 联合质子泵抑制剂的体内主要代谢酶是CYP2C19，与伏立康唑合用时，二者竞争 CYP2C19 的同一结合位点，使伏立康唑与质子泵抑制剂血药浓度均发生不同程度的升高，疗效增强的同时也导致药物相关性不良反应风险增加"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "奥美拉唑属于质子泵抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "伏立康唑经CYP2C19代谢",
+        "properties": {
+          "作用类型": "底物和抑制剂"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "伏立康唑经CYP3A4代谢",
+        "properties": {
+          "作用类型": "底物和抑制剂"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "伏立康唑经CYP2C9代谢",
+        "properties": {
+          "作用类型": "底物和抑制剂"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "伏立康唑血药浓度升高致视觉异常",
+        "properties": {
+          "条件": "血药浓度升高"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "伏立康唑血药浓度升高致神经系统异常",
+        "properties": {
+          "条件": "血药浓度升高"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "伏立康唑血药浓度升高致肝肾功能异常",
+        "properties": {
+          "条件": "血药浓度升高"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "伏立康唑影响血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "rel_10",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "name": "奥美拉唑影响血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "rel_11",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_1",
+        "target_id": "ent_10",
+        "name": "伏立康唑与奥美拉唑联用增加药物相关性不良反应风险",
+        "properties": {
+          "证据": {
+            "chunk_index": 1128,
+            "source": "凡默谷",
+            "text": "伏立康唑与质子泵抑制剂奥美拉唑( CYP2C19抑制剂) 联合质子泵抑制剂的体内主要代谢酶是CYP2C19，与伏立康唑合用时，二者竞争 CYP2C19 的同一结合位点，使伏立康唑与质子泵抑制剂血药浓度均发生不同程度的升高，疗效增强的同时也导致药物相关性不良反应风险增加"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1128,
+    "source": "凡默谷",
+    "text": "。2.6 伏立康唑高风险药物相互作用分级与干预情况A 级 B 级高风险联合用药共计 203 例，存在伏立康唑血药浓度升高致视觉、神经系统、肝肾功能异常; 伏立康唑血药浓度降低临床治疗无效，或联合用药浓度变化致相关不良反应发生、疗效欠佳等风险。对于 A级相互作用不推荐联合; B 级相互作用推荐调整联合用药方案，降低相互作用致不良反应发生。但本次调研中大部分高风险联合用药未给予相关干预，临床治疗存在较大隐患。见表 5。3讨论3.1 注射用伏立康唑体内代谢特点药物进入体内后主要在肝脏迅速发生代谢，其最主要代谢产物为几乎无抗菌活性的 N － 氧化物。研究表明，伏立康唑转化成 N － 氧 化 物 经 肝 脏 细 胞 色 素 P450 同 工 酶CYP2C19、CYP3A4 和 CYP2C9 代谢，其中 CYP2C19 起主要作用，CYP3A4 次之，CYP2C9 作用最小［4］。代谢酶 CYP2C19 和 CYP3A4 的活性，可影响伏立康唑的血药浓度，从而影响伏立康唑的治疗效果及不良反应的发生; 同时，伏立康唑既是上述 3 种 CYP450 酶的底物，也是它们的抑制剂，也可增加或降低联合使用药物的血药浓度。3.2  典型高风险联合用药相互作用机制与治疗策略3.2.1  伏立康唑与质子泵抑制剂奥美拉唑( CYP2C19抑制剂) 联合质子泵抑制剂的体内主要代谢酶是CYP2C19，与伏立康唑合用时，二者竞争 CYP2C19 的同一结合位点，使伏立康唑与质子泵抑制剂血药浓度均发生不同程度的升高，疗效增强的同时也导致药物相关性不良反应风险增加"
+  }
+]

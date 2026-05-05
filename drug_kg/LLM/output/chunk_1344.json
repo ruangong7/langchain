@@ -1,0 +1,517 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "异烟肼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "酒精",
+        "properties": {
+          "类型": "饮品"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "苯妥英钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "咪康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "乙胺丁醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "戒酒硫",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "乙硫异烟胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "视神经炎",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "对氨基水杨酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "丙磺舒",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "SideEffect",
+        "name": "毒性增加",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "抗凝剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "中毒危险",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "(去甲)万古霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "髓袢利尿剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "SideEffect",
+        "name": "耳毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "肾毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "甲硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "氯霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "SideEffect",
+        "name": "造血系统毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "SideEffect",
+        "name": "双硫仑样反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "SideEffect",
+        "name": "急性精神病",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "SideEffect",
+        "name": "意识模糊",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "Drug",
+        "name": "口服抗凝剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Drug",
+        "name": "苯巴比妥",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "DrugClass",
+        "name": "酶诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_30",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_31",
+        "type": "Indicator",
+        "name": "血清半衰期",
+        "properties": {}
+      },
+      {
+        "id": "ent_32",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_33",
+        "type": "SideEffect",
+        "name": "神经毒性",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "异烟肼与酒精相互作用",
+        "properties": {
+          "机制": "肝内代谢增加",
+          "后果": "异烟肼作用下降",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "异烟肼酒精肝内代谢增加，异烟肼作用下降"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "异烟肼与苯妥英钠相互作用",
+        "properties": {
+          "机制": "抑制药酶",
+          "后果": "苯妥英钠毒性增加",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "异烟肼苯妥英钠抑制药酶，使苯妥英钠毒性增加"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "异烟肼与酮康唑相互作用",
+        "properties": {
+          "后果": "后者血药浓度下降",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "异烟肼酮康唑、咪康唑使后者血药浓度下降"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "异烟肼与咪康唑相互作用",
+        "properties": {
+          "后果": "后者血药浓度下降",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "异烟肼酮康唑、咪康唑使后者血药浓度下降"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "乙胺丁醇与戒酒硫相互作用",
+        "properties": {
+          "后果": "促进视神经炎，增加副作用",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "乙胺丁醇戒酒硫、乙硫异烟胺促进视N尖，增加副作用"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "name": "乙胺丁醇与乙硫异烟胺相互作用",
+        "properties": {
+          "后果": "促进视神经炎，增加副作用",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "乙胺丁醇戒酒硫、乙硫异烟胺促进视N尖，增加副作用"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_11",
+        "name": "对氨基水杨酸与丙磺舒相互作用",
+        "properties": {
+          "后果": "增加PAS的毒性",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "对氨基水杨酸丙磺舒增加PAS的毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_13",
+        "name": "对氨基水杨酸与抗凝剂相互作用",
+        "properties": {
+          "后果": "增加后者活性，有中毒危险",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "对氨基水杨酸抗凝剂增加后者活性，有中毒危险"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_15",
+        "name": "对氨基水杨酸与利福平相互作用",
+        "properties": {
+          "后果": "减少后者吸收、降效",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "对氨基水杨酸利福平减少后者吸收、降效"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_1",
+        "name": "对氨基水杨酸与异烟肼相互作用",
+        "properties": {
+          "机制": "减少肝内乙酰化作用",
+          "后果": "增强效果",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "对氨基水杨酸异烟肼减少肝内乙酰化作用，增强效果"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_16",
+        "target_id": "ent_17",
+        "name": "(去甲)万古霉素与髓袢利尿剂相互作用",
+        "properties": {
+          "后果": "增加耳、肾毒性",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "(去甲)万古霉素髓袢利尿剂、肾毒性或耳毒性药物增加耳、肾毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_16",
+        "target_id": "ent_18",
+        "name": "(去甲)万古霉素与耳毒性药物相互作用",
+        "properties": {
+          "后果": "增加耳、肾毒性",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "(去甲)万古霉素髓袢利尿剂、肾毒性或耳毒性药物增加耳、肾毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_16",
+        "target_id": "ent_19",
+        "name": "(去甲)万古霉素与肾毒性药物相互作用",
+        "properties": {
+          "后果": "增加耳、肾毒性",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "(去甲)万古霉素髓袢利尿剂、肾毒性或耳毒性药物增加耳、肾毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_20",
+        "target_id": "ent_21",
+        "name": "甲硝唑与氯霉素相互作用",
+        "properties": {
+          "后果": "增加对造血系统毒性",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "甲硝唑氯霉素增加对造血系统毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_20",
+        "target_id": "ent_2",
+        "name": "甲硝唑与乙醇相互作用",
+        "properties": {
+          "后果": "双硫醒样反应、急性精神病、意识模糊等",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "甲硝唑乙醇双硫醒样反应、急性精神病、意识模糊等"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_20",
+        "target_id": "ent_26",
+        "name": "甲硝唑与口服抗凝剂相互作用",
+        "properties": {
+          "后果": "增强抗凝作用，引起出血",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "甲硝唑口服抗凝剂增强抗凝作用，引起出血"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_20",
+        "target_id": "ent_28",
+        "name": "甲硝唑与苯巴比妥相互作用",
+        "properties": {
+          "机制": "酶诱导",
+          "后果": "缩短甲硝唑血清半衰期",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "甲硝唑苯巴比妥及其他酶诱导剂缩短甲硝唑血清半衰期"
+          }
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_20",
+        "target_id": "ent_29",
+        "name": "甲硝唑与酶诱导剂相互作用",
+        "properties": {
+          "后果": "缩短甲硝唑血清半衰期",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "甲硝唑苯巴比妥及其他酶诱导剂缩短甲硝唑血清半衰期"
+          }
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_20",
+        "target_id": "ent_30",
+        "name": "甲硝唑与西咪替丁相互作用",
+        "properties": {
+          "后果": "延长甲硝唑血清半衰期，提高其血浓度，可增加神经毒性",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "甲硝唑西咪替丁、苯妥英钠延长甲硝唑血清半衰期，提高其血浓度，可增加神经毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_20",
+        "target_id": "ent_3",
+        "name": "甲硝唑与苯妥英钠相互作用",
+        "properties": {
+          "后果": "延长甲硝唑血清半衰期，提高其血浓度，可增加神经毒性",
+          "evidence": {
+            "chunk_index": 1344,
+            "source": "医学推荐",
+            "text": "甲硝唑西咪替丁、苯妥英钠延长甲硝唑血清半衰期，提高其血浓度，可增加神经毒性"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1344,
+    "source": "医学推荐",
+    "text": "。异烟肼酒精肝内代谢增加，异烟肼作用下降异烟肼苯妥英钠抑制药酶，使苯妥英钠毒性增加异烟肼酮康唑、咪康唑使后者血药浓度下降乙胺丁醇戒酒硫、乙硫异烟胺促进视N尖，增加副作用对氨基水杨酸丙磺舒增加PAS的毒性对氨基水杨酸抗凝剂增加后者活性，有中毒危险对氨基水杨酸利福平减少后者吸收、降效对氨基水杨酸异烟肼减少肝内乙酰化作用，增强效果(去甲)万古霉素抗菌药物类别配伍药物相互作用结果(去甲)万古霉素髓袢利尿剂、肾毒性或耳毒性药物增加耳、肾毒性甲硝唑抗菌药物类别配伍药物相互作用结果甲硝唑氯霉素增加对造血系统毒性甲硝唑乙醇双硫醒样反应、急性精神病、意识模糊等甲硝唑口服抗凝剂增强抗凝作用，引起出血甲硝唑苯巴比妥及其他酶诱导剂缩短甲硝唑血清半衰期甲硝唑西咪替丁、苯妥英钠延长甲硝唑血清半衰期，提高其血浓度，可增加神经毒性"
+  }
+]

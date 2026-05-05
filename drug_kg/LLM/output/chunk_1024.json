@@ -1,0 +1,56 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "CYP",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Mechanism",
+        "name": "竞争性抑制",
+        "properties": {
+          "机制类型": "竞争性"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Mechanism",
+        "name": "非竞争性抑制",
+        "properties": {
+          "机制类型": "非竞争性"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Mechanism",
+        "name": "时间依赖性抑制",
+        "properties": {
+          "机制类型": "时间依赖性抑制"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Mechanism",
+        "name": "诱导",
+        "properties": {
+          "机制类型": "诱导"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Mechanism",
+        "name": "抑制诱导混合",
+        "properties": {
+          "机制类型": "抑制诱导混合"
+        }
+      }
+    ],
+    "relations": [],
+    "chunk_index": 1024,
+    "source": "凡默谷",
+    "text": "。S是CYP的抑制剂：AUC≥5倍      强DDI2≤AUC<5倍    中DDI1.25≤AUC<2倍  弱DDIS是CYP的诱导剂：AUC降低≥80%  强DDI50≤AUC<80%   中DDI20≤AUC<50%   弱DDI总体研究策略明确安全性和有效性基础上的暴露量-效应关系DDI数据的变异度联合用药的时长（急性同服、短期、长期单用或连用）联合用药的时机（给药顺序）DDI的机制（竞争性、非竞争性、时间依赖性抑制、诱导、抑制诱导混合）监测指标的合理性（S药物的疗效指标、实验室检测等）文章搜索本公众号开通往期文章任意搜功能啦在公众号菜单栏中输入“搜索”，即可搜索往期微信内容"
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "美托洛尔",
+        "properties": {
+          "通用名": "美托洛尔",
+          "剂型": "非缓释剂型",
+          "给药途径": "口服",
+          "血浆蛋白结合率": "12%",
+          "半衰期": "3-5小时",
+          "生物利用度": "约50%"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "β1受体阻滞剂",
+        "properties": {
+          "名称": "β1受体阻滞剂",
+          "代表药品": [
+            "美托洛尔"
+          ]
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP2D6",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Population",
+        "name": "肾功能不全患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Population",
+        "name": "透析患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Population",
+        "name": "肝功能损害患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Population",
+        "name": "肝硬化患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Population",
+        "name": "肝功能非常严重损害患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "β-内酰胺类",
+        "properties": {
+          "代表药品": [
+            "青霉素类",
+            "头孢菌素类",
+            "碳青霉烯类"
+          ]
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "环丙沙星",
+        "properties": {
+          "通用名": "环丙沙星"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "喹诺酮类",
+        "properties": {
+          "代表药品": [
+            "环丙沙星"
+          ]
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "氨基糖苷类",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "大环内酯类",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "美托洛尔属于β1受体阻滞剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1369,
+            "source": "医学界心血管频道",
+            "text": "其中美托洛尔是高选择性β1受体阻滞剂的代表药物之一，临床应用广泛。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "美托洛尔经CYP2D6代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1369,
+            "source": "医学界心血管频道",
+            "text": "主要经肝脏CYP2D6代谢为无临床意义的代谢物"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "环丙沙星与美托洛尔合用可导致后者血药浓度升高",
+        "properties": {
+          "后果": "美托洛尔血药浓度升高",
+          "机制": "",
+          "临床意义": "尚不清楚",
+          "evidence": {
+            "chunk_index": 1369,
+            "source": "医学界心血管频道",
+            "text": "有报道环丙沙星与美托洛尔合用可导致后者血药浓度升高，但具体机制和临床意义尚不清楚。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "美托洛尔与β-内酰胺类药物相互作用较少",
+        "properties": {
+          "后果": "药物相互作用较少",
+          "机制": "β-内酰胺类不经肝内CYP450代谢",
+          "evidence": {
+            "chunk_index": 1369,
+            "source": "医学界心血管频道",
+            "text": "绝大多数β-内酰胺类（如青霉素类、头孢菌素类、碳青霉烯类等）药物不经肝内CYP450代谢，药物相互作用较少[5]。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "美托洛尔与氨基糖苷类药物相互作用较少",
+        "properties": {
+          "后果": "药物相互作用较少",
+          "机制": "氨基糖苷类不经肝内CYP450代谢",
+          "evidence": {
+            "chunk_index": 1369,
+            "source": "医学界心血管频道",
+            "text": "氨基糖苷类药物不经肝内CYP450代谢，药物相互作用较少[5]。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "大环内酯类罕见对美托洛尔代谢影响的报道",
+        "properties": {
+          "后果": "罕见对美托洛尔代谢影响",
+          "机制": "大环内酯类对CYP3A4有较强抑制作用，但美托洛尔主要经CYP2D6代谢",
+          "evidence": {
+            "chunk_index": 1369,
+            "source": "医学界心血管频道",
+            "text": "大环内酯类药物对CYP3A4有较强的抑制作用，罕见对美托洛尔代谢影响的报道"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "肝功能非常严重损害患者需减少美托洛尔剂量",
+        "properties": {
+          "建议": "考虑减少剂量",
+          "evidence": {
+            "chunk_index": 1369,
+            "source": "医学界心血管频道",
+            "text": "仅在肝功能非常严重损害（如旁路手术患者）时才需考虑减少剂量。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "肾功能不全患者无需调整美托洛尔剂量",
+        "properties": {
+          "建议": "无需调整剂量",
+          "evidence": {
+            "chunk_index": 1369,
+            "source": "医学界心血管频道",
+            "text": "因此，肾功能不全患者及透析患者无需调整剂量。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "透析患者无需调整美托洛尔剂量",
+        "properties": {
+          "建议": "无需调整剂量",
+          "evidence": {
+            "chunk_index": 1369,
+            "source": "医学界心血管频道",
+            "text": "因此，肾功能不全患者及透析患者无需调整剂量。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "肝硬化患者美托洛尔剂量通常与正常者相同",
+        "properties": {
+          "建议": "剂量通常相同",
+          "evidence": {
+            "chunk_index": 1369,
+            "source": "医学界心血管频道",
+            "text": "通常肝硬化患者所用美托洛尔的剂量与肝功能正常者相同"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1369,
+    "source": "医学界心血管频道",
+    "text": "。其中美托洛尔是高选择性β1受体阻滞剂的代表药物之一，临床应用广泛。美托洛尔具有亲脂性，口服后从肠道吸收迅速而完全，由于肝脏首过的消除，美托洛尔的生物利用度约50%左右。服药后血药浓度约1.5小时达峰值，在血浆中主要以游离形式存在，血浆蛋白结合率约12%。美托洛尔体内半衰期约为3−5小时（此处不考虑缓释剂型对血药浓度的影响），主要经肝脏CYP2D6代谢为无临床意义的代谢物，其中约10% 代谢生成α-羟基美托洛尔，约65%经脱甲基作用生成ο-去甲基美托洛尔[4]。无活性的肝内代谢物从尿中排泄，且排泄率不受剂量、年龄和肾功能的影响。约5%的美托洛尔以原形由肾排泄，其余的均经肝代谢。因此，肾功能不全患者及透析患者无需调整剂量。对于伴肝功能损害的患者：通常肝硬化患者所用美托洛尔的剂量与肝功能正常者相同，仅在肝功能非常严重损害（如旁路手术患者）时才需考虑减少剂量。常见抗菌/病毒药物对美托洛尔影响较小从以上美托洛尔的代谢通路不难发现，其主要依赖肝CYP2D6酶代谢，因此相较于更为常见的CYP3A4代谢通路而言，美托洛尔发生药物相互作用的风险相对较小。美托洛尔与临床常见抗菌/病毒药物的相互作用报道总结如下：β-内酰胺类：绝大多数β-内酰胺类（如青霉素类、头孢菌素类、碳青霉烯类等）药物不经肝内CYP450代谢，药物相互作用较少[5]。喹诺酮类：有报道环丙沙星与美托洛尔合用可导致后者血药浓度升高，但具体机制和临床意义尚不清楚。氨基糖苷类：氨基糖苷类药物不经肝内CYP450代谢，药物相互作用较少[5]。大环内酯类：大环内酯类药物对CYP3A4有较强的抑制作用，罕见对美托洛尔代谢影响的报道"
+  }
+]

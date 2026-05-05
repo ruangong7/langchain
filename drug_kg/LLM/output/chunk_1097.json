@@ -1,0 +1,141 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "依伐卡托",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "环丙沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "磺脲类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "低血糖症",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "利福平与依伐卡托相互作用",
+        "properties": {
+          "effect": "显著降低依伐卡托的血药浓度，导致药效降低，疾病恶化",
+          "evidence": {
+            "chunk_index": 1097,
+            "source": "凡默谷",
+            "text": "利福平能显著降低依伐卡托的血药浓度,导致药效降低,疾病恶化"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "name": "环丙沙星与磺脲类药物相互作用",
+        "properties": {
+          "effect": "增加低血糖症的患病风险",
+          "evidence": {
+            "chunk_index": 1097,
+            "source": "凡默谷",
+            "text": "环丙沙星､克拉霉素等抗菌药物与磺脲类药物联合使用,会增加低血糖症的患病风险[13-15]｡"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "克拉霉素与磺脲类药物相互作用",
+        "properties": {
+          "effect": "增加低血糖症的患病风险",
+          "evidence": {
+            "chunk_index": 1097,
+            "source": "凡默谷",
+            "text": "环丙沙星､克拉霉素等抗菌药物与磺脲类药物联合使用,会增加低血糖症的患病风险[13-15]｡"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "利福平影响依伐卡托的血药浓度",
+        "properties": {
+          "effect_direction": "decrease",
+          "evidence": {
+            "chunk_index": 1097,
+            "source": "凡默谷",
+            "text": "利福平能显著降低依伐卡托的血药浓度,导致药效降低,疾病恶化"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "name": "环丙沙星增加低血糖症风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1097,
+            "source": "凡默谷",
+            "text": "环丙沙星､克拉霉素等抗菌药物与磺脲类药物联合使用,会增加低血糖症的患病风险[13-15]｡"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "name": "克拉霉素增加低血糖症风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1097,
+            "source": "凡默谷",
+            "text": "环丙沙星､克拉霉素等抗菌药物与磺脲类药物联合使用,会增加低血糖症的患病风险[13-15]｡"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1097,
+    "source": "凡默谷",
+    "text": ";利福平能显著降低依伐卡托的血药浓度,导致药效降低,疾病恶化;环丙沙星､克拉霉素等抗菌药物与磺脲类药物联合使用,会增加低血糖症的患病风险[13-15]｡因此,在临床应用中,预测抗菌药物与其他药物的DDI是有必要的｡相较于一般的临床试验,使用计算机模型预测DDI具有成本低､速度快､风险小等显著优势｡预测DDI的计算机模型通常分为3种,简单静态模型､机械静态模型和机械动态模型,即PBPK模型｡简单静态模型主要是从体外数据中得出恒定的抑制剂浓度和抑制常数,该模型假定底物药物仅在肝脏中代谢,代谢分数(fm)为100%,且抑制剂浓度不随时间变化｡因此,使用简单静态模型预测DDI,DDI可能会被高估[16]｡机械静态模型则假定底物药物在肝脏和小肠中代谢,同时将竞争性或基于机制的抑制或诱导的净效应纳入模型[17]｡但该模型只使用了一个恒定的抑制剂浓度,且无法描述DDI交错和同步间的剂量幅度差异,因此机械静态模型不能描述人体药物代谢的完整动态特征[18]｡PBPK模型可以用于解释药物的药动学特性,该模型使用的是随时间变化的动态药物浓度,而不是恒定的抑制剂浓度,同时可以根据质量平衡原理求出底物和抑制剂在不同组织器官中的浓度-时间关系曲线｡因此,相较于简单静态模型和机械静态模型,PBPK模型对于DDI的预测更为准确｡内容由凡默谷小编查阅文献选取，排版与编辑为原创"
+  }
+]

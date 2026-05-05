@@ -1,0 +1,264 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "阿霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "达沙替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "薯蓣皂苷",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "阿法替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "二氢杨梅素",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Mechanism",
+        "name": "抑制P-gp表达和功能",
+        "properties": {
+          "机制类型": "转运体抑制"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Mechanism",
+        "name": "抑制PI3K/Akt通路",
+        "properties": {
+          "机制类型": "信号通路抑制"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Mechanism",
+        "name": "阻断MAPK/ERK通路",
+        "properties": {
+          "机制类型": "信号通路抑制"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Protein",
+        "name": "SORCIN",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "SideEffect",
+        "name": "多药耐药",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Disease",
+        "name": "乳腺癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Disease",
+        "name": "非小细胞肺癌",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "达沙替尼与阿霉素相互作用",
+        "properties": {
+          "mechanism": "抑制P-gp并诱导阿霉素引起细胞凋亡",
+          "evidence": {
+            "chunk_index": 1063,
+            "source": "凡默谷",
+            "text": "例如 达沙替尼可以抑制P-gp并诱导阿霉素引起细胞 凋亡[63]"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "薯蓣皂苷与阿霉素相互作用",
+        "properties": {
+          "mechanism": "抑制P-gp并诱导阿霉素引起的细胞自噬",
+          "evidence": {
+            "chunk_index": 1063,
+            "source": "凡默谷",
+            "text": "而薯蓣皂苷可以抑制P-gp并诱导阿霉 素引起的细胞自噬[64]"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "阿法替尼与阿霉素相互作用",
+        "properties": {
+          "mechanism": "通过抑制PI3K/Akt通路下调P-gp的蛋白表达，从而增加阿霉素的胞内蓄积，并诱导阿霉素引起的细胞凋亡和自噬，增强阿霉素的抗肿瘤效果",
+          "disease_context": "非小细胞肺癌耐药细胞（A549T）",
+          "evidence": {
+            "chunk_index": 1063,
+            "source": "凡默谷",
+            "text": "发现阿法 替尼可以通过抑制PI3K/Akt通路下调P-gp的蛋 白表达，从而增加阿霉素的胞内蓄积，并诱导阿霉 素引起的细胞凋亡和自噬，增强阿霉素的抗肿瘤 效果[65]"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "name": "二氢杨梅素与阿霉素相互作用",
+        "properties": {
+          "mechanism": "通过阻断MAPK/ERK通路下调P-gp的表达，增加底物的胞内蓄积，减少SORCIN表达，增加细胞内游离钙离子含量，进一步通过内质网、线粒体及p53途径增强阿霉素引起的细胞凋亡",
+          "evidence": {
+            "chunk_index": 1063,
+            "source": "凡默谷",
+            "text": "Sun 等发现中药单体二氢杨梅素通过阻断MAPK/ERK 通路下调P-gp的表达，增加底物的胞内蓄积，减 少SORCIN表达，增加细胞内游离钙离子含量，进 一步通过内质网、线粒体及p53途径增强阿霉素 引起的细胞凋亡[66]"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "维拉帕米与P-gp相互作用",
+        "properties": {
+          "mechanism": "P-gp抑制剂",
+          "generation": "第一代",
+          "evidence": {
+            "chunk_index": 1063,
+            "source": "凡默谷",
+            "text": "截至目前，从第一代P-gp 抑制剂维拉帕米开始，已经研制出四代P-gp抑制 剂，并且有相当数量的抑制剂进人了临床试验阶 段，遗憾的是因为抑制剂的种种副作用，并没有哪 个抑制剂能真正应用于临床"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "name": "达沙替尼抑制P-gp",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1063,
+            "source": "凡默谷",
+            "text": "例如 达沙替尼可以抑制P-gp并诱导阿霉素引起细胞 凋亡[63]"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "name": "薯蓣皂苷抑制P-gp",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1063,
+            "source": "凡默谷",
+            "text": "而薯蓣皂苷可以抑制P-gp并诱导阿霉 素引起的细胞自噬[64]"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_9",
+        "name": "阿法替尼抑制PI3K/Akt通路",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1063,
+            "source": "凡默谷",
+            "text": "发现阿法 替尼可以通过抑制PI3K/Akt通路下调P-gp的蛋 白表达"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_10",
+        "name": "二氢杨梅素阻断MAPK/ERK通路",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1063,
+            "source": "凡默谷",
+            "text": "Sun 等发现中药单体二氢杨梅素通过阻断MAPK/ERK 通路下调P-gp的表达"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "阿霉素用于治疗乳腺癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1063,
+            "source": "凡默谷",
+            "text": "PH n -7可通过抑制P-gp表达和功能而逆转乳腺癌 细胞对阿霉素的耐药性[62]"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "name": "阿霉素用于治疗非小细胞肺癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1063,
+            "source": "凡默谷",
+            "text": "旨在探究阿法替尼是否逆转阿霉 素在非小细胞肺癌耐药细胞（A549T)的MDR"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1063,
+    "source": "凡默谷",
+    "text": "。在诱导凋亡同时，PH n -7可通过抑制P-gp表达和功能而逆转乳腺癌 细胞对阿霉素的耐药性[62]。近年来，很多研究集 中在细胞凋亡、自噬和多药耐药的关系上。例如 达沙替尼可以抑制P-gp并诱导阿霉素引起细胞 凋亡[63]，而薯蓣皂苷可以抑制P-gp并诱导阿霉 素引起的细胞自噬[64]。Zhang等聚焦于P-gp、细 胞凋亡和自噬，旨在探究阿法替尼是否逆转阿霉 素在非小细胞肺癌耐药细胞（A549T)的MDR并 尝试阐明作用靶点及相应的分子机制。发现阿法 替尼可以通过抑制PI3K/Akt通路下调P-gp的蛋 白表达，从而增加阿霉素的胞内蓄积，并诱导阿霉 素引起的细胞凋亡和自噬，增强阿霉素的抗肿瘤 效果[65]。可溶性耐药相关钙结合蛋白（soluble resistance-related calcium-binding protein, SOR-CIN)在多种耐药肿瘤组织中呈过表达状态。Sun 等发现中药单体二氢杨梅素通过阻断MAPK/ERK 通路下调P-gp的表达，增加底物的胞内蓄积，减 少SORCIN表达，增加细胞内游离钙离子含量，进 一步通过内质网、线粒体及p53途径增强阿霉素 引起的细胞凋亡[66]。截至目前，从第一代P-gp 抑制剂维拉帕米开始，已经研制出四代P-gp抑制 剂，并且有相当数量的抑制剂进人了临床试验阶 段，遗憾的是因为抑制剂的种种副作用，并没有哪 个抑制剂能真正应用于临床。同时，下调P-gp表 达的药物也成为研究的热点，同样的，并没有哪个 药物能在临床取得令人满意的结果"
+  }
+]

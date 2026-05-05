@@ -1,0 +1,133 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "氯氮平",
+        "properties": {
+          "通用名": "氯氮平"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氟伏沙明",
+        "properties": {
+          "通用名": "氟伏沙明"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "精神分裂症",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Population",
+        "name": "年轻患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Evidence",
+        "name": "医脉通精神科",
+        "properties": {
+          "chunk_id": "1590",
+          "source": "医脉通精神科",
+          "text": "。本病例提示，为了让氯氮平能够达到治疗所需血药浓度，同时总剂量不至于过高，或许可以更早考虑联用氟伏沙明增效治疗。对于年轻患者而言，低剂量氟伏沙明即可能有效，且耐受性更好。另外，建议更早测定氯氮平的血药浓度，尤其是出现副作用时。文献索引：Boyle K, Cornett S, Fijtman A, Hunt-Harrison T. Letter to the Editor: Rapid Clozapine Concentration Increase Following Augmentation with Low-Dose Fluvoxamine in 12-Year-Old with Childhood Onset Schizophrenia. J Child Adolesc Psychopharmacol. 2021 Jun 24. doi: 10.1089/cap.2021.0048. Epub ahead of print. PMID: 34166111.点击「阅读原文」可查看及检索历史文章。"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "用于治疗",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1590,
+              "source": "医脉通精神科",
+              "text": "为了让氯氮平能够达到治疗所需血药浓度"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "联用增效",
+        "properties": {
+          "机制": "增效治疗",
+          "后果": "增加氯氮平血药浓度",
+          "建议": "更早考虑联用，低剂量可能有效且耐受性更好",
+          "证据": [
+            {
+              "chunk_index": 1590,
+              "source": "医脉通精神科",
+              "text": "为了让氯氮平能够达到治疗所需血药浓度，同时总剂量不至于过高，或许可以更早考虑联用氟伏沙明增效治疗。对于年轻患者而言，低剂量氟伏沙明即可能有效，且耐受性更好。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "影响指标",
+        "properties": {
+          "影响对象": "氯氮平",
+          "影响方向": "增加",
+          "证据": [
+            {
+              "chunk_index": 1590,
+              "source": "医脉通精神科",
+              "text": "联用氟伏沙明增效治疗...为了让氯氮平能够达到治疗所需血药浓度"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "APPLIES_TO",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "适用对象",
+        "properties": {
+          "建议": "低剂量可能有效且耐受性更好",
+          "证据": [
+            {
+              "chunk_index": 1590,
+              "source": "医脉通精神科",
+              "text": "对于年轻患者而言，低剂量氟伏沙明即可能有效，且耐受性更好。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_2",
+        "target_id": "ent_6",
+        "name": "证据支持",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1590,
+    "source": "医脉通精神科",
+    "text": "。本病例提示，为了让氯氮平能够达到治疗所需血药浓度，同时总剂量不至于过高，或许可以更早考虑联用氟伏沙明增效治疗。对于年轻患者而言，低剂量氟伏沙明即可能有效，且耐受性更好。另外，建议更早测定氯氮平的血药浓度，尤其是出现副作用时。文献索引：Boyle K, Cornett S, Fijtman A, Hunt-Harrison T. Letter to the Editor: Rapid Clozapine Concentration Increase Following Augmentation with Low-Dose Fluvoxamine in 12-Year-Old with Childhood Onset Schizophrenia. J Child Adolesc Psychopharmacol. 2021 Jun 24. doi: 10.1089/cap.2021.0048. Epub ahead of print. PMID: 34166111.点击「阅读原文」可查看及检索历史文章。"
+  }
+]

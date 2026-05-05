@@ -1,0 +1,489 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "洋地黄类药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "卡马西平",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "大环内酯类抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "美沙酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "环丙沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "茶碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "细胞色素P450",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "茶碱中毒",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Symptom",
+        "name": "恶心",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Symptom",
+        "name": "呕吐",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Symptom",
+        "name": "震颤",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Symptom",
+        "name": "不安",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Symptom",
+        "name": "激动",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Symptom",
+        "name": "抽搐",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Symptom",
+        "name": "心悸",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Indicator",
+        "name": "茶碱类血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "地尔硫卓",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "SideEffect",
+        "name": "肝毒性",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_22",
+        "type": "SideEffect",
+        "name": "肾毒性",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_23",
+        "type": "Indicator",
+        "name": "环孢素血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Indicator",
+        "name": "肝功能",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Indicator",
+        "name": "肾功能",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "Drug",
+        "name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Drug",
+        "name": "阿普唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "Drug",
+        "name": "华法林",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "卡马西平与红霉素合用导致血浓度升高",
+        "properties": {
+          "后果": [
+            "毒性反应"
+          ],
+          "机制": "未明确说明",
+          "建议": "注意监测",
+          "证据": {
+            "chunk_index": 1332,
+            "source": "医学分享俱乐部",
+            "text": "卡马西平缓释片“烟酰胺、抗抑郁药、大环内酯类抗生素、异烟肼、西咪替丁等药物均可使本品血浓度升高，可出现毒性反应。”文献依据：药品说明书范本"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "卡马西平与西咪替丁合用导致血药浓度升高",
+        "properties": {
+          "后果": [
+            "药物过量"
+          ],
+          "机制": "未明确说明",
+          "建议": "注意监测",
+          "证据": {
+            "chunk_index": 1332,
+            "source": "医学分享俱乐部",
+            "text": "西咪替丁可使卡马西平、美沙酮、他克林的血药浓度升高，有导致药物过量的危险。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.711～714."
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_5",
+        "name": "美沙酮与西咪替丁合用导致血药浓度升高",
+        "properties": {
+          "后果": [
+            "药物过量"
+          ],
+          "机制": "未明确说明",
+          "建议": "注意监测",
+          "证据": {
+            "chunk_index": 1332,
+            "source": "医学分享俱乐部",
+            "text": "西咪替丁可使卡马西平、美沙酮、他克林的血药浓度升高，有导致药物过量的危险。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.711～714."
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "name": "环丙沙星与茶碱合用导致茶碱血药浓度升高",
+        "properties": {
+          "机制": "与细胞色素P450结合部位的竞争性抑制",
+          "后果": [
+            "茶碱中毒"
+          ],
+          "症状": [
+            "恶心",
+            "呕吐",
+            "震颤",
+            "不安",
+            "激动",
+            "抽搐",
+            "心悸"
+          ],
+          "建议": "测定茶碱类血药浓度和调整剂量",
+          "证据": {
+            "chunk_index": 1332,
+            "source": "医学分享俱乐部",
+            "text": "环丙沙星与茶碱类合用时可能由于与细胞色素P450结合部位的竞争性抑制，导致茶碱类的肝消除明显减少，血消除半衰期(t1/2β)延长，血药浓度升高，出现茶碱中毒症状，如恶心、呕吐、震颤、不安、激动、抽搐、心悸等，故合用时应测定茶碱类血药浓度和调整剂量。文献依据：SFDA药品说明书范本"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_4",
+        "target_id": "ent_9",
+        "name": "环丙沙星+茶碱相互作用机制涉及细胞色素P450",
+        "properties": {}
+      },
+      {
+        "id": "rel_6",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_4",
+        "target_id": "ent_10",
+        "name": "环丙沙星+茶碱增加茶碱中毒风险",
+        "properties": {}
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_10",
+        "target_id": "ent_11",
+        "name": "茶碱中毒表现为恶心",
+        "properties": {}
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_10",
+        "target_id": "ent_12",
+        "name": "茶碱中毒表现为呕吐",
+        "properties": {}
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_10",
+        "target_id": "ent_13",
+        "name": "茶碱中毒表现为震颤",
+        "properties": {}
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_10",
+        "target_id": "ent_14",
+        "name": "茶碱中毒表现为不安",
+        "properties": {}
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_10",
+        "target_id": "ent_15",
+        "name": "茶碱中毒表现为激动",
+        "properties": {}
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_10",
+        "target_id": "ent_16",
+        "name": "茶碱中毒表现为抽搐",
+        "properties": {}
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_10",
+        "target_id": "ent_17",
+        "name": "茶碱中毒表现为心悸",
+        "properties": {}
+      },
+      {
+        "id": "rel_14",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_4",
+        "target_id": "ent_18",
+        "name": "环丙沙星+茶碱影响茶碱类血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_19",
+        "target_id": "ent_20",
+        "name": "环孢素与地尔硫卓合用增加环孢素血浆浓度",
+        "properties": {
+          "后果": [
+            "肝毒性",
+            "肾毒性"
+          ],
+          "建议": "监测肝肾功能及环孢素血药浓度",
+          "证据": {
+            "chunk_index": 1332,
+            "source": "医学分享俱乐部",
+            "text": "环孢素与雌激素、雄激素、西咪替丁、地尔硫卓、红霉素、酮康唑等合用，可增加本品的血浆浓度。因而可能使本品的肝、肾毒性增加。故与上述各药合用时须慎重，应监测患者的肝、肾功能及本品的血药浓度。文献依据：SFDA药品说明书范本"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_15",
+        "target_id": "ent_21",
+        "name": "环孢素+地尔硫卓增加肝毒性风险",
+        "properties": {}
+      },
+      {
+        "id": "rel_17",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_15",
+        "target_id": "ent_22",
+        "name": "环孢素+地尔硫卓增加肾毒性风险",
+        "properties": {}
+      },
+      {
+        "id": "rel_18",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_15",
+        "target_id": "ent_23",
+        "name": "环孢素+地尔硫卓影响环孢素血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "rel_19",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_15",
+        "target_id": "ent_24",
+        "name": "环孢素+地尔硫卓需监测肝功能",
+        "properties": {}
+      },
+      {
+        "id": "rel_20",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_15",
+        "target_id": "ent_25",
+        "name": "环孢素+地尔硫卓需监测肾功能",
+        "properties": {}
+      },
+      {
+        "id": "rel_21",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_26",
+        "target_id": "ent_27",
+        "name": "地高辛与阿普唑仑合用增加地高辛血药浓度",
+        "properties": {
+          "后果": [
+            "中毒"
+          ],
+          "建议": "临床与心电图监测，必要时调整剂量",
+          "证据": {
+            "chunk_index": 1332,
+            "source": "医学分享俱乐部",
+            "text": "阿普唑仑“与地高辛合用，可增加地高辛血药浓度而致中毒。”文献依据：SFDA药品说明书范本"
+          }
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_26",
+        "target_id": "ent_4",
+        "name": "地高辛与红霉素合用增加地高辛血药浓度",
+        "properties": {
+          "后果": [
+            "中毒"
+          ],
+          "建议": "进行临床与心电图监测，必要时调整地高辛用量",
+          "证据": {
+            "chunk_index": 1332,
+            "source": "医学分享俱乐部",
+            "text": "红霉素“与地高辛合用会增加后者的血药浓度，甚至达到中毒水平。建议要进行临床与心电图监测，必要时要调整地高辛的用量。”文献依据：SFDA药品说明书范本"
+          }
+        }
+      },
+      {
+        "id": "rel_23",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_26",
+        "target_id": "ent_28",
+        "name": "地高辛与伊曲康唑合用存在相互作用",
+        "properties": {
+          "后果": [
+            "需减少地高辛剂量"
+          ],
+          "建议": "若同服应减少剂量",
+          "证据": {
+            "chunk_index": 1332,
+            "source": "医学分享俱乐部",
+            "text": "伊曲康唑“已报道本品与华法林和地高辛有相互作用。因此这些药物若与本品同服时，应减少剂量"
+          }
+        }
+      },
+      {
+        "id": "rel_24",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_29",
+        "target_id": "ent_28",
+        "name": "华法林与伊曲康唑合用存在相互作用",
+        "properties": {
+          "后果": [
+            "需减少华法林剂量"
+          ],
+          "建议": "若同服应减少剂量",
+          "证据": {
+            "chunk_index": 1332,
+            "source": "医学分享俱乐部",
+            "text": "伊曲康唑“已报道本品与华法林和地高辛有相互作用。因此这些药物若与本品同服时，应减少剂量"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1332,
+    "source": "医学分享俱乐部",
+    "text": "。本品有加强洋地黄类药对窦房结及房室结的抑制作用。”文献依据：SFDA药品说明书范本10、卡马西平+红霉素卡马西平缓释片“烟酰胺、抗抑郁药、大环内酯类抗生素、异烟肼、西咪替丁等药物均可使本品血浓度升高，可出现毒性反应。”文献依据：药品说明书范本11、西咪替丁+美沙酮西咪替丁可使卡马西平、美沙酮、他克林的血药浓度升高，有导致药物过量的危险。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.711～714.12、环丙沙星+茶碱环丙沙星与茶碱类合用时可能由于与细胞色素P450结合部位的竞争性抑制，导致茶碱类的肝消除明显减少，血消除半衰期(t1/2β)延长，血药浓度升高，出现茶碱中毒症状，如恶心、呕吐、震颤、不安、激动、抽搐、心悸等，故合用时应测定茶碱类血药浓度和调整剂量。文献依据：SFDA药品说明书范本13、环孢素+地尔硫卓环孢素与雌激素、雄激素、西咪替丁、地尔硫卓、红霉素、酮康唑等合用，可增加本品的血浆浓度。因而可能使本品的肝、肾毒性增加。故与上述各药合用时须慎重，应监测患者的肝、肾功能及本品的血药浓度。文献依据：SFDA药品说明书范本14、地高辛+阿普唑仑阿普唑仑“与地高辛合用，可增加地高辛血药浓度而致中毒。”文献依据：SFDA药品说明书范本15、地高辛+红霉素红霉素“与地高辛合用会增加后者的血药浓度，甚至达到中毒水平。建议要进行临床与心电图监测，必要时要调整地高辛的用量。”文献依据：SFDA药品说明书范本16、地高辛+伊曲康唑伊曲康唑“已报道本品与华法林和地高辛有相互作用。因此这些药物若与本品同服时，应减少剂量"
+  }
+]

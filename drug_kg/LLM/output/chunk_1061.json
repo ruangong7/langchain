@@ -1,0 +1,239 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "强心苷类",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "地高辛",
+        "properties": {
+          "适应症": "各种急性与慢性心功能不全"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "奎尼丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "心功能不全",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "肿瘤细胞多药耐药",
+        "properties": {
+          "别名": "multidrug resistance, MDR"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "BCRP",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "MRP2",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "地高辛血清浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "地高辛口服吸收率",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "肠道内地高辛含量",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "地高辛属于强心苷类",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1061,
+            "source": "凡默谷",
+            "text": "强心苷类 药物地高辛适用于各种急性与慢性心功能不全。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "地高辛用于治疗心功能不全",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1061,
+            "source": "凡默谷",
+            "text": "强心苷类 药物地高辛适用于各种急性与慢性心功能不全。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "地高辛与P-gp抑制剂相互作用",
+        "properties": {
+          "机制": "P-gp抑制剂抑制P-gp功能，减少地高辛外排，增加其吸收和血药浓度",
+          "后果": "地高辛血清浓度明显增加",
+          "证据": {
+            "chunk_index": 1061,
+            "source": "凡默谷",
+            "text": "Englund等发现，在618例接受治疗药物监测的心 衰患者中，合用P-gp抑制剂的患者血清中地高辛 浓度明显增加[36]。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "地高辛与奎尼丁相互作用",
+        "properties": {
+          "机制": "奎尼丁作为P-gp抑制剂，抑制肠道P-gp，减少地高辛在肠道滞留，提高其口服吸收率",
+          "后果": "肠道内地高辛含量从0.45%减少至0.23%，口服吸收率由22.3%增加到55.8%，改变其血浆药代动力学参数",
+          "证据": {
+            "chunk_index": 1061,
+            "source": "凡默谷",
+            "text": "P-gp抑制剂奎尼丁可使肠道 内的地高辛含量从0.45%减少至0.23%，而将其口 服给药的吸收率由22.3%增加到55.8%，并改变其 血浆八]〔值[37]。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_9",
+        "name": "奎尼丁影响地高辛血清浓度",
+        "properties": {
+          "影响方向": "增加",
+          "证据": {
+            "chunk_index": 1061,
+            "source": "凡默谷",
+            "text": "P-gp抑制剂奎尼丁可使肠道 内的地高辛含量从0.45%减少至0.23%，而将其口 服给药的吸收率由22.3%增加到55.8%，并改变其 血浆八]〔值[37]。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_10",
+        "name": "奎尼丁提高地高辛口服吸收率",
+        "properties": {
+          "影响方向": "增加",
+          "数值变化": "22.3% → 55.8%",
+          "证据": {
+            "chunk_index": 1061,
+            "source": "凡默谷",
+            "text": "P-gp抑制剂奎尼丁可使肠道 内的地高辛含量从0.45%减少至0.23%，而将其口 服给药的吸收率由22.3%增加到55.8%，并改变其 血浆八]〔值[37]。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_11",
+        "name": "奎尼丁降低肠道内地高辛含量",
+        "properties": {
+          "影响方向": "减少",
+          "数值变化": "0.45% → 0.23%",
+          "证据": {
+            "chunk_index": 1061,
+            "source": "凡默谷",
+            "text": "P-gp抑制剂奎尼丁可使肠道 内的地高辛含量从0.45%减少至0.23%，而将其口 服给药的吸收率由22.3%增加到55.8%，并改变其 血浆八]〔值[37]。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_3",
+        "name": "P-gp过表达导致多药耐药",
+        "properties": {
+          "机制描述": "P-gp通过水解ATP将抗肿瘤药物泵出胞外，导致耐药",
+          "证据": {
+            "chunk_index": 1061,
+            "source": "凡默谷",
+            "text": "一般认为，ABC转运体的过 表达是导致多药耐药的主要原因。ABC转运体通 过水解ATP所释放出来的能量将结构和作用机 制不同的抗肿瘤药物泵出胞外，并由此获得能量 依赖性，其中P-gp，BCRP和MRP2的过表达是多 药耐药形成的主要原因"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "BCRP过表达导致多药耐药",
+        "properties": {
+          "机制描述": "BCRP通过水解ATP将抗肿瘤药物泵出胞外，导致耐药",
+          "证据": {
+            "chunk_index": 1061,
+            "source": "凡默谷",
+            "text": "一般认为，ABC转运体的过 表达是导致多药耐药的主要原因。ABC转运体通 过水解ATP所释放出来的能量将结构和作用机 制不同的抗肿瘤药物泵出胞外，并由此获得能量 依赖性，其中P-gp，BCRP和MRP2的过表达是多 药耐药形成的主要原因"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "name": "MRP2过表达导致多药耐药",
+        "properties": {
+          "机制描述": "MRP2通过水解ATP将抗肿瘤药物泵出胞外，导致耐药",
+          "证据": {
+            "chunk_index": 1061,
+            "source": "凡默谷",
+            "text": "一般认为，ABC转运体的过 表达是导致多药耐药的主要原因。ABC转运体通 过水解ATP所释放出来的能量将结构和作用机 制不同的抗肿瘤药物泵出胞外，并由此获得能量 依赖性，其中P-gp，BCRP和MRP2的过表达是多 药耐药形成的主要原因"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1061,
+    "source": "凡默谷",
+    "text": "。此外，强心苷类 药物地高辛适用于各种急性与慢性心功能不全。Englund等发现，在618例接受治疗药物监测的心 衰患者中，合用P-gp抑制剂的患者血清中地高辛 浓度明显增加[36]。P-gp抑制剂奎尼丁可使肠道 内的地高辛含量从0.45%减少至0.23%，而将其口 服给药的吸收率由22.3%增加到55.8%，并改变其 血浆八]〔值[37]。Tab.2列出不同疾病中，转运体 介导的DDI及影响结果。综上所述，体内转运体的表达在疾病进程和 药物相互作用中均发生不同程度的改变，这提示 我们转运体也许可作为临床疾病诊断和预后的新 标志物，且随着临床药物相互作用的深入研究，大 量文献表明药物联用可通过调控转运体的表达和 功能以减毒增效，这为临床合理用药提供了有力 的依据。此外，基于转运体与疾病的密切关系，以其相关调控机制作为治疗疾病的靶点，并构建基 于转运体的高通量药物筛选系统，为将来新药的 研发提供了新的可能性。4转运体介导DDI逆转多药耐药临床上，肿瘤细胞多药耐药（multidrug resistance, MDR) 现象的产生是癌症化疗失败的主要原因之一。多药耐药是指由一种化疗药物诱发，同 时对多种结构和作用机制完全不同的化疗药物产 生交叉耐药的现象。一般认为，ABC转运体的过 表达是导致多药耐药的主要原因。ABC转运体通 过水解ATP所释放出来的能量将结构和作用机 制不同的抗肿瘤药物泵出胞外，并由此获得能量 依赖性，其中P-gp，BCRP和MRP2的过表达是多 药耐药形成的主要原因"
+  }
+]

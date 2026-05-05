@@ -1,0 +1,142 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Population",
+        "name": "肝功能受损患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "细胞色素P450",
+        "properties": {
+          "别名列表": [
+            "CYP450"
+          ]
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "有机阴离子转运多肽",
+        "properties": {
+          "别名列表": [
+            "OATPs"
+          ]
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Mechanism",
+        "name": "首过消除效应减少",
+        "properties": {
+          "机制类型": "首过消除效应减少"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Mechanism",
+        "name": "血浆游离药物比例增加",
+        "properties": {
+          "机制类型": "蛋白结合置换"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "高抽提比药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1245,
+          "来源类型": "公众号",
+          "来源": "凡默谷"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "肝功能受损减少首过消除效应",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1245,
+            "source": "凡默谷",
+            "text": "肝功能受损可引起肝体积减小，肝血流量下降，可增强高抽提比药物的生物利用度，减少其首过消除效应"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "肝功能受损增加血浆游离药物比例",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1245,
+            "source": "凡默谷",
+            "text": "白蛋白合成减少则增加血浆游离药物比例[10-11]。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "肝功能受损导致CYP450表达下调",
+        "properties": {
+          "mechanism": "代谢酶表达下调",
+          "evidence": {
+            "chunk_index": 1245,
+            "source": "凡默谷",
+            "text": "细胞色素P450（cytochrome P450，CYP450）等代谢酶、有机阴离子转运多肽（organic anion-transpor-ting polypeptides，OATPs）等转运体的表达下调，干扰药物的消除"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "肝功能受损导致OATPs表达下调",
+        "properties": {
+          "mechanism": "转运体表达下调",
+          "evidence": {
+            "chunk_index": 1245,
+            "source": "凡默谷",
+            "text": "细胞色素P450（cytochrome P450，CYP450）等代谢酶、有机阴离子转运多肽（organic anion-transpor-ting polypeptides，OATPs）等转运体的表达下调，干扰药物的消除"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "name": "高抽提比药物在肝损人群中生物利用度增强",
+        "properties": {
+          "effect": "生物利用度增强",
+          "evidence": {
+            "chunk_index": 1245,
+            "source": "凡默谷",
+            "text": "肝功能受损可引起肝体积减小，肝血流量下降，可增强高抽提比药物的生物利用度，减少其首过消除效应"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1245,
+    "source": "凡默谷",
+    "text": "。对于肝肾功能受损患者，由于伦理限制，临床试验难以获得充分的数据支持，而PBPK模型为此类患者的药物暴露评估提供了重要的工具，在优化复杂患者的个体化治疗方案及高风险患者用药安全性评估中具有重要价值[8]。多个国际药物监管机构发布了关于PBPK模型应用的指导文件，从法规层面推动PBPK模型在DDIs研究中的应用[7]。国际人用药品注册技术协调会于2024年发布了《M12：药物相互作用研究》，指导利用PBPK模型预测酶或转运体介导的DDIs，强调PBPK模型在药物开发和监管决策中的关键作用[9]。PBPK模型在预测多因素共同影响下的药物暴露和支持患者的给药方案调整方面展现出重要应用价值，为DDDIs研究提供有效支持。1PBPK模型在肝损人群中药物相互作用的应用肝功能受损可引起肝体积减小，肝血流量下降，可增强高抽提比药物的生物利用度，减少其首过消除效应；细胞色素P450（cytochrome P450，CYP450）等代谢酶、有机阴离子转运多肽（organic anion-transpor-ting polypeptides，OATPs）等转运体的表达下调，干扰药物的消除；白蛋白合成减少则增加血浆游离药物比例[10-11]。上述病理改变与药物相互作用协同作用，共同影响药物的关键药代动力学过程。1.1 酶介导的药物相互作用肝功能损伤与DDIs的结合通常表现出协同效应，但随着肝病程度的加重，酶抑制剂对受变药的药动学影响逐渐减弱"
+  }
+]

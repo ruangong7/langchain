@@ -1,0 +1,375 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Esaxerenone",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "CYP2B6",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP2C8",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP2C9",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP2C19",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "CYP1A2",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "CYP2A6",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "CYP2D6",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "CYP2E1",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "UGT1A1",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "UGT2B7",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "睾酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "苯巴比妥",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "Esaxerenone抑制CYP2B6",
+        "properties": {
+          "机制类型": "抑制",
+          "证据": {
+            "chunk_index": 1233,
+            "source": "凡默谷",
+            "text": "研究表明Esaxerenone抑制CYP2B6, CYP2C8, CYP2C9, CYP2C19和CYP3A, 对应的Ki值见表3。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "Esaxerenone抑制CYP2C8",
+        "properties": {
+          "机制类型": "抑制",
+          "证据": {
+            "chunk_index": 1233,
+            "source": "凡默谷",
+            "text": "研究表明Esaxerenone抑制CYP2B6, CYP2C8, CYP2C9, CYP2C19和CYP3A, 对应的Ki值见表3。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "Esaxerenone抑制CYP2C9",
+        "properties": {
+          "机制类型": "抑制",
+          "证据": {
+            "chunk_index": 1233,
+            "source": "凡默谷",
+            "text": "研究表明Esaxerenone抑制CYP2B6, CYP2C8, CYP2C9, CYP2C19和CYP3A, 对应的Ki值见表3。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "Esaxerenone抑制CYP2C19",
+        "properties": {
+          "机制类型": "抑制",
+          "证据": {
+            "chunk_index": 1233,
+            "source": "凡默谷",
+            "text": "研究表明Esaxerenone抑制CYP2B6, CYP2C8, CYP2C9, CYP2C19和CYP3A, 对应的Ki值见表3。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "Esaxerenone抑制CYP3A4",
+        "properties": {
+          "机制类型": "时间依赖性抑制",
+          "证据": {
+            "chunk_index": 1233,
+            "source": "凡默谷",
+            "text": "而对CYP3A4的活性具有时间依赖性抑制作用（参考IC50值，表3.）。并通过使用咪达唑仑和睾酮作为CYP3A4底物进行了灭活研究，获得了对应的Kinact 和KI值，见表3."
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "Esaxerenone不抑制CYP1A2",
+        "properties": {
+          "机制类型": "无抑制",
+          "证据": {
+            "chunk_index": 1233,
+            "source": "凡默谷",
+            "text": "Esaxerenone不会对CYP1A2, CYP2A6, CYP2D6或CYP2E1的活性产生抑制"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "Esaxerenone不抑制CYP2A6",
+        "properties": {
+          "机制类型": "无抑制",
+          "证据": {
+            "chunk_index": 1233,
+            "source": "凡默谷",
+            "text": "Esaxerenone不会对CYP1A2, CYP2A6, CYP2D6或CYP2E1的活性产生抑制"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "Esaxerenone不抑制CYP2D6",
+        "properties": {
+          "机制类型": "无抑制",
+          "证据": {
+            "chunk_index": 1233,
+            "source": "凡默谷",
+            "text": "Esaxerenone不会对CYP1A2, CYP2A6, CYP2D6或CYP2E1的活性产生抑制"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "Esaxerenone不抑制CYP2E1",
+        "properties": {
+          "机制类型": "无抑制",
+          "证据": {
+            "chunk_index": 1233,
+            "source": "凡默谷",
+            "text": "Esaxerenone不会对CYP1A2, CYP2A6, CYP2D6或CYP2E1的活性产生抑制"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "Esaxerenone可逆抑制UGT1A1",
+        "properties": {
+          "机制类型": "可逆抑制",
+          "证据": {
+            "chunk_index": 1233,
+            "source": "凡默谷",
+            "text": "使用人肝微粒体研究了Esaxerenone可逆地抑制UGT1A1和UGT2B7的能力。对应UGT1A1和UGT2B7的IC50值分别为23.6 mM和100 mM，对应UGT1A1的Ki为12.4 mM。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "Esaxerenone可逆抑制UGT2B7",
+        "properties": {
+          "机制类型": "可逆抑制",
+          "证据": {
+            "chunk_index": 1233,
+            "source": "凡默谷",
+            "text": "使用人肝微粒体研究了Esaxerenone可逆地抑制UGT1A1和UGT2B7的能力。对应UGT1A1和UGT2B7的IC50值分别为23.6 mM和100 mM，对应UGT1A1的Ki为12.4 mM。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "Esaxerenone诱导CYP2B6",
+        "properties": {
+          "机制类型": "诱导",
+          "证据": {
+            "chunk_index": 1233,
+            "source": "凡默谷",
+            "text": "Esaxerenone不诱导CYP1A2 mRNA表达或活性增加，但表现出对CYP2B6和CYP3A4的诱导作用"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "Esaxerenone诱导CYP3A4",
+        "properties": {
+          "机制类型": "诱导",
+          "证据": {
+            "chunk_index": 1233,
+            "source": "凡默谷",
+            "text": "Esaxerenone不诱导CYP1A2 mRNA表达或活性增加，但表现出对CYP2B6和CYP3A4的诱导作用"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "Esaxerenone不诱导CYP1A2",
+        "properties": {
+          "机制类型": "无诱导",
+          "证据": {
+            "chunk_index": 1233,
+            "source": "凡默谷",
+            "text": "Esaxerenone不诱导CYP1A2 mRNA表达或活性增加，但表现出对CYP2B6和CYP3A4的诱导作用"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "Esaxerenone与咪达唑仑存在DDI（通过CYP3A4）",
+        "properties": {
+          "机制": "Esaxerenone对CYP3A4有时间依赖性抑制",
+          "证据": {
+            "chunk_index": 1233,
+            "source": "凡默谷",
+            "text": "并通过使用咪达唑仑和睾酮作为CYP3A4底物进行了灭活研究，获得了对应的Kinact 和KI值，见表3."
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "name": "Esaxerenone与睾酮存在DDI（通过CYP3A4）",
+        "properties": {
+          "机制": "Esaxerenone对CYP3A4有时间依赖性抑制",
+          "证据": {
+            "chunk_index": 1233,
+            "source": "凡默谷",
+            "text": "并通过使用咪达唑仑和睾酮作为CYP3A4底物进行了灭活研究，获得了对应的Kinact 和KI值，见表3."
+          }
+        }
+      }
+    ],
+    "chunk_index": 1233,
+    "source": "凡默谷",
+    "text": "。此外，还使用1.25mg至10 mg的Esaxerenone进行了DDI模拟。3结果与分析3.1体外DDI研究1. Esaxerenone对人肝微粒体中P450和UGT活性的抑制能力。研究表明Esaxerenone抑制CYP2B6, CYP2C8, CYP2C9, CYP2C19和CYP3A, 对应的Ki值见表3。表3. Esaxerenone对CYP450酶的抑制作用：Esaxerenone不会对CYP1A2, CYP2A6, CYP2D6或CYP2E1的活性产生抑制，而对CYP3A4的活性具有时间依赖性抑制作用（参考IC50值，表3.）。并通过使用咪达唑仑和睾酮作为CYP3A4底物进行了灭活研究，获得了对应的Kinact 和KI值，见表3. 使用人肝微粒体研究了Esaxerenone可逆地抑制UGT1A1和UGT2B7的能力。对应UGT1A1和UGT2B7的IC50值分别为23.6 mM和100 mM，对应UGT1A1的Ki为12.4 mM。Esaxerenone对人肝细胞中CYP450酶的诱导能力。考察了Esaxerenone诱导CYP1A2，CYP2B6或CYP3A4的能力。Esaxerenone没有表现出细胞毒性作用。比较了Esaxerenone与奥美拉唑、利福平或苯巴比妥在最大浓度下诱导CYP450酶的mRNA的表达和酶活性的倍数变化，如图2所示。Esaxerenone不诱导CYP1A2 mRNA表达或活性增加，但表现出对CYP2B6和CYP3A4的诱导作用"
+  }
+]

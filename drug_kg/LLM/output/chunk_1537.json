@@ -1,0 +1,206 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "苯巴比妥",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "唑尼沙胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "左乙拉西坦",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "拉莫三嗪",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "丙戊酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "耐药性癫痫",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "癫痫",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Food",
+        "name": "生酮饮食",
+        "properties": {
+          "type": "饮食疗法"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Mechanism",
+        "name": "迷走神经刺激",
+        "properties": {
+          "机制类型": "神经刺激疗法"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Evidence",
+        "name": "医脉通神经科_1537",
+        "properties": {
+          "chunk_id": "1537",
+          "source": "医脉通神经科",
+          "text": "。另外，AED和非AED的联合疗法同样有一些关于协同作用的证据。例如，有研究显示，在使用生酮饮食对耐药性癫痫儿童患者进行治疗的研究中，同时使用苯巴比妥的患者疗效不如使用唑尼沙胺的患者。迷走神经刺激和生酮饮食的组合似乎同样具有协同作用。对于接受手术的耐药性癫痫患者，围手术期使用左乙拉西坦的患者可以得到更多获益。小结单药治疗仍然是癫痫的标准初始治疗，但是当第一种AED失败时，可以考虑联合用药治疗。在联合使用AED时，最重要的原则是避免对患者不利的药物相互作用。另外，最好在药物组合中包含具有不同作用机制的AED。除了拉莫三嗪和丙戊酸的组合以外，特定的协同性药物组合证据仍然有限。医脉通编译自：Abou-Khalil B. Selecting Rational Drug Combinations in Epilepsy[J]. Cns Drugs, 2017."
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "苯巴比妥与生酮饮食联用疗效不佳",
+        "properties": {
+          "effect": "疗效不如使用唑尼沙胺的患者",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1537,
+              "source": "医脉通神经科",
+              "text": "有研究显示，在使用生酮饮食对耐药性癫痫儿童患者进行治疗的研究中，同时使用苯巴比妥的患者疗效不如使用唑尼沙胺的患者。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "name": "唑尼沙胺与生酮饮食联用",
+        "properties": {
+          "effect": "疗效优于苯巴比妥联用生酮饮食",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1537,
+              "source": "医脉通神经科",
+              "text": "有研究显示，在使用生酮饮食对耐药性癫痫儿童患者进行治疗的研究中，同时使用苯巴比妥的患者疗效不如使用唑尼沙胺的患者。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_8",
+        "name": "迷走神经刺激与生酮饮食联用",
+        "properties": {
+          "effect": "似乎同样具有协同作用",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1537,
+              "source": "医脉通神经科",
+              "text": "迷走神经刺激和生酮饮食的组合似乎同样具有协同作用。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "name": "左乙拉西坦用于耐药性癫痫手术患者",
+        "properties": {
+          "effect": "围手术期使用左乙拉西坦的患者可以得到更多获益",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1537,
+              "source": "医脉通神经科",
+              "text": "对于接受手术的耐药性癫痫患者，围手术期使用左乙拉西坦的患者可以得到更多获益。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "拉莫三嗪与丙戊酸组合",
+        "properties": {
+          "effect": "特定的协同性药物组合证据仍然有限（但暗示该组合是已知的协同组合）",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1537,
+              "source": "医脉通神经科",
+              "text": "除了拉莫三嗪和丙戊酸的组合以外，特定的协同性药物组合证据仍然有限。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "name": "左乙拉西坦用于耐药性癫痫",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1537,
+              "source": "医脉通神经科",
+              "text": "对于接受手术的耐药性癫痫患者，围手术期使用左乙拉西坦的患者可以得到更多获益。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_8",
+        "target_id": "ent_6",
+        "name": "生酮饮食用于耐药性癫痫",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1537,
+              "source": "医脉通神经科",
+              "text": "在使用生酮饮食对耐药性癫痫儿童患者进行治疗的研究中"
+            }
+          ]
+        }
+      }
+    ],
+    "chunk_index": 1537,
+    "source": "医脉通神经科",
+    "text": "。另外，AED和非AED的联合疗法同样有一些关于协同作用的证据。例如，有研究显示，在使用生酮饮食对耐药性癫痫儿童患者进行治疗的研究中，同时使用苯巴比妥的患者疗效不如使用唑尼沙胺的患者。迷走神经刺激和生酮饮食的组合似乎同样具有协同作用。对于接受手术的耐药性癫痫患者，围手术期使用左乙拉西坦的患者可以得到更多获益。小结单药治疗仍然是癫痫的标准初始治疗，但是当第一种AED失败时，可以考虑联合用药治疗。在联合使用AED时，最重要的原则是避免对患者不利的药物相互作用。另外，最好在药物组合中包含具有不同作用机制的AED。除了拉莫三嗪和丙戊酸的组合以外，特定的协同性药物组合证据仍然有限。医脉通编译自：Abou-Khalil B. Selecting Rational Drug Combinations in Epilepsy[J]. Cns Drugs, 2017."
+  }
+]

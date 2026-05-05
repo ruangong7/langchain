@@ -1,0 +1,204 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "头孢氨苄",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "羟脯氨酸-丝氨酸",
+        "properties": {
+          "alias": [
+            "JBP485"
+          ]
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "β-内酰胺类抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "二肽类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "血管紧张素转化酶抑制剂",
+        "properties": {
+          "alias": [
+            "ACEI"
+          ]
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "PEPT1",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "type": "转运体",
+          "alias": [
+            "ABCB1"
+          ]
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "地高辛中毒",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "头孢氨苄与羟脯氨酸-丝氨酸相互作用",
+        "properties": {
+          "mechanism": "竞争性抑制PEPT1",
+          "effect": "头孢氨苄AUC和Cmax显著下降",
+          "stage": "小肠吸收阶段",
+          "evidence": {
+            "chunk_index": 1053,
+            "source": "凡默谷",
+            "text": "研究发现，同时口服头孢氨苄与二肽药物羟脯氨酸-丝氨酸(JBP485)，血中头孢氨苄的AUC和峰浓度（Cmax)显著下降……证实头孢氨苄与JBP485可竞争性抑制PEPT1，从而使头孢氨苄的吸收明显减少"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "头孢氨苄属于β-内酰胺类抗生素",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1053,
+            "source": "凡默谷",
+            "text": "这些结果提示，在临床上P-内酰胺类抗生素与二肽类药物不能联合口服。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "羟脯氨酸-丝氨酸属于二肽类药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1053,
+            "source": "凡默谷",
+            "text": "二肽药物羟脯氨酸-丝氨酸(JBP485)"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_8",
+        "name": "地高辛与P-gp抑制剂相互作用",
+        "properties": {
+          "mechanism": "P-gp被抑制，地高辛外排减少",
+          "effect": "地高辛血药浓度增加1〜3倍，可能引发地高辛中毒",
+          "stage": "小肠吸收阶段",
+          "evidence": {
+            "chunk_index": 1053,
+            "source": "凡默谷",
+            "text": "当P-gp的底物地高辛与抑制剂合用时，由于P-gp被抑制，地高辛的外排明显减少，增加了地高辛吸收入血，导致地高辛血药浓度增加1〜3倍，很可能引发地高辛中毒"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_5",
+        "target_id": "ent_9",
+        "name": "地高辛可能导致地高辛中毒",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1053,
+            "source": "凡默谷",
+            "text": "很可能引发地高辛中毒"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "β-内酰胺类抗生素与二肽类药物不宜联合口服",
+        "properties": {
+          "recommendation": "不宜联合口服给药",
+          "reason": "均为PEPT1底物，可能发生吸收阶段DDI",
+          "evidence": {
+            "chunk_index": 1053,
+            "source": "凡默谷",
+            "text": "在临床上P-内酰胺类抗生素与二肽类药物不能联合口服。同理，两种 PEPT1底物的P-内酰胺类抗生素、血管紧张素转化酶抑制剂（ACEI)、二肽类药物等也不宜联合口服给药。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_4",
+        "name": "ACEI与二肽类药物不宜联合口服",
+        "properties": {
+          "recommendation": "不宜联合口服给药",
+          "reason": "均为PEPT1底物",
+          "evidence": {
+            "chunk_index": 1053,
+            "source": "凡默谷",
+            "text": "同理，两种 PEPT1底物的P-内酰胺类抗生素、血管紧张素转化酶抑制剂（ACEI)、二肽类药物等也不宜联合口服给药。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "name": "β-内酰胺类抗生素与ACEI不宜联合口服",
+        "properties": {
+          "recommendation": "不宜联合口服给药",
+          "reason": "均为PEPT1底物",
+          "evidence": {
+            "chunk_index": 1053,
+            "source": "凡默谷",
+            "text": "同理，两种 PEPT1底物的P-内酰胺类抗生素、血管紧张素转化酶抑制剂（ACEI)、二肽类药物等也不宜联合口服给药。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1053,
+    "source": "凡默谷",
+    "text": "。口服药物 经小肠摄取型转运体的主动转运而被吸收入血， 同时被外排型转运体排回到肠腔中，如在转运体 部位发生DDI将引起药物吸收程度或速率的改 变，从而引起合用药物血药浓度的变化，导致药物 疗效的改变或毒副作用的发生。一般认为，当药 物吸收程度改变20%以上时便具有临床意义。研究发现，同时口服头孢氨苄与二肽药物羟脯氨 酸-丝氨酸(JBP485)，血中头孢氨苄的AUC和峰浓 度（Cmax)显著下降，然而相同剂量静脉注射给予 两药时，头孢氨苄的血药浓度几乎不发生变化，初 步判断两药DDI可能发生在药物吸收阶段，随后 采用在体肠灌流及离体翻转肠实验进一步证实两 药DDI发生在小肠吸收阶段。为了进一步研究 DDI发生的靶点，采用PEPT1的基因转染细胞进 行药物摄取实验，证实头孢氨苄与JBP485可竞争 性抑制PEPT1，从而使头孢氨苄的吸收明显减 少[]。这些结果提示，在临床上P-内酰胺类抗生 素与二肽类药物不能联合口服。同理，两种 PEPT1底物的P-内酰胺类抗生素、血管紧张素转 化酶抑制剂（ACEI)、二肽类药物等也不宜联合口 服给药。小肠上皮细胞的顶侧膜上的外排型转运 体，其中最具代表性的转运体就是P-gp。P-gp的主要功能是将底物药物外排到肠腔，阻止药物在 小肠吸收入血，这也是很多口服药物生物利用度 低的主要原因之一。当P-gp的底物地高辛与抑 制剂合用时，由于P-gp被抑制，地高辛的外排明 显减少，增加了地高辛吸收入血，导致地高辛血药 浓度增加1〜3倍，很可能引发地高辛中毒"
+  }
+]

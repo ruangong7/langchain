@@ -1,0 +1,220 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "别嘌醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "ACEI",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "卡托普利",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "超敏反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Symptom",
+        "name": "皮肤反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "白细胞计数",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Symptom",
+        "name": "咽喉痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Symptom",
+        "name": "发热",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Population",
+        "name": "肾衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Population",
+        "name": "肾损害",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Evidence",
+        "name": "医学界内分泌频道",
+        "properties": {
+          "chunk_id": 1364,
+          "source": "医学界内分泌频道"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "别嘌醇与ACEI可能存在相互作用导致超敏反应",
+        "properties": {
+          "mechanism": "尚不明确",
+          "outcome": "超敏反应、低白细胞计数",
+          "severity": "罕见且不可预测",
+          "recommendation": "密切监测任何超敏反应的体征（例如皮肤反应）或低白细胞计数（例如咽喉痛、发热），特别是当存在肾损害的时候；在ACEI服用期间加用别嘌醇前，应进行白细胞分类计数，并在治疗的前3个月，每2周检查一次，此后定期进行",
+          "evidence": {
+            "chunk_index": 1364,
+            "source": "医学界内分泌频道",
+            "text": "相互作用机制尚不明确。不确定上述不良反应是否为别嘌醇和ACEI的相互作用，因为别嘌醇和卡托普利单独给药也可引起超敏反应，尤其是在肾衰竭的情况下。虽然这种相互作用尚未明确，上述不良反应罕见且不可预测。仍建议服用两种药物的患者密切监测任何超敏反应的体征（例如皮肤反应）或低白细胞计数（例如咽喉痛、发热），特别是当存在肾损害的时候。英国卡托普利的生产商建议，在ACEI服用期间加用别嘌醇前，应进行白细胞分类计数，并在治疗的前3个月，每2周检查一次，此后定期进行[4]。英国其他几种ACEI的生产商也给出了类似的警告和建议"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "name": "卡托普利属于ACEI类药物",
+        "properties": {}
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "别嘌醇可引起超敏反应",
+        "properties": {
+          "context": "尤其是在肾衰竭的情况下",
+          "evidence": {
+            "chunk_index": 1364,
+            "source": "医学界内分泌频道",
+            "text": "不确定上述不良反应是否为别嘌醇和ACEI的相互作用，因为别嘌醇和卡托普利单独给药也可引起超敏反应，尤其是在肾衰竭的情况下。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "卡托普利可引起超敏反应",
+        "properties": {
+          "context": "尤其是在肾衰竭的情况下",
+          "evidence": {
+            "chunk_index": 1364,
+            "source": "医学界内分泌频道",
+            "text": "不确定上述不良反应是否为别嘌醇和ACEI的相互作用，因为别嘌醇和卡托普利单独给药也可引起超敏反应，尤其是在肾衰竭的情况下。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "超敏反应表现为皮肤反应",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1364,
+            "source": "医学界内分泌频道",
+            "text": "密切监测任何超敏反应的体征（例如皮肤反应）或低白细胞计数（例如咽喉痛、发热）"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "name": "超敏反应可能导致低白细胞计数",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1364,
+            "source": "医学界内分泌频道",
+            "text": "密切监测任何超敏反应的体征（例如皮肤反应）或低白细胞计数（例如咽喉痛、发热）"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "低白细胞计数表现为咽喉痛",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1364,
+            "source": "医学界内分泌频道",
+            "text": "密切监测任何超敏反应的体征（例如皮肤反应）或低白细胞计数（例如咽喉痛、发热）"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "name": "低白细胞计数表现为发热",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1364,
+            "source": "医学界内分泌频道",
+            "text": "密切监测任何超敏反应的体征（例如皮肤反应）或低白细胞计数（例如咽喉痛、发热）"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "APPLIES_TO",
+        "source_id": "ent_4",
+        "target_id": "ent_9",
+        "name": "超敏反应风险在肾衰竭患者中增加",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1364,
+            "source": "医学界内分泌频道",
+            "text": "尤其是在肾衰竭的情况下"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "APPLIES_TO",
+        "source_id": "rel_1",
+        "target_id": "ent_10",
+        "name": "相互作用风险在肾损害患者中需特别关注",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1364,
+            "source": "医学界内分泌频道",
+            "text": "特别是当存在肾损害的时候"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1364,
+    "source": "医学界内分泌频道",
+    "text": "。相互作用机制尚不明确。不确定上述不良反应是否为别嘌醇和ACEI的相互作用，因为别嘌醇和卡托普利单独给药也可引起超敏反应，尤其是在肾衰竭的情况下。虽然这种相互作用尚未明确，上述不良反应罕见且不可预测。仍建议服用两种药物的患者密切监测任何超敏反应的体征（例如皮肤反应）或低白细胞计数（例如咽喉痛、发热），特别是当存在肾损害的时候。英国卡托普利的生产商建议，在ACEI服用期间加用别嘌醇前，应进行白细胞分类计数，并在治疗的前3个月，每2周检查一次，此后定期进行[4]。英国其他几种ACEI的生产商也给出了类似的警告和建议"
+  }
+]

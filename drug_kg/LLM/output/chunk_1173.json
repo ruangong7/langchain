@@ -1,0 +1,133 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "CYP2C",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体",
+          "别名列表": [
+            "ABCB1"
+          ]
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "OATP1B1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "OATP1B3",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "OAT1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "OAT3",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "OCT2",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "MATE1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "MATE2-K",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Mechanism",
+        "name": "酶诱导作用",
+        "properties": {
+          "机制类型": "酶诱导"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Mechanism",
+        "name": "差异倍数分析法",
+        "properties": {
+          "机制类型": "评估方法"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Mechanism",
+        "name": "相关性法",
+        "properties": {
+          "机制类型": "评估方法"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Indicator",
+        "name": "mRNA水平",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Indicator",
+        "name": "AUC",
+        "properties": {
+          "名称": "血药浓度-时间曲线下面积"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1173,
+          "来源类型": "公众号",
+          "来源": "凡默谷"
+        }
+      }
+    ],
+    "relations": [],
+    "chunk_index": 1173,
+    "source": "凡默谷",
+    "text": "。反之，则需检测药物对CYP2C的诱导作用。酶诱导作用基础模型计算公式为其中EC50为半数效应浓度，Emax为最大诱导效应，Imax,u为最大血浆游离药物浓度，d为换算系统（通常设为1），如R值≤0.8，提示可能存在临床DDI的风险。此外，用于评估酶诱导作用的基础模型还包括:（1）差异倍数分析法（fold-change method): 通过使用已知阳性和阴性对照品确定的cut-off值来校准系统，检查与研究药物共培养时CYP酶的mRNA水平的差异变化倍数。若在研究药物存在的情况下，酶的mRNA水平增加至2倍及以上，同时阳性对照反应率>20%认为是阳性反应。（2）相关性法（correlation methods):直接计算Imax,u/EC50比值或是计算相对诱导分数根据对同种酶的一系列已知诱导剂的RIS诱导分数或Imax,u/EC50比值的校准曲线，确定临床诱导效应的大小（例如，在存在和不存在诱导剂时探针底物AUC的比率)。3.4 作为转运体底物对于P-gp，若药物的净流量比（或称外排比Efflux ratio) ≥2,并且外排作用可被至少一种已知抑制剂明显抑制时，提示研究药物可能是P-gp转运体的底物。对于肝脏摄取蛋白（OATP1B1、OATP1B3)和肾脏分泌蛋白(OAT1/OAT3、OCT2、Matel、Mate2-K)，如转运体转染细胞的摄取高于空白转染细胞的2倍及以上，且摄取可被已知抑制剂明显抑制，提示药物可能是其底物"
+  }
+]

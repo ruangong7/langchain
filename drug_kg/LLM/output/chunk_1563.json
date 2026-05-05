@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "医脉通神经科",
+        "properties": {
+          "chunk_id": "chunk_1563",
+          "source": "医脉通神经科",
+          "text": ". Blood-Pressure and Cholesterol Lowering in Persons without Cardiovascular Disease[J]. N Engl J Med, 2016, 374(21): 2032-2043.[5] Berwanger O , Santucci E V , Isabella de Andrade Jesuíno, et al. Effect of Loading Dose of Atorvastatin Prior to Planned Percutaneous Coronary Intervention on Major Adverse Cardiovascular Events in Acute Coronary Syndrome: The SECURE-PCI Randomized Clinical Trial[J]. Jama, 2018, 319.[6] Chou R , Dana T , Blazina I , et al. statins for Prevention of Cardiovascular Disease in Adults: Evidence Report and Systematic Review for the Us Preventive Services Task Force[J]. JAMA, 2016, 65(3): 2008-2024.[7] Pose E , Trebicka J , Mookerjee R P , et al"
+        }
+      },
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Atorvastatin",
+        "properties": {
+          "generic_name": "Atorvastatin"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "statins",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "Cardiovascular Disease",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "Acute Coronary Syndrome",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "属于类别",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1563,
+              "source": "医脉通神经科",
+              "text": "Effect of Loading Dose of Atorvastatin Prior to Planned Percutaneous Coronary Intervention on Major Adverse Cardiovascular Events in Acute Coronary Syndrome: The SECURE-PCI Randomized Clinical Trial[J]. Jama, 2018, 319.[6] Chou R , Dana T , Blazina I , et al. statins for Prevention of Cardiovascular Disease in Adults: Evidence Report and Systematic Review for the Us Preventive Services Task Force[J]. JAMA, 2016, 65(3): 2008-2024."
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "用于治疗",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1563,
+              "source": "医脉通神经科",
+              "text": "statins for Prevention of Cardiovascular Disease in Adults: Evidence Report and Systematic Review for the Us Preventive Services Task Force[J]. JAMA, 2016, 65(3): 2008-2024."
+            }
+          ]
+        }
+      }
+    ],
+    "chunk_index": 1563,
+    "source": "医脉通神经科",
+    "text": ". Blood-Pressure and Cholesterol Lowering in Persons without Cardiovascular Disease[J]. N Engl J Med, 2016, 374(21): 2032-2043.[5] Berwanger O , Santucci E V , Isabella de Andrade Jesuíno, et al. Effect of Loading Dose of Atorvastatin Prior to Planned Percutaneous Coronary Intervention on Major Adverse Cardiovascular Events in Acute Coronary Syndrome: The SECURE-PCI Randomized Clinical Trial[J]. Jama, 2018, 319.[6] Chou R , Dana T , Blazina I , et al. statins for Prevention of Cardiovascular Disease in Adults: Evidence Report and Systematic Review for the Us Preventive Services Task Force[J]. JAMA, 2016, 65(3): 2008-2024.[7] Pose E , Trebicka J , Mookerjee R P , et al"
+  }
+]

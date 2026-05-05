@@ -1,0 +1,405 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "奥拉帕利",
+        "properties": {
+          "metabolism": "主要经CYP3A代谢"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氟唑帕利",
+        "properties": {
+          "metabolism": "主要经CYP3A代谢"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "替格瑞洛",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "帕米帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "PARPi",
+        "properties": {
+          "description": "聚腺苷二磷酸核糖聚合酶抑制剂"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Food",
+        "name": "西柚（汁）",
+        "properties": {
+          "type": "饮品",
+          "key_component": "呋喃香豆素"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Food",
+        "name": "酸橙（汁）",
+        "properties": {
+          "type": "饮品",
+          "key_component": "呋喃香豆素"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Food",
+        "name": "贯叶连翘（圣约翰草）",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Food",
+        "name": "芙朴冲剂",
+        "properties": {
+          "type": "中成药"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Food",
+        "name": "头花蓼",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Food",
+        "name": "人参",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Food",
+        "name": "银杏",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Food",
+        "name": "益母草",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Food",
+        "name": "淫羊藿",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Food",
+        "name": "杨梅酮",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Food",
+        "name": "陈皮",
+        "properties": {
+          "type": "中药材",
+          "key_component": "橙皮苷"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "Food",
+        "name": "橘红",
+        "properties": {
+          "type": "中药材",
+          "key_component": "橙皮苷"
+        }
+      },
+      {
+        "id": "ent_18",
+        "type": "Food",
+        "name": "佛手",
+        "properties": {
+          "type": "中药材",
+          "key_component": "橙皮苷"
+        }
+      },
+      {
+        "id": "ent_19",
+        "type": "Food",
+        "name": "白芷",
+        "properties": {
+          "type": "中药材",
+          "key_component": "呋喃香豆素"
+        }
+      },
+      {
+        "id": "ent_20",
+        "type": "Food",
+        "name": "前胡",
+        "properties": {
+          "type": "中药材",
+          "key_component": "呋喃香豆素"
+        }
+      },
+      {
+        "id": "ent_21",
+        "type": "Food",
+        "name": "当归",
+        "properties": {
+          "type": "中药材",
+          "key_component": "呋喃香豆素"
+        }
+      },
+      {
+        "id": "ent_22",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_23",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_24",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_25",
+        "type": "SideEffect",
+        "name": "不良反应增加",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": 1530,
+          "source": "医脉通泌尿外科",
+          "text": "。同时，由于奥拉帕利和氟唑帕利主要经CYP3A代谢，替格瑞洛可抑制奥拉帕利和氟唑帕利代谢，引起体内浓度升高，不良反应增加。因此，已长期使用替格瑞洛的患者，PARPi可优选帕米帕利。常用抗凝药与PARPi的相互作用及证据级别见表8。五食物和中药与PARPi的相互作用及处理推荐西柚（汁）、酸橙（汁）是CYP3A强抑制剂，中药贯叶连翘（又称圣约翰草）为CYP3A、P-gp强诱导剂，可影响PARPi体内代谢，应避免食用。此外，芙朴冲剂、头花蓼也可诱导CYP3A4。某些中药或中成药也可抑制CYP3A4，如人参、银杏、益母草、淫羊藿、杨梅酮、含黄酮类成分橙皮苷的芸香科中药（如陈皮、橘红、佛手）、含有呋喃香豆素成分的中药（如白芷、前胡、当归）等，均可抑制CYP3A4的活性。六结语PARPi大多通过肝药酶代谢，与肿瘤患者很多其他常用药物均存在相互作用，临床用药过程中应注意审核，充分利用相互作用数据库，避免严重的药物相互作用，必要时调整药物用量。对于数据库未收录的相互作用，可结合药物代谢特点及对代谢酶的影响，从机制上推测是否存在潜在相互作用，加强用药过程的观察和监护，更好地保障PARPi的安全性和有效性。目前，针对中药、中成药与PARPi之间的相互作用尚缺乏相关研究，未来可进一步加强。参考文献略"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "替格瑞洛抑制奥拉帕利代谢",
+        "properties": {
+          "mechanism": "抑制CYP3A代谢",
+          "consequence": "体内浓度升高，不良反应增加",
+          "recommendation": "已长期使用替格瑞洛的患者，PARPi可优选帕米帕利",
+          "evidence": {
+            "chunk_index": 1530,
+            "source": "医脉通泌尿外科",
+            "text": "同时，由于奥拉帕利和氟唑帕利主要经CYP3A代谢，替格瑞洛可抑制奥拉帕利和氟唑帕利代谢，引起体内浓度升高，不良反应增加。因此，已长期使用替格瑞洛的患者，PARPi可优选帕米帕利。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "name": "替格瑞洛抑制氟唑帕利代谢",
+        "properties": {
+          "mechanism": "抑制CYP3A代谢",
+          "consequence": "体内浓度升高，不良反应增加",
+          "recommendation": "已长期使用替格瑞洛的患者，PARPi可优选帕米帕利",
+          "evidence": {
+            "chunk_index": 1530,
+            "source": "医脉通泌尿外科",
+            "text": "同时，由于奥拉帕利和氟唑帕利主要经CYP3A代谢，替格瑞洛可抑制奥拉帕利和氟唑帕利代谢，引起体内浓度升高，不良反应增加。因此，已长期使用替格瑞洛的患者，PARPi可优选帕米帕利。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_5",
+        "name": "西柚（汁）影响PARPi代谢",
+        "properties": {
+          "mechanism": "CYP3A强抑制剂",
+          "recommendation": "应避免食用",
+          "evidence": {
+            "chunk_index": 1530,
+            "source": "医脉通泌尿外科",
+            "text": "西柚（汁）、酸橙（汁）是CYP3A强抑制剂，中药贯叶连翘（又称圣约翰草）为CYP3A、P-gp强诱导剂，可影响PARPi体内代谢，应避免食用。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_5",
+        "name": "酸橙（汁）影响PARPi代谢",
+        "properties": {
+          "mechanism": "CYP3A强抑制剂",
+          "recommendation": "应避免食用",
+          "evidence": {
+            "chunk_index": 1530,
+            "source": "医脉通泌尿外科",
+            "text": "西柚（汁）、酸橙（汁）是CYP3A强抑制剂，中药贯叶连翘（又称圣约翰草）为CYP3A、P-gp强诱导剂，可影响PARPi体内代谢，应避免食用。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_5",
+        "name": "贯叶连翘影响PARPi代谢",
+        "properties": {
+          "mechanism": "CYP3A、P-gp强诱导剂",
+          "recommendation": "应避免食用",
+          "evidence": {
+            "chunk_index": 1530,
+            "source": "医脉通泌尿外科",
+            "text": "西柚（汁）、酸橙（汁）是CYP3A强抑制剂，中药贯叶连翘（又称圣约翰草）为CYP3A、P-gp强诱导剂，可影响PARPi体内代谢，应避免食用。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "奥拉帕利属于PARPi",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1530,
+            "source": "医脉通泌尿外科",
+            "text": "PARPi可优选帕米帕利"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "氟唑帕利属于PARPi",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1530,
+            "source": "医脉通泌尿外科",
+            "text": "PARPi可优选帕米帕利"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "帕米帕利属于PARPi",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1530,
+            "source": "医脉通泌尿外科",
+            "text": "PARPi可优选帕米帕利"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_22",
+        "name": "奥拉帕利经CYP3A代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1530,
+            "source": "医脉通泌尿外科",
+            "text": "奥拉帕利和氟唑帕利主要经CYP3A代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_22",
+        "name": "氟唑帕利经CYP3A代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1530,
+            "source": "医脉通泌尿外科",
+            "text": "奥拉帕利和氟唑帕利主要经CYP3A代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_25",
+        "name": "奥拉帕利可能导致不良反应增加",
+        "properties": {
+          "condition": "与替格瑞洛联用时",
+          "evidence": {
+            "chunk_index": 1530,
+            "source": "医脉通泌尿外科",
+            "text": "替格瑞洛可抑制奥拉帕利和氟唑帕利代谢，引起体内浓度升高，不良反应增加。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_25",
+        "name": "氟唑帕利可能导致不良反应增加",
+        "properties": {
+          "condition": "与替格瑞洛联用时",
+          "evidence": {
+            "chunk_index": 1530,
+            "source": "医脉通泌尿外科",
+            "text": "替格瑞洛可抑制奥拉帕利和氟唑帕利代谢，引起体内浓度升高，不良反应增加。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1530,
+    "source": "医脉通泌尿外科",
+    "text": "。同时，由于奥拉帕利和氟唑帕利主要经CYP3A代谢，替格瑞洛可抑制奥拉帕利和氟唑帕利代谢，引起体内浓度升高，不良反应增加。因此，已长期使用替格瑞洛的患者，PARPi可优选帕米帕利。常用抗凝药与PARPi的相互作用及证据级别见表8。五食物和中药与PARPi的相互作用及处理推荐西柚（汁）、酸橙（汁）是CYP3A强抑制剂，中药贯叶连翘（又称圣约翰草）为CYP3A、P-gp强诱导剂，可影响PARPi体内代谢，应避免食用。此外，芙朴冲剂、头花蓼也可诱导CYP3A4。某些中药或中成药也可抑制CYP3A4，如人参、银杏、益母草、淫羊藿、杨梅酮、含黄酮类成分橙皮苷的芸香科中药（如陈皮、橘红、佛手）、含有呋喃香豆素成分的中药（如白芷、前胡、当归）等，均可抑制CYP3A4的活性。六结语PARPi大多通过肝药酶代谢，与肿瘤患者很多其他常用药物均存在相互作用，临床用药过程中应注意审核，充分利用相互作用数据库，避免严重的药物相互作用，必要时调整药物用量。对于数据库未收录的相互作用，可结合药物代谢特点及对代谢酶的影响，从机制上推测是否存在潜在相互作用，加强用药过程的观察和监护，更好地保障PARPi的安全性和有效性。目前，针对中药、中成药与PARPi之间的相互作用尚缺乏相关研究，未来可进一步加强。参考文献略"
+  }
+]

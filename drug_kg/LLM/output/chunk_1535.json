@@ -1,0 +1,297 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "抗癫痫药物",
+        "properties": {
+          "alias": [
+            "AED"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Mechanism",
+        "name": "酶诱导",
+        "properties": {
+          "mechanism_type": "酶诱导"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Mechanism",
+        "name": "酶抑制",
+        "properties": {
+          "mechanism_type": "酶抑制"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Mechanism",
+        "name": "蛋白质结合竞争",
+        "properties": {
+          "mechanism_type": "蛋白结合置换"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "拉莫三嗪",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "丙戊酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "卡马西平",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "非氨酯",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "毒副作用",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "卡马西平环氧化物浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "SideEffect",
+        "name": "高氨血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Population",
+        "name": "低蛋白质状态",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Population",
+        "name": "肝衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Population",
+        "name": "肾衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Population",
+        "name": "妊娠",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Population",
+        "name": "老年",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Evidence",
+        "name": "医脉通神经科_1535",
+        "properties": {
+          "chunk_id": "医脉通神经科_1535",
+          "source": "医脉通神经科",
+          "text": "医脉通导读 目前现有的抗癫痫药物种类繁多，并且由于不少药物对肝酶存在不同作用，在对这些相关药物进行配伍时，互相之间的影响也让人防不胜防。本文通过一张表格，对常见抗癫痫药物之间的相互作用进行了整理，供大家在药物配伍时参考。药代动力学相互作用抗癫痫药物（AED）的药代动力学常与酶诱导或抑制有关。具有酶抑制作用的AED可以导致通过相应酶代谢的AED清除率和半衰期延长。一些AED对于酶的诱导或抑制具有一定选择性，诱导或抑制作用也强弱不等。也有一些AED不代谢或不在肝脏中代谢，也就不会有显著的药代动力学相互作用。药物相互作用同样可能由于蛋白质结合的竞争而引起。具有高度蛋白质结合性质的AED可能会从血清蛋白中相互置换，从而导致未与蛋白质结合的部分增加，这种情况同样可能在低蛋白质状态、肝和肾衰竭、妊娠和老年时增加。相比之下，这些游离的药物在毒性和疗效方面更具临床意义。当基于药物总血清浓度对患者的用药进行调整时，蛋白质结合程度的变化是最具临床意义的。在AED联合用药时，应当避免对患者不利的药物相互作用，特别是如果需要给患者添加的辅助AED如果在肝脏中代谢，酶诱导剂将降低其药效，因此需要给予更高的剂量。而酶抑制剂在一些情况下可能是有利的，例如当拉莫三嗪与丙戊酸联用时，可能低剂量的拉莫三嗪便足矣。某些组合可导致某些有毒的代谢物水平升高。例如卡马西平环氧化物的浓度与卡马西平某些毒副作用相关，而将卡马西平与丙戊酸盐或非氨酯联用时，卡马西平环氧化物的浓度可能会增加。另外，一些有毒的丙戊酸代谢物的浓度，以及丙戊酸盐诱导的高氨血症的风险，也可能随着酶诱导剂的增加而增加"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_1",
+        "name": "抗癫痫药物之间存在相互作用",
+        "properties": {
+          "mechanism": [
+            "酶诱导",
+            "酶抑制",
+            "蛋白质结合竞争"
+          ],
+          "consequence": "影响药效、毒性、代谢物水平",
+          "evidence": {
+            "chunk_index": 1535,
+            "source": "医脉通神经科",
+            "text": "目前现有的抗癫痫药物种类繁多，并且由于不少药物对肝酶存在不同作用，在对这些相关药物进行配伍时，互相之间的影响也让人防不胜防。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "拉莫三嗪与丙戊酸联用",
+        "properties": {
+          "mechanism": [
+            "酶抑制"
+          ],
+          "consequence": "可能低剂量的拉莫三嗪便足矣",
+          "suggestion": "酶抑制剂在一些情况下可能是有利的",
+          "evidence": {
+            "chunk_index": 1535,
+            "source": "医脉通神经科",
+            "text": "而酶抑制剂在一些情况下可能是有利的，例如当拉莫三嗪与丙戊酸联用时，可能低剂量的拉莫三嗪便足矣。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_6",
+        "name": "卡马西平与丙戊酸盐联用",
+        "properties": {
+          "consequence": "卡马西平环氧化物的浓度可能会增加",
+          "risk": "毒副作用风险增加",
+          "evidence": {
+            "chunk_index": 1535,
+            "source": "医脉通神经科",
+            "text": "例如卡马西平环氧化物的浓度与卡马西平某些毒副作用相关，而将卡马西平与丙戊酸盐或非氨酯联用时，卡马西平环氧化物的浓度可能会增加。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "name": "卡马西平与非氨酯联用",
+        "properties": {
+          "consequence": "卡马西平环氧化物的浓度可能会增加",
+          "risk": "毒副作用风险增加",
+          "evidence": {
+            "chunk_index": 1535,
+            "source": "医脉通神经科",
+            "text": "例如卡马西平环氧化物的浓度与卡马西平某些毒副作用相关，而将卡马西平与丙戊酸盐或非氨酯联用时，卡马西平环氧化物的浓度可能会增加。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_10",
+        "target_id": "ent_9",
+        "name": "卡马西平环氧化物浓度增加导致毒副作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1535,
+            "source": "医脉通神经科",
+            "text": "卡马西平环氧化物的浓度与卡马西平某些毒副作用相关"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "酶诱导剂增加丙戊酸盐诱导的高氨血症风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1535,
+            "source": "医脉通神经科",
+            "text": "丙戊酸盐诱导的高氨血症的风险，也可能随着酶诱导剂的增加而增加"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_10",
+        "name": "蛋白质结合竞争影响游离药物浓度",
+        "properties": {
+          "context": "在低蛋白质状态、肝和肾衰竭、妊娠和老年时增加",
+          "evidence": {
+            "chunk_index": 1535,
+            "source": "医脉通神经科",
+            "text": "具有高度蛋白质结合性质的AED可能会从血清蛋白中相互置换，从而导致未与蛋白质结合的部分增加，这种情况同样可能在低蛋白质状态、肝和肾衰竭、妊娠和老年时增加。相比之下，这些游离的药物在毒性和疗效方面更具临床意义。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_1",
+        "target_id": "ent_17",
+        "name": "相互作用证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_9",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_2",
+        "target_id": "ent_17",
+        "name": "相互作用证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_10",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_3",
+        "target_id": "ent_17",
+        "name": "相互作用证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_11",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_4",
+        "target_id": "ent_17",
+        "name": "相互作用证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_12",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_5",
+        "target_id": "ent_17",
+        "name": "相互作用证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_13",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_6",
+        "target_id": "ent_17",
+        "name": "相互作用证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_14",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_7",
+        "target_id": "ent_17",
+        "name": "相互作用证据支持",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1535,
+    "source": "医脉通神经科",
+    "text": "医脉通导读 目前现有的抗癫痫药物种类繁多，并且由于不少药物对肝酶存在不同作用，在对这些相关药物进行配伍时，互相之间的影响也让人防不胜防。本文通过一张表格，对常见抗癫痫药物之间的相互作用进行了整理，供大家在药物配伍时参考。药代动力学相互作用抗癫痫药物（AED）的药代动力学常与酶诱导或抑制有关。具有酶抑制作用的AED可以导致通过相应酶代谢的AED清除率和半衰期延长。一些AED对于酶的诱导或抑制具有一定选择性，诱导或抑制作用也强弱不等。也有一些AED不代谢或不在肝脏中代谢，也就不会有显著的药代动力学相互作用。药物相互作用同样可能由于蛋白质结合的竞争而引起。具有高度蛋白质结合性质的AED可能会从血清蛋白中相互置换，从而导致未与蛋白质结合的部分增加，这种情况同样可能在低蛋白质状态、肝和肾衰竭、妊娠和老年时增加。相比之下，这些游离的药物在毒性和疗效方面更具临床意义。当基于药物总血清浓度对患者的用药进行调整时，蛋白质结合程度的变化是最具临床意义的。在AED联合用药时，应当避免对患者不利的药物相互作用，特别是如果需要给患者添加的辅助AED如果在肝脏中代谢，酶诱导剂将降低其药效，因此需要给予更高的剂量。而酶抑制剂在一些情况下可能是有利的，例如当拉莫三嗪与丙戊酸联用时，可能低剂量的拉莫三嗪便足矣。某些组合可导致某些有毒的代谢物水平升高。例如卡马西平环氧化物的浓度与卡马西平某些毒副作用相关，而将卡马西平与丙戊酸盐或非氨酯联用时，卡马西平环氧化物的浓度可能会增加。另外，一些有毒的丙戊酸代谢物的浓度，以及丙戊酸盐诱导的高氨血症的风险，也可能随着酶诱导剂的增加而增加"
+  }
+]

@@ -1,0 +1,193 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "双胍类降糖药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "硝苯地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "羟氯喹",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "UGT",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "SULT",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "低血糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Transporter",
+        "name": "有机阳离子转运体",
+        "properties": {
+          "类型": "转运体"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "二甲双胍属于双胍类降糖药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1148,
+            "source": "凡默谷",
+            "text": "二甲双胍是其中的经典药物"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "二甲双胍与伊曲康唑相互作用",
+        "properties": {
+          "mechanism": "相互竞争抑制CYP3A酶活性",
+          "consequence": "两药暴露量同时增加",
+          "evidence": {
+            "chunk_index": 1148,
+            "source": "凡默谷",
+            "text": "在二甲双胍与伊曲康唑或硝苯地平的合用过程中，两药可通过相互竞争抑制CYP3A酶的活性，使两药的暴露量同时增加〔8〕。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "二甲双胍与硝苯地平相互作用",
+        "properties": {
+          "mechanism": "相互竞争抑制CYP3A酶活性",
+          "consequence": "两药暴露量同时增加",
+          "evidence": {
+            "chunk_index": 1148,
+            "source": "凡默谷",
+            "text": "在二甲双胍与伊曲康唑或硝苯地平的合用过程中，两药可通过相互竞争抑制CYP3A酶的活性，使两药的暴露量同时增加〔8〕。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "二甲双胍与羟氯喹相互作用",
+        "properties": {
+          "consequence": "死亡风险比单独使用一种药物更高",
+          "evidence": {
+            "chunk_index": 1148,
+            "source": "凡默谷",
+            "text": "Montastruc等〔9〕在研究中发现羟氯喹和二甲双胍两种药物时，其死亡风险比单独使用一种药物更高。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "name": "二甲双胍下调CYP3A4表达",
+        "properties": {
+          "mechanism_detail": "通过抑制妊娠X受体调节CYP3A4基因表达",
+          "evidence": {
+            "chunk_index": 1148,
+            "source": "凡默谷",
+            "text": "据报道〔7〕，二甲双胍可通过抑制妊娠X受体调节细胞色素P450(CYP) 3A4基因的表达，下调CYP3A4酶的表达。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "双胍类降糖药疗效增强可能引发低血糖",
+        "properties": {
+          "context": "与其他药物合用导致疗效增强",
+          "evidence": {
+            "chunk_index": 1148,
+            "source": "凡默谷",
+            "text": "对于降糖药物，其疗效增强可能会导致低血糖的发生，从而给患者带来生命危险。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "name": "二甲双胍经有机阳离子转运体转运，存在转运体介导的相互作用",
+        "properties": {
+          "mechanism": "转运体介导",
+          "evidence": {
+            "chunk_index": 1148,
+            "source": "凡默谷",
+            "text": "此外，二甲双胍主要经有机阳离子转运体，还具有潜在转运体介导的药物相互作用〔6〕"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1148,
+    "source": "凡默谷",
+    "text": "。药物抑制或诱导P450酶都可能会引发相应的代谢性药物-药物相互作用，导致合用药物药动学或药效学发生改变，增加患者的临床用药风险。对于降糖药物，其疗效增强可能会导致低血糖的发生，从而给患者带来生命危险。此外，药物对Ⅱ相代谢酶活性的影响，如尿苷二磷酸葡萄糖醛酸转移酶(UGT)和磺酸基转移酶(SULT)等，也会引起代谢性药物相互作用的发生〔5〕。虽然近年来已有关于药物转运体介导口服降糖药相互作用研究的综述报道〔3，4〕，但关于口服降糖药在代谢性药物相互作用方面的信息还仍然较少。因此，本文根据近年来的研究报道，就降糖药物与其他常用药物间的潜在代谢性相互作用进行综述，以期为临床安全、合理用药提供参考。1双胍类降糖药双胍类降糖药是目前临床上使用较为普遍的一类口服药物。其可抑制肝糖原的异生和肠壁细胞对葡萄糖的摄取; 增加外周组织对胰岛素敏感性，促进外周组织对葡萄糖的利用。二甲双胍是其中的经典药物，除了常与其他类型的降糖药合用外，与其他非降糖药物合用的频率也较高。随着使用量的增加，其发生药物相互作用或不良反应的报道也在逐渐增加〔6〕。据报道〔7〕，二甲双胍可通过抑制妊娠X受体调节细胞色素P450(CYP) 3A4基因的表达，下调CYP3A4酶的表达。在二甲双胍与伊曲康唑或硝苯地平的合用过程中，两药可通过相互竞争抑制CYP3A酶的活性，使两药的暴露量同时增加〔8〕。Montastruc等〔9〕在研究中发现羟氯喹和二甲双胍两种药物时，其死亡风险比单独使用一种药物更高。此外，二甲双胍主要经有机阳离子转运体，还具有潜在转运体介导的药物相互作用〔6〕"
+  }
+]

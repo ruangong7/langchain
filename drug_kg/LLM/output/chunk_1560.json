@@ -1,0 +1,385 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Disease",
+        "name": "丙肝",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "肝硬化",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "肝癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "辛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "洛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "氟伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "瑞舒伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "普伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "匹伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Enzyme",
+        "name": "CYP2C9",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Enzyme",
+        "name": "CYP2C8",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Enzyme",
+        "name": "OATP1B1",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "SideEffect",
+        "name": "肝损害",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Evidence",
+        "name": "医脉通神经科",
+        "properties": {
+          "chunk_id": "1560",
+          "source": "医脉通神经科",
+          "text": "。图3  丙肝患者肝硬化风险降低与使用他汀相关图4  丙肝患者肝癌风险降低与使用他汀相关对于已经进入肝硬化的患者，目前也有多项研究认为他汀可以降低肝硬化失代偿风险、降低门脉压力、提高患者生存率，在此就不一一列举了。美中不足的是，由于多年来医生及患者对于他汀伤肝的偏见，能有队列研究和小规模随机对照研究证据已属不易，大型随机对照研究证据非常匮乏。欧洲目前正在进行的LIVERHOPE研究旨在探究辛伐他汀在肝硬化患者中的有益作用，如果能得到阳性结果则可以为他汀肝获益再添新证。即使不谈他汀对肝病的益处，在绝大多数肝病中，目前也认为他汀至少是非常安全的，可以放心使用。需要注意的是，如果患者肝病目前正在活动或肝酶不明原因持续升高，由于没有相关证据，出于谨慎考虑可暂不使用他汀，毕竟他汀需要长期使用，又“岂在朝朝暮暮”。真正值得注意的，是他汀的药物相互作用尽管治疗剂量下的他汀对肝脏是十分安全的，但并不代表完全不需要考虑肝损害的问题，因为他汀与其他药物联用可能会互相改变药物代谢，产生无法预测的影响，这时可能就不仅是肝损害了。CYP3A4作为最重要的药物代谢酶，与洛伐他汀、辛伐他汀、阿托伐他汀的代谢密切相关；相比于阿托伐他汀，洛伐他汀与辛伐他汀受CYP3A4活性的影响更大。氟伐他汀主要依靠CYP2C9，还有少部分通过CYP2C8、CYP3A4代谢。瑞舒伐他汀受CYP2C9少量影响，但总体上普伐他汀与瑞舒伐他汀受CYP的影响较小。匹伐他汀经CYP2C8、CYP2C9少量代谢。除了酶以外，他汀代谢同时受肝、肠道或肾的转运体影响。所有他汀吸收进入肝细胞都需要OATP1B1的参与"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "name": "辛伐他汀属于他汀类",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "CYP3A4作为最重要的药物代谢酶，与洛伐他汀、辛伐他汀、阿托伐他汀的代谢密切相关"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "name": "洛伐他汀属于他汀类",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "CYP3A4作为最重要的药物代谢酶，与洛伐他汀、辛伐他汀、阿托伐他汀的代谢密切相关"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_1",
+        "name": "阿托伐他汀属于他汀类",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "CYP3A4作为最重要的药物代谢酶，与洛伐他汀、辛伐他汀、阿托伐他汀的代谢密切相关"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_1",
+        "name": "氟伐他汀属于他汀类",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "氟伐他汀主要依靠CYP2C9，还有少部分通过CYP2C8、CYP3A4代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_1",
+        "name": "瑞舒伐他汀属于他汀类",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "瑞舒伐他汀受CYP2C9少量影响，但总体上普伐他汀与瑞舒伐他汀受CYP的影响较小"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_1",
+        "name": "普伐他汀属于他汀类",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "瑞舒伐他汀受CYP2C9少量影响，但总体上普伐他汀与瑞舒伐他汀受CYP的影响较小"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_1",
+        "name": "匹伐他汀属于他汀类",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "匹伐他汀经CYP2C8、CYP2C9少量代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_12",
+        "name": "辛伐他汀代谢涉及CYP3A4",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "CYP3A4作为最重要的药物代谢酶，与洛伐他汀、辛伐他汀、阿托伐他汀的代谢密切相关；相比于阿托伐他汀，洛伐他汀与辛伐他汀受CYP3A4活性的影响更大"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_12",
+        "name": "洛伐他汀代谢涉及CYP3A4",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "CYP3A4作为最重要的药物代谢酶，与洛伐他汀、辛伐他汀、阿托伐他汀的代谢密切相关；相比于阿托伐他汀，洛伐他汀与辛伐他汀受CYP3A4活性的影响更大"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_7",
+        "target_id": "ent_12",
+        "name": "阿托伐他汀代谢涉及CYP3A4",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "CYP3A4作为最重要的药物代谢酶，与洛伐他汀、辛伐他汀、阿托伐他汀的代谢密切相关"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_13",
+        "name": "氟伐他汀代谢涉及CYP2C9",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "氟伐他汀主要依靠CYP2C9，还有少部分通过CYP2C8、CYP3A4代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_14",
+        "name": "氟伐他汀代谢涉及CYP2C8",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "氟伐他汀主要依靠CYP2C9，还有少部分通过CYP2C8、CYP3A4代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_12",
+        "name": "氟伐他汀代谢涉及CYP3A4",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "氟伐他汀主要依靠CYP2C9，还有少部分通过CYP2C8、CYP3A4代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_9",
+        "target_id": "ent_13",
+        "name": "瑞舒伐他汀代谢涉及CYP2C9",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "瑞舒伐他汀受CYP2C9少量影响"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_11",
+        "target_id": "ent_14",
+        "name": "匹伐他汀代谢涉及CYP2C8",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "匹伐他汀经CYP2C8、CYP2C9少量代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_11",
+        "target_id": "ent_13",
+        "name": "匹伐他汀代谢涉及CYP2C9",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "匹伐他汀经CYP2C8、CYP2C9少量代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_15",
+        "name": "他汀吸收涉及OATP1B1",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "所有他汀吸收进入肝细胞都需要OATP1B1的参与"
+          }
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_16",
+        "name": "他汀可能导致肝损害",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "由于多年来医生及患者对于他汀伤肝的偏见"
+          }
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_1",
+        "name": "他汀与其他药物联用可能互相改变药物代谢",
+        "properties": {
+          "mechanism": "互相改变药物代谢",
+          "consequence": "产生无法预测的影响，可能不仅是肝损害",
+          "evidence": {
+            "chunk_index": "1560",
+            "source": "医脉通神经科",
+            "text": "因为他汀与其他药物联用可能会互相改变药物代谢，产生无法预测的影响，这时可能就不仅是肝损害了"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1560,
+    "source": "医脉通神经科",
+    "text": "。图3  丙肝患者肝硬化风险降低与使用他汀相关图4  丙肝患者肝癌风险降低与使用他汀相关对于已经进入肝硬化的患者，目前也有多项研究认为他汀可以降低肝硬化失代偿风险、降低门脉压力、提高患者生存率，在此就不一一列举了。美中不足的是，由于多年来医生及患者对于他汀伤肝的偏见，能有队列研究和小规模随机对照研究证据已属不易，大型随机对照研究证据非常匮乏。欧洲目前正在进行的LIVERHOPE研究旨在探究辛伐他汀在肝硬化患者中的有益作用，如果能得到阳性结果则可以为他汀肝获益再添新证。即使不谈他汀对肝病的益处，在绝大多数肝病中，目前也认为他汀至少是非常安全的，可以放心使用。需要注意的是，如果患者肝病目前正在活动或肝酶不明原因持续升高，由于没有相关证据，出于谨慎考虑可暂不使用他汀，毕竟他汀需要长期使用，又“岂在朝朝暮暮”。真正值得注意的，是他汀的药物相互作用尽管治疗剂量下的他汀对肝脏是十分安全的，但并不代表完全不需要考虑肝损害的问题，因为他汀与其他药物联用可能会互相改变药物代谢，产生无法预测的影响，这时可能就不仅是肝损害了。CYP3A4作为最重要的药物代谢酶，与洛伐他汀、辛伐他汀、阿托伐他汀的代谢密切相关；相比于阿托伐他汀，洛伐他汀与辛伐他汀受CYP3A4活性的影响更大。氟伐他汀主要依靠CYP2C9，还有少部分通过CYP2C8、CYP3A4代谢。瑞舒伐他汀受CYP2C9少量影响，但总体上普伐他汀与瑞舒伐他汀受CYP的影响较小。匹伐他汀经CYP2C8、CYP2C9少量代谢。除了酶以外，他汀代谢同时受肝、肠道或肾的转运体影响。所有他汀吸收进入肝细胞都需要OATP1B1的参与"
+  }
+]

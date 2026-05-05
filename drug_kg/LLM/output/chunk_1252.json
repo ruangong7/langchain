@@ -1,0 +1,247 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利伐沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "厄洛替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "尼洛替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP2J2",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "OAT3",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Population",
+        "name": "肾功能受损患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "佩玛贝特",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "阿哌沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "酮康唑",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "厄洛替尼与利伐沙班相互作用",
+        "properties": {
+          "mechanism": "厄洛替尼抑制CYP3A4和CYP2J2，削弱利伐沙班的酶代谢途径",
+          "consequence": "导致利伐沙班AUC显著增加，在严重肾损患者中增幅可达2倍以上",
+          "evidence": {
+            "chunk_index": 1252,
+            "source": "凡默谷",
+            "text": "CHEONG等[30]基于PBPK模型探讨了利伐沙班在肾功能受损状态下与厄洛替尼/尼洛替尼的DDIs。利伐沙班通过CYP3A4和CYP2J2代谢，依赖OAT3和P-gp进行肾脏排泄。厄洛替尼和尼洛替尼通过抑制CYP3A4和CYP2J2削弱利伐沙班的酶代谢途径，同时，肾损患者中OAT3和P-gp功能下降，药物被摄取到肾小管细胞并排入肾小管腔的过程被限制，导致AUC显著增加，在严重肾损患者中增幅可达2倍以上。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "尼洛替尼与利伐沙班相互作用",
+        "properties": {
+          "mechanism": "尼洛替尼抑制CYP3A4和CYP2J2，削弱利伐沙班的酶代谢途径",
+          "consequence": "导致利伐沙班AUC显著增加，在严重肾损患者中增幅可达2倍以上",
+          "evidence": {
+            "chunk_index": 1252,
+            "source": "凡默谷",
+            "text": "CHEONG等[30]基于PBPK模型探讨了利伐沙班在肾功能受损状态下与厄洛替尼/尼洛替尼的DDIs。利伐沙班通过CYP3A4和CYP2J2代谢，依赖OAT3和P-gp进行肾脏排泄。厄洛替尼和尼洛替尼通过抑制CYP3A4和CYP2J2削弱利伐沙班的酶代谢途径，同时，肾损患者中OAT3和P-gp功能下降，药物被摄取到肾小管细胞并排入肾小管腔的过程被限制，导致AUC显著增加，在严重肾损患者中增幅可达2倍以上。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_11",
+        "name": "酮康唑与阿哌沙班相互作用",
+        "properties": {
+          "mechanism": "酮康唑抑制CYP3A及P-gp，阿哌沙班主要通过CYP3A及P-gp消除",
+          "consequence": "在肾功能受损患者中，酮康唑与肾损状态产生协同效应，使阿哌沙班暴露水平提高2.85倍",
+          "evidence": {
+            "chunk_index": 1252,
+            "source": "凡默谷",
+            "text": "XU等[23]指出，阿哌沙班主要通过CYP3A及P-gp消除，在健康患者中，合用CYP3A/P-gp抑制剂酮康唑导致阿哌沙班的AUC增加1.91倍，在肾功能受损患者中，酮康唑与肾损状态产生协同效应，使阿哌沙班暴露水平提高2.85倍。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_9",
+        "name": "克拉霉素与佩玛贝特相互作用",
+        "properties": {
+          "mechanism": "克拉霉素对佩玛贝特的抑制效应",
+          "consequence": "抑制效应随肾损严重程度加重而增强",
+          "evidence": {
+            "chunk_index": 1252,
+            "source": "凡默谷",
+            "text": "OGAWA等[31]搭建的PBPK模型预测的结果也支持这一观点，克拉霉素对佩玛贝特的抑制效应会随着肾损严重程度的加重而增强。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "利伐沙班经CYP3A4代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1252,
+            "source": "凡默谷",
+            "text": "利伐沙班通过CYP3A4和CYP2J2代谢，依赖OAT3和P-gp进行肾脏排泄。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "利伐沙班经CYP2J2代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1252,
+            "source": "凡默谷",
+            "text": "利伐沙班通过CYP3A4和CYP2J2代谢，依赖OAT3和P-gp进行肾脏排泄。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "利伐沙班依赖OAT3进行肾脏排泄",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1252,
+            "source": "凡默谷",
+            "text": "利伐沙班通过CYP3A4和CYP2J2代谢，依赖OAT3和P-gp进行肾脏排泄。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "利伐沙班依赖P-gp进行肾脏排泄",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1252,
+            "source": "凡默谷",
+            "text": "利伐沙班通过CYP3A4和CYP2J2代谢，依赖OAT3和P-gp进行肾脏排泄。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_11",
+        "target_id": "ent_12",
+        "name": "阿哌沙班经CYP3A消除",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1252,
+            "source": "凡默谷",
+            "text": "XU等[23]指出，阿哌沙班主要通过CYP3A及P-gp消除..."
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_11",
+        "target_id": "ent_7",
+        "name": "阿哌沙班经P-gp消除",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1252,
+            "source": "凡默谷",
+            "text": "XU等[23]指出，阿哌沙班主要通过CYP3A及P-gp消除..."
+          }
+        }
+      }
+    ],
+    "chunk_index": 1252,
+    "source": "凡默谷",
+    "text": "。CHEONG等[30]基于PBPK模型探讨了利伐沙班在肾功能受损状态下与厄洛替尼/尼洛替尼的DDIs。利伐沙班通过CYP3A4和CYP2J2代谢，依赖OAT3和P-gp进行肾脏排泄。厄洛替尼和尼洛替尼通过抑制CYP3A4和CYP2J2削弱利伐沙班的酶代谢途径，同时，肾损患者中OAT3和P-gp功能下降，药物被摄取到肾小管细胞并排入肾小管腔的过程被限制，导致AUC显著增加，在严重肾损患者中增幅可达2倍以上。OGAWA等[31]搭建的PBPK模型预测的结果也支持这一观点，克拉霉素对佩玛贝特的抑制效应会随着肾损严重程度的加重而增强。XU等[23]指出，阿哌沙班主要通过CYP3A及P-gp消除，在健康患者中，合用CYP3A/P-gp抑制剂酮康唑导致阿哌沙班的AUC增加1.91倍，在肾功能受损患者中，酮康唑与肾损状态产生协同效应，使阿哌沙班暴露水平提高2.85倍。3肝损与肾损在DDDIs研究中的共性与差异本文总结了PBPK模型在DDDIs情境中的建模流程，为PBPK模型在不同病理状态下的应用提供了系统化框架，见图3。在DDDIs研究中，肝肾损状态通常与药物对酶和转运体的抑制作用表现出协同效应，且药物AUC的变化往往显著大于Cmax的变化[13，16，18，22-25，27，32-33]。AUC反映药物的总暴露量，受代谢和排泄过程显著影响；Cmax则更多反映药物的吸收速率[34]。肝肾损及DDIs主要对体内的代谢酶和转运体的活性产生影响，导致药物消除受阻，体内暴露显著增加，而这些影响对药物吸收的直接影响有限，Cmax通常不如AUC显著，但其或仍为预测药物不良反应的关键指标"
+  }
+]

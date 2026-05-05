@@ -1,0 +1,342 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "rCYP2D2",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "rUGT",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "hCYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "rCYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "hCYP2C",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "hCYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "rCYP2C11",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "rCYP3A1",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "rCYP2B1",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "rCYP450",
+        "properties": {
+          "别名列表": [
+            "Rat Cytochrome P450"
+          ]
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "hCYP450",
+        "properties": {
+          "别名列表": [
+            "Human Cytochrome P450"
+          ]
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "OMP",
+        "properties": {
+          "通用名": "OMP"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "RIF",
+        "properties": {
+          "通用名": "RIF"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "DMS",
+        "properties": {
+          "通用名": "DMS"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Food",
+        "name": "大鼠原代肝细胞",
+        "properties": {
+          "类型": "细胞模型"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Mechanism",
+        "name": "诱导",
+        "properties": {
+          "机制类型": "酶诱导"
+        }
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1135,
+          "来源类型": "公众号",
+          "text": "。rCYP2D2和rUGT酶活性下降较缓，48和72h可维持在57.41%~76.77%和25.25%~35.24%。诱导剂筛选结果显示: 人代谢酶hCYP1A2的诱导剂OMP不能诱导rCYP1A2; hCYP2C和hCYP3A4诱导剂RIF不能诱导rCYP2C11和rCYP3A1。不同代谢酶可被一种或多种诱导剂诱导，DMS显著诱导除rCYP2B1外的其他6种代谢酶。结论：本实验建立的大鼠原代肝细胞模型适用于体外药物相互作用研究。人和大鼠对代谢酶诱导剂的反应存在种属差异，DMS可作为大鼠肝细胞多种代谢酶的通用阳性诱导剂用于体外药物代谢和相互作用研究。关键词 大鼠原代肝细胞; 药物相互作用; 细胞色素P450; 葡萄糖醛酸转移酶; 诱导剂_正文_大鼠原代肝细胞是药物代谢、药物相互作用等研究中应用最广泛的细胞模型之一。然而该模型存在肝细胞活率不稳定、代谢酶活性下降较快等缺陷[1]。肝细胞脱离在体环境后，代谢酶活性迅速下降，且不同代谢酶活性下降速率不同。针对大鼠细胞色素P450(Rat CytochromeP450，rCYP450) 阳性诱导剂的选择目前较为混乱，多数实验直接用人用细胞色素P 450(Human Cytochrome P450，hCYP450) 阳性诱导剂[2]。本研究优化了大鼠原代肝细胞分离和培养方法，考察细胞形态、功能和多种代谢酶活性随培养时长的变化，在此基础上对多种诱导剂进行筛选和评价，建立稳定可靠的大鼠原代肝细胞药物相互作用模型"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_4",
+        "name": "OMP不能诱导rCYP1A2",
+        "properties": {
+          "机制": "无诱导作用",
+          "证据": {
+            "chunk_index": 1135,
+            "source": "凡默谷",
+            "text": "人代谢酶hCYP1A2的诱导剂OMP不能诱导rCYP1A2"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_7",
+        "name": "RIF不能诱导rCYP2C11",
+        "properties": {
+          "机制": "无诱导作用",
+          "证据": {
+            "chunk_index": 1135,
+            "source": "凡默谷",
+            "text": "hCYP2C和hCYP3A4诱导剂RIF不能诱导rCYP2C11和rCYP3A1"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_8",
+        "name": "RIF不能诱导rCYP3A1",
+        "properties": {
+          "机制": "无诱导作用",
+          "证据": {
+            "chunk_index": 1135,
+            "source": "凡默谷",
+            "text": "hCYP2C和hCYP3A4诱导剂RIF不能诱导rCYP2C11和rCYP3A1"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_1",
+        "name": "DMS显著诱导rCYP2D2",
+        "properties": {
+          "机制": "酶诱导",
+          "证据": {
+            "chunk_index": 1135,
+            "source": "凡默谷",
+            "text": "DMS显著诱导除rCYP2B1外的其他6种代谢酶"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_2",
+        "name": "DMS显著诱导rUGT",
+        "properties": {
+          "机制": "酶诱导",
+          "证据": {
+            "chunk_index": 1135,
+            "source": "凡默谷",
+            "text": "DMS显著诱导除rCYP2B1外的其他6种代谢酶"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_4",
+        "name": "DMS显著诱导rCYP1A2",
+        "properties": {
+          "机制": "酶诱导",
+          "证据": {
+            "chunk_index": 1135,
+            "source": "凡默谷",
+            "text": "DMS显著诱导除rCYP2B1外的其他6种代谢酶"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_7",
+        "name": "DMS显著诱导rCYP2C11",
+        "properties": {
+          "机制": "酶诱导",
+          "证据": {
+            "chunk_index": 1135,
+            "source": "凡默谷",
+            "text": "DMS显著诱导除rCYP2B1外的其他6种代谢酶"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_8",
+        "name": "DMS显著诱导rCYP3A1",
+        "properties": {
+          "机制": "酶诱导",
+          "证据": {
+            "chunk_index": 1135,
+            "source": "凡默谷",
+            "text": "DMS显著诱导除rCYP2B1外的其他6种代谢酶"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_10",
+        "name": "DMS显著诱导rCYP450",
+        "properties": {
+          "机制": "酶诱导",
+          "证据": {
+            "chunk_index": 1135,
+            "source": "凡默谷",
+            "text": "DMS显著诱导除rCYP2B1外的其他6种代谢酶"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_1",
+        "target_id": "ent_16",
+        "name": "OMP与rCYP1A2相互作用的机制为诱导",
+        "properties": {}
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_2",
+        "target_id": "ent_16",
+        "name": "RIF与rCYP2C11相互作用的机制为诱导",
+        "properties": {}
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_3",
+        "target_id": "ent_16",
+        "name": "RIF与rCYP3A1相互作用的机制为诱导",
+        "properties": {}
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_4",
+        "target_id": "ent_16",
+        "name": "DMS与rCYP2D2相互作用的机制为诱导",
+        "properties": {}
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_5",
+        "target_id": "ent_16",
+        "name": "DMS与rUGT相互作用的机制为诱导",
+        "properties": {}
+      },
+      {
+        "id": "rel_15",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_6",
+        "target_id": "ent_16",
+        "name": "DMS与rCYP1A2相互作用的机制为诱导",
+        "properties": {}
+      },
+      {
+        "id": "rel_16",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_7",
+        "target_id": "ent_16",
+        "name": "DMS与rCYP2C11相互作用的机制为诱导",
+        "properties": {}
+      },
+      {
+        "id": "rel_17",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_8",
+        "target_id": "ent_16",
+        "name": "DMS与rCYP3A1相互作用的机制为诱导",
+        "properties": {}
+      },
+      {
+        "id": "rel_18",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_9",
+        "target_id": "ent_16",
+        "name": "DMS与rCYP450相互作用的机制为诱导",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1135,
+    "source": "凡默谷",
+    "text": "。rCYP2D2和rUGT酶活性下降较缓，48和72h可维持在57.41%~76.77%和25.25%~35.24%。诱导剂筛选结果显示: 人代谢酶hCYP1A2的诱导剂OMP不能诱导rCYP1A2; hCYP2C和hCYP3A4诱导剂RIF不能诱导rCYP2C11和rCYP3A1。不同代谢酶可被一种或多种诱导剂诱导，DMS显著诱导除rCYP2B1外的其他6种代谢酶。结论：本实验建立的大鼠原代肝细胞模型适用于体外药物相互作用研究。人和大鼠对代谢酶诱导剂的反应存在种属差异，DMS可作为大鼠肝细胞多种代谢酶的通用阳性诱导剂用于体外药物代谢和相互作用研究。关键词 大鼠原代肝细胞; 药物相互作用; 细胞色素P450; 葡萄糖醛酸转移酶; 诱导剂_正文_大鼠原代肝细胞是药物代谢、药物相互作用等研究中应用最广泛的细胞模型之一。然而该模型存在肝细胞活率不稳定、代谢酶活性下降较快等缺陷[1]。肝细胞脱离在体环境后，代谢酶活性迅速下降，且不同代谢酶活性下降速率不同。针对大鼠细胞色素P450(Rat CytochromeP450，rCYP450) 阳性诱导剂的选择目前较为混乱，多数实验直接用人用细胞色素P 450(Human Cytochrome P450，hCYP450) 阳性诱导剂[2]。本研究优化了大鼠原代肝细胞分离和培养方法，考察细胞形态、功能和多种代谢酶活性随培养时长的变化，在此基础上对多种诱导剂进行筛选和评价，建立稳定可靠的大鼠原代肝细胞药物相互作用模型"
+  }
+]

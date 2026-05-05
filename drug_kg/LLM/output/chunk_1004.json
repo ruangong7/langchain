@@ -1,0 +1,152 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "CYP酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Mechanism",
+        "name": "时间依赖性抑制",
+        "properties": {
+          "机制类型": "TDI"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Mechanism",
+        "name": "竞争性抑制",
+        "properties": {
+          "机制类型": "竞争性"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Mechanism",
+        "name": "非竞争性抑制",
+        "properties": {
+          "机制类型": "非竞争性"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Food",
+        "name": "有机溶剂",
+        "properties": {
+          "类型": "其他",
+          "关键成分": ""
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "mRNA水平",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "酶活性水平",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "在研药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_2",
+        "name": "在研药物可能引起时间依赖性抑制（TDI）",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1004,
+            "source": "凡默谷",
+            "text": "任何显著的时间依赖性和辅因子依赖性（如CYP酶代谢必需的NADPH）指针药物的初始代谢产物形成减少则提示可能出现了TDI。此时应开展体外研究以获得TDI参数（即kinact和KI）。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_3",
+        "name": "在研药物可能通过竞争性机制抑制代谢酶",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1004,
+            "source": "凡默谷",
+            "text": "应根据正确的机制（如竞争性、非竞争性或TDI）计算体外抑制动力学参数。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_4",
+        "name": "在研药物可能通过非竞争性机制抑制代谢酶",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1004,
+            "source": "凡默谷",
+            "text": "应根据正确的机制（如竞争性、非竞争性或TDI）计算体外抑制动力学参数。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "name": "有机溶剂可抑制或诱导CYP酶活性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1004,
+            "source": "凡默谷",
+            "text": "因某些有机溶剂可以抑制或诱导酶活性，所以应使用尽可能低浓度的有机溶剂（<1％（v/v），优选<0.5％）。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_8",
+        "target_id": "ent_6",
+        "name": "在研药物对mRNA水平的影响用于评估CYP酶诱导能力",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1004,
+            "source": "凡默谷",
+            "text": "可接受的研究终点包括mRNA水平和/或使用指针底物的酶活性水平检测。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_8",
+        "target_id": "ent_7",
+        "name": "在研药物对酶活性水平的影响用于评估CYP酶诱导能力",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1004,
+            "source": "凡默谷",
+            "text": "可接受的研究终点包括mRNA水平和/或使用指针底物的酶活性水平检测。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1004,
+    "source": "凡默谷",
+    "text": "。fumic可以通过试验测定（如使用平衡透析法或超滤法）或使用数学模型预测。（9）一般应避免孵育时指针底物或抑制剂发生显著的减少。但当底物Km较低，难以避免底物浓度较低时引起底物耗尽，此时测定抑制动力学参数时应考虑底物耗尽的情况。（10）如果在研药物可被孵育体系中的代谢酶代谢，应尽可能减少在研药物被代谢（浓度降低）对于Ki估值的影响，如有可能，应选择在代谢速率方面明显快于在研药物的指针底物进行研究。如果无法实现上述研究条件，则需要对在研药物的浓度进行检测和/或在计算时考虑在研药物降解所产生的影响。（11）因某些有机溶剂可以抑制或诱导酶活性，所以应使用尽可能低浓度的有机溶剂（<1％（v/v），优选<0.5％）。试验应包括无溶剂对照和溶剂（载体）对照。（12）应根据正确的机制（如竞争性、非竞争性或TDI）计算体外抑制动力学参数。（13）应根据标准的体外研究方案对TDI进行常规筛查，方法：在加入任何底物之前，预孵育在研药物（如至少30分钟）。任何显著的时间依赖性和辅因子依赖性（如CYP酶代谢必需的NADPH）指针药物的初始代谢产物形成减少则提示可能出现了TDI。此时应开展体外研究以获得TDI参数（即kinact和KI）。3. 评估在研药物是否为代谢酶的诱导剂可选择冷冻保存或新鲜分离的人肝细胞研究在研药物诱导CYP酶的能力。其他体外系统（如永生化肝细胞系）或技术手段可提供支持性数据，但需证明这些体系和技术的适用性。可接受的研究终点包括mRNA水平和/或使用指针底物的酶活性水平检测。应通过阳性对照验证系统，证明其中所有主要的CYP酶是有功能的并且可以诱导"
+  }
+]

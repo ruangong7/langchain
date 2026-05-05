@@ -1,0 +1,72 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Mechanism",
+        "name": "CYP相关性",
+        "properties": {
+          "机制类型": "代谢酶相互作用"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "CYP",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Indicator",
+        "name": "AUC0-inf",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "Cmax",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "Cmin",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "AUC0-tau",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "谷浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Mechanism",
+        "name": "诱导剂作用延迟",
+        "properties": {
+          "机制类型": "药效动力学延迟"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Mechanism",
+        "name": "抑制剂作用延迟",
+        "properties": {
+          "机制类型": "药效动力学延迟"
+        }
+      }
+    ],
+    "relations": [],
+    "chunk_index": 1022,
+    "source": "凡默谷",
+    "text": "。给药&采样给药方案组合：单+单、单+多、多+单、多+多 （S/I一般可同服，有明确CYP相关性需先后服用）达到稳态很重要：如S或期代谢物半衰期过长à单顺序交叉/平行稳态理由：S/I作为诱导剂/抑制剂时，往往有作用延迟，稳态时才能获得更为准确的数据样品采集：单次给药à采样时间满足AUC0-inf, Cmax, Cmin; AUC0-inf/AUC0-t>80%（采样时长至少3个半衰期）；多次给药à采样时间满足AUC0-tau, Cmax, Cmin（可采集三个谷浓度以确保达稳，采样时长3-5个半衰期）样本量&统计学考量HV：一般根据intraCV%，由精度法计算相应受试人数"
+  }
+]

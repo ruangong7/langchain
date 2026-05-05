@@ -1,0 +1,605 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "氯霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "烷化抗癌药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "毒性增加",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "环磷酰胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "氨基比林",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "非甾体抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "造血系统毒性增加",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "H1拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "QT延长",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "室性心律失常",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Disease",
+        "name": "室性心纤颤",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Disease",
+        "name": "室性心动过速",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "铁剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "维生素B12",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "大环内酯类",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "碱性药",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "雌性激素",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "避孕药",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "肝毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Disease",
+        "name": "胆汁淤积",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "三乙酰竹桃霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Drug",
+        "name": "甲红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Drug",
+        "name": "卡马西平",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Drug",
+        "name": "茶碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "Drug",
+        "name": "苯茚胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Drug",
+        "name": "苯妥英钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "DrugClass",
+        "name": "口服抗凝药",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "Drug",
+        "name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_30",
+        "type": "DrugClass",
+        "name": "肾上腺皮质激素",
+        "properties": {}
+      },
+      {
+        "id": "ent_31",
+        "type": "DrugClass",
+        "name": "巴比妥类",
+        "properties": {}
+      },
+      {
+        "id": "ent_32",
+        "type": "Drug",
+        "name": "异烟肼",
+        "properties": {}
+      },
+      {
+        "id": "ent_33",
+        "type": "Drug",
+        "name": "甲硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_34",
+        "type": "SideEffect",
+        "name": "血药浓度升高",
+        "properties": {}
+      },
+      {
+        "id": "ent_35",
+        "type": "Drug",
+        "name": "林可霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_36",
+        "type": "Drug",
+        "name": "克林霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_37",
+        "type": "DrugClass",
+        "name": "四环素类",
+        "properties": {}
+      },
+      {
+        "id": "ent_38",
+        "type": "DrugClass",
+        "name": "尿酸化剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_39",
+        "type": "DrugClass",
+        "name": "含二价、三价阳离子口服药",
+        "properties": {}
+      },
+      {
+        "id": "ent_40",
+        "type": "DrugClass",
+        "name": "抗胆碱药",
+        "properties": {}
+      },
+      {
+        "id": "ent_41",
+        "type": "Mechanism",
+        "name": "螯合作用",
+        "properties": {}
+      },
+      {
+        "id": "ent_42",
+        "type": "Drug",
+        "name": "胰岛素",
+        "properties": {}
+      },
+      {
+        "id": "ent_43",
+        "type": "DrugClass",
+        "name": "利尿药",
+        "properties": {}
+      },
+      {
+        "id": "ent_44",
+        "type": "Drug",
+        "name": "酰胺咪嗪",
+        "properties": {}
+      },
+      {
+        "id": "ent_45",
+        "type": "Drug",
+        "name": "甲氧氟烷",
+        "properties": {}
+      },
+      {
+        "id": "ent_46",
+        "type": "SideEffect",
+        "name": "肾毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_47",
+        "type": "Drug",
+        "name": "多西环素",
+        "properties": {}
+      },
+      {
+        "id": "ent_48",
+        "type": "Drug",
+        "name": "米诺环素",
+        "properties": {}
+      },
+      {
+        "id": "ent_49",
+        "type": "Drug",
+        "name": "苯巴比妥",
+        "properties": {}
+      },
+      {
+        "id": "ent_50",
+        "type": "Evidence",
+        "name": "医学资料大全",
+        "properties": {
+          "chunk_id": "1402",
+          "source": "医学资料大全"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "氯霉素与烷化抗癌药相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "相互增加毒性",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1402,
+              "source": "医学资料大全",
+              "text": "氯霉素烷化抗癌药相互增加毒性"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "氯霉素与环磷酰胺相互作用",
+        "properties": {
+          "mechanism": "通过对活性代谢产物的抑制",
+          "consequence": "降低环磷酰胺的作用",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1402,
+              "source": "医学资料大全",
+              "text": "通过对活性代谢产物的抑制而降低环磷酰胺的作用"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "氯霉素与氨基比林相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "相互增加对造血系统的毒性",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1402,
+              "source": "医学资料大全",
+              "text": "氯霉素氨基比林、非甾体抗炎药相互增加对造血系统的毒性"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "氯霉素与非甾体抗炎药相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "相互增加对造血系统的毒性",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1402,
+              "source": "医学资料大全",
+              "text": "氯霉素氨基比林、非甾体抗炎药相互增加对造血系统的毒性"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "氯霉素与H1拮抗剂相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "使H1拮抗剂浓度升高，导致QT延长，发生室性心率失常的危险增加",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1402,
+              "source": "医学资料大全",
+              "text": "氯霉素H1拮抗剂使H1拮抗剂浓度升高，导致QT延长，在推荐剂量下，发生室性心率失常的危险增加，如室性心纤颤，室性心动过速"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "氯霉素与环磷酰胺相互作用（抑制转化）",
+        "properties": {
+          "mechanism": "抑制后药在肝中转化",
+          "consequence": "",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1402,
+              "source": "医学资料大全",
+              "text": "氯霉素环磷酰胺抑制后药在肝中转化"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "氯霉素与铁剂相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "降低后药的作用",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1402,
+              "source": "医学资料大全",
+              "text": "氯霉素铁剂，维生素B12降低后药的作用"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "name": "氯霉素与维生素B12相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "降低后药的作用",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1402,
+              "source": "医学资料大全",
+              "text": "氯霉素铁剂，维生素B12降低后药的作用"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_16",
+        "name": "大环内酯类与碱性药相互作用",
+        "properties": {
+          "mechanism": "调整尿pH",
+          "consequence": "加强大环内酯类抗菌活性",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1402,
+              "source": "医学资料大全",
+              "text": "大环内酯类碱性药调整尿pH而加强大环内酯类抗菌活性"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_17",
+        "name": "大环内酯类与雌性激素相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "增加肝毒性(胆汁淤积)",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1402,
+              "source": "医学资料大全",
+              "text": "大环内酯类雌性激素、避孕药增加肝毒性(胆汁淤积)"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_18",
+        "name": "大环内酯类与避孕药相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "增加肝毒性(胆汁淤积)",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1402,
+              "source": "医学资料大全",
+              "text": "大环内酯类雌性激素、避孕药增加肝毒性(胆汁淤积)"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_24",
+        "name": "大环内酯类与卡马西平等相互作用",
+        "properties": {
+          "mechanism": "抑制后药代谢",
+          "consequence": "使其血药浓度升高，出现相应毒副反应",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1402,
+              "source": "医学资料大全",
+              "text": "大环内酯类   (尤其三乙酰竹桃霉素、红霉素、甲红霉素等)卡马西平、茶碱、苯茚胺、苯妥英钠、口服抗凝药、地高辛、肾上腺皮质激素、巴比妥类、H1拮抗剂、异烟肼、甲硝唑由于抑制后药代谢，使其血药浓度升高，出现相应毒副反应"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_35",
+        "name": "大环内酯类与林可霉素相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "拮抗作用，相互降效",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1402,
+              "source": "医学资料大全",
+              "text": "大环内酯类   (尤其三乙酰竹桃霉素、红霉素、甲红霉素等)林可霉素、克林霉素、氯霉素拮抗作用，相互降效"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_36",
+        "name": "大环内酯类与克林霉素相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "拮抗作用，相互降效",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1402,
+              "source": "医学资料大全",
+              "text": "大环内酯类   (尤其三乙酰竹桃霉素、红霉素、甲红霉素等)林可霉素、克林霉素、氯霉素拮抗作用，相互降效"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_1",
+        "name": "大环内酯类与氯霉素相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "拮抗作用，相互降"
+        }
+      }
+    ],
+    "chunk_index": 1402,
+    "source": "医学资料大全",
+    "text": "；氯霉素血清半衰期延长氯霉素烷化抗癌药相互增加毒性；通过对活性代谢产物的抑制而降低环磷酰胺的作用氯霉素氨基比林、非甾体抗炎药相互增加对造血系统的毒性氯霉素H1拮抗剂使H1拮抗剂浓度升高，导致QT延长，在推荐剂量下，发生室性心率失常的危险增加，如室性心纤颤，室性心动过速氯霉素环磷酰胺抑制后药在肝中转化氯霉素铁剂，维生素B12降低后药的作用大环内酯类抗菌药物类别配伍药物相互作用结果大环内酯类碱性药调整尿pH而加强大环内酯类抗菌活性大环内酯类雌性激素、避孕药增加肝毒性(胆汁淤积)大环内酯类   (尤其三乙酰竹桃霉素、红霉素、甲红霉素等)卡马西平、茶碱、苯茚胺、苯妥英钠、口服抗凝药、地高辛、肾上腺皮质激素、巴比妥类、H1拮抗剂、异烟肼、甲硝唑由于抑制后药代谢，使其血药浓度升高，出现相应毒副反应大环内酯类   (尤其三乙酰竹桃霉素、红霉素、甲红霉素等)林可霉素、克林霉素、氯霉素拮抗作用，相互降效四环素类抗菌药物类别配伍药物相互作用结果四环素类尿酸化剂增加抗菌作用四环素类含二价、三价阳离子口服药(铝、钙、镁、铋等抗酸剂)、铁制剂、抗胆碱药通过整合作用或其他机制、影响四环素类吸收四环素类口服抗凝剂加强抗凝作用(肠道细菌合成维生素K减少)，引起出血四环素类胰岛素可增加胰岛素的作用四环素类茶碱、苯妥类、巴比妥类因具有酶抑制作用，可引起后者血药浓度升高，而产生各种相应的毒性反应四环素类利尿药、酰胺咪嗪、巴比妥类、苯妥英类因后者的酶诱导作用，使四环素类抗菌活性降低四环素类地高辛、甲氧氟烷可影响后者的毒性及四环素类肾毒性多西环素、米诺环素苯妥英钠、卡马西平、苯巴比妥通过诱导酶作用，降低前者的半衰期"
+  }
+]

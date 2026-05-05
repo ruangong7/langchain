@@ -1,0 +1,454 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Food",
+        "name": "柑橘属中药",
+        "properties": {
+          "类型": "中药材",
+          "关键成分": [
+            "橙皮苷",
+            "柚皮苷",
+            "佛手柑素"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "葡萄柚",
+        "properties": {
+          "类型": "食物"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP450",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "UGTs",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "OATP",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "丁螺环酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "雷尼替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "硝苯地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "胺碘酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "紫杉醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Enzyme",
+        "name": "UGT1A1",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "厄洛替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "尼洛替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "他莫昔芬",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "茶碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "文拉法辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Enzyme",
+        "name": "酯酶",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "柑橘属中药与葡萄柚存在相近的药物相互作用",
+        "properties": {
+          "mechanism": "化学组成相似，有48种成分相同",
+          "evidence": {
+            "chunk_index": 1074,
+            "source": "凡默谷",
+            "text": "柑橘属中药与葡萄柚化学组成相似，笔者前期通过收集柑橘属中药与葡萄柚的化学成分， 比对得出有 48 种成分相同。因相似的物质基础，柑橘属中药存在与葡萄柚相近的药物相互 作用，尤其是药代动力学相互作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "柑橘属中药与他克莫司存在药代动力学相互作用",
+        "properties": {
+          "mechanism_enzymes": [
+            "CYP450",
+            "P-gp"
+          ],
+          "evidence": {
+            "chunk_index": 1074,
+            "source": "凡默谷",
+            "text": "柑橘属中药富含橙皮苷、柚皮苷等黄酮类成分及佛手柑 素等香豆素类成分，可通过影响 CYP450、UGTs 等药物代谢酶及 P-gp、OATP 等药物转运 体，改变抗精神病药物（他克莫司、环孢素等免疫抑制剂、丁螺环酮等）……的药代动力学过程。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "柑橘属中药与环孢素存在药代动力学相互作用",
+        "properties": {
+          "mechanism_enzymes": [
+            "CYP450",
+            "P-gp"
+          ],
+          "evidence": {
+            "chunk_index": 1074,
+            "source": "凡默谷",
+            "text": "柑橘属中药富含橙皮苷、柚皮苷等黄酮类成分及佛手柑 素等香豆素类成分，可通过影响 CYP450、UGTs 等药物代谢酶及 P-gp、OATP 等药物转运 体，改变抗精神病药物（他克莫司、环孢素等免疫抑制剂、丁螺环酮等）……的药代动力学过程。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "柑橘属中药与丁螺环酮存在药代动力学相互作用",
+        "properties": {
+          "mechanism_enzymes": [
+            "CYP450",
+            "P-gp"
+          ],
+          "evidence": {
+            "chunk_index": 1074,
+            "source": "凡默谷",
+            "text": "柑橘属中药富含橙皮苷、柚皮苷等黄酮类成分及佛手柑 素等香豆素类成分，可通过影响 CYP450、UGTs 等药物代谢酶及 P-gp、OATP 等药物转运 体，改变抗精神病药物（他克莫司、环孢素等免疫抑制剂、丁螺环酮等）……的药代动力学过程。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "柑橘属中药与雷尼替丁存在药代动力学相互作用",
+        "properties": {
+          "mechanism_enzymes": [
+            "CYP450",
+            "P-gp"
+          ],
+          "evidence": {
+            "chunk_index": 1074,
+            "source": "凡默谷",
+            "text": "……改变消化系统药物（雷 尼替丁、奥美拉唑等）……的药代动力学过程。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "柑橘属中药与奥美拉唑存在药代动力学相互作用",
+        "properties": {
+          "mechanism_enzymes": [
+            "CYP450",
+            "P-gp"
+          ],
+          "evidence": {
+            "chunk_index": 1074,
+            "source": "凡默谷",
+            "text": "……改变消化系统药物（雷 尼替丁、奥美拉唑等）……的药代动力学过程。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "柑橘属中药与硝苯地平存在药代动力学相互作用",
+        "properties": {
+          "mechanism_enzymes": [
+            "CYP450",
+            "P-gp"
+          ],
+          "evidence": {
+            "chunk_index": 1074,
+            "source": "凡默谷",
+            "text": "……改变心血管药物（硝苯地平、胺碘酮等）……的药代动力学过程。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "柑橘属中药与胺碘酮存在药代动力学相互作用",
+        "properties": {
+          "mechanism_enzymes": [
+            "CYP450",
+            "P-gp"
+          ],
+          "evidence": {
+            "chunk_index": 1074,
+            "source": "凡默谷",
+            "text": "……改变心血管药物（硝苯地平、胺碘酮等）……的药代动力学过程。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "name": "柑橘属中药与紫杉醇存在药代动力学相互作用",
+        "properties": {
+          "mechanism_enzymes": [
+            "CYP450",
+            "P-gp"
+          ],
+          "evidence": {
+            "chunk_index": 1074,
+            "source": "凡默谷",
+            "text": "……改变……抗肿瘤药等（紫杉醇等）的药代动力学过程。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_17",
+        "name": "柑橘属中药与厄洛替尼可能存在药物相互作用",
+        "properties": {
+          "mechanism_enzymes": [
+            "UGT1A1",
+            "CYP3A4"
+          ],
+          "evidence": {
+            "chunk_index": 1074,
+            "source": "凡默谷",
+            "text": "预测柑橘 属中药可能通过 UGT1A1、CYP3A4 等靶点与厄洛替尼、尼洛替尼、他莫昔芬、茶碱、文拉 法辛、维拉帕米等化学药存在药物相互作用，尚有待进一步研究证实。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_18",
+        "name": "柑橘属中药与尼洛替尼可能存在药物相互作用",
+        "properties": {
+          "mechanism_enzymes": [
+            "UGT1A1",
+            "CYP3A4"
+          ],
+          "evidence": {
+            "chunk_index": 1074,
+            "source": "凡默谷",
+            "text": "预测柑橘 属中药可能通过 UGT1A1、CYP3A4 等靶点与厄洛替尼、尼洛替尼、他莫昔芬、茶碱、文拉 法辛、维拉帕米等化学药存在药物相互作用，尚有待进一步研究证实。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_19",
+        "name": "柑橘属中药与他莫昔芬可能存在药物相互作用",
+        "properties": {
+          "mechanism_enzymes": [
+            "UGT1A1",
+            "CYP3A4"
+          ],
+          "evidence": {
+            "chunk_index": 1074,
+            "source": "凡默谷",
+            "text": "预测柑橘 属中药可能通过 UGT1A1、CYP3A4 等靶点与厄洛替尼、尼洛替尼、他莫昔芬、茶碱、文拉 法辛、维拉帕米等化学药存在药物相互作用，尚有待进一步研究证实。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_20",
+        "name": "柑橘属中药与茶碱可能存在药物相互作用",
+        "properties": {
+          "mechanism_enzymes": [
+            "UGT1A1",
+            "CYP3A4"
+          ],
+          "evidence": {
+            "chunk_index": 1074,
+            "source": "凡默谷",
+            "text": "预测柑橘 属中药可能通过 UGT1A1、CYP3A4 等靶点与厄洛替尼、尼洛替尼、他莫昔芬、茶碱、文拉 法辛、维拉帕米等化学药存在药物相互作用，尚有待进一步研究证实。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_21",
+        "name": "柑橘属中药与文拉法辛可能存在药物相互作用",
+        "properties": {
+          "mechanism_enzymes": [
+            "UGT1A1",
+            "CYP3A4"
+          ],
+          "evidence": {
+            "chunk_index": 1074,
+            "source": "凡默谷",
+            "text": "预测柑橘 属中药可能通过 UGT1A1、CYP3A4 等靶点与厄洛替尼、尼洛替尼、他莫昔芬、茶碱、文拉 法辛、维拉帕米等化学药存在药物相互作用，尚有待进一步研究证实。"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_22",
+        "name": "柑橘属中药与维拉帕米可能存在药物相互作用",
+        "properties": {
+          "mechanism_enzymes": [
+            "UGT1A1",
+            "CYP3A4"
+          ],
+          "evidence": {
+            "chunk_index": 1074,
+            "source": "凡默谷",
+            "text": "预测柑橘 属中药可能通过 UGT1A1、CYP3A4 等靶点与厄洛替尼、尼洛替尼、他莫昔芬、茶碱、文拉 法辛、维拉帕米等化学药存在药物相互作用，尚有待进一步研究证实。"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "name": "柑橘属中药与抗肿瘤药存在药效学相互作用",
+        "properties": {
+          "outcome": "增效和/或减毒",
+          "evidence": {
+            "chunk_index": 1074,
+            "source": "凡默谷",
+            "text": "柑橘属中药因其抗炎、抗氧化、抗肿瘤等广泛的药理活性与多种药物存在药效学相互作 用，主要表现为增效和（或减毒）的有益结局，尤其是与抗肿瘤药的联用"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1074,
+    "source": "凡默谷",
+    "text": "。3讨 论  柑橘属中药与葡萄柚化学组成相似，笔者前期通过收集柑橘属中药与葡萄柚的化学成分， 比对得出有 48 种成分相同。因相似的物质基础，柑橘属中药存在与葡萄柚相近的药物相互 作用，尤其是药代动力学相互作用。柑橘属中药富含橙皮苷、柚皮苷等黄酮类成分及佛手柑 素等香豆素类成分，可通过影响 CYP450、UGTs 等药物代谢酶及 P-gp、OATP 等药物转运 体，改变抗精神病药物（他克莫司、环孢素等免疫抑制剂、丁螺环酮等）、消化系统药物（雷 尼替丁、奥美拉唑等）、心血管药物（硝苯地平、胺碘酮等）和抗肿瘤药等（紫杉醇等）的药代动力学过程。笔者前期借助网络药理学方法探究柑橘属中药的药物相互作用，预测柑橘 属中药可能通过 UGT1A1、CYP3A4 等靶点与厄洛替尼、尼洛替尼、他莫昔芬、茶碱、文拉 法辛、维拉帕米等化学药存在药物相互作用，尚有待进一步研究证实。目前的研究主要集中 于 CYP450 及 P-gp，受 CYP450 及 P-gp 影响的药物相对广泛；也有必要关注酯酶、OATP 等专属性相对强的药物代谢酶及转运体。多项研究显示，柑橘属中药及其成分引起的药代动 力学改变程度随剂量的增大而增大，但也存在剂量过大引起改变方向的变化，应进一步深入研究其药代动力学相互作用的量效关系；还应加强对相互作用持续时间的研究，为临床药物 联用间隔时间的合理决策提供科学依据。柑橘属中药因其抗炎、抗氧化、抗肿瘤等广泛的药理活性与多种药物存在药效学相互作 用，主要表现为增效和（或减毒）的有益结局，尤其是与抗肿瘤药的联用"
+  }
+]

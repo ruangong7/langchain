@@ -1,0 +1,106 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Esaxerenone",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Mechanism",
+        "name": "TDI作用",
+        "properties": {
+          "机制类型": "时间依赖性抑制"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Mechanism",
+        "name": "诱导作用",
+        "properties": {
+          "机制类型": "酶诱导"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1241,
+          "source": "凡默谷",
+          "text": "。在静态机制模型中假设使用了促变药的最大浓度，以避免造成假阴性，这种与真实世界不符的假设倾向于高估DDI风险，因而基于PBPK模型进一步评估了DDI风险。考虑到药物开发不同阶段建模数据的完整性，本研究搭建了三个PBPK模型，以考察使用GastroPlus基于不同研发阶段的数据搭建的模型对肠道DDI的预测准确性。结果表明Esaxerenone虽然是CYP3A的TDI和诱导剂，但由于TDI作用和诱导作用的抵消效应，Esaxerenone作为促变药产生DDI的可能性较低，模拟结果与已有临床研究结果相近。此外，还模拟了Esaxerenone与咪达唑仑不同给药时间的DDI，以及不同剂量Esaxerenone与咪达唑仑的DDI。6应用软件与模块该案例应用的软件是GastroPlus (version 9.7)，涉及模块有Base, PKPlus, ADMET Predictor, Metabolism and Transporter Module, DDI Module"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "Esaxerenone与咪达唑仑的DDI",
+        "properties": {
+          "mechanism": [
+            "CYP3A介导的TDI作用",
+            "CYP3A介导的诱导作用"
+          ],
+          "effect": "TDI作用和诱导作用相互抵消，导致DDI可能性较低",
+          "evidence": {
+            "chunk_index": 1241,
+            "source": "凡默谷",
+            "text": "结果表明Esaxerenone虽然是CYP3A的TDI和诱导剂，但由于TDI作用和诱导作用的抵消效应，Esaxerenone作为促变药产生DDI的可能性较低，模拟结果与已有临床研究结果相近。此外，还模拟了Esaxerenone与咪达唑仑不同给药时间的DDI，以及不同剂量Esaxerenone与咪达唑仑的DDI。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "Esaxerenone具有TDI作用",
+        "properties": {
+          "enzyme": "CYP3A",
+          "evidence": {
+            "chunk_index": 1241,
+            "source": "凡默谷",
+            "text": "结果表明Esaxerenone虽然是CYP3A的TDI和诱导剂"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "Esaxerenone具有诱导作用",
+        "properties": {
+          "enzyme": "CYP3A",
+          "evidence": {
+            "chunk_index": 1241,
+            "source": "凡默谷",
+            "text": "结果表明Esaxerenone虽然是CYP3A的TDI和诱导剂"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1241,
+    "source": "凡默谷",
+    "text": "。在静态机制模型中假设使用了促变药的最大浓度，以避免造成假阴性，这种与真实世界不符的假设倾向于高估DDI风险，因而基于PBPK模型进一步评估了DDI风险。考虑到药物开发不同阶段建模数据的完整性，本研究搭建了三个PBPK模型，以考察使用GastroPlus基于不同研发阶段的数据搭建的模型对肠道DDI的预测准确性。结果表明Esaxerenone虽然是CYP3A的TDI和诱导剂，但由于TDI作用和诱导作用的抵消效应，Esaxerenone作为促变药产生DDI的可能性较低，模拟结果与已有临床研究结果相近。此外，还模拟了Esaxerenone与咪达唑仑不同给药时间的DDI，以及不同剂量Esaxerenone与咪达唑仑的DDI。6应用软件与模块该案例应用的软件是GastroPlus (version 9.7)，涉及模块有Base, PKPlus, ADMET Predictor, Metabolism and Transporter Module, DDI Module"
+  }
+]

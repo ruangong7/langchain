@@ -1,0 +1,197 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "聚腺苷二磷酸核糖聚合酶抑制剂",
+        "properties": {
+          "alias": [
+            "PARPi"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "奥拉帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "尼拉帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "氟唑帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "帕米帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "卵巢癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "输卵管癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "原发性腹膜癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "乳腺癌",
+        "properties": {
+          "note": "易感基因（BRCA）突变或同源重组修复基因（HRR）突变"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Mechanism",
+        "name": "肝药酶代谢",
+        "properties": {
+          "mechanism_type": "代谢"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": "1516",
+          "source": "医脉通泌尿外科",
+          "text": "文章通过组建包括药学专家、临床专家、方法学专家等人员的共识工作组，按照确定临床问题、资料检索评价、德尔菲法形成共识意见，最终形成PARPi相互作用管理的指导性专家意见，为临床医务人员提供实践参考。【关键词】恶性肿瘤；聚腺苷二磷酸核糖聚合酶抑制剂；药物相互作用；专家共识聚腺苷二磷酸核糖聚合酶抑制剂（poly ADP-ribose polymerase inhibitors， PARPi）是一类新型抗肿瘤靶向药物，自2018年首个PARPi奥拉帕利在中国上市以来，目前已有4个PARPi（奥拉帕利、尼拉帕利、氟唑帕利、帕米帕利）在中国获批，主要用于卵巢癌、输卵管癌、原发性腹膜癌及乳腺癌易感基因（breast cancer susceptibility gene, BRCA）突变或同源重组修复基因（homologous recombination repair, HRR）突变的其他肿瘤的治疗。大多数PARPi（奥拉帕利、氟唑帕利、帕米帕利）通过肝药酶代谢，与其他药物之间存在广泛的药物相互作用，在临床使用过程中易被忽视，从而造成不良反应增加或疗效下降。本共识系统总结中国上市PARPi的相互作用资料，形成相关共识意见，为临床医务人员在PARPi相互作用管理工作方面提供参考"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "奥拉帕利属于PARPi",
+        "properties": {}
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "尼拉帕利属于PARPi",
+        "properties": {}
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "氟唑帕利属于PARPi",
+        "properties": {}
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "name": "帕米帕利属于PARPi",
+        "properties": {}
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "PARPi用于治疗卵巢癌",
+        "properties": {}
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "PARPi用于治疗输卵管癌",
+        "properties": {}
+      },
+      {
+        "id": "rel_7",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "PARPi用于治疗原发性腹膜癌",
+        "properties": {}
+      },
+      {
+        "id": "rel_8",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "PARPi用于治疗特定突变的乳腺癌",
+        "properties": {}
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "name": "奥拉帕利通过肝药酶代谢",
+        "properties": {}
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_10",
+        "name": "氟唑帕利通过肝药酶代谢",
+        "properties": {}
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_10",
+        "name": "帕米帕利通过肝药酶代谢",
+        "properties": {}
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_1",
+        "name": "PARPi与其他药物存在广泛相互作用",
+        "properties": {
+          "mechanism": "肝药酶代谢",
+          "consequence": "不良反应增加或疗效下降",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": 1516,
+              "source": "医脉通泌尿外科",
+              "text": "大多数PARPi（奥拉帕利、氟唑帕利、帕米帕利）通过肝药酶代谢，与其他药物之间存在广泛的药物相互作用，在临床使用过程中易被忽视，从而造成不良反应增加或疗效下降。"
+            }
+          ]
+        }
+      }
+    ],
+    "chunk_index": 1516,
+    "source": "医脉通泌尿外科",
+    "text": "。文章通过组建包括药学专家、临床专家、方法学专家等人员的共识工作组，按照确定临床问题、资料检索评价、德尔菲法形成共识意见，最终形成PARPi相互作用管理的指导性专家意见，为临床医务人员提供实践参考。【关键词】恶性肿瘤；聚腺苷二磷酸核糖聚合酶抑制剂；药物相互作用；专家共识聚腺苷二磷酸核糖聚合酶抑制剂（poly ADP-ribose polymerase inhibitors， PARPi）是一类新型抗肿瘤靶向药物，自2018年首个PARPi奥拉帕利在中国上市以来，目前已有4个PARPi（奥拉帕利、尼拉帕利、氟唑帕利、帕米帕利）在中国获批，主要用于卵巢癌、输卵管癌、原发性腹膜癌及乳腺癌易感基因（breast cancer susceptibility gene, BRCA）突变或同源重组修复基因（homologous recombination repair, HRR）突变的其他肿瘤的治疗。大多数PARPi（奥拉帕利、氟唑帕利、帕米帕利）通过肝药酶代谢，与其他药物之间存在广泛的药物相互作用，在临床使用过程中易被忽视，从而造成不良反应增加或疗效下降。本共识系统总结中国上市PARPi的相互作用资料，形成相关共识意见，为临床医务人员在PARPi相互作用管理工作方面提供参考"
+  }
+]

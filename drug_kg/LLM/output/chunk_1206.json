@@ -1,0 +1,274 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "PMD",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "依法韦仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "达芦那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "米达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "BDQ",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "DLM",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "利福霉素类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "克力芝",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "洛匹那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "CYP酶诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "CYP酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Disease",
+        "name": "HIV",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Disease",
+        "name": "MDR-TB",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Disease",
+        "name": "糖尿病",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Disease",
+        "name": "高血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1206,
+          "source": "凡默谷"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "依法韦仑降低PMD暴露",
+        "properties": {
+          "consequence": "PMD的体内暴露下降35%",
+          "evidence": {
+            "chunk_index": 1206,
+            "source": "凡默谷",
+            "text": "与多剂量依法韦仑联用时，PMD的体内暴露下降35%"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "利托那韦降低PMD暴露",
+        "properties": {
+          "consequence": "PMD的体内暴露下降17%",
+          "recommendation": "当联用利托那韦时，PMD的剂量无需调整",
+          "evidence": {
+            "chunk_index": 1206,
+            "source": "凡默谷",
+            "text": "联用利托那韦时，PMD的体内暴露下降17%。研究者认为，当联用利托那韦时，PMD的剂量无需调整。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "达芦那韦影响PMD药代动力学",
+        "properties": {
+          "consequence": "显著降低PMD的体内暴露，同时延长PMD的消除半衰期",
+          "mechanism": "机制目前尚不明确",
+          "evidence": {
+            "chunk_index": 1206,
+            "source": "凡默谷",
+            "text": "健康大鼠模型中，联用达芦那韦将显著降低PMD的体内暴露，同时延长PMD的消除半衰期，然而其机制目前尚不明确"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "PMD对米达唑仑无影响",
+        "properties": {
+          "consequence": "联用PMD对米达唑仑的体内暴露无影响",
+          "mechanism": "PMD及其代谢物对CYP3A4无抑制作用",
+          "evidence": {
+            "chunk_index": 1206,
+            "source": "凡默谷",
+            "text": "联用PMD对米达唑仑的体内暴露无影响，米达唑仑为CYP3A4探针底物，其体内暴露量反应联用药物对CYP3A4的抑制强度，研究结果显示，PMD及其代谢物对CYP3A4无抑制作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_6",
+        "name": "CYP酶诱导剂降低BDQ暴露",
+        "properties": {
+          "consequence": "显著降低其体内暴露",
+          "evidence": {
+            "chunk_index": 1206,
+            "source": "凡默谷",
+            "text": "联用CYP酶诱导剂利福霉素类药物或抗HIV药物依法韦仑将显著降低其体内暴露。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "name": "依法韦仑降低BDQ暴露",
+        "properties": {
+          "consequence": "显著降低其体内暴露",
+          "evidence": {
+            "chunk_index": 1206,
+            "source": "凡默谷",
+            "text": "联用CYP酶诱导剂利福霉素类药物或抗HIV药物依法韦仑将显著降低其体内暴露。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_6",
+        "name": "CYP酶抑制剂与BDQ相互作用增加风险",
+        "properties": {
+          "consequence": "增加抗结核治疗的安全性风险",
+          "evidence": {
+            "chunk_index": 1206,
+            "source": "凡默谷",
+            "text": "CYP酶抑制剂或诱导剂与BDQ等药物间的DDI将增加抗结核治疗的安全性风险。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "name": "利托那韦增强BDQ药效并降低风险",
+        "properties": {
+          "consequence": "增强洛匹那韦与BDQ的药效，并降低因毒性代谢物M2带来的安全性风险",
+          "recommendation": "通过基于治疗药物监测结果，调整BDQ剂量",
+          "evidence": {
+            "chunk_index": 1206,
+            "source": "凡默谷",
+            "text": "当患者存在HIV与MDR-TB共感染并选择克力芝进行抗HIV治疗时，通过基于治疗药物监测结果，调整BDQ剂量，利托那韦作为增效剂，其可同时增强洛匹那韦与BDQ的药效，并降低因毒性代谢物M2带来的安全性风险。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_12",
+        "name": "利福霉素类药物属于CYP酶诱导剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1206,
+            "source": "凡默谷",
+            "text": "联用CYP酶诱导剂利福霉素类药物"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_11",
+        "name": "米达唑仑是CYP3A4底物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1206,
+            "source": "凡默谷",
+            "text": "米达唑仑为CYP3A4探针底物"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1206,
+    "source": "凡默谷",
+    "text": "。3.2.2 PMD与抗HIV药物间相互作用临床DDI研究表明，与多剂量依法韦仑联用时，PMD的体内暴露下降35%，联用利托那韦时，PMD的体内暴露下降17%。研究者认为，当联用利托那韦时，PMD的剂量无需调整。健康大鼠模型中，联用达芦那韦将显著降低PMD的体内暴露，同时延长PMD的消除半衰期，然而其机制目前尚不明确，仍需临床DDI研究进行进一步验证。3.2.3 PMD与其他药物物间相互作用研究进展临床研究显示，联用PMD对米达唑仑的体内暴露无影响，米达唑仑为CYP3A4探针底物，其体内暴露量反应联用药物对CYP3A4的抑制强度，研究结果显示，PMD及其代谢物对CYP3A4无抑制作用。BDQ、DLM、PMD3种抗耐药结核新药均为强脂溶性药物，其在体内均呈现广泛分布、血浆蛋白结合率较高、消除半衰期长的代谢特征，三药在餐后服用可以提高其生物利用度。BDQ、DLM、PMD均经CYP途径代谢，联用CYP酶诱导剂利福霉素类药物或抗HIV药物依法韦仑将显著降低其体内暴露。CYP酶抑制剂或诱导剂与BDQ等药物间的DDI将增加抗结核治疗的安全性风险。当患者存在HIV与MDR-TB共感染并选择克力芝进行抗HIV治疗时，通过基于治疗药物监测结果，调整BDQ剂量，利托那韦作为增效剂，其可同时增强洛匹那韦与BDQ的药效，并降低因毒性代谢物M2带来的安全性风险。目前，抗耐药结核新药除与抗HIV药物及抗结核药物间相互作用研究外，尚无与其他药物间的相互作用研究。临床治疗中，除HIV与MDR-TB的共感染外，糖尿病，高血压等合并病症用药与抗耐药结核新药间的相互作用也引起了研究者们的关注"
+  }
+]

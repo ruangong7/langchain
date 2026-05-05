@@ -1,0 +1,96 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "药物代谢酶",
+        "properties": {
+          "英文名": "drug-metabolizing enzyme",
+          "别名列表": [
+            "DME"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "微生物群系",
+        "properties": {
+          "类型": "其他"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "人体蛋白",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Food",
+        "name": "外源性物质",
+        "properties": {
+          "类型": "其他"
+        }
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "DrugAI",
+        "properties": {
+          "chunk_id": 100,
+          "来源类型": "其他",
+          "raw_text": "药物代谢酶（drug-metabolizing enzyme，DME）是介导药物活化、失活、毒化和解毒的主要因素，长期以来受到研究者的广泛关注。近年来，DME的相互作用研究（包括微生物群系、人体蛋白、外源性物质与DME的相互作用）已经成为药学领域的前沿热点，被认为是决定药代动态调节和个体差异(Nature. 570: 462-7, 2019)、揭示耐药和药物不良反应机制(Drug Metab Rev. 50: 407-14, 2018)、优化临床治疗策略(Science. 364: eaau6323, 2019)的关键。然而，目前还严重缺乏对微生物群系和人体蛋白与DME相互作用的系统整理，极大地限制了DME不同类型相互作用之间的交叉分析和应用研究（Pharmacol Ther. 204: 107414, 2019）。针对上述问题，浙江大学药学院的曾苏教授、余露山教授、朱峰教授，合作在《Nucleic Acids Research》杂志，发表了题为“INTEDE: interactome of drug-metabolizing enzymes”的研究成果(如下图)，构建了DME相互作用组数据库（https://idrblab.org/intede/）。由于DME不同类型相互作用之间的交叉分析对理解药物代谢过程至关重要，INTEDE的构建与深入开发有望对未来精准医疗和创新药物发现研究起到推动作用"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "微生物群系与药物代谢酶相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 100,
+            "source": "DrugAI",
+            "text": "DME的相互作用研究（包括微生物群系、人体蛋白、外源性物质与DME的相互作用）已经成为药学领域的前沿热点"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "人体蛋白与药物代谢酶相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 100,
+            "source": "DrugAI",
+            "text": "DME的相互作用研究（包括微生物群系、人体蛋白、外源性物质与DME的相互作用）已经成为药学领域的前沿热点"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "外源性物质与药物代谢酶相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 100,
+            "source": "DrugAI",
+            "text": "DME的相互作用研究（包括微生物群系、人体蛋白、外源性物质与DME的相互作用）已经成为药学领域的前沿热点"
+          }
+        }
+      }
+    ],
+    "chunk_index": 100,
+    "source": "DrugAI",
+    "text": "药物代谢酶（drug-metabolizing enzyme，DME）是介导药物活化、失活、毒化和解毒的主要因素，长期以来受到研究者的广泛关注。近年来，DME的相互作用研究（包括微生物群系、人体蛋白、外源性物质与DME的相互作用）已经成为药学领域的前沿热点，被认为是决定药代动态调节和个体差异(Nature. 570: 462-7, 2019)、揭示耐药和药物不良反应机制(Drug Metab Rev. 50: 407-14, 2018)、优化临床治疗策略(Science. 364: eaau6323, 2019)的关键。然而，目前还严重缺乏对微生物群系和人体蛋白与DME相互作用的系统整理，极大地限制了DME不同类型相互作用之间的交叉分析和应用研究（Pharmacol Ther. 204: 107414, 2019）。针对上述问题，浙江大学药学院的曾苏教授、余露山教授、朱峰教授，合作在《Nucleic Acids Research》杂志，发表了题为“INTEDE: interactome of drug-metabolizing enzymes”的研究成果(如下图)，构建了DME相互作用组数据库（https://idrblab.org/intede/）。由于DME不同类型相互作用之间的交叉分析对理解药物代谢过程至关重要，INTEDE的构建与深入开发有望对未来精准医疗和创新药物发现研究起到推动作用"
+  }
+]

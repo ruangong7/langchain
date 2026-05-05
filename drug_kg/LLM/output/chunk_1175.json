@@ -1,0 +1,173 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Indicator",
+        "name": "肌酐",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "OCT2",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "MATEs",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "OAT2",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "克唑替尼",
+        "properties": {
+          "剂型": "胶囊",
+          "给药途径": "口服",
+          "用法用量": "200mg/次，每日2次",
+          "适应症": "间变性淋巴瘤激酶（ALK）阳性的局部晚期或转移性非小细胞肺癌（NSCLC）"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "非小细胞肺癌",
+        "properties": {
+          "别名": "NSCLC"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "CYP",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "BCRP",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Mechanism",
+        "name": "抑制",
+        "properties": {
+          "机制类型": "抑制"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "OCT2影响肌酐水平",
+        "properties": {
+          "mechanism": "内源性肌酐是肾转运体OCT2的底物",
+          "evidence": {
+            "chunk_index": 1175,
+            "source": "凡默谷",
+            "text": "内源性肌酐也是肾转运体OTC2、MATES、0AT2的底物，如果研究药物为以上肾转运体的抑制剂，则可能导致血清肌酐水平的异常升高"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "MATEs影响肌酐水平",
+        "properties": {
+          "mechanism": "内源性肌酐是肾转运体MATEs的底物",
+          "evidence": {
+            "chunk_index": 1175,
+            "source": "凡默谷",
+            "text": "内源性肌酐也是肾转运体OTC2、MATES、0AT2的底物，如果研究药物为以上肾转运体的抑制剂，则可能导致血清肌酐水平的异常升高"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "OAT2影响肌酐水平",
+        "properties": {
+          "mechanism": "内源性肌酐是肾转运体OAT2的底物",
+          "evidence": {
+            "chunk_index": 1175,
+            "source": "凡默谷",
+            "text": "内源性肌酐也是肾转运体OTC2、MATES、0AT2的底物，如果研究药物为以上肾转运体的抑制剂，则可能导致血清肌酐水平的异常升高"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "克唑替尼用于治疗非小细胞肺癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1175,
+            "source": "凡默谷",
+            "text": "克唑替尼胶囊[9]是一种酪氨酸激酶受体抑制剂，于2011年在美国上市，用于治疗间变性淋巴瘤激酶（ALK)阳性的局部晚期或转移性非小细胞肺癌（NSCLC)"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "name": "克唑替尼与CYP酶存在相互作用",
+        "properties": {
+          "mechanism": "体外试验预测可能存在与CYP酶的相互作用",
+          "evidence": {
+            "chunk_index": 1175,
+            "source": "凡默谷",
+            "text": "借助基础模型进行分析，预测药物可能存在与CYP酶或转运体BCRP的相互作用，提示需开展临床DDI研究"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_8",
+        "name": "克唑替尼与BCRP存在相互作用",
+        "properties": {
+          "mechanism": "体外试验预测可能存在与转运体BCRP的相互作用",
+          "evidence": {
+            "chunk_index": 1175,
+            "source": "凡默谷",
+            "text": "借助基础模型进行分析，预测药物可能存在与CYP酶或转运体BCRP的相互作用，提示需开展临床DDI研究"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1175,
+    "source": "凡默谷",
+    "text": "。值得注意的是，内源性肌酐也是肾转运体OTC2、MATES、0AT2的底物，如果研究药物为以上肾转运体的抑制剂，则可能导致血清肌酐水平的异常升高，需在临床阶段进一步开展体内DDI机制研究。4对代谢产物体外DDI研究的考虑与原型药物相比，一些极性更强的代谢产物可能成为更好的酶或转运体的底物或抑制剂，临床上导致DDI的几率更高。一般认为，如果代谢产物的血浆暴露显著或具有明显的药理活性（占总体活性>50%)，或者具有警示结构，如存在时间依赖的定量构效关系（quantitative structure-activity relationship，QSAR)，需要具体情况来决定是否开展代谢产物与酶和转运体的体外相互作用研究。建议使用纯化或合成的代谢产物标准品或者采用放射同位素标记药物开展体外试验。药物代谢产物的结果分析一般采用与原型药物相同的原则和策略。5药物相互作用研究案例下文列举了2个FDA批准上市药物开展药物相互作用研究的案例。2个案例均从体外试验开始，借助基础模型进行分析，预测药物可能存在与CYP酶或转运体BCRP的相互作用，提示需开展临床DDI研究，最终经临床试验证实或未经临床证实将相关风险纳入说明书【药物相互作用】项下，体现了新药研发过程中药物相互作用研究和风险评估的基本思路。案例1:克唑替尼胶囊[9]是一种酪氨酸激酶受体抑制剂，于2011年在美国上市，用于治疗间变性淋巴瘤激酶（ALK)阳性的局部晚期或转移性非小细胞肺癌（NSCLC)，口服给药，200mg/次，每日2次"
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "captopril",
+        "properties": {
+          "通用名": "captopril"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "allopurinol",
+        "properties": {
+          "通用名": "allopurinol"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "enalapril",
+        "properties": {
+          "通用名": "enalapril"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "ACEI",
+        "properties": {
+          "名称": "ACEI"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "Fever, myalgia, and arthralgia",
+        "properties": {
+          "名称": "Fever, myalgia, and arthralgia"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "anaphylactic coronary spasm",
+        "properties": {
+          "名称": "anaphylactic coronary spasm"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "acute myocardial infarction",
+        "properties": {
+          "名称": "acute myocardial infarction"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Evidence",
+        "name": "医学界内分泌频道",
+        "properties": {
+          "唯一标识": "ev_1",
+          "来源类型": "公众号",
+          "chunk_id": 1365,
+          "来源": "医学界内分泌频道"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "captopril 属于 ACEI 类药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1365,
+            "source": "医学界内分泌频道",
+            "text": "英国其他几种ACEI的生产商也给出了类似的警告和建议。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "enalapril 属于 ACEI 类药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1365,
+            "source": "医学界内分泌频道",
+            "text": "英国其他几种ACEI的生产商也给出了类似的警告和建议。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "captopril 与 allopurinol 联用可能导致 Fever, myalgia, and arthralgia",
+        "properties": {
+          "consequence": "Fever, myalgia, and arthralgia",
+          "evidence": {
+            "chunk_index": 1365,
+            "source": "医学界内分泌频道",
+            "text": "Samanta A,Burden AC.Fever,myalgia,and arthralgia in a patient on captopril and allopurinol.Lancet(1984)i,679."
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "allopurinol 与 enalapril 联用可能导致 anaphylactic coronary spasm 和 acute myocardial infarction",
+        "properties": {
+          "consequence": "anaphylactic coronary spasm and acute myocardial infarction",
+          "evidence": {
+            "chunk_index": 1365,
+            "source": "医学界内分泌频道",
+            "text": "Ahmad S.Allopurinol and enalapril.Drug induced anaphylactic coronary spasm and acute myocardial infarction.Chest(1995)108,586."
+          }
+        }
+      }
+    ],
+    "chunk_index": 1365,
+    "source": "医学界内分泌频道",
+    "text": "。英国其他几种ACEI的生产商也给出了类似的警告和建议。参考文献：[1]Duchin KL,McKinstry DN,Cohen AI,Migdalof BH.Pharmacokinetics of captopril in healthy subjects and in patients with cardiovascular diseases.Clin Pharmacokinet(1988)14,241–59.[2]Samanta A,Burden AC.Fever,myalgia,and arthralgia in a patient on captopril and allopurinol.Lancet(1984)i,679.[3]Ahmad S.Allopurinol and enalapril.Drug induced anaphylactic coronary spasm and acute myocardial infarction.Chest(1995)108,586.[4]Capoten(Captopril).E.R.Squibb&Sons Ltd.UK Summary of product characteristics,September 2008.本文来源：医学界临床药学频道本文作者：红油辣酱责任编辑：曹前更多相互作用关注临床药学频道查看医学界力求其发表内容在审核通过时的准确可靠，但并不对已发表内容的适时性，以及所引用资料(如有)的准确性和完整性等作出任何承诺和保证，亦不承担因该些内容已过时、所引用资料可能的不准确或不完整等情况引起的任何责任"
+  }
+]

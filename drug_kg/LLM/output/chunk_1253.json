@@ -1,0 +1,347 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "达比加群",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "Asundexian",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "Cilofexor",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "钠-葡萄糖共转运蛋白2抑制剂",
+        "properties": {
+          "别名列表": [
+            "SGLT2抑制剂"
+          ]
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "达比加群酯",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Population",
+        "name": "肝功能不全",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Population",
+        "name": "肾功能不全",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "代谢酶",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "转运体",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Disease",
+        "name": "凝血因子合成减少",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Mechanism",
+        "name": "受体饱和",
+        "properties": {
+          "机制类型": "受体饱和"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Mechanism",
+        "name": "尿酸主动分泌代偿机制",
+        "properties": {
+          "机制类型": "代偿机制"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "SideEffect",
+        "name": "药物蓄积",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Indicator",
+        "name": "抗凝效应持续时间",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Population",
+        "name": "老年人",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "DrugClass",
+        "name": "口服抗凝药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "二甲双胍在肾损人群中需调整剂量",
+        "properties": {
+          "后果": "药物不良反应风险增加",
+          "建议": "基于PBPK模型调整剂量",
+          "证据": {
+            "chunk_index": 1253,
+            "source": "凡默谷",
+            "text": "XIE等[35]和DOKI等[36]基于PBPK模型预测的血药浓度变化，调整了肾损人群二甲双胍及达比加群的临床用药剂量，以期减少药物不良反应的发生。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "name": "达比加群在肾损人群中需调整剂量",
+        "properties": {
+          "后果": "药物不良反应风险增加",
+          "建议": "基于PBPK模型调整剂量",
+          "证据": {
+            "chunk_index": 1253,
+            "source": "凡默谷",
+            "text": "XIE等[35]和DOKI等[36]基于PBPK模型预测的血药浓度变化，调整了肾损人群二甲双胍及达比加群的临床用药剂量，以期减少药物不良反应的发生。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "name": "Asundexian在肝损患者中出血风险显著增加",
+        "properties": {
+          "机制": "凝血因子合成减少",
+          "证据": {
+            "chunk_index": 1253,
+            "source": "凡默谷",
+            "text": "新型抗凝药Asundexian在肝损患者中暴露量仅轻微升高，但凝血因子合成的减少，导致其引发的出血风险显著增加[39]；"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "Cilofexor在肝损人群中暴露量上升但药效未增强",
+        "properties": {
+          "机制": "受体饱和",
+          "后果": "降胆汁酸药效未增强",
+          "证据": {
+            "chunk_index": 1253,
+            "source": "凡默谷",
+            "text": "法尼酯X受体激动剂Cilofexor在肝损人群中暴露量虽明显上升，其降胆汁酸的药效却因受体饱和而未增强[40]。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_8",
+        "name": "SGLT2抑制剂在肾损中降糖药效下降",
+        "properties": {
+          "机制": "靶器官功能紊乱",
+          "后果": "降糖药效下降",
+          "证据": {
+            "chunk_index": 1253,
+            "source": "凡默谷",
+            "text": "在肾损中，疾病导致的靶器官功能紊乱使钠-葡萄糖共转运蛋白2（sodium-glucosecot ransporter 2，SGLT2）抑制剂的降糖药效下降[41]；"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "name": "达比加群酯在肾损患者中药物蓄积放大不良反应",
+        "properties": {
+          "后果": "抗凝效应持续时间显著延长",
+          "机制": "药物蓄积",
+          "证据": {
+            "chunk_index": 1253,
+            "source": "凡默谷",
+            "text": "药物蓄积亦可放大不良反应，如达比加群酯在肾损患者中抗凝效应持续时间显著长于药物清除半衰期[43]。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_19",
+        "target_id": "ent_8",
+        "name": "口服抗凝药物在肾损合并DDIs中暴露影响较弱",
+        "properties": {
+          "比较": "相较肝损，肾损合并DDIs对药物暴露的影响通常较弱",
+          "证据": {
+            "chunk_index": 1253,
+            "source": "凡默谷",
+            "text": "相较肝损，肾损合并DDIs对药物暴露的影响通常较弱"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "二甲双胍在肾损中血药浓度变化",
+        "properties": {
+          "证据": {
+            "chunk_index": 1253,
+            "source": "凡默谷",
+            "text": "XIE等[35]和DOKI等[36]基于PBPK模型预测的血药浓度变化，调整了肾损人群二甲双胍及达比加群的临床用药剂量，以期减少药物不良反应的发生。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "name": "达比加群在肾损中血药浓度变化",
+        "properties": {
+          "证据": {
+            "chunk_index": 1253,
+            "source": "凡默谷",
+            "text": "XIE等[35]和DOKI等[36]基于PBPK模型预测的血药浓度变化，调整了肾损人群二甲双胍及达比加群的临床用药剂量，以期减少药物不良反应的发生。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_13",
+        "name": "Asundexian在肝损中出血风险增加的机制是凝血因子合成减少",
+        "properties": {
+          "证据": {
+            "chunk_index": 1253,
+            "source": "凡默谷",
+            "text": "新型抗凝药Asundexian在肝损患者中暴露量仅轻微升高，但凝血因子合成的减少，导致其引发的出血风险显著增加[39]；"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_14",
+        "name": "Cilofexor在肝损中药效未增强的机制是受体饱和",
+        "properties": {
+          "证据": {
+            "chunk_index": 1253,
+            "source": "凡默谷",
+            "text": "法尼酯X受体激动剂Cilofexor在肝损人群中暴露量虽明显上升，其降胆汁酸的药效却因受体饱和而未增强[40]。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_15",
+        "name": "SGLT2抑制剂在肾损中药效可能因尿酸主动分泌代偿机制保持不变",
+        "properties": {
+          "证据": {
+            "chunk_index": 1253,
+            "source": "凡默谷",
+            "text": "但尿酸主动分泌等代偿机制的激活或可抵消PK变化，使药效保持不变[42]。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_6",
+        "target_id": "ent_9",
+        "name": "达比加群酯在肾损患者中出血风险增加",
+        "properties": {
+          "机制": "药物蓄积导致抗凝效应持续时间延长",
+          "证据": {
+            "chunk_index": 1253,
+            "source": "凡默谷",
+            "text": "药物蓄积亦可放大不良反应，如达比加群酯在肾损患者中抗凝效应持续时间显著长于药物清除半衰期[43]。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "APPLIES_TO",
+        "source_id": "ent_19",
+        "target_id": "ent_18",
+        "name": "年龄对口服抗凝药物DDIs影响显著",
+        "properties": {
+          "建议": "模型构建中纳入年龄协变量可提升预测精度",
+          "证据": {
+            "chunk_index": 1253,
+            "source": "凡默谷",
+            "text": "WANG等[29]和GRILLO等[4]通过敏感性分析，指出年龄对DDIs影响显著，模型构建中纳入该协变量可提升预测精度及个体化适用性。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1253,
+    "source": "凡默谷",
+    "text": "。肝肾损及DDIs主要对体内的代谢酶和转运体的活性产生影响，导致药物消除受阻，体内暴露显著增加，而这些影响对药物吸收的直接影响有限，Cmax通常不如AUC显著，但其或仍为预测药物不良反应的关键指标。XIE等[35]和DOKI等[36]基于PBPK模型预测的血药浓度变化，调整了肾损人群二甲双胍及达比加群的临床用药剂量，以期减少药物不良反应的发生。尽管PBPK模型在指导肝肾损人群临床给药方案调整中展现出一定价值，其单独应用时仍面临局限性，血药浓度变化与药效学响应并非恒定相关[37-38]。新型抗凝药Asundexian在肝损患者中暴露量仅轻微升高，但凝血因子合成的减少，导致其引发的出血风险显著增加[39]；法尼酯X受体激动剂Cilofexor在肝损人群中暴露量虽明显上升，其降胆汁酸的药效却因受体饱和而未增强[40]。在肾损中，疾病导致的靶器官功能紊乱使钠-葡萄糖共转运蛋白2（sodium-glucosecot ransporter 2，SGLT2）抑制剂的降糖药效下降[41]；但尿酸主动分泌等代偿机制的激活或可抵消PK变化，使药效保持不变[42]。药物蓄积亦可放大不良反应，如达比加群酯在肾损患者中抗凝效应持续时间显著长于药物清除半衰期[43]。此外，多项研究[4，29，30，32]通过口服抗凝药物PBPK模型评估药物相互作用，指导临床给药方案调整以降低出血风险。其中，WANG等[29]和GRILLO等[4]通过敏感性分析，指出年龄对DDIs影响显著，模型构建中纳入该协变量可提升预测精度及个体化适用性。相较肝损，肾损合并DDIs对药物暴露的影响通常较弱"
+  }
+]

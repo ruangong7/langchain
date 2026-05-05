@@ -1,0 +1,402 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "橘皮素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "顺铂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "肾损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "川陈皮素",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "紫杉醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "卡铂",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "非小细胞肺癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "枳实",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "对乙酰氨基酚",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "肝坏死",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "芦丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "庆大霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Disease",
+        "name": "铜绿假单胞菌生物膜感染",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "橙皮素",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "5-氟尿嘧啶",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Disease",
+        "name": "食管癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "柚皮素",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Disease",
+        "name": "前列腺癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "他莫昔芬",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "DrugClass",
+        "name": "柑橘属中药",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Food",
+        "name": "葡萄柚",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": "1073",
+          "source": "凡默谷",
+          "text": "。尚有研究揭示了 橘皮素与顺铂联用减毒增效的双重益处，既可减轻顺铂导致的肾损伤，又可增强其细胞毒性 作用[35]。川陈皮素可调节 G1 期的细胞，与紫杉醇、卡铂等肿瘤化疗药物联用对人非小细胞 肺癌细胞系 A549 和 H460 的增殖具有协同抑制作用[36]。2.2 柑橘属中药药效学相互作用的机制  柑橘属中药增效减毒的药效学相互作用根本原因是药理效应的改变，因此机制与相应的 药理效应直接相关。枳实对对乙酰氨基酚诱导肝坏死的保护作用主要是通过抑制 p53 上调凋 亡调控因子及逆转肝脏脂质代谢紊乱[30]。橙皮中分离得到的芦丁与庆大霉素对铜绿假单胞 菌生物膜的形成有协同的抑制作用，可能机制是抑制胞外多糖的产生进而影响生物膜的黏附 和成熟[37]。橙皮素能协同 5-氟尿嘧啶诱导人食管癌 Eca109 细胞凋亡，可能是通过诱导细胞 内活性氧增加及谷胱甘肽耗竭，激活线粒体介导的内源性凋亡途径[38]。柚皮素可通过 PI3K/AKT 和 MAPK 信号通路诱导前列腺癌细胞凋亡，与紫杉醇联用时可观察到抑制前列 腺癌细胞系进展作用的增强[39]。橘皮素对他莫昔芬抑瘤作用的影响可能与自然杀伤细胞数 量的减少有关[34]。川陈皮素对紫杉醇的增敏作用可能与抑制 AKT/ERK/Nrf2 通路有关[24]。3讨 论  柑橘属中药与葡萄柚化学组成相似，笔者前期通过收集柑橘属中药与葡萄柚的化学成分， 比对得出有 48 种成分相同。因相似的物质基础，柑橘属中药存在与葡萄柚相近的药物相互 作用，尤其是药代动力学相互作用"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "橘皮素与顺铂联用",
+        "properties": {
+          "effect": "减毒增效，减轻肾损伤，增强细胞毒性作用",
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "尚有研究揭示了 橘皮素与顺铂联用减毒增效的双重益处，既可减轻顺铂导致的肾损伤，又可增强其细胞毒性 作用[35]"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "顺铂导致肾损伤",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "顺铂导致的肾损伤"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "川陈皮素与紫杉醇联用",
+        "properties": {
+          "effect": "协同抑制非小细胞肺癌细胞增殖",
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "川陈皮素可调节 G1 期的细胞，与紫杉醇、卡铂等肿瘤化疗药物联用对人非小细胞 肺癌细胞系 A549 和 H460 的增殖具有协同抑制作用[36]"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "name": "川陈皮素与卡铂联用",
+        "properties": {
+          "effect": "协同抑制非小细胞肺癌细胞增殖",
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "川陈皮素可调节 G1 期的细胞，与紫杉醇、卡铂等肿瘤化疗药物联用对人非小细胞 肺癌细胞系 A549 和 H460 的增殖具有协同抑制作用[36]"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "name": "紫杉醇用于治疗非小细胞肺癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "与紫杉醇、卡铂等肿瘤化疗药物联用对人非小细胞 肺癌细胞系"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "卡铂用于治疗非小细胞肺癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "与紫杉醇、卡铂等肿瘤化疗药物联用对人非小细胞 肺癌细胞系"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "name": "枳实对对乙酰氨基酚的保护作用",
+        "properties": {
+          "effect": "保护对乙酰氨基酚诱导的肝坏死",
+          "mechanism": "抑制 p53 上调凋亡调控因子及逆转肝脏脂质代谢紊乱",
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "枳实对对乙酰氨基酚诱导肝坏死的保护作用主要是通过抑制 p53 上调凋 亡调控因子及逆转肝脏脂质代谢紊乱[30]"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "name": "对乙酰氨基酚诱导肝坏死",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "对乙酰氨基酚诱导肝坏死"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_12",
+        "name": "芦丁与庆大霉素联用",
+        "properties": {
+          "effect": "协同抑制铜绿假单胞菌生物膜的形成",
+          "mechanism": "抑制胞外多糖的产生进而影响生物膜的黏附和成熟",
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "橙皮中分离得到的芦丁与庆大霉素对铜绿假单胞 菌生物膜的形成有协同的抑制作用，可能机制是抑制胞外多糖的产生进而影响生物膜的黏附 和成熟[37]"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_12",
+        "target_id": "ent_13",
+        "name": "庆大霉素用于治疗铜绿假单胞菌生物膜感染",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "对铜绿假单胞 菌生物膜的形成有协同的抑制作用"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_15",
+        "name": "橙皮素与5-氟尿嘧啶联用",
+        "properties": {
+          "effect": "协同诱导人食管癌Eca109细胞凋亡",
+          "mechanism": "诱导细胞内活性氧增加及谷胱甘肽耗竭，激活线粒体介导的内源性凋亡途径",
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "橙皮素能协同 5-氟尿嘧啶诱导人食管癌 Eca109 细胞凋亡，可能是通过诱导细胞 内活性氧增加及谷胱甘肽耗竭，激活线粒体介导的内源性凋亡途径[38]"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_15",
+        "target_id": "ent_16",
+        "name": "5-氟尿嘧啶用于治疗食管癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "诱导人食管癌 Eca109 细胞凋亡"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_5",
+        "name": "柚皮素与紫杉醇联用",
+        "properties": {
+          "effect": "增强抑制前列腺癌细胞系进展作用",
+          "mechanism": "通过 PI3K/AKT 和 MAPK 信号通路诱导前列腺癌细胞凋亡",
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "柚皮素可通过 PI3K/AKT 和 MAPK 信号通路诱导前列腺癌细胞凋亡，与紫杉醇联用时可观察到抑制前列 腺癌细胞系进展作用的增强[39]"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_5",
+        "target_id": "ent_18",
+        "name": "紫杉醇用于治疗前列腺癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "抑制前列 腺癌细胞系进展作用的增强"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_19",
+        "name": "橘皮素影响他莫昔芬抑瘤作用",
+        "properties": {
+          "effect": "影响他莫昔芬抑瘤作用",
+          "mechanism": "可能与自然杀伤细胞数量的减少有关",
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "橘皮素对他莫昔芬抑瘤作用的影响可能与自然杀伤细胞数 量的减少有关[34]"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "川陈皮素对紫杉醇的增敏作用",
+        "properties": {
+          "effect": "增敏作用",
+          "mechanism": "可能与抑制 AKT/ERK/Nrf2 通路有关",
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "川陈皮素对紫杉醇的增敏作用可能与抑制 AKT/ERK/Nrf2 通路有关[24]"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_20",
+        "target_id": "ent_21",
+        "name": "柑橘属中药与葡萄柚存在相近的药物相互作用",
+        "properties": {
+          "effect": "存在相近的药物相互作用，尤其是药代动力学相互作用",
+          "reason": "化学组成相似，有48种成分相同",
+          "evidence": {
+            "chunk_index": 1073,
+            "source": "凡默谷",
+            "text": "柑橘属中药与葡萄柚化学组成相似，笔者前期通过收集柑橘属中药与葡萄柚的化学成分， 比对得出有 48 种成分相同。因相似的物质基础，柑橘属中药存在与葡萄柚相近的药物相互 作用，尤其是药代动力学相互作用"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1073,
+    "source": "凡默谷",
+    "text": "。尚有研究揭示了 橘皮素与顺铂联用减毒增效的双重益处，既可减轻顺铂导致的肾损伤，又可增强其细胞毒性 作用[35]。川陈皮素可调节 G1 期的细胞，与紫杉醇、卡铂等肿瘤化疗药物联用对人非小细胞 肺癌细胞系 A549 和 H460 的增殖具有协同抑制作用[36]。2.2 柑橘属中药药效学相互作用的机制  柑橘属中药增效减毒的药效学相互作用根本原因是药理效应的改变，因此机制与相应的 药理效应直接相关。枳实对对乙酰氨基酚诱导肝坏死的保护作用主要是通过抑制 p53 上调凋 亡调控因子及逆转肝脏脂质代谢紊乱[30]。橙皮中分离得到的芦丁与庆大霉素对铜绿假单胞 菌生物膜的形成有协同的抑制作用，可能机制是抑制胞外多糖的产生进而影响生物膜的黏附 和成熟[37]。橙皮素能协同 5-氟尿嘧啶诱导人食管癌 Eca109 细胞凋亡，可能是通过诱导细胞 内活性氧增加及谷胱甘肽耗竭，激活线粒体介导的内源性凋亡途径[38]。柚皮素可通过 PI3K/AKT 和 MAPK 信号通路诱导前列腺癌细胞凋亡，与紫杉醇联用时可观察到抑制前列 腺癌细胞系进展作用的增强[39]。橘皮素对他莫昔芬抑瘤作用的影响可能与自然杀伤细胞数 量的减少有关[34]。川陈皮素对紫杉醇的增敏作用可能与抑制 AKT/ERK/Nrf2 通路有关[24]。3讨 论  柑橘属中药与葡萄柚化学组成相似，笔者前期通过收集柑橘属中药与葡萄柚的化学成分， 比对得出有 48 种成分相同。因相似的物质基础，柑橘属中药存在与葡萄柚相近的药物相互 作用，尤其是药代动力学相互作用"
+  }
+]

@@ -1,0 +1,424 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "曲唑酮",
+        "properties": {
+          "通用名": "曲唑酮",
+          "用法用量": "睡前服用",
+          "注意事项": "治疗时需缓慢滴定，以便患者能逐渐耐受药物，在综合考量疗效及患者的耐受性后确定治疗的最佳剂量。需睡前服用，以减轻次日不良反应。对于长期用药的患者安全无成瘾性，定期评估疗效并监测不良反应，若患者不能耐受可逐渐停药或减量。缓慢减药以避免撤药反应。",
+          "不良反应": "困倦、疲乏，偶见皮肤过敏，视力模糊、便秘、口干、头痛、恶心等，体位性低血压，窦性心动过缓，过度镇静或严重思睡"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Population",
+        "name": "老年人",
+        "properties": {
+          "特征": "肝代谢活性降低，对曲唑酮清除减慢"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Population",
+        "name": "青少年",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Population",
+        "name": "特殊人群",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "困倦",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "疲乏",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "皮肤过敏",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "视力模糊",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "便秘",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "口干",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "SideEffect",
+        "name": "头痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "SideEffect",
+        "name": "恶心",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "SideEffect",
+        "name": "体位性低血压",
+        "properties": {
+          "机制": "拮抗α1受体",
+          "影响": "通常50mg剂量约降低血压10～15mmHg"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "窦性心动过缓",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "SideEffect",
+        "name": "过度镇静",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "SideEffect",
+        "name": "严重思睡",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "降压药",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Population",
+        "name": "血压正常者",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Population",
+        "name": "合并使用降压药患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Population",
+        "name": "低血压患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Disease",
+        "name": "心血管病",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Disease",
+        "name": "抑郁",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Evidence",
+        "name": "医脉通临床指南",
+        "properties": {
+          "chunk_id": 1469,
+          "source": "医脉通临床指南",
+          "text": "。2. 临床用药注意事项（1）曲唑酮治疗时需缓慢滴定，以便患者能逐渐耐受药物，在综合考量疗效及患者的耐受性后确定治疗的最佳剂量。由于老年人肝代谢活性降低，对曲唑酮清除减慢，应斟酌其潜在的不良作用相应降低剂量。以上也适用于青少年人群。针对特殊人群，需评估获益与药物潜在不良反应的风险，再对这类群体进行具体治疗；（2）曲唑酮需睡前服用，以减轻次日不良反应。临床常见的不良反应有困倦、疲乏，偶见皮肤过敏，视力模糊、便秘、口干、头痛、恶心等，多数在服药后很快出现，随着时间会逐渐减轻或消失。由于拮抗α1受体，少数患者可出现体位性低血压。通常50mg剂量约降低血压10～15mmHg（1mmHg=0.133kPa）。对于血压正常者基本不受影响，合并使用降压药患者需适当减小降压药用量，但对低血压患者需慎用。对伴有心血管病的抑郁患者总体较为安全，长期使用偶见窦性心动过缓。在服用曲唑酮后发生过度镇静或严重思睡的患者，不应驾车或操作危险机械设备。3. 停药或减量对于长期用药的患者安全无成瘾性，定期评估疗效并监测不良反应，若患者不能耐受可逐渐停药或减量。缓慢减药以避免撤药反应，但尚未明确证明有耐受性、依赖性和撤药反应。因此，在停药前的2～4周内应根据临床症状逐渐减量"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "可能导致",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "临床常见的不良反应有困倦"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "可能导致",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "临床常见的不良反应有...疲乏"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "可能导致",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "偶见皮肤过敏"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "可能导致",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "视力模糊"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "可能导致",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "便秘"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "可能导致",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "口干"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "可能导致",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "头痛"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "可能导致",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "恶心"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "可能导致",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "由于拮抗α1受体，少数患者可出现体位性低血压。通常50mg剂量约降低血压10～15mmHg"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "name": "可能导致",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "长期使用偶见窦性心动过缓"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_15",
+        "name": "可能导致",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "在服用曲唑酮后发生过度镇静"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_16",
+        "name": "可能导致",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "或严重思睡"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_17",
+        "name": "与降压药相互作用",
+        "properties": {
+          "机制": "曲唑酮可引起体位性低血压，降低血压",
+          "后果": "血压过度降低",
+          "建议": "合并使用降压药患者需适当减小降压药用量",
+          "严重程度": "需谨慎",
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "合并使用降压药患者需适当减小降压药用量"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_20",
+        "name": "禁忌",
+        "properties": {
+          "说明": "需慎用",
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "但对低血压患者需慎用"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "APPLIES_TO",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "适用对象",
+        "properties": {
+          "说明": "老年人肝代谢活性降低，对曲唑酮清除减慢，应斟酌其潜在的不良作用相应降低剂量",
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "由于老年人肝代谢活性降低，对曲唑酮清除减慢，应斟酌其潜在的不良作用相应降低剂量"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "APPLIES_TO",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "适用对象",
+        "properties": {
+          "说明": "以上也适用于青少年人群",
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "以上也适用于青少年人群"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "APPLIES_TO",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "适用对象",
+        "properties": {
+          "说明": "针对特殊人群，需评估获益与药物潜在不良反应的风险，再对这类群体进行具体治疗",
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "针对特殊人群，需评估获益与药物潜在不良反应的风险，再对这类群体进行具体治疗"
+          }
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_22",
+        "target_id": "ent_21",
+        "name": "表现为",
+        "properties": {
+          "说明": "伴有",
+          "evidence": {
+            "chunk_index": 1469,
+            "source": "医脉通临床指南",
+            "text": "对伴有心血管病的抑郁患者"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1469,
+    "source": "医脉通临床指南",
+    "text": "。2. 临床用药注意事项（1）曲唑酮治疗时需缓慢滴定，以便患者能逐渐耐受药物，在综合考量疗效及患者的耐受性后确定治疗的最佳剂量。由于老年人肝代谢活性降低，对曲唑酮清除减慢，应斟酌其潜在的不良作用相应降低剂量。以上也适用于青少年人群。针对特殊人群，需评估获益与药物潜在不良反应的风险，再对这类群体进行具体治疗；（2）曲唑酮需睡前服用，以减轻次日不良反应。临床常见的不良反应有困倦、疲乏，偶见皮肤过敏，视力模糊、便秘、口干、头痛、恶心等，多数在服药后很快出现，随着时间会逐渐减轻或消失。由于拮抗α1受体，少数患者可出现体位性低血压。通常50mg剂量约降低血压10～15mmHg（1mmHg=0.133kPa）。对于血压正常者基本不受影响，合并使用降压药患者需适当减小降压药用量，但对低血压患者需慎用。对伴有心血管病的抑郁患者总体较为安全，长期使用偶见窦性心动过缓。在服用曲唑酮后发生过度镇静或严重思睡的患者，不应驾车或操作危险机械设备。3. 停药或减量对于长期用药的患者安全无成瘾性，定期评估疗效并监测不良反应，若患者不能耐受可逐渐停药或减量。缓慢减药以避免撤药反应，但尚未明确证明有耐受性、依赖性和撤药反应。因此，在停药前的2～4周内应根据临床症状逐渐减量"
+  }
+]

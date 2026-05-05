@@ -1,0 +1,481 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "阿卡波糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "伏格列波糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "胰酶制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "磺脲类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "消胆胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "考来维仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "阿司匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "保泰松",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "阿扎丙酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "磺胺类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "肝素",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "格列本脲",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "磺胺甲噁唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "波生坦",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Enzyme",
+        "name": "CYP2C9",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Mechanism",
+        "name": "蛋白结合竞争",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Indicator",
+        "name": "地高辛血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Indicator",
+        "name": "格列本脲血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Indicator",
+        "name": "转氨酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "SideEffect",
+        "name": "低血糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "SideEffect",
+        "name": "肝脏毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Symptom",
+        "name": "腹泻",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Symptom",
+        "name": "腹胀",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Evidence",
+        "name": "医学新世纪",
+        "properties": {
+          "chunk_id": "1350",
+          "source": "医学新世纪"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "阿卡波糖与地高辛联用建议",
+        "properties": {
+          "consequence": "可能影响地高辛吸收",
+          "suggestion": "阿卡波糖每餐随餐服用，地高辛晚9点后服用，同时加强对地高辛血药浓度的监测",
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "如若必须联合使用，建议阿卡波糖每餐随餐服用，地高辛晚9点后服用，同时加强对地高辛血药浓度的监测。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "name": "伏格列波糖对地高辛吸收无影响",
+        "properties": {
+          "consequence": "对地高辛的吸收影响小",
+          "mechanism": "伏格列波糖对α-淀粉酶无影响，所引起的腹泻、腹胀要少",
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "目前的文献认为，伏格列波糖对地高辛的吸收无影响，可能机制是由于伏格列波糖对α-淀粉酶无影响，所引起的腹泻、腹胀要少，所以对地高辛的吸收影响小。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "阿卡波糖与胰酶制剂联用",
+        "properties": {
+          "consequence": "阿卡波糖的作用降低",
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "此外，阿卡波糖与胰酶制剂联用可能会导致阿卡波糖的作用降低。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_5",
+        "name": "消胆胺阻碍磺脲类药物吸收",
+        "properties": {
+          "consequence": "引起血糖升高",
+          "mechanism": "吸收环节阻碍",
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "消胆胺、考来维仑等药物可能会阻碍磺脲类药物吸收，引起血糖升高。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_5",
+        "name": "考来维仑阻碍磺脲类药物吸收",
+        "properties": {
+          "consequence": "引起血糖升高",
+          "mechanism": "吸收环节阻碍",
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "消胆胺、考来维仑等药物可能会阻碍磺脲类药物吸收，引起血糖升高。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_5",
+        "name": "阿司匹林与磺脲类药物竞争蛋白结合",
+        "properties": {
+          "consequence": "改变组织分布量，引起游离药物浓度的增加或减少",
+          "mechanism": "蛋白结合竞争",
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "由于磺脲类药物的蛋白结合率高，不少药物会与其竞争蛋白结合部位，改变组织分布量，引起游离药物浓度的增加或减少。这些药物包括：水杨酸类（阿司匹林）、保泰松和阿扎丙酮、磺胺类药物、肝素等。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_5",
+        "name": "保泰松与磺脲类药物竞争蛋白结合",
+        "properties": {
+          "consequence": "改变组织分布量，引起游离药物浓度的增加或减少",
+          "mechanism": "蛋白结合竞争",
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "由于磺脲类药物的蛋白结合率高，不少药物会与其竞争蛋白结合部位，改变组织分布量，引起游离药物浓度的增加或减少。这些药物包括：水杨酸类（阿司匹林）、保泰松和阿扎丙酮、磺胺类药物、肝素等。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_5",
+        "name": "阿扎丙酮与磺脲类药物竞争蛋白结合",
+        "properties": {
+          "consequence": "改变组织分布量，引起游离药物浓度的增加或减少",
+          "mechanism": "蛋白结合竞争",
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "由于磺脲类药物的蛋白结合率高，不少药物会与其竞争蛋白结合部位，改变组织分布量，引起游离药物浓度的增加或减少。这些药物包括：水杨酸类（阿司匹林）、保泰松和阿扎丙酮、磺胺类药物、肝素等。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_5",
+        "name": "磺胺类药物与磺脲类药物竞争蛋白结合",
+        "properties": {
+          "consequence": "改变组织分布量，引起游离药物浓度的增加或减少",
+          "mechanism": "蛋白结合竞争",
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "由于磺脲类药物的蛋白结合率高，不少药物会与其竞争蛋白结合部位，改变组织分布量，引起游离药物浓度的增加或减少。这些药物包括：水杨酸类（阿司匹林）、保泰松和阿扎丙酮、磺胺类药物、肝素等。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_5",
+        "name": "肝素与磺脲类药物竞争蛋白结合",
+        "properties": {
+          "consequence": "改变组织分布量，引起游离药物浓度的增加或减少",
+          "mechanism": "蛋白结合竞争",
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "由于磺脲类药物的蛋白结合率高，不少药物会与其竞争蛋白结合部位，改变组织分布量，引起游离药物浓度的增加或减少。这些药物包括：水杨酸类（阿司匹林）、保泰松和阿扎丙酮、磺胺类药物、肝素等。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_13",
+        "name": "磺胺甲噁唑与格列本脲相互作用",
+        "properties": {
+          "consequence": "格列本脲血药浓度增加，引发低血糖",
+          "mechanism": "通过CYP2C9代谢途径相互作用",
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "因此，病例2中的患者主要考虑是由于格列本脲与磺胺甲噁唑相互作用引起的格列本脲血药浓度增加，引发低血糖。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_13",
+        "name": "波生坦与格列本脲联合使用",
+        "properties": {
+          "consequence": "引起转氨酶升高，产生肝脏毒性",
+          "suggestion": "临床禁忌联合使用",
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "值得注意的是，波生坦与格列本脲联合使用会引起转氨酶升高，产生肝脏毒性，因此临床禁忌联合使用"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "IN_CLASS",
+        "source_id": "ent_13",
+        "target_id": "ent_5",
+        "name": "格列本脲属于磺脲类药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "磺胺类药物包括格列本脲在内"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_13",
+        "target_id": "ent_16",
+        "name": "格列本脲通过CYP2C9代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "磺胺类药物包括格列本脲在内，主要通过CYP2C9代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_1",
+        "target_id": "ent_18",
+        "name": "相互作用影响地高辛血药浓度",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "同时加强对地高辛血药浓度的监测"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_11",
+        "target_id": "ent_19",
+        "name": "相互作用增加格列本脲血药浓度",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "引起的格列本脲血药浓度增加"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_12",
+        "target_id": "ent_20",
+        "name": "相互作用引起转氨酶升高",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "会引起转氨酶升高"
+          }
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_11",
+        "target_id": "ent_21",
+        "name": "相互作用增加低血糖风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "引发低血糖"
+          }
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_12",
+        "target_id": "ent_22",
+        "name": "相互作用增加肝脏毒性风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "产生肝脏毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "HAS_SYMPTOM",
+        "source_id": "rel_2",
+        "target_id": "ent_23",
+        "name": "机制关联症状腹泻",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "所引起的腹泻、腹胀要少"
+          }
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "HAS_SYMPTOM",
+        "source_id": "rel_2",
+        "target_id": "ent_24",
+        "name": "机制关联症状腹胀",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1350",
+            "source": "医学新世纪",
+            "text": "所引起的腹泻、腹胀要少"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1350,
+    "source": "医学新世纪",
+    "text": "。如若必须联合使用，建议阿卡波糖每餐随餐服用，地高辛晚9点后服用，同时加强对地高辛血药浓度的监测。目前的文献认为，伏格列波糖对地高辛的吸收无影响，可能机制是由于伏格列波糖对α-淀粉酶无影响，所引起的腹泻、腹胀要少，所以对地高辛的吸收影响小。 此外，阿卡波糖与胰酶制剂联用可能会导致阿卡波糖的作用降低。 表3：阿卡波糖的药物相互作用磺脲类药物1、吸收环节：消胆胺、考来维仑等药物可能会阻碍磺脲类药物吸收，引起血糖升高。 表4：磺脲类药的药物相互作用（吸收环节）2、分布环节：由于磺脲类药物的蛋白结合率高，不少药物会与其竞争蛋白结合部位，改变组织分布量，引起游离药物浓度的增加或减少。这些药物包括：水杨酸类（阿司匹林）、保泰松和阿扎丙酮、磺胺类药物、肝素等。 表5：磺脲类药物的药物相互作用（分布环节） 3、代谢环节：磺脲类药物多通过细胞色素P-450（CPYs）代谢，因此会与其他同等代谢途径的药物发生相互作用，引起药效的增强/减弱。表6：磺脲类药物药代动力学特点磺胺类药物包括格列本脲在内，主要通过CYP2C9代谢，同时经CYP2C9代谢的抗菌药物需要引起注意。因此，病例2中的患者主要考虑是由于格列本脲与磺胺甲噁唑相互作用引起的格列本脲血药浓度增加，引发低血糖。除抗生素之外，其他类药物(表7，8)也会通过抑制CYP2C9等机制引起磺脲类药物血药浓度增加，升高低血糖风险。值得注意的是，波生坦与格列本脲联合使用会引起转氨酶升高，产生肝脏毒性，因此临床禁忌联合使用"
+  }
+]

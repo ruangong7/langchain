@@ -1,0 +1,7 @@
+[
+  {
+    "text": "。模型3为2-房室模型，其中CL, Vc, K12和K21是使用静脉注射5mg Esaxerenone的PK数据计算得到，同时计算出首过效应（FPEs）并将其输入模型中（表2）。肝脏中的FPE由GastroPlus根据CL计算得出，假设吸收百分数为1，利用Esaxerenone的生物利用度（89.0％）计算得出Fg，结合Esaxerenone的口服PK数据对粒径做了优化，将颗粒半径从3.5μm增加到10μm。下表列举了作为底物的咪达唑仑PBPK模型的建模参数。3）咪达唑仑PBPK模型输入的理化与处置参数使用GastroPlus的DDI模块进行动态DDI模拟。除AUCR以外，还分别预测了抑制参数和诱导参数对应的AUCRinh和AUCRind. 其中Ki，KI和EC50与静态机制模型使用了相同数值；肠道和肝脏中CYP3A的Kdeg均使用0.0005min-1。计算了肠道利用率的比值AUCRg，肝脏利用率的比值AUCRh是通过AUCR除以AUCRg计算得到。在临床研究中，口服Esaxerenone 5 mg每天1次，持续14天，并在第14天同时口服咪达唑仑2 mg。在当前的研究中（模型3用于以下模拟），为模拟Esaxerenone多次给药后的作用持续时间，在第1、2、3和14天设置了咪达唑仑给药；为了模拟Esaxerenone和咪达唑仑不同间隔给药的DDI效果，在第14天服用Esaxerenone后，将咪达唑仑的给药时间分别设置为0、1、2和12小时。此外，还使用1.25mg至10 mg的Esaxerenone进行了DDI模拟",
+    "source": "凡默谷",
+    "chunk_index": 1232
+  }
+]

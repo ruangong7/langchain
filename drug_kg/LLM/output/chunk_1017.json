@@ -1,0 +1,194 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "西立伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "西沙比利",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Food",
+        "name": "西柚汁",
+        "properties": {
+          "类型": "饮品",
+          "关键成分": "呋喃香豆素"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Food",
+        "name": "连翘",
+        "properties": {
+          "类型": "中药材"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "横纹肌溶解",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "尖端扭转型室速",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "降脂药",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "胃药",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "西立伐他汀与CYP3A4代谢相关，受其他药物/食物影响导致横纹肌溶解",
+        "properties": {
+          "机制": "CYP3A4代谢",
+          "后果": "横纹肌溶解",
+          "证据": {
+            "chunk_index": 1017,
+            "source": "凡默谷",
+            "text": "2001年因DDI引起横纹肌溶解的降脂药西立伐他汀"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "西沙比利与CYP3A4代谢相关，受其他药物/食物影响导致尖端扭转型室速",
+        "properties": {
+          "机制": "CYP3A4代谢",
+          "后果": "尖端扭转型室速",
+          "证据": {
+            "chunk_index": 1017,
+            "source": "凡默谷",
+            "text": "2000年出现尖端扭转型室速的胃药西沙比利"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "name": "西柚汁抑制CYP3A4代谢",
+        "properties": {
+          "机制": "抑制",
+          "证据": {
+            "chunk_index": 1017,
+            "source": "凡默谷",
+            "text": "药物-食物 （CYP3A4代谢的药物与西柚汁的抑制作用）"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "连翘诱导CYP3A4代谢",
+        "properties": {
+          "机制": "诱导",
+          "证据": {
+            "chunk_index": 1017,
+            "source": "凡默谷",
+            "text": "药物-中草药 （CYP3A4代谢的药物与连翘的诱导作用）"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "西立伐他汀属于降脂药",
+        "properties": {
+          "证据": {
+            "chunk_index": 1017,
+            "source": "凡默谷",
+            "text": "2001年因DDI引起横纹肌溶解的降脂药西立伐他汀"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "name": "西沙比利属于胃药",
+        "properties": {
+          "证据": {
+            "chunk_index": 1017,
+            "source": "凡默谷",
+            "text": "2000年出现尖端扭转型室速的胃药西沙比利"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "西立伐他汀可能导致横纹肌溶解",
+        "properties": {
+          "证据": {
+            "chunk_index": 1017,
+            "source": "凡默谷",
+            "text": "2001年因DDI引起横纹肌溶解的降脂药西立伐他汀"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "name": "西沙比利可能导致尖端扭转型室速",
+        "properties": {
+          "证据": {
+            "chunk_index": 1017,
+            "source": "凡默谷",
+            "text": "2000年出现尖端扭转型室速的胃药西沙比利"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1017,
+    "source": "凡默谷",
+    "text": "来源：PPC佳生定义及类别01定义及类别药物相互作用（DDI）指一种药物的效应受到另一种药物、食物或者环境的影响而发生改变的现象。在临床工作中，通常指一种药物的药代动力学或药效动力学被另一种药物改变。因药物相互作用而被召回的上市新药，已经有多个先例（如2001年因DDI引起横纹肌溶解的降脂药西立伐他汀、2000年出现尖端扭转型室速的胃药西沙比利等），这一现象也被称为是“静默传染病”(Silent Epidemic）。02主要类别药物-药物药物-食物 （CYP3A4代谢的药物与西柚汁的抑制作用）药物-中草药 （CYP3A4代谢的药物与连翘的诱导作用）药物-过敏原（药物性过敏）预防有临床意义DDI发生的机制和措施据报道，临床上发生DDI的几率可以达到6%。事实上，从给药前到服药后的整个过程中，可以多层面、多途径的来预防、减轻或是挽救DDI的发生。从开处方医生的认知、电脑数据库的危险配伍筛查、药剂师的知识、患者对自身危险因素的意思都是可以防止DDI发生的重要屏障。而与种族有关的遗传药理学特点、给药方式/剂量、患者受教育程度和上市后监管回馈则是造成后续显著DDI预防失败的主要因素。DDI的常见形式DDI的类型多种多样，从形式上讲，主要是以下几种：从影响分类来看：按照对效应的影响分类：导致效应增加；导致效应减小按照影响指标分类：（游离药物浓度-效应曲线是否改变）影响PK; 影响PD; 同时影响PK/PD当然，DDI最终的结果还是反映在药物疗效和毒性方面的变化"
+  }
+]

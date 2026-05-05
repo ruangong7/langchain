@@ -1,0 +1,125 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Esaxerenone",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP2B6",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Mechanism",
+        "name": "TDI",
+        "properties": {
+          "机制类型": "时间依赖性抑制"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Mechanism",
+        "name": "诱导作用",
+        "properties": {
+          "机制类型": "酶诱导"
+        }
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1225,
+          "source": "凡默谷",
+          "text": "通过体外研究、静态机制模型和PBPK模型评估促变药Esaxerenone的药物相互作用风险原文作者 Makiko Yamada, Tomoko Ishizuka, Shin-ichi Inoue, Veronika Rozehnal, Thomas Fischer,and Daisuke Sugiyama1. 第一三共（日本）制药公司，药物代谢和药代动力学研究实验室；2. 第一三共（欧洲）制药公司，组织与细胞研究中心（慕尼黑）。解读人 王钰玺，凡默谷技术部 导 读   本研究通过评估体外、静态机制模型和PBPK模型评估了小分子药物Esaxerenone作为促变药产生DDI的风险。静态机制模型分析表明CYP3A介导的Esaxerenone的潜在DDI不可忽略。PBPK模型模拟结果表明由于TDI作用和诱导作用的抵消效应，该药物作为促变药产生DDI的可能性较低，模拟结果与已有的临床研究结果相近。推荐理由 在本研究中使用体外数据分析了不同酶和转运体介导产生DDI的可能性，结果表明Esaxerenone作为的CYP3A的TDI和诱导剂，以及2B6的抑制剂和诱导剂需要进一步模拟分析DDI风险。接着通过静态机制模型评估了CYP3A和2B6介导的DDI，结果表明CYP3A介导的潜在DDI不可忽略。考虑到静态机制的DDI模拟可能会造成假阳性，又通过PBPK模型进一步评估了DDI风险，结果表明由于抑制作用和诱导作用的抵消效应，Esaxerenone作为促变药产生DDI的可能性较低"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "Esaxerenone与CYP3A相互作用",
+        "properties": {
+          "mechanism": [
+            "TDI",
+            "诱导作用"
+          ],
+          "consequence": "潜在DDI不可忽略（静态模型），但因抑制与诱导抵消，实际DDI可能性较低（PBPK模型）",
+          "evidence": {
+            "chunk_index": 1225,
+            "source": "凡默谷",
+            "text": "静态机制模型分析表明CYP3A介导的Esaxerenone的潜在DDI不可忽略。PBPK模型模拟结果表明由于TDI作用和诱导作用的抵消效应，该药物作为促变药产生DDI的可能性较低"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "Esaxerenone与CYP2B6相互作用",
+        "properties": {
+          "mechanism": [
+            "抑制",
+            "诱导"
+          ],
+          "consequence": "需进一步模拟分析DDI风险",
+          "evidence": {
+            "chunk_index": 1225,
+            "source": "凡默谷",
+            "text": "结果表明Esaxerenone作为的CYP3A的TDI和诱导剂，以及2B6的抑制剂和诱导剂需要进一步模拟分析DDI风险"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_1",
+        "target_id": "ent_4",
+        "name": "Esaxerenone-CYP3A相互作用涉及TDI机制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1225,
+            "source": "凡默谷",
+            "text": "Esaxerenone作为的CYP3A的TDI和诱导剂"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_1",
+        "target_id": "ent_5",
+        "name": "Esaxerenone-CYP3A相互作用涉及诱导作用机制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1225,
+            "source": "凡默谷",
+            "text": "Esaxerenone作为的CYP3A的TDI和诱导剂"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1225,
+    "source": "凡默谷",
+    "text": "通过体外研究、静态机制模型和PBPK模型评估促变药Esaxerenone的药物相互作用风险原文作者 Makiko Yamada, Tomoko Ishizuka, Shin-ichi Inoue, Veronika Rozehnal, Thomas Fischer,and Daisuke Sugiyama1. 第一三共（日本）制药公司，药物代谢和药代动力学研究实验室；2. 第一三共（欧洲）制药公司，组织与细胞研究中心（慕尼黑）。解读人 王钰玺，凡默谷技术部 导 读   本研究通过评估体外、静态机制模型和PBPK模型评估了小分子药物Esaxerenone作为促变药产生DDI的风险。静态机制模型分析表明CYP3A介导的Esaxerenone的潜在DDI不可忽略。PBPK模型模拟结果表明由于TDI作用和诱导作用的抵消效应，该药物作为促变药产生DDI的可能性较低，模拟结果与已有的临床研究结果相近。推荐理由 在本研究中使用体外数据分析了不同酶和转运体介导产生DDI的可能性，结果表明Esaxerenone作为的CYP3A的TDI和诱导剂，以及2B6的抑制剂和诱导剂需要进一步模拟分析DDI风险。接着通过静态机制模型评估了CYP3A和2B6介导的DDI，结果表明CYP3A介导的潜在DDI不可忽略。考虑到静态机制的DDI模拟可能会造成假阳性，又通过PBPK模型进一步评估了DDI风险，结果表明由于抑制作用和诱导作用的抵消效应，Esaxerenone作为促变药产生DDI的可能性较低"
+  }
+]

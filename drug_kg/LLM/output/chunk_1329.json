@@ -1,0 +1,162 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "单胺氧化酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "乳酪",
+        "properties": {
+          "key_component": "酪氨酸"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Food",
+        "name": "蚕豆",
+        "properties": {
+          "key_component": "酪氨酸"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Food",
+        "name": "酵母制品",
+        "properties": {
+          "key_component": "酪氨酸"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Food",
+        "name": "红酒",
+        "properties": {
+          "key_component": "酪氨酸"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "单胺氧化酶",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "恶性高血压",
+        "properties": {
+          "severity": "高"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Evidence",
+        "name": "医学信使",
+        "properties": {
+          "chunk_id": 1329,
+          "source": "医学信使",
+          "text": "单胺氧化酶抑制剂会抑制肠道内酪氨酸代谢。因此若食用富含酪氨酸的食物，如乳酪、蚕豆、酵母制品、红酒等，可能引起恶性高血压。(东森等）"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "单胺氧化酶抑制剂与乳酪相互作用",
+        "properties": {
+          "mechanism": "抑制肠道内酪氨酸代谢",
+          "effect": "可能引起恶性高血压",
+          "evidence": {
+            "chunk_id": 1329,
+            "source": "医学信使",
+            "text": "单胺氧化酶抑制剂会抑制肠道内酪氨酸代谢。因此若食用富含酪氨酸的食物，如乳酪、蚕豆、酵母制品、红酒等，可能引起恶性高血压。(东森等）"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "单胺氧化酶抑制剂与蚕豆相互作用",
+        "properties": {
+          "mechanism": "抑制肠道内酪氨酸代谢",
+          "effect": "可能引起恶性高血压",
+          "evidence": {
+            "chunk_id": 1329,
+            "source": "医学信使",
+            "text": "单胺氧化酶抑制剂会抑制肠道内酪氨酸代谢。因此若食用富含酪氨酸的食物，如乳酪、蚕豆、酵母制品、红酒等，可能引起恶性高血压。(东森等）"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "单胺氧化酶抑制剂与酵母制品相互作用",
+        "properties": {
+          "mechanism": "抑制肠道内酪氨酸代谢",
+          "effect": "可能引起恶性高血压",
+          "evidence": {
+            "chunk_id": 1329,
+            "source": "医学信使",
+            "text": "单胺氧化酶抑制剂会抑制肠道内酪氨酸代谢。因此若食用富含酪氨酸的食物，如乳酪、蚕豆、酵母制品、红酒等，可能引起恶性高血压。(东森等）"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "单胺氧化酶抑制剂与红酒相互作用",
+        "properties": {
+          "mechanism": "抑制肠道内酪氨酸代谢",
+          "effect": "可能引起恶性高血压",
+          "evidence": {
+            "chunk_id": 1329,
+            "source": "医学信使",
+            "text": "单胺氧化酶抑制剂会抑制肠道内酪氨酸代谢。因此若食用富含酪氨酸的食物，如乳酪、蚕豆、酵母制品、红酒等，可能引起恶性高血压。(东森等）"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "单胺氧化酶抑制剂作用于单胺氧化酶",
+        "properties": {}
+      },
+      {
+        "id": "rel_6",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "单胺氧化酶抑制剂增加恶性高血压风险",
+        "properties": {
+          "context": "与富含酪氨酸食物同服",
+          "evidence": {
+            "chunk_id": 1329,
+            "source": "医学信使",
+            "text": "单胺氧化酶抑制剂会抑制肠道内酪氨酸代谢。因此若食用富含酪氨酸的食物，如乳酪、蚕豆、酵母制品、红酒等，可能引起恶性高血压。(东森等）"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1329,
+    "source": "医学信使",
+    "text": "。虽不必禁吃上述食物，但务必酌量食用。4. 单胺氧化酶抑制剂会抑制肠道内酪氨酸代谢。因此若食用富含酪氨酸的食物，如乳酪、蚕豆、酵母制品、红酒等，可能引起恶性高血压。(东森等）"
+  }
+]

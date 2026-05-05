@@ -1,0 +1,284 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "米贝拉地尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "硝苯地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "钙通道阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "别名列表": [
+            "cytochrome P450 3A4",
+            "细胞色素P450 3A4"
+          ]
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "心动过缓",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "低血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "死亡",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "特非那定",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "西沙必利",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "抗组胺药",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "全胃肠促动力药",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1026,
+            "source": "凡默谷",
+            "text": "一个典型的例子是钙通道 阻滞剂米贝拉地尔因对细胞色素P450 3A4(cytochrome P4503A4, CYP3A4) 的强抑制作用而大幅 提高CYP3A4的底物如地高辛、硝苯地平等的血浆 药物浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "米贝拉地尔与地高辛相互作用",
+        "properties": {
+          "mechanism": "米贝拉地尔强抑制CYP3A4，导致地高辛清除降低、血药浓度升高",
+          "consequence": [
+            "心动过缓",
+            "低血压",
+            "死亡"
+          ],
+          "evidence": {
+            "chunk_index": 1026,
+            "source": "凡默谷",
+            "text": "一个典型的例子是钙通道 阻滞剂米贝拉地尔因对细胞色素P450 3A4(cytochrome P4503A4, CYP3A4) 的强抑制作用而大幅 提高CYP3A4的底物如地高辛、硝苯地平等的血浆 药物浓度，产生诸如心动过缓、低血压甚至死亡等 严重不良反应"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "米贝拉地尔与硝苯地平相互作用",
+        "properties": {
+          "mechanism": "米贝拉地尔强抑制CYP3A4，导致硝苯地平清除降低、血药浓度升高",
+          "consequence": [
+            "心动过缓",
+            "低血压",
+            "死亡"
+          ],
+          "evidence": {
+            "chunk_index": 1026,
+            "source": "凡默谷",
+            "text": "一个典型的例子是钙通道 阻滞剂米贝拉地尔因对细胞色素P450 3A4(cytochrome P4503A4, CYP3A4) 的强抑制作用而大幅 提高CYP3A4的底物如地高辛、硝苯地平等的血浆 药物浓度，产生诸如心动过缓、低血压甚至死亡等 严重不良反应"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_2",
+        "target_id": "ent_5",
+        "name": "",
+        "properties": {
+          "role": "被抑制的代谢酶",
+          "evidence": {
+            "chunk_index": 1026,
+            "source": "凡默谷",
+            "text": "米贝拉地尔因对细胞色素P450 3A4(cytochrome P4503A4, CYP3A4) 的强抑制作用而大幅 提高CYP3A4的底物如地高辛、硝苯地平等的血浆 药物浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_3",
+        "target_id": "ent_5",
+        "name": "",
+        "properties": {
+          "role": "被抑制的代谢酶",
+          "evidence": {
+            "chunk_index": 1026,
+            "source": "凡默谷",
+            "text": "米贝拉地尔因对细胞色素P450 3A4(cytochrome P4503A4, CYP3A4) 的强抑制作用而大幅 提高CYP3A4的底物如地高辛、硝苯地平等的血浆 药物浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "rel_2",
+        "target_id": "ent_6",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1026,
+            "source": "凡默谷",
+            "text": "产生诸如心动过缓、低血压甚至死亡等 严重不良反应"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "rel_2",
+        "target_id": "ent_7",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1026,
+            "source": "凡默谷",
+            "text": "产生诸如心动过缓、低血压甚至死亡等 严重不良反应"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "rel_2",
+        "target_id": "ent_8",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1026,
+            "source": "凡默谷",
+            "text": "产生诸如心动过缓、低血压甚至死亡等 严重不良反应"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "rel_3",
+        "target_id": "ent_6",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1026,
+            "source": "凡默谷",
+            "text": "产生诸如心动过缓、低血压甚至死亡等 严重不良反应"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "rel_3",
+        "target_id": "ent_7",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1026,
+            "source": "凡默谷",
+            "text": "产生诸如心动过缓、低血压甚至死亡等 严重不良反应"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "rel_3",
+        "target_id": "ent_8",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1026,
+            "source": "凡默谷",
+            "text": "产生诸如心动过缓、低血压甚至死亡等 严重不良反应"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_11",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1026,
+            "source": "凡默谷",
+            "text": "因代谢酶介导了药物相互作用而产生严 重不良反应的药物还有抗组胺药特非那定[3]和 全胃肠促动力药西沙必利[4]等"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_12",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1026,
+            "source": "凡默谷",
+            "text": "因代谢酶介导了药物相互作用而产生严 重不良反应的药物还有抗组胺药特非那定[3]和 全胃肠促动力药西沙必利[4]等"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1026,
+    "source": "凡默谷",
+    "text": "。随着药物体内外代谢/转运机制的深入研究，特别是放射性同位素标记药物的临床试验的开展以及计 算机模拟的辅助，我国药物相互作用研究的整体 水平也在逐步提高，这将为保障用药安全提供坚 实的科学基础。关键词 小分子化学创新药；临床药物相互作用；代谢酶;转运体_正文_为了增加药物的疗效或减轻药物的毒副作 用，临床上常将两种或两种以上药物同时或先后 应用，在多药治疗过程中有可能发生药物间的相 互作用（drug-drug interaction, DDI),而导致药物疗效的降低、药物不良反应的发生甚至药物临床 应用的失败。DDI引起的不良反应多数情况是由 于其中一个药物抑制了药物代谢酶或代谢转运体 的活性，导致另外一个药物的体内清除降低，表现 出剂量过量时的毒性。一个典型的例子是钙通道 阻滞剂米贝拉地尔因对细胞色素P450 3A4(cytochrome P4503A4, CYP3A4) 的强抑制作用而大幅 提高CYP3A4的底物如地高辛、硝苯地平等的血浆 药物浓度，产生诸如心动过缓、低血压甚至死亡等 严重不良反应，于1998年被罗氏公司主动撤 市[1-2]。因代谢酶介导了药物相互作用而产生严 重不良反应的药物还有抗组胺药特非那定[3]和 全胃肠促动力药西沙必利[4]等"
+  }
+]

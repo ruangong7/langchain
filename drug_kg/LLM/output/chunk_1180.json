@@ -1,0 +1,51 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "转运体",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "唯一标识": "ev_1",
+          "来源类型": "公众号",
+          "分块ID": 1180,
+          "来源": "凡默谷"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "转运体介导的DDI",
+        "properties": {
+          "机制": "转运体介导",
+          "证据": {
+            "chunk_index": 1180,
+            "source": "凡默谷",
+            "text": "采用PBPK模型评估转运体介导的DDI"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1180,
+    "source": "凡默谷",
+    "text": "3月26号直播 | 采用PBPK模型评估转运体介导的DDI  Development and Application of PBPK Models to Support Transporter-mediated DDI Assessment直播时间2024年3月26号 周二   早9:30-11:30 am语 言英文演讲（中英文字幕）问答环节有中文翻译主讲人Revathi Chapa美国Simulations Plus公司，资深科学家Suvarchala Avvari 博士美国Simulations Plus公司，二级科学家互动嘉宾   周海英 博士美国Simulations Plus公司，模拟技术总监课程简介   生理药代动力学PBPK模型已经在美国、欧盟的临床DDI研究中得到广泛应用，FDA、EMA、NMPA均出台了相关的指导原则。2018-2019年FDA收到的含有PBPK申报材料中，转运体介导的DDI研究占整个应用领域的16%。3月26日周二，凡默谷将邀请美国Simulations Plus的三位专家分享PBPK模型在转运体介导的DDI研究的应用案例及经验。本次公开课将聚焦PBPK建模在转运体介导的DDI研究的原理、步骤；以及采用GastroPlus表征和验证转运体对药物ADME的影响的工作流程。并通过案例讲解如何使用DDI预测结果替代DDI临床试验、如何开发具有法规影响力的PBPK模型，及提高模型转运体介导的DDI的预测准确度的策略"
+  }
+]

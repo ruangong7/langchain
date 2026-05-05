@@ -1,0 +1,394 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "曲唑酮",
+        "properties": {
+          "通用名": "曲唑酮",
+          "用法用量": "治疗伴轻度抑郁焦虑情绪的失眠患者：25～150mg；中青年患者25～50mg起始，1周内滴定至100mg；老年患者则从25mg起始，可逐步滴定至50～150mg。治疗抑郁、焦虑障碍共病失眠的患者：第1周：25～50mg起始+SSRI/SNRI，第2周：50～100mg+SSRI/SNRI。对于严重抑郁患者，可酌情增加剂量。对于发生苯二氮䓬类药物依赖和戒断反应的患者：起始剂量25～50mg，根据患者睡眠情况调整药物剂量为50～200mg/d。",
+          "注意事项": "需缓慢滴定，以便患者能逐渐耐受药物。老年人肝代谢活性降低，对曲唑酮清除减慢，应斟酌其潜在的不良作用相应降低剂量。以上也适用于青少年人群。"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "乙胺碘呋酮",
+        "properties": {
+          "通用名": "乙胺碘呋酮"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "延长QT间期的药物",
+        "properties": {
+          "名称": "延长QT间期的药物"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "苯二氮䓬类药物",
+        "properties": {
+          "名称": "苯二氮䓬类药物",
+          "别名": [
+            "BZD"
+          ]
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "SSRI/SNRI",
+        "properties": {
+          "名称": "SSRI/SNRI"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "房性心律失常",
+        "properties": {
+          "名称": "房性心律失常"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "室性心律失常",
+        "properties": {
+          "名称": "室性心律失常"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "QT延长",
+        "properties": {
+          "名称": "QT延长"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "多形性室速",
+        "properties": {
+          "名称": "多形性室速"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "心脏病",
+        "properties": {
+          "名称": "心脏病"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Disease",
+        "name": "失眠",
+        "properties": {
+          "名称": "失眠"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Disease",
+        "name": "抑郁",
+        "properties": {
+          "名称": "抑郁"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Disease",
+        "name": "焦虑",
+        "properties": {
+          "名称": "焦虑"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Disease",
+        "name": "苯二氮䓬类药物依赖",
+        "properties": {
+          "名称": "苯二氮䓬类药物依赖"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Disease",
+        "name": "戒断反应",
+        "properties": {
+          "名称": "戒断反应"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Population",
+        "name": "原有心脏病的患者",
+        "properties": {
+          "名称": "原有心脏病的患者"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "Population",
+        "name": "健康受试者",
+        "properties": {
+          "名称": "健康受试者"
+        }
+      },
+      {
+        "id": "ent_18",
+        "type": "Population",
+        "name": "老年人",
+        "properties": {
+          "名称": "老年人",
+          "判定规则": "肝代谢活性降低，对曲唑酮清除减慢"
+        }
+      },
+      {
+        "id": "ent_19",
+        "type": "Population",
+        "name": "青少年",
+        "properties": {
+          "名称": "青少年"
+        }
+      },
+      {
+        "id": "ent_20",
+        "type": "Evidence",
+        "name": "医脉通精神科",
+        "properties": {
+          "来源类型": "公众号",
+          "分块ID": "1586",
+          "来源": "医脉通精神科"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "曲唑酮能引起房性心律失常",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1586,
+            "source": "医脉通精神科",
+            "text": "曲唑酮能引起房性和室性心律失常，主要发生在原有心脏病的患者，偶见于健康受试者。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "曲唑酮能引起室性心律失常",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1586,
+            "source": "医脉通精神科",
+            "text": "曲唑酮能引起房性和室性心律失常，主要发生在原有心脏病的患者，偶见于健康受试者。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "曲唑酮联合乙胺碘呋酮",
+        "properties": {
+          "后果": "能引起QT延长和多形性室速",
+          "建议": "曲唑酮不应与延长QT间期的药物联用",
+          "证据": {
+            "chunk_index": 1586,
+            "source": "医脉通精神科",
+            "text": "当曲唑酮联合乙胺碘呋酮时，能引起QT延长和多形性室速，故曲唑酮不应与延长QT间期的药物联用。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "曲唑酮不应与延长QT间期的药物联用",
+        "properties": {
+          "建议": "不应联用",
+          "证据": {
+            "chunk_index": 1586,
+            "source": "医脉通精神科",
+            "text": "故曲唑酮不应与延长QT间期的药物联用。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "曲唑酮用于治疗失眠",
+        "properties": {
+          "证据": {
+            "chunk_index": 1586,
+            "source": "医脉通精神科",
+            "text": "治疗伴轻度抑郁焦虑情绪的失眠患者：曲唑酮可单药起始，剂量为25～150mg。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "曲唑酮用于治疗抑郁",
+        "properties": {
+          "证据": {
+            "chunk_index": 1586,
+            "source": "医脉通精神科",
+            "text": "治疗抑郁、焦虑障碍共病失眠的患者：曲唑酮作为抗抑郁治疗的辅助用药"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "曲唑酮用于治疗焦虑",
+        "properties": {
+          "证据": {
+            "chunk_index": 1586,
+            "source": "医脉通精神科",
+            "text": "治疗抑郁、焦虑障碍共病失眠的患者：曲唑酮作为抗抑郁治疗的辅助用药"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "曲唑酮联合SSRI/SNRI",
+        "properties": {
+          "用法": "作为抗抑郁治疗的辅助用药",
+          "证据": {
+            "chunk_index": 1586,
+            "source": "医脉通精神科",
+            "text": "治疗抑郁、焦虑障碍共病失眠的患者：曲唑酮作为抗抑郁治疗的辅助用药，第1周：曲唑酮25～50mg起始+SSRI/SNRI，第2周：曲唑酮50～100mg+SSRI/SNRI。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "曲唑酮用于苯二氮䓬类药物依赖和戒断反应",
+        "properties": {
+          "用法": "睡前服用的BZD减半，每晚睡前加用曲唑酮，起始剂量25～50mg，根据患者睡眠情况调整药物剂量为50～200mg/d。患者达睡眠满意状态后，稳定5天再将苯二氮䓬类药物减半，每5天调整一次药物剂量直至停用苯二氮䓬类药物。",
+          "证据": {
+            "chunk_index": 1586,
+            "source": "医脉通精神科",
+            "text": "对于发生苯二氮䓬类药物（BZD）依赖和戒断反应的焦虑与失眠患者（持续服用6个月以上患者）：睡前服用的BZD减半，每晚睡前加用曲唑酮，起始剂量25～50mg，根据患者睡眠情况调整药物剂量为50～200mg/d。患者达睡眠满意状态后，稳定5天再将苯二氮䓬类药物减半，每5天调整一次药物剂量直至停用苯二氮䓬类药物。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "曲唑酮联合乙胺碘呋酮引起QT延长",
+        "properties": {
+          "证据": {
+            "chunk_index": 1586,
+            "source": "医脉通精神科",
+            "text": "当曲唑酮联合乙胺碘呋酮时，能引起QT延长和多形性室速"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "曲唑酮联合乙胺碘呋酮引起多形性室速",
+        "properties": {
+          "证据": {
+            "chunk_index": 1586,
+            "source": "医脉通精神科",
+            "text": "当曲唑酮联合乙胺碘呋酮时，能引起QT延长和多形性室速"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "APPLIES_TO",
+        "source_id": "ent_6",
+        "target_id": "ent_16",
+        "name": "房性心律失常主要发生在原有心脏病的患者",
+        "properties": {
+          "证据": {
+            "chunk_index": 1586,
+            "source": "医脉通精神科",
+            "text": "曲唑酮能引起房性和室性心律失常，主要发生在原有心脏病的患者，偶见于健康受试者。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "APPLIES_TO",
+        "source_id": "ent_7",
+        "target_id": "ent_16",
+        "name": "室性心律失常主要发生在原有心脏病的患者",
+        "properties": {
+          "证据": {
+            "chunk_index": 1586,
+            "source": "医脉通精神科",
+            "text": "曲唑酮能引起房性和室性心律失常，主要发生在原有心脏病的患者，偶见于健康受试者。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "APPLIES_TO",
+        "source_id": "ent_7",
+        "target_id": "ent_17",
+        "name": "室性心律失常偶见于健康受试者",
+        "properties": {
+          "证据": {
+            "chunk_index": 1586,
+            "source": "医脉通精神科",
+            "text": "曲唑酮能引起房性和室性心律失常，主要发生在原有心脏病的患者，偶见于健康受试者。"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "APPLIES_TO",
+        "source_id": "ent_6",
+        "target_id": "ent_17",
+        "name": "房性心律失常偶见于健康受试者",
+        "properties": {
+          "证据": {
+            "chunk_index": 1586,
+            "source": "医脉通精神科",
+            "text": "曲唑酮能引起房性和室性心律失常，主要发生在原有心脏病的患者，偶见于健康受试者。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1586,
+    "source": "医脉通精神科",
+    "text": "。曲唑酮能引起房性和室性心律失常，主要发生在原有心脏病的患者，偶见于健康受试者。当曲唑酮联合乙胺碘呋酮时，能引起QT延长和多形性室速，故曲唑酮不应与延长QT间期的药物联用。七、曲唑酮的临床用药建议1. 常规用法、用量结合《中国成人失眠诊断与治疗指南》（2017版）推荐及相关抑郁、焦虑共病失眠的临床实践经验，推荐曲唑酮的用量用法如下：（1）治疗伴轻度抑郁焦虑情绪的失眠患者：曲唑酮可单药起始，剂量为25～150mg。中青年患者25～50mg起始，1周内滴定至100mg。老年患者则从25mg起始，可逐步滴定至50～150mg。（2）治疗抑郁、焦虑障碍共病失眠的患者：曲唑酮作为抗抑郁治疗的辅助用药，第1周：曲唑酮25～50mg起始+SSRI/SNRI，第2周：曲唑酮50～100mg+SSRI/SNRI。对于严重抑郁患者，可酌情增加曲唑酮剂量，以提高协同抗抑郁效应。（3）对于发生苯二氮䓬类药物（BZD）依赖和戒断反应的焦虑与失眠患者（持续服用6个月以上患者）：睡前服用的BZD减半，每晚睡前加用曲唑酮，起始剂量25～50mg，根据患者睡眠情况调整药物剂量为50～200mg/d。患者达睡眠满意状态后，稳定5天再将苯二氮䓬类药物减半，每5天调整一次药物剂量直至停用苯二氮䓬类药物。2. 临床用药注意事项（1）曲唑酮治疗时需缓慢滴定，以便患者能逐渐耐受药物，在综合考量疗效及患者的耐受性后确定治疗的最佳剂量。由于老年人肝代谢活性降低，对曲唑酮清除减慢，应斟酌其潜在的不良作用相应降低剂量。以上也适用于青少年人群"
+  }
+]

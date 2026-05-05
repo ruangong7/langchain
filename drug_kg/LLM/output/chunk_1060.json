@@ -1,0 +1,357 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "亚胺培南",
+        "properties": {
+          "description": "在体内不稳定，大部分药物被肾脱氢肽酶代谢，具有明显的肾毒性"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "肾脱氢肽酶",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "西司他丁",
+        "properties": {
+          "description": "肾脱氢肽酶的抑制剂"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "OAT1",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "OAT3",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "肾毒性",
+        "properties": {
+          "default_severity": "高"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Food",
+        "name": "芹菜素",
+        "properties": {
+          "type": "补充剂"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "双氯芬酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "万古霉素",
+        "properties": {
+          "description": "糖肽类抗生素，治疗细菌感染"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "OCT2",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "MRP2",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "JBP485",
+        "properties": {
+          "description": "二肽类药物"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "地高辛",
+        "properties": {
+          "description": "强心苷类药物，适用于各种急性与慢性心功能不全"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "P-gp抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1060,
+          "source": "凡默谷",
+          "text": "。然而， 亚胺培南在体内不稳定，大部分药物被肾脱氢肽 酶代谢，致使尿液中亚胺培南量极少，严重限制了 其在临床的广泛应用。为了避免亚胺培南的代 谢，临床上现广泛使用亚胺培南和肾脱氢肽酶的抑制剂西司他丁组成的复方制剂，用以提高亚胺 培南的血药浓度，保证其药效发挥。此外，亚胺培 南具有明显的肾毒性，主要由肾小管上皮细胞的 OAT1和OAT3介导。Huo等研究发现，西司他丁 除可抑制肾脱氢肽酶外，还可抑制亚胺培南经 OAT1和OAT3的肾小管分泌过程，降低亚胺培南 的肾毒性[3132]。这是通过抑制转运体的功能而达 到降低药物毒性最典型的例子。芹菜素也可发挥 类似抑制亚胺培南经OAT1和OAT3导致肾毒性 的作用[33]。此外，西司他丁还可通过抑制OATs 介导的双氯芬酸转运，使底物双氯芬酸在肾小管 细胞中的摄取减少，进而减少药物积蓄和细胞毒 性，缓解双氯芬酸引起的肾毒性[34]。治疗细菌感 染的糖肽类抗生素万古霉素，在临床应用过程中 常导致肾损伤，原因在于万古霉素抑制了肾脏 OAT1、OAT3、OCT2、MRP2 和 P-gp 表达，导致体内 毒素经肾脏排泄减少，从而引起肾脏损伤。二肽 类药物JBP485逆转了上述转运体的表达，两药联 用减轻了万古霉素的肾毒性[35]。此外，强心苷类 药物地高辛适用于各种急性与慢性心功能不全。Englund等发现，在618例接受治疗药物监测的心 衰患者中，合用P-gp抑制剂的患者血清中地高辛 浓度明显增加[36]"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "被代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1060,
+            "source": "凡默谷",
+            "text": "亚胺培南在体内不稳定，大部分药物被肾脱氢肽酶代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "西司他丁与亚胺培南联用",
+        "properties": {
+          "mechanism": "抑制肾脱氢肽酶，抑制OAT1和OAT3介导的肾小管分泌",
+          "consequence": "提高亚胺培南血药浓度，降低肾毒性",
+          "evidence": {
+            "chunk_index": 1060,
+            "source": "凡默谷",
+            "text": "西司他丁除可抑制肾脱氢肽酶外，还可抑制亚胺培南经 OAT1和OAT3的肾小管分泌过程，降低亚胺培南的肾毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "经OAT1介导肾毒性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1060,
+            "source": "凡默谷",
+            "text": "亚胺培南具有明显的肾毒性，主要由肾小管上皮细胞的 OAT1和OAT3介导"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "经OAT3介导肾毒性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1060,
+            "source": "凡默谷",
+            "text": "亚胺培南具有明显的肾毒性，主要由肾小管上皮细胞的 OAT1和OAT3介导"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "导致肾毒性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1060,
+            "source": "凡默谷",
+            "text": "亚胺培南具有明显的肾毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_1",
+        "name": "芹菜素与亚胺培南联用",
+        "properties": {
+          "mechanism": "抑制OAT1和OAT3",
+          "consequence": "降低肾毒性",
+          "evidence": {
+            "chunk_index": 1060,
+            "source": "凡默谷",
+            "text": "芹菜素也可发挥类似抑制亚胺培南经OAT1和OAT3导致肾毒性的作用"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "name": "西司他丁与双氯芬酸联用",
+        "properties": {
+          "mechanism": "抑制OATs介导的双氯芬酸转运",
+          "consequence": "减少肾小管细胞摄取，减少药物积蓄和细胞毒性，缓解肾毒性",
+          "evidence": {
+            "chunk_index": 1060,
+            "source": "凡默谷",
+            "text": "西司他丁还可通过抑制OATs介导的双氯芬酸转运，使底物双氯芬酸在肾小管细胞中的摄取减少，进而减少药物积蓄和细胞毒性，缓解双氯芬酸引起的肾毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_9",
+        "target_id": "ent_6",
+        "name": "导致肾损伤",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1060,
+            "source": "凡默谷",
+            "text": "万古霉素，在临床应用过程中常导致肾损伤"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_9",
+        "target_id": "ent_4",
+        "name": "抑制OAT1表达",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1060,
+            "source": "凡默谷",
+            "text": "万古霉素抑制了肾脏 OAT1、OAT3、OCT2、MRP2 和 P-gp 表达"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_9",
+        "target_id": "ent_5",
+        "name": "抑制OAT3表达",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1060,
+            "source": "凡默谷",
+            "text": "万古霉素抑制了肾脏 OAT1、OAT3、OCT2、MRP2 和 P-gp 表达"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "name": "抑制OCT2表达",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1060,
+            "source": "凡默谷",
+            "text": "万古霉素抑制了肾脏 OAT1、OAT3、OCT2、MRP2 和 P-gp 表达"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_9",
+        "target_id": "ent_11",
+        "name": "抑制MRP2表达",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1060,
+            "source": "凡默谷",
+            "text": "万古霉素抑制了肾脏 OAT1、OAT3、OCT2、MRP2 和 P-gp 表达"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_9",
+        "target_id": "ent_12",
+        "name": "抑制P-gp表达",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1060,
+            "source": "凡默谷",
+            "text": "万古霉素抑制了肾脏 OAT1、OAT3、OCT2、MRP2 和 P-gp 表达"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_9",
+        "name": "JBP485与万古霉素联用",
+        "properties": {
+          "mechanism": "逆转OAT1、OAT3、OCT2、MRP2和P-gp的表达",
+          "consequence": "减轻万古霉素的肾毒性",
+          "evidence": {
+            "chunk_index": 1060,
+            "source": "凡默谷",
+            "text": "二肽类药物JBP485逆转了上述转运体的表达，两药联用减轻了万古霉素的肾毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_14",
+        "name": "P-gp抑制剂与地高辛联用",
+        "properties": {
+          "mechanism": "抑制P-gp",
+          "consequence": "增加血清地高辛浓度",
+          "evidence": {
+            "chunk_index": 1060,
+            "source": "凡默谷",
+            "text": "合用P-gp抑制剂的患者血清中地高辛浓度明显增加"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1060,
+    "source": "凡默谷",
+    "text": "。然而， 亚胺培南在体内不稳定，大部分药物被肾脱氢肽 酶代谢，致使尿液中亚胺培南量极少，严重限制了 其在临床的广泛应用。为了避免亚胺培南的代 谢，临床上现广泛使用亚胺培南和肾脱氢肽酶的抑制剂西司他丁组成的复方制剂，用以提高亚胺 培南的血药浓度，保证其药效发挥。此外，亚胺培 南具有明显的肾毒性，主要由肾小管上皮细胞的 OAT1和OAT3介导。Huo等研究发现，西司他丁 除可抑制肾脱氢肽酶外，还可抑制亚胺培南经 OAT1和OAT3的肾小管分泌过程，降低亚胺培南 的肾毒性[3132]。这是通过抑制转运体的功能而达 到降低药物毒性最典型的例子。芹菜素也可发挥 类似抑制亚胺培南经OAT1和OAT3导致肾毒性 的作用[33]。此外，西司他丁还可通过抑制OATs 介导的双氯芬酸转运，使底物双氯芬酸在肾小管 细胞中的摄取减少，进而减少药物积蓄和细胞毒 性，缓解双氯芬酸引起的肾毒性[34]。治疗细菌感 染的糖肽类抗生素万古霉素，在临床应用过程中 常导致肾损伤，原因在于万古霉素抑制了肾脏 OAT1、OAT3、OCT2、MRP2 和 P-gp 表达，导致体内 毒素经肾脏排泄减少，从而引起肾脏损伤。二肽 类药物JBP485逆转了上述转运体的表达，两药联 用减轻了万古霉素的肾毒性[35]。此外，强心苷类 药物地高辛适用于各种急性与慢性心功能不全。Englund等发现，在618例接受治疗药物监测的心 衰患者中，合用P-gp抑制剂的患者血清中地高辛 浓度明显增加[36]"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "CYP酶",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "在研药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "强效指针抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "强效指针诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "中效指针抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "中效指针诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Mechanism",
+        "name": "抑制转运体",
+        "properties": {
+          "机制类型": "转运体抑制"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "体内药物暴露量",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "药效动力学终点",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "毒性",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Evidence",
+        "name": "GMP办公室",
+        "properties": {
+          "唯一标识": "ev_1",
+          "来源类型": "指南",
+          "分块ID": 141,
+          "来源": "GMP办公室"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "在研药物与强效指针抑制剂的相互作用",
+        "properties": {
+          "证据": {
+            "chunk_index": 141,
+            "source": "GMP办公室",
+            "text": "评价在研药物为代谢酶底物的DDI时，应先研究其与强效指针抑制剂和诱导剂的临床DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "在研药物与强效指针诱导剂的相互作用",
+        "properties": {
+          "证据": {
+            "chunk_index": 141,
+            "source": "GMP办公室",
+            "text": "评价在研药物为代谢酶底物的DDI时，应先研究其与强效指针抑制剂和诱导剂的临床DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "在研药物与中效指针抑制剂的相互作用",
+        "properties": {
+          "证据": {
+            "chunk_index": 141,
+            "source": "GMP办公室",
+            "text": "如果无明确可用的强效指针药物，可使用中效指针抑制剂或诱导剂进行DDI临床研究"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "name": "在研药物与中效指针诱导剂的相互作用",
+        "properties": {
+          "证据": {
+            "chunk_index": 141,
+            "source": "GMP办公室",
+            "text": "如果无明确可用的强效指针药物，可使用中效指针抑制剂或诱导剂进行DDI临床研究"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_7",
+        "target_id": "ent_10",
+        "name": "抑制转运体导致毒性",
+        "properties": {
+          "证据": {
+            "chunk_index": 141,
+            "source": "GMP办公室",
+            "text": "如抑制转运体可显著改变特定组织的浓度，从而引起毒性，但体内药物浓度改变不大"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "name": "抑制转运体对体内药物暴露量影响不大",
+        "properties": {
+          "证据": {
+            "chunk_index": 141,
+            "source": "GMP办公室",
+            "text": "如抑制转运体可显著改变特定组织的浓度，从而引起毒性，但体内药物浓度改变不大"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_9",
+        "name": "抑制转运体可通过药效动力学终点评价DDI",
+        "properties": {
+          "证据": {
+            "chunk_index": 141,
+            "source": "GMP办公室",
+            "text": "此时申请人可通过药效学终点进行DDI评价"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "强效指针抑制剂属于CYP酶抑制剂",
+        "properties": {
+          "证据": {
+            "chunk_index": 141,
+            "source": "GMP办公室",
+            "text": "附录4中分别列出各CYP酶的相应的强效或中效抑制剂、诱导剂"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "强效指针诱导剂属于CYP酶诱导剂",
+        "properties": {
+          "证据": {
+            "chunk_index": 141,
+            "source": "GMP办公室",
+            "text": "附录4中分别列出各CYP酶的相应的强效或中效抑制剂、诱导剂"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "name": "中效指针抑制剂属于CYP酶抑制剂",
+        "properties": {
+          "证据": {
+            "chunk_index": 141,
+            "source": "GMP办公室",
+            "text": "附录4中分别列出各CYP酶的相应的强效或中效抑制剂、诱导剂"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "name": "中效指针诱导剂属于CYP酶诱导剂",
+        "properties": {
+          "证据": {
+            "chunk_index": 141,
+            "source": "GMP办公室",
+            "text": "附录4中分别列出各CYP酶的相应的强效或中效抑制剂、诱导剂"
+          }
+        }
+      }
+    ],
+    "chunk_index": 141,
+    "source": "GMP办公室",
+    "text": "。（6）药效动力学终点在某些情况下，药效动力学终点表明无法通过体内药物暴露量预测疗效或毒性变化。如抑制转运体可显著改变特定组织的浓度，从而引起毒性，但体内药物浓度改变不大。此时申请人可通过药效学终点进行DDI评价。如果体外数据无法提供可通过体内药物暴露评价DDI的合理机制，此时申请人可向监管部门咨询以药效动力学终点进行DDI的评价事宜。2.在研药物为药物代谢酶底物的相互作用特殊考虑评价在研药物为代谢酶底物的DDI时，应先研究其与强效指针抑制剂和诱导剂的临床DDI，如果未发现明显的DDI则无需对该代谢酶的DDI进行进一步研究。若发现有临床意义的DDI，则应对中等或弱抑制剂/诱导剂的DDI继续进行评价。此时，申请人可使用真实的临床试验或使用人体数据（包括强效指针药物）验证过的PBPK模型对DDI进行评价。如果无明确可用的强效指针药物，可使用中效指针抑制剂或诱导剂进行DDI临床研究。附录4中分别列出各CYP酶的相应的强效或中效抑制剂、诱导剂"
+  }
+]

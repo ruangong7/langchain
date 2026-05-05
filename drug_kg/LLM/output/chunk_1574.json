@@ -1,0 +1,255 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "氯氮平",
+        "properties": {
+          "适应症": "精神分裂症",
+          "治疗窗": "窄",
+          "主要代谢酶": [
+            "CYP1A2",
+            "CYP2D6",
+            "CYP2C9",
+            "CYP3A4"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "环丙沙星",
+        "properties": {
+          "类别": "喹诺酮类抗生素",
+          "适应症": "尿路感染"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "氟伏沙明",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP1A2",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP2D6",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP2C9",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "CYP2C19",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "CYP2C8",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "喹诺酮类抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Disease",
+        "name": "精神分裂症",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Disease",
+        "name": "尿路感染",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "SideEffect",
+        "name": "急性氯氮平中毒",
+        "properties": {
+          "严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Indicator",
+        "name": "氯氮平血药浓度",
+        "properties": {
+          "治疗反应阈值": "约350ng/mL"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Evidence",
+        "name": "医脉通精神科",
+        "properties": {
+          "chunk_id": 1574,
+          "source": "医脉通精神科",
+          "text": "医脉通导读据推算，联用环丙沙星使氯氮平的血药浓度升高至基线的4.5倍以上，直接导致了该年轻患者的死亡。在氯氮平的基础上联用CYP1A2强效抑制剂时，务必高度谨慎小心。氯氮平在精神分裂症治疗领域拥有很高的江湖地位。然而，除了繁杂的副作用谱系之外，氯氮平还容易发生药物相互作用，尤其是CYP1A2的强抑制剂或诱导剂联用时。鉴于氯氮平的治疗窗相对较窄，这些药物相互作用轻则影响疗效，重则危及生命。从机制上看，氯氮平的一相代谢经由多重P450酶系完成，主要是CYP1A2和CYP2D6，其次是CYP2C9和CYP3A4。鉴于CYP1A2是大部分患者的主要代谢通路，自1998年以来，已有大量文献报告了氯氮平与氟伏沙明（CYP1A2强效抑制剂）发生相互作用的个案。此外，氟伏沙明同样是CYP2C19的强抑制剂，还是2C8、2C9、3A4的弱抑制剂；上述效应叠加后，氯氮平的血药浓度可上升至3-10倍。因此，很多指南共识推荐监测氯氮平的血药浓度，产生治疗反应的氯氮平血药浓度阈值约为350ng/mL。作为另一种常用的CYP1A2强效抑制剂，喹诺酮类抗生素环丙沙星的临床应用经验相当丰富；然而，针对氯氮平与环丙沙星潜在严重相互作用的报告却很少。一项发表于Case Reports in Psychiatry的病例报告中，美国加州大学圣地亚哥分校著名精神药理学家Stephen M. Stahl等报告了一例死亡个案：一名年轻女性患者长期使用氯氮平，后因尿路感染加用环丙沙星，2天后死亡，测氯氮平血药浓度达2900ng/mL，考虑死因为急性氯氮平中毒"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "环丙沙星与氯氮平相互作用",
+        "properties": {
+          "机制": "CYP1A2强效抑制",
+          "后果": "氯氮平血药浓度显著升高，导致急性中毒死亡",
+          "严重程度": "高",
+          "建议": "联用时务必高度谨慎小心，推荐监测氯氮平血药浓度",
+          "证据": {
+            "chunk_index": 1574,
+            "source": "医脉通精神科",
+            "text": "联用环丙沙星使氯氮平的血药浓度升高至基线的4.5倍以上，直接导致了该年轻患者的死亡。在氯氮平的基础上联用CYP1A2强效抑制剂时，务必高度谨慎小心。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "氟伏沙明与氯氮平相互作用",
+        "properties": {
+          "机制": "CYP1A2强效抑制，CYP2C19强抑制，CYP2C8/2C9/3A4弱抑制",
+          "后果": "氯氮平血药浓度可上升至3-10倍",
+          "证据": {
+            "chunk_index": 1574,
+            "source": "医脉通精神科",
+            "text": "自1998年以来，已有大量文献报告了氯氮平与氟伏沙明（CYP1A2强效抑制剂）发生相互作用的个案。此外，氟伏沙明同样是CYP2C19的强抑制剂，还是2C8、2C9、3A4的弱抑制剂；上述效应叠加后，氯氮平的血药浓度可上升至3-10倍。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "name": "环丙沙星属于喹诺酮类",
+        "properties": {}
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "氯氮平用于治疗精神分裂症",
+        "properties": {}
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_12",
+        "name": "环丙沙星用于治疗尿路感染",
+        "properties": {}
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "氯氮平经CYP1A2代谢",
+        "properties": {
+          "角色": "主要代谢通路"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "氯氮平经CYP2D6代谢",
+        "properties": {}
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "氯氮平经CYP2C9代谢",
+        "properties": {}
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "氯氮平经CYP3A4代谢",
+        "properties": {}
+      },
+      {
+        "id": "rel_10",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "氯氮平浓度过高导致急性中毒",
+        "properties": {
+          "条件": "血药浓度过高（如2900ng/mL）",
+          "证据": {
+            "chunk_index": 1574,
+            "source": "医脉通精神科",
+            "text": "测氯氮平血药浓度达2900ng/mL，考虑死因为急性氯氮平中毒"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "name": "氯氮平需要监测血药浓度",
+        "properties": {
+          "建议": "推荐监测",
+          "证据": {
+            "chunk_index": 1574,
+            "source": "医脉通精神科",
+            "text": "很多指南共识推荐监测氯氮平的血药浓度，产生治疗反应的氯氮平血药浓度阈值约为350ng/mL。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1574,
+    "source": "医脉通精神科",
+    "text": "医脉通导读据推算，联用环丙沙星使氯氮平的血药浓度升高至基线的4.5倍以上，直接导致了该年轻患者的死亡。在氯氮平的基础上联用CYP1A2强效抑制剂时，务必高度谨慎小心。氯氮平在精神分裂症治疗领域拥有很高的江湖地位。然而，除了繁杂的副作用谱系之外，氯氮平还容易发生药物相互作用，尤其是CYP1A2的强抑制剂或诱导剂联用时。鉴于氯氮平的治疗窗相对较窄，这些药物相互作用轻则影响疗效，重则危及生命。从机制上看，氯氮平的一相代谢经由多重P450酶系完成，主要是CYP1A2和CYP2D6，其次是CYP2C9和CYP3A4。鉴于CYP1A2是大部分患者的主要代谢通路，自1998年以来，已有大量文献报告了氯氮平与氟伏沙明（CYP1A2强效抑制剂）发生相互作用的个案。此外，氟伏沙明同样是CYP2C19的强抑制剂，还是2C8、2C9、3A4的弱抑制剂；上述效应叠加后，氯氮平的血药浓度可上升至3-10倍。因此，很多指南共识推荐监测氯氮平的血药浓度，产生治疗反应的氯氮平血药浓度阈值约为350ng/mL。作为另一种常用的CYP1A2强效抑制剂，喹诺酮类抗生素环丙沙星的临床应用经验相当丰富；然而，针对氯氮平与环丙沙星潜在严重相互作用的报告却很少。一项发表于Case Reports in Psychiatry的病例报告中，美国加州大学圣地亚哥分校著名精神药理学家Stephen M. Stahl等报告了一例死亡个案：一名年轻女性患者长期使用氯氮平，后因尿路感染加用环丙沙星，2天后死亡，测氯氮平血药浓度达2900ng/mL，考虑死因为急性氯氮平中毒"
+  }
+]

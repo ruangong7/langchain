@@ -1,0 +1,357 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "大环内酯类抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "耳毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Symptom",
+        "name": "耳聋",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Symptom",
+        "name": "耳鸣",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "心脏毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "过敏反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Symptom",
+        "name": "荨麻疹",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Symptom",
+        "name": "药物热",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "耐药性",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Disease",
+        "name": "伪膜性肠炎",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Disease",
+        "name": "重症肌无力",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Disease",
+        "name": "肝功能衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Disease",
+        "name": "胰腺炎",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Disease",
+        "name": "溃疡性食道炎",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Disease",
+        "name": "呼吸系统疾病",
+        "properties": {}
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "医脉通呼吸频道",
+        "properties": {
+          "chunk_id": "1481",
+          "source": "医脉通呼吸频道",
+          "text": "。有时伴有皮疹、白细胞或嗜酸粒细胞增多。 4. 耳毒性 多在在用药后的1~2周出现，逐渐加重，半年后逐渐稳定。耳聋多双侧对称，以高频听力损失开始，渐向低频扩展，少数人会继续恶化至全聋。耳鸣多经久不息。 5. 心脏毒性 大环内酯类药物还会出现心脏毒性。应用时，需询问患者是否有心脏病史、低血钾值、脉率缓慢、家族性猝死史或已知的QT间隔延长，对于有此类病史的患者，应仔细考虑其心脏不良反应风险及患者的知情同意。 6. 过敏反应 过敏反应轻微，可见荨麻疹、药物热等，发生率低。调查发现过敏发生率为1％，但一项调查显示，在病理内有1名儿童因发生严重过敏反应休克、死亡。 7. 耐药性 细菌对其耐药性逐渐上升。在红霉素临床应用后的数年即出现了耐红霉素的葡萄球菌，之后出现了链球菌（包括肺炎链球菌）等细菌对大环内酯类抗生素耐药，且耐药性逐年上升。 8. 红霉素治疗时罕见副作用 难辨芽孢梭菌导致的伪膜性肠炎、耳鸣、男性不育、低体温、精神紊乱、重症肌无力恶化、爆发性肝功能衰竭、胰腺炎、溃疡性食道炎等，但是这些副作用没有出现在新一代大环内酯类抗生素的应用过程中。 大环内酯类抗生素广泛用于呼吸系统疾病，用药时需注意与其他药物联用时可能产生的相互作用及药物本身的不良反应。确保患者有效、安全、合理的使用这类药物"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "红霉素属于大环内酯类抗生素",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1481",
+              "source": "医脉通呼吸频道",
+              "text": "大环内酯类抗生素广泛用于呼吸系统疾病，用药时需注意与其他药物联用时可能产生的相互作用及药物本身的不良反应。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "大环内酯类抗生素可能导致耳毒性",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1481",
+              "source": "医脉通呼吸频道",
+              "text": "4. 耳毒性 多在在用药后的1~2周出现，逐渐加重，半年后逐渐稳定。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "耳毒性表现为耳聋",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1481",
+              "source": "医脉通呼吸频道",
+              "text": "耳聋多双侧对称，以高频听力损失开始，渐向低频扩展，少数人会继续恶化至全聋。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "name": "耳毒性表现为耳鸣",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1481",
+              "source": "医脉通呼吸频道",
+              "text": "耳鸣多经久不息。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "大环内酯类抗生素可能导致心脏毒性",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1481",
+              "source": "医脉通呼吸频道",
+              "text": "5. 心脏毒性 大环内酯类药物还会出现心脏毒性。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "大环内酯类抗生素可能导致过敏反应",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1481",
+              "source": "医脉通呼吸频道",
+              "text": "6. 过敏反应 过敏反应轻微，可见荨麻疹、药物热等，发生率低。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "name": "过敏反应表现为荨麻疹",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1481",
+              "source": "医脉通呼吸频道",
+              "text": "过敏反应轻微，可见荨麻疹、药物热等，发生率低。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_7",
+        "target_id": "ent_9",
+        "name": "过敏反应表现为药物热",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1481",
+              "source": "医脉通呼吸频道",
+              "text": "过敏反应轻微，可见荨麻疹、药物热等，发生率低。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "大环内酯类抗生素可能导致耐药性",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1481",
+              "source": "医脉通呼吸频道",
+              "text": "7. 耐药性 细菌对其耐药性逐渐上升。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "name": "红霉素可能导致伪膜性肠炎",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1481",
+              "source": "医脉通呼吸频道",
+              "text": "8. 红霉素治疗时罕见副作用 难辨芽孢梭菌导致的伪膜性肠炎、耳鸣、男性不育、低体温、精神紊乱、重症肌无力恶化、爆发性肝功能衰竭、胰腺炎、溃疡性食道炎等"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_12",
+        "name": "红霉素可能导致重症肌无力恶化",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1481",
+              "source": "医脉通呼吸频道",
+              "text": "8. 红霉素治疗时罕见副作用 难辨芽孢梭菌导致的伪膜性肠炎、耳鸣、男性不育、低体温、精神紊乱、重症肌无力恶化、爆发性肝功能衰竭、胰腺炎、溃疡性食道炎等"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_13",
+        "name": "红霉素可能导致肝功能衰竭",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1481",
+              "source": "医脉通呼吸频道",
+              "text": "8. 红霉素治疗时罕见副作用 难辨芽孢梭菌导致的伪膜性肠炎、耳鸣、男性不育、低体温、精神紊乱、重症肌无力恶化、爆发性肝功能衰竭、胰腺炎、溃疡性食道炎等"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_14",
+        "name": "红霉素可能导致胰腺炎",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1481",
+              "source": "医脉通呼吸频道",
+              "text": "8. 红霉素治疗时罕见副作用 难辨芽孢梭菌导致的伪膜性肠炎、耳鸣、男性不育、低体温、精神紊乱、重症肌无力恶化、爆发性肝功能衰竭、胰腺炎、溃疡性食道炎等"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_15",
+        "name": "红霉素可能导致溃疡性食道炎",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1481",
+              "source": "医脉通呼吸频道",
+              "text": "8. 红霉素治疗时罕见副作用 难辨芽孢梭菌导致的伪膜性肠炎、耳鸣、男性不育、低体温、精神紊乱、重症肌无力恶化、爆发性肝功能衰竭、胰腺炎、溃疡性食道炎等"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_16",
+        "name": "大环内酯类抗生素用于治疗呼吸系统疾病",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1481",
+              "source": "医脉通呼吸频道",
+              "text": "大环内酯类抗生素广泛用于呼吸系统疾病"
+            }
+          ]
+        }
+      }
+    ],
+    "chunk_index": 1481,
+    "source": "医脉通呼吸频道",
+    "text": "。有时伴有皮疹、白细胞或嗜酸粒细胞增多。 4. 耳毒性 多在在用药后的1~2周出现，逐渐加重，半年后逐渐稳定。耳聋多双侧对称，以高频听力损失开始，渐向低频扩展，少数人会继续恶化至全聋。耳鸣多经久不息。 5. 心脏毒性 大环内酯类药物还会出现心脏毒性。应用时，需询问患者是否有心脏病史、低血钾值、脉率缓慢、家族性猝死史或已知的QT间隔延长，对于有此类病史的患者，应仔细考虑其心脏不良反应风险及患者的知情同意。 6. 过敏反应 过敏反应轻微，可见荨麻疹、药物热等，发生率低。调查发现过敏发生率为1％，但一项调查显示，在病理内有1名儿童因发生严重过敏反应休克、死亡。 7. 耐药性 细菌对其耐药性逐渐上升。在红霉素临床应用后的数年即出现了耐红霉素的葡萄球菌，之后出现了链球菌（包括肺炎链球菌）等细菌对大环内酯类抗生素耐药，且耐药性逐年上升。 8. 红霉素治疗时罕见副作用 难辨芽孢梭菌导致的伪膜性肠炎、耳鸣、男性不育、低体温、精神紊乱、重症肌无力恶化、爆发性肝功能衰竭、胰腺炎、溃疡性食道炎等，但是这些副作用没有出现在新一代大环内酯类抗生素的应用过程中。 大环内酯类抗生素广泛用于呼吸系统疾病，用药时需注意与其他药物联用时可能产生的相互作用及药物本身的不良反应。确保患者有效、安全、合理的使用这类药物"
+  }
+]

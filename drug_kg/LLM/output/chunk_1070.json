@@ -1,0 +1,391 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Food",
+        "name": "枳实",
+        "properties": {
+          "类型": "中药材"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "枳壳",
+        "properties": {
+          "类型": "中药材"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Food",
+        "name": "柚汁",
+        "properties": {
+          "类型": "饮品"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Food",
+        "name": "陈皮",
+        "properties": {
+          "类型": "中药材"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Food",
+        "name": "橙皮苷",
+        "properties": {
+          "类型": "补充剂",
+          "关键成分": "黄酮类"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Food",
+        "name": "柚皮苷",
+        "properties": {
+          "类型": "补充剂",
+          "关键成分": "黄酮类"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Food",
+        "name": "佛手柑素",
+        "properties": {
+          "类型": "补充剂",
+          "关键成分": "香豆素类"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "地尔硫䓬",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "他林洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "紫杉醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Enzyme",
+        "name": "CYP1A2",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "Enzyme",
+        "name": "Oatp1a5",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_18",
+        "type": "Enzyme",
+        "name": "CYP3A1/2",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_19",
+        "type": "Enzyme",
+        "name": "CYP2E1",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_20",
+        "type": "Mechanism",
+        "name": "诱导孕烷X受体表达",
+        "properties": {
+          "机制类型": "受体调控"
+        }
+      },
+      {
+        "id": "ent_21",
+        "type": "Mechanism",
+        "name": "抑制CYP3A或P-gp",
+        "properties": {
+          "机制类型": "酶/转运体抑制"
+        }
+      },
+      {
+        "id": "ent_22",
+        "type": "Mechanism",
+        "name": "影响P-gp和Oatp1a5",
+        "properties": {
+          "机制类型": "转运体调节"
+        }
+      },
+      {
+        "id": "ent_23",
+        "type": "Mechanism",
+        "name": "抑制CYP3A1/2代谢",
+        "properties": {
+          "机制类型": "酶抑制"
+        }
+      },
+      {
+        "id": "ent_24",
+        "type": "Mechanism",
+        "name": "抑制肝脏P-gp",
+        "properties": {
+          "机制类型": "转运体抑制"
+        }
+      },
+      {
+        "id": "ent_25",
+        "type": "Mechanism",
+        "name": "抑制CYP2E1代谢活性",
+        "properties": {
+          "机制类型": "酶抑制"
+        }
+      },
+      {
+        "id": "ent_26",
+        "type": "Indicator",
+        "name": "Cmax",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Indicator",
+        "name": "AUC",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1070,
+          "来源": "凡默谷"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "枳实引起他克莫司Cmax及AUC减小",
+        "properties": {
+          "effect": "降低",
+          "consequence": "口服生物利用度降低",
+          "mechanism": "增加P-gp外排活性",
+          "evidence": {
+            "chunk_index": 1070,
+            "source": "凡默谷",
+            "text": "枳实可引起他克莫司、环孢素 Cmax 及 AUC 的减小...枳实可增加 LS180 细胞系 P-gp 的外排活性，可用于解释其引起的他克莫司口服生物利用度的降低[6]"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "枳实引起环孢素Cmax及AUC减小",
+        "properties": {
+          "effect": "降低",
+          "evidence": {
+            "chunk_index": 1070,
+            "source": "凡默谷",
+            "text": "枳实可引起他克莫司、环孢素 Cmax 及 AUC 的减小"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "name": "柚汁对他克莫司的影响在3天后消失",
+        "properties": {
+          "duration": "3天",
+          "evidence": {
+            "chunk_index": 1070,
+            "source": "凡默谷",
+            "text": "100%柚汁对他克莫司的影响在 3 d 后 消失[11]"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_20",
+        "name": "枳实通过诱导孕烷X受体表达增加P-gp和CYP3A4",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1070,
+            "source": "凡默谷",
+            "text": "枳实与陈皮的醇提物可通过诱导孕烷 X 受体表达而增加 P-gp 和 CYP3A4 的表达[20]"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_20",
+        "name": "陈皮通过诱导孕烷X受体表达增加P-gp和CYP3A4",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1070,
+            "source": "凡默谷",
+            "text": "枳实与陈皮的醇提物可通过诱导孕烷 X 受体表达而增加 P-gp 和 CYP3A4 的表达[20]"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_13",
+        "name": "枳壳上调CYP3A4表达",
+        "properties": {
+          "effect": "上调",
+          "evidence": {
+            "chunk_index": 1070,
+            "source": "凡默谷",
+            "text": "枳壳可显著上调 CYP1A2 和 CYP3A4 蛋白及 mRNA 表达的水平[21]"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_15",
+        "name": "枳壳上调CYP1A2表达",
+        "properties": {
+          "effect": "上调",
+          "evidence": {
+            "chunk_index": 1070,
+            "source": "凡默谷",
+            "text": "枳壳可显著上调 CYP1A2 和 CYP3A4 蛋白及 mRNA 表达的水平[21]"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_10",
+        "name": "橙皮苷增加地尔硫䓬口服生物利用度",
+        "properties": {
+          "effect": "增加",
+          "mechanism": "抑制CYP3A或P-gp，减少首过代谢",
+          "evidence": {
+            "chunk_index": 1070,
+            "source": "凡默谷",
+            "text": "橙皮苷可能通过抑制 CYP3A 或 P-gp 增加地尔硫䓬的肠道 吸收和减少肝肠地尔硫䓬的首过代谢，进而提高其口服生物利用度[16]"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_11",
+        "name": "柚皮苷影响他林洛尔吸收",
+        "properties": {
+          "mechanism": "影响P-gp和Oatp1a5",
+          "evidence": {
+            "chunk_index": 1070,
+            "source": "凡默谷",
+            "text": "柚皮苷可通过影响 P-gp 和 Oatp1a5 从而影响大鼠对他林洛尔的吸收行为[17]"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_12",
+        "name": "柚皮苷改变紫杉醇药代动力学",
+        "properties": {
+          "mechanism": "抑制CYP3A1/2代谢和肝脏P-gp",
+          "evidence": {
+            "chunk_index": 1070,
+            "source": "凡默谷",
+            "text": "柚皮苷引起的紫杉醇药代动力学 改变主要是由于其抑制CYP3A1/2对紫杉醇的代谢，也与其对肝脏P-gp的抑制作用有关[18]"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_25",
+        "name": "柚皮苷抑制CYP2E1代谢活性",
+        "properties": {
+          "effect": "抑制",
+          "evidence": {
+            "chunk_index": 1070,
+            "source": "凡默谷",
+            "text": "在人肝微粒体代谢体系中，柚皮苷表现出对 CYP2E1 代谢活性一定 的抑制作用[22]"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1070,
+    "source": "凡默谷",
+    "text": "。对同一化学药，不同柑橘属 中药的效应可能不同，如枳实可引起他克莫司、环孢素 Cmax 及 AUC 的减小，而同剂量的枳 壳则不能[6,8]。尚有研究关注相互作用的持续时间，如 100%柚汁对他克莫司的影响在 3 d 后 消失[11]。1.2 柑橘属中药药代动力学相互作用的机制  柑橘属中药主要通过影响细胞色素 P450（CYP450）等药物代谢酶及 P-糖蛋白（P-gp） 等药物转运体，引起联用药物药代动力学过程的改变。枳实与陈皮的醇提物可通过诱导孕烷 X 受体表达而增加 P-gp 和 CYP3A4 的表达[20]。枳壳可显著上调 CYP1A2 和 CYP3A4 蛋白及 mRNA 表达的水平[21]。枳实可增加 LS180 细胞系 P-gp 的外排活性，可用于解释其引起的他 克莫司口服生物利用度的降低[6]。橙皮苷可能通过抑制 CYP3A 或 P-gp 增加地尔硫䓬的肠道 吸收和减少肝肠地尔硫䓬的首过代谢，进而提高其口服生物利用度[16]。柚皮苷可通过影响 P-gp 和 Oatp1a5 从而影响大鼠对他林洛尔的吸收行为[17]。柚皮苷引起的紫杉醇药代动力学 改变主要是由于其抑制CYP3A1/2对紫杉醇的代谢，也与其对肝脏P-gp的抑制作用有关[18]。目前的研究提示，橙皮苷、柚皮苷等黄酮类成分及佛手柑素等香豆素类成分在此类相互 作用中具有重要作用。在人肝微粒体代谢体系中，柚皮苷表现出对 CYP2E1 代谢活性一定 的抑制作用[22]"
+  }
+]

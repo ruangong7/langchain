@@ -1,0 +1,238 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "创新降糖药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Mechanism",
+        "name": "药代动力学相互作用",
+        "properties": {
+          "机制类型": "药代动力学"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Mechanism",
+        "name": "药效动力学相互作用",
+        "properties": {
+          "机制类型": "药效动力学"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Mechanism",
+        "name": "安全性相互影响",
+        "properties": {
+          "机制类型": "安全性"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "酶",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "转运体",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Mechanism",
+        "name": "PBPK模型",
+        "properties": {
+          "机制类型": "建模与模拟"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Mechanism",
+        "name": "基础模型",
+        "properties": {
+          "机制类型": "建模与模拟"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Mechanism",
+        "name": "静态机制模型",
+        "properties": {
+          "机制类型": "建模与模拟"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Organization",
+        "name": "FDA",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "创新降糖药与二甲双胍的相互作用研究",
+        "properties": {
+          "mechanism": [
+            "药代动力学相互作用",
+            "药效动力学相互作用",
+            "安全性相互影响"
+          ],
+          "evidence": {
+            "chunk_index": 1082,
+            "source": "凡默谷",
+            "text": "上文叙述的创新降糖药与二甲双胍的相互作用研究就属于此类研究。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "创新降糖药涉及药代动力学相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1082,
+            "source": "凡默谷",
+            "text": "此类研究需要同时考虑药代动力学及可能的药效动力学甚至安全性的相互影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "创新降糖药涉及药效动力学相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1082,
+            "source": "凡默谷",
+            "text": "此类研究需要同时考虑药代动力学及可能的药效动力学甚至安全性的相互影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "创新降糖药涉及安全性相互影响",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1082,
+            "source": "凡默谷",
+            "text": "此类研究需要同时考虑药代动力学及可能的药效动力学甚至安全性的相互影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_6",
+        "name": "PBPK模型可整合酶相关相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1082,
+            "source": "凡默谷",
+            "text": "PBPK模型对数据量的要求最高，并且往往需要临床试验数据用于验证模型的可靠性，然而因为它能够整合尽可能多的信息，因而可具备预测复杂情况下的药物间相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_7",
+        "name": "PBPK模型可整合转运体相关相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1082,
+            "source": "凡默谷",
+            "text": "对于抑制与诱导作用同时存在、其他非酶代谢步骤为体内药动学限速步骤、肝外清除、转运体介导等情况，静态机制模型则不易准确估计药物相互作用。PBPK模型……可具备预测复杂情况下的药物间相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_9",
+        "target_id": "ent_6",
+        "name": "基础模型用于预测酶调节剂对底物的影响",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1082,
+            "source": "凡默谷",
+            "text": "基础模型对于数据的要求最少，也最简单，但只能预测单一机制下酶或者转运体调节剂对底物的影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_9",
+        "target_id": "ent_7",
+        "name": "基础模型用于预测转运体调节剂对底物的影响",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1082,
+            "source": "凡默谷",
+            "text": "基础模型对于数据的要求最少，也最简单，但只能预测单一机制下酶或者转运体调节剂对底物的影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_10",
+        "target_id": "ent_6",
+        "name": "静态机制模型用于预测酶调节剂对底物的影响",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1082,
+            "source": "凡默谷",
+            "text": "静态机制模型……可预测不同机制下酶调节剂对底物的影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_8",
+        "name": "FDA使用PBPK模型支持DDI临床试验",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1082,
+            "source": "凡默谷",
+            "text": "FDA等多个监管部门的审评案例中，PBPK模型预测也越来越多地被用于支持DDI 临床试验设计甚至取代部分体内DDI临床试验。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1082,
+    "source": "凡默谷",
+    "text": "。（3）针对治疗目标适应症时的常见合并用药品种进行其与新药的临床相互作用研究:此类研究需要同时考虑药代动力学及可能的药效动力学甚至安全性的相互影响。上文叙述的创新降糖药与二甲双胍的相互作用研究就属于此类研究。（4）计算机模拟临床试验[15]:由于无法通过临床试验获取所有可能的联合用药情形下的DDI，因此通过建模与模拟的手段预测未知DDI的存在和程度显得尤为重要。FDA等多个监管部门的审评案例中，PBPK模型预测也越来越多地被用于支持DDI 临床试验设计甚至取代部分体内DDI临床试验。2PBPK模型在DDI临床试验中的应用进展数学模型可被用于预测不同机制引起的药物间相互作用，其中比较常用的模型包括基础模型、静态机制模型以及PBPK模型[6]。基础模型对于数据的要求最少，也最简单，但只能预测单一机制下酶或者转运体调节剂对底物的影响。静态机制模型对于体内和体外数据的要求都有所提高，其考虑了更为详细的底物处置过程，可预测不同机制下酶调节剂对底物的影响。但因为其不能整合药物在体内的其他过程，因此多被用来预测单纯基于酶的药物相互作用，对于抑制与诱导作用同时存在、其他非酶代谢步骤为体内药动学限速步骤、肝外清除、转运体介导等情况，静态机制模型则不易准确估计药物相互作用。PBPK模型对数据量的要求最高，并且往往需要临床试验数据用于验证模型的可靠性，然而因为它能够整合尽可能多的信息，因而可具备预测复杂情况下的药物间相互作用，比如饱和消除特征、口服生物利用度不清等情况"
+  }
+]

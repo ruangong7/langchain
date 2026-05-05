@@ -1,0 +1,465 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "氟唑帕利",
+        "properties": {
+          "metabolism": "CYP3A4"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "地塞米松",
+        "properties": {
+          "effect_on_enzyme": "CYP3A4强诱导剂"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "奥拉帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "阿瑞匹坦",
+        "properties": {
+          "effect_on_enzyme": "CYP3A4中效抑制剂"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "奈妥吡坦",
+        "properties": {
+          "effect_on_enzyme": "CYP3A4中效抑制剂"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "氟康唑",
+        "properties": {
+          "effect_on_enzyme": "CYP3A4中效抑制剂"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "福沙匹坦",
+        "properties": {
+          "effect_on_enzyme": "CYP3A4弱抑制剂"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "5-HT3受体拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "沙利度胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "罗拉匹坦",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "奥氮平",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "甲氧氯普胺",
+        "properties": {
+          "metabolism": "CYP2D6, CYP3A4"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "帕米帕利",
+        "properties": {
+          "metabolism": "CYP3A"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Enzyme",
+        "name": "CYP2D6",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "SideEffect",
+        "name": "便秘",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "SideEffect",
+        "name": "骨髓抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Indicator",
+        "name": "血常规",
+        "properties": {}
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": "1524",
+          "source": "医脉通泌尿外科",
+          "text": "氟唑帕利通过CYP3A4代谢，地塞米松为CYP3A4强诱导剂，合用氟唑帕利代谢加快，疗效下降，故氟唑帕利说明书明确指出“临床用药中建议避免同时使用CYP3A4强诱导剂”。如临床上需使用地塞米松，应关注奥拉帕利疗效，必要时加大奥拉帕利剂量。"
+        }
+      },
+      {
+        "id": "ev_2",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": "1524",
+          "source": "医脉通泌尿外科",
+          "text": "阿瑞匹坦、奈妥吡坦为CYP3A4中效抑制剂，文献指出CYP3A4中效抑制剂氟康唑可使氟唑帕利Cmax、AUC0～t、AUC0～∞增加1～2倍，故建议氟唑帕利与CYP3A4中效抑制剂合用时减量至50 mg 2次/d。"
+        }
+      },
+      {
+        "id": "ev_3",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": "1524",
+          "source": "医脉通泌尿外科",
+          "text": "福沙匹坦为CYP3A4弱抑制剂，可能引起氟唑帕利不良反应增加，但影响程度较小，使用中应加强对氟唑帕利不良反应的关注。"
+        }
+      },
+      {
+        "id": "ev_4",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": "1524",
+          "source": "医脉通泌尿外科",
+          "text": "5-HT3受体拮抗剂、沙利度胺和氟唑帕利合用便秘和骨髓抑制风险增加，注意加强关注便秘和血常规。"
+        }
+      },
+      {
+        "id": "ev_5",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": "1524",
+          "source": "医脉通泌尿外科",
+          "text": "罗拉匹坦、奥氮平与氟唑帕利之间没有已知或机制上的相互作用，可以安全合用。"
+        }
+      },
+      {
+        "id": "ev_6",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": "1524",
+          "source": "医脉通泌尿外科",
+          "text": "甲氧氯普胺主要经CYP2D6、CYP3A4代谢，合用时与氟唑帕利竞争代谢酶CYP3A4，可能导致氟唑帕利代谢减慢，应加强对奥拉帕利不良反应的关注。"
+        }
+      },
+      {
+        "id": "ev_7",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": "1524",
+          "source": "医脉通泌尿外科",
+          "text": "帕米帕利通过CYP3A代谢，合用CYP3A强诱导剂地塞米松，会导致帕米帕利代谢加快，应注意帕米帕利疗效可能下降。"
+        }
+      },
+      {
+        "id": "ev_8",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": "1524",
+          "source": "医脉通泌尿外科",
+          "text": "5-HT3受体拮抗剂与帕米帕利合用时便秘风险增加，沙利度胺与帕米帕利合用时骨髓抑制风险增加"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "地塞米松与氟唑帕利相互作用",
+        "properties": {
+          "mechanism": "CYP3A4酶诱导",
+          "consequence": "氟唑帕利代谢加快，疗效下降",
+          "recommendation": "避免同时使用；如需使用，应关注疗效，必要时加大剂量",
+          "severity": "高",
+          "confidence": "高",
+          "evidence": [
+            {
+              "chunk_index": "1524",
+              "source": "医脉通泌尿外科",
+              "text": "氟唑帕利通过CYP3A4代谢，地塞米松为CYP3A4强诱导剂，合用氟唑帕利代谢加快，疗效下降，故氟唑帕利说明书明确指出“临床用药中建议避免同时使用CYP3A4强诱导剂”。如临床上需使用地塞米松，应关注奥拉帕利疗效，必要时加大奥拉帕利剂量。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "阿瑞匹坦与氟唑帕利相互作用",
+        "properties": {
+          "mechanism": "CYP3A4酶抑制",
+          "consequence": "氟唑帕利暴露量增加（Cmax、AUC增加1～2倍）",
+          "recommendation": "合用时氟唑帕利减量至50 mg 2次/d",
+          "severity": "中",
+          "confidence": "中",
+          "evidence": [
+            {
+              "chunk_index": "1524",
+              "source": "医脉通泌尿外科",
+              "text": "阿瑞匹坦、奈妥吡坦为CYP3A4中效抑制剂，文献指出CYP3A4中效抑制剂氟康唑可使氟唑帕利Cmax、AUC0～t、AUC0～∞增加1～2倍，故建议氟唑帕利与CYP3A4中效抑制剂合用时减量至50 mg 2次/d。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "name": "奈妥吡坦与氟唑帕利相互作用",
+        "properties": {
+          "mechanism": "CYP3A4酶抑制",
+          "consequence": "氟唑帕利暴露量增加（Cmax、AUC增加1～2倍）",
+          "recommendation": "合用时氟唑帕利减量至50 mg 2次/d",
+          "severity": "中",
+          "confidence": "中",
+          "evidence": [
+            {
+              "chunk_index": "1524",
+              "source": "医脉通泌尿外科",
+              "text": "阿瑞匹坦、奈妥吡坦为CYP3A4中效抑制剂，文献指出CYP3A4中效抑制剂氟康唑可使氟唑帕利Cmax、AUC0～t、AUC0～∞增加1～2倍，故建议氟唑帕利与CYP3A4中效抑制剂合用时减量至50 mg 2次/d。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_1",
+        "name": "福沙匹坦与氟唑帕利相互作用",
+        "properties": {
+          "mechanism": "CYP3A4酶抑制",
+          "consequence": "氟唑帕利不良反应增加",
+          "recommendation": "加强对氟唑帕利不良反应的关注",
+          "severity": "低",
+          "confidence": "中",
+          "evidence": [
+            {
+              "chunk_index": "1524",
+              "source": "医脉通泌尿外科",
+              "text": "福沙匹坦为CYP3A4弱抑制剂，可能引起氟唑帕利不良反应增加，但影响程度较小，使用中应加强对氟唑帕利不良反应的关注。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_1",
+        "name": "5-HT3受体拮抗剂与氟唑帕利相互作用",
+        "properties": {
+          "consequence": "便秘和骨髓抑制风险增加",
+          "recommendation": "注意加强关注便秘和血常规",
+          "severity": "中",
+          "confidence": "中",
+          "evidence": [
+            {
+              "chunk_index": "1524",
+              "source": "医脉通泌尿外科",
+              "text": "5-HT3受体拮抗剂、沙利度胺和氟唑帕利合用便秘和骨髓抑制风险增加，注意加强关注便秘和血常规。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_1",
+        "name": "沙利度胺与氟唑帕利相互作用",
+        "properties": {
+          "consequence": "便秘和骨髓抑制风险增加",
+          "recommendation": "注意加强关注便秘和血常规",
+          "severity": "中",
+          "confidence": "中",
+          "evidence": [
+            {
+              "chunk_index": "1524",
+              "source": "医脉通泌尿外科",
+              "text": "5-HT3受体拮抗剂、沙利度胺和氟唑帕利合用便秘和骨髓抑制风险增加，注意加强关注便秘和血常规。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_1",
+        "name": "甲氧氯普胺与氟唑帕利相互作用",
+        "properties": {
+          "mechanism": "竞争代谢酶CYP3A4",
+          "consequence": "可能导致氟唑帕利代谢减慢",
+          "recommendation": "应加强对奥拉帕利不良反应的关注",
+          "severity": "中",
+          "confidence": "中",
+          "evidence": [
+            {
+              "chunk_index": "1524",
+              "source": "医脉通泌尿外科",
+              "text": "甲氧氯普胺主要经CYP2D6、CYP3A4代谢，合用时与氟唑帕利竞争代谢酶CYP3A4，可能导致氟唑帕利代谢减慢，应加强对奥拉帕利不良反应的关注。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_13",
+        "name": "地塞米松与帕米帕利相互作用",
+        "properties": {
+          "mechanism": "CYP3A酶诱导",
+          "consequence": "帕米帕利代谢加快，疗效可能下降",
+          "recommendation": "应注意帕米帕利疗效可能下降",
+          "severity": "中",
+          "confidence": "中",
+          "evidence": [
+            {
+              "chunk_index": "1524",
+              "source": "医脉通泌尿外科",
+              "text": "帕米帕利通过CYP3A代谢，合用CYP3A强诱导剂地塞米松，会导致帕米帕利代谢加快，应注意帕米帕利疗效可能下降。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_13",
+        "name": "5-HT3受体拮抗剂与帕米帕利相互作用",
+        "properties": {
+          "consequence": "便秘风险增加",
+          "recommendation": "应注意加强关注",
+          "severity": "中",
+          "confidence": "中",
+          "evidence": [
+            {
+              "chunk_index": "1524",
+              "source": "医脉通泌尿外科",
+              "text": "5-HT3受体拮抗剂与帕米帕利合用时便秘风险增加"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_13",
+        "name": "沙利度胺与帕米帕利相互作用",
+        "properties": {
+          "consequence": "骨髓抑制风险增加",
+          "recommendation": "应注意加强关注",
+          "severity": "中",
+          "confidence": "中",
+          "evidence": [
+            {
+              "chunk_index": "1524",
+              "source": "医脉通泌尿外科",
+              "text": "沙利度胺与帕米帕利合用时骨髓抑制风险增加"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "name": "氟唑帕利通过CYP3A4代谢",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1524",
+              "source": "医脉通泌尿外科",
+              "text": "氟唑帕利通过CYP3A4代谢"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_13",
+        "target_id": "ent_15",
+        "name": "帕米帕利通过CYP3A代谢",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1524",
+              "source": "医脉通泌尿外科",
+              "text": "帕米帕利通过CYP3A代谢"
+            }
+          ]
+        }
+      }
+    ],
+    "chunk_index": 1524,
+    "source": "医脉通泌尿外科",
+    "text": "。氟唑帕利通过CYP3A4代谢，地塞米松为CYP3A4强诱导剂，合用氟唑帕利代谢加快，疗效下降，故氟唑帕利说明书明确指出“临床用药中建议避免同时使用CYP3A4强诱导剂”。如临床上需使用地塞米松，应关注奥拉帕利疗效，必要时加大奥拉帕利剂量。阿瑞匹坦、奈妥吡坦为CYP3A4中效抑制剂，文献指出CYP3A4中效抑制剂氟康唑可使氟唑帕利Cmax、AUC0～t、AUC0～∞增加1～2倍，故建议氟唑帕利与CYP3A4中效抑制剂合用时减量至50 mg 2次/d。福沙匹坦为CYP3A4弱抑制剂，可能引起氟唑帕利不良反应增加，但影响程度较小，使用中应加强对氟唑帕利不良反应的关注。5-HT3受体拮抗剂、沙利度胺和氟唑帕利合用便秘和骨髓抑制风险增加，注意加强关注便秘和血常规。罗拉匹坦、奥氮平与氟唑帕利之间没有已知或机制上的相互作用，可以安全合用。甲氧氯普胺主要经CYP2D6、CYP3A4代谢，合用时与氟唑帕利竞争代谢酶CYP3A4，可能导致氟唑帕利代谢减慢，应加强对奥拉帕利不良反应的关注。共识意见 11使用帕米帕利的患者，可以安全使用阿瑞匹坦、福沙匹坦、罗拉匹坦、奈妥吡坦、甲氧氯普胺、奥氮平；使用地塞米松（Ⅰ级证据）、5-HT3受体拮抗剂（Ⅱ级证据）、沙利度胺（Ⅲ级证据）时应注意加强关注疗效和不良反应。帕米帕利通过CYP3A代谢，合用CYP3A强诱导剂地塞米松，会导致帕米帕利代谢加快，应注意帕米帕利疗效可能下降。5-HT3受体拮抗剂与帕米帕利合用时便秘风险增加，沙利度胺与帕米帕利合用时骨髓抑制风险增加"
+  }
+]

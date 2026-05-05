@@ -1,0 +1,466 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "硝苯地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "镁剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "低血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "神经肌肉阻滞",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "诺氟沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "茶碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "细胞色素P450",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Mechanism",
+        "name": "竞争性抑制",
+        "properties": {
+          "机制类型": "竞争性抑制"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "SideEffect",
+        "name": "茶碱中毒",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Symptom",
+        "name": "恶心",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Symptom",
+        "name": "呕吐",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Symptom",
+        "name": "震颤",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Symptom",
+        "name": "不安",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Symptom",
+        "name": "激动",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Symptom",
+        "name": "抽搐",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Symptom",
+        "name": "心悸",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "苯妥英",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "胺碘酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Mechanism",
+        "name": "抑制肝代谢",
+        "properties": {
+          "机制类型": "抑制肝代谢"
+        }
+      },
+      {
+        "id": "ent_22",
+        "type": "Symptom",
+        "name": "运动失调",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Symptom",
+        "name": "眼球震颤",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Symptom",
+        "name": "视觉模糊",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Symptom",
+        "name": "双腿无力",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "DrugClass",
+        "name": "乙内酰脲类抗惊厥药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Drug",
+        "name": "氯霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Drug",
+        "name": "异烟肼",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "Drug",
+        "name": "保泰松",
+        "properties": {}
+      },
+      {
+        "id": "ent_30",
+        "type": "Drug",
+        "name": "磺胺类",
+        "properties": {}
+      },
+      {
+        "id": "ent_31",
+        "type": "Mechanism",
+        "name": "降低代谢",
+        "properties": {
+          "机制类型": "降低代谢"
+        }
+      },
+      {
+        "id": "ent_32",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_33",
+        "type": "Indicator",
+        "name": "周围血象",
+        "properties": {}
+      },
+      {
+        "id": "ent_34",
+        "type": "Drug",
+        "name": "普萘洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_35",
+        "type": "Drug",
+        "name": "氟西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_36",
+        "type": "Mechanism",
+        "name": "升高血药浓度",
+        "properties": {
+          "机制类型": "升高血药浓度"
+        }
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "凯德传媒肾脏时讯",
+        "properties": {
+          "chunk_id": 1262,
+          "source": "凯德传媒肾脏时讯"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "硝苯地平与镁剂合用",
+        "properties": {
+          "consequences": [
+            "低血压",
+            "神经肌肉阻滞"
+          ],
+          "recommendation": "合用时应密切监测血压",
+          "evidence": {
+            "chunk_index": 1262,
+            "source": "凯德传媒肾脏时讯",
+            "text": "硝苯地平+镁镁剂用于早产治疗时，如与本药合用可引起显著的低血压和神经肌肉阻滞。合用时应密切监测血压。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "诺氟沙星与茶碱合用",
+        "properties": {
+          "mechanism": "竞争性抑制细胞色素P450",
+          "consequences": [
+            "茶碱中毒"
+          ],
+          "symptoms": [
+            "恶心",
+            "呕吐",
+            "震颤",
+            "不安",
+            "激动",
+            "抽搐",
+            "心悸"
+          ],
+          "recommendation": "应测定茶碱类血药浓度和调整剂量",
+          "evidence": {
+            "chunk_index": 1262,
+            "source": "凯德传媒肾脏时讯",
+            "text": "诺氟沙星+茶碱诺氟沙星与茶碱类合用时可能由于与细胞色素P450结合部位的竞争性抑制，导致茶碱类的肝清除明显减少，血消除半衰期(t1/2β)延长，血药浓度升高，出现茶碱中毒症状，如恶心、呕吐、震颤、不安、激动、抽搐、心悸等，故合用时应测定茶碱类血药浓度和调整剂量。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_20",
+        "target_id": "ent_19",
+        "name": "胺碘酮与苯妥英合用",
+        "properties": {
+          "mechanism": "抑制苯妥英肝代谢",
+          "consequences": [
+            "苯妥英血清浓度升高"
+          ],
+          "symptoms": [
+            "运动失调",
+            "眼球震颤",
+            "视觉模糊",
+            "双腿无力"
+          ],
+          "recommendation": "需监测病人苯妥英水平，必要时调整其剂量",
+          "evidence": {
+            "chunk_index": 1262,
+            "source": "凯德传媒肾脏时讯",
+            "text": "苯妥英+胺碘酮胺碘酮可以抑制苯妥英肝代谢，升高苯妥英血清浓度，以致产生运动失调、眼球震颤、视觉模糊和双腿无力。需监测病人苯妥英水平，必要时调整其剂量。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_20",
+        "target_id": "ent_26",
+        "name": "胺碘酮与乙内酰脲类抗惊厥药物合用",
+        "properties": {
+          "mechanism": "类似苯妥英的相互作用",
+          "evidence": {
+            "chunk_index": 1262,
+            "source": "凯德传媒肾脏时讯",
+            "text": "胺碘酮同其他乙内酰脲类抗惊厥药物同用有类似的相互作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_19",
+        "target_id": "ent_27",
+        "name": "苯妥英与氯霉素合用",
+        "properties": {
+          "mechanism": "降低苯妥英代谢",
+          "consequences": [
+            "血药浓度增加",
+            "毒性增加"
+          ],
+          "evidence": {
+            "chunk_index": 1262,
+            "source": "凯德传媒肾脏时讯",
+            "text": "苯妥英+氯霉素苯妥英钠与氯霉素、异烟肼、保泰松、磺胺类合用可能降低本品代谢使血药浓度增加，增加本品的毒性。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_19",
+        "target_id": "ent_28",
+        "name": "苯妥英与异烟肼合用",
+        "properties": {
+          "mechanism": "降低苯妥英代谢",
+          "consequences": [
+            "血药浓度增加",
+            "毒性增加"
+          ],
+          "evidence": {
+            "chunk_index": 1262,
+            "source": "凯德传媒肾脏时讯",
+            "text": "苯妥英+氯霉素苯妥英钠与氯霉素、异烟肼、保泰松、磺胺类合用可能降低本品代谢使血药浓度增加，增加本品的毒性。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_19",
+        "target_id": "ent_29",
+        "name": "苯妥英与保泰松合用",
+        "properties": {
+          "mechanism": "降低苯妥英代谢",
+          "consequences": [
+            "血药浓度增加",
+            "毒性增加"
+          ],
+          "evidence": {
+            "chunk_index": 1262,
+            "source": "凯德传媒肾脏时讯",
+            "text": "苯妥英+氯霉素苯妥英钠与氯霉素、异烟肼、保泰松、磺胺类合用可能降低本品代谢使血药浓度增加，增加本品的毒性。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_19",
+        "target_id": "ent_30",
+        "name": "苯妥英与磺胺类合用",
+        "properties": {
+          "mechanism": "降低苯妥英代谢",
+          "consequences": [
+            "血药浓度增加",
+            "毒性增加"
+          ],
+          "evidence": {
+            "chunk_index": 1262,
+            "source": "凯德传媒肾脏时讯",
+            "text": "苯妥英+氯霉素苯妥英钠与氯霉素、异烟肼、保泰松、磺胺类合用可能降低本品代谢使血药浓度增加，增加本品的毒性。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_32",
+        "target_id": "ent_19",
+        "name": "西咪替丁与苯妥英合用",
+        "properties": {
+          "mechanism": "使苯妥英血药浓度增高",
+          "consequences": [
+            "苯妥英钠中毒"
+          ],
+          "recommendation": "应在5天后测定苯妥英钠血药浓度以便调整剂量，并注意定期复查周围血象",
+          "evidence": {
+            "chunk_index": 1262,
+            "source": "凯德传媒肾脏时讯",
+            "text": "苯妥英+西咪替丁西咪替丁与苯妥英钠或其他乙内酰脲类合用，可能使后者的血药浓度增高，导致苯妥英钠中毒，必须合用时，应在5天后测定苯妥英钠血药浓度以便调整剂量，并注意定期复查周围血象。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_32",
+        "target_id": "ent_26",
+        "name": "西咪替丁与乙内酰脲类抗惊厥药物合用",
+        "properties": {
+          "mechanism": "使血药浓度增高",
+          "consequences": [
+            "中毒"
+          ],
+          "recommendation": "应在5天后测定血药浓度以便调整剂量，并注意定期复查周围血象",
+          "evidence": {
+            "chunk_index": 1262,
+            "source": "凯德传媒肾脏时讯",
+            "text": "苯妥英+西咪替丁西咪替丁与苯妥英钠或其他乙内酰脲类合用，可能使后者的血药浓度增高，导致苯妥英钠中毒，必须合用时，应在5天后测定苯妥英钠血药浓度以便调整剂量，并注意定期复查周围血象。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_35",
+        "target_id": "ent_34",
+        "name": "氟西汀与普萘洛尔合用",
+        "properties": {
+          "mechanism": "使普萘洛尔血药浓度升高",
+          "consequences": [
+            "毒性增大"
+          ],
+          "recommendation": "应监测普萘洛尔的毒性反应，必要时减少用量",
+          "evidence": {
+            "chunk_index": 1262,
+            "source": "凯德传媒肾脏时讯",
+            "text": "普萘洛尔+氟西汀氟西汀可使普萘洛尔血药浓度升高，毒性增大，故应监测普萘洛尔的毒性反应，必要时减少用量"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1262,
+    "source": "凯德传媒肾脏时讯",
+    "text": "。文献依据：《新编临床用药参考》22、硝苯地平+镁镁剂用于早产治疗时，如与本药合用可引起显著的低血压和神经肌肉阻滞。合用时应密切监测血压。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.577～580.23、诺氟沙星+茶碱诺氟沙星与茶碱类合用时可能由于与细胞色素P450结合部位的竞争性抑制，导致茶碱类的肝清除明显减少，血消除半衰期(t1/2β)延长，血药浓度升高，出现茶碱中毒症状，如恶心、呕吐、震颤、不安、激动、抽搐、心悸等，故合用时应测定茶碱类血药浓度和调整剂量。文献依据：SFDA药品说明书范本24、苯妥英+胺碘酮胺碘酮可以抑制苯妥英肝代谢，升高苯妥英血清浓度，以致产生运动失调、眼球震颤、视觉模糊和双腿无力。需监测病人苯妥英水平，必要时调整其剂量。胺碘酮同其他乙内酰脲类抗惊厥药物同用有类似的相互作用。文献依据：汤光.药物相互作用速查手册[M].北京：化学工业出版社,2005.90.25、苯妥英+氯霉素苯妥英钠与氯霉素、异烟肼、保泰松、磺胺类合用可能降低本品代谢使血药浓度增加，增加本品的毒性。文献依据：SFDA药品说明书范本26、苯妥英+西咪替丁西咪替丁与苯妥英钠或其他乙内酰脲类合用，可能使后者的血药浓度增高，导致苯妥英钠中毒，必须合用时，应在5天后测定苯妥英钠血药浓度以便调整剂量，并注意定期复查周围血象。文献依据：SFDA药品说明书范本27、普萘洛尔+氟西汀氟西汀可使普萘洛尔血药浓度升高，毒性增大，故应监测普萘洛尔的毒性反应，必要时减少用量"
+  }
+]

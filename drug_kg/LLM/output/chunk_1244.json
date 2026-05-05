@@ -1,0 +1,277 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Disease",
+        "name": "肝功能损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Disease",
+        "name": "肾功能损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "代谢酶",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "转运蛋白",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "药物蓄积",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "药物不良反应发生率增加",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Mechanism",
+        "name": "血浆蛋白水平波动",
+        "properties": {
+          "机制类型": "蛋白结合置换"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Mechanism",
+        "name": "代谢酶活性下降",
+        "properties": {
+          "机制类型": "代谢酶活性下降"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Mechanism",
+        "name": "转运蛋白活性下降",
+        "properties": {
+          "机制类型": "转运体活性下降"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Population",
+        "name": "肝肾功能不全患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "多药联用",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Mechanism",
+        "name": "药物体内暴露变化",
+        "properties": {
+          "机制类型": "多重因素交互"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Indicator",
+        "name": "体内药物浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Model",
+        "name": "生理药代动力学模型",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "肝功能损伤导致药物蓄积",
+        "properties": {
+          "mechanism_ids": [
+            "ent_7",
+            "ent_8",
+            "ent_9"
+          ],
+          "consequence_ids": [
+            "ent_6"
+          ],
+          "evidence": {
+            "chunk_index": 1244,
+            "source": "凡默谷",
+            "text": "研究表明，肝、肾功能损伤等疾病通过引起血浆蛋白水平波动及代谢酶、转运蛋白活性下降等变化，显著影响药物消除，导致药物蓄积，引起发生率增加[3]。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "肾功能损伤导致药物蓄积",
+        "properties": {
+          "mechanism_ids": [
+            "ent_7",
+            "ent_8",
+            "ent_9"
+          ],
+          "consequence_ids": [
+            "ent_6"
+          ],
+          "evidence": {
+            "chunk_index": 1244,
+            "source": "凡默谷",
+            "text": "研究表明，肝、肾功能损伤等疾病通过引起血浆蛋白水平波动及代谢酶、转运蛋白活性下降等变化，显著影响药物消除，导致药物蓄积，引起发生率增加[3]。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "肝功能损伤引起血浆蛋白水平波动",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1244,
+            "source": "凡默谷",
+            "text": "研究表明，肝、肾功能损伤等疾病通过引起血浆蛋白水平波动及代谢酶、转运蛋白活性下降等变化，显著影响药物消除，导致药物蓄积，引起发生率增加[3]。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "肝功能损伤引起代谢酶活性下降",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1244,
+            "source": "凡默谷",
+            "text": "研究表明，肝、肾功能损伤等疾病通过引起血浆蛋白水平波动及代谢酶、转运蛋白活性下降等变化，显著影响药物消除，导致药物蓄积，引起发生率增加[3]。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "肝功能损伤引起转运蛋白活性下降",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1244,
+            "source": "凡默谷",
+            "text": "研究表明，肝、肾功能损伤等疾病通过引起血浆蛋白水平波动及代谢酶、转运蛋白活性下降等变化，显著影响药物消除，导致药物蓄积，引起发生率增加[3]。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "name": "肾功能损伤引起血浆蛋白水平波动",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1244,
+            "source": "凡默谷",
+            "text": "研究表明，肝、肾功能损伤等疾病通过引起血浆蛋白水平波动及代谢酶、转运蛋白活性下降等变化，显著影响药物消除，导致药物蓄积，引起发生率增加[3]。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "name": "肾功能损伤引起代谢酶活性下降",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1244,
+            "source": "凡默谷",
+            "text": "研究表明，肝、肾功能损伤等疾病通过引起血浆蛋白水平波动及代谢酶、转运蛋白活性下降等变化，显著影响药物消除，导致药物蓄积，引起发生率增加[3]。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "name": "肾功能损伤引起转运蛋白活性下降",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1244,
+            "source": "凡默谷",
+            "text": "研究表明，肝、肾功能损伤等疾病通过引起血浆蛋白水平波动及代谢酶、转运蛋白活性下降等变化，显著影响药物消除，导致药物蓄积，引起发生率增加[3]。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "药物蓄积引起不良反应发生率增加",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1244,
+            "source": "凡默谷",
+            "text": "研究表明，肝、肾功能损伤等疾病通过引起血浆蛋白水平波动及代谢酶、转运蛋白活性下降等变化，显著影响药物消除，导致药物蓄积，引起发生率增加[3]。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "肝功能损伤影响体内药物浓度",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1244,
+            "source": "凡默谷",
+            "text": "基础模型和传统静态模型难以反映体内药物浓度和代谢酶、转运体活性的动态变化，在肝肾损等病理环境中表现出局限性[6]。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_13",
+        "name": "肾功能损伤影响体内药物浓度",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1244,
+            "source": "凡默谷",
+            "text": "基础模型和传统静态模型难以反映体内药物浓度和代谢酶、转运体活性的动态变化，在肝肾损等病理环境中表现出局限性[6]。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1244,
+    "source": "凡默谷",
+    "text": "。药物-疾病相互作用（drug-disease interaction，DDZI）研究揭示了疾病状态对药物体内过程的影响，以及其对疗效和药物不良反应的潜在作用[2]。研究表明，肝、肾功能损伤等疾病通过引起血浆蛋白水平波动及代谢酶、转运蛋白活性下降等变化，显著影响药物消除，导致药物蓄积，引起发生率增加[3]。在实际临床中，患者常同时患有多种疾病，如何同时考虑疾病状态和药物相互作用的影响是药物治疗中的关键挑战[4]。传统DDIs和DDZI研究多集中于药物或疾病对单一药物的影响，难以应对多因素的复杂交互。疾病-药物-药物相互作用（disease drug-drug interactions，DDDIs）通过整合药物理化性质、疾病状态和多药联用效应，能更精确地预测药物体内暴露，支持剂量优化，提高临床治疗的安全性与有效性[5]。基础模型和传统静态模型难以反映体内药物浓度和代谢酶、转运体活性的动态变化，在肝肾损等病理环境中表现出局限性[6]。生理药代动力学（physiologically based pharmacokinetic，PBPK）模型通过整合人体的解剖生理参数、药物理化特性及其吸收、分布、代谢、排泄（absorption，distribution，metabolism，excretion，ADME）过程来模拟药物的药代动力学（pharmacokinet ics，PK）过程，其多维数据整合能力使其在多重因素共同作用下的药物暴露模拟方面尤为有效[7]"
+  }
+]

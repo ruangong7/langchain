@@ -1,0 +1,186 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "硝苯地平",
+        "properties": {
+          "name": "硝苯地平"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氨氯地平",
+        "properties": {
+          "name": "氨氯地平"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "二氢吡啶类钙拮抗剂",
+        "properties": {
+          "name": "二氢吡啶类钙拮抗剂",
+          "alias": [
+            "钙拮抗剂",
+            "钙通道阻滞剂"
+          ]
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Food",
+        "name": "葡萄柚汁",
+        "properties": {
+          "name": "葡萄柚汁",
+          "type": "饮品"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Food",
+        "name": "葡萄柚",
+        "properties": {
+          "name": "葡萄柚",
+          "type": "食物"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Food",
+        "name": "红酒",
+        "properties": {
+          "name": "红酒",
+          "type": "饮品"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "name": "CYP3A4",
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Evidence",
+        "name": "医脉通神经科_chunk_1541",
+        "properties": {
+          "chunk_id": "医脉通神经科_chunk_1541",
+          "source": "医脉通神经科",
+          "text": ".[6] 石亮. 红酒中没食子酸对CYP3A4介导的硝苯地平代谢的影响. 重庆医科大学, 2014.[7] Nakagawa K, Goto T. Effects of ingestion of grapefruit juice or grapefruit on the hypotensive effect and plasma concentrations of dihydropyridine calcium antagonists (amlodipine and nifedipine): a case study[J]. Clinical and Experimental Hypertension, 2010, 32(2): 71-75.[8] 袁锦华, 李明春, 张西安. 钙拮抗剂与几种药物的相互作用[J]. 中国药房, 2002, 13(6):56-57.[9] 热米拉·吾买尔, 杨辉. 临床药师初涉临床工作的切入点[J]. 中国实用医药, 2013, 8(28): 199-200."
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "硝苯地平属于二氢吡啶类钙拮抗剂",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "医脉通神经科_chunk_1541",
+              "source": "医脉通神经科",
+              "text": "dihydropyridine calcium antagonists (amlodipine and nifedipine)"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "氨氯地平属于二氢吡啶类钙拮抗剂",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "医脉通神经科_chunk_1541",
+              "source": "医脉通神经科",
+              "text": "dihydropyridine calcium antagonists (amlodipine and nifedipine)"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_3",
+        "name": "葡萄柚汁与二氢吡啶类钙拮抗剂相互作用",
+        "properties": {
+          "mechanism": "CYP3A4抑制",
+          "consequence": "影响降压效果和血浆浓度",
+          "evidence": [
+            {
+              "chunk_index": "医脉通神经科_chunk_1541",
+              "source": "医脉通神经科",
+              "text": "Effects of ingestion of grapefruit juice or grapefruit on the hypotensive effect and plasma concentrations of dihydropyridine calcium antagonists (amlodipine and nifedipine): a case study"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_3",
+        "name": "葡萄柚与二氢吡啶类钙拮抗剂相互作用",
+        "properties": {
+          "mechanism": "CYP3A4抑制",
+          "consequence": "影响降压效果和血浆浓度",
+          "evidence": [
+            {
+              "chunk_index": "医脉通神经科_chunk_1541",
+              "source": "医脉通神经科",
+              "text": "Effects of ingestion of grapefruit juice or grapefruit on the hypotensive effect and plasma concentrations of dihydropyridine calcium antagonists (amlodipine and nifedipine): a case study"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "name": "红酒与硝苯地平相互作用",
+        "properties": {
+          "mechanism": "CYP3A4介导的代谢影响",
+          "evidence": [
+            {
+              "chunk_index": "医脉通神经科_chunk_1541",
+              "source": "医脉通神经科",
+              "text": "红酒中没食子酸对CYP3A4介导的硝苯地平代谢的影响"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "硝苯地平代谢涉及CYP3A4",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "医脉通神经科_chunk_1541",
+              "source": "医脉通神经科",
+              "text": "红酒中没食子酸对CYP3A4介导的硝苯地平代谢的影响"
+            }
+          ]
+        }
+      }
+    ],
+    "chunk_index": 1541,
+    "source": "医脉通神经科",
+    "text": ".[6] 石亮. 红酒中没食子酸对CYP3A4介导的硝苯地平代谢的影响. 重庆医科大学, 2014.[7] Nakagawa K, Goto T. Effects of ingestion of grapefruit juice or grapefruit on the hypotensive effect and plasma concentrations of dihydropyridine calcium antagonists (amlodipine and nifedipine): a case study[J]. Clinical and Experimental Hypertension, 2010, 32(2): 71-75.[8] 袁锦华, 李明春, 张西安. 钙拮抗剂与几种药物的相互作用[J]. 中国药房, 2002, 13(6):56-57.[9] 热米拉·吾买尔, 杨辉. 临床药师初涉临床工作的切入点[J]. 中国实用医药, 2013, 8(28): 199-200."
+  }
+]

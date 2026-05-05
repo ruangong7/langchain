@@ -1,0 +1,270 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "降压药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP2D6",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP2C9",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "副作用",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "高血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Evidence",
+        "name": "医脉通神经科",
+        "properties": {
+          "chunk_id": 1549,
+          "source": "医脉通神经科"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "代谢受CYP3A4调控",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1549,
+              "source": "医脉通神经科",
+              "text": "降压药物的代谢主要受细胞色素酶P450（CYP）和P-糖蛋白（P-gp）两条通路调控。其中，CYP又包含不同的亚型，与常用降压药物相关的主要是CYP3A4、CYP2D6和CYP2C9三种。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "代谢受CYP2D6调控",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1549,
+              "source": "医脉通神经科",
+              "text": "降压药物的代谢主要受细胞色素酶P450（CYP）和P-糖蛋白（P-gp）两条通路调控。其中，CYP又包含不同的亚型，与常用降压药物相关的主要是CYP3A4、CYP2D6和CYP2C9三种。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "代谢受CYP2C9调控",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1549,
+              "source": "医脉通神经科",
+              "text": "降压药物的代谢主要受细胞色素酶P450（CYP）和P-糖蛋白（P-gp）两条通路调控。其中，CYP又包含不同的亚型，与常用降压药物相关的主要是CYP3A4、CYP2D6和CYP2C9三种。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "代谢受P-gp调控",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1549,
+              "source": "医脉通神经科",
+              "text": "降压药物的代谢主要受细胞色素酶P450（CYP）和P-糖蛋白（P-gp）两条通路调控。其中，CYP又包含不同的亚型，与常用降压药物相关的主要是CYP3A4、CYP2D6和CYP2C9三种。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "name": "诱导剂与降压药物合用",
+        "properties": {
+          "mechanism": "诱导CYP/P-gp活性",
+          "consequence": "降压药物代谢加快，血药浓度降低，降压效果减弱",
+          "evidence": [
+            {
+              "chunk_index": 1549,
+              "source": "医脉通神经科",
+              "text": "降压药物和诱导剂合用时，导致降压药物代谢加快，血药浓度降低，降压效果减弱；"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_1",
+        "name": "抑制剂与降压药物合用",
+        "properties": {
+          "mechanism": "抑制CYP/P-gp活性",
+          "consequence": "降压药物代谢减慢，血药浓度增加，降压效果增强",
+          "evidence": [
+            {
+              "chunk_index": 1549,
+              "source": "医脉通神经科",
+              "text": "反之，降压药物和抑制剂合用时，导致降压药物代谢减慢，血药浓度增加，降压效果增强。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_5",
+        "target_id": "ent_8",
+        "name": "导致血药浓度降低",
+        "properties": {
+          "effect": "降低",
+          "evidence": [
+            {
+              "chunk_index": 1549,
+              "source": "医脉通神经科",
+              "text": "降压药物和诱导剂合用时，导致降压药物代谢加快，血药浓度降低，降压效果减弱；"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_6",
+        "target_id": "ent_8",
+        "name": "导致血药浓度增加",
+        "properties": {
+          "effect": "增加",
+          "evidence": [
+            {
+              "chunk_index": 1549,
+              "source": "医脉通神经科",
+              "text": "反之，降压药物和抑制剂合用时，导致降压药物代谢减慢，血药浓度增加，降压效果增强。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_6",
+        "target_id": "ent_9",
+        "name": "可能放大副作用",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1549,
+              "source": "医脉通神经科",
+              "text": "读过上文，似乎给人的感觉是药物联用有害无益，要么降压效果减弱，要么药物副作用被放大。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "用于治疗高血压",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1549,
+              "source": "医脉通神经科",
+              "text": "一些血压较高的患者起始治疗时就应当采用联合治疗方案，以达到更优的血压控制。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_5",
+        "target_id": "ent_11",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_12",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_6",
+        "target_id": "ent_11",
+        "name": "证据支持",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1549,
+    "source": "医脉通神经科",
+    "text": "。01药代动力学相互作用降压药物的代谢主要受细胞色素酶P450（CYP）和P-糖蛋白（P-gp）两条通路调控。其中，CYP又包含不同的亚型，与常用降压药物相关的主要是CYP3A4、CYP2D6和CYP2C9三种。CYP和P-gp的活性可能被不同药物诱导或抑制，详见下表。降压药物和诱导剂合用时，导致降压药物代谢加快，血药浓度降低，降压效果减弱；反之，降压药物和抑制剂合用时，导致降压药物代谢减慢，血药浓度增加，降压效果增强。表1 降压药物的CYP和P-gp代谢分类及常见的诱导剂和抑制剂从上述表格可以看出，降压药物本身也可以是代谢通路的诱导剂或者抑制剂。除了影响药物代谢之外，药代动力学的相互作用也可能体现在吸收和清除等环节，如表2所示。表2 影响降压药物的吸收和清除过程的药物相互作用02药效动力学相互作用表3 降压药物的药效动力学相互作用03有益的药物相互作用读过上文，似乎给人的感觉是药物联用有害无益，要么降压效果减弱，要么药物副作用被放大。实际上，并非完全如此，药物联用是临床上常用的降压准则，一些血压较高的患者起始治疗时就应当采用联合治疗方案，以达到更优的血压控制。合理应用联合治疗方案，可能达到1+1＞2的效果，或中和某些药物的副作用。表4 有益的降压药物联用方案及其临床效应高血压患者联用药物，可能画蛇添足，也可能锦上添花。如何用好降压药和其他药物，既是一项考验临床基本功的技术，更是一门需要权衡利弊的艺术"
+  }
+]

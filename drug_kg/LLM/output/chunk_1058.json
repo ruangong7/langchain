@@ -1,0 +1,412 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "恩替卡韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "PEPT2",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "甘氨酰肌氨酸",
+        "properties": {
+          "英文名": "Gly-Sar"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "乌苯美司",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "甲氨蝶呤",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "OATs",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "OCT1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "OCT3",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "庆大霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "MATE1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "OCT2",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "OAT1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "properties": {
+          "别名列表": [
+            "PPI"
+          ]
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Disease",
+        "name": "胆汁淤积",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Disease",
+        "name": "肝癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Disease",
+        "name": "肝硬化",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Disease",
+        "name": "肾损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Disease",
+        "name": "糖尿病",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Disease",
+        "name": "胃反流食管炎",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Population",
+        "name": "肝硬化早期",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Population",
+        "name": "肝硬化晚期",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1058,
+          "来源类型": "公众号"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "恩替卡韦经PEPT2重吸收",
+        "properties": {
+          "mechanism": "重吸收",
+          "evidence": {
+            "chunk_index": 1058,
+            "source": "凡默谷",
+            "text": "用PEPT2的典型抑制剂 甘氨酰肌氨酸（Gly-Sar)抑制恩替卡韦经PEPT2的 重吸收"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "name": "甘氨酰肌氨酸抑制PEPT2",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1058,
+            "source": "凡默谷",
+            "text": "用PEPT2的典型抑制剂 甘氨酰肌氨酸（Gly-Sar)抑制恩替卡韦经PEPT2的 重吸收"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "乌苯美司抑制甲氨蝶呤排泄",
+        "properties": {
+          "mechanism": "抑制肾排泄",
+          "consequence": "增大血药浓度",
+          "evidence": {
+            "chunk_index": 1058,
+            "source": "凡默谷",
+            "text": "Zhu等发现，乌苯美司可 抑制甲氨蝶呤经OATs的肾排泄，增大其血药浓 度[21]。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "甲氨蝶呤经OATs肾排泄",
+        "properties": {
+          "mechanism": "肾排泄",
+          "evidence": {
+            "chunk_index": 1058,
+            "source": "凡默谷",
+            "text": "乌苯美司可 抑制甲氨蝶呤经OATs的肾排泄"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "乌苯美司增大甲氨蝶呤血药浓度",
+        "properties": {
+          "effect": "增大",
+          "indicator": "血药浓度",
+          "evidence": {
+            "chunk_index": 1058,
+            "source": "凡默谷",
+            "text": "乌苯美司可 抑制甲氨蝶呤经OATs的肾排泄，增大其血药浓 度[21]。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_15",
+        "target_id": "ent_7",
+        "name": "胆汁淤积导致OCT1表达减少",
+        "properties": {
+          "effect": "表达减少",
+          "evidence": {
+            "chunk_index": 1058,
+            "source": "凡默谷",
+            "text": "胆汁淤积时，肝脏 OCT1表达减少[23-24]"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_16",
+        "target_id": "ent_7",
+        "name": "肝癌导致OCT1表达减少",
+        "properties": {
+          "effect": "表达减少",
+          "evidence": {
+            "chunk_index": 1058,
+            "source": "凡默谷",
+            "text": "肝癌患者OCT1和OCT3表达 减少[25-26]"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_16",
+        "target_id": "ent_8",
+        "name": "肝癌导致OCT3表达减少",
+        "properties": {
+          "effect": "表达减少",
+          "evidence": {
+            "chunk_index": 1058,
+            "source": "凡默谷",
+            "text": "肝癌患者OCT1和OCT3表达 减少[25-26]"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_21",
+        "target_id": "ent_7",
+        "name": "肝硬化早期OCT1表达增加",
+        "properties": {
+          "effect": "表达增加",
+          "evidence": {
+            "chunk_index": 1058,
+            "source": "凡默谷",
+            "text": "肝硬化早期， 人OCT1表达增加"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_22",
+        "target_id": "ent_7",
+        "name": "肝硬化晚期OCT1表达减少",
+        "properties": {
+          "effect": "表达减少",
+          "evidence": {
+            "chunk_index": 1058,
+            "source": "凡默谷",
+            "text": "肝硬化晚期，OCT1表达却 减少[27-28]"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_18",
+        "target_id": "ent_7",
+        "name": "庆大霉素肾损伤导致OCT1表达增加",
+        "properties": {
+          "effect": "表达增加",
+          "evidence": {
+            "chunk_index": 1058,
+            "source": "凡默谷",
+            "text": "庆大霉素导致的肾损伤，大 鼠肾脏OCT1和MATE1表达增加"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_18",
+        "target_id": "ent_10",
+        "name": "庆大霉素肾损伤导致MATE1表达增加",
+        "properties": {
+          "effect": "表达增加",
+          "evidence": {
+            "chunk_index": 1058,
+            "source": "凡默谷",
+            "text": "庆大霉素导致的肾损伤，大 鼠肾脏OCT1和MATE1表达增加"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_18",
+        "target_id": "ent_11",
+        "name": "庆大霉素肾损伤导致OCT2表达减少",
+        "properties": {
+          "effect": "表达减少",
+          "evidence": {
+            "chunk_index": 1058,
+            "source": "凡默谷",
+            "text": "OCT2和OAT1 表达减少[29]"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_18",
+        "target_id": "ent_12",
+        "name": "庆大霉素肾损伤导致OAT1表达减少",
+        "properties": {
+          "effect": "表达减少",
+          "evidence": {
+            "chunk_index": 1058,
+            "source": "凡默谷",
+            "text": "OCT2和OAT1 表达减少[29]"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_13",
+        "target_id": "ent_19",
+        "name": "二甲双胍用于治疗糖尿病",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1058,
+            "source": "凡默谷",
+            "text": "口服降糖药二甲双胍常与质子泵抑制剂（ppi )合用，用于治疗糖尿病及其并 发症胃反流食管炎"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_14",
+        "target_id": "ent_20",
+        "name": "质子泵抑制剂用于治疗胃反流食管炎",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1058,
+            "source": "凡默谷",
+            "text": "口服降糖药二甲双胍常与质子泵抑制剂（ppi )合用，用于治疗糖尿病及其并 发症胃反流食管炎"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1058,
+    "source": "凡默谷",
+    "text": "。在4 °C条件下，由于转运体等功能失活，此时所测得的 肾清除率即为肾小球滤过率。而在37 °C条件下， 所测得的肾清除率包括恩替卡韦的肾小球滤过、肾 小管分泌及重吸收的比率。在37 C条件下用碱化 尿液抑制PEPT2的驱动力，用PEPT2的典型抑制剂 甘氨酰肌氨酸（Gly-Sar)抑制恩替卡韦经PEPT2的 重吸收，所获得的肾清除率则为肾小球滤过率'肾 小管分泌率。此时恩替卡韦的肾小管重吸收率（占 恩替卡韦肾清除率的约25% )即可根据两次肾清 除率的差值简单求出[20]。Zhu等发现，乌苯美司可 抑制甲氨蝶呤经OATs的肾排泄，增大其血药浓 度[21]。3转运体介导DDI与疾病的关系 转运体的表达和功能不仅受到生理条件的影 响，而且在机体组织器官发生病理变化时也会随 之发生改变。疾病状态下，多种转运体的表达或 功能将发生改变，其结果不仅会导致药物体内处 置过程的变化，而且会增加DDI发生率，增大药物 治疗的复杂性[22]。研究发现，胆汁淤积时，肝脏 OCT1表达减少[23-24];肝癌患者OCT1和OCT3表达 减少[25-26]。此外，在疾病进展的不同阶段，转运体 的表达或功能会发生不同的变化，如肝硬化早期， 人OCT1表达增加，而在肝硬化晚期，OCT1表达却 减少[27-28]。Ma等报道庆大霉素导致的肾损伤，大 鼠肾脏OCT1和MATE1表达增加，OCT2和OAT1 表达减少[29]。临床上，口服降糖药二甲双胍常与质子泵抑制剂（ppi )合用，用于治疗糖尿病及其并 发症胃反流食管炎"
+  }
+]

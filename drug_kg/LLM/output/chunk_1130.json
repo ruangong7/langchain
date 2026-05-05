@@ -1,0 +1,250 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Food",
+        "name": "圣约翰草",
+        "properties": {
+          "类型": "补充剂",
+          "关键成分": "强效 CYP2C19 活性诱导剂"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "多潘立酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP3A5",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "CYP2C19",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "心律失常",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "尖端扭转型室性心律失常",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "Cmax",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Indicator",
+        "name": "AUC",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "伏立康唑与利福平相互作用",
+        "properties": {
+          "mechanism": "利福平通过增加 CYP3A4、CYP3A5、CYP2C19 酶的活性或提高 P-gp 的表达，降低伏立康唑血药浓度",
+          "consequence": "伏立康唑稳态Cmax、AUC分别降低93%、96%",
+          "severity": "显著",
+          "recommendation": "临床不禁止联合使用（但效果显著降低）",
+          "evidence": {
+            "chunk_index": 1130,
+            "source": "凡默谷",
+            "text": "利福平( 600 mg，1 次/ d)可使健康志愿者服用伏立康唑( 200 mg，2 次/ d，7 d)的稳态Cmax、AUC 分别降低 93% 、96%［8］; 然而，在合 用利福平时，双倍剂量的伏立康唑也不能恢复到无利 福平时的 Cmax、AUC 水平。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "伏立康唑与圣约翰草相互作用",
+        "properties": {
+          "mechanism": "圣约翰草通过增加 CYP3A4、CYP3A5、CYP2C19 酶的活性或提高 P-gp 的表达，降低伏立康唑血药浓度",
+          "consequence": "伏立康唑AUC下降59%",
+          "severity": "显著",
+          "recommendation": "临床不禁止联合使用（但效果显著降低）",
+          "evidence": {
+            "chunk_index": 1130,
+            "source": "凡默谷",
+            "text": "一项对照研究结果显示， 伏立康唑与圣约翰草提取物联合使用后，伏立康唑AUC 下降 59%［9］。鉴于上述药物相互作用程度较为显著，故目前临床应用中不禁止上述两药与伏立康唑联合使用。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "伏立康唑与多潘立酮相互作用",
+        "properties": {
+          "mechanism": "多潘立酮主要经CYP3A4代谢，与伏立康唑竞争CYP3A4结合位点，导致伏立康唑代谢减慢；同时伏立康唑本身是CYP3A4强抑制剂，进一步抑制多潘立酮代谢",
+          "consequence": "两药体内蓄积，且均延长QT间期，双重心脏毒性导致心律失常风险显著增加，甚至致命",
+          "severity": "高",
+          "recommendation": "临床禁止联合使用",
+          "evidence": {
+            "chunk_index": 1130,
+            "source": "凡默谷",
+            "text": "多潘立酮主要代谢酶为 CYP3A4，其可通过与伏立康唑竞争代谢酶 CYP3A4 的结合位点，而使伏立康唑代谢减慢，体内蓄积导致不良反应发生风险明显增加［10］。同时，多潘立酮可致 T 间期延长而发生致命性严重室性心律失常的风险。伏立康唑既对CYP3A4 酶具有较强抑制作用，同时也已有报道少数患者用药后出现尖端扭转型室性心律失常。故多潘立酮与其合用时，可能因代谢减少，药物体内蓄积浓度升高; 及两药对心脏传导的双重抑制作用，使患者发生心律失常的风险显著增加，甚至有致命性侵害，临床禁止两药联合使用"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_1",
+        "target_id": "ent_5",
+        "name": "涉及CYP3A4"
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_1",
+        "target_id": "ent_6",
+        "name": "涉及CYP3A5"
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_1",
+        "target_id": "ent_7",
+        "name": "涉及CYP2C19"
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_1",
+        "target_id": "ent_8",
+        "name": "涉及P-gp"
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_2",
+        "target_id": "ent_5",
+        "name": "涉及CYP3A4"
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_2",
+        "target_id": "ent_6",
+        "name": "涉及CYP3A5"
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_2",
+        "target_id": "ent_7",
+        "name": "涉及CYP2C19"
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_2",
+        "target_id": "ent_8",
+        "name": "涉及P-gp"
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_3",
+        "target_id": "ent_5",
+        "name": "涉及CYP3A4"
+      },
+      {
+        "id": "rel_13",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_3",
+        "target_id": "ent_9",
+        "name": "增加心律失常风险"
+      },
+      {
+        "id": "rel_14",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_3",
+        "target_id": "ent_10",
+        "name": "增加尖端扭转型室性心律失常风险"
+      },
+      {
+        "id": "rel_15",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_1",
+        "target_id": "ent_11",
+        "name": "降低Cmax"
+      },
+      {
+        "id": "rel_16",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_1",
+        "target_id": "ent_12",
+        "name": "降低AUC"
+      },
+      {
+        "id": "rel_17",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_2",
+        "target_id": "ent_12",
+        "name": "降低AUC"
+      }
+    ],
+    "chunk_index": 1130,
+    "source": "凡默谷",
+    "text": "。3.2.3 伏立康唑与利福平及圣约翰草 ( 强效 CYP2C19 活性诱导剂) 联合利福平与圣约翰草都是主要通过增加 CYP3A4、CYP3A5、CYP2C19 酶的活性或提高 P-gp 的表达与伏立康唑发生药物相互作用。利福平的一项队列研究显示，利福平( 600 mg，1 次/ d)可使健康志愿者服用伏立康唑( 200 mg，2 次/ d，7 d)的稳态Cmax、AUC 分别降低 93% 、96%［8］; 然而，在合 用利福平时，双倍剂量的伏立康唑也不能恢复到无利 福平时的 Cmax、AUC 水平。一项对照研究结果显示， 伏立康唑与圣约翰草提取物联合使用后，伏立康唑AUC 下降 59%［9］。鉴于上述药物相互作用程度较为显著，故目前临床应用中不禁止上述两药与伏立康唑联合使用。3.2.4  伏立康唑与胃动力药多潘立酮( CYP3A4 活性抑制剂) 联合多潘立酮主要代谢酶为 CYP3A4，其可通过与伏立康唑竞争代谢酶 CYP3A4 的结合位点，而使伏立康唑代谢减慢，体内蓄积导致不良反应发生风险明显增加［10］。同时，多潘立酮可致 T 间期延长而发生致命性严重室性心律失常的风险。伏立康唑既对CYP3A4 酶具有较强抑制作用，同时也已有报道少数患者用药后出现尖端扭转型室性心律失常。故多潘立酮与其合用时，可能因代谢减少，药物体内蓄积浓度升高; 及两药对心脏传导的双重抑制作用，使患者发生心律失常的风险显著增加，甚至有致命性侵害，临床禁止两药联合使用"
+  }
+]

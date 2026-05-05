@@ -1,0 +1,239 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "羟考酮",
+        "properties": {
+          "通用名": "羟考酮",
+          "适应症": "急慢性镇痛",
+          "给药途径": "口服（默认）"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "阿片类受体激动剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP2D6",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "去甲羟考酮",
+        "properties": {
+          "通用名": "去甲羟考酮",
+          "药理活性": "有"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "羟氢吗啡酮",
+        "properties": {
+          "通用名": "羟氢吗啡酮",
+          "药理活性": "有"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "去甲羟氢吗啡酮",
+        "properties": {
+          "通用名": "去甲羟氢吗啡酮",
+          "药理活性": "有"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "酮康唑",
+        "properties": {
+          "通用名": "酮康唑"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {
+          "通用名": "伊曲康唑"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "奎尼丁",
+        "properties": {
+          "通用名": "奎尼丁"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {
+          "通用名": "利福平"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "羟考酮属于阿片类受体激动剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1186,
+            "source": "凡默谷",
+            "text": "羟考酮是阿片类受体激动剂，用于急慢性的镇痛。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "羟考酮用于急慢性镇痛",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1186,
+            "source": "凡默谷",
+            "text": "羟考酮是阿片类受体激动剂，用于急慢性的镇痛。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "羟考酮经CYP3A4代谢",
+        "properties": {
+          "mechanism": "代谢清除",
+          "evidence": {
+            "chunk_index": 1186,
+            "source": "凡默谷",
+            "text": "羟考酮主要经肝脏代谢清除，主要的代谢酶为CYP酶；主要的一级代谢产物去甲羟考酮经CYP3A4代谢产生"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "羟考酮经CYP2D6代谢",
+        "properties": {
+          "mechanism": "代谢清除",
+          "evidence": {
+            "chunk_index": 1186,
+            "source": "凡默谷",
+            "text": "另一个一级代谢产物(羟氢吗啡酮)则经CYP2D6作用产生"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "羟考酮与酮康唑联用产生DDI",
+        "properties": {
+          "mechanism": "CYP3A4抑制",
+          "effect": "体内暴露升高2倍以上，增强药理活性",
+          "evidence": {
+            "chunk_index": 1186,
+            "source": "凡默谷",
+            "text": "并进一步用该模型预测羟考酮联合CYP3A4抑制剂(酮康唑、伊曲康唑)...给药后的DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "羟考酮与伊曲康唑联用产生DDI",
+        "properties": {
+          "mechanism": "CYP3A4抑制",
+          "effect": "体内暴露升高2倍以上，增强药理活性",
+          "evidence": {
+            "chunk_index": 1186,
+            "source": "凡默谷",
+            "text": "并进一步用该模型预测羟考酮联合CYP3A4抑制剂(酮康唑、伊曲康唑)...给药后的DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "羟考酮与奎尼丁联用产生DDI",
+        "properties": {
+          "mechanism": "CYP2D6抑制",
+          "effect": "可能改变代谢产物比例，影响药理活性",
+          "evidence": {
+            "chunk_index": 1186,
+            "source": "凡默谷",
+            "text": "并进一步用该模型预测羟考酮联合...CYP2D6抑制剂(奎尼丁)...给药后的DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "羟考酮与利福平联用产生DDI",
+        "properties": {
+          "mechanism": "CYP3A4诱导",
+          "effect": "体内暴露下降50%，减弱药理活性",
+          "evidence": {
+            "chunk_index": 1186,
+            "source": "凡默谷",
+            "text": "并进一步用该模型预测羟考酮联合...CYP3A4诱导剂(利福平)给药后的DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_4",
+        "name": "去甲羟考酮经CYP2D6代谢生成去甲羟氢吗啡酮",
+        "properties": {
+          "mechanism": "二级代谢",
+          "evidence": {
+            "chunk_index": 1186,
+            "source": "凡默谷",
+            "text": "二级代谢产物(去甲羟氢吗啡酮)主要是去甲羟考酮被CYP2D6代谢产生"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1186,
+    "source": "凡默谷",
+    "text": "。此外，如代谢产物对DDIs也有贡献或者具有药理学活性，也常整合到PBPK模型中，以预测共同作用后DDIs的结果。此外，PBPK模型还可以考虑更多的因素对DDIs的贡献，比如疾病状态、年龄等。羟考酮是阿片类受体激动剂，用于急慢性的镇痛。羟考酮主要经肝脏代谢清除，主要的代谢酶为CYP酶；主要的一级代谢产物去甲羟考酮经CYP3A4代谢产生，另一个一级代谢产物(羟氢吗啡酮)则经CYP2D6作用产生，其它亚型酶的贡献可以忽略不计。二级代谢产物(去甲羟氢吗啡酮)主要是去甲羟考酮被CYP2D6代谢产生，而羟氢吗啡酮到去甲羟氢吗啡酮的转化可以忽略不计。由于羟考酮及其代谢产物主要经CYP3A4和CYP2D6代谢清除，因此推测羟考酮和这些酶的调节剂联合服用后会产生较为明显的DDIs。而文献也有报道羟考酮联合用药，发现其体内暴露会升高2倍以上或下降50%，这将分别增强或减弱其药理活性。羟考酮的三个主要代谢产物都具有药理活性，目前通常认为该药物的活性主要来自羟考酮的药理活性，不过也有报道给药后可以达到羟氢吗啡酮的药理学相对浓度。本案例的目的是期望采用GastroPlus软件建立和验证可预测羟考酮及其两个一级代谢产物、一个二级代谢的血药浓度-时间曲线的PBPK模型。并进一步用该模型预测羟考酮联合CYP3A4抑制剂(酮康唑、伊曲康唑)、CYP2D6抑制剂(奎尼丁)、CYP3A4诱导剂(利福平)给药后的DDI"
+  }
+]

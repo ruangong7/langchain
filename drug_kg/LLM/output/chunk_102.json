@@ -1,0 +1,197 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "DME",
+        "properties": {
+          "description": "Drug Metabolizing Enzymes (药物代谢酶)"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Protein",
+        "name": "人类蛋白质",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Mechanism",
+        "name": "DME的寡聚化",
+        "properties": {
+          "subtype": "同源/异源"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Mechanism",
+        "name": "转录因子调控",
+        "properties": {
+          "subtype": "激活/抑制"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Mechanism",
+        "name": "表观遗传调控",
+        "properties": {
+          "subtype": "DNA甲基化（低/高）"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Mechanism",
+        "name": "药物共代谢",
+        "properties": {
+          "subtype": "直接/间接"
+        }
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "HOSPPIs影响药物安全性和有效性",
+        "properties": {
+          "chunk_id": 102,
+          "source": "DrugAI",
+          "text": "在药物代谢中，人体蛋白与DME的相互作用（HOSPPIs）将直接影响药物的安全性和有效性(Acta Pharmacol Sin. 38: 1184-94, 2017)。"
+        }
+      },
+      {
+        "id": "ev_2",
+        "type": "Evidence",
+        "name": "DME寡聚化作用",
+        "properties": {
+          "chunk_id": 102,
+          "source": "DrugAI",
+          "text": "DME的寡聚状态常常起到核心作用，Pharmacol Ther. 204: 107414, 2019"
+        }
+      },
+      {
+        "id": "ev_3",
+        "type": "Evidence",
+        "name": "转录因子调控DME",
+        "properties": {
+          "chunk_id": 102,
+          "source": "DrugAI",
+          "text": "转录因子对DME的调控往往十分关键，Drug Metab Rev. 50: 407-14, 2018"
+        }
+      },
+      {
+        "id": "ev_4",
+        "type": "Evidence",
+        "name": "表观遗传调控DME",
+        "properties": {
+          "chunk_id": 102,
+          "source": "DrugAI",
+          "text": "对DME的表观遗传调控常常起到了驱动作用，Annu Rev Pharmacol Toxicol. 58: 161-85, 2018"
+        }
+      },
+      {
+        "id": "ev_5",
+        "type": "Evidence",
+        "name": "HOSPPIs在健康与病理状态间差异",
+        "properties": {
+          "chunk_id": 102,
+          "source": "DrugAI",
+          "text": "HOSPPIs对药物代谢的影响在健康和病理状态间也存在差异（Expert Opin Drug Metab Toxicol. 13: 605-16, 2017）。"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "人类蛋白质与DME相互作用（HOSPPIs）",
+        "properties": {
+          "mechanisms": [
+            "ent_3",
+            "ent_4",
+            "ent_5",
+            "ent_6"
+          ],
+          "evidence": [
+            {
+              "id": "ev_1",
+              "chunk_index": 102,
+              "source": "DrugAI",
+              "text": "在药物代谢中，人体蛋白与DME的相互作用（HOSPPIs）将直接影响药物的安全性和有效性(Acta Pharmacol Sin. 38: 1184-94, 2017)。"
+            },
+            {
+              "id": "ev_5",
+              "chunk_index": 102,
+              "source": "DrugAI",
+              "text": "HOSPPIs对药物代谢的影响在健康和病理状态间也存在差异（Expert Opin Drug Metab Toxicol. 13: 605-16, 2017）。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_1",
+        "target_id": "ent_3",
+        "name": "HOSPPIs包含DME寡聚化机制",
+        "properties": {
+          "evidence": [
+            {
+              "id": "ev_2",
+              "chunk_index": 102,
+              "source": "DrugAI",
+              "text": "DME的寡聚状态常常起到核心作用，Pharmacol Ther. 204: 107414, 2019"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_1",
+        "target_id": "ent_4",
+        "name": "HOSPPIs包含转录因子调控机制",
+        "properties": {
+          "evidence": [
+            {
+              "id": "ev_3",
+              "chunk_index": 102,
+              "source": "DrugAI",
+              "text": "转录因子对DME的调控往往十分关键，Drug Metab Rev. 50: 407-14, 2018"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_1",
+        "target_id": "ent_5",
+        "name": "HOSPPIs包含表观遗传调控机制",
+        "properties": {
+          "evidence": [
+            {
+              "id": "ev_4",
+              "chunk_index": 102,
+              "source": "DrugAI",
+              "text": "对DME的表观遗传调控常常起到了驱动作用，Annu Rev Pharmacol Toxicol. 58: 161-85, 2018"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_1",
+        "target_id": "ent_6",
+        "name": "HOSPPIs包含药物共代谢机制",
+        "properties": {
+          "evidence": []
+        }
+      }
+    ],
+    "chunk_index": 102,
+    "source": "DrugAI",
+    "text": "。所有的信息均按照微生物的系统发生分类（taxonomy）进行严格的标准化，并提供了详细的MICBIOs实验确证信息。3人类蛋白质与DME的相互作用在药物代谢中，人体蛋白与DME的相互作用（HOSPPIs）将直接影响药物的安全性和有效性(Acta Pharmacol Sin. 38: 1184-94, 2017)。这些HOSPPIs包括：（1）DME的寡聚化（在基于药物体外数据预测其体内疗效和代谢过程的研究中，DME的寡聚状态常常起到核心作用，Pharmacol Ther. 204: 107414, 2019）、（2）转录因子调控（在揭示耐药机制和代谢个体差异的研究中，转录因子对DME的调控往往十分关键，Drug Metab Rev. 50: 407-14, 2018）和（3）表观遗传调控（在理解药物响应的个体差异和药物不良反应中，对DME的表观遗传调控常常起到了驱动作用，Annu Rev Pharmacol Toxicol. 58: 161-85, 2018）。此外，HOSPPIs对药物代谢的影响在健康和病理状态间也存在差异（Expert Opin Drug Metab Toxicol. 13: 605-16, 2017）。因此，本研究系统整理了565个人体蛋白与566个DME间的超过七千个HOSPPIs（如下图）。具体包括DME寡聚化（同源/异源）、转录因子调控（激活/抑制）、DNA甲基化（低/高）、药物共代谢（直接/间接）等信息"
+  }
+]

@@ -1,0 +1,343 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "P-糖蛋白",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "奎尼丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "布洛芬",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "碳酸锂",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "非甾体抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "甲氨蝶呤",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "复方磺胺甲噁唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "磺胺类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "SideEffect",
+        "name": "骨髓再生不良",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "SideEffect",
+        "name": "巨幼红细胞贫血",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "美托洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "氟西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Indicator",
+        "name": "血浆浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Indicator",
+        "name": "血锂浓度",
+        "properties": {}
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "SFDA药品说明书范本",
+        "properties": {
+          "chunk_id": 1416,
+          "source": "医学资料库"
+        }
+      },
+      {
+        "id": "ev_2",
+        "type": "Evidence",
+        "name": "《中国国家处方集》编委会.中国国家处方集.化学药品与生物制品卷[S].北京:人民军医出版社,2010.963.",
+        "properties": {
+          "chunk_id": 1416,
+          "source": "医学资料库"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "地高辛与伊曲康唑相互作用",
+        "properties": {
+          "mechanism": "通过抑制P-糖蛋白",
+          "consequence": "地高辛血药浓度升高，可能中毒",
+          "recommendation": "应减少地高辛剂量，监测血浆浓度、药物作用及副作用",
+          "evidence": {
+            "chunk_index": 1416,
+            "source": "医学资料库",
+            "text": "在使用本品治疗期间需监测血浆浓度、药物作用及副作用的药物，当与伊曲康唑合用时，必要时应当减量：地高辛（通过抑制P-糖蛋白）。",
+            "evidence_id": "ev_1"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "地高辛与奎尼丁相互作用",
+        "properties": {
+          "mechanism": "奎尼丁从组织结合处置换出地高辛，减少其分布容积",
+          "consequence": "地高辛血药浓度提高约一倍，甚至达中毒浓度",
+          "recommendation": "两药合用时应酌减地高辛用量1/2～1/3",
+          "evidence": {
+            "chunk_index": 1416,
+            "source": "医学资料库",
+            "text": "与奎尼丁同用，可使本品血药浓度提高约一倍，提高程度与奎尼丁用量相关，甚至可达到中毒浓度，即使停用地高辛，其血药浓度仍继续上升，这是奎尼丁从组织结合处置换出地高辛，减少其分布容积之故。两药合用时应酌减地高辛用量1/2～1/3。",
+            "evidence_id": "ev_1"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "布洛芬与碳酸锂相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "血锂浓度升高，增加锂的毒性",
+          "recommendation": "",
+          "evidence": {
+            "chunk_index": 1416,
+            "source": "医学资料库",
+            "text": "与非甾体抗炎药〔如布洛芬、吲哚美辛)、乙醇和大多数抗精神病药合用，可使血锂浓度升高，增加锂的毒性。",
+            "evidence_id": "ev_2"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "name": "甲氨蝶呤与复方磺胺甲噁唑相互作用",
+        "properties": {
+          "mechanism": "与蛋白质结合的竞争",
+          "consequence": "甲氨蝶呤血清浓度增高，导致毒性反应",
+          "recommendation": "",
+          "evidence": {
+            "chunk_index": 1416,
+            "source": "医学资料库",
+            "text": "与保泰松和磺胺类药物同用后，因与蛋白质结合的竞争，可能会引起本品血清浓度的增高而导致毒性反应的出现。",
+            "evidence_id": "ev_1"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_14",
+        "name": "美托洛尔与氟西汀相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "美托洛尔血药浓度升高，毒性增大",
+          "recommendation": "应注意监测，必要时减少美托洛尔用量",
+          "evidence": {
+            "chunk_index": 1416,
+            "source": "医学资料库",
+            "text": "氟西汀可引起美托洛尔的血药浓度升高，毒性增大，故应注意监测，必要时减少美托洛尔的用量",
+            "evidence_id": "ev_1"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "name": "布洛芬属于非甾体抗炎药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1416,
+            "source": "医学资料库",
+            "text": "与非甾体抗炎药〔如布洛芬、吲哚美辛)",
+            "evidence_id": "ev_2"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "name": "复方磺胺甲噁唑属于磺胺类药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1416,
+            "source": "医学资料库",
+            "text": "与保泰松和磺胺类药物同用后",
+            "evidence_id": "ev_1"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_8",
+        "target_id": "ent_11",
+        "name": "甲氨蝶呤可能导致骨髓再生不良",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1416,
+            "source": "医学资料库",
+            "text": "因为有产生骨髓再生不良或巨幼红细胞贫血的可能。",
+            "evidence_id": "ev_1"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_8",
+        "target_id": "ent_12",
+        "name": "甲氨蝶呤可能导致巨幼红细胞贫血",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1416,
+            "source": "医学资料库",
+            "text": "因为有产生骨髓再生不良或巨幼红细胞贫血的可能。",
+            "evidence_id": "ev_1"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_15",
+        "name": "地高辛影响血药浓度",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1416,
+            "source": "医学资料库",
+            "text": "可使本品血药浓度提高约一倍",
+            "evidence_id": "ev_1"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_16",
+        "name": "伊曲康唑影响血浆浓度",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1416,
+            "source": "医学资料库",
+            "text": "需监测血浆浓度、药物作用及副作用的药物",
+            "evidence_id": "ev_1"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_6",
+        "target_id": "ent_17",
+        "name": "碳酸锂影响血锂浓度",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1416,
+            "source": "医学资料库",
+            "text": "可使血锂浓度升高",
+            "evidence_id": "ev_2"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_13",
+        "target_id": "ent_15",
+        "name": "美托洛尔影响血药浓度",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1416,
+            "source": "医学资料库",
+            "text": "氟西汀可引起美托洛尔的血药浓度升高",
+            "evidence_id": "ev_1"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1416,
+    "source": "医学资料库",
+    "text": "。建议要进行临床与心电图监测，必要时要调整地高辛的用量。”文献依据：SFDA药品说明书范本16、地高辛+伊曲康唑伊曲康唑“已报道本品与华法林和地高辛有相互作用。因此这些药物若与本品同服时，应减少剂量。”伊曲康唑（斯皮仁诺）“在使用本品治疗期间需监测血浆浓度、药物作用及副作用的药物，当与伊曲康唑合用时，必要时应当减量：地高辛（通过抑制P-糖蛋白）。”文献依据：SFDA药品说明书范本17、地高辛+奎尼丁地高辛“与奎尼丁同用，可使本品血药浓度提高约一倍，提高程度与奎尼丁用量相关，甚至可达到中毒浓度，即使停用地高辛，其血药浓度仍继续上升，这是奎尼丁从组织结合处置换出地高辛，减少其分布容积之故。两药合用时应酌减地高辛用量1/2～1/3。”文献依据：SFDA药品说明书范本18、布洛芬+锂盐锂盐的治疗指数低，治疗量和中毒量较接近。碳酸锂“与非甾体抗炎药〔如布洛芬、吲哚美辛)、乙醇和大多数抗精神病药合用，可使血锂浓度升高，增加锂的毒性。”文献依据：《中国国家处方集》编委会.中国国家处方集.化学药品与生物制品卷[S].北京:人民军医出版社,2010.963.19、甲氨蝶呤+复方磺胺甲噁唑甲氨蝶呤“与保泰松和磺胺类药物同用后，因与蛋白质结合的竞争，可能会引起本品血清浓度的增高而导致毒性反应的出现。”甲氧苄啶“不宜与抗肿瘤药、2,4-二氨基嘧啶类药物同时应用，也不宜在应用其他叶酸拮抗药物治疗的疗程之间应用本品。因为有产生骨髓再生不良或巨幼红细胞贫血的可能。”文献依据：SFDA药品说明书范本20、美托洛尔+氟西汀氟西汀可引起美托洛尔的血药浓度升高，毒性增大，故应注意监测，必要时减少美托洛尔的用量"
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Disease",
+        "name": "结核病",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "抗结核药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "消化系统不良反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "神经系统不良反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "泌尿系统不良反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "血液系统不良反应",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "抗结核药用于治疗结核病",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1289,
+            "source": "北京胸科医院",
+            "text": "结核病的治疗需要联用多种药物"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "抗结核药可能导致消化系统不良反应",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1289,
+            "source": "北京胸科医院",
+            "text": "常用抗结核药的不良反应涉及到消化、神经、泌尿、血液等多个系统"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "抗结核药可能导致神经系统不良反应",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1289,
+            "source": "北京胸科医院",
+            "text": "常用抗结核药的不良反应涉及到消化、神经、泌尿、血液等多个系统"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "抗结核药可能导致泌尿系统不良反应",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1289,
+            "source": "北京胸科医院",
+            "text": "常用抗结核药的不良反应涉及到消化、神经、泌尿、血液等多个系统"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "name": "抗结核药可能导致血液系统不良反应",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1289,
+            "source": "北京胸科医院",
+            "text": "常用抗结核药的不良反应涉及到消化、神经、泌尿、血液等多个系统"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1289,
+    "source": "北京胸科医院",
+    "text": "结核病的治疗需要联用多种药物，且通常病程要长达1年。常用抗结核药的不良反应涉及到消化、神经、泌尿、血液等多个系统，并常会和其他常用药物产生多种相互作用，从而既降低了抗结核作用，又增强了药物毒性！本期邀请北京胸科医院药学部副主任药师穆晓攀讲解服用抗结核药物的注意事项及药物相互作用。医生介绍穆晓攀，首都医科大学附属北京胸科医院药学部副主任药师，从事临床药学工作十年，熟悉和掌握抗结核药物在临床使用中的原则和不良反应。出用药咨询门诊门诊时间每周一上午8：00-12:00；下午13:00-16:00。 www.tv120.com 彤爱健康是 国家卫计委唯一指定“临床医生在线视频健康科普平台”，此项目隶属国家卫计委宣传司倡导支持下的“健康中国行”科普传播项目。"
+  }
+]

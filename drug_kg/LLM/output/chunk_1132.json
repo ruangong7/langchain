@@ -1,0 +1,203 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "双氯芬酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "塞来昔布",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "布洛芬",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "替诺昔康",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "吡罗昔康",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "AUC0-inf",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "FEV1/FVC",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "6MWD",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "COPD",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "双氯芬酸与伏立康唑联用时AUC0-inf增加82%",
+        "properties": {
+          "mechanism": "代谢性相互作用",
+          "effect_on_source": "AUC0-inf增加82%",
+          "effect_on_target": "血药浓度波动幅度较小",
+          "recommendation": "双氯芬酸应适当减量，伏立康唑可不调整剂量",
+          "evidence": {
+            "chunk_index": 1132,
+            "source": "凡默谷",
+            "text": "研究发现，双氯芬酸、塞来昔布、布 洛芬、替诺昔康及吡罗昔康分别与伏立康唑联用时，其AUC0 － inf 的值比单用时分别增加了 82% 、61% 、77% 、2% 和1%［13］。结果提示双氯芬酸与布洛芬血药 浓度受伏立康唑代谢性相互作用影响较明显，临床合 并用药时应适当减量，伏立康唑血药浓度波动幅度较 小可不调整剂量。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "name": "塞来昔布与伏立康唑联用时AUC0-inf增加61%",
+        "properties": {
+          "mechanism": "代谢性相互作用",
+          "effect_on_source": "AUC0-inf增加61%",
+          "effect_on_target": "血药浓度波动幅度较小",
+          "recommendation": "未明确建议调整剂量",
+          "evidence": {
+            "chunk_index": 1132,
+            "source": "凡默谷",
+            "text": "研究发现，双氯芬酸、塞来昔布、布 洛芬、替诺昔康及吡罗昔康分别与伏立康唑联用时，其AUC0 － inf 的值比单用时分别增加了 82% 、61% 、77% 、2% 和1%［13］。结果提示双氯芬酸与布洛芬血药 浓度受伏立康唑代谢性相互作用影响较明显，临床合 并用药时应适当减量，伏立康唑血药浓度波动幅度较 小可不调整剂量。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "name": "布洛芬与伏立康唑联用时AUC0-inf增加77%",
+        "properties": {
+          "mechanism": "代谢性相互作用",
+          "effect_on_source": "AUC0-inf增加77%",
+          "effect_on_target": "血药浓度波动幅度较小",
+          "recommendation": "布洛芬应适当减量，伏立康唑可不调整剂量",
+          "evidence": {
+            "chunk_index": 1132,
+            "source": "凡默谷",
+            "text": "研究发现，双氯芬酸、塞来昔布、布 洛芬、替诺昔康及吡罗昔康分别与伏立康唑联用时，其AUC0 － inf 的值比单用时分别增加了 82% 、61% 、77% 、2% 和1%［13］。结果提示双氯芬酸与布洛芬血药 浓度受伏立康唑代谢性相互作用影响较明显，临床合 并用药时应适当减量，伏立康唑血药浓度波动幅度较 小可不调整剂量。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "name": "替诺昔康与伏立康唑联用时AUC0-inf增加2%",
+        "properties": {
+          "mechanism": "代谢性相互作用",
+          "effect_on_source": "AUC0-inf增加2%",
+          "effect_on_target": "血药浓度波动幅度较小",
+          "recommendation": "未明确建议调整剂量",
+          "evidence": {
+            "chunk_index": 1132,
+            "source": "凡默谷",
+            "text": "研究发现，双氯芬酸、塞来昔布、布 洛芬、替诺昔康及吡罗昔康分别与伏立康唑联用时，其AUC0 － inf 的值比单用时分别增加了 82% 、61% 、77% 、2% 和1%［13］。结果提示双氯芬酸与布洛芬血药 浓度受伏立康唑代谢性相互作用影响较明显，临床合 并用药时应适当减量，伏立康唑血药浓度波动幅度较 小可不调整剂量。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "吡罗昔康与伏立康唑联用时AUC0-inf增加1%",
+        "properties": {
+          "mechanism": "代谢性相互作用",
+          "effect_on_source": "AUC0-inf增加1%",
+          "effect_on_target": "血药浓度波动幅度较小",
+          "recommendation": "未明确建议调整剂量",
+          "evidence": {
+            "chunk_index": 1132,
+            "source": "凡默谷",
+            "text": "研究发现，双氯芬酸、塞来昔布、布 洛芬、替诺昔康及吡罗昔康分别与伏立康唑联用时，其AUC0 － inf 的值比单用时分别增加了 82% 、61% 、77% 、2% 和1%［13］。结果提示双氯芬酸与布洛芬血药 浓度受伏立康唑代谢性相互作用影响较明显，临床合 并用药时应适当减量，伏立康唑血药浓度波动幅度较 小可不调整剂量。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "伏立康唑影响双氯芬酸等药物的AUC0-inf",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1132,
+            "source": "凡默谷",
+            "text": "研究发现，双氯芬酸、塞来昔布、布 洛芬、替诺昔康及吡罗昔康分别与伏立康唑联用时，其AUC0 － inf 的值比单用时分别增加了 82% 、61% 、77% 、2% 和1%［13］。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_8",
+        "target_id": "ent_10",
+        "name": "FEV1/FVC用于评估COPD患者肺功能",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1132,
+            "source": "凡默谷",
+            "text": "本研究对于 2 组患者的 FEV1 / FVC 进行比较，结果显示，观察组 FEV1 / FVC 水平显著高于对照组( P ＜ 0． 05) 。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "name": "6MWD用于评估COPD患者运动耐力",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1132,
+            "source": "凡默谷",
+            "text": "6MWD 是临床常用的评估运动耐力的指标，近年来也被广泛用于评估 COPD 患者的运动耐力，从而有效评估患者的康复状况，结果显示观察组的 6MWD 水平明显高于对照组( P ＜ 0． 05 ) 。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1132,
+    "source": "凡默谷",
+    "text": "。研究发现，双氯芬酸、塞来昔布、布 洛芬、替诺昔康及吡罗昔康分别与伏立康唑联用时，其AUC0 － inf 的值比单用时分别增加了 82% 、61% 、77% 、2% 和1%［13］。结果提示双氯芬酸与布洛芬血药 浓度受伏立康唑代谢性相互作用影响较明显，临床合 并用药时应适当减量，伏立康唑血药浓度波动幅度较 小可不调整剂量。综上所述，我院住院医师在使用注射用伏立康唑时，因不了解伏立康唑高风险联合用药相关情况，使治 疗中不安全的用药因素增加。为规范我院合理用药， 建议药师应及时为临床医师推送最前沿药物相互作用 研究进展，提高医师对不合理联合用药的警惕性及关 注度; ( 2) 专科药师积极参与联合用药治疗方案制定与调整，与医师沟通协作，减少高风险联合用药; ( 3 ) 同时加强药品不良反应监测力度，采取各种有效措施 保障患者的用药安全。有效的监测病情，是评估病情严重程度的重要依据，对于早期发现、鉴别诊断及监控疾病进展等具有重要的临床意义［15 － 17］。本研究对于 2 组患者的 FEV1 / FVC 进行比较，结果显示，观察组 FEV1 / FVC 水平显著高于对照组( P ＜ 0． 05) 。6MWD 是临床常用的评估运动耐力的指标，近年来也被广泛用于评估 COPD 患者的运动耐力，从而有效评估患者的康复状况，结果显示观察组的 6MWD 水平明显高于对照组( P ＜ 0． 05 ) 。上述结果提示，经过积极有效的药学干预，提高了患者的用药依从性，使药物发挥了最好的疗效，改善了患者的肺功能及康复状况"
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "CYP酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Mechanism",
+        "name": "代谢酶诱导",
+        "properties": {
+          "机制类型": "代谢酶诱导"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Mechanism",
+        "name": "代谢酶抑制",
+        "properties": {
+          "机制类型": "代谢酶抑制"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "AUCR",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Mechanism",
+        "name": "PBPK模型",
+        "properties": {
+          "机制类型": "机制模型"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "在研药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "敏感指针底物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_2",
+        "name": "在研药物具有诱导代谢酶的潜力",
+        "properties": {
+          "evidence": {
+            "chunk_index": 126,
+            "source": "GMP办公室",
+            "text": "如果任一方法的研究结果提示在研药物具有诱导代谢酶的潜力（可以采用由不同实验室针对方法1和2开发的特定临界值或者当R3≤0.8时）, 则应使用机制模型或敏感的指针底物进行临床药物相互作用研究，以进一步研究在研药物对代谢酶的诱导能力。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_3",
+        "name": "在研药物是多种CYP酶的抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 126,
+            "source": "GMP办公室",
+            "text": "当评估在研药物是否是多种CYP酶的抑制剂时，可根据R1、R2的排序或预测的AUCR值，优先使用在相同研究中获得的体外抑制参数，对各途径的敏感指示底物的CYP酶的体内DDI研究进行优先排序"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "在研药物与敏感指针底物发生药物相互作用",
+        "properties": {
+          "mechanism": "代谢酶诱导或抑制",
+          "consequence": "AUCR变化",
+          "evidence": {
+            "chunk_index": 126,
+            "source": "GMP办公室",
+            "text": "在有和无在研药物的情况下，如果根据静态或动态机制模型（例如PBPK模型）得到敏感指针底物的预测AUCR≤0.8，则应使用敏感指针底物进行临床DDI研究以进一步考察可能发生的药物相互作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_6",
+        "target_id": "ent_4",
+        "name": "在研药物影响AUCR",
+        "properties": {
+          "threshold_induction": "AUCR ≤ 0.8",
+          "threshold_inhibition": "AUCR ≥ 1.25",
+          "evidence": {
+            "chunk_index": 126,
+            "source": "GMP办公室",
+            "text": "使用机制模型预测的AUCR临界值>0.8（诱导）和<1.25（抑制）是建议的阈值以提示在研药物对代谢酶是否有影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_5",
+        "name": "使用PBPK模型预测药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 126,
+            "source": "GMP办公室",
+            "text": "或可使用PBPK模型来进行额外的研究。应验证并更新所有PBPK模型，以证明该模型能够充分描述第一次使用敏感指示底物的体内研究结果"
+          }
+        }
+      }
+    ],
+    "chunk_index": 126,
+    "source": "GMP办公室",
+    "text": "。*考虑到蛋白结合测定的不确定性，如果试验测定结果<1%，则血浆中未结合的部分应设定为1%（血浆中未结合的部分（fu,    p）= 0.01）。 在这些方法中，如果任一方法的研究结果提示在研药物具有诱导代谢酶的潜力（可以采用由不同实验室针对方法1和2开发的特定临界值或者当R3≤0.8时）,  则应使用机制模型或敏感的指针底物进行临床药物相互作用研究，以进一步研究在研药物对代谢酶的诱导能力。在有和无在研药物的情况下，如果根据静态或动态机制模型（例如PBPK模型）得到敏感指针底物的预测AUCR≤0.8，则应使用敏感指针底物进行临床DDI研究以进一步考察可能发生的药物相互作用。（3）其他注意事项使用机制模型预测的AUCR临界值>0.8（诱导）和<1.25（抑制）是建议的阈值以提示在研药物对代谢酶是否有影响。当评估在研药物是否是多种CYP酶的抑制剂时，可根据R1、R2的排序或预测的AUCR值，优先使用在相同研究中获得的体外抑制参数，对各途径的敏感指示底物的CYP酶的体内DDI研究进行优先排序，即：可首先使用具有最大R或AUCR值的CYP的敏感指示底物进行体内研究。如果该体内研究的结果显未见相互作用，则无需再进行具有较低效力（如较小的R或AUCR）的体内其他CYP酶的评估。但若该体内研究的结果显示药物与敏感指示CYP酶底物之间存在相互作用，则应对其他CYP酶作进一步的体内研究，且应先从具有次最大R或AUCR值的CYP开始。或可使用PBPK模型来进行额外的研究。应验证并更新所有PBPK模型，以证明该模型能够充分描述第一次使用敏感指示底物的体内研究结果"
+  }
+]

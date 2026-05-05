@@ -1,0 +1,227 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "阿司匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "选择性COX-2抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "NSAIDs",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "properties": {
+          "别名列表": [
+            "PPI"
+          ]
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "肠溶阿司匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "心血管疾病",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "血栓栓塞事件",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "心血管病事件",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Population",
+        "name": "胃肠道不良反应高危患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Mechanism",
+        "name": "提高胃内pH值",
+        "properties": {
+          "机制类型": "酸碱中和"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Evidence",
+        "name": "北京老年医院",
+        "properties": {
+          "chunk_id": 1288,
+          "来源类型": "其他"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "阿司匹林与选择性COX-2抑制剂联合使用",
+        "properties": {
+          "后果": "减少阿司匹林对心血管的保护效果",
+          "风险": "增加血栓栓塞事件的风险",
+          "证据": {
+            "chunk_index": 1288,
+            "source": "北京老年医院",
+            "text": "然而，由于选择性COX-2抑制剂只抑制前列环素,而不抑制血栓素A2的产生，可能会增加血栓栓塞事件的风险。因此，当小剂量阿司匹林联合使用选择性COX-2抑制剂时，可能会减少阿司匹林对心血管的保护效果。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "阿司匹林与其他NSAIDs类药物联合使用",
+        "properties": {
+          "后果": "明显增加心血管病事件风险",
+          "风险特征": [
+            "用药后一周内出现",
+            "长期用药风险更高",
+            "与剂量相关"
+          ],
+          "适用人群警示": "心血管疾病患者需谨慎",
+          "证据": {
+            "chunk_index": 1288,
+            "source": "北京老年医院",
+            "text": "研究发现，阿司匹林与其它NSAIDs类药物联合使用会明显增加心血管病事件风险，这种风险可能在用药后的一周内出现，长期用药风险更高，并与剂量相关。因此，患有心血管疾病患者在选择使用NSAIDs类药物时需要谨慎。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "质子泵抑制剂与肠溶阿司匹林联用",
+        "properties": {
+          "机制": "提高胃内pH值",
+          "后果": "不会影响肠溶阿司匹林的释放与安全性",
+          "建议": "可在胃肠道不良反应高危患者中预防性使用",
+          "证据": {
+            "chunk_index": 1288,
+            "source": "北京老年医院",
+            "text": "质子泵抑制剂（PPI）可以抑制胃酸分泌，使胃内pH值升至4左右，但胃内仍为酸性环境，肠溶阿司匹林的抗酸包衣阻止了药物在胃内释放，使其大部分仍然只在碱性环境的小肠内释放，因此联用PPI不会影响肠溶阿司匹林的释放与安全性，可在胃肠道不良反应高危患者中应该预防性使用。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "阿司匹林属于NSAIDs类药物",
+        "properties": {
+          "证据": {
+            "chunk_index": 1288,
+            "source": "北京老年医院",
+            "text": "阿司匹林与其它NSAIDs类药物联合使用"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "name": "选择性COX-2抑制剂可能导致血栓栓塞事件",
+        "properties": {
+          "证据": {
+            "chunk_index": 1288,
+            "source": "北京老年医院",
+            "text": "由于选择性COX-2抑制剂只抑制前列环素,而不抑制血栓素A2的产生，可能会增加血栓栓塞事件的风险。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "阿司匹林与NSAIDs联用增加心血管病事件风险",
+        "properties": {
+          "条件": "联合使用其它NSAIDs类药物",
+          "证据": {
+            "chunk_index": 1288,
+            "source": "北京老年医院",
+            "text": "阿司匹林与其它NSAIDs类药物联合使用会明显增加心血管病事件风险"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "name": "NSAIDs类药物在心血管疾病患者中需谨慎使用",
+        "properties": {
+          "建议": "谨慎选择，并在医生指导下合理用药",
+          "证据": {
+            "chunk_index": 1288,
+            "source": "北京老年医院",
+            "text": "患有心血管疾病患者在选择使用NSAIDs类药物时需要谨慎。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_10",
+        "name": "质子泵抑制剂通过提高胃内pH值发挥作用",
+        "properties": {
+          "证据": {
+            "chunk_index": 1288,
+            "source": "北京老年医院",
+            "text": "质子泵抑制剂（PPI）可以抑制胃酸分泌，使胃内pH值升至4左右"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "APPLIES_TO",
+        "source_id": "rel_3",
+        "target_id": "ent_9",
+        "name": "PPI与肠溶阿司匹林联用建议适用于胃肠道不良反应高危患者",
+        "properties": {
+          "建议": "预防性使用",
+          "证据": {
+            "chunk_index": 1288,
+            "source": "北京老年医院",
+            "text": "可在胃肠道不良反应高危患者中应该预防性使用。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1288,
+    "source": "北京老年医院",
+    "text": "。然而，由于选择性COX-2抑制剂只抑制前列环素,而不抑制血栓素A2的产生，可能会增加血栓栓塞事件的风险。因此，当小剂量阿司匹林联合使用选择性COX-2抑制剂时，可能会减少阿司匹林对心血管的保护效果。研究发现，阿司匹林与其它NSAIDs类药物联合使用会明显增加心血管病事件风险，这种风险可能在用药后的一周内出现，长期用药风险更高，并与剂量相关。因此，患有心血管疾病患者在选择使用NSAIDs类药物时需要谨慎。综上所述，阿司匹林与其他NSAIDs类药物联合应用时可能带来风险，特别是在心血管疾病患者中。对于这类患者，在使用NSAIDs类药物时需要谨慎选择，并在医生的指导下进行合理用药。04服用质子泵抑制剂提高胃内pH值，是否影响阿司匹林肠溶片的释放及安全性？质子泵抑制剂（PPI）可以抑制胃酸分泌，使胃内pH值升至4左右，但胃内仍为酸性环境，肠溶阿司匹林的抗酸包衣阻止了药物在胃内释放，使其大部分仍然只在碱性环境的小肠内释放，因此联用PPI不会影响肠溶阿司匹林的释放与安全性，可在胃肠道不良反应高危患者中应该预防性使用。文 / 药学部  邢玉晶编辑 / 宣传中心作者简介：邢玉晶：主管药师，药物治疗管理药师（MTM药师），神经内科临床药师，专长是老年人合理用药的管理。咨询时间：周三全天咨询地点：门诊楼一层药物治疗管理门诊就诊先预约！关注微信公众号最便捷点击链接，攻略在手"
+  }
+]

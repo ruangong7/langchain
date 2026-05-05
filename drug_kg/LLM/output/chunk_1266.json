@@ -1,0 +1,159 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "凝血因子Xa配体",
+        "properties": {
+          "通用名": "凝血因子Xa配体",
+          "成分": [
+            "三甲基胺"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "凝血因子Xa抑制剂",
+        "properties": {
+          "通用名": "凝血因子Xa抑制剂"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Food",
+        "name": "苯丙氨酸",
+        "properties": {
+          "类型": "氨基酸残基侧链"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Food",
+        "name": "酪氨酸",
+        "properties": {
+          "类型": "氨基酸残基侧链"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Food",
+        "name": "色氨酸",
+        "properties": {
+          "类型": "氨基酸残基侧链"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Mechanism",
+        "name": "Cation-π相互作用",
+        "properties": {
+          "机制类型": "静电作用"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Mechanism",
+        "name": "氢键",
+        "properties": {
+          "机制类型": "氢键"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Mechanism",
+        "name": "去溶剂化惩罚效应",
+        "properties": {
+          "机制类型": "去溶剂化惩罚效应"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "凝血因子Xa",
+        "properties": {
+          "类型": "酶"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "凝血因子Xa配体与凝血因子Xa形成Cation-π相互作用",
+        "properties": {
+          "mechanism": "Cation-π相互作用",
+          "consequence": "将活性提升到9 nM",
+          "evidence": {
+            "chunk_index": 1266,
+            "source": "分迪科技",
+            "text": "图七是凝血因子Xa及其配体的设计，作者设计了带正电的三甲基胺，并使其处于酪氨酸，苯丙氨酸，色氨酸形成的口袋中，形成了很强的Cation-π相互作用，将活性提升到9 nM"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "name": "苯丙氨酸参与Cation-π相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1266,
+            "source": "分迪科技",
+            "text": "苯环，苯酚，吲哚正是苯丙氨酸，酪氨酸，色氨酸的氨基酸残基侧链。色氨酸在生物体中的Cation-π扮演了重要角色"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "name": "酪氨酸参与Cation-π相互作用",
+        "properties": {
+          "mechanism": "氢键辅助定位增强Cation-π",
+          "evidence": {
+            "chunk_index": 1266,
+            "source": "分迪科技",
+            "text": "酪氨酸的羟基可以通过形成氢键来使酪氨酸的侧链处于一个更优的位置。另外当酪氨酸的羟基形成氢键之后，芳香环可以形成更强的Cation-π相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "色氨酸参与Cation-π相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1266,
+            "source": "分迪科技",
+            "text": "色氨酸在生物体中的Cation-π扮演了重要角色"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "name": "Cation-π相互作用涉及去溶剂化惩罚效应",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1266,
+            "source": "分迪科技",
+            "text": "针对Cation-π相互作用还有一个关键的地方就是阳离子的去溶剂化惩罚效应。上面说过K+和水的结合的−ΔH°为18 kcal/mol，说明离子在水溶液中有很强的结合，那么它与蛋白结合过程中受到的去溶剂惩罚也是在药物设计中值得重视的问题"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1266,
+    "source": "分迪科技",
+    "text": "。但是苯酚的羟基作为一个通常意义上的‘富电子基团’，在Cation-π的结合能上与苯并没有表现出有意义的差距，图四。图五：苯胺和吲哚如果苯环上取代的是氨基，那么会增强Cation-π相互作用，此外吲哚是一个能形成很强的Cation-π相互作用的官能团，图五。图六：苯，苯酚和吲哚苯环，苯酚，吲哚正是苯丙氨酸，酪氨酸，色氨酸的氨基酸残基侧链。色氨酸在生物体中的Cation-π扮演了重要角色，图六。苯丙氨酸和酪氨酸的结合能数值看起来差不多，但是其实酪氨酸在Cation-π出现频率要高得多，首先是因为Cation-π还有显著的方向性，酪氨酸的羟基可以通过形成氢键来使酪氨酸的侧链处于一个更优的位置。另外当酪氨酸的羟基形成氢键之后，芳香环可以形成更强的Cation-π相互作用。另一个表明静电作用在Cation-π中占主导地位的证据是其对距离的依赖性不大。其随距离的变化为1/rn（n<2）。那么对于药物设计而言，我们不必强求Cation-π处于绝佳的位置，相对而言自由度会高一些。图七：凝血因子和配体的结合构象我以一个例子来看一下Cation-π在药物设计当中的应用，图七是凝血因子Xa及其配体的设计，作者设计了带正电的三甲基胺，并使其处于酪氨酸，苯丙氨酸，色氨酸形成的口袋中，形成了很强的Cation-π相互作用，将活性提升到9 nM：针对Cation-π相互作用还有一个关键的地方就是阳离子的去溶剂化惩罚效应。上面说过K+和水的结合的−ΔH°为18 kcal/mol，说明离子在水溶液中有很强的结合，那么它与蛋白结合过程中受到的去溶剂惩罚也是在药物设计中值得重视的问题"
+  }
+]

@@ -1,0 +1,485 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "DOAC",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "钙通道阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "地尔硫䓬",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "达比加群",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Population",
+        "name": "中重度肾功能不全患者",
+        "properties": {
+          "判定规则": "CrCl <30-50 ml/min"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "利伐沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Population",
+        "name": "肾功能不全患者",
+        "properties": {
+          "判定规则": "CrCl<80 ml/min"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "阿哌沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "P-gp和CYP3A4诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "卡马西平",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "苯妥英钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "苯巴比妥",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "酶诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "扑米酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Indicator",
+        "name": "国际标准化比值",
+        "properties": {
+          "别名": "INR"
+        }
+      },
+      {
+        "id": "ent_21",
+        "type": "Population",
+        "name": "女性",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Population",
+        "name": "年龄较大患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Population",
+        "name": "体重较低患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Population",
+        "name": "肾功能较差患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Evidence",
+        "name": "医脉通心血管",
+        "properties": {
+          "chunk_id": "1504",
+          "source": "医脉通心血管"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "name": "属于类别",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "地尔硫䓬和维拉帕米均为钙通道阻滞剂"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "name": "属于类别",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "地尔硫䓬和维拉帕米均为钙通道阻滞剂"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "抑制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "地尔硫䓬和维拉帕米均为钙通道阻滞剂，可抑制CYP3A4和P-gp"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "name": "抑制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "地尔硫䓬和维拉帕米均为钙通道阻滞剂，可抑制CYP3A4和P-gp"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "相互作用",
+        "properties": {
+          "机制": "抑制CYP3A4和P-gp",
+          "后果": "达比加群药物水平显著升高",
+          "建议": "在服用达比加群之前服用速释型维拉帕米，可导致达比加群药物水平显著升高。在许多中重度肾功能不全（CrCl <30-50 ml/min）的患者中，应避免同时使用两种药物。",
+          "严重程度": "高",
+          "证据": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "在服用达比加群之前服用速释型维拉帕米，可导致达比加群药物水平显著升高。在许多中重度肾功能不全（CrCl <30-50 ml/min）的患者中，应避免同时使用两种药物。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "name": "相互作用",
+        "properties": {
+          "机制": "抑制CYP3A4和P-gp",
+          "后果": "利伐沙班药物水平也会升高",
+          "建议": "与地尔硫䓬同时使用时，利伐沙班药物水平也会升高，因此建议在CrCl<80 ml/min时避免同时使用。",
+          "严重程度": "高",
+          "证据": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "与地尔硫䓬同时使用时，利伐沙班药物水平也会升高，因此建议在CrCl<80 ml/min时避免同时使用。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_1",
+        "name": "属于类别",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "应避免将阿哌沙班和利伐沙班与P-gp和CYP3A4诱导剂同时使用"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_1",
+        "name": "属于类别",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "应避免将阿哌沙班和利伐沙班与P-gp和CYP3A4诱导剂同时使用"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_11",
+        "name": "相互作用",
+        "properties": {
+          "机制": "诱导P-gp和CYP3A4",
+          "建议": "应避免将阿哌沙班和利伐沙班与P-gp和CYP3A4诱导剂（如利福平、卡马西平、苯妥英钠和苯巴比妥）同时使用。",
+          "严重程度": "高",
+          "证据": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "美国食品药品监督管理局药品包装建议，应避免将阿哌沙班和利伐沙班与P-gp和CYP3A4诱导剂（如利福平、卡马西平、苯妥英钠和苯巴比妥）同时使用。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_9",
+        "name": "相互作用",
+        "properties": {
+          "机制": "诱导P-gp和CYP3A4",
+          "建议": "应避免将阿哌沙班和利伐沙班与P-gp和CYP3A4诱导剂（如利福平、卡马西平、苯妥英钠和苯巴比妥）同时使用。",
+          "严重程度": "高",
+          "证据": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "美国食品药品监督管理局药品包装建议，应避免将阿哌沙班和利伐沙班与P-gp和CYP3A4诱导剂（如利福平、卡马西平、苯妥英钠和苯巴比妥）同时使用。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_13",
+        "target_id": "ent_12",
+        "name": "属于类别",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "P-gp和CYP3A4诱导剂（如利福平、卡马西平、苯妥英钠和苯巴比妥）"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_14",
+        "target_id": "ent_12",
+        "name": "属于类别",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "P-gp和CYP3A4诱导剂（如利福平、卡马西平、苯妥英钠和苯巴比妥）"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "IN_CLASS",
+        "source_id": "ent_15",
+        "target_id": "ent_12",
+        "name": "属于类别",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "P-gp和CYP3A4诱导剂（如利福平、卡马西平、苯妥英钠和苯巴比妥）"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "IN_CLASS",
+        "source_id": "ent_16",
+        "target_id": "ent_12",
+        "name": "属于类别",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "P-gp和CYP3A4诱导剂（如利福平、卡马西平、苯妥英钠和苯巴比妥）"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_1",
+        "name": "相互作用",
+        "properties": {
+          "建议": "所有DOAC药物建议避免与其他酶诱导剂（如扑米酮）同时使用。",
+          "严重程度": "高",
+          "证据": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "所有DOAC药物建议避免与其他酶诱导剂（如扑米酮）同时使用。"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "IN_CLASS",
+        "source_id": "ent_18",
+        "target_id": "ent_17",
+        "name": "属于类别",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "其他酶诱导剂（如扑米酮）"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_19",
+        "target_id": "ent_20",
+        "name": "影响指标",
+        "properties": {
+          "建议": "需要进行国际标准化比值（INR）监测以确保华法林的药物水平是安全的",
+          "证据": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "临床中需要进行国际标准化比值（INR）监测以确保华法林的药物水平是安全的"
+          }
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_21",
+        "target_id": "ent_25",
+        "name": "增加风险",
+        "properties": {
+          "风险": "用药错误",
+          "证据": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险。"
+          }
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_22",
+        "target_id": "ent_25",
+        "name": "增加风险",
+        "properties": {
+          "风险": "用药错误",
+          "证据": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险。"
+          }
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_23",
+        "target_id": "ent_25",
+        "name": "增加风险",
+        "properties": {
+          "风险": "用药错误",
+          "证据": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险。"
+          }
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_24",
+        "target_id": "ent_25",
+        "name": "增加风险",
+        "properties": {
+          "风险": "用药错误",
+          "证据": {
+            "chunk_index": 1504,
+            "source": "医脉通心血管",
+            "text": "应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1504,
+    "source": "医脉通心血管",
+    "text": "。 表1 DOAC与抗心律失常药物相互作用的管理建议DOAC和钙通道阻滞剂地尔硫䓬和维拉帕米均为钙通道阻滞剂，可抑制CYP3A4和P-gp。在服用达比加群之前服用速释型维拉帕米，可导致达比加群药物水平显著升高。在许多中重度肾功能不全（CrCl <30-50 ml/min）的患者中，应避免同时使用两种药物。与地尔硫䓬同时使用时，利伐沙班药物水平也会升高，因此建议在CrCl<80 ml/min时避免同时使用。 表2 DOAC与钙通道阻滞剂相互作用的管理建议 DOAC和酶诱导剂 美国食品药品监督管理局药品包装建议，应避免将阿哌沙班和利伐沙班与P-gp和CYP3A4诱导剂（如利福平、卡马西平、苯妥英钠和苯巴比妥）同时使用。所有DOAC药物建议避免与其他酶诱导剂（如扑米酮）同时使用。 华法林可能具有相似的所有潜在DOAC的药物相互作用。因此，临床中需要进行国际标准化比值（INR）监测以确保华法林的药物水平是安全的，使其成为很多患者的优选。 结论 临床医生应关注DOAC与常用药物的相互作用问题，必要时，为保证安全，应调整DOAC剂量或停药。重要的是，应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险。另外，抗凝门诊随访可能是解决这些问题的有效方法"
+  }
+]

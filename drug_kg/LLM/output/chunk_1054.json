@@ -1,0 +1,209 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "白藜芦醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "乌苯美司",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "MRP2",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "PEPT1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "洛哌丁胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "奎尼丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "地高辛中毒",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "SideEffect",
+        "name": "呼吸抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "地高辛与P-gp抑制剂合用导致血药浓度升高",
+        "properties": {
+          "mechanism": "P-gp被抑制，地高辛外排减少，吸收入血增加",
+          "consequence": "地高辛血药浓度增加1〜3倍，很可能引发地高辛中毒",
+          "evidence": {
+            "chunk_index": 1054,
+            "source": "凡默谷",
+            "text": "当P-gp的底物地高辛与抑 制剂合用时，由于P-gp被抑制，地高辛的外排明 显减少，增加了地高辛吸收入血，导致地高辛血药 浓度增加1〜3倍，很可能引发地高辛中毒。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "地高辛与利福平合用导致血药浓度降低",
+        "properties": {
+          "mechanism": "利福平为P-gp诱导剂，使地高辛在小肠吸收减少",
+          "consequence": "地高辛血药浓度过低，无法发挥预期治疗效果",
+          "evidence": {
+            "chunk_index": 1054,
+            "source": "凡默谷",
+            "text": "反之，当地高辛与P-gp诱导剂利福平同时口服时， 使得地高辛在小肠吸收减少，血药浓度过低，无法 发挥预期的治疗效果[10]。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "白藜芦醇与乌苯美司联用增加乌苯美司血药浓度",
+        "properties": {
+          "mechanism": "白藜芦醇下调P-gp和MRP2表达，上调PEPT1表达",
+          "consequence": "乌苯美司在肠道吸收增加，血药浓度增大",
+          "evidence": {
+            "chunk_index": 1054,
+            "source": "凡默谷",
+            "text": "等报道，抗肿瘤药 白藜芦醇和乌苯美司联用，由于白藜芦醇下调P-gp和MRP2表达，上调PEPT1表达，从而使乌苯美 司在肠道吸收增加，血药浓度增大[11]。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "name": "洛哌丁胺与奎尼丁合用导致中枢神经系统呼吸抑制",
+        "properties": {
+          "mechanism": "奎尼丁抑制P-gp，使洛哌丁胺从血脑屏障外排减少",
+          "consequence": "进入中枢神经系统的药量大幅增加，出现严重呼吸抑制症状",
+          "evidence": {
+            "chunk_index": 1054,
+            "source": "凡默谷",
+            "text": "但当其与P-gp的抑 制剂奎尼丁合用时，导致洛哌丁胺从血脑屏障外 排减少，进人中枢神经系统的药量大幅增加，患者 出现严重呼吸抑制症状[12]。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "地高辛可能导致地高辛中毒",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1054,
+            "source": "凡默谷",
+            "text": "很可能引发地高辛中毒。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_8",
+        "target_id": "ent_11",
+        "name": "洛哌丁胺可能导致呼吸抑制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1054,
+            "source": "凡默谷",
+            "text": "止泻药洛哌丁胺有呼吸抑制作 用"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "地高辛血药浓度受P-gp调节",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1054,
+            "source": "凡默谷",
+            "text": "导致地高辛血药 浓度增加1〜3倍"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_5",
+        "target_id": "ent_12",
+        "name": "乌苯美司血药浓度受转运体调节",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1054,
+            "source": "凡默谷",
+            "text": "从而使乌苯美 司在肠道吸收增加，血药浓度增大[11]。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1054,
+    "source": "凡默谷",
+    "text": "。当P-gp的底物地高辛与抑 制剂合用时，由于P-gp被抑制，地高辛的外排明 显减少，增加了地高辛吸收入血，导致地高辛血药 浓度增加1〜3倍，很可能引发地高辛中毒。反之，当地高辛与P-gp诱导剂利福平同时口服时， 使得地高辛在小肠吸收减少，血药浓度过低，无法 发挥预期的治疗效果[10]。等报道，抗肿瘤药 白藜芦醇和乌苯美司联用，由于白藜芦醇下调P-gp和MRP2表达，上调PEPT1表达，从而使乌苯美 司在肠道吸收增加，血药浓度增大[11]。2.2转运体介导DDI对药物分布的影响转运体参与多数药物跨越毛细血管膜向组织器官的分 布过程，通过增强摄取型转运体的表达或功能，或 者抑制外排型转运体的表达或功能，可促进药物 向组织器官的分布。当同时服用两种转运体底 物、抑制剂或诱导剂时，便会发生转运体介导的 DDI。研究发现，止泻药洛哌丁胺有呼吸抑制作 用，当其单独使用时，由于大部分药物被血脑屏障 上的P-gp外排，致使进入中枢神经系统的药物减 少，不会发生呼吸抑制现象。但当其与P-gp的抑 制剂奎尼丁合用时，导致洛哌丁胺从血脑屏障外 排减少，进人中枢神经系统的药量大幅增加，患者 出现严重呼吸抑制症状[12]。值得强调的是，洛哌 丁胺血药浓度升高的时间迟于中枢神经系统副作 用表现的时间，因此单纯依靠血药浓度监测来判 断有无不良DDI是不可取的，临床医务工作者应掌握药物转运体介导的DDI，更加安全合理地使 用药物"
+  }
+]

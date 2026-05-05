@@ -1,0 +1,258 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏美替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "泽布替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "阿美替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "AST5902",
+        "properties": {
+          "成分": "伏美替尼代谢物"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "N-去甲基阿美替尼",
+        "properties": {
+          "别名": "HAS-719",
+          "成分": "阿美替尼代谢物"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "最大血药浓度",
+        "properties": {
+          "别名": "Cmax"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "血浆药时曲线下面积",
+        "properties": {
+          "别名": "AUC0—t"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "SideEffect",
+        "name": "药物相关毒性增加",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "SideEffect",
+        "name": "药物疗效降低",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "伏美替尼与伊曲康唑联用",
+        "properties": {
+          "机制": "CYP3A4强抑制",
+          "后果": {
+            "伏美替尼": {
+              "Cmax变化": "+23%",
+              "AUC0—t变化": "+1.41倍"
+            },
+            "AST5902": {
+              "Cmax变化": "-99%",
+              "AUC0—t变化": "-82%"
+            }
+          },
+          "证据": {
+            "chunk_index": 1029,
+            "source": "凡默谷",
+            "text": "健康受试者联用 CYP3A4强抑制剂伊曲康唑后，伏美替尼的最大血 药浓度（和血浆药时曲线下面积（AUC0—t)分 别升高23%和1.41倍，代谢物AST5902的Cmax和AUC0—t分别降低99%和82%"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "伏美替尼与利福平联用",
+        "properties": {
+          "机制": "CYP3A4强诱导",
+          "后果": {
+            "伏美替尼": {
+              "Cmax变化": "-60%",
+              "AUC0—t变化": "-86%"
+            },
+            "AST5902": {
+              "Cmax变化": "+1.09倍",
+              "AUC0—t变化": "无显著变化"
+            }
+          },
+          "证据": {
+            "chunk_index": 1029,
+            "source": "凡默谷",
+            "text": "联用CYP3A4强诱导 剂利福平后，伏美替尼的Cm@x和AUC0—t分别降低 60% 和 86%，AST5902 的 Cmax 升高了 1. 09 倍，AUC0—t无显著变化。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "name": "泽布替尼与伊曲康唑联用",
+        "properties": {
+          "机制": "CYP3A4强抑制",
+          "后果": {
+            "泽布替尼": {
+              "Cmax变化": "+2.6倍",
+              "AUC0—t变化": "+3.8倍"
+            }
+          },
+          "建议": "根据药动学参数降低泽布替尼给药剂量",
+          "风险": "药物相关毒性增加",
+          "证据": {
+            "chunk_index": 1029,
+            "source": "凡默谷",
+            "text": "健康受试者联用 CYP3A4强抑制剂伊曲康唑后，泽布替尼的Cm@x和 AUC。—*分别升高2.6倍和3.8倍;...药品说明书提示，当泽布替尼与CYP3A酶中 等或强效抑制剂联用时，泽布替尼的暴露量增加 可能会导致药物相关毒性增加，建议根据药动学 参数降低泽布替尼给药剂量"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_3",
+        "name": "泽布替尼与利福平联用",
+        "properties": {
+          "机制": "CYP3A4强诱导",
+          "后果": {
+            "泽布替尼": {
+              "Cmax变化": "-92.1%",
+              "AUC0—t变化": "-92.6%"
+            }
+          },
+          "建议": "临床上应避免与此类药物联用",
+          "风险": "药物疗效降低",
+          "证据": {
+            "chunk_index": 1029,
+            "source": "凡默谷",
+            "text": "联用CYP3A4强诱 导剂利福平后，泽布替尼的Cm@x和AUC。—。分别降 低92.1% 和92.6%。...将泽布替尼与 CYP3A中等或强效诱导剂联用时，泽布替尼的血 浆暴露量降低可能会降低药物疗效，临床上应避 免与此类药物联用。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "name": "泽布替尼经CYP3A4代谢",
+        "properties": {
+          "证据": {
+            "chunk_index": 1029,
+            "source": "凡默谷",
+            "text": "肝微粒体试验揭示CYP3A4酶 主要介导泽布替尼代谢。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "name": "阿美替尼经CYP3A酶代谢",
+        "properties": {
+          "证据": {
+            "chunk_index": 1029,
+            "source": "凡默谷",
+            "text": "体外试验表明阿美替尼主 要经CYP3A酶代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_3",
+        "target_id": "ent_12",
+        "name": "泽布替尼与CYP3A抑制剂联用增加毒性风险",
+        "properties": {
+          "证据": {
+            "chunk_index": 1029,
+            "source": "凡默谷",
+            "text": "泽布替尼的暴露量增加 可能会导致药物相关毒性增加"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_4",
+        "target_id": "ent_13",
+        "name": "泽布替尼与CYP3A诱导剂联用降低疗效",
+        "properties": {
+          "证据": {
+            "chunk_index": 1029,
+            "source": "凡默谷",
+            "text": "泽布替尼的血 浆暴露量降低可能会降低药物疗效"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1029,
+    "source": "凡默谷",
+    "text": "。健康受试者联用 CYP3A4强抑制剂伊曲康唑后，伏美替尼的最大血 药浓度（和血浆药时曲线下面积（AUC0—t)分 别升高23%和1.41倍，代谢物AST5902的Cmax和AUC0—t分别降低99%和82% ;联用CYP3A4强诱导 剂利福平后，伏美替尼的Cm@x和AUC0—t分别降低 60% 和 86%，AST5902 的 Cmax 升高了 1. 09 倍，AUC0—t无显著变化。1.1.2泽布替尼[10]人体放射性标记试验结果 显示，健康受试者单次口服14C-泽布替尼后，主 要以代谢产物形式自体内清除，原形药物的累积 回收率约为38%。肝微粒体试验揭示CYP3A4酶 主要介导泽布替尼代谢。健康受试者联用 CYP3A4强抑制剂伊曲康唑后，泽布替尼的Cm@x和 AUC。—*分别升高2.6倍和3.8倍;联用CYP3A4强诱 导剂利福平后，泽布替尼的Cm@x和AUC。—。分别降 低92.1% 和92.6%。药品说明书提示，当泽布替尼与CYP3A酶中 等或强效抑制剂联用时，泽布替尼的暴露量增加 可能会导致药物相关毒性增加，建议根据药动学 参数降低泽布替尼给药剂量；将泽布替尼与 CYP3A中等或强效诱导剂联用时，泽布替尼的血 浆暴露量降低可能会降低药物疗效，临床上应避 免与此类药物联用。1.1.3阿美替尼[11]体外试验表明阿美替尼主 要经CYP3A酶代谢，N-去甲基阿美替尼（HAS-719)是主要代谢产物之一，与阿美替尼具有相似 的抗肿瘤活性，其人体血浆暴露量约为原形药物 的四分之一"
+  }
+]

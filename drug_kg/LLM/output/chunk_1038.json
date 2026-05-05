@@ -1,0 +1,257 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "拉维达韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP2C19",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "吡咯替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "依非韦仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "CYP2B6",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "type": "转运体",
+          "别名": "P-糖蛋白"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "BCRP",
+        "properties": {
+          "type": "转运体",
+          "别名": "乳腺癌抗性蛋白"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "MRP",
+        "properties": {
+          "type": "转运体",
+          "别名": "多药耐药相关蛋白"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "OATP",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Enzyme",
+        "name": "OAT",
+        "properties": {
+          "type": "转运体",
+          "别名": "有机阴离子转运蛋白"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Enzyme",
+        "name": "OCT",
+        "properties": {
+          "type": "转运体",
+          "别名": "有机阳离子转运蛋白"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "达诺瑞韦钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "奈诺沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "依米他韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "泽布替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "阿美替尼",
+        "properties": {}
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": "1038",
+          "source": "凡默谷",
+          "text": "在“药物临床试验登记与信息公布平台”上， 也可查到已开展了拉维达韦对咪达唑仑（CYP3A4 底物）和奥美拉唑（CYP2C19底物）人体药动学影 响的临床试验（登记号NCT01786382)，但数据尚 未发表。另外，吡咯替尼和依非韦仑（CYP2B6底 物）的临床DDI试验正在进行中（登记号 CTR20202107)。"
+        }
+      },
+      {
+        "id": "ev_2",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": "1038",
+          "source": "凡默谷",
+          "text": "在表1所列出的药物中，共查阅到5种药物 开展了转运体相关的临床DDI试验，其中有2种 药物（达诺瑞韦钠和奈诺沙星）是作为转运体底 物，3种药物（依米他韦、泽布替尼和阿美替尼） 作为转运体抑制剂"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "拉维达韦对咪达唑仑药动学影响",
+        "properties": {
+          "mechanism": "CYP3A4底物",
+          "consequence": "人体药动学影响",
+          "evidence": {
+            "chunk_index": "1038",
+            "source": "凡默谷",
+            "text": "在“药物临床试验登记与信息公布平台”上， 也可查到已开展了拉维达韦对咪达唑仑（CYP3A4 底物）和奥美拉唑（CYP2C19底物）人体药动学影 响的临床试验（登记号NCT01786382)，但数据尚 未发表。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "拉维达韦对奥美拉唑药动学影响",
+        "properties": {
+          "mechanism": "CYP2C19底物",
+          "consequence": "人体药动学影响",
+          "evidence": {
+            "chunk_index": "1038",
+            "source": "凡默谷",
+            "text": "在“药物临床试验登记与信息公布平台”上， 也可查到已开展了拉维达韦对咪达唑仑（CYP3A4 底物）和奥美拉唑（CYP2C19底物）人体药动学影 响的临床试验（登记号NCT01786382)，但数据尚 未发表。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "吡咯替尼和依非韦仑临床DDI试验",
+        "properties": {
+          "mechanism": "CYP2B6底物",
+          "evidence": {
+            "chunk_index": "1038",
+            "source": "凡默谷",
+            "text": "另外，吡咯替尼和依非韦仑（CYP2B6底 物）的临床DDI试验正在进行中（登记号 CTR20202107)。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "咪达唑仑是CYP3A4底物",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1038",
+            "source": "凡默谷",
+            "text": "咪达唑仑（CYP3A4 底物）"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "奥美拉唑是CYP2C19底物",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1038",
+            "source": "凡默谷",
+            "text": "奥美拉唑（CYP2C19底物）"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "name": "依非韦仑是CYP2B6底物",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1038",
+            "source": "凡默谷",
+            "text": "依非韦仑（CYP2B6底 物）"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1038,
+    "source": "凡默谷",
+    "text": "。在“药物临床试验登记与信息公布平台”上， 也可查到已开展了拉维达韦对咪达唑仑（CYP3A4 底物）和奥美拉唑（CYP2C19底物）人体药动学影 响的临床试验（登记号NCT01786382)，但数据尚 未发表。另外，吡咯替尼和依非韦仑（CYP2B6底 物）的临床DDI试验正在进行中（登记号 CTR20202107)。2基于转运体的临床DDIS  大量研究表明转运体在药物的体内处置、药 物疗效和药物不良反应等方面都起着重要的作 用[32—33]。药物转运蛋白通常分为溶质载体（solute carrier, SLC) 家族和 ATP 结合盒 （ATP binding cassette, ABC)家族。广泛研究的ABC家族转运 蛋白包括P-糖蛋白（P-glycoprotein, P-gp)、乳腺 癌抗性蛋白（breast cancer resistance protein, BCRP)和多药耐药相关蛋白（multidrug resistance-associated protein, MRP)。与药物转运有关 的SLC系列转运蛋白主要包括OATP、有机阴离子 转运蛋白（organic anion transporter, 0AT)和有机 阳离子转运蛋白（organic cation transporter, OCT)等。以上转运蛋白通常在与药物处置有关的组织中表达，如小肠、肝脏和肾脏[34]。在表1所列出的药物中，共查阅到5种药物 开展了转运体相关的临床DDI试验，其中有2种 药物（达诺瑞韦钠和奈诺沙星）是作为转运体底 物，3种药物（依米他韦、泽布替尼和阿美替尼） 作为转运体抑制剂"
+  }
+]

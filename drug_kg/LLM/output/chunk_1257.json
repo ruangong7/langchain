@@ -1,0 +1,436 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "辛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "肌病",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "横纹肌溶解",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "急性肾衰",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "肌酸激酶",
+        "properties": {
+          "别名": [
+            "CK"
+          ]
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "卡马西平",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "对乙酰氨基酚",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "肝坏死",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "SideEffect",
+        "name": "肝毒性",
+        "properties": {
+          "默认严重程度": "中"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "双氢麦角胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "精神错乱",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "SideEffect",
+        "name": "共济失调",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "SideEffect",
+        "name": "惊厥",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "SideEffect",
+        "name": "手足灰白发冷",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "SideEffect",
+        "name": "感觉障碍",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "昏迷",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "SideEffect",
+        "name": "呼吸麻痹",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "环磷酰胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "吲哚美辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "DrugClass",
+        "name": "非甾体抗炎药",
+        "properties": {
+          "别名列表": [
+            "NSAID"
+          ]
+        }
+      },
+      {
+        "id": "ent_24",
+        "type": "SideEffect",
+        "name": "急性水中毒",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_25",
+        "type": "Mechanism",
+        "name": "抑制代谢",
+        "properties": {
+          "机制类型": "抑制代谢"
+        }
+      },
+      {
+        "id": "ent_26",
+        "type": "Mechanism",
+        "name": "肝药酶诱导",
+        "properties": {
+          "机制类型": "肝药酶诱导"
+        }
+      },
+      {
+        "id": "ent_27",
+        "type": "Mechanism",
+        "name": "增加抗利尿激素分泌",
+        "properties": {
+          "机制类型": "增加抗利尿激素分泌"
+        }
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "凯德传媒肾脏时讯",
+        "properties": {
+          "chunk_id": 1257,
+          "来源类型": "公众号",
+          "分块ID": 1257,
+          "来源": "凯德传媒肾脏时讯"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "红霉素与辛伐他汀合用",
+        "properties": {
+          "mechanism": "红霉素为CYP3A4抑制剂，抑制辛伐他汀代谢",
+          "consequence": "增加肌病、横纹肌溶解、急性肾衰风险",
+          "recommendation": "避免合用；如必须合用，暂停辛伐他汀",
+          "severity": "高",
+          "evidence": {
+            "chunk_index": 1257,
+            "source": "凯德传媒肾脏时讯",
+            "text": "使用辛伐他汀时，要避免同时应用CYP3A4抑制剂（如伊曲康唑、酮康唑、红霉素、克拉霉素）。如果不可避免同用，要暂停辛伐他汀的应用。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "红霉素抑制CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "辛伐他汀可能导致肌病",
+        "properties": {}
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "肌病可进展为横纹肌溶解",
+        "properties": {}
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "横纹肌溶解可导致急性肾衰",
+        "properties": {}
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "肌病伴随肌酸激酶升高",
+        "properties": {}
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "name": "卡马西平与对乙酰氨基酚合用",
+        "properties": {
+          "mechanism": "卡马西平为肝药酶诱导剂，加速对乙酰氨基酚代谢产生活性毒性代谢物",
+          "consequence": "增加肝坏死风险，可能降低对乙酰氨基酚疗效",
+          "recommendation": "避免长期大量或单次超量合用",
+          "severity": "高",
+          "evidence": {
+            "chunk_index": 1257,
+            "source": "凯德传媒肾脏时讯",
+            "text": "卡马西平与对乙酰氨基酚合用，尤其是单次超量或长期大量，肝脏中毒的危险增加，有可能使对乙酰氨基酚疗效降低。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "name": "对乙酰氨基酚可能导致肝坏死",
+        "properties": {}
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_8",
+        "target_id": "ent_11",
+        "name": "卡马西平具有一定肝毒性",
+        "properties": {}
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_26",
+        "name": "卡马西平具有肝药酶诱导作用",
+        "properties": {}
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_13",
+        "name": "克拉霉素与双氢麦角胺合用",
+        "properties": {
+          "mechanism": "克拉霉素为CYP3A4强抑制剂，抑制双氢麦角胺代谢",
+          "consequence": "双氢麦角胺血药浓度升高，引起严重中毒（精神错乱、共济失调、惊厥、手足灰白发冷、感觉障碍、昏迷、呼吸麻痹）",
+          "recommendation": "禁止合用",
+          "severity": "高",
+          "evidence": {
+            "chunk_index": 1257,
+            "source": "凯德传媒肾脏时讯",
+            "text": "克拉霉素属于CYP3A4强抑制剂，可抑制麦角胺、双氢麦角胺的体内代谢致使其血药浓度升高，可引起严重中毒。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_12",
+        "target_id": "ent_3",
+        "name": "克拉霉素抑制CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_13",
+        "target_id": "ent_14",
+        "name": "双氢麦角胺过量可致精神错乱",
+        "properties": {}
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_13",
+        "target_id": "ent_15",
+        "name": "双氢麦角胺过量可致共济失调",
+        "properties": {}
+      },
+      {
+        "id": "rel_15",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_13",
+        "target_id": "ent_16",
+        "name": "双氢麦角胺过量可致惊厥",
+        "properties": {}
+      },
+      {
+        "id": "rel_16",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_13",
+        "target_id": "ent_17",
+        "name": "双氢麦角胺过量可致手足灰白发冷",
+        "properties": {}
+      },
+      {
+        "id": "rel_17",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_13",
+        "target_id": "ent_18",
+        "name": "双氢麦角胺过量可致感觉障碍",
+        "properties": {}
+      },
+      {
+        "id": "rel_18",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_13",
+        "target_id": "ent_19",
+        "name": "双氢麦角胺过量可致昏迷",
+        "properties": {}
+      },
+      {
+        "id": "rel_19",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_13",
+        "target_id": "ent_20",
+        "name": "双氢麦角胺过量可致呼吸麻痹",
+        "properties": {}
+      },
+      {
+        "id": "rel_20",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_21",
+        "target_id": "ent_22",
+        "name": "环磷酰胺与吲哚美辛合用",
+        "properties": {
+          "mechanism": "吲哚美辛增加抗利尿激素分泌",
+          "consequence": "两药联用可能导致急性水中毒",
+          "recommendation": "必要时进行监测",
+          "severity": "中",
+          "evidence": {
+            "chunk_index": 1257,
+            "source": "凯德传媒肾脏时讯",
+            "text": "NSAID可增加抗利尿激素的分泌，两药联用可能导致急性水中毒，必要时进行监测。"
+          }
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "IN_CLASS",
+        "source_id": "ent_22",
+        "target_id": "ent_23",
+        "name": "吲哚美辛属于非甾体抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "rel_22",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_22",
+        "target_id": "ent_27",
+        "name": "吲哚美辛增加抗利尿激素分泌",
+        "properties": {}
+      },
+      {
+        "id": "rel_23",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_21",
+        "target_id": "ent_24",
+        "name": "环磷酰胺与NSAID联用可致急性水中毒",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1257,
+    "source": "凯德传媒肾脏时讯",
+    "text": "临床一些药物的相互作用，会危及患者生命，这些药物一同使用时，一定要注意！来源：药评中心1、红霉素+辛伐他汀与其它HMG-COA还原酶抑制剂一样，辛伐他汀偶尔能引起肌病，表现为肌肉痛、触痛或乏力，并伴随肌酸激酶（CK）升高。肌病有时形成横纹肌溶解，伴或不伴继发于肌红蛋白尿的急性肾衰，由此可发生致命性事件。使用辛伐他汀时，要避免同时应用CYP3A4抑制剂（如伊曲康唑、酮康唑、红霉素、克拉霉素）。如果不可避免同用，要暂停辛伐他汀的应用。文献依据：SFDA药品说明书范本2、卡马西平+对乙酰氨基酚对乙酰氨基酚的最严重不良反应是肝坏死。卡马西平属肝药酶诱导剂，而且有一定的肝毒性。卡马西平与对乙酰氨基酚合用，尤其是单次超量或长期大量，肝脏中毒的危险增加，有可能使对乙酰氨基酚疗效降低。文献依据：SFDA药品说明书范本3、克拉霉素+双氢麦角胺麦角胺、双氢麦角胺、麦角胺咖啡因逾量可引起严重中毒，急性中毒症状为精神错乱、共济失调、惊厥、手足灰白发冷、感觉障碍，甚至因昏迷与呼吸麻痹而死亡。克拉霉索属于CYP3A4强抑制剂，可抑制麦角胺、双氢麦角胺的体内代谢致使其血药浓度升高，可引起严重中毒。文献依据：SFDA药品说明书范本4、环磷酰胺+吲哚美辛NSAID可增加抗利尿激素的分泌，两药联用可能导致急性水中毒，必要时进行监测。其他非甾体抗炎药也可能发生相似的相互作用"
+  }
+]

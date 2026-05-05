@@ -1,0 +1,510 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "β-内酰胺类抗菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "不耐酶青霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "不耐酶头孢菌素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "克拉维酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "青霉烷砜(三唑巴坦)",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "主要经肾小管排泄的β-内酰胺类",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "丙磺舒",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "保泰松",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "阿司匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "吲哚美辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "磺胺药",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "硫氧唑酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "蛋白结合率高的β-内酰胺类抗菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "蛋白结合率高的非甾体抗炎剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "头孢噻啶",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "头孢噻吩",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "第一代头孢菌素",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "DrugClass",
+        "name": "氨基糖苷类",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "DrugClass",
+        "name": "髓袢利尿剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "DrugClass",
+        "name": "多肽抗菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "多粘菌素",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "万古霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Drug",
+        "name": "卷曲霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Drug",
+        "name": "杆菌肽",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "DrugClass",
+        "name": "氨基青霉素类",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "DrugClass",
+        "name": "具甲基四氮唑的头孢菌素",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Drug",
+        "name": "拉氧头孢",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Drug",
+        "name": "别嘌醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "Food",
+        "name": "乙醇",
+        "properties": {
+          "type": "饮品"
+        }
+      },
+      {
+        "id": "ent_30",
+        "type": "DrugClass",
+        "name": "口服抗凝血药",
+        "properties": {}
+      },
+      {
+        "id": "ent_31",
+        "type": "DrugClass",
+        "name": "广谱青霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_32",
+        "type": "Drug",
+        "name": "口服避孕药",
+        "properties": {}
+      },
+      {
+        "id": "ent_33",
+        "type": "DrugClass",
+        "name": "雌激素",
+        "properties": {}
+      },
+      {
+        "id": "ent_34",
+        "type": "DrugClass",
+        "name": "β-阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_35",
+        "type": "Drug",
+        "name": "庆大霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_36",
+        "type": "Drug",
+        "name": "妥布霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_37",
+        "type": "SideEffect",
+        "name": "肾毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_38",
+        "type": "SideEffect",
+        "name": "皮疹",
+        "properties": {}
+      },
+      {
+        "id": "ent_39",
+        "type": "SideEffect",
+        "name": "戒酒硫样反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_40",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_41",
+        "type": "Disease",
+        "name": "低凝血酶原血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_42",
+        "type": "Mechanism",
+        "name": "酶抑制",
+        "properties": {
+          "机制类型": "酶抑制"
+        }
+      },
+      {
+        "id": "ent_43",
+        "type": "Mechanism",
+        "name": "肾小管排泄竞争",
+        "properties": {
+          "机制类型": "排泄竞争"
+        }
+      },
+      {
+        "id": "ent_44",
+        "type": "Mechanism",
+        "name": "蛋白结合竞争",
+        "properties": {
+          "机制类型": "蛋白结合置换"
+        }
+      },
+      {
+        "id": "ent_45",
+        "type": "Mechanism",
+        "name": "肠道菌群改变",
+        "properties": {
+          "机制类型": "肠道菌群改变"
+        }
+      },
+      {
+        "id": "ent_46",
+        "type": "Mechanism",
+        "name": "药物失活",
+        "properties": {
+          "机制类型": "配伍沉淀"
+        }
+      },
+      {
+        "id": "ent_47",
+        "type": "Evidence",
+        "name": "医学推荐",
+        "properties": {
+          "chunk_id": "1339",
+          "source": "医学推荐"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "不耐酶青霉素与克拉维酸相互作用",
+        "properties": {
+          "mechanism": "防止抗菌药物被β-内酰胺酶破坏",
+          "result": "增强抗菌作用",
+          "evidence": {
+            "chunk_index": "1339",
+            "source": "医学推荐",
+            "text": "不耐酶青霉素或不耐酶头孢菌素酶抑制剂、克拉维酸或青霉烷砜(三唑巴坦)防止抗菌药物被β-内酰胺酶破坏，增强抗菌作用"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "不耐酶头孢菌素与克拉维酸相互作用",
+        "properties": {
+          "mechanism": "防止抗菌药物被β-内酰胺酶破坏",
+          "result": "增强抗菌作用",
+          "evidence": {
+            "chunk_index": "1339",
+            "source": "医学推荐",
+            "text": "不耐酶青霉素或不耐酶头孢菌素酶抑制剂、克拉维酸或青霉烷砜(三唑巴坦)防止抗菌药物被β-内酰胺酶破坏，增强抗菌作用"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "不耐酶青霉素与青霉烷砜(三唑巴坦)相互作用",
+        "properties": {
+          "mechanism": "防止抗菌药物被β-内酰胺酶破坏",
+          "result": "增强抗菌作用",
+          "evidence": {
+            "chunk_index": "1339",
+            "source": "医学推荐",
+            "text": "不耐酶青霉素或不耐酶头孢菌素酶抑制剂、克拉维酸或青霉烷砜(三唑巴坦)防止抗菌药物被β-内酰胺酶破坏，增强抗菌作用"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "name": "不耐酶头孢菌素与青霉烷砜(三唑巴坦)相互作用",
+        "properties": {
+          "mechanism": "防止抗菌药物被β-内酰胺酶破坏",
+          "result": "增强抗菌作用",
+          "evidence": {
+            "chunk_index": "1339",
+            "source": "医学推荐",
+            "text": "不耐酶青霉素或不耐酶头孢菌素酶抑制剂、克拉维酸或青霉烷砜(三唑巴坦)防止抗菌药物被β-内酰胺酶破坏，增强抗菌作用"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "主要经肾小管排泄的β-内酰胺类与丙磺舒相互作用",
+        "properties": {
+          "mechanism": "通过减少β-内酰胺类药物在肾小管排泄",
+          "result": "使血药浓度和脑脊液药物浓度提高",
+          "evidence": {
+            "chunk_index": "1339",
+            "source": "医学推荐",
+            "text": "主要经肾小管排泄的β-内酰胺类丙磺舒、保泰松、阿司匹林、吲哚美辛、磺胺药、硫氧唑酮通过减少β-内酰胺类药物在肾小管排泄，使血药浓度和脑脊液药物浓度提高"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_14",
+        "name": "蛋白结合率高的β-内酰胺类与蛋白结合率高的非甾体抗炎剂相互作用",
+        "properties": {
+          "mechanism": "通过蛋白结合竞争",
+          "result": "可使游离抗菌药物的浓度增高",
+          "evidence": {
+            "chunk_index": "1339",
+            "source": "医学推荐",
+            "text": "蛋白结合率高的β-内酰胺类抗菌药物蛋白结合率高的非甾体抗炎剂通过蛋白结合竞争可使游离抗菌药物的浓度增高"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_18",
+        "name": "头孢噻啶与氨基糖苷类相互作用",
+        "properties": {
+          "result": "增加肾毒性",
+          "evidence": {
+            "chunk_index": "1339",
+            "source": "医学推荐",
+            "text": "头孢噻啶、头孢噻吩等第一代头孢菌素氨基糖苷类、髓袢利尿剂、多肽抗菌药物(多粘菌素、万古霉素、卷曲霉素、杆菌肽等)增加肾毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_16",
+        "target_id": "ent_18",
+        "name": "头孢噻吩与氨基糖苷类相互作用",
+        "properties": {
+          "result": "增加肾毒性",
+          "evidence": {
+            "chunk_index": "1339",
+            "source": "医学推荐",
+            "text": "头孢噻啶、头孢噻吩等第一代头孢菌素氨基糖苷类、髓袢利尿剂、多肽抗菌药物(多粘菌素、万古霉素、卷曲霉素、杆菌肽等)增加肾毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_25",
+        "target_id": "ent_28",
+        "name": "氨基青霉素类与别嘌醇相互作用",
+        "properties": {
+          "result": "增加皮疹发生率",
+          "evidence": {
+            "chunk_index": "1339",
+            "source": "医学推荐",
+            "text": "氨基青霉素类、具甲基四氮唑的头孢菌素和拉氧头孢尿酸抑制剂(别嘌醇)、乙醇(应用头孢菌素类后饮酒)、口服抗凝血药、阿司匹林增加皮疹发生率；出现戒酒硫样反应；增加出血危险性(由于低凝血酶原血症)；防止此类头孢菌素引起的出血反应"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_26",
+        "target_id": "ent_29",
+        "name": "具甲基四氮唑的头孢菌素与乙醇相互作用",
+        "properties": {
+          "result": "出现戒酒硫样反应",
+          "evidence": {
+            "chunk_index": "1339",
+            "source": "医学推荐",
+            "text": "氨基青霉素类、具甲基四氮唑的头孢菌素和拉氧头孢尿酸抑制剂(别嘌醇)、乙醇(应用头孢菌素类后饮酒)、口服抗凝血药、阿司匹林增加皮疹发生率；出现戒酒硫样反应；增加出血危险性(由于低凝血酶原血症)；防止此类头孢菌素引起的出血反应"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_26",
+        "target_id": "ent_30",
+        "name": "具甲基四氮唑的头孢菌素与口服抗凝血药相互作用",
+        "properties": {
+          "result": "增加出血危险性(由于低凝血酶原血症)",
+          "evidence": {
+            "chunk_index": "1339",
+            "source": "医学推荐",
+            "text": "氨基青霉素类、具甲基四氮唑的头孢菌素和拉氧头孢尿酸抑制剂(别嘌醇)、乙醇(应用头孢菌素类后饮酒)、口服抗凝血药、阿司匹林增加皮疹发生率；出现戒酒硫样反应；增加出血危险性(由于低凝血酶原血症)；防止此类头孢菌素引起的出血反应"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_26",
+        "target_id": "ent_9",
+        "name": "具甲基四氮唑的头孢菌素与阿司匹林相互作用",
+        "properties": {
+          "result": "增加出血危险性(由于低凝血酶原血症)",
+          "evidence": {
+            "chunk_index": "1339",
+            "source": "医学推荐",
+            "text": "氨基青霉素类、具甲基四氮唑的头孢菌素和拉氧头孢尿酸抑制剂(别嘌醇)、乙醇(应用头孢菌素类后饮酒)、口服抗凝血药、阿司匹林增加皮疹发生率；出现戒酒硫样反应；增加出血危险性(由于低凝血酶原血症)；防止此类头孢菌素引起的出血反应"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_31",
+        "target_id": "ent_32",
+        "name": "广谱青霉素与口服避孕药相互作用",
+        "properties": {
+          "mechanism": "通过青霉素清除能阻碍避孕药失活的肠道细菌",
+          "result": "使避孕药失效",
+          "evidence": {
+            "chunk_index": "1339",
+            "source": "医学推荐",
+            "text": "广谱青霉素口服避孕药、雌激素、β-阻滞剂通过青霉素清除能阻碍避孕药失活的肠道细菌，使避孕药失效；刺激雌激素代谢或减少肠肝循环，降效；减少β-阻滞剂在肠道吸收"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1339,
+    "source": "医学推荐",
+    "text": "！β-内酰胺类抗菌药物抗菌药物类别配伍药物相互作用结果不耐酶青霉素或不耐酶头孢菌素酶抑制剂、克拉维酸或青霉烷砜(三唑巴坦)防止抗菌药物被β-内酰胺酶破坏，增强抗菌作用主要经肾小管排泄的β-内酰胺类丙磺舒、保泰松、阿司匹林、吲哚美辛、磺胺药、硫氧唑酮通过减少β-内酰胺类药物在肾小管排泄，使血药浓度和脑脊液药物浓度提高蛋白结合率高的β-内酰胺类抗菌药物蛋白结合率高的非甾体抗炎剂通过蛋白结合竞争可使游离抗菌药物的浓度增高头孢噻啶、头孢噻吩等第一代头孢菌素氨基糖苷类、髓袢利尿剂、多肽抗菌药物(多粘菌素、万古霉素、卷曲霉素、杆菌肽等)增加肾毒性氨基青霉素类、具甲基四氮唑的头孢菌素和拉氧头孢尿酸抑制剂(别嘌醇)、乙醇(应用头孢菌素类后饮酒)、口服抗凝血药、阿司匹林增加皮疹发生率；出现戒酒硫样反应；增加出血危险性(由于低凝血酶原血症)；防止此类头孢菌素引起的出血反应广谱青霉素口服避孕药、雌激素、β-阻滞剂通过青霉素清除能阻碍避孕药失活的肠道细菌，使避孕药失效；刺激雌激素代谢或减少肠肝循环，降效；减少β-阻滞剂在肠道吸收β-内酰胺类氨基糖苷类(尤其是庆大霉素、妥布霉素)两者在同一容器内滴注或注射，前者可使后者失活"
+  }
+]

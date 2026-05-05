@@ -1,0 +1,265 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "米托蒽醌",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "甘替司匹布",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "CI1040",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "CB1954",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "奥沙利铂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "细菌硝基还原酶",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Food",
+        "name": "肠道微生物群",
+        "properties": {
+          "类型": "微生物群"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "治疗效率降低",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "治疗效率增加",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Mechanism",
+        "name": "硝基还原为氨基",
+        "properties": {
+          "机制类型": "代谢转化"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "iNOS表达",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Population",
+        "name": "小鼠",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "米托蒽醌与肠道微生物群相互作用",
+        "properties": {
+          "后果": "治疗效率降低42%",
+          "证据": {
+            "chunk_index": 109,
+            "source": "EngineeringForLife",
+            "text": "与EM孵育后，米托蒽醌、甘替司匹布和CI1040的治疗效率分别降低了42%、30%和43%（图4b-e）"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "name": "甘替司匹布与肠道微生物群相互作用",
+        "properties": {
+          "后果": "治疗效率降低30%",
+          "证据": {
+            "chunk_index": 109,
+            "source": "EngineeringForLife",
+            "text": "与EM孵育后，米托蒽醌、甘替司匹布和CI1040的治疗效率分别降低了42%、30%和43%（图4b-e）"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "name": "CI1040与肠道微生物群相互作用",
+        "properties": {
+          "后果": "治疗效率降低43%",
+          "证据": {
+            "chunk_index": 109,
+            "source": "EngineeringForLife",
+            "text": "与EM孵育后，米托蒽醌、甘替司匹布和CI1040的治疗效率分别降低了42%、30%和43%（图4b-e）"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "CB1954与肠道微生物群相互作用",
+        "properties": {
+          "后果": "治疗效率增加60%",
+          "机制": "CB1954的硝基被还原为一个氨基，可能是由于肠道微生物群中广泛表达的细菌硝基还原酶",
+          "证据": {
+            "chunk_index": 109,
+            "source": "EngineeringForLife",
+            "text": "CB1954的治疗效率增加了60%。...CB1954的硝基被还原为一个氨基，可能是由于肠道微生物群中广泛表达的细菌硝基还原酶（图4l）"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "name": "奥沙利铂与肠道微生物群相互作用",
+        "properties": {
+          "后果": "治疗效果提高",
+          "机制": "肠道微生物群可以以免疫依赖的方式促进奥沙利铂的作用",
+          "证据": {
+            "chunk_index": 109,
+            "source": "EngineeringForLife",
+            "text": "在EM和肿瘤来源的类器官共培养后，奥沙利铂的治疗效果提高了，这与体内的结果一致。（图4g)。iNOS，促炎M1巨噬细胞的标志物的表达在EM处理的类器官中显著增加，提示肠道微生物群可以以免疫依赖的方式促进奥沙利铂的作用（图4h）"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_4",
+        "target_id": "ent_6",
+        "name": "CB1954与肠道微生物群相互作用通过细菌硝基还原酶",
+        "properties": {
+          "证据": {
+            "chunk_index": 109,
+            "source": "EngineeringForLife",
+            "text": "CB1954的硝基被还原为一个氨基，可能是由于肠道微生物群中广泛表达的细菌硝基还原酶（图4l）"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_11",
+        "name": "肠道微生物群影响iNOS表达",
+        "properties": {
+          "变化方向": "增加",
+          "证据": {
+            "chunk_index": 109,
+            "source": "EngineeringForLife",
+            "text": "iNOS，促炎M1巨噬细胞的标志物的表达在EM处理的类器官中显著增加，提示肠道微生物群可以以免疫依赖的方式促进奥沙利铂的作用（图4h）"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "米托蒽醌导致治疗效率降低",
+        "properties": {
+          "证据": {
+            "chunk_index": 109,
+            "source": "EngineeringForLife",
+            "text": "与EM孵育后，米托蒽醌、甘替司匹布和CI1040的治疗效率分别降低了42%、30%和43%（图4b-e）"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "name": "甘替司匹布导致治疗效率降低",
+        "properties": {
+          "证据": {
+            "chunk_index": 109,
+            "source": "EngineeringForLife",
+            "text": "与EM孵育后，米托蒽醌、甘替司匹布和CI1040的治疗效率分别降低了42%、30%和43%（图4b-e）"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "name": "CI1040导致治疗效率降低",
+        "properties": {
+          "证据": {
+            "chunk_index": 109,
+            "source": "EngineeringForLife",
+            "text": "与EM孵育后，米托蒽醌、甘替司匹布和CI1040的治疗效率分别降低了42%、30%和43%（图4b-e）"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_4",
+        "target_id": "ent_9",
+        "name": "CB1954导致治疗效率增加",
+        "properties": {
+          "证据": {
+            "chunk_index": 109,
+            "source": "EngineeringForLife",
+            "text": "CB1954的治疗效率增加了60%。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_5",
+        "target_id": "ent_9",
+        "name": "奥沙利铂导致治疗效果提高",
+        "properties": {
+          "证据": {
+            "chunk_index": 109,
+            "source": "EngineeringForLife",
+            "text": "在EM和肿瘤来源的类器官共培养后，奥沙利铂的治疗效果提高了，这与体内的结果一致。（图4g)"
+          }
+        }
+      }
+    ],
+    "chunk_index": 109,
+    "source": "EngineeringForLife",
+    "text": "。肠道组织仍然保持着新鲜肠道的形态结构，肠道绒毛上覆盖着粘蛋白（Muc2）（图3j）。与新鲜肠道组织相比，在LCC培养的组织中有2700个基因的表达显著，但在EM组中仅发现了677个差异表达的基因（图3k）。反应组富集分析显示，LCC组有35个信号通路发生了变化，而EM组中只有两条途径富集，说明EM对肠道组织的影响与肠道微生物群的影响很接近（图3l）。图3 宿主成分与EM共培养【EM药物反应的研究】作者接下来进一步研究了化疗药物对有/没有EM的肿瘤细胞的细胞毒性的差异（图4a）。与EM孵育后，米托蒽醌、甘替司匹布和CI1040的治疗效率分别降低了42%、30%和43%（图4b-e），而CB1954的治疗效率增加了60%。奥沙利铂对未处理小鼠的治疗效果优于抗生素（Abx）预处理的小鼠，而EM建模没有观察到显著差异（图4f）。在EM和肿瘤来源的类器官共培养后，奥沙利铂的治疗效果提高了，这与体内的结果一致。（图4g)。iNOS，促炎M1巨噬细胞的标志物的表达在EM处理的类器官中显著增加，提示肠道微生物群可以以免疫依赖的方式促进奥沙利铂的作用（图4h）。荧光成像也显示了米托蒽醌在细菌中的大量积累（图4i）。在小鼠中，米托蒽醌在肠道和粪便中显著富集（图4j）。分子动力学模拟结果表明，在人和大肠杆菌Hsp90中结合相似区域，构象能分别为−8.2和−7.37kal M−1（图4k）。CB1954的硝基被还原为一个氨基，可能是由于肠道微生物群中广泛表达的细菌硝基还原酶（图4l）"
+  }
+]

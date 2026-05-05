@@ -1,0 +1,149 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "羟考酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "去甲羟考酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "羟氢吗啡酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "去甲羟氢吗啡酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP2D6",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "UGT2B7",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1189,
+          "source": "凡默谷",
+          "text": "羟考酮通过CYP2D6和CYP3A4代谢成羟氢吗啡酮和去甲羟考酮；去甲羟考酮又进一步经CYP2D6代谢成去甲羟氢吗啡酮，其中忽略不计羟氢吗啡酮代谢生成去甲羟氢吗啡酮。羟氢吗啡酮的代谢主要经UGT2B7介导，并以葡萄糖醛酸产物经尿液排泄。由于缺少去甲羟氢吗啡酮更为细致的代谢数据，因此假设其通过肝脏微粒体代谢清除。此外，这四个化合物均考虑了肾脏排泄的清除。"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "羟考酮经CYP2D6代谢为羟氢吗啡酮",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1189,
+            "source": "凡默谷",
+            "text": "羟考酮通过CYP2D6和CYP3A4代谢成羟氢吗啡酮和去甲羟考酮"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "羟考酮经CYP3A4代谢为去甲羟考酮",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1189,
+            "source": "凡默谷",
+            "text": "羟考酮通过CYP2D6和CYP3A4代谢成羟氢吗啡酮和去甲羟考酮"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "去甲羟考酮经CYP2D6代谢为去甲羟氢吗啡酮",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1189,
+            "source": "凡默谷",
+            "text": "去甲羟考酮又进一步经CYP2D6代谢成去甲羟氢吗啡酮"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "name": "羟氢吗啡酮经UGT2B7代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1189,
+            "source": "凡默谷",
+            "text": "羟氢吗啡酮的代谢主要经UGT2B7介导，并以葡萄糖醛酸产物经尿液排泄"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "羟考酮可能为P-gp底物但临床PK未见明显主动转运",
+        "properties": {
+          "mechanism": "主动摄取转运（假设）",
+          "conclusion": "当前模型忽略主动转运对羟考酮血浆PK的贡献",
+          "evidence": {
+            "chunk_index": 1189,
+            "source": "凡默谷",
+            "text": "虽然此前有报道羟考酮是以主动摄取转运的方式通过血脑屏障，提示其可能为P-gp的底物；但由于临床PK并没有明显的主动转运现象，且采用假设的血流限速型组织可以很好地表征羟考酮血浆PK行为，因此当前模型忽略主动转运对羟考酮血浆PK的贡献。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1189,
+    "source": "凡默谷",
+    "text": "。去甲羟考酮、羟氢吗啡酮、去甲羟氢吗啡酮也同样设为血流限速型组织分布，并认为是充分搅拌模型。虽然此前有报道羟考酮是以主动摄取转运的方式通过血脑屏障，提示其可能为P-gp的底物；但由于临床PK并没有明显的主动转运现象，且采用假设的血流限速型组织可以很好地表征羟考酮血浆PK行为，因此当前模型忽略主动转运对羟考酮血浆PK的贡献。采用GastroPlus内建的Lukacova公式计算组织分配系数(Kp)，每一个模拟对象的生理学数据都采用内建的年龄相关的群体估算功能(PEAR)自动产生。组织游离分数(fu,t)采用GastroPlus默认的公式进行计算，该模型公式认为细胞外和细胞内空间非离子型游离浓度处于平衡状态。2.2.4 代谢和清除的过程下图显示了羟考酮以及代谢产物的体内转化过程。羟考酮通过CYP2D6和CYP3A4代谢成羟氢吗啡酮和去甲羟考酮；去甲羟考酮又进一步经CYP2D6代谢成去甲羟氢吗啡酮，其中忽略不计羟氢吗啡酮代谢生成去甲羟氢吗啡酮。羟氢吗啡酮的代谢主要经UGT2B7介导，并以葡萄糖醛酸产物经尿液排泄。由于缺少去甲羟氢吗啡酮更为细致的代谢数据，因此假设其通过肝脏微粒体代谢清除。此外，这四个化合物均考虑了肾脏排泄的清除。     图1 PBPK模型中羟考酮及其代谢产物的清除机制GastroPlus的人体生理学模型包含了CYP3A4, CYP2D6和UGT2B7在肠道及肝脏中的表达，此外UGT2B7还表达在肾脏中。基于假设每个组织具有相同的Vmax (per amount enzyme)和Km,u，并结合相应的酶分布水平，以计算这些酶在每个组织的具体Vmax"
+  }
+]

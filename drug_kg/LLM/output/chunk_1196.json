@@ -1,0 +1,244 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "羟考酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "去甲羟考酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "羟氢吗啡酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "去甲羟氢吗啡酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "奎尼丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "CYP2D6",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Population",
+        "name": "儿童",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Population",
+        "name": "器官损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1196,
+          "source": "凡默谷"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "羟考酮与奎尼丁联合给药后发生DDI",
+        "properties": {
+          "mechanism": "CYP2D6可逆抑制",
+          "evidence": {
+            "chunk_index": 1196,
+            "source": "凡默谷",
+            "text": "模型进一步用于评估羟考酮与CYP2D6可逆抑制剂-奎尼丁、CYP3A4抑制剂-酮康唑和伊曲康唑、CYP3A4诱导剂-利福平联合给药后的DDI情况。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "羟考酮与酮康唑联合给药后发生DDI",
+        "properties": {
+          "mechanism": "CYP3A4抑制",
+          "evidence": {
+            "chunk_index": 1196,
+            "source": "凡默谷",
+            "text": "模型进一步用于评估羟考酮与CYP2D6可逆抑制剂-奎尼丁、CYP3A4抑制剂-酮康唑和伊曲康唑、CYP3A4诱导剂-利福平联合给药后的DDI情况。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "羟考酮与伊曲康唑联合给药后发生DDI",
+        "properties": {
+          "mechanism": "CYP3A4抑制",
+          "evidence": {
+            "chunk_index": 1196,
+            "source": "凡默谷",
+            "text": "模型进一步用于评估羟考酮与CYP2D6可逆抑制剂-奎尼丁、CYP3A4抑制剂-酮康唑和伊曲康唑、CYP3A4诱导剂-利福平联合给药后的DDI情况。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "羟考酮与利福平联合给药后发生DDI",
+        "properties": {
+          "mechanism": "CYP3A4诱导",
+          "evidence": {
+            "chunk_index": 1196,
+            "source": "凡默谷",
+            "text": "模型进一步用于评估羟考酮与CYP2D6可逆抑制剂-奎尼丁、CYP3A4抑制剂-酮康唑和伊曲康唑、CYP3A4诱导剂-利福平联合给药后的DDI情况。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_9",
+        "name": "奎尼丁作用于CYP2D6",
+        "properties": {
+          "role": "可逆抑制剂",
+          "evidence": {
+            "chunk_index": 1196,
+            "source": "凡默谷",
+            "text": "羟考酮与CYP2D6可逆抑制剂-奎尼丁"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "name": "酮康唑作用于CYP3A4",
+        "properties": {
+          "role": "抑制剂",
+          "evidence": {
+            "chunk_index": 1196,
+            "source": "凡默谷",
+            "text": "CYP3A4抑制剂-酮康唑"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_7",
+        "target_id": "ent_10",
+        "name": "伊曲康唑作用于CYP3A4",
+        "properties": {
+          "role": "抑制剂",
+          "evidence": {
+            "chunk_index": 1196,
+            "source": "凡默谷",
+            "text": "CYP3A4抑制剂-伊曲康唑"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_10",
+        "name": "利福平作用于CYP3A4",
+        "properties": {
+          "role": "诱导剂",
+          "evidence": {
+            "chunk_index": 1196,
+            "source": "凡默谷",
+            "text": "CYP3A4诱导剂-利福平"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "羟考酮经CYP2D6代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1196,
+            "source": "凡默谷",
+            "text": "羟考酮与CYP2D6可逆抑制剂-奎尼丁"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "羟考酮经CYP3A4代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1196,
+            "source": "凡默谷",
+            "text": "CYP3A4抑制剂-酮康唑和伊曲康唑、CYP3A4诱导剂-利福平"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1196,
+    "source": "凡默谷",
+    "text": "。由于代谢产物形成及处置具有较复杂的途径，这使得整合代谢产物到PBPK模型具有一定的挑战性，但PBPK模型依然被认为研究和理解预测整合代谢产物的DDIs的一种有用工具。5总结该工作采用GastroPlus软件搭建了羟考酮及其主要代谢产物(去甲羟考酮、羟氢吗啡酮、去甲羟氢吗啡酮)的PBPK模型，可很好地重合文献报道的静脉或口服给药后的PK数据；接着，模型进一步用于评估羟考酮与CYP2D6可逆抑制剂-奎尼丁、CYP3A4抑制剂-酮康唑和伊曲康唑、CYP3A4诱导剂-利福平联合给药后的DDI情况。该工作展示了如何搭建母药及代谢产物追踪的PBPK模型(特别是形成代谢产物的体外数据不齐全的情况)，此外还展现了PBPK模型对底物与调节剂(可以包含一系列代谢产物)联合给药后DDIs的预测能力。所建立的羟考酮及其代谢产物的PBPK模型还可进一步用于预测其他人群(如儿童、器官损伤等)的临床PK以及DDIs (与其它CYP2D6和CYP3A4的调节剂联合给药)。但模型包含代谢产物后，与单独母药的DDIs预测结果相比，其模型的复杂程度升高了，其预测结果的准确性降低了，因此在这解释与使用这种复杂模型的DDI预测结果时，需综合衡量利弊。6应用的软件与模块该案例应用的软件是GastroPlus (version 9.5.0004)，涉及模块有Base, PBPK, PKPlus, Metabolism & Transporter, DDI；ADMET Predictor (version 7.2.0.0)，涉及模块有PhysChem, Metabolism"
+  }
+]

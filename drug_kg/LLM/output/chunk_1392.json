@@ -1,0 +1,232 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "依诺肝素",
+        "properties": {
+          "通用名": "依诺肝素",
+          "适应症": "癌症相关血栓（CAT）",
+          "用法用量": "延长治疗6个月",
+          "注意事项/警示": "中国第一个拥有CAT延长治疗6个月用法用量的LMWH"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "达肝素",
+        "properties": {
+          "通用名": "达肝素",
+          "适应症": "癌症相关血栓（CAT）"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "LMWH",
+        "properties": {
+          "名称": "低分子量肝素",
+          "别名列表": [
+            "LMWH"
+          ],
+          "代表药品": [
+            "依诺肝素",
+            "达肝素"
+          ]
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "DOAC",
+        "properties": {
+          "名称": "直接口服抗凝药",
+          "别名列表": [
+            "DOAC"
+          ]
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "CAT",
+        "properties": {
+          "名称": "癌症相关血栓",
+          "疾病编码": ""
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "VTE",
+        "properties": {
+          "名称": "静脉血栓栓塞症",
+          "疾病编码": ""
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Population",
+        "name": "高出血风险CAT患者",
+        "properties": {
+          "名称": "高出血风险CAT患者",
+          "判定规则": "如胃肠道肿瘤患者、因化疗引起血小板减少症而需频繁调整剂量的患者、正在接受存在潜在DDI抗癌治疗的患者、以及脑转移患者"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {
+          "名称": "出血",
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Mechanism",
+        "name": "药物相互作用",
+        "properties": {
+          "机制类型": "药物相互作用",
+          "备注": "DDI（药物-药物相互作用）"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Evidence",
+        "name": "RIETECAT研究",
+        "properties": {
+          "唯一标识": "ev_1",
+          "来源类型": "研究",
+          "分块ID": "1392",
+          "来源": "医学界肿瘤频道"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Evidence",
+        "name": "NMPA批准文件",
+        "properties": {
+          "唯一标识": "ev_2",
+          "来源类型": "监管文件",
+          "分块ID": "1392",
+          "来源": "医学界肿瘤频道"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Evidence",
+        "name": "指南推荐",
+        "properties": {
+          "唯一标识": "ev_3",
+          "来源类型": "指南",
+          "分块ID": "1392",
+          "来源": "医学界肿瘤频道"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "依诺肝素属于LMWH"
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "达肝素属于LMWH"
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "依诺肝素用于治疗CAT"
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "name": "LMWH用于治疗CAT"
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "name": "DOAC可能导致出血"
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_9",
+        "name": "DOAC存在药物相互作用",
+        "properties": {
+          "机制": "药物对DOAC血浆浓度的影响尚未完全明确",
+          "后果": "限制其在特定人群中的使用",
+          "建议": "目前证据仅支持使用特定DOAC治疗VTE急性期、低出血风险、无药物相互作用的癌症患者",
+          "证据": {
+            "chunk_index": 1392,
+            "source": "医学界肿瘤频道",
+            "text": "药物对DOAC血浆浓度的影响尚未完全明确，目前证据仅支持使用特定DOAC治疗VTE急性期、低出血风险、无药物相互作用的癌症患者[8]。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "name": "LMWH较DOAC有更少的药物相互作用",
+        "properties": {
+          "机制": "较少的药物相互作用",
+          "后果": "更适合高出血风险患者",
+          "建议": "是高出血风险CAT患者的首选治疗选择",
+          "证据": {
+            "chunk_index": 1392,
+            "source": "医学界肿瘤频道",
+            "text": "而LMWH较 DOAC有更少的药物相互作用，是高出血风险CAT患者的首选治疗选择，例如胃肠道肿瘤患者、因化疗引起血小板减少症而需频繁调整剂量的患者、正在接受存在潜在DDI抗癌治疗的患者、以及脑转移患者[12]；"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "APPLIES_TO",
+        "source_id": "ent_7",
+        "target_id": "ent_5",
+        "name": "高出血风险CAT患者属于CAT人群"
+      },
+      {
+        "id": "rel_9",
+        "type": "SUPPORTED_BY",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "依诺肝素在CAT中的疗效和安全性由RIETECAT研究证实"
+      },
+      {
+        "id": "rel_10",
+        "type": "SUPPORTED_BY",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "依诺肝素获批CAT适应症由NMPA批准文件支持"
+      },
+      {
+        "id": "rel_11",
+        "type": "SUPPORTED_BY",
+        "source_id": "ent_3",
+        "target_id": "ent_12",
+        "name": "LMWH作为CAT推荐治疗由指南支持"
+      }
+    ],
+    "chunk_index": 1392,
+    "source": "医学界肿瘤频道",
+    "text": "。目前依诺肝素、达肝素等LMWH是各大指南对于CAT的推荐治疗药物[4,9]。然而既往国内LMWH并无CAT治疗适应症的获批，但令人振奋的是，RIETECAT研究[10]证实了原研依诺肝素在CAT治疗中的疗效和安全性。2023年7月14日国家药品监督管理局（NMPA）批准了赛诺菲公司基于真实世界证据（RWE）的治疗CAT患者的原研依诺肝素的用法用量变更申请。至此，原研依诺肝素成为中国第一个拥有CAT延长治疗6个月用法用量的LMWH。图 NMPA 2023年7月18日药品批准文件送达信息发布[11]总 结CAT的抗凝治疗时需考虑多种因素，DDI不容忽视，药物对DOAC血浆浓度的影响尚未完全明确，目前证据仅支持使用特定DOAC治疗VTE急性期、低出血风险、无药物相互作用的癌症患者[8]。而LMWH较 DOAC有更少的药物相互作用，是高出血风险CAT患者的首选治疗选择，例如胃肠道肿瘤患者、因化疗引起血小板减少症而需频繁调整剂量的患者、正在接受存在潜在DDI抗癌治疗的患者、以及脑转移患者[12]；原研依诺肝素成为国内首个说明书明确适用于CAT的LMWH，亦为CAT的规范化治疗提供了有力支持"
+  }
+]

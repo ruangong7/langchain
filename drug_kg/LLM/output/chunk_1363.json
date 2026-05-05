@@ -1,0 +1,481 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "血管紧张素转化酶抑制剂",
+        "properties": {
+          "别名列表": [
+            "ACEI"
+          ],
+          "代表药品": [
+            "卡托普利",
+            "依那普利",
+            "培哚普利"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "卡托普利",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "依那普利",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "培哚普利",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "别嘌醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "白细胞减少",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "严重感染",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "超敏反应",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "过敏反应",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "心肌梗死",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "SideEffect",
+        "name": "中性粒细胞减少症",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "SideEffect",
+        "name": "粒细胞缺乏症",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Symptom",
+        "name": "发热",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Symptom",
+        "name": "关节痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Symptom",
+        "name": "肌痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Population",
+        "name": "肾损害患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Population",
+        "name": "慢性肾衰竭患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Disease",
+        "name": "糖尿病",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Evidence",
+        "name": "医学界内分泌频道",
+        "properties": {
+          "唯一标识": "ev_1",
+          "chunk_id": 1363,
+          "来源类型": "公众号"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "卡托普利属于血管紧张素转化酶抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "常见的代表药物有卡托普利、依那普利、培哚普利等。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "依那普利属于血管紧张素转化酶抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "常见的代表药物有卡托普利、依那普利、培哚普利等。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "培哚普利属于血管紧张素转化酶抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "常见的代表药物有卡托普利、依那普利、培哚普利等。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "ACEI与别嘌醇联用",
+        "properties": {
+          "后果": [
+            "白细胞减少",
+            "严重感染",
+            "超敏反应",
+            "过敏反应",
+            "心肌梗死",
+            "中性粒细胞减少症",
+            "粒细胞缺乏症"
+          ],
+          "高风险人群": [
+            "肾损害患者",
+            "慢性肾衰竭患者"
+          ],
+          "机制": "尚不明确",
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "联用建议同时使用ACEI和别嘌醇增加白细胞减少和严重感染的风险，尤其是在肾损害患者中。1例超敏反应病例可归因于卡托普利与别嘌醇联合使用，1名服用依那普利的男性给予别嘌醇时发生过敏反应和心肌梗死。英国卡托普利生产商警告：服用卡托普利和其他ACEI的患者曾发生中性粒细胞减少症和粒细胞缺乏症，会导致严重感染，同时使用别嘌醇为并发因素，尤其是对于肾损害患者[4]。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "卡托普利与别嘌醇联用",
+        "properties": {
+          "后果": [
+            "发热",
+            "关节痛",
+            "肌痛",
+            "超敏反应"
+          ],
+          "高风险人群": [
+            "慢性肾衰竭患者"
+          ],
+          "关联疾病": [
+            "糖尿病"
+          ],
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "一份报告表明，1例同时使用卡托普利和别嘌醇治疗糖尿病的男性慢性肾衰竭患者出现了发热、关节痛和肌痛，停用卡托普利后，患者症状改善[2]。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "name": "依那普利与别嘌醇联用",
+        "properties": {
+          "后果": [
+            "急性过敏反应",
+            "严重冠状动脉痉挛",
+            "心肌梗死"
+          ],
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "2例服用依那普利的男性在服用别嘌呤醇100mg后，20min内，出现急性过敏反应伴严重冠状动脉痉挛，最终导致心肌梗死，该患者经过治疗痊愈后继续服用依那普利并停用别嘌醇[3]。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "ACEI增加白细胞减少风险（与别嘌醇联用）",
+        "properties": {
+          "条件": "与别嘌醇联用",
+          "高风险人群": [
+            "肾损害患者"
+          ],
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "联用建议同时使用ACEI和别嘌醇增加白细胞减少和严重感染的风险，尤其是在肾损害患者中。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "ACEI增加严重感染风险（与别嘌醇联用）",
+        "properties": {
+          "条件": "与别嘌醇联用",
+          "高风险人群": [
+            "肾损害患者"
+          ],
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "联用建议同时使用ACEI和别嘌醇增加白细胞减少和严重感染的风险，尤其是在肾损害患者中。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "name": "卡托普利可能导致超敏反应（与别嘌醇联用）",
+        "properties": {
+          "条件": "与别嘌醇联用",
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "1例超敏反应病例可归因于卡托普利与别嘌醇联合使用"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "name": "依那普利可能导致过敏反应（与别嘌醇联用）",
+        "properties": {
+          "条件": "与别嘌醇联用",
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "1名服用依那普利的男性给予别嘌醇时发生过敏反应和心肌梗死。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "ACEI可能导致中性粒细胞减少症（与别嘌醇联用）",
+        "properties": {
+          "条件": "与别嘌醇联用",
+          "高风险人群": [
+            "肾损害患者"
+          ],
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "英国卡托普利生产商警告：服用卡托普利和其他ACEI的患者曾发生中性粒细胞减少症和粒细胞缺乏症，会导致严重感染，同时使用别嘌醇为并发因素，尤其是对于肾损害患者[4]。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "ACEI可能导致粒细胞缺乏症（与别嘌醇联用）",
+        "properties": {
+          "条件": "与别嘌醇联用",
+          "高风险人群": [
+            "肾损害患者"
+          ],
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "英国卡托普利生产商警告：服用卡托普利和其他ACEI的患者曾发生中性粒细胞减少症和粒细胞缺乏症，会导致严重感染，同时使用别嘌醇为并发因素，尤其是对于肾损害患者[4]。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "APPLIES_TO",
+        "source_id": "ent_6",
+        "target_id": "ent_16",
+        "name": "白细胞减少风险适用于肾损害患者",
+        "properties": {
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "尤其是在肾损害患者中。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "APPLIES_TO",
+        "source_id": "ent_7",
+        "target_id": "ent_16",
+        "name": "严重感染风险适用于肾损害患者",
+        "properties": {
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "尤其是在肾损害患者中。"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "APPLIES_TO",
+        "source_id": "ent_11",
+        "target_id": "ent_16",
+        "name": "中性粒细胞减少症适用于肾损害患者",
+        "properties": {
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "尤其是对于肾损害患者[4]。"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "APPLIES_TO",
+        "source_id": "ent_12",
+        "target_id": "ent_16",
+        "name": "粒细胞缺乏症适用于肾损害患者",
+        "properties": {
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "尤其是对于肾损害患者[4]。"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "APPLIES_TO",
+        "source_id": "ent_13",
+        "target_id": "ent_17",
+        "name": "发热症状见于慢性肾衰竭患者",
+        "properties": {
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "1例同时使用卡托普利和别嘌醇治疗糖尿病的男性慢性肾衰竭患者出现了发热、关节痛和肌痛"
+          }
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "APPLIES_TO",
+        "source_id": "ent_14",
+        "target_id": "ent_17",
+        "name": "关节痛症状见于慢性肾衰竭患者",
+        "properties": {
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "1例同时使用卡托普利和别嘌醇治疗糖尿病的男性慢性肾衰竭患者出现了发热、关节痛和肌痛"
+          }
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "APPLIES_TO",
+        "source_id": "ent_15",
+        "target_id": "ent_17",
+        "name": "肌痛症状见于慢性肾衰竭患者",
+        "properties": {
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "1例同时使用卡托普利和别嘌醇治疗糖尿病的男性慢性肾衰竭患者出现了发热、关节痛和肌痛"
+          }
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_18",
+        "name": "卡托普利用于治疗糖尿病（在此病例中）",
+        "properties": {
+          "证据": {
+            "chunk_index": 1363,
+            "source": "医学界内分泌频道",
+            "text": "1例同时使用卡托普利和别嘌醇治疗糖尿病的男性慢性肾衰竭患者"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1363,
+    "source": "医学界内分泌频道",
+    "text": "* 仅供医学专业人士阅读参考ACEI药物联用需注意！血管紧张素转化酶抑制剂（ACEI）在临床上应用广泛，常见的代表药物有卡托普利、依那普利、培哚普利等。作为慢病用药，ACEI应用的人群基数大，用药人群常常合并多种疾病，因此ACEI和其他药物之间的相互作用十分值得关注，本周，跟着界小药一起来关注ACEI与其他药物的联用注意吧~联用建议同时使用ACEI和别嘌醇增加白细胞减少和严重感染的风险，尤其是在肾损害患者中。1例超敏反应病例可归因于卡托普利与别嘌醇联合使用，1名服用依那普利的男性给予别嘌醇时发生过敏反应和心肌梗死。相关临床研究结果在12例健康受试者中，别嘌醇和卡托普利单独给药和联合给药后未观察到显著的药代动力学变化[1]。一份报告表明，1例同时使用卡托普利和别嘌醇治疗糖尿病的男性慢性肾衰竭患者出现了发热、关节痛和肌痛，停用卡托普利后，患者症状改善[2]。2例服用依那普利的男性在服用别嘌呤醇100mg后，20min内，出现急性过敏反应伴严重冠状动脉痉挛，最终导致心肌梗死，该患者经过治疗痊愈后继续服用依那普利并停用别嘌醇[3]。英国卡托普利生产商警告：服用卡托普利和其他ACEI的患者曾发生中性粒细胞减少症和粒细胞缺乏症，会导致严重感染，同时使用别嘌醇为并发因素，尤其是对于肾损害患者[4]。相互作用机制尚不明确。不确定上述不良反应是否为别嘌醇和ACEI的相互作用，因为别嘌醇和卡托普利单独给药也可引起超敏反应，尤其是在肾衰竭的情况下。虽然这种相互作用尚未明确，上述不良反应罕见且不可预测"
+  }
+]

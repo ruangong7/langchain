@@ -1,0 +1,90 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "阿帕替尼",
+        "properties": {
+          "通用名": "阿帕替尼",
+          "英文名": "Rivoceranib"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP3A抑制剂",
+        "properties": {
+          "名称": "CYP3A抑制剂",
+          "强度": "中等/弱"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "CYP3A诱导剂",
+        "properties": {
+          "名称": "CYP3A诱导剂",
+          "强度": "中等/弱"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "阿帕替尼与CYP3A的中等/弱抑制剂存在药物相互作用",
+        "properties": {
+          "mechanism": "经CYP3A4代谢",
+          "evidence": {
+            "chunk_index": 1156,
+            "source": "凡默谷",
+            "text": "该案例评估了经CYP 3A4 代谢的药物阿帕替尼Rivoceranib与CYP 3A的中等/弱抑制剂和诱导剂的DDI情况，以豁免相关的临床DDI研究，并指导药品说明书对应章节的撰写。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "阿帕替尼与CYP3A的中等/弱诱导剂存在药物相互作用",
+        "properties": {
+          "mechanism": "经CYP3A4代谢",
+          "evidence": {
+            "chunk_index": 1156,
+            "source": "凡默谷",
+            "text": "该案例评估了经CYP 3A4 代谢的药物阿帕替尼Rivoceranib与CYP 3A的中等/弱抑制剂和诱导剂的DDI情况，以豁免相关的临床DDI研究，并指导药品说明书对应章节的撰写。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "阿帕替尼经CYP3A4代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1156,
+            "source": "凡默谷",
+            "text": "该案例评估了经CYP 3A4 代谢的药物阿帕替尼Rivoceranib与CYP 3A的中等/弱抑制剂和诱导剂的DDI情况，以豁免相关的临床DDI研究，并指导药品说明书对应章节的撰写。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1156,
+    "source": "凡默谷",
+    "text": "。紧接着，Novakovic 博士将通过真实的工业界案例阿帕替尼Rivoceranib，讲解GastroPlus在豁免临床DDI研究中的应用。该案例评估了经CYP 3A4 代谢的药物阿帕替尼Rivoceranib与CYP 3A的中等/弱抑制剂和诱导剂的DDI情况，以豁免相关的临床DDI研究，并指导药品说明书对应章节的撰写。目前该项目已提交给法规部门审批。课程大纲应用GastroPlus开展DDI评估及工作流程采用PBPK评估阿帕替尼的DDI, 从而豁免相关DDI临床研究的案例分享主讲人与互动嘉宾简介Revathi Chapa美国Simulations Plus公司，资深科学家    美国华盛顿大学& 印度National Institute of Pharmaceutical Education and Research 药剂学，药理与毒理学双硕士2019年加入Simulations Plus 公司，负责PBPK模型的开发与各类应用，如预测首次人体PK、特殊人群PK、药物相互作用DDI、食物影响等。Jasmina Novakovic 博士美国Simulations Plus公司，首席科学家       加拿大多伦多大学博士后，分析化学 (Charles University,  Prague) 和药剂学 (University of Belgrade)博士2019年加入Simulations Plus 公司，负责客户委托的PBPK 建模与模拟技术服务项目。2007-2019年在加拿大Apotex制药公司担任科学主管"
+  }
+]

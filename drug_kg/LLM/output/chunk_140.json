@@ -1,0 +1,265 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "底物药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "食物",
+        "properties": {
+          "类型": "食物"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Food",
+        "name": "烟草",
+        "properties": {
+          "类型": "其他"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Food",
+        "name": "酒精",
+        "properties": {
+          "类型": "饮品"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Food",
+        "name": "果汁",
+        "properties": {
+          "类型": "饮品"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Food",
+        "name": "保健品",
+        "properties": {
+          "类型": "补充剂"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "代谢酶",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "转运体",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "AUC0-inf",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "AUC0-tau",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "Cmax",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Indicator",
+        "name": "Cmin",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Indicator",
+        "name": "部分AUC",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "毒性",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "食物可能影响底物药物的代谢酶或转运体表达或功能，从而产生DDI",
+        "properties": {
+          "evidence": {
+            "chunk_index": 140,
+            "source": "GMP办公室",
+            "text": "申请人应在受试者入组前一定时间内确认受试者未服用可能会影响代谢酶或转运体表达或功能的处方或非处方药物、保健品或食物、烟草、酒精、果汁等。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "烟草可能影响底物药物的代谢酶或转运体表达或功能，从而产生DDI",
+        "properties": {
+          "evidence": {
+            "chunk_index": 140,
+            "source": "GMP办公室",
+            "text": "申请人应在受试者入组前一定时间内确认受试者未服用可能会影响代谢酶或转运体表达或功能的处方或非处方药物、保健品或食物、烟草、酒精、果汁等。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "酒精可能影响底物药物的代谢酶或转运体表达或功能，从而产生DDI",
+        "properties": {
+          "evidence": {
+            "chunk_index": 140,
+            "source": "GMP办公室",
+            "text": "申请人应在受试者入组前一定时间内确认受试者未服用可能会影响代谢酶或转运体表达或功能的处方或非处方药物、保健品或食物、烟草、酒精、果汁等。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "果汁可能影响底物药物的代谢酶或转运体表达或功能，从而产生DDI",
+        "properties": {
+          "evidence": {
+            "chunk_index": 140,
+            "source": "GMP办公室",
+            "text": "申请人应在受试者入组前一定时间内确认受试者未服用可能会影响代谢酶或转运体表达或功能的处方或非处方药物、保健品或食物、烟草、酒精、果汁等。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "保健品可能影响底物药物的代谢酶或转运体表达或功能，从而产生DDI",
+        "properties": {
+          "evidence": {
+            "chunk_index": 140,
+            "source": "GMP办公室",
+            "text": "申请人应在受试者入组前一定时间内确认受试者未服用可能会影响代谢酶或转运体表达或功能的处方或非处方药物、保健品或食物、烟草、酒精、果汁等。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "底物药物药代动力学采样需准确估计AUC0-inf",
+        "properties": {
+          "evidence": {
+            "chunk_index": 140,
+            "source": "GMP办公室",
+            "text": "底物药物药代动力学采样时长应当足以在单独用药以及预期相互作用时准确估计AUC0-inf（适用于单剂量研究）"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "底物药物药代动力学采样需准确估计AUC0-tau",
+        "properties": {
+          "evidence": {
+            "chunk_index": 140,
+            "source": "GMP办公室",
+            "text": "底物药物药代动力学采样时长应当足以在单独用药以及预期相互作用时准确估计AUC0-tau（适用于多剂量研究）"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "底物药物药代动力学采样需准确估计Cmax",
+        "properties": {
+          "evidence": {
+            "chunk_index": 140,
+            "source": "GMP办公室",
+            "text": "底物药物药代动力学采样时长应当足以在单独用药以及预期相互作用时准确估计...峰浓度（Cmax）"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "可依据药代动力学或药理学意义估计Cmin",
+        "properties": {
+          "evidence": {
+            "chunk_index": 140,
+            "source": "GMP办公室",
+            "text": "也可依据药代动力学或药理学意义对额外药动学参数（最低浓度（Cmin）或部分AUC）进行估计。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "可依据药代动力学或药理学意义估计部分AUC",
+        "properties": {
+          "evidence": {
+            "chunk_index": 140,
+            "source": "GMP办公室",
+            "text": "也可依据药代动力学或药理学意义对额外药动学参数（最低浓度（Cmin）或部分AUC）进行估计。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "name": "抑制转运体可引起毒性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 140,
+            "source": "GMP办公室",
+            "text": "如抑制转运体可显著改变特定组织的浓度，从而引起毒性，但体内药物浓度改变不大。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 140,
+    "source": "GMP办公室",
+    "text": "。有时可研究多个给药方案（体内或数学模拟）以理解交错给药是否会减弱相互作用（如主要发生在吸收环节的DDI）。当拟评价DDI的药物需要不同的进食条件以优化吸收时，申请人应以观察到最大相互作用程度以及反映临床意义为标准，来调整给药时间。（4）合并用药等其他影响DDI的外因为了降低DDI程度的变异，申请人应在受试者入组前一定时间内确认受试者未服用可能会影响代谢酶或转运体表达或功能的处方或非处方药物、保健品或食物、烟草、酒精、果汁等。若DDI为诱导机制或时间依赖性抑制，其禁止服用上述影响物质的时间应更长。（5）样本与数据收集底物药物药代动力学采样时长应当足以在单独用药以及预期相互作用时准确估计AUC0-inf（适用于单剂量研究）、AUC0-tau（适用于多剂量研究）和峰浓度（Cmax）（如单次给药时AUC0-t与AUC0-inf之间的平均差小于20%），也可依据药代动力学或药理学意义对额外药动学参数（最低浓度（Cmin）或部分AUC）进行估计。申请人应当收集包含可解释结果的化合物（如原药）的样本。如果代谢产物浓度有助于理解DDI对研究药物有效性或安全性的影响或DDI机制，申请人应当测定代谢产物的浓度。所有研究都应基于对所用药物既存安全性问题的认识，收集相关的安全性信息。（6）药效动力学终点在某些情况下，药效动力学终点表明无法通过体内药物暴露量预测疗效或毒性变化。如抑制转运体可显著改变特定组织的浓度，从而引起毒性，但体内药物浓度改变不大。此时申请人可通过药效学终点进行DDI评价"
+  }
+]

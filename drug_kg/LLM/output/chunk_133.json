@@ -1,0 +1,125 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "OCT2",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "MATEs",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "OAT2",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "肌酐",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "在研药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "肌酐是OCT2的底物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 133,
+            "source": "GMP办公室",
+            "text": "肌酐也是OCT2、MATEs和OAT2的底物。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "name": "肌酐是MATEs的底物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 133,
+            "source": "GMP办公室",
+            "text": "肌酐也是OCT2、MATEs和OAT2的底物。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_3",
+        "name": "肌酐是OAT2的底物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 133,
+            "source": "GMP办公室",
+            "text": "肌酐也是OCT2、MATEs和OAT2的底物。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_4",
+        "name": "在研药物抑制肾转运体后可能导致血清肌酐水平升高",
+        "properties": {
+          "mechanism": "抑制OCT2、MATEs、OAT2等肾转运体",
+          "evidence": {
+            "chunk_index": 133,
+            "source": "GMP办公室",
+            "text": "在临床研究中，在研药物抑制这些转运体后可能会导致血清肌酐水平升高，若要探索其升高机制，则需进一步研究（如临床研究机制）。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "P-gp与CYP3A具有相似的诱导机制",
+        "properties": {
+          "mechanism_detail": "通过激活PXR或CAR等核受体",
+          "evidence": {
+            "chunk_index": 133,
+            "source": "GMP办公室",
+            "text": "某些转运体（如P-gp）通过类似于CYP酶的机制来发挥诱导作用（例如，激活PXR或CAR等核受体）。因为这些相似性，CYP3A诱导作用的研究结果可以为P-gp诱导作用的研究提供一定的参考。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 133,
+    "source": "GMP办公室",
+    "text": "。这些临界值也是基于有限的数据设定的。如果申请人用已知的抑制剂和非抑制剂对体外系统进行内部校正，经过合理的论证后也可以建议不同的临界值。肌酐也是OCT2、MATEs和OAT2的底物。在临床研究中，在研药物抑制这些转运体后可能会导致血清肌酐水平升高，若要探索其升高机制，则需进一步研究（如临床研究机制）。如果体外试验提示在研药物是肾转运体的抑制剂，则应根据临床可能合用的已知肾转运体底物，考虑是否进行体内试验（详见第三章）。评估在研药物是否是转运体抑制剂的体外试验的具体要求详见附录4。3.评估在研药物是否为转运体的诱导剂某些转运体（如P-gp）通过类似于CYP酶的机制来发挥诱导作用（例如，激活PXR或CAR等核受体）。因为这些相似性，CYP3A诱导作用的研究结果可以为P-gp诱导作用的研究提供一定的参考。但目前尚无完善的体外方法用于评估P-gp和其他转运体的诱导作用，因此不推荐对其进行体外评估。（四）代谢产物相互作用的评估具有高血浆暴露量或药理活性显著的代谢物可能需要评估其发生代谢酶或者转运体介导的DDI的可能性。体外试验通常使用合成或纯化的代谢物标准品或放射性标记药物。同时，也可接受其他能被证明可充分评价代谢物潜在DDI的方法。1.代谢产物是否为代谢酶或转运体的底物如果在研药物的代谢产物同时满足以下标准，则需要评估代谢产物是否为代谢酶或者转运体的底物"
+  }
+]

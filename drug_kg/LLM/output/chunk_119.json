@@ -1,0 +1,199 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "代谢酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "转运体",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Mechanism",
+        "name": "理化性质",
+        "properties": {
+          "机制类型": "理化性质"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Mechanism",
+        "name": "靶点介导的相互作用",
+        "properties": {
+          "机制类型": "靶点介导"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Mechanism",
+        "name": "疾病介导的相互作用",
+        "properties": {
+          "机制类型": "疾病介导"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "严重不良反应",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "治疗效果减弱",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_8",
+        "name": "药物-药物相互作用",
+        "properties": {
+          "机制": [
+            "代谢酶",
+            "转运体",
+            "理化性质",
+            "靶点介导",
+            "疾病介导"
+          ],
+          "影响指标类型": [
+            "药代动力学相互作用",
+            "药效动力学相互作用"
+          ],
+          "药效动力学作用类型": [
+            "加和",
+            "拮抗",
+            "协同"
+          ],
+          "后果": [
+            "严重不良反应",
+            "治疗效果减弱"
+          ],
+          "evidence": {
+            "chunk_index": 119,
+            "source": "GMP办公室",
+            "text": "在临床应用中患者经常会同时使用多种药物，这些药物可能会产生药物-药物相互作用（Drug-drug interaction，DDI），最终导致严重不良反应或减弱治疗效果"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_1",
+        "name": "代谢酶介导的药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 119,
+            "source": "GMP办公室",
+            "text": "药物相互作用按照发生机制可分为理化性质、代谢酶、转运体、靶点或疾病介导的相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_2",
+        "name": "转运体介导的药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 119,
+            "source": "GMP办公室",
+            "text": "药物相互作用按照发生机制可分为理化性质、代谢酶、转运体、靶点或疾病介导的相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_3",
+        "name": "理化性质介导的药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 119,
+            "source": "GMP办公室",
+            "text": "药物相互作用按照发生机制可分为理化性质、代谢酶、转运体、靶点或疾病介导的相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_4",
+        "name": "靶点介导的药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 119,
+            "source": "GMP办公室",
+            "text": "药物相互作用按照发生机制可分为理化性质、代谢酶、转运体、靶点或疾病介导的相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_5",
+        "name": "疾病介导的药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 119,
+            "source": "GMP办公室",
+            "text": "药物相互作用按照发生机制可分为理化性质、代谢酶、转运体、靶点或疾病介导的相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_8",
+        "target_id": "ent_6",
+        "name": "药物相互作用增加严重不良反应风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 119,
+            "source": "GMP办公室",
+            "text": "这些药物可能会产生药物-药物相互作用（Drug-drug interaction，DDI），最终导致严重不良反应或减弱治疗效果"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_8",
+        "target_id": "ent_7",
+        "name": "药物相互作用导致治疗效果减弱",
+        "properties": {
+          "evidence": {
+            "chunk_index": 119,
+            "source": "GMP办公室",
+            "text": "这些药物可能会产生药物-药物相互作用（Drug-drug interaction，DDI），最终导致严重不良反应或减弱治疗效果"
+          }
+        }
+      }
+    ],
+    "chunk_index": 119,
+    "source": "GMP办公室",
+    "text": "今日，国家药监局审评中心发布了《药物相互作用研究技术指导原则（征求意见稿）》，如下：  药物相互作用研究技术指导原则（征求意见稿）  2020年9月 目  录一、概述二、药物相互作用体外评估（一）研究的主要内容（二）代谢酶介导的药物相互作用（三）转运体介导的药物相互作用（四）代谢产物相互作用的评估三、药物相互作用临床研究（一）药物相互作用临床研究类型（二）前瞻性临床药物相互作用研究（三）前瞻性嵌套临床相互作用试验考虑（四）数学模型临床试验特殊考虑（五）其他临床研究设计考虑问题（六）DDI临床研究结果的报告和解释四、说明书起草建议附录1. 代谢酶和转运体介导的DDI研究策略图附录2. 基于模型预测药物间的相互作用附录3. 体外评估代谢酶介导的药物相互作用附录4. 体外评估转运体介导的药物相互作用附录5. 用于评估药物相互作用的药物清单参考文献一、概述在临床应用中患者经常会同时使用多种药物，这些药物可能会产生药物-药物相互作用（Drug-drug interaction，DDI），最终导致严重不良反应或减弱治疗效果，因此，有必要对DDI发生的可能及其影响程度和严重性进行科学评估，并依据评估结果对给药方案作出调整建议，并在说明书中对临床用药给出建议。药物相互作用按照发生机制可分为理化性质、代谢酶、转运体、靶点或疾病介导的相互作用，按照作用影响指标可分为药代动力学相互作用和药效动力学相互作用，而药效动力学相互作用又分为加和、拮抗和协同作用。在药物开发过程中，对药物相互作用的评价需要逐步积累基础研究数据，并根据情况进行综合评价"
+  }
+]

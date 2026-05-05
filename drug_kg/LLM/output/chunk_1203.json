@@ -1,0 +1,350 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "姜黄素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "CC-I",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "6-丁香酚",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "BDQ",
+        "properties": {
+          "通用名": "贝达喹啉"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "德拉马尼",
+        "properties": {
+          "通用名": "德拉马尼",
+          "英文名": "Delamanid",
+          "别名": "DLM"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "硝基咪唑类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "CYP1A1",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "CYP2D6",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "CYP2E1",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "SideEffect",
+        "name": "QT间期延长",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Food",
+        "name": "食物",
+        "properties": {
+          "类型": "食物"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Indicator",
+        "name": "生物利用度",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Indicator",
+        "name": "血浆蛋白结合率",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Indicator",
+        "name": "血浆半衰期",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "DM-6705",
+        "properties": {
+          "别名": "M1"
+        }
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "M2",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "M3",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Evidence",
+        "name": "凡默谷公众号",
+        "properties": {
+          "chunk_id": 1203,
+          "来源": "凡默谷"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "姜黄素增加BDQ体内暴露",
+        "properties": {
+          "后果": "增加BDQ体内暴露",
+          "证据": {
+            "chunk_index": 1203,
+            "source": "凡默谷",
+            "text": "姜黄素及其类似物CC-I，6-丁香酚等天然产物单体将显著增加BDQ体内暴露，但具体机制尚需研究。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "CC-I增加BDQ体内暴露",
+        "properties": {
+          "后果": "增加BDQ体内暴露",
+          "证据": {
+            "chunk_index": 1203,
+            "source": "凡默谷",
+            "text": "姜黄素及其类似物CC-I，6-丁香酚等天然产物单体将显著增加BDQ体内暴露，但具体机制尚需研究。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "6-丁香酚增加BDQ体内暴露",
+        "properties": {
+          "后果": "增加BDQ体内暴露",
+          "证据": {
+            "chunk_index": 1203,
+            "source": "凡默谷",
+            "text": "姜黄素及其类似物CC-I，6-丁香酚等天然产物单体将显著增加BDQ体内暴露，但具体机制尚需研究。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_4",
+        "name": "维拉帕米增加BDQ体内暴露并增强抗结核活性",
+        "properties": {
+          "机制": "抑制CYP3A4活性，抑制MTB外排泵",
+          "后果": "增加BDQ体内暴露，增强抗结核活性",
+          "证据": {
+            "chunk_index": 1203,
+            "source": "凡默谷",
+            "text": "联用维拉帕米增加了BDQ的体内暴露，并显著增强了BDQ的抗结核活性。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_8",
+        "name": "维拉帕米抑制CYP3A4",
+        "properties": {
+          "作用类型": "抑制",
+          "证据": {
+            "chunk_index": 1203,
+            "source": "凡默谷",
+            "text": "其同时抑制CYP3A4的活性"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "德拉马尼属于硝基咪唑类药物",
+        "properties": {
+          "证据": {
+            "chunk_index": 1203,
+            "source": "凡默谷",
+            "text": "DLM为硝基咪唑类药物"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_6",
+        "name": "食物增加德拉马尼生物利用度",
+        "properties": {
+          "后果": "显著增加生物利用度",
+          "证据": {
+            "chunk_index": 1203,
+            "source": "凡默谷",
+            "text": "与食物同服可显著增加生物利用度"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_6",
+        "target_id": "ent_12",
+        "name": "德拉马尼可能导致QT间期延长",
+        "properties": {
+          "关联代谢物": "DM-6705 (M1)",
+          "证据": {
+            "chunk_index": 1203,
+            "source": "凡默谷",
+            "text": "DLM主要代谢物DM-6705(M1)的暴露量与DLM主要不良反应QT间期延长的发生显著相关"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "name": "德拉马尼经CYP3A4代谢",
+        "properties": {
+          "代谢比例": "部分",
+          "证据": {
+            "chunk_index": 1203,
+            "source": "凡默谷",
+            "text": "部分于肝脏经CYP3A4途径代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_9",
+        "name": "德拉马尼经CYP1A1代谢",
+        "properties": {
+          "代谢比例": "较少部分",
+          "证据": {
+            "chunk_index": 1203,
+            "source": "凡默谷",
+            "text": "较少部分经CYP1A1、CYP2D6和CYP2E1代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "name": "德拉马尼经CYP2D6代谢",
+        "properties": {
+          "代谢比例": "较少部分",
+          "证据": {
+            "chunk_index": 1203,
+            "source": "凡默谷",
+            "text": "较少部分经CYP1A1、CYP2D6和CYP2E1代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_11",
+        "name": "德拉马尼经CYP2E1代谢",
+        "properties": {
+          "代谢比例": "较少部分",
+          "证据": {
+            "chunk_index": 1203,
+            "source": "凡默谷",
+            "text": "较少部分经CYP1A1、CYP2D6和CYP2E1代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_17",
+        "target_id": "ent_8",
+        "name": "DM-6705经CYP途径代谢生成M2和M3",
+        "properties": {
+          "产物": [
+            "M2",
+            "M3"
+          ],
+          "证据": {
+            "chunk_index": 1203,
+            "source": "凡默谷",
+            "text": "M1在体内经CYP途径代谢，进一步生成M2及M3。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1203,
+    "source": "凡默谷",
+    "text": "。除天然成分中广泛CYP酶抑制剂外，临床前研究显示，姜黄素及其类似物CC-I，6-丁香酚等天然产物单体将显著增加BDQ体内暴露，但具体机制尚需研究。维拉帕米为质子泵抑制剂，可抑制MTB外排泵对药物的转运，为潜在的抗结核药物增效剂，其同时抑制CYP3A4的活性，研究显示，联用维拉帕米增加了BDQ的体内暴露，并显著增强了BDQ的抗结核活性。文章内容由凡默谷小编查阅文献选取，排版与编辑为原创。如转载，请尊重劳动成果，注明【来源：凡默谷公众号】。2德拉马尼(DLM)DLM为硝基咪唑类药物，结构式见图2。其在结核分枝杆菌内经F420代谢转化，生成其活性代谢产物发挥药效。除在分枝杆菌中代谢转化为活性代谢物外，DLM在体内发生广泛转化并生成多种代谢物。2.1 DLM的药动学特征DLM在治疗剂量下，呈线性药动学特征。当剂量高于200mg时，呈非线性药动学特征。DLM的生物利用度为25%~47%，与食物同服可显著增加生物利用度，其血浆蛋白结合率高达99.5%以上。DLM在体内主要经白蛋白代谢转化，部分于肝脏经CYP3A4途径代谢，较少部分经CYP1A1、CYP2D6和CYP2E1代谢，生成8种代谢物M1~M8。DLM主要代谢物DM-6705(M1)的暴露量与DLM主要不良反应QT间期延长的发生显著相关，M1在体内经CYP途径代谢，进一步生成M2及M3。DLM的血浆半衰期在30~38h之间，几乎不经尿液排泄途径消除"
+  }
+]

@@ -1,0 +1,436 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "洛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "吉非罗齐",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "氯贝丁酸衍生物",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "羟甲戊二酰辅酶A还原酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "肌痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "横纹肌溶解",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "血肌酸磷酸激酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "甲氨蝶呤",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "萘普生",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "非甾体类抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "SideEffect",
+        "name": "骨髓抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "SideEffect",
+        "name": "胃肠毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "SideEffect",
+        "name": "白细胞减少",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "血小板减少",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "SideEffect",
+        "name": "贫血",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "SideEffect",
+        "name": "中毒性肾损害",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "SideEffect",
+        "name": "粘膜溃疡形成",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "对乙酰氨基酚",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Indicator",
+        "name": "凝血酶原时间INR",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "胺碘酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "DrugClass",
+        "name": "洋地黄类药",
+        "properties": {}
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "医学分享俱乐部",
+        "properties": {
+          "chunk_id": 1331,
+          "source": "医学分享俱乐部"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "洛伐他汀与吉非罗齐合用增加严重肌肉毒性风险",
+        "properties": {
+          "mechanism": "",
+          "consequence": "肌痛、横纹肌溶解、血肌酸磷酸激酶增高",
+          "recommendation": "应尽量避免联合使用",
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "吉非罗齐片说明书“氯贝丁酸衍生物与羟甲戊二酰辅酶A还原酶抑制剂，如洛伐他汀等合用治疗高脂血症，将增加两者严重肌肉毒性发生的危险，可引起肌痛、横纹肌溶解、血肌酸磷酸激酶增高等肌病，应尽量避免联合使用。”"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "吉非罗齐属于氯贝丁酸衍生物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "氯贝丁酸衍生物与羟甲戊二酰辅酶A还原酶抑制剂，如洛伐他汀等合用治疗高脂血症..."
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "洛伐他汀属于羟甲戊二酰辅酶A还原酶抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "氯贝丁酸衍生物与羟甲戊二酰辅酶A还原酶抑制剂，如洛伐他汀等合用治疗高脂血症..."
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "洛伐他汀可能导致肌痛",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "可引起肌痛、横纹肌溶解、血肌酸磷酸激酶增高等肌病"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "洛伐他汀可能导致横纹肌溶解",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "可引起肌痛、横纹肌溶解、血肌酸磷酸激酶增高等肌病"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "洛伐他汀可能升高血肌酸磷酸激酶",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "可引起肌痛、横纹肌溶解、血肌酸磷酸激酶增高等肌病"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "name": "甲氨蝶呤与萘普生联用增加毒性风险",
+        "properties": {
+          "mechanism": "萘普生升高甲氨蝶呤血药浓度",
+          "consequence": "骨髓抑制、胃肠毒性、白细胞减少、血小板减少、贫血、中毒性肾损害、粘膜溃疡形成",
+          "recommendation": "警惕严重甚至致命毒性",
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "甲氨蝶呤“与部分非甾体类抗炎药联用，有突发严重甚至致命性骨髓抑制和胃肠毒性的报道。”萘普生“可升高甲氨蝶呤的血药浓度，从而增强其毒性（白细胞减少、血小板减少、贫血、中毒性肾损害和粘膜溃疡形成）。”"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "name": "萘普生属于非甾体类抗炎药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "甲氨蝶呤“与部分非甾体类抗炎药联用...”"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_8",
+        "target_id": "ent_11",
+        "name": "甲氨蝶呤可能导致骨髓抑制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "有突发严重甚至致命性骨髓抑制和胃肠毒性的报道"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_8",
+        "target_id": "ent_12",
+        "name": "甲氨蝶呤可能导致胃肠毒性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "有突发严重甚至致命性骨髓抑制和胃肠毒性的报道"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_8",
+        "target_id": "ent_13",
+        "name": "甲氨蝶呤可能导致白细胞减少",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "增强其毒性（白细胞减少、血小板减少、贫血、中毒性肾损害和粘膜溃疡形成）"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_8",
+        "target_id": "ent_14",
+        "name": "甲氨蝶呤可能导致血小板减少",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "增强其毒性（白细胞减少、血小板减少、贫血、中毒性肾损害和粘膜溃疡形成）"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_8",
+        "target_id": "ent_15",
+        "name": "甲氨蝶呤可能导致贫血",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "增强其毒性（白细胞减少、血小板减少、贫血、中毒性肾损害和粘膜溃疡形成）"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_8",
+        "target_id": "ent_16",
+        "name": "甲氨蝶呤可能导致中毒性肾损害",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "增强其毒性（白细胞减少、血小板减少、贫血、中毒性肾损害和粘膜溃疡形成）"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_8",
+        "target_id": "ent_17",
+        "name": "甲氨蝶呤可能导致粘膜溃疡形成",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "增强其毒性（白细胞减少、血小板减少、贫血、中毒性肾损害和粘膜溃疡形成）"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_18",
+        "target_id": "ent_19",
+        "name": "对乙酰氨基酚增强华法林抗凝作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "增强抗凝作用",
+          "recommendation": "治疗期间应严密观察病情，并依据凝血酶原时间INR值调整用量",
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "增强本品抗凝作用的药有：...对乙酰氨基酚等。文献依据：SFDA药品说明书范本"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_19",
+        "target_id": "ent_20",
+        "name": "华法林影响凝血酶原时间INR",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "华法林个体差异较大，治疗期间应严密观察病情，并依据凝血酶原时间INR值调整用量"
+          }
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_21",
+        "target_id": "ent_22",
+        "name": "胺碘酮增加地高辛血清浓度",
+        "properties": {
+          "mechanism": "增加血清地高辛浓度",
+          "consequence": "可能达中毒水平，加强对窦房结及房室结的抑制作用",
+          "recommendation": "开始用胺碘酮时洋地黄类药应停药或减少50%，如合用应仔细监测血清中药浓度",
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "胺碘酮“增加血清地高辛浓度，亦可能增高其它洋地黄制剂的浓度达中毒水平，当开始用本品时洋地黄类药应停药或减少50%，如合用应仔细监测其血清中药浓度。本品有加强洋地黄类药对窦房结及房室结的抑制作用"
+          }
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "IN_CLASS",
+        "source_id": "ent_22",
+        "target_id": "ent_23",
+        "name": "地高辛属于洋地黄类药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1331,
+            "source": "医学分享俱乐部",
+            "text": "亦可能增高其它洋地黄制剂的浓度达中毒水平"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1331,
+    "source": "医学分享俱乐部",
+    "text": "。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.937～938.6、洛伐他汀+吉非罗齐吉非罗齐片说明书“氯贝丁酸衍生物与羟甲戊二酰辅酶A还原酶抑制剂，如洛伐他汀等合用治疗高脂血症，将增加两者严重肌肉毒性发生的危险，可引起肌痛、横纹肌溶解、血肌酸磷酸激酶增高等肌病，应尽量避免联合使用。”文献依据：SFDA药品说明书范本7、甲氨蝶呤+萘普生甲氨蝶呤“与部分非甾体类抗炎药联用，有突发严重甚至致命性骨髓抑制和胃肠毒性的报道。”萘普生“可升高甲氨蝶呤的血药浓度，从而增强其毒性（白细胞减少、血小板减少、贫血、中毒性肾损害和粘膜溃疡形成）。”文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.342～344，1341～1343.8、对乙酰氨基酚+华法林华法林个体差异较大，治疗期间应严密观察病情，并依据凝血酶原时间INR值调整用量。增强本品抗凝作用的药有：阿司匹林、水杨酸钠、胰高血糖素、奎尼丁、吲哚美辛、保泰松、奎宁、利尿酸、甲磺丁脲、甲硝唑、别嘌呤醇、红霉素、氯霉素、某些氨基糖苷类抗生素、头孢菌素类、苯碘达隆、西米替丁、氯贝丁酯、右旋甲状腺素、对乙酰氨基酚等。文献依据：SFDA药品说明书范本9、胺碘酮+地高辛胺碘酮“增加血清地高辛浓度，亦可能增高其它洋地黄制剂的浓度达中毒水平，当开始用本品时洋地黄类药应停药或减少50%，如合用应仔细监测其血清中药浓度。本品有加强洋地黄类药对窦房结及房室结的抑制作用"
+  }
+]

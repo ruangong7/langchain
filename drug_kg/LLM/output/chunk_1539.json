@@ -1,0 +1,483 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "硝苯地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "哌唑嗪",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "抗真菌药",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "氟康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "非甾体抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "芬太尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "β受体阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Food",
+        "name": "西柚",
+        "properties": {
+          "type": "食物",
+          "关键成分": "呋喃香豆素"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Food",
+        "name": "红酒",
+        "properties": {
+          "type": "饮品",
+          "关键成分": "没食子酸"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Symptom",
+        "name": "体位性低血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "SideEffect",
+        "name": "不良反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Indicator",
+        "name": "血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Indicator",
+        "name": "血糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "低血糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "SideEffect",
+        "name": "胃肠道出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "SideEffect",
+        "name": "严重低血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Evidence",
+        "name": "医脉通神经科",
+        "properties": {
+          "chunk_id": "1539",
+          "source": "医脉通神经科"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "哌唑嗪与硝苯地平相互作用",
+        "properties": {
+          "机制": "阻滞对硝苯地平的α反射",
+          "后果": "引起体位性低血压",
+          "建议": "合用时应谨慎，必要时应考虑降低硝苯地平的剂量",
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "哌唑嗪会阻滞对硝苯地平的α反射，引起体位性低血压。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "抗真菌药与硝苯地平相互作用",
+        "properties": {
+          "机制": "抑制细胞色素P450 3A4系统",
+          "后果": "增加硝苯地平的血药浓度，加重不良反应",
+          "建议": "合用时，需密切监测血压，必要时可考虑硝苯地平减量或停药",
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "抗真菌药伊曲康唑、氟康唑、酮康唑等抗真菌药可抑制细胞色素P450 3A4系统，合用后可增加硝苯地平的血药浓度，加重不良反应。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_3",
+        "name": "伊曲康唑属于抗真菌药",
+        "properties": {
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "抗真菌药伊曲康唑、氟康唑、酮康唑等抗真菌药"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_3",
+        "name": "氟康唑属于抗真菌药",
+        "properties": {
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "抗真菌药伊曲康唑、氟康唑、酮康唑等抗真菌药"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_3",
+        "name": "酮康唑属于抗真菌药",
+        "properties": {
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "抗真菌药伊曲康唑、氟康唑、酮康唑等抗真菌药"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "name": "抗真菌药抑制CYP3A4",
+        "properties": {
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "抗真菌药伊曲康唑、氟康唑、酮康唑等抗真菌药可抑制细胞色素P450 3A4系统"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "硝苯地平与二甲双胍相互作用",
+        "properties": {
+          "机制": "硝苯地平可引起二甲双胍血药浓度升高",
+          "后果": "增加低血糖发生风险",
+          "建议": "合用时应密切监测血糖",
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "硝苯地平可引起二甲双胍血药浓度升高，增加低血糖发生风险，合用时应密切监测血糖。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_1",
+        "name": "非甾体抗炎药与硝苯地平相互作用",
+        "properties": {
+          "后果": "增加胃肠道出血的风险",
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "非甾体抗炎药合用有增加胃肠道出血的风险。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_1",
+        "name": "利福平与硝苯地平相互作用",
+        "properties": {
+          "机制": "诱导硝苯地平的代谢",
+          "后果": "降低其疗效",
+          "建议": "硝苯地平应避免与利福平合用",
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "利福平可诱导硝苯地平的代谢，降低其疗效。因此，硝苯地平应避免与利福平合用。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_1",
+        "name": "芬太尼与硝苯地平相互作用",
+        "properties": {
+          "后果": "可导致严重的低血压",
+          "建议": "如条件许可应至少停药36小时",
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "芬太尼麻醉时，合用硝苯地平或β受体阻滞剂可导致严重的低血压，如条件许可应至少停药36小时。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_1",
+        "name": "β受体阻滞剂与硝苯地平相互作用",
+        "properties": {
+          "后果": "可导致严重的低血压",
+          "建议": "如条件许可应至少停药36小时",
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "芬太尼麻醉时，合用硝苯地平或β受体阻滞剂可导致严重的低血压，如条件许可应至少停药36小时。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_1",
+        "name": "西柚与硝苯地平相互作用",
+        "properties": {
+          "机制": "西柚中含有的呋喃香豆素会抑制CYP3A4功能",
+          "后果": "可导致血浆硝苯地平水平上升和血压下降。大量食用时，可能会导致严重低血压等不良反应",
+          "建议": "服药期间食用西柚或西柚汁",
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "西柚中含有的呋喃香豆素会抑制CYP3A4功能，服药期间食用西柚或西柚汁，可导致血浆硝苯地平水平上升和血压下降。大量食用时，可能会导致严重低血压等不良反应。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_13",
+        "target_id": "ent_7",
+        "name": "西柚抑制CYP3A4",
+        "properties": {
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "西柚中含有的呋喃香豆素会抑制CYP3A4功能"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_1",
+        "name": "红酒与硝苯地平相互作用",
+        "properties": {
+          "机制": "红酒及红酒中的没食子酸对CYP3A4有明显的抑制作用，而且没食子酸的代谢产物对CYP3A4表现出不可逆性抑制作用。如果用药期间饮用红酒，红酒中的没食子酸及没食子酸的氧化产物均可明显降低硝苯地平的代谢清除率",
+          "后果": "可能会导致严重的不良反应",
+          "建议": "用药期间饮用红酒",
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "红酒一项研究显示，红酒及红酒中的没食子酸对CYP3A4有明显的抑制作用，而且没食子酸的代谢产物对CYP3A4表现出不可逆性抑制作用。如果用药期间饮用红酒，红酒中的没食子酸及没食子酸的氧化产物均可明显降低硝苯地平的代谢清除率，可能会导致严重的不良反应。"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_14",
+        "target_id": "ent_7",
+        "name": "红酒抑制CYP3A4",
+        "properties": {
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "红酒及红酒中的没食子酸对CYP3A4有明显的抑制作用"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_15",
+        "name": "硝苯地平增加体位性低血压风险",
+        "properties": {
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "哌唑嗪会阻滞对硝苯地平的α反射，引起体位性低血压。"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_16",
+        "name": "硝苯地平增加不良反应风险",
+        "properties": {
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "合用后可增加硝苯地平的血药浓度，加重不良反应。"
+          }
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_17",
+        "name": "硝苯地平影响血压",
+        "properties": {
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "合用时，需密切监测血压"
+          }
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_19",
+        "name": "硝苯地平增加低血糖风险",
+        "properties": {
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "增加低血糖发生风险"
+          }
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_18",
+        "name": "硝苯地平影响血糖",
+        "properties": {
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "合用时应密切监测血糖"
+          }
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_9",
+        "target_id": "ent_20",
+        "name": "非甾体抗炎药增加胃肠道出血风险",
+        "properties": {
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "非甾体抗炎药合用有增加胃肠道出血的风险。"
+          }
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_21",
+        "name": "硝苯地平增加严重低血压风险",
+        "properties": {
+          "证据": {
+            "chunk_index": 1539,
+            "source": "医脉通神经科",
+            "text": "可导致严重的低血压"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1539,
+    "source": "医脉通神经科",
+    "text": "。故在合用时应谨慎，必要时应考虑降低硝苯地平的剂量。哌唑嗪哌唑嗪会阻滞对硝苯地平的α反射，引起体位性低血压。抗真菌药伊曲康唑、氟康唑、酮康唑等抗真菌药可抑制细胞色素P450 3A4系统，合用后可增加硝苯地平的血药浓度，加重不良反应。合用时，需密切监测血压，必要时可考虑硝苯地平减量或停药。二甲双胍硝苯地平可引起二甲双胍血药浓度升高，增加低血糖发生风险，合用时应密切监测血糖。非甾体抗炎药合用有增加胃肠道出血的风险。利福平利福平可诱导硝苯地平的代谢，降低其疗效。因此，硝苯地平应避免与利福平合用。芬太尼芬太尼麻醉时，合用硝苯地平或β受体阻滞剂可导致严重的低血压，如条件许可应至少停药36小时。西柚西柚中含有的呋喃香豆素会抑制CYP3A4功能，服药期间食用西柚或西柚汁，可导致血浆硝苯地平水平上升和血压下降。大量食用时，可能会导致严重低血压等不良反应。红酒一项研究显示，红酒及红酒中的没食子酸对CYP3A4有明显的抑制作用，而且没食子酸的代谢产物对CYP3A4表现出不可逆性抑制作用。如果用药期间饮用红酒，红酒中的没食子酸及没食子酸的氧化产物均可明显降低硝苯地平的代谢清除率，可能会导致严重的不良反应。总之，硝苯地平与多种药物和食物之间存在明显的相互作用，在临床用药过程中应密切关注药物间的协同与拮抗关系，从而减少药物不良反应和药源性疾病的发生"
+  }
+]

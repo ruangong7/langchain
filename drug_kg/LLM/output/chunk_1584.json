@@ -1,0 +1,134 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "氟西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "地昔帕明",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "安非他酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP2D6",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Evidence",
+        "name": "医脉通精神科",
+        "properties": {
+          "chunk_id": "1584",
+          "source": "医脉通精神科",
+          "text": "。此外，假阴性的情况也时有出现。例如，某系统报告，氟西汀可通过抑制CYP2D6升高地昔帕明的血药浓度，但却漏报了安非他酮与地昔帕明的类似相互作用。事实上，300mg/d安非他酮对CYP2D6的抑制效应与20mg/d氟西汀相当。再如，患者正在使用的某种药物经CYP2D6和CYP3A同等程度地代谢。联用CYP2D6抑制剂时，患者尚不至于出现过量中毒；然而在此基础上继续联用CYP3A抑制剂，风险则显著升高，但系统往往难以识别此类相对复杂的风险。然而，此类工具最大的局限性仍在于知识不足。鉴于很多药物相互作用最早是以个案报告的形式被发现，本文作者建议同行，积极记录及发表药物相互作用相关的个案报告，以及通过系统完成上报。被忽略的罪犯：警惕迟发药物相互作用文献索引：Preskorn SH. Drug-Drug Interactions (DDIs) in Psychiatric Practice, Part 2: Strategies to Minimize Adverse Outcomes From Unintended DDIs. Journal of Psychiatric Practice. 2018;24;341–347"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "氟西汀与地昔帕明相互作用",
+        "properties": {
+          "mechanism": "抑制CYP2D6",
+          "consequence": "升高地昔帕明的血药浓度",
+          "evidence": {
+            "chunk_index": 1584,
+            "source": "医脉通精神科",
+            "text": "氟西汀可通过抑制CYP2D6升高地昔帕明的血药浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "name": "安非他酮与地昔帕明相互作用",
+        "properties": {
+          "mechanism": "抑制CYP2D6",
+          "consequence": "类似相互作用（升高血药浓度）",
+          "evidence": {
+            "chunk_index": 1584,
+            "source": "医脉通精神科",
+            "text": "漏报了安非他酮与地昔帕明的类似相互作用。事实上，300mg/d安非他酮对CYP2D6的抑制效应与20mg/d氟西汀相当"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "氟西汀抑制CYP2D6",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1584,
+            "source": "医脉通精神科",
+            "text": "氟西汀可通过抑制CYP2D6"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "安非他酮抑制CYP2D6",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1584,
+            "source": "医脉通精神科",
+            "text": "300mg/d安非他酮对CYP2D6的抑制效应与20mg/d氟西汀相当"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "name": "地昔帕明影响血药浓度",
+        "properties": {
+          "effect": "升高",
+          "evidence": {
+            "chunk_index": 1584,
+            "source": "医脉通精神科",
+            "text": "升高地昔帕明的血药浓度"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1584,
+    "source": "医脉通精神科",
+    "text": "。此外，假阴性的情况也时有出现。例如，某系统报告，氟西汀可通过抑制CYP2D6升高地昔帕明的血药浓度，但却漏报了安非他酮与地昔帕明的类似相互作用。事实上，300mg/d安非他酮对CYP2D6的抑制效应与20mg/d氟西汀相当。再如，患者正在使用的某种药物经CYP2D6和CYP3A同等程度地代谢。联用CYP2D6抑制剂时，患者尚不至于出现过量中毒；然而在此基础上继续联用CYP3A抑制剂，风险则显著升高，但系统往往难以识别此类相对复杂的风险。然而，此类工具最大的局限性仍在于知识不足。鉴于很多药物相互作用最早是以个案报告的形式被发现，本文作者建议同行，积极记录及发表药物相互作用相关的个案报告，以及通过系统完成上报。被忽略的罪犯：警惕迟发药物相互作用文献索引：Preskorn SH. Drug-Drug Interactions (DDIs) in Psychiatric Practice, Part 2: Strategies to Minimize Adverse Outcomes From Unintended DDIs. Journal of Psychiatric Practice. 2018;24;341–347"
+  }
+]

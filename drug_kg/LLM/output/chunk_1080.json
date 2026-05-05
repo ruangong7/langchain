@@ -1,0 +1,168 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "吉非罗齐",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "西伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "横纹肌溶解",
+        "properties": {
+          "severity": "高"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "OCT1",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "OCT2",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "血糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "创新降糖药",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1080,
+          "source": "凡默谷"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "吉非罗齐可增加西伐他汀AUC达10倍，产生横纹肌溶解的严重不良事件",
+        "properties": {
+          "effect": "增加AUC达10倍",
+          "consequence": "横纹肌溶解",
+          "severity": "高",
+          "evidence": {
+            "chunk_index": 1080,
+            "source": "凡默谷",
+            "text": "如吉非罗齐可增加西伐他汀AUC达10倍，产生横纹肌溶解的严重不良事件[13]。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "二甲双胍影响血糖",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1080,
+            "source": "凡默谷",
+            "text": "还应该分别以口服糖耐量试验中的血糖和尿二甲双甲双胍药代药效动力学影响，支持其III期临床试验设计"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "name": "二甲双胍血药浓度不易评价其药效和药代动力学特征",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1080,
+            "source": "凡默谷",
+            "text": "二甲双胍药效和药代动力学特征受转运其进入肝细胞的OCT1和外排其进入尿液的肾OCT2转运体影响，均不易通过二甲双胍血药浓度进行评价。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "OCT1转运二甲双胍进入肝细胞",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1080,
+            "source": "凡默谷",
+            "text": "二甲双胍药效和药代动力学特征受转运其进入肝细胞的OCT1和外排其进入尿液的肾OCT2转运体影响"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "name": "OCT2转运二甲双胍进入尿液",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1080,
+            "source": "凡默谷",
+            "text": "二甲双胍药效和药代动力学特征受转运其进入肝细胞的OCT1和外排其进入尿液的肾OCT2转运体影响"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_4",
+        "name": "创新降糖药与二甲双胍合用需进行相互作用试验",
+        "properties": {
+          "purpose": "支持III期临床试验设计",
+          "evidence": {
+            "chunk_index": 1080,
+            "source": "凡默谷",
+            "text": "一个典型案例就是创新降糖药在进行临床III期试验(验证创新药与二甲双胍合用的有效性与安全性)之前需要进行与二甲双胍的相互作用试验设计[14]。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1080,
+    "source": "凡默谷",
+    "text": "。该试验可以是真实的临床试验，也可能是计算机模拟的临床试验(需要对该模型的预测力进行临床体内试验验证），其结果常被用来指导临床DDI计划。对于某一特定代谢酶的底物，如果新药为某一代谢酶或转运体的诱导剂或抑制剂，在进行临床DDI试验之前，新药的剂量选择非常重要，此时需要数学模型提前预测大致影响程度，从而支持剂量选择。在未评价DDI程度就直接进行DDI临床试验时，受试者可能会发生严重不良事件，如吉非罗齐可增加西伐他汀AUC达10倍，产生横纹肌溶解的严重不良事件[13]。因此，研究者应该在进行DDI 试验或进行可能有复杂临床合并用药之前进行 DDI的程度评价，尽可能从试验设计角度避免DDI引起的严重不良事件的发生。除了重要代谢酶/转运体介导的临床DDI研究以外，鉴于不能穷尽所有代谢酶/转运体进行体外实验，研究者还可能需要对目标适应症治疗时常见的药物与合并用药（常常为II/III期临床试验规定用的伴随用药）之间的相互作用进行评价。一个典型案例就是创新降糖药在进行临床III期试验(验证创新药与二甲双胍合用的有效性与安全性)之前需要进行与二甲双胍的相互作用试验设计[14]。二甲双胍药效和药代动力学特征受转运其进入肝细胞的OCT1和外排其进入尿液的肾OCT2转运体影响，均不易通过二甲双胍血药浓度进行评价。因此，国外专家建议该相互作用试验除了研究两者血浆药物浓度改变以外，还应该分别以口服糖耐量试验中的血糖和尿二甲双甲双胍药代药效动力学影响，支持其III期临床试验设计"
+  }
+]

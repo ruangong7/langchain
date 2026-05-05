@@ -1,0 +1,212 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "克唑替尼",
+        "properties": {
+          "通用名": "克唑替尼",
+          "剂型": "胶囊",
+          "给药途径": "口服",
+          "用法用量": "200mg/次，每日2次",
+          "适应症": "间变性淋巴瘤激酶（ALK）阳性的局部晚期或转移性非小细胞肺癌（NSCLC）"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Disease",
+        "name": "非小细胞肺癌",
+        "properties": {
+          "名称": "非小细胞肺癌",
+          "别名": "NSCLC"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP3A5",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "properties": {
+          "通用名": "咪达唑仑"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "酮康唑",
+        "properties": {
+          "通用名": "酮康唑"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {
+          "通用名": "利福平"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "酪氨酸激酶受体抑制剂",
+        "properties": {
+          "名称": "酪氨酸激酶受体抑制剂"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "克唑替尼属于酪氨酸激酶受体抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1176,
+            "source": "凡默谷",
+            "text": "克唑替尼胶囊[9]是一种酪氨酸激酶受体抑制剂"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "克唑替尼用于治疗非小细胞肺癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1176,
+            "source": "凡默谷",
+            "text": "用于治疗间变性淋巴瘤激酶（ALK)阳性的局部晚期或转移性非小细胞肺癌（NSCLC)"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "克唑替尼与CYP3A相互作用",
+        "properties": {
+          "mechanism": "抑制",
+          "consequence": "克唑替尼是CYP3A的中度抑制剂",
+          "evidence": {
+            "chunk_index": 1176,
+            "source": "凡默谷",
+            "text": "体外试验结果显示，克唑替尼对CYP3A具有抑制作用...临床DDI研究结果显示，克唑替尼（每日两次，每次250mg，连续服用28d)与咪达唑仑(CYP3A的底物）合用，咪达唑仑AUCinf增加了3.7倍，提示克唑替尼是CYP3A的中度抑制剂。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "CYP3A4是克唑替尼的主要代谢酶",
+        "properties": {
+          "mechanism": "代谢",
+          "consequence": "约占肝脏清除率的84%~99%",
+          "evidence": {
+            "chunk_index": 1176,
+            "source": "凡默谷",
+            "text": "CYP3A4/5是克唑替尼的主要代谢CYP酶，约占肝脏清除率的84%~99%(>25%)。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "CYP3A5是克唑替尼的主要代谢酶",
+        "properties": {
+          "mechanism": "代谢",
+          "consequence": "约占肝脏清除率的84%~99%",
+          "evidence": {
+            "chunk_index": 1176,
+            "source": "凡默谷",
+            "text": "CYP3A4/5是克唑替尼的主要代谢CYP酶，约占肝脏清除率的84%~99%(>25%)。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "克唑替尼与咪达唑仑相互作用",
+        "properties": {
+          "mechanism": "抑制CYP3A导致底物暴露增加",
+          "consequence": "咪达唑仑AUCinf增加了3.7倍",
+          "evidence": {
+            "chunk_index": 1176,
+            "source": "凡默谷",
+            "text": "克唑替尼（每日两次，每次250mg，连续服用28d)与咪达唑仑(CYP3A的底物）合用，咪达唑仑AUCinf增加了3.7倍"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "克唑替尼与酮康唑相互作用",
+        "properties": {
+          "mechanism": "CYP3A强抑制剂增加克唑替尼暴露",
+          "consequence": "克唑替尼AUCinf和Cmax值分别增加约3.2倍和1.4倍",
+          "evidence": {
+            "chunk_index": 1176,
+            "source": "凡默谷",
+            "text": "克唑替尼单剂量口服150mg，合并CYP3A强抑制剂酮康唑(200mg，每日两次），与单独服用克唑替尼相比，联用后克唑替尼AUCinf和Cmax值分别增加约3.2倍和1.4倍"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "克唑替尼与利福平相互作用",
+        "properties": {
+          "mechanism": "CYP3A强诱导剂降低克唑替尼暴露",
+          "consequence": "克唑替尼的稳态AUCtau和Cmax分别降低84%和79%",
+          "evidence": {
+            "chunk_index": 1176,
+            "source": "凡默谷",
+            "text": "克唑替尼（250mg，每日两次)合用CYP3A强诱导剂利福平（600mg，每日一次），与单独服用克唑替尼相比，克唑替尼的稳态AUCtau和Cmax分别降低84%和79%"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1176,
+    "source": "凡默谷",
+    "text": "。案例1:克唑替尼胶囊[9]是一种酪氨酸激酶受体抑制剂，于2011年在美国上市，用于治疗间变性淋巴瘤激酶（ALK)阳性的局部晚期或转移性非小细胞肺癌（NSCLC)，口服给药，200mg/次，每日2次。体外药代研究结果显示[10]，CYP3A4/5是克唑替尼的主要代谢CYP酶，约占肝脏清除率的84%~99%(>25%)。体外试验结果显示，克唑替尼对CYP3A具有抑制作用，以非洛地平和睾酮作为底物得到Ki分别为7.3μmol/L和8.2μmol/L，按临床试验中克唑替尼稳态血浆暴露水平为0.91μmol/L，计算I/Ki比值分别为0.11和0.13(>0.1，为FDA2012版药物相互作用指导原则中结合+游离药物的cut-off标准），提示可能存在体内药物相互作用。临床DDI研究结果显示，克唑替尼（每日两次，每次250mg，连续服用28d)与咪达唑仑(CYP3A的底物）合用，咪达唑仑AUCinf增加了3.7倍，提示克唑替尼是CYP3A的中度抑制剂。克唑替尼单剂量口服150mg，合并CYP3A强抑制剂酮康唑(200mg，每日两次），与单独服用克唑替尼相比，联用后克唑替尼AUCinf和Cmax值分别增加约3.2倍和1.4倍; 克唑替尼（250mg，每日两次)合用CYP3A强诱导剂利福平（600mg，每日一次），与单独服用克唑替尼相比，克唑替尼的稳态AUCtau和Cmax分别降低84%和79%"
+  }
+]

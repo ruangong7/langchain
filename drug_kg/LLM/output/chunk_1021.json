@@ -1,0 +1,124 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "S",
+        "properties": {
+          "通用名": "待申报/上市药物（底物）"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "I",
+        "properties": {
+          "通用名": "可能影响S暴露量的药物（抑制剂/诱导剂）"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Food",
+        "name": "食物",
+        "properties": {
+          "类型": "食物/饮品/补充剂",
+          "备注": "包括保健品、果汁或其他影响代谢酶和转运体的食物"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Population",
+        "name": "健康受试者",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Population",
+        "name": "适应症患者",
+        "properties": {
+          "备注": "特殊情况下用于观察健康受试者中不存在的药效学终点"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "代谢酶",
+        "properties": {
+          "类型": "代谢酶/转运体"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "转运体",
+        "properties": {
+          "类型": "代谢酶/转运体"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "I影响S的暴露量",
+        "properties": {
+          "机制描述": "I作为抑制剂或诱导剂改变S的暴露量",
+          "证据": {
+            "chunk_index": 1021,
+            "source": "凡默谷",
+            "text": "另一个可能产生影响/改变S暴露量的药物à “I” (inhibitor/inducer)"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "食物影响S的代谢",
+        "properties": {
+          "机制描述": "食物（如保健品、果汁）影响代谢酶和转运体，从而可能影响S的暴露",
+          "证据": {
+            "chunk_index": 1021,
+            "source": "凡默谷",
+            "text": "必要时排除食物作用（保健品、果汁或其他影响代谢酶和转运体的食物）"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "name": "食物影响代谢酶",
+        "properties": {
+          "证据": {
+            "chunk_index": 1021,
+            "source": "凡默谷",
+            "text": "其他影响代谢酶和转运体的食物"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "name": "食物影响转运体",
+        "properties": {
+          "证据": {
+            "chunk_index": 1021,
+            "source": "凡默谷",
+            "text": "其他影响代谢酶和转运体的食物"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1021,
+    "source": "凡默谷",
+    "text": "。命名原则需要研究的待申报/上市药物à “S” (substrate)另一个可能产生影响/改变S暴露量的药物à “I” (inhibitor/inducer)研究设计必要时排除食物作用（保健品、果汁或其他影响代谢酶和转运体的食物）研究人群、给药途径&剂量选择一般选择健康受试者，以排除安全性考量，特殊情况下，选择研究药物的适应症患者，以观察健康受试者中不存在的PD终点。给药途径在DDI研究中很重要，一般选用计划于临床的途径。如果只销售口服剂型，一般不需要进行与静脉注射制剂的相互作用研究；对于已批准药物，给药途径取决于已上市制剂。剂量选择：对于S和I，为了最大程度发现DDI，采用最大用药剂量和最短时间给药间隔"
+  }
+]

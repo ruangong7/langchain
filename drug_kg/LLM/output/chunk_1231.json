@@ -1,0 +1,126 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Esaxerenone",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "肝微粒体",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "肝细胞",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Mechanism",
+        "name": "抑制作用",
+        "properties": {
+          "机制类型": "抑制"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Mechanism",
+        "name": "诱导作用",
+        "properties": {
+          "机制类型": "诱导"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Mechanism",
+        "name": "肠道相互作用",
+        "properties": {
+          "机制类型": "肠道相互作用"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Mechanism",
+        "name": "肝脏相互作用",
+        "properties": {
+          "机制类型": "肝脏相互作用"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "AUCR",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "CL",
+        "properties": {
+          "名称": "清除率"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "Vd",
+        "properties": {
+          "名称": "分布体积"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "Vc",
+        "properties": {
+          "名称": "中央室分布体积"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Indicator",
+        "name": "K12",
+        "properties": {
+          "名称": "分配速率常数"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Indicator",
+        "name": "K21",
+        "properties": {
+          "名称": "分配速率常数"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Indicator",
+        "name": "FPEs",
+        "properties": {
+          "名称": "首过效应"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Food",
+        "name": "肠上皮细胞",
+        "properties": {
+          "类型": "其他"
+        }
+      }
+    ],
+    "relations": [],
+    "chunk_index": 1231,
+    "source": "凡默谷",
+    "text": "。肝微粒体的游离药物分数（fu, inc）为体外实测值，肝细胞的游离药物分数（fu, inc）为GastroPlus预测值（根据Austin方程）。本研究计算了结合所有可用机制的AUCR（AUCRtot），还分别计算了抑制和诱导作用的AUCR（AUCRinh和AUCRind）、基于肠道和肝脏相互作用的AUCR（AUCRg和AUCRh）。2.3使用动态PBPK模型的DDI风险评估Esaxerenone PBPK模型的相关建模参数1). Esaxerenone PBPK模型输入的理化性质参数（表1）2). Esaxerenone PBPK模型输入的处置参数（表2）使用GastroPlus 进行了动态 DDI分析。其中胃肠道模型为高级隔室吸收和转运模型，表1和表2列出了用于Esaxerenone模型构建的参数。肠上皮细胞的未结合分数设置为100％。建立了三种具有不同处置学参数的Esaxerenone模型，以比较不同研发阶段DDI的可预测性。模型1，根据猴子静脉给药的PK数据，通过单物种异速缩放从猴子的清除率CL和分布体积Vd预测了人体的CL和Vd，计算方法如下：为了评估可能产生的最大DDI风险，假定生物利用度为1，由于难以估算进出二房室的分配速率常数（即K12和K21），将模型1设定为1室模型。模型2为2-房室模型，其中CL, Vc, K12和K21为人体口服5mg Esaxerenone的PK数据的拟合值。模型3为2-房室模型，其中CL, Vc, K12和K21是使用静脉注射5mg Esaxerenone的PK数据计算得到，同时计算出首过效应（FPEs）并将其输入模型中（表2）"
+  }
+]

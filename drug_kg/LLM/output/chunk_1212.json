@@ -1,0 +1,272 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "吗啉硝唑",
+        "properties": {
+          "通用名": "吗啉硝唑",
+          "英文名": "morinidazole",
+          "剂型": "注射剂",
+          "规格": "500 mg",
+          "成分": [
+            "R-吗啉硝唑",
+            "S-吗啉硝唑"
+          ],
+          "适应症": [
+            "阿米巴病",
+            "滴虫病",
+            "厌氧菌感染",
+            "盆腔炎"
+          ],
+          "给药途径": "静脉注射",
+          "不良反应": "毒性小于甲硝唑，不良反应少于奥硝唑"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "硝基咪唑类抗菌药物",
+        "properties": {
+          "名称": "硝基咪唑类抗菌药物",
+          "代表药品": [
+            "吗啉硝唑",
+            "甲硝唑",
+            "奥硝唑"
+          ]
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "properties": {
+          "通用名": "二甲双胍"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "丙磺舒",
+        "properties": {
+          "通用名": "丙磺舒"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "properties": {
+          "通用名": "西咪替丁"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "替诺福韦",
+        "properties": {
+          "通用名": "替诺福韦"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "UGT1A9",
+        "properties": {
+          "名称": "UGT1A9",
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "肾脏衰竭",
+        "properties": {
+          "名称": "肾脏衰竭"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "AUC0 → t",
+        "properties": {
+          "名称": "AUC0 → t"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "肾清除率",
+        "properties": {
+          "名称": "肾清除率"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Population",
+        "name": "肾功能不全患者",
+        "properties": {
+          "名称": "肾功能不全患者"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "吗啉硝唑属于硝基咪唑类抗菌药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1212,
+            "source": "凡默谷",
+            "text": "吗啉硝唑（morinidazole）是第3 代5- 硝基咪唑类抗菌药物"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "吗啉硝唑用于治疗阿米巴病、滴虫病和厌氧菌感染等",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1212,
+            "source": "凡默谷",
+            "text": "临床上常采用静脉注射500 mg 外消旋吗啉硝唑氯化钠注射液治疗阿米巴病、滴虫病和厌氧菌（厌氧革兰阴性无芽孢杆菌、厌氧革兰阳性球菌）感染［1］等"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "吗啉硝唑与二甲双胍联用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "仅R-吗啉硝唑的tmax参数差异具有统计学意义，药代动力学参数无显著变化",
+          "evidence": {
+            "chunk_index": 1212,
+            "source": "凡默谷",
+            "text": "吗啉硝唑与二甲双胍联用后，仅R- 吗啉硝唑的tmax参数差异具有统计学意义，与其他药物联用后药代动力学参数无显著变化。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "吗啉硝唑与丙磺舒联用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "大鼠血浆中R-吗啉硝唑、S-吗啉硝唑药代动力学未发生显著改变",
+          "evidence": {
+            "chunk_index": 1212,
+            "source": "凡默谷",
+            "text": "吗啉硝唑分别与丙磺舒、西咪替丁、二甲双胍、替诺福韦联用后，大鼠血浆中R- 吗啉硝唑、S- 吗啉硝唑药代动力学未发生显著改变。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "吗啉硝唑与西咪替丁联用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "大鼠血浆中R-吗啉硝唑、S-吗啉硝唑药代动力学未发生显著改变",
+          "evidence": {
+            "chunk_index": 1212,
+            "source": "凡默谷",
+            "text": "吗啉硝唑分别与丙磺舒、西咪替丁、二甲双胍、替诺福韦联用后，大鼠血浆中R- 吗啉硝唑、S- 吗啉硝唑药代动力学未发生显著改变。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "吗啉硝唑与替诺福韦联用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "大鼠血浆中R-吗啉硝唑、S-吗啉硝唑药代动力学未发生显著改变",
+          "evidence": {
+            "chunk_index": 1212,
+            "source": "凡默谷",
+            "text": "吗啉硝唑分别与丙磺舒、西咪替丁、二甲双胍、替诺福韦联用后，大鼠血浆中R- 吗啉硝唑、S- 吗啉硝唑药代动力学未发生显著改变。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "吗啉硝唑经UGT1A9酶代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1212,
+            "source": "凡默谷",
+            "text": "吗啉硝唑在体内主要通过由UGT1A9 酶介导的N- 葡糖醛酸化形成S- 吗啉硝唑葡糖苷酸（M8-1）与R- 吗啉硝唑葡糖苷酸（M8-2）"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "name": "肾脏衰竭影响AUC0 → t",
+        "properties": {
+          "effect": "增加",
+          "magnitude": "M8-1 和M8-2 的AUC0 → t 分别增加20.4 和17.4 倍",
+          "evidence": {
+            "chunk_index": 1212,
+            "source": "凡默谷",
+            "text": "肾脏严重衰竭的病人与正常人注射相同剂量吗啉硝唑后，M8-1 和M8-2 的AUC0 → t 分别增加20.4 和17.4 倍"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_8",
+        "target_id": "ent_10",
+        "name": "肾脏衰竭影响肾清除率",
+        "properties": {
+          "effect": "降低",
+          "magnitude": "肾清除率分别降低了92.5% 和92.2%",
+          "evidence": {
+            "chunk_index": 1212,
+            "source": "凡默谷",
+            "text": "肾清除率分别降低了92.5% 和92.2%［4］"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "APPLIES_TO",
+        "source_id": "ent_8",
+        "target_id": "ent_11",
+        "name": "肾脏衰竭适用于肾功能不全患者",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1212,
+            "source": "凡默谷",
+            "text": "肾脏严重衰竭的病人与正常人注射相同剂量吗啉硝唑后..."
+          }
+        }
+      }
+    ],
+    "chunk_index": 1212,
+    "source": "凡默谷",
+    "text": "。吗啉硝唑与二甲双胍联用后，仅R- 吗啉硝唑的tmax参数差异具有统计学意义，与其他药物联用后药代动力学参数无显著变化。结论：本方法可对大鼠血浆中的R- 吗啉硝唑和S- 吗啉硝唑进行手性分离及定量分析。吗啉硝唑分别与丙磺舒、西咪替丁、二甲双胍、替诺福韦联用后，大鼠血浆中R- 吗啉硝唑、S- 吗啉硝唑药代动力学未发生显著改变。关键词 吗啉硝唑；硝基咪唑类抗菌药物；肾脏转运体；丙磺舒；西咪替丁；二甲双胍；替诺福韦；药物- 药物相互作用；液相色谱- 质谱_正文_吗啉硝唑（morinidazole）是第3 代5- 硝基咪唑类抗菌药物，为手性分子，临床上常采用静脉注射500 mg 外消旋吗啉硝唑氯化钠注射液治疗阿米巴病、滴虫病和厌氧菌（厌氧革兰阴性无芽孢杆菌、厌氧革兰阳性球菌）感染［1］等，其活性强于甲硝唑且毒性更小［2］。一项临床研究显示，在盆腔炎的治疗中，其疗效与奥硝唑相当且不良反应少于奥硝唑，有望成为盆腔炎的一线治疗药物［3］。吗啉硝唑在体内主要通过由UGT1A9 酶介导的N- 葡糖醛酸化形成S- 吗啉硝唑葡糖苷酸（M8-1）与R- 吗啉硝唑葡糖苷酸（M8-2），同时通过O- 硫酸化形成硫酸结合物（M7）［4］。吗啉硝唑、M8-1、M8-2、M7 主要通过尿液排泄，分别占剂量的21.2%、13.0%，6.6%、28.4%，肾脏严重衰竭的病人与正常人注射相同剂量吗啉硝唑后，M8-1 和M8-2 的AUC0 → t 分别增加20.4 和17.4 倍，肾清除率分别降低了92.5% 和92.2%［4］"
+  }
+]

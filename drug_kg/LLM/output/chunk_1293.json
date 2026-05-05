@@ -1,0 +1,489 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "阿司匹林",
+        "properties": {
+          "description": "消炎止痛，预防感冒，防止各类心血管疾病的发生"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "酒精",
+        "properties": {
+          "type": "饮品"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "抗血栓药",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "致消化性溃疡药",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Symptom",
+        "name": "胃肠道症状",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Symptom",
+        "name": "发热",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Symptom",
+        "name": "全身疼痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "肝损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "抗凝血药",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Food",
+        "name": "果汁",
+        "properties": {
+          "type": "饮品"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Food",
+        "name": "蔬果汁",
+        "properties": {
+          "type": "饮品"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Food",
+        "name": "可乐",
+        "properties": {
+          "type": "饮品"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "SideEffect",
+        "name": "肾脏损害",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Indicator",
+        "name": "排尿",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "感冒药",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Food",
+        "name": "蜂蜜",
+        "properties": {
+          "type": "食物"
+        }
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "泰诺",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "快克",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "感立克",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "感冒清",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "DrugClass",
+        "name": "止咳糖浆",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "DrugClass",
+        "name": "利尿剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Food",
+        "name": "胡萝卜",
+        "properties": {
+          "type": "食物"
+        }
+      },
+      {
+        "id": "ent_26",
+        "type": "Indicator",
+        "name": "钾",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Disease",
+        "name": "低钾血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "DrugClass",
+        "name": "抗抑郁药",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "Food",
+        "name": "芝士",
+        "properties": {
+          "type": "食物"
+        }
+      },
+      {
+        "id": "ent_30",
+        "type": "Symptom",
+        "name": "头痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_31",
+        "type": "Disease",
+        "name": "高血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_32",
+        "type": "DrugClass",
+        "name": "抗过敏药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_33",
+        "type": "Food",
+        "name": "奶酪",
+        "properties": {
+          "type": "食物"
+        }
+      },
+      {
+        "id": "ent_34",
+        "type": "Food",
+        "name": "肉制品",
+        "properties": {
+          "type": "食物"
+        }
+      },
+      {
+        "id": "ent_35",
+        "type": "Symptom",
+        "name": "头晕",
+        "properties": {}
+      },
+      {
+        "id": "ent_36",
+        "type": "Symptom",
+        "name": "心慌",
+        "properties": {}
+      },
+      {
+        "id": "ent_37",
+        "type": "Evidence",
+        "name": "北美省钱快报Dealmoon",
+        "properties": {
+          "chunk_id": "1293",
+          "source": "北美省钱快报Dealmoon"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "阿司匹林和酒精相互作用",
+        "properties": {
+          "consequence": "加重胃肠道症状，严重情况下加重发热和引发全身疼痛，容易引起肝损伤",
+          "advice": "不能一起使用",
+          "evidence": {
+            "chunk_index": 1293,
+            "source": "北美省钱快报Dealmoon",
+            "text": "但是，服用阿司匹林也是有风险的，尤其是不能与酒精和其他抗血栓药或致消化性溃疡药一起使用。酒后服用阿司匹林，会加重药物带来的胃肠道症状，严重情况下会加重发热和引发全身疼痛，还容易引起肝损伤。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "阿司匹林和抗血栓药相互作用",
+        "properties": {
+          "advice": "不能一起使用",
+          "evidence": {
+            "chunk_index": 1293,
+            "source": "北美省钱快报Dealmoon",
+            "text": "但是，服用阿司匹林也是有风险的，尤其是不能与酒精和其他抗血栓药或致消化性溃疡药一起使用。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "阿司匹林和致消化性溃疡药相互作用",
+        "properties": {
+          "advice": "不能一起使用",
+          "evidence": {
+            "chunk_index": 1293,
+            "source": "北美省钱快报Dealmoon",
+            "text": "但是，服用阿司匹林也是有风险的，尤其是不能与酒精和其他抗血栓药或致消化性溃疡药一起使用。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "阿司匹林和华法林相互作用",
+        "properties": {
+          "advice": "患者要严格按照医嘱服药",
+          "evidence": {
+            "chunk_index": 1293,
+            "source": "北美省钱快报Dealmoon",
+            "text": "阿司匹林和华法林等抗凝血药会相互作用，因此患者要严格按照医嘱服药。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "name": "华法林属于抗凝血药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1293,
+            "source": "北美省钱快报Dealmoon",
+            "text": "阿司匹林和华法林等抗凝血药会相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_12",
+        "name": "抗生素与果汁相互作用",
+        "properties": {
+          "mechanism": "降低药物的溶解度",
+          "consequence": "对肾脏造成损害，影响排尿",
+          "advice": "最近就不要喝果汁了",
+          "evidence": {
+            "chunk_index": 1293,
+            "source": "北美省钱快报Dealmoon",
+            "text": "但是，如果你正在服用抗生素，最近就不要喝果汁了。因为果汁、蔬果汁，包括可乐，会降低药物的溶解度，对肾脏造成损害，影响排尿。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_18",
+        "name": "感冒药与蜂蜜相互作用",
+        "properties": {
+          "mechanism": "形成一种复合物",
+          "consequence": "减弱退烧作用",
+          "advice": "尽量不要同时服用",
+          "evidence": {
+            "chunk_index": 1293,
+            "source": "北美省钱快报Dealmoon",
+            "text": "像泰诺、快克、感立克、感冒清等感冒药遇到蜂蜜会形成一种复合物，减弱退烧作用，所以尽量不要同时服用。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_19",
+        "target_id": "ent_17",
+        "name": "泰诺属于感冒药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1293,
+            "source": "北美省钱快报Dealmoon",
+            "text": "像泰诺、快克、感立克、感冒清等感冒药"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_20",
+        "target_id": "ent_17",
+        "name": "快克属于感冒药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1293,
+            "source": "北美省钱快报Dealmoon",
+            "text": "像泰诺、快克、感立克、感冒清等感冒药"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_21",
+        "target_id": "ent_17",
+        "name": "感立克属于感冒药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1293,
+            "source": "北美省钱快报Dealmoon",
+            "text": "像泰诺、快克、感立克、感冒清等感冒药"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_22",
+        "target_id": "ent_17",
+        "name": "感冒清属于感冒药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1293,
+            "source": "北美省钱快报Dealmoon",
+            "text": "像泰诺、快克、感立克、感冒清等感冒药"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_24",
+        "target_id": "ent_25",
+        "name": "利尿剂与胡萝卜相互作用",
+        "properties": {
+          "mechanism": "很多利尿剂是排钾的，而胡萝卜也有排钾的作用",
+          "consequence": "加速人体钾的排放，容易出现低钾血症",
+          "advice": "不要同时食用",
+          "evidence": {
+            "chunk_index": 1293,
+            "source": "北美省钱快报Dealmoon",
+            "text": "利尿剂不要与胡萝卜同时食用！因为，很多利尿剂是排钾的，而胡萝卜也有排钾的作用，同时食用会加速人体钾的排放，这样容易出现低钾血症。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_28",
+        "target_id": "ent_29",
+        "name": "抗抑郁药和芝士相互作用",
+        "properties": {
+          "mechanism": "抗抑郁药中的某些成分，会和芝士发生反应",
+          "consequence": "使人出现头痛和高血压等症状",
+          "advice": "最近就把甜食放一放",
+          "evidence": {
+            "chunk_index": 1293,
+            "source": "北美省钱快报Dealmoon",
+            "text": "因为抗抑郁药中的某些成分，会和芝士发生反应，两者同时服用会使人出现头痛和高血压等症状，真是得不偿失。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_32",
+        "target_id": "ent_33",
+        "name": "抗过敏药物和奶酪相互作用",
+        "properties": {
+          "mechanism": "组氨酸在人体内会转化为组织胺，而抗过敏药抑制组织胺分解，因此造成人体内组织胺蓄积",
+          "consequence": "诱发头晕、头痛、心慌等不适症状",
+          "advice": "忌食",
+          "evidence": {
+            "chunk_index": 1293,
+            "source": "北美省钱快报Dealmoon",
+            "text": "服用抗过敏药物期间忌食奶酪、肉制品等富含组氨酸的食物。因为组氨酸在人体内会转化为组织胺，而抗过敏药抑制组织胺分解，因此造成人体内组织胺蓄积，诱发头晕、头痛、心慌等不适症状"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_32",
+        "target_id": "ent_34",
+        "name": "抗过敏药物和肉制品相互作用",
+        "properties": {
+          "mechanism": "组氨酸在人体内会转化为组织胺，而抗过敏药抑制组织胺分解，因此造成人体内组织胺蓄积",
+          "consequence": "诱发头晕、头痛、心慌等不适症状",
+          "advice": "忌食",
+          "evidence": {
+            "chunk_index": 1293,
+            "source": "北美省钱快报Dealmoon",
+            "text": "服用抗过敏药物期间忌食奶酪、肉制品等富含组氨酸的食物。因为组氨酸在人体内会转化为组织胺，而抗过敏药抑制组织胺分解，因此造成人体内组织胺蓄积，诱发头晕、头痛、心慌等不适症状"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1293,
+    "source": "北美省钱快报Dealmoon",
+    "text": "。12.阿司匹林和酒精阿司匹林是人们家中常备的药物，既可以消炎止痛，预防感冒，还可以用来防止各类心血管疾病的发生，简直就是床头救命三宝之一。但是，服用阿司匹林也是有风险的，尤其是不能与酒精和其他抗血栓药或致消化性溃疡药一起使用。酒后服用阿司匹林，会加重药物带来的胃肠道症状，严重情况下会加重发热和引发全身疼痛，还容易引起肝损伤。阿司匹林和华法林等抗凝血药会相互作用，因此患者要严格按照医嘱服药。如果未经过专业医生的评估，不可经常服用阿司匹林。13.抗生素与果汁随着人们对养生的重视，越来越多的上班族通过喝果汁补充维生素C。但是，如果你正在服用抗生素，最近就不要喝果汁了。因为果汁、蔬果汁，包括可乐，会降低药物的溶解度，对肾脏造成损害，影响排尿。14.感冒药与蜂蜜像泰诺、快克、感立克、感冒清等感冒药遇到蜂蜜会形成一种复合物，减弱退烧作用，所以尽量不要同时服用。不仅如此，含有蜂蜜成分的药物，如止咳糖浆等，也最好不要与上述感冒药同时服用。15.利尿剂与胡萝卜利尿剂不要与胡萝卜同时食用！因为，很多利尿剂是排钾的，而胡萝卜也有排钾的作用，同时食用会加速人体钾的排放，这样容易出现低钾血症。16.抗抑郁药和芝士都说吃甜食会让人的心情变好，但是，如果你正在吃抗抑郁的药物，最近就把甜食放一放。因为抗抑郁药中的某些成分，会和芝士发生反应，两者同时服用会使人出现头痛和高血压等症状，真是得不偿失。17.抗过敏药物和奶酪、肉制品：服用抗过敏药物期间忌食奶酪、肉制品等富含组氨酸的食物。因为组氨酸在人体内会转化为组织胺，而抗过敏药抑制组织胺分解，因此造成人体内组织胺蓄积，诱发头晕、头痛、心慌等不适症状"
+  }
+]

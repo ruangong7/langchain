@@ -1,0 +1,196 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "properties": {
+          "通用名": "咪达唑仑"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "Esaxerenone",
+        "properties": {
+          "通用名": "Esaxerenone",
+          "别名": [
+            "CS-3150"
+          ],
+          "适应症": "高血压, 糖尿病肾病"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "非甾体类选择性盐皮质激素受体阻滞剂",
+        "properties": {
+          "名称": "非甾体类选择性盐皮质激素受体阻滞剂"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "代谢酶",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Mechanism",
+        "name": "抑制作用",
+        "properties": {
+          "机制类型": "抑制作用"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Mechanism",
+        "name": "诱导作用",
+        "properties": {
+          "机制类型": "诱导作用"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "高血压",
+        "properties": {
+          "名称": "高血压"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "糖尿病肾病",
+        "properties": {
+          "名称": "糖尿病肾病"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "唯一标识": "ev_1",
+          "来源类型": "公众号",
+          "chunk_id": 1227,
+          "来源": "凡默谷"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "Esaxerenone属于非甾体类选择性盐皮质激素受体阻滞剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1227,
+            "source": "凡默谷",
+            "text": "Esaxerenone（CS-3150）是一种新型的口服非甾体类选择性盐皮质激素受体阻滞剂"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "name": "Esaxerenone用于治疗高血压",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1227,
+            "source": "凡默谷",
+            "text": "已于2019年1月在日本批准用于治疗高血压"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "name": "Esaxerenone用于治疗糖尿病肾病",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1227,
+            "source": "凡默谷",
+            "text": "目前正在研究用于治疗糖尿病肾病"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "Esaxerenone与咪达唑仑存在药物-药物相互作用",
+        "properties": {
+          "机制": [
+            "抑制作用",
+            "诱导作用"
+          ],
+          "后果": "AUCR几乎保持不变",
+          "结论": "由于抑制作用和诱导作用的抵消效应，Esaxerenone作为促变药产生DDI的可能性较低",
+          "evidence": {
+            "chunk_index": 1227,
+            "source": "凡默谷",
+            "text": "表明由于抑制作用和诱导作用的抵消效应，Esaxerenone作为促变药产生DDI的可能性较低。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_4",
+        "target_id": "ent_5",
+        "name": "Esaxerenone与咪达唑仑相互作用涉及抑制作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1227,
+            "source": "凡默谷",
+            "text": "当仅考虑抑制或诱导作用时，咪达唑仑的AUCR会随Esaxerenone的给药时间、给药剂量、以及咪达唑仑的给药时间而改变。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_4",
+        "target_id": "ent_6",
+        "name": "Esaxerenone与咪达唑仑相互作用涉及诱导作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1227,
+            "source": "凡默谷",
+            "text": "当仅考虑抑制或诱导作用时，咪达唑仑的AUCR会随Esaxerenone的给药时间、给药剂量、以及咪达唑仑的给药时间而改变。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "Esaxerenone与代谢酶存在相互作用",
+        "properties": {
+          "机制": "多种途径代谢（氧化、水解、葡糖醛酸化）",
+          "结论": "作为受变药与酶抑制剂发生DDI的程度有限",
+          "evidence": {
+            "chunk_index": 1227,
+            "source": "凡默谷",
+            "text": "但由于它通过多种途径代谢，例如氧化、水解和葡糖醛酸化，因此认为Esaxerenone作为受变药与酶抑制剂发生药物-药物相互作用（DDI）的程度有限。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1227,
+    "source": "凡默谷",
+    "text": "。本研究还模拟了其他临床用药场景，结果表明当仅考虑抑制或诱导作用时，咪达唑仑的AUCR会随Esaxerenone的给药时间、给药剂量、以及咪达唑仑的给药时间而改变。但是，综合考虑两种作用时模拟的AUCR几乎保持不变。表明由于抑制作用和诱导作用的抵消效应，Esaxerenone作为促变药产生DDI的可能性较低。软件用途 在本案例中使用GastroPlus搭建了三个PBPK模型，以考察药物开发不同阶段、不同完整性的建模数据使用GastroPlus搭建的模型对DDI的预测性。模拟了肠道中的药物浓度、讨论了GastroPlus用于预测肠道中弱DDI的实用性。还模拟了新的用药场景，如Esaxerenone与咪达唑仑不同给药时间的DDI，以及不同剂量的Esaxerenone与咪达唑仑的DDI。正文目录1研究背景Esaxerenone（CS-3150）是一种新型的口服非甾体类选择性盐皮质激素受体阻滞剂，已于2019年1月在日本批准用于治疗高血压。目前正在研究用于治疗糖尿病肾病。由于其高膜渗透性，Esaxerenone在口服后迅速吸收，具有较高的生物利用度。尽管它的主要消除途径是代谢，但由于它通过多种途径代谢，例如氧化、水解和葡糖醛酸化，因此认为Esaxerenone作为受变药与酶抑制剂发生药物-药物相互作用（DDI）的程度有限。为了保证用药安全，FDA、EMA、日本厚生省等法规部门都要求对新药进行体外DDI的相关研究。当体外研究表明某种药物对代谢酶或转运体具有抑制或诱导能力时，通常首先使用静态模型估算该药物在临床环境中的作用"
+  }
+]

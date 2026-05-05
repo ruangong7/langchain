@@ -1,0 +1,613 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "奥拉帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "左氧氟沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "阿奇霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "利奈唑胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "卡泊芬净",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "尼拉帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "β-内酰胺类",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "碳青霉烯类",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "氨基糖苷类",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "环丙沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "莫西沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "甲硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "奥硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "万古霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "米卡芬净",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "氟康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "泊沙康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "氟唑帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "DrugClass",
+        "name": "三唑类抗真菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Drug",
+        "name": "帕米帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "DrugClass",
+        "name": "抗凝药",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "DrugClass",
+        "name": "PARP抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Drug",
+        "name": "奥沙帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Drug",
+        "name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "Drug",
+        "name": "替格瑞洛",
+        "properties": {}
+      },
+      {
+        "id": "ent_30",
+        "type": "Food",
+        "name": "西柚",
+        "properties": {
+          "type": "食物/饮品"
+        }
+      },
+      {
+        "id": "ent_31",
+        "type": "Food",
+        "name": "酸橙",
+        "properties": {
+          "type": "食物/饮品"
+        }
+      },
+      {
+        "id": "ent_32",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_33",
+        "type": "Food",
+        "name": "贯叶连翘",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_34",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_35",
+        "type": "Food",
+        "name": "芙朴冲剂",
+        "properties": {
+          "type": "中成药"
+        }
+      },
+      {
+        "id": "ent_36",
+        "type": "Food",
+        "name": "头花蓼",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_37",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_38",
+        "type": "Food",
+        "name": "人参",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_39",
+        "type": "Food",
+        "name": "银杏",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_40",
+        "type": "Food",
+        "name": "益母草",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_41",
+        "type": "Food",
+        "name": "杨梅酮",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_42",
+        "type": "Food",
+        "name": "淫羊藿",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_43",
+        "type": "Food",
+        "name": "陈皮",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_44",
+        "type": "Food",
+        "name": "橘红",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_45",
+        "type": "Food",
+        "name": "佛手",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_46",
+        "type": "Food",
+        "name": "白芷",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_47",
+        "type": "Food",
+        "name": "前胡",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_48",
+        "type": "Food",
+        "name": "当归",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_49",
+        "type": "SideEffect",
+        "name": "不良反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_50",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "医会宝肿瘤视界",
+        "properties": {
+          "chunk_id": "1319",
+          "source": "医会宝肿瘤视界"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "合用应加强不良反应关注",
+        "properties": {
+          "effect": "应加强对奥拉帕利不良反应的关注",
+          "evidence": [
+            {
+              "chunk_index": 1319,
+              "source": "医会宝肿瘤视界",
+              "text": "与左氧氟沙星、阿奇霉素、利奈唑胺、卡泊芬净合用时应加强对奥拉帕利不良反应的关注。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "合用应加强不良反应关注",
+        "properties": {
+          "effect": "应加强对奥拉帕利不良反应的关注",
+          "evidence": [
+            {
+              "chunk_index": 1319,
+              "source": "医会宝肿瘤视界",
+              "text": "与左氧氟沙星、阿奇霉素、利奈唑胺、卡泊芬净合用时应加强对奥拉帕利不良反应的关注。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "合用应加强不良反应关注",
+        "properties": {
+          "effect": "应加强对奥拉帕利不良反应的关注",
+          "evidence": [
+            {
+              "chunk_index": 1319,
+              "source": "医会宝肿瘤视界",
+              "text": "与左氧氟沙星、阿奇霉素、利奈唑胺、卡泊芬净合用时应加强对奥拉帕利不良反应的关注。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "合用应加强不良反应关注",
+        "properties": {
+          "effect": "应加强对奥拉帕利不良反应的关注",
+          "evidence": [
+            {
+              "chunk_index": 1319,
+              "source": "医会宝肿瘤视界",
+              "text": "与左氧氟沙星、阿奇霉素、利奈唑胺、卡泊芬净合用时应加强对奥拉帕利不良反应的关注。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_2",
+        "name": "合用应加强不良反应关注",
+        "properties": {
+          "effect": "应加强不良反应的关注",
+          "evidence": [
+            {
+              "chunk_index": 1319,
+              "source": "医会宝肿瘤视界",
+              "text": "与左氧氟沙星、红霉素、克拉霉素、阿奇霉素、利奈唑胺、伊曲康唑、卡泊芬净合用应加强不良反应的关注。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_19",
+        "name": "合用应加强不良反应关注",
+        "properties": {
+          "effect": "应加强不良反应的关注",
+          "evidence": [
+            {
+              "chunk_index": 1319,
+              "source": "医会宝肿瘤视界",
+              "text": "与左氧氟沙星、红霉素、克拉霉素、阿奇霉素、利奈唑胺、伊曲康唑、卡泊芬净合用应加强不良反应的关注。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_20",
+        "name": "合用应加强不良反应关注",
+        "properties": {
+          "effect": "应加强不良反应的关注",
+          "evidence": [
+            {
+              "chunk_index": 1319,
+              "source": "医会宝肿瘤视界",
+              "text": "与左氧氟沙星、红霉素、克拉霉素、阿奇霉素、利奈唑胺、伊曲康唑、卡泊芬净合用应加强不良反应的关注。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_3",
+        "name": "合用应加强不良反应关注",
+        "properties": {
+          "effect": "应加强不良反应的关注",
+          "evidence": [
+            {
+              "chunk_index": 1319,
+              "source": "医会宝肿瘤视界",
+              "text": "与左氧氟沙星、红霉素、克拉霉素、阿奇霉素、利奈唑胺、伊曲康唑、卡泊芬净合用应加强不良反应的关注。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_4",
+        "name": "合用应加强不良反应关注",
+        "properties": {
+          "effect": "应加强不良反应的关注",
+          "evidence": [
+            {
+              "chunk_index": 1319,
+              "source": "医会宝肿瘤视界",
+              "text": "与左氧氟沙星、红霉素、克拉霉素、阿奇霉素、利奈唑胺、伊曲康唑、卡泊芬净合用应加强不良反应的关注。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_21",
+        "name": "合用应加强不良反应关注",
+        "properties": {
+          "effect": "应加强不良反应的关注",
+          "evidence": [
+            {
+              "chunk_index": 1319,
+              "source": "医会宝肿瘤视界",
+              "text": "与左氧氟沙星、红霉素、克拉霉素、阿奇霉素、利奈唑胺、伊曲康唑、卡泊芬净合用应加强不良反应的关注。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_5",
+        "name": "合用应加强不良反应关注",
+        "properties": {
+          "effect": "应加强不良反应的关注",
+          "evidence": [
+            {
+              "chunk_index": 1319,
+              "source": "医会宝肿瘤视界",
+              "text": "与左氧氟沙星、红霉素、克拉霉素、阿奇霉素、利奈唑胺、伊曲康唑、卡泊芬净合用应加强不良反应的关注。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_22",
+        "target_id": "ent_10",
+        "name": "避免合用",
+        "properties": {
+          "effect": "避免合用",
+          "evidence": [
+            {
+              "chunk_index": 1319,
+              "source": "医会宝肿瘤视界",
+              "text": "避免与环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物合用。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_22",
+        "target_id": "ent_19",
+        "name": "避免合用",
+        "properties": {
+          "effect": "避免合用",
+          "evidence": [
+            {
+              "chunk_index": 1319,
+              "source": "医会宝肿瘤视界",
+              "text": "避免与环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物合用。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_22",
+        "target_id": "ent_20",
+        "name": "避免合用",
+        "properties": {
+          "effect": "避免合用",
+          "evidence": [
+            {
+              "chunk_index": 1319,
+              "source": "医会宝肿瘤视界",
+              "text": "避免与环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物合用。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_22",
+        "target_id": "ent_12",
+        "name": "避免合用",
+        "properties": {
+          "effect": "避免合用",
+          "evidence": [
+            {
+              "chunk_index": 1319,
+              "source": "医会宝肿瘤视界",
+              "text": "避免与环丙沙星、红霉素、克拉霉素、甲硝"
+            }
+          ]
+        }
+      }
+    ],
+    "chunk_index": 1319,
+    "source": "医会宝肿瘤视界",
+    "text": "。与左氧氟沙星、阿奇霉素、利奈唑胺、卡泊芬净合用时应加强对奥拉帕利不良反应的关注。尼拉帕利：与β-内酰胺类、碳青霉烯类、氨基糖苷类、环丙沙星、莫西沙星、甲硝唑、（左）奥硝唑、万古霉素、米卡芬净、氟康唑、伏立康唑、泊沙康唑可安全合用。与左氧氟沙星、红霉素、克拉霉素、阿奇霉素、利奈唑胺、伊曲康唑、卡泊芬净合用应加强不良反应的关注。氟唑帕利：与β-内酰胺类、碳青霉烯类、氨基糖苷类、左氧氟沙星、莫西沙星、（左）奥硝唑、万古霉素、米卡芬净可安全合用。避免与环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物合用。如必须合用时，建议适当降低氟唑帕利剂量。与阿奇霉素、利奈唑胺、卡泊芬净合用时应加强对氟唑帕利不良反应的关注。帕米帕利：除利奈唑胺以外的其他常见抗菌药物均可安全合用。图片来源：医会宝编辑部05 抗凝药所有抗凝药与PARP 抑制剂合用时，均需谨慎，应关注出血及其他不良反应。使用奥沙帕利时，应谨慎使用华法林抗凝。对于长期使用替格瑞洛的患者，可优先选用帕米帕利。图片来源：医会宝编辑部06 食物和中药西柚（汁）、酸橙（汁）是CYP3A强抑制剂，中药贯叶连翘为CYP3A、P-gp强诱导剂，可影响PARP 抑制剂在体内的代谢，应避免食用。另外，芙朴冲剂、头花蓼也可诱导CYP3A4。某些中药或中成药也可抑制CYP3A4，如人参、银杏、益母草、杨梅酮、淫羊藿、含黄酮类成分橙皮苷的芸香料中药（如陈皮、橘红、佛手）、含有呋喃香豆素成分的中药（如白芷、前胡、当归）等，均可抑制CYP3A4的活性"
+  }
+]

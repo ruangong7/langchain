@@ -1,0 +1,240 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利伐沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "抗肿瘤药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "抗凝药",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "癌症",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "VTE",
+        "properties": {
+          "full_name": "静脉血栓栓塞症"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "type": "转运体",
+          "alias": [
+            "ABCB1"
+          ]
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "生物烷化剂类抗肿瘤药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "环磷酰胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "异环磷酰胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "植物类抗肿瘤药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "酪氨酸蛋白激酶抑制剂",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "利伐沙班用于治疗VTE",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1112,
+            "source": "凡默谷",
+            "text": "相比于其他抗凝剂，利伐沙班应用于癌症患者的抗凝治疗可以显著降低 VTE 的复发率［46-47］。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "利伐沙班用于癌症患者抗凝治疗",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1112,
+            "source": "凡默谷",
+            "text": "利伐沙班应用于癌症患者的抗凝治疗可以显著降低 VTE 的复发率［46-47］。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_8",
+        "name": "环磷酰胺属于生物烷化剂类抗肿瘤药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1112,
+            "source": "凡默谷",
+            "text": "如生物烷化剂类抗肿瘤药物环磷酰胺及异环磷酰胺的体内过程需要借助P450代谢酶进行代谢激活..."
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_8",
+        "name": "异环磷酰胺属于生物烷化剂类抗肿瘤药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1112,
+            "source": "凡默谷",
+            "text": "如生物烷化剂类抗肿瘤药物环磷酰胺及异环磷酰胺的体内过程需要借助P450代谢酶进行代谢激活..."
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_9",
+        "target_id": "ent_6",
+        "name": "环磷酰胺经CYP3A4代谢激活",
+        "properties": {
+          "contribution_rate": "95%",
+          "evidence": {
+            "chunk_index": 1112,
+            "source": "凡默谷",
+            "text": "CYP3A4 对环磷酰胺、异环磷酰胺的贡献率分别可以达到 95%、65%，是二者生物转化的主要代谢酶。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_10",
+        "target_id": "ent_6",
+        "name": "异环磷酰胺经CYP3A4代谢激活",
+        "properties": {
+          "contribution_rate": "65%",
+          "evidence": {
+            "chunk_index": 1112,
+            "source": "凡默谷",
+            "text": "CYP3A4 对环磷酰胺、异环磷酰胺的贡献率分别可以达到 95%、65%，是二者生物转化的主要代谢酶。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_11",
+        "target_id": "ent_6",
+        "name": "植物类抗肿瘤药物经CYP3A4参与体内过程",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1112,
+            "source": "凡默谷",
+            "text": "除烷化剂外，植物类抗肿瘤药物、酪氨酸蛋白激酶抑制剂等多种一线抗肿瘤药物的体内过程也都有 CYP3A4 的参与..."
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_12",
+        "target_id": "ent_6",
+        "name": "酪氨酸蛋白激酶抑制剂经CYP3A4参与体内过程",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1112,
+            "source": "凡默谷",
+            "text": "除烷化剂外，植物类抗肿瘤药物、酪氨酸蛋白激酶抑制剂等多种一线抗肿瘤药物的体内过程也都有 CYP3A4 的参与..."
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "利伐沙班与抗肿瘤药物存在DDI风险",
+        "properties": {
+          "risk_description": "体内药动学不可控性增加",
+          "mechanism_enzymes": [
+            "CYP3A4",
+            "P-gp"
+          ],
+          "evidence": {
+            "chunk_index": 1112,
+            "source": "凡默谷",
+            "text": "评估利伐沙班与抗肿瘤药物联用DDI风险极具临床指导意义。CYP3A4、P-gp 参与多种抗肿瘤药物的体内过程...肝脏中CYP3A4含量的巨大个体差异无疑会进一步增大利伐沙班与上述药物联用时体内药动学的不可控性。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "name": "抗肿瘤药物经P-gp参与体内代谢",
+        "properties": {
+          "role": "肿瘤细胞多药耐药的重要靶点",
+          "evidence": {
+            "chunk_index": 1112,
+            "source": "凡默谷",
+            "text": "P-gp作为肿瘤细胞多药耐药的重要靶点，参与了大多数抗肿瘤药物的体内代谢"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1112,
+    "source": "凡默谷",
+    "text": "。由于癌症患者血栓性疾病的易发生性及并发后的 危险性，抗肿瘤药物与抗凝药的联合应用具有深厚 的临床基础。 近几年的临床实践表明，相比于其他抗凝剂， 利伐沙班应用于癌症患者的抗凝治疗可以显著降 低 VTE 的复发率［46-47］ 。同时，在一项对标准抗凝疗 法与直接口服抗凝剂抗凝治疗的安全性有效性比 较的 Meta 分析中得出：对于癌症患者来讲，接受利 伐沙班治疗相比于标准治疗危险发生率更低且有 效性相近［48］ 。因此，直接口服抗凝剂也逐渐被投入 到肿瘤患者的抗凝治疗中［49-50］ 。因此，评估利伐沙 班与抗肿瘤药物联用DDI风险极具临床指导意义。 CYP3A4、P-gp 参与多种抗肿瘤药物的体内过 程，并在抗肿瘤前药的生物激活、肿瘤细胞多药耐 药等方面发挥关键性的作用。如生物烷化剂类抗 肿瘤药物环磷酰胺及异环磷酰胺的体内过程需要 借助P450代谢酶进行代谢激活，产生氮芥类衍生物进而发挥抗肿瘤活性 。在代谢激活过程中 ， CYP3A4 对环磷酰胺、异环磷酰胺的贡献率分别可 以达到 95%、65%，是二者生物转化的主要代谢酶。大量研究发现，除烷化剂外，植物类抗肿瘤药物、酪 氨酸蛋白激酶抑制剂等多种一线抗肿瘤药物的体内过程也都有 CYP3A4 的参与，见表 2［51-67］ ，而肝脏中CYP3A4含量的巨大个体差异无疑会进一步增大 利伐沙班与上述药物联用时体内药动学的不可控 性。P-gp作为肿瘤细胞多药耐药的重要靶点，参与 了大多数抗肿瘤药物的体内代谢"
+  }
+]

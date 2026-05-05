@@ -1,0 +1,105 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "BCRP",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "OATP1B1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "OATP1B3",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "在研药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "name": "药物是P-gp的底物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 129,
+            "source": "GMP办公室",
+            "text": "如果体外研究表明药物是P-gp的底物，则应该根据药物的安全范围、治疗指数以及临床上可能合用的P-gp抑制剂等因素来考虑是否开展体内研究。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_2",
+        "name": "药物是BCRP的底物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 129,
+            "source": "GMP办公室",
+            "text": "如果体外研究表明药物是BCRP的底物，则应根据药物的安全范围、治疗指数以及可能的合用药物（为特定患者群体中已知的BCRP抑制剂）来考虑是否进行体内研究。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_3",
+        "name": "药物是OATP1B1的底物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 129,
+            "source": "GMP办公室",
+            "text": "应进行体外研究以确定该药物是否为肝脏摄取转运体OATP1B1和OATP1B3的底物"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_4",
+        "name": "药物是OATP1B3的底物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 129,
+            "source": "GMP办公室",
+            "text": "应进行体外研究以确定该药物是否为肝脏摄取转运体OATP1B1和OATP1B3的底物"
+          }
+        }
+      }
+    ],
+    "chunk_index": 129,
+    "source": "GMP办公室",
+    "text": "。● 外排至少会被一种已知的P-gp抑制剂在高于其Ki或者IC50至少10倍的浓度下抑制（比如，与无抑制剂的对照组相比，加入抑制剂可使ER值下降50％以上）。如果采用表达多种外排转运体的Caco-2细胞，则应使用多种P-gp抑制剂来确定外排的专属性。如果体外研究表明药物是P-gp的底物，则应该根据药物的安全范围、治疗指数以及临床上可能合用的P-gp抑制剂等因素来考虑是否开展体内研究。申请人也可以根据上述研究方法和策略考察药物是否为BCRP的底物和考虑是否进行体内研究。申请人也可以根据上述方法，使用已知的BCRP抑制剂，确定该药物是否为BCRP的底物。如果体外研究表明药物是BCRP的底物，则应根据药物的安全范围、治疗指数以及可能的合用药物（为特定患者群体中已知的BCRP抑制剂）来考虑是否进行体内研究。（2）是否为肝脏转运体OATP1B1和OATP1B3的底物（i）研究内容如果体外研究或人/动物的吸收、分布、代谢和/或排泄数据表明在研药物存在明显的肝摄取或者消除（如通过肝脏代谢或胆汁分泌的药物清除率≥总药物清除率的25%），或者药物的肝摄取具有重要临床意义（发生生物转化或产生药理作用），应进行体外研究以确定该药物是否为肝脏摄取转运体OATP1B1和OATP1B3的底物"
+  }
+]

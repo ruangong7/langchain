@@ -1,0 +1,330 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "氨基糖苷类抗菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "乘晕宁",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "苯海拉明",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "新霉素 (口服)",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "口服避孕药",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "氯霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "磺胺药",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "磺脲降糖药(氯磺丙脲)",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "苯妥英钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "口服抗凝剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "巴比妥类",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Food",
+        "name": "酒",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "对乙酰氨基酚",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "SideEffect",
+        "name": "耳毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "SideEffect",
+        "name": "避孕药失败",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "SideEffect",
+        "name": "造血系统毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "双硫醒样反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "SideEffect",
+        "name": "毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Mechanism",
+        "name": "代谢酶诱导",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Mechanism",
+        "name": "抑酶作用",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Mechanism",
+        "name": "代谢竞争",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Evidence",
+        "name": "医梦园",
+        "properties": {
+          "chunk_id": "1444",
+          "source": "医梦园",
+          "text": "，抗菌作用减弱氨基糖苷类抗菌药物乘晕宁、苯海拉明可能掩盖前药耳毒性症状，不易及时发觉新霉素 (口服)口服避孕药可能导致避孕药失败，并增加出血发生率氯霉素抗菌药物类别配伍药物相互作用结果氯霉素利福平由于利福平对氯霉素代谢酶的诱导，而降低氯霉素在血和脑脊液中的浓度氯霉素磺胺药增加对造血系统的毒性氯霉素磺脲降糖药(氯磺丙脲)、苯妥英钠、口服抗凝剂、巴比妥类通过氯霉素抑酶作用，使配伍药物血浓度增高，半衰期延长，作用加强、毒副反应增加氯霉素酒出现双硫醒样反应氯霉素对乙酰氨基酚通过代谢竞争，氯霉素加重对乙酰氨基酚的毒性"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "乘晕宁与氨基糖苷类抗菌药物相互作用",
+        "properties": {
+          "consequence": "可能掩盖前药耳毒性症状，不易及时发觉",
+          "evidence": {
+            "chunk_index": 1444,
+            "source": "医梦园",
+            "text": "氨基糖苷类抗菌药物乘晕宁、苯海拉明可能掩盖前药耳毒性症状，不易及时发觉"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "苯海拉明与氨基糖苷类抗菌药物相互作用",
+        "properties": {
+          "consequence": "可能掩盖前药耳毒性症状，不易及时发觉",
+          "evidence": {
+            "chunk_index": 1444,
+            "source": "医梦园",
+            "text": "氨基糖苷类抗菌药物乘晕宁、苯海拉明可能掩盖前药耳毒性症状，不易及时发觉"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "新霉素 (口服)与口服避孕药相互作用",
+        "properties": {
+          "consequence": "可能导致避孕药失败，并增加出血发生率",
+          "evidence": {
+            "chunk_index": 1444,
+            "source": "医梦园",
+            "text": "新霉素 (口服)口服避孕药可能导致避孕药失败，并增加出血发生率"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_6",
+        "name": "利福平与氯霉素相互作用",
+        "properties": {
+          "mechanism": "利福平对氯霉素代谢酶的诱导",
+          "consequence": "降低氯霉素在血和脑脊液中的浓度",
+          "evidence": {
+            "chunk_index": 1444,
+            "source": "医梦园",
+            "text": "氯霉素利福平由于利福平对氯霉素代谢酶的诱导，而降低氯霉素在血和脑脊液中的浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_6",
+        "name": "磺胺药与氯霉素相互作用",
+        "properties": {
+          "consequence": "增加对造血系统的毒性",
+          "evidence": {
+            "chunk_index": 1444,
+            "source": "医梦园",
+            "text": "氯霉素磺胺药增加对造血系统的毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_9",
+        "name": "氯霉素与磺脲降糖药(氯磺丙脲)相互作用",
+        "properties": {
+          "mechanism": "氯霉素抑酶作用",
+          "consequence": "使配伍药物血浓度增高，半衰期延长，作用加强、毒副反应增加",
+          "evidence": {
+            "chunk_index": 1444,
+            "source": "医梦园",
+            "text": "氯霉素磺脲降糖药(氯磺丙脲)、苯妥英钠、口服抗凝剂、巴比妥类通过氯霉素抑酶作用，使配伍药物血浓度增高，半衰期延长，作用加强、毒副反应增加"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "name": "氯霉素与苯妥英钠相互作用",
+        "properties": {
+          "mechanism": "氯霉素抑酶作用",
+          "consequence": "使配伍药物血浓度增高，半衰期延长，作用加强、毒副反应增加",
+          "evidence": {
+            "chunk_index": 1444,
+            "source": "医梦园",
+            "text": "氯霉素磺脲降糖药(氯磺丙脲)、苯妥英钠、口服抗凝剂、巴比妥类通过氯霉素抑酶作用，使配伍药物血浓度增高，半衰期延长，作用加强、毒副反应增加"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_11",
+        "name": "氯霉素与口服抗凝剂相互作用",
+        "properties": {
+          "mechanism": "氯霉素抑酶作用",
+          "consequence": "使配伍药物血浓度增高，半衰期延长，作用加强、毒副反应增加",
+          "evidence": {
+            "chunk_index": 1444,
+            "source": "医梦园",
+            "text": "氯霉素磺脲降糖药(氯磺丙脲)、苯妥英钠、口服抗凝剂、巴比妥类通过氯霉素抑酶作用，使配伍药物血浓度增高，半衰期延长，作用加强、毒副反应增加"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_12",
+        "name": "氯霉素与巴比妥类相互作用",
+        "properties": {
+          "mechanism": "氯霉素抑酶作用",
+          "consequence": "使配伍药物血浓度增高，半衰期延长，作用加强、毒副反应增加",
+          "evidence": {
+            "chunk_index": 1444,
+            "source": "医梦园",
+            "text": "氯霉素磺脲降糖药(氯磺丙脲)、苯妥英钠、口服抗凝剂、巴比妥类通过氯霉素抑酶作用，使配伍药物血浓度增高，半衰期延长，作用加强、毒副反应增加"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_6",
+        "name": "酒与氯霉素相互作用",
+        "properties": {
+          "consequence": "出现双硫醒样反应",
+          "evidence": {
+            "chunk_index": 1444,
+            "source": "医梦园",
+            "text": "氯霉素酒出现双硫醒样反应"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_14",
+        "name": "氯霉素与对乙酰氨基酚相互作用",
+        "properties": {
+          "mechanism": "通过代谢竞争",
+          "consequence": "氯霉素加重对乙酰氨基酚的毒性",
+          "evidence": {
+            "chunk_index": 1444,
+            "source": "医梦园",
+            "text": "氯霉素对乙酰氨基酚通过代谢竞争，氯霉素加重对乙酰氨基酚的毒性"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1444,
+    "source": "医梦园",
+    "text": "，抗菌作用减弱氨基糖苷类抗菌药物乘晕宁、苯海拉明可能掩盖前药耳毒性症状，不易及时发觉新霉素 (口服)口服避孕药可能导致避孕药失败，并增加出血发生率氯霉素抗菌药物类别配伍药物相互作用结果氯霉素利福平由于利福平对氯霉素代谢酶的诱导，而降低氯霉素在血和脑脊液中的浓度氯霉素磺胺药增加对造血系统的毒性氯霉素磺脲降糖药(氯磺丙脲)、苯妥英钠、口服抗凝剂、巴比妥类通过氯霉素抑酶作用，使配伍药物血浓度增高，半衰期延长，作用加强、毒副反应增加氯霉素酒出现双硫醒样反应氯霉素对乙酰氨基酚通过代谢竞争，氯霉素加重对乙酰氨基酚的毒性"
+  }
+]

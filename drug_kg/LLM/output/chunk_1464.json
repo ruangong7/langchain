@@ -1,0 +1,606 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "美托洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氟西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "舒芬太尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "硝苯地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "镁",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "诺氟沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "茶碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "苯妥英",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "胺碘酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "细胞色素P450",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "SideEffect",
+        "name": "严重呼吸抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "突然低血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "SideEffect",
+        "name": "显著的低血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "SideEffect",
+        "name": "神经肌肉阻滞",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Symptom",
+        "name": "恶心",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Symptom",
+        "name": "呕吐",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Symptom",
+        "name": "震颤",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Symptom",
+        "name": "不安",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Symptom",
+        "name": "激动",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Symptom",
+        "name": "抽搐",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Symptom",
+        "name": "心悸",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Symptom",
+        "name": "运动失调",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Symptom",
+        "name": "眼球震颤",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "Symptom",
+        "name": "视觉模糊",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Symptom",
+        "name": "双腿无力",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Evidence",
+        "name": "医脉圈",
+        "properties": {
+          "chunk_id": "1464",
+          "source": "医脉圈"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "氟西汀与美托洛尔相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "美托洛尔的血药浓度升高，毒性增大",
+          "suggestion": "应注意监测，必要时减少美托洛尔的用量",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "氟西汀可引起美托洛尔的血药浓度升高，毒性增大，故应注意监测，必要时减少美托洛尔的用量。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "咪达唑仑与舒芬太尼相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "可引起严重呼吸抑制及突然低血压",
+          "suggestion": "合用时应严密监测血药浓度，并且适当减少剂量",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "咪达唑仑与芬太尼或舒芬太尼同用，可引起严重呼吸抑制及突然低血压，因而这些药合用时应严密监测血药浓度，并且适当减少剂量。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "硝苯地平与镁相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "可引起显著的低血压和神经肌肉阻滞",
+          "suggestion": "合用时应密切监测血压",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "硝苯地平+镁镁剂用于早产治疗时，如与本药合用可引起显著的低血压和神经肌肉阻滞。合用时应密切监测血压。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "name": "诺氟沙星与茶碱相互作用",
+        "properties": {
+          "mechanism": "与细胞色素P450结合部位的竞争性抑制",
+          "consequence": "茶碱类的肝清除明显减少，血消除半衰期(t1/2β)延长，血药浓度升高，出现茶碱中毒症状，如恶心、呕吐、震颤、不安、激动、抽搐、心悸等",
+          "suggestion": "合用时应测定茶碱类血药浓度和调整剂量",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "诺氟沙星“与茶碱类合用时可能由于与细胞色素P450结合部位的竞争性抑制，导致茶碱类的肝清除明显减少，血消除半衰期(t1/2β)延长，血药浓度升高，出现茶碱中毒症状，如恶心、呕吐、震颤、不安、激动、抽搐、心悸等，故合用时应测定茶碱类血药浓度和调整剂量。”"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_9",
+        "name": "胺碘酮与苯妥英相互作用",
+        "properties": {
+          "mechanism": "抑制苯妥英肝代谢",
+          "consequence": "升高苯妥英血清浓度，以致产生运动失调、眼球震颤、视觉模糊和双腿无力",
+          "suggestion": "需监测病人苯妥英水平，必要时调整其剂量",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "胺碘酮可以抑制苯妥英肝代谢，升高苯妥英血清浓度，以致产生运动失调、眼球震颤、视觉模糊和双腿无力。需监测病人苯妥英水平，必要时调整其剂量。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_4",
+        "target_id": "ent_11",
+        "name": "涉及细胞色素P450",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "诺氟沙星“与茶碱类合用时可能由于与细胞色素P450结合部位的竞争性抑制"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_1",
+        "target_id": "ent_12",
+        "name": "影响血药浓度",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "氟西汀可引起美托洛尔的血药浓度升高"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_2",
+        "target_id": "ent_12",
+        "name": "影响血药浓度",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "合用时应严密监测血药浓度"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_4",
+        "target_id": "ent_12",
+        "name": "影响血药浓度",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "血药浓度升高"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_5",
+        "target_id": "ent_12",
+        "name": "影响血药浓度",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "升高苯妥英血清浓度"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_2",
+        "target_id": "ent_13",
+        "name": "增加严重呼吸抑制风险",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "可引起严重呼吸抑制"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_2",
+        "target_id": "ent_14",
+        "name": "增加突然低血压风险",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "及突然低血压"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_3",
+        "target_id": "ent_15",
+        "name": "增加显著的低血压风险",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "可引起显著的低血压"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_3",
+        "target_id": "ent_16",
+        "name": "增加神经肌肉阻滞风险",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "和神经肌肉阻滞"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_4",
+        "target_id": "ent_17",
+        "name": "增加恶心风险",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "如恶心"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_4",
+        "target_id": "ent_18",
+        "name": "增加呕吐风险",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "呕吐"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_4",
+        "target_id": "ent_19",
+        "name": "增加震颤风险",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "震颤"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_4",
+        "target_id": "ent_20",
+        "name": "增加不安风险",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "不安"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_4",
+        "target_id": "ent_21",
+        "name": "增加激动风险",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "激动"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_4",
+        "target_id": "ent_22",
+        "name": "增加抽搐风险",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "抽搐"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_4",
+        "target_id": "ent_23",
+        "name": "增加心悸风险",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "心悸"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_5",
+        "target_id": "ent_24",
+        "name": "增加运动失调风险",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "产生运动失调"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_23",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_5",
+        "target_id": "ent_25",
+        "name": "增加眼球震颤风险",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "眼球震颤"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_24",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_5",
+        "target_id": "ent_26",
+        "name": "增加视觉模糊风险",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": "医脉圈",
+              "text": "视觉模糊"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_25",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_5",
+        "target_id": "ent_27",
+        "name": "增加双腿无力风险",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1464",
+              "source": ""
+            }
+          ]
+        }
+      }
+    ],
+    "chunk_index": 1464,
+    "source": "医脉圈",
+    "text": "。因为有产生骨髓再生不良或巨幼红细胞贫血的可能。”文献依据：SFDA药品说明书范本20、美托洛尔+氟西汀氟西汀可引起美托洛尔的血药浓度升高，毒性增大，故应注意监测，必要时减少美托洛尔的用量。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.499～502.21、咪达唑仑+舒芬太尼咪达唑仑与芬太尼或舒芬太尼同用，可引起严重呼吸抑制及突然低血压，因而这些药合用时应严密监测血药浓度，并且适当减少剂量。文献依据：《新编临床用药参考》22、硝苯地平+镁镁剂用于早产治疗时，如与本药合用可引起显著的低血压和神经肌肉阻滞。合用时应密切监测血压。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.577～580.23、诺氟沙星+茶碱诺氟沙星“与茶碱类合用时可能由于与细胞色素P450结合部位的竞争性抑制，导致茶碱类的肝清除明显减少，血消除半衰期(t1/2β)延长，血药浓度升高，出现茶碱中毒症状，如恶心、呕吐、震颤、不安、激动、抽搐、心悸等，故合用时应测定茶碱类血药浓度和调整剂量。”文献依据：SFDA药品说明书范本24、苯妥英+胺碘酮胺碘酮可以抑制苯妥英肝代谢，升高苯妥英血清浓度，以致产生运动失调、眼球震颤、视觉模糊和双腿无力。需监测病人苯妥英水平，必要时调整其剂量。胺碘酮同其他乙内酰脲类抗惊厥药物同用有类似的相互作用"
+  }
+]

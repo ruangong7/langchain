@@ -1,0 +1,220 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "奎尼丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "三环抗抑郁药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "QT间期延长",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "AUC0-tau",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "Cmax",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "Cmin",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "Tmax",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "CL",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "Vd",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "T1/2",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Mechanism",
+        "name": "药物-药物相互作用",
+        "properties": {
+          "机制类型": "药物-药物相互作用"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "奎尼丁和三环抗抑郁药对QT间期的叠加",
+        "properties": {
+          "consequence": "QT间期延长",
+          "evidence": {
+            "chunk_index": 1023,
+            "source": "凡默谷",
+            "text": "如奎尼丁和三环抗抑郁药对QT间期的叠加"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_11",
+        "target_id": "ent_4",
+        "name": "DDI评估需测定AUC0-tau",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1023,
+            "source": "凡默谷",
+            "text": "对S药物必须获得的参数包括暴露量测定值 AUC0-t/ss、Cmax/ss、Tmax"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_11",
+        "target_id": "ent_5",
+        "name": "DDI评估需测定Cmax",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1023,
+            "source": "凡默谷",
+            "text": "对S药物必须获得的参数包括暴露量测定值 AUC0-t/ss、Cmax/ss、Tmax"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_11",
+        "target_id": "ent_6",
+        "name": "多次给药需采集Cmin以确保达稳",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1023,
+            "source": "凡默谷",
+            "text": "多次给药à采样时间满足AUC0-tau, Cmax, Cmin（可采集三个谷浓度以确保达稳，采样时长3-5个半衰期）"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_11",
+        "target_id": "ent_7",
+        "name": "DDI评估需测定Tmax",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1023,
+            "source": "凡默谷",
+            "text": "对S药物必须获得的参数包括暴露量测定值 AUC0-t/ss、Cmax/ss、Tmax"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_11",
+        "target_id": "ent_8",
+        "name": "DDI评估可包括CL",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1023,
+            "source": "凡默谷",
+            "text": "其他参数如CL、Vd/ss、T1/2等"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_11",
+        "target_id": "ent_9",
+        "name": "DDI评估可包括Vd",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1023,
+            "source": "凡默谷",
+            "text": "其他参数如CL、Vd/ss、T1/2等"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_11",
+        "target_id": "ent_10",
+        "name": "DDI评估可包括T1/2",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1023,
+            "source": "凡默谷",
+            "text": "其他参数如CL、Vd/ss、T1/2等"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "奎尼丁增加QT间期延长风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1023,
+            "source": "凡默谷",
+            "text": "如奎尼丁和三环抗抑郁药对QT间期的叠加"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "三环抗抑郁药增加QT间期延长风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1023,
+            "source": "凡默谷",
+            "text": "如奎尼丁和三环抗抑郁药对QT间期的叠加"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1023,
+    "source": "凡默谷",
+    "text": "；多次给药à采样时间满足AUC0-tau, Cmax, Cmin（可采集三个谷浓度以确保达稳，采样时长3-5个半衰期）样本量&统计学考量HV：一般根据intraCV%，由精度法计算相应受试人数；患者：可适当扩大样本量（如可采用检测出临床重要PD时的人数）采用popPK、PBPK来推测不同场景下的样本量定义“不发生DDI”无效应范围的方法基于人群dose和/或浓度-效应关系、PK/PD模型，如系统暴露量测定值的90%置信区间完全落在无效应范围内à不会发生临床显著性的DDI采用预先规定的无效应范围80-125%，当系统暴露量比值90%CI完全落在80-125%之间à无临床显著DDI报告&数据解读研究终点：采用PK参数对DDI进行评估PK终点：对S药物必须获得的参数包括暴露量测定值 AUC0-t/ss、Cmax/ss、Tmax，其他参数如CL、Vd/ss、T1/2等，临床结果与达峰浓度密切相关à重点观察Cmax（确保准确采血点），临床结果与暴露程度密切相关à重点观察AUC （确保足够采集时长）PD终点：不能确定S终点的PK/PD关系，或PD变化并非仅因DDI所致（如奎尼丁和三环抗抑郁药对QT间期的叠加）时需进行数据判读"
+  }
+]

@@ -1,0 +1,431 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利福布汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "萘夫西林",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "罗红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "细胞色素P450酶",
+        "properties": {
+          "别名列表": [
+            "Cytochrome P450 proteins",
+            "CYP"
+          ]
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "有机阴离子转运多肽",
+        "properties": {
+          "别名列表": [
+            "organic anion transporting polypeptides",
+            "OATPs"
+          ]
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "P-糖蛋白",
+        "properties": {
+          "别名列表": [
+            "P-glycoprotein",
+            "P-gp"
+          ]
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "抗菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "抗肿瘤药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "利福平是细胞色素P450酶的诱导剂",
+        "properties": {
+          "mechanism": "诱导",
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "如细胞色素P450酶的诱导剂利福平、利福布汀、萘夫西林等"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "name": "利福布汀是细胞色素P450酶的诱导剂",
+        "properties": {
+          "mechanism": "诱导",
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "如细胞色素P450酶的诱导剂利福平、利福布汀、萘夫西林等"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_10",
+        "name": "萘夫西林是细胞色素P450酶的诱导剂",
+        "properties": {
+          "mechanism": "诱导",
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "如细胞色素P450酶的诱导剂利福平、利福布汀、萘夫西林等"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_10",
+        "name": "红霉素是细胞色素P450酶的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "抑制剂红霉素、克拉霉素、伊曲康唑、伏立康唑、酮康唑等"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_10",
+        "name": "克拉霉素是细胞色素P450酶的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "抑制剂红霉素、克拉霉素、伊曲康唑、伏立康唑、酮康唑等"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "name": "伊曲康唑是细胞色素P450酶的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "抑制剂红霉素、克拉霉素、伊曲康唑、伏立康唑、酮康唑等"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_10",
+        "name": "伏立康唑是细胞色素P450酶的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "抑制剂红霉素、克拉霉素、伊曲康唑、伏立康唑、酮康唑等"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_10",
+        "name": "酮康唑是细胞色素P450酶的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "抑制剂红霉素、克拉霉素、伊曲康唑、伏立康唑、酮康唑等"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "利福平是有机阴离子转运多肽的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "有机阴离子转运多肽(organic anion transporting polypeptides，OATPs)的抑制剂利福平、罗红霉素等"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_11",
+        "name": "罗红霉素是有机阴离子转运多肽的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "有机阴离子转运多肽(organic anion transporting polypeptides，OATPs)的抑制剂利福平、罗红霉素等"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_12",
+        "name": "伊曲康唑是P-糖蛋白的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "P-糖蛋白(P-glycoprotein，P-gp)抑制剂伊曲康唑、酮康唑、克拉霉素等"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_12",
+        "name": "酮康唑是P-糖蛋白的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "P-糖蛋白(P-glycoprotein，P-gp)抑制剂伊曲康唑、酮康唑、克拉霉素等"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_12",
+        "name": "克拉霉素是P-糖蛋白的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "P-糖蛋白(P-glycoprotein，P-gp)抑制剂伊曲康唑、酮康唑、克拉霉素等"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "利福平属于抗菌药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "很多抗菌药物对细胞色素P450酶或转运蛋白都有一定的抑制或诱导作用，如细胞色素P450酶的诱导剂利福平、利福布汀、萘夫西林等"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_13",
+        "name": "利福布汀属于抗菌药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "很多抗菌药物对细胞色素P450酶或转运蛋白都有一定的抑制或诱导作用，如细胞色素P450酶的诱导剂利福平、利福布汀、萘夫西林等"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_13",
+        "name": "萘夫西林属于抗菌药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "很多抗菌药物对细胞色素P450酶或转运蛋白都有一定的抑制或诱导作用，如细胞色素P450酶的诱导剂利福平、利福布汀、萘夫西林等"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_13",
+        "name": "红霉素属于抗菌药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "抑制剂红霉素、克拉霉素、伊曲康唑、伏立康唑、酮康唑等"
+          }
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_13",
+        "name": "克拉霉素属于抗菌药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "抑制剂红霉素、克拉霉素、伊曲康唑、伏立康唑、酮康唑等"
+          }
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_13",
+        "name": "罗红霉素属于抗菌药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "有机阴离子转运多肽(organic anion transporting polypeptides，OATPs)的抑制剂利福平、罗红霉素等"
+          }
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_13",
+        "name": "伊曲康唑属于抗菌药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "抑制剂红霉素、克拉霉素、伊曲康唑、伏立康唑、酮康唑等"
+          }
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_13",
+        "name": "伏立康唑属于抗菌药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "抑制剂红霉素、克拉霉素、伊曲康唑、伏立康唑、酮康唑等"
+          }
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_13",
+        "name": "酮康唑属于抗菌药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1098,
+            "source": "凡默谷",
+            "text": "抑制剂红霉素、克拉霉素、伊曲康唑、伏立康唑、酮康唑等"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1098,
+    "source": "凡默谷",
+    "text": "。如转载，请尊重劳动成果，注明来源于凡默谷公众号。2PBPK模型在抗菌药物DDI中的应用药物对细胞色素P450酶(Cytochrome P450 proteins，CYP)或转运蛋白的诱导、抑制作用，是引起机体内药物-药物相互作用的关键因素[19-20]。很多抗菌药物对细胞色素P450酶或转运蛋白都有一定的抑制或诱导作用，如细胞色素P450酶的诱导剂利福平、利福布汀、萘夫西林等，抑制剂红霉素、克拉霉素、伊曲康唑、伏立康唑、酮康唑等；有机阴离子转运多肽(organic anion transporting polypeptides，OATPs)的抑制剂利福平、罗红霉素等；P-糖蛋白(P-glycoprotein，P-gp)抑制剂伊曲康唑、酮康唑、克拉霉素等[21]。同时，抗菌药物在使用过程中也可以作为细胞色素P450酶或转运蛋白的底物，受各种抑制剂或诱导剂的影响。因此，当抗菌药物与其他药物合用时，需更加注意药物-药物相互作用对药物安全性的影响。2.1 抗菌药物与抗肿瘤药物的相互作用肿瘤患者在住院阶段，经常因多种因素(如自身免疫力、手术操作、插管治疗等因素)的影响而出现不同程度的感染，需要同时使用抗菌药物[22-23]。由于抗肿瘤药的治疗窗狭窄、毒副作用较大，在联合用药的情况下，DDI的风险评估尤为重要[24]"
+  }
+]

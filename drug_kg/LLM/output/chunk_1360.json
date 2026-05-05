@@ -1,0 +1,114 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "银杏叶制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "抗血小板药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "抗凝血药",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "阿司匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "瘀血",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Symptom",
+        "name": "头痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Symptom",
+        "name": "视觉变化",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "银杏叶制剂与抗血小板药合用可能增加出血风险",
+        "properties": {
+          "consequences": [
+            "ent_5",
+            "ent_6",
+            "ent_7",
+            "ent_8"
+          ],
+          "evidence": {
+            "chunk_index": 1360,
+            "source": "医学界",
+            "text": "当银杏叶制剂与抗血小板药或抗凝血药合用时，应交待患者发生出血、瘀血、新发作头痛或视觉变化时，应及时告诉医生。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "银杏叶制剂与抗凝血药合用可能增加出血风险",
+        "properties": {
+          "consequences": [
+            "ent_5",
+            "ent_6",
+            "ent_7",
+            "ent_8"
+          ],
+          "evidence": {
+            "chunk_index": 1360,
+            "source": "医学界",
+            "text": "当银杏叶制剂与抗血小板药或抗凝血药合用时，应交待患者发生出血、瘀血、新发作头痛或视觉变化时，应及时告诉医生。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "银杏提取物与小剂量阿司匹林合用不增加出血风险",
+        "properties": {
+          "consequences": [],
+          "evidence": {
+            "chunk_index": 1360,
+            "source": "医学界",
+            "text": "有研究认为，银杏提取物与小剂量阿司匹林合用不增加出血风险。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1360,
+    "source": "医学界",
+    "text": "。——当银杏叶制剂与抗血小板药或抗凝血药合用时，应交待患者发生出血、瘀血、新发作头痛或视觉变化时，应及时告诉医生。——有研究认为，银杏提取物与小剂量阿司匹林合用不增加出血风险。都说1+1=2，但是上面这些东西，可是1+1=危险！请一定牢记！本文首发：药评中心本文作者：Gcplive责任编辑：李兴鹏Hi 医生朋友们最近中药注射剂的话题有关注吗？我们诚邀您参与有奖调研您的想法和选择对我们来说很重要您也有机会获得小礼品点击“阅读原文”或识别下方海报内二维码开始吧~版权声明 本文转载 欢迎转发朋友圈- End -"
+  }
+]

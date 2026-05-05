@@ -1,0 +1,325 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "BAY-1082439",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "阿霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "黄芩素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "米托蒽醌",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "顺铂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "氟尿嘧啶",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "奥沙利铂",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Food",
+        "name": "健脾解毒方",
+        "properties": {
+          "类型": "中药材"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "BCRP",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "MRP2",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Mechanism",
+        "name": "竞争性结合",
+        "properties": {
+          "机制类型": "竞争性结合"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Mechanism",
+        "name": "抑制p38MAPK信号通路",
+        "properties": {
+          "机制类型": "信号通路抑制"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Mechanism",
+        "name": "抑制NF-kB信号通路",
+        "properties": {
+          "机制类型": "信号通路抑制"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Mechanism",
+        "name": "抑制NF-KB/Nrf2/MRP2信号通路",
+        "properties": {
+          "机制类型": "信号通路抑制"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Disease",
+        "name": "乳腺癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Disease",
+        "name": "大肠癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Population",
+        "name": "MCF-7细胞",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Population",
+        "name": "HCT116细胞",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1064,
+          "来源": "凡默谷"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "BAY-1082439与BCRP相互作用",
+        "properties": {
+          "mechanism": "竞争性与BCRP结合，干扰底物转运效率",
+          "effect": "显著降低BCRP的表达，有效逆转阿霉素的外排",
+          "evidence": {
+            "chunk_index": 1064,
+            "source": "凡默谷",
+            "text": "有研究表明， 化合物BAY-1082439可以显著降低BCRP的表达， 有效逆转阿霉素的外排。通过分子对接实验表 明，BAY-1082439可以竞争性与BCRP结合，干扰底 物转运效率[68]。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "黄芩素与米托蒽醌相互作用",
+        "properties": {
+          "effect": "逆转乳腺癌MCF-7细胞对米托蒽醌耐药，耐药倍数从70.5降至4.6",
+          "evidence": {
+            "chunk_index": 1064,
+            "source": "凡默谷",
+            "text": "此外，黄芩素可有效逆转乳腺癌 MCF-7细胞对米托蒽酿、顺铂和氟尿嘧啶耐药情 况，耐药倍数从70.5、6.7、21.5倍降至4.6、2.6和11.1 倍，显著增加了 MCF-7细胞对上述化疗药的敏感 性。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "name": "黄芩素与顺铂相互作用",
+        "properties": {
+          "effect": "逆转乳腺癌MCF-7细胞对顺铂耐药，耐药倍数从6.7降至2.6",
+          "evidence": {
+            "chunk_index": 1064,
+            "source": "凡默谷",
+            "text": "此外，黄芩素可有效逆转乳腺癌 MCF-7细胞对米托蒽酿、顺铂和氟尿嘧啶耐药情 况，耐药倍数从70.5、6.7、21.5倍降至4.6、2.6和11.1 倍，显著增加了 MCF-7细胞对上述化疗药的敏感 性。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "name": "黄芩素与氟尿嘧啶相互作用",
+        "properties": {
+          "effect": "逆转乳腺癌MCF-7细胞对氟尿嘧啶耐药，耐药倍数从21.5降至11.1",
+          "evidence": {
+            "chunk_index": 1064,
+            "source": "凡默谷",
+            "text": "此外，黄芩素可有效逆转乳腺癌 MCF-7细胞对米托蒽酿、顺铂和氟尿嘧啶耐药情 况，耐药倍数从70.5、6.7、21.5倍降至4.6、2.6和11.1 倍，显著增加了 MCF-7细胞对上述化疗药的敏感 性。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_2",
+        "target_id": "ent_13",
+        "name": "黄芩素逆转耐药的机制涉及p38MAPK通路",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1064,
+            "source": "凡默谷",
+            "text": "进一步研究发现，黄芩素有效逆转BCRP介 导的MCF-7耐药与抑制p38MAPK信号通路和 NF-kB信号通路有关[69]。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_2",
+        "target_id": "ent_14",
+        "name": "黄芩素逆转耐药的机制涉及NF-kB通路",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1064,
+            "source": "凡默谷",
+            "text": "进一步研究发现，黄芩素有效逆转BCRP介 导的MCF-7耐药与抑制p38MAPK信号通路和 NF-kB信号通路有关[69]。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_7",
+        "name": "健脾解毒方与奥沙利铂联合用药",
+        "properties": {
+          "effect": "使耐奥沙利铂的肠癌细胞HCT116存活率从80.45%下降至43.15%",
+          "evidence": {
+            "chunk_index": 1064,
+            "source": "凡默谷",
+            "text": "研 究表明，健脾解毒方（12.5、25、50 pg/mL)和奥沙 利铂（50 pmol/L)联合用药，与单给奥沙利铂组比 较，耐奥沙利铂的肠癌细胞HCT116存活率从 80.45%下降至43.15%。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_7",
+        "target_id": "ent_15",
+        "name": "健脾解毒方通过抑制NF-KB/Nrf2/MRP2信号通路发挥作用",
+        "properties": {
+          "effect": "使MRP2表达减少，逆转大肠癌细胞多药耐药",
+          "evidence": {
+            "chunk_index": 1064,
+            "source": "凡默谷",
+            "text": "健脾解 毒方通过抑制NF-KB/Nrf2/MRP2信号通路，使 MRP2表达减少，发挥出逆转大肠癌细胞多药耐 药的作用[7°]"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_16",
+        "name": "米托蒽醌用于治疗乳腺癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1064,
+            "source": "凡默谷",
+            "text": "黄芩素可有效逆转乳腺癌 MCF-7细胞对米托蒽酿、顺铂和氟尿嘧啶耐药情 况"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_5",
+        "target_id": "ent_16",
+        "name": "顺铂用于治疗乳腺癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1064,
+            "source": "凡默谷",
+            "text": "黄芩素可有效逆转乳腺癌 MCF-7细胞对米托蒽酿、顺铂和氟尿嘧啶耐药情 况"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_16",
+        "name": "氟尿嘧啶用于治疗乳腺癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1064,
+            "source": "凡默谷",
+            "text": "黄芩素可有效逆转乳腺癌 MCF-7细胞对米托蒽酿、顺铂和氟尿嘧啶耐药情 况"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_7",
+        "target_id": "ent_17",
+        "name": "奥沙利铂用于治疗大肠癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1064,
+            "source": "凡默谷",
+            "text": "耐奥沙利铂的肠癌细胞HCT116"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1064,
+    "source": "凡默谷",
+    "text": "。同时，下调P-gp表 达的药物也成为研究的热点，同样的，并没有哪个 药物能在临床取得令人满意的结果。在单独以 P-gp为靶点不能取得理想成效的情况下，尝试联 合两个或多个靶点成为逆转MDR的新策略。BCRP是ABC转运家族中另一常见的转运体， 由ABCG2基因编码，其在肿瘤细胞的高表达也是 多药耐药产生的主要原因之一[67]。有研究表明， 化合物BAY-1082439可以显著降低BCRP的表达， 有效逆转阿霉素的外排。通过分子对接实验表 明，BAY-1082439可以竞争性与BCRP结合，干扰底 物转运效率[68]。此外，黄芩素可有效逆转乳腺癌 MCF-7细胞对米托蒽酿、顺铂和氟尿嘧啶耐药情 况，耐药倍数从70.5、6.7、21.5倍降至4.6、2.6和11.1 倍，显著增加了 MCF-7细胞对上述化疗药的敏感 性。进一步研究发现，黄芩素有效逆转BCRP介 导的MCF-7耐药与抑制p38MAPK信号通路和 NF-kB信号通路有关[69]。MRP2同样与肿瘤的多药耐药密切相关。研 究表明，健脾解毒方（12.5、25、50 pg/mL)和奥沙 利铂（50 pmol/L)联合用药，与单给奥沙利铂组比 较，耐奥沙利铂的肠癌细胞HCT116存活率从 80.45%下降至43.15%。此外还发现，NF-kB过表 达可促进Nrf2核转位及MRP2的表达，增强细胞 对奥沙利铂的耐药性；Nrf2基因沉默可抑制 MRP2表达，但不影响NF-kB的核转位。健脾解 毒方通过抑制NF-KB/Nrf2/MRP2信号通路，使 MRP2表达减少，发挥出逆转大肠癌细胞多药耐 药的作用[7°]"
+  }
+]

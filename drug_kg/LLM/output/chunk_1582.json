@@ -1,0 +1,243 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "布洛芬",
+        "properties": {
+          "description": "常用的解热镇痛药"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "锂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Food",
+        "name": "圣约翰草提取物",
+        "properties": {
+          "type": "补充剂/草药"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP1A2",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "氯氮平",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "奥氮平",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Food",
+        "name": "大量吸烟",
+        "properties": {
+          "type": "成瘾性物质"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "血锂升高",
+        "properties": {
+          "严重程度": "严重甚至危及生命"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "疗效受损",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "SideEffect",
+        "name": "病情波动",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Mechanism",
+        "name": "影响肾小管再吸收",
+        "properties": {
+          "机制类型": "肾小管功能改变"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Evidence",
+        "name": "医脉通精神科",
+        "properties": {
+          "chunk_id": "1582",
+          "source": "医脉通精神科",
+          "text": "例如，作为常用的解热镇痛药，布洛芬可显著影响肾小管对锂的再吸收，诱发严重甚至危及生命的血锂升高；某些联用药物可能抑制相关代谢酶，造成非法物质在体内的代谢受阻，对机体造成更大危害；圣约翰草提取物是CYP3A的强诱导剂，可加速大量药物的代谢，造成疗效受损；大量吸烟也可通过诱导相关酶类（如CYP1A2），加速氯氮平和奥氮平的代谢，甚至造成病情波动。"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "布洛芬与锂相互作用",
+        "properties": {
+          "机制": "影响肾小管再吸收",
+          "后果": "诱发严重甚至危及生命的血锂升高",
+          "证据": {
+            "chunk_index": 1582,
+            "source": "医脉通精神科",
+            "text": "作为常用的解热镇痛药，布洛芬可显著影响肾小管对锂的再吸收，诱发严重甚至危及生命的血锂升高"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_3",
+        "name": "圣约翰草提取物诱导CYP3A",
+        "properties": {
+          "作用": "强诱导剂",
+          "证据": {
+            "chunk_index": 1582,
+            "source": "医脉通精神科",
+            "text": "圣约翰草提取物是CYP3A的强诱导剂，可加速大量药物的代谢，造成疗效受损"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_3",
+        "name": "圣约翰草提取物影响CYP3A代谢的药物",
+        "properties": {
+          "机制": "诱导CYP3A",
+          "后果": "加速大量药物的代谢，造成疗效受损",
+          "证据": {
+            "chunk_index": 1582,
+            "source": "医脉通精神科",
+            "text": "圣约翰草提取物是CYP3A的强诱导剂，可加速大量药物的代谢，造成疗效受损"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_5",
+        "name": "大量吸烟诱导CYP1A2",
+        "properties": {
+          "作用": "诱导相关酶类",
+          "证据": {
+            "chunk_index": 1582,
+            "source": "医脉通精神科",
+            "text": "大量吸烟也可通过诱导相关酶类（如CYP1A2），加速氯氮平和奥氮平的代谢，甚至造成病情波动"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_6",
+        "name": "大量吸烟影响氯氮平代谢",
+        "properties": {
+          "机制": "诱导CYP1A2",
+          "后果": "加速氯氮平的代谢，甚至造成病情波动",
+          "证据": {
+            "chunk_index": 1582,
+            "source": "医脉通精神科",
+            "text": "大量吸烟也可通过诱导相关酶类（如CYP1A2），加速氯氮平和奥氮平的代谢，甚至造成病情波动"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_7",
+        "name": "大量吸烟影响奥氮平代谢",
+        "properties": {
+          "机制": "诱导CYP1A2",
+          "后果": "加速奥氮平的代谢，甚至造成病情波动",
+          "证据": {
+            "chunk_index": 1582,
+            "source": "医脉通精神科",
+            "text": "大量吸烟也可通过诱导相关酶类（如CYP1A2），加速氯氮平和奥氮平的代谢，甚至造成病情波动"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "布洛芬增加血锂升高风险",
+        "properties": {
+          "证据": {
+            "chunk_index": 1582,
+            "source": "医脉通精神科",
+            "text": "布洛芬可显著影响肾小管对锂的再吸收，诱发严重甚至危及生命的血锂升高"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_4",
+        "target_id": "ent_10",
+        "name": "圣约翰草提取物增加疗效受损风险",
+        "properties": {
+          "证据": {
+            "chunk_index": 1582,
+            "source": "医脉通精神科",
+            "text": "圣约翰草提取物是CYP3A的强诱导剂，可加速大量药物的代谢，造成疗效受损"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_8",
+        "target_id": "ent_11",
+        "name": "大量吸烟增加病情波动风险",
+        "properties": {
+          "证据": {
+            "chunk_index": 1582,
+            "source": "医脉通精神科",
+            "text": "大量吸烟也可通过诱导相关酶类（如CYP1A2），加速氯氮平和奥氮平的代谢，甚至造成病情波动"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1582,
+    "source": "医脉通精神科",
+    "text": "。治疗目标应明确记录在患者管理的表格中，并与患者及其照料者进行沟通。  AVOID流程  如今，患者所能接触到的各类处方药、非处方药、保健品的数量远非过去所能相比，简单地询问「您正在吃什么药」、「对什么药过敏」已经难以适应当前的状况。本文作者基于英文首字母提出了「AVOID流程」，以降低意料之外的潜在药物相互作用风险：Allergies（过敏）：「有没有什么药，我们无论如何也不能给你用？」Vitamins and herbs（维生素及草药）：「你在吃着草药或者保健品之类吗？」OTC（处方药）：「你在吃着非处方药吗，就是能从药店直接买的？」Interactions（相互作用）：使用数据库查询具体药物之间的相互作用。Dependence（依赖）：「有没有什么药，你觉得我们应该停掉？」推荐患者在同一个药房购买自己所使用的所有药物。这样一来，即便服药种类有所改变，相关药物仍在同一数据库中，必要时可供查询及检测。  总体原则  即便身在精神科，也必须考虑患者服用其他科室处方药、非处方药、保健品甚至成瘾性物质的情况，有时不起眼的药物也可能引发大问题。例如，作为常用的解热镇痛药，布洛芬可显著影响肾小管对锂的再吸收，诱发严重甚至危及生命的血锂升高；某些联用药物可能抑制相关代谢酶，造成非法物质在体内的代谢受阻，对机体造成更大危害；圣约翰草提取物是CYP3A的强诱导剂，可加速大量药物的代谢，造成疗效受损；大量吸烟也可通过诱导相关酶类（如CYP1A2），加速氯氮平和奥氮平的代谢，甚至造成病情波动。因此，精神科医生眼中不能只有精神障碍及精神科药物，而应将患者作为一个整体加以考虑"
+  }
+]

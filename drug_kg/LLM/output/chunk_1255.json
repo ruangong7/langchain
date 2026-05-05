@@ -1,0 +1,185 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "CYP450酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP2C19",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "慢性炎症性疾病",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "糖尿病",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Population",
+        "name": "肝肾功能损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "药物不良反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Mechanism",
+        "name": "药物代谢减缓",
+        "properties": {
+          "机制类型": "代谢抑制"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Mechanism",
+        "name": "胃肠道运动延缓",
+        "properties": {
+          "机制类型": "胃排空改变"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "name": "慢性炎症性疾病导致药物代谢减缓",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1255,
+            "source": "凡默谷",
+            "text": "慢性炎症性疾病中促炎细胞因子的过表达会抑制CYP450酶的活性，导致药物代谢减缓、暴露升高，从而加剧药物不良反应[50]。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "慢性炎症性疾病加剧药物不良反应",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1255,
+            "source": "凡默谷",
+            "text": "慢性炎症性疾病中促炎细胞因子的过表达会抑制CYP450酶的活性，导致药物代谢减缓、暴露升高，从而加剧药物不良反应[50]。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_2",
+        "name": "糖尿病降低CYP3A4活性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1255,
+            "source": "凡默谷",
+            "text": "糖尿病则会通过降低CYP3A4、CYP2C19等酶的活性以及延缓胃肠道运动的方式影响药物的吸收和消除过程[5]"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_3",
+        "name": "糖尿病降低CYP2C19活性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1255,
+            "source": "凡默谷",
+            "text": "糖尿病则会通过降低CYP3A4、CYP2C19等酶的活性以及延缓胃肠道运动的方式影响药物的吸收和消除过程[5]"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_9",
+        "name": "糖尿病延缓胃肠道运动",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1255,
+            "source": "凡默谷",
+            "text": "糖尿病则会通过降低CYP3A4、CYP2C19等酶的活性以及延缓胃肠道运动的方式影响药物的吸收和消除过程[5]"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "APPLIES_TO",
+        "source_id": "ent_6",
+        "target_id": "ent_6",
+        "name": "PBPK模型适用于肝肾功能损伤",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1255,
+            "source": "凡默谷",
+            "text": "PBPK模型适用于肝肾功能损伤、糖尿病及慢性炎症等多种病理状态[5，49]。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "APPLIES_TO",
+        "source_id": "ent_5",
+        "target_id": "ent_5",
+        "name": "PBPK模型适用于糖尿病",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1255,
+            "source": "凡默谷",
+            "text": "PBPK模型适用于肝肾功能损伤、糖尿病及慢性炎症等多种病理状态[5，49]。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "APPLIES_TO",
+        "source_id": "ent_4",
+        "target_id": "ent_4",
+        "name": "PBPK模型适用于慢性炎症",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1255,
+            "source": "凡默谷",
+            "text": "PBPK模型适用于肝肾功能损伤、糖尿病及慢性炎症等多种病理状态[5，49]。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1255,
+    "source": "凡默谷",
+    "text": "。PBPK模型通常模拟单一药物或短期给药场景，难以准确反映临床中多药联用及慢性病治疗的复杂性。肝肾损的复杂交互可能导致药物消除途径的非线性变化，进一步增加模型预测的不确定性，这一领域的研究亟待加强，以提升模型对共病患者的应用价值。PBPK模型的优化将受益于与群体药代动力学模型（population pharmacokinetics，PopPK）、药效动力学elli（pharmacodynamic，PD）、器官芯片及人工智能（artifi-cial intelligence，AI）、机器学习（machine learning，ML）等多学科的整合应用。具体而言，PBPK模型在给药前的方案预测中具有优势，而PopPK模型则擅长于对实际收集到的临床数据进行事后分析[45]，PD模型可将药物体内浓度变化与药理效应之间建立关联[46]，二者协同可完善给药方案设计。而器官芯片结合微流控和细胞培养技术，能在体外模拟人体组织屏障特性，将该法获得的体外实验数据外推体内PK参数，可提高PBPK模型的精确性[47]。AI/ML技术可通过深度学习算法和神经网络，捕捉药物在不同病理状态下的代谢动力学特征，增强PBPK模型的灵活性与适用性[48]。PBPK模型适用于肝肾功能损伤、糖尿病及慢性炎症等多种病理状态[5，49]。慢性炎症性疾病中促炎细胞因子的过表达会抑制CYP450酶的活性，导致药物代谢减缓、暴露升高，从而加剧药物不良反应[50]。糖尿病则会通过降低CYP3A4、CYP2C19等酶的活性以及延缓胃肠道运动的方式影响药物的吸收和消除过程[5]"
+  }
+]

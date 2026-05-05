@@ -1,0 +1,285 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利伐沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "他汀类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "氟伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "辛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "阿利吉伦",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "比索洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "降血压药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "调血脂药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Disease",
+        "name": "VTE",
+        "properties": {
+          "全称": "静脉血栓栓塞症"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Population",
+        "name": "癌症患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "抗肿瘤药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "抗凝药",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "阿托伐他汀属于他汀类药物"
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_3",
+        "name": "氟伐他汀属于他汀类药物"
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_3",
+        "name": "辛伐他汀属于他汀类药物"
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_11",
+        "name": "阿利吉伦属于降血压药物"
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_11",
+        "name": "比索洛尔属于降血压药物"
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_12",
+        "name": "阿托伐他汀属于调血脂药物"
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_12",
+        "name": "氟伐他汀属于调血脂药物"
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_12",
+        "name": "辛伐他汀属于调血脂药物"
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "利伐沙班与阿托伐他汀联用",
+        "properties": {
+          "consequence": "出血事件",
+          "mechanism": "可能由个体间代谢酶及转运体含量差异所引起",
+          "evidence": {
+            "chunk_index": 1111,
+            "source": "凡默谷",
+            "text": "利伐沙班与阿托伐他汀联用引起的出血事件也有个别案例报道［19］ ，为评估出血发生风险，在健康志愿者中进行了体内试验，结果显示联用阿托伐他汀后利伐沙班的体内 AUC 及 Cmax没有发生明显的变化［37］ 。因此考虑二者联用引起的出血事件可能是由个体间代谢酶及转运体含量差异所引起。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "利伐沙班与氟伐他汀合用",
+        "properties": {
+          "consequence": "出血",
+          "mechanism": "尚不明确",
+          "evidence": {
+            "chunk_index": 1111,
+            "source": "凡默谷",
+            "text": "利伐沙班与其他心血管系统常用药合用后导致出血的不良反应也有个别案例报道，如降血压药物：肾素抑制剂阿利吉伦、肾上腺素β受体抑制剂比索洛尔；调血脂药物：氟伐他汀、辛伐他汀等。但此类案例发生的具体机制尚不明确 ，有待探究［19-20，38-40］。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "利伐沙班与辛伐他汀合用",
+        "properties": {
+          "consequence": "出血",
+          "mechanism": "尚不明确",
+          "evidence": {
+            "chunk_index": 1111,
+            "source": "凡默谷",
+            "text": "利伐沙班与其他心血管系统常用药合用后导致出血的不良反应也有个别案例报道，如降血压药物：肾素抑制剂阿利吉伦、肾上腺素β受体抑制剂比索洛尔；调血脂药物：氟伐他汀、辛伐他汀等。但此类案例发生的具体机制尚不明确 ，有待探究［19-20，38-40］。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "利伐沙班与阿利吉伦合用",
+        "properties": {
+          "consequence": "出血",
+          "mechanism": "尚不明确",
+          "evidence": {
+            "chunk_index": 1111,
+            "source": "凡默谷",
+            "text": "利伐沙班与其他心血管系统常用药合用后导致出血的不良反应也有个别案例报道，如降血压药物：肾素抑制剂阿利吉伦、肾上腺素β受体抑制剂比索洛尔；调血脂药物：氟伐他汀、辛伐他汀等。但此类案例发生的具体机制尚不明确 ，有待探究［19-20，38-40］。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "利伐沙班与比索洛尔合用",
+        "properties": {
+          "consequence": "出血",
+          "mechanism": "尚不明确",
+          "evidence": {
+            "chunk_index": 1111,
+            "source": "凡默谷",
+            "text": "利伐沙班与其他心血管系统常用药合用后导致出血的不良反应也有个别案例报道，如降血压药物：肾素抑制剂阿利吉伦、肾上腺素β受体抑制剂比索洛尔；调血脂药物：氟伐他汀、辛伐他汀等。但此类案例发生的具体机制尚不明确 ，有待探究［19-20，38-40］。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "利伐沙班可能导致出血"
+      },
+      {
+        "id": "rel_15",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "利伐沙班用于治疗VTE"
+      },
+      {
+        "id": "rel_16",
+        "type": "APPLIES_TO",
+        "source_id": "ent_13",
+        "target_id": "ent_14",
+        "name": "VTE在癌症患者中高发"
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_16",
+        "name": "抗肿瘤药物与抗凝药联合应用",
+        "properties": {
+          "context": "癌症患者VTE高风险",
+          "evidence": {
+            "chunk_index": 1111,
+            "source": "凡默谷",
+            "text": "由于癌症患者血栓性疾病的易发生性及并发后的危险性，抗肿瘤药物与抗凝药的联合应用具有深厚的临床基础"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1111,
+    "source": "凡默谷",
+    "text": "。 1.3 与调血脂药物合用 他汀类药物作为临床上最常用的降脂药，体内 代谢过程也与CYP3A4、P-gp紧密相关，其典型代表 药物为阿托伐他汀［35-36］ 。利伐沙班与阿托伐他汀联 用引起的出血事件也有个别案例报道［19］ ，为评估出 血发生风险，在健康志愿者中进行了体内试验，结 果显示联用阿托伐他汀后利伐沙班的体内 AUC 及 Cmax没有发生明显的变化［37］ 。因此考虑二者联用引 起的出血事件可能是由个体间代谢酶及转运体含 量差异所引起。 利伐沙班与其他心血管系统常用药合用后导 致出血的不良反应也有个别案例报道，如降血压药 物：肾素抑制剂阿利吉伦、肾上腺素β受体抑制剂比 索洛尔；调血脂药物：氟伐他汀、辛伐他汀等。但此类案例发生的具体机制尚不明确 ，有待探究［19-20，38-40］。内容由凡默谷小编查阅文献选取，排版与编辑为原创。如转载，请尊重劳动成果，注明来源于凡默谷公众号。2利伐沙班与抗肿瘤药物的合用据统计，癌症患者中VTE的发生风险是普通患 者的 4～7 倍，所有发生 VTE 患者中癌症患者约占 20%［41-42］ 。癌症患者中VTE的高发生风险主要是由 循环系统的高凝状态及抗肿瘤药物的致栓性两方 面原因所引起的［43］ 。除血栓性疾病的易发性外，肿 瘤患者VTE的复发率、以及并发血栓性疾病癌症患 者的死亡率也都明显高于普通癌症患者，血栓性疾 病已经成为肿瘤患者非肿瘤死亡原因的首位［44-45］。由于癌症患者血栓性疾病的易发生性及并发后的 危险性，抗肿瘤药物与抗凝药的联合应用具有深厚 的临床基础"
+  }
+]

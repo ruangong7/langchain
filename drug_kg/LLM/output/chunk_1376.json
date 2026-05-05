@@ -1,0 +1,310 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "三唑类抗真菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氟康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "异烟肼",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "吡嗪酰胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "细胞色素P450",
+        "properties": {
+          "别名列表": [
+            "CYP450"
+          ]
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "P-糖蛋白",
+        "properties": {
+          "别名列表": [
+            "P-gp"
+          ]
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "乳腺癌耐药蛋白",
+        "properties": {
+          "别名列表": [
+            "BCRP"
+          ]
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "肝毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Population",
+        "name": "血液疾病患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Population",
+        "name": "人类免疫缺陷病毒感染者/艾滋病患者",
+        "properties": {
+          "别名列表": [
+            "PLWHA"
+          ]
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Disease",
+        "name": "结核",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Evidence",
+        "name": "医学界急诊与重症频道",
+        "properties": {
+          "chunk_id": 1376,
+          "source": "医学界急诊与重症频道"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "氟康唑与利福平合用增加肝毒性风险",
+        "properties": {
+          "mechanism": "",
+          "consequence": "肝毒性",
+          "evidence": {
+            "chunk_index": 1376,
+            "source": "医学界急诊与重症频道",
+            "text": "联用氟康唑后，结果显示PLWHA中出现肝毒性的比例显著增加200%（OR 3.0，95CI 1.5-6.5；P=0.002），提示氟康唑的使用与肝毒性独立相关。该研究表明氟康唑与同样具有肝毒性的抗结核药物合用时，可能增加患者肝毒性的发生风险"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "氟康唑与异烟肼合用增加肝毒性风险",
+        "properties": {
+          "mechanism": "",
+          "consequence": "肝毒性",
+          "evidence": {
+            "chunk_index": 1376,
+            "source": "医学界急诊与重症频道",
+            "text": "联用氟康唑后，结果显示PLWHA中出现肝毒性的比例显著增加200%（OR 3.0，95CI 1.5-6.5；P=0.002），提示氟康唑的使用与肝毒性独立相关。该研究表明氟康唑与同样具有肝毒性的抗结核药物合用时，可能增加患者肝毒性的发生风险"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "氟康唑与吡嗪酰胺合用增加肝毒性风险",
+        "properties": {
+          "mechanism": "",
+          "consequence": "肝毒性",
+          "evidence": {
+            "chunk_index": 1376,
+            "source": "医学界急诊与重症频道",
+            "text": "联用氟康唑后，结果显示PLWHA中出现肝毒性的比例显著增加200%（OR 3.0，95CI 1.5-6.5；P=0.002），提示氟康唑的使用与肝毒性独立相关。该研究表明氟康唑与同样具有肝毒性的抗结核药物合用时，可能增加患者肝毒性的发生风险"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "三唑类抗真菌药物影响细胞色素P450",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1376,
+            "source": "医学界急诊与重症频道",
+            "text": "其对细胞色素P450（CYP450）酶系统、P-糖蛋白（P-gp）和乳腺癌耐药蛋白（BCRP）等均有不同程度的影响"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "三唑类抗真菌药物影响P-糖蛋白",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1376,
+            "source": "医学界急诊与重症频道",
+            "text": "其对细胞色素P450（CYP450）酶系统、P-糖蛋白（P-gp）和乳腺癌耐药蛋白（BCRP）等均有不同程度的影响"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "三唑类抗真菌药物影响乳腺癌耐药蛋白",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1376,
+            "source": "医学界急诊与重症频道",
+            "text": "其对细胞色素P450（CYP450）酶系统、P-糖蛋白（P-gp）和乳腺癌耐药蛋白（BCRP）等均有不同程度的影响"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "三唑类抗真菌药物可能导致肝毒性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1376,
+            "source": "医学界急诊与重症频道",
+            "text": "在药物动力学方面容易引起复杂的相互作用，甚至可引发肝毒性。如血液疾病患者作为IFD的高危人群，合用三唑类药物导致的停药就多与肝毒性相关"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "name": "氟康唑可能导致肝毒性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1376,
+            "source": "医学界急诊与重症频道",
+            "text": "提示氟康唑的使用与肝毒性独立相关"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "name": "利福平可能导致肝毒性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1376,
+            "source": "医学界急诊与重症频道",
+            "text": "利福平、异烟肼和吡嗪酰胺等抗结核药物本身就具有不同程度的肝毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_9",
+        "name": "异烟肼可能导致肝毒性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1376,
+            "source": "医学界急诊与重症频道",
+            "text": "利福平、异烟肼和吡嗪酰胺等抗结核药物本身就具有不同程度的肝毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_5",
+        "target_id": "ent_9",
+        "name": "吡嗪酰胺可能导致肝毒性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1376,
+            "source": "医学界急诊与重症频道",
+            "text": "利福平、异烟肼和吡嗪酰胺等抗结核药物本身就具有不同程度的肝毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "APPLIES_TO",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "name": "肝毒性适用于血液疾病患者",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1376,
+            "source": "医学界急诊与重症频道",
+            "text": "血液疾病患者作为IFD的高危人群，合用三唑类药物导致的停药就多与肝毒性相关"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "APPLIES_TO",
+        "source_id": "ent_9",
+        "target_id": "ent_11",
+        "name": "肝毒性适用于人类免疫缺陷病毒感染者/艾滋病患者",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1376,
+            "source": "医学界急诊与重症频道",
+            "text": "巴西一项前瞻性队列研究纳入了173例接受抗结核治疗的人类免疫缺陷病毒（HIV）感染者/艾滋病患者（PLWHA）...联用氟康唑后，结果显示PLWHA中出现肝毒性的比例显著增加"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_12",
+        "name": "氟康唑用于结核患者的预防性治疗",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1376,
+            "source": "医学界急诊与重症频道",
+            "text": "61例患者在抗结核的同时联用氟康唑进行预防性治疗"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1376,
+    "source": "医学界急诊与重症频道",
+    "text": "*仅供医学专业人士阅读参考抗真菌药物DDI较多，需关注药物选择及其剂量的调整 药物间相互作用（DDI）是指联合应用两种或两种以上药物时，由于药代动力学（PK）或药效学（PD）的相互影响，导致药物暴露量、药物疗效或不良反应风险发生改变[1]。整体而言，抗真菌药物DDI较多，其中约75.8%与三唑类相关。三唑类抗真菌药物广泛应用于免疫缺陷患者侵袭性真菌病的防治。然而，其对细胞色素P450（CYP450）酶系统、P-糖蛋白（P-gp）和乳腺癌耐药蛋白（BCRP）等均有不同程度的影响，在药物动力学方面容易引起复杂的相互作用，甚至可引发肝毒性。如血液疾病患者作为IFD的高危人群，合用三唑类药物导致的停药就多与肝毒性相关。一、抗真菌药物肝毒性与临床控制DDI风险的诊治管理优化巴西一项前瞻性队列研究纳入了173例接受抗结核治疗的人类免疫缺陷病毒（HIV）感染者/艾滋病患者（PLWHA），其中61例患者在抗结核的同时联用氟康唑进行预防性治疗。利福平、异烟肼和吡嗪酰胺等抗结核药物本身就具有不同程度的肝毒性，而联用氟康唑后，结果显示PLWHA中出现肝毒性的比例显著增加200%（OR 3.0，95CI 1.5-6.5；P=0.002），提示氟康唑的使用与肝毒性独立相关。该研究表明氟康唑与同样具有肝毒性的抗结核药物合用时，可能增加患者肝毒性的发生风险，因此建议结核患者选择抗真菌药物时应尽量避免与肝毒性的药物同用[2]。不仅如此，同样有研究提示血液疾病患者合用三唑类药物导致的停药也多与肝毒性相关"
+  }
+]

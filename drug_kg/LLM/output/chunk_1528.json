@@ -1,0 +1,432 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利奈唑胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "尼拉帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "血小板减少",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "血小板计数",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "β-内酰胺类",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "碳青霉烯类",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "氨基糖苷类",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "环丙沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "莫西沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "甲硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "奥硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "万古霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "米卡芬净",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "氟康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "泊沙康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "氟唑帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "左氧氟沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "DrugClass",
+        "name": "三唑类抗真菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "阿奇霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Drug",
+        "name": "卡泊芬净",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "Drug",
+        "name": "帕米帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Enzyme",
+        "name": "CYP2C8",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "DrugClass",
+        "name": "PARPi",
+        "properties": {}
+      },
+      {
+        "id": "ent_30",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": "1528",
+          "source": "医脉通泌尿外科"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "合用增加血小板减少风险",
+        "properties": {
+          "consequence": "增加血小板减少风险",
+          "management": "合用时应加强血小板计数的监测",
+          "evidence": {
+            "chunk_index": 1528,
+            "source": "医脉通泌尿外科",
+            "text": "利奈唑胺和尼拉帕利均存在血小板减少风险，合用时应加强血小板计数的监测。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "利奈唑胺可能导致血小板减少",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1528,
+            "source": "医脉通泌尿外科",
+            "text": "利奈唑胺和尼拉帕利均存在血小板减少风险"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "尼拉帕利可能导致血小板减少",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1528,
+            "source": "医脉通泌尿外科",
+            "text": "利奈唑胺和尼拉帕利均存在血小板减少风险"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_8",
+        "name": "避免合用，或调整剂量",
+        "properties": {
+          "management": "避免与环丙沙星合用，必须合用时建议适当降低氟唑帕利剂量",
+          "mechanism": "环丙沙星是CYP3A4中效抑制剂",
+          "consequence": "使氟唑帕利体内暴露增加",
+          "evidence_level": "Ⅰ级证据",
+          "evidence": {
+            "chunk_index": 1528,
+            "source": "医脉通泌尿外科",
+            "text": "避免与环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物合用，必须合用时建议适当降低氟唑帕利剂量（Ⅰ级证据）；环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物均为CYP3A4强/中效抑制剂，与氟唑帕利合用使氟唑帕利体内暴露增加。如与CYP3A4中效抑制剂（环丙沙星、红霉素、甲硝唑、氟康唑）合用，有文献建议将氟唑帕利剂量调整至50 mg 2次/d。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_19",
+        "name": "避免合用，或调整剂量",
+        "properties": {
+          "management": "避免与红霉素合用，必须合用时建议适当降低氟唑帕利剂量",
+          "mechanism": "红霉素是CYP3A4中效抑制剂",
+          "consequence": "使氟唑帕利体内暴露增加",
+          "evidence_level": "Ⅰ级证据",
+          "evidence": {
+            "chunk_index": 1528,
+            "source": "医脉通泌尿外科",
+            "text": "避免与环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物合用，必须合用时建议适当降低氟唑帕利剂量（Ⅰ级证据）；环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物均为CYP3A4强/中效抑制剂，与氟唑帕利合用使氟唑帕利体内暴露增加。如与CYP3A4中效抑制剂（环丙沙星、红霉素、甲硝唑、氟康唑）合用，有文献建议将氟唑帕利剂量调整至50 mg 2次/d。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_20",
+        "name": "避免合用，或停用氟唑帕利",
+        "properties": {
+          "management": "避免与克拉霉素合用，如合用不可避免，则停用氟唑帕利",
+          "mechanism": "克拉霉素是CYP3A4强抑制剂",
+          "consequence": "使氟唑帕利体内暴露增加",
+          "evidence_level": "Ⅰ级证据",
+          "evidence": {
+            "chunk_index": 1528,
+            "source": "医脉通泌尿外科",
+            "text": "避免与环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物合用，必须合用时建议适当降低氟唑帕利剂量（Ⅰ级证据）；环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物均为CYP3A4强/中效抑制剂，与氟唑帕利合用使氟唑帕利体内暴露增加。如与CYP3A4强抑制剂（克拉霉素、伏立康唑、泊沙康唑、伊曲康唑）合用不可避免，则停用氟唑帕利；"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_10",
+        "name": "避免合用，或调整剂量",
+        "properties": {
+          "management": "避免与甲硝唑合用，必须合用时建议适当降低氟唑帕利剂量",
+          "mechanism": "甲硝唑是CYP3A4中效抑制剂",
+          "consequence": "使氟唑帕利体内暴露增加",
+          "evidence_level": "Ⅰ级证据",
+          "evidence": {
+            "chunk_index": 1528,
+            "source": "医脉通泌尿外科",
+            "text": "避免与环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物合用，必须合用时建议适当降低氟唑帕利剂量（Ⅰ级证据）；环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物均为CYP3A4强/中效抑制剂，与氟唑帕利合用使氟唑帕利体内暴露增加。如与CYP3A4中效抑制剂（环丙沙星、红霉素、甲硝唑、氟康唑）合用，有文献建议将氟唑帕利剂量调整至50 mg 2次/d。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_21",
+        "name": "避免合用，或调整/停用剂量",
+        "properties": {
+          "management": "避免与三唑类抗真菌药物合用，必须合用时建议适当降低氟唑帕利剂量；如与强抑制剂（伏立康唑、泊沙康唑、伊曲康唑）合用不可避免，则停用氟唑帕利",
+          "mechanism": "三唑类抗真菌药物是CYP3A4强/中效抑制剂",
+          "consequence": "使氟唑帕利体内暴露增加",
+          "evidence_level": "Ⅰ级证据",
+          "evidence": {
+            "chunk_index": 1528,
+            "source": "医脉通泌尿外科",
+            "text": "避免与环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物合用，必须合用时建议适当降低氟唑帕利剂量（Ⅰ级证据）；环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物均为CYP3A4强/中效抑制剂，与氟唑帕利合用使氟唑帕利体内暴露增加。如与CYP3A4强抑制剂（克拉霉素、伏立康唑、泊沙康唑、伊曲康唑）合用不可避免，则停用氟唑帕利；如与CYP3A4中效抑制剂（环丙沙星、红霉素、甲硝唑、氟康唑）合用，有文献建议将氟唑帕利剂量调整至50 mg 2次/d。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_22",
+        "name": "合用需加强不良反应监测",
+        "properties": {
+          "management": "与阿奇霉素合用时，应加强对氟唑帕利不良反应的关注",
+          "mechanism": "阿奇霉素为CYP3A4抑制剂，抑制强度不明",
+          "evidence_level": "Ⅱ～Ⅲ级证据",
+          "evidence": {
+            "chunk_index": 1528,
+            "source": "医脉通泌尿外科",
+            "text": "与阿奇霉素、利奈唑胺、卡泊芬净合用时应加强对氟唑帕利不良反应的关注（Ⅱ～Ⅲ级证据）。阿奇霉素、卡泊芬净分别为CYP3A4、CYP3A抑制剂，抑制强度不明，应加强对氟唑帕利不良反应的关注。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_1",
+        "name": "合用需加强不良反应监测",
+        "properties": {
+          "management": "与利奈唑胺合用时，应加强对氟唑帕利不良反应的关注",
+          "evidence_level": "Ⅱ～Ⅲ级证据",
+          "evidence": {
+            "chunk_index": 1528,
+            "source": "医脉通泌尿外科",
+            "text": "与阿奇霉素、利奈唑胺、卡泊芬净合用时应加强对氟唑帕利不良反应的关注（Ⅱ～Ⅲ级证据）。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_23",
+        "name": "合用需加强不良反应监测",
+        "properties": {
+          "management": "与卡泊芬净合用时，应加强对氟唑帕利不良反应的关注",
+          "mechanism": "卡泊芬净为CYP3A抑制剂，抑制强度不明",
+          "evidence_level": "Ⅱ～Ⅲ级证据",
+          "evidence": {
+            "chunk_index": 1528,
+            "source": "医脉通泌尿外科",
+            "text": "与阿奇霉素、利奈唑胺、卡泊芬净合用时应加强对氟唑帕利不良反应的关注（Ⅱ～Ⅲ级证据）。阿奇霉素、卡泊芬净分别为CYP3A4、CYP3A抑制剂，抑制强度不明，应加强对氟唑帕利不良反应的关注。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_26",
+        "target_id": "ent_1",
+        "name": "避免合用",
+        "properties": {
+          "management": "帕米帕利可与除利奈唑胺以外的其他常见抗菌药物安全合用",
+          "consequence": "血小板下降风险的不良反应叠加",
+          "evidence": {
+            "chunk_index": 1528,
+            "source": "医脉通泌尿外科",
+            "text": "共识意见 17帕米帕利可与除利奈唑胺以外的其他常见抗菌药物安全合用。利奈唑胺与帕米帕利的相互作用机制主要为血小板下降风险的不良反应叠加。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_26",
+        "target_id": "ent_27",
+        "name": "帕米帕利通过CYP2C8代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1528,
+            "source": "医脉通泌尿外科",
+            "text": "帕米帕利通过CYP2C8、CYP3A代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_26",
+        "target_id": "ent_28",
+        "name": "帕米帕利通过CYP3A代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1528,
+            "source": "医脉通泌尿外科",
+            "text": "帕米帕利通过CYP2C8、CYP3A代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "IN_CLASS",
+        "source_id": "ent_17",
+        "target_id": "ent_29",
+        "name": "氟唑帕利属于PARPi",
+        "properties": {
+          "evidence": ""
+        }
+      }
+    ],
+    "chunk_index": 1528,
+    "source": "医脉通泌尿外科",
+    "text": "。利奈唑胺和尼拉帕利均存在血小板减少风险，合用时应加强血小板计数的监测。β-内酰胺类、碳青霉烯类、氨基糖苷类、环丙沙星、莫西沙星、甲硝唑、（左）奥硝唑、万古霉素、米卡芬净、氟康唑、伏立康唑、泊沙康唑与尼拉帕利没有已知相互作用，可以安全合用。共识意见 16氟唑帕利可以与β-内酰胺类、碳青霉烯类、氨基糖苷类、左氧氟沙星、莫西沙星、（左）奥硝唑、万古霉素、米卡芬净安全合用；避免与环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物合用，必须合用时建议适当降低氟唑帕利剂量（Ⅰ级证据）；与阿奇霉素、利奈唑胺、卡泊芬净合用时应加强对氟唑帕利不良反应的关注（Ⅱ～Ⅲ级证据）。环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物均为CYP3A4强/中效抑制剂，与氟唑帕利合用使氟唑帕利体内暴露增加。如与CYP3A4强抑制剂（克拉霉素、伏立康唑、泊沙康唑、伊曲康唑）合用不可避免，则停用氟唑帕利；如与CYP3A4中效抑制剂（环丙沙星、红霉素、甲硝唑、氟康唑）合用，有文献建议将氟唑帕利剂量调整至50 mg 2次/d。阿奇霉素、卡泊芬净分别为CYP3A4、CYP3A抑制剂，抑制强度不明，应加强对氟唑帕利不良反应的关注。共识意见 17帕米帕利可与除利奈唑胺以外的其他常见抗菌药物安全合用。虽然很多抗菌药物是CYP3A4抑制剂，但帕米帕利通过CYP2C8、CYP3A代谢，对CYP3A4的依赖性较小，与CYP3A强/中/弱抑制剂均可安全合用。利奈唑胺与帕米帕利的相互作用机制主要为血小板下降风险的不良反应叠加。常用抗菌药与PARPi的相互作用及证据级别见表7"
+  }
+]

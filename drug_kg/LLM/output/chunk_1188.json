@@ -1,0 +1,207 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "羟考酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "去甲羟考酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "羟氢吗啡酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "去甲羟氢吗啡酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Mechanism",
+        "name": "被动跨细胞扩散",
+        "properties": {
+          "机制类型": "被动跨细胞扩散"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "Caco-2细胞",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Mechanism",
+        "name": "血流限速型分布",
+        "properties": {
+          "机制类型": "血流限速型分布"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Mechanism",
+        "name": "充分搅拌模型",
+        "properties": {
+          "机制类型": "充分搅拌模型"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "羟考酮经被动跨细胞扩散的方式通过胃肠壁",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1188,
+            "source": "凡默谷",
+            "text": "假设羟考酮经被动跨细胞扩散的方式通过胃肠壁，通过体外Caco-2细胞实验测定药物的表观渗透性并转为空肠的有效渗透性"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "羟考酮通过Caco-2细胞测定表观渗透性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1188,
+            "source": "凡默谷",
+            "text": "通过体外Caco-2细胞实验测定药物的表观渗透性并转为空肠的有效渗透性"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "羟考酮的组织分布为血流限速型",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1188,
+            "source": "凡默谷",
+            "text": "羟考酮的组织分布假设为血流限速型，并认为各个组织都为充分搅拌模型。设置为血流限速型组织是经过充分考虑的，主要为这种类型可以很好地吻合羟考酮血浆浓度-时间曲线，此外无论体内吸收还是体外Caco-2渗透性数据都表明羟考酮不是渗透性限速的药物。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "羟考酮的组织分布为充分搅拌模型",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1188,
+            "source": "凡默谷",
+            "text": "羟考酮的组织分布假设为血流限速型，并认为各个组织都为充分搅拌模型。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "name": "去甲羟考酮的组织分布为血流限速型",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1188,
+            "source": "凡默谷",
+            "text": "去甲羟考酮、羟氢吗啡酮、去甲羟氢吗啡酮也同样设为血流限速型组织分布，并认为是充分搅拌模型"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "name": "去甲羟考酮的组织分布为充分搅拌模型",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1188,
+            "source": "凡默谷",
+            "text": "去甲羟考酮、羟氢吗啡酮、去甲羟氢吗啡酮也同样设为血流限速型组织分布，并认为是充分搅拌模型"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "name": "羟氢吗啡酮的组织分布为血流限速型",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1188,
+            "source": "凡默谷",
+            "text": "去甲羟考酮、羟氢吗啡酮、去甲羟氢吗啡酮也同样设为血流限速型组织分布，并认为是充分搅拌模型"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "name": "羟氢吗啡酮的组织分布为充分搅拌模型",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1188,
+            "source": "凡默谷",
+            "text": "去甲羟考酮、羟氢吗啡酮、去甲羟氢吗啡酮也同样设为血流限速型组织分布，并认为是充分搅拌模型"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "去甲羟氢吗啡酮的组织分布为血流限速型",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1188,
+            "source": "凡默谷",
+            "text": "去甲羟考酮、羟氢吗啡酮、去甲羟氢吗啡酮也同样设为血流限速型组织分布，并认为是充分搅拌模型"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "name": "去甲羟氢吗啡酮的组织分布为充分搅拌模型",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1188,
+            "source": "凡默谷",
+            "text": "去甲羟考酮、羟氢吗啡酮、去甲羟氢吗啡酮也同样设为血流限速型组织分布，并认为是充分搅拌模型"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1188,
+    "source": "凡默谷",
+    "text": "。2.2.2 口服吸收的预测羟考酮的吸收过程采用GastroPlus内建的高级房室吸收与转运(ACAT)模型进行预测。文献报道羟考酮的溶解度在pH小于9.5时大于0.5 mg/mL，且溶解度对模型的预测能力也不敏感，因此不需进一步考察溶解度输入数值的准确性。假设药物颗粒的粒径为25 μm并基于Johnson模型预测羟考酮的体内溶出行为；由于在溶液剂和胶囊剂中，未发现药物生物利用度和吸收速率的差异，预期溶出速率不是影响羟考酮吸收的限速步骤，因此未详细评估药物溶出速率的预测准确性。假设羟考酮经被动跨细胞扩散的方式通过胃肠壁，通过体外Caco-2细胞实验测定药物的表观渗透性并转为空肠的有效渗透性；采用Opt logD Model SA/V 6.1模型计算各个肠段的有效渗透性，该模型会考虑各个肠段pH、吸收面积的变化等。胃肠道模型选择ACAT默认的人体空腹状态，相关生理学参数未做调整，胃转运时间设定为0.25 h。2.2.3 组织分布的计算羟考酮的组织分布假设为血流限速型，并认为各个组织都为充分搅拌模型。设置为血流限速型组织是经过充分考虑的，主要为这种类型可以很好地吻合羟考酮血浆浓度-时间曲线，此外无论体内吸收还是体外Caco-2渗透性数据都表明羟考酮不是渗透性限速的药物。去甲羟考酮、羟氢吗啡酮、去甲羟氢吗啡酮也同样设为血流限速型组织分布，并认为是充分搅拌模型"
+  }
+]

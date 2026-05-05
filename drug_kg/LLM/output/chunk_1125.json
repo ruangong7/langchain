@@ -1,0 +1,408 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "抗菌药物",
+        "properties": {
+          "representative_drugs": [
+            "美罗培南",
+            "头孢哌酮钠舒巴坦钠",
+            "万古霉素",
+            "利福平"
+          ]
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "解热镇痛药",
+        "properties": {
+          "representative_drugs": [
+            "布洛芬胶囊",
+            "赖氨匹林"
+          ]
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "properties": {
+          "representative_drugs": [
+            "奥美拉唑",
+            "艾司奥美拉唑",
+            "兰索拉唑",
+            "泮托拉唑",
+            "雷贝拉唑"
+          ]
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "抗凝血药物",
+        "properties": {
+          "representative_drugs": [
+            "低分子肝素",
+            "华法林",
+            "利伐沙班"
+          ]
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "祛痰药",
+        "properties": {
+          "representative_drugs": [
+            "氨溴索",
+            "溴己新",
+            "乙酰半胱氨酸",
+            "桉柠蒎"
+          ]
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Population",
+        "name": "65～85岁患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Population",
+        "name": "女性",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Population",
+        "name": "男性",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "感染",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "美罗培南",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "头孢哌酮钠舒巴坦钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "万古霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "布洛芬胶囊",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "赖氨匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "艾司奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "兰索拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "泮托拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "雷贝拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "低分子肝素",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Drug",
+        "name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Drug",
+        "name": "利伐沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Drug",
+        "name": "氨溴索",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "Drug",
+        "name": "溴己新",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Drug",
+        "name": "乙酰半胱氨酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Drug",
+        "name": "桉柠蒎",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_2",
+        "name": "美罗培南属于抗菌药物"
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_12",
+        "target_id": "ent_2",
+        "name": "头孢哌酮钠舒巴坦钠属于抗菌药物"
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_13",
+        "target_id": "ent_2",
+        "name": "万古霉素属于抗菌药物"
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_14",
+        "target_id": "ent_2",
+        "name": "利福平属于抗菌药物"
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_15",
+        "target_id": "ent_3",
+        "name": "布洛芬胶囊属于解热镇痛药"
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_16",
+        "target_id": "ent_3",
+        "name": "赖氨匹林属于解热镇痛药"
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_17",
+        "target_id": "ent_4",
+        "name": "奥美拉唑属于质子泵抑制剂"
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_18",
+        "target_id": "ent_4",
+        "name": "艾司奥美拉唑属于质子泵抑制剂"
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_19",
+        "target_id": "ent_4",
+        "name": "兰索拉唑属于质子泵抑制剂"
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_20",
+        "target_id": "ent_4",
+        "name": "泮托拉唑属于质子泵抑制剂"
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_21",
+        "target_id": "ent_4",
+        "name": "雷贝拉唑属于质子泵抑制剂"
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_22",
+        "target_id": "ent_5",
+        "name": "低分子肝素属于抗凝血药物"
+      },
+      {
+        "id": "rel_13",
+        "type": "IN_CLASS",
+        "source_id": "ent_23",
+        "target_id": "ent_5",
+        "name": "华法林属于抗凝血药物"
+      },
+      {
+        "id": "rel_14",
+        "type": "IN_CLASS",
+        "source_id": "ent_24",
+        "target_id": "ent_5",
+        "name": "利伐沙班属于抗凝血药物"
+      },
+      {
+        "id": "rel_15",
+        "type": "IN_CLASS",
+        "source_id": "ent_25",
+        "target_id": "ent_6",
+        "name": "氨溴索属于祛痰药"
+      },
+      {
+        "id": "rel_16",
+        "type": "IN_CLASS",
+        "source_id": "ent_26",
+        "target_id": "ent_6",
+        "name": "溴己新属于祛痰药"
+      },
+      {
+        "id": "rel_17",
+        "type": "IN_CLASS",
+        "source_id": "ent_27",
+        "target_id": "ent_6",
+        "name": "乙酰半胱氨酸属于祛痰药"
+      },
+      {
+        "id": "rel_18",
+        "type": "IN_CLASS",
+        "source_id": "ent_28",
+        "target_id": "ent_6",
+        "name": "桉柠蒎属于祛痰药"
+      },
+      {
+        "id": "rel_19",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "伏立康唑与抗菌药物存在高风险代谢性药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1125,
+            "source": "凡默谷",
+            "text": "在 416例联合用药病例中，与伏立康唑联合使用的药物共计33 个类别( 药理作用分类) 129 个品种，其中按与伏立康唑合用频次，由高到低排名前 5 位的药物类别分别为抗菌药物( 美罗培南、头孢哌酮钠舒巴坦钠、万古霉素、利福平等) ……其中存在高风险代谢性药物相互作用的联合用药病例有 203 例"
+          }
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "伏立康唑与解热镇痛药存在高风险代谢性药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1125,
+            "source": "凡默谷",
+            "text": "在 416例联合用药病例中，与伏立康唑联合使用的药物共计33 个类别( 药理作用分类) 129 个品种，其中按与伏立康唑合用频次，由高到低排名前 5 位的药物类别分别为……解热镇痛药( 布洛芬胶囊、赖氨匹林等) ……其中存在高风险代谢性药物相互作用的联合用药病例有 203 例"
+          }
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "伏立康唑与质子泵抑制剂存在高风险代谢性药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1125,
+            "source": "凡默谷",
+            "text": "在 416例联合用药病例中，与伏立康唑联合使用的药物共计33 个类别( 药理作用分类) 129 个品种，其中按与伏立康唑合用频次，由高到低排名前 5 位的药物类别分别为……质子泵抑制剂( 奥美拉唑/ 艾司奥美拉唑、兰索拉唑、泮托拉唑、雷贝拉唑等) ……其中存在高风险代谢性药物相互作用的联合用药病例有 203 例"
+          }
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "伏立康唑与抗凝血药物存在高风险代谢性药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1125,
+            "source": "凡默谷",
+            "text": "在 416例联合用药病例中，与伏立康唑联合使用的药物共计33 个类别( 药理作用分类) 129 个品种，其中按与伏立康唑合用频次，由高到低排名前 5 位的药物类别分别为……抗凝血药物( 低分子肝素、华法林、利伐沙班等) ……其中存在高风险代谢性药物相互作用的联合用药病例有 203 例"
+          }
+        }
+      },
+      {
+        "id": "rel_23",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "伏立康唑与祛痰药存在高风险代谢性药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1125,
+            "source": "凡默谷",
+            "text": "在 416例联合用药病例中，与伏立康唑联合使用的药物共计33 个类别( 药理作用分类) 129 个品种，其中按与伏立康唑合用频次，由高到低排名前 5 位的药物类别分别为……祛痰药( 氨溴索、溴己新、乙酰半胱氨酸、桉柠蒎等) ……其中存在高风险代谢性药物相互作用的联合用药病例有 203 例"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1125,
+    "source": "凡默谷",
+    "text": "。C 级和 D 级联合用药，临床使用时无需过多干预，仅加强监护即可，故不做过多分析与统计。内容由凡默谷小编查阅文献选取，排版与编辑为原创。如转载，请尊重劳动成果，注明【来源：凡默谷公众号】。2结果2.1提取的病例情况总共收集到长期医嘱中含有伏立康唑的病例 416 例，筛选出合并用药的病例有416 例，其中存在高风险代谢性药物相互作用的联合用药病例有 203 例，占联合用药总病例数的 48.80% 。2.2 伏立康唑联合用药患者及科室分布情况在416例联合用药病例中，包含女性 284 例( 68. 27% ) ，男性 132 例( 31.73% ) ; 其中存在高风险代谢性药物相互作用的共计 203 例，这些患者中包含女性 126 例( 62. 07% ) ，男性 77 例( 37.93% ) ，表现为女性多于男性。患者的年龄主要集中在 65 ～ 85 岁。主要分布科室为重症医学科、呼吸内科、老年病科、肿瘤科等感染多发科室。见表 1。2.3 伏立康唑联合用药药品类别分布情况在 416例联合用药病例中，与伏立康唑联合使用的药物共计33 个类别( 药理作用分类) 129 个品种，其中按与伏立康唑合用频次，由高到低排名前 5 位的药物类别分别为抗菌药物( 美罗培南、头孢哌酮钠舒巴坦钠、万古霉素、利福平等) 、解热镇痛药( 布洛芬胶囊、赖氨匹林等) 、质子泵抑制剂( 奥美拉唑/ 艾司奥美拉唑、兰索拉唑、泮托拉唑、雷贝拉唑等) 、抗凝血药物( 低分子肝素、华法林、利伐沙班等) 、祛痰药( 氨溴索、溴己新、乙酰半胱氨酸、桉柠蒎等) 。均为临床各科室使用率较高的常用药品。见表 2"
+  }
+]

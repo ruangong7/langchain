@@ -1,0 +1,450 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "头孢",
+        "properties": {
+          "通用名": "头孢类抗菌药"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "藿香正气水",
+        "properties": {
+          "类型": "中药制剂",
+          "关键成分": "乙醇"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Food",
+        "name": "乙醇",
+        "properties": {
+          "类型": "饮品/成分"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "双硫仑样反应",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Symptom",
+        "name": "面色潮红",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Symptom",
+        "name": "血压下降",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Symptom",
+        "name": "头痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Symptom",
+        "name": "头晕",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Symptom",
+        "name": "恶心",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Symptom",
+        "name": "呕吐",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Symptom",
+        "name": "心慌",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Symptom",
+        "name": "胸闷",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Symptom",
+        "name": "呼吸困难",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "急性肝损害",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "SideEffect",
+        "name": "呼吸暂停",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "甲硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "替硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Food",
+        "name": "84消毒液",
+        "properties": {
+          "类型": "化学品",
+          "关键成分": "次氯酸钠"
+        }
+      },
+      {
+        "id": "ent_19",
+        "type": "Food",
+        "name": "洁厕灵",
+        "properties": {
+          "类型": "化学品",
+          "关键成分": "酸"
+        }
+      },
+      {
+        "id": "ent_20",
+        "type": "SideEffect",
+        "name": "氯气中毒",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_21",
+        "type": "Symptom",
+        "name": "晕倒",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Symptom",
+        "name": "呼吸困难",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Food",
+        "name": "柚子",
+        "properties": {
+          "类型": "食物"
+        }
+      },
+      {
+        "id": "ent_24",
+        "type": "Drug",
+        "name": "降压药",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Symptom",
+        "name": "头晕",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "Symptom",
+        "name": "心跳加快",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Population",
+        "name": "老年人",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "头孢与藿香正气水相互作用",
+        "properties": {
+          "机制": "头孢类药物抑制乙醛代谢，藿香正气水含乙醇，代谢为乙醛后蓄积",
+          "后果": "双硫仑样反应，可致急性肝损害、呼吸暂停甚至死亡",
+          "证据": {
+            "chunk_index": 1357,
+            "source": "医学界",
+            "text": "藿香正气水中含有40~50%的乙醇，酒精在体内代谢产生乙醛，而头孢类药物会抑制乙醛在体内的代谢，造成乙醛蓄积，引起中毒，严重时可诱发急性肝损害、呼吸暂停甚至死亡。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "头孢与乙醇相互作用",
+        "properties": {
+          "机制": "头孢类药物抑制乙醇代谢产生的乙醛进一步代谢",
+          "后果": "乙醛蓄积，引发双硫仑样反应",
+          "证据": {
+            "chunk_index": 1357,
+            "source": "医学界",
+            "text": "藿香正气水中含有40~50%的乙醇，酒精在体内代谢产生乙醛，而头孢类药物会抑制乙醛在体内的代谢，造成乙醛蓄积，引起中毒，严重时可诱发急性肝损害、呼吸暂停甚至死亡。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_16",
+        "target_id": "ent_3",
+        "name": "甲硝唑与乙醇相互作用",
+        "properties": {
+          "机制": "甲硝唑抑制乙醇代谢",
+          "后果": "双硫仑样反应",
+          "证据": {
+            "chunk_index": 1357,
+            "source": "医学界",
+            "text": "头孢类抗菌药、甲硝唑、替硝唑等药物，可抑制乙醇的代谢，引起“双硫仑样反应”，出现头痛、头晕、恶心、呕吐、心慌、胸闷、呼吸困难、血压下降等一系列症状。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_3",
+        "name": "替硝唑与乙醇相互作用",
+        "properties": {
+          "机制": "替硝唑抑制乙醇代谢",
+          "后果": "双硫仑样反应",
+          "证据": {
+            "chunk_index": 1357,
+            "source": "医学界",
+            "text": "头孢类抗菌药、甲硝唑、替硝唑等药物，可抑制乙醇的代谢，引起“双硫仑样反应”，出现头痛、头晕、恶心、呕吐、心慌、胸闷、呼吸困难、血压下降等一系列症状。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_18",
+        "target_id": "ent_19",
+        "name": "84消毒液与洁厕灵相互作用",
+        "properties": {
+          "机制": "次氯酸钠与酸反应生成氯气",
+          "后果": "氯气通过呼吸道侵入人体，造成上呼吸道粘膜损伤、炎性肿胀、呼吸困难，严重可致死",
+          "证据": {
+            "chunk_index": 1357,
+            "source": "医学界",
+            "text": "84消毒液的有效成分为次氯酸钠，洁厕剂主要靠酸去污。当84消毒液和洁厕剂混合反应后产生氯气，通过呼吸道侵入人体，对上呼吸道粘膜造成损伤，使组织受到强烈氧化，粘膜发生炎性肿胀，造成呼吸困难，严重时可致死。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_24",
+        "target_id": "ent_23",
+        "name": "降压药与柚子相互作用",
+        "properties": {
+          "后果": "头晕、心跳加快、晕厥",
+          "人群": "老年人",
+          "证据": {
+            "chunk_index": 1357,
+            "source": "医学界",
+            "text": "湖北一个老人为了降压，吃了2片降压药，之后又吃了小半个柚子。半个小时后就感觉头晕得厉害，心跳也很快，甚至在送医院的半路上晕了过去"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "头孢可能导致双硫仑样反应",
+        "properties": {
+          "证据": {
+            "chunk_index": 1357,
+            "source": "医学界",
+            "text": "头孢类抗菌药、甲硝唑、替硝唑等药物，可抑制乙醇的代谢，引起“双硫仑样反应”"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_16",
+        "target_id": "ent_4",
+        "name": "甲硝唑可能导致双硫仑样反应",
+        "properties": {
+          "证据": {
+            "chunk_index": 1357,
+            "source": "医学界",
+            "text": "头孢类抗菌药、甲硝唑、替硝唑等药物，可抑制乙醇的代谢，引起“双硫仑样反应”"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_17",
+        "target_id": "ent_4",
+        "name": "替硝唑可能导致双硫仑样反应",
+        "properties": {
+          "证据": {
+            "chunk_index": 1357,
+            "source": "医学界",
+            "text": "头孢类抗菌药、甲硝唑、替硝唑等药物，可抑制乙醇的代谢，引起“双硫仑样反应”"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "双硫仑样反应表现为面色潮红",
+        "properties": {}
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "name": "双硫仑样反应表现为血压下降",
+        "properties": {}
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "双硫仑样反应表现为头痛",
+        "properties": {}
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "name": "双硫仑样反应表现为头晕",
+        "properties": {}
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_4",
+        "target_id": "ent_9",
+        "name": "双硫仑样反应表现为恶心",
+        "properties": {}
+      },
+      {
+        "id": "rel_15",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_4",
+        "target_id": "ent_10",
+        "name": "双硫仑样反应表现为呕吐",
+        "properties": {}
+      },
+      {
+        "id": "rel_16",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_4",
+        "target_id": "ent_11",
+        "name": "双硫仑样反应表现为心慌",
+        "properties": {}
+      },
+      {
+        "id": "rel_17",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_4",
+        "target_id": "ent_12",
+        "name": "双硫仑样反应表现为胸闷",
+        "properties": {}
+      },
+      {
+        "id": "rel_18",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_4",
+        "target_id": "ent_13",
+        "name": "双硫仑样反应表现为呼吸困难",
+        "properties": {}
+      },
+      {
+        "id": "rel_19",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_18",
+        "target_id": "ent_20",
+        "name": "84消毒液与洁厕灵混合可致氯气中毒",
+        "properties": {
+          "证据": {
+            "chunk_index": 1357,
+            "source": "医学界",
+            "text": "当84消毒液和洁厕剂混合反应后产生氯气，通过呼吸道侵入人体，对上呼吸道粘膜造成损伤，使组织受到强烈氧化，粘膜发生炎性肿胀，造成呼吸困难，严重时可致死。"
+          }
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_20",
+        "target_id": "ent_21",
+        "name": "氯气中毒表现为晕倒",
+        "properties": {}
+      },
+      {
+        "id": "rel_21",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_20",
+        "target_id": "ent_22",
+        "name": "氯气中毒表现为呼吸困难",
+        "properties": {}
+      },
+      {
+        "id": "rel_22",
+        "type": "APPLIES_TO",
+        "source_id": "rel_6",
+        "target_id": "ent_27",
+        "name": "降压药与柚子相互作用适用于老年人",
+        "properties": {
+          "证据": {
+            "chunk_index": 1357,
+            "source": "医学界",
+            "text": "湖北一个老人为了降压，吃了2片降压药，之后又吃了小半个柚子。半个小时后就感觉头晕得厉害，心跳也很快，甚至在送医院的半路上晕了过去"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1357,
+    "source": "医学界",
+    "text": "。案例二家住北京丰台的王女士在打扫卫生间时同时使用了洁厕灵和84消毒液，而后突然晕倒，因抢救无效最终撒手人寰。——84消毒液的有效成分为次氯酸钠，洁厕剂主要靠酸去污。当84消毒液和洁厕剂混合反应后产生氯气，通过呼吸道侵入人体，对上呼吸道粘膜造成损伤，使组织受到强烈氧化，粘膜发生炎性肿胀，造成呼吸困难，严重时可致死。——84消毒液的漂白作用与腐蚀性较强，最好不要用于衣物的消毒，蔬菜、水果等食物最好不要用84消毒液消毒。提醒84消毒液有一定的刺激性与腐蚀性，必须稀释以后才能使用。一般稀释浓度为千分之二到千分之五，即1000毫升水里面放2到5毫升84消毒液。浸泡时间为10到30分钟。被消毒物品应该全部浸没在水中，消毒以后应该用清水冲洗干净后才能使用。案例三宁波60岁王大伯中暑后，喝了两支藿香正气水，又服下两粒头孢。结果，面色潮红血压下降，被送去医院抢救。——藿香正气水中含有40~50%的乙醇，酒精在体内代谢产生乙醛，而头孢类药物会抑制乙醛在体内的代谢，造成乙醛蓄积，引起中毒，严重时可诱发急性肝损害、呼吸暂停甚至死亡。提醒头孢类抗菌药、甲硝唑、替硝唑等药物，可抑制乙醇的代谢，引起“双硫仑样反应”，出现头痛、头晕、恶心、呕吐、心慌、胸闷、呼吸困难、血压下降等一系列症状。由于乙醇和药物在体内代谢有一个过程，故喝酒的人应在服药前2日禁酒，直到停药7日后方可解禁。案例四湖北一个老人为了降压，吃了2片降压药，之后又吃了小半个柚子。半个小时后就感觉头晕得厉害，心跳也很快，甚至在送医院的半路上晕了过去"
+  }
+]

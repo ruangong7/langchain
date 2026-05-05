@@ -1,0 +1,243 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Disease",
+        "name": "耐药结核病",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Disease",
+        "name": "耐多药结核",
+        "properties": {
+          "英文名": "multidrug-resistant tuberculosis",
+          "缩写": "MDR-TB"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "贝达喹啉",
+        "properties": {
+          "英文名": "bedaquiline",
+          "缩写": "BDQ",
+          "药物类别": "二芳基喹啉类药物"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "德拉马尼",
+        "properties": {
+          "英文名": "delamanid",
+          "缩写": "DLM"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "普托马尼",
+        "properties": {
+          "英文名": "pretomanid",
+          "缩写": "PMD"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "人免疫缺陷病毒感染",
+        "properties": {
+          "英文名": "human immunodeficiency virus",
+          "缩写": "HIV"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "抗结核药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "抗HIV药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "name": "贝达喹啉用于治疗耐多药结核",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1199,
+            "source": "凡默谷",
+            "text": "近年来，贝达喹啉(bedaquiline, BDQ)、德拉马尼(delamanid, DLM)、普托马尼(pretomanid, PMD)等新型抗耐药结核药物的相继上市，显著提升了耐药结核的治愈率，并缩短了治疗时间。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "name": "德拉马尼用于治疗耐多药结核",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1199,
+            "source": "凡默谷",
+            "text": "近年来，贝达喹啉(bedaquiline, BDQ)、德拉马尼(delamanid, DLM)、普托马尼(pretomanid, PMD)等新型抗耐药结核药物的相继上市，显著提升了耐药结核的治愈率，并缩短了治疗时间。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_5",
+        "target_id": "ent_2",
+        "name": "普托马尼用于治疗耐多药结核",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1199,
+            "source": "凡默谷",
+            "text": "近年来，贝达喹啉(bedaquiline, BDQ)、德拉马尼(delamanid, DLM)、普托马尼(pretomanid, PMD)等新型抗耐药结核药物的相继上市，显著提升了耐药结核的治愈率，并缩短了治疗时间。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "name": "贝达喹啉与抗结核药物存在相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1199,
+            "source": "凡默谷",
+            "text": "本文将对三种新药的药动学特征及与抗结核药物和抗HIV药物间的药物相互作用进行综述"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "德拉马尼与抗结核药物存在相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1199,
+            "source": "凡默谷",
+            "text": "本文将对三种新药的药动学特征及与抗结核药物和抗HIV药物间的药物相互作用进行综述"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "name": "普托马尼与抗结核药物存在相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1199,
+            "source": "凡默谷",
+            "text": "本文将对三种新药的药动学特征及与抗结核药物和抗HIV药物间的药物相互作用进行综述"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "name": "贝达喹啉与抗HIV药物存在相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1199,
+            "source": "凡默谷",
+            "text": "本文将对三种新药的药动学特征及与抗结核药物和抗HIV药物间的药物相互作用进行综述"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "name": "德拉马尼与抗HIV药物存在相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1199,
+            "source": "凡默谷",
+            "text": "本文将对三种新药的药动学特征及与抗结核药物和抗HIV药物间的药物相互作用进行综述"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_8",
+        "name": "普托马尼与抗HIV药物存在相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1199,
+            "source": "凡默谷",
+            "text": "本文将对三种新药的药动学特征及与抗结核药物和抗HIV药物间的药物相互作用进行综述"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "name": "贝达喹啉属于抗结核药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1199,
+            "source": "凡默谷",
+            "text": "贝达喹啉(bedaquiline, BDQ)、德拉马尼(delamanid, DLM)、普托马尼(pretomanid, PMD)等新型抗耐药结核药物"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "德拉马尼属于抗结核药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1199,
+            "source": "凡默谷",
+            "text": "贝达喹啉(bedaquiline, BDQ)、德拉马尼(delamanid, DLM)、普托马尼(pretomanid, PMD)等新型抗耐药结核药物"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "name": "普托马尼属于抗结核药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1199,
+            "source": "凡默谷",
+            "text": "贝达喹啉(bedaquiline, BDQ)、德拉马尼(delamanid, DLM)、普托马尼(pretomanid, PMD)等新型抗耐药结核药物"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1199,
+    "source": "凡默谷",
+    "text": "。其中，我国新发结核病7.1%为耐药或耐多药结核(multidrug-resistant tuberculosis, MDR-TB)，目前估算我国有10~15万耐药结核病患者。多药组合的化学治疗是控制结核病的主要手段，近年来，贝达喹啉(bedaquiline, BDQ)、德拉马尼(delamanid, DLM)、普托马尼(pretomanid, PMD)等新型抗耐药结核药物的相继上市，显著提升了耐药结核的治愈率，并缩短了治疗时间。药物相互作用(drug-drug interaction, DDI)是指一种药物的代谢及效应受到另一种药物，食物或者环境的影响而发生改变的现象。2020年9月，国家药监局颁布了我国首部《药物相互作用研究技术指导原则》，近年来新型抗结核药物的相互作用研究愈发受到重视。抗结核药物间的相互作用，MDR-TB与人免疫缺陷病毒(human immunodeficiency virus, HIV)共感染导致抗HIV药物与抗结核药物间的相互作用及患者合并病症治疗药物与抗结核药物间的相互作用，对新型抗结核药物临床应用形成了挑战。随着BDQ、DLM和PMD等抗耐药结核新药的药动学及相互作用研究不断深入，本文将对三种新药的药动学特征及与抗结核药物和抗HIV药物间的药物相互作用进行综述，旨在为耐药结核的临床治疗提供依据及为药物组合的开发提供参考。1贝达喹啉(BDQ)BDQ为二芳基喹啉类药物，结构式见图1"
+  }
+]

@@ -1,0 +1,400 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "布洛芬缓释胶囊",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "艾司唑仑片",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "注射用赖氨匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "注射用奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "阿托伐他丁钙片",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "利福平片",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "多潘立酮片",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Food",
+        "name": "圣-约翰草提取物片",
+        "properties": {
+          "type": "补充剂"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "注射用奥美拉唑钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "奥美拉唑镁肠溶片",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "奥美拉唑肠溶胶囊",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "奥美拉唑碳酸氢钠胶囊",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "注射用艾司奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "埃索美拉唑肠溶胶囊",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Food",
+        "name": "圣-约翰草片",
+        "properties": {
+          "type": "补充剂"
+        }
+      },
+      {
+        "id": "ent_18",
+        "type": "Food",
+        "name": "银杏叶提取物片",
+        "properties": {
+          "type": "补充剂"
+        }
+      },
+      {
+        "id": "ent_19",
+        "type": "Food",
+        "name": "银杏叶提取物注射液",
+        "properties": {
+          "type": "补充剂"
+        }
+      },
+      {
+        "id": "ent_20",
+        "type": "Enzyme",
+        "name": "CYP2C19",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_21",
+        "type": "Enzyme",
+        "name": "CYP2C9",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_22",
+        "type": "Enzyme",
+        "name": "CYP450",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": "1126",
+          "source": "凡默谷",
+          "text": "在 416 例联合用药病例中，有 203 例与伏立康唑存在P450 酶( 如: CYP2C19、CYP2C9、CYP450) 代谢相关的高风险联合用药，其中使用频次排名前 5 位的药物品种为布洛芬缓释胶囊、艾司唑仑片、注射用赖氨匹林、注射用奥美拉唑、阿托伐他丁钙片。其中包括说明书 中明确禁止联合使用的药物: 利福平片( 7 例) 、多潘立酮片( 8 例) 、圣-约翰草提取物片( 5 例) 。"
+        }
+      },
+      {
+        "id": "ev_2",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": "1126",
+          "source": "凡默谷",
+          "text": "含有抑制 CYP2C19 活性药物的病例有近 200 例，其中质子泵抑制剂居多，共计 140 例，分别为注射用奥美拉唑钠( 57 例) 、奥美拉唑镁肠溶片( 26 例) 、奥美拉唑肠溶胶囊( 17 例) 、奥美拉唑碳酸氢钠胶囊( 12 例) 、注射用艾司奥美拉唑( 21 例) 、埃索美拉唑肠溶胶囊( 7 例) ，这种 PPI 类高风险联合用药占比约 68.97%"
+        }
+      },
+      {
+        "id": "ev_3",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": "1126",
+          "source": "凡默谷",
+          "text": "含诱导 CYP2C19 活性药物的病例有 50 余例，除利福平片( 7 例) 、圣-约翰草片( 3 例) 外，其余均为银杏叶制剂( 银杏叶提取物片( 28 例) 、银杏叶提取物注射液( 10 例) ; 其中银杏叶类制剂高风险联合用药占比约 18. 72%"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "伏立康唑与布洛芬缓释胶囊高风险联合用药",
+        "properties": {
+          "mechanism": "P450酶代谢相关",
+          "risk_level": "高风险",
+          "evidence": [
+            {
+              "chunk_index": 1126,
+              "source": "凡默谷",
+              "text": "在 416 例联合用药病例中，有 203 例与伏立康唑存在P450 酶( 如: CYP2C19、CYP2C9、CYP450) 代谢相关的高风险联合用药，其中使用频次排名前 5 位的药物品种为布洛芬缓释胶囊、艾司唑仑片、注射用赖氨匹林、注射用奥美拉唑、阿托伐他丁钙片。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "伏立康唑与艾司唑仑片高风险联合用药",
+        "properties": {
+          "mechanism": "P450酶代谢相关",
+          "risk_level": "高风险",
+          "evidence": [
+            {
+              "chunk_index": 1126,
+              "source": "凡默谷",
+              "text": "在 416 例联合用药病例中，有 203 例与伏立康唑存在P450 酶( 如: CYP2C19、CYP2C9、CYP450) 代谢相关的高风险联合用药，其中使用频次排名前 5 位的药物品种为布洛芬缓释胶囊、艾司唑仑片、注射用赖氨匹林、注射用奥美拉唑、阿托伐他丁钙片。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "伏立康唑与注射用赖氨匹林高风险联合用药",
+        "properties": {
+          "mechanism": "P450酶代谢相关",
+          "risk_level": "高风险",
+          "evidence": [
+            {
+              "chunk_index": 1126,
+              "source": "凡默谷",
+              "text": "在 416 例联合用药病例中，有 203 例与伏立康唑存在P450 酶( 如: CYP2C19、CYP2C9、CYP450) 代谢相关的高风险联合用药，其中使用频次排名前 5 位的药物品种为布洛芬缓释胶囊、艾司唑仑片、注射用赖氨匹林、注射用奥美拉唑、阿托伐他丁钙片。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "伏立康唑与注射用奥美拉唑高风险联合用药",
+        "properties": {
+          "mechanism": "P450酶代谢相关",
+          "risk_level": "高风险",
+          "evidence": [
+            {
+              "chunk_index": 1126,
+              "source": "凡默谷",
+              "text": "在 416 例联合用药病例中，有 203 例与伏立康唑存在P450 酶( 如: CYP2C19、CYP2C9、CYP450) 代谢相关的高风险联合用药，其中使用频次排名前 5 位的药物品种为布洛芬缓释胶囊、艾司唑仑片、注射用赖氨匹林、注射用奥美拉唑、阿托伐他丁钙片。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "伏立康唑与阿托伐他丁钙片高风险联合用药",
+        "properties": {
+          "mechanism": "P450酶代谢相关",
+          "risk_level": "高风险",
+          "evidence": [
+            {
+              "chunk_index": 1126,
+              "source": "凡默谷",
+              "text": "在 416 例联合用药病例中，有 203 例与伏立康唑存在P450 酶( 如: CYP2C19、CYP2C9、CYP450) 代谢相关的高风险联合用药，其中使用频次排名前 5 位的药物品种为布洛芬缓释胶囊、艾司唑仑片、注射用赖氨匹林、注射用奥美拉唑、阿托伐他丁钙片。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "伏立康唑与利福平片禁止联合使用",
+        "properties": {
+          "mechanism": "诱导CYP2C19活性",
+          "risk_level": "高风险",
+          "contraindication": "说明书明确禁止联合使用",
+          "evidence": [
+            {
+              "chunk_index": 1126,
+              "source": "凡默谷",
+              "text": "其中包括说明书 中明确禁止联合使用的药物: 利福平片( 7 例) 、多潘立酮片( 8 例) 、圣-约翰草提取物片( 5 例) 。"
+            },
+            {
+              "chunk_index": 1126,
+              "source": "凡默谷",
+              "text": "含诱导 CYP2C19 活性药物的病例有 50 余例，除利福平片( 7 例) 、圣-约翰草片( 3 例) 外，其余均为银杏叶制剂"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "伏立康唑与多潘立酮片禁止联合使用",
+        "properties": {
+          "risk_level": "高风险",
+          "contraindication": "说明书明确禁止联合使用",
+          "evidence": [
+            {
+              "chunk_index": 1126,
+              "source": "凡默谷",
+              "text": "其中包括说明书 中明确禁止联合使用的药物: 利福平片( 7 例) 、多潘立酮片( 8 例) 、圣-约翰草提取物片( 5 例) 。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "伏立康唑与圣-约翰草提取物片禁止联合使用",
+        "properties": {
+          "mechanism": "诱导CYP2C19活性",
+          "risk_level": "高风险",
+          "contraindication": "说明书明确禁止联合使用",
+          "evidence": [
+            {
+              "chunk_index": 1126,
+              "source": "凡默谷",
+              "text": "其中包括说明书 中明确禁止联合使用的药物: 利福平片( 7 例) 、多潘立酮片( 8 例) 、圣-约翰草提取物片( 5 例) 。"
+            },
+            {
+              "chunk_index": 1126,
+              "source": "凡默谷",
+              "text": "含诱导 CYP2C19 活性药物的病例有 50 余例，除利福平片( 7 例) 、圣-约翰草片( 3 例) 外，其余均为银杏叶制剂"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "伏立康唑与注射用奥美拉唑钠高风险联合用药",
+        "properties": {
+          "mechanism": "抑制CYP2C19活性",
+          "risk_level": "高风险",
+          "evidence": [
+            {
+              "chunk_index": 1126,
+              "source": "凡默谷",
+              "text": "含有抑制 CYP2C19 活性药物的病例有近 200 例，其中质子泵抑制剂居多，共计 140 例，分别为注射用奥美拉唑钠( 57 例) 、奥美拉唑镁肠溶片( 26 例) 、奥美拉唑肠溶胶囊( 17 例) 、奥美拉唑碳酸氢钠胶囊( 12 例) 、注射用艾司奥美拉唑( 21 例) 、埃索美拉唑肠溶胶囊( 7 例) ，这种 PPI 类高风险联合用药占比约 68.97%"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "伏立康唑与奥美拉唑镁肠溶片高风险联合用药",
+        "properties": {
+          "mechanism": "抑制CYP2C19活性",
+          "risk_level": "高风险",
+          "evidence": [
+            {
+              "chunk_index": 1126,
+              "source": "凡默谷",
+              "text": "含有抑制 CYP2C19 活性药物的病例有近 200 例，其中质子泵抑制剂居多，共计 140 例，分别为注射用奥美拉唑钠( 57 例) 、奥美拉唑镁肠溶片( 26 例) 、奥美拉唑肠溶胶囊( 17 例) 、奥美拉唑碳酸氢钠胶囊( 12 例) 、注射用艾司奥美拉唑( 21 例) 、埃索美拉唑肠溶胶囊( 7 例) ，这种 PPI 类高风险联合用药占比约 68.97%"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "伏立康唑与奥美拉唑肠溶胶囊高风险联合用药",
+        "properties": {
+          "mechanism": "抑制CYP2C19活性",
+          "risk_level": "高风险",
+          "evidence": [
+            {
+              "chunk_index": 1126,
+              "source": "凡默谷",
+              "text": "含有抑制 CYP2C19 活性药物的病例有近 200 例，其中质子泵抑制剂居多，共计 140 例，分别为注射用奥美拉唑钠( 57 例) 、奥美拉唑镁肠溶片( 26 例) 、奥美拉唑肠溶胶囊( 17 例) 、奥美拉唑碳酸氢钠胶囊( 12 例) 、注射用艾司奥美拉唑( 21 例) 、埃索美拉唑肠溶胶囊( 7 例) ，这种 PPI 类高风险联合用药占比约 68.97%"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_"
+      }
+    ],
+    "chunk_index": 1126,
+    "source": "凡默谷",
+    "text": "。均为临床各科室使用率较高的常用药品。见表 2。2. 4 伏立康唑高风险联合用药风险靶点分布情况在 416 例联合用药病例中，有 203 例与伏立康唑存在P450 酶( 如: CYP2C19、CYP2C9、CYP450) 代谢相关的高风险联合用药，其中使用频次排名前 5 位的药物品种为布洛芬缓释胶囊、艾司唑仑片、注射用赖氨匹林、注射用奥美拉唑、阿托伐他丁钙片。其中包括说明书 中明确禁止联合使用的药物: 利福平片( 7 例) 、多潘立酮片( 8 例) 、圣-约翰草提取物片( 5 例) 。见表 3。2.4.1  含有影响 CYP2C19 活性的药物在 203 例高风险联合用药病例中，含有抑制 CYP2C19 活性药物的病例有近 200 例，其中质子泵抑制剂居多，共计 140 例，分别为注射用奥美拉唑钠( 57 例) 、奥美拉唑镁肠溶片( 26 例) 、奥美拉唑肠溶胶囊( 17 例) 、奥美拉唑碳酸氢钠胶囊( 12 例) 、注射用艾司奥美拉唑( 21 例) 、埃索美拉唑肠溶胶囊( 7 例) ，这种 PPI 类高风险联合用药占比约 68.97% ; 含诱导 CYP2C19 活性药物的病例有 50 余例，除利福平片( 7 例) 、圣-约翰草片( 3 例) 外，其余均为银杏叶制剂( 银杏叶提取物片( 28 例) 、银杏叶提取物注射液( 10 例) ; 其中银杏叶类制剂高风险联合用药占比约 18. 72%"
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "吗啉硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "丙磺舒",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "替诺福韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Population",
+        "name": "雄性Sprague-Dawley大鼠",
+        "properties": {
+          "体重范围": "200~300 g"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "丙磺舒对R/S-吗啉硝唑代谢的相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1214,
+            "source": "凡默谷",
+            "text": "用于丙磺舒、西咪替丁、二甲双胍、替诺福韦对R/S- 吗啉硝唑代谢的相互作用研究"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "西咪替丁对R/S-吗啉硝唑代谢的相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1214,
+            "source": "凡默谷",
+            "text": "用于丙磺舒、西咪替丁、二甲双胍、替诺福韦对R/S- 吗啉硝唑代谢的相互作用研究"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "二甲双胍对R/S-吗啉硝唑代谢的相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1214,
+            "source": "凡默谷",
+            "text": "用于丙磺舒、西咪替丁、二甲双胍、替诺福韦对R/S- 吗啉硝唑代谢的相互作用研究"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "name": "替诺福韦对R/S-吗啉硝唑代谢的相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1214,
+            "source": "凡默谷",
+            "text": "用于丙磺舒、西咪替丁、二甲双胍、替诺福韦对R/S- 吗啉硝唑代谢的相互作用研究"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1214,
+    "source": "凡默谷",
+    "text": "。本文旨在利用LC-MS/MS 法，以吗啉硝唑-d8 作为内标，使用手性柱Lux cellulose-4（4.6 mm×250 mm，5 μm），建立快速稳定的方法检测大鼠血浆中R/S- 吗啉硝唑浓度，并用于丙磺舒、西咪替丁、二甲双胍、替诺福韦对R/S- 吗啉硝唑代谢的相互作用研究。1实验材料 1.1　仪器　Agilent 液质系统与Agilent 1290 液相系统、Agilent6460 三重四极杆质谱仪、MassHunter WorkstationSoftware B07（安捷伦科技有限公司）；Mettler ToledoXP26 电子天平（精度0.001 mg；Mettler Toledo 公司）、Mettler Toledo XS105 电子天平（精度0.01 mg；MettlerToledo 公司）；Eppendorf 5417c 离心机（Eppendorf 公司）；BECKMAN COULTER Allegra 64R Centrifuge 离心机（贝克曼库尔特有限公司）；QL-901 旋涡振荡仪（其林贝尔仪器制造公司）；KUDOS 超声波清洗器（科导超声仪器有限公司）；Milli-Q ® 超纯水系统（Millipore 公司）。1.2　实验动物雄性Sprague-Dawley（SD）大鼠30 只，体质量范围为200~300 g，购自浙江省医学科学院实验动物中心。合格证号：SCXK（浙）2014-0001"
+  }
+]

@@ -1,0 +1,248 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "普萘洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "β-受体阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "钙拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "麦角胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "大环内酯类抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "细胞色素P450系统",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "精神错乱",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "共济失调",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "SideEffect",
+        "name": "惊厥",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Symptom",
+        "name": "手足灰白发冷",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Symptom",
+        "name": "感觉障碍",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "昏迷",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "SideEffect",
+        "name": "呼吸麻痹",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Evidence",
+        "name": "SFDA药品说明书范本31",
+        "properties": {
+          "chunk_id": "chunk_1264",
+          "source": "凯德传媒肾脏时讯"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "Evidence",
+        "name": "SFDA药品说明书范本32",
+        "properties": {
+          "chunk_id": "chunk_1264",
+          "source": "凯德传媒肾脏时讯"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "维拉帕米与普萘洛尔相互作用",
+        "properties": {
+          "consequence": "增强对房室传导的抑制作用",
+          "advice": "要十分警惕本品对心肌和传导系统的抑制",
+          "severity": "高",
+          "evidence": [
+            {
+              "chunk_index": 1264,
+              "source": "凯德传媒肾脏时讯",
+              "text": "维拉帕米+普萘洛尔与β-受体阻滞剂联合使用, 可增强对房室传导的抑制作用。钙拮抗剂合用，特别是静脉注射维拉帕米，要十分警惕本品对心肌和传导系统的抑制。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "克拉霉素与麦角胺相互作用",
+        "properties": {
+          "mechanism": "升高需要经过细胞色素P450系统代谢的药物的血清浓度",
+          "consequence": "逾量可引起严重中毒",
+          "side_effects": [
+            "精神错乱",
+            "共济失调",
+            "惊厥",
+            "手足灰白发冷",
+            "感觉障碍",
+            "昏迷",
+            "呼吸麻痹"
+          ],
+          "severity": "高",
+          "evidence": [
+            {
+              "chunk_index": 1264,
+              "source": "凯德传媒肾脏时讯",
+              "text": "克拉霉素+麦角胺与其他大环内酯类抗生素相似，本品会升高需要经过细胞色素P450系统代谢的药物的血清浓度（如阿司咪唑、华法林、麦角生物碱、三唑仑、咪达唑仑、环孢素、奥美拉唑、雷尼替丁、苯妥因、溴隐亭、阿芬他尼、海索比妥、丙吡胺、洛伐他汀、他克莫司等）。逾量可引起严重中毒，急性中毒症状为精神错乱、共济失调、惊厥、手足灰白发冷、感觉障碍，甚至因昏迷与呼吸麻痹而死亡。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "普萘洛尔属于β-受体阻滞剂",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1264,
+              "source": "凯德传媒肾脏时讯",
+              "text": "维拉帕米+普萘洛尔与β-受体阻滞剂联合使用"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "维拉帕米属于钙拮抗剂",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1264,
+              "source": "凯德传媒肾脏时讯",
+              "text": "钙拮抗剂合用，特别是静脉注射维拉帕米"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "name": "克拉霉素属于大环内酯类抗生素",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1264,
+              "source": "凯德传媒肾脏时讯",
+              "text": "克拉霉素+麦角胺与其他大环内酯类抗生素相似"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_2",
+        "target_id": "ent_8",
+        "name": "克拉霉素与麦角胺相互作用涉及细胞色素P450系统",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1264,
+              "source": "凯德传媒肾脏时讯",
+              "text": "本品会升高需要经过细胞色素P450系统代谢的药物的血清浓度"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_1",
+        "target_id": "ent_16",
+        "name": "维拉帕米与普萘洛尔相互作用证据",
+        "properties": {}
+      },
+      {
+        "id": "rel_8",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_2",
+        "target_id": "ent_17",
+        "name": "克拉霉素与麦角胺相互作用证据",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1264,
+    "source": "凯德传媒肾脏时讯",
+    "text": "。文献依据：SFDA药品说明书范本31、维拉帕米+普萘洛尔与β-受体阻滞剂联合使用, 可增强对房室传导的抑制作用。钙拮抗剂合用，特别是静脉注射维拉帕米，要十分警惕本品对心肌和传导系统的抑制。文献依据：SFDA药品说明书范本32、克拉霉素+麦角胺与其他大环内酯类抗生素相似，本品会升高需要经过细胞色素P450系统代谢的药物的血清浓度（如阿司咪唑、华法林、麦角生物碱、三唑仑、咪达唑仑、环孢素、奥美拉唑、雷尼替丁、苯妥因、溴隐亭、阿芬他尼、海索比妥、丙吡胺、洛伐他汀、他克莫司等）。逾量可引起严重中毒，急性中毒症状为精神错乱、共济失调、惊厥、手足灰白发冷、感觉障碍，甚至因昏迷与呼吸麻痹而死亡。文献依据：SFDA药品说明书范本◆ ◆◆END◆ ◆ ◆我要投稿《肾脏时讯》发布！凯德传媒《肾脏时讯》发布！《肾脏时讯》为凯德传媒旗下学术平台之一，致力于肾脏病领域学术及会议活动的推广与服务，若您有任何疑问，或有相关的广告合作、会议合作或活动信息需要发布，欢迎您致电13720083021或邮件至webmaster@kdmedia.com.cn，我们将会与您联系并酌情协助发布和推广，感谢您的支持！欢迎关注《肾脏时讯》（kidneynews）觉得不错，记得给 小编点赞哦~"
+  }
+]

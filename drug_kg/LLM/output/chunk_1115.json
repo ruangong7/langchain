@@ -1,0 +1,252 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利伐沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "氟康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "BCRP",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "CYP3A亚家族",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "出血事件",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "AUC",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "Cmax",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1115,
+          "source": "凡默谷",
+          "text": "在健康受试者体内进行的中、轻度的CYP3A4、 P-gp 抑制剂合用的风险评估结果显示（表 3）：这些 药物虽然会一定程度上提高利伐沙班AUC、Cmax，但 并无临床相关性［7，9，71-72］ 。而利福平是CYP3A4、P-gp 的诱导剂，可以使二者活性增强，增加利伐沙班的 体内清除，最终导致药效减弱。故而，联用时应增 大利伐沙班的给药剂量以保证药效［76］。 3.3 免疫抑制剂 免疫抑制剂环孢素与利伐沙班之间也存在DDI 风险。环孢素是多种药物转运体的抑制剂，其中包 括P-gp及BCRP，同时对CYP3A亚家族也表现出弱 的抑制效果，健康志愿者药动学研究显示，环孢素会使体内利伐沙班（20 mg）AUC、Cmax 分 别 提 高 47%、105%［75］ 。有研究显示利伐沙班体内峰浓度与 出血事件的发生存在紧密联系，虽然环孢素合用导 致体内 AUC增加幅度并不大，而其对体内 Cmax改变 量是目前健康志愿者体内研究中增加幅度最大的， 因此二者的联合应用存在较大风险［77］ 。当环孢素 与氟康唑联用时，利伐沙班的AUC提高了86%。氟 康唑本身对利伐沙班的体内代谢影响本无临床相 关性，但与环孢素合用后药动学改变提示出明显的 DDI风险。综上，对于与利伐沙班联合用药，如果存在一 种药物同时影响多个靶点、或多种药物同时影响单 一靶点或多个靶点的情况，利伐沙班的 DDI风险会 被明显提高（表3）"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "利福平与利伐沙班相互作用",
+        "properties": {
+          "mechanism": "利福平是CYP3A4、P-gp的诱导剂，增强二者活性，增加利伐沙班体内清除，导致药效减弱",
+          "effect": "药效减弱",
+          "recommendation": "联用时应增大利伐沙班的给药剂量以保证药效",
+          "evidence": {
+            "chunk_index": 1115,
+            "source": "凡默谷",
+            "text": "而利福平是CYP3A4、P-gp 的诱导剂，可以使二者活性增强，增加利伐沙班的 体内清除，最终导致药效减弱。故而，联用时应增 大利伐沙班的给药剂量以保证药效［76］。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "环孢素与利伐沙班相互作用",
+        "properties": {
+          "mechanism": "环孢素是P-gp、BCRP抑制剂，对CYP3A亚家族有弱抑制作用，使利伐沙班AUC提高47%、Cmax提高105%",
+          "effect": "显著提高Cmax，与出血事件风险紧密相关，联合应用存在较大风险",
+          "evidence": {
+            "chunk_index": 1115,
+            "source": "凡默谷",
+            "text": "免疫抑制剂环孢素与利伐沙班之间也存在DDI 风险。环孢素是多种药物转运体的抑制剂，其中包 括P-gp及BCRP，同时对CYP3A亚家族也表现出弱 的抑制效果，健康志愿者药动学研究显示，环孢素会使体内利伐沙班（20 mg）AUC、Cmax 分 别 提 高 47%、105%［75］ 。有研究显示利伐沙班体内峰浓度与 出血事件的发生存在紧密联系，虽然环孢素合用导 致体内 AUC增加幅度并不大，而其对体内 Cmax改变 量是目前健康志愿者体内研究中增加幅度最大的， 因此二者的联合应用存在较大风险［77］ 。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "氟康唑与利伐沙班相互作用",
+        "properties": {
+          "mechanism": "氟康唑单独使用对利伐沙班代谢无临床相关性影响",
+          "effect": "无临床相关性",
+          "evidence": {
+            "chunk_index": 1115,
+            "source": "凡默谷",
+            "text": "氟康唑本身对利伐沙班的体内代谢影响本无临床相关性"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "环孢素与氟康唑共同影响利伐沙班",
+        "properties": {
+          "mechanism": "环孢素与氟康唑联用时，利伐沙班AUC提高86%",
+          "effect": "药动学改变提示明显DDI风险",
+          "evidence": {
+            "chunk_index": 1115,
+            "source": "凡默谷",
+            "text": "当环孢素 与氟康唑联用时，利伐沙班的AUC提高了86%。氟 康唑本身对利伐沙班的体内代谢影响本无临床相 关性，但与环孢素合用后药动学改变提示出明显的 DDI风险。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "利伐沙班可能导致出血事件",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1115,
+            "source": "凡默谷",
+            "text": "有研究显示利伐沙班体内峰浓度与 出血事件的发生存在紧密联系"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "name": "利福平降低利伐沙班AUC",
+        "properties": {
+          "direction": "decrease",
+          "evidence": {
+            "chunk_index": 1115,
+            "source": "凡默谷",
+            "text": "利福平是CYP3A4、P-gp 的诱导剂，可以使二者活性增强，增加利伐沙班的 体内清除"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "name": "利福平降低利伐沙班Cmax",
+        "properties": {
+          "direction": "decrease",
+          "evidence": {
+            "chunk_index": 1115,
+            "source": "凡默谷",
+            "text": "利福平是CYP3A4、P-gp 的诱导剂，可以使二者活性增强，增加利伐沙班的 体内清除"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_3",
+        "target_id": "ent_10",
+        "name": "环孢素提高利伐沙班AUC",
+        "properties": {
+          "direction": "increase",
+          "magnitude": "47%",
+          "evidence": {
+            "chunk_index": 1115,
+            "source": "凡默谷",
+            "text": "环孢素会使体内利伐沙班（20 mg）AUC、Cmax 分 别 提 高 47%、105%［75］"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_3",
+        "target_id": "ent_11",
+        "name": "环孢素提高利伐沙班Cmax",
+        "properties": {
+          "direction": "increase",
+          "magnitude": "105%",
+          "evidence": {
+            "chunk_index": 1115,
+            "source": "凡默谷",
+            "text": "环孢素会使体内利伐沙班（20 mg）AUC、Cmax 分 别 提 高 47%、105%［75］"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_3",
+        "target_id": "ent_10",
+        "name": "环孢素与氟康唑联用提高利伐沙班AUC",
+        "properties": {
+          "direction": "increase",
+          "magnitude": "86%",
+          "evidence": {
+            "chunk_index": 1115,
+            "source": "凡默谷",
+            "text": "当环孢素 与氟康唑联用时，利伐沙班的AUC提高了86%"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1115,
+    "source": "凡默谷",
+    "text": "。在健康受试者体内进行的中、轻度的CYP3A4、 P-gp 抑制剂合用的风险评估结果显示（表 3）：这些 药物虽然会一定程度上提高利伐沙班AUC、Cmax，但 并无临床相关性［7，9，71-72］ 。而利福平是CYP3A4、P-gp 的诱导剂，可以使二者活性增强，增加利伐沙班的 体内清除，最终导致药效减弱。故而，联用时应增 大利伐沙班的给药剂量以保证药效［76］。 3.3 免疫抑制剂 免疫抑制剂环孢素与利伐沙班之间也存在DDI 风险。环孢素是多种药物转运体的抑制剂，其中包 括P-gp及BCRP，同时对CYP3A亚家族也表现出弱 的抑制效果，健康志愿者药动学研究显示，环孢素会使体内利伐沙班（20 mg）AUC、Cmax 分 别 提 高 47%、105%［75］ 。有研究显示利伐沙班体内峰浓度与 出血事件的发生存在紧密联系，虽然环孢素合用导 致体内 AUC增加幅度并不大，而其对体内 Cmax改变 量是目前健康志愿者体内研究中增加幅度最大的， 因此二者的联合应用存在较大风险［77］ 。当环孢素 与氟康唑联用时，利伐沙班的AUC提高了86%。氟 康唑本身对利伐沙班的体内代谢影响本无临床相 关性，但与环孢素合用后药动学改变提示出明显的 DDI风险。综上，对于与利伐沙班联合用药，如果存在一 种药物同时影响多个靶点、或多种药物同时影响单 一靶点或多个靶点的情况，利伐沙班的 DDI风险会 被明显提高（表3）"
+  }
+]

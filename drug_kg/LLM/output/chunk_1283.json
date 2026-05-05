@@ -1,0 +1,401 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "他汀类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "辛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "洛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Food",
+        "name": "西柚汁",
+        "properties": {
+          "类型": "饮品"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "横纹肌溶解",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Food",
+        "name": "菠菜",
+        "properties": {
+          "类型": "食物",
+          "关键成分": "维生素K"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Food",
+        "name": "卷心菜",
+        "properties": {
+          "类型": "食物",
+          "关键成分": "维生素K"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Food",
+        "name": "芦笋",
+        "properties": {
+          "类型": "食物",
+          "关键成分": "维生素K"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Food",
+        "name": "西芹",
+        "properties": {
+          "类型": "食物",
+          "关键成分": "维生素K"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Food",
+        "name": "芥蓝",
+        "properties": {
+          "类型": "食物",
+          "关键成分": "维生素K"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Food",
+        "name": "豌豆",
+        "properties": {
+          "类型": "食物",
+          "关键成分": "维生素K"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Food",
+        "name": "大蒜",
+        "properties": {
+          "类型": "食物"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Food",
+        "name": "鱼油",
+        "properties": {
+          "类型": "补充剂"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Food",
+        "name": "葡萄柚",
+        "properties": {
+          "类型": "食物"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "Food",
+        "name": "芒果",
+        "properties": {
+          "类型": "食物"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "辛伐他汀属于他汀类药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "降血脂的他汀类药物，如辛伐他汀、阿托伐他汀、洛伐他汀等"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "阿托伐他汀属于他汀类药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "降血脂的他汀类药物，如辛伐他汀、阿托伐他汀、洛伐他汀等"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "洛伐他汀属于他汀类药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "降血脂的他汀类药物，如辛伐他汀、阿托伐他汀、洛伐他汀等"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "辛伐他汀与西柚汁相互作用",
+        "properties": {
+          "后果": "血药浓度增加，增大横纹肌溶解风险",
+          "机制": "可能抑制CYP3A4代谢（文本未明说，不填）",
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "在服这类药期间同时喝西柚汁，会使这些药物的血药浓度增加，增大横纹肌溶解等不良反应的风险。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "name": "阿托伐他汀与西柚汁相互作用",
+        "properties": {
+          "后果": "血药浓度增加，增大横纹肌溶解风险",
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "在服这类药期间同时喝西柚汁，会使这些药物的血药浓度增加，增大横纹肌溶解等不良反应的风险。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "洛伐他汀与西柚汁相互作用",
+        "properties": {
+          "后果": "血药浓度增加，增大横纹肌溶解风险",
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "在服这类药期间同时喝西柚汁，会使这些药物的血药浓度增加，增大横纹肌溶解等不良反应的风险。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "他汀类药物可能导致横纹肌溶解",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "增大横纹肌溶解等不良反应的风险"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "name": "华法林与菠菜相互作用",
+        "properties": {
+          "后果": "减弱抗凝效果",
+          "机制": "富含维生素K",
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "许多绿色蔬菜包括菠菜、卷心菜、芦笋、西芹、芥蓝、豌豆等富含维生素K，会减弱华法林的抗凝效果。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_9",
+        "name": "华法林与卷心菜相互作用",
+        "properties": {
+          "后果": "减弱抗凝效果",
+          "机制": "富含维生素K",
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "许多绿色蔬菜包括菠菜、卷心菜、芦笋、西芹、芥蓝、豌豆等富含维生素K，会减弱华法林的抗凝效果。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_10",
+        "name": "华法林与芦笋相互作用",
+        "properties": {
+          "后果": "减弱抗凝效果",
+          "机制": "富含维生素K",
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "许多绿色蔬菜包括菠菜、卷心菜、芦笋、西芹、芥蓝、豌豆等富含维生素K，会减弱华法林的抗凝效果。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_11",
+        "name": "华法林与西芹相互作用",
+        "properties": {
+          "后果": "减弱抗凝效果",
+          "机制": "富含维生素K",
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "许多绿色蔬菜包括菠菜、卷心菜、芦笋、西芹、芥蓝、豌豆等富含维生素K，会减弱华法林的抗凝效果。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_12",
+        "name": "华法林与芥蓝相互作用",
+        "properties": {
+          "后果": "减弱抗凝效果",
+          "机制": "富含维生素K",
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "许多绿色蔬菜包括菠菜、卷心菜、芦笋、西芹、芥蓝、豌豆等富含维生素K，会减弱华法林的抗凝效果。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_13",
+        "name": "华法林与豌豆相互作用",
+        "properties": {
+          "后果": "减弱抗凝效果",
+          "机制": "富含维生素K",
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "许多绿色蔬菜包括菠菜、卷心菜、芦笋、西芹、芥蓝、豌豆等富含维生素K，会减弱华法林的抗凝效果。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_14",
+        "name": "华法林与大蒜相互作用",
+        "properties": {
+          "后果": "增强抗凝作用",
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "大蒜、鱼油、葡萄柚、芒果等，与华法林合用可以增强其抗凝作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_15",
+        "name": "华法林与鱼油相互作用",
+        "properties": {
+          "后果": "增强抗凝作用",
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "大蒜、鱼油、葡萄柚、芒果等，与华法林合用可以增强其抗凝作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_16",
+        "name": "华法林与葡萄柚相互作用",
+        "properties": {
+          "后果": "增强抗凝作用",
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "大蒜、鱼油、葡萄柚、芒果等，与华法林合用可以增强其抗凝作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_17",
+        "name": "华法林与芒果相互作用",
+        "properties": {
+          "后果": "增强抗凝作用",
+          "evidence": {
+            "chunk_index": 1283,
+            "source": "北京空港医院",
+            "text": "大蒜、鱼油、葡萄柚、芒果等，与华法林合用可以增强其抗凝作用。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1283,
+    "source": "北京空港医院",
+    "text": "答疑解惑，专业药剂师在身边在现实生活中，大多数人认为，食物之间有禁忌，殊不知食物与药物也是存在相互作用。比如：降血脂的他汀类药物，如辛伐他汀、阿托伐他汀、洛伐他汀等，在服这类药期间同时喝西柚汁，会使这些药物的血药浓度增加，增大横纹肌溶解等不良反应的风险。华法林与食物的相互作用更是数不胜数，饮食变化都会影响华法林的疗效。比如，许多绿色蔬菜包括菠菜、卷心菜、芦笋、西芹、芥蓝、豌豆等富含维生素K，会减弱华法林的抗凝效果。大蒜、鱼油、葡萄柚、芒果等，与华法林合用可以增强其抗凝作用。因此，建议服用华法林的患者要保持饮食结构的相对平衡。小编温馨提示：       药物和食物之间的关系可不少，如不清楚，可以咨询药师。本期，药师黄茜还将结合疫情防控常态化趋势下，营养膳食的内容，为大家作出提示。黄茜：      北京市顺义区空港医院主管药师，执业药师，药物分析学硕士，顺义区健康委员会健康科普讲师团专家，在北京协和医院进修通科临床药师，擅长老年慢性疾病的药物治疗、患者用药宣教、药学科普等。疫情防控常态化下，如何营养膳食     科学合理的营养膳食能有效改善营养状况、增强抵抗力，有助于新型冠状病毒感染的肺炎防控与救治。中国营养学会联合中国医师协会、中华医学会肠外肠内营养学分会，针对新型冠状病毒感染的肺炎防控和救治特点，并根据《中国居民膳食指南》（2016版）和国家卫生健康委员会发布的《新型冠状病毒感染的肺炎诊疗方案（试行第七版）》，研究提出营养膳食指导，供公众和医疗机构参考。一般人群防控用营养膳食指导:　　（一）食物多样，谷类为主"
+  }
+]

@@ -1,0 +1,286 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "rCYP2B1",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "rUGT",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "rCYP2D2",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "rCYP2E1",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "rCYP450",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "UGT",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "OMP",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "DMS",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Food",
+        "name": "4-甲基伞形花内酯",
+        "properties": {
+          "类型": "补充剂",
+          "关键成分": "4-甲基伞形花内酯"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "BUN",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "ALB",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Population",
+        "name": "大鼠",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Population",
+        "name": "人",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Enzyme",
+        "name": "hCYP450",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_7",
+        "target_id": "ent_1",
+        "name": "OMP对rCYP2B1有诱导作用",
+        "properties": {
+          "机制类型": "诱导",
+          "浓度依赖性": "低浓度优势",
+          "evidence": {
+            "chunk_index": 1144,
+            "source": "凡默谷",
+            "text": "仅低浓度的OMP对rCYP2B1和rUGT诱导有明显优势"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_7",
+        "target_id": "ent_2",
+        "name": "OMP对rUGT有诱导作用",
+        "properties": {
+          "机制类型": "诱导",
+          "浓度依赖性": "低浓度优势",
+          "evidence": {
+            "chunk_index": 1144,
+            "source": "凡默谷",
+            "text": "仅低浓度的OMP对rCYP2B1和rUGT诱导有明显优势"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_3",
+        "name": "DMS对rCYP2D2无诱导作用",
+        "properties": {
+          "机制类型": "无诱导",
+          "浓度依赖性": "高浓度无效",
+          "evidence": {
+            "chunk_index": 1144,
+            "source": "凡默谷",
+            "text": "高浓度的DMS对rCYP2D2、rCYP2E1和rUGT无诱导作用"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_4",
+        "name": "DMS对rCYP2E1无诱导作用",
+        "properties": {
+          "机制类型": "无诱导",
+          "浓度依赖性": "高浓度无效",
+          "evidence": {
+            "chunk_index": 1144,
+            "source": "凡默谷",
+            "text": "高浓度的DMS对rCYP2D2、rCYP2E1和rUGT无诱导作用"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_2",
+        "name": "DMS对rUGT无诱导作用",
+        "properties": {
+          "机制类型": "无诱导",
+          "浓度依赖性": "高浓度无效",
+          "evidence": {
+            "chunk_index": 1144,
+            "source": "凡默谷",
+            "text": "高浓度的DMS对rCYP2D2、rCYP2E1和rUGT无诱导作用"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_12",
+        "target_id": "ent_10",
+        "name": "大鼠原代肝细胞分泌BUN",
+        "properties": {
+          "时间点": "培养第3天最佳",
+          "evidence": {
+            "chunk_index": 1144,
+            "source": "凡默谷",
+            "text": "细胞在培养第3天细胞分泌BUN和ALB状态最佳"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_12",
+        "target_id": "ent_11",
+        "name": "大鼠原代肝细胞分泌ALB",
+        "properties": {
+          "时间点": "培养第3天最佳",
+          "evidence": {
+            "chunk_index": 1144,
+            "source": "凡默谷",
+            "text": "细胞在培养第3天细胞分泌BUN和ALB状态最佳"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_6",
+        "name": "4-甲基伞形花内酯作为UGT通用底物",
+        "properties": {
+          "作用类型": "底物",
+          "用途": "考察葡糖糖醛酸结合代谢酶整体活性",
+          "evidence": {
+            "chunk_index": 1144,
+            "source": "凡默谷",
+            "text": "实验选择了4-甲基伞形花内酯为UGT酶的通用底物考察葡糖糖醛酸结合代谢酶的整体活性水平"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_12",
+        "target_id": "ent_5",
+        "name": "大鼠CYP450酶活性随培养时间迅速下降",
+        "properties": {
+          "趋势": "迅速下降",
+          "evidence": {
+            "chunk_index": 1144,
+            "source": "凡默谷",
+            "text": "rCYP450酶的活性随培养时间延长，呈迅速下降趋势"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_12",
+        "target_id": "ent_6",
+        "name": "大鼠UGT酶活性随培养时间缓慢下降",
+        "properties": {
+          "趋势": "下降较缓",
+          "evidence": {
+            "chunk_index": 1144,
+            "source": "凡默谷",
+            "text": "相较于CYP450酶，UGT酶活性下降较缓"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_12",
+        "target_id": "ent_5",
+        "name": "大鼠代谢酶活性衰减快于人",
+        "properties": {
+          "比较对象": "人",
+          "结论": "大鼠原代肝细胞的代谢活性下降速率大于人",
+          "evidence": {
+            "chunk_index": 1144,
+            "source": "凡默谷",
+            "text": "研究表明，大鼠原代肝细胞的代谢活性下降速率大于人[11]"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_14",
+        "target_id": "ent_12",
+        "name": "hCYP450诱导剂是否适用于大鼠缺乏数据",
+        "properties": {
+          "适用性": "不明确",
+          "原因": "缺乏充分数据支持",
+          "evidence": {
+            "chunk_index": 1144,
+            "source": "凡默谷",
+            "text": "典型的hCYP450诱导剂是否适用于大鼠，尚缺乏充分的数据支持"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1144,
+    "source": "凡默谷",
+    "text": "。多数诱导剂的诱导作用基本呈浓度依赖性，但仅低浓度的OMP对rCYP2B1和rUGT诱导有明显优势，高浓度的DMS对rCYP2D2、rCYP2E1和rUGT无诱导作用。选择适用于大鼠代谢酶的诱导剂的同时，还应选择合适的诱导剂浓度。讨论SEGLEN等[5]分离大鼠原代肝细胞获得的细胞活率在75%~95%浮动[4]，这与流程复杂，受多种因素影响有关。本研究采用单密度的Percoll分离液进行简单的一步纯化，使细胞活率可稳定达到90%以上，多次重复实验表明，本研究所建立的改良Seglen两步灌流法可以稳定获得高活率和代谢活性的原代肝细胞，适于进一步药代动力学研究。细胞功能结果显示，细胞在培养第3天细胞分泌BUN和ALB状态最佳，与已有的研究结果一致[8]。本研究选择4种rCYP450酶特异底物[5，9]，追踪代谢酶在细胞离体培养后的活性变化，结果表明，rCYP450酶的活性随培养时间延长，呈迅速下降趋势。由于缺乏针对rUGT亚型的特异底物，实验选择了4-甲基伞形花内酯为UGT酶的通用底物考察葡糖糖醛酸结合代谢酶的整体活性水平，结果发现，相较于CYP450酶，UGT酶活性下降较缓，与已有研究结果一致[10]。研究表明，大鼠原代肝细胞的代谢活性下降速率大于人[11]。通常相互作用的诱导时长为72h。但大鼠代谢酶活性自培养48 h后呈现较之前更快速的衰减。结合阳性诱导剂在诱导48h时可以观察到明显的诱导，建议大鼠原代肝细胞的诱导时长控制在48~60h。典型的hCYP450诱导剂是否适用于大鼠，尚缺乏充分的数据支持，导致具体应用时不够规范[1]"
+  }
+]

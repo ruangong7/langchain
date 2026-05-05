@@ -1,0 +1,194 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "properties": {
+          "通用名": "伏立康唑",
+          "适应症": "呼吸系统、血液系统、泌尿系统、神经系统等真菌感染"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "三唑类抗真菌药",
+        "properties": {
+          "名称": "三唑类抗真菌药"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP2C19",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP2C9",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Mechanism",
+        "name": "代谢性药物相互作用",
+        "properties": {
+          "机制类型": "代谢性药物相互作用"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "不良反应发生显著增加",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {
+          "名称": "血药浓度"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "唯一标识": "ev_1",
+          "来源类型": "公众号",
+          "chunk_id": 1122,
+          "来源": "凡默谷",
+          "text": "目前已知，伏立康唑在人体主要通过肝脏细胞色素 P450 同工酶 CYP2C19、CYP3A4、CYP2C9 代谢［3］，因此，可影响( 诱导或抑制) CYP3A4、CYP2C9、CYP2C19 活性的药物与伏立康唑合用时，均可能影响伏立康唑体内代谢， 从而影响伏立康唑的血药浓度，导致伏立康唑疗效降低或不良反应发生显著增加。"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "伏立康唑属于三唑类抗真菌药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1122,
+            "source": "凡默谷",
+            "text": "伏立康唑是常用的三唑类抗真菌药"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "伏立康唑存在代谢性药物相互作用机制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1122,
+            "source": "凡默谷",
+            "text": "伏立康唑在人体主要通过肝脏细胞色素 P450 同工酶 CYP2C19、CYP3A4、CYP2C9 代谢［3］，因此，可影响( 诱导或抑制) CYP3A4、CYP2C9、CYP2C19 活性的药物与伏立康唑合用时，均可能影响伏立康唑体内代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "伏立康唑与CYP3A4相互作用",
+        "properties": {
+          "mechanism": "代谢",
+          "consequence": "影响伏立康唑血药浓度，可能导致疗效降低或不良反应显著增加",
+          "evidence": {
+            "chunk_index": 1122,
+            "source": "凡默谷",
+            "text": "可影响( 诱导或抑制) CYP3A4、CYP2C9、CYP2C19 活性的药物与伏立康唑合用时，均可能影响伏立康唑体内代谢， 从而影响伏立康唑的血药浓度，导致伏立康唑疗效降低或不良反应发生显著增加。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "伏立康唑与CYP2C9相互作用",
+        "properties": {
+          "mechanism": "代谢",
+          "consequence": "影响伏立康唑血药浓度，可能导致疗效降低或不良反应显著增加",
+          "evidence": {
+            "chunk_index": 1122,
+            "source": "凡默谷",
+            "text": "可影响( 诱导或抑制) CYP3A4、CYP2C9、CYP2C19 活性的药物与伏立康唑合用时，均可能影响伏立康唑体内代谢， 从而影响伏立康唑的血药浓度，导致伏立康唑疗效降低或不良反应发生显著增加。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "伏立康唑与CYP2C19相互作用",
+        "properties": {
+          "mechanism": "代谢",
+          "consequence": "影响伏立康唑血药浓度，可能导致疗效降低或不良反应显著增加",
+          "evidence": {
+            "chunk_index": 1122,
+            "source": "凡默谷",
+            "text": "可影响( 诱导或抑制) CYP3A4、CYP2C9、CYP2C19 活性的药物与伏立康唑合用时，均可能影响伏立康唑体内代谢， 从而影响伏立康唑的血药浓度，导致伏立康唑疗效降低或不良反应发生显著增加。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "伏立康唑影响血药浓度",
+        "properties": {
+          "effect": "改变",
+          "evidence": {
+            "chunk_index": 1122,
+            "source": "凡默谷",
+            "text": "从而影响伏立康唑的血药浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "伏立康唑增加不良反应风险",
+        "properties": {
+          "context": "与其他影响CYP酶活性的药物联用时",
+          "evidence": {
+            "chunk_index": 1122,
+            "source": "凡默谷",
+            "text": "导致伏立康唑疗效降低或不良反应发生显著增加"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1122,
+    "source": "凡默谷",
+    "text": "。结论：在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。关键词  伏立康唑; 联合用药; 细胞色素 P450 酶; 药物相互作用_正文_药物相互作用是指两种或两种以上的药物同时应用时所发生的药效变化，即产生协同、相加或拮抗作用［1］。主要包括药代动力学相互作用( 吸收性药物相互作用、代谢性药物相互作用、排泄性药物相互作用等) 、药效学相互作用两大类，其中代谢性药物相互作用发生率最高，约占药代动力学相互作用的 40% ，常见药物相互作用的 23% 。随着近年来精准医学的迅速发展，药物代谢酶的研究不断深入，人们对于 P450 酶系的药物代谢性相互作用也越发重视。据统计，目前临床上 ＞ 90% 的代谢性药物相互作用都是由 P450 酶活性的改变引起［2］。伏立康唑是常用的三唑类抗真菌药，适用于呼吸系统、血液系统、泌尿系统、神经系统等真菌感染患者，随着其在临床上的广泛应用，伏立康唑与其他药物联合使用的机会也大大增加。目前已知，伏立康唑在人体主要通过肝脏细胞色素 P450 同工酶 CYP2C19、CYP3A4、CYP2C9 代谢［3］，因此，可影响( 诱导或抑制) CYP3A4、CYP2C9、CYP2C19 活性的药物与伏立康唑合用时，均可能影响伏立康唑体内代谢， 从而影响伏立康唑的血药浓度，导致伏立康唑疗效降 低或不良反应发生显著增加。因此，关注伏立康唑与 其他药物的联合使用情况，有助于规避不良代谢性药 物相互作用的发生"
+  }
+]

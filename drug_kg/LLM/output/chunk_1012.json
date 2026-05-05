@@ -1,0 +1,183 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "食物",
+        "properties": {
+          "类型": "食物"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "代谢酶",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Mechanism",
+        "name": "药物在体内的处置机理",
+        "properties": {
+          "机制类型": "药物处置"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "毒副作用",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "不良反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "PK参数",
+        "properties": {
+          "名称": "药代动力学参数"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "制剂泵抑制剂",
+        "properties": {
+          "名称": "制剂泵抑制剂"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_1",
+        "name": "药物-药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1012,
+            "source": "凡默谷",
+            "text": "药物药物相互作用概述"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "食物效应影响药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1012,
+            "source": "凡默谷",
+            "text": "考察食物效应和制剂泵抑制剂对药物体内PK的影响"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "基于代谢酶的药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1012,
+            "source": "凡默谷",
+            "text": "预测基于代谢酶的药物相互作用，考察联合给药的合理性和安全性"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "药物体内处置机理导致相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1012,
+            "source": "凡默谷",
+            "text": "考察药物在体内的处置机理，探索可能的药物相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "药物相互作用增加毒副作用风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1012,
+            "source": "凡默谷",
+            "text": "避免临床上药物相互作用的潜在毒副作用和不良反应"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "药物相互作用增加不良反应风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1012,
+            "source": "凡默谷",
+            "text": "避免临床上药物相互作用的潜在毒副作用和不良反应"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "name": "食物效应影响PK参数",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1012,
+            "source": "凡默谷",
+            "text": "考察食物效应和制剂泵抑制剂对药物体内PK的影响"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "制剂泵抑制剂影响药物PK",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1012,
+            "source": "凡默谷",
+            "text": "考察食物效应和制剂泵抑制剂对药物体内PK的影响"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1012,
+    "source": "凡默谷",
+    "text": "1本次网络讲座简介主题基于PBPK预测药物相互作用DDI及食物效应的影响时间公开课时间：7月26日（周四）2:00-4:00pm报名截止时间：7月25日6:00pm针对方向新药研发，临床研究，DMPK主讲人何红梅 技术支持方式线上讲座  免费活动介绍本次讲座为凡默谷网络讲座第二季第二期，本期网络讲座通过案例解读，多方面阐述药物相互作用的可能性，指导临床给药方案的制定，并探索联合用药的合理性和安全性，从而避免临床上药物相互作用的潜在毒副作用和不良反应。讲座内容1）药物药物相互作用概述；2）案例分析1：预测基于代谢酶的药物相互作用，考察联合给药的合理性和安全性；3）案例分析2：考察药物在体内的处置机理，探索可能的药物相互作用；4）案例分析3：基于体外和临床前数据，考察食物效应和制剂泵抑制剂对药物体内PK的影响，指导II期临床方案的设计2讲师介绍何红梅 技术支持多个药物的建模与模拟从业经验；如通过生理药动学PBPK模型预测人体PK参数，药物相互作用DDI，制剂的生物等效性考察等。中国药科大学硕士，研究方向为肝疾病状态下的代谢酶和转运体变化。3如何报名网络讲座长按二维码报名4如何参加网络讲座报名成功后，我们将在7月25日以邮件的形式发送本次网络讲座的链接，请于讲座开始前20分钟登录。5本次网络讲座简介如果您在报名或听课过程中遇到问题，请及时联系我们"
+  }
+]

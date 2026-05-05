@@ -1,0 +1,374 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "免疫抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "三唑类抗真菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "环磷酰胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "胃肠道不良反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "中性粒细胞减少症",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "氟康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "他莫昔芬",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Disease",
+        "name": "乳腺癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "他汀类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Enzyme",
+        "name": "OATP1B1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Enzyme",
+        "name": "OATP1B3",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "SideEffect",
+        "name": "横纹肌溶解症",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "肌病",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Disease",
+        "name": "高胆固醇血症",
+        "properties": {}
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1100,
+          "source": "凡默谷",
+          "text": "当免疫抑制剂与三唑类抗真菌药物合用时，可能会导致药物不良反应，如环磷酰胺与三唑类抗真菌药物联合用药时可能会引起胃肠道不良反应和中性粒细胞减少症[30]。Cai等[31]使用PBPK模型评估环磷酰胺与3种三唑类抗真菌药物(氟康唑、伊曲康唑和酮康唑)之间潜在的DDI，结果显示，与单用环磷酰胺相比，合用三唑类抗真菌药物会使环磷酰胺的AUC、Cmax、tmax均增加。其中，酮康唑对环磷酰胺药动学的影响最大，考虑是由于酮康唑对CYP3A4和P-gp均存在抑制作用[32]。抗雌激素药物他莫昔芬被广泛用于乳腺癌的辅助治疗，但其可能会抑制乳腺癌患者的免疫功能，导致侵袭性真菌感染。Chen等[29]使用GastroPlus™建立并验证了健康受试者的PBPK模型，得出的他莫昔芬分别与伏立康唑、氟康唑、伊曲康唑合用的药物浓度-时间曲线与观察到的曲线显示出良好的一致性。DDI模拟表明，与伏立康唑，氟康唑和伊曲康唑合用时，他莫昔芬的AUC0-t分别增加了41％、5％和1％，3种药物中，伏立康唑对他莫昔芬的PK影响最大，该研究建议，在临床实践中，当他莫昔芬与伏立康唑合用时，需要考虑DDI并对他莫昔芬的剂量进行调整，以优化治疗效果。2.3 抗菌药物与他汀类药物的相互作用他汀类药物是目前常用的调血脂药，大多数他汀类药物都是OATP的底物，当与利福平(OATP1B1和OATP1B3的抑制剂)联合使用时，会增加其血药浓度，从而增加横纹肌溶解症、肌病等不良反应发生的风险[33-35]。临床上，阿托伐他汀常用于高胆固醇血症的治疗，它即是CYP3A4的底物，也是OATP1B1的底物"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "免疫抑制剂与三唑类抗真菌药物合用可能导致不良反应",
+        "properties": {
+          "consequence": [
+            "药物不良反应"
+          ],
+          "evidence": {
+            "chunk_index": 1100,
+            "source": "凡默谷",
+            "text": "当免疫抑制剂与三唑类抗真菌药物合用时，可能会导致药物不良反应"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "name": "环磷酰胺与三唑类抗真菌药物合用引起不良反应",
+        "properties": {
+          "consequence": [
+            "胃肠道不良反应",
+            "中性粒细胞减少症"
+          ],
+          "evidence": {
+            "chunk_index": 1100,
+            "source": "凡默谷",
+            "text": "环磷酰胺与三唑类抗真菌药物联合用药时可能会引起胃肠道不良反应和中性粒细胞减少症[30]"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "name": "环磷酰胺与氟康唑合用增加暴露量",
+        "properties": {
+          "effect_on_pk": "AUC、Cmax、tmax均增加",
+          "evidence": {
+            "chunk_index": 1100,
+            "source": "凡默谷",
+            "text": "Cai等[31]使用PBPK模型评估环磷酰胺与3种三唑类抗真菌药物(氟康唑、伊曲康唑和酮康唑)之间潜在的DDI，结果显示，与单用环磷酰胺相比，合用三唑类抗真菌药物会使环磷酰胺的AUC、Cmax、tmax均增加"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "name": "环磷酰胺与伊曲康唑合用增加暴露量",
+        "properties": {
+          "effect_on_pk": "AUC、Cmax、tmax均增加",
+          "evidence": {
+            "chunk_index": 1100,
+            "source": "凡默谷",
+            "text": "Cai等[31]使用PBPK模型评估环磷酰胺与3种三唑类抗真菌药物(氟康唑、伊曲康唑和酮康唑)之间潜在的DDI，结果显示，与单用环磷酰胺相比，合用三唑类抗真菌药物会使环磷酰胺的AUC、Cmax、tmax均增加"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "name": "环磷酰胺与酮康唑合用增加暴露量，机制为抑制CYP3A4和P-gp",
+        "properties": {
+          "effect_on_pk": "AUC、Cmax、tmax均增加",
+          "mechanism": "酮康唑对CYP3A4和P-gp均存在抑制作用",
+          "evidence": {
+            "chunk_index": 1100,
+            "source": "凡默谷",
+            "text": "其中，酮康唑对环磷酰胺药动学的影响最大，考虑是由于酮康唑对CYP3A4和P-gp均存在抑制作用[32]"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_11",
+        "target_id": "ent_12",
+        "name": "他莫昔芬用于乳腺癌辅助治疗",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1100,
+            "source": "凡默谷",
+            "text": "抗雌激素药物他莫昔芬被广泛用于乳腺癌的辅助治疗"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_13",
+        "name": "他莫昔芬与伏立康唑合用显著增加AUC",
+        "properties": {
+          "effect_on_pk": "AUC0-t增加41%",
+          "recommendation": "需要考虑DDI并对他莫昔芬的剂量进行调整",
+          "evidence": {
+            "chunk_index": 1100,
+            "source": "凡默谷",
+            "text": "DDI模拟表明，与伏立康唑，氟康唑和伊曲康唑合用时，他莫昔芬的AUC0-t分别增加了41％、5％和1％，3种药物中，伏立康唑对他莫昔芬的PK影响最大，该研究建议，在临床实践中，当他莫昔芬与伏立康唑合用时，需要考虑DDI并对他莫昔芬的剂量进行调整，以优化治疗效果"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_6",
+        "name": "他莫昔芬与氟康唑合用轻微增加AUC",
+        "properties": {
+          "effect_on_pk": "AUC0-t增加5%",
+          "evidence": {
+            "chunk_index": 1100,
+            "source": "凡默谷",
+            "text": "DDI模拟表明，与伏立康唑，氟康唑和伊曲康唑合用时，他莫昔芬的AUC0-t分别增加了41％、5％和1％"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_7",
+        "name": "他莫昔芬与伊曲康唑合用轻微增加AUC",
+        "properties": {
+          "effect_on_pk": "AUC0-t增加1%",
+          "evidence": {
+            "chunk_index": 1100,
+            "source": "凡默谷",
+            "text": "DDI模拟表明，与伏立康唑，氟康唑和伊曲康唑合用时，他莫昔芬的AUC0-t分别增加了41％、5％和1％"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_20",
+        "target_id": "ent_14",
+        "name": "阿托伐他汀属于他汀类药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1100,
+            "source": "凡默谷",
+            "text": "他汀类药物是目前常用的调血脂药...阿托伐他汀常用于高胆固醇血症的治疗"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_17",
+        "name": "他汀类药物与利福平合用增加血药浓度和不良反应风险",
+        "properties": {
+          "effect_on_pk": "增加血药浓度",
+          "consequence": [
+            "横纹肌溶解症",
+            "肌病"
+          ],
+          "mechanism": "利福平是OATP1B1和OATP1B3的抑制剂",
+          "evidence": {
+            "chunk_index": 1100,
+            "source": "凡默谷",
+            "text": "当与利福平(OATP1B1和OATP1B3的抑制剂)联合使用时，会增加其血药浓度，从而增加横纹肌溶解症、肌病等不良反应发生的风险[33-35]"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_20",
+        "target_id": "ent_21",
+        "name": "阿托伐他汀用于高胆固醇血症治疗",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1100,
+            "source": "凡默谷",
+            "text": "临床上，阿托伐他汀常用于高胆固醇血症的治疗"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_20",
+        "target_id": "ent_9",
+        "name": "阿托伐他汀是CYP3A4的底物",
+        "properties": {
+          "role": "底物",
+          "evidence": {
+            "chunk_index": 1100,
+            "source": "凡默谷",
+            "text": "它即是CYP3A4的底物，也是OATP1B1的底物"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_20",
+        "target_id": "ent_15",
+        "name": "阿托伐他汀是OATP1B1的底物",
+        "properties": {
+          "role": "底物",
+          "evidence": {
+            "chunk_index": 1100,
+            "source": "凡默谷",
+            "text": "它即是CYP3A4的底物，也是OATP1B1的底物"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1100,
+    "source": "凡默谷",
+    "text": "。当免疫抑制剂与三唑类抗真菌药物合用时，可能会导致药物不良反应，如环磷酰胺与三唑类抗真菌药物联合用药时可能会引起胃肠道不良反应和中性粒细胞减少症[30]。Cai等[31]使用PBPK模型评估环磷酰胺与3种三唑类抗真菌药物(氟康唑、伊曲康唑和酮康唑)之间潜在的DDI，结果显示，与单用环磷酰胺相比，合用三唑类抗真菌药物会使环磷酰胺的AUC、Cmax、tmax均增加。其中，酮康唑对环磷酰胺药动学的影响最大，考虑是由于酮康唑对CYP3A4和P-gp均存在抑制作用[32]。抗雌激素药物他莫昔芬被广泛用于乳腺癌的辅助治疗，但其可能会抑制乳腺癌患者的免疫功能，导致侵袭性真菌感染。Chen等[29]使用GastroPlus™建立并验证了健康受试者的PBPK模型，得出的他莫昔芬分别与伏立康唑、氟康唑、伊曲康唑合用的药物浓度-时间曲线与观察到的曲线显示出良好的一致性。DDI模拟表明，与伏立康唑，氟康唑和伊曲康唑合用时，他莫昔芬的AUC0-t分别增加了41％、5％和1％，3种药物中，伏立康唑对他莫昔芬的PK影响最大，该研究建议，在临床实践中，当他莫昔芬与伏立康唑合用时，需要考虑DDI并对他莫昔芬的剂量进行调整，以优化治疗效果。2.3 抗菌药物与他汀类药物的相互作用他汀类药物是目前常用的调血脂药，大多数他汀类药物都是OATP的底物，当与利福平(OATP1B1和OATP1B3的抑制剂)联合使用时，会增加其血药浓度，从而增加横纹肌溶解症、肌病等不良反应发生的风险[33-35]。临床上，阿托伐他汀常用于高胆固醇血症的治疗，它即是CYP3A4的底物，也是OATP1B1的底物"
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "代谢酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "创新药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "强抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "强诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "中等抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "弱抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "中等诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "弱诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Population",
+        "name": "年龄",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Population",
+        "name": "性别",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Population",
+        "name": "种族",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Population",
+        "name": "遗传多态性",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1086,
+          "source": "凡默谷"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "创新药作为主要经某一代谢酶代谢消除且为该代谢酶的底物",
+        "properties": {
+          "mechanism": "代谢",
+          "evidence": {
+            "chunk_index": 1086,
+            "source": "凡默谷",
+            "text": "创新药作为主要经某一代谢酶代谢消除且为该代谢酶的底物"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "合并使用该代谢酶的强抑制剂",
+        "properties": {
+          "interaction_type": "抑制",
+          "evidence": {
+            "chunk_index": 1086,
+            "source": "凡默谷",
+            "text": "应合并使用该代谢酶的强抑制剂和强诱导剂（施害药）开展DDI试验来验证模型的可靠性"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "合并使用该代谢酶的强诱导剂",
+        "properties": {
+          "interaction_type": "诱导",
+          "evidence": {
+            "chunk_index": 1086,
+            "source": "凡默谷",
+            "text": "应合并使用该代谢酶的强抑制剂和强诱导剂（施害药）开展DDI试验来验证模型的可靠性"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "豁免与中等抑制剂的DDI试验",
+        "properties": {
+          "interaction_type": "抑制",
+          "evidence": {
+            "chunk_index": 1086,
+            "source": "凡默谷",
+            "text": "外推至合并使用该代谢酶的中等和弱抑制剂及诱导剂的情况，从而豁免部分DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "name": "豁免与弱抑制剂的DDI试验",
+        "properties": {
+          "interaction_type": "抑制",
+          "evidence": {
+            "chunk_index": 1086,
+            "source": "凡默谷",
+            "text": "外推至合并使用该代谢酶的中等和弱抑制剂及诱导剂的情况，从而豁免部分DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "name": "豁免与中等诱导剂的DDI试验",
+        "properties": {
+          "interaction_type": "诱导",
+          "evidence": {
+            "chunk_index": 1086,
+            "source": "凡默谷",
+            "text": "外推至合并使用该代谢酶的中等和弱抑制剂及诱导剂的情况，从而豁免部分DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "name": "豁免与弱诱导剂的DDI试验",
+        "properties": {
+          "interaction_type": "诱导",
+          "evidence": {
+            "chunk_index": 1086,
+            "source": "凡默谷",
+            "text": "外推至合并使用该代谢酶的中等和弱抑制剂及诱导剂的情况，从而豁免部分DDI"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1086,
+    "source": "凡默谷",
+    "text": "。2.2 PBPK在DDI试验设计的应用DDI研究设计中，底物的剂量选择尤为重要。FDA建议，DDI临床试验应该将发现药物相互作用的可能性最大化，因此，研究者应选择最高剂量和最短给药频率进行试验[10]。如果新药呈现线性药动学特征，则线性范围内任一剂量即可;若呈现非线性特征，且进行药物相互作用时有安全性风险时，研究者则可以使用PBPK模型进行剂量选择，确定安全剂量范围内最大剂量进行研究。此外，PBPK模型还可以考虑个体间变异，如年龄、性别、种族和遗传多态性等变量引起的变异，进而评估个体PK的变异性，以最终预测相应变量的虚拟人群中DDI的风险和程度[22]。2.3 PBPK在DDI试验豁免的应用DDI试验豁免在FDA等监管部门的审评案例中多为部分豁免，PBPK可整合临床前研究和临床PK数据而具有较强的预测效力，故成为DDI试验豁免的有力工具。目前PBPK应用于DDI豁免最常见的案例为创新药作为主要经某一代谢酶代谢消除且为该代谢酶的底物，在人体试验开展前利用非临床数据建立PBPK模型以预测I期临床试验PK数据，并根据I期数据优化模型以预测DDI的可能，而后应合并使用该代谢酶的强抑制剂和强诱导剂（施害药）开展DDI试验来验证模型的可靠性，然后外推至合并使用该代谢酶的中等和弱抑制剂及诱导剂的情况，从而豁免部分DDI，这种策略已经在美国FDA审批过程中多次被成功应用[23]"
+  }
+]

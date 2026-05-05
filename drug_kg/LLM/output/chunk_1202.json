@@ -1,0 +1,325 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "BDQ",
+        "properties": {
+          "通用名": "贝达喹啉"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "克力芝",
+        "properties": {
+          "成分": [
+            "洛匹那韦",
+            "利托那韦"
+          ]
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "依法韦仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "奈韦拉平",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Food",
+        "name": "葡萄柚汁",
+        "properties": {
+          "类型": "饮品",
+          "关键成分": [
+            "呋喃香豆素"
+          ]
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Food",
+        "name": "姜黄素",
+        "properties": {
+          "类型": "天然产物"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Food",
+        "name": "CC-I",
+        "properties": {
+          "类型": "天然产物"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Food",
+        "name": "6-丁香酚",
+        "properties": {
+          "类型": "天然产物"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "洛匹那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "尼韦西平",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "依法韦伦",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "利托那韦与BDQ相互作用",
+        "properties": {
+          "mechanism": "利托那韦抑制CYP3A4酶活性，降低BDQ清除率",
+          "effect": "BDQ暴露量上升一倍，半衰期延长80%，清除率降至单用时的25%",
+          "evidence": {
+            "chunk_index": 1202,
+            "source": "凡默谷",
+            "text": "药动学研究显示，因利托那韦抑制BDQ主要代谢途径CYP3A4酶的活性，联用克力芝可增大BDQ暴露量30%以上。临床DDI研究表明，联用多剂量克力芝后，患者体内BDQ暴露量上升一倍，M2暴露量无显著变化。利托那韦对BDQ及代谢物的Cmax无显著影响，但使其半衰期延长80%，群体药动学研究显示，BDQ与克力芝联用时，BDQ的清除率降低至单用时的25%左右，同时M2的清除率降低为59%。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "name": "克力芝与BDQ相互作用",
+        "properties": {
+          "mechanism": "克力芝含利托那韦，抑制CYP3A4酶活性",
+          "effect": "BDQ暴露量上升一倍，清除率降至单用时的25%",
+          "evidence": {
+            "chunk_index": 1202,
+            "source": "凡默谷",
+            "text": "药动学研究显示，因利托那韦抑制BDQ主要代谢途径CYP3A4酶的活性，联用克力芝可增大BDQ暴露量30%以上。临床DDI研究表明，联用多剂量克力芝后，患者体内BDQ暴露量上升一倍，M2暴露量无显著变化。利托那韦对BDQ及代谢物的Cmax无显著影响，但使其半衰期延长80%，群体药动学研究显示，BDQ与克力芝联用时，BDQ的清除率降低至单用时的25%左右，同时M2的清除率降低为59%。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "利托那韦抑制CYP3A4",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1202,
+            "source": "凡默谷",
+            "text": "因利托那韦抑制BDQ主要代谢途径CYP3A4酶的活性"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_2",
+        "name": "依法韦仑与BDQ相互作用",
+        "properties": {
+          "mechanism": "依法韦仑为CYP3A4诱导剂",
+          "effect": "BDQ的AUC降低18%，长期联用可降至50%以下；M2的Cmax上升89%",
+          "evidence": {
+            "chunk_index": 1202,
+            "source": "凡默谷",
+            "text": "依法韦仑为抗艾滋一线药物，为CYP3A4诱导剂。研究显示，BDQ与依法韦仑联用时，BDQ的AUC降低了18%，而Cmax无显著变化，M2的AUC无显著变化，Cmax上升89%。患者群体药动学研究显示，随着BDQ与依法韦仑联用时间增长，BDQ的AUC可降低至单用时的50%以下，临床治疗中应对两药联用时的抗菌疗效进行关注。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_4",
+        "name": "依法韦仑诱导CYP3A4",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1202,
+            "source": "凡默谷",
+            "text": "依法韦仑为抗艾滋一线药物，为CYP3A4诱导剂。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_2",
+        "name": "奈韦拉平与BDQ相互作用",
+        "properties": {
+          "mechanism": "奈韦拉平对CYP3A4有抑制和诱导双重作用",
+          "effect": "BDQ清除率为单用时的82%，M2清除率为119%，无临床强相互作用",
+          "evidence": {
+            "chunk_index": 1202,
+            "source": "凡默谷",
+            "text": "抗艾滋药奈韦拉平对CYP3A4同时存在抑制和诱导的双重作用，BDQ与其联用时，清除率为单用时的82%，主要代谢物M2的清除率为单用时的119%，表明奈韦拉平与BDQ没有临床意义上的强相互作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_2",
+        "name": "葡萄柚汁与BDQ相互作用",
+        "properties": {
+          "mechanism": "葡萄柚汁中呋喃香豆素抑制CYP3A4",
+          "effect": "显著增加BDQ体内暴露",
+          "evidence": {
+            "chunk_index": 1202,
+            "source": "凡默谷",
+            "text": "葡萄柚汁中的呋喃香豆素对CYP3A4的抑制作用将显著增加患者BDQ的体内暴露。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_2",
+        "name": "姜黄素与BDQ相互作用",
+        "properties": {
+          "effect": "显著增加BDQ体内暴露",
+          "mechanism": "可能通过抑制CYP酶（具体机制尚需研究）",
+          "evidence": {
+            "chunk_index": 1202,
+            "source": "凡默谷",
+            "text": "临床前研究显示，姜黄素及其类似物CC-I，6-丁香酚等天然产物单体将显著增加BDQ体内暴露，但具体机制尚需研究"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_2",
+        "name": "CC-I与BDQ相互作用",
+        "properties": {
+          "effect": "显著增加BDQ体内暴露",
+          "mechanism": "可能通过抑制CYP酶（具体机制尚需研究）",
+          "evidence": {
+            "chunk_index": 1202,
+            "source": "凡默谷",
+            "text": "临床前研究显示，姜黄素及其类似物CC-I，6-丁香酚等天然产物单体将显著增加BDQ体内暴露，但具体机制尚需研究"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_2",
+        "name": "6-丁香酚与BDQ相互作用",
+        "properties": {
+          "effect": "显著增加BDQ体内暴露",
+          "mechanism": "可能通过抑制CYP酶（具体机制尚需研究）",
+          "evidence": {
+            "chunk_index": 1202,
+            "source": "凡默谷",
+            "text": "临床前研究显示，姜黄素及其类似物CC-I，6-丁香酚等天然产物单体将显著增加BDQ体内暴露，但具体机制尚需研究"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "name": "BDQ与洛匹那韦无显著相互作用",
+        "properties": {
+          "effect": "BDQ对洛匹那韦代谢无影响",
+          "evidence": {
+            "chunk_index": 1202,
+            "source": "凡默谷",
+            "text": "BDQ对多种抗HIV药物(洛匹那韦、利托那韦、尼韦西平、依法韦伦)代谢均无影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "BDQ与利托那韦无显著相互作用（反向）",
+        "properties": {
+          "effect": "BDQ对利托那韦代谢无影响",
+          "evidence": {
+            "chunk_index": 1202,
+            "source": "凡默谷",
+            "text": "BDQ对多种抗HIV药物(洛匹那韦、利托那韦、尼韦西平、依法韦伦)代谢均无影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_12",
+        "name": "BDQ与尼韦西平无显著相互作用",
+        "properties": {
+          "effect": "BDQ对尼韦西平代谢无影响",
+          "evidence": {
+            "chunk_index": 1202,
+            "source": "凡默谷",
+            "text": "BDQ对多种抗HIV药物(洛匹那韦、利托那韦、尼韦西平、依法韦伦)代谢均无影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_13",
+        "name": "BDQ与依法韦伦无显著相互作用",
+        "properties": {
+          "effect": "BDQ对依法韦伦代谢无影响",
+          "evidence": {
+            "chunk_index": 1202,
+            "source": "凡默谷",
+            "text": "BDQ对多种抗HIV药物(洛匹那韦、利托那韦、尼韦西平、依法韦伦)代谢均无影响。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1202,
+    "source": "凡默谷",
+    "text": "。利托那韦作为增效剂，已成为多个抗HIV及抗COVID-19方案中的重要组成部分。药动学研究显示，因利托那韦抑制BDQ主要代谢途径CYP3A4酶的活性，联用克力芝可增大BDQ暴露量30%以上。临床DDI研究表明，联用多剂量克力芝后，患者体内BDQ暴露量上升一倍，M2暴露量无显著变化。利托那韦对BDQ及代谢物的Cmax无显著影响，但使其半衰期延长80%，群体药动学研究显示，BDQ与克力芝联用时，BDQ的清除率降低至单用时的25%左右，同时M2的清除率降低为59%。依法韦仑为抗艾滋一线药物，为CYP3A4诱导剂。研究显示，BDQ与依法韦仑联用时，BDQ的AUC降低了18%，而Cmax无显著变化，M2的AUC无显著变化，Cmax上升89%。患者群体药动学研究显示，随着BDQ与依法韦仑联用时间增长，BDQ的AUC可降低至单用时的50%以下，临床治疗中应对两药联用时的抗菌疗效进行关注。BDQ对多种抗HIV药物(洛匹那韦、利托那韦、尼韦西平、依法韦伦)代谢均无影响。抗艾滋药奈韦拉平对CYP3A4同时存在抑制和诱导的双重作用，BDQ与其联用时，清除率为单用时的82%，主要代谢物M2的清除率为单用时的119%，表明奈韦拉平与BDQ没有临床意义上的强相互作用。1.2.3 BDQ与其他药物间相互作用葡萄柚汁中的呋喃香豆素对CYP3A4的抑制作用将显著增加患者BDQ的体内暴露。除天然成分中广泛CYP酶抑制剂外，临床前研究显示，姜黄素及其类似物CC-I，6-丁香酚等天然产物单体将显著增加BDQ体内暴露，但具体机制尚需研究"
+  }
+]

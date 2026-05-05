@@ -1,0 +1,337 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利奈唑胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "帕米帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "PARPi",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "抗凝药",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "达比加群",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "利伐沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "阿哌沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "艾多沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "替格瑞洛",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "奥拉帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "肝素类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "尼拉帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "氟唑帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "SideEffect",
+        "name": "血小板下降",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": "1529",
+          "source": "医脉通泌尿外科",
+          "text": "。利奈唑胺与帕米帕利的相互作用机制主要为血小板下降风险的不良反应叠加。常用抗菌药与PARPi的相互作用及证据级别见表7。5. 抗凝药共识意见 18所有抗凝药与PARPi合用时，均需谨慎，应注意关注出血及其他不良反应（Ⅱ～Ⅲ级证据）。抗凝药与PARPi的相互作用主要为出血风险的叠加，PARPi的出血风险主要由血小板下降引起。另外，部分抗凝药（达比加群、利伐沙班、阿哌沙班、艾多沙班、替格瑞洛）为P-gp底物，与抑制P-gp的奥拉帕利合用时，抗凝药排泄减慢，不良反应可能增加。如患者因合并疾病需要长期使用上述口服抗凝药，建议选择除奥拉帕利以外的PARPi；如已使用奥拉帕利，抗凝药可以优选肝素类药物。共识意见 19使用奥拉帕利的患者，谨慎使用华法林抗凝（Ⅱ级证据）。华法林是CYP3A诱导剂，奥拉帕利通过CYP3A代谢，合用时奥拉帕利代谢减慢，不良反应可能增加。此外，CYP3A4参与了华法林的代谢，奥拉帕利可抑制/诱导CYP3A4，根据Drugbank数据库，奥拉帕利可能使华法林血清浓度增加。故使用奥拉帕利的患者应谨慎使用华法林。共识意见 20长期使用替格瑞洛的患者，PARPi可优选帕米帕利（Ⅲ级证据）。替格瑞洛为CYP3A、P-gp抑制剂，当与P-gp底物（奥拉帕利、尼拉帕利）合用时，奥拉帕利、尼拉帕利排泄减慢，不良反应可能增加。同时，由于奥拉帕利和氟唑帕利主要经CYP3A代谢，替格瑞洛可抑制奥拉帕利和氟唑帕利代谢，引起体内浓度升高，不良反应增加。因此，已长期使用替格瑞洛的患者，PARPi可优选帕米帕利。常用抗凝药与PARPi的相互作用及证据级别见表8"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "利奈唑胺与帕米帕利相互作用",
+        "properties": {
+          "mechanism": "不良反应叠加",
+          "consequence": "血小板下降风险增加",
+          "evidence": {
+            "chunk_index": "1529",
+            "source": "医脉通泌尿外科",
+            "text": "利奈唑胺与帕米帕利的相互作用机制主要为血小板下降风险的不良反应叠加。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_3",
+        "name": "抗凝药与PARPi相互作用",
+        "properties": {
+          "consequence": "出血风险叠加",
+          "severity": "需谨慎",
+          "evidence_level": "Ⅱ～Ⅲ级",
+          "evidence": {
+            "chunk_index": "1529",
+            "source": "医脉通泌尿外科",
+            "text": "所有抗凝药与PARPi合用时，均需谨慎，应注意关注出血及其他不良反应（Ⅱ～Ⅲ级证据）。抗凝药与PARPi的相互作用主要为出血风险的叠加，PARPi的出血风险主要由血小板下降引起。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_5",
+        "name": "奥拉帕利与达比加群等相互作用",
+        "properties": {
+          "mechanism": "奥拉帕利抑制P-gp，达比加群等为P-gp底物",
+          "consequence": "抗凝药排泄减慢，不良反应可能增加",
+          "suggestion": "如患者因合并疾病需要长期使用上述口服抗凝药，建议选择除奥拉帕利以外的PARPi；如已使用奥拉帕利，抗凝药可以优选肝素类药物。",
+          "evidence": {
+            "chunk_index": "1529",
+            "source": "医脉通泌尿外科",
+            "text": "另外，部分抗凝药（达比加群、利伐沙班、阿哌沙班、艾多沙班、替格瑞洛）为P-gp底物，与抑制P-gp的奥拉帕利合用时，抗凝药排泄减慢，不良反应可能增加。如患者因合并疾病需要长期使用上述口服抗凝药，建议选择除奥拉帕利以外的PARPi；如已使用奥拉帕利，抗凝药可以优选肝素类药物。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_12",
+        "name": "奥拉帕利与华法林相互作用",
+        "properties": {
+          "mechanism": "华法林是CYP3A诱导剂，奥拉帕利通过CYP3A代谢；奥拉帕利可抑制/诱导CYP3A4，影响华法林代谢",
+          "consequence": "奥拉帕利代谢减慢，不良反应可能增加；华法林血清浓度可能增加",
+          "severity": "谨慎使用",
+          "evidence_level": "Ⅱ级",
+          "evidence": {
+            "chunk_index": "1529",
+            "source": "医脉通泌尿外科",
+            "text": "共识意见 19使用奥拉帕利的患者，谨慎使用华法林抗凝（Ⅱ级证据）。华法林是CYP3A诱导剂，奥拉帕利通过CYP3A代谢，合用时奥拉帕利代谢减慢，不良反应可能增加。此外，CYP3A4参与了华法林的代谢，奥拉帕利可抑制/诱导CYP3A4，根据Drugbank数据库，奥拉帕利可能使华法林血清浓度增加。故使用奥拉帕利的患者应谨慎使用华法林。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "name": "替格瑞洛与奥拉帕利相互作用",
+        "properties": {
+          "mechanism": "替格瑞洛为CYP3A、P-gp抑制剂，奥拉帕利为P-gp底物且主要经CYP3A代谢",
+          "consequence": "奥拉帕利排泄减慢，代谢被抑制，体内浓度升高，不良反应增加",
+          "suggestion": "已长期使用替格瑞洛的患者，PARPi可优选帕米帕利。",
+          "evidence_level": "Ⅲ级",
+          "evidence": {
+            "chunk_index": "1529",
+            "source": "医脉通泌尿外科",
+            "text": "替格瑞洛为CYP3A、P-gp抑制剂，当与P-gp底物（奥拉帕利、尼拉帕利）合用时，奥拉帕利、尼拉帕利排泄减慢，不良反应可能增加。同时，由于奥拉帕利和氟唑帕利主要经CYP3A代谢，替格瑞洛可抑制奥拉帕利和氟唑帕利代谢，引起体内浓度升高，不良反应增加。因此，已长期使用替格瑞洛的患者，PARPi可优选帕米帕利。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_13",
+        "name": "替格瑞洛与尼拉帕利相互作用",
+        "properties": {
+          "mechanism": "替格瑞洛为P-gp抑制剂，尼拉帕利为P-gp底物",
+          "consequence": "尼拉帕利排泄减慢，不良反应可能增加",
+          "evidence": {
+            "chunk_index": "1529",
+            "source": "医脉通泌尿外科",
+            "text": "替格瑞洛为CYP3A、P-gp抑制剂，当与P-gp底物（奥拉帕利、尼拉帕利）合用时，奥拉帕利、尼拉帕利排泄减慢，不良反应可能增加。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_14",
+        "name": "替格瑞洛与氟唑帕利相互作用",
+        "properties": {
+          "mechanism": "替格瑞洛为CYP3A抑制剂，氟唑帕利主要经CYP3A代谢",
+          "consequence": "氟唑帕利代谢被抑制，体内浓度升高，不良反应增加",
+          "evidence": {
+            "chunk_index": "1529",
+            "source": "医脉通泌尿外科",
+            "text": "同时，由于奥拉帕利和氟唑帕利主要经CYP3A代谢，替格瑞洛可抑制奥拉帕利和氟唑帕利代谢，引起体内浓度升高，不良反应增加。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_3",
+        "name": "奥拉帕利属于PARPi",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1529",
+            "source": "医脉通泌尿外科",
+            "text": "与抑制P-gp的奥拉帕利合用时"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "帕米帕利属于PARPi",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1529",
+            "source": "医脉通泌尿外科",
+            "text": "PARPi可优选帕米帕利"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_13",
+        "target_id": "ent_3",
+        "name": "尼拉帕利属于PARPi",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1529",
+            "source": "医脉通泌尿外科",
+            "text": "P-gp底物（奥拉帕利、尼拉帕利）"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_14",
+        "target_id": "ent_3",
+        "name": "氟唑帕利属于PARPi",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1529",
+            "source": "医脉通泌尿外科",
+            "text": "奥拉帕利和氟唑帕利主要经CYP3A代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_19",
+        "name": "PARPi可能导致出血",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1529",
+            "source": "医脉通泌尿外科",
+            "text": "PARPi的出血风险主要由血小板下降引起。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_18",
+        "name": "PARPi可能导致血小板下降",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1529",
+            "source": "医脉通泌尿外科",
+            "text": "PARPi的出血风险主要由血小板下降引起。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1529,
+    "source": "医脉通泌尿外科",
+    "text": "。利奈唑胺与帕米帕利的相互作用机制主要为血小板下降风险的不良反应叠加。常用抗菌药与PARPi的相互作用及证据级别见表7。5. 抗凝药共识意见 18所有抗凝药与PARPi合用时，均需谨慎，应注意关注出血及其他不良反应（Ⅱ～Ⅲ级证据）。抗凝药与PARPi的相互作用主要为出血风险的叠加，PARPi的出血风险主要由血小板下降引起。另外，部分抗凝药（达比加群、利伐沙班、阿哌沙班、艾多沙班、替格瑞洛）为P-gp底物，与抑制P-gp的奥拉帕利合用时，抗凝药排泄减慢，不良反应可能增加。如患者因合并疾病需要长期使用上述口服抗凝药，建议选择除奥拉帕利以外的PARPi；如已使用奥拉帕利，抗凝药可以优选肝素类药物。共识意见 19使用奥拉帕利的患者，谨慎使用华法林抗凝（Ⅱ级证据）。华法林是CYP3A诱导剂，奥拉帕利通过CYP3A代谢，合用时奥拉帕利代谢减慢，不良反应可能增加。此外，CYP3A4参与了华法林的代谢，奥拉帕利可抑制/诱导CYP3A4，根据Drugbank数据库，奥拉帕利可能使华法林血清浓度增加。故使用奥拉帕利的患者应谨慎使用华法林。共识意见 20长期使用替格瑞洛的患者，PARPi可优选帕米帕利（Ⅲ级证据）。替格瑞洛为CYP3A、P-gp抑制剂，当与P-gp底物（奥拉帕利、尼拉帕利）合用时，奥拉帕利、尼拉帕利排泄减慢，不良反应可能增加。同时，由于奥拉帕利和氟唑帕利主要经CYP3A代谢，替格瑞洛可抑制奥拉帕利和氟唑帕利代谢，引起体内浓度升高，不良反应增加。因此，已长期使用替格瑞洛的患者，PARPi可优选帕米帕利。常用抗凝药与PARPi的相互作用及证据级别见表8"
+  }
+]

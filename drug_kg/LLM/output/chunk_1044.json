@@ -1,0 +1,489 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "磷酸瑞格列汀",
+        "properties": {
+          "description": "DPP4抑制剂，由江苏恒瑞研发，处于上市申请中"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "DPP4抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "二型糖尿病",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "格列苯脲",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "高血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "缬沙坦",
+        "properties": {
+          "description": "血管紧张素受体抑制剂"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "西格列他钠",
+        "properties": {
+          "description": "PPAR激动剂，由深圳微芯生物科技研发，处于上市申请中"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "PPAR激动剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "替诺福韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "吗啉硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "OATs",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "替诺福韦二吡呋酯",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "艾普拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "阿莫西林",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Disease",
+        "name": "幽门螺旋杆菌感染",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "DrugClass",
+        "name": "非甾体抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "胃肠道刺激",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "艾瑞昔布",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Enzyme",
+        "name": "CYP2C9",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1044,
+          "source": "凡默谷",
+          "text": "。磷酸瑞格列汀是江苏恒瑞研发的DPP4抑制 剂，目前正处于上市申请中，拟用于二型糖尿病 的治疗。与格列苯脲联用后，无药动学相关的相 互作用[50]。糖尿病患者通常具有高血压症状，所 以降糖药和降压药常同时服用，临床上瑞格列汀 和血管紧张素受体抑制剂缬沙坦无药动学相关的相互作用[1—54]，西格列他钠是由深圳微芯生物科技研发的 PPAR激动剂，目前处于上市申请中，拟用于二型 糖尿病的治疗。健康受试者联用西格列他和二 甲双胍后，无显著的药动学相互作用且耐受性良 好[55]。4.4其他药物（抗感染药等）的联合应用替诺福韦和吗啉硝唑有联合应用治疗混合感染的可 能性，尽管替诺福韦和吗啉硝唑代谢物（M7、M8-1和M8-2)均为OATs的底物，有竞争性抑制的可 能性，但替诺福韦二吡呋酯和吗啉硝唑的DDI试 验未发现药动学相互作用[56]。质子泵抑制剂、克拉霉素和阿莫西林三重疗 法已成为消除幽门螺旋杆菌的标准疗法，因此考 察了艾普拉唑、克拉霉素和阿莫西林三药联用的 药动学相互作用。三药联用后艾普拉唑的Cmax和 AUC0—t分别降低了 29.4%和13.9%，克拉霉素的 升高了24.3%，推测上述变化均由药物的吸收 的变化引起，不具有临床意义[57]。另有一项相同 的临床试验，结果显示三者无药动学相关的DDI 试验[8]。由于非甾体抗炎药的胃肠道刺激可能会引 发出血，增加了艾瑞昔布和抗凝药华法林联用的 可能性。尽管两药都经CYP2C9介导代谢，但临床试验表明，艾瑞昔布对华法林的药动学无显著影响[59]"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "属于类别",
+        "properties": {
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "用于治疗",
+        "properties": {
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "相互作用",
+        "properties": {
+          "interaction_type": "药动学相互作用",
+          "effect": "无药动学相关的相互作用",
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "name": "表现为",
+        "properties": {
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "相互作用",
+        "properties": {
+          "interaction_type": "药动学相互作用",
+          "effect": "无药动学相关的相互作用",
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "name": "属于类别",
+        "properties": {
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_7",
+        "target_id": "ent_3",
+        "name": "用于治疗",
+        "properties": {
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_9",
+        "name": "相互作用",
+        "properties": {
+          "interaction_type": "药动学相互作用",
+          "effect": "无显著的药动学相互作用且耐受性良好",
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_11",
+        "name": "相互作用",
+        "properties": {
+          "interaction_type": "药动学相互作用",
+          "effect": "未发现药动学相互作用",
+          "mechanism_hypothesis": "替诺福韦和吗啉硝唑代谢物（M7、M8-1和M8-2)均为OATs的底物，有竞争性抑制的可能性",
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_10",
+        "target_id": "ent_12",
+        "name": "涉及机制",
+        "properties": {
+          "role": "底物",
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_11",
+        "target_id": "ent_12",
+        "name": "涉及机制",
+        "properties": {
+          "role": "代谢物为底物",
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_11",
+        "name": "相互作用",
+        "properties": {
+          "interaction_type": "药动学相互作用",
+          "effect": "未发现药动学相互作用",
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_14",
+        "target_id": "ent_17",
+        "name": "用于治疗",
+        "properties": {
+          "context": "作为质子泵抑制剂、克拉霉素和阿莫西林三重疗法的一部分",
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_15",
+        "target_id": "ent_17",
+        "name": "用于治疗",
+        "properties": {
+          "context": "作为质子泵抑制剂、克拉霉素和阿莫西林三重疗法的一部分",
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_16",
+        "target_id": "ent_17",
+        "name": "用于治疗",
+        "properties": {
+          "context": "作为质子泵抑制剂、克拉霉素和阿莫西林三重疗法的一部分",
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_15",
+        "name": "相互作用",
+        "properties": {
+          "interaction_type": "药动学相互作用",
+          "effect": "三药联用后艾普拉唑的Cmax和AUC0—t分别降低了 29.4%和13.9%，克拉霉素的升高了24.3%",
+          "clinical_significance": "不具有临床意义",
+          "proposed_mechanism": "推测上述变化均由药物的吸收的变化引起",
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_16",
+        "name": "相互作用",
+        "properties": {
+          "interaction_type": "药动学相互作用",
+          "effect": "三药联用后艾普拉唑的Cmax和AUC0—t分别降低了 29.4%和13.9%",
+          "clinical_significance": "不具有临床意义",
+          "proposed_mechanism": "推测上述变化均由药物的吸收的变化引起",
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_16",
+        "name": "相互作用",
+        "properties": {
+          "interaction_type": "药动学相互作用",
+          "effect": "三药联用后...克拉霉素的升高了24.3%",
+          "clinical_significance": "不具有临床意义",
+          "proposed_mechanism": "推测上述变化均由药物的吸收的变化引起",
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "IN_CLASS",
+        "source_id": "ent_21",
+        "target_id": "ent_18",
+        "name": "属于类别",
+        "properties": {
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_18",
+        "target_id": "ent_19",
+        "name": "可能导致",
+        "properties": {
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_19",
+        "target_id": "ent_20",
+        "name": "增加风险",
+        "properties": {
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_21",
+        "target_id": "ent_22",
+        "name": "相互作用",
+        "properties": {
+          "interaction_type": "药动学相互作用",
+          "effect": "艾瑞昔布对华法林的药动学无显著影响",
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_23",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_21",
+        "target_id": "ent_23",
+        "name": "涉及机制",
+        "properties": {
+          "role": "经CYP2C9介导代谢",
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_24",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_22",
+        "target_id": "ent_23",
+        "name": "涉及机制",
+        "properties": {
+          "role": "经CYP2C9介导代谢",
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      }
+    ],
+    "chunk_index": 1044,
+    "source": "凡默谷",
+    "text": "。磷酸瑞格列汀是江苏恒瑞研发的DPP4抑制 剂，目前正处于上市申请中，拟用于二型糖尿病 的治疗。与格列苯脲联用后，无药动学相关的相 互作用[50]。糖尿病患者通常具有高血压症状，所 以降糖药和降压药常同时服用，临床上瑞格列汀 和血管紧张素受体抑制剂缬沙坦无药动学相关的相互作用[1—54]，西格列他钠是由深圳微芯生物科技研发的 PPAR激动剂，目前处于上市申请中，拟用于二型 糖尿病的治疗。健康受试者联用西格列他和二 甲双胍后，无显著的药动学相互作用且耐受性良 好[55]。4.4其他药物（抗感染药等）的联合应用替诺福韦和吗啉硝唑有联合应用治疗混合感染的可 能性，尽管替诺福韦和吗啉硝唑代谢物（M7、M8-1和M8-2)均为OATs的底物，有竞争性抑制的可 能性，但替诺福韦二吡呋酯和吗啉硝唑的DDI试 验未发现药动学相互作用[56]。质子泵抑制剂、克拉霉素和阿莫西林三重疗 法已成为消除幽门螺旋杆菌的标准疗法，因此考 察了艾普拉唑、克拉霉素和阿莫西林三药联用的 药动学相互作用。三药联用后艾普拉唑的Cmax和 AUC0—t分别降低了 29.4%和13.9%，克拉霉素的 升高了24.3%，推测上述变化均由药物的吸收 的变化引起，不具有临床意义[57]。另有一项相同 的临床试验，结果显示三者无药动学相关的DDI 试验[8]。由于非甾体抗炎药的胃肠道刺激可能会引 发出血，增加了艾瑞昔布和抗凝药华法林联用的 可能性。尽管两药都经CYP2C9介导代谢，但临床试验表明，艾瑞昔布对华法林的药动学无显著影响[59]"
+  }
+]

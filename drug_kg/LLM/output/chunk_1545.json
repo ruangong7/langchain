@@ -1,0 +1,174 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "雷特格韦",
+        "properties": {
+          "description": "抗逆转录病毒药物，用于HIV常规治疗"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "西酞普兰",
+        "properties": {
+          "description": "抗抑郁药物"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "抗逆转录病毒药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "抗抑郁药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "肝脏CYP酶",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "HIV感染",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "抑郁",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "焦虑",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Population",
+        "name": "健康自愿者",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Population",
+        "name": "HIV伴发抑郁患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Evidence",
+        "name": "医脉通神经科",
+        "properties": {
+          "chunk_id": "1545",
+          "source": "医脉通神经科",
+          "text": "。  HIV感染者因为多种因素，常伴有非常高的抑郁、焦虑患病率，而HIV常规治疗使用的抗逆转录病毒药物对目前主流抗抑郁药物肝脏CYP酶存在一定影响，本研究涉及的雷特格韦对抗抑郁药物西酞普兰药代动力学研究有较大临床实用价值。本研究共入选24名健康自愿者，通过比较联合雷特格韦前后西酞普兰及去甲西酞普兰的稳态药代动力学参数、稳态血浆浓度-时间分布的几何平均值，总结出雷特格韦对与西酞普兰两者联用时耐受性较好，无需调整剂量。该实验纳入的样本量、设计思路、统计方法、数据处理等均具有科学性、严谨性、前瞻性。从循证医学的角度而言，这一结论对于临床医生指导HIV感染者的抗抑郁治疗有极大的意义，两药的联合使用不仅能够达到各自的治疗效果，同时又避免了不良的相互作用，给目前的临床治疗方案提供了强有力的依据。但该实验对象仅为小样本健康人群，且未比较两药联合前后在患者体内的药代动力学差异，如后期能在HIV伴发抑郁患者人群中进一步研究证实，则结果更具说服力和推广性"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "属于类别",
+        "properties": {}
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "属于类别",
+        "properties": {}
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "name": "相互作用",
+        "properties": {
+          "description": "抗逆转录病毒药物对目前主流抗抑郁药物肝脏CYP酶存在一定影响",
+          "evidence": {
+            "chunk_index": 1545,
+            "source": "医脉通神经科",
+            "text": "HIV常规治疗使用的抗逆转录病毒药物对目前主流抗抑郁药物肝脏CYP酶存在一定影响"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "相互作用",
+        "properties": {
+          "description": "雷特格韦与西酞普兰两者联用时耐受性较好，无需调整剂量，避免了不良的相互作用",
+          "consequence": "耐受性较好，无需调整剂量",
+          "recommendation": "无需调整剂量",
+          "severity": "低",
+          "confidence": "高",
+          "study_population": "健康自愿者",
+          "evidence": {
+            "chunk_index": 1545,
+            "source": "医脉通神经科",
+            "text": "总结出雷特格韦对与西酞普兰两者联用时耐受性较好，无需调整剂量。...两药的联合使用不仅能够达到各自的治疗效果，同时又避免了不良的相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "name": "用于治疗",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1545,
+            "source": "医脉通神经科",
+            "text": "HIV常规治疗使用的抗逆转录病毒药物"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "用于治疗",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1545,
+            "source": "医脉通神经科",
+            "text": "抗抑郁药物"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_4",
+        "target_id": "ent_11",
+        "name": "证据支持",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1545,
+    "source": "医脉通神经科",
+    "text": "。  HIV感染者因为多种因素，常伴有非常高的抑郁、焦虑患病率，而HIV常规治疗使用的抗逆转录病毒药物对目前主流抗抑郁药物肝脏CYP酶存在一定影响，本研究涉及的雷特格韦对抗抑郁药物西酞普兰药代动力学研究有较大临床实用价值。本研究共入选24名健康自愿者，通过比较联合雷特格韦前后西酞普兰及去甲西酞普兰的稳态药代动力学参数、稳态血浆浓度-时间分布的几何平均值，总结出雷特格韦对与西酞普兰两者联用时耐受性较好，无需调整剂量。该实验纳入的样本量、设计思路、统计方法、数据处理等均具有科学性、严谨性、前瞻性。从循证医学的角度而言，这一结论对于临床医生指导HIV感染者的抗抑郁治疗有极大的意义，两药的联合使用不仅能够达到各自的治疗效果，同时又避免了不良的相互作用，给目前的临床治疗方案提供了强有力的依据。但该实验对象仅为小样本健康人群，且未比较两药联合前后在患者体内的药代动力学差异，如后期能在HIV伴发抑郁患者人群中进一步研究证实，则结果更具说服力和推广性"
+  }
+]

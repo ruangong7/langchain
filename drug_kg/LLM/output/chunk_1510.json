@@ -1,0 +1,492 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "沙格列汀",
+        "properties": {
+          "通用名": "沙格列汀",
+          "适应症": "降糖",
+          "用法用量": "日剂量不应超过2.5 mg"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "DPP-4抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP3A4/5",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "properties": {
+          "通用名": "克拉霉素"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "泰利霉素",
+        "properties": {
+          "通用名": "泰利霉素"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "替格瑞洛",
+        "properties": {
+          "通用名": "替格瑞洛",
+          "适应症": "抗血小板"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "秋水仙碱",
+        "properties": {
+          "通用名": "秋水仙碱",
+          "适应症": "抗痛风"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "普通肝素",
+        "properties": {
+          "通用名": "普通肝素",
+          "适应症": "抗凝"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "乳糖酸红霉素",
+        "properties": {
+          "通用名": "乳糖酸红霉素"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "大环内酯类",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "华法林",
+        "properties": {
+          "通用名": "华法林",
+          "适应症": "抗凝"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "达比加群酯",
+        "properties": {
+          "通用名": "达比加群酯",
+          "适应症": "抗凝"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "喹诺酮类",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Indicator",
+        "name": "Q-T间期",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "SideEffect",
+        "name": "致命性心律失常",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "properties": {
+          "通用名": "咪达唑仑",
+          "适应症": "镇静催眠"
+        }
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "三唑仑",
+        "properties": {
+          "通用名": "三唑仑",
+          "适应症": "镇静催眠"
+        }
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "阿普唑仑",
+        "properties": {
+          "通用名": "阿普唑仑",
+          "适应症": "镇静催眠"
+        }
+      },
+      {
+        "id": "ent_21",
+        "type": "DrugClass",
+        "name": "苯二氮䓬类",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "红霉素",
+        "properties": {
+          "通用名": "红霉素"
+        }
+      },
+      {
+        "id": "ent_23",
+        "type": "Drug",
+        "name": "托伐普坦",
+        "properties": {
+          "通用名": "托伐普坦",
+          "适应症": "利尿"
+        }
+      },
+      {
+        "id": "ent_24",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_25",
+        "type": "Drug",
+        "name": "伊伐布雷定",
+        "properties": {
+          "通用名": "伊伐布雷定"
+        }
+      },
+      {
+        "id": "ent_26",
+        "type": "Drug",
+        "name": "交沙霉素",
+        "properties": {
+          "通用名": "交沙霉素"
+        }
+      },
+      {
+        "id": "ent_27",
+        "type": "SideEffect",
+        "name": "心动过缓",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Drug",
+        "name": "洋地黄毒苷",
+        "properties": {
+          "通用名": "洋地黄毒苷"
+        }
+      },
+      {
+        "id": "ent_29",
+        "type": "Drug",
+        "name": "阿司咪唑",
+        "properties": {
+          "通用名": "阿司咪唑",
+          "适应症": "抗组胺"
+        }
+      },
+      {
+        "id": "ent_30",
+        "type": "Drug",
+        "name": "特非那定",
+        "properties": {
+          "通用名": "特非那定",
+          "适应症": "抗组胺"
+        }
+      },
+      {
+        "id": "ent_31",
+        "type": "SideEffect",
+        "name": "尖端扭转型心律失常",
+        "properties": {}
+      },
+      {
+        "id": "ent_32",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": 1510,
+          "source": "医脉通泌尿外科",
+          "text": "。（3）DPP-4抑制剂：降糖药沙格列汀主要通过CYP3A4/5代谢，与CYP3A4/5强抑制剂如克拉霉素、泰利霉素合用时，能显著升高前者的血药浓度，合用时沙格列汀的日剂量不应超过2.5 mg。（4）抗血小板药：替格瑞洛主要经CYP3A4代谢，CYP3A4强抑制剂如克拉霉素、泰利霉素能减慢其代谢，增强抗血小板活性，避免联用。（5）抗痛风药：秋水仙碱是P-gp的底物，与P-gp强抑制剂如克拉霉素合用会致秋水仙碱肠道的外排减少，显著提高其生物利用度而增加不良反应。（6）抗凝药：普通肝素与乳糖酸红霉素为配伍禁忌。大环内酯类可抑制CYP酶系活性，增强华法林的抗凝作用。强效P-gp抑制剂如克拉霉素与达比加群酯联用，会致其血药浓度升高，不宜合用。（7）喹诺酮类：大环内酯类可致Q-T间期延长，与喹诺酮类联用可增加Q-T间期延长及发生致命性心律失常的风险，不推荐合用。（8）镇静催眠药：苯二氮䓬类咪达唑仑、三唑仑、阿普唑仑经CYP3A4代谢，与CYP3A4强抑制剂如红霉素、克拉霉素合用显著减慢其代谢，加强镇静催眠作用。（9）利尿剂：托伐普坦主要通过CYP3A代谢，与强效CYP3A4抑制剂如克拉霉素、泰利霉素合用，可使前者的暴露量增加，禁忌联用。（10）伊伐布雷定：与强效CYP3A4抑制剂如克拉霉素、口服红霉素、交沙霉素、泰利霉素等联用，可增加前者的血药浓度，增加心动过缓的风险，禁止合用。（11）红霉素因改变胃肠道菌群，可增加洋地黄毒苷在胃肠道的吸收。红霉素可抑制阿司咪唑、特非那定等抗组胺药的代谢，诱发尖端扭转型心律失常"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "属于类别",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1510,
+            "source": "医脉通泌尿外科",
+            "text": "DPP-4抑制剂：降糖药沙格列汀"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "通过代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1510,
+            "source": "医脉通泌尿外科",
+            "text": "沙格列汀主要通过CYP3A4/5代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "克拉霉素与沙格列汀相互作用",
+        "properties": {
+          "机制": "CYP3A4/5强抑制",
+          "后果": "显著升高沙格列汀的血药浓度",
+          "建议": "合用时沙格列汀的日剂量不应超过2.5 mg",
+          "证据": {
+            "chunk_index": 1510,
+            "source": "医脉通泌尿外科",
+            "text": "与CYP3A4/5强抑制剂如克拉霉素、泰利霉素合用时，能显著升高前者的血药浓度，合用时沙格列汀的日剂量不应超过2.5 mg"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "name": "泰利霉素与沙格列汀相互作用",
+        "properties": {
+          "机制": "CYP3A4/5强抑制",
+          "后果": "显著升高沙格列汀的血药浓度",
+          "建议": "合用时沙格列汀的日剂量不应超过2.5 mg",
+          "证据": {
+            "chunk_index": 1510,
+            "source": "医脉通泌尿外科",
+            "text": "与CYP3A4/5强抑制剂如克拉霉素、泰利霉素合用时，能显著升高前者的血药浓度，合用时沙格列汀的日剂量不应超过2.5 mg"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "通过代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1510,
+            "source": "医脉通泌尿外科",
+            "text": "替格瑞洛主要经CYP3A4代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "name": "克拉霉素与替格瑞洛相互作用",
+        "properties": {
+          "机制": "CYP3A4强抑制",
+          "后果": "减慢其代谢，增强抗血小板活性",
+          "建议": "避免联用",
+          "证据": {
+            "chunk_index": 1510,
+            "source": "医脉通泌尿外科",
+            "text": "CYP3A4强抑制剂如克拉霉素、泰利霉素能减慢其代谢，增强抗血小板活性，避免联用"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "泰利霉素与替格瑞洛相互作用",
+        "properties": {
+          "机制": "CYP3A4强抑制",
+          "后果": "减慢其代谢，增强抗血小板活性",
+          "建议": "避免联用",
+          "证据": {
+            "chunk_index": 1510,
+            "source": "医脉通泌尿外科",
+            "text": "CYP3A4强抑制剂如克拉霉素、泰利霉素能减慢其代谢，增强抗血小板活性，避免联用"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "name": "是底物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1510,
+            "source": "医脉通泌尿外科",
+            "text": "秋水仙碱是P-gp的底物"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "name": "克拉霉素与秋水仙碱相互作用",
+        "properties": {
+          "机制": "P-gp强抑制",
+          "后果": "致秋水仙碱肠道的外排减少，显著提高其生物利用度而增加不良反应",
+          "证据": {
+            "chunk_index": 1510,
+            "source": "医脉通泌尿外科",
+            "text": "与P-gp强抑制剂如克拉霉素合用会致秋水仙碱肠道的外排减少，显著提高其生物利用度而增加不良反应"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_11",
+        "name": "普通肝素与乳糖酸红霉素相互作用",
+        "properties": {
+          "机制": "配伍禁忌",
+          "后果": "",
+          "建议": "",
+          "证据": {
+            "chunk_index": 1510,
+            "source": "医脉通泌尿外科",
+            "text": "普通肝素与乳糖酸红霉素为配伍禁忌"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_13",
+        "name": "大环内酯类与华法林相互作用",
+        "properties": {
+          "机制": "抑制CYP酶系活性",
+          "后果": "增强华法林的抗凝作用",
+          "证据": {
+            "chunk_index": 1510,
+            "source": "医脉通泌尿外科",
+            "text": "大环内酯类可抑制CYP酶系活性，增强华法林的抗凝作用"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_14",
+        "name": "克拉霉素与达比加群酯相互作用",
+        "properties": {
+          "机制": "强效P-gp抑制",
+          "后果": "致其血药浓度升高",
+          "建议": "不宜合用",
+          "证据": {
+            "chunk_index": 1510,
+            "source": "医脉通泌尿外科",
+            "text": "强效P-gp抑制剂如克拉霉素与达比加群酯联用，会致其血药浓度升高，不宜合用"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_12",
+        "target_id": "ent_16",
+        "name": "可致延长",
+        "properties": {
+          "effect": "延长",
+          "evidence": {
+            "chunk_index": 1510,
+            "source": "医脉通泌尿外科",
+            "text": "大环内酯类可致Q-T间期延长"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_15",
+        "name": "大环内酯类与喹诺酮类相互作用",
+        "properties": {
+          "后果": "增加Q-T间期延长及发生致命性心律失常的风险",
+          "建议": "不推荐合用",
+          "证据": {
+            "chunk_index": 1510,
+            "source": "医脉通泌尿外科",
+            "text": "与喹诺酮类联用可增加Q-T间期延长及发生致命性心律失常的风险，不推荐合用"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_12"
+      }
+    ],
+    "chunk_index": 1510,
+    "source": "医脉通泌尿外科",
+    "text": "。（3）DPP-4抑制剂：降糖药沙格列汀主要通过CYP3A4/5代谢，与CYP3A4/5强抑制剂如克拉霉素、泰利霉素合用时，能显著升高前者的血药浓度，合用时沙格列汀的日剂量不应超过2.5 mg。（4）抗血小板药：替格瑞洛主要经CYP3A4代谢，CYP3A4强抑制剂如克拉霉素、泰利霉素能减慢其代谢，增强抗血小板活性，避免联用。（5）抗痛风药：秋水仙碱是P-gp的底物，与P-gp强抑制剂如克拉霉素合用会致秋水仙碱肠道的外排减少，显著提高其生物利用度而增加不良反应。（6）抗凝药：普通肝素与乳糖酸红霉素为配伍禁忌。大环内酯类可抑制CYP酶系活性，增强华法林的抗凝作用。强效P-gp抑制剂如克拉霉素与达比加群酯联用，会致其血药浓度升高，不宜合用。（7）喹诺酮类：大环内酯类可致Q-T间期延长，与喹诺酮类联用可增加Q-T间期延长及发生致命性心律失常的风险，不推荐合用。（8）镇静催眠药：苯二氮䓬类咪达唑仑、三唑仑、阿普唑仑经CYP3A4代谢，与CYP3A4强抑制剂如红霉素、克拉霉素合用显著减慢其代谢，加强镇静催眠作用。（9）利尿剂：托伐普坦主要通过CYP3A代谢，与强效CYP3A4抑制剂如克拉霉素、泰利霉素合用，可使前者的暴露量增加，禁忌联用。（10）伊伐布雷定：与强效CYP3A4抑制剂如克拉霉素、口服红霉素、交沙霉素、泰利霉素等联用，可增加前者的血药浓度，增加心动过缓的风险，禁止合用。（11）红霉素因改变胃肠道菌群，可增加洋地黄毒苷在胃肠道的吸收。红霉素可抑制阿司咪唑、特非那定等抗组胺药的代谢，诱发尖端扭转型心律失常"
+  }
+]

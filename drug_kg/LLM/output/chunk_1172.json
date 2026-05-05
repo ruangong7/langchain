@@ -1,0 +1,267 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "CYP3A5",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP2C",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP2B6",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Mechanism",
+        "name": "可逆性酶抑制作用",
+        "properties": {
+          "机制类型": "可逆性酶抑制作用"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Mechanism",
+        "name": "时间依赖性酶抑制作用",
+        "properties": {
+          "机制类型": "时间依赖性酶抑制作用"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Mechanism",
+        "name": "代谢酶诱导作用",
+        "properties": {
+          "机制类型": "代谢酶诱导作用"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "孕甾烷X受体",
+        "properties": {
+          "别名列表": [
+            "PXR"
+          ]
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "mRNA水平",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "酶活性",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "代谢酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "代谢酶诱导剂",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_12",
+        "target_id": "ent_6",
+        "name": "可逆性酶抑制作用为基础模型评估机制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1172,
+            "source": "凡默谷",
+            "text": "针对可逆性酶抑制作用的基础模型计算公式为通过计算人体游离药物浓度（Imax,u）与药物体外抑制常数(Ki)的比值，推算在存在或不存在抑制剂的条件下合并使用其他药物的系统暴露量(AUC)预测比率(R)。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_12",
+        "target_id": "ent_7",
+        "name": "时间依赖性酶抑制作用为基础模型评估机制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1172,
+            "source": "凡默谷",
+            "text": "对于时间依赖性酶抑制作用的评估较为复杂。由于酶失活引起酶功能的动态改变近似于一个简单的动态方程，基础模型参数包括了降解速率常数(Kdeg)，表观失活常数（KI)和最大失活速率(Kinact)，计算公式为此处当R值≥1.25，建议采用PBPK模型或开展临床DDI试验进一步评估药物相互作用的可能性。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_13",
+        "target_id": "ent_8",
+        "name": "代谢酶诱导剂通过诱导作用影响其他药物代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1172,
+            "source": "凡默谷",
+            "text": "3.3 作为代谢酶诱导剂在伴随其他酶抑制作用时，如果仅检测酶的活性，可能掩盖酶诱导作用，因此推荐以底物探针的mRNA水平和/或酶活性作为检测指标评估酶诱导作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "CYP3A4属于代谢酶诱导剂相关酶",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1172,
+            "source": "凡默谷",
+            "text": "由于CYP3A和CYP2C酶诱导均依赖于孕甾烷X受体(pregnane X receptor, PXR)的活化，因此在研究起始阶段可仅评估药物对CYP1A2、CYP2B6、CYP3A4/ 5的作用，若CYP3A结果为阴性，可不必对CYP2C进行研究。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_13",
+        "name": "CYP3A5属于代谢酶诱导剂相关酶",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1172,
+            "source": "凡默谷",
+            "text": "由于CYP3A和CYP2C酶诱导均依赖于孕甾烷X受体(pregnane X receptor, PXR)的活化，因此在研究起始阶段可仅评估药物对CYP1A2、CYP2B6、CYP3A4/ 5的作用，若CYP3A结果为阴性，可不必对CYP2C进行研究。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_13",
+        "name": "CYP2C属于代谢酶诱导剂相关酶",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1172,
+            "source": "凡默谷",
+            "text": "由于CYP3A和CYP2C酶诱导均依赖于孕甾烷X受体(pregnane X receptor, PXR)的活化，因此在研究起始阶段可仅评估药物对CYP1A2、CYP2B6、CYP3A4/ 5的作用，若CYP3A结果为阴性，可不必对CYP2C进行研究。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_13",
+        "name": "CYP1A2属于代谢酶诱导剂相关酶",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1172,
+            "source": "凡默谷",
+            "text": "因此在研究起始阶段可仅评估药物对CYP1A2、CYP2B6、CYP3A4/ 5的作用"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_13",
+        "name": "CYP2B6属于代谢酶诱导剂相关酶",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1172,
+            "source": "凡默谷",
+            "text": "因此在研究起始阶段可仅评估药物对CYP1A2、CYP2B6、CYP3A4/ 5的作用"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "CYP3A4酶诱导依赖于PXR活化",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1172,
+            "source": "凡默谷",
+            "text": "由于CYP3A和CYP2C酶诱导均依赖于孕甾烷X受体(pregnane X receptor, PXR)的活化"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "name": "CYP2C酶诱导依赖于PXR活化",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1172,
+            "source": "凡默谷",
+            "text": "由于CYP3A和CYP2C酶诱导均依赖于孕甾烷X受体(pregnane X receptor, PXR)的活化"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_13",
+        "target_id": "ent_10",
+        "name": "代谢酶诱导剂影响mRNA水平",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1172,
+            "source": "凡默谷",
+            "text": "推荐以底物探针的mRNA水平和/或酶活性作为检测指标评估酶诱导作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_13",
+        "target_id": "ent_11",
+        "name": "代谢酶诱导剂影响酶活性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1172,
+            "source": "凡默谷",
+            "text": "推荐以底物探针的mRNA水平和/或酶活性作为检测指标评估酶诱导作用。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1172,
+    "source": "凡默谷",
+    "text": "。首选较为简单保守的基础模型。若根据预设cut-off标准，提示可能存在临床DDI作用，则需要采用静态机理模型或动态模型（如PBPK模型），或是开展临床DDI研究进一步评估。针对可逆性酶抑制作用的基础模型计算公式为通过计算人体游离药物浓度（Imax,u）与药物体外抑制常数(Ki)的比值，推算在存在或不存在抑制剂的条件下合并使用其他药物的系统暴露量(AUC)预测比率(R)。如果受试物为经口给药，则胃肠道药物的暴露量可能超过系统暴露量，建议采用药物剂量/250mL作为药物的肠腔浓度(Igut)替代系统暴露浓度（Imax,u），则公式修改为当值R值≥1.02或Rgut 值≥11，建议开展进一步DDI研究。对于时间依赖性酶抑制作用的评估较为复杂。由于酶失活引起酶功能的动态改变近似于一个简单的动态方程，基础模型参数包括了降解速率常数(Kdeg)，表观失活常数（KI)和最大失活速率(Kinact)，计算公式为此处当R值≥1.25，建议采用PBPK模型或开展临床DDI试验进一步评估药物相互作用的可能性。3.3 作为代谢酶诱导剂在伴随其他酶抑制作用时，如果仅检测酶的活性，可能掩盖酶诱导作用，因此推荐以底物探针的mRNA水平和/或酶活性作为检测指标评估酶诱导作用。此外，由于CYP3A和CYP2C酶诱导均依赖于孕甾烷X受体(pregnane X receptor, PXR)的活化，因此在研究起始阶段可仅评估药物对CYP1A2、CYP2B6、CYP3A4/ 5的作用，若CYP3A结果为阴性，可不必对CYP2C进行研究。反之，则需检测药物对CYP2C的诱导作用"
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "抗抑郁药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "选择性5-羟色胺再摄取抑制剂",
+        "properties": {
+          "别名列表": [
+            "SSRI"
+          ]
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "苯妥英",
+        "properties": {
+          "通用名": "苯妥英"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Food",
+        "name": "圣约翰草",
+        "properties": {
+          "类型": "补充剂",
+          "关键成分": "金丝桃素"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "抑郁症",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "精神分裂症",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_4",
+        "name": "圣约翰草影响CYP3A4活性",
+        "properties": {
+          "机制": "诱导或抑制CYP3A4酶活性",
+          "证据": {
+            "chunk_index": 1388,
+            "source": "医学界精神病学频道",
+            "text": "Roby CA, Anderson GD,Kantor E, et al.St. Johns wort ：effect on CYP3A4 activity. Clin Pharmacol Ther,2000,67 (5):451-454."
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "选择性5-羟色胺再摄取抑制剂抑制苯妥英羟化",
+        "properties": {
+          "机制": "抑制苯妥英在人肝微粒体中的羟化代谢",
+          "证据": {
+            "chunk_index": 1388,
+            "source": "医学界精神病学频道",
+            "text": "Nelson MH , Birnbaum AK , Remmel RP Inhibition of phenytoin hydroxylation inhuman liver microsomes by several selective serotonin re-uptakeinhibitors[J].EpilepsyRes, 2001, 44(1): 71-82."
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "缺乏某种营养素可能增加抑郁风险（间接关联）",
+        "properties": {
+          "证据": {
+            "chunk_index": 1388,
+            "source": "医学界精神病学频道",
+            "text": "缺乏这种常见的营养素，可能会增加你的抑郁风险"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1388,
+    "source": "医学界精神病学频道",
+    "text": "！缺乏这种常见的营养素，可能会增加你的抑郁风险精神分裂症患者出院时，你会给他开这种维生素吗？参考文献1.郭欲,程泽能.抗抑郁药的药物相互作用[J].中国药物应用与监测,2004,3:31-33.2.刘治军,傅得兴,孙春华.抗抑郁药物相关的药物相互作用[J].中国药学杂志,2007,42(6):409- 414.　　　　　　　　　　　　　　　3.Roby CA, Anderson GD,Kantor E, et al.St. Johns wort ：effect on CYP3A4 activity. Clin Pharmacol Ther,2000,67 (5):451-454.4.Nelson MH , Birnbaum AK , Remmel RP Inhibition of phenytoin hydroxylation inhuman liver microsomes by several selective serotonin re-uptakeinhibitors[J].EpilepsyRes, 2001, 44(1): 71-82.5.管晓波,陆峥.新型抗抑郁药物的药物相互作用[J].世界临床药物,2012,33(7):395-400.每点一次好看，都在为你期待的世界点赞↓↓↓↓↓↓↓↓"
+  }
+]

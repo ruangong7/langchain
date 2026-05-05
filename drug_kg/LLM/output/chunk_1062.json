@@ -1,0 +1,401 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "别名列表": [
+            "ABCB1"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "多柔比星",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "长春新碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "长春碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "紫杉醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "伊马替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "环孢素A",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "伊维菌素",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Food",
+        "name": "姜黄素",
+        "properties": {
+          "类型": "补充剂",
+          "关键成分": "姜黄素"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "阿霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "PHn-7",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Disease",
+        "name": "慢性髓性白血病",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Disease",
+        "name": "非小细胞肺癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Disease",
+        "name": "乳腺癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "SideEffect",
+        "name": "多药耐药",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "Mechanism",
+        "name": "ATP酶活性抑制",
+        "properties": {
+          "机制类型": "ATP酶活性抑制"
+        }
+      },
+      {
+        "id": "ent_18",
+        "type": "Mechanism",
+        "name": "P-gp表达抑制",
+        "properties": {
+          "机制类型": "表达抑制"
+        }
+      },
+      {
+        "id": "ent_19",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "唯一标识": "ev_1",
+          "chunk_id": 1062,
+          "来源类型": "公众号",
+          "来源": "凡默谷"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "P-gp介导多柔比星的细胞外排",
+        "properties": {
+          "机制": "P-gp通过水解ATP将多柔比星泵出胞外",
+          "后果": "降低抗肿瘤效果，产生多药耐药",
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "由于P-gp介导多种抗肿瘤药的细胞外排过程，其高表达可使抗肿瘤药物外排增加，摄取入肿瘤细胞药量减少，从而降低了抗肿瘤效果、产生多药耐药现象[59]。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "P-gp介导长春新碱的细胞外排",
+        "properties": {
+          "机制": "P-gp通过水解ATP将长春新碱泵出胞外",
+          "后果": "降低抗肿瘤效果，产生多药耐药",
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "临床上常用的抗肿瘤药多柔比星、长春新碱、长春碱、紫杉醇和伊马替尼等及免疫抑制剂环孢素A、他克莫司和伊维菌素等都是P-gp的底物。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "P-gp介导长春碱的细胞外排",
+        "properties": {
+          "机制": "P-gp通过水解ATP将长春碱泵出胞外",
+          "后果": "降低抗肿瘤效果，产生多药耐药",
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "临床上常用的抗肿瘤药多柔比星、长春新碱、长春碱、紫杉醇和伊马替尼等及免疫抑制剂环孢素A、他克莫司和伊维菌素等都是P-gp的底物。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "P-gp介导紫杉醇的细胞外排",
+        "properties": {
+          "机制": "P-gp通过水解ATP将紫杉醇泵出胞外",
+          "后果": "降低抗肿瘤效果，产生多药耐药",
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "临床上常用的抗肿瘤药多柔比星、长春新碱、长春碱、紫杉醇和伊马替尼等及免疫抑制剂环孢素A、他克莫司和伊维菌素等都是P-gp的底物。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "P-gp介导伊马替尼的细胞外排",
+        "properties": {
+          "机制": "P-gp通过水解ATP将伊马替尼泵出胞外",
+          "后果": "降低抗肿瘤效果，产生多药耐药",
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "临床上常用的抗肿瘤药多柔比星、长春新碱、长春碱、紫杉醇和伊马替尼等及免疫抑制剂环孢素A、他克莫司和伊维菌素等都是P-gp的底物。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "P-gp介导环孢素A的细胞外排",
+        "properties": {
+          "机制": "P-gp通过水解ATP将环孢素A泵出胞外",
+          "后果": "降低免疫抑制效果，产生多药耐药",
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "临床上常用的抗肿瘤药多柔比星、长春新碱、长春碱、紫杉醇和伊马替尼等及免疫抑制剂环孢素A、他克莫司和伊维菌素等都是P-gp的底物。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "P-gp介导他克莫司的细胞外排",
+        "properties": {
+          "机制": "P-gp通过水解ATP将他克莫司泵出胞外",
+          "后果": "降低免疫抑制效果，产生多药耐药",
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "临床上常用的抗肿瘤药多柔比星、长春新碱、长春碱、紫杉醇和伊马替尼等及免疫抑制剂环孢素A、他克莫司和伊维菌素等都是P-gp的底物。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "P-gp介导伊维菌素的细胞外排",
+        "properties": {
+          "机制": "P-gp通过水解ATP将伊维菌素泵出胞外",
+          "后果": "降低药效，产生多药耐药",
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "临床上常用的抗肿瘤药多柔比星、长春新碱、长春碱、紫杉醇和伊马替尼等及免疫抑制剂环孢素A、他克莫司和伊维菌素等都是P-gp的底物。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_1",
+        "name": "姜黄素抑制P-gp的转运功能",
+        "properties": {
+          "机制": "姜黄素通过抑制ATP酶活性进而抑制P-gp的转运功能",
+          "后果": "增加S562耐药细胞对多柔比星的敏感性，逆转获得性耐药",
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "姜黄素通过抑制ATP酶活性进而抑制P-gp的转运功能，可明显增加S562耐药细胞对多柔比星的敏感性[60]。不仅如此，姜黄素还可显著抑制非小细胞肺癌NCL-H460细胞中P-gp的表达，降低细胞中多柔比星的外排，进而提高胞内蓄积率，有效逆转获得性耐药[61]。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_11",
+        "name": "PHn-7增强乳腺癌细胞对阿霉素的敏感性",
+        "properties": {
+          "机制": "PHn-7通过抑制P-gp表达和功能而逆转乳腺癌细胞对阿霉素的耐药性",
+          "后果": "阿霉素的细胞毒性分别增加21.48%、86.47%和99.60%",
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "而且PHn-7与阿霉素联合作用，可明显增强乳腺癌细胞对阿霉素的敏感性，0.5、1和2 pmol/L的PH n -7使阿霉素的细胞毒性分别增加 21.48%、86.47%和99.60%。在诱导凋亡同时，PH n -7可通过抑制P-gp表达和功能而逆转乳腺癌细胞对阿霉素的耐药性[62]"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_10",
+        "target_id": "ent_17",
+        "name": "姜黄素通过ATP酶活性抑制作用于P-gp",
+        "properties": {
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "姜黄素通过抑制ATP酶活性进而抑制P-gp的转运功能"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_12",
+        "target_id": "ent_18",
+        "name": "PHn-7通过抑制P-gp表达作用于阿霉素耐药",
+        "properties": {
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "PH n -7可通过抑制P-gp表达和功能而逆转乳腺癌细胞对阿霉素的耐药性[62]"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_16",
+        "name": "P-gp高表达导致多药耐药",
+        "properties": {
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "ABC转运体通过水解ATP所释放出来的能量将结构和作用机制不同的抗肿瘤药物泵出胞外，并由此获得能量依赖性，其中P-gp，BCRP和MRP2的过表达是多药耐药形成的主要原因。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_13",
+        "name": "多柔比星用于治疗慢性髓性白血病",
+        "properties": {
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "研究 表明，慢性髓性白血病K562细胞获得性耐受多柔比星过程中，P-gp表达明显上调"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_15",
+        "name": "多柔比星用于治疗乳腺癌",
+        "properties": {
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "靛玉红类衍生物ph n-7可以显著抑制对阿霉素耐药的乳腺癌细胞MCF-7的增殖活性"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_11",
+        "target_id": "ent_15",
+        "name": "阿霉素用于治疗乳腺癌",
+        "properties": {
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "靛玉红类衍生物ph n-7可以显著抑制对阿霉素耐药的乳腺癌细胞MCF-7的增殖活性"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_14",
+        "name": "多柔比星用于治疗非小细胞肺癌",
+        "properties": {
+          "证据": {
+            "chunk_index": 1062,
+            "source": "凡默谷",
+            "text": "姜黄素还可显著抑制非小细胞肺癌NCL-H460细胞中P-gp的表达，降低细胞中多柔比星的外排"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1062,
+    "source": "凡默谷",
+    "text": "。一般认为，ABC转运体的过 表达是导致多药耐药的主要原因。ABC转运体通 过水解ATP所释放出来的能量将结构和作用机 制不同的抗肿瘤药物泵出胞外，并由此获得能量 依赖性，其中P-gp，BCRP和MRP2的过表达是多 药耐药形成的主要原因。P-gp高表达于多种肿瘤细胞，临床上常用的 抗肿瘤药多柔比星、长春新碱、长春碱、紫杉醇和 伊马替尼等及免疫抑制剂环孢素A、他克莫司和 伊维菌素等都是P-gp的底物。由于P-gp介导多 种抗肿瘤药的细胞外排过程，其高表达可使抗肿 瘤药物外排增加，摄取入肿瘤细胞药量减少，从而 降低了抗肿瘤效果、产生多药耐药现象[59]。研究 表明，慢性髓性白血病K562细胞获得性耐受多柔 比星过程中，P-gp表达明显上调，并且与其启动 子DNA低甲基化状态和组蛋白高乙酰化水平升 高密切相关。姜黄素通过抑制ATP酶活性进而 抑制P-gp的转运功能，可明显增加S562耐药细 胞对多柔比星的敏感性[60]。不仅如此，姜黄素还 可显著抑制非小细胞肺癌NCL-H460细胞中P-gp 的表达，降低细胞中多柔比星的外排，进而提高胞 内蓄积率，有效逆转获得性耐药[61]。研究发现， 靛玉红类衍生物ph n-7可以显著抑制对阿霉素 耐药的乳腺癌细胞MCF-7的增殖活性，并诱导其 凋亡。而且PHn-:与阿霉素联合作用，可明显增 强乳腺癌细胞对阿霉素的敏感性，0.5、1和2 pmol/L的PH n -7使阿霉素的细胞毒性分别增加 21.48%、86.47%和99.60%。在诱导凋亡同时，PH n -7可通过抑制P-gp表达和功能而逆转乳腺癌 细胞对阿霉素的耐药性[62]"
+  }
+]

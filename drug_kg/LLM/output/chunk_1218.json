@@ -1,0 +1,120 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "吗啉硝唑",
+        "properties": {
+          "剂型": "注射液",
+          "给药途径": "腹腔注射/静脉注射"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "丙磺舒",
+        "properties": {
+          "剂型": "混悬液",
+          "给药途径": "灌胃"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "properties": {
+          "剂型": "混悬液",
+          "给药途径": "灌胃"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "properties": {
+          "剂型": "溶液",
+          "给药途径": "灌胃"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "替诺福韦",
+        "properties": {
+          "剂型": "溶液",
+          "给药途径": "灌胃"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Food",
+        "name": "生理盐水",
+        "properties": {
+          "类型": "溶媒"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "丙磺舒与吗啉硝唑联用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1218,
+            "source": "凡默谷",
+            "text": "B 组丙磺舒氯化钠混悬液（称取200 mg 丙磺舒，加生理盐水5 mL，配制成质量浓度为40 mg·mL-1 的混悬液，即得）灌胃（100 mg·kg-1）30 min 后吗啉硝唑氯化钠注射液腹腔注射（50 mg·kg-1）"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "西咪替丁与吗啉硝唑联用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1218,
+            "source": "凡默谷",
+            "text": "C 组西咪替丁氯化钠混悬液（称取160 mg 丙磺舒，加生理盐水8 mL，配制成质量浓度为20 mg·mL-1的混悬液，即得）灌胃（80mg·kg-1）30 min 后吗啉硝唑氯化钠注射液腹腔注射（50 mg·kg-1）"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "二甲双胍与吗啉硝唑联用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1218,
+            "source": "凡默谷",
+            "text": "D 组二甲双胍氯化钠溶液（称取200 mg 二甲双胍，加生理盐水8 mL，配制成质量浓度为25 mg·mL-1的溶液，即得）连续灌胃7 d（100mg·kg-1），第7 天灌胃30 min 后吗啉硝唑氯化钠注射液腹腔注射（50 mg·kg-1）"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "name": "替诺福韦与吗啉硝唑联用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1218,
+            "source": "凡默谷",
+            "text": "E 组替诺福韦氯化钠溶液（称取25 mg 替诺福韦，加生理盐水10 mL，配制成质量浓度为2.5 mg·mL-1 的溶液，即得）连续灌胃7 d（10 mg·kg-1），第7 天灌胃后30 min 吗啉硝唑氯化钠注射液静脉注射（50 mg·kg-1）"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1218,
+    "source": "凡默谷",
+    "text": "。各工作液分别置-20 ℃冰箱中冷藏备用。2.4　样品采集雄性SD 大鼠30 只，随机分为5 组，A 组为对照组，B~E 组为实验组。其中，A 组吗啉硝唑氯化钠注射液［称取220 mg 吗啉硝唑，加0.9% 氯化钠注射液（生理盐水）22 mL，配制成质量浓度为10 mg·mL-1的溶液，即得］腹腔注射（50 mg·kg-1）；B 组丙磺舒氯化钠混悬液（称取200 mg 丙磺舒，加生理盐水5 mL，配制成质量浓度为40 mg·mL-1 的混悬液，即得）灌胃（100 mg·kg-1）30 min 后吗啉硝唑氯化钠注射液腹腔注射（50 mg·kg-1）；C 组西咪替丁氯化钠混悬液（称取160 mg 丙磺舒，加生理盐水8 mL，配制成质量浓度为20 mg·mL-1的混悬液，即得）灌胃（80mg·kg-1）30 min 后吗啉硝唑氯化钠注射液腹腔注射（50 mg·kg-1）；D 组二甲双胍氯化钠溶液（称取200 mg 二甲双胍，加生理盐水8 mL，配制成质量浓度为25 mg·mL-1的溶液，即得）连续灌胃7 d（100mg·kg-1），第7 天灌胃30 min 后吗啉硝唑氯化钠注射液腹腔注射（50 mg·kg-1）；E 组替诺福韦氯化钠溶液（称取25 mg 替诺福韦，加生理盐水10 mL，配制成质量浓度为2.5 mg·mL-1 的溶液，即得）连续灌胃7 d（10 mg·kg-1），第7 天灌胃后30 min 吗啉硝唑氯化钠注射液静脉注射（50 mg·kg-1）"
+  }
+]

@@ -1,0 +1,199 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "DOAC",
+        "properties": {
+          "别名列表": [
+            "直接口服抗凝剂"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "LMWH",
+        "properties": {
+          "别名列表": [
+            "低分子肝素"
+          ]
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "CAT",
+        "properties": {
+          "名称全称": "癌症相关血栓"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "大出血",
+        "properties": {
+          "缩写": "MB"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "临床相关非大出血",
+        "properties": {
+          "缩写": "CRNMB"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "静脉血栓栓塞",
+        "properties": {
+          "缩写": "VTE"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "抗凝剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Evidence",
+        "name": "医学界肿瘤频道",
+        "properties": {
+          "chunk_id": 1390,
+          "来源类型": "公众号"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "DOAC与抗凝剂存在药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1390,
+            "source": "医学界肿瘤频道",
+            "text": "在任何时间段内接受DOAC的患者，其发生DDI的情况显著高于接受LMWH的患者（52.7% vs 19.7%，p<0.0001）"
+          },
+          "consequence": "DDI发生率更高",
+          "severity": "高",
+          "confidence": "p<0.0001"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "name": "LMWH与抗凝剂存在药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1390,
+            "source": "医学界肿瘤频道",
+            "text": "在任何时间段内接受DOAC的患者，其发生DDI的情况显著高于接受LMWH的患者（52.7% vs 19.7%，p<0.0001）"
+          },
+          "consequence": "DDI发生率较低",
+          "severity": "低",
+          "confidence": "p<0.0001"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "DOAC增加静脉血栓栓塞复发风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1390,
+            "source": "医学界肿瘤频道",
+            "text": "6个月总VTE复发率和MB+CRNMB复发率分别为8.2%（95%CI 5.3-11.9）和6.7%（95%CI 4.2-10.2），伴或不伴相关DDI组无显著差异"
+          },
+          "note": "但研究指出DDI与血栓复发无显著关联"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "DOAC增加大出血风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1390,
+            "source": "医学界肿瘤频道",
+            "text": "6个月总VTE复发率和MB+CRNMB复发率分别为8.2%（95%CI 5.3-11.9）和6.7%（95%CI 4.2-10.2），伴或不伴相关DDI组无显著差异"
+          },
+          "note": "但研究指出DDI与出血事件无显著关联"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "DOAC增加临床相关非大出血风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1390,
+            "source": "医学界肿瘤频道",
+            "text": "6个月总VTE复发率和MB+CRNMB复发率分别为8.2%（95%CI 5.3-11.9）和6.7%（95%CI 4.2-10.2），伴或不伴相关DDI组无显著差异"
+          },
+          "note": "但研究指出DDI与出血事件无显著关联"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_7",
+        "target_id": "ent_3",
+        "name": "抗凝剂用于治疗癌症相关血栓",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1390,
+            "source": "医学界肿瘤频道",
+            "text": "该研究纳入同时接受抗凝剂和抗癌治疗和/或支持治疗的267例CAT患者"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "DOAC属于抗凝剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1390,
+            "source": "医学界肿瘤频道",
+            "text": "在任何时间段内接受DOAC的患者，其发生DDI的情况显著高于接受LMWH的患者"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "name": "LMWH属于抗凝剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1390,
+            "source": "医学界肿瘤频道",
+            "text": "在任何时间段内接受DOAC的患者，其发生DDI的情况显著高于接受LMWH的患者"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1390,
+    "source": "医学界肿瘤频道",
+    "text": "。图 ISTH最新研究该研究纳入同时接受抗凝剂和抗癌治疗和/或支持治疗的267例CAT患者，对所有患者随访6个月或直到死亡（如果在6个月之前），其主要结局是在研究期间的任何时间段，发生与抗凝剂相关DDI的患者百分比。次要结局包括血栓复发、大出血（MB）和临床相关非大出血 （CRNMB）事件，该研究以95%的置信区间（95% CI）计算了6个月的累积结局发生率，并将死亡作为竞争风险考虑，比较了有无相关DDI的结局。其主要结局显示，在研究期间的任何时间段内，使用所有药物时有255例（95.5%）患者发生DDI；使用抗凝剂时有114例（42.7%）患者发生DDI。值得注意的是，在任何时间段内接受DOAC的患者，其发生DDI的情况显著高于接受LMWH的患者（52.7% vs 19.7%，p<0.0001）。图 患者接受DOAC和LMWH治疗DDI发生情况在次要结局方面，6个月总VTE复发率和MB+CRNMB复发率分别为8.2%（95%CI 5.3-11.9）和6.7%（95%CI 4.2-10.2），伴或不伴相关DDI组无显著差异。总体而言，该研究证明使用DOAC患者的DDI相关性显著高于LMWH；此外还发现Lexicomp的相关DDI（风险C、D、X）与血栓复发或出血事件无关。表 DDI组6个月累计出血和静脉血栓栓塞事件发生率(%)结合指南与实际，CAT治疗何去何从？国际血栓和癌症倡议（ITAC）发布的《2022年癌症患者静脉血栓栓塞治疗和预防的国际临床实践指南》[4]明确指出为CAT患者选择相关抗凝剂时应考虑癌症类型、VTE和出血风险因素、DDI和患者偏好的个体化药物方案"
+  }
+]

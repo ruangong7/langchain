@@ -1,0 +1,354 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "普萘洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氟西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "罗红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "索他洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "钙通道阻滞药",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "地尔硫卓",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "链霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "神经肌肉阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "泮库溴铵",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "β-受体阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "SideEffect",
+        "name": "毒性反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Indicator",
+        "name": "心电图",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Indicator",
+        "name": "血清强心苷水平",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "SideEffect",
+        "name": "传导阻滞",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "SideEffect",
+        "name": "心室功能抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "低血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "SideEffect",
+        "name": "心动过缓",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "SideEffect",
+        "name": "心力衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "SideEffect",
+        "name": "神经肌肉阻滞作用",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Symptom",
+        "name": "肌肉软弱",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Symptom",
+        "name": "呼吸抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Symptom",
+        "name": "呼吸麻痹",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "SideEffect",
+        "name": "房室传导抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Evidence",
+        "name": "SFDA药品说明书范本",
+        "properties": {
+          "chunk_id": "1263",
+          "source": "凯德传媒肾脏时讯"
+        }
+      },
+      {
+        "id": "ent_28",
+        "type": "Evidence",
+        "name": "中国医师药师临床用药指南",
+        "properties": {
+          "chunk_id": "1263",
+          "source": "凯德传媒肾脏时讯"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "氟西汀与普萘洛尔相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "普萘洛尔血药浓度升高，毒性增大",
+          "recommendation": "监测普萘洛尔的毒性反应，必要时减少用量",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": "1263",
+              "source": "凯德传媒肾脏时讯",
+              "text": "普萘洛尔+氟西汀氟西汀可使普萘洛尔血药浓度升高，毒性增大，故应监测普萘洛尔的毒性反应，必要时减少用量。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.493～496."
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "罗红霉素与地高辛相互作用",
+        "properties": {
+          "mechanism": "清除肠道中能灭活地高辛的菌群，导致体内地高辛降解减少",
+          "consequence": "地高辛血药浓度升高而发生毒性反应",
+          "recommendation": "两者合用时应监测心电图和血清强心苷水平",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": "1263",
+              "source": "凯德传媒肾脏时讯",
+              "text": "罗红霉素+地高辛罗红霉素与地高辛同用，可清除肠道中能灭活地高辛的菌群，导致体内地高辛降解减少，使地高辛血药浓度升高而发生毒性反应，两者合用时应监测心电图和血清强心苷水平。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.144～145."
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "索他洛尔与钙通道阻滞药相互作用",
+        "properties": {
+          "mechanism": "两者对房室传导和心室功能的影响有累加作用",
+          "consequence": "加重传导阻滞，进一步抑制心室功能、降低血压，引起低血压、心动过缓、传导障碍和心力衰竭",
+          "recommendation": "应避免合用",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": "1263",
+              "source": "凯德传媒肾脏时讯",
+              "text": "索他洛尔+地尔硫卓索他洛尔与钙通道阻滞药(如维拉帕米、地尔硫卓)合用，两者对房室传导和心室功能的影响有累加作用，合用时可加重传导阻滞，进一步抑制心室功能、降低血压，引起低血压、心动过缓、传导障碍和心力衰竭，应避免合用。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.478～480."
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_6",
+        "name": "维拉帕米属于钙通道阻滞药",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1263",
+              "source": "凯德传媒肾脏时讯",
+              "text": "钙通道阻滞药(如维拉帕米、地尔硫卓)"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_6",
+        "name": "地尔硫卓属于钙通道阻滞药",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1263",
+              "source": "凯德传媒肾脏时讯",
+              "text": "钙通道阻滞药(如维拉帕米、地尔硫卓)"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "name": "链霉素与神经肌肉阻滞剂相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "加重神经肌肉阻滞作用，导致肌肉软弱、呼吸抑制或呼吸麻痹(呼吸暂停)",
+          "recommendation": "",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": "1263",
+              "source": "凯德传媒肾脏时讯",
+              "text": "链霉素+泮库溴铵链霉素与神经肌肉阻滞剂合用，可加重神经肌肉阻滞作用，导致肌肉软弱、呼吸抑制或呼吸麻痹(呼吸暂停)。文献依据：SFDA药品说明书范本"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_10",
+        "name": "泮库溴铵属于神经肌肉阻滞剂",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1263",
+              "source": "凯德传媒肾脏时讯",
+              "text": "链霉素+泮库溴铵链霉素与神经肌肉阻滞剂合用"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_12",
+        "name": "维拉帕米与β-受体阻滞剂相互作用",
+        "properties": {
+          "mechanism": "",
+          "consequence": "可增强对房室传导的抑制作用",
+          "recommendation": "特别是静脉注射维拉帕米，要十分警惕本品对心肌和传导系统的抑制",
+          "severity": "",
+          "confidence": "",
+          "evidence": [
+            {
+              "chunk_index": "1263",
+              "source": "凯德传媒肾脏时讯",
+              "text": "维拉帕米+普萘洛尔与β-受体阻滞剂联合使用, 可增强对房室传导的抑制作用。钙拮抗剂合用，特别是静脉注射维拉帕米，要十分警惕本品对心肌和传导系统的抑制"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "普萘洛尔属于β-受体阻滞剂",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1263",
+              "source": "凯德传媒肾脏时讯",
+              "text": "维拉帕米+普萘洛尔与β-受体阻滞剂联合使用"
+            }
+          ]
+        }
+      }
+    ],
+    "chunk_index": 1263,
+    "source": "凯德传媒肾脏时讯",
+    "text": "。文献依据：SFDA药品说明书范本27、普萘洛尔+氟西汀氟西汀可使普萘洛尔血药浓度升高，毒性增大，故应监测普萘洛尔的毒性反应，必要时减少用量。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.493～496.28、罗红霉素+地高辛罗红霉素与地高辛同用，可清除肠道中能灭活地高辛的菌群，导致体内地高辛降解减少，使地高辛血药浓度升高而发生毒性反应，两者合用时应监测心电图和血清强心苷水平。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.144～145.29、索他洛尔+地尔硫卓索他洛尔与钙通道阻滞药(如维拉帕米、地尔硫卓)合用，两者对房室传导和心室功能的影响有累加作用，合用时可加重传导阻滞，进一步抑制心室功能、降低血压，引起低血压、心动过缓、传导障碍和心力衰竭，应避免合用。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.478～480.30、链霉素+泮库溴铵链霉素与神经肌肉阻滞剂合用，可加重神经肌肉阻滞作用，导致肌肉软弱、呼吸抑制或呼吸麻痹(呼吸暂停)。文献依据：SFDA药品说明书范本31、维拉帕米+普萘洛尔与β-受体阻滞剂联合使用, 可增强对房室传导的抑制作用。钙拮抗剂合用，特别是静脉注射维拉帕米，要十分警惕本品对心肌和传导系统的抑制"
+  }
+]

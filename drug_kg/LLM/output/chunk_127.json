@@ -1,0 +1,118 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "P-糖蛋白",
+        "properties": {
+          "别名列表": [
+            "P-glycoprotein",
+            "P-gp",
+            "多药耐药蛋白1",
+            "MDR1"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "乳腺癌耐药蛋白",
+        "properties": {
+          "别名列表": [
+            "Breast cancer resistance protein",
+            "BCRP"
+          ]
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "有机阴离子转运多肽1B1",
+        "properties": {
+          "别名列表": [
+            "OATP1B1"
+          ]
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "有机阴离子转运多肽1B3",
+        "properties": {
+          "别名列表": [
+            "OATP1B3"
+          ]
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "有机阴离子转运体1",
+        "properties": {
+          "别名列表": [
+            "OAT1"
+          ]
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "有机阴离子转运体3",
+        "properties": {
+          "别名列表": [
+            "OAT3"
+          ]
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "多药及毒性化合物外排转运体",
+        "properties": {
+          "别名列表": [
+            "Multidrug and toxin extrusion",
+            "MATEs"
+          ]
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "有机阳离子转运体2",
+        "properties": {
+          "别名列表": [
+            "Organic cation transporter 2",
+            "OCT2"
+          ]
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "肌酸酐",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "葡萄糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Evidence",
+        "name": "GMP办公室",
+        "properties": {
+          "chunk_id": 127,
+          "source": "GMP办公室",
+          "text": "。或可使用PBPK模型来进行额外的研究。应验证并更新所有PBPK模型，以证明该模型能够充分描述第一次使用敏感指示底物的体内研究结果。评估在研药物是否诱导代谢酶的体外试验的具体要求详见附录3。（三）转运体介导的药物相互作用转运体通过影响药物的吸收、分布和消除，对不同器官和组织中药物的药动学和药效学产生临床相关的影响。与肝脏和小肠中大量表达的药物代谢酶不同，转运体在人体全身的组织中均有表达，并影响内源性和外源性物质进入人体的各个部位。转运体与代谢酶协同作用可以影响药物的分布和药理作用，同时药物也可以影响转运体的表达或活性，从而导致内源性（如肌酸酐、葡萄糖）或外源性物质的选择性分布。以下为临床应用中一些与药物相互作用有关的转运体：P-糖蛋白（P-glycoprotein（P-gp）或多药耐药蛋白1（Multi-drug resistance 1 protein，MDR1）；乳腺癌耐药蛋白（Breast cancer resistance protein，BCRP）；有机阴离子转运多肽（Organic anion transporting polypeptide，OATP）1B1/1B3；有机阴离子转运体（Organic anion transporter，OAT）1/3；多药及毒性化合物外排转运体（Multidrug and toxin extrusion，MATEs）；有机阳离子转运体（Organic cation transporter，OCT）2。如果临床DDI研究只检测全身药物暴露量，则由转运体介导的药物相互作用的后果可能并不明显"
+        }
+      }
+    ],
+    "relations": [],
+    "chunk_index": 127,
+    "source": "GMP办公室",
+    "text": "。或可使用PBPK模型来进行额外的研究。应验证并更新所有PBPK模型，以证明该模型能够充分描述第一次使用敏感指示底物的体内研究结果。评估在研药物是否诱导代谢酶的体外试验的具体要求详见附录3。（三）转运体介导的药物相互作用转运体通过影响药物的吸收、分布和消除，对不同器官和组织中药物的药动学和药效学产生临床相关的影响。与肝脏和小肠中大量表达的药物代谢酶不同，转运体在人体全身的组织中均有表达，并影响内源性和外源性物质进入人体的各个部位。转运体与代谢酶协同作用可以影响药物的分布和药理作用，同时药物也可以影响转运体的表达或活性，从而导致内源性（如肌酸酐、葡萄糖）或外源性物质的选择性分布。以下为临床应用中一些与药物相互作用有关的转运体：P-糖蛋白（P-glycoprotein（P-gp）或多药耐药蛋白1（Multi-drug resistance 1 protein，MDR1）；乳腺癌耐药蛋白（Breast cancer resistance protein，BCRP）；有机阴离子转运多肽（Organic anion transporting polypeptide，OATP）1B1/1B3；有机阴离子转运体（Organic anion transporter，OAT）1/3；多药及毒性化合物外排转运体（Multidrug and toxin extrusion，MATEs）；有机阳离子转运体（Organic cation transporter，OCT）2。如果临床DDI研究只检测全身药物暴露量，则由转运体介导的药物相互作用的后果可能并不明显"
+  }
+]

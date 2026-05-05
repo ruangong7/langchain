@@ -1,0 +1,238 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "氯氮平",
+        "properties": {
+          "name": "氯氮平"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "环丙沙星",
+        "properties": {
+          "name": "环丙沙星"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "安非他酮",
+        "properties": {
+          "name": "安非他酮"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "氟伏沙明",
+        "properties": {
+          "name": "氟伏沙明"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP1A2",
+        "properties": {
+          "name": "CYP1A2",
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP2D6",
+        "properties": {
+          "name": "CYP2D6",
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "死亡",
+        "properties": {
+          "name": "死亡",
+          "default_severity": "高"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "氯氮平血药浓度",
+        "properties": {
+          "name": "氯氮平血药浓度"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Population",
+        "name": "存在认知障碍或严重智力残疾的患者",
+        "properties": {
+          "name": "存在认知障碍或严重智力残疾的患者"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Evidence",
+        "name": "医脉通精神科_chunk_1577",
+        "properties": {
+          "chunk_id": "医脉通精神科_chunk_1577",
+          "source": "医脉通精神科",
+          "text": "。鉴于患者不能控制自己的服药安排，没有藏药史，用药依从性好，因此基本能够确定，其骤升的血药浓度与2天前开始使用的CYP1A2强抑制剂环丙沙星有关。那么从数值上看，环丙沙星究竟导致氯氮平血药浓度上升了多少？通过使用Rostami-Hodjegan及其同事基于4,963例样本所开发的公式，在没有使用安非他酮时，氯氮平的血药浓度为262ng/mL。由于CYP2D6在氯氮平一相代谢中扮演的是次要角色，CYP2D6强抑制剂可导致氯氮平水平升高40-70%；若使用70%的上限，患者联用安非他酮后的氯氮平血药浓度为445ng/mL。基于上文得出的死亡前氯氮平血药浓度（1,933ng/mL），可见联用环丙沙星后，患者的氯氮平血药浓度升高至原来的4.5倍以上。这一幅度导致了患者的死亡，也与先前所报道的氟伏沙明的幅度相仿。结语1997年，文献首次报告了氯氮平与环丙沙星发生相互作用的可能性；2005年，面向使用氯氮平患者的用药指导也进行了修改，但针对死亡转归的报告尚属首次。在处方治疗浓度窗较窄的药物时，临床医师务必高度警惕潜在的药物相互作用，并从可靠信源处获取相关信息。与CYP1A2强抑制剂联用时：1. 联用前，务必测定氯氮平的基线血药浓度；2. 氯氮平的剂量应降低三分之二；一旦患者诉出现不良反应，则应降低更多；3. 在新药达到稳态以及对氯氮平的剂量进行相应调整后，务必再次测定氯氮平的血药浓度。对于存在认知障碍或严重智力残疾的患者而言，避免药物相互作用更加重要，因为这些患者可能难以表述躯体不适，进而酿成恶果"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "环丙沙星抑制氯氮平代谢",
+        "properties": {
+          "mechanism": "CYP1A2强抑制",
+          "consequence": "氯氮平血药浓度升高4.5倍以上，导致死亡",
+          "severity": "高",
+          "confidence": "高",
+          "management_advice": "联用前测定基线血药浓度；剂量降低三分之二；出现不良反应则降低更多；新药达稳态及剂量调整后再次测定血药浓度",
+          "evidence": {
+            "chunk_index": "1577",
+            "source": "医脉通精神科",
+            "text": "其骤升的血药浓度与2天前开始使用的CYP1A2强抑制剂环丙沙星有关...联用环丙沙星后，患者的氯氮平血药浓度升高至原来的4.5倍以上。这一幅度导致了患者的死亡"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "安非他酮抑制氯氮平代谢",
+        "properties": {
+          "mechanism": "CYP2D6强抑制",
+          "consequence": "氯氮平血药浓度升高40-70%",
+          "severity": "中",
+          "confidence": "高",
+          "evidence": {
+            "chunk_index": "1577",
+            "source": "医脉通精神科",
+            "text": "CYP2D6强抑制剂可导致氯氮平水平升高40-70%；若使用70%的上限，患者联用安非他酮后的氯氮平血药浓度为445ng/mL"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "氟伏沙明抑制氯氮平代谢",
+        "properties": {
+          "mechanism": "CYP1A2强抑制",
+          "consequence": "氯氮平血药浓度显著升高",
+          "severity": "高",
+          "confidence": "中",
+          "evidence": {
+            "chunk_index": "1577",
+            "source": "医脉通精神科",
+            "text": "也与先前所报道的氟伏沙明的幅度相仿"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "环丙沙星是CYP1A2强抑制剂",
+        "properties": {
+          "role": "抑制剂",
+          "strength": "强",
+          "evidence": {
+            "chunk_index": "1577",
+            "source": "医脉通精神科",
+            "text": "CYP1A2强抑制剂环丙沙星"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "name": "安非他酮是CYP2D6强抑制剂",
+        "properties": {
+          "role": "抑制剂",
+          "strength": "强",
+          "evidence": {
+            "chunk_index": "1577",
+            "source": "医脉通精神科",
+            "text": "CYP2D6强抑制剂可导致氯氮平水平升高40-70%...患者联用安非他酮"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "氯氮平血药浓度过高导致死亡",
+        "properties": {
+          "condition": "血药浓度过高（如联用CYP1A2强抑制剂）",
+          "evidence": {
+            "chunk_index": "1577",
+            "source": "医脉通精神科",
+            "text": "联用环丙沙星后，患者的氯氮平血药浓度升高至原来的4.5倍以上。这一幅度导致了患者的死亡"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "name": "环丙沙星升高氯氮平血药浓度",
+        "properties": {
+          "effect": "升高",
+          "magnitude": "4.5倍以上",
+          "evidence": {
+            "chunk_index": "1577",
+            "source": "医脉通精神科",
+            "text": "联用环丙沙星后，患者的氯氮平血药浓度升高至原来的4.5倍以上"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "APPLIES_TO",
+        "source_id": "ent_9",
+        "target_id": "ent_1",
+        "name": "氯氮平相互作用对特殊人群风险更高",
+        "properties": {
+          "risk": "更高",
+          "reason": "可能难以表述躯体不适",
+          "evidence": {
+            "chunk_index": "1577",
+            "source": "医脉通精神科",
+            "text": "对于存在认知障碍或严重智力残疾的患者而言，避免药物相互作用更加重要，因为这些患者可能难以表述躯体不适，进而酿成恶果"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_1",
+        "target_id": "ent_10",
+        "name": "相互作用证据",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1577,
+    "source": "医脉通精神科",
+    "text": "。鉴于患者不能控制自己的服药安排，没有藏药史，用药依从性好，因此基本能够确定，其骤升的血药浓度与2天前开始使用的CYP1A2强抑制剂环丙沙星有关。那么从数值上看，环丙沙星究竟导致氯氮平血药浓度上升了多少？通过使用Rostami-Hodjegan及其同事基于4,963例样本所开发的公式，在没有使用安非他酮时，氯氮平的血药浓度为262ng/mL。由于CYP2D6在氯氮平一相代谢中扮演的是次要角色，CYP2D6强抑制剂可导致氯氮平水平升高40-70%；若使用70%的上限，患者联用安非他酮后的氯氮平血药浓度为445ng/mL。基于上文得出的死亡前氯氮平血药浓度（1,933ng/mL），可见联用环丙沙星后，患者的氯氮平血药浓度升高至原来的4.5倍以上。这一幅度导致了患者的死亡，也与先前所报道的氟伏沙明的幅度相仿。结语1997年，文献首次报告了氯氮平与环丙沙星发生相互作用的可能性；2005年，面向使用氯氮平患者的用药指导也进行了修改，但针对死亡转归的报告尚属首次。在处方治疗浓度窗较窄的药物时，临床医师务必高度警惕潜在的药物相互作用，并从可靠信源处获取相关信息。与CYP1A2强抑制剂联用时：1. 联用前，务必测定氯氮平的基线血药浓度；2. 氯氮平的剂量应降低三分之二；一旦患者诉出现不良反应，则应降低更多；3. 在新药达到稳态以及对氯氮平的剂量进行相应调整后，务必再次测定氯氮平的血药浓度。对于存在认知障碍或严重智力残疾的患者而言，避免药物相互作用更加重要，因为这些患者可能难以表述躯体不适，进而酿成恶果"
+  }
+]

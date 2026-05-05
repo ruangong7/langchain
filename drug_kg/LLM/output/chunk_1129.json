@@ -1,0 +1,220 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "泮托拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "雷贝拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Food",
+        "name": "银杏叶制剂",
+        "properties": {
+          "类型": "中药材",
+          "关键成分": "银杏叶提取物"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "CYP2C19",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Mechanism",
+        "name": "CYP2C19活性诱导",
+        "properties": {
+          "机制类型": "酶诱导"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Food",
+        "name": "圣约翰草",
+        "properties": {
+          "类型": "中药材"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "CYP3A5",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "奥美拉唑与伏立康唑合用时血药浓度均明显升高",
+        "properties": {
+          "mechanism": "",
+          "effect": "奥美拉唑的Cmax和AUC分别增高116%和280%，伏立康唑的Cmax和AUC分别增高15%和41%",
+          "recommendation": "建议监测伏立康唑血药浓度，及时调整剂量，并尽量选择与伏立康唑相互作用小的质子泵抑制剂如泮托拉唑或雷贝拉唑",
+          "evidence": {
+            "chunk_index": 1129,
+            "source": "凡默谷",
+            "text": "有研究表明，奥美拉唑与伏立康唑合用时，奥美拉唑的峰浓度( Cmax) 和曲线下面积( AUC) 分别增高 116% 和 280% ，伏立康唑的 Cmax 和 AUC 分别增高 15% 和 41% ，二者血药浓度均明显升高，但奥美拉唑血药浓度增加更为明显［6］。临床应用中建议监测伏立康唑血药浓度，及时调整剂量，并尽量选择与伏立康唑相互作用小的 质子泵抑制剂如: 泮托拉唑或雷贝拉唑。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "奥美拉唑属于质子泵抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_3",
+        "name": "泮托拉唑属于质子泵抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_3",
+        "name": "雷贝拉唑属于质子泵抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_2",
+        "name": "银杏叶制剂与伏立康唑联合使用可能降低伏立康唑血药浓度",
+        "properties": {
+          "mechanism": "银杏叶提取物通过Nrf2介导的信号通路诱导CYP2C19表达，增强其活性",
+          "effect": "伏立康唑体内代谢加快，血药浓度降低，抗真菌疗效减弱",
+          "recommendation": "应尽量避免二者联合，如必须合用时，建议酌情增加伏立康唑用量，并监测药物血药浓度及时调整用量",
+          "evidence": {
+            "chunk_index": 1129,
+            "source": "凡默谷",
+            "text": "伏立康唑与银杏叶制剂( 中效 CYP2C19 活性诱导剂) 联合有报道银杏叶提取物通过 Nrf2 介导的信号通路，明显增加了大鼠肝脏的 CYP 酶的含量和CYPZBmRNA 的表达，尤其是对 CYP2C19 有极大的诱导作用［7］。因此，当银杏叶及伏立康唑联合使用时， CYP2C19 活性增强，可能使伏立康唑的体内代谢加快，从而降低伏立康唑在血中的药物浓度，使得伏立康 唑抗真菌的疗效降低。临床应用中应尽量避免二者联 合，如必须合用时，建议酌情增加伏立康唑用量，并监 测药物血药浓度及时调整用量。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "name": "银杏叶制剂具有CYP2C19活性诱导机制",
+        "properties": {}
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_2",
+        "name": "利福平与伏立康唑联合使用发生药物相互作用",
+        "properties": {
+          "mechanism": "利福平通过增加CYP3A4、CYP3A5、CYP2C19酶活性或提高P-gp表达",
+          "effect": "可能降低伏立康唑血药浓度",
+          "recommendation": "避免联合使用",
+          "evidence": {
+            "chunk_index": 1129,
+            "source": "凡默谷",
+            "text": "伏立康唑与利福平及圣约翰草 ( 强效 CYP2C19 活性诱导剂) 联合利福平与圣约翰草都是主要通过增加 CYP3A4、CYP3A5、CYP2C19 酶的活性或提高 P-gp 的表达与伏立康唑发生药物相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_2",
+        "name": "圣约翰草与伏立康唑联合使用发生药物相互作用",
+        "properties": {
+          "mechanism": "圣约翰草通过增加CYP3A4、CYP3A5、CYP2C19酶活性或提高P-gp表达",
+          "effect": "可能降低伏立康唑血药浓度",
+          "recommendation": "避免联合使用",
+          "evidence": {
+            "chunk_index": 1129,
+            "source": "凡默谷",
+            "text": "伏立康唑与利福平及圣约翰草 ( 强效 CYP2C19 活性诱导剂) 联合利福平与圣约翰草都是主要通过增加 CYP3A4、CYP3A5、CYP2C19 酶的活性或提高 P-gp 的表达与伏立康唑发生药物相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_14",
+        "name": "伏立康唑血药浓度需监测",
+        "properties": {
+          "context": "与奥美拉唑、银杏叶制剂、利福平或圣约翰草合用时"
+        }
+      }
+    ],
+    "chunk_index": 1129,
+    "source": "凡默谷",
+    "text": "。有研究表明，奥美拉唑与伏立康唑合用时，奥美拉唑的峰浓度( Cmax) 和曲线下面积( AUC) 分别增高 116% 和 280% ，伏立康唑的 Cmax 和 AUC 分别增高 15% 和 41% ，二者血药浓度均明显升高，但奥美拉唑血药浓度增加更为明显［6］。众 多 PPI 制剂中奥美拉唑显示出最强的抑制作用，雷贝最弱。临床应用中建议监测伏立康唑血药浓度，及时调整剂量，并尽量选择与伏立康唑相互作用小的 质子泵抑制剂如: 泮托拉唑或雷贝拉唑。3.2.2 伏立康唑与银杏叶制剂( 中效 CYP2C19 活性诱导剂) 联合有报道银杏叶提取物通过 Nrf2 介导的信号通路，明显增加了大鼠肝脏的 CYP 酶的含量和CYPZBmRNA 的表达，尤其是对 CYP2C19 有极大的诱导作用［7］。因此，当银杏叶及伏立康唑联合使用时， CYP2C19 活性增强，可能使伏立康唑的体内代谢加快，从而降低伏立康唑在血中的药物浓度，使得伏立康 唑抗真菌的疗效降低。临床应用中应尽量避免二者联 合，如必须合用时，建议酌情增加伏立康唑用量，并监 测药物血药浓度及时调整用量。3.2.3 伏立康唑与利福平及圣约翰草 ( 强效 CYP2C19 活性诱导剂) 联合利福平与圣约翰草都是主要通过增加 CYP3A4、CYP3A5、CYP2C19 酶的活性或提高 P-gp 的表达与伏立康唑发生药物相互作用"
+  }
+]

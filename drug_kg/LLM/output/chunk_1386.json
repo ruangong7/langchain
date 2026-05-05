@@ -1,0 +1,253 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "三环类药物",
+        "properties": {
+          "别名列表": [
+            "TCA"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "单胺氧化酶抑制剂",
+        "properties": {
+          "别名列表": [
+            "MAOI"
+          ]
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "选择性5-羟色胺再摄取抑制剂",
+        "properties": {
+          "别名列表": [
+            "SSRI"
+          ]
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "选择性去甲肾上腺素再摄取抑制剂",
+        "properties": {
+          "别名列表": [
+            "NARI"
+          ]
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "5-HT和去甲肾上腺素再摄取抑制剂",
+        "properties": {
+          "别名列表": [
+            "SNRI"
+          ]
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "去甲肾上腺素能和特异性5-羟色胺能抑制剂",
+        "properties": {
+          "别名列表": [
+            "NaSSA"
+          ]
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "肝脏微粒体酶",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "抑郁症",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "三环类药物用于治疗抑郁症",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1386,
+            "source": "医学界精神病学频道",
+            "text": "抑郁症是临床常见的精神疾病，目前抗抑郁药物有三环类药物（TCA）、单胺氧化酶抑制剂 （MAOI）、选择性5-羟色胺再摄取抑制剂（SSRI）、选择性去甲肾上腺素再摄取抑制剂（NARI）、 5-HT和去甲肾上腺素再摄取抑制剂（SNRI）及去甲肾上腺素能和特异性5-羟色胺能抑制剂 （NaSSA）。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "name": "单胺氧化酶抑制剂用于治疗抑郁症",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1386,
+            "source": "医学界精神病学频道",
+            "text": "抑郁症是临床常见的精神疾病，目前抗抑郁药物有三环类药物（TCA）、单胺氧化酶抑制剂 （MAOI）、选择性5-羟色胺再摄取抑制剂（SSRI）、选择性去甲肾上腺素再摄取抑制剂（NARI）、 5-HT和去甲肾上腺素再摄取抑制剂（SNRI）及去甲肾上腺素能和特异性5-羟色胺能抑制剂 （NaSSA）。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "name": "选择性5-羟色胺再摄取抑制剂用于治疗抑郁症",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1386,
+            "source": "医学界精神病学频道",
+            "text": "抑郁症是临床常见的精神疾病，目前抗抑郁药物有三环类药物（TCA）、单胺氧化酶抑制剂 （MAOI）、选择性5-羟色胺再摄取抑制剂（SSRI）、选择性去甲肾上腺素再摄取抑制剂（NARI）、 5-HT和去甲肾上腺素再摄取抑制剂（SNRI）及去甲肾上腺素能和特异性5-羟色胺能抑制剂 （NaSSA）。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "name": "选择性去甲肾上腺素再摄取抑制剂用于治疗抑郁症",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1386,
+            "source": "医学界精神病学频道",
+            "text": "抑郁症是临床常见的精神疾病，目前抗抑郁药物有三环类药物（TCA）、单胺氧化酶抑制剂 （MAOI）、选择性5-羟色胺再摄取抑制剂（SSRI）、选择性去甲肾上腺素再摄取抑制剂（NARI）、 5-HT和去甲肾上腺素再摄取抑制剂（SNRI）及去甲肾上腺素能和特异性5-羟色胺能抑制剂 （NaSSA）。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_5",
+        "target_id": "ent_8",
+        "name": "5-HT和去甲肾上腺素再摄取抑制剂用于治疗抑郁症",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1386,
+            "source": "医学界精神病学频道",
+            "text": "抑郁症是临床常见的精神疾病，目前抗抑郁药物有三环类药物（TCA）、单胺氧化酶抑制剂 （MAOI）、选择性5-羟色胺再摄取抑制剂（SSRI）、选择性去甲肾上腺素再摄取抑制剂（NARI）、 5-HT和去甲肾上腺素再摄取抑制剂（SNRI）及去甲肾上腺素能和特异性5-羟色胺能抑制剂 （NaSSA）。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "name": "去甲肾上腺素能和特异性5-羟色胺能抑制剂用于治疗抑郁症",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1386,
+            "source": "医学界精神病学频道",
+            "text": "抑郁症是临床常见的精神疾病，目前抗抑郁药物有三环类药物（TCA）、单胺氧化酶抑制剂 （MAOI）、选择性5-羟色胺再摄取抑制剂（SSRI）、选择性去甲肾上腺素再摄取抑制剂（NARI）、 5-HT和去甲肾上腺素再摄取抑制剂（SNRI）及去甲肾上腺素能和特异性5-羟色胺能抑制剂 （NaSSA）。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "三环类药物经肝脏微粒体酶代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1386,
+            "source": "医学界精神病学频道",
+            "text": "这些药物大多需要肝脏微粒体酶代谢，部分药物及其代谢产物又可以诱导或抑制肝脏微粒体酶，从而影响其他合用药物的代谢，可引起有临床意义的药物相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "name": "单胺氧化酶抑制剂经肝脏微粒体酶代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1386,
+            "source": "医学界精神病学频道",
+            "text": "这些药物大多需要肝脏微粒体酶代谢，部分药物及其代谢产物又可以诱导或抑制肝脏微粒体酶，从而影响其他合用药物的代谢，可引起有临床意义的药物相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "name": "选择性5-羟色胺再摄取抑制剂经肝脏微粒体酶代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1386,
+            "source": "医学界精神病学频道",
+            "text": "这些药物大多需要肝脏微粒体酶代谢，部分药物及其代谢产物又可以诱导或抑制肝脏微粒体酶，从而影响其他合用药物的代谢，可引起有临床意义的药物相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "选择性去甲肾上腺素再摄取抑制剂经肝脏微粒体酶代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1386,
+            "source": "医学界精神病学频道",
+            "text": "这些药物大多需要肝脏微粒体酶代谢，部分药物及其代谢产物又可以诱导或抑制肝脏微粒体酶，从而影响其他合用药物的代谢，可引起有临床意义的药物相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "name": "5-HT和去甲肾上腺素再摄取抑制剂经肝脏微粒体酶代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1386,
+            "source": "医学界精神病学频道",
+            "text": "这些药物大多需要肝脏微粒体酶代谢，部分药物及其代谢产物又可以诱导或抑制肝脏微粒体酶，从而影响其他合用药物的代谢，可引起有临床意义的药物相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "去甲肾上腺素能和特异性5-羟色胺能抑制剂经肝脏微粒体酶代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1386,
+            "source": "医学界精神病学频道",
+            "text": "这些药物大多需要肝脏微粒体酶代谢，部分药物及其代谢产物又可以诱导或抑制肝脏微粒体酶，从而影响其他合用药物的代谢，可引起有临床意义的药物相互作用"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1386,
+    "source": "医学界精神病学频道",
+    "text": "你知道抗抑郁药物的相互作用吗？作者 | 侣行家来源 | 医学界精神病学频道抑郁症是临床常见的精神疾病，目前抗抑郁药物有三环类药物（TCA）、单胺氧化酶抑制剂 （MAOI）、选择性5-羟色胺再摄取抑制剂（SSRI）、选择性去甲肾上腺素再摄取抑制剂（NARI）、 5-HT和去甲肾上腺素再摄取抑制剂（SNRI）及去甲肾上腺素能和特异性5-羟色胺能抑制剂 （NaSSA）。这些药物大多需要肝脏微粒体酶代谢，部分药物及其代谢产物又可以诱导或抑制肝脏微粒体酶，从而影响其他合用药物的代谢，可引起有临床意义的药物相互作用"
+  }
+]

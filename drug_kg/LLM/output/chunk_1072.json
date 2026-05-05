@@ -1,0 +1,482 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Food",
+        "name": "陈皮",
+        "properties": {
+          "type": "中药材",
+          "关键成分": "黄酮类成分（如橙皮苷、橘皮素）"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "帕罗西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "勃起功能障碍",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "地塞米松",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "神经毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "抑郁",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "呋喃氟尿嘧啶",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "塞替派",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "甲基苄肼",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "环己亚硝脲",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "卡铂",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "表阿霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "SideEffect",
+        "name": "致突变毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Food",
+        "name": "酸橙（枳壳、枳实）",
+        "properties": {
+          "type": "中药材"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "顺铂",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "SideEffect",
+        "name": "肾毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "对乙酰氨基酚",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "SideEffect",
+        "name": "肝损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Food",
+        "name": "橙皮苷",
+        "properties": {
+          "type": "补充剂",
+          "关键成分": "黄酮类成分"
+        }
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "安非他酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Indicator",
+        "name": "5-羟色胺水平",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Food",
+        "name": "橙皮素",
+        "properties": {
+          "type": "补充剂",
+          "关键成分": "黄酮类成分"
+        }
+      },
+      {
+        "id": "ent_23",
+        "type": "Drug",
+        "name": "来曲唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Disease",
+        "name": "乳腺癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "SideEffect",
+        "name": "骨质疏松",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "Food",
+        "name": "橘皮素",
+        "properties": {
+          "type": "补充剂",
+          "关键成分": "黄酮类成分"
+        }
+      },
+      {
+        "id": "ent_27",
+        "type": "Drug",
+        "name": "他莫昔芬",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Evidence",
+        "name": "凡默谷公众号",
+        "properties": {
+          "chunk_id": "1072",
+          "source": "凡默谷"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "陈皮改善帕罗西汀诱导的勃起功能障碍",
+        "properties": {
+          "机制": "药效学相互作用（药理效应改变）",
+          "后果": "减毒（改善勃起功能障碍）",
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "陈皮可改善帕罗西汀诱导的大鼠勃起功能障碍 [26]。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "陈皮拮抗地塞米松的神经毒性",
+        "properties": {
+          "机制": "药效学相互作用（药理效应改变）",
+          "后果": "减毒（拮抗神经毒性，缓解抑郁样行为）",
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "其提取物还表现出神经保护作用，可拮抗地塞米松的神经毒性，缓解小鼠的抑郁样行为[27]。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "陈皮拮抗呋喃氟尿嘧啶等化疗药物的致突变毒性",
+        "properties": {
+          "机制": "药效学相互作用（药理效应改变）",
+          "后果": "减毒（拮抗致突变毒性）",
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "细菌 DNA 损伤诱导反应（SOS 反应）原噬菌体诱导试验显示，陈皮表现出对呋喃氟尿嘧啶、塞替派、甲基苄肼、环己亚硝脲、卡铂、表阿霉素 6 种化疗药物的致突变毒性的拮抗作用[28]。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_15",
+        "name": "酸橙减轻顺铂的肾毒性",
+        "properties": {
+          "机制": "药效学相互作用（药理效应改变）",
+          "后果": "减毒（减轻肾毒性）",
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "酸橙（枳壳、枳实的基原之一）对肾脏有保护作用，可减轻顺铂的肾毒性[29]。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_17",
+        "name": "枳实拮抗对乙酰氨基酚引起的肝损伤",
+        "properties": {
+          "机制": "药效学相互作用（药理效应改变）",
+          "后果": "减毒（拮抗肝损伤）",
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "枳实还可拮抗对乙酰氨基酚引起的肝损伤[30]。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_19",
+        "target_id": "ent_15",
+        "name": "橙皮苷对顺铂引起的肾损伤具有保护作用",
+        "properties": {
+          "机制": "药效学相互作用（药理效应改变）",
+          "后果": "减毒（保护肾损伤）",
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "橙皮苷对顺铂引起的大鼠肾损伤具有保护作用[31]。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_19",
+        "target_id": "ent_20",
+        "name": "橙皮苷增强安非他酮的抗抑郁作用",
+        "properties": {
+          "机制": "药效学相互作用（药理效应改变）",
+          "后果": "增效（增强抗抑郁作用，升高5-羟色胺水平）",
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "橙皮苷能增强安非他酮的抗抑郁作用，与单用安非他酮相比，联用橙皮苷的小鼠悬尾试验不动时间缩短，5-羟色胺水平升高[32]。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_22",
+        "target_id": "ent_23",
+        "name": "橙皮素与来曲唑联合治疗乳腺癌存在协同作用",
+        "properties": {
+          "机制": "药效学相互作用（药理效应改变）",
+          "后果": "增效（协同治疗乳腺癌），减毒（逆转来曲唑引起的骨质疏松）",
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "橙皮素可降低小鼠血浆雌激素水平，抑制乳腺癌生长，与来曲唑联合治疗乳腺癌存在协同作用，还可以逆转来曲唑引起的骨质疏松[33]。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_26",
+        "target_id": "ent_27",
+        "name": "橘皮素逆转他莫昔芬的抑瘤作用",
+        "properties": {
+          "机制": "药效学相互作用（药理效应改变）",
+          "后果": "减效（逆转抑瘤作用）",
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "橘皮素在体外可有效抑制人乳腺癌细胞 MCF7/6 的生长和侵袭，但在与他莫昔芬联用时可逆转他莫昔芬对 MCF7/6 荷瘤小鼠的抑瘤作用[34]。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_26",
+        "target_id": "ent_15",
+        "name": "橘皮素与顺铂联用减毒增效",
+        "properties": {
+          "机制": "药效学相互作用（药理效应改变）",
+          "后果": "减毒（减轻肾损伤），增效（增强细胞毒性作用）",
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "尚有研究揭示了橘皮素与顺铂联用减毒增效的双重益处，既可减轻顺铂导致的肾损伤，又可增强其细胞毒性作用[35]"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "帕罗西汀可能导致勃起功能障碍",
+        "properties": {
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "帕罗西汀诱导的大鼠勃起功能障碍"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "地塞米松可能导致神经毒性",
+        "properties": {
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "地塞米松的神经毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_7",
+        "target_id": "ent_13",
+        "name": "呋喃氟尿嘧啶等可能导致致突变毒性",
+        "properties": {
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "呋喃氟尿嘧啶、塞替派、甲基苄肼、环己亚硝脲、卡铂、表阿霉素 6 种化疗药物的致突变毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_15",
+        "target_id": "ent_16",
+        "name": "顺铂可能导致肾毒性",
+        "properties": {
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "顺铂的肾毒性"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_17",
+        "target_id": "ent_18",
+        "name": "对乙酰氨基酚可能导致肝损伤",
+        "properties": {
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "对乙酰氨基酚引起的肝损伤"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_23",
+        "target_id": "ent_25",
+        "name": "来曲唑可能导致骨质疏松",
+        "properties": {
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "来曲唑引起的骨质疏松"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_20",
+        "target_id": "ent_6",
+        "name": "安非他酮用于治疗抑郁",
+        "properties": {
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "安非他酮的抗抑郁作用"
+          }
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_23",
+        "target_id": "ent_24",
+        "name": "来曲唑用于治疗乳腺癌",
+        "properties": {
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "与来曲唑联合治疗乳腺癌"
+          }
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_27",
+        "target_id": "ent_24",
+        "name": "他莫昔芬用于治疗乳腺癌",
+        "properties": {
+          "证据": {
+            "chunk_index": 1072,
+            "source": "凡默谷",
+            "text": "他莫昔芬对 MCF7/6 荷瘤小鼠的抑瘤作用"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1072,
+    "source": "凡默谷",
+    "text": "。内容由凡默谷小编查阅文献选取，排版与编辑为原创。如转载，请尊重劳动成果，注明来源于凡默谷公众号。2柑橘属中药药效学相互作用2.1 柑橘属中药药效学相互作用的表现  药效学相互作用主要表现为药理效应改变引起的药效和（或毒性）的改变，柑橘属中药 在对联用药物的减毒和增效方面表现突出。陈皮可改善帕罗西汀诱导的大鼠勃起功能障碍 [26]。其提取物还表现出神经保护作用，可拮抗地塞米松的神经毒性，缓解小鼠的抑郁样行 为[27]。细菌 DNA 损伤诱导反应（SOS 反应）原噬菌体诱导试验显示，陈皮表现出对呋喃氟 尿嘧啶、塞替派、甲基苄肼、环己亚硝脲、卡铂、表阿霉素 6 种化疗药物的致突变毒性的拮 抗作用[28]。酸橙（枳壳、枳实的基原之一）对肾脏有保护作用，可减轻顺铂的肾毒性[29]。枳实还可拮抗对乙酰氨基酚引起的肝损伤[30]。柑橘属中药的药效学相互作用主要归因于橙皮苷、橘皮素等黄酮类成分。橙皮苷对顺铂 引起的大鼠肾损伤具有保护作用[31]。橙皮苷能增强安非他酮的抗抑郁作用，与单用安非他 酮相比，联用橙皮苷的小鼠悬尾试验不动时间缩短，5-羟色胺水平升高[32]。橙皮素可降低小 鼠血浆雌激素水平，抑制乳腺癌生长，与来曲唑联合治疗乳腺癌存在协同作用，还可以逆转 来曲唑引起的骨质疏松[33]。橘皮素在体外可有效抑制人乳腺癌细胞 MCF7/6 的生长和侵袭， 但在与他莫昔芬联用时可逆转他莫昔芬对 MCF7/6 荷瘤小鼠的抑瘤作用[34]。尚有研究揭示了 橘皮素与顺铂联用减毒增效的双重益处，既可减轻顺铂导致的肾损伤，又可增强其细胞毒性 作用[35]"
+  }
+]

@@ -1,0 +1,339 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "罗格列酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "CYP2C8",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "SLCO1B1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "DPP-4抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "沙格列汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "西格列汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "维格列汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "CYP3A5",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "辛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "地尔硫卓",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Food",
+        "name": "白藜芦醇",
+        "properties": {
+          "类型": "补充剂"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "阿格列汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "SideEffect",
+        "name": "低血糖",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "CYP2C8基因多态性影响罗格列酮疗效",
+        "properties": {
+          "mechanism": "基因多态性影响药效",
+          "evidence": {
+            "chunk_index": 1152,
+            "source": "凡默谷",
+            "text": "研究还发现CYP2C8和SLCO1B1(罗格列酮的转运体)基因多态性对罗格列酮的临床疗效有着很大的影响〔28〕。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "SLCO1B1基因多态性影响罗格列酮疗效",
+        "properties": {
+          "mechanism": "基因多态性影响药效",
+          "evidence": {
+            "chunk_index": 1152,
+            "source": "凡默谷",
+            "text": "研究还发现CYP2C8和SLCO1B1(罗格列酮的转运体)基因多态性对罗格列酮的临床疗效有着很大的影响〔28〕。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_4",
+        "name": "沙格列汀属于DPP-4抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1152,
+            "source": "凡默谷",
+            "text": "DPP-4抑制剂是临床常用的降糖药，主要包括沙格列汀、西格列汀和维格列汀等"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_4",
+        "name": "西格列汀属于DPP-4抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1152,
+            "source": "凡默谷",
+            "text": "DPP-4抑制剂是临床常用的降糖药，主要包括沙格列汀、西格列汀和维格列汀等"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_4",
+        "name": "维格列汀属于DPP-4抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1152,
+            "source": "凡默谷",
+            "text": "DPP-4抑制剂是临床常用的降糖药，主要包括沙格列汀、西格列汀和维格列汀等"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_8",
+        "name": "沙格列汀主要经CYP3A4代谢",
+        "properties": {
+          "mechanism": "代谢",
+          "evidence": {
+            "chunk_index": 1152,
+            "source": "凡默谷",
+            "text": "其中沙格列汀主要CYP3A4和CYP3A5代谢，且CYP3A4的催化效率约为CYP3A5的4倍"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_9",
+        "name": "沙格列汀经CYP3A5代谢",
+        "properties": {
+          "mechanism": "代谢",
+          "evidence": {
+            "chunk_index": 1152,
+            "source": "凡默谷",
+            "text": "其中沙格列汀主要CYP3A4和CYP3A5代谢，且CYP3A4的催化效率约为CYP3A5的4倍"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_5",
+        "name": "辛伐他汀增加沙格列汀暴露量",
+        "properties": {
+          "effect": "沙格列汀AUC增加12%，活性代谢物暴露量降低2%",
+          "evidence": {
+            "chunk_index": 1152,
+            "source": "凡默谷",
+            "text": "与沙格列汀单用相比，辛伐他汀、地尔硫卓或酮康唑联合给药使沙格列汀浓度-时间曲线面积分别增加了12%、109%和145%; 而其活性代谢物5-羟基沙格列汀的平均暴露量分别降低了2%、34%和88%"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_5",
+        "name": "地尔硫卓增加沙格列汀暴露量",
+        "properties": {
+          "effect": "沙格列汀AUC增加109%，活性代谢物暴露量降低34%",
+          "evidence": {
+            "chunk_index": 1152,
+            "source": "凡默谷",
+            "text": "与沙格列汀单用相比，辛伐他汀、地尔硫卓或酮康唑联合给药使沙格列汀浓度-时间曲线面积分别增加了12%、109%和145%; 而其活性代谢物5-羟基沙格列汀的平均暴露量分别降低了2%、34%和88%"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_5",
+        "name": "酮康唑增加沙格列汀暴露量",
+        "properties": {
+          "effect": "沙格列汀AUC增加145%，活性代谢物暴露量降低88%",
+          "evidence": {
+            "chunk_index": 1152,
+            "source": "凡默谷",
+            "text": "与沙格列汀单用相比，辛伐他汀、地尔硫卓或酮康唑联合给药使沙格列汀浓度-时间曲线面积分别增加了12%、109%和145%; 而其活性代谢物5-羟基沙格列汀的平均暴露量分别降低了2%、34%和88%"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_6",
+        "name": "白藜芦醇抑制西格列汀代谢",
+        "properties": {
+          "mechanism": "抑制P450酶活性",
+          "effect": "增加西格列汀暴露量，增加低血糖风险",
+          "recommendation": "应降低剂量",
+          "evidence": {
+            "chunk_index": 1152,
+            "source": "凡默谷",
+            "text": "白藜芦醇(在治疗糖尿病肾病和神经病变有一定的疗效)与西格列汀、沙格列汀或阿格列汀合用时，前者可通过抑制P450酶活性导致这些降糖药物的代谢降低，从而导致降糖药物在体内的暴露量增加，提示临床合用时应降低这些降糖药物的剂量，以免发生代谢性药物相互作用，增加患者低血糖风险〔29〕。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_5",
+        "name": "白藜芦醇抑制沙格列汀代谢",
+        "properties": {
+          "mechanism": "抑制P450酶活性",
+          "effect": "增加沙格列汀暴露量，增加低血糖风险",
+          "recommendation": "应降低剂量",
+          "evidence": {
+            "chunk_index": 1152,
+            "source": "凡默谷",
+            "text": "白藜芦醇(在治疗糖尿病肾病和神经病变有一定的疗效)与西格列汀、沙格列汀或阿格列汀合用时，前者可通过抑制P450酶活性导致这些降糖药物的代谢降低，从而导致降糖药物在体内的暴露量增加，提示临床合用时应降低这些降糖药物的剂量，以免发生代谢性药物相互作用，增加患者低血糖风险〔29〕。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_14",
+        "name": "白藜芦醇抑制阿格列汀代谢",
+        "properties": {
+          "mechanism": "抑制P450酶活性",
+          "effect": "增加阿格列汀暴露量，增加低血糖风险",
+          "recommendation": "应降低剂量",
+          "evidence": {
+            "chunk_index": 1152,
+            "source": "凡默谷",
+            "text": "白藜芦醇(在治疗糖尿病肾病和神经病变有一定的疗效)与西格列汀、沙格列汀或阿格列汀合用时，前者可通过抑制P450酶活性导致这些降糖药物的代谢降低，从而导致降糖药物在体内的暴露量增加，提示临床合用时应降低这些降糖药物的剂量，以免发生代谢性药物相互作用，增加患者低血糖风险〔29〕。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_13",
+        "target_id": "ent_16",
+        "name": "白藜芦醇与DPP-4抑制剂合用增加低血糖风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1152,
+            "source": "凡默谷",
+            "text": "以免发生代谢性药物相互作用，增加患者低血糖风险〔29〕。"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_5",
+        "name": "利福平与沙格列汀联用无显著相互作用",
+        "properties": {
+          "effect": "不影响沙格列汀药动学与药效学",
+          "recommendation": "无需剂量调整",
+          "evidence": {
+            "chunk_index": 1152,
+            "source": "凡默谷",
+            "text": "在一项关于利福平(CYP3A4的强诱导剂)与沙格列汀联合用药的临床研究中显示，常规剂量下利福平不影响沙格列汀临床药动学与药效学，两药合用无需剂量调整〔32〕"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1152,
+    "source": "凡默谷",
+    "text": "。此外，研究还发现CYP2C8和SLCO1B1(罗格列酮的转运体)基因多态性对罗格列酮的临床疗效有着很大的影响〔28〕。5二肽基肽酶(DPP)-4抑制剂DPP-4抑制剂是临床常用的降糖药，主要包括沙格列汀、西格列汀和维格列汀等; P450酶参与了多个DPP-4抑制剂的代谢〔29〕。其中沙格列汀主要CYP3A4和CYP3A5代谢，且CYP3A4的催化效率约为CYP3A5的4倍; CYP3A5基因多态性变化对沙格列汀清除的影响较小〔30〕。与沙格列汀单用相比，辛伐他汀、地尔硫卓或酮康唑联合给药使沙格列汀浓度-时间曲线面积分别增加了12%、109%和145%; 而其活性代谢物5-羟基沙格列汀的平均暴露量分别降低了2%、34%和88%，表明CYP3A4强抑制剂能改变沙格列汀及其代谢物的药动学。在健康受试者中，沙格列汀与CYP3A4底物或中等抑制剂联用时受试者耐受性良好，无需调整临床剂量。但与CYP3A4强抑制剂联合使用时，需要调整临床给药剂量〔31〕。近来的研究显示，白藜芦醇(在治疗糖尿病肾病和神经病变有一定的疗效)与西格列汀、沙格列汀或阿格列汀合用时，前者可通过抑制P450酶活性导致这些降糖药物的代谢降低，从而导致降糖药物在体内的暴露量增加，提示临床合用时应降低这些降糖药物的剂量，以免发生代谢性药物相互作用，增加患者低血糖风险〔29〕。但在一项关于利福平(CYP3A4的强诱导剂)与沙格列汀联合用药的临床研究中显示，常规剂量下利福平不影响沙格列汀临床药动学与药效学，两药合用无需剂量调整〔32〕"
+  }
+]

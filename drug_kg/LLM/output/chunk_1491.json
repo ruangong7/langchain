@@ -1,0 +1,258 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "瑞舒伐他汀",
+        "properties": {
+          "通用名": "瑞舒伐他汀",
+          "剂型": "",
+          "规格": "20 mg qd, 10 mg qd",
+          "适应症": "",
+          "用法用量": "20 mg qd, 10 mg qd"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "properties": {
+          "通用名": "阿托伐他汀",
+          "剂型": "",
+          "规格": "80 mg 负荷",
+          "适应症": "",
+          "用法用量": "80 mg 负荷"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "他汀类",
+        "properties": {
+          "名称": "他汀类",
+          "别名列表": [],
+          "代表药品": [
+            "瑞舒伐他汀",
+            "阿托伐他汀"
+          ]
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "肝酶升高",
+        "properties": {
+          "名称": "肝酶升高",
+          "默认严重程度": ""
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "ALT",
+        "properties": {
+          "名称": "ALT"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "AST",
+        "properties": {
+          "名称": "AST"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "肝病",
+        "properties": {
+          "名称": "肝病",
+          "疾病编码": ""
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Evidence",
+        "name": "JUPITER研究",
+        "properties": {
+          "来源类型": "论文",
+          "分块ID": "1491",
+          "来源": "医脉通心血管",
+          "raw_text": "2009年发表的JUPITER研究，共纳入17802名受试者，随访期间瑞舒伐他汀20 mg qd组中ALT或AST升高＞3倍正常上限的患者与安慰剂组相同（0.3% vs. 0.2%, P=0.34）。"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Evidence",
+        "name": "HOPE-3研究",
+        "properties": {
+          "来源类型": "论文",
+          "分块ID": "1491",
+          "来源": "医脉通心血管",
+          "raw_text": "2016年发表的HOPE-3研究，共纳入12705名受试者，瑞舒伐他汀10 mg qd组因为肝酶升高而临时停药的比例与安慰剂组相同（0.1% vs. 0.1%, P=0.42），因为肝酶升高而永久停药的患者在两组间也没有显著差异（0.3% vs. 0.1%, P=0.23）。"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Evidence",
+        "name": "SECURE-PCI研究",
+        "properties": {
+          "来源类型": "论文",
+          "分块ID": "1491",
+          "来源": "医脉通心血管",
+          "raw_text": "2018年发表的SECURE-PCI研究中，PCI前阿托伐他汀80 mg负荷组患者的ALT、AST水平与安慰剂负荷组没有发现显著差异（23.2U/mL vs. 25.7U/mL与29.4 U/mL vs. 33.0 U/mL），不过不能除外检测时间距离负荷时间确实已经过长。"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Evidence",
+        "name": "2016年JAMA荟萃分析",
+        "properties": {
+          "来源类型": "论文",
+          "分块ID": "1491",
+          "来源": "医脉通心血管",
+          "raw_text": "2016年JAMA上刊出的针对无心血管病史成年患者使用他汀的荟萃分析显示，使用他汀相比安慰剂不显著增加肝酶升高的风险（RR=1.10, 95%CI 0.90-1.35）。"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "属于类别",
+        "properties": {}
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "属于类别",
+        "properties": {}
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "可能导致",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1491",
+              "source": "医脉通心血管",
+              "text": "随访期间瑞舒伐他汀20 mg qd组中ALT或AST升高＞3倍正常上限的患者与安慰剂组相同（0.3% vs. 0.2%, P=0.34）。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "可能导致",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1491",
+              "source": "医脉通心血管",
+              "text": "PCI前阿托伐他汀80 mg负荷组患者的ALT、AST水平与安慰剂负荷组没有发现显著差异（23.2U/mL vs. 25.7U/mL与29.4 U/mL vs. 33.0 U/mL）"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "影响指标",
+        "properties": {
+          "effect": "升高",
+          "evidence": [
+            {
+              "chunk_index": "1491",
+              "source": "医脉通心血管",
+              "text": "随访期间瑞舒伐他汀20 mg qd组中ALT或AST升高＞3倍正常上限的患者与安慰剂组相同（0.3% vs. 0.2%, P=0.34）。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "影响指标",
+        "properties": {
+          "effect": "升高",
+          "evidence": [
+            {
+              "chunk_index": "1491",
+              "source": "医脉通心血管",
+              "text": "随访期间瑞舒伐他汀20 mg qd组中ALT或AST升高＞3倍正常上限的患者与安慰剂组相同（0.3% vs. 0.2%, P=0.34）。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "影响指标",
+        "properties": {
+          "effect": "无显著差异",
+          "evidence": [
+            {
+              "chunk_index": "1491",
+              "source": "医脉通心血管",
+              "text": "PCI前阿托伐他汀80 mg负荷组患者的ALT、AST水平与安慰剂负荷组没有发现显著差异（23.2U/mL vs. 25.7U/mL与29.4 U/mL vs. 33.0 U/mL）"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "name": "影响指标",
+        "properties": {
+          "effect": "无显著差异",
+          "evidence": [
+            {
+              "chunk_index": "1491",
+              "source": "医脉通心血管",
+              "text": "PCI前阿托伐他汀80 mg负荷组患者的ALT、AST水平与安慰剂负荷组没有发现显著差异（23.2U/mL vs. 25.7U/mL与29.4 U/mL vs. 33.0 U/mL）"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "name": "用于治疗",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1491",
+              "source": "医脉通心血管",
+              "text": "在大多数肝病患者中处方他汀不仅不会造成不良影响，甚至对肝病本身具有一定益处"
+            }
+          ]
+        }
+      }
+    ],
+    "chunk_index": 1491,
+    "source": "医脉通心血管",
+    "text": "。我们不妨以近几年的大型随机对照研究举例。2009年发表的JUPITER研究，共纳入17802名受试者，随访期间瑞舒伐他汀20 mg qd组中ALT或AST升高＞3倍正常上限的患者与安慰剂组相同（0.3% vs. 0.2%, P=0.34）。值得一提的是，20 mg qd的瑞舒伐他汀在中文说明书中是最大剂量。2016年发表的HOPE-3研究，共纳入12705名受试者，瑞舒伐他汀10 mg qd组因为肝酶升高而临时停药的比例与安慰剂组相同（0.1% vs. 0.1%, P=0.42），因为肝酶升高而永久停药的患者在两组间也没有显著差异（0.3% vs. 0.1%, P=0.23）。2018年发表的SECURE-PCI研究中，PCI前阿托伐他汀80 mg负荷组患者的ALT、AST水平与安慰剂负荷组没有发现显著差异（23.2U/mL vs. 25.7U/mL与29.4 U/mL vs. 33.0 U/mL），不过不能除外检测时间距离负荷时间确实已经过长。近几年的荟萃分析也证实他汀相比安慰剂不会额外增加肝酶升高风险。比如2016年JAMA上刊出的针对无心血管病史成年患者使用他汀的荟萃分析显示，使用他汀相比安慰剂不显著增加肝酶升高的风险（RR=1.10, 95%CI 0.90-1.35）。图1  2016年JAMA的荟萃分析显示他汀不增加肝酶升高风险肝病患者该不该处方他汀？近年来一直有“他汀多效性”的提法，他汀降脂之外的的副作用也许还包含保肝。因为根据目前的研究，在大多数肝病患者中处方他汀不仅不会造成不良影响，甚至对肝病本身具有一定益处"
+  }
+]

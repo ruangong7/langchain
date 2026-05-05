@@ -1,0 +1,149 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "OATP1B1",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "OATP1B3",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "OAT1",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "OAT3",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "OCT2",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "MATE1",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "MATE2-K",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "type": "转运体",
+          "alias": [
+            "ABCB1"
+          ]
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "BCRP",
+        "properties": {
+          "type": "转运体",
+          "alias": [
+            "ABCG2"
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "name": "药物对P-gp和BCRP的抑制作用评估",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1174,
+            "source": "凡默谷",
+            "text": "对于P-gp和BCRP，体外研究应确定药物对P-gp或BCRP底物的净流量的抑制效力（即IC50或Ki)并计算Imax与IC50比值，若为口服药物，则采用Igut (Igut=药物摩尔质量/250mL)，当计算得到Igut/IC50≥10时，认为药物可能产生抑制作用"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "药物对OATP1B1/OATP1B3的抑制作用评估",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1174,
+            "source": "凡默谷",
+            "text": "对于OATP1B1和OATP1B3，由于口服药物可经门静脉到达肝脏，因此肝脏血浆药物浓度可能高于系统暴露量，因此，肝入口最大抑制浓度计算公式为基础模型计算公式为以上Ka，FaFg, fu,p, Qh, RB分别表示吸收速率常数、肠道生物利用度、血浆游离药物、肝脏血流分数和全血-血浆比值。当值R>1.1，提示研究药物可能对OATP1B1/OATP1B3具有抑制作用"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "药物对OAT1/OAT3的抑制作用评估",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1174,
+            "source": "凡默谷",
+            "text": "药物对肾分泌蛋白OAT1/OAT3/OCT2和MATES的抑制作用，采用Imax,u与IC50比值进行计算评估，当Imax,u/IC50≥0.1 (对OAT1/OAT3/OCT2)或≥0.02(对MATES), 提示研究药物对以上转运体具有体内抑制剂作用"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "药物对OCT2和MATEs的抑制作用评估",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 1174,
+            "source": "凡默谷",
+            "text": "药物对肾分泌蛋白OAT1/OAT3/OCT2和MATES的抑制作用，采用Imax,u与IC50比值进行计算评估，当Imax,u/IC50≥0.1 (对OAT1/OAT3/OCT2)或≥0.02(对MATES), 提示研究药物对以上转运体具有体内抑制剂作用"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1174,
+    "source": "凡默谷",
+    "text": "。对于肝脏摄取蛋白（OATP1B1、OATP1B3)和肾脏分泌蛋白(OAT1/OAT3、OCT2、Matel、Mate2-K)，如转运体转染细胞的摄取高于空白转染细胞的2倍及以上，且摄取可被已知抑制剂明显抑制，提示药物可能是其底物。3.5 作为转运体抑制剂对于P-gp和BCRP，体外研究应确定药物对P-gp或BCRP底物的净流量的抑制效力（即IC50或Ki)并计算Imax与IC50比值，若为口服药物，则采用Igut (Igut=药物摩尔质量/250mL)，当计算得到Igut/IC50≥10时，认为药物可能产生抑制作用，但研究者可采用已知的抑制剂或非抑制剂校正体外试验系统，根据合适理由选择cut-off值。对于OATP1B1和OATP1B3，由于口服药物可经门静脉到达肝脏，因此肝脏血浆药物浓度可能高于系统暴露量，因此，肝入口最大抑制浓度计算公式为基础模型计算公式为以上Ka，FaFg, fu,p, Qh, RB分别表示吸收速率常数、肠道生物利用度、血浆游离药物、肝脏血流分数和全血-血浆比值。当值R>1.1，提示研究药物可能对OATP1B1/OATP1B3具有抑制作用。药物对肾分泌蛋白OAT1/OAT3/OCT2和MATES的抑制作用，采用Imax,u与IC50比值进行计算评估，当Imax,u/IC50≥0.1 (对OAT1/OAT3/OCT2)或≥0.02(对MATES), 提示研究药物对以上转运体具有体内抑制剂作用"
+  }
+]

@@ -1,0 +1,309 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "贝达喹啉",
+        "properties": {
+          "通用名": "贝达喹啉",
+          "英文名": "Bedaquiline",
+          "别名": "BDQ"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "二芳基喹啉类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "结核病",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP2C8",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP2C19",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "QT间期延长",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Food",
+        "name": "标准餐",
+        "properties": {
+          "类型": "食物"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "UGT酶系",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "OATP1B1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "OATP1B3",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "BCRP",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Enzyme",
+        "name": "OAT1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Enzyme",
+        "name": "OAT3",
+        "properties": {
+          "类型": "转运体"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "贝达喹啉属于二芳基喹啉类药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1200,
+            "source": "凡默谷",
+            "text": "BDQ为二芳基喹啉类药物"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "贝达喹啉用于治疗结核病",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1200,
+            "source": "凡默谷",
+            "text": "其与结核分枝杆菌(M. tuberculosis, MTB)的三磷酸腺苷(adenosine triphosphate, ATP)合成酶c亚基相结合，导致ATP合成受阻，从而阻止MTB中ATP能量供应，发挥抗菌作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "贝达喹啉经CYP3A4代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1200,
+            "source": "凡默谷",
+            "text": "BDQ在体内主要在肝脏经细胞色素P450超家族(cytochrome P450proteins, CYP)中的CYP3A4途径代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "贝达喹啉部分经CYP2C8代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1200,
+            "source": "凡默谷",
+            "text": "部分经CYP2C8、CYP2C19代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "贝达喹啉部分经CYP2C19代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1200,
+            "source": "凡默谷",
+            "text": "部分经CYP2C8、CYP2C19代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "贝达喹啉可能导致QT间期延长",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1200,
+            "source": "凡默谷",
+            "text": "M2暴露量与BDQ的主要不良反应QT间期延长的发生显著相关"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "食物可促进贝达喹啉吸收",
+        "properties": {
+          "effect": "增加生物利用度",
+          "magnitude": "两倍",
+          "evidence": {
+            "chunk_index": 1200,
+            "source": "凡默谷",
+            "text": "食物可促进吸收，与标准餐同服时，BDQ的相对生物利用度将增加两倍"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "贝达喹啉对UGT酶系无抑制作用",
+        "properties": {
+          "effect": "无抑制",
+          "evidence": {
+            "chunk_index": 1200,
+            "source": "凡默谷",
+            "text": "BDQ对Ⅰ相代谢酶CYP酶系及Ⅱ相代谢酶UGT酶系皆无抑制作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "贝达喹啉对OATP1B1无抑制作用",
+        "properties": {
+          "effect": "无抑制",
+          "evidence": {
+            "chunk_index": 1200,
+            "source": "凡默谷",
+            "text": "BDQ对OATP1B1、OATP1B3、BCRP、OAT1、OAT3等主要转运体均无抑制作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "贝达喹啉对OATP1B3无抑制作用",
+        "properties": {
+          "effect": "无抑制",
+          "evidence": {
+            "chunk_index": 1200,
+            "source": "凡默谷",
+            "text": "BDQ对OATP1B1、OATP1B3、BCRP、OAT1、OAT3等主要转运体均无抑制作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "贝达喹啉对BCRP无抑制作用",
+        "properties": {
+          "effect": "无抑制",
+          "evidence": {
+            "chunk_index": 1200,
+            "source": "凡默谷",
+            "text": "BDQ对OATP1B1、OATP1B3、BCRP、OAT1、OAT3等主要转运体均无抑制作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "贝达喹啉对OAT1无抑制作用",
+        "properties": {
+          "effect": "无抑制",
+          "evidence": {
+            "chunk_index": 1200,
+            "source": "凡默谷",
+            "text": "BDQ对OATP1B1、OATP1B3、BCRP、OAT1、OAT3等主要转运体均无抑制作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "name": "贝达喹啉对OAT3无抑制作用",
+        "properties": {
+          "effect": "无抑制",
+          "evidence": {
+            "chunk_index": 1200,
+            "source": "凡默谷",
+            "text": "BDQ对OATP1B1、OATP1B3、BCRP、OAT1、OAT3等主要转运体均无抑制作用。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1200,
+    "source": "凡默谷",
+    "text": "。1贝达喹啉(BDQ)BDQ为二芳基喹啉类药物，结构式见图1。其与结核分枝杆菌(M. tuberculosis, MTB)的三磷酸腺苷(adenosine triphosphate, ATP)合成酶c亚基相结合，导致ATP合成受阻，从而阻止MTB中ATP能量供应，发挥抗菌作用。因其与传统抗结核药物作用机制不同，无交叉耐药性。1.1 BDQ的药动学特征BDQ在治疗剂量下具有线性药动学特征，口服给药后，血药浓度达峰时间为5h，食物可促进吸收，与标准餐同服时，BDQ的相对生物利用度将增加两倍，BDQ的绝对生物利用度在个体间差异较大，具体数值目前尚不明确。BDQ的血浆蛋白结合率高达99.9%，表观分布容积约为164L，体内血浆半衰期约为173h，因组织中BDQ的缓慢释放，多剂量给药后，BDQ及其主要代谢物的终末半衰期长达5.5个月。BDQ在体内主要在肝脏经细胞色素P450超家族(cytochrome P450proteins, CYP)中的CYP3A4途径代谢，部分经CYP2C8、CYP2C19代谢，生成多种代谢物M1~M8。去甲基代谢物M2为其主要代谢物，其体内暴露量约为其母体化合物的23%~31%，M2暴露量与BDQ的主要不良反应QT间期延长的发生显著相关，且抗菌活性为原型的1/4~1/6之间。BDQ对Ⅰ相代谢酶CYP酶系及Ⅱ相代谢酶UGT酶系皆无抑制作用。BDQ对OATP1B1、OATP1B3、BCRP、OAT1、OAT3等主要转运体均无抑制作用。BDQ及其代谢物主要通过粪便排出，极少通过肾脏清除"
+  }
+]

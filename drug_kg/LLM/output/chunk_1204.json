@@ -1,0 +1,317 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "DLM",
+        "properties": {
+          "通用名": "DLM",
+          "代谢物": [
+            "DM-6705 (M1)",
+            "M2",
+            "M3",
+            "M4"
+          ],
+          "半衰期": "30~38h",
+          "排泄途径": "几乎不经尿液排泄"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "SideEffect",
+        "name": "QT间期延长",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体",
+          "别名": [
+            "P-糖蛋白"
+          ]
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "BCRP",
+        "properties": {
+          "类型": "转运体",
+          "别名": [
+            "乳腺癌耐药转运蛋白"
+          ]
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "异烟肼",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "吡嗪酰胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "乙胺丁醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "依法维伦",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "CYP诱导剂",
+        "properties": {
+          "类型": "代谢酶",
+          "强度": "弱"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "利托那韦",
+        "properties": {
+          "作用": "强P450酶抑制剂"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "普托马尼",
+        "properties": {
+          "通用名": "PMD",
+          "类别": "硝基咪唑类药物"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "硝基咪唑类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Mechanism",
+        "name": "抑制分枝菌酸的形成",
+        "properties": {
+          "机制类型": "抗菌机制"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Mechanism",
+        "name": "靶向MTB的磷酸戊糖途径",
+        "properties": {
+          "机制类型": "抗菌机制"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "Population",
+        "name": "健康志愿者",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1204,
+          "source": "凡默谷",
+          "text": "。DLM主要代谢物DM-6705(M1)的暴露量与DLM主要不良反应QT间期延长的发生显著相关，M1在体内经CYP途径代谢，进一步生成M2及M3。DLM的血浆半衰期在30~38h之间，几乎不经尿液排泄途径消除。2.2 DLM的相互作用研究DLM对CYP酶系无抑制或诱导作用，DLM非ABC转运蛋白、P-糖蛋白(P-gp)、有机阳离子转运多肽、有机阴离子转运多肽、乳腺癌耐药转运蛋白(BCRP)及溶质载体(SLC)转运蛋白在内的多种常见转运体的底物。DLM的主要代谢物M1为P-gp的底物，代谢物M1和M2在高浓度下抑制P-gp和BCRP介导的转运，但其抑制浓度远高于血浆中最大浓度，M3和M4不影响任何转运蛋白的活动。DLM对转运蛋白介导的吸收及外排无影响。DLM与异烟肼，吡嗪酰胺，利福平三药联用时，DLM暴露量降低45%以上，乙胺丁醇在与DLM联用时，DLM的体内暴露无影响，乙胺丁醇体内暴露量上升25%。健康志愿者人群药动学研究显示，依法维伦等弱CYP诱导剂对DLM的体内暴露无影响。DLM与强P450酶抑制作用的利托那韦联用时体内暴露量上升25%。3普托马尼(PMD)PMD同为硝基咪唑类药物，结构式见图3。其经非复制期MTB的F420代谢转化为活性代谢产物发挥药效。对复制期结核杆菌其主要作用机制是通过抑制分枝菌酸的形成及靶向MTB的磷酸戊糖途径。3.1 PMD的药动学特征PMD在50~200mg治疗剂量内呈线性药动学特征，餐后服用显著增加生物利用度。血浆蛋白结合率约为86.4%，分布容积为130L左右"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "DLM主要不良反应QT间期延长",
+        "properties": {
+          "证据": {
+            "chunk_index": 1204,
+            "source": "凡默谷",
+            "text": "DLM主要代谢物DM-6705(M1)的暴露量与DLM主要不良反应QT间期延长的发生显著相关"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "M1经CYP途径代谢",
+        "properties": {
+          "证据": {
+            "chunk_index": 1204,
+            "source": "凡默谷",
+            "text": "M1在体内经CYP途径代谢，进一步生成M2及M3"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "DLM与异烟肼联用",
+        "properties": {
+          "后果": "DLM暴露量降低45%以上",
+          "证据": {
+            "chunk_index": 1204,
+            "source": "凡默谷",
+            "text": "DLM与异烟肼，吡嗪酰胺，利福平三药联用时，DLM暴露量降低45%以上"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "DLM与吡嗪酰胺联用",
+        "properties": {
+          "后果": "DLM暴露量降低45%以上",
+          "证据": {
+            "chunk_index": 1204,
+            "source": "凡默谷",
+            "text": "DLM与异烟肼，吡嗪酰胺，利福平三药联用时，DLM暴露量降低45%以上"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "DLM与利福平联用",
+        "properties": {
+          "后果": "DLM暴露量降低45%以上",
+          "证据": {
+            "chunk_index": 1204,
+            "source": "凡默谷",
+            "text": "DLM与异烟肼，吡嗪酰胺，利福平三药联用时，DLM暴露量降低45%以上"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "DLM与乙胺丁醇联用",
+        "properties": {
+          "后果": "DLM体内暴露无影响，乙胺丁醇体内暴露量上升25%",
+          "证据": {
+            "chunk_index": 1204,
+            "source": "凡默谷",
+            "text": "乙胺丁醇在与DLM联用时，DLM的体内暴露无影响，乙胺丁醇体内暴露量上升25%"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "DLM与依法维伦联用",
+        "properties": {
+          "后果": "DLM体内暴露无影响",
+          "证据": {
+            "chunk_index": 1204,
+            "source": "凡默谷",
+            "text": "健康志愿者人群药动学研究显示，依法维伦等弱CYP诱导剂对DLM的体内暴露无影响"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "DLM与利托那韦联用",
+        "properties": {
+          "后果": "DLM体内暴露量上升25%",
+          "证据": {
+            "chunk_index": 1204,
+            "source": "凡默谷",
+            "text": "DLM与强P450酶抑制作用的利托那韦联用时体内暴露量上升25%"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_13",
+        "target_id": "ent_14",
+        "name": "普托马尼属于硝基咪唑类药物",
+        "properties": {
+          "证据": {
+            "chunk_index": 1204,
+            "source": "凡默谷",
+            "text": "PMD同为硝基咪唑类药物"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_13",
+        "target_id": "ent_15",
+        "name": "普托马尼抑制分枝菌酸的形成",
+        "properties": {
+          "证据": {
+            "chunk_index": 1204,
+            "source": "凡默谷",
+            "text": "对复制期结核杆菌其主要作用机制是通过抑制分枝菌酸的形成及靶向MTB的磷酸戊糖途径"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_13",
+        "target_id": "ent_16",
+        "name": "普托马尼靶向MTB的磷酸戊糖途径",
+        "properties": {
+          "证据": {
+            "chunk_index": 1204,
+            "source": "凡默谷",
+            "text": "对复制期结核杆菌其主要作用机制是通过抑制分枝菌酸的形成及靶向MTB的磷酸戊糖途径"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1204,
+    "source": "凡默谷",
+    "text": "。DLM主要代谢物DM-6705(M1)的暴露量与DLM主要不良反应QT间期延长的发生显著相关，M1在体内经CYP途径代谢，进一步生成M2及M3。DLM的血浆半衰期在30~38h之间，几乎不经尿液排泄途径消除。2.2 DLM的相互作用研究DLM对CYP酶系无抑制或诱导作用，DLM非ABC转运蛋白、P-糖蛋白(P-gp)、有机阳离子转运多肽、有机阴离子转运多肽、乳腺癌耐药转运蛋白(BCRP)及溶质载体(SLC)转运蛋白在内的多种常见转运体的底物。DLM的主要代谢物M1为P-gp的底物，代谢物M1和M2在高浓度下抑制P-gp和BCRP介导的转运，但其抑制浓度远高于血浆中最大浓度，M3和M4不影响任何转运蛋白的活动。DLM对转运蛋白介导的吸收及外排无影响。DLM与异烟肼，吡嗪酰胺，利福平三药联用时，DLM暴露量降低45%以上，乙胺丁醇在与DLM联用时，DLM的体内暴露无影响，乙胺丁醇体内暴露量上升25%。健康志愿者人群药动学研究显示，依法维伦等弱CYP诱导剂对DLM的体内暴露无影响。DLM与强P450酶抑制作用的利托那韦联用时体内暴露量上升25%。3普托马尼(PMD)PMD同为硝基咪唑类药物，结构式见图3。其经非复制期MTB的F420代谢转化为活性代谢产物发挥药效。对复制期结核杆菌其主要作用机制是通过抑制分枝菌酸的形成及靶向MTB的磷酸戊糖途径。3.1 PMD的药动学特征PMD在50~200mg治疗剂量内呈线性药动学特征，餐后服用显著增加生物利用度。血浆蛋白结合率约为86.4%，分布容积为130L左右"
+  }
+]

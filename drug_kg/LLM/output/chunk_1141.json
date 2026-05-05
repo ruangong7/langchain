@@ -1,0 +1,268 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {
+          "通用名": "利福平",
+          "英文名": "Rifampicin",
+          "别名": "RIF"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "β-萘黄酮",
+        "properties": {
+          "通用名": "β-萘黄酮",
+          "英文名": "Beta-naphthoflavone",
+          "别名": "BNF"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "properties": {
+          "通用名": "奥美拉唑",
+          "英文名": "Omeprazole",
+          "别名": "OMP"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "二甲基亚砜",
+        "properties": {
+          "通用名": "二甲基亚砜",
+          "英文名": "Dimethyl sulfoxide",
+          "别名": "DMSO"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "苯巴比妥",
+        "properties": {
+          "通用名": "苯巴比妥",
+          "英文名": "Phenobarbital",
+          "别名": "PB"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP1A2",
+        "properties": {
+          "类型": "代谢酶",
+          "别名": []
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "CYP2B6",
+        "properties": {
+          "类型": "代谢酶",
+          "别名": []
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶",
+          "别名": []
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "CYP2C9",
+        "properties": {
+          "类型": "代谢酶",
+          "别名": []
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "CYP2D6",
+        "properties": {
+          "类型": "代谢酶",
+          "别名": []
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "SideEffect",
+        "name": "代谢酶诱导",
+        "properties": {
+          "默认严重程度": ""
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDUCES_ENZYME",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "利福平诱导CYP1A2",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1141,
+            "source": "凡默谷",
+            "text": "将肝细胞以3.5×105cell·mL-1的密度铺于48孔板中，6h稳定贴壁后更换含低、中、高剂量的RIF、BNF、OMP(12.5，25.0和50.0mol·L-1) 、DMS(100.0，200.0和400.0 mol·L-1) 、PB(250.0，500.0和1000.0 mol·L-1) 的培养基...检测代谢酶mRNA的水平。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDUCES_ENZYME",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "利福平诱导CYP2B6",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1141,
+            "source": "凡默谷",
+            "text": "将肝细胞以3.5×105cell·mL-1的密度铺于48孔板中，6h稳定贴壁后更换含低、中、高剂量的RIF、BNF、OMP(12.5，25.0和50.0mol·L-1) 、DMS(100.0，200.0和400.0 mol·L-1) 、PB(250.0，500.0和1000.0 mol·L-1) 的培养基...检测代谢酶mRNA的水平。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDUCES_ENZYME",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "利福平诱导CYP3A4",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1141,
+            "source": "凡默谷",
+            "text": "将肝细胞以3.5×105cell·mL-1的密度铺于48孔板中，6h稳定贴壁后更换含低、中、高剂量的RIF、BNF、OMP(12.5，25.0和50.0mol·L-1) 、DMS(100.0，200.0和400.0 mol·L-1) 、PB(250.0，500.0和1000.0 mol·L-1) 的培养基...检测代谢酶mRNA的水平。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDUCES_ENZYME",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "name": "β-萘黄酮诱导CYP1A2",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1141,
+            "source": "凡默谷",
+            "text": "将肝细胞以3.5×105cell·mL-1的密度铺于48孔板中，6h稳定贴壁后更换含低、中、高剂量的RIF、BNF、OMP(12.5，25.0和50.0mol·L-1) 、DMS(100.0，200.0和400.0 mol·L-1) 、PB(250.0，500.0和1000.0 mol·L-1) 的培养基...检测代谢酶mRNA的水平。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDUCES_ENZYME",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "name": "奥美拉唑诱导CYP2C9",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1141,
+            "source": "凡默谷",
+            "text": "将肝细胞以3.5×105cell·mL-1的密度铺于48孔板中，6h稳定贴壁后更换含低、中、高剂量的RIF、BNF、OMP(12.5，25.0和50.0mol·L-1) 、DMS(100.0，200.0和400.0 mol·L-1) 、PB(250.0，500.0和1000.0 mol·L-1) 的培养基...检测代谢酶mRNA的水平。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDUCES_ENZYME",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "name": "苯巴比妥诱导CYP2B6",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1141,
+            "source": "凡默谷",
+            "text": "将肝细胞以3.5×105cell·mL-1的密度铺于48孔板中，6h稳定贴壁后更换含低、中、高剂量的RIF、BNF、OMP(12.5，25.0和50.0mol·L-1) 、DMS(100.0，200.0和400.0 mol·L-1) 、PB(250.0，500.0和1000.0 mol·L-1) 的培养基...检测代谢酶mRNA的水平。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INDUCES_ENZYME",
+        "source_id": "ent_5",
+        "target_id": "ent_8",
+        "name": "苯巴比妥诱导CYP3A4",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1141,
+            "source": "凡默谷",
+            "text": "将肝细胞以3.5×105cell·mL-1的密度铺于48孔板中，6h稳定贴壁后更换含低、中、高剂量的RIF、BNF、OMP(12.5，25.0和50.0mol·L-1) 、DMS(100.0，200.0和400.0 mol·L-1) 、PB(250.0，500.0和1000.0 mol·L-1) 的培养基...检测代谢酶mRNA的水平。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "利福平可能导致代谢酶诱导",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1141,
+            "source": "凡默谷",
+            "text": "将肝细胞以3.5×105cell·mL-1的密度铺于48孔板中，6h稳定贴壁后更换含低、中、高剂量的RIF...检测代谢酶mRNA的水平。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "name": "β-萘黄酮可能导致代谢酶诱导",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1141,
+            "source": "凡默谷",
+            "text": "将肝细胞以3.5×105cell·mL-1的密度铺于48孔板中，6h稳定贴壁后更换含低、中、高剂量的...BNF...检测代谢酶mRNA的水平。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_11",
+        "name": "奥美拉唑可能导致代谢酶诱导",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1141,
+            "source": "凡默谷",
+            "text": "将肝细胞以3.5×105cell·mL-1的密度铺于48孔板中，6h稳定贴壁后更换含低、中、高剂量的...OMP...检测代谢酶mRNA的水平。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_5",
+        "target_id": "ent_11",
+        "name": "苯巴比妥可能导致代谢酶诱导",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1141,
+            "source": "凡默谷",
+            "text": "将肝细胞以3.5×105cell·mL-1的密度铺于48孔板中，6h稳定贴壁后更换含低、中、高剂量的...PB...检测代谢酶mRNA的水平。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1141,
+    "source": "凡默谷",
+    "text": "。培养箱中反应1h后，收集上清液，加等体积乙腈，涡旋混匀2 min后，以1.2×104r·min-1离心5min，分取上清液，置于-20℃保存，待LC-MS/MS分析。依据检测得到的各代谢产物峰面积结果评价代谢酶活性。2.5 诱导剂筛选[6]将肝细胞以3.5×105cell·mL-1的密度铺于48孔板中，6h稳定贴壁后更换含低、中、高剂量的RIF、BNF、OMP(12.5，25.0和50.0mol·L-1) 、DMS(100.0，200.0和400.0 mol·L-1) 、PB(250.0，500.0和1000.0 mol·L-1) 的培养基，对照组加与诱导剂组含相同浓度二甲基亚砜的空白培养基。每24h换液1次，在诱导约60h时，彻底吸弃上清液，按“2.4”中方法检测代谢酶活性水平，按提取试剂盒说明书提取细胞RNA，用实时荧光定量PCR(Quantitative Real-TimePCR，RT-PCR) 法检测代谢酶mRNA的水平。2.6 代谢产物的LC-MS/MS分析LC-MS/MS的液相分析条件、质谱离子源参数及代谢产物对乙酰氨基酚、去甲右美沙芬和1-羟基咪达唑仑的扫描参数用本课题组前期方法[5]。多反应监测扫描增加代谢物羟基安非他酮、4-甲基伞形酮葡糖酸苷的定量离子对分别为m/z256.2→237.9和m/z353.2→176.9，解簇电压分别为96和101V，碰撞能量分别为19和23V。2.7RT-PCR检测[7]提取的细胞样本RNA经浓度和纯度测定后，按反转录试剂盒说明书进行反转录。按扩增试剂盒说明书配制RT-PCR反应液"
+  }
+]

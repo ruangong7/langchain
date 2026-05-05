@@ -1,0 +1,342 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "康奈非尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP3A4诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Population",
+        "name": "肾功能恶化患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "有机阴离子转运蛋白",
+        "properties": {
+          "类型": "转运体",
+          "别名列表": [
+            "OAT"
+          ]
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体",
+          "别名列表": [
+            "ABCB1"
+          ]
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "OATP1B",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "CYP2C8",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "甲氧苄啶",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "吉非罗齐",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "达普司他",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "他汀类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "罗沙司他",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Population",
+        "name": "CKD患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Enzyme",
+        "name": "OATP1B1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "艾多沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "M4",
+        "properties": {
+          "备注": "艾多沙班的代谢物"
+        }
+      },
+      {
+        "id": "ent_20",
+        "type": "Population",
+        "name": "轻度肾损患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Population",
+        "name": "中度肾损患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Population",
+        "name": "重度肾损患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Population",
+        "name": "健康受试者",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Population",
+        "name": "健康人群",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "康奈非尼与CYP3A4诱导剂联用",
+        "properties": {
+          "mechanism": "CYP3A4诱导",
+          "effect": "诱导剂对康奈非尼的影响随肾功能恶化呈下降趋势",
+          "evidence": {
+            "chunk_index": 1250,
+            "source": "凡默谷",
+            "text": "KOLLIPARA等[16]则指出，随着肾功能恶化，康奈非尼与CYP3A4诱导剂联用时，诱导剂对其的影响呈下降趋势。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_12",
+        "name": "甲氧苄啶对达普司他的影响",
+        "properties": {
+          "mechanism": "CYP2C8抑制",
+          "effect": "在肾损患者与健康人群中无显著差异",
+          "evidence": {
+            "chunk_index": 1250,
+            "source": "凡默谷",
+            "text": "BI等[19，25]的PBPK模型假设中重度肾损患者体内OATP1B活性降低约30%，CYP2C8功能保持不变，多种抑制剂，包括CYP2C8抑制剂（甲氧苄啶）、OATP1B抑制剂（单剂量利福平）及双重抑制剂（吉非罗齐）对达普司他的DDIs效应在肾损患者与健康人群中无显著差异。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_12",
+        "name": "利福平对达普司他的影响",
+        "properties": {
+          "mechanism": "OATP1B抑制",
+          "effect": "在肾损患者与健康人群中无显著差异",
+          "evidence": {
+            "chunk_index": 1250,
+            "source": "凡默谷",
+            "text": "BI等[19，25]的PBPK模型假设中重度肾损患者体内OATP1B活性降低约30%，CYP2C8功能保持不变，多种抑制剂，包括CYP2C8抑制剂（甲氧苄啶）、OATP1B抑制剂（单剂量利福平）及双重抑制剂（吉非罗齐）对达普司他的DDIs效应在肾损患者与健康人群中无显著差异。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_12",
+        "name": "吉非罗齐对达普司他的影响",
+        "properties": {
+          "mechanism": "CYP2C8和OATP1B双重抑制",
+          "effect": "在肾损患者与健康人群中无显著差异",
+          "evidence": {
+            "chunk_index": 1250,
+            "source": "凡默谷",
+            "text": "BI等[19，25]的PBPK模型假设中重度肾损患者体内OATP1B活性降低约30%，CYP2C8功能保持不变，多种抑制剂，包括CYP2C8抑制剂（甲氧苄啶）、OATP1B抑制剂（单剂量利福平）及双重抑制剂（吉非罗齐）对达普司他的DDIs效应在肾损患者与健康人群中无显著差异。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_13",
+        "name": "罗沙司他对他汀类药物的影响",
+        "properties": {
+          "effect": "使他汀类药物暴露增加2~3倍，在健康人群和CKD患者中程度相似",
+          "evidence": {
+            "chunk_index": 1250,
+            "source": "凡默谷",
+            "text": "DONG等[26]指出，由于他汀类药物主要通过肝转运体转运，不依赖肾脏排泄，罗沙司他在健康人群和CKD患者中的DDIs程度相似，均使他汀类药物暴露增加2~3倍。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_18",
+        "name": "环孢素对艾多沙班的影响",
+        "properties": {
+          "mechanism": "P-gp抑制",
+          "effect": "当肾损合并OATP1B1或P-gp抑制剂时，艾多沙班及其代谢物M4的暴露量显著增加",
+          "evidence": {
+            "chunk_index": 1250,
+            "source": "凡默谷",
+            "text": "XU等[27]将轻、中、重度肾损患者OATP1B1的活性分别下调为健康受试者的70%、60%及50%，并基于临床DDIs数据优化了环孢素对P-gp的抑制常数，模拟结果显示，当肾损合并OATP1B1或P-gp抑制剂时，艾多沙班及其代谢物M4的暴露量显著增加，二者的协同作用不可忽视。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_19",
+        "name": "环孢素对M4的影响",
+        "properties": {
+          "mechanism": "P-gp抑制",
+          "effect": "当肾损合并OATP1B1或P-gp抑制剂时，M4的暴露量显著增加",
+          "evidence": {
+            "chunk_index": 1250,
+            "source": "凡默谷",
+            "text": "XU等[27]将轻、中、重度肾损患者OATP1B1的活性分别下调为健康受试者的70%、60%及50%，并基于临床DDIs数据优化了环孢素对P-gp的抑制常数，模拟结果显示，当肾损合并OATP1B1或P-gp抑制剂时，艾多沙班及其代谢物M4的暴露量显著增加，二者的协同作用不可忽视。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_8",
+        "name": "甲氧苄啶属于CYP2C8抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1250,
+            "source": "凡默谷",
+            "text": "CYP2C8抑制剂（甲氧苄啶）"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_7",
+        "name": "利福平属于OATP1B抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1250,
+            "source": "凡默谷",
+            "text": "OATP1B抑制剂（单剂量利福平）"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_8",
+        "name": "吉非罗齐属于CYP2C8抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1250,
+            "source": "凡默谷",
+            "text": "双重抑制剂（吉非罗齐）"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_7",
+        "name": "吉非罗齐属于OATP1B抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1250,
+            "source": "凡默谷",
+            "text": "双重抑制剂（吉非罗齐）"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1250,
+    "source": "凡默谷",
+    "text": "。KOLLIPARA等[16]则指出，随着肾功能恶化，康奈非尼与CYP3A4诱导剂联用时，诱导剂对其的影响呈下降趋势。2.2 转运体介导的药物相互作用在肾脏中，有机阴离子转运蛋白（organic anion transporter，OAT）等摄取转运体主要位于细胞的基底侧膜，负责将药物和代谢物从血液转运至肾小管细胞；P-gp等外排转运体则位于顶端膜，将药物和代谢物排入肾小管腔，最终经尿液排泄[17]，见图2。肾功能损伤可能通过影响转运体活性及药物主要消除途径对药代动力学产生影响，但具体效应可能有限。BI等[19，25]的PBPK模型假设中重度肾损患者体内OATP1B活性降低约30%，CYP2C8功能保持不变，多种抑制剂，包括CYP2C8抑制剂（甲氧苄啶）、OATP1B抑制剂（单剂量利福平）及双重抑制剂（吉非罗齐）对达普司他的DDIs效应在肾损患者与健康人群中无显著差异。DONG等[26]指出，由于他汀类药物主要通过肝转运体转运，不依赖肾脏排泄，罗沙司他在健康人群和CKD患者中的DDIs程度相似，均使他汀类药物暴露增加2~3倍。XU等[27]将轻、中、重度肾损患者OATP1B1的活性分别下调为健康受试者的70%、60%及50%，并基于临床DDIs数据优化了环孢素对P-gp的抑制常数，模拟结果显示，当肾损合并OATP1B1或P-gp抑制剂时，艾多沙班及其代谢物M4的暴露量显著增加，二者的协同作用不可忽视。2.3 酶和转运体共同介导的药物相互作用纳入药物活性代谢物及其对酶和转运体的影响，可显著提升PBPK模型在复杂临床情境下的预测精度"
+  }
+]

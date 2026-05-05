@@ -1,0 +1,376 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "DOAC",
+        "properties": {
+          "别名列表": [
+            "直接口服抗凝药"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "阿哌沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "利伐沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体",
+          "别名列表": [
+            "P-糖蛋白",
+            "ABCB1"
+          ]
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "LMWH",
+        "properties": {
+          "别名列表": [
+            "低分子肝素"
+          ],
+          "代表药品": [
+            "依诺肝素",
+            "达肝素"
+          ]
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "依诺肝素",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "达肝素",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "癌症相关静脉血栓栓塞",
+        "properties": {
+          "别名列表": [
+            "CAT"
+          ]
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "肠腔型原发性胃肠道癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Disease",
+        "name": "胃十二指肠溃疡",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Disease",
+        "name": "肝功能损害",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Disease",
+        "name": "严重血小板减少症",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Disease",
+        "name": "抗磷脂三阳性综合征",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Symptom",
+        "name": "呕吐",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Symptom",
+        "name": "恶心",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Evidence",
+        "name": "医学界肿瘤频道",
+        "properties": {
+          "chunk_id": 1391,
+          "来源类型": "公众号"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "DOAC与CYP3A4存在药物相互作用",
+        "properties": {
+          "机制": "经CYP3A4代谢",
+          "建议": "避免使用强效CYP3A4诱导剂，除非已证明安全",
+          "证据": {
+            "chunk_index": 1391,
+            "source": "医学界肿瘤频道",
+            "text": "DOAC最常见的DDI涉及经细胞色素P450酶（CYP450）代谢、和/或经转运体通透性糖蛋白（P-gp）作用的药物，并建议所有服用DOAC的患者均应避免使用强效细胞色素P450 3A4酶（CYP3A4）或P-gp诱导剂，除非先前证明在其他方面是安全的"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "DOAC与P-gp存在药物相互作用",
+        "properties": {
+          "机制": "经P-gp转运",
+          "建议": "避免使用强效P-gp诱导剂，除非已证明安全",
+          "证据": {
+            "chunk_index": 1391,
+            "source": "医学界肿瘤频道",
+            "text": "DOAC最常见的DDI涉及经细胞色素P450酶（CYP450）代谢、和/或经转运体通透性糖蛋白（P-gp）作用的药物，并建议所有服用DOAC的患者均应避免使用强效细胞色素P450 3A4酶（CYP3A4）或P-gp诱导剂，除非先前证明在其他方面是安全的"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "阿哌沙班与CYP3A4抑制剂存在相互作用",
+        "properties": {
+          "机制": "CYP3A4抑制",
+          "建议": "应避免同时使用强CYP3A4抑制剂",
+          "证据": {
+            "chunk_index": 1391,
+            "source": "医学界肿瘤频道",
+            "text": "服用阿哌沙班和利伐沙班的患者应避免同时使用强CYP3A4和P-gp抑制剂"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "阿哌沙班与P-gp抑制剂存在相互作用",
+        "properties": {
+          "机制": "P-gp抑制",
+          "建议": "应避免同时使用强P-gp抑制剂",
+          "证据": {
+            "chunk_index": 1391,
+            "source": "医学界肿瘤频道",
+            "text": "服用阿哌沙班和利伐沙班的患者应避免同时使用强CYP3A4和P-gp抑制剂"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "利伐沙班与CYP3A4抑制剂存在相互作用",
+        "properties": {
+          "机制": "CYP3A4抑制",
+          "建议": "应避免同时使用强CYP3A4抑制剂",
+          "证据": {
+            "chunk_index": 1391,
+            "source": "医学界肿瘤频道",
+            "text": "服用阿哌沙班和利伐沙班的患者应避免同时使用强CYP3A4和P-gp抑制剂"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "name": "利伐沙班与P-gp抑制剂存在相互作用",
+        "properties": {
+          "机制": "P-gp抑制",
+          "建议": "应避免同时使用强P-gp抑制剂",
+          "证据": {
+            "chunk_index": 1391,
+            "source": "医学界肿瘤频道",
+            "text": "服用阿哌沙班和利伐沙班的患者应避免同时使用强CYP3A4和P-gp抑制剂"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_9",
+        "name": "LMWH用于治疗癌症相关静脉血栓栓塞",
+        "properties": {
+          "证据": {
+            "chunk_index": 1391,
+            "source": "医学界肿瘤频道",
+            "text": "目前依诺肝素、达肝素等LMWH是各大指南对于CAT的推荐治疗药物"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_7",
+        "target_id": "ent_9",
+        "name": "依诺肝素用于治疗癌症相关静脉血栓栓塞",
+        "properties": {
+          "证据": {
+            "chunk_index": 1391,
+            "source": "医学界肿瘤频道",
+            "text": "RIETECAT研究[10]证实了原研依诺肝素在CAT治疗中的疗效和安全性"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "name": "LMWH用于肠腔型原发性胃肠道癌患者的抗凝",
+        "properties": {
+          "证据": {
+            "chunk_index": 1391,
+            "source": "医学界肿瘤频道",
+            "text": "在肠腔型原发性胃肠道癌患者中，LMWH亦可作为首选"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_11",
+        "name": "LMWH用于胃十二指肠溃疡患者的抗凝",
+        "properties": {
+          "证据": {
+            "chunk_index": 1391,
+            "source": "医学界肿瘤频道",
+            "text": "可作为存在活动性粘膜异常患者的首选治疗选择，如胃十二指肠溃疡"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_12",
+        "name": "LMWH用于肝功能损害患者的抗凝",
+        "properties": {
+          "证据": {
+            "chunk_index": 1391,
+            "source": "医学界肿瘤频道",
+            "text": "可作为存在活动性粘膜异常患者的首选治疗选择，如……肝功能损害"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_13",
+        "name": "LMWH用于严重血小板减少症患者的抗凝",
+        "properties": {
+          "证据": {
+            "chunk_index": 1391,
+            "source": "医学界肿瘤频道",
+            "text": "可作为存在活动性粘膜异常患者的首选治疗选择，如……严重血小板减少症"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_14",
+        "name": "LMWH用于抗磷脂三阳性综合征患者的抗凝",
+        "properties": {
+          "证据": {
+            "chunk_index": 1391,
+            "source": "医学界肿瘤频道",
+            "text": "可作为存在活动性粘膜异常患者的首选治疗选择，如……抗磷脂三阳性综合征"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_15",
+        "name": "LMWH用于呕吐患者的抗凝",
+        "properties": {
+          "证据": {
+            "chunk_index": 1391,
+            "source": "医学界肿瘤频道",
+            "text": "可作为存在活动性粘膜异常患者的首选治疗选择，如……呕吐和恶心"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_16",
+        "name": "LMWH用于恶心患者的抗凝",
+        "properties": {
+          "证据": {
+            "chunk_index": 1391,
+            "source": "医学界肿瘤频道",
+            "text": "可作为存在活动性粘膜异常患者的首选治疗选择，如……呕吐和恶心"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_17",
+        "name": "DOAC的药物相互作用是不良反应的重要原因",
+        "properties": {
+          "证据": {
+            "chunk_index": 1391,
+            "source": "医学界肿瘤频道",
+            "text": "DDI是药物不良反应的重要原因，会给患者及医疗健康造成巨大损失[5]"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1391,
+    "source": "医学界肿瘤频道",
+    "text": "。DDI是药物不良反应的重要原因，会给患者及医疗健康造成巨大损失[5]。关于DOAC发生DDI的机制，有关研究[5-6]指出DOAC最常见的DDI涉及经细胞色素P450酶（CYP450）代谢、和/或经转运体通透性糖蛋白（P-gp）作用的药物，并建议所有服用DOAC的患者均应避免使用强效细胞色素P450 3A4酶（CYP3A4）或P-gp诱导剂，除非先前证明在其他方面是安全的；而服用阿哌沙班和利伐沙班的患者应避免同时使用强CYP3A4和P-gp抑制剂。总体而言，全身性癌症相关疗法可能会干扰DOAC[7]，由于P-糖蛋白、CYP3A4的有效抑制剂或诱导剂对DOAC血浆浓度的影响程度尚不清楚，因此需要谨慎使用DOAC；在与其中一种药物同时治疗的情况下，LMWH可能是首选的抗凝药物[8]。图 DOAC转运、代谢/消除途径[6]《2023癌症患者的静脉血栓栓塞：欧洲肿瘤内科学会（ESMO）临床实践指南》[9]指出，LMWH几乎无药物相互作用，在伴随使用CYP3A4和P-糖蛋白的强抑制剂或诱导剂可能影响直接因子Xa抑制剂的药代动力学的CAT患者中可作为首选；在肠腔型原发性胃肠道癌患者中，LMWH亦可作为首选；此外，LMWH为频繁调整剂量提供了可能，可作为存在活动性粘膜异常患者的首选治疗选择，如胃十二指肠溃疡、肝功能损害、严重血小板减少症、抗磷脂三阳性综合征、呕吐和恶心。目前依诺肝素、达肝素等LMWH是各大指南对于CAT的推荐治疗药物[4,9]。然而既往国内LMWH并无CAT治疗适应症的获批，但令人振奋的是，RIETECAT研究[10]证实了原研依诺肝素在CAT治疗中的疗效和安全性"
+  }
+]

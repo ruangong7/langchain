@@ -1,0 +1,374 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Esaxerenone",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "OAT1",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "OAT3",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "OATP1B1",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "OATP1B3",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "OCT1",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "OCT2",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "MATE1",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "MATE2-K",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "type": "转运体",
+          "别名列表": [
+            "ABCB1"
+          ]
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "BCRP",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "CYP2B6",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "Esaxerenone抑制OAT1",
+        "properties": {
+          "mechanism": "抑制",
+          "IC50": "超过30 μM",
+          "clinical_relevance": "低",
+          "evidence": {
+            "chunk_index": 1235,
+            "source": "凡默谷",
+            "text": "Esaxerenone抑制OAT1, OAT3, OATP1B1和OATP1B3的IC50值均超过30 μM。考虑到药物的全身暴露，OCT1, OCT2, MATE1和MATE2-K不太可能产生临床上的PK变化。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "Esaxerenone抑制OAT3",
+        "properties": {
+          "mechanism": "抑制",
+          "IC50": "超过30 μM",
+          "clinical_relevance": "低",
+          "evidence": {
+            "chunk_index": 1235,
+            "source": "凡默谷",
+            "text": "Esaxerenone抑制OAT1, OAT3, OATP1B1和OATP1B3的IC50值均超过30 μM。考虑到药物的全身暴露，OCT1, OCT2, MATE1和MATE2-K不太可能产生临床上的PK变化。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "Esaxerenone抑制OATP1B1",
+        "properties": {
+          "mechanism": "抑制",
+          "IC50": "超过30 μM",
+          "clinical_relevance": "低",
+          "evidence": {
+            "chunk_index": 1235,
+            "source": "凡默谷",
+            "text": "Esaxerenone抑制OAT1, OAT3, OATP1B1和OATP1B3的IC50值均超过30 μM。考虑到药物的全身暴露，OCT1, OCT2, MATE1和MATE2-K不太可能产生临床上的PK变化。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "Esaxerenone抑制OATP1B3",
+        "properties": {
+          "mechanism": "抑制",
+          "IC50": "超过30 μM",
+          "clinical_relevance": "低",
+          "evidence": {
+            "chunk_index": 1235,
+            "source": "凡默谷",
+            "text": "Esaxerenone抑制OAT1, OAT3, OATP1B1和OATP1B3的IC50值均超过30 μM。考虑到药物的全身暴露，OCT1, OCT2, MATE1和MATE2-K不太可能产生临床上的PK变化。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "Esaxerenone与OCT1相互作用",
+        "properties": {
+          "clinical_relevance": "不太可能产生临床上的PK变化",
+          "evidence": {
+            "chunk_index": 1235,
+            "source": "凡默谷",
+            "text": "考虑到药物的全身暴露，OCT1, OCT2, MATE1和MATE2-K不太可能产生临床上的PK变化。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "Esaxerenone与OCT2相互作用",
+        "properties": {
+          "clinical_relevance": "不太可能产生临床上的PK变化",
+          "evidence": {
+            "chunk_index": 1235,
+            "source": "凡默谷",
+            "text": "考虑到药物的全身暴露，OCT1, OCT2, MATE1和MATE2-K不太可能产生临床上的PK变化。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "Esaxerenone与MATE1相互作用",
+        "properties": {
+          "clinical_relevance": "不太可能产生临床上的PK变化",
+          "evidence": {
+            "chunk_index": 1235,
+            "source": "凡默谷",
+            "text": "考虑到药物的全身暴露，OCT1, OCT2, MATE1和MATE2-K不太可能产生临床上的PK变化。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "Esaxerenone与MATE2-K相互作用",
+        "properties": {
+          "clinical_relevance": "不太可能产生临床上的PK变化",
+          "evidence": {
+            "chunk_index": 1235,
+            "source": "凡默谷",
+            "text": "考虑到药物的全身暴露，OCT1, OCT2, MATE1和MATE2-K不太可能产生临床上的PK变化。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "Esaxerenone与P-gp相互作用",
+        "properties": {
+          "Igut_IC50": 2.63,
+          "DDI_possibility": "较低（Igut / IC50 ≥10 表示有DDI可能）",
+          "evidence": {
+            "chunk_index": 1235,
+            "source": "凡默谷",
+            "text": "关于P-gp和BCRP，由于Igut/ IC 50分别为2.63和1.74，所以体内产生DDI的可能性较低（Igut / IC 50 ≥10，表示有DDI的可能）。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "Esaxerenone与BCRP相互作用",
+        "properties": {
+          "Igut_IC50": 1.74,
+          "DDI_possibility": "较低（Igut / IC50 ≥10 表示有DDI可能）",
+          "evidence": {
+            "chunk_index": 1235,
+            "source": "凡默谷",
+            "text": "关于P-gp和BCRP，由于Igut/ IC 50分别为2.63和1.74，所以体内产生DDI的可能性较低（Igut / IC 50 ≥10，表示有DDI的可能）。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "Esaxerenone抑制CYP2B6",
+        "properties": {
+          "mechanism": "可逆抑制",
+          "Ki": "最小",
+          "induction": true,
+          "predicted_DDI": "可忽略不计",
+          "enzyme_activity_change": {
+            "Ah": 1.0,
+            "Ch": 1.02
+          },
+          "evidence": {
+            "chunk_index": 1235,
+            "source": "凡默谷",
+            "text": "体外研究表明Esaxerenone抑制CYP2B6的Ki值最小，对CYP3A具有TDI。另外对CYP2B6和CYP3A4具有诱导作用。通过可逆抑制和诱导作用预测的CYP2B6酶活性变化分别为1.00（Ah）和1.02（Ch），这表明在临床中通过CYP2B6产生DDI的程度可忽略不计。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "Esaxerenone与CYP3A4相互作用",
+        "properties": {
+          "mechanism": [
+            "可逆抑制",
+            "TDI",
+            "诱导"
+          ],
+          "induction": true,
+          "TDI": true,
+          "predicted_DDI_site": "肠道",
+          "enzyme_activity_change": {
+            "Ag": 0.961,
+            "Bg": 0.099,
+            "Cg": 5.76,
+            "Ah": 1.0,
+            "Bh": 0.946,
+            "Ch": 1.03
+          },
+          "evidence": {
+            "chunk_index": 1235,
+            "source": "凡默谷",
+            "text": "由于CYP3A4在肠上皮细胞中的高表达，因此必须考虑肠道DDI的可能性。通过可逆抑制、TDI和诱导作用计算的肠道和肝脏中CYP3A4酶活性的倍数变化分别为0.961（Ag），0.099（Bg），5.76（Cg），1.00（Ah），0.946（Bh），1.03（Ch）。这表明肠道是Esaxerenone作为促变药通过TDI和诱导作用产生DDI的主要部位。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "name": "Esaxerenone对CYP3A具有TDI",
+        "properties": {
+          "mechanism": "TDI",
+          "evidence": {
+            "chunk_index": 1235,
+            "source": "凡默谷",
+            "text": "体外研究表明Esaxerenone抑制CYP2B6的Ki值最小，对CYP3A具有TDI。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_15",
+        "name": "Esaxerenone影响咪达唑仑AUC",
+        "properties": {
+          "inhibition_AUCR": 1.8,
+          "induction_AUCR": 0.31,
+          "DDI_significance": "尽管不是很强，但仍不能忽略",
+          "evidence": {
+            "chunk_index": 1235,
+            "source": "凡默谷",
+            "text": "当分别考虑抑制和诱导作用时，咪达唑仑的AUCRinh和AUCRind计算值分别为1.80和0.31。这表明尽管Esaxerenone的DDI作用不是很强，但仍不能忽略"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1235,
+    "source": "凡默谷",
+    "text": "。Esaxerenone抑制OAT1, OAT3, OATP1B1和OATP1B3的IC50值均超过30 μM。考虑到药物的全身暴露，OCT1, OCT2, MATE1和MATE2-K不太可能产生临床上的PK变化。关于P-gp和BCRP，由于Igut/ IC 50分别为2.63和1.74，所以体内产生DDI的可能性较低（Igut / IC 50 ≥10，表示有DDI的可能）。3.2使用静态机制模型的DDI风险评估结果体外研究表明Esaxerenone抑制CYP2B6的Ki值最小，对CYP3A具有TDI。另外对CYP2B6和CYP3A4具有诱导作用。为评估Esaxerenone与CYP2B6或CYP3A4的底物进行临床DDI研究的必要性，本研究使用静态机制模型分析了可能的DDI程度。通过可逆抑制和诱导作用预测的CYP2B6酶活性变化分别为1.00（Ah）和1.02（Ch），这表明在临床中通过CYP2B6产生DDI的程度可忽略不计。由于CYP3A4在肠上皮细胞中的高表达，因此必须考虑肠道DDI的可能性。通过可逆抑制、TDI和诱导作用计算的肠道和肝脏中CYP3A4酶活性的倍数变化分别为0.961（Ag），0.099（Bg），5.76（Cg），1.00（Ah），0.946（Bh），1.03（Ch）。这表明肠道是Esaxerenone作为促变药通过TDI和诱导作用产生DDI的主要部位。当分别考虑抑制和诱导作用时，咪达唑仑的AUCRinh和AUCRind计算值分别为1.80和0.31。这表明尽管Esaxerenone的DDI作用不是很强，但仍不能忽略"
+  }
+]

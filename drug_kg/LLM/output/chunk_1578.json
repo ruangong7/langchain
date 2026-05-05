@@ -1,0 +1,65 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Ciprofloxacin",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "Clozapine",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Population",
+        "name": "存在认知障碍或严重智力残疾的患者",
+        "properties": {}
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "医脉通精神科",
+        "properties": {
+          "chunk_id": "1578",
+          "source": "医脉通精神科",
+          "text": "。对于存在认知障碍或严重智力残疾的患者而言，避免药物相互作用更加重要，因为这些患者可能难以表述躯体不适，进而酿成恶果。文献索引：Meyer JM, et al. Ciprofloxacin and Clozapine: A Potentially Fatal but Underappreciated Interaction. Case Reports in Psychiatry. http://dx.doi.org/10.1155/2016/5606098.点击「阅读原文」可查看及检索历史文章。"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "Ciprofloxacin and Clozapine: A Potentially Fatal but Underappreciated Interaction",
+        "properties": {
+          "severity": "高",
+          "description": "潜在致命但未被充分认识的相互作用",
+          "evidence": [
+            {
+              "chunk_index": "1578",
+              "source": "医脉通精神科",
+              "text": "文献索引：Meyer JM, et al. Ciprofloxacin and Clozapine: A Potentially Fatal but Underappreciated Interaction. Case Reports in Psychiatry. http://dx.doi.org/10.1155/2016/5606098."
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_1",
+        "target_id": "ev_1",
+        "name": "证据支持",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1578,
+    "source": "医脉通精神科",
+    "text": "。对于存在认知障碍或严重智力残疾的患者而言，避免药物相互作用更加重要，因为这些患者可能难以表述躯体不适，进而酿成恶果。文献索引：Meyer JM, et al. Ciprofloxacin and Clozapine: A Potentially Fatal but Underappreciated Interaction. Case Reports in Psychiatry. http://dx.doi.org/10.1155/2016/5606098.点击「阅读原文」可查看及检索历史文章。"
+  }
+]

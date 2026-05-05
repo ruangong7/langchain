@@ -1,0 +1,249 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "考比替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "泽布替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "三唑类抗真菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "侵袭性真菌感染",
+        "properties": {
+          "别名": "invasive pulmonary fungal infections, IFIs"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "免疫抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "血药浓度-时间曲线下面积",
+        "properties": {
+          "别名": "AUC"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "峰浓度",
+        "properties": {
+          "别名": "Cmax"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "到达最大血药浓度的时间",
+        "properties": {
+          "别名": "tmax"
+        }
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1099,
+          "source": "凡默谷",
+          "text": "有研究表明，考比替尼是CYP3A4的高变异性底物[25]，而伊曲康唑是CYP3A4的强效抑制剂，Budha等[26]利用经过临床数据验证的考比替尼和伊曲康唑的PBPK模型对伊曲康唑-考比替尼的DDI进行了模型预测，模拟结果表明，两药之间确实存在DDI，且伊曲康唑通过抑制CYP3A4，缩短了考比替尼到达最大血药浓度的时间(tmax)，增加了其血药浓度-时间曲线下面积(AUC)。"
+        }
+      },
+      {
+        "id": "ev_2",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1099,
+          "source": "凡默谷",
+          "text": "Wang等[27]运用PBPK模型成功预测了泽布替尼与强CYP3A4抑制剂伊曲康唑、强CYP3A4诱导剂利福平的药物浓度-时间曲线。模型预测当泽布替尼与伊曲康唑共同给药时，泽布替尼的峰浓度(Cmax)和AUC0-t均升高；当与利福平联合用药时，泽布替尼的Cmax和AUC0-t均显著降低。"
+        }
+      },
+      {
+        "id": "ev_3",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1099,
+          "source": "凡默谷",
+          "text": "部分免疫抑制剂的使用可能会对患者的免疫功能造成一定的损害，使得侵袭性真菌感染(invasive pulmonary fungal infections，IFIs)更易发生，而三唑类抗真菌药物常用于治疗IFI，因此，两种药物在临床上常联合使用[29]"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "伊曲康唑与考比替尼存在药物相互作用",
+        "properties": {
+          "mechanism": "伊曲康唑是CYP3A4的强效抑制剂，抑制CYP3A4代谢考比替尼",
+          "effect_on_target": "缩短tmax，增加AUC",
+          "evidence": {
+            "chunk_index": 1099,
+            "source": "凡默谷",
+            "text": "有研究表明，考比替尼是CYP3A4的高变异性底物[25]，而伊曲康唑是CYP3A4的强效抑制剂，Budha等[26]利用经过临床数据验证的考比替尼和伊曲康唑的PBPK模型对伊曲康唑-考比替尼的DDI进行了模型预测，模拟结果表明，两药之间确实存在DDI，且伊曲康唑通过抑制CYP3A4，缩短了考比替尼到达最大血药浓度的时间(tmax)，增加了其血药浓度-时间曲线下面积(AUC)。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_1",
+        "target_id": "ent_3",
+        "name": "相互作用机制涉及CYP3A4"
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_1",
+        "target_id": "ent_9",
+        "name": "增加AUC"
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_1",
+        "target_id": "ent_11",
+        "name": "缩短tmax"
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "伊曲康唑与泽布替尼存在药物相互作用",
+        "properties": {
+          "mechanism": "伊曲康唑是CYP3A4的强效抑制剂，抑制CYP3A4代谢泽布替尼",
+          "effect_on_target": "升高Cmax和AUC0-t",
+          "evidence": {
+            "chunk_index": 1099,
+            "source": "凡默谷",
+            "text": "Wang等[27]运用PBPK模型成功预测了泽布替尼与强CYP3A4抑制剂伊曲康唑、强CYP3A4诱导剂利福平的药物浓度-时间曲线。模型预测当泽布替尼与伊曲康唑共同给药时，泽布替尼的峰浓度(Cmax)和AUC0-t均升高；当与利福平联合用药时，泽布替尼的Cmax和AUC0-t均显著降低。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_5",
+        "target_id": "ent_3",
+        "name": "相互作用机制涉及CYP3A4"
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_5",
+        "target_id": "ent_10",
+        "name": "升高Cmax"
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_5",
+        "target_id": "ent_9",
+        "name": "升高AUC0-t"
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_4",
+        "name": "利福平与泽布替尼存在药物相互作用",
+        "properties": {
+          "mechanism": "利福平是CYP3A4的强效诱导剂，诱导CYP3A4代谢泽布替尼",
+          "effect_on_target": "显著降低Cmax和AUC0-t",
+          "evidence": {
+            "chunk_index": 1099,
+            "source": "凡默谷",
+            "text": "Wang等[27]运用PBPK模型成功预测了泽布替尼与强CYP3A4抑制剂伊曲康唑、强CYP3A4诱导剂利福平的药物浓度-时间曲线。模型预测当泽布替尼与伊曲康唑共同给药时，泽布替尼的峰浓度(Cmax)和AUC0-t均升高；当与利福平联合用药时，泽布替尼的Cmax和AUC0-t均显著降低。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_9",
+        "target_id": "ent_3",
+        "name": "相互作用机制涉及CYP3A4"
+      },
+      {
+        "id": "rel_11",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_9",
+        "target_id": "ent_10",
+        "name": "降低Cmax"
+      },
+      {
+        "id": "rel_12",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_9",
+        "target_id": "ent_9",
+        "name": "降低AUC0-t"
+      },
+      {
+        "id": "rel_13",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "三唑类抗真菌药物用于治疗侵袭性真菌感染"
+      },
+      {
+        "id": "rel_14",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_8",
+        "target_id": "ent_7",
+        "name": "免疫抑制剂增加侵袭性真菌感染风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1099,
+            "source": "凡默谷",
+            "text": "部分免疫抑制剂的使用可能会对患者的免疫功能造成一定的损害，使得侵袭性真菌感染(invasive pulmonary fungal infections，IFIs)更易发生，而三唑类抗真菌药物常用于治疗IFI，因此，两种药物在临床上常联合使用[29]"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1099,
+    "source": "凡默谷",
+    "text": "。由于抗肿瘤药的治疗窗狭窄、毒副作用较大，在联合用药的情况下，DDI的风险评估尤为重要[24]。有研究表明，考比替尼是CYP3A4的高变异性底物[25]，而伊曲康唑是CYP3A4的强效抑制剂，Budha等[26]利用经过临床数据验证的考比替尼和伊曲康唑的PBPK模型对伊曲康唑-考比替尼的DDI进行了模型预测，模拟结果表明，两药之间确实存在DDI，且伊曲康唑通过抑制CYP3A4，缩短了考比替尼到达最大血药浓度的时间(tmax)，增加了其血药浓度-时间曲线下面积(AUC)。Wang等[27]运用PBPK模型成功预测了泽布替尼与强CYP3A4抑制剂伊曲康唑、强CYP3A4诱导剂利福平的药物浓度-时间曲线。模型预测当泽布替尼与伊曲康唑共同给药时，泽布替尼的峰浓度(Cmax)和AUC0-t均升高；当与利福平联合用药时，泽布替尼的Cmax和AUC0-t均显著降低。结果显示，临床DDI研究的模型预测值与观察值的比值小于1.5，表明模拟与观测的药物浓度-时间曲线具有良好的一致性，PBPK模型可以用于预测临床DDI。2.2 抗菌药物与免疫抑制剂的相互作用在2018年的一项调查中发现， 因感染导致死亡的人数占实体器官移植受者死亡总人数的15%~20%[28]。部分免疫抑制剂的使用可能会对患者的免疫功能造成一定的损害，使得侵袭性真菌感染(invasive pulmonary fungal infections，IFIs)更易发生，而三唑类抗真菌药物常用于治疗IFI，因此，两种药物在临床上常联合使用[29]"
+  }
+]

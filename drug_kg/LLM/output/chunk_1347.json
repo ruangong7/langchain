@@ -1,0 +1,174 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "SideEffect",
+        "name": "不良反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Mechanism",
+        "name": "药代动力学相互作用",
+        "properties": {
+          "机制类型": "药代动力学 (PK) 相互作用"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Mechanism",
+        "name": "药效学相互作用",
+        "properties": {
+          "机制类型": "药效学 (PD) 相互作用"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Mechanism",
+        "name": "物理或化学不相容性",
+        "properties": {
+          "机制类型": "物理或化学不相容性"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "游离药物浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Population",
+        "name": "患者",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "多个药物同时使用造成不同的不良反应",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1347,
+            "source": "医学数据库百科",
+            "text": "如果多个药物同时使用的话就会造成不同的不良反应。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "药物相互作用通过药代动力学机制影响ADME过程",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1347,
+            "source": "医学数据库百科",
+            "text": "PK 相互作用可能会影响药物代谢过程，从而改变目标部位的游离药物浓度，其中就包括药物的吸收、分布、代谢和排泄 (ADME)。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "药物相互作用通过药效学机制产生协同或拮抗作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1347,
+            "source": "医学数据库百科",
+            "text": "而 PD 相互作用通常是协同或拮抗的作用来发挥作用，这个过程可以通过与相同的治疗靶点相互作用、涉及不同的信号通路或引起不同的药理反应而发生。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "药物相互作用由物理或化学不相容性引起",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1347,
+            "source": "医学数据库百科",
+            "text": "药物相互作用是由于物理或化学不相容性而发生的，这通常超出了 DDI 的常规范围。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "PK相互作用改变游离药物浓度",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1347,
+            "source": "医学数据库百科",
+            "text": "PK 相互作用可能会影响药物代谢过程，从而改变目标部位的游离药物浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "药物相互作用导致不良反应并可能危及生命或需医疗干预（重大）",
+        "properties": {
+          "严重程度": "重大 (Major)",
+          "evidence": {
+            "chunk_index": 1347,
+            "source": "医学数据库百科",
+            "text": "重大 (Major)：相互作用会危及生命和/或需要医疗或干预以尽量减少或预防严重的不良反应。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "药物相互作用可能导致患者疾病恶化或治疗改变（中度）",
+        "properties": {
+          "严重程度": "中度 (Moderate)",
+          "evidence": {
+            "chunk_index": 1347,
+            "source": "医学数据库百科",
+            "text": "中度 (Moderate)：相互作用可能导致患者疾病恶化和/或治疗改变。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "药物相互作用会限制临床效果（轻微）",
+        "properties": {
+          "严重程度": "轻微 (Minor)",
+          "evidence": {
+            "chunk_index": 1347,
+            "source": "医学数据库百科",
+            "text": "轻微 (Minor)：相互作用会限制临床效果"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1347,
+    "source": "医学数据库百科",
+    "text": "在临床上，我们经常会使用不同的药物来进行治疗的情况。对于每一个药物而言都有自己的作用机制。如果多个药物同时使用的话就会造成不同的不良反应。所以了解不同药物之间的不良反应关系是十分的重要的。今天就给大家介绍一个分析药物不良反应的数据库：DDinter: http://ddinter.scbdd.com/在了解数据库之前，对于药物相互作用的定义还是要了解一下的。药物相互作用 (DDI) 主要是指一个药物的作用受到另外一个药物的影响起作用机制发生变化的情况。大多数相互作用会严重影响药物的疗效和安全性，并且已经成为不良药物相互作用的重要原因。DDI 可分为 1) 药物相互作用、2) 药代动力学 (PK) 相互作用和药效学 (PD) 相互作用。药物相互作用是由于物理或化学不相容性而发生的，这通常超出了 DDI 的常规范围。PK 相互作用可能会影响药物代谢过程，从而改变目标部位的游离药物浓度，其中就包括药物的吸收、分布、代谢和排泄 (ADME)。而 PD 相互作用通常是协同或拮抗的作用来发挥作用，这个过程可以通过与相同的治疗靶点相互作用、涉及不同的信号通路或引起不同的药理反应而发生。背景数据集对于药物之间的相互作用关系，作者主要是通过文献当中的文本挖掘的方式获得了具体的相互作用情况。最后通过作者的整理把药物之间的相互作用按照严重程度分析了四个等级：重大 (Major)：相互作用会危及生命和/或需要医疗或干预以尽量减少或预防严重的不良反应。中度 (Moderate)：相互作用可能导致患者疾病恶化和/或治疗改变。轻微 (Minor)：相互作用会限制临床效果"
+  }
+]

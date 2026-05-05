@@ -1,0 +1,113 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Esaxerenone",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "Pictilisib",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Food",
+        "name": "食物",
+        "properties": {
+          "类型": "食物"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "properties": {
+          "别名列表": [
+            "PPI"
+          ]
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Mechanism",
+        "name": "胃内pH值变化",
+        "properties": {
+          "机制类型": "胃内pH值变化"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "PBPK模型",
+        "properties": {
+          "类型": "代谢模型"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "使用PBPK模型评估Esaxerenone的药物相互作用风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1164,
+            "source": "凡默谷",
+            "text": "以促变药Esaxerenone为例介绍使用静态机制模型和PBPK模型评估药物相互作用风险的一般流程。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "食物影响Pictilisib药代动力学",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1164,
+            "source": "凡默谷",
+            "text": "以Pictilisib为例介绍了如何使用PBPK模型评估食物和胃内pH值变化对体内PK的影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "胃内pH值变化影响Pictilisib药代动力学",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1164,
+            "source": "凡默谷",
+            "text": "以Pictilisib为例介绍了如何使用PBPK模型评估食物和胃内pH值变化对体内PK的影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "质子泵抑制剂影响Pictilisib药代动力学",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1164,
+            "source": "凡默谷",
+            "text": "评估食物和质子泵抑制剂PPI对弱碱性药物Pictilisib药代动力学的影响"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1164,
+    "source": "凡默谷",
+    "text": "。接着讲解两个应用案例：以促变药Esaxerenone为例介绍使用静态机制模型和PBPK模型评估药物相互作用风险的一般流程。以Pictilisib为例介绍了如何使用PBPK模型评估食物和胃内pH值变化对体内PK的影响。内容概要生理药代动力学PBPK模型在药物相互作用的应用现状案例1：通过基础模型、静态机制模型、PBPK模型评估促变药Esaxerenone的药物相互作用风险案例2：评估食物和质子泵抑制剂PPI对弱碱性药物Pictilisib药代动力学的影响讲解人👉 王钰玺  上海凡默谷技术支持4年的药物建模与模拟从业经验；已完成多个药物的建模与模拟，如评估或建立与生物体相关的溶出条件等，中国科学技术大学硕士，加入凡默谷之前于中科院上海药物研究所从事药物制剂方向的基础研究。视频方式一：关注【凡默谷】公众号菜单栏>>培训中心>>直播回放方式二：点击查看方式三：B站视频凡默谷在哔哩哔哩B站开通专栏啦！该专栏将发布药物建模与模拟的相关视频。请在B站搜索“凡默谷”，并关注哦"
+  }
+]

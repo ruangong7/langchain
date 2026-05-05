@@ -1,0 +1,315 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "依米他韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "艾博韦泰",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "洛匹那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "可洛派韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "赛拉瑞韦钾",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "对甲苯磺酸宁格替尼",
+        "properties": {
+          "通用名": "宁格替尼"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "吉非替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "艾滋病",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "非小细胞肺癌",
+        "properties": {
+          "别名": [
+            "NSCLC"
+          ]
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "CYP1A1",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "SideEffect",
+        "name": "耐药性",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Indicator",
+        "name": "血浆暴露量",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "多靶点酪氨酸激酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "EGFR抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Population",
+        "name": "健康受试者",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "艾博韦泰与洛匹那韦联用导致洛匹那韦AUC降低37%",
+        "properties": {
+          "effect": "降低",
+          "magnitude": "37%",
+          "parameter": "AUC0-t",
+          "mechanism": "",
+          "evidence": {
+            "chunk_index": 1042,
+            "source": "凡默谷",
+            "text": "联用艾博 韦泰后，洛匹那韦和利托纳韦的AU0-t分别降低 了 37%和38%，但DDI机制不明。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "艾博韦泰与利托那韦联用导致利托那韦AUC降低38%",
+        "properties": {
+          "effect": "降低",
+          "magnitude": "38%",
+          "parameter": "AUC0-t",
+          "mechanism": "",
+          "evidence": {
+            "chunk_index": 1042,
+            "source": "凡默谷",
+            "text": "联用艾博 韦泰后，洛匹那韦和利托纳韦的AU0-t分别降低 了 37%和38%，但DDI机制不明。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "name": "洛匹那韦/利托那韦对艾博韦泰药动学无显著影响",
+        "properties": {
+          "effect": "无显著影响",
+          "parameter": "药动学",
+          "mechanism": "",
+          "evidence": {
+            "chunk_index": 1042,
+            "source": "凡默谷",
+            "text": "通过群体药动学模 型分析，洛匹那韦/利托纳韦对艾博韦泰的药动学 无显著影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "name": "洛匹那韦/利托那韦对艾博韦泰药动学无显著影响",
+        "properties": {
+          "effect": "无显著影响",
+          "parameter": "药动学",
+          "mechanism": "",
+          "evidence": {
+            "chunk_index": 1042,
+            "source": "凡默谷",
+            "text": "通过群体药动学模 型分析，洛匹那韦/利托纳韦对艾博韦泰的药动学 无显著影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "name": "宁格替尼与吉非替尼联用导致M1代谢物血浆暴露量降低84%",
+        "properties": {
+          "effect": "降低",
+          "magnitude": "84%",
+          "parameter": "M1血浆暴露量",
+          "mechanism": "抑制CYP1A1等酶",
+          "evidence": {
+            "chunk_index": 1042,
+            "source": "凡默谷",
+            "text": "联用吉非替尼 后，因对CYP1A1等酶的抑制作用使得M1的血浆 暴露量降低了 84%，但宁格替尼的药动学未发生 显著变化"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_5",
+        "target_id": "ent_11",
+        "name": "吉非替尼通过抑制CYP1A1影响宁格替尼代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1042,
+            "source": "凡默谷",
+            "text": "因对CYP1A1等酶的抑制作用使得M1的血浆 暴露量降低了 84%"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_7",
+        "target_id": "ent_10",
+        "name": "宁格替尼用于治疗非小细胞肺癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1042,
+            "source": "凡默谷",
+            "text": "主要用于非小细胞 肺癌（NSCLC)等的治疗"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_14",
+        "name": "宁格替尼属于多靶点酪氨酸激酶抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1042,
+            "source": "凡默谷",
+            "text": "对甲苯磺酸宁格替尼[5]是由广东东阳光药 物集团有限公司开发的多靶点酪氨酸激酶抑制 剂"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_15",
+        "name": "吉非替尼属于EGFR抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1042,
+            "source": "凡默谷",
+            "text": "EGFR抑制剂吉非替尼"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_9",
+        "target_id": "ent_2",
+        "name": "艾博韦泰用于艾滋病治疗",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1042,
+            "source": "凡默谷",
+            "text": "艾滋病的治疗常采用多药联用的手段如艾 博韦泰和洛匹那韦/利托那韦联用"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_9",
+        "target_id": "ent_3",
+        "name": "洛匹那韦用于艾滋病治疗",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1042,
+            "source": "凡默谷",
+            "text": "艾滋病的治疗常采用多药联用的手段如艾 博韦泰和洛匹那韦/利托那韦联用"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_9",
+        "target_id": "ent_4",
+        "name": "利托那韦用于艾滋病治疗",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1042,
+            "source": "凡默谷",
+            "text": "艾滋病的治疗常采用多药联用的手段如艾 博韦泰和洛匹那韦/利托那韦联用"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_8",
+        "target_id": "ent_12",
+        "name": "吉非替尼可能导致耐药性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1042,
+            "source": "凡默谷",
+            "text": "临床上为克服其他信号 通路激活而导致的EGFR抑制剂吉非替尼的耐药 性"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1042,
+    "source": "凡默谷",
+    "text": "。依米他韦的药动学未受显著影响。艾滋病的治疗常采用多药联用的手段如艾 博韦泰和洛匹那韦/利托那韦联用[3]。联用艾博 韦泰后，洛匹那韦和利托纳韦的AU0-t分别降低 了 37%和38%，但DDI机制不明。受伦理限制， 未进行艾博韦泰的单药试验，通过群体药动学模 型分析，洛匹那韦/利托纳韦对艾博韦泰的药动学 无显著影响。此外，在“药物临床试验登记与信息公布平 台”上，可查到已完成可洛派韦与赛拉瑞韦钾在 健康受试者体内的DDI试验（登记号 CTR20170587)，但数据尚未公开。4.2抗肿瘤药的联合应用肿瘤的发生和发展 涉及多种信号通路，与单一用药相比，抗肿瘤药 联合疗法具有增效和降低耐药性等优点[44]。此 外，肿瘤患者常存在多种并发症和药物使用带来 的副作用，需要服用其他药物进行辅助治疗。对 联合疗法中药动学相互作用的监测，有助于更清 楚地了解药物的体内处置过程，为评估药物的安 全性和有效性提供参考。对甲苯磺酸宁格替尼[5]是由广东东阳光药 物集团有限公司开发的多靶点酪氨酸激酶抑制 剂，目前处于临床二期试验，主要用于非小细胞 肺癌（NSCLC)等的治疗。临床上为克服其他信号 通路激活而导致的EGFR抑制剂吉非替尼的耐药 性，NSCLC患者同时服用宁格替尼与吉非替尼。宁格替尼单独用药时，N-去甲基代谢物M1的血 浆暴露量约为原形药物的1.7倍，联用吉非替尼 后，因对CYP1A1等酶的抑制作用使得M1的血浆 暴露量降低了 84%，但宁格替尼的药动学未发生 显著变化"
+  }
+]

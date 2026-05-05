@@ -1,0 +1,329 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "保肝药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "甘草酸制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "门冬氨酸钾镁",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "N-乙酰半胱氨酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "熊去氧胆酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "多烯磷脂酰胆碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "低钾血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "高钾血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "假性醛固酮症",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "过敏反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Symptom",
+        "name": "纳差",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Symptom",
+        "name": "恶心",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Symptom",
+        "name": "呕吐",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Symptom",
+        "name": "腹胀",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Symptom",
+        "name": "乏力感",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Symptom",
+        "name": "肌力低下",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Indicator",
+        "name": "血清钾",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1312,
+            "source": "医会宝消化肝病视界",
+            "text": "不同类别的保肝药物不良反应有所不同，如甘草酸制剂会引起低钾血症……"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1312,
+            "source": "医会宝消化肝病视界",
+            "text": "不同类别的保肝药物不良反应有所不同，如甘草酸制剂会引起低钾血症、门冬氨酸钾镁却会引起高钾血症……"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1312,
+            "source": "医会宝消化肝病视界",
+            "text": "此外有较多药物相互作用的保肝药物有 N-乙酰半胱氨酸、熊去氧胆酸、门冬氨酸钾镁等。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1312,
+            "source": "医会宝消化肝病视界",
+            "text": "此外有较多药物相互作用的保肝药物有 N-乙酰半胱氨酸、熊去氧胆酸、门冬氨酸钾镁等。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1312,
+            "source": "医会宝消化肝病视界",
+            "text": "特别注意注射剂的配伍禁忌（如多烯磷脂酰胆碱禁用生理盐水稀释）。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1312,
+            "source": "医会宝消化肝病视界",
+            "text": "如甘草酸制剂会引起低钾血症……"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1312,
+            "source": "医会宝消化肝病视界",
+            "text": "门冬氨酸钾镁却会引起高钾血症"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1312,
+            "source": "医会宝消化肝病视界",
+            "text": "还有部分药物会出现假性醛固酮症、过敏反应等"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1312,
+            "source": "医会宝消化肝病视界",
+            "text": "还有部分药物会出现假性醛固酮症、过敏反应等"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1312,
+            "source": "医会宝消化肝病视界",
+            "text": "例如胃肠道反应如纳差、恶心、呕吐、腹胀等"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1312,
+            "source": "医会宝消化肝病视界",
+            "text": "例如胃肠道反应如纳差、恶心、呕吐、腹胀等"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1312,
+            "source": "医会宝消化肝病视界",
+            "text": "例如胃肠道反应如纳差、恶心、呕吐、腹胀等"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1312,
+            "source": "医会宝消化肝病视界",
+            "text": "例如胃肠道反应如纳差、恶心、呕吐、腹胀等"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_17",
+        "name": "甘草酸制剂与排钾药物合用影响血清钾",
+        "properties": {
+          "mechanism": "",
+          "effect": "可能导致低钾血症（乏力感、肌力低下）",
+          "recommendation": "与排钾药物合用时需密切监测血清钾值",
+          "evidence": {
+            "chunk_index": 1312,
+            "source": "医会宝消化肝病视界",
+            "text": "甘草酸制剂可能导致低钾血症（乏力感、肌力低下），与排钾药物合用时需密切监测血清钾值"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_18",
+        "name": "多烯磷脂酰胆碱与生理盐水存在配伍禁忌",
+        "properties": {
+          "mechanism": "配伍禁忌",
+          "effect": "禁用生理盐水稀释",
+          "recommendation": "注意注射剂的配伍禁忌",
+          "evidence": {
+            "chunk_index": 1312,
+            "source": "医会宝消化肝病视界",
+            "text": "特别注意注射剂的配伍禁忌（如多烯磷脂酰胆碱禁用生理盐水稀释）。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1312,
+    "source": "医会宝消化肝病视界",
+    "text": "保肝药物是指具有肝脏保护功能、促进肝细胞再生、增强肝脏解毒功能、提高机体免疫力等功效的药物。图片来源：摄图网保肝药能起到保护肝脏的作用，但也存在发生不良反应的风险，且与部分药物存在相互作用，注意以下要点，用药更安全。一、临床常用的保肝药有哪些？图片来源：参考文献二、保肝药常见不良反应图片来源：参考文献在安全性方面，保肝药物存在发生不良反应的风险，大多症状较轻，不影响治疗，例如胃肠道反应如纳差、恶心、呕吐、腹胀等，一般症状较轻，通常不用停药，减量或停药后可消失；静脉制剂可减慢静脉输液速度以减少用药部位不良反应。不同类别的保肝药物不良反应有所不同，如甘草酸制剂会引起低钾血症、门冬氨酸钾镁却会引起高钾血症，还有部分药物会出现假性醛固酮症、过敏反应等，可根据患者病情选择不同的保肝药物并进行不良反应监测。三、保肝药与其他药物的相互作用保肝药物与部分药物存在相互作用，如甘草酸制剂可能导致低钾血症（乏力感、肌力低下），与排钾药物合用时需密切监测血清钾值，此外有较多药物相互作用的保肝药物有 N-乙酰半胱氨酸、熊去氧胆酸、门冬氨酸钾镁等。与其他药物合用时需全面评估药物相互作用风险，特别注意注射剂的配伍禁忌（如多烯磷脂酰胆碱禁用生理盐水稀释）。图片来源：参考文献此外，联合使用保肝药物也要注意，需严格遵循个体化需求与循证医学证据，避免无指征的叠加用药。同时使用的抗炎保肝药物种类一般不宜过多，通常选用1~2种抗炎保肝药物，最多一般不超过3种，以免增加肝脏负担；且通常不推荐选用主要成分相同或相似的药物进行联用。用药期间注意定期随访监测，及时调整治疗方案"
+  }
+]

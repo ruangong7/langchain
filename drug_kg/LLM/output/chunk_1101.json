@@ -1,0 +1,325 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Disease",
+        "name": "高胆固醇血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "OATP1B1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "大环内酯类抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "阿奇霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "匹伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "他汀类药物",
+        "properties": {}
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1101,
+          "source": "凡默谷",
+          "text": "临床上，阿托伐他汀常用于高胆固醇血症的治疗，它即是CYP3A4的底物，也是OATP1B1的底物。Zhang等[36]通过PBPK模型研究发现，与强CYP3A4抑制剂克拉霉素合用时，模型预测到的阿托伐他汀和阿托伐他汀内酯的AUC分别增加了2.5倍和2.9倍，与临床实验中观察到的2.6倍和2.6倍一致，显示模型具有较好的预测效能，克拉霉素可显著增加阿托伐他汀的血药浓度；而在阿托伐他汀与利福平合用时，利福平具有诱导CYP3A4和抑制OATP1B1的双重作用，经研究发现，单剂量服用利福平后，其对于CYP3A4的诱导作用可以忽略不计，对转运蛋白的抑制作用在联合用药中起主要作用，使得阿托伐他汀的血药浓度增加。大环内酯类抗生素作为第二常用的抗生素，在临床治疗中常与他汀类药物合用，已有临床实验证明，大环内酯类抗生素主要通过CYP3A4酶来介导与他汀类药物的相互作用，其中，红霉素和克拉霉素对CYP3A4的抑制最为显著，阿奇霉素的抑制作用较小。除了通过CYP3A4酶抑制外，红霉素、克拉霉素和阿奇霉素还可以在较小程度上抑制P-gp，而红霉素和克拉霉素还可以抑制OATP1B1[37]。Duan等[38]运用PBPK模型研究匹伐他汀和阿托伐他汀与伊曲康唑、红霉素等药物的DDI，结果显示，当两种药物分别与伊曲康唑和红霉素合用时，均可显著增加匹伐他汀和阿托伐他汀的血药浓度，模型预测值与观察值的比值均在0.5~2倍范围内，模型预测效能较好"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "阿托伐他汀用于治疗高胆固醇血症",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1101,
+            "source": "凡默谷",
+            "text": "临床上，阿托伐他汀常用于高胆固醇血症的治疗"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "阿托伐他汀与克拉霉素相互作用",
+        "properties": {
+          "mechanism": [
+            "CYP3A4抑制"
+          ],
+          "effect": "显著增加阿托伐他汀血药浓度",
+          "evidence": {
+            "chunk_index": 1101,
+            "source": "凡默谷",
+            "text": "与强CYP3A4抑制剂克拉霉素合用时，模型预测到的阿托伐他汀和阿托伐他汀内酯的AUC分别增加了2.5倍和2.9倍，与临床实验中观察到的2.6倍和2.6倍一致，显示模型具有较好的预测效能，克拉霉素可显著增加阿托伐他汀的血药浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "阿托伐他汀与利福平相互作用",
+        "properties": {
+          "mechanism": [
+            "OATP1B1抑制"
+          ],
+          "effect": "增加阿托伐他汀血药浓度",
+          "evidence": {
+            "chunk_index": 1101,
+            "source": "凡默谷",
+            "text": "在阿托伐他汀与利福平合用时，利福平具有诱导CYP3A4和抑制OATP1B1的双重作用，经研究发现，单剂量服用利福平后，其对于CYP3A4的诱导作用可以忽略不计，对转运蛋白的抑制作用在联合用药中起主要作用，使得阿托伐他汀的血药浓度增加"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "name": "克拉霉素属于大环内酯类抗生素",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1101,
+            "source": "凡默谷",
+            "text": "大环内酯类抗生素作为第二常用的抗生素，在临床治疗中常与他汀类药物合用，已有临床实验证明，大环内酯类抗生素主要通过CYP3A4酶来介导与他汀类药物的相互作用，其中，红霉素和克拉霉素对CYP3A4的抑制最为显著"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_7",
+        "name": "红霉素属于大环内酯类抗生素",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1101,
+            "source": "凡默谷",
+            "text": "大环内酯类抗生素作为第二常用的抗生素，在临床治疗中常与他汀类药物合用，已有临床实验证明，大环内酯类抗生素主要通过CYP3A4酶来介导与他汀类药物的相互作用，其中，红霉素和克拉霉素对CYP3A4的抑制最为显著"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_7",
+        "name": "阿奇霉素属于大环内酯类抗生素",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1101,
+            "source": "凡默谷",
+            "text": "大环内酯类抗生素作为第二常用的抗生素，在临床治疗中常与他汀类药物合用，已有临床实验证明，大环内酯类抗生素主要通过CYP3A4酶来介导与他汀类药物的相互作用，其中，红霉素和克拉霉素对CYP3A4的抑制最为显著，阿奇霉素的抑制作用较小"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "阿托伐他汀与红霉素相互作用",
+        "properties": {
+          "mechanism": [
+            "CYP3A4抑制",
+            "P-gp抑制",
+            "OATP1B1抑制"
+          ],
+          "effect": "显著增加阿托伐他汀血药浓度",
+          "evidence": {
+            "chunk_index": 1101,
+            "source": "凡默谷",
+            "text": "除了通过CYP3A4酶抑制外，红霉素、克拉霉素和阿奇霉素还可以在较小程度上抑制P-gp，而红霉素和克拉霉素还可以抑制OATP1B1[37]。Duan等[38]运用PBPK模型研究匹伐他汀和阿托伐他汀与伊曲康唑、红霉素等药物的DDI，结果显示，当两种药物分别与伊曲康唑和红霉素合用时，均可显著增加匹伐他汀和阿托伐他汀的血药浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_8",
+        "name": "匹伐他汀与红霉素相互作用",
+        "properties": {
+          "mechanism": [
+            "CYP3A4抑制",
+            "P-gp抑制",
+            "OATP1B1抑制"
+          ],
+          "effect": "显著增加匹伐他汀血药浓度",
+          "evidence": {
+            "chunk_index": 1101,
+            "source": "凡默谷",
+            "text": "Duan等[38]运用PBPK模型研究匹伐他汀和阿托伐他汀与伊曲康唑、红霉素等药物的DDI，结果显示，当两种药物分别与伊曲康唑和红霉素合用时，均可显著增加匹伐他汀和阿托伐他汀的血药浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "阿托伐他汀与伊曲康唑相互作用",
+        "properties": {
+          "mechanism": [],
+          "effect": "显著增加阿托伐他汀血药浓度",
+          "evidence": {
+            "chunk_index": 1101,
+            "source": "凡默谷",
+            "text": "Duan等[38]运用PBPK模型研究匹伐他汀和阿托伐他汀与伊曲康唑、红霉素等药物的DDI，结果显示，当两种药物分别与伊曲康唑和红霉素合用时，均可显著增加匹伐他汀和阿托伐他汀的血药浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_12",
+        "name": "匹伐他汀与伊曲康唑相互作用",
+        "properties": {
+          "mechanism": [],
+          "effect": "显著增加匹伐他汀血药浓度",
+          "evidence": {
+            "chunk_index": 1101,
+            "source": "凡默谷",
+            "text": "Duan等[38]运用PBPK模型研究匹伐他汀和阿托伐他汀与伊曲康唑、红霉素等药物的DDI，结果显示，当两种药物分别与伊曲康唑和红霉素合用时，均可显著增加匹伐他汀和阿托伐他汀的血药浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "阿托伐他汀属于他汀类药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1101,
+            "source": "凡默谷",
+            "text": "大环内酯类抗生素作为第二常用的抗生素，在临床治疗中常与他汀类药物合用"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_13",
+        "name": "匹伐他汀属于他汀类药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1101,
+            "source": "凡默谷",
+            "text": "Duan等[38]运用PBPK模型研究匹伐他汀和阿托伐他汀与伊曲康唑、红霉素等药物的DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "阿托伐他汀是CYP3A4的底物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1101,
+            "source": "凡默谷",
+            "text": "它即是CYP3A4的底物，也是OATP1B1的底物"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "阿托伐他汀是OATP1B1的底物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1101,
+            "source": "凡默谷",
+            "text": "它即是CYP3A4的底物，也是OATP1B1的底物"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1101,
+    "source": "凡默谷",
+    "text": "。临床上，阿托伐他汀常用于高胆固醇血症的治疗，它即是CYP3A4的底物，也是OATP1B1的底物。Zhang等[36]通过PBPK模型研究发现，与强CYP3A4抑制剂克拉霉素合用时，模型预测到的阿托伐他汀和阿托伐他汀内酯的AUC分别增加了2.5倍和2.9倍，与临床实验中观察到的2.6倍和2.6倍一致，显示模型具有较好的预测效能，克拉霉素可显著增加阿托伐他汀的血药浓度；而在阿托伐他汀与利福平合用时，利福平具有诱导CYP3A4和抑制OATP1B1的双重作用，经研究发现，单剂量服用利福平后，其对于CYP3A4的诱导作用可以忽略不计，对转运蛋白的抑制作用在联合用药中起主要作用，使得阿托伐他汀的血药浓度增加。大环内酯类抗生素作为第二常用的抗生素，在临床治疗中常与他汀类药物合用，已有临床实验证明，大环内酯类抗生素主要通过CYP3A4酶来介导与他汀类药物的相互作用，其中，红霉素和克拉霉素对CYP3A4的抑制最为显著，阿奇霉素的抑制作用较小。除了通过CYP3A4酶抑制外，红霉素、克拉霉素和阿奇霉素还可以在较小程度上抑制P-gp，而红霉素和克拉霉素还可以抑制OATP1B1[37]。Duan等[38]运用PBPK模型研究匹伐他汀和阿托伐他汀与伊曲康唑、红霉素等药物的DDI，结果显示，当两种药物分别与伊曲康唑和红霉素合用时，均可显著增加匹伐他汀和阿托伐他汀的血药浓度，模型预测值与观察值的比值均在0.5~2倍范围内，模型预测效能较好"
+  }
+]

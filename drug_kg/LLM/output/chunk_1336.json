@@ -1,0 +1,325 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "链霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "泮库溴铵",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "神经肌肉阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "神经肌肉阻滞作用加重",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Symptom",
+        "name": "肌肉软弱",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Symptom",
+        "name": "呼吸抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Symptom",
+        "name": "呼吸麻痹",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Symptom",
+        "name": "呼吸暂停",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "普萘洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "β-受体阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "钙拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "SideEffect",
+        "name": "对房室传导的抑制作用增强",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "对心肌和传导系统的抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "麦角胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "大环内酯类抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Enzyme",
+        "name": "细胞色素P450系统",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "血清浓度升高",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "SideEffect",
+        "name": "严重中毒",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Symptom",
+        "name": "精神错乱",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Symptom",
+        "name": "共济失调",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Symptom",
+        "name": "惊厥",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Symptom",
+        "name": "手足灰白发冷",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Symptom",
+        "name": "感觉障碍",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "Symptom",
+        "name": "昏迷",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Symptom",
+        "name": "呼吸麻痹",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Evidence",
+        "name": "SFDA药品说明书范本",
+        "properties": {
+          "chunk_id": "1336",
+          "source": "医学分享俱乐部"
+        }
+      },
+      {
+        "id": "ent_29",
+        "type": "Evidence",
+        "name": "中国医师药师临床用药指南[M]",
+        "properties": {
+          "chunk_id": "1336",
+          "source": "医学分享俱乐部"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "链霉素与泮库溴铵合用",
+        "properties": {
+          "mechanism": "与神经肌肉阻滞剂合用",
+          "consequence": "可加重神经肌肉阻滞作用，导致肌肉软弱、呼吸抑制或呼吸麻痹(呼吸暂停)",
+          "evidence": [
+            {
+              "chunk_index": 1336,
+              "source": "医学分享俱乐部",
+              "text": "链霉素与神经肌肉阻滞剂合用，可加重神经肌肉阻滞作用，导致肌肉软弱、呼吸抑制或呼吸麻痹(呼吸暂停)。文献依据：SFDA药品说明书范本"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "name": "维拉帕米与普萘洛尔合用",
+        "properties": {
+          "mechanism": "与β-受体阻滞剂联合使用",
+          "consequence": "可增强对房室传导的抑制作用。钙拮抗剂合用，特别是静脉注射维拉帕米，要十分警惕本品对心肌和传导系统的抑制",
+          "evidence": [
+            {
+              "chunk_index": 1336,
+              "source": "医学分享俱乐部",
+              "text": "与β-受体阻滞剂联合使用, 可增强对房室传导的抑制作用。钙拮抗剂合用，特别是静脉注射维拉帕米，要十分警惕本品对心肌和传导系统的抑制。文献依据：SFDA药品说明书范本"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_16",
+        "name": "克拉霉素与麦角胺合用",
+        "properties": {
+          "mechanism": "与其他大环内酯类抗生素相似，本品会升高需要经过细胞色素P450系统代谢的药物的血清浓度",
+          "consequence": "逾量可引起严重中毒，急性中毒症状为精神错乱、共济失调、惊厥、手足灰白发冷、感觉障碍，甚至因昏迷与呼吸麻痹而死亡",
+          "evidence": [
+            {
+              "chunk_index": 1336,
+              "source": "医学分享俱乐部",
+              "text": "与其他大环内酯类抗生素相似，本品会升高需要经过细胞色素P450系统代谢的药物的血清浓度（如阿司咪唑、华法林、麦角生物碱、三唑仑、咪达唑仑、环孢素、奥美拉唑、雷尼替丁、苯妥因、溴隐亭、阿芬他尼、海索比妥、丙吡胺、洛伐他汀、他克莫司等）。逾量可引起严重中毒，急性中毒症状为精神错乱、共济失调、惊厥、手足灰白发冷、感觉障碍，甚至因昏迷与呼吸麻痹而死亡。文献依据：SFDA药品说明书范本"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "泮库溴铵属于神经肌肉阻滞剂",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1336,
+              "source": "医学分享俱乐部",
+              "text": "链霉素与神经肌肉阻滞剂合用"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_11",
+        "name": "普萘洛尔属于β-受体阻滞剂",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1336,
+              "source": "医学分享俱乐部",
+              "text": "与β-受体阻滞剂联合使用"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_12",
+        "name": "维拉帕米属于钙拮抗剂",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1336,
+              "source": "医学分享俱乐部",
+              "text": "钙拮抗剂合用，特别是静脉注射维拉帕米"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_15",
+        "target_id": "ent_17",
+        "name": "克拉霉素属于大环内酯类抗生素",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1336,
+              "source": "医学分享俱乐部",
+              "text": "与其他大环内酯类抗生素相似"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_3",
+        "target_id": "ent_18",
+        "name": "克拉霉素与麦角胺相互作用涉及细胞色素P450系统",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1336,
+              "source": "医学分享俱乐部",
+              "text": "本品会升高需要经过细胞色素P450系统代谢的药物的血清浓度"
+            }
+          ]
+        }
+      }
+    ],
+    "chunk_index": 1336,
+    "source": "医学分享俱乐部",
+    "text": "。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.478～480.30、链霉素+泮库溴铵链霉素与神经肌肉阻滞剂合用，可加重神经肌肉阻滞作用，导致肌肉软弱、呼吸抑制或呼吸麻痹(呼吸暂停)。文献依据：SFDA药品说明书范本31、维拉帕米+普萘洛尔与β-受体阻滞剂联合使用, 可增强对房室传导的抑制作用。钙拮抗剂合用，特别是静脉注射维拉帕米，要十分警惕本品对心肌和传导系统的抑制。文献依据：SFDA药品说明书范本32、克拉霉素+麦角胺与其他大环内酯类抗生素相似，本品会升高需要经过细胞色素P450系统代谢的药物的血清浓度（如阿司咪唑、华法林、麦角生物碱、三唑仑、咪达唑仑、环孢素、奥美拉唑、雷尼替丁、苯妥因、溴隐亭、阿芬他尼、海索比妥、丙吡胺、洛伐他汀、他克莫司等）。逾量可引起严重中毒，急性中毒症状为精神错乱、共济失调、惊厥、手足灰白发冷、感觉障碍，甚至因昏迷与呼吸麻痹而死亡。文献依据：SFDA药品说明书范本声明：本文转载网络，如有侵权请联系我们删除，文中内容为转载，所涉及到各类药方、验方等仅供参考学习，不能作为处方，请勿盲目试用，本平台不承担由此产生的任何责任！期待您的原创投稿，邮箱：530895013@qq.com"
+  }
+]

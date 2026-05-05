@@ -1,0 +1,495 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "美托洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氟西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "舒芬太尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "硝苯地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Food",
+        "name": "镁",
+        "properties": {
+          "类型": "补充剂"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "诺氟沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "茶碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "细胞色素P450",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "茶碱中毒症状",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Symptom",
+        "name": "恶心",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Symptom",
+        "name": "呕吐",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Symptom",
+        "name": "震颤",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Symptom",
+        "name": "不安",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Symptom",
+        "name": "激动",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Symptom",
+        "name": "抽搐",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Symptom",
+        "name": "心悸",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "苯妥英",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "胺碘酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "SideEffect",
+        "name": "运动失调",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Symptom",
+        "name": "眼球震颤",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Symptom",
+        "name": "视觉模糊",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Symptom",
+        "name": "双腿无力",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Indicator",
+        "name": "血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "SideEffect",
+        "name": "严重呼吸抑制",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_27",
+        "type": "SideEffect",
+        "name": "突然低血压",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_28",
+        "type": "SideEffect",
+        "name": "显著的低血压",
+        "properties": {
+          "默认严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_29",
+        "type": "SideEffect",
+        "name": "神经肌肉阻滞",
+        "properties": {}
+      },
+      {
+        "id": "ent_30",
+        "type": "Evidence",
+        "name": "医学分享俱乐部",
+        "properties": {
+          "chunk_id": 1334,
+          "来源类型": "其他"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "氟西汀可引起美托洛尔的血药浓度升高，毒性增大",
+        "properties": {
+          "后果": [
+            "毒性增大"
+          ],
+          "建议": "应注意监测，必要时减少美托洛尔的用量",
+          "证据": {
+            "chunk_index": 1334,
+            "source": "医学分享俱乐部",
+            "text": "氟西汀可引起美托洛尔的血药浓度升高，毒性增大，故应注意监测，必要时减少美托洛尔的用量。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.499～502."
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "咪达唑仑与舒芬太尼同用可引起严重呼吸抑制及突然低血压",
+        "properties": {
+          "后果": [
+            "严重呼吸抑制",
+            "突然低血压"
+          ],
+          "建议": "应严密监测血药浓度，并且适当减少剂量",
+          "证据": {
+            "chunk_index": 1334,
+            "source": "医学分享俱乐部",
+            "text": "咪达唑仑与芬太尼或舒芬太尼同用，可引起严重呼吸抑制及突然低血压，因而这些药合用时应严密监测血药浓度，并且适当减少剂量。文献依据：《新编临床用药参考》"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "硝苯地平与镁合用可引起显著的低血压和神经肌肉阻滞",
+        "properties": {
+          "后果": [
+            "显著的低血压",
+            "神经肌肉阻滞"
+          ],
+          "建议": "合用时应密切监测血压",
+          "证据": {
+            "chunk_index": 1334,
+            "source": "医学分享俱乐部",
+            "text": "镁剂用于早产治疗时，如与本药合用可引起显著的低血压和神经肌肉阻滞。合用时应密切监测血压。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.577～580."
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "name": "诺氟沙星与茶碱合用导致茶碱血药浓度升高，出现中毒症状",
+        "properties": {
+          "机制": "与细胞色素P450结合部位的竞争性抑制",
+          "后果": [
+            "茶碱中毒症状"
+          ],
+          "症状列表": [
+            "恶心",
+            "呕吐",
+            "震颤",
+            "不安",
+            "激动",
+            "抽搐",
+            "心悸"
+          ],
+          "建议": "应测定茶碱类血药浓度和调整剂量",
+          "证据": {
+            "chunk_index": 1334,
+            "source": "医学分享俱乐部",
+            "text": "诺氟沙星“与茶碱类合用时可能由于与细胞色素P450结合部位的竞争性抑制，导致茶碱类的肝清除明显减少，血消除半衰期(t1/2β)延长，血药浓度升高，出现茶碱中毒症状，如恶心、呕吐、震颤、不安、激动、抽搐、心悸等，故合用时应测定茶碱类血药浓度和调整剂量。”文献依据：SFDA药品说明书范本"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_4",
+        "target_id": "ent_9",
+        "name": "诺氟沙星-茶碱相互作用通过细胞色素P450竞争性抑制",
+        "properties": {}
+      },
+      {
+        "id": "rel_6",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_4",
+        "target_id": "ent_10",
+        "name": "诺氟沙星+茶碱增加茶碱中毒风险",
+        "properties": {}
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_10",
+        "target_id": "ent_11",
+        "name": "茶碱中毒症状包括恶心",
+        "properties": {}
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_10",
+        "target_id": "ent_12",
+        "name": "茶碱中毒症状包括呕吐",
+        "properties": {}
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_10",
+        "target_id": "ent_13",
+        "name": "茶碱中毒症状包括震颤",
+        "properties": {}
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_10",
+        "target_id": "ent_14",
+        "name": "茶碱中毒症状包括不安",
+        "properties": {}
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_10",
+        "target_id": "ent_15",
+        "name": "茶碱中毒症状包括激动",
+        "properties": {}
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_10",
+        "target_id": "ent_16",
+        "name": "茶碱中毒症状包括抽搐",
+        "properties": {}
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_10",
+        "target_id": "ent_17",
+        "name": "茶碱中毒症状包括心悸",
+        "properties": {}
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_19",
+        "target_id": "ent_18",
+        "name": "胺碘酮抑制苯妥英肝代谢，升高其血清浓度",
+        "properties": {
+          "后果": [
+            "运动失调",
+            "眼球震颤",
+            "视觉模糊",
+            "双腿无力"
+          ],
+          "建议": "需监测病人苯妥英水平，必要时调整其剂量",
+          "证据": {
+            "chunk_index": 1334,
+            "source": "医学分享俱乐部",
+            "text": "胺碘酮可以抑制苯妥英肝代谢，升高苯妥英血清浓度，以致产生运动失调、眼球震颤、视觉模糊和双腿无力。需监测病人苯妥英水平，必要时调整其剂量。胺碘酮同其他乙内酰脲类抗惊厥药物同用有类似的相互作用"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_14",
+        "target_id": "ent_20",
+        "name": "胺碘酮+苯妥英增加运动失调风险",
+        "properties": {}
+      },
+      {
+        "id": "rel_16",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_14",
+        "target_id": "ent_21",
+        "name": "胺碘酮+苯妥英增加眼球震颤风险",
+        "properties": {}
+      },
+      {
+        "id": "rel_17",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_14",
+        "target_id": "ent_22",
+        "name": "胺碘酮+苯妥英增加视觉模糊风险",
+        "properties": {}
+      },
+      {
+        "id": "rel_18",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_14",
+        "target_id": "ent_23",
+        "name": "胺碘酮+苯妥英增加双腿无力风险",
+        "properties": {}
+      },
+      {
+        "id": "rel_19",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_1",
+        "target_id": "ent_24",
+        "name": "美托洛尔+氟西汀影响血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "rel_20",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_2",
+        "target_id": "ent_24",
+        "name": "咪达唑仑+舒芬太尼影响血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "rel_21",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_3",
+        "target_id": "ent_25",
+        "name": "硝苯地平+镁影响血压",
+        "properties": {}
+      },
+      {
+        "id": "rel_22",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_4",
+        "target_id": "ent_24",
+        "name": "诺氟沙星+茶碱影响血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "rel_23",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_14",
+        "target_id": "ent_24",
+        "name": "胺碘酮+苯妥英影响血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "rel_24",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_1",
+        "target_id": "ent_30",
+        "name": "美托洛尔+氟西汀相互作用由证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_25",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_2",
+        "target_id": "ent_30",
+        "name": "咪达唑仑+舒芬太尼相互作用由证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_26",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_3",
+        "target_id": "ent_30",
+        "name": "硝苯地平+镁相互作用由证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_27",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_4",
+        "target_id": "ent_30",
+        "name": "诺氟沙星+茶碱相互作用由证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_28",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_14",
+        "target_id": "ent_30",
+        "name": "胺碘酮+苯妥英相互作用由证据支持",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1334,
+    "source": "医学分享俱乐部",
+    "text": "。因为有产生骨髓再生不良或巨幼红细胞贫血的可能。”文献依据：SFDA药品说明书范本20、美托洛尔+氟西汀氟西汀可引起美托洛尔的血药浓度升高，毒性增大，故应注意监测，必要时减少美托洛尔的用量。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.499～502.21、咪达唑仑+舒芬太尼咪达唑仑与芬太尼或舒芬太尼同用，可引起严重呼吸抑制及突然低血压，因而这些药合用时应严密监测血药浓度，并且适当减少剂量。文献依据：《新编临床用药参考》22、硝苯地平+镁镁剂用于早产治疗时，如与本药合用可引起显著的低血压和神经肌肉阻滞。合用时应密切监测血压。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.577～580.23、诺氟沙星+茶碱诺氟沙星“与茶碱类合用时可能由于与细胞色素P450结合部位的竞争性抑制，导致茶碱类的肝清除明显减少，血消除半衰期(t1/2β)延长，血药浓度升高，出现茶碱中毒症状，如恶心、呕吐、震颤、不安、激动、抽搐、心悸等，故合用时应测定茶碱类血药浓度和调整剂量。”文献依据：SFDA药品说明书范本24、苯妥英+胺碘酮胺碘酮可以抑制苯妥英肝代谢，升高苯妥英血清浓度，以致产生运动失调、眼球震颤、视觉模糊和双腿无力。需监测病人苯妥英水平，必要时调整其剂量。胺碘酮同其他乙内酰脲类抗惊厥药物同用有类似的相互作用"
+  }
+]

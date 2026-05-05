@@ -1,0 +1,407 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "罗红霉素",
+        "properties": {
+          "description": "肝药酶抑制剂"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "复方甲氧那明胶囊",
+        "properties": {
+          "description": "含氨茶碱、甲氧那明、那可丁、氯苯那敏"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "氨茶碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "大环内酯类",
+        "properties": {
+          "description": "红霉素、克拉霉素、罗红霉素等"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "喹诺酮类",
+        "properties": {
+          "description": "诺氟沙星、氧氟沙星、环丙沙星等"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "四环素类",
+        "properties": {
+          "description": "米诺环素、多西环素等"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "克林霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "别嘌醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "阿奇霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "莫西沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "对乙酰氨基酚",
+        "properties": {
+          "alias": "扑热息痛"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "SideEffect",
+        "name": "肝脏损害",
+        "properties": {
+          "severity": "严重"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "SideEffect",
+        "name": "急性肝损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "肝衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "SideEffect",
+        "name": "氨茶碱中毒",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Symptom",
+        "name": "肌肉颤动",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Symptom",
+        "name": "心动过速",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Symptom",
+        "name": "心律失常",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Symptom",
+        "name": "呼吸停止",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Symptom",
+        "name": "心脏停止",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Indicator",
+        "name": "氨茶碱血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Population",
+        "name": "儿童",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Population",
+        "name": "两岁以下儿童",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Population",
+        "name": "四岁以下儿童",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Evidence",
+        "name": "医学界",
+        "properties": {
+          "chunk_id": "1356",
+          "source": "医学界",
+          "text": "这些药物的混搭要注意，一不小心会致命！案例一广东江门的一名18岁女孩，因感冒同时服用罗红霉素和复方甲氧那明胶囊二种药物后离奇死亡。——复方甲氧那明胶囊含：氨茶碱、甲氧那明、那可丁、氯苯那敏；罗红霉素：为肝药酶抑制剂，可降低氨茶碱的清除率，显著升高氨茶碱血药浓度，导致氨茶碱中毒，患者出现肌肉颤动、心动过速、心律失常，严重者甚至呼吸、心脏停止致死。——正在服用氨茶碱的患者，不宜同时服用大环内酯类（红霉素、克拉霉素、罗红霉素等）、喹诺酮类（诺氟沙星、氧氟沙星、环丙沙星等）、四环素类（米诺环素、多西环素等）、克林霉素、别嘌醇等。——阿奇霉素、莫西沙星与氨茶碱的相互作用无临床意义，可以合用。提醒对乙酰氨基酚的最严重不良反应是肝脏损害。对乙酰氨基酚可用于3个月以上的儿童，一次10~15 mg/kg，每4~6小时1次，每日不超过5次，疗程不超过5日。许多感冒药、退烧药和止痛药中含有对乙酰氨基酚（扑热息痛），用药前请仔细阅读说明书。如果同时使用两种感冒药，或同时吃退烧药和止痛药，造成对乙酰氨基酚摄入过量，会造成急性肝损伤，严重会引起肝衰竭甚至死亡。在美国，曾发生多名儿童因过量服用复方感冒药死亡。美国食品药品管理局（FDA）禁止两岁以下儿童服用复方感冒药，而且在药品说明书上明确规定“不推荐给四岁以下的儿童使用复方感冒药”。案例二家住北京丰台的王女士在打扫卫生间时同时使用了洁厕灵和84消毒液，而后突然晕倒，因抢救无效最终撒手人寰。——84消毒液的有效成分为次氯酸钠，洁厕剂主要靠酸去污"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "罗红霉素与氨茶碱相互作用",
+        "properties": {
+          "mechanism": "罗红霉素为肝药酶抑制剂，可降低氨茶碱的清除率",
+          "consequence": "显著升高氨茶碱血药浓度，导致氨茶碱中毒，出现肌肉颤动、心动过速、心律失常，严重者甚至呼吸、心脏停止致死",
+          "severity": "致命",
+          "evidence": {
+            "chunk_index": "1356",
+            "source": "医学界",
+            "text": "罗红霉素：为肝药酶抑制剂，可降低氨茶碱的清除率，显著升高氨茶碱血药浓度，导致氨茶碱中毒，患者出现肌肉颤动、心动过速、心律失常，严重者甚至呼吸、心脏停止致死。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_3",
+        "name": "大环内酯类与氨茶碱相互作用",
+        "properties": {
+          "advice": "不宜同时服用",
+          "evidence": {
+            "chunk_index": "1356",
+            "source": "医学界",
+            "text": "正在服用氨茶碱的患者，不宜同时服用大环内酯类（红霉素、克拉霉素、罗红霉素等）"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_3",
+        "name": "喹诺酮类与氨茶碱相互作用",
+        "properties": {
+          "advice": "不宜同时服用",
+          "evidence": {
+            "chunk_index": "1356",
+            "source": "医学界",
+            "text": "正在服用氨茶碱的患者，不宜同时服用...喹诺酮类（诺氟沙星、氧氟沙星、环丙沙星等）"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_3",
+        "name": "四环素类与氨茶碱相互作用",
+        "properties": {
+          "advice": "不宜同时服用",
+          "evidence": {
+            "chunk_index": "1356",
+            "source": "医学界",
+            "text": "正在服用氨茶碱的患者，不宜同时服用...四环素类（米诺环素、多西环素等）"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_3",
+        "name": "克林霉素与氨茶碱相互作用",
+        "properties": {
+          "advice": "不宜同时服用",
+          "evidence": {
+            "chunk_index": "1356",
+            "source": "医学界",
+            "text": "正在服用氨茶碱的患者，不宜同时服用...克林霉素"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_3",
+        "name": "别嘌醇与氨茶碱相互作用",
+        "properties": {
+          "advice": "不宜同时服用",
+          "evidence": {
+            "chunk_index": "1356",
+            "source": "医学界",
+            "text": "正在服用氨茶碱的患者，不宜同时服用...别嘌醇等"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_3",
+        "name": "阿奇霉素与氨茶碱相互作用",
+        "properties": {
+          "advice": "可以合用",
+          "description": "相互作用无临床意义",
+          "evidence": {
+            "chunk_index": "1356",
+            "source": "医学界",
+            "text": "阿奇霉素、莫西沙星与氨茶碱的相互作用无临床意义，可以合用。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_3",
+        "name": "莫西沙星与氨茶碱相互作用",
+        "properties": {
+          "advice": "可以合用",
+          "description": "相互作用无临床意义",
+          "evidence": {
+            "chunk_index": "1356",
+            "source": "医学界",
+            "text": "阿奇霉素、莫西沙星与氨茶碱的相互作用无临床意义，可以合用。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_11",
+        "target_id": "ent_12",
+        "name": "对乙酰氨基酚导致肝脏损害",
+        "properties": {
+          "severity": "最严重",
+          "evidence": {
+            "chunk_index": "1356",
+            "source": "医学界",
+            "text": "对乙酰氨基酚的最严重不良反应是肝脏损害。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_11",
+        "target_id": "ent_13",
+        "name": "对乙酰氨基酚过量导致急性肝损伤",
+        "properties": {
+          "condition": "摄入过量",
+          "evidence": {
+            "chunk_index": "1356",
+            "source": "医学界",
+            "text": "如果同时使用两种感冒药，或同时吃退烧药和止痛药，造成对乙酰氨基酚摄入过量，会造成急性肝损伤"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_11",
+        "target_id": "ent_14",
+        "name": "对乙酰氨基酚过量导致肝衰竭",
+        "properties": {
+          "condition": "摄入过量",
+          "evidence": {
+            "chunk_index": "1356",
+            "source": "医学界",
+            "text": "严重会引起肝衰竭甚至死亡"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_21",
+        "name": "罗红霉素升高氨茶碱血药浓度",
+        "properties": {
+          "effect": "升高",
+          "evidence": {
+            "chunk_index": "1356",
+            "source": "医学界",
+            "text": "显著升高氨茶碱血药浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "罗红霉素属于大环内酯类",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1356",
+            "source": "医学界",
+            "text": "大环内酯类（红霉素、克拉霉素、罗红霉素等）"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_11",
+        "target_id": "ent_23",
+        "name": "复方感冒药（含对乙酰氨基酚）禁忌用于两岁以下儿童",
+        "properties": {
+          "description": "美国食品药品管理局（FDA）禁止两岁以下儿童服用复方感冒药",
+          "evidence": {
+            "chunk_index": "1356",
+            "source": "医学界",
+            "text": "美国食品药品管理局（FDA）禁止两岁以下儿童服用复方感冒药"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_11",
+        "target_id": "ent_24",
+        "name": "复方感冒药（含对乙酰氨基酚）不推荐用于四岁以下儿童",
+        "properties": {
+          "description": "不推荐给四岁以下的儿童使用复方感冒药",
+          "evidence": {
+            "chunk_index": "1356",
+            "source": "医学界",
+            "text": "不推荐给四岁以下的儿童使用复方感冒药"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1356,
+    "source": "医学界",
+    "text": "这些药物的混搭要注意，一不小心会致命！案例一广东江门的一名18岁女孩，因感冒同时服用罗红霉素和复方甲氧那明胶囊二种药物后离奇死亡。——复方甲氧那明胶囊含：氨茶碱、甲氧那明、那可丁、氯苯那敏；罗红霉素：为肝药酶抑制剂，可降低氨茶碱的清除率，显著升高氨茶碱血药浓度，导致氨茶碱中毒，患者出现肌肉颤动、心动过速、心律失常，严重者甚至呼吸、心脏停止致死。——正在服用氨茶碱的患者，不宜同时服用大环内酯类（红霉素、克拉霉素、罗红霉素等）、喹诺酮类（诺氟沙星、氧氟沙星、环丙沙星等）、四环素类（米诺环素、多西环素等）、克林霉素、别嘌醇等。——阿奇霉素、莫西沙星与氨茶碱的相互作用无临床意义，可以合用。提醒对乙酰氨基酚的最严重不良反应是肝脏损害。对乙酰氨基酚可用于3个月以上的儿童，一次10~15 mg/kg，每4~6小时1次，每日不超过5次，疗程不超过5日。许多感冒药、退烧药和止痛药中含有对乙酰氨基酚（扑热息痛），用药前请仔细阅读说明书。如果同时使用两种感冒药，或同时吃退烧药和止痛药，造成对乙酰氨基酚摄入过量，会造成急性肝损伤，严重会引起肝衰竭甚至死亡。在美国，曾发生多名儿童因过量服用复方感冒药死亡。美国食品药品管理局（FDA）禁止两岁以下儿童服用复方感冒药，而且在药品说明书上明确规定“不推荐给四岁以下的儿童使用复方感冒药”。案例二家住北京丰台的王女士在打扫卫生间时同时使用了洁厕灵和84消毒液，而后突然晕倒，因抢救无效最终撒手人寰。——84消毒液的有效成分为次氯酸钠，洁厕剂主要靠酸去污"
+  }
+]

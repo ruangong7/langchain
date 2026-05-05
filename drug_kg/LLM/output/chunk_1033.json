@@ -1,0 +1,182 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "艾瑞昔布",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "环泊酚",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "UGT",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP2B6",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "吡咯替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "艾瑞昔布与利福平的临床DDI试验",
+        "properties": {
+          "mechanism": "CYP3A强诱导",
+          "evidence": {
+            "chunk_index": 1033,
+            "source": "凡默谷",
+            "text": "申办方已完成了艾瑞昔布与CYP3A强诱导剂利福平的临床 DDI试验（登记号CTR20160474)，但数据未公开。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "环泊酚经UGT酶催化代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1033,
+            "source": "凡默谷",
+            "text": "环泊酚同丙泊酚相似，在体内 主要经UGT酶催化发生二相结合反应，并主要以 葡萄糖醛酸结合代谢物M4的形式从尿液中排出 (51.6% )。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "name": "环泊酚经CYP2B6酶介导单氧化代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1033,
+            "source": "凡默谷",
+            "text": "环泊酚还可经CYP酶（主要为 CYP2B6酶)介导单氧化代谢后再发生结合代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "环泊酚和伏立康唑的临床DDI试验",
+        "properties": {
+          "mechanism": "CYP2B6弱抑制",
+          "evidence": {
+            "chunk_index": 1033,
+            "source": "凡默谷",
+            "text": "因此开展了环泊酚和伏立康唑（CYP2B6弱抑制 剂）以及利福平（CYP2B6中等诱导剂）的临床DDI 试验，在“药物临床试验登记与信息公布平台”上 的登记号分别为CTR20192568和CTR20182359,结 果显示利福平对环泊酚的药动学无显著影响;伏 立康唑和环泊酚的DDI试验结果尚未公开。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "name": "环泊酚和利福平的临床DDI试验",
+        "properties": {
+          "mechanism": "CYP2B6中等诱导",
+          "effect": "无显著影响",
+          "evidence": {
+            "chunk_index": 1033,
+            "source": "凡默谷",
+            "text": "因此开展了环泊酚和伏立康唑（CYP2B6弱抑制 剂）以及利福平（CYP2B6中等诱导剂）的临床DDI 试验，在“药物临床试验登记与信息公布平台”上 的登记号分别为CTR20192568和CTR20182359,结 果显示利福平对环泊酚的药动学无显著影响;伏 立康唑和环泊酚的DDI试验结果尚未公开。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "name": "吡咯替尼主要由CYP3A4酶代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1033,
+            "source": "凡默谷",
+            "text": "吡咯替尼主要由CYP3A4酶代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_10",
+        "name": "吡咯替尼与伊曲康唑联用",
+        "properties": {
+          "effect": "Cmax增加2.78倍，AUC0—∞增加10.8倍",
+          "evidence": {
+            "chunk_index": 1033,
+            "source": "凡默谷",
+            "text": "健康受试者联 用伊曲康唑后，吡罗替尼的CmaX和AUC0—0分别增 加了2.78倍和10.8倍。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1033,
+    "source": "凡默谷",
+    "text": "。—0分别升高1.19 倍和1.12倍，而M1和M2的药动学无显著变化。在“药物临床试验登记与信息公布平台”搜 索艾瑞昔布的相关临床试验，可发现申办方已完 成了艾瑞昔布与CYP3A强诱导剂利福平的临床 DDI试验（登记号CTR20160474)，但数据未公开。到目前为止，艾瑞昔布药品说明书也尚未根据临 床DDI试验的结果进行用药说明。1.1.8环泊酚[22]环泊酚同丙泊酚相似，在体内 主要经UGT酶催化发生二相结合反应，并主要以 葡萄糖醛酸结合代谢物M4的形式从尿液中排出 (51.6% )。环泊酚药品说明书提示，除原形的葡 萄糖醛酸结合外，环泊酚还可经CYP酶（主要为 CYP2B6酶)介导单氧化代谢后再发生结合代谢， 因此开展了环泊酚和伏立康唑（CYP2B6弱抑制 剂）以及利福平（CYP2B6中等诱导剂）的临床DDI 试验，在“药物临床试验登记与信息公布平台”上 的登记号分别为CTR20192568和CTR20182359,结 果显示利福平对环泊酚的药动学无显著影响;伏 立康唑和环泊酚的DDI试验结果尚未公开。1.1.9吡咯替尼[23—24]吡咯替尼在人体内经历 代谢广泛，放射性标记研究表明，原形药物的累 积回收率约不足10%，以〇-脱甲基吡啶代谢物和 单氧化代谢物为主。吡咯替尼主要由CYP3A4酶代谢，与单独使用吡罗替尼相比，健康受试者联 用伊曲康唑后，吡罗替尼的CmaX和AUC0—0分别增 加了2.78倍和10.8倍。试验结果提示，吡咯替尼为 CYP3A4酶的敏感底物"
+  }
+]

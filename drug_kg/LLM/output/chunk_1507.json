@@ -1,0 +1,512 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "氟康唑",
+        "properties": {
+          "别名": "Diflucan"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "阿司匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "布洛芬",
+        "properties": {
+          "别名": "Advil, Motrin IB"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "萘普生钠",
+        "properties": {
+          "别名": "Aleve, Anaprox"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "对乙酰氨基酚",
+        "properties": {
+          "别名": "Tylenol"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "胺碘酮",
+        "properties": {
+          "别名": "盐酸胺碘酮, Pacerone"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "抗酸剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "腹泻药",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Food",
+        "name": "辅酶Q10",
+        "properties": {
+          "类型": "补充剂",
+          "别名": "辅酶Q"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Food",
+        "name": "当归",
+        "properties": {
+          "类型": "补充剂"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Food",
+        "name": "大蒜",
+        "properties": {
+          "类型": "补充剂"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Food",
+        "name": "银杏",
+        "properties": {
+          "类型": "补充剂"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Food",
+        "name": "人参",
+        "properties": {
+          "类型": "补充剂"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Food",
+        "name": "绿茶",
+        "properties": {
+          "类型": "补充剂"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "Food",
+        "name": "圣约翰草",
+        "properties": {
+          "类型": "补充剂"
+        }
+      },
+      {
+        "id": "ent_18",
+        "type": "Food",
+        "name": "维生素E",
+        "properties": {
+          "类型": "补充剂"
+        }
+      },
+      {
+        "id": "ent_19",
+        "type": "Food",
+        "name": "蔓越莓",
+        "properties": {
+          "类型": "食物"
+        }
+      },
+      {
+        "id": "ent_20",
+        "type": "Food",
+        "name": "蔓越莓汁",
+        "properties": {
+          "类型": "饮品"
+        }
+      },
+      {
+        "id": "ent_21",
+        "type": "Food",
+        "name": "酒精",
+        "properties": {
+          "类型": "饮品"
+        }
+      },
+      {
+        "id": "ent_22",
+        "type": "Food",
+        "name": "大豆",
+        "properties": {
+          "类型": "食物",
+          "关键成分": "维生素K"
+        }
+      },
+      {
+        "id": "ent_23",
+        "type": "Food",
+        "name": "菜籽油",
+        "properties": {
+          "类型": "食物",
+          "关键成分": "维生素K"
+        }
+      },
+      {
+        "id": "ent_24",
+        "type": "Food",
+        "name": "菠菜",
+        "properties": {
+          "类型": "食物",
+          "关键成分": "维生素K"
+        }
+      },
+      {
+        "id": "ent_25",
+        "type": "Food",
+        "name": "西兰花",
+        "properties": {
+          "类型": "食物",
+          "关键成分": "维生素K"
+        }
+      },
+      {
+        "id": "ent_26",
+        "type": "Food",
+        "name": "大蒜",
+        "properties": {
+          "类型": "食物"
+        }
+      },
+      {
+        "id": "ent_27",
+        "type": "Food",
+        "name": "黑甘草",
+        "properties": {
+          "类型": "食物"
+        }
+      },
+      {
+        "id": "ent_28",
+        "type": "SideEffect",
+        "name": "牙龈出血",
+        "properties": {
+          "严重程度": "低"
+        }
+      },
+      {
+        "id": "ent_29",
+        "type": "SideEffect",
+        "name": "月经期间出血",
+        "properties": {
+          "严重程度": "低"
+        }
+      },
+      {
+        "id": "ent_30",
+        "type": "Symptom",
+        "name": "腹泻",
+        "properties": {}
+      },
+      {
+        "id": "ent_31",
+        "type": "Symptom",
+        "name": "呕吐",
+        "properties": {}
+      },
+      {
+        "id": "ent_32",
+        "type": "Symptom",
+        "name": "无法进食",
+        "properties": {}
+      },
+      {
+        "id": "ent_33",
+        "type": "Symptom",
+        "name": "发热",
+        "properties": {}
+      },
+      {
+        "id": "ent_34",
+        "type": "SideEffect",
+        "name": "严重出血",
+        "properties": {
+          "严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_35",
+        "type": "Symptom",
+        "name": "红色或褐色尿液",
+        "properties": {}
+      },
+      {
+        "id": "ent_36",
+        "type": "Symptom",
+        "name": "黑便",
+        "properties": {}
+      },
+      {
+        "id": "ent_37",
+        "type": "Symptom",
+        "name": "血便",
+        "properties": {}
+      },
+      {
+        "id": "ent_38",
+        "type": "Symptom",
+        "name": "严重头痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_39",
+        "type": "Symptom",
+        "name": "胃痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_40",
+        "type": "Symptom",
+        "name": "关节疼痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_41",
+        "type": "Symptom",
+        "name": "关节不适",
+        "properties": {}
+      },
+      {
+        "id": "ent_42",
+        "type": "Symptom",
+        "name": "关节肿胀",
+        "properties": {}
+      },
+      {
+        "id": "ent_43",
+        "type": "Symptom",
+        "name": "呕血",
+        "properties": {}
+      },
+      {
+        "id": "ent_44",
+        "type": "Symptom",
+        "name": "呕吐咖啡色样物质",
+        "properties": {}
+      },
+      {
+        "id": "ent_45",
+        "type": "Symptom",
+        "name": "咳血",
+        "properties": {}
+      },
+      {
+        "id": "ent_46",
+        "type": "Symptom",
+        "name": "瘀伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_47",
+        "type": "Symptom",
+        "name": "头晕",
+        "properties": {}
+      },
+      {
+        "id": "ent_48",
+        "type": "Symptom",
+        "name": "虚弱",
+        "properties": {}
+      },
+      {
+        "id": "ent_49",
+        "type": "Symptom",
+        "name": "视力变化",
+        "properties": {}
+      },
+      {
+        "id": "ent_50",
+        "type": "SideEffect",
+        "name": "皮肤组织坏死",
+        "properties": {
+          "严重程度": "高"
+        }
+      },
+      {
+        "id": "ent_51",
+        "type": "DrugClass",
+        "name": "抗真菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_52",
+        "type": "DrugClass",
+        "name": "感冒药",
+        "properties": {}
+      },
+      {
+        "id": "ent_53",
+        "type": "DrugClass",
+        "name": "过敏药",
+        "properties": {}
+      },
+      {
+        "id": "ent_54",
+        "type": "DrugClass",
+        "name": "治疗心律异常的药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_55",
+        "type": "Evidence",
+        "name": "医脉通普外科",
+        "properties": {
+          "chunk_id": "1507",
+          "source": "医脉通普外科",
+          "text": "。这种相互作用可能会降低华法林的有效性或增加出血风险。目前已经确定了120多种可与华法林相互作用的药物和食物。许多药物均可与华法林相互作用。如果患者正服用华法林，请务必告知医生或药师。可与华法林相互作用的药物包括：➤多种抗生素➤抗真菌药物，如氟康唑（Diflucan）➤阿司匹林或含阿司匹林的产品➤布洛芬（Advil、Motrin IB、其他）或萘普生钠（Aleve、Anaprox）➤对乙酰氨基酚（Tylenol、其他）或含对乙酰氨基酚的产品➤感冒药或过敏药➤治疗心律异常的药物，如胺碘酮（盐酸胺碘酮、Pacerone）➤抗酸剂或腹泻药许多补充剂可与华法林相互作用。如果患者正服用华法林，请务必告知医务工作者。可与华法林相互作用的补充剂包括：➤辅酶Q10（辅酶Q）➤当归➤大蒜➤银杏➤人参➤绿茶➤圣约翰草➤维生素E可与华法林相互作用的食物和饮料包括：➤蔓越莓或蔓越莓汁➤酒精➤富含维生素K的食物，如大豆和菜籽油，菠菜和西兰花➤大蒜➤黑甘草医生可能会建议患者保持饮食中维生素K水平不变，而不是完全避免服用富含维生素K的食物。副作用华法林不太严重的副作用如下，应告知医生：➤刷牙后牙龈出血➤月经期间出血➤腹泻、呕吐或无法进食超过24小时➤发热华法林的严重副作用如下，需立即就医：➤严重出血，包括比正常月经出血更严重➤红色或褐色尿液➤黑便或血便➤严重头痛或胃痛➤关节疼痛、不适或肿胀，特别是在受伤后➤呕血或呕吐咖啡色样物质➤咳血➤在没有受伤的情况下，出现瘀伤➤头晕或虚弱➤视力变化华法林很少会导致皮肤组织坏死，这种并发症最常发生在服用华法林后3至8天"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "抗生素与华法林相互作用",
+        "properties": {
+          "后果": "降低华法林的有效性或增加出血风险",
+          "证据": {
+            "chunk_index": 1507,
+            "source": "医脉通普外科",
+            "text": "这种相互作用可能会降低华法林的有效性或增加出血风险。目前已经确定了120多种可与华法林相互作用的药物和食物。许多药物均可与华法林相互作用。如果患者正服用华法林，请务必告知医生或药师。可与华法林相互作用的药物包括：➤多种抗生素"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_51",
+        "target_id": "ent_1",
+        "name": "抗真菌药物与华法林相互作用",
+        "properties": {
+          "后果": "降低华法林的有效性或增加出血风险",
+          "证据": {
+            "chunk_index": 1507,
+            "source": "医脉通普外科",
+            "text": "这种相互作用可能会降低华法林的有效性或增加出血风险。目前已经确定了120多种可与华法林相互作用的药物和食物。许多药物均可与华法林相互作用。如果患者正服用华法林，请务必告知医生或药师。可与华法林相互作用的药物包括：➤抗真菌药物，如氟康唑（Diflucan）"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "氟康唑与华法林相互作用",
+        "properties": {
+          "后果": "降低华法林的有效性或增加出血风险",
+          "证据": {
+            "chunk_index": 1507,
+            "source": "医脉通普外科",
+            "text": "这种相互作用可能会降低华法林的有效性或增加出血风险。目前已经确定了120多种可与华法林相互作用的药物和食物。许多药物均可与华法林相互作用。如果患者正服用华法林，请务必告知医生或药师。可与华法林相互作用的药物包括：➤抗真菌药物，如氟康唑（Diflucan）"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "阿司匹林与华法林相互作用",
+        "properties": {
+          "后果": "降低华法林的有效性或增加出血风险",
+          "证据": {
+            "chunk_index": 1507,
+            "source": "医脉通普外科",
+            "text": "这种相互作用可能会降低华法林的有效性或增加出血风险。目前已经确定了120多种可与华法林相互作用的药物和食物。许多药物均可与华法林相互作用。如果患者正服用华法林，请务必告知医生或药师。可与华法林相互作用的药物包括：➤阿司匹林或含阿司匹林的产品"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "name": "布洛芬与华法林相互作用",
+        "properties": {
+          "后果": "降低华法林的有效性或增加出血风险",
+          "证据": {
+            "chunk_index": 1507,
+            "source": "医脉通普外科",
+            "text": "这种相互作用可能会降低华法林的有效性或增加出血风险。目前已经确定了120多种可与华法林相互作用的药物和食物。许多药物均可与华法林相互作用。如果患者正服用华法林，请务必告知医生或药师。可与华法林相互作用的药物包括：➤布洛芬（Advil、Motrin IB、其他）或萘普生钠（Aleve、Anaprox）"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "name": "萘普生钠与华法林相互作用",
+        "properties": {
+          "后果": "降低华法林的有效性或增加出血风险",
+          "证据": {
+            "chunk_index": 1507,
+            "source": "医脉通普外科",
+            "text": "这种相互作用可能会降低华法林的有效性或增加出血风险。目前已经确定了120多种可与华法林相互作用的药物和食物。许多药物均可与华法林相互作用。如果患者正服用华法林，请务必告知医生或药师。可与华法林相互作用的药物包括：➤布洛芬（Advil、Motrin IB、其他）或萘普生钠（Aleve、Anaprox）"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_1",
+        "name": "对乙酰氨基酚与华法林相互作用",
+        "properties": {
+          "后果": "降低华法林的有效性或增加出血风险",
+          "证据": {
+            "chunk_index": 1507,
+            "source": "医脉通普外科",
+            "text": "这种相互作用可能会降低华法林的有效性或增加出血风险。目前已经确定了120多种可与华法林相互作用的药物和食物。许多药物均可与华法林相互作用。如果患者正服用华法林，请务必告知医生或药师。可与华法林相互作用的药物包括：➤对乙酰氨基酚（Tylenol、其他）或含对乙酰氨基酚的产品"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_52"
+      }
+    ],
+    "chunk_index": 1507,
+    "source": "医脉通普外科",
+    "text": "。这种相互作用可能会降低华法林的有效性或增加出血风险。目前已经确定了120多种可与华法林相互作用的药物和食物。许多药物均可与华法林相互作用。如果患者正服用华法林，请务必告知医生或药师。可与华法林相互作用的药物包括：➤多种抗生素➤抗真菌药物，如氟康唑（Diflucan）➤阿司匹林或含阿司匹林的产品➤布洛芬（Advil、Motrin IB、其他）或萘普生钠（Aleve、Anaprox）➤对乙酰氨基酚（Tylenol、其他）或含对乙酰氨基酚的产品➤感冒药或过敏药➤治疗心律异常的药物，如胺碘酮（盐酸胺碘酮、Pacerone）➤抗酸剂或腹泻药许多补充剂可与华法林相互作用。如果患者正服用华法林，请务必告知医务工作者。可与华法林相互作用的补充剂包括：➤辅酶Q10（辅酶Q）➤当归➤大蒜➤银杏➤人参➤绿茶➤圣约翰草➤维生素E可与华法林相互作用的食物和饮料包括：➤蔓越莓或蔓越莓汁➤酒精➤富含维生素K的食物，如大豆和菜籽油，菠菜和西兰花➤大蒜➤黑甘草医生可能会建议患者保持饮食中维生素K水平不变，而不是完全避免服用富含维生素K的食物。副作用华法林不太严重的副作用如下，应告知医生：➤刷牙后牙龈出血➤月经期间出血➤腹泻、呕吐或无法进食超过24小时➤发热华法林的严重副作用如下，需立即就医：➤严重出血，包括比正常月经出血更严重➤红色或褐色尿液➤黑便或血便➤严重头痛或胃痛➤关节疼痛、不适或肿胀，特别是在受伤后➤呕血或呕吐咖啡色样物质➤咳血➤在没有受伤的情况下，出现瘀伤➤头晕或虚弱➤视力变化华法林很少会导致皮肤组织坏死，这种并发症最常发生在服用华法林后3至8天"
+  }
+]

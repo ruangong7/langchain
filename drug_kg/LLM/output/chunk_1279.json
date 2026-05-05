@@ -1,0 +1,344 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "艾叶挥发油",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "樟脑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "龙脑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "栀子仁",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "西红花苷",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "自然铜",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "自然铜煅淬品",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "逍遥散乙醇提取物的乙酸乙酯萃取物",
+        "properties": {
+          "alias": [
+            "XYE-E"
+          ]
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "Fe",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "Zn",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "Mg",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Indicator",
+        "name": "Cu",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "SideEffect",
+        "name": "抑菌活性",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "抗氧化活性",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "SideEffect",
+        "name": "促进成骨细胞增殖",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "SideEffect",
+        "name": "抗抑郁药效",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Evidence",
+        "name": "化学分析计量",
+        "properties": {
+          "chunk_id": 1279,
+          "source": "化学分析计量"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "艾叶挥发油具有抑菌活性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1279,
+            "source": "化学分析计量",
+            "text": "确认艾叶挥发油抑菌活性的潜在质量标志物是樟脑和龙脑。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_13",
+        "name": "樟脑是艾叶挥发油抑菌活性的潜在质量标志物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1279,
+            "source": "化学分析计量",
+            "text": "确认艾叶挥发油抑菌活性的潜在质量标志物是樟脑和龙脑。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_13",
+        "name": "龙脑是艾叶挥发油抑菌活性的潜在质量标志物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1279,
+            "source": "化学分析计量",
+            "text": "确认艾叶挥发油抑菌活性的潜在质量标志物是樟脑和龙脑。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_14",
+        "name": "栀子仁具有抗氧化活性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1279,
+            "source": "化学分析计量",
+            "text": "有学者运用红外光谱技术研究栀子仁抗氧化活性物质……确认西红花苷是栀子抗氧化活性成分。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_14",
+        "name": "西红花苷是栀子抗氧化活性成分",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1279,
+            "source": "化学分析计量",
+            "text": "确认西红花苷是栀子抗氧化活性成分。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_6",
+        "target_id": "ent_15",
+        "name": "自然铜能促进成骨细胞增殖",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1279,
+            "source": "化学分析计量",
+            "text": "自然铜生品与煅淬品均能促进成骨细胞增殖,与其所含Fe、Zn、Mg、Cu等金属元素有关，且与Fe的相关性最大。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_7",
+        "target_id": "ent_15",
+        "name": "自然铜煅淬品能促进成骨细胞增殖",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1279,
+            "source": "化学分析计量",
+            "text": "自然铜生品与煅淬品均能促进成骨细胞增殖,与其所含Fe、Zn、Mg、Cu等金属元素有关，且与Fe的相关性最大。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_6",
+        "target_id": "ent_9",
+        "name": "自然铜含Fe元素，与其促进成骨细胞增殖作用相关",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1279,
+            "source": "化学分析计量",
+            "text": "自然铜生品与煅淬品均能促进成骨细胞增殖,与其所含Fe、Zn、Mg、Cu等金属元素有关，且与Fe的相关性最大。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "name": "自然铜含Zn元素，与其促进成骨细胞增殖作用相关",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1279,
+            "source": "化学分析计量",
+            "text": "自然铜生品与煅淬品均能促进成骨细胞增殖,与其所含Fe、Zn、Mg、Cu等金属元素有关，且与Fe的相关性最大。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_6",
+        "target_id": "ent_11",
+        "name": "自然铜含Mg元素，与其促进成骨细胞增殖作用相关",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1279,
+            "source": "化学分析计量",
+            "text": "自然铜生品与煅淬品均能促进成骨细胞增殖,与其所含Fe、Zn、Mg、Cu等金属元素有关，且与Fe的相关性最大。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_6",
+        "target_id": "ent_12",
+        "name": "自然铜含Cu元素，与其促进成骨细胞增殖作用相关",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1279,
+            "source": "化学分析计量",
+            "text": "自然铜生品与煅淬品均能促进成骨细胞增殖,与其所含Fe、Zn、Mg、Cu等金属元素有关，且与Fe的相关性最大。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_9",
+        "name": "自然铜煅淬品含Fe元素，与其促进成骨细胞增殖作用相关",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1279,
+            "source": "化学分析计量",
+            "text": "自然铜生品与煅淬品均能促进成骨细胞增殖,与其所含Fe、Zn、Mg、Cu等金属元素有关，且与Fe的相关性最大。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_10",
+        "name": "自然铜煅淬品含Zn元素，与其促进成骨细胞增殖作用相关",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1279,
+            "source": "化学分析计量",
+            "text": "自然铜生品与煅淬品均能促进成骨细胞增殖,与其所含Fe、Zn、Mg、Cu等金属元素有关，且与Fe的相关性最大。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_11",
+        "name": "自然铜煅淬品含Mg元素，与其促进成骨细胞增殖作用相关",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1279,
+            "source": "化学分析计量",
+            "text": "自然铜生品与煅淬品均能促进成骨细胞增殖,与其所含Fe、Zn、Mg、Cu等金属元素有关，且与Fe的相关性最大。"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_12",
+        "name": "自然铜煅淬品含Cu元素，与其促进成骨细胞增殖作用相关",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1279,
+            "source": "化学分析计量",
+            "text": "自然铜生品与煅淬品均能促进成骨细胞增殖,与其所含Fe、Zn、Mg、Cu等金属元素有关，且与Fe的相关性最大。"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_8",
+        "target_id": "ent_16",
+        "name": "逍遥散乙醇提取物的乙酸乙酯萃取物具有抗抑郁药效",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1279,
+            "source": "化学分析计量",
+            "text": "有学者运用氢谱（1H-NMR）研究逍遥散乙醇提取物的乙酸乙酯萃取物(XYE-E)的抗抑郁药效物质基础"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1279,
+    "source": "化学分析计量",
+    "text": "。采用灰色关联度法分析其谱效关系，确认艾叶挥发油抑菌活性的潜在质量标志物是樟脑和龙脑。3 光谱技术的应用物质与电磁辐射相互作用时，物质内部易发生量子化的能级跃迁而产生光谱学效应。光谱分析技术就是通过利用光谱学原理来对物质进行定性、定量和结构分析的方法，包括紫外分光光度法、红外光谱法、原子吸收光谱法、荧光光谱法、拉曼光谱法等。有学者运用红外光谱技术研究栀子仁抗氧化活性物质，采集了甘草汁炮制前后的栀子仁红外光谱。利用聚类分析、主成分分析、偏最小二乘回归分析等方法解析红外光谱信息与抗氧化药效信息之间的关系，确认西红花苷是栀子抗氧化活性成分。有学者采用电感耦合等离子体发射光谱 (ICP-OES) 法研究自然铜及其煅淬品中Fe、Zn、Mg、Cu等多种金属元素与促进成骨细胞增殖的谱效关系。通过采用偏最小二乘回归法对含药血清中的金属元素含量与血清对成骨细胞的增殖作用进行谱效相关性分析，得出自然铜生品与煅淬品均能促进成骨细胞增殖,与其所含Fe、Zn、Mg、Cu等金属元素有关，且与Fe的相关性最大的结论。4 核磁共振波谱技术的应用核磁共振波谱是一种基于特定原子核在外磁场中吸收了与其裂分能级间能量差相对应的射频场能量而产生共振现象的分析方法，主要有氢谱（1H-NMR）和碳谱（13C-NMR）两种。氢谱是发展最早，应用最广泛的核磁共振波谱，也是物质结构分析最重要的工具之一。有学者运用氢谱（1H-NMR）研究逍遥散乙醇提取物的乙酸乙酯萃取物(XYE-E)的抗抑郁药效物质基础"
+  }
+]

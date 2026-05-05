@@ -1,0 +1,255 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "CB1954",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "细菌硝基还原酶",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "奥沙利铂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "米托蒽醌",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "ganetespib",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "CI1040",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Food",
+        "name": "肠道微生物群",
+        "properties": {
+          "类型": "微生物群"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "粒细胞巨噬细胞集落刺激因子",
+        "properties": {
+          "通用名": "GM-CSF"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "β-环糊精",
+        "properties": {
+          "通用名": "β-CD"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Mechanism",
+        "name": "药物代谢",
+        "properties": {
+          "机制类型": "药物代谢"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Mechanism",
+        "name": "药物生物积累",
+        "properties": {
+          "机制类型": "药物生物积累"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Mechanism",
+        "name": "免疫作用",
+        "properties": {
+          "机制类型": "免疫作用"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Disease",
+        "name": "结肠癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Disease",
+        "name": "乳腺癌",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "CB1954的硝基被细菌硝基还原酶还原为氨基",
+        "properties": {
+          "mechanism": "药物代谢",
+          "evidence": {
+            "chunk_index": 110,
+            "source": "EngineeringForLife",
+            "text": "CB1954的硝基被还原为一个氨基，可能是由于肠道微生物群中广泛表达的细菌硝基还原酶（图4l）。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_3",
+        "name": "肠道微生物群通过免疫作用影响奥沙利铂化疗效果",
+        "properties": {
+          "mechanism": "免疫作用",
+          "evidence": {
+            "chunk_index": 110,
+            "source": "EngineeringForLife",
+            "text": "利用EM，作者发现了肠道微生物群影响化疗结果的三种机制，即免疫作用（奥沙利铂）、药物生物积累（米托蒽醌、ganetespib）和药物代谢（CI1040，CB1954）（图5a）。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_4",
+        "name": "肠道微生物群通过药物生物积累影响米托蒽醌化疗效果",
+        "properties": {
+          "mechanism": "药物生物积累",
+          "evidence": {
+            "chunk_index": 110,
+            "source": "EngineeringForLife",
+            "text": "利用EM，作者发现了肠道微生物群影响化疗结果的三种机制，即免疫作用（奥沙利铂）、药物生物积累（米托蒽醌、ganetespib）和药物代谢（CI1040，CB1954）（图5a）。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_5",
+        "name": "肠道微生物群通过药物生物积累影响ganetespib化疗效果",
+        "properties": {
+          "mechanism": "药物生物积累",
+          "evidence": {
+            "chunk_index": 110,
+            "source": "EngineeringForLife",
+            "text": "利用EM，作者发现了肠道微生物群影响化疗结果的三种机制，即免疫作用（奥沙利铂）、药物生物积累（米托蒽醌、ganetespib）和药物代谢（CI1040，CB1954）（图5a）。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_6",
+        "name": "肠道微生物群通过药物代谢影响CI1040化疗效果",
+        "properties": {
+          "mechanism": "药物代谢",
+          "evidence": {
+            "chunk_index": 110,
+            "source": "EngineeringForLife",
+            "text": "利用EM，作者发现了肠道微生物群影响化疗结果的三种机制，即免疫作用（奥沙利铂）、药物生物积累（米托蒽醌、ganetespib）和药物代谢（CI1040，CB1954）（图5a）。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "name": "奥沙利铂与GM-CSF联合治疗结肠癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 110,
+            "source": "EngineeringForLife",
+            "text": "将奥沙利铂与粒细胞巨噬细胞集落刺激因子（GM-CSF）联合治疗，治疗用人源化微生物群移植的原位结肠癌携带小鼠。检测到微弱的生物发光信号，显示协同治疗显著抑制了肿瘤的生长（图5b）。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_13",
+        "name": "奥沙利铂用于治疗结肠癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 110,
+            "source": "EngineeringForLife",
+            "text": "将奥沙利铂与粒细胞巨噬细胞集落刺激因子（GM-CSF）联合治疗，治疗用人源化微生物群移植的原位结肠癌携带小鼠。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_14",
+        "name": "米托蒽醌用于治疗乳腺癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 110,
+            "source": "EngineeringForLife",
+            "text": "随后，作者分析了Mit@PLGA对经人源化微生物群移植的乳腺癌携带小鼠的治疗效果（图5g）。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_9",
+        "name": "CI1040与β-环糊精形成主客体复合物",
+        "properties": {
+          "mechanism": "空间位阻",
+          "evidence": {
+            "chunk_index": 110,
+            "source": "EngineeringForLife",
+            "text": "分子力学模拟结果表明，β-环糊精（β-CD）和CI1040可以形成1：1的主客体复合物（CI1040⊂β-CD），亲和能为73.3 kcal mol−1（图5h），可以在分子水平上提供空间位阻。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_13",
+        "name": "CI1040用于治疗结肠癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 110,
+            "source": "EngineeringForLife",
+            "text": "在原位结肠癌小鼠模型中，CI1040⊂β-CD显著抑制了肿瘤的生长（图5j）。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 110,
+    "source": "EngineeringForLife",
+    "text": "。分子动力学模拟结果表明，在人和大肠杆菌Hsp90中结合相似区域，构象能分别为−8.2和−7.37kal M−1（图4k）。CB1954的硝基被还原为一个氨基，可能是由于肠道微生物群中广泛表达的细菌硝基还原酶（图4l）。图4 药物效果的研究【EM优化治疗方案】利用EM，作者发现了肠道微生物群影响化疗结果的三种机制，即免疫作用（奥沙利铂）、药物生物积累（米托蒽醌、ganetespib）和药物代谢（CI1040，CB1954）（图5a）。将奥沙利铂与粒细胞巨噬细胞集落刺激因子（GM-CSF）联合治疗，治疗用人源化微生物群移植的原位结肠癌携带小鼠。检测到微弱的生物发光信号，显示协同治疗显著抑制了肿瘤的生长（图5b）。协同治疗组小鼠肿瘤大小局限于接种部位（图5c）。同时，协同处理也使CD8+ T细胞和单核细胞分别增加了16.7%和41.9%（图5d）。米托蒽醌负载纳米颗粒（Mit@PLGA）的水合尺寸为≈250nm，尺寸分布均匀（图5e）。包封策略显著减少了米托蒽醌在肠道和粪便中的积累（图5f）。随后，作者分析了Mit@PLGA对经人源化微生物群移植的乳腺癌携带小鼠的治疗效果（图5g）。分子力学模拟结果表明，β-环糊精（β-CD）和CI1040可以形成1：1的主客体复合物（CI1040⊂β-CD），亲和能为73.3 kcal mol−1（图5h），可以在分子水平上提供空间位阻。同时，CI1040⊂β-CD的细胞毒性也增加了26.5%（图5i）。在原位结肠癌小鼠模型中，CI1040⊂β-CD显著抑制了肿瘤的生长（图5j）。在EM揭示的机制指导下，成功地提高了CI1040的抗肿瘤疗效"
+  }
+]

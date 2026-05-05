@@ -1,0 +1,482 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "硝苯地平",
+        "properties": {
+          "description": "钙拮抗剂，具有扩张血管、降低外周血管阻力和血压的作用"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "钙拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "高血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "心绞痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "普萘洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "β受体阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "心力衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "心脏功能",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "洋地黄类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "地高辛浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "SideEffect",
+        "name": "地高辛中毒",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "奎尼丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Indicator",
+        "name": "血浆中奎尼丁的浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Indicator",
+        "name": "血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "胺碘酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Symptom",
+        "name": "窦性心动过缓",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Symptom",
+        "name": "窦性停搏",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Symptom",
+        "name": "房室传导阻滞",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Disease",
+        "name": "病窦综合征",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "地尔硫䓬",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Drug",
+        "name": "哌唑嗪",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Symptom",
+        "name": "体位性低血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "Drug",
+        "name": "氟康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Drug",
+        "name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "DrugClass",
+        "name": "抗真菌药",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "Enzyme",
+        "name": "细胞色素P450 3A4系统",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_30",
+        "type": "Evidence",
+        "name": "医脉通神经科",
+        "properties": {
+          "chunk_id": "1538",
+          "source": "医脉通神经科",
+          "text": "硝苯地平是钙拮抗剂，具有扩张血管、降低外周血管阻力和血压的作用，广泛用于高血压、心绞痛等的治疗。在临床应用过程中，应注意与某些药物或食物之间的相互作用，以免影响疗效或造成伤害。医脉通编辑整理，未经授权请勿转载。β受体阻滞剂β受体阻滞剂普萘洛尔与硝苯地平合用时，可避免血流动力学紊乱，使心绞痛患者运动耐量增加。但是，也有研究认为硝苯地平会增强普萘洛尔抑制心脏收缩的作用，对于心功能不全的患者，可能会诱发心力衰竭。因此，两者合用时应当仔细监测心脏功能。洋地黄类药物硝苯地平等钙拮抗剂可在不同程度上增加地高辛的血药浓度，严重时可导致地高辛中毒。合用时，应监测地高辛浓度，相应调整用量，防止中毒。奎尼丁硝苯地平可使奎尼丁的清除加快，降低奎尼丁的作用。同时，也有研究显示，奎尼丁可抑制硝苯地平的代谢，使其血药浓度增加。因此，服用奎尼丁的患者在加服或停服硝苯地平时，均应监测血浆中奎尼丁的浓度及患者反应；如果在硝苯地平之前服用奎尼丁，应密切监测血压，必要时可降低硝苯地平的剂量。西咪替丁合用时，硝苯地平的代谢减慢，血药水平升高。因此，服用硝苯地平的患者在加用西咪替丁后，应减小硝苯地平的用量。胺碘酮合用可加重窦性心动过缓、窦性停搏及房室传导阻滞，因此病窦综合征患者或不完全房室传导阻滞者应避免二药合用。地尔硫䓬地尔硫䓬可减少硝苯地平的清除，二者合用时，硝苯地平的血药浓度可显著增加。故在合用时应谨慎，必要时应考虑降低硝苯地平的剂量。哌唑嗪哌唑嗪会阻滞对硝苯地平的α反射，引起体位性低血压。抗真菌药伊曲康唑、氟康唑、酮康唑等抗真菌药可抑制细胞色素P450 3A4系统，合用后可增加硝苯地平的血药浓度，加重不良反应"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "属于类别",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "硝苯地平是钙拮抗剂"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "用于治疗",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "广泛用于高血压、心绞痛等的治疗"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "用于治疗",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "广泛用于高血压、心绞痛等的治疗"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "属于类别",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "β受体阻滞剂普萘洛尔"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "与普萘洛尔相互作用",
+        "properties": {
+          "mechanism": "硝苯地平会增强普萘洛尔抑制心脏收缩的作用",
+          "consequence": "对于心功能不全的患者，可能会诱发心力衰竭",
+          "suggestion": "两者合用时应当仔细监测心脏功能",
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "但是，也有研究认为硝苯地平会增强普萘洛尔抑制心脏收缩的作用，对于心功能不全的患者，可能会诱发心力衰竭。因此，两者合用时应当仔细监测心脏功能。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_5",
+        "target_id": "ent_7",
+        "name": "增加风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "对于心功能不全的患者，可能会诱发心力衰竭"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_5",
+        "target_id": "ent_8",
+        "name": "影响指标",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "两者合用时应当仔细监测心脏功能"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "name": "属于类别",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "洋地黄类药物硝苯地平等钙拮抗剂可在不同程度上增加地高辛的血药浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "与地高辛相互作用",
+        "properties": {
+          "consequence": "增加地高辛的血药浓度，严重时可导致地高辛中毒",
+          "suggestion": "应监测地高辛浓度，相应调整用量，防止中毒",
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "洋地黄类药物硝苯地平等钙拮抗剂可在不同程度上增加地高辛的血药浓度，严重时可导致地高辛中毒。合用时，应监测地高辛浓度，相应调整用量，防止中毒。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_9",
+        "target_id": "ent_12",
+        "name": "增加风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "严重时可导致地高辛中毒"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_9",
+        "target_id": "ent_11",
+        "name": "影响指标",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "应监测地高辛浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "与奎尼丁相互作用",
+        "properties": {
+          "mechanism": "硝苯地平可使奎尼丁的清除加快；奎尼丁可抑制硝苯地平的代谢",
+          "consequence": "降低奎尼丁的作用；使硝苯地平血药浓度增加",
+          "suggestion": "服用奎尼丁的患者在加服或停服硝苯地平时，均应监测血浆中奎尼丁的浓度及患者反应；如果在硝苯地平之前服用奎尼丁，应密切监测血压，必要时可降低硝苯地平的剂量",
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "奎尼丁硝苯地平可使奎尼丁的清除加快，降低奎尼丁的作用。同时，也有研究显示，奎尼丁可抑制硝苯地平的代谢，使其血药浓度增加。因此，服用奎尼丁的患者在加服或停服硝苯地平时，均应监测血浆中奎尼丁的浓度及患者反应；如果在硝苯地平之前服用奎尼丁，应密切监测血压，必要时可降低硝苯地平的剂量。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_12",
+        "target_id": "ent_14",
+        "name": "影响指标",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "均应监测血浆中奎尼丁的浓度"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_12",
+        "target_id": "ent_15",
+        "name": "影响指标",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "应密切监测血压"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_16",
+        "name": "与西咪替丁相互作用",
+        "properties": {
+          "mechanism": "硝苯地平的代谢减慢",
+          "consequence": "血药水平升高",
+          "suggestion": "应减小硝苯地平的用量",
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "西咪替丁合用时，硝苯地平的代谢减慢，血药水平升高。因此，服用硝苯地平的患者在加用西咪替丁后，应减小硝苯地平的用量。"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_17",
+        "name": "与胺碘酮相互作用",
+        "properties": {
+          "consequence": "加重窦性心动过缓、窦性停搏及房室传导阻滞",
+          "suggestion": "病窦综合征患者或不完全房室传导阻滞者应避免二药合用",
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "胺碘酮合用可加重窦性心动过缓、窦性停搏及房室传导阻滞，因此病窦综合征患者或不完全房室传导阻滞者应避免二药合用。"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_16",
+        "target_id": "ent_18",
+        "name": "增加风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "加重窦性心动过缓"
+          }
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_16",
+        "target_id": "ent_19",
+        "name": "增加风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "加重...窦性停搏"
+          }
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_16",
+        "target_id": "ent_20",
+        "name": "增加风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1538,
+            "source": "医脉通神经科",
+            "text": "加重...房室传导阻滞"
+          }
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": ""
+      }
+    ],
+    "chunk_index": 1538,
+    "source": "医脉通神经科",
+    "text": "硝苯地平是钙拮抗剂，具有扩张血管、降低外周血管阻力和血压的作用，广泛用于高血压、心绞痛等的治疗。在临床应用过程中，应注意与某些药物或食物之间的相互作用，以免影响疗效或造成伤害。医脉通编辑整理，未经授权请勿转载。β受体阻滞剂β受体阻滞剂普萘洛尔与硝苯地平合用时，可避免血流动力学紊乱，使心绞痛患者运动耐量增加。但是，也有研究认为硝苯地平会增强普萘洛尔抑制心脏收缩的作用，对于心功能不全的患者，可能会诱发心力衰竭。因此，两者合用时应当仔细监测心脏功能。洋地黄类药物硝苯地平等钙拮抗剂可在不同程度上增加地高辛的血药浓度，严重时可导致地高辛中毒。合用时，应监测地高辛浓度，相应调整用量，防止中毒。奎尼丁硝苯地平可使奎尼丁的清除加快，降低奎尼丁的作用。同时，也有研究显示，奎尼丁可抑制硝苯地平的代谢，使其血药浓度增加。因此，服用奎尼丁的患者在加服或停服硝苯地平时，均应监测血浆中奎尼丁的浓度及患者反应；如果在硝苯地平之前服用奎尼丁，应密切监测血压，必要时可降低硝苯地平的剂量。西咪替丁合用时，硝苯地平的代谢减慢，血药水平升高。因此，服用硝苯地平的患者在加用西咪替丁后，应减小硝苯地平的用量。胺碘酮合用可加重窦性心动过缓、窦性停搏及房室传导阻滞，因此病窦综合征患者或不完全房室传导阻滞者应避免二药合用。地尔硫䓬地尔硫䓬可减少硝苯地平的清除，二者合用时，硝苯地平的血药浓度可显著增加。故在合用时应谨慎，必要时应考虑降低硝苯地平的剂量。哌唑嗪哌唑嗪会阻滞对硝苯地平的α反射，引起体位性低血压。抗真菌药伊曲康唑、氟康唑、酮康唑等抗真菌药可抑制细胞色素P450 3A4系统，合用后可增加硝苯地平的血药浓度，加重不良反应"
+  }
+]

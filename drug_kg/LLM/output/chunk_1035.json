@@ -1,0 +1,258 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "达诺瑞韦钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "索凡替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "恩沙替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "可洛派韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "氟马替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "埃克替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "CYP2C19",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "酮康唑与利托那韦强化的达诺瑞韦钠联合服用使达诺瑞韦钠AUC升高",
+        "properties": {
+          "mechanism": "CYP3A4抑制",
+          "effect": "达诺瑞韦钠AUC0—∞升高1.44倍，Cmax未显著影响",
+          "evidence": {
+            "chunk_index": 1035,
+            "source": "凡默谷",
+            "text": "当将酮康唑与利托那韦强化的 达诺瑞韦钠联合服用时，可使得达诺瑞韦钠的 AUC0—0升高1.44倍，但CmaX未受显著影响。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "达诺瑞韦钠经CYP3A4代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1035,
+            "source": "凡默谷",
+            "text": "达诺瑞韦钠在人体主要 经CYP3A4代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "索凡替尼主要通过CYP3A酶代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1035,
+            "source": "凡默谷",
+            "text": "临床前体外试验表明，索凡替尼主要 通过CYP3A酶代谢。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "索凡替尼与CYP3A抑制剂/诱导剂合用需监测不良反应",
+        "properties": {
+          "advice": "避免或慎重合并使用CYP3A抑制剂、诱导剂；如需合用应密切监测不良反应",
+          "evidence": {
+            "chunk_index": 1035,
+            "source": "凡默谷",
+            "text": "服用索凡替尼期间，患者应 避免或慎重合并使用CYP3A抑制剂、诱导剂，如 需合用应密切监测不良反应。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_7",
+        "target_id": "ent_4",
+        "name": "恩沙替尼代谢主要由CYP3A4催化",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1035,
+            "source": "凡默谷",
+            "text": "体外试验表明恩沙 替尼代谢过程主要由CYP3A4催化。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_4",
+        "name": "恩沙替尼与CYP3A4强抑制剂合用可能升高血药浓度",
+        "properties": {
+          "effect": "可能导致恩沙替尼血药浓度升高",
+          "advice": "治疗期间应慎用对CYP3A4酶有强抑制作用的药物；如合用应密切监测不良反应",
+          "evidence": {
+            "chunk_index": 1035,
+            "source": "凡默谷",
+            "text": "与CYP3A4 强抑制剂联合使用可能会导致恩沙替尼血药浓 度升高。治疗期间应慎用对CYP3A4酶有强抑制作用的药物。如果患者合并服用了这类药物，应密切监测不良反应。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_8",
+        "target_id": "ent_4",
+        "name": "可洛派韦是CYP3A4的底物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1035,
+            "source": "凡默谷",
+            "text": "可洛派韦是CYP3A4的底物"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_4",
+        "name": "CYP3A诱导剂/抑制剂影响可洛派韦血药浓度",
+        "properties": {
+          "effect": "中效或强效CYP3A诱导剂可能降低可洛派韦血药浓度并影响疗效；强效CYP3A抑制剂可能升高其血药浓度",
+          "evidence": {
+            "chunk_index": 1035,
+            "source": "凡默谷",
+            "text": "中效或强 效CYP3A诱导剂可能降低盐酸可洛派韦血药浓 度，并影响疗效；强效CYP3A抑制剂可能会升高 盐酸可洛派韦血药浓度。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_9",
+        "target_id": "ent_4",
+        "name": "CYP3A4是氟马替尼的主要代谢酶",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1035,
+            "source": "凡默谷",
+            "text": "CYP3A4是氟马替尼的主要代谢酶"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_4",
+        "name": "氟马替尼与CYP3A4强诱导剂/抑制剂合用需谨慎",
+        "properties": {
+          "advice": "临床治疗期间应慎用对CYP3A4有强诱导作用和强抑制作用的药物",
+          "evidence": {
+            "chunk_index": 1035,
+            "source": "凡默谷",
+            "text": "临床治疗期间应慎用对CYP3A4有强诱导作用和 强抑制作用的药物。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_10",
+        "target_id": "ent_4",
+        "name": "埃克替尼主要代谢酶为CYP3A4",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1035,
+            "source": "凡默谷",
+            "text": "体外研究表明埃克替尼主要 代谢酶为CYP3A4酶[26]。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_10",
+        "target_id": "ent_11",
+        "name": "CYP2C19基因多态性显著影响埃克替尼药动学",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1035,
+            "source": "凡默谷",
+            "text": "CYP2C19的基因 多态性对埃克替尼的人体药动学也具有显著影 响[27]"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1035,
+    "source": "凡默谷",
+    "text": "。1.1.11达诺瑞韦钠[25]达诺瑞韦钠在人体主要 经CYP3A4代谢，当将酮康唑与利托那韦强化的 达诺瑞韦钠联合服用时，可使得达诺瑞韦钠的 AUC0—0升高1.44倍，但CmaX未受显著影响。1.1.12其他（源于药品说明书）以下为已确定 主要代谢酶但尚未开展基于代谢酶的临床DDI 研究的创新药物。索凡替尼在人体内主要以代谢物的形式从 粪便排出。临床前体外试验表明，索凡替尼主要 通过CYP3A酶代谢。服用索凡替尼期间，患者应 避免或慎重合并使用CYP3A抑制剂、诱导剂，如 需合用应密切监测不良反应。恩沙替尼在人体内主要以原形（占给药剂量 42% )和代谢物的形式排泄。体外试验表明恩沙 替尼代谢过程主要由CYP3A4催化。与CYP3A4 强抑制剂联合使用可能会导致恩沙替尼血药浓 度升高。治疗期间应慎用对CYP3A4酶有强抑制作用的药物。如果患者合并服用了这类药物，应密切监测不良反应。可洛派韦是CYP3A4的底物，因此中效或强 效CYP3A诱导剂可能降低盐酸可洛派韦血药浓 度，并影响疗效；强效CYP3A抑制剂可能会升高 盐酸可洛派韦血药浓度。氟马替尼在人体内50%以上通过原形药物 的形式清除，CYP3A4是氟马替尼的主要代谢酶， 临床治疗期间应慎用对CYP3A4有强诱导作用和 强抑制作用的药物。埃克替尼在人体内广泛代谢并主要以代谢 产物的形式排泄。体外研究表明埃克替尼主要 代谢酶为CYP3A4酶[26]。此外，CYP2C19的基因 多态性对埃克替尼的人体药动学也具有显著影 响[27]"
+  }
+]

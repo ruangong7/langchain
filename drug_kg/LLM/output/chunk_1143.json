@@ -1,0 +1,397 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "rCYP2D2",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "rUGT",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "rCYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "rCYP3A1",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "rCYP2B1",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "rCYP2E1",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "rCYP2C11",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "DMS",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "BNF",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "PB",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "RIF",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "OMP",
+        "properties": {}
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": "1143",
+          "source": "凡默谷",
+          "text": "。试剂盒检测细胞分泌功能的结果见表1。ALB和BUN累计量在第1~3天达到最高峰，随后ALB和BUN呈下降趋势，第5天后细胞ALB和BUN水平下降缓慢，基本维持相对稳定的状态。细胞在第9天仍能保存分泌ALB和BUN的功能。2 肝细胞代谢酶活性的变化以6h贴壁起始点时代谢水平为参照，培养不同时长肝细胞中主要代谢酶活性变化，见表2。随培养时间延长5种代谢酶活性均呈快速下降趋势，其中rCYP2D2和rUGT酶活性衰减较慢，96h可维持14.74%~15.23%的活性; rCYP1A2、rCYP3A1和rCYP2B1活性下降较快，96 h时剩余活性仅为0~4.77%。3 大鼠原代肝细胞模型诱导剂的筛选3.1 对代谢酶活性的诱导与大鼠原代肝细胞共同培养60h后各诱导剂组代谢酶活性水平的测定结果，见表3。各浓度的DMS和低、中浓度的BNF、PB可显著诱导rCYP1A2活性，但DMS的诱导能力更强; rCYP2D2、rCYP3A1和rUGT3种代谢酶仅DMS有显著诱导作用。3.2 对代谢酶mRNA水平的诱导各代谢酶转录水平的结果，见表4。RIF、BNF、DMS和PB均能显著诱导rCYP1A2; BNF、OMP和DMS均能显著诱导rCYP2D2和rCYP2E1; BNF、OMP、DMS和PB均能显著诱导rCYP3A1; OMP和PB均能显著诱导rCYP2B1; DMS和PB均能显著诱导rCYP2C11; OMP和DMS均能显著诱导rUGT酶"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_3",
+        "name": "DMS诱导rCYP1A2",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "各浓度的DMS和低、中浓度的BNF、PB可显著诱导rCYP1A2活性，但DMS的诱导能力更强"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_3",
+        "name": "BNF诱导rCYP1A2",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "各浓度的DMS和低、中浓度的BNF、PB可显著诱导rCYP1A2活性"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_3",
+        "name": "PB诱导rCYP1A2",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "各浓度的DMS和低、中浓度的BNF、PB可显著诱导rCYP1A2活性"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_1",
+        "name": "DMS诱导rCYP2D2",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "rCYP2D2、rCYP3A1和rUGT3种代谢酶仅DMS有显著诱导作用"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_4",
+        "name": "DMS诱导rCYP3A1",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "rCYP2D2、rCYP3A1和rUGT3种代谢酶仅DMS有显著诱导作用"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_2",
+        "name": "DMS诱导rUGT",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "rCYP2D2、rCYP3A1和rUGT3种代谢酶仅DMS有显著诱导作用"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_3",
+        "name": "RIF诱导rCYP1A2",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "RIF、BNF、DMS和PB均能显著诱导rCYP1A2"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_1",
+        "name": "BNF诱导rCYP2D2",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "BNF、OMP和DMS均能显著诱导rCYP2D2和rCYP2E1"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_1",
+        "name": "OMP诱导rCYP2D2",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "BNF、OMP和DMS均能显著诱导rCYP2D2和rCYP2E1"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_6",
+        "name": "BNF诱导rCYP2E1",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "BNF、OMP和DMS均能显著诱导rCYP2D2和rCYP2E1"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_6",
+        "name": "OMP诱导rCYP2E1",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "BNF、OMP和DMS均能显著诱导rCYP2D2和rCYP2E1"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_4",
+        "name": "BNF诱导rCYP3A1",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "BNF、OMP、DMS和PB均能显著诱导rCYP3A1"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_4",
+        "name": "OMP诱导rCYP3A1",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "BNF、OMP、DMS和PB均能显著诱导rCYP3A1"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_4",
+        "name": "PB诱导rCYP3A1",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "BNF、OMP、DMS和PB均能显著诱导rCYP3A1"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_5",
+        "name": "OMP诱导rCYP2B1",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "OMP和PB均能显著诱导rCYP2B1"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_5",
+        "name": "PB诱导rCYP2B1",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "OMP和PB均能显著诱导rCYP2B1"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_7",
+        "name": "DMS诱导rCYP2C11",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "DMS和PB均能显著诱导rCYP2C11"
+          }
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_7",
+        "name": "PB诱导rCYP2C11",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "DMS和PB均能显著诱导rCYP2C11"
+          }
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_2",
+        "name": "OMP诱导rUGT",
+        "properties": {
+          "mechanism": "诱导",
+          "consequence": "活性增加",
+          "evidence": {
+            "chunk_index": "1143",
+            "source": "凡默谷",
+            "text": "OMP和DMS均能显著诱导rUGT酶"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1143,
+    "source": "凡默谷",
+    "text": "。试剂盒检测细胞分泌功能的结果见表1。ALB和BUN累计量在第1~3天达到最高峰，随后ALB和BUN呈下降趋势，第5天后细胞ALB和BUN水平下降缓慢，基本维持相对稳定的状态。细胞在第9天仍能保存分泌ALB和BUN的功能。2 肝细胞代谢酶活性的变化以6h贴壁起始点时代谢水平为参照，培养不同时长肝细胞中主要代谢酶活性变化，见表2。随培养时间延长5种代谢酶活性均呈快速下降趋势，其中rCYP2D2和rUGT酶活性衰减较慢，96h可维持14.74%~15.23%的活性; rCYP1A2、rCYP3A1和rCYP2B1活性下降较快，96 h时剩余活性仅为0~4.77%。3 大鼠原代肝细胞模型诱导剂的筛选3.1 对代谢酶活性的诱导与大鼠原代肝细胞共同培养60h后各诱导剂组代谢酶活性水平的测定结果，见表3。各浓度的DMS和低、中浓度的BNF、PB可显著诱导rCYP1A2活性，但DMS的诱导能力更强; rCYP2D2、rCYP3A1和rUGT3种代谢酶仅DMS有显著诱导作用。3.2 对代谢酶mRNA水平的诱导各代谢酶转录水平的结果，见表4。RIF、BNF、DMS和PB均能显著诱导rCYP1A2; BNF、OMP和DMS均能显著诱导rCYP2D2和rCYP2E1; BNF、OMP、DMS和PB均能显著诱导rCYP3A1; OMP和PB均能显著诱导rCYP2B1; DMS和PB均能显著诱导rCYP2C11; OMP和DMS均能显著诱导rUGT酶"
+  }
+]

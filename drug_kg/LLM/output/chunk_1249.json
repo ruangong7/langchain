@@ -1,0 +1,259 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "米拉贝隆",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "阿哌沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "沙格列汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "康奈非尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "CYP2C9",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "UDP-glucuronosyltransferase",
+        "properties": {
+          "type": "代谢酶",
+          "alias": [
+            "UGT"
+          ]
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "丁酰胆碱酯酶",
+        "properties": {
+          "type": "代谢酶",
+          "alias": [
+            "BChE"
+          ]
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "P-glycoprotein",
+        "properties": {
+          "type": "转运体",
+          "alias": [
+            "P-gp"
+          ]
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Population",
+        "name": "肾功能不全患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Population",
+        "name": "严重肾功能不全患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Population",
+        "name": "健康人群",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Indicator",
+        "name": "AUC",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1249,
+          "source": "凡默谷",
+          "text": "。2PBPK模型在肾损人群中药物相互作用的应用肾损对药物处置及药效的影响机制表现为多途径，肾小球滤过率进行性下降导致经肾排泄原型药物的全身清除率降低；同时肾小管上皮细胞部分转运体功能减弱，显著抑制化合物的主动分泌[20]。毒素蓄积可竞争性抑制肝脏CYP2C9/CYP3A4等代谢酶活性，而低白蛋白血症则增加药物的游离浓度[21]。2.1 酶介导的药物相互作用肾功能损伤不仅直接影响药物的肾脏排泄，还通过降低代谢酶的活性放大DDIs效应。与抑制剂相比，诱导剂引起的DDIs机制更加复杂，难以得出普遍规律。KONISHI等[22]构建了肾损人群服用米拉贝隆的PBPK模型，并调整了葡萄糖醛酸基转移酶（UDP-glucuronosylt butyrylcholine etransferase，UGT）和丁酰胆碱酯酶erase，BChE）活性，研究表明，在严重肾功能不全患者中，米拉贝隆的AUC因肾损增加了2.18倍，与CYP3A4抑制剂伊曲康唑联用后，AUC进一步增加，总增幅达4.12倍。利福平对CYP3A4和P糖蛋白（P-glyeoprotein，P-gp）具有强大的诱导作用，能显著增强阿哌沙班的肝脏消除，XU等[23]在PBPK模型中优化了CYP3A4和P-gp的活性，研究表明，阿哌沙班在健康与肾损患者中的AUC变化幅度相近。WU等[24]的研究表明利福平对CYP3A4的诱导效应在肾功能损伤加重时更显著，沙格列汀的AUC降低，同时，其代谢物的暴露显著增加。KOLLIPARA等[16]则指出，随着肾功能恶化，康奈非尼与CYP3A4诱导剂联用时，诱导剂对其的影响呈下降趋势"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "米拉贝隆与伊曲康唑联用",
+        "properties": {
+          "mechanism": "CYP3A4抑制",
+          "effect": "AUC进一步增加，总增幅达4.12倍",
+          "population": "严重肾功能不全患者",
+          "evidence": {
+            "chunk_index": 1249,
+            "source": "凡默谷",
+            "text": "在严重肾功能不全患者中，米拉贝隆的AUC因肾损增加了2.18倍，与CYP3A4抑制剂伊曲康唑联用后，AUC进一步增加，总增幅达4.12倍。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "阿哌沙班与利福平联用",
+        "properties": {
+          "mechanism": "CYP3A4和P-gp诱导",
+          "effect": "显著增强阿哌沙班的肝脏消除，AUC变化幅度在健康与肾损患者中相近",
+          "evidence": {
+            "chunk_index": 1249,
+            "source": "凡默谷",
+            "text": "利福平对CYP3A4和P糖蛋白（P-glyeoprotein，P-gp）具有强大的诱导作用，能显著增强阿哌沙班的肝脏消除，XU等[23]在PBPK模型中优化了CYP3A4和P-gp的活性，研究表明，阿哌沙班在健康与肾损患者中的AUC变化幅度相近。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_4",
+        "name": "沙格列汀与利福平联用",
+        "properties": {
+          "mechanism": "CYP3A4诱导",
+          "effect": "沙格列汀AUC降低，代谢物暴露显著增加",
+          "population": "肾功能损伤加重患者",
+          "evidence": {
+            "chunk_index": 1249,
+            "source": "凡默谷",
+            "text": "WU等[24]的研究表明利福平对CYP3A4的诱导效应在肾功能损伤加重时更显著，沙格列汀的AUC降低，同时，其代谢物的暴露显著增加。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_4",
+        "name": "康奈非尼与CYP3A4诱导剂（如利福平）联用",
+        "properties": {
+          "mechanism": "CYP3A4诱导",
+          "effect": "诱导剂对其影响随肾功能恶化呈下降趋势",
+          "evidence": {
+            "chunk_index": 1249,
+            "source": "凡默谷",
+            "text": "KOLLIPARA等[16]则指出，随着肾功能恶化，康奈非尼与CYP3A4诱导剂联用时，诱导剂对其的影响呈下降趋势"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "name": "伊曲康唑抑制CYP3A4",
+        "properties": {
+          "role": "inhibitor"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "name": "利福平诱导CYP3A4",
+        "properties": {
+          "role": "inducer"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_11",
+        "name": "利福平诱导P-gp",
+        "properties": {
+          "role": "inducer"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_15",
+        "name": "米拉贝隆在严重肾功能不全患者中AUC升高",
+        "properties": {
+          "effect_direction": "increase",
+          "fold_change": "2.18",
+          "population": "严重肾功能不全患者",
+          "evidence": {
+            "chunk_index": 1249,
+            "source": "凡默谷",
+            "text": "在严重肾功能不全患者中，米拉贝隆的AUC因肾损增加了2.18倍"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_5",
+        "target_id": "ent_15",
+        "name": "沙格列汀AUC降低",
+        "properties": {
+          "effect_direction": "decrease",
+          "population": "肾功能损伤加重患者",
+          "evidence": {
+            "chunk_index": 1249,
+            "source": "凡默谷",
+            "text": "沙格列汀的AUC降低"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1249,
+    "source": "凡默谷",
+    "text": "。2PBPK模型在肾损人群中药物相互作用的应用肾损对药物处置及药效的影响机制表现为多途径，肾小球滤过率进行性下降导致经肾排泄原型药物的全身清除率降低；同时肾小管上皮细胞部分转运体功能减弱，显著抑制化合物的主动分泌[20]。毒素蓄积可竞争性抑制肝脏CYP2C9/CYP3A4等代谢酶活性，而低白蛋白血症则增加药物的游离浓度[21]。2.1 酶介导的药物相互作用肾功能损伤不仅直接影响药物的肾脏排泄，还通过降低代谢酶的活性放大DDIs效应。与抑制剂相比，诱导剂引起的DDIs机制更加复杂，难以得出普遍规律。KONISHI等[22]构建了肾损人群服用米拉贝隆的PBPK模型，并调整了葡萄糖醛酸基转移酶（UDP-glucuronosylt butyrylcholine etransferase，UGT）和丁酰胆碱酯酶erase，BChE）活性，研究表明，在严重肾功能不全患者中，米拉贝隆的AUC因肾损增加了2.18倍，与CYP3A4抑制剂伊曲康唑联用后，AUC进一步增加，总增幅达4.12倍。利福平对CYP3A4和P糖蛋白（P-glyeoprotein，P-gp）具有强大的诱导作用，能显著增强阿哌沙班的肝脏消除，XU等[23]在PBPK模型中优化了CYP3A4和P-gp的活性，研究表明，阿哌沙班在健康与肾损患者中的AUC变化幅度相近。WU等[24]的研究表明利福平对CYP3A4的诱导效应在肾功能损伤加重时更显著，沙格列汀的AUC降低，同时，其代谢物的暴露显著增加。KOLLIPARA等[16]则指出，随着肾功能恶化，康奈非尼与CYP3A4诱导剂联用时，诱导剂对其的影响呈下降趋势"
+  }
+]

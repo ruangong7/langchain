@@ -1,0 +1,251 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "尼拉帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "帕博利珠单抗",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "卵巢癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "PARP 抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "转移性去势抵抗性前列腺癌",
+        "properties": {
+          "别名": [
+            "mCRPC"
+          ]
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "奥拉帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "恩杂鲁胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "阿比特龙",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "转移性胰腺癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "无进展生存期",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "总生存期",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Gene",
+        "name": "BRCA1",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Gene",
+        "name": "BRCA2",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Gene",
+        "name": "ATM",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "贝伐单抗",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "激素类药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "尼拉帕利用于治疗卵巢癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1316,
+            "source": "医会宝肿瘤视界",
+            "text": "Konstantinopoulos 等采用尼拉帕利联合帕博利珠单抗的药物组合方案治疗卵巢癌患者发现，无论是否对铂类敏感、生物标志物状态如何或既往是否使用贝伐单抗治疗，尼拉帕利联合帕博利珠单抗均具有较好的抗肿瘤活性。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "帕博利珠单抗用于治疗卵巢癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1316,
+            "source": "医会宝肿瘤视界",
+            "text": "Konstantinopoulos 等采用尼拉帕利联合帕博利珠单抗的药物组合方案治疗卵巢癌患者发现，无论是否对铂类敏感、生物标志物状态如何或既往是否使用贝伐单抗治疗，尼拉帕利联合帕博利珠单抗均具有较好的抗肿瘤活性。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "尼拉帕利属于PARP抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1316,
+            "source": "医会宝肿瘤视界",
+            "text": "抑制剂联合其他靶向药物的临床试验也陆续开展。Konstantinopoulos 等采用尼拉帕利联合帕博利珠单抗的药物组合方案治疗卵巢癌患者发现..."
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_4",
+        "name": "奥拉帕利属于PARP抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1316,
+            "source": "医会宝肿瘤视界",
+            "text": "一项 PROfound 临床试验结果提示，对于具有 BRCA1/2、ATM 突变的 mCRPC 患者，应用奥拉帕利可使患者获益。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_5",
+        "name": "奥拉帕利用于治疗转移性去势抵抗性前列腺癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1316,
+            "source": "医会宝肿瘤视界",
+            "text": "一项 PROfound 临床试验结果提示，对于具有 BRCA1/2、ATM 突变的 mCRPC 患者，应用奥拉帕利可使患者获益。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "name": "奥拉帕利提高无进展生存期",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1316,
+            "source": "医会宝肿瘤视界",
+            "text": "对于接受过激素类药物如恩杂鲁胺/阿比特龙治疗后的 mCRPC 患者(含 BRCA1/2 或 ATM 突变)，相较于对照组(3.6 个月)，奥拉帕利治疗组(7.4 个月)可显著提高患者无进展生存期"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_6",
+        "target_id": "ent_11",
+        "name": "奥拉帕利延长总生存期",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1316,
+            "source": "医会宝肿瘤视界",
+            "text": "且在一定程度上可延长患者总生存期(15.1 个月 vs 18.5 个月)"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_16",
+        "name": "恩杂鲁胺属于激素类药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1316,
+            "source": "医会宝肿瘤视界",
+            "text": "对于接受过激素类药物如恩杂鲁胺/阿比特龙治疗后的 mCRPC 患者"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_16",
+        "name": "阿比特龙属于激素类药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1316,
+            "source": "医会宝肿瘤视界",
+            "text": "对于接受过激素类药物如恩杂鲁胺/阿比特龙治疗后的 mCRPC 患者"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_9",
+        "name": "PARP抑制剂用于治疗转移性胰腺癌",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1316,
+            "source": "医会宝肿瘤视界",
+            "text": "转移性胰腺癌患者中有一部分人也携带"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1316,
+    "source": "医会宝肿瘤视界",
+    "text": "抑制剂联合其他靶向药物的临床试验也陆续开展。Konstantinopoulos 等采用尼拉帕利联合帕博利珠单抗的药物组合方案治疗卵巢癌患者发现，无论是否对铂类敏感、生物标志物状态如何或既往是否使用贝伐单抗治疗，尼拉帕利联合帕博利珠单抗均具有较好的抗肿瘤活性。图片来源：摄图网02 PARP 抑制剂在其他肿瘤中的应用研究显示，约 25%的转移性去势抵抗性前列腺癌（mCRPC）患者具有 DNA 损伤通路及 HR 相关基因的突变，这为 PARP 抑制剂在前列腺癌中的应用提供了可能。一项 PROfound 临床试验结果提示，对于具有 BRCA1/2、ATM 突变的 mCRPC 患者，应用奥拉帕利可使患者获益。对于接受过激素类药物如恩杂鲁胺/阿比特龙治疗后的 mCRPC 患者(含 BRCA1/2 或\nATM 突变)，相较于对照组(3.6 个月)，奥拉帕利治疗组(7.4 个月)可显著提高患者无进展生存期，且在一定程度上可延长患者总生存期(15.1 个月 vs 18.5\n个月) 。转移性胰腺癌患者中有一部分人也携带"
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "雷特格韦",
+        "properties": {
+          "description": "抗逆转录病毒药物，用于治疗HIV感染"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "西酞普兰",
+        "properties": {
+          "description": "抗抑郁药物"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "HIV感染",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "抑郁症",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Population",
+        "name": "HIV感染者",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Population",
+        "name": "荷兰人群",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Population",
+        "name": "中国人群",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Evidence",
+        "name": "医脉通神经科",
+        "properties": {
+          "chunk_id": "1544",
+          "source": "医脉通神经科",
+          "text": "。两者联用时耐受性较好，无需调整剂量。对于使用雷特格韦的HIV感染者，西酞普兰或可视为安全的抗抑郁选择。 文献索引：Blonk MI, Langemeijer CC, Colbers AP, et al.Pharmacokinetic drug-drug interaction study between raltegravir and citalopram.Antivir Ther. 2016； 21(2): 143-52. （专家按姓氏首字母排序，排名不分先后）  在HIV感染者中，精神心理问题较为常见。但这类患者较少在精神专科就诊，精神科医师对这类患者的HIV治疗药物，尤其是新的药物了解并不深。针对HIV共病抑郁的患者，我们不仅要治疗艾滋病，还需要治疗抑郁症。因此，临床医师在治疗过程中，必须考虑药物之间的相互作用。而这篇文章恰好能为相关科室的医师在如何治疗HIV共病抑郁方面提供指导和帮助。然而，本研究也有一定的局限性，如样本量较少，仅为24例，最终完成研究的仅22名，且研究人群为健康志愿者，缺乏HIV患者的药代动力学数据。另外，本文的研究对象来自荷兰的人群，可能因为人群差异而无法完全直接将研究结论推至中国人群。  HIV感染者因为多种因素，常伴有非常高的抑郁、焦虑患病率，而HIV常规治疗使用的抗逆转录病毒药物对目前主流抗抑郁药物肝脏CYP酶存在一定影响，本研究涉及的雷特格韦对抗抑郁药物西酞普兰药代动力学研究有较大临床实用价值"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "雷特格韦与西酞普兰相互作用",
+        "properties": {
+          "description": "两者联用时耐受性较好，无需调整剂量。对于使用雷特格韦的HIV感染者，西酞普兰或可视为安全的抗抑郁选择。",
+          "effect": "耐受性较好，无需调整剂量",
+          "recommendation": "西酞普兰或可视为安全的抗抑郁选择",
+          "severity": "低",
+          "confidence": "高",
+          "evidence": [
+            {
+              "chunk_index": "1544",
+              "source": "医脉通神经科",
+              "text": "两者联用时耐受性较好，无需调整剂量。对于使用雷特格韦的HIV感染者，西酞普兰或可视为安全的抗抑郁选择。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "雷特格韦用于治疗HIV感染",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1544",
+              "source": "医脉通神经科",
+              "text": "针对HIV共病抑郁的患者，我们不仅要治疗艾滋病，还需要治疗抑郁症。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "西酞普兰用于治疗抑郁症",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1544",
+              "source": "医脉通神经科",
+              "text": "针对HIV共病抑郁的患者，我们不仅要治疗艾滋病，还需要治疗抑郁症。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "APPLIES_TO",
+        "source_id": "ent_5",
+        "target_id": "ent_4",
+        "name": "HIV感染者常伴有抑郁症",
+        "properties": {
+          "description": "HIV感染者因为多种因素，常伴有非常高的抑郁、焦虑患病率",
+          "evidence": [
+            {
+              "chunk_index": "1544",
+              "source": "医脉通神经科",
+              "text": "HIV感染者因为多种因素，常伴有非常高的抑郁、焦虑患病率"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_1",
+        "target_id": "ent_8",
+        "name": "相互作用证据支持",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1544,
+    "source": "医脉通神经科",
+    "text": "。两者联用时耐受性较好，无需调整剂量。对于使用雷特格韦的HIV感染者，西酞普兰或可视为安全的抗抑郁选择。 文献索引：Blonk MI, Langemeijer CC, Colbers AP, et al.Pharmacokinetic drug-drug interaction study between raltegravir and citalopram.Antivir Ther. 2016； 21(2): 143-52. （专家按姓氏首字母排序，排名不分先后）  在HIV感染者中，精神心理问题较为常见。但这类患者较少在精神专科就诊，精神科医师对这类患者的HIV治疗药物，尤其是新的药物了解并不深。针对HIV共病抑郁的患者，我们不仅要治疗艾滋病，还需要治疗抑郁症。因此，临床医师在治疗过程中，必须考虑药物之间的相互作用。而这篇文章恰好能为相关科室的医师在如何治疗HIV共病抑郁方面提供指导和帮助。然而，本研究也有一定的局限性，如样本量较少，仅为24例，最终完成研究的仅22名，且研究人群为健康志愿者，缺乏HIV患者的药代动力学数据。另外，本文的研究对象来自荷兰的人群，可能因为人群差异而无法完全直接将研究结论推至中国人群。  HIV感染者因为多种因素，常伴有非常高的抑郁、焦虑患病率，而HIV常规治疗使用的抗逆转录病毒药物对目前主流抗抑郁药物肝脏CYP酶存在一定影响，本研究涉及的雷特格韦对抗抑郁药物西酞普兰药代动力学研究有较大临床实用价值"
+  }
+]

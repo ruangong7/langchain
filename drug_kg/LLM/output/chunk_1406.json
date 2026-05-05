@@ -1,0 +1,615 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "磺胺药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "抗酸剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "SMZ",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "TMP",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "磺胺苯吡唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "口服抗凝剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "口服降糖药",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "两性霉素B",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "洋地黄",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "箭毒类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "糖皮质激素",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "噻嗪类利尿剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "四环素类",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "抗组胺药",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "青霉素钾或钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "VitC",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "生理盐水",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "黄霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "苯巴比妥",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "苯妥英钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Drug",
+        "name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Drug",
+        "name": "胃酸化剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "Drug",
+        "name": "肾上腺皮质激素",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Drug",
+        "name": "H2受体抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Drug",
+        "name": "抗胆碱药",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "Drug",
+        "name": "灰黄霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_30",
+        "type": "Drug",
+        "name": "H1受体拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_31",
+        "type": "DrugClass",
+        "name": "咪唑类",
+        "properties": {}
+      },
+      {
+        "id": "ent_32",
+        "type": "SideEffect",
+        "name": "中枢抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_33",
+        "type": "SideEffect",
+        "name": "骨髓抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_34",
+        "type": "SideEffect",
+        "name": "叶酸缺乏",
+        "properties": {}
+      },
+      {
+        "id": "ent_35",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_36",
+        "type": "SideEffect",
+        "name": "低血糖反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_37",
+        "type": "SideEffect",
+        "name": "低血钾",
+        "properties": {}
+      },
+      {
+        "id": "ent_38",
+        "type": "SideEffect",
+        "name": "洋地黄毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_39",
+        "type": "SideEffect",
+        "name": "神经肌肉接头阻滞",
+        "properties": {}
+      },
+      {
+        "id": "ent_40",
+        "type": "SideEffect",
+        "name": "呼吸麻痹",
+        "properties": {}
+      },
+      {
+        "id": "ent_41",
+        "type": "SideEffect",
+        "name": "肾毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_42",
+        "type": "SideEffect",
+        "name": "沉淀",
+        "properties": {}
+      },
+      {
+        "id": "ent_43",
+        "type": "SideEffect",
+        "name": "抗凝作用减弱",
+        "properties": {}
+      },
+      {
+        "id": "ent_44",
+        "type": "SideEffect",
+        "name": "肾上腺功能减退",
+        "properties": {}
+      },
+      {
+        "id": "ent_45",
+        "type": "SideEffect",
+        "name": "肌酸血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_46",
+        "type": "SideEffect",
+        "name": "肝毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_47",
+        "type": "SideEffect",
+        "name": "QT延长",
+        "properties": {}
+      },
+      {
+        "id": "ent_48",
+        "type": "SideEffect",
+        "name": "室性心率过速或纤颤",
+        "properties": {}
+      },
+      {
+        "id": "ent_49",
+        "type": "Mechanism",
+        "name": "蛋白结合竞争抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_50",
+        "type": "Mechanism",
+        "name": "生物转化",
+        "properties": {}
+      },
+      {
+        "id": "ent_51",
+        "type": "Mechanism",
+        "name": "诱导肝药酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_52",
+        "type": "Mechanism",
+        "name": "药酶诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_53",
+        "type": "Mechanism",
+        "name": "抑制代谢",
+        "properties": {}
+      },
+      {
+        "id": "ent_54",
+        "type": "Evidence",
+        "name": "医学资料大全",
+        "properties": {
+          "chunk_id": "1406",
+          "source": "医学资料大全"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "抗酸剂增加磺胺药吸收",
+        "properties": {
+          "effect": "增加磺胺药在胃肠道的吸收",
+          "evidence": [
+            {
+              "chunk_index": 1406,
+              "source": "医学资料大全",
+              "text": "抗酸剂增加磺胺药在胃肠道的吸收"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "磺胺药降低环孢素血浓度",
+        "properties": {
+          "effect": "降低环孢素血浓度",
+          "evidence": [
+            {
+              "chunk_index": 1406,
+              "source": "医学资料大全",
+              "text": "磺胺药环孢素降低环孢素血浓度"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "SMZ与TMP合用导致叶酸缺乏",
+        "properties": {
+          "effect": "有导致叶酸缺乏危险",
+          "evidence": [
+            {
+              "chunk_index": 1406,
+              "source": "医学资料大全",
+              "text": "SMZTMP长期合用有导致叶酸缺乏危险"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "磺胺苯吡唑增加口服抗凝剂出血风险",
+        "properties": {
+          "effect": "增加出血危险",
+          "mechanism": "蛋白结合竞争抑制",
+          "evidence": [
+            {
+              "chunk_index": 1406,
+              "source": "医学资料大全",
+              "text": "蛋白结合高的磺胺药(尤其是磺胺苯吡唑)口服抗凝剂增加出血危险,通过蛋白结合竞争抑制"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "磺胺药与口服降糖药相互作用",
+        "properties": {
+          "effect": "低血糖反应增加",
+          "mechanism": "两种配伍药的生物转化",
+          "evidence": [
+            {
+              "chunk_index": 1406,
+              "source": "医学资料大全",
+              "text": "口服降糖药低血糖反应增加，两种配伍药的生物转化"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "name": "两性霉素B增加洋地黄毒性",
+        "properties": {
+          "effect": "增加洋地黄毒性",
+          "mechanism": "两性霉素B所致的低血钾",
+          "evidence": [
+            {
+              "chunk_index": 1406,
+              "source": "医学资料大全",
+              "text": "两性霉素B洋地黄由于两性霉素B所致的低血钾，增加洋地黄毒性"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_11",
+        "name": "两性霉素B与箭毒类药物相互作用",
+        "properties": {
+          "effect": "易出现神经肌肉接头阻滞，导致呼吸麻痹",
+          "evidence": [
+            {
+              "chunk_index": 1406,
+              "source": "医学资料大全",
+              "text": "两性霉素B箭毒类药物易出现神经肌肉接头阻滞，导致呼吸麻痹"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_12",
+        "name": "两性霉素B与糖皮质激素相互作用",
+        "properties": {
+          "effect": "易出现低血钾症",
+          "evidence": [
+            {
+              "chunk_index": 1406,
+              "source": "医学资料大全",
+              "text": "两性霉素B糖皮质激素易出现低血钾症"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_13",
+        "name": "两性霉素B与噻嗪类利尿剂相互作用",
+        "properties": {
+          "effect": "增加低血钾作用和肾毒性",
+          "evidence": [
+            {
+              "chunk_index": 1406,
+              "source": "医学资料大全",
+              "text": "两性霉素B噻嗪类利尿剂增加低血钾作用和肾毒性"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_3",
+        "name": "两性霉素B与环孢素相互作用",
+        "properties": {
+          "effect": "增加肾毒性",
+          "evidence": [
+            {
+              "chunk_index": 1406,
+              "source": "医学资料大全",
+              "text": "两性霉素B环孢素增加肾毒性"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_14",
+        "name": "两性霉素B与四环素类等配伍禁忌",
+        "properties": {
+          "effect": "可能发生沉淀，不可在同一容器内给药",
+          "evidence": [
+            {
+              "chunk_index": 1406,
+              "source": "医学资料大全",
+              "text": "两性霉素B四环素类、抗组胺药、青霉素钾或钠、VitC、生理盐水可能发生沉淀，不可在同一容器内给药"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_19",
+        "target_id": "ent_7",
+        "name": "黄霉素减弱口服抗凝药作用",
+        "properties": {
+          "effect": "使抗凝作用减弱",
+          "mechanism": "诱导肝药酶",
+          "evidence": [
+            {
+              "chunk_index": 1406,
+              "source": "医学资料大全",
+              "text": "黄霉素口服抗凝药诱导肝药酶，使抗凝作用减弱"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_21",
+        "target_id": "ent_20",
+        "name": "苯巴比妥等降低伊曲康唑血药浓度",
+        "properties": {
+          "effect": "使伊曲康唑血药浓度降低",
+          "mechanism": "后者为药酶诱导剂",
+          "evidence": [
+            {
+              "chunk_index": 1406,
+              "source": "医学资料大全",
+              "text": "伊曲康唑(咪唑类)苯巴比妥、苯妥英钠、利福平后者为药酶诱导剂，使伊曲康唑血药浓度降低"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_25",
+        "target_id": "ent_24",
+        "name": "胃酸化剂增加酮康唑吸收",
+        "properties": {
+          "effect": "可增加酮康唑在胃肠道的吸收",
+          "evidence": [
+            {
+              "chunk_index": 1406,
+              "source": "医学资料大全",
+              "text": "酮康唑 (咪唑类)胃酸化剂可增加酮康唑在胃肠道的吸收"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_24",
+        "target_id": "ent_26",
+        "name": "酮康唑防止肾上腺功能减退",
+        "properties": {
+          "effect": "防止肾上腺功能减退",
+          "evidence": [
+            {
+              "chunk_index": 1406,
+              "source": "医学资料大全",
+              "text": "酮康唑 (咪唑类)肾上腺皮质激素防止肾上腺功能减退"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_27",
+        "target_id": "ent_24",
+        "name": "H2受体抑制剂等抑制酮康唑吸收",
+        "properties": {
+          "effect": "抑制酮康唑在肠胃道的吸收",
+          "evidence": [
+            {
+              "chunk_index": 1406,
+              "source": "医学资料大全",
+              "text": "酮康唑 (咪唑类)H2受体抑制剂(西咪替丁、雷尼替丁)、抗酸剂、抗胆碱药配伍"
+            }
+          ]
+        }
+      }
+    ],
+    "chunk_index": 1406,
+    "source": "医学资料大全",
+    "text": "；中枢抑制；骨髓抑制等磺胺药抗酸剂增加磺胺药在胃肠道的吸收磺胺药环孢素降低环孢素血浓度SMZTMP长期合用有导致叶酸缺乏危险蛋白结合高的磺胺药(尤其是磺胺苯吡唑)口服抗凝剂增加出血危险,通过蛋白结合竞争抑制内科学口诀同上口服降糖药低血糖反应增加，两种配伍药的生物转化抗真菌药抗菌药物类别配伍药物相互作用结果两性霉素B洋地黄由于两性霉素B所致的低血钾，增加洋地黄毒性两性霉素B箭毒类药物易出现神经肌肉接头阻滞，导致呼吸麻痹两性霉素B糖皮质激素易出现低血钾症两性霉素B噻嗪类利尿剂增加低血钾作用和肾毒性两性霉素B环孢素增加肾毒性两性霉素B四环素类、抗组胺药、青霉素钾或钠、VitC、生理盐水可能发生沉淀，不可在同一容器内给药黄霉素口服抗凝药诱导肝药酶，使抗凝作用减弱伊曲康唑(咪唑类)苯巴比妥、苯妥英钠、利福平后者为药酶诱导剂，使伊曲康唑血药浓度降低酮康唑 (咪唑类)胃酸化剂可增加酮康唑在胃肠道的吸收酮康唑 (咪唑类)肾上腺皮质激素防止肾上腺功能减退酮康唑 (咪唑类)H2受体抑制剂(西咪替丁、雷尼替丁)、抗酸剂、抗胆碱药配伍药物抑制酮康唑在肠胃道的吸收酮康唑 (咪唑类)环孢素增加肌酸血症，增加环孢素血浓度、并可能使肾毒性发生的危险性增加酮康唑 (咪唑类)灰黄霉素增加肝毒性酮康唑 (咪唑类)H1受体拮抗剂(西沙比利、阿司咪唑、特非拉丁)酮康唑与伊曲康唑均能抑制西沙比利与H1受体拮抗剂的代谢，使其血药浓度升高，使QT延长，在常用剂量下发生室性心率过速或纤颤等                          - THE END -长按二维码关注我们吧"
+  }
+]

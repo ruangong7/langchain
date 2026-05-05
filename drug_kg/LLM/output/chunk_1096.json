@@ -1,0 +1,143 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "大环内酯类抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "他汀类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "横纹肌溶解症",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "急性肾损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "依伐卡托",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1096,
+          "source": "凡默谷",
+          "text": ".2 PBPK模型在预测药物DDI中的优势在临床应用中,抗菌药存在多种副作用和不良反应,与其他药物合用时,可能会增加不良反应的发生率,降低药物的安全性｡已有研究发现,大环内酯类抗生素与他汀类药物合用时,会增加横纹肌溶解症以及急性肾损伤的发生风险;利福平能显著降低依伐卡托的血药浓度,导致药效降低,疾病恶化"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "大环内酯类抗生素与他汀类药物合用",
+        "properties": {
+          "consequence": [
+            "增加横纹肌溶解症的发生风险",
+            "增加急性肾损伤的发生风险"
+          ],
+          "evidence": {
+            "chunk_id": 1096,
+            "source": "凡默谷",
+            "text": "已有研究发现,大环内酯类抗生素与他汀类药物合用时,会增加横纹肌溶解症以及急性肾损伤的发生风险"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_1",
+        "target_id": "ent_3",
+        "name": "增加横纹肌溶解症风险",
+        "properties": {
+          "evidence": {
+            "chunk_id": 1096,
+            "source": "凡默谷",
+            "text": "已有研究发现,大环内酯类抗生素与他汀类药物合用时,会增加横纹肌溶解症以及急性肾损伤的发生风险"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "rel_1",
+        "target_id": "ent_4",
+        "name": "增加急性肾损伤风险",
+        "properties": {
+          "evidence": {
+            "chunk_id": 1096,
+            "source": "凡默谷",
+            "text": "已有研究发现,大环内酯类抗生素与他汀类药物合用时,会增加横纹肌溶解症以及急性肾损伤的发生风险"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "利福平与依伐卡托合用",
+        "properties": {
+          "effect_on_indicator": "显著降低依伐卡托的血药浓度",
+          "consequence": [
+            "药效降低",
+            "疾病恶化"
+          ],
+          "evidence": {
+            "chunk_id": 1096,
+            "source": "凡默谷",
+            "text": "利福平能显著降低依伐卡托的血药浓度,导致药效降低,疾病恶化"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "rel_4",
+        "target_id": "ent_7",
+        "name": "影响血药浓度",
+        "properties": {
+          "change_direction": "decrease",
+          "evidence": {
+            "chunk_id": 1096,
+            "source": "凡默谷",
+            "text": "利福平能显著降低依伐卡托的血药浓度,导致药效降低,疾病恶化"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1096,
+    "source": "凡默谷",
+    "text": ".2 PBPK模型在预测药物DDI中的优势在临床应用中,抗菌药存在多种副作用和不良反应,与其他药物合用时,可能会增加不良反应的发生率,降低药物的安全性｡已有研究发现,大环内酯类抗生素与他汀类药物合用时,会增加横纹肌溶解症以及急性肾损伤的发生风险;利福平能显著降低依伐卡托的血药浓度,导致药效降低,疾病恶化"
+  }
+]

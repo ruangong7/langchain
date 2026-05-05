@@ -1,0 +1,195 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Mechanism",
+        "name": "胃内pH改变",
+        "properties": {
+          "机制类型": "胃内pH改变"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Mechanism",
+        "name": "疾病合并其他机制",
+        "properties": {
+          "机制类型": "疾病合并其他机制"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "代谢酶",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "在研药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Food",
+        "name": "食物",
+        "properties": {
+          "类型": "食物"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "PK数据",
+        "properties": {
+          "名称": "药代动力学数据"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Population",
+        "name": "疾病人群",
+        "properties": {
+          "名称": "疾病人群"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "探针底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "强抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "强诱导剂",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "药物间相互作用由胃内pH改变引起",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1000,
+            "source": "凡默谷",
+            "text": "例如若药物间相互作用是由胃内pH改变引起的，则需要对吸收模型以及与吸收相关的理化参数包括颗粒大小，溶解度做合理估计"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_4",
+        "name": "食物-药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1000,
+            "source": "凡默谷",
+            "text": "如可能，需要使用食物-药物相互作用的PK数据或者不同剂型下的PK数据对模型进行验证"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "name": "在研药物的PK预测需验证",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1000,
+            "source": "凡默谷",
+            "text": "需要不仅验证模型在疾病人群中对在研药物一般情况下PK的预测性，同时也要对其他机制引起的药物间相互作用做验证"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "name": "疾病合并其他机制引起药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1000,
+            "source": "凡默谷",
+            "text": "对于由疾病合并其他机制共同引起的药物间相互作用，则需要不仅验证模型在疾病人群中对在研药物一般情况下PK的预测性，同时也要对其他机制引起的药物间相互作用做验证"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_3",
+        "name": "代谢酶介导的药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1000,
+            "source": "凡默谷",
+            "text": "附录3. 体外评估代谢酶介导的药物相互作用无论在研药物是DDI受变药还是促变药，体外DDI试验应遵循以下通用原则"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_3",
+        "name": "探针底物用于评估代谢酶介导的相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1000,
+            "source": "凡默谷",
+            "text": "试验应合理选择阳性对照药物（以经过验证的探针底物、强抑制/诱导剂）并证明其已知作用"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_3",
+        "name": "强抑制剂用于评估代谢酶介导的相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1000,
+            "source": "凡默谷",
+            "text": "试验应合理选择阳性对照药物（以经过验证的探针底物、强抑制/诱导剂）并证明其已知作用"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_3",
+        "name": "强诱导剂用于评估代谢酶介导的相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1000,
+            "source": "凡默谷",
+            "text": "试验应合理选择阳性对照药物（以经过验证的探针底物、强抑制/诱导剂）并证明其已知作用"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1000,
+    "source": "凡默谷",
+    "text": "。由于并不完全了解其他机制引起的药物相互作用的机理，对生物学知识的缺乏以及对某些生理参数的不可及，使用PBPK模型进行其他机制引起的药物相互作用时的预测性仍需进行确认。但一般需要明确药物间可能存在的作用机制，对于各个机制所对应的关键模型以及关键参数需要基于体内数据进行验证，例如若药物间相互作用是由胃内pH改变引起的，则需要对吸收模型以及与吸收相关的理化参数包括颗粒大小，溶解度做合理估计，如可能，需要使用食物-药物相互作用的PK数据或者不同剂型下的PK数据对模型进行验证。对于由疾病合并其他机制共同引起的药物间相互作用，则需要不仅验证模型在疾病人群中对在研药物一般情况下PK的预测性，同时也要对其他机制引起的药物间相互作用做验证。对于高度不确定性的参数， 需要进行敏感性分析。附录3. 体外评估代谢酶介导的药物相互作用无论在研药物是DDI受变药还是促变药，体外DDI试验应遵循以下通用原则：（1）因实验室和系统样品间差异较大，试验应合理选择阳性对照药物（以经过验证的探针底物、强抑制/诱导剂）并证明其已知作用；（2）体外试验系统可靠且可重现；（3）一般情况下，代谢物生成反应应在线性条件下完成；（4）如有必要，应考虑开展预试验来辅助试验设计"
+  }
+]

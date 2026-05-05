@@ -1,0 +1,183 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "康奈非尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP2C19",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "沙库巴曲",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "OATP1B1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "佩玛贝特",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Population",
+        "name": "肝功能不全",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "AUC",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "达峰浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "康奈非尼与CYP3A4强效抑制剂相互作用",
+        "properties": {
+          "mechanism": "康奈非尼代谢高度依赖CYP3A4",
+          "effect": "与CYP3A4强效抑制剂的作用效果比中度抑制剂或CYP2C19抑制剂更为显著",
+          "evidence": {
+            "chunk_index": 1247,
+            "source": "凡默谷",
+            "text": "KOLLIPARA等[16]指出，康奈非尼代谢高度依赖CYP3A4，因此其与CYP3A4强效抑制剂的作用效果比中度抑制剂或CYP2C19抑制剂更为显著。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "name": "沙库巴曲抑制OATP1B1",
+        "properties": {
+          "mechanism": "阻碍受变药从血浆摄入肝细胞代谢的过程",
+          "effect": "仅略微增加佩玛贝特的AUC和达峰浓度（1.1至1.3倍）",
+          "evidence": {
+            "chunk_index": 1247,
+            "source": "凡默谷",
+            "text": "沙库巴曲和利福平均为OATP1B1的抑制剂，可阻碍受变药从血浆摄入肝细胞代谢的过程，尽管二者对OATP1B1的抑制常数相近，但对受变药的影响显著不同。OGAWA等[18]基于临床数据，将轻、中度肝损患者的OATP1B1固有清除率分别设置成健康成人的0.53倍和0.31倍。结果表明，与佩玛贝特联用时，沙库巴曲仅略微增加佩玛贝特的AUC和达峰浓度（peak concentration，Cmax）的1.1至1.3倍，而利福平则显著提高这2项参数。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "利福平抑制OATP1B1",
+        "properties": {
+          "mechanism": "阻碍受变药从血浆摄入肝细胞代谢的过程",
+          "effect": "显著提高佩玛贝特的AUC和达峰浓度",
+          "evidence": {
+            "chunk_index": 1247,
+            "source": "凡默谷",
+            "text": "沙库巴曲和利福平均为OATP1B1的抑制剂，可阻碍受变药从血浆摄入肝细胞代谢的过程，尽管二者对OATP1B1的抑制常数相近，但对受变药的影响显著不同。OGAWA等[18]基于临床数据，将轻、中度肝损患者的OATP1B1固有清除率分别设置成健康成人的0.53倍和0.31倍。结果表明，与佩玛贝特联用时，沙库巴曲仅略微增加佩玛贝特的AUC和达峰浓度（peak concentration，Cmax）的1.1至1.3倍，而利福平则显著提高这2项参数。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "沙库巴曲影响佩玛贝特的AUC和达峰浓度",
+        "properties": {
+          "effect": "略微增加AUC和Cmax（1.1至1.3倍）",
+          "evidence": {
+            "chunk_index": 1247,
+            "source": "凡默谷",
+            "text": "结果表明，与佩玛贝特联用时，沙库巴曲仅略微增加佩玛贝特的AUC和达峰浓度（peak concentration，Cmax）的1.1至1.3倍，而利福平则显著提高这2项参数。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "name": "利福平影响佩玛贝特的AUC和达峰浓度",
+        "properties": {
+          "effect": "显著提高AUC和Cmax",
+          "evidence": {
+            "chunk_index": 1247,
+            "source": "凡默谷",
+            "text": "结果表明，与佩玛贝特联用时，沙库巴曲仅略微增加佩玛贝特的AUC和达峰浓度（peak concentration，Cmax）的1.1至1.3倍，而利福平则显著提高这2项参数。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "APPLIES_TO",
+        "source_id": "rel_2",
+        "target_id": "ent_8",
+        "name": "沙库巴曲-OATP1B1相互作用适用于肝功能不全人群",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1247,
+            "source": "凡默谷",
+            "text": "OGAWA等[18]基于临床数据，将轻、中度肝损患者的OATP1B1固有清除率分别设置成健康成人的0.53倍和0.31倍。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "APPLIES_TO",
+        "source_id": "rel_3",
+        "target_id": "ent_8",
+        "name": "利福平-OATP1B1相互作用适用于肝功能不全人群",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1247,
+            "source": "凡默谷",
+            "text": "OGAWA等[18]基于临床数据，将轻、中度肝损患者的OATP1B1固有清除率分别设置成健康成人的0.53倍和0.31倍。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1247,
+    "source": "凡默谷",
+    "text": "。而不可逆性抑制剂使酶永久失活，对酶活性波动不敏感，即使在肝损情况下也能维持较高的抑制效能。此外，酶抑制剂的强度及酶对药物代谢的贡献率显著影响肝损患者中的DDIs效应，是临床需密切监测的关键因素。KOLLIPARA等[16]指出，康奈非尼代谢高度依赖CYP3A4，因此其与CYP3A4强效抑制剂的作用效果比中度抑制剂或CYP2C19抑制剂更为显著。1.2 转运体介导的药物相互作用在肝脏中，摄取和外排转运体通常位于不同的细胞膜侧，摄取转运体一般位于肝细胞的基底侧膜，负责将药物和内源性物质从血液摄取到肝细胞中，而外排转运体通常位于肝细胞的顶端膜，将代谢产物和废物从肝细胞排到胆小管，进而排泄到胆汁中[17]，见图1。抑制剂对受变药药动学的影响不仅取决于其抑制常数，还与药物的理化性质，如血浆结合率和半衰期密切相关。沙库巴曲和利福平均为OATP1B1的抑制剂，可阻碍受变药从血浆摄入肝细胞代谢的过程，尽管二者对OATP1B1的抑制常数相近，但对受变药的影响显著不同。OGAWA等[18]基于临床数据，将轻、中度肝损患者的OATP1B1固有清除率分别设置成健康成人的0.53倍和0.31倍。结果表明，与佩玛贝特联用时，沙库巴曲仅略微增加佩玛贝特的AUC和达峰浓度（peak concentration，Cmax）的1.1至1.3倍，而利福平则显著提高这2项参数。其差异主要在于沙库巴曲的血浆蛋白结合率高于利福平，且其半衰期更短，抑制效应会迅速消失"
+  }
+]

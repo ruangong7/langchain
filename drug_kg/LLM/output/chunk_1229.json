@@ -1,0 +1,120 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Esaxerenone",
+        "properties": {
+          "name": "Esaxerenone"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "properties": {
+          "name": "咪达唑仑"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "name": "CYP3A4",
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "name": "P-gp",
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "BCRP",
+        "properties": {
+          "name": "BCRP",
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": "1229",
+          "source": "凡默谷",
+          "text": "。体外评估结果表明无法忽略临床DDI风险，进一步使用了静态机制模型和PBPK模型进行了DDI风险评估。由于制药公司从药物发现阶段就会引入PBPK模型，只有动物和体外数据可用，因此我们比较了有和没有人体PK数据时模型对DDI的预测准确性。通过PBPK模型模拟了Esaxerenone不同给药周期、不同剂量、咪达唑仑的不同服用时间对DDI的影响，讨论了抑制和诱导之间的抵消效应。2研究方法 2.1 体外DDI研究1） 使用人肝微粒体研究了Esaxerenone对CYP1A2，CYP2A6，CYP2B6，CYP2C8，CYP2C9，CYP2C19，CYP2D6，CYP2E1和CYP3A4的可逆抑制和时间依赖性抑制（TDI）。Esaxerenone是UGT亚型的底物，使用人肝微粒体研究了Esaxerenone对UGT1A1和UGT2B7的可逆抑制的潜力。2）考察了Esaxerenone对下列蛋白的抑制作用：转染的MDCK-II细胞中人有机阴离子转运蛋白OAT1和OAT3、有机阴离子转运多肽OATP1B1和OATP1B3、有机阳离子转运蛋白OCT1和OCT2、转染的HEK293细胞中人多药及毒素外排转运蛋白MATE1和MATE2-K、Caco-2细胞中的人乳腺癌耐药蛋白BCRP和p-糖蛋白（P-gp）。2.2 使用静态机制模型的DDI风险评估根据FDA的DDI的指导原则（2020年），药物在肠腔内的浓度（Igut）=[剂量] / [250 ml] = 42.9 mM。如果Igut / IC50小于10，则认为Esaxerenone在体内抑制P-gp和BCRP转运蛋白的能力较低很"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "Esaxerenone与咪达唑仑存在DDI",
+        "properties": {
+          "mechanism": "Esaxerenone可能抑制CYP3A4（咪达唑仑的代谢酶）",
+          "consequence": "影响咪达唑仑的代谢，可能导致其血药浓度变化",
+          "assessment_method": "使用PBPK模型模拟了不同给药周期、剂量和服用时间对DDI的影响，讨论了抑制和诱导之间的抵消效应",
+          "evidence": "通过PBPK模型模拟了Esaxerenone不同给药周期、不同剂量、咪达唑仑的不同服用时间对DDI的影响，讨论了抑制和诱导之间的抵消效应。",
+          "source": "凡默谷",
+          "chunk_index": "1229"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "Esaxerenone抑制CYP3A4",
+        "properties": {
+          "inhibition_type": "可逆抑制和时间依赖性抑制（TDI）",
+          "evidence": "使用人肝微粒体研究了Esaxerenone对CYP1A2，CYP2A6，CYP2B6，CYP2C8，CYP2C9，CYP2C19，CYP2D6，CYP2E1和CYP3A4的可逆抑制和时间依赖性抑制（TDI）。",
+          "source": "凡默谷",
+          "chunk_index": "1229"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "Esaxerenone抑制P-gp",
+        "properties": {
+          "inhibition_type": "抑制作用",
+          "assessment": "根据静态机制模型评估（Igut/IC50），在体内抑制P-gp的能力可能较低",
+          "evidence": "考察了Esaxerenone对下列蛋白的抑制作用：...Caco-2细胞中的人乳腺癌耐药蛋白BCRP和p-糖蛋白（P-gp）。如果Igut / IC50小于10，则认为Esaxerenone在体内抑制P-gp和BCRP转运蛋白的能力较低很",
+          "source": "凡默谷",
+          "chunk_index": "1229"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "Esaxerenone抑制BCRP",
+        "properties": {
+          "inhibition_type": "抑制作用",
+          "assessment": "根据静态机制模型评估（Igut/IC50），在体内抑制BCRP的能力可能较低",
+          "evidence": "考察了Esaxerenone对下列蛋白的抑制作用：...Caco-2细胞中的人乳腺癌耐药蛋白BCRP和p-糖蛋白（P-gp）。如果Igut / IC50小于10，则认为Esaxerenone在体内抑制P-gp和BCRP转运蛋白的能力较低很",
+          "source": "凡默谷",
+          "chunk_index": "1229"
+        }
+      }
+    ],
+    "chunk_index": 1229,
+    "source": "凡默谷",
+    "text": "。体外评估结果表明无法忽略临床DDI风险，进一步使用了静态机制模型和PBPK模型进行了DDI风险评估。由于制药公司从药物发现阶段就会引入PBPK模型，只有动物和体外数据可用，因此我们比较了有和没有人体PK数据时模型对DDI的预测准确性。通过PBPK模型模拟了Esaxerenone不同给药周期、不同剂量、咪达唑仑的不同服用时间对DDI的影响，讨论了抑制和诱导之间的抵消效应。2研究方法 2.1 体外DDI研究1） 使用人肝微粒体研究了Esaxerenone对CYP1A2，CYP2A6，CYP2B6，CYP2C8，CYP2C9，CYP2C19，CYP2D6，CYP2E1和CYP3A4的可逆抑制和时间依赖性抑制（TDI）。Esaxerenone是UGT亚型的底物，使用人肝微粒体研究了Esaxerenone对UGT1A1和UGT2B7的可逆抑制的潜力。2）考察了Esaxerenone对下列蛋白的抑制作用：转染的MDCK-II细胞中人有机阴离子转运蛋白OAT1和OAT3、有机阴离子转运多肽OATP1B1和OATP1B3、有机阳离子转运蛋白OCT1和OCT2、转染的HEK293细胞中人多药及毒素外排转运蛋白MATE1和MATE2-K、Caco-2细胞中的人乳腺癌耐药蛋白BCRP和p-糖蛋白（P-gp）。2.2 使用静态机制模型的DDI风险评估根据FDA的DDI的指导原则（2020年），药物在肠腔内的浓度（Igut）=[剂量] / [250 ml] = 42.9 mM。如果Igut / IC50小于10，则认为Esaxerenone在体内抑制P-gp和BCRP转运蛋白的能力较低很"
+  }
+]

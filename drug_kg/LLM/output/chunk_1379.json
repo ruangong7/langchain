@@ -1,0 +1,225 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "三唑类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "两性霉素B",
+        "properties": {
+          "别名": [
+            "AMB"
+          ]
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "L-AmB",
+        "properties": {
+          "别名": [
+            "两性霉素B脂质制剂"
+          ]
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "棘白菌素类",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "CYP450",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "肾毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "血谷浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Population",
+        "name": "血液恶性肿瘤患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Population",
+        "name": "造血干细胞移植受者",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Evidence",
+        "name": "医学界急诊与重症频道",
+        "properties": {
+          "chunk_id": 1379,
+          "source": "医学界急诊与重症频道",
+          "text": "。二、TDM剂量调整建议及用药选择如患者服用伏立康唑作为治疗用药时需严格定期进行TDM；而伏立康唑作为预防性治疗时，也推荐进行TDM，TDM可以帮助患者体内维持有效浓度并降低毒性。由于血液恶性肿瘤的靶向药物几乎均由CYP3A4代谢[6]，易与三唑类药物产生DDI，因此澳大利亚皇家医师学院（RACP）发布的《优化抗真菌药物递送和监测以避免毒性和改善血液恶性肿瘤患者和造血干细胞移植受者预后的共识指南（2021）》等指南[8]建议多数情况下使用三唑类药物的患者接受TDM。值得注意的是，指南同时也提示两性霉素B（AMB）及其脂质制剂、棘白菌素类无需进行TDM。表 抗真菌药物监测推荐和基于谷浓度的剂量调整建议[8]由于AMB与CYP450无相互作用，因此无相关DDI，也就无需进行TDM，但此前临床医师对其肾毒性的顾虑导致AMB临床应用受限[9]。直到L-AmB等AMB脂质制剂的出现，大幅改善了AMB肾毒性问题，有望成为临床医师又一选择。而与其他常规AMB或者AMB脂质制剂相比，L-AmB经网状内皮系统的清除率更慢，其血谷浓度更高[10]。可以观察到肝脏（达到剂量的13%-23%）和脾脏中的L-AmB浓度相对较高，而肺组织和肾脏组织中的浓度更低，肾脏组织中的剂量甚至不到1%[10]。三、小结三唑类药物与其他药物合用不当造成的DDI，不但会导致治疗失败，还可能使药物的毒副反应发生率增高。而L-AmB和棘白菌素对CYP450酶的影响轻微，产生DDI的概率较小，不失为优选药物，值得在临床实践中不断探索和完善其应用"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1379,
+            "source": "医学界急诊与重症频道",
+            "text": "由于血液恶性肿瘤的靶向药物几乎均由CYP3A4代谢[6]，易与三唑类药物产生DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "三唑类药物与CYP3A4代谢的药物存在相互作用",
+        "properties": {
+          "mechanism": "CYP3A4代谢",
+          "consequence": "易产生药物-药物相互作用（DDI）",
+          "recommendation": "建议进行治疗药物监测（TDM）",
+          "evidence": {
+            "chunk_index": 1379,
+            "source": "医学界急诊与重症频道",
+            "text": "由于血液恶性肿瘤的靶向药物几乎均由CYP3A4代谢[6]，易与三唑类药物产生DDI，因此澳大利亚皇家医师学院（RACP）发布的《优化抗真菌药物递送和监测以避免毒性和改善血液恶性肿瘤患者和造血干细胞移植受者预后的共识指南（2021）》等指南[8]建议多数情况下使用三唑类药物的患者接受TDM。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "两性霉素B与CYP450无相互作用",
+        "properties": {
+          "mechanism": "无相互作用",
+          "consequence": "无相关DDI，无需TDM",
+          "evidence": {
+            "chunk_index": 1379,
+            "source": "医学界急诊与重症频道",
+            "text": "由于AMB与CYP450无相互作用，因此无相关DDI，也就无需进行TDM"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "name": "两性霉素B可能导致肾毒性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1379,
+            "source": "医学界急诊与重症频道",
+            "text": "但此前临床医师对其肾毒性的顾虑导致AMB临床应用受限[9]"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "name": "L-AmB对CYP450酶影响轻微",
+        "properties": {
+          "mechanism": "对CYP450酶影响轻微",
+          "consequence": "产生DDI概率较小",
+          "recommendation": "可作为优选药物",
+          "evidence": {
+            "chunk_index": 1379,
+            "source": "医学界急诊与重症频道",
+            "text": "而L-AmB和棘白菌素对CYP450酶的影响轻微，产生DDI的概率较小，不失为优选药物，值得在临床实践中不断探索和完善其应用"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "棘白菌素类对CYP450酶影响轻微",
+        "properties": {
+          "mechanism": "对CYP450酶影响轻微",
+          "consequence": "产生DDI概率较小",
+          "recommendation": "可作为优选药物",
+          "evidence": {
+            "chunk_index": 1379,
+            "source": "医学界急诊与重症频道",
+            "text": "而L-AmB和棘白菌素对CYP450酶的影响轻微，产生DDI的概率较小，不失为优选药物，值得在临床实践中不断探索和完善其应用"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_5",
+        "target_id": "ent_9",
+        "name": "L-AmB具有更高的血谷浓度",
+        "properties": {
+          "effect": "升高",
+          "evidence": {
+            "chunk_index": 1379,
+            "source": "医学界急诊与重症频道",
+            "text": "而与其他常规AMB或者AMB脂质制剂相比，L-AmB经网状内皮系统的清除率更慢，其血谷浓度更高[10]"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "APPLIES_TO",
+        "source_id": "ent_12",
+        "target_id": "ent_10",
+        "name": "",
+        "properties": {}
+      },
+      {
+        "id": "rel_9",
+        "type": "APPLIES_TO",
+        "source_id": "ent_12",
+        "target_id": "ent_11",
+        "name": "",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1379,
+    "source": "医学界急诊与重症频道",
+    "text": "。二、TDM剂量调整建议及用药选择如患者服用伏立康唑作为治疗用药时需严格定期进行TDM；而伏立康唑作为预防性治疗时，也推荐进行TDM，TDM可以帮助患者体内维持有效浓度并降低毒性。由于血液恶性肿瘤的靶向药物几乎均由CYP3A4代谢[6]，易与三唑类药物产生DDI，因此澳大利亚皇家医师学院（RACP）发布的《优化抗真菌药物递送和监测以避免毒性和改善血液恶性肿瘤患者和造血干细胞移植受者预后的共识指南（2021）》等指南[8]建议多数情况下使用三唑类药物的患者接受TDM。值得注意的是，指南同时也提示两性霉素B（AMB）及其脂质制剂、棘白菌素类无需进行TDM。表 抗真菌药物监测推荐和基于谷浓度的剂量调整建议[8]由于AMB与CYP450无相互作用，因此无相关DDI，也就无需进行TDM，但此前临床医师对其肾毒性的顾虑导致AMB临床应用受限[9]。直到L-AmB等AMB脂质制剂的出现，大幅改善了AMB肾毒性问题，有望成为临床医师又一选择。而与其他常规AMB或者AMB脂质制剂相比，L-AmB经网状内皮系统的清除率更慢，其血谷浓度更高[10]。可以观察到肝脏（达到剂量的13%-23%）和脾脏中的L-AmB浓度相对较高，而肺组织和肾脏组织中的浓度更低，肾脏组织中的剂量甚至不到1%[10]。三、小结三唑类药物与其他药物合用不当造成的DDI，不但会导致治疗失败，还可能使药物的毒副反应发生率增高。而L-AmB和棘白菌素对CYP450酶的影响轻微，产生DDI的概率较小，不失为优选药物，值得在临床实践中不断探索和完善其应用"
+  }
+]

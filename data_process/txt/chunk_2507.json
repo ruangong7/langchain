@@ -1,0 +1,7 @@
+[
+  {
+    "text": "药物和靶标之间存在错综复杂的网络关系，识别药物-靶标相互作用（drug–target interactions, DTIs）对药物发现与设计尤为重要，由于大多数简单的深度学习模型的预测结果无法被解释，只能用于简单的预过滤。如果一个DTI预测模型能准确预测药物与靶标的结合，那必将有益于药物的发现与后续设计。今天介绍的是一篇韩国光州科学技术院Hojung Nam和Yong-Chul Kim团队发表在EJMC上的文章，题为“AI-based prediction of new binding site and virtual screening for the discovery of novel P2X3 receptor antagonists ”，文章介绍了团队使用自行开发的一种新的深度学习模型—Highlight on Target Sequence（HoTS）寻找到了P2X3受体的新结合区域，并通过虚拟筛选技术得到了16个Hit分子。——背景——P2X3受体是一种ATP门控的非选择性阳离子通道，属于P2X受体家族，其被ATP激活后可以诱导非选择的阳离子内流（主要是Ca2+），使细胞发生去极化，激活胞内相关受体，进而传导相关的信号。P2X3受体在神经系统和呼吸系统中广泛表达，并且P2X3的激活已被证实与慢性疼痛、咳嗽等生理和病理过程有关。如图1所示，P2X3受体为三聚体，其单体由2个跨膜结构域（TM）、位于胞内的N端和C端、以及位于胞外含有ATP结合位点的保守序列共同构成。P2X3的TM结构域在静息条件下呈关闭状态，当胞外结构域与ATP结合时，TM结构域互相远离打开离子通道",
+    "source": "英飞智药",
+    "chunk_index": 2507
+  }
+]

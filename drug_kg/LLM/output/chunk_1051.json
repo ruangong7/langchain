@@ -1,0 +1,253 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "OCT2",
+        "properties": {
+          "full_name": "organic cation transporter 2",
+          "type": "转运体",
+          "subtype": "摄取型转运体"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "OAT1",
+        "properties": {
+          "full_name": "organic anion transporter 1",
+          "type": "转运体",
+          "subtype": "摄取型转运体"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "OAT3",
+        "properties": {
+          "full_name": "organic anion transporter 3",
+          "type": "转运体",
+          "subtype": "摄取型转运体"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "OATP1B1",
+        "properties": {
+          "full_name": "organic anion transporting polypeptide 1B1",
+          "type": "转运体",
+          "subtype": "摄取型转运体"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "OATP1B3",
+        "properties": {
+          "full_name": "organic anion transporting polypeptide 1B3",
+          "type": "转运体",
+          "subtype": "摄取型转运体"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "PEPT1",
+        "properties": {
+          "full_name": "oligopeptide transporter 1",
+          "type": "转运体",
+          "subtype": "摄取型转运体"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "MATE1",
+        "properties": {
+          "full_name": "multidrug and toxin extrusion protein 1",
+          "type": "转运体",
+          "subtype": "外排型转运体"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "MATE2-K",
+        "properties": {
+          "full_name": "multidrug and toxin extrusion protein 2-K",
+          "type": "转运体",
+          "subtype": "外排型转运体"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Mechanism",
+        "name": "竞争性摄取或外排",
+        "properties": {
+          "mechanism_type": "竞争性抑制"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Mechanism",
+        "name": "抑制剂介导的摄取或外排降低",
+        "properties": {
+          "mechanism_type": "抑制"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Mechanism",
+        "name": "诱导剂介导的摄取或外排升高",
+        "properties": {
+          "mechanism_type": "诱导"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "SideEffect",
+        "name": "药物疗效变化",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "SideEffect",
+        "name": "毒副作用",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_9",
+        "target_id": "ent_9",
+        "name": "当联用药物都是转运体的底物时，可能发生竞争性摄取或外排",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1051,
+            "source": "凡默谷",
+            "text": "当联用药物都是转运体的底物时，可能发生竞争性摄取或外排，导致合用药物的摄取或外排减少"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_10",
+        "target_id": "ent_10",
+        "name": "抑制剂导致底物药物摄取或外排降低",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1051,
+            "source": "凡默谷",
+            "text": "当一种药物为转运体的底物，而另一种为转运体的抑制剂时，可能导致底物药物的摄取或外排降低"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_11",
+        "target_id": "ent_11",
+        "name": "诱导剂导致底物药物摄取或外排升高",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1051,
+            "source": "凡默谷",
+            "text": "当一种药物为转运体底物，而另一种药物为转运体的诱导剂时，可能导致底物药物的摄取或外排升高"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_9",
+        "target_id": "ent_12",
+        "name": "竞争性摄取或外排导致药物疗效变化",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1051,
+            "source": "凡默谷",
+            "text": "极可能发生DDI，从而导致药物疗效的变化或毒副作用的发生"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_9",
+        "target_id": "ent_13",
+        "name": "竞争性摄取或外排导致毒副作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1051,
+            "source": "凡默谷",
+            "text": "极可能发生DDI，从而导致药物疗效的变化或毒副作用的发生"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_10",
+        "target_id": "ent_12",
+        "name": "抑制剂介导机制导致药物疗效变化",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1051,
+            "source": "凡默谷",
+            "text": "极可能发生DDI，从而导致药物疗效的变化或毒副作用的发生"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_10",
+        "target_id": "ent_13",
+        "name": "抑制剂介导机制导致毒副作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1051,
+            "source": "凡默谷",
+            "text": "极可能发生DDI，从而导致药物疗效的变化或毒副作用的发生"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_11",
+        "target_id": "ent_12",
+        "name": "诱导剂介导机制导致药物疗效变化",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1051,
+            "source": "凡默谷",
+            "text": "极可能发生DDI，从而导致药物疗效的变化或毒副作用的发生"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_11",
+        "target_id": "ent_13",
+        "name": "诱导剂介导机制导致毒副作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1051,
+            "source": "凡默谷",
+            "text": "极可能发生DDI，从而导致药物疗效的变化或毒副作用的发生"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1051,
+    "source": "凡默谷",
+    "text": "。溶质转运体大多是摄取型转运体，包括有机 阳离子转运体（organic cation transporter, OCT)2; 有机阴离子转运体（organic anion transporter, OAT) 1/3;有机阴离子转运多肽（organic anion transporting polypeptide, OATP) 1B1/1B3;寡肤转 运体（oligopeptide transporter, PEPT)1 等。其中， 多药及毒性化合物外排转运体（multidrug and toxin extrusion proteins, MATE) 1/2-K 是 SLC 转运 体，但属于外排型转运体。临床用药过程中，当合用药物同为转运体的 底物、抑制剂或诱导剂时，极可能发生DDI，从而 导致药物疗效的变化或毒副作用的发生。转运体 介导的DDI主要分为三种类型：（1)当联用药物 都是转运体的底物时，可能发生竞争性摄取或外 排，导致合用药物的摄取或外排减少；（2)当一种 药物为转运体的底物，而另一种为转运体的抑制 剂时，可能导致底物药物的摄取或外排降低；（3) 当一种药物为转运体底物，而另一种药物为转运 体的诱导剂时，可能导致底物药物的摄取或外排 升高。转运体介导的DDI实验方法分为体外试验 和临床试验，体外试验用于揭示转运体或代谢酶 介导的DDI发生机制及影响效果，临床试验主要 是用于评估是否发生体内DDI及其严重程度[]"
+  }
+]

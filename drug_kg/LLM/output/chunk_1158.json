@@ -1,0 +1,127 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "羟考酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "安纳拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "阿莫西林",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP代谢酶",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "properties": {
+          "别名列表": [
+            "PPI"
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "羟考酮与CYP代谢酶介导的药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1158,
+            "source": "凡默谷",
+            "text": "案例2：采用PBPK模型评估CYP代谢酶介导和质子泵抑制剂PPI（安纳拉唑+克拉霉素+阿莫西林三联法）共同作用的DDI。"
+          },
+          "mechanism": "CYP代谢酶介导"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "安纳拉唑与CYP代谢酶介导的药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1158,
+            "source": "凡默谷",
+            "text": "案例2：采用PBPK模型评估CYP代谢酶介导和质子泵抑制剂PPI（安纳拉唑+克拉霉素+阿莫西林三联法）共同作用的DDI。"
+          },
+          "mechanism": "CYP代谢酶介导"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "name": "克拉霉素与CYP代谢酶介导的药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1158,
+            "source": "凡默谷",
+            "text": "案例2：采用PBPK模型评估CYP代谢酶介导和质子泵抑制剂PPI（安纳拉唑+克拉霉素+阿莫西林三联法）共同作用的DDI。"
+          },
+          "mechanism": "CYP代谢酶介导"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "阿莫西林与CYP代谢酶介导的药物相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1158,
+            "source": "凡默谷",
+            "text": "案例2：采用PBPK模型评估CYP代谢酶介导和质子泵抑制剂PPI（安纳拉唑+克拉霉素+阿莫西林三联法）共同作用的DDI。"
+          },
+          "mechanism": "CYP代谢酶介导"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "name": "安纳拉唑属于质子泵抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1158,
+            "source": "凡默谷",
+            "text": "质子泵抑制剂PPI（安纳拉唑+克拉霉素+阿莫西林三联法）"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1158,
+    "source": "凡默谷",
+    "text": "直播回放 | 采用PBPK模型评估药物相互作用并指导法规决策的最佳实践及案例分享中英文字幕- 2023年8月 -01课程概述8月16日的课程直播中，Revathi Chapa将先讲解用于预测DDI和指导法规决策的PBPK模型的搭建和应用，接着讨论Simulations Plus公司构建标准受变药和促变药DDI模型的工作流程。紧接着，Jasmina Novakovic 博士讲解2个应用案例，案例1：采用PBPK模型追踪母药羟考酮及其多个代谢产物的体内PK，并评估与促变药联合用药后母药及其多个代谢产物体内的PK变化。案例2：采用PBPK模型评估CYP代谢酶介导和质子泵抑制剂PPI（安纳拉唑+克拉霉素+阿莫西林三联法）共同作用的DDI。问答直播环节，周海英博士，Jasmina，Revathi 三人就预留及直播间的9个提问进行了解答，最后两位报告人分享了关于搭建好用于评估的PBPK模型需要学习哪些知识和心得体会。凡默谷的朱慧敏和王钰玺担任了本次公开课的主持人02主讲人与互动嘉宾Revathi Chapa美国Simulations Plus公司，资深科学家美国华盛顿大学& 印度National Institute of Pharmaceutical Education and Research 药剂学，药理与毒理学双硕士。2019年加入Simulations Plus 公司，负责PBPK模型的开发与各类应用，如预测首次人体PK、特殊人群PK、药物相互作用DDI、食物影响等"
+  }
+]

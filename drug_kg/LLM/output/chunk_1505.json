@@ -1,0 +1,129 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "DOAC",
+        "properties": {
+          "description": "直接口服抗凝药"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Population",
+        "name": "女性",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Population",
+        "name": "年龄较大患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Population",
+        "name": "体重较低患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Population",
+        "name": "肾功能较差患者",
+        "properties": {}
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "医脉通心血管",
+        "properties": {
+          "chunk_id": 1505,
+          "source": "医脉通心血管",
+          "text": "。 结论 临床医生应关注DOAC与常用药物的相互作用问题，必要时，为保证安全，应调整DOAC剂量或停药。重要的是，应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险。另外，抗凝门诊随访可能是解决这些问题的有效方法。 参考来源：1. Barbara S. Wiggins, Dave L. Dixon, Ron R. Neyens, et al. Select Drug-Drug Interactions With Direct Oral Anticoagulants: JACC Review Topic of the Week. J Am Coll Cardiol. 2020; 75(11): 1341-1350.2. Geoffrey D. Barnes. Drug-Drug Interactions With Direct Oral Anticoagulants. ACC. Mar 19, 2020."
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_1",
+        "name": "DOAC与常用药物相互作用",
+        "properties": {
+          "description": "DOAC与常用药物存在相互作用问题",
+          "management": "必要时，为保证安全，应调整DOAC剂量或停药",
+          "evidence": {
+            "chunk_index": 1505,
+            "source": "医脉通心血管",
+            "text": "临床医生应关注DOAC与常用药物的相互作用问题，必要时，为保证安全，应调整DOAC剂量或停药。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "DOAC对女性风险增加",
+        "properties": {
+          "description": "应更多关注女性患者，以减轻用药错误的风险",
+          "evidence": {
+            "chunk_index": 1505,
+            "source": "医脉通心血管",
+            "text": "重要的是，应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "DOAC对年龄较大患者风险增加",
+        "properties": {
+          "description": "应更多关注年龄较大患者，以减轻用药错误的风险",
+          "evidence": {
+            "chunk_index": 1505,
+            "source": "医脉通心血管",
+            "text": "重要的是，应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "DOAC对体重较低患者风险增加",
+        "properties": {
+          "description": "应更多关注体重较低患者，以减轻用药错误的风险",
+          "evidence": {
+            "chunk_index": 1505,
+            "source": "医脉通心血管",
+            "text": "重要的是，应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "DOAC对肾功能较差患者风险增加",
+        "properties": {
+          "description": "应更多关注肾功能较差患者，以减轻用药错误的风险",
+          "evidence": {
+            "chunk_index": 1505,
+            "source": "医脉通心血管",
+            "text": "重要的是，应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1505,
+    "source": "医脉通心血管",
+    "text": "。 结论 临床医生应关注DOAC与常用药物的相互作用问题，必要时，为保证安全，应调整DOAC剂量或停药。重要的是，应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险。另外，抗凝门诊随访可能是解决这些问题的有效方法。 参考来源：1. Barbara S. Wiggins, Dave L. Dixon, Ron R. Neyens, et al. Select Drug-Drug Interactions With Direct Oral Anticoagulants: JACC Review Topic of the Week. J Am Coll Cardiol. 2020; 75(11): 1341-1350.2. Geoffrey D. Barnes. Drug-Drug Interactions With Direct Oral Anticoagulants. ACC. Mar 19, 2020."
+  }
+]

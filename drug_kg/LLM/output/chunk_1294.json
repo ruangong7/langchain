@@ -1,0 +1,440 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "抗过敏药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "奶酪",
+        "properties": {
+          "类型": "食物",
+          "关键成分": [
+            "组氨酸"
+          ]
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Food",
+        "name": "肉制品",
+        "properties": {
+          "类型": "食物",
+          "关键成分": [
+            "组氨酸"
+          ]
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "头晕",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "头痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "心慌",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "维生素C",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Food",
+        "name": "虾",
+        "properties": {
+          "类型": "食物",
+          "关键成分": [
+            "铜",
+            "五价砷"
+          ]
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Food",
+        "name": "西柚",
+        "properties": {
+          "类型": "食物",
+          "关键成分": [
+            "维生素C",
+            "呋喃香豆素"
+          ]
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "他汀类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "辛伐他汀",
+        "properties": {
+          "通用名": "辛伐他汀",
+          "商品名": "Zocor"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "properties": {
+          "通用名": "阿托伐他汀",
+          "商品名": "Lipitor"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "钙通道阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "硝苯地平",
+        "properties": {
+          "通用名": "硝苯地平",
+          "商品名": [
+            "Procardia",
+            "Adalat CC"
+          ]
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "免疫抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "环孢素",
+        "properties": {
+          "商品名": [
+            "Sandimmune",
+            "Neoral"
+          ]
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "Population",
+        "name": "45岁以上人群",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Disease",
+        "name": "高血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Disease",
+        "name": "心律失常",
+        "properties": {}
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "北美省钱快报Dealmoon",
+        "properties": {
+          "chunk_id": 1294,
+          "source": "北美省钱快报Dealmoon",
+          "text": "服用抗过敏药物期间忌食奶酪、肉制品等富含组氨酸的食物。因为组氨酸在人体内会转化为组织胺，而抗过敏药抑制组织胺分解，因此造成人体内组织胺蓄积，诱发头晕、头痛、心慌等不适症状。"
+        }
+      },
+      {
+        "id": "ev_2",
+        "type": "Evidence",
+        "name": "北美省钱快报Dealmoon",
+        "properties": {
+          "chunk_id": 1294,
+          "source": "北美省钱快报Dealmoon",
+          "text": "服用维生素C前后2小时内不能吃虾！因为虾中含量丰富的铜会氧化维生素C，令其失效；同时，虾中的五价砷成分还会与维生素C反应生成具有毒性的“三价砷”。"
+        }
+      },
+      {
+        "id": "ev_3",
+        "type": "Evidence",
+        "name": "北美省钱快报Dealmoon",
+        "properties": {
+          "chunk_id": 1294,
+          "source": "北美省钱快报Dealmoon",
+          "text": "西柚会和一些药物相互作用，从而引发一系列健康问题。据《洛杉矶时报》报道，医学研究表明，超过85种药物会与西柚发生作用，其中43种会带来危险。服药时只要搭1颗西柚或喝不到7盎司的西柚汁，就足以改变病人体内的药物浓度。其中，45岁以上民众风险较高，因为他们最常买西柚且服用最多药物。"
+        }
+      },
+      {
+        "id": "ev_4",
+        "type": "Evidence",
+        "name": "北美省钱快报Dealmoon",
+        "properties": {
+          "chunk_id": 1294,
+          "source": "北美省钱快报Dealmoon",
+          "text": "他汀类药物降低胆固醇，如Zocor(辛伐他汀)和Lipitor(阿托伐他汀)；治疗高血压的药物，如Procardia和Adalat CC(硝苯地平)。器官移植排斥药物，如Sandimmune和Neoral(都是环孢素)"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "抗过敏药物与奶酪相互作用",
+        "properties": {
+          "mechanism": "组氨酸在人体内转化为组织胺，抗过敏药抑制组织胺分解，导致组织胺蓄积",
+          "consequences": [
+            "头晕",
+            "头痛",
+            "心慌"
+          ],
+          "evidence": {
+            "chunk_index": 1294,
+            "source": "北美省钱快报Dealmoon",
+            "text": "服用抗过敏药物期间忌食奶酪、肉制品等富含组氨酸的食物。因为组氨酸在人体内会转化为组织胺，而抗过敏药抑制组织胺分解，因此造成人体内组织胺蓄积，诱发头晕、头痛、心慌等不适症状。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "抗过敏药物与肉制品相互作用",
+        "properties": {
+          "mechanism": "组氨酸在人体内转化为组织胺，抗过敏药抑制组织胺分解，导致组织胺蓄积",
+          "consequences": [
+            "头晕",
+            "头痛",
+            "心慌"
+          ],
+          "evidence": {
+            "chunk_index": 1294,
+            "source": "北美省钱快报Dealmoon",
+            "text": "服用抗过敏药物期间忌食奶酪、肉制品等富含组氨酸的食物。因为组氨酸在人体内会转化为组织胺，而抗过敏药抑制组织胺分解，因此造成人体内组织胺蓄积，诱发头晕、头痛、心慌等不适症状。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "name": "维生素C与虾相互作用",
+        "properties": {
+          "mechanism": "虾中的铜氧化维生素C使其失效；五价砷与维生素C反应生成三价砷",
+          "consequences": [
+            "维生素C失效",
+            "生成有毒三价砷"
+          ],
+          "evidence": {
+            "chunk_index": 1294,
+            "source": "北美省钱快报Dealmoon",
+            "text": "服用维生素C前后2小时内不能吃虾！因为虾中含量丰富的铜会氧化维生素C，令其失效；同时，虾中的五价砷成分还会与维生素C反应生成具有毒性的“三价砷”。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "name": "西柚与他汀类药物相互作用",
+        "properties": {
+          "mechanism": "西柚影响药物代谢，改变血药浓度",
+          "consequences": [
+            "药物浓度改变",
+            "潜在毒性增加"
+          ],
+          "evidence": {
+            "chunk_index": 1294,
+            "source": "北美省钱快报Dealmoon",
+            "text": "西柚会和一些药物相互作用，从而引发一系列健康问题。据《洛杉矶时报》报道，医学研究表明，超过85种药物会与西柚发生作用，其中43种会带来危险。服药时只要搭1颗西柚或喝不到7盎司的西柚汁，就足以改变病人体内的药物浓度。其中，45岁以上民众风险较高，因为他们最常买西柚且服用最多药物。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_13",
+        "name": "西柚与钙通道阻滞剂相互作用",
+        "properties": {
+          "mechanism": "西柚影响药物代谢，改变血药浓度",
+          "consequences": [
+            "药物浓度改变",
+            "潜在毒性增加"
+          ],
+          "evidence": {
+            "chunk_index": 1294,
+            "source": "北美省钱快报Dealmoon",
+            "text": "西柚会和一些药物相互作用，从而引发一系列健康问题。据《洛杉矶时报》报道，医学研究表明，超过85种药物会与西柚发生作用，其中43种会带来危险。服药时只要搭1颗西柚或喝不到7盎司的西柚汁，就足以改变病人体内的药物浓度。其中，45岁以上民众风险较高，因为他们最常买西柚且服用最多药物。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_15",
+        "name": "西柚与免疫抑制剂相互作用",
+        "properties": {
+          "mechanism": "西柚影响药物代谢，改变血药浓度",
+          "consequences": [
+            "药物浓度改变",
+            "潜在毒性增加"
+          ],
+          "evidence": {
+            "chunk_index": 1294,
+            "source": "北美省钱快报Dealmoon",
+            "text": "西柚会和一些药物相互作用，从而引发一系列健康问题。据《洛杉矶时报》报道，医学研究表明，超过85种药物会与西柚发生作用，其中43种会带来危险。服药时只要搭1颗西柚或喝不到7盎司的西柚汁，就足以改变病人体内的药物浓度。其中，45岁以上民众风险较高，因为他们最常买西柚且服用最多药物。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_10",
+        "name": "辛伐他汀属于他汀类药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1294,
+            "source": "北美省钱快报Dealmoon",
+            "text": "他汀类药物降低胆固醇，如Zocor(辛伐他汀)和Lipitor(阿托伐他汀)"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_12",
+        "target_id": "ent_10",
+        "name": "阿托伐他汀属于他汀类药物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1294,
+            "source": "北美省钱快报Dealmoon",
+            "text": "他汀类药物降低胆固醇，如Zocor(辛伐他汀)和Lipitor(阿托伐他汀)"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_14",
+        "target_id": "ent_13",
+        "name": "硝苯地平属于钙通道阻滞剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1294,
+            "source": "北美省钱快报Dealmoon",
+            "text": "治疗高血压的药物，如Procardia和Adalat CC(硝苯地平)"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_16",
+        "target_id": "ent_15",
+        "name": "环孢素属于免疫抑制剂",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1294,
+            "source": "北美省钱快报Dealmoon",
+            "text": "器官移植排斥药物，如Sandimmune和Neoral(都是环孢素)"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_14",
+        "target_id": "ent_18",
+        "name": "硝苯地平用于治疗高血压",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1294,
+            "source": "北美省钱快报Dealmoon",
+            "text": "治疗高血压的药物，如Procardia和Adalat CC(硝苯地平)"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_16",
+        "target_id": "ent_19",
+        "name": "环孢素用于预防器官移植排斥（与心律失常无直接关系，此处不建立）",
+        "properties": {}
+      },
+      {
+        "id": "rel_13",
+        "type": "APPLIES_TO",
+        "source_id": "rel_4",
+        "target_id": "ent_17",
+        "name": "西柚与他汀类药物相互作用风险适用于45岁以上人群",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1294,
+            "source": "北美省钱快报Dealmoon",
+            "text": "其中，45岁以上民众风险较高，因为他们最常买西柚且服用最多药物。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "APPLIES_TO",
+        "source_id": "rel_5",
+        "target_id": "ent_17",
+        "name": "西柚与钙通道阻滞剂相互作用风险适用于45岁以上人群",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1294,
+            "source": "北美省钱快报Dealmoon",
+            "text": "其中，45岁以上民众风险较高，因为他们最常买西柚且服用最多药物。"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "APPLIES_TO",
+        "source_id": "rel_6",
+        "target_id": "ent_17",
+        "name": "西柚与免疫抑制剂相互作用风险适用于45岁以上人群",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1294,
+            "source": "北美省钱快报Dealmoon",
+            "text": "其中，45岁以上民众风险较高，因为他们最常买西柚且服用最多药物。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1294,
+    "source": "北美省钱快报Dealmoon",
+    "text": "。17.抗过敏药物和奶酪、肉制品：服用抗过敏药物期间忌食奶酪、肉制品等富含组氨酸的食物。因为组氨酸在人体内会转化为组织胺，而抗过敏药抑制组织胺分解，因此造成人体内组织胺蓄积，诱发头晕、头痛、心慌等不适症状。18.维生素和虾注意！服用维生素C前后2小时内不能吃虾！因为虾中含量丰富的铜会氧化维生素C，令其失效；同时，虾中的五价砷成分还会与维生素C反应生成具有毒性的“三价砷”。更多内容，可以点击视频观看：最后，我们单独来说说西柚。注意！西柚不能和这7类药物一起吃西柚含有丰富的维生素C和钾，深受人们喜爱。但是如果你有高血压，或者心律失常，那么西柚对你就不那么健康了。美国食品药品监督管理局的Shiew Mei Huang博士表示，西柚会和一些药物相互作用，从而引发一系列健康问题。据《洛杉矶时报》报道，医学研究表明，超过85种药物会与西柚发生作用，其中43种会带来危险。服药时只要搭1颗西柚或喝不到7盎司的西柚汁，就足以改变病人体内的药物浓度。其中，45岁以上民众风险较高，因为他们最常买西柚且服用最多药物。为此，FDA还要求一些处方和非处方的(OTC)药物警示消费者，这些药物和西柚以及西柚汁不宜同时食用。他汀类药物降低胆固醇，如Zocor(辛伐他汀)和Lipitor(阿托伐他汀)；治疗高血压的药物，如Procardia和Adalat CC(硝苯地平)。器官移植排斥药物，如Sandimmune和Neoral(都是环孢素)"
+  }
+]

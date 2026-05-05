@@ -1,0 +1,414 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "华法林",
+        "properties": {
+          "description": "抗凝血素"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "绿叶蔬菜",
+        "properties": {
+          "type": "食物"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "地高辛",
+        "properties": {
+          "description": "治疗心脏病的药物，商品名Lanoxin"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Food",
+        "name": "黑甘草",
+        "properties": {
+          "type": "食物/补充剂",
+          "key_ingredient": "甘草甜素(glycyrrhizin)"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Food",
+        "name": "甘草补充剂",
+        "properties": {
+          "type": "补充剂",
+          "key_ingredient": "甘草甜素(glycyrrhizin)"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "血液稀释剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "避孕药",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "降压药",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Food",
+        "name": "奶酪",
+        "properties": {
+          "type": "食物",
+          "key_ingredient": "钙"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Food",
+        "name": "酸奶",
+        "properties": {
+          "type": "食物",
+          "key_ingredient": "钙"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Food",
+        "name": "牛奶",
+        "properties": {
+          "type": "饮品",
+          "key_ingredient": "钙"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Food",
+        "name": "钙补充剂",
+        "properties": {
+          "type": "补充剂",
+          "key_ingredient": "钙"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Food",
+        "name": "含钙的抗酸剂",
+        "properties": {
+          "type": "补充剂/药物",
+          "key_ingredient": "钙"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "四环素",
+        "properties": {
+          "description": "又称四环霉素，一种聚酮类广谱抗生素药物的泛称，可用来对抗多种细菌感染。现代一般用于治疗粉刺、酒槽鼻"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "甲硝唑",
+        "properties": {
+          "description": "抗生素，商品名Flagyl"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "利奈唑胺",
+        "properties": {
+          "description": "抗生素，商品名Zyvox"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "Food",
+        "name": "酒精",
+        "properties": {
+          "type": "饮品",
+          "key_ingredient": "酪胺(tyramine)"
+        }
+      },
+      {
+        "id": "ent_18",
+        "type": "Food",
+        "name": "鳄梨",
+        "properties": {
+          "type": "食物"
+        }
+      },
+      {
+        "id": "ent_19",
+        "type": "Food",
+        "name": "香蕉",
+        "properties": {
+          "type": "食物"
+        }
+      },
+      {
+        "id": "ent_20",
+        "type": "Food",
+        "name": "巧克力",
+        "properties": {
+          "type": "食物"
+        }
+      },
+      {
+        "id": "ent_21",
+        "type": "Food",
+        "name": "意大利香肠",
+        "properties": {
+          "type": "食物"
+        }
+      },
+      {
+        "id": "ent_22",
+        "type": "Disease",
+        "name": "心脏病",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Disease",
+        "name": "中风",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "SideEffect",
+        "name": "心律失常",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "SideEffect",
+        "name": "死亡",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "SideEffect",
+        "name": "血压升高",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Indicator",
+        "name": "血钾水平",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "SideEffect",
+        "name": "恶心",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "SideEffect",
+        "name": "呕吐",
+        "properties": {}
+      },
+      {
+        "id": "ent_30",
+        "type": "SideEffect",
+        "name": "胃痉挛",
+        "properties": {}
+      },
+      {
+        "id": "ent_31",
+        "type": "Mechanism",
+        "name": "化学反应",
+        "properties": {
+          "mechanism_type": "化学反应"
+        }
+      },
+      {
+        "id": "ent_32",
+        "type": "Mechanism",
+        "name": "干扰吸收",
+        "properties": {
+          "mechanism_type": "干扰吸收"
+        }
+      },
+      {
+        "id": "ent_33",
+        "type": "Evidence",
+        "name": "北美省钱快报Dealmoon",
+        "properties": {
+          "chunk_id": "1291",
+          "source": "北美省钱快报Dealmoon",
+          "text": "。对于心脏病患者来说，同时食用这些蔬菜和药物是危险的，会引发心脏病或中风。最后，需要注意的是，患者一旦开始服用华法林等抗凝血素，务必保持规定的饮食，千万不要突然增加绿叶蔬菜的食用。3.黑甘草/甘草补充剂和地高辛黑甘草或甘草补充剂不能和治疗心脏病的药物地高辛（Lanoxin）一起服用。这是因为，黑甘草和黑甘草补充剂含有甘草甜素（glycyrrhizin），这种成分和地高辛发生化学反应，会引发心律失常，甚至死亡。此外，黑甘草最好也不要与血液稀释剂和避孕药一起食用。黑甘草与避孕药同时服用时，黑甘草中的甘草甜素会降低这些降压药的药性，加剧血液稀释剂的副作用，使得人体血压升高，降低血钾水平。4.奶酪/酸奶/牛奶/钙补充剂/含钙的抗酸剂和四环素奶酪、酸奶、牛奶等含钙量高的食物，不能与四环素（又称四环霉素，一种聚酮类广谱抗生素药物的泛称，可用来对抗多种细菌感染。现代一般用于治疗粉刺、酒槽鼻）类药物同时食用。这些食物含有丰富的钙，会干扰身体全面吸收抗生素的能力，从而降低药效。所以，在日常生活中，我们要尽量避免同时食用上述食物和药物。医生建议，在进食前1小时或进食后2小时服用四环素类药物效果会更好。5.酒精/鳄梨/香蕉/巧克力/意大利香肠和甲硝唑这些食物不能和抗生素甲硝唑（Flagyl）和利奈唑胺 (Zyvox)同时食用。酒类，包括啤酒 、红葡萄酒、雪利酒，含有酪胺（tyramine，一种氨基酸），同时服用会导致人体血压飙升。酒类和甲硝唑一起食用，还会导致人体出现恶心、呕吐和胃痉挛等症状"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "绿叶蔬菜与华法林相互作用",
+        "properties": {
+          "description": "对于心脏病患者来说，同时食用这些蔬菜和药物是危险的，会引发心脏病或中风。患者一旦开始服用华法林等抗凝血素，务必保持规定的饮食，千万不要突然增加绿叶蔬菜的食用。",
+          "consequence": "引发心脏病或中风",
+          "severity": "危险",
+          "advice": "务必保持规定的饮食，千万不要突然增加绿叶蔬菜的食用",
+          "evidence": {
+            "chunk_index": 1291,
+            "source": "北美省钱快报Dealmoon",
+            "text": "对于心脏病患者来说，同时食用这些蔬菜和药物是危险的，会引发心脏病或中风。最后，需要注意的是，患者一旦开始服用华法林等抗凝血素，务必保持规定的饮食，千万不要突然增加绿叶蔬菜的食用。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_3",
+        "name": "黑甘草与地高辛相互作用",
+        "properties": {
+          "description": "黑甘草或甘草补充剂不能和治疗心脏病的药物地高辛（Lanoxin）一起服用。黑甘草和黑甘草补充剂含有甘草甜素（glycyrrhizin），这种成分和地高辛发生化学反应，会引发心律失常，甚至死亡。",
+          "mechanism": "化学反应",
+          "consequence": "引发心律失常，甚至死亡",
+          "severity": "高",
+          "advice": "不能一起服用",
+          "evidence": {
+            "chunk_index": 1291,
+            "source": "北美省钱快报Dealmoon",
+            "text": "黑甘草或甘草补充剂不能和治疗心脏病的药物地高辛（Lanoxin）一起服用。这是因为，黑甘草和黑甘草补充剂含有甘草甜素（glycyrrhizin），这种成分和地高辛发生化学反应，会引发心律失常，甚至死亡。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_3",
+        "name": "甘草补充剂与地高辛相互作用",
+        "properties": {
+          "description": "黑甘草或甘草补充剂不能和治疗心脏病的药物地高辛（Lanoxin）一起服用。黑甘草和黑甘草补充剂含有甘草甜素（glycyrrhizin），这种成分和地高辛发生化学反应，会引发心律失常，甚至死亡。",
+          "mechanism": "化学反应",
+          "consequence": "引发心律失常，甚至死亡",
+          "severity": "高",
+          "advice": "不能一起服用",
+          "evidence": {
+            "chunk_index": 1291,
+            "source": "北美省钱快报Dealmoon",
+            "text": "黑甘草或甘草补充剂不能和治疗心脏病的药物地高辛（Lanoxin）一起服用。这是因为，黑甘草和黑甘草补充剂含有甘草甜素（glycyrrhizin），这种成分和地高辛发生化学反应，会引发心律失常，甚至死亡。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "name": "黑甘草与血液稀释剂相互作用",
+        "properties": {
+          "description": "黑甘草最好也不要与血液稀释剂和避孕药一起食用。黑甘草中的甘草甜素会加剧血液稀释剂的副作用，使得人体血压升高，降低血钾水平。",
+          "consequence": "加剧血液稀释剂的副作用，使得人体血压升高，降低血钾水平",
+          "severity": "中",
+          "advice": "最好也不要一起食用",
+          "evidence": {
+            "chunk_index": 1291,
+            "source": "北美省钱快报Dealmoon",
+            "text": "此外，黑甘草最好也不要与血液稀释剂和避孕药一起食用。黑甘草与避孕药同时服用时，黑甘草中的甘草甜素会降低这些降压药的药性，加剧血液稀释剂的副作用，使得人体血压升高，降低血钾水平。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "黑甘草与避孕药相互作用",
+        "properties": {
+          "description": "黑甘草最好也不要与血液稀释剂和避孕药一起食用。黑甘草中的甘草甜素会降低这些降压药的药性，加剧血液稀释剂的副作用，使得人体血压升高，降低血钾水平。",
+          "consequence": "降低药性，加剧血液稀释剂的副作用，使得人体血压升高，降低血钾水平",
+          "severity": "中",
+          "advice": "最好也不要一起食用",
+          "evidence": {
+            "chunk_index": 1291,
+            "source": "北美省钱快报Dealmoon",
+            "text": "此外，黑甘草最好也不要与血液稀释剂和避孕药一起食用。黑甘草与避孕药同时服用时，黑甘草中的甘草甜素会降低这些降压药的药性，加剧血液稀释剂的副作用，使得人体血压升高，降低血钾水平。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_14",
+        "name": "奶酪与四环素相互作用",
+        "properties": {
+          "description": "奶酪、酸奶、牛奶等含钙量高的食物，不能与四环素类药物同时食用。这些食物含有丰富的钙，会干扰身体全面吸收抗生素的能力，从而降低药效。",
+          "mechanism": "干扰吸收",
+          "consequence": "降低药效",
+          "severity": "中",
+          "advice": "不能同时食用；在进食前1小时或进食后2小时服用四环素类药物效果会更好",
+          "evidence": {
+            "chunk_index": 1291,
+            "source": "北美省钱快报Dealmoon",
+            "text": "奶酪、酸奶、牛奶等含钙量高的食物，不能与四环素（又称四环霉素，一种聚酮类广谱抗生素药物的泛称，可用来对抗多种细菌感染。现代一般用于治疗粉刺、酒槽鼻）类药物同时食用。这些食物含有丰富的钙，会干扰身体全面吸收抗生素的能力，从而降低药效。所以，在日常生活中，我们要尽量避免同时食用上述食物和药物。医生建议，在进食前1小时或进食后2小时服用四环素类药物效果会更好。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_14",
+        "name": "酸奶与四环素相互作用",
+        "properties": {
+          "description": "奶酪、酸奶、牛奶等含钙量高的食物，不能与四环素类药物同时食用。这些食物含有丰富的钙，会干扰身体全面吸收抗生素的能力，从而降低药效。",
+          "mechanism": "干扰吸收",
+          "consequence": "降低药效",
+          "severity": "中",
+          "advice": "不能同时食用；在进食前1小时或进食后2小时服用四环素类药物效果会更好",
+          "evidence": {
+            "chunk_index": 1291,
+            "source": "北美省钱快报Dealmoon",
+            "text": "奶酪、酸奶、牛奶等含钙量高的食物，不能与四环素（又称四环霉素，一种聚酮类广谱抗生素药物的泛称，可用来对抗多种细菌感染。现代一般用于治疗粉刺、酒槽鼻）类药物同时食用。这些食物含有丰富的钙，会干扰身体全面吸收抗生素的能力，从而降低药效。所以，在日常生活中，我们要尽量避免同时食用上述食物和药物。医生建议，在进食前1小时或进食后2小时服用四环素类药物效果会更好。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_14",
+        "name": "牛奶与四环素相互作用",
+        "properties": {
+          "description": "奶酪、酸奶、牛奶等含钙量高的食物，不能与四环素类药物同时食用。这些食物含有丰富的钙，会干扰身体全面吸收抗生素的能力，从而降低药效。",
+          "mechanism": "干扰吸收",
+          "consequence": "降低药效",
+          "severity": "中",
+          "advice": "不能同时食用；在进食前1小时或进食后2小时服用四环素类药物效果会更好",
+          "evidence": {
+            "chunk_index": 1291,
+            "source": "北美省钱快报Dealmoon",
+            "text": "奶酪、酸奶、牛奶等含钙量高的食物，不能与四环素（又称四环霉素，一种聚酮类广谱抗生素药物的泛称，可用来对抗多种细菌感染。现代一般用于治疗粉刺、酒槽鼻）类药物同时食用。这些食物含有丰富的钙，会干扰身体全面吸收抗生素的能力，从而降低药效。所以，在日常生活中，我们要尽量避免同时食用上述食物和药物。医生建议，在进食前1小时或进食后2小时服用四环素类药物效果会更好。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH"
+      }
+    ],
+    "chunk_index": 1291,
+    "source": "北美省钱快报Dealmoon",
+    "text": "。对于心脏病患者来说，同时食用这些蔬菜和药物是危险的，会引发心脏病或中风。最后，需要注意的是，患者一旦开始服用华法林等抗凝血素，务必保持规定的饮食，千万不要突然增加绿叶蔬菜的食用。3.黑甘草/甘草补充剂和地高辛黑甘草或甘草补充剂不能和治疗心脏病的药物地高辛（Lanoxin）一起服用。这是因为，黑甘草和黑甘草补充剂含有甘草甜素（glycyrrhizin），这种成分和地高辛发生化学反应，会引发心律失常，甚至死亡。此外，黑甘草最好也不要与血液稀释剂和避孕药一起食用。黑甘草与避孕药同时服用时，黑甘草中的甘草甜素会降低这些降压药的药性，加剧血液稀释剂的副作用，使得人体血压升高，降低血钾水平。4.奶酪/酸奶/牛奶/钙补充剂/含钙的抗酸剂和四环素奶酪、酸奶、牛奶等含钙量高的食物，不能与四环素（又称四环霉素，一种聚酮类广谱抗生素药物的泛称，可用来对抗多种细菌感染。现代一般用于治疗粉刺、酒槽鼻）类药物同时食用。这些食物含有丰富的钙，会干扰身体全面吸收抗生素的能力，从而降低药效。所以，在日常生活中，我们要尽量避免同时食用上述食物和药物。医生建议，在进食前1小时或进食后2小时服用四环素类药物效果会更好。5.酒精/鳄梨/香蕉/巧克力/意大利香肠和甲硝唑这些食物不能和抗生素甲硝唑（Flagyl）和利奈唑胺 (Zyvox)同时食用。酒类，包括啤酒 、红葡萄酒、雪利酒，含有酪胺（tyramine，一种氨基酸），同时服用会导致人体血压飙升。酒类和甲硝唑一起食用，还会导致人体出现恶心、呕吐和胃痉挛等症状"
+  }
+]

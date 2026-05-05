@@ -1,0 +1,270 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Enzyme",
+        "name": "代谢酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "转运体",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "在研药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "已上市药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Population",
+        "name": "老年人",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "凝血异常",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "呼吸波动",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "心率波动",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "血压波动",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "血糖不稳定",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "药物暴露量",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Mechanism",
+        "name": "酶抑制",
+        "properties": {
+          "机制类型": "酶抑制"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Mechanism",
+        "name": "酶诱导",
+        "properties": {
+          "机制类型": "酶诱导"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Evidence",
+        "name": "凡默谷",
+        "properties": {
+          "chunk_id": 1020,
+          "source": "凡默谷"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_12",
+        "name": "在研药物与代谢酶的相互作用机制为酶抑制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1020,
+            "source": "凡默谷",
+            "text": "这种常见干扰为酶抑制、酶诱导所致。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_13",
+        "name": "在研药物与代谢酶的相互作用机制为酶诱导",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1020,
+            "source": "凡默谷",
+            "text": "这种常见干扰为酶抑制、酶诱导所致。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "在研药物与代谢酶存在相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1020,
+            "source": "凡默谷",
+            "text": "在研药物à代谢酶/转运体底物à选择已上市、该代谢酶强抑制剂/诱导剂做DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "name": "在研药物与转运体存在相互作用",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1020,
+            "source": "凡默谷",
+            "text": "在研药物à代谢酶/转运体底物à选择已上市、该代谢酶强抑制剂/诱导剂做DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "name": "在研药物与已上市药物存在药物相互作用研究关系",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1020,
+            "source": "凡默谷",
+            "text": "选择已上市、该代谢酶强抑制剂/诱导剂做DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "name": "在研药物合用其他药物可能增加凝血异常风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1020,
+            "source": "凡默谷",
+            "text": "同时服用的药物导致受试者出现凝血、呼吸、心率、血压波动或影响血糖稳定时，需要及早进行人体DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "name": "在研药物合用其他药物可能增加呼吸波动风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1020,
+            "source": "凡默谷",
+            "text": "同时服用的药物导致受试者出现凝血、呼吸、心率、血压波动或影响血糖稳定时，需要及早进行人体DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "name": "在研药物合用其他药物可能增加心率波动风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1020,
+            "source": "凡默谷",
+            "text": "同时服用的药物导致受试者出现凝血、呼吸、心率、血压波动或影响血糖稳定时，需要及早进行人体DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "name": "在研药物合用其他药物可能增加血压波动风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1020,
+            "source": "凡默谷",
+            "text": "同时服用的药物导致受试者出现凝血、呼吸、心率、血压波动或影响血糖稳定时，需要及早进行人体DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_3",
+        "target_id": "ent_10",
+        "name": "在研药物合用其他药物可能增加血糖不稳定风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1020,
+            "source": "凡默谷",
+            "text": "同时服用的药物导致受试者出现凝血、呼吸、心率、血压波动或影响血糖稳定时，需要及早进行人体DDI"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_3",
+        "target_id": "ent_11",
+        "name": "在研药物的代谢产物暴露量需评估",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1020,
+            "source": "凡默谷",
+            "text": "观察在研药物的代谢产物（暴露量占原型药物>25%）"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "APPLIES_TO",
+        "source_id": "ent_14",
+        "target_id": "ent_5",
+        "name": "ICH E7指导原则适用于老年人",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1020,
+            "source": "凡默谷",
+            "text": "--ICH E7“用于支持特殊人群的研究：老年人”"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1020,
+    "source": "凡默谷",
+    "text": "。这种常见干扰为酶抑制、酶诱导所致。因此在新药开发阶段受到特别重视。根据最新的DDI指导原则，通常情况下：在研药物à代谢酶/转运体底物à选择已上市、该代谢酶强抑制剂/诱导剂做DDI在研药物à代谢酶抑制剂/诱导剂à选择已上市、特异性强的底物做DDI+观察在研药物的代谢产物（暴露量占原型药物>25%）必要时使用PBPK进行与预设性评价，以更好地设计DDI体内试验递交新药申报(NDA)/生物制品类药物申报(BLA)时，DDI应该作为安全性和有效性评估的一部分进行研究进行DDI的时机：体外代谢和药物转运体研究<DDI研究<上市之前与DDI相关的指导原则指导原则文件不属于法律强制性义务，是建议或推荐--ICH E7“用于支持特殊人群的研究：老年人”--ICH E3“临床研究报告的结构和内容”--FDA“可能用于老年人中的研究药物”、“对临床评价药物中性别差异的研究与评价”DDI研究的主要目的对早期研究（临床前体外）预测的相互作用进行证实/发现验证对潜在的相互作用进行的剂量调整或其他处方信息的更改是否能够充分避免DDI的发生最大程度避免药物上市后在临床药物合用过程中出现低剂量低于有效窗、高剂量超出毒性窗的事件发生DDI试验设计及原理真正的体内DDI研究可以安排在I期临床之后，在药物的安全性、耐受性、疗效和给药剂量已经建立时进行研究，如果在临床试验阶段，同时服用的药物导致受试者出现凝血、呼吸、心率、血压波动或影响血糖稳定时，需要及早进行人体DDI"
+  }
+]

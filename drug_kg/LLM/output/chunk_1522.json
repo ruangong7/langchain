@@ -1,0 +1,430 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "奥拉帕利",
+        "properties": {
+          "metabolism": "CYP3A4/5",
+          "inhibits": "CYP2B6",
+          "adverse_reactions": [
+            "骨髓抑制"
+          ]
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "尼拉帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "阿瑞匹坦",
+        "properties": {
+          "inhibits": "CYP3A4",
+          "inhibition_strength": "中效抑制剂"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "奈妥吡坦",
+        "properties": {
+          "inhibits": "CYP3A4",
+          "inhibition_strength": "中效抑制剂"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "地塞米松",
+        "properties": {
+          "induces": "CYP3A4",
+          "induction_strength": "强诱导剂"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "福沙匹坦",
+        "properties": {
+          "inhibits": "CYP3A4",
+          "inhibition_strength": "弱抑制剂"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "罗拉匹坦",
+        "properties": {
+          "inhibits": "P-gp"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "奥氮平",
+        "properties": {
+          "substrate_of": "CYP2B6"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "沙利度胺",
+        "properties": {
+          "substrate_of": "CYP2B6",
+          "adverse_reactions": [
+            "骨髓抑制"
+          ]
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "PARPi",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "type": "转运体"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Enzyme",
+        "name": "CYP3A5",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Enzyme",
+        "name": "CYP2B6",
+        "properties": {
+          "type": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "SideEffect",
+        "name": "骨髓抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Indicator",
+        "name": "血常规",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": 1522,
+          "source": "医脉通泌尿外科",
+          "text": "。但从机制角度，奥拉帕利、尼拉帕利和P-gp强抑制剂/强诱导剂合用将增加或降低奥拉帕利、尼拉帕利体内水平，因此，Medscape、DDInter数据库均纳入了该类相互作用（表3）。四常用药物与PARPi相互作用及处理推荐1. 止吐药共识意见 8使用奥拉帕利的患者，不推荐使用阿瑞匹坦、奈妥吡坦、地塞米松（Ⅰ级证据）；使用5-羟色胺3（5-hydroxytryptamine 3, 5-HT3）受体拮抗剂、甲氧氯普胺、沙利度胺、奥氮平的患者，应加强对疗效和不良反应的关注（Ⅱ～Ⅲ级证据）。奥拉帕利通过CYP3A4/5代谢，而阿瑞匹坦、奈妥吡坦为CYP3A4中效抑制剂，地塞米松为CYP3A4强诱导剂，合用会影响奥拉帕利的体内代谢。奥拉帕利说明书明确指出：避免合用CYP3A强/中效抑制剂，如必须合用，则奥拉帕利剂量应减量；避免合用CYP3A强/中效诱导剂，如无法避免，则奥拉帕利疗效可能降低。因此，不推荐合用阿瑞匹坦、奈妥吡坦、地塞米松。如临床上需使用地塞米松，应关注奥拉帕利疗效。必须使用神经激肽-1（neurokinin-1, NK-1）受体拮抗剂的患者，推荐使用相互作用较小的福沙匹坦和罗拉匹坦，同时应加强对奥拉帕利不良反应的关注，福沙匹坦为CYP3A4弱抑制剂、罗拉匹坦为P-gp抑制剂，二者分别抑制奥拉帕利的代谢和排泄，合用奥拉帕利不良反应可能增加。奥氮平、沙利度胺为CYP2B6底物，奥拉帕利为CYP2B6抑制剂，合用奥氮平、沙利度胺不良反应可能增加，应加强对不良反应的关注。此外，沙利度胺和奥拉帕利存在骨髓抑制的不良反应风险叠加，应加强对血常规的监测"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "属于类别",
+        "properties": {
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "name": "属于类别",
+        "properties": {
+          "evidence": [
+            "ev_1"
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP3A4抑制",
+          "consequence": "影响奥拉帕利体内代谢",
+          "recommendation": "不推荐合用；如必须合用，奥拉帕利剂量应减量",
+          "severity": "高",
+          "confidence": "高",
+          "evidence": [
+            "ev_2"
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP3A4抑制",
+          "consequence": "影响奥拉帕利体内代谢",
+          "recommendation": "不推荐合用；如必须合用，奥拉帕利剂量应减量",
+          "severity": "高",
+          "confidence": "高",
+          "evidence": [
+            "ev_2"
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP3A4诱导",
+          "consequence": "影响奥拉帕利体内代谢，疗效可能降低",
+          "recommendation": "不推荐合用；如必须使用，应关注奥拉帕利疗效",
+          "severity": "高",
+          "confidence": "高",
+          "evidence": [
+            "ev_2"
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP3A4弱抑制",
+          "consequence": "奥拉帕利不良反应可能增加",
+          "recommendation": "推荐使用，但应加强对奥拉帕利不良反应的关注",
+          "severity": "中",
+          "confidence": "中",
+          "evidence": [
+            "ev_3"
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "P-gp抑制",
+          "consequence": "奥拉帕利不良反应可能增加",
+          "recommendation": "推荐使用，但应加强对奥拉帕利不良反应的关注",
+          "severity": "中",
+          "confidence": "中",
+          "evidence": [
+            "ev_3"
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP2B6抑制",
+          "consequence": "奥氮平不良反应可能增加",
+          "recommendation": "应加强对不良反应的关注",
+          "severity": "中",
+          "confidence": "中",
+          "evidence": [
+            "ev_4"
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "相互作用",
+        "properties": {
+          "mechanism": "CYP2B6抑制；不良反应风险叠加",
+          "consequence": "沙利度胺不良反应可能增加；骨髓抑制风险叠加",
+          "recommendation": "应加强对不良反应的关注；应加强对血常规的监测",
+          "severity": "高",
+          "confidence": "中",
+          "evidence": [
+            "ev_4",
+            "ev_5"
+          ]
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_15",
+        "name": "可能导致",
+        "properties": {
+          "evidence": [
+            "ev_5"
+          ]
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_9",
+        "target_id": "ent_15",
+        "name": "可能导致",
+        "properties": {
+          "evidence": [
+            "ev_5"
+          ]
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_16",
+        "name": "影响监测指标",
+        "properties": {
+          "context": "与沙利度胺合用时",
+          "recommendation": "应加强对血常规的监测",
+          "evidence": [
+            "ev_5"
+          ]
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_1",
+        "target_id": "ent_17",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_14",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_2",
+        "target_id": "ent_17",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_15",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_3",
+        "target_id": "ent_17",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_16",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_4",
+        "target_id": "ent_17",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_17",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_5",
+        "target_id": "ent_17",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_18",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_6",
+        "target_id": "ent_17",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_19",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_7",
+        "target_id": "ent_17",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_20",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_8",
+        "target_id": "ent_17",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_21",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_9",
+        "target_id": "ent_17",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_22",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_10",
+        "target_id": "ent_17",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_23",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_11",
+        "target_id": "ent_17",
+        "name": "证据支持",
+        "properties": {}
+      },
+      {
+        "id": "rel_24",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_12",
+        "target_id": "ent_17",
+        "name": "证据支持",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1522,
+    "source": "医脉通泌尿外科",
+    "text": "。但从机制角度，奥拉帕利、尼拉帕利和P-gp强抑制剂/强诱导剂合用将增加或降低奥拉帕利、尼拉帕利体内水平，因此，Medscape、DDInter数据库均纳入了该类相互作用（表3）。四常用药物与PARPi相互作用及处理推荐1. 止吐药共识意见 8使用奥拉帕利的患者，不推荐使用阿瑞匹坦、奈妥吡坦、地塞米松（Ⅰ级证据）；使用5-羟色胺3（5-hydroxytryptamine 3, 5-HT3）受体拮抗剂、甲氧氯普胺、沙利度胺、奥氮平的患者，应加强对疗效和不良反应的关注（Ⅱ～Ⅲ级证据）。奥拉帕利通过CYP3A4/5代谢，而阿瑞匹坦、奈妥吡坦为CYP3A4中效抑制剂，地塞米松为CYP3A4强诱导剂，合用会影响奥拉帕利的体内代谢。奥拉帕利说明书明确指出：避免合用CYP3A强/中效抑制剂，如必须合用，则奥拉帕利剂量应减量；避免合用CYP3A强/中效诱导剂，如无法避免，则奥拉帕利疗效可能降低。因此，不推荐合用阿瑞匹坦、奈妥吡坦、地塞米松。如临床上需使用地塞米松，应关注奥拉帕利疗效。必须使用神经激肽-1（neurokinin-1, NK-1）受体拮抗剂的患者，推荐使用相互作用较小的福沙匹坦和罗拉匹坦，同时应加强对奥拉帕利不良反应的关注，福沙匹坦为CYP3A4弱抑制剂、罗拉匹坦为P-gp抑制剂，二者分别抑制奥拉帕利的代谢和排泄，合用奥拉帕利不良反应可能增加。奥氮平、沙利度胺为CYP2B6底物，奥拉帕利为CYP2B6抑制剂，合用奥氮平、沙利度胺不良反应可能增加，应加强对不良反应的关注。此外，沙利度胺和奥拉帕利存在骨髓抑制的不良反应风险叠加，应加强对血常规的监测"
+  }
+]

@@ -1,0 +1,456 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Disease",
+        "name": "血脂异常",
+        "properties": {
+          "description": "通常指血中胆固醇和/或甘油三酯（TG）水平升高，因脂质不溶或微溶于水，需与蛋白质结合以脂蛋白形式才可在血液中循环，因而统称为高脂蛋白血症，简称为高脂血症，其也泛指包括低HDL-C血症在内的各种血脂异常。"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Disease",
+        "name": "高胆固醇血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "高TG血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "混合型高脂血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "低HDL-C血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "他汀类",
+        "properties": {
+          "function": "主要降低胆固醇"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "胆固醇吸收抑制剂",
+        "properties": {
+          "function": "主要降低胆固醇"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "普罗布考",
+        "properties": {
+          "function": "主要降低胆固醇"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "胆酸螯合剂",
+        "properties": {
+          "function": "主要降低胆固醇"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "脂必泰",
+        "properties": {
+          "function": "其他调脂药"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "多廿烷醇",
+        "properties": {
+          "function": "其他调脂药"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "贝特类",
+        "properties": {
+          "function": "主要降低TG"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "烟酸类",
+        "properties": {
+          "function": "主要降低TG"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "高纯度鱼油制剂",
+        "properties": {
+          "function": "主要降低TG"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "双胍类",
+        "properties": {
+          "function": "其他类"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "α-糖苷酶抑制剂",
+        "properties": {
+          "function": "其他类"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "噻唑烷二酮类（TZDs）",
+        "properties": {
+          "function": "其他类"
+        }
+      },
+      {
+        "id": "ent_18",
+        "type": "DrugClass",
+        "name": "SGLT-2抑制剂",
+        "properties": {
+          "function": "其他类"
+        }
+      },
+      {
+        "id": "ent_19",
+        "type": "DrugClass",
+        "name": "GLP-1受体激动剂",
+        "properties": {
+          "function": "其他类"
+        }
+      },
+      {
+        "id": "ent_20",
+        "type": "DrugClass",
+        "name": "α受体阻滞剂",
+        "properties": {
+          "function": "其他类"
+        }
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "吉非贝齐",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Enzyme",
+        "name": "二磷酸尿苷葡糖醛酸转移酶（UGT）",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Enzyme",
+        "name": "CYP2C8",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Mechanism",
+        "name": "吸附作用",
+        "properties": {
+          "description": "可降低或延缓其他同服药物的吸收"
+        }
+      },
+      {
+        "id": "ent_25",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "Drug",
+        "name": "罗格列酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Drug",
+        "name": "吡格列酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "Mechanism",
+        "name": "延缓胃排空",
+        "properties": {
+          "description": "可减少口服药吸收的程度和速度"
+        }
+      },
+      {
+        "id": "ent_30",
+        "type": "Evidence",
+        "name": "医脉通心血管",
+        "properties": {
+          "chunk_id": 1484,
+          "source": "医脉通心血管",
+          "text": "血脂异常通常指血中胆固醇和/或甘油三酯（TG）水平升高，因脂质不溶或微溶于水，需与蛋白质结合以脂蛋白形式才可在血液中循环，因而统称为高脂蛋白血症，简称为高脂血症，其也泛指包括低HDL-C血症在内的各种血脂异常。血脂异常可分为高胆固醇血症、高TG血症、混合型高脂血症、低HDL-C血症。作者：高丽丽本文为作者授权医脉通发布，未经授权请勿转载。降脂药物的分类临床上调脂药物大体上可分为两大类，即主要降低胆固醇的药物和主要降低TG的药物。1. 主要降低胆固醇的药物：他汀类、胆固醇吸收抑制剂、普罗布考、胆酸螯合剂及其他调脂药（脂必泰、多廿烷醇）等。2. 主要降低TG的药物：贝特类、烟酸类和高纯度鱼油制剂。3. 其他类：双胍类、α-糖苷酶抑制剂、噻唑烷二酮类（TZDs）、SGLT-2抑制剂、GLP-1受体激动剂、α受体阻滞剂。降脂药物的相互作用1. 他汀类 2. 贝特类吉非贝齐可经二磷酸尿苷葡糖醛酸转移酶（UGT）代谢，代谢产物不可逆地抑制CYP2C8。3. 胆酸螯合剂有吸附作用，可降低或延缓其他同服药物的吸收，可在胆酸螯合剂服用前1-2h或服用后4-6h再服其他药物。4. 二甲双胍不经肝CYP450酶代谢，直接以原型经肾脏排泄。5. α-糖苷酶抑制剂6. 噻唑烷二酮类（TZDs）罗格列酮主要经CYP2C8代谢，吡格列酮主要经CYP2C8、CYP3A4代谢。7. GLP-1受体激动剂有延缓胃排空的作用，可减少口服药吸收的程度和速度，对疗效依赖于阈浓度的口服药，需在GLP-1受体激动剂使用前至少1h服用"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_6",
+        "name": "普罗布考属于他汀类？",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1484,
+              "source": "医脉通心血管",
+              "text": "1. 主要降低胆固醇的药物：他汀类、胆固醇吸收抑制剂、普罗布考、胆酸螯合剂及其他调脂药（脂必泰、多廿烷醇）等。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_9",
+        "name": "脂必泰属于胆酸螯合剂？",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1484,
+              "source": "医脉通心血管",
+              "text": "1. 主要降低胆固醇的药物：他汀类、胆固醇吸收抑制剂、普罗布考、胆酸螯合剂及其他调脂药（脂必泰、多廿烷醇）等。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_9",
+        "name": "多廿烷醇属于胆酸螯合剂？",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1484,
+              "source": "医脉通心血管",
+              "text": "1. 主要降低胆固醇的药物：他汀类、胆固醇吸收抑制剂、普罗布考、胆酸螯合剂及其他调脂药（脂必泰、多廿烷醇）等。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_21",
+        "target_id": "ent_12",
+        "name": "吉非贝齐属于贝特类",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1484,
+              "source": "医脉通心血管",
+              "text": "2. 贝特类吉非贝齐可经二磷酸尿苷葡糖醛酸转移酶（UGT）代谢，代谢产物不可逆地抑制CYP2C8。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_25",
+        "target_id": "ent_15",
+        "name": "二甲双胍属于双胍类",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1484,
+              "source": "医脉通心血管",
+              "text": "3. 其他类：双胍类、α-糖苷酶抑制剂、噻唑烷二酮类（TZDs）、SGLT-2抑制剂、GLP-1受体激动剂、α受体阻滞剂。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_26",
+        "target_id": "ent_17",
+        "name": "罗格列酮属于噻唑烷二酮类（TZDs）",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1484,
+              "source": "医脉通心血管",
+              "text": "6. 噻唑烷二酮类（TZDs）罗格列酮主要经CYP2C8代谢，吡格列酮主要经CYP2C8、CYP3A4代谢。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_27",
+        "target_id": "ent_17",
+        "name": "吡格列酮属于噻唑烷二酮类（TZDs）",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1484,
+              "source": "医脉通心血管",
+              "text": "6. 噻唑烷二酮类（TZDs）罗格列酮主要经CYP2C8代谢，吡格列酮主要经CYP2C8、CYP3A4代谢。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_21",
+        "target_id": "ent_22",
+        "name": "吉非贝齐经UGT代谢",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1484,
+              "source": "医脉通心血管",
+              "text": "吉非贝齐可经二磷酸尿苷葡糖醛酸转移酶（UGT）代谢，代谢产物不可逆地抑制CYP2C8。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_21",
+        "target_id": "ent_23",
+        "name": "吉非贝齐代谢产物抑制CYP2C8",
+        "properties": {
+          "mechanism": "代谢产物不可逆地抑制CYP2C8",
+          "evidence": [
+            {
+              "chunk_index": 1484,
+              "source": "医脉通心血管",
+              "text": "吉非贝齐可经二磷酸尿苷葡糖醛酸转移酶（UGT）代谢，代谢产物不可逆地抑制CYP2C8。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_9",
+        "target_id": "ent_24",
+        "name": "胆酸螯合剂有吸附作用",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1484,
+              "source": "医脉通心血管",
+              "text": "胆酸螯合剂有吸附作用，可降低或延缓其他同服药物的吸收，可在胆酸螯合剂服用前1-2h或服用后4-6h再服其他药物。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_26",
+        "target_id": "ent_23",
+        "name": "罗格列酮经CYP2C8代谢",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1484,
+              "source": "医脉通心血管",
+              "text": "罗格列酮主要经CYP2C8代谢"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_27",
+        "target_id": "ent_23",
+        "name": "吡格列酮经CYP2C8代谢",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1484,
+              "source": "医脉通心血管",
+              "text": "吡格列酮主要经CYP2C8、CYP3A4代谢。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_27",
+        "target_id": "ent_28",
+        "name": "吡格列酮经CYP3A4代谢",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1484,
+              "source": "医脉通心血管",
+              "text": "吡格列酮主要经CYP2C8、CYP3A4代谢。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_19",
+        "target_id": "ent_29",
+        "name": "GLP-1受体激动剂有延缓胃排空作用",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1484,
+              "source": "医脉通心血管",
+              "text": "GLP-1受体激动剂有延缓胃排空的作用，可减少口服药吸收的程度和速度，对疗效依赖于阈浓度的口服药，需在GLP-1受体激动剂使用前至少1h服用"
+            }
+          ]
+        }
+      }
+    ],
+    "chunk_index": 1484,
+    "source": "医脉通心血管",
+    "text": "血脂异常通常指血中胆固醇和/或甘油三酯（TG）水平升高，因脂质不溶或微溶于水，需与蛋白质结合以脂蛋白形式才可在血液中循环，因而统称为高脂蛋白血症，简称为高脂血症，其也泛指包括低HDL-C血症在内的各种血脂异常。血脂异常可分为高胆固醇血症、高TG血症、混合型高脂血症、低HDL-C血症。作者：高丽丽本文为作者授权医脉通发布，未经授权请勿转载。降脂药物的分类临床上调脂药物大体上可分为两大类，即主要降低胆固醇的药物和主要降低TG的药物。1. 主要降低胆固醇的药物：他汀类、胆固醇吸收抑制剂、普罗布考、胆酸螯合剂及其他调脂药（脂必泰、多廿烷醇）等。2. 主要降低TG的药物：贝特类、烟酸类和高纯度鱼油制剂。3. 其他类：双胍类、α-糖苷酶抑制剂、噻唑烷二酮类（TZDs）、SGLT-2抑制剂、GLP-1受体激动剂、α受体阻滞剂。降脂药物的相互作用1. 他汀类 2. 贝特类吉非贝齐可经二磷酸尿苷葡糖醛酸转移酶（UGT）代谢，代谢产物不可逆地抑制CYP2C8。3. 胆酸螯合剂有吸附作用，可降低或延缓其他同服药物的吸收，可在胆酸螯合剂服用前1-2h或服用后4-6h再服其他药物。4. 二甲双胍不经肝CYP450酶代谢，直接以原型经肾脏排泄。5. α-糖苷酶抑制剂6. 噻唑烷二酮类（TZDs）罗格列酮主要经CYP2C8代谢，吡格列酮主要经CYP2C8、CYP3A4代谢。7. GLP-1受体激动剂有延缓胃排空的作用，可减少口服药吸收的程度和速度，对疗效依赖于阈浓度的口服药，需在GLP-1受体激动剂使用前至少1h服用"
+  }
+]

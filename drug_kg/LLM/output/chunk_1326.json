@@ -1,0 +1,400 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "苯妥英",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "胺碘酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "乙内酰脲类抗惊厥药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "苯妥英钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "氯霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "异烟肼",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "保泰松",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "磺胺类",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "普萘洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "氟西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "罗红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "索他洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "钙通道阻滞药",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "地尔硫卓",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Indicator",
+        "name": "苯妥英水平",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "苯妥英钠中毒",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Indicator",
+        "name": "周围血象",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "SideEffect",
+        "name": "毒性反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Indicator",
+        "name": "心电图",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Indicator",
+        "name": "血清强心苷水平",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "SideEffect",
+        "name": "传导阻滞",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "SideEffect",
+        "name": "心室功能抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "SideEffect",
+        "name": "低血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "SideEffect",
+        "name": "心动过缓",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "SideEffect",
+        "name": "心力衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "Evidence",
+        "name": "汤光.药物相互作用速查手册[M].北京：化学工业出版社,2005.90.",
+        "properties": {
+          "chunk_id": "1326",
+          "source": "医学信使"
+        }
+      },
+      {
+        "id": "ent_30",
+        "type": "Evidence",
+        "name": "SFDA药品说明书范本",
+        "properties": {
+          "chunk_id": "1326",
+          "source": "医学信使"
+        }
+      },
+      {
+        "id": "ent_31",
+        "type": "Evidence",
+        "name": "卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.493～496.",
+        "properties": {
+          "chunk_id": "1326",
+          "source": "医学信使"
+        }
+      },
+      {
+        "id": "ent_32",
+        "type": "Evidence",
+        "name": "卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.144～145.",
+        "properties": {
+          "chunk_id": "1326",
+          "source": "医学信使"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "description": "胺碘酮同其他乙内酰脲类抗惊厥药物同用有类似的相互作用。",
+          "consequence": "需监测病人苯妥英水平，必要时调整其剂量。",
+          "evidence": [
+            {
+              "chunk_index": 1326,
+              "source": "医学信使",
+              "text": "胺碘酮同其他乙内酰脲类抗惊厥药物同用有类似的相互作用。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "description": "苯妥英钠与氯霉素合用可能降低本品代谢使血药浓度增加，增加本品的毒性。",
+          "consequence": "血药浓度增加，毒性增加",
+          "evidence": [
+            {
+              "chunk_index": 1326,
+              "source": "医学信使",
+              "text": "苯妥英钠“与氯霉素、异烟肼、保泰松、磺胺类合用可能降低本品代谢使血药浓度增加，增加本品的毒性。”"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "properties": {
+          "description": "苯妥英钠与异烟肼合用可能降低本品代谢使血药浓度增加，增加本品的毒性。",
+          "consequence": "血药浓度增加，毒性增加",
+          "evidence": [
+            {
+              "chunk_index": 1326,
+              "source": "医学信使",
+              "text": "苯妥英钠“与氯霉素、异烟肼、保泰松、磺胺类合用可能降低本品代谢使血药浓度增加，增加本品的毒性。”"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "properties": {
+          "description": "苯妥英钠与保泰松合用可能降低本品代谢使血药浓度增加，增加本品的毒性。",
+          "consequence": "血药浓度增加，毒性增加",
+          "evidence": [
+            {
+              "chunk_index": 1326,
+              "source": "医学信使",
+              "text": "苯妥英钠“与氯霉素、异烟肼、保泰松、磺胺类合用可能降低本品代谢使血药浓度增加，增加本品的毒性。”"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "properties": {
+          "description": "苯妥英钠与磺胺类合用可能降低本品代谢使血药浓度增加，增加本品的毒性。",
+          "consequence": "血药浓度增加，毒性增加",
+          "evidence": [
+            {
+              "chunk_index": 1326,
+              "source": "医学信使",
+              "text": "苯妥英钠“与氯霉素、异烟肼、保泰松、磺胺类合用可能降低本品代谢使血药浓度增加，增加本品的毒性。”"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_4",
+        "properties": {
+          "description": "西咪替丁与苯妥英钠或其他乙内酰脲类合用，可能使后者的血药浓度增高，导致苯妥英钠中毒。",
+          "consequence": "血药浓度增高，导致苯妥英钠中毒",
+          "management": "必须合用时，应在5天后测定苯妥英钠血药浓度以便调整剂量，并注意定期复查周围血象。",
+          "evidence": [
+            {
+              "chunk_index": 1326,
+              "source": "医学信使",
+              "text": "西咪替丁“与苯妥英钠或其他乙内酰脲类合用，可能使后者的血药浓度增高，导致苯妥英钠中毒，必须合用时，应在5天后测定苯妥英钠血药浓度以便调整剂量，并注意定期复查周围血象。”"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_10",
+        "properties": {
+          "description": "氟西汀可使普萘洛尔血药浓度升高，毒性增大。",
+          "consequence": "血药浓度升高，毒性增大",
+          "management": "应监测普萘洛尔的毒性反应，必要时减少用量。",
+          "evidence": [
+            {
+              "chunk_index": 1326,
+              "source": "医学信使",
+              "text": "氟西汀可使普萘洛尔血药浓度升高，毒性增大，故应监测普萘洛尔的毒性反应，必要时减少用量。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_13",
+        "properties": {
+          "description": "罗红霉素与地高辛同用，可清除肠道中能灭活地高辛的菌群，导致体内地高辛降解减少，使地高辛血药浓度升高而发生毒性反应。",
+          "consequence": "地高辛血药浓度升高而发生毒性反应",
+          "management": "两者合用时应监测心电图和血清强心苷水平。",
+          "evidence": [
+            {
+              "chunk_index": 1326,
+              "source": "医学信使",
+              "text": "罗红霉素与地高辛同用，可清除肠道中能灭活地高辛的菌群，导致体内地高辛降解减少，使地高辛血药浓度升高而发生毒性反应，两者合用时应监测心电图和血清强心苷水平。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_15",
+        "properties": {
+          "description": "索他洛尔与钙通道阻滞药(如维拉帕米、地尔硫卓)合用，两者对房室传导和心室功能的影响有累加作用。",
+          "consequence": "合用时可加重传导阻滞，进一步抑制心室功能、降低血压，引起低血压、心动过缓、传导障碍和心力衰竭。",
+          "management": "应避免合用",
+          "evidence": [
+            {
+              "chunk_index": 1326,
+              "source": "医学信使",
+              "text": "索他洛尔与钙通道阻滞药(如维拉帕米、地尔硫卓)合用，两者对房室传导和心室功能的影响有累加作用，合用时可加重传导阻滞，进一步抑制心室功能、降低血压，引起低血压、心动过缓、传导障碍和心力衰竭，应避免合用"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {}
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_3",
+        "properties": {}
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_16",
+        "target_id": "ent_15",
+        "properties": {}
+      },
+      {
+        "id": "rel_13",
+        "type": "IN_CLASS",
+        "source_id": "ent_17",
+        "target_id": "ent_15",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1326,
+    "source": "医学信使",
+    "text": "。需监测病人苯妥英水平，必要时调整其剂量。胺碘酮同其他乙内酰脲类抗惊厥药物同用有类似的相互作用。文献依据：汤光.药物相互作用速查手册[M].北京：化学工业出版社,2005.90.25、苯妥英+氯霉素苯妥英钠“与氯霉素、异烟肼、保泰松、磺胺类合用可能降低本品代谢使血药浓度增加，增加本品的毒性。”文献依据：SFDA药品说明书范本26、苯妥英+西咪替丁西咪替丁“与苯妥英钠或其他乙内酰脲类合用，可能使后者的血药浓度增高，导致苯妥英钠中毒，必须合用时，应在5天后测定苯妥英钠血药浓度以便调整剂量，并注意定期复查周围血象。”文献依据：SFDA药品说明书范本27、普萘洛尔+氟西汀氟西汀可使普萘洛尔血药浓度升高，毒性增大，故应监测普萘洛尔的毒性反应，必要时减少用量。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.493～496.28、罗红霉素+地高辛罗红霉素与地高辛同用，可清除肠道中能灭活地高辛的菌群，导致体内地高辛降解减少，使地高辛血药浓度升高而发生毒性反应，两者合用时应监测心电图和血清强心苷水平。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.144～145.29、索他洛尔+地尔硫卓索他洛尔与钙通道阻滞药(如维拉帕米、地尔硫卓)合用，两者对房室传导和心室功能的影响有累加作用，合用时可加重传导阻滞，进一步抑制心室功能、降低血压，引起低血压、心动过缓、传导障碍和心力衰竭，应避免合用"
+  }
+]

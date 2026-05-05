@@ -1,0 +1,260 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "在研药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "OCT2",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Enzyme",
+        "name": "BCRP",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "OATP1B1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "OATP1B3",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "MATE1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "MATE2-K",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "OAT1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "OAT3",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Mechanism",
+        "name": "抑制",
+        "properties": {
+          "机制类型": "转运体抑制"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Evidence",
+        "name": "GMP办公室",
+        "properties": {
+          "chunk_id": 131,
+          "来源类型": "指南",
+          "text": "如果体外研究提示在研药物是一个或者多个肾脏转运体的底物，则应根据在研药物的安全范围、治疗指数以及临床上可能合用的肾转运体抑制剂等因素考虑是否需要开展体内研究。（详见第三章）。若试验结果提示在研药物为OCT2转运体的底物，由于目前由抑制该转运体所引起的临床药DDI并无相关报道，则不需要进行临床DDI研究，但需要在药物信息中说明在研药物为该转运体底物。评估在研药物是否是转运体底物的体外试验的具体要求详见附录4。2.评估在研药物是否为转运体的抑制剂（1）研究内容体外试验考察在研药物是否是P-gp、BCRP、OATP1B1、OATP1B3、OCT2、MATEs（MATE1和MATE2-K）、OAT1和OAT3的抑制剂。（2）数据分析P-gp 和BCRP：应采用Caco-2或过表达P-gp或BCRP的细胞考察在研药物是否会抑制已知P-gp或BCRP底物的外排率或者净外排，也可用膜囊泡考察对摄取转运体的抑制，并确定其对转运体抑制的强弱（即IC50或Ki）。当口服给药且Igut/IC50（或Ki）≥10（Igut=抑制剂剂量/250 mL）时，试验药可能在体内抑制P-gp或BCRP。如果药物的代谢产物是转运体抑制剂或者在研药物是胃肠道外给药的，那么当I1/IC50（或Ki）≥0.1（I1是代谢产物或者抑制剂原药的Cmax）时，可能在体内抑制P-gp或BCRP。要强调的是，这些临界值是基于有限的数据设定的。如果可以用已知的抑制剂和非抑制剂对体外系统进行内部校正，经过合理论证后也可以建议不同的临界值"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "在研药物为OCT2转运体的底物",
+        "properties": {
+          "mechanism": "底物",
+          "consequence": "不需要进行临床DDI研究，但需在药物信息中说明",
+          "evidence": {
+            "chunk_index": 131,
+            "source": "GMP办公室",
+            "text": "若试验结果提示在研药物为OCT2转运体的底物，由于目前由抑制该转运体所引起的临床药DDI并无相关报道，则不需要进行临床DDI研究，但需要在药物信息中说明在研药物为该转运体底物。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "在研药物抑制P-gp",
+        "properties": {
+          "mechanism": "抑制",
+          "threshold": "口服给药且Igut/IC50（或Ki）≥10；胃肠道外给药且I1/IC50（或Ki）≥0.1",
+          "evidence": {
+            "chunk_index": 131,
+            "source": "GMP办公室",
+            "text": "当口服给药且Igut/IC50（或Ki）≥10（Igut=抑制剂剂量/250 mL）时，试验药可能在体内抑制P-gp或BCRP。如果药物的代谢产物是转运体抑制剂或者在研药物是胃肠道外给药的，那么当I1/IC50（或Ki）≥0.1（I1是代谢产物或者抑制剂原药的Cmax）时，可能在体内抑制P-gp或BCRP。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "在研药物抑制BCRP",
+        "properties": {
+          "mechanism": "抑制",
+          "threshold": "口服给药且Igut/IC50（或Ki）≥10；胃肠道外给药且I1/IC50（或Ki）≥0.1",
+          "evidence": {
+            "chunk_index": 131,
+            "source": "GMP办公室",
+            "text": "当口服给药且Igut/IC50（或Ki）≥10（Igut=抑制剂剂量/250 mL）时，试验药可能在体内抑制P-gp或BCRP。如果药物的代谢产物是转运体抑制剂或者在研药物是胃肠道外给药的，那么当I1/IC50（或Ki）≥0.1（I1是代谢产物或者抑制剂原药的Cmax）时，可能在体内抑制P-gp或BCRP。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "在研药物为OATP1B1的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 131,
+            "source": "GMP办公室",
+            "text": "体外试验考察在研药物是否是P-gp、BCRP、OATP1B1、OATP1B3、OCT2、MATEs（MATE1和MATE2-K）、OAT1和OAT3的抑制剂。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "在研药物为OATP1B3的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 131,
+            "source": "GMP办公室",
+            "text": "体外试验考察在研药物是否是P-gp、BCRP、OATP1B1、OATP1B3、OCT2、MATEs（MATE1和MATE2-K）、OAT1和OAT3的抑制剂。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "在研药物为OCT2的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 131,
+            "source": "GMP办公室",
+            "text": "体外试验考察在研药物是否是P-gp、BCRP、OATP1B1、OATP1B3、OCT2、MATEs（MATE1和MATE2-K）、OAT1和OAT3的抑制剂。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "在研药物为MATE1的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 131,
+            "source": "GMP办公室",
+            "text": "体外试验考察在研药物是否是P-gp、BCRP、OATP1B1、OATP1B3、OCT2、MATEs（MATE1和MATE2-K）、OAT1和OAT3的抑制剂。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "在研药物为MATE2-K的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 131,
+            "source": "GMP办公室",
+            "text": "体外试验考察在研药物是否是P-gp、BCRP、OATP1B1、OATP1B3、OCT2、MATEs（MATE1和MATE2-K）、OAT1和OAT3的抑制剂。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "在研药物为OAT1的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 131,
+            "source": "GMP办公室",
+            "text": "体外试验考察在研药物是否是P-gp、BCRP、OATP1B1、OATP1B3、OCT2、MATEs（MATE1和MATE2-K）、OAT1和OAT3的抑制剂。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "在研药物为OAT3的抑制剂",
+        "properties": {
+          "mechanism": "抑制",
+          "evidence": {
+            "chunk_index": 131,
+            "source": "GMP办公室",
+            "text": "体外试验考察在研药物是否是P-gp、BCRP、OATP1B1、OATP1B3、OCT2、MATEs（MATE1和MATE2-K）、OAT1和OAT3的抑制剂。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 131,
+    "source": "GMP办公室",
+    "text": "。如果体外研究提示在研药物是一个或者多个肾脏转运体的底物，则应根据在研药物的安全范围、治疗指数以及临床上可能合用的肾转运体抑制剂等因素考虑是否需要开展体内研究。（详见第三章）。若试验结果提示在研药物为OCT2转运体的底物，由于目前由抑制该转运体所引起的临床药DDI并无相关报道，则不需要进行临床DDI研究，但需要在药物信息中说明在研药物为该转运体底物。评估在研药物是否是转运体底物的体外试验的具体要求详见附录4。2.评估在研药物是否为转运体的抑制剂（1）研究内容体外试验考察在研药物是否是P-gp、BCRP、OATP1B1、OATP1B3、OCT2、MATEs（MATE1和MATE2-K）、OAT1和OAT3的抑制剂。（2）数据分析P-gp 和BCRP：应采用Caco-2或过表达P-gp或BCRP的细胞考察在研药物是否会抑制已知P-gp或BCRP底物的外排率或者净外排，也可用膜囊泡考察对摄取转运体的抑制，并确定其对转运体抑制的强弱（即IC50或Ki）。当口服给药且Igut/IC50（或Ki）≥10（Igut=抑制剂剂量/250 mL）时，试验药可能在体内抑制P-gp或BCRP。如果药物的代谢产物是转运体抑制剂或者在研药物是胃肠道外给药的，那么当I1/IC50（或Ki）≥0.1（I1是代谢产物或者抑制剂原药的Cmax）时，可能在体内抑制P-gp或BCRP。要强调的是，这些临界值是基于有限的数据设定的。如果可以用已知的抑制剂和非抑制剂对体外系统进行内部校正，经过合理论证后也可以建议不同的临界值"
+  }
+]

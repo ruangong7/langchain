@@ -1,0 +1,463 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "环磷酰胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "吲哚美辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "NSAID",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "急性水中毒",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "抗利尿激素分泌",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "依那普利",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "别嘌醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "血管紧张素转换酶抑制药",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "氨氯地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "史-约综合征",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "SideEffect",
+        "name": "皮疹",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "洛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "吉非罗齐",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "氯贝丁酸衍生物",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "羟甲戊二酰辅酶A还原酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Disease",
+        "name": "高脂血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "SideEffect",
+        "name": "肌痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "SideEffect",
+        "name": "横纹肌溶解",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Indicator",
+        "name": "血肌酸磷酸激酶增高",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "甲氨蝶呤",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "萘普生",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "DrugClass",
+        "name": "非甾体类抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "SideEffect",
+        "name": "骨髓抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "SideEffect",
+        "name": "胃肠毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Indicator",
+        "name": "甲氨蝶呤血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "SideEffect",
+        "name": "白细胞减少",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "SideEffect",
+        "name": "血小板减少",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "SideEffect",
+        "name": "贫血",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "SideEffect",
+        "name": "中毒性肾损害",
+        "properties": {}
+      },
+      {
+        "id": "ent_30",
+        "type": "SideEffect",
+        "name": "粘膜溃疡形成",
+        "properties": {}
+      },
+      {
+        "id": "ent_31",
+        "type": "Drug",
+        "name": "对乙酰氨基酚",
+        "properties": {}
+      },
+      {
+        "id": "ent_32",
+        "type": "Drug",
+        "name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_33",
+        "type": "Indicator",
+        "name": "凝血酶原时间INR值",
+        "properties": {}
+      },
+      {
+        "id": "ent_34",
+        "type": "Evidence",
+        "name": "SFDA药品说明书范本",
+        "properties": {
+          "chunk_id": "1258",
+          "source": "凯德传媒肾脏时讯"
+        }
+      },
+      {
+        "id": "ent_35",
+        "type": "Evidence",
+        "name": "汤光药物相互作用速查手册[M].北京：化学工业出版社.2005.233～234.",
+        "properties": {
+          "chunk_id": "1258",
+          "source": "凯德传媒肾脏时讯"
+        }
+      },
+      {
+        "id": "ent_36",
+        "type": "Evidence",
+        "name": "卫生部合理用药专家委员会中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.937～938.",
+        "properties": {
+          "chunk_id": "1258",
+          "source": "凯德传媒肾脏时讯"
+        }
+      },
+      {
+        "id": "ent_37",
+        "type": "Evidence",
+        "name": "SFDA药品说明书范本",
+        "properties": {
+          "chunk_id": "1258",
+          "source": "凯德传媒肾脏时讯"
+        }
+      },
+      {
+        "id": "ent_38",
+        "type": "Evidence",
+        "name": "卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.342～344，1341～1343.",
+        "properties": {
+          "chunk_id": "1258",
+          "source": "凯德传媒肾脏时讯"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "环磷酰胺与吲哚美辛联用",
+        "properties": {
+          "mechanism": "增加抗利尿激素的分泌",
+          "consequence": "可能导致急性水中毒",
+          "suggestion": "必要时进行监测",
+          "evidence": [
+            {
+              "chunk_index": "1258",
+              "source": "凯德传媒肾脏时讯",
+              "text": "环磷酰胺+吲哚美辛NSAID可增加抗利尿激素的分泌，两药联用可能导致急性水中毒，必要时进行监测。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "吲哚美辛属于NSAID",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1258",
+              "source": "凯德传媒肾脏时讯",
+              "text": "环磷酰胺+吲哚美辛NSAID可增加抗利尿激素的分泌"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "name": "依那普利与别嘌醇合用",
+        "properties": {
+          "consequence": "可引起史-约综合征(Stevens-Johnson syndrome)和皮疹等过敏反应",
+          "evidence": [
+            {
+              "chunk_index": "1258",
+              "source": "凯德传媒肾脏时讯",
+              "text": "依那普利+别嘌醇别嘌醇与血管紧张素转换酶抑制药类降压药和氨氯地平等合用，可引起史-约综合征(Stevens-Johnson syndrome)和皮疹等过敏反应。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "name": "依那普利属于血管紧张素转换酶抑制药",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1258",
+              "source": "凯德传媒肾脏时讯",
+              "text": "别嘌醇与血管紧张素转换酶抑制药类降压药和氨氯地平等合用"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_13",
+        "name": "洛伐他汀与吉非罗齐合用",
+        "properties": {
+          "consequence": "增加两者严重肌肉毒性发生的危险，可引起肌痛、横纹肌溶解、血肌酸磷酸激酶增高等肌病",
+          "suggestion": "应尽量避免联合使用",
+          "indication": "治疗高脂血症",
+          "evidence": [
+            {
+              "chunk_index": "1258",
+              "source": "凯德传媒肾脏时讯",
+              "text": "洛伐他汀+吉非罗齐吉非罗齐片说明书：氯贝丁酸衍生物与羟甲戊二酰辅酶A还原酶抑制剂，如洛伐他汀等合用治疗高脂血症，将增加两者严重肌肉毒性发生的危险，可引起肌痛、横纹肌溶解、血肌酸磷酸激酶增高等肌病，应尽量避免联合使用。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_12",
+        "target_id": "ent_15",
+        "name": "洛伐他汀属于羟甲戊二酰辅酶A还原酶抑制剂",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1258",
+              "source": "凯德传媒肾脏时讯",
+              "text": "氯贝丁酸衍生物与羟甲戊二酰辅酶A还原酶抑制剂，如洛伐他汀等"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_13",
+        "target_id": "ent_14",
+        "name": "吉非罗齐属于氯贝丁酸衍生物",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1258",
+              "source": "凯德传媒肾脏时讯",
+              "text": "氯贝丁酸衍生物与羟甲戊二酰辅酶A还原酶抑制剂，如洛伐他汀等"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_20",
+        "target_id": "ent_21",
+        "name": "甲氨蝶呤与萘普生联用",
+        "properties": {
+          "consequence": "有突发严重甚至致命性骨髓抑制和胃肠毒性的报道。萘普生可升高甲氨蝶呤的血药浓度，从而增强其毒性（白细胞减少、血小板减少、贫血、中毒性肾损害和粘膜溃疡形成）",
+          "evidence": [
+            {
+              "chunk_index": "1258",
+              "source": "凯德传媒肾脏时讯",
+              "text": "甲氨蝶呤+萘普生甲氨蝶呤与部分非甾体类抗炎药联用，有突发严重甚至致命性骨髓抑制和胃肠毒性的报道。萘普生可升高甲氨蝶呤的血药浓度，从而增强其毒性（白细胞减少、血小板减少、贫血、中毒性肾损害和粘膜溃疡形成）。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_21",
+        "target_id": "ent_22",
+        "name": "萘普生属于非甾体类抗炎药",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": "1258",
+              "source": "凯德传媒肾脏时讯",
+              "text": "甲氨蝶呤与部分非甾体类抗炎药联用"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_31",
+        "target_id": "ent_32",
+        "name": "对乙酰氨基酚与华法林联用",
+        "properties": {
+          "suggestion": "华法林个体差异较大，治疗期间应严密观察病情，并依据凝血酶原时间INR值调整用量",
+          "evidence": [
+            {
+              "chunk_index": "1258",
+              "source": "凯德传媒肾脏时讯",
+              "text": "对乙酰氨基酚+华法林华法林个体差异较大，治疗期间应严密观察病情，并依据凝血酶原时间INR值调整用量"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_1",
+        "target_id": "ent_34",
+        "name": "相互作用证据",
+        "properties": {}
+      },
+      {
+        "id": "rel_12",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_1",
+        "target_id": "ent_35",
+        "name": "相互作用证据",
+        "properties": {}
+      },
+      {
+        "id": "rel_13",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_3",
+        "target_id": "ent_36",
+        "name": "相互作用证据",
+        "properties": {}
+      },
+      {
+        "id": "rel_14",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_5",
+        "target_id": "ent_37",
+        "name": "相互作用证据",
+        "properties": {}
+      },
+      {
+        "id": "rel_15",
+        "type": "SUPPORTED_BY",
+        "source_id": "rel_8",
+        "target_id": "ent_38",
+        "name": "相互作用证据",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1258,
+    "source": "凯德传媒肾脏时讯",
+    "text": "。文献依据：SFDA药品说明书范本4、环磷酰胺+吲哚美辛NSAID可增加抗利尿激素的分泌，两药联用可能导致急性水中毒，必要时进行监测。其他非甾体抗炎药也可能发生相似的相互作用。文献依据：汤光药物相互作用速查手册[M].北京：化学工业出版社.2005.233～234.5、依那普利+别嘌醇别嘌醇与血管紧张素转换酶抑制药类降压药和氨氯地平等合用，可引起史-约综合征(Stevens-Johnson syndrome)和皮疹等过敏反应。文献依据：卫生部合理用药专家委员会中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.937～938.6、洛伐他汀+吉非罗齐吉非罗齐片说明书：氯贝丁酸衍生物与羟甲戊二酰辅酶A还原酶抑制剂，如洛伐他汀等合用治疗高脂血症，将增加两者严重肌肉毒性发生的危险，可引起肌痛、横纹肌溶解、血肌酸磷酸激酶增高等肌病，应尽量避免联合使用。文献依据：SFDA药品说明书范本7、甲氨蝶呤+萘普生甲氨蝶呤与部分非甾体类抗炎药联用，有突发严重甚至致命性骨髓抑制和胃肠毒性的报道。萘普生可升高甲氨蝶呤的血药浓度，从而增强其毒性（白细胞减少、血小板减少、贫血、中毒性肾损害和粘膜溃疡形成）。文献依据：卫生部合理用药专家委员会.中国医师药师临床用药指南[M].重庆:重庆出版集团,重庆出版社,2009.342～344，1341～1343.8、对乙酰氨基酚+华法林华法林个体差异较大，治疗期间应严密观察病情，并依据凝血酶原时间INR值调整用量"
+  }
+]

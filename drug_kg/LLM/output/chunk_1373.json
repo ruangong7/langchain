@@ -1,0 +1,124 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "diphenhydramine",
+        "properties": {
+          "通用名": "苯海拉明",
+          "英文名": "diphenhydramine"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "metoprolol",
+        "properties": {
+          "通用名": "美托洛尔",
+          "英文名": "metoprolol"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "酒石酸美托洛尔",
+        "properties": {
+          "通用名": "酒石酸美托洛尔",
+          "剂型": "片剂"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "琥珀酸美托洛尔",
+        "properties": {
+          "通用名": "琥珀酸美托洛尔",
+          "剂型": "缓释片"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Enzyme",
+        "name": "CYP2D6",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "celecoxib",
+        "properties": {
+          "通用名": "塞来昔布",
+          "英文名": "celecoxib"
+        }
+      },
+      {
+        "id": "ev_1",
+        "type": "Evidence",
+        "name": "医学界心血管频道",
+        "properties": {
+          "chunk_id": 1373,
+          "来源类型": "公众号",
+          "source": "医学界心血管频道",
+          "text": "B A Hamelin, et al. Significant interaction between the nonprescription antihistamine diphenhydramine and the CYP2D6 substrate metoprolol in healthy men with high or low CYP2D6 activity. Clin Pharmacol Ther, 2000 May; 67(5): 466-77."
+        }
+      },
+      {
+        "id": "ev_2",
+        "type": "Evidence",
+        "name": "医学界心血管频道",
+        "properties": {
+          "chunk_id": 1373,
+          "来源类型": "公众号",
+          "source": "医学界心血管频道",
+          "text": "Ulrike Werner, et al. Celecoxib inhibits metabolism of cytochrome P450 2D6 substrate metoprolol in humans. Clin Pharmacol Ther,2003 Aug;74(2):130-7."
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "苯海拉明与美托洛尔存在显著相互作用",
+        "properties": {
+          "mechanism": "CYP2D6抑制",
+          "evidence": {
+            "chunk_index": 1373,
+            "source": "医学界心血管频道",
+            "text": "B A Hamelin, et al. Significant interaction between the nonprescription antihistamine diphenhydramine and the CYP2D6 substrate metoprolol in healthy men with high or low CYP2D6 activity. Clin Pharmacol Ther, 2000 May; 67(5): 466-77."
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_2",
+        "name": "塞来昔布抑制美托洛尔的代谢",
+        "properties": {
+          "mechanism": "CYP2D6抑制",
+          "evidence": {
+            "chunk_index": 1373,
+            "source": "医学界心血管频道",
+            "text": "Ulrike Werner, et al. Celecoxib inhibits metabolism of cytochrome P450 2D6 substrate metoprolol in humans. Clin Pharmacol Ther,2003 Aug;74(2):130-7."
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "美托洛尔是CYP2D6底物",
+        "properties": {}
+      }
+    ],
+    "chunk_index": 1373,
+    "source": "医学界心血管频道",
+    "text": ". Blood,2011 Feb 24;117(8):e75-87.[10]. B A Hamelin, et al. Significant interaction between the nonprescription antihistamine diphenhydramine and the CYP2D6 substrate metoprolol in healthy men with high or low CYP2D6 activity. Clin Pharmacol Ther, 2000 May; 67(5): 466-77.[11]. Ulrike Werner, et al. Celecoxib inhibits metabolism of cytochrome P450 2D6 substrate metoprolol in humans. Clin Pharmacol Ther,2003 Aug;74(2):130-7.[12]. 酒石酸美托洛尔片说明书[13]. 琥珀酸美托洛尔缓释片说明书更多心血管精彩内容快来“医生站网页版”瞧一瞧👇长按识别二维码精彩资讯等你来*\"医学界\"力求所发表内容专业、可靠，但不对内容的准确性做出承诺"
+  }
+]

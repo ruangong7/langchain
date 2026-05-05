@@ -1,0 +1,133 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "Esaxerenone",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Mechanism",
+        "name": "抑制",
+        "properties": {
+          "机制类型": "抑制"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Mechanism",
+        "name": "诱导",
+        "properties": {
+          "机制类型": "诱导"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Food",
+        "name": "FPE",
+        "properties": {
+          "类型": "其他"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "咪达唑仑与CYP3A的相互作用",
+        "properties": {
+          "mechanism": [
+            "CYP3A介导"
+          ],
+          "evidence": {
+            "chunk_index": 1239,
+            "source": "凡默谷",
+            "text": "此外，还进行了与咪达唑仑的临床DDI研究。在静态机制模型中假设使用了促变药的最大浓度，以避免造成假阴性，这种与真实世界不符的假设倾向于高估DDI风险，而可以模拟动态浓度变化的PBPK模型更可以实现对真实世界的预测。尽管通过PBPK建模分析CYP3A介导的DDI已广泛应用，但很多应用都集中在强相互作用，而对通过肠道CYP3A进行弱DDI的预测准确性尚不清楚。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "name": "Esaxerenone与CYP3A的相互作用",
+        "properties": {
+          "mechanism": [
+            "抑制",
+            "诱导"
+          ],
+          "evidence": {
+            "chunk_index": 1239,
+            "source": "凡默谷",
+            "text": "因此我们在先前的研究中使用17种市售药物证实了弱抑制性或抑制性和诱导性同时作用时的可预测性。为了比较使用有限数据搭建的模型对DDI的可预测性，考虑每个药物的实际开发过程，本研究搭建了三个用于动态模拟的模型。模型2是在临床开发的早期阶段，只有口服给药的PK数据，并使用口服Esaxerenone后的PK数据搭建了动态PBPK模型，即使预测的处置学参数（CL, K12, K21等）与真实的参数之间存在差异，但也准确预测了肠道DDI。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "name": "CYP3A具有抑制机制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1239,
+            "source": "凡默谷",
+            "text": "对于CYP3A抑制和诱导作用均较弱的化合物，使用GastroPlus软件结合口服后的PK数据搭建的PBPK模型即可实现对DDI的准确预测。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "name": "CYP3A具有诱导机制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1239,
+            "source": "凡默谷",
+            "text": "对于CYP3A抑制和诱导作用均较弱的化合物，使用GastroPlus软件结合口服后的PK数据搭建的PBPK模型即可实现对DDI的准确预测。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_6",
+        "target_id": "ent_2",
+        "name": "FPE影响CYP3A活性",
+        "properties": {
+          "effect": "降低Cent",
+          "evidence": {
+            "chunk_index": 1239,
+            "source": "凡默谷",
+            "text": "模型3考虑了FPE引起的Cent的降低，并且降低了溶出速度，然而诱导和抑制作用抵消后的AUCRtot值与模型1和2相当。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1239,
+    "source": "凡默谷",
+    "text": "。此外，还进行了与咪达唑仑的临床DDI研究。在静态机制模型中假设使用了促变药的最大浓度，以避免造成假阴性，这种与真实世界不符的假设倾向于高估DDI风险，而可以模拟动态浓度变化的PBPK模型更可以实现对真实世界的预测。尽管通过PBPK建模分析CYP3A介导的DDI已广泛应用，但很多应用都集中在强相互作用，而对通过肠道CYP3A进行弱DDI的预测准确性尚不清楚。因此我们在先前的研究中使用17种市售药物证实了弱抑制性或抑制性和诱导性同时作用时的可预测性。为了比较使用有限数据搭建的模型对DDI的可预测性，考虑每个药物的实际开发过程，本研究搭建了三个用于动态模拟的模型。模型1是在进行首次人体研究之前，用猴子PK数据进行单种属异速缩放搭建了人体模型。模型2是在临床开发的早期阶段，只有口服给药的PK数据，并使用口服Esaxerenone后的PK数据搭建了动态PBPK模型，即使预测的处置学参数（CL, K12, K21等）与真实的参数之间存在差异，但也准确预测了肠道DDI。对于肠道DDI的预测，重要的是使用合理的溶解度、膜通透性，以及必要时要模拟肠内的新陈代谢，因此模型3考虑了FPE引起的Cent的降低，并且降低了溶出速度，然而诱导和抑制作用抵消后的AUCRtot值与模型1和2相当。根据之前及本研究的结果，对于CYP3A抑制和诱导作用均较弱的化合物，使用GastroPlus软件结合口服后的PK数据搭建的PBPK模型即可实现对DDI的准确预测。已有研究表明，当抑制和诱导同时发生时，所产生的DDI作用还和给药时间有关"
+  }
+]

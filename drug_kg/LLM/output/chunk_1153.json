@@ -1,0 +1,246 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "沙格列汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "钠-葡萄糖协同转运蛋白2抑制剂",
+        "properties": {
+          "别名列表": [
+            "SGLT2抑制剂"
+          ]
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "糖尿病",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "恩格列净",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "达格列净",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "坎格列净",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "UGT1A9",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "UGT2B4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "UGT2B7",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "CYP1A1",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Enzyme",
+        "name": "CYP1A2",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Enzyme",
+        "name": "CYP2C9",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Enzyme",
+        "name": "CYP2D6",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "Enzyme",
+        "name": "UGT1A3",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_18",
+        "type": "Enzyme",
+        "name": "UGT1A8",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_19",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_20",
+        "type": "DrugClass",
+        "name": "他汀类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "SideEffect",
+        "name": "低血糖",
+        "properties": {
+          "默认严重程度": "中"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "利福平与沙格列汀联合用药",
+        "properties": {
+          "机制": "利福平是CYP3A4的强诱导剂",
+          "后果": "常规剂量下不影响沙格列汀临床药动学与药效学",
+          "建议": "两药合用无需剂量调整",
+          "证据": {
+            "chunk_index": 1153,
+            "source": "凡默谷",
+            "text": "但在一项关于利福平(CYP3A4的强诱导剂)与沙格列汀联合用药的临床研究中显示，常规剂量下利福平不影响沙格列汀临床药动学与药效学，两药合用无需剂量调整〔32〕。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_4",
+        "name": "恩格列净属于钠-葡萄糖协同转运蛋白2抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_4",
+        "name": "达格列净属于钠-葡萄糖协同转运蛋白2抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_4",
+        "name": "坎格列净属于钠-葡萄糖协同转运蛋白2抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "钠-葡萄糖协同转运蛋白2抑制剂用于治疗糖尿病",
+        "properties": {}
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_20",
+        "name": "钠-葡萄糖协同转运蛋白2抑制剂与他汀类药物合用",
+        "properties": {
+          "后果": "导致他汀血清水平升高，并可能增加他汀毒性",
+          "证据": {
+            "chunk_index": 1153,
+            "source": "凡默谷",
+            "text": "文献报道钠-葡萄糖协同转运蛋白2抑制剂与他汀类药物合用可导致他汀血清水平升高，并可能增加他汀毒性〔36〕。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_21",
+        "name": "钠-葡萄糖协同转运蛋白2抑制剂可能导致低血糖",
+        "properties": {
+          "条件": "与其他降糖药合用时，代谢性药物相互作用可显著增加低血糖风险",
+          "证据": {
+            "chunk_index": 1153,
+            "source": "凡默谷",
+            "text": "低血糖的降糖药物常见的药物不良反应之一，代谢性药物相互作用的发生可使患者发生低血糖的概率显著增加"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1153,
+    "source": "凡默谷",
+    "text": "。但在一项关于利福平(CYP3A4的强诱导剂)与沙格列汀联合用药的临床研究中显示，常规剂量下利福平不影响沙格列汀临床药动学与药效学，两药合用无需剂量调整〔32〕。6钠-葡萄糖协同转运蛋白2抑制剂钠-葡萄糖协同转运蛋白2抑制剂是治疗糖尿病的一类新型药物，其作用机制是抑制近端肾小管钠-葡萄糖的重吸收，促进尿糖排泄，从而降低血糖浓度〔33〕。由于该类药物具有不依赖胰岛素，也不受胰岛素抵抗和胰岛β细胞功能减退的影响的优点，现已在多个国家上市，并在临床得到广泛的推广应用〔34〕。在我国临床使用的主要有恩格列净、达格列净和坎格列净。钠-葡萄糖协同转运蛋白2抑制剂主要经肝脏和肠道中P450酶和UGTs酶代谢; 同时也P-gp的底物。其中，达格列净主要由UGT1A9、2B4、2B7，和CYP1A1、1A2、2C9、2D6、165与3A4参与代谢; 坎格列净主要由UGT1A9、UGT2B4和CYP3A4参与代谢; 恩格列净主要UGT1A3、1A8、1A9和2B7参与代谢〔35〕。文献报道钠-葡萄糖协同转运蛋白2抑制剂与他汀类药物合用可导致他汀血清水平升高，并可能增加他汀毒性〔36〕。综上，随着人类生活方式和疾病谱的不断变化，联合用药已经成为临床不可缺少治疗模式。糖尿病是一种复杂的慢性代谢性疾病，且容易并发高血压、肾病和心脏病等慢性疾病，这使糖尿病患者在服用口服降糖药的同时还需合并使用治疗其他疾病药物，容易导致潜在药物相互作用的发生。合用药物对代谢酶的抑制或诱导是引发代谢性药物相互作用的主要原因。低血糖的降糖药物常见的药物不良反应之一，代谢性药物相互作用的发生可使患者发生低血糖的概率显著增加"
+  }
+]

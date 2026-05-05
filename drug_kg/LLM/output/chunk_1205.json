@@ -1,0 +1,369 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "PMD",
+        "properties": {
+          "通用名": "PMD",
+          "血浆蛋白结合率": "86.4%",
+          "分布容积": "130L"
+        }
+      },
+      {
+        "id": "ent_2",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {
+          "类型": "代谢酶"
+        }
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "利福平",
+        "properties": {
+          "通用名": "利福平"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "利福布汀",
+        "properties": {
+          "通用名": "利福布汀"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "莫西沙星",
+        "properties": {
+          "通用名": "莫西沙星"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "吡嗪酰胺",
+        "properties": {
+          "通用名": "吡嗪酰胺"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "依法韦仑",
+        "properties": {
+          "通用名": "依法韦仑"
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "利托那韦",
+        "properties": {
+          "通用名": "利托那韦"
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "OAT1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "OAT3",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "OCT2",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "OAT1B1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_13",
+        "type": "Enzyme",
+        "name": "OATP1B3",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_14",
+        "type": "Enzyme",
+        "name": "MATE1",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_15",
+        "type": "Enzyme",
+        "name": "MATE2-K",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_16",
+        "type": "Enzyme",
+        "name": "BCRP",
+        "properties": {
+          "类型": "转运体"
+        }
+      },
+      {
+        "id": "ent_17",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "类型": "转运体"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "PMD与利福平相互作用",
+        "properties": {
+          "机制": "利福平诱导代谢",
+          "后果": "PMD体内暴露量降低66%，清除率上升80%",
+          "证据": {
+            "chunk_index": 1205,
+            "source": "凡默谷",
+            "text": "联用利福平将使PMD的体内暴露量降低66%，患者群体药动学的研究显示，联用利福平或利福布汀后，PMD的清除率分别上升了80%、146%，同时PMD的暴露量分别下降44.4%、59.3%"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "PMD与利福布汀相互作用",
+        "properties": {
+          "机制": "利福布汀诱导代谢",
+          "后果": "PMD体内暴露量降低59.3%，清除率上升146%",
+          "证据": {
+            "chunk_index": 1205,
+            "source": "凡默谷",
+            "text": "联用利福平或利福布汀后，PMD的清除率分别上升了80%、146%，同时PMD的暴露量分别下降44.4%、59.3%"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "PMD与莫西沙星相互作用",
+        "properties": {
+          "机制": "未知（大鼠模型）",
+          "后果": "PMD体内暴露量显著上升，莫西沙星不变",
+          "证据": {
+            "chunk_index": 1205,
+            "source": "凡默谷",
+            "text": "另一项大鼠模型研究显示，PMD与莫西沙星联用时，PMD的体内暴露量显著上升，莫西沙星的体内暴露量不变"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "PMD与依法韦仑相互作用",
+        "properties": {
+          "机制": "依法韦仑诱导代谢",
+          "后果": "PMD体内暴露下降35%",
+          "证据": {
+            "chunk_index": 1205,
+            "source": "凡默谷",
+            "text": "与多剂量依法韦仑联用时，PMD的体内暴露下降35%"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "name": "PMD与利托那韦相互作用",
+        "properties": {
+          "机制": "利托那韦影响代谢",
+          "后果": "PMD体内暴露下降17%，剂量无需调整",
+          "证据": {
+            "chunk_index": 1205,
+            "source": "凡默谷",
+            "text": "联用利托那韦时，PMD的体内暴露下降17%。研究者认为，当联用利托那韦时，PMD的剂量无需调整"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "PMD经CYP3A4代谢",
+        "properties": {
+          "证据": {
+            "chunk_index": 1205,
+            "source": "凡默谷",
+            "text": "PMD部分经CYP3A4途径代谢，生成多种代谢物"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "PMD非OAT1底物且无抑制作用",
+        "properties": {
+          "证据": {
+            "chunk_index": 1205,
+            "source": "凡默谷",
+            "text": "其非OAT1、OAT3、OCT2、OAT1B1、OATP1B3、MATE1、MATE2-K、BCRP、P-gp等转运体的底物，同时对上述转运体无抑制作用"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "PMD非OAT3底物且无抑制作用",
+        "properties": {
+          "证据": {
+            "chunk_index": 1205,
+            "source": "凡默谷",
+            "text": "其非OAT1、OAT3、OCT2、OAT1B1、OATP1B3、MATE1、MATE2-K、BCRP、P-gp等转运体的底物，同时对上述转运体无抑制作用"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "name": "PMD非OCT2底物且无抑制作用",
+        "properties": {
+          "证据": {
+            "chunk_index": 1205,
+            "source": "凡默谷",
+            "text": "其非OAT1、OAT3、OCT2、OAT1B1、OATP1B3、MATE1、MATE2-K、BCRP、P-gp等转运体的底物，同时对上述转运体无抑制作用"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "name": "PMD非OAT1B1底物且无抑制作用",
+        "properties": {
+          "证据": {
+            "chunk_index": 1205,
+            "source": "凡默谷",
+            "text": "其非OAT1、OAT3、OCT2、OAT1B1、OATP1B3、MATE1、MATE2-K、BCRP、P-gp等转运体的底物，同时对上述转运体无抑制作用"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "name": "PMD非OATP1B3底物且无抑制作用",
+        "properties": {
+          "证据": {
+            "chunk_index": 1205,
+            "source": "凡默谷",
+            "text": "其非OAT1、OAT3、OCT2、OAT1B1、OATP1B3、MATE1、MATE2-K、BCRP、P-gp等转运体的底物，同时对上述转运体无抑制作用"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "name": "PMD非MATE1底物且无抑制作用",
+        "properties": {
+          "证据": {
+            "chunk_index": 1205,
+            "source": "凡默谷",
+            "text": "其非OAT1、OAT3、OCT2、OAT1B1、OATP1B3、MATE1、MATE2-K、BCRP、P-gp等转运体的底物，同时对上述转运体无抑制作用"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_15",
+        "name": "PMD非MATE2-K底物且无抑制作用",
+        "properties": {
+          "证据": {
+            "chunk_index": 1205,
+            "source": "凡默谷",
+            "text": "其非OAT1、OAT3、OCT2、OAT1B1、OATP1B3、MATE1、MATE2-K、BCRP、P-gp等转运体的底物，同时对上述转运体无抑制作用"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_16",
+        "name": "PMD非BCRP底物且无抑制作用",
+        "properties": {
+          "证据": {
+            "chunk_index": 1205,
+            "source": "凡默谷",
+            "text": "其非OAT1、OAT3、OCT2、OAT1B1、OATP1B3、MATE1、MATE2-K、BCRP、P-gp等转运体的底物，同时对上述转运体无抑制作用"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_17",
+        "name": "PMD非P-gp底物且无抑制作用",
+        "properties": {
+          "证据": {
+            "chunk_index": 1205,
+            "source": "凡默谷",
+            "text": "其非OAT1、OAT3、OCT2、OAT1B1、OATP1B3、MATE1、MATE2-K、BCRP、P-gp等转运体的底物，同时对上述转运体无抑制作用"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1205,
+    "source": "凡默谷",
+    "text": "。3.1 PMD的药动学特征PMD在50~200mg治疗剂量内呈线性药动学特征，餐后服用显著增加生物利用度。血浆蛋白结合率约为86.4%，分布容积为130L左右。PMD主要以代谢物的形式经尿液及粪便进行排泄，仅1%以原形药物的形式经尿液的形式排出体外。3.2 PMD相互作用研究PMD部分经CYP3A4途径代谢，生成多种代谢物，PMD无CYP抑制及诱导活性，其非OAT1、OAT3、OCT2、OAT1B1、OATP1B3、MATE1、MATE2-K、BCRP、P-gp等转运体的底物，同时对上述转运体无抑制作用。3.2.1 PMD与抗结核药物间相互作用Ⅰ期临床DDI研究表明，联用利福平将使PMD的体内暴露量降低66%，患者群体药动学的研究显示，联用利福平或利福布汀后，PMD的清除率分别上升了80%、146%，同时PMD的暴露量分别下降44.4%、59.3%，研究显示利福布汀对PMD的体内暴露较利福平影响更明显。在健康大鼠模型中，PMD、莫西沙星、吡嗪酰胺三药联用后，PMD与莫西沙星的体内暴露量显著上升，吡嗪酰胺的体内暴露量无变化，另一项大鼠模型研究显示，PMD与莫西沙星联用时，PMD的体内暴露量显著上升，莫西沙星的体内暴露量不变。目前临床研究尚无莫西沙星，吡嗪酰胺与PMD间DDI作用对其代谢动力学影响的报道。3.2.2 PMD与抗HIV药物间相互作用临床DDI研究表明，与多剂量依法韦仑联用时，PMD的体内暴露下降35%，联用利托那韦时，PMD的体内暴露下降17%。研究者认为，当联用利托那韦时，PMD的剂量无需调整"
+  }
+]

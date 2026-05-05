@@ -1,0 +1,343 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "吗啉硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "丙磺舒",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "替诺福韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Enzyme",
+        "name": "OAT1",
+        "properties": {
+          "别名列表": [
+            "有机阴离子转运体1"
+          ]
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "OAT3",
+        "properties": {
+          "别名列表": [
+            "有机阴离子转运体3"
+          ]
+        }
+      },
+      {
+        "id": "ent_8",
+        "type": "Enzyme",
+        "name": "OCTs",
+        "properties": {
+          "别名列表": [
+            "有机阳离子转运体"
+          ]
+        }
+      },
+      {
+        "id": "ent_9",
+        "type": "Enzyme",
+        "name": "P-gp",
+        "properties": {
+          "别名列表": [
+            "P-糖蛋白"
+          ]
+        }
+      },
+      {
+        "id": "ent_10",
+        "type": "Enzyme",
+        "name": "MATE1",
+        "properties": {
+          "别名列表": [
+            "多药及毒性化合物外排转运蛋白1"
+          ]
+        }
+      },
+      {
+        "id": "ent_11",
+        "type": "Enzyme",
+        "name": "UGT1A9",
+        "properties": {
+          "别名列表": [
+            "尿苷二磷酸葡萄糖醛酸基转移酶1A9"
+          ]
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "吗啉硝唑与丙磺舒联用存在药物相互作用",
+        "properties": {
+          "mechanism": "丙磺舒抑制OATs，影响吗啉硝唑及其代谢物的排泄",
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "本文通过吗啉硝唑联用肾脏转运体抑制剂或底物（丙磺舒、西咪替丁、二甲双胍、替诺福韦），考察大鼠血浆中R- 吗啉硝唑与S- 吗啉硝唑的药物代谢动力学特征变化。其中丙磺舒可以抑制膜上外输泵，阻滞有机阴离子转运体（OATs），是常用的OATs 和尿苷二磷酸葡萄糖醛酸基转移酶1A9（UGT1A9）探针性底物［6］"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "吗啉硝唑与西咪替丁联用存在药物相互作用",
+        "properties": {
+          "mechanism": "西咪替丁是OATs等转运体的底物，可能竞争影响吗啉硝唑排泄",
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "本文通过吗啉硝唑联用肾脏转运体抑制剂或底物（丙磺舒、西咪替丁、二甲双胍、替诺福韦），考察大鼠血浆中R- 吗啉硝唑与S- 吗啉硝唑的药物代谢动力学特征变化。...西咪替丁是有机阳离子转运体（OCTs）、OATs、P- 糖蛋白等转运体的底物［7］"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "吗啉硝唑与二甲双胍联用存在药物相互作用",
+        "properties": {
+          "mechanism": "二甲双胍依赖OCTs/MATE1转运，可能与吗啉硝唑在转运层面相互影响",
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "本文通过吗啉硝唑联用肾脏转运体抑制剂或底物（丙磺舒、西咪替丁、二甲双胍、替诺福韦），考察大鼠血浆中R- 吗啉硝唑与S- 吗啉硝唑的药物代谢动力学特征变化。...二甲双胍的细胞摄取和外排过程与OCTs 和多药及毒性化合物外排转运蛋白1（MATE1）相关并具有转运体依赖性［8-9］"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "name": "吗啉硝唑与替诺福韦联用存在药物相互作用",
+        "properties": {
+          "mechanism": "替诺福韦主要经OAT1/OAT3进入肾小管，可能与吗啉硝唑竞争转运",
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "本文通过吗啉硝唑联用肾脏转运体抑制剂或底物（丙磺舒、西咪替丁、二甲双胍、替诺福韦），考察大鼠血浆中R- 吗啉硝唑与S- 吗啉硝唑的药物代谢动力学特征变化。...替诺福韦主要由有机阴离子转运体（主要是OAT 1 参与调节，也包括少量OAT 3）参与调节进入肾小管细胞［10］"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "吗啉硝唑经OAT1转运",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "研究显示M7 是肾脏有机阴离子转运体1（OAT 1）和有机阴离子转运体3（OAT 3）的底物...这提示吗啉硝唑与转运体相关底物或抑制剂联用的药物- 药物相互作用值得关注"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "name": "吗啉硝唑经OAT3转运",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "研究显示M7 是肾脏有机阴离子转运体1（OAT 1）和有机阴离子转运体3（OAT 3）的底物...这提示吗啉硝唑与转运体相关底物或抑制剂联用的药物- 药物相互作用值得关注"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "name": "丙磺舒抑制OAT1",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "其中丙磺舒可以抑制膜上外输泵，阻滞有机阴离子转运体（OATs）"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "name": "丙磺舒抑制OAT3",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "其中丙磺舒可以抑制膜上外输泵，阻滞有机阴离子转运体（OATs）"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "name": "丙磺舒是UGT1A9探针性底物",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "丙磺舒...是常用的OATs 和尿苷二磷酸葡萄糖醛酸基转移酶1A9（UGT1A9）探针性底物［6］"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "name": "西咪替丁经OCTs转运",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "西咪替丁是有机阳离子转运体（OCTs）、OATs、P- 糖蛋白等转运体的底物［7］"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "name": "西咪替丁经OAT1转运",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "西咪替丁是有机阳离子转运体（OCTs）、OATs、P- 糖蛋白等转运体的底物［7］"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "name": "西咪替丁经OAT3转运",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "西咪替丁是有机阳离子转运体（OCTs）、OATs、P- 糖蛋白等转运体的底物［7］"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "name": "西咪替丁经P-gp转运",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "西咪替丁是有机阳离子转运体（OCTs）、OATs、P- 糖蛋白等转运体的底物［7］"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "name": "二甲双胍经OCTs转运",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "二甲双胍的细胞摄取和外排过程与OCTs 和多药及毒性化合物外排转运蛋白1（MATE1）相关并具有转运体依赖性［8-9］"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_10",
+        "name": "二甲双胍经MATE1转运",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "二甲双胍的细胞摄取和外排过程与OCTs 和多药及毒性化合物外排转运蛋白1（MATE1）相关并具有转运体依赖性［8-9］"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "替诺福韦经OAT1转运",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "替诺福韦主要由有机阴离子转运体（主要是OAT 1 参与调节，也包括少量OAT 3）参与调节进入肾小管细胞［10］"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "name": "替诺福韦经OAT3转运",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1213,
+            "source": "凡默谷",
+            "text": "替诺福韦主要由有机阴离子转运体（主要是OAT 1 参与调节，也包括少量OAT 3）参与调节进入肾小管细胞［10］"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1213,
+    "source": "凡默谷",
+    "text": "。研究显示M7 是肾脏有机阴离子转运体1（OAT 1）和有机阴离子转运体3（OAT 3）的底物，M8-1、M8-2 是OAT 3 的底物，并提出肾脏转运体的表达量可能影响吗啉硝唑及其代谢物的排泄［5］，这提示吗啉硝唑与转运体相关底物或抑制剂联用的药物- 药物相互作用值得关注。本文通过吗啉硝唑联用肾脏转运体抑制剂或底物（丙磺舒、西咪替丁、二甲双胍、替诺福韦），考察大鼠血浆中R- 吗啉硝唑与S- 吗啉硝唑的药物代谢动力学特征变化。其中丙磺舒可以抑制膜上外输泵，阻滞有机阴离子转运体（OATs），是常用的OATs 和尿苷二磷酸葡萄糖醛酸基转移酶1A9（UGT1A9）探针性底物［6］；西咪替丁是有机阳离子转运体（OCTs）、OATs、P- 糖蛋白等转运体的底物［7］；二甲双胍的细胞摄取和外排过程与OCTs 和多药及毒性化合物外排转运蛋白1（MATE1）相关并具有转运体依赖性［8-9］；替诺福韦主要由有机阴离子转运体（主要是OAT 1 参与调节，也包括少量OAT 3）参与调节进入肾小管细胞［10］。已有文献报道采用HPLC 法［11］、LC-MS/MS法［12-14］、UPLC/Q-TOF MS［2］法等测定人血浆及尿样中的吗啉硝唑及其代谢物，其中Zhong 等［15］使用Phenomenex Lux cellulose-4 色谱柱（250 mm×4.6mm，5 μm），吗啉硝唑-d4 做内标，同时利用LC-MS/MS 检测人血浆中吗啉硝唑对映体浓度"
+  }
+]

@@ -1,0 +1,508 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "非甾体抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "PARPi",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "阿片类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "奥拉帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "地西泮",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "阿普唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "三唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "扎来普隆",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "（右）佐匹克隆",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "氟唑帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "帕米帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Enzyme",
+        "name": "CYP3A",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Enzyme",
+        "name": "CYP2C8",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "β-内酰胺类",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "碳青霉烯类",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "氨基糖苷类",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "莫西沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "（左）奥硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "万古霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "米卡芬净",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "环丙沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Drug",
+        "name": "甲硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "DrugClass",
+        "name": "三唑类抗真菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "Drug",
+        "name": "左氧氟沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Drug",
+        "name": "阿奇霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Drug",
+        "name": "利奈唑胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "Drug",
+        "name": "卡泊芬净",
+        "properties": {}
+      },
+      {
+        "id": "ent_30",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_31",
+        "type": "Drug",
+        "name": "泊沙康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_32",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_33",
+        "type": "Drug",
+        "name": "氟康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_34",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_35",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_36",
+        "type": "SideEffect",
+        "name": "便秘",
+        "properties": {}
+      },
+      {
+        "id": "ent_37",
+        "type": "SideEffect",
+        "name": "不良反应增加",
+        "properties": {}
+      },
+      {
+        "id": "ent_38",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": "1526",
+          "source": "医脉通泌尿外科",
+          "text": "。而出血是非甾体抗炎药的常见不良反应，两类药物合用，出血风险增加，合用时需加强关注。此外，所有PARPi和阿片类药物合用都存在便秘增加的风险，合用应加强监测。常用镇痛药与PARPi的相互作用及证据级别见表5。3. 镇静催眠药共识意见 13奥拉帕利与地西泮、阿普唑仑、三唑仑、扎来普隆、（右）佐匹克隆合用，氟唑帕利与地西泮合用，及帕米帕利与三唑仑合用时，应加强对PARPi和（或）合用药物不良反应的关注（Ⅱ～Ⅲ级证据）。地西泮为CYP3A抑制剂，奥拉帕利、氟唑帕利经CYP3A代谢，合用可能引起奥拉帕利、氟唑帕利不良反应增加。三唑仑是CYP2C8抑制剂，帕米帕利经CYP2C8、CYP3A代谢，合用时帕米帕利代谢减慢。CYP3A参与阿普唑仑、（右）佐匹克隆、三唑仑、扎来普隆代谢，奥拉帕利、氟唑帕利也经CYP3A代谢，合用竞争性抑制，可能导致不良反应增加。常用镇静催眠药与PARPi的相互作用及证据级别见表6。4. 抗菌药共识意见 14奥拉帕利可与β-内酰胺类、碳青霉烯类、氨基糖苷类、莫西沙星、（左）奥硝唑、万古霉素、米卡芬净安全合用；避免与环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物合用（Ⅰ级证据）；与左氧氟沙星、阿奇霉素、利奈唑胺、卡泊芬净合用时应加强对奥拉帕利不良反应的关注（Ⅱ～Ⅲ级证据）。伏立康唑、泊沙康唑、伊曲康唑、克拉霉素为CYP3A4强抑制剂，氟康唑、环丙沙星、红霉素、甲硝唑为CYP3A4中效抑制剂，与经CYP3A4代谢的奥拉帕利合用，将影响奥拉帕利代谢，导致其体内水平增加"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_35",
+        "name": "可能导致",
+        "properties": {
+          "evidence": [
+            {
+              "chunk_index": 1526,
+              "source": "医脉通泌尿外科",
+              "text": "而出血是非甾体抗炎药的常见不良反应"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "相互作用",
+        "properties": {
+          "consequence": "出血风险增加",
+          "management": "合用时需加强关注",
+          "evidence": [
+            {
+              "chunk_index": 1526,
+              "source": "医脉通泌尿外科",
+              "text": "两类药物合用，出血风险增加，合用时需加强关注"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "name": "相互作用",
+        "properties": {
+          "consequence": "便秘增加的风险",
+          "management": "合用应加强监测",
+          "evidence": [
+            {
+              "chunk_index": 1526,
+              "source": "医脉通泌尿外科",
+              "text": "所有PARPi和阿片类药物合用都存在便秘增加的风险，合用应加强监测"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "name": "相互作用",
+        "properties": {
+          "management": "应加强对PARPi和（或）合用药物不良反应的关注",
+          "evidence_level": "Ⅱ～Ⅲ级证据",
+          "evidence": [
+            {
+              "chunk_index": 1526,
+              "source": "医脉通泌尿外科",
+              "text": "奥拉帕利与地西泮、阿普唑仑、三唑仑、扎来普隆、（右）佐匹克隆合用...应加强对PARPi和（或）合用药物不良反应的关注（Ⅱ～Ⅲ级证据）"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "name": "相互作用",
+        "properties": {
+          "management": "应加强对PARPi和（或）合用药物不良反应的关注",
+          "evidence_level": "Ⅱ～Ⅲ级证据",
+          "evidence": [
+            {
+              "chunk_index": 1526,
+              "source": "医脉通泌尿外科",
+              "text": "奥拉帕利与地西泮、阿普唑仑、三唑仑、扎来普隆、（右）佐匹克隆合用...应加强对PARPi和（或）合用药物不良反应的关注（Ⅱ～Ⅲ级证据）"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "name": "相互作用",
+        "properties": {
+          "management": "应加强对PARPi和（或）合用药物不良反应的关注",
+          "evidence_level": "Ⅱ～Ⅲ级证据",
+          "evidence": [
+            {
+              "chunk_index": 1526,
+              "source": "医脉通泌尿外科",
+              "text": "奥拉帕利与地西泮、阿普唑仑、三唑仑、扎来普隆、（右）佐匹克隆合用...应加强对PARPi和（或）合用药物不良反应的关注（Ⅱ～Ⅲ级证据）"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "name": "相互作用",
+        "properties": {
+          "management": "应加强对PARPi和（或）合用药物不良反应的关注",
+          "evidence_level": "Ⅱ～Ⅲ级证据",
+          "evidence": [
+            {
+              "chunk_index": 1526,
+              "source": "医脉通泌尿外科",
+              "text": "奥拉帕利与地西泮、阿普唑仑、三唑仑、扎来普隆、（右）佐匹克隆合用...应加强对PARPi和（或）合用药物不良反应的关注（Ⅱ～Ⅲ级证据）"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_9",
+        "name": "相互作用",
+        "properties": {
+          "management": "应加强对PARPi和（或）合用药物不良反应的关注",
+          "evidence_level": "Ⅱ～Ⅲ级证据",
+          "evidence": [
+            {
+              "chunk_index": 1526,
+              "source": "医脉通泌尿外科",
+              "text": "奥拉帕利与地西泮、阿普唑仑、三唑仑、扎来普隆、（右）佐匹克隆合用...应加强对PARPi和（或）合用药物不良反应的关注（Ⅱ～Ⅲ级证据）"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_5",
+        "name": "相互作用",
+        "properties": {
+          "management": "应加强对PARPi和（或）合用药物不良反应的关注",
+          "evidence_level": "Ⅱ～Ⅲ级证据",
+          "evidence": [
+            {
+              "chunk_index": 1526,
+              "source": "医脉通泌尿外科",
+              "text": "氟唑帕利与地西泮合用...应加强对PARPi和（或）合用药物不良反应的关注（Ⅱ～Ⅲ级证据）"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_7",
+        "name": "相互作用",
+        "properties": {
+          "management": "应加强对PARPi和（或）合用药物不良反应的关注",
+          "evidence_level": "Ⅱ～Ⅲ级证据",
+          "evidence": [
+            {
+              "chunk_index": 1526,
+              "source": "医脉通泌尿外科",
+              "text": "帕米帕利与三唑仑合用时，应加强对PARPi和（或）合用药物不良反应的关注（Ⅱ～Ⅲ级证据）"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_5",
+        "target_id": "ent_12",
+        "name": "作用机制",
+        "properties": {
+          "mechanism_type": "抑制剂",
+          "evidence": [
+            {
+              "chunk_index": 1526,
+              "source": "医脉通泌尿外科",
+              "text": "地西泮为CYP3A抑制剂"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_4",
+        "target_id": "ent_12",
+        "name": "作用机制",
+        "properties": {
+          "mechanism_type": "代谢",
+          "evidence": [
+            {
+              "chunk_index": 1526,
+              "source": "医脉通泌尿外科",
+              "text": "奥拉帕利、氟唑帕利经CYP3A代谢"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_MECHANISM",
+        "source_id": "ent_10",
+        "target_id": "ent_12",
+        "name": "作用机制",
+        "properties": {
+          "mechanism_type": "代谢",
+          "evidence": [
+            {
+              "chunk_index": 1526,
+              "source": "医脉通泌尿外科",
+              "text": "奥拉帕利、氟唑帕利经CYP3A代谢"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_4",
+        "name": "相互作用",
+        "properties": {
+          "consequence": "可能引起奥拉帕利不良反应增加",
+          "mechanism": "CYP3A抑制",
+          "evidence": [
+            {
+              "chunk_index": 1526,
+              "source": "医脉通泌尿外科",
+              "text": "地西泮为CYP3A抑制剂，奥拉帕利、氟唑帕利经CYP3A代谢，合用可能引起奥拉帕利、氟唑帕利不良反应增加"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_10",
+        "name": "相互作用",
+        "properties": {
+          "consequence": "可能引起氟唑帕利不良反应增加",
+          "mechanism": "CYP3A抑制",
+          "evidence": [
+            {
+              "chunk_index": 1526,
+              "source": "医脉通泌尿外科",
+              "text": "地西泮为CYP3A抑制剂，奥拉帕利、氟唑帕利经CYP3A代谢，合用"
+            }
+          ]
+        }
+      }
+    ],
+    "chunk_index": 1526,
+    "source": "医脉通泌尿外科",
+    "text": "。而出血是非甾体抗炎药的常见不良反应，两类药物合用，出血风险增加，合用时需加强关注。此外，所有PARPi和阿片类药物合用都存在便秘增加的风险，合用应加强监测。常用镇痛药与PARPi的相互作用及证据级别见表5。3. 镇静催眠药共识意见 13奥拉帕利与地西泮、阿普唑仑、三唑仑、扎来普隆、（右）佐匹克隆合用，氟唑帕利与地西泮合用，及帕米帕利与三唑仑合用时，应加强对PARPi和（或）合用药物不良反应的关注（Ⅱ～Ⅲ级证据）。地西泮为CYP3A抑制剂，奥拉帕利、氟唑帕利经CYP3A代谢，合用可能引起奥拉帕利、氟唑帕利不良反应增加。三唑仑是CYP2C8抑制剂，帕米帕利经CYP2C8、CYP3A代谢，合用时帕米帕利代谢减慢。CYP3A参与阿普唑仑、（右）佐匹克隆、三唑仑、扎来普隆代谢，奥拉帕利、氟唑帕利也经CYP3A代谢，合用竞争性抑制，可能导致不良反应增加。常用镇静催眠药与PARPi的相互作用及证据级别见表6。4. 抗菌药共识意见 14奥拉帕利可与β-内酰胺类、碳青霉烯类、氨基糖苷类、莫西沙星、（左）奥硝唑、万古霉素、米卡芬净安全合用；避免与环丙沙星、红霉素、克拉霉素、甲硝唑、三唑类抗真菌药物合用（Ⅰ级证据）；与左氧氟沙星、阿奇霉素、利奈唑胺、卡泊芬净合用时应加强对奥拉帕利不良反应的关注（Ⅱ～Ⅲ级证据）。伏立康唑、泊沙康唑、伊曲康唑、克拉霉素为CYP3A4强抑制剂，氟康唑、环丙沙星、红霉素、甲硝唑为CYP3A4中效抑制剂，与经CYP3A4代谢的奥拉帕利合用，将影响奥拉帕利代谢，导致其体内水平增加"
+  }
+]

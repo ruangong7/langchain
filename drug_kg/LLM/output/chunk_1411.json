@@ -1,0 +1,491 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "苯妥英",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "胺碘酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "运动失调",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "眼球震颤",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "视觉模糊",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "双腿无力",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "苯妥英水平",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "乙内酰脲类抗惊厥药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "苯妥英钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "氯霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "异烟肼",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "保泰松",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "磺胺类",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "SideEffect",
+        "name": "苯妥英钠中毒",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Indicator",
+        "name": "苯妥英钠血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Indicator",
+        "name": "周围血象",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "普萘洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "氟西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "罗红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Indicator",
+        "name": "心电图",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Indicator",
+        "name": "血清强心苷水平",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Drug",
+        "name": "索他洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Drug",
+        "name": "地尔硫卓",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "DrugClass",
+        "name": "钙通道阻滞药",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "SideEffect",
+        "name": "传导阻滞",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "SideEffect",
+        "name": "低血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_30",
+        "type": "SideEffect",
+        "name": "心动过缓",
+        "properties": {}
+      },
+      {
+        "id": "ent_31",
+        "type": "SideEffect",
+        "name": "心力衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_32",
+        "type": "Drug",
+        "name": "链霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_33",
+        "type": "Drug",
+        "name": "泮库溴铵",
+        "properties": {}
+      },
+      {
+        "id": "ent_34",
+        "type": "DrugClass",
+        "name": "神经肌肉阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_35",
+        "type": "SideEffect",
+        "name": "肌肉软弱",
+        "properties": {}
+      },
+      {
+        "id": "ent_36",
+        "type": "SideEffect",
+        "name": "呼吸抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_37",
+        "type": "SideEffect",
+        "name": "呼吸麻痹",
+        "properties": {}
+      },
+      {
+        "id": "ent_38",
+        "type": "DrugClass",
+        "name": "β-受体阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_39",
+        "type": "DrugClass",
+        "name": "钙拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_40",
+        "type": "Evidence",
+        "name": "医学资料库",
+        "properties": {
+          "chunk_id": "1411",
+          "source": "医学资料库"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "胺碘酮抑制苯妥英代谢",
+        "properties": {
+          "mechanism": "抑制肝代谢",
+          "consequence": "升高苯妥英血清浓度，以致产生运动失调、眼球震颤、视觉模糊和双腿无力",
+          "suggestion": "需监测病人苯妥英水平，必要时调整其剂量",
+          "evidence": {
+            "chunk_index": "1411",
+            "source": "医学资料库",
+            "text": "胺碘酮可以抑制苯妥英肝代谢，升高苯妥英血清浓度，以致产生运动失调、眼球震颤、视觉模糊和双腿无力。需监测病人苯妥英水平，必要时调整其剂量。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "name": "胺碘酮与乙内酰脲类抗惊厥药物相互作用",
+        "properties": {
+          "consequence": "有类似的相互作用",
+          "evidence": {
+            "chunk_index": "1411",
+            "source": "医学资料库",
+            "text": "胺碘酮同其他乙内酰脲类抗惊厥药物同用有类似的相互作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_9",
+        "name": "氯霉素与苯妥英钠合用",
+        "properties": {
+          "mechanism": "可能降低本品代谢",
+          "consequence": "使血药浓度增加，增加本品的毒性",
+          "evidence": {
+            "chunk_index": "1411",
+            "source": "医学资料库",
+            "text": "苯妥英钠“与氯霉素、异烟肼、保泰松、磺胺类合用可能降低本品代谢使血药浓度增加，增加本品的毒性”。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_9",
+        "name": "异烟肼与苯妥英钠合用",
+        "properties": {
+          "mechanism": "可能降低本品代谢",
+          "consequence": "使血药浓度增加，增加本品的毒性",
+          "evidence": {
+            "chunk_index": "1411",
+            "source": "医学资料库",
+            "text": "苯妥英钠“与氯霉素、异烟肼、保泰松、磺胺类合用可能降低本品代谢使血药浓度增加，增加本品的毒性”。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_9",
+        "name": "保泰松与苯妥英钠合用",
+        "properties": {
+          "mechanism": "可能降低本品代谢",
+          "consequence": "使血药浓度增加，增加本品的毒性",
+          "evidence": {
+            "chunk_index": "1411",
+            "source": "医学资料库",
+            "text": "苯妥英钠“与氯霉素、异烟肼、保泰松、磺胺类合用可能降低本品代谢使血药浓度增加，增加本品的毒性”。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_9",
+        "name": "磺胺类与苯妥英钠合用",
+        "properties": {
+          "mechanism": "可能降低本品代谢",
+          "consequence": "使血药浓度增加，增加本品的毒性",
+          "evidence": {
+            "chunk_index": "1411",
+            "source": "医学资料库",
+            "text": "苯妥英钠“与氯霉素、异烟肼、保泰松、磺胺类合用可能降低本品代谢使血药浓度增加，增加本品的毒性”。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_9",
+        "name": "西咪替丁与苯妥英钠合用",
+        "properties": {
+          "consequence": "可能使后者的血药浓度增高，导致苯妥英钠中毒",
+          "suggestion": "必须合用时，应在5天后测定苯妥英钠血药浓度以便调整剂量，并注意定期复查周围血象",
+          "evidence": {
+            "chunk_index": "1411",
+            "source": "医学资料库",
+            "text": "西咪替丁“与苯妥英钠或其他乙内酰脲类合用，可能使后者的血药浓度增高，导致苯妥英钠中毒，必须合用时，应在5天后测定苯妥英钠血药浓度以便调整剂量，并注意定期复查周围血象”。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_19",
+        "target_id": "ent_18",
+        "name": "氟西汀与普萘洛尔合用",
+        "properties": {
+          "consequence": "可使普萘洛尔血药浓度升高，毒性增大",
+          "suggestion": "故应监测普萘洛尔的毒性反应，必要时减少用量",
+          "evidence": {
+            "chunk_index": "1411",
+            "source": "医学资料库",
+            "text": "氟西汀可使普萘洛尔血药浓度升高，毒性增大，故应监测普萘洛尔的毒性反应，必要时减少用量。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_20",
+        "target_id": "ent_21",
+        "name": "罗红霉素与地高辛同用",
+        "properties": {
+          "mechanism": "可清除肠道中能灭活地高辛的菌群，导致体内地高辛降解减少",
+          "consequence": "使地高辛血药浓度升高而发生毒性反应",
+          "suggestion": "两者合用时应监测心电图和血清强心苷水平",
+          "evidence": {
+            "chunk_index": "1411",
+            "source": "医学资料库",
+            "text": "罗红霉素与地高辛同用，可清除肠道中能灭活地高辛的菌群，导致体内地高辛降解减少，使地高辛血药浓度升高而发生毒性反应，两者合用时应监测心电图和血清强心苷水平。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_24",
+        "target_id": "ent_25",
+        "name": "索他洛尔与地尔硫卓合用",
+        "properties": {
+          "consequence": "两者对房室传导和心室功能的影响有累加作用，合用时可加重传导阻滞，进一步抑制心室功能、降低血压，引起低血压、心动过缓、传导障碍和心力衰竭",
+          "suggestion": "应避免合用",
+          "evidence": {
+            "chunk_index": "1411",
+            "source": "医学资料库",
+            "text": "索他洛尔与钙通道阻滞药(如维拉帕米、地尔硫卓)合用，两者对房室传导和心室功能的影响有累加作用，合用时可加重传导阻滞，进一步抑制心室功能、降低血压，引起低血压、心动过缓、传导障碍和心力衰竭，应避免合用。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_24",
+        "target_id": "ent_26",
+        "name": "索他洛尔与钙通道阻滞药合用",
+        "properties": {
+          "consequence": "两者对房室传导和心室功能的影响有累加作用，合用时可加重传导阻滞，进一步抑制心室功能、降低血压，引起低血压、心动过缓、传导障碍和心力衰竭",
+          "suggestion": "应避免合用",
+          "evidence": {
+            "chunk_index": "1411",
+            "source": "医学资料库",
+            "text": "索他洛尔与钙通道阻滞药(如维拉帕米、地尔硫卓)合用，两者对房室传导和心室功能的影响有累加作用，合用时可加重传导阻滞，进一步抑制心室功能、降低血压，引起低血压、心动过缓、传导障碍和心力衰竭，应避免合用。"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_32",
+        "target_id": "ent_33",
+        "name": "链霉素与泮库溴铵合用",
+        "properties": {
+          "consequence": "可加重神经肌肉阻滞作用，导致肌肉软弱、呼吸抑制或呼吸麻痹(呼吸暂停)",
+          "evidence": {
+            "chunk_index": "1411",
+            "source": "医学资料库",
+            "text": "链霉素与神经肌肉阻滞剂合用，可加重神经肌肉阻滞作用，导致肌肉软弱、呼吸抑制或呼吸麻痹(呼吸暂停)。"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_32",
+        "target_id": "ent_34",
+        "name": "链霉素与神经肌肉阻滞剂合用",
+        "properties": {
+          "consequence": "可加重神经肌肉阻滞作用，导致肌肉软弱、呼吸抑制或呼吸麻痹(呼吸暂停)",
+          "evidence": {
+            "chunk_index": "1411",
+            "source": "医学资料库",
+            "text": "链霉素与神经肌肉阻滞剂合用，可加重神经肌肉阻滞作用，导致肌肉软弱、呼吸抑制或呼吸麻痹(呼吸暂停)。"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_27",
+        "target_id": "ent_38",
+        "name": "维拉帕米与β-受体阻滞剂联合使用",
+        "properties": {
+          "consequence": "可增强对房室传导的抑制作用",
+          "suggestion": "特别是静脉注射维拉帕米，要十分警惕本品对心肌和传导系统的抑制",
+          "evidence": {
+            "chunk_index": "1411",
+            "source": "医学资料库",
+            "text": "维拉帕米+普萘洛尔与β-受体阻滞剂联合使用, 可增强对房室传导的抑制作用。钙拮抗剂合用，特别是静脉注射维拉帕米，要十分警惕本品对心肌和传导系统的抑制"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "IN_CLASS",
+        "source_id": "ent_25",
+        "target_id": "ent_26",
+        "name": "地尔硫卓属于钙通道阻滞药",
+        "properties": {
+          "evidence": {
+            "chunk_index": "1411",
+            "source": "医学资料库",
+            "text": "索他洛尔与钙通道阻滞药(如维拉帕米、地尔硫卓)合用"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1411,
+    "source": "医学资料库",
+    "text": "。24、苯妥英+胺碘酮胺碘酮可以抑制苯妥英肝代谢，升高苯妥英血清浓度，以致产生运动失调、眼球震颤、视觉模糊和双腿无力。需监测病人苯妥英水平，必要时调整其剂量。胺碘酮同其他乙内酰脲类抗惊厥药物同用有类似的相互作用。25、苯妥英+氯霉素苯妥英钠“与氯霉素、异烟肼、保泰松、磺胺类合用可能降低本品代谢使血药浓度增加，增加本品的毒性”。26、苯妥英+西咪替丁西咪替丁“与苯妥英钠或其他乙内酰脲类合用，可能使后者的血药浓度增高，导致苯妥英钠中毒，必须合用时，应在5天后测定苯妥英钠血药浓度以便调整剂量，并注意定期复查周围血象”。27、普萘洛尔+氟西汀氟西汀可使普萘洛尔血药浓度升高，毒性增大，故应监测普萘洛尔的毒性反应，必要时减少用量。28、罗红霉素+地高辛罗红霉素与地高辛同用，可清除肠道中能灭活地高辛的菌群，导致体内地高辛降解减少，使地高辛血药浓度升高而发生毒性反应，两者合用时应监测心电图和血清强心苷水平。29、索他洛尔+地尔硫卓索他洛尔与钙通道阻滞药(如维拉帕米、地尔硫卓)合用，两者对房室传导和心室功能的影响有累加作用，合用时可加重传导阻滞，进一步抑制心室功能、降低血压，引起低血压、心动过缓、传导障碍和心力衰竭，应避免合用。30、链霉素+泮库溴铵链霉素与神经肌肉阻滞剂合用，可加重神经肌肉阻滞作用，导致肌肉软弱、呼吸抑制或呼吸麻痹(呼吸暂停)。31、维拉帕米+普萘洛尔与β-受体阻滞剂联合使用, 可增强对房室传导的抑制作用。钙拮抗剂合用，特别是静脉注射维拉帕米，要十分警惕本品对心肌和传导系统的抑制"
+  }
+]

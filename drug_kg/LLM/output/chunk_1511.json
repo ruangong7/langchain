@@ -1,0 +1,502 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "洋地黄毒苷",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "阿司咪唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "特非那定",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "尖端扭转型心律失常",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "西那卡塞",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Enzyme",
+        "name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "大环内酯类",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "茶碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "地红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "喹诺酮类抗菌药",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "环丙沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "左氧氟沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "依诺沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "培氟沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "洛美沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "莫西沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "加替沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "氯吡格雷",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Enzyme",
+        "name": "CYP2C19",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "DrugClass",
+        "name": "茶碱类药",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Enzyme",
+        "name": "CYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Drug",
+        "name": "二羟丙茶碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Drug",
+        "name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Indicator",
+        "name": "INR",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": "1511",
+          "source": "医脉通泌尿外科"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "name": "红霉素增加洋地黄毒苷吸收",
+        "properties": {
+          "mechanism": "改变胃肠道菌群",
+          "effect": "增加洋地黄毒苷在胃肠道的吸收",
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "红霉素因改变胃肠道菌群，可增加洋地黄毒苷在胃肠道的吸收。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "name": "红霉素抑制阿司咪唑代谢",
+        "properties": {
+          "effect": "诱发尖端扭转型心律失常",
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "红霉素可抑制阿司咪唑、特非那定等抗组胺药的代谢，诱发尖端扭转型心律失常。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "name": "红霉素抑制特非那定代谢",
+        "properties": {
+          "effect": "诱发尖端扭转型心律失常",
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "红霉素可抑制阿司咪唑、特非那定等抗组胺药的代谢，诱发尖端扭转型心律失常。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "name": "红霉素抑制西那卡塞代谢",
+        "properties": {
+          "mechanism": "CYP3A4抑制剂",
+          "effect": "血药浓度升高及不良反应增加",
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "西那卡塞的代谢主要与CYP3A4有关，与CYP3A4抑制剂如红霉素、克拉霉素等合用，前者的代谢可能被抑制，而致血药浓度升高及不良反应增加。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_6",
+        "name": "克拉霉素抑制西那卡塞代谢",
+        "properties": {
+          "mechanism": "CYP3A4抑制剂",
+          "effect": "血药浓度升高及不良反应增加",
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "西那卡塞的代谢主要与CYP3A4有关，与CYP3A4抑制剂如红霉素、克拉霉素等合用，前者的代谢可能被抑制，而致血药浓度升高及不良反应增加。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "name": "大环内酯类抑制茶碱代谢",
+        "properties": {
+          "effect": "茶碱的血药浓度异常升高，毒性增加",
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "大环内酯类可抑制茶碱的代谢，联用可致茶碱的血药浓度异常升高，毒性增加。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_10",
+        "name": "地红霉素与茶碱合用",
+        "properties": {
+          "effect": "影响不显著，但合用仍需谨慎",
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "地红霉素对茶碱的代谢影响不显著，但合用仍需谨慎。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_20",
+        "name": "环丙沙星抑制氯吡格雷代谢",
+        "properties": {
+          "mechanism": "抑制CYP2C19",
+          "effect": "氯吡格雷活性代谢物水平的降低，减弱其抗血小板作用",
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "氯吡格雷与抑制CYP2C19的药物如环丙沙星合用，可致氯吡格雷活性代谢物水平的降低，减弱其抗血小板作用。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_22",
+        "name": "喹诺酮类抑制茶碱类代谢",
+        "properties": {
+          "mechanism": "抑制CYP1A2",
+          "effect": "茶碱类的血药浓度升高，出现毒性反应",
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "多数喹诺酮类对CYP1A2有不同程度的抑制作用，与茶碱类联用时，可抑制茶碱类的代谢，使茶碱类的血药浓度升高，出现毒性反应。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_25",
+        "name": "环丙沙星增强华法林抗凝作用",
+        "properties": {
+          "effect": "增强其抗凝作用，并增大出血风险",
+          "recommendation": "若联用应加强INR的监测",
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "环丙沙星与华法林联用可增强其抗凝作用，并增大出血风险，若联用应加强INR的监测"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "红霉素属于大环内酯类",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "大环内酯类可抑制茶碱的代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "name": "克拉霉素属于大环内酯类",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "CYP3A4抑制剂如红霉素、克拉霉素"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_9",
+        "name": "地红霉素属于大环内酯类",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "地红霉素对茶碱的代谢影响不显著"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "IN_CLASS",
+        "source_id": "ent_13",
+        "target_id": "ent_12",
+        "name": "环丙沙星属于喹诺酮类抗菌药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "喹诺酮类抗菌药如环丙沙星、左氧氟沙星、依诺沙星、培氟沙星、洛美沙星、莫西沙星、加替沙星等"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "IN_CLASS",
+        "source_id": "ent_14",
+        "target_id": "ent_12",
+        "name": "左氧氟沙星属于喹诺酮类抗菌药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "喹诺酮类抗菌药如环丙沙星、左氧氟沙星、依诺沙星、培氟沙星、洛美沙星、莫西沙星、加替沙星等"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "IN_CLASS",
+        "source_id": "ent_15",
+        "target_id": "ent_12",
+        "name": "依诺沙星属于喹诺酮类抗菌药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "喹诺酮类抗菌药如环丙沙星、左氧氟沙星、依诺沙星、培氟沙星、洛美沙星、莫西沙星、加替沙星等"
+          }
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "IN_CLASS",
+        "source_id": "ent_16",
+        "target_id": "ent_12",
+        "name": "培氟沙星属于喹诺酮类抗菌药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "喹诺酮类抗菌药如环丙沙星、左氧氟沙星、依诺沙星、培氟沙星、洛美沙星、莫西沙星、加替沙星等"
+          }
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "IN_CLASS",
+        "source_id": "ent_17",
+        "target_id": "ent_12",
+        "name": "洛美沙星属于喹诺酮类抗菌药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "喹诺酮类抗菌药如环丙沙星、左氧氟沙星、依诺沙星、培氟沙星、洛美沙星、莫西沙星、加替沙星等"
+          }
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "IN_CLASS",
+        "source_id": "ent_18",
+        "target_id": "ent_12",
+        "name": "莫西沙星属于喹诺酮类抗菌药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "喹诺酮类抗菌药如环丙沙星、左氧氟沙星、依诺沙星、培氟沙星、洛美沙星、莫西沙星、加替沙星等"
+          }
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "IN_CLASS",
+        "source_id": "ent_19",
+        "target_id": "ent_12",
+        "name": "加替沙星属于喹诺酮类抗菌药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "喹诺酮类抗菌药如环丙沙星、左氧氟沙星、依诺沙星、培氟沙星、洛美沙星、莫西沙星、加替沙星等"
+          }
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_22",
+        "name": "茶碱属于茶碱类药",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1511,
+            "source": "医脉通泌尿外科",
+            "text": "与茶碱类药联用：茶碱类可被CYP1A2代谢，其中茶碱约90%经肝脏代谢"
+          }
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "IN_CLASS",
+        "source_id": "ent_24",
+        "target_id": "ent_22",
+        "name": "二羟丙茶碱属于茶碱类药",
+        "properties": [
+          "evidence"
+        ]
+      }
+    ],
+    "chunk_index": 1511,
+    "source": "医脉通泌尿外科",
+    "text": "。（11）红霉素因改变胃肠道菌群，可增加洋地黄毒苷在胃肠道的吸收。红霉素可抑制阿司咪唑、特非那定等抗组胺药的代谢，诱发尖端扭转型心律失常。（12）拟钙剂：西那卡塞的代谢主要与CYP3A4有关，与CYP3A4抑制剂如红霉素、克拉霉素等合用，前者的代谢可能被抑制，而致血药浓度升高及不良反应增加。（13）大环内酯类可抑制茶碱的代谢，联用可致茶碱的血药浓度异常升高，毒性增加。地红霉素对茶碱的代谢影响不显著，但合用仍需谨慎。 三、喹诺酮类抗菌药如环丙沙星、左氧氟沙星、依诺沙星、培氟沙星、洛美沙星、莫西沙星、加替沙星等。（1）含有金属离子的口服药：含有镁、铝、铁、钙、锌等金属离子的口服制剂可致口服喹诺酮类的生物利用度和血药浓度大幅度降低。文献报道，同服含金属离子的药物可使环丙沙星的吸收减少90%，一般认为钙离子制剂对莫西沙星、加替沙星的吸收影响不明显。（2）氯吡格雷与抑制CYP2C19的药物如环丙沙星合用，可致氯吡格雷活性代谢物水平的降低，减弱其抗血小板作用。（3）与茶碱类药联用：茶碱类可被CYP1A2代谢，其中茶碱约90%经肝脏代谢，10%以原型从尿液排泄。多数喹诺酮类对CYP1A2有不同程度的抑制作用，与茶碱类联用时，可抑制茶碱类的代谢，使茶碱类的血药浓度升高，出现毒性反应。其中喹诺酮类主要是环丙沙星、依诺沙星抑制CYP1A2作用较强，而茶碱类中的二羟丙茶碱不通过CYP1A2代谢，大部分以原型经肾排泄，相互作用较少。（4）碱性药、抗胆碱药、H2受体拮抗剂可降低胃液酸度，使喹诺酮类的吸收减少，应避免同服。（5）环丙沙星与华法林联用可增强其抗凝作用，并增大出血风险，若联用应加强INR的监测"
+  }
+]

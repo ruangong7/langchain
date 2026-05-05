@@ -1,0 +1,549 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "喹诺酮类",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "碱性药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "抗胆碱药",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "H2受体拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "环丙沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "免疫抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "优降糖/格列本脲",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "胰岛素",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "Ia类抗心律失常药",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "III类抗心律失常药",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "西沙必利",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "吩噻嗪类",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "三环类抗抑郁药",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "戊烷脒",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "DrugClass",
+        "name": "非甾体类抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "阿司匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "洛美沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "诺氟沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "依诺沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Drug",
+        "name": "氟比洛芬酯",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Drug",
+        "name": "布洛芬",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "DrugClass",
+        "name": "第2代口服抗组胺药",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "Enzyme",
+        "name": "肝CYP酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "DrugClass",
+        "name": "抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "DrugClass",
+        "name": "益生菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "Drug",
+        "name": "布拉氏酵母菌",
+        "properties": {}
+      },
+      {
+        "id": "ent_30",
+        "type": "Drug",
+        "name": "酪酸梭菌",
+        "properties": {}
+      },
+      {
+        "id": "ent_31",
+        "type": "SideEffect",
+        "name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_32",
+        "type": "SideEffect",
+        "name": "免疫抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_33",
+        "type": "SideEffect",
+        "name": "肾毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_34",
+        "type": "Disease",
+        "name": "血糖紊乱",
+        "properties": {}
+      },
+      {
+        "id": "ent_35",
+        "type": "Symptom",
+        "name": "症状性高血糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_36",
+        "type": "Symptom",
+        "name": "低血糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_37",
+        "type": "Disease",
+        "name": "糖尿病",
+        "properties": {}
+      },
+      {
+        "id": "ent_38",
+        "type": "SideEffect",
+        "name": "延长Q-T间期",
+        "properties": {}
+      },
+      {
+        "id": "ent_39",
+        "type": "SideEffect",
+        "name": "心律失常",
+        "properties": {}
+      },
+      {
+        "id": "ent_40",
+        "type": "SideEffect",
+        "name": "中枢神经系统不良事件",
+        "properties": {}
+      },
+      {
+        "id": "ent_41",
+        "type": "Symptom",
+        "name": "失眠",
+        "properties": {}
+      },
+      {
+        "id": "ent_42",
+        "type": "Symptom",
+        "name": "精神紧张",
+        "properties": {}
+      },
+      {
+        "id": "ent_43",
+        "type": "Symptom",
+        "name": "抽搐",
+        "properties": {}
+      },
+      {
+        "id": "ent_44",
+        "type": "Symptom",
+        "name": "惊厥",
+        "properties": {}
+      },
+      {
+        "id": "ent_45",
+        "type": "Indicator",
+        "name": "INR",
+        "properties": {}
+      },
+      {
+        "id": "ent_46",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_47",
+        "type": "Indicator",
+        "name": "血糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_48",
+        "type": "Evidence",
+        "name": "医脉通泌尿外科",
+        "properties": {
+          "chunk_id": "1512",
+          "source": "医脉通泌尿外科"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "name": "降低吸收",
+        "properties": {
+          "mechanism": "降低胃液酸度",
+          "consequence": "喹诺酮类的吸收减少",
+          "suggestion": "应避免同服",
+          "evidence": {
+            "chunk_index": 1512,
+            "source": "医脉通泌尿外科",
+            "text": "碱性药、抗胆碱药、H2受体拮抗剂可降低胃液酸度，使喹诺酮类的吸收减少，应避免同服。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "降低吸收",
+        "properties": {
+          "mechanism": "降低胃液酸度",
+          "consequence": "喹诺酮类的吸收减少",
+          "suggestion": "应避免同服",
+          "evidence": {
+            "chunk_index": 1512,
+            "source": "医脉通泌尿外科",
+            "text": "碱性药、抗胆碱药、H2受体拮抗剂可降低胃液酸度，使喹诺酮类的吸收减少，应避免同服。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "name": "降低吸收",
+        "properties": {
+          "mechanism": "降低胃液酸度",
+          "consequence": "喹诺酮类的吸收减少",
+          "suggestion": "应避免同服",
+          "evidence": {
+            "chunk_index": 1512,
+            "source": "医脉通泌尿外科",
+            "text": "碱性药、抗胆碱药、H2受体拮抗剂可降低胃液酸度，使喹诺酮类的吸收减少，应避免同服。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "name": "增强抗凝作用",
+        "properties": {
+          "consequence": "增强其抗凝作用，并增大出血风险",
+          "suggestion": "若联用应加强INR的监测",
+          "evidence": {
+            "chunk_index": 1512,
+            "source": "医脉通泌尿外科",
+            "text": "环丙沙星与华法林联用可增强其抗凝作用，并增大出血风险，若联用应加强INR的监测。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_5",
+        "target_id": "ent_31",
+        "name": "增大出血风险",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1512,
+            "source": "医脉通泌尿外科",
+            "text": "环丙沙星与华法林联用可增强其抗凝作用，并增大出血风险，若联用应加强INR的监测。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_5",
+        "target_id": "ent_45",
+        "name": "需监测INR",
+        "properties": {
+          "suggestion": "加强监测",
+          "evidence": {
+            "chunk_index": 1512,
+            "source": "医脉通泌尿外科",
+            "text": "环丙沙星与华法林联用可增强其抗凝作用，并增大出血风险，若联用应加强INR的监测。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "name": "升高血药浓度",
+        "properties": {
+          "consequence": "致后者血药浓度升高，而加重免疫抑制和肾毒性",
+          "suggestion": "尽量避免同用，若联用应监测免疫抑制剂的血药浓度",
+          "evidence": {
+            "chunk_index": 1512,
+            "source": "医脉通泌尿外科",
+            "text": "环丙沙星与环孢素等免疫抑制剂联用可致后者血药浓度升高，而加重免疫抑制和肾毒性，尽量避免同用，若联用应监测免疫抑制剂的血药浓度。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_5",
+        "target_id": "ent_32",
+        "name": "加重免疫抑制",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1512,
+            "source": "医脉通泌尿外科",
+            "text": "环丙沙星与环孢素等免疫抑制剂联用可致后者血药浓度升高，而加重免疫抑制和肾毒性，尽量避免同用，若联用应监测免疫抑制剂的血药浓度。"
+          }
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INCREASES_RISK_OF",
+        "source_id": "ent_5",
+        "target_id": "ent_33",
+        "name": "加重肾毒性",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1512,
+            "source": "医脉通泌尿外科",
+            "text": "环丙沙星与环孢素等免疫抑制剂联用可致后者血药浓度升高，而加重免疫抑制和肾毒性，尽量避免同用，若联用应监测免疫抑制剂的血药浓度。"
+          }
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_5",
+        "target_id": "ent_46",
+        "name": "需监测血药浓度",
+        "properties": {
+          "suggestion": "监测免疫抑制剂的血药浓度",
+          "evidence": {
+            "chunk_index": 1512,
+            "source": "医脉通泌尿外科",
+            "text": "环丙沙星与环孢素等免疫抑制剂联用可致后者血药浓度升高，而加重免疫抑制和肾毒性，尽量避免同用，若联用应监测免疫抑制剂的血药浓度。"
+          }
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_34",
+        "name": "引起血糖紊乱",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1512,
+            "source": "医脉通泌尿外科",
+            "text": "曾有喹诺酮类抗生素引起血糖紊乱（如症状性高血糖和低血糖）的报道"
+          }
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_34",
+        "target_id": "ent_35",
+        "name": "表现为",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1512,
+            "source": "医脉通泌尿外科",
+            "text": "血糖紊乱（如症状性高血糖和低血糖）"
+          }
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_34",
+        "target_id": "ent_36",
+        "name": "表现为",
+        "properties": {
+          "evidence": {
+            "chunk_index": 1512,
+            "source": "医脉通泌尿外科",
+            "text": "血糖紊乱（如症状性高血糖和低血糖）"
+          }
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "name": "增加血糖紊乱风险",
+        "properties": {
+          "consequence": "引起血糖紊乱",
+          "population": "糖尿病患者",
+          "suggestion": "建议应密切监测其血糖变化情况",
+          "evidence": {
+            "chunk_index": 1512,
+            "source": "医脉通泌尿外科",
+            "text": "曾有喹诺酮类抗生素引起血糖紊乱（如症状性高血糖和低血糖）的报道，这种情况多发生于同时口服降糖药（如优降糖/格列本脲）或使用胰岛素的糖尿病患者。因此对于此类患者，建议应密切监测其血糖变化情况。"
+          }
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "name": "增加血糖紊乱风险",
+        "properties": {
+          "consequence": "引起血糖紊乱",
+          "population": "糖尿病患者",
+          "suggestion": "建议应密切监测其血糖变化情况",
+          "evidence": {
+            "chunk_index": 1512,
+            "source": "医脉通泌尿外科",
+            "text": "曾有喹诺酮类抗生素引起血糖紊乱（如症状性高血糖和低血糖）的报道，这种情况多发生于同时口服降糖药（如优降糖/格列本脲）或使用胰岛素的糖尿病患者。因此对于此类患者，建议应密切监测其血糖变化情况。"
+          }
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_47",
+        "name": "需监测血糖",
+        "properties": {
+          "population": "同时口服降糖药或使用胰岛素的糖尿病患者",
+          "suggestion": "密切监测其血糖变化情况",
+          "evidence": {
+            "chunk_index": 1512,
+            "source": "医脉通泌尿外科",
+            "text": "曾有喹诺酮类抗生素引起血糖"
+          }
+        }
+      }
+    ],
+    "chunk_index": 1512,
+    "source": "医脉通泌尿外科",
+    "text": "。（4）碱性药、抗胆碱药、H2受体拮抗剂可降低胃液酸度，使喹诺酮类的吸收减少，应避免同服。（5）环丙沙星与华法林联用可增强其抗凝作用，并增大出血风险，若联用应加强INR的监测。（6）环丙沙星与环孢素等免疫抑制剂联用可致后者血药浓度升高，而加重免疫抑制和肾毒性，尽量避免同用，若联用应监测免疫抑制剂的血药浓度。（7）曾有喹诺酮类抗生素引起血糖紊乱（如症状性高血糖和低血糖）的报道，这种情况多发生于同时口服降糖药（如优降糖/格列本脲）或使用胰岛素的糖尿病患者。因此对于此类患者，建议应密切监测其血糖变化情况。（8）一些喹诺酮类药物有延长Q-T间期的潜在风险，禁止与Ia类或III类抗心律失常药联用。此外，与其他具有此作用的药物（如西沙必利、吩噻嗪类、三环类抗抑郁药、戊烷脒、红霉素）合用时，需谨慎。（9）与非甾体类抗炎药（阿司匹林除外）联用可增加中枢神经系统不良事件的发生率，表现为失眠、精神紧张和抽搐，尽量避免联用。如洛美沙星、诺氟沙星和依诺沙星等与氟比洛芬酯合用，能增强喹诺酮类抑制γ-氨基丁酸释放的作用，可能引起抽搐。依诺沙星与布洛芬联用，有引起惊厥的危险。（10）大部分第2代口服抗组胺药是经肝CYP酶代谢的，若同用抑制肝微粒酶的药物如喹诺酮类，可能会诱发心律失常。（11）益生菌药物为活性微生物，应避免与抗生素同用，以免影响疗效。若需同用抗生素，应加大益生菌剂量或错开服药时间，最好间隔2-3h以上。胃肠道外使用抗生素影响较小。布拉氏酵母菌、酪酸梭菌对抗生素不敏感，可与抗生素同用"
+  }
+]

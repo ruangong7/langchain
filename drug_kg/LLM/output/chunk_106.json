@@ -1,0 +1,177 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "临床药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "实验药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Food",
+        "name": "肠道微生物群",
+        "properties": {
+          "类型": "微生物群"
+        }
+      },
+      {
+        "id": "ent_4",
+        "type": "Mechanism",
+        "name": "免疫效应",
+        "properties": {
+          "机制类型": "免疫效应"
+        }
+      },
+      {
+        "id": "ent_5",
+        "type": "Mechanism",
+        "name": "生物积累",
+        "properties": {
+          "机制类型": "生物积累"
+        }
+      },
+      {
+        "id": "ent_6",
+        "type": "Mechanism",
+        "name": "药物代谢",
+        "properties": {
+          "机制类型": "药物代谢"
+        }
+      },
+      {
+        "id": "ent_7",
+        "type": "Evidence",
+        "name": "EngineeringForLife",
+        "properties": {
+          "chunk_id": 106,
+          "来源类型": "其他",
+          "来源": "EngineeringForLife"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "name": "肠道微生物群影响临床药物疗效",
+        "properties": {
+          "evidence": {
+            "chunk_index": 106,
+            "source": "EngineeringForLife",
+            "text": "通过电镜对各种临床和实验药物的检查发现，肠道微生物群通过三个途径影响药物疗效：免疫效应、生物积累和药物代谢。"
+          }
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "name": "肠道微生物群影响实验药物疗效",
+        "properties": {
+          "evidence": {
+            "chunk_index": 106,
+            "source": "EngineeringForLife",
+            "text": "通过电镜对各种临床和实验药物的检查发现，肠道微生物群通过三个途径影响药物疗效：免疫效应、生物积累和药物代谢。"
+          }
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_1",
+        "target_id": "ent_4",
+        "name": "免疫效应",
+        "properties": {
+          "evidence": {
+            "chunk_index": 106,
+            "source": "EngineeringForLife",
+            "text": "肠道微生物群通过三个途径影响药物疗效：免疫效应、生物积累和药物代谢。"
+          }
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_1",
+        "target_id": "ent_5",
+        "name": "生物积累",
+        "properties": {
+          "evidence": {
+            "chunk_index": 106,
+            "source": "EngineeringForLife",
+            "text": "肠道微生物群通过三个途径影响药物疗效：免疫效应、生物积累和药物代谢。"
+          }
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_1",
+        "target_id": "ent_6",
+        "name": "药物代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 106,
+            "source": "EngineeringForLife",
+            "text": "肠道微生物群通过三个途径影响药物疗效：免疫效应、生物积累和药物代谢。"
+          }
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_2",
+        "target_id": "ent_4",
+        "name": "免疫效应",
+        "properties": {
+          "evidence": {
+            "chunk_index": 106,
+            "source": "EngineeringForLife",
+            "text": "肠道微生物群通过三个途径影响药物疗效：免疫效应、生物积累和药物代谢。"
+          }
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_2",
+        "target_id": "ent_5",
+        "name": "生物积累",
+        "properties": {
+          "evidence": {
+            "chunk_index": 106,
+            "source": "EngineeringForLife",
+            "text": "肠道微生物群通过三个途径影响药物疗效：免疫效应、生物积累和药物代谢。"
+          }
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_MECHANISM",
+        "source_id": "rel_2",
+        "target_id": "ent_6",
+        "name": "药物代谢",
+        "properties": {
+          "evidence": {
+            "chunk_index": 106,
+            "source": "EngineeringForLife",
+            "text": "肠道微生物群通过三个途径影响药物疗效：免疫效应、生物积累和药物代谢。"
+          }
+        }
+      }
+    ],
+    "chunk_index": 106,
+    "source": "EngineeringForLife",
+    "text": "尽管人们认识到肠道微生物群在癌症化疗中起着临床重要作用，但对其机制的理解和转化研究仍然有限。最大化药物疗效需要深入了解微生物群如何有助于治疗反应，人体的复杂性阻碍了微生物群的调节。为了解决这个问题，武汉大学张先正教授及其团队报道了一个名为工程微生物群（EM）的3D实验模型，用于连接微生物-药物相互作用的研究和治疗决策。该研究成果以“A Microbial Community Cultured in Gradient Hydrogel forInvestigating Gut Microbiome-Drug Interaction and GuidingTherapeutic Decisions”为题发表在《Advanced Materials》期刊。该研究在体外操纵电镜，并在属/种水平上再现人类肠道微生物群，同时允许与细胞、类器官和分离的组织共培养，以测试药物反应。通过电镜对各种临床和实验药物的检查发现，肠道微生物群通过三个途径影响药物疗效：免疫效应、生物积累和药物代谢。在已发现的机制的指导下，采用定制的策略，最大限度地提高药物对具有患者来源的肠道微生物群的原位肿瘤模型的治疗效果。这些策略分别包括免疫协同作用、纳米颗粒封装和主客体复合体的形成。鉴于肠道微生物群在影响药物疗效方面的重要作用，EM很可能成为指导药物转化和临床决策的不可或缺的工具。【多层水凝胶的设计】合成一种具有多层结构的梯度水凝胶，使物质形成一个浓度梯度，以维持具有不同代谢需求的细菌的生存（图1a）。采用旋转涂层和光引发聚合制备多层水凝胶（图1b）"
+  }
+]
