@@ -19,6 +19,7 @@ class MemoryService:
     def __init__(self):
         self.redis_url = f"redis://{REDIS_HOST}:{REDIS_PORT}/{REDIS_DB}"
         self.memory_window = max(1, CHAT_MEMORY_MAX_MESSAGES // 2)
+        self.max_messages = max(2, CHAT_MEMORY_MAX_MESSAGES)
         self.redis_client_kwargs = {
             "socket_connect_timeout": 1,
             "socket_timeout": 1,
@@ -40,6 +41,37 @@ class MemoryService:
             logger.warning("read chat memory failed, skipped history: %s", exc)
             return []
 
+    def get_all_history(self, memory_id: str) -> List[BaseMessage]:
+        try:
+            raw_messages = self.client.lrange(self._key(memory_id), 0, -1)
+            return messages_from_dict([json.loads(item) for item in raw_messages])
+        except Exception as exc:
+            logger.warning("read full chat memory failed, skipped history: %s", exc)
+            return []
+
+    def get_overflow_history(self, memory_id: str, keep_turns: int) -> List[BaseMessage]:
+        keep_messages = max(1, keep_turns) * 2
+        messages = self.get_all_history(memory_id)
+        if len(messages) <= keep_messages:
+            return []
+        return messages[:-keep_messages]
+
+    def get_summary(self, memory_id: str) -> str:
+        try:
+            return str(self.client.get(self._summary_key(memory_id)) or "").strip()
+        except Exception as exc:
+            logger.warning("read chat memory summary failed: %s", exc)
+            return ""
+
+    def set_summary(self, memory_id: str, summary: str) -> None:
+        try:
+            text = str(summary or "").strip()
+            if not text:
+                return
+            self.client.setex(self._summary_key(memory_id), CHAT_MEMORY_TTL_SECONDS, text)
+        except Exception as exc:
+            logger.warning("write chat memory summary failed: %s", exc)
+
     def get_recent_turns(self, memory_id: str, turns: int = 5) -> List[Dict[str, str]]:
         messages = self.get_history(memory_id)[-max(1, turns) * 2 :]
         history: List[Dict[str, str]] = []
@@ -57,11 +89,18 @@ class MemoryService:
             ]
             pipe = self.client.pipeline(transaction=False)
             pipe.rpush(key, *payloads)
-            pipe.ltrim(key, -self.memory_window * 2, -1)
+            pipe.ltrim(key, -self.max_messages, -1)
             pipe.expire(key, CHAT_MEMORY_TTL_SECONDS)
             pipe.execute()
         except Exception as exc:
             logger.warning("write chat memory failed, skipped save: %s", exc)
+
+    def trim_to_recent_turns(self, memory_id: str, turns: int) -> None:
+        try:
+            self.client.ltrim(self._key(memory_id), -max(1, turns) * 2, -1)
+            self.client.expire(self._key(memory_id), CHAT_MEMORY_TTL_SECONDS)
+        except Exception as exc:
+            logger.warning("trim chat memory to recent turns failed: %s", exc)
 
     def _trim(self, memory_id: str) -> None:
         try:
@@ -72,3 +111,7 @@ class MemoryService:
     @staticmethod
     def _key(memory_id: str) -> str:
         return f"chat_memory:{memory_id}"
+
+    @staticmethod
+    def _summary_key(memory_id: str) -> str:
+        return f"chat_memory_summary:{memory_id}"

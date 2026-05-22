@@ -103,7 +103,8 @@ class ChatOrchestrator:
 
     def _resolve_with_history(self, memory_id: str, message: str, analysis: Dict[str, Any]) -> Dict[str, Any]:
         history = self.llm_service.memory_service.get_recent_turns(memory_id, turns=5)
-        resolved_context = self.query_understanding.resolve_with_history(message, history)
+        memory_summary = self.llm_service.memory_service.get_summary(memory_id)
+        resolved_context = self.query_understanding.resolve_with_history(message, history, memory_summary)
         action = resolved_context.get("action")
         if action != "rewrite":
             clarification = resolved_context.get("clarification")

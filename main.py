@@ -15,6 +15,7 @@ from services.chat_orchestrator import ChatOrchestrator
 from services.rag_service import RAGService
 from services.llm_service import LLMService
 from services.memory_service import MemoryService
+from services.cross_encoder_reranker import CrossEncoderReranker
 from services.query_understanding import QueryUnderstandingService
 from services.user_auth_service import AuthError, UserAuthService
 from tools.database_tool import DatabaseTool
@@ -195,7 +196,7 @@ async def lifespan(app: FastAPI):
         )
 
         title_index = sparse_retriever.title_index
-        rag_service = RAGService(hybrid_retriever, title_index)
+        rag_service = RAGService(hybrid_retriever, title_index, reranker=CrossEncoderReranker())
 
         query_understanding_service = QueryUnderstandingService()
         chat_orchestrator = ChatOrchestrator(

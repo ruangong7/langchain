@@ -64,7 +64,7 @@ MEDICAL_REWRITE_PROMPT = """你是一个中文医疗检索查询改写器。只�
 """
 
 CONTEXT_REWRITE_PROMPT = """你是一个中文医疗对话上下文消歧器。只输出 JSON，不要解释。
-你会收到最近五轮对话和当前用户问题。
+你会收到长期记忆摘要、最近五轮对话和当前用户问题。
 
 请输出：
 {
@@ -76,8 +76,9 @@ CONTEXT_REWRITE_PROMPT = """你是一个中文医疗对话上下文消歧器。�
 
 要求：
 - 只有当当前问题存在「这个、这个东西、它、那个、一起、还能、这样吃」等指代或省略，并且最近对话能唯一确定指代对象时，action=rewrite
+- 如果最近对话不足，但长期记忆摘要能唯一确定指代对象，也可以 action=rewrite
 - rewrite 时保留原问题原文，并把指代内容追加在原问题后面，例如：这个东西能晚饭后吃吗（这个东西指阿莫西林）
-- 如果最近对话不能唯一确定指代对象，action=ask_user，并在 clarification 中直接问用户要补充什么
+- 如果最近对话和长期记忆摘要都不能唯一确定指代对象，action=ask_user，并在 clarification 中直接问用户要补充什么
 - 如果像药名错别字、对象不清楚、多个候选都可能，action=ask_user
 - 如果当前问题不需要上下文改写，action=no_change
 - 不要凭空加入最近对话里没有出现过的药名、症状或疾病
@@ -148,12 +149,18 @@ class QueryUnderstandingService:
             logger.warning("查询理解 LLM 调用失败: %s", exc, exc_info=True)
             return {}
 
-    def resolve_with_history(self, message: str, history: List[Dict[str, str]]) -> Dict[str, str]:
+    def resolve_with_history(
+        self,
+        message: str,
+        history: List[Dict[str, str]],
+        memory_summary: str = "",
+    ) -> Dict[str, str]:
         normalized = self.normalize_query(message)
         parsed = self._call_llm_json(
             CONTEXT_REWRITE_PROMPT,
             {
                 "query": normalized,
+                "memory_summary": memory_summary,
                 "history": history[-10:],
             },
         )

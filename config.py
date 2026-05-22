@@ -5,19 +5,22 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-def _get_env(name: str, *, allow_empty: bool = False) -> str:
+def _get_env(name: str, *, allow_empty: bool = False, default: str | None = None) -> str:
     value = os.getenv(name)
     if value is None or (not allow_empty and value == ""):
+        if default is not None:
+            return default
         raise RuntimeError(f"缺少环境变量: {name}")
     return value
 
 
-def _get_int_env(name: str) -> int:
-    return int(_get_env(name))
+def _get_int_env(name: str, *, default: int | None = None) -> int:
+    return int(_get_env(name, default=str(default) if default is not None else None))
 
 
-def _get_bool_env(name: str) -> bool:
-    value = _get_env(name).lower()
+def _get_bool_env(name: str, *, default: bool | None = None) -> bool:
+    default_text = None if default is None else ("true" if default else "false")
+    value = _get_env(name, default=default_text).lower()
     if value in {"1", "true", "yes"}:
         return True
     if value in {"0", "false", "no"}:
@@ -55,11 +58,17 @@ LOG_LEVEL = _get_env("LOG_LEVEL")
 ALLOWED_ORIGINS = _get_csv_env("ALLOWED_ORIGINS")
 CHAT_MEMORY_TTL_SECONDS = _get_int_env("CHAT_MEMORY_TTL_SECONDS")
 CHAT_MEMORY_MAX_MESSAGES = _get_int_env("CHAT_MEMORY_MAX_MESSAGES")
+CHAT_MEMORY_SUMMARY_ENABLED = _get_bool_env("CHAT_MEMORY_SUMMARY_ENABLED", default=True)
+CHAT_MEMORY_SUMMARY_MAX_CHARS = _get_int_env("CHAT_MEMORY_SUMMARY_MAX_CHARS", default=1000)
 AUTH_TOKEN_SECRET = _get_env("AUTH_TOKEN_SECRET")
 AUTH_TOKEN_TTL_SECONDS = _get_int_env("AUTH_TOKEN_TTL_SECONDS")
 RAG_MAX_CONTEXT_CHARS = _get_int_env("RAG_MAX_CONTEXT_CHARS")
 RAG_MAX_DOC_CHARS = _get_int_env("RAG_MAX_DOC_CHARS")
 RAG_FINAL_TOP_K = _get_int_env("RAG_FINAL_TOP_K")
+CROSS_ENCODER_ENABLED = _get_bool_env("CROSS_ENCODER_ENABLED", default=False)
+CROSS_ENCODER_MODEL_PATH = _get_env("CROSS_ENCODER_MODEL_PATH", default="")
+CROSS_ENCODER_MAX_LENGTH = _get_int_env("CROSS_ENCODER_MAX_LENGTH", default=512)
+CROSS_ENCODER_CANDIDATE_TOP_K = _get_int_env("CROSS_ENCODER_CANDIDATE_TOP_K", default=20)
 REWRITE_SHORT_QUERY_CHARS = _get_int_env("REWRITE_SHORT_QUERY_CHARS")
 DRUG_ALIAS_FILE = _get_env("DRUG_ALIAS_FILE")
 QUERY_UNDERSTANDING_ENABLE_LLM_FALLBACK = _get_bool_env("QUERY_UNDERSTANDING_ENABLE_LLM_FALLBACK")

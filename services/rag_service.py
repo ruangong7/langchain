@@ -1,9 +1,10 @@
 """RAG服务 - 处理检索和上下文构建"""
-from typing import List, Dict
+from typing import List, Dict, Optional
 from langchain_core.documents import Document
 from langchain_core.retrievers import BaseRetriever
 import logging
 from config import RAG_FINAL_TOP_K, RAG_MAX_CONTEXT_CHARS, RAG_MAX_DOC_CHARS
+from services.cross_encoder_reranker import CrossEncoderReranker
 from retriever.hybrid_retriever import HybridRetriever
 
 logger = logging.getLogger(__name__)
@@ -18,9 +19,15 @@ def document_redis_key(doc: Document) -> str:
 class RAGService:
     """RAG服务类"""
     
-    def __init__(self, retriever: BaseRetriever, title_index: Dict[str, str]):
+    def __init__(
+        self,
+        retriever: BaseRetriever,
+        title_index: Dict[str, str],
+        reranker: Optional[CrossEncoderReranker] = None,
+    ):
         self.retriever = retriever
         self.title_index = title_index
+        self.reranker = reranker
     
     def retrieve_documents(self, query: str) -> List[Document]:
         """检索相关文档（用于 Hit@K / 召回评测）。"""
@@ -32,6 +39,7 @@ class RAGService:
         """检索相关上下文"""
         documents = self.retrieve_documents(query)
         documents = HybridRetriever.score_documents(query, documents)
+        documents = self._rerank_documents(query, documents)
         return self.format_context(documents[:RAG_FINAL_TOP_K])
 
     def retrieve_context_multi(self, queries: List[str]) -> str:
@@ -73,8 +81,14 @@ class RAGService:
 
         ranking_query = " ".join(clean_queries)
         documents = HybridRetriever.score_documents(ranking_query, list(merged.values()))
+        documents = self._rerank_documents(ranking_query, documents)
         logger.info("RAG多查询检索完成，queries=%d merged_documents=%d", len(clean_queries), len(documents))
         return self.format_context(documents[:RAG_FINAL_TOP_K])
+
+    def _rerank_documents(self, query: str, documents: List[Document]) -> List[Document]:
+        if self.reranker is None:
+            return documents
+        return self.reranker.rerank(query, documents)
     
     def _document_source(self, doc: Document) -> str:
         metadata = doc.metadata or {}
@@ -110,8 +124,19 @@ class RAGService:
 
             source = self._document_source(doc)
             metadata = doc.metadata or {}
-            rank = metadata.get("hybrid_rank") or metadata.get("dense_rank") or metadata.get("sparse_rank") or idx
-            score = metadata.get("rrf_score") or metadata.get("bm25_score")
+            rank = (
+                metadata.get("cross_encoder_rank")
+                or metadata.get("hybrid_rank")
+                or metadata.get("dense_rank")
+                or metadata.get("sparse_rank")
+                or idx
+            )
+            score = None
+            for score_key in ("cross_encoder_score", "rrf_score", "bm25_score"):
+                value = metadata.get(score_key)
+                if isinstance(value, (int, float)):
+                    score = float(value)
+                    break
             score_text = f"\n【分数】{score:.6f}" if isinstance(score, float) else ""
             part = f"【证据{len(context_parts) + 1}】\n【来源】{source}\n【排序】{rank}{score_text}\n【内容】{text}"
 

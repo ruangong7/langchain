@@ -5,6 +5,8 @@ from langchain_core.messages import BaseMessage
 from typing import Any, Callable, Dict, AsyncIterator, List, Optional
 import logging
 from config import (
+    CHAT_MEMORY_SUMMARY_ENABLED,
+    CHAT_MEMORY_SUMMARY_MAX_CHARS,
     DASHSCOPE_API_KEY,
     DASHSCOPE_BASE_URL,
     MODEL_NAME,
@@ -37,6 +39,21 @@ SYSTEM_PROMPT = """你是中文医疗健康问答助手。
 GENERAL_SYSTEM_PROMPT = """你是一个简洁友好的中文助手。
 
 直接回答用户的问题。不要调用工具，不要输出 JSON，不要展示分析过程。
+"""
+
+SUMMARY_SYSTEM_PROMPT = """你是中文医疗健康问答系统的长期记忆摘要器。
+
+请把旧摘要和本次溢出的历史对话合并成新的长期记忆摘要。
+
+要求：
+- 只保留稳定、后续可能有用的信息：用户长期用药、疾病/症状、过敏史、禁忌、偏好、已澄清对象。
+- 不保留一次性闲聊、问候、无关内容和模型不确定推测。
+- 不新增历史里没有出现过的医学事实。
+- 用简洁中文输出纯文本，不要 Markdown 标题，不要 JSON。
+"""
+
+MEMORY_SUMMARY_CONTEXT_PROMPT = """长期记忆摘要（仅用于理解用户背景和多轮指代，不可替代知识库、数据库或医生诊断）：
+{summary}
 """
 
 class LLMService:
@@ -73,8 +90,16 @@ class LLMService:
         self.tool_llm = self.llm.bind_tools(self.tools) if self.tools else self.llm
         self.memory_service = memory_service or MemoryService()
 
-    def _build_messages(self, history_messages: List[BaseMessage], message: str, context: str = "") -> List:
+    def _build_messages(
+        self,
+        history_messages: List[BaseMessage],
+        message: str,
+        context: str = "",
+        memory_summary: str = "",
+    ) -> List:
         messages = [SystemMessage(content=SYSTEM_PROMPT)]
+        if memory_summary:
+            messages.append(SystemMessage(content=MEMORY_SUMMARY_CONTEXT_PROMPT.format(summary=memory_summary)))
         messages.extend(history_messages)
 
         user_message = f"用户问题：{message}\n\n"
@@ -85,6 +110,55 @@ class LLMService:
 
     def _answer_history(self, memory_id: str) -> List[BaseMessage]:
         return self.memory_service.get_history(memory_id)[-self.ANSWER_HISTORY_TURNS * 2 :]
+
+    @staticmethod
+    def _messages_to_summary_text(messages: List[BaseMessage]) -> str:
+        lines = []
+        for message in messages:
+            role = "用户" if isinstance(message, HumanMessage) else "助手"
+            content = " ".join(str(message.content or "").split())
+            if content:
+                lines.append(f"{role}: {content}")
+        return "\n".join(lines)
+
+    def _maybe_update_memory_summary(self, memory_id: str) -> None:
+        if not CHAT_MEMORY_SUMMARY_ENABLED:
+            return
+        overflow = self.memory_service.get_overflow_history(memory_id, keep_turns=self.ANSWER_HISTORY_TURNS)
+        if not overflow:
+            return
+
+        old_summary = self.memory_service.get_summary(memory_id)
+        overflow_text = self._messages_to_summary_text(overflow)
+        if not overflow_text:
+            self.memory_service.trim_to_recent_turns(memory_id, self.ANSWER_HISTORY_TURNS)
+            return
+
+        try:
+            response = self.llm.invoke(
+                [
+                    SystemMessage(content=SUMMARY_SYSTEM_PROMPT),
+                    HumanMessage(
+                        content=(
+                            f"旧摘要：\n{old_summary or '无'}\n\n"
+                            f"本次需要压缩进摘要的历史对话：\n{overflow_text}\n\n"
+                            f"请输出不超过 {CHAT_MEMORY_SUMMARY_MAX_CHARS} 字的新摘要。"
+                        )
+                    ),
+                ]
+            )
+            summary = str(response.content or "").strip()
+            if summary:
+                self.memory_service.set_summary(memory_id, summary[:CHAT_MEMORY_SUMMARY_MAX_CHARS])
+                logger.info(
+                    "长期记忆摘要已更新: memory_id=%s overflow_messages=%d summary_chars=%d",
+                    memory_id,
+                    len(overflow),
+                    len(summary),
+                )
+            self.memory_service.trim_to_recent_turns(memory_id, self.ANSWER_HISTORY_TURNS)
+        except Exception as exc:
+            logger.warning("长期记忆摘要更新失败，保留短期记忆: %s", exc, exc_info=True)
 
     def _run_tool_call(self, tool_call: Dict[str, Any]) -> ToolMessage:
         name = tool_call.get("name") or ""
@@ -118,26 +192,34 @@ class LLMService:
     def chat(self, memory_id: str, message: str, context: str = "") -> str:
         """非流式聊天"""
         history = self._answer_history(memory_id)
-        messages = self._build_messages(history, message, context)
+        memory_summary = self.memory_service.get_summary(memory_id)
+        messages = self._build_messages(history, message, context, memory_summary)
         response = self._invoke_with_tools(messages)
         
         # 保存到记忆（写入Redis）
         self.memory_service.append_exchange(memory_id, message, response.content)
+        self._maybe_update_memory_summary(memory_id)
         
         return response.content
 
     def chat_direct(self, memory_id: str, message: str) -> str:
         """Direct general chat without tool probing or RAG context."""
         history = self.memory_service.get_history(memory_id)
-        messages = [SystemMessage(content=GENERAL_SYSTEM_PROMPT), *history, HumanMessage(content=message)]
+        memory_summary = self.memory_service.get_summary(memory_id)
+        messages = [SystemMessage(content=GENERAL_SYSTEM_PROMPT)]
+        if memory_summary:
+            messages.append(SystemMessage(content=MEMORY_SUMMARY_CONTEXT_PROMPT.format(summary=memory_summary)))
+        messages.extend([*history, HumanMessage(content=message)])
         response = self.llm.invoke(messages)
         self.memory_service.append_exchange(memory_id, message, response.content)
+        self._maybe_update_memory_summary(memory_id)
         return response.content
     
     async def chat_stream(self, memory_id: str, message: str, context: str = "") -> AsyncIterator[str]:
         """流式聊天"""
         history = self._answer_history(memory_id)
-        messages = self._build_messages(history, message, context)
+        memory_summary = self.memory_service.get_summary(memory_id)
+        messages = self._build_messages(history, message, context, memory_summary)
 
         # 先用非流式探测工具调用，工具执行完后再流式输出最终答案。
         first_response = self.tool_llm.invoke(messages)
@@ -163,11 +245,16 @@ class LLMService:
         
         # 保存到记忆（写入Redis）
         self.memory_service.append_exchange(memory_id, message, full_response)
+        self._maybe_update_memory_summary(memory_id)
 
     async def chat_stream_direct(self, memory_id: str, message: str) -> AsyncIterator[str]:
         """Direct streaming general chat without the preliminary tool-probing call."""
         history = self.memory_service.get_history(memory_id)
-        messages = [SystemMessage(content=GENERAL_SYSTEM_PROMPT), *history, HumanMessage(content=message)]
+        memory_summary = self.memory_service.get_summary(memory_id)
+        messages = [SystemMessage(content=GENERAL_SYSTEM_PROMPT)]
+        if memory_summary:
+            messages.append(SystemMessage(content=MEMORY_SUMMARY_CONTEXT_PROMPT.format(summary=memory_summary)))
+        messages.extend([*history, HumanMessage(content=message)])
 
         full_response = ""
         chunk_count = 0
@@ -184,3 +271,4 @@ class LLMService:
         )
 
         self.memory_service.append_exchange(memory_id, message, full_response)
+        self._maybe_update_memory_summary(memory_id)
