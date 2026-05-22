@@ -25,7 +25,14 @@ wheels/
 
 # Environment
 .env
-.venv
+.env.*
+.env.example
+.venv/
+venv/
+env/
+ENV/
+vene/
+virtualenv/
 
 # IDE
 .vscode/
@@ -38,6 +45,7 @@ wheels/
 logs/
 
 # Large local model files
+models/
 drug_kg/NER/modal/models--iioSnail--bert-base-chinese-medical-ner/
 
 # OS

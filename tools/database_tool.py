@@ -1,6 +1,6 @@
 """数据库查询工具"""
 import pymysql
-from typing import Optional
+from typing import List
 import logging
 from config import MYSQL_HOST, MYSQL_PORT, MYSQL_DATABASE, MYSQL_USER, MYSQL_PASSWORD
 
@@ -100,6 +100,30 @@ class DatabaseTool:
         except Exception as e:
             logger.error(f"联合查询失败: {e}")
             return f"联合查询失败: {str(e)}"
+
+    def load_drug_lexicon(self, refresh: bool = False) -> List[str]:
+        """加载 real_drug 表中的药品名词表，用于前置实体扫描。"""
+        try:
+            with self.connection.cursor() as cursor:
+                cursor.execute(
+                    """
+                    SELECT DISTINCT drug_name
+                    FROM real_drug
+                    WHERE drug_name IS NOT NULL AND drug_name <> ''
+                    """
+                )
+                rows = cursor.fetchall()
+                names = {
+                    str(row.get("drug_name", "")).strip()
+                    for row in rows
+                    if row.get("drug_name")
+                }
+                lexicon = sorted(names, key=len, reverse=True)
+                logger.info("药品词表加载完成: %d", len(lexicon))
+                return lexicon
+        except Exception as e:
+            logger.error(f"加载药品词表失败: {e}")
+            return []
     
     def close(self):
         """关闭数据库连接"""

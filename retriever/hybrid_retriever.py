@@ -96,3 +96,37 @@ class HybridRetriever(BaseRetriever):
     def _get_content_key(self, doc: Document) -> str:
         """生成文档的唯一键（用于去重）"""
         return doc.page_content
+
+    @staticmethod
+    def score_documents(query: str, documents: List[Document]) -> List[Document]:
+        """基于查询词命中和来源分数做轻量重排。"""
+        if not documents:
+            return documents
+
+        query_terms = [term for term in query.lower().split() if term]
+        query_text = query.lower()
+
+        def score(doc: Document) -> float:
+            text = (doc.page_content or "").lower()
+            metadata = doc.metadata or {}
+            overlap = sum(1 for term in query_terms if term in text)
+            source_boost = 0.0
+            if "retrieval_sources" in metadata:
+                sources = metadata.get("retrieval_sources") or []
+                if isinstance(sources, list):
+                    source_boost = 0.2 * len(sources)
+            meta_boost = 0.0
+            for key in ("rrf_score", "bm25_score"):
+                value = metadata.get(key)
+                if isinstance(value, (int, float)):
+                    meta_boost += float(value)
+            exact_phrase = 1.0 if query_text and query_text in text else 0.0
+            return exact_phrase * 2.0 + overlap + source_boost + meta_boost
+
+        scored = sorted(documents, key=score, reverse=True)
+        for idx, doc in enumerate(scored, start=1):
+            metadata = dict(doc.metadata or {})
+            metadata["rerank_rank"] = idx
+            metadata["rerank_score"] = float(score(doc))
+            doc.metadata = metadata
+        return scored

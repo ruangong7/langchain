@@ -1,0 +1,1226 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>健康用药助手</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #edf2f5;
+      --surface: #ffffff;
+      --surface-soft: #f7faf9;
+      --surface-strong: #eef5f3;
+      --line: #d6e0e3;
+      --line-strong: #b8c8cd;
+      --text: #16242b;
+      --muted: #61747c;
+      --accent: #087a73;
+      --accent-strong: #055f59;
+      --accent-soft: #e1f2ef;
+      --danger: #b42318;
+      --warn: #a05a00;
+      --shadow: 0 18px 48px rgba(17, 31, 38, .12);
+      --radius: 8px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+      background:
+        linear-gradient(180deg, rgba(8, 122, 115, .08), transparent 300px),
+        linear-gradient(90deg, rgba(214, 224, 227, .55) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(214, 224, 227, .55) 1px, transparent 1px),
+        var(--bg);
+      background-size: auto, 38px 38px, 38px 38px, auto;
+      color: var(--text);
+    }
+
+    button,
+    input,
+    textarea {
+      font: inherit;
+    }
+
+    button {
+      border: 0;
+    }
+
+    .shell {
+      min-height: 100%;
+      display: grid;
+      grid-template-columns: 300px minmax(0, 1fr);
+      gap: 16px;
+      padding: 16px;
+    }
+
+    .panel,
+    .workspace {
+      min-height: calc(100vh - 32px);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .94);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panel {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand {
+      padding: 20px;
+      border-bottom: 1px solid var(--line);
+      background: var(--surface);
+    }
+
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .mark {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 8px;
+      background: var(--accent);
+      color: #fff;
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: 21px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    .brand p {
+      margin: 10px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.65;
+    }
+
+    .side-section {
+      padding: 16px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .side-section:last-child {
+      border-bottom: 0;
+    }
+
+    .section-title {
+      margin-bottom: 10px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 750;
+      letter-spacing: .04em;
+    }
+
+    .account-card {
+      display: grid;
+      gap: 10px;
+    }
+
+    .identity {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 48px;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface-soft);
+    }
+
+    .avatar {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      border-radius: 8px;
+      background: var(--accent-soft);
+      color: var(--accent-strong);
+      font-weight: 800;
+    }
+
+    .identity strong {
+      display: block;
+      font-size: 14px;
+      line-height: 1.25;
+    }
+
+    .identity span {
+      display: block;
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .button {
+      height: 38px;
+      min-width: 38px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 0 13px;
+      background: var(--surface);
+      color: var(--text);
+      cursor: pointer;
+      transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease, background .16s ease;
+      white-space: nowrap;
+    }
+
+    .button:hover {
+      transform: translateY(-1px);
+      border-color: var(--line-strong);
+      box-shadow: 0 8px 20px rgba(17, 31, 38, .08);
+    }
+
+    .button.primary {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .button.primary:hover {
+      background: var(--accent-strong);
+    }
+
+    .button.ghost {
+      background: transparent;
+    }
+
+    .button:disabled {
+      opacity: .55;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
+
+    .button-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .button-row .button {
+      flex: 1 1 auto;
+    }
+
+    .field {
+      display: grid;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+
+    .field:last-child {
+      margin-bottom: 0;
+    }
+
+    label {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: var(--surface-soft);
+      color: var(--text);
+      outline: none;
+      transition: border-color .16s ease, box-shadow .16s ease, background .16s ease;
+    }
+
+    input {
+      height: 40px;
+      padding: 0 11px;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 54px;
+      max-height: 170px;
+      padding: 12px;
+      line-height: 1.55;
+    }
+
+    input:focus,
+    textarea:focus {
+      border-color: var(--accent);
+      background: #fff;
+      box-shadow: 0 0 0 3px rgba(8, 122, 115, .14);
+    }
+
+    .chips {
+      display: grid;
+      gap: 8px;
+    }
+
+    .chip {
+      min-height: 38px;
+      padding: 9px 10px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: var(--surface-soft);
+      color: var(--text);
+      text-align: left;
+      cursor: pointer;
+      transition: transform .16s ease, border-color .16s ease, background .16s ease;
+    }
+
+    .chip:hover {
+      transform: translateY(-1px);
+      border-color: var(--line-strong);
+      background: #fff;
+    }
+
+    .status {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      flex: 0 0 auto;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 4px var(--accent-soft);
+    }
+
+    .workspace {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr) auto;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 15px 18px;
+      border-bottom: 1px solid var(--line);
+      background: var(--surface);
+    }
+
+    .topbar h2 {
+      margin: 0;
+      font-size: 17px;
+      letter-spacing: 0;
+    }
+
+    .topbar small {
+      display: block;
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .chat {
+      min-height: 0;
+      overflow-y: auto;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      background: rgba(251, 253, 252, .88);
+    }
+
+    .empty {
+      margin: auto;
+      max-width: 540px;
+      padding: 26px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .empty h3 {
+      margin: 0 0 8px;
+      color: var(--text);
+      font-size: 22px;
+      letter-spacing: 0;
+    }
+
+    .empty p {
+      margin: 0;
+      line-height: 1.7;
+    }
+
+    .message {
+      width: min(78%, 760px);
+      display: grid;
+      gap: 6px;
+    }
+
+    .message.user {
+      align-self: flex-end;
+    }
+
+    .message.assistant,
+    .message.error {
+      align-self: flex-start;
+    }
+
+    .meta {
+      padding: 0 2px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .bubble {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px 14px;
+      background: #fff;
+      line-height: 1.65;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      box-shadow: 0 8px 22px rgba(17, 31, 38, .06);
+    }
+
+    .message.user .bubble {
+      border-color: rgba(8, 122, 115, .28);
+      background: var(--accent);
+      color: #fff;
+      box-shadow: 0 12px 28px rgba(8, 122, 115, .22);
+    }
+
+    .message.error .bubble {
+      border-color: #f1b7b4;
+      background: #fff6f5;
+      color: var(--danger);
+    }
+
+    .typing {
+      display: inline-grid;
+      grid-auto-flow: column;
+      gap: 4px;
+      align-items: center;
+      height: 18px;
+    }
+
+    .typing span {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+      animation: pulse 1.2s infinite ease-in-out;
+    }
+
+    .typing span:nth-child(2) { animation-delay: .15s; }
+    .typing span:nth-child(3) { animation-delay: .3s; }
+
+    @keyframes pulse {
+      0%, 80%, 100% { opacity: .25; transform: translateY(0); }
+      40% { opacity: 1; transform: translateY(-3px); }
+    }
+
+    .composer {
+      padding: 14px;
+      border-top: 1px solid var(--line);
+      background: var(--surface);
+    }
+
+    .composer-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto auto;
+      gap: 10px;
+      align-items: end;
+    }
+
+    .composer-meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .warn { color: var(--warn); }
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 30;
+      display: none;
+      place-items: center;
+      padding: 18px;
+      background: rgba(13, 28, 35, .42);
+    }
+
+    .modal-backdrop.open {
+      display: grid;
+    }
+
+    .modal {
+      width: min(440px, 100%);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: 0 24px 80px rgba(17, 31, 38, .28);
+      overflow: hidden;
+    }
+
+    .modal-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 16px;
+      border-bottom: 1px solid var(--line);
+      background: var(--surface-strong);
+    }
+
+    .modal-head h3 {
+      margin: 0;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+
+    .modal-body {
+      padding: 16px;
+    }
+
+    .tabs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+      margin-bottom: 14px;
+      padding: 4px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface-soft);
+    }
+
+    .tab {
+      height: 34px;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    .tab.active {
+      background: var(--surface);
+      color: var(--text);
+      box-shadow: 0 4px 14px rgba(17, 31, 38, .08);
+    }
+
+    .form-error {
+      display: none;
+      margin-bottom: 12px;
+      padding: 10px;
+      border: 1px solid #f1b7b4;
+      border-radius: 7px;
+      background: #fff6f5;
+      color: var(--danger);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .form-error.show {
+      display: block;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    @media (max-width: 920px) {
+      .shell {
+        grid-template-columns: 1fr;
+        padding: 10px;
+      }
+
+      .panel,
+      .workspace {
+        min-height: auto;
+      }
+
+      .workspace {
+        min-height: calc(100vh - 20px);
+      }
+
+      .chips {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .topbar,
+      .composer-row,
+      .composer-meta {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .topbar {
+        align-items: flex-start;
+      }
+
+      .button-row,
+      .topbar .button-row {
+        width: 100%;
+      }
+
+      .button-row .button,
+      .composer-row .button {
+        width: 100%;
+      }
+
+      .message {
+        width: 100%;
+      }
+
+      .chips {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <aside class="panel" aria-label="侧边栏">
+      <section class="brand">
+        <div class="brand-row">
+          <div class="mark" aria-hidden="true">+</div>
+          <div>
+            <h1>健康用药助手</h1>
+          </div>
+        </div>
+        <p>围绕药品、症状、疾病和用药安全问题进行问答。</p>
+      </section>
+
+      <section class="side-section">
+        <div class="section-title">账号</div>
+        <div class="account-card" id="guestBox">
+          <div class="identity">
+            <div class="avatar">未</div>
+            <div>
+              <strong>未登录</strong>
+              <span>登录后会自动保留上下文</span>
+            </div>
+          </div>
+          <button class="button primary" id="openLoginBtn">登录</button>
+        </div>
+
+        <div class="account-card hidden" id="userBox">
+          <div class="identity">
+            <div class="avatar" id="userAvatar">用</div>
+            <div>
+              <strong id="userName">用户</strong>
+              <span id="memoryLabel">会话已隔离</span>
+            </div>
+          </div>
+          <div class="button-row">
+            <button class="button" id="profileBtn">资料</button>
+            <button class="button ghost" id="logoutBtn">退出</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="side-section">
+        <div class="section-title">快捷问题</div>
+        <div class="chips">
+          <button class="chip" data-prompt="阿司匹林和布洛芬能一起吃吗？">阿司匹林和布洛芬能一起吃吗？</button>
+          <button class="chip" data-prompt="二甲双胍饭前吃还是饭后吃？">二甲双胍饭前吃还是饭后吃？</button>
+          <button class="chip" data-prompt="头孢过敏的人还能吃哪些药？">头孢过敏的人还能吃哪些药？</button>
+          <button class="chip" data-prompt="孕妇感冒发烧可以怎么处理？">孕妇感冒发烧可以怎么处理？</button>
+        </div>
+      </section>
+
+      <section class="side-section">
+        <div class="status">
+          <span class="dot" aria-hidden="true"></span>
+          <span id="statusText">准备就绪</span>
+        </div>
+      </section>
+    </aside>
+
+    <section class="workspace" aria-label="聊天窗口">
+      <header class="topbar">
+        <div>
+          <h2>用药咨询</h2>
+          <small>回复仅供健康信息参考，紧急情况请及时就医。</small>
+        </div>
+        <div class="button-row">
+          <button class="button" id="clearBtn" title="清空当前页面消息">清空</button>
+          <button class="button" id="copyBtn" title="复制最后一条回复">复制</button>
+        </div>
+      </header>
+
+      <div class="chat" id="chat" aria-live="polite">
+        <div class="empty" id="emptyState">
+          <h3>点击登录后开始咨询</h3>
+          <p>登录状态会在本机保存；后端用户系统接好后，这个入口可以直接对接真实账号。</p>
+        </div>
+      </div>
+
+      <form class="composer" id="composer">
+        <div class="composer-row">
+          <textarea id="question" placeholder="输入问题，例如：阿司匹林和布洛芬能一起吃吗？" rows="2"></textarea>
+          <button class="button" id="sendBtn" type="button">发送</button>
+          <button class="button primary" id="streamBtn" type="submit">流式</button>
+        </div>
+        <div class="composer-meta">
+          <span>Ctrl / Command + Enter 流式发送</span>
+          <span class="warn">请勿把回答替代医生诊断或处方。</span>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <div class="modal-backdrop" id="authModal" aria-hidden="true">
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+      <div class="modal-head">
+        <h3 id="authTitle">登录</h3>
+        <button class="button ghost" id="closeAuthBtn" type="button">关闭</button>
+      </div>
+      <div class="modal-body">
+        <div class="tabs" role="tablist">
+          <button class="tab active" id="loginTab" type="button">登录</button>
+          <button class="tab" id="registerTab" type="button">注册</button>
+        </div>
+        <div class="form-error" id="authError"></div>
+        <form id="authForm">
+          <div class="field">
+            <label for="authUsername">用户名</label>
+            <input id="authUsername" autocomplete="username" />
+          </div>
+          <div class="field">
+            <label for="authPassword">密码</label>
+            <input id="authPassword" type="password" autocomplete="current-password" />
+          </div>
+          <button class="button primary" id="authSubmitBtn" type="submit">登录</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <div class="modal-backdrop" id="profileModal" aria-hidden="true">
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="profileTitle">
+      <div class="modal-head">
+        <h3 id="profileTitle">个人资料</h3>
+        <button class="button ghost" id="closeProfileBtn" type="button">关闭</button>
+      </div>
+      <div class="modal-body">
+        <form id="profileForm">
+          <div class="field">
+            <label for="profileName">昵称</label>
+            <input id="profileName" autocomplete="nickname" />
+          </div>
+          <div class="field">
+            <label for="profileAge">年龄</label>
+            <input id="profileAge" inputmode="numeric" />
+          </div>
+          <div class="field">
+            <label for="profileNotes">个人信息</label>
+            <textarea id="profileNotes" rows="3" placeholder="例如：过敏史、长期用药、慢性病等"></textarea>
+          </div>
+          <button class="button primary" type="submit">保存</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const chat = document.getElementById('chat');
+    const emptyState = document.getElementById('emptyState');
+    const question = document.getElementById('question');
+    const sendBtn = document.getElementById('sendBtn');
+    const streamBtn = document.getElementById('streamBtn');
+    const clearBtn = document.getElementById('clearBtn');
+    const copyBtn = document.getElementById('copyBtn');
+    const composer = document.getElementById('composer');
+    const statusText = document.getElementById('statusText');
+
+    const guestBox = document.getElementById('guestBox');
+    const userBox = document.getElementById('userBox');
+    const openLoginBtn = document.getElementById('openLoginBtn');
+    const logoutBtn = document.getElementById('logoutBtn');
+    const profileBtn = document.getElementById('profileBtn');
+    const userAvatar = document.getElementById('userAvatar');
+    const userName = document.getElementById('userName');
+    const memoryLabel = document.getElementById('memoryLabel');
+
+    const authModal = document.getElementById('authModal');
+    const closeAuthBtn = document.getElementById('closeAuthBtn');
+    const loginTab = document.getElementById('loginTab');
+    const registerTab = document.getElementById('registerTab');
+    const authTitle = document.getElementById('authTitle');
+    const authForm = document.getElementById('authForm');
+    const authUsername = document.getElementById('authUsername');
+    const authPassword = document.getElementById('authPassword');
+    const authSubmitBtn = document.getElementById('authSubmitBtn');
+    const authError = document.getElementById('authError');
+
+    const profileModal = document.getElementById('profileModal');
+    const closeProfileBtn = document.getElementById('closeProfileBtn');
+    const profileForm = document.getElementById('profileForm');
+    const profileName = document.getElementById('profileName');
+    const profileAge = document.getElementById('profileAge');
+    const profileNotes = document.getElementById('profileNotes');
+
+    const defaultApiBase = (location.protocol === 'http:' || location.protocol === 'https:')
+      ? location.origin
+      : 'http://127.0.0.1:8000';
+
+    let authMode = 'login';
+    let currentUser = null;
+    let lastAssistantText = '';
+
+    currentUser = readUser();
+    renderAuthState();
+
+    function readUser() {
+      try {
+        return JSON.parse(localStorage.getItem('currentUser') || 'null');
+      } catch (err) {
+        return null;
+      }
+    }
+
+    function saveUser(user) {
+      currentUser = user;
+      if (user) {
+        localStorage.setItem('currentUser', JSON.stringify(user));
+      } else {
+        localStorage.removeItem('currentUser');
+      }
+      renderAuthState();
+    }
+
+    function getApiBase() {
+      const base = (localStorage.getItem('apiBase') || defaultApiBase).trim();
+      return base.replace(/\/$/, '');
+    }
+
+    function getMemoryId() {
+      if (!currentUser) return 'user_guest';
+      if (currentUser.id !== undefined && currentUser.id !== null && String(currentUser.id).trim()) {
+        return `user_id_${String(currentUser.id).trim()}`;
+      }
+      const username = String(currentUser.username || currentUser.displayName || 'guest').trim() || 'guest';
+      return `user_name_${encodeURIComponent(username)}`;
+    }
+
+    function renderAuthState() {
+      const loggedIn = Boolean(currentUser);
+      guestBox.classList.toggle('hidden', loggedIn);
+      userBox.classList.toggle('hidden', !loggedIn);
+      sendBtn.disabled = !loggedIn;
+      streamBtn.disabled = !loggedIn;
+      question.disabled = !loggedIn;
+
+      if (loggedIn) {
+        const label = currentUser.displayName || currentUser.username;
+        userName.textContent = label;
+        userAvatar.textContent = label.slice(0, 1).toUpperCase();
+        memoryLabel.textContent = '会话已隔离';
+        statusText.textContent = '已登录';
+        if (emptyState) {
+          emptyState.querySelector('h3').textContent = '今天想确认哪条用药信息？';
+          emptyState.querySelector('p').textContent = '输入药名、症状、人群或剂量，助手会优先围绕医疗和用药知识库回答。';
+        }
+      } else {
+        statusText.textContent = '请先登录';
+      }
+    }
+
+    function setBusy(isBusy, text = currentUser ? '已登录' : '请先登录') {
+      sendBtn.disabled = isBusy || !currentUser;
+      streamBtn.disabled = isBusy || !currentUser;
+      question.disabled = isBusy || !currentUser;
+      statusText.textContent = text;
+    }
+
+    function openModal(modal) {
+      modal.classList.add('open');
+      modal.setAttribute('aria-hidden', 'false');
+    }
+
+    function closeModal(modal) {
+      modal.classList.remove('open');
+      modal.setAttribute('aria-hidden', 'true');
+    }
+
+    function setAuthMode(mode) {
+      authMode = mode;
+      const isRegister = mode === 'register';
+      loginTab.classList.toggle('active', !isRegister);
+      registerTab.classList.toggle('active', isRegister);
+      authTitle.textContent = isRegister ? '注册' : '登录';
+      authSubmitBtn.textContent = isRegister ? '注册并登录' : '登录';
+      authError.classList.remove('show');
+      authError.textContent = '';
+    }
+
+    function showAuthError(message) {
+      authError.textContent = message;
+      authError.classList.add('show');
+    }
+
+    function resetAuthForm() {
+      authUsername.value = '';
+      authPassword.value = '';
+      authError.classList.remove('show');
+      authError.textContent = '';
+      authSubmitBtn.disabled = false;
+      authSubmitBtn.textContent = authMode === 'register' ? '注册并登录' : '登录';
+    }
+
+    function localUsers() {
+      try {
+        return JSON.parse(localStorage.getItem('localUsers') || '{}');
+      } catch (err) {
+        return {};
+      }
+    }
+
+    function saveLocalUsers(users) {
+      localStorage.setItem('localUsers', JSON.stringify(users));
+    }
+
+    function handleLocalAuth() {
+      const username = authUsername.value.trim().toLowerCase();
+      const password = authPassword.value;
+      if (username.length < 3) {
+        showAuthError('用户名至少需要 3 个字符');
+        return;
+      }
+      if (password.length < 6) {
+        showAuthError('密码至少需要 6 个字符');
+        return;
+      }
+
+      const users = localUsers();
+      if (authMode === 'register') {
+        if (users[username]) {
+          showAuthError('用户名已存在');
+          return;
+        }
+        users[username] = {
+          username,
+          password,
+          displayName: username,
+          profile: {}
+        };
+        saveLocalUsers(users);
+      } else if (!users[username] || users[username].password !== password) {
+        showAuthError('用户名或密码不正确');
+        return;
+      }
+
+      const { password: ignored, ...user } = users[username];
+      saveUser(user);
+      closeModal(authModal);
+      statusText.textContent = '登录成功';
+      question.focus();
+    }
+
+    async function handleAuth() {
+      const username = authUsername.value.trim().toLowerCase();
+      const password = authPassword.value;
+      if (username.length < 3) {
+        showAuthError('用户名至少需要 3 个字符');
+        return;
+      }
+      if (password.length < 6) {
+        showAuthError('密码至少需要 6 个字符');
+        return;
+      }
+
+      authSubmitBtn.disabled = true;
+      authSubmitBtn.textContent = authMode === 'register' ? '注册中...' : '登录中...';
+      try {
+        const base = getApiBase();
+        const endpoint = authMode === 'register' ? '/auth/register' : '/auth/login';
+        const resp = await fetch(`${base}${endpoint}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ username, password })
+        });
+        const data = await resp.json().catch(() => ({}));
+        if (!resp.ok) {
+          throw new Error(data.detail || data.message || '请求失败');
+        }
+
+        saveUser({
+          ...data.user,
+          displayName: data.user?.username || username,
+          token: data.token,
+          expiresAt: data.expires_at,
+          profile: {}
+        });
+        closeModal(authModal);
+        resetAuthForm();
+        statusText.textContent = authMode === 'register' ? '注册成功' : '登录成功';
+        question.focus();
+      } catch (err) {
+        showAuthError(String(err.message || err));
+      } finally {
+        authSubmitBtn.disabled = false;
+        authSubmitBtn.textContent = authMode === 'register' ? '注册并登录' : '登录';
+      }
+    }
+
+    function removeEmptyState() {
+      if (emptyState && emptyState.parentElement) {
+        emptyState.remove();
+      }
+    }
+
+    function addMessage(role, text, extraClass = '') {
+      removeEmptyState();
+      const box = document.createElement('article');
+      box.className = `message ${role} ${extraClass}`.trim();
+
+      const meta = document.createElement('div');
+      meta.className = 'meta';
+      meta.textContent = role === 'user' ? '你' : '助手';
+
+      const bubble = document.createElement('div');
+      bubble.className = 'bubble';
+      bubble.textContent = text;
+
+      box.append(meta, bubble);
+      chat.appendChild(box);
+      chat.scrollTop = chat.scrollHeight;
+      return bubble;
+    }
+
+    function addTypingMessage() {
+      const bubble = addMessage('assistant', '');
+      bubble.innerHTML = '<span class="typing" aria-label="正在回复"><span></span><span></span><span></span></span>';
+      return bubble;
+    }
+
+    function setBubbleText(bubble, text) {
+      bubble.textContent = text;
+      chat.scrollTop = chat.scrollHeight;
+    }
+
+    function requireLogin() {
+      if (currentUser) return true;
+      setAuthMode('login');
+      resetAuthForm();
+      openModal(authModal);
+      statusText.textContent = '请先登录';
+      setTimeout(() => authUsername.focus(), 50);
+      return false;
+    }
+
+    async function sendPlain() {
+      if (!requireLogin()) return;
+      const q = question.value.trim();
+      if (!q) return;
+
+      addMessage('user', q);
+      const bubble = addTypingMessage();
+      setBusy(true, '正在请求普通回复');
+
+      try {
+        const base = getApiBase();
+        const url = `${base}/chat?memory_id=${encodeURIComponent(getMemoryId())}&message=${encodeURIComponent(q)}`;
+        const resp = await fetch(url);
+        const text = await resp.text();
+        if (!resp.ok) throw new Error(text || resp.statusText);
+        lastAssistantText = text;
+        setBubbleText(bubble, text);
+      } catch (err) {
+        bubble.parentElement.classList.add('error');
+        setBubbleText(bubble, String(err));
+      } finally {
+        question.value = '';
+        setBusy(false);
+        question.focus();
+      }
+    }
+
+    async function sendStream() {
+      if (!requireLogin()) return;
+      const q = question.value.trim();
+      if (!q) return;
+
+      addMessage('user', q);
+      const bubble = addTypingMessage();
+      setBusy(true, '正在接收流式回复');
+
+      try {
+        const base = getApiBase();
+        const url = `${base}/chat-stream?memory_id=${encodeURIComponent(getMemoryId())}&message=${encodeURIComponent(q)}`;
+        const resp = await fetch(url);
+        if (!resp.ok || !resp.body) throw new Error(await resp.text() || resp.statusText);
+
+        const reader = resp.body.getReader();
+        const decoder = new TextDecoder('utf-8');
+        let buffer = '';
+        let answer = '';
+        bubble.textContent = '';
+
+        function consumeEvents(text) {
+          const normalized = text.replace(/\r\n/g, '\n');
+          const chunks = normalized.split(/\n\n/);
+          buffer = chunks.pop() || '';
+
+          for (const chunk of chunks) {
+            const lines = chunk.split('\n').filter(line => line.startsWith('data:'));
+            const data = lines.length
+              ? lines.map(line => line.slice(5).replace(/^ /, '')).join('\n')
+              : chunk;
+            if (data.trim() === '[DONE]') continue;
+            answer += data;
+            setBubbleText(bubble, answer);
+          }
+        }
+
+        while (true) {
+          const { value, done } = await reader.read();
+          if (done) break;
+          buffer += decoder.decode(value, { stream: true });
+          consumeEvents(buffer);
+        }
+
+        buffer += decoder.decode();
+        if (buffer) consumeEvents(`${buffer}\n\n`);
+        lastAssistantText = answer;
+      } catch (err) {
+        bubble.parentElement.classList.add('error');
+        setBubbleText(bubble, String(err));
+      } finally {
+        question.value = '';
+        setBusy(false);
+        question.focus();
+      }
+    }
+
+    openLoginBtn.addEventListener('click', () => {
+      setAuthMode('login');
+      resetAuthForm();
+      openModal(authModal);
+      setTimeout(() => authUsername.focus(), 50);
+    });
+
+    closeAuthBtn.addEventListener('click', () => closeModal(authModal));
+    loginTab.addEventListener('click', () => setAuthMode('login'));
+    registerTab.addEventListener('click', () => setAuthMode('register'));
+
+    authForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      handleAuth();
+    });
+
+    logoutBtn.addEventListener('click', () => {
+      saveUser(null);
+      statusText.textContent = '已退出';
+    });
+
+    profileBtn.addEventListener('click', () => {
+      if (!requireLogin()) return;
+      profileName.value = currentUser.displayName || '';
+      profileAge.value = currentUser.profile?.age || '';
+      profileNotes.value = currentUser.profile?.notes || '';
+      openModal(profileModal);
+    });
+
+    closeProfileBtn.addEventListener('click', () => closeModal(profileModal));
+
+    profileForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const updated = {
+        ...currentUser,
+        displayName: profileName.value.trim() || currentUser.username,
+        profile: {
+          age: profileAge.value.trim(),
+          notes: profileNotes.value.trim()
+        }
+      };
+      const users = localUsers();
+      users[updated.username] = {
+        ...users[updated.username],
+        ...updated
+      };
+      saveLocalUsers(users);
+      saveUser(updated);
+      closeModal(profileModal);
+      statusText.textContent = '资料已保存';
+    });
+
+    clearBtn.addEventListener('click', () => {
+      chat.innerHTML = '';
+      chat.appendChild(emptyState);
+      lastAssistantText = '';
+      renderAuthState();
+      statusText.textContent = '已清空页面消息';
+    });
+
+    copyBtn.addEventListener('click', async () => {
+      if (!lastAssistantText) {
+        statusText.textContent = '暂无可复制内容';
+        return;
+      }
+      try {
+        await navigator.clipboard.writeText(lastAssistantText);
+        statusText.textContent = '已复制最后一条回复';
+      } catch (err) {
+        statusText.textContent = '复制失败';
+      }
+    });
+
+    document.querySelectorAll('[data-prompt]').forEach((button) => {
+      button.addEventListener('click', () => {
+        question.value = button.dataset.prompt || '';
+        question.focus();
+      });
+    });
+
+    sendBtn.addEventListener('click', sendPlain);
+    composer.addEventListener('submit', (event) => {
+      event.preventDefault();
+      sendStream();
+    });
+
+    question.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' && (event.ctrlKey || event.metaKey)) {
+        event.preventDefault();
+        sendStream();
+      }
+    });
+
+    [authModal, profileModal].forEach((modal) => {
+      modal.addEventListener('click', (event) => {
+        if (event.target === modal) closeModal(modal);
+      });
+    });
+  </script>
+</body>
+</html>
