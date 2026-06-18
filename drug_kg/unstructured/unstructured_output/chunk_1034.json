@@ -1,0 +1,264 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "吡咯替尼",
+        "canonical_name": "吡咯替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "canonical_name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "氟唑帕利",
+        "canonical_name": "氟唑帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "氟康唑",
+        "canonical_name": "氟康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "达诺瑞韦钠",
+        "canonical_name": "达诺瑞韦钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "酮康唑",
+        "canonical_name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "利托那韦",
+        "canonical_name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "CYP3A4强抑制剂",
+        "canonical_name": "CYP3A4强抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "CYP3A4中等抑制剂",
+        "canonical_name": "CYP3A4中等抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "CYP3A4强诱导剂",
+        "canonical_name": "CYP3A4强诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "CYP3A4酶",
+        "canonical_name": "CYP3A4酶",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1034,
+          "raw_text": "与单独使用吡罗替尼相比，健康受试者联用伊曲康唑后，吡罗替尼的CmaX和AUC0—0分别增加了2.78倍和10.8倍。",
+          "chunk_id": "1034"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1034,
+          "raw_text": "吡咯替尼与CYP3A4强诱导剂利福平的临床DDI试验（登记号CTR20191805)也已完成，但试验结果尚未公开。",
+          "chunk_id": "1034"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1034,
+          "raw_text": "与单独口服氟唑帕利相比，健康男性受试者联用CYP3A强抑制剂伊曲康唑后，血浆中氟唑帕利的CmaX和AUQ—0分别升高了51.0%和3.25倍。",
+          "chunk_id": "1034"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1034,
+          "raw_text": "联用CYP3A4中等抑制剂氟康唑后，血浆中氟唑帕利的CmaX和AUQ—0分别升高了32.4%和1.04倍。",
+          "chunk_id": "1034"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1034,
+          "raw_text": "联用CYP3A4强诱导剂利福平时，血浆中氟唑帕利的CmaX和AUC0—0分别是氟唑帕利单独给药阶段的32.0%和10.4%。",
+          "chunk_id": "1034"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1034,
+          "raw_text": "当将酮康唑与利托那韦强化的达诺瑞韦钠联合服用时，可使得达诺瑞韦钠的AUC0—0升高1.44倍，但CmaX未受显著影响",
+          "chunk_id": "1034"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1034,
+          "raw_text": "当将酮康唑与利托那韦强化的达诺瑞韦钠联合服用时，可使得达诺瑞韦钠的AUC0—0升高1.44倍，但CmaX未受显著影响",
+          "chunk_id": "1034"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1034,
+          "raw_text": "伊曲康唑为CYP3A强抑制剂",
+          "chunk_id": "1034"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1034,
+          "raw_text": "氟康唑为CYP3A4中等抑制剂",
+          "chunk_id": "1034"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1034,
+          "raw_text": "利福平为CYP3A4强诱导剂",
+          "chunk_id": "1034"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1034,
+          "raw_text": "酮康唑为CYP3A强抑制剂",
+          "chunk_id": "1034"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1034,
+          "raw_text": "吡咯替尼主要由CYP3A4酶代谢",
+          "chunk_id": "1034"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1034,
+          "raw_text": "氟唑帕利主要由CYP3A4酶代谢",
+          "chunk_id": "1034"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1034,
+          "raw_text": "达诺瑞韦钠主要经CYP3A4代谢",
+          "chunk_id": "1034"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1034,
+    "source": "凡默谷",
+    "text": "。吡咯替尼主要由CYP3A4酶代谢，与单独使用吡罗替尼相比，健康受试者联 用伊曲康唑后，吡罗替尼的CmaX和AUC0—0分别增 加了2.78倍和10.8倍。试验结果提示，吡咯替尼为 CYP3A4酶的敏感底物。在“药物临床试验登记 与信息公布平台”上，可查到吡咯替尼与CYP3A4 强诱导剂利福平的临床DDI试验（登记号 CTR20191805)也已完成，但试验结果尚未公开。1.1.10氟唑帕利（药品说明书）氟唑帕利在人 体主要以原形药物和单氧化代谢产物SHR165202 形式清除，后者主要由CYP3A4酶代谢生成。与单独口服氟唑帕利相比，健康男性受试者 联用CYP3A强抑制剂伊曲康唑后，血浆中氟唑帕 利的CmaX和AUQ—0分别升高了51.0%和3.25倍。临 床用药时，建议避免同时使用CYP3A4强抑制剂。如必须使用，可以停用氟唑帕利；在停止合并使 用CYP3A4强抑制剂且至该药物已清除5〜7个半 衰期后，可恢复氟唑帕利至原给药剂量和频率。联用CYP3A4中等抑制剂氟康唑后，血浆中 氟唑帕利的CmaX和AUQ—0分别升高了32.4%和1.04 倍。建议与CYP3A4中等抑制剂联用时，下调氟 唑帕利剂量。联用CYP3A4强诱导剂利福平时，血浆中氟 唑帕利的CmaX和AUC0—0分别是氟唑帕利单独给药 阶段的32.0%和10.4%。临床用药中，建议避免同 时使用CYP3A4强诱导剂。1.1.11达诺瑞韦钠[25]达诺瑞韦钠在人体主要 经CYP3A4代谢，当将酮康唑与利托那韦强化的 达诺瑞韦钠联合服用时，可使得达诺瑞韦钠的 AUC0—0升高1.44倍，但CmaX未受显著影响"
+  }
+]

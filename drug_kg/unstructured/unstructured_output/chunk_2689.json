@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "danicopan",
+        "canonical_name": "danicopan",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "非索非那定",
+        "canonical_name": "非索非那定",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "瑞舒伐他汀",
+        "canonical_name": "瑞舒伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "P-gp底物",
+        "canonical_name": "P-gp底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "BCRP底物",
+        "canonical_name": "BCRP底物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药时空",
+          "chunk_index": 2689,
+          "raw_text": "danicopan 可使 P-gp 底物非索非那定的 AUC 增加 1.62 倍",
+          "chunk_id": "2689",
+          "data": "。临床研究数据佐证4 种小分子肽（nirmatrelvir、danicopan、odevixibat、rezafungin，均 < 2kDa）的代谢及转运体介导 DDI 临床研究显示：肽药物引起的药代动力学参数变化多为弱 - 中度或极小。例如 danicopan 可使 P-gp 底物非索非那定的 AUC 增加 1.62 倍，使 BCRP 底物瑞舒伐他汀的 AUC 增加 2.25 倍。研究意义与展望该研究为药物研发提供重要参考：通过对 2008-2024 年获批的 40 种治疗性肽类药物分析，明确了不同类型肽药物 DDI 风险的分布趋势。这一成果将推动与监管机构的专业对话，为制定治疗肽 DDI 研究指南奠定基础。未来，研究团队将持续追踪肽类药物相互作用的动态变化，同时呼吁同行积极发表 DDI 研究的正反结果，探索更具生理相关性的研究模型 —— 即使是研发阶段未获批药物的 DDI 研究数据也具有重要学术价值。随着数据积累，人类对治疗肽 DDI 风险的认知将不断深化，为药物研发和临床安全用药提供更坚实的科学保障"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "药时空",
+          "chunk_index": 2689,
+          "raw_text": "danicopan 可使 BCRP 底物瑞舒伐他汀的 AUC 增加 2.25 倍",
+          "chunk_id": "2689",
+          "data": "。临床研究数据佐证4 种小分子肽（nirmatrelvir、danicopan、odevixibat、rezafungin，均 < 2kDa）的代谢及转运体介导 DDI 临床研究显示：肽药物引起的药代动力学参数变化多为弱 - 中度或极小。例如 danicopan 可使 P-gp 底物非索非那定的 AUC 增加 1.62 倍，使 BCRP 底物瑞舒伐他汀的 AUC 增加 2.25 倍。研究意义与展望该研究为药物研发提供重要参考：通过对 2008-2024 年获批的 40 种治疗性肽类药物分析，明确了不同类型肽药物 DDI 风险的分布趋势。这一成果将推动与监管机构的专业对话，为制定治疗肽 DDI 研究指南奠定基础。未来，研究团队将持续追踪肽类药物相互作用的动态变化，同时呼吁同行积极发表 DDI 研究的正反结果，探索更具生理相关性的研究模型 —— 即使是研发阶段未获批药物的 DDI 研究数据也具有重要学术价值。随着数据积累，人类对治疗肽 DDI 风险的认知将不断深化，为药物研发和临床安全用药提供更坚实的科学保障"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "药时空",
+          "chunk_index": 2689,
+          "raw_text": "非索非那定是P-gp底物",
+          "chunk_id": "2689",
+          "data": "。临床研究数据佐证4 种小分子肽（nirmatrelvir、danicopan、odevixibat、rezafungin，均 < 2kDa）的代谢及转运体介导 DDI 临床研究显示：肽药物引起的药代动力学参数变化多为弱 - 中度或极小。例如 danicopan 可使 P-gp 底物非索非那定的 AUC 增加 1.62 倍，使 BCRP 底物瑞舒伐他汀的 AUC 增加 2.25 倍。研究意义与展望该研究为药物研发提供重要参考：通过对 2008-2024 年获批的 40 种治疗性肽类药物分析，明确了不同类型肽药物 DDI 风险的分布趋势。这一成果将推动与监管机构的专业对话，为制定治疗肽 DDI 研究指南奠定基础。未来，研究团队将持续追踪肽类药物相互作用的动态变化，同时呼吁同行积极发表 DDI 研究的正反结果，探索更具生理相关性的研究模型 —— 即使是研发阶段未获批药物的 DDI 研究数据也具有重要学术价值。随着数据积累，人类对治疗肽 DDI 风险的认知将不断深化，为药物研发和临床安全用药提供更坚实的科学保障"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "药时空",
+          "chunk_index": 2689,
+          "raw_text": "瑞舒伐他汀是BCRP底物",
+          "chunk_id": "2689",
+          "data": "。临床研究数据佐证4 种小分子肽（nirmatrelvir、danicopan、odevixibat、rezafungin，均 < 2kDa）的代谢及转运体介导 DDI 临床研究显示：肽药物引起的药代动力学参数变化多为弱 - 中度或极小。例如 danicopan 可使 P-gp 底物非索非那定的 AUC 增加 1.62 倍，使 BCRP 底物瑞舒伐他汀的 AUC 增加 2.25 倍。研究意义与展望该研究为药物研发提供重要参考：通过对 2008-2024 年获批的 40 种治疗性肽类药物分析，明确了不同类型肽药物 DDI 风险的分布趋势。这一成果将推动与监管机构的专业对话，为制定治疗肽 DDI 研究指南奠定基础。未来，研究团队将持续追踪肽类药物相互作用的动态变化，同时呼吁同行积极发表 DDI 研究的正反结果，探索更具生理相关性的研究模型 —— 即使是研发阶段未获批药物的 DDI 研究数据也具有重要学术价值。随着数据积累，人类对治疗肽 DDI 风险的认知将不断深化，为药物研发和临床安全用药提供更坚实的科学保障"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 2689,
+    "source": "药时空",
+    "text": "。临床研究数据佐证4 种小分子肽（nirmatrelvir、danicopan、odevixibat、rezafungin，均 < 2kDa）的代谢及转运体介导 DDI 临床研究显示：肽药物引起的药代动力学参数变化多为弱 - 中度或极小。例如 danicopan 可使 P-gp 底物非索非那定的 AUC 增加 1.62 倍，使 BCRP 底物瑞舒伐他汀的 AUC 增加 2.25 倍。研究意义与展望该研究为药物研发提供重要参考：通过对 2008-2024 年获批的 40 种治疗性肽类药物分析，明确了不同类型肽药物 DDI 风险的分布趋势。这一成果将推动与监管机构的专业对话，为制定治疗肽 DDI 研究指南奠定基础。未来，研究团队将持续追踪肽类药物相互作用的动态变化，同时呼吁同行积极发表 DDI 研究的正反结果，探索更具生理相关性的研究模型 —— 即使是研发阶段未获批药物的 DDI 研究数据也具有重要学术价值。随着数据积累，人类对治疗肽 DDI 风险的认知将不断深化，为药物研发和临床安全用药提供更坚实的科学保障"
+  }
+]

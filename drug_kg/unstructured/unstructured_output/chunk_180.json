@@ -1,0 +1,512 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "波生坦",
+        "canonical_name": "波生坦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "阿舒瑞韦",
+        "canonical_name": "阿舒瑞韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "丹诺普韦",
+        "canonical_name": "丹诺普韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "瑞舒伐他汀",
+        "canonical_name": "瑞舒伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "多西他赛",
+        "canonical_name": "多西他赛",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "非索非那定",
+        "canonical_name": "非索非那定",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "格列本脲",
+        "canonical_name": "格列本脲",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "那格列奈",
+        "canonical_name": "那格列奈",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "紫杉醇",
+        "canonical_name": "紫杉醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "匹伐他汀",
+        "canonical_name": "匹伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "辛伐他汀酸",
+        "canonical_name": "辛伐他汀酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "阿德福韦",
+        "canonical_name": "阿德福韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "头孢克洛",
+        "canonical_name": "头孢克洛",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "头孢唑林",
+        "canonical_name": "头孢唑林",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "呋塞米",
+        "canonical_name": "呋塞米",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "更昔洛韦",
+        "canonical_name": "更昔洛韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "法莫替丁",
+        "canonical_name": "法莫替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "甲氨蝶呤",
+        "canonical_name": "甲氨蝶呤",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "奥司他韦羧化物",
+        "canonical_name": "奥司他韦羧化物",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "DrugClass",
+        "name": "BCRP底物",
+        "canonical_name": "BCRP底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "DrugClass",
+        "name": "MRP2底物",
+        "canonical_name": "MRP2底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "DrugClass",
+        "name": "CYP3A底物",
+        "canonical_name": "CYP3A底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "DrugClass",
+        "name": "OATP1B1选择性底物",
+        "canonical_name": "OATP1B1选择性底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "DrugClass",
+        "name": "OAT1底物",
+        "canonical_name": "OAT1底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "DrugClass",
+        "name": "OAT3底物",
+        "canonical_name": "OAT3底物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_20",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "BCRP、MRP2和CYP3A底物波生坦(bosentan)",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_21",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "BCRP、MRP2和CYP3A底物波生坦(bosentan)",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_22",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "BCRP、MRP2和CYP3A底物波生坦(bosentan)",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_20",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "BCRP、MRP2和CYP3A底物...阿舒瑞韦(asunaprevir)",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_21",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "BCRP、MRP2和CYP3A底物...阿舒瑞韦(asunaprevir)",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_22",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "BCRP、MRP2和CYP3A底物...阿舒瑞韦(asunaprevir)",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_20",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "BCRP、MRP2和CYP3A底物...丹诺普韦(danoprevir)",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_21",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "BCRP、MRP2和CYP3A底物...丹诺普韦(danoprevir)",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_22",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "BCRP、MRP2和CYP3A底物...丹诺普韦(danoprevir)",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_23",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "OATP1B1的选择性底物（相比于OATP1B3）...瑞舒伐他汀(rosuvastatin)",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_23",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "OATP1B1的选择性底物（相比于OATP1B3）...多西他赛（docetaxel）",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_23",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "OATP1B1的选择性底物（相比于OATP1B3）...非索非那定（fexofenadine）",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_23",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "OATP1B1的选择性底物（相比于OATP1B3）...格列本脲（glyburide）",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_23",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "OATP1B1的选择性底物（相比于OATP1B3）...那格列奈（nateglinide）",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_23",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "OATP1B1的选择性底物（相比于OATP1B3）...紫杉醇（paclitaxel）",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_23",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "OATP1B1的选择性底物（相比于OATP1B3）...匹伐他汀（pitavsatatin）",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_23",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "OATP1B1的选择性底物（相比于OATP1B3）...辛伐他汀酸（simvastatin acid）",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "IN_CLASS",
+        "source_id": "ent_12",
+        "target_id": "ent_24",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "OAT1OAT3...阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "IN_CLASS",
+        "source_id": "ent_13",
+        "target_id": "ent_24",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "OAT1OAT3...头孢克洛(cefaclor)...OAT1的选择性底物（相比于OAT3）",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "IN_CLASS",
+        "source_id": "ent_14",
+        "target_id": "ent_24",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "OAT1OAT3...头孢唑林(ceftizoxime)...OAT1的选择性底物（相比于OAT3）",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "IN_CLASS",
+        "source_id": "ent_15",
+        "target_id": "ent_24",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "OAT1OAT3...呋塞米(furosemide)...OAT1的选择性底物（相比于OAT3）",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "IN_CLASS",
+        "source_id": "ent_16",
+        "target_id": "ent_24",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "OAT1OAT3...更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_23",
+        "type": "IN_CLASS",
+        "source_id": "ent_17",
+        "target_id": "ent_25",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "OAT1OAT3...法莫替丁（famotidine）...OAT3的选择性底物（相比于OAT1）",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_24",
+        "type": "IN_CLASS",
+        "source_id": "ent_18",
+        "target_id": "ent_25",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "OAT1OAT3...甲氨蝶呤（methotrexate）...OAT3的选择性底物（相比于OAT1）",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      },
+      {
+        "id": "rel_25",
+        "type": "IN_CLASS",
+        "source_id": "ent_19",
+        "target_id": "ent_25",
+        "properties": {
+          "source": "GMP办公室",
+          "chunk_index": 180,
+          "raw_text": "OAT1OAT3...奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）",
+          "chunk_id": "180",
+          "data": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 180,
+    "source": "GMP办公室",
+    "text": "，BCRP、MRP2和CYP3A底物波生坦(bosentan)阿舒瑞韦(asunaprevir)丹诺普韦(danoprevir)  瑞舒伐他汀(rosuvastatin)OATP1B1的选择性底物（相比于OATP1B3）多西他赛（docetaxel）非索非那定（fexofenadine）格列本脲（glyburide）那格列奈（nateglinide）紫杉醇（paclitaxel）匹伐他汀（pitavsatatin）辛伐他汀酸（simvastatin acid）OAT1OAT3阿德福韦(adefovir)OAT1的选择性底物（相比于OAT3）头孢克洛(cefaclor)头孢唑林(ceftizoxime)呋塞米(furosemide)更昔洛韦(ganciclovir)OAT1的选择性底物（相比于OAT3）法莫替丁（famotidine）甲氨蝶呤（methotrexate）奥司他韦羧化物（oseltamivir carboxylate）OAT3的选择性底物（相比于OAT1）MATE1"
+  }
+]

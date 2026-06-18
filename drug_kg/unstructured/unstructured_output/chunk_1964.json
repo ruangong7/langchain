@@ -1,0 +1,86 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "奈玛特韦",
+        "canonical_name": "奈玛特韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利托那韦",
+        "canonical_name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "Paxlovid",
+        "canonical_name": "Paxlovid",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "COVID-19",
+        "canonical_name": "COVID-19",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP3A4抑制剂",
+        "canonical_name": "CYP3A4抑制剂",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "明湛药学",
+          "chunk_index": 1964,
+          "raw_text": "Paxlovid奈玛特韦/利托那韦已获得多个国家批准授权，用于治疗轻到中度的COVID-19成年以及12岁以上青少年",
+          "chunk_id": "1964",
+          "data": "近日“二阳”人群再次登上热搜，抗新冠病毒药再次重现大众视野，Paxlovid奈玛特韦/利托那韦已获得多个国家批准授权，用于治疗轻到中度的COVID-19成年以及12岁以上青少年(我国目前尚未批准用于青少年),以减少发展为重症的风险。Paxlovid包含两个药物：---奈玛特韦（SARS-CoV-2主要蛋白酶Mpro，也称为3CLpro或Nsp5蛋白酶抑制剂）---利托那韦（HIV-1蛋白酶抑制剂和药物代谢酶细胞色素P450（CYP）3A4抑制剂）利托那韦为CYP3A4抑制剂，很容易与药物发生相互作用。该药相互作用查询网址：https://covid19-druginteractions.org/checker图1. 新冠药物相互作用查询网站奈玛特韦/利托那韦与常见药物相互作用速查表（内容源自浙大杭州市一药学部）"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "明湛药学",
+          "chunk_index": 1964,
+          "raw_text": "利托那韦（HIV-1蛋白酶抑制剂和药物代谢酶细胞色素P450（CYP）3A4抑制剂）",
+          "chunk_id": "1964",
+          "data": "近日“二阳”人群再次登上热搜，抗新冠病毒药再次重现大众视野，Paxlovid奈玛特韦/利托那韦已获得多个国家批准授权，用于治疗轻到中度的COVID-19成年以及12岁以上青少年(我国目前尚未批准用于青少年),以减少发展为重症的风险。Paxlovid包含两个药物：---奈玛特韦（SARS-CoV-2主要蛋白酶Mpro，也称为3CLpro或Nsp5蛋白酶抑制剂）---利托那韦（HIV-1蛋白酶抑制剂和药物代谢酶细胞色素P450（CYP）3A4抑制剂）利托那韦为CYP3A4抑制剂，很容易与药物发生相互作用。该药相互作用查询网址：https://covid19-druginteractions.org/checker图1. 新冠药物相互作用查询网站奈玛特韦/利托那韦与常见药物相互作用速查表（内容源自浙大杭州市一药学部）"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "明湛药学",
+          "chunk_index": 1964,
+          "raw_text": "Paxlovid包含两个药物：---奈玛特韦...---利托那韦...利托那韦为CYP3A4抑制剂，很容易与药物发生相互作用。",
+          "chunk_id": "1964",
+          "data": "近日“二阳”人群再次登上热搜，抗新冠病毒药再次重现大众视野，Paxlovid奈玛特韦/利托那韦已获得多个国家批准授权，用于治疗轻到中度的COVID-19成年以及12岁以上青少年(我国目前尚未批准用于青少年),以减少发展为重症的风险。Paxlovid包含两个药物：---奈玛特韦（SARS-CoV-2主要蛋白酶Mpro，也称为3CLpro或Nsp5蛋白酶抑制剂）---利托那韦（HIV-1蛋白酶抑制剂和药物代谢酶细胞色素P450（CYP）3A4抑制剂）利托那韦为CYP3A4抑制剂，很容易与药物发生相互作用。该药相互作用查询网址：https://covid19-druginteractions.org/checker图1. 新冠药物相互作用查询网站奈玛特韦/利托那韦与常见药物相互作用速查表（内容源自浙大杭州市一药学部）"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1964,
+    "source": "明湛药学",
+    "text": "近日“二阳”人群再次登上热搜，抗新冠病毒药再次重现大众视野，Paxlovid奈玛特韦/利托那韦已获得多个国家批准授权，用于治疗轻到中度的COVID-19成年以及12岁以上青少年(我国目前尚未批准用于青少年),以减少发展为重症的风险。Paxlovid包含两个药物：---奈玛特韦（SARS-CoV-2主要蛋白酶Mpro，也称为3CLpro或Nsp5蛋白酶抑制剂）---利托那韦（HIV-1蛋白酶抑制剂和药物代谢酶细胞色素P450（CYP）3A4抑制剂）利托那韦为CYP3A4抑制剂，很容易与药物发生相互作用。该药相互作用查询网址：https://covid19-druginteractions.org/checker图1. 新冠药物相互作用查询网站奈玛特韦/利托那韦与常见药物相互作用速查表（内容源自浙大杭州市一药学部）"
+  }
+]

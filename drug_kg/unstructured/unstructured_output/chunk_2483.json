@@ -1,0 +1,477 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "辛伐他汀",
+        "canonical_name": "辛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "洛伐他汀",
+        "canonical_name": "洛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "Paxlovid",
+        "canonical_name": "Paxlovid",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "他汀类",
+        "canonical_name": "他汀类",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "肌肉损伤",
+        "canonical_name": "肌肉损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "肝损伤",
+        "canonical_name": "肝损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "canonical_name": "阿托伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "瑞舒伐他汀",
+        "canonical_name": "瑞舒伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "雷诺嗪",
+        "canonical_name": "雷诺嗪",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "QT延长",
+        "canonical_name": "QT延长",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "SideEffect",
+        "name": "多形性室性心动过速",
+        "canonical_name": "多形性室性心动过速",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "拉贝洛尔",
+        "canonical_name": "拉贝洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "氢氯噻嗪",
+        "canonical_name": "氢氯噻嗪",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "索他洛尔",
+        "canonical_name": "索他洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "氯沙坦",
+        "canonical_name": "氯沙坦",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "缬沙坦",
+        "canonical_name": "缬沙坦",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "SideEffect",
+        "name": "低血压",
+        "canonical_name": "低血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "依普利酮",
+        "canonical_name": "依普利酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "高血钾",
+        "canonical_name": "高血钾",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "地高辛",
+        "canonical_name": "地高辛",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_9",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_16",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_15",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_16",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_23",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_18",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_24",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_18",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      },
+      {
+        "id": "rel_25",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_20",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": "2483",
+          "raw_text": "地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药",
+          "chunk_id": "2483",
+          "data": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 2483,
+    "source": "美华医讯SCAPE",
+    "text": "。2降血脂药他汀类药物Simvastatin(辛伐他汀)或Lovastatin(洛伐他汀)与 Paxlovid 合用时可导致他汀血浆水平升高，增加肌肉损伤及肝损伤的机率。服用Paxlovid 时应停药。Atorvastatin(阿托伐他汀)或Rosuvastatin(瑞舒伐他汀)与Paxlovid 合用时，应考虑减少他汀的剂量或暂时停药。其他他汀类药物可以安全与Paxlovid 合用。3抗心绞痛药雷诺嗪(Ranolazine)与Paxlovid 合用时会增加QT 延长和 torsade de pointes (多形性室性心动过速)的风险。因此禁止合用。与Paxlovid 合用时，拉贝洛尔(Labetalol) 的降压作用会下降。需密切观察血压。其他几个药物均可和Paxlovid 安全合用(详见表格)。4降压药Paxlovid 对氢氯噻嗪(Hydrochlorothiazide) 的血药浓度没有影响，可以安全共同服用。其他降压药与Paxlovid合用时，应考虑减量及密切观测血压。5抗心律失常药除了索他洛尔(Sotalol) 可以和Paxlovid 安全合用，其他抗心律失常药物的血药浓度都会增加，导致危及生命的心律失常，因此禁忌合用。6心衰治疗药氯沙坦(Losartan)、缬沙坦(Valsartan) 与Paxlovid 合用时有低血压的可能，需要密切监测血压。依普利酮(Eplerenone) 与Paxlovid 合用时有高血钾的危险。禁忌合用，或考虑暂停依普利酮。地高辛 (digixin) 与Paxlovid 合用时，血药浓度会增加，应考虑减量或停药"
+  }
+]

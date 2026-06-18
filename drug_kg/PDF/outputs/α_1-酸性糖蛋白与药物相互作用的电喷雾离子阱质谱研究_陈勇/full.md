@@ -1,0 +1,186 @@
+[研究简报 ]
+
+# ${ \bf { a } } _ { 1 }$ -酸性糖蛋白与药物相互作用的电喷雾离子阱质谱研究
+
+陈 勇 祁春华 韩凤梅
+
+湖北大学中药生物技术湖北省重点实验室 武汉
+
+关键词 电喷雾离子阱质谱；α 酸性糖蛋白；酮基布洛芬；樟柳碱
+
+中图分类号 O
+
+文献标识码 A
+
+文章编号0251-0790（2005)10-1829-03
+
+药物的蛋白结合是药物在机体内的一种特殊的分布与储备形式 这种结合对于药物的作用强度与作用时间以及体内代谢与排泄过程都有重要的影响[1,2] 目前 电喷雾离子阱质谱 ESIMS 以其在研究生理条件下蛋白药物非共价结合所具有的分析速度快 灵敏度高及样品消耗量少等特点[3] 已被成功地用于测定溶液中小分子物质与蛋白质间非共价结合的化学计量和解离常数[4,5]
+
+$\alpha _ { 1 }$ 酸性糖蛋白是血浆蛋白的重要组分之一 本文应用 ESIMS法研究 $\overline { { \int } } \ \alpha _ { 1 }$ 酸性糖蛋白与弱酸性药物酮基布洛芬和弱碱性药物樟柳碱间的非共价作用 这对于阐明不同类型药物与血浆蛋白的作用方式以及与受体蛋白的作用规律都有十分积极的意义.
+
+## 1 实验部分
+
+1.1 样品制备 酮基布洛芬 (Ketoprofen,KP)、樟柳碱 (AnisodineHydrobromide,AN)和 $\alpha _ { 1 }$ -酸性糖蛋白 AAG 储备液分别为 mmolLKP的体积分数为 的乙醇溶液 mmolLAN水溶液和0.06mmol/L水溶液.分别取不同体积的 KP和 AN储备液置于 $1 . 5 \mathrm { \ m L \ E p }$ 管中,置于 $\mathrm { N _ { 2 } }$ 气吹干仪上吹干,向每支管中加入 100μL0.06mmol/LAAG,旋涡混合,于 $3 7 ^ { \circ } \mathrm { C }$ 下作用 60min后,将每支管中的样品用 $\mathrm { p H } = 6 . 7$ 的 10mmol/L乙酸铵缓冲液稀释 1000倍后进行质谱分析.AAG,KP和 AN均为 Sigma公司产品.
+
+1.2 质谱条件 美国 Finnigan公司 $\mathrm { L C Q } ^ { \mathrm { p U 0 } }$ 型质谱仪,扫描范围 $\mathrm { ~ m ~ / z ~ 5 0 { \sim } 2 ~ 0 0 0 ; }$ ；离子源喷射电压为5.0kV；毛细管温度 $1 7 0 \mathrm { \sim } 1 9 0 ~ \mathrm { \textdegree C }$ ；锥孔电压 25～45V；鞘气 $( \mathrm { { N } _ { 2 } }$ 气 )流速为 40au(arbitraryunits).样品自动进样分析：对于 KP和 AN 流动相为甲醇 水 体积比为 ；对于 AAG 流动相为体积分数为100%的甲醇；对于 AAG-KP和 AAG-AN,流动相为 10mmol/L乙酸铵,进样量为 $1 0 ~ \mu _ { \mathrm { { L } } }$ ,流速为0.2mL/min.正离子全扫描 10min,实验数据用 Xcalibur软件分析处理.
+
+## 2 结果与讨论
+
+酮基布洛芬和樟柳碱分子量分析 在上述质谱条件下 选定扫描范围为 $\mathrm { ~ m ~ } / { \mathrm { z } } ~ 5 0 { \sim } 5 0 0 ,$ 毛细管温度 $1 8 0 ~ \mathrm { { ^ \circ C } }$ 锥孔电压 V AN和 KP的理论分子量分别为 和 实验测定值分别为和254.0  
+22 $\alpha _ { 1 }$ 酸性糖蛋白分子量分析 质谱扫描范围为 $\mathrm { ~ m ~ } / \mathrm { z } ~ 5 0 0 { \sim } 2 ~ 0 0 0 ,$ 毛细管温度 $1 8 0 ~ \mathrm { { } ^ { \circ } C }$ 锥孔电压35V.AAG一级质谱经 Xcalibur蛋白分析软件分析,其分子量为 $4 4 1 0 6 ( \mathrm { R S D } = 0 . 1$ 1%, $\mathbf { \tau } _ { \mathbf { n } } = 6 \mathbf { \tau } )$ ),与其理论分子量为 $4 4 1 0 0 ^ { [ 6 ] }$ 的相对误差为  
+2.3 药物蛋白复合物化学计量比分析 按前述方法配制不同摩尔比的 AAG/KP和 AAG/AN用于进样分析 扫描范围为 $\mathrm { ~ m ~ } / \mathrm { z } ~ 5 0 0 { \sim } 2 ~ 0 0 0 ,$ 毛细管温度 $1 8 0 ~ \mathrm { { ^ \circ C } }$ 锥孔电压分别为 和 V 复合物一级质谱
+
+及其 Xcalibur蛋白分析软件分子量计算图见图
+
+![](images/cf7566b11b5e1aad074841bf7e5edd2edc6e95d05c0b34b415d768e19272ed8f.jpg)
+
+<details>
+<summary>bar chart</summary>
+
+| m/z    | Relative abundance/a.u. |
+| ------ | ------------------------ |
+| 586.7  | 10                       |
+| 812.7  | 15                       |
+| 909.0  | 10                       |
+| 1149.6 | 10                       |
+| 1352.8 | 15                       |
+| 1497.9 | 10                       |
+| 1685.1 | 5                        |
+| 1799.4 | 10                       |
+| 1895.7 | 20                       |
+| 1954.1 | 5                        |
+</details>
+
+![](images/301c217d2585b74b88d7826c5dfe5959fa923df4926cc7b096a662ae697457ea.jpg)
+
+<details>
+<summary>bar chart</summary>
+
+AAG-AN
+| m/z | Relative abundance/a.u. |
+|---|---|
+| 578.8 | 20 |
+| 660.8 | 100 |
+| 779.2 | 15 |
+| 1095.4 | 25 |
+| 1335.9 | 10 |
+| 1560.2 | 5 |
+| 1811.5 | 3 |
+| 1973.5 | 2 |
+</details>
+
+![](images/dbe2b9fcfce3c5dca717748f67bb99646840bbd73a83c819a3b98b342fa995a3.jpg)
+
+<details>
+<summary>bar chart</summary>
+
+AAG-KP
+| M̄ | Relative abundance/a.u. |
+| :--- | :--- |
+| 44000 | 44072 |
+| 44192 | 44192 |
+| 44389 | 44389 |
+| 44558 | 44558 |
+| 44725 | 44725 |
+| 44961 | 44961 |
+| 45231 | 45231 |
+| 45462 | 45462 |
+</details>
+
+![](images/713fefdf06a96609144df22fae33b55aece42b84e183886f6807994bbf14a2a2.jpg)
+
+<details>
+<summary>bar chart</summary>
+
+| Sample | M̄     | Relative abundance/a.u. |
+| :--- | :--- | :--- |
+| AAG-AN | 44039 | 52 |
+| AAG-AN | 44763 | 51 |
+| AAG-AN | 45278 | 57 |
+| (D) | 46000 | 78 |
+| (D) | 46186 | 79 |
+| (D) | 46334 | 66 |
+| (D) | 46580 | 65 |
+| (D) | 46992 | 53 |
+</details>
+
+Fig.1 ESI-MSspectrum ofcomplexes[ (A) and (C) ] andtheiraverage molecularweightcalculation[ (B) and (D) ]
+
+通过测定不同浓度的 KP或 AN与固定浓度的 AAG作用后复合物的分子量 可计算复合物化学结合计量比 由图 可知 AAG与 KP和 AN的表观最大化学结合计量比分别为 和 计算公式为：$\Nu = ( \Nu _ { \nwarrow \infty } - \Nu _ { \nwarrow \infty } ) \mathrm { ~ } \nearrow \tt { M } _ { \nwarrow \infty } \nearrow \tt { M } _ { \nwarrow \infty } .$ ,式中 N和 M分别代表化学计量比和分析物分子量 ].
+
+药物蛋白复合物解离常数分析 蛋白与药物非共价结合解离常数 $\mathrm { K _ { d } }$ 可用式 计算得到[7]：
+
+$$
+\mathrm{A} _ {\mathrm{obs}} = \mathrm{M} _ {\mathrm{f}} + (\mathrm{M} _ {\mathrm{b}} - \mathrm{M} _ {\mathrm{f}}) [ \alpha - (\alpha^ {2} - \beta) ^ {1 / 2} ] / \mathrm{c} _ {\mathrm{L}} \tag {1}
+$$
+
+式中, $\alpha = ( \mathrm { \bf ~ { { c } _ { i } } + \mathrm { { { c } _ { p } } + \mathrm { { { K } _ { d } } ) \mathrm { \Omega / 2 , ~ \beta } ~ \beta = \mathrm { { c } _ { L } \mathrm { { c } _ { p } , ~ \mathrm { { A } _ { o b } } } } } } }$ 指复合物分子量, $\mathbf { c } _ { \mathrm { L } }$ 和 $\mathbf { c } _ { \mathrm { p } }$ 分别代表配体和受体总浓度.固定AAG浓度,用不同浓度的药物与之作用,并将 $\Delta \mathbf { M } \left( \Delta \mathbf { M } = \mathbf { M } _ { \Xi , \widehat { \mathbf { z } } \oplus \mathbf { \Xi } } - \mathbf { M } _ { \Xi , \widehat { \mathbf { z } } \oplus \mathbf { \Xi } } \right)$ )与 $\mathbf { c } _ { \mathrm { p } } \mathbf { \Psi } / \mathbf { c } _ { \mathrm { L } }$ 进行线性拟合,结果见图 AAGKP和 AAGAN线性回归方程分别为
+
+$$
+\Delta \mathrm{M} = - 9 1. 9 4 _ {\mathrm{c} _ {\mathrm{p}}} / \mathrm{c} _ {\mathrm{L}} + 1 0 7 2. 6, \quad \mathrm{R} ^ {2} = 0. 9 4 7;
+$$
+
+将图 中 ${ \bf { \vec { c } } } _ { \mathrm { { p } } }$ 外推趋近于 可求得 $\mathrm { ~ M ~ } _ { \mathrm { f } } ,$ 即最大M值；将 $\mathbf { \vec { c } } _ { \mathrm { ~ \tiny ~  ~ } }$ 外推趋近于 可求得 $\mathrm { { \cal { M } } _ { b } , }$ 即未加药物时测得的 AAG的分子量
+
+将 M Mb和 $\mathbf { A _ { o b s } }$ 代入式 可知 AAGKP和AAGAN复合物的解离常数 $\mathrm { K _ { d } }$ 分别为 $4 . 9 5 \times 1 0 ^ { - 4 }$ 和 $1 . 7 5 \times { 1 0 } ^ { - 3 } \ \mathrm { m o l / L }$
+
+质谱条件对复合物形成的影响及作用力分析考察了毛细管温度对复合物形成的影响 并通过式 计算了毛细管温度为 和 时的K值 $( \kappa ^ { = 1 } / \kappa _ { \mathrm { d } } )$ 结果见表
+
+$$
+\Delta \mathrm{M} = - 3 2 7. 7 1 _ {\mathrm{c} _ {\mathrm{p}}} / \mathrm{c} _ {\mathrm{L}} + 2 5 3 5. 7, \quad \mathrm{R} ^ {2} = 0. 9 6 1 4
+$$
+
+![](images/17ddaec6ce9650c5f762f0f135b09fea94462b58180859f4cbbfa0cbce83b49f.jpg)
+
+<details>
+<summary>line chart</summary>
+
+| 10⁻³ cₚ/cₗ | AAG-AN | AAG-KP |
+| ---------- | ------ | ------ |
+| 1          | 2000   | 900    |
+| 2          | 1700   | 850    |
+| 3          | 1300   | 750    |
+| 4          | 1000   | 650    |
+| 6          | 500    | 500    |
+</details>
+
+Fig.2 ThecurveofΔM- $- \mathbf { c } _ { \mathrm { p } } / \mathbf { c } _ { \mathrm { L } }$
+
+Table1 Theresultsofdifferentcapillarytemperatures
+
+<table><tr><td>Capillary temperature /°C</td><td>170</td><td>175</td><td>180</td><td>185</td><td>190</td></tr><tr><td>Complexes mass (AAG-KP)</td><td>44 505</td><td>44 726</td><td>44 780</td><td>44 740</td><td>44 646</td></tr><tr><td>Complexes mass (AAG-AN)</td><td>45 075</td><td>45 376</td><td>45 683</td><td>45 676</td><td>45 525</td></tr><tr><td> $10^{4} \text{K}_{\text{AAG-KP}} /(\text{mol}\cdot\text{L}^{-1})$ </td><td>0.433</td><td>—</td><td>0.353</td><td>—</td><td>0.319</td></tr><tr><td> $10^{4} \text{K}_{\text{AAG-AN}} /(\text{mol}\cdot\text{L}^{-1})$ </td><td>0.172</td><td>—</td><td>0.122</td><td>—</td><td>0.116</td></tr></table>
+
+毛细管温度对复合物的形成有一定影响 温度较低有利于复合物的形成 当温度在最适结合温度$( 1 8 0 ~ \mathrm { ^ { \circ } C }$ 左右变化时 反应的焓变可看作是一个常数 由式 和式 计算了反应的 H $\Delta \mathrm { G }$ 和 $\Delta \mathrm { S }$ 值.通过计算,温度变化时,AAG-KP的 ΔH和 ΔS分别为 -26.075kJ/(mol·K)和 10.324J/(mol·K)；AAGAN的 H和 $\Delta \mathrm { S }$ 分别为 kJ molK 和 J molK 根据文献 和上述实验结果可知 $\alpha _ { 1 }$ 酸性糖蛋白与酮基布洛芬和樟柳碱间的主要作用力分别为静电引力和范德华力
+
+$$
+\ln \left(\mathrm{K} _ {2} / \mathrm{K} _ {1}\right) = \Delta \mathrm{H} \left(1 / \mathrm{T} _ {1} - 1 / \mathrm{T} _ {2}\right) / \mathrm{R} \tag {2}
+$$
+
+$$
+\Delta \mathrm{G} = \Delta \mathrm{H} - \mathrm{T} \Delta \mathrm{S} = - \mathrm{RT} \ln \mathrm{K} \tag {3}
+$$
+
+式中 T, $\mathrm { T _ { 1 } }$ 和 $\mathrm { { T _ { 2 } } }$ 分别为 和 $1 9 0 ~ \mathrm { { ^ \circ C } }$ 的绝对温度 K, $\mathrm { K } _ { 1 }$ 和 $\mathrm { K _ { 2 } }$ 为与之对应的结合常数 最后还考察了锥孔电压对复合物形成的影响 结果表明 AAGAN在 V即可电离 而 AAGKP在 V才能电离；同时 电压过高会导致复合物部分解离 且电压改变对 AAGKP形成的影响更为明显
+
+## 参 考 文 献
+
+[ 1] ZHANGBao-Lin(张保林 ),WANGWen-Qing(王文清 ),BAIFeng-Lian(白凤莲 )etal..Chem.J.ChineseUniversities(高等学校化学学报 J 15 ：  
+[2] HEJi-Xiang(贺吉香 ),JIANGChong-Qiu(江祟球 ),WANGHong-Jian(王洪鉴 )etal..Chem.J.ChineseUniversities(高等学校化学学报 J 20 ：  
+WANGHongXia王红霞 YANGSongCheng杨松成 ActaPharmaceuticaSinica药学学报 J 36 ：  
+SharonJ Shields OlayinkaOyeyemi J Am Soc MassSpectrom J 14：  
+[ 5] SHEYi-Min(佘益民 ),JIYi-Ping(季 怡 萍 ),HEYu(何 毓 )etal..Chem.J.ChineseUniversities(高 等 学 校 化 学 学 报 )[J],1998,19(11): 1735-1738  
+LEIZhaoBao雷招宝 Chin Hosp Pharm J 中国医院药学杂志 J 9 ：  
+[ 7] LICong-Gang(李从刚 ),LIUMai-Li(刘买利 ).ProgressinNaturalScience(自然科学进展 )[J],2001,11(1)：1-7  
+[ 8] SarkarB..MetalIonsinBiologicalSystem[M],NewYork：MarcelDekker,1991：233
+
+# StudiesontheInteractionofα1-AcidGlycoproteinandDrugs byElectrosprayIonTrapMassSpectrometry
+
+CHENYong∗ ,QIChun-Hua,HANFeng-Mei
+
+(HubeiProvinceKeyLabofBio-TechnologyofTraditionalChineseMedicine,
+
+HubeiUniversity,Wuhan ,China)
+
+Abstract Inthispaper,thenoncovalentinteractionsbetween $\alpha _ { 1 }$ -acidglycoprotein(AAG)andthedrugs, suchasketoprofen(KP)andanisodinehydrobromide(AN)werestudiedbyusingelectrosprayiontrapmass spectrometrymethod.TheresultsshowthatbothofthedrugshadastrongcoalescentinteractionwithAAG, thedissociationconstants $\mathrm { ~ \bf ~ \left. ~ K _ { d } ~ \right)} $ )andtheapparentstoichiometricratioofnoncovalentcomplexesAN-AAGwere 1. $7 5 \times 1 0 ^ { - 3 }$ mol/Land $1 : 7 ,$ ,andthoseforKP-AAGcomplexwere4. $9 5 \times 1 0 ^ { - 4 }$ mol/Land1∶4,respectively. Accordingtothethermodynamicparametersofthenoncoralentcomplexes,themainsortsofbindingforcewere static-electricitygravitationforKP-AAGandVanderWaalsforceforAN-AAG,respectively.Theexperiment provesthatESI-MStechnologyasanewmethodforstudyingthedrug-proteinnoncoralentbindingcanoffer someadvantagesinsensitivity,speed,accuracyanddirectnessparticularlyinthedeterminationofthestoichiormetryofthecomplexcomparedtootherwell-establishedmethodssuchascirculardichroismandfluorescence spectroscopy,etc.
+
+Keywords Electrosprayiontrapmassspectrometry(ESI-MS)； $\alpha _ { 1 } \beta$ cidglycoprotein；Ketoprofen；Anisodine hydrobromide (Ed.：A,G)

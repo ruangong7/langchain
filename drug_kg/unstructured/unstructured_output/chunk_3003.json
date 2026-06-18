@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "替格瑞洛",
+        "canonical_name": "替格瑞洛",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "SideEffect",
+        "name": "呼吸困难",
+        "canonical_name": "呼吸困难",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "心动过缓",
+        "canonical_name": "心动过缓",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "肌酐升高",
+        "canonical_name": "肌酐升高",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "干扰HIT诊断",
+        "canonical_name": "干扰HIT诊断",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "金医药学部",
+          "chunk_index": 3003,
+          "raw_text": "其腺苷相关的不良反应（呼吸困难、心动过缓、肌酐升高）和干扰HIT诊断的特性是其独特之处",
+          "chunk_id": "3003",
+          "data": "。不良反应方面：其腺苷相关的不良反应（呼吸困难、心动过缓、肌酐升高）和干扰HIT诊断的特性是其独特之处，需要临床医生准确识别和管理。因此，在处方替格瑞洛时，必须进行全面的用药评估，并告知患者可能出现的特殊不良反应，以确保治疗的安全性和有效性。参考资料：Bigagli E, Angelini J, Mugelli A, Rocca B. Oral P2Y12 Inhibitors: Victims or Perpetrators? A Focused Review on Pharmacokinetic, Clinically Relevant Drug Interactions.  Eur Cardiol 2025; 20: e17.扫码关注我们图文：陈国权审核：朱亚兰、吕世文"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "金医药学部",
+          "chunk_index": 3003,
+          "raw_text": "其腺苷相关的不良反应（呼吸困难、心动过缓、肌酐升高）和干扰HIT诊断的特性是其独特之处",
+          "chunk_id": "3003",
+          "data": "。不良反应方面：其腺苷相关的不良反应（呼吸困难、心动过缓、肌酐升高）和干扰HIT诊断的特性是其独特之处，需要临床医生准确识别和管理。因此，在处方替格瑞洛时，必须进行全面的用药评估，并告知患者可能出现的特殊不良反应，以确保治疗的安全性和有效性。参考资料：Bigagli E, Angelini J, Mugelli A, Rocca B. Oral P2Y12 Inhibitors: Victims or Perpetrators? A Focused Review on Pharmacokinetic, Clinically Relevant Drug Interactions.  Eur Cardiol 2025; 20: e17.扫码关注我们图文：陈国权审核：朱亚兰、吕世文"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "金医药学部",
+          "chunk_index": 3003,
+          "raw_text": "其腺苷相关的不良反应（呼吸困难、心动过缓、肌酐升高）和干扰HIT诊断的特性是其独特之处",
+          "chunk_id": "3003",
+          "data": "。不良反应方面：其腺苷相关的不良反应（呼吸困难、心动过缓、肌酐升高）和干扰HIT诊断的特性是其独特之处，需要临床医生准确识别和管理。因此，在处方替格瑞洛时，必须进行全面的用药评估，并告知患者可能出现的特殊不良反应，以确保治疗的安全性和有效性。参考资料：Bigagli E, Angelini J, Mugelli A, Rocca B. Oral P2Y12 Inhibitors: Victims or Perpetrators? A Focused Review on Pharmacokinetic, Clinically Relevant Drug Interactions.  Eur Cardiol 2025; 20: e17.扫码关注我们图文：陈国权审核：朱亚兰、吕世文"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "金医药学部",
+          "chunk_index": 3003,
+          "raw_text": "其腺苷相关的不良反应（呼吸困难、心动过缓、肌酐升高）和干扰HIT诊断的特性是其独特之处",
+          "chunk_id": "3003",
+          "data": "。不良反应方面：其腺苷相关的不良反应（呼吸困难、心动过缓、肌酐升高）和干扰HIT诊断的特性是其独特之处，需要临床医生准确识别和管理。因此，在处方替格瑞洛时，必须进行全面的用药评估，并告知患者可能出现的特殊不良反应，以确保治疗的安全性和有效性。参考资料：Bigagli E, Angelini J, Mugelli A, Rocca B. Oral P2Y12 Inhibitors: Victims or Perpetrators? A Focused Review on Pharmacokinetic, Clinically Relevant Drug Interactions.  Eur Cardiol 2025; 20: e17.扫码关注我们图文：陈国权审核：朱亚兰、吕世文"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 3003,
+    "source": "金医药学部",
+    "text": "。不良反应方面：其腺苷相关的不良反应（呼吸困难、心动过缓、肌酐升高）和干扰HIT诊断的特性是其独特之处，需要临床医生准确识别和管理。因此，在处方替格瑞洛时，必须进行全面的用药评估，并告知患者可能出现的特殊不良反应，以确保治疗的安全性和有效性。参考资料：Bigagli E, Angelini J, Mugelli A, Rocca B. Oral P2Y12 Inhibitors: Victims or Perpetrators? A Focused Review on Pharmacokinetic, Clinically Relevant Drug Interactions.  Eur Cardiol 2025; 20: e17.扫码关注我们图文：陈国权审核：朱亚兰、吕世文"
+  }
+]

@@ -1,0 +1,637 @@
+[
+  {
+    "type": "text",
+    "text": "·综 述·",
+    "text_level": 2,
+    "bbox": [
+      19,
+      62,
+      112,
+      82
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "细胞色素 P450酶与药物相互作用研究进展",
+    "text_level": 1,
+    "bbox": [
+      13,
+      122,
+      583,
+      145
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "高志伟施孝金钟明康 （复旦大学附属华山医院临床药学研究室上海200040）",
+    "bbox": [
+      15,
+      176,
+      722,
+      195
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "【中图分类号】R977.3；R969.2",
+    "bbox": [
+      13,
+      233,
+      261,
+      249
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "文献标识码",
+    "bbox": [
+      325,
+      233,
+      449,
+      249
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "美国的一项研究表明 住院患者的严重不良反应发生率为 因药物相互作用的致死率已排名住院患者死亡原因的第 位［1］ 近 内 美国 先后已将批准上市的 种新药从市场撤出其最主要的原因就是出现了严重的药物代谢性相互作用［2］",
+    "bbox": [
+      13,
+      273,
+      468,
+      398
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "近来研究人员在新药的早期研发阶段 应用体外药物代谢体系与酶 人肝脏微粒体 的特异性探针底物结合的方法进行药物体外代谢研究 了解药物对代谢酶的调节及预测可能的代谢性药物相互作用 并以体外研究所得数据为进一步的临床试验设计提供有价值的信息 降低临床试验的成本及风险避免因药物代谢性相互作用而引起的不良反应的发生［3～5］。我们综述了药物体外代谢研究试验中底物及体系的选择、实验条件的优化以及在指导临床合理用药和中－西药物相互作用研究中的应用。",
+    "bbox": [
+      13,
+      400,
+      468,
+      609
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 药物体外代谢研究的体系",
+    "text_level": 2,
+    "bbox": [
+      13,
+      612,
+      273,
+      631
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "11 亚细胞结构 包括微粒体 其他细胞器和肝匀浆 由于组织匀浆及差速离心技术的发展及应用亚细胞结构成为体外药物代谢研究应用最为广泛的模型其中最主要的是人肝脏微粒体。Axelord和 在第一届国际药理学会议上发表的论文第一次论述了肝微粒体用于药物代谢研究的重要价值［6］ 人肝脏微粒体的优点包括 含有肝脏表达的所有参与药物代谢的 酶 因此既可以用于研究任何目标 酶 又可以用于评价某一药物是否为代谢依赖性的抑制剂即某一药物经代谢生成的代谢产物可以抑制另外一个酶的活性 另外 肝微粒体易于制备 可长期保存等 当然肝微粒体也有不足之处 由于 酶存在明显的个体差异 不同来源的微粒体 其 酶的【文章编号】1007-4406（2006）06-0395-04",
+    "bbox": [
+      13,
+      634,
+      468,
+      928
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      513,
+      233,
+      806,
+      249
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "含量及活性有一定的差异 使得不同批次的实验结果无法直接进行比较 由于含有所有的代谢酶 因此以微粒体作为模型进行研究必须使用选择性好 特异性高的探针底物 另外微粒体中含有大量的蛋白及脂质成分会降低反应体系中药物浓度［67］。",
+    "bbox": [
+      500,
+      273,
+      953,
+      377
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "目前采用多种来源的微粒体混合为一微粒体库的做法［7］ 可以很大程度地克服酶的来源有个体差异的缺点 以及由于合成化学及分子生物学的发展每个酶都已证明有选择性好 特异性高的底物",
+    "bbox": [
+      500,
+      379,
+      953,
+      461
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "12 表达的 酶 由于分子生物学技术的发展 表达于细菌 酵母 昆虫 哺乳动物等各种不同生物细胞的 的 酶应用越来越广使我们对酶的底物及抑制剂有了更进一步的理解这类体系的主要优点包括 具有单一性 只含有 种酶 因此对于底物的选择无需具有很高的特异性。该体系的不足之处是细胞色素b 及NADPH-还原酶表达水平的差异 从而会影响到酶对其标志性底物的 $V _ { \\mathrm { m a x } }$ 和 $K _ { \\mathrm { m } }$ 值 米氏常数 另外由于其价格较昂贵 应用受到一定的限制［67］",
+    "bbox": [
+      500,
+      464,
+      953,
+      674
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "13 肝细胞 近年来 由于肝细胞相关技术的发展应用如肝细胞分离、细胞冷冻保存、悬浮液、长期单层培养等方面的研究 以及使用完整的细胞进行研究 有可能更加符合药物在体内的代谢状况 从而可以更加准确地推测药物在体内的实际代谢 使得肝细胞在体外代谢方面有了一定的应用 但肝细胞在分离与培养的过程中存在有酶活性降低的可能 除了代谢性研究之外肝细胞由于含有完整的蛋白合成系统 在研究 酶的蛋白 及酶活性各水平的诱导方面具有很大的价值 成为评价药物因诱导引起相互作用的有价值的资源［67］",
+    "bbox": [
+      500,
+      678,
+      953,
+      909
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "14 肝切片 一种可以切出厚度一致的切片以及对细胞创伤降至最低的新切片机的应用以及加上新的培养技术 使得肝切片早在 年就应用于药物的代谢研究 由于肝切片对药物的摄取及代谢率均较低限制它作为模型应用于药物的筛选但是肝切片可以作为区别种属间代谢差异的理想工具 如果将来的研究可以克服肝切片需长期的培养的缺点及可以较好保持酶的活性将会受到更为广泛的应用［6］。 。",
+    "bbox": [
+      500,
+      910,
+      953,
+      929
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "DOI:10．19577／j．cnki．issn10074406．2006．06．024",
+    "bbox": [
+      25,
+      0,
+      370,
+      14
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中国临床药学杂志 CHINESE JOURNAL OF CLINICAL PHARMACY 2006年第15卷第6期",
+    "bbox": [
+      50,
+      25,
+      724,
+      41
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "",
+    "bbox": [
+      856,
+      25,
+      928,
+      39
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "【作者简介】 高志伟（1981－）男在读硕士研究生。主要从事临床药学研究。Tel：021-32120059；E-mail：gzhw806＠163．com",
+    "bbox": [
+      15,
+      948,
+      817,
+      962
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      34,
+      962,
+      961,
+      975
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      11,
+      60,
+      468,
+      226
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 实验条件的优化",
+    "text_level": 2,
+    "bbox": [
+      13,
+      230,
+      191,
+      248
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "体外药物代谢研究的结果最终可能会影响临床试验的设计 因此体外研究必须有高度的一致性 实验条件需严格控制 才可以使实验结果具有重现性得出的结论才会有价值 实验条件的差异会造成对酶活性作出过低或是过高的评估最终导致药物间相互作用的不正确的判断。",
+    "bbox": [
+      11,
+      252,
+      467,
+      375
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "21 探针底物的选择 测定 酶活性 预测某药物对酶的抑制能力最关键的是探针底物的选择 理想的用于筛选 酶抑制剂的探针底物应该具有以下共同特征［8］ $K _ { \\mathrm { m } }$ 值应该与相关的IC 值在相同的范围内溶解度应该远大于其 $K _ { \\mathrm { m } }$ 值 代谢后仅产生 种代谢产物 且底物转化率在时 可以准确检测到 代谢产物不会发生进一步的代谢 不会引起代谢依赖的酶失活 稳态动力学最好是具有饱和性和单向性",
+    "bbox": [
+      11,
+      379,
+      468,
+      568
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "评价一新药对 CYP450酶的潜在作用（抑制或诱导 时 通常是通过在体外此药物对代表该酶活性的标志性探针底物反应的影响来判断 以 个探针药物在体外实验得到的结果预测该化合物对所有此酶的底物可能产生的影响 因此选择正确的探针底物是非常重要的 等［9］ 调查统计了在美国年所申报的 种及 年申报的 种新药中研究人员在药物研发过程中所采用的酶特异性的探针底物（表1）。",
+    "bbox": [
+      11,
+      570,
+      467,
+      759
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "由于 底物相互作用并不符合典型的竞争性抑制动力学 等［10］研究表明 同一抑制剂的 值会根据所选用的探针底物的不同而不同由 介导的药物相互作用是底物依赖性的因此在药物筛选过程中 可能需要选择多个探针底物来综合评价药物对 的调节作用",
+    "bbox": [
+      11,
+      761,
+      467,
+      885
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "22 检测方法 利用这些传统探针底物研究时 所采用的分析方法通常是液相色谱 紫外或是液相色谱 质谱的方法 过去的研究每次仅应用单个探针底物对相应的单个酶的活性作出评价近来研究人员采用同时将代表不同酶活性的多个探针底物与体外反应体系共同孵育的方法即“鸡尾酒（cocktail）”法来增加筛选的效率 同时评价某药物对多个酶的调节作用。这种混合孵育的方法需要具有高灵敏度及高选择性 可以快速同时定量检测各种探针底物和代谢产物的分析方法 目前最有价值且应用最广的是液相色谱－串联质谱联用（LC-MS／MS）的方法［1112］ 。",
+    "bbox": [
+      11,
+      887,
+      467,
+      970
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      500,
+      60,
+      953,
+      230
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/c3b7262309cae391a13a562557b1984f598f720b44260e4b08146a340530b5ef.jpg",
+    "table_caption": [
+      "表1 代表酶活性的探针底物及特异性反应（1992－1997年美国FDA批准的194种新药）"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>酶</td><td>探针底物及反应</td></tr><tr><td>CYP1A1</td><td>乙氧基试卤灵 O-去乙基化</td></tr><tr><td>CYP1A2</td><td>非那西汀 O-去乙基化,咖啡因 3-去甲基乙氧基试卤灵 O-去乙基化</td></tr><tr><td>CYP2A6</td><td>香豆素 7-羟化</td></tr><tr><td>CYP2B6</td><td>7-乙氧基-4-三氟甲基香豆素 O-脱烷基</td></tr><tr><td>CYP2C8/9</td><td>甲苯磺丁脲 4&#x27;-羟化,S-华法林 7&#x27;-羟化,二氯芬酸 4&#x27;-羟化</td></tr><tr><td>CYP2C19</td><td>S-美芬妥英 4-羟化</td></tr><tr><td>CYP2D6</td><td>丁呋洛尔 1&#x27;-羟化,右美沙芬 O-去甲基,异喹胍 4-羟化,司巴丁 氧化</td></tr><tr><td>CYP2E1</td><td>氯唑沙宗 6-羟化</td></tr><tr><td>CYP3A4</td><td>睾酮 6β-羟化,咪达唑仑 1&#x27;-羟化,硝苯地平 氧化,红霉素 N-去甲基,环孢素 氧化,特非那定 羟化等</td></tr><tr><td>CYP4A</td><td>十二烷酸 羟化</td></tr></table>",
+    "bbox": [
+      507,
+      279,
+      945,
+      508
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "采用产荧光底物以荧光检测分析手段来对药物进行筛选是另外一种选择。1974年 Burke 和 Mayer第一次采用荧光分析方法 通过检测烷氧基试卤灵的 O-脱烷基化来评价肝 CYP450酶活性的诱导作用 此后 试卤灵不同的 O 烷基衍生物 荧光素羟基香豆素以及 羟基喹啉等都被用作 酶的荧光底物用于体外药物相互作用研究［8］ 荧光分析方法具有灵敏度高 无需将代谢产物分离 可以同时对大量的反应进行监测的特点 增加了检测的效率 其基本原理是采用无或低荧光的 酶底物在水溶性的环境下与酶共同孵育生成高荧光的代谢产物 但那些水溶性低 代谢率低 信噪比低或激发波长在紫外范围内的荧光探针药物并不适合用来高通量筛选 且仅有少部分的产荧光的探针药物是对 酶是特异性的 大部分的探针药物是非特异性的 不适合用含多种 酶的体系如肝微粒体、肝细胞等进行研究仅适用于单个表达的重组酶体系［13］ 。",
+    "bbox": [
+      500,
+      522,
+      953,
+      904
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "等［8］对荧光底物与传统底物对比研究表明 当利用两类不同的底物对药物进行 酶的抑制性研究时两者所得的结果无直接的相关性因此在药物研发的早期阶段可以利用荧光底物高通量的优点来进行筛选 当进一步研究时 则应该选择传统底物 使用选择性和灵敏度更高的MS 进行更详细的研究来预测该药物可能的相互作用。",
+    "bbox": [
+      500,
+      906,
+      953,
+      970
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "·396·",
+    "bbox": [
+      44,
+      25,
+      114,
+      39
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "中国临床药学杂志 CHINESE JOURNAL OF CLINICAL PHARMACY 2006年第15卷第6期",
+    "bbox": [
+      244,
+      26,
+      918,
+      41
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      13,
+      62,
+      468,
+      165
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "23 其他实验条件 由于大多数 酶的底物是脂溶性的因此在体外实验研究时常常需要有机溶剂来溶解底物。Busby 等［14］研究了甲醇、乙醇、乙腈及二甲基亚砜 种常用溶剂对 种 表达的酶活性的影响 表明在 的浓度范围内种溶剂对不同的酶的抑制作用并不一致 同一种溶剂对不同的酶抑制程度不同 同一种酶受不同溶剂抑制的程度也不同 甲醇在 时 对所有酶的抑制程度均 乙腈次之 在 时 除了及 外 抑制程度均而乙醇和二甲基亚砜 在浓度低至 时对一些酶的抑制程度仍然在 另外 个相似研究报道的结果［1516］与此基本一致但仍然有区别存在 所存在的区别中 他们对同一种酶选用了不同的底物 提示对特定某一个酶来说 溶剂的抑制作用可能是底物依赖性的",
+    "bbox": [
+      13,
+      167,
+      468,
+      503
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "反应的初速度CYP450酶与探针底物的反应应该在初始速度条件下进行 因此要优化反应的条件如底物浓度 孵育时间及酶蛋白的含量等 使代谢物的形成应与孵育时间及蛋白含量成正比 反应体系的 $\\mathrm { p H }$ 值及离子强度应与体内环境相似如 $\\mathrm { p H }$ 值应该维持在7．4左右而不是根据酶的最佳 $\\mathrm { p H }$ 值来确定；反应体系中微粒体蛋白的含量最好低于0．5g·$\\mathrm { ~ L ~ } ^ { - 1 }$ 有利于降低药物的蛋白结合 因此不宜向反应体系中加入牛血清白蛋白或是人血清来模拟体内环境［35］；另外探针底物及抑制剂浓度的选择等均会影响试验所得的结论",
+    "bbox": [
+      13,
+      506,
+      468,
+      736
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3 药物体外代谢研究的应用",
+    "text_level": 2,
+    "bbox": [
+      13,
+      740,
+      271,
+      758
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "31 对临床合理用药的指导作用 通过药物体外代谢研究 可以了解药物的代谢特征 如主要参与该药物代谢的 酶以及该药物对何种酶有抑制或是诱导作用 从而指导临床合理用药利用药物的代谢性相互作用可以增加目标药物的疗效 减少不良反应 尼古丁替代疗法可用于戒烟治疗 但其口服制剂由于首关效应很大而导致疗效不理想 增加剂量则会导致胃肠道不良反应 尼古丁在体内主要经 代谢清除 能抑制",
+    "bbox": [
+      13,
+      761,
+      468,
+      948
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "CYP2A6的活性从而抑制口服尼古丁的首关效应联合尼古丁治疗能显著降低吸烟量。利托那韦和沙奎那韦等蛋白水解酶抑制剂为 感染治疗药 它们主要经 $\\mathrm { C Y P 3 A ^ { 4 } }$ 代谢 同时对 有不同程度的抑制作用 其中沙奎那韦的生物利用度较低 利用利托那韦对酶有抑制作用 两者配合使用时则沙奎那韦的 $\\boldsymbol { \\ell } _ { \\mathrm { m a x } }$ 和 均增高 利用药物的代谢性相互作用还可以降低患者用药经济负担 器官移植术后应用的环孢素价格昂贵主要经由 CYP3A4代谢若同时使用该酶的抑制剂酮康唑则会使环孢素的生物利用度提高1倍从而可以降低环孢素的使用剂量最终降低患者的经济负担［17］。",
+    "bbox": [
+      13,
+      951,
+      455,
+      968
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      500,
+      62,
+      953,
+      292
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "32 在中－西药相互作用研究中的应用 随着中西医结合的发展 中西药合并应用变得更加普遍 由此产生的不良反应也越来越受到重视 药物体外代谢研究技术已经逐渐应用到中－西药相互作用的研究 来预测中药有效成分与西药因代谢引起的相互作用 大量的研究报道了多种中药对 酶系有调节作用 如贯叶 连翘提取物对和 的活性有较强的抑制作用 银杏叶提取物中萜类对 有较明显抑制作用 而黄酮类则对CYP2C9、CYP1A2、CYP2E1和CYP3A4均有抑制作用 白芷提取物对 和有抑制作用 人参皂苷 对 和有弱抑制作用 人参皂苷 $\\mathrm { R c }$ 可以增强的活性而 可增强 的活性 另外关于大蒜素 葡萄柚汁以及茶叶等对 酶系的调节作用均有研究报道［318～23］。",
+    "bbox": [
+      500,
+      295,
+      953,
+      632
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "4 结语",
+    "text_level": 2,
+    "bbox": [
+      501,
+      636,
+      577,
+      653
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "随着体外药物代谢高通量筛选研究技术的进一步成熟和完善 其在药物的早期研发和中 西药相互作用以及药物的临床不良反应中的得到更广泛的应用 目前体外代谢研究的瓶颈已经从数据的获得转化为对数据的解释［324］ 考察体外研究所得的酶抑制性数据与体内药物相互作用的相关性 体外代谢已经被证明在定性预测药物相互作用方面有重要价值 但是在定量方面 仍无法作为单一手段预测药物的相互作用 因此需要进一步的研究体外 体内的相关性充分合理的应用体外代谢数据降低药物研发筛选过程的成本与风险 为临床合理用药提供有价值的信息。",
+    "bbox": [
+      500,
+      657,
+      953,
+      909
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "【参考文献】",
+    "text_level": 2,
+    "bbox": [
+      680,
+      924,
+      773,
+      939
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "ref_text",
+    "text": "［1］ Lazarou JPomeranz BHCorey PN．Incidence of adverse drug reactions",
+    "bbox": [
+      500,
+      954,
+      953,
+      968
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "中国临床药学杂志 CHINESE JOURNAL OF CLINICAL PHARMACY 2006年第15卷第6期",
+    "bbox": [
+      52,
+      26,
+      722,
+      40
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "·397·",
+    "bbox": [
+      856,
+      25,
+      926,
+      39
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "in hospitalized patients：a meta-analysis of prospective studies ［ J ］．JA-MA,1998,279(15):1200.",
+      "李焕德 李坤艳 药物代谢性相互作用体外研究的重要性 中南药学,2005,3(3)：179.",
+      "［3］ Venkatakrishnan KMoltke LScott ORet al．Drug metabolism and drug interactions：application and clinical value of in vitro models ［J ］ Curr Druq Metab，2003,4(5);423.",
+      "［4］ Masimirembwa CMThompson RAndersson TB．In vitro high throughput screening of compounds for favorable metabolic properties in drug discovery[J].Comb Chem Hiqh T Scr，2OOl，4(3):245.",
+      "［5］ Bjornsson TDCallaghan JTEinolf HJet al．The conduct of in vitro and in vivo drug-drug interaction studies：a PhRMA perspective ［ J ］．J Clin Pharmcol,2003,43(5):443.",
+      "［6］ Ekins SRing BJGrace Jet al．Present and future in vitro approaches for druq metabolism[J]. JPharmacol Toxicol,2OOO,44(1):313.",
+      "［7］ Rodrigues AD．Drug-drug interactions ［ M ］．New York：Marcel Dekker Inc,2002,217—294.",
+      "［8］ Cohen LRemly MRaunig Det al．In vitro drug interactions of cytochrome P450：an evaluation of fluorogenic to conventional substrates [J].Druq Metab Dispos,2003,3l(8),1005.",
+      "［9］ Yuan RMadani SWei XXet al．Evaluation of cytochrome P450probe substrates commonly used by the pharmaceutical industry to study in vitro drug interactions[J]·Drug Metab Dispos,2OO2,3O(12):1311.",
+      "［10］ Wang RWNewton DJLiu Net al．Human cytochrome P-4503A4：in vitro drug-drug interaction patterns are substrate-dependent ［ J ］Drug Metab Dispos200028（3）：360",
+      "［11］ Zhang TZhu YGunaratna C．Rapid and quantitative determination of metabolites from multiple cytochrome P450probe substrates by gradient liquid chromatography-electrospray ionization-ion trap mass spectrometry [J].JChromatoqr B，2002,780(2):371.",
+      "［12］ Testino SAPatonay G．High-throughput inhibition screening of major human cytochrome P450enzymes using an in vitro cocktail and liquid chromatography tandem mass spectrometry ［J ］．J Pharm Biomed Anal 2003,30(5)：1459.",
+      "［13］ Donato MJimenez NCastell Jet al．Fluorescence-based assays for",
+      "（2005-07-07收稿）",
+      "screening nine cytochrome P450（P450） activities in intact cells expressing individual human P450 enzymes ［ J ］．Drug Metab Dispos 2004,32(7):699.",
+      "［14］ Busby WJAckermann JMCrespi CL ．Effect of methanolethanol dimethyl sulfoxide and acetonitrile on in vitro activities of cDNA-expressed human cytochromes P-450［ J ］．Drug Metab Dispos199927 (2).246.",
+      "［15］ Chauret NGauthier ANicol-l Griffith DA．Effect of common organic solvents on in vitro cytochrome P450-mediated metabolic activities in human liver microsomes［J］．Drug Metab Dispos199826（1）：1",
+      "［16］ Tang CShou MRodrigues AD．Substrate-dependent effect of acetoni-trile on human liver microsomal cytochrome P4502C9（CYP2C9） activ-ity[J].Drug Metab Dispos,200O,28(5):567.",
+      "周权 姚彤炜 曾苏 代谢性药物的相互作用 中国临床药理学杂志,2001,17(4).313.",
+      "［18］ Unger MFrank A．Simultaneous determination of the inhibitory potency of herbal extracts on the activity of six major cytochrome P450enzymes using liquid chromatography／mass spectrometry and automated online extraction[J].Mass Spectrom,2004,18(19)：2273.",
+      "［19］ von Moltke LLWeemhoff JLBedir Eet al．Inhibition of human cytochromes P450by components of Ginkgo biloba ［J ］．J Pharm Pharmacol,2004,56(8),1039.",
+      "夏芳 陈孝银 中西药物并用对细胞色素 酶系的影响中国中西医结合杂志",
+      "［21］ Henderson LYue QYBergquist Cet al．St john’s wort （hyperiumperoratum）：drug interactions and clinical outcomes［J］．Br J Clin Phar-macol200254（4）：349",
+      "[22] Gaudineau C，Beckerman R，Welbourn S,et al．Inhibition of human P450enzymes by multiple constituents of the Ginkgo biloba extract ［J］ Biochem Biophys Res Commun,2O04，318(4):1072.",
+      "［23］ Zhou SFGao YHJiang WQet al．Interactions of herbs with cytochrome P45O[J]·Drug Metabolism Reviews,2003,35(1):35.",
+      "周权 颜小峰 姚彤炜 等 用体外代谢数据预测临床上药物体内代谢性相互作用 中国临床药理学杂志"
+    ],
+    "bbox": [
+      15,
+      60,
+      468,
+      681
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      500,
+      60,
+      955,
+      681
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "《中国医院药学杂志》 2007年征订启事 《中国医院药学杂志》系中国科协主管、中国药学会主办的综合性医院药学专业性学术核心期刊 月刊 大 开 每期为 页 定价 元 全年 元每月18号出版国内邮发代号：38－50国外代号：M165－38。本刊出已开通网上在线投稿欢迎广大作者踊跃投稿（网址：http：／／www．zgyyyx．com）。编辑部地址：武汉市胜利街155号（邮政编码：430014）；电话：027－82836596；传真：027－82856411；E-mail：pharmacy＠vip．163．com",
+    "bbox": [
+      13,
+      727,
+      953,
+      839
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "《中国临床医学》杂志征订启事 《中国临床医学》杂志系复旦大学附属中山医院主办教育部主管的临床医学类学术期刊 本刊为双月刊 逢双月 号出版 每期定价 元 全年 元 邮发代号本刊的通讯地址 上海市医学院路 号 邮政编码 电话com",
+    "bbox": [
+      13,
+      863,
+      953,
+      952
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "·398·",
+    "bbox": [
+      44,
+      25,
+      114,
+      39
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "中国临床药学杂志 CHINESE JOURNAL OF CLINICAL PHARMACY 2006年第15卷第6期",
+    "bbox": [
+      244,
+      26,
+      918,
+      41
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      32,
+      958,
+      961,
+      975
+    ],
+    "page_idx": 3
+  }
+]

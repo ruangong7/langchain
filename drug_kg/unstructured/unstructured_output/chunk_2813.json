@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "乙酰半胱氨酸",
+        "canonical_name": "乙酰半胱氨酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "硝酸甘油",
+        "canonical_name": "硝酸甘油",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "低血压",
+        "canonical_name": "低血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "颞动脉扩张",
+        "canonical_name": "颞动脉扩张",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药评中心",
+          "chunk_index": 2813,
+          "raw_text": "乙酰半胱氨酸与硝酸甘油合用，会导致明显的低血压并增强颞动脉扩张。如果必须使用本品与硝酸甘油合用，应密切监控是否出现低血压。",
+          "chunk_id": "2813",
+          "data": "。另外，乙酰半胱氨酸与硝酸甘油合用，会导致明显的低血压并增强颞动脉扩张。如果必须使用本品与硝酸甘油合用，应密切监控是否出现低血压。【答案】ABCD欢迎投稿小编微信：druglive，vipnote稿件要求：临床用药相关的专业文章稿件格式：word文档收听药评中心，每天都能进步一点点！"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "药评中心",
+          "chunk_index": 2813,
+          "raw_text": "乙酰半胱氨酸与硝酸甘油合用，会导致明显的低血压并增强颞动脉扩张。",
+          "chunk_id": "2813",
+          "data": "。另外，乙酰半胱氨酸与硝酸甘油合用，会导致明显的低血压并增强颞动脉扩张。如果必须使用本品与硝酸甘油合用，应密切监控是否出现低血压。【答案】ABCD欢迎投稿小编微信：druglive，vipnote稿件要求：临床用药相关的专业文章稿件格式：word文档收听药评中心，每天都能进步一点点！"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "药评中心",
+          "chunk_index": 2813,
+          "raw_text": "乙酰半胱氨酸与硝酸甘油合用，会导致明显的低血压并增强颞动脉扩张。",
+          "chunk_id": "2813",
+          "data": "。另外，乙酰半胱氨酸与硝酸甘油合用，会导致明显的低血压并增强颞动脉扩张。如果必须使用本品与硝酸甘油合用，应密切监控是否出现低血压。【答案】ABCD欢迎投稿小编微信：druglive，vipnote稿件要求：临床用药相关的专业文章稿件格式：word文档收听药评中心，每天都能进步一点点！"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 2813,
+    "source": "药评中心",
+    "text": "。另外，乙酰半胱氨酸与硝酸甘油合用，会导致明显的低血压并增强颞动脉扩张。如果必须使用本品与硝酸甘油合用，应密切监控是否出现低血压。【答案】ABCD欢迎投稿小编微信：druglive，vipnote稿件要求：临床用药相关的专业文章稿件格式：word文档收听药评中心，每天都能进步一点点！"
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "PhiP",
+        "canonical_name": "2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "考迈斯托醇",
+        "canonical_name": "coumestrol",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "大豆甙元",
+        "canonical_name": "daidzein",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "丹曲林",
+        "canonical_name": "dantrolene",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "雌酮-3-硫酸酯",
+        "canonical_name": "estrone-3-sulfate",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "染料木素",
+        "canonical_name": "genistein",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "哌唑嗪",
+        "canonical_name": "prazosin",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "柳氮磺胺吡啶",
+        "canonical_name": "sulfasalazine",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "cck-8",
+        "canonical_name": "cholecystokinin octapeptide",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "雌二醇17b-葡萄糖醛酸苷",
+        "canonical_name": "estradiol-17β-glucuronide",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "匹伐他汀",
+        "canonical_name": "pitavastatin",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "MRP2",
+        "canonical_name": "MRP2",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "P-gp",
+        "canonical_name": "P-gp",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "OATPs",
+        "canonical_name": "OATPs",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "NTCP",
+        "canonical_name": "NTCP",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "OATP1B1",
+        "canonical_name": "OATP1B1",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "OATP1B3",
+        "canonical_name": "OATP1B3",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "PhiP也是MRP2和P-gp底物",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "PhiP也是MRP2和P-gp底物",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "考迈斯托醇也是OATPs和NTCP底物",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "考迈斯托醇也是OATPs和NTCP底物",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "大豆甙元也是OATPs和NTCP底物",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "大豆甙元也是OATPs和NTCP底物",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "丹曲林也是OATPs和NTCP底物",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "丹曲林也是OATPs和NTCP底物",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "雌酮-3-硫酸酯也是OATPs和NTCP底物",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "雌酮-3-硫酸酯也是OATPs和NTCP底物",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "染料木素也是OATPs和NTCP底物",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "染料木素也是OATPs和NTCP底物",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "哌唑嗪也是P-gp底物",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "柳氮磺胺吡啶OATP1B1,OATP1B3",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "柳氮磺胺吡啶OATP1B1,OATP1B3",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "cck-8 OATP1B3的选择性底物",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "雌二醇17b-葡萄糖醛酸苷OATP1B1的选择性底物",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "雌酮3-硫酸酯OATP1B1的选择性底物",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3133,
+          "raw_text": "匹伐他汀也是MRP2",
+          "chunk_id": "3133",
+          "data": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 3133,
+    "source": "驭时GCP信息",
+    "text": ",5-b]吡啶(2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine)  PhiP也是MRP2和P-gp底物考迈斯托醇(coumestrol)大豆甙元(daidzein)丹曲林(dantrolene)雌酮-3-硫酸酯(estrone-3-sulfate)也是OATPs和NTCP底物染料木素(genistein)哌唑嗪(prazosin)也是P-gp底物柳氮磺胺吡啶(sulfasalazine)OATP1B1,OATP1B3cck-8(cholecystokinin octapeptide)OATP1B3的选择性底物（相比于OATP1B1）雌二醇17b-葡萄糖醛酸苷(estradiol-17β-glucuronide)雌酮3-硫酸酯(estrone-3-sulfate)OATP1B1的选择性底物（相比于OATP1B3）匹伐他汀(pitavastatin也是MRP2"
+  }
+]

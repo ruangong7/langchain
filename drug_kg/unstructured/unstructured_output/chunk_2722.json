@@ -1,0 +1,66 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "四环素类抗菌药",
+        "canonical_name": "四环素类抗菌药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "抗酸药",
+        "canonical_name": "抗酸药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "维生素K",
+        "canonical_name": "维生素K",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物与用药安全",
+          "chunk_index": 2722,
+          "raw_text": "四环素类抗菌药与含钙、铝、镁的抗酸药发生络合反应，可使四环素的吸收立即下降",
+          "chunk_id": "2722",
+          "data": "。按发生的时间过程，有的药物相互作用可立即发生，如四环素类抗菌药与含钙、铝、镁的抗酸药发生络合反应，可使四环素的吸收立即下降。另一些药物相互作用的影响可能需要数小时或几天才表现出来。如华法林的抗凝作用可被合用的维生素K逐渐减弱。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "药物与用药安全",
+          "chunk_index": 2722,
+          "raw_text": "华法林的抗凝作用可被合用的维生素K逐渐减弱",
+          "chunk_id": "2722",
+          "data": "。按发生的时间过程，有的药物相互作用可立即发生，如四环素类抗菌药与含钙、铝、镁的抗酸药发生络合反应，可使四环素的吸收立即下降。另一些药物相互作用的影响可能需要数小时或几天才表现出来。如华法林的抗凝作用可被合用的维生素K逐渐减弱。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 2722,
+    "source": "药物与用药安全",
+    "text": "。按发生的时间过程，有的药物相互作用可立即发生，如四环素类抗菌药与含钙、铝、镁的抗酸药发生络合反应，可使四环素的吸收立即下降。另一些药物相互作用的影响可能需要数小时或几天才表现出来。如华法林的抗凝作用可被合用的维生素K逐渐减弱。"
+  }
+]

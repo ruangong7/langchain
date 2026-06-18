@@ -1,0 +1,1048 @@
+[
+  {
+    "type": "text",
+    "text": "基于 MCDEX 数据库评价抑制胃酸分泌药的药物相互作用",
+    "text_level": 1,
+    "bbox": [
+      101,
+      107,
+      725,
+      128
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "袁 勤1，孙嘉婧2\\*，邹清梅 1，杨 彪1",
+    "bbox": [
+      119,
+      147,
+      426,
+      164
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "1. 崇州市人民医院，四川 成都 611230",
+      "2. 都江堰市人民医院 药学部，四川 都江堰 611830"
+    ],
+    "bbox": [
+      119,
+      168,
+      467,
+      200
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘 要：目的 评价抑制胃酸分泌药的药物相互作用（DDI）。方法 在MCDEX 数据库药物相互作用版块中检索抑制胃酸分泌药的 DDI，并对其进行归纳分析。结果 28 种抑制胃酸分泌药在 MCDEX 数据库中提示存在 3 607 对 DDI，其中禁忌合用、不推荐合用、谨慎合用、关注、可以合用的分别有 50、168、2 214、979、196 对。H2受体阻滞剂类抑酸药 DDI 最多，其中西咪替丁的 DDI 达 777 对。结论 抑制胃酸分泌药物较易与其他药物发生相互作用，主管医师和临床药师应对其药物治疗方案进行整理和优化，避免因 DDI 引起药物不良反应或导致疗效降低。",
+    "bbox": [
+      99,
+      220,
+      895,
+      303
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词：抑制胃酸分泌药；药物相互作用；安全用药；H2受体阻滞剂；质子泵抑制剂；西咪替丁",
+    "bbox": [
+      101,
+      306,
+      725,
+      321
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号：R974 文献标志码：A 文章编号：1674 - 5515(2025)01 - 0206 - 05",
+    "bbox": [
+      101,
+      324,
+      681,
+      339
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "DOI: 10.7501/j.issn.1674-5515.2025.01.034",
+    "bbox": [
+      101,
+      341,
+      370,
+      355
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Evaluation of drug-drug interactions in anti-gastric acid secretion drugs by MCDEX databases",
+    "text_level": 1,
+    "bbox": [
+      101,
+      376,
+      893,
+      416
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "YUAN Qin1, SUN Jiajing2, ZOU Qingmei1, YANG Biao1",
+    "bbox": [
+      117,
+      438,
+      519,
+      455
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "1. Chongzhou People’s Hospital, Chengdu 611230, China",
+      "2. Department of Pharmacy, Dujiangyan People’s Hospital, Dujiangyan 611830, China"
+    ],
+    "bbox": [
+      119,
+      458,
+      637,
+      489
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Abstract: Objective To evaluate and analyze the drug-drug interactions (DDI) of anti-gastric acid secretion drugs. Methods The DDI of anti-gastric acid secretion drugs in MCDEX databases’drug interaction section were selected, the results were analyze and summarized. Results 3 607 Pairs of DDIs were identifined in MCDEX databases involving 28 types of anti-gastric acid secretion drugs, the DDIs that were taboo combination use, not recommended combination use, cautious combination use, pay attention to use, can be used in combination were 50, 168, 2 214, 979, and 196, respectively. The quantities of DDIs in H2 receptor antagonists was the most. Among them, the DDI of cimetidine reached 777 pairs. Conclusion The anti-gastric acid secretion drugs are more likely to interact with others, chief physician and clinical pharmacists should pay more attention on these patients to avoid the adversr drug reactions during therapy.",
+    "bbox": [
+      99,
+      507,
+      895,
+      642
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Key word: anti-gastric acid secretion drugs, drug-drug interaction, medication safety, H2 receptor antagonists, proton pump inhibitors; cimetidine",
+    "bbox": [
+      99,
+      644,
+      893,
+      676
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "近年来，随着人们用药安全意识的提高，同时使用多种药物时药物之间的药物相互作用（DDI）也随之成为临床合理用药领域关注的热点[1-3]，世界各国监管机构也发布了相应的化学药药动学相互作用研究相关指导原则[4]。DDI 的影响涉及到药物在体内的吸收、代谢、分布、排泄等各个方面。从吸收上讲，如使用抗酸药物后，提高了胃肠道的pH值，此时如果服用酸性药物，胃内环境 pH 值的改变会导致药物解离度上升、吸收率降低。药物的代谢主要依赖肝药酶，对肝药酶有影响的药物也会影响其他药物的代谢[5]。如奥美拉唑，在肝脏主要经CYP2C19 和 CYP3A4 酶代谢，它同时又是 CYP1A2酶诱导剂和 CYP2C19 酶抑制剂，这导致其与很多药物存在相互作用[6-7]。药物联用的理想状况是增强药效、减少用量、降低不良反应，如利托那韦通过抑制 CYP3A 酶从而减少奈玛特韦的代谢，使奈玛特韦消除减慢，因而临床将利托那韦与奈玛特韦联用以增强后者的抗病毒疗效[8]。相比于极少数有益的 DDI 结局，在临床实际工作中，大多数 DDI 是导致药物不良反应增加[9-11]，因此，识别潜在的DDI带来的负面影响尤为重要。",
+    "bbox": [
+      101,
+      693,
+      485,
+      844
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      511,
+      693,
+      895,
+      844
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "·206·",
+    "bbox": [
+      106,
+      61,
+      153,
+      73
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "第 40 卷第 1 期 2025 年 1 月",
+    "bbox": [
+      186,
+      61,
+      377,
+      75
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "现代药物与临床",
+    "bbox": [
+      419,
+      61,
+      524,
+      75
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Drugs & Clinic",
+    "bbox": [
+      550,
+      61,
+      651,
+      75
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Vol. 40 No. 1 January 2025",
+    "bbox": [
+      689,
+      61,
+      862,
+      75
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "收稿日期： 2024-11-13",
+    "bbox": [
+      135,
+      860,
+      261,
+      872
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "基金项目：中国药学会科技开发中心项目（CMEI2024KPYJ00606；CMEI2024KPYJ00809）",
+    "bbox": [
+      135,
+      873,
+      622,
+      887
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "作者简介：袁 勤，女，主管药师，本科，研究方向为医院临床药学。E-mail: 27510776@qq.com",
+    "bbox": [
+      135,
+      889,
+      656,
+      901
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "\\*通信作者：孙嘉婧，女，副主任药师，硕士，研究方向为医院临床药学。E-mail: 178804608@qq.com",
+    "bbox": [
+      135,
+      904,
+      681,
+      917
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      29,
+      960,
+      336,
+      978
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      99,
+      90,
+      483,
+      183
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "MCDEX 数据库是广泛使用的医学信息数据库，涵盖全面、准确和权威的药物信息。该数据库的 DDI 模块提供了较为全面且实用的 DDI 信息，可帮助识别和管理DDI风险，为临床提供更安全和有效的药物治疗。本研究通过对 MCDEX 数据库中收录的所有抑制胃酸分泌药 DDI的检索，总结分析其发生机制，以期为临床合理提供参考。",
+    "bbox": [
+      99,
+      186,
+      483,
+      318
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 资料与方法",
+    "text_level": 2,
+    "bbox": [
+      102,
+      322,
+      218,
+      336
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "梳理MCDEX数据库中收录的所有抑制胃酸分泌药，在“药物相互作用”版块以不含剂型的药品通用名为检索词对抑制胃酸分泌药的药物相互作用进行检索，检索日期截止于 2024年11月6 日。",
+    "bbox": [
+      101,
+      340,
+      483,
+      414
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "纳入本次研究的包括 $\\mathrm { H } _ { 2 }$ 受体阻滞剂、质子泵抑制剂、胆碱受体阻滞药、胃泌素受体阻滞剂及其他共计 5 大类 28 种抑制胃酸分泌药。数据库根据药物相互作用的风险等级将检索结果分为禁忌合用、不推荐合用、谨慎合用、关注、可以合用 5个等级，对其进行归纳和分析。",
+    "bbox": [
+      511,
+      90,
+      893,
+      202
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 结果",
+    "text_level": 2,
+    "bbox": [
+      511,
+      206,
+      578,
+      221
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.1 抑制胃酸分泌药 DDI统计",
+    "text_level": 2,
+    "bbox": [
+      511,
+      225,
+      751,
+      241
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "在MCDEX数据库对抑制胃酸分泌药的药物相互作用进行检索，结果显示，28种抑制胃酸分泌药共收录3607对DDI，其中禁忌合用、不推荐合用、谨慎合用、关注、可以合用的分别有 50、168、2214、979、196对。28种抑制胃酸分泌药中有 1种（曲硫嗪）尚未收集到有国内批准的适应证相关资料。12种 $\\mathrm { H } _ { 2 }$ 受体阻滞剂 DDI 共计 2 105 对，其中西咪替丁的DDI最多，达 777对。8种质子泵抑制剂 DDI共计 1094对。各类抑制胃酸分泌药 DDI见表1。",
+    "bbox": [
+      511,
+      244,
+      895,
+      414
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/e878b5dce706357907eceb25f9b2b1ba1de1486d943f5749b63d13b20ae423cf.jpg",
+    "table_caption": [
+      "表 1 抑制胃酸分泌药相互作用分级统计",
+      "Table 1 Statistics of DDI grading for anti-gastric acid secretion drugs"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>分类</td><td>药名</td><td>禁忌合用/对</td><td>不推荐合用/对</td><td>谨慎合用/对</td><td>关注/对</td><td>可以合用/对</td></tr><tr><td rowspan=\"12\"> $H_2$ 受体阻滞剂</td><td>西咪替丁</td><td>1</td><td>21</td><td>550</td><td>181</td><td>24</td></tr><tr><td>雷尼替丁</td><td>0</td><td>2</td><td>171</td><td>127</td><td>8</td></tr><tr><td>枸橼酸铋雷尼替丁</td><td>0</td><td>0</td><td>175</td><td>122</td><td>0</td></tr><tr><td>法莫替丁</td><td>0</td><td>2</td><td>98</td><td>15</td><td>40</td></tr><tr><td>尼扎替丁</td><td>0</td><td>2</td><td>84</td><td>29</td><td>35</td></tr><tr><td>复方西咪替丁</td><td>0</td><td>0</td><td>56</td><td>53</td><td>0</td></tr><tr><td>法莫替丁钙镁</td><td>0</td><td>0</td><td>84</td><td>15</td><td>0</td></tr><tr><td>罗沙替丁醋酸酯</td><td>0</td><td>2</td><td>63</td><td>9</td><td>1</td></tr><tr><td>拉呋替丁</td><td>0</td><td>2</td><td>59</td><td>6</td><td>0</td></tr><tr><td>复方雷尼替丁</td><td>0</td><td>0</td><td>0</td><td>60</td><td>0</td></tr><tr><td>复方丙谷胺西咪替丁</td><td>0</td><td>0</td><td>31</td><td>0</td><td>0</td></tr><tr><td>罗沙替丁</td><td>0</td><td>2</td><td>20</td><td>0</td><td>0</td></tr><tr><td rowspan=\"8\">质子泵抑制剂</td><td>奥美拉唑</td><td>7</td><td>21</td><td>147</td><td>104</td><td>38</td></tr><tr><td>兰索拉唑</td><td>7</td><td>17</td><td>108</td><td>76</td><td>13</td></tr><tr><td>艾司奥美拉唑</td><td>7</td><td>20</td><td>75</td><td>62</td><td>10</td></tr><tr><td>泮托拉唑</td><td>7</td><td>16</td><td>63</td><td>12</td><td>18</td></tr><tr><td>雷贝拉唑</td><td>7</td><td>17</td><td>72</td><td>12</td><td>7</td></tr><tr><td>右兰索拉唑</td><td>7</td><td>17</td><td>53</td><td>20</td><td>2</td></tr><tr><td>艾普拉唑</td><td>0</td><td>10</td><td>37</td><td>1</td><td>0</td></tr><tr><td>奥美拉唑-碳酸氢钠</td><td>0</td><td>2</td><td>2</td><td>0</td><td>0</td></tr><tr><td rowspan=\"4\">胆碱受体阻滞剂</td><td>哌仑西平</td><td>0</td><td>0</td><td>60</td><td>28</td><td>0</td></tr><tr><td>奥芬溴铵</td><td>0</td><td>5</td><td>57</td><td>7</td><td>0</td></tr><tr><td>溴甲贝那替秦</td><td>0</td><td>5</td><td>50</td><td>7</td><td>0</td></tr><tr><td>溴甲阿托品</td><td>0</td><td>5</td><td>37</td><td>2</td><td>0</td></tr><tr><td>胃泌素受体阻滞剂</td><td>丙谷胺</td><td>3</td><td>0</td><td>18</td><td>28</td><td>0</td></tr><tr><td rowspan=\"3\">其他</td><td>复方丙谷胺西咪替丁</td><td>0</td><td>0</td><td>31</td><td>0</td><td>0</td></tr><tr><td>伏诺拉生</td><td>4</td><td>0</td><td>11</td><td>3</td><td>0</td></tr><tr><td>曲硫嗪</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td></tr></table>",
+    "bbox": [
+      109,
+      456,
+      888,
+      896
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "第 40 卷第 1 期 2025 年 1 月",
+    "bbox": [
+      135,
+      61,
+      326,
+      75
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "现代药物与临床",
+    "bbox": [
+      367,
+      61,
+      473,
+      75
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Drugs & Clinic",
+    "bbox": [
+      500,
+      61,
+      599,
+      75
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Vol. 40 No. 1 January 2025",
+    "bbox": [
+      640,
+      61,
+      812,
+      75
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "·207·",
+    "bbox": [
+      844,
+      61,
+      888,
+      73
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      29,
+      960,
+      336,
+      978
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.2 禁忌合用的抑制胃酸分泌药情况统计",
+    "text_level": 2,
+    "bbox": [
+      101,
+      90,
+      419,
+      106
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "在 MCDEX 数据库中对 28 种抑制胃酸分泌药药物相互作用进行检索，将不能联合用药的DDI提示为“禁忌合用”，结果显示西咪替丁等 28 种抑制胃酸分泌药共计 50 对禁忌合用 DDI，涉及除胆碱受体阻滞剂之外的4类药物，其不能合用的代表药物见表2。",
+    "bbox": [
+      99,
+      110,
+      483,
+      221
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.3 不推荐合用的抑制胃酸分泌药情况统计",
+    "text_level": 2,
+    "bbox": [
+      101,
+      225,
+      437,
+      241
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "在 MCDEX 数据库中对 28 种抑制胃酸分泌药的药物相互作用进行检索，结果显示奥美拉唑等涉及 $\\mathrm { H } _ { 2 }$ 受体阻滞剂、质子泵抑制剂及胆碱受体阻滞剂的 3 大类 18 种抑制胃酸分泌药共计 168 对“不推荐合用”的DDI，不推荐合用的代表药物见表 3。",
+    "bbox": [
+      135,
+      244,
+      483,
+      260
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      511,
+      90,
+      893,
+      164
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.4 谨慎合用的抑制胃酸分泌药情况统计",
+    "text_level": 2,
+    "bbox": [
+      511,
+      168,
+      831,
+      183
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "在 MCDEX 数据库中对 28 种抑制胃酸分泌药的药物相互作用进行检索，结果显示所有抑制胃酸分泌药共计 2 214 对“谨慎合用”的 DDI，谨慎合用主要药物见表 4。",
+    "bbox": [
+      511,
+      187,
+      895,
+      260
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/c4a11ec00bf345c4ed0f45c42e5e6ca4ced85fb8c857146ddf6ad141aebff089.jpg",
+    "table_caption": [
+      "表 2 禁忌与抑制胃酸分泌药合用的 DDI",
+      "Table 2 DDI involving the drugs should not combined with anti-gastric acid secretion drugs",
+      "表 3 不推荐与抑制胃酸分泌药合用的 DDI"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>分类</td><td>药名</td><td>禁忌合用药物</td></tr><tr><td> $H_{2}$ 受体阻滞剂</td><td>西咪替丁</td><td>氨吡啶</td></tr><tr><td>质子泵抑制剂</td><td>奥美拉唑、兰索拉唑、艾司奥美拉唑、泮托拉唑、雷贝拉唑、右兰索拉唑</td><td>利匹韦林及其复方制剂</td></tr><tr><td>胃泌素受体阻滞剂</td><td>丙谷胺</td><td>氟哌啶醇</td></tr><tr><td>其他</td><td>伏诺拉生</td><td>利匹韦林、阿扎那韦</td></tr></table>",
+    "bbox": [
+      109,
+      317,
+      888,
+      427
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/fccfa147086345b6e30c92ac1840c430e111c58ba50c54629b79cd4cf7dcf8af.jpg",
+    "table_caption": [
+      "Table 3 DDI involving the drugs not recommended combined with anti-gastric acid secretion drugs",
+      "表 4 谨慎与抑制胃酸分泌药合用的 DDI"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>分类</td><td>药名</td><td>不推荐合用的代表药物</td></tr><tr><td rowspan=\"2\"> $H_2$ 受体阻滞剂</td><td>西咪替丁</td><td>茶碱类药物、达沙替尼、多非利特、双氢麦角毒碱类药物、塞普替尼</td></tr><tr><td>雷尼替丁、法莫替丁、尼扎替丁、罗沙替丁、拉呋替丁</td><td>达沙替尼、塞普替尼</td></tr><tr><td>质子泵抑制剂</td><td>奥美拉唑、艾司奥美拉唑、兰索拉唑、泮托拉唑、雷贝拉唑、右兰索拉唑、艾普拉唑</td><td>阿帕他胺、阿扎那韦、奥雷巴替尼、博舒替尼、达可替尼、达沙替尼、地高辛、吉非替尼、奈非那韦、茚地那韦、奈拉替尼、奈拉替尼、培达替尼、瑞维鲁胺、塞普替尼</td></tr><tr><td>胆碱受体阻滞剂</td><td>奥芬溴铵、溴甲贝那替秦、溴甲阿托品</td><td>多潘立酮、甲氧氯普胺</td></tr></table>",
+    "bbox": [
+      101,
+      471,
+      897,
+      647
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/c4fa89f3c72ef84eeb85f9e93662166ddb6667b990727a39e2d6844246f06554.jpg",
+    "table_caption": [
+      "Table 4 DDI involving the drugs cautious combined with anti-gastric acid secretion drugs"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>分类</td><td>药名</td><td>谨慎合用的代表药物</td></tr><tr><td> $H_2$ 受体阻滞剂</td><td>西咪替丁、雷尼替丁、法莫替丁</td><td>地塞米松、苯巴比妥、阿苯达唑、氮草斯汀、硫酸亚铁、哌替啶、多潘立酮、胰岛素</td></tr><tr><td>质子泵抑制剂</td><td>奥美拉唑、兰索拉唑、泮托拉唑</td><td>奥氮平、华法林、四环素、哌柏西利、氟康唑、甲氨喋呤、咖啡因、茶碱</td></tr><tr><td>胆碱受体阻滞剂</td><td>哌仑西平、奥芬溴铵</td><td>阿托品、地塞米松、西沙必利、托特罗定、普鲁卡因胺、山莨菪碱、利福喷丁、异丙托溴铵</td></tr><tr><td>胃泌素受体阻滞剂</td><td>丙谷胺</td><td>多潘立酮、地塞米松、利福喷丁、枸橼酸铋钾</td></tr><tr><td>其他</td><td>伏诺拉生</td><td>地高辛、吉非替尼、伊曲康唑、厄洛替尼、奈非那韦</td></tr><tr><td></td><td>曲硫嗪</td><td>多潘立酮</td></tr></table>",
+    "bbox": [
+      109,
+      690,
+      888,
+      886
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "·208·",
+    "bbox": [
+      106,
+      61,
+      153,
+      73
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "第 40 卷第 1 期 2025 年 1 月",
+    "bbox": [
+      186,
+      61,
+      377,
+      75
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "现代药物与临床",
+    "bbox": [
+      419,
+      61,
+      524,
+      75
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "Drugs & Clinic",
+    "bbox": [
+      550,
+      61,
+      651,
+      75
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "Vol. 40 No. 1 January 2025",
+    "bbox": [
+      689,
+      61,
+      862,
+      75
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      29,
+      960,
+      336,
+      978
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.5 各类抑制胃酸分泌药DDI数量排序",
+    "text_level": 2,
+    "bbox": [
+      101,
+      90,
+      408,
+      106
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "根据 MCDEX 数据库对各类抑制胃酸分泌药DDI的检索，并对其数量进行排序，结果显示，H2受体阻滞剂的DDI总数最多，其平均数达到179对，其次为质子泵抑制剂平均DDI数为136对，各类抑制胃酸分泌药物的平均 DDI 数量排序见图 1。",
+    "bbox": [
+      99,
+      110,
+      483,
+      202
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "chart",
+    "img_path": "images/377bc292412d8f452e1021a9a71f18c9269d9890910fe4c2f90e926a41811493.jpg",
+    "content": "| 受体阻滞剂类型 | 平均DDI数量/对 |\n| -------------- | -------------- |\n| H₂受体阻滞剂 | 180 |\n| 质子泵抑制剂 | 135 |\n| 胆碱受体阻滞剂 | 65 |\n| 胃泌素受体阻滞剂 | 48 |\n| 其他 | 15 |",
+    "chart_caption": [
+      "图 1 各类抑制胃酸分泌药平均 DDI数量",
+      "Fig 1 Average number of DDI in anti-gastric acid secretion drugs"
+    ],
+    "chart_footnote": [],
+    "sub_type": "bar chart",
+    "bbox": [
+      120,
+      210,
+      439,
+      387
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "3 讨论",
+    "text_level": 2,
+    "bbox": [
+      101,
+      456,
+      166,
+      471
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "3.1 抑制胃酸分泌药相互作用项情况分析",
+    "text_level": 2,
+    "bbox": [
+      101,
+      476,
+      419,
+      490
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "H2 受体阻滞剂的平均 DDI 数量最多，其次为质子泵抑制剂。抑制胃酸分泌药物引起的 DDI 涉及了药物的体内的吸收、代谢和排泄等环节。首先，抑制胃酸药直接作用于胃黏膜，影响胃内 pH 值环境，对于溶解度低且具有pH 值相关性特性的药物，抑酸药会降低其溶解度。胃肠内的 pH 值升高的情况下，许多药物如洋地黄类药物、巴比妥类药物、蛋白酶抑制剂、胰酶类药物等口服的吸收都会受到影响；其次，药物的代谢必须在酶的催化下进行，某些药物会抑制或诱导肝细胞内质网上的肝药酶，使其代谢药物的速率减慢或提高，从而影响药物的血药浓度。如奥美拉唑，在肝脏主要经 CYP2C19 和CYP3A4 酶代谢，它同时又是 CYP1A2 酶诱导剂和CYP2C19 酶抑制剂，西咪替丁也是 CYP1A2、CYP2D6、CYP3A4 酶抑制剂；此外，抑制胃酸分泌药如质子泵抑制剂还会通过影响肠道菌群从而间接影响药物等外源化合物在体内的生物转化、积累，并改变这些物质的活性和毒性，从而影响宿主机体对它们的反应[12-13]；最后，主要位于肝、肾、小肠等排泄器官的有机阴离子转运蛋白对药物的分布、排泄和药代动力学过程有重要影响，体内研究证明各种质子泵抑制剂均以浓度相关性的方式抑制有机阴离子转运蛋白 3，这必然影响由其介导的药物的排泄[14-15]。",
+    "bbox": [
+      99,
+      495,
+      483,
+      915
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      511,
+      90,
+      893,
+      124
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "综上，理论上讲抑制胃酸分泌药物相互作用的数据量应该较大，而从本团队前期对口服抗肿瘤药物 DDI 的研究结果来看，其高风险 DDI 及总 DDI数量均较口服肿瘤药物少，可能与肿瘤药物作为高风险药物其研究数据较多，且容易导致严重不良反应有关。",
+    "bbox": [
+      511,
+      129,
+      893,
+      240
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "3.2 禁忌合用的DDI原因分析",
+    "text_level": 2,
+    "bbox": [
+      511,
+      244,
+      751,
+      260
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "H2 受体抑制剂西咪替丁与钾离子通道阻滞剂氨吡啶属于禁忌合用的DDI，其原因为西咪替丁可抑制有机阳离子转运蛋白2（OCT2）介导的氨吡啶经肾脏的主动分泌，可能使氨吡啶的暴露量增加，从而增加癫痫发作风险[16]；质子泵抑制剂与非核苷类似物逆转录酶抑制药利匹韦林属于禁忌合用DDI，原因为质子泵抑制剂可通过抑制胃酸分泌升高胃内 pH 值，从而使利匹韦林的溶解度降低、吸收减少、血药浓度显著下降，进而可能导致病毒学应答丧失或产生耐药性[17]；胃泌素受体阻滞剂丙谷胺与多巴胺受体阻断剂氟哌啶醇属于禁忌合用的DDI，原因为丙谷胺可降低氟哌啶醇治疗亨廷顿舞蹈病的有效性；钾离子竞争性酸阻滞剂伏诺拉生与抗人类免疫缺陷病毒药物利匹韦林、阿扎那韦属于禁忌合用的 DDI，伏诺拉生会升高胃 pH 值，利匹韦林、阿扎那韦的口服生物利用度具胃 pH 值相关性，合用可能降低利匹韦林、阿扎那韦的吸收[18]。",
+    "bbox": [
+      511,
+      264,
+      893,
+      587
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "3.3 其他 DDI 原因分析",
+    "text_level": 2,
+    "bbox": [
+      511,
+      591,
+      699,
+      606
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "不推荐合用的风险等级仅次于禁忌合用，同为H2 受体阻滞剂的西咪替丁不推荐与茶碱类药物合用，而其他药物如法莫替丁等却显示为谨慎合用。原因为西咪替丁对肝药酶的影响较大，因其为CYP1A2 酶抑制剂，而茶碱的代谢过程中的脱甲基化和羟基化都需要CYP1A2 酶的介导，因此西咪替丁减少茶碱的代谢清除，故合用可使茶碱血药浓度升高，药理作用增强，还可能引起相关不良反应[19]。抑制胃酸分泌药中的 $\\mathrm { H } _ { 2 }$ 受体阻滞剂和质子泵抑制剂均显示出不推荐与达沙替尼合用，原因为达沙替尼溶解度强烈依赖于胃内 pH 值，仅在较低的 pH 值下溶解，在 $\\mathsf { p H } > 6$ 的水中几乎不溶（溶解度＜$8 ~ \\mu \\mathrm { g / m L } )$ ）[20]。",
+    "bbox": [
+      511,
+      609,
+      893,
+      856
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "除了肝药酶的影响之外，其他不推荐合用 DDI的原因大多与抑酸药升高胃内 pH 值，影响其他药物吸收有关。此外，其他的原因大概还有以下 2方面，一是合用可能形成难容复合物，如西咪替丁与铁剂合用，两者在胃中可能形成难溶复合物，导致两药的生物利用度和疗效均可能降低；二是具有相似的药理作用，合用有药理毒理作用的加强，如西咪替丁片药品说明书提示：西咪替丁与阿米卡星具有相似的神经肌肉阻断作用，合用可能会导致呼吸抑制或呼吸停止，该反应只能用氯化钙对抗，使用新斯的明无效。",
+    "bbox": [
+      511,
+      860,
+      893,
+      913
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "第 40 卷第 1 期 2025 年 1 月",
+    "bbox": [
+      135,
+      61,
+      326,
+      75
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "现代药物与临床",
+    "bbox": [
+      367,
+      61,
+      473,
+      75
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Drugs & Clinic",
+    "bbox": [
+      500,
+      61,
+      599,
+      75
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Vol. 40 No. 1 January 2025",
+    "bbox": [
+      640,
+      61,
+      812,
+      75
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "·209·",
+    "bbox": [
+      844,
+      61,
+      888,
+      73
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      29,
+      961,
+      336,
+      976
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      99,
+      90,
+      485,
+      241
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "4 结语",
+    "text_level": 2,
+    "bbox": [
+      101,
+      244,
+      168,
+      259
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "了解药物相互作用可更好地指导临床合理用药，避免DDI引起药物不良反应或导致疗效降低。但 DDI不是药物合用的禁忌，DDI等级只为提示我们合用时可能出现的风险级别。在已知风险级别的情况下，可以考虑是否采取合理的措施去防范DDI引起的不良后果。如不推荐西咪替丁与茶碱类药物合用，那么可以选择对肝药酶抑制作用相对较小的尼扎替丁代替西咪替丁，确需合用时可监测茶碱的血药浓度，可能需降低茶碱的剂量。值得注意的是，对药物相互作用的预测是对一般患者而言，患者的个体差异导致其用药后的反应程度不一，如某患者用药后未出现明显的不良反应并不代表其他患者也不会出现。临床药师在工作实践中应带着思考和怀疑，并在实践中不断摸索和积累经验，更好地保障患者用药安全。",
+    "bbox": [
+      99,
+      263,
+      485,
+      549
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "利益冲突 所有作者均声明不存在利益冲突",
+    "bbox": [
+      130,
+      557,
+      415,
+      570
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "参考文献",
+    "text_level": 2,
+    "bbox": [
+      102,
+      578,
+      166,
+      592
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1] 范晓宇. 基于水凝胶固定化酶的药物相互作用预测模型的构建与应用 [D]. 大连: 大连理工大学, 2022.",
+      "[2] 黄萍, 郑小卫. 聚腺苷二磷酸核糖聚合酶抑制剂药物相互作用管理中国专家共识（2023 版） [J]. 中华肿瘤杂志, 2023, 45(7): 584-593.",
+      "[3] 刘蕊. 多成分药物的吸收与相互作用研究及联用型肠吸收平台的研制 [D]. 重庆: 重庆大学, 2022.",
+      "[4] Sudsakorn S, Bahadduri P, Fretland J, et al. 2020 FDA Drug-drug Interaction Guidance: A comparison analysis and action plan by pharmaceutical industrial scientists [J]. Curr Drug Metab, 2020, 21(6): 403-426.",
+      "[5] 王冰茜, 赵亚丽, 沈尚竹, 等. 中药有效成分与提取物对 CYP1-3 家族肝药酶的影响 [J]. 世界科学技术–中医药现代化, 2023, 25(2): 527-537.",
+      "[6] 赵振寰, 荆伟丽, 王凯, 等. 奥美拉唑对伊马替尼在大鼠体内药动学参数的影响 [J]. 中国药房, 2023, 34(6):",
+      "678-681.",
+      "[7] 贾茹, 王怡帆, 陈文华, 等. 艾司奥美拉唑对对乙酰氨基酚药动学与肠道菌群的影响 [J]. 医药导报, 2024,43(6): 862-866.",
+      "[8] Reis S, Metzendorf M I, Kuehn R, et al. Nirmatrelvir combined with ritonavir for preventing and treating COVID-19 [J]. Cochrane Database Syst Rev, 2023, 11(11): CD015395.",
+      "[9] 陈婷婷, 张清泉, 林志强. 住院患者中伏立康唑相关药物相互作用医嘱的发生情况分析 [J]. 药物不良反应杂志, 2024, 26(8): 454-459.",
+      "[10] 刘小溪, 袁勇贵. 帕罗西汀联合安非他酮致 5-羟色胺综合征 2 例 [J]. 中华精神科杂志, 2024, 57(2): 105-107.",
+      "[11] 林艳花, 吕小群, 任伟芳, 等. 360 例严重药品不良反应和药物相互作用的分析 [J]. 中国现代应用药学,2024, 41(5): 696-701.",
+      "[12] Willems R P J, van Dijk K, Ket J C F. Evaluation of the association between gastric acid suppression and risk of intestinal colonization with multidrug-resistant microorganisms: A systematic review and Meta-analysis [J]. JAMA Intern Med, 2020, 180(4): 561-571.",
+      "[13] Lin C Y, Cheng H T, Kuo C J, et al. Proton pump inhibitorinduced gut dysbiosis increases mortality rates for patients with Clostridioides difficile infection [J]. Microbiol Spectr, 2022, 10(4): e0048622.",
+      "[14] Narumi K, Sato Y, Kobayashi M, et al. Effects of proton pump inhibitors and famotidine on elimination of plasma methotre xate: Evaluation of drug-drug interactions medi ated by organic anion transporter 3 [J]. Biopharm Drug Dispos, 2017, 38(9): 501-508.",
+      "[15] Wang X, Song Y Q, Wang J J, et al. Efect of proton pump in hibitors on high-dose methotrexate elimination: A systematic review and meta-analysis [J]. Int J Clin Pharm, 2020, 42(1): 23-30.",
+      "[16] 氨吡啶缓释片药品说明书 [EB/OL]. http://mcdex3c. djyylzx.com:10000/pi/info?piIdCode=07781b35805ab4c d9484e8a9fdcde5b3#ph\\_19.",
+      "[17] 利 匹 韦 林 片 药 品 说 明 书 [EB/OL]. http://mcdex3c.djyylzx.com:10000/pi/info?piIdCode=2de2e51a7db5425e5eb3cf4dabfff7a1.",
+      "[18] 富 马 酸 伏 诺 拉 生 片 药 品 说 明 书 [EB/OL]. http://mcdex3c.djyylzx.com:10000/pi/info?piIdCode=7fb40960855c53f2628955ed52e7d303.",
+      "[19] 茶 碱 缓 释 片 药 品 说 明 书 [EB/OL]. http://mcdex3c.djyylzx.com:10000/pi/info?piIdCode=e21944512356e9a2ab7bc5bfcae8fa9e",
+      "[20] Hořínková J, Šíma M, Slanař O. Pharmacokinetics of dasatinib [J]. Prague Med Rep, 2019, 120(2): 52-63."
+    ],
+    "bbox": [
+      99,
+      592,
+      488,
+      848
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      506,
+      84,
+      901,
+      849
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "[责任编辑 高源]",
+    "bbox": [
+      772,
+      856,
+      893,
+      871
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "·210·",
+    "bbox": [
+      106,
+      61,
+      153,
+      73
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "第 40 卷第 1 期 2025 年 1 月",
+    "bbox": [
+      186,
+      61,
+      377,
+      75
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "现代药物与临床",
+    "bbox": [
+      419,
+      61,
+      524,
+      75
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "Drugs & Clinic",
+    "bbox": [
+      550,
+      61,
+      651,
+      75
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "Vol. 40 No. 1 January 2025",
+    "bbox": [
+      689,
+      61,
+      862,
+      75
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      29,
+      960,
+      336,
+      978
+    ],
+    "page_idx": 4
+  }
+]

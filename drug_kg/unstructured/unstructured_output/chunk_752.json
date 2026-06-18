@@ -1,0 +1,139 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利福喷丁",
+        "canonical_name": "利福喷丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "泊沙康唑",
+        "canonical_name": "泊沙康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "利福布丁",
+        "canonical_name": "利福布丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "利福霉素类药物",
+        "canonical_name": "利福霉素类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "三唑类",
+        "canonical_name": "三唑类",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "临床用药评价",
+          "chunk_index": "752",
+          "raw_text": "伏立康唑禁止与利福平合用（临床用药评价公众号：伏立康唑说明书提示利福平可使伏立康唑AUC下降96%）。",
+          "chunk_id": "752",
+          "data": "利福平和利福喷丁是WHO结核感染指南推荐的主要抗结核药物。侵袭性真菌感染主要用药包括两性霉素B、三唑类、棘白菌素类药物，但三唑类与利福霉素类药物存在药物相互作用。如伏立康唑禁止与利福平合用（临床用药评价公众号：伏立康唑说明书提示利福平可使伏立康唑AUC下降96%）。而泊沙康唑和利福平联合治疗，血药浓度可显著下降（除非对患者益处超过风险，否则应避免联合使用）。利福喷丁与其他利福霉素类药物一样，是细胞色素酶（CYP450）诱导剂；利福平、利福布丁、利福喷丁对CYP450 3A4酶（CYP3A4）诱导程度：利福平>利福布丁>利福喷丁（临床用药评价公众号：参考文献Primary human hepatocytes as a tool for the evaluation of structure-activity relationship in cytochrome P450 induction potential of xenobiotics：evaluation of rifampin，rifapentine，and rifabutin)。当存在药物相互作用时，需考虑药物安全性和有效性，推荐利福喷丁作为患者首选用药"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "临床用药评价",
+          "chunk_index": "752",
+          "raw_text": "泊沙康唑和利福平联合治疗，血药浓度可显著下降（除非对患者益处超过风险，否则应避免联合使用）。",
+          "chunk_id": "752",
+          "data": "利福平和利福喷丁是WHO结核感染指南推荐的主要抗结核药物。侵袭性真菌感染主要用药包括两性霉素B、三唑类、棘白菌素类药物，但三唑类与利福霉素类药物存在药物相互作用。如伏立康唑禁止与利福平合用（临床用药评价公众号：伏立康唑说明书提示利福平可使伏立康唑AUC下降96%）。而泊沙康唑和利福平联合治疗，血药浓度可显著下降（除非对患者益处超过风险，否则应避免联合使用）。利福喷丁与其他利福霉素类药物一样，是细胞色素酶（CYP450）诱导剂；利福平、利福布丁、利福喷丁对CYP450 3A4酶（CYP3A4）诱导程度：利福平>利福布丁>利福喷丁（临床用药评价公众号：参考文献Primary human hepatocytes as a tool for the evaluation of structure-activity relationship in cytochrome P450 induction potential of xenobiotics：evaluation of rifampin，rifapentine，and rifabutin)。当存在药物相互作用时，需考虑药物安全性和有效性，推荐利福喷丁作为患者首选用药"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "临床用药评价",
+          "chunk_index": "752",
+          "raw_text": "利福平和利福喷丁是WHO结核感染指南推荐的主要抗结核药物。",
+          "chunk_id": "752",
+          "data": "利福平和利福喷丁是WHO结核感染指南推荐的主要抗结核药物。侵袭性真菌感染主要用药包括两性霉素B、三唑类、棘白菌素类药物，但三唑类与利福霉素类药物存在药物相互作用。如伏立康唑禁止与利福平合用（临床用药评价公众号：伏立康唑说明书提示利福平可使伏立康唑AUC下降96%）。而泊沙康唑和利福平联合治疗，血药浓度可显著下降（除非对患者益处超过风险，否则应避免联合使用）。利福喷丁与其他利福霉素类药物一样，是细胞色素酶（CYP450）诱导剂；利福平、利福布丁、利福喷丁对CYP450 3A4酶（CYP3A4）诱导程度：利福平>利福布丁>利福喷丁（临床用药评价公众号：参考文献Primary human hepatocytes as a tool for the evaluation of structure-activity relationship in cytochrome P450 induction potential of xenobiotics：evaluation of rifampin，rifapentine，and rifabutin)。当存在药物相互作用时，需考虑药物安全性和有效性，推荐利福喷丁作为患者首选用药"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "临床用药评价",
+          "chunk_index": "752",
+          "raw_text": "利福平和利福喷丁是WHO结核感染指南推荐的主要抗结核药物。",
+          "chunk_id": "752",
+          "data": "利福平和利福喷丁是WHO结核感染指南推荐的主要抗结核药物。侵袭性真菌感染主要用药包括两性霉素B、三唑类、棘白菌素类药物，但三唑类与利福霉素类药物存在药物相互作用。如伏立康唑禁止与利福平合用（临床用药评价公众号：伏立康唑说明书提示利福平可使伏立康唑AUC下降96%）。而泊沙康唑和利福平联合治疗，血药浓度可显著下降（除非对患者益处超过风险，否则应避免联合使用）。利福喷丁与其他利福霉素类药物一样，是细胞色素酶（CYP450）诱导剂；利福平、利福布丁、利福喷丁对CYP450 3A4酶（CYP3A4）诱导程度：利福平>利福布丁>利福喷丁（临床用药评价公众号：参考文献Primary human hepatocytes as a tool for the evaluation of structure-activity relationship in cytochrome P450 induction potential of xenobiotics：evaluation of rifampin，rifapentine，and rifabutin)。当存在药物相互作用时，需考虑药物安全性和有效性，推荐利福喷丁作为患者首选用药"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "临床用药评价",
+          "chunk_index": "752",
+          "raw_text": "利福喷丁与其他利福霉素类药物一样，是细胞色素酶（CYP450）诱导剂；利福平、利福布丁、利福喷丁对CYP450 3A4酶（CYP3A4）诱导程度：利福平>利福布丁>利福喷丁",
+          "chunk_id": "752",
+          "data": "利福平和利福喷丁是WHO结核感染指南推荐的主要抗结核药物。侵袭性真菌感染主要用药包括两性霉素B、三唑类、棘白菌素类药物，但三唑类与利福霉素类药物存在药物相互作用。如伏立康唑禁止与利福平合用（临床用药评价公众号：伏立康唑说明书提示利福平可使伏立康唑AUC下降96%）。而泊沙康唑和利福平联合治疗，血药浓度可显著下降（除非对患者益处超过风险，否则应避免联合使用）。利福喷丁与其他利福霉素类药物一样，是细胞色素酶（CYP450）诱导剂；利福平、利福布丁、利福喷丁对CYP450 3A4酶（CYP3A4）诱导程度：利福平>利福布丁>利福喷丁（临床用药评价公众号：参考文献Primary human hepatocytes as a tool for the evaluation of structure-activity relationship in cytochrome P450 induction potential of xenobiotics：evaluation of rifampin，rifapentine，and rifabutin)。当存在药物相互作用时，需考虑药物安全性和有效性，推荐利福喷丁作为患者首选用药"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "临床用药评价",
+          "chunk_index": "752",
+          "raw_text": "三唑类与利福霉素类药物存在药物相互作用。",
+          "chunk_id": "752",
+          "data": "利福平和利福喷丁是WHO结核感染指南推荐的主要抗结核药物。侵袭性真菌感染主要用药包括两性霉素B、三唑类、棘白菌素类药物，但三唑类与利福霉素类药物存在药物相互作用。如伏立康唑禁止与利福平合用（临床用药评价公众号：伏立康唑说明书提示利福平可使伏立康唑AUC下降96%）。而泊沙康唑和利福平联合治疗，血药浓度可显著下降（除非对患者益处超过风险，否则应避免联合使用）。利福喷丁与其他利福霉素类药物一样，是细胞色素酶（CYP450）诱导剂；利福平、利福布丁、利福喷丁对CYP450 3A4酶（CYP3A4）诱导程度：利福平>利福布丁>利福喷丁（临床用药评价公众号：参考文献Primary human hepatocytes as a tool for the evaluation of structure-activity relationship in cytochrome P450 induction potential of xenobiotics：evaluation of rifampin，rifapentine，and rifabutin)。当存在药物相互作用时，需考虑药物安全性和有效性，推荐利福喷丁作为患者首选用药"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 752,
+    "source": "临床用药评价",
+    "text": "利福平和利福喷丁是WHO结核感染指南推荐的主要抗结核药物。侵袭性真菌感染主要用药包括两性霉素B、三唑类、棘白菌素类药物，但三唑类与利福霉素类药物存在药物相互作用。如伏立康唑禁止与利福平合用（临床用药评价公众号：伏立康唑说明书提示利福平可使伏立康唑AUC下降96%）。而泊沙康唑和利福平联合治疗，血药浓度可显著下降（除非对患者益处超过风险，否则应避免联合使用）。利福喷丁与其他利福霉素类药物一样，是细胞色素酶（CYP450）诱导剂；利福平、利福布丁、利福喷丁对CYP450 3A4酶（CYP3A4）诱导程度：利福平>利福布丁>利福喷丁（临床用药评价公众号：参考文献Primary human hepatocytes as a tool for the evaluation of structure-activity relationship in cytochrome P450 induction potential of xenobiotics：evaluation of rifampin，rifapentine，and rifabutin)。当存在药物相互作用时，需考虑药物安全性和有效性，推荐利福喷丁作为患者首选用药"
+  }
+]

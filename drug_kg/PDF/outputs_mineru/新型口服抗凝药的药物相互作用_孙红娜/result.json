@@ -1,0 +1,897 @@
+[
+  {
+    "type": "text",
+    "text": "· 综 述 ·",
+    "text_level": 2,
+    "bbox": [
+      92,
+      80,
+      152,
+      99
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "新型口服抗凝药的药物相互作用",
+    "text_level": 1,
+    "bbox": [
+      90,
+      130,
+      463,
+      149
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "孙红娜 ，郑玉粉 ，于锋 （中国药科大学基础医学与临床药学学院 ，江苏 南京 211198）",
+    "bbox": [
+      89,
+      170,
+      665,
+      185
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［摘要］ 新型口服抗凝药（NOACs 达比加群酯 利伐沙班 阿哌沙班 依度沙班）与华法林相比 起效更快且剂量固定 具有更宽的治疗窗口和更少的药物或食物相互作用及同等或更高的安全性等优点 ，现被广泛应用于临床 考虑它们是P－糖化蛋白和（或）代谢酶P450的底物 又具有抗凝功效 针对 NOACs的药物相互作用的探索是近几年来国际上的研究热点 从药动学角度出发 ，NOACs与许多药物存在药物相互作用。 其 中 ，NOACs与P－gp和CYP3A4的强效抑制剂存在显著的药物相互作用 ，且具有临床相关性 ；与质子泵抑制剂和心血管药物存在主要的药物相互作用 从药效学角度出发 ，NOACs与非甾体抗炎药 抗凝药物 抗血小板聚集药物也有潜在药物相互作用 本文主要从药动学和药效学两方面综述了 NOACs与临床常用药物和天然药物之间的相互作用 ，旨在为临床医师合理用药提供参考。",
+    "bbox": [
+      87,
+      197,
+      905,
+      313
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［关键词］ 新型口服抗凝药 ；药物相互作用 ；P－糖化蛋白",
+    "bbox": [
+      89,
+      316,
+      457,
+      330
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［中图分类号］ R973＋ ．2 ［文献标识码］ B ［文章编号］1001－5213（2021）03－0314－07 DOI10．13286／j．1001－5213．2021．03．16",
+    "bbox": [
+      89,
+      332,
+      830,
+      346
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Druginteractionsofneworalanticoagulants",
+    "text_level": 1,
+    "bbox": [
+      90,
+      367,
+      421,
+      380
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "SUN Hong－na， ZHENGYu－fen， YUFeng （SchoolofBasicMedicine＆ ClinicalPharmacy， ChinaPharmaceuticalU－niversity， JiangsuNanjing211198， China）",
+    "bbox": [
+      87,
+      401,
+      905,
+      432
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "ABSTRACT：Neworalanticoagulants（NOACs， dabigatranetexilate，rivaroxaban， apixaban＆edoxaban） arewidelyappliedin clinicalpracticesduetotheirfasteronsetandfixeddose， widertreatmentwindow， lessdrugorfoodinteractionandequalor highersafetyascomparedwithwarfarin．ConsideringthattheyaresubstratesofP－glycoproteinand／ormetabolizingenzyme P450withanticoagulantproperties， researchondrug－druginteractions （DDIs） ofNOACshasbecomeahotspotinrecent years．Fromapharmacokineticpointofview， NOACshavedruginteractionswithmanydrugs．Amongthem， NOACshave significantdruginteractionswithpotentinhibitorsofP－gpandCYP3A4andtherewasclinicalcorrelation．Therearemajor druginteractionswithprotonpumpinhibitorsandcardiovascularagents．Fromtheperspectiveofpharmacodynamics， NOACs alsohavepotentialdruginteractionswithnon－steroidalanti－inflammatorydrugs， anticoagulantsandanti－plateletaggregation drugs．ThispaperreviewedthePK ＆ PDinteractionsofNOACswithcommonclinicalandnaturaldrugsanditprovideda handyreferenceforclinicalphysiciansinrationaldrugdosing．",
+    "bbox": [
+      87,
+      443,
+      907,
+      609
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "KEYWORDS：neworalanticoagulants； DDIs； P－glycoprotein",
+    "bbox": [
+      90,
+      613,
+      489,
+      626
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "近年来，我国批获上市的新型口服抗凝药（neworalanticoagulants， NOACs）主要包括直接凝血酶抑制剂（达比加群酯）和 Ⅹa因子抑制剂（阿哌沙班、利伐沙班和依度沙班） 其中， 达比加群酯是前药 ，它在体内可转化为具有直接抗凝活性的达比加群 ；后者与凝血酶结合， 阻止纤维蛋白原转化为纤维蛋白，从而发挥抗凝作用 沙班类药物（阿哌沙班 利伐沙班和依度沙班）是一种选择性的 可逆的 直接Ⅹa因子抑制剂， 通过抑制游离型或血栓结合型的Ⅹa因子减少凝血酶的生成， 从而达到抗凝效果与华法林相比，NOACs具有起效更快且剂量固定、更宽的治疗窗口和较少的药物或食物相互作用、同等或更高的安全性等优点［1］ ， 主要用于预防和治疗多种疾病，例 如 静 脉 血 栓 栓 塞 症、 隐 性 卒 中 的 二 级预防、非瓣膜 性 房 颤、 成 人 择 期 髋 关 节 或 膝 关 节 置换术后血栓栓塞以及急性冠状动 脉 综 合 征［2－5］ 。 患有这些疾病的人群可能同时服用其他药物 ， 从药动学和药效学 特 点 出 发 ，NOACs可 能 与 这 些 药 物 产生 药 物－药 物 相 互 作 用 （drug－druginteractions，DDIs） ，导致药效增强或降低 因此， 本文通过检索中外相关文献， 汇总与分析 NOACs的药物相互 作用，以期为临床合理用药提供参考",
+    "bbox": [
+      89,
+      648,
+      485,
+      868
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      646,
+      905,
+      829
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 NOACs与临床常用药物的药动学相互作用",
+    "bbox": [
+      512,
+      834,
+      870,
+      848
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1．1 药动学相互作用的基本机制 单独治疗时$\\mathrm { N O A C s }$ 的药动学参数如表1所示， 它们是渗透性P－糖化糖蛋白（P－glycoprotein， $\\mathrm { P - g p ) }$ 和（或）细胞色素（CYP）P450酶的底物，存在药物相互作用的可能性很高 。",
+    "bbox": [
+      512,
+      852,
+      902,
+      866
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "· 413 ·",
+    "bbox": [
+      105,
+      60,
+      166,
+      71
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志2021年2月第41卷第3期 ChinJHospPharm，Feb2021，Vol41，No．3",
+    "bbox": [
+      376,
+      58,
+      905,
+      70
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "［基金项目］ 中国药科大学基本科研业务费资助项目 （编号 2632019PY05） ［作者简介］ 孙红娜 女 硕士 研究方向 药理学 ［通讯作者］ 于锋 男 博士 博士研究生导师 研究方向 临床药学和药理学",
+    "bbox": [
+      87,
+      884,
+      905,
+      913
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      79,
+      482,
+      151
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/6120ccbb9412cb6729f515c46f277eb690c70b365a121d9f690c48856ed162f2.jpg",
+    "table_caption": [
+      "表 1 新型口服抗凝药的药动学参数",
+      "Tab1 PharmacokineticparametersofNOACs"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>特征</td><td>达比加群酯[6-8]</td><td>利伐沙班[9-13]</td><td>阿哌沙班[14-16]</td><td>依度沙班[17,18]</td></tr><tr><td>作用方式</td><td>直接抑制IIa因子是P-gp</td><td>直接抑制Xa因子否P-gp/BCRP</td><td>直接抑制Xa因子否P-gp/BCRP</td><td>直接抑制Xa因子否P-gp</td></tr><tr><td>前药转运体底物</td><td></td><td></td><td></td><td></td></tr><tr><td>P450酶代谢</td><td>否</td><td>CYP3A4(18%)CYP2J2(14%)</td><td>CYP3A4,CYP1A2,2C8,2C9,2C19and 2J2</td><td>CYP3A4(&lt;4%)</td></tr><tr><td>生物利用度/%</td><td>6~7</td><td>80~100</td><td>49</td><td>61.8</td></tr><tr><td>蛋白结合率/%</td><td>35</td><td>92~95</td><td>87</td><td>40~59</td></tr><tr><td>分布容积/L</td><td>60~70</td><td>50</td><td>21</td><td>31</td></tr><tr><td>半衰期/h</td><td>12~14</td><td>5~9(年轻健康者)11~13(老年人)</td><td>8~15</td><td>10~14</td></tr><tr><td>血浆药物浓度达峰时间/h</td><td>1.5~3</td><td>2~4</td><td>3~4</td><td>1~2</td></tr><tr><td>肾脏清除率/%</td><td>80</td><td>36</td><td>27</td><td>50</td></tr></table>",
+    "bbox": [
+      92,
+      185,
+      482,
+      548
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } { \\mathrm { - } } \\mathrm { g p }$ 是一种三磷酸腺苷结合转运蛋白， 它 在 肾 脏、 肝脏和小肠等组织中分布并表达［19］ ，同时介导多种药物和内源性化合物的跨膜转运； 但是可用于药物转运的结合位点数量有限，不同药物共同竞争1个结合位点可能导致 $\\mathrm { D D I s }$ 的发生［19］ $\\mathrm { N O A C s }$ 是 $\\mathrm { P - g p }$ 的底物［8］ 其吸收和消除取决于肠内和肾脏内 $\\mathrm { P g p }$ 的活性 因此， 当$\\mathrm { N O A C s }$ 与影响 $\\mathrm { P } { \\mathrm { - } } \\mathrm { g p }$ 活性的药物同时使用时， 可能发生DDIs。 对于这些口服抗凝药 ，当肠道上皮细胞中的 $\\mathrm { P g p }$ 被诱导时， $\\mathrm { P \\mathrm { - } g p }$ 底物药物被 $\\mathrm { P g p }$ 外排到肠道内而降低药物通过肠壁进入体循环 ； 在肝脏和肾脏中，某些药物通过诱导 $\\mathrm { P - g p }$ 活性增加 $\\mathrm { N O A C s }$ 排泄到胆汁和尿液中的速度 ， 从而加速药物从体循环中清除， 可 降 低 血 浆 中 NOACs水 平， 使 抗 凝 作用减弱而导致栓塞风险增加 相反，抑制 $\\mathrm { P - g p }$ 活性可导致药物吸收和排泄水平的改变 使血浆浓度升高，增加出血风险。 另一种乳腺癌耐药蛋白（breastcancerresistantprotein， BCRP）在利伐沙班和阿哌沙班的药物转运方面与 $\\mathrm { P g p }$ 具有相似的作用 ， 但BCRP只影响沙班类药物与强抑制剂 （如 唑 类 抗 真菌药和利托 那 韦 ） 的 联 合 用 药［13， 20］ ， 因 此 利 伐 沙 班或阿哌沙班与其他药物的相互作用受 $\\mathrm { P g p }$ 转运体系影响更为显著。",
+    "bbox": [
+      89,
+      563,
+      482,
+      896
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      79,
+      905,
+      168
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1．1．2 细 胞 色 素（CYP）P450 大 部 分 CYP酶 位于肝脏和小肠， 少量存在于肾脏 其中，CYP3A4在肝脏所有 $\\mathrm { C Y P }$ 酶中含量最多 ，并参与大多数非化学药物的 氧 化 反 应。 除 达 比 加 群 酯 外， 阿 哌 沙 班、利伐沙班和依度沙班均可不同程度经 CYP3A4酶代谢，40％～50％的利伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙 班 和 阿 哌 沙 班 是 通 过 非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。",
+    "bbox": [
+      512,
+      173,
+      905,
+      375
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1．2 NOACs的药动学相互作用 达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在 联 合 使 用 $\\mathrm { P g p }$ 强效抑制剂的情况下 需要对患者进行密切的临床监测；有研究结果表明 如果在维拉帕米前2h给予达比加群酯 二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮 地高辛维拉帕米等必须谨慎用药 利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点 如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加 另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利 伐 沙 班 $( 1 0 \\ \\mathrm { m g } )$ 与 红 霉 素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而 这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险 因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者",
+    "bbox": [
+      510,
+      378,
+      907,
+      804
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "临床上， $\\mathrm { N O A C s }$ 与心血管药物（如奎尼丁） 抗癫痫药（如苯妥英） 及抗抑郁药 （如圣约翰草） 等多种药物存在药动学相互作用 已有的部分临床常用药物与 $\\mathrm { N O A C s }$ 的药动学相互作用的总结如表2所 示 。",
+    "bbox": [
+      510,
+      808,
+      907,
+      898
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志2021年2月第41卷第3期 ChinJHospPharm，Feb2021，Vol41，No．3",
+    "bbox": [
+      90,
+      58,
+      620,
+      70
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "· 513 ·",
+    "bbox": [
+      828,
+      60,
+      889,
+      71
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/26c2a9006864e5d8e0f99b6695e665d697ff4dd55de3e9fba2da25215fd42d40.jpg",
+    "table_caption": [
+      "表 2 新型口服抗凝药与临床常用药物的药动学相互作用",
+      "Tab2 PharmacokineticinteractionsofNOACswithclinicallycommondrugs"
+    ],
+    "table_footnote": [
+      "注（note） ： ↑ 表示增加（ ↑ indicatesincrease） ， ↓ 表示降低（ ↓ indicatesdecrease）"
+    ],
+    "table_body": "<table><tr><td>P-gp/ CYP3A4 抑制剂或诱导剂</td><td>常用药物</td><td>达比加群酯[24-26]</td><td>利伐沙班[26-28]</td><td>阿哌沙班[15,28-29]</td><td>依度沙班[30-32]</td><td>血浆浓度</td></tr><tr><td>中效 P-gp 抑制剂</td><td>胺碘酮</td><td>无临床相关性</td><td>—</td><td>无临床相关性</td><td>无临床相关性</td><td>↑</td></tr><tr><td>中效 P-gp 抑制剂</td><td>维拉帕米</td><td>剂量由 150 mg 减少至 110 mg</td><td>—</td><td>无临床相关性</td><td>剂量降低 50%</td><td>↑</td></tr><tr><td>中效 P-gp 抑制剂</td><td>奎尼丁</td><td>谨慎</td><td>—</td><td>无临床相关性</td><td>剂量降低 50%</td><td>↑</td></tr><tr><td>弱 P-gp 抑制剂</td><td>地高辛</td><td>安全</td><td>低剂量安全</td><td>低剂量安全</td><td>安全</td><td>↑</td></tr><tr><td>强 P-gp 和 CYP3A4 抑制剂</td><td>酮康唑</td><td>禁忌</td><td>禁忌</td><td>禁忌</td><td>剂量调至 30 mg</td><td>↑</td></tr><tr><td>弱至中效 P-gp 和强 CYP3A4 抑制剂</td><td>克拉霉素</td><td>无临床相关性</td><td>无临床相关性</td><td>无临床相关性</td><td>剂量调至 30 mg</td><td>↑</td></tr><tr><td>强 P-gp 和 CYP3A4 抑制剂</td><td>利托那伟</td><td>禁忌</td><td>禁忌</td><td>禁忌</td><td>—</td><td>↑</td></tr><tr><td>强 P-gp 和 CYP3A4 诱导剂</td><td>利福平</td><td>禁忌</td><td>谨慎</td><td>禁忌</td><td>谨慎</td><td>↓</td></tr><tr><td>强 P-gp 和 CYP3A4 诱导剂</td><td>苯妥英</td><td>禁忌</td><td>谨慎</td><td>禁忌</td><td>谨慎</td><td>↓</td></tr><tr><td>强 P-gp 和 CYP3A4 诱导剂</td><td>圣约翰草</td><td>禁忌</td><td>禁忌</td><td>禁忌</td><td>—</td><td>↓</td></tr></table>",
+    "bbox": [
+      90,
+      111,
+      904,
+      269
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "1．2．1 质 子 泵 抑 制 剂 （protonpumpinhibitors，PPIs） 2018年发表的1项关于胃肠道出血的临床报告显示［33］ ， 在接受 NOACs治疗的1643123名患者中，当不使用 $\\mathrm { P P I s }$ 时， 阿哌沙班的胃肠道出血风险最低，其次是达比加群酯， 而利伐沙班的出血率最 高； 当 PPIs与 $\\mathrm { N O A C s }$ 联用时可以减少该风险 其中达比加群酯最明显",
+    "bbox": [
+      89,
+      294,
+      482,
+      423
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "研究数据表明，达比加群酯联合应用PPIs治疗可以显著减少上消化道出血风险［34］ ，但也会降低达比加群的血浆浓度［35］ ，导致抗凝效果减弱；2020年的1项前瞻性研究［36］表明，在 $\\mathrm { P P I s }$ 停用2周后，达比加群 的 $C _ { \\mathrm { m a x } }$ 升 高 $( 1 4 2 , 4 \\pm 1 0 2 . 8 ) \\mathrm { n g } \\bullet \\mathrm { m L } ^ { - 1 } v s$ $( 2 5 5 \\pm 1 2 9 . 5 ) \\mathrm { n g } \\bullet \\mathrm { m L } ^ { - 1 } , P \\leqslant 0 . 0 0 1 \\exists$ 。 关于这种相互作用的机制有两种解释 ：一方面可能与某些 $\\mathrm { P P I s }$ （如泮托拉唑、 奥美拉唑） 是 $\\mathrm { P } { \\mathrm { - } } \\mathrm { g p }$ 底物或抑制剂有关［37］ ，它们通过转运体系抑制 $\\mathrm { N O A C s }$ 的吸收和代谢；另一方面可能是由 $\\mathrm { P P I s }$ 改变胃肠道 $\\mathrm { p H }$ 值引起的，因为达比加群酯在 $\\mathrm { p H }$ 值大 于4时 的 溶 解 度 很低［38］ ，导致其生物利用度降低。 这两条途径均会导致血浆药物浓度减少 从而增加血栓发生风险",
+    "bbox": [
+      89,
+      426,
+      482,
+      671
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "事实上 已有 RE－LY 研究试验的亚组分析显示缺血事件与达比加群的血药浓度呈负相关［39］ ，但目前没有明确的证据表明 NOACs与 $\\mathrm { P P I s }$ 的 这 种相互作用在个体治疗中具有确切的临床不良影响如血栓增加 因此， 临床医师在选择抗凝剂时应评估风险和益处，根据患者实际情况做出调整。",
+    "bbox": [
+      89,
+      675,
+      482,
+      785
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "1．2．2 心血管药物 临床常用的心血管药物包括地高辛 维拉帕米 胺碘酮 地尔硫 奎尼丁以及决奈达隆等，它们大多数为 $\\mathrm { P - g p / C Y P 3 A 4 }$ 的底物、诱导剂或抑制剂 根据这些药物对P－gp／CYP3A4的影响程度 药物的相互作用等级可以分为3种 ：无临床相关性 谨慎使用和禁忌",
+    "bbox": [
+      89,
+      789,
+      482,
+      898
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "早 期 的 研 究 结 果 显 示， NOACs 与 $\\mathrm { P - g p / }$",
+    "bbox": [
+      124,
+      902,
+      482,
+      917
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "CYP3A4底物联用时没有明显的临床相互作用 ， 但是存 在 个 体 差 异， 如 胃 肠 道 紊 乱。 在 Ⅰ 期 研 究$\\pm ^ { [ 4 0 - 4 1 ] }$ ，阿托伐他汀（CYP3A4和 $\\mathrm { P g p }$ 的底物）与达比加群酯或利伐沙班同时使用没有出现不良临床反应，且各自的药动学参数均未受到影响 ， 二者单独或联合 使 用 均 具 有 较 好 的 耐 受 性。 与 阿 托 伐 他汀类似，地高辛是 $\\mathrm { P - g p }$ 底物，同时具有较弱的 $\\mathrm { P - g p }$ 抑制作用；在23名 $1 8 \\sim 6 5$ 岁的健康受试者中［25］ ，当达比加群酯与地高辛联用时，达比加群的 $C _ { \\mathrm { m a x } }$ 增加7％，但活化部分凝血活酶时间（activatedpartialthromboplastintime， APTT） 未 受 影 响， 且 地 高 辛的药动学特征也保持不变 ， 因此二者合用时均无需调整剂量 最新的一项研究表明 ，在73例应用沙班类药物治疗的非瓣膜性房颤患者中 ， Ⅹa因 子 直 接抑制剂（利伐沙班 阿哌沙班）和地高辛联用会使沙班类药物的血浆水平分别在给药初期和2h后显著降低［28］ ；这项研究仅仅显示了2者之间潜在的相互作用 ， 并 未 表 明 其 对 患 者 是 否 具 有 不 良 的 临 床 影响，因此临床医师在给药初期和2h后 应 该 密 切 关注患者的身体状况 ，并及时监测相关药效学指标",
+    "bbox": [
+      510,
+      294,
+      905,
+      671
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "当 NOACs与弱至中效 $\\mathrm { P \\mathrm { g p / C Y P 3 A 4 } }$ 诱导剂或抑制剂联用时需要谨慎 ， 因为它们能在一定程度上降低或增加药物血浆浓度 根据药物剂量分析［42］ ，除胺碘酮外， 维拉帕米和奎尼丁对依度沙班的代谢具有潜在的临床意义 ，因为它们都对 $\\mathrm { P g p }$ 底物有一定的 抑 制 作 用 ， 导 致 底 物 的 血 药 浓 度 升 高。因此，依度沙班与这些药物联合使用时的剂量应降低50％。 虽然胺碘酮对其他 $\\mathrm { P g p }$ 底物有强烈的抑制作用，但对依度沙班的抑制是适度的且不会导致显著出血 因此不建议调整剂量",
+    "bbox": [
+      510,
+      675,
+      905,
+      860
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "NOACs与强 $\\mathrm { P - g p / C Y P 3 A 4 }$ 诱导剂或抑制剂联用是禁忌 因为它们会增加出血或血栓事件的发生概率。 如利伐沙班 $( 1 0 ~ \\mathrm { m g } )$ 联合酮康唑 $\\mathrm { ( 2 0 0 ~ m g }$ ，qd）或利托那伟（600mg，bid）可显著提高利伐沙班的 AUC分别为82％和153％［13］ ； 利伐沙班的总体清除率 在 联 合 用 药 中 也 显 著 降 低， 分 别 平 均 降 低45％和60％，这使得出血风险显著增加；NOACs应避免与强 $\\mathrm { P - g p / C Y P 3 A 4 }$ 诱 导 剂 联 用 ， 否 则 可 能 需要增加其剂量且应密 切控制血栓形成的症状和体 征 。",
+    "bbox": [
+      510,
+      865,
+      905,
+      917
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "· 613 ·",
+    "bbox": [
+      105,
+      60,
+      166,
+      71
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志2021年2月第41卷第3期 ChinJHospPharm，Feb2021，Vol41，No．3",
+    "bbox": [
+      376,
+      58,
+      905,
+      70
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      979
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      79,
+      482,
+      208
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2 NOACs与临床常用药物的药效学相互作用",
+    "text_level": 2,
+    "bbox": [
+      89,
+      212,
+      448,
+      227
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "2．1 药效学相互作用机制 NOACs的药效学是通过其作用机理体现的，如沙班类药物通过抑制Ⅹa因子而延长凝血试验的参数（如 APTT） ；此外，其剂量及浓度变化引起的抗 Xa因子活性的变化比凝血酶参数变化更显著。 因此，当两种药物联用时，也可以通过这些指标来评价药效学相互作用的影响。",
+      "2．2 NOACs的药效学相互作用 NOACs与抗凝剂（依诺肝素、华法林） 、非甾体抗炎药 （阿司匹林、双氯芬酸、萘普生） 和血小板抑制剂 （氯吡格雷） 具有主要的 药 效 学 相 互 作 用。 已有的部分临床常用药物与 NOACs的药效学相互作用的总结如表3所 示 。"
+    ],
+    "bbox": [
+      89,
+      231,
+      482,
+      454
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/c90d4c74358f6a8c4309221512538fba5f084a82a793d9f77b28495ffe02b845.jpg",
+    "table_caption": [
+      "表 3 新型口服抗凝药与临床常用药物的药效学相互作用",
+      "Tab3 PharmacodynamicinteractionofNOACswithclini－ callycommondrugs"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>常用药物</td><td>达比加群酯[43-44]</td><td>利伐沙班[45-47]</td><td>阿哌沙班[48-49]</td><td>依度沙班[50-51]</td></tr><tr><td>阿司匹林</td><td>(1)血浆浓度无临床相关变化;(2)出血时间延长、出血率增加</td><td>(1)血浆浓度无临床相关变化;(2)出血率增加</td><td>(1)药效学参数无影响;(2)出血率增加</td><td>(1)出血时间增加;(2)凝血参数无变化</td></tr><tr><td>双氯芬酸</td><td>血浆浓度无临床相关变化</td><td>—</td><td>—</td><td>—</td></tr><tr><td>奈普生</td><td>—</td><td>无临床相关变化</td><td>(1)血浆浓度增加;(2)凝血参数增加;(3)出血率无临床相关变化</td><td>(1)凝血参数无临床相关变化;(2)出血时间延长</td></tr><tr><td>氯吡格雷</td><td>(1)血浆浓度无临床相关变化;(2)出血时间和出血率增加</td><td>(1)血浆浓度无变化(2)出血率增加</td><td>(1)凝血参数和出血时间无变化;(2)出血率增加</td><td>出血时间增加</td></tr><tr><td>依诺肝素</td><td>—</td><td>(1)血浆浓度无变化;(2)Xa因子活性增加</td><td>Xa因子活性增加</td><td>Xa因子活性增加</td></tr><tr><td>华法林</td><td>—</td><td>(1)血浆浓度无变化;(2)INR值增加</td><td>—</td><td>—</td></tr></table>",
+    "bbox": [
+      90,
+      507,
+      485,
+      919
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2．2．1 抗凝剂和非甾体抗炎药 在大多数情况下，NOACS与抗凝剂的联用是不推荐的 ，因为二者的协同作 用 会 增 加 出 血 风 险。 临 床 上 也 存 在 NO－ACS短期联用其他抗凝剂合理的情况 ， 如在急性静脉血栓栓塞治疗中［52］ ，急性期的前5天需要用静脉或皮下肝素进行抗凝 ， 待国际标准化比值达标后改用达比加群酯或依度沙班 ； 当患者连续3d服用依诺肝素 （40 mg，qd） 后 转 用 达 比 加 群 酯 （220 mg）时［53］ ， 达比加群的 AUC 和 max分别降低14％和16％，但 其 药 效 学 参 数 如 APTT、 凝 血 酶 原 时 间（prothrombintime， PT） 和 抗 Ⅹa因子活性不受影响，这支持了患者从依诺肝素转用达比加群酯的安全性。 依诺肝素（40mg，qd）不影响利伐沙班（5mg或10mg，qd） 或 阿 哌 沙 班 （5mg，qd） 的 药 动 学 参数［49］ ， 但对抗 Ⅹa因 子 活 性 有 附 加 作 用 。 因 此 ， 即使 NOACS与抗凝剂的短期联用是安全 的 ， 也 不 能忽略其可能带来的附加效应。",
+    "bbox": [
+      510,
+      79,
+      905,
+      394
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2018年的1项 RE－LY 试验的回顾性分析显示，口服达比加群酯和非甾体抗炎药物治疗的心房颤动患者发生胃肠道大出血和缺血性中风的风险增加［54］ 相反，在 ARISTOTLE 试验中， 同时服用阿哌沙班和非甾体抗炎药的房颤患者没有观察到这种风险的增加［55］ ，但是非甾体抗炎药对阿哌沙班治疗患者预后的影响值得进一步的研究和关注 1项 Ⅱ 期临床试验数据显示 ， 重大出血事件主要发生在高剂量达比加群酯（150mgbid）与阿司匹林联合治疗组，且其发生率明显高于单独使用达比加群酯组［56］ 因此 应避免达比加群酯与类似的抗血小板药物的联合使用 在健康志愿者或房颤患者中 阿哌沙班可以安全地与阿司匹林联合使用 即阿哌沙班（5mg，bid） 与阿司匹林 （325mg，qd） 联合给药时 APTT没有变化 也没有重大出血事件发生［57］在1项随机试验中 萘普生与阿哌沙班联用会延长患者出血时间 ［（9．1±4．1） min ．（5．8±2．3）min］ 且抗 Ⅹa因子活性在联合给药3h后比单独使用阿哌沙班高约60％ $( 4 . 4 \\pm 1 . 0 ) \\mathrm { \\ I U \\bullet m L ^ { - 1 } } v s $ $( 2 . 7 { \\pm } 0 . 7 ) \\ \\mathrm { I U } { \\cdot } \\mathrm { m L } ^ { - 1 } \\mathbf { \\bar { \\tau } } ]$ 这与联合给药后阿哌沙班血浆浓度的增加一致， 但无重大出血风险发生［58］与此类似，奈普生联合利伐沙班用药与出血时间的非临床显著延长有关 在1项随机双向交叉试验中 连续2d服用萘普生（500mg）的健康受试者服用利伐沙班 （15mg） 后的出血时间平均增加3．43min［46］ 其中，萘普生可使利伐沙班的 AUC增加10％ 但这并不具有统计学意义 且对利伐沙班的药效学参数没有任何临床相关影响 在经导管主动脉瓣置换术后的231名患者抗凝治疗中， 与双联抗血小板治疗相比，利伐沙班（75mg，qd）与阿司匹林（75～100mg，qd）的联用具有更高的死亡风险或血栓栓塞并发症以及出血风险［59］ 。 事实上，阿司匹林或萘普生同依度沙班联合治疗也会增加患者出血时间，但它们均不会改变依度沙班对凝血酶原时间－国际标准化比值、抗因子 Ⅹa和固有 因 子 Ⅹa活性的影响［50］ 因此应尽量避免非甾体抗炎药和达比加群酯的联用，而阿哌沙班或依度沙班与甾体抗炎药物的联用是相对安全的。",
+    "bbox": [
+      510,
+      397,
+      907,
+      919
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志2021年2月第41卷第3期 ChinJHospPharm，Feb2021，Vol41，No．3",
+    "bbox": [
+      90,
+      57,
+      620,
+      70
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "· 713 ·",
+    "bbox": [
+      828,
+      59,
+      890,
+      72
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      79,
+      482,
+      263
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "2．2．2 其他血小板抑制剂 与双联抗血小板治疗相比，阿哌沙班（5mg，qd） 和氯吡格雷（75mg，qd）联合使用不会显著增加出血时间或进一步抑制血小板聚集， 且 阿 哌 沙 班 的 APTT 无 变 化［60］ 。 氯 吡格雷单次负荷剂量（300mg或600mg）与达比加群酯（150mg，bid）同时给药可使达比加群的 AUC和max增加30％～40％［43］ 。 1项在健康志愿者中进行的 Ⅰ 期机制研究显示， 利伐沙班和氯吡格雷的联用不影响各自 的 药 动 学 或 药 效 学 参 数 ， 但 是 大 约1／3的受试 者 在 两 药 联 用 后 的 出 血 时 间 显 著 延 长 ［61］ 。因此，应谨慎使用 NOACs与血小板抑制剂药物 ，如若联用，需要密切观察患者的生命体征和出血情况。3 NOACs与天然药物的药动学或药效学的相互作用",
+    "bbox": [
+      89,
+      266,
+      482,
+      525
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "近年来，天然药物（如圣约翰草）在临床上的应用 越 来 越 广 泛 。 理 论 上 ， 抑 制 或 诱 导 $\\mathrm { P \\mathrm { - } g p }$ 和CYP3A4的天然药物可能干扰 NOACs的药动学或药效学 ， 但 没 有 直 接 证 据 表 明 这 种 相 互 作 用 存 在 。已有研究表明 圣约翰草是 $\\mathrm { P g p }$ 和 CYP3A4的有效诱导剂，有望降低 $\\mathrm { N O A C s }$ 的血浆浓度。 因此，使用达比加群酯（P－gp底物）时应谨慎使用圣约翰草，而使用利伐沙班或阿哌沙班 （P－gp和 CYP3A4底物）时应避免［62］ 。 2019年的临床病例报告显示 ，1位患有非瓣膜性房颤的80岁老人因同时服用生姜肉桂和达比加群酯而导致致命出血［63］ 。 已 有 报 道表明生姜是 一 种 强 P－gp抑 制 剂， 可 显 著 降 低 P－gp介导的达比加群外排［64］ ， 从而提高药物浓度， 因此应避免肉桂 生姜与达比加群酯同时服用 其他天然药物与 NOACs的药物相互作用尚未明确 ， 还有待于临床试验的进一步研究 ， 因此患者在服用一些天然药物之前 应事先询问医师意见",
+    "bbox": [
+      89,
+      527,
+      482,
+      843
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "4 总结与展望",
+    "text_level": 2,
+    "bbox": [
+      90,
+      846,
+      211,
+      860
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "本文综述了 NOACs与临床相关药物在药动学和药效学方面的DDIs 旨在为临床合理用药提供依据。 其中，NOACs的 药 动 学 DDIs主 要 由 P－gp或",
+    "bbox": [
+      89,
+      865,
+      482,
+      917
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "CYP3A4酶介导，因此临床医生在联合用药时应考虑P－gp介导的吸收和外排以及CYP代谢系统对其药动学 的 影 响。 与 此 同 时， 联 合 用 药 时 还 应 避 免NOACs与其他药物之间的药效学 DDIs，因为这些DDIs可能会改变血浆浓度，而血浆中 NOACs的浓度影响其治疗效果。 如果血浆浓度显著升高， 患者主要发生出 血 事 件； 如 果 血 浆 浓 度 过 低 ， 它 们 对 血栓栓塞的保护作用会减弱 因此服用 NOACs的患者可能面临出血或无效抗凝的风险 ， 临床医师需要仔细评估出血风险以确保尽可能简单地使用可能有 DDIs的药物。",
+    "bbox": [
+      510,
+      79,
+      905,
+      282
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "为了使 NOACs提供安全、有效的抗凝作用，了解DDIs的机制显得至关重要 ， 因 此 应 开 展 更 多 的DDIs试验，并研究基于临床联合治疗的新策略 （如药物剂量调整） ， 而不是避免与 NOACs联合用 药。此外，随着 NOACs在临床上的广泛应用 ，逆转凝血酶抑 制 剂 达 比 加 群 的ldarucizumab和 利 伐 沙 班 的解毒剂andexanetalfa也 已 先 后 批 获 上 市 ， 它 们 能逆转并改善药物相关的抗凝血活性 ， 为抗凝药物的安全使用增加一道保险 ， 但是这类拮抗剂是否也能在联合用药后的出血风险中得到应用并起到相应的疗效仍然还有待观察。",
+    "bbox": [
+      510,
+      285,
+      907,
+      487
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "参考文献 ：",
+    "text_level": 2,
+    "bbox": [
+      514,
+      491,
+      584,
+      502
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "［1］ BauerKA．Recentprogressinanticoagulanttherapy： oraldi－rectinhibitorsofthrombinandfactorⅩa［J］．JThrombHaem－ost 2011 9 12－19",
+      "［2］ AlexanderJH， WojdylaD， Vora AN， ．Risk／benefittradeoffofantithrombotictherapyinpatientswithatrialfibril－lationearlyandlateafteranacutecoronarysyndromeorpercu－taneouscoronaryintervention insightsfrom AUGUSTUS［J］．Circulation， 2020， 141（20） ： 1618－1627",
+      "［3］ KearonC， AklEA， OrnelasJ， ．AntithrombotictherapyforVTEdisease： CHESTguidelineandexpertpanelreport［J］．Chest 2016 149（2） ： 315－352",
+      "［4］ DienerHC， SaccoRL， EastonJD， ．Dabigatranforpre－ventionofstrokeafterembolicstrokeofundeterminedsource［J］．NEnglJMed， 2019， 380（20） ： 1906－1917",
+      "［5］ NietoJA， EspadaNG， MerinoRG， ．Dabigatran， rivar－oxabanandapixabanversusenoxaparinforthomboprophylaxisaftertotalkneeorhiparthroplasty： pool－analysisofphase Ⅲrandomizedclinicaltrials［J］．ThrombRes 2012 130（2）183－191",
+      "［6］ StangierJ， RathgenK，SthleH， ．Thepharmacokinet－ics， pharmacodynamicsandtolerabilityofdabigatranetexilate，aneworaldirectthrombininhibitor， inhealthymalesubjects［J］．BrJClinPharmacol， 2007， 64（3） ： 292－303",
+      "［7］ BlechS， EbnerT， Ludwig－SchwellingerE， ．Themetab－olismanddispositionoftheoraldirectthrombininhibitordabigatran inhumans［J］．Drug Metab Dispos BiolFateChem 2008 36（2） ： 386－399",
+      "［8］ HodinS， BassetT， JacquerouxE， ． comparisonoftheroleofP－glycoproteinandbreastcancerresistancepro－",
+      "teinondirectoralanticoagulantsdisposition［J］．EurJDrugMetabPharmacokinet 2018 43（2） ： 183－191",
+      "［9］ WeinzC， SchwarzT， KubitzaD， ．Metabolismandex－cretionofrivaroxaban， anoral， directfactorXainhibitor， inrats， dogs， andhumans［J］．Drug MetabDispos， 2009， 37（5） ： 1056－1064",
+      "［10］ GnothMJ， BuetehornU， MuensterU， ．InvitroandinvivoP－glycoproteintransportcharacteristicsofrivaroxaban［J］．JPharmacolExpTher 2011 338（1） ： 372－380",
+      "［11］ KubitzaD BeckaM WensingG ．Safety pharmacody－namics， andpharmacokineticsofBAY59－7939—anoral， di－rectFactorXainhibitor—aftermultipledosinginhealthymalesubjects［J］．EurJClinPharmacol， 2005， 61（12） ： 873－880",
+      "［12］ KubitzaD BeckaM RothA ．Theinfluenceofageandgenderonthepharmacokineticsandpharmacodynamicsofri－varoxaban： anoral， directFactorXainhibitor［J］．JClinPhar－macol， 2013， 53（3） ： 249－255",
+      "［13］ MueckW， KubitzaD， BeckaM．Co－administrationofrivarox－abanwithdrugsthatshareitseliminationpathways： pharma－cokineticeffectsinhealthysubjects［J］．BrJClinPharmacol，2013， 76（3） ： 455－466",
+      "［14］ SongY， Chang M， SuzukiA， ．Evaluationofcrushedtabletfororaladministrationandtheeffectoffoodonapixabanpharmacokineticsinhealthyadults［J］．ClinTher， 2016， 38（7） 1674－1685．e1",
+      "［15］ VakkalagaddaB， FrostC， ByonW， ．Effectofrifampinonthepharmacokineticsofapixaban， anoraldirectinhibitoroffactorxa［J］．AmJCardiovascDrugs， 2016， 16（2） ： 119－127",
+      "［16］ RaghavanN FrostCE YuZ ．Apixabanmetabolismandpharmacokineticsafteroraladministrationtohumans［J］DrugMetabDispos BiolFateChem 2009 37（1） 74－81",
+      "［17］ MatsushimaN， LeeF， SatoT， ．Bioavailabilityandsafe－tyofthefactorxainhibitoredoxabanandtheeffectsofquini－dineinhealthysubjects［J］．ClinPharmacolDrugDev 20132（4） 358－366",
+      "［18］ ParasrampuriaD， WeilertD， MaaJ， ．Pharmacokinetics（Pk） ofEdoxaban，aNovelOralAnticoagulant（Noac） ， WhenDosedAloneorFollowingSwitchingfromDabigatranorRivar－oxaban［J］．ClinPharmacolTher， 2014， 95： S83－S83",
+      "［19］ LeucutaSE， VlaseL．Pharmacokineticsandmetabolicdruginteractions［J］．CurrClinPharmacol 2006 1（1） 5－20",
+      "［20］ ZhangDL HeK HerbstJJ ．Characterizationofefflux transportersinvolvedindistributionanddispositionofapixa－ ban［J］．DrugMetabDispos 2013 41（4） 827－835",
+      "［21］ HrtterS， SennewaldR， NehmizG， ．Oralbioavailabilityofdabigatranetexilate （Pradaxa（ ） ） afterco－medicationwithverapamilinhealthysubjects［J］．BrJClinPharmacol， 2013，75（4） 1053－1062",
+      "［22］ FrostCE ByonW SongY ．Effectofketoconazoleanddiltiazemonthepharmacokineticsofapixaban， anoraldirectfactorXainhibitor［J］．BrJClinPharmacol， 2015， 79（5） ：838846．",
+      "［23］ MueckW， ErikssonBI， BauerKA， ．Populationpharma－cokineticsandpharmacodynamicsofrivaroxaban： anoral di－rectfactorXainhibitor—inpatientsundergoingmajorortho－paedicsurgery ［J］．Clin Pharmacokinet 2008 47 （3）203－216．",
+      "［24］ LiesenfeldKH， LehrT， DansirikulC， ．Populationphar－macokineticanalysisoftheoralthrombininhibitordabigatran",
+      "etexilateinpatientswithnon－valvularatrialfibrillationfromtheRE－LYtrial［J］．JThrombHaemost 2011 9（11） ： 2168－2175．",
+      "［25］ StangierJSthleH RathgenK ．Pharmacokineticsandpharmacodynamicsof dabigatran etexilate， an oral directthrombininhibitor， withcoadministrationofdigoxin［J］．JClinPharmacol， 2012， 52（2） ： 243－250",
+      "［26］ Gouin－ThibaultI， DelavenneX， BlanchardA， ．Interindi－vidualvariabilityindabigatranandrivaroxabanexposure： con－tributionofABCB1geneticpolymorphismsandinteractionwithclarithromycin［J］．J Thromb Haemost， 2017， 15 （2） ：273－283",
+      "［27］ SteinbergBA， HellkampAS， LokhnyginaY， ．Useandoutcomesofantiarrhythmictherapyinpatientswithatrialfi－brillationreceiving oralanticoagulation： resultsfrom theROCKET AF trial［J］． Heart Rhythm， 2014， 11 （6） ：925－932",
+      "［28］ SokolJ NehajF IvankovaJ ．Interactionbetweendirectfactorxainhibitorsanddigoxin［J］．AmJTher， 2019，26（5） ：e649－e652",
+      "［29］ GaronzikS， ByonW， MyersE， ．Theeffectsofclarithro－mycinonthepharmacokineticsofapixabaninhealthyvolun－teers： asingle－sequencecrossoverstudy［J］．AmJCardiovascDrugs， 2019， 19（6） ： 561－567",
+      "［30］ MendellJ， ZahirH， MatsushimaN， ．Drug－druginterac－tionstudiesofcardiovasculardrugsinvolvingP－glycoprotein，aneffluxtransporter， onthepharmacokineticsofedoxaban，anoralfactorXainhibitor［J］．AmJCardiovascDrugs， 2013，13（5） 331－342",
+      "［31］ ParasrampuriaDA， MendellJ， ShiM， ．Edoxabandrug－druginteractionswithketoconazole， erythromycin， andcy－closporine［J］．BrJClinPharmacol， 2016， 82（6） ： 1591－1600",
+      "［32］ MendellJ， ChenS， HeL， ．Theeffectofrifampinonthepharmacokineticsofedoxabaninhealthyadults［J］．ClinDrugInvestig 2015 35（7） 447－453",
+      "［33］ RayWA， ChungCP， MurrayKT， ．Associationoforalanticoagulantsandprotonpumpinhibitorcotherapywithhos－pitalizationforuppergastrointestinaltractbleeding［J］．JA－MA 2018 320（21） 2221－2230",
+      "［34］ ChanEW， LauWCY， LeungWK， ．Preventionofdabig－atran－relatedgastrointestinalbleedingwithgastroprotectivea－gents： apopulation－basedstudy［J］．Gastroenterology， 2015，149（3） 586－595．e3",
+      "［35］ KuwayamaT OsanaiH AjiokaM ．InfluenceofprotonpumpinhibitorsonblooddabigatranconcentrationsinJapanesepatientswithnon－valvularatrialfibrillation［J］．JArrhythm，2017 33（6） 619－623",
+      "［36］ SchniererM， SamoM， BolekT， ．Theeffectofprotonpumpinhibitorwithdrawalondabigatranetexilateplasmalev－elsinpatientswithatrialfibrillation［J］．JCardiovascPharma－col 2020 75（4） ： 333－335",
+      "［37］ ZhaoY HuZY．Physiologicallybasedpharmacokineticmod－ellingand ［I］／K（i） accuratelypredictP－glycoprotein－mediateddrug－druginteractionswithdabigatranetexilate［J］BrJPharmacol 2014 171（4） 1043－1053",
+      "［38］ OllierE HodinS BassetT ． and evaluationofdrug－druginteractionbetweendabigatranandprotonpumpinhibitors［J］．FundamClinPharmacol， 2015， 29（6） ：604－614",
+      "［39］ ReillyPA， LehrT， HaertterS， ．Theeffectofdabigatranplasmaconcentrationsandpatientcharacteristicsonthefre－quencyofischemicstrokeandmajorbleedinginatrialfibrilla－tionpatients： theRE－LYtrial（randomizedevaluationoflong－termanticoagulationtherapy） ［J］．JAmCollCardiol， 2014，63（4） ： 321－328",
+      "［40］ StangierJ， RathgenK， StahleH， ．Coadministrationofdabigatranetexilateandatorvastatin： assessmentofpotentialimpactonpharmacokineticsandpharmacodynamics［J］．AmJCardiovascDrugs，2009， 9（1） ： 59－68",
+      "［41］ KubitzaD BeckaM RothA ．Absenceofclinicallyrel－evantinteractionsbetweenrivaroxaban： anoral， directFactorXainhibitor： anddigoxinoratorvastatininhealthysubjects［J］．JIntMedRes 2012 40（5） 1688－1707",
+      "［42］ SalazarDE， MendellJ， KastrissiosH， ．Modellingandsimulationofedoxabanexposureandresponserelationshipsinpatientswithatrialfibrillation［J］．ThrombHaemost， 2012，107（5） ： 925－936",
+      "［43］ HrtterS SennewaldR SchepersC ．Pharmacokinetic andpharmacodynamiceffectsofcomedicationofclopidogrel anddabigatranetexilateinhealthymalevolunteers［J］．EurJ ClinPharmacol 2013 69（3） 327－339",
+      "［44］ FriedmanRJ， KurthA， ClemensA， ．Dabigatranetexi－lateandconcomitantuseofnon－steroidalanti－inflammatorydrugsoracetylsalicylicacidinpatientsundergoingtotalhipandtotalkneearthroplasty： noincreasedriskofbleeding［J］ThrombHaemost 2012 108（1） 183－190",
+      "［45］ KubitzaD， BeckaM， Mueck W， ．Safety， tolerability，pharmacodynamics， andpharmacokineticsofrivaroxaban—anoral directfactorXainhibitor—arenotaffectedbyaspirin［J］JClinPharmacol 2006 46（9） ： 981－990",
+      "［46］ KubitzaD BeckaM Mueck W ．Rivaroxaban （BAY59－7939） ： anoral directFactorXainhibitor－hasnoclinicallyrelevantinteractionwithnaproxen［J］．BrJClinPharmacol2007， 63（4） ： 469－476",
+      "［47］ PicciniJP， StevensSR， LokhnyginaY， ．OutcomesaftercardioversionandatrialfibrillationablationinpatientstreatedwithrivaroxabanandwarfarinintheROCKETAFtrial［J］．JAmCollCardiol 2013 61（19） 1998－2006",
+      "［48］ AlexanderJH， LopesRD， JamesS， ．Apixabanwithan－tiplatelettherapyafteracutecoronarysyndrome［J］．NEnglJMed 2011 365（8） 699－708",
+      "［49］ WangJ， SongY， PursleyJ， ．Arandomisedassessmentofthepharmacokinetic， pharmacodynamicandsafetyinterac－tionbetweenapixabanandenoxaparininhealthysubjects［J］ThrombHaemost 2012 107（5） ： 916－924",
+      "［50］ MendellJ LeeF ChenS ．Theeffectsoftheantiplate－ letagents aspirinandnaproxen onpharmacokineticsand pharmacodynamicsoftheanticoagulantedoxaban adirectfac－ torXainhibitor［J］．JCardiovascPharmacol 2013 62（2） 212－221．",
+      "［51］ MatsushimaN， Halim AB， HeL， ．Edoxabanadminis－",
+      "trationfollowingenoxaparin： apharmacodynamic， pharmaco－kinetic， andtolerabilityassessmentinhumansubjects［J］ThrombHaemost， 2012， 108（1） ： 166－175",
+      "［52］ SchulmanS， KakkarAK， GoldhaberSZ， ．Treatmentofacutevenousthromboembolism withdabigatranorwarfarinandpooledanalysis［J］．Circulation， 2014， 129（7） ： 764－772",
+      "［53］ ClemensA， vanRynJ， SennewaldR， ．Switchingfromenoxaparintodabigatranetexilate： pharmacokinetics， pharma－codynamics， andsafetyprofile［J］．EurJClinPharmacol，2012， 68（5） ： 607－616",
+      "［54］ KentAP， BrueckmannM， FraessdorfM， ．Concomitantoralanticoagulantand nonsteroidalanti－inflammatory drugtherapyinpatientswithatrialfibrillation［J］．JAmCollCardi－ol 2018 72（3） 255－267",
+      "［55］ DalgaardF MulderH WojdylaDM ．Patientswithat－rialfibrillationtakingnonsteroidalanti－inflammatorydrugsandoralanticoagulantsintheARISTOTLEtrial［J］．Circulation，2020 141（1） ： 10－20",
+      "［56］ EzekowitzMD ReillyPA NehmizG ．Dabigatranwithorwithoutconcomitantaspirincomparedwithwarfarinaloneinpatientswithnonvalvularatrialfibrillation （PETROStudy）［J］．AmJCardiol， 2007， 100（9） ： 1419－1426",
+      "［57］ FrostC， WangJ， NepalS， ．Apixaban， anoral， directfactorXainhibitor： singledosesafety， pharmacokinetics，pharmacodynamicsandfoodeffectinhealthysubjects［J］．BrJClinPharmacol 2013 75（2） 476－487",
+      "［58］ FrostC， ShenkerA， GandhiMD， ．Evaluationoftheeffectofnaproxenonthepharmacokineticsandpharmacody－namicsofapixaban［J］．BrJClinPharmacol， 2014， 78（4） ：877－885",
+      "［59］ DeBackerO DangasGD JilaihawiH ．Reducedleafletmotionaftertranscatheteraortic－valvereplacement［J］．NEnglJMed 2020 382（2） ： 130－139",
+      "［60］ NutescuE， ChuatrisornI， HellenbartE．Druganddietaryin－teractionsofwarfarinandnoveloralanticoagulants： anupdate［J］．JThrombThrombolysis， 2011， 31（3） ： 326－343",
+      "［61］ KubitzaD， BeckaM， MückW， ．Effectofco－administra－tionofrivaroxabanandclopidogrelonbleedingtime pharma－codynamicsandpharmacokinetics aphaseIstudy［J］．Phar－maceuticals（Basel） ， 2012， 5（3） ： 279－296．",
+      "［62］ HuppertzA， WerntzL， MeidAD， ．RivaroxabanandmacitentancanbecoadministeredwithoutdoseadjustmentbutthecombinationofrivaroxabanandStJohn’swortshouldbeavoided［J］．BrJClinPharmacol 2018 84（12） 2903－2913",
+      "［63］ MaadaraniO， BitarZ， MohsenM．Addingherbalproductstodirect－actingoralanticoagulantscanbefatal［J］．EurJCaseRepInternMed 2019 6（8） ： 001190",
+      "［64］ BuhnerSH．Herbalantibiotics ： naturalalternativesfortrea－tingdrug－resistantbacteria： 2nded［M］．NorthAdams MAUSA StoreyPublishing 2012"
+    ],
+    "bbox": [
+      510,
+      506,
+      907,
+      917
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "· 813 ·",
+    "bbox": [
+      105,
+      60,
+      166,
+      71
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志2021年2月第41卷第3期 ChinJHospPharm，Feb2021，Vol41，No．3",
+    "bbox": [
+      376,
+      58,
+      905,
+      70
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      87,
+      76,
+      490,
+      920
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      512,
+      78,
+      909,
+      917
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志2021年2月第41卷第3期 ChinJHospPharm，Feb2021，Vol41，No．3",
+    "bbox": [
+      90,
+      58,
+      618,
+      68
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "· 913 ·",
+    "bbox": [
+      828,
+      60,
+      889,
+      71
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      979
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      87,
+      76,
+      485,
+      816
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      512,
+      78,
+      909,
+      787
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "［收稿日期］2020－09－05",
+    "bbox": [
+      771,
+      788,
+      905,
+      800
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "page_number",
+    "text": "· 023 ·",
+    "bbox": [
+      105,
+      60,
+      166,
+      71
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志2021年2月第41卷第3期 ChinJHospPharm，Feb2021，Vol41，No．3",
+    "bbox": [
+      378,
+      58,
+      905,
+      70
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 6
+  }
+]

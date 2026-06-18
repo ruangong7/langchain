@@ -1,0 +1,959 @@
+[
+  {
+    "type": "text",
+    "text": "药理试验设计与统计",
+    "text_level": 2,
+    "bbox": [
+      41,
+      80,
+      293,
+      102
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "药物相互作用动力学分析方法及其 CoDrug 软件",
+    "text_level": 1,
+    "bbox": [
+      15,
+      138,
+      672,
+      167
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "郑青山 孙瑞元",
+    "bbox": [
+      17,
+      173,
+      211,
+      196
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "（安徽省药物临床评价中心皖南医学院弋矶山医院芜湖 241001）",
+    "bbox": [
+      15,
+      206,
+      620,
+      223
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘要 在药物治疗学领域 复方新药的组方筛选和优化 临床联合用药方案的设计与评价 以及中药方剂配伍规律的定量研究 均需要药物相互作用的动力学分析。本文结合其专用软件CoDrug简介了多药物联合应用时优选最佳组份 剂量和比例的权重配方法 分析药物相互作用动态规律的参数法和映射法 以及多指标综合分析法 列出了系统研究药物相互作用动力学的完整方案",
+    "bbox": [
+      13,
+      247,
+      481,
+      415
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词 药物相互作用 联合药物治疗 药物协同作用 药物拮抗作用",
+    "bbox": [
+      15,
+      417,
+      481,
+      456
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号：R696.2；R696.3；R453",
+    "bbox": [
+      15,
+      481,
+      345,
+      500
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "文献标识码：A",
+    "bbox": [
+      15,
+      502,
+      155,
+      520
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "文 章 编 号",
+    "bbox": [
+      15,
+      522,
+      371,
+      541
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 前言",
+    "text_level": 2,
+    "bbox": [
+      15,
+      555,
+      103,
+      574
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "由于药物相互作用研究方法学的重要性 引起了世界范围内众多学者的关注 并限于各自领域 提出了多种方法 仅固定联用比例的方法就多达十余种［12］如 Loewe 等效线法［3］Chou-Talalay 合并指数法［4］等。但各法前提不同同一资料应用不同的方法所得结论各异 甚至相反 而多比例多剂量的优选方法相对较少 因此 在药物治疗学领域 特别是量反应数据 药以上药物联用 临床试验的数据分析 整方研究中分析单个组份及组份间的关系 以及多药物多剂量水平的优选等 一直成为国内外亟待解决的难题。究其原因［25］：（1）主要是应用领域不同 基本概念不一 判断标准有别 药物相互作用本身的复杂性 其结果的表述包括协同性 相加性 拮抗性和无关 可互补 它们不但与联用的组份种类有关 还与联用比例 以及联用剂量有关 且呈现动态过程。如低剂量协同、高剂量拮抗此比例协同、彼比例拮抗等情况。（3）联用的数据类型多样如质反应和量反应数据 动物试验和临床试验数据西药复方和中药方剂数据 又存在多药物多水平联用数据等 作为整体试验 各组份即使作用于不同的靶器官但由于通过相同的效应器官表现出来总是表现为某种相互作用 又由于反馈和适应等现象存在 这种影响更加复杂 甚至与用药次序有关结论既要符合专业要求 又要符合统计学要求涉及多学科领域 理论计算十分复杂 医药学人员很难掌握。",
+    "bbox": [
+      13,
+      587,
+      483,
+      881
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      514,
+      247,
+      982,
+      500
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "因此 目前传统的方法难以在药物治疗学领域应用［2］ 我们对此进行系统地研究 提出了研究药物相互作用的系统性动力学方法 并编制了计算机软件 ［6］ 用于复方新药的组方筛选与优化 临床联合用药方案的制定与评价以及中药方剂配伍规律的定量研究 现对此作一简介",
+    "bbox": [
+      514,
+      504,
+      982,
+      628
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2 CoDrug 特点",
+    "text_level": 2,
+    "bbox": [
+      514,
+      641,
+      686,
+      663
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "1．CoDrug 即“药物相互作用动力学分析软件”是由 Visual Basic for Application （VBA）编制而成集中了作者提出的一系列分析方法 主要用于药物治疗学领域中的药物相互作用动力学分析 例如 复方新药的组方筛选与优化 临床联合用药方案的制定与评价 以及中药方剂配伍规律的定量研究 详见图所示 ［2］",
+      "本软件可用于体内各种类型的药物相互作用数据分析 如量反应和质反应的量效数据 两药或多药联用 单比例和多个比例联用等",
+      "由于以 为平台 操作同 数据输入和修改方便 所有分析结果和图表可直接剪贴到文档中使用起来十分方便。",
+      "每种分析方法的输出内容丰富 信息量大既能输出参数 图形 又有统计结果"
+    ],
+    "bbox": [
+      514,
+      673,
+      982,
+      989
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中国临床药理学与治疗学Chin JClin Pharmacol Ther 2OO2 Feb；7(1):81—85",
+    "bbox": [
+      205,
+      25,
+      792,
+      41
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "",
+    "bbox": [
+      892,
+      25,
+      956,
+      39
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "2002-02-05收稿2002-02-08修回",
+    "bbox": [
+      13,
+      902,
+      241,
+      917
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "郑青山 联系作者 男 博士 副研究员 副教授",
+    "bbox": [
+      15,
+      921,
+      335,
+      936
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "Tel／Fax：0553-5738350 E-mail：zhengqs＠mail．ahwhptt．net．cn",
+    "bbox": [
+      15,
+      939,
+      421,
+      952
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "孙瑞元男教授国家新药开发与发展常务专家委员会委员国家药典委员会委员 国家新药审评委员",
+    "bbox": [
+      15,
+      956,
+      479,
+      989
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "image",
+    "img_path": "images/0d886f64f0e4bd81a6ffbea923f2179a32db24507e46bcae79b896b803584f12.jpg",
+    "image_caption": [
+      "图1 药物相互作用动力学方法及其选择应用"
+    ],
+    "image_footnote": [],
+    "content": "```mermaid\ngraph TD\n    A[\"多组份、多比例和多剂量的组方优选<br>  (复方新药、临床联合用药方案、中药方剂)\"] --> B[\"权重配方法\"]\n  B --> C[\"单指标\"]\n  C --> D[\"多指标\"]\n  D --> E[\"多指标综合分析法\"]\n  E --> F[\"优先组方(最适组份、联用比例和联用剂量)\"]\n  E --> G[\"各组份药在组方中重要程度\"]\n  E --> H[\"药物相互作用定性分析(协同,拮抗等)\"]\n  F --> I[\"参数法\"]\n  G --> I\n  H --> I\n  I --> J[\"质反应量效数据\"]\n  J --> K[\"量反应量效数据\"]\n  K --> L[\"映射法\"]\n  L --> M[\"药物相互作用动态分析\"]\n  L --> N[\"优势的治疗剂量范围\"]\n  L --> O[\"安全性评价\"]\n```",
+    "sub_type": "flowchart",
+    "bbox": [
+      191,
+      78,
+      828,
+      318
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "3 分析方法",
+    "text_level": 2,
+    "bbox": [
+      13,
+      378,
+      153,
+      400
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "3．1 权重配方法（weighted modification method）［7］",
+    "text_level": 2,
+    "bbox": [
+      13,
+      411,
+      449,
+      431
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "3．1．1 分析目的 多组份、多比例、多剂量的组方筛选和优化",
+      "3．1．2 原理 配方中每个组份药各发挥不同的作用 我们可根据其剂量和联合效应的关系 即量效关系 来衡量其重要程度 如图 所示 量效关系明显"
+    ],
+    "bbox": [
+      13,
+      433,
+      483,
+      536
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "chart",
+    "img_path": "images/10bc267bdbf01cd53a700a4c0726fcfe7a14ffc4e4e946dbd2bbcc028a324fe8.jpg",
+    "content": "| 药A组方剂量 | 联合药效 |\n| ---------- | -------- |\n| 1          | 5        |\n| 2          | 15       |\n| 3          | 25       |\n| 4          | 30       |\n| 5          | 35       |",
+    "chart_caption": [],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      75,
+      544,
+      502,
+      721
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "者 如组份药 宜用大剂量 不明显者限量使用如组份药 无效 如组份药 或拮抗药 如组份药 不用 同时考虑药物间的相互作用 如组份药对组份药 有协同作用 可考虑合用 与图 的示意图不同 实际的量效关系我们可以用图 表示这样 权重配方法就是通过合理的设计 显示各药在配方中的相对量效关系和相互作用 确定其在方中的重要程度 从而进一步调整其在配方中的剂量",
+    "bbox": [
+      514,
+      369,
+      984,
+      537
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "chart",
+    "img_path": "images/a57872eb7181387cd676cce1bbdf7947c6a2d36c3a8a63dd36a42ff249a25dbc.jpg",
+    "content": "| 药B组方剂量 | 联合药效 |\n| :--- | :--- |\n| 1 | 35 |\n| 2 | 32 |\n| 3 | 28 |\n| 4 | 18 |\n| 5 | 5 |",
+    "chart_caption": [],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      516,
+      544,
+      944,
+      723
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "chart",
+    "img_path": "images/5fecac0afa43a354f10192e44e19269d38b3cf5257e1204c2a577553f49f329d.jpg",
+    "content": "| 药C组方剂量 | 联合药效 |\n| ---------- | -------- |\n| 1          | 20       |\n| 2          | 25       |\n| 3          | 27       |\n| 4          | 30       |\n| 5          | 32       |",
+    "chart_caption": [],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      73,
+      743,
+      500,
+      923
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "chart",
+    "img_path": "images/cc06dba5f9e2edf6fcc2b5274b27b4117bfc64b4fb4a20f8d897618b17d7960d.jpg",
+    "content": "| 药D组方剂量 | 联合药效 |\n| ---------- | -------- |\n| 2          | 0        |\n| 3          | 0        |\n| 4          | 0        |\n| 5          | 0        |",
+    "chart_caption": [
+      "图2 权重配方法原理示意图"
+    ],
+    "chart_footnote": [
+      "由 ABCD4个组份药联合使用每药可能发挥的作用不同：组份药 A 呈现明显的量效关系药 B 呈现拮抗作用药 C 无明显量效关系药 D 无作"
+    ],
+    "sub_type": "bar chart",
+    "bbox": [
+      510,
+      743,
+      940,
+      923
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": ".82·",
+    "bbox": [
+      45,
+      25,
+      109,
+      39
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "中国临床药理学与治疗学 Chin J Clin Pharmacol Ther2002Feb；7（1）",
+    "bbox": [
+      235,
+      25,
+      762,
+      41
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "chart",
+    "img_path": "images/2bfa9213b2c2f12997eb9dea3ced41dcd4556a4c5926e44239fe543d5d70b284.jpg",
+    "content": "| 各药在联用中的标化剂量 | 药1  | 药2  | 药3  |\n| ---------------------- | ---- | ---- | ---- |\n| 0.5                    | 0.6  | 1.4  | 1.6  |\n| 0.7                    | 1.1  | 0.6  | 1.3  |\n| 0.9                    | 1.3  | 1.6  | 0.6  |\n| 1.1                    | 1.4  | 1.1  | 1.9  |\n| 1.3                    | 1.6  | 1.9  | 1.4  |\n| 1.7                    | 1.9  | 1.3  | 1.1  |",
+    "chart_caption": [
+      "图3 药物相互作用动力学的各组份剂量-联用药效曲线示意图"
+    ],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      21,
+      61,
+      463,
+      249
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "标化剂量为各药在联用中的单个剂量与其均数之比［27］ 即去量纲化剂量 这样各组份的量效关系保持不变 但可在同一座标图中表示出来。",
+    "bbox": [
+      13,
+      289,
+      481,
+      340
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3．1．3 分析结果 （1）优化组方（最适组份、联用比例和联用剂量）；（2）各组份药在组方中的重要程度如主药 协同药 拮抗药等 药物相互作用定性分析（协同性、拮抗性和相加性）。",
+    "bbox": [
+      13,
+      357,
+      481,
+      439
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3．2 参数法（parameter method）［8］",
+    "text_level": 2,
+    "bbox": [
+      13,
+      440,
+      331,
+      460
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "分析目的 基于固定比例 连续剂量的质反应效应 百分率药效 数据 作药物相互作用定量分析。",
+    "bbox": [
+      13,
+      464,
+      481,
+      524
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "原理 药物只有与体内一定的部位结合后方能呈现药效 这些结合部位包括受体 酶 生物膜生化代谢环 血浆蛋白 等 多药物联用时 往往结合部位类型多样 但是药物的显效部位相对较少或单一 例如 各种类型的降压药机理虽不同 结合部位也各异 但最终都通过减轻血管内压力 显效部位 而实现 为了将药物的显效部位推广到更一般化的概念 我们将最基本的显效部位称为 位点药物单用或按固定比例联用时 在其剂量水平由小到大的过程中 结合的位点数量也越来越多 药效随之增强 当该药结合了全部的位点时 其药效达到最大值 此时无论剂量如何增加药效保持不变或变化很小 因此 固定比例的药物相互作用分析类似于药物受体竞争性作用",
+    "bbox": [
+      13,
+      526,
+      481,
+      820
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "分析结果 根据联用剂量变化 观察药物相互作用动态变化 如图 所示［2］ 根据药物相互作用确定优势的治疗剂量范围或安全性评价",
+    "bbox": [
+      13,
+      823,
+      481,
+      884
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3．3 映射法（reflection method）［9］",
+    "text_level": 2,
+    "bbox": [
+      13,
+      886,
+      323,
+      905
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "分析目的 基于固定比例 连续剂量的量反应效应数据 作药物相互作用定量分析",
+    "bbox": [
+      13,
+      908,
+      481,
+      947
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3．3．2 原理 药物联用中的相加性作用是联用效果定量分析的基础 但相加的概念尚未统一 因为存虚线以上的 值线所对应的联用剂量间为协同性相互作用 Q虚线以下的 值线所对应的联用剂量间为相加性相互作用 Q",
+    "bbox": [
+      13,
+      950,
+      481,
+      990
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "chart",
+    "img_path": "images/40f5e1251c83d7b7b7f42c3045f4f010118df9be78c253248ff353cc22f15cdf.jpg",
+    "content": "| Asp+But+Caf (mg·kg⁻¹, ig) | Q值 |\n| ------------------------ | --- |\n| 20                       | 0   |\n| 30                       | 1   |\n| 40                       | ~2.5|\n| 50                       | ~2.8|\n| 60                       | ~3  |",
+    "chart_caption": [
+      "图4 阿司匹林（Asp）、布他比妥（But）和咖啡因（Caf）联用比例为1 3 13时 其相互作用动力学分析"
+    ],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      532,
+      61,
+      968,
+      249
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      514,
+      289,
+      980,
+      323
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "在两种不同类型的联合作用 即相似作用和独立作用［2］前者表示联用药物间作用机理相似联用效应有叠加作用 相当于一个药的不同剂量合用 后者指联用药物作用机理不同 一药的效应对另一药的效应发挥不影响或影响很小 类似的概念亦然 但在药物治疗学领域 情况要复杂得多 例如 在低效量时 联用药效间也许互不关联 但随着剂量加大药效增加 彼此间发生影响 甚至药效部分叠加 特别是通过同一效应器官表现药效时 另外 尚有反馈机制 耐受或超敏等现象存在 此时独立作用并非独立而是两种作用的交互混杂状态。因此对药物治疗学体内试验 所谓的独立和相似作用常常是不易区分的 因此有必要建立新的分析方法",
+    "bbox": [
+      514,
+      338,
+      982,
+      610
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "可以推测 不论联用药间呈相似或独立作用 还是交互混杂作用 都可在联用药的量效线上得到反映 因此 本法采用联用药量效曲线作为标准 等于分析方式随着药物间相互作用形式的变化而变化避开以上不同类型联合作用的概念",
+    "bbox": [
+      514,
+      613,
+      982,
+      715
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "分析结果 同参数法 但主要用于量反应的量效数据分析。（1）根据联用剂量变化观察药物相互作用动态变化或安全性评价 见图 所示［2］根据药物相互作用确定优势的治疗剂量范围",
+    "bbox": [
+      514,
+      719,
+      980,
+      800
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3．4 综合指数法（comprehensive index method）［10］",
+    "text_level": 2,
+    "bbox": [
+      514,
+      801,
+      970,
+      820
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "分析目的 一个指标不足以反映各联用剂量组的优劣 需对多个反应指标作综合分析",
+    "bbox": [
+      514,
+      824,
+      980,
+      863
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3．4．2 原理 从各实验组数据中建立公共参比数据 再分别用各组分析用数据与之作统计分析 根据原理［2］ 用相关的统计量绘制曲线 曲线下面积越大 表明此实验组数据与参比数据的差别越大相反 与公共参比组数据差别越小 则所围的面积越小 由于公共参比数据恒定 所以此曲线下面积大小可反应彼此间的差别 因此可作为综合指数$\\left( \\ A _ { \\mathrm { r e a } } \\right)$ 图 标示了 个组 的曲线下面积即为各自的 $A _ { \\mathrm { r e a } }$ 。",
+    "bbox": [
+      514,
+      866,
+      982,
+      990
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "中国临床药理学与治疗学 Chin J Clin Pharmacol Ther2002Feb；7（1）",
+    "bbox": [
+      235,
+      25,
+      762,
+      41
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": ".83.",
+    "bbox": [
+      892,
+      25,
+      956,
+      39
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "chart",
+    "img_path": "images/90a2ad7a525ffce138002713b473f20999936692a5d0dd988441ec80037f97eb.jpg",
+    "content": "| Epi+Iso (1:4.44) 剂量 | Q值  |\n| --------------------- | ---- |\n| 0                     | -40  |\n| 20                    | -10  |\n| 40                    | -5   |\n| 60                    | -2   |\n| 80                    | -1   |\n| 100                   | 0    |\n| 120                   | 0    |",
+    "chart_caption": [
+      "图5 肾上腺素（Epi）和异丙肾上腺素（Iso）在不同联用比例和剂量时的药物相互作用动态变化示意图。"
+    ],
+    "chart_footnote": [
+      "两虚线之间 Q 值所对应的联用剂量间为相加性作用 之上 Q 值所对应的联用剂量间为协同性相互作用 之下为拮抗性作用"
+    ],
+    "sub_type": "line chart",
+    "bbox": [
+      23,
+      64,
+      459,
+      242
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      13,
+      332,
+      481,
+      392
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "3．4．3 分析结果 （1）对多个指标进行单一化处理 综合比较各组的优劣",
+    "bbox": [
+      13,
+      396,
+      481,
+      433
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "chart",
+    "img_path": "images/aa62bdbfcef7cc7c226958cbe817636439a985d24ac2bce82bb045ed312f77e4.jpg",
+    "content": "| Re   | G1    | G2    | G3    |\n|------|-------|-------|-------|\n| 0.0  | 0.0   | 0.25  | 0.0   |\n| 0.1  | 0.1   | 0.35  | 0.05  |\n| 0.2  | 0.2   | 0.45  | 0.1   |\n| 0.3  | 0.3   | 0.5   | 0.15  |\n| 0.4  | 0.4   | 0.6   | 0.2   |\n| 0.5  | 0.5   | 0.7   | 0.3   |\n| 0.6  | 0.6   | 0.8   | 0.4   |\n| 0.7  | 0.7   | 0.9   | 0.5   |\n| 0.8  | 0.8   | 0.95  | 0.6   |\n| 0.9  | 0.9   | 0.98  | 0.7   |\n| 1.0  | 1.0   | 1.0   | 1.0   |",
+    "chart_caption": [
+      "图6 $\\mathbf { G 1 - G 3 }$ 组的 $R _ { \\mathrm { e } } { } ^ { - } R _ { \\mathrm { c } }$ 曲线下面积示意图"
+    ],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      21,
+      436,
+      475,
+      673
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "4 评价",
+    "text_level": 2,
+    "bbox": [
+      13,
+      704,
+      103,
+      723
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "4．1 CoDrug 中各方法的限定领域",
+    "text_level": 2,
+    "bbox": [
+      13,
+      737,
+      333,
+      756
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "限于药物治疗学领域的研究 其分析结果应具有治疗学意义 我们根据新药标准 在联用的实测效应和期望效应间设立了等效标准。",
+      "为体内过程 因此属整体水平试验 如临床试验和疾病动物模型试验",
+      "量效数据类型为多药物 多剂量 多比例 或固定比例 的动态数据 分析是一个动力学过程",
+      "由于整体水平试验的效应误差较大 为避免个体因素对分析的影响 分析时药物效应用群体值如均数 典型值 或拟合值 甚至用群体拟合值"
+    ],
+    "bbox": [
+      13,
+      758,
+      481,
+      970
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "4．2 各方法建立和评价的基本思路",
+    "text_level": 2,
+    "bbox": [
+      13,
+      971,
+      343,
+      990
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "由于联用效果分析的复杂性 如独立的联合作用 相似的联合作用 以及两者间难以区分的状态给我们评价各种方法带来困难 但有几点值得注意",
+    "bbox": [
+      514,
+      61,
+      982,
+      122
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "对于相似的联合作用 不同药物联用效果用一个药的不同剂量联用效果去衡量。由于同一药的量效曲线呈双曲线型或 型 因此在一般情况下 不同剂量联用效应不等于各剂量单用的效应之和 用这种办法可以发现许多概念和方法的不足",
+      "如果联用药物数减少到 时 其数学模型仍能保持合理的形式。",
+      "在数学模型中 剂量 血药浓度 组织浓度和效应部分浓度可互相替代 而不影响模型的正确性",
+      "同一个药的不同剂量联用 其相互作用性质在理论上应呈现绝对的相加性",
+      "分析方法的另一个重要原则是 对于相加性作用来说 等剂量应为等效应 等效应时为等剂量但值得注意的是 量效线在趋于最大效应后 不等剂量的效应相近 例如 当量效曲线为双曲线型时 药效一旦达到最大效应后 剂量增加在理论上效应保持不变均为最大药效 $\\lfloor E _ { \\mathrm { m a x } } \\rfloor$ 。",
+      "6．现有方法的相互作用性质的确定用比值（q或 Q 值 来表示 常用剂量比 效价 或效应比 效能 剂量比是比较联用或单用的等效量大小 如等效线法Chou-Talalay 合并指数法等；效应比是比较药效的期望值和实测值 如参数法 映射法等 但两者有时不完全等同 而联用目的主要是提高效能 因此与效价相比效能的临床意义更大用效能比似更合理。"
+    ],
+    "bbox": [
+      514,
+      125,
+      982,
+      650
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "总结以上各点 我们提出理想的分析方法的四项标准：",
+    "bbox": [
+      514,
+      654,
+      982,
+      692
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "数学上可立 数学模型应严谨 由于相加作用是最基本的概念 在数学上应等于同一个药的不同剂量合用",
+      "专业上可行 药物相互作用的研究结论应具有实际治疗学意义 例如 协同性相互作用应使药效增加至具有治疗学价值 否则所得结论将会与临床脱节。",
+      "统计上可信 由于均为整体水平实验 指标测定极易受个体差异 实验误差 样本例数等影响分析时如避开个体值的影响 就应该用群体值 如均数 或典型值",
+      "4．逻辑上可靠：药物相互作用性质的表示上用剂量比不如用效应比 后者逻辑上更具合理性 也更易理解"
+    ],
+    "bbox": [
+      514,
+      696,
+      982,
+      989
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "·84·",
+    "bbox": [
+      45,
+      26,
+      109,
+      39
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "中国临床药理学与治疗学 Chin J Clin Pharmacol Ther2002Feb；7（1）",
+    "bbox": [
+      235,
+      26,
+      762,
+      41
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "参 考 文 献",
+    "text_level": 2,
+    "bbox": [
+      193,
+      72,
+      303,
+      90
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "1 Berenbaum MC．What is synergy？ ［J ］ Pharmacol Rev 1989；41.93-141",
+      "郑青山 药物相互作用动力学理论与实践 合肥 中国科技大学生命科学学院，2001.88一96,15一22",
+      "3 Loewe S．The problem of synergism and antagonism of combined drugs［J］．Arzneimittelforschung1928；3：285",
+      "4 Chou TCTalalay P．Quantitative analysis of dose-effect relationship：the combined effects of multiple drugs or enzyme inhibitors［J］．Adv Enzyme Reg1984；22：27",
+      "5 郑青山孙瑞元．药物联用定量分析方法研究进展［A］见 金正均 王永铭 苏定冯 主编 药理学进展",
+      "第 版 北京 科学出版社",
+      "6 郑青山郑青山．药物相互作用动力学软件（CoDrug）用户手册[Z].2001.1-20",
+      "7 Zheng QSSun RY．Quantitative analysis of drug compatibility by weighed modification method［J］．Acta Pharmacol Sin1999； 20.1043-51",
+      "8 Zheng QSSun RY．Analysis of multidrug effects by parameter method[J]· Acta Pharmacol Sin 1998;19.232—7",
+      "9 Zheng QSSun RY．Analysis of drug interactions in combined therapy by reflection method［J］．Acta Pharmacol Sin2000；21： 183-87",
+      "10 Zheng QSGui CQSun RY．A method of comprehensive evaluation of multiple response variables in drug interaction［J］．Indian JPhamacol 2OO1；33，445—7"
+    ],
+    "bbox": [
+      15,
+      103,
+      481,
+      312
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      514,
+      60,
+      982,
+      327
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "Methods in analysis of the dynamics of drug interaction and its software CoDrug",
+    "text_level": 1,
+    "bbox": [
+      15,
+      357,
+      980,
+      411
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "ZHENG Qing-Shan SUN Ru-i Yuan",
+    "bbox": [
+      11,
+      419,
+      355,
+      439
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "（Anhui Provincial Center for Drug Clinical EvaluationYijishan Hospital of Wannan Medical CollegeWuhu 241001）",
+    "bbox": [
+      15,
+      448,
+      980,
+      467
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "ABSTRACT In clinical and experimental therapeutics the quantitative analysis of drug interaction will supply a tool for optimizing and evaluating a combination in the study of compound drugthe design of combination drug therapyand the evaluation of traditional medicine formulae．This paper listed the systematic methods of the quantitative analysis including the weighted modification method for optimizing constituentsdoses and ratio in combinationthe parameter method and the reflection method for dynamic analysis of drug interactionand a comprehensive method for multiple response indexes·The software CoDrug about these methods also was introduced KEY WORDS drug interaction；combination drug therapy；drug synergism；drug antagonism",
+    "bbox": [
+      11,
+      491,
+      483,
+      642
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      512,
+      491,
+      984,
+      642
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "中国临床药理学与治疗学 Chin J Clin Pharmacol Ther2002Feb；7（1）",
+    "bbox": [
+      235,
+      25,
+      762,
+      41
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "·85.",
+    "bbox": [
+      892,
+      25,
+      956,
+      40
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      37,
+      956,
+      411,
+      975
+    ],
+    "page_idx": 4
+  }
+]

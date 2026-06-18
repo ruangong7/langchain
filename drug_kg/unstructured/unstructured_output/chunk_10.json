@@ -1,0 +1,387 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "避孕药",
+        "canonical_name": "避孕药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "柚子",
+        "canonical_name": "柚子",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "降压药",
+        "canonical_name": "降压药",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "抗过敏药",
+        "canonical_name": "抗过敏药",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "安眠药",
+        "canonical_name": "安眠药",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Food",
+        "name": "橘子",
+        "canonical_name": "橘子",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Food",
+        "name": "橙子",
+        "canonical_name": "橙子",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "柑橘类水果",
+        "canonical_name": "柑橘类水果",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "他汀类",
+        "canonical_name": "他汀类",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "辛伐他汀",
+        "canonical_name": "辛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "洛伐他汀",
+        "canonical_name": "洛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "瑞舒伐他汀",
+        "canonical_name": "瑞舒伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "canonical_name": "阿托伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "大环内酯类抗生素",
+        "canonical_name": "大环内酯类抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "贝特类降脂药",
+        "canonical_name": "贝特类降脂药",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "唑类抗真菌药",
+        "canonical_name": "唑类抗真菌药",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "HIV蛋白酶抑制剂",
+        "canonical_name": "HIV蛋白酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_27",
+        "type": "Population",
+        "name": "没有其他基础病且体检血脂异常的人群",
+        "canonical_name": "血脂异常人群",
+        "properties": {}
+      },
+      {
+        "id": "ent_28",
+        "type": "Population",
+        "name": "明确有动脉粥样硬化性心血管疾病的人群",
+        "canonical_name": "动脉粥样硬化性心血管疾病人群",
+        "properties": {}
+      },
+      {
+        "id": "ent_29",
+        "type": "Population",
+        "name": "年龄超40岁的糖尿病人群",
+        "canonical_name": "年龄超40岁糖尿病人群",
+        "properties": {}
+      },
+      {
+        "id": "ent_30",
+        "type": "Population",
+        "name": "合并2项危险因素的高血压人群",
+        "canonical_name": "合并危险因素的高血压人群",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "服用避孕药时吃柚子，会影响避孕药的吸收利用，增加避孕失败的风险",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "服用降压药时吃柚子，可能会导致药量增加，血压骤降，引发心慌、头晕、心绞痛、心梗等意外",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "服用抗过敏药时食用柚子，可能会导致不良反应加重",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "服用安眠药时吃柚子，可能会导致药物作用时间延长，导致嗜睡、眩晕症状加重",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "柚子、橘子、橙子等都属于柑橘类水果",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "柚子、橘子、橙子等都属于柑橘类水果",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "柚子、橘子、橙子等都属于柑橘类水果",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_9",
+        "target_id": "ent_27",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "相关指南推荐没有其他基础病且体检血脂异常的人群、明确有动脉粥样硬化性心血管疾病的人群及年龄超40岁的糖尿病人群、合并2项危险因素的高血压人群等，服用他汀类药物",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_9",
+        "target_id": "ent_28",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "相关指南推荐没有其他基础病且体检血脂异常的人群、明确有动脉粥样硬化性心血管疾病的人群及年龄超40岁的糖尿病人群、合并2项危险因素的高血压人群等，服用他汀类药物",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_9",
+        "target_id": "ent_29",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "相关指南推荐没有其他基础病且体检血脂异常的人群、明确有动脉粥样硬化性心血管疾病的人群及年龄超40岁的糖尿病人群、合并2项危险因素的高血压人群等，服用他汀类药物",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_9",
+        "target_id": "ent_30",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "相关指南推荐没有其他基础病且体检血脂异常的人群、明确有动脉粥样硬化性心血管疾病的人群及年龄超40岁的糖尿病人群、合并2项危险因素的高血压人群等，服用他汀类药物",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "他汀类药物不建议与大环内酯类抗生素、贝特类降脂药、唑类抗真菌药、HIV蛋白酶抑制剂等药物同时服用",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "他汀类药物不建议与大环内酯类抗生素、贝特类降脂药、唑类抗真菌药、HIV蛋白酶抑制剂等药物同时服用",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "他汀类药物不建议与大环内酯类抗生素、贝特类降脂药、唑类抗真菌药、HIV蛋白酶抑制剂等药物同时服用",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "他汀类药物不建议与大环内酯类抗生素、贝特类降脂药、唑类抗真菌药、HIV蛋白酶抑制剂等药物同时服用",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "辛伐他汀、洛伐他汀等药物建议在睡前服用",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "辛伐他汀、洛伐他汀等药物建议在睡前服用",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "IN_CLASS",
+        "source_id": "ent_12",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "瑞舒伐他汀和阿托伐他汀药效相对时间长",
+          "chunk_id": "10"
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "IN_CLASS",
+        "source_id": "ent_13",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "39健康网",
+          "chunk_index": 10,
+          "raw_text": "瑞舒伐他汀和阿托伐他汀药效相对时间长",
+          "chunk_id": "10"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 10,
+    "source": "39健康网",
+    "text": "。服用避孕药时吃柚子，会影响避孕药的吸收利用，增加避孕失败的风险；服用降压药时吃柚子，可能会导致药量增加，血压骤降，引发心慌、头晕、心绞痛、心梗等意外；服用抗过敏药时食用柚子，可能会导致不良反应加重。服用安眠药时吃柚子，可能会导致药物作用时间延长，导致嗜睡、眩晕症状加重；那食用其他橙柚类水果是不是也会有类似危害？事实上柚子、橘子、橙子等都属于柑橘类水果，食用这些水果也可能引发类似的反应。因此为保证用药安全，建议服药前后72小时内，最好不要食用柚子，也尽量不要在短时间内食用大量的柑橘类、橙子类水果。02长期吃他汀的人，要注意三个要点相关指南推荐没有其他基础病且体检血脂异常的人群、明确有动脉粥样硬化性心血管疾病的人群及年龄超40岁的糖尿病人群、合并2项危险因素的高血压人群等，服用他汀类药物。即便是适合服用他汀类药物，也要记住下面这几个要点！1、忌随意调整剂量服用药物一定要遵医嘱服用，毕竟医生开具的处方是为患者个性化定制的，不可以随意加减剂量，不然可能会导致不良反应。2、注意药物间的相互作用对于需要同时服用其他药物的人群来说，要注意药物间的相互作用，像他汀类药物不建议与大环内酯类抗生素、贝特类降脂药、唑类抗真菌药、HIV蛋白酶抑制剂等药物同时服用，以免增加不良反应。3、合理选择服用时间一般辛伐他汀、洛伐他汀等药物建议在睡前服用，这样药效最好，不过像瑞舒伐他汀和阿托伐他汀药效相对时间长，用药时间就不限制了"
+  }
+]

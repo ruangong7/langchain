@@ -1,0 +1,146 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "奈玛特韦",
+        "canonical_name": "奈玛特韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利托那韦",
+        "canonical_name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "Paxlovid",
+        "canonical_name": "Paxlovid",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "酪氨酸激酶抑制剂",
+        "canonical_name": "酪氨酸激酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP 3A4 抑制剂",
+        "canonical_name": "CYP 3A4 抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "COVID-19",
+        "canonical_name": "COVID-19",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "肺癌",
+        "canonical_name": "肺癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "非小细胞肺癌",
+        "canonical_name": "非小细胞肺癌",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 234,
+          "raw_text": "Paxlovid 的活性抗病毒成分 nirmatrelvir 与强细胞色素 P450 (CYP) 3A4 抑制剂利托那韦共同配制而成。许多适用于肺癌的口服靶向治疗是 CYP 3A4 的已知底物，与 Paxlovid 同时使用可能导致潜在的药物相互作用 (DDI)。",
+          "chunk_id": "234",
+          "data": "Anwar K, Nguyen L, Nagasaka M, Ou I, Chan A, Overview of Drug-DrugInteractions Between Ritonavir-boosted nirmatrelvir (Paxlovid) and Targeted Therapy and SupportiveCare for Lung Cancer, JTO Clinical and Research Reports (2023), doi: https://doi.org/10.1016/j.jtocrr.2022.100452. 背景奈玛特韦和利托那韦 (Paxlovid®) 的口服给药已显示出治疗 COVID-19 的希望。Paxlovid 的活性抗病毒成分 nirmatrelvir 与强细胞色素 P450 (CYP) 3A4 抑制剂利托那韦共同配制而成。许多适用于肺癌的口服靶向治疗是 CYP 3A4 的已知底物，与 Paxlovid 同时使用可能导致潜在的药物相互作用 (DDI)。本综述的目的是评估Paxlovid与已经FDA批准的小分子靶向药物（TKI）的相互作用。方法进行了 PubMed 和 FDA 药物数据库搜索，以确定用于非小细胞肺癌 (NSCLC) 的口服酪氨酸激酶抑制剂 (TKI) 的药代动力学数据，包括 FDA 批准的和正在开发的药物。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 234,
+          "raw_text": "Paxlovid 的活性抗病毒成分 nirmatrelvir 与强细胞色素 P450 (CYP) 3A4 抑制剂利托那韦共同配制而成。",
+          "chunk_id": "234",
+          "data": "Anwar K, Nguyen L, Nagasaka M, Ou I, Chan A, Overview of Drug-DrugInteractions Between Ritonavir-boosted nirmatrelvir (Paxlovid) and Targeted Therapy and SupportiveCare for Lung Cancer, JTO Clinical and Research Reports (2023), doi: https://doi.org/10.1016/j.jtocrr.2022.100452. 背景奈玛特韦和利托那韦 (Paxlovid®) 的口服给药已显示出治疗 COVID-19 的希望。Paxlovid 的活性抗病毒成分 nirmatrelvir 与强细胞色素 P450 (CYP) 3A4 抑制剂利托那韦共同配制而成。许多适用于肺癌的口服靶向治疗是 CYP 3A4 的已知底物，与 Paxlovid 同时使用可能导致潜在的药物相互作用 (DDI)。本综述的目的是评估Paxlovid与已经FDA批准的小分子靶向药物（TKI）的相互作用。方法进行了 PubMed 和 FDA 药物数据库搜索，以确定用于非小细胞肺癌 (NSCLC) 的口服酪氨酸激酶抑制剂 (TKI) 的药代动力学数据，包括 FDA 批准的和正在开发的药物。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 234,
+          "raw_text": "Paxlovid 的活性抗病毒成分 nirmatrelvir 与强细胞色素 P450 (CYP) 3A4 抑制剂利托那韦共同配制而成。",
+          "chunk_id": "234",
+          "data": "Anwar K, Nguyen L, Nagasaka M, Ou I, Chan A, Overview of Drug-DrugInteractions Between Ritonavir-boosted nirmatrelvir (Paxlovid) and Targeted Therapy and SupportiveCare for Lung Cancer, JTO Clinical and Research Reports (2023), doi: https://doi.org/10.1016/j.jtocrr.2022.100452. 背景奈玛特韦和利托那韦 (Paxlovid®) 的口服给药已显示出治疗 COVID-19 的希望。Paxlovid 的活性抗病毒成分 nirmatrelvir 与强细胞色素 P450 (CYP) 3A4 抑制剂利托那韦共同配制而成。许多适用于肺癌的口服靶向治疗是 CYP 3A4 的已知底物，与 Paxlovid 同时使用可能导致潜在的药物相互作用 (DDI)。本综述的目的是评估Paxlovid与已经FDA批准的小分子靶向药物（TKI）的相互作用。方法进行了 PubMed 和 FDA 药物数据库搜索，以确定用于非小细胞肺癌 (NSCLC) 的口服酪氨酸激酶抑制剂 (TKI) 的药代动力学数据，包括 FDA 批准的和正在开发的药物。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 234,
+          "raw_text": "奈玛特韦和利托那韦 (Paxlovid®) 的口服给药已显示出治疗 COVID-19 的希望。",
+          "chunk_id": "234",
+          "data": "Anwar K, Nguyen L, Nagasaka M, Ou I, Chan A, Overview of Drug-DrugInteractions Between Ritonavir-boosted nirmatrelvir (Paxlovid) and Targeted Therapy and SupportiveCare for Lung Cancer, JTO Clinical and Research Reports (2023), doi: https://doi.org/10.1016/j.jtocrr.2022.100452. 背景奈玛特韦和利托那韦 (Paxlovid®) 的口服给药已显示出治疗 COVID-19 的希望。Paxlovid 的活性抗病毒成分 nirmatrelvir 与强细胞色素 P450 (CYP) 3A4 抑制剂利托那韦共同配制而成。许多适用于肺癌的口服靶向治疗是 CYP 3A4 的已知底物，与 Paxlovid 同时使用可能导致潜在的药物相互作用 (DDI)。本综述的目的是评估Paxlovid与已经FDA批准的小分子靶向药物（TKI）的相互作用。方法进行了 PubMed 和 FDA 药物数据库搜索，以确定用于非小细胞肺癌 (NSCLC) 的口服酪氨酸激酶抑制剂 (TKI) 的药代动力学数据，包括 FDA 批准的和正在开发的药物。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 234,
+          "raw_text": "许多适用于肺癌的口服靶向治疗是 CYP 3A4 的已知底物",
+          "chunk_id": "234",
+          "data": "Anwar K, Nguyen L, Nagasaka M, Ou I, Chan A, Overview of Drug-DrugInteractions Between Ritonavir-boosted nirmatrelvir (Paxlovid) and Targeted Therapy and SupportiveCare for Lung Cancer, JTO Clinical and Research Reports (2023), doi: https://doi.org/10.1016/j.jtocrr.2022.100452. 背景奈玛特韦和利托那韦 (Paxlovid®) 的口服给药已显示出治疗 COVID-19 的希望。Paxlovid 的活性抗病毒成分 nirmatrelvir 与强细胞色素 P450 (CYP) 3A4 抑制剂利托那韦共同配制而成。许多适用于肺癌的口服靶向治疗是 CYP 3A4 的已知底物，与 Paxlovid 同时使用可能导致潜在的药物相互作用 (DDI)。本综述的目的是评估Paxlovid与已经FDA批准的小分子靶向药物（TKI）的相互作用。方法进行了 PubMed 和 FDA 药物数据库搜索，以确定用于非小细胞肺癌 (NSCLC) 的口服酪氨酸激酶抑制剂 (TKI) 的药代动力学数据，包括 FDA 批准的和正在开发的药物。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 234,
+          "raw_text": "用于非小细胞肺癌 (NSCLC) 的口服酪氨酸激酶抑制剂 (TKI)",
+          "chunk_id": "234",
+          "data": "Anwar K, Nguyen L, Nagasaka M, Ou I, Chan A, Overview of Drug-DrugInteractions Between Ritonavir-boosted nirmatrelvir (Paxlovid) and Targeted Therapy and SupportiveCare for Lung Cancer, JTO Clinical and Research Reports (2023), doi: https://doi.org/10.1016/j.jtocrr.2022.100452. 背景奈玛特韦和利托那韦 (Paxlovid®) 的口服给药已显示出治疗 COVID-19 的希望。Paxlovid 的活性抗病毒成分 nirmatrelvir 与强细胞色素 P450 (CYP) 3A4 抑制剂利托那韦共同配制而成。许多适用于肺癌的口服靶向治疗是 CYP 3A4 的已知底物，与 Paxlovid 同时使用可能导致潜在的药物相互作用 (DDI)。本综述的目的是评估Paxlovid与已经FDA批准的小分子靶向药物（TKI）的相互作用。方法进行了 PubMed 和 FDA 药物数据库搜索，以确定用于非小细胞肺癌 (NSCLC) 的口服酪氨酸激酶抑制剂 (TKI) 的药代动力学数据，包括 FDA 批准的和正在开发的药物。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 234,
+    "source": "VTALK",
+    "text": "Anwar K, Nguyen L, Nagasaka M, Ou I, Chan A, Overview of Drug-DrugInteractions Between Ritonavir-boosted nirmatrelvir (Paxlovid) and Targeted Therapy and SupportiveCare for Lung Cancer, JTO Clinical and Research Reports (2023), doi: https://doi.org/10.1016/j.jtocrr.2022.100452. 背景奈玛特韦和利托那韦 (Paxlovid®) 的口服给药已显示出治疗 COVID-19 的希望。Paxlovid 的活性抗病毒成分 nirmatrelvir 与强细胞色素 P450 (CYP) 3A4 抑制剂利托那韦共同配制而成。许多适用于肺癌的口服靶向治疗是 CYP 3A4 的已知底物，与 Paxlovid 同时使用可能导致潜在的药物相互作用 (DDI)。本综述的目的是评估Paxlovid与已经FDA批准的小分子靶向药物（TKI）的相互作用。方法进行了 PubMed 和 FDA 药物数据库搜索，以确定用于非小细胞肺癌 (NSCLC) 的口服酪氨酸激酶抑制剂 (TKI) 的药代动力学数据，包括 FDA 批准的和正在开发的药物。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响"
+  }
+]

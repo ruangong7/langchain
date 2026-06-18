@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "甲硝唑",
+        "canonical_name": "甲硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "红酒",
+        "canonical_name": "红酒",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "双硫仑样反应",
+        "canonical_name": "双硫仑样反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "头孢",
+        "canonical_name": "头孢",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "红杏e生",
+          "chunk_index": 2422,
+          "raw_text": "使用该药期间饮酒可引起双硫仑样反应",
+          "chunk_id": "2422",
+          "data": "近日遇到一熟人说“今天不知道咋回事，喝了杯红酒没多久，就恶心呕吐的厉害，是不是中毒了”，经询问得知其在喝酒前一天因牙痛自行服用过甲硝唑，遂告知使用该药期间饮酒可引起双硫仑样反应，熟人感慨了句“吃了头孢不能喝酒我知道，怎么甲硝唑也不行”，后经对症支持治疗其症状好转"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "红杏e生",
+          "chunk_index": 2422,
+          "raw_text": "使用该药期间饮酒可引起双硫仑样反应",
+          "chunk_id": "2422",
+          "data": "近日遇到一熟人说“今天不知道咋回事，喝了杯红酒没多久，就恶心呕吐的厉害，是不是中毒了”，经询问得知其在喝酒前一天因牙痛自行服用过甲硝唑，遂告知使用该药期间饮酒可引起双硫仑样反应，熟人感慨了句“吃了头孢不能喝酒我知道，怎么甲硝唑也不行”，后经对症支持治疗其症状好转"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "红杏e生",
+          "chunk_index": 2422,
+          "raw_text": "吃了头孢不能喝酒",
+          "chunk_id": "2422",
+          "data": "近日遇到一熟人说“今天不知道咋回事，喝了杯红酒没多久，就恶心呕吐的厉害，是不是中毒了”，经询问得知其在喝酒前一天因牙痛自行服用过甲硝唑，遂告知使用该药期间饮酒可引起双硫仑样反应，熟人感慨了句“吃了头孢不能喝酒我知道，怎么甲硝唑也不行”，后经对症支持治疗其症状好转"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 2422,
+    "source": "红杏e生",
+    "text": "近日遇到一熟人说“今天不知道咋回事，喝了杯红酒没多久，就恶心呕吐的厉害，是不是中毒了”，经询问得知其在喝酒前一天因牙痛自行服用过甲硝唑，遂告知使用该药期间饮酒可引起双硫仑样反应，熟人感慨了句“吃了头孢不能喝酒我知道，怎么甲硝唑也不行”，后经对症支持治疗其症状好转"
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "GLP-1受体激动剂",
+        "canonical_name": "GLP-1受体激动剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Indicator",
+        "name": "INR",
+        "canonical_name": "INR",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "α受体阻滞剂",
+        "canonical_name": "α受体阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "西地那非",
+        "canonical_name": "西地那非",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "低血压",
+        "canonical_name": "低血压",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "医脉通心血管",
+          "chunk_index": 1485,
+          "raw_text": "有抑制血小板聚集的作用，接受华法林者开始接受GLP-1受体激动剂治疗后，需更频繁监测INR值。",
+          "chunk_id": "1485",
+          "data": "。7. GLP-1受体激动剂有延缓胃排空的作用，可减少口服药吸收的程度和速度，对疗效依赖于阈浓度的口服药，需在GLP-1受体激动剂使用前至少1h服用。有抑制血小板聚集的作用，接受华法林者开始接受GLP-1受体激动剂治疗后，需更频繁监测INR值。8. α受体阻滞剂与西地那非联用有低血压的发生风险"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "医脉通心血管",
+          "chunk_index": 1485,
+          "raw_text": "有抑制血小板聚集的作用，接受华法林者开始接受GLP-1受体激动剂治疗后，需更频繁监测INR值。",
+          "chunk_id": "1485",
+          "data": "。7. GLP-1受体激动剂有延缓胃排空的作用，可减少口服药吸收的程度和速度，对疗效依赖于阈浓度的口服药，需在GLP-1受体激动剂使用前至少1h服用。有抑制血小板聚集的作用，接受华法林者开始接受GLP-1受体激动剂治疗后，需更频繁监测INR值。8. α受体阻滞剂与西地那非联用有低血压的发生风险"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "医脉通心血管",
+          "chunk_index": 1485,
+          "raw_text": "α受体阻滞剂与西地那非联用有低血压的发生风险",
+          "chunk_id": "1485",
+          "data": "。7. GLP-1受体激动剂有延缓胃排空的作用，可减少口服药吸收的程度和速度，对疗效依赖于阈浓度的口服药，需在GLP-1受体激动剂使用前至少1h服用。有抑制血小板聚集的作用，接受华法林者开始接受GLP-1受体激动剂治疗后，需更频繁监测INR值。8. α受体阻滞剂与西地那非联用有低血压的发生风险"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "医脉通心血管",
+          "chunk_index": 1485,
+          "raw_text": "α受体阻滞剂与西地那非联用有低血压的发生风险",
+          "chunk_id": "1485",
+          "data": "。7. GLP-1受体激动剂有延缓胃排空的作用，可减少口服药吸收的程度和速度，对疗效依赖于阈浓度的口服药，需在GLP-1受体激动剂使用前至少1h服用。有抑制血小板聚集的作用，接受华法林者开始接受GLP-1受体激动剂治疗后，需更频繁监测INR值。8. α受体阻滞剂与西地那非联用有低血压的发生风险"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "医脉通心血管",
+          "chunk_index": 1485,
+          "raw_text": "α受体阻滞剂与西地那非联用有低血压的发生风险",
+          "chunk_id": "1485",
+          "data": "。7. GLP-1受体激动剂有延缓胃排空的作用，可减少口服药吸收的程度和速度，对疗效依赖于阈浓度的口服药，需在GLP-1受体激动剂使用前至少1h服用。有抑制血小板聚集的作用，接受华法林者开始接受GLP-1受体激动剂治疗后，需更频繁监测INR值。8. α受体阻滞剂与西地那非联用有低血压的发生风险"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1485,
+    "source": "医脉通心血管",
+    "text": "。7. GLP-1受体激动剂有延缓胃排空的作用，可减少口服药吸收的程度和速度，对疗效依赖于阈浓度的口服药，需在GLP-1受体激动剂使用前至少1h服用。有抑制血小板聚集的作用，接受华法林者开始接受GLP-1受体激动剂治疗后，需更频繁监测INR值。8. α受体阻滞剂与西地那非联用有低血压的发生风险"
+  }
+]

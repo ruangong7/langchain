@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "黄连素",
+        "canonical_name": "黄连素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "甘草酸",
+        "canonical_name": "甘草酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "糖尿病",
+        "canonical_name": "糖尿病",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "血糖",
+        "canonical_name": "血糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "胰岛素水平",
+        "canonical_name": "胰岛素水平",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药用植物研究前沿",
+          "chunk_index": 2737,
+          "raw_text": "甘草酸通过抑制P-糖蛋白活性提高了黄连素的通透性",
+          "chunk_id": "2737",
+          "data": "欢迎点击【药用植物研究前沿】↑关注我们！内容来源于Front Pharmacol临床实践中，中药常以复方入药以达到最佳治疗效果。然而，针对中药复方组合机制研究较少。近期，北京大学叶敏研究团队发表在“Front Pharmacol”名为“A 42-Markers Pharmacokinetic Study Reveals Interactions of Berberine and Glycyrrhizic Acid in the Anti-diabetic Chinese Medicine Formula Gegen-Qinlian Decoction”的论文对葛根芩连汤中黄连素与甘草酸的药物相互作用进行了研究。该研究团队通过药代动力学药物相互作用研究对抗糖尿病复方中药葛根芩连汤的协同作用进行了探讨。该团队采用液质联用法，通过同时测定了30min内大鼠血浆中的42种主要活性成分，对葛根芩连汤和单味药进行了多组分药代动力学研究。葛根芩连汤组分中药甘草中甘草酸的存在显著提高了黄连中黄连素和其它生物碱的血浆浓度。Caco-2细胞单层试验表明，甘草酸通过抑制P-糖蛋白活性提高了黄连素的通透性。虽然甘草酸单独使用不具备抗糖尿病的作用，但甘草酸和黄连素联合使用可明显增强黄连素抗小鼠糖尿病的作用，血糖下降46.9%，胰岛素水平较对照组升高40.8%，且具有剂量依赖性。该研究结果表明，药代动力学研究对于阐明中药复方组合机理具有重要意义"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "药用植物研究前沿",
+          "chunk_index": 2737,
+          "raw_text": "黄连素抗小鼠糖尿病的作用",
+          "chunk_id": "2737",
+          "data": "欢迎点击【药用植物研究前沿】↑关注我们！内容来源于Front Pharmacol临床实践中，中药常以复方入药以达到最佳治疗效果。然而，针对中药复方组合机制研究较少。近期，北京大学叶敏研究团队发表在“Front Pharmacol”名为“A 42-Markers Pharmacokinetic Study Reveals Interactions of Berberine and Glycyrrhizic Acid in the Anti-diabetic Chinese Medicine Formula Gegen-Qinlian Decoction”的论文对葛根芩连汤中黄连素与甘草酸的药物相互作用进行了研究。该研究团队通过药代动力学药物相互作用研究对抗糖尿病复方中药葛根芩连汤的协同作用进行了探讨。该团队采用液质联用法，通过同时测定了30min内大鼠血浆中的42种主要活性成分，对葛根芩连汤和单味药进行了多组分药代动力学研究。葛根芩连汤组分中药甘草中甘草酸的存在显著提高了黄连中黄连素和其它生物碱的血浆浓度。Caco-2细胞单层试验表明，甘草酸通过抑制P-糖蛋白活性提高了黄连素的通透性。虽然甘草酸单独使用不具备抗糖尿病的作用，但甘草酸和黄连素联合使用可明显增强黄连素抗小鼠糖尿病的作用，血糖下降46.9%，胰岛素水平较对照组升高40.8%，且具有剂量依赖性。该研究结果表明，药代动力学研究对于阐明中药复方组合机理具有重要意义"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "药用植物研究前沿",
+          "chunk_index": 2737,
+          "raw_text": "血糖下降46.9%",
+          "chunk_id": "2737",
+          "data": "欢迎点击【药用植物研究前沿】↑关注我们！内容来源于Front Pharmacol临床实践中，中药常以复方入药以达到最佳治疗效果。然而，针对中药复方组合机制研究较少。近期，北京大学叶敏研究团队发表在“Front Pharmacol”名为“A 42-Markers Pharmacokinetic Study Reveals Interactions of Berberine and Glycyrrhizic Acid in the Anti-diabetic Chinese Medicine Formula Gegen-Qinlian Decoction”的论文对葛根芩连汤中黄连素与甘草酸的药物相互作用进行了研究。该研究团队通过药代动力学药物相互作用研究对抗糖尿病复方中药葛根芩连汤的协同作用进行了探讨。该团队采用液质联用法，通过同时测定了30min内大鼠血浆中的42种主要活性成分，对葛根芩连汤和单味药进行了多组分药代动力学研究。葛根芩连汤组分中药甘草中甘草酸的存在显著提高了黄连中黄连素和其它生物碱的血浆浓度。Caco-2细胞单层试验表明，甘草酸通过抑制P-糖蛋白活性提高了黄连素的通透性。虽然甘草酸单独使用不具备抗糖尿病的作用，但甘草酸和黄连素联合使用可明显增强黄连素抗小鼠糖尿病的作用，血糖下降46.9%，胰岛素水平较对照组升高40.8%，且具有剂量依赖性。该研究结果表明，药代动力学研究对于阐明中药复方组合机理具有重要意义"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "药用植物研究前沿",
+          "chunk_index": 2737,
+          "raw_text": "胰岛素水平较对照组升高40.8%",
+          "chunk_id": "2737",
+          "data": "欢迎点击【药用植物研究前沿】↑关注我们！内容来源于Front Pharmacol临床实践中，中药常以复方入药以达到最佳治疗效果。然而，针对中药复方组合机制研究较少。近期，北京大学叶敏研究团队发表在“Front Pharmacol”名为“A 42-Markers Pharmacokinetic Study Reveals Interactions of Berberine and Glycyrrhizic Acid in the Anti-diabetic Chinese Medicine Formula Gegen-Qinlian Decoction”的论文对葛根芩连汤中黄连素与甘草酸的药物相互作用进行了研究。该研究团队通过药代动力学药物相互作用研究对抗糖尿病复方中药葛根芩连汤的协同作用进行了探讨。该团队采用液质联用法，通过同时测定了30min内大鼠血浆中的42种主要活性成分，对葛根芩连汤和单味药进行了多组分药代动力学研究。葛根芩连汤组分中药甘草中甘草酸的存在显著提高了黄连中黄连素和其它生物碱的血浆浓度。Caco-2细胞单层试验表明，甘草酸通过抑制P-糖蛋白活性提高了黄连素的通透性。虽然甘草酸单独使用不具备抗糖尿病的作用，但甘草酸和黄连素联合使用可明显增强黄连素抗小鼠糖尿病的作用，血糖下降46.9%，胰岛素水平较对照组升高40.8%，且具有剂量依赖性。该研究结果表明，药代动力学研究对于阐明中药复方组合机理具有重要意义"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 2737,
+    "source": "药用植物研究前沿",
+    "text": "欢迎点击【药用植物研究前沿】↑关注我们！内容来源于Front Pharmacol临床实践中，中药常以复方入药以达到最佳治疗效果。然而，针对中药复方组合机制研究较少。近期，北京大学叶敏研究团队发表在“Front Pharmacol”名为“A 42-Markers Pharmacokinetic Study Reveals Interactions of Berberine and Glycyrrhizic Acid in the Anti-diabetic Chinese Medicine Formula Gegen-Qinlian Decoction”的论文对葛根芩连汤中黄连素与甘草酸的药物相互作用进行了研究。该研究团队通过药代动力学药物相互作用研究对抗糖尿病复方中药葛根芩连汤的协同作用进行了探讨。该团队采用液质联用法，通过同时测定了30min内大鼠血浆中的42种主要活性成分，对葛根芩连汤和单味药进行了多组分药代动力学研究。葛根芩连汤组分中药甘草中甘草酸的存在显著提高了黄连中黄连素和其它生物碱的血浆浓度。Caco-2细胞单层试验表明，甘草酸通过抑制P-糖蛋白活性提高了黄连素的通透性。虽然甘草酸单独使用不具备抗糖尿病的作用，但甘草酸和黄连素联合使用可明显增强黄连素抗小鼠糖尿病的作用，血糖下降46.9%，胰岛素水平较对照组升高40.8%，且具有剂量依赖性。该研究结果表明，药代动力学研究对于阐明中药复方组合机理具有重要意义"
+  }
+]

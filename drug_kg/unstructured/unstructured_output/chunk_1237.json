@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Esaxerenone",
+        "canonical_name": "Esaxerenone",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "canonical_name": "咪达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP3A",
+        "canonical_name": "CYP3A",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1237,
+          "raw_text": "使用这三个模型计算出的AUCRtot范围为1.17-1.23，与临床研究实测值1.2接近，这表明Esaxerenone通过CYP3A介导的抑制和诱导作用产生DDI的程度较低。",
+          "chunk_id": "1237",
+          "data": "。使用这三个模型计算出的AUCRtot范围为1.17-1.23，与临床研究实测值1.2接近，这表明Esaxerenone通过CYP3A介导的抑制和诱导作用产生DDI的程度较低。使用三个模型计算的AUCRh均约为1，即使仅单独考虑抑制或诱导作用也是如此，这表明相互作用主要发生在肠道中，而肝脏中相互作用较小，因为作为促变药的Esaxerenone相互作用力弱且临床暴露率低。如图4所示，AUCRs是根据Esaxerenone的给药方案（第1、2、3和14天5 mg）、咪达唑仑的给药时间设置（即Esaxerenone给药后0、1、2或12小时）或者Esaxerenone剂量（即1.25、2.5、5或10 mg）计算得出的。单次口服5 mg Esaxerenone后咪达唑仑的AUCRinh小于14天的值，3天给药的AUCRinh略小于14天给药的AUCRinh，由于诱导比14天给药稍弱，因此第3天和第14天的AUCRtot几乎相同。与同时服用咪达唑仑和Esaxerenone相比，在Esaxerenone服用后1或2小时服用咪达唑仑会导致AUCRinh增大和AUCRind减小，但AUCRtot却相似。当在Esaxerenone给药12小时后服用咪达唑仑时，AUCRinh小于在Esaxerenone给药1或2小时后给药的AUCRinh，这可能是由于酶更新造成的。当使用不同剂量的Esaxerenone（即1.25-10 mg）进行DDI模拟时，AUCRinh升高而AUCRind降低，呈剂量依赖性"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1237,
+          "raw_text": "Esaxerenone通过CYP3A介导的抑制和诱导作用产生DDI",
+          "chunk_id": "1237",
+          "data": "。使用这三个模型计算出的AUCRtot范围为1.17-1.23，与临床研究实测值1.2接近，这表明Esaxerenone通过CYP3A介导的抑制和诱导作用产生DDI的程度较低。使用三个模型计算的AUCRh均约为1，即使仅单独考虑抑制或诱导作用也是如此，这表明相互作用主要发生在肠道中，而肝脏中相互作用较小，因为作为促变药的Esaxerenone相互作用力弱且临床暴露率低。如图4所示，AUCRs是根据Esaxerenone的给药方案（第1、2、3和14天5 mg）、咪达唑仑的给药时间设置（即Esaxerenone给药后0、1、2或12小时）或者Esaxerenone剂量（即1.25、2.5、5或10 mg）计算得出的。单次口服5 mg Esaxerenone后咪达唑仑的AUCRinh小于14天的值，3天给药的AUCRinh略小于14天给药的AUCRinh，由于诱导比14天给药稍弱，因此第3天和第14天的AUCRtot几乎相同。与同时服用咪达唑仑和Esaxerenone相比，在Esaxerenone服用后1或2小时服用咪达唑仑会导致AUCRinh增大和AUCRind减小，但AUCRtot却相似。当在Esaxerenone给药12小时后服用咪达唑仑时，AUCRinh小于在Esaxerenone给药1或2小时后给药的AUCRinh，这可能是由于酶更新造成的。当使用不同剂量的Esaxerenone（即1.25-10 mg）进行DDI模拟时，AUCRinh升高而AUCRind降低，呈剂量依赖性"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1237,
+    "source": "凡默谷",
+    "text": "。使用这三个模型计算出的AUCRtot范围为1.17-1.23，与临床研究实测值1.2接近，这表明Esaxerenone通过CYP3A介导的抑制和诱导作用产生DDI的程度较低。使用三个模型计算的AUCRh均约为1，即使仅单独考虑抑制或诱导作用也是如此，这表明相互作用主要发生在肠道中，而肝脏中相互作用较小，因为作为促变药的Esaxerenone相互作用力弱且临床暴露率低。如图4所示，AUCRs是根据Esaxerenone的给药方案（第1、2、3和14天5 mg）、咪达唑仑的给药时间设置（即Esaxerenone给药后0、1、2或12小时）或者Esaxerenone剂量（即1.25、2.5、5或10 mg）计算得出的。单次口服5 mg Esaxerenone后咪达唑仑的AUCRinh小于14天的值，3天给药的AUCRinh略小于14天给药的AUCRinh，由于诱导比14天给药稍弱，因此第3天和第14天的AUCRtot几乎相同。与同时服用咪达唑仑和Esaxerenone相比，在Esaxerenone服用后1或2小时服用咪达唑仑会导致AUCRinh增大和AUCRind减小，但AUCRtot却相似。当在Esaxerenone给药12小时后服用咪达唑仑时，AUCRinh小于在Esaxerenone给药1或2小时后给药的AUCRinh，这可能是由于酶更新造成的。当使用不同剂量的Esaxerenone（即1.25-10 mg）进行DDI模拟时，AUCRinh升高而AUCRind降低，呈剂量依赖性"
+  }
+]

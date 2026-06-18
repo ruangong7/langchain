@@ -1,0 +1,185 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "达诺瑞韦钠",
+        "canonical_name": "达诺瑞韦钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "奈诺沙星",
+        "canonical_name": "奈诺沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "利托纳韦",
+        "canonical_name": "利托纳韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "环孢素",
+        "canonical_name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "恩沙替尼",
+        "canonical_name": "恩沙替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "OATP1B1/1B3抑制剂",
+        "canonical_name": "OATP1B1/1B3抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "CYP3A4抑制剂",
+        "canonical_name": "CYP3A4抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "P-gp抑制剂",
+        "canonical_name": "P-gp抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "P-gp诱导剂",
+        "canonical_name": "P-gp诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "OAT1/3抑制剂",
+        "canonical_name": "OAT1/3抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "OCT2抑制剂",
+        "canonical_name": "OCT2抑制剂",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1039,
+          "raw_text": "达诺瑞韦钠是OATP1B1/1B3的底物，临床上开展了达诺瑞韦钠/利托纳韦组合和OATP1B1/1B3抑制剂环孢素联用的DDI试验。达诺瑞韦钠的Cmax和AUC分别升高7.45倍和14.6倍。",
+          "chunk_id": "1039"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1039,
+          "raw_text": "达诺瑞韦钠/利托纳韦组合和OATP1B1/1B3抑制剂环孢素联用的DDI试验。达诺瑞韦钠的Cmax和AUC分别升高7.45倍和14.6倍。",
+          "chunk_id": "1039"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1039,
+          "raw_text": "利托纳韦是CYP3A4和P-gp的抑制剂",
+          "chunk_id": "1039"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1039,
+          "raw_text": "利托纳韦是CYP3A4和P-gp的抑制剂",
+          "chunk_id": "1039"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1039,
+          "raw_text": "联用OAT1/3抑制剂丙磺舒或OCT2抑制剂西咪替丁后，奈诺沙星在健康受试者体内的AUC分别增加了26.2%和-4%，肾脏清除率分别降低了22.6%和13.3%",
+          "chunk_id": "1039"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1039,
+          "raw_text": "联用OAT1/3抑制剂丙磺舒或OCT2抑制剂西咪替丁后，奈诺沙星在健康受试者体内的AUC分别增加了26.2%和-4%，肾脏清除率分别降低了22.6%和13.3%",
+          "chunk_id": "1039"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1039,
+          "raw_text": "体外试验表明恩沙替尼可能是P-gp的底物。与P-gp抑制剂联合使用可能会导致恩沙替尼血药浓度升高。",
+          "chunk_id": "1039"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1039,
+          "raw_text": "与P-gp诱导剂联合使用可能会导致恩沙替尼血药浓度降低。",
+          "chunk_id": "1039"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1039,
+    "source": "凡默谷",
+    "text": "。在表1所列出的药物中，共查阅到5种药物 开展了转运体相关的临床DDI试验，其中有2种 药物（达诺瑞韦钠和奈诺沙星）是作为转运体底 物，3种药物（依米他韦、泽布替尼和阿美替尼） 作为转运体抑制剂。2.1试验药物作为转运体的底物 达诺瑞韦钠M 达诺瑞韦钠是。OATPmg的底物，临床上开展了达诺瑞韦钠)利托纳韦 组合和◦众丁^]抑制剂环孢素联用的DD!试验。达诺瑞韦钠的CmaX和JUC。—*分别升高7.45倍和 14.6倍。由于利托纳韦是CYP3J4和P-gp的抑制 剂且环孢素是二者的底物，在此联合试验中，环 孢素的血浆暴露量也显著升高。2.1.2奈诺沙星[36]奈诺沙星主要以原形药物 (50% ~ 70% )通过尿液排泄。在生理pH条件下， 以两亲性离子形式存在，因此可能是肾转运体 OJTs或者OCTs的底物。联用OJT1)3抑制剂丙 磺舒或0CT2抑制剂西咪替丁后，奈诺沙星在健 康受试者体内的JUC。—。分别增加了 26.2%和 -.4%，肾脏清除率分别降低了22.6%和13.3%，尿 液累积回收率和CmaX均无显著变化，提示该DDI 结果不具有临床意义。2.1.3其他（源于药品说明书）以下几种药物 在其药品说明书中提到为转运体底物，但尚未开 展基于转运体的临床DDI研究。体外试验表明恩沙替尼可能是P-gp的底物。与P-gp抑制剂联合使用可能会导致恩沙替尼血 药浓度升高。治疗期间应慎用对P-gp有抑制作 用的药物。如果患者合并服用了这类药物，应密 切观察临床不良反应。与P-gp诱导剂联合使用 可能会导致恩沙替尼血药浓度降低。治疗期间 应慎用对P-gp有诱导作用的药物"
+  }
+]

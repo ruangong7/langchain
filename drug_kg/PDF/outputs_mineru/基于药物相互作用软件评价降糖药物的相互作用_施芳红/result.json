@@ -1,0 +1,846 @@
+[
+  {
+    "type": "text",
+    "text": "· 研究报告 ·",
+    "text_level": 2,
+    "bbox": [
+      97,
+      80,
+      228,
+      99
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "基于药物相互作用软件评价降糖药物的相互作用",
+    "text_level": 1,
+    "bbox": [
+      90,
+      118,
+      650,
+      140
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "施芳红1，李 浩2，刘晓琰1， 张在丽1（1．上海交通大学医学院附属仁济医院药学部 ，上海200127；2．上海交通大学医学院附属上海儿童医学中心药学部 ，上海200127）",
+    "bbox": [
+      87,
+      160,
+      907,
+      192
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［摘要］ 目的 评价并分析不同降糖药物的药物相互作用（DDI） 方法 将目前临床上常用的降糖药物（包括胰岛素和27种非胰岛素制剂）使用DDI数据库Lexi－InteractionTM分析评价其DDI并进行归纳和排序。 结果 28种药物共涉及DDI数量882种 ，其中C级最多（69．8％） ，C、D、X级占总数的91．2％ ，其中 X级为28种。 平均每种药物 DDI数量最多的为磺脲类药物 ，其次为二甲双胍 ，最少的为 －糖苷酶抑制剂 结论 对于合并用药较多 老年患者及肝肾功能不全者应优先选用 DDI数量较少的降糖药物 ，如 －糖苷酶抑制剂 胰高血糖素样肽－1 （GLP－1）类似物 钠－葡萄糖共转运蛋白2抑制剂（SGLT2i）等",
+    "bbox": [
+      87,
+      212,
+      905,
+      297
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［关键词］ 降糖药物 ；药物相互作用 ；软件评价",
+    "bbox": [
+      119,
+      298,
+      430,
+      312
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［中图分类号］ R587TP311．56 ［文献标志码］ A ［文章编号］ 1006－0111（2018）02－0166－04",
+    "bbox": [
+      119,
+      315,
+      816,
+      329
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［DOI］ 10．3969／j．issn．1006－0111．2018．02．014",
+    "bbox": [
+      119,
+      332,
+      442,
+      346
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Evaluationofhypoglycemicdrug－druginteractionsbysoftware",
+    "text_level": 1,
+    "bbox": [
+      89,
+      368,
+      719,
+      385
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "SHIFanghong1， LIHao2，LIU Xiaoyan1， ZHANG Zaili1 （1DepartmentofPharmacy，RenjiHospital，Schoolof Medicine，ShanghaiJiaotongUniversity，Shanghai200127，China；2DepartmentofPharmacy， ShanghaiChildren’sMedicalCenter， SchoolofMedicine，ShanghaiJiaotongUniversity，Shanghai200127，China）",
+    "bbox": [
+      87,
+      388,
+      907,
+      437
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［Abstract］ Objective Toevaluateandanalyzethedrug－druginteractions（DDI） ofdifferentantidiabeticdrugs．Methods DDIdatabaseLexi－InteractionTM wasusedtoevaluateDDIfor28commonlyusedantidiabeticmedications（includinginsulin and27non－insulinpreparations）．Results 882DDIswereidentifiedfor28drugs．CategoryCwasthetopratedDDI（69．8％） CategoryC， D， Xwereaccountedfor91．2％ ofthetotalDDI．28medicationcombinationsbelongedtocategoryX， which shouldbeavoidedtousetogether．SulfonylureashadthemostDDI， followedbymetformin．Alpha－glucosidaseinhibitorshad leastDDI．Conclusion HypoglycemicdrugswithlessDDI， suchasα－glycosidaseinhibitors， glucagon－likepeptide1（GLP－1）an－ alogsandsodium－dependentglucosetransporters2inhibitor（SGLT2i）shouldbeconsideredwithhighpriorityforpatientstak－ ingmultipleantidiabeticmedications， elderlypatientsandpatientswithliver－kidneydysfunction",
+    "bbox": [
+      87,
+      457,
+      907,
+      589
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［Keywords］ hypoglycemicdrugs；drug－druginteractions（DDI） ； evaluationbysoftware",
+    "bbox": [
+      119,
+      593,
+      697,
+      606
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "糖尿病的发病率呈上升趋势 ，2007年统计数据显示中国成人 糖 尿 病 的 发 病 率 为9．7％， 估 算 中 国有9240万糖尿病患者，2010年的数据显示中国成人糖尿病的发病率为11．6％，而糖尿病前期的患者高达50．1％，且糖尿病的发病率随年龄的增长而增加［1］ 研究［2］认为，6％左右的老年人住院与药物相互作用有关，老年人往往由于生理功能的变化导致药物的吸收 分布 代谢和排泄发生药动学和药效学",
+    "bbox": [
+      89,
+      627,
+      485,
+      774
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［基金项目］ 上 海 交 通 大 学 医 学 院 医 院 药 学 科 研 基 金（JDYX2017QN003） ；上海交通大学中央高校基本科研业务费资助（17JCYB11） 上海医院药学科研基金（2015YY0120）",
+    "bbox": [
+      89,
+      807,
+      482,
+      852
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［作者简介］ 施芳红 主管药师 硕士 研究方向 临床药学 Tel15900800230，Email：shifanghong120＠163．com",
+    "bbox": [
+      89,
+      854,
+      482,
+      883
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［通讯作者］ 刘晓琰 主任药师 Tel （021）68385652 Emailliuxi－aoyan＠renji．com",
+    "bbox": [
+      89,
+      885,
+      482,
+      915
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "的改变，在此类人群中更易出现不良反应。",
+    "bbox": [
+      512,
+      627,
+      833,
+      643
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "糖尿病属慢性病 ，患者需终生用药，但目前尚缺乏降糖药物相互作用的相关数据 通过人力筛选药物相互作用存在筛选对象少 费时 结果不准确等缺点，因此需要使用软件进行智能化筛选。 目前国外常用的 药 物 相 互 作 用 软 件 主 要 包 括 Lexi－Interac－tionTM和 Micromedex等， 相互作用软件因信息齐全、更新及时等特点已广泛应用于临床。 笔者针对目前已获批的降糖药物进行软件筛选 ， 基 于 Lexi－InteractionTM数据库中降糖药物的相互作用分级进行评价，为临床合理用药提供参考",
+    "bbox": [
+      510,
+      646,
+      907,
+      826
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 资料与方法",
+    "text_level": 2,
+    "bbox": [
+      512,
+      838,
+      633,
+      852
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "收集目前已批准上市的降糖药物 包括非胰岛素制剂与胰岛素制剂 其中 非胰岛素制剂共9大类， 涉及27种药物； 胰岛素制剂因影响药物相互作用 的 成 分 一 致 ， 因 此 仅 评 价 胰 岛 素 的 相 互 作 用 。利用Lexi－InteractionTM软件筛选和分析降糖药物的药 物 相 互 作 用。 Lexicomp 是 由 WolterKluwerHealth开发的一款集药品信息和医疗项目于一体的信息化软件 ， 其中Lexi－InteractionTM作为药师使用的板块， 用于筛选药物相互作用。 该软件可以依据临床重要程度对筛选出的药物相互作用进行分级评价，可分为5个等级 X级 ： 避免组合使用 ， 联合使用的风险超过收益；D级 ：考虑治疗改进， 联合使用需要权衡风险获 益； C级 ： 监 控 治 疗， 联 合 使 用的利益往往超 过 风 险， 应 进 行 监 测 或 调 整 剂 量 等；B级 ： 无需采取措施， 风险较小； A 级 ： 无相互作用。",
+    "bbox": [
+      510,
+      865,
+      907,
+      917
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "661",
+    "bbox": [
+      102,
+      49,
+      127,
+      60
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "药学实践杂志 2018年3月25日第36卷第2期",
+    "bbox": [
+      352,
+      36,
+      642,
+      48
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "JournalofPharmaceuticalPractice，Vol．36， No．2， March25，2018",
+    "bbox": [
+      305,
+      49,
+      690,
+      61
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      80,
+      482,
+      319
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 结果",
+    "text_level": 2,
+    "bbox": [
+      90,
+      332,
+      157,
+      347
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2．1 降糖药物相互作用统计",
+    "text_level": 2,
+    "bbox": [
+      90,
+      360,
+      315,
+      375
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "统计目前 临 床 上 常 用 的 降 糖 药 物 的 DDI数 量以及处于各个分级的数量。 结果显示，28种降糖药物共 有 DDI882 对， 其 中 最 多 的 为 C 级 DDI， 占69．8％（616／882） ，C级、D级、X级 共 计804对， 占91．2％。其中有4种药物（米格列醇、格列喹酮、曲格列汀和瑞格列汀）的数据无法获得 ，可能与数据库升级以及缺乏该类药物的相关研究有关。 每种药物具体 DDI数量见表1。",
+    "bbox": [
+      89,
+      379,
+      482,
+      525
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2．2 避免与降糖药物组合使用的药物",
+    "text_level": 2,
+    "bbox": [
+      90,
+      529,
+      386,
+      543
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "对于避免组合使用的药物 ， 软件提示为 X级，28种药物中避免使用的 DDI组合主要有28种。 其中，磺脲类药物的 X级 DDI数量最多， 而基本上所有磺脲类药物均不能与乙酰丙酸、美加明、米格列奈合用，其次是噻唑烷二酮类药物均不能与阿莫地喹合用，值得注意的是， 罗格列酮与胰岛素不能合用 ，二甲双胍与酒精不能合用等 ，详见表2。",
+    "bbox": [
+      89,
+      546,
+      482,
+      674
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2．3 各类降糖药物DDI数量排序",
+    "text_level": 2,
+    "bbox": [
+      90,
+      678,
+      354,
+      692
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "数据结果显示每种降糖药物的DDI数量不同，其中以磺脲类药物的DDI数量最多，磺脲类平均每种药物的DDI数量为63对 其次为二甲双胍 主要有37对，数量最少的是 －糖苷酶抑制剂 ， 每种药物的DDI数量为15对 每种药物 DDI数量排序见图 1。",
+    "bbox": [
+      89,
+      696,
+      482,
+      804
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "3 讨论",
+    "text_level": 2,
+    "bbox": [
+      90,
+      818,
+      157,
+      832
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "3．1 各类降糖药物DDI总体情况分析",
+    "text_level": 2,
+    "bbox": [
+      90,
+      846,
+      389,
+      860
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "笔者利用 Lexi－InteractionTM 软件分析和总结了各类降糖药物的DDI数量以及排序，通过系统分析和评价降糖药物的DDI有助于临床医生根据患者具体情况选用合适的降糖药物",
+    "bbox": [
+      89,
+      864,
+      482,
+      917
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/369caa9d2ceb6b4f55f02c0e5154e44300b1cd5e78b414105042c687a06657f9.jpg",
+    "table_caption": [
+      "表1 降糖药物相互作用分级统计"
+    ],
+    "table_footnote": [
+      "注 TZD 噻唑烷二酮类 DPP4i 二肽基肽酶4抑制剂 GLP－1胰高血糖素样肽1SGLT2i钠 葡萄糖共转运蛋白2抑制剂 NF 无法获取"
+    ],
+    "table_body": "<table><tr><td>类别</td><td>药名</td><td>英文名</td><td>A</td><td>B</td><td>C</td><td>D</td><td>X</td><td>合计</td></tr><tr><td>双胍类</td><td>二甲双胍</td><td>metformin</td><td>0</td><td>1</td><td>30</td><td>5</td><td>1</td><td>37</td></tr><tr><td rowspan=\"3\"> $\\alpha$ -糖苷酶抑制剂</td><td>阿卡波糖</td><td>acarbose</td><td>0</td><td>1</td><td>15</td><td>0</td><td>0</td><td>16</td></tr><tr><td>伏格列波糖</td><td>voglibose</td><td>0</td><td>1</td><td>12</td><td>0</td><td>0</td><td>13</td></tr><tr><td>米格列醇</td><td>migltol</td><td></td><td></td><td></td><td></td><td></td><td>NF</td></tr><tr><td rowspan=\"6\">磺脲类</td><td>甲磺丁脲</td><td>tolbutamide</td><td>0</td><td>5</td><td>49</td><td>15</td><td>4</td><td>73</td></tr><tr><td>格列吡嗪</td><td>glipizide</td><td>0</td><td>5</td><td>40</td><td>13</td><td>3</td><td>61</td></tr><tr><td>格列喹酮</td><td>gliquidone</td><td></td><td></td><td></td><td></td><td></td><td>NF</td></tr><tr><td>格列齐特</td><td>gliclazide</td><td>0</td><td>5</td><td>38</td><td>12</td><td>3</td><td>58</td></tr><tr><td>格列本脲</td><td>glibenclamide</td><td>0</td><td>8</td><td>41</td><td>13</td><td>5</td><td>67</td></tr><tr><td>格列美脲</td><td>glimepiride</td><td>0</td><td>5</td><td>37</td><td>13</td><td>3</td><td>58</td></tr><tr><td rowspan=\"3\">格列奈类</td><td>瑞格列奈</td><td>repaglinide</td><td>0</td><td>0</td><td>40</td><td>4</td><td>0</td><td>44</td></tr><tr><td>那格列奈</td><td>nateglinide</td><td>0</td><td>3</td><td>22</td><td>5</td><td>0</td><td>30</td></tr><tr><td>米格列奈</td><td>mitiglinide</td><td>0</td><td>1</td><td>15</td><td>0</td><td>1</td><td>17</td></tr><tr><td rowspan=\"2\">TZD类</td><td>罗格列酮</td><td>rosiglitazone</td><td>1</td><td>1</td><td>22</td><td>9</td><td>2</td><td>35</td></tr><tr><td>吡格列酮</td><td>pioglitazone</td><td>1</td><td>3</td><td>20</td><td>10</td><td>1</td><td>35</td></tr><tr><td rowspan=\"7\">DPP4i</td><td>沙格列汀</td><td>saxagliptin</td><td>0</td><td>7</td><td>27</td><td>6</td><td>3</td><td>43</td></tr><tr><td>西格列汀</td><td>sitagliptin</td><td>0</td><td>1</td><td>21</td><td>2</td><td>0</td><td>24</td></tr><tr><td>维格列汀</td><td>vildagliptin</td><td>0</td><td>1</td><td>13</td><td>2</td><td>0</td><td>16</td></tr><tr><td>利格列汀</td><td>linagliptin</td><td>0</td><td>5</td><td>25</td><td>10</td><td>0</td><td>40</td></tr><tr><td>阿格列汀</td><td>alogliptin</td><td>0</td><td>1</td><td>13</td><td>2</td><td>0</td><td>16</td></tr><tr><td>曲格列汀</td><td>trelagliptin</td><td></td><td></td><td></td><td></td><td></td><td>NF</td></tr><tr><td>瑞格列汀</td><td>retagliptin</td><td></td><td></td><td></td><td></td><td></td><td>NF</td></tr><tr><td rowspan=\"5\">GLP-1类似物</td><td>利拉鲁肽</td><td>liraglutide</td><td>0</td><td>4</td><td>12</td><td>2</td><td>0</td><td>18</td></tr><tr><td>艾塞那肽</td><td>exenatide</td><td>0</td><td>3</td><td>13</td><td>4</td><td>0</td><td>20</td></tr><tr><td>利司那肽</td><td>lixisenatide</td><td>0</td><td>3</td><td>12</td><td>4</td><td>0</td><td>19</td></tr><tr><td>阿必鲁肽</td><td>albiglutide</td><td>0</td><td>3</td><td>12</td><td>2</td><td>0</td><td>17</td></tr><tr><td>度拉糖肽</td><td>dulaglutide</td><td>0</td><td>1</td><td>12</td><td>2</td><td>0</td><td>15</td></tr><tr><td rowspan=\"3\">SGLT2i</td><td>达格列净</td><td>dapagliflozin</td><td>0</td><td>3</td><td>12</td><td>2</td><td>0</td><td>17</td></tr><tr><td>坎格列净</td><td>canagliflozin</td><td>0</td><td>2</td><td>19</td><td>12</td><td>1</td><td>34</td></tr><tr><td>恩格列净</td><td>empagliflozin</td><td>0</td><td>1</td><td>14</td><td>2</td><td>0</td><td>17</td></tr><tr><td>胰淀素类似物</td><td>普兰林肽</td><td>pramlintide</td><td>0</td><td>1</td><td>12</td><td>2</td><td>0</td><td>15</td></tr><tr><td rowspan=\"2\">胰岛素制剂</td><td>胰岛素</td><td>insulin</td><td>0</td><td>1</td><td>18</td><td>7</td><td>1</td><td>27</td></tr><tr><td>合计</td><td></td><td>2</td><td>76</td><td>616</td><td>160</td><td>28</td><td>882</td></tr></table>",
+    "bbox": [
+      515,
+      97,
+      904,
+      631
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/3ec38b554aa4e3652735df4736c8e90a3b8e2b48e1c8c72f52dd138b2ba2e35d.jpg",
+    "table_caption": [
+      "表2 28组避免与降糖药物合用的DDI"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>降糖药物</td><td>不能合用的药物</td></tr><tr><td>二甲双胍</td><td>酒精</td></tr><tr><td>甲苯磺丁脲</td><td>乙酰丙酸、阿莫地喹、美加明、米格列奈</td></tr><tr><td>格列吡嗪</td><td>乙酰丙酸、美加明、米格列奈</td></tr><tr><td>格列齐特</td><td>乙酰丙酸、美加明、米格列奈</td></tr><tr><td>格列本脲</td><td>乙酰丙酸、阿莫地喹、波生坦、美加明、米格列奈</td></tr><tr><td>格列美脲</td><td>乙酰丙酸、美加明、米格列奈</td></tr><tr><td>米格列奈</td><td>磺脲类</td></tr><tr><td>罗格列酮</td><td>阿莫地喹、胰岛素</td></tr><tr><td>吡格列酮</td><td>阿莫地喹</td></tr><tr><td>沙格列汀</td><td>考尼伐坦、夫西地酸、艾代拉利司</td></tr><tr><td>坎格列净</td><td>阿莫地尼</td></tr><tr><td>胰岛素制剂</td><td>罗格列酮</td></tr></table>",
+    "bbox": [
+      517,
+      715,
+      902,
+      919
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "药学实践杂志 2018年3月25日第36卷第2期",
+    "bbox": [
+      352,
+      36,
+      642,
+      48
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "JournalofPharmaceuticalPractice，Vol．36， No．2， March25，2018",
+    "bbox": [
+      305,
+      49,
+      690,
+      61
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "761",
+    "bbox": [
+      868,
+      49,
+      892,
+      61
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "chart",
+    "img_path": "images/3be261dfbdaf07736ff15a879e6a7efde342e1ccac8c5cf2ca00273e3e09fef6.jpg",
+    "content": "| 药物种类 | DOT数量 |\n|---|---|\n| 糖苷酮抑制剂 | 14 |\n| 胰淀素类似物 | 15 |\n| GLP-1类似物 | 18 |\n| SGLT2i | 22 |\n| 胰岛素制剂 | 27 |\n| DPP4i | 28 |\n| 格列奈类 | 30 |\n| TZD类 | 35 |\n| 双胍类 | 37 |\n| 磺脲类 | 64 |",
+    "chart_caption": [
+      "图1 各类降糖药物平均DDI数量"
+    ],
+    "chart_footnote": [],
+    "sub_type": "bar chart",
+    "bbox": [
+      115,
+      83,
+      455,
+      311
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      90,
+      356,
+      349,
+      370
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "众所周知，抗凝药物华法林受食物和药物的相互作用影响很大 ，而通过软件筛选华法林的DDI数量高达248种，其中X级8种， 与华法林相比， 降糖药物的DDI数量相对较少 但是由于药物与降糖药物合用时可能增强降糖药物的疗效 ， 引起低血糖的风险，因此在临床上仍应重视由于 DDI引起的不良反 应 。",
+    "bbox": [
+      89,
+      375,
+      482,
+      502
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3．2 重视合并多种疾病患者降糖药物的选择",
+    "text_level": 2,
+    "bbox": [
+      89,
+      507,
+      438,
+      521
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "研究［3］显示，糖尿病患者常常合并多种疾病 ，而冠心病合并糖尿病的比例甚至高达80．5％，并且糖尿病合并血脂异常和高血压的人群随着年龄的增长呈逐年增加的趋势 而Zhu等［4］ 调查了上海市松江地区11年的死亡原因 ，结果显示，11年间与糖尿病相关的死亡人数增加了1．78倍，糖尿病和冠心病的死亡人数则增加了2．66倍 多种并发疾病往往需要使用多种药物 ， 而用药数量的增多也增加了发生DDI的可能性 文献［5］推荐2型糖尿病患者应遵循以二甲双胍为基础的药物治疗原则 ， 可以选用联合的药物则包括其他任何机制的降糖药物 有研究［6］ 显示，酒精会增加乳酸酸中毒的风险 ，与二甲双胍合用则有可能增加二甲双胍的不良反应 因此 医务人员应告知患者在使用二甲双胍的过程中避免饮酒 结合文中相关数据分析显示 ，对于合并疾病多用药品种多的患者可以考虑选择 DDI数量相对较少的药物 例如 －糖苷酶抑制剂 GLP－1类似物SGLT2i胰岛素等 而应避免选择DDI数量较多的磺脲类促泌剂",
+    "bbox": [
+      89,
+      525,
+      482,
+      879
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3．3 重视老年患者降糖药物的选择",
+    "text_level": 2,
+    "bbox": [
+      89,
+      883,
+      368,
+      898
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "文献［7］认为对于75岁以上的老年人或预期寿命＜5年的患者血糖控制目标应当相对宽松 空腹或餐前血糖控制在7．8～10．0mmol／L，餐后2h或随机血糖控制在7．8～13．9mmol／L。 对于老年糖尿病患者而言，发生低血糖反应非常危险 ，因此控制血糖的目标也相对宽松 结合这一特点 ， 对于老年患者应选择低血糖风险相对较小的降糖药物 ， 而有些药物与降糖药物联合使用会增加患者低血糖的风险，所以老年患者应选择DDI比较少的药物以降低发生低血糖的风险 本研究数据表明 ， 磺脲类药物的DDI相对较 多， 且该类药物容易引起低血 糖 ， 老年患者应尽量避免使用磺脲类药物。 文献［8］则认为老年患者如需联用磺脲类药物 ， 宜选择降糖作用温和、作用时间短、低血糖风险小的药物 ， 应避免使用格列本脲 通过软件筛选发现格列本脲共有67组DDI，与其他药物合用容易引起血糖的波动和低血糖反应，老年患者并不适宜。 对于老年患者可以选择DDI数量 相 对 较 少、低 血 糖 反 应 较 小 的 药 物 ，例如 －糖苷 酶 抑 制 剂、GLP－1类 似 物、SGLT2i等，由于胰淀素类似物目前在国内尚未上市 ， 因此不建议使用",
+    "bbox": [
+      124,
+      901,
+      480,
+      916
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      80,
+      905,
+      450
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3．4 重视肝肾功能不全患者降糖药物的选择",
+    "text_level": 2,
+    "bbox": [
+      510,
+      454,
+      862,
+      468
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "肝脏在药物的代谢和处置中起重要作用 ， 大多数药物均是在肝脏内经过生物转化最终排出体外 ，因此，当肝脏处于病理状态时容易影响药物的体内代谢过程，从而影响药物的疗效和不良反应。 例如，波生坦［9］为肝药酶CYP2C9和CYP3A4的诱导剂，而格列本脲的代谢则依赖于这2个代谢酶， 两者联用会加速格列本脲的代谢 ，降低格列本脲的浓度 ，因此不建议两药联合使用",
+    "bbox": [
+      510,
+      472,
+      905,
+      618
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "肾脏是药物排泄的主要场所 根据药物的酸碱性不同其排泄情况不同 ， 药物通过肾小管分泌和重吸收可以产生相互作用 ，从而影响药物疗效。 例如，阿司匹林与磺脲类药物合用时会增加磺脲类药物的降糖作用，因此可能导致低血糖风险的发生。",
+    "bbox": [
+      510,
+      621,
+      905,
+      712
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "对于有肝肾功能不全的患者 ， 由于其本身的代谢 排泄能力减弱 在合用影响降糖效果的药物时可能会引起降糖作用增强 ，产生低血糖反应，或者降低了降糖药物的浓度 ，最终达不到治疗目标等 ，因此肝肾功能不全的患者应选用DDI较少的药物。",
+    "bbox": [
+      510,
+      715,
+      905,
+      804
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "4 总结",
+    "text_level": 2,
+    "bbox": [
+      512,
+      818,
+      579,
+      832
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "本研究首次利用药物相互作用软件分析和总结了临床常用的降糖药物的DDI种类，并根据DDI数量的不同进行排序 ， 同时对于需要避免联用的 DDI组合进行了归纳 ，为临床合理选用降糖药物提供了新思路。 笔者强调应关注合并用药多的患者、老年患者、肝肾功能不全患者的用药选择 ，为减少可能的低血糖反应或无法到达既定疗效 ， 应优先选择 DDI更少的药物。",
+    "bbox": [
+      510,
+      845,
+      905,
+      917
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "861",
+    "bbox": [
+      102,
+      49,
+      127,
+      60
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "药学实践杂志 2018年3月25日第36卷第2期",
+    "bbox": [
+      354,
+      36,
+      640,
+      48
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "JournalofPharmaceuticalPractice，Vol．36， No．2， March25，2018",
+    "bbox": [
+      305,
+      49,
+      690,
+      61
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      90,
+      79,
+      485,
+      154
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "【参考文献】",
+    "text_level": 2,
+    "bbox": [
+      90,
+      164,
+      184,
+      180
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "［1］ XuY， WangL， HeJ， ．Prevalenceandcontrolofdiabe－tesinChineseadults［J］．Jama 2013 310（9） ：948－959",
+      "［2］ DoucetJ，ChassagneP，TrivalleC， ．Drug－druginterac－tionsrelatedtohospitaladmissionsinolderadults： aprospec－tivestudyof1000patients［J］．JAmGeriatrSoc， 1996， 44（8） ：944－948",
+      "［3］ HuDY， PanCY， YuJM， ．TherelationshipbetweencoronaryarterydiseaseandabnormalglucoseregulationinChina： theChinaHeartSurvey［J］．EurHeartJ 2006 27（21） ：2573－2579",
+      "［4］ ZhuM， LiJ， LiZ， ．Mortalityratesandthecausesof",
+      "deathrelatedtodiabetesmellitusinShanghaiSongjiangDistrict： an11－yearretrospectiveanalysisofdeathcertificates［J］．BMCEndocrDisord， 2015， 15：45",
+      "［6］ 应令雯 ， 周健．2017年 ADA糖尿病医学诊疗标准解读［J］中国医学前沿杂志（电子版） ， 2017， 9（1） ：48－55",
+      "［7］ LienD， MaderTJ．Survivalfrom profoundalcohol－relatedlacticacidosis［J］．JEmergMed，1999，17（5） ：841－846",
+      "［8］ 中国医师协会内分泌代谢科医师分会 ， 中国住院患者血糖管理专家组．中国住院患者血糖管理专家共识［J］．中华内分泌代谢杂志 2017 33（1） 1－10",
+      "［9］ 母义明 ， 杨文英 ， 朱大龙 ，等．磺脲类药物临床应用专家共识（2016年版） ［J］．药品评价 2017 14（1） 5－12",
+      "［10］ vanGiersbergenPL， TreiberA， ClozelM， ． andstudiesexploringthepharmacokineticinteractionbe－tweenbosentan， adualendothelinreceptorantagonist， andglyburide［J］．ClinPharmacolTher200271（4） 253－262",
+      "［收稿日期］ 2017－11－17 ［修回日期］ 2018－01－03",
+      "［本文编辑］ 李睿旻"
+    ],
+    "bbox": [
+      92,
+      187,
+      485,
+      363
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      510,
+      77,
+      910,
+      361
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "（上接第165页）",
+    "bbox": [
+      90,
+      401,
+      200,
+      416
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "乙酯（1∶1） 结果满意",
+    "bbox": [
+      90,
+      419,
+      270,
+      434
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "【参考文献】",
+    "text_level": 2,
+    "bbox": [
+      90,
+      447,
+      184,
+      462
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "［1］ 向清宇 ，于波涛 ， 范开华 ， 等．桃红通脉颗粒的提取工艺研究［J］．药学服务与研究 2011 11（2） ：147－148",
+      "［2］ 国家药典委员会．中华人民共和国药典（一部） 2015年版［S］北京 中国医药科技出版社 201586－87158－159277－278",
+      "［3］ 国家药典委员会．中华人民共和国药典（四部） ：2015年版［S］北京 ：中国医药科技出版社 2015：57－61",
+      "［4］ 吴金萍 ，刘志军．赤芍六味退黄颗粒的薄层色谱定性鉴别［J］",
+      "内蒙古医学杂志 ，2015，47（1） ：72－73",
+      "［5］ 刁保忠 ，冯家龙 ，赵文法．芪麦苓口服液质量标准研究［J］．食品与药品 ，2016，18（3） ：174－179",
+      "［6］ 栗建明 ，侯惠婵 ，顾利红．HPLC法测定白灵片中芍药苷的含量及不确定度评价［J］．中国药房 201526（36） ：5152－5154",
+      "［7］ 顾 蕾 蕾 ， 武 露 凌 ， 李 祥 ， 等．桃 仁、红花及其药对挥发油的气相－质谱分析［J］．中成药 ，2008，30（5） ：719－722",
+      "［8］ 杜晓琳 ，姜云平 ，于波涛．高效液相色谱法测定桃红通脉颗粒中芍药苷的含量［J］．解放军药学学报 2011 27（4） ：346－347",
+      "［收稿日期］ 2017－07－20 ［修回日期］ 2017－12－22",
+      "［本文编辑］ 陈盛新"
+    ],
+    "bbox": [
+      87,
+      470,
+      485,
+      583
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      510,
+      400,
+      905,
+      571
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "药学实践杂志 2018年3月25日第36卷第2期",
+    "bbox": [
+      352,
+      36,
+      642,
+      48
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "JournalofPharmaceuticalPractice，Vol．36， No．2， March25，2018",
+    "bbox": [
+      305,
+      49,
+      690,
+      61
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "961",
+    "bbox": [
+      868,
+      49,
+      892,
+      61
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 3
+  }
+]

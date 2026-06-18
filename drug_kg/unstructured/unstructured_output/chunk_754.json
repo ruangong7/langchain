@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "泊沙康唑",
+        "canonical_name": "泊沙康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "利福喷丁",
+        "canonical_name": "利福喷丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "泊沙康唑血药浓度",
+        "canonical_name": "泊沙康唑血药浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "临床用药评价",
+          "chunk_index": 754,
+          "raw_text": "患者开始同时使用泊沙康唑口服混悬液和利福平后，泊沙康唑达稳态浓度Cmin=0.66μg/mL，合用第21天和第33天泊沙康唑浓度分别降低80.3％和57.6％",
+          "chunk_id": "754",
+          "data": "。另一篇病例报道，患者开始同时使用泊沙康唑口服混悬液和利福平后，泊沙康唑达稳态浓度Cmin=0.66μg/mL，合用第21天和第33天泊沙康唑浓度分别降低80．3％和57.6％（Rifampin and posaconazole coadministration leads to decreased serum posaconazole concentration）。根据泊沙康唑已发表的药代药动学数据，800mg qd、400mg bid、200mg qid不同给药方案下，泊沙康唑血药浓度分别为0.162、0.32、0.517μg/mL，研究结果说明增加用药频次可以提高血药浓度。一篇病例报道利福喷丁合并泊沙康唑口服混悬液，泊沙康唑用药频次为400mg tid，泊沙康唑的血药浓度有所增加，治疗侵袭性真菌感染有效（肺结核合并侵袭性真菌感染1例及文献分析）。临床用药评价公众号：增加给药频次可能有助于解决泊沙康唑与利福喷丁之间的相互作用影响，当然血药浓度监测是很好的辅助评价手段。—END—"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "临床用药评价",
+          "chunk_index": 754,
+          "raw_text": "利福喷丁合并泊沙康唑口服混悬液，泊沙康唑用药频次为400mg tid，泊沙康唑的血药浓度有所增加",
+          "chunk_id": "754",
+          "data": "。另一篇病例报道，患者开始同时使用泊沙康唑口服混悬液和利福平后，泊沙康唑达稳态浓度Cmin=0.66μg/mL，合用第21天和第33天泊沙康唑浓度分别降低80．3％和57.6％（Rifampin and posaconazole coadministration leads to decreased serum posaconazole concentration）。根据泊沙康唑已发表的药代药动学数据，800mg qd、400mg bid、200mg qid不同给药方案下，泊沙康唑血药浓度分别为0.162、0.32、0.517μg/mL，研究结果说明增加用药频次可以提高血药浓度。一篇病例报道利福喷丁合并泊沙康唑口服混悬液，泊沙康唑用药频次为400mg tid，泊沙康唑的血药浓度有所增加，治疗侵袭性真菌感染有效（肺结核合并侵袭性真菌感染1例及文献分析）。临床用药评价公众号：增加给药频次可能有助于解决泊沙康唑与利福喷丁之间的相互作用影响，当然血药浓度监测是很好的辅助评价手段。—END—"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "临床用药评价",
+          "chunk_index": 754,
+          "raw_text": "血药浓度监测是很好的辅助评价手段",
+          "chunk_id": "754",
+          "data": "。另一篇病例报道，患者开始同时使用泊沙康唑口服混悬液和利福平后，泊沙康唑达稳态浓度Cmin=0.66μg/mL，合用第21天和第33天泊沙康唑浓度分别降低80．3％和57.6％（Rifampin and posaconazole coadministration leads to decreased serum posaconazole concentration）。根据泊沙康唑已发表的药代药动学数据，800mg qd、400mg bid、200mg qid不同给药方案下，泊沙康唑血药浓度分别为0.162、0.32、0.517μg/mL，研究结果说明增加用药频次可以提高血药浓度。一篇病例报道利福喷丁合并泊沙康唑口服混悬液，泊沙康唑用药频次为400mg tid，泊沙康唑的血药浓度有所增加，治疗侵袭性真菌感染有效（肺结核合并侵袭性真菌感染1例及文献分析）。临床用药评价公众号：增加给药频次可能有助于解决泊沙康唑与利福喷丁之间的相互作用影响，当然血药浓度监测是很好的辅助评价手段。—END—"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 754,
+    "source": "临床用药评价",
+    "text": "。另一篇病例报道，患者开始同时使用泊沙康唑口服混悬液和利福平后，泊沙康唑达稳态浓度Cmin=0.66μg/mL，合用第21天和第33天泊沙康唑浓度分别降低80．3％和57.6％（Rifampin and posaconazole coadministration leads to decreased serum posaconazole concentration）。根据泊沙康唑已发表的药代药动学数据，800mg qd、400mg bid、200mg qid不同给药方案下，泊沙康唑血药浓度分别为0.162、0.32、0.517μg/mL，研究结果说明增加用药频次可以提高血药浓度。一篇病例报道利福喷丁合并泊沙康唑口服混悬液，泊沙康唑用药频次为400mg tid，泊沙康唑的血药浓度有所增加，治疗侵袭性真菌感染有效（肺结核合并侵袭性真菌感染1例及文献分析）。临床用药评价公众号：增加给药频次可能有助于解决泊沙康唑与利福喷丁之间的相互作用影响，当然血药浓度监测是很好的辅助评价手段。—END—"
+  }
+]

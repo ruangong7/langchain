@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "阿格列汀",
+        "canonical_name": "阿格列汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "canonical_name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "降脂药",
+        "canonical_name": "降脂药",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "中国医学论坛报今日内分泌",
+          "chunk_index": 471,
+          "raw_text": "在与二甲双胍联合，或与降脂药等其他疾病药物联合使用时，并不需要改变阿格列汀使用剂量。",
+          "chunk_id": "471",
+          "data": "。但是，阿格列汀既不是P糖蛋白的底物，也不是细胞色素P450酶的抑制剂或诱导剂，所以阿格列汀在避免与其他药物的相互作用方面，表现相当出色[7]。在与二甲双胍联合，或与降脂药等其他疾病药物联合使用时，并不需要改变阿格列汀使用剂量。 参考文献：1. Diabetes Care. 2014; 37(Suppl.1): S14–S80.2. Diab Vasc Dis Res 2017,14(1): 24-32.3. Slone报告，美国2006年药物使用特征,http://www. bu. edu/slone/files /2012/11/Slone Survey Report 2006.pdf.4. Drugs 2011; 71 (11): 1441-1467.5. Diabetes Obes Metab. 2011 Jan;13(1): 7-18.6. 任夏洋等 常见药物相互作用与临床合理用药初探《药品评价》  2010 , 7 (6) : 42-45.7. 阿格列汀产品说明书.4M编号：SACN.DPP.18.07.7722  本材料有效期至2019年12月。非广告用途，仅供相关医学人士参考。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "中国医学论坛报今日内分泌",
+          "chunk_index": 471,
+          "raw_text": "在与二甲双胍联合，或与降脂药等其他疾病药物联合使用时，并不需要改变阿格列汀使用剂量。",
+          "chunk_id": "471",
+          "data": "。但是，阿格列汀既不是P糖蛋白的底物，也不是细胞色素P450酶的抑制剂或诱导剂，所以阿格列汀在避免与其他药物的相互作用方面，表现相当出色[7]。在与二甲双胍联合，或与降脂药等其他疾病药物联合使用时，并不需要改变阿格列汀使用剂量。 参考文献：1. Diabetes Care. 2014; 37(Suppl.1): S14–S80.2. Diab Vasc Dis Res 2017,14(1): 24-32.3. Slone报告，美国2006年药物使用特征,http://www. bu. edu/slone/files /2012/11/Slone Survey Report 2006.pdf.4. Drugs 2011; 71 (11): 1441-1467.5. Diabetes Obes Metab. 2011 Jan;13(1): 7-18.6. 任夏洋等 常见药物相互作用与临床合理用药初探《药品评价》  2010 , 7 (6) : 42-45.7. 阿格列汀产品说明书.4M编号：SACN.DPP.18.07.7722  本材料有效期至2019年12月。非广告用途，仅供相关医学人士参考。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 471,
+    "source": "中国医学论坛报今日内分泌",
+    "text": "。但是，阿格列汀既不是P糖蛋白的底物，也不是细胞色素P450酶的抑制剂或诱导剂，所以阿格列汀在避免与其他药物的相互作用方面，表现相当出色[7]。在与二甲双胍联合，或与降脂药等其他疾病药物联合使用时，并不需要改变阿格列汀使用剂量。 参考文献：1. Diabetes Care. 2014; 37(Suppl.1): S14–S80.2. Diab Vasc Dis Res 2017,14(1): 24-32.3. Slone报告，美国2006年药物使用特征,http://www. bu. edu/slone/files /2012/11/Slone Survey Report 2006.pdf.4. Drugs 2011; 71 (11): 1441-1467.5. Diabetes Obes Metab. 2011 Jan;13(1): 7-18.6. 任夏洋等 常见药物相互作用与临床合理用药初探《药品评价》  2010 , 7 (6) : 42-45.7. 阿格列汀产品说明书.4M编号：SACN.DPP.18.07.7722  本材料有效期至2019年12月。非广告用途，仅供相关医学人士参考。"
+  }
+]

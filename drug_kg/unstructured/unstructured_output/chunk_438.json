@@ -1,0 +1,503 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "索磷布韦",
+        "canonical_name": "索磷布韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利巴韦林",
+        "canonical_name": "利巴韦林",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "来迪派韦",
+        "canonical_name": "来迪派韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "达拉他韦",
+        "canonical_name": "达拉他韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "阿舒瑞韦",
+        "canonical_name": "阿舒瑞韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "奥比他韦",
+        "canonical_name": "奥比他韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "帕利瑞韦",
+        "canonical_name": "帕利瑞韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "利托那韦",
+        "canonical_name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "达塞布韦",
+        "canonical_name": "达塞布韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "grazoprevir",
+        "canonical_name": "grazoprevir",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "elbasvir",
+        "canonical_name": "elbasvir",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "维帕他韦",
+        "canonical_name": "维帕他韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "西美瑞韦",
+        "canonical_name": "西美瑞韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "DAA",
+        "canonical_name": "直接抗病毒药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "降脂药",
+        "canonical_name": "降脂药",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "心血管药物",
+        "canonical_name": "心血管药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "抗HIV逆转录病毒药物",
+        "canonical_name": "抗HIV逆转录病毒药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "DrugClass",
+        "name": "免疫抑制剂",
+        "canonical_name": "免疫抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "DrugClass",
+        "name": "中枢神经系统药物",
+        "canonical_name": "中枢神经系统药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Disease",
+        "name": "丙型肝炎",
+        "canonical_name": "丙型肝炎",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "SOF+RBV：索磷布韦+利巴韦林",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "LDV+SOF：来迪派韦+索磷布韦",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "DCV+ASV：达拉他韦+阿舒瑞韦",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "GZR/EBR：grazoprevir/elbasvir",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "SOF/VEL：索磷布韦/维帕他韦",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "LDV+SOF：来迪派韦+索磷布韦",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "DCV+ASV：达拉他韦+阿舒瑞韦",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "DCV+ASV：达拉他韦+阿舒瑞韦",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "GZR/EBR：grazoprevir/elbasvir",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_23",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "GZR/EBR：grazoprevir/elbasvir",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_24",
+        "type": "IN_CLASS",
+        "source_id": "ent_12",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "SOF/VEL：索磷布韦/维帕他韦",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_25",
+        "type": "IN_CLASS",
+        "source_id": "ent_13",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "SMV：西美瑞韦",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_26",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_14",
+        "target_id": "ent_20",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_27",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_28",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_29",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_30",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      },
+      {
+        "id": "rel_31",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "中国医学论坛报",
+          "chunk_index": 438,
+          "raw_text": "EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物",
+          "chunk_id": "438",
+          "data": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 438,
+    "source": "中国医学论坛报",
+    "text": "。因此，临床医生在制订丙型肝炎治疗方案时，需要充分了解患者病史和用药情况，在处方时充分考虑药物之间的相互作用，尽量避免药物配伍不当导致的治疗失败。图3 不同DAA方案中各类DDI患者比例SOF+RBV：索磷布韦+利巴韦林；LDV+SOF：来迪派韦+索磷布韦；DCV+ASV：达拉他韦+阿舒瑞韦；OBV/PTV/r+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir四---EASL指南对DAAs药物相互作用的指导建议2016年欧洲肝病学会（EASL）丙肝治疗指南建议，在开始DAA治疗前以及治疗期间，对药物相互作用的风险进行周密评估；治疗期间需监测合并用药的疗效和安全性及潜在的药物相互作用；如有可能，HCV治疗期间需停用具有DDI的合并药物，或换用另一种潜在DDI风险较小的合并用药。EASL指南发布了DAA药物主要药物相互作用汇总，包括降脂药、心血管药物、抗HIV逆转录病毒药物、免疫抑制剂和中枢神经系统药物，常见临床药物和DAA的相互作用详见下表。表 临床药物和DAA的相互作用SOF：索磷布韦；LDV/SOF：来迪派韦/索磷布韦；SOF/VEL：索磷布韦/维帕他韦；OBV/PTV/RTV+DSV：奥比他韦/帕利瑞韦/利托那韦+达塞布韦，GZR/EBR：grazoprevir/elbasvir；DCV：达拉他韦；SMV：西美瑞韦"
+  }
+]

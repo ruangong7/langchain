@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "DPP-4抑制剂",
+        "canonical_name": "DPP-4抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "阿格列汀",
+        "canonical_name": "阿格列汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "CYP450酶",
+        "canonical_name": "CYP450酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "P糖蛋白",
+        "canonical_name": "P糖蛋白",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中国医学论坛报今日循环",
+          "chunk_index": 511,
+          "raw_text": "目前国内已有5种DPP-4抑制剂上市。与其他DPP-4抑制剂不同，阿格列汀不是CYP450酶的诱导剂或抑制剂，也不是P糖蛋白底物，发生药物相互作用的风险低，安全性更好。",
+          "chunk_id": "511",
+          "data": "。目前国内已有5种DPP-4抑制剂上市。与其他DPP-4抑制剂不同，阿格列汀不是CYP450酶的诱导剂或抑制剂，也不是P糖蛋白底物，发生药物相互作用的风险低，安全性更好。其与多种CYP酶或P糖蛋白底物合用时无需调整剂量，用药十分方便[6]。参考文献1、Diabetes Obes Metab. 2014, 37(Suppl.1): S14-S80.2、 Am J Cardiol, 2004, 94(9) : 1140-1146.3、Circulation, 2016. 134(21): e468-e495.4、药品评价. 2010, 7(6): 42-45. 5、Nature Reviews Nephrology. 2009, 5(9): 490. 6、阿格列汀说明书.  4M编号：SACN.DPP.19.03.2481  本材料有效期至2020年6月非广告用途，仅供相关医学人士参考。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "中国医学论坛报今日循环",
+          "chunk_index": 511,
+          "raw_text": "阿格列汀不是CYP450酶的诱导剂或抑制剂，也不是P糖蛋白底物，发生药物相互作用的风险低，安全性更好。",
+          "chunk_id": "511",
+          "data": "。目前国内已有5种DPP-4抑制剂上市。与其他DPP-4抑制剂不同，阿格列汀不是CYP450酶的诱导剂或抑制剂，也不是P糖蛋白底物，发生药物相互作用的风险低，安全性更好。其与多种CYP酶或P糖蛋白底物合用时无需调整剂量，用药十分方便[6]。参考文献1、Diabetes Obes Metab. 2014, 37(Suppl.1): S14-S80.2、 Am J Cardiol, 2004, 94(9) : 1140-1146.3、Circulation, 2016. 134(21): e468-e495.4、药品评价. 2010, 7(6): 42-45. 5、Nature Reviews Nephrology. 2009, 5(9): 490. 6、阿格列汀说明书.  4M编号：SACN.DPP.19.03.2481  本材料有效期至2020年6月非广告用途，仅供相关医学人士参考。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "中国医学论坛报今日循环",
+          "chunk_index": 511,
+          "raw_text": "阿格列汀不是CYP450酶的诱导剂或抑制剂，也不是P糖蛋白底物，发生药物相互作用的风险低，安全性更好。",
+          "chunk_id": "511",
+          "data": "。目前国内已有5种DPP-4抑制剂上市。与其他DPP-4抑制剂不同，阿格列汀不是CYP450酶的诱导剂或抑制剂，也不是P糖蛋白底物，发生药物相互作用的风险低，安全性更好。其与多种CYP酶或P糖蛋白底物合用时无需调整剂量，用药十分方便[6]。参考文献1、Diabetes Obes Metab. 2014, 37(Suppl.1): S14-S80.2、 Am J Cardiol, 2004, 94(9) : 1140-1146.3、Circulation, 2016. 134(21): e468-e495.4、药品评价. 2010, 7(6): 42-45. 5、Nature Reviews Nephrology. 2009, 5(9): 490. 6、阿格列汀说明书.  4M编号：SACN.DPP.19.03.2481  本材料有效期至2020年6月非广告用途，仅供相关医学人士参考。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 511,
+    "source": "中国医学论坛报今日循环",
+    "text": "。目前国内已有5种DPP-4抑制剂上市。与其他DPP-4抑制剂不同，阿格列汀不是CYP450酶的诱导剂或抑制剂，也不是P糖蛋白底物，发生药物相互作用的风险低，安全性更好。其与多种CYP酶或P糖蛋白底物合用时无需调整剂量，用药十分方便[6]。参考文献1、Diabetes Obes Metab. 2014, 37(Suppl.1): S14-S80.2、 Am J Cardiol, 2004, 94(9) : 1140-1146.3、Circulation, 2016. 134(21): e468-e495.4、药品评价. 2010, 7(6): 42-45. 5、Nature Reviews Nephrology. 2009, 5(9): 490. 6、阿格列汀说明书.  4M编号：SACN.DPP.19.03.2481  本材料有效期至2020年6月非广告用途，仅供相关医学人士参考。"
+  }
+]

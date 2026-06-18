@@ -1,0 +1,479 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "辉瑞新药",
+        "canonical_name": "辉瑞新药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "拉贝洛尔",
+        "canonical_name": "拉贝洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "雷诺嗪",
+        "canonical_name": "雷诺嗪",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "氢氯噻嗪",
+        "canonical_name": "氢氯噻嗪",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "氨氯地平",
+        "canonical_name": "氨氯地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "尼福地平",
+        "canonical_name": "尼福地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "非洛地平",
+        "canonical_name": "非洛地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "地尔硫卓",
+        "canonical_name": "地尔硫卓",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "canonical_name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "多沙唑嗪",
+        "canonical_name": "多沙唑嗪",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "转换酶抑制剂",
+        "canonical_name": "转换酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "坎地沙坦",
+        "canonical_name": "坎地沙坦",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "奥美沙坦",
+        "canonical_name": "奥美沙坦",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "替米沙坦",
+        "canonical_name": "替米沙坦",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "螺内酯",
+        "canonical_name": "螺内酯",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "恩格列净",
+        "canonical_name": "恩格列净",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "达格列净",
+        "canonical_name": "达格列净",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "卡格列净",
+        "canonical_name": "卡格列净",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Drug",
+        "name": "夫拉塞米",
+        "canonical_name": "夫拉塞米",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Drug",
+        "name": "托拉塞米",
+        "canonical_name": "托拉塞米",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Drug",
+        "name": "美托拉宗",
+        "canonical_name": "美托拉宗",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "氯噻酮",
+        "canonical_name": "氯噻酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Drug",
+        "name": "厄贝沙坦",
+        "canonical_name": "厄贝沙坦",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Indicator",
+        "name": "血压",
+        "canonical_name": "血压",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_24",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "尼福地平 Nifedipine",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "非洛地平 Felodipine",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "地尔硫卓 Diltiazem",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "维拉帕米 Verapamil",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "多沙唑嗪 Doxazosin",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "坎地沙坦 Candesartan",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "奥美沙坦 Olmesartan",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "替米沙坦 Telmisartan",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "螺内酯 Spironolactone",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "恩格列净 Empagliflozin",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "达格列净 Dapagliflozin",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "卡格列净 Canagliflozin",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "夫拉塞米 Furosemide",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_20",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "托拉塞米 Torsemide",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_21",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "美托拉宗 Metolazone",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_22",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "氯噻酮 Chlorthalidone",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      },
+      {
+        "id": "rel_23",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_23",
+        "properties": {
+          "source": "逻辑医学",
+          "chunk_index": 2984,
+          "raw_text": "应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan",
+          "chunk_id": "2984",
+          "data": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 2984,
+    "source": "逻辑医学",
+    "text": "。辉瑞新药可降低拉贝洛尔的血药浓度，因此，辉瑞新药在与拉贝洛尔同用时，需要监测血压并根据血压的波动情况即使是调整药物。用辉瑞新药时，不能用的抗心绞痛药：雷诺嗪 Ranolarzine降压药与辉瑞新药可一同安全应用的降压药：氢氯噻嗪 Hydroflumethiazide点评：虽然安全，但这个药作为降压药而单独应用的情况比较少。应用辉瑞新药时，需要调整剂量或暂停用药的降压药：氨氯地平 Amlodipine点评：辉瑞新药，使氨氯地平浓度加倍也就是相当于剂量加倍。尼福地平 Nifedipine非洛地平 Felodipine地尔硫卓 Diltiazem维拉帕米 Verapamil多沙唑嗪 Doxazosin点评：对五大类降压药的集中表述不好，在下面的“心衰药物”部分，还要涉及其它降压药。心衰治疗药和部分降压药与辉瑞新药可一同安全应用的降压药：转换酶抑制剂（各种带“普利”两个字或者结尾带了“Pril”的药物）坎地沙坦 Candesartan奥美沙坦 Olmesartan替米沙坦 Telmisartan螺内酯 Spironolactone恩格列净 Empagliflozin达格列净 Dapagliflozin卡格列净 Canagliflozin夫拉塞米 Furosemide托拉塞米 Torsemide美托拉宗 Metolazone氯噻酮 Chlorthalidone点评：安全的药物比较多，其中不少也是降压药应用辉瑞新药时，需要调整剂量或暂停用药的降压药：厄贝沙坦 Irbesartan点评：辉瑞新药使厄贝沙坦的浓度降低，降压效果下降"
+  }
+]

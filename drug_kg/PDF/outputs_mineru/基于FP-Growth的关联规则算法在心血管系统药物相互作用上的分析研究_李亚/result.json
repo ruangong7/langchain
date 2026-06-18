@@ -1,0 +1,1116 @@
+[
+  {
+    "type": "text",
+    "text": "基于 FP－Growth 的关联规则算法在心血管系统药物相互作用上的分析研究",
+    "text_level": 1,
+    "bbox": [
+      183,
+      211,
+      811,
+      271
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "李 亚a ，王 弈a ，俞 磊a ，马 春a ，颜贵明b",
+    "bbox": [
+      273,
+      290,
+      717,
+      309
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "（安徽中医药大学 a．医药信息工程学院； b．中西医结合学院，合肥 230012）",
+    "bbox": [
+      253,
+      313,
+      736,
+      328
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘 要：心血管疾病是临床上较为常见与多发的一种疾病 联合用药是该类疾病常见的临床治疗手段 针对联合用药不良事件的频繁出现问题 提出应用 算法对心血管系统药物间相互作用数据进行挖掘和分析 来探讨心血管系统药物中避免合用药物 谨慎合用药物及可以合用药物因素值间的联系 总结部分心血管系统药物之间的用药规律 为临床用药提供参考",
+    "bbox": [
+      157,
+      347,
+      833,
+      415
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词：数据挖掘 关联规则 药物相互作用 算法",
+    "bbox": [
+      188,
+      418,
+      584,
+      432
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号： ＋ 文献标志码：",
+    "bbox": [
+      189,
+      435,
+      514,
+      450
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Research and Analysis of Association Rules Algorithm on Drug Interaction in Cardiovascular System Based on FP Growth",
+    "text_level": 1,
+    "bbox": [
+      166,
+      467,
+      828,
+      510
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "LI Yaa ， WANG Yia ， YU Leia ， MA Chuna ， YAN Gui⁃mingb",
+    "bbox": [
+      245,
+      527,
+      744,
+      545
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "（ a． School of Medical Information Engineering； b． School of Integrated Traditional and Western Medicine， Anhui University of Chinese Medicine， Hefei 230012， China）",
+    "bbox": [
+      168,
+      548,
+      820,
+      579
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Abstract： Cardiovascular disease is a common and multiple disease in clinic． The combination of drugs is a common clinical treatment for this kind of disease． In this paper， in view of the frequent occurrence of adverse events in combination medication， FP growth algorithm is proposed to mine and analyze the data of drug－drug interaction in cardiovascular system， so as to explore the relationship between avoiding drug combination，cautious drug combination and the value of drug factors that can be used in combination in cardiovascular system drugs， and the rules of drug use among some cardiovascular system drugs are summarized， which can provide references for clinical drug use．",
+    "bbox": [
+      156,
+      600,
+      835,
+      745
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Key words： data mining； association rules； drug interactions； FP growth algorithm",
+    "bbox": [
+      157,
+      750,
+      759,
+      764
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "第 卷第 期",
+    "bbox": [
+      107,
+      105,
+      231,
+      119
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "年 月",
+    "bbox": [
+      117,
+      124,
+      216,
+      138
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "西安文理学院学报（自然科学版）",
+    "bbox": [
+      369,
+      105,
+      620,
+      119
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Journal of Xi’an University（Natural Science Edition）",
+    "bbox": [
+      302,
+      124,
+      687,
+      138
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Vol.23No.2",
+    "bbox": [
+      776,
+      105,
+      885,
+      119
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Apr?? 2020",
+    "bbox": [
+      794,
+      124,
+      868,
+      138
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "文章编号：1008⁃5564（2020）02⁃0048⁃06",
+    "bbox": [
+      105,
+      154,
+      359,
+      168
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "收稿日期：",
+    "bbox": [
+      134,
+      802,
+      289,
+      815
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "基金项目：安徽省高校自然科学研究重点项目 安徽高校自然科学研究项目 安徽省高校省级人文社科研究重点项目 安徽省高等学校省级质量工程项目安徽中医药大学 年度课程思政教学改革试点项目 课程序号 软件工程",
+    "bbox": [
+      136,
+      819,
+      885,
+      865
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "作者简介：李 亚 女 山东成武人 安徽中医药大学医药信息工程学院讲师 硕士 主要从事大数据 医药信息化研究",
+    "bbox": [
+      136,
+      866,
+      885,
+      897
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "颜贵明 男 安徽黟县人 安徽中医药大学中西医结合学院教授 硕士 主要从事药理学研究",
+    "bbox": [
+      205,
+      899,
+      858,
+      913
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "心血管疾病是临床上常见与多发的一种疾病 随着我国人口老龄化现象日趋严重以及居民生活习惯的变化 心血管疾病的发生率逐年上升［1］ 联合用药是治疗心血管疾病过程中较为常见的临床治疗手段 能够有效提高患者的临床治疗效果 但如果用药不合理也会产生系列不良反应 因此 对心血管疾病联合用药进行研究具有重要的指导意义和现实意义",
+    "bbox": [
+      107,
+      105,
+      890,
+      175
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "本文运用基于关联规则的 － 算法 利用相关书籍［2－3］中的心血管系统药物数据 来探讨心血管系统药物之间相互作用规律 为临床合理用药提供参考",
+    "bbox": [
+      107,
+      178,
+      889,
+      212
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 相关概念",
+    "text_level": 2,
+    "bbox": [
+      109,
+      223,
+      243,
+      241
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "药物相互作用",
+    "text_level": 2,
+    "bbox": [
+      109,
+      252,
+      260,
+      266
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "药物相互作用是指 种或 种以上的药物同时或在一个时间段内联合使用 其中一种药物发挥作用的疗效因为另外一种药物的存在而发生显著变化的现象 表现为药物疗效的增加 减弱或者是副作用的出现等 比如 单胺氧化酶抑制剂与哌替啶 瑞芬太尼 吗啡等镇痛药合用时 可通过抑制肝药酶系统阻止它们的代谢灭活 导致患者出现严重的低血压 高热 惊厥 呼吸抑制及休克等症状［4］",
+    "bbox": [
+      107,
+      270,
+      890,
+      340
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "数据挖掘",
+    "text_level": 2,
+    "bbox": [
+      110,
+      345,
+      226,
+      359
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "数据挖掘是一种从海量的数据中通过相关算法来智能地挖掘隐藏于其中有价值信息的过程 包括对数据进行处理和算法分析 最终以知识表示技术或可视化技术更直观的向用户展现结果［5－6］",
+    "bbox": [
+      107,
+      363,
+      889,
+      397
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 FP－Growth 算法介绍",
+    "text_level": 2,
+    "bbox": [
+      107,
+      408,
+      356,
+      425
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "通过对数据进行关联规则挖掘 来发现数据项之间潜在的关联 数据挖掘技术在当前医药学领域中的应用十分广泛 将数据挖掘中的关联规则应用到心血管系统药物相互作用分析中 可以促进合理用药 本文在具体的分析中利用 － 算法 对心血管系统药物间联合使用存在的关联规则进行有效挖掘．",
+    "bbox": [
+      107,
+      435,
+      889,
+      507
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "算法采用的是树的存储结构 在查找频繁项集的过程中不产生候选集 对数据库只进行两次扫描 就可以将数据压缩到 中 前缀相同的话则路径也相同 从而达到了数据压缩的效果［7］",
+    "bbox": [
+      107,
+      510,
+      889,
+      562
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "该算法的具体流程如下",
+    "bbox": [
+      144,
+      566,
+      332,
+      580
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "频繁项列表 的获取",
+    "text_level": 2,
+    "bbox": [
+      144,
+      584,
+      366,
+      599
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "遍历事务数据库 对事务数据库中全部数据项的频数进行统计 将不满足最小支持度的数据项进行删除 并按递减的方式对数据项进行排序 获取频繁项列表",
+    "bbox": [
+      107,
+      603,
+      889,
+      636
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "－ 的创建",
+    "text_level": 2,
+    "bbox": [
+      144,
+      640,
+      295,
+      654
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "以 为根节点创建 按照 将排好序的事务插入到 中 并对该节点数目进行记录 列表中对应记录数据项在 中第一次出现的节点",
+    "bbox": [
+      107,
+      657,
+      889,
+      691
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "(3)FP-tree的挖掘",
+    "text_level": 2,
+    "bbox": [
+      144,
+      695,
+      294,
+      709
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "以 α 为后缀模式 初始值设为 调用该算法进行 的挖掘 若 为单分支 就将该分支上小于最小支持度计数的节点进行删除处理；以 β 为前缀模式，由分支上剩余节点组成， α 与 β 取并可以得到全部对应的频繁项集 否则 就增长 α α ＝α { i} 其中 i为 最后一项 也是支持度计数最小的一项 最后构造 α 的条件模式基与条件 － 再重新调用该算法进行该条件 － 的挖掘［8］ 算法流程图如图 所示",
+    "bbox": [
+      107,
+      713,
+      890,
+      802
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "第 期 李亚，等基于 － 的关联规则算法在心血管系统药物相互作用上的分析研究",
+    "bbox": [
+      110,
+      72,
+      798,
+      87
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "49",
+    "bbox": [
+      858,
+      74,
+      880,
+      85
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      978
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "image",
+    "img_path": "images/8cc98a8d678091d39694bffc6bcfea90a02386d2a4dc9fa54f78e9495d4b7308.jpg",
+    "image_caption": [
+      "图 － 算法流程图"
+    ],
+    "image_footnote": [],
+    "content": "```mermaid\ngraph TD\n  A[\"开始\"] --> B[\"输入事务数据库T\"]\n  B --> C[\"进行遍历，获得频繁项列表FList\"]\n  C --> D[\"根据Flist对局部事务集排序\"]\n  D --> E{读取局部事务集Tj，数据项Ii >α支持度计数}\n  E -->|否| F[\"删除此数据项\"]\n  F --> G[\"创建FP-tree，根节点null，调用插入一条事务的方法insertTree(tk null)\"]\n  G --> H[\"对FP-tree进行挖掘，获得局部频繁项集，并进行合并\"]\n  H --> I{Count(频繁项集)< 支持度计数or频繁项集<置信度}\n  I -->|是| J[\"移除此频繁项集\"]\n  I -->|否| K[\"合并满足上述条件的频繁项集，得到全局频繁项集\"]\n  J --> L[\"结束\"]\n```",
+    "sub_type": "flowchart",
+    "bbox": [
+      112,
+      104,
+      878,
+      385
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3 实验步骤",
+    "text_level": 2,
+    "bbox": [
+      105,
+      425,
+      240,
+      442
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "数据准备与处理",
+    "text_level": 2,
+    "bbox": [
+      105,
+      454,
+      275,
+      469
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "通过对数据进行处理 可以改善数据质量 从而利于后续数据挖掘工作的进行 进而能够提高数据挖掘的准确度和性能 本文主要对 药物临床信息参考 ［2］和 药物相互作用基础与临床 ［3］两本书中共计 种心血管系统药物数据进行处理",
+    "bbox": [
+      104,
+      473,
+      887,
+      526
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "数据挖掘",
+    "text_level": 2,
+    "bbox": [
+      105,
+      530,
+      221,
+      543
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "通过对以上心血管系统药物数据进行集成 并对集成后的数据进行规范清理 建立包含药物名称避免合用药物 谨慎合用药物 及可以合用药物 四个属性的药物事务数据库表 如表 所示",
+    "bbox": [
+      104,
+      548,
+      885,
+      583
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/468893d0d948f8646123ba618d63300de3250f3e37697b0c07f0cc451a8613a2.jpg",
+    "table_caption": [
+      "表 心血管系统药物事务数据库表"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药物名称</td><td>A(避免合用药物)</td><td>P(谨慎合用药物)</td><td>C(可以合用药物)</td></tr><tr><td>胺碘酮</td><td>辛伐他汀、索他洛尔、普萘洛尔、乐卡地平......</td><td>瑞舒伐他汀、地高辛、美托洛尔、奎尼丁、维拉帕米、考来烯胺......</td><td>普伐他汀、卡维地洛、美西律、腺苷、吲达帕胺、地尔硫卓......</td></tr><tr><td>维拉帕米</td><td>辛伐他汀、可乐定、艾司洛尔、辛伐他汀......</td><td>奎尼丁、地高辛、胺碘酮、普罗帕酮、阿替洛尔......</td><td>阿托伐他汀、普伐他汀......</td></tr><tr><td>肾上腺素</td><td>普萘洛尔、喷布洛尔、塞利洛尔......</td><td>利舍平、妥拉唑林、雷米普利......</td><td>硝酸异山梨酯、甲基多巴、硝酸甘油......</td></tr><tr><td>地尔硫卓</td><td>洛伐他汀、索他洛尔、吲哚洛尔......</td><td>阿托伐他汀、莫雷西嗪、奎尼丁、硝苯地平、辛伐他汀......</td><td>普萘洛尔、普伐他汀、氢氯噻嗪、胺碘酮、美西律、硝苯地平......</td></tr><tr><td>......</td><td>......</td><td>......</td><td>......</td></tr></table>",
+    "bbox": [
+      107,
+      602,
+      885,
+      821
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "应用 FP－Growth 算法进行数据挖掘时，最小支持度（Support）和置信度（Confidence） 阈值的设置是决定能否获取有价值关联规则数量的关键 为了增强规则的有用性与确定性 通过多次实验 本文将最小置信度最终设为 避免合用药物 谨慎合用药物的最小支持度都设为 而可以合用药物最小支持度设为 利用 算法得到的避免合用 谨慎合用 可以合用药物组合频繁项集 分别如表 表 表 所示",
+    "bbox": [
+      102,
+      823,
+      887,
+      913
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "50",
+    "bbox": [
+      115,
+      74,
+      137,
+      85
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "西安文理学院学报（自然科学版）",
+    "bbox": [
+      359,
+      72,
+      610,
+      87
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "第 23 卷",
+    "bbox": [
+      821,
+      72,
+      882,
+      86
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/412b937c42d9961220be3f1aef2341903cfce728a27aa221550c55145d45c058.jpg",
+    "table_caption": [
+      "表 2 避免合用药物的频繁项集集（ Support≥0． 100）"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药物名称</td><td>Support</td><td>药物名称</td><td>Support</td></tr><tr><td>胺碘酮</td><td>0.276</td><td>维拉帕米</td><td>0.241</td></tr><tr><td>肾上腺素</td><td>0.241</td><td>奎尼丁</td><td>0.138</td></tr><tr><td>地尔硫卓</td><td>0.138</td><td>甲基多巴</td><td>0.138</td></tr><tr><td>辛伐他汀</td><td>0.103</td><td>利舍平</td><td>0.103</td></tr><tr><td>去氧肾上腺素</td><td>0.103</td><td>可乐定</td><td>0.103</td></tr><tr><td>胺碘酮、维拉帕米</td><td>0.222</td><td>胺碘酮、肾上腺素</td><td>0.222</td></tr><tr><td>维拉帕米、肾上腺素</td><td>0.333</td><td>维拉帕米、地尔硫卓</td><td>0.111</td></tr></table>",
+    "bbox": [
+      110,
+      122,
+      890,
+      323
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/677fe51c2820febaf94472d88ef2c2066fbb5f41a7cee4bedddac6a3b2187687.jpg",
+    "table_caption": [
+      "表 3 谨慎合用药物及药物组合的频繁项集（ Support≥0． 100）"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药物名称</td><td>Support</td><td>药物名称</td><td>Support</td></tr><tr><td>地高辛</td><td>0.359</td><td>地尔硫卓</td><td>0.141</td></tr><tr><td>胺碘酮</td><td>0.25</td><td>奎尼丁</td><td>0.109</td></tr><tr><td>莫索尼定</td><td>0.156</td><td>利舍平</td><td>0.109</td></tr><tr><td>可乐定</td><td>0.156</td><td>地高辛、胺碘酮</td><td>0.167</td></tr><tr><td>地高辛、莫索尼定</td><td>0.167</td><td>可乐定、莫索尼定</td><td>0.429</td></tr><tr><td>地高辛、可乐定</td><td>0.381</td><td></td><td></td></tr></table>",
+    "bbox": [
+      110,
+      344,
+      890,
+      522
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/f7dcd842c6a677e3883441d809126ac4f53d95b02da610fc3ed9d745d4117933.jpg",
+    "table_caption": [
+      "表 4 可以合用药物及药物组合的频繁项集（ Support≥0． 700）"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药物名称</td><td>Support</td><td>药物名称</td><td>Support</td></tr><tr><td>地高辛</td><td>0.385</td><td>普萘洛尔</td><td>0.138</td></tr><tr><td>地尔硫卓</td><td>0.138</td><td>奎尼丁</td><td>0.077</td></tr><tr><td>氢氯噻嗪</td><td>0.138</td><td>辛伐他汀</td><td>0.108</td></tr><tr><td>维拉帕米</td><td>0.108</td><td>硝酸甘油</td><td>0.092</td></tr><tr><td>胺碘酮</td><td>0.092</td><td>阿司匹林</td><td>0.092</td></tr><tr><td>0.077</td><td>氨氯地平</td><td>0.077</td><td>甲基多巴</td></tr><tr><td>去甲肾上腺素</td><td>0.077</td><td>肾上腺素</td><td>0.092</td></tr><tr><td>去氧肾上腺素</td><td>0.077</td><td>非诺贝特</td><td>0.077</td></tr><tr><td>硝苯地平</td><td>0.108</td><td>地高辛、氢氯噻嗪</td><td>0.187</td></tr><tr><td>地高辛、辛伐他汀</td><td>0.313</td><td>地高辛、非诺贝特</td><td>0.25</td></tr><tr><td>去甲肾上腺素、肾上腺素</td><td>0.312</td><td></td><td></td></tr></table>",
+    "bbox": [
+      110,
+      542,
+      890,
+      845
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "实验结果的分析",
+    "text_level": 2,
+    "bbox": [
+      109,
+      847,
+      278,
+      863
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "利用 算法获取心血管系统药物间的关联规则 根据最小置信度 选出计算出的置信度数值大于最小置信度的强关联规则 进行分析 从而总结出存在的规律",
+    "bbox": [
+      107,
+      866,
+      889,
+      900
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "第 期 李亚，等基于 － 的关联规则算法在心血管系统药物相互作用上的分析研究",
+    "bbox": [
+      110,
+      72,
+      800,
+      87
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "",
+    "bbox": [
+      860,
+      74,
+      878,
+      86
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/fde50de8d213ab6a595d9cb7ab24cf667b3abc91c9b72259552c1dadbe78de97.jpg",
+    "table_caption": [
+      "表 部分药物间的关联规则"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>序号</td><td>相互作用类型</td><td>关联药物</td><td>置信度</td></tr><tr><td>1</td><td>避免合用</td><td>地尔硫卓——&gt;维拉帕米</td><td>0.765</td></tr><tr><td>2</td><td>避免合用</td><td>维拉帕米——&gt;地尔硫卓</td><td>0.472</td></tr><tr><td>3</td><td>避免合用</td><td>胺碘酮——&gt;肾上腺素</td><td>0.536</td></tr><tr><td>4</td><td>谨慎合用</td><td>胺碘酮——&gt;地高辛</td><td>0.522</td></tr><tr><td>5</td><td>谨慎合用</td><td>可乐定——&gt;地高辛+莫索尼定</td><td>0.911</td></tr><tr><td>6</td><td>谨慎合用</td><td>地高辛+可乐定——&gt;莫索尼定</td><td>1</td></tr><tr><td>7</td><td>可以合用</td><td>辛伐他汀——&gt;地高辛</td><td>0.724</td></tr><tr><td>8</td><td>可以合用</td><td>非诺贝特——&gt;地高辛</td><td>1</td></tr><tr><td>9</td><td>可以合用</td><td>去甲肾上腺素——&gt;肾上腺素</td><td>0.842</td></tr></table>",
+    "bbox": [
+      107,
+      122,
+      885,
+      339
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "从表 可以看出 根据避免合用药物生成规则 需要与地尔硫卓避免合用的心血管系统药物有也需要与维拉帕米避免合用",
+    "bbox": [
+      104,
+      342,
+      882,
+      376
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "地尔硫卓＝ ＝ 维拉帕米",
+    "bbox": [
+      139,
+      378,
+      379,
+      393
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "这条规则的置信度为 意味着在治疗心血管疾病时 这两种药物避免合用的概率比较大 如果有一种心血管系统药物需要与地尔硫卓避免合用的话 此种药物与维拉帕米避免合用的概率为76.52%.",
+    "bbox": [
+      104,
+      397,
+      885,
+      448
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "维拉帕米 地尔硫卓",
+    "bbox": [
+      139,
+      452,
+      376,
+      467
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "这条规则的置信度为 意味着当有一种心血管系统药物与维拉帕米避免合用时 此种药物需与地尔硫卓避免合用的概率为 说明与维拉帕米相比 地尔硫卓与心血管系统药物出现冲突的可能性更小 两种药物临床应用上都是心血管系统药物 所以在联合用药且必须用到其中一种时 地尔硫卓是首选．",
+    "bbox": [
+      104,
+      471,
+      885,
+      542
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "根据谨慎合用药物生成规则 需要与胺碘酮谨慎合用的心血管系统药物有 也需要与地高辛谨慎合用",
+    "bbox": [
+      104,
+      545,
+      882,
+      578
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "即 胺碘酮＝ ＝ 地高辛",
+    "bbox": [
+      141,
+      581,
+      361,
+      596
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "由可以合用药物生成规则可知 可以与辛伐他汀合用的心血管系统药物有 也可以与地高辛合用．",
+    "bbox": [
+      104,
+      600,
+      882,
+      633
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "辛伐他汀 ＝》地高辛 0．724",
+    "bbox": [
+      139,
+      637,
+      344,
+      652
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "这条规则的置信度为 意味着如果一种心血管系统药物可以与辛伐他汀合用 此种药物同时与地高辛可以合用的概率为",
+    "bbox": [
+      105,
+      655,
+      882,
+      688
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "4 结语",
+    "text_level": 2,
+    "bbox": [
+      105,
+      700,
+      191,
+      718
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "通过运用 算法对心血管系统药物相互作用进行数据挖掘 得出避免合用 谨慎合用及可以合用药物间的关联规则 并以此来发现该类药物之间相互作用的特点和规律 以胺碘酮这种心血管系统药物为例 从实验数据可知 胺碘酮在避免合用 谨慎使用这两种心血管系统药物相互作用中出现的频率很高 而在临床上 胺碘酮是较为常见的抗心律失常药 但因毒副作用复杂 使用时需密切注意利用关联规则获得的数据计算结果也符合该种药品的临床用药习惯［9］．故运用 FP－Growth 算法对心血管系统药物的相互作用进行关联规则挖掘是可行的 通过对最小置信度和支持度阈值进行设置 挖掘出数据间的关联规则 来探讨避免合用药物 谨慎使用药物及可以合用药物因素值间的联系 总结部分心血管系统药物之间的用药规律 来促进心血管系统药物的合理用药和用药安全 同时也给临床用药决策提供参考",
+    "bbox": [
+      104,
+      729,
+      885,
+      891
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "52",
+    "bbox": [
+      115,
+      74,
+      137,
+      86
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "西安文理学院学报（自然科学版）",
+    "bbox": [
+      359,
+      72,
+      610,
+      87
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "第 23 卷",
+    "bbox": [
+      821,
+      72,
+      882,
+      86
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      979
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "［参 考 文 献］",
+    "text_level": 2,
+    "bbox": [
+      435,
+      114,
+      563,
+      129
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "［1］ 许梅林．浅析心血管疾病患者常见的临床用药问题［J］．当代医药论丛，2018（20）：150－ 151．",
+      "四川美康医药软件研究开发有限公司 药物临床信息参考 成都 四川科学技术出版社",
+      "刘治军 韩红蕾 药物相互作用基础与临床 版 北京 人民卫生出版社",
+      "［4］ 陈璐琳，高向波．某儿童医院单胺氧化酶抑制剂使用情况及与其他药物相互作用调查［J］． 儿科药学杂志 2019，25(8):32-35.",
+      "［5］ 柯清超． 大数据与智慧教育［J］． 中国教育信息化，2013（24）： 8－11．",
+      "［6］ JAGADISH H，GEHRKE J，LABRINIDIS A，et al． Big data and its technical challenges［M］．Communications of the ACM， 2014,57(7):86-94.[doi:10.1145/2611567].",
+      "［7］ 杜梦欣．基于 FP－Growth 的关联规则算法研究及其在高校教育大数据中的应用［D］．长春：吉林大学，2019．",
+      "［8］ 王殿君，邵宗凯．FP－Growth 算法在药物相互作用系统中的应用［J］． 武汉工程大学学报，2015，10（10）：57－60．",
+      "［9］ 王增良，李芸．比较分析胺碘酮、普罗帕酮治疗心律失常有效性、安全性［J］． 中西医结合心血管病电子杂志，2019，6（18）： 70－70．"
+    ],
+    "bbox": [
+      107,
+      138,
+      894,
+      342
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "［责任编辑 王新奇］",
+    "bbox": [
+      705,
+      359,
+      870,
+      375
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "（上接第 页）",
+    "bbox": [
+      110,
+      414,
+      231,
+      429
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "利用 地图查看所在地区的地形等高线值 得出 软件转换 格式后文件的属性 数据是错误的 而用 软件转换 格式后文件的属性 数据是正确的",
+    "bbox": [
+      107,
+      451,
+      889,
+      485
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "3 转换过程应注意的问题",
+    "text_level": 2,
+    "bbox": [
+      107,
+      495,
+      384,
+      514
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "无论是使用 还是 软件对 格式文件进行转换 必须要对该软件熟悉 且熟练掌握其转换过程 特别要熟悉 软件的各个模块作用 同时 在使用 或 软件对 格式的文件转换时 一定要对其转换后的文件属性进行查看分析",
+      "对 格式文件转换后的文件属性内容要进行查看 若对其属性持有怀疑的 一定要结合研究区的地形 地理信息等相关资料进行综合分析研究 应选择属性质量高的转换文件"
+    ],
+    "bbox": [
+      107,
+      524,
+      889,
+      614
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "4 结语",
+    "text_level": 2,
+    "bbox": [
+      107,
+      625,
+      196,
+      643
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "通过以上对比分析结果表明 软件对文件 格式转换后的属性是正确的 同时说明在工作中 为确保 格式文件转换后质量的可靠性 地球物理工作者应将同一格式的文件进行不同的方法转换，并对其属性内容进行一一对比分析，然后结合研究区的地理信息特征等相关研究资料，选择符合其实际情况的 格式文件转换方法 这样才能保证后续研究工作的准确性 才能够真实地反映研究区的异常特征 进而决定是否对其进行深入的开发和利用",
+    "bbox": [
+      107,
+      654,
+      889,
+      743
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "［参 考 文 献］",
+    "text_level": 2,
+    "bbox": [
+      435,
+      756,
+      561,
+      770
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "［1］ 吴信才．Mapgis 地理信息系统［M］．北京：中国工业出版社，2004．",
+      "武汉中地信息工程有限公司 地理信息系统实用教程 北京 电子工业出版社",
+      "汤国安 杨昕 地理信息系统空间分析实验教程 版 北京 科学出版社"
+    ],
+    "bbox": [
+      107,
+      782,
+      764,
+      831
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "［责任编辑 仲 圆］",
+    "bbox": [
+      705,
+      850,
+      870,
+      866
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "第 期 李亚，等基于 － 的关联规则算法在心血管系统药物相互作用上的分析研究",
+    "bbox": [
+      110,
+      72,
+      800,
+      87
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "53",
+    "bbox": [
+      858,
+      74,
+      880,
+      86
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 5
+  }
+]

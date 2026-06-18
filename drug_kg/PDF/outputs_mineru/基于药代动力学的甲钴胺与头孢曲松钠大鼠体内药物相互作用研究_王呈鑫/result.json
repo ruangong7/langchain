@@ -1,0 +1,1737 @@
+[
+  {
+    "type": "text",
+    "text": "基于药代动力学的甲钴胺与头孢曲松钠大鼠体内药物相互作用研究",
+    "text_level": 1,
+    "bbox": [
+      243,
+      115,
+      752,
+      164
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "王呈鑫，朱莉莉，曹丽娟\\*",
+    "bbox": [
+      378,
+      190,
+      620,
+      210
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "（中国药科大学多靶标天然药物全国重点实验室,南京210009）",
+    "bbox": [
+      297,
+      226,
+      697,
+      242
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘 要 本研究建立大鼠血浆中甲钴胺及头孢曲松钠 LC-MS/MS定量检测方法，通过该方法评估两药在大鼠体内的药代动力学行为，进而评判二者是否存在基于药代动力学的药物相互作用。实验以甲醇作为蛋白沉淀剂处理大鼠血浆样本，甲钴胺定量分析的流动相由 0.1%甲酸乙腈与 0.1%甲酸和 2 mmol/L乙酸铵水溶液组成；头孢曲松钠则为 0.1%甲酸乙腈和 1%甲酸水溶液。基于正离子模式，分别建立两药的 LC-MS/MS定量分析方法，并开展全面的方法学考证。选用健康 SD大鼠进行药代动力学研究，经尾静脉注射进行单次单独给药与单次联合给药实验。甲钴胺的给药剂量梯度设为 0.03、0.1和0.3 mg/kg，头孢曲松钠的给药剂量设为 90 mg/kg。方法学验证结果表明，甲钴胺在 3\\~3000 ng/mL范围内线性关系良好(r=0.999 1) ，头孢曲松钠在 0.5\\~500 μg/mL范围内线性关系优异 (r=1) ，两种药物分析方法的选择性、精密度、准确度、提取回收率、基质效应和稳定性均符合生物分析方法验证要求。药代动力学研究显示，与单次单独给药相比，单次联合给药时两药的平均药时曲线重合，主要药代动力学参数（如 $t _ { 1 / 2 } , \\mathrm { A U C _ { 0 - } }$ ∞等）经单因素方差分析无显著性差异（P＞0.05）。研究证实，甲钴胺与头孢曲松钠的联合使用时，在大鼠体内不存在基于药代动力学的药物相互作用，本研究为临床两药的联用提供了可靠的药代动力学依据。",
+    "bbox": [
+      97,
+      260,
+      897,
+      458
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词 甲钴胺；头孢曲松钠；药代动力学；药物相互作用；LC-MS/MS",
+    "bbox": [
+      99,
+      462,
+      547,
+      475
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号 R965 文献标志码 A 文章编号 1000−5048(2025)04−0460−09",
+    "bbox": [
+      100,
+      480,
+      680,
+      495
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "doi：10.11665/j.issn.1000−5048.2025022101",
+    "bbox": [
+      416,
+      499,
+      685,
+      513
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "引用本文 王呈鑫，朱莉莉，曹丽娟. 基于药代动力学的甲钴胺与头孢曲松钠大鼠体内药物相互作用研究 [J]. 中国药科大学学报，2025，56（4）：460 − 468.",
+    "bbox": [
+      107,
+      534,
+      880,
+      558
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Cite this article as: WANG Chengxin, ZHU Lili, CAO Lijuan. Research on the drug-drug interaction between mecobalamin and ceftriaxone in rats based on pharmacokinetics[J]. J China Pharm Univ, 2025, 56(4): 460 − 468.",
+    "bbox": [
+      107,
+      562,
+      880,
+      588
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Research on the drug-drug interaction between mecobalamin and ceftriaxone in rats based on pharmacokinetics",
+    "text_level": 1,
+    "bbox": [
+      97,
+      613,
+      897,
+      657
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "WANG Chengxin, ZHU Lili, CAO Lijuan\\*",
+    "bbox": [
+      99,
+      661,
+      403,
+      676
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "State Key Laboratory of Natural Medicines, China Pharmaceutical University, Nanjing 210009, China",
+    "bbox": [
+      97,
+      681,
+      717,
+      696
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Abstract LC-MS/MS methods for the quantitative determination of mecobalamin and ceftriaxone in rat plasma were established, and utilized to assess the pharmacokinetic behaviors of the two drugs in rats and to determine whether there were pharmacokinetics-based drug-drug interactions between them. Methanol was used as a protein precipitant to process rat plasma samples. For mecobalamin, acetonitrile containing 0.1% formic acid was used as the organic phase, while an aqueous solution of 0.1% formic acid and 2 mmol/L ammonium acetate served as the aqueous phase. For ceftriaxone, the organic phase was acetonitrile with 0.1% formic acid, and the aqueous phase was a 1% formic acid aqueous solution. LC-MS/MS quantitative analysis methods for both drugs were developed under the positive ion mode, followed by comprehensive methodological validation. Single-dose administration (either alone or in combination) was carried out via caudal vein injection. The dosing regimens were 0.03, 0.1, and 0.3 mg/kg for mecobalamin and 90 mg/kg for ceftriaxone. The results of methodological validation indicated that mecobalamin exhibited good linearity in the range of 3−3 000 ng/mL (r = 0.999 1), and ceftriaxone showed excellent linearity in the range of 0.5\\~500 μg/mL (r = 1). The selectivity, precision, accuracy, extraction recovery, matrix effect, and stability of the analytical methods for both substances met the relevant requirements. The pharmacokinetic study revealed that, compared with single-drug administration, the average plasma concentration-time profiles of the two drugs almost overlapped during single-dose combined administration. Statistical analysis, specifically one-way analysis of variance, demonstrated no significant differences in major pharmacokinetic parameters (t1/2, AUC0−∞, etc.) (P > 0.05). This study confirmed that no pharmacokinetic-based drug-drug interactions occurred when mecobalamin and ceftriaxone were co-administered in rats. The findings of this research offer a reliable pharmacokinetic foundation for the rational clinical co-use of these two drugs, thus providing valuable insights into optimizing therapeutic strategies.",
+    "bbox": [
+      97,
+      716,
+      899,
+      892
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "460",
+    "bbox": [
+      102,
+      73,
+      127,
+      84
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中國药科大学学报",
+    "bbox": [
+      431,
+      54,
+      564,
+      70
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Journal of China Pharmaceutical University 2025, 56(4): 460 − 468",
+    "bbox": [
+      267,
+      70,
+      729,
+      85
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "收稿日期 2025-02-21 \\* 通信作者 Tel：15950496613 E-mail：caolijuan0702@cpu.edu.cn",
+    "bbox": [
+      137,
+      905,
+      663,
+      921
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      321,
+      978
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      97,
+      102,
+      895,
+      273
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "Key words mecobalamin; ceftriaxone; pharmacokinetics; drug-drug interaction; LC-MS/MS",
+    "bbox": [
+      99,
+      276,
+      764,
+      292
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "肝功能衰竭，指多因素引起的严重肝脏损害，导致肝脏功能严重障碍或失代偿，在重症监护病房中高达 20%的患者会出现由各种病理因素引起的肝功能衰竭[1]。目前临床上缺乏对因治疗药物，只能通过人工肝或肝移植等手术方案进行治疗[2−3]。肝衰竭病理机制复杂多样，各类感染[4]、胆汁淤积[5]和药物性肝损伤[6] 等因素是诱发肝脏过度炎症反应、进而导致肝衰竭的主要原因，它们是不良结果和长期住院的强烈预测因素[2]。",
+    "bbox": [
+      99,
+      309,
+      485,
+      484
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "甲钴胺是一种内源性的辅酶 B12，几十年来已被广泛用于治疗高同型半胱氨酸血症、恶性贫血和周围神经病变[7]，其安全可靠且基本无副作用[8]；头孢曲松钠为第 3 代头孢菌素类抗生素，安全性较高[9]。课题组先前研究[10−11] 发现甲钴胺为 Gasdermin E(GSDME) 特异性抑制剂，头孢曲松钠为 Gasdermin D(GSDMD) 抑制药物。在小鼠 BMDMs 上，将甲钴胺与头孢曲松钠组合联用可强协同抑制脂多糖转染加脱氧胆酸诱导的巨噬细胞焦亡，此外，在胆管结扎加脂多糖诱导的复合型肝衰竭小鼠模型上，两药联用可通过口服和静脉注射两种给药途径协同改善小鼠血清肝衰竭病理和炎症指标。该组合药可以协同抑制细胞焦亡治疗急性肝衰竭、慢加急性肝衰竭、慢性肝衰竭以及感染合并肝衰竭。甲钴胺与头孢曲松钠的联用具有药效学协同治疗作用，但暂时不知两药是否具有药代动力学的药物相互作用。目前关于甲钴胺药代动力学的出版物数量有限，现有研究表明[12−13]，口服甲钴胺需与胃液中内因子结合后被回肠上皮细胞的 Cubilin蛋白识别摄取进入血液，血液中甲钴胺可与血浆球蛋白 TCⅡ结合，并以原型经尿液排泄。头孢曲松钠的药代动力学数据较为详尽，其血浆蛋白结合率可达 95%[14]，是头孢菌素类抗生素中高血浆蛋白结合率的代表；头孢曲松钠主要以原型经胆汁或尿液进行排泄[15]。头孢曲松钠具有高蛋白结合率，且两药均通过尿液进行排泄，两者进行联合用药时，有发生药代动力学相互作用的可能。",
+    "bbox": [
+      97,
+      489,
+      485,
+      924
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      509,
+      309,
+      895,
+      405
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "为研究甲钴胺与头孢曲松钠进行联用时是否存在基于药代动力学的药物相互作用，分别建立大鼠血浆中甲钴胺、头孢曲松钠定量检测的 LC-MS/MS方法并根据《生物分析方法验证及样品分析 M10》指南[16] 进行方法学验证，并运用此方法对两药在大鼠体内单独及联合用药的药代动力学行为进行评价，为临床联合用药提供参考。",
+    "bbox": [
+      509,
+      408,
+      895,
+      543
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 材 料",
+    "text_level": 2,
+    "bbox": [
+      510,
+      558,
+      594,
+      574
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.1 药品和试剂",
+    "text_level": 2,
+    "bbox": [
+      510,
+      589,
+      640,
+      603
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "甲钴胺、头孢曲松钠、氨甲蝶呤二钠盐、头孢克肟三水化物（上海麦克林生化科技有限公司）；甲酸、乙酸铵、肝素钠（上海阿拉丁生化科技股份有限公司）；色谱纯甲醇、乙腈（德国默克公司）；超纯水由纯水机当天制备。",
+    "bbox": [
+      509,
+      608,
+      895,
+      703
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.2 仪 器",
+    "text_level": 2,
+    "bbox": [
+      510,
+      708,
+      606,
+      722
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "Agilent 1290 Infinity Ⅱ 超高效液相色谱系统；Agilent 6470 Triple Qμad 三重四极杆液质谱仪，操作软件为 Mass Hunter B.08.00(安捷伦科技有限公司)；Practμm124-1CN 精密天平（德国赛多利斯公司）；Microfμge 20R 低温高速冷冻离心机（Beckman公司）；IQ7000 超纯水仪（德国默克公司）；QL-901混匀振荡器（海门市其林贝尔仪器制造有限公司）；移液枪（德国 Eppendorf 公司）。",
+    "bbox": [
+      509,
+      727,
+      895,
+      883
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.3 动 物",
+    "text_level": 2,
+    "bbox": [
+      510,
+      887,
+      606,
+      900
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "60 只 SPF 级 SD 大 鼠 ， 6\\~8 周 龄 ， 体 重 200\\~",
+    "bbox": [
+      547,
+      905,
+      895,
+      921
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "第 56 卷第 4 期",
+    "bbox": [
+      100,
+      71,
+      201,
+      85
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "王呈鑫，等：基于药代动力学的甲钴胺与头孢曲松钠大鼠体内药物相互作用研究",
+    "bbox": [
+      265,
+      71,
+      771,
+      85
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "",
+    "bbox": [
+      863,
+      74,
+      885,
+      84
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      319,
+      977
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "300 g，雌雄各半，动物购于北京维通利华实验动物技术有限公司，动物许可证号：SCXK(浙)2019-0001；实验动物接收后进行 1 周的适应性饲养，随后进行药代动力学研究。动物房的温度为 $2 0 { \\sim } 2 6 \\ ^ { \\circ } \\mathrm { C } ;$ ；湿度为 40%\\~70%；12 h光照黑暗交替；自由饮水和取食；动物实验开始前禁食 12 h。所有实验均符合中国药科大学动物伦理标准，伦理编号：2024-05-022。",
+    "bbox": [
+      97,
+      102,
+      485,
+      237
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2 方 法",
+    "text_level": 2,
+    "bbox": [
+      99,
+      250,
+      184,
+      265
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.1 溶液的配制",
+    "text_level": 2,
+    "bbox": [
+      99,
+      278,
+      231,
+      294
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "分别精密称取甲钴胺和头孢曲松钠对照品于1.5 mL离心管中，分别用 50%甲醇水溶液溶解得到质量浓度为 0.6 mg/mL 甲钴胺工作液及 10 mg/mL头孢曲松钠工作液。因两药见光易分解，须在避光条件下现配现用。",
+    "bbox": [
+      99,
+      298,
+      485,
+      394
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.2 色谱条件",
+    "text_level": 2,
+    "bbox": [
+      99,
+      397,
+      213,
+      412
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.2.1 甲钴胺定量分析色谱条件 色谱柱：AcquityUPLC BEH $\\mathrm { C } _ { 1 8 }$ (2.1 mm× 100 mm，1.7 μm)；流动相A：含 0.1% 甲酸& 2 mmol/L 乙酸铵的水溶液；流动相 B：含 0.1% 甲酸的乙腈溶液；进样体积： $1 0 \\mu \\mathrm { L } ;$ ；流速 ： 0.4 mL/min； 梯 度 洗 脱 ： 0\\~0.3 min 10%B; 0.3\\~2.0 min 10%\\~95%B; 2.0\\~3.0 min 95%B; 3.0\\~3.1 min95%\\~10%B; 3.1\\~3.5 min 10%B。",
+    "bbox": [
+      97,
+      416,
+      485,
+      548
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.2.2 头孢曲松钠定量分析色谱条件 色谱柱:Acquity UPLC BEH $\\mathrm { C } _ { 1 8 }$ (2.1 mm× 100 mm，1.7 μm)；流动相 $\\mathbf { A } { \\mathrm { : } }$ 含 1% 甲酸水溶液；流动相 B：含 0.1% 甲酸的乙腈溶液；进样体积： $1 0 ~ \\mu \\mathrm { L }$ ；流速：0.4 mL/min；梯度洗脱：0\\~0.3 min 10%B; 0.3\\~2.0 min 10%\\~95%B;2.0\\~3.0 min 95%B; 3.0\\~3.1 min 95%\\~10%B; 3.1\\~3.5 min 10%B。",
+    "bbox": [
+      97,
+      553,
+      485,
+      687
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.3 质谱条件",
+    "text_level": 2,
+    "bbox": [
+      99,
+      691,
+      213,
+      706
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "选用 AJS ESI离子源，源气参数如下：干燥气温度300℃；干燥气流速 $5 \\mathrm { L } / \\mathrm { m i n } ;$ 雾化气压力 45 psi$( 1 \\ \\mathrm { p s i } { = } 6 . 8 9 5 \\ \\mathrm { k P a } )$ ；鞘气温度 $3 0 0 ~ \\mathrm { { ^ { \\circ } C } ; }$ 鞘气流速 11 L/min；毛细管电压 3500 V；喷嘴电压 500 V。在正离子、MRM模式下检测,用于定量的离子对及相关质谱信息见表 1，其中氨甲蝶呤、头孢克肟分别作为甲钴胺、头孢曲松钠定量分析内标化合物。",
+    "bbox": [
+      97,
+      710,
+      485,
+      843
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.4 血浆样品前处理方法",
+    "text_level": 2,
+    "bbox": [
+      99,
+      848,
+      302,
+      863
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.4.1 甲钴胺定量分析前处理方法 移取血浆样品 $5 0 \\mu \\mathrm { L }$ 至 1.5 mL 离心管中，加入含内标（30 ng/mL的氨甲蝶呤）的甲醇溶液 $3 0 0 \\mu \\mathrm { I }$ 。将样品涡旋2min后，在 15000 r/min、4 ℃ 条件下离心 15 min，移取上清液 $1 0 0 ~ \\mu \\mathrm { L }$ 然后加入纯水 $1 0 0 ~ \\mu \\mathrm { L }$ 进行稀释，涡匀后转移至进样小瓶，交由LC-MS/MS分析。",
+    "bbox": [
+      97,
+      867,
+      485,
+      923
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/0ea3cff21ff2793109405b43044f99d235e2ee0117f126276d1c9053361d18ee.jpg",
+    "table_caption": [
+      "Table 1 Related parameters in MS analysis"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>Compd.</td><td>Precursor ion(m/z)</td><td>Daughter ion(m/z)</td><td>Fragmentor/V</td><td>Collision energy/V</td></tr><tr><td>Mecobalamin</td><td>672.9</td><td>665.4</td><td>100</td><td>18</td></tr><tr><td>Methotrexate (IS)</td><td>455.0</td><td>307.9</td><td>150</td><td>22</td></tr><tr><td>Ceftriaxone</td><td>555.0</td><td>396.0</td><td>60</td><td>10</td></tr><tr><td>Cefixime (IS)</td><td>453.9</td><td>285.0</td><td>120</td><td>18</td></tr></table>",
+    "bbox": [
+      510,
+      117,
+      897,
+      226
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      509,
+      240,
+      895,
+      296
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.4.2 头孢曲松钠定量分析前处理方法 移取血浆样品 $5 0 ~ \\mu \\mathrm { L }$ 至 1.5 mL离心管中，加入含内标（1μg/mL的头孢克肟）的甲醇溶液 $3 0 0 ~ \\mu \\mathrm { L }$ 。将样品涡旋 2 min 后，在 15000 r/min、 $4 ^ { \\circ } \\mathrm { C }$ 条件下离心 15 min，移取上清液 $1 0 0 ~ \\mu \\mathrm { L }$ 然后加入纯水 300 μL进行稀释，涡匀后转移至进样小瓶，交由 LC-MS/MS分析。",
+    "bbox": [
+      509,
+      299,
+      895,
+      413
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.5 背景扣除法",
+    "text_level": 2,
+    "bbox": [
+      510,
+      417,
+      640,
+      432
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "SD大鼠内源性甲钴胺的平均质量浓度为（0.88±0.40） ng/mL，浓度低且昼夜变异性低。因此本研究采取背景扣除法排除内源性甲钴胺的干扰，准确定量甲钴胺的血药浓度。",
+    "bbox": [
+      509,
+      436,
+      895,
+      511
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "对于甲钴胺定量方法建立与验证：在避光条件下，将给药前 0 min血浆样本各吸取 $2 0 ~ \\mu \\mathrm { L }$ 混匀后的血浆即为空白血浆。校正样本与质控样本由空白血浆制备，并在扣除空白血浆中内源性甲钴胺浓度后用于标准曲线的建立与质量控制。对于甲钴胺血浆样本的检测：同一大鼠来源的血浆样本，应扣除该鼠给药前 3个不同时间点血浆中内源性甲钴胺的平均浓度以排除内源性干扰。",
+    "bbox": [
+      509,
+      514,
+      895,
+      667
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.6 方法学考证",
+    "text_level": 2,
+    "bbox": [
+      510,
+      672,
+      642,
+      686
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.6.1 专属性和选择性　取 6份来源不同的 SD大鼠空白血浆 $5 0 ~ \\mu \\mathrm { L }$ ，按照“2.4”项分别加内标及不加内标处理后进样分析；取同样 6份来源不同的SD大鼠空白血浆 $4 5 ~ \\mu \\mathrm { L }$ ，分别加入标曲定量下限处的甲钴胺或头孢曲松钠工作液 5 $\\mu \\mathrm { L }$ ，振荡混匀后得到含甲钴胺质量浓度 3 ng/mL，头孢曲松钠质量浓度为 0.5 μg/mL 的加药血浆，同样按照“2.4”项分别加内标及不加内标处理后进样分析。",
+    "bbox": [
+      509,
+      691,
+      895,
+      843
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.6.2 定量下限 取若干份大鼠空白血浆 $4 5 ~ \\mu \\mathrm { L }$ ，加入工作液 5 μL，配制甲钴胺质量浓度为 3 ng/mL，头孢曲松钠质量浓度为 0.5 μg/mL的含药大鼠血浆，按“2.4” 项下方法处理后进样分析（n=6）。根据当日随行标准曲线回算各样品中物质浓度，并求算RSD 和 $\\mathrm { R E } _ { \\mathrm { \\Theta } }$ 。",
+    "bbox": [
+      509,
+      848,
+      895,
+      923
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "462",
+    "bbox": [
+      107,
+      73,
+      134,
+      84
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "学报 Journal of China Pharmaceutical University 2025, 56(4): 460 − 468",
+    "bbox": [
+      218,
+      66,
+      776,
+      84
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "第 56 卷",
+    "bbox": [
+      831,
+      70,
+      887,
+      84
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      321,
+      978
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      99,
+      101,
+      485,
+      137
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2.6.3 标准曲线　取“2.1”项下的工作液母液，用50%甲醇水溶液逐级稀释配制系列工作液。以空白 SD大鼠的血浆作为基质，按如下方法配制标准曲线（n=3）：取空白基质 45 μL若干份，依次分别加入工作液 5 μL，涡旋 30 s混匀，可得到甲钴胺质量浓度为 3000，2700，1500，300，60，12，6，3 ng/mL，头孢曲松钠质量浓度为 500，450，250，50，10，2，1，0.5 μg/mL 的系列含药血浆样本，按照“2.4”项的前处理方法分别处理样品后进样分析。以所测生物样品中的待测物质和内标峰面积比为 $A _ { \\mathrm { s } } / A _ { \\mathrm { i s } }$ 为纵坐标，待测物质的浓度 $C _ { \\mathrm { s } }$ 为横坐标，以 1/X 为权重系数进行线性回归，得到待测物质的标准曲线方程。2.6.4 精密度和准确度 取若干份大鼠空白血浆45 μL，加入工作液 5 μL，配制甲钴胺质量浓度为 3，9，120，2400 ng/mL，头孢曲松钠质量浓度为 0.5，1.5，30，400 μg/mL 的含药血浆，平行 6 份，按“2.4”项下方法分别处理后进样分析，连续测定 3个分析批，每个分析批间隔大于 24 h，根据每批随行血浆样品的标准曲线计算样本中的物质浓度，求算批间、批内准确度和批间、批内精密度。",
+    "bbox": [
+      97,
+      141,
+      485,
+      530
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2.6.5 基质效应和提取回收率　取 6份不同来源的大鼠空白血浆，每份血浆按如下 3种方式进行处置：第 1种处置方式，取若干份大鼠空白血浆 45 μL，分别加入工作液 5 μL，振荡混匀，配制成甲钴胺血浆终浓度分别为 9，120，2400 ng/mL，头孢曲松钠血浆终浓度为 1.5，30，400 μg/mL 的含药血浆样本，按“2.4”项下处理后进样分析。第 2种处置方式，先以含内标的甲醇溶液对大鼠空白血浆进行沉淀蛋白处理后，再加入工作液，振荡混匀，随后按“2.4”项下方法离心、稀释处理后进样分析；第 3种处置方式，用等量超纯水代替大鼠空白血浆，依前述第 1种处置方式，平行操作并进样分析。进样后第 1种处置方式的样品平均峰面积与第 2种处置方式的样品平均峰面积相比，结果即为大鼠血浆中该物质的提取回收率；将第 2种处置方式的样品平均峰面积与第 3种处置方法进样后的样品平均峰面积相比，得到大鼠血浆中 2种物质的基质效应因子。同时还考察了基质因子的变异系数：用第 2种处置方式的样品和内标物质峰面积与第 3种处置方式的样品和内标峰面积做比，计算 2种样品和内标物质的基质因子，然后用 2种样品的基质因子与各自的内标基质因子相比，得到经内标归一化后的基质因子。",
+    "bbox": [
+      97,
+      532,
+      485,
+      924
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      509,
+      101,
+      895,
+      138
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2.6.6 稳定性 取若干份大鼠空白血浆 45 μL， 加入工作液 5 μL，振荡混匀配制成质量浓度Ⅰ（甲钴胺浓度为 9 ng/mL、头孢曲松钠浓度为 1.5 μg/mL）和浓度Ⅱ（甲钴胺浓度为 2400 ng/mL、头孢曲松钠浓度为 400 μg/mL）的含药血浆，分为 4组，每组平行 3份，将制备样品分别按照不同处置方法进行处置：包括在室温下放置4h、进样盘中（4℃）放置24h、−20 ℃ 冻存 14 d、低温冷冻（−20 ℃）—解冻（37 ℃）3次循环，处置后血浆样本按“2.4”项下方法处理后进样分析，根据当日随行标准曲线对甲钴胺和头孢曲松钠的含量进行回算。",
+    "bbox": [
+      509,
+      141,
+      899,
+      354
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2.7 单次给药后的药代动力学研究",
+    "text_level": 2,
+    "bbox": [
+      510,
+      356,
+      781,
+      372
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2.7.1 给药溶液配制 精密称取甲钴胺，用生理盐水溶解，配制成质量浓度分别为 0.03、0.1、0.3mg/mL的甲钴胺注射液。精密称取头孢曲松钠，用生理盐水溶解，配制成质量浓度为 30 mg/mL的头孢曲松钠注射液。所有样品现配现用，且所有样品在配制处理过程应避光操作。",
+    "bbox": [
+      509,
+      376,
+      895,
+      491
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2.7.2 实验方案 采用单剂量单周期给药方案，SPF级别的 SD大鼠适应性饲养后随机分成 10组，每组 6只，雌雄各半。均采用尾静脉注射方式给药。给药前禁食不禁水12 h。",
+    "bbox": [
+      509,
+      494,
+      895,
+      568
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "对于单次单独给药：3组分别尾静脉注射0.03、 0.1、 0.3 mg/kg 的 甲 钴 胺 ， 命 名 为 MeCbl-L、MeCbl-M、MeCbl-H 组；一组尾静脉注射 90 mg/kg头孢曲松钠,即为 CTX组。对于单次联合给药，因两药会产生化学反应，无法同时进行尾静脉注射给药，需分别考察甲钴胺对头孢曲松钠，头孢曲松钠对甲钴胺的影响。给药方案如下：3组分别尾静脉注射 0.03、0.1、0.3 mg/kg 的甲钴胺后半小时联合注射 90 mg/kg 的头孢曲松钠，命名为 MeCbl-L +CTX、MeCbl-M + CTX、MeCbl-H + CTX 组；另外3组尾静脉注射 90 mg/kg头孢曲松钠后半小时分别联合注射 0.03、0.1、0.3 mg/kg 的甲钴胺，命名为CTX + MeCbl-L、CTX + MeCbl-M、CTX + MeCbl-H组。其中 90 mg/kg头孢曲松钠对应临床剂量 1 g/d，0.1 mg/kg 甲钴胺对应临床剂量 1 mg/d。",
+    "bbox": [
+      509,
+      572,
+      895,
+      864
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "静脉给药后 0、5、15、30、60、120、240、360、480、720 min从大鼠眼底静脉丛采血，每次采血0.25 mL，置于含肝素的离心管中。在 8000 r/min 的转速下离心 5 min，收集上清血浆，按“2.4”项下方法处理后进样分析，根据随行标曲进行浓度计算。将血药浓度结果导入 Phoenix WinNonlin7.0 软件进行非房室模型拟合，求算药代动力学参数。",
+    "bbox": [
+      509,
+      867,
+      897,
+      923
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "第 56 卷第 4 期",
+    "bbox": [
+      100,
+      71,
+      201,
+      85
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "王呈鑫，等：基于药代动力学的甲钴胺与头孢曲松钠大鼠体内药物相互作用研究",
+    "bbox": [
+      265,
+      71,
+      774,
+      86
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "463",
+    "bbox": [
+      863,
+      74,
+      887,
+      85
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      959,
+      321,
+      978
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      97,
+      102,
+      485,
+      177
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "3 结 果",
+    "text_level": 2,
+    "bbox": [
+      99,
+      190,
+      184,
+      206
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "3.1 专属性和选择性",
+    "text_level": 2,
+    "bbox": [
+      99,
+      220,
+      265,
+      235
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "甲钴胺为内源性物质，但大鼠体内内源性甲钴胺含量低且不存在昼夜节律性；甲钴胺及其内标氨甲蝶呤的保留时间分别为 1.84和 1.78 min，空白基质中内源性甲钴胺的响应为定量下限处的 13.84%，低于定量下限的 20%；为内标响应的 0.083%，低于内标响应的 5%，表明甲钴胺和内标氨甲蝶呤在该方法下的不受血浆中内源性成分或其他组分的影响，该分析方法具有良好的选择性。头孢曲松钠及其内标头孢克肟的保留时间分别是 1.79和 1.85min, 空白基质中头孢曲松钠的响应为定量下限处的 0.67%，低于 20%；为内标响应的 0.029%，低于5%，表明头孢曲松钠和内标头孢克肟在该方法下的不受血浆中内源性成分或其他组分的影响，该分析方法具有良好的选择性。几种物质的特征性图谱如图1和图2所示。",
+    "bbox": [
+      97,
+      237,
+      485,
+      314
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      509,
+      102,
+      895,
+      314
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "chart",
+    "img_path": "images/6a6605472204cde12f492b6bc09226f2aa91e1e86378adc79e26cc87eaae983e.jpg",
+    "content": "| Time/min | Value |\n| -------- | ----- |\n| 0.20     | 0.20  |\n| 0.34     | 0.34  |\n| 1.72     | 1.72  |\n| 1.98     | 1.98  |\n| 2.37     | 2.37  |\n| 2.77     | 2.77  |",
+    "chart_caption": [
+      "A"
+    ],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      174,
+      328,
+      473,
+      501
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "chart",
+    "img_path": "images/44f80e098b5b86f0f8b0a88b7126fd2c67316726800184caf8b036c6818aa4e6.jpg",
+    "content": "| Time/min | Value     |\n| -------- | --------- |\n| 1.8      | 3.0e5     |",
+    "chart_caption": [
+      "B"
+    ],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      551,
+      328,
+      853,
+      501
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "chart",
+    "img_path": "images/b93fbe562f83d976bb496d0b49b18cb034189cdfb08995f8f9da99421ea2c466.jpg",
+    "content": "| Time/min | Value |\n| -------- | ----- |\n| 0.0      | 0     |\n| 1.8      | 1807  |\n| 2.0      | 0     |\n| 2.5      | 0     |\n| 3.0      | 0     |",
+    "chart_caption": [
+      "C"
+    ],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      166,
+      506,
+      475,
+      684
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "chart",
+    "img_path": "images/0159edf453c422c0ebfcd7f4735f7ca765a455d8e29783743486ad1e72586154.jpg",
+    "content": "| Time/min | Methotrexate (IS) | Mecobalamin |\n| -------- | ----------------- | ----------- |\n| 0.0      | 0                 | 0           |\n| 1.8      | 2.8e5             | 0           |\n| 2.0      | 0                 | 0           |",
+    "chart_caption": [
+      "D",
+      "Figure 1 Characteristic chromatograms of mecobalamin and methotrexate (IS)"
+    ],
+    "chart_footnote": [
+      "A: Blank plasma; B: 30 ng/mL methotrexate (IS) treated with plasma; C: 3 ng/mL (lower limit of quantification concentration) mecobalamin treated with plasma; D: 3 ng/mL mecobalamin and 30 ng/mL methotrexate (IS) treated with plasma"
+    ],
+    "sub_type": "line chart",
+    "bbox": [
+      552,
+      506,
+      853,
+      684
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "3.2 定量下限",
+    "text_level": 2,
+    "bbox": [
+      99,
+      745,
+      213,
+      760
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "准确度和精密度分别用相对偏差 RE和相对标准偏差 RSD评估。根据随行标准曲线方程计算浓度，并计算 RSD和 RE：甲钴胺、头孢曲松钠在定量下限处的 RSD 分别为 9.64%、7.04%；RE 分别为−0.95%、17.54%。定量下限处 RSD 和 RE 均不超过±20%，符合生物样本分析的相关标准。",
+    "bbox": [
+      97,
+      764,
+      484,
+      881
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "3.3 标准曲线",
+    "text_level": 2,
+    "bbox": [
+      99,
+      885,
+      213,
+      900
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "甲钴胺标准曲线方程为 $y = 0 . 0 0 1 0 3 x + 0 . 0 0 0 0 9$ 号(r = 0.9991)，线性范围为 $3 { \\sim } 3 0 0 0 ~ \\mathrm { n g / m L } ;$ 头孢曲松钠标准曲线方程为 $y = 0 . 0 4 2 9 x + 0 . 0 0 9 3 ( r = 1 )$ ，线性范围为 0.5\\~500 μg/mL。结果表明甲钴胺与头孢曲松钠在线性范围内线性表现良好（r>0.99），可满足在此范围内的物质含量测定要求。",
+    "bbox": [
+      137,
+      905,
+      485,
+      923
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      509,
+      744,
+      895,
+      841
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "3.4 精密度和准确度",
+    "text_level": 2,
+    "bbox": [
+      510,
+      846,
+      675,
+      861
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "甲钴胺和头孢曲松钠批内、批间精密度和准确度如表 2所示。在定量下限和低、中、高浓度质控浓度下，甲钴胺的批内精密度为 4.75%\\~10.69%，批间精密度为 2.64%\\~6.52%；头孢曲松钠的批内精密度为 1.44%\\~7.04%，批间精密度为 2.29%\\~13.42%；甲钴胺的批内准确度为−0.95%\\~4.89%，批间准确度为−3.3%\\~12.19%；头孢曲松钠的批内准确度为−3.78%\\~17.54%，批间准确度为−7.18%\\~0.28%。甲钴胺和头孢曲松钠的批内、批间精密度和准确度在定量下限处均不超过±20%，在低、中、高质控样本下均不超过±15%，表明所建方法具有良好的重复性和准确性，符合生物样本测定相关原则。",
+    "bbox": [
+      509,
+      866,
+      895,
+      923
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "464",
+    "bbox": [
+      107,
+      73,
+      134,
+      84
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "学报 Journal of China Pharmaceutical University 2025, 56(4): 460 − 468",
+    "bbox": [
+      218,
+      66,
+      776,
+      84
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "第 56 卷",
+    "bbox": [
+      831,
+      70,
+      887,
+      84
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      319,
+      978
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "chart",
+    "img_path": "images/5af4c62be1d4295beda3e030a0cfcea36445b7746d40897709c2cb526714a43c.jpg",
+    "content": "| Time/min | Value |\n| -------- | ----- |\n| 0.09     | 0.09  |\n| 0.69     | 0.69  |\n| 0.98     | 0.98  |\n| 1.22     | 1.22  |\n| 1.80     | 1.80  |\n| 1.90     | 1.90  |\n| 2.22     | 2.22  |\n| 2.91     | 2.91  |",
+    "chart_caption": [],
+    "chart_footnote": [],
+    "sub_type": "bar chart",
+    "bbox": [
+      137,
+      99,
+      472,
+      287
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "chart",
+    "img_path": "images/a5702e325f50f44a89cbbe6265b1798b937dcd0e7de6124c08f3f27f2356b668.jpg",
+    "content": "| Time/min | Value   |\n| -------- | ------- |\n| 1.9      | 1.4e5   |",
+    "chart_caption": [],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      526,
+      110,
+      857,
+      286
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "chart",
+    "img_path": "images/2a89b0f8fb53c4f5028f7077493240b3011cc90c7068cb95c1a45e600dd070f8.jpg",
+    "content": "| Time/min | Ceftriaxone |\n| -------- | ----------- |\n| 0.0      | 0           |\n| 1.8      | 6000        |\n| 2.0      | 4000        |\n| 2.5      | 0           |\n| 3.0      | 0           |",
+    "chart_caption": [],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      139,
+      292,
+      468,
+      465
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "chart",
+    "img_path": "images/4d0ea525bc31f8458eae9025d0f35ff702c2c4a28b0199d6dc1f307fc14d9946.jpg",
+    "content": "| Time/min | Value     |\n| -------- | --------- |\n| 0        | 0         |\n| 2.0      | 1.3e5     |",
+    "chart_caption": [
+      "Figure 2 Characteristic chromatograms of ceftriaxone and cefixime (IS)"
+    ],
+    "chart_footnote": [
+      "A: Blank plasma; B: 1 μg/mL cefixime (IS) treated with plasma; C: 0.5 μg /mL (lower limit of quantification concentration) ceftriaxone treated with plasma; D: 0.5 μg /mL ceftriaxone and 1 μg/mL cefixime (IS) treated with plasma"
+    ],
+    "sub_type": "line chart",
+    "bbox": [
+      527,
+      292,
+      855,
+      465
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "table",
+    "img_path": "images/e479003a818f0605534e590875b1a2ea3b9f8a0a2610e171cf5dc53ec1afdfdc.jpg",
+    "table_caption": [
+      "Table 2 Accuracies and precisions of mecobalamin and ceftriaxone in rat plasma"
+    ],
+    "table_footnote": [
+      "a: ng/mL for mecobalamin; μg/mL for ceftriaxone"
+    ],
+    "table_body": "<table><tr><td rowspan=\"2\">Compd.</td><td colspan=\"3\"> $Conc.^a$ </td><td colspan=\"2\">Precision RSD/%</td><td colspan=\"2\">Accuracy RE/%</td></tr><tr><td>Expect</td><td>Intra-batch (x̄ ± s, n=6)</td><td>Inter-batch (x̄ ± s, n=18)</td><td>Intra-batch</td><td>Inter-batch</td><td>Intra-batch</td><td>Inter-batch</td></tr><tr><td rowspan=\"4\">Mecobalamin</td><td>3</td><td>2.97±0.29</td><td>2.90±0.19</td><td>9.64</td><td>6.52</td><td>-0.95</td><td>-3.3</td></tr><tr><td>9</td><td>8.61±0.41</td><td>9.65±0.50</td><td>4.75</td><td>5.16</td><td>-4.32</td><td>7.3</td></tr><tr><td>120</td><td>125.86±9.69</td><td>124.73±3.82</td><td>7.7</td><td>3.06</td><td>4.89</td><td>3.94</td></tr><tr><td>2400</td><td>2402.50±256.94</td><td>2692.62±71.03</td><td>10.69</td><td>2.64</td><td>0.19</td><td>12.19</td></tr><tr><td rowspan=\"4\">Ceftriaxone</td><td>0.5</td><td>0.59±0.041</td><td>0.048±0.0059</td><td>7.04</td><td>12.34</td><td>17.54</td><td>-4.82</td></tr><tr><td>1.5</td><td>1.50±0.06</td><td>1.39±0.19</td><td>4.02</td><td>13.42</td><td>0.31</td><td>-7.18</td></tr><tr><td>30</td><td>28.86±1.92</td><td>29.83±3.36</td><td>6.67</td><td>11.26</td><td>-3.78</td><td>-0.58</td></tr><tr><td>400</td><td>454.16±6.52</td><td>401.10±9.17</td><td>1.44</td><td>2.29</td><td>13.54</td><td>0.28</td></tr></table>",
+    "bbox": [
+      100,
+      539,
+      897,
+      737
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      97,
+      767,
+      485,
+      923
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      767,
+      808,
+      783
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "3.5 基质效应与提取回收率",
+    "text_level": 2,
+    "bbox": [
+      510,
+      786,
+      727,
+      802
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "在低、中、高 3个浓度下，甲钴胺和头孢曲松钠的提取回收率和基质效应见表 3。结果表明这2种物质的提取回收率和基质效应的 RSD均小于15%，符合生物样本测定相关标准。",
+    "bbox": [
+      509,
+      807,
+      895,
+      882
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "3.6 稳定性",
+    "text_level": 2,
+    "bbox": [
+      510,
+      887,
+      606,
+      900
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "在考察的几种条件下，除甲钴胺低温−20 ℃",
+    "bbox": [
+      547,
+      905,
+      895,
+      923
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "第 56 卷第 4 期",
+    "bbox": [
+      100,
+      71,
+      201,
+      85
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "王呈鑫，等：基于药代动力学的甲钴胺与头孢曲松钠大鼠体内药物相互作用研究",
+    "bbox": [
+      265,
+      71,
+      774,
+      86
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "465",
+    "bbox": [
+      863,
+      74,
+      887,
+      85
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      319,
+      978
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "table",
+    "img_path": "images/7b92b9b31bc8ab49351c6eb6f243d396895d86898765634a65b2bd6343b5ccce.jpg",
+    "table_caption": [
+      "Table 3 Matrix effects and extraction recoveries of mecobalamin and ceftriaxone in rat plasma"
+    ],
+    "table_footnote": [
+      "a: ng/mL for mecobalamin; μg/mL for ceftriaxone"
+    ],
+    "table_body": "<table><tr><td rowspan=\"2\">Compd.</td><td rowspan=\"2\"> $Conc.^a$ </td><td colspan=\"2\">Recovery</td><td colspan=\"2\">Matrix effect</td></tr><tr><td>( $\\bar{x} \\pm s, n=6$ )</td><td>RSD/%</td><td>( $\\bar{x} \\pm s, n=6$ )</td><td>RSD/%</td></tr><tr><td rowspan=\"3\">Mecobalamin</td><td>9</td><td>70.51±7.42</td><td>9.53</td><td>68.60±10.57</td><td>14.51</td></tr><tr><td>120</td><td>82.41±10.18</td><td>12.36</td><td>82.75±7.00</td><td>8.45</td></tr><tr><td>2400</td><td>81.59±3.15</td><td>3.86</td><td>82.80±6.04</td><td>7.29</td></tr><tr><td rowspan=\"3\">Ceftriaxone</td><td>1.5</td><td>91.95±5.47</td><td>5.95</td><td>119.83±12.18</td><td>10.16</td></tr><tr><td>30</td><td>100.96±7.11</td><td>7.05</td><td>116.47±5.25</td><td>4.51</td></tr><tr><td>400</td><td>114.37±2.34</td><td>2.05</td><td>94.67±2.98</td><td>3.15</td></tr></table>",
+    "bbox": [
+      100,
+      118,
+      897,
+      258
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "冻存 14 d的低、高浓度 RE超过±15%以外，其他条件下，甲钴胺和头孢曲松钠的低、高两种浓度的 RE均不超过±15%，说明除甲钴胺生物样本不可长期保存以外，2种物质能够保持足够的储存稳定性，可以满足生物样本测定的要求。室温放置4 h、进样盘内放置 24 h、低温−20 ℃ 冻存 14 d 和3次冻存冻融（−20\\~37 ℃）的条件下，甲钴胺和头孢曲松钠低、高浓度的数据结果如表4所示。",
+    "bbox": [
+      97,
+      292,
+      482,
+      366
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      509,
+      292,
+      895,
+      366
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "table",
+    "img_path": "images/a72cf890d1bcddc53d65b18cf73219a750138a8a41b92fb41ef50421f8a5191b.jpg",
+    "table_caption": [
+      "Table 4 Stabilities of mecobalamin and ceftriaxone in rat plasma (n=3)"
+    ],
+    "table_footnote": [
+      "a: ng/mL for mecobalamin; μg/mL for ceftriaxone"
+    ],
+    "table_body": "<table><tr><td rowspan=\"2\">Compd.</td><td rowspan=\"2\"> $Conc.^a$ </td><td colspan=\"2\">Room temperature (4 h)</td><td colspan=\"2\">Automatic (24 h)</td><td colspan=\"2\">Freeze (-20 °C, 14 d)</td><td colspan=\"2\">Freeze-thaw (3 times)</td></tr><tr><td>RSD/%</td><td>RE/%</td><td>RSD/%</td><td>RE/%</td><td>RSD/%</td><td>RE/%</td><td>RSD/%</td><td>RE/%</td></tr><tr><td rowspan=\"2\">Mecobalamin</td><td>9</td><td>3.35</td><td>2.26</td><td>2.38</td><td>11.97</td><td>0.44</td><td>116.05</td><td>2.92</td><td>5.25</td></tr><tr><td>2400</td><td>2.07</td><td>8.29</td><td>3.48</td><td>10.39</td><td>2.29</td><td>74.7</td><td>7.47</td><td>1.22</td></tr><tr><td rowspan=\"2\">Ceftriaxone</td><td>1.5</td><td>10.87</td><td>9.68</td><td>4.37</td><td>9.42</td><td>8.86</td><td>2.97</td><td>5.98</td><td>3.91</td></tr><tr><td>400</td><td>10.78</td><td>-13.07</td><td>14.07</td><td>11.98</td><td>1.85</td><td>-0.96</td><td>8.31</td><td>-5.47</td></tr></table>",
+    "bbox": [
+      100,
+      399,
+      897,
+      517
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "3.7 单次给药后的药代动力学",
+    "text_level": 2,
+    "bbox": [
+      99,
+      552,
+      334,
+      568
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "运用所建立的 LC-MS/MS方法分别定量检测SD大鼠血浆样本中甲钴胺和头孢曲松的药物浓度，通过 GraphPad Prism8.0 绘制平均血浆药物浓度-时间曲线，通过 Phoenix WinNonlin7.0 软件进行非房室模型拟合，求算药代动力学参数。",
+    "bbox": [
+      97,
+      572,
+      482,
+      666
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "通过单因素方差分析，比较单独给药头孢曲松钠组及注射甲钴胺后联合给药头孢曲松钠组中头孢曲松钠的药代动力学参数，以此考察不同浓度甲钴胺对头孢曲松钠药代动力学行为的影响。图 3和表 5分别为各组中头孢曲松钠的药时曲线和药动学参数。结果表明，单独给药头孢曲松钠组和注射甲钴胺后联合给药头孢曲松钠组的药时曲线及主要药代动力学参数无显著性差别，表明不同浓度甲钴胺对头孢曲松钠在大鼠体内的药代行为无明显影响。",
+    "bbox": [
+      97,
+      670,
+      485,
+      863
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "通过单因素方差分析，比较单独给药甲钴胺组及注射头孢曲松钠后联合给药甲钴胺组中甲钴胺的药代动力学参数，以此考察头孢曲松钠对不同浓度甲钴胺药代动力学行为的影响。图 4和表 6分别为甲钴胺的血药浓度-时间曲线和药代动力学参数。结果表明，单独给药甲钴胺和注射头孢曲松钠后联合给药甲钴胺组的药时曲线及主要药代动力学参数无显著性差别，表明头孢曲松钠对不同浓度甲钴胺在大鼠体内的药代行为无明显影响。",
+    "bbox": [
+      97,
+      866,
+      482,
+      923
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      509,
+      552,
+      895,
+      688
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "chart",
+    "img_path": "images/18d24d0be3a930ba3959dd52f8daccab8eddbb3cf15fb553768a4ef97515b537.jpg",
+    "content": "| Time/min | CTX   | MeCbl-L+CTX | MeCbl-M+CTX | MeCbl-H+CTX |\n| -------- | ----- | ----------- | ----------- | ----------- |\n| 0        | 580   | 550         | 520         | 500         |\n| 60       | 120   | 110         | 100         | 90          |\n| 120      | 60    | 50          | 40          | 30          |\n| 180      | 20    | 15          | 10          | 5           |\n| 240      | 5     | 3           | 2           | 1           |\n| 300      | 1     | 0.5         | 0.3         | 0.2         |\n| 360      | 0.5   | 0.1         | 0.05        | 0.03        |",
+    "chart_caption": [
+      "Figure 3 Plasma concentration-time curves of ceftriaxone in rats after single vein injection of ceftriaxone (CTX, 90 mg/kg) and after co-administration of ceftriaxone with three doses of x ± smecobalamin (MeCbl, L/M/H: 0.03/ 0.1/0.3 mg/kg) ( , n=6)"
+    ],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      542,
+      702,
+      867,
+      864
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "page_number",
+    "text": "466",
+    "bbox": [
+      109,
+      73,
+      134,
+      84
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "学报 Journal of China Pharmaceutical University 2025, 56(4): 460 − 468",
+    "bbox": [
+      218,
+      66,
+      776,
+      84
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "第 56 卷",
+    "bbox": [
+      831,
+      70,
+      887,
+      84
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      319,
+      977
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "table",
+    "img_path": "images/cfc6553a829c377280256e074d5ed7423176a87fbc474d71fc08068967f31a81.jpg",
+    "table_caption": [
+      "Table 5 Pharmacokinetic parameters of ceftriaxone in rats after single vein injection of ceftriaxone (90 mg/kg) and after cox ± sadministration of ceftriaxone with three doses of mecobalamin (0.03/0.1/0.3 mg/kg) ( , n=6)"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td rowspan=\"2\">Parameter</td><td colspan=\"4\">Group</td></tr><tr><td>CTX</td><td>MeCbl-L+CTX</td><td>MeCbl-M+CTX</td><td>MeCbl-H+CTX</td></tr><tr><td> $t_{1/2}$ /min</td><td>33.5±7.34</td><td>33.4±3.90</td><td>42.3±7.01</td><td>40.9±10.2</td></tr><tr><td> $AUC_{0-t}$ /(min*μg/mL)</td><td>14 573±2 630</td><td>14 843±1850</td><td>17 998±4 156</td><td>17 156±3 755</td></tr><tr><td> $AUC_{0-\\infty}$ /(min*μg/mL)</td><td>14 323±2 635</td><td>14 658±1903</td><td>17 802±4 061</td><td>16 872±3 621</td></tr><tr><td> $MRT_{0-t}$ /min</td><td>44.2±9.92</td><td>44.9±6.23</td><td>60.1±12.0</td><td>56.8±15.6</td></tr><tr><td> $MRT_{0-\\infty}$ /min</td><td>40.7±9.40</td><td>42.2±6.85</td><td>57.2±11.9</td><td>52.7±14.5</td></tr><tr><td>CL/(mL/min)</td><td>1.64±0.63</td><td>1.66±0.42</td><td>1.27±0.38</td><td>1.49±0.57</td></tr><tr><td> $V_z$ /mL</td><td>74.3±15.0</td><td>79.3±18.0</td><td>77.3±25.5</td><td>83.6±26.0</td></tr></table>",
+    "bbox": [
+      100,
+      130,
+      897,
+      289
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "chart",
+    "img_path": "images/ef472b7a73c45b4baf9cd3877c97fc4c64b93f96e3f61a1f9818a9d394b08f21.jpg",
+    "content": "| Time/min | MeCbl-L | CTX+MeCbl-L | MeCbl-M | CTX+MeCbl-M | MeCbl-H | CTX+MeCbl-H |\n| -------- | ------- | ----------- | ------- | ----------- | ------- | ----------- |\n| 0        | ~1600   | ~1600       | ~1600   | ~1600       | ~1600   | ~1600       |\n| 60       | ~50     | ~50         | ~50     | ~50         | ~50     | ~50         |\n| 120      | ~10     | ~10         | ~10     | ~10         | ~10     | ~10         |\n| 180      | ~5      | ~5          | ~5      | ~5          | ~5      | ~5          |\n| 240      | ~2      | ~2          | ~2      | ~2          | ~2      | ~2          |\n| 300      | ~1      | ~1          | ~1      | ~1          | ~1      | ~1          |\n| 360      | ~0.5    | ~0.5        | ~0.5    | ~0.5        | ~0.5    | ~0.5        |",
+    "chart_caption": [
+      "Figure 4 Plasma concentration-time curves of mecobalamin in rats after single vein injection of three doses of mecobalamin (MeCbl, L/M/H: 0.03/ 0.1/ 0.3 mg/kg) and after co-administration of three doses of mecobalamin with ceftriaxone (CTX, 90 mg/kg) x ± s( , n=6)"
+    ],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      127,
+      299,
+      460,
+      463
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "4 讨 论",
+    "text_level": 2,
+    "bbox": [
+      99,
+      548,
+      184,
+      563
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "甲钴胺又名维生素 B12，是一种内源性活性化合物，其见光易分解[17] 且在水溶液内不稳定[18]；头孢曲松钠对光、温度不稳定[19]。故在动物实验与分析测试中应保持避光环境并现配现用。此外，甲钴胺与头孢曲松钠混合注射会产生沉淀，这可能与甲钴胺所含钴离子具有有机金属反应性相关[20]；因此在联合给药实验中，需设置给药间隔，分别考察两药在大鼠体内的药代动力学行为是否发生改变。",
+    "bbox": [
+      97,
+      578,
+      485,
+      723
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      299,
+      870,
+      315
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "在建立甲钴胺和头孢曲松钠共检测LC-MS/MS方法时，由于甲钴胺为内源性物质、信号响应低，头孢曲松钠拖尾严重，难以在同一液相条件下同时准确定量两种物质，因此本研究分别建立了两药定量分析的 LC-MS/MS方法。甲钴胺定量分析方法的建立：通过水相中加入 0.1%甲酸和 2 mmol/L乙酸铵调节 pH，提高甲钴胺信号响应强度；由于大鼠体内内源性甲钴胺含量低、不存在昼夜节律性，故本研究采用背景扣除法[21−22] 对内源性甲钴胺的干扰进行排除。头孢曲松钠定量分析方法的建立：采用较大比例甲酸（1%）来调节水相 pH，这一改动使头孢曲松钠的拖尾现象得到明显改善，可准确积分进行定量分析。",
+    "bbox": [
+      509,
+      320,
+      895,
+      579
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "本研究暂未在肝衰竭大鼠上进行药代动力学的药物相互作用研究，而肝衰竭可通过多重病理机制显著改变药物在体内的药代动力学过程：血浆白蛋白水平降低可使药物游离比例升高[23]；肝药酶合成减少、活性降低[24]；胆汁分泌和排泄功能障碍可影响经胆汁排泄药物的消除[25] 等。头孢曲松钠主要经胆汁排泄，在肝衰竭状态下其排泄量减少至正常的 30%以下[26]，且与白蛋白结合率降低，游离药物浓度升高 [27]。甲钴胺主要经肾脏排泄，而肝衰竭合并肝肾综合征时肾小球滤过率降低，可能影响其排泄过程。鉴于健康患者和肝衰竭患者在药物药代动力学行为上存在明显差异，这种差异对药物疗效和毒性反应有着重要影响，值得深入关注。后续研究将借助肝衰竭模型大鼠，系统研究甲钴胺和头孢曲松钠的药代动力学行为，阐明两药在肝衰竭状态下的药代动力学特征。",
+    "bbox": [
+      509,
+      584,
+      895,
+      722
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "table",
+    "img_path": "images/65a53ec7c8b7e05a6de87aee85282e3ed0fdff812949470c5b0fbb3eaec678a5.jpg",
+    "table_caption": [
+      "Table 6 Pharmacokinetic parameters of mecobalamin in rats after single vein injection of three doses of mecobalamin (0.03/0.1/0.3 x ± smg/kg) and after co-administration of three doses of mecobalamin with ceftriaxone (90 mg/kg) ( , n=6)"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td rowspan=\"2\">Parameter</td><td colspan=\"6\">Group</td></tr><tr><td>MeCbl-L</td><td>CTX + MeCbl-L</td><td>MeCbl-M</td><td>CTX + MeCbl-M</td><td>MeCbl-H</td><td>CTX + MeCbl-H</td></tr><tr><td> $t_{1/2}$ /min</td><td>19.07±3.81</td><td>19.60±0.92</td><td>20.23±3.18</td><td>19.90±2.06</td><td>20.44±2.31</td><td>21.75±2.83</td></tr><tr><td> $AUC_{0-t}$ /(min·μg/mL)</td><td>2378.99±762.50</td><td>2260.89±561.84</td><td>6745.45±1469.62</td><td>6771.99±1081.21</td><td>26597.06±2632.63</td><td>29058.09±6090.45</td></tr><tr><td> $AUC_{0-\\infty}$ /(min·μg/mL)</td><td>2516.57±756.32</td><td>2446.95±541.96</td><td>6889.69±1519.54</td><td>6929.64±1113.29</td><td>26956.25±2713.23</td><td>29353.77±6085.88</td></tr><tr><td> $MRT_{0-t}$ /min</td><td>21.92±9.34</td><td>21.02±3.83</td><td>24.17±3.33</td><td>23.93±2.97</td><td>25.54±2.59</td><td>26.59±4.14</td></tr><tr><td> $MRT_{0-\\infty}$ /min</td><td>26.58±9.19</td><td>27.20±2.44</td><td>26.54±3.83</td><td>26.46±3.14</td><td>27.23±2.63</td><td>28.04±3.86</td></tr><tr><td>CL/(mL/min)</td><td>3.06±0.98</td><td>3.12±0.92</td><td>3.76±1.19</td><td>3.59±0.50</td><td>2.89±0.38</td><td>2.78±0.65</td></tr><tr><td> $V_z$ /mL</td><td>80.57±19.61</td><td>88.23±27.35</td><td>106.23±20.76</td><td>103.46±19.37</td><td>86.10±20.13</td><td>86.94±21.61</td></tr></table>",
+    "bbox": [
+      97,
+      762,
+      897,
+      921
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "第 56 卷第 4 期",
+    "bbox": [
+      100,
+      71,
+      201,
+      85
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "王呈鑫，等：基于药代动力学的甲钴胺与头孢曲松钠大鼠体内药物相互作用研究",
+    "bbox": [
+      265,
+      71,
+      774,
+      86
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "page_number",
+    "text": "467",
+    "bbox": [
+      863,
+      74,
+      889,
+      85
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      321,
+      978
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      99,
+      102,
+      485,
+      276
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "5 结 论",
+    "text_level": 2,
+    "bbox": [
+      99,
+      289,
+      183,
+      306
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "本实验分别建立了 SD大鼠血浆中甲钴胺和头孢曲松钠定量分析的 LC-MS/MS方法并对其进行了方法学考察。药代动力学研究表明，与单次单独给药相比，单次联合给药下两药在健康大鼠体内的药代动力学行为无显著性差异，表明甲钴胺与头孢曲松钠进行联合用药时，无基于药代动力学的药物相互作用。",
+    "bbox": [
+      97,
+      318,
+      485,
+      453
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "References",
+    "text_level": 2,
+    "bbox": [
+      100,
+      470,
+      186,
+      486
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1] Perricone G, Artzner T, De Martin E, et al. Intensive care management of acute-on-chronic liver failure[J].  Intensive Care Med, 2023, 49(8): 903-921.",
+      "Lemmer P, Pospiech JC, Canbay A.  Liver failure-future chal-[2] lenges and remaining questions[J]. Ann Transl Med, 2021, 9(8): 734.",
+      "[3] Kumar R, Anand U, Priyadarshi RN.  Liver transplantation in acute liver failure: Dilemmas and challenges[J]. World J Transplant, 2021, 11(6): 187-202.",
+      "[4] Ye C, Li WY, Li L, et al. Glucocorticoid treatment strategies in liver failure[J]. Front Immunol, 2022, 13: 846091.",
+      "Zeng J, Fan JG, Zhou HP.  Bile acid-mediated signaling in[5] cholestatic liver diseases[J]. Cell Biosci, 2023, 13(1): 77.",
+      "Allison R, Guraka A, Shawa IT, et al.  Drug induced liver in-[6] jury–a 2023 update[J]. J Toxicol Environ Health Part B, 2023, 26(8): 442-467.",
+      "Zhang YF, Ning G.  Mecobalamin[J].  Expert Opin Investig[7] Drugs, 2008, 17(6): 953-964.",
+      "[8] Shibuya K, Misawa S, Nasu S, et al. Safety and efficacy of intravenous ultra-high dose methylcobalamin treatment for peripheral neuropathy: a phase I/II open label clinical trial[J]. Intern Med, 2014, 53(17): 1927-1931.",
+      "[9] Ganguly A, de la Flor C, Alvarez K, et al. Safety and efficacy of ceftriaxone in the treatment of methicillin-susceptible Staphylococcus aureus bloodstream infections: a noninferiority retrospective cohort study[J]. Ann Pharmacother, 2023, 57(4): 425- 431.",
+      "Xu WF, Wang Y, Cui S, et al.  Methylcobalamin protects[10] against liver failure via engaging gasdermin E[J]. Nat Commun,",
+      "2025, 16: 1233.",
+      "China Pharmaceutical University. Use of Mecobalamin and[11] Pharmaceutical Compositions in the Preparation of Drugs for Treating Liver Failure: CN, 115998758A[P]. 2023-04-25.",
+      "Alpers DH, Russell-Jones G. Gastric intrinsic factor: the gastric[12] and small intestinal stages of cobalamin absorption. a personal journey[J]. Biochimie, 2013, 95(5): 989-94.",
+      "Seetharam B, Yammani RR.  Cobalamin transport proteins and[13] their cell-surface receptors[J].  Expert Rev Mol Med,  2003, 5(18): 1-18.",
+      "Popick AC, Crouthamel WG, Bekersky I. Plasma protein bind-[14] ing of ceftriaxone[J]. Xenobiotica, 1987, 17(10): 1139-1145.",
+      "Patel IH, Kaplan SA. Pharmacokinetic profile of ceftriaxone in[15] man[J]. Am J Med, 1984, 77(4C): 17-25.",
+      "The International Council for Harmonisation of Technical Re-[16] quirements for Pharmaceuticals for Human Use. ICH M10- 2022[S]. Center for Drug Evaluation, 2022.",
+      "Juzeniene A, Nizauskaite Z. Photodegradation of cobalamins in[17] aqueous solutions and in human blood[J]. J Photochem Photobiol B, 2013, 122: 7-14.",
+      "Ao ZX, Feng SS, Zhao CY, et al. Study on polycyclic macro-[18] molecular drug solid stability: a case exploration of methylcobalamin[J]. Int J Pharm, 2023, 644: 123326.",
+      "Xu QA, Trissel LA, Williams KY.  Compatibility and stability[19] of linezolid injection admixed with three cephalosporin antibiotics[J]. J Am Pharm Assoc (Wash), 2000, 40(4): 509-514.",
+      "Gruber K, Puffer B, Kräutler B.  Vitamin B12-derivatives-en-[20] zyme cofactors and ligands of proteins and nucleic acids[J]. Chem Soc Rev, 2011, 40(8): 4346-4363.",
+      "Thakare R, Chhonker YS, Gautam N, et al. Quantitative analy-[21] sis of endogenous compounds[J]. J Pharm Biomed Anal, 2016, 128: 426-437.",
+      "Gachet MS, Rhyn P, Bosch OG, et al. A quantitiative LC-[22] MS/MS method for the measurement of arachidonic acid, prostanoids, endocannabinoids, N-acylethanolamines and steroids in human plasma[J].  J Chromatogr B Analyt Technol Biomed Life Sci, 2015, 976/977: 6-18.",
+      "Caraceni P, Tufoni M, Zaccherini G, et al. On-treatment serum[23] albumin level can guide long-term treatment in patients with cirrhosis and uncomplicated ascites[J].  J Hepatol,  2021,  74(2): 340-349.",
+      "Guévin C, Michaud J, Naud J, et al. Down-regulation of hepat-[24] ic cytochrome p450 in chronic renal failure: role of uremic mediators[J]. Br J Pharmacol, 2002, 137(7): 1039-1046.",
+      "Canet MJ, Cherrington NJ. Drug disposition alterations in liver[25] disease: extrahepatic effects in cholestasis and nonalcoholic steatohepatitis[J].  Expert Opin Drug Metab Toxicol,  2014, 10(9): 1209-1219.",
+      "Stoeckel K, Koup JR.  Pharmacokinetics of ceftriaxone in pa-[26] tients with renal and liver insufficiency and correlations with a physiologic nonlinear protein binding model[J].  Am J Med, 1984, 77(4C): 26-32.",
+      "Comce MH, Weersink RA, Beuers U, et al. Pharmacokinetics of[27] ceftriaxone, gentamicin, meropenem and vancomycin in liver cirrhosis: a systematic review[J].  J Antimicrob Chemother, 2024, 79(11): 2750-2761."
+    ],
+    "bbox": [
+      99,
+      496,
+      489,
+      925
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      507,
+      97,
+      900,
+      925
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "page_number",
+    "text": "468",
+    "bbox": [
+      107,
+      73,
+      132,
+      84
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "header",
+    "text": "学报 Journal of China Pharmaceutical University 2025, 56(4): 460 − 468",
+    "bbox": [
+      218,
+      66,
+      776,
+      83
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "header",
+    "text": "第 56 卷",
+    "bbox": [
+      831,
+      70,
+      887,
+      84
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      959,
+      319,
+      978
+    ],
+    "page_idx": 8
+  }
+]

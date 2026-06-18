@@ -2,11 +2,12 @@
 from __future__ import annotations
 
 import logging
-from typing import Any, AsyncIterator, Dict, List
+from typing import Any, AsyncIterator, Dict, List, Optional
 
 from services.llm_service import LLMService
 from services.query_understanding import QueryUnderstandingService
 from services.rag_service import RAGService
+from tools.database_tool import DatabaseTool
 
 logger = logging.getLogger(__name__)
 
@@ -19,12 +20,14 @@ class ChatOrchestrator:
         query_understanding: QueryUnderstandingService,
         rag_service: RAGService,
         llm_service: LLMService,
+        database_tool: Optional[DatabaseTool] = None,
     ):
         self.query_understanding = query_understanding
         self.rag_service = rag_service
         self.llm_service = llm_service
+        self.database_tool = database_tool
 
-    def answer(self, memory_id: str, message: str) -> str:
+    def answer(self, memory_id: str, message: str, user_id: Optional[int] = None) -> str:
         analysis = self._prepare_analysis(memory_id, message)
         route = self._route_kind(analysis)
 
@@ -39,10 +42,10 @@ class ChatOrchestrator:
             return build_out_of_scope_reply(analysis)
 
         context = self._retrieve_context(analysis, message)
-        response = self.llm_service.chat(memory_id, message, context)
+        response = self.llm_service.chat(memory_id, message, context, self._build_personal_context(user_id))
         return response
 
-    async def answer_stream(self, memory_id: str, message: str) -> AsyncIterator[str]:
+    async def answer_stream(self, memory_id: str, message: str, user_id: Optional[int] = None) -> AsyncIterator[str]:
         analysis = self._prepare_analysis(memory_id, message)
         route = self._route_kind(analysis)
 
@@ -61,8 +64,22 @@ class ChatOrchestrator:
             return
 
         context = self._retrieve_context(analysis, message)
-        async for chunk in self.llm_service.chat_stream(memory_id, message, context):
+        async for chunk in self.llm_service.chat_stream(
+            memory_id,
+            message,
+            context,
+            self._build_personal_context(user_id),
+        ):
             yield chunk
+
+    def _build_personal_context(self, user_id: Optional[int]) -> str:
+        if user_id is None or self.database_tool is None:
+            return ""
+        try:
+            return self.database_tool.build_user_personal_context(user_id)
+        except Exception as exc:
+            logger.warning("构建个体化上下文失败: user_id=%s error=%s", user_id, exc)
+            return ""
 
     def _prepare_analysis(self, memory_id: str, message: str) -> Dict[str, Any]:
         initial = self.query_understanding.analyze(message)

@@ -1,0 +1,876 @@
+[
+  {
+    "type": "text",
+    "text": "精神科住院患者潜在代谢性药物相互作用医嘱分析",
+    "text_level": 1,
+    "bbox": [
+      82,
+      80,
+      915,
+      112
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "王 婧 刘 琰 王建欣",
+    "bbox": [
+      393,
+      135,
+      601,
+      148
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "河北医科大学第一医院药学部 河北石家庄 050031",
+    "bbox": [
+      317,
+      153,
+      677,
+      166
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "[摘要] 目的 了解精神科住院患者医嘱中联合用药情况 分析潜在药物相互作用 为临床用药提供参考 方法 选取 2018 年 7～12 月河北医科大学第一医院（以下简称“我院”）精神科住院患者所有运行病历共 1658 份 发现存在潜在代谢性药物相互作用的病历 227 份 筛选联用 2 种及以上药物的医嘱进行统计 基于细胞色素 P450 酶（CYP450）角度分析联合用药时潜在的药物相互作用 结果 涉及的 CYP 酶的亚型主要有 CYP3A4 CYP2D6CYP2C9 和 CYP2C19 其中涉及 CYP2D6 的病历最多 主要为 CYP2D6 底物与抑制剂联用 涉及 CYP3A4 的医嘱次数最多 主要为 CYP3A4 底物与底物联用 3 种及以上药物经同一代谢酶作用的共 156 次 2 种及以上药物经 2 种代谢作用的共 80 次 结论 我院精神科住院患者的联合用药存在潜在代谢性药物相互作用较多 多种药物联合造成医疗风险增加 临床应用时需加强治疗药物监测 从而提高药物的安全性和有效性",
+    "bbox": [
+      112,
+      190,
+      885,
+      334
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "[关键词] 细胞色素 P450 酶 精神科 药物相互作用 代谢",
+    "bbox": [
+      112,
+      338,
+      500,
+      351
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "[中图分类号] R969.2 [文献标识码] A [文章编号] 1 673-72 1 0 （ 2020 ） 07 （ b ） -0 1 64-04",
+    "bbox": [
+      112,
+      357,
+      791,
+      370
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Analysis of medical advice of potential metabolic drug interactions in psy - chiatric inpatients",
+    "text_level": 1,
+    "bbox": [
+      112,
+      395,
+      882,
+      437
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "WA NG Jing LIU Yan WA NG Jianxin",
+    "bbox": [
+      112,
+      442,
+      374,
+      456
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Department of Pharmacy, the First Hospital of Hebei Medical University, Hebei Province, Shijiazhuang 050031, China [Abstract] Objective To understand the situation of combined drug use in the medical advice of psychiatric inpatients, analyze the potential drug interaction, and provide reference for clinical drug use. Methods A total of 1658 operational medical records were selected from psychiatric inpatients in the First Hospital of Hebei Medical University (hereinafter referred to as “our hospital ”) from July to December 2018 were selected, the medical orders of two or more drugs were screened and counted, and the potential drug interactions were analyzed from the perspective of cytochrome P450 enzyme (CYP450). Results The subtypes of CYP enzymes involved mainly include CYP3A4, CYP2D6, CYP2C9 and CYP2C19, among which CYP2D6 has the most cases, mainly CYP2D6 substrate combined with inhibitors; CYP3A4 was involved in the most medical orders, mainly CYP3A4 substrate combined with substrate. A total of 156 times of 3 or more drugs acting by the same metabolic enzyme, a total of 80 times of 2 or more drugs undergoing 2 metabolic actions.",
+    "bbox": [
+      112,
+      461,
+      882,
+      642
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Conclusion There are many potential metabolic drug interactions among psychiatric inpatients in our hospital. The combination of multiple drugs increases the risk of medical treatment, and it is necessary to strengthen the monitoring of therapeutic drugs in clinical application, so as to improve the safety and efficacy of drugs.",
+    "bbox": [
+      112,
+      646,
+      882,
+      697
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "[Key words] Cytochrome P450s; Psychiatry; Drug interaction; Metabolism",
+    "bbox": [
+      112,
+      702,
+      589,
+      715
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "精神障碍严重影响人们的身心健康 我国严重精神障碍患者已超过 1600 万人[1-2] 当前治疗精神疾病的主要手段以药物治疗为主 且常常联用 2 种及以上的抗精神病药物 有报道称[3-4]精神科处方潜在药物相互作用的发生率最高 联用的药品数量和种类是重要",
+    "bbox": [
+      80,
+      746,
+      485,
+      838
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "[基金项目] 河北省卫生健康委医学科学研究课题计划项目（20190040 ）",
+    "bbox": [
+      80,
+      847,
+      485,
+      879
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "[作者简介] 王婧（1984.12-） 女 硕士；研究方向 ：临床药学",
+    "bbox": [
+      80,
+      883,
+      484,
+      898
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "[通讯作者] 王建欣（1982.4-） 女 硕士 副主任药师 研究方向 临床药学与慢病管理",
+    "bbox": [
+      80,
+      900,
+      484,
+      933
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "因素 本研究基于细胞色素 P450 酶（CYP450）角度对河北医科大学第一医院（以下简称“我院”）精神科住院患者病历中的联合用药情况进行回顾性研究分析评价医嘱中潜在的代谢性药物相互作用 为多种药物的联合应用提供参考 确保精神疾病患者的用药安全 。",
+    "bbox": [
+      509,
+      746,
+      915,
+      856
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 资料与方法",
+    "text_level": 2,
+    "bbox": [
+      510,
+      860,
+      618,
+      873
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 1 资料来源",
+    "text_level": 2,
+    "bbox": [
+      510,
+      879,
+      611,
+      892
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "使用四川美康医药软件研究开发有限公司的美康 PASS 临床药学管理系统 选取我院 2018 年 7～",
+    "bbox": [
+      509,
+      898,
+      915,
+      933
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "DOI:10.20047/j.issn1673-7210.2020.20.040",
+    "bbox": [
+      21,
+      0,
+      294,
+      11
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "· 药事管理 ·",
+    "bbox": [
+      84,
+      42,
+      236,
+      63
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中国医药导报 2020 年 7 月第 17 卷第 20 期",
+    "bbox": [
+      626,
+      46,
+      915,
+      59
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "1 64",
+    "bbox": [
+      97,
+      945,
+      126,
+      954
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "CH I NA M E D I CAL H E RALD Vol 1 7 No 20 J u ly 2020",
+    "bbox": [
+      141,
+      945,
+      468,
+      957
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      961,
+      319,
+      978
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "12 月期间所有精神科住院患者的用药医嘱",
+    "bbox": [
+      80,
+      80,
+      413,
+      96
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 2 筛选方法",
+    "text_level": 2,
+    "bbox": [
+      80,
+      101,
+      181,
+      115
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "筛选联用 2 种及以上药物的医嘱进行统计 以药品说明书和相关文献为依据 查找并记录涉及 CYP450酶底物 抑制剂或诱导剂的药物使用情况",
+    "bbox": [
+      80,
+      120,
+      485,
+      174
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 3 统计及分析方法",
+    "text_level": 2,
+    "bbox": [
+      80,
+      179,
+      236,
+      193
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "统计存在潜在的药物相互作用的药物名称及检出次数 汇总不同类型 CYP450 所涉及的病历数 并且分别计算其占存在潜在代谢性药物相互作用病历总数的比例 基于 CYP450 角度分析联合用药时潜在的药物相互作用",
+    "bbox": [
+      80,
+      197,
+      484,
+      290
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 结果",
+    "text_level": 2,
+    "bbox": [
+      80,
+      294,
+      134,
+      309
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 1 经不同亚型的 CYP450 代谢的药物联用情况",
+    "text_level": 2,
+    "bbox": [
+      80,
+      315,
+      445,
+      329
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "共统计 1658 份病历 发现存在潜在代谢性药物相互作用的病历 227 份 占 13 7% 涉及的 CYP 酶亚型主要有 CYP3A4 CYP2D6 CYP2C9 和 CYP2C 1 9 涉及 CYP2D6 病历最多 共 176 份 占 77 5% 其中底物与底物联用的有 45 次（见表 1 ） 底物与抑制剂联用的有 263 次 （见表 2） 涉及 CYP3A4 病历有 105 份 占46 3% 其中底物与底物联用的有 253 次（见表 3） 底物与抑制剂联用的有 50 次（见表 4） 涉及 CYP2C19的病历有 24 份 占 10 6% 其中底物与底物联用的有 14 次（见表 5 ） 底物与诱导剂联用的有 2 次 为奥沙西泮和银杏叶 底物与抑制剂联用的有 21 次（见表 6） 抑制剂与抑制剂联用的有 1 次 为舍曲林和奥美拉唑 涉及 CYP2C9 的病历有 5 份 占 2 2％ 其中底物与抑制剂联用的有 6 次 底物与底物联用的",
+    "bbox": [
+      80,
+      334,
+      485,
+      601
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "有 1 次 。",
+    "bbox": [
+      510,
+      82,
+      574,
+      96
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/fca73375691a8006dc20f19cf0ec69610e94669176d7962f7615c5724f4e6d32.jpg",
+    "table_caption": [
+      "表 1 CYP2D6 底物与底物联用医嘱统计（次）"
+    ],
+    "table_footnote": [
+      "注 ： “-”表示无数据"
+    ],
+    "table_body": "<table><tr><td rowspan=\"2\">底物</td><td colspan=\"7\">底物</td></tr><tr><td>阿立哌唑</td><td>氟哌噻吨</td><td>喹硫平</td><td>异丙嗪</td><td>氯丙嗪</td><td>丙戊酸镁</td><td>米氮平</td></tr><tr><td>奥氮平</td><td>8</td><td>1</td><td>1</td><td>2</td><td>-</td><td>-</td><td>1</td></tr><tr><td>异丙嗪</td><td>2</td><td>-</td><td>-</td><td>-</td><td>5</td><td>-</td><td>-</td></tr><tr><td>文拉法辛</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>喹硫平</td><td>1</td><td>-</td><td>-</td><td>4</td><td>3</td><td>-</td><td>-</td></tr><tr><td>利培酮</td><td>2</td><td>-</td><td>4</td><td>3</td><td>-</td><td>-</td><td>1</td></tr><tr><td>奥沙西泮</td><td>-</td><td>-</td><td>1</td><td>-</td><td>-</td><td>1</td><td>-</td></tr><tr><td>曲唑酮</td><td>-</td><td>-</td><td>3</td><td>-</td><td>-</td><td>-</td><td>1</td></tr></table>",
+    "bbox": [
+      510,
+      131,
+      915,
+      268
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 2 经同一种酶代谢的 3 种及以上药物联用情况",
+    "text_level": 2,
+    "bbox": [
+      509,
+      303,
+      877,
+      317
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "多种药物联用 （3 种及以上 ）且同时经 CYP2D6代谢的情况的有 93 次 经 CYP3A4 代谢的有 62 次经CYP2C 19 代谢的有 1 次",
+    "bbox": [
+      507,
+      322,
+      915,
+      374
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 3 经两种酶代谢的 2 种及以上药物联用情况",
+    "text_level": 2,
+    "bbox": [
+      509,
+      379,
+      858,
+      393
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 种及以上药物联用且同时经 CYP3A4 和 CYP2D6代谢的有 73 次 经 CYP3A4 和 CYP2C 19 代谢的 有7 次",
+    "bbox": [
+      507,
+      398,
+      914,
+      450
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "3 讨论",
+    "text_level": 2,
+    "bbox": [
+      510,
+      455,
+      564,
+      469
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "同时使用 2 种或 2 种以上药物时 由于药物之间药动学或药效学的影响 可能造成药效减弱 增强或引起不良反应 目前研究的药物相互作用主要有CYP450 介导 药物转运体介导 Ⅱ相代谢酶介导等方面[5] 药物代谢约 80%有 CYP450 酶参与[6-7] 其研究也进展到分子水平[8] CYP450 酶有可抑制性和诱导性 容易被药物或食物影响其功能 造成底物代",
+    "bbox": [
+      507,
+      474,
+      914,
+      602
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/2a3e0738fad631c6de0c55c0afe6b81e19002a1ea8e127c1f08968dcc10c1f49.jpg",
+    "table_caption": [
+      "表 2 CYP2D6 底物与抑制剂联用医嘱统计（次）"
+    ],
+    "table_footnote": [
+      "注 “-”表示无数据"
+    ],
+    "table_body": "<table><tr><td rowspan=\"2\">底物</td><td colspan=\"7\">抑制剂</td></tr><tr><td>帕罗西汀</td><td>西酞普兰</td><td>舍曲林</td><td>氟哌啶醇</td><td>美托洛尔</td><td>度洛西汀</td><td>普萘洛尔</td></tr><tr><td>阿立哌唑</td><td>1</td><td>1</td><td>4</td><td>-</td><td>3</td><td>-</td><td>1</td></tr><tr><td>氟哌噻吨</td><td>1</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>奥氮平</td><td>3</td><td>1</td><td>4</td><td>25</td><td>7</td><td>3</td><td>-</td></tr><tr><td>度洛西汀</td><td>1</td><td>1</td><td>3</td><td>1</td><td>2</td><td>-</td><td>-</td></tr><tr><td>美托洛尔</td><td>1</td><td>-</td><td>4</td><td>8</td><td>-</td><td>-</td><td>-</td></tr><tr><td>米氮平</td><td>1</td><td>3</td><td>5</td><td>-</td><td>1</td><td>3</td><td>-</td></tr><tr><td>曲唑酮</td><td>2</td><td>1</td><td>1</td><td>-</td><td>1</td><td>-</td><td>-</td></tr><tr><td>利培酮</td><td>1</td><td>-</td><td>4</td><td>6</td><td>2</td><td>-</td><td>-</td></tr><tr><td>喹硫平</td><td>1</td><td>10</td><td>12</td><td>14</td><td>8</td><td>3</td><td>-</td></tr><tr><td>硝苯地平</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1</td><td>-</td></tr><tr><td>异丙嗪</td><td>1</td><td>-</td><td>3</td><td>59</td><td>10</td><td>-</td><td>-</td></tr><tr><td>奋乃静</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>奥沙西泮</td><td>1</td><td>-</td><td>16</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>氟哌啶醇</td><td>-</td><td>4</td><td>4</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>地西泮</td><td>-</td><td>1</td><td>1</td><td>1</td><td>-</td><td>-</td><td>-</td></tr><tr><td>普萘洛尔</td><td>-</td><td>-</td><td>1</td><td>1</td><td>1</td><td>-</td><td>-</td></tr><tr><td>多奈哌齐</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1</td><td>-</td></tr></table>",
+    "bbox": [
+      80,
+      636,
+      915,
+      921
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "中国医药导报 2020 年 7 月第 17 卷第 20 期",
+    "bbox": [
+      80,
+      46,
+      357,
+      59
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "· 药事管理 ·",
+    "bbox": [
+      761,
+      42,
+      910,
+      63
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "CH I NA M E D I CAL H E RALD Vol 1 7 No 20 J u ly 2020",
+    "bbox": [
+      531,
+      945,
+      857,
+      957
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "1 65",
+    "bbox": [
+      872,
+      945,
+      900,
+      956
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      961,
+      319,
+      978
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/f279cf0817468251f1a616fbcec7c3dc1394921c8f9c118c1db765d9509d44b0.jpg",
+    "table_caption": [
+      "表 3 CYP3A4 底物与底物联用医嘱统计（次）"
+    ],
+    "table_footnote": [
+      "注 “-”表示无数据"
+    ],
+    "table_body": "<table><tr><td rowspan=\"2\">底物</td><td colspan=\"14\">底物</td></tr><tr><td>奥沙西泮</td><td>丁螺环酮</td><td>氯硝西泮</td><td>阿普唑仑</td><td>地西泮</td><td>喹硫平</td><td>佐匹克隆</td><td>利培酮</td><td>多奈哌齐</td><td>氟哌啶醇</td><td>利多卡因</td><td>尼群地平</td><td>米氮平</td><td>西酞普兰</td></tr><tr><td>阿立哌唑</td><td>4</td><td>1</td><td>3</td><td>3</td><td>-</td><td>1</td><td>1</td><td>2</td><td>-</td><td>-</td><td>-</td><td>1</td><td>-</td><td>1</td></tr><tr><td>奥沙西泮</td><td>-</td><td>3</td><td>10</td><td>1</td><td>3</td><td>20</td><td>4</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1</td><td>-</td><td>7</td></tr><tr><td>氟哌啶醇</td><td>3</td><td>-</td><td>10</td><td>2</td><td>1</td><td>14</td><td>2</td><td>6</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>3</td></tr><tr><td>喹硫平</td><td>-</td><td>3</td><td>15</td><td>1</td><td>1</td><td>-</td><td>8</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1</td><td>-</td><td>-</td></tr><tr><td>米氮平</td><td>4</td><td>3</td><td>10</td><td>-</td><td>-</td><td>2</td><td>4</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>利培酮</td><td>9</td><td>1</td><td>2</td><td>-</td><td>-</td><td>6</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>西酞普兰</td><td>5</td><td>2</td><td>3</td><td>-</td><td>-</td><td>10</td><td>3</td><td>-</td><td>-</td><td>3</td><td>-</td><td>-</td><td>3</td><td>-</td></tr><tr><td>佐匹克隆</td><td>-</td><td>1</td><td>14</td><td>1</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>曲唑酮</td><td>1</td><td>-</td><td>1</td><td>-</td><td>-</td><td>4</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1</td><td>1</td></tr><tr><td>氯氮平</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>4</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>咪达唑仑</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>1</td><td>-</td><td>2</td><td>-</td><td>-</td><td>-</td></tr><tr><td>硝苯地平</td><td>-</td><td>-</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>唑吡坦</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1</td><td>1</td></tr></table>",
+    "bbox": [
+      80,
+      93,
+      915,
+      319
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/6bb17d619f760865d2113afb89b3b082cff971e3c5a44c55cd8901c6f25a8132.jpg",
+    "table_caption": [
+      "表 4 CYP3A4 底物与抑制剂联用医嘱统计（次）"
+    ],
+    "table_footnote": [
+      "注 “-”表示无数据"
+    ],
+    "table_body": "<table><tr><td rowspan=\"2\">抑制剂</td><td colspan=\"12\">底物</td></tr><tr><td>文拉法辛</td><td>佐匹克隆</td><td>阿立哌唑</td><td>利培酮</td><td>喹硫平</td><td>曲唑酮</td><td>丁螺环酮</td><td>氯硝西泮</td><td>米氮平</td><td>奥沙西泮</td><td>西酞普兰</td><td>唑吡坦</td></tr><tr><td>氟伏沙明</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>帕罗西汀</td><td>1</td><td>3</td><td>2</td><td>1</td><td>1</td><td>2</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>文拉法辛</td><td>-</td><td>3</td><td>2</td><td>1</td><td>3</td><td>1</td><td>-</td><td>8</td><td>6</td><td>7</td><td>3</td><td>1</td></tr></table>",
+    "bbox": [
+      80,
+      359,
+      915,
+      437
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/7fce210120ffa6b02ad5ce6e2872b85d83a1df579cdd5e922bb46c75f5149918.jpg",
+    "table_caption": [
+      "表 5 CYP2C19 底物与底物联用医嘱统计（次）"
+    ],
+    "table_footnote": [
+      "注 “-”表示无数据"
+    ],
+    "table_body": "<table><tr><td rowspan=\"2\">底物</td><td colspan=\"3\">底物</td></tr><tr><td>氯氮平</td><td>阿戈美拉汀</td><td>西酞普兰</td></tr><tr><td>奥沙西泮</td><td>4</td><td>2</td><td>7</td></tr><tr><td>丙戊酸镁</td><td>1</td><td>-</td><td>-</td></tr></table>",
+    "bbox": [
+      80,
+      473,
+      485,
+      536
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/fe4467d698b3a085effa451991340b812ead741f28993ffaa8454eb7ea26d0b2.jpg",
+    "table_caption": [
+      "表 6 CYP2C19 底物与抑制剂联用医嘱统计（次）"
+    ],
+    "table_footnote": [
+      "注 ： “-”表示无数据"
+    ],
+    "table_body": "<table><tr><td rowspan=\"2\">抑制剂</td><td colspan=\"3\">底物</td></tr><tr><td>奥沙西泮</td><td>地西泮</td><td>银杏达莫</td></tr><tr><td>舍曲林</td><td>16</td><td>-</td><td>1</td></tr><tr><td>奥美拉唑</td><td>2</td><td>2</td><td>-</td></tr></table>",
+    "bbox": [
+      80,
+      583,
+      485,
+      645
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "谢速度的变化 多种药物联用更容易产生代谢性相互作用[9]",
+    "bbox": [
+      80,
+      669,
+      485,
+      703
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "本研究显示 与 CYP2D6 相关的病历数最多 涉及的 CYP2D6 抑制剂[10]有帕罗西汀 舍曲林 西酞普兰氟哌啶醇 美托洛尔等 喹硫平的代谢产物是 CYP2D6弱抑制剂[11] 动物实验表明[12] 喹硫平与度洛西汀联用会增加后者的血药浓度",
+    "bbox": [
+      80,
+      708,
+      485,
+      799
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "与 CYP3A4 相关的医嘱条数最多 涉及喹硫平的有 149 次 与氯硝西泮联用的有 15 次 喹硫平可降低癫痫阈 与氯硝西泮联用使癫痫发作的风险增加[13-14]两者都经 CYP3A4 代谢 联合用药可能增加两者的血药浓度 增大不良反应发生率 与文拉法辛联用的医嘱有 3 次 文拉法辛经 CYP2D6 转化为活性代谢产物O-去甲基文拉法辛[15] Paulzen 等[16]研究发现喹硫平与文拉法辛联用时 文拉法辛和活性代谢物血药浓度均升高",
+    "bbox": [
+      78,
+      803,
+      485,
+      933
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      509,
+      461,
+      914,
+      495
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "西酞普兰在体内代谢为去二甲基西酞普兰[17] 主要 代 谢 酶 为 CYP2C19 CYP3A4 和 CYP2D6 李 晓芳[18] 李继等[19]研究发现西酞普兰与阿立哌唑合用对改善抑郁症状效果显著 可能因两者竞争多种代谢酶减慢西酞普兰的代谢 本研究发现两者联用的医嘱有 2 次 临床应注意西酞普兰血药浓度升高导致的药物不良反应 如神经系统症状 肠胃症状和性功能障碍[20-23]。",
+    "bbox": [
+      507,
+      499,
+      915,
+      646
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "综上 我院精神科住院患者的联合用药存在潜在代谢性药物相互作用的情况较多 多种药物联合造成医疗风险增加 建议临床医师严格掌握用药指征 学习药物的药物代谢动力学特点 了解潜在的药物相互作用 并对药物联合治疗加强监测 建议药师加强医嘱审核 识别和预防有害的药物相互作用 保证药物治疗的安全性和有效性",
+    "bbox": [
+      507,
+      651,
+      915,
+      783
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "[参考文献]",
+    "text_level": 2,
+    "bbox": [
+      668,
+      788,
+      756,
+      803
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1] 李珍 杨巧玲 刘晓东.甘南州 2014-2018 年严重精神障碍患者现状分析[J].中国公共卫生管理 2019 35 （3） ：416-418 425.",
+      "[2] Lambert TJ Reavley NJ Jorm AF e t al. Royal Australian and New Zealand College of Psychiatrists expert consensus statement for the treatment management and monitoring of the physical health of people with an enduring psy-",
+      "chotic illness [J]. Aust N Z J Psychiatry ， 2017 ， 51 （ 4 ） ：322-337.",
+      "[3] Monteith S ， Glenn T. A comparison of potential psychiatric drug interactions from six drug interaction database programs [J]. Psychiatry Res 2019 275 ： 366-372.",
+      "[4] 王毅 何雪梅 林萍.388 例精神障碍住院患者时点用药药物相互作用分析[J].中国药物滥用防治杂志 2016 22（2 ） 68-70 100.",
+      "[5] 沙碧君 周素凤 王璐 等.药物相互作用临床研究方法及进展[J].中国临床药理学与治疗学 2019 24 （9 ） ： 1037-1045.",
+      "[6] 姚多祥，修琪昆，陈依军，等.药物相互作用的研究进展[J].药物生物学术 2018 25 （6 ） ： 546-550.",
+      "[7] Munro AW ， McLeanKJ ， Grant JL ， et al. Structure and function of the cytochrome P450 peroxygenase enzymes [J].Biochem Soc Trans 2018 46 （1 ） ： 183-196.",
+      "[8] Guengerich FP Waterman MR Eqli M et al. Recent Struc-tural Insights into Cytochrome P450 Function [J]. Trendspharmacol Sci 2016 37 （8 ） ： 625-640.",
+      "[9] 魏春燕 吴逢波 徐珽.CYP450 与药物相互作用[J].中国药业 2014 23 （6 ） ： 17-20.",
+      "[10] 王传跃.P450 酶与精神药物的氧化代谢及相互作用[J].国外医学精神病学分册 1999 26 （3 ） ： 129-133.",
+      "[11] 陈颖 吴晓燕 瞿发林.非典型抗精神病药物的代谢及其引起的药物相互作用[J].实用药物与临床 2010 13（5 ） 374-376.",
+      "[12] Chen X Liang C Cui L et al. A rapid LC-MS/MS method for simultaneous determination of quetiapine and duloxetine in rat plasma and its application to pharmacokinetic interaction study [J]. J Food Drug Anal ， 2019 ， 27 （ 1 ） ： 323-331.",
+      "[13] 朱双燕 张清盛 王玮.联合用药致癫痫发作 1 例病例分析[J].中国药师 2016 19 （11 ） ： 2099-2101.",
+      "[14] 王素云 麦家铭 王占璋 等.118 例喹硫平药物不良反应/事件及其发生时间的相关性因素分析[J].中国临床药学杂志 2018 27 （6 ） ： 413-416.",
+      "[15] Schoretsanitis G Haen E Gründer G et al. Pharmacoki-netics of venlafaxine in treatment responders and non -responders ： a retrospective analysis of a large naturalisticdatabase [J]. Eur J Clin Pharmacol 2019 75 （8 ） ： 1109 -1116.",
+      "[16] Paulzen M Schoretsanitis G Hiemke C et al. Reduced clearance of venlafaxine in a combined treatment with quetiapine [J]. Prog Neuropsychopharmacol Biol Psychiatry 2018 85 116-121.",
+      "[17] 徐晓晨 刘跃辉 塔娜 等.CYP2C19 基因多态性及与其代谢相关药物的研究[J].中国现代医生 2018 56（1） ：165-168.",
+      "[18] 李晓芳.艾司西酞普兰合并阿立哌唑治疗精神病性症状抑郁症疗效观察[J].世界最新医学信息文摘 201818 （87 ） 103-104.",
+      "[19] 李继 王建军 李烨 等.草酸艾司西酞普兰对脑卒中后抑郁 认知及神经功能的影响[J].河北医科大学学报2017 38 （5 ） ： 589-592.",
+      "[20] 王胜鹏 郗昊 姚蕾.38 例西酞普兰及相关制剂致不良反应文献分析[J].中国药物滥用防治杂志 2018 24（4） ：211-214.",
+      "[21] 刘得水 李丽波 荣华 等.艾司西酞普兰联合黛力新治疗卒中后抑郁患者临床疗效分析[J].中国医药科学 20188 （20 ） ： 7-10.",
+      "[22] 周青.首发重症抑郁伴失眠患者应用艾司西酞普兰治疗的临床效果[J].中外医学研究 2018 16 （31 ） ： 126-127.",
+      "[23] 周朝雄.艾司西酞普兰与帕罗西汀治疗单项抑郁症的临床疗效及不良反应观察[J].当代医学 2018 24（22）152-153."
+    ],
+    "bbox": [
+      507,
+      806,
+      915,
+      932
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "· 药事管理 ·",
+    "bbox": [
+      85,
+      42,
+      235,
+      63
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "中国医药导报 2020 年 7 月第 17 卷第 20 期",
+    "bbox": [
+      628,
+      46,
+      915,
+      59
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "1 66",
+    "bbox": [
+      97,
+      945,
+      126,
+      954
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "CH I NA M E D I CAL H E RALD Vol 1 7 No 20 J u ly 2020",
+    "bbox": [
+      141,
+      945,
+      468,
+      957
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      961,
+      321,
+      978
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      80,
+      80,
+      485,
+      686
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      507,
+      78,
+      917,
+      665
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "（ 收稿日期 ： 2019-11-28 ）",
+    "bbox": [
+      744,
+      671,
+      912,
+      684
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "中国医药导报 2020 年 7 月第 17 卷第 20 期",
+    "bbox": [
+      80,
+      46,
+      357,
+      59
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "· 药事管理 ·",
+    "bbox": [
+      761,
+      42,
+      910,
+      63
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "CH I NA M E D I CAL H E RALD Vol 1 7 No 20 J u ly 2020",
+    "bbox": [
+      531,
+      944,
+      857,
+      957
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "1 67",
+    "bbox": [
+      872,
+      945,
+      899,
+      956
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      961,
+      319,
+      978
+    ],
+    "page_idx": 3
+  }
+]

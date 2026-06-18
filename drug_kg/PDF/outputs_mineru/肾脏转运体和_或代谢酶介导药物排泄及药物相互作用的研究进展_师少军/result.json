@@ -1,0 +1,1016 @@
+[
+  {
+    "type": "text",
+    "text": "· 综 述 ·",
+    "text_level": 2,
+    "bbox": [
+      92,
+      80,
+      152,
+      99
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "肾脏转运体和／或代谢酶介导药物排泄及药物相互作用的研究进展",
+    "text_level": 1,
+    "bbox": [
+      90,
+      129,
+      848,
+      149
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "师少军 ，张玉 （华中科技大学同济医学院附属协和医院药学部 ，湖北 武汉 ）",
+    "bbox": [
+      90,
+      170,
+      650,
+      185
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［摘要］ 肾脏是人体最重要的排泄器官 肾单元近端小管细胞具有多种药物转运体和代谢酶 在药物及其代谢物处置中发挥关键作用 近端小管细胞中主要转运体包括有机阴离子转运体 有机阳离子转运体 有机阳离子／肉毒碱转运体 多药及毒素外排转运蛋白 糖蛋白 乳腺癌耐药蛋白和多药耐药相关蛋白 ；主要代谢酶包括细胞色素 酶 ， 葡萄糖醛酸基转移酶 磺酸基转移酶 谷胱甘肽 转移酶 肾脏转运体和／或代谢酶介导药物相互作用（ ）是临床关注的重要问题 肾脏转运体和代谢酶存在密切协作关系 在肾脏也存在多种相互作用现象（包括转运 转运相互作用 代谢 代谢相互作用和转运代谢相互作用） 其显著影响药物肾脏处置 临床疗效和肾毒性 本文系统阐述了这些相互作用对药物及其代谢物的肾脏排泄 药动学 和肾毒性的影响 今后需要进一步阐明肾脏转运 代谢相互作用机制 将有助于研究体内药物肾脏处置和促进临床合理用药",
+    "bbox": [
+      87,
+      200,
+      905,
+      332
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［关键词］ 肾脏 ；近端小管细胞 ；药物转运体 ；药物代谢酶 ；相互作用 ；肾毒性",
+    "bbox": [
+      89,
+      336,
+      586,
+      350
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［中图分类号］ ［文献标识码］ ［文章编号］ （ ） ／",
+    "bbox": [
+      89,
+      353,
+      806,
+      366
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Recentadvancesinrenaldrugtransporterand／ordrugmetabolizingenzymeinterplayanditseffectondrug excretionanddrugdruginteractionsSHIShaojun ZHANGYu Dear",
+    "bbox": [
+      89,
+      376,
+      907,
+      409
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "， （ ， ， ，ofScienceandTechnology HubeiWuhan430022 China， ， ）Thekidne isthemostimortantexcretor or",
+    "bbox": [
+      87,
+      424,
+      905,
+      455
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "ABSTRACT:The kidney is the most important excretory organ of the human body. With its multitude of drug transporters and drug-metabolizing enzymes，the proximal tubule cell in the nephron plays a key role in the disposition of drugs and their metabolites.Drug transporters in PTC include organic anion transporters，organic cation transporters，organic cation/carnitine trans-porters，multidrug and toxic compound efflux transporters，P-glycoprotein， breast cancer resistance protein and multidrug resistance-associated proteins. And drug-metabolizing enzymes include cytochrome P45O enzyme，UDP-glucuronyltransferase, sulfotransferases and glutathione S-transferase. Renal drug transporters and/or drug-metabolizing enzymes-mediated drug-drug interactions(DDIs）are of significant clinical concern.Renal drug transporters and drug-metabolizing enzymes have a close cooperative relationship，and there are a variety of interplay in the kidney (including transport-transport，metabolism-metabolism，and transport-metabolism interplay），which could significantly affect drug disposition in the kidney，clinical efficacy and nephrotoxicity. In this paper，the effects of the interplay on renal excretion，pharmacokinetics，DDIs and nephrotoxicity of drugs and their metabolites are systematically described.In the future，the underlying mechanism of renal transport-metabolism interplay should be further elucidated，which will contribute to the study of drug renal disposal and DDIs in uivo and promote clinical rational drug use.",
+    "bbox": [
+      87,
+      470,
+      907,
+      687
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "KEY WORDS： ； ； ； ； ；",
+    "bbox": [
+      89,
+      690,
+      842,
+      705
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "肾脏是维持体液及电解质稳定的重要器官 ， 在清除内源性物质 药物及其代谢物 毒性分子消除过程中发挥关键作用， 进而影响药物临床疗效和安全性 药物肾脏排泄主要通过肾小球滤过 肾小管分泌及重吸收等过程协调实现 通过近端小管细胞（ ） 多种转运体和代谢酶12介导完成［ ］ 。 国际转运体研究委员会 （， ） 建 议 ， 阐明 药物及其代谢物肾脏清除机制 ， 对改善药物疗效和肾毒性、药物相互作用（ ， ）3具有重要临床意义［ ］",
+    "bbox": [
+      89,
+      726,
+      482,
+      873
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      726,
+      904,
+      778
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "肾小管分泌 ，即药物及其代谢物由血液侧向尿液侧转运，主要经过近端小管细胞基底侧膜摄取转运体和顶端膜外排转运体介导完成。 肾小管重吸收，即药物及其代谢物由尿液侧转运跨过顶端膜摄取进入细胞， 最 终 再 次 进 入 血 液 过 程 ， 主 要 经 近 端小管细胞顶端膜摄取转运体介导［ ］ 。 肾脏清除通常是药物及其代谢物消除主要途径 ， 可通过肾小球滤5过和转运介导分泌进入近端小管细胞［ ］ 。 近 年来，多证据表明肾脏具有显著代谢能力 ， 其含有多种药物代谢酶，这些药物代谢酶在清除内源性和外源性67化合物，以及产生肾脏 中发挥关键作用［ ］",
+    "bbox": [
+      510,
+      783,
+      905,
+      873
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "· ·",
+    "bbox": [
+      105,
+      60,
+      174,
+      71
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志 年 月第 卷第 期 ， ， ，",
+    "bbox": [
+      361,
+      58,
+      905,
+      70
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "「基金项目]国家自然科学基金项目（编号：82173902：81874326：82104274)：武汉市卫生健康科研基金面上项目（编号：WX21D55）：北京医学奖励基金会项目（编号 ： ） ［作者简介］ 师少军 男 博士 主任药师 教授 博士生导师 研究方向 ：临床药学和遗传药理学",
+    "bbox": [
+      87,
+      887,
+      907,
+      916
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      79,
+      482,
+      187
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "肾脏转运体和代谢酶存在密切协作关系 ， 在药89物肾脏处 置 以 及 中 发挥 重 要 作 用［ ］ 。 研 究发现，肝脏和肠道药物代谢酶与转运体存在相互作用，在肾脏也存 在 多 种 相 互 作 用 现 象 （包 括 转 运 转运相互作 用， 代 谢 代 谢相 互 作 用 和 转 运 代 谢相 互910作用）［ ］ 。 本文概述肾脏各种转运 代谢相互作用现象，并重点综述这些相互作用对肾脏药物及其代谢物体内处置 和 的 影响， 以期为临床合理用药提供指导。",
+    "bbox": [
+      89,
+      191,
+      482,
+      356
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 肾脏代谢酶和转运体简述",
+    "text_level": 2,
+    "bbox": [
+      90,
+      360,
+      315,
+      374
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 1 肾脏转运体 肾脏药物转运体分为溶质载体（ ） 家 族 和 结 合 盒 （1112， ） 家 族 （ 表 ） ［ ］ 。13",
+    "bbox": [
+      89,
+      378,
+      482,
+      431
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "肾脏 转运体主要包括［ ］ ： （ ）有机阴离子转 运 体 （ ， ） ，和 主要在肾脏表达 而主要在肝脏表达 和 主要在近端小管细胞基底侧膜表达 将有机阴离子从血液中摄取进肾小管细胞 与 完全不同1415其主要在近端小管细胞顶端膜表达［ ］ 。 （ ）有机阴离 子 转 运 多 肽 （， ） ， 是 在 肾脏唯一表达的 家族转运体 主要在近端小管细胞基底侧膜表达 参与多种内源性和外源性化合物（如甲状腺激素 强心苷类药物 尿毒症毒素等）跨膜转运 （ ） 有机阳离子转运体 （， ）和有机阳离子／肉毒碱 转 运 体（ ／ ， ） ，肾脏 主要包括 ， 其中和 ／ 主要在近端小管细胞顶端膜表达 而 与 主要在近端小管细胞基底侧膜表达 其中 是肾脏主要的参加体内大多数内源性有机阳离子 阳离子药物及毒物的肾脏排泄 同时也参与一些经肾小球滤过后的内源物及药物的重吸收 因此阳离子药物的药动学过程及肾毒性往往与肾脏 功能密切相1617关 ［ ］ 。 （ ） 多 药 及 毒 素 外 排 转 运 蛋 白 （and toxin extrusion transporters，MATEs）,MA-和人肾特异性 （ ）主要在近端小管细胞顶端膜表达 ， 通过质子交换介导有机阳18离子药物和代谢物最终排泄至尿液［ ］ 1920",
+    "bbox": [
+      89,
+      435,
+      484,
+      917
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      79,
+      904,
+      112
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "肾脏 转运体主要 包 括［ ］ ： （ ） 糖 蛋白（ ， ） ，主要在近端小管细胞顶端膜表达，参与药物及其代谢物肾脏排泄 ， 在药物处置中发挥重要作用。 （ ）多药耐药相关蛋白（drug resistance-associated proteins，MRPs）,与 P-相同， 和 主要在近端小管细胞顶端膜表达， 二 者 将 底 物 药 物 及 代 谢 物 主 动 转 运 出 细胞。 定位于远端小管基底外侧膜。 （ ）乳 腺癌 耐 药 蛋 白 （ ，） ，是 结合盒转运体中唯一半转运体 ， 是药物处置最重要的外排转运蛋白之一 ， 在 Ⅱ 相结合物转运中 发 挥 重 要 作 用。 肾 脏 主 要在 近 端小管细胞顶端膜表达 ， 对肾脏有机阳离子排泄具有21重要作用［ ］",
+    "bbox": [
+      510,
+      116,
+      905,
+      375
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/09f3eddbdd233c534443cbd1a6d7601804918ea126e5702c7c17a1c3b283ee24.jpg",
+    "table_caption": [
+      "表 1 人肾近端小管细胞主要表达转运体",
+      "Tab 1Major drug transporters expressed in human renal proximal tubule cells"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>转运体</td><td>编码基因</td><td>表达位置</td></tr><tr><td>有机阴离子转运体 1(OAT1)</td><td>SLC22A6</td><td>基底侧膜</td></tr><tr><td>有机阴离子转运体 3(OAT3)</td><td>SLC22A8</td><td>基底侧膜</td></tr><tr><td>有机阴离子转运体 4(OAT4)</td><td>SLC22A11</td><td>顶端膜</td></tr><tr><td>机阴离子转运多肽 4C1(OATP4C1)</td><td>SLCO4C1</td><td>基底侧膜</td></tr><tr><td>有机阳离子转运体 1(OCT1)</td><td>SLC22A1</td><td>顶端膜</td></tr><tr><td>有机阳离子转运体 2(OCT2)</td><td>SLC22A2</td><td>基底侧膜</td></tr><tr><td>有机阳离子转运体 3(OCT3)</td><td>SLC22A3</td><td>基底侧膜</td></tr><tr><td>新型有机阳离子转运体 1(OCTN1)</td><td>SLC22A4</td><td>顶端膜</td></tr><tr><td>新型有机阳离子转运体 2(OCTN2)</td><td>SLC22A5</td><td>顶端膜</td></tr><tr><td>多药及毒素外排转运蛋白 1(MATE1)</td><td>SLC47A1</td><td>顶端膜</td></tr><tr><td>多药及毒素外排转运蛋白 2-K(MATE2-K)</td><td>SLC47A2</td><td>顶端膜</td></tr><tr><td>寡肽转运体 1(peptide transporters 1,PEPT1)</td><td>SLC15A1</td><td>顶端膜</td></tr><tr><td>寡肽转运体 2(PEPT2)</td><td>SLC15A2</td><td>顶端膜</td></tr><tr><td>P-糖蛋白(P-gp)</td><td>ABCB1</td><td>顶端膜</td></tr><tr><td>多药耐药相关蛋白 2(MRP2)</td><td>ABCC2</td><td>顶端膜</td></tr><tr><td>多药耐药相关蛋白 4(MRP4)</td><td>ABCC4</td><td>顶端膜</td></tr><tr><td>乳腺癌耐药蛋白(BCRP)</td><td>ABCG2</td><td>顶端膜</td></tr></table>",
+    "bbox": [
+      515,
+      426,
+      904,
+      703
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 2 肾 脏代 谢 酶 越 来 越 多 证 据 表 明， 人 肾 细 胞具有多种药物代谢能力 ， 是肝外代谢主要组织 如2223表 ，肾脏药物代谢酶主要包括［ ］ ： （ ） 细胞色素酶（ ， ） ，人肾脏中主要表达 和 同时 在人肾脏表达多种家族酶， 主要为 ／ ／ ／ ，参与花生四烯酸和二十烷类药物代谢 （ ） 葡萄糖醛酸基转移酶 （， ） ，人肾脏中主要表达 ／ ／ ／／ ／ ／ 其中肾脏表达最丰富是 和 在花生四烯酸 前列腺素（ ） 、白三烯（ ）和 羟 二十烷四烯酸（ ）等物质代谢中发挥重要作用。 （ ）磺酸基转移酶（ ， ） 、谷胱甘肽转移酶 （ ， ） 及 酯酶等其他药物 代 谢 酶。 肾 脏 中 Ⅰ 相药物代谢酶含量和活性明显低于肝脏药物代谢酶 ， 而含有丰富 Ⅱ 相药物代谢酶，这些肾脏 Ⅰ 相和 Ⅱ 相药物代谢酶可提供“局部”解毒机制，可协调作用减少肾内肾毒性化合物暴露量，从而提高药物临床疗效和减轻肾毒性。",
+    "bbox": [
+      510,
+      715,
+      905,
+      917
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志 年 月第 卷第 期 ， ， ，",
+    "bbox": [
+      90,
+      57,
+      635,
+      70
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "· ·",
+    "bbox": [
+      818,
+      59,
+      889,
+      71
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/66af03071f3d8f4d4fd4f621b736cecb7c2592d3e71f99d0143052f839072e43.jpg",
+    "table_caption": [
+      "表 2 人肾近端小管细胞主要表达代谢酶及其代表性底物",
+      "Tab 2Major representative substrates of drug-metabolizing enzymes expressed in human renal proximal tubule cells"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>类别</td><td>名称</td><td>底物</td></tr><tr><td rowspan=\"6\">I相</td><td>CYP2B6</td><td>花生四烯酸、类固醇、类视黄醇、安非他酮、环磷酰胺、依非韦伦、异环磷酰胺、氯胺酮、异丙酚</td></tr><tr><td>CYP3A5</td><td>花生四烯酸、皮质醇、环孢素(CsA)、他克莫司(TAC)、卡马西平、咪达唑仑、他汀类药物、钙通道阻滞剂(如维拉帕米、硝苯地平)、HIV蛋白酶抑制剂(如茚地那韦、利托那韦)</td></tr><tr><td>CYP4A11</td><td>花生四烯酸、月桂酸</td></tr><tr><td>CYP4F2</td><td>花生四烯酸、白三烯(LTB4)</td></tr><tr><td>CYP4F8</td><td>花生四烯酸、前列腺素 H2(PGH2)</td></tr><tr><td>CYP4F11</td><td>花生四烯酸、白三烯(LTB4)、氯丙嗪、红霉素、丙咪嗪、茶碱</td></tr><tr><td rowspan=\"2\">II相</td><td>UGT1A9</td><td>花生四烯酸、前列腺素 E2(PGE2)、霉酚酸、达格列净、呋塞米、异丙酚、索拉非尼、磺吡酮</td></tr><tr><td>UGT2B7</td><td>花生四烯酸、20-羟-二十烷四烯酸(20-HETE)、醛固酮、表柔比星、吉非罗齐、吗啡、纳洛酮、非甾体抗炎药、前列腺素 E2(PGE2)、丙戊酸、齐多夫定</td></tr></table>",
+    "bbox": [
+      92,
+      111,
+      905,
+      262
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      272,
+      482,
+      437
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "综上，近端小管细胞转运体和代谢酶有助于大量药物及其代谢物的肾脏处置。 近年来， 肾小管分泌分子机制已逐渐被阐明 ， 这些转运体和代谢酶参与肾组织中 药 物 处 置 ， 并高度依赖二者协调作用。例如， 竞争性抑制将会导致肾清除率降低和2425药 物 蓄 积 ， 直 接 影 响 药 物 疗 效 和 肾 毒 性 ［ ］ 。 此外，其他药物通过调控肾脏转运体和代谢酶表达 ，可显著影响药物及其代谢物清除 ， 并 可 导 致 ，2627临床用药时须重点关注这些因素［ ］",
+    "bbox": [
+      89,
+      441,
+      482,
+      605
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2 肾脏转运 转运相互作用介导的影响",
+    "text_level": 2,
+    "bbox": [
+      89,
+      609,
+      393,
+      624
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2 1 相互作用现象 近端小管细胞摄取和外排转运体协调完成药物及其代谢物肾脏排泄 ， 不同转运体之间存在底物重叠 在肾脏常发生转运相互作用。 其中 和 是 近端 小 管 细 胞 基 底 侧膜主要有机阴离子摄取转运蛋白 ， 通过相互作 用， 在 底 物 摄 取 和 相 关 中 协同作用，促进药物及其代谢物从血液摄取进入近端小2829管细胞，随后被外排至尿液，反之亦然［ ］ 。",
+    "bbox": [
+      89,
+      627,
+      482,
+      772
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "体内有机阳离子药物和毒物转运 ， 首先通过近端小管细胞基底侧膜 摄取进入细胞， 然后通过顶端膜 排出细胞 在肾脏排泄过程中，／ 与 协同参与阳离子药物肾小管分泌 即存在 ／相互作用现象，当药物 与抑制 和转运活性或经 或 转运的药物 联用时， 将会影响药物 肾脏排泄并产生 分析这种相互作用机制可更好地理解转运蛋白介导3031药物处置过程和具有临床意义 ［ ］ ，见图 。",
+    "bbox": [
+      89,
+      777,
+      482,
+      923
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      273,
+      904,
+      307
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "image",
+    "img_path": "images/8e72011b7a8e13ce058faafdaf374a00c1353b75621910ff56e510e74439e5d3.jpg",
+    "image_caption": [
+      "图 人肾脏近端小管细胞药物 和药物 转运相互作用及药物相互作用示意图",
+      "Fig1A schematic representation of transport-transport interplay of drug A and drug B and drug-drug interactions in human proximal tubule cells"
+    ],
+    "image_footnote": [],
+    "content": "```mermaid\ngraph LR\n  A[\"药物A\"] --> B[\"OCT2\"]\n  C[\"药物B\"] --> D[\"MATEs\"]\n  B --> E[\"肾近端小管细胞\"]\n  D --> E\n  E --> F[\"尿\"]\n    style A fill:#f9f,stroke:#333\n    style C fill:#f9f,stroke:#333\n    style B fill:#ccf,stroke:#333\n    style D fill:#ccf,stroke:#333\n    style E fill:#cfc,stroke:#333\n    style F fill:#fcc,stroke:#333\n```",
+    "sub_type": "flowchart",
+    "bbox": [
+      576,
+      316,
+      842,
+      410
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2 2 对药物排泄和 的影响 研究表明肾脏转运蛋白发生相互作用， 影响药物排泄和产生32［ ］ 甲氨蝶呤 （ ） 通过肾脏主动排泄 ， 主要由近端小管细胞基底侧膜摄取转运体 （ 、）和顶端膜外排转运体（ ）共同介导作用 非甾体抗炎药 （） 具有抑制 作用 导致 肾脏消除受损， 出现药物积累并会导致严重骨髓抑制不良反应 ， 发生 。 临床上，相互作用参与多种药 物 肾 脏 消 除 ， 其 中 包 括利尿剂（如噻嗪类、呋塞米） ， （如布洛芬、吲哚美辛） ， 头孢菌素 （如头孢哌酮、 头孢曲松） ， 抗病19毒药物（如阿德福韦、替诺福韦）［ ］ 。 在疾病状态下肾脏 、 和 等转运体表达失衡，将使药物肾脏 排 泄 受 损 ， 导 致 药 物 浓 度 升 高 ， 并 可 能33发生肾毒性［ ］",
+    "bbox": [
+      510,
+      495,
+      905,
+      788
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "与阴离子转运体相互作用相似 阳离子转运体也可形成 多 种 药 物 竞 争。 近 端 小 管 细 胞 有 机 阳 离子药物经 转运进入细胞， 再经顶端膜和 转运分泌 形成 ／相互作用， 影响药物临床疗效和不良反34应［ ］ 摄取转运体竞争可导致 ，抗糖尿病药物二甲双胍和抗癌药物顺铂为 典型底物，有关肾脏转运相互作用对肾脏排泄和 作3536用研究报道甚多［ ］ 。",
+    "bbox": [
+      510,
+      791,
+      907,
+      919
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "· ·",
+    "bbox": [
+      105,
+      60,
+      176,
+      71
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志 年 月第 卷第 期 ， ， ，",
+    "bbox": [
+      361,
+      58,
+      905,
+      70
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      979
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      79,
+      485,
+      112
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "二甲双胍肾脏排泄首先经 摄取进入细胞 随后经 ／ 介导跨过顶端膜刷状缘排出至尿液， 因此 ／35相互作用介导二甲双胍肾脏主动分泌［ ］ 。 当二甲双胍与抑制 和 转运活性或经或 转运的药物联用时 ，可影响二甲双胍肾脏排泄并发生 ， 临床用药时应重点关注 ， 必要时需进行 治 疗 药 物 监 测。 临 床 上， 西 咪 替 丁、 乙 胺嘧啶 甲氧苄啶 恩丹司琼 雷贝拉唑 维拉帕米等药物常与二甲双胍联用 ， 这些既是 抑制剂，亦是 强抑制剂， 且对后者抑制作用更37强［ ］ 。 例如，西咪替丁对 和 的抑制常数（ ）值分别较 抑制低约 和倍；乙胺嘧啶对 和 的 值分别较 抑制低 倍和 倍；甲氧苄啶对和 的 值分别较 抑制低倍和 倍 因此， 西咪替丁通过抑制 和肾小管分泌， 使二甲双胍药 时曲线下面积（ ）增加 ；西咪替丁可使二甲双胍肾脏清除率（ ／ ）下降，但 基因 的 等位基因携带者下降程度显著低于 等位基因携带者结果表明，这些药物与二甲双胍的 主要是其38对 抑制作用所致［ ］",
+    "bbox": [
+      89,
+      117,
+      484,
+      543
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "同样，抗逆转录病毒药物度鲁特韦为第二代整合酶链转移抑制剂（ ） ， 与二甲双胍联用可使 增加 至 ，血药峰浓度（ ）增加 至 度鲁特韦通过 抑制肾小39管分泌是其主要原因之一［ ］ 法莫替丁是第三代组织胺 受体拮抗剂， 其是 抑制剂 法莫替丁与二甲双胍联用时 ， 其可同时引起二甲双胍吸收和肾清 除 率 增 加， 二者呈现相反影响 ， 导 致 二甲双胍血浆暴露（ 和 ）和肾脏清除（ ／ ）无显著改变 此结果与上文介绍非选择性40抑制剂西咪替丁、乙胺嘧啶有所不同［ ］ 。 临床应重点关注二甲双胍与药物联用时可能产生具有临床意义的 推荐将二甲双胍作为评估新药41抑制 和 作用的体内探针药［ ］",
+    "bbox": [
+      89,
+      546,
+      482,
+      804
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "顺铂是治疗实体瘤最常用细胞毒药物 ， 其疗效与剂量成正比 但剂量依赖性肾毒性极大限制了其临床应用 近端小管细胞是顺铂致肾毒性的主要靶位，该组织顺铂蓄积显著高于其他组织。 顺铂主要通过 转运经血液进入近端小管细胞 再经或 泵出细胞进入尿液， 因此研究 ／ 相互作用对提高顺36铂临床疗效和降低肾毒性具有重要意义［ ］ 。基因多态性与顺铂 肾毒性具有相关性 ，42等［ ］研究表明， 基因 的 等位基因携带者放化疗 期 间 肾 毒 性 显 著 增 加 （ ＜ ） ，43但亦有研究得出不 一 致 结 论［ ］ 。 基 于／ 相互作用机制 ， 临床可联用选择性抑制剂来减轻顺铂肾毒性。 但许多 抑制剂同时抑制 ，且对后者抑制作用更强 ，从而导致近 端 小 管 细 胞 顺 铂 蓄 积 和 肾 毒 性 发 生。 事实上， 强抑制药物（如乙胺嘧啶、昂丹司琼）与顺铂联用 时， 可 抑 制 顺 铂 肾 排 泄 ， 导 致 药 物 蓄 积3743并加重其肾毒性［ ， ］",
+    "bbox": [
+      89,
+      809,
+      482,
+      917
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      79,
+      907,
+      325
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "3 肾脏代谢 代谢相互作用介导的影响",
+    "text_level": 2,
+    "bbox": [
+      512,
+      330,
+      815,
+      344
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "3 1 相互作用现象 肾脏 Ⅰ 相药物代谢酶（ ）和 Ⅱ 相药物代谢酶 （ 、 、 ） 共同发挥对肾毒性化合物、 药物及其代谢物体内清除作2223用，进而调节肾内药物暴露和反应［ ］ 。 值得注意的是， 肾脏 Ⅰ 相代谢酶（ ）和 Ⅱ 相代谢酶（如、 ） 可 协 调 作 用 ， 存 在 45／ 相互作用，共同维持肾脏稳态［ ］",
+      "3 2 对药物排 泄 和 的 影响 肾 脏表达水平研究表明 ， 底物在肾脏的葡萄糖醛酸化作用有助于其全身清除。 因 此， 肾 脏／ 相 互 作 用 在 肾 脏 稳 态 中 发 挥 重 要作 用 。"
+    ],
+    "bbox": [
+      510,
+      349,
+      907,
+      575
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "花生四烯酸是人体必需脂肪酸之一 ， 其代谢物具有较强的生物学活性 ， 并在众多生理及病理过程中发挥重 要 调 节 作 用。 其 中 花 生 四 烯 酸 经 肾 脏 Ⅰ相代谢酶 ／ 代谢产生环氧二十碳三烯酸 （ ， ） 和 羟 二 十烷 四 烯 酸 （ ，） ， 经 环 氧 化 酶 代 谢 产 生 前 列 腺 素（ ） 肾脏 Ⅱ 相代谢酶 和在花生四烯酸 羟 二十烷四烯酸（ ） 前列腺素 （ ） 进 一步 代 谢 过 程 中 发 挥 重 要 作用 和 葡萄糖醛酸酯一系列脂肪酸，特别是 、 、 和 饱和脂肪酸和不饱和脂肪酸 因此， 肾脏葡萄糖醛酸化可调节花生四烯酸转化为 ，限制对近端小管细胞有毒的脂肪酸蓄积 和 还能催化的葡萄糖醛酸化作用 结果表明 葡萄糖醛酸化减少了其对钠潴留的影响 ， 而 和22葡萄糖醛酸化有助于维持肾脏稳态［ ］",
+    "bbox": [
+      510,
+      579,
+      907,
+      917
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志 年 月第 卷第 期 ， ， ，",
+    "bbox": [
+      90,
+      57,
+      635,
+      71
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "· ·",
+    "bbox": [
+      818,
+      59,
+      889,
+      72
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      836,
+      979
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "4 肾脏转运 代谢相互作用介导的影响",
+    "text_level": 2,
+    "bbox": [
+      89,
+      80,
+      391,
+      93
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "4 1 相互作用现象 肾脏转运体可显著影响肾脏药物代谢， 在很大程度上影响药物疗效和肾毒性。表达在近端小管细胞顶端膜 作为一种细胞膜糖蛋白，其依赖能量将药物从细胞内泵出 ， 降低细胞内药物浓度，可调节肾脏 的代谢程度，出4647现 相互作用现象［ ］",
+    "bbox": [
+      89,
+      98,
+      482,
+      206
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "在肾脏， Ⅱ 相药物代谢物一旦形成 （如葡萄糖醛酸结合物、硫酸盐结合物） ， 则需要外排转运出细胞，肾脏外排 转 运 体 （ 、 ） 与 肾脏 清 除 密切有关。 Ⅱ 相药物代谢物从细胞内到细胞外排泄包括两个关键过程， 即代谢物形成和排泄。 因此，Ⅱ 相药物代 谢 酶（ 、 ） 对 药物 代 谢 及 外排转运体（ 、 ）对代谢物排泄两个动力学48过程存在相互作用［ ］ 。 Ⅱ 相代谢作用是可逆的，肾脏外排转运体介导代谢物分泌过程对于维持近端小管细胞药物及其代谢物浓度至关重要。 因此， 人肾近端小管细胞转运（ 、 ） 代谢（ 、）相互作用机制将显著影响肾脏药物及其代10谢物排泄（图 ）［ ］",
+    "bbox": [
+      89,
+      210,
+      482,
+      450
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "image",
+    "img_path": "images/2dac2df58060e008ea018e542a139b5f282d9456d86a65a5d34b02c03e89391f.jpg",
+    "image_caption": [
+      "图 人肾脏近端小管细胞转运 代谢相互作用对药物及其代谢物排泄的影响",
+      "Fig 2Effects of transport-metabolism interplay on drug and its metabolite excretion in human proximal tubule cells"
+    ],
+    "image_footnote": [],
+    "content": "```mermaid\ngraph LR\n  A[\"药物\"] --> B[\"SULTs\"]\n  A --> C[\"UGTs\"]\n  B --> D[\"硫酸盐结合物\"]\n  C --> E[\"葡萄糖醛酸结合物\"]\n  D --> F[\"BCRP\"]\n  E --> G[\"MRPs\"]\n  F --> H[\"尿\"]\n  G --> H\n```",
+    "sub_type": "flowchart",
+    "bbox": [
+      127,
+      458,
+      448,
+      563
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "4 2 对药物 排 泄 和 的 影响 肾 脏 转 运 体 和代谢物共同协调药物及其代谢物的全身和局部水平。 基于肾脏转运 代谢相互作用机制，对研究药物肾脏排泄和 具有重要临床意义。",
+    "bbox": [
+      89,
+      636,
+      482,
+      708
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "转运体介导的葡萄糖醛酸结合物外排是细胞或组织药物葡萄糖醛酸化的一个重要步骤。亲水葡萄糖醛酸代谢物通过胆汁或尿液比未结合的原型药 物 更 有 效 地 从 体 内 排 出。 由 于 葡 萄 糖 醛酸结合物可抑制 活性， 可将化合物从近端小管细胞排出， 从而防止积累的葡萄糖醛酸结合物抑制 活性，因此 和 在化合物的排出过程中具有协同作用 当代谢物被转运出细胞， 活性显著增加 相反， 抑制活性降低代谢物外排时， 近端小管细胞内葡萄糖醛酸结合物浓度增加， 导致 代谢活性受到抑制 代谢物将显著减少［ ］",
+    "bbox": [
+      89,
+      712,
+      482,
+      917
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      512,
+      79,
+      766,
+      93
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "霉酚酸（ ）是免疫抑制剂霉酚酸酯（ ）活性部分，可单独或与其他免疫抑制剂如钙调神经磷酸酶抑制剂 联用，有效控制器官移植排斥反应发生。 主要通过肾脏清除 ， 以其代谢物 羟基霉酚酸葡萄糖醛酸（ ）出现在尿液。和 经 近端 小 管 细 胞 基 底 侧 膜和 从血液到近端小管细胞的主动摄取 ，随后经近端小管细胞顶端膜和 排至尿液。 研究表明， 可通过 抑 制 肾 脏 葡萄糖醛酸化和介导 分 泌 来 影 响 清 除 ， 产 生50［ ］ 。",
+    "bbox": [
+      510,
+      98,
+      905,
+      299
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "主要在人近端小管细胞顶端膜上表达 ，其参与有机化合物的尿排泄。 由于 和具有重叠的底物特异性 ， 他们在药物处置和消除中存在协同 作 用， 存 在 肾 脏 相 互作 用 现象 。 例如 ， 依 达 拉 奉 作 为 一 种 自 由 基 清 除 剂 ， 其 硫酸盐结合 物 主 要 通 过 尿 液 排 出。 与 野 生 型 小 鼠 相比， 基因敲除小鼠肾脏中硫酸依达拉奉清除明显降低，提 示 参 与硫酸依达拉奉外排。 应 用表 达 细胞进行摄取实验 ， 结 果 与／ 小鼠的动 物 实 验 相 同 ， 研 究 表 明 硫 酸 依 达 拉奉呈 依赖性摄 取 增 加 ， 相 互作 用910显著影响依达拉奉肾排泄［ ］",
+    "bbox": [
+      510,
+      304,
+      907,
+      525
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "综上，肾脏转运体和代谢酶及其相互作用机制可显著影响药物及其代谢物临床疗效和不良反应在评估和预测肾脏转运体和／或代谢酶介导的时，须考虑肾 脏 转 运 相 互 作 用 ， 代 谢 相 互 作 用 和 转运 代谢相互作用机制 ，充分评估其用药风险。",
+    "bbox": [
+      510,
+      527,
+      905,
+      619
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "5 结语与展望",
+    "text_level": 2,
+    "bbox": [
+      512,
+      621,
+      633,
+      636
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "肾脏是人 体 排 泄 药 物 及 其 代 谢 物 的 最 重 要 器官，涉及三个过程， 即肾小球滤过 近端小管细胞主动分泌和重吸收、肾远端小管被动重吸收。 这些过程中每个环节都将影响药物及其代谢物清除率 ， 并将最终影响药物临床疗效和肾毒性 ， 并可能产生具有临床意义 。",
+    "bbox": [
+      510,
+      640,
+      905,
+      749
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "肾脏转运体主要集中在近端小管细胞表达 ， 在内源性或外源性物质肾脏分泌及重吸收中发挥重要作用 同时， 肾脏也是人体重要肝外代谢组织 ，含有多种 Ⅰ 相 和 Ⅱ 相 代 谢 酶。 药 物 及 其 代 谢 物 肾脏排泄涉及多种转运体和代谢酶协调作用 ， 我们不仅要考虑肾脏转运体和代谢酶的单独作用 ， 也要考虑到他们的协调作用影响 （包括转运 转运相互作用 代谢 代谢相互作用 转运 代谢相互作用） 尤其是底物重叠的药物 ， 或者当药物及其代谢物是转运体和代谢酶底物时 研究表明， 转运体或代谢酶基因表达和活性协同调控 ，但肾脏转运 代谢相互作用机制较复杂，有待进一步研究来阐明其对药物及其5153代谢物在肾脏处置及 中的关键作用［ ］ 。",
+    "bbox": [
+      510,
+      753,
+      905,
+      917
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "· ·",
+    "bbox": [
+      105,
+      60,
+      176,
+      71
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志 年 月第 卷第 期 ， ， ，",
+    "bbox": [
+      361,
+      58,
+      905,
+      70
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      79,
+      482,
+      151
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "当肾脏转运体和／或代谢酶对药物清除有 显 著影响时，可能发生临床相关肾脏 需要指出的是，与肝脏代谢酶和／或转运体相关 有所不同，归因于肾脏 的药物暴露变化幅度一般小于 倍。 但对肾功能受损患者， 我们必须认真评估42药物及 其 代 谢 物 发 生 的 潜 在 风 险［ ］ 。 中 国5456和 发 布 指 南 明 确 指 出 ［ ］ ， 进 行研 究 时 ， 应 充 分 评 估 肾 脏 转 运 体 （ 、OAT3、OCT2、BCRP、MRPs、MATE1和MATE2-） 或 代 谢 酶 （ 、 、 、 ） 抑 制 或诱导作用。 特别是， 当肾脏主动分泌清除率占总清除率 以上时，应评估确定该药物是否为肾脏转运体或代谢酶的底物。 因此， 在药物研发和临床应用过程中，我们应该充分评估肾脏转运 代谢相互作用机制介导的 肾 脏 排 泄 及 潜 在风 险， 为 制 定临床合理用药方案提供支撑",
+    "bbox": [
+      89,
+      154,
+      485,
+      449
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "参考文献 ：1 Nigam",
+    "text_level": 2,
+    "bbox": [
+      92,
+      451,
+      161,
+      464
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1]Nigam SK，Bush KT,Bhatnagar V，et al.The systems biology of drug metabolizing enzymes and transporters：relevance to quantitative systems pharmacology[J]. Clin Pharmacol Ther, 2020，108(1):40-53.",
+      "[2]Oswald S,Muller J,Neugebauer U,et al.Protein abundanceof clinically relevant drug transporters in the human kidneys［ ］ （ ） ：",
+      "[3]Zamek-Gliszczynski MJ，Taub ME,Chothe PP，et al．Trans-porters in drug development：2018 ITC recommendations fortransporters of emerging clinical importance[J]. Clin Pharma-col Ther，2018，104(5)：890-899.",
+      "[4]Koepsell H. Organic cation transporters in health and disease［ ］ ， ， （ ） ：",
+      "[5]Zamek-Gliszczynski MJ，Chu XY，Polli JW，et al．Understanding the transport properties of metabolites：case studies and considerations for drug development[J].Drug Metab Dispos，2014，42(4)：650-664.",
+      "[6]Yang YT,Li P,Zhang ZX，et al.Prediction of cyclosporin mediated drug interaction using physiologically based pharma cokinetic model characterizing interplay of drug transporters and enzymes[J].Int JMol Sci，2020，21(19)：7023.",
+      "[7]Tornio A，Filppula AM，Niemi M，et al．Clinical studies on drug-drug interactions involving metabolism and transport: methodology，pitfalls，and interpretation[J]． Clin Pharmacol Ther，2019，105(6)：1345-1361.",
+      "[8]Benet LZ. The drug transporter-metabolism alliance：uncove-ring and defining the interplay[J]．Mol Pharm，2Oo9，6（6）：1631-1643.",
+      "［ ］ Shi SJ，Li YQ. Interplay of drug-metabolizing enzymes andtransporters in drug absorption and disposition[J]. Curr DrugMetab，2014，15(10)：915-941,",
+      "[10] Tian Y，Bian YC,Jiang Y，et al. Interplay of breast cancer",
+      "resistance protein （BCRP） and metabolizing enzymes[J]. CurrDrug Metab，2015，16(10)：877-893.",
+      "[11] Chung S，Kim GH. Urate transporters in the kidney：whatclinicians need to know[J].Electrolyte Blood Press，2021，19（ ） ：",
+      "[12] Yee SW，Giacomini KM.Emerging roles of the human solute carrier 22 family[J].Drug Metab Dispos，2021：2021Decl7; DMD-MR-2021-000702.",
+      "[13] Turková A，Zdrazil B. Current advances in studying clinically relevant transporters of the solute carrier（SLC）family by connecting computational modeling and data science[J]. Comput Struct Biotechnol J，2019，17：390-405.",
+      "[14] Zhang JH，Wang HX,Fan YZ，et al.Regulation of organic anion transporters：role in physiology，pathophysiology，and drug elimination[J].Pharmacol Ther，2021，217：107647.",
+      "[15] Zou L,Matsson P，Stecula A,etal.Drug metabolites potent-ly inhibit renal organic anion transporters，OAT1 and OAT3［ ］ ， ， （ ） ：",
+      "[16]Koepsell H.Update on drug-drug interaction at organic cation transporters：mechanisms，clinical impact，and proposal for advanced in vitro testing[J].Expert Opin Drug Metab Toxicol，2021，17(6)：635-653.",
+      "[17］Samodelov SL，Kullak-Ublick GA，Gai ZB，et al．Organiccation transporters in human physiology，pharmacology，and［ ］ ， ， （ ） ：",
+      "[18]KantauskaitéM,Hucke A，Reike M,et al．Rapid regulationof human multidrug and extrusion transporters hMATEl and［ ］ ， ， （ ） ：",
+      "[19]Drozdzik M，Drozdzik M，Oswald S.Membrane carriers and transporters in kidney physiology and diseaseJ]． Biomedicines，2021，9(4)：426.",
+      "[20] Ciarimboli G.Physiology，biochemistry，and pharmacology oftransporters for organic cations[J]． Int J Mol Sci，2021，22（ ） ：",
+      "[21]Kukal S,Guin D,Rawat C,et al.Multidrug efflux transport-er ABCG2：expression and regulation[J]. Cell Mol Life Sci,2021，78(21/22)：6887-6939.",
+      "[22]Knights KM,Rowland A，Miners JO.Renal drug metabolismin humans：the potential for drug-endobiotic interactions invol-ving cytochrome P450 （CYP）and UDP-glucuronosyltrans-ferase（UGT）[J]．BrJClin Pharmacol，2013，76（4）：587-602.",
+      "[23]Bajaj P，Chowdhury SK，Yucha R，et al．Emerging kidneymodels to investigate metabolism，transport，and toxicity of［ ］ ， ， （ ） ：1692-1702.",
+      "[24] Zou L，Stecula A，Gupta A，et al．Molecular mechanisms forspecies differences in organic anion transporter 1，OAT1：im-plications for renal drug toxicityJ]，Mol Pharmacol，2o18，94（ ） ：",
+      "[25] Yang XN,Han L. Roles of renal drug transporter in drug disposition and renal toxicity[J].Drug Transporters in Drug Disposition，Effects and Toxicity，2018，94(1)：689-699.",
+      "[26] Chu XY，Chan GH，Evers R.Identification of endogenous biomarkers to predict the propensity of drug candidates to causehepatic or renal transporter-mediated drug-drug interactions［ ］ （ ） ：",
+      "[27]Li Y，Talebi Z,Chen XH，et al．Endogenous biomarkers for SLC transporter-mediated drug-drug interaction evaluation[J].",
+      "Molecules，2021，26(18)：5500.",
+      "[28]Granados JC，Richelle A，Gutierrez JM，et al．Coordinate regulation of systemic and kidney tryptophan metabolism by the drug transporters OAT1 and OAT3[J].J Biol Chem, 2021，296：100575.",
+      "[29]Liu XD.Overview：role of drug transporters in drug disposition and its clinical significance[J].Adv Exp Med Biol，2019, 1141:1-12.",
+      "[30] George B,Wen X,Jaimes EA，et al.In vitro inhibition of renal OCT2 and MATE1 secretion by antiemetic drugs[J].Int J Mol Sci，2021，22(12)：6439.",
+      "[31]Hernández-LozanoI,Mairinger S，SaubererM，etal．Influ-ence of cation transporters（OCTs and MATEs）on the renaland hepatobiliary disposition of[11 C]metoclopramide in mice［ ］ ， ， （ ） ：",
+      "[32] Ivanyuk A，Livio F,Biollaz J，et al.Renal drug transporters［ ］ ， ， （ ） ：825-892.",
+      "[33］Yang YT，Liu XD.Imbalance of drug transporter-CYP450sinterplay by diabetes and its clinical significance[J].Pharma-， ， （ ） ：",
+      "「34] YinJ，Duan HC,WangJ.Impact of substrate-dependent inhi-bition on renal organic cation transporters hOCT2andhMATE1/2-K-mediated drug transport and intracellular accu［ ］ ， ， （ ） ：",
+      "[35]Yang YT，Zhang ZX，LiP，et al．A whole-body physiologically based pharmacokinetic model characterizing interplay of OCTs and MATEs in intestine，liver and kidney to predict drug-drug interactions of metformin with perpetrators [J]. Pharmaceutics，2021，13(5)：698.",
+      "[36]Freitas-Lima LC，Budu A，Arruda AC，et al.PPAR-α dele tion attenuates cisplatin nephrotoxicity by modulating renal organic transporters MATE-1 and OCT-2[J]．Int J Mol Sci, 2020，21(19)：7416,",
+      "[37] Yin J，Wang J.Renal drug transporters and their significance［ ］ ， ， （ ） ：363-373.",
+      "「38]Feng B，Varma MV.Evaluation and quantitative prediction ofrenal transporter-mediated drug-drug interactions[J].J Clin， ， （ ） ：",
+      "[39] Song IH，Zong J，Borland J，etal．The effect of dolutegraviron the pharmacokinetics of metformin in healthy subjects[J].J， ， （ ） ：",
+      "[40] Hibma JE,Zur AA，Castro RA，et al．The effect of famoti-dine，a MATE1-selective inhibitor，on the pharmacokineticsand pharmacodynamics of metformin[J]. Clin Pharmacokinet,（ ） ：",
+      "[41] Zamek-Gliszczynski MJ，Chu XY，Cook JA，et al．ITC commentary on metformin clinical drug-drug interaction study design that enables an efficacy-and safety-based dose adjustment decision[J].Clin Pharmacol Ther，2018，104(5)：781-784.",
+      "[42]Driessen CM，Ham JC，LooMT，et al.Genetic variants as predictive markers for ototoxicity and nephrotoxicity in patients with locally advanced head and neck cancer treated with cisplatin-containing chemoradiotherapy (the PRONE study) ［ ］ （ ）",
+      "[43]Iwata K，Aizawa K，Kamitsu S,et al.Effects of genetic vari-ants in SLC22A2 organic cation transporter 2 and SLC47A1multidrug and toxin extrusion 1 transporter on cisplatin-in-［ ］ ， ， （ ） ：843-851.",
+      "[44]LiQ,Guo D,Dong ZQ，et al.Ondansetron can enhance cispl-atin-induced nephrotoxicity via inhibition of multiple toxin andextrusion proteins（MATEs）[J]．Toxicol Appl Pharmacol,， （ ） ：",
+      "[45]Miners JO，Yang X，Knights KM，et al．The role of the kid-ney in drug elimination：transport，metabolism，and the im-pact of kidney disease on drug clearance[J]. Clin Pharmacol T-， ， （ ） ：",
+      "[46]Bohmdorfer M,Maier-Salamon A，Riha J，etal．Interplay ofdrug metabolizing enzymes with cellular transporters[J].WienMed Wochenschr，2014，164(21/22)：461-471.",
+      "[47]van Waterschoot RAB,Schinkel AH.A critical analysis of the interplay between cytochrome P45o 3A and P-glycoprotein: recent insights from knockout and transgenic mice[J].PharmacolRev，2011，63(2)：390-410.",
+      "[48] Jiang HY，Yu J，Zheng HH,et al．Breast cancer resistanceprotein and multidrug resistance protein 2 regulate the disposi-［ ］ ， ， （ ） ：1402-1415.",
+      "［ ］ ， ， ， ：factors and their impact on glucuronide disposition[J]. DrugMetab Rev，2017，49(2)：105-138.",
+      "[50]El-SheikhAAK，KoenderinkJB，Wouterse AC，etal.Renal glucuronidation and multidrug resistance protein 2-/ multidrug resistance protein 4-mediated efflux of mycophenolic acid：interaction with cyclosporine and tacrolimus[J]．Transl Res, （ ） ：",
+      "[51] Zazuli Z,Duin NJCB,Jansen K,et al． The impact of genetic polymorphisms in organic cation transporters on renal drug disposition[J]，IntJMol Sci，2020，21(18)：6627,",
+      "[52] Lozano E，Briz O,Macias RIR，et al.Genetic heterogeneityof SLC22 family of transporters in drug disposition[J].JPersMed，2018，8(2)：14.",
+      "[53]Wongwan T，Chatsudthipong V，Soodvilai S. Farnesoid X re-ceptor activation stimulates organic cations transport in human［ ］ ， ， （ ） ：6078.",
+      "[54] Center for Drug Evaluation (CDE)： Guidelines for Drug Interaction[S]．Accessed January 5，2022",
+      "[55]FDA guidance for industry：Clinical Drug Interaction Studies —Cytochrome P450 Enzyme-and Transporter-Mediated Drug Interactions).U.S.Department of Health and Human Serv ices Food and Drug Administration Center for Drug Evaluation and Research(CDER)[S]．Accessed December 30，2021.",
+      "[56]FDA guidance for industry：In Vitro Drug Interaction Studies -Cytochrome P45o Enzyme- and Transporter-Mediated Drug Interactions).U.S.Department of Health and Human Serv ices Food and Drug Administration Center for Drug Evaluation and Research(CDER)「S]．Accessed December 30，2021."
+    ],
+    "bbox": [
+      85,
+      466,
+      489,
+      920
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      507,
+      74,
+      910,
+      920
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "resistanceprot中国医院药学杂志 年 月第 卷第 期 ， ， ，",
+    "bbox": [
+      90,
+      58,
+      635,
+      70
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "zymesJ ．C· ·",
+    "bbox": [
+      818,
+      60,
+      889,
+      71
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      979
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      90,
+      80,
+      485,
+      873
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      514,
+      79,
+      905,
+      844
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "［收稿日期］",
+    "bbox": [
+      771,
+      845,
+      902,
+      858
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "page_number",
+    "text": "Molecule· ·",
+    "bbox": [
+      105,
+      60,
+      176,
+      71
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "43 IwataK AizawaK KamitsuS ．Effectsofgeneticvari中国医院药学杂志 年 月第 卷第 期 ， ， ，",
+    "bbox": [
+      361,
+      58,
+      905,
+      70
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 6
+  }
+]

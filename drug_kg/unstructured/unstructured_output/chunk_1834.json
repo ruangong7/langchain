@@ -1,0 +1,171 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Food",
+        "name": "巧克力",
+        "canonical_name": "巧克力",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "单胺氧化酶抑制剂",
+        "canonical_name": "单胺氧化酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "苯乙肼",
+        "canonical_name": "苯乙肼",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "强内心百乐明",
+        "canonical_name": "强内心百乐明",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "抑郁症",
+        "canonical_name": "抑郁症",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Symptom",
+        "name": "血压升高",
+        "canonical_name": "血压升高",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1834,
+          "raw_text": "巧克力如果与单胺氧化酶（MAO）抑制剂（如：苯乙肼或强内心百乐明）同吃的话会很危险。",
+          "chunk_id": "1834",
+          "data": "People often combine foods. For example, chocolate and peanut butter might be considered a tasty combination. But eating chocolate and taking certain drugs might carry risks. In fact, eating chocolate and taking monoamine oxidase (MAO) inhibitors, such as Nardil (phenelzine) or Parnate (tranylcypromine), could be dangerous.人们经常会组合食物。例如，巧克力和花生酱可能被认为是美味的组合。但是，吃巧克力同时服用某些药物可能会带来风险。事实上，巧克力如果与单胺氧化酶（MAO）抑制剂（如：苯乙肼或强内心百乐明）同吃的话会很危险。12MAO inhibitors treat depression. Someone who eats an excessive amount of chocolate after taking an MAO inhibitor may experience a sharp rise in blood pressure.MAO抑制剂用于治疗抑郁症。有些人在服用MAO抑制剂后食用过多的巧克力会导致血压的急剧上升"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1834,
+          "raw_text": "巧克力如果与单胺氧化酶（MAO）抑制剂（如：苯乙肼或强内心百乐明）同吃的话会很危险。",
+          "chunk_id": "1834",
+          "data": "People often combine foods. For example, chocolate and peanut butter might be considered a tasty combination. But eating chocolate and taking certain drugs might carry risks. In fact, eating chocolate and taking monoamine oxidase (MAO) inhibitors, such as Nardil (phenelzine) or Parnate (tranylcypromine), could be dangerous.人们经常会组合食物。例如，巧克力和花生酱可能被认为是美味的组合。但是，吃巧克力同时服用某些药物可能会带来风险。事实上，巧克力如果与单胺氧化酶（MAO）抑制剂（如：苯乙肼或强内心百乐明）同吃的话会很危险。12MAO inhibitors treat depression. Someone who eats an excessive amount of chocolate after taking an MAO inhibitor may experience a sharp rise in blood pressure.MAO抑制剂用于治疗抑郁症。有些人在服用MAO抑制剂后食用过多的巧克力会导致血压的急剧上升"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1834,
+          "raw_text": "巧克力如果与单胺氧化酶（MAO）抑制剂（如：苯乙肼或强内心百乐明）同吃的话会很危险。",
+          "chunk_id": "1834",
+          "data": "People often combine foods. For example, chocolate and peanut butter might be considered a tasty combination. But eating chocolate and taking certain drugs might carry risks. In fact, eating chocolate and taking monoamine oxidase (MAO) inhibitors, such as Nardil (phenelzine) or Parnate (tranylcypromine), could be dangerous.人们经常会组合食物。例如，巧克力和花生酱可能被认为是美味的组合。但是，吃巧克力同时服用某些药物可能会带来风险。事实上，巧克力如果与单胺氧化酶（MAO）抑制剂（如：苯乙肼或强内心百乐明）同吃的话会很危险。12MAO inhibitors treat depression. Someone who eats an excessive amount of chocolate after taking an MAO inhibitor may experience a sharp rise in blood pressure.MAO抑制剂用于治疗抑郁症。有些人在服用MAO抑制剂后食用过多的巧克力会导致血压的急剧上升"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1834,
+          "raw_text": "MAO抑制剂用于治疗抑郁症。",
+          "chunk_id": "1834",
+          "data": "People often combine foods. For example, chocolate and peanut butter might be considered a tasty combination. But eating chocolate and taking certain drugs might carry risks. In fact, eating chocolate and taking monoamine oxidase (MAO) inhibitors, such as Nardil (phenelzine) or Parnate (tranylcypromine), could be dangerous.人们经常会组合食物。例如，巧克力和花生酱可能被认为是美味的组合。但是，吃巧克力同时服用某些药物可能会带来风险。事实上，巧克力如果与单胺氧化酶（MAO）抑制剂（如：苯乙肼或强内心百乐明）同吃的话会很危险。12MAO inhibitors treat depression. Someone who eats an excessive amount of chocolate after taking an MAO inhibitor may experience a sharp rise in blood pressure.MAO抑制剂用于治疗抑郁症。有些人在服用MAO抑制剂后食用过多的巧克力会导致血压的急剧上升"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1834,
+          "raw_text": "MAO抑制剂用于治疗抑郁症。",
+          "chunk_id": "1834",
+          "data": "People often combine foods. For example, chocolate and peanut butter might be considered a tasty combination. But eating chocolate and taking certain drugs might carry risks. In fact, eating chocolate and taking monoamine oxidase (MAO) inhibitors, such as Nardil (phenelzine) or Parnate (tranylcypromine), could be dangerous.人们经常会组合食物。例如，巧克力和花生酱可能被认为是美味的组合。但是，吃巧克力同时服用某些药物可能会带来风险。事实上，巧克力如果与单胺氧化酶（MAO）抑制剂（如：苯乙肼或强内心百乐明）同吃的话会很危险。12MAO inhibitors treat depression. Someone who eats an excessive amount of chocolate after taking an MAO inhibitor may experience a sharp rise in blood pressure.MAO抑制剂用于治疗抑郁症。有些人在服用MAO抑制剂后食用过多的巧克力会导致血压的急剧上升"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1834,
+          "raw_text": "MAO抑制剂用于治疗抑郁症。",
+          "chunk_id": "1834",
+          "data": "People often combine foods. For example, chocolate and peanut butter might be considered a tasty combination. But eating chocolate and taking certain drugs might carry risks. In fact, eating chocolate and taking monoamine oxidase (MAO) inhibitors, such as Nardil (phenelzine) or Parnate (tranylcypromine), could be dangerous.人们经常会组合食物。例如，巧克力和花生酱可能被认为是美味的组合。但是，吃巧克力同时服用某些药物可能会带来风险。事实上，巧克力如果与单胺氧化酶（MAO）抑制剂（如：苯乙肼或强内心百乐明）同吃的话会很危险。12MAO inhibitors treat depression. Someone who eats an excessive amount of chocolate after taking an MAO inhibitor may experience a sharp rise in blood pressure.MAO抑制剂用于治疗抑郁症。有些人在服用MAO抑制剂后食用过多的巧克力会导致血压的急剧上升"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1834,
+          "raw_text": "有些人在服用MAO抑制剂后食用过多的巧克力会导致血压的急剧上升",
+          "chunk_id": "1834",
+          "data": "People often combine foods. For example, chocolate and peanut butter might be considered a tasty combination. But eating chocolate and taking certain drugs might carry risks. In fact, eating chocolate and taking monoamine oxidase (MAO) inhibitors, such as Nardil (phenelzine) or Parnate (tranylcypromine), could be dangerous.人们经常会组合食物。例如，巧克力和花生酱可能被认为是美味的组合。但是，吃巧克力同时服用某些药物可能会带来风险。事实上，巧克力如果与单胺氧化酶（MAO）抑制剂（如：苯乙肼或强内心百乐明）同吃的话会很危险。12MAO inhibitors treat depression. Someone who eats an excessive amount of chocolate after taking an MAO inhibitor may experience a sharp rise in blood pressure.MAO抑制剂用于治疗抑郁症。有些人在服用MAO抑制剂后食用过多的巧克力会导致血压的急剧上升"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1834,
+          "raw_text": "有些人在服用MAO抑制剂后食用过多的巧克力会导致血压的急剧上升",
+          "chunk_id": "1834",
+          "data": "People often combine foods. For example, chocolate and peanut butter might be considered a tasty combination. But eating chocolate and taking certain drugs might carry risks. In fact, eating chocolate and taking monoamine oxidase (MAO) inhibitors, such as Nardil (phenelzine) or Parnate (tranylcypromine), could be dangerous.人们经常会组合食物。例如，巧克力和花生酱可能被认为是美味的组合。但是，吃巧克力同时服用某些药物可能会带来风险。事实上，巧克力如果与单胺氧化酶（MAO）抑制剂（如：苯乙肼或强内心百乐明）同吃的话会很危险。12MAO inhibitors treat depression. Someone who eats an excessive amount of chocolate after taking an MAO inhibitor may experience a sharp rise in blood pressure.MAO抑制剂用于治疗抑郁症。有些人在服用MAO抑制剂后食用过多的巧克力会导致血压的急剧上升"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1834,
+          "raw_text": "有些人在服用MAO抑制剂后食用过多的巧克力会导致血压的急剧上升",
+          "chunk_id": "1834",
+          "data": "People often combine foods. For example, chocolate and peanut butter might be considered a tasty combination. But eating chocolate and taking certain drugs might carry risks. In fact, eating chocolate and taking monoamine oxidase (MAO) inhibitors, such as Nardil (phenelzine) or Parnate (tranylcypromine), could be dangerous.人们经常会组合食物。例如，巧克力和花生酱可能被认为是美味的组合。但是，吃巧克力同时服用某些药物可能会带来风险。事实上，巧克力如果与单胺氧化酶（MAO）抑制剂（如：苯乙肼或强内心百乐明）同吃的话会很危险。12MAO inhibitors treat depression. Someone who eats an excessive amount of chocolate after taking an MAO inhibitor may experience a sharp rise in blood pressure.MAO抑制剂用于治疗抑郁症。有些人在服用MAO抑制剂后食用过多的巧克力会导致血压的急剧上升"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1834,
+    "source": "广东疾控",
+    "text": "People often combine foods. For example, chocolate and peanut butter might be considered a tasty combination. But eating chocolate and taking certain drugs might carry risks. In fact, eating chocolate and taking monoamine oxidase (MAO) inhibitors, such as Nardil (phenelzine) or Parnate (tranylcypromine), could be dangerous.人们经常会组合食物。例如，巧克力和花生酱可能被认为是美味的组合。但是，吃巧克力同时服用某些药物可能会带来风险。事实上，巧克力如果与单胺氧化酶（MAO）抑制剂（如：苯乙肼或强内心百乐明）同吃的话会很危险。12MAO inhibitors treat depression. Someone who eats an excessive amount of chocolate after taking an MAO inhibitor may experience a sharp rise in blood pressure.MAO抑制剂用于治疗抑郁症。有些人在服用MAO抑制剂后食用过多的巧克力会导致血压的急剧上升"
+  }
+]

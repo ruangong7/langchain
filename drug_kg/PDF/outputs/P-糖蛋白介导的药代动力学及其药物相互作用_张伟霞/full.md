@@ -1,0 +1,156 @@
+# P-糖蛋白介导的药代动力学及其药物相互作用
+
+![](images/1704e69c43ad9c91143133388cfeabaf5883510793600fad6505ee491c2ce578.jpg)
+
+# Effects of P-glycoprotein on the pharmacokinetics and interaction mediated by P-glycoprotein
+
+张伟霞，周宏灏
+
+(中南大学 临床药理研究所，湖南长沙 410078)
+
+ZHANG Wei-xia, ZHOU Hong-hao
+
+(Institute of Clinical Pharmacology, Central South University, Changsha 410078, China)
+
+收稿日期：2003-09-29
+
+修回日期：2003-12-18
+
+作者简介：张伟霞(1978 - )，女，硕士研究生，主要从事遗传药理学研究
+
+通讯作者：周宏灏，教授
+
+Tel:(0731)4805380
+
+Fax:(0731)4805379
+
+E-mail:hhzhou2003@163.com
+
+摘要：P-糖蛋白是一个能量依赖性转运蛋白，能将许多结构不同的化合物逆向转运出细胞。它除了在肿瘤组织过度表达引起多药耐药外，在人体正常组织肝、肾、小肠、血脑屏障、肌肉组织、肾上腺等部位也有分布，对许多种药物的药代动力学具有调控作用。本文综述P-糖蛋白对药代动力学的作用及由P-糖蛋白的诱导和抑制所引起的药物相互作用。
+
+关键词：P-糖蛋白；药代动力学；药物相互作用
+
+中图分类号：R969.1；R969.2；R963 文献标识码：A
+
+文章编号：1001-6821(2004)02-0139-05
+
+Abstract: P-glycoprotein is an ATP-driven efflux pump which transport a wide variety of structurally diverse compounds from the cell interior into the extracellular space. Apart from in tumor causing multidrug resistance, it is also localized in healthy tissues such as liver, kidney, intestinal, blood-brain barrier, muscles and adrenal gland etc, and can modulate the pharmacokinetics of a lot of compounds. The role of P-glycoprotein in absorption, distribution, metabolism, excretion and the drug-drug interaction mediated by induction and inhibition of P-glycoprotein are reviewed in this paper.
+
+Key words: P-glycoprotein; pharmacokinetics; drug-drug interaction
+
+多药耐药现象(multidrug resistance, MDR)的机制是由于位于细胞膜上的一系列ATP结合的盒式膜转运蛋白(adenosine triphosphate-binding cassette transporters, ABC转运蛋白)家族成员将药物从细胞内转运出去。其中，主要为MDR1(multidrug resistance 1)及MRP(multidrug resistance-associated protein)家族。它们结构相似,但转运底物不同。MDR1主要转运疏水性阳离子化合物，MRP既转运疏水性非带电化合物,也转运水溶性的阴离子化合物。目前对MDR1基因编码的P-糖蛋白（P-glycoprotein, P-gp）的研究比较深入。它利用ATP水解释放的能量将作用底物从细胞内转运至细胞外。分子结构包括位于中间的连接区和与此相连的N端和C端的两个功能区，每个功能区各自包括6个疏水的跨膜部位及一个位于细胞浆内的亲水ATP结合位点。2个功能区有 $43\%$ 的同源性，任何一个ATP结合位点的灭活都可使整个蛋白质功能丧失。药物结合位点遍布整个P-gp分子，包括跨膜区、连接区、甚至ATP结合区。在人体正常组织肝脏、肾脏、肠道、胎盘、血脑屏障、血睾屏障以及淋巴细胞系和心脏内小动脉、毛细血管等部位都有分布。P-gp在人体正常组织内的分布以及对药物的逆向转运功能使得P-gp在药物的吸收、分布、代谢和清除方面具有重要意义。
+
+## 1 P-gp 药代动力学的影响
+
+## 1.1 P-gp 对药物吸收的影响
+
+P-gp 在肠道内主要位于小肠粘膜成熟的上皮细胞刷状缘，且由胃肠道近侧端到远侧端逐渐增加。P-gp 的作用底物范围非常广泛，它所介导的药物的外排是口服药物吸收差和变异度较大的一个重要因素。Lown 等 $^{[1]}$ 研究发现，环孢霉素(cyclosporine)口服， $C_{max}$ 变异度的30%及清除率变异度的17%，可由肠道P-gp水平的变异来解释。P-gp的外排作用使生物利用度降低，达不到有效治疗浓度，对于治疗指数窄的药物，引起药物吸收的变异较大，因此在开发药物前，先确认是否为P-gp底物有很大意义。除了转运功能，P-gp等转运体和代谢酶一起形成一道自然的防御屏障，抵御肠腔内有毒物质的入侵。缺乏了P-gp的小鼠，对毒物的排泄减少，可以损害肠粘膜，引起肠溃疡、克隆病等 $^{[2]}$ 。
+
+成熟的Caco-2(the human colon carcinoma cell line)培养细胞可形成致密的单细胞层组织,与小肠上皮细胞相似——分化出绒毛面A侧(apical)和基底面B侧(basolateral),A面稳定高表达P-gp,已作为药物摄取、外排和跨细胞转运等吸收机制研究的有效工具。Caco-2细胞在对P-gp的底物(vinblastine)、紫杉醇(paclitaxel)、环孢霉素的转运中,B→A方向的转运要比A→B的转运强10\~20倍。加入了P-gp的抑制剂维拉帕米(verapamil)或P-gp的抗体MPK16后,P-gp的外排功能受到抑制,则A→B的转运增强 $^{[3]}$ 。细胞水平的研究表明,P-gp通过限制肠道内药物的转运,在药物的吸收中发挥重要作用。
+
+基因敲除小鼠是在体研究 P-gp 功能的另一重要工具。口服紫杉醇后，基因敲除小鼠 mdr1a(-/-)没有了 P-gp 的逆转作用，曲线下面积(AUC)比野生型 mdr1a(+/+) 小鼠高 2 倍[4]。在人体直接证明 P-gp 参与药物的吸收过程比较困难，因此临床上有关 P-gp 功能的研究多来自诱导和抑制实验。紫杉醇的口服生物利用度为 8%，若和 P-gp 的抑制剂环孢霉素一起服用，则生物利用度可提高到 88%[5]，但由于环孢素同时也抑制 CYP 酶和其他转运体，所以不能定量地判断 P-gp 对药物吸收的影响。另有报道[6]，小肠移植病人口服他克莫司(tacrolimus)(P-gp 和 CYP3A4 的底物)后的血浆药物浓度和肠道 MDR1 mRNA 的表达有较好的相关性，而和 CYP3A4 mRNA 的表达没有相关性，表明 P-gp 可以作为预测小肠移植后免疫抑制治疗期间，他克莫司药代动力学个体差异的较好指标。活体肝移植(LDLT)的成功在于免疫抑制和排斥之间所保持的微妙的平衡，在进行第 2 次LDLT 后，病人血浆环孢霉素浓度较第 1 次LDLT后下降，需要更大的剂量来维持同样的疗效。这与活体组织检测所发现的肠道中 P-gp 的 mRNA 和蛋白水平升高、CYP3A4 水平下降有明显的关系 $^{[7]}$ 。
+
+药物代谢酶一样，P-gp的转运也存在着饱和性。给予高剂量的药物口服，当肠腔内药物浓度超过其 $K_{m}$ 值时，P-gp的转运就可能达到了饱和，这种饱和性可以解释他林洛尔(talinolol)、环孢霉素剂量依赖性的血药浓度增高 $^{[8,9]}$ 。但并非所有P-gp的底物吸收都受到P-gp转运的影响，临床给药剂量通常超过该药的 $K_{m}$ 值，P-gp的活性很容易达到饱和，只有一部分药物以小剂量给予时，才会受到P-gp主动排泄对生物利用度的影响。但对于一些药物，如环孢霉素、紫杉醇等因其水溶性差、分解慢及分子量大，肠腔中药物浓度低于 $K_{m}$ ，阻碍药物被动通过细胞膜，即使给予高剂量时，P-gp对它们的转运仍有一定的影响。
+
+## 1.2 P-gp 对药物分布的影响
+
+药物的分布是代谢和转运相互作用的过程。单独的药物代谢酶并不足以解释药物的分布及反应的个体差异。目前已日益认识到转运体在药物吸收、分布、排泄中的重要性。影响药物分布的因素有药物本身的因素，也有机体自身的因素。药物进入体内后，从给药部位要穿过几个生物膜才能到达靶组织和作用位点。机体中的一些屏障组织如血脑屏障、胎盘屏障、血睾屏障等分布的 P-gp，外排外源性化合物至细胞外，从而改变药物在局部组织的分布。
+
+血脑屏障(blood-brain-barrier, BBB)毛细血管内皮细胞连接紧密间隙较小，同时基底膜外还有层星状细胞包围，大多数药物较难通过，只有脂溶性高、分子量较小及少数水溶性药物可以通过。但P-gp的外排作用可使长春新碱、表鬼臼毒素(epipodophylotoxin)等一些脂溶性高的物质通透性降低。脑中的P-gp主要表达在毛细血管内皮细胞的腔面，此外在大脑星型胶质细胞、小胶质细胞[10]等也有表达。维拉帕米可以抑制牛脑内皮细胞中长春新碱外排，致细胞内药物浓度升高[11]。在缺少P-gp的血脑屏障上，P-gp底物的通透率可以提高 $10\sim 100$ 倍，在临床上可能会产生较大毒性。但另一方面，P-gp可增加药物的通透性，提高药物在脑组织中的浓度，这对于治疗脑部感染及中枢神经系统病变是很有意义的。
+
+P-gp 在人胚胎滋养层细胞高表达, Lankas GR 等 $^{[12]}$ 早已在 CF-1 小鼠中证实，胎盘 P-gp 的逆向转运，可降低胎儿和外源性物质接触。用基因敲除小鼠 mdr1a/b(-/-) 进一步验证胎盘 P-gp 对胎儿有保护作用 $^{[13]}$ 。所以在孕期内要慎用 P-gp 的抑制剂，以降低有毒物质对胎儿的损害。
+
+P-gp 在心脏小动脉和毛细血管的上皮细胞也有分布，心脏内药物的浓度可能也受 P-gp 的调节 $^{[14]}$ 。此外 P-gp 也表达在 HIV-1 主要攻击的 CD+T 淋巴细胞，高水平表达 P-gp 的淋巴细胞系，可以降低细胞内 HIV 蛋白酶抑制剂的浓度，对 HIV 蛋白酶抑制剂抗病毒的敏感性降低 $^{[15]}$ 。
+
+## 1.3 P-gp 对药物代谢的影响
+
+在药物的首次清除中，胃肠道发挥着重要的作用，肠道上的 P-gp 虽不直接参与对药物的代谢，但因为 P-gp 和 CYP3A4 通常有共同的底物和调控剂，并且两者的分布比较近似，P-gp 可以通过 CYP3A4 对药物的代谢间接发挥作用。
+
+P-gp 对人体药物代谢的影响作用主要发生在小肠。P-gp 在肝脏主要位于肝小管的管腔面，在肾脏主要是位于肾近端小管的管腔面，也即肝肾的“出口”处，因此并不参与肝肾内药物的代谢，只是在肝肾完成了细胞内摄取、分布、代谢后，“见证”了代谢产物的排出。而 P-gp 分布于肠道粘膜上皮细胞刷状缘，即“入口”部位，在药物进行体内的分布和代谢之前，先与 P-gp 的相互作用。大部分药物进入肠腔上皮细胞后，被 P-gp 从上皮细胞内泵出到肠腔内，其中一部分药物会被重吸收，在反复的泵出和吸收过程中，P-gp 延长了药物在细胞内的停留时间，增加了药物和酶接触的可能性，因此可能会增加肠道内药物的代谢，而对肝、肾内药物的代谢没有影响。另一方面，P-gp 有助于代谢产物及时从细胞内排出，降低其对 CYP3A4 的抑制作用，从而提高药物在肠道内的代谢 $^{[16]}$ 。
+
+## 1.4 P-gp 对药物排泄的影响
+
+药物进入体内以后，以原形或代谢产物的形式排出体外，肝、肾在药物的排泄中发挥着重要的作用。肝细胞基底膜上的转运蛋白有助于药物进入到肝细胞，从而和药物代谢酶发生作用。肾脏肾小管的管腔面的主动排泄使药物及其代谢产物移出细胞，从而使细胞内保持低的浓度，以利于新药物进入，这些转运蛋白对药物的清除起到了很大作用。其中，MRP2转运有机阴离子，BSEP转运胆盐，MDR3转运磷脂，两亲有机阴离子和中性化合物则通过MDR1分泌。
+
+P-gp 在肾脏中主要分布于近端小管上皮细胞，此外还有 $OAT_{4}$ ，OATPs，NPT1，MRP 等转运蛋白也参与肾脏的药物排泄。肾脏的药物排泄包括 3 个步骤：肾小球的滤过、肾小管的分泌和重吸收。它们之间的关系可以表示如下。
+
+$$
+\mathrm{CL} _ {\mathrm{R}} = \mathrm{f} _ {\mathrm{u}} ^ {*} \mathrm{GFR} + \mathrm{CL} _ {\mathrm{S}} - \mathrm{CL} _ {\mathrm{RA}}
+$$
+
+$$
+\mathrm{CL} _ {\mathrm{R}} / \left(\mathrm{f} _ {\mathrm{u}} ^ {*} \mathrm{GFR}\right) = 1 + \left(\mathrm{CL} _ {\mathrm{S}} - \mathrm{CL} _ {\mathrm{RA}}\right) / \left(\mathrm{f} _ {\mathrm{u}} ^ {*} \mathrm{GFR}\right)
+$$
+
+当 $CL_{R}/(f_{u}^{*}GFR)>1$ 时，表现为分泌
+
+$CL_{R}/(f_{u}^{*}GFR)<1$ 时，表现为重吸收
+其中，GFR：肾小球滤过率； $CL_{S}$ ：分泌率， $CL_{RA}$ ：吸收率， $f_{u}$ ：血浆中未结合药物。
+
+阿霉素(doxorubicin)，tributylmethylammonium, azidoprocainarmide 和维库溴铵(vecuronium)，在 mdr1a (-/-) 小鼠中的分泌要比 mdr1a(+/+) 高，可能的原因是敲除了 mdr1a, mdr1b 以后，其他转运体的功能就相应增强了 $^{[17-19]}$ 。
+
+P-gp 对药物胆汁排泄中的作用的研究来自体外肝小管膜囊泡，其对 P-gp 的底物柔红霉素(daunomycin)的转运，可被 P-gp 的抑制剂维拉帕米所抑制 $^{[20]}$ 。地高辛的胆汁清除率在 mdr1a(+/+) 小鼠中为 2.3 mL·min·kg $^{-1}$ ，mdr1a(-/-) 小鼠中为 0.84 mL·min·kg $^{-1}$ ，阿霉素，长春碱在 mdr1a(+/+) 小鼠中的清除率也要高于 mdr1a(-/-) $^{[21]}$ 。如果要定量地分析 P-gp 的作用，必须考虑肝脏的吸收、细胞内的分布和代谢等因素。
+
+循环系统中药物及其代谢产物的非肾清除，除了通过胆汁排泄以外，从循环系统排泄到肠腔是目前新认识到的非肾清除的另一机制。奎尼丁可以抑制这一过程，利福平则可诱导之。静脉给予P-gp的底物地高辛，具野生型P-gp的小鼠在90min内排泄16%的地高辛到肠腔，而基因敲除的小鼠则在肠腔内没有发现地高辛 $^{[22]}$ 。由此可见，P-gp介导的药物从肠细胞泵出的功能并不仅是吸收功能，还可能是一种药物的清除模式。
+
+## 2 P-gp 的诱导和抑制所引起的药物相互作用
+
+P-gp的表达可以被诱导和抑制，它的底物范围较广，当底物和抑制剂或诱导剂合用时，可产生转运体水平上的相互作用。和P-gp的诱导剂利福平一起服用，地高辛的 $C_{\mathrm{max}}$ 和AUC分别从 $5.4\mu \mathrm{g}\cdot \mathrm{L}^{-1},55\mu \mathrm{g}\cdot \mathrm{h}\cdot \mathrm{L}^{-1}$ 下降到 $26.4\mu \mathrm{g}\cdot \mathrm{L}^{-1}$ ， $38~\mu \mathrm{g}\cdot \mathrm{h}\cdot \mathrm{L}^{-1}$ ，这与十二指肠活检P-gp含量增高3.5倍明显相关[23]。与P-gp的另一诱导剂抗抑郁药联合服用，也可导致地高辛血药浓度的下降。此外，环孢霉素对鼠体内P-gp的诱导还呈现剂量、时间和组织依赖性[24]。
+
+目前对 P-gp 的诱导机制了解还不够深入，可能是在转录水平，也可能是在转录后水平 $^{[25]}$ 。Geick A $^{[26]}$ 等研究发现，在 MDR1 上游 -8kbp 处有 -DR4 核反应元件，即 PXR 结合的部分，介导了 P-gp 的诱导。最近的研究表明，MDR1 启动子活性是由蛋白激酶 C 的活性来调节的 $^{[27,28]}$ 。
+
+P-gp 的过度表达是导致肿瘤化疗失败的原因之一，P-gp 抑制剂的使用则可逆转这一现象，恢复对化疗药物的敏感性。P-gp 参与了它的底物从肝脏、肾脏的排泄以及限制肠道的吸收。抑制 P-gp 可以降低它的底物的肝肾清除率，提高生物利用度，因此P-gp抑制剂的使用，不仅改变了药物在肿瘤细胞的浓度，也改变了它们的血浆浓度。但因大脑不是清除器官，P-gp的抑制剂使脑中药物浓度的升高比血浆中更明显。GF-120918可以使mdr1a(+/+)小鼠脑中安泼那韦浓度升高13倍，而血浆药物浓度仅升高2倍，缬沙坦则可使脑中那非那韦的浓度升高80倍 $^{[29]}$ 。因此在临床上选择安全、特异性强的抑制剂很有必要。
+
+P-gp 抑制剂的发展经历了 3 代的变化。以奎尼丁、维拉帕米为代表的第 1 代竞争性抑制剂，因其亲和力低，达到所需的抑制效能时，会产生不能接受的毒性和不可预测的药代动力学相互作用。以 valspodar 为代表的第 II 代抑制剂抑制能力更强，但是由于其对经 CYP3A4 代谢药物的不可预测的相互作用，成为其在临床上使用的一大障碍。第 2 代抑制剂，如 tariquidar (XR9576)，zosuquidar (LY335979)，laniquidar (R101933) diarylimidazole (ONT-093) 非竞争性的结合于转运泵，亲和力大大超过转运底物，特异性强，生物利用度低，不影响 CYP3A4 所介导的代谢，不抑制其他的转运体，不存在和其他抗肿瘤药物的相互作用，对于逆转 P-gp 所介导的多药耐药具有很好的临床前景 $^{[30]}$ 。
+
+## 3 MDR1 基因多态性对药物代谢动力学的影响
+
+药物代谢酶和受体的遗传多态性对于药物代谢及药效的影响目前已有较深入的研究，但是对于药物转运蛋白，如OATP，OAT2，OCT1，P-gp等的遗传药理学的研究还刚起步，但它们在药物代谢动力学中的作用不可忽视。
+
+到目前为止，MDR1一共发现了48个单核苷酸多态性（single nucleotide polymorphism, SNP） $^{[31]}$ ，其中，研究比较多是exon21上的G2677T/A和exon26上的C3435T。基因的多态性呈现种族差异，非裔人中3435C等位基因的发生频率是73%\~84%。欧裔和亚裔人中是34%\~59%。Hoffmeyer S等 $^{[32]}$ 首次发现，3435TT基因型个体十二指肠P-gp的表达水平比3435CC基因型个体低。Hitz M等 $^{[33]}$ 发现，和C/C相比，T/T白种人中CD56 $^{+}$ NK细胞罗丹明-123排泄率降低，以及淋巴细胞MDR mRNA表达水平降低。然而Tanabe M等 $^{[34]}$ 报道，C3435T对胎盘MDR1的表达没有影响。Toshiynki T $^{[35]}$ 在日本人中的研究发现，TT个体中mRNA表达水平比C/C或C/T高。近来报道C3435T SNP和第21外显子G2677T存在极强的联锁关系，即C3435T SNP(C/C)中有95%在G2677T上，为（G/G）基因型，G2677T SNP使得893位丙氨酸突变为丝氨酸，Ser893突变型P-gp的细胞可以提高对地高辛的泵出。为了进一步证明SNP对P-gp功能的影响，在体外实验中，使不同单倍型(2677G/3435T，
+
+2677A/3435C, 2677A/3435T, 2677T/3435C, 2677T/3435T) 的细胞表达 P-gp 含量相等情况下，Morita N 等 $^{[36]}$ 研究发现，这两个 SNP 对 P-gp 的转运活性没有影响。
+
+## 4 结语
+
+尽管 P-gp 的生理功能目前尚未完全阐明，但它作为外排泵在药物代谢动力学中的作用已日益明确。随着新的实验技术方法的应用，药物基因组学的发展，新的突变位点的发现，单倍型的研究，都将有助于进一步阐明 P-gp 在药物代谢动力学中的作用，从而为临床药物治疗提供新的思路。对药物转运蛋白在药物代谢动力学中的研究，将有助于开发出更安全、更有效的药物，为临床医生的合理用药提供指导。
+
+## 参考文献：
+
+[1] Lown KS, Mayo RR, Leichtman AB, et al. Role of intestinal P-glycoprotein (mdr1) in interpatient variation in the oral bioavailability of cyclosporine[J]. Clin Pharmacol Ther, 1997;62:248-260.  
+[2] Maggio-Price L, Shows D, Waggie K, et al. Helicobacter bilis infection accelerates and H. hepaticus infection delays the development of colitis in multiple drug resistance-deficient (mdr1a-/-) mice[J]. Am J Pathol, 2002;160:739-751.  
+[3] Hunter J, Jepson MA, Tsuruo T, et al. Functional expression of P-glycoprotein in apical membranes of human intestinal Caco-2 cells. Kinetics of vinblastine secretion and interaction with modulators[J]. J Biol Chem, 1993;268:14991-14997.  
+[4] Sparreboom A, van Asperen J, Mayer U, et al. Limited oral bioavailability and active epithelial excretion of paclitaxel (Taxol) caused by P-glycoprotein in the intestine[J]. Proc Natl Acad Sci USA, 1997;94:2031-2035.  
+[5] Malingre MM, Richel DJ, Beijnen JH, et al. Coadministration of cyclosporine strongly enhances the oral bioavailability of docetaxel[J]. J Clin Oncol, 2001;19:1160-1166.  
+[6] Masuda S, Uemoto S, Hashida T, et al. Effect of intestinal P-glycoprotein on daily tacrolimus trough level in a living-donor small bowel recipient[J]. Clin Pharmacol Ther, 2000;68:98-103.  
+[7] Masuda S, Goto M, Kiuchi T, et al. Enhanced expression of enterocyte P-glycoprotein depresses cyclosporine bioavailability in a recipient of living donor liver transplantation[J]. Liver Transpl, 2003;9:1108-1113.  
+[8] Wetterich U, Spahn-Langguth H, Mutschler E, et al. Evidence for intestinal secretion as an additional clearance pathway of talinolol enantiomers: concentration-and dose-dependent absorption in vitro and in vivo[J]. Pharm Res, 1996;13:514-522.  
+[9] Ueda CT, Lemaire M, Gsell G, et al. Apparent dose-dependent oral absorption of cyclosporin A in rats[J]. Biopharm Drug Dispos, 1984;5:141-151.  
+[10] Lee G, Schlichter L, Bendayan M, et al. Functional expression of P-glycoprotein in rat brain microglia[J]. J Pharmacol Exp Ther, 2001;299:204-212.  
+[11] Tsuji A, Terasaki T, Takabatake Y, et al. P-glycoprotein as the  
+drug efflux pump in primary cultured bovine brain capillary endothelial cells[J]. Life Sci, 1992;51:1427-1437.  
+[12] Lankas GR, Wise LD, Cartwright ME, et al. Placental P-glycoprotein deficiency enhances susceptibility to chemically induced birth defects in mice[J]. Reprod Toxicol, 1998;12:457-463.  
+[13] Smit JW, Huisman MT, van Tellingen O, et al. Absence or pharmacological blocking of placental P-glycoprotein profoundly increases fetal drug exposure[J]. J Clin Invest, 1999;104:1441-1447.  
+[14] Meissner K, Sperker B, Karsten C, et al. Expression and localization of P-glycoprotein in human heart: effects of cardiomyopathy[J]. J Histochem Cytochem, 2002;50:1351-1356.  
+[15] Dupuis ML, Tombesi M, Sabatini M, et al. Differential effect of HIV-1 protease inhibitors on p-glycoprotein function in multi-drug-resistant variants of the human CD4+ T lymphoblastoid CEM Cell Line[J]. Chemotherapy, 2003;49:8-16.  
+[16] Hochman JH, Chiba M, Yamazaki M, et al. P-glycoprotein ediated efflux of indinavir metabolites in Caco-2 cells expressing cytochrome P450 3A4[J]. J Pharmacol Exp Ther, 2001;298:323-330.  
+[17] Hori R, Okamura N, Aiba T, et al. Role of P-glycoprotein in renal tubular secretion of digoxin in the isolated perfused rat kidney[J]. J Pharmacol Exp Ther, 1993;266:1620-1625.  
+[18] van Asperen J, van Tellingen O, Beijnen JH. et al. The role of mdr1a P-glycoprotein in the biliary and intestinal secretion of doxorubicin and vinblastine in mice[J]. Drug Metab Dispos, 2000;28:264-267.  
+[19] Smit JW, Schinkel AH, Weert B, et al. Hepatobiliary and intestinal clearance of amphiphilic cationic drugs in mice in which both mdr1a and mdr1b genes have been disrupted[J]. Br J Pharmacol, 1998;124:416-424.  
+[20] Ballet F, Vrignaud P, Robert J, et al. Hepatic extraction, metabolism and biliary excretion of doxorubicin in the isolated perfused rat liver[J]. Cancer Chemother Pharmacol, 1987;19:240-245.  
+[21] Kawahara M, Sakata A, Miyashita T, et al. Physiologically based pharmacokinetics of digoxin in mdr1a knockout mice[J]. J Pharm Sci, 1999;88:1281-1287.  
+[22] Mayer U, Wagenaar E, Beijnen JH, et al. Substantial excretion of digoxin via the intestinal mucosa and prevention of long-term digoxin accumulation in the brain by the mdr 1a P-glycoprotein[J]. Br J Pharmacol, 1996;119:1038-1044.  
+[23] Greiner B, Eichelbaum M, Fritz P, et al. The role of intestinal P-glycoprotein in the interaction of digoxin and rifampin[J]. J Clin Invest, 1999;104:147-153.  
+[24] Jette L, Beaulieu E, Leclerc JM, et al. Cyclosporin A treatment induces overexpression of P-glycoprotein in the kidney and other tissues[J]. Am J Physiol, 1996;270:756-765.  
+[25] Lee CH. Induction of P-glycoprotein mRNA transcripts by cycloheximide in animal tissues: evidence that class I Pgp is transcriptionally regulated whereas class II Pgp is post-transcriptionally regulated[J]. Mol Cell Biochem, 2001;216:103-110.  
+[26] Geick A, Eichelbaum M, Burk O. Nuclear receptor response elements mediate induction of intestinal MDR1 by rifampin[J]. J Biol Chem, 2001;276:14581-14587.  
+[27] Lehmann JM, Mckee DD, Watson MA, et al. The human orphan nuclear receptor PXR is activated by compounds that regulate CYP3A4 gene expression and cause drug interactions[J]. J Clin Invest, 1998;102:1016-1023.  
+[28] Gill PK, Gescher A, Gant TW, et al. Regulation of MDR1 promoter activity in human breast carcinoma cells by protein kinase C isozymes alpha and theta[J]. Eur J Biochem, 2001;268:4151-4157.  
+[29] Choo EF, Leake B, Wandel C, et al. Pharmacological inhibition of P-glycoprotein transport enhances the distribution of HIV-1 protease inhibitors into brain and testes[J]. Drug Metab Dispos, 2000;28:655-660.  
+[30] Thomas H, Coley HM. Overcoming multidrug resistance in cancer: an update on the clinical strategy of inhibiting P-glycoprotein[J]. Cancer Control, 2003;10:159-165.  
+[31] Kroetz DL, Pauli-Magnus C, Hodges LM, et al. Sequence diversity and haplotype structure in the human ABCB1 (MDR1, multidrug resistance transporter) gene[J]. Pharmacogenetics, 2003;13:481-494.  
+[32] Hoffmeyer S, Burk O, von Richter O, et al. Functional poly morphisms of the human multidrug-resistance gene: multiple sequence variations and correlation of one allele with P-glycoprotein expression and activity in vivo[J]. Proc Natl Acad Sci U S A, 2000;97:3473-3478.  
+[33] Hitzl M, Drescher S, van der Kuip H, et al. The C3435T mutation in the human MDR1 gene is associated with altered efflux of the P-glycoprotein substrate rhodamine 123 from CD56+ natural killer cells[J]. Pharmacogenetics, 2001;11:293-298.  
+[34] Tanabe M, Ieiri I, Nagata N, et al. Expression of P-glycoprotein in human placenta: relation to genetic polymorphism of the multidrug resistance (MDR)-1 gene[J]. J Pharmacol Exp Ther, 2001;297:1137-1143.  
+[35] Sakaeda T, Nakamura T, Okumura K. MDR1 genotype-related pharmacokinetics and pharmacodynamics[J]. Biol Pharm Bull, 2002;25:1391-1400.  
+[36] Morita N, Yasumori T, Nakayama K. Human MDR1 polymorphism: G2677T/A and C3435T have no effect on MDR1 trans-port activities[J]. Biochem Pharmacol, 2003;65:1843-1852.

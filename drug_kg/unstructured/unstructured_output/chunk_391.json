@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "质子泵抑制剂",
+        "canonical_name": "质子泵抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "靶向药",
+        "canonical_name": "靶向药",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "与癌共舞",
+          "chunk_index": 391,
+          "raw_text": "在胃内pH值较低时，胃肠道对靶向药的吸收效率最高。但当胃内酸度降低、pH升高时（比如使用质子泵抑制剂时），靶向药就会倾向非电离状态，此时的溶解度和生物利用率都会显著降低。",
+          "chunk_id": "391",
+          "data": "。因此，在胃内pH值较低时，胃肠道对靶向药的吸收效率最高。但当胃内酸度降低、pH升高时（比如使用质子泵抑制剂时），靶向药就会倾向非电离状态，此时的溶解度和生物利用率都会显著降低。 2. 抑酸药和食物如何影响靶向药的吸收利用？前面说了，质子泵抑制剂是现在普遍使用的一种高效抑酸剂，通常一天一次给药就足够了。不过，这种药物并不能在一天24小时之内持续地降低胃酸、升高胃内的pH值。它带来的胃酸曲线与药物的起效时间和药力持续时间密不可分。图片来自Hunfeld NG et al, A comparison of the acid-inhibitory effects of esomeprazole and rabeprazole in relation to pharmacokinetics and CYP2C19 polymorphism. Aliment Pharmacol Ther. 2012;35(7)我们可以看到上图中医学研究者对质子泵抑制剂用药患者胃内pH值的红色检测曲线，低谷表示pH值低、胃酸强，高峰表示pH值高、胃酸弱。 由于质子泵抑制剂在胃酸中不稳定，所以通常都是做成肠溶片，进入碱性的肠道环境才崩解，因此在刚刚给药后的3-4个小时里，药物还没有完全起效，pH值处于低谷； 药物发挥抑酸作用后，胃内酸度下降，pH值升高，之后经过12-14小时（每日一次给药的药效持续时间），随着药物的清除和代谢，pH值再次下降。 那么问题来了：为什么后面还有一个短暂的pH值高峰呢？这是在夜间，十二指肠的碱性肠液反流入胃，造成的胃液pH值升高"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 391,
+    "source": "与癌共舞",
+    "text": "。因此，在胃内pH值较低时，胃肠道对靶向药的吸收效率最高。但当胃内酸度降低、pH升高时（比如使用质子泵抑制剂时），靶向药就会倾向非电离状态，此时的溶解度和生物利用率都会显著降低。 2. 抑酸药和食物如何影响靶向药的吸收利用？前面说了，质子泵抑制剂是现在普遍使用的一种高效抑酸剂，通常一天一次给药就足够了。不过，这种药物并不能在一天24小时之内持续地降低胃酸、升高胃内的pH值。它带来的胃酸曲线与药物的起效时间和药力持续时间密不可分。图片来自Hunfeld NG et al, A comparison of the acid-inhibitory effects of esomeprazole and rabeprazole in relation to pharmacokinetics and CYP2C19 polymorphism. Aliment Pharmacol Ther. 2012;35(7)我们可以看到上图中医学研究者对质子泵抑制剂用药患者胃内pH值的红色检测曲线，低谷表示pH值低、胃酸强，高峰表示pH值高、胃酸弱。 由于质子泵抑制剂在胃酸中不稳定，所以通常都是做成肠溶片，进入碱性的肠道环境才崩解，因此在刚刚给药后的3-4个小时里，药物还没有完全起效，pH值处于低谷； 药物发挥抑酸作用后，胃内酸度下降，pH值升高，之后经过12-14小时（每日一次给药的药效持续时间），随着药物的清除和代谢，pH值再次下降。 那么问题来了：为什么后面还有一个短暂的pH值高峰呢？这是在夜间，十二指肠的碱性肠液反流入胃，造成的胃液pH值升高"
+  }
+]

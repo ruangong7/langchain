@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "甘草",
+        "canonical_name": "甘草",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "乌头碱",
+        "canonical_name": "乌头碱",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "中草药杂志社",
+          "chunk_index": 684,
+          "raw_text": "甘草可减缓乌头碱在回肠的吸收速度，最终表现为减毒",
+          "chunk_id": "684",
+          "data": "。如Li等[38]通过单向在体肠灌流模型研究表明三七可促进雷公藤红素在肠道的吸收，从而促进其抗癌作用，体现为增效。李文等[39]通过大鼠在体肠灌注模型研究甘草-附子配伍减毒机制，发现甘草可减缓乌头碱在回肠的吸收速度，最终表现为减毒。Chen等[40]通过高效液相色谱-质谱（high"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 684,
+    "source": "中草药杂志社",
+    "text": "。如Li等[38]通过单向在体肠灌流模型研究表明三七可促进雷公藤红素在肠道的吸收，从而促进其抗癌作用，体现为增效。李文等[39]通过大鼠在体肠灌注模型研究甘草-附子配伍减毒机制，发现甘草可减缓乌头碱在回肠的吸收速度，最终表现为减毒。Chen等[40]通过高效液相色谱-质谱（high"
+  }
+]

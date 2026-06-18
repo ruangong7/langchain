@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Esaxerenone",
+        "canonical_name": "Esaxerenone",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "地高辛",
+        "canonical_name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "canonical_name": "咪达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "P-gp底物",
+        "canonical_name": "P-gp底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP3A底物",
+        "canonical_name": "CYP3A底物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1238,
+          "raw_text": "临床研究表明Esaxerenone对地高辛的稳态PK无影响，与静态机制模型分析结果一致。",
+          "chunk_id": "1238",
+          "data": "。当使用不同剂量的Esaxerenone（即1.25-10 mg）进行DDI模拟时，AUCRinh升高而AUCRind降低，呈剂量依赖性。然而，由于抵消作用，AUCRtot几乎保持恒定，即由于抑制而引起的代谢酶活性的降低被诱导引起的酶表达量的增加所缓和。与静态机制模型的计算结果相比，使用以上模拟设置，PBPK模型模拟的抑制和诱导作用都更弱（即AUCRinh更小和AUCRind更大）。4模型讨论  本研究通过评估体外、静态机制模型和动态PBPK模型评估了Esaxerenone作为促变药产生DDI的风险。讨论了PBPK建模软件GastroPlus用于预测肠道中弱DDI的实用性。根据静态机制模型分析，Esaxerenone表现出通过抑制主要酶或转运蛋白而发生临床DDI的风险很小或没有。尽管目前的结果表明Esaxerenone通过P-gp介导的DDI程度较低，但由于可能会与窄治疗窗药物地高辛合用，因此也进行了一项临床研究以考察Esaxerenone对地高辛（P-gp的典型底物）PK的影响。临床研究表明Esaxerenone对地高辛的稳态PK无影响，与静态机制模型分析结果一致。Esaxerenone作为的CYP3A的TDI和诱导剂需要进行模型分析以评估临床中DDI的风险。由于难以准确估计抑制和诱导之间的抵消效应，使用了静态机制模型分别考察了对CYP3A的TDI和诱导作用。此外，还进行了与咪达唑仑的临床DDI研究。在静态机制模型中假设使用了促变药的最大浓度，以避免造成假阴性，这种与真实世界不符的假设倾向于高估DDI风险，而可以模拟动态浓度变化的PBPK模型更可以实现对真实世界的预测"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1238,
+          "raw_text": "此外，还进行了与咪达唑仑的临床DDI研究。",
+          "chunk_id": "1238",
+          "data": "。当使用不同剂量的Esaxerenone（即1.25-10 mg）进行DDI模拟时，AUCRinh升高而AUCRind降低，呈剂量依赖性。然而，由于抵消作用，AUCRtot几乎保持恒定，即由于抑制而引起的代谢酶活性的降低被诱导引起的酶表达量的增加所缓和。与静态机制模型的计算结果相比，使用以上模拟设置，PBPK模型模拟的抑制和诱导作用都更弱（即AUCRinh更小和AUCRind更大）。4模型讨论  本研究通过评估体外、静态机制模型和动态PBPK模型评估了Esaxerenone作为促变药产生DDI的风险。讨论了PBPK建模软件GastroPlus用于预测肠道中弱DDI的实用性。根据静态机制模型分析，Esaxerenone表现出通过抑制主要酶或转运蛋白而发生临床DDI的风险很小或没有。尽管目前的结果表明Esaxerenone通过P-gp介导的DDI程度较低，但由于可能会与窄治疗窗药物地高辛合用，因此也进行了一项临床研究以考察Esaxerenone对地高辛（P-gp的典型底物）PK的影响。临床研究表明Esaxerenone对地高辛的稳态PK无影响，与静态机制模型分析结果一致。Esaxerenone作为的CYP3A的TDI和诱导剂需要进行模型分析以评估临床中DDI的风险。由于难以准确估计抑制和诱导之间的抵消效应，使用了静态机制模型分别考察了对CYP3A的TDI和诱导作用。此外，还进行了与咪达唑仑的临床DDI研究。在静态机制模型中假设使用了促变药的最大浓度，以避免造成假阴性，这种与真实世界不符的假设倾向于高估DDI风险，而可以模拟动态浓度变化的PBPK模型更可以实现对真实世界的预测"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1238,
+          "raw_text": "地高辛（P-gp的典型底物）",
+          "chunk_id": "1238",
+          "data": "。当使用不同剂量的Esaxerenone（即1.25-10 mg）进行DDI模拟时，AUCRinh升高而AUCRind降低，呈剂量依赖性。然而，由于抵消作用，AUCRtot几乎保持恒定，即由于抑制而引起的代谢酶活性的降低被诱导引起的酶表达量的增加所缓和。与静态机制模型的计算结果相比，使用以上模拟设置，PBPK模型模拟的抑制和诱导作用都更弱（即AUCRinh更小和AUCRind更大）。4模型讨论  本研究通过评估体外、静态机制模型和动态PBPK模型评估了Esaxerenone作为促变药产生DDI的风险。讨论了PBPK建模软件GastroPlus用于预测肠道中弱DDI的实用性。根据静态机制模型分析，Esaxerenone表现出通过抑制主要酶或转运蛋白而发生临床DDI的风险很小或没有。尽管目前的结果表明Esaxerenone通过P-gp介导的DDI程度较低，但由于可能会与窄治疗窗药物地高辛合用，因此也进行了一项临床研究以考察Esaxerenone对地高辛（P-gp的典型底物）PK的影响。临床研究表明Esaxerenone对地高辛的稳态PK无影响，与静态机制模型分析结果一致。Esaxerenone作为的CYP3A的TDI和诱导剂需要进行模型分析以评估临床中DDI的风险。由于难以准确估计抑制和诱导之间的抵消效应，使用了静态机制模型分别考察了对CYP3A的TDI和诱导作用。此外，还进行了与咪达唑仑的临床DDI研究。在静态机制模型中假设使用了促变药的最大浓度，以避免造成假阴性，这种与真实世界不符的假设倾向于高估DDI风险，而可以模拟动态浓度变化的PBPK模型更可以实现对真实世界的预测"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1238,
+          "raw_text": "与咪达唑仑的临床DDI研究",
+          "chunk_id": "1238",
+          "data": "。当使用不同剂量的Esaxerenone（即1.25-10 mg）进行DDI模拟时，AUCRinh升高而AUCRind降低，呈剂量依赖性。然而，由于抵消作用，AUCRtot几乎保持恒定，即由于抑制而引起的代谢酶活性的降低被诱导引起的酶表达量的增加所缓和。与静态机制模型的计算结果相比，使用以上模拟设置，PBPK模型模拟的抑制和诱导作用都更弱（即AUCRinh更小和AUCRind更大）。4模型讨论  本研究通过评估体外、静态机制模型和动态PBPK模型评估了Esaxerenone作为促变药产生DDI的风险。讨论了PBPK建模软件GastroPlus用于预测肠道中弱DDI的实用性。根据静态机制模型分析，Esaxerenone表现出通过抑制主要酶或转运蛋白而发生临床DDI的风险很小或没有。尽管目前的结果表明Esaxerenone通过P-gp介导的DDI程度较低，但由于可能会与窄治疗窗药物地高辛合用，因此也进行了一项临床研究以考察Esaxerenone对地高辛（P-gp的典型底物）PK的影响。临床研究表明Esaxerenone对地高辛的稳态PK无影响，与静态机制模型分析结果一致。Esaxerenone作为的CYP3A的TDI和诱导剂需要进行模型分析以评估临床中DDI的风险。由于难以准确估计抑制和诱导之间的抵消效应，使用了静态机制模型分别考察了对CYP3A的TDI和诱导作用。此外，还进行了与咪达唑仑的临床DDI研究。在静态机制模型中假设使用了促变药的最大浓度，以避免造成假阴性，这种与真实世界不符的假设倾向于高估DDI风险，而可以模拟动态浓度变化的PBPK模型更可以实现对真实世界的预测"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1238,
+    "source": "凡默谷",
+    "text": "。当使用不同剂量的Esaxerenone（即1.25-10 mg）进行DDI模拟时，AUCRinh升高而AUCRind降低，呈剂量依赖性。然而，由于抵消作用，AUCRtot几乎保持恒定，即由于抑制而引起的代谢酶活性的降低被诱导引起的酶表达量的增加所缓和。与静态机制模型的计算结果相比，使用以上模拟设置，PBPK模型模拟的抑制和诱导作用都更弱（即AUCRinh更小和AUCRind更大）。4模型讨论  本研究通过评估体外、静态机制模型和动态PBPK模型评估了Esaxerenone作为促变药产生DDI的风险。讨论了PBPK建模软件GastroPlus用于预测肠道中弱DDI的实用性。根据静态机制模型分析，Esaxerenone表现出通过抑制主要酶或转运蛋白而发生临床DDI的风险很小或没有。尽管目前的结果表明Esaxerenone通过P-gp介导的DDI程度较低，但由于可能会与窄治疗窗药物地高辛合用，因此也进行了一项临床研究以考察Esaxerenone对地高辛（P-gp的典型底物）PK的影响。临床研究表明Esaxerenone对地高辛的稳态PK无影响，与静态机制模型分析结果一致。Esaxerenone作为的CYP3A的TDI和诱导剂需要进行模型分析以评估临床中DDI的风险。由于难以准确估计抑制和诱导之间的抵消效应，使用了静态机制模型分别考察了对CYP3A的TDI和诱导作用。此外，还进行了与咪达唑仑的临床DDI研究。在静态机制模型中假设使用了促变药的最大浓度，以避免造成假阴性，这种与真实世界不符的假设倾向于高估DDI风险，而可以模拟动态浓度变化的PBPK模型更可以实现对真实世界的预测"
+  }
+]

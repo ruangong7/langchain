@@ -1,0 +1,1482 @@
+[
+  {
+    "type": "text",
+    "text": "利伐沙班与临床常用药的药物相互作用研究进展",
+    "text_level": 1,
+    "bbox": [
+      90,
+      141,
+      626,
+      165
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "赵婷婷，吴敬敬\\*，刘克辛\\*",
+    "bbox": [
+      107,
+      184,
+      317,
+      199
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "大连医科大学 药学院，辽宁 大连 116044",
+    "bbox": [
+      107,
+      203,
+      401,
+      217
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘 要： 利伐沙班作为一种特异性凝血因子Xa抑制剂在临床上被广泛应用于抗凝的预防及治疗中。然而，在临床应用过程中，利伐沙班与其他药物合用所致的出血风险仍需密切监视。聚焦药物代谢酶及转运体，分别从利伐沙班与心血管系统药物、抗肿瘤药物、以及代谢靶点相关药物合用等方面系统综述药动学介导的利伐沙班相关药物-药物相互作用的研究进展，旨在为利伐沙班的临床安全合理用药提供更科学、更直接的指导依据。",
+    "bbox": [
+      87,
+      239,
+      905,
+      305
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词： 利伐沙班；药物-药物相互作用；转运体；代谢酶；药动学",
+    "bbox": [
+      90,
+      308,
+      544,
+      322
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号：R969.2 文献标志码：A 文章编号： 1674-6376（2021）01-0196-09",
+    "bbox": [
+      89,
+      325,
+      697,
+      339
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "DOI：10.7501/j.issn.1674-6376.2021.01.028",
+    "bbox": [
+      89,
+      343,
+      374,
+      356
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Pharmacokinetics-mediated drug-drug interactions of rivaroxaban with clinic common drugs",
+    "text_level": 1,
+    "bbox": [
+      89,
+      378,
+      907,
+      422
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "ZHAO Tingting, WU Jingjing, LIU Kexin",
+    "bbox": [
+      105,
+      441,
+      413,
+      456
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "College of Pharmacy, Dalian Medical University, Dalian 116044, China",
+    "bbox": [
+      105,
+      459,
+      549,
+      473
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Abstract: Rivaroxaban as a specific Xa inhibitor is widely applied to the prevention and treatment of clinical anticoagulation. However, the risk of bleeding caused by the combination of rivaroxaban with other drugs still needs to be closely monitored in clinical application. This review focuses on the metabolic enzymes and transporters, systematically summarizes the progress of rivaroxaban related DDIs mediated by pharmacokinetics from the aspects of the applications combined with cardiovascular drugs, anti-cancer drugs and drugs related to metabolic targets and so on, aiming to provide more significant and direct guidance for rivaroxaban clinical application.",
+    "bbox": [
+      87,
+      496,
+      907,
+      595
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Key words: rivaroxaban; drug-drug interaction; transporter; metabolic enzymes; pharmacokinetics",
+    "bbox": [
+      89,
+      600,
+      695,
+      614
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "利伐沙班作为一种新型口服抗凝剂，通过抑制凝血级联反应中的凝血因子Xa而发挥特异性的抗凝作用［1-3］。生理性凝血过程可以分为3个阶段：凝血酶原激活物的形成、凝血酶的形成以及纤维蛋白的形成；凝血因子Xa属于凝血酶原激活复合物中的作用因子，参与内源及外源性凝血过程中凝血酶原的激活。因而与华法林等维生素K拮抗剂相比，利伐沙班具有更强、更直接的抗凝作用［2］。利伐沙班临床用于预防术后静脉血栓栓塞、非瓣膜性房颤的全身性栓塞及卒中，用于治疗静脉血栓栓塞（VTE）",
+    "bbox": [
+      89,
+      635,
+      485,
+      824
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "和肺栓塞（PTE）等血栓性疾病［3-4］。",
+    "bbox": [
+      512,
+      635,
+      773,
+      651
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关于利伐沙班的体内药动学行为，已有大量文献报道。利伐沙班的常用临床剂量有3种：10、15、20 mg，其中 10 mg 口服绝对生物利用度可达到80%～100%，且不受饮食影响［5］。利伐沙班单次口服2～4 h后在体内达到最大血药浓度 $( C _ { \\mathrm { m a x } } )$ ），几乎完全吸收［6］。血浆蛋白结合率可达到92%～95%，主要结合蛋白为白蛋白。已有文献表明：利伐沙班被吸收入血后，约有51%在肝脏代谢，经由细胞色素P450酶（CYP）3A4、CYP2J2及水解酶将其转化为无活性的代谢产物，其中肝脏水解酶的水解作用约占总代谢的14%［7］。代谢产物中30%经过尿液排出体外，21%通过胆汁进入肠道随粪便排泄；口服剂量中约43%保持原型，同样经过尿液及粪便两种途径排泄。体内过程涉及到的转运体主要有P糖蛋白（P-gp）以及乳腺癌耐药蛋白（BCRP）［8-9］。因此，代谢酶 CYP3A4、CYP2J2，以及转运体 P-gp、BCRP成为利伐沙班与临床药物相互作用的重要靶点。",
+    "bbox": [
+      510,
+      654,
+      907,
+      824
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "196··",
+    "bbox": [
+      92,
+      64,
+      142,
+      77
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "第 44 卷 第 1 期 2021 年 1 月",
+    "bbox": [
+      173,
+      63,
+      352,
+      77
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      369,
+      61,
+      630,
+      78
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Vol. 44 No. 1 January 2021",
+    "bbox": [
+      647,
+      64,
+      833,
+      77
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "收稿日期：2020-07-20",
+    "bbox": [
+      115,
+      859,
+      248,
+      872
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "基金项目：国家自然科学基金资助项目（81874324）；辽宁省兴辽英才青年拔尖人才项目（XLYC1907103）",
+    "bbox": [
+      115,
+      875,
+      719,
+      887
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "第一作者：赵婷婷（1996—），女，硕士研究生，研究方向为药物转运体与代谢酶。E-mail：18340838611@163.com",
+    "bbox": [
+      115,
+      889,
+      761,
+      902
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "\\*通信作者：吴敬敬，女，博士，副教授，硕士生导师，研究方向为药物代谢酶与药代动力学。Tel：（0411）86110415 E-mail：wjj@dmu.edu.cn",
+    "bbox": [
+      115,
+      904,
+      857,
+      917
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "刘克辛，男，博士，教授，博士生导师，研究方向为药物转运体与药代动力学。Tel：（0411）86110407 E-mail：liukexin89@163.com",
+    "bbox": [
+      191,
+      919,
+      870,
+      930
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      836,
+      978
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      86,
+      482,
+      235
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "出血是一种存在于全部抗凝药物中的致命不良反应，利伐沙班也不例外［10］。综述利伐沙班与临床药物之间的药物-药物相互作用（DDI）将会为临床用药提供有效的预警与理论指导。本文聚焦药物代谢酶及转运体，分别从利伐沙班与心血管系统药物、抗肿瘤药物、以及代谢靶点相关药物合用等方面系统综述药动学介导的利伐沙班相关DDI的研究进展，旨在为利伐沙班的临床合理用药提供更科学、更直接的指导依据。",
+    "bbox": [
+      89,
+      239,
+      482,
+      407
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 利伐沙班与心血管系统药物合用",
+    "text_level": 2,
+    "bbox": [
+      90,
+      411,
+      368,
+      425
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "血栓性疾病是心脏病患者的常见并发症，也是多种心脏疾病的发病基础，因此抗凝治疗是心血管疾病治疗中必不可少的环节。利伐沙班作为凝血因子Xa抑制剂可以产生快速且特异性的抗凝作用，因此逐渐被应用于心血管疾病的治疗中［11］。作为利伐沙班代谢靶点之一的CYP2J2主要表达在心脏，存在于心肌细胞、冠状动脉内皮细胞，少量存在于血管平滑肌细胞和主动脉中［12］。因此要评估利伐沙班与心血管系统药物联合应用的DDI情况，必须将CYP2J2这一靶点包括在内，同时结合临床合用的实际基础。以下内容包括了利伐沙班与心血管系统药物合用的实际案例分析及实验室机制研究，将相关研究结果汇总于表1［13-15］ ，以期为临床用药安全有效提供依据。",
+    "bbox": [
+      89,
+      430,
+      482,
+      694
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.1 与房颤药物合用",
+    "text_level": 2,
+    "bbox": [
+      512,
+      87,
+      680,
+      101
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "美国食品药品监督管理局（FDA）在2011年发布的利伐沙班临床药理学与生物药理学总结以及2015年发布的房颤与新型口服抗凝剂相关指南中指出：利伐沙班可降低非瓣膜性房颤患者发生卒中和全身栓塞的风险［16］。一项对口服抗凝剂用于预防房颤卒中的安全性、有效性的Meta分析显示20 mg利伐沙班每日1次口服与华法林相比可以有效降低卒中或系统性栓塞及心肌梗死发生的风险；与华法林相比，利伐沙班颅内出血的风险较低，然而大出血、胃肠道出血、临床相关性出血的风险均高于华法林；故而阐明合用房颤药物与利伐沙班之间DDI或潜在DDI对提高药物疗效、降低不良反应的发生有重要指导作用［17］。",
+    "bbox": [
+      510,
+      105,
+      905,
+      354
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "基于治疗优势，利伐沙班与抗心律失常药物合用成为一种常见的临床治疗方案。已有数例报道胺碘酮和决奈达隆在临床分别与利伐沙班合用过程中发生出血的事件［18-20］。体外实验显示胺碘酮、决奈达隆及其二者体内代谢产物（分别为去乙基胺碘酮、去丁基决奈达隆）均可在不同程度上抑制CYP3A4，4种化合物中部分可抑制P-gp介导的利伐沙班外排及CYP2J2对利伐沙班的代谢，有增加利伐沙班体内暴露量的风险。经过体外实验研究，利用静态模型分析预测，分别联合应用两种药物后只会增加低于2倍的利伐沙班体内暴露量（表1），显示出较低的DDI发生风险［13］。地尔硫 作为一种非二氢吡啶类的Ca2+通道阻滞剂，是房颤患者处方中常见的用于控制心率的药物［21］。地尔硫 是P-gp以及CYP3A4抑制剂，与利伐沙班之间存在潜在DDI风险。在1项Meta分析中，纳入了143例同时服用利伐沙班与地尔硫 的非瓣膜性房颤患者以及143例单独服用利伐沙班的患者，探究地尔硫 对利伐沙班所致出血的影响，实验组及对照组的中位随访时间分别为12.4、16.5月，但两组实验过程中的严重出血及临床相关性非严重的出血发生率并没有显著差异，分别为23.1%、28%。这一结果显示地尔硫与利伐沙班出血的不良反应之间没有明显的临床相关性［22］ 。",
+    "bbox": [
+      510,
+      356,
+      907,
+      697
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/1282788eab3b9fa7801424bcf64d6ac5ae905ecd67a90353b9150efaa41e5b37.jpg",
+    "table_caption": [
+      "表 1 利伐沙班与心血管系统药物合用的体外DDI评估",
+      "Table 1 In vitro evaluation of DDIs of rivaroxaban combining with cardiovascular drugs"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>合用药物</td><td>作用机制</td><td>药动学参数</td><td>风险预测</td></tr><tr><td>决奈达隆[13]</td><td>抑制CYP3A4、CYP2J2、P-gp</td><td> $K_{iCYP3A4}=0.65 \\mu mol·L^{-1},K_{iCYP2J2}=0.91 \\mu mol·L^{-1}$ </td><td>AUC 131% ↑,低DDI风险</td></tr><tr><td>去丁基决奈达隆[13]</td><td>抑制CYP3A4、CYP2J2</td><td> $K_{iCYP3A4}=1.03 \\mu mol·L^{-1},K_{iCYP2J2}=0.53 \\mu mol·L^{-1}$ </td><td>AUC 126% ↑,排除DDI风险</td></tr><tr><td>胺碘酮[13]</td><td>抑制CYP3A4、P-gp</td><td> $K_{iCYP3A4}=0.23 \\mu mol·L^{-1},IC_{50}=10.3 \\mu mol·L^{-1}$ </td><td>AUC 137% ↑,低DDI风险</td></tr><tr><td>去乙基胺碘酮[13]</td><td>抑制CYP3A4、P-gp</td><td> $K_{iCYP3A4}=0.24 \\mu mol·L^{-1},IC_{50}=9.20 \\mu mol·L^{-1}$ </td><td>AUC 122% ↑,排除DDI风险</td></tr><tr><td>西地那非[14]</td><td>抑制P-gp</td><td> $IC_{50}=8.00 \\mu mol·L^{-1}$ </td><td>存在肠道DDI风险</td></tr><tr><td>伐地那非[14]</td><td>抑制P-gp</td><td> $IC_{50}=5.00 \\mu mol·L^{-1}$ </td><td>存在肠道DDI风险</td></tr><tr><td>他达拉非[14]</td><td>抑制P-gp</td><td> $IC_{50}=28.0 \\mu mol·L^{-1}$ </td><td>排除DDI风险</td></tr><tr><td>利奥西呱[15]</td><td>P-gp底物、抑制BCRP</td><td> $IC_{50}=46.5 \\mu mol·L^{-1}$ </td><td>排除DDI风险</td></tr></table>",
+    "bbox": [
+      92,
+      764,
+      905,
+      929
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "第 44 卷 第 1 期 2021 年 1 月 Drug Evaluation Research Vol. 44 No. 1 January 2021",
+    "bbox": [
+      161,
+      63,
+      818,
+      77
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "197··",
+    "bbox": [
+      857,
+      65,
+      902,
+      75
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      86,
+      482,
+      197
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "1.2 与治疗肺动脉高压药物合用",
+    "text_level": 2,
+    "bbox": [
+      90,
+      201,
+      346,
+      216
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2015年欧洲心脏病学会及欧洲呼吸学会发布的肺动脉高压诊断治疗指南中指出；从特发性肺动脉高压患者的尸检结果来看，血管血栓性病变发生率很高，同时有报道显示肺动脉高压患者常常伴有凝血和纤溶途径异常［23-25］。另外考虑到静脉血栓栓塞的非特异性风险因素，对特发性肺动脉高压患者给予直接口服抗凝剂进行支持性治疗是有意义的［26-28］。此外，5年内肺动脉高压患者发生房颤的概率很高，更重要的是房颤的发生常常与病情恶化直接相关，因此长远考虑抗凝治疗也是必要的［29］。",
+    "bbox": [
+      89,
+      220,
+      482,
+      408
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "5型磷酸二酯酶抑制剂是基于抑制肺部血管中的5型磷酸二酯酶进而扩张血管，达到降低肺动脉压力的效果［30-32］。常用的此类药物有西地那非、他达拉非、伐地那非3种，体外实验证明3种药物对P-gp转染细胞中利伐沙班的外排存在剂量相关性的抑制，外排率的降低与已知的 $\\mathrm { P - g p }$ 强抑制剂维拉帕米、利托纳韦相近。并且通过体外细胞实验测得3种药物半数抑制浓度 $\\mathrm { ( I C _ { 5 0 } ) }$ ）分别为 8、28、5 μmol/L；进一步与肠道中3种药物预期浓度的近似值 $\\left( { { I _ { 2 } } } \\right)$ 进行比较，结果显示西地那非、伐地那非的 $I _ { 2 } / \\mathrm { I C } _ { 5 0 }$ 分别为21、25，均高于10；因此不能排除这两种药物与利伐沙班合用会在肠道发生由 $\\mathrm { P - g p }$ 介导的DDIs的可能［14，33-34］。但是这些结果仅为体外水平上的预测，体内实验是否会印证这一假设还不得而知。",
+    "bbox": [
+      89,
+      411,
+      482,
+      675
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "除5型磷酸二酯酶抑制剂外，可溶性鸟苷酸环化酶刺激剂利奥西呱也被批准用于肺动脉高压的特殊药物治疗［28］。与5型磷酸二酯酶抑制剂不同的是利奥西呱对利伐沙班的影响涉及P-gp及BCRP双转运体。体外实验证明利奥西呱是 $\\mathrm { P - g p }$ 及BCPR的底物且同时会抑制利伐沙班经过BCRP的外排转运，$\\mathrm { I C } _ { 5 0 } \\mathrm { \\# } \\mathrm { 4 6 . 5 \\ \\mu m o l / L } , I _ { \\mathrm { g u t } } / \\mathrm { I C } _ { 5 0 }$ 仅为0.51，提示临床上二者合用DDI的发生率很低，但是肺动脉高压患者体内代谢与排泄环境复杂，存在多种生物因子堆积的危险因素，因而进一步体内实验及临床观察是必要的［15］。",
+    "bbox": [
+      89,
+      678,
+      482,
+      866
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "1.3 与调血脂药物合用",
+    "text_level": 2,
+    "bbox": [
+      90,
+      870,
+      275,
+      884
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "他汀类药物作为临床上最常用的降脂药，体内代谢过程也与CYP3A4、 $\\mathrm { P - g p }$ 紧密相关，其典型代表药物为阿托伐他汀［35-36］。利伐沙班与阿托伐他汀联用引起的出血事件也有个别案例报道［19］ ，为评估出血发生风险，在健康志愿者中进行了体内试验，结果显示联用阿托伐他汀后利伐沙班的体内AUC及$C _ { \\mathrm { m a x } }$ 没有发生明显的变化［37］。因此考虑二者联用引起的出血事件可能是由个体间代谢酶及转运体含量差异所引起。",
+    "bbox": [
+      90,
+      889,
+      482,
+      924
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      86,
+      904,
+      216
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "利伐沙班与其他心血管系统常用药合用后导致出血的不良反应也有个别案例报道，如降血压药物：肾素抑制剂阿利吉伦、肾上腺素β受体抑制剂比索洛尔；调血脂药物：氟伐他汀、辛伐他汀等。但此类 案 例 发 生 的 具 体 机 制 尚 不 明 确 ，有 待探究［19-20，38-40］ 。",
+    "bbox": [
+      510,
+      220,
+      905,
+      331
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2 利伐沙班与抗肿瘤药物的合用",
+    "text_level": 2,
+    "bbox": [
+      512,
+      334,
+      773,
+      350
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "据统计，癌症患者中VTE的发生风险是普通患者的4～7倍，所有发生VTE患者中癌症患者约占20%［41-42］。癌症患者中VTE的高发生风险主要是由循环系统的高凝状态及抗肿瘤药物的致栓性两方面原因所引起的［43］。除血栓性疾病的易发性外，肿瘤患者VTE的复发率、以及并发血栓性疾病癌症患者的死亡率也都明显高于普通癌症患者，血栓性疾病已经成为肿瘤患者非肿瘤死亡原因的首位［44-45］。由于癌症患者血栓性疾病的易发生性及并发后的危险性，抗肿瘤药物与抗凝药的联合应用具有深厚的临床基础。",
+    "bbox": [
+      510,
+      354,
+      905,
+      560
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "近几年的临床实践表明，相比于其他抗凝剂，利伐沙班应用于癌症患者的抗凝治疗可以显著降低VTE的复发率［46-47］。同时，在一项对标准抗凝疗法与直接口服抗凝剂抗凝治疗的安全性有效性比较的Meta分析中得出：对于癌症患者来讲，接受利伐沙班治疗相比于标准治疗危险发生率更低且有效性相近［48］。因此，直接口服抗凝剂也逐渐被投入到肿瘤患者的抗凝治疗中［49-50］。因此，评估利伐沙班与抗肿瘤药物联用DDI风险极具临床指导意义。",
+    "bbox": [
+      510,
+      564,
+      905,
+      733
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "CYP3A4、P-gp参与多种抗肿瘤药物的体内过程，并在抗肿瘤前药的生物激活、肿瘤细胞多药耐药等方面发挥关键性的作用。如生物烷化剂类抗肿瘤药物环磷酰胺及异环磷酰胺的体内过程需要借助P450代谢酶进行代谢激活，产生氮芥类衍生物进而发挥抗肿瘤活性。在代谢激活过程中 ，CYP3A4对环磷酰胺、异环磷酰胺的贡献率分别可以达到95%、65%，是二者生物转化的主要代谢酶。大量研究发现，除烷化剂外，植物类抗肿瘤药物、酪氨酸蛋白激酶抑制剂等多种一线抗肿瘤药物的体内过程也都有CYP3A4的参与，见表2［51-67］ ，而肝脏中CYP3A4含量的巨大个体差异无疑会进一步增大利伐沙班与上述药物联用时体内药动学的不可控性。P-gp作为肿瘤细胞多药耐药的重要靶点，参与了大多数抗肿瘤药物的体内代谢。另外，CYP2J2在肺癌、乳腺癌、前列腺癌等多种肿瘤组织中高表达 ，同时在肿瘤的发生及转移过程中起重要作用［12，68-70］。上述 3 点使得评估抗肿瘤药物与利伐沙班之间发生DDI风险至关重要。",
+    "bbox": [
+      510,
+      736,
+      905,
+      924
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "198··",
+    "bbox": [
+      92,
+      64,
+      142,
+      76
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "第 44 卷 第 1 期 2021 年 1 月",
+    "bbox": [
+      173,
+      63,
+      351,
+      77
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "药物评价研究",
+    "bbox": [
+      371,
+      61,
+      445,
+      77
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      458,
+      64,
+      628,
+      77
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "Vol. 44 No. 1 January 2021",
+    "bbox": [
+      647,
+      64,
+      831,
+      77
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      86,
+      484,
+      254
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/7f1e5b86662d071ce2104664c2ea396bb8b64600ce3d950368d5b46befb313bc.jpg",
+    "table_caption": [
+      "表 2 抗肿瘤药物与CYP3A4、P-gp的关系",
+      "Table 2 Relation of CYP3A4 and P-gp with anti-cancer drugs"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>抗肿瘤药物</td><td>与CYP3A4关系</td><td>与P-gp关系</td></tr><tr><td>依马替尼[51-53]</td><td>主要代谢</td><td>底物</td></tr><tr><td>吉非替尼[54-55]</td><td>主要代谢</td><td>底物</td></tr><tr><td>环磷酰胺[56-57]</td><td>主要代谢</td><td>相关</td></tr><tr><td>异环磷酰胺[58-59]</td><td>主要代谢</td><td>相关</td></tr><tr><td>紫杉醇[60-61]</td><td>参与代谢</td><td>底物</td></tr><tr><td>多西紫杉醇[62-64]</td><td>主要代谢</td><td>底物</td></tr><tr><td>长春新碱[65-66]</td><td>主要代谢</td><td>底物</td></tr><tr><td>伊利替康[65, 67]</td><td>参与代谢</td><td>底物</td></tr></table>",
+    "bbox": [
+      92,
+      322,
+      484,
+      487
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "3 利伐沙班与其他药物合用",
+    "text_level": 2,
+    "bbox": [
+      90,
+      503,
+      315,
+      518
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "利伐沙班体内过程关系到代谢酶转运蛋白多个靶点，因此存在大量关于评估作用于同样靶点的药物与利伐沙班之间潜在DDI的药动学研究，以下内容综述了基于CYP3A4、P-gp的体内药动学研究进展（相关体内动力学数据汇总于表3［71-76］），为全面评估利伐沙班DDI发生的风险提供依据。",
+    "bbox": [
+      89,
+      521,
+      482,
+      633
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "3.1 抗真菌药物",
+    "text_level": 2,
+    "bbox": [
+      90,
+      637,
+      225,
+      652
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "多种唑类抗真菌药都已被证实对 CYP3A4、",
+    "bbox": [
+      126,
+      656,
+      482,
+      671
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "P-gp有不同程度的抑制活性，其中酮康唑的抑制效果最为突出。酮康唑对利伐沙班药动学影响的研究结果显示：10 mg利伐沙班同时联用200 mg酮康唑，血液中利伐沙班 $\\mathrm { { A U C } } , C _ { \\mathrm { { m a x } } }$ 分别增加82%、53%。利伐沙班的表观清除率平均降低了45%，提示利伐沙班的体内清除受到明显抑制；当酮康唑合用剂量达到400 mg时，利伐沙班的体内代谢被进一步抑制，AUC值提高了158%，清除率降低了61%。二者联用导致了利伐沙班的体内蓄积，增加出血风险，因此酮康唑作为强效 CYP3A4、P-gp 的抑制剂应该避免与利伐沙班联用［9，71］。与酮康唑不同，氟康唑仅作为CYP3A4抑制剂对利伐沙班的体内代谢影响较小，AUC、C 的增加都低于50%（表3），并未出现临床相关性［73-74］ 。",
+    "bbox": [
+      510,
+      86,
+      905,
+      350
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "3.2 抗病毒药物",
+    "text_level": 2,
+    "bbox": [
+      512,
+      354,
+      648,
+      368
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "抗病毒药物利托纳韦同样是作为 CYP3A4、P-gp强效抑制剂而被纳入利伐沙班合用药物的DDI风险评估中。健康志愿者进行的体内试验结果显示：10 mg利伐沙班与600 mg利托纳韦联用会导致利伐沙班AUC提高153%。利托纳韦在增加了利伐沙班体内暴露量的同时使本身清除率降低近60%［9］。另外，存在一例同用利伐沙班及利托纳韦后导致的术后出血事件：一位62岁男性患者由于接受左侧髋关节置换术术后修复而住院，入院前后都继续服用包括利托纳韦在内的多种抗病毒药物，术后为预防VTE给予每日1次10 mg利伐沙班口服。在联合应用利伐沙班24 h后，患者在手术部位出现严重出血，实验室检查结果显示凝血酶原时间延长（24.3 s），利 伐 沙 班 的 体 内 谷 浓 度 显 著 升高（75 ng/mL）。利伐沙班停药后24 h，患者恢复正常，排除其他药物后，合用药物中利托纳韦导致利伐沙班体内暴露增加的嫌疑最大［74］。不论是临床实例还是体内试验都显示出利托纳韦对利伐沙班的体内清除的强大的抑制作用，因此二者应避免合用。",
+    "bbox": [
+      510,
+      373,
+      907,
+      677
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/f6c528bed664fc4865dcf95625231957d66862f986b9214d04f5dd3685c8c227.jpg",
+    "table_caption": [
+      "表3 利伐沙班与相关代谢靶点调节剂合用后体内药动学数据变化及临床提示",
+      "Table 3 In vivo pharmacokinetics parameters changes and clinical suggestions of rivaroxaban combining with regulators of related metabolic targets"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>代谢靶点调节剂名称</td><td>作用机制</td><td>利伐沙班药动学数据</td><td>临床提示</td></tr><tr><td> $酮康唑(200 mg)^{[9,71]}$ </td><td>抑制 CYP3A4、P-gp</td><td>AUC 82% ↑, $C_{max}$  53% ↑</td><td>出血风险,避免联用</td></tr><tr><td> $酮康唑(400 mg)^{[9,71]}$ </td><td>抑制 CYP3A4、P-gp</td><td>AUC 158% ↑, $C_{max}$  72% ↑</td><td>出血风险,避免联用</td></tr><tr><td>利托纳韦[9]</td><td>抑制 CYP3A4、P-gp</td><td>AUC 153% ↑, $C_{max}$  55% ↑</td><td>出血风险、避免联用</td></tr><tr><td> $克拉霉素^{[71-72]}$ </td><td>抑制 CYP3A4、P-gp</td><td>AUC 54% ↑, $C_{max}$  40% ↑</td><td>无临床相关性</td></tr><tr><td> $红霉素^{[71-72]}$ </td><td>抑制 CYP3A4、P-gp</td><td>AUC 34% ↑, $C_{max}$  38% ↑</td><td>无临床相关性</td></tr><tr><td> $氟康唑(400 mg)^{[73-74]}$ </td><td>抑制 CYP3A4</td><td>AUC 42% ↑, $C_{max}$  28% ↑</td><td>无临床相关性</td></tr><tr><td> $环孢素^{[75]}$ </td><td>抑制 P-gp、BCRP</td><td>AUC 47% ↑, $C_{max}$  105% ↑</td><td>出血风险,谨慎联用</td></tr><tr><td> $环孢素联合氟康唑(400 mg)^{[75]}$ </td><td>抑制 CYP3A4、P-gp、BCRP</td><td>AUC 86% ↑, $C_{max}$  115% ↑</td><td>出血风险,避免联用</td></tr><tr><td> $利福平^{[76]}$ </td><td>诱导 CYP3A4、P-gp</td><td>AUC 42% ↓, $C_{max}$  28% ↓</td><td>降低疗效,避免联用或调整剂量</td></tr></table>",
+    "bbox": [
+      92,
+      750,
+      905,
+      934
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "第 44 卷 第 1 期 2021 年 1 月",
+    "bbox": [
+      161,
+      63,
+      339,
+      77
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "药物评价研究",
+    "bbox": [
+      359,
+      63,
+      431,
+      77
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      445,
+      65,
+      616,
+      77
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Vol. 44 No. 1 January 2021",
+    "bbox": [
+      635,
+      65,
+      818,
+      77
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "199··",
+    "bbox": [
+      855,
+      65,
+      902,
+      76
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      978
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      86,
+      484,
+      158
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "在健康受试者体内进行的中、轻度的CYP3A4、$\\mathrm { P - g p }$ 抑制剂合用的风险评估结果显示（表3）：这些药物虽然会一定程度上提高利伐沙班 $\\mathrm { A U C } , C _ { \\mathrm { m a x } }$ ，但并无临床相关性［7，9，71-72］ 。而利福平是 CYP3A4、P-gp的诱导剂，可以使二者活性增强，增加利伐沙班的体内清除，最终导致药效减弱。故而，联用时应增大利伐沙班的给药剂量以保证药效［76］。",
+    "bbox": [
+      89,
+      163,
+      482,
+      293
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "3.3 免疫抑制剂",
+    "text_level": 2,
+    "bbox": [
+      90,
+      297,
+      225,
+      311
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "免疫抑制剂环孢素与利伐沙班之间也存在DDI风险。环孢素是多种药物转运体的抑制剂，其中包括 $\\mathrm { P - g p }$ 及BCRP，同时对CYP3A亚家族也表现出弱的抑制效果，健康志愿者药动学研究显示，环孢素会 使 体 内 利 伐 沙 班 $( 2 0 \\mathrm { \\ m g } ) \\mathrm { A U C } , C _ { \\mathrm { m a x } }$ 分 别 提 高47%、105%［75］。有研究显示利伐沙班体内峰浓度与出血事件的发生存在紧密联系，虽然环孢素合用导致体内AUC增加幅度并不大，而其对体内 $C _ { \\mathrm { m a x } }$ 改变量是目前健康志愿者体内研究中增加幅度最大的，因此二者的联合应用存在较大风险［77］。当环孢素与氟康唑联用时，利伐沙班的AUC提高了86%。氟康唑本身对利伐沙班的体内代谢影响本无临床相关性，但与环孢素合用后药动学改变提示出明显的DDI风险。",
+    "bbox": [
+      89,
+      316,
+      482,
+      580
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "综上，对于与利伐沙班联合用药，如果存在一种药物同时影响多个靶点、或多种药物同时影响单一靶点或多个靶点的情况，利伐沙班的DDI风险会被明显提高（表3）。例如，双靶点的强效调节剂，如酮康唑、利托纳韦等（强效CYP3A4、P-gp抑制剂）应尽量避免与利伐沙班合用；多个靶点的多个调节剂，如环孢素联合氟康唑（CYP3A4、P-gp、BCRP抑制剂）也会大大增加出血风险，临床用药时应该对患者进行详细问询，谨慎用药［75］。",
+    "bbox": [
+      89,
+      583,
+      482,
+      751
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "4 结语",
+    "text_level": 2,
+    "bbox": [
+      90,
+      754,
+      157,
+      769
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "本文对于利伐沙班联合用药的安全性基于药动学水平进行综述，总结了近年来联合用药发生的DDI事件及发生机制研究。结果显示对于双靶点的强效调节剂（抑制剂或激活剂）联用时利伐沙班体内暴露量改变较大，因此应避免联合应用，更换其他抗凝剂进行治疗。",
+    "bbox": [
+      89,
+      774,
+      482,
+      885
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "与此同时，利伐沙班体外评估中仍有问题亟待解决。首先，体外评估与临床案例报道之间存在一定的偏差性。在临床案例中与利伐沙班合用后发生DDI的药物在体外研究中并非都被评估为高风险合用药物，而在体外评估中显示出高DDI发生风险的药物临床合用也并不一定导致严重出血，这一现象归因于以下两方面：其一，体外评估并不能完全准确预测药物发生DDI的风险。虽然体外DDI预测模型愈发成熟，可以将多种生理因素考虑在内，但仍存在某些无法模拟量化的因素，如个体间代谢酶及转运体的表达的差异性、基因多态性的影响、同用的其他药物等。这些情况在特定情况下是无法忽视的，都会在一定程度上影响预测结果的准确性。其二，利伐沙班自身代谢情况并未完全阐明。现有研究大多是基于CYP3A4以及 $\\mathrm { P - g p }$ 两个靶点，而在P450家族中，CYP3A4、CYP2J2共同介导了利伐沙班的肝脏代谢，考虑到CYP3A4在肝脏中含量丰富，因而多数研究都假定CYP3A4为利伐沙班的主要代谢酶，以此为基础评估DDI发生的风险。实际上，CYP3A4、CYP2J2两种亚型酶对利伐沙班的催化效率及代谢贡献并未得到精准的评估及比较，这一问题直接影响体外评估中对CYP2J2的定位，同时也可能与某些临床出血事件相关。另外，对于利伐沙班在癌症患者中的应用评估，内容具有极大的片面性。绝大多数研究仍停留在对用药安全性（出血事件）的回顾性分析上，缺乏对合用药物之间发生的相互作用及作用机制的探讨。CYP2J2在肿瘤细胞中的高表达以及癌症患者血栓性并发症的高风险性无疑都是探究利伐沙班与抗肿瘤药物之间DDI的重要背景。以上两点若得到妥善解决，将会极大促进利伐沙班临床用药的合理性、安全性。",
+    "bbox": [
+      89,
+      889,
+      482,
+      923
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      86,
+      907,
+      656
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "为进一步完善利伐沙班的临床应用，首先应探明体内各个代谢靶点的贡献，填补代谢酶贡献率研究的空白，进而具体分析与抗肿瘤药物之间可能发生的DDI及发生的机制，深入探究影响利伐沙班药动学的因素，最终实现利伐沙班的安全性、有效性应用。",
+    "bbox": [
+      510,
+      658,
+      905,
+      770
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "利益冲突 所有作者均声明不存在利益冲突",
+    "text_level": 2,
+    "bbox": [
+      547,
+      781,
+      887,
+      796
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "参考文献",
+    "text_level": 2,
+    "bbox": [
+      514,
+      811,
+      579,
+      826
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1] Schultz N H, Holme P A, Bjornsen S, et al. The impact of rivaroxaban on primary hemostasis in patients with venous thrombosis [J]. Platelets, 2020, 31(1): 43-47.",
+      "[2] Samuelson B T, Cuker A, Siegal D M, et al. Laboratory assessment of the anticoagulant activity of direct oral anticoagulants: a systematic review [J]. Chest, 2017, 151",
+      "(1): 127-138.",
+      "[3] Kreutz R. Pharmacodynamic and pharmacokinetic basics of rivaroxaban [J]. Fund Clin Pharmacol, 2012, 26(1): 27-32.",
+      "[4] 张学琴, 尹星烁, 王好雨, 等. 利伐沙班用于血栓栓塞性疾病的预防和治疗进展 [J]. 中国新药杂志, 2020, 29(7): 744-748.",
+      "Zhang X Q, Yin X S, Wang H Y, et al. Progress in the prevention and treatment of thromboembolic diseases by rivaroxaban [J]. Chin J New Drug, 2020, 29(7): 744-748.",
+      "[5] Pandya E, Bajorek B. Factors affecting patients' perception on, and adherence to, anticoagulant therapy: anticipating the role of direct oral anticoagulants [J]. Patient Patient-Centered Outcomes Res, 2017, 10(2): 163-185.",
+      "[6] Eerenberg E S, Kamphuisen P W, Sijpkens M K, et al. Reversal of rivaroxaban and dabigatran by prothrombin complex concentrate a randomized, placebo-controlled, crossover study in healthy subjects [J]. Circulation, 2011, 124(14): 1573-1579.",
+      "[7] FDA. Clinical pharmacology and biopharmaceutics review(s) [EB/OL]. (2010-12-30) [2020-02-27] https:// www. accessdata. fda. gov/drugsatfda\\_docs/nda/2011/ 022406Orig1s000ClinPharmR.pdf.",
+      "[8] Gnoth M J, Buetehorn U, Muenster U, et al. In vitro and in vivo P-glycoprotein transport characteristics of rivaroxaban. [J]. J Pharmacol Exp Therap, 2011, 338(1): 372-380.",
+      "[9] Mueck W, Kubitza D, Becka M. Co ‐ administration of rivaroxaban with drugs that share its elimination pathways: pharmacokinetic effects in healthy subjects [J]. Br J Clin Pharmacol, 2013, 76(3): 455-466.",
+      "[10] 杜晓明, 朱美婷, 肇丽梅. 利伐沙班药物不良反应的文献计量分析 [J]. 中国临床药理学杂志, 2018, 34(19):2348-2351.",
+      "Du X M, Zhu M T, Zhao L M. Bibliometric analysis of the adverse drug reactions of rivaroxaban [J]. Chin J Clin Pharmacol, 2018, 34(19): 2348-2351.",
+      "[11] Yeh C H, Hogg K, Weitz J I. Overview of the new oral anticoagulants opportunities and challenges [J]. Arterioscl Thromb Vasc Biol, 2015, 35(5): 1056-1065.",
+      "[12] Karkhanis A, Hong Y, Chan E C Y. Inhibition and inactivation of human CYP2J2: implications in cardiac pathophysiology and opportunities in cancer therapy [J]. Biochem Pharmacol, 2017, 135: 12-21.",
+      "[13] Cheong E J Y, Goh J J N, Hong Y, et al. Application of static modeling — in the prediction of in vivo drug–drug interactions between rivaroxaban and antiarrhythmic agents based on in vitro inhibition studies [J]. Drug",
+      "Metab Disp, 2017, 45(3): 260-268.",
+      "[14] Margelidoncozzolino V, Hodin S, Jacqueroux E, et al. In vitro assessment of pharmacokinetic drug-drug interactions of direct oral anticoagulants: type 5- phosphodiesterase inhibitors are inhibitors of rivaroxaban and apixaban efflux by P-glycoprotein [J]. J Pharmacol Exp Therap, 2018, 365(3): 519-525.",
+      "[15] Jacqueroux E, Mercier C, Margelidoncozzolino V, et al. In vitro assessment of P-gp and BCRP transportermediated drug-drug interactions of riociguat with direct oral anticoagulants [J]. Fund Clin Pharmacol, 2020, 34 (1): 109-119.",
+      "[16] FDA. Atrial fibrillation and new oral anticoagulant drugs [EB/OL]. (2015-10-16) [2020-02-27]. https://www. fda. gov/drugs/news-events-human-drugs/atrial-fibrillationand-new-oral-anticoagulant-drugs.",
+      "[17] Lopezlopez J A, Sterne J A C, Thom H, et al. Oral anticoagulants for prevention of stroke in atrial fibrillation: systematic review, network Meta-analysis, and cost effectiveness analysis [J]. BMJ, 2017, 359: j5085.",
+      "[18] Elikowski W, Malek M, Skowronski M, et al. Hemoptysis during concomitant treatment with rivaroxaban and amiodarone in a patient with a history of pulmonary disease [J]. Pol Merkur Lekarski, 2015, 39 (232): 227-230.",
+      "[19] Menendez D, Michel J. Hemopericardium with tamponade following rivaroxaban administration and its attenuation by CYP3A4 inhibitors [J]. Proceedings (Baylor University Medical Center), 2016, 29(4): 414-415.",
+      "[20] Stollberger C, Bastovansky A, Finsterer J. Fatal intracerebral bleeding under rivaroxaban [J]. Int J Cardiol, 2015, 201: 110-112.",
+      "[21] January C T, Wann L S, Chair V, et al. 2014 AHA/ACC/ HRS guideline for the management of patients with atrial fibrillation: executive summary [J]. Circulation, 2014, 130(23): 2071-2104.",
+      "[22] Bartlett J W, Renner E, Mouland E, et al. Clinical safety outcomes in patients with nonvalvular atrial fibrillation on rivaroxaban and diltiazem [J]. Ann Pharmacother, 2019, 53(1): 21-27.",
+      "[23] Fuster V, Steele P M, Edwards W D, et al. Primary pulmonary hypertension: natural history and the importance of thrombosis [J]. Circulation, 1984, 70(4): 580-587.",
+      "[24] Zhang H, Wang N, Zhang W, et al. Survival benefits of oral anticoagulants in patients with pulmonary arterial hypertension: protocol for a systematic review and Meta-",
+      "analysis [J]. Medicine, 2018, 97(36): e12203.",
+      "[25] Herve P, Humbert M, Sitbon O, et al. Pathobiology of pulmonary hypertension. The role of platelets and thrombosis [J]. Clin Chest Med, 2001, 22(3): 451-458.",
+      "[26] Zhang X, Hou H, Wang J, et al. Plasma proteomic study in pulmonary arterial hypertension associated with congenital heart diseases [J]. Sci Rep, 2016, 6(1): 36541.",
+      "[27] Huber K, Beckmann R, Frank H, et al. Fibrinogen, t-PA, and PAI-1 plasma levels in patients with pulmonary hypertension [J]. Am J Respir Crit Care Med, 1994, 150 (4): 929-933.",
+      "[28] Galie N, Humbert M, Vachiery J, et al. 2015 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension [J]. Kardiol Polska, 2015, 73(12): 1127- 1206.",
+      "[29] Olsson K M, Nickel N, Tongers J, et al. Atrial flutter and fibrillation in patients with pulmonary hypertension [J]. Int J Cardiol, 2013, 167(5): 2300-2305.",
+      "[30] Ding P R, Tiwari A K, Ohnuma S, et al. The phosphodiesterase-5 inhibitor vardenafil is a potent inhibitor of ABCB1/P-glycoprotein transporter [J]. PloS One, 2011, 6(4): e19329.",
+      "[31] Das A, Durrant D, Salloum F N, et al. PDE5 inhibitors as therapeutics for heart disease, diabetes and cancer [J]. Pharmacol Therap, 2015, 147: 12-21.",
+      "[32] Shi Z, Tiwari A K, Shukla S, et al. Sildenafil reverses ABCB1- and ABCG2-mediated chemotherapeutic drug resistance [J]. Cancer Res, 2011, 71(8): 3029-3041.",
+      "[33] Jouan E, Vee M L, Mayati A, et al. Evaluation of Pglycoprotein inhibitory potential using a rhodamine 123 accumulation assay [J]. Pharmaceutics, 2016, 8(2): 12.",
+      "[34] Fenner K S, Troutman, Kempshall S, et al. Drug-drug interactions mediated through P-glycoprotein: clinical relevance and in vitro-in vivo correlation using digoxin as a probe drug [J]. Clin Pharmacol Therap, 2009, 85(2): 173-181.",
+      "[35] Atil B, Bergersieczkowski E, Bardy J, et al. In vitro and in vivo downregulation of the ATP binding cassette transporter B1 by the HMG-CoA reductase inhibitor simvastatin [J]. Naunyn-Schmiedeb Arch Pharmacol, 2016, 389(1): 17-32.",
+      "[36] Wang E, Casciano C N, Clement R P, et al. HMG-CoA reductase inhibitors (statins) characterized as direct inhibitors of P-glycoprotein [J]. Pharma Res, 2001, 18(6): 800-806.",
+      "[37] Kubitza D, Becka M, Roth A, et al. Absence of clinically relevant interactions between rivaroxaban - an oral, direct factor xa inhibitor - and digoxin or atorvastatin in healthy subjects [J]. J Int Med Res, 2012, 40(5): 1688-1707.",
+      "[38] Stollberger C, Zuntner G, Bastovansky A, et al. Cerebral hemorrhage under rivaroxaban [J]. Int J Cardiol, 2013, 167(6): e179-e181.",
+      "[39] Lorenzini K I, Daali Y, Fontana P, et al. Rivaroxabaninduced hemorrhage associated with ABCB1 genetic defect [J]. Front Pharmacol, 2016, 7: 494.",
+      "[40] Kubitza D, Becka M, Mueck W, et al. Effects of renal impairment on the pharmacokinetics, pharmacodynamics and safety of rivaroxaban, an oral, direct Factor Xa inhibitor [J]. Br J Clin Pharmacol, 2010, 70(5): 703-712.",
+      "[41] Vedovati M C, Germini F, Agnelli G, et al. Direct oral anticoagulants in patients with VTE and cancer: a systematic review and Meta-analysis [J]. Chest, 2015, 147 (2): 475-483.",
+      "[42] Streiff M B. Thrombosis in the setting of cancer [J]. Hematology, 2016, 2016(1): 196-205.",
+      "[43] 夏云龙, 吕海辰. 抗凝药物在肿瘤相关血栓栓塞性疾病 中的应用研究进展 [J]. 药学进展, 2018, 42(7): 29-34. Xia Y L, Lyu H C. Research advances in anticoagulant therapy for cancer-related thromboembolic disease [J]. Prog Pharm Sci, 2018, 42(7): 29-34.",
+      "[44] Timp J F, Braekkan S K, Versteeg H H, et al. Epidemiology of cancer-associated venous thrombosis [J]. Blood, 2013, 122(10): 1712-1723.",
+      "[45] Zamorano J L, Lancellotti P, Munoz D R, et al. 2016 ESC Position Paper on cancer treatments and cardiovascular toxicity developed under the auspices of the ESC Committee for Practice Guidelines [J]. Eur Heart J, 2016, 37(36): 2768-2801.",
+      "[46] Piccini J P, Hellkamp A S, Washam J B, et al. Polypharmacy and the efficacy and safety of rivaroxaban versus warfarin in the prevention of stroke in patients with nonvalvular atrial fibrillation [J]. Circulation, 2016, 133(4): 352-360.",
+      "[47] Sanfilippo K M, Wang T. Prevention and treatment of cancer-associated venous thromboembolism: a review [J]. Curr Treat Op Cardiov Med, 2019, 21(11): 1-11.",
+      "[48] Prins M H, Lensing A W, Bauersachs R, et al. Oral rivaroxaban versus standard therapy for the treatment of symptomatic venous thromboembolism: a pooled analysis of the EINSTEIN-DVT and PE randomized studies [J]. Thromb J, 2013, 11(1): 21.",
+      "[49] 覃文杰, 杨志玲, 曹爱霖, 等. 新型口服抗凝药在肿瘤相关性血栓栓塞的研究进展 [J]. 中国临床药理学与治疗学, 2020, 25(7): 823-828.",
+      "Qin W J, Yang Z L, Cao A L, et al. Advances in the study of new oral anticoagulants in cancer-associatedvenous thromboembolism [J]. Chin J Clin Pharmacol Ther, 2020, 25(7): 823-828.",
+      "[50] 魏 萌, 徐婷婷, 张晏洁, 等. 利伐沙班治疗儿童肿瘤相关性血栓 1 例报告 [J]. 东南大学学报: 医学版, 2020, 39(3): 266-269.",
+      "Wei M, Xu T T, Zhang Y J, et al. Rivaroxaban treating cancer - associated venous thromboembolism in a pediatric patient: a case report [J]. J Southeast Univ: Med Sci Ed, 2020, 39(3): 266-269.",
+      "[51] Nebot N, Crettol S, D'Esposito F, et al. Participation of CYP2C8 and CYP3A4 in the N-demethylation of imatinib in human hepatic microsomes [J]. Br J Pharmacol, 2010, 161(5): 1059-1069.",
+      "[52] Ali M A M, Elsalakawy W A. ABCB1 haplotypes but not individual SNPs predict for optimal response/failure in Egyptian patients with chronic-phase chronic myeloid leukemia receiving imatinib mesylate [J]. Med Oncol, 2014, 31(11): 279.",
+      "[53] Illmer T, Schaich M, Platzbecker U, et al. P-glycoproteinmediated drug efflux is a resistance mechanism of chronic myelogenous leukemia cells to treatment with imatinib mesylate [J]. Leukemia, 2004, 18(3): 401-408.",
+      "[54] Mckillop D, Mccormick A D , Millar A , et al. Cytochrome P450-dependent metabolism of gefitinib [J]. Xenobiotica, 2005, 35(1): 39-50.",
+      "[55] Ma G D, Zhu J P, Liu P, et al. Long noncoding RNA LINC00460 promotes the gefitinib resistance of nonsmall cell lung cancer through epidermal growth factor receptor by sponging miR-769-5p [J]. DNA Cell Biol, 2018. Doi: 10.1089/dna.2018.4462.",
+      "[56] Huang Z Q, Roy P, Waxman D J. Role of human liver microsomal CYP3A4 and CYP2B6 in catalyzing Ndechloroethylation of cyclophosphamide and ifosfamide [J]. Biochem Pharmacol, 2000, 59(8): 961-972.",
+      "[57] Tazawa Y, Usukubo I, Takada K, et al. Scheduledependent cytotoxicity of etoposide and cyclophosphamide in P-glycoprotein-expressing human leukemic K-562 cells [J]. Biol Pharm Bull, 2014, 37(8): 1323-1329.",
+      "[58] Walker D, Flinois J P, Monkman S C, et al. Identification of the major human hepatic cytochrome P450 involved in activation and N-dechloroethylation of ifosfamide [J]. Biochem Pharmacol, 1994, 47(7): 1157-1163.",
+      "[59] Den Boer M L, Kapaun P, Pieters Ret al. Myeloid antigen co-expression in childhood acute lymphoblastic leukaemia: relationship with in vitro drug resistance [J]. Br J Haematol, 1999, 105(4): 876-882.",
+      "[60] Wang Y, Wang M, Qi H, et al. Pathway-dependent inhibition of paclitaxel hydroxylation by kinase inhibitors and assessment of drug-drug interaction potentials [J]. Drug Metab Disp Biol Fate Chem, 2014, 42(4): 782.",
+      "[61] Kwak J O, Lee S H, Lee G S, et al. Selective inhibition of MDR1 (ABCB1) by HM30181 increases oral bioavailability and therapeutic efficacy of paclitaxel [J]. Eur J Pharmacol, 2010, 627(1/3): 92-98.",
+      "[62] Schaik R H N V. CYP450 pharmacogenetics for personalizing cancer therapy [J]. Drug Resist Up, 2008, 11(3): 77-98.",
+      "[63] Choi J R, Kim J O, Kang D R, et al. Genetic variations of drug transporters can influence on drug response in patients treated with docetaxel chemotherapy [J]. Cancer Rese Treat, 2015, 47(3): 509-517.",
+      "[64] Zuylen L V, Verweij J, Nooter K, et al. Role of intestinal P-glycoprotein in the plasma and fecal disposition of docetaxel in humans [J]. Clin Cancer Res, 2000, 6(7): 2598-2603.",
+      "[65] Dennison J B, Jones D R, Renbarger J L, et al. Effect of CYP3A5 expression on vincristine metabolism with human liver microsomes [J]. J Pharmacol Exp Therap, 2007, 321(2): 553-563.",
+      "[66] Kayiliolu H, Kocak U, Karaer D K, et al. Association of CYP3A5 expression and vincristine neurotoxicity in pediatric malignancies in turkish population [J]. J Pediatric Hematol/oncol, 2017, 39(6): 458.",
+      "[67] Han J Y, Lim H S, Park Y H, et al. Integrated pharmacogenetic prediction of irinotecan pharmacokinetics and toxicity in patients with advanced non-small cell lung cancer [J]. Lung Cancer, 2009, 63(1): 115-120.",
+      "[68] Evangelista E A, Cho C W, Aliwarga T, et al. Expression and function of eicosanoid-producing cytochrome P450 enzymes in solid tumors [J]. Front Pharmacol, 2020, 11: 828.",
+      "[69] Allison S E, Chen Y, Petrovic N, et al. Activation of ALDH1A1 in MDA-MB-468 breast cancer cells that over-express CYP2J2 protects against paclitaxeldependent cell death mediated by reactive oxygen species [J]. Biochem Pharmacol, 2017, 143: 79-89.",
+      "[70] Das A, Weigle A T, Arnold W R, et al. CYP2J2 molecular recognition: a new axis for therapeutic design [J]. Pharmacol Ther, 2020, 215: 107601.",
+      "[71] Herink M C, Zhuo Y F, Williams C D, et al. Clinical management of pharmacokinetic drug interactions with direct oral anticoagulants (DOACs) [J]. Drugs, 2019, 79 (15): 1625-1634.",
+      "[72] Xarelto, Bayer Pharma A G. Xarelto® (Rivaroxaban). Summary of product characteristics [EB/OL]. (2015-04- 09) [2020-02-27]. https://www. ema. europa. eu/en/ documents/product-information/xarelto-epar-product-information\\_en.pdf.",
+      "[73] Gelosa P, Castiglioni L, Tenconi M, et al. Pharmacokinetic drug interactions of the non-vitamin K antagonist oral anticoagulants (NOACs) [J]. Pharmacol Res, 2018, 135: 60-79.",
+      "[74] Corallo C E, Grannell L, Tran H. Postoperative bleeding after administration of a single dose of rivaroxaban to a patient receiving antiretroviral therapy [J]. Drug Saf Case Rep, 2015, 2(1): 11.",
+      "[75] Brings A, Lehmann M, Foerster K I, et al. Perpetrator effects of ciclosporin (P ‐ glycoprotein inhibitor) and its",
+      "combination with fluconazole (CYP3A inhibitor) on the pharmacokinetics of rivaroxaban in healthy volunteers [J]. Br J Clin Pharmacol, 2019, 85(7): 1528-1537.",
+      "[76] FDA. Xarelto label information (n.d.) [EB/OL]. (2018-07- 04) [2020-02-27]. https://www. accessdata. fda. gov/ drugsatfda\\_docs/label/2014/022406s015lbl.pdf.",
+      "[77] Parasrampuria D A, Mendell J, Shi M, et al. Edoxaban drug – drug interactions with ketoconazole, erythromycin, and cyclosporine [J]. Br J Clin Pharmacol, 2016, 82(6): 1591-1600."
+    ],
+    "bbox": [
+      514,
+      830,
+      907,
+      930
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "200··",
+    "bbox": [
+      92,
+      64,
+      142,
+      76
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "第 44 卷 第 1 期 2021 年 1 月",
+    "bbox": [
+      173,
+      63,
+      351,
+      77
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "药物评价研究",
+    "bbox": [
+      371,
+      61,
+      445,
+      77
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      458,
+      64,
+      628,
+      77
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "Vol. 44 No. 1 January 2021",
+    "bbox": [
+      647,
+      64,
+      831,
+      77
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      978
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      90,
+      86,
+      485,
+      930
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      512,
+      86,
+      907,
+      930
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "第 44 卷 第 1 期 2021 年 1 月",
+    "bbox": [
+      161,
+      63,
+      339,
+      77
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "药物评价研究",
+    "bbox": [
+      359,
+      63,
+      431,
+      77
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      445,
+      65,
+      616,
+      77
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "Vol. 44 No. 1 January 2021",
+    "bbox": [
+      635,
+      65,
+      818,
+      77
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "201··",
+    "bbox": [
+      857,
+      65,
+      902,
+      76
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      90,
+      86,
+      485,
+      930
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      512,
+      86,
+      907,
+      930
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "page_number",
+    "text": "202··",
+    "bbox": [
+      92,
+      64,
+      142,
+      76
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "第 44 卷 第 1 期 2021 年 1 月",
+    "bbox": [
+      173,
+      63,
+      351,
+      77
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "药物评价研究",
+    "bbox": [
+      371,
+      61,
+      445,
+      78
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      458,
+      64,
+      628,
+      77
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "Vol. 44 No. 1 January 2021",
+    "bbox": [
+      647,
+      65,
+      831,
+      77
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      90,
+      86,
+      485,
+      930
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      514,
+      86,
+      907,
+      930
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "第 44 卷 第 1 期 2021 年 1 月",
+    "bbox": [
+      161,
+      63,
+      339,
+      77
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "药物评价研究",
+    "bbox": [
+      359,
+      63,
+      431,
+      77
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      445,
+      65,
+      616,
+      77
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "Vol. 44 No. 1 January 2021",
+    "bbox": [
+      635,
+      65,
+      818,
+      77
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "page_number",
+    "text": "203··",
+    "bbox": [
+      855,
+      65,
+      902,
+      76
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      87,
+      83,
+      490,
+      260
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      510,
+      83,
+      910,
+      259
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "[责任编辑 李红珠]",
+    "bbox": [
+      749,
+      266,
+      905,
+      282
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "page_number",
+    "text": "204··",
+    "bbox": [
+      92,
+      64,
+      142,
+      76
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "header",
+    "text": "第 44 卷 第 1 期 2021 年 1 月",
+    "bbox": [
+      173,
+      63,
+      351,
+      77
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "header",
+    "text": "药物评价研究",
+    "bbox": [
+      371,
+      61,
+      445,
+      78
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      458,
+      64,
+      628,
+      77
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "header",
+    "text": "Vol. 44 No. 1 January 2021",
+    "bbox": [
+      647,
+      65,
+      831,
+      77
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      978
+    ],
+    "page_idx": 8
+  }
+]

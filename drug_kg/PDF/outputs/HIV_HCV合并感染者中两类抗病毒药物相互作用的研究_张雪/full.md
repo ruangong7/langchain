@@ -1,0 +1,128 @@
+# HIV/HCV 合并感染者中
+
+# 两类抗病毒药物相互作用的研究
+
+张　雪，徐小元
+
+[ 摘要 ]　直接抗病毒药物对 HIV/HCV 合并感染者及单纯 HCV 感染者的疗效相当，然而药物 - 药物相互作用是临床医师在选择抗病毒方案时不容忽视的问题。本文检索分析了国内外有关直接抗病毒药物与抗反转录病毒药物相互作用的文献，并对两类抗病毒药物的相互作用进行综述，以期为临床医师治疗 HIV/HCV 合并感染者时选择恰当的直接抗病毒药物组合提供参考。
+
+[ 关键词]　抗反转录病毒药物；直接抗病毒药物；药物 -药物相互作用
+
+[ 中国图书资料分类号 ]　R978.7；R512.91；R512.63　　[ 文献标志码 ]　A　　[ 文章编号 ]  1007-8134(2017)06-0327-04
+
+DOI:10.3969/j.issn.1007-8134.2017.06.003
+
+# Research of drug-drug interactions between 2 antiviral agents in HIV/HCV co-infected patients
+
+ZHANG Xue, XU Xiao-Yuan\*
+
+Department of Infectious Disease, Peking University First Hospital, 100034, China; Two Department of Infectious Disease, The Sixth
+
+People's Hospital of Zhengzhou, 450000, China
+
+\*Corresponding author, E-mail: xiaoyuanxu6@163.com
+
+[Abstract] HIV/HCV co-infected patients shar the same treatment rate as HCV-monoinfected individuals with the use of directly acting antiviral. But we should pay attention to drug-drug interactions in formulating treatment scheme. Drug-drug interactions between antiretrovirals and directly acting antiviral are summarized in this paper through retrieving domestic and foreign literatures, in the hope of providing the reference for the choice of antivirus therapy for HIV/HCV co-infected patients.
+
+[Key words] antiretrovirals; directly acting antiviral; drug-drug interactions
+
+HIV 与 HCV 具有共同的传播途径，故二者常合并感染。HIV/HCV合并感染者丙型肝炎（丙肝）的自然病程明显缩短。与单纯 HIV 感染者相比，HIV/HCV 合并感染者终末期肝病及肝细胞癌的发病率增高，也成为其主要的非艾滋病死亡原因[1]。传统的抗HCV方案——聚乙二醇干扰素（pegylatedinterferon, Peg-IFN） 联 合 利 巴 韦 林（ribavirn,RBV），对 HIV/HCV 合并感染者的有效率低于单纯 HCV 感染者，疗程延长，而且应用过程中还会出现一些严重的不良反应[2]。随着直接抗病毒药物（directly acting antiviral, DAA）的不断研发并在临床的推广应用，不含 IFN 甚至不含 RBV 组合方案的治愈率达到了 90 以上，患者耐受性好，同时还缩短了疗程 [3-4]。基于 DAA 在 HIV/HCV 合并感染者和单纯 HCV 感染者中相似的持续病毒学应答（sustained virologic response, SVR）率，美国和欧洲的指南均不再区分 HIV/HCV 合并感染和单纯HCV 感染，同时给出了相同的治疗方案，并指出惟一须要注意的问题是 DAA 与抗反转录病毒药物（antiretrovirals, ARV）的相互作用 [5-6]。药物 - 药物相互作用（drug-drug interactions, DDI）是指联合应用2种或2种以上的药物时，药物在机体内相互影响而使疗效发生变化或产生药物不良反应。DDI 对临床的影响有正负两方面，有些作用可使疗效增加或毒性降低，而有些作用使疗效降低或毒性增大，甚至危及患者生命 [7]。本文所介绍的是两类抗病毒药物DDI 的不良影响。
+
+## 1 与 的相互作用
+
+目前国内的核苷类反转录酶抑制剂（nucleosidereverse transcriptase inhibitors, NRTIs）主要有替诺福韦（tenofovir, TDF）、恩曲他滨（emtricitabine,FTC）、 拉 米 夫 定（lamivudine, 3TC）、 齐 多夫 定（zidovudine, AZT）、 阿 巴 卡 韦（abacavir,ABC）。
+
+1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC
+
+200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。
+
+1.2 NRTIs 与雷迪帕韦（ledipasvir, LDV） LDV与 SOF 组合成复方制剂 Harvoni（LDV 90 mg，SOF 400 mg，1 次 /d）， 应 用 于 HCV 基 因 1a、1b、4、5型的丙肝患者。
+
+在一项针对健康志愿者研究中发现，当TDF、FTC 与 LDV 或 LDV/SOF 联 合 应 用 时，TDF 的血药浓度出现 1.3 ～ 1.8 倍的中度升高，LDV 和 LDV/SOF 的血药浓度没有受到影响，但这些变化没有实际的临床意义 [11]。而 German等 [12] 进行的一项有关 TDF、增强型蛋白酶抑制剂与 LDV/SOF 联合应用相互作用的研究表明，与单独使用增强型蛋白酶抑制剂相比，任一增强型蛋白酶抑制剂与 LDV/SOF 的联合使用均可导致 TDF浓度增加 38 ～ 64 ，这无疑会增加 TDF 相关的肾损伤等不良反应的发生。Fazel[13] 及 Burgess[14]也均在他们的研究中对 TDF 与增强型蛋白酶抑制剂、LDV/SOF 的联合使用提出了警告。所以欧洲指南指出应避免 TDF、增强型蛋白酶抑制剂与LDV/SOF 的联合使用，如必须联合应用，则须注意监测与TDF相关的不良反应[5]。美国指南指出：对于肌酐清除率＜ 60 ml/min 的 HIV/HCV 合并感染者，应避免 TDF 与 LDV/SOF 联合使用。同时指出对于 TDF 与增强型蛋白酶抑制剂必须同时使用的患者，则应在抗 HCV 治疗过程中每 2 ～ 4 周监测其肾功能、电解质、血糖、尿常规[6]。然而，一项小范围的研究纳入了 2 组 HIV/HCV 合并感染者，2 组抗反转录病毒治疗（antiretroviral therapy,ART）方案均包括 TDF，一组含有增强型蛋白酶抑制剂，另一组不含增强型蛋白酶抑制剂，在同时应用 LDV/SOF 抗丙肝治疗时，2 组患者肌酐清除率均轻微降低（＜ 70 ml/min），在治疗结束时2 组患者的肌酐清除率变化差异无统计学意义（P ＞ 0.05），该研究发现在短期抗 HCV 治疗过程中TDF 血药浓度的增加可能没有临床意义 [15]。
+
+基 于 ABC、3TC、AZT 与 LDV/SOF 在 体 内代谢和清除的机制，它们发生相互作用的可能性
+
+极小。
+
+1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。
+
+翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。
+
+Asunaprevir 常 与 DAC 联 合 用 于 HCV 基 因1a 型、1b 型、4 型的丙肝患者。在 ANRS HC30QUADRIH 研 究 中， 为 HIV/HCV 合 并 感 染 中对 IFN 无 应 答 患 者 应 用 DAC、asunaprevir、Peg-IFN、RBV 方案抗 HCV 治疗，ART 方案中包括的NRTIs 有 ABC、3TC、FTC、TDF，未发现它们之间有临床意义的相互作用[18]。
+
+## 2 与 的相互作用
+
+目前国内非核苷类反转录酶抑制剂（non-nucleoside reverse transcriptase inhibitors, NNRTIs）主要有依非韦仑（efavirenz, EFV）和奈韦拉平（nevirapine, NVP），NVP 因其肝损伤不良反应，不推荐应用于HIV/HCV 合并感染者。
+
+一项针对健康志愿者评估 EFV 与 SOF 相互作用的研究发现，EFV 和 SOF 的血药浓度均没有变化[19]。另一项关于HIV/HCV合并感染的研究也未发现 EFV 与 SOF 的相互作用 [9]。此外，一项关于抗反转录酶药物与 LDV 或 LDV/SOF 的相互作用对健康志愿者的影响的研究中，并未发现 EFV 与LDV 有临床意义的相互作用 [11]。
+
+DAC是CYP3A4的底物，与EFV联用可降低 DAC的暴露，DAC的常规剂量是60 mg/d，如与 EFV 联用，剂量须增加至 90 mg/d[20-21]。在法国进行的一项针对 HIV/HCV 合并感染者的研究，其中有 72的患者处于肝硬化阶段，应用 DAC+SOF+RBV 抗HCV 治疗，ART 方案包含 EFV，DAC 的剂量则增加为90 mg，该试验的SVR率达到了90 以上，并认为对于 HIV/HCV 合并感染且伴肝硬化的患者应用 DAC+SOF+RBV 抗 HCV，具有高 SVR 率及良好的耐受性[22]。
+
+另有研究表明，对健康志愿者联合应用
+
+FTC+TDF+EFV 组合及 PTV/OBV/r+DAV 组合后，志愿者出现显著的胃肠道、神经系统不良反应并且血清谷氨酸氨基转移酶水平升高，因此不推荐EFV与该组合联合应用 [23]。
+
+Ouwerkerk-Mahadevan 等 [16] 将 EFV、TDF、拉替拉韦（raltegravir, RAL）等与 SIM 联合应用于健康志愿者，以研究它们之间的相互作用，结果发现 EFV 能使 SIM 的暴露减少 71 ，因为 SIM是 CYP3A 的底物，并能抑制肝脏 CYP1A2 酶，所以 SIM 不 能 与 EFV 合 用。Flanagan 等 [24] 将 SIM应用于 HIV/HCV 合并感染者，发现 EFV 能减少SIM的暴露，也不建议二者联合应用。
+
+## 3　蛋白酶抑制剂与 的相互作用
+
+目前国内的蛋白酶抑制剂主要是洛匹那韦/ 利托那韦（lopinavir boosted with ritonavir, LPV/r）。
+
+Tseng 等 [25] 在对 67 例 HIV/HCV 合并感染者应用 LDV/SOF 抗 HCV 治疗过程中，发现了 3 例药物性肝损伤，这 3 例患者在疗程开始的 2 周内出现了胆红素较正常水平 2 ～ 14 倍的升高，而且均应用了以 LPV/r 为基础的 ART 方案，推测可能是因为 LDV 作为 P- 糖蛋白的底物导致 LPV 的清除减少，血药浓度相应增加，因此不建议 LPV/r与 LDV/SOF 的联合应用。
+
+在针对健康志愿者的AI444-093研究中发现，LPV/r 与 DAC 联 合 应 用 后，DAC 的 药 时 AUC仅轻度增加（15 ），无须调整 DAC 的剂量。针对 HIV/HCV 合并感染者的 AI444-043 研究发现，分别联合应用达鲁那韦 - 利托那韦（darunavirboosted with ritonavir, DRV/r） 和 LPV/r 后，DAC的 AUC 增幅较小，分别为 40 和 15 [26]。在AI444-032 研究中发现当阿扎那韦 - 利托那韦（atazanavir boosted with ritonavir, ATV/r）与 DAC联用时，DAC 的血药浓度升高 2.1 倍，因此建议DAC 在与增强型蛋白酶抑制剂联用时降低DAC的剂量[27]。然而，另一项联合应用 DRV/r 和 DAC（30 mg）的研究发现，12 例 HIV/HCV 合并感染者中有 9 例出现了复发 [28]。因此，美国肝病学会及美国感染病学会推荐，在与LPV/r和DRV/r联用时，DAC 用量为60 mg，而与ATV/r联用时，用量减为 30 mg[6]。
+
+PTV 是 通 过 P4503A4 酶 来 代 谢 的， 而 且需 RTV 促使其达到足够的血药浓度才能有效抗HCV。而 RTV 还具有抗 HIV 的活性，所以对于HIV/HCV 合并感染者应用上述组合抗 HCV 前，必须达到 HIV 病毒学的抑制 [29]。在 PTV/OBV/r+DAV组合中 RTV 的剂量为 100 mg，如与 LPV/r 联用，则 RTV 的剂量高达 300 mg，这无疑会增加胃肠道不良反应，因此，不推荐LPV/r与该组合联用[30]。
+
+Ouwerkerk-Mahadevan 等 [16] 观察了健康志愿者应用增强型蛋白酶抑制剂与 SIM 后的相互作用发现，增强型蛋白酶抑制剂能降低 SIM 的血药浓度，由于 SIM 是 CYP3A 的底物，并能抑制肝脏 CYP1A2 酶，所以增强型蛋白酶抑制剂不能与SIM 合用。
+
+## 4　整合酶抑制剂与DAA的相互作用
+
+关于整合酶抑制剂，在此主要讨论 RAL。有研究表明给健康志愿者联合应用 RAL（400 mg，2 次 /d） 和 SOF（400 mg，1 次 /d） 后，RAL 轻度增加了 SOF 的暴露，但没有影响 GS-331007，而 SOF 轻度降低了 RAL 的血药浓度。因这些变化都没有显著的临床意义，所以均不须要调整各自的剂量 [19]。此外，一项关于健康志愿者联合使用RAL 与 LDV、LDV/SOF 的研究发现，RAL 的药物峰浓度轻度下降（＜ 20 ），对 LDV 和 LDV/SOF 的药代动力学没有影响，但这些变化没有实际的临床意义 [11]。
+
+在 关 于 HIV/HCV 合 并 感 染 的 ANRS HC30QUADRI 研究中发现，RAL 与 DAC 联合应用后，RAL 的血药浓度只降低了 6 ，DAC 则没有明显的变化，因此，二者联用时均不须要调整剂量[31]。
+
+而在健康志愿者联合应用 RAL 及 PTV/OBV/r+DAV 组合的研究中，未发现 RAL 与该组合之间的相互作用及毒副反应 [23]。Ouwerkerk-Mahadevan等 [16] 针对健康志愿者的研究中也未发现 RAL 与SIM的相互作用。
+
+此外，在 ANRS HC30 QUADRIH 研究中，针对 HIV/HCV 合并感染而对 IFN 无应答患者应用DAC 、asunaprevir、Peg-IFN、RBV 方 案 抗 HCV治疗，ART方案则是以RAL为基础，未发现RAL与 asunaprevir 有临床意义的相互作用 [18]。
+
+本文综述了目前我国常用的 ARV 及近年来可能在国内上市的 DAA 的相互作用，期望能为临床医师选择合理的抗病毒方案提供参考。但结合我国国情，我们还面临很多挑战。在我国，很多HIV/HCV合并感染者被发现时已处于艾滋病晚期，且合并多种机会性感染，存在肝、肾功能异常等情况。而在已报道的临床试验中，纳入的 HIV/HCV合并感染者HIV均得到了很好的控制，CD4+ T淋巴细胞计数均大于 100 个 /mm3；而关于 HIV 未得到抑制，CD4+ T 淋巴细胞计数小于 100 个 /mm3的人群，尚无更多的临床资料，并且目前国内可供选择的DAA很有限。因此，在今后的临床实践中，我们仍须继续关注 ARV 与 DAA 的相互作用以及DAA在合并感染者特定病程阶段中的应用经验。
+
+## 【参考文献】
+
+[1] Morlat P, Roussillon C, Henard S, et al. Causes of death among HIV-infected patients in France in 2O1O (national survey): trends since 2000［J］. AIDS, 2014, 28(8):1181-1191.  
+[2] Rockstroh JK, Bhagani S. Managing HIV/hepatitis C co-infection in the era of direct acting antivirals［J］. BMC Med, 2013, 11:234.  
+[3] Chen TY, Jain MK. Treatment of hepatitis C in HIV-infected patients: moving towards an era of all oral regimens ［J］. AIDS Patient Care and STDs, 2015, 29(6):329-337.  
+[4] 张霞霞，徐小元 . 小分子化合物抗丙型肝炎治疗新方案［J］.传染病信息，2015， 28(4):197-199.  
+[5] European Association for the Study of the Liver. Recommendations on treatment of hepatitis C［J］ . [2015-08-01]. http://www.easl. eu/research/our-contributions/clinical-practice-guidelines/detail/ recommendations-on-treatment-of-hepatitis-c-2015/report/1.  
+[6] A A S L D / I D S A . H C V g u i d a n c e : r e c o m m e n d a t i o n s f o r testing,managing and treating hepatitis C [EB/OL] . [2016-10-05]. http://hcvguidelines.org/.  
+[7] 周建平 . 药剂学［M］. 北京：化学工业出版社，2004:289.  
+[8] Kaur K, Gandhi MA, Slish J, et al. Drug-drug interactions among hepatitis C virus (HCV) and human immunodefi ciency virus (HIV) medications［J］. Infect Dis Ther, 2015, 4(2):159-172.  
+[9] Rodriguez-Torres M, Gaggar A, Shen G, et al. Sofosbuvir for chronic hepatitis C virus infection genotype 1-4 in patients coinfected with HIV［J］. J Acquir Immune Defic Syndr, 2015, 68(5):543-549.  
+[10] Labarga P, Barreiro P, Martin-Carbonero L, et al. Kidney tubular abnormalities in the absence of impaired glomerular function in HIV patients treated with tenofovir［J］. AIDS, 2009, 23(6):689- 696.  
+[11] German P, Pang PS, West S, et al. Drug interactions between direct-acting anti-HCV antivirals sofosbuvir and ledipasvir and HIV antiretrovirals［C］. Washington: 15th International Workshop on Clinical Pharmacology of HIV & Hepatitis Therapy, 2014.  
+[12] German P, Garrison K, Pang PS, et al. Drug interactions between the anti-HCV regimen ledipasvir/sofosbuvir and ritonavir boosted protease inhibitors plus FTC/TDF［C］. Seattle: 22nd Conference on Retroviruses and Opportunistic Infections, 2015.  
+[13] Fazel Y, Lam B, Golabi P, et al. Safety analysis of sofosbuvir and ledipasvir for treating hepatitis C［J］. Expert Opin Drug Saf, 2015,14(8):1317-1326.  
+[14] Burgess S, Partovi N, Yoshida EM, et al. Drug interactions with directacting antivirals for hepatitis C: implications for HIV and transplant patients［J］. Ann Pharmacother, 2015, 49(6):674-687.  
+[15] Vivancos-Gallego MJ, Moreno A, Perez-Elias MJ, et al. Real-life renal safety of boosted TDF in HIV/HCV patients on SOF/LDV (Abstract 452)［C］. Boston: Conference on Retroviruses and Oppportunistic Infections,2016.  
+[16] Ouwerkerk-Mahadevan S, Sekar V, Simion A, et al. The pharmacokinetic interactions of the HCV protease inhibitor simeprevir (TMC435) with HIV antiretroviral agents in healthy volunteers [C] .San Diego: Infectious Disease Society Association Conference,2012.  
+[17] Khatn A, Trinh R, Zhao W, et al. Drug-drug interactions of ombitasvir/paritaprevir/r plus dasabuvir with dolutegravir or  
+abacavir plus lamivudine［C］. Washington: 16th International Workshop on Clinical Pharmacology of HIV and Hepatitis Therapy, 2015.  
+[18]Piroth L,Paniez H,Taburet AM,et al.High cure rate with 24 weeks of daclatasvir-based quadruple therapy in treatment-experienced, null-responder patients with HIV/Hepatitis C virus genotype 1/4 coinfection: the ANRS HC30 QUADRIH study［J］. Clin Infect Dis, 2015, 61(5):817-825.  
+[19] Kirby B, Mathias A, Rossi S, et al. No clinically signifi cant pharmacokinetic drug interactions between sofosbuvir (GS-7977) and HIV antiretrovirals atripla, rilpivirine, darunavir/ ritonavir, or raltegravir in healthy volunteers［C］. Boston: 63rd Annual Meeting of the American Association of the Study of Liver Diseases (AASLD), 2012.  
+[20] Ray GM. Antiretroviral and statin drug-drug interactions［J］. Cardiol Rev, 2009, 17(1):44-47.  
+[21] Karageorgopoulos DE, EL-Sherif O, Bhagani S, et al. Drug interactions between antiretrovirals and new or emerging directacting antivirals in HIV/hepatitis C virus coinfection ［J］. Curr Opin Infect Dis,2014,27(1):36-45.  
+[22] Lacombe K, Fontaine H, Dhiver C, et al. Real-world efficacy of daclatasvir and sofosbuvir,with and without Ribavirin,in HIV/ HCV coinfected patients with advanced liver disease in a French early access cohort［J］. J Acquir Immune Defic Syndr, 2017, 75(1):97-107.  
+[23] Khatri A, Wang T, Wang H, et al. Drug–drug interactions of the direct-acting antiviral regimen of ABT-450/r, ombitasvir, and dasabuvir with emtricitabine+tenofovir, raltegravir, rilpivirine and efavirenz ［C］. Washington: 54th Interscience Conference on Antimicrobial Agents and Chemotherapy (ICAAC), 2014.  
+[24]Flanagan S,Crawford-Jones A,Orkin C.Simeprevir for the treatment of hepatitis C and HIV/hepatitis C co-infection［J］. Expert Rev Clin Pharmacol,2014,7(6):691-704.  
+[25] Tseng A, Wong DK. Hepatotoxicity and potential drug interaction with ledipasvir/sofosbuvir in HIV/HCV infected patients［J］. J Hepatology,2016,65(3):645-654.  
+[26] Gandhi Y, Adamczyk R, Wang R, et al. Assessment of drug– drug interactions between daclatasvir and darunavir/ritonavir or lopinavir/ritonavir［C］. Washington: The 16th International Workshop on Clinical Pharmacology of HIV and Hepatitis Therapy, 2015.  
+[27] Bifano M,Hwang C,Oosterhuis B,et al.Assessment of pharmacokinetic interactions of the HCV NS5A replication complex inhibitor daclatasvir with antiretroviral agents: ritonavir-boosted atazanavir,efavirenz and tenofovir [J].Antivir Ther,2013, 18(7):931-940.  
+[28] Garimella T, Gandhi Y, Wang R, et al. Daclatasvir exposure alone does notexplain HCV relapse in HIV/HCV coinfected patients receiving daclatasvir plus sofosbuvir with ritonavir-boosted darunavir in the ALLY-2 study (Abstract 728)[C] .Boston: 66th Annual Meeting of the American Association for the Study of Liver Diseases,2016.  
+[29] Kaur K, Gandhi MA, Slish J, et al. Drug-drug interactions among hepatitis C virus (HCV) and human immunodefi ciency virus (HIV) medications [J] .Infect Dis Ther,2015,4(2):159-172.  
+[30] AASLD/IDSA/IAS-USA. Recommendations for testing, managing, and treating hepatitis C[EB/OL] . [2015-03-19] . http://www. hcvguidelines.org.  
+[31] Barrail-Tran A,Vincent C,Furlan V,et al.Raltegravir pharmacokinetics in patients on asunaprevir-daclatasvir [J]. Antimicrob Agents Chemother,2015,59(12):7903-7905.
+
+（ 收稿 修回）
+
+（本文编辑 闫晶晶）

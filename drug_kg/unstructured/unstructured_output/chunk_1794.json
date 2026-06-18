@@ -1,0 +1,92 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "泽布替尼",
+        "canonical_name": "泽布替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "CYP3A抑制剂",
+        "canonical_name": "CYP3A抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP3A诱导剂",
+        "canonical_name": "CYP3A诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "CYP3A调节剂",
+        "canonical_name": "CYP3A调节剂",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "定量药理学",
+          "chunk_index": 1794,
+          "raw_text": "泽布替尼为CYP3A调节剂的“受害者”",
+          "chunk_id": "1794",
+          "data": "。本文介绍了泽布替尼成功地采用PBPK模型开展DDI研究，包括评估和预测CYP3A抑制剂或诱导剂对泽布替尼暴露的影响，为泽布替尼在缺少临床数据的情况下，向医生提供与CYP3A4诱导剂或者抑制剂联合使用的具体剂量指南。该PBPK模型的建立是基于药物的物理化学性质、体外参数以及临床数据，包括在B细胞恶性肿瘤患者和健康志愿者中的两项临床药物-药物相互作用（DDI）研究中的药代动力学数据，其中泽布替尼为CYP3A调节剂的“受害者”。PBPK模型的建立多种软件可用于PBPK模型的构建，Berkeley Madonna、Stan、GNU MCSim、MATLAB and Simulink productfamilies等开放性软件的应用需要大量生理、生化、药物相关数据。此外，Simcyp Simulator、GastroPlus、PK-Sim、CloePredict属于药物研发和监管中为PBPK建模设计的专用软件系统，它们有独立的群体数据库，整合了大部分必需的，不同种属的生理和生化参数，旨在为用户提供友好的模型界面来输入药物特异性参数，并根据需求选择模拟预测、参数估计和灵敏度分析等选项。本文中采用Simcyp（version 16）来进行PBPK建模模拟，需要的数据包括与药物无关的系统特异性参数（组织和器官的体积、血液流速、组织成分等）和与药物ADME特性相关的特异性参数（蛋白结合率、组织-血浆分布系数、膜渗透性、内在清除率，酶诱导参数等）。药物吸收：采用高级溶出吸收代谢（ADME）模型，根据ADME研究结果进一步调整[3]"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "定量药理学",
+          "chunk_index": 1794,
+          "raw_text": "泽布替尼为CYP3A调节剂的“受害者”",
+          "chunk_id": "1794",
+          "data": "。本文介绍了泽布替尼成功地采用PBPK模型开展DDI研究，包括评估和预测CYP3A抑制剂或诱导剂对泽布替尼暴露的影响，为泽布替尼在缺少临床数据的情况下，向医生提供与CYP3A4诱导剂或者抑制剂联合使用的具体剂量指南。该PBPK模型的建立是基于药物的物理化学性质、体外参数以及临床数据，包括在B细胞恶性肿瘤患者和健康志愿者中的两项临床药物-药物相互作用（DDI）研究中的药代动力学数据，其中泽布替尼为CYP3A调节剂的“受害者”。PBPK模型的建立多种软件可用于PBPK模型的构建，Berkeley Madonna、Stan、GNU MCSim、MATLAB and Simulink productfamilies等开放性软件的应用需要大量生理、生化、药物相关数据。此外，Simcyp Simulator、GastroPlus、PK-Sim、CloePredict属于药物研发和监管中为PBPK建模设计的专用软件系统，它们有独立的群体数据库，整合了大部分必需的，不同种属的生理和生化参数，旨在为用户提供友好的模型界面来输入药物特异性参数，并根据需求选择模拟预测、参数估计和灵敏度分析等选项。本文中采用Simcyp（version 16）来进行PBPK建模模拟，需要的数据包括与药物无关的系统特异性参数（组织和器官的体积、血液流速、组织成分等）和与药物ADME特性相关的特异性参数（蛋白结合率、组织-血浆分布系数、膜渗透性、内在清除率，酶诱导参数等）。药物吸收：采用高级溶出吸收代谢（ADME）模型，根据ADME研究结果进一步调整[3]"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "定量药理学",
+          "chunk_index": 1794,
+          "raw_text": "CYP3A抑制剂或诱导剂",
+          "chunk_id": "1794",
+          "data": "。本文介绍了泽布替尼成功地采用PBPK模型开展DDI研究，包括评估和预测CYP3A抑制剂或诱导剂对泽布替尼暴露的影响，为泽布替尼在缺少临床数据的情况下，向医生提供与CYP3A4诱导剂或者抑制剂联合使用的具体剂量指南。该PBPK模型的建立是基于药物的物理化学性质、体外参数以及临床数据，包括在B细胞恶性肿瘤患者和健康志愿者中的两项临床药物-药物相互作用（DDI）研究中的药代动力学数据，其中泽布替尼为CYP3A调节剂的“受害者”。PBPK模型的建立多种软件可用于PBPK模型的构建，Berkeley Madonna、Stan、GNU MCSim、MATLAB and Simulink productfamilies等开放性软件的应用需要大量生理、生化、药物相关数据。此外，Simcyp Simulator、GastroPlus、PK-Sim、CloePredict属于药物研发和监管中为PBPK建模设计的专用软件系统，它们有独立的群体数据库，整合了大部分必需的，不同种属的生理和生化参数，旨在为用户提供友好的模型界面来输入药物特异性参数，并根据需求选择模拟预测、参数估计和灵敏度分析等选项。本文中采用Simcyp（version 16）来进行PBPK建模模拟，需要的数据包括与药物无关的系统特异性参数（组织和器官的体积、血液流速、组织成分等）和与药物ADME特性相关的特异性参数（蛋白结合率、组织-血浆分布系数、膜渗透性、内在清除率，酶诱导参数等）。药物吸收：采用高级溶出吸收代谢（ADME）模型，根据ADME研究结果进一步调整[3]"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "定量药理学",
+          "chunk_index": 1794,
+          "raw_text": "CYP3A抑制剂或诱导剂",
+          "chunk_id": "1794",
+          "data": "。本文介绍了泽布替尼成功地采用PBPK模型开展DDI研究，包括评估和预测CYP3A抑制剂或诱导剂对泽布替尼暴露的影响，为泽布替尼在缺少临床数据的情况下，向医生提供与CYP3A4诱导剂或者抑制剂联合使用的具体剂量指南。该PBPK模型的建立是基于药物的物理化学性质、体外参数以及临床数据，包括在B细胞恶性肿瘤患者和健康志愿者中的两项临床药物-药物相互作用（DDI）研究中的药代动力学数据，其中泽布替尼为CYP3A调节剂的“受害者”。PBPK模型的建立多种软件可用于PBPK模型的构建，Berkeley Madonna、Stan、GNU MCSim、MATLAB and Simulink productfamilies等开放性软件的应用需要大量生理、生化、药物相关数据。此外，Simcyp Simulator、GastroPlus、PK-Sim、CloePredict属于药物研发和监管中为PBPK建模设计的专用软件系统，它们有独立的群体数据库，整合了大部分必需的，不同种属的生理和生化参数，旨在为用户提供友好的模型界面来输入药物特异性参数，并根据需求选择模拟预测、参数估计和灵敏度分析等选项。本文中采用Simcyp（version 16）来进行PBPK建模模拟，需要的数据包括与药物无关的系统特异性参数（组织和器官的体积、血液流速、组织成分等）和与药物ADME特性相关的特异性参数（蛋白结合率、组织-血浆分布系数、膜渗透性、内在清除率，酶诱导参数等）。药物吸收：采用高级溶出吸收代谢（ADME）模型，根据ADME研究结果进一步调整[3]"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1794,
+    "source": "定量药理学",
+    "text": "。本文介绍了泽布替尼成功地采用PBPK模型开展DDI研究，包括评估和预测CYP3A抑制剂或诱导剂对泽布替尼暴露的影响，为泽布替尼在缺少临床数据的情况下，向医生提供与CYP3A4诱导剂或者抑制剂联合使用的具体剂量指南。该PBPK模型的建立是基于药物的物理化学性质、体外参数以及临床数据，包括在B细胞恶性肿瘤患者和健康志愿者中的两项临床药物-药物相互作用（DDI）研究中的药代动力学数据，其中泽布替尼为CYP3A调节剂的“受害者”。PBPK模型的建立多种软件可用于PBPK模型的构建，Berkeley Madonna、Stan、GNU MCSim、MATLAB and Simulink productfamilies等开放性软件的应用需要大量生理、生化、药物相关数据。此外，Simcyp Simulator、GastroPlus、PK-Sim、CloePredict属于药物研发和监管中为PBPK建模设计的专用软件系统，它们有独立的群体数据库，整合了大部分必需的，不同种属的生理和生化参数，旨在为用户提供友好的模型界面来输入药物特异性参数，并根据需求选择模拟预测、参数估计和灵敏度分析等选项。本文中采用Simcyp（version 16）来进行PBPK建模模拟，需要的数据包括与药物无关的系统特异性参数（组织和器官的体积、血液流速、组织成分等）和与药物ADME特性相关的特异性参数（蛋白结合率、组织-血浆分布系数、膜渗透性、内在清除率，酶诱导参数等）。药物吸收：采用高级溶出吸收代谢（ADME）模型，根据ADME研究结果进一步调整[3]"
+  }
+]

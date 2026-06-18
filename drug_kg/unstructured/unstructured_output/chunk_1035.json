@@ -1,0 +1,216 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "达诺瑞韦钠",
+        "canonical_name": "达诺瑞韦钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "酮康唑",
+        "canonical_name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "利托那韦",
+        "canonical_name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "索凡替尼",
+        "canonical_name": "索凡替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP3A抑制剂",
+        "canonical_name": "CYP3A抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "CYP3A诱导剂",
+        "canonical_name": "CYP3A诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "恩沙替尼",
+        "canonical_name": "恩沙替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "CYP3A4强抑制剂",
+        "canonical_name": "CYP3A4强抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "可洛派韦",
+        "canonical_name": "可洛派韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "氟马替尼",
+        "canonical_name": "氟马替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "埃克替尼",
+        "canonical_name": "埃克替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "CYP3A4强诱导剂",
+        "canonical_name": "CYP3A4强诱导剂",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1035,
+          "raw_text": "达诺瑞韦钠在人体主要经CYP3A4代谢，当将酮康唑与利托那韦强化的达诺瑞韦钠联合服用时，可使得达诺瑞韦钠的AUC0—0升高1.44倍，但CmaX未受显著影响。",
+          "chunk_id": "1035"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1035,
+          "raw_text": "达诺瑞韦钠在人体主要经CYP3A4代谢，当将酮康唑与利托那韦强化的达诺瑞韦钠联合服用时，可使得达诺瑞韦钠的AUC0—0升高1.44倍，但CmaX未受显著影响。",
+          "chunk_id": "1035"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1035,
+          "raw_text": "服用索凡替尼期间，患者应避免或慎重合并使用CYP3A抑制剂、诱导剂，如需合用应密切监测不良反应。",
+          "chunk_id": "1035"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1035,
+          "raw_text": "服用索凡替尼期间，患者应避免或慎重合并使用CYP3A抑制剂、诱导剂，如需合用应密切监测不良反应。",
+          "chunk_id": "1035"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1035,
+          "raw_text": "与CYP3A4强抑制剂联合使用可能会导致恩沙替尼血药浓度升高。治疗期间应慎用对CYP3A4酶有强抑制作用的药物。",
+          "chunk_id": "1035"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1035,
+          "raw_text": "可洛派韦是CYP3A4的底物，因此中效或强效CYP3A诱导剂可能降低盐酸可洛派韦血药浓度，并影响疗效；强效CYP3A抑制剂可能会升高盐酸可洛派韦血药浓度。",
+          "chunk_id": "1035"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1035,
+          "raw_text": "可洛派韦是CYP3A4的底物，因此中效或强效CYP3A诱导剂可能降低盐酸可洛派韦血药浓度，并影响疗效；强效CYP3A抑制剂可能会升高盐酸可洛派韦血药浓度。",
+          "chunk_id": "1035"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1035,
+          "raw_text": "临床治疗期间应慎用对CYP3A4有强诱导作用和强抑制作用的药物。",
+          "chunk_id": "1035"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1035,
+          "raw_text": "临床治疗期间应慎用对CYP3A4有强诱导作用和强抑制作用的药物。",
+          "chunk_id": "1035"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1035,
+          "raw_text": "体外研究表明埃克替尼主要代谢酶为CYP3A4酶。",
+          "chunk_id": "1035"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1035,
+    "source": "凡默谷",
+    "text": "。1.1.11达诺瑞韦钠[25]达诺瑞韦钠在人体主要 经CYP3A4代谢，当将酮康唑与利托那韦强化的 达诺瑞韦钠联合服用时，可使得达诺瑞韦钠的 AUC0—0升高1.44倍，但CmaX未受显著影响。1.1.12其他（源于药品说明书）以下为已确定 主要代谢酶但尚未开展基于代谢酶的临床DDI 研究的创新药物。索凡替尼在人体内主要以代谢物的形式从 粪便排出。临床前体外试验表明，索凡替尼主要 通过CYP3A酶代谢。服用索凡替尼期间，患者应 避免或慎重合并使用CYP3A抑制剂、诱导剂，如 需合用应密切监测不良反应。恩沙替尼在人体内主要以原形（占给药剂量 42% )和代谢物的形式排泄。体外试验表明恩沙 替尼代谢过程主要由CYP3A4催化。与CYP3A4 强抑制剂联合使用可能会导致恩沙替尼血药浓 度升高。治疗期间应慎用对CYP3A4酶有强抑制作用的药物。如果患者合并服用了这类药物，应密切监测不良反应。可洛派韦是CYP3A4的底物，因此中效或强 效CYP3A诱导剂可能降低盐酸可洛派韦血药浓 度，并影响疗效；强效CYP3A抑制剂可能会升高 盐酸可洛派韦血药浓度。氟马替尼在人体内50%以上通过原形药物 的形式清除，CYP3A4是氟马替尼的主要代谢酶， 临床治疗期间应慎用对CYP3A4有强诱导作用和 强抑制作用的药物。埃克替尼在人体内广泛代谢并主要以代谢 产物的形式排泄。体外研究表明埃克替尼主要 代谢酶为CYP3A4酶[26]。此外，CYP2C19的基因 多态性对埃克替尼的人体药动学也具有显著影 响[27]"
+  }
+]

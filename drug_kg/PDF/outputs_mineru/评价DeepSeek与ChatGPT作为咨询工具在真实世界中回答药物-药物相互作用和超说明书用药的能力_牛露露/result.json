@@ -1,0 +1,1184 @@
+[
+  {
+    "type": "text",
+    "text": "评价 DeepSeek 与 ChatGPT 作为咨询工具在真实世界中回答药物-药物相互作用和超说明书用药的能力",
+    "text_level": 1,
+    "bbox": [
+      92,
+      55,
+      904,
+      106
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "牛露露，刘滔滔\\*，黄天敏，刘勇军，罗艺林，陈鑫，廖雨，何建松，朱冬兰 (广西医科大学第一附属医院药学部，南宁 530021)",
+    "bbox": [
+      90,
+      131,
+      900,
+      165
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘要：目的 评估 DeepSeek 与 ChatGPT 对真实世界药物咨询问题的应答能力，重点分析其在药物相互作用 (drug-druginteractions，DDIs)、超说明书用药 (off-label drug use，OLDU) 和治疗方案推荐中的准确性、完整性与适宜性。方法 在常规的药学门诊工作中收集患者提出的有关 DDIs和 OLDU的 86个问题。以标准格式，包括患者的年龄、性别、药物名称和疾病诊断分别向 DeepSeek 与 ChatGPT 提问；问题以拟人化形式“作为一名药剂师，你能告诉我治疗方案中存在的问题吗”结束。此外，为了进一步评估 DeepSeek与 ChatGPT各自回答的一致性，相同的问题以不同的方式提出。所有回答均由 2 位临床药师进行独立评估，重点评价回答的准确性、一致性和适宜性。结果 DeepSeek 和 ChatGPT回答了所有问题，临床药师对回答进行评估。其中，DeepSeek 在回答治疗方案问题时正确率最高为 80.49%，ChatGPT在 OLDU领域表现最好，正确率为 84.44%。不同提问方式对 2 款模型 DDIs回答正确率有影响：第一种提问方式下，DeepSeek和ChatGPT 正确率分别为 12.20% 和 41.46%；第二种提问方式下，DeepSeek 正确率为 24.39%，而 ChatGPT 为 21.95%，2 种提问方式回答的一致性较差。最后对两者回答错误原因进行分析，发现 DeepSeek 错误类型主要为回答中存在部分错误信息 (64.52%)，而 ChatGPT的错误则集中在推荐了不合适的给药剂量 (62.96%)。结论 在药物咨询中尽管 DeepSeek和ChatGPT 分别在某些领域具有较高的准确性，但它们回答的一致性和敏感性较差。因此直接将二者作为临床药物咨询工具在目前现实情景中使用存在重大风险。",
+    "bbox": [
+      90,
+      183,
+      905,
+      412
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词：DeepSeek；ChatGPT；超说明书用药；药物相互作用；大型语言模型",
+    "bbox": [
+      92,
+      415,
+      608,
+      429
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号：R969.3 文献标志码：B 文章编号：1007-7693(2025)17-2929-07",
+    "bbox": [
+      92,
+      432,
+      677,
+      447
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "DOI: 10.13748/j.cnki.issn1007-7693.20251406",
+    "bbox": [
+      92,
+      451,
+      386,
+      464
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "引用本文：牛露露, 刘滔滔, 黄天敏, 等. 评价 DeepSeek与 ChatGPT作为咨询工具在真实世界中回答药物-药物相互作用和超说明书用药的能力[J]. 中国现代应用药学, 2025, 42(17): 2929-2935.",
+    "bbox": [
+      90,
+      468,
+      904,
+      501
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Evaluate the Ability of DeepSeek and ChatGPT as Consulting Tools to Answer Drug-drug Interactions and Off-label Drug Use in the Real World",
+    "text_level": 1,
+    "bbox": [
+      90,
+      521,
+      905,
+      555
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "NIU Lulu, LIU Taotao\\*,  HUANG Tianmin, LIU Yongjun, LUO Yilin, CHEN Xin, LIAO Yu, HE Jiansong, ZHU Donglan(Department of Pharmacy, The First Affiliated Hospital of Guangxi Medical University, Nanning 530021, China)",
+    "bbox": [
+      90,
+      572,
+      905,
+      604
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "ABSTRACT: OBJECTIVE To assess the responsiveness of DeepSeek and ChatGPT to real-world medication consultation queries, focusing specifically on their accuracy, comprehensiveness, and appropriateness in addressing drug-drug interactions(DDIs), off-label drug use(OLDU), and therapeutic recommendations. METHODS Collected 86 clinically validated drug consultation questions from routine pharmacy outpatient services, encompassing DDIs and OLDU scenarios. Each query was formatted with standardized patient parameters(age, gender, medications, diagnosis) and concluded with the prompt: “ As a pharmacist, can you identify potential issues in this treatment plan” . To assess response consistency, this study employed varied phrasing for identical clinical questions. Two independent clinical pharmacists evaluated answer accuracy, information completeness, therapeutic appropriateness, and inter-rater consistency. RESULTS Both models demonstrated 100% response rate. DeepSeek achieved 80.49% accuracy in treatment recommendations, while ChatGPT showed superior performance in OLDU(84.44% accuracy). Different questioning methods had effects on the correct rates of DDIs answers of the two models: Under the first questioning method, the correct rates of DeepSeek and ChatGPT were 12.20% and 41.46% respectively; Under the second way of questioning, the correct rate of DeepSeek was 24.39%, while that of ChatGPT was 21.95%, and the consistency of the two ways of questioning was poor. Error analysis revealed distinct failure patterns: 64.52% of DeepSeek errors involved factual inaccuracies, whereas ChatGPT primarily erred in dosage recommendations(62.96% of errors). CONCLUSION In medication consultations, although DeepSeek and ChatGPT demonstrate high accuracy in certain domains, their responses exhibit poor consistency and sensitivity. Consequently, directly employing these tools as clinical medication consultation aids in current realworld scenarios poses significant risks.",
+    "bbox": [
+      90,
+      618,
+      905,
+      827
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "基金项目：国家留学基金资助项目 (202208455002)",
+    "bbox": [
+      115,
+      847,
+      401,
+      860
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "作者简介：牛 露 露 ， 女 ， 硕 士 生 E-mail: 1600818029@qq.com",
+    "bbox": [
+      115,
+      862,
+      519,
+      876
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "\\*通信作者：刘 滔 滔 ， 女 ， 博 士 ， 主 任 药 师 E-mail:",
+    "bbox": [
+      549,
+      862,
+      902,
+      876
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "liutaotao@gxmu.edu.cn",
+    "bbox": [
+      94,
+      879,
+      218,
+      891
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "中国现代应用药学2025 年9 月第42 卷第17 期",
+    "bbox": [
+      92,
+      898,
+      371,
+      911
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "Chin J Mod Appl Pharm, 2025 September, Vol.42, No.17 · 2929 ·",
+    "bbox": [
+      522,
+      898,
+      902,
+      911
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      959,
+      319,
+      978
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      90,
+      55,
+      902,
+      98
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "KEYWORDS: DeepSeek; ChatGPT; off-label drug use; drug-drug interaction; large language model",
+    "bbox": [
+      92,
+      99,
+      712,
+      112
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "药 物 -药 物 相 互 作 用 (drug-drug interactions，DDIs) 是指同时或序贯使用≥2 种药物时产生的相互影响，可改变药物疗效或毒性[1]。多药联用显著增加 DDIs 风险；例如，在美国超过三分之一的老年人常使用≥5 种药物或保健品，其中 15% 面临严重的 DDIs 风险[2]。因此，临床用药前需充分评估 DDIs，以优化治疗安全。",
+    "bbox": [
+      90,
+      135,
+      482,
+      271
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "超说明书用药 (off-label drug use，OLDU) 指药品使用超出药品监督管理部门批准的说明书范围 (包括适应证、人群、剂量或疗程)[3]。OLDU 在全球临床实践中普遍存在，占全球药物的 21%，成人药物的 7.5%\\~40%[4-5]，欧盟门诊 OLDU 比例达 7%\\~95%[6]， 中 国 部 分 医 院 处 方 率 为 9%\\~25.5%[7-8]。OLDU 虽可满足特殊治疗需求，但会引发药物安全性、有效性、医疗责任及伦理问题，已成为重要的公共卫生问题[9-11]。",
+    "bbox": [
+      90,
+      275,
+      482,
+      450
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "大型语言模型是基于深度学习的自然语言处理系统，能够执行文本生成、咨询问答及翻译[12]等任务。在医疗领域，大型语言模型可辅助临床决策[13]、生成医嘱[14] 并提供咨询服务[15]，其中ChatGPT 与 DeepSeek 为当前应用最广泛的代表模型。",
+    "bbox": [
+      90,
+      453,
+      482,
+      569
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "有关 DeepSeek 和 ChatGPT 在临床药学领域的适用性尚不明确。本研究前瞻性评估了两者作为新兴咨询工具对真实世界药物咨询问题回答能力的灵敏性以及准确性，旨在为临床药师和医师使用 DeepSeek 和 ChatGPT 识别临床相关的 DDIs 和OLDU 提供进一步参考。同时，通过仔细分析两者给出的治疗方案，进一步评估其作为患者药物教育和咨询工具的潜力。",
+    "bbox": [
+      90,
+      572,
+      482,
+      728
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 资料与方法",
+    "text_level": 2,
+    "bbox": [
+      92,
+      733,
+      213,
+      748
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.1 研究设计",
+    "text_level": 2,
+    "bbox": [
+      92,
+      752,
+      208,
+      766
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "本研究团队由 5 名临床药师组成，其中 2 名参与了数据收集。所有问题均来自广西医科大学第一附属医院，一家配备有 2 700 多张床位的三级甲等医院和全国临床药师培训基地。",
+    "bbox": [
+      90,
+      771,
+      482,
+      847
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.2 临床咨询问题收集",
+    "text_level": 2,
+    "bbox": [
+      92,
+      851,
+      280,
+      867
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "本研究从 2021—2024 年药学门诊患者咨询问题中筛选出 86 个问题纳入分析 (筛选标准：存在DDIs 或属于 OLDU)。根据问题类型分为 2 组：DDIs 组 (41 例 ) 用 于 评 估 DeepSeek 与 ChatGPT对 DDIs 识别的敏感性、准确性与特异性；OLDU 组 (45 例) 用于探究 2 款模型对 OLDU 的判断能力。同时全面评估 2 款模型所提供治疗方案的准确性与临床适宜性。",
+    "bbox": [
+      127,
+      871,
+      482,
+      887
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      135,
+      904,
+      271
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.3 前瞻性测试",
+    "text_level": 2,
+    "bbox": [
+      512,
+      275,
+      648,
+      290
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "由 1 名 药 师 将 这 2 组 问 题 (DDIs 组 和OLDU 组 ) 分 别 输 入 到 DeepSeek(DeepSeek-V3-0324) 和 ChatGPT(ChatGPT-4o) 提问界面，并且记录下系统生成的原始回答。在提问过程中，每个问题都将启动 1 个新的对话框，以确保先前的提问不会影响答案的准确性。所有对话都启用了 DeepSeek 的“深度思考 (R1)”和“互联网模式”。",
+    "bbox": [
+      510,
+      294,
+      904,
+      449
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "对于提问给 DeepSeek 的所有问题都以简体中文输入，而 ChatGPT 则采用标准英文形式。提问以拟人化形式结尾，例如“作为一名药师，你能告诉我这个治疗方案中存在的问题吗？”输入的问题均包含以下信息：患者性别、年龄、疾病诊断和治疗药物，附表 1\\~2 给出了标准化问题的模板。",
+    "bbox": [
+      510,
+      453,
+      902,
+      589
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "作为一个综述型文献数据库，Micromedex 是目前权威性较高的医药知识数据库，它提供了详细的 DDIs 信息，包括药物相互作用发生的可能 性 、 严 重 程 度 等 级 和 管 理 建 议 。 参 考Micromedex 数据库中 DDIs 的分类，本研究将已知的 DDIs 分为 4 类：①轻度，将限制临床效果，但一般不需要对治疗作出重大改变；②中度，可能潜在加重患者病情和/或需要更改治疗；③严重，可能会危及生命，必须要同时使用时，需要医疗干预来减少或避免严重不良反应；④禁忌，禁止同时使用。",
+    "bbox": [
+      510,
+      593,
+      902,
+      808
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.4 DeepSeek 与 ChatGPT 回答一致性测试",
+    "text_level": 2,
+    "bbox": [
+      510,
+      811,
+      853,
+      828
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "为了评估 DeepSeek 和 ChatGPT 回答的一致性，采用 2 种不同方式进行提问。提问方式一：“男性，65 岁，被诊断患有高血压，使用硝苯地平、厄贝沙坦，现在进行药物咨询。作为一名药剂师，你能告诉我这个药物治疗方案中的问题吗？”提问方式二：“硝苯地平和厄贝沙坦可以一起服用吗？药物之间存在相互作用吗？若有，根据 DDIs 的分类，它们属于哪一类？”详细内容见附表 1\\~2。",
+    "bbox": [
+      510,
+      832,
+      900,
+      887
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "· 2930",
+    "bbox": [
+      97,
+      899,
+      134,
+      908
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "Chin J Mod Appl Pharm, 2025 September, Vol.42, No.17",
+    "bbox": [
+      159,
+      898,
+      473,
+      911
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "中国现代应用药学 2025年 9月第42 卷第17 期",
+    "bbox": [
+      623,
+      896,
+      902,
+      911
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      959,
+      319,
+      978
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      90,
+      54,
+      482,
+      168
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "1.5 DeepSeek 与 ChatGPT 性能评估",
+    "text_level": 2,
+    "bbox": [
+      92,
+      173,
+      379,
+      188
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "对于 DeepSeek 和 ChatGPT 输出的回答，采用双重评审机制进行评估，所有答案由 2 名具有≥5 年临床经验并拥有临床药学实践专业培训证书的高级临床药师进行独立评定。研究通过以下3 个标准来对两者的回答进行评估：是否给出建议、建议的准确性和一致性，见表 1。步骤一，确定 ChatGPT 与 DeepSeek 是否针对咨询问题提供了相关建议。如果模型没有回答或没有提供足够的信息来构成建议，则认为没有给出建议。若给出建议，随后会对建议的准确性和一致性进行评估。准确性分为 4 个级别，从不完整和不正确到正确和完整 (见表 1)。DDIs 答案的参考来源包括专业数据库 Up to date、Drugs.Com、Micromedex和丁香园用药助手软件；OLDU 的判定主要以国家药品监督管理局批准的最新版药品说明书为依据，对处方中每种药品的适应证、适用人群、用法用量、给药途径、禁忌等方面进行分析比较。当 2 位药师之间的判断出现差异时，则请第 3 位资深药师来定夺，所有的分歧将通过一致协商来确定。当 DeepSeek 与 ChatGPT 回答了用户提出的所有问题，且全部正确时被认为是“正确”答案；而给出的回答中存在错误或不完整信息时，则判定为“不正确”[16]。",
+    "bbox": [
+      90,
+      192,
+      484,
+      601
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/3c16996f11d253c9f6fe15104d45c041ccc3db0a036a11e55efcd595515cb655.jpg",
+    "table_caption": [
+      "表1 模型是否给出建议、建议的准确性和一致性评分表",
+      "Tab. 1 Score sheet for whether the model provides suggestions, the accuracy of the suggestions, and consistency"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td colspan=\"2\">对ChatGPT与DeepSeek的建议进行评分</td></tr><tr><td>步骤</td><td>输出</td></tr><tr><td>步骤一:模型是否给出建议</td><td>1给出;2未给出;模型给出建议→继续步骤二;模型未给出建议→不纳入进行下一步评分,并被评为“错误”答案</td></tr><tr><td>步骤二:建议的准确性</td><td>1建议正确,信息准确全面;经药师评估后无其他补充;2建议是正确的,但不完整。所有信息都是正确的,但不完整;经药师评估后需要添加必要信息;3建议部分正确,部分不正确;4建议完全不正确</td></tr><tr><td>步骤三:建议的一致性</td><td>1建议一致,给出的解释能够证实结论;2建议不一致,解释与结论之间自相矛盾</td></tr></table>",
+    "bbox": [
+      92,
+      655,
+      484,
+      885
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      55,
+      900,
+      89
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "1.6 统计学分析",
+    "text_level": 2,
+    "bbox": [
+      512,
+      94,
+      648,
+      109
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "采用描述性统计方法来分析两者的表现，包括正确答案的百分比、错误答案的类别和错误答案背后的原因。采用 SPSS 22.0 对分类变量进行卡方检验。所有检验的统计学显著性水平均设为双侧 P 值 0.05，P<0.05 为差异具有统计学意义。",
+    "bbox": [
+      509,
+      112,
+      904,
+      207
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2 结果",
+    "text_level": 2,
+    "bbox": [
+      510,
+      211,
+      579,
+      226
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.1 DeepSeek 和 ChatGPT 在药物咨询中表现的定量评价",
+    "text_level": 2,
+    "bbox": [
+      510,
+      230,
+      902,
+      265
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "DeepSeek 和 ChatGPT 回答的正确率在不同的领域中有差异，结果见图 1。DeepSeek 在评估治疗方案时回答正确率最高为 80.49%，OLDU方面回答正确率为 48.89%。ChatGPT 在 OLDU 领域表现突出，正确率为 84.44%，治疗方案回答正确率为 68.60%。两者对 DDIs 的识别能力较弱，在 DDIs 的 4 种分类中，2 个模型对于“严重/禁忌”的相互作用识别能力最差 (表 2)。不同提问方式影响回答的正确性 (图 1)，提问方式一 DeepSeek与 ChatGPT 回答正确率分别为 12.20%、41.46%。提 问 方 式 二 DeepSeek 为 24.39%， ChatGPT 为21.95%。 对 于 给 出 的 治 疗 方 案 ， DeepSeek 和ChatGPT 回答错误率分别为 15.56%、31.40%。所",
+    "bbox": [
+      509,
+      269,
+      905,
+      521
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "chart",
+    "img_path": "images/07220b266ef7020e5f2bda7e129ae5b18fc8928691b54c75fa809acf39f564fb.jpg",
+    "content": "| Category | DeepSeek (%) | ChatGPT (%) |\n|---|---|---|\n| A | 12.20 | 41.46 |\n| B | 24.39 | 21.95 |\n| C | 80.49 | 68.60 |\n| D | 48.80 | 84.44 |",
+    "chart_caption": [
+      "图 1 DeepSeek 与 ChatGPT 回答正确率柱状图"
+    ],
+    "chart_footnote": [
+      "A−提问方式一回答正确率；B−提问方式二回答正确率；C−治疗方案评估正确率；D−OLDU 回答正确率。",
+      "A−answer accuracy rate for way of questioning 1; B−answer accuracy rate for way of questioning 2; C−treatment plan evaluation accuracy rate; D−answer accuracy rate for OLDU."
+    ],
+    "sub_type": "bar chart",
+    "bbox": [
+      537,
+      529,
+      877,
+      777
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "Fig. 1 Histogram of correct answer rate of DeepSeek and ChatGPT",
+    "bbox": [
+      510,
+      822,
+      902,
+      850
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_footnote",
+    "text": "中国现代应用药学2025 年9 月第42 卷第17 期",
+    "bbox": [
+      92,
+      898,
+      373,
+      911
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "Chin J Mod Appl Pharm, 2025 September, Vol.42, No.17",
+    "bbox": [
+      522,
+      898,
+      838,
+      911
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "· 2931 ·",
+    "bbox": [
+      858,
+      899,
+      900,
+      910
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      959,
+      321,
+      978
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "有错误答案的类型可以归为以下 3 种。",
+    "bbox": [
+      90,
+      55,
+      386,
+      70
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "①部分错误：回答包含了不合理的治疗方案或是不完整信息。②错误剂量：推荐了不正确或不合适的给药剂量。③虚假信息：提供了无法验证的虚假信息。表 3 显示了 DeepSeek 和 ChatGPT错误回答的分类，DeepSeek 的错误主要为“部分错误”，而 ChatGPT 的错误大部分源于“错误剂量”。详细内容见附表 1\\~2。",
+    "bbox": [
+      90,
+      75,
+      482,
+      172
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/523b219d74662cfa19770a50f5d6b5e3df4c43e6ada09e5b2d8f0cddb0f3d317.jpg",
+    "table_caption": [
+      "表 2 2 种提问方式下 DeepSeek 与 ChatGPT 回答 4 类药物相互作用的正确率",
+      "Tab. 2 Correct rate of DeepSeek and ChatGPT’s answers to 4 classification drug interactions under 2 questioning methods n(%)",
+      "表 3 DeepSeek 与 ChatGPT 对治疗方案评价反应不正确的原因分析"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td rowspan=\"2\">DDIs分类(n)</td><td colspan=\"2\">提问方式一 正确率</td><td colspan=\"2\">提问方式二 正确率</td><td rowspan=\"2\">P值</td></tr><tr><td>DeepSeek</td><td>ChatGPT</td><td>DeepSeek</td><td>ChatGPT</td></tr><tr><td>轻度(9)</td><td>3(33.33)</td><td>6(66.67)</td><td>2(22.22)</td><td>2(33.33)</td><td></td></tr><tr><td>中度(17)</td><td>2(11.76)</td><td>8(47.01)</td><td>6(35.29)</td><td>5(29.41)</td><td>0.00</td></tr><tr><td>严重(12)</td><td>0</td><td>2(16.67)</td><td>1(8.33)</td><td>2(16.67)</td><td></td></tr><tr><td>禁忌(3)</td><td>0</td><td>1(33.33)</td><td>1(33.33)</td><td>0</td><td></td></tr></table>",
+    "bbox": [
+      92,
+      248,
+      484,
+      370
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/c271e2d729d23a80e3f9832e4a7561d271973e37920f49592ea7243edd1d3e20.jpg",
+    "table_caption": [
+      "Tab. 3 Analysis of the causes of incorrect response to treatment plan evaluation of DeepSeek and ChatGPT n(%)"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>错误类型</td><td>DeepSeek错误类型比率/(n=31)</td><td>ChatGPT错误类型比率/(n=27)</td></tr><tr><td>部分错误</td><td>20(64.52)</td><td>8(29.63)</td></tr><tr><td>错误剂量</td><td>9(29.03)</td><td>17(62.96)</td></tr><tr><td>虚假信息</td><td>2(6.45)</td><td>2(7.41)</td></tr></table>",
+    "bbox": [
+      92,
+      438,
+      484,
+      520
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      55,
+      900,
+      89
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2.2 DeepSeek 和 ChatGPT 在药物咨询中表现的描述性评价",
+    "text_level": 2,
+    "bbox": [
+      510,
+      94,
+      900,
+      129
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "根据两者回答的完整性和准确性，表 4 描述性地总结了 DeepSeek 和 ChatGPT 在真实药物咨询背景下的能力和局限性。总体而言，DeepSeek 对于治疗方案评估表现突出，对疾病诊断、药物信息以及选择和使用方面提供了高质量的回答；而ChatGPT 则更擅长 OLDU 的识别，在患者用药教育方面提出了更细致的建议。",
+    "bbox": [
+      509,
+      133,
+      904,
+      266
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "关于 DDIs 的识别，尽管两者提供了全面的药物信息、作用机制，但它们却无法判断某些严重的相互作用。例如患者同时使用甲巯咪唑和美托洛尔，由于抗甲状腺药物会影响美托洛尔的药动学，与甲状腺机能正常时相比，甲状腺功能亢进时美托洛尔的清除率增加，血药浓度降低。服用抗甲状腺药物使甲状腺机能恢复正常时，则导致美托洛尔的清除降低、血药浓度升高[17]，可能会危及生命，必须要同时使用时，需要医疗干预来减少或避免严重不良反应；然而 DeepSeek 和ChatGPT 都未能识出来。尽管背后有一个庞大的互 联 网 数 据 库 作 为 支 持 ， DeepSeek 在 识 别OLDU 方面的性能并没有那么完美。例如，对于接受三联疗法 (吸入性糖皮质激素+长效 β 受体激动剂+长效抗胆碱能药物) 治疗后发生慢性阻塞性肺疾病急性加重的患者，参考 2021 年修订的《慢性阻塞性肺疾病诊治指南》[18] 可考虑加用大环内酯类抗生素 (阿奇霉素的证据较充足，尤其是对于既往吸烟的患者，但需注意其不良反应包括耐药、QTc 间期延长和耳毒性等)。DeepSeek 的回答是：“急性加重期：抗生素仅推荐用于明确细菌感染 (尤其是非典型病原体) 或合并肺炎的情况。”并没有及时根据新修订的指南进行建议。反观 ChatGPT，其在 OLDU 方面表现突出，回答正确率为 84.44%，这可能是由于 ChatGPT 是在2022 年 11 月 30 日推出的，经过 2 年多的更新迭代，其 OLDU 数据库也更加全面。",
+    "bbox": [
+      509,
+      270,
+      902,
+      521
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/d84ae50f2b51df6ac778be5d4d1f6da0b506d20948a2e9522f5d1715397dbcdb.jpg",
+    "table_caption": [
+      "表 4 DeepSeek 与 ChatGPT 在药物咨询中的能力和局限性",
+      "Tab. 4 Ability and limitation of DeepSeek and ChatGPT in drug consultation"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td rowspan=\"2\">药物咨询分类</td><td colspan=\"2\">优点</td><td colspan=\"2\">缺点</td></tr><tr><td>DeepSeek</td><td>ChatGPT</td><td>DeepSeek</td><td>ChatGPT</td></tr><tr><td>DDIs</td><td>可以识别部分潜在的 DDIs</td><td>可以识别部分潜在的 DDIs</td><td>当多种药物之间存在多种相互作用时,DeepSeek不能识别所有的 DDIs;难以识别严重/禁忌级别的DDIs</td><td>当多种药物之间存在相互作用时,ChatGPT 不能识别所有的 DDIs;ChatGPT 对于 DDIs 分级判断的准确性不是很高</td></tr><tr><td>OLDU</td><td>能够识别常见的 OLDU</td><td>能识别简单的 OLDU</td><td>DeepSeek 无法识别较为罕见的超说明书用法</td><td>难以识别 2023 年后的 OLDU</td></tr><tr><td>治疗方案评估</td><td>能够评估是否有药物使用的适应证;能够确认药物的选择、用法、剂量是否正确;能够检查出药物重复利用,并提示相关禁忌证;向患者提供清晰的用药教育,包括剂量、给药频率和潜在不良反应等信息;对于特殊群体如老年人,建议患者进行个体化给药方案</td><td>高效、准确地提供全面的药物相关信息;提供合适的替代方案和谨慎的药物治疗建议;密切关注患者的依从性,特别是老年人的依从性,建议为这些患者提供个体化的治疗服务;能够准确识别治疗方案中可能存在的不合理应用;为患者提供明确的药物教育,包括剂量、给药频率和潜在的不良反应信息</td><td>推荐药物剂量错误;存在虚假信息</td><td>推荐药物剂量不准确;问答输入过程系统不太稳定;为了迎合用户,编造虚假信息</td></tr></table>",
+    "bbox": [
+      92,
+      563,
+      905,
+      885
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "· 2932 ·",
+    "bbox": [
+      97,
+      899,
+      137,
+      908
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "Chin J Mod Appl Pharm, 2025 September, Vol.42, No.17",
+    "bbox": [
+      159,
+      898,
+      472,
+      911
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "中国现代应用药学 2025年 9月第42 卷第17 期",
+    "bbox": [
+      623,
+      898,
+      902,
+      911
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      959,
+      319,
+      978
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      90,
+      54,
+      485,
+      324
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "对于治疗方案，2 个模型都进行了全面的评估，包括药物治疗适宜性、服药疗程、患者用药教育清单等；并提出了详细建议，如建议甲氨蝶呤治疗类风湿性关节炎时，服药间隔为每周 1 次而非每天 1 次。同时也都指出了药物重复使用的问题 [ 某患者，女，10 岁，确诊为先天性耳前瘘管 (并发感染)，使用头孢唑啉、头孢西丁、头孢呋辛、庆大霉素 ]。DeepSeek 和 ChatGPT 有时也会提供无法验证真伪的信息，例如左旋甲状腺素钠并不会导致甲状腺功能减退，但它们同时将这一信息错误地写在病人的管理事项中。详细内容见附表 1\\~2。",
+    "bbox": [
+      90,
+      327,
+      485,
+      557
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "3 讨论",
+    "text_level": 2,
+    "bbox": [
+      92,
+      561,
+      161,
+      576
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "本研究首次评估了 DeepSeek 和 ChatGPT 在回答真实世界中的药物咨询，尤其是在 DDIs、OLDU 和治疗方案领域的正确性和适宜性。定量评价结果表明，DeepSeek 在治疗方案评估领域表现良好，而 ChatGPT 在 OLDU 方面更出彩。因为2 个大型语言模型都可以快速访问互联网，收集大量的信息并有效地分析数据。通过输入各种文本数据集对它们进行训练，就能够理解上下文并产生类似于人类交流的回答。这种能力使它们在治疗方案评估和患者用药教育方面表现出色。本研究的描述性分析结果强调了在现实世界药物咨询环境中使用 DeepSeek 和 ChatGPT 的主要优势和局限性 (表 4)。",
+    "bbox": [
+      90,
+      578,
+      485,
+      830
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "DeepSeek 在识别 OLDU 领域方面的能力稍逊色。例如，据指南推荐，甲氨蝶呤可以作为类风湿性关节炎的基石药物，首选推荐单药治疗[19-20]。",
+    "bbox": [
+      92,
+      833,
+      485,
+      888
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "DeepSeek 却 未 能 识 别 ， 究 其 原 因 可 能 是 由 于DeepSeek 地域化差异处理造成的。据 DeepSeek 所述，其数据库针对中国《超说明书用药专家共识》进行专项优化，核心条款已完成结构化解析，但部分指南尚未完全融入核心知识库，需依赖实时检索功能获取最新内容。由此可见，尽管大型语言模型能在短短几秒内做出回应，但其提供的数据资源还是有限的，鉴于医学研究的快速发展，这种专业领域信息的缺乏可能会影响其在临床实践中的有效性。",
+    "bbox": [
+      510,
+      55,
+      904,
+      245
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "对于 DDIs 的识别，2 个模型具有不同特性。DeepSeek 回答正确率通常随着多种 DDIs 复杂性水平而下降。因为这些 DDIs 信息都可以在Drugs.Com、Up to Date 以及丁香园用药助手等临床决策支持软件上免费获取。此外，在与 DeepSeek的对话中，它也并非完全“智能”，需要用户输入十分明确的指令，才能给出令人满意的回答。正如研究所描述的，当提问内容较为宽泛时，DeepSeek 的回答总是无法切入要害，例如输入：“女，57 岁，诊断为慢性肾脏病 4 期 (衰竭期)/高血压病/慢性肾脏病贫血，使用碳酸氢钠片、叶酸片、多糖铁复合物胶囊、硝苯地平控释片、富马酸比索洛尔片、非布司他、维生素 D2 软胶囊。现在来进行药物咨询，作为一名药师，你能告诉我这个用药方案中存在的问题吗？”DeepSeek 未能识别到比索洛尔与硝苯地平存在中度 DDIs，而只是分析了药物选用的合理性以及患者注意事项等。同样的问题，当换成更为明确的提问方式时，答案随之变化。例如：“碳酸氢钠片、叶酸片、多糖铁复合胶囊、硝苯地平控释片、富马酸比索洛尔片、非布司他片和维生素 D2 软胶囊可以一起服用吗？根据药物相互作用的严重程度，药物相互作用可分为 4 类：轻度、中度、重度和禁忌，如果它们发生不利的相互作用，这种相互作用的类别是什么？”此时，DeepSeek 才开始分析所有药物两两组合之间的 DDIs。尽管最终它还是未能识别正确的 DDIs 及分级，但相较第一种提问方式，回答正确率有所改善 (附表 1)。",
+    "bbox": [
+      510,
+      248,
+      904,
+      792
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "而 ChatGPT 回答正确率却是随着提问方式变得具体而有所下降，在第二种给出了明确指示和要求的提问方式下，ChatGPT 回答正确率却低于第一种宽泛提问方式的正确率 (41.46% vs21.95%)。这可能是大型语言模型在处理文本时，同一主题的不同表述会被拆解为不同的 Token 序列 (即文本被转换为数字 ID 的过程)，导致后续注意力机制聚焦于不同维度的知识模块。模型通过概率分布 (如 Top-p 采样) 选择每个输出 Token，而非确定性输出。同一问题采用不同提问方式会改变概率分布的形状，导致答案结构不同。并且 ， 模 型 通 过 自 注 意 力 机 制 (Self-Attention)计算输入中每个词的关联性。若提问包含限定词(如时间、场景、对象)，模型会赋予这些词更高权重，从而调整答案的侧重点[21]。",
+    "bbox": [
+      510,
+      794,
+      902,
+      888
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_footnote",
+    "text": "中国现代应用药学2025 年9 月第42 卷第17 期",
+    "bbox": [
+      92,
+      896,
+      373,
+      911
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "Chin J Mod Appl Pharm, 2025 September, Vol.42, No.17",
+    "bbox": [
+      522,
+      898,
+      838,
+      911
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "· 2933 ·",
+    "bbox": [
+      858,
+      899,
+      900,
+      910
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      959,
+      322,
+      978
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      90,
+      54,
+      485,
+      245
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "此外，研究发现在与 ChatGPT 的对话中，它的回答往往是“依从的”，这意味着它经常根据用户的问题调整其答案，以符合用户希望听到的内容。有时，它甚至捏造信息来“迎合”用户的期望。例如，当询问 ChatGPT 关于 DDIs 的分级时，它最初提供了 4 个等级及其定义。这与药师确定的 5 个等级相矛盾。在进一步询问之后，ChatGPT 迅速调整了其回答，声称 DDIs 确实可以分为 5 类。被问及详细的参考文献时，它所提供的材料看起来很专业，文献均包含了标题和期刊名称。然而，在对这些文献进行浏览后，并未找到有关 DDIs 分级的信息，这与 Munir 等[22] 的发现一致。ChatGPT 提供的回答看起来可信，但实际上是捏造的，这种现象通常被称为“幻象”。虽然它可以给出看似合理的信息，但并没有引用任何真实可靠的文献来源。因此，偶尔出现不正确或有偏见的回答是不可避免的，这一问题在 Jin等[23] 的研究中进行了讨论。",
+    "bbox": [
+      90,
+      250,
+      485,
+      595
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "2 款模型存在以下局限性。首先，DeepSeek和 ChatGPT 经常提供错误的给药剂量建议，如本研究 (附表 1\\~2) 所示，当询问 6\\~11 岁患儿使用氯雷他定治疗慢性鼻窦炎的剂量时，DeepSeek 建议剂量为 5mg，每日 1 次，而正确的剂量是口服混悬液 2.5 mg，每日 1 次[24-25]。其次，ChatGPT 在问答过程中会产生误导性或虚构的答案；它所提供的答案都包括了专业术语，给药剂量或是文献推荐。表面上看，这个答案似乎是合理的，但仔细深究便会发现漏洞百出。例如，在一个涉及多药联合使用的病例中，ChatGPT 认为：“左旋甲状腺素钠：剂量不当可能导致甲状腺功能减退 (如疲劳、体质量增加) 或甲状腺功能亢进 (如心悸、焦虑) 的症状。”但是，事实并非如此。并且，在谈到患者教育时，ChatGPT 并没有明确指出兰索拉唑应该空腹服用。相反，它只提到，“左旋甲状腺素应该空腹服用，而兰索拉唑应该在当天晚些时 候 服 用 。 ” 因 此 ， 直 接 咨 询 DeepSeek 和ChatGPT 以获取医疗信息会带来重大的风险，尤其是对患者而言。其次是 2 款模型回答一致性较差，对于完全相同的问题，答案似乎会随着提问时间不同而变化，显示出不可重复性。",
+    "bbox": [
+      90,
+      599,
+      485,
+      888
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      509,
+      54,
+      904,
+      188
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "需指出的是，本研究问题来自单一中心，评估方法可能存在偏倚。然而，由于这是一项旨在描述 DeepSeek 与 ChatGPT 实际应用的探索性分析，所以采用的评估方法也是合理的。此外，尽管本研究中涉及的问题足够具有代表性，但在未来有必要在更广泛的领域进行探索。本研究中纳入的所有提问均直接来源于患者，且大部分患者为老年人，无法提供具体药物规格，故研究未能将药品规格以及说明书版本对 OLDU 的影响纳入考虑；需强调的是所有的 OLDU 问题均由 3 位资深临床药师查阅专业数据库商讨后得出，所以能够确保结果的科学和准确性。但未来仍需将药品规格与说明书纳入考量；同时建议临床药师在日常工作中统筹考量这些因素。",
+    "bbox": [
+      509,
+      192,
+      904,
+      464
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "综上所述，由于 DeepSeek 和 ChatGPT 在临床药学中的应用仍然是一个相对较新的领域，制定一 套 规 范 化 的 标 准 是 有 利 的 。 DeepSeek 与ChatGPT 在不同领域具有独特优势，但作为临床药物咨询工具的正确性是有限的，用户不应完全依赖于它们的回答。因此，临床药师在使用这些工具时应发挥主导作用，并确保对患者有利的最佳用药方案。",
+    "bbox": [
+      509,
+      468,
+      905,
+      621
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "REFERENCES",
+    "text_level": 2,
+    "bbox": [
+      512,
+      635,
+      618,
+      648
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1] WIENKERS L C, HEATH T G.  Predicting in vivo drug interactions from in vitro drug discovery data[J]. Nat Rev Drug Discov, 2005, 4(10): 825-833.",
+      "QATO D M, WILDER J, SCHUMM L P, et al.  Changes in[2] prescription and over-the-counter medication and dietary supplement use among older adults in the United States, 2005 vs 2011[J]. JAMA Intern Med, 2016, 176(4): 473-482.",
+      "[3] 陆晓彤, 刘艳. 伦理视角下的超说明书用药[J]. 儿科药学杂 志, 2017, 23(10): 42-44. LU X T, LIU Y. Off-lable drug use based on the perspective of ethics[J]. J Pediatr Pharm, 2017, 23(10): 42-44.",
+      "刘容吉, 牛子冉, 左玮, 等. 国外对超说明书用药的态度和医[4]保覆盖情况及其启示[J]. 中华医院管理杂志, 2021, 37(10):838-842.LIU R J, NIU Z R, ZUO W, et al. Attitude and medical",
+      "insurance coverage for off-label use in various countries[J]. Chin J Hosp Admin, 2021, 37(10): 838-842.",
+      "广东省药学会. 超药品说明书用药中患者知情同意权的保护[5] 专家共识[J]. 今日药学, 2019, 29(6): 361-367.",
+      "LENK C, DUTTGE G. Ethical and legal framework and[6] regulation for off-label use: European perspective[J]. Ther Clin Risk Manag, 2014(10): 537-546.",
+      "杨丽雄, 蔡丽秋. 门、急诊超说明书用药的处方分析及对策[7]研究[J]. 海峡药学, 2017, 29(12): 260-262.",
+      "王旭. 我院急诊超说明书用药情况调查分析[J]. 天津药学,[8]2019, 31(5): 36-39.",
+      "WANG X. Investigation and analysis of off-label drug uses of the emergency department in our hospital[J].  Tianjin Pharm, 2019, 31(5): 36-39.",
+      "黄亮, 申向黎, 陈力, 等. 正确认识并有效规范超说明书用药[9]行为[J]. 中国医院药学杂志, 2009, 29(11): 949-951.",
+      "韩仁叶, 于红静, 陈振东. 基于循证证据的抗肿瘤药物超说明[10]书用药审核与管理探讨[J]. 医院管理论坛, 2023, 40(2): 56-58.",
+      "HAN R Y, YU H J, CHEN Z D.  Evidence-based review and management of antitumor drugs off-label use[J]. Hosp Manag Forum, 2023, 40(2): 56-58.",
+      "TANG Y Y, LI W G, LIAO J, et al.  Off-label drug use in[11] children over the past decade: A scoping review[J]. Chin Med J, 2023, 136(5): 626-628.",
+      "VERES C. Large language models are not models of natural[12] language: They are corpus models[J]. IEEE Access, 2022(10): 61970-61979.",
+      "HIROSAWA T, HARADA Y, YOKOSE M, et al. Diagnostic[13] accuracy of differential-diagnosis lists generated by generative pretrained transformer 3 chatbot for clinical vignettes with common chief complaints: A pilot study[J]. Int J Environ Res Public Health, 2023, 20(4): 3378.",
+      "ALI S R, DOBBS T D, HUTCHINGS H A, et al.  Using[14] ChatGPT to write patient clinic letters[J]. Lancet Digit Health, 2023, 5(4): e179-e181.",
+      "GRÜNEBAUM A, CHERVENAK J, POLLET S L, et al. The[15] exciting potential for ChatGPT in obstetrics and gynecology[J]. Am J Obstet Gynecol, 2023, 228(6): 696-705.",
+      "MORATH B, CHIRIAC U, JASZKOWSKI E, et al.[16] Performance and risks of ChatGPT used in drug information:",
+      "An exploratory real-world analysis[J].  Eur J Hosp Pharm, 2024, 31(6): 491-497.",
+      "HALLENGREN B, NILSSON O R, KARLBERG B E, et al.[17] Influence of hyperthyroidism on the kinetics of methimazole, propranolol, metoprolol and atenolol[J]. Eur J Clin Pharmacol, 1982, 21(5): 379-384.",
+      "《慢性阻塞性肺疾病诊治指南 (2021 年修订版)》诊断要点[18][J]. 实用心脑肺血管病杂志, 2021, 29(6): 134.",
+      "DEMIRCA B P, CAGAN H, KIYKIM A, et al.  Nebulized[19] fluticasone propionate, a viable alternative to systemic route in the management of childhood moderate asthma attack: A double-blind, double-dummy study[J].  Respir Med,  2015, 109(9): 1120-1125.",
+      "FRAENKEL L, BATHON J M, ENGLAND B R, et al. 2021[20] American college of rheumatology guideline for the treatment of rheumatoid arthritis[J].  Arthritis Care Res(Hoboken),  2021, 73(7): 924-939.",
+      "LIANG X, SONG S C, ZHENG Z F, et al. Internal consistency[21] and self-feedback in large language models: A survey. 2024. https://doi.org/10.48550/arXiv.2407.14507.",
+      "MUNIR F, GEHRES A, WAI D, et al. Evaluation of ChatGPT[22] as a tool for answering clinical questions in pharmacy practice[J]. J Pharm Pract, 2024, 37(6): 1303-1310.",
+      "JIN Q, LEAMAN R, LU Z Y. Retrieve, summarize, and verify:[23] How will ChatGPT affect information seeking from the medical literature?[J].  J Am Soc Nephrol,  2023,  34(8): 1302- 1304.",
+      "耿研, 谢希, 王昱, 等. 类风湿关节炎诊疗规范[J]. 中华内科[24]杂志, 2022, 61(1): 51-59.",
+      "GENG Y, XIE X, WANG Y, et al. The standardized diagnosis and treatment of rheumatoid arthritis[J].  Chin J Inter Med, 2022, 61(1): 51-59.",
+      "许政敏, 王智楠, 姚红兵. 儿童急性感染性鼻-鼻窦炎诊疗[25]临床实践指南 (2014 年制订)[J]. 中国实用儿科杂志,2015, 30(7): 512-514.",
+      "XU Z M, WANG Z N, YAO H B. Clinical practice guideline for diagnosis and treatment of acute infectious rhinosinusitis in children(2014 formulation)[J]. Chin J Pract Pediat, 2015, 30(7): 512-514."
+    ],
+    "bbox": [
+      517,
+      660,
+      910,
+      889
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "· 2934",
+    "bbox": [
+      97,
+      898,
+      134,
+      908
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "Chin J Mod Appl Pharm, 2025 September, Vol.42, No.17",
+    "bbox": [
+      159,
+      898,
+      473,
+      911
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "中国现代应用药学 2025年 9月第42 卷第17 期",
+    "bbox": [
+      623,
+      896,
+      904,
+      911
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      959,
+      321,
+      978
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      99,
+      54,
+      489,
+      663
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      522,
+      55,
+      904,
+      631
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "收稿日期：2025-05-29",
+    "bbox": [
+      769,
+      633,
+      902,
+      646
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "(本文责编：沈倩)",
+    "bbox": [
+      796,
+      648,
+      902,
+      660
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "中国现代应用药学2025 年9 月第42 卷第17 期",
+    "bbox": [
+      92,
+      896,
+      371,
+      911
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "Chin J Mod Appl Pharm, 2025 September, Vol.42, No.17",
+    "bbox": [
+      524,
+      898,
+      838,
+      911
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "page_number",
+    "text": "· 2935 ·",
+    "bbox": [
+      858,
+      899,
+      900,
+      908
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      959,
+      319,
+      978
+    ],
+    "page_idx": 6
+  }
+]

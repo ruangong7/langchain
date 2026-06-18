@@ -1,0 +1,1292 @@
+[
+  {
+    "type": "text",
+    "text": "血清白蛋白与降血糖药物相互作用的关键位点分析",
+    "text_level": 1,
+    "bbox": [
+      109,
+      126,
+      889,
+      155
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "金能智1\\* ，齐燕姣2 ，者建武1 ，赵志威1",
+    "bbox": [
+      312,
+      175,
+      680,
+      197
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "( 1．甘肃省计算中心，兰州 730030; 2．西北民族大学榆中校区 化工学院，兰州 730124)",
+    "bbox": [
+      220,
+      199,
+      771,
+      215
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘 要: 用生物信息学的方法分析不同物种的血清白蛋白的亲缘关系，分析降血糖药物米格列醇和伏格列波糖与人血清白蛋白相互作用位点在其他亲缘关系较近的物种中相应的氨基酸变化特点。 结果表明米格列醇、伏格列波糖与人血清白蛋白的结合位点都位于人血清白蛋白亚区 IB 的疏水腔中，其间的主要作用力是氢键和疏水作用力。 米格列醇和伏格列波糖与血清白蛋白结合位点处的氨基酸在其他物种中大部分都是保守的，只有少数的氨基酸不同，且极性也不相同。 血清白蛋白疏水性分析发现米格列醇和伏格列波糖与血清白蛋白结合位点处的氨基酸中亲水性的较多，疏水性的少，在其他 4 个亲缘关系较近的物种也具有同样的现象 这些分析结果为进一步研究降血糖药物在其他物种中的表现及相互作用等提供了重要的科学依据关键词: 米格列醇; 伏格列波糖; 血清白蛋白; 序列比对; 亲缘关系",
+    "bbox": [
+      87,
+      235,
+      905,
+      351
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号: Q71 文献标志码:A 文章编号: 1672－5565( 2017) 03－171－08",
+    "bbox": [
+      89,
+      354,
+      613,
+      369
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Study on the interaction of the key sites of serum albumin and hypoglycemic drugs",
+    "text_level": 1,
+    "bbox": [
+      178,
+      382,
+      820,
+      426
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "JIN Nengzhi1\\* ，QI Yanjiao2 ，ZHE Jianwu1 ，ZHAO Zhiwei1",
+    "bbox": [
+      280,
+      439,
+      712,
+      457
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "( 1．Gansu Province Computing Center，Lanzhou 730030，China;",
+    "bbox": [
+      302,
+      458,
+      692,
+      473
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2． School of Chemical Engineering，Northwest University for Nationalities，Lanzhou 730124，China)",
+    "bbox": [
+      193,
+      476,
+      798,
+      489
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Abstract: The bioinformatics method is used to analyze the relationship of serum albumin among different species， and to analyze the characteristics of the amino acid changes in the other closely related species of the interaction sites of hypoglycemic drugs miglitol and voglibose with human serum albumin． The results show that the binding sites of miglitol，voglibose and human serum albumin are located at the hydrophobic cavity of human serum albumin subdomain IB，and the main forces are hydrogen bonding and hydrophobic interaction． The amino acids at the binding sites of miglitol and voglibose with human serum albumin are mostly conserved in other species，with only a few amino acids being different and polarities being different． The serum albumin hydrophobicity analysis suggests that the amino acids at the binding sites of miglitol and voglibose with serum albumin are more hydrophilic，less hydrophobic，and the other four species in the same species also have the same phenomenon． These bioinformatics based analysis provide an important scientific basis for the further research on the expression and interaction of hypoglycemic drugs in other species．",
+    "bbox": [
+      87,
+      510,
+      907,
+      712
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Keywords: Miglitol; Voglibose; Serum albumin; Sequence alignment; Genetic relationship",
+    "bbox": [
+      89,
+      715,
+      741,
+      732
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "血清白蛋白( serumalbumin，SA) 是一种球状蛋白质，是机体循环系统中含量最丰富的储存与运输蛋白。 该蛋白有许多重要的生理学与药理学功能，能与许多内源和外源性物质如脂肪酸、氨基酸、荷尔蒙、K2 阴阳离子和药物等结合［1］。 其对药物的药代动力学特别是其在人体中的分布有着重要的作用，大部分药物成分在人体中的运转首先通过与血清白蛋白的结合，然后到达靶标组织起到存储和转运作用。 因此血清白蛋白己成为研究最广泛的目标蛋白之一。 血清白蛋白来源广泛，其中由于人血清白蛋白( HSA) 与牛血清白蛋白( BSA) 分子结构信息确知，故被相关研究人员广泛采用为生物大分子模型。",
+    "bbox": [
+      89,
+      752,
+      485,
+      863
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      752,
+      907,
+      863
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "第 15 卷 第 3 期",
+    "bbox": [
+      90,
+      17,
+      189,
+      30
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "2 0 1 7 年 0 9 月",
+    "bbox": [
+      92,
+      35,
+      184,
+      48
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "生 物 信 息 学",
+    "bbox": [
+      455,
+      16,
+      573,
+      32
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Chinese Journal of Bioinformatics",
+    "bbox": [
+      394,
+      36,
+      633,
+      49
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Vol．15 No．3",
+    "bbox": [
+      836,
+      19,
+      905,
+      30
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Sep． 2017",
+    "bbox": [
+      840,
+      35,
+      900,
+      48
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "DOI: 10．3969 /j．issn．1672－5565．20161116001",
+    "bbox": [
+      90,
+      70,
+      421,
+      85
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "收稿日期: 2016－11－16; 修回日期: 2016－11－23．",
+    "bbox": [
+      89,
+      882,
+      366,
+      896
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "基金项目: 国家高技术研究发展计划( 2016YFB0201404) ．",
+    "bbox": [
+      92,
+      898,
+      416,
+      910
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "\\* 通信作者: 金能智，男，硕士，助理研究员，研究方向: 计算化学、生物信息学; E－mail: jin\\_n\\_z@ 163．com．",
+    "bbox": [
+      92,
+      914,
+      687,
+      927
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      836,
+      979
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "HSA 的三维晶体结构显示，人血清蛋白球状高级结构可分为3 个结构域( domain) ，从 N 端开始依次为 domain I ( 残基 1 ～ 195) ，domain II ( 残基 196 ～383) 和 domain III ( 残基 394 ～ 585) ，它们均是由 a-螺旋体反向平行而成，每个结构域由槽口相对的两个疏水性空腔亚域 ( A 和 B) 形成圆筒状结构，几乎所有疏水性氨基酸都包埋在此圆筒腔内部，构成疏水性腔。 与药物相互作用的位置就位于这 6 个亚区之中( 如图1 所示) ，文献［2］中研究发现大多数药物在血清白蛋白上的结合部位为亚结构域 IIA 和IIIA，其中 IIIA 的活性最高。 除此之外，HSA 和 BSA分子内还有诸如 β-折叠、回转以及无规卷曲等二级结构类型。 晶体衍射实验表明血清白蛋白呈心脏形构象［3］。 然而，其他物种特别是一些与人类亲缘关系较近的哺乳动物上的血清白蛋白的结构、性质等的了解都还比较少。",
+    "bbox": [
+      89,
+      70,
+      485,
+      391
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "image",
+    "img_path": "images/0a91673490e470232095e89a0c7edf90fc7a7a1d90c215b0a8cbd9507495fe7a.jpg",
+    "image_caption": [
+      "图 1 人血清白蛋白的二级结构",
+      "Fig．1 Secondary structure of human serum albumin"
+    ],
+    "image_footnote": [],
+    "content": "a\nIIIB\nIB\nIA\nIIIA\nIIA\nII B",
+    "sub_type": "text_image",
+    "bbox": [
+      616,
+      77,
+      801,
+      197
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "米格列醇( Miglitol) 和伏格列波糖( Voglibose)是小肠内 α－葡萄糖苷酶抑制剂，可以延缓葡萄糖从吸收的复合碳水化合物中释放，从而可减弱餐后血糖水平的增高。 已有研究报道表明，米格列醇和伏格列波糖是安全有效的、耐受性较好的、可用于血糖控制不良的需要胰岛素治疗的 II 型糖尿病患者的治疗药物 。 图 2 为米格列醇( Miglitol) 和伏格列波糖( Voglibose) 的分子结构图 。",
+    "bbox": [
+      510,
+      240,
+      905,
+      387
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "image",
+    "img_path": "images/ceb3f79e9e065758fb3d7fd36e5eadfcf391dcebd3aeb85932fbea86fca60e3a.jpg",
+    "image_caption": [
+      "(a)米格列醇的分子结构"
+    ],
+    "image_footnote": [],
+    "content": "Molecular structure diagram of a cyclic compound with labeled hydrogen atoms and functional groups",
+    "sub_type": "chemical",
+    "bbox": [
+      157,
+      410,
+      458,
+      596
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "image",
+    "img_path": "images/702bbc8bbb6438e92e69efe6ad720377d592ac8124498a1a5335069fc901a996.jpg",
+    "image_caption": [
+      "(b)伏格列波糖的分子结构",
+      "图 2 米格列醇和伏格列波糖的分子结构图",
+      "Fig．2 The molecular structure of miglitol and voglibose"
+    ],
+    "image_footnote": [
+      "注: 图中极性氢原子用数字进行标注"
+    ],
+    "content": "Molecular structure diagram of a cyclic compound with numbered atoms and functional groups",
+    "sub_type": "chemical",
+    "bbox": [
+      526,
+      406,
+      852,
+      598
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "近年来，药物与血清白蛋白的相互作用的研究越来越多［4－12］。 但是到目前为止，研究药物与血清白蛋白的相互作用大部分都基于人和牛的［5－12］，由于各种限制条件，例如晶体结构还未获得、物种资源稀缺等，所以在其他物种上研究的还比较少。 用生物信息学的方法分析不同物种的血清白蛋白的特点和进化关系，分析米格列醇与人血清白蛋白相互作用位点及其在其他亲缘关系较近的物种中相应的氨基酸变化特点，通过分析血清白蛋白的疏水性及其与米格列醇结合位点处的氨基酸特征，为进一步了解其他物种的血清白蛋白的结构特点以及为分析米格列醇在其他物种中的相互作用等提供理论依据。",
+    "bbox": [
+      89,
+      686,
+      487,
+      929
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 材料与方法",
+    "text_level": 2,
+    "bbox": [
+      509,
+      703,
+      665,
+      722
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1．1 蛋白质序列的下载",
+    "text_level": 2,
+    "bbox": [
+      507,
+      743,
+      695,
+      758
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "人类( Homo sapiens) 、 鼠耳蝠( Myotis davidii) 、 野骆驼 ( Camelus ferus ) 、 家 牛 ( Bos Taurus ) 、 狼 ( Canislupus) 、小家鼠( Mus musculus) 、 膜壳绦虫( Hymenolepismicrostoma ) 多 房 棘 球 绦 虫 ( Echinococcusmultilocularis) 双胸斑沙鸟( Charadrius vociferus) 白喉 花 共鸟 ( Tinamus guttatus ) 、 金 领 娇 鹟 ( Manacusvitellinus) 、 阿 德 利 企 鹅 ( Pygoscelis adeliae ) 、 日 鳽( Eurypyga helias ) 、 仓 鸮 ( Tyto alba ) 、 麝 雉( Opisthocomus hoazin) 、 朱鹮( Nipponia Nippon) 、 白尾鹲( Phaethon lepturus) 、 褐拟鹑( Mesitornis unicolor 、 绵羊( Ovine) 、牦牛( Bos mutus) 、 海龟( Chelonia mydas) 、帝 企 鹅 ( Aptenodytes forsteri ) 、 美 国 乌 鸦 ( Corvusbrachyrhynchos) 等 23 个物种的血清白蛋白氨基酸序列 是 从 NCBI 网 站 ( http: / / www． ncbi． nlm． nih． gov /pubmed) 上下载，人血清白蛋白的晶体结构是从 PDB数据 库 ( http: / / www． rcsb． org / pdb / home / home． do ) 中下载 ( PDB: 1N5U) 的。",
+    "bbox": [
+      505,
+      760,
+      907,
+      929
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "271",
+    "bbox": [
+      100,
+      38,
+      131,
+      49
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "生 物 信 息 学",
+    "bbox": [
+      400,
+      36,
+      596,
+      52
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "第 15 卷",
+    "bbox": [
+      840,
+      36,
+      904,
+      52
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      979
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      70,
+      487,
+      216
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "1．2 蛋白质序列分析",
+    "text_level": 2,
+    "bbox": [
+      90,
+      219,
+      260,
+      235
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "多序列的比对是通过 ClustalW 软件进行的; 蛋白质的氨基酸序列长度和组成及等电点的分析是通过 Lasergene 软件进行的; 序列的相似性分析是通过MegAlign 软件中 Lipman-Pearson 方法进行的; 蛋 白质 疏 水 性 采 用 ExPAsy 的 ProtScale 程 序 进 行分 析 ( http: / / web． expasy． org / protscale / ) ［13］ 。 该 程序可通过输入框将序列粘贴进去，也可输入 SWISS-PROT 的记录号来计算蛋白质的亲疏水性图谱。 基于 ClustalW 软 件 的 多 序 列 比 对 和 Jone-Taylor-Thornton( JTT) 模型，采取缺失序列删除的方式，用MEGA6． 0 软 件［14］ 的 Nearest-Neighbor-Interchange( NJJ) 方法构建进化树( Bootstrap = 1 000) 。",
+    "bbox": [
+      89,
+      237,
+      489,
+      458
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "1．3 小分子的准备",
+    "text_level": 2,
+    "bbox": [
+      90,
+      462,
+      240,
+      476
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "在 PubChem 上下载相应的分子结构( 米格列醇的 PubChem CID: 441314; 伏格列波糖的 PubChemCID: 444020) ，通过 Chem3D 软件的 MM2 法做几何构型优化，精确度为 0． 001。 然后用密度泛函理论DFT 的 B3LYP 方法，采用 6-31G\\* 基组做进一步的构型全优化。 分子的半柔性对接是用 Autodock4． 2 进行的，采用 Lamarckian 遗传算法( LGA) ，能量评估次数使用最大次数 25 000 000，次数是 27 000，突变率设置为0．02，交叉率为 0． 80，最大迭代次数是 300。以药物小分子为中心的格子尺寸定义为60 ×60 ×60，间隔为 0．375 ，坐标为 x = 32．209; y = 6．644; z =33．149。 最终得到的 50 个对接的构象中能量最小的作为稳定构象作进一步的分析。",
+    "bbox": [
+      124,
+      481,
+      487,
+      495
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      507,
+      68,
+      907,
+      292
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2 结果与分析",
+    "text_level": 2,
+    "bbox": [
+      507,
+      311,
+      665,
+      330
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2．1 蛋白质序列名称及组成",
+    "text_level": 2,
+    "bbox": [
+      507,
+      350,
+      731,
+      365
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "23 种物种的血清白蛋白序列名称及其不同类型氨基酸组成等性质见表 1 。 除野骆驼( Camelus ferus)和海龟( Chelonia mydas) 之外，大部分物种的血清白蛋白的氨基酸序列长度在 565 ～ 654，比较接近，疏水性的氨基酸和极性的氨基酸占有较大的比例，疏水性大多在200 左右，等电点都在5 ～ 9。",
+    "bbox": [
+      507,
+      368,
+      905,
+      478
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/cc54a0dbb06211c5a93cbb0b5bdbcf913ac4c3f2c3cb70954b4e90109bdba4e1.jpg",
+    "table_caption": [
+      "表 1 血清白蛋白的序列名称及氨基酸组成",
+      "Table 1 Sequence name and amino acid composition of serum albumin"
+    ],
+    "table_footnote": [
+      "备注: S-Basic: Strongly Basic ( +) Amino Acids; S-Acidic: Strongly Acidic ( +) Amino Acids ．"
+    ],
+    "table_body": "<table><tr><td rowspan=\"2\">序号</td><td rowspan=\"2\">名称</td><td rowspan=\"2\">GenBank 查询号</td><td rowspan=\"2\">长度</td><td colspan=\"4\">氨基酸组成</td><td rowspan=\"2\">等电点</td></tr><tr><td>亲碱性</td><td>亲酸性</td><td>疏水性</td><td>极性</td></tr><tr><td>1</td><td>Myotis davidii</td><td>ELK25541.1</td><td>565</td><td>70</td><td>73</td><td>180</td><td>146</td><td>6.800</td></tr><tr><td>2</td><td>Camelus ferus</td><td>EPY78247.1</td><td>1 100</td><td>126</td><td>173</td><td>343</td><td>322</td><td>5.211</td></tr><tr><td>3</td><td>Homo sapiens</td><td>1MBO</td><td>585</td><td>83</td><td>98</td><td>204</td><td>142</td><td>5.785</td></tr><tr><td>4</td><td>Bos taurus</td><td>AAN17824.1</td><td>607</td><td>86</td><td>99</td><td>198</td><td>157</td><td>5.992</td></tr><tr><td>5</td><td>Canis lupus</td><td>BAC10663.1</td><td>608</td><td>83</td><td>98</td><td>211</td><td>148</td><td>5.541</td></tr><tr><td>6</td><td>Mus musculus</td><td>CAD29888.1</td><td>608</td><td>76</td><td>90</td><td>200</td><td>170</td><td>5.903</td></tr><tr><td>7</td><td>Hymenolepis microstoma</td><td>CDS26344.1</td><td>654</td><td>47</td><td>37</td><td>248</td><td>219</td><td>8.402</td></tr><tr><td>8</td><td>Echinococcus multilocularis</td><td>CDS36508.1</td><td>636</td><td>43</td><td>34</td><td>255</td><td>199</td><td>8.395</td></tr><tr><td>9</td><td>Charadrius vociferus</td><td>KGL94993.1</td><td>614</td><td>82</td><td>95</td><td>190</td><td>173</td><td>5.521</td></tr><tr><td>10</td><td>Tinamus guttatus</td><td>KGL83504.1</td><td>614</td><td>83</td><td>97</td><td>193</td><td>154</td><td>6.008</td></tr><tr><td>11</td><td>Manacus vitellinus</td><td>KFW85442.1</td><td>615</td><td>82</td><td>92</td><td>198</td><td>163</td><td>6.000</td></tr><tr><td>12</td><td>Pygoscelis adeliae</td><td>KFW67675.1</td><td>614</td><td>82</td><td>94</td><td>186</td><td>168</td><td>5.535</td></tr><tr><td>13</td><td>Eurypyga helias</td><td>KFV90964.1</td><td>615</td><td>81</td><td>93</td><td>192</td><td>175</td><td>5.525</td></tr><tr><td>14</td><td>Tyto alba</td><td>KFV52665.1</td><td>615</td><td>81</td><td>97</td><td>191</td><td>170</td><td>5.385</td></tr><tr><td>15</td><td>Opisthocomus hoazin</td><td>KFR12864.1</td><td>615</td><td>81</td><td>94</td><td>191</td><td>165</td><td>5.980</td></tr><tr><td>16</td><td>Nipponia nippon</td><td>KFR00916.1</td><td>614</td><td>73</td><td>87</td><td>193</td><td>182</td><td>5.625</td></tr><tr><td>17</td><td>Phaethon lepturus</td><td>KFQ78983.1</td><td>599</td><td>78</td><td>95</td><td>189</td><td>167</td><td>5.274</td></tr><tr><td>18</td><td>Mesitornis unicolor</td><td>KFQ32777.1</td><td>620</td><td>80</td><td>94</td><td>189</td><td>172</td><td>5.714</td></tr><tr><td>19</td><td>Ovine</td><td>4LUF</td><td>583</td><td>82</td><td>100</td><td>190</td><td>144</td><td>5.667</td></tr><tr><td>20</td><td>Bos mutus</td><td>ELR59595.1</td><td>607</td><td>86</td><td>99</td><td>198</td><td>157</td><td>5.992</td></tr><tr><td>21</td><td>Chelonia mydas</td><td>EMP30485.1</td><td>1 123</td><td>147</td><td>161</td><td>355</td><td>303</td><td>6.537</td></tr><tr><td>22</td><td>Aptenodytes forsteri</td><td>KFM07573.1</td><td>615</td><td>84</td><td>95</td><td>189</td><td>167</td><td>5.634</td></tr><tr><td>23</td><td>Corvus brachyrhynchos</td><td>KFO57797.1</td><td>615</td><td>84</td><td>93</td><td>190</td><td>161</td><td>6.100</td></tr></table>",
+    "bbox": [
+      94,
+      541,
+      904,
+      898
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "第 3 期",
+    "bbox": [
+      109,
+      38,
+      157,
+      49
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "金能智，等: 血清白蛋白与降血糖药物相互作用的关键位点研究",
+    "bbox": [
+      273,
+      38,
+      687,
+      51
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "371",
+    "bbox": [
+      867,
+      38,
+      895,
+      49
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2．2 蛋白质序列系统发育树分析",
+    "text_level": 2,
+    "bbox": [
+      89,
+      70,
+      347,
+      85
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "通过对血清白蛋白的序列相似性分析表明，人类( Homo sapiens) 与鼠耳蝠( Myotis davidii) 、 野骆驼( Camelus ferus ) 、 家 牛 ( Bos Taurus ) 、 狼 ( Canislupus ) 、 小 家 鼠 ( Mus musculus ) 、 膜 壳 绦 虫( Hymenolepis microstoma ) 、 多 房 棘 球 绦 虫( Echinococcus multilocularis ) 、 双 胸 斑 沙 鸟( Charadrius vociferus ) 、 白 喉 共鸟 ( Tinamus guttatus) 、金 领 娇 鹟 ( Manacus vitellinus ) 、 阿 德 利 企 鹅( Pygoscelis adeliae) 、 日 鳽 ( Eurypyga helias ) 、 仓 鸮( Tyto alba ) 、 麝 雉 ( Opisthocomus hoazin ) 、 朱 鹮( Nipponia Nippon) 、白尾鹲( Phaethon lepturus) 、 褐拟鹑 ( Mesitornis unicolor ) 、 绵 羊 ( Ovine ) 、 牦 牛 ( Bosmutus) 、 海龟( Chelonia mydas) 、 帝企鹅 ( Aptenodytesforsteri) 、 美国乌鸦( Corvus brachyrhynchos) 的序列相似性分别是 56．4%，79．3%，76．2%，80．4%，72．4%，38．9%，23．1%，48．4%，47．9%，46．3%，47．9%，48．1%，48．4%，49．0%，47．2%，46．8%，46．3%，74．7%，76．0%，46．8%，48．1%，45．8%。由图 3 系统发育关系表明，家牛( Bos Taurus) 和牦牛( Bos mutus) 的亲缘关系很近，家 牛 ( Bos Taurus ) 、 狼 ( Canis lupus ) 、 绵 羊( Ovine) 和牦牛 ( Bos mutus) 与人类的亲缘关系较近，序列的相似性均在 74%以上。",
+    "bbox": [
+      89,
+      87,
+      482,
+      292
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      68,
+      907,
+      272
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "image",
+    "img_path": "images/08f13a02f6aa1e6018871be879de1b45181cf8088fba11d1ea4e0501aead2dab.jpg",
+    "image_caption": [
+      "图 3 血清白蛋白序列的系统发育树",
+      "Fig．3 Phylogenetic tree of serum albumin sequences"
+    ],
+    "image_footnote": [],
+    "content": "```mermaid\ngraph TD\n  A[\"Aptenodytes forsteri\"] --> B[\"Pygoscelis adeliae\"]\n  B --> C[\"Charadrius vociferus\"]\n  C --> D[\"Phaethon lepturus\"]\n  D --> E[\"Tyto alba\"]\n  E --> F[\"Eurypyga helias\"]\n  F --> G[\"Corvus brachyrhynchos\"]\n  G --> H[\"Manacus vitellinus\"]\n  H --> I[\"Mesitornis unicolor\"]\n  I --> J[\"Nipponia nippon\"]\n  J --> K[\"Opisthocomus hoazin\"]\n  K --> L[\"Tinamus guttatus\"]\n  L --> M[\"Chelonia mydas\"]\n  M --> N[\"Camelus ferus\"]\n  N --> O[\"Bos mutus\"]\n  O --> P[\"Bos taurus\"]\n  P --> Q[\"Ovine\"]\n  Q --> R[\"Homo sapiens\"]\n  R --> S[\"Canis lupus\"]\n  S --> T[\"Mus musculus\"]\n  T --> U[\"Echinococcus multilocular\"]\n  U --> V[\"Hymenolepis microstoma\"]\n```",
+    "sub_type": "flowchart",
+    "bbox": [
+      257,
+      313,
+      732,
+      634
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2．3 米格列醇和伏格列波糖与血清白蛋白相互作用的关键位点分析",
+    "text_level": 2,
+    "bbox": [
+      89,
+      678,
+      482,
+      713
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "米 格 列 醇 与 人 血 清 白 蛋 白 结 合 能 是－3．65 Kcal/mol，其间相互作用的关键氨基酸残基都位于 α－螺旋区，它们分别是亮氨酸 Leu135，酪氨酸Tyr138，亮 氨 酸 Leu139，异 亮 氨 酸 Ile142，亮 氨 酸Leu154，丙氨酸 Ala158，酪氨酸 Tyr161 。 伏格列波糖与人血清白蛋白结合能是－3．52 Kcal /mol，结合位点处的氨基酸残基也都位于 α-螺旋区，分别是亮氨酸Leu135，酪 氨 酸 Tyr138，亮 氨 酸 Leu139，亮 氨 酸Leu154，苯丙氨酸 Phe157，酪氨酸 Tyr161 。 图 4 为米格列醇、伏格列波糖与人血清白蛋白相互作用的结合区域。 可以看出，米格列醇、伏格列波糖与人血清白蛋白的结合位点都位于相同的人血清白蛋白亚区 IB的疏水腔中，其间的主要作用力是疏水作用力。 图 5为米格列醇、伏格列波糖与人血清白蛋白相互作用的氨基酸位点。 可以看出，米格列醇与人血清白蛋白的氢键分别在米格列醇①氢与亮氨酸 Leu139 的氧原子之间，长度为 2．037 ，以及米格列醇④氢与亮氨酸Leu135 的氧原子之间，长度为 2．142 。 伏格列波糖与人血清白蛋白的氢键在其⑥氢原子与亮氨酸Leu135 的氧原子之间，长为2．152  。",
+    "bbox": [
+      89,
+      715,
+      482,
+      919
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      678,
+      905,
+      843
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "为了分析米格列醇、伏格列波糖与血清白蛋白相互作用位点的氨基酸是否在其他物种中是保守的，本文选取了与人( Homo sapiens) 亲缘关系较近的狼( Canis lupus) 、牦牛( Bos mutus) 、 家牛( Bos taurus) 和",
+    "bbox": [
+      510,
+      847,
+      907,
+      919
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "471",
+    "bbox": [
+      100,
+      38,
+      131,
+      49
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "生 物 信 息 学",
+    "bbox": [
+      400,
+      36,
+      596,
+      52
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "第 15 卷",
+    "bbox": [
+      840,
+      36,
+      904,
+      52
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "绵羊( Ovine) 的血清白蛋白序列进行了多序列比对，如图6 所示。 其中红色\\* 框中的氨基酸代表米格列醇与血清白蛋白相互结合点处的疏水性氨基酸，黄色\\*背景的氨基酸表示其他物种中与人不同的氨基酸位点。 米格列醇与血清白蛋白相互作用位点中，在人血清白蛋白序列中 Leu135 处是疏水性的亮氨酸，在狼血清白蛋白序列中对应的也是亮氨酸，但是在绵羊、牦牛和家牛中相应的位置却是极性的色氨酸 W。 与人血清白蛋白序列中 Ile142 处的疏水性的异亮氨酸不同的只有绵羊的颉氨酸。 在伏格列波糖与人血清白蛋白结合位点中，在人血清白蛋白 157 处的疏水性的苯丙氨酸却在其他物种中都是极性的酪氨酸，也只有Phe157 处是与米格列醇不同，其他的都相同。 结果表明，米格列醇和伏格列波糖与血清白蛋白结合位点处的氨基酸在其他物种中大部分都是保守的，只有少数的氨基酸不同。 也说明大多数结合位点在不同物种中都是疏水性的氨基酸，不同的氨基酸往往它们的极性也不相同。 值得注意的是，与米格列醇和伏格列波糖能够形成的氢键的氨基酸在其他物种中都是与人血清白蛋白保持一致的。",
+    "bbox": [
+      89,
+      68,
+      484,
+      254
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      68,
+      907,
+      254
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "image",
+    "img_path": "images/d4284ef7a03bed62994397baf554aa52b2af321d6dbcb69416818ce9195dd069.jpg",
+    "image_caption": [
+      "图 4 米格列醇、伏格列波糖与人血清白蛋白相互作用的结合区域"
+    ],
+    "image_footnote": [],
+    "content": "",
+    "bbox": [
+      178,
+      266,
+      823,
+      429
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "image",
+    "img_path": "images/cb43e704ad0469710d404d38a103c181e31e45096c3666b331ce6b884c152b3d.jpg",
+    "image_caption": [
+      "Fig．4 The binding region of miglitol，voglibose induced with human serum albumin",
+      "（a）米格列醇与人血清白蛋白相互作用的氨基酸位点"
+    ],
+    "image_footnote": [],
+    "content": "3D protein structure visualization with highlighted active site residues (no text or symbols present)",
+    "sub_type": "natural_image",
+    "bbox": [
+      146,
+      472,
+      468,
+      563
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "image",
+    "img_path": "images/fbc99a627da434cf0c8619f1215dec9a74e94695ed11b0bd1ba238806379ed2b.jpg",
+    "image_caption": [
+      "（b）伏格列波糖与人血清白蛋白相互作用的氨基酸位点",
+      "图 5 米格列醇、伏格列波糖与人血清白蛋白相互作用的氨基酸位点"
+    ],
+    "image_footnote": [],
+    "content": "3D protein structure visualization with highlighted regions and residue labels (no text or symbols present)",
+    "sub_type": "natural_image",
+    "bbox": [
+      524,
+      470,
+      845,
+      558
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "image",
+    "img_path": "images/aeffc9e67cc0033c56b03d3fa7b97601c12b6dd33274acabac36bc8b05608a7e.jpg",
+    "image_caption": [
+      "Fig．5 The interaction site of miglitol，voglibose with human serum albumin amino acid",
+      "图 6 米格列醇和伏格列波糖与血清白蛋白结合位点的同源序列比对",
+      "Fig．6 Homologous alignment of binding site for miglitol and voglibose to serum albumin"
+    ],
+    "image_footnote": [
+      "\\* 注: 彩图见电子版( http: / / swxxx．alljournals．cn /ch /index．aspx) ( 2017 年第 3 期 DOI: 10．3969 /j．issn．1672－5565．2017．03．201611002) 。"
+    ],
+    "content": "bosmutus ERNECFLSHKDDSPDLPKLK-PDPNTLCDEFKADEKKFWGNYLYEIARRHPYFYAPELLY\nBostaurus ERNECFLSHKDDSPDLPKLK-PDPNTLCDEFKADEKKFWGNYLYEIARRHPYFYAPELLY\novine ERNECFLNHKDDSPDLPKLK-PEPDTLCAEFKADEKKFWGNYLYEVARRHPYFYAPELLY\nCanislupus DRNECFLAHKDDNPGFPPLVAPEPDALCAAFQDNEQLFLGNYLYEIARRHPYFYAPELLY\nHomo ERNECFLQHKDDNPNLPRLVRPEVDVMCTAFHDNEETFLKNYLYEIARRHPYFYAPELLF\n:******* ****.* :** * :: :* * :*: * *******:**\nbosmutus YANKYNGVFQECCQAEDKGACLLPKIETMREKVLTSSARQRLRCASIQKFGERALKAWSV\nBostaurus YANKYNGVFQECCQAEDKGACLLPKIETMREKVLTSSARQRLRCASIQKFGERALKAWSV\novine YANKYNGVFQECCQAEDKGACLLPKIDAMREKVLAASARQRLRCASIQKFGERALKAWSV\nCanislupus YAQGYKGVFAECCQAADKAACLGPKIEALREKVLLSSAKERFKCASLQKFGDRAFKAWSV\nHomo FLAKFYKAAFTECCQAADKAACLLPKLDELRDEGKASSAKQRLKCASLQKFGERAFKAWAV\n:* :* :* .* ******* **.*** **: :* : *** :* :*** :****: **:*** :*",
+    "sub_type": "text_image",
+    "bbox": [
+      268,
+      624,
+      734,
+      871
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "第 3 期",
+    "bbox": [
+      109,
+      38,
+      157,
+      49
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "金能智，等: 血清白蛋白与降血糖药物相互作用的关键位点研究",
+    "bbox": [
+      273,
+      38,
+      685,
+      51
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "571",
+    "bbox": [
+      867,
+      38,
+      895,
+      49
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "2．4 血清白蛋白疏水性分析",
+    "text_level": 2,
+    "bbox": [
+      89,
+      70,
+      312,
+      85
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "疏水性是 20 种氨基酸均固有的特性，是决定蛋白质 最 终 三 维 空 间 构象的重要因素之一。 用ExPASy 的 Protscale 程 序 计 算 Homo sapiens 、 Canislupus 、 Ovine 、 Bos Taurus 和 Bos mutus 的血清白蛋白的疏水性图谱( 见图 7) 。 纵坐标 0 值以上为疏水区，0值以下为亲水区。 纵坐标代表疏水性的分值，分值越高，疏水性越强，横坐标代表氨基酸的位置。 从图7 中可以看出，肽链的疏水性氨基酸分布在这 5 个物种中都比较相似，疏水性的氨基酸少于亲水性的氨基酸，可以认为该蛋白质为亲水性的蛋白。 另外，用ExPASy 提供的在线跨膜区预测的 TMHMM 和",
+    "bbox": [
+      87,
+      87,
+      489,
+      292
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "TMPRED 软件［15］对这 5 个物种的血清白蛋白的序列跨膜区分析发现，它们都没有跨膜螺旋，位于膜外，处于膜内的、跨膜的概率均为 0。 由此可以说明，血清白蛋白作为血液系统的重要组分，是亲水性的蛋白，这在 Canis lupus 、 Ovine 、 Bos Taurus 和 Bos mutus物种中类似的。 它具有结合和运输内源性及外源性物质的特性，例如可逆性的结合药物小分子，并将其运输到靶点部位达到治疗疾病的目的［16］。 其中米格列醇、伏格列波糖与人血清白蛋白的结合位点处的氨基酸中亲水性的氨基酸较多，疏水性的氨基酸少。 在其他4 个亲缘关系较近的物种中的同源序列中也具有同样的现象。",
+    "bbox": [
+      507,
+      68,
+      907,
+      292
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "chart",
+    "img_path": "images/c0893ebbb924f3dad770b2cb2f8191603f94fdf055d5f65df08d97e1c3f64db9.jpg",
+    "content": "| Position | Score |\n| -------- | ----- |\n| 0        | 2.8   |\n| 50       | -1.5  |\n| 100      | -3.0  |\n| 150      | -1.0  |\n| 200      | 0.5   |\n| 250      | -0.5  |\n| 300      | 0.0   |\n| 350      | -2.5  |\n| 400      | 1.8   |\n| 450      | -1.2  |\n| 500      | 2.0   |\n| 550      | -2.8  |\n| 600      | 1.2   |",
+    "chart_caption": [
+      "(a)Bosmutus"
+    ],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      144,
+      305,
+      472,
+      483
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "chart",
+    "img_path": "images/ce2b92377ebfd8b246d72bed48a4de6397b75675218aa51a67235eb8f151fcd5.jpg",
+    "content": "| Position | Score |\n| -------- | ----- |\n| 0        | 3.0   |\n| 50       | -2.5  |\n| 100      | -3.5  |\n| 150      | -1.0  |\n| 200      | 0.5   |\n| 250      | -0.5  |\n| 300      | 1.0   |\n| 350      | -2.5  |\n| 400      | 0.0   |\n| 450      | 2.0   |\n| 500      | -1.0  |\n| 550      | -2.5  |\n| 600      | 1.0   |",
+    "chart_caption": [
+      "(b)Bostaurus"
+    ],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      524,
+      303,
+      852,
+      483
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "chart",
+    "img_path": "images/c97003eb4043a801aa3d269873ec82fa0c901a551e272b7ca32600d79415ed32.jpg",
+    "content": "| Position | Score |\n|--------|-------|\n| 0      | -2.0  |\n| 50     | 2.0   |\n| 100    | -3.0  |\n| 150    | -1.0  |\n| 200    | 1.0   |\n| 250    | -1.0  |\n| 300    | 0.0   |\n| 350    | -2.0  |\n| 400    | 1.0   |\n| 450    | -1.0  |\n| 500    | 2.0   |\n| 550    | -2.0  |\n| 600    | 1.0   |",
+    "chart_caption": [
+      "(c) Ovine"
+    ],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      142,
+      506,
+      472,
+      686
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "chart",
+    "img_path": "images/de36a0c9fcfca276870c9e0709b171cbd6a863d8f0a18378882fe78a90a7922c.jpg",
+    "content": "| Position | Score |\n| -------- | ----- |\n| 0        | 2.8   |\n| 50       | -1.2  |\n| 100      | 0.8   |\n| 150      | -3.5  |\n| 200      | 1.2   |\n| 250      | -0.5  |\n| 300      | -1.8  |\n| 350      | 1.5   |\n| 400      | -2.5  |\n| 450      | 1.8   |\n| 500      | -2.8  |\n| 550      | 1.5   |\n| 600      | -1.5  |",
+    "chart_caption": [
+      "(d) Canis lupus"
+    ],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      524,
+      506,
+      852,
+      686
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "chart",
+    "img_path": "images/fcbfa1e655bf139b3563cc62635007a02b18ad364e8aafe2ec2705b7a8915a8c.jpg",
+    "content": "| Position | Score |\n| ------ | ----- |\n| 0      | 2.8   |\n| 50     | -1.2  |\n| 100    | 0.5   |\n| 150    | -2.5  |\n| 200    | 0.8   |\n| 250    | -1.8  |\n| 300    | 1.2   |\n| 350    | -3.5  |\n| 400    | 2.0   |\n| 450    | -2.0  |\n| 500    | 2.5   |\n| 550    | -3.8  |\n| 600    | 1.5   |",
+    "chart_caption": [
+      "(e) Canis lupus",
+      "图 7 血清白蛋白序列的疏水性分析",
+      "Fig．7 The hydrophobieity profile of serum albumin sequences"
+    ],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      334,
+      711,
+      662,
+      888
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "671",
+    "bbox": [
+      100,
+      38,
+      131,
+      49
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "生 物 信 息 学",
+    "bbox": [
+      400,
+      36,
+      596,
+      52
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "第 15 卷",
+    "bbox": [
+      840,
+      36,
+      904,
+      52
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      979
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "3 结论与讨论",
+    "text_level": 2,
+    "bbox": [
+      89,
+      86,
+      248,
+      107
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "血清白蛋白是机体循环系统中含量最丰富的储存与运输蛋白，有许多重要的生理学与药理学功能，能与许多内源和外源性物质如脂肪酸、氨基酸、荷尔蒙、阴阳离子和药物等结合。 血清白蛋白对药物的药代动力学特别是其在人体中的分布有着重要的作用，大部分药物成分在人体中的运转首先通过与血清白蛋白的结合，然后到达靶标组织起到存储和转运作用。 人 血 清 白 蛋 白( HSA) 与牛血清白蛋白( BSA) 被相关研究人员广泛采用为模型生物大分子。 大多数药物在血清白蛋白上的结合部位为亚结构域 IIA 和 IIIA，其中 IIIA 的活性最高。 然而，其他物种特别是一些与人类亲缘关系较近的哺乳动物上的血清白蛋白的结构、性质等的了解都还比较少。",
+    "bbox": [
+      87,
+      124,
+      485,
+      366
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "本文基于生物信息学的方法分析不同物种的血清白蛋白的特点和进化关系，分析米格列醇与人血清白蛋白相互作用位点及其在其他亲缘关系较近的物种中相应的氨基酸变化特点，以及血清白蛋白的疏水性及其与米格列醇结合位点处的氨基酸特征。研究发现米格列醇、伏格列波糖与人血清白蛋白的结合能分别是－3．65 Kcal /mol 和－3．52 Kcal /mol，结合位点都位于人血清白蛋白亚区 IB 的疏水腔中，其间的主要作用力是氢键和疏水作用力。 米格列醇和伏格列波糖与血清白蛋白大多数结合位点在不同物种中都是疏水性的氨基酸，结合位点处的氨基酸在其他物种中大部分都是保守的，只有少数的氨基酸不同，且极性也不相同。 其他物种中与米格列醇和伏格列波糖能形成氢键的氨基酸都与人血清白蛋白保持一致。 血清白蛋白是亲水性的蛋白，这在 Canislupus 、 Ovine 、 Bos Taurus 和 Bos mutus 物种中是类似的。 米格列醇和伏格列波糖与人血清白蛋白的结合位点处的氨基酸中亲水性的氨基酸较多，疏水性的氨基酸少，其他4 个亲缘关系较近的物种也存在同样的现象。 这些基于生物信息学的分析为进一步研究降血糖药物在其他物种中的表现及相互作用等提供了重要的科学依据。",
+    "bbox": [
+      90,
+      368,
+      484,
+      778
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "参考文献 ( References)",
+    "text_level": 2,
+    "bbox": [
+      90,
+      791,
+      319,
+      813
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "［1］边平风，马林，王旭，等． 荧光猝灭法和动态光散射法研究尿素－水混合溶剂中牛血清白蛋白的构象变化［J］．化学学报，2008，66 ( 18) : 2037 － 2042． DOI: 10． 3321 /j．issn: 0567－7351．2008．18．004．",
+      "BIAN Pingfeng，MA Lin，WANG Xu，et al． Conformational study of bovine serum albumin in urea-water mixtures by flu-",
+      "orescence quenching technique and dynamic light scattering measurements［J］． Acta Chimica Sinica，2008，66 ( 18) : 2037－ 2042． DOI: 10． 3321 /j． issn: 0567 － 7351． 2008． 18． 004．",
+      "［2］CURRY S，BRICK P，FRANKS N P． Fatty acid binding tohuman serum albumin: new insights from crystallographicstudies［J］． Biochimica et Biophysica Acta，1999，1441( 2 /3) : 131－140． DOI: 10．1016 / S1388－1981( 99) 00148－1．",
+      "［3］CARTER D C，HO J X．Structure of serum albumin［J］．Advances in Protein Chemistry，1994，45: 153－204． DOI: 10． 1016 /S0065－3233( 08) 60640－3．",
+      "［4］齐燕姣，陆会宁，金能智，等． α－葡萄糖苷酶与米格列醇相 互 作 用 及 其 进 化 关 系［J］． 生 物 信 息 学，2015，13( 3) : 141－ 149． DOI: 10． 3969 /j． issn． 1672 － 5565． 2015．03．01．",
+      "QI Yanjiao，LU Huining，JIN Nengzhi，et al． Interaction and evolutional analysis of α-glucosidases and miglitol［J］． Chinese Journal of BioInformatics，2015，13( 3) : 141－149． DOI: 10．3969 /j．issn．1672－5565．2015．03．01．",
+      "［5］张巍，赵雨，白雪媛，等． 黄芩素和黄芩苷与人血清白蛋白相互作用的光谱研究［J］． 高等学校化学学报，2010，31( 9) : 1834－1840．",
+      "ZHANG Wei，ZHAO Yu，BAI Xueyuan，et al． Studies on the interaction for baicalein and baicalin with human serum albumin by spectroscopic methods［J］． Chemical Journal of Chinese Universities，2010，31( 9) : 1834－1840．",
+      "［6］吴秋华，周欣，臧晓欢，等． 白藜芦醇与人血清白蛋白相互作用的光谱研究［J］． 光谱学与光谱分析，2009，29( 1) : 226－230． DOI: 10．3964 /j．issn．1000－0593( 2009)01－0226－05．",
+      "WU Qiuhua，ZHOU Xin，ZANG Xiaohuan，et al． Spectroscopic study on the interaction between resveratrol and human serum albumin［J］． Spectroscopy and Spectral Analysis，2009，29( 1) : 226 － 230． DOI: 10． 3964 /j． issn． 1000 － 0593( 2009) 01－0226－05．",
+      "［7］MA Xiaoli，YAN Jin，WANG Qing，et al． Spectroscopy study and co-administration effect on the interaction of mycophenolic acid and human serum albumin［J］． International Journal of Biological Macromolecules，2015，77: 280 － 286． DOI: 10．1016 /j．ijbiomac．2015．03．052．",
+      "［8］CHEN Xu，QIAN Kai，CHEN Qin． Comparison between loureirin A and cochinchinenin C on the interaction with human serum albumin［J］． European Journal of Medicinal Chemistry，2015，93: 492 － 500． DOI: 10． 1016 /j． ejmech． 2015．02．025．",
+      "［9］REHMAN M T，SHAMSI H，KHAN A U． Insight into the binding mechanism of imipenem to human serum albumin by spectroscopic and computational approaches［J］． Molecular Pharmaceutics，2014，11( 6) : 1785－1797． DOI: 10．1021 / mp500116c．",
+      "［10］KAMTEKAR N，PANDEY A，AGRAWAL N，et al． Inter-",
+      "action of multimicrobial synthetic inhibitor 1，2-bis( 2-benzimidazolyl) － 1，2-ethanediol with serum albumin: spectroscopic and computational studies［J］． PLoS One，2013， 8( 1) : e53499． DOI: 10．1371 /journal．pone．0053499．",
+      "［11］王月荣，刘馥婷，章弘扬，等． 丹酚酸 B 与牛血清白蛋白相互作用的电化学研究［J］． 分析测试学报，2012，31( 3) : 267－272． DOI: 10．3969 /j．issn．1004－4957．2012．03．005．",
+      "WANG Yuerong，LIU Futing，ZHANG Hongyang，et al． Investigation on electrochemical behavior of interaction between salvianolic acid B and bovine serum albumin at DNA modified electrode［J］． Journal of Instrumental Analysis， 2012，31( 3) : 267－272． DOI: 10．3969 /j．issn．1004－4957． 2012．03．005．",
+      "［12］HAMDI O A A，FEROZ S R，SHILPI J A，et al． Spectrofluorometric and molecular docking studies on the binding of curcumenol and curcumenone to human serum albumin［J］． International Journal of Molecular Sciences， 2015，16( 3) : 5180－5193． DOI: 10．3390 /ijms16035180．"
+    ],
+    "bbox": [
+      97,
+      828,
+      485,
+      928
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      521,
+      70,
+      907,
+      929
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "第 3 期",
+    "bbox": [
+      109,
+      38,
+      157,
+      51
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "金能智，等: 血清白蛋白与降血糖药物相互作用的关键位点研究",
+    "bbox": [
+      273,
+      38,
+      687,
+      52
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "page_number",
+    "text": "771",
+    "bbox": [
+      867,
+      38,
+      895,
+      51
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      97,
+      70,
+      485,
+      388
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "ref_text",
+    "text": "［13］GASTEIGER E，HOOGLAND C，GATTIKER A，et al． Protein identification and analysis tools on the ExPASy server［M］． WALKER J M，ed: The Proteomics Protocols Handbook． New York City: Humana Pres，2005: 571－607． DOI: 10．1385 /1－59259－890－0: 571．",
+    "bbox": [
+      522,
+      68,
+      907,
+      151
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "ref_text",
+    "text": "［14］TAMURA K， STECHER G， PETERSON D， et al．MEGA6: molecular evolutionary genetics analysis version6．0［J］． Molecular Biology and Evolution，2013，30( 12) :2725－2729． DOI: 10．1093 /molbev /mst197．",
+    "bbox": [
+      522,
+      154,
+      905,
+      219
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "ref_text",
+    "text": "［15］HOFMANN K，STOFFEL W． TMbase-A database of mem-brane spanning proteins segments［J］． Biological ChemistryHoppe-Seyler，1993，374: 166 － 170． DOI: 10． 1515 /bchm3．1993，374．1－6．143．",
+    "bbox": [
+      522,
+      222,
+      907,
+      286
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "ref_text",
+    "text": "［16］郭明，徐兴涛，吴志武． 中药活性成分土大黄苷与人血清白蛋白的结合反应机制研究［J］． 药学学报，2011，46( 9) : 1084－1092．",
+    "bbox": [
+      522,
+      290,
+      905,
+      337
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "ref_text",
+    "text": "GUO Ming，XU Xingtao，WU Zhiwu． Binging mechanism of rhaponticin and human serum albumin［J］． Acta Pharmaceutica Sinica，2011，46( 9) : 1084－1092．",
+    "bbox": [
+      546,
+      341,
+      907,
+      388
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "page_number",
+    "text": "871",
+    "bbox": [
+      100,
+      38,
+      131,
+      49
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "生 物 信 息 学",
+    "bbox": [
+      400,
+      36,
+      596,
+      52
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "第 15 卷",
+    "bbox": [
+      840,
+      36,
+      904,
+      52
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 7
+  }
+]

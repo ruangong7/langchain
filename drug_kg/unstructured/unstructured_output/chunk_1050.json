@@ -1,0 +1,126 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "西立伐他汀",
+        "canonical_name": "西立伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "吉非贝齐",
+        "canonical_name": "吉非贝齐",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "贝特类降血脂药",
+        "canonical_name": "贝特类降血脂药",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "横纹肌溶解",
+        "canonical_name": "横纹肌溶解",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "奎尼丁",
+        "canonical_name": "奎尼丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "洛哌丁胺",
+        "canonical_name": "洛哌丁胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "呼吸衰竭",
+        "canonical_name": "呼吸衰竭",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1050,
+          "raw_text": "西立伐他汀与贝特类降血脂药吉非贝齐联合应用后，发生了严重的转运体介导的DDI，导致横纹肌溶解的不良反应",
+          "chunk_id": "1050",
+          "data": "。DDI按 照发生机制可分为转运体、代谢酶、疾病或靶点等 介导的相互作用，按照影响效果可分为药代动力 学和药效动力学相互作用。目前，临床上常见的 是转运体介导的药代动力学方面的DDI。如拜耳 公司在2001年宣布停止销售降血脂药西立伐他 汀，原因就在于西立伐他汀与贝特类降血脂药吉 非贝齐联合应用后，发生了严重的转运体介导的 DDI，导致横纹肌溶解的不良反应，引起多名用药者死亡[12]。此外，当抗心律失常药奎尼丁与止泻 药洛哌丁胺合用时，也会发生转运体介导的DDI， 导致患者发生严重的呼吸衰竭[3]。转运体是一类位于细胞膜上的具有转运功能 的蛋白质，在人体广泛分布。一方面，转运体通过 影响药物的跨膜转运过程，进而影响药物在人体 内的处置过程，从而影响药物的PK-PD特征。另 一方面，药物也会引起转运体的表达或功能的变 化，从而引起体内的内源性物质（如葡萄糖、氨基 酸)或外源性物质的动力学过程发生改变。迄今 为止，临床上与DDI有关的转运体主要分为两类：ABC族转运体（ABC transporters)和溶质转运体 (solute carrier, SLC transporters)4—5]。ABC 族转 运体属于外排型转运体，包括P-糖蛋白（P-glyco-protein, P-gp);乳腺癌耐药蛋白（breast cancer resistance protein, BCRP);多药耐药相关蛋白 (multi-drug resistance associated protein, MRP)2 等"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1050,
+          "raw_text": "西立伐他汀与贝特类降血脂药吉非贝齐联合应用后，发生了严重的转运体介导的DDI，导致横纹肌溶解的不良反应",
+          "chunk_id": "1050",
+          "data": "。DDI按 照发生机制可分为转运体、代谢酶、疾病或靶点等 介导的相互作用，按照影响效果可分为药代动力 学和药效动力学相互作用。目前，临床上常见的 是转运体介导的药代动力学方面的DDI。如拜耳 公司在2001年宣布停止销售降血脂药西立伐他 汀，原因就在于西立伐他汀与贝特类降血脂药吉 非贝齐联合应用后，发生了严重的转运体介导的 DDI，导致横纹肌溶解的不良反应，引起多名用药者死亡[12]。此外，当抗心律失常药奎尼丁与止泻 药洛哌丁胺合用时，也会发生转运体介导的DDI， 导致患者发生严重的呼吸衰竭[3]。转运体是一类位于细胞膜上的具有转运功能 的蛋白质，在人体广泛分布。一方面，转运体通过 影响药物的跨膜转运过程，进而影响药物在人体 内的处置过程，从而影响药物的PK-PD特征。另 一方面，药物也会引起转运体的表达或功能的变 化，从而引起体内的内源性物质（如葡萄糖、氨基 酸)或外源性物质的动力学过程发生改变。迄今 为止，临床上与DDI有关的转运体主要分为两类：ABC族转运体（ABC transporters)和溶质转运体 (solute carrier, SLC transporters)4—5]。ABC 族转 运体属于外排型转运体，包括P-糖蛋白（P-glyco-protein, P-gp);乳腺癌耐药蛋白（breast cancer resistance protein, BCRP);多药耐药相关蛋白 (multi-drug resistance associated protein, MRP)2 等"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1050,
+          "raw_text": "抗心律失常药奎尼丁与止泻药洛哌丁胺合用时，也会发生转运体介导的DDI，导致患者发生严重的呼吸衰竭",
+          "chunk_id": "1050",
+          "data": "。DDI按 照发生机制可分为转运体、代谢酶、疾病或靶点等 介导的相互作用，按照影响效果可分为药代动力 学和药效动力学相互作用。目前，临床上常见的 是转运体介导的药代动力学方面的DDI。如拜耳 公司在2001年宣布停止销售降血脂药西立伐他 汀，原因就在于西立伐他汀与贝特类降血脂药吉 非贝齐联合应用后，发生了严重的转运体介导的 DDI，导致横纹肌溶解的不良反应，引起多名用药者死亡[12]。此外，当抗心律失常药奎尼丁与止泻 药洛哌丁胺合用时，也会发生转运体介导的DDI， 导致患者发生严重的呼吸衰竭[3]。转运体是一类位于细胞膜上的具有转运功能 的蛋白质，在人体广泛分布。一方面，转运体通过 影响药物的跨膜转运过程，进而影响药物在人体 内的处置过程，从而影响药物的PK-PD特征。另 一方面，药物也会引起转运体的表达或功能的变 化，从而引起体内的内源性物质（如葡萄糖、氨基 酸)或外源性物质的动力学过程发生改变。迄今 为止，临床上与DDI有关的转运体主要分为两类：ABC族转运体（ABC transporters)和溶质转运体 (solute carrier, SLC transporters)4—5]。ABC 族转 运体属于外排型转运体，包括P-糖蛋白（P-glyco-protein, P-gp);乳腺癌耐药蛋白（breast cancer resistance protein, BCRP);多药耐药相关蛋白 (multi-drug resistance associated protein, MRP)2 等"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1050,
+          "raw_text": "抗心律失常药奎尼丁与止泻药洛哌丁胺合用时，也会发生转运体介导的DDI，导致患者发生严重的呼吸衰竭",
+          "chunk_id": "1050",
+          "data": "。DDI按 照发生机制可分为转运体、代谢酶、疾病或靶点等 介导的相互作用，按照影响效果可分为药代动力 学和药效动力学相互作用。目前，临床上常见的 是转运体介导的药代动力学方面的DDI。如拜耳 公司在2001年宣布停止销售降血脂药西立伐他 汀，原因就在于西立伐他汀与贝特类降血脂药吉 非贝齐联合应用后，发生了严重的转运体介导的 DDI，导致横纹肌溶解的不良反应，引起多名用药者死亡[12]。此外，当抗心律失常药奎尼丁与止泻 药洛哌丁胺合用时，也会发生转运体介导的DDI， 导致患者发生严重的呼吸衰竭[3]。转运体是一类位于细胞膜上的具有转运功能 的蛋白质，在人体广泛分布。一方面，转运体通过 影响药物的跨膜转运过程，进而影响药物在人体 内的处置过程，从而影响药物的PK-PD特征。另 一方面，药物也会引起转运体的表达或功能的变 化，从而引起体内的内源性物质（如葡萄糖、氨基 酸)或外源性物质的动力学过程发生改变。迄今 为止，临床上与DDI有关的转运体主要分为两类：ABC族转运体（ABC transporters)和溶质转运体 (solute carrier, SLC transporters)4—5]。ABC 族转 运体属于外排型转运体，包括P-糖蛋白（P-glyco-protein, P-gp);乳腺癌耐药蛋白（breast cancer resistance protein, BCRP);多药耐药相关蛋白 (multi-drug resistance associated protein, MRP)2 等"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1050,
+          "raw_text": "贝特类降血脂药吉非贝齐",
+          "chunk_id": "1050",
+          "data": "。DDI按 照发生机制可分为转运体、代谢酶、疾病或靶点等 介导的相互作用，按照影响效果可分为药代动力 学和药效动力学相互作用。目前，临床上常见的 是转运体介导的药代动力学方面的DDI。如拜耳 公司在2001年宣布停止销售降血脂药西立伐他 汀，原因就在于西立伐他汀与贝特类降血脂药吉 非贝齐联合应用后，发生了严重的转运体介导的 DDI，导致横纹肌溶解的不良反应，引起多名用药者死亡[12]。此外，当抗心律失常药奎尼丁与止泻 药洛哌丁胺合用时，也会发生转运体介导的DDI， 导致患者发生严重的呼吸衰竭[3]。转运体是一类位于细胞膜上的具有转运功能 的蛋白质，在人体广泛分布。一方面，转运体通过 影响药物的跨膜转运过程，进而影响药物在人体 内的处置过程，从而影响药物的PK-PD特征。另 一方面，药物也会引起转运体的表达或功能的变 化，从而引起体内的内源性物质（如葡萄糖、氨基 酸)或外源性物质的动力学过程发生改变。迄今 为止，临床上与DDI有关的转运体主要分为两类：ABC族转运体（ABC transporters)和溶质转运体 (solute carrier, SLC transporters)4—5]。ABC 族转 运体属于外排型转运体，包括P-糖蛋白（P-glyco-protein, P-gp);乳腺癌耐药蛋白（breast cancer resistance protein, BCRP);多药耐药相关蛋白 (multi-drug resistance associated protein, MRP)2 等"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1050,
+    "source": "凡默谷",
+    "text": "。DDI按 照发生机制可分为转运体、代谢酶、疾病或靶点等 介导的相互作用，按照影响效果可分为药代动力 学和药效动力学相互作用。目前，临床上常见的 是转运体介导的药代动力学方面的DDI。如拜耳 公司在2001年宣布停止销售降血脂药西立伐他 汀，原因就在于西立伐他汀与贝特类降血脂药吉 非贝齐联合应用后，发生了严重的转运体介导的 DDI，导致横纹肌溶解的不良反应，引起多名用药者死亡[12]。此外，当抗心律失常药奎尼丁与止泻 药洛哌丁胺合用时，也会发生转运体介导的DDI， 导致患者发生严重的呼吸衰竭[3]。转运体是一类位于细胞膜上的具有转运功能 的蛋白质，在人体广泛分布。一方面，转运体通过 影响药物的跨膜转运过程，进而影响药物在人体 内的处置过程，从而影响药物的PK-PD特征。另 一方面，药物也会引起转运体的表达或功能的变 化，从而引起体内的内源性物质（如葡萄糖、氨基 酸)或外源性物质的动力学过程发生改变。迄今 为止，临床上与DDI有关的转运体主要分为两类：ABC族转运体（ABC transporters)和溶质转运体 (solute carrier, SLC transporters)4—5]。ABC 族转 运体属于外排型转运体，包括P-糖蛋白（P-glyco-protein, P-gp);乳腺癌耐药蛋白（breast cancer resistance protein, BCRP);多药耐药相关蛋白 (multi-drug resistance associated protein, MRP)2 等"
+  }
+]

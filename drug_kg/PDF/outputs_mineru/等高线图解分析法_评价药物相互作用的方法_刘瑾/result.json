@@ -1,0 +1,648 @@
+[
+  {
+    "type": "text",
+    "text": "等高线图解分析法：评价药物相互作用的方法",
+    "text_level": 1,
+    "bbox": [
+      184,
+      101,
+      784,
+      127
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "刘 瑾1综述 邱海霞2梅兴国2∗审校",
+    "bbox": [
+      312,
+      140,
+      655,
+      159
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "（1．山东省中医药研究院济南 250014；2．军事医学科学院毒物药物研究所北京 100850）",
+    "bbox": [
+      129,
+      162,
+      835,
+      178
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘要 药物相互作用的性质是研究复方制剂的基础 随着药物合并应用的发展 等高线图解分析法应运而生 逐渐成为评价药物相互作用的 黄金标准 广泛地应用于药理学各个领域 本文就等高线图解分析法的基本理论及应用做一综述。",
+    "bbox": [
+      52,
+      193,
+      912,
+      253
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词 等高线图解分析法 相互作用指数 应用",
+    "bbox": [
+      54,
+      257,
+      488,
+      273
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号：R969．2 文献标识码：A 文章编号：1001-0971（2006）06-0459-03",
+    "bbox": [
+      54,
+      277,
+      740,
+      296
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "复方制剂开发的主要目的有：增强药物对治疗疾病的疗效 改善患者用药的顺应性和 或 减少不良反应；增加药物的协同作用降低药物的毒性。采用不同作用机制的治疗药物组成复方 这已是新药开发的一个方向",
+    "bbox": [
+      13,
+      321,
+      468,
+      422
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "如何来评价两个作用相似的药物相互作用的性质？如何来确定两药合并应用后可能会产生的协同 相加或拮抗作用 等高线图解分析法为评价药物相互作用的关系提供了一个有力的工具。",
+    "bbox": [
+      13,
+      426,
+      468,
+      506
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 等高线图解分析法的理论来源",
+    "text_level": 2,
+    "bbox": [
+      13,
+      531,
+      313,
+      548
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "等高线图解分析法（isobologram analysis）起源于1953年 Loewe 提出的等效线图（isobologram）但是一直没有引起关注 直到 年 等在研究水合氯醛和乙醇的合并应用时发现不同水合氯醛和乙醇的比例产生不同的效应 有的具有相加作用 有的具有拮抗作用 有的具有协同作用 才引起人们的兴趣但是这些数据虽然在药效图上具有明显的不同作用的分布 却没有显著的统计学差异 这些剂量 效应数据内在的误差意味着仅仅是“高于”或“低于”相加线是不够的 还缺少精确性 当等效线图加上统计分析时 被称为评价药物相互作用的 黄金标准 ［1］",
+    "bbox": [
+      13,
+      552,
+      468,
+      779
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "等在 年对等高线图解分析法进行了系统评价 等高线图解分析法 也称等效线法 是以图表的形式来表示药物相互作用的性质 等高线图解分析法是在 的等效线图的基础上 运用统计学对药物相互作用进行独立统计分析对结果的评价更为科学可靠。",
+    "bbox": [
+      13,
+      781,
+      468,
+      863
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      500,
+      321,
+      953,
+      360
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "等高线图解分析法是充分得到数学证明的一种计算药物相互作用的方法［23］在药理学界和临床上得到广泛的应用［4～8］",
+    "bbox": [
+      500,
+      363,
+      953,
+      426
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2 等高线图解分析法的基本理论",
+    "text_level": 2,
+    "bbox": [
+      500,
+      451,
+      800,
+      468
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "通常 当两个药物 合并应用时 如果两药为竞争性拮抗剂 则产生的药效符合公式 $_ { y } = b ( 1 +$ $x / K _ { x } )$ 如图 所示 该等效线显示 当 混合应用时 随着 药剂量的增加 要产生相同药效所需要的 药的剂量随着增加 如果其中一个药物 没有活性 当与有活性的 药合用时 等效线为一条水平直线 图 即随着药物 的剂量增加 药的剂量不变即可产生相同药效 如果两药合用产生的作用为单纯相加 则产生的药效符合公式 x／ay／b 图 相加线与坐标轴相交 截距 分别代表 两药单独应用时产生相同药效时的剂量 对于两药具有相加性作用可以假设其中一个药物 为药物 的单纯稀释液",
+    "bbox": [
+      500,
+      472,
+      953,
+      752
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "相加线是评价两药相互作用性质的基础 当两药合用产生相同药效时的点位于相加线上 如图点 则药物相互作用的性质为相加 如果位于相加线的上方 如图 点 则药物相互作用的性质为拮抗作用（antagonistic 或 sub-additive）；反之位于相加线下方如图 点 称为药物相互作用的性质为协同作用 或 ［2］",
+    "bbox": [
+      500,
+      756,
+      953,
+      905
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "对药物的协同作用和拮抗作用可以这样理解当产生相同药效时 两药的混合物坐标位于点X、Y 两药可以用 x／a＋y／b＜1来表示提示若",
+    "bbox": [
+      500,
+      907,
+      953,
+      975
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "DOI :10．13220／j．cnki．jipr．2006．06．017",
+    "bbox": [
+      25,
+      0,
+      315,
+      14
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "国外医学药学分册 2006年12月 第33卷 第6期",
+    "bbox": [
+      29,
+      21,
+      422,
+      37
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "",
+    "bbox": [
+      868,
+      23,
+      930,
+      35
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "收稿日期",
+    "bbox": [
+      38,
+      879,
+      180,
+      892
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "作者简介 刘 瑾 女 助理研究员 研究方向 中药药理 中药新药研究,Email:lj\\_O822@yahoo·com·cn",
+    "bbox": [
+      13,
+      897,
+      465,
+      930
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "通讯作者 梅兴国 男 研究员 博士生导师 研究方向 缓 控释制剂的研究Tel：010-66932644E-mail：xg mei＠yahoo．com",
+    "bbox": [
+      13,
+      933,
+      465,
+      964
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "剂的研94-2023China,Acadlernicjourhai ETectronicPublishngHo两药Antsreserved<ht表示提示i荐t",
+    "bbox": [
+      34,
+      962,
+      961,
+      976
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "要产生相同的药效固定X 的剂量则需补加药物Y缺少的量小于理论上的药物 Y 的量；而与之相反当 两药混合物的坐标位于 点时 则有 $x / a ^ { \\cdot }$ 十$_ { y } / b { > } 1$ 即表示若要产生相同药效固定 X 的剂量需补加药物Y 缺少的量高于理论上的药物Y 的量。",
+    "bbox": [
+      13,
+      58,
+      468,
+      119
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      500,
+      56,
+      953,
+      119
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "chart",
+    "img_path": "images/7e4e5823bdd95d876f498636e7ba67a36902ecdb12d7a54ec1566a2bdf28f555.jpg",
+    "content": "| Point | x (mg·kg⁻¹) | y (mg·kg⁻¹) |\n|---|---|---|\n| a | 0 | 0 |\n| b | 0 | 0 |\n| C | 0 | 0 |\n| A | 0 | 1 |",
+    "chart_caption": [],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      143,
+      127,
+      432,
+      268
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "chart",
+    "img_path": "images/932da1da0a98b861d0ad4a85ddf0ef7a05a7c559f869e7a07ede993da65fb99f.jpg",
+    "content": "| Point | x (mg·kg⁻¹) | y (mg·kg⁻¹) |\n|---|---|---|\n| O | 0 | 1 |\n| P | 1 | 2 |\n| Q | 0 | 1 |",
+    "chart_caption": [
+      "图1 药物相互作用分类"
+    ],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      525,
+      124,
+      796,
+      266
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "3 等高线图解分析法的应用",
+    "text_level": 2,
+    "bbox": [
+      13,
+      317,
+      273,
+      336
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "等高线图解分析法是一种在实验中得到广泛应用的用来检验药物达到相同药效时相互作用的方法为进一步的研究提供了一个基本的工作程序［3］。",
+    "bbox": [
+      13,
+      338,
+      468,
+      399
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "等高线图解分析法使用的前提条件是药物与效应呈剂量依赖关系应用等高线图解分析法对药物相互作用进行评价时 通常可以分为 个实验步骤［910］：（1）首先以药物 A 的剂量为横坐标以药物的剂量为纵坐标 连接横坐标上药物 和纵坐标上药物 两药单独应用的 $\\mathrm { E D } _ { 5 0 }$ 值 即得两药具有相加性的等效线 各药物的 $\\mathrm { E D } _ { 5 0 }$ 以及相连的 的置信限可以通过各个药物的对数剂量 效应关系线性回归曲线得出 至少四个剂量 从理论上选取两药的固定比例固定比例的混合药物的 $\\mathrm { E D 5 0 , a d d }$ 值 可通过下述公式计算",
+    "bbox": [
+      11,
+      402,
+      468,
+      632
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\nE D _ {5 0, a d d} = E D _ {5 0, A} / \\left(P _ {1} + R \\times P _ {2}\\right)\n$$",
+    "text_format": "latex",
+    "bbox": [
+      56,
+      635,
+      337,
+      653
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "其中 为 两药单独应用时的效价比 $\\mathrm { P 1 }$ 为药在混合物中所占比例 $\\mathrm { P 2 }$ 为 药在混合物中所占比例 确定固定药物比例的混合物在实验中实际得到的 $\\mathrm { E D 5 0 , m i x }$ 值 $\\mathrm { E D 5 0 , m i x }$ 即由实验确定的固定比例的两个药物获得 效应时所需的总药量 该值可以从药物的剂量 效应曲线上求得 采用t 等统计方法对各比例理论上的 $\\mathrm { E D 5 0 , a d d }$ 和实验中得到的 $\\mathrm { E D 5 0 , m i x }$ 进行统计比较 采用图解法对固定比例的混合药物在等效图上相互作用的不同形状进行解释",
+    "bbox": [
+      11,
+      655,
+      468,
+      864
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "两个药物合并应用组成的所有等效线构成了两个药物相互作用的等效图 当理论 $\\mathrm { E D 5 0 , a d d }$ 和各自的实验 $\\mathrm { E D 5 0 , m i x }$ 没有显著性差异时 则表明两药相互作用的类型为相加；如果 $\\mathrm { E D 5 0 , m i x }$ 显著低于 $\\mathrm { E D 5 0 , a d d }$ 在相加线下方 时 则说明两药具有协同作用 如果$\\mathrm { E D } 5 0 , \\mathrm { m i x }$ 显著性高于 $\\mathrm { E D 5 0 , a d d }$ （在相加线上方）时则说明两药具有拮抗作用［1112］",
+    "bbox": [
+      13,
+      867,
+      468,
+      970
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      500,
+      318,
+      953,
+      359
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "对药物协同作用的不同程度 可以用相互作用指数 γ 来评价［13］ 测量相互作用指数的方法是利用药物合用和单独应用的剂量 效应数据并合适地应用回归进行模拟其公式为：",
+    "bbox": [
+      500,
+      361,
+      953,
+      445
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\gamma = \\frac {\\mathrm{a}}{\\mathrm{A}} + \\frac {\\mathrm{b}}{\\mathrm{B}}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      540,
+      449,
+      639,
+      479
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "其中A、B 为两药单独应用与合并应用产生相同效应的剂量ab 为在该合并用药中两药各自的剂量。当γ 时 两药的相互作用为相加 当γ 时 两药的相互作用为协同作用 当γ值越小 说明协同作用越强 当γ 时 两药的相互作用为拮抗",
+    "bbox": [
+      500,
+      482,
+      955,
+      586
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "4 结语",
+    "text_level": 2,
+    "bbox": [
+      500,
+      609,
+      579,
+      628
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "于 年提出 当对同一组数据应用不同的分析方法时 可能会得到不同的结论 用一种方法计算的结果是可能协同作用 但用另一种方法计算的结果却是相互拮抗 自此 对于两种或两种以上药物联合应用时怎样判断是否达到了协同副作用是否达到拮抗 一直是有争议的问题 有人认为 只有等高线分析法能够准确地对药物的相互作用进行分类 因此等高线分析法优于其他分析方法［14］。目 前已 有 PharmToolsPro （ McCary Group软件问世 可以对药物相互作用的数据进行计算该 软 件 是 以 Tallarida 所 著 Drug Synergism andDose-Effect Data Analysis 一书为基础而编写。",
+    "bbox": [
+      500,
+      632,
+      955,
+      884
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "药物联用药效 协同 相加或拮抗 的定量分析是临床联合用药的基础 是复方新药研究的依据 也是重要的理论问题 药物合并应用的合理性是以动物实验研究和药物作用机制的假设为基础预测药物合并应用是否可提高对病人的治疗效果［15］",
+    "bbox": [
+      500,
+      888,
+      955,
+      970
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "·460·",
+    "bbox": [
+      38,
+      23,
+      100,
+      35
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Foreign Medical Sciences Section of Pharmacy 2006Dec；33（6）",
+    "bbox": [
+      500,
+      23,
+      937,
+      37
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      13,
+      56,
+      418,
+      75
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "等高线图解法作为分析药物相互作用本质的基本方法逐渐被人们所接受 它为评价多种因素影响同一个效应提供了一个有力的工具。这种方法通常被认为是药物相互作用真实的本质的分析［16］为研究药物相互作用机制提供思路。",
+    "bbox": [
+      13,
+      79,
+      468,
+      182
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "参 考 文 献",
+    "text_level": 2,
+    "bbox": [
+      182,
+      192,
+      298,
+      208
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "［1］ Tallarida RJStone DJ McCary JDet al．Response surface analysis of synergism between morphine and clonidine ［J ］．J Pharmacol Exp Ther，1999,289(1).8—13.",
+      "［2］ Tallarida RJ．Drug synergism：its detection and applications ［J ］．JPharmacol Exp Ther2001298（3）：865－872",
+      "［3］ Gessner PK．Isobolographic analysis of interactions：an update on applications and utility[J].Toxicology，1995,105(2/3):161-I79.",
+      "[4]Luszczki JJ，Czuczwar SJ.Interaction between lamotriqine and felba mate in the maximal electroshock-induced seizures in mice： an isobolographic analysis ［ J ］． Eur Neuropsychopharmacol200515 (2)：133-142.",
+      "［5］ Luszczki JJRatnaraj NPatsalos PNet al．Pharmacodynamic and／ or pharmacokinetic characteristics of interactions between loreclezole and four conventional antiepileptic drugs in pentylenetetrazole-induced seizures in mice：an isobolographic analysis ［ J ］． Epilepsy Behav 2005，7(4)：639—651.",
+      "［6］ Jimenez-Andrade JM Ortiz MIPerez-Urizar Jet al．Synergistic effects between codeine and diclofenac after localspinal and systemic Pharmacol Biochem Behav 463-471.",
+      "［7］ Miranda HFSierralta FPinard G．Neostigmine interactions with Br J Pharmacol",
+      "135（7）：1591－1597．",
+      "［8］ Lopez-Manoz FJDiaz-Reval MITerron JAet al．Analysis of the analgesic interactions between ketorolac and tramadol during arthritic Eur J Pharmacol 165.",
+      "［9］ Satyanarayana PSTain NKSingh Aet al．Isobolographic analysis of interaction between cyclooxygenase inhibitors and tramadol in acetic acid-induced writhing in mice ［J］．Prog Neuro Psychopharmacol Biol Psychiatry",
+      "［10］ Miranda HFPrieto JCPinardi G．Spinal synergy between nonselective cyclooxygenase inhibitors and morphine antinociception in mice Brain Res",
+      "［11］ Luszczki JJCzuczwar SJ．Isobolographic characterization of interactions among selected newer antiepileptic drugs in the mouse pentylenetetrazole-induced seizure model ［J ］．Naunyn Schmiedebergs Arch Pharmacol",
+      "［12］ Luszczki JJBorowicz KKSwiader Met al．Interactions between oxcarbazepine and conventional antiepileptic drugs in the maximal electroshock test in mice：an isobolographic analysis ［J ］．Epilepsia 200344（4）：489－499",
+      "［13］ Tallarida RJ．The interaction index：a measure of drug synergism ［J］Pain，2002，98(1/2).163—168.",
+      "［14］ Luszczki JSwiader MCzuczwar Met al．Interactions of tiagabine with some antiepileptics in the maximal electroshock in mice[J]. Pharmacol Biochem Behav",
+      "［15］ Deckers CLCzuczwar SJHekster YAet al．Selection of antiepileptic drug polytherapy based on mechanism of action：the evidence re-Epilepsia",
+      "［16］ Miranda HFPuig MMPrieto JCet al．Synergism between paracetamol and nonsteroidal ant-i inflammatory drugs in experimental acute pain[J]. Pain，2006,121(1/2);22-28."
+    ],
+    "bbox": [
+      13,
+      212,
+      472,
+      612
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      500,
+      52,
+      957,
+      609
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "（上接第444页）",
+    "text_level": 2,
+    "bbox": [
+      15,
+      632,
+      137,
+      649
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "［14］ Ward SAWalle TWalle UKet al．Propranolol’s metabolism is determined by both mephenytoin and debrisoquine hydroxylase activi-Clin Pharmacol Ther",
+      "[15]Goa KL，Ward A·Buspirone：a preliminary review of its pharmaco logical properties and therapeutic efficacy as an anxiolytic ［ J ］ Drugs，1986，32(2).114—129.",
+      "［16］ Kliewer SAMoore JTWade Let al．An orphan nuclear receptor activated by pregnanes defines a novel steroid signaling pathway ［J ］ Cell，1998,92(1),73—82.",
+      "［17］ Murray M．P450enzymes：inhibition mechanismsgenetic regulationand effects of liver disease ［J ］．Clin Pharmacokinet199223（2）：132—146.",
+      "［18］ Hoffmeyer SBurk Ovon Richter Oet al．Functional polymorphism of the human multidrug-resistance gene：multiple sequence",
+      "variations and correlation of one allele with p-glycoprotein expression and activity in vivo ［J ］．Proc Natl Acad Sci USA200097（7）： 3473—3478.",
+      "［19］ Siest GPillot TRegis-Bailly Aet al．Apolipoprotein E：an important gene and protein to follow in laboratory medicine ［ J ］．Clin Chem，1995，41(8 Pt1).1068—1086.",
+      "孙 琦 柳 青 雷 寒 血管紧张素原 基因多态性与重庆地区原发性高血压的关系 重庆医学(11),1072—1073.",
+      "［21］ Cremonesi LCarrera PCardillo Eet al．Optimized detection of DNA point mutations by double gradient denaturing gradient gel elec-Clin Chem Lab Med",
+      "［22］ Lipworth BJAziz I．Bronchodilator response to albuterol after regular formoterol and effects of acute corticosteroid administration ［ J ］ Chest，2000,117(1).156—162."
+    ],
+    "bbox": [
+      15,
+      651,
+      467,
+      901
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      503,
+      632,
+      953,
+      899
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "国外医学药学分册 2006年12月 第33卷 第6期",
+    "bbox": [
+      31,
+      21,
+      422,
+      37
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "·461·",
+    "bbox": [
+      868,
+      23,
+      930,
+      35
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      32,
+      957,
+      961,
+      976
+    ],
+    "page_idx": 2
+  }
+]

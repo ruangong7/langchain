@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Paxlovid",
+        "canonical_name": "Paxlovid",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "心血管药物",
+        "canonical_name": "心血管药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Population",
+        "name": "老年人",
+        "canonical_name": "老年人",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "心血管基础疾病",
+        "canonical_name": "心血管基础疾病",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": 2485,
+          "raw_text": "临床医生在准备给病人尤其是有心血管基础疾病的老年人使用Paxlovid 的时候，必须熟悉病人正在服用的心血管药物，避免发生不良相互作用。",
+          "chunk_id": "2485",
+          "data": "。综上所述，临床医生在准备给病人尤其是有心血管基础疾病的老年人使用Paxlovid 的时候，必须熟悉病人正在服用的心血管药物，避免发生不良相互作用。Reference[1]Cardiovascular Drug Interactions With Nirmatrelvir/Ritonavir in Patients With COVID-19: JACC Review Topic of the Week J Am Coll Cardiol. 2022 Nov, 80 (20) 1912–1924美国华人执业医师协会(SCAPE)The Society of Chinese American Physician Entrepreneurs网址：www.scapeusa.orgcopyright © 2015-2023, All rights reserved本公告文字与设计受美国版权法保护欢迎在征得书面同意后全文转发请勿擅自改编、摘录、转载违者 SCAPE 保留追究法律责任权利作者：曲晓丹  - 美国南加州Kaiser Permanente 内分泌科医师审稿：陈雄鹰 - 美国阿拉巴马州蒙哥马利市杰克逊医院医院医学科医师黄鹂 - 美国加利福尼亚州 Doctors Medical Center 住院部医师主编：Gloria Zhang - 美国 Cleveland Clinic 病理科医师执行编辑：杨书伟 - 安谱佳®全球医疗"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": 2485,
+          "raw_text": "临床医生在准备给病人尤其是有心血管基础疾病的老年人使用Paxlovid 的时候，必须熟悉病人正在服用的心血管药物，避免发生不良相互作用。",
+          "chunk_id": "2485",
+          "data": "。综上所述，临床医生在准备给病人尤其是有心血管基础疾病的老年人使用Paxlovid 的时候，必须熟悉病人正在服用的心血管药物，避免发生不良相互作用。Reference[1]Cardiovascular Drug Interactions With Nirmatrelvir/Ritonavir in Patients With COVID-19: JACC Review Topic of the Week J Am Coll Cardiol. 2022 Nov, 80 (20) 1912–1924美国华人执业医师协会(SCAPE)The Society of Chinese American Physician Entrepreneurs网址：www.scapeusa.orgcopyright © 2015-2023, All rights reserved本公告文字与设计受美国版权法保护欢迎在征得书面同意后全文转发请勿擅自改编、摘录、转载违者 SCAPE 保留追究法律责任权利作者：曲晓丹  - 美国南加州Kaiser Permanente 内分泌科医师审稿：陈雄鹰 - 美国阿拉巴马州蒙哥马利市杰克逊医院医院医学科医师黄鹂 - 美国加利福尼亚州 Doctors Medical Center 住院部医师主编：Gloria Zhang - 美国 Cleveland Clinic 病理科医师执行编辑：杨书伟 - 安谱佳®全球医疗"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "美华医讯SCAPE",
+          "chunk_index": 2485,
+          "raw_text": "临床医生在准备给病人尤其是有心血管基础疾病的老年人使用Paxlovid 的时候，必须熟悉病人正在服用的心血管药物，避免发生不良相互作用。",
+          "chunk_id": "2485",
+          "data": "。综上所述，临床医生在准备给病人尤其是有心血管基础疾病的老年人使用Paxlovid 的时候，必须熟悉病人正在服用的心血管药物，避免发生不良相互作用。Reference[1]Cardiovascular Drug Interactions With Nirmatrelvir/Ritonavir in Patients With COVID-19: JACC Review Topic of the Week J Am Coll Cardiol. 2022 Nov, 80 (20) 1912–1924美国华人执业医师协会(SCAPE)The Society of Chinese American Physician Entrepreneurs网址：www.scapeusa.orgcopyright © 2015-2023, All rights reserved本公告文字与设计受美国版权法保护欢迎在征得书面同意后全文转发请勿擅自改编、摘录、转载违者 SCAPE 保留追究法律责任权利作者：曲晓丹  - 美国南加州Kaiser Permanente 内分泌科医师审稿：陈雄鹰 - 美国阿拉巴马州蒙哥马利市杰克逊医院医院医学科医师黄鹂 - 美国加利福尼亚州 Doctors Medical Center 住院部医师主编：Gloria Zhang - 美国 Cleveland Clinic 病理科医师执行编辑：杨书伟 - 安谱佳®全球医疗"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 2485,
+    "source": "美华医讯SCAPE",
+    "text": "。综上所述，临床医生在准备给病人尤其是有心血管基础疾病的老年人使用Paxlovid 的时候，必须熟悉病人正在服用的心血管药物，避免发生不良相互作用。Reference[1]Cardiovascular Drug Interactions With Nirmatrelvir/Ritonavir in Patients With COVID-19: JACC Review Topic of the Week J Am Coll Cardiol. 2022 Nov, 80 (20) 1912–1924美国华人执业医师协会(SCAPE)The Society of Chinese American Physician Entrepreneurs网址：www.scapeusa.orgcopyright © 2015-2023, All rights reserved本公告文字与设计受美国版权法保护欢迎在征得书面同意后全文转发请勿擅自改编、摘录、转载违者 SCAPE 保留追究法律责任权利作者：曲晓丹  - 美国南加州Kaiser Permanente 内分泌科医师审稿：陈雄鹰 - 美国阿拉巴马州蒙哥马利市杰克逊医院医院医学科医师黄鹂 - 美国加利福尼亚州 Doctors Medical Center 住院部医师主编：Gloria Zhang - 美国 Cleveland Clinic 病理科医师执行编辑：杨书伟 - 安谱佳®全球医疗"
+  }
+]

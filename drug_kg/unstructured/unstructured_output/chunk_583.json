@@ -1,0 +1,496 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "美沙酮",
+        "canonical_name": "美沙酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "TDF",
+        "canonical_name": "替诺福韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "3TC",
+        "canonical_name": "拉米夫定",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "ABC",
+        "canonical_name": "阿巴卡韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "AZT",
+        "canonical_name": "齐多夫定",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "NVP",
+        "canonical_name": "奈韦拉平",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "EFV",
+        "canonical_name": "依非韦伦",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "RPV",
+        "canonical_name": "利匹韦林",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "LPV/r",
+        "canonical_name": "洛匹那韦/利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "DRV/c",
+        "canonical_name": "达芦那韦/考比司他",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "DTG",
+        "canonical_name": "多替拉韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "RAL",
+        "canonical_name": "拉替拉韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "BIC",
+        "canonical_name": "比克替拉韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "EVG/c",
+        "canonical_name": "埃替拉韦/考比司他",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "NRTI",
+        "canonical_name": "核苷类逆转录酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "nNRTI",
+        "canonical_name": "非核苷类逆转录酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "PI",
+        "canonical_name": "蛋白酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "DrugClass",
+        "name": "INSTI",
+        "canonical_name": "整合酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "骨髓抑制",
+        "canonical_name": "骨髓抑制",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_5",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "RPV可使美沙酮血药水平下降16%，但不需要调整剂量。",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "DRV/c和美沙酮同时使用时不需调整剂量，注意监测。",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "NRTI：TDF、3TC和ABC",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "NRTI：TDF、3TC和ABC",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "NRTI：TDF、3TC和ABC",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "AZT",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "nNRTI：NVP和EFV",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "nNRTI：NVP和EFV",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "RPV",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "PI：LPV/r",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_23",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "DRV/c",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_24",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "整合酶抑制剂DTG、RAL、BIC或EVG/c",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_25",
+        "type": "IN_CLASS",
+        "source_id": "ent_12",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "整合酶抑制剂DTG、RAL、BIC或EVG/c",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_26",
+        "type": "IN_CLASS",
+        "source_id": "ent_13",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "整合酶抑制剂DTG、RAL、BIC或EVG/c",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      },
+      {
+        "id": "rel_27",
+        "type": "IN_CLASS",
+        "source_id": "ent_14",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "中国疾控艾防中心",
+          "chunk_index": 583,
+          "raw_text": "整合酶抑制剂DTG、RAL、BIC或EVG/c",
+          "chunk_id": "583",
+          "data": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 583,
+    "source": "中国疾控艾防中心",
+    "text": "。中药研究数据相对较少，使用时咨询医务人员意见。抗艾药和美沙酮1. NRTI：TDF、3TC和ABC与美沙酮同时使用时，不需要调整剂量。AZT和美沙酮一起使用时，AZT的AUC增加，要注意观察AZT的骨髓抑制作用等毒性。2. nNRTI：NVP和EFV可以使美沙酮AUC下降，常需要增加美沙酮剂量。RPV可使美沙酮血药水平下降16%，但不需要调整剂量。3. PI：LPV/r和使美沙酮AUC下降26%~53%，但戒断症状不常见，注意临床监测，必要时增加美沙酮剂量。DRV/c和美沙酮同时使用时不需调整剂量，注意监测。4. INSTI: 整合酶抑制剂DTG、RAL、BIC或EVG/c与美沙酮同时使用时，无需调整剂量。参考文献：[1]中国疾病预防控制中心性病艾滋病预防控制中心.国家免费艾滋病抗病毒药物治疗手册.（第四版）. 北京人民卫生出版社，2016[2]EACS Guidelines version 10.0, November 2019[3]EACS Guidelines version 9.0, October 2017中国疾控艾防中心长按二维码关注我们"
+  }
+]

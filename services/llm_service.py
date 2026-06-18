@@ -56,6 +56,10 @@ MEMORY_SUMMARY_CONTEXT_PROMPT = """长期记忆摘要（仅用于理解用户背
 {summary}
 """
 
+PERSONAL_CONTEXT_PROMPT = """以下是用户明确提供的个体化健康信息，仅用于个体化用药评估：
+{personal_context}
+"""
+
 class LLMService:
     ANSWER_HISTORY_TURNS = 7
 
@@ -96,10 +100,13 @@ class LLMService:
         message: str,
         context: str = "",
         memory_summary: str = "",
+        personal_context: str = "",
     ) -> List:
         messages = [SystemMessage(content=SYSTEM_PROMPT)]
         if memory_summary:
             messages.append(SystemMessage(content=MEMORY_SUMMARY_CONTEXT_PROMPT.format(summary=memory_summary)))
+        if personal_context:
+            messages.append(SystemMessage(content=PERSONAL_CONTEXT_PROMPT.format(personal_context=personal_context)))
         messages.extend(history_messages)
 
         user_message = f"用户问题：{message}\n\n"
@@ -189,11 +196,11 @@ class LLMService:
         tool_messages = [self._run_tool_call(call) for call in tool_calls]
         return self.llm.invoke([*messages, first_response, *tool_messages])
     
-    def chat(self, memory_id: str, message: str, context: str = "") -> str:
+    def chat(self, memory_id: str, message: str, context: str = "", personal_context: str = "") -> str:
         """非流式聊天"""
         history = self._answer_history(memory_id)
         memory_summary = self.memory_service.get_summary(memory_id)
-        messages = self._build_messages(history, message, context, memory_summary)
+        messages = self._build_messages(history, message, context, memory_summary, personal_context)
         response = self._invoke_with_tools(messages)
         
         # 保存到记忆（写入Redis）
@@ -215,11 +222,11 @@ class LLMService:
         self._maybe_update_memory_summary(memory_id)
         return response.content
     
-    async def chat_stream(self, memory_id: str, message: str, context: str = "") -> AsyncIterator[str]:
+    async def chat_stream(self, memory_id: str, message: str, context: str = "", personal_context: str = "") -> AsyncIterator[str]:
         """流式聊天"""
         history = self._answer_history(memory_id)
         memory_summary = self.memory_service.get_summary(memory_id)
-        messages = self._build_messages(history, message, context, memory_summary)
+        messages = self._build_messages(history, message, context, memory_summary, personal_context)
 
         # 先用非流式探测工具调用，工具执行完后再流式输出最终答案。
         first_response = self.tool_llm.invoke(messages)

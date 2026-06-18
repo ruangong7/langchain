@@ -1,0 +1,613 @@
+[
+  {
+    "type": "text",
+    "text": "联合用药的药物相互作用及研究方法",
+    "text_level": 1,
+    "bbox": [
+      101,
+      115,
+      500,
+      136
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "黄宇星，刘二伟\\*",
+    "bbox": [
+      119,
+      155,
+      251,
+      171
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "天津中医药大学，天津 300193",
+    "bbox": [
+      120,
+      175,
+      331,
+      187
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘 要：随着人们对于疾病的认识越来越深入，联合用药得到越来越普遍的使用，同时所产生的药物间的相互作用也越来越受到关注。联合用药可能通过影响与药物吸收、分布、代谢、排泄等相关的酶、转运体等，以改变药物的药代属性（生物利用度、分布特性等），调节体内动态药效物质组的构成，改变药物的药效（协同作用、拮抗作用、毒副作用等），从而对药物的有效性、安全性产生影响。从联合用药对药物吸收与代谢的影响这两方面来阐述联合用药的研究近况，为联合用药的基础研究以及临床应用的安全有效提供参考。",
+    "bbox": [
+      99,
+      210,
+      895,
+      291
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词：联合用药；药物相互作用；药物吸收；药物代谢；药动学；药效学",
+    "bbox": [
+      101,
+      294,
+      594,
+      307
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号：R969.2",
+    "bbox": [
+      101,
+      311,
+      238,
+      325
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "文献标志码：A",
+    "bbox": [
+      277,
+      312,
+      380,
+      324
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "文章编号：1674 - 6376 (2014) 03 - 0276 - 04",
+    "bbox": [
+      419,
+      312,
+      699,
+      325
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "DOI: 10.7501/j.issn.1674-6376.2014.03.021",
+    "bbox": [
+      101,
+      329,
+      370,
+      342
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Drug interactions and research methods of drug combination",
+    "text_level": 1,
+    "bbox": [
+      101,
+      363,
+      705,
+      382
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "HUANG Yu-xing, LIU Er-wei",
+    "bbox": [
+      117,
+      399,
+      334,
+      414
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Tianjin University of Traditional Chinese Medicine, Tianjin 300193, China",
+    "bbox": [
+      119,
+      417,
+      568,
+      431
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Abstract: As people increasingly in-depth understanding of the disease, drug combination has been more widely used, and the generated interactions of drug combination have attracted more and more attention. Drug combination may impact the enzymes and transporters associated with drug absorption, distribution, metabolism, and excretion, so as to change the drug pharmacokinetics properties (bioavailability, distribution characteristics, etc), regulate the dynamic effective substance groups constituted in body, change the drug effect (synergism, antagonism, side effects, etc), and impact the efficacy and safety of drugs. Now this article explained the current research status of drug combination by summarizing the effects of drug combination on absorption and metabolism of drugs, in order to provide some reference to basic research and clinical application about drug combination.",
+    "bbox": [
+      99,
+      449,
+      897,
+      565
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Key words: drug combination; drug interaction; drug absorption; drug metabolism; pharmacokinetic; pharmacodynamics",
+    "bbox": [
+      101,
+      567,
+      825,
+      581
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "联合用药（drug combination）是指为了达到治疗目的而采用的两种或两种以上药物同时或先后应用。用药品种多，使药物相互作用的几率增加，可能增强或降低药物疗效，甚至产生不良反应。联合用药在临床上的应用相当普遍，如喹诺酮类药物与磷霉素配伍联合使用时，由于磷霉素能够破坏细菌的细胞壁，从而增强了喹诺酮类药物治疗耐药伤寒等疾病的功效[1]。但当喹诺酮类药物与黄嘌呤类药物联合使用时，由于喹诺酮类能够抑制肝药酶，导致黄嘌呤类药物体内代谢降低，从而产生胃肠道及神经系统严重的不良反应[2]。这就要求医药工作者既要清楚各类疾病的病理机制，又要充分了解各个药物的基本属性，做到联合用药的合理性、科学性，尽量降低和避免不良反应，提高药物疗效。",
+    "bbox": [
+      99,
+      593,
+      486,
+      853
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "联合用药所引起的药物相互作用可能使药物效应改变，这种改变既可是效应强度的变化，也可能是作用性质的改变，从而对药物的有效性和安全性产生影响。药物联合使用所引起的结果包括：使原有的效应增强，即协同作用；使原有的效果减弱，即拮抗作用；产生毒性等不良反应，即毒副作用。",
+    "bbox": [
+      509,
+      593,
+      895,
+      702
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "联合用药如能够增强治疗作用或减少毒副作用，则此作用是有益的。附子与甘草联合应用，甘草能够显著地降低附子中乌头碱的含量，从而降低附子的毒副作用[3]。利托那韦和沙奎那韦联合用药能够显著提高它们抗病毒的作用。然而，在实际应用中，很多时候药物的相互作用都会对机体产生不良反应。如甘遂与甘草联合使用后，甘草对细胞色素氧化酶 P450 2E1（CYP2E1）活性的诱导能力更强，故而可促进甘遂所含前致癌物质和前毒物转化成为致癌物和毒物的过程，导致对机体毒性作用的增强[4]。降血压药咪拉地尔（钙离子通道阻滞剂）由于其能够抑制 CYP3A4 酶对许多药物的代谢，而导致相当严重的不良反应，从而退出了医药市场[5]。联合用药的研究需要运用科学、严谨的研究方法和手段，充分了解各个药物的药效物质属性，做到科学性、合理性和有效性兼顾，达到预防不良反应发生、提高疗效的目的。",
+    "bbox": [
+      509,
+      706,
+      895,
+      853
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "- 276 -",
+    "bbox": [
+      102,
+      72,
+      143,
+      83
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research 第 37 卷 第 3 期 2014 年 6 月",
+    "bbox": [
+      269,
+      70,
+      727,
+      85
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "收稿日期：2014-01-21",
+    "bbox": [
+      135,
+      868,
+      259,
+      879
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "作者简介：黄宇星，博士研究生，研究方向为药物代谢动力学。Tel: (022)59596163",
+    "bbox": [
+      135,
+      881,
+      563,
+      892
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "\\*通信作者 刘二伟，男，副研究员，研究方向为中药新药开发机及中药化学研究。E-mail: liuwei628@sohu.com",
+    "bbox": [
+      135,
+      894,
+      736,
+      906
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      979
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      99,
+      99,
+      485,
+      265
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "本文旨从药代和药效两方面，结合临床应用研究，阐述联合用药的临床用药研究近况及其重要性。联合用药对于药代而言，各组分可能在吸收、分布、代谢、排泄等环节产生相互作用，表现为影响组分的生物利用度、改变分布特性、调节体内动态药效物质组的构成等方面[6]。其中与药物药效物质基础最为相关的是联合用药对药物吸收和代谢的影响，最终使药效物质的药代属性改变而导致药效作用的变化。",
+    "bbox": [
+      99,
+      269,
+      485,
+      435
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 联合用药对药物吸收的影响",
+    "text_level": 2,
+    "bbox": [
+      102,
+      439,
+      339,
+      454
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "药物的疗效和不良反应的发生与药物在靶器官的浓度密切有关，而这又会受到内部和外部因素的影响，如年龄、种族、性别、疾病状态、药物的联合使用、食物等[7]。联合用药会影响药物在体内的吸收，引起药物或其代谢产物在血液或组织中浓度增加或减少[8]，改变药物的药代属性，进而影响药效。Karyekar 等[9]研究发现伊曲康唑通过抑制 P-糖蛋白介导的肾小管分泌作用，在其和西咪替丁联合用药后，受试者体内西咪替丁的药时曲线下面积（area under concentration-time curve，AUC）会改变，$\\mathrm { A U C } _ { 0 - 2 4 0 \\operatorname* { m i n } }$ 会增加 25%（P＜0.01），同时肾清除率（P＜0.001）和肾小管分泌率 $\\scriptstyle ( P = 0 . 0 0 1 )$ ）都显著降低，即增加了西咪替丁的吸收，提高了西咪替丁体内的暴露水平。相似的结果 Kaukonen 等[10]也有发现，即伊曲康唑与奎尼丁联合用药会使奎尼丁的血药浓度提高 2.4 倍。",
+    "bbox": [
+      99,
+      457,
+      485,
+      755
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "贯叶金丝桃提取物与地高辛联合使用后，人血清中地高辛的吸收显著降低，AUC 减少了 25%[10]，同时贯叶金丝桃提取物由于能够使血浆中环孢霉素A 的含量降低到有效浓度范围以下，因而会诱导急性心脏移植的排斥反应[12-13]。这一生物利用度的降低可能与该提取物诱导药物相关的 P-糖蛋白转运体有关[14]。另外贯叶金丝桃提取物还能够增加奈韦拉平的清除率，从而可能导致抗逆转录病毒的抗性",
+    "bbox": [
+      99,
+      758,
+      485,
+      906
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "和治疗的失败[15]。",
+    "bbox": [
+      511,
+      99,
+      648,
+      114
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "由于联合用药使机体对药物的吸收、药效及安全性具有相当重要的影响，所以在临床用药中更应该对联合用药给予高度重视，避免不良反应的发生。如对血清素重吸收具有抑制作用的患者，应尽量避免环孢菌素、地高辛、苯丙香豆素等慢性长期药物与贯叶金丝桃联用，避免苯乙肼与人参联用。甘草具有增强皮质类激素的作用，槟榔具有明显的胆碱能作用等[16]，因此这两种中药与西药配伍时需要注意。临床上常用于抗炎的植物药欧洲七叶树Aesculus hippocastanum Linn.，由于其含有香豆素类成分，因而应尽可能的避免与抗凝剂（肝素、华法林等）和血小板抑制剂（阿司匹林）等药物联用，以防增加出血的风险[17]。因而无论是每种药物的自身属性，还是疾病的病理、病机，这些都是临床上药物联合用药的基础，都需要进一步研究，为临床用药的安全性提供科学的指导。",
+    "bbox": [
+      509,
+      118,
+      895,
+      417
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 联合用药对药物代谢的影响",
+    "text_level": 2,
+    "bbox": [
+      511,
+      420,
+      750,
+      435
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "研究药物的代谢属性是药物研发中至为重要的环节之一，而药物的联合使用可能使药物在代谢环节上产生相互干扰，从而增强甚至产生毒副作用，使疗效减弱或治疗失败，即代谢性药物相互作用。当药物进入体内后，其主要消除途径是通过代谢和排泄两种方式排出体内。药物间的相互作用对药物在体内的消除过程也起着至关重要的作用。如丹参可以降低华法林的消除速率，增加国际通用比率（international normalised ratio，INR）值，延长血液凝固时间[18]。如果药物主要是以代谢的形式消除，那么代谢途径的改变将会显著地影响药物的安全性和有效性。CYP450 酶是药物的主要代谢酶，药物联合应用很有可能诱导或抑制药物代谢的相关酶，从而导致药物的代谢速率，原型药物及其代谢产物在血和组织中的浓度发生变化，甚至有可能导致毒性物质的蓄积（抗组胺剂–抗真菌药物的相互作用），这些对于治疗窗口狭窄的药物尤为重要。",
+    "bbox": [
+      509,
+      438,
+      895,
+      755
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "水飞蓟作为最广泛用于治疗肝病的药物之一，能与人体肝微粒中的多种药物代谢酶相互作用[19]。水飞蓟素能够显著降低 CYP3A4 和 UGT1A6/9 的活性，同时其还能够削弱大鼠肝细胞中的葡糖苷酸化过程[20]，还可以影响左美沙芬的代谢（CYP2D6），以及显著抑制去硝基硝苯地平的氧化（CYP3A4）和 S(−)-华法林的羟基化（CYP2C9）[21]。槲皮素类成分作为常见的黄酮类成分之一，广泛的存在于各类食物之中，具有抗炎、抗菌、抗氧化、抗凝血等作用[22]。槲皮素能够诱导 Caco2 细胞中 UDP-葡萄糖醛酸转移酶 [23]，而这又与治疗药物、致癌物质以及其他毒性成分的生物利用度密切相关。槲皮素能够抑制 P450 酶的反应，如乙氧基的脱乙基化反应、对硝基苯甲醚的去甲基化和苯并(α)芘的羟基化反应[24-25]。",
+    "bbox": [
+      509,
+      759,
+      895,
+      906
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research 第 37 卷 第 3 期 2014 年 6 月",
+    "bbox": [
+      269,
+      71,
+      727,
+      85
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "- 277 -",
+    "bbox": [
+      852,
+      72,
+      893,
+      83
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      979
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      99,
+      99,
+      485,
+      227
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "自从 20 世纪 90 年代中期以来，多版 FDA 指导文件都对药物相互作用给予了关注，尤其是在2006 年对药物相互作用给出了一个草案指导原则，着眼于关注药物代谢，以及其潜在的抑制或诱导主要代谢酶和转运体的作用[26-28]。药物代谢酶具有广泛的底物特异性，能够代谢复杂的药物成分。细胞色素 P450 酶是最为重要和庞大的酶家族，在人、动物和植物中已经证实了存在 500多种亚型[29]，参与药物代谢最为主要的亚型包括CYP1A、CYP2A6、CYP2B6、CYP2C、CYP2D6、CYP2E1 和 CYP3A[30]。 C其中 CYP3A4 是最为重要的亚型，当今市场上几乎有50%的药物以及临床上大量使用的药物间的相互作用都是由其参与的[31]。因而确认药物代谢相关的代谢酶是药物研发过程中最为重要的环节之一，这对于更好地认识药物清除率中基因多态性的作用、预测以代谢为机制的药物间相互作用都很有用[32-35]。",
+    "bbox": [
+      99,
+      231,
+      486,
+      530
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "4 结语",
+    "text_level": 2,
+    "bbox": [
+      101,
+      533,
+      168,
+      546
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "随着一些由于联合用药不当所带来的严重后果的出现，如医疗事故的发生、某些药品的退市（米拉地尔、特非那定、阿司咪唑等）[36]，联合用药越来越受到人们的广泛关注，在药物发展过程中对于药物间相互作用研究的需要也越来越迫切[37]。基于药动学充分了解药物相互作用的作用机制，运用科学、可靠的研究方法（利用 HPLC/MS/MS、HPLC/MS/NMR、药动–药效模型、药动学参数分析等）[38]和新的数据分析技术（群体药代动力学方法），再结合Ⅱ/Ⅲ临床试验[39]。新药与其他药物的相互作用一定要做到充分评价，以保证新药及其联合用药的安全有效。这对于临床联合用药的安全性、新药的开发、人们生活质量的提高都有莫大的帮助。总之，仍然需要做大量的工作去研究药物的药代和药效特征，以充分合理、科学有效地发挥药物最大的疗效。",
+    "bbox": [
+      99,
+      551,
+      486,
+      850
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "参考文献",
+    "text_level": 2,
+    "bbox": [
+      102,
+      858,
+      166,
+      872
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "ref_text",
+    "text": "[1] Davidson R，Cavalcanti R，Brunton J L，et al. Brief report：resistance to levofloxacin and failure of treatment",
+    "bbox": [
+      101,
+      875,
+      486,
+      906
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "of Pnrumococcal pneumonia [J]. N Engl J Med, 2002, 346(12): 747-750.",
+      "[2] 钱小蔷，徐永中，赵蓉等. 我院 2003—2006 年喹诺酮类 药 物 利 用 分 析 [J]. 中 国 药 房 , 2007, 18(20):1546-1547.",
+      "[3] 张惠霞, 陈建玉, 宋 成. 314 例中药注射剂不良反应分析 [J]. 药物警戒, 2006, 3(4): 232.",
+      "[4] 代方国, 罗 仁. 甘遂配伍甘草对大鼠肝脏CYP2E1表达及活性的影响 [J]. 第三军医大学学报, 2005, 27(8):742-744.",
+      "[5] Wan Po A L, Zhang W Y. What lessons can be learnt from withdrawal of mibefradil from the market [J]. Lancet, 1998, 351: 1829-1830.",
+      "[6] Hao H P. Thoughts and experimental exploration on pharmacokinetic study of herbal medicines with multiple-components and targets [J]. Acta Pharmaceu Sin, 2009, 44(3): 270-275.",
+      "[7] Huang S M, Temple R. Is this the drug or dose for you? Impact and consideration of ethnic factors in global drug development, regulatory review, and clinical practice [J]. Clin Pharmacol Ther, 2008, 84(3): 287-284.",
+      "[8] Zhang L, Zhang Y C, Zhao P, et al. Predicting drug-drug interactions: An FDA perspective [J]. AAPS J, 2009, 11(2): 300-306.",
+      "[9] Karyekar C S, Eddington N D, Briglia A, et al. Renal interaction between itraconazole and cimetidine [J]. J Clin Pharmacol, 2004, 44(8): 919-927.",
+      "[10] Kaukonen K M, Olkkola K T, Neuvonen P J. Itraconazole increases plasma concentrations of quinidine [J]. Clin Pharmacol Ther, 1997, 62: 510-517.",
+      "[11] Johne A, Brockmoller J, Bauer S, et al. Pharmacokinetic interaction of digoxin with an herbal extract from St John’s wort (Hypericum perforatum) [J]. Clin Pharmacol Ther, 1999, 66: 338-345.",
+      "[12] Ruschitzka F, Meier P J, Turina M, et al. Acute heart transplant rejection due to Saint John’s wort [J]. Lancet, 2000, 355(9203): 548-549.",
+      "[13] Ahmed S M, Banner N R, Dubrey S W. Low cyclosporin-A level due to Saint-John’s-wort in heart transplant patients [J]. J Heart Lung Transplant, 2001, 20(7): 795.",
+      "[14] Perloff M D, von Moltke L L, Stormer E, et al. Saint John’s wort: An in vitro analysis of Pglycoprotein induction due to extended exposure [J]. Br J Pharmacol, 2001, 134(8): 1601-1608.",
+      "[15] de Maat M M, Hoetelmans R M, Matht R A, et al. Drug interaction between St John's wort and nevirapine [J]. Aids, 2001, 15: 420-421.",
+      "[16] Fugh-Berman A. Herb-drug interactions [J]. Lancet, 2000, 355(9198): 134-138.",
+      "[17] Heck A M, De Witt B A, Lukes A L. Potential interactions between alternative therapies and warfarin [J]. Am J Health Syst Pharm, 2000, 57: 1221-1227.",
+      "[18] Chan K, Lo A C, Yeung J H, et al. The effects of danshen (Salvia miltiorrhiza) on warfarin pharmacodynamics and pharmacokinetics of warfarin enantiomers in rats [J]. J Pharm Pharmacol, 1995, 47(5): 402-406.",
+      "[19] Venkataramanan R, Ramachandran V, Komoroski B J, et al. Milk thistle, a herbal supplement, decreases the activity of CYP3A4 and uridine diphosphoglucuronosyl transferase in human hepatocyte cultures [J]. Drug Metab Dispos, 2000, 28(11): 1270-1273.",
+      "[20] Chungroo V J, Reen R K, Singh K, et al. Effects of silymarin on UDP-glucuronic acid and glucuronidation activity in the rat isolated hepatocytes and in liver in relation to D-galactosamine activity [J]. Indian J Exper Biol, 1997, 35(3): 256-263.",
+      "[21] Beckmann-Knopp S, Rietbrock S, Weyhenmeyer R, et al. Inhibitory effects of silibinin on cytochrome P-450 enzymes in human liver microsomes [J]. Pharmacol Toxicol, 2000, 86(6): 250-256.",
+      "[22] Middleton E, Kandaswami C. The impact of plant flavonoids on mammalian biology: Implications for immunity, inflammation and cancer [M]// The Flavonoids: Advances in Research Since 1986. New York: Springer U S, 1994, 619-652.",
+      "[23] Galijatovic A, Walle U K, Walle T. Induction of UDPglucuronosyltransferase by the flavonoids chrysin and quercetin in Caco-2 cells [J]. Pharm Res, 2000, 17(1): 21-26.",
+      "[24] Breinholt V, Lauridsen S T, Dragsted L O. Differential effects of dietary flavonoids on drug metabolizing and antioxidant enzymes in female rat [J]. Xenobiotica, 1999, 29(12): 1227-1240.",
+      "[25] Sousa R L, Marletta M A. Inhibition of cytochrome P-450 activity in rat liver microsomes by the naturally occurring flavonoid, quercetin [J]. Arch Biochem Biophys, 1985, 240(1): 345-357.",
+      "[26] FDA. Guidance for Industry: Drug metabolism/drug interactions in the drug development process: studies in vitro. http: //www. fda. gov/cder/guidance.",
+      "[27] FDA. In vivo drug metabolism/drug interaction studies—study design, data analysis, and recommendations for dosing and labeling. http: //www.",
+      "fda. gov/cder/guidance.",
+      "[28] FDA. Draft guidance for industry: drug interaction studies—study design, data analysis, and implications for dosing and labeling. http: //www. fda. gov/cder/guidance/6695dft. pdf.",
+      "[29] Rendic S, Di Carlo F J. Human cytochrome P450 enzymes: a status report summarizing their reactions, substrates, inducers, and inhibitors [J]. Drug Metab Rev, 1997, 29(1/2), 413-580.",
+      "[30] Rodrigues A D. Integrated P450 reaction phenotyping: Attempting to bridge the gap between cDNA-expressed cytochromes P450 and native human liver microsomes [J]. Biochem Pharmacol, 1999, 57: 465-480.",
+      "[31] Thummel K E, Wilkinson G. In vitro and in vivo drug interactions involving human CYP3A [J]. Annu Rev Pharmacol Toxicol, 1998, 38: 370-381.",
+      "[32] Bjornsson T D, Callaghan J T, Einolf H J, et al. The conduct of in vitro and in vivo drug-drug-interaction studies: a pharmaceutical research and manufacturers of America (PhRMA) perspective [J]. Drug Metab Dispos, 2003, 31(7): 815-832.",
+      "[33] Evans W E, McLeod H L. Pharmacogenetics-drug disposition, drug targets, and side effects [J]. N Eng J Med, 2003, 348: 538-548.",
+      "[34] Evans W E, Relling M V. Pharmacogenomics: translating functional genomics into rational therapeutics [J]. Science, 1999, 286(5439): 487-491.",
+      "[35] Ingelman-Sundberg M. Polymorphism of cytochrome P450 and xenobiotic toxicity [J]. Toxicology, 2002, 181-182: 447-452.",
+      "[36] Marroum P J., Uppoor R S, Parmelee T, et al. In vivo drug-drug interaction studies—A survey of all new molecular entities approved from 1987 to 1997 [J]. Clin Pharmacol Therap, 2000, 68: 280-285.",
+      "[37] Kuhlmann J. Drug interaction studies during drug development: which, when, how [J]. Int J Clin Pharmacol Ther, 1994, 32: 305-311.",
+      "[38] Tucker G T. The rational selection of drug interaction studies: implications of recent advances in drug metabolism [J]. Int J Clin Pharmacol Ther Toxicol, 1992, 30(11): 550-553.",
+      "[39] Samara E, Granneman R. Role of population pharmacokinetics in drug development: a pharmaceutical industry perspective [J]. Clin Pharmacokinet, 1997, 32(4): 294-312."
+    ],
+    "bbox": [
+      504,
+      95,
+      901,
+      910
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "- 278 -",
+    "bbox": [
+      102,
+      72,
+      145,
+      83
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research 第 37 卷 第 3 期 2014 年 6 月",
+    "bbox": [
+      269,
+      70,
+      727,
+      85
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      979
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      98,
+      96,
+      491,
+      860
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      504,
+      96,
+      898,
+      860
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research 第 37 卷 第 3 期 2014 年 6 月",
+    "bbox": [
+      269,
+      71,
+      727,
+      85
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "- 279 -",
+    "bbox": [
+      852,
+      72,
+      893,
+      83
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      29,
+      963,
+      812,
+      979
+    ],
+    "page_idx": 3
+  }
+]

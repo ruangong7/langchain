@@ -1,0 +1,787 @@
+[
+  {
+    "type": "text",
+    "text": "多样本 t 检验和正交比较在药物相互作用分析的应用",
+    "text_level": 1,
+    "bbox": [
+      201,
+      75,
+      773,
+      139
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "王军 张强",
+    "bbox": [
+      430,
+      158,
+      538,
+      174
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘 要 目的 探讨联合用药时药物相互作用的统计分析方法 方法 从一个实例着手 使用正交比较方法分析药物相互作用 并基于两样本比较 t 检验的基本原理 推导出进行多样本比较的 t 检验方法 并与正交比较的结果进行比较说明分析思路与计算方法 结果 对于药物相互作用的分析 当观察结果为定量资料时 使用多样本 t 检验和正交比较都能完成药物相互作用的定量分析 并且能够明确回答是拮抗作用 相加作用还是增强作用 两种方法的分析结果是等价的。结论：采用多样本 t 检验或正交比较对药物相互作用研究的资料进行分析结论更明确和可靠。",
+    "bbox": [
+      11,
+      196,
+      955,
+      285
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词 药物相互作用 正交比较 多样本 检验",
+    "bbox": [
+      48,
+      288,
+      463,
+      302
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［中图分类号］ R19 ［文献标识码］ A ［文章编号］ 1003－8507 （2006） 05－0709－03",
+    "bbox": [
+      48,
+      304,
+      730,
+      321
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "APPLICATION OF MULTISAMPLE T－TEST AND ORTHOGONAL CONTRASTS OF ANOVA IN QUANTITATIVE ANALYSIS OF DRUG INTERACTIONS IN COMBINES DRUG THERAPY． W A NG Jun ZHA NG Qiang Department of Health Statistics West China School of Public Health Sichuan U niversity610041 Chengdu",
+    "bbox": [
+      13,
+      325,
+      953,
+      377
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Abstract： Objective： T o explore some statistical methods for drug interactions in combined drug therapy．Method： Orthogonal contrasts was introduced to analysis the drug interactions in an example as a research about the combined effects of two drugs．According to fundamental theory of two sample t －testand set up a multi sample t －test to analysis the drug interactions．At last the results of orthogonal contrasts and multi sample t－test were compared．Results： Both multi sample t－test and orthogonal contrasts could analyse drug interactions in combined drug therapyw hen the experimental records were quantitative data．In a precise drug interactions could be distinguished as antagonismsummation or potentiation．And the results of orthogonal contrasts and multi sample t－test were equal．Conclusion： It can gain more explicit and credible conclusion of drug interactions by the application of the multi sample t －test or orthogonal contrasts",
+    "bbox": [
+      11,
+      380,
+      953,
+      521
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Key words： Drug interactionOrthogonal contrastsmulti sample t－test",
+    "bbox": [
+      48,
+      526,
+      581,
+      540
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "在药物治疗学领域 包括临床联合用药方案的设计与评价 中药方剂的配伍等 均要以药物相互作用的分析为依据 关于药物相互作用 可定义为 两种或多种药物合用或先后序贯应用 而且引起药物作用和效应的变化 并可从药效学方面将药的相互作用分为 协同作用 合并用药作用增加总称协同作用 拮抗作用 合并用药效应减弱 两药合同的效应小于它们分别作用的总和称拮抗作用 其中协同作用又可分为相加作用和增强作用［1］ 假设有两种药物 和 单用效应 $\\mathrm { E _ { A } } { = } 5 0 , \\ \\mathrm { E _ { B } } { = } 3 0$ 若两药合用效应 $\\mathrm { E _ { A } + _ { B } > 8 0 }$ 为增强作用 $\\mathrm { E } _ { \\mathrm { A } ^ { + } \\mathrm { B } } { = } 8 0$ 为相加作用$\\mathrm { E _ { A } + _ { B } } { \\stackrel { < } { \\sim } } 8 0$ 为拮抗作用",
+    "bbox": [
+      13,
+      563,
+      468,
+      762
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "由于药物相互作用研究方法学的重要性引起了世界范围内众多学者的关注 基于各自领域提出了很多分析方法；常用的包括等效线法、Finney 调和平均数法、Burgi 等效半量法、Chou-Talalay 合并指数法、Webb 分数乘积法等［2－6］。多数方法实际上未考虑实验误差而即使对同一药物 同一剂量 在不同批次的实验中 效应也不会完全一样 因此根据一次实验的结果 应进行假设检验才能得出更可靠的结论 本文就结果指标为定量变量的资料 借助 t 检验和正交比较分别进行分析 希望能为药物相互作用的定量研究提供方法学上的参考",
+    "bbox": [
+      13,
+      766,
+      468,
+      891
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      500,
+      562,
+      953,
+      614
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 资料和方法",
+    "text_level": 2,
+    "bbox": [
+      501,
+      627,
+      641,
+      644
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "资料来源 肺间质纤维化是多种病因引起的异质性疾病 其主要病理特点是早期的弥漫性肺泡炎和后期大量成纤维细胞的病理性增生及基质胶原进行性积聚并取代正常的肺组织结构［7］ 某研究者进行博来霉素致肺纤维化的干预研究 将自然环境中喂养 周的 只 大鼠 体质量$2 0 0 { \\sim } 2 5 0 _ { 9 } )$ 随机分成 组 正常对照组 一次性气管内注入生理盐水 $1 \\mathrm { m l / k g }$ 体重 每天腹腔注射生理盐水体重 组 一次性气管内给予 博来霉素体重 每天腹腔注射生理盐水 $2 \\ \\mathrm { m g / k g }$ 体重；③A药干预组：一次性气管内给予0∙5％博来霉素1ml／kg 体重 每天给予 剂量的 药 药干预组 一次性气管内给予 博来霉素 $1 \\mathrm { m l / k g }$ 体重 每天给予 剂量的药；⑤A、B 药合用组：一次性气管内给予0∙5％博来霉素1ml／kg 体重每天给予a 剂量的A 药和b 剂量的B 药联用进行干预 均是基本无毒性的药物 后处死所有大 使用统一的羟脯氨酸 试剂盒测定肺组织匀",
+    "bbox": [
+      500,
+      655,
+      955,
+      952
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "浆中 HYP结果见表1。",
+    "bbox": [
+      501,
+      955,
+      682,
+      969
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "现代预防医学2006年第33卷第5期Modern Preventive Medicine，2006，Vol.33，No.5",
+    "bbox": [
+      15,
+      21,
+      614,
+      34
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "",
+    "bbox": [
+      905,
+      20,
+      939,
+      33
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "【论著】",
+    "bbox": [
+      887,
+      53,
+      953,
+      70
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "作者单位 四川大学华西公共卫生学院卫生统计学教研室 成都",
+    "bbox": [
+      13,
+      914,
+      467,
+      943
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "作者简介 王军 男 在读卫生统计学硕士研究生",
+    "bbox": [
+      15,
+      948,
+      441,
+      961
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "",
+    "bbox": [
+      15,
+      963,
+      961,
+      980
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "table",
+    "img_path": "images/a41cba11030978d35cde182554f4485c5694deb676a23ed6a8bd91dead8b279f.jpg",
+    "table_caption": [
+      "表1 大鼠肺匀浆中 HYP 含量 $\\mathbf { ( m g / g ) }$"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>正常对照</td><td>BLM</td><td>A药</td><td>B药</td><td>A、B合用</td></tr><tr><td>1.17</td><td>2.95</td><td>2.63</td><td>3.17</td><td>1.53</td></tr><tr><td>1.41</td><td>2.64</td><td>2.60</td><td>2.71</td><td>1.95</td></tr><tr><td>1.37</td><td>3.09</td><td>2.59</td><td>2.79</td><td>1.75</td></tr><tr><td>1.30</td><td>3.01</td><td>2.66</td><td>2.50</td><td>1.94</td></tr><tr><td>1.11</td><td>3.27</td><td>2.84</td><td>2.56</td><td>1.68</td></tr><tr><td>1.29</td><td>3.12</td><td>2.72</td><td>2.63</td><td>1.92</td></tr><tr><td>1.25</td><td>3.23</td><td>2.58</td><td>2.49</td><td>2.28</td></tr><tr><td>1.12</td><td>2.60</td><td>2.08</td><td>2.61</td><td>1.84</td></tr></table>",
+    "bbox": [
+      23,
+      68,
+      457,
+      253
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "肺纤维化就是肺间质胶原的沉积 反映胶原代谢情况 含量越高 说明胶原沉积越多 即肺纤维化程度越重 如果药物干预有效的话 那么胶原沉积也就减少当然其代谢产物羟脯氨酸也会减少［7］ 该实验设计目的是通过比较 和正常对照的 含量 判断博来霉素致肺纤维化的模型制作是否成功 通过比较药物干预与的 含量 分析 药干预效果及相互作用如何",
+    "bbox": [
+      11,
+      258,
+      465,
+      385
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "方法 该资料中 含量为定量指标 使用成组检验的方法比较 组和正常对照组的 含量 差异有统计学意义 $\\left( \\mathrm { \\Omega } _ { t } = - 1 7 8 . 2 9 8 , \\mathrm { \\Omega } _ { P } < 0 . 0 0 1 \\right)$ 而 含量平均值BLM 组的 $2 . 9 9 \\ \\mathrm { m g / g }$ 高于正常对照组的 $1 . 2 5 ~ \\mathrm { m g } ^ { \\prime }$ ${ \\mathfrak { g } } ;$ 说明 组的肺纤维化程度重 即博来霉素致肺纤维化的模型制作是成功的 使用单因素方差分析的方法比较药干预 药干预 两药合用及 的 含量 结果见表 $2 _ { \\circ }$ 可见 组的 含量总体均数的差异有统计学意义 $\\langle F ^ { = } 3 4 . 5 7 2$  $P { \\ < } 0 . 0 0 1 \\rangle$ 进一步使用 LSD （最小有意义差异法 多重比较方法分析［8］ 结果见表",
+    "bbox": [
+      11,
+      387,
+      468,
+      570
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/aa39429da229d9d519d0e97b122b59d502748aab3c9996c7fa3208006b5e5ef0.jpg",
+    "table_caption": [
+      "表2 药物干预与BLM 的肺匀浆 HYP 含量比较结果 $( \\ n ^ { = } 8 )$"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td rowspan=\"2\">组别</td><td rowspan=\"2\"> $\\overline{x} \\pm s$ </td><td rowspan=\"2\">F值</td><td rowspan=\"2\">P值</td><td colspan=\"2\">LSD(与BLM比较)</td></tr><tr><td>均数差值</td><td>P值</td></tr><tr><td>A药干预</td><td>2.59±0.22</td><td></td><td></td><td>-0.40</td><td>0.002</td></tr><tr><td>B药干预</td><td>2.68±0.22</td><td></td><td></td><td>-0.31</td><td>0.012</td></tr><tr><td>A、B药合用</td><td>1.86±0.23</td><td>34.572</td><td>&lt;0.001</td><td>-1.13</td><td>&lt;0.001</td></tr><tr><td>BLM</td><td>2.99±0.25</td><td></td><td></td><td>—</td><td>—</td></tr></table>",
+    "bbox": [
+      13,
+      590,
+      468,
+      690
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "可见 个药物干预组 含量总体均数与 的相比其差异有统计学意义 $( \\mathbf { \\nabla } P { \\overset { < } { < } } 0 . 0 5 )$ 并且 平均含量均比 的低 因此 若以 药 药 药合用作为种治疗方案来看 可认为它们都是有效的 然而 此时的分析结果并不能回答 药 药的相互作用如何 进一步的分析是必要的",
+    "bbox": [
+      11,
+      713,
+      465,
+      820
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "假设 在 组的测定结果为 $\\mathrm { X } _ { 0 }$ 药干预组为$\\mathrm { X _ { A } }$ 药干预组为 $\\mathrm { X _ { B } }$ 药 药合用组为 $\\mathrm { X } _ { \\mathrm { A } ^ { + } \\mathrm { B } }$ 分析药 药的相互作用到底是拮抗作用 相加作用还是增强作用即判断是 $\\mathrm { E _ { A } + _ { B } < \\mathrm { E _ { A } + \\mathrm { E _ { B } , ~ \\mathrm { E _ { A } + _ { B } = \\mathrm { E _ { A } + \\mathrm { E _ { B } } } } } } } $ 还是 $\\mathrm { E } _ { \\mathrm { A } ^ { + } \\mathrm { B } }$ ${ > } \\mathrm { E _ { A } } { ^ { + } } \\mathrm { E _ { B } }$ 可假设 $\\mathrm { H } _ { 0 } \\colon \\mathrm { E } _ { \\mathrm { A } ^ { + } \\mathrm { B } } = \\mathrm { E } _ { \\mathrm { A } } + \\mathrm { E } _ { \\mathrm { B } }$ 进行假设检验该实验中 含量降低表示干预有效",
+    "bbox": [
+      11,
+      823,
+      467,
+      932
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\mathrm{E} _ {\\mathrm{A}} = \\mu_ {0} - \\mu_ {\\mathrm{A}}, \\mathrm{E} _ {\\mathrm{A} + \\mathrm{B}} = \\mu_ {0} - \\mu_ {\\mathrm{A} + \\mathrm{B}},\n$$",
+    "text_format": "latex",
+    "bbox": [
+      15,
+      937,
+      244,
+      951
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "故有（1）式：",
+    "bbox": [
+      15,
+      955,
+      104,
+      970
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\begin{array}{l} \\mathrm{E} _ {\\mathrm{A} + \\mathrm{B}} - \\left(\\mathrm{E} _ {\\mathrm{A}} + \\mathrm{E} _ {\\mathrm{B}}\\right) = \\mu_ {0} - \\mu_ {\\mathrm{A} + \\mathrm{B}} - \\left[ \\left(\\mu_ {0} - \\mu_ {\\mathrm{A}}\\right) + \\left(\\mu_ {0} - \\mu_ {\\mathrm{B}}\\right) \\right] \\\\ = \\mu_ {\\mathrm{A}} + \\mu_ {\\mathrm{B}} - \\mu_ {\\mathrm{A} + \\mathrm{B}} - \\mu_ {0} \\tag {1} \\\\ \\end{array}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      500,
+      52,
+      951,
+      86
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "因此假设 $\\mathrm { H } _ { 0 }$ ： $\\mu _ { _ \\mathrm { A } } + \\mu _ { _ \\mathrm { B } } = \\mu _ { _ \\mathrm { A } + _ { \\mathrm { B } } } + \\mu _ { 0 }$ 来进行假设检验是等价的。",
+    "bbox": [
+      500,
+      90,
+      951,
+      123
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "正交比较 根据 的观点［9］ 对多组均数间的多重比较实际上都可归结为对均数的线性组合$\\mathrm { L } { = } _ { \\mathrm { a } _ { 1 } } \\mu _ { 1 } { + } _ { \\mathrm { a } _ { 2 } } \\mu _ { 2 } { + } { \\ldots } { + } _ { \\mathrm { a _ { k } } } \\mu _ { \\mathrm { k } }$ 是否为 的假设检验 其中 $\\mathbf { a } 1$ $\\mathbf { a } _ { 2 } , \\cdots , \\mathbf { a } _ { \\mathrm { k } }$ 为研究者指定的常数 另有一比较 $\\mathrm { ~ L ~ } ^ { \\prime } =$ $\\mathbf { a } ^ { \\prime } { } _ { 1 } \\mu _ { 1 } + \\mathbf { a } ^ { \\prime } { } _ { 2 } \\mu _ { 2 } + \\ldots + \\mathbf { a } ^ { \\prime } { } _ { 3 } \\mu _ { 3 }$ 满足 $\\mathbf { a } _ { 1 } \\mathbf { a } ^ { \\prime } { } _ { 1 } + \\mathbf { a } _ { 2 } \\mathbf { a } ^ { \\prime } { } _ { 2 } + \\cdots + \\mathbf { a } _ { \\mathrm { k } } \\mathbf { a } ^ { \\prime } { } _ { \\mathrm { k } } = 0$ 称 和 $\\mathrm { ~ L ~ } ^ { \\prime }$ 是相互正交的",
+    "bbox": [
+      500,
+      126,
+      953,
+      235
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "对于有 个组的样本 ${ \\mathrm { S S } } _ { \\mathrm { r } }$ 表示处理因素的总离均差平方和 其自由度应为 而 $\\hat { { \\mathrm { L } } } _ { 1 } , ~ \\hat { { \\mathrm { L } } } _ { 2 } , ~ \\cdots , ~ \\hat { { \\mathrm { L } } } _ { \\mathrm { { m } } }$ 是对个样本总体均数的两两正交的比较。因此 ${ \\mathrm { S S } } _ { \\mathrm { r } }$ 可以被分解成 $\\mathbf { m } + 1$ 部分的 包括每个正交比较对应的 部分的以及剩下一部分的残差 如 式所示",
+    "bbox": [
+      500,
+      239,
+      953,
+      332
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\mathrm{SS} _ {\\mathrm{r}} = \\mathrm{SS} (\\hat {\\mathrm{L}} _ {1}) + \\mathrm{SS} (\\hat {\\mathrm{L}} _ {2}) + \\dots + \\mathrm{SS} (\\hat {\\mathrm{L}} _ {\\mathrm{m}}) + \\mathrm{SS} _ {\\mathrm{E}} \\tag {2}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      534,
+      338,
+      951,
+      355
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "其中 ${ \\bf S } { \\bf S } _ { \\mathrm { E } }$ 即为残差 $\\mathrm { S S \\ : \\Gamma ( \\hat { L } ) }$ 表示每个正交比较对应的$\\mathrm { S S }$ 自由度为1计算方法如 （3） 式所示：",
+    "bbox": [
+      500,
+      363,
+      951,
+      397
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\mathrm{SS} \\left(\\hat {\\mathrm{L}} _ {1}\\right) = \\frac {\\left(\\hat {\\mathrm{L}}\\right) ^ {2}}{\\sum_ {\\mathrm{i} = 1} ^ {\\mathrm{k}} \\left(\\mathrm{a} _ {\\mathrm{i}} ^ {2} / \\mathrm{n}\\right)}, \\text {而} \\hat {\\mathrm{L}} = \\sum_ {\\mathrm{i} = 1} ^ {\\mathrm{k}} \\mathrm{a} _ {1} \\overline {{\\mathrm{x}}} _ {\\mathrm{i}} \\tag {3}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      534,
+      401,
+      951,
+      442
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "如果要进行 次正交比较 那么即假设 $\\mathrm { H } _ { \\mathrm { 0 } }$ $\\sum _ { \\mathrm { i } = 1 } ^ { \\mathrm { k } } \\mathbf { c } _ { \\mathrm { i } } { \\boldsymbol { \\mu } } _ { \\mathrm { i } }$ 并且有 $= 0 ;$ $\\frac { \\mathrm { . S S \\ ( L ) } } { \\mathrm { M S _ { e } } } { \\sim } _ { \\mathrm { F 1 , n - k } }$ MSe $\\mathbf { M S _ { e } }$ 内均方。检验统计量如 （4） 式所示此时据 F 界值表求 P值即可得出统计学结论",
+    "bbox": [
+      500,
+      445,
+      953,
+      526
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\mathrm{F} = \\frac {\\left[ \\mathrm{SS} \\left(\\hat {\\mathrm{L}} _ {1}\\right) + \\mathrm{SS} \\left(\\hat {\\mathrm{L}} _ {2}\\right) + \\dots + \\mathrm{SS} \\left(\\hat {\\mathrm{L}} _ {\\mathrm{m}}\\right) \\right] / \\mathrm{m}}{\\mathrm{MS} _ {\\mathrm{e}}} \\sim \\mathrm{F} _ {\\mathrm{m}, \\mathrm{n} - \\mathrm{k}} \\tag {4}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      500,
+      531,
+      951,
+      562
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "多样本 t 检验 在该实验中 假设 $\\mu _ { \\mathrm { A } } + \\mu _ { \\mathrm { B } } =$ $\\mu _ { \\mathrm { A ^ { + } B } } + \\mu _ { \\mathrm { 0 } }$ 为四组样本的比较 假定各正态总体方差相等此时合并方差 $\\mathrm { \\bf S _ { p o o l } ^ { 2 } }$ 计算如 （5） 所示：",
+    "bbox": [
+      500,
+      565,
+      951,
+      617
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\begin{array}{l} \\mathrm{S} _ {\\text { pool }} ^ {2} = \\left[ \\mathrm{S} _ {\\mathrm{A}} ^ {2} \\left(\\mathrm{n} _ {\\mathrm{A}} - 1\\right) + \\mathrm{S} _ {\\mathrm{B}} ^ {2} \\left(\\mathrm{n} _ {\\mathrm{B}} - 1\\right) + \\mathrm{S} _ {\\mathrm{A} + \\mathrm{B}} ^ {2} \\left(\\mathrm{n} _ {\\mathrm{A} + \\mathrm{B}} - 1\\right) \\right. \\\\ \\left. + \\mathrm{S} _ {0} ^ {2} \\left(\\mathrm{n} _ {0} - 1\\right) \\right] / \\left(\\mathrm{n} _ {\\mathrm{A}} + \\mathrm{n} _ {\\mathrm{B}} + \\mathrm{n} _ {\\mathrm{A} + \\mathrm{B}} + \\mathrm{n} _ {0} - 4\\right) \\tag {5} \\\\ \\end{array}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      534,
+      619,
+      951,
+      656
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "又假定各组实验数据相互独立 有以下关系［10］",
+    "bbox": [
+      536,
+      660,
+      903,
+      676
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\begin{array}{l} \\left(\\mathrm{n} _ {\\mathrm{A}} - 1\\right) \\mathrm{S} _ {\\mathrm{A}} ^ {2} / \\sigma^ {2} \\sim \\chi_ {\\mathrm{N} _ {\\mathrm{A}} - 1} ^ {2}; \\quad \\left(\\mathrm{n} _ {\\mathrm{B}} - 1\\right) \\mathrm{S} _ {\\mathrm{B}} ^ {2} / \\sigma^ {2} \\sim \\chi_ {\\mathrm{N} _ {\\mathrm{B}} - 1} ^ {2}; \\quad \\left(\\mathrm{n} _ {\\mathrm{A} + \\mathrm{B}} - \\right. \\\\ 1) \\mathrm{S} _ {\\mathrm{A} + \\mathrm{B}} ^ {2} / \\sigma^ {2} \\sim \\chi_ {\\mathrm{N} _ {\\mathrm{A}} + \\mathrm{B} - 1} ^ {2}; (\\mathrm{n} _ {0} - 1) \\mathrm{S} _ {0} ^ {2} / \\sigma^ {2} \\sim \\chi_ {\\mathrm{N} _ {0} - 1} ^ {2} \\\\ \\Rightarrow \\left[ S _ {A} ^ {2} \\left(n _ {A} - 1\\right) + S _ {B} ^ {2} \\left(n _ {B} - 1\\right) + S _ {A + B} ^ {2} - 1\\right) + S _ {0} ^ {2} \\left(n _ {0} - 1\\right) ] / \\sigma^ {2} \\\\ = \\left(\\mathrm{n} _ {\\mathrm{A}} + \\mathrm{n} _ {\\mathrm{B}} + \\mathrm{n} _ {\\mathrm{A} + \\mathrm{B}} + \\mathrm{n} _ {0} - 4\\right) \\mathrm{S} _ {\\text {pool}} ^ {2} / \\sigma^ {2} \\sim \\chi_ {\\left(\\mathrm{n} _ {\\mathrm{A}} + \\mathrm{n} _ {\\mathrm{B}} + \\mathrm{n} _ {\\mathrm{A} + \\mathrm{B} + \\mathrm{n} _ {0} - 4}\\right)} ^ {2} \\\\ \\end{array}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      501,
+      678,
+      951,
+      758
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "此时结合成组设计两样本资料的比较 t 检验基本原理［8］ 对 $\\mu _ { \\mathrm { A } } + \\mu _ { \\mathrm { B } } = \\mu _ { \\mathrm { A } + \\mathrm { B } } +$ 的假设检验的统计量有所示",
+    "bbox": [
+      500,
+      762,
+      951,
+      813
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\begin{array}{l} t ^ {*} = \\frac {\\left(\\overline {{\\mathrm{X}}} _ {\\mathrm{A}} + \\overline {{\\mathrm{X}}} _ {\\mathrm{B}} + \\overline {{\\mathrm{X}}} _ {\\mathrm{A} + \\mathrm{B}} - \\overline {{\\mathrm{X}}} _ {0}\\right) - \\left(\\mu_ {\\mathrm{A}} + \\mu_ {\\mathrm{B}} - \\mu_ {\\mathrm{A} + \\mathrm{B}} - \\mu_ {0}\\right)}{\\mathrm{S} _ {\\text {poot}} \\sqrt {1 / \\mathrm{n} _ {\\mathrm{A}} + 1 / \\mathrm{n} _ {\\mathrm{B}} + 1 / \\mathrm{n} \\mathrm{A} + \\mathrm{B} + 1 / \\mathrm{n} _ {0}}} \\\\ = \\frac {\\left(\\overline {{\\mathrm{X}}} _ {\\mathrm{A}} + \\overline {{\\mathrm{X}}} _ {\\mathrm{B}} + \\overline {{\\mathrm{X}}} _ {\\mathrm{A} + \\mathrm{B}} - \\overline {{\\mathrm{X}}} _ {0}\\right) - \\left(\\mu_ {\\mathrm{A}} + \\mu_ {\\mathrm{B}} - \\mu_ {\\mathrm{A} + \\mathrm{B}} - \\mu_ {0}\\right)}{\\sigma \\sqrt {1 / \\mathrm{n} _ {\\mathrm{A}} + 1 / \\mathrm{n} _ {\\mathrm{B}} + 1 / \\mathrm{n} \\mathrm{A} + \\mathrm{B} + 1 / \\mathrm{n} _ {0}}} / \\mathrm{S} _ {\\text {poot}} / \\\\ \\sigma \\\\ = \\frac {u}{\\sqrt {\\mathrm{S} _ {\\text {poot}} ^ {2} / \\sigma^ {2}}} = \\frac {\\mathrm{N} (0 , 1)}{\\sqrt {\\frac {\\chi_ {\\mathrm{n} _ {\\mathrm{A}}} ^ {2} + \\mathrm{n} _ {\\mathrm{B}} + \\mathrm{n} _ {\\mathrm{A} + \\mathrm{B}} + \\mathrm{n} _ {0} - 4}{\\mathrm{n} _ {\\mathrm{A}} + \\mathrm{n} _ {\\mathrm{B}} + \\mathrm{n} _ {\\mathrm{A} + \\mathrm{B}} + \\mathrm{n} _ {0} - 4}}} \\tag {6} \\\\ \\end{array}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      501,
+      816,
+      951,
+      952
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "其中 （X ＋X ＋X －X ） 与 S 是相互独立的［10］。",
+    "bbox": [
+      538,
+      952,
+      943,
+      968
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "710",
+    "bbox": [
+      27,
+      20,
+      60,
+      33
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "现代预防医学 2006年第33卷第5期Modern Preventive Medicine，2006，Vol.33，No.5",
+    "bbox": [
+      350,
+      22,
+      953,
+      34
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "A B A＋B 0  poot",
+    "bbox": [
+      34,
+      961,
+      961,
+      977
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "基于 $\\mathrm { H o } _ { \\colon } \\mu _ { \\mathrm { A } } + \\mu _ { \\mathrm { B } } = \\mu _ { \\mathrm { A } + \\mathrm { B } } + \\mu _ { 0 }$ 的假设 统计量 ∗ 服从自由度为 $\\mathrm { \\mathbf { n } _ { A } + \\mathbf { n } _ { B } + \\mathbf { n } _ { A } + \\mathbf { \\bar { B } } + \\mathbf { n } _ { 0 } - 4 }$ 的 分布 求出 P 值并依据一定的检验水准即可得出统计学结论",
+    "bbox": [
+      13,
+      52,
+      468,
+      103
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2 结果",
+    "text_level": 2,
+    "bbox": [
+      13,
+      114,
+      91,
+      131
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "正交比较 在该实验中 已知道 药 药均有效还应分析 药 药的相互作用 即进行 $\\mu _ { \\mathrm { A } } + \\mu _ { \\mathrm { B } } =$ $\\mu _ { _ \\mathrm { A } + _ { \\mathrm { B } } } + \\mu _ { _ 0 }$ 的假设检验 按照正交比较基本原理 此时只进行了一次比较故只需指定对应 ${ \\mu } _ { \\mathrm { A } ^ { + } \\mathrm { B } \\setminus \\mathrm { ~ } } \\{ \\mu  _ { \\mathrm { 0 } \\setminus \\mathrm { ~ } } { \\mu } _ { \\mathrm { A } \\setminus \\mathrm { ~ } } { \\mu } _ { \\mathrm { B } }$ 的一组系数即可即 $^ { 1 , ~ 1 , ~ - 1 , ~ - 1 }$ 。即检验：H ： $\\mathrm { L } = \\mu _ { _ { \\mathrm { A } } } + \\mu _ { _ { \\mathrm { B } } }$ $= \\mu _ { \\mathrm { A + B } } + \\mu _ { 0 } = 0$ 因此结合表 结果有",
+    "bbox": [
+      13,
+      142,
+      463,
+      156
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      500,
+      52,
+      953,
+      141
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\mathrm{SS} \\left(\\hat {\\mathrm{L}} _ {\\mathrm{m}}\\right) = \\frac {[ 1 \\times 2 . 5 9 + 1 \\times 2 . 6 8 + (- 1) \\times 1 . 8 6 + (- 1) \\times 1 . 8 6 + (- 1) \\times 2 . 9 9 ] ^ {2}}{1 ^ {2} / 8 + 1 ^ {2} / 8 + (- 1) ^ {2} / 8 + (- 1) ^ {2} / 8} = 0. 3 5 2 8\n$$",
+    "text_format": "latex",
+    "bbox": [
+      120,
+      159,
+      844,
+      190
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "此时的检验统计量 $\\mathrm { F } = \\frac { \\mathrm { S S \\ ( \\hat { L } _ { m } ) } } { \\mathrm { M S _ { e } } } { = } \\frac { 0 . 3 5 2 8 } { 0 . 0 5 2 8 } { = } 6 . 8 2$ 6.82，并且服从 $\\mathrm { F _ { 1 , 2 8 } }$ 分布 据 界值表有 $0 . 0 1 { \\ < } \\mathrm { \\underline { { P } } } { < } 0 . 0 5$ 以 的检验水准即可拒绝 并且此时有 $( \\overline { { \\mathrm { X } } } _ { \\mathrm { A } } + \\overline { { \\mathrm { X } } } _ { \\mathrm { B } } - \\overline { { \\mathrm { X } } } _ { \\mathrm { A } + \\mathrm { B } } - \\overline { { \\mathrm { X } } } _ { \\mathrm { 0 } } )$",
+    "bbox": [
+      13,
+      218,
+      468,
+      281
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "${ > } 0$ 因此结合 （1） 式可认为有 $\\mathrm { E _ { A } + _ { B } - \\Sigma ( E _ { A } + E _ { B } ) \\Sigma > 0 }$ 之结论 表明 药 药合用为增强作用",
+    "bbox": [
+      496,
+      213,
+      953,
+      246
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "多样本 检验 基于 $\\mu _ { _ \\mathrm { A } + \\mathrm { B } } + \\mu _ { 0 } = \\mu _ { _ \\mathrm { A } } + \\mu _ { _ \\mathrm { B } }$ 的假设 结合表 结果 检验统计量计算有",
+    "bbox": [
+      496,
+      250,
+      953,
+      283
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\begin{array}{r l} \\mathrm{t} ^ {*} = & \\frac {\\overline {{\\mathrm{X}}} _ {\\mathrm{A}} + \\overline {{\\mathrm{X}}} _ {\\mathrm{B}} - \\overline {{\\mathrm{X}}} _ {\\mathrm{A} + \\mathrm{B}} - \\overline {{\\mathrm{X}}} _ {0}}{\\sqrt {\\frac {\\mathrm{S} _ {\\mathrm{A}} ^ {2} (\\mathrm{n} _ {\\mathrm{A}} - 1) + \\mathrm{S} _ {\\mathrm{B}} ^ {2} (\\mathrm{n} _ {\\mathrm{B}} - 1) + \\mathrm{S} _ {\\mathrm{A} + \\mathrm{B}} ^ {2} (\\mathrm{n} _ {\\mathrm{A} + \\mathrm{B}} - 1) + \\mathrm{S} _ {0} ^ {2} (\\mathrm{n} _ {0} - 1)}{\\mathrm{n} _ {\\mathrm{A}} + \\mathrm{n} _ {\\mathrm{B}} + \\mathrm{n} _ {\\mathrm{A} + \\mathrm{B}} + \\mathrm{n} _ {0} - 4} (\\frac {1}{\\mathrm{n} _ {\\mathrm{A}}} + \\frac {1}{\\mathrm{n} _ {\\mathrm{B}}} + \\frac {1}{\\mathrm{n} _ {\\mathrm{A} + \\mathrm{B}}} + \\frac {1}{\\mathrm{n} _ {0}})}} \\\\ = & \\frac {2 . 5 9 + 2 . 6 8 - 1 . 8 6 - 2 . 9 9}{\\sqrt {\\frac {0 . 2 2 ^ {2} (8 - 1) + 0 . 2 2 ^ {2} (8 - 1) + 0 . 2 3 ^ {2} (8 - 1) + 0 . 2 5 ^ {2} (8 - 1)}{8 + 8 + 8 + 8 - 4} (\\frac {1}{8} + \\frac {1}{8} + \\frac {1}{8} + \\frac {1}{8})}} \\\\ = & 2. 5 7 9 \\end{array}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      98,
+      286,
+      808,
+      391
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "自由度为 $8 + 8 + 8 + 8 - 4 = 2 8$ 根据 t 界值表有$< P { \\overset { \\smile } { \\subset } } 0 . 0 2$ 以 的检验水准即可拒绝 $_ \\mathrm { H _ { 0 } ; }$ 同理因为有$\\overline { { \\mathrm { X } } } _ { \\mathrm { A } } + \\overline { { \\mathrm { X } } } _ { \\mathrm { B } } + \\overline { { \\mathrm { X } } } _ { \\mathrm { A + B } } - \\overline { { \\mathrm { X } } } _ { \\mathrm { 0 } } > 0$ 可认为 $\\mathrm { E _ { A } + _ { B } - \\Gamma ( E _ { A } + E _ { B } ) \\subset 0 }$ 表明 药 药合用为增强作用 多样本 t 检验结果 $\\mathbf { t } ^ { \\mathrm { ~ \\tiny ~ * ~ } } =$ 此时 $\\mathrm { { F } } ^ { \\approx } \\ ( \\mathrm { { t } } ^ { \\ast } ) ^ { 2 }$ 微小的差异只是由于计算中 舍入保留小数位数不同造成的 因此 对于同一资料的分析 使用多样本 t 检验和正交比较结果是等价的",
+    "bbox": [
+      11,
+      399,
+      468,
+      524
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "text_level": 2,
+    "bbox": [
+      13,
+      536,
+      89,
+      552
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "正交比较是方差分析中的多重比较方法之一 它不再束缚于简单的两两比较 可以通过指定 $\\mathbf { a _ { i } }$ 的值完成更多更复杂的比较 根据研究目的 一次实验中可以仅进行一个比较 也可以同时进行多个比较 只要这些比较之间两两正交即可 本文以药物相互作用为例 将合用药效应与单独用药效应之和进行比较 这是普通两两比较方法无法完成的 而使用正交比较不但能够对差异进行假设检验而且能够明确回答两药物相互作用是拮抗作用、相加作用还是协同作用 本文根据成组两样本 检验的基本原理进行分析与推导 得到多样本 t 检验公式 将 t 检验扩展到多样本比较中的应用 对药物相互作用分析的结果同样是明确而可靠的 并且与正交比较分析结果等价",
+    "bbox": [
+      11,
+      563,
+      468,
+      779
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "传统分析方法在分析药物相互作用时 大多数没有考虑实验误差 也没有依据假设检验结果来做结论 考虑到对于实验研究 抽样误差是不可避免的 而多样本 t 检验正交比较均考虑了抽样误差 因此分析的结论更为可靠传统分析方法多数要使用专门的软件进行分析 而正交比较 多样本 t 检验使用目前国内外常用的统计分析软件如SAS、SPSS、Stata 等均可直接完成这无疑对相关研究者有不小的帮助",
+    "bbox": [
+      11,
+      781,
+      468,
+      923
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "本文从药物相互作用分析出发 进行多样本 t 检验正交比较的应用研究 虽然文中仅进行了两种药物相互作用的分析 但是不难证明 对于两种以上药物相互作用的分析使用多样本 t 检验、正交比较仍然能够完成。另外本文仅将两种分析方法应用到固定比例联用的药物相互作用分析 在药物治疗学领域还包括多比例多剂量水平的组方优选实验等情况；依据正交比较的基本思想考虑药物的剂量反应关系 建立更复杂的模型来进行分析可能是可行方法之一 具体的分析方法有待进一步的研究",
+    "bbox": [
+      13,
+      928,
+      468,
+      960
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      496,
+      399,
+      953,
+      524
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "［参考文献］",
+    "text_level": 2,
+    "bbox": [
+      680,
+      528,
+      771,
+      542
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "李端 药理学 第 版 北京 人民卫生出版社52-54.",
+      "戴体俊 合并用药的定量分析 中国药理学通报14(5)：479-480.",
+      "郑青山 药物相互作用动力学理论与实践 中国科学技术大学博士学位论文，2001．17—23，88—101.",
+      "徐端正 生物统计在实验和临床药理学中的应用 北京科学出版社，2004，341—359.",
+      "［5］ Chou T CT alalay P．Quantitative analysis of dose effect relationships：the combined effects of multiple drugs or enzyme inhibitors [J]．Adv Enzyme Requl．1984，22，27—55.",
+      "郑青山 孙瑞元 映射法分析药物联合治疗的相互作用中国药理学报，2002，21(2)，183—187.",
+      "柴文戍 李永春 刘玉玲 等 博来霉素致肺纤维化大鼠形态学变化的实验研究 中国实验动物学报77-81.",
+      "倪宗瓒 医学统计学 北京 高等教育出版社82—136.",
+      "[9]David G．Kleinbaum，Law rence L．Kupper，Keith E．Muller,and Azhar Nizam·Applied Regression Analysis and Other Multi-variable Methods·Third Edition［M].California：Brokks/Cole,北京 机械工业出版社",
+      "茆诗松 王静龙 濮晓龙 高等数理统计 北京 高等教育出版社，德国：施普林格出版社，1998．45一61."
+    ],
+    "bbox": [
+      500,
+      545,
+      953,
+      945
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "[收稿日期]2005—04—30",
+    "bbox": [
+      771,
+      948,
+      953,
+      961
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "现代预防医学 2006年第33卷第5期Modern Preventive Medicine，2006，Vol.33，No.5",
+    "bbox": [
+      13,
+      22,
+      614,
+      34
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "711",
+    "bbox": [
+      905,
+      20,
+      937,
+      33
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      34,
+      961,
+      961,
+      977
+    ],
+    "page_idx": 2
+  }
+]

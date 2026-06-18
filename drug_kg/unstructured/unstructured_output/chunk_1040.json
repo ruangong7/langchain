@@ -1,0 +1,328 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "恩沙替尼",
+        "canonical_name": "恩沙替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "可洛派韦",
+        "canonical_name": "可洛派韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "依米他韦",
+        "canonical_name": "依米他韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "瑞舒伐他汀",
+        "canonical_name": "瑞舒伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "泽布替尼",
+        "canonical_name": "泽布替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "地高辛",
+        "canonical_name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "阿美替尼",
+        "canonical_name": "阿美替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "非索非那定",
+        "canonical_name": "非索非那定",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "阿帕替尼",
+        "canonical_name": "阿帕替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "canonical_name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "P-gp抑制剂",
+        "canonical_name": "P-gp抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "P-gp诱导剂",
+        "canonical_name": "P-gp诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "P-gp底物",
+        "canonical_name": "P-gp底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "BCRP底物",
+        "canonical_name": "BCRP底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "OATP1B3底物",
+        "canonical_name": "OATP1B3底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "MATE1底物",
+        "canonical_name": "MATE1底物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "治疗期间应慎用对P-gp有抑制作用的药物。如果患者合并服用了这类药物，应密切观察临床不良反应。与P-gp诱导剂联合使用可能会导致恩沙替尼血药浓度降低。",
+          "chunk_id": "1040"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "与P-gp诱导剂联合使用可能会导致恩沙替尼血药浓度降低。",
+          "chunk_id": "1040"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "可洛派韦为P-gp转运体的底物，合用P-gp转运体抑制剂或诱导剂可能会升高或降低可洛派韦血药浓度，影响其疗效或增加不良反应风险。",
+          "chunk_id": "1040"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "可洛派韦为P-gp转运体的底物，合用P-gp转运体抑制剂或诱导剂可能会升高或降低可洛派韦血药浓度，影响其疗效或增加不良反应风险。",
+          "chunk_id": "1040"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "依米他韦是P-gp、BCRP、OATP1B1、OATP1B3和OATP2B1的抑制剂，临床上依米他韦和OATP1B3及BCRP的底物瑞舒伐他汀联用后，瑞舒伐他汀的Cmax和AUC0-t分别增加了72.4%和58.0%，因此，不建议瑞舒伐他汀钙与依米他韦同时服用。",
+          "chunk_id": "1040"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "泽布替尼对地高辛（P-gp底物）和瑞舒伐他汀（BCRP底物）药动学的影响，结果显示地高辛和瑞舒伐他汀的AUC0-t变化程度均低于15%。",
+          "chunk_id": "1040"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "泽布替尼对地高辛（P-gp底物）和瑞舒伐他汀（BCRP底物）药动学的影响，结果显示地高辛和瑞舒伐他汀的AUC0-t变化程度均低于15%。",
+          "chunk_id": "1040"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "阿美替尼对P-gp底物（非索非那定）药代动力学影响试验",
+          "chunk_id": "1040"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "阿帕替尼对瑞舒伐他汀（BCRP底物）和二甲双胍（MATE1底物）在实体瘤患者药代动力学影响试验",
+          "chunk_id": "1040"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "阿帕替尼对瑞舒伐他汀（BCRP底物）和二甲双胍（MATE1底物）在实体瘤患者药代动力学影响试验",
+          "chunk_id": "1040"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "可洛派韦为P-gp转运体的底物",
+          "chunk_id": "1040"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "依米他韦是P-gp、BCRP、OATP1B1、OATP1B3和OATP2B1的抑制剂",
+          "chunk_id": "1040"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "瑞舒伐他汀（BCRP底物）",
+          "chunk_id": "1040"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "OATP1B3及BCRP的底物瑞舒伐他汀",
+          "chunk_id": "1040"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "地高辛（P-gp底物）",
+          "chunk_id": "1040"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "非索非那定（P-gp底物）",
+          "chunk_id": "1040"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1040,
+          "raw_text": "二甲双胍（MATE1底物）",
+          "chunk_id": "1040"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1040,
+    "source": "凡默谷",
+    "text": "。治疗期间应慎用对P-gp有抑制作 用的药物。如果患者合并服用了这类药物，应密 切观察临床不良反应。与P-gp诱导剂联合使用 可能会导致恩沙替尼血药浓度降低。治疗期间 应慎用对P-gp有诱导作用的药物。如果患者合 并服用了这类药物，应对其进行密切临床观察。可洛派韦为P-gp转运体的底物，合用P-gp 转运体抑制剂或诱导剂可能会升高或降低可洛 派韦血药浓度，影响其疗效或增加不良反应风 险。2.2试验药物作为转运体的抑制剂/诱导剂 2.2.1 依米他韦[37]依米他韦是P-gp、]CRP、0JTP1]1)1]3)2]1和0JT1)3的抑制剂，临床上依 米他韦和0JTP1B3及BCRP的底物瑞舒伐他汀联用后，瑞舒伐他汀的CmaX和JUC〇-t分别增加了 72.4%和58.0%，因此，不建议瑞舒伐他汀钙与依 米他韦同时服用。2.2.2泽布替尼[28]尽管体外试验表明泽布替 尼在10 pmol)L浓度下，对P-gp和]CRP未表现出显著抑制作用，但考虑到泽布替尼的高口服剂 量和给药频率(160 mg, BID),临床上考察了泽布 替尼对地高辛（P-gp底物）和瑞舒伐他汀（]CRP 底物）药动学的影响，结果显示地高辛和瑞舒伐 他汀的JUC0-t变化程度均低于15%。2.2.3其他在“药物临床试验登记与信息公布 平台”上，可查到已完成的阿美替尼对P-gp底物 (非索非那定）药代动力学影响试验（登记号 CTR20201145)以及正在进行的阿帕替尼对瑞舒伐 他汀（BCRP底物）和二甲双胍（MJTE1底物）在实 体瘤患者药代动力学影响试验（登记号 CTR20201443)"
+  }
+]

@@ -1,0 +1,975 @@
+[
+  {
+    "type": "text",
+    "text": "基于细胞色素 P450 酶的丹参代谢及其药物相互作用的研究进展",
+    "text_level": 1,
+    "bbox": [
+      102,
+      117,
+      782,
+      139
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "张飞燕，俸 珊，徐晓玉\\*",
+    "bbox": [
+      120,
+      154,
+      320,
+      169
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "西南大学药学院，重庆 400716",
+    "bbox": [
+      121,
+      172,
+      331,
+      186
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘 要：近年来，丹参被广泛应用于心脑血管疾病的治疗，因此，丹参活性成分的体内代谢及其药物间相互作用越来越受关注。就丹参提取物、主要单体成分和丹参复方基于细胞色素 P450 酶（CYP450s）的代谢及药物间相互作用的研究进展进行综述，为丹参及其活性成分的应用和研究提供参考。",
+    "bbox": [
+      100,
+      207,
+      892,
+      255
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词：丹参；细胞色素P450酶；药物代谢；提取物；单体成分；中药复方",
+    "bbox": [
+      102,
+      258,
+      600,
+      272
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号：R285 文献标志码：A 文章编号：0253 - 2670(2016)01 - 0175 - 08",
+    "bbox": [
+      102,
+      274,
+      679,
+      289
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "DOI: 10.7501/j.issn.0253-2670.2016.01.026",
+    "bbox": [
+      102,
+      292,
+      370,
+      306
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Research progress on metabolism and interaction of Salvia miltiorrhiza based on cytochrome P450s",
+    "text_level": 1,
+    "bbox": [
+      102,
+      323,
+      884,
+      364
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "ZHANG Fei-yan, FENG Shan, XU Xiao-yu",
+    "bbox": [
+      118,
+      380,
+      427,
+      395
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Pharmacy college, Southwest University, Chongqing 400716, China",
+    "bbox": [
+      120,
+      398,
+      526,
+      412
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Abstract: In recent years, the Chinese medicine Salvia miltiorrhiza has been widely used in cardiovascular and cerebrovascular diseases. So, the interaction between S. miltiorrhiza and cytochrome P450s are focused increasingly. This review summarized the research progress on the cytochrome P450s-based metabolism and interaction of S. miltiorrhiza, including its extracts, major individuals, and S. miltiorrhiza-based formulas. It systematically summarized the information which were useful for the further applications and researches on S. miltiorrhiza and its active components.",
+    "bbox": [
+      100,
+      433,
+      892,
+      514
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Key words: Salvia miltiorrhiza Bunge; cytochrome P450; drug metabolism; extract; individual; formula",
+    "bbox": [
+      102,
+      518,
+      721,
+      531
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "丹参为唇形科植物丹参 Salvia miltiorrhiza Bunge的干燥根及根茎，含有脂溶性和水溶性成分。脂溶性成分有丹参酮 $\\mathrm { { I I } _ { A } , }$ 、隐丹参酮和丹参酮I等，具有抗菌、抗炎和改善血液循环等药理作用；水溶性成分有原儿茶醛及丹参素等，在抗氧化、抗凝血、抗血栓形成、调血脂和细胞保护方面作用明显[1-2]，因此，丹参在临床上被广泛应用于心脑血管疾病的治疗。随着临床上丹参及其与其他药物不良反应的发生[3-5]，如过敏、出血、皮疹、休克甚至死亡，使得人们逐渐意识到丹参与药物代谢、相互作用之间关系的重要性，其主要是由细胞色素 P450 酶（CYP450s）所介导的。本文就近年来关于丹参经 CYP450s 代谢及药物间相互作用的研究进展进行综述，为掌握该药的代谢特点和指导临床合理用药提供参考。",
+    "bbox": [
+      102,
+      546,
+      484,
+      805
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 主要的 CYP450s 简介",
+    "text_level": 2,
+    "bbox": [
+      102,
+      809,
+      294,
+      823
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "药物代谢酶是参与各种物质在体内进行生物转化的重要酶系，按其催化反应类型可分为 I 相酶系和 II 相酶系。CYP450s是 I 相代谢酶，也是最重要、参与代谢最广泛的酶系，1958 年，由 Klingenberg与 Garfinkel 发现。CYP450s 是一种以血红素为辅基的 b 族细胞色素氧化酶超家族。当血红素铁接受电子被还原后再与CO结合，在450 nm有特征吸收峰，因此得名为 CYP450s[6-7]。人体内 CYP450s 主要存在于肝脏和小肠中，其中参与肝内药物代谢的CYP450s 主要有 CYP3A4、CYP2D6、CYP2C9、CYP2E1、CYP1A2、CYP2A6；而参与肝外药物代谢的 CYP450s 主要有 CYP1A1 和 CYP1B1[8-9]。这个超大家族可催化多种药物、前毒物、前致癌物等外源性物质的氧化和还原代谢，以及类固醇激素、花生四烯酸等内源性物质的合成和代谢，在调节机体对外界刺激的反应以及保持机体内环境稳定中起重要作用[10]。",
+    "bbox": [
+      136,
+      827,
+      482,
+      842
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      508,
+      545,
+      892,
+      843
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中草药 Chinese Traditional and Herbal Drugs 第 47 卷 第 1 期 2016 年 1 月",
+    "bbox": [
+      245,
+      72,
+      749,
+      87
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "·175·",
+    "bbox": [
+      842,
+      73,
+      887,
+      85
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "收稿日期：2015-05-11",
+    "bbox": [
+      136,
+      857,
+      258,
+      869
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "基金项目：国家自然科学基金面上项目（81473549）；国家科技重大新药创制专项（2014ZX09304-306-04）",
+    "bbox": [
+      138,
+      870,
+      702,
+      881
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "作者简介：张飞燕（1990—），女，硕士在读，从事中药药理学研究。E-mail: 15087279653@sina.cn",
+    "bbox": [
+      138,
+      882,
+      666,
+      893
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "\\*通信作者 徐晓玉，女，教授，博士生导师。E-mail: xxy0618@sina.com",
+    "bbox": [
+      138,
+      894,
+      528,
+      905
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      808,
+      979
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2 丹参经 CYP450s 代谢及对该酶活性的影响",
+    "text_level": 2,
+    "bbox": [
+      100,
+      101,
+      448,
+      117
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.1 丹参提取物",
+    "text_level": 2,
+    "bbox": [
+      100,
+      120,
+      232,
+      135
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.1.1 丹参水溶性提取物 Qiao 等[11]以地西泮为CYP3A 的探针药物，采用 LC-UV 方法研究发现经丹参水提取物前处理的大鼠肝微粒体中地西泮最大血药浓度 $( C _ { \\mathrm { m a x } } )$ ）和血浆药物浓度-时间曲线下面积（area under the curve，AUC）分别减少到 72.7%和44.4%，而总体清除率（clearance，CL）增加了 2倍。再前处理 15 d 后，相比于正常组，前处理组大鼠的肝微粒蛋白量、CYP450s 的酶水平和 CYP3A活性都显著增加。徐玉英等[12]采用人孕烷 X 受体（human pregnane X receptor，hPXR）依赖的瞬时转染报告基因实验也发现丹参水提取物能够影响CYP3A的活性。Wang 等[13]却发现丹参水提取物不论是单次给药还是连续 14 d 给药，都能使大鼠体内咖啡因的 CL减少，AUC 增加和半衰期 $( t _ { 1 / 2 } )$ ）延长，均能通过竞争性抑制作用来影响CYP1A2底物的代谢。然而 Kuo 等[14]给 C57BL/6J 小鼠 ig 丹参水提取物后，对法华林的 7-羟基化活性、甲苯磺丁脲的羟基化活性和硝苯地平的氧化活性都没有任何影响，说明丹参水提取物对 CYP1A2、CYP2C 和CYP3A 酶没有影响。丹参水提取物对 CYP1A2 酶的影响有不同的研究结果，分析其可能原因：首先二者使用的实验对象不一样，前者的实验对象是大鼠和人肝微粒体，而后者的实验对象是小鼠肝微粒体；其次二者使用的探针底物不同，前者用咖啡因，后者用华法林。",
+    "bbox": [
+      100,
+      138,
+      484,
+      605
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.1.2 丹参脂溶性提取物 研究发现丹参乙醇提取物不仅能竞争性抑制人和大鼠肝微粒体 CYP1A2（非那西丁）活性，其抑制常数 $( K _ { i } )$ 分别为 3.4、5.16 μg/mL；也能非竞争性抑制人肝微粒体CYP3A4/5（睾酮）活性 $( K _ { i } { = } 1 1 . 9 ~ \\mu \\mathrm { g / m L } )$ ）；还能竞争性抑制大鼠肝微粒体 CYP3A1/2（睾酮）活性$\\left( K _ { i } { = } 5 2 . 1 \\ \\mu \\mathrm { g / m L } \\right)$ ）[15]。Lee 等[16]也证明了给予丹参乙醇提取物 4 d 能抑制幼鼠肝细胞 CYP1A2 催化非那西丁脱氧甲基化。这些数据都说明了丹参乙醇提取物能在体外抑制人或大鼠肝内 CYP1A2 和CYP3A 底物的代谢，且呈现不同的抑制类型。但Kuo 等[14]给 C57BL/6J 小鼠 ig 丹参醋酸乙酯提取物5 d 后却引起肝 CYP1A2 活性增加 8 倍、甲苯磺丁脲羟化活性增加 2 倍、硝苯地平氧化活性增加 3 倍和法华林 7-羟基活性增加 3 倍。对小鼠肝微粒体蛋白免疫印迹分析表明，经醋酸乙酯提取物处理能提高 CYP1A2 和 CYP3A 的蛋白水平。提示丹参醋酸乙酯提取物中含有小鼠 CYP1A2、CYP2C 和 CYP3A酶的诱导剂。综上所述，丹参的脂溶性提取物对CYP1A2 呈现不同的作用，很大程度上与提取溶剂和实验对象有关系。",
+    "bbox": [
+      100,
+      607,
+      484,
+      905
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      508,
+      101,
+      892,
+      191
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.2 丹参中主要的单体成分",
+    "text_level": 2,
+    "bbox": [
+      508,
+      195,
+      725,
+      210
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.2.1 丹参酮 $\\mathrm { { I I } _ { A } }$ 丹参酮 $\\mathrm { { I I } _ { A } }$ 是丹参根中的二萜醌类脂溶性有效成分，其独特的化学结构和药动学特性使其逐渐成为关注的对象。近年来研究证实其在抗肿瘤、抗心律失常、抗心肌急性缺氧损伤、改善血管平滑肌和保护神经等方面[17]显示出很好的前景。其临床用药很普遍，因此体内代谢作用研究较多，可为临床合理用药提供依据。",
+    "bbox": [
+      508,
+      214,
+      892,
+      342
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "在有关丹参酮 $\\mathrm { { I I } _ { A } }$ 代谢的研究报道中，研究最多的是丹参酮 $\\mathrm { { I I } _ { A } }$ 对 CYP1A2 活性的影响。Ueng等[18]研究发现，在 C57BL/6J 小鼠和人肝微粒体中丹参酮 $\\mathrm { { I I } _ { A } }$ 能抑制甲氧试卤灵-O-脱甲基酶（methoxy-resorufin-O-demethylase，MROD）活性（ $K _ { i } = 7 . 2$ μmol/L）。提示丹参酮 $\\mathrm { { I I } _ { A } }$ 竞争性抑制小鼠和人CYP1A2 的代谢。很多学者的研究[16,19-21]均证实了这一点。更有研究表明，丹参酮 $\\mathrm { { I I } _ { A } }$ 是人重组肝微粒体CYP1A2强效竞争性抑制剂（ $X _ { i } { = } 1 . 4 5 \\ \\mathrm { \\mu m o l / L } ) ^ { [ 2 2 ] }$ 。但 Ueng 等[23]进一步研究其机制却发现，在具有芳香烃（aromatic hydrocarbon，Ah）效应的 C57BL/6J小鼠中ig给予丹参酮 $\\mathrm { { I I } _ { A } }$ 能引起肝微粒体MROD活性随剂量依赖性地增加，CYP1A2 酶的蛋白和mRNA 的表达水平也升高，而在无 Ah 效应的DBA/2J小鼠中未出现以上现象。说明丹参酮 $\\mathrm { { I I } _ { A } }$ 对CYP1A2 具有诱导作用，且这种诱导作用可能取决于 Ah 效应。一些学者也提出相同的观点，如和凡等[24]应用体外 Cocktail探针药物法、反转录-聚合酶链反应和免疫印迹杂交方法分别检测CYP1A2酶活性、基因和蛋白表达的变化来研究丹参酮 $\\mathrm { { I I } _ { A } }$ 对大鼠 CYP1A2 酶的影响，结果表明丹参酮 $\\mathrm { { I I } _ { A } }$ 能显著诱导 CYP1A2 酶活性及其基因、蛋白表达，且呈剂量依赖性。",
+    "bbox": [
+      508,
+      345,
+      894,
+      773
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "丹参酮 $\\mathrm { { I I } _ { A } }$ 对除 CYP1A2 外的其他 CYP450s 也有作用。研究发现，丹参酮 $\\mathrm { { I I } _ { A } }$ 能通过 6-羟基华法林途径来抑制华法林代谢，从而说明丹参酮 $\\mathrm { { I I } _ { A } }$ 具有抑制 CYP2C6 活性的作用[25]。采用 Cocktail 探针药物法来研究大鼠肝微粒体中丹参酮 $\\mathrm { { I I } _ { A } }$ 对CYP450s 不同亚型活性的影响[21]。高浓度（32、96μmol/L）丹参酮 $\\mathrm { { I I } _ { A } }$ 对大鼠肝微粒 CYP2D6（美托洛尔）、CYP2C19（奥美拉唑）、CYP2C9（甲苯磺丁脲）和 CYP2E1（氯唑沙宗）酶活性具有抑制作用（P＜0.05），且半数抑制浓度 $\\mathrm { ( I C } _ { 5 0 } \\mathrm { ) }$ ）分别是 34.76、26.12、26.29 和 26.38 μmol/L。低浓度（0.5、1、2、4、8 和 16 μmol/L）丹参酮 $\\mathrm { { I I } _ { A } }$ 对以上酶均没有影响。这些研究[21-22]表明，丹参酮 $\\mathrm { { I I } _ { A } }$ 在大鼠体外肝微粒孵育体系中对 CYP2D6、CYP2C19、CYP2C9 和CYP2E1 的代谢活性具有较弱的抑制作用。Yu 等[26]证实丹参酮 $\\mathrm { { I I } _ { A } }$ 是有效的人孕烷 X 受体（humanpregnane X receptor，PXR）激动剂，但激活 CYP3A4启动子的能力较弱。组成型雄甾烷受体（constitutiveandrostane receptor ， CAR ） 和 糖 皮 质 激 素 受 体（glucocorticoid receptors，GR）也被认为能够介导丹参酮 $\\mathrm { { I I } _ { A } }$ 诱导CYP3A4表达，但重要性弱于hPXR。以上研究说明丹参酮 $\\mathrm { { I I } _ { A } }$ 能介导激活 PXR、CAR 和GR 来诱导 CYP3A4 表达。利用类似方法构建基于hPXR/CAR3 的 CYP2B6 药物诱导剂的报告基因分析法研究发现，丹参酮 $\\mathrm { { I I } _ { A } }$ 可以通过 hPXR 途径诱导人 CYP2B6 的 mRNA 和蛋白表达及酶活性[27]。酶动力学研究表明，丹参酮 $\\mathrm { { I I } _ { A } }$ 可竞争性抑制甲苯磺丁脲的 4-羟化酶活性（ $\\mathrm { { ( } } K _ { i } { = } 2 4 2 . 9 \\ \\mathrm { { \\mu m o l { L } } ) }$ ，且呈浓度依赖性[28]。提示在大鼠体内外丹参酮 $\\mathrm { { I I } _ { A } }$ 竞争性地抑制 CYP2C11 酶活性。毕惠嫦等[29]采用HPLC-MS 测定孵育液中丹参酮 $\\mathrm { { I I } _ { A } }$ 浓度来研究CYP450s 酶抑制剂对丹参酮 $\\mathrm { { I I } _ { A } }$ 代谢的影响。结果表明噻氯匹啶和酮康唑能够显著抑制丹参酮 $\\mathrm { { I I } _ { A } }$ 的代谢，奎尼丁对丹参酮 $\\mathrm { { I I } _ { A } }$ 的代谢也有一定的抑制作用，而其他 CYP450s 酶抑制剂对丹参酮 $\\mathrm { { I I } _ { A } }$ 的代谢无显著影响。说明主要是 CYP2C19 和 CYP3A1参与丹参酮 $\\mathrm { { I I } _ { A } }$ 的代谢，CYP2D6 也起到部分代谢作用。提示丹参酮 $\\mathrm { { I I } _ { A } }$ 药效或毒性的变化受到CYP450s酶代谢的影响。",
+    "bbox": [
+      508,
+      777,
+      892,
+      906
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "·176·",
+    "bbox": [
+      108,
+      73,
+      154,
+      85
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "中草药 Chinese Traditional and Herbal Drugs 第 47 卷 第 1 期 2016 年 1 月",
+    "bbox": [
+      245,
+      72,
+      749,
+      87
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      808,
+      979
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      100,
+      101,
+      484,
+      697
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.2.2 隐丹参酮 隐丹参酮是丹参脂溶性成分中的代表性成分之一。经大量药理及临床观察研究证明，隐丹参酮具有多种药理作用，被广泛应用于治疗心血管疾病、代谢紊乱性疾病、肿瘤及神经退行性疾病[30]。潘莹等[31]分别用 Cocktail 体外孵育法、蛋白免疫印记及逆转录聚合酶链反应来观察隐丹参酮对CYP450s各亚型酶活性、蛋白及基因表达的影响。结果表明，隐丹参酮对大鼠肝微粒体 CYP1A2（非那西丁）有显著的诱导作用，并呈剂量依赖性。然而，Lee 等[16]研究结果却相反，隐丹参酮抑制幼鼠肝细胞内 CYP1A2（非那西丁）介导的代谢（ $( K _ { i } =$",
+    "bbox": [
+      100,
+      702,
+      486,
+      906
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "12.9 μmol/L）。产生不同结果的原因可能与所使用的大鼠品种和实验方法不同有一定的关系。Qiu 等[19]和 Wang 等[22]分别研究隐丹参酮对人肝微粒体CYP1A2（非那西丁）、CYP2C9（双氯芬酸）、CYP2D6（右美沙芬）和人重组肝微粒体 CYP1A2（非那西丁）、CYP2C9（甲苯磺丁脲）、CYP2E1（氯唑沙宗）的作用。结果表明，隐丹参酮是人肝微粒体 CYP1A2强效竞争性抑制剂 $( K _ { i } { = } 0 . 4 5 ~ \\mathrm { \\mu m o l / L } )$ ），是人肝微粒体 CYP2C9 中效混合型抑制剂 $( K _ { i } { = } 8 . 0 0 \\ \\mu { \\mathrm { m o l / L } } )$ ），是人肝微粒体 CYP2D6 弱效混合型抑制剂 $( K _ { i } =$ 68.00 μmol/L）；隐丹参酮是人重组肝微粒体CYP1A2 强效竞争性抑制剂 $( K _ { i } { = } 1 . 8 8 \\ \\mu \\mathrm { m o l / L } )$ ），是人重组肝微粒体 CYP2C9 中效竞争性抑制剂（ $\\langle K _ { i } { = }$ 22.9 μmol/L），是人重组肝微粒体 CYP2E1 中效竞争性抑制剂（ $( K _ { i } { = } 1 0 . 8 7 \\ \\mu { \\mathrm { m o l / L } } )$ ）。研究发现，隐丹参酮还通过介导抑制 CYP2C11 活性来减少 7-羟基华法林的形成，说明在大鼠体内外隐丹参酮能够抑制 CYP2C11 的介导作用来影响华法林的代谢[25]。另有研究通过大鼠体内外4-羟基甲苯磺丁脲量的减少，说明隐丹参酮对 CYP2C11 的作用是一种中效竞争性抑制作用（ ${ \\mathrm { ' } K _ { i } } { = } 2 4 . 5 ~ { \\mu \\mathrm { m o l / L } }$ ）[28,32]。在不同研究报道中，不同探针药物形成物的减少，如 7-羟基华法林和 4-羟基甲苯磺丁脲，均能说明隐丹参酮抑制 CYP2C11 活性。提示华法林和甲苯磺丁脲都是 CYP2C11的有效探针药物。Yu 等[26]利用瞬时转染报告基因实验检测法，发现隐丹参酮能介导激活PXR、CAR 和 GR 来诱导 CYP3A4 活性，且隐丹参酮是有效hPXR激动剂；隐丹参酮也可以通过hPXR途径对 CYP2B6 产生诱导作用，且呈显著的浓度依赖性；隐丹参酮还可以诱导人 CYP2B6 的 mRNA和蛋白表达及酶活性[27]。提示隐丹参酮很有可能是人 CYP450s 酶的有效诱导剂，当其与经 CYP450s酶代谢的药物同时服用时可能会通过诱导CYP450s酶而产生药物之间相互作用。",
+    "bbox": [
+      508,
+      101,
+      894,
+      736
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.2.3 丹参酮 I 丹参酮 I 是丹参抑菌的有效成分之一，临床上常用于治疗脓包型痤疮[33]。Qiu 等[19]研究发现，丹参酮 I 是人肝微粒体 CYP1A2（非那西丁）强效竞争性抑制剂 $( K _ { i } { = } 0 . 4 8 \\ \\mu { \\mathrm { m o l / L } } )$ ）。而Lee 等[16]发现经过丹参酮 I 处理（4 d）的幼鼠肝细胞中 CYP1A2（非那西丁）活性增加 5.2 倍，CYP1A2蛋白水平上调 6.5 倍。这与丹参酮 I 是 CYP1A2 的强效抑制剂不符，可能是实验方法不同，也可能是实验对象不同，具体机制还需进一步研究。Wang等[22]探究丹参酮 I 对人重组肝微粒体 CYP1A2（非那西丁）、CYP2C9（甲苯磺丁脲）、CYP2E1（氯唑沙宗）和 CYP3A4（睾酮）的作用，发现丹参酮 I 是人重组肝微粒体 CYP1A2 强效竞争性抑制剂 $( K _ { i } { = } 2 . 1 6 \\ \\mu \\mathrm { m o l / L } )$ ），是人重组肝微粒体 CYP2C9中效竞争性抑制剂 $( K _ { i } { = } 5 1 . 2 \\ \\mu \\mathrm { m o l / L } )$ ），是人重组肝微粒体 CYP2E1 中效非竞争性抑制剂 $( K _ { i } = 3 . 6 7$ μmol/L），是人重组肝微粒体 CYP3A4 竞争性抑制剂 $( K _ { i } { = } 8 6 . 9 \\ \\mu { \\mathrm { m o l / L } } )$ 。后续研究[28,32]还发现丹参酮 I 是 CYP3A2 和 CYP2C11 的竞争性抑制剂。Wu等[25]通过大鼠肝微粒体研究，发现丹参酮 I 能够通过介导抑制 CYP1A1 活性来减少 40-羟基华法林的形成，表明在大鼠体内外丹参酮I能够抑制CYP1A1的介导作用来影响华法林的代谢。提示经 CYP450s代谢的药物在临床上与丹参酮 I 合用时，可能发生药物之间的相互作用。",
+    "bbox": [
+      508,
+      739,
+      894,
+      906
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "中草药 Chinese Traditional and Herbal Drugs 第 47 卷 第 1 期 2016 年 1 月",
+    "bbox": [
+      245,
+      72,
+      749,
+      87
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "·177·",
+    "bbox": [
+      842,
+      73,
+      887,
+      85
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      808,
+      979
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      100,
+      100,
+      484,
+      398
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2.2.4 二氢丹参酮 Lee 等[16]研究表明二氢丹参酮能抑制幼鼠肝细胞中 CYP1A2（非那西丁）介导的代谢。Wang 等[22]不仅得出类似的结论，还发现二氢丹参酮是人重组肝微粒体 CYP1A2（非那西丁）强效竞争性抑制剂 $( K _ { i } { = } 0 . 5 3 \\ \\mu \\mathrm { m o l / L } )$ ，是人重组肝微粒体 CYP2C9（甲苯磺丁脲）强效竞争性抑制剂$( K _ { i } { = } 1 . 9 2 \\ \\mu \\mathrm { m o l / L } )$ ），是人重组肝微粒体 CYP3A4（睾酮）强效非竞争性抑制剂 $( K _ { i } { = } 2 . 1 1 \\ \\mu \\mathrm { m o l / L } )$ ）。但不是人重组肝微粒体 CYP2E1（氯唑沙宗）抑制剂。另有研究发现，二氢丹参酮是大鼠肝微粒体CYP3A2（睾酮）非竞争性抑制剂 $( K _ { i } { = } 1 1 0 \\ \\mu { \\mathrm { m o l / L } } )$ ）[32]，也是大鼠肝微粒体CYP2C11（甲苯磺丁脲[28]、睾酮[32]）竞争性抑制剂。在研究二氢丹参酮和丹参酮 I 的过程中发现，二者只是结构中呋喃环的 C-15 位有所不同，导致二者对 CYP3A活性具有不同抑制类型。",
+    "bbox": [
+      100,
+      401,
+      486,
+      680
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2.2.5 其他单体成分 次丹参酮是从丹参分离出来的一种枞烷类二萜酮，具有抗氧化、抗焦虑、抗癌和正向调控γ-氨基丁酸（GABA）受体的作用[34-36]。Zhou 等[34]研究次丹参酮对人重组肝微粒体中CYP1A2、CYP2C9、CYP2D6 和 CYP3A4 探针底物代谢的影响。利用 Cocktail 体外孵育法发现次丹参酮对人重组肝微粒体 CYP1A2（非那西丁）具有中效混合型抑制作用 $( K _ { i } { = } 3 . 1 7 \\ \\mu \\mathrm { m o l / L } )$ ），对人重组肝微粒体 CYP2C9（甲苯磺丁脲）具有中效竞争性抑制作用 $( K _ { i } { = } 1 . 4 8 \\ \\mu { \\mathrm { m o l / L } } )$ ），对人重组肝微粒体CYP2D6（右美沙芬）具有弱效混合型抑制作用$( K _ { i } { = } 2 4 . 2 5 ~ \\mathrm { \\mu m o l / L } )$ ），对人重组肝微粒体 CYP3A4（睾酮）具有弱效混合型抑制作用（ $K _ { i } = 3 5 . 0 9$ μmol/L）。次丹参酮抑制 CYP450s 酶的活性弱于二氢丹参酮，但强于隐丹参酮、丹参酮 I 和丹参酮 $\\mathrm { { I I } _ { A \\circ } }$ 丹参酚酸 A、丹酚酸 B、咖啡酸和原儿茶醛对CYP1A2活性没有抑制作用，丹参酚酸A对CYP2E1的活性也没有影响，原儿茶醛对 CYP3A4 有微弱的抑制作用[16,19-20]。丹参主要单体成分对 CYP450s 活性的影响见表 1。",
+    "bbox": [
+      100,
+      683,
+      486,
+      906
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      508,
+      101,
+      892,
+      248
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2.3 丹参复方",
+    "text_level": 2,
+    "bbox": [
+      510,
+      252,
+      622,
+      266
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2.3.1 复方丹参滴丸 复方丹参滴丸是由丹参、三七和冰片组成，包括从丹参中提取以丹参素为主的水溶性酚酸类有效成分和从三七中提取以三七总皂苷为主的苷类有效成分。它是采用现代高科技手段研制的一种纯中药滴丸剂，可作为治疗冠心病心绞痛的急救药物[37-38]，是我国第 1 个通过美国 FDA的临床用新药申请的中药制剂，实现了中药正式进入国际医药主流市场的历史性突破，因此研究其与CYP450s 相互作用显得尤为重要。施畅等[39]给Wistar 大鼠连续 ig 125、750、4 500 mg/kg 的复方丹参滴丸 5 d。利用化学比色法测定得出不同剂量复方丹参滴丸大鼠肝脏脏器系数、总 CYP450s 量及CYP1A2、CYP2E1、CYP3A 亚型活性未见明显增强。高剂量复方丹参滴丸诱导后，大鼠肝脏CYP2B1/2 活性与空白对照组相比有显著升高（P＜0.05），中、低剂量组 CYP2B1/2 活性未见明显升高，说明复方丹参滴丸对大鼠肝脏 CYP450s 及主要亚型 CYP1A2、CYP2E1、CYP3A 无诱导效应，高剂量下仅对 CYP2B1/2 有轻度诱导效应。采用 Cocktail探针底物法和 LC-MS/MS法测定代谢产物的浓度，也得出类似的结论，复方丹参滴丸对 5 种CYP450s酶无显著影响[40]。吴慧等[41]采用 RT-HPLC 测定服用复方丹参滴丸前后人尿液内咖啡因 4 种主要代谢产物的相对量，并评价人肝脏药物代谢酶 CYP1A2活性的变化。结果显示，受试者服用复方丹参滴丸14 d 和 28 d CYP1A2 活性比用药前分别升高 1.42%和 3.57%，但无统计学差异，说明服用治疗剂量的复方丹参滴丸对人肝脏药物代谢酶CYP1A2的活性无显著影响。李伟荣等[42]给 SD 大鼠 ig 复方丹参滴丸发现复方丹参滴丸能升高大鼠肝微粒体CYP450s水平，对其活性有诱导作用，且随给药时间的延长而增强。冰片虽能降低大鼠肝微粒体 CYP450s 水平，对其活性有抑制作用，但在复方丹参滴丸中冰片的作用不占主导地位。",
+    "bbox": [
+      508,
+      270,
+      894,
+      906
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "·178·",
+    "bbox": [
+      108,
+      73,
+      154,
+      84
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "中草药 Chinese Traditional and Herbal Drugs 第 47 卷 第 1 期 2016 年 1 月",
+    "bbox": [
+      247,
+      72,
+      749,
+      87
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      808,
+      979
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/f8d5e746102ebab5217a6d355d18c5d842de95ddcabe70b35baf96dd59ad03c2.jpg",
+    "table_caption": [
+      "表1 丹参主要单体成分对CYP450s 活性的影响",
+      "Table 1 Effects of main composition in S. miltiorrhiza on CYP450s activity"
+    ],
+    "table_footnote": [
+      "“—”表示文献中没有使用“Ki”参数来说明抑制程度或文献中没有具体指明诱导倍数",
+      "“—” refers to no use “Ki” indicates that no specific induction ratio was pointed out in literature"
+    ],
+    "table_body": "<table><tr><td>成分</td><td>酶</td><td>作用</td><td>研究对象</td><td>抑制程度/诱导倍数</td></tr><tr><td rowspan=\"7\">丹参酮IIA</td><td rowspan=\"2\">CYP1A2</td><td>抑制[16,18-22]</td><td>大鼠肝微粒体[16,21]、小鼠肝微粒体[18]、人肝微粒体[18-22]</td><td> $K_i$ 为7.2μmol/L[18]、1.0μmol/L[19]、1.65μmol/L[20]、1.45μmol/L[22]</td></tr><tr><td>诱导[14,23-24]</td><td>小鼠肝微粒体[14,23]、大鼠肝微粒体[24]</td><td>—</td></tr><tr><td>CYP2C6</td><td>抑制[25]</td><td>大鼠肝微粒体[25]</td><td>—</td></tr><tr><td>CYP2C9、CYP2C19、CYP2D6、CYP2E1</td><td>抑制[21]</td><td>大鼠肝微粒体[21]</td><td>—</td></tr><tr><td>CYP2C11</td><td>抑制[28,32]</td><td>大鼠肝微粒体[28,32]</td><td> $K_i$ 为242.9μmol/L[28]、118μmol/L[32]</td></tr><tr><td>CYP3A1</td><td>抑制[29]</td><td>人肝微粒体[29]</td><td>—</td></tr><tr><td>CYP3A2</td><td>抑制[32]</td><td>大鼠肝微粒体[32]</td><td> $K_i$ 为243μmol/L[32]</td></tr><tr><td rowspan=\"8\">隐丹参酮</td><td rowspan=\"2\">CYP1A2</td><td>抑制[16,19,22]</td><td>人肝微粒体[16,19,22]</td><td> $K_i$ 为12.9μmol/L[16]、0.45μmol/L[19]、1.88μmol/L[22]</td></tr><tr><td>诱导[31]</td><td>大鼠肝微粒体[31]</td><td>—</td></tr><tr><td>CYP2C9</td><td>抑制[19,22]</td><td>人肝微粒体[19,22]</td><td> $K_i$ 为8.00μmol/L[19]、1.45μmol/L[22]</td></tr><tr><td>CYP2C11</td><td>抑制[25,28,32]</td><td>大鼠肝微粒体[25,28,32]</td><td> $K_i$ 为24.5μmol/L[28]、106μmol/L[32]</td></tr><tr><td>CYP2D6</td><td>抑制[19]</td><td>人肝微粒体[19]</td><td> $K_i$ 为68.00μmol/L[19]</td></tr><tr><td>CYP2E1</td><td>抑制[22]</td><td>人肝微粒体[22]</td><td> $K_i$ 为10.87μmol/L[22]</td></tr><tr><td>CYP3A2</td><td>抑制[32]</td><td>大鼠肝微粒体[32]</td><td> $K_i$ 为199μmol/L[32]</td></tr><tr><td>CYP3A4</td><td>抑制[22]</td><td>人肝微粒体[22]</td><td> $K_i$ 为120.4μmol/L[22]</td></tr><tr><td rowspan=\"7\">丹参酮I</td><td rowspan=\"2\">CYP1A2</td><td>抑制[19,22]</td><td>人肝微粒体[19,22]</td><td> $K_i$ 为0.48μmol/L[19]、2.16μmol/L[22]</td></tr><tr><td>诱导[16]</td><td>大鼠肝微粒体[16]</td><td>诱导5.2倍[16]</td></tr><tr><td>CYP2C9</td><td>抑制[22]</td><td>人肝微粒体[22]</td><td> $K_i$ 为51.2μmol/L[22]</td></tr><tr><td>CYP2C11</td><td>抑制[28,32]</td><td>大鼠肝微粒体[28,32]</td><td> $K_i$ 为80.3μmol/L[28]、90.5μmol/L[32]</td></tr><tr><td>CYP2E1</td><td>抑制[22]</td><td>人肝微粒体[22]</td><td> $K_i$ 为3.67μmol/L[22]</td></tr><tr><td>CYP3A2</td><td>抑制[32]</td><td>大鼠肝微粒体[32]</td><td> $K_i$ 为200μmol/L[32]</td></tr><tr><td>CYP3A4</td><td>抑制[22]</td><td>人肝微粒体[22]</td><td> $K_i$ 为86.9μmol/L[22]</td></tr><tr><td rowspan=\"5\">二氢丹参酮</td><td>CYP1A2</td><td>抑制[16,22]</td><td>人肝微粒体[16,22]</td><td> $K_i$ 为0.53μmol/L[22]</td></tr><tr><td>CYP2C9</td><td>抑制[22]</td><td>人肝微粒体[22]</td><td> $K_i$ 为1.92μmol/L[22]</td></tr><tr><td>CYP2C11</td><td>抑制[28,32]</td><td>大鼠肝微粒体[28,32]</td><td> $K_i$ 为8.92μmol/L[28]、55.4μmol/L[32]</td></tr><tr><td>CYP3A2</td><td>抑制[32]</td><td>大鼠肝微粒体[32]</td><td> $K_i$ 为110μmol/L[32]</td></tr><tr><td>CYP3A4</td><td>抑制[22]</td><td>人肝微粒体[22]</td><td> $K_i$ 为2.11μmol/L[22]</td></tr><tr><td rowspan=\"4\">次丹参酮</td><td>CYP1A2</td><td>抑制[34]</td><td>人肝微粒体[34]</td><td> $K_i$ 为3.17μmol/L[34]</td></tr><tr><td>CYP2C9</td><td>抑制[34]</td><td>人肝微粒体[34]</td><td> $K_i$ 为1.48μmol/L[34]</td></tr><tr><td>CYP2D6</td><td>抑制[34]</td><td>人肝微粒体[34]</td><td> $K_i$ 为24.25μmol/L[34]</td></tr><tr><td>CYP3A4</td><td>抑制[34]</td><td>人肝微粒体[34]</td><td> $K_i$ 为35.09μmol/L[34]</td></tr></table>",
+    "bbox": [
+      105,
+      133,
+      889,
+      785
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "2.3.2 丹参类注射液 胡冰等[43]在考察注射用丹参总酚酸对大鼠肝微粒体作用时，发现丹参总酚酸对大鼠肝微粒体 CYP1A2 和 CYP3A 无诱导作用。Chen 等[44]将 16 名不相关的健康受试者分成 2 组，采用双周期、随机、交叉和自身前后对照设计的方法来研究丹参酮 $\\mathrm { { I I } _ { A } }$ 磺酸钠对人CYP1A2（咖啡因）的作用。结果发现丹参酮 $\\mathrm { { I I } _ { A } }$ 磺酸钠能显著使CYP1A2 的活性增加 41.11%，显著使咖啡因 AUC（0～24 h）降低13.28%；显著使副黄嘌呤AUC（0～24 h）增加17.39%。这些数据首次说明了丹参酮 $\\mathrm { { I I } _ { A } }$ 磺酸钠可显著诱导人体内CYP1A2 活性。Zhang 等[45]研究发现丹参和葛根混合液能有效地通过改变区域环境pH值来增加华法林的肠吸收，且能显著地增加肝微粒体中 CYP1A1 和 CYP2B1 的活性及二者的mRNA 表达，推断丹参和葛根混合液能够有效地诱导华法林在肝脏中的代谢。余小翠等[46]采用大鼠体外肝微粒体孵育法，分别以非那西丁、甲苯磺丁脲、右美沙芬、氯唑沙宗、睾酮为CYP1A2、CYP2C9、CYP2D6、CYP2E1 和 CYP3A4 的探针药物来评价丹红注射液对各亚型酶活性的影响。结果表明丹红注射液对大鼠肝微粒体 CYP1A2 酶活性具有混合型抑制作用，对CYP2C9有弱效抑制作用；对CYP2D6、CYP2E1 和 CYP3A4 酶活性无明显影响。袁继承等[47]研究发现香丹注射液对 CYP2D6（右美沙芬）具有一定抑制作用，但无显著性差异。刘高峰等[48]采用Cocktail 探针药物法研究发现，丹参注射液对家兔CYP2D6（美托洛尔）有抑制作用，对CYP1A2（咖啡因）和 CYP3A4（氨苯砜）的影响不显著。这些都提示临床应用丹参类注射液时，应关注其对CYP450s 的作用，避免联合用药引发 CYP450s 介导的药物相互作用，促进临床安全合理用药。",
+    "bbox": [
+      100,
+      830,
+      482,
+      902
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      508,
+      830,
+      892,
+      902
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "中草药 Chinese Traditional and Herbal Drugs 第 47 卷 第 1 期 2016 年 1 月",
+    "bbox": [
+      245,
+      72,
+      749,
+      87
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "·179·",
+    "bbox": [
+      842,
+      73,
+      887,
+      85
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      808,
+      979
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      100,
+      101,
+      486,
+      530
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "2.3.3 其他丹参类中成药 刘艳等[49] 以咪达唑仑作为 CYP3A4 的探针药物，利用肝微粒体测定法得出枣仁安神胶囊（含丹参）对大鼠肝微粒体CYP3A4 没有抑制作用 $( \\mathrm { I C } _ { 5 0 } { = } 1 5 0 \\ \\mathrm { m g / L } )$ ）。丹参片是一种主要包含丹参素、丹酚酸 B 和丹参酮类的药物。研究表明，它具有上调 CYP1A2 蛋白表达和酶活性的作用，但单独使用丹参素和丹酚酸B 时却不影响 CYP1A2 的活性[16]。安然等[50] 分别以咖啡因、甲苯磺丁脲、奥美拉唑、美托洛尔、氯唑沙宗和氨苯砜为探针药物，评价大明胶囊（含丹参）对大鼠体内亚型 CYP1A2、CYP2C9、CYP2C19、CYP2D6、CYP2E1 和 CYP3A4 酶活性的影响。指出大明胶囊低剂量组（50 mg/kg）和高剂量组（100 mg/kg）均分别对 CYP2D6、CYP2E1和 CYP2C9 的活性无显著影响，高剂量组对CYP1A2 和 CYP2C19 的活性有抑制作用，低剂量组则影响不显著，高剂量和低剂量组都对CYP3A4 的活性有抑制作用。徐斌等[51]采用人肝微粒体孵育法，分别以非那西丁、甲苯磺丁脲、美芬妥因、氢溴酸右美沙芬和咪达唑仑作为CYP1A2 、 CYP2C9 、 CYP2C19 、 CYP2D6 和CYP3A4 的探针药物进行代谢产物浓度的测定。结果显示，强肝胶囊（含丹参）对以上药物代谢酶亚型没有抑制作用。丹参复方对 CYP450s 活性影响见表 2。",
+    "bbox": [
+      102,
+      533,
+      482,
+      548
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      508,
+      101,
+      894,
+      549
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "table",
+    "img_path": "images/ae49ff827b63cf9e25777b14e46362d62400c5f6acf08b93f3c2037e36a0f6c9.jpg",
+    "table_caption": [
+      "表2 丹参复方对CYP450s 活性的影响",
+      "Table 2 Effects of S. miltiorrhiza formula on CYP450s activity"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>复方</td><td>酶</td><td>作用</td><td>研究对象</td></tr><tr><td rowspan=\"2\">复方丹参滴丸</td><td>CYP2B1/2</td><td>诱导[39]</td><td>大鼠肝微粒体[39]</td></tr><tr><td>其他 CYP450s</td><td>无影响[39-41]</td><td>大鼠肝微粒体[39]、人肝微粒体[40-41]</td></tr><tr><td>丹参总酚酸</td><td>CYP1A2</td><td>诱导[44]</td><td>健康志愿者[44]</td></tr><tr><td>丹葛混合液</td><td>CYP1A1、2B1</td><td>诱导[45]</td><td>大鼠肝微粒体[45]</td></tr><tr><td>丹红注射液</td><td>CYP1A2、2C9</td><td>抑制[46]</td><td>大鼠肝微粒体[46]</td></tr><tr><td>强肝胶囊</td><td>CYP1A2、2C9、2C19、2D6、3A4</td><td>无影响[51]</td><td>人肝微粒体[51]</td></tr><tr><td>丹参片</td><td>CYP1A2</td><td>抑制[51]</td><td>人肝微粒体[51]</td></tr><tr><td></td><td>CYP2C9、2C19、2D6、3A4</td><td>无影响[51]</td><td>人肝微粒体[51]</td></tr></table>",
+    "bbox": [
+      102,
+      594,
+      892,
+      767
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "3 存在的问题及分析",
+    "text_level": 2,
+    "bbox": [
+      102,
+      778,
+      269,
+      793
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "近年来国内外学者在丹参与 CYP450s 相互作用方面做了大量的实验，内容涉及丹参提取物、主要单体成分和复方等。但因为中药成分的复杂性、实验方法的差异性，加之中药配伍互相影响等使得丹参代谢方面的研究发展较为困难，综观目前的研究现状，主要存在以下几方面问题。",
+    "bbox": [
+      100,
+      796,
+      482,
+      906
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "丹参主要单体成分（丹参酮 $\\mathrm { { I I } _ { A } }$ 、隐丹参酮、丹参酮 I、二氢丹参酮和次丹参酮）中大部分都抑制CYP450s，只有极少部分对相应酶有诱导作用。而且丹参酮 $\\mathrm { { I I } _ { A } }$ 、隐丹参酮和丹参酮 I 均对 CYP1A2酶呈现双向作用，既有抑制作用也有诱导作用。提示在参考文献时，应注意比较不同实验者的实验方案、对象、给药剂量和次数等。当研究结果不一致时，尤其应充分考虑实验中可能对实验结果产生影响的各种内外因素。",
+    "bbox": [
+      508,
+      778,
+      892,
+      906
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "·180·",
+    "bbox": [
+      108,
+      74,
+      152,
+      85
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "中草药 Chinese Traditional and Herbal Drugs 第 47 卷 第 1 期 2016 年 1 月",
+    "bbox": [
+      247,
+      73,
+      749,
+      87
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      808,
+      979
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      102,
+      101,
+      484,
+      135
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "丹参酮 $\\mathrm { { I I } _ { A } }$ 在小鼠和人肝微粒体的实验体系中对 CYP1A2的抑制常数差异性较大。这也不排除可能是由于探针底物不同而造成的。除此之外，其他丹参主要单体成分在不同种属（人及大鼠、小鼠）实验体系中没有明显的差异性抑制行为。这提示选择种属实验体系时，应该考虑实验动物的生物学特性和解剖生理特征，选择最适合的实验动物。若选择不同的实验动物，应以适当的方法比较出不同种属实验结果的差异性。",
+    "bbox": [
+      100,
+      139,
+      484,
+      305
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "复方丹参注射液对 CYP450s 有诱导或抑制作用，而其他丹参类中成药对 CYP450s没有影响。这与丹参配伍不同药物对 CYP450s 的影响有一定的关系。这就要求更加科学地研究丹参对 CYP450s的相互作用和传统中药配伍理论的科学内涵。对于有效避免丹参临床不良反应事件的发生，保证临床药物的安全性和有效性具有极其重要的意义。",
+    "bbox": [
+      102,
+      308,
+      486,
+      437
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "参考文献",
+    "text_level": 2,
+    "bbox": [
+      104,
+      452,
+      167,
+      465
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1] 丰成相. 丹参的化学成分及药理作用概况 [J]. 中国民族民间医药, 2012, 17(2): 25-26.",
+      "[2] 杨志霞, 林 谦, 马 利. 丹参对心血管疾病药理作用的文献研究 [J]. 世界中西医结合杂志, 2012, 7(2):93-96.",
+      "[3] 王 丽, 尹 桃, 朱敏文. 丹参注射液不良反应/事件的回顾性研究 [J]. 中国药物警戒, 2009, 6(4): 227-230.",
+      "[4] 柯昌毅, 陈伟峰. 105 例丹参注射液不良反应的回顾性研究 [J]. 重庆医学, 2011, 40(18): 1795-1796.",
+      "[5] 李昊娲, 农一兵, 林 谦. 注射用丹参不良反应报告[J]. 中国实验方剂学杂志, 2011, 17(24): 240-242.",
+      "[6] Schenkman J B, Jansson I. Spectral analyses of cytochromes P450 [J]. Methods Mol Biol, 2006, 320 （320）: 11-18.",
+      "[7] Rendic S. Summary of information on human CYP enzymes: Human P450 metabolism data [J]. Drug Metab Rev, 2002, 34(1/2): 83-448.",
+      "[8] 徐巧玲, 李 军, 郭瑞臣. 细胞色素 P450 与临床用药[J]. 海峡药学, 2009, 21(9): 74-76.",
+      "[9] Venkatakrishnan K, Von Moltke L L, Greenblatt D J. Human drug metabolism and the cytochromes P450: application and relevance of in vitro models [J]. J Clin Pharmacol, 2001, 41(11): 1149-1179.",
+      "[10] 李晓宇, 刘皋林. CYP450 酶特性及其应用研究进展[J]. 中国临床药理学与治疗学, 2008,13(8): 942-946.",
+      "[11] Qiao J P, Hou P L, Li Y W, et al. Effects of the aqueous",
+      "extract from Salvia miltiorrhiza Bge. on the Pharmacokineties of diazepam and on liver microsomal cytochrome P450 enzyme activity in rats [J]. J Pharm Pharmacol, 2003, 55(8): 1163-1167.",
+      "[12] 徐玉英, 张 寅, 周 凡, 等. 7 种中药提取物对 PXR介导的 CYP3A4 转录调节作用 [J]. 中国中药杂志,2011, 36(11): 1524-1527.",
+      "[13] Wang X, Yeung K H J. Effects of the aqueous extract from Salvia miltiorrhiza Bunge on caffeine pharmacokinetics and liver microsomal CYP1A2 activity in humans and rats [J]. J Pharm Pharmacol, 2010, 62(8): 1077-1083.",
+      "[14] Kuo Y H, Lin Y L, Don M J, et al. Induction of cytochrome P450-dependent monooxygenase by extracts of the medicinal herb Salvia miltiorrhiza [J]. J Pharm Pharmacol, 2006, 58(4): 521-527.",
+      "[15] Wang X, Yeung J H. Investigation of cytochrome P4501A2 and 3A inhibitory properties of Danshen tincture [J]. Int J Phytother Phytopharmacol, 2012, 19(3/4): 348-354.",
+      "[16] Lee W Y, Zhou X L, Kwan W Y, et al. Tanshinone I increases CYP1A2 protein expression and enzyme activity in primary rat hepatocytes [J]. Phytomedicine, 2012, 19(2): 169-176.",
+      "[17] 张萌涛, 钱亦华, 唐安琪. 丹参酮 $\\mathrm { { I I } _ { A } }$ 药理作用的研究进展 [J]. 医学综述, 2010, 16(17): 2261-2664.",
+      "[18] Ueng Y F, Kuo Y H, Peng H C, et al. Diterpene quinone tanshinone $\\mathrm { { I I } _ { A } }$ selectively inhibits mouse and human cytochrome P4501A2 [J]. Xenobiotica, 2003, 33(6): 603-613.",
+      "[19] Qiu F, Zhang R, Sun J, et al. Inhibitory effects of seven components of danshen extract on catalytic activity of cytochrome P450 enzyme in human liver microsomes [J]. Drug Metab Disp, 2008, 36(7): 1308-1314.",
+      "[20] 胡立炜. 中药常用成分对药物代谢酶 CYP1A2 活性的影响 [D]. 上海: 第二军医大学, 2010.",
+      "[21] 刘 洁. “Cocktail”探针药物法评价丹参酮 $\\mathrm { { I I } _ { A } }$ 对大鼠肝微粒体 CYP450 不同亚型体外代谢活性的影响 [D].天津: 天津医科大学, 2012.",
+      "[22] Wang X, Cheung C M, Lee W Y, et al. Major tanshinones of Danshen (Salvia miltiorrhiza) exhibit different modes of inhibition on human CYP1A2, CYP2C9, CYP2E1 and CYP3A4 activities in vitro [J]. Phytomedicine, 2010, 17(11): 868-875.",
+      "[23] Ueng Y F, Kuo Y H, Wang S Y, et al. Induction of CYP1A by a diterpene quinone tanshinone IIA isolated from a medicinal herb Salvia miltiorrhiza in C57BL/6J but not in DBA/2J mice [J]. Life Sci, 2004, 74(7): 885-896.",
+      "[24] 和 凡, 钟国平, 赵立子, 等. 丹参酮Ⅱ $\\mathbf { A }$ 对大鼠CYP450 酶 的 诱 导 作 用 [J]. 中 草 药 , 2009, 40(6):938-942.",
+      "[25] Wu W W, Yeung J H. Inhibition of warfarin hydroxylation by major tanshinones of Danshen (Salvia miltiorrhiza) in the rat in vitro and in vivo [J]. Phytomedicine, 2010, 17(3-4): 219-226.",
+      "[26] Yu C N, Ye S S, Sun H, et al. PXR-mediated transcriptional activation of CYP3A4 by cryptotanshinone and tanshinone IIA [J]. Chemico-Biol Interact, 2009, 177(1): 58-64.",
+      "[27] 徐 聪. CYP2B6体外诱导活性评价模型的建立和应用[D]. 杭州: 浙江大学, 2013.",
+      "[28] Wang X, Lee W Y W, Yeung K H J, et al. PharmacoKinetic interaction studies of tanshinones with tolbutamide, a model CYP2C11 probe substrate, using liver microsomes, primary hepatocytes and in vivo in the rat [J]. Phytomedicine, 2010, 17(3-4): 203-211.",
+      "[29] 毕惠嫦, 和 凡, 温莹莹, 等. 丹参酮 $\\mathrm { { I I } _ { A } }$ 在大鼠肝微粒体酶 中的代 谢动力 学 [J]. 中草药, 2007, 38(6):882-886.",
+      "[30] 赵 杨, 陆 茵, 郑仕中, 等. 隐丹参酮的药理作用研究进展 [J]. 中华中医药杂志, 2010, 25(11): 1839-1841.",
+      "[31] 潘 莹, 邓 颖, 毕惠嫦, 等. 隐丹参酮对大鼠肝微粒体 CYP 酶的影响 [J]. 中药新药与临床药理, 2009,20(4): 331-334.",
+      "[32] Wang X, Yeung J H. Inhibitory effect of tanshinones on rat CYP3A2 and CYP2C11 activity and its structure-activity relationship [J]. Fitoterapia, 2011, 82(4): 539-545.",
+      "[33] 邓 婧, 张岱尊, 杨文静. 醇取丹参液对几种口腔致病菌的体外抑菌作用 [J]. 上海口腔医学, 2006, 15(2):210-212.",
+      "[34] Zhou X, Wang Y, Hu T, et al. Enzyme Kinetic and molecular docKing studies for the inhibitions of miltirone on major human cytochrome P450 isozymes [J]. Phytomedicine, 2013, 20(3/4): 367-374.",
+      "[35] Mostallino M C, Mascia M P, Pisu M G, et al. Inhibition by miltirone of up-regulation of GABAA receptor alpha4 subunit mRNA by ethanol withdrawal in hippocampal neurons [J]. Eur J Pharmacol, 2004, 494(2/3): 83-90.",
+      "[36] 王 怡, 高秀梅, 张伯礼. 复方丹参滴丸治疗心血管疾病的药理与临床研究 [J]. 天津中医学院学报, 2002,21(3): 53-54.",
+      "[37] 查青林, 郭玉明, 张 弛, 等. 复方丹参滴丸治疗冠心",
+      "病的系统评价 [J]. 上海中医药大学学报, 2012, 26(3):24-31.",
+      "[38] Efferth T, Kahl S, Paulus K, et al. Phytochemistry and pharmacogenomics of natural products derived from traditional Chinese medicine and Chinese materia medica with activity against tumor cells [J]. Mol Cancer Therap, 2008, 7(1): 152-161.",
+      "[39] 施 畅, 吴纯启, 马华智, 等. 复方丹参滴丸对大鼠肝CYP450 酶系诱导作用的研究 [J]. 解放军药学学报,2003, 19(5): 344-346.",
+      "[40] 崔学艳. “Cocktail”探针底物法筛选祛瘀剂对 5 种CYP450 酶的抑制作用 [D]. 上海: 复旦大学, 2010.",
+      "[41] 吴 慧, 陈作忠, 彭向前, 等. 复方丹参滴丸对人肝脏药物代谢酶 CYP1A2 活性的影响 [J]. 中国药房, 2008,19(15): 1182-1184.",
+      "[42] 李伟荣, 董 静, 宓穗卿, 等. 复方丹参滴丸对大鼠肝微粒体 CYP450 含量的影响 [J]. 中成药, 2005, 27(9):1092-1093.",
+      "[43] 胡 冰, 段超慧, 岳洁皓, 等. Cocktail 法评价注射用丹参总酚酸对大鼠肝微粒体 CYP1A2 和 CYP3A 的诱导作用 [J]. 中国新药杂志, 2012, 21(24): 2936-2940.",
+      "[44] Chen Y, Tu J H, He Y J, et al. Effect of sodium tanshinone II A sulfonate on the activity of CYP1A2 in healthy volunteers [J]. Xenobiotica, 2009, 39(7): 508-513.",
+      "[45] Zhang Z, Ge B K, Zhou L M, et al. Induction of liver cytochrome P450s by Danshen-Gegen formula is the leading cause for its pharmacokinetic interactions with warfarin [J]. J Ethnopharmacol, 2014, 154(3): 672-686.",
+      "[46] 余小翠, 黄丽军, 刘高峰, 等. 丹红注射液对大鼠肝微粒体 5 种 CYP 亚型酶活性的影响 [J]. 医药导报, 2012,31(3): 277-281.",
+      "[47] 袁继承. 药物临床合用相互作用及其预测模型的研究[D]. 广州: 广东药学院, 2010.",
+      "[48] 刘高峰, 甄立棉, 黄丽军. 丹参注射液对家兔体内CYP1A2、CYP2D6 和 CYP3A4 活性的影响 [J]. 基础研究, 2010, 15(7): 775-780.",
+      "[49] 刘 艳, 王海霞, 黄丽军, 等. 大鼠肝微粒体法测定 3种中药对 CYP3A 亚型的作用 [J]. 医药导报, 2011,30(3): 285-289.",
+      "[50] 安 然, 张 波, 李湘晖, 等. 大明胶囊对大鼠体内CYP450 酶活性的影响 [J]. 中国药学杂志, 2012, 47(9):707-711.",
+      "[51] 徐 斌, 赵 刚, 位 华, 等. 20 味中成药对 5 个人肝微粒体酶活性的影响 [J]. 药学实践杂志, 2009,27(5): 353-356."
+    ],
+    "bbox": [
+      99,
+      466,
+      489,
+      906
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      505,
+      98,
+      899,
+      909
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "中草药 Chinese Traditional and Herbal Drugs 第 47 卷 第 1 期 2016 年 1 月",
+    "bbox": [
+      245,
+      73,
+      749,
+      87
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "page_number",
+    "text": "·181·",
+    "bbox": [
+      842,
+      74,
+      887,
+      85
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      808,
+      979
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      99,
+      95,
+      491,
+      857
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      505,
+      95,
+      899,
+      857
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "page_number",
+    "text": "·182·",
+    "bbox": [
+      108,
+      73,
+      152,
+      84
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "中草药 Chinese Traditional and Herbal Drugs 第 47 卷 第 1 期 2016 年 1 月",
+    "bbox": [
+      247,
+      72,
+      749,
+      87
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      29,
+      963,
+      808,
+      979
+    ],
+    "page_idx": 7
+  }
+]

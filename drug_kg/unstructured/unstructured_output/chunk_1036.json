@@ -1,0 +1,159 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "埃克替尼",
+        "canonical_name": "埃克替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "CYP2C19诱导剂",
+        "canonical_name": "CYP2C19诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP3A4诱导剂",
+        "canonical_name": "CYP3A4诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "泽布替尼",
+        "canonical_name": "泽布替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "canonical_name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "canonical_name": "咪达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "阿帕替尼",
+        "canonical_name": "阿帕替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "硝苯地平",
+        "canonical_name": "硝苯地平",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1036,
+          "raw_text": "说明书建议，在与下列药物合用时应注意潜在的药物相互作用:CYP2C19诱导剂（如氨鲁米特）和CYP3A4诱导剂（如奈夫西林、奈韦拉平、苯巴比妥和利福霉素类）。",
+          "chunk_id": "1036"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1036,
+          "raw_text": "说明书建议，在与下列药物合用时应注意潜在的药物相互作用:CYP2C19诱导剂（如氨鲁米特）和CYP3A4诱导剂（如奈夫西林、奈韦拉平、苯巴比妥和利福霉素类）。",
+          "chunk_id": "1036"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1036,
+          "raw_text": "临床试验考察了泽布替尼对华法林（CYP2C9底物）、奥美拉唑（CYP2C19底物）和咪达唑仑(CYP3A4底物）的药动学影响，结果显示，联用泽布替尼，奥美拉唑的Cmax和AUC分别降低21.5%和36.5%，咪达唑仑的Cmax和AUC分别降低29.8%和47.5%，而华法林的药动学未受到显著影响。",
+          "chunk_id": "1036"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1036,
+          "raw_text": "临床试验考察了泽布替尼对华法林（CYP2C9底物）、奥美拉唑（CYP2C19底物）和咪达唑仑(CYP3A4底物）的药动学影响，结果显示，联用泽布替尼，奥美拉唑的Cmax和AUC分别降低21.5%和36.5%，咪达唑仑的Cmax和AUC分别降低29.8%和47.5%，而华法林的药动学未受到显著影响。",
+          "chunk_id": "1036"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1036,
+          "raw_text": "临床试验考察了泽布替尼对华法林（CYP2C9底物）、奥美拉唑（CYP2C19底物）和咪达唑仑(CYP3A4底物）的药动学影响，结果显示，联用泽布替尼，奥美拉唑的Cmax和AUC分别降低21.5%和36.5%，咪达唑仑的Cmax和AUC分别降低29.8%和47.5%，而华法林的药动学未受到显著影响。",
+          "chunk_id": "1036"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1036,
+          "raw_text": "在阿帕替尼作用下，硝苯地平的Cmax和AUC0-∞分别升高64%和83%，华法林的Cmax和AUC0-∞分别升高24%和92%。因此，阿帕替尼的药品说明书中“药物相互作用”一项标明应避免将阿帕替尼与CYP3A4或CYP2C9的底物联用。",
+          "chunk_id": "1036"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1036,
+          "raw_text": "在阿帕替尼作用下，硝苯地平的Cmax和AUC0-∞分别升高64%和83%，华法林的Cmax和AUC0-∞分别升高24%和92%。因此，阿帕替尼的药品说明书中“药物相互作用”一项标明应避免将阿帕替尼与CYP3A4或CYP2C9的底物联用。",
+          "chunk_id": "1036"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1036,
+    "source": "凡默谷",
+    "text": "。埃克替尼在人体内广泛代谢并主要以代谢 产物的形式排泄。体外研究表明埃克替尼主要 代谢酶为CYP3A4酶[26]。此外，CYP2C19的基因 多态性对埃克替尼的人体药动学也具有显著影 响[27]。说明书建议，在与下列药物合用时应注意 潜在的药物相互作用:CYP2C19诱导剂（如氨鲁米 特）和CYP3A4诱导剂（如奈夫西林、奈韦拉平、苯 巴比妥和利福霉素类）。1.2试验药物作为代谢酶的抑制剂/诱导剂 1.2.1泽布替尼[28]体外研究表明泽布替尼对 CYP3A4、CYP2B6、CYP2C8 和 CYP2C9 酶具有诱导作 用。临床试验考察了泽布替尼对华法林（CYP2C9 底物）、奥美拉唑（CYP2C19底物）和咪达唑仑 (CYP3A4底物）的药动学影响，结果显示，联用泽 布替尼，奥美拉唑的Cmax和AUC。—。分别降低 21.5%和36.5%，咪达唑仑的〔_和AUC。—*分别降 低29.8%和47.5%，而华法林的药动学未受到显著 影响。作者根据咪达唑仑的数据推测，在人体内 泽布替尼对CYP2B6酶产生诱导作用的可能性较小。1.2.2阿帕替尼[29]体外研究表明阿帕替尼对 CYP3A4和CYP2C9酶具有抑制作用，临床上考察了阿帕替尼对硝苯地平（CYP3A4底物）和华法林 (CYP2C9底物）药动学的影响。在阿帕替尼作用 下，硝苯地平的Cmax和AUC0-∞分别升高64%和 83%，-华法林的Cmax和AUC0-∞分别升高24%和 92%。因此，阿帕替尼的药品说明书中“药物相 互作用”一项标明应避免将阿帕替尼与CYP3A4 或CYP2C9的底物联用"
+  }
+]

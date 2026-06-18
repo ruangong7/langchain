@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "叶酸",
+        "canonical_name": "叶酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "酒精",
+        "canonical_name": "酒精",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "赣州市肿瘤医院药剂科",
+          "chunk_index": 2969,
+          "raw_text": "避免与冲突药物/酒精同用",
+          "chunk_id": "2969",
+          "data": "。【六】、总结叶酸补充需遵循个体化原则，尤其在与药物联用时，需密切监测并调整方案。普通人群每日0.4-1mg安全有效，特殊治疗（如肿瘤）需遵医嘱。关键原则：不盲目超量、定期复查、避免与冲突药物/酒精同用。参考文献[1].Wilson RD,O'Connor DL.Guideline No.427:Folic Acid and Multivitamin Supplementation for Prevention of Folic Acid-Sensitive Congenital Anomalies. J Obstet Gynaecol Can. 2022 Jun;44(6):707-719Dwyer ER,Filion KB,MacFarlane AJ,Platt RW,Mehrabadi A.Who should consume high-dose folic acid supplements before and during early pregnancy for the prevention of neural tube defects? BMJ. 2022 Jun7;377:e067728.[2].中国临床合理补充叶酸多学科专家共识[J].中国医学前沿杂志，2020，12（11）：19-36.编辑：药械科  刘勇排版：谢建一审：李明娥二审：黄作超"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 2969,
+    "source": "赣州市肿瘤医院药剂科",
+    "text": "。【六】、总结叶酸补充需遵循个体化原则，尤其在与药物联用时，需密切监测并调整方案。普通人群每日0.4-1mg安全有效，特殊治疗（如肿瘤）需遵医嘱。关键原则：不盲目超量、定期复查、避免与冲突药物/酒精同用。参考文献[1].Wilson RD,O'Connor DL.Guideline No.427:Folic Acid and Multivitamin Supplementation for Prevention of Folic Acid-Sensitive Congenital Anomalies. J Obstet Gynaecol Can. 2022 Jun;44(6):707-719Dwyer ER,Filion KB,MacFarlane AJ,Platt RW,Mehrabadi A.Who should consume high-dose folic acid supplements before and during early pregnancy for the prevention of neural tube defects? BMJ. 2022 Jun7;377:e067728.[2].中国临床合理补充叶酸多学科专家共识[J].中国医学前沿杂志，2020，12（11）：19-36.编辑：药械科  刘勇排版：谢建一审：李明娥二审：黄作超"
+  }
+]

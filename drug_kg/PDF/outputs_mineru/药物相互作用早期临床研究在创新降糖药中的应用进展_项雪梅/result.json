@@ -1,0 +1,1484 @@
+[
+  {
+    "type": "text",
+    "text": "药物相互作用早期临床研究在创新降糖药中的应用进展 \\*",
+    "text_level": 1,
+    "bbox": [
+      133,
+      114,
+      866,
+      141
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "项雪梅 1 ，阙琳玲 2 ，黄 凯 2 ，储楠楠 2 ，张继胜 1 ，顾逸飞 1 ，贺 晴 2\\*\\*",
+    "bbox": [
+      178,
+      160,
+      818,
+      180
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 南京医科大学无锡临床医学院，无锡 214023 ; 2 南京医科大学附属无锡人民医院药物临床试验机构，无锡 214023",
+    "bbox": [
+      187,
+      182,
+      797,
+      219
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘 要 患者在同时使用多种药物时 常常会发生药物-药物相互作用（DDI） 其结果可能导致严重不良反应或改变治疗效果 在糖尿病治疗中 患者合用药物十分普遍 在创新降糖药上市前对其进行 DDI 临床研究十分必要 而现有的指导原则并未对创新降糖药的 DDI 临床研究设计和实施做出明确规定 目前该类研究在设计上呈现出多样性和复杂性的特点 现对创新降糖药DDI 早期临床研究设计中的一些关键因素 研究类型选择 纳入人群和样本量确定 研究设计方法 给药方案 试验实施及试验结果进行综述 为创新降糖药的 DDI 早期临床研究提供参考",
+    "bbox": [
+      140,
+      250,
+      857,
+      362
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词 药物相互作用；创新降糖药；早期临床研究；交叉设计",
+    "bbox": [
+      176,
+      365,
+      635,
+      379
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号 R969.2 文献标志码 A 文章编号 1 673-7806 （ 2022 ） 05-427-07",
+    "bbox": [
+      176,
+      383,
+      834,
+      399
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "DOI:10.13664/j.cnki.pcr.2022.05.017",
+    "bbox": [
+      176,
+      415,
+      405,
+      429
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "新药与其他药物 的相互作用研究是药物研发过程中安全性和有效性评价不可或缺的 部分 食品药品监督管理局（FDA） 欧洲药品管理局（EMA）以及我 家药品监督管理局（NMPA）等药品监管 构都颁 了药物-药物相互作用（DDI）研究的指 则 [1-3] 明确规定 个新药的上市 如果其 发旨在与其他药物合用 则上应展 DDI 临床研究 目前全新作用 制的降糖药是大研发热 些新型药物不断涌现 如葡萄糖依赖性促胰 素多肽 （GIP） 和胰高血糖素样肽-1（GLP-1 ） 双重受体激动剂 Tirzepatide[4] 胰高血糖素样肽-1 受体 （GLP-1R） 和胰高血糖素受体 （GCGR）的双重激动剂 IBI362[5] 以及新型的过氧化物酶体增殖物激活受体（PPAR）泛激动剂西格列他钠等[6]给糖尿病患者带来了新的治疗选择 糖尿病患者往往伴有高血压 血脂代谢紊乱等合 症 临床上常常需要多种药物联合治疗 由此带来较高的 DDI 风险因此 创新降糖药在药物研发早期都要进行 DDI 临床研究 现以创新降糖药的 DDI 早期临床研究为切入 结合 内外指南 NMPA 和 FDA 网站登记的DDI 试验信息以及相 文献 对创新降糖药物 DDI早期临床研究设计和实施过程中需要考虑的 键因素进行综 以期为 展 DDI 临床研究提供参考",
+    "bbox": [
+      99,
+      449,
+      483,
+      839
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      513,
+      449,
+      893,
+      485
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 研究类型选择",
+    "text_level": 2,
+    "bbox": [
+      514,
+      495,
+      668,
+      512
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1.1 指针药物DDI 临床研究",
+    "text_level": 2,
+    "bbox": [
+      514,
+      523,
+      735,
+      538
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "在 DDI 临床研究 始 前 研究者可根据体外数据 得到代谢酶或转运体在创新降糖药的吸收分布 代谢 排泄过程中的贡献 据此确定进行指针药物 DDI 临床研究的必要性 指针药物研究针对定的代谢途径 考察了体内发生 DDI 最严重的情况 且试验结果可外推至具有相 酶或转运体途径的药物[7] FDA 官网对不同代谢酶/转运体使用何种指针药物 有推 [8] 近 5 年 发表的部分创新降糖药 DDI 指针药物临床研究汇总见表 1",
+    "bbox": [
+      511,
+      542,
+      895,
+      707
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1.2 临床合并用药的DDI 研究",
+    "text_level": 2,
+    "bbox": [
+      514,
+      711,
+      751,
+      725
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "应用更广泛的 类 DDI 研究是临床合 用药的研究 查阅 2015 年以来发表的文献以及 2013 年2017 年以来分别在 NMPA 药物临床试验登记网站（ http://www.chinadrugtrials.org.cn/index.html ） 和 FDA临床试验登记 网 站 （ http://www.clinicaltrials.gov ） 上登记的创新降糖药 DDI 临床研究 总结了可选择的临床合 用药 包括其他作用 制的降糖药（见表2）和其他治疗领域（如抗血 板药物 降压药 降脂药等）的药物选择（见表 3） 药物选择的 则是基于临床合用的可能性以及治疗窗的大 如 甲双胍是许多 内外指 推 的 2 型糖尿病患者控制高血糖的 线用药和药物联用中的基本用药[13，14]NMPA 颁 的指 则中明确规定 创新降糖药需进行与 甲双胍临床合 用药的 DDI 临床研究[3]故与 甲双胍的 DDI 研究是数量最多的",
+    "bbox": [
+      511,
+      729,
+      895,
+      930
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "药学与临床研究",
+    "bbox": [
+      792,
+      25,
+      898,
+      37
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Pharmaceutical and Clinical Research",
+    "bbox": [
+      676,
+      38,
+      898,
+      50
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "综 述",
+    "bbox": [
+      919,
+      31,
+      962,
+      46
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "基金项目\\* 无锡市新药及医疗器械临床研究及评价公共服务平台（GGFWPT2019 ）",
+    "bbox": [
+      102,
+      854,
+      482,
+      878
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "作者简介 项雪梅 女 在读硕士生",
+    "bbox": [
+      112,
+      879,
+      308,
+      891
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "E-mail: xuemeixiang2019@163.com",
+    "bbox": [
+      181,
+      894,
+      377,
+      905
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "通信作者 贺晴 女 主任药师 E-mail: heqing0510@163.com\\*\\*",
+    "bbox": [
+      102,
+      906,
+      462,
+      918
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "收稿日期 2022-04-15 修回日期 2022-08-26",
+    "bbox": [
+      112,
+      919,
+      395,
+      930
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "427",
+    "bbox": [
+      854,
+      944,
+      883,
+      957
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      978
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "table",
+    "img_path": "images/d08b25df19555e22fdf045c94c641da86cfe0a387458a74375d5118a3e0e16ba.jpg",
+    "table_caption": [
+      "表 1 创新降糖药指针药物 DDI 临床研究信息汇总"
+    ],
+    "table_footnote": [
+      "注：BMI：体重指数； ${ \\mathrm { ; P - g p } } \\colon$ ：P-糖蛋白；UGTs：尿苷二磷酸葡萄糖醛酸转移酶；OAT：有机阴离子转运体；BCRP：乳腺癌耐药蛋白 ${ \\mathrm { ; O A T P } } \\colon$ ：有机阴离子转运多肽；SNAC：8-（2-羟基苯甲酰氨基）辛酸钠"
+    ],
+    "table_body": "<table><tr><td>创新降糖药</td><td>酶或转运体</td><td>指针研究药物</td><td>研究设计</td><td>受试者选择</td><td>BMI( $kg·m^{-2}$ )</td></tr><tr><td>依格列汀[9]</td><td>CYP3A4底物</td><td>克拉霉素(CYP3A4抑制剂)</td><td>开放,单序列交叉,单向,创新药单次给药,促变药多次给药</td><td>12名健康男女,年龄20~55周岁</td><td>18.5~25.0,体重&gt;55kg</td></tr><tr><td>艾格列净[10]</td><td>UGT1A9、UGT2B7、CYP3A4/5底物</td><td>利福平(非选择性酶诱导)</td><td>开放,单序列交叉,单向,创新药单次给药,促变药多次给药</td><td>12名健康男女,年龄18~55周岁</td><td>17.5~30.5,体重&gt;50kg</td></tr><tr><td>卡格列净[11]</td><td>UGT1A9、UGT2B4、CYP3A4底物</td><td>丙磺舒(非选择性酶抑制剂)</td><td>开放,单序列交叉,单向,创新药多次给药,促变药多次给药</td><td>14名健康男女,年龄18~55周岁</td><td>18.0~30.0,体重&gt;50kg</td></tr><tr><td>卡格列净[11]</td><td>P-gp底物</td><td>环孢素A(P-gp抑制剂)</td><td>开放,单序列交叉,单向,创新药多次给药,促变药多次给药</td><td>18名健康男女,年龄18~55周岁</td><td>18.0~30.0,体重&gt;50kg</td></tr><tr><td>口服索马鲁肽(包含吸收促进剂SNAC)[12]</td><td>抑制BCRP、OAT1、OAT3、OATP1B</td><td>瑞舒伐他汀(BCRP、OAT1、OAT3、OATP1B敏感指针底物)</td><td>开放,单序列交叉,单向,创新药多次给药,指针底物单次给药</td><td>41名健康男女,年龄18~65周岁</td><td>20.0~29.9</td></tr></table>",
+    "bbox": [
+      104,
+      110,
+      893,
+      287
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      101,
+      321,
+      480,
+      394
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "若创新降糖药的吸收依赖胃内 $\\mathrm { p H }$ 值 需进行与抑酸药的 DDI 临床研究 如口服索马鲁肽 有 分子吸收促进剂 8-（2-羟基苯甲 基）辛酸钠 其过升高胃内 $\\mathrm { p H }$ 的方 促进索马鲁肽的胃内吸收故进行了索马鲁肽与 拉唑的 DDI 临床研究[15]针对具有 $\\mathrm { p H }$ 依赖的药物 FDA 发 其与抑酸药同服的 DDI 临床研究指 则 供研究者参考[16]",
+    "bbox": [
+      101,
+      396,
+      483,
+      525
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/90d7c23d9ccb33bd626558a4c5c6b75a04e549710d3e3eb43f92ddf4b9ee08ff.jpg",
+    "table_caption": [
+      "表 2 创新降糖药 DDI 临床研究中可供选择的具有不同作用机制的降糖药汇总"
+    ],
+    "table_footnote": [
+      "注：SGLT2i：钠-葡萄糖共转运蛋白2抑制剂；DPP-4i：二肽基肽酶Ⅳ抑制剂；TZD：噻唑烷二酮类；PPI：质子泵抑制剂"
+    ],
+    "table_body": "<table><tr><td>治疗领域</td><td>药物类型及作用机制</td><td>联用药物名称</td><td>研究个数</td></tr><tr><td rowspan=\"10\">糖尿病</td><td>双胍类,作用于肝脏和外周组织,减少肝糖输出,增加脂肪、肌肉等对葡萄糖的摄取和利用[17]</td><td>二甲双胍</td><td>22</td></tr><tr><td rowspan=\"2\">磺脲类,胰岛素促泌剂,增加体内的胰岛素水平而降低血糖[18]</td><td>格列美脲</td><td>8</td></tr><tr><td>格列本脲</td><td>1</td></tr><tr><td rowspan=\"2\">SGLT2i,可抑制肾脏对葡萄糖的重吸收,降低肾糖阈,从而促进尿糖的排出[19]</td><td>恩格列净</td><td>4</td></tr><tr><td>达格列净</td><td>3</td></tr><tr><td rowspan=\"2\">DPP-4i,抑制 DPP-4 而减少 GLP-1 在体内的失活,使内源性 GLP-1 水平升高[20]</td><td>西格列汀</td><td>5</td></tr><tr><td>利格列汀</td><td>1</td></tr><tr><td>TZD,主要通过增加靶细胞对胰岛素作用的敏感性而降低血糖[21]</td><td>吡格列酮</td><td>3</td></tr><tr><td rowspan=\"2\">α-糖苷酶抑制剂,通过抑制碳水化合物在小肠上部的吸收而降低餐后血糖[22]</td><td>伏格列波糖</td><td>2</td></tr><tr><td>米格列醇</td><td>2</td></tr><tr><td>合计</td><td>/</td><td>/</td><td>51</td></tr></table>",
+    "bbox": [
+      104,
+      558,
+      483,
+      843
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.3 DDI 模拟研究",
+    "text_level": 2,
+    "bbox": [
+      102,
+      879,
+      250,
+      894
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "在 有试验药物药代动力学（PK）数据的情况下 可以 过建立基于生理的药代动力学（PBPK）模型来进行 DDI 模拟研究以 到豁免部分 DDI 临床试验的目 $\\hat { \\mathsf { H } } \\hat { \\mathsf { J } } ^ { [ 3 2 ] } ($ 查阅 2021 年 FDA 批准上市的 50 个新药 评报 [33] 共 15 个创新药物在 DDI 临床研究中使用了 PBPK 模拟的方法 主要 中于经代谢酶或转运体介 的 DDI 主要解决的问题为（1）在体内 进行强效指针抑制剂和诱 剂的 DDI 临床研究后 模拟中效和弱效指针抑制剂和诱 剂的 DDI临床研究 研究结果可支持剂量调整 （2）在体内进行低剂量指针药物研究 使用 PBPK模拟创新药或指针药物在更高剂量下的 DDI 情况； （3） 在进行DDI 临床研究前预测体内 DDI 的大 以支持是否",
+    "bbox": [
+      102,
+      898,
+      483,
+      932
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/f726ebd9c5bd2f863f54b9c7aa21eafcd2a743a0480acb2df4358dacdab35bc8.jpg",
+    "table_caption": [
+      "表 3 除降糖药外其他临床合并用药汇总"
+    ],
+    "table_footnote": [
+      "注：BCS：生物药剂学分类系统；ARB：血管紧张素受体拮抗剂；ACEI：血管紧张素转换酶抑制剂"
+    ],
+    "table_body": "<table><tr><td>治疗领域</td><td>联用药物名称</td><td>药物特点</td><td>研究个数</td></tr><tr><td>抗凝</td><td>华法林</td><td>治疗窗窄,BCSI/II类,经CYP2C9代谢,在糖尿病患者中合用较多[23,24]</td><td>8</td></tr><tr><td rowspan=\"2\">血脂调节</td><td>辛伐他汀</td><td>经CYP3A4代谢,OATP1B1、OATP1B3底物,BCSII类。药效肯定,中效降脂功效,临床应用广[24,25]</td><td>8</td></tr><tr><td>阿托伐他汀</td><td>经CYP3A4代谢,OATP1B1、OATP1B3底物,BCSII类,强效降脂功效,临床应用广[26]</td><td>4</td></tr><tr><td rowspan=\"2\">心衰</td><td>地高辛</td><td>治疗窗窄,P-gp底物,BCSI/III类,临床一线用药,应用广泛[24,27]</td><td>7</td></tr><tr><td>缬沙坦</td><td>BCSII类,ARB类降压药,几乎不代谢,对酶和转运体无影响。临床应用广[24,28]</td><td>5</td></tr><tr><td rowspan=\"2\">高血压</td><td>氢氯噻嗪</td><td>BCSIII/IV类,利尿剂,近年来广泛用于与其他药物制成复合片剂降压,几乎不代谢[29]</td><td>3</td></tr><tr><td>赖诺普利</td><td>BCSIII类,ACEI类降压药,具有明显心脏获益,降压平稳,临床应用广,几乎不代谢[30]</td><td>2</td></tr><tr><td>抑制胃酸分泌</td><td>奥美拉唑</td><td>BCSII类,PPI类抑酸药,提高胃内pH值,经CYP2C19代谢,抑制P-gp,临床应用广[24,31]</td><td>3</td></tr><tr><td>合计</td><td>/</td><td>/</td><td>40</td></tr></table>",
+    "bbox": [
+      516,
+      339,
+      893,
+      696
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      511,
+      729,
+      895,
+      932
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "2022",
+    "bbox": [
+      40,
+      25,
+      78,
+      36
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Oct;30(5)",
+    "bbox": [
+      27,
+      37,
+      91,
+      50
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "药物相互作用早期临床研究在创新降糖药中的应用进展",
+    "bbox": [
+      107,
+      35,
+      460,
+      49
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "428",
+    "bbox": [
+      114,
+      944,
+      142,
+      957
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      979
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "展 DDI 临床研究决策",
+    "bbox": [
+      102,
+      93,
+      287,
+      108
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2 研究人群和样本量的确定",
+    "text_level": 2,
+    "bbox": [
+      99,
+      120,
+      352,
+      137
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "常选择在健康男性和女性受试者中进行创新降糖药 DDI 临床研究 殊情况下 如果出于安全性考虑或为取得 些药效动力学（PD）研究指标不适于在健康人群中 展时 也可选择在 2 型糖尿病患者中进行 如新型葡萄糖激酶激动剂 Piragliatin与辛伐他汀 格列 脲的 DDI 临床研究[34，35]纳入 2型糖尿病患者作为研究对象 ， 因 Piragliatin 25 mg即可使健康受试者 腹血糖降低 20% 而糖尿病患者服用 $2 0 0 \\mathrm { m g }$ 仍然有较好的耐受性和有效性 为考察最大剂量下的 DDI 程 选择健康受试者是不太合适的 因此试验在患者中进行 在 般情况下DDI 受试者样本量的计算应考虑 DDI 程 大 和考虑受试者个体内 和脱落率的影响",
+    "bbox": [
+      99,
+      148,
+      483,
+      388
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3 研究设计方法",
+    "text_level": 2,
+    "bbox": [
+      101,
+      398,
+      254,
+      416
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "根据研究需求 研究者可以选择单向或双向的DDI 临床研究 单向研究只考察创新降糖药对相互作用药物的影响或相互作用药物对创新降糖药的影响 双向研究即考察两者相互 的影响",
+    "bbox": [
+      99,
+      427,
+      483,
+      498
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "以单向设计为例 DDI 临床研究 般可分为设计和 行设计（均为 放设计 见表 4） 根据是否随 分组 叉设计又可分为单序列 叉设计和随 设计 设计采用了 身对照的方法 减少了受试者个体 设计更为科学 合理 经济",
+    "bbox": [
+      101,
+      501,
+      483,
+      592
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/5c082de6a494fe523d3191cf97cb48a12e449db646230db53cb8e52418041fd3.jpg",
+    "table_caption": [
+      "表4 单向设计类型及流程示意"
+    ],
+    "table_footnote": [
+      "注：S为底物药（substrate）或受变药（victim）；I为与S合并使用并对其可能产生影响的药物（inhibitor/inducer）或促变药（perpetrator）"
+    ],
+    "table_body": "<table><tr><td colspan=\"2\">研究设计(开放)</td><td>研究示意</td></tr><tr><td rowspan=\"2\">交叉设计</td><td>单序列交叉</td><td>S⋯S+I</td></tr><tr><td>2×2交叉</td><td>序列1:S⋯S+I序列2:S+I⋯S</td></tr><tr><td>平行设计</td><td>/</td><td>序列1:S序列2:S+I</td></tr></table>",
+    "bbox": [
+      102,
+      612,
+      480,
+      713
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "在 叉设计不可行时 如药物半衰期过长 可以采用 行设计 由于 行研究所需样本量较大个体 较高 研究结果容易产生较大 倚[36] 因此各 指 则均不推 作为首选使用[1-3] 现主要介绍的是单双向研究中的 设计",
+    "bbox": [
+      99,
+      747,
+      483,
+      838
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3.1 单序列交叉设计",
+    "text_level": 2,
+    "bbox": [
+      101,
+      841,
+      267,
+      856
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "单序列 设计 也 为固定序列设计 即所有受试者进入同 个给药序列 完成单药和联合用药两个给药周期 两周期 设置清洗期 给药和采血设计示意见图 1 该种设计方法较为简单易行 适用于半衰期较长的药物 Hausner H 等[37]在健康受试者中进行的 项索马鲁肽与 甲双胍等药物的相互作用研究中 首先所有受试者接受 甲双胍单药稳态给药 清洗期结 后 所有受试者进入索马鲁肽稳态给药周期 在 稳态后进行 者共同给药 该种研究方法可避免由于促 药的首 使用对第 周期单药的 PK 产生的遗留效应",
+    "bbox": [
+      99,
+      859,
+      483,
+      932
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      511,
+      93,
+      895,
+      220
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "image",
+    "img_path": "images/d22808fe85a2c4650479460d9d1f7fcba340bb5ab3bf0297742778d104426cb5.jpg",
+    "image_caption": [
+      "图 1 单向单序列交叉设计"
+    ],
+    "image_footnote": [],
+    "content": "```mermaid\ngraph LR\n  A[\"S（单药）\"] -->|清洗期| B[\"S+I（联用）\"]\n  B -->|PK采血| A\n  B -->|PK采血| A\n```",
+    "sub_type": "flowchart",
+    "bbox": [
+      586,
+      224,
+      820,
+      270
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "若要得到双向 DDI 研究结果 可加入另 相互作用药物的单药阶段 完成 PK/PD 采样 如在恒格列净与 甲双胍的 DDI 临床研究中[38] 完成了 3个周期的 PK 采 分别为 甲双胍单药 恒格列净稳态后及恒格列净合 甲双胍给药阶段 才可得到恒格列净和 甲双胍 是否有 PK 相互作用的结论 。",
+    "bbox": [
+      511,
+      291,
+      895,
+      418
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3.2 2×2 交叉设计",
+    "text_level": 2,
+    "bbox": [
+      513,
+      422,
+      668,
+      436
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2 ×2 叉设计 过随 化的方法 将受试者随分为两组 第 组第 周期为单药给药 第 周期为两药联合给药 第 组受试者给药顺序与第 组相反（见图 2） 这种设计的优 在于同时考虑了相互作用效应与给药顺序效应对结果的影响 且可以过纳入较少的受试者实现较高的 验效能 在 项拉糖肽与华法 的单 给药 DDI 临床研究中[39]16 康受试者随 分配到两个序列中 其中 个序列给药顺序为： 第 周期仅服用华法 10 mg；第周期第 接受 拉糖肽注射给药 第三 接受华法 给药 （合 给药阶段） 两周期 设置清洗期 另 组受试者两周期给药顺序相反",
+    "bbox": [
+      511,
+      441,
+      895,
+      662
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "image",
+    "img_path": "images/bc270ab16987871e8182dad73480bcaf51aef397dd2572dc221ff408cbe04051.jpg",
+    "image_caption": [
+      "图 2 单向 2×2 交叉设计"
+    ],
+    "image_footnote": [],
+    "content": "```mermaid\ngraph TD\n  A[\"随机\"] --> B[\"序列1\"]\n  B --> C[\"S（单药）\"]\n  C --> D[\"清洗期\"]\n  D --> E[\"S+I（联用）\"]\n  D --> F[\"S（单药）\"]\n  F --> G[\"PK采血\"]\n  B --> H[\"序列2\"]\n  H --> I[\"S+I（联用）\"]\n  I --> J[\"PK采血\"]\n  C --> K[\"第一周期\"]\n  K --> L[\"S（单药）\"]\n  L --> M[\"清洗期\"]\n  M --> N[\"S+I（联用）\"]\n  M --> O[\"S（单药）\"]\n  O --> P[\"PK采血\"]\n```",
+    "sub_type": "flowchart",
+    "bbox": [
+      542,
+      666,
+      862,
+      743
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3.3 3×3正交拉丁方设计",
+    "text_level": 2,
+    "bbox": [
+      513,
+      766,
+      718,
+      781
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "为实现双向 DDI 研究结果 常还需要加入另相互作用药物单独给药周期 假设 A 为创新降糖药 S 单药给药周期 B 为相互作用药物 I 单独给药周期 C 为创新降糖药 S 和相互作用药物 I 联合给药周期 序列的分配可以使用 3×3 拉丁方设计 其给药顺序见图 3 项 甲双胍与西格列他钠的 DDI 临床研究[40]及 项托格列净与格列 脲甲双胍等药物的 DDI 临床研究[41]即采用这种设计方法 这种设计的优 是提高了研究效率 所需受试者数量较少 但均衡性较差",
+    "bbox": [
+      511,
+      785,
+      895,
+      930
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "药学与临床研究",
+    "bbox": [
+      794,
+      25,
+      898,
+      37
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "Pharmaceutical and Clinical Research",
+    "bbox": [
+      678,
+      38,
+      900,
+      50
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "综 述",
+    "bbox": [
+      919,
+      31,
+      962,
+      44
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "429",
+    "bbox": [
+      854,
+      944,
+      883,
+      957
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      978
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      101,
+      93,
+      480,
+      127
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "image",
+    "img_path": "images/b06147e53c9b8f2564e396926325fc62e20ad0b6e1cf7f03304586a63c407c4e.jpg",
+    "image_caption": [
+      "图 3 双向 3×3 正交拉丁方设计"
+    ],
+    "image_footnote": [],
+    "content": "```mermaid\ngraph TD\n  A[\"随机\"] --> B[\"序列1\"]\n  B --> C[\"A\"]\n  C --> D[\"B\"]\n  D --> E[\"C\"]\n  E --> F[\"A\"]\n  F --> G[\"B\"]\n  G --> H[\"PK采血\"]\n  I[\"序列2\"] --> J[\"B\"]\n  J --> K[\"C\"]\n  K --> L[\"A\"]\n  L --> M[\"B\"]\n  M --> N[\"PK采血\"]\n  O[\"序列3\"] --> P[\"C\"]\n  P --> Q[\"A\"]\n  Q --> R[\"B\"]\n  R --> S[\"PK采血\"]\n```",
+    "sub_type": "flowchart",
+    "bbox": [
+      138,
+      133,
+      444,
+      225
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "3.4 二重 3×3 拉丁方设计（Williams 设计）",
+    "text_level": 2,
+    "bbox": [
+      101,
+      250,
+      429,
+      265
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "重 3 × 3 拉丁方设计即 3 周期 6 序列随叉研究 也称为具有三种治疗的 Williams 设计 是在 3 × 3 拉丁方设计基 上的优化 6 种给药序列见图 4 该研究设计应用较为广泛 在多项降糖药与其他降糖药的 DDI 研究[42]中均采用了该设计 这种设计方法相比 3 × 3 拉丁方设计 减少了给药顺序 周期和遗留效应对研究结果的混杂影响均衡性更好 研究结果可靠性更高",
+    "bbox": [
+      101,
+      268,
+      483,
+      413
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "image",
+    "img_path": "images/fd10f5e83490610a4520844bf7ffacd026acea3a4297ad240aab4cecd75d86a2.jpg",
+    "image_caption": [
+      "图 4 Williams 设计"
+    ],
+    "image_footnote": [],
+    "content": "```mermaid\ngraph LR\n  A[\"随机\"] --> B[\"序列1\"]\n  B --> C[\"清洗期\"]\n  C --> D[\"B\"]\n  D --> E[\"清洗期\"]\n  E --> F[\"C\"]\n  F --> G[\"序列2\"]\n  G --> H[\"清洗期\"]\n  H --> I[\"C\"]\n  I --> J[\"清洗期\"]\n  J --> K[\"A\"]\n  K --> L[\"序列3\"]\n  L --> M[\"清洗期\"]\n  M --> N[\"A\"]\n  N --> O[\"清洗期\"]\n  O --> P[\"B\"]\n  P --> Q[\"序列4\"]\n  Q --> R[\"清洗期\"]\n  R --> S[\"B\"]\n  S --> T[\"清洗期\"]\n  T --> U[\"A\"]\n  U --> V[\"序列5\"]\n  V --> W[\"清洗期\"]\n  W --> X[\"A\"]\n  X --> Y[\"清洗期\"]\n  Y --> Z[\"C\"]\n  Z --> AA[\"序列6\"]\n  AA --> AB[\"清洗期\"]\n  AB --> AC[\"C\"]\n  AC --> AD[\"清洗期\"]\n  AD --> AE[\"B\"]\n  AE --> AF[\"PK采血\"]\n  AF --> AG[\"PK采血\"]\n  AG --> AH[\"PK采血\"]\n```",
+    "sub_type": "flowchart",
+    "bbox": [
+      138,
+      422,
+      444,
+      580
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "4 给药方案",
+    "text_level": 2,
+    "bbox": [
+      101,
+      608,
+      215,
+      625
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "4.1 给药剂量",
+    "text_level": 2,
+    "bbox": [
+      101,
+      635,
+      217,
+      651
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "根据 FDA 颁 的 DDI 指 则 为观察到最大程 的药物相互作用 促 药应在安全的前提下使用推荐给药方案中的最大剂量和最短给药 隔",
+    "bbox": [
+      101,
+      655,
+      482,
+      708
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "对于 GLP-1 受体激动剂 很多研究采用滴定给药的策略[37，43] 即从 剂量 始 逐步滴定至目标剂量 这样的给药方 是基于该类药物普遍具有胃肠道不耐受的不良反应 为提高受试者依从性以及出于 理考虑 建议采用滴定给药设计",
+    "bbox": [
+      101,
+      711,
+      480,
+      800
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "4.2 给药方式",
+    "text_level": 2,
+    "bbox": [
+      101,
+      805,
+      217,
+      819
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "4 2 1 单次/稳态给药 般情况下 促 药和受药均推 在稳态条件下进行 DDI 评估 由于阶段酶抑制剂的合用致使受 药半衰期增加 此时需延长受 药的给药时 以确保 到稳态 可设置稳态谷采血 以 查受试者多 服药的依从性",
+    "bbox": [
+      101,
+      822,
+      480,
+      913
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "若底物药物是长半衰期药物 则促 药应持给药至底物药物的 3\\~5 倍半衰期 在 项评估 格列净与华法 地高辛的 DDI 临床研究中[44] 地高辛 华法 均采用单 给药 格列净多 给药稳态 因是地高辛和华法 相比 格列净具有更长的半衰期。",
+    "bbox": [
+      135,
+      916,
+      480,
+      932
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      511,
+      93,
+      893,
+      183
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "另外 如促 药是诱 剂时 指 则规定需连 给诱 剂两周以获得其对代谢酶/转运体的最大影响[11] 对于抑酸药 拉唑 其抑制胃酸分泌作用随着每日 给药逐渐增加 直至连 给药 4后 到最大药理效应 因此 拉唑需多 给药稳态后进行 DDI 评估[15]",
+    "bbox": [
+      511,
+      186,
+      893,
+      294
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "4 2 2 联合给药阶段共同给药时机 在大多数情况下 促 药和底物药物可以同时服用 设计给药时 的另 个考虑是使观察到的 DDI 最大化",
+    "bbox": [
+      511,
+      299,
+      893,
+      351
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "（1）在创新降糖药血药 峰值 $( C _ { \\mathrm { m a x } } )$ 时给予相互作用药物 如在索马鲁肽和 甲双胍 地高辛的研究中[37] 在索马鲁肽 给药后 48 h 处（即索马鲁肽的稳态 $C _ { \\mathrm { m a x } }$ 处）进行 甲双胍稳态 给药对 甲双胍进行 PK 采 此时可以观察到索马鲁肽对 甲双胍最大程 的 DDI",
+      "（2） 部分抑酸药在给药 2\\~3h 后 最大药理效应 如 拉唑在给药后 2h 抑酸作用最强 可考虑创新降糖药在 拉唑给药后 2h 服用[15]"
+    ],
+    "bbox": [
+      511,
+      355,
+      893,
+      520
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "另外 为观察 错给药是否会使 DDI 减 可选择 种不同的共同给药时 进行研究 如在他鲁肽的 DDI 研究中[43] 相互作用药物分别在他 鲁肽首 注射给药时合 使用 以及在他 鲁肽完成4 注射 到稳态后再 进行联合给药 分别进行 PK 采 以观察多 给药受试者对胃肠道不良反应产生耐受后 是否会使 DDI 减",
+    "bbox": [
+      511,
+      523,
+      893,
+      651
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "5 DDI 临床研究实施",
+    "text_level": 2,
+    "bbox": [
+      513,
+      662,
+      705,
+      678
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "5.1 保障安全性",
+    "text_level": 2,
+    "bbox": [
+      513,
+      690,
+      645,
+      705
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "（1）低血糖事件风险控制 在创新降糖药的 DDI临床研究中 在给药 始前应针对低血糖 件的表现对受试者进行宣教 必要时应增设血糖监测",
+      "（2）警惕华法 出血风险 在创新降糖药 DDI临床研究中 华法 所用剂量较高 （2.5 mg、10 mg 或25mg 超出常用剂量） 需警惕出血事件的发生 推作 际标准化比值（INR）监测 预防出血风险",
+      "（3）警惕地高辛中毒事件 地高辛治疗窗窄 在DDI 临床中使用的剂量较高 （经常使用负荷剂量0.5 mg 高于常用剂量） 因此 应警惕 律失常 胃肠道不良反应等地高辛中毒表现 可 过 图血 解质监测 地高辛血药 监测等加强管理"
+    ],
+    "bbox": [
+      511,
+      709,
+      893,
+      930
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "2022 Oct ; 30(5)",
+    "bbox": [
+      27,
+      24,
+      93,
+      50
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "药物相互作用早期临床研究在创新降糖药中的应用进展",
+    "bbox": [
+      106,
+      35,
+      460,
+      49
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "430",
+    "bbox": [
+      112,
+      944,
+      143,
+      957
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      978
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "（4） 注胃肠道不良事件 患者在服用 甲双胍或 GLP-1 受体激动剂类降糖药时 常伴有恶呕吐 食欲减退等胃肠道不耐受现象 但 般会在多 给药后耐受 在 康受试者身上也有类 的效果。因此应注重对受试者的宣教 降低其恐惧 理。",
+    "bbox": [
+      99,
+      93,
+      480,
+      183
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "对于创新生物制剂类降糖药 还应尤其 注免疫 性的监测及免疫系统不良事件 对于注射类药物 还要 注注射部位的反应",
+    "bbox": [
+      99,
+      186,
+      480,
+      239
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "5.2 加强受试者管理",
+    "text_level": 2,
+    "bbox": [
+      101,
+      243,
+      267,
+      258
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "在 DDI 临床研究中 由于研究目的是为了得到药物单用和合用状态下的 PK 参数的 化是否具有统计学差 因此单用和联用阶段的受试者饮食应尽量保持 致 以减少对研究结果的外部干扰",
+    "bbox": [
+      99,
+      260,
+      480,
+      332
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "6 试验结果的解读",
+    "text_level": 2,
+    "bbox": [
+      101,
+      344,
+      274,
+      360
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "6.1 药代动力学指标",
+    "text_level": 2,
+    "bbox": [
+      101,
+      372,
+      267,
+      387
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "在各 指南和文献中 DDI 临床研究 常推荐$\\mathrm { A U C } _ { \\mathrm { 0 - i n f } }$ 及 $C _ { \\mathrm { m a x } }$ 等 PK 参数作为终 指标 在合 及不合 使用促 药时 PK 参数的 均值比 90%置信区 处于 80%\\~125%时 可以 为 DDI 无临床意义[1-3] 。",
+    "bbox": [
+      101,
+      391,
+      480,
+      480
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "6.2 药效学指标",
+    "text_level": 2,
+    "bbox": [
+      101,
+      484,
+      233,
+      500
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "甲双胍依赖于有 阳离子转运体 （OCT1）的肝窦摄取 而肝脏是发挥 甲双胍降糖作用和产生罕见的严重毒性-乳酸酸中毒的主要部位 另外 它主要是 过转运体 OCT2/多药及毒性化合物外排转运体 （MATEs）1/2-K 被肾 管主动转运清除[45]有报道表明 甲双胍的疗效和毒性的改 与全身暴露 化 不完全相 [46] 因此 过进行口服葡萄糖耐量试验（OGTT）来评估 甲双胍的降血糖作用用该 PD 参数对 PK 指标进行补充是比较合适的[47]在 项评估依格列汀与 甲双胍的 DDI 研究中 以给药前进行 OGTT 试验结果作为基线 在每阶段给药 稳态再进行 OGTT 试验 评价指标可以描 为相对基线 血糖-时 曲线下面积的减少 ΔAUGC 以及血糖峰值 差值 $\\Delta G _ { \\mathrm { m a x } }$ OGTT 无效应边界为 0.75\\~1.33[47]",
+    "bbox": [
+      99,
+      503,
+      482,
+      779
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "另外 华法 常用的 PD 指标为 INR-时 曲线下面积的增量 $\\mathrm { i A U C } _ { \\mathrm { I N R } }$ 以及 $\\mathrm { I N R } _ { \\mathrm { m a x } } ^ { [ 3 7 , 4 4 ] }$ 在 DPP-4i类创新降糖药的 DDI 临床研究中 常常采用 DPP-4i 单独使用阶段及与其他药物合用阶段的血浆DPP-4 活性的效应-时 曲线下面积作为 PD 终对于 SGLT-2i 类创新降糖药的 DDI 临床研究常常进行每个时 段内尿糖排泄（UGE） 测作为PD 指标[41 ，42]",
+    "bbox": [
+      99,
+      783,
+      482,
+      929
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "7 结 语",
+    "text_level": 2,
+    "bbox": [
+      513,
+      101,
+      607,
+      117
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "DDI 临床研究是创新降糖药研发和上市前的风险获益评估中很重要的 部分 各 指 则的出促使 DDI 临床研究成为 种常规要求 不同的需求和药物 性使得创新降糖药的 DDI 临床研究有着设计多样化的 故可根据 身研究目的和产品 性选择最合适的设计方法 展 DDI 临床研究在该项研究中 应在保证受试者安全性的基本要求上 追求 DDI 结果的精确性 同时考虑效率与经济性 符合伦理要求 保障受试者权益",
+    "bbox": [
+      511,
+      129,
+      893,
+      294
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "参考文献",
+    "text_level": 2,
+    "bbox": [
+      668,
+      304,
+      740,
+      317
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1] Food and Drug Administration. Clinical drug interaction studies-cytochrome P450 enzyme and transporter-mediated drug interactions[EB/OL]. (2020-01-23)[2022-04- 15]. https://www.fda.gov/media/134581/download.",
+      "[2] European Medicines Agency. Guideline on the investigation of drug interactions[EB/OL]. (2015-06-03)[2022- 04-15]. https://www.ema.europa.eu/en/documents/scientif - ic-guideline/guideline-investigation-drug-interactions-revision-1\\_en.pdf.",
+      "[3] 家药品监督管理局药品审评中 .药物相互作用研究技术指 则 （ 试行 ） [EB/OL]. （2021-01-26 ） [2022-04-15].https://www.cde.org.cn/zdyz/domesticinfopage?zdyzId-CODE=e0293bfd34a7c44a93382776199101bb.",
+      "[4] Rosenstock J, Wysham C, Frías JP, et al. Efficacy and safety of a novel dual GIP and GLP-1 receptor agonist tirzepatide in patients with type 2 diabetes (SURPASS-1):a double -blind,randomised,phase 3 trial [J]. Lanc e t, 2021, 398(10295): 143-55.",
+      "[5] Ji L, Jiang H, An P, et al. IBI362 (LY3305677), a weekly-dose GLP -1 and glucagon receptor dual agonist, in Chinese adults with overweight or obesity: a randomised, placebo -controlled,multiple ascending dose phase 1b study[J]. E Clinic al Me dic ine, 2021, 39: 101088.",
+      "[6] Deeks ED. Chiglitazar: First Approval [J]. Drugs , 2022, 82(1): 87-92.",
+      "[7] Rekic＇ D, Reynolds KS, Zhao P, et al. Clinical drugdrug interaction evaluations to inform drug use and enable drug access[J]. J Pharm Sc i, 2017, 106(9): 2214-8.",
+      "[8] Food and Drug Administration. Drug development and drug interactions: table of substrates, inhibitors and inducers[EB/OL]. (2020-10-03)[2022-04-15]. https://www. fda.gov/drugs/drug -interactions -labeling/drug -development-and-drug-interactions-table-substrates-inhibitorsand-inducers.",
+      "[9] Oh ES, Choi C, Kim CO, et al. Effects of clar-",
+      "ithromycin on the pharmacokinetics of evogliptin in healthy volunteers [J]. J Clin Pharm Ther, 2017, 42(6): 689-94.",
+      "[10] Dawra VK, Sahasrabudhe V, Liang Y, et al. Effect of rifampin on the pharmacokinetics of ertugliflozin in healthy subjects[J]. Clin Ther, 2018, 40(9): 1538-47.",
+      "[11] Devineni D, Vaccaro N, Murphy J, et al. Effects of rifampin, cyclosporine A, and probenecid on the pharmacokinetic profile of canagliflozin, a sodium glucose co-transporter 2 inhibitor,in healthy participants[J]. Int J Clin Pharmacol Ther, 2015, 53(2): 115-28.",
+      "[12] Jordy AB, Albayaty M, Breitschaft A, et al. Effect of oral semaglutide on the pharmacokinetics of levonorgestrel and ethinylestradiol in healthy postmenopausal women and furosemide and rosuvastatin in healthy subjects [J]. Clin Pharmacokinet, 2021, 60(9): 1171-85.",
+      "[13] American Diabetes Association. Standards of medical care in diabetes -2022 [J]. Diabetes Care, 2022, 45 (Suppl 1): S1-S264.",
+      "[14] 中华医学会糖尿病学分会. 中 2 型糖尿病防治指南（2020 年 版 ） [J]. 国 际 内 分 泌 代 谢 杂 志 2021 41 （5 ） ：482-548.",
+      "[15] B覸kdal TA, Breitschaft A, Navarria A, et al. A randomized study investigating the effect of omeprazole on the pharmacokinetics of oral semaglutide[J]. Expert Opin Drug Metab Toxicol, 2018, 14(8): 869-77.",
+      "[16] Food and Drug Administration. Evaluation of gastric pH-dependent drug interactions with acid-reducing agents: study design, data analysis, and clinical implications guidance for industry [EB/OL]. (2020-11-30) [2022 -04 -15]. https://www.fda.gov/regulatory -information/search-fda-guidance-documents/evaluation-gastricph-dependent-drug-interactions-acid-reducing-agentsstudy-design-data-analysis.",
+      "[17] 甲双胍临床应用专家共识（2018 年版）[J]. 中国糖尿病杂志 2019 27 （3 ） ： 161-73.",
+      "[18] Lv W, Wang X, Xu Q, et al. Mechanisms and characteristics of sulfonylureas and glinides [J]. Curr Top Med Chem, 2020, 20(1): 37-56.",
+      "[19] Tentolouris A, Vlachakis P, Tzeravini E, et al. SGLT2 inhibitors: a review of their antidiabetic and cardioprotective effects [J]. Int J Environ Res Public Health, 2019, 16(16): 2965.",
+      "[20] Yaribeygi H, Sathyapalan T, Sahebkar A. Molecular mechanisms by which GLP-1 RA and DPP-4i induce insulin sensitivity[J]. Life Sci, 2019, 234: 116776.",
+      "[21] Nanjan MJ, Mohammed M, Prashantha KB, et al. Thiazolidinediones as antidiabetic agents: A critical re-",
+      "view[J]. Bioorg Chem, 2018, 77: 548-67.",
+      "[22] Usman B, Sharma N, Satija S, et al. Recent developments in alpha -glucosidase inhibitors for management of type -2 diabetes: an update [J]. Curr Pharm Des, 2019, 25(23): 2510-25.",
+      "[23] Tan C, Lee S. Warfarin and food, herbal or dietary supplement interactions: A systematic review [J]. Br J Clin Pharmacol, 2021, 87(2): 352-74.",
+      "[24] 汤 丹 张水华 俞 仑 等. 基于 致性评价 向的家基本药物口服制剂信息 萃 [J]. 药学进展2016 40 （3 ） ： 213-29.",
+      "[25] Dawra VK, Cutler DL, Zhou S, et al. Assessment of the drug interaction potential of ertugliflozin with sitagliptin, metformin, glimepiride, or simvastatin in healthy subjects[J]. Clin Pharmacol Drug Dev, 2019, 8 (3): 314-25.",
+      "[26] 薛 阳 刘凯歌. 有 阴离子转运多肽 1B1（OATP1B1）基因多态性对他汀类药物影响的研究进展 [J]. 现代药物与临床 2020 35 （4 ） 820-4.",
+      "[27] Patocka J, Nepovimova E, Wu W, et al. Digoxin: pharmacology and toxicology-a review[J]. Environ Toxicol Pharmacol, 2020, 79: 103400.",
+      "[28] 罗 海. 磷酸瑞格列汀结合缬沙坦在健康志愿者体内的药代动力学分析 [J]. 临床合理用药杂志 2019 12（22 ） 18-20.",
+      "[29] Messerli FH, Roush GC, Oparil S. Chlorthalidone and hydrochlorothiazide for treatment of patients with hypertension[J]. JAMA Intern Med, 2020, 180(8): 1133.",
+      "[30] Sonn BJ, Saben JL, McWilliams G, et al. Predicting response to lisinopril in treating hypertension: a pilot study[J]. Metabolomics, 2019, 15(10): 133.",
+      "[31] Le Merdy M, Tan ML, Sun D, et al. Physiologically based pharmacokinetic modeling approach to identify the drug-drug interaction mechanism of nifedipine and a proton pump inhibitor, omeprazole [J]. Eur J Drug Metab Pharmacokinet, 2021, 46(1): 41-51.",
+      "[32] 陈文君 阮邹荣 相 强. 生理药代动力学模型的发展应用动态及其与其他建模方法的融合 [J]. 中国临床药理学与治疗学 2020 25 （3 ） ： 299-305.",
+      "[33] Food and Drug Administration. Novel drug approvals for 2020[EB/OL]. (2021-01-13)[2022-04-15]. https:// www.fda.gov/drugs/new -drugs -fda -cders -new -molecular-entities -and -new -therapeutic -biological -products/ novel-drug-approvals-2020",
+      "[34] Georgy A, Zhai S, Liang Z, et al. Lack of potential pharmacokinetic and pharmacodynamic interactions between piragliatin,a glucokinase activator,and simvastatin in patients with type 2 diabetes mellitus [J]. J Clin Pharmacol, 2016, 56(6): 675-82.",
+      "[35] Zhai S, Georgy A, Liang Z, et al. Pharmacokinetic and pharmacodynamic drug interaction study of piragliatin, a glucokinase activator, and glyburide, a sulfonylurea, in type 2 diabetic patients[J]. Clin Pharmacol Drug Dev, 2016, 5(6): 552-6.",
+      "[36] Tornio A, Filppula AM, Niemi M, et al. Clinical studies on drug-drug interactions involving metabolism and transport: methodology, pitfalls, and interpretation [J]. Clin Pharmacol Ther, 2019, 105(6): 1345-61.",
+      "[37] Hausner H, Derving KJ, Holst AG, et al. Effect of semaglutide on the pharmacokinetics of metformin,warfarin, atorvastatin and digoxin in healthy subjects [J]. Clin Pharmacokinet, 2017, 56(11): 1391-401.",
+      "[38] Wang L, Wu C, Shen L, et al. Evaluation of drug-drug interaction between henagliflozin, a novel sodium -glucose co-transporter 2 inhibitor, and metformin in healthy Chinese males[J]. Xenobiotica, 2016, 46(8): 703-8.",
+      "[39] de la Pe n軌 a A, Cui X, Geiser J, et al. No dose adjustment is recommended for digoxin, warfarin, atorvastatin or a combination oral contraceptive when coadministered with dulaglutide[J]. Clin Pharmacokinet, 2017, 56(11): 1415-27.",
+      "[40] Yi L, Zhang H, Zhang JW, et al. Study on drug-drug interactions between Chiglitazar, a novel PPAR pan - agonist,and metformin hydrochloride in healthy subjects [J]. Clin Pharmacol Drug Dev, 2019, 8(7): 934-41.",
+      "[41] Kasahara N, Fukase H, Ohba Y, et al. A pharmacokinetic/pharmacodynamic drug-drug interaction study of tofogliflozin (a new SGLT2 inhibitor) and selected",
+      "anti -type 2 diabetes mellitus drugs [J]. Drug Res (Stuttg), 2016, 66(2): 74-81.",
+      "[42] Sasaki T, Seino Y, Fukatsu A, et al. Absence of drug -drug interactions between luseogliflozin, a sodi - um-glucose co-transporter-2 inhibitor, and various oral antidiabetic drugs in healthy Japanese males [J]. Adv Ther, 2015, 32(5): 404-17.",
+      "[43] Bogman K, Brumm J, Hofmann C, et al. Assessment of drug -drug interactions between taspoglutide, a glucagon-like peptide-1 agonist, and drugs commonly used in type 2 diabetes mellitus: results of five phase I trials[J]. Clin Pharmacokinet, 2019, 58(9): 1205-14.",
+      "[44] Kasichayanula S, Chang M, Liu X, et al. Lack of pharmacokinetic interactions between dapagliflozin and simvastatin, valsartan, warfarin, or digoxin [J]. Adv Ther, 2012, 29(2): 163-77.",
+      "[45] Koepsell H. Update on drug-drug interaction at organic cation transporters: mechanisms, clinical impact, and proposal for advanced in vitro testing [J]. Expert Opin Drug Metab Toxicol, 2021, 17(6): 635-53.",
+      "[46] Hibma JE, Zur AA, Castro RA, et al. The effect of famotidine, a MATE1-selective inhibitor, on the pharmacokinetics and pharmacodynamics of metformin [J]. Clin Pharmacokinet, 2016, 55(6): 711-21.",
+      "[47] Zamek -Gliszczynski MJ, Chu X, Cook JA, et al. ITC commentary on metformin clinical drug -drug interaction study design that enables an efficacy-and safetybased dose adjustment decision [J]. Clin Pharmacol Ther, 2018, 104(5): 781-4."
+    ],
+    "bbox": [
+      511,
+      326,
+      895,
+      928
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "药学与临床研究",
+    "bbox": [
+      794,
+      25,
+      898,
+      37
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "Pharmaceutical and Clinical Research",
+    "bbox": [
+      676,
+      38,
+      898,
+      50
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "综 述",
+    "bbox": [
+      919,
+      31,
+      962,
+      44
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "431",
+    "bbox": [
+      854,
+      944,
+      880,
+      956
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      978
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      101,
+      93,
+      486,
+      933
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      509,
+      93,
+      898,
+      932
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "2022",
+    "bbox": [
+      40,
+      25,
+      78,
+      36
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "Oct;30(5)",
+    "bbox": [
+      27,
+      37,
+      91,
+      50
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "药物相互作用早期临床研究在创新降糖药中的应用进展",
+    "bbox": [
+      107,
+      35,
+      460,
+      49
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "432",
+    "bbox": [
+      114,
+      944,
+      142,
+      956
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      979
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      99,
+      89,
+      488,
+      592
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      504,
+      88,
+      898,
+      589
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "Application Progress of Early Phase Clinical Drug Interaction Studies in Innovative Hypoglycemic Agents\\*",
+    "text_level": 1,
+    "bbox": [
+      99,
+      606,
+      897,
+      648
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "XIANG Xuemei1 , QUE Linling2 , HUANG Kai2 , CHU Nannan2 , ZHANG Jisheng1 , GU Yifei1 , HE Qing2\\*\\*",
+    "bbox": [
+      99,
+      652,
+      852,
+      671
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "1 Wuxi Clinical Medical School of Nanjing Medical University, Wuxi 214023, China; 2 Drug Clinical Trial Institute of Wuxi People's Hospital Affiliated to Nanjing Medical University, Wuxi 214023, China",
+    "bbox": [
+      99,
+      677,
+      893,
+      712
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "ABSTRACT Drug-drug interactions (DDI) often occur when patients use multiple medications simultaneously, and the results may lead to severe adverse reactions or altered treatment effects. In the field of diabetes treatment, the combination of medications is very common. It is very necessary to conduct clinical DDI studies on innovative hypoglycemic agents before they are launched. However, the existing guiding principles do not make clear requirements on the design and implementation of clinical DDI studies on such innovative medications. Besides, at present, this kind of studies is characterized by diversity and complexity in design. This article mainly reviews some critical factors in early phase clinical DDI study design: the selection of research type, the determination of the research population and sample size, the study design methods, the dosing schedule, the trial implementation and the interpretation of the study results, to provide a reference for corresponding studies of innovative hypoglycemic agents.",
+    "bbox": [
+      99,
+      719,
+      895,
+      883
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "KEY WO RDS Drug interactions; Innovative hypoglycemic agents; Early phase clinical study; Cross -over design",
+    "bbox": [
+      99,
+      884,
+      895,
+      915
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "药学与临床研究",
+    "bbox": [
+      794,
+      25,
+      898,
+      37
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "Pharmaceutical and Clinical Research",
+    "bbox": [
+      678,
+      38,
+      900,
+      50
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "综 述",
+    "bbox": [
+      919,
+      31,
+      962,
+      44
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "page_number",
+    "text": "433",
+    "bbox": [
+      852,
+      944,
+      883,
+      957
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      979
+    ],
+    "page_idx": 6
+  }
+]

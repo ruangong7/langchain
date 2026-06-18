@@ -1,0 +1,486 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "canonical_name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "canonical_name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "兰索拉唑",
+        "canonical_name": "兰索拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "苯巴比妥",
+        "canonical_name": "苯巴比妥",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "替扎尼定",
+        "canonical_name": "替扎尼定",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "咖啡因",
+        "canonical_name": "咖啡因",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "瑞格列奈",
+        "canonical_name": "瑞格列奈",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "甲苯磺丁脲",
+        "canonical_name": "甲苯磺丁脲",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "S-华法林",
+        "canonical_name": "S-华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "地昔帕明",
+        "canonical_name": "地昔帕明",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "右美沙芬",
+        "canonical_name": "右美沙芬",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "奈必洛尔",
+        "canonical_name": "奈必洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "美托洛尔",
+        "canonical_name": "美托洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "canonical_name": "咪达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "三唑仑",
+        "canonical_name": "三唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "氟伏沙明",
+        "canonical_name": "氟伏沙明",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "DrugClass",
+        "name": "CYP1A2",
+        "canonical_name": "CYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "DrugClass",
+        "name": "CYP2B6",
+        "canonical_name": "CYP2B6",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "DrugClass",
+        "name": "CYP2C8",
+        "canonical_name": "CYP2C8",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "DrugClass",
+        "name": "CYP2C9",
+        "canonical_name": "CYP2C9",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "DrugClass",
+        "name": "CYP2C19",
+        "canonical_name": "CYP2C19",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "DrugClass",
+        "name": "CYP3A4/5",
+        "canonical_name": "CYP3A4/5",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "DrugClass",
+        "name": "CYP2D6",
+        "canonical_name": "CYP2D6",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "DrugClass",
+        "name": "CYP3A",
+        "canonical_name": "CYP3A",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "酶诱导剂CYP1A2奥美拉唑(omeprazole)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "酶诱导剂CYP1A2兰索拉唑(lansoprazole)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP2B6苯巴比妥(Phenobarbital)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_20",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP2C8利福平(Rifampicin)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_21",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP2C9利福平(Rifampicin)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_22",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP2C19利福平(Rifampicin)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_23",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP3A4/5利福平(Rifampicin)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP1A2替扎尼定(tizanidine)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP1A2咖啡因(caffeine)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_20",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP2C8瑞格列奈(repaglinide)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_21",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP2C9甲苯磺丁脲(tolbutamide)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_21",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP2C9S-华法林(S-warfarin)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_22",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP2C19兰索拉唑（lansoprazole）",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_22",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP2C19奥美拉唑(omeprazole)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_24",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP2D6地昔帕明(desipramine)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_24",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP2D6右美沙芬(dextromethorphan)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_24",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP2D6奈必洛尔(nebivolol)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_24",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP2D6美托洛尔（metoprolol）",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_25",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP3A咪达唑仑(midazolam)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_16",
+        "target_id": "ent_25",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP3A三唑仑（triazolam）",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "CYP1A2氟伏沙明(fluvoxamine)",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      },
+      {
+        "id": "rel_23",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_22",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3129,
+          "raw_text": "也是CYP2C19的强抑制剂",
+          "chunk_id": "3129",
+          "data": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 3129,
+    "source": "驭时GCP信息",
+    "text": ",时间依赖性抑制剂维拉帕米(verapamil)时间依赖性抑制剂 表 4 体外试验可选择的CYP酶诱导剂酶诱导剂CYP1A2奥美拉唑(omeprazole), 兰索拉唑(lansoprazole)CYP2B6苯巴比妥(Phenobarbital)CYP2C8利福平(Rifampicin)CYP2C9利福平(Rifampicin)CYP2C19利福平(Rifampicin)CYP3A4/5利福平(Rifampicin)表 5 临床试验可选择的CYP酶指针底物酶底物备注CYP1A2替扎尼定(tizanidine)咖啡因(caffeine)CYP2B6-CYP2B6缺乏指针底物CYP2C8瑞格列奈(repaglinide) 也是OATP1B1底物CYP2C9甲苯磺丁脲(tolbutamide)   中等敏感底物S-华法林(S-warfarin)      中等敏感底物CYP2C19兰索拉唑（lansoprazole）中等敏感底物奥美拉唑(omeprazole)CYP2D6地昔帕明(desipramine)  右美沙芬(dextromethorphan)奈必洛尔(nebivolol)美托洛尔（metoprolol）CYP3A咪达唑仑(midazolam)      三唑仑（triazolam）表 6  临床试验可选择的CYP特异性抑制剂酶抑制剂备注CYP1A2氟伏沙明(fluvoxamine)  也是CYP2C19的强抑制剂"
+  }
+]

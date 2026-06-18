@@ -1,0 +1,934 @@
+[
+  {
+    "type": "text",
+    "text": "伏立康唑高风险代谢性药物相互作用分析",
+    "text_level": 1,
+    "bbox": [
+      73,
+      115,
+      710,
+      142
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "连玉菲 刘洪涛 张玥 邱学佳 方灵芝 董占军",
+    "bbox": [
+      70,
+      164,
+      465,
+      180
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "【摘要】 目的 分析住院医嘱中伏立康唑合并用药情况，为其临床合理使用提供参考和依据。 方法 采用回顾性分析法，抽取2016 年6 月1 日至2020 年5 月31 日所有住院患者长期医嘱中含有注射用伏立康唑或伏立康唑片的全部患者的医嘱信息，选取与伏立康唑联合用药的医嘱信息进行统计，并基于细胞色素 P450 酶( CYO2C19、CYP3A4、CYP2C9) 角度，分析评价医嘱中与伏立康唑存在高风险潜在药物相互作用的医嘱用药。 结果 长期医嘱中含有伏立康唑的共计416 例，存在联合用药患者共计 416 例，其中存在潜在的代谢性药物相互作用的患者有 203 例，占比48．80%，其中主要影响 CYP2C19 活性的联合用药主要为质子泵抑制剂奥美拉唑与艾司奥美拉唑，利福平，圣约翰草，银杏叶制剂;主要影响 CYP3A4 活性的联合用药主要为降脂药阿托伐他汀 辛伐他汀，镇静催眠药艾司唑仑 咪达唑仑; 以及胃动力药多潘立酮; 主要影响 CYP2C9 活性的联合用药主要是解热镇痛药布洛芬与双氯芬酸。 伏立康唑与上述药物联合时，应特别注意根据两药相互作用时的代谢特点调整伏立康唑与联合用药的给药剂量，并积极监测伏立康唑血药浓度，避免不合理的联合用药。 结论 在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。",
+    "bbox": [
+      70,
+      198,
+      835,
+      362
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "【关键词】 伏立康唑;联合用药;细胞色素 P450 酶;药物相互作用",
+    "bbox": [
+      104,
+      363,
+      534,
+      376
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "【中图分类号 】 R 978． 5 【文献标识码 】 A 【文章编号 】 1002 － 7386( 2021) 14 － 2215 － 06",
+    "bbox": [
+      104,
+      378,
+      752,
+      392
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Investigation and analysis of the high risk of voriconazole combined medication LIAN Yufei，LIU Hongtao，ZHANG Yue， et al． Department of Pharmacy，Hebei General Hospital，Hebei，Shijiazhuang 050051，China",
+    "bbox": [
+      70,
+      409,
+      835,
+      437
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "【Abstract 】 Objective To investigate the voriconazole combined medication status to provide reference and basis for its rational use of drugs． Methods A retrospective analysis was performed to collect the medical information of all the patients who were treated by voriconazole injection or oral voriconazole tablets in our hospital from June 1，2016 to May 31，2020，and the medical information was statistically analyzed． Based on the cytochrome P450 enzymes ( CYO2 C19，CYP3A4，CYP2C9) ， the doctor ’ s prescription with high-risk potential drug interaction with voriconazole was evaluated． Results A total of 416 cases of voriconazole were included in the long-term medical order，and a total of 416 patients had combined medication，of whom，there were 203 patients with potential metabolic drug interactions，accounting for 48． 80% ，in which，the combination drugs that affected the activity of CYP2C19 were mainly proton pump inhibitors omeprazole and omeprazole，rifampin，St． John ’ s wort and ginkgo biloba． Moreover the combination drugs that affected the activity of CYP3A4 were lipid-lowering drugsatorvastatin，simvastatin，sedative and hypnotic drugs estazolam，midazolam; and gastric motility drugs-domperidone． In addition the combined drugs that affected the activity of CYP2C9 were mainly antipyretic analgesics ibuprofen and diclofenac． When voriconazole was combined with the above-mentioned drugs，special attention should be paid to adjusting the dosage of voriconazole and to monitoring the blood drug concentration，so as to avoid unreasonable combination drugs． Conclusion In clinical antifungal therapy，voriconazole is more commonly used in combination with the other drugs． The Chinese medicine practitioners and pharmacists should pay much attention to avoiding the drug interactions due to unreasonable metabolic drugs， so as to ensure the medication safety．",
+    "bbox": [
+      70,
+      439,
+      836,
+      677
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "【Key words 】 voriconazole; combination medication; cytochrome P450 enzyme; drug interaction",
+    "bbox": [
+      104,
+      678,
+      705,
+      692
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "药物相互作用是指两种或两种以上的药物同时应用时所发生的药效变化，即产生协同、相加或拮抗作用［1］。 主要包括药代动力学相互作用( 吸收性药物相互作用、代谢性药物相互作用、排泄性药物相互作用等) 、药效学相互作用两大类，其中代谢性药物相互作用发生率最高，约占药代动力学相互作用的 40% ，常见药物相互作用的 23% 。 随着近年来精准医学的迅速发展，药物代谢酶的研究不断深入，人们对于 P450酶系的药物代谢性相互作用也越发重视。 据统计，目前临床上 ＞90%的代谢性药物相互作用都是由 P450酶活性的改变引起［2］。 伏立康唑是常用的三唑类抗真菌药，适用于呼吸系统、血液系统、泌尿系统、神经系统等真菌感染患者，随着其在临床上的广泛应用，伏立康唑与其他药物联合使用的机会也大大增加。 目前已知，伏立康唑在人体主要通过肝脏细胞色素P450 同工酶 CYP2C19 、 CYP3A4 、 CYP2C9 代谢［3］，因此，可影响( 诱导或抑制) CYP3A4 、 CYP2C9 、 CYP2C19 活性的药物与伏立康唑合用时，均可能影响伏立康唑体内代谢，从而影响伏立康唑的血药浓度，导致伏立康唑疗效降低或不良反应发生显著增加。 因此，关注伏立康唑与其他药物的联合使用情况，有助于规避不良代谢性药物相互作用的发生。 笔者通过收集三级甲等综合性医院———河北省人民医院( 以下简称 “我院”) 住院医嘱中伏立康唑的合并用药情况，评价医嘱中潜在的代谢性药物相互作用，为临床中伏立康唑的合理使用提供参考和依据。",
+    "bbox": [
+      70,
+      713,
+      482,
+      822
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      713,
+      924,
+      898
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "河北医药 2021 年 7 月 第 43 卷 第 14 期 Hebei Medical Journal，2021，Vol 43 Jul No. 14",
+    "bbox": [
+      72,
+      59,
+      642,
+      72
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "2215",
+    "bbox": [
+      880,
+      60,
+      915,
+      71
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "doi: 10． 3969 /j． issn． 1002 － 7386． 2021． 14． 033",
+    "bbox": [
+      70,
+      91,
+      371,
+      104
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "· 药物研究 ·",
+    "bbox": [
+      786,
+      89,
+      915,
+      105
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "项目来源: 河北省医学科学研究重点课题计划( 编号: ZD20180080)",
+    "bbox": [
+      97,
+      848,
+      478,
+      862
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "作者单位: 050051 石家庄市，河北省人民医院药学部",
+    "bbox": [
+      100,
+      865,
+      416,
+      878
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "通讯作者: 董占军，050051 石家庄市，河北省人民医院药学部;",
+    "bbox": [
+      100,
+      879,
+      462,
+      894
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "E-mail: 1179339700@ qq． com",
+    "bbox": [
+      161,
+      897,
+      326,
+      909
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      979
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      70,
+      89,
+      482,
+      272
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 资料与方法",
+    "text_level": 2,
+    "bbox": [
+      72,
+      275,
+      191,
+      291
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1． 1 一般资料 使用由四川美康医药软件公司研发的美康 PASS 临床药学管理系统，输入关键词 “伏立康唑” ，调取我院从 2016 年 6 月 1 日到 2020 年 5 月 31日所有临床科室中使用注射用伏立康唑或伏立康唑片( 分散片) 的病例，筛选伏立康唑及其联合用药时间 ＞3 天的案例进行数据统计，调查医嘱中伏立康唑联合用药情况。",
+    "bbox": [
+      70,
+      294,
+      482,
+      423
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1．2 方法 采用回顾性分析，从以上收集的病例中筛选出长期医嘱中使用注射用伏立康唑或伏立康唑片期间有其他合并用药的病例。 参照美国 FDA 批准的注射用伏立康唑( 商品名: 威凡) 说明书为依据，通过查阅文献及相关诊疗规范、治疗指南等获得具有与伏立康唑存在相互作用的药物，( 即因药物相互作用导致注射用伏立康唑或合并用药体内血药浓度变化) 。 对我院住院医嘱中注射用伏立康唑的合并用药情况进行归类 分 析，并 基 于 P450 酶 ( 影 响 CYP2C19 活 性 、CYP3A4、CYP2C9 活性) 代谢角度评价医嘱中潜在的高风险代谢性药物相互作用。",
+    "bbox": [
+      70,
+      425,
+      482,
+      627
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1．3 高风险药物相互作用评判标准 以 Micromedex药物相互作用数据库提供的联合用药信息为基础，将筛选出的伏立康唑联合用药，按照国际药物相互作用的严重性分级标准，分为四级，A 级( 禁忌) : 相互作用可以威胁患者生命，联合使用是禁忌; B 级( 严重) : 相互作用可能威胁患者生命，如果必须联用，需要干预去减少或预防严重的不良反应; C 级( 中度) : 相互作用可能会引起患者病情加重，需要严密监测; D 级( 轻度) : 相互作用临床效应有限，不需要替代药物。 统计总体药物相互作用级别时，一名患者同时存在多个级别的药物相互作用时，以最高级别计数1 次，不重复计数。 统计各药药物相互作用级别时，同一患者存在多要高风险联合时，按药品种类重复计数。 本研究重点统计分析A 级、B 级相互作用，这两类相互作用对临床治疗效果及不良反应发生存在较明显影响，联合应用时需给予相关干预，故将上述两类认定为存在高风险的联合用药。 C 级和 D 级联合用药，临床使用时无需过多干预，仅加强监护即可，故不做过多分析与统计。",
+    "bbox": [
+      72,
+      631,
+      482,
+      646
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      89,
+      924,
+      404
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 结果",
+    "text_level": 2,
+    "bbox": [
+      512,
+      407,
+      579,
+      422
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2．1 提取的病例情况 总共收集到长期医嘱中含有伏立康唑的病例 416 例，筛选出合并用药的病例有416 例，其中存在高风险代谢性药物相互作用的联合用药病例有203 例，占联合用药总病例数的48．80% 。2． 2 伏立康唑联合用药患者及科室分布情况 在416 例联合用药病例中，包含女性 284 例( 68． 27% ) ，男性 132 例( 31． 73%) ; 其中存在高风险代谢性药物相互作用的共计 203 例，这些患者中包含女性 126 例( 62． 07% ) ，男性 77 例( 37． 93% ) ，表现为女性多于男性。 患者的年龄主要集中在 65 ～85 岁。 主要分布科室为重症医学科 呼吸内科 老年病科 肿瘤科等感染多发科室。 见表1。",
+    "bbox": [
+      510,
+      425,
+      922,
+      646
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/a3e9a7c3caa1c52d5c999a1d33fa9a468fa2f098de530693793a3f4b58a1b50f.jpg",
+    "table_caption": [
+      "表1 存在伏立康唑联合用药的科室分布"
+    ],
+    "table_footnote": [
+      "注: 各科室高风险代谢性药物相互作用占比 = 高风险代谢性药物相互作用例数( 例) /各科室联合用药例数 ×100%"
+    ],
+    "table_body": "<table><tr><td>联合用药科室</td><td>联合用药例数(例)</td><td>高风险代谢性药物相互作用例数(例)</td><td>高风险代谢性药物相互作用占比(%)</td></tr><tr><td>重症医学科</td><td>126</td><td>72</td><td>57.14</td></tr><tr><td>呼吸内科</td><td>94</td><td>46</td><td>48.94</td></tr><tr><td>肿瘤科</td><td>68</td><td>21</td><td>30.88</td></tr><tr><td>老年病科</td><td>59</td><td>35</td><td>59.32</td></tr><tr><td>心内科</td><td>41</td><td>13</td><td>31.71</td></tr><tr><td>神经科(神经内科+神经外科)</td><td>14</td><td>9</td><td>64.29</td></tr><tr><td>胸外科</td><td>6</td><td>3</td><td>50.00</td></tr><tr><td>内分泌科</td><td>3</td><td>2</td><td>66.67</td></tr><tr><td>肾内科</td><td>1</td><td>1</td><td>100.00</td></tr><tr><td>儿科</td><td>1</td><td>0</td><td>0</td></tr><tr><td>消化科</td><td>2</td><td>0</td><td>0</td></tr><tr><td>风湿免疫科</td><td>1</td><td>1</td><td>100.00</td></tr><tr><td>合计</td><td>416</td><td>203</td><td>48.80</td></tr></table>",
+    "bbox": [
+      73,
+      665,
+      924,
+      843
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2． 3 伏立康唑联合用药药品类别分布情况 在 416例联合用药病例中，与伏立康唑联合使用的药物共计",
+    "bbox": [
+      70,
+      860,
+      482,
+      895
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "33 个类别( 药理作用分类) 129 个品种，其中按与伏立康唑合用频次，由高到低排名前 5 位的药物类别分别",
+    "bbox": [
+      510,
+      860,
+      922,
+      895
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "2216",
+    "bbox": [
+      82,
+      60,
+      114,
+      71
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "河北医药 2021 年 7 月 第 43 卷 第 14 期 Hebei Medical Journal，2021，Vol 43 Jul No. 14",
+    "bbox": [
+      354,
+      59,
+      922,
+      72
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "为抗菌药物( 美罗培南、头孢哌酮钠舒巴坦钠、万古霉素、利福平等) 、解热镇痛药( 布洛芬胶囊、赖氨匹林等) 、质子泵抑制剂( 奥美拉唑/艾司奥美拉唑、兰索拉唑、泮托拉唑、雷贝拉唑等) 、抗凝血药物( 低分子肝素、华法林、利伐沙班等) 、祛痰药( 氨溴索、溴己新、乙酰半胱氨酸、桉柠蒎等) 。 均为临床各科室使用率较高的常用药品。 见表 2。",
+    "bbox": [
+      70,
+      89,
+      482,
+      161
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      89,
+      924,
+      143
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/797d873659f03e66f441de8b02aa06e24d7ee9061a818dd0e0944e0bd400d8a5.jpg",
+    "table_caption": [
+      "表2 伏立康唑联合用药中使用频次排名前15 的药物类别"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>联合用药类别</td><td>使用例数(例)</td><td>占比(%)</td></tr><tr><td>1. 抗菌药物(美罗培南、头孢哌酮钠舒巴坦钠、万古霉素、利福平等)</td><td>414</td><td>99.52</td></tr><tr><td>2. 解热镇痛药(双氯芬酸片、布洛芬缓释胶囊、赖氨匹林等)</td><td>402</td><td>96.63</td></tr><tr><td>3. 质子泵抑制剂(奥美拉唑/艾司奥美拉唑、兰索拉唑、泮托拉唑、雷贝拉唑等)</td><td>335</td><td>80.53</td></tr><tr><td>4. 抗凝血药物(低分子肝素、华法林、利伐沙班等)</td><td>311</td><td>74.76</td></tr><tr><td>5. 祛痰药(氨溴索、溴己新、乙酰半胱氨酸、桉柠蒎等)</td><td>297</td><td>71.39</td></tr><tr><td>6. 支气管扩张药(茶碱/多索茶碱、沙丁胺醇、特布他林等)</td><td>273</td><td>65.63</td></tr><tr><td>7. 助眠药(艾司唑仑、氯硝西泮、佐匹克隆、唑吡坦等)</td><td>256</td><td>61.54</td></tr><tr><td>8. 他汀类降脂药物(阿托伐他汀、辛伐他汀、氟伐他汀等)</td><td>203</td><td>48.80</td></tr><tr><td>9. β受体阻滞药(美托洛尔、比索洛尔等)</td><td>172</td><td>41.35</td></tr><tr><td>10. 钙离子拮抗药(硝苯地平控释片、苯磺酸左旋氨氯地平等)</td><td>135</td><td>32.45</td></tr><tr><td>11. 降糖药(阿卡波糖、二甲双胍、各种胰岛素注射液等)</td><td>116</td><td>27.88</td></tr><tr><td>12. 硝酸酯类药物(单硝酸异山梨酯、硝酸甘油等)</td><td>99</td><td>23.80</td></tr><tr><td>13. 胃肠动力药(莫沙必利、多潘立酮等)</td><td>86</td><td>20.67</td></tr><tr><td>14. 镇静药(咪达唑仑、丙泊酚、右美托咪定)</td><td>73</td><td>17.55</td></tr><tr><td>15. 阿片类受体激动剂(吗啡注射液、羟考酮缓释片、芬太尼透皮贴等)</td><td>68</td><td>16.35</td></tr></table>",
+    "bbox": [
+      73,
+      179,
+      924,
+      382
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2．4 伏立康唑高风险联合用药风险靶点分布情况在416 例联合用药病例中，有 203 例与伏立康唑存在P450 酶( 如: CYP2C19 、 CYP2C9 、 CYP450) 代谢相关的高风险联合用药，其中使用频次排名前 5 位的药物品种为布洛芬缓释胶囊、艾司唑仑片、注射用赖氨匹林、注射用奥美拉唑、阿托伐他丁钙片。 其中包括说明书中明确禁止联合使用的药物: 利福平片( 7 例) 、多潘立酮片( 8 例) 、圣-约翰草提取物片( 5 例) 。 见表 3 。",
+    "bbox": [
+      70,
+      386,
+      482,
+      456
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      385,
+      922,
+      457
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/9eaced4502148ced024ae8a0929955cfff5aaec155648dd41fa866113ce8cd1c.jpg",
+    "table_caption": [
+      "表3 伏立康唑高风险联合用药使用频次前20 的药物品种及风险靶点"
+    ],
+    "table_footnote": [
+      "注: 占比 = 单品种使用例数/高风险联合用药总例( n) \\* 100%; 因存在 1 为患者同时使用多种联合用药情况，统计时按药品品种累计计数，故个单品种总例数＞ 203"
+    ],
+    "table_body": "<table><tr><td>高风险代谢性药物相互作用联合单药品种</td><td>代谢性药物相互作用靶点</td><td>使用例数(例)</td><td>高风险联合用药总例数(例)</td><td>占比(%)</td></tr><tr><td>布洛芬缓释胶囊</td><td>CYP2C9</td><td>181</td><td>203</td><td>89.16</td></tr><tr><td>艾司唑仑片</td><td>CYP3A4</td><td>138</td><td>203</td><td>67.98</td></tr><tr><td>注射用赖氨匹林</td><td>CYP2C9</td><td>112</td><td>203</td><td>55.17</td></tr><tr><td>阿托伐他汀钙片</td><td>CYP3A4</td><td>75</td><td>203</td><td>36.95</td></tr><tr><td>注射用奥美拉唑</td><td>CYP2C19、CYP3A4</td><td>57</td><td>203</td><td>28.08</td></tr><tr><td>咪达唑仑注射液</td><td>CYP3A4</td><td>35</td><td>203</td><td>17.24</td></tr><tr><td>银杏叶提取物片</td><td>CYP2C19</td><td>28</td><td>203</td><td>13.79</td></tr><tr><td>辛伐他汀</td><td>CYP3A4</td><td>26</td><td>203</td><td>12.81</td></tr><tr><td>奥美拉唑镁肠溶片</td><td>CYP2C19、CYP3A4</td><td>26</td><td>203</td><td>12.81</td></tr><tr><td>羟考酮缓释片</td><td>CYP3A4</td><td>23</td><td>203</td><td>11.33</td></tr><tr><td>注射用艾司奥美拉唑</td><td>CYP2C19、CYP3A4</td><td>21</td><td>203</td><td>10.34</td></tr><tr><td>双氯芬酸片</td><td>CYP2C9</td><td>16</td><td>203</td><td>7.88</td></tr><tr><td>奥美拉唑碳酸氢钠胶囊</td><td>CYP2C19、CYP3A4</td><td>12</td><td>203</td><td>5.91</td></tr><tr><td>辛伐他汀滴丸</td><td>CYP3A4</td><td>11</td><td>203</td><td>5.42</td></tr><tr><td>银杏叶提取物注射液</td><td>CYP2C19</td><td>10</td><td>203</td><td>4.93</td></tr><tr><td>多潘立酮片</td><td>CYP3A4</td><td>8</td><td>203</td><td>3.94</td></tr><tr><td>埃索美拉唑肠溶胶囊</td><td>CYP2C19、CYP3A4</td><td>7</td><td>203</td><td>3.45</td></tr><tr><td>利福平片</td><td>CYP450、CYP2C19</td><td>7</td><td>203</td><td>3.45</td></tr><tr><td>圣-约翰草提取物片</td><td>CYP2C19、CYP3A4、CYP2C9</td><td>5</td><td>203</td><td>2.46</td></tr><tr><td>吗啡注射液</td><td>CYP3A4</td><td>5</td><td>203</td><td>2.46</td></tr><tr><td>注射用长春新碱</td><td>CYP3A4</td><td>4</td><td>203</td><td>1.97</td></tr></table>",
+    "bbox": [
+      73,
+      475,
+      924,
+      753
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2． 4． 1 含有影响 CYP2C19 活性的药物: 在 203 例高风险联合用药病例中，含有抑制 CYP2C19 活性药物的病例有近 200 例，其中质子泵抑制剂居多，共计 140例，分别为注射用奥美拉唑钠( 57 例) 、奥美拉唑镁肠溶片( 26 例) 、奥美拉唑肠溶胶囊( 17 例) 、奥美拉唑碳酸氢钠胶囊( 12 例) 注射用艾司奥美拉唑( 21 例) 埃索美拉唑肠溶胶囊( 7 例) ，这种 PPI 类高风险联合用药占比约68．97%; 含诱导 CYP2C19 活性药物的病例有 50 余例，除利福平片( 7 例) 、 圣-约翰草片( 3 例)外，其余均为银杏叶制剂( 银杏叶提取物片( 28 例) 、银杏叶提取物注射液( 10 例) ; 其中银杏叶类制剂高风险联合用药占比约18．72% 。",
+    "bbox": [
+      70,
+      785,
+      482,
+      894
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      785,
+      922,
+      894
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "河北医药 2021 年 7 月 第 43 卷 第 14 期 Hebei Medical Journal，2021，Vol 43 Jul No. 14",
+    "bbox": [
+      72,
+      59,
+      642,
+      72
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "2217",
+    "bbox": [
+      880,
+      60,
+      915,
+      71
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "2． 4． 2 含有影响 CYP3A4 活性的联合用药: 在 203 例高风险联合用药病例中，含有抑制 CYP3A4 活性药物的处方有 120 余例，其中除多潘立酮( 8 例) 外，其余均为他汀类降脂药，共计 112 例，分别为阿托伐他汀钙片( 75 例) 、 辛 伐 他 汀 片 ( 26 张) 和 辛 伐 他 汀 滴 丸 ( 11张) ，这种降脂药高风险联合占比约 55． 17% ; 同为CYP3A4 底物，竞争相同代谢酶，共计 200 例，分别为艾司唑仑片( 138 例) 、 咪达唑仑( 35 例) 、 羟考酮( 23例) 、长春新碱( 4 例) ，其中艾司唑仑片的高风险联合占比约 67． 98% ，; 含诱导 CYP3A4 活性药物未发现 。",
+      "2． 4． 3 含有影响其他代谢酶活性的药物: 在 203 例高风险联合用药病例中，含有影响其他 P450 酶活性的处方共计200 余张，其中主要是影响 CYP2C9 活性的解热镇痛药类处方居多，包括双氯芬酸片( 16 例) 、布洛芬缓 释 胶 囊 ( 181 例) ，这种高风险联合占比约97． 04% 。",
+      "2． 5 伏立康唑高风险联合用药中药物相互作用程度分级 依据 Micromedex 药物相互作用数据库、药品说"
+    ],
+    "bbox": [
+      70,
+      89,
+      482,
+      423
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "明书及相关文献信息，本次调研中 416 例联合用药患者中，存在 A 级-D 级不同程度药物相互作用。 见表 4。",
+    "bbox": [
+      510,
+      89,
+      922,
+      124
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/439cd161a43de89549793c901319a520bd773895aab324c2698d8e77792516c9.jpg",
+    "table_caption": [
+      "表 4 伏立康唑联合用药药物相互作用程度分级"
+    ],
+    "table_footnote": [
+      "注: 一名患者同时存在多个级别的药物相互作用时，以最高级别计数1 次，不重复计数"
+    ],
+    "table_body": "<table><tr><td>药物相互作用分级</td><td>例数(例)</td><td>占比(%)</td><td>本次研究风险划分</td></tr><tr><td>A级</td><td>18</td><td>4.33</td><td>高风险</td></tr><tr><td>B级</td><td>185</td><td>44.47</td><td>高风险</td></tr><tr><td>C级</td><td>137</td><td>32.93</td><td>低风险</td></tr><tr><td>D级</td><td>76</td><td>18.27</td><td>低风险</td></tr><tr><td>合计</td><td>416</td><td>100.00</td><td></td></tr></table>",
+    "bbox": [
+      514,
+      142,
+      922,
+      219
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2． 6 伏立康唑高风险药物相互作用分级与干预情况A 级 B 级高风险联合用药共计 203 例，存在伏立康唑血药浓度升高致视觉、神经系统、肝肾功能异常; 伏立康唑血药浓度降低临床治疗无效，或联合用药浓度变化致相关不良反应发生、疗效欠佳等风险。 对于 A级相互作用不推荐联合; B 级相互作用推荐调整联合用药方案，降低相互作用致不良反应发生。 但本次调研中大部分高风险联合用药未给予相关干预，临床治疗存在较大隐患。 见表5。",
+    "bbox": [
+      510,
+      253,
+      922,
+      417
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/b076b6d44f34cf414d4474b840dd6576b56e70d1331971c97c8b316e5d033dac.jpg",
+    "table_caption": [
+      "表 5 伏立康唑高风险药物相互作用分级与干预情况"
+    ],
+    "table_footnote": [
+      "注: 占比 =每类高风险联合用药例数/高风险联合用药总例数 ×100%( n =18 +639 =657) ; 调整方案率 = 本类别联合用药合理干预例数/本类别联合用药总例数× 100%"
+    ],
+    "table_body": "<table><tr><td>高风险联合用药</td><td>潜在风险原因</td><td>潜在风险结局</td><td>相互作用程度分级</td><td>联合用药例数</td><td>占比(n=657)</td><td>联合用药合理干预例数</td><td>调整方案率(%)</td></tr><tr><td>奥美拉唑、艾司奥美拉唑</td><td>CYP2C19 强效抑制剂CYP3A4 及 CYP2C19底物</td><td>奥美拉唑/艾司奥美拉唑血药浓度明显升高肝功能异常风险增加</td><td>B级</td><td>123</td><td>18.72%</td><td>2</td><td>1.63%</td></tr><tr><td>阿托伐他汀、辛伐他汀</td><td>CYP3A4 底物</td><td>阿托伐他汀/辛伐他汀血药浓度大幅升高</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>肌肉溶解、肝功能异常风险增加</td><td></td><td></td><td>B级</td><td>112</td><td>17.05%</td><td>1</td><td>0.89%</td></tr><tr><td>艾司唑仑、咪达唑仑</td><td>CYP3A4 底物</td><td>艾司唑仑/咪达唑仑血药浓度大幅升高</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>药物中毒,肝功能异常风险增加</td><td></td><td></td><td>B级</td><td>173</td><td>26.33%</td><td>0</td><td>0%</td></tr><tr><td>布洛芬</td><td>CYP2C9 底物</td><td>布洛芬血药浓度大幅升高</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>肝功能损伤风险增加</td><td></td><td></td><td>B级</td><td>193</td><td>29.38%</td><td>0</td><td>0%</td></tr><tr><td>银杏叶制剂</td><td>CYP2C19 诱导剂</td><td>伏立康唑血药浓度降低</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>治疗失败风险增加</td><td></td><td></td><td>B级</td><td>38</td><td>5.78%</td><td>0</td><td>0%</td></tr><tr><td>利福平</td><td>CYP450、CYP2C19 强诱导剂</td><td>伏立康唑血药浓度大幅下降</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>治疗失败</td><td></td><td></td><td>A级</td><td>7</td><td>1.07%</td><td>-</td><td>-</td></tr><tr><td>圣约翰草</td><td>CYP2C19、CYP3A4、CYP2C9 强诱导剂</td><td>伏立康唑血药浓度大幅下降</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>治疗失败</td><td></td><td></td><td>A级</td><td>3</td><td>0.46%</td><td>-</td><td>-</td></tr><tr><td>多潘立酮</td><td>CYP3A4 抑制剂</td><td>伏立康唑血药浓度大幅下降,治疗失败</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>心脏抑制传导作用增强,尖端扭转室速风险大幅升高</td><td></td><td></td><td>A级</td><td>8</td><td>1.21%</td><td>-</td><td>-</td></tr><tr><td>合计</td><td></td><td></td><td></td><td>657</td><td>100%</td><td></td><td></td></tr></table>",
+    "bbox": [
+      72,
+      441,
+      924,
+      758
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "3 讨论",
+    "text_level": 2,
+    "bbox": [
+      70,
+      789,
+      139,
+      804
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "3．1 注射用伏立康唑体内代谢特点 药物进入体内后主要在肝脏迅速发生代谢，其最主要代谢产物为几乎无抗菌活性的 N － 氧化物。 研究表明，伏立康唑转化成 N － 氧化物经肝脏细胞色素 P450 同工酶CYP2C19 、 CYP3A4 和 CYP2C9 代谢，其中 CYP2C19 起主要作用，CYP3A4 次之，CYP2C9 作用最小［4］。 代谢酶 CYP2C19 和 CYP3A4 的活性，可影响伏立康唑的血药浓度，从而影响伏立康唑的治疗效果及不良反应的发生; 同时，伏立康唑既是上述 3 种 CYP450 酶的底物，也是它们的抑制剂，也可增加或降低联合使用药物的血药浓度。",
+    "bbox": [
+      70,
+      807,
+      482,
+      898
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      788,
+      922,
+      898
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "2218",
+    "bbox": [
+      82,
+      60,
+      114,
+      71
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "河北医药 2021 年 7 月 第 43 卷 第 14 期 Hebei Medical Journal，2021，Vol 43 Jul No. 14",
+    "bbox": [
+      354,
+      59,
+      922,
+      72
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      979
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "3． 2 典型高风险联合用药相互作用机制与治疗策略3． 2． 1 伏立康唑与质子泵抑制剂奥美拉唑( CYP2C19抑制剂) 联合: 质子泵抑制剂的体内主要代谢酶是CYP2C19，与伏立康唑合用时，二者竞争 CYP2C19 的同一结合位点，使伏立康唑与质子泵抑制剂血药浓度均发生不同程度的升高，疗效增强的同时也导致药物相关性不良反应风险增加。 有研究表明，奥美拉唑与伏立康唑合用时，奥美拉唑的峰浓度( Cmax) 和曲线下面积 ( AUC) 分 别 增 高 116% 和 280% ，伏 立 康 唑 的Cmax 和 AUC 分别增高 15% 和 41% ，二者血药浓度均明显升高，但奥美拉唑血药浓度增加更为明显［6］。 众多 PPI 制剂中奥美拉唑显示出最强的抑制作用，雷贝最弱。 临床应用中建议监测伏立康唑血药浓度，及时调整剂量，并尽量选择与伏立康唑相互作用小的 质子泵抑制剂如: 泮托拉唑或雷贝拉唑。",
+      "3． 3． 2 伏立康唑与银杏叶制剂( 中效 CYP2C19 活性诱导剂) 联合: 有报道银杏叶提取物通过 Nrf2 介导的信号通路，明显增加了大鼠肝脏的 CYP 酶的含量和CYPZBmRNA 的表达，尤其是对 CYP2C19 有极大的诱导作用［7］。 因此，当银杏叶及伏立康唑联合使用时，CYP2C19 活性增强，可能使伏立康唑的体内代谢加快，从而降低伏立康唑在血中的药物浓度，使得伏立康唑抗真菌的疗效降低。 临床应用中应尽量避免二者联合，如必须合用时，建议酌情增加伏立康唑用量，并监测药物血药浓度及时调整用量。",
+      "3． 3． 3 伏立康唑与利福平及圣约翰草 ( 强效CYP2C19 活性诱导剂) 联合: 利福平与圣约翰草都是主要通过增加 CYP3A4 、 CYP3A5 、 CYP2C19 酶的活性或提高 P-gp 的表达与伏立康唑发生药物相互作用。利福平的一项队列研究显示，利福平( 600 mg，1 次/d)可使健康志愿者服用伏立康唑( 200 mg，2 次/d，7 d)的稳态 cmax、 AUC 分别降低 93% 、96%［8］; 然而，在合用利福平时，双倍剂量的伏立康唑也不能恢复到无利福平时的 cmax、AUC 水平。 一项对照研究结果显示，伏立康唑与圣约翰草提取物联合使用后，伏立康唑AUC 下降59%［9］。 鉴于上述药物相互作用程度较为显著，故目前临床应用中不禁止上述两药与伏立康唑联合使用。",
+      "3． 2． 4 伏立康唑与胃动力药多潘立酮( CYP3A4 活性抑制剂) 联合: 多潘立酮主要代谢酶为 CYP3A4，其可通过与伏立康唑竞争代谢酶 CYP3A4 的结合位点，而使伏立康唑代谢减慢，体内蓄积导致不良反应发生风险明显增加［10］。 同时，多潘立酮可致 T 间期延长而发生致命性严重室性心律失常的风险。 伏立康唑既对"
+    ],
+    "bbox": [
+      70,
+      89,
+      482,
+      909
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "CYP3A4 酶具有较强抑制作用，同时也已有报道少数患者用药后出现尖端扭转型室性心律失常。 故多潘立酮与其合用时，可能因代谢减少，药物体内蓄积浓度升高; 及两药对心脏传导的双重抑制作用，使患者发生心律失常的风险显著增加，甚至有致命性侵害，临床禁止两药联合使用。",
+    "bbox": [
+      510,
+      89,
+      924,
+      199
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "3． 2． 5 伏立康唑与降脂药阿托伐他汀/辛 伐 他 汀( CYP3A4 底物) : 研究发现，脂溶性他汀( 如: 辛伐他汀、阿托伐他汀、洛伐他汀和西立伐他汀) 均通过对代谢酶 CYP3A4 产生竞争性抑制作用，两药联合时可导致伏立康唑与他汀类降脂药血药浓度均发生不同程度的升高。 易诱发他汀类药物相关性肌病。 Doran，E．等报道过辛伐他汀与伏立康唑合用时导致横纹肌溶解的个案［11］，建议联合用药时，应减少他汀类药物常规使用剂量，以减少不良反应的发生。",
+      "3．2． 6 伏立康唑与苯二氮 类镇静催眠药咪达唑仑/艾司唑仑( CYP3A4 底物) : 苯二氮 类镇静催眠药均是 CYP3A4 底物，通过竞争性抑制代谢酶使伏立康唑体内代谢减慢，血药浓度增加。 研究表明，伏立康唑可使口服咪达唑仑的 AUC 显著增加 15． 5 倍［12］。 艾司唑仑联合应用时情况类似，故临床联合用药建议咪达唑仑/艾司唑仑减量使用。",
+      "3． 2． 7 伏立康唑与解热镇痛药布洛芬/双 氯 芬 酸( CYP2C9 底物) : 非甾体类解热镇痛药布洛芬与双氯芬酸与伏立康唑联合使用时同为底物竞争 CYP2C9 相同结合位点，导致布洛芬及双氯芬酸血药浓度显著升高，而伏立康唑因其经 CYP2C9 代谢不足 10%，故血药浓度影响较小。 研究发现，双氯芬酸、塞来昔布、布洛芬、替诺昔康及吡罗昔康分别与伏立康唑联用时，其AUC0 － inf 的值比单用时分别增加了 82% 、 61% 、77% 、2% 和1%［13］。 结果提示双氯芬酸与布洛芬血药浓度受伏立康唑代谢性相互作用影响较明显，临床合并用药时应适当减量，伏立康唑血药浓度波动幅度较小可不调整剂量。",
+      "综上所述，我院住院医师在使用注射用伏立康唑时，因不了解伏立康唑高风险联合用药相关情况，使治疗中不安全的用药因素增加。 为规范我院合理用药，建议药师应及时为临床医师推送最前沿药物相互作用研究进展，提高医师对不合理联合用药的警惕性及关注度; ( 2) 专科药师积极参与联合用药治疗方案制定与调整，与医师沟通协作，减少高风险联合用药; ( 3)同时加强药品不良反应监测力度，采取各种有效措施保障患者的用药安全。"
+    ],
+    "bbox": [
+      510,
+      202,
+      924,
+      891
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "( 下转 2223 页)",
+    "bbox": [
+      818,
+      894,
+      917,
+      909
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "河北医药 2021 年 7 月 第 43 卷 第 14 期 Hebei Medical Journal，2021，Vol 43 Jul No. 14",
+    "bbox": [
+      72,
+      59,
+      642,
+      72
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "2219",
+    "bbox": [
+      880,
+      60,
+      915,
+      71
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "有效的监测病情，是评估病情严重程度的重要依据，对于早期发现、鉴别诊断及监控疾病进展等具有重要的临床意义［15 － 17］。 本研究对于 2 组患者的 FEV1 /FVC进行比较，结果显示，观察组 FEV1 /FVC 水平显著高于对照组( P ＜ 0． 05) 。 6MWD 是临床常用的评估运动耐力的指标，近年来也被广泛用于评估 COPD 患者的运动耐力，从而有效评估患者的康复状况，结果显示观察组的 6MWD 水平明显高于对照组( P ＜ 0． 05) 。 上述结果提示，经过积极有效的药学干预，提高了患者的用药依从性，使药物发挥了最好的疗效，改善了患者的肺功能及康复状况。 此外，本研究对于 2 组患者不良反应情况进行比较，结果显示，观察组患者不良反应发生率显著低于对照组( P ＜ 0． 05) ，提示临床药师通过对患者不断进行用药指导，增加了患者对于疾病和药物的认识，促进了患者的合理用药，提高了治疗依从性，不仅有效保证了药物的临床疗效，而且使不良反应发生率大幅降低。",
+    "bbox": [
+      70,
+      89,
+      485,
+      404
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "综上所述，药学干预作为一种积极有效的疾病管理模式，通过对于 COPD 患者进行反复强化的用药指导、疾病及药物知识、吸入装置的使用方法等方面的宣传教育和药学监护，不断提高患者用药的依从性、吸入装置使用的正确性及科学用药水平，促进患者合理用药，有效保证临床疗效，降低不良反应发生率，保证患者用药的合理、安全、有效。",
+    "bbox": [
+      70,
+      407,
+      484,
+      535
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "参考文献",
+    "text_level": 2,
+    "bbox": [
+      240,
+      539,
+      315,
+      552
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "1 López-Campos JL，Tan W，Soriano JB． Global burden of COPD．Respirology，2016，21: 14-23．",
+      "2 杨帆．3849 例慢性阻塞性肺病伴有急性加重住院患者费用分析． 中"
+    ],
+    "bbox": [
+      73,
+      555,
+      482,
+      593
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "( 上接 2219 页)",
+    "text_level": 2,
+    "bbox": [
+      73,
+      614,
+      174,
+      627
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "参考文献",
+    "text_level": 2,
+    "bbox": [
+      240,
+      632,
+      315,
+      646
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "1 刘彦卿，洪燕君，曾苏． 代谢性药物-药物相互作用的研究进展． 浙江大学学报，2009，38: 215-224．",
+      "2 TOM L，AMY P． The Effect of Cytochrome P450 Metabolism on Drug Response，Interactions，and Adverse Effects． American Family Physician， 2007，76: 391-396．",
+      "3 JOHNSON LB，KAUFFMAN CA． Voriconazole: a new triazole antifungal agent． Clin Infect Dis，2003，36: 630-637．",
+      "4 Hicks J K，Gonzalez B E，Zembillas A S，et al． Invasive Aspergillus infection requiring lobectomy in a CYP2C19 rapid metabolizer with subtherapeutic voriconazole concentrations． Pharmacogenomics，2016，17: 663-667．",
+      "5 Matsumoto K，Ikawa K，Abematsu K，et al． Correlationbetween voriconazole trough plasma concentration and hepatotoxicity in patients with different CYP2C19 genotypes． Int J Antimicrob Agents，2009，34: 91-94．",
+      "6 章袁，朱立勤等． 伏立康唑与奥美拉唑联合应用的药物间相互作用研究． 药物安全与合理应用，2017，26: 2097-2100．",
+      "7 刘晓平，王鹏，王光辉． 银杏叶提取物诱导小鼠体内药物代谢二相酶的研究． 皖南医学院学报，2011，30: 267-269．",
+      "8 Cojutti P，Candoni A，Forghieri F，et al． Variability of voriconazole trough",
+      "国病案，2020，21: 53-56．",
+      "3 刘莉，史婵婵，李闪． 呼吸管理团队对慢性阻塞性肺病患者呼吸功能恢复及生活质量的影响． 护理实践与研究，2020，17: 70-72．",
+      "4 López-Campos JL，Quintana Gallego E，Carrasco Hernández L． Status of and strategies for improving adherence to COPD treatment． Int J Chron Obstruct Pulmon Dis，2019，10: 1503-1515．",
+      "5 中华医学会呼吸病学分会慢性阻塞性肺疾病学组． 慢性阻塞性肺疾病诊治指南( 2013 年修订版) ． 中国医学前沿杂志( 电子版) ，2014，6: 67-79，80．",
+      "王媛，叶蕊，朱丽华，等． NLR RDW 6MWD 在稳定期慢性阻塞性肺疾病频繁急性加重表型中的临床价值． 国际呼吸杂志，2020，40:834-837．",
+      "7 Mortensen J，Berg RMG． Lung Scintigraphy in COPD． Semin Nucl Med， 2019，49: 16-21．",
+      "8 王玉，苏丹，林莹． 慢性阻塞性肺疾病患者使用吸入制剂的依从性分析与评价． 中国医院用药评价与分析，2020，20: 114-117．",
+      "9 George M． Adherence in asthma and COPD: new strategies for an old problem． Respir Care，2018，63: 818-831．",
+      "10 Humenberger M，Horner A，Labek A，et al． Adherence to inhaled therapy and its impact on chronic obstructive pulmonary disease ( COPD) ． BMC Pulm Med，2018，18: 163．",
+      "11 邹颖，王敏霞，王俞梅，等． 慢性阻塞性肺疾病患者呼吸功能锻炼依从性的影响因素分析． 中国临床保健杂志，2019，22:366-368．",
+      "12 吴秋惠，王鸯鸯，彭宇竹，等． 基层药师慢性阻塞性肺疾病药学服务影响因素 KAP 研究． 中国药师，2020，23: 676-679．",
+      "13 刘秋莎，赵语． 临床药师参与慢性阻塞性肺疾病急性加重期患者药物重整服务效果评价． 中国药业，2019，28:79-81．",
+      "14 顾玉慧． 以家庭为中心的连续护理对 COPD 患者家用无创呼吸机使用效果的影响． 河北医药，2018，40: 299-301，305．",
+      "15 张萍． 不同肺功能评分方法评估尘肺并 COPD 患者运动耐受情况分析． 河北医药，2018，40: 2996-2998，3001．",
+      "16 何胜东，杨树栋，何新兵，等． 慢性阻塞性肺疾病患者干粉吸入装置操作错误情况及影响因素研究． 中国全科医学，2020，23:819-823．",
+      "17 唐万云，曾玉英，汪秀玲，等． 益气活血方治疗慢性阻塞性肺疾病稳定期疗效及对患有肺功能、炎症因子的影响． 陕西中医，2020，41:1576-1579，1583．"
+    ],
+    "bbox": [
+      73,
+      648,
+      482,
+      908
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      512,
+      90,
+      924,
+      561
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "( 收稿日期: 2021 － 02 － 03)",
+    "bbox": [
+      764,
+      563,
+      919,
+      575
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "levels in haematological patients: influence of comedications with cytochrome P450 ( CYP) inhibitors and /or with CYP inhibitors plus CYP Inducers． Basic Clin Pharmacol Toxicol，2016，118: 474-479．",
+      "9 Rengelshausen J，Banfield M，Riedelk D，et al． Opposite effects of shortterm and long-term St John swort intake on voriconazole pharmacokinetics． Clin PharmacolTher，2005，78: 25-33．",
+      "10 Ehrenpreis Eli D，Roginsky Grigory，Alexoff Aimee，Smith Dylan G． Domperidone is Commonly Prescribed With QT-Interacting Drugs: Review of a Community-based Practice and a Postmarketing Adverse Drug Event Reporting Database． Journal of clinical gastroenterology， 2017，51: 56-62．",
+      "11 Doran E，Iedema J，Ryan L，et al． Fatal rhabdomyolysis following voriconazole and simvastatin． Coombes，I． Australian Prescriber，2012， 35: 88-89．",
+      "12 Katzenmaier S，Markert C，Riedel KD，et al． Determining the time course of CYP3A inhibition by potent reversible and irreversible CYP3A inhibitors using A limited sampling strategy． Clin． Pharmacol． Ther， 2011，90，666-673．",
+      "13 亓芳． 伏立康唑与临床常用药物间相互作用研究． 天津医科大学，2018．"
+    ],
+    "bbox": [
+      512,
+      615,
+      926,
+      876
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "( 收稿日期: 2021 － 01 － 11)",
+    "bbox": [
+      764,
+      877,
+      919,
+      890
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "河北医药 2021 年 7 月 第 43 卷 第 14 期 Hebei Medical Journal，2021，Vol 43 Jul No. 14",
+    "bbox": [
+      73,
+      59,
+      642,
+      72
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "2223",
+    "bbox": [
+      882,
+      60,
+      915,
+      71
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      979
+    ],
+    "page_idx": 5
+  }
+]

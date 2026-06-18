@@ -1,0 +1,337 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Food",
+        "name": "红肉",
+        "canonical_name": "红肉",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "海鲜",
+        "canonical_name": "海鲜",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Food",
+        "name": "酒精",
+        "canonical_name": "酒精",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Food",
+        "name": "果糖",
+        "canonical_name": "果糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Food",
+        "name": "乳制品",
+        "canonical_name": "乳制品",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Food",
+        "name": "大豆食品",
+        "canonical_name": "大豆食品",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Food",
+        "name": "高嘌呤蔬菜",
+        "canonical_name": "高嘌呤蔬菜",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Food",
+        "name": "咖啡",
+        "canonical_name": "咖啡",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "高尿酸血症",
+        "canonical_name": "高尿酸血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "痛风",
+        "canonical_name": "痛风",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Disease",
+        "name": "IgA血管炎",
+        "canonical_name": "IgA血管炎",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Disease",
+        "name": "高血压",
+        "canonical_name": "高血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Disease",
+        "name": "慢性肾病",
+        "canonical_name": "慢性肾病",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "与乳制品或大豆食品呈负相关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "与乳制品或大豆食品呈负相关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "与乳制品或大豆食品呈负相关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "与乳制品或大豆食品呈负相关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "高嘌呤蔬菜与高尿酸血症无关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "与痛风呈负相关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "咖啡摄入量与痛风风险呈负相关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_11",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "IgA血管炎与高血压和慢性肾病的高风险相关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_11",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": "3045",
+          "raw_text": "IgA血管炎与高血压和慢性肾病的高风险相关",
+          "chunk_id": "3045",
+          "data": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 3045,
+    "source": "风湿免疫界",
+    "text": "。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡。 Meta分析结果显示，高尿酸血症和痛风的风险与红肉、海鲜、酒精或果糖的摄入量呈正相关，与乳制品或大豆食品呈负相关；高嘌呤蔬菜与高尿酸血症无关，但与痛风呈负相关。咖啡摄入量与痛风风险呈负相关，而咖啡摄入量可能与女性高尿酸血症风险增加而男性风险降低有关。 文章最后指出，由于本项meta分析纳入的研究数据有限，尚需进一步精心设计的前瞻性、随机对照试验来验证以上结论。 原文：Dietary factors and risk of gout and hyperuricemia: a meta-analysis and systematic review. Asia Pac J Clin Nutr. 2018;27(6):1344-1356.IgA血管炎与高血压和慢性肾病的高风险相关英国伯明翰大学的Lorraine Harper博士等报道，患有IgA血管炎（又称过敏性紫癜）的患者，与未患该病的患者相比，发生高血压和慢性肾脏疾病的风险增加。该结果发表在Annals of the Rheumatic Diseases上。 英国伯明翰大学的Lorraine Harper博士及其同事在文中写道：“IgA血管炎可能并发肾小球肾炎，而成人发病的IgA血管炎与儿童患者相比，肾脏受累的风险和严重程度增加。但是，成人发病的IgA血管炎的长期健康结局如何却尚不明确"
+  }
+]

@@ -1,0 +1,1122 @@
+[
+  {
+    "type": "text",
+    "text": "药物相互作用研究在新药研发和审评决策中的应用",
+    "text_level": 1,
+    "bbox": [
+      161,
+      191,
+      833,
+      216
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "孙 搏1 ，付淑军2 ，陈桂良1 ，李 丽2",
+    "bbox": [
+      336,
+      230,
+      658,
+      250
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 上海药品审评核查中心，上海 201203; 2 国家药品监督管理局药品审评中心，北京 100038",
+    "bbox": [
+      159,
+      253,
+      835,
+      269
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘要 药物相互作用改变了剂量效应关系，可能会降低疗效或增加毒性，是临床应用中合并用药治疗时重要的考虑因素。 预测具有临床意义的药物相互作用是药物研发过程中获益风险评估的重要环节。 本文概述了药物研发过程中药物相互作用研究的目的和意义，体内和体外研究的主要内容，梳理分析了2020 年国家药品监督管理局( Na-tional Medical Products Administration，NMPA) 和美国食品药品监督管理局( Food and Drug Admin-istration，FDA) 批准上市的新药药物相互作用研究情况，旨在为我国药物研发过程中药物相互作用研究及其监管审评提供参考。",
+    "bbox": [
+      107,
+      291,
+      485,
+      512
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词 药物相互作用; 药物研发; 新药审评; 国家药品监督管理局; 美国食品和药物管理局",
+    "bbox": [
+      107,
+      514,
+      482,
+      550
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号: R969",
+    "bbox": [
+      107,
+      571,
+      253,
+      586
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "文献标志码: A",
+    "bbox": [
+      107,
+      590,
+      228,
+      604
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "文 章 编 号: 1009-2501( 2021) 10-1095-08",
+    "bbox": [
+      107,
+      608,
+      426,
+      623
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "doi: 10． 12092 /j． issn． 1009-2501． 2021． 10． 001",
+    "bbox": [
+      107,
+      627,
+      448,
+      642
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "药物相互作用( drug-drug interaction ， DDI) 引起的安全性隐患曾是导致药物撤市的重要原因多种药物因为 DDI 产生的严重不良反应或治疗失败而撤市，例如特非那定、盐酸米贝拉地尔、溴芬酸钠、曲格列酮、西利伐他汀、依曲替酯等［1］ 。由于此类安全性事件的累积 随着药物研发中对DDI 机制的探讨和对 DDI 风险的认识 欧美日等监管机构先后发布了药物相互作用研究指导原则 为 DDI 的设计和实施提出指导和建议。 2018年 ICH 开始了 M12 ( drug interaction studies) 议题的统一协调工作。 国家药品监督管理局( NationalMedical Products Administration ， NMPA) 药品审评中心( Center for Drug Evaluation ， CDE) 于 2021 年1 月发布了 《药物相互作用研究技术指导原则( 试行) 》［2］ 。 随着 DDI 指导原则的颁布和实施 在新药开发阶段进行药物相互作用研究已成为共识近年来由于 DDI 引起的药物撤市情况逐渐减少。本文概述了在药物研发过程中药物相互作用研究的相关内容 梳理了2020 年中美两国批准上市的新药 DDI 研究及相关监管决策和剂量调整建议旨在为我国药物研发过程中药物相互作用研究及其监管审评提供参考。",
+    "bbox": [
+      107,
+      664,
+      482,
+      699
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      291,
+      889,
+      665
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 药物相互作用研究的目的和意义",
+    "text_level": 2,
+    "bbox": [
+      510,
+      676,
+      830,
+      694
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "药物相互作用研究是药物研发中必不可少的考察要素 在药物申请上市许可时就已被研究。由于代谢酶和转运体在吸收 分布 代谢 排泄( ADME) 过程中发挥的作用 服用多种药物引起代谢酶和转运体活性或水平的变化 影响药物在各器官和组织体液的药代动力学( PK) 和药效学发生 DDI。 多数有临床意义的 DDI 是促变药( perpetrators) 的 抑 制 或 诱 导 作 用 引 起 受 变 药( substrates) 在体内过程改变 导致受变药物浓度升高或降低; 某些情况下 DDI 会使得药物暴露产",
+    "bbox": [
+      510,
+      703,
+      889,
+      890
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "· 1095 ·",
+    "bbox": [
+      810,
+      77,
+      873,
+      90
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "◇ 专论 ◇",
+    "bbox": [
+      117,
+      126,
+      189,
+      140
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中国临床药理学与治疗学",
+    "bbox": [
+      744,
+      118,
+      878,
+      130
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中国药理学会主办",
+    "bbox": [
+      781,
+      131,
+      878,
+      141
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "CN 34-1206 /R ISSN 1009-2501",
+    "bbox": [
+      717,
+      142,
+      878,
+      152
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "http : / / www． cjcpt． com",
+    "bbox": [
+      764,
+      154,
+      877,
+      164
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "2021 Oct; 26( 10) : 1095-1102",
+    "bbox": [
+      732,
+      165,
+      878,
+      174
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "2021-07-06 收稿 2021-10-08 修回",
+    "bbox": [
+      107,
+      725,
+      307,
+      736
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "重大新药创制科技重大专项( 2017zx09101001)",
+    "bbox": [
+      109,
+      738,
+      374,
+      750
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "孙搏，女，博士，高级工程师，主要从事临床药理研究和审评核查工作。",
+    "bbox": [
+      109,
+      752,
+      480,
+      777
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "Tel: 021-50121756 E-mail: yssunbo@ smda． sh． cn",
+    "bbox": [
+      109,
+      778,
+      400,
+      791
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "付淑军，共同第一作者，女，博士，高级工程师，主要从事药品技术审评工作。",
+    "bbox": [
+      109,
+      793,
+      480,
+      818
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "Tel: 010-68583117 E-mail: fushj@ cde． org． cn",
+    "bbox": [
+      109,
+      820,
+      379,
+      832
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "李丽，通信作者，女，博士，副主任药师，主要从事临床药理学相关审评工作。",
+    "bbox": [
+      109,
+      834,
+      480,
+      859
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "Tel: 010-85243178 E-mail: lil@ cde． org． cn",
+    "bbox": [
+      109,
+      860,
+      364,
+      873
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "生几百倍的变化。",
+    "bbox": [
+      107,
+      109,
+      243,
+      124
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "药物研发中开展 DDI 研究的目的主要是确定在研药物是否会改变其它药物的药代动力学;其它药物是否会改变在研药物的药代动力学; 药代动力学参数的变化幅度; 已观察到或预期 DDI的临床意义; 对具有临床意义 DDI 的管理策略。DDI 研究分为体外研究和体内研究两部分，是综合评价且逐步递进的过程，整体研究应兼具计划性和系统性。 体外研究是为了考察在研药物的PK特征以初步估计药动学相互作用可能的机制及严重程度，并支持DDI 临床研究时机的确定。 体内研究即DDI 临床研究 是为了确认人体中发生 DDI 的可能性及其程度 如果在临床试验中观察到显著的药物相互作用，则应考虑进行进一步考察与其他药物的 DDI 如若与强效抑制剂合用发生 DDI 则应进一步考察与中/弱效抑制剂的 DDI。",
+    "bbox": [
+      105,
+      127,
+      482,
+      404
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "药物相互作用的临床意义很明确 可能增加不良反应或事件的频率和/或严重程度 或导致治疗有效率降低。 因此 DDI 评估是新药开发和监管评估的重要组成部分 如果在后期临床试验开始前无法获得 DDI 信息 那么同时进行其他药物治疗的目标患者人群通常会被排除( 包括明确药物疗效和安全性的试验) ; 而且在新药批准后 临床试验结果可能无法推广到这些目标患者人群中。 在新药审评的监管评估阶段 如果没有评估药物DDI 说明书中有关DDI 信息可能缺乏 将限制接受药物治疗的患者人群 并限制患者获得某些治疗选择［3］ 。 在新药研发阶段 对同时使用在研药物和可能发生 DDI 的合用药物进行 DDI 研究和评价 依据结果科学制定患者临床试验的合并用药策略、入排标准或相应的剂量调整策略 是充分预防患者因合并用药而产生不必要的安全性风险的重要内容。",
+    "bbox": [
+      105,
+      407,
+      482,
+      667
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      109,
+      887,
+      161
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "因此 在新药研发过程中( 如药物筛选、非临床研究、临床研究) 及上市后等各个阶段识别和评估 DDI 具有十分重要的作用 需要确定适当的策略来对其进行实施和管理。",
+    "bbox": [
+      510,
+      165,
+      887,
+      236
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 药物相互作用研究的主要内容",
+    "text_level": 2,
+    "bbox": [
+      510,
+      248,
+      808,
+      265
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2． 1 体外研究 体外 DDI 研究的内容和目的主要是确定药物的主要消除途径; 评估相关代谢酶和转运体对药物处置过程中的贡献; 考察药物对代谢酶和转运体的影响; 从而预测临床 DDI 发生的可能性 帮助确定何时以及需要哪些体内 DDI研究。 DDI 预测模型包括基础模型、静态机制模型和动态机制模型［4］",
+    "bbox": [
+      510,
+      277,
+      887,
+      404
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "评估在研药物为代谢酶底物( substrates) 的可能性时 若该代谢酶对药物消除的贡献≥25%应使用强指针抑制剂和/或酶诱导剂进行 DDI 临床研究 评估在研药物为代谢酶抑制剂( inhibi-tors) 或诱导剂 ( inducers) 的可能性时 体外抑制或诱导作用的数据需要借助数学模型整合后来预测在研药物对体内其他药物的药代动力学的影响［2］ 。 评估在研药物为转运体底物、抑制剂的可能性时 评估的时机可能基于在研药物的适应症来确定。 生物药剂学分类系统( BCS) Ⅰ 类药物一般无需考察是否为 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 和 BCRP 的底物 除非其分布到某些组织中会存在安全性问题［2］ 。 不推荐对转运体诱导剂的可能性进行体外评估。 DDI体外研究的涉及主要代谢酶和转运体见表1。",
+    "bbox": [
+      510,
+      407,
+      889,
+      667
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/ce406e348a83df04469b065fbb5aff6b5ab203dc2a2ca7b892a5fc5d7dab0e44.jpg",
+    "table_caption": [
+      "表 1 DDI 体外研究中涉及的主要代谢酶和转运体",
+      "Tab． 1 Major metabolic enzymes and transporters involved in DDI in vitro studies"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td colspan=\"2\">在研药物</td><td>考察内容</td></tr><tr><td rowspan=\"3\">CYP酶</td><td>底物</td><td>主要代谢酶: CYP1A2、2B6、2C8、2C9、2C19、2D6、3A其他代谢酶: CYP同工酶( CYP2A6、2J2、4F2、2E1 ),I相代谢酶(MAO、FMO、XO、AO),II相代谢酶( UDP、UGT)</td></tr><tr><td>抑制剂</td><td>CYP1A2、2B6、2C8、2C9、2C19、2D6、3A</td></tr><tr><td>诱导剂</td><td>CYP1A2、2B6、2C8、2C9、2C19、3A4</td></tr><tr><td rowspan=\"2\">转运体</td><td>底物</td><td>P-gp、BCRP、OATP1B1/3、OAT1/3、OCT2、MATE1、MATE2/K</td></tr><tr><td>抑制剂</td><td>P-gp、BCRP、OATP1B1/3、OAT1/3、OCT2、MATE1、MATE2/K</td></tr></table>",
+    "bbox": [
+      109,
+      709,
+      887,
+      843
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "对于代谢物 DDI 的可能性评估 需考虑以下几点: ( 1) 当代谢物有活性且在药物总体活性中代谢物的贡献≥50% 需要评估代谢物是否为代谢酶或转运体的底物; ( 2) 当代谢物极性比原药小且代谢物 AUC≥原药 AUC 的25% 或代谢物极性比原药大且代谢物 AUC≥原药 AUC，或代谢物具有可能引起时间依赖性抑制 ( time-dependentinhibition TDI) 的预警结构 需要评估代谢物是否为代谢酶或者转运体的抑制剂。",
+    "bbox": [
+      142,
+      860,
+      480,
+      875
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      514,
+      860,
+      885,
+      875
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "· 1096 ·",
+    "bbox": [
+      124,
+      77,
+      184,
+      89
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Chin J Clin Pharmacol Ther 2021 Oct; 26( 10)",
+    "bbox": [
+      600,
+      78,
+      882,
+      90
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      105,
+      108,
+      482,
+      236
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2． 2 体内研究 根据临床研究设计，DDI 体内研究可分为前瞻性和回顾性 DDI 临床试验。 前瞻性 DDI 临床试验 方案中会包括 DDI 研究目标专门设计用于考察或量化 DDI 可以是独立研究也可以是嵌套研究。 回顾性 DDI 临床试验 方案中没有包含 DDI 研究目标 结果可能难以解释",
+    "text_level": 2,
+    "bbox": [
+      105,
+      239,
+      482,
+      348
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "临床 DDI 研究通常以 PK 指标作为终点， 例如浓度-时间曲线下面积 ( AUC) 或最高浓度$\\mathrm { ~ ( ~ C ~ } _ { \\operatorname* { m a x } } )$ ; 因此可在规模较小的试验中评估 DDI 使得试验能够及时执行 而不会延迟新药的批准或限制患者合并用药。 需注意的是 DDI 介导的 PK变化应反映到暴露反应 ( exposure-response ， ER)关系中 才能评估其对安全有效性的影响。 在药物研发的各个阶段中 有关 ER 关系表征安全性和有效性的认知在不断发展 可靠性也越来越高因此 DDI 管理策略应考虑目标人群中的 ER 关系 合并用药预期持续时间 剂量调整的可行性和替代治疗的可用性。 调整给药剂量以达到临床应",
+    "bbox": [
+      105,
+      351,
+      482,
+      573
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/e3cf0b24cddb72191cfe0b2bdd0400a8484e4a3f9efdcc3550b00535d839b9ff.jpg",
+    "table_caption": [
+      "表2 CYP 酶抑制剂和诱导剂强度的分类",
+      "Tab． 2 Classification of CYP enzyme inhibitors and inducers"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td></td><td>强效</td><td>中效</td><td>弱效</td></tr><tr><td>抑制剂</td><td> $\\Delta AUC \\geq 5$ 倍</td><td>2倍 $\\leq \\Delta AUC < 5$ 倍</td><td>1.25倍 $\\leq \\Delta AUC < 2$ 倍</td></tr><tr><td>诱导剂</td><td> $\\Delta AUC \\geq 80\\%$ </td><td>50% $\\leq \\Delta AUC < 80\\%$ </td><td>20% $\\leq \\Delta AUC < 50\\%$ </td></tr></table>",
+    "bbox": [
+      109,
+      615,
+      889,
+      669
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "常见合并用药 DDI 研究中选择的药物应考虑合并用药的频率和 DDI 发生机制。 由于转运蛋白缺乏指针药物 其介导的 DDI 通常选择基于常见合并用药情况来研究。 但是 这类 DDI 研究的结果很难外推到其他药物［6］",
+    "bbox": [
+      105,
+      686,
+      482,
+      776
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "药物的 DDI 产生机制对药物能否安全上市非常关键 常规的 DDI 临床试验随之而来的问题就是高费用、 高风险。 为了减少不必要的临床DDI 研究的数量 同时最大化地获取DDI 信息 利用先前积累的机制理解来支持合理科学的决策非常有价值 这在基于模型研究的 DDI 研究得到体用或 ER 评估认为安全有效的药物浓度/暴露量是DDI 管理的合理目标 也是DDI 研究结果的体现。使用这种方式 在 DDI 临床试验中无需直接观察到安全性和疗效减低; 通常观察到药物浓度/暴露量的变化 ， 且变化幅度可能与风险受益( benefit-risk) 有关 就可确定 DDI 是否具有临床意义。 由于临床DDI 研究在药物临床应用中发挥着关键作用，因此需要对此进行科学严谨的设计和解释。",
+    "bbox": [
+      105,
+      780,
+      482,
+      890
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      108,
+      887,
+      255
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "DDI 临床研究依据研究方法 可分为基于指针药物( index drug) 、 基于常见合并用药 、 基于模拟的 DDI 临床研究。 指针药物 DDI 研究应选择使用在抑制、诱导和代谢途径方面具有公认 PK和 DDI 特性的促变药( 抑制剂/诱导剂) 或受变药( 底物) 。 推荐使用的促变药应可预测的效应大小 已知可改变特定的代谢或转运途径 并且可安全用于健康受试者 推荐使用的底物应具有公认的 CYP 代谢途径及消除的贡献 与指针抑制剂和诱导剂有明确的相互作用 并且可安全用于健康受试者。 对促变药强度的分类一般是根据合用前后敏感性CYP 指针底物AUC 的变化值 ΔAUC 将抑制剂或诱导剂分为强效、中效、弱效三种强度具体见表2 对指针药物的分类和认识随着科学研究在不断发展 例如氯吡格雷曾被列为强效CYP2C8 抑制剂 现在被列为中效 CYP2C8 抑制剂 ［5］ 。 。",
+    "bbox": [
+      510,
+      258,
+      889,
+      571
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "现。 应用基于机制的定量转化方法来进行 DDI风险评估 从而使制药业避免了不合理地进行不必要的 DDI 临床研究 并可根据临床需要预测临床 DDI 研究的必要性。 生理药代动力学模型( physiologically based pharmacokinetic model ， PB-PK 模型) 的建模和模拟可预测药物在人体中 PK评估内在( 如器官功能障碍、年龄、遗传) 和外在( 如 DDI) 因素的影响 其应用在药物研发过程的各个阶段都在增加 PBPK 模型多用于预测 CYP酶介导的 DDI 并被用以支持监管决策和剂量建议 ［ 7 ］ 。",
+    "bbox": [
+      510,
+      686,
+      889,
+      889
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "中国临床药理学与治疗学 2021 Oct; 26( 10)",
+    "bbox": [
+      109,
+      78,
+      391,
+      91
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "· 1097 ·",
+    "bbox": [
+      810,
+      77,
+      873,
+      89
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3 已批准上市新药的药物相互作用研究情况及其临床意义",
+    "text_level": 2,
+    "bbox": [
+      105,
+      116,
+      465,
+      153
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "3． 1 2020 年中国和美国批准上市新药的 DDI 相关情况 药物研发过程中探索具有临床意义的药物相互作用研究是制药行业和监管机构的一项挑战［8］ 。 我国和欧美日等监管机构在药物相互作用指导原则文件中都强调了在药物开发过程中评估药物与药物相互作用的重要性。 从 NMPA 和 FDA 的新药审评工作来看 由于新药的不断涌现 合并用药情景增加 DDI 已成为常规研究内容［9］ 。",
+    "bbox": [
+      105,
+      164,
+      482,
+      311
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2020 年 NMPA 批准上市的 20 个新药中 ［11］有17 个( 85%) 新药说明书中提供了药物相互作用信息 其中11 个药物的 DDI 涉及 CYP 酶介导5 个药物的 DDI 涉及转运蛋白介导; 有11 个新药( 55% ) 进行了 DDI 临床研究( Tab． 3) 。",
+    "bbox": [
+      105,
+      313,
+      482,
+      404
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2020 年美国 FDA 批准上市了 53 个新药［10］ 其中有32 个新药( 60%) 在说明书首页中提供了药物相互作用内容 给出 DDI 相关监管决策和剂量调整建议 其中有20 个药物的 DDI 涉及 CYP 酶介导 9个药物的 DDI 涉及转运蛋白介导( Tab．4) 。",
+    "bbox": [
+      105,
+      407,
+      482,
+      497
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "近年来监管机构鼓励 PBPK 模型的应用 制药行业也越来越多地通过 PBPK 建模来预测 DDI及相关剂量建议 以替代临床研究。 2020 年",
+    "bbox": [
+      105,
+      501,
+      482,
+      554
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "NMPA 批准新药中有 1 个药物( 泽布替尼胶囊)DDI 信息有 PBPK 模型应用支持 FDA 批准的新药中有6 个药物 DDI 信息有 PBPK 模型应用支持。 然而，PBPK 模型用于预测评估 DDI 在监管层面的可接受性是根据具体情况而定的。 例如在Olinvyk ( NDA 210730) 审评报告中指出申请人提交的 PBPK 模型不能支持 DDI 预测［12］ 不接受的理由是模型未充分开发和验证 但认为临床研究和 I 期 PK 数据可说明该药潜在的 DDI 问题 且其合理剂量需进行滴定 因此未要求优化 PBPK模型 。",
+    "bbox": [
+      510,
+      108,
+      887,
+      310
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "3．2 药品说明书中的 DDI 信息 药品说明书是具有法律意义的指导医患安全 合理使用药品的重要文件。 有关药物相互作用的内容 我国的药品说明书中在 “【药物相互作用 】”项下列出 DDI相关信息; 美国的药品说明书除了在其第 7 部分详细列出了 DDI 体内和临床试验已获得的信息还在说明书首页设置了 “DRUG INTERACTIONS ”一栏着重列出有临床意义的 DDI 信息及相关用药调整 便于医生和患者快速查阅获取信息 进而根据临床实际情况调整用药 有利于促进临床安全合理用药 降低因 DDI 发生安全事件的风险我国药品说明书中 “药物相互作用”信息的呈现方式和内容可进一步完善。",
+    "bbox": [
+      510,
+      313,
+      889,
+      554
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/d655cbc2ca75c66dc4c04a1f11074162d4e91e9f5e91e3c61c82bf8fb35222c2.jpg",
+    "table_caption": [
+      "表3 2020 年我国批准的新药说明书中 DDI 信息概述",
+      "Tab． 3 Overview of DDI information in new drug instructions approved in China in 2020"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药品名称</td><td>说明书中DDI信息概述</td></tr><tr><td>苯环喹溴铵鼻喷雾剂</td><td>强CYP2D6抑制剂:合用未见临床意义DDI。</td></tr><tr><td>甲磺酸阿美替尼片</td><td>强CYP3A4抑制剂:慎用。强CYP3A4诱导剂:慎用。BCRP和P-gp底物:慎用。</td></tr><tr><td>泽布替尼胶囊</td><td>强/中效CYP3A抑制剂:减量为每次80mg,每日一次。强/中效CYP3A诱导剂:避免使用。</td></tr><tr><td>注射用苯磺酸瑞马唑仑盐酸恩沙替尼胶囊</td><td>本品与中枢抑制剂合用有协同作用,慎用并减量。体外研究提示本品可能是CYP3A、P-gp底物,为CYP诱导剂或抑制剂可能性小。与CYP2B6强诱导剂利福平联用:不会产生临床意义DDI。</td></tr><tr><td>环泊酚注射液氟唑帕利胶囊</td><td>强CYP3A4抑制剂:避免合用。如必须用,需停用本品。中效CYP3A4抑制剂:避免合用时,如必须用,本品剂量减量至50mg。强CYP3A4诱导剂:避免合用。</td></tr><tr><td>奥布替尼片</td><td>体外研究提示本品主要通过CYP3A4代谢,应避免与强和中度CYP3A4抑制剂或诱导剂合用。</td></tr><tr><td>索凡替尼胶囊</td><td>体外研究提示本品主要通过CYP3A4/5代谢,可抑制P-gp、BCRP,应避免或慎重合用CYP3A4/5抑制剂、诱导剂或底物及P-gp、BCRP底物。</td></tr><tr><td>盐酸可洛派韦胶囊</td><td>强CYP3A抑制剂或诱导剂:避免合用。胺碘酮:不建议合用。</td></tr></table>",
+    "bbox": [
+      109,
+      596,
+      887,
+      875
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "· 1098 ·",
+    "bbox": [
+      124,
+      77,
+      184,
+      89
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Chin J Clin Pharmacol Ther 2021 Oct; 26( 10)",
+    "bbox": [
+      600,
+      78,
+      882,
+      90
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/f5df6cd49b6d10a90194a52c2dfccd89c30a6cb960caaa12c8ed53ffc213db25.jpg",
+    "table_caption": [
+      "续表 3"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药品名称</td><td>说明书中DDI信息概述</td></tr><tr><td>西尼莫德片</td><td>中效CYP2C9和中/强效CYP3A4抑制剂:不建议合用。中效CYP2C9和强CYP3A4诱导剂:不建议合用。CYP2C9*3/*3基因型:禁用。抗肿瘤、免疫调节或免疫抑制治疗、抗心律失常药物、延长QT间期药物及降低心率的药物、β受体阻滞剂:慎用。</td></tr><tr><td>依达拉奉右莰醇</td><td>体外研究提示:本品主要被UGT代谢,对主要肝药酶无明显抑制或诱导作用。</td></tr><tr><td>注射用浓溶液</td><td></td></tr><tr><td>盐酸拉维达韦片</td><td>与达诺瑞韦钠合用:不需要调整盐酸拉维达韦、达诺瑞韦钠的剂量。与咪达唑仑合用:不需要调整盐酸拉维达韦、咪达唑仑或其他CYP3A4底物的剂量。与奥美拉唑合用:不需要调整剂量盐酸拉维达韦、奥美拉唑或其他CYP2C19底物的剂量。</td></tr><tr><td>磷酸依米他韦胶囊</td><td>强效P-gp诱导剂:禁用。质子泵抑制剂:不建议合用。抗酸剂:间隔4小时分开给药。H2受体拮抗剂:不超过与每日40mg法莫替丁相当的剂量。依米他韦、地高辛:合用时需谨慎。他汀类、达比加群酯、呋塞米:密切监测。无需剂量调整的合用药物:索磷布韦、伊曲康唑、伏立康唑、泊沙康唑、艾沙康唑、美沙酮、环孢素、他克莫司、诺孕酯/炔雌醇。</td></tr><tr><td>重组结核杆菌融合蛋白(EC)</td><td>本品与TB-PPD同体双臂使用安全。</td></tr><tr><td>桑枝总生物碱</td><td>同食蔗糖会引起腹部不适;避免同时服用考来酰胺、肠道吸附剂和消化酶类制剂。</td></tr><tr><td>桑枝总生物碱片</td><td>同食蔗糖会引起腹部不适;避免同时服用考来酰胺、肠道吸附剂和消化酶类制剂。</td></tr></table>",
+    "bbox": [
+      109,
+      124,
+      887,
+      498
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "table",
+    "img_path": "images/3af1a0a0fc077fd0bc99161902a4af52ca2de4551234003ff2191cef88f97d6c.jpg",
+    "table_caption": [
+      "表4 2020 年美国 FDA 批准新药 DDI 相关监管决策和剂量调整建议",
+      "Tab． 4 Regulatory decisions and dose adjustment suggestions related to new drug DDI approved by FDA in 2020"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药物名称(活性成分)NDA/BLA</td><td>DDI相关监管决策和剂量调整建议概述</td></tr><tr><td>Ayvakit (avapritinib)</td><td>强/中效CYP3A抑制剂:避免合用。若与中效CYP3A抑制剂合用减少</td></tr><tr><td>NDA 212608</td><td>Ayvakit剂量。</td></tr><tr><td></td><td>强/中效CYP3A诱导剂:避免合用。</td></tr><tr><td>Tazverik (tazemetostat)</td><td>强/中效CYP3A抑制剂:避免合用。若与中效CYP3A抑制剂合用减少</td></tr><tr><td>NDA 211723</td><td>Tazverik剂量。</td></tr><tr><td></td><td>强/中效CYP3A诱导剂:避免合用。</td></tr><tr><td>Nurtec ODT (rimegepant)</td><td>强CYP3A4抑制剂:避免合用。与中效CYP3A抑制剂合用时48h内不可再次给药。</td></tr><tr><td>NDA 212728</td><td></td></tr><tr><td></td><td>强/中效CYP3A诱导剂:避免合用。P-gp、BCRP抑制剂:避免合用。</td></tr><tr><td>Isturisa (osilodrostat)</td><td>强CYP3A4抑制剂:合用时将Isturisa的剂量减半。</td></tr><tr><td>NDA 212801</td><td>强CYP3A4/CYP2B6诱导剂:若合用,可能需增加Isturisa剂量。停用时需减量。</td></tr><tr><td>Zeposia (ozanimod)</td><td>疫苗:避免在Zeposia治疗3个月内使用减毒活疫苗。</td></tr><tr><td>NDA 209899</td><td>强CYP2C8抑制剂:不推荐合用。BCRP抑制剂:不推荐合用。</td></tr><tr><td></td><td>强CYP2C8诱导剂:避免合用。</td></tr><tr><td>Koselugo (selumetinib)</td><td>强/中效CYP3A4抑制剂或氟康唑:避免合用。若无法避免,Koselugo减量。</td></tr><tr><td>NDA 213756</td><td>强/中效CYP3A4诱导剂:避免合用。</td></tr><tr><td>Tukysa (tucatinib)</td><td>强CYP3A诱导剂或中效CYP2C8诱导剂:避免合用。</td></tr><tr><td>NDA 213411</td><td>强CYP2C8抑制剂:避免合用;若无法避免,减少Tukysa剂量。</td></tr></table>",
+    "bbox": [
+      110,
+      548,
+      887,
+      873
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "中国临床药理学与治疗学 2021 Oct; 26( 10)",
+    "bbox": [
+      109,
+      78,
+      391,
+      91
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "· 1099 ·",
+    "bbox": [
+      810,
+      78,
+      873,
+      89
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "table",
+    "img_path": "images/7b3c0c9d80a15e0f8804bee2c9e6d7cb90cc6f214a55260468ef0e6a73ad27df.jpg",
+    "table_caption": [
+      "续表 4"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药物名称(活性成分)NDA/BLA</td><td>DDI相关监管决策和剂量调整建议概述</td></tr><tr><td></td><td>CYP3A底物:避免合用。P-gp底物:考虑减少P-gp底物的剂量。</td></tr><tr><td>Pemazyre ( pemigatinib)</td><td>强/中效CYP3A诱导剂:避免合用。</td></tr><tr><td>NDA 213736</td><td>强/中效CYP3A抑制剂:若无法避免,减少Pemazyre剂量。</td></tr><tr><td>Tabrecta ( capmatinib)</td><td>强/中效CYP3A诱导剂:避免合用。</td></tr><tr><td>NDA 213591</td><td></td></tr><tr><td>Retevmo ( selpercatinib)</td><td>酸还原剂:避免合用。若合用需与食物同服或间隔给药时间。</td></tr><tr><td>NDA 213246</td><td>强/中效CYP3A抑制剂:避免合用。若无法避免,Retevmo减量。强/中效CYP3A诱导剂:避免合用。CYP2C8、CYP3A底物:避免合用。若无法避免,调整底物剂量。</td></tr><tr><td>Qinlock ( ripretinib)</td><td>强CYP3A抑制剂:应更频繁地监测不良反应。</td></tr><tr><td>NDA 213973</td><td>强CYP3A诱导剂:避免合用。</td></tr><tr><td>Zepzelca ( lurbinectedin)</td><td>强/中效CYP3A抑制剂:避免合用。</td></tr><tr><td>NDA 213702</td><td>强/中效CYP3A诱导剂:避免合用。</td></tr><tr><td>Rukobia ( fostemsavir)</td><td>强CYP3A4诱导剂:禁止合用,可能会失去疗效。</td></tr><tr><td>NDA 212950</td><td>合用会增加Grazoprevir、Voxilaprevir浓度。合用会增加他汀类药物浓度。口服避孕药:含有的乙炔雌二醇日剂量不超过30微克。</td></tr><tr><td>Xeglyze ( abametapir)</td><td>CYP3A4、2B6、1A2底物:避免合用。</td></tr><tr><td>NDA 206966</td><td></td></tr><tr><td>Evrysdi ( risdiplam)</td><td>MATE底物:避免合用。</td></tr><tr><td>NDA 213535</td><td></td></tr><tr><td>Olinvyk ( oliceridine)</td><td>强/中效CYP2D6、CYP3A4抑制剂:减少给药频率,密切监测调整剂量。</td></tr><tr><td>NDA 210730</td><td>血清素药物:合用可能导致血清素综合征需停用。混合激动剂/拮抗剂和部分激动剂阿片类镇痛药:避免合用。</td></tr><tr><td>Gavreto ( pralsetinib)</td><td>强CYP3A抑制剂:避免合用。</td></tr><tr><td>NDA 213721</td><td>P-gp、强CYP3A抑制剂:避免合用。若无法避免,Gavreto减量。强CYP3A诱导剂:避免合用。若无法避免,增加Gavreto剂量。</td></tr><tr><td>Zokinvy ( lonafarnib)</td><td>强/中度CYP3A抑制剂:禁止合用。避免食用柚子或橙子。</td></tr><tr><td>NDA 213969</td><td>弱CYP3A抑制剂:避免合用,若无法避免,Zokinvy减量至 $115 \\text{mg/m}^{2}$ 每天两次。强/中度CYP3A诱导剂:禁止合用。弱CYP3A诱导剂:不建议调整Zokinvy剂量。CYP2C9抑制剂:避免合用。若无法避免,应密切监测心血管事件。</td></tr><tr><td>Orladeyo ( berotralstat)</td><td>P-gp或BCRP抑制剂:合用时减少Orladeyo剂量。</td></tr><tr><td>NDA 214094</td><td>P-gp诱导剂:避免合用。CYP2D6、CYP3A4或P-gp底物:适当监测或剂量滴定。</td></tr><tr><td>Orgovyx ( relugolix)</td><td>P-gp抑制剂:避免合用。若必须用,先服用Orgovyx后间隔至少6h,并加强监测。</td></tr><tr><td>NDA 214621</td><td>P-gp、强CYP3A诱导剂:避免合用。若合用Orgovyx剂量增加至240mg qd。</td></tr><tr><td>Nexletol ( bempedoic acid)</td><td>与辛伐他汀合用不超过20mg;与普伐他汀合用不超过40mg。</td></tr><tr><td>NDA 211616</td><td></td></tr><tr><td>Cerianna ( fluoroestradiol F18)</td><td>阻断雌激素受体的药物(如他莫昔芬、氟维司群):减少氟雌二醇F18的</td></tr><tr><td>NDA 212155</td><td>摄取。不要为了用Cerianna而延迟指定治疗。在阻断ER的全身内分泌治疗前用Cerianna成像。</td></tr><tr><td>Artesunate ( artesunate)</td><td>奈韦拉平或利托那韦抗逆转录病毒药;强UGT诱导剂(如利福平、卡马西平、苯妥英):若合用应监测(可能降低的抗疟效果)。</td></tr><tr><td>NDA 213036</td><td></td></tr><tr><td>Dojolvi ( triheptanoin)</td><td>胰脂肪酶抑制剂:避免合用(可能会降低Dojolvi疗效)。</td></tr><tr><td>NDA 213687</td><td></td></tr></table>",
+    "bbox": [
+      109,
+      124,
+      887,
+      884
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "· 1100 ·",
+    "bbox": [
+      124,
+      77,
+      184,
+      89
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "Chin J Clin Pharmacol Ther 2021 Oct; 26( 10)",
+    "bbox": [
+      601,
+      78,
+      882,
+      90
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "table",
+    "img_path": "images/616b6c8e09ec655442680865d01a5c0ed8835c4eb0570141aebdfd32bcc5dfce.jpg",
+    "table_caption": [
+      "续表 4"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药物名称(活性成分) NDA/BLA</td><td>DDI 相关监管决策和剂量调整建议概述</td></tr><tr><td>Inqovi (decitabine and cedazuridine)</td><td>由胞苷脱氨酶代谢的药物:避免合用。</td></tr><tr><td>NDA 212576</td><td></td></tr><tr><td>Gemtesa (vibegron)</td><td rowspan=\"2\">地高辛:在使用 Gemtesa 前监测地高辛血药浓度。监测血清浓度以滴定地高辛剂量。</td></tr><tr><td>NDA 213006</td></tr><tr><td>Detectnet (copper Cu 64 dotatate injection)</td><td>生长抑素类似物:在服用生长抑素类似物之前对患者进行成像。使用长效生长抑素类似物,建议成像前洗脱期28天。</td></tr><tr><td>NDA 213227</td><td>使用短效生长抑素类似物,建议在成像前洗脱期2天。</td></tr><tr><td>Veklury (remdesivir)</td><td rowspan=\"2\">尚未对 Veklury 进行临床药物相互作用研究。告知患者 Veklury 可能与其他药物相互作用。建议患者向其医疗保健提供者报告使用任何其他处方药或非处方药或草药产品,包括磷酸氯喹或羟氯喹硫酸盐。</td></tr><tr><td>NDA 214787</td></tr><tr><td>Sogroya</td><td>替代糖皮质激素治疗:可能需要增加维持或应激剂量。</td></tr><tr><td>(somapacitan-beco)</td><td>经 CYP 代谢的药物:合用应加强监测。</td></tr><tr><td>BLA 761156</td><td>口服雌激素:可能需要增加 Sogroya 剂量。胰岛素/降糖药:可能需要调整胰岛素或降糖药的剂量。</td></tr><tr><td>Trodelvy (sacituzumab govitecan-hziy) BLA 761115</td><td>UGT1A1 抑制剂或诱导剂:避免合用。</td></tr><tr><td>Inmazeb (atoltivimab, maftivimab, and odesivimab-ebgn) BLA 761169</td><td>尚未进行疫苗相互作用研究。Inmazeb 可能会降低活疫苗的效力。Inmazeb 治疗开始后的活疫苗接种间隔应符合当前的疫苗接种指南。</td></tr><tr><td>Ebanga (ansuvimab-zykl)</td><td rowspan=\"2\">尚未进行疫苗相互作用研究。Ebanga 可能会降低活疫苗的效力。Ebanga 治疗和活疫苗接种之间的间隔应符合当前的疫苗接种指南。</td></tr><tr><td>BLA 761172</td></tr></table>",
+    "bbox": [
+      109,
+      124,
+      887,
+      499
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "4 结语",
+    "text_level": 2,
+    "bbox": [
+      105,
+      525,
+      183,
+      541
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "DDI 在临床用药中常见 已上市药物因严重DDI 而撤市的情形时有发生。 因而 DDI 研究在药物研发中是不可缺少的重要环节 已成为常规临床研究内容。 在我国鼓励创新的背景下 随着药品监管法规的更新 新药研发日益增多 DDI研究在监管决策中的地位更加重要。 整个药物研发过程中 DDI 评估可以使用多种方法和研究类型。 为了提供更多有效的信息 在 DDI 研究设计和结果解读方面应注重对 DDI 发生机制和 ER与安全有效性关联的考量。 合并用药发生 DDI除了 PK 作用 对药效相互作用的机理和分析也至关重要 特别是在免疫肿瘤学等治疗领域 药物的联合开发已成为常态。 在实际临床应用中药物合用的情况普遍存在 因此在新药研发环节应合理系统规划 DDI 研究 有利于提升药物研发进程的质量和效率 更好地保证药物的合理使用及患者的用药安全。",
+    "bbox": [
+      105,
+      552,
+      480,
+      870
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "声明: 本文仅代表作者个人的认识 不代表国家",
+    "bbox": [
+      107,
+      873,
+      480,
+      890
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "药品监督管理局药品审评中心的观点。",
+    "bbox": [
+      515,
+      517,
+      808,
+      532
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "参 考 文 献",
+    "text_level": 2,
+    "bbox": [
+      655,
+      545,
+      747,
+      558
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "［1 ］ Giacomini KM Krauss RM Roden DM et al． Whengood drugs go bad ［J ］ ． Nature ， 2007 ， 446 ( 7139) :975-977．",
+      "［2］ 国家药品监督管理局药品审评中心． 药物相互作用研究技术指导原则( 试行) ［EB/OL ］ ． ［2021-01-26 ］ ． http: / /www． cde． org． cn /zdyz． do? method =largePage＆id = aab86e2e468217d8．",
+      "［3 ］ Rekic D ， Reynolds KS ， Zhao P ， et al． Clinical drug-drug interaction evaluations to inform drug use and en-able drug access ［J ］ ． J Pharm Sci 2017 106 ( 9) :2214-2218．",
+      "［4 ］ Lee J ， Yang Y ， Zhang X ， et al． Usage of in vitro me-tabolism data for drug-drug interaction in physiologi-cally based pharmacokinetic analysis submissions tothe US Food and Drug Administration ［ J ］ ． J ClinPharmacol 2021 61( 6) : 782-788．",
+      "［5 ］ Yang X Pfuma Fletcher E Huang SM et al． Regulatory efforts to facilitate evaluation and clinical management of drug-drug interaction risks ［J ］ ． Clin Pharmacol Ther 2021 109( 1) : 42-46．",
+      "［6 ］ Tornio A ， Filppula AM ， Niemi M ， et al． Clinicalstudies on drug-drug interactions involving metabolismand transport: Methodology ， pitfalls ， and interpreta-tion ［ J ］ ． Clin Pharmacol Ther 2019 105 ( 6 ) :1345-1361．",
+      "［7 ］ Zhang X ， Yang Y ， Grimstein M ， et al． Application of PBPK modeling and simulation for regulatory decision making and its impact on US prescribing information: An update on the 2018-2019 submissions to the US FDA＇s office of clinical pharmacology ［ J ］ ． J Clin Pharmacol 2020 60 Suppl 1: S160-S178．",
+      "［8 ］ Venkatakrishnan K ， Rostami-Hodjegan A． Comedance with me: Transformative changes in the scienceand practice of drug-drug interactions ［J ］ ． Clin Phar-macol Ther ， 2019 ， 105( 6) : 1272-1278．",
+      "［9 ］ Yu J ， Petrie ID ， Levy RH ， et al． Mechanisms andclinical significance of pharmacokinetic-based drug-",
+      "drug interactions with drugs approved by the U． S．Food and Drug Administration in 2017 ［ J ］ ． DrugMetab Dispos ， 2019 ， 47( 2) : 135-144．",
+      "［10 ］ USFDA． Novel drug approvals for 2020 ［ EB /OL ］ ． ［ 2021-01-13 ］ ． https: / /www． fda． gov /drugs /newdrugs-fda-cders-new-molecular-entities-and-new-therapeutic-biological-products /novel-drug-approvals-2020．",
+      "［11］ 国家药品监督管理局． 2020 年度药品审评报告［EB /OL ］ ． ［2021-06-21 ］ ． https: / /www． nmpa． gov．cn /xxgk /fgwj /gzwj /gzwjyp /20210621142436183． ht-ml",
+      "［12 ］ USFDA． 210730Orig1s000 Multi-Discipline Review ［EB /OL ］ ． ［2020-08-07 ］ ． https: / /www． accessdata． fda． gov /drugsatfda-docs /nda /2020 / 210730Orig1s000 MultidisciplineR． pdf"
+    ],
+    "bbox": [
+      515,
+      568,
+      895,
+      892
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "中国临床药理学与治疗学 2021 Oct; 26( 10)",
+    "bbox": [
+      109,
+      78,
+      391,
+      91
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "page_number",
+    "text": "· 1101 ·",
+    "bbox": [
+      810,
+      78,
+      873,
+      89
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      102,
+      102,
+      490,
+      382
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      515,
+      103,
+      895,
+      367
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "Applications of drug interaction study in new drug development and regulartory decision-making",
+    "text_level": 1,
+    "bbox": [
+      107,
+      399,
+      892,
+      444
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "SUN Bo 1 ， FU Shujun 2 ， CHEN Guiliang 1 ， LI Li 2",
+    "bbox": [
+      105,
+      451,
+      512,
+      470
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "1 Shanghai Center for Drug Evaluation and Inspection ， Shanghai 201203 ， China; 2 Center for Drug Evaluation ，National Medical Products Adminstration ， NMPA ， Beijing 1 00038 ， China",
+    "bbox": [
+      105,
+      478,
+      885,
+      512
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "ABSTRACT Drug-drug interactions ( DDI) change dose-response relationships ， and may result in low efficacy or high toxicity ， which are important considerations especially in medical practice with multipledrug therapies． Predicting clinically significant drug interactions during new drug development is an important part of benefit and risk assessment in drug development and review． This article summarizes the purpose and significance of drug interactions in new drug development the main content and precautions of DDI studies in vivo and in vitro． Drug interaction studies on novel drug approvals for 2020 in the National Medical Products Administration ( NMPA ) and US Food and Drug Administration ( USFDA ) are examined respectively． It aims to provide reference for DDI studies and regulatory reviews in new drug development in our country．",
+    "bbox": [
+      105,
+      531,
+      485,
+      721
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      531,
+      890,
+      633
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "KEYWORDS drug-drug interactions ( DDI) ; drug development; novel drug approvals; National Medical Products Administration; US Food and Drug Administration",
+    "bbox": [
+      510,
+      636,
+      890,
+      702
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "page_number",
+    "text": "· 1102 ·",
+    "bbox": [
+      122,
+      77,
+      184,
+      89
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "Chin J Clin Pharmacol Ther 2021 Oct; 26( 10)",
+    "bbox": [
+      600,
+      78,
+      882,
+      90
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 7
+  }
+]

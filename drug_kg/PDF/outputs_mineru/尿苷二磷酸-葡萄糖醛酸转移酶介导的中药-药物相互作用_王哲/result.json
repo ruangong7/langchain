@@ -1,0 +1,822 @@
+[
+  {
+    "type": "text",
+    "text": "쓲?뛾쇗쯡-웏쳑쳇좩쯡힪틆쎸뷩떼뗄 훐튩-튩컯쿠뮥ퟷ폃",
+    "text_level": 1,
+    "bbox": [
+      161,
+      135,
+      836,
+      203
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "王 哲，姜丽丽，夏杨柳，刘 勇＊＊",
+    "bbox": [
+      326,
+      229,
+      669,
+      250
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "（大连理工大学生命与医药学院 盘锦 124221）",
+    "bbox": [
+      320,
+      258,
+      674,
+      274
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘 要：随着中药在世界范围的广泛使用及对 相药物代谢酶 的表达、功能、调控的进一步认识，对酶介导的中药多组分之间、中药复方以及中药与化学药物之间的相互作用的研究被越来越多人关注。本文对近年来 介导的中药 药物相互作用主要研究进展进行综述并提出展望。",
+    "bbox": [
+      89,
+      305,
+      905,
+      359
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词：药物相互作用 尿苷二磷酸葡萄糖醛酸转移酶 中药",
+    "bbox": [
+      125,
+      362,
+      584,
+      378
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "doi:10.11842/wst.2019.02.010 中图分类号：R969.2 文献标识码：",
+    "bbox": [
+      125,
+      382,
+      665,
+      396
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "尿 苷 二 磷 酸 葡 萄 糖 醛 酸 转 移 酶glucuronosyltransferases，UGTs) 是 最 重 要 的 Ⅱ 相 代 谢酶，参与药物的代谢解毒与内环境的平衡过程，可催化部分内源性物质（胆红素、类固醇激素、胆汁酸和脂溶性维生素等）与多种外源性物质（药物、化学致癌物质、杀虫剂和食物等）的代谢清除[1]。传统上人们更关注的是基于 相代谢酶细胞色素 酶系的药物相互作用，而基于 酶的药物相互作用，因前期临床数据较少，且体内的代谢更为复杂，一直为人们所忽视。随着对 代谢认识的增加以及中药在世界范围的广泛使用，临床关于 介导的药物相互作用报道的逐渐增多，对中药多组分之间、中药复方以及中药与化学药物之间的相互作用的研究也被越来越多人关注，本文综述了有关中药 药物相互作用与 之间相互关系的研究进展，为今后中药的安全、有效用药及新药研发提供新思路。",
+    "bbox": [
+      81,
+      435,
+      485,
+      737
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 关于UGT酶",
+    "text_level": 2,
+    "bbox": [
+      83,
+      751,
+      207,
+      766
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "为双底物酶，存在于内质网的腔内，它通过催化辅因子尿苷二磷酸葡萄糖醛酸(UDP-GA)向羟基、羧基或氨基转移，得到比底物亲水性更强的分子，促使其通过肾脏、胆汁或肠道清除[2]，一般认为修饰后的产物的活性降低。人的 按序列同源性分为 个家族：、 、 和 ，目前认为利用 -葡萄糖醛酸作为糖基供体最有效的酶是 和 家族的成员，而 和 家族对药物代谢贡献很小[3]。基因簇位于染色体 上，可编码产生 种功能性 亚型： 、 - ，而 、 、 和基因不产生功能蛋白。 基因位于染色体4q13 上，分别可编码 3 个（2A1-3）及 7 个（2B4、2B7、、 、 、 和 ）功能蛋白[4]。 各同工酶序列的高度相似性，导致多个 酶亚型可催化代谢同一种药物，这也是基于 酶代谢的药物相互作用研究更为复杂的原因之一。",
+    "bbox": [
+      116,
+      780,
+      483,
+      796
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      511,
+      435,
+      913,
+      718
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "早期， 及 技术被用于探索人酶的组织分布情况及相对含量[5- 7]，发现其在肝脏、小肠、肾脏、胃、肺、结肠等组织中均有表达，在肝脏和小肠中含量较高，对肝脏中 在 水平检测发 现 UGT2B4(45% ) > UGT2B15 (13% ) > UGT2B10(11% ) > UGT2B7 (7% ) > UGT1A1(7% ) > UGT1A9(6% ) > UGT1A4 (5% ) > UGT1A6 (5% ) > UGT2B17(1.5%) > UGT1A3 (1.3%)[4]，4 种 UGT2B 亚型在肝组织中的高表达与Tourancheau等[3]最新的研究结果一致。小肠中总 约为肝脏的 [8]，其中(20% ) > UGT2B17 (18.7% ) > UGT1A10 (17.3% ) >UGT1A1(12.6% ) > UGT1A6 (8.7% ) [4]，UGT1A7、UGT1A8、UGT1A10及UGT2A1仅在肝外组织中表达[7]，、 和 在肝脏中大量存在，在小肠中不表达[8,9]。分析 不同亚型在药物代谢主要组织中的表达分布对研究药物相互作用机制起着至关重要的作用。近来采用 - 与 - 技术对人类组织中UGT各个亚型单体蛋白绝对含量进行定量检测发现，个体差异明显[10,11]。 酶的活性受不同种属、年龄、性别、饮食、环境、疾病等的影响，如体外实验发现小型猪的肝微粒体中 对雌二醇进行葡萄糖醛酸化的效率是人和猴子的 倍[12,13]， 岁以上青少年肝组织中UGT1A6和UGT2B17的活性是幼龄儿童的 倍以上[14]，男性的 活性是女性的倍[15]，肝、肾、肠癌组织 总表达量较正常组织明显下降[3]。 酶在体内表达的多样化为研究其引起的药物相互作用带来了一定的困难，但更加说明了深入研究UGT在中药-药物相互作用研究中的重要性和迫切性。",
+    "bbox": [
+      511,
+      720,
+      913,
+      814
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "2019",
+    "bbox": [
+      104,
+      64,
+      138,
+      77
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "第二十一卷 第二期 ★Vol. 21 No.2",
+    "bbox": [
+      148,
+      64,
+      388,
+      78
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "收稿日期：",
+    "bbox": [
+      120,
+      810,
+      253,
+      822
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "修回日期：",
+    "bbox": [
+      122,
+      826,
+      251,
+      839
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "＊ 国家科技部重点研发计划（ ）：基于器官芯片技术的中药安全性有效性评价体系，负责人：刘勇；国家自然科学基金委青年基金项目（ ）：分子内氢键对酚类化合物 代谢的影响研究，负责人：夏杨柳；辽宁省科学技术厅辽宁省自然科学基金（博士启动基金）（ ）：脂肪干细胞复合脱细胞基质的三维支架构建及其生物学功能研究，负责人：姜丽丽。",
+    "bbox": [
+      84,
+      842,
+      913,
+      887
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "＊＊ 通讯作者：刘勇，教授，博士生导师，主要研究方向：药物代谢与药代动力学。",
+    "bbox": [
+      86,
+      890,
+      544,
+      902
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "210",
+    "bbox": [
+      81,
+      919,
+      107,
+      930
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "〔 World Science and Technology/Modernization of Traditional Chinese Medicine and Materia Medica 〕",
+    "bbox": [
+      147,
+      918,
+      740,
+      932
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      978
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      81,
+      106,
+      486,
+      563
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 UGT酶介导的中药-药物相互作用",
+    "text_level": 2,
+    "bbox": [
+      83,
+      576,
+      366,
+      591
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "随着基于 酶代谢药物的应用增多以及中药在世界范围的广泛使用，临床关于 酶介导的药物相互作用报道的逐渐增加，对中药多组分之间、中药复方以及中药与化学药物之间的相互作用的研究被越来越多人关注。",
+    "bbox": [
+      81,
+      605,
+      483,
+      696
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.1 中药有效成分对UGT酶的作用",
+    "text_level": 2,
+    "bbox": [
+      83,
+      700,
+      351,
+      714
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "明确 酶在中药有效成分代谢中的作用是近年来中药代谢研究的重点，在现有的中药成分对影响的研究中，黄酮类成分因广泛存在于水果、蔬菜和药用植物中，多为药食兼用，所以对 影响的研究最多，其次生物碱、皂苷类等，而对各种 酶的研究， 作用最为广泛[16]。",
+    "bbox": [
+      81,
+      718,
+      483,
+      828
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "黄芩中含有多种黄酮类化合物，如黄芩素、汉黄芩素、黄芩苷等。黄芩素为黄芩苷的肠道水解主要的活性产物，Ma等[17]研究显示，黄芩素竞争性抑制UGT1A1、、 和 作用强于黄芩苷，K值分别为 、 、",
+    "bbox": [
+      81,
+      831,
+      483,
+      905
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "5.8 和 35.9 μmol ⋅ L-1，与 Teng[18]等的研究结果一致，提示我们黄芩苷在体内的生物转化过程中对肝脏重要亚型抑制作用增强，增加了药物相互作用的可能性。此外，甘草苷、甘草素、异甘草素也能明显抑制与 的活性，其中以甘草素作用最强[19]。姜黄素与黄芩素的代谢途径相似，姜黄素能够抑制黄芩素在肠道的葡萄糖醛酸化与硫酸化，促使黄芩素吸收增多，且有剂量依赖性，两者联用可能存在潜在的肠道吸收与代谢相互作用[20]。天然双黄酮类化合物阿曼托双黄酮（AMF）由于具有抗炎[21]、抗氧化[22]和抗肿瘤[23]等药理活性，正逐渐引起各学者的关注，最新的研究表明，AMF是UGT酶的广谱抑制剂，包括UGT1A1、1A3、、 、 、 、 和 ，K 值范围为- 1[24]，提示我们 可能通过抑制酶的活性，对内源性物质或药物的代谢产生抑制，从而产生毒副作用。另外，值得重视的是，中药成分经胃肠道内的生物转化产生的代谢产物可能产生与母体成分不同的作用，我们的前期研究发现，淫羊藿苷是的强效抑制剂，而其肠道代谢产物淫羊藿次苷II与淫羊藿素则分别抑制UGT1A4、UGT1A7、UGT1A9、与 、 [25]，代谢产物与药物原型的这种差异性增加了淫羊藿苷与其他药物合用时发生药物相互作用的可能性与复杂性。",
+    "bbox": [
+      511,
+      106,
+      913,
+      542
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "异喹啉类生物碱是黄连的主要成分，研究表明黄连与其他药物联用产生的相互作用一般由 酶介导[26-28]，而 酶可能也参与其中，赵等[29]研究了 种黄连生物碱(小檗碱、表小檗碱、黄连碱、药根碱、掌叶防风碱、木兰花碱 对大鼠和小鼠 和 活性的影响，大鼠肝微粒体体外实验结果表明，小檗碱、表小檗碱、药根碱和黄连碱对UGTs活性呈抑制作用，黄连碱和巴马汀对 有显著的诱导作用，而药根碱抑制其活性。在小鼠的体外实验中，各生物碱对呈显著抑制作用，但对 均表现为显著的激活作用。而 等[30]研究显示，药根碱在人肝微粒体主要由 及多种 亚型代谢。黄连生物碱对 酶作用的种属和体内外的差异，增加了黄连与其他药物相互作用的复杂性与可能性，也提示我们在利用体外数据预测体内药物潜在相互作用时，应考虑种属差异性。吴茱萸提取物及其活性成分对有诱导作用，大鼠连续 天灌胃吴茱萸次碱，肝脏中和 的 表达量均明显增加[31]，吴茱萸提取物预处理可增加大鼠肝脏中的表达量，降低小檗碱在大鼠体内的全身暴露量，加快小檗碱代谢[32]。",
+    "bbox": [
+      511,
+      544,
+      913,
+      904
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "世界科学技术—中医药现代化 专题讨论一：中药-药物相互作用",
+    "bbox": [
+      478,
+      66,
+      898,
+      81
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "〔 World Science and Technology/Modernization of Traditional Chinese Medicine and Materia Medica 〕",
+    "bbox": [
+      258,
+      918,
+      852,
+      932
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "211",
+    "bbox": [
+      890,
+      919,
+      915,
+      930
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      978
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      81,
+      106,
+      483,
+      141
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "皂苷类化合物在中药中广泛分布，具有抗氧化、抗肿瘤、降血脂、提高机体免疫力等作用。人参作为临床常用中药，其皂苷类化合物的肠道细菌代谢产物被广泛认为是人参与药物产生相互作用的物质基础，体外采用 为非特异性底物发现，（） 原人参三醇非竞争性抑制 ，K为 -1，竞争性抑制UGT2B7，K 为 2.2 μmol ⋅ L-1[33]。20（S）-原人参二醇 Rg3，非竞争性抑制UGT1A8，竞争性抑制UGT1A7、UGT2B7和UGT2B15，K 值分别为7.9、22.6、1.9、和2.0 μmol ⋅ L-1[34]。由于人参经高温炮制后，20（R）-Rg3含量明显增多，Kim等[35]的研究显示，20（R）-Rg3 对 UGT1A8 的强抑制作用，是人参合并用药时发生药物相互作用的关键，原因与UGT1A8在肠道中高表达有关。",
+    "bbox": [
+      81,
+      144,
+      483,
+      389
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.2 UGT酶介导的中药复方成分相互作用",
+    "text_level": 2,
+    "bbox": [
+      83,
+      393,
+      398,
+      407
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "复方配伍是中医用药的常见形式，单一的活性成分或单味药对代谢酶的影响与复方用药时可能大不相同，明确中药复方成分发挥药效过程中与代谢酶的关系，对临床合理用药更加实用。",
+    "bbox": [
+      81,
+      411,
+      483,
+      484
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "目前，基于代谢相互作用机制的中药复方配伍规律研究日益增多，但大多集中在基于 相代谢酶的作用，如雷公藤复方由雷公藤与三七、青风藤、地黄及僵蚕配伍而成，基因芯片结果显示，配伍后 ，， ， 表达增多，从而可能调节了代谢过程，减轻雷公藤肝脏毒性作用[36]。配伍禁忌乌头反半夏、贝母、白芍，配伍会造成毒副作用，机制也均与半夏、贝母、白芍可抑制乌头代谢的关键酶 和有关[37-39]。基于 相代谢酶的研究较少，吴茱萸常与黄连配伍使用可治疗肝火所致的胃肠之症，吴茱萸中的生物碱类成分可通过诱导小檗碱代谢关键酶 ，加快小檗碱发挥药效[31,32]，这可能是传统中药左金丸[40]泻火作用良好的主要原因。 等[41]采用大鼠灌胃给药不同的组方配伍，发现血浆中连翘酯苷A的AUC、C 等大小顺序为连翘提取液<连翘+金银花提取液、连翘 黄芩提取液 双黄连，双黄连口服液中绿原酸、黄芩苷及黄芩素通过作用于 、、 和 对连翘酯苷 代谢起抑制作用，从而使双黄连口服液中药理活性显著成分连翘酯苷 生物利用度最大，从生物学角度阐明了双黄连口服液组方的合理性。其他各中药单体成分对酶的作用是否构成了中药十八反配伍禁忌的分子机制",
+    "bbox": [
+      81,
+      487,
+      483,
+      902
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "值得进一步探索。",
+    "bbox": [
+      511,
+      106,
+      645,
+      122
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.3 UGT酶介导的中药-西药相互作用",
+    "text_level": 2,
+    "bbox": [
+      511,
+      126,
+      799,
+      141
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "近年来，随着中药药理活性研究的不断深入，中西药联合用药在全世界的使用越来越广泛，同时带来的药物相互作用也逐渐增多。中药五脂片已被批准为临床治疗慢性肝炎和肝功能障碍，其主要成分去氧五味子素与五味子酯甲的体外研究结果显示两者均能抑制[42]， 介导代谢的药物如孟鲁司特、丙咪嗪、氯氮平和萘普生等，当与含有去氧五味子素与五味子酯甲的中药与由合用时，由于 被抑制，可能会引起药物相互作用。齐夫多定（AZT）是第一个由FDA 批准生产的用于 HIV 感染的药物，研究发现，20S-原人参三醇[43]及穿心莲内酯衍生物[44]对 UGT2B7均具有特异性抑制作用，从而抑制 催化葡萄糖醛酸化，提示使用齐夫多定治疗HIV感染过程中，不宜同时服用穿心莲及人参。在癌症患者的治疗中，一些中药及其复方能够起到增效减毒的作用，而在这个过程中 酶也起着重要作用，临床试验表明，生姜泻心汤能显著降低 和 突变型中晚期恶性肿瘤患者因依立替康化疗所致的迟发性腹泻及重度中性粒细胞减少等不良反应[45] 。阐明酶不同亚型的组织分布以及药物的主要代谢途径，对评估药物相互作用的风险至关重要，体外实验表明，厚朴酚能显著抑制UGT1A9的活性，从而抑制麻醉药物异丙酚在肝、肾微粒体中的代谢， 值分别为和0.2 μmol ⋅ L-1，但其在人整体水平上难以抑制异丙酚葡萄糖醛酸结合代谢[46]，可能与异丙酚主要通过小肠代谢，而小肠中 表达较低有关。",
+    "bbox": [
+      509,
+      144,
+      913,
+      637
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3 结语与展望",
+    "text_level": 2,
+    "bbox": [
+      511,
+      650,
+      629,
+      666
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "随着中药的广泛使用及对 相药物代谢酶的表达、功能、调控的进一步认识，发现部分临床常见中药可通过 酶进行代谢或对其活性有抑制或诱导作用，这种作用易被忽视，但往往是引发中药与其他药物代谢性相互作用的关键因素。此外，中药成分经胃肠道内的生物转化产生的代谢产物对 酶的抑制也增加了中药与其他药物合用时发生药物相互作用的可能性与复杂性。明确各中药成分和其肠道代谢产物与 酶各个亚型间相互作用的机制可为中药复方配伍及中西药联合用药的合理性提供参考，在临床给药过程中可将抑制 酶的中药成分或复方，与经该酶代谢但生物利用度低的药物合用，通过延长药物",
+    "bbox": [
+      509,
+      679,
+      913,
+      904
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "2019",
+    "bbox": [
+      104,
+      64,
+      138,
+      77
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "第二十一卷 第二期 ★Vol. 21 No.2",
+    "bbox": [
+      147,
+      64,
+      388,
+      78
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "212",
+    "bbox": [
+      81,
+      919,
+      106,
+      930
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "〔 World Science and Technology/Modernization of Traditional Chinese Medicine and Materia Medica 〕",
+    "bbox": [
+      147,
+      918,
+      740,
+      932
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      978
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "的作用时间，提高该药物的生物利用度及疗效。目前对中药-药物相互作用机制的研究多是体外实验，尚缺乏临床研究报道，必须不断收集和总结有关中药-药物相互作用的动物和临床实验数据，合理应用体外数据结合数学模型预测药物在人体内的潜在相互作用，为临床安全、合理和有效使用中药做铺垫。",
+    "bbox": [
+      81,
+      106,
+      486,
+      161
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      511,
+      106,
+      911,
+      161
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "参考文献",
+    "text_level": 2,
+    "bbox": [
+      104,
+      186,
+      187,
+      202
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "1 Bock K W. Roles of human UDP-glucuronosyltransferases in clearance and homeostasis of endogenous substrates, and functional implications. Biochemical Pharmacology",
+      "2 Oda S, Fukami T, Yokoi T, et al. A comprehensive review of UDPglucuronosyltransferase and esterases for drug development. Drug Metab Pharmacokinet, 2015, 30(1): 30-51.",
+      "3 Tourancheau A, Rouleau M, Guauque- Olarte S, et al. Quantitative profiling of the UGT transcriptome in human drug-metabolizing tissues. The Pharmacogenomics Journal, 2017, 18(2): 251.",
+      "4 Rowland A, Miners J O, Mackenzie P I. The UDP-glucuronosyltransferases: their role in drug metabolism and detoxification. The International Journal of Biochemistry & Cell Biology, 2013, 45(6): 1121-1132.",
+      "5 Milne A M, Burchell B, Coughtrie M W. A novel method for the immunoquantification of UDP-glucuronosyltransferases in human tissue. Drug Metabolism & Disposition the Biological Fate of Chemicals, 2011, 39(12): 2258.",
+      "6 Oda S, Nakajima M, Hatakeyama M, et al. Preparation of a specific monoclonal antibody against human UDP-glucuronosyltransferase (UGT) 1A9 and evaluation of UGT1A9 protein levels in human tissues. Drug Metabolism & Disposition, 2012, 40(8): 1620-1627.",
+      "7Nakamura A,Nakajima M, Yamanaka H,et al.Expression of UGT1A and UGT2B mRNA in Human Normal Tissues and Various Cell Lines. Drug Metabolism & Disposition, 2008, 36(8): 1461-1464.",
+      "8 Court M H, Zhang X, Ding X, et al. Quantitative distribution of mRNAs en coding the 19 human UDP- glucuronosyltransferase enzymes in 26 adult and 3 fetal tissues. Xenobiotica, 2012, 42(3): 266-277.",
+      "9 Ohno S, Nakajin S. Determination of mRNA expression of human UDPglucuronosyltransferases and application for localization in various human tissues by real- time reverse transcriptase- polymerase chain reaction. Drug Metabolism and Disposition, 2009, 37(1): 32-40.",
+      "10 Fallon J K, Neubert H, Hyland R, et al. Targeted quantitative proteomics for the analysis of 14 UGT1As and- 2Bs in human liver using NanoUPLC- MS/MS with selected reaction monitoring. Journal of Proteome research",
+      "11 Sato Y, Nagata M, Tetsuka K, et al. Optimized methods for targeted peptide- based quantification of human uridine 5'- diphosphateglucuronosyltransferasesinbiologicalspecimensusingliquid chromatography- tandem mass spectrometry. Drug Metabolism & Disposition the Biological Fate of Chemicals, 2014, 42(5): 885.",
+      "12Hanioka N, Tanabe N, Jinno H,et al.Functional characterization of human and cynomolgus monkey UDP- glucuronosyltransferase 1A1 Life Sciences",
+      "13 Miyake Y, Mayumi K, Jinno H, et al. cDNA cloning and functional analysis of minipig uridine diphosphate- glucuronosyltransferase 1A1. Biological and Pharmaceutical Bulletin, 2013, 36(3): 452-461.",
+      "14 Neumann E, Mehboob H, Ramírez J, et al. Age-dependent hepatic UDPglucuronosyltransferase gene expression and activity in children. Frontiers in Pharmacology, 2016, 7: 437.",
+      "15 Bhatt D K, Basit A, Zhang H, et al. Hepatic Abundance and Activity of Androgen and Drug Metabolizing Enzyme, UGT2B17, are Associated with Genotype, Age, and Sex. Drug Metabolism and Disposition, 2018, 46(6): 888-896.",
+      "辛红 徐巍 中药化学成分对 表达调控及活性作用研究进展. 中国中药杂志, 2017, 42(3): 428-432.",
+      "17 Ma G Y, Cao Y F, Hu C M, et al. Comparison of inhibition capability of scutellarein and scutellarin towards important liver UDPglucuronosyltransferase (UGT) isoforms. Phytotherapy Research, 2014, 28(3): 382-386.",
+      "18 Teng Y, Nian H, Zhao H, et al. Biotransformation of baicalin to baicalein significantly strengthens the inhibition potential towards UDPglucuronosyltransferases (UGTs) isoforms. Die Pharmazie, 2013, 68(9): 763-767.",
+      "19 Guo B, Fan X R, Fang Z Z, et al. Deglycosylation of liquiritin strongly enhances its inhibitory potential towards UDP- glucuronosyltransferase (UGT) isoforms. Phytotherapy Research Ptr, 2013, 27(8): 1232-1236.",
+      "20 Fong Y K, Li C R, Wo S K, et al. In vitro and in situ evaluation of herbdrug interactions during intestinal metabolism and absorption of baicalein. Journal of Ethnopharmacology, 2012, 141(2): 742-753.",
+      "21 An J G, Li Z X, Dong Y Y, et al. Amentoflavone protects against psoriasis- like skin lesion through suppression of NF- κB- mediated inflammation and keratinocyte proliferation. Molecular and Cellular Biochemistry, 2016, 413(1-2): 87-95.",
+      "22 Zhang Z, Sun T, Niu J G, et al. Amentoflavone protects hippocampal neurons: anti- inflammatory, antioxidative, and antiapoptotic effects. Neural Regeneration Research, 2015, 10(7): 1125-1133.",
+      "23Lee C G,Lee E H, Pan C H,et al.Data on the anti-tumor effects of Selaginella tamariscina extract and amentoflavone combined with doxorubicin in mice. Data in Brief, 2017, 13(C): 162-165.",
+      "24 Lv X, Zhang J B, Wang X X, et al. Amentoflavone is a potent broadspectrum inhibitor of human UDP- glucuronosyltransferases. Chemico-Biological Interactions, 2018, 284: 48.",
+      "25Cao Y F,He R R, Cao J,et al.Drug- Drug Interactions Potential of Icariin and Its Intestinal Metabolites via Inhibition of Intestinal UDP-Glucuronosyltransferases. Evidence- Based Complementray and Alternative",
+      "Medicine, 2012.",
+      "26 Yan D, Ma B, Shi R, et al. Involvement of herb-herb interactions in the influences of Radix Scutellaria and Coptis Chinensis on the bioavailability of the anthraquinones form Rhei Rhizoma in rats. European Journal of Drug Metabolism & Pharmacokinetics, 2014, 40(1): 103-110.",
+      "刘松灿 裘福荣 贺敏 等 左金丸组分代谢及影响 的研究进展.中医学报,2014(11): 1622-1625.",
+      "韦灵玉 张玉杰 魏宝红 等 黄连黄芩及配伍诱导对大鼠肝微粒体种CYP450 亚酶活性的影响. 中国中药杂志, 2013, 38(9): 1426.",
+      "赵园园 苗培培 苗青 等 种黄连生物碱对鼠肝微粒体 及UGT1A1活性影响的体内外研究. 中国中药杂志, 2016, 41(2): 309-313.",
+      "30 Zhou H, Shi R, Ma B, et al. CYP450 1A2 and multiple UGT1A isoforms are responsible for jatrorrhizine metabolism in human liver microsomes. Biopharmaceutics & Drug Disposition, 2013, 34(3): 176-185.",
+      "31 Zhu Q N, Zhang D, Jin T, et al. Rutaecarpine effects on expression of hepatic phase-1, phase-2 metabolism and transporter genes as a basis of herb-drug interactions. Journal of Ethnopharmacology, 2013, 147(1): 215-219.",
+      "32 Ma B L, Yao M K, Han X H, et al. Influences of Fructus evodiae pretreatment on the pharmacokinetics of Rhizoma coptidis alkaloids. Journal of Ethnopharmacology, 2011, 137(3): 1395-1401.",
+      "33 He Y J, Fang Z Z, Ge G B, et al. The Inhibitory Effect of 20 (S)- Protopanaxatriol (ppt) Towards UGT1A1 and UGT2B7. Phytotherapy Research, 2013, 27(4): 628-632.",
+      "34 Fang Z Z, Cao Y F, Hu C M, et al. Structure-inhibition relationship of ginsenosides towards UDP-glucuronosyltransferases (UGTs). Toxicology and Applied Pharmacology, 2013, 267(2): 149-154.",
+      "35 Kim D, Zheng Y F , Min J S , et al. In vitro stereoselective inhibition of ginsenosides toward UDP- glucuronosyltransferase (UGT) isoforms. Toxicology Letters",
+      "耿姗 冯哲 袁呈晨 等 雷公藤复方配伍对大鼠肝脏代谢酶基因表达的影响. 中国实验方剂学杂志, 2016(6): 140-144.",
+      "程再兴 陈红 吴锦俊 等 乌头汤加半夏不同炮制品对大鼠的影响. 中国实验方剂学杂志, 2017, 23(20): 90-95.",
+      "38 葛卫红, 赵晓英, 林洁, 等. 浙江不同产地浙贝配伍乌头对大鼠肝细胞色素P450重要同工酶含量的影响. 中华中医药学刊, 2010(2): 300-303.",
+      "毕云枫 郑重 皮子凤 等 川乌与白芍配伍对 酶活性影响及其代谢指纹的研究. 药学学报, 2014, 49(12): 1705-1710.",
+      "40 雷辉, 成肇仁. 黄连配伍十八法. 湖北中医杂志, 2018, 40(10): 50-52.",
+      "41 Zhou W, Di L Q, Shan J J, et al. In vitro metabolism in Sprague-Dawley rat liver microsomes of forsythoside A in different compositions of Shuang-Huang-Lian. Fitoterapia, 2011, 82(8): 1222-1230.",
+      "42 Liu C, Cao Y F, Fang Z Z, et al. Strong inhibition of deoxyschizandrin and schisantherin A toward UDP- glucuronosyltransferase (UGT) 1A3 indicating UGT inhibition- based herb- drug interaction. Fitoterapia, 2012, 83(8): 1415-1419.",
+      "43 Xing J, Che W. 20 (S)- Protopanaxatriol (Ppt) Exhibits Inhibition Towards UDPGlucuronosyltransferase (UGT)- Catalyzed Zidovudine Glucuronidation. Latin American Journal of Pharmacy, 2012, 31.",
+      "44 Ma H Y, Sun D X, Cao Y F, et al. Herb- drug interaction prediction based on the high specific inhibition of andrographolide derivatives towards UDP- glucuronosyltransferase (UGT) 2B7. Toxicology and Applied Pharmacology, 2014, 277(1): 86-94.",
+      "45 Deng C, Deng B, Jia L, et al. Preventive Effects of a Chinese Herbal Formula, Shengjiang Xiexin Decoction, on Irinotecan-Induced Delayed-Onset Diarrhea in Rats. Evid Based Complement Alternat Med, 2017, 2017(4): 7350251.",
+      "肖玲 吴彦 朱亮亮 厚朴酚抑制异丙酚葡萄糖醛酸转移代谢的组织差异研究 中国药学杂志"
+    ],
+    "bbox": [
+      80,
+      225,
+      486,
+      904
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      509,
+      225,
+      915,
+      904
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "世界科学技术—中医药现代化 专题讨论一：中药-药物相互作用",
+    "bbox": [
+      478,
+      66,
+      898,
+      81
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "〔 World Science and Technology/Modernization of Traditional Chinese Medicine and Materia Medica 〕",
+    "bbox": [
+      259,
+      918,
+      849,
+      932
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "213",
+    "bbox": [
+      890,
+      919,
+      915,
+      930
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      978
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      80,
+      105,
+      486,
+      588
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      506,
+      103,
+      916,
+      589
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "Overview of Interaction Mediated by UGT Between Traditional Chinese Medicine and Drugs",
+    "text_level": 1,
+    "bbox": [
+      153,
+      656,
+      841,
+      672
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "Wang Zhe, Jiang Lili, Xia Yangliu, Liu Yong",
+    "bbox": [
+      344,
+      679,
+      651,
+      695
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "(School of Life Science and Medicine, Dalian University of Technology, Panjin 124221, China)",
+    "bbox": [
+      181,
+      699,
+      815,
+      714
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "Abstract: With the wide use of traditional Chinese medicine in the world and further understanding of the expression, function and regulation of UGT which is a major phase II metabolism enzyme, more and more attention has been paid to the study of the interaction mediated by UGT between multi-components, prescription of traditional Chinese medicine and chemical drugs. In this paper, the main research progress of interaction mediated by UGT between traditional Chinese medicine and drugs in recent years was reviewed and the prospect was put forward.",
+    "bbox": [
+      81,
+      737,
+      913,
+      836
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "Keywords: Drug-drug interaction, UDP-glucuronosyltransferase, traditional Chinese medicine",
+    "bbox": [
+      83,
+      839,
+      733,
+      856
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "（责任编辑：周哲琦，责任译审：王 昭）",
+    "bbox": [
+      624,
+      878,
+      911,
+      894
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "2019",
+    "bbox": [
+      104,
+      64,
+      138,
+      77
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "第二十一卷 第二期 ★Vol. 21 No.2",
+    "bbox": [
+      148,
+      64,
+      388,
+      78
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "214",
+    "bbox": [
+      81,
+      919,
+      107,
+      930
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "〔 World Science and Technology/Modernization of Traditional Chinese Medicine and Materia Medica 〕",
+    "bbox": [
+      147,
+      918,
+      740,
+      933
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      979
+    ],
+    "page_idx": 4
+  }
+]

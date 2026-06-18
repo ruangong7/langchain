@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "圣约翰草",
+        "canonical_name": "圣约翰草",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "食物",
+        "canonical_name": "食物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "医脉通精神科",
+          "chunk_index": 1566,
+          "raw_text": "圣约翰草既可作为药品成分，也常出现于保健品中",
+          "chunk_id": "1566",
+          "data": "临床工作中，人们往往更重视药物相互作用，而药物-食物相互作用则经常被忽略。事实上，一日三餐以及含有某些成分的保健品均可与特定药物发生相互作用，轻则影响疗效，重则危及患者安全。一项发表于Psychiatr Ann.的综述中，麻省总医院Andrew D. Carlo博士和Jonathan E. Alpert博士就精神科具有临床意义的药物-食物相互作用进行了总结，以下为图表总结：请点击查看大图。一、精神科药物与食物的相互关系：（圣约翰草既可作为药品成分，也常出现于保健品中）二、常见食物与药物的相互关系：精神药物餐前还是餐后服？信源：Carlo AD, Alpert JE. Clinically Relevant Complications of Drug-Food Interactions in Psychopharmacology. Psychiatr Ann. 2016;46(8):448-455.医脉通编译，转载请注明出处。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1566,
+    "source": "医脉通精神科",
+    "text": "临床工作中，人们往往更重视药物相互作用，而药物-食物相互作用则经常被忽略。事实上，一日三餐以及含有某些成分的保健品均可与特定药物发生相互作用，轻则影响疗效，重则危及患者安全。一项发表于Psychiatr Ann.的综述中，麻省总医院Andrew D. Carlo博士和Jonathan E. Alpert博士就精神科具有临床意义的药物-食物相互作用进行了总结，以下为图表总结：请点击查看大图。一、精神科药物与食物的相互关系：（圣约翰草既可作为药品成分，也常出现于保健品中）二、常见食物与药物的相互关系：精神药物餐前还是餐后服？信源：Carlo AD, Alpert JE. Clinically Relevant Complications of Drug-Food Interactions in Psychopharmacology. Psychiatr Ann. 2016;46(8):448-455.医脉通编译，转载请注明出处。"
+  }
+]

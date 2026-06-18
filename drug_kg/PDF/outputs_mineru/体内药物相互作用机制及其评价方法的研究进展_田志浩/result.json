@@ -1,0 +1,1607 @@
+[
+  {
+    "type": "text",
+    "text": "• 综 述 •",
+    "bbox": [
+      774,
+      107,
+      895,
+      127
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "体内药物相互作用机制及其评价方法的研究进展",
+    "text_level": 1,
+    "bbox": [
+      101,
+      147,
+      622,
+      169
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "田志浩1，艾则孜江·艾尔肯 2，韦鲜花1\\*",
+    "bbox": [
+      119,
+      189,
+      423,
+      204
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "1. 北京汉典制药有限公司 药物研究院，北京 100201",
+      "2. 新疆医科大学第一附属医院，新疆 乌鲁木齐 830011"
+    ],
+    "bbox": [
+      119,
+      208,
+      488,
+      240
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘 要：药物–药物相互作用是目前临床不良反应的主要来源之一，药物相互作用产生的效益和风险会严重影响药物的安全性和有效性。根据药物在体内的过程，分别从吸收、分布、代谢、排泄 4 个方面阐述了体内药物相互作用机制并佐以实例；潜在药物相互作用的研究以预测其可能发生的药物相互作用也已成为药物开发的必须过程，综述了近些年比较成熟的药物相互作用评价模型的及其研究进展。",
+    "bbox": [
+      99,
+      261,
+      895,
+      327
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词：药物–药物相互作用；联合用药；药动学；评价方法",
+    "bbox": [
+      101,
+      330,
+      504,
+      344
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号：R969.2",
+    "bbox": [
+      101,
+      347,
+      238,
+      362
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "文献标志码：A",
+    "bbox": [
+      277,
+      347,
+      380,
+      362
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "文章编号：1674 - 5515(2021)10 - 2192 - 08",
+    "bbox": [
+      419,
+      347,
+      691,
+      362
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "DOI: 10.7501/j.issn.1674-5515.2021.10.040",
+    "bbox": [
+      101,
+      364,
+      370,
+      379
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Research progress of drug interaction mechanism and evaluation methods in vivo",
+    "text_level": 1,
+    "bbox": [
+      101,
+      401,
+      885,
+      420
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "TIAN Zhi-hao1, Ai Zezijiang Aierken2, WEI Xian-hua1",
+    "bbox": [
+      117,
+      441,
+      501,
+      456
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "1. Institute of Pharmaceutical Research, Beijing Han Dian Pharmaceutical Co., Ltd., Beijing 100021, China",
+      "2. The First Affiliated Hospital of Xinjiang Medical University, Urumqi 830011, China"
+    ],
+    "bbox": [
+      119,
+      460,
+      759,
+      490
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Abstract: Drug - drug interaction is one of the main sources of clinical side effects. The benefits and risks of drug interaction will seriously affect the safety and effectiveness of drugs. According to the process of drugs in vivo, this paper expounds the mechanism of drug interaction in vivo from four aspects: absorption, distribution, metabolism, and excretion; In order to predict their possible drug interactions, and to study potential drug interactions which has also been a necessary process for drug development, this paper also reviews the development and progress of relatively mature drug interaction models in recent years.",
+    "bbox": [
+      99,
+      513,
+      895,
+      596
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Kew words: Drug - drug interaction; combined drugs; pharmacokinetics; evaluation method",
+    "bbox": [
+      101,
+      600,
+      653,
+      613
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "药物相互作用是指2种或2种以上药物同时或前后联用时，药物原有的理化、药动学或药效学性质发生改变的现象。现代医学的发展大大促进了患者的多药联合应用情况的发生，联合用药的理想状态应该是增强药效、减少用量、降低副作用和不良反应，但随着多药联用增多，临床上药物不良反应和毒副作用也快速增多[1-4]。药物相互作用可分为药动学药物相互作用、药效学药物相互作用和体外药物相互作用。由于后两类在临床上比较容易观察到，便于临床药师和医师掌握，目前临床上凸显的药物相互作用问题主要表现在药动学方面。药动学药物相互作用是指一种药物改变了另一种药物的吸收、分布、代谢、排泄，从而使血药浓度、靶点药物浓度升高或降低，影响了药物的疗效，严重者可导致不良反应或危及患者的生命。因此，研究药物相互作用是合理用药、减少副作用的关键。通过 PubMed检索文献，药物相互作用年报逐渐增多，总条目数达到几十万条。FDA 已经发布了研究药物相互作用的指南草案。目前体外模型评价方法在一定程度上能模拟体内过程，但在整体上模拟体内过程模型还未见到报道。本文根据药物在体内的过程，分别从吸收、分布、代谢、排泄4 个方面阐述了体内药物相互作用机制，并综述了近些年比较成熟的药物相互作用的模型及其研究进展。",
+    "bbox": [
+      99,
+      627,
+      485,
+      856
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      511,
+      627,
+      895,
+      856
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "·2192·",
+    "bbox": [
+      106,
+      61,
+      161,
+      75
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "第 36 卷第 10 期 2021 年 10 月",
+    "bbox": [
+      179,
+      61,
+      385,
+      75
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "现代药物与临床",
+    "bbox": [
+      426,
+      61,
+      532,
+      75
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Drugs & Clinic",
+    "bbox": [
+      558,
+      61,
+      658,
+      75
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Vol. 36 No. 10 October 2021",
+    "bbox": [
+      697,
+      61,
+      875,
+      73
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "收稿日期：2021-05-25",
+    "bbox": [
+      135,
+      872,
+      261,
+      884
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "作者简介：田志浩，男，博士，主要从事中药新药研发。Tel: (010) 53238657 E-mail: tianzhihao.hi@163.com",
+    "bbox": [
+      135,
+      887,
+      717,
+      899
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "\\*通信作者：韦鲜花，副主任药师，主要从事中药新药研发。E-mail: weixianhua@handian.com",
+    "bbox": [
+      135,
+      901,
+      638,
+      913
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      978
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 体内药物–药物相互作用",
+    "text_level": 2,
+    "bbox": [
+      101,
+      90,
+      321,
+      106
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.1 在吸收过程中的药物相互作用",
+    "text_level": 2,
+    "bbox": [
+      101,
+      110,
+      367,
+      124
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "对于口服药物，大部分药物吸收发生在小肠，小肠绒毛和微绒毛大大增加了药物吸收的表面积。药物在小肠内的吸收受多种因素的影响，包括药物性质（溶解度、渗透性、浓度等）、胃肠道性质（pH值、食物摄入量、小肠区域、胃排空或肠运动等）、肠道代谢和转运体等。转运体是口服药物进入体内的第一道有效屏障，是吸收和/或排泄化合物/代谢物决定步骤，并可能显著影响药物的药动学性质和毒性。小肠是口服药物吸收的主要部位。在肠道中，有关药物吸收的转运蛋白可分为两类[5-6]：一种是摄取转运体，另一种是外排转运体。摄取转运体的作用是将底物带到血液、靶器官等以发挥治疗作用。摄取转运体主要由钠非依赖性易化扩散转运体、L型氨基转运体（LAT）、肽转运体（PEPTs）、单羧酸酯转运（MCT）和有机阴离子转运体（OATs）组成。在肠内，药物与外排转运蛋白的相互作用常常导致药物吸收不良、口服生物利用度低，因为药物很容易流回肠腔并排出体外。ABC家族的主要外排转运蛋白包括多药耐药相关蛋白（MDRs）、P-糖蛋白（P-gp）、乳腺癌耐药蛋白（BCRP）[7-8]。",
+    "bbox": [
+      99,
+      129,
+      485,
+      510
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "根据药物转运机制，药物相互作用在吸收过程中可导致两种结果：一是提高口服药物的肠道吸收量；二是减少口服药物的肠道吸收量。具体原理：",
+    "bbox": [
+      101,
+      513,
+      483,
+      568
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "（1）当其他药物竞争与外排转运蛋白结合时，药物吸收量增加外排量减少。（2）如果一种药物能抑制其他药物的外排转运体，也会提高其他外排药物的肠道吸收量。聚乙二醇 1000 维生素 E 琥珀酸酯是一种有效的 P-gp 抑制剂，能逆转肿瘤的多药耐药性，能增加许多抗肿瘤药物如紫杉醇的口服吸收生物利用度[9]。（3）如果一种药物能诱导其他药物的转运蛋白的摄取，则会促进其他药物的肠道吸收。薛珂雯等[10]研究结果显示RH40、EL35均具有促进PEPT1转运作用功能，可促进底物药物的吸收，提高药物的口服生物利用度。（4）当药物与同一摄取转运体竞争结合时，这将导致药物的吸收减少。头孢氨苄的化学结构类似苯丙氨酸–半胱氨酸–缬氨酸组成的三肽，为 PEPT1 的底物。当头孢氨苄与同是 PEPT1 底物的 ACEI 喹那普利口服合用后，由于两者竞争小肠上的PEPT1，头孢氨苄的吸收速率常数降低了 30%，血药浓度–时间曲线下面积（AUC）亦下降了 30%，致使彼此的血药浓度均显著降低[11-12]。（5）一些药物可以诱导外排转运蛋白，因此这些药物会影响外排转运蛋白、底物的生物利用度。如甘草通过激活 P-gp 来降低环孢素的生物利用度[13]。（6）当药物抑制转运蛋白的摄取时，也会导致药物的吸收减少。如锌对PEPT1的抑制作用，含锌药物可降低PEPT1的底物甘氨酸的吸收量[14]。上述 6种情况的概述见图1。",
+    "bbox": [
+      511,
+      90,
+      895,
+      568
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "image",
+    "img_path": "images/3aa3f7bc7ae9c5d6d5b3e75e517c95d01105ef954e401f8924ed01ba1fed28d2.jpg",
+    "image_caption": [
+      "黑色代表吸收减少，红色代表吸收增加"
+    ],
+    "image_footnote": [
+      "black: absorption of drugs decreasing red: absorption of drugs to increasing"
+    ],
+    "content": "```mermaid\ngraph TD\n  A[\"Drug 1\"] --> B[\"Transporter\"]\n  C[\"Drug 2\"] --> B\n  B --> D[\"Blood vessel\"]\n  D --> E[\"Absorption\"]\n  E --> F[\"Substrate + Substrate\"]\n  E --> G[\"Substrate+Inhibitor\"]\n  E --> H[\"Substrate+Inducer\"]\n  B --> I[\"MRPs P-gp\"]\n  B --> J[\"OATs LAT PEPTs BCRP P-gp MRPs ASBI\"]\n  I --> K[\"Efflux transporter\"]\n  J --> K\n  K --> L[\"Uptake transporter\"]\n  L --> M[\"Small intestinal epithelial cells\"]\n```",
+    "sub_type": "flowchart",
+    "bbox": [
+      235,
+      586,
+      772,
+      844
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "图 1 药物在小肠吸收相互作用示意图",
+    "bbox": [
+      370,
+      883,
+      624,
+      896
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "Fig. 1 Schematic diagram of the DDIs of absorption in small intestinal epithelial cells",
+    "bbox": [
+      223,
+      901,
+      769,
+      916
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "第 36 卷第 10 期 2021 年 10 月",
+    "bbox": [
+      119,
+      61,
+      325,
+      75
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "现代药物与临床",
+    "bbox": [
+      367,
+      61,
+      473,
+      75
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Drugs & Clinic",
+    "bbox": [
+      500,
+      61,
+      599,
+      75
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Vol. 36 No. 10 October 2021",
+    "bbox": [
+      638,
+      61,
+      816,
+      75
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "·2193·",
+    "bbox": [
+      836,
+      61,
+      888,
+      73
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      978
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "药物的吸收还与胃肠道 pH 值有关。pH 值的改变可影响药物的解离度、吸收率，如使用抗酸药物后，提高了胃肠道的 pH 值，此时如果服用酸性药物，由于环境pH值的改变会导致药物解离度上升、吸收率降低。改变胃排空或肠蠕动速度的药物能影响其他药物的吸收。如潘立酮加速胃的排空，从而使药物的吸收减少，而大黄、番泻叶或大承气汤、麻子仁丸等致泻剂可增加胃肠蠕动，若与抗生素合用，则可缩短其在肠道内停留时间而减少吸收，使其血药浓度降低。含大黄的中药制剂如牛黄解毒片、新清宁片、麻仁润肠丸等也不宜与酶制剂同服，因为大黄可通过吸附或结合的方式抑制消化酶的作用。有些药物在同时服用时会发生相互作用而妨碍吸收，如四环素类药物与钙盐可形成难溶性化合物，从而降低吸收率，酶制剂不能与含有鞣质类较多的中药合用，因能与这些药物结合形成难溶性盐沉淀，使酶制剂灭活。含有金属元素如钙、镁、铁、铝等的药不宜与大环内酯类抗生素、抗结核药合用，合用后会形成不溶性螯合物，难以吸收，生物效应降低。",
+    "bbox": [
+      99,
+      90,
+      485,
+      471
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "1.2 药物相互作用对药物分布的影响",
+    "text_level": 2,
+    "bbox": [
+      101,
+      475,
+      385,
+      490
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "药物在体内的分布受多种因素的影响，如血浆蛋白结合率、局部器官血流量、组织亲和性、药物的性质和生理屏障（血脑屏障、胎盘屏障）等。在这些因素中，药物与血浆蛋白结合或通过生理屏障传递时可能发生药物相互作用。",
+    "bbox": [
+      101,
+      494,
+      483,
+      587
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "1.2.1 与血浆蛋白结合率 药物吸收后都可不同程度地与血浆蛋白结合，某些碱性药物也可与酸性糖蛋白或球蛋白结合，如奎尼丁等。药物与血浆蛋白结合有以下特点：（1）差异性。不同药物结合率差异很大。（2）暂时失活和暂时贮存。一旦药物与血浆蛋白结合后，分子增大，不能再透出血管到达靶器官，故暂时失活，同时也不能到达代谢和排泄器官被消除，故又为暂时贮存形式。（3）可逆性。药物与血浆蛋白的结合是疏松的、可逆的，而且结合和非结合型药物在血管中始终处于一种动态变化的过程中，当血液中游离药物减少时，结合型药物又可转化为游离型，透出血管，恢复其药理活性。（4）饱和性、竞争性。由于血浆蛋白总量和结合能力有限，所以当一个药物结合达到饱和以后，再继续增加药物剂量，游离型药物可迅速增加，药物效应或不良反应可明显增强。另外，药物与血浆蛋白的结合又是非特异性的，即多种药物都可竞争性地与血浆蛋白结合，所以当同时使用两种或两种以上的药物时，相互间可发生竞争性结合，导致其中某些药物因非结合型成分增加，从而使药物效应、不良反应明显增强。",
+    "bbox": [
+      99,
+      590,
+      485,
+      915
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      511,
+      90,
+      895,
+      164
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "药物血浆蛋白结合位点的竞争是引起不良反应的原因之一，药物可以与血浆蛋白部分可逆性或非可逆性结合，只有未结合的药物才能穿透生理屏障发挥作用或消除。当同时使用两种或两种以上的药物时，有可能会竞争蛋白质结合位点，结合力较弱的药物转变为游离药物，可能会导致药物毒性增加。如保泰松、阿司匹林、苯妥英钠都是强力置换剂，合用时可将香豆素从蛋白结合部位置换出来，由于游离型药物增多而可能引起出血。体外透析研究表明，小檗碱能置换出与血浆蛋白结合的华法林、硫喷妥钠、甲苯磺丁脲，从而提高游离华法林、硫喷妥钠、甲苯磺丁脲的游离浓度。这些结果表明，华法林、硫喷妥钠、甲苯磺丁脲不应与小檗碱联合使用[15]，药物在血浆蛋白结合竞争示意图见图 2。血浆蛋白药物相互作用的其他机制也有报道。阿司匹林可以使白蛋白赖氨酸乙酰化，这些可以改变白蛋白的结构[16]，从而影响其他药物的与之结合。",
+    "bbox": [
+      511,
+      167,
+      895,
+      492
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "image",
+    "img_path": "images/fe57fefcd15da95a01e0621f6fd1c151447c832d7afc4acac482410f2edd55d1.jpg",
+    "image_caption": [
+      "图 2 药物在血浆蛋白结合竞争示意图",
+      "Fig. 2 Schematic diagram of the drugs interaction about the plasma proteins"
+    ],
+    "image_footnote": [],
+    "content": "Diagram illustrating plasma protein binding to blood vessels in a blood vessel, showing substrate and substrate interactions.",
+    "sub_type": "chemical",
+    "bbox": [
+      514,
+      505,
+      895,
+      649
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "1.2.2 细胞膜屏障 药物在血液和器官组织之间转运时，可能会受到某些阻碍，称为屏障现象。影响药物分布的屏障主要有血脑屏障和胎盘屏障。",
+    "bbox": [
+      511,
+      722,
+      895,
+      776
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "血脑屏障是指血管壁与神经胶质细胞形成的血浆与脑细胞外液间以及由脉络膜丛形成的血浆与脑脊液间的屏障，它对药物的通过具有重要的屏障作用。这主要是因为脑内的毛细血管内皮细胞间连接紧密，间隙较小，加之基底膜外还有一层内脂质的星状细胞包围，故使许多分子大、极性高的药物不能透过血脑屏障进入脑组织，而形成一种保护脑组织的生理屏障。药物通过血脑屏障有4种途径：第 1种是水溶性小分子直接通过细胞间隙扩散；第2 种是脂溶性分子在细胞膜上扩散；第 3 种是受体介导的内吞作用；第4种是特异性载体通道与酶系统的激活[17]。目前研究认为，血脑屏障的转运蛋白可分为3类（摄取转运蛋白、外排转运蛋白和双向转运蛋白）。摄取转运蛋白包括有机阴离子转运蛋白、L 型氨基转运蛋白、葡萄糖转运蛋白。外排转运蛋白包括ATP 结合盒转运体（P-gp、多药耐药相关蛋白和乳腺癌耐药蛋白）、有机阴离子转运多肽。双向转运蛋白包括单羧酸转运蛋白和有机阴离子转运多肽。血脑屏障的转运蛋白与小肠一样，也存在多种底物、抑制剂和诱导剂。血脑屏障转运体的药物相互作用原理类似于肠道，但目前的研究主要集中在外排转运蛋白上。为了提高药物在脑内的浓度，许多研究都希望抑制外排转运蛋白。P-gp能抑制 HIV蛋白酶抑制剂印地那韦的吸收，奎尼丁是P-gp 的抑制剂，两药联用时可提高印地那韦的游离浓度。",
+    "bbox": [
+      511,
+      779,
+      895,
+      911
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "·2194·",
+    "bbox": [
+      106,
+      61,
+      161,
+      75
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "第 36 卷第 10 期 2021 年 10 月",
+    "bbox": [
+      179,
+      61,
+      385,
+      75
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "现代药物与临床",
+    "bbox": [
+      426,
+      61,
+      532,
+      75
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "Drugs & Clinic",
+    "bbox": [
+      558,
+      61,
+      658,
+      75
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "Vol. 36 No. 10 October 2021",
+    "bbox": [
+      697,
+      61,
+      875,
+      75
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      978
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      99,
+      90,
+      485,
+      453
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "胎盘屏障是指胎盘绒毛与子宫血窦间的屏障，它能将母体与胎儿的血液分开。但对药物而言，胎盘屏障的通透性与一般毛细血管没有明显的区别，所以大多数药物都能穿过胎盘屏障进入胎儿体内，只是程度和快慢不同。故在妊娠期间，应特别注意某些药物进入胎儿循环的毒性作用和妊娠早期的致畸作用。",
+    "bbox": [
+      101,
+      456,
+      483,
+      586
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "其他生理屏障还有血眼屏障、血关节囊液屏障等，使药物在眼和关节囊中难以达到有效浓度，往往必须采用局部直接注射给药的方式，才能达到治疗目的。",
+    "bbox": [
+      101,
+      590,
+      483,
+      663
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "药物相互作用可能在药物分布上是一把“双刃剑”[18]。虽然它可以保护免受外来毒素的侵害，但也会影响药物的生物利用度。",
+    "bbox": [
+      101,
+      667,
+      483,
+      722
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "1.3 相互作用对药物代谢的影响",
+    "text_level": 2,
+    "bbox": [
+      101,
+      726,
+      352,
+      741
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "细胞色素 P450 是一组结构和功能相关的超家族基因编码的含铁血红素同工酶，主要存在于肝细胞平滑肌内质网内，由血红素蛋白、黄素蛋白、磷脂组成，参与体内药物代谢。几乎所有的组织和器官都具有将亲脂性化合物转化为水溶性代谢物的能力。然而肝脏是参与药物生物转化的最重要的器官[19]。肝药酶主要由 P450 组成，存在于滑面内质网表面，参与药物代谢。P450 酶根据氨基酸序列的相同度可分为不同的家族和亚家族，如 CYP1A、",
+    "bbox": [
+      99,
+      744,
+      483,
+      913
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "CYP2C、CYP2D、CYP2E 和 CYP3A。鉴于 P450 酶在药物代谢中的重要性，FDA 认为，应在新药开发过程中明确药物的代谢情况，同时探讨其潜在的药物–药物相互作用。对于口服药物，药物代谢始于小肠，但代谢的主要部位是肝脏。对于肝药酶，药物可分为 3 类（底物、诱导剂和抑制剂）。P450 的不同亚型一般具有不同的底物、诱导剂和抑制剂。药物相互作用在代谢中的作用原理可以解释为：（1）同时服用同一 P450 酶亚型的抑制剂和底物，可使底物血浓度升高，循环时间延长。对人肝微粒体具有抑制作用的磺胺苯唑、S-美芬妥英可延缓醋酸甲羟孕酮的消除[20]。（2）当同一亚型 P450 的诱导剂和底物同时服用时，诱导剂能促进底物代谢，导致药物体内驻留时间缩短，血药浓度降低。利福霉素是 CYP3A 的诱导剂，与其他药物合用时，相应药物的血药浓度低于预期值。因此，常规剂量的药物可能导致无效治疗[21-22]。药物相互作用在临床上主要表现为药物代谢方面相互作用，约占总体数量的 40%，因此研究药物在代谢方面药物相互作用具有非常重要的临床意义。根据美国药物研究所的报告，每年约有6.7%的患者出现与药物相互作用临床相关的不良反应[23]。在有关代谢的药物相互作用中，其他化合物诱导或抑制 CYP450的活性是代谢相关药物相互作用的主要原因，其中酶抑制引起的药物相互作用远多于酶诱导引起的相互作用[24]。药物代谢相互作用示意图见图 3。",
+    "bbox": [
+      511,
+      90,
+      895,
+      587
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "image",
+    "img_path": "images/85abb84615aae657e84f8016cc260ea3dfa499c4ff22e76ab5ab9a21b49613e5.jpg",
+    "image_caption": [
+      "图 3 药物代谢相互作用示意图",
+      "Fig. 3 Schematic diagram of the drugs interaction about liver metabolism"
+    ],
+    "image_footnote": [],
+    "content": "```mermaid\ngraph TD\n  A[\"1. Substrate+Inhibitor\"] --> B[\"Liver\"]\n  C[\"2. Substrate+Substrate\"] --> B\n  D[\"3. Substrate+Inducer co-administrated drugs\"] --> B\n  B --> E[\"1. Decrease substrate metabolism\"]\n  B --> F[\"2. Decrease substrate metabolism\"]\n  B --> G[\"3. Increase substrate metabolism\"]\n  E --> H[\"Results\"]\n  F --> H\n  G --> H\n```",
+    "sub_type": "flowchart",
+    "bbox": [
+      514,
+      593,
+      890,
+      756
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "与肝脏一样，小肠中也充满了药物转化酶，包括细胞色素 P450。据报道，CYP3A 在小肠中约占肝脏的 1%，但某些药物的代谢，如环孢素 A[25]、咪达唑仑[26]、维拉帕米[27]受小肠中细胞色素 P450的影响很大。体内外研究表明，肠道细胞色素P450是决定口服药物生物利用度的主要因素，也是口服药物的第一代谢点。代谢酶包括小肠上皮细胞的 I、II 相代谢酶，如水解酶、脱氢酶、尿苷二磷酸葡萄糖酰转移酶（UDPGT）和硫转移酶（SULT）[28-29]。细胞色素 P450 的酶活性不仅受生理因素的影响，而且受药物的影响。根据药物对细胞色素 P450 酶活性的影响，药物可分为3类（底物、诱导剂、抑制剂）[30-36]。抑制剂对底物的作用机制可分为竞争性抑制和自杀性抑制。竞争性抑制表现为抑制剂与底物竞争结合酶活性位点，不影响酶的活性。相反，自杀性酶抑制剂能破坏细胞色素 P405 酶的活性。临床研究表明，抑制剂对小肠 CYP450 的抑制作用强于肝脏[37]，抑制药物代谢可导致药物吸收、生物利用度的提高。诱导作用可提高代谢率，降低血药浓度，降低口服药物的生物利用度和临床疗效。总的来说，诱导或抑制作用会导致药物治疗的失败。给药五酯片后，大鼠体内他克莫司的血药浓度明显升高，提示五酯片能抑制 $\\mathrm { P - g p }$ 和 CYP3A，从而提高他克莫司的口服生物利用度[38]。",
+    "bbox": [
+      511,
+      821,
+      895,
+      915
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "第 36 卷第 10 期 2021 年 10 月",
+    "bbox": [
+      119,
+      61,
+      325,
+      75
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "现代药物与临床",
+    "bbox": [
+      367,
+      61,
+      473,
+      75
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Drugs & Clinic",
+    "bbox": [
+      500,
+      61,
+      599,
+      75
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Vol. 36 No. 10 October 2021",
+    "bbox": [
+      638,
+      61,
+      816,
+      75
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "·2195·",
+    "bbox": [
+      836,
+      61,
+      888,
+      73
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      978
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      99,
+      90,
+      483,
+      452
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "1.4 相互作用对药物排泄的影响",
+    "text_level": 2,
+    "bbox": [
+      101,
+      456,
+      352,
+      471
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "排泄是药物或其代谢物在体内排除体外的过程。排泄和代谢统称为药物的消除。肾脏排泄和胆汁排泄是药物排泄的主要途径；有些药物也可以从肠、肺、乳汁、唾液腺、汗腺等排出。一般来说，药物的排泄与转运蛋白之间有着较强的联系。排泄中的药物相互作用可以解释为药物与排泄器官中转运蛋白之间的相互作用。排泄器官的转运体也分为摄取转运体和外排转运体[39-40]。摄取转运蛋白由有机阴离子转运多肽（OATP）、有机阳离子转运蛋白（OCT）等组成。外排转运蛋白由 P-gp、MRP、BCRP 和MATE 组成。药物相互作用在排泄中的原理同药物在吸收过程中的药物药物相互作用[41-43]。由于转运体在肾脏和肝脏的高表达，药物相互作用的排泄主要发生在肾脏和肝胆管。肾脏排泄包括肾小球滤过、肾小管分泌和再吸收过程，这些过程都与药物转运蛋白密切相关。肾脏中的药物相互作用可归纳为以下几个方面[44]：（1）2 种或 2 种以上的药物竞争相同的外排蛋白，从而减少药物的排泄。当丙磺舒和青霉素同时使用时，丙磺舒可以竞争相同的分泌部位，从而减少青霉素的排泄。（2）当药物竞争药物重吸收部位时，可以减少再吸收，增加排泄。有文献报道多种他汀类药物能抑制 SKPT 细胞对甘氨酰肌氨酸的摄取，沙坦类药物和二肽在肾脏排泄中的相互作用是两种药物竞争 PEPT2 结合位点[45]。肝胆排泄过程相对于肾排泄较简单。肝胆排泄中的药物相互作用也可以描述为药物与转运蛋白之间的关系[46]。",
+    "bbox": [
+      99,
+      475,
+      483,
+      913
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      511,
+      90,
+      893,
+      164
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "许多药物通过肾脏和肝胆排泄，药物的排泄过程与药物的体内血药浓度、驻留时间密切相关，直接关乎药物的疗效和毒性，因此药物在排泄过程中的相互作用不容忽视。",
+    "bbox": [
+      511,
+      167,
+      893,
+      240
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "2 药物–药物相互作用评价方法",
+    "text_level": 2,
+    "bbox": [
+      511,
+      244,
+      767,
+      260
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "针对药物在体内不同过程中的相互作用，学者们在体外建立了不同的模型来模拟药物的相互作用过程。针对药物相互作用在不同过程中的作用，本文总结出药物作用的 3种主要机制：药物相互作用发生在转运过程中；药物相互作用发生在代谢过程中。药物相互作用可能发生在血浆蛋白的结合过程中。",
+    "bbox": [
+      511,
+      264,
+      893,
+      393
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "2.1 药物在转运过程中相互作用的评价方法",
+    "text_level": 2,
+    "bbox": [
+      511,
+      398,
+      849,
+      414
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "细胞模型通常用于模拟体内的转运过程[47-48]。Caco-2 细胞（人结肠腺癌细胞系）[49]、HT29 细胞（人结肠腺癌细胞系[50]、MDCK 细胞（Madin-Darby犬肾细胞系）、MDCK-MDR1 细胞（Madin-Darby 犬肾细胞转染多药耐药基因）[51]、T84 细胞（移植人结肠癌细胞系）[52]具有人体肠组织的吸收特性，广泛用于肠吸收研究。MDCK-MDR1 细胞具有血脑屏障细胞高表达 P-gp 的特点，也是模拟血脑屏障最常用的细胞[53-56]。转染特异性质粒的 HEK293 细胞高表达OATP1B3[57-60]，这些细胞可以用来模拟胆汁分泌。转运细胞以一定的密度接种在Transwell上，培养数天，每天测定 TEER值，在单层TEER 达到一定值时进行转运实验。Transwell的示意图见图 4。",
+    "bbox": [
+      511,
+      418,
+      893,
+      664
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "image",
+    "img_path": "images/af4cf2076f6084b11a5ec2410e360e67d574194f29013616d7906558b5037073.jpg",
+    "image_caption": [
+      "图 4 药物通过单层细胞的体外实验模型",
+      "Fig. 4 In vitro experimental model about drug across monolayer cells"
+    ],
+    "image_footnote": [],
+    "content": "Transwell insert\nApical\nMonolayer\ncells\nMicroporous membrane\nBasolateral",
+    "sub_type": "text_image",
+    "bbox": [
+      514,
+      671,
+      870,
+      770
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "用表观渗透系数 $( P _ { \\mathrm { a p p } } )$ 和 ER（efflux ratio）评价药物吸收和药物相互作用的机制。ER 的计算方法是将 $P _ { \\mathrm { a p p } }$ （基底外侧至顶端）除以 $P _ { \\mathrm { a p p } }$ （顶端至基底外侧）。",
+    "bbox": [
+      511,
+      840,
+      893,
+      913
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "·2196·",
+    "bbox": [
+      106,
+      61,
+      161,
+      75
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "第 36 卷第 10 期 2021 年 10 月",
+    "bbox": [
+      179,
+      61,
+      385,
+      75
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "现代药物与临床",
+    "bbox": [
+      426,
+      61,
+      532,
+      75
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "Drugs & Clinic",
+    "bbox": [
+      558,
+      61,
+      658,
+      75
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "Vol. 36 No. 10 October 2021",
+    "bbox": [
+      697,
+      61,
+      875,
+      75
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      978
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "equation",
+    "text": "$$\nP _ {\\mathrm{app}} = \\mathrm{d} Q / (\\mathrm{d} t \\cdot S \\cdot C)\n$$",
+    "text_format": "latex",
+    "bbox": [
+      130,
+      93,
+      243,
+      107
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\mathrm{ER} = P _ {\\mathrm{app}} (\\mathrm{B} \\rightarrow \\mathrm{A}) / P _ {\\mathrm{app}} (\\mathrm{A} \\rightarrow \\mathrm{B})\n$$",
+    "text_format": "latex",
+    "bbox": [
+      132,
+      112,
+      310,
+      126
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "式中 $P _ { \\mathrm { a p p } }$ 为表观渗透系数（cm/s）；dQ/dt 为药物转运速率；S 为聚碳酸酯膜面积；C 为阿司匹林在供给池中的初始浓度",
+    "bbox": [
+      99,
+      130,
+      483,
+      183
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "根据文献报道，可以将跨黏膜屏障吸收的药物分为 3类：当药物的 $P _ { \\mathrm { a p p } }$ 值低于 $1 \\times 1 0 ^ { - 6 } ~ \\mathrm { c m / s }$ 时，药物的累积透过量在 $0 \\sim 2 0 \\%$ ，是较难吸收的药物；当药物的 $P _ { \\mathrm { a p p } }$ 值在 $1 \\times 1 0 ^ { - 6 } { \\sim } 1 0 { \\times } 1 0 ^ { - 6 } ~ \\mathrm { c m / s }$ 时，药物的累积透过量在 $2 0 \\% \\sim 7 0 \\%$ ，是中等吸收的药物；当药物的 $P _ { \\mathrm { a p p } }$ 值高于 $1 0 \\times 1 0 ^ { - 6 } \\mathrm { c m / s }$ 时，药物的累积透过量在70%～100%，是容易吸收的药物。同时外排率ER为 $0 . 5 { \\sim } 2$ 时提示被动扩散。",
+    "bbox": [
+      99,
+      186,
+      483,
+      336
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "此外，动物模型也用来评价药物相互作用吸收模型。动物肠道是研究药物在肠道内吸收最常用的部位，因为它更接近体内真实状态，能较准确地反映药物在肠道内的吸收情况。但动物实验必须注意物种差异。肠吸收实验动物模型包括肠灌注法、离体黏膜法、外翻肠囊法，用有效通透性系数 $( P _ { \\mathrm { e f f } } )$ ）和吸收速率常数 $\\left( K _ { \\mathrm { a } } \\right)$ 评价药物的吸收情况[61]。",
+    "bbox": [
+      99,
+      340,
+      483,
+      472
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "equation",
+    "text": "$$\nC _ {\\text { out   (corrected) }} = C _ {\\text { out }} \\cdot P R _ {\\text { in }} / P R _ {\\text { out }}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      130,
+      478,
+      303,
+      490
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "equation",
+    "text": "$$\nP _ {\\text { eff }} = Q \\ln \\left[ C _ {\\text { in }} / C _ {\\text { out   (corrected) }} \\right] / 2 \\pi L r\n$$",
+    "text_format": "latex",
+    "bbox": [
+      132,
+      496,
+      323,
+      510
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "equation",
+    "text": "$$\nK _ {a} = (1 - C _ {\\text { out }} \\cdot P R _ {\\text { in }} / P R _ {\\text { out }}) Q / \\pi r ^ {2} L\n$$",
+    "text_format": "latex",
+    "bbox": [
+      132,
+      515,
+      325,
+      530
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "式中 Q 为肠道冲洗液流速， $C _ { \\mathrm { { o u t } } \\setminus \\mathrm { { } } } C _ { \\mathrm { { o u t } } }$ （校正）分别为药物校正浓度和实际测量药物浓度的流出液。 $C _ { \\mathrm { i n } }$ 是药物的浓度。 $P R _ { \\mathrm { i n } } , \\ P R _ { \\mathrm { o u t } }$ 分别为酚红进出口浓度。 $L , \\ r$ 分别表示长度、直径（cm）的灌注肠段",
+    "bbox": [
+      99,
+      534,
+      483,
+      606
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "2.2 药物代谢评价方法",
+    "text_level": 2,
+    "bbox": [
+      101,
+      610,
+      284,
+      625
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "代谢药物相互作用主要发生在小肠和肝脏。小肠和肝脏中酶的种类、代谢方式并不完全相同。Michaelis 常数 $\\left( K _ { \\mathrm { m } } \\right)$ ）和 $V _ { \\mathrm { m a x } }$ 用于药物代谢[62]。通过比较不同给药前后的参数，可以清楚地了解药物相互作用在代谢的相互作用情况。",
+    "bbox": [
+      99,
+      627,
+      483,
+      722
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "equation",
+    "text": "$$\nV = V _ {\\max} [ S ] / (K _ {\\mathrm{m}} + [ S ])\n$$",
+    "text_format": "latex",
+    "bbox": [
+      130,
+      727,
+      266,
+      741
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\mathrm{CL} = V _ {\\max} / K _ {\\mathrm{m}}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      132,
+      746,
+      218,
+      760
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "其中 V、 $V _ { \\mathrm { m a x } }$ 分别为最大反应速率和反应速率； $K _ { \\mathrm { m } }$ 是Michaelis 常数，[S]是基质的浓度",
+    "bbox": [
+      99,
+      764,
+      482,
+      800
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "2.3 分配评价方法",
+    "text_level": 2,
+    "bbox": [
+      101,
+      802,
+      250,
+      816
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "测定血浆蛋白结合率的方法有平衡透析、超滤、微透析等。通过比较单药组与药物联合组的差异可以推断出药物相互作用的程度。",
+    "bbox": [
+      99,
+      821,
+      483,
+      875
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "equation",
+    "text": "$$\nF = \\left(C _ {\\mathrm{A}} - C _ {\\mathrm{B}}\\right) / C _ {\\mathrm{A}}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      130,
+      881,
+      238,
+      895
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "其中 F 为血浆蛋白结合率， $C _ { \\mathrm { { A } } } , \\ C _ { \\mathrm { { B } } }$ 分别用于药物在结",
+    "bbox": [
+      130,
+      899,
+      482,
+      913
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "合血浆蛋白前后的浓度",
+    "bbox": [
+      513,
+      92,
+      665,
+      106
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "3 结语",
+    "text_level": 2,
+    "bbox": [
+      511,
+      110,
+      578,
+      124
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "根据药动学过程的不同，药物相互作用可能发生在不同的过程中，并具有不同的作用机制。药物在体内的作用过程非常复杂，不同的作用过程可能同时发生。如一些转运体的底物也是一些代谢酶的底物[63]。因此，有必要同时从不同的角度对药物相互作用的效果进行评价。合用药物的药动学变化可能涉及多种机制。体外实验可以清楚地显示相互作用的部位和机制。如果体外研究表明药物之间存在显著的相互作用，那么就必须更加注意潜在的好的或坏的影响。药物相互作用现在主要集中在原型药物之间的相互作用，药物体内代谢后产物与其他药物相互作用也应该引起药物开发者和使用者的重视。药物相互作用模型目前还是独立模型，对于药物在体内相互作用，可能存在于各个过程中，多个步骤中的相互作用累加可能远比单模型得出来的作用要强，并且体外模型受外界影响较大，因此体外模型应与动物体内相互作用、相互印证，体外相互作用模型应多集中在药物相互作用机制研究，药物相互作用还应在动物模型上进行验证。",
+    "bbox": [
+      511,
+      129,
+      895,
+      490
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "利益冲突 所有作者均声明不存在利益冲突",
+    "text_level": 2,
+    "bbox": [
+      547,
+      499,
+      877,
+      513
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "参考文献",
+    "text_level": 2,
+    "bbox": [
+      514,
+      521,
+      576,
+      534
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1] Riechelmann R P, Del G A. Drug interactions in oncology: how common are they? [J]. Ann Oncol, 2009, 20(12): 1907-1912.",
+      "[2] Tulner L R, Frankfort S V, Gijsen G J, et al. Drug-drug interactions in a geriatric outpatient cohort: Prevalence and relevance [J]. Drugs Aging, 2008, 25(4): 343 -355.",
+      "[3] Juurlink D N, Mamdani M, Kopp A, et al. Drug-drug interactions among elderly patients hospitalized for drug toxicity [J]. JAMA, 2003, 289(13): 1652-1658.",
+      "[4] Moura C S, Acurcio F A, Belo N O. Drug-drug interactions associated with length of stay and cost of hospitalization [J]. J Pharm Pharm Sci, 2009, 12(3): 266-272.",
+      "[5] Tsuji A. Impact of transporter-mediated drug absorption, distribution, eliminationand drug interactions in antimicrobial chemotherapy [J]. J Infect Chemother, 2006, 12(5): 241- 250.",
+      "[6] Kunta J R, Sinko P J. Intestinal drug transporters: In vivo function and clinical importance [J]. Curr Drug Metab, 2004, 5(1): 109-124.",
+      "[7] Lee C A, O'Connor M A, Ritchie T K, et al. Breast cancer resistance protein (ABCG2) in clinical pharmacokinetics and drug interactions: practical recommendations for clinical victim and perpetrator drug-drug interaction study design [J]. Drug Metab Dispos, 2015, 43(4): 490- 509.",
+      "[8] Umeyama Y, Fujioka Y, Okuda T. Clarification of P-",
+      "glycoprotein inhibition-related drug-drug interaction risks based on a literature search of the clinical information [J]. Xenobiotica, 2014, 44(12): 1135-1344.",
+      "[9] Vincent J W, Jeffreya A S, Baidakova L K, et al. Role of P-glycoprotein and cytochrome P450 3A in limiting oral absorption of peptides and peptidomimetics [J]. J Pharm Sci, 1998, 87(11): 1322-1330.",
+      "[10] Nozawa T, Toyobuku H, Kuruma K, et al. Enhanced intestinal absorption of drugs by activation of peptide transporter PEPT1 using proton-releasing polymer [J]. J Pharm Sci, 2003, 92(11): 2209-2213.",
+      "[11] Annegret B E, Sabine G, Bianka H, et al. Recognition of 2-aminothiazole-4-acetic acid derivatives by the peptide transporters PEPT1 and PEPT2 [J]. Eur J Pharm Sci, 2007, 32(1): 69-76.",
+      "[12] Hou Y C, Lin S P, Chao P D L, et al. Liquorice reduced cyclosporine bioavailability by activating P-glycoprotein and CYP3A [J]. Food Chem, 2012, 135(4): 2307-2312.",
+      "[13] Lemahieu W P D, Maes B D, Verbeke K, et al. Impact of gastric acid suppressants on cytochrome P450 3A4 and Pglycoprotein: consequences for FK506 assimilation [J]. Kidney Int, 2005, 67(3): 1152-1160.",
+      "[14] Miyako O, Tomohiro T, Toshiya K., et al. Inhibitory effect of znic on the absorption of β-lactam antibiotic ceftibuten via the peptide transporters in rats [J]. Drug Metab Pharm, 2008, 23(6): 464-468.",
+      "[15] 谭毓治, 伍爱婵, 谭炳炎, 等.小檗碱竞争血浆蛋白结合部位所致药物相互作用的研究 [J]. 中国药理学通报, 2002, 8(29): 576-578.",
+      "[16] Katarzyna S, Monika Z, Irena M, et al. Interaction of anthracene and its oxidative derivatives with human serum albumin [J]. Acta Biochim Pol, 2006, 53(1): 101- 112.",
+      "[17] Chen Y, Liu L H. Modern methods for delivery of drugs across the blood-brain barrier [J]. Adv Drug Delivr Rev, 2011, 64(7): 640-665.",
+      "[18] Gottesman M M, Pastan I. The multidrug transporter, adouble-edged sword [J]. J Biol Chem, 1988, 263(25): 12163-12166.",
+      "[19] Leeder J S, Okey A B. Drug-Induced Hepatotoxicity [M]. Erlangen: Springer Verlag Berlin Heidelberg, 1996: 119- 153.",
+      "[20] Kobayashi K, Mimura N, Hirofumi F, et al. Role of huanman cytochrome p450 3a4 in metabolism of medroxyprogesterone acetate [J]. Clin Cancer Res, 2000, 6(8): 3297-3303.",
+      "[21] Thummel K E, Wilkinson G R. In vitro and in vivo drug interactions involving human CYP3A [J]. Annu Rev Pharmacol Toxicol, 1998, 38(1): 389-430.",
+      "[22] Askgaard D S, Wilcke T, Dossing M, et al. Hepatotoxicity caused by the combined action of isoniazid and rifampicin [J]. Thorax, 1995, 50(2): 213-214.",
+      "[23] Ankel G A, Speedie S M. Detecting drug interactions: a review of the literature [J]. Dicp, 1990, 24(10): 982- 989.",
+      "[24] Venkatakrishnan K, Von Moltke L L, Obach R S, et al. Drug metabolism and drug interactions: application and clinical value of in vitro models [J]. Curr Drug Metab, 2003, 4(5): 423-459.",
+      "[25] Preuner J G, Lehle K, Eichinger H, et al. First-pass metabolism of cyclosporine A in human intestine: Inhibition by diltiazem [J]. Transpl P, 1998, 30(6): 2545- 2546.",
+      "[26] Paine M F, Shen D D, Kunze K L, et al. First-pass metabolism of midazolam by the human intestine [J]. Clin Pharmacol Ther, 1996, 60(1): 14-24.",
+      "[27] von Richter O, Greiner B, Fromm M F, et al. Determination of in vivo absorption, metabolism, and transport of drugs by the human intestinal wall and liver with a novel perfusion technique [J]. Clin Pharmacol Ther, 2001, 70(3): 217-227.",
+      "[28] Seliskar M, Rozman D. Mammalian cytochromes P450 improtance of tissues pecificity [J]. Bio Chim Biopys Acta, 2007, 1770(3): 458-466.",
+      "[29] Wilkinson G R. Drug metabolism and variability among patients in drug response [J]. N Engl J Med, 2005, 352(21): 2211-2221.",
+      "[30] Lee C A, Neu D, Clouser-Roche A, et al. Identification of novel substrates for human cytochrome P4502J2 [J]. Drug Metab Dispos, 2010, 38(2): 347-356.",
+      "[31] Kato M. Intestial first-pass metabolism of CYP3A4 substrates [J]. Drug Metab Pharmacokinet, 2008, 23(2): 87-94.",
+      "[32] Liu C, Shang Y F, Zhang X F, et al. Co-administration of grapefruit juice increases bioavailability of tacrolimus in liver transplant patients: a prospective study [J]. Eur J Clin Pharmacol, 2009, 65(9): 881-885.",
+      "[33] Kiani J, Imam S. Medicinal importance of grapefruit juice and its interaction with various drugs [J]. Nutr J, 2007, 6(1): 33.",
+      "[34] Nowack R. Review article: cytochrome P450 enzyme, and transport protein mediated herb-drug interactions in renal transplant patients: grapefruit juice, St John's Wort - and beyond! [J]. Nephrology (Carlton), 2008, 13(4): 337- 347.",
+      "[35] Di Y M, Li C G, Xue C C, et al. Clinical drugs that interact with St John's wort and implication in drug development [J]. Curr Pharm Des, 2008, 14(17): 1723- 1742.",
+      "[36] Chhun S, Verstuyft C, Rizzo-Padoin N, et al. Gefitinibphenytoin interaction is not correlated with the 14Cerythromycin breath test in healthy male volunteers [J]. Br J Clin Pharmacol, 2009, 68(2): 226-237.",
+      "[37] Shoji K, Tsutomu N, Hiroyuki Y, et al. Intestinal and hepatic expression of cytochrome P450s and mdr1a in rats with indomethacin-induced small intestinal ulcers [J]. Int J Med Sci, 2014, 11(12): 1208-1212.",
+      "[38] Qin X L, Bi H C, Chen X, et al. Mechanistic understanding of the different effects of Wuzhi Tablet on the absorption and first-pass intestinal and hepatic metabolism of tacrolimus (FK506) [J]. Int J Pharm, 2010, 389(1-2): 114-",
+      "121.",
+      "[39] Fromm M F, Kim R B. Drug Transporters [M]. Erlangen: Springer Verlag Berlin Heidelberg, 2011: 5.",
+      "[40] He X, Wu W H, Ouyang D S, et al. Progress in transporters of ABCC2 [J]. Chin Pharm J, 2007, 42(23): 1764-1767.",
+      "[41] Molnari J C, Hassan H E, Myers A L. Effects of sertraline on the pharmacokinetics of bupropion and its major metabolite, hydroxybupropion, in mice [J]. Eur J Drug Metab Pharmacokinet, 2012, 37(1):57-63.",
+      "[42] Angelin B, Arvidsson A, Dahlqvist R, et al. Qinidine reduces biliary clearance of digoxin in man [J]. Eur J Clin Invest, 1987, 17(3): 262-265.",
+      "[43] Maitai C K, Mugera G M. Excretion of the active principle of of Catha edulis (Miraa) in human urine [J]. J Pharm Sci, 1975, 64(4): 702-703.",
+      "[44] Bonate P L, Reith K, Weir S. Drug interactions at the renal level [J]. Clin Pharmacokinet, 1998, 34(5): 375- 404.",
+      "[45] Ramamoorthy S, Liu W, Ma Y Y, et al. Proton/peptide Cotransporter (PEPT2) from human kidney: functional Characterization and chromosomal localization [J]. Biochem Biophy Acta, 1995, 1204(1): 1-4.",
+      "[46] Wang X, Morris M E. Effects of the flavonoid chrysin on nitrofurantioin pharmacokinetics in rats: Potential involvement of ABCG2 [J]. Drug Metab Dispos, 2007, 35(2): 268-274.",
+      "[47] Gaillard P J, Voorwinden L H, Nielsen J L, et al. Establishment and functional characterization of an in vitro model of the blood-brain barrier, comprising a co2culture of brain capillary endothelial cells and astrocytes [J]. Eur J Pharm Sci, 2001, 12(3): 215-222.",
+      "[48] Cecchelli R, Dehouck B, Descamps L, et al. In vitro model for evaluating drug transport across the blood brain barrier [J]. Adv Drug Del Rev, 1999, 36(2-3): 165- 178.",
+      "[49] Hein Z, Schmidt S, Zimmer K P, et al. The dual role of annexinⅡ in targeting of brush border proteins and intestinal cell polarity [J]. Differentiation, 2011, 81(4): 243-252.",
+      "[50] Maresca M, Mahfoud R, Garmy N, et al. The mycotoxin deoxynivalenol affects nutrient absorption in human intestal epithelial cells [J]. J Nutr, 2002, 132(9): 2723- 2731.",
+      "[51] De S J, Bennet L Z, Huang Y, et al. Comparison of bidirectional lamivudine and zidovudine transport using MDCK, MDCK-MDR1, and Caco-2 cell monolayers [J]. J Pharm Sci, 2009, 98(11): 4413-4419.",
+      "[52] Keely S J, Scharl M M, Bertelsen L S, et al. Bile acidinduced secretion in polarized monolayers of T84 colonic",
+      "epithelial cells:Structure-activity relationships [J]. Am J Phusiol Gastrointest Liver Physiol, 2007, 292(1): 290-297.",
+      "[53] Hammerle S P, Rothen-Rutishauser B, Kramer S D, et al. P-glycoprotein in cell cultures a combined approach to study expression, localization, and functionality in the confocal microscope [J]. Eur J PharmSci, 2000, 12(1): 69-77.",
+      "[54] Kamau S W, Kramer S D, Gunthert M, et al. Effect of the modulation of the membrane lipid composition on the localization and function of P-glycoprotein in MDR1- MDCK cells [J]. In Vitro Cell Dev Biol Anim, 2005, 41(7): 207-216.",
+      "[55] Doan K, Humphreys J E, Webster L O, et al. Passive permeability and P-glycoprotein-mediated efflux differentiate central nervous system (CNS) and non-CNS marketed drugs [J]. J Pharmacol Exp Ther, 2002, 303(3): 1029- 1037.",
+      "[56] Chen Z Z, Lu Y, Du S Y, et al. Influence of borneol and muscone on geniposide transport through MDCK and MDCK-MDR1 cells as blood-brain barrier in vitro model [J]. Int J Pharm, 2013, 456(1): 73-79.",
+      "[57] Durmus S, Lozano-Mena G, van Esch A., et al. Preclinical mouse models to study human OATP1B1- and OATP1B3- mediated drug-drug interactions in vivo [J]. Mol Pharm, 2015, 12(12): 4259-4269.",
+      "[58] Ikema S, Takumi S, Maeda Y, et al. Okadaic acid is takenup into the cells mediated by human hepatocytes transporter OATP1B3 [J]. Food Chem Toxicol, 2015, 83: 229-236.",
+      "[59] Ishiguro N, Maeda K, Kishimoto W, et al. Predominant contribution of OATP1B3 to the hepatic uptake of telmisartan, an angiotensin II receptor antagonist, in humans [J]. Drug Metab Dispos, 2006, 34(7): 1109-1115.",
+      "[60] Jiang R R, Dong J J, Li X X, et al. Molecular mechanisms governing differential pharmacokinetics of ginsenosides and potential for ginsenoside- perpetrated herb-drug interactions on OATP1B3 [J]. Br J Pharmacol, 2014, 172(4): 1059-1073.",
+      "[61] 陈 彦, 贾晓斌, 谭晓斌, 等. 大鼠在体肠灌流模型研究淫羊藿不同黄酮苷的吸收代谢 [J]. 中国中药杂志,2009, 34(22): 2928.-2931.",
+      "[62] Zhang C L, Xu Y J, Li X P, et al. HPLC determination of CPT-11 and its metabolite 7-ethyl-10 HCPT in incubation system of rat liver microsomes [J]. Chin Pharm J, 2013, 48(6): 485.",
+      "[63] Fischer V, Einolf H J, Cohen D, et al. Efflux transporters and their clinical relevance [J]. Mini Rev Med Chem, 2005, 5(2): 183-195."
+    ],
+    "bbox": [
+      511,
+      536,
+      895,
+      916
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "第 36 卷第 10 期 2021 年 10 月",
+    "bbox": [
+      119,
+      61,
+      325,
+      75
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "现代药物与临床",
+    "bbox": [
+      367,
+      61,
+      473,
+      75
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "Drugs & Clinic",
+    "bbox": [
+      500,
+      61,
+      599,
+      75
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "Vol. 36 No. 10 October 2021",
+    "bbox": [
+      638,
+      61,
+      816,
+      75
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "·2197·",
+    "bbox": [
+      836,
+      61,
+      888,
+      73
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      978
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      99,
+      88,
+      488,
+      906
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      509,
+      88,
+      898,
+      909
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "page_number",
+    "text": "·2198·",
+    "bbox": [
+      106,
+      61,
+      161,
+      75
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "第 36 卷第 10 期 2021 年 10 月",
+    "bbox": [
+      179,
+      61,
+      383,
+      75
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "现代药物与临床",
+    "bbox": [
+      426,
+      61,
+      532,
+      75
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "Drugs & Clinic",
+    "bbox": [
+      558,
+      61,
+      658,
+      75
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "Vol. 36 No. 10 October 2021",
+    "bbox": [
+      697,
+      61,
+      875,
+      75
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      979
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      99,
+      88,
+      488,
+      803
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      511,
+      88,
+      895,
+      801
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "[责任编辑 解学星]",
+    "bbox": [
+      736,
+      807,
+      890,
+      823
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "第 36 卷第 10 期 2021 年 10 月",
+    "bbox": [
+      119,
+      61,
+      325,
+      75
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "现代药物与临床",
+    "bbox": [
+      367,
+      61,
+      473,
+      75
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "Drugs & Clinic",
+    "bbox": [
+      500,
+      61,
+      599,
+      75
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "Vol. 36 No. 10 October 2021",
+    "bbox": [
+      638,
+      61,
+      816,
+      75
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "page_number",
+    "text": "·2199·",
+    "bbox": [
+      836,
+      61,
+      888,
+      73
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      27,
+      963,
+      812,
+      979
+    ],
+    "page_idx": 7
+  }
+]

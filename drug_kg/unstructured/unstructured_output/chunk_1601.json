@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "卡马西平",
+        "canonical_name": "卡马西平",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "丙型肝炎直接抗病毒药物",
+        "canonical_name": "丙型肝炎直接抗病毒药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "canonical_name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "P-糖蛋白活性",
+        "canonical_name": "P-糖蛋白活性",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "医脉通肝脏科",
+          "chunk_index": 1601,
+          "raw_text": "卡马西平与丙型肝炎直接抗病毒药物的相互作用",
+          "chunk_id": "1601",
+          "data": "。而卡马西平治疗时，血药浓度达到稳态后，P-gp的活性水平被药物上调；卡马西平停药后，即使在血液中的药物水平无法检测到的情况下，P-gp活性上调还会延长一段时间（图2）[10]。有关强效P-gp诱导剂停药后对P-gp的作用时间目前尚不清楚，据Stark和Cole[4]估计，卡马西平对P-gp活性上调的影响作用也会持续2~4周。图2  卡马西平血药浓度水平与P-糖蛋白活性的关系Stark和Cole[4]报道的这个病例让我们不仅认识到卡马西平与丙型肝炎直接抗病毒药物的相互作用，还提醒我们不要忽略药物去诱导过程产生的隐性药物反应（invisible drug reaction）所致相互作用"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "医脉通肝脏科",
+          "chunk_index": 1601,
+          "raw_text": "卡马西平治疗时，血药浓度达到稳态后，P-gp的活性水平被药物上调",
+          "chunk_id": "1601",
+          "data": "。而卡马西平治疗时，血药浓度达到稳态后，P-gp的活性水平被药物上调；卡马西平停药后，即使在血液中的药物水平无法检测到的情况下，P-gp活性上调还会延长一段时间（图2）[10]。有关强效P-gp诱导剂停药后对P-gp的作用时间目前尚不清楚，据Stark和Cole[4]估计，卡马西平对P-gp活性上调的影响作用也会持续2~4周。图2  卡马西平血药浓度水平与P-糖蛋白活性的关系Stark和Cole[4]报道的这个病例让我们不仅认识到卡马西平与丙型肝炎直接抗病毒药物的相互作用，还提醒我们不要忽略药物去诱导过程产生的隐性药物反应（invisible drug reaction）所致相互作用"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "医脉通肝脏科",
+          "chunk_index": 1601,
+          "raw_text": "卡马西平治疗时，血药浓度达到稳态后，P-gp的活性水平被药物上调",
+          "chunk_id": "1601",
+          "data": "。而卡马西平治疗时，血药浓度达到稳态后，P-gp的活性水平被药物上调；卡马西平停药后，即使在血液中的药物水平无法检测到的情况下，P-gp活性上调还会延长一段时间（图2）[10]。有关强效P-gp诱导剂停药后对P-gp的作用时间目前尚不清楚，据Stark和Cole[4]估计，卡马西平对P-gp活性上调的影响作用也会持续2~4周。图2  卡马西平血药浓度水平与P-糖蛋白活性的关系Stark和Cole[4]报道的这个病例让我们不仅认识到卡马西平与丙型肝炎直接抗病毒药物的相互作用，还提醒我们不要忽略药物去诱导过程产生的隐性药物反应（invisible drug reaction）所致相互作用"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1601,
+    "source": "医脉通肝脏科",
+    "text": "。而卡马西平治疗时，血药浓度达到稳态后，P-gp的活性水平被药物上调；卡马西平停药后，即使在血液中的药物水平无法检测到的情况下，P-gp活性上调还会延长一段时间（图2）[10]。有关强效P-gp诱导剂停药后对P-gp的作用时间目前尚不清楚，据Stark和Cole[4]估计，卡马西平对P-gp活性上调的影响作用也会持续2~4周。图2  卡马西平血药浓度水平与P-糖蛋白活性的关系Stark和Cole[4]报道的这个病例让我们不仅认识到卡马西平与丙型肝炎直接抗病毒药物的相互作用，还提醒我们不要忽略药物去诱导过程产生的隐性药物反应（invisible drug reaction）所致相互作用"
+  }
+]

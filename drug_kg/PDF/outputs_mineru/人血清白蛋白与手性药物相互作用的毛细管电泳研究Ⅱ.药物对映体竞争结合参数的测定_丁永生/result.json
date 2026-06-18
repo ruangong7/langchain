@@ -1,0 +1,1022 @@
+[
+  {
+    "type": "text",
+    "text": "人血清白蛋白与手性药物相互作用的毛细管电泳研究Ⅱ．药物对映体竞争结合参数的测定\\*",
+    "text_level": 1,
+    "bbox": [
+      82,
+      86,
+      858,
+      142
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "丁永生 朱晓峰 林炳承\\*\\*",
+    "bbox": [
+      285,
+      158,
+      649,
+      180
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "(中国科学院大连化学物理研究所 大连 116023)",
+    "bbox": [
+      279,
+      183,
+      659,
+      199
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "提要 运用毛细管电泳(CE)技术,在对碱性药物 Verapamil (VER)手性拆分的基础上对 Verapamil 与人血清白蛋白(HSA)平衡体系进行了相互作用研究。通过定量 HSA-VER 体系中 VER 对映体的浓度,建立对映体对结合位点竞争的理论方程,获得了 R 和 S 型药物对映体与 HSA 的结合常数,其值分别为 $K_{(R)-VER} = 2.7 \\times 10^{3} \\times (\\pm 4.4 \\times 10^{2})$ 和 $K_{(S)-VER} = 8.5 \\times 10^{2} (\\pm 1.0 \\times 10^{2})$ 。实验证实,HSA 具有手性选择性,与(R)-VER 的结合强于与(S)-VER 的结合,结合比随着 HSA 与(±)VER 的浓度比而变化。",
+    "bbox": [
+      61,
+      207,
+      877,
+      299
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词 毛细管电泳,白蛋白,药物对映体",
+    "bbox": [
+      63,
+      300,
+      374,
+      317
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "分类号 O658",
+    "bbox": [
+      65,
+      320,
+      177,
+      334
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 前言",
+    "text_level": 2,
+    "bbox": [
+      21,
+      344,
+      109,
+      362
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "药物的手性与药性的关系已经被现代科学所证实[1]。药物分子与生物分子之间的相互作用的生物特性，在一定程度上影响着药物的药理作用。所以，药物与白蛋白的相互作用一直是生物化学和分析化学的热点问题。其中，多元药物的体系尤为重要。人血清白蛋白的手性特征决定了对手性药物对映体结合的选择性有所不同。以毛细管电泳(CE)为基础的相互作用研究在诸多方面更适合于生物背景条件下的分析要求。CE技术的迅速发展在一定程度上吸取了色谱技术的成功经验，同时，也在传统方法的基础上发展了新的方法[2,3]。CE作为定量分析的一种手段，具有如下优点[4]：(1)药物与白蛋白混合液不需要预处理；(2)一次进样可以同时测定出药物总浓度和游离药物浓度[4,5]；(3)纳摩尔或更低的进样量仍具有良好的重现性。本文在VER与HSA相互作用的毛细管电泳前沿分析(CE/FA)研究的基础上[6,7]结合手性拆分技术，开展了药物对映体与HSA竞争结合相互作用的研究，对多组分体系的相互作用进行了较为深入的探讨。",
+    "bbox": [
+      19,
+      365,
+      456,
+      745
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2 数据处理",
+    "text_level": 2,
+    "bbox": [
+      21,
+      750,
+      147,
+      766
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "药物 VER 与人血清白蛋白 HSA 的结合位点数为 $1^{[6,8]}$ ，(R)-VER 与 (S)-VER 就会竞争 HSA 分子上的这个结合位点。达到结合平衡时满足关系式",
+    "bbox": [
+      21,
+      772,
+      454,
+      829
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "equation",
+    "text": "$$\nK _ {R} = \\frac {[ \\mathrm{RP} ]}{[ \\mathrm{R} ] [ \\mathrm{P} ]} = \\frac {r _ {R}}{[ \\mathrm{R} ]} \\tag {1}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      143,
+      834,
+      452,
+      864
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "和 $K_{s}=\\frac{[SP]}{[S][P]}=\\frac{r_{s}}{[S]}$ (2)",
+    "bbox": [
+      21,
+      868,
+      452,
+      899
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "其中， $K_{R}$ 和 $K_{S}$ 分别代表 (R)-VER 和 (S)-VER 与 HSA 的结合常数；[P]，[R] 和 [S] 分别表示游离白蛋白、游离 (R)-VER 和游离 (S)-VER 的浓度；[RP] 和 [SP] 分别表示与白蛋白结合的 (R)-VER 和 (S)-VER 的浓度； $r_{R} = [RP]/[P]$ 和 $r_{S} = [SP]/[P]$ 表示结合比。",
+    "bbox": [
+      482,
+      344,
+      919,
+      461
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "根据物料平衡， $[P]+[RP]+[SP]=C_{P}(C_{P}$ 为白蛋白的总浓度）， $[RP]+[SP]=C_{d}-[R]-[S](C_{d}$ 为药物总浓度)，结合浓度可以用总浓度和游离浓度表示，则结合率可以表示为",
+    "bbox": [
+      482,
+      466,
+      919,
+      543
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "equation",
+    "text": "$$\nr _ {R} = \\frac {0 . 5 C _ {\\mathrm{d}} - [ \\mathrm{R} ]}{C _ {\\mathrm{P}} - C _ {\\mathrm{d}} + [ \\mathrm{R} ] + [ \\mathrm{S} ]} \\tag {3}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      579,
+      546,
+      917,
+      579
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "和 $r_{S}=\\frac{0.5C_{d}-[S]}{C_{P}-C_{d}+[R]+[S]}$ (4)",
+    "bbox": [
+      484,
+      583,
+      919,
+      612
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "根据实验测得游离药物浓度即可以通过关系式(3)和(4)求得结合率。",
+    "bbox": [
+      482,
+      618,
+      919,
+      653
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关系式(1)和(2)可以写成：",
+    "bbox": [
+      520,
+      658,
+      746,
+      673
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "equation",
+    "text": "$$\nr _ {R} = K _ {R} [ \\mathrm{R} ] \\tag {5}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      646,
+      677,
+      917,
+      694
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "equation",
+    "text": "$$\nr _ {S} = K _ {S} [ \\mathrm{S} ] \\tag {6}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      649,
+      697,
+      917,
+      714
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "由线性关系式(5)和(6)的斜率可以直接得出结合常数。",
+    "bbox": [
+      482,
+      718,
+      919,
+      755
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "3 实验部分",
+    "text_level": 2,
+    "bbox": [
+      482,
+      759,
+      610,
+      776
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "3.1 试剂与材料",
+    "text_level": 2,
+    "bbox": [
+      482,
+      782,
+      632,
+      796
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "药物 Verapamil 由德国 Tuebingen 大学提供。HSA(脱脂肪酸的球蛋白, Sigma No. 3782) 购于 Sigma (St. Louis, MO, USA)。三甲基 -β- 环糊精 (TM-β-CD) 购于 Cyclolab 公司(匈牙利)、运行缓冲液(pH 2.5, TM-β-CD 浓度为 45mmol/L)。VER 和",
+    "bbox": [
+      479,
+      800,
+      919,
+      892
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "第 17 卷第 2 期",
+    "bbox": [
+      23,
+      14,
+      154,
+      28
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "1999年3月",
+    "bbox": [
+      23,
+      31,
+      124,
+      46
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "色",
+    "bbox": [
+      386,
+      14,
+      412,
+      31
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "CHINESE JOURNAL OF CHROMATOGRAPHY",
+    "bbox": [
+      257,
+      32,
+      678,
+      46
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Vol. 17 No. 2",
+    "bbox": [
+      773,
+      15,
+      892,
+      29
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Mar. 1999",
+    "bbox": [
+      805,
+      33,
+      896,
+      46
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "\\* 国家自然科学重点基金资助项目(29635020)",
+    "bbox": [
+      35,
+      913,
+      395,
+      927
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "\\*\\* 通讯联系人",
+    "bbox": [
+      35,
+      927,
+      158,
+      937
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "本文收稿日期:1999-01-05",
+    "bbox": [
+      73,
+      937,
+      264,
+      950
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "(C)1994-2023 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cn",
+    "bbox": [
+      35,
+      957,
+      997,
+      975
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "VER-HSA 混合液由中性磷酸缓冲液(pH 7.4, 离子强度 I = 0.17) 溶解配制。",
+    "bbox": [
+      16,
+      62,
+      454,
+      96
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "3.2 仪器",
+    "text_level": 2,
+    "bbox": [
+      16,
+      100,
+      109,
+      115
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "Bio-Focus™ 3000 型毛细管电泳仪 (Bio-Rad, CA, USA)。50 cm×60 μm 石英毛细管柱 (河北永年光导纤维厂)，检测窗口距入口端 45 cm，内壁用聚丙烯酰胺涂渍，检测波长定为 200 nm，柱温 25 ℃，运行电压 15 kV，由正到负，每次运行前柱内水洗 60 s，运行缓冲液洗 45 s。进样前先注入一段 pH 7.4 的缓冲液 207 kPa·s，压力进样 55.2 kPa·s。入口端和出口端分别使用不同的缓冲液，使带负电荷的 HSA 移向入口端，带正电荷的 (±) VER 移向出口端。",
+    "bbox": [
+      16,
+      120,
+      456,
+      298
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "3.3 工作曲线",
+    "text_level": 2,
+    "bbox": [
+      16,
+      302,
+      150,
+      317
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "分别配制浓度为 25, 50, 100, 150, 200 $\\mu$ mol/L 的 ( $\\pm$ )VER 标准溶液进行 CE 分析, VER 对映体得到基线分离。由于对映体浓度各占 50%, 所以 (R)-VER 和 (S)-VER 峰高相等 (图 1-a)。将峰高对浓度进行线性回归, 得到良好的线性关系, 线性相关系数 $r = 0.999(n = 5)$ 。",
+    "bbox": [
+      479,
+      62,
+      921,
+      177
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "3.4 游离(R)-VER 和(S)-VER 浓度的测定",
+    "text_level": 2,
+    "bbox": [
+      482,
+      182,
+      856,
+      199
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "配制一组不同浓度比的 VER-HSA 混合溶液，对上述溶液进行 CE 分析。由于 HSA 具有手性选择性，与 $(R)$ -VER 的结合作用强于与 $(S)$ -VER 的结合，所以，混合液中 $(R)$ -VER 的游离浓度小于 $(S)$ -VER 的游离浓度，二者峰高不相等。随着 HSA 浓度的增大， $(R)$ -VER 与 $(S)$ -VER 游离浓度之差也随之增大。",
+    "bbox": [
+      482,
+      201,
+      921,
+      320
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "chart",
+    "img_path": "images/5d6ac25acbb4d44c5d696301c965220a4b9c50884596fb2f45ab80504dbedc6e.jpg",
+    "content": "| t /min | Absorbance Unit |\n| ------ | --------------- |\n| 28     | ~0.000          |\n| 29     | ~0.020          |\n| 30     | ~0.000          |\n| 31     | ~0.020          |\n| 32     | ~0.000          |",
+    "chart_caption": [],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      38,
+      327,
+      355,
+      484
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "chart",
+    "img_path": "images/8ac107ae8406baff860c456bad451f32dc7f03cd01691fb95b8a06aed65d2ac0.jpg",
+    "content": "| Time (min) | Label |\n| ---------- | ----- |\n| 28         | R-VER |\n| 30         | S-VER |",
+    "chart_caption": [],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      355,
+      327,
+      621,
+      483
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "chart",
+    "img_path": "images/e47776051b2cd931ee1c9dd650735fadda2054f3d795fb52fe6325e89ac7dcd0.jpg",
+    "content": "| t /min | R-VER | S-VER |\n| ------ | ----- | ----- |\n| 28     | ~0    | ~0    |\n| 30     | ~0    | ~0    |\n| 32     | ~0    | ~0    |",
+    "chart_caption": [
+      "图 1 VER 外消旋体手性拆分的毛细管电泳/前沿分析谱图",
+      "Fig. 1 Electropherograms of VER enantiomers under HSA's stereoselective binding"
+    ],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      621,
+      327,
+      902,
+      481
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/942e04f60d7c3144e02dede0a4e594259c046430ea0529b252983c01fb5755e4.jpg",
+    "table_caption": [
+      "表 1 CE 测定的 VER 对映体浓度",
+      "Table 1 Free concentrations of VER enantiomers determined by CE"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>HSA : (±)VER $(\\mu mol/L)$ </td><td>[R]  $(\\mu mol/L)$ </td><td>[S]  $(\\mu mol/L)$ </td><td>[S]/[R]</td><td>[S-HSA]/ [R-HSA]</td></tr><tr><td>500 : 300</td><td>70.2</td><td>116.3</td><td>1.70</td><td>0.42</td></tr><tr><td>400 : 100</td><td>27.4</td><td>40.4</td><td>1.47</td><td>0.42</td></tr><tr><td>400 : 150</td><td>39.4</td><td>53.6</td><td>1.36</td><td>0.60</td></tr><tr><td>400 : 200</td><td>58.7</td><td>80.6</td><td>1.37</td><td>0.47</td></tr><tr><td>300 : 200</td><td>57.7</td><td>83.5</td><td>1.45</td><td>0.39</td></tr><tr><td>200 : 100</td><td>31.5</td><td>43.5</td><td>1.38</td><td>0.35</td></tr><tr><td>200 : 200</td><td>69.8</td><td>92.8</td><td>1.33</td><td>0.24</td></tr><tr><td>150 : 200</td><td>75.4</td><td>95.7</td><td>1.27</td><td>0.17</td></tr><tr><td>100 : 100</td><td>42.0</td><td>47.5</td><td>1.15</td><td>0.31</td></tr></table>",
+    "bbox": [
+      21,
+      579,
+      443,
+      768
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "S 和 R 分别表示 (S)-VER 和 (R)-VER [S and R represent (S)-VER and (R)-VER]。S-HAS 和 R-HSA 分别表示 (S)-VER 和 (R)-VER 与 HSA 的结合物 [S-HSA and R-HSA represent (S)-VER and (R)-VER bound HSA complexes]。",
+    "bbox": [
+      16,
+      768,
+      456,
+      840
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "4 结果与讨论",
+    "text_level": 2,
+    "bbox": [
+      19,
+      844,
+      171,
+      862
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "4.1 混合液中组分的电泳特性",
+    "text_level": 2,
+    "bbox": [
+      19,
+      867,
+      287,
+      882
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "在生理条件的 pH 7.4 的磷酸缓冲溶液中, HSA (等电点 pI=4.9) 带负电荷; 而 VER 是碱性药物, 在此条件下带正电荷。因为采用涂渍电泳柱, 没有电渗流,因此,在电场(+→-)作用下,HSA反向迁移,从进口端流出;VER向检测器端正向迁移,出现检测响应信号。这个结果对消除干扰的情况下测定VER的游离浓度非常有利。前沿分析技术的采用,在药物与血清白蛋白解离平衡过程中保持药物的游离浓度不变,峰高与浓度呈线性关系 $^{[6]}$ 。",
+    "bbox": [
+      19,
+      888,
+      456,
+      946
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      484,
+      526,
+      921,
+      642
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "4.2 手性拆分",
+    "text_level": 2,
+    "bbox": [
+      486,
+      648,
+      619,
+      663
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "TM- $\\beta$ -CD 在酸性运行缓冲液(pH 2.5)中对VER 对映体能够基线分离，而在中性缓冲液(pH 7.4)中拆分效率较低。浓度45 mmol/L 拆分效率优于10或20 mmol/L。类似的VER 对映体手性拆分条件已有报道 $^{[4,9]}$ 。",
+    "bbox": [
+      486,
+      666,
+      921,
+      764
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "4.3 进样方式",
+    "text_level": 2,
+    "bbox": [
+      486,
+      768,
+      621,
+      783
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "为了保持 HSA-VER 的解离平衡 pH 条件不变，而且 HSA 始终带负电荷，在进样前注入一段 pH 7.4 的中性缓冲液，使其保持约 3 cm 长度，避免与酸性溶液的直接接触，起到在线毛细管电泳液相预柱 (LPC-CE) 作用 $^{[10]}$ ，并且在进样口浸入相同的缓冲液中。实验证实，如果没有采用液相预柱，在 pH 2.5 条件下白蛋白的电泳淌度大于药物的电泳淌度，手性拆分试剂在白蛋白的影响下无法发挥效力。对于能够在中性缓冲液中实现良好手性拆分的药物,则不必采用液相预柱。",
+    "bbox": [
+      486,
+      788,
+      921,
+      946
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "2期",
+    "bbox": [
+      38,
+      25,
+      76,
+      40
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "丁永生等:人血清白蛋白与手性药物相互作用的毛细管电泳研究(Ⅰ)",
+    "bbox": [
+      188,
+      24,
+      761,
+      40
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "· 139 ·",
+    "bbox": [
+      820,
+      25,
+      887,
+      39
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "(C)1994-2023 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cn",
+    "bbox": [
+      35,
+      957,
+      997,
+      975
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      19,
+      60,
+      458,
+      96
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "4.4 HSA-VER 相互作用",
+    "text_level": 2,
+    "bbox": [
+      19,
+      100,
+      243,
+      115
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "在 HSA-VER 平衡体系中, 经过手性拆分可测定出游离 VER 对映体的浓度。根据表 1 中所列出的数据可以看出: (1) (R)-VER 游离浓度小于 (S)-VER 游离浓度, 说明在结合过程中, HSA 对 (R)-VER 具有比较强的手性选择性; (2) 结合浓度比 [S-HSA]/[R-HSA] 随着 HSA 与药物浓度比的增大而增加 (图 2 所示 a, b, c, a', b', c')。但是, 相同的白蛋白-药物浓度比却不一定有相同的结合比 (图 2 中 a 与 a', b 与 b')。不同的白蛋白-药物浓度比也可以得到相同的结合比 (图 2 中 c 与 c')。",
+    "bbox": [
+      19,
+      120,
+      458,
+      317
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "chart",
+    "img_path": "images/50c841d856ac26ac2f94a518334bd3dc2680b9a8128ce4a7bc6b2d4cb7ced33b.jpg",
+    "content": "| Label | [HSA]/[(±)VER] | (S-HSA)/(R-HSA) |\n|-------|----------------|-----------------|\n| a     | 1.0            | 0.24            |\n| a'    | 1.0            | 0.31            |\n| a     | 1.0            | 0.17            |\n| b     | 2.0            | 0.48            |\n| b'    | 2.0            | 0.35            |\n| c     | 1.5            | 0.42            |\n| c'    | 4.0            | 0.43            |",
+    "chart_caption": [
+      "图 2 结合浓度比与白蛋白药物浓度比关系图"
+    ],
+    "chart_footnote": [],
+    "sub_type": "scatterplot",
+    "bbox": [
+      25,
+      323,
+      471,
+      521
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "chart",
+    "img_path": "images/f417be5ecbf465e34cded2bef8d85e2026271a885356162322ed12bb25053c4a.jpg",
+    "content": "| [R-VER] × 10⁶mol/L | r_R    |\n| ------------------ | ------ |\n| 25                 | 0.06   |\n| 30                 | 0.10   |\n| 35                 | 0.12   |\n| 40                 | 0.09   |\n| 55                 | 0.18   |\n| 60                 | 0.12   |\n| 70                 | 0.20   |\n| 75                 | 0.21   |",
+    "chart_caption": [
+      "Fig. 2 Rate of bound drug enatiomers against the rate of albumin and drug racemate",
+      "图 3 根据方程(5)得到的 $r_{R}-[(R)-VER]$ 线性回归图示",
+      "Fig. 3 Regression plots of $r_{R^{-}}[(R)\\text{-VER}]$ according to equation (5)"
+    ],
+    "chart_footnote": [],
+    "sub_type": "scatterplot",
+    "bbox": [
+      29,
+      579,
+      458,
+      772
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "根据方程(5)和(6)的线性回归(图3和图4所示)求解出结合常数分别为 $K_{R}=2.7\\times10^{3}(\\pm4.4\\times10^{2})(r=0.934,n=9)$ 和 $K_{S}=8.5\\times10^{2}(\\pm1.0\\times10^{2})(r=0.957,n=9)$ 。",
+    "bbox": [
+      488,
+      60,
+      926,
+      138
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "chart",
+    "img_path": "images/edfa9d6f64d3facb0efcd637e52bc34d823b13358b2260a7288e8850ab4f3bbb.jpg",
+    "content": "| [S-VER] × 10⁶mol/L | r_s    |\n| ------------------ | ------ |\n| 40                 | 0.03   |\n| 50                 | 0.05   |\n| 60                 | 0.07   |\n| 80                 | 0.09   |\n| 90                 | 0.10   |\n| 115                | 0.11   |",
+    "chart_caption": [
+      "图 4 根据方程(6)得到的 $r_{s}-(S)-\\mathrm{VER}]$ 线性回归图示",
+      "Fig. 4 Regression plots of $r_s - [(S) - \\text{VER}]$ according to equation (6)"
+    ],
+    "chart_footnote": [],
+    "sub_type": "scatterplot",
+    "bbox": [
+      482,
+      153,
+      915,
+      348
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "参考文献",
+    "text_level": 2,
+    "bbox": [
+      625,
+      459,
+      790,
+      477
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "1 Meyer M C, Guttman D E. J Pharm Sci, 1968, 57(6): 895-918",
+      "2 Chu Y, Whitesides, G M. J Org. Chem, 1992, 57: 3524-3525",
+      "3 Kraak J C, Busch S, Poppe H. J Chromatogr, 1992, 608:257-264",
+      "4 Ohara T, Shibukawa A, Nakagawa T. Anal Chem, 1995, 67:3520-3525",
+      "5 Shibukawa A, Yoshimoyo Y, Ohara T et al. J Pharma Sciences, 1994, 83(5):616-619",
+      "6 丁永生,朱晓峰,林炳承.色谱,1999,17(1):513\\~515",
+      "7 丁永生, 林炳承. 分析化学, 1999, 27(1): 20\\~23",
+      "8 Bose S, Yang J, Hage D S. Anal Chem, 1995, 67: 3520-3525",
+      "9 Itoh T, Saura Y, Tsuda et al. Chirality, 1997, 9(7): 643-644",
+      "10 丁永生, 林炳承. 人血清白蛋白与手性药物相互作用的毛细管电泳研究 I. 液相预柱毛细管电泳技术定量可靠性的考察. 色谱, 1999, 17(2): 134\\~137"
+    ],
+    "bbox": [
+      488,
+      488,
+      926,
+      840
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "· 140 ·",
+    "bbox": [
+      50,
+      22,
+      118,
+      36
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "色 谱",
+    "bbox": [
+      431,
+      22,
+      551,
+      39
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "17卷",
+    "bbox": [
+      856,
+      24,
+      902,
+      39
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "(C)1994-2023 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cn",
+    "bbox": [
+      35,
+      957,
+      997,
+      975
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "Albumin-Drug Binding Study by Capillary Electrophoresis II. Determination of Drug Enantiomeric Binding Constants",
+    "text_level": 1,
+    "bbox": [
+      88,
+      88,
+      866,
+      138
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "Ding Yongsheng and Lin Bingcheng",
+    "bbox": [
+      293,
+      151,
+      651,
+      169
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "(Dalian Institute of Chemical Physics, the Chinese Academy of Sciences, Dalian, 116023)",
+    "bbox": [
+      103,
+      173,
+      843,
+      190
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "Abstract A capillary electrophoresis (CE) method was applied to determine the binding constants of the basic racemic drug, verapamil (VER) to human serum albumin (HSA) under drug-HSA binding equilibrium (in phosphae buffer pH 7.4, ionic strength = 0.17). In coated capillary, the unbound basic drug eluted as two zonal plateau peaks due to enantiomers separated by chiral selector (45 mmol/L trimethyl-β-cyclodextrin dissolved in pH 2.5 phosphate buffer) at 15 kV, and their concentrations can be determined from the peak heights. To avoid disturbing the VER-HSA equilibrium, the pH 7.4 solution was used as the inlet vial buffer, and a plug (about 3 cm long) of this buffer was introduced to the capillary before injection of analyte. The binding constants were obtained from linear regression plots. The unbound concentration of S-VER was 1.67 times higher than that of the antipode for the solution 300 μmol/L (±)VER-500 μmol/L HSA, while 1.13 for 100 μmol/L (±)VER-100 μmol/L HSA. The study confidently provides the binding constants of VER enantiomers to HSA, which are $K_R = 2.7 \\times 10^3 (\\pm 4.4 \\times 10^2)$ and $K_S = 8.5 \\times 10^3 (\\pm 1.0 \\times 10^2)$ .",
+    "bbox": [
+      19,
+      193,
+      926,
+      412
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "Key words capillary electrophoresis, albumin, drug enantiomerer",
+    "bbox": [
+      19,
+      415,
+      579,
+      430
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "博采众家之长，更具独特风格",
+    "bbox": [
+      285,
+      457,
+      661,
+      475
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "评学术专著《高效液相色谱在生命科学中的应用》",
+    "text_level": 2,
+    "bbox": [
+      154,
+      495,
+      792,
+      521
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "由中国科学院大连化学物理研究所林炳承研究员、山东医科大学附属医院邹雄教授、韩培祯教授主编，军事医学科学院放射研究所马立人教授等10多位专家共同撰写，山东科学技术出版社泰山科技专著出版基金会资助的学术专著《高效液相色谱在生命科学中的应用》已正式出版。中科院院士、国家奥林匹克兴奋剂检测委员会第一任主任周同惠教授为本书的出版欣然作序时说：“此书的出版实为我国色谱界从事生物医药分离分析同仁们的一大快事”。原卫生部部长陈敏章为本书题词：“依靠科技进步，促进生命科学向高层次发展”。",
+    "bbox": [
+      19,
+      536,
+      923,
+      666
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "本书共分三篇18章70万字。第一篇高效液相色谱基础计5章，着重阐述HPLC的基础理论、仪器、基础技术和应用原则。第二篇生物医学共10章，分别介绍HPLC在分析氨基酸、肽、蛋白质、酶和同工酶、甾类激素、受体、糖类、核酸和生物胺、维生素等方面的应用。最后3章归入第三篇药物，介绍HPLC在一般药物分析时的基本考虑，一些临床监测中常用药物的HPLC操作步骤，并有手性药物专论。在全书的内容编排中既考虑到满足生命科学各领域的工作人员和研究生的需要，也注意到为广大分离分析工作者，特别是为色谱工作者提供较为详细的关于生命物质的背景材料。本书集中反映了80年代后期起至今国内外高效液相色谱在生命科学领域内理论和应用的最新成就和进展，取材先进，涉及面广，颇具深度，而且论述严谨，编排合理，图文并茂，既有较高的学术水平，又有较大的实用价值，是90年代这一领域不可多得的新书。",
+    "bbox": [
+      19,
+      670,
+      923,
+      865
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "定价 56.00 元，邮费为定价的 15%，共计 64.40 元，汇款请寄：山东科学技术出版社发行部（济南市玉函路 16 号，邮编 250002）。如用银行电汇可寄山东科学技术出版社发行部，账户：济南市商业银行杆石桥支行 2820111002736-6。",
+    "bbox": [
+      19,
+      870,
+      923,
+      932
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "(宋 涛供稿)",
+    "bbox": [
+      786,
+      937,
+      919,
+      954
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "2期",
+    "bbox": [
+      44,
+      49,
+      82,
+      64
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "丁永生等:人血清白蛋白与手性药物相互作用的毛细管电泳研究(Ⅰ)",
+    "bbox": [
+      192,
+      49,
+      767,
+      64
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "· 141 ·",
+    "bbox": [
+      826,
+      50,
+      892,
+      64
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "(C)1994-2023 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cn",
+    "bbox": [
+      35,
+      957,
+      997,
+      975
+    ],
+    "page_idx": 3
+  }
+]

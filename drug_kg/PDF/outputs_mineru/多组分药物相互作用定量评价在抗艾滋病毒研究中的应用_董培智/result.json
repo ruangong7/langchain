@@ -1,0 +1,515 @@
+[
+  {
+    "type": "text",
+    "text": "多组分药物相互作用定量评价在抗艾滋病毒研究中的应用",
+    "text_level": 1,
+    "bbox": [
+      164,
+      109,
+      836,
+      169
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "董培智1，2 高永翔1 吴贤波1 岑国栋1",
+    "bbox": [
+      342,
+      185,
+      647,
+      204
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘要 目的 定量评价四组分药物抗艾滋病毒作用的相互关系。 方法 用 MTT 法检测天然药物四组分药物对细胞生长的影响，在最大无毒剂量以下观察4 种药物组分单用及合用的抗病毒作用，用中效原理计算2 种及4 种药物组分合用后的合用指数( combination index，CI) 值，以 CI 值评价不同药物合用后抗病毒作用的相互关系。 结果 AB 药物组分合用时以协同作用为主，大剂量趋向作用相加; CD 药物组分合用以拮抗作用为主，大剂量趋向相加; 但四药合用10%抑制率以上均为协同作用。 结论 采用中效原理可以定量评价4 组分药物之间抗艾滋病毒的相互作用关系。",
+    "bbox": [
+      87,
+      221,
+      905,
+      344
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词 多组分药物; 联合作用; 定量药理; 艾滋病毒",
+    "bbox": [
+      124,
+      349,
+      527,
+      366
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Application of Quantitative Evaluation on Multicomponent Drug Interaction in Anti-HIV Research DONG Peizhi 1，2 ，GAO Yong-xiang 1 ，WU Xian-bo 1 ，and CEN Guo-dong 1 TCM,Chengdu (610075）,China；2 Shanxi Institute for Drug Control,Taiyuan (O30001）,China",
+    "bbox": [
+      85,
+      392,
+      910,
+      449
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "ABSTRACT Objective To quantitatively evaluate mutual relations of 4 component drugs in anti-HIV action． Methods The effect of TCM four components on cell growth was detected using MTT assay． The antiviral effects of 4 components were observed at the maximal nonvenomous dose． The combination index ( CI) value of combined two or four components were calculated using median-effect principle． The mutual relations of two or four components for antiviral actions were assessed using CI． Results Synergism was dominant in combination of A and B，and the effect was dose-dependent． Antagonism was dominant in combination of C and D，and the effect was dose-dependent． But the combination of A，B，C，and D was synergistic when the inhibition rate was over 10% ． Conclusion Median-effect principle can be used to quantitatively assess the anti-HIV effect of four components．",
+    "bbox": [
+      87,
+      454,
+      909,
+      610
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "KEYWORDS multicomponent drug; combined effect; quantitative pharmacology; AIDS virus",
+    "bbox": [
+      121,
+      615,
+      744,
+      630
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "目前，公认的多组分药物的相互作用关系有四种:相加、协同、拮抗和无关［1］。 国内外许多学者对此四种作用关系提出很多定量评价的方法［2 ～ 6］，笔者已撰文［7］对这些评价方法做了介绍，重点介绍了中效原理［8 － 10］及其计算软件 CombiDrug 。 此软件已应用于计算中药与西药联用作用的研究中［11 － 13］，笔者尝试将中效原理用于定量评价四组分药物在抗艾滋病毒作用中的相互关系，结果如下。",
+    "bbox": [
+      70,
+      651,
+      482,
+      806
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "作者单位:1． 成都中医药大学基础医学院( 成都 610075) ;2． 山西省食品药品检验所( 太原 030001)",
+    "bbox": [
+      72,
+      861,
+      487,
+      890
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "通讯作者: 高永翔，Tel: 13708058929，E-mail: yxgaocd@ 163． com",
+    "bbox": [
+      97,
+      894,
+      457,
+      907
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "DOI: 10. 7661 /CJIM. 2013. 12. 1665",
+    "bbox": [
+      99,
+      910,
+      302,
+      923
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "材料与方法",
+    "text_level": 2,
+    "bbox": [
+      670,
+      662,
+      764,
+      677
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 材料 RPMI 1640 培养基: GIBCO Invitrogen公司; Plus HIV Ag-Ab ( Genscreen 试剂盒: Bio-Rad 公司; MT4 细胞: 中国人民解放军军事医学科学院全军艾滋病防治中心提供; HIV-1 SF33 实验株: 中国疾病预防控制中心参比试验室提供; MTT 溶液( 5 mg/mL) 、0.1 mol/L 盐酸 －异丙醇溶液; 受试药物: 从某天然药物中分离出 A、 B、 C、 D 四组分，用前用 RPMI 1640 培养液稀释至适宜浓度; NU-4750 型二氧化碳培养箱:美国 NuAire 公司; Forma Class Ⅱ 型生物安全柜: 美国Thermo Electron Corporation 公司; AD340s 酶标仪: 美国 Beckman Coulter 公司 。",
+    "bbox": [
+      510,
+      691,
+      924,
+      903
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2 方法",
+    "text_level": 2,
+    "bbox": [
+      546,
+      907,
+      615,
+      921
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2.1 药物对细胞生长的影响观察 取对数生长期的 MT4 细胞悬液，1 400 r /min 离心沉淀细胞 。 用RPMI 1640 培养基悬浮并稀释为 $1 \\times 1 0 ^ { 4 } / \\mathrm { m L }$ 的悬液 。将该 细 胞 悬 液 接 种 入 96 孔细胞培养板中，每 孔$2 0 0 ~ \\mu \\mathrm { I }$ 。将细胞培养板置于37 ℃ 、5% 二氧化碳和适宜湿度条件下培养过夜。",
+    "bbox": [
+      546,
+      926,
+      922,
+      942
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中国中西医结合杂志 2013 年 12 月第 33 卷第 12 期 CJITWM，December 2013，Vol． 33，No. 12",
+    "bbox": [
+      72,
+      59,
+      611,
+      71
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "· 1665 ·",
+    "bbox": [
+      868,
+      58,
+      917,
+      71
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      962,
+      833,
+      978
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      70,
+      89,
+      482,
+      183
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "取适量 A 、 B 、 C 、 D 及合用药物( 1 ∶ 0. 47 ∶ 0. 106 ∶0.121) 过滤除菌，用 RPMI 1640 培养基配制为不同浓度的混合液，加入到上述细胞孔中，每个浓度做3 个复孔，每孔 $1 0 0 ~ \\mu \\mathrm { L }$ 。 空白对照组中每孔加入不含药物的RPMI 1640 培养基。 轻轻振荡，将细胞培养板置于相同条件下继续培养72 h。",
+    "bbox": [
+      70,
+      187,
+      482,
+      301
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "72 h 后，将培养板离心弃去上清，立刻在所有孔中加入 $1 0 0 ~ { \\mu \\mathrm { L } } ~ \\mathrm { R P M I } ~ 1 6 4 0$ 培养基，再加入 MTT 溶液$1 0 ~ \\mu \\mathrm { L }$ 。 轻轻振荡在相同条件下继续培养 4 h。 然后每孔加入 0. 1 mol /L 盐酸 － 异丙醇溶液 $1 0 0 ~ \\mu \\mathrm { L }$ 。 反复吹打，使培养物中的蓝紫色结晶完全溶解，用酶标仪测量其 $\\mathrm { 0 D } _ { 5 7 0 \\mathrm { n m } - 6 5 0 \\mathrm { n m } }$ ，重复 3 次试验。",
+      "2. 2 药物抗病毒抑制率测定 取培养至对数生长期的 MT4 细胞，离心收集细胞，用培养基重悬并调整密度至 $1 \\times 1 0 ^ { 4 } / \\mathrm { m L }$ 。 接种入 96 孔细胞培养板中，每孔 $2 0 0 ~ \\mu \\mathrm { L }$ ，培养过夜。 参考文献［14］，根据 2. 1 实验结果，将无毒剂量以下不同浓度药物加至培养板中，同时设置不加药物阴性对照孔。"
+    ],
+    "bbox": [
+      70,
+      304,
+      482,
+      542
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "将培养板置于上述条件培养 24 h 后，每孔加入$1 \\ 0 0 0 \\mathrm { T C I D } _ { 5 0 }$ 的 HIV-1 SF33，轻轻振荡使药物及病毒颗粒分散均匀后，置于相同条件下继续培养72 h。",
+    "bbox": [
+      70,
+      545,
+      482,
+      603
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "将所有培养物分别移至 1. 5 mL 离心管中，2 500 r /min离心 10 min，吸取 $1 8 0 ~ \\mu \\mathrm { L }$ 上清转入另一支 1. 5 mL 离心管中，并加入 20 μL 5% Triton X-100溶液，振荡混匀后用于 HIV-1 P24 含量的测定。 按照试剂盒的操作步骤，用酶标仪测定各孔培养物的$\\mathrm { 0 D _ { 4 5 0 n m - 6 2 0 n m } }$ 值，重复 3 次试验。 根据 OD 值计算 3 次试验不同浓度药物单用及合用后测定的病毒平均抑制率，计算合用指数( combination index，CI) 值 。",
+    "bbox": [
+      70,
+      605,
+      482,
+      759
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2. 3 统计计算 药物对细胞生长抑制率计算: 细胞生长抑制率 = ( 空白对照组 OD 值 － 试验组 OD值) /空白对照组 OD 值 ×100% 。 计算各浓度 3 次试验抑制率平均值，用 CombiDrug 1. 0 软件计算抑制率为5% 时的药物浓度作为最大无毒剂量［14］。 药物对HIV 复制抑制率的计算: HIV 复制抑制率 =( 阴性对照组 OD 值 － 试验组 OD 值) /阴性对照组 OD 值 ×100% 。 计算各浓度 3 次试验抑制率平均值，用 Combi-Drug 1. 0 软件计算单药及合用 CI 值［7］，对于多药合用指数公式为 $\\mathrm { { C I } = \\sum _ { f = 1 } ^ { n } \\frac { \\left( \\ f a \\right) _ { f } } { \\left( \\ f n \\right) _ { f } } }$ f，其中 fa 为不同药物浓度的抑制率， $\\mathrm { f _ { u } } = 1 \\mathrm { f _ { a } } \\circ \\mathrm { C I } < 1$ 为协同，CI = 1 为相加， $\\mathrm { C I } > 1$ 为拮抗 。",
+    "bbox": [
+      70,
+      762,
+      482,
+      935
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      90,
+      922,
+      162
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "结 果",
+    "text_level": 2,
+    "bbox": [
+      678,
+      183,
+      756,
+      199
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "1 药物对细胞生长的影响 四种药物组分及合用后最大无毒剂量 为 $\\mathrm { ~ A ~ } 5 2 3 ~ { \\mu \\mathrm { g } } / \\mathrm { m L } , \\mathrm { B } 2 4 1 ~ { \\mu \\mathrm { g } } / \\mathrm { m L } ,$ $\\mathrm { A + B { \\left( \\begin{array} { l l l } { 2 . 1 : 1 } & { ) } & { 2 5 7 ~ \\mu g / m L ~ + 1 2 2 ~ \\mu g / m L , C ~ 2 2 2 ~ \\mu g / } \\right|} \\end{array}  }$ $\\mathrm { { m L } , D ~ 1 1 6 ~ \\ p a g / { m L } , C ~ + ~ D \\big ( ~ 0 . 9 4 : 1 \\big ) ~ 1 0 7 ~ \\ p a g / { m L } ~ + 1 0 3 }$ $\\mu _ { \\mathrm { { e } } } ^ { \\mathrm { { g } / m L , A + B + C + D \\left( \\Omega 1 : 0 . 4 7 : 0 . 1 0 6 : 0 . 1 2 1 \\right) 2 0 ~ \\mu _ { \\mathrm { { e } } } ^ { \\mathrm { { g } / } } } }$ $\\mathrm { \\ m L ~ + 9 . 4 ~ { \\mu } _ { \\odot } ^ { g } / m L ~ + 2 . ~ 1 ~ { \\mu } _ { \\odot } ^ { g } / m L ~ + 2 . ~ 4 2 ~ { \\mu } _ { \\odot } ^ { g } / m L }$ 。 药物抗病毒试验均在此浓度以下进行。",
+      "2 药物抗病毒抑制率测定( 图 1) A、B 合用时以协同为主，大剂量趋向相加; C、D 合用以拮抗为主，大剂量趋向相加; 但 A、B、C、D 合用 10%抑制率以上均为协同作用，而且效应 20% 以上有很强的协同作用，提示 A、B、C、D 在此配比下对 MT4 细胞的抗病毒作用有很好的协同作用。"
+    ],
+    "bbox": [
+      510,
+      219,
+      922,
+      469
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "chart",
+    "img_path": "images/725f0b062fe0a50a0ba9c5700d5b3d9c176bb467b4a02c495dc5df239005dc27.jpg",
+    "content": "| 作用强度 | A+B   | C+D   | A+B+C+D | CI=1  |\n| --------- | ----- | ----- | ------- | ----- |\n| 0.0       | 0.3   | 4.0   | 2.0     | 1.0   |\n| 0.2       | 0.4   | 2.5   | 0.5     | 1.0   |\n| 0.4       | 0.5   | 1.5   | 0.2     | 1.0   |\n| 0.6       | 0.6   | 1.2   | 0.1     | 1.0   |\n| 0.8       | 0.7   | 1.1   | 0.05    | 1.0   |\n| 1.0       | 0.8   | 1.0   | 0.0     | 1.0   |",
+    "chart_caption": [
+      "图1 各药物合用时不同效应下的 CI 值"
+    ],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      524,
+      488,
+      890,
+      651
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "讨 论",
+    "text_level": 2,
+    "bbox": [
+      678,
+      692,
+      756,
+      708
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "本实验首先测出4 种药物组分单用及合用时对细胞生长活性影响的最大无毒剂量，在最大无毒剂量以下浓度测定药物的抗病毒作用，排除了药物本身毒性造成细胞死亡因素影响。 研究结果表明，虽然 C、D 合用后呈现拮抗作用，但试验结果显示，C、D 与 AB 以一定配比联合应用后，显示出很强的协同作用，远远大于AB 联合的协同作用，可能 A、B 与 C、D 作用的位点或机制不同，共同作用后阻断 HIV 病毒复制的途径。",
+    "bbox": [
+      510,
+      721,
+      922,
+      874
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "目前多药联合作用实验大多为两药联合作用的研究，有关4 种药物组分联合作用的研究较少，本实验既有两种药物的联合作用，又有4 种药物组分的联合作用，既有拮抗作用，又有协同作用，均可以用中效原理来定量评价其4 种药物组分之间的关系。 为类似的多药联合作用的研究提供了思路。",
+    "bbox": [
+      510,
+      878,
+      922,
+      935
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "· 1666 ·",
+    "bbox": [
+      78,
+      58,
+      126,
+      70
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "中国中西医结合杂志 2013 年 12 月第 33 卷第 12 期 CJITWM，December 2013，Vol． 33，No. 12",
+    "bbox": [
+      369,
+      59,
+      922,
+      71
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      962,
+      833,
+      978
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      70,
+      89,
+      480,
+      144
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "本试验仅从体外细胞试验发现 4 种药物组分联用具有很强的协同作用，具体还需要临床试验验证，其 4种药物组分具体作用位点或作用机制还需要进一步探索 。",
+    "bbox": [
+      70,
+      148,
+      480,
+      223
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "参 考 文 献",
+    "text_level": 2,
+    "bbox": [
+      220,
+      236,
+      334,
+      250
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "［1］ WHO． Technic report series 662 ［M］． Geneva: WHOPress，1981: 8 － 9．",
+      "［2］ 顾兵，王心如． 联合作用特征的评价 ［J］． 中国工业医学杂志，2000，13( 1) : 57 － 60．",
+      "［3］ 冯萍． 研究药物协同作用的统计学方法［J］． 中国卫生统计，2005，22( 1) : 44 － 46．",
+      "［4］ 霍海如，姜廷良． 衡量联合用药作用研究方法评价［J］．中药药理与临床，2005，21( 3) : 60 － 64．",
+      "［5］ 金正均，王永铭，苏定冯，主编． 药理学进展［M］． 北京: 科学出版社，1998: 148．",
+      "［6］ Zheng QS，Sun RY． Analysis of drug interactions in combineddrug therapy by reflection method［J］． Acta Pharmacol Sin，2000，21( 2) : 183 －187．",
+      "［7］ 董培智，高永翔． 中药复方联合作用的定量评价方法及CombiDrug 软件的验证和应用 ［A］． 《中医药创新与发展》编委会． 中医药创新与发展 － 中医药学传承创新与基础理论研究［M］． 成都: 四川出版集团 · 四川科学技术出版社，2010: 112 － 116．",
+      "［8］ Chou TC． Theoretical basis，experimental design，",
+      "and computerized simulation of synergism and antagonism in drug combination studies［J］． Pharmcol Rev，2006，58 ( 3) : 621 － 681．",
+      "［9］ Schneiderman RS，Shmueli E，Kirson ED，et al． TT fields alone and in combination with chemotherapeutic agents effectively reduce the viability of MDR cell sub-lines that over-express ABC transporters［J］． BMC Cancer，2010， 10: 229．",
+      "［10］ Kalra J，Warburton C，Fang K，et al． QLT0267，a small molecule inhibitor targeting integrin-linked kinase ( ILK) ， and docetaxel can combine to produce synergistic interactions linked to enhanced cytotoxicity，reductions in P-AKT levels，altered F-actin architecture and improved treatment outcomes in an orthotopic breast cancer model［J］． Breast Cancer Res，2009，11( 3) : 25．",
+      "［11］ 卫爱宁，许荣华，庄雅丽，等． IGF-1R 抑制剂与厄洛替尼对卵巢上皮性癌 HO-8910 细胞凋亡的影响 ［J］． 安徽医科大学学报，2012，47 ( 9) : 1043 － 1046．",
+      "［12］ 邹征云，禹立霞，陈军浩，等． 藤黄酸与草酸铂间的相互作用及机制探讨［J］． 南京医科大学学报( 自然科学版) ，2009，29( 6) : 801 － 806．",
+      "［13］ 邹征云，魏嘉，王婷婷，等． 藤黄酸与5 － FU 相互作用的中效原理评价［J］． 中华肿瘤防治杂志，2009，16( 16) :1225 － 1228．",
+      "［14］ 吴芳，胡春宏． 5 － 氮 －2' － 脱氧胞苷逆转人非小细胞肺癌 A549 /DDP 细胞对顺铂的耐药性［J］． 中华肿瘤杂志，2011，33( 5) : 349-353．",
+      "( 收稿: 2012 － 12 － 12 修回: 2013 － 08 － 07 )"
+    ],
+    "bbox": [
+      82,
+      260,
+      487,
+      600
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      519,
+      87,
+      927,
+      583
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "欢 迎 投 稿 欢 迎 订 阅",
+    "text_level": 1,
+    "bbox": [
+      213,
+      684,
+      779,
+      713
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "中国中西医结合杂志 2013 年 12 月第 33 卷第 12 期 CJITWM，December 2013，Vol． 33，No. 12",
+    "bbox": [
+      72,
+      59,
+      611,
+      71
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "· 1667 ·",
+    "bbox": [
+      868,
+      58,
+      917,
+      71
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      962,
+      833,
+      978
+    ],
+    "page_idx": 2
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "canonical_name": "西咪替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "地昔帕明",
+        "canonical_name": "地昔帕明",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "美托洛尔",
+        "canonical_name": "美托洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "氟哌啶醇",
+        "canonical_name": "氟哌啶醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "MAOI",
+        "canonical_name": "单胺氧化酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "利奈唑胺",
+        "canonical_name": "利奈唑胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "亚甲蓝",
+        "canonical_name": "亚甲蓝",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "5-HT综合征",
+        "canonical_name": "5-羟色胺综合征",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "人卫药学",
+          "chunk_index": 794,
+          "raw_text": "西咪替丁抑制其代谢，其可升高地昔帕明、美托洛尔的血药浓度",
+          "chunk_id": "794",
+          "data": "。西咪替丁抑制其代谢，其可升高地昔帕明、美托洛尔的血药浓度；降低氟哌啶醇的口服清除率；禁止同时服用MAOI，停用MAOI至少14天内不得使用本品，停用本品至少7天方可用MAOI。总之，抗抑郁药与MAOI、增强5-HT能神经功能的药物合用易出现5-HT综合征，对正服用MAOI（包括利奈唑胺、静脉注射用亚甲蓝）的患者应禁用。 以上内容节选自 《临床处方审核案例详解丛书——神经系统疾病与精神障碍》，主编张晓娟、温预关。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "人卫药学",
+          "chunk_index": 794,
+          "raw_text": "西咪替丁抑制其代谢，其可升高地昔帕明、美托洛尔的血药浓度",
+          "chunk_id": "794",
+          "data": "。西咪替丁抑制其代谢，其可升高地昔帕明、美托洛尔的血药浓度；降低氟哌啶醇的口服清除率；禁止同时服用MAOI，停用MAOI至少14天内不得使用本品，停用本品至少7天方可用MAOI。总之，抗抑郁药与MAOI、增强5-HT能神经功能的药物合用易出现5-HT综合征，对正服用MAOI（包括利奈唑胺、静脉注射用亚甲蓝）的患者应禁用。 以上内容节选自 《临床处方审核案例详解丛书——神经系统疾病与精神障碍》，主编张晓娟、温预关。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "人卫药学",
+          "chunk_index": 794,
+          "raw_text": "降低氟哌啶醇的口服清除率",
+          "chunk_id": "794",
+          "data": "。西咪替丁抑制其代谢，其可升高地昔帕明、美托洛尔的血药浓度；降低氟哌啶醇的口服清除率；禁止同时服用MAOI，停用MAOI至少14天内不得使用本品，停用本品至少7天方可用MAOI。总之，抗抑郁药与MAOI、增强5-HT能神经功能的药物合用易出现5-HT综合征，对正服用MAOI（包括利奈唑胺、静脉注射用亚甲蓝）的患者应禁用。 以上内容节选自 《临床处方审核案例详解丛书——神经系统疾病与精神障碍》，主编张晓娟、温预关。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_5",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "人卫药学",
+          "chunk_index": 794,
+          "raw_text": "抗抑郁药与MAOI、增强5-HT能神经功能的药物合用易出现5-HT综合征",
+          "chunk_id": "794",
+          "data": "。西咪替丁抑制其代谢，其可升高地昔帕明、美托洛尔的血药浓度；降低氟哌啶醇的口服清除率；禁止同时服用MAOI，停用MAOI至少14天内不得使用本品，停用本品至少7天方可用MAOI。总之，抗抑郁药与MAOI、增强5-HT能神经功能的药物合用易出现5-HT综合征，对正服用MAOI（包括利奈唑胺、静脉注射用亚甲蓝）的患者应禁用。 以上内容节选自 《临床处方审核案例详解丛书——神经系统疾病与精神障碍》，主编张晓娟、温预关。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "人卫药学",
+          "chunk_index": 794,
+          "raw_text": "对正服用MAOI（包括利奈唑胺、静脉注射用亚甲蓝）的患者应禁用",
+          "chunk_id": "794",
+          "data": "。西咪替丁抑制其代谢，其可升高地昔帕明、美托洛尔的血药浓度；降低氟哌啶醇的口服清除率；禁止同时服用MAOI，停用MAOI至少14天内不得使用本品，停用本品至少7天方可用MAOI。总之，抗抑郁药与MAOI、增强5-HT能神经功能的药物合用易出现5-HT综合征，对正服用MAOI（包括利奈唑胺、静脉注射用亚甲蓝）的患者应禁用。 以上内容节选自 《临床处方审核案例详解丛书——神经系统疾病与精神障碍》，主编张晓娟、温预关。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "人卫药学",
+          "chunk_index": 794,
+          "raw_text": "对正服用MAOI（包括利奈唑胺、静脉注射用亚甲蓝）的患者应禁用",
+          "chunk_id": "794",
+          "data": "。西咪替丁抑制其代谢，其可升高地昔帕明、美托洛尔的血药浓度；降低氟哌啶醇的口服清除率；禁止同时服用MAOI，停用MAOI至少14天内不得使用本品，停用本品至少7天方可用MAOI。总之，抗抑郁药与MAOI、增强5-HT能神经功能的药物合用易出现5-HT综合征，对正服用MAOI（包括利奈唑胺、静脉注射用亚甲蓝）的患者应禁用。 以上内容节选自 《临床处方审核案例详解丛书——神经系统疾病与精神障碍》，主编张晓娟、温预关。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 794,
+    "source": "人卫药学",
+    "text": "。西咪替丁抑制其代谢，其可升高地昔帕明、美托洛尔的血药浓度；降低氟哌啶醇的口服清除率；禁止同时服用MAOI，停用MAOI至少14天内不得使用本品，停用本品至少7天方可用MAOI。总之，抗抑郁药与MAOI、增强5-HT能神经功能的药物合用易出现5-HT综合征，对正服用MAOI（包括利奈唑胺、静脉注射用亚甲蓝）的患者应禁用。 以上内容节选自 《临床处方审核案例详解丛书——神经系统疾病与精神障碍》，主编张晓娟、温预关。"
+  }
+]

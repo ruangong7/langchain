@@ -1,0 +1,347 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "TKI",
+        "canonical_name": "酪氨酸激酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "阿法替尼",
+        "canonical_name": "阿法替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "达克替尼",
+        "canonical_name": "达克替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "奥希替尼",
+        "canonical_name": "奥希替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "alectinib",
+        "canonical_name": "阿来替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "克唑替尼",
+        "canonical_name": "克唑替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "capmatinib",
+        "canonical_name": "卡马替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "selpercatinib",
+        "canonical_name": "塞尔帕替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "利托那韦",
+        "canonical_name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "Paxlovid",
+        "canonical_name": "Paxlovid",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "CYP 3A4 强抑制剂",
+        "canonical_name": "CYP 3A4 强抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "CYP 3A4 强诱导剂",
+        "canonical_name": "CYP 3A4 强诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "EGFR抑制剂",
+        "canonical_name": "EGFR抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "ALK抑制剂",
+        "canonical_name": "ALK抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "ROS1抑制剂",
+        "canonical_name": "ROS1抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "MET抑制剂",
+        "canonical_name": "MET抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "DrugClass",
+        "name": "RET抑制剂",
+        "canonical_name": "RET抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "DrugClass",
+        "name": "CYP 2D6 强抑制剂",
+        "canonical_name": "CYP 2D6 强抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Disease",
+        "name": "COVID-19",
+        "canonical_name": "COVID-19",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Population",
+        "name": "入院高危患者",
+        "canonical_name": "入院高危患者",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 235,
+          "raw_text": "在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小",
+          "chunk_id": "235",
+          "data": "。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响。结果在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼。在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低。ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外。在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响。RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小。某些用于肺癌 TKI 的支持治疗药物可能具有显着的 DDI。目前对感染COVID但没有重型或危重型的症状与体征的入院高危患者（参考 NEJM医学前沿《重症COVID-19：高危因素，临床表现，治疗策略》）推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗，由于该制剂中的Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂，需要警惕其与其他药物的相互作用，可能增加某些药物的系统暴露风险，导致毒副作用增加。在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症。肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用。虽然利托那韦是 CYP 3A4 的强抑制剂，但 CYP 3A4 的抑制程度因 TKI 以及抑制剂的剂量和持续时间而异"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 235,
+          "raw_text": "在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼",
+          "chunk_id": "235",
+          "data": "。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响。结果在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼。在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低。ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外。在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响。RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小。某些用于肺癌 TKI 的支持治疗药物可能具有显着的 DDI。目前对感染COVID但没有重型或危重型的症状与体征的入院高危患者（参考 NEJM医学前沿《重症COVID-19：高危因素，临床表现，治疗策略》）推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗，由于该制剂中的Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂，需要警惕其与其他药物的相互作用，可能增加某些药物的系统暴露风险，导致毒副作用增加。在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症。肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用。虽然利托那韦是 CYP 3A4 的强抑制剂，但 CYP 3A4 的抑制程度因 TKI 以及抑制剂的剂量和持续时间而异"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 235,
+          "raw_text": "在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼",
+          "chunk_id": "235",
+          "data": "。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响。结果在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼。在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低。ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外。在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响。RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小。某些用于肺癌 TKI 的支持治疗药物可能具有显着的 DDI。目前对感染COVID但没有重型或危重型的症状与体征的入院高危患者（参考 NEJM医学前沿《重症COVID-19：高危因素，临床表现，治疗策略》）推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗，由于该制剂中的Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂，需要警惕其与其他药物的相互作用，可能增加某些药物的系统暴露风险，导致毒副作用增加。在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症。肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用。虽然利托那韦是 CYP 3A4 的强抑制剂，但 CYP 3A4 的抑制程度因 TKI 以及抑制剂的剂量和持续时间而异"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 235,
+          "raw_text": "在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低",
+          "chunk_id": "235",
+          "data": "。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响。结果在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼。在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低。ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外。在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响。RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小。某些用于肺癌 TKI 的支持治疗药物可能具有显着的 DDI。目前对感染COVID但没有重型或危重型的症状与体征的入院高危患者（参考 NEJM医学前沿《重症COVID-19：高危因素，临床表现，治疗策略》）推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗，由于该制剂中的Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂，需要警惕其与其他药物的相互作用，可能增加某些药物的系统暴露风险，导致毒副作用增加。在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症。肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用。虽然利托那韦是 CYP 3A4 的强抑制剂，但 CYP 3A4 的抑制程度因 TKI 以及抑制剂的剂量和持续时间而异"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 235,
+          "raw_text": "ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外",
+          "chunk_id": "235",
+          "data": "。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响。结果在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼。在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低。ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外。在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响。RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小。某些用于肺癌 TKI 的支持治疗药物可能具有显着的 DDI。目前对感染COVID但没有重型或危重型的症状与体征的入院高危患者（参考 NEJM医学前沿《重症COVID-19：高危因素，临床表现，治疗策略》）推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗，由于该制剂中的Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂，需要警惕其与其他药物的相互作用，可能增加某些药物的系统暴露风险，导致毒副作用增加。在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症。肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用。虽然利托那韦是 CYP 3A4 的强抑制剂，但 CYP 3A4 的抑制程度因 TKI 以及抑制剂的剂量和持续时间而异"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 235,
+          "raw_text": "在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响",
+          "chunk_id": "235",
+          "data": "。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响。结果在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼。在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低。ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外。在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响。RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小。某些用于肺癌 TKI 的支持治疗药物可能具有显着的 DDI。目前对感染COVID但没有重型或危重型的症状与体征的入院高危患者（参考 NEJM医学前沿《重症COVID-19：高危因素，临床表现，治疗策略》）推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗，由于该制剂中的Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂，需要警惕其与其他药物的相互作用，可能增加某些药物的系统暴露风险，导致毒副作用增加。在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症。肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用。虽然利托那韦是 CYP 3A4 的强抑制剂，但 CYP 3A4 的抑制程度因 TKI 以及抑制剂的剂量和持续时间而异"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 235,
+          "raw_text": "RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小",
+          "chunk_id": "235",
+          "data": "。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响。结果在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼。在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低。ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外。在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响。RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小。某些用于肺癌 TKI 的支持治疗药物可能具有显着的 DDI。目前对感染COVID但没有重型或危重型的症状与体征的入院高危患者（参考 NEJM医学前沿《重症COVID-19：高危因素，临床表现，治疗策略》）推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗，由于该制剂中的Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂，需要警惕其与其他药物的相互作用，可能增加某些药物的系统暴露风险，导致毒副作用增加。在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症。肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用。虽然利托那韦是 CYP 3A4 的强抑制剂，但 CYP 3A4 的抑制程度因 TKI 以及抑制剂的剂量和持续时间而异"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 235,
+          "raw_text": "强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响",
+          "chunk_id": "235",
+          "data": "。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响。结果在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼。在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低。ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外。在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响。RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小。某些用于肺癌 TKI 的支持治疗药物可能具有显着的 DDI。目前对感染COVID但没有重型或危重型的症状与体征的入院高危患者（参考 NEJM医学前沿《重症COVID-19：高危因素，临床表现，治疗策略》）推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗，由于该制剂中的Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂，需要警惕其与其他药物的相互作用，可能增加某些药物的系统暴露风险，导致毒副作用增加。在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症。肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用。虽然利托那韦是 CYP 3A4 的强抑制剂，但 CYP 3A4 的抑制程度因 TKI 以及抑制剂的剂量和持续时间而异"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 235,
+          "raw_text": "强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响",
+          "chunk_id": "235",
+          "data": "。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响。结果在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼。在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低。ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外。在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响。RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小。某些用于肺癌 TKI 的支持治疗药物可能具有显着的 DDI。目前对感染COVID但没有重型或危重型的症状与体征的入院高危患者（参考 NEJM医学前沿《重症COVID-19：高危因素，临床表现，治疗策略》）推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗，由于该制剂中的Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂，需要警惕其与其他药物的相互作用，可能增加某些药物的系统暴露风险，导致毒副作用增加。在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症。肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用。虽然利托那韦是 CYP 3A4 的强抑制剂，但 CYP 3A4 的抑制程度因 TKI 以及抑制剂的剂量和持续时间而异"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 235,
+          "raw_text": "利托那韦是 CYP 3A4 的强抑制剂，肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用",
+          "chunk_id": "235",
+          "data": "。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响。结果在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼。在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低。ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外。在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响。RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小。某些用于肺癌 TKI 的支持治疗药物可能具有显着的 DDI。目前对感染COVID但没有重型或危重型的症状与体征的入院高危患者（参考 NEJM医学前沿《重症COVID-19：高危因素，临床表现，治疗策略》）推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗，由于该制剂中的Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂，需要警惕其与其他药物的相互作用，可能增加某些药物的系统暴露风险，导致毒副作用增加。在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症。肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用。虽然利托那韦是 CYP 3A4 的强抑制剂，但 CYP 3A4 的抑制程度因 TKI 以及抑制剂的剂量和持续时间而异"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 235,
+          "raw_text": "Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂",
+          "chunk_id": "235",
+          "data": "。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响。结果在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼。在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低。ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外。在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响。RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小。某些用于肺癌 TKI 的支持治疗药物可能具有显着的 DDI。目前对感染COVID但没有重型或危重型的症状与体征的入院高危患者（参考 NEJM医学前沿《重症COVID-19：高危因素，临床表现，治疗策略》）推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗，由于该制剂中的Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂，需要警惕其与其他药物的相互作用，可能增加某些药物的系统暴露风险，导致毒副作用增加。在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症。肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用。虽然利托那韦是 CYP 3A4 的强抑制剂，但 CYP 3A4 的抑制程度因 TKI 以及抑制剂的剂量和持续时间而异"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_21",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 235,
+          "raw_text": "Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂",
+          "chunk_id": "235",
+          "data": "。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响。结果在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼。在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低。ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外。在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响。RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小。某些用于肺癌 TKI 的支持治疗药物可能具有显着的 DDI。目前对感染COVID但没有重型或危重型的症状与体征的入院高危患者（参考 NEJM医学前沿《重症COVID-19：高危因素，临床表现，治疗策略》）推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗，由于该制剂中的Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂，需要警惕其与其他药物的相互作用，可能增加某些药物的系统暴露风险，导致毒副作用增加。在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症。肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用。虽然利托那韦是 CYP 3A4 的强抑制剂，但 CYP 3A4 的抑制程度因 TKI 以及抑制剂的剂量和持续时间而异"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_13",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 235,
+          "raw_text": "在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症",
+          "chunk_id": "235",
+          "data": "。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响。结果在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼。在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低。ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外。在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响。RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小。某些用于肺癌 TKI 的支持治疗药物可能具有显着的 DDI。目前对感染COVID但没有重型或危重型的症状与体征的入院高危患者（参考 NEJM医学前沿《重症COVID-19：高危因素，临床表现，治疗策略》）推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗，由于该制剂中的Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂，需要警惕其与其他药物的相互作用，可能增加某些药物的系统暴露风险，导致毒副作用增加。在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症。肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用。虽然利托那韦是 CYP 3A4 的强抑制剂，但 CYP 3A4 的抑制程度因 TKI 以及抑制剂的剂量和持续时间而异"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_11",
+        "target_id": "ent_22",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 235,
+          "raw_text": "对感染COVID但没有重型或危重型的症状与体征的入院高危患者推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗",
+          "chunk_id": "235",
+          "data": "。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响。结果在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼。在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低。ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外。在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响。RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小。某些用于肺癌 TKI 的支持治疗药物可能具有显着的 DDI。目前对感染COVID但没有重型或危重型的症状与体征的入院高危患者（参考 NEJM医学前沿《重症COVID-19：高危因素，临床表现，治疗策略》）推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗，由于该制剂中的Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂，需要警惕其与其他药物的相互作用，可能增加某些药物的系统暴露风险，导致毒副作用增加。在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症。肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用。虽然利托那韦是 CYP 3A4 的强抑制剂，但 CYP 3A4 的抑制程度因 TKI 以及抑制剂的剂量和持续时间而异"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "APPLIES_TO",
+        "source_id": "ent_23",
+        "target_id": "ent_22",
+        "properties": {
+          "source": "VTALK",
+          "chunk_index": 235,
+          "raw_text": "对感染COVID但没有重型或危重型的症状与体征的入院高危患者推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗",
+          "chunk_id": "235",
+          "data": "。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响。结果在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼。在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低。ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外。在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响。RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小。某些用于肺癌 TKI 的支持治疗药物可能具有显着的 DDI。目前对感染COVID但没有重型或危重型的症状与体征的入院高危患者（参考 NEJM医学前沿《重症COVID-19：高危因素，临床表现，治疗策略》）推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗，由于该制剂中的Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂，需要警惕其与其他药物的相互作用，可能增加某些药物的系统暴露风险，导致毒副作用增加。在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症。肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用。虽然利托那韦是 CYP 3A4 的强抑制剂，但 CYP 3A4 的抑制程度因 TKI 以及抑制剂的剂量和持续时间而异"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 235,
+    "source": "VTALK",
+    "text": "。提取了各种 TKI 的代谢途径，并总结了强 CYP 3A4 诱导剂和抑制剂对 TKI 曲线下面积和最大浓度的影响。结果在 EGFR 抑制剂和外显子 20 插入抑制剂中，阿法替尼受 CYP 3A4 影响的可能性最小，其次是达克替尼和奥希替尼。在 ALK 抑制剂中，alectinib 对 CYP 3A4 的敏感性最低。ROS1 抑制剂受 CYP 3A4 抑制作用的影响，克唑替尼除外。在 MET 抑制剂中，capmatinib 主要受 CYP 3A4 抑制作用的影响。RET 抑制剂的药物暴露预计会随着 CYP 3A4 抑制而增加，其中 selpercatinib 受影响最小。某些用于肺癌 TKI 的支持治疗药物可能具有显着的 DDI。目前对感染COVID但没有重型或危重型的症状与体征的入院高危患者（参考 NEJM医学前沿《重症COVID-19：高危因素，临床表现，治疗策略》）推荐接受奈玛特韦和利托那韦 (Paxlovid®)5天治疗，由于该制剂中的Ritonavir 利托那韦是细胞色素酶P450（CYP）3A4和2D6的强抑制剂，需要警惕其与其他药物的相互作用，可能增加某些药物的系统暴露风险，导致毒副作用增加。在两周内接受强CYP3A4诱导剂治疗为使用Paxlovid的禁忌症。肺癌 TKI 通常是 CYP 3A4 的底物，因此在服用Paxlovid 时共同给药可能会发生潜在的药物相互作用。虽然利托那韦是 CYP 3A4 的强抑制剂，但 CYP 3A4 的抑制程度因 TKI 以及抑制剂的剂量和持续时间而异"
+  }
+]

@@ -1,0 +1,179 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Esaxerenone",
+        "canonical_name": "Esaxerenone",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "CYP2B6",
+        "canonical_name": "CYP2B6",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "CYP2C8",
+        "canonical_name": "CYP2C8",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "CYP2C9",
+        "canonical_name": "CYP2C9",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "CYP2C19",
+        "canonical_name": "CYP2C19",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "CYP3A",
+        "canonical_name": "CYP3A",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "CYP3A4",
+        "canonical_name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "UGT1A1",
+        "canonical_name": "UGT1A1",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "DrugClass",
+        "name": "UGT2B7",
+        "canonical_name": "UGT2B7",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1233,
+          "raw_text": "Esaxerenone抑制CYP2B6",
+          "chunk_id": "1233",
+          "data": "。此外，还使用1.25mg至10 mg的Esaxerenone进行了DDI模拟。3结果与分析3.1体外DDI研究1. Esaxerenone对人肝微粒体中P450和UGT活性的抑制能力。研究表明Esaxerenone抑制CYP2B6, CYP2C8, CYP2C9, CYP2C19和CYP3A, 对应的Ki值见表3。表3. Esaxerenone对CYP450酶的抑制作用：Esaxerenone不会对CYP1A2, CYP2A6, CYP2D6或CYP2E1的活性产生抑制，而对CYP3A4的活性具有时间依赖性抑制作用（参考IC50值，表3.）。并通过使用咪达唑仑和睾酮作为CYP3A4底物进行了灭活研究，获得了对应的Kinact 和KI值，见表3. 使用人肝微粒体研究了Esaxerenone可逆地抑制UGT1A1和UGT2B7的能力。对应UGT1A1和UGT2B7的IC50值分别为23.6 mM和100 mM，对应UGT1A1的Ki为12.4 mM。Esaxerenone对人肝细胞中CYP450酶的诱导能力。考察了Esaxerenone诱导CYP1A2，CYP2B6或CYP3A4的能力。Esaxerenone没有表现出细胞毒性作用。比较了Esaxerenone与奥美拉唑、利福平或苯巴比妥在最大浓度下诱导CYP450酶的mRNA的表达和酶活性的倍数变化，如图2所示。Esaxerenone不诱导CYP1A2 mRNA表达或活性增加，但表现出对CYP2B6和CYP3A4的诱导作用"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1233,
+          "raw_text": "Esaxerenone抑制CYP2C8",
+          "chunk_id": "1233",
+          "data": "。此外，还使用1.25mg至10 mg的Esaxerenone进行了DDI模拟。3结果与分析3.1体外DDI研究1. Esaxerenone对人肝微粒体中P450和UGT活性的抑制能力。研究表明Esaxerenone抑制CYP2B6, CYP2C8, CYP2C9, CYP2C19和CYP3A, 对应的Ki值见表3。表3. Esaxerenone对CYP450酶的抑制作用：Esaxerenone不会对CYP1A2, CYP2A6, CYP2D6或CYP2E1的活性产生抑制，而对CYP3A4的活性具有时间依赖性抑制作用（参考IC50值，表3.）。并通过使用咪达唑仑和睾酮作为CYP3A4底物进行了灭活研究，获得了对应的Kinact 和KI值，见表3. 使用人肝微粒体研究了Esaxerenone可逆地抑制UGT1A1和UGT2B7的能力。对应UGT1A1和UGT2B7的IC50值分别为23.6 mM和100 mM，对应UGT1A1的Ki为12.4 mM。Esaxerenone对人肝细胞中CYP450酶的诱导能力。考察了Esaxerenone诱导CYP1A2，CYP2B6或CYP3A4的能力。Esaxerenone没有表现出细胞毒性作用。比较了Esaxerenone与奥美拉唑、利福平或苯巴比妥在最大浓度下诱导CYP450酶的mRNA的表达和酶活性的倍数变化，如图2所示。Esaxerenone不诱导CYP1A2 mRNA表达或活性增加，但表现出对CYP2B6和CYP3A4的诱导作用"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1233,
+          "raw_text": "Esaxerenone抑制CYP2C9",
+          "chunk_id": "1233",
+          "data": "。此外，还使用1.25mg至10 mg的Esaxerenone进行了DDI模拟。3结果与分析3.1体外DDI研究1. Esaxerenone对人肝微粒体中P450和UGT活性的抑制能力。研究表明Esaxerenone抑制CYP2B6, CYP2C8, CYP2C9, CYP2C19和CYP3A, 对应的Ki值见表3。表3. Esaxerenone对CYP450酶的抑制作用：Esaxerenone不会对CYP1A2, CYP2A6, CYP2D6或CYP2E1的活性产生抑制，而对CYP3A4的活性具有时间依赖性抑制作用（参考IC50值，表3.）。并通过使用咪达唑仑和睾酮作为CYP3A4底物进行了灭活研究，获得了对应的Kinact 和KI值，见表3. 使用人肝微粒体研究了Esaxerenone可逆地抑制UGT1A1和UGT2B7的能力。对应UGT1A1和UGT2B7的IC50值分别为23.6 mM和100 mM，对应UGT1A1的Ki为12.4 mM。Esaxerenone对人肝细胞中CYP450酶的诱导能力。考察了Esaxerenone诱导CYP1A2，CYP2B6或CYP3A4的能力。Esaxerenone没有表现出细胞毒性作用。比较了Esaxerenone与奥美拉唑、利福平或苯巴比妥在最大浓度下诱导CYP450酶的mRNA的表达和酶活性的倍数变化，如图2所示。Esaxerenone不诱导CYP1A2 mRNA表达或活性增加，但表现出对CYP2B6和CYP3A4的诱导作用"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1233,
+          "raw_text": "Esaxerenone抑制CYP2C19",
+          "chunk_id": "1233",
+          "data": "。此外，还使用1.25mg至10 mg的Esaxerenone进行了DDI模拟。3结果与分析3.1体外DDI研究1. Esaxerenone对人肝微粒体中P450和UGT活性的抑制能力。研究表明Esaxerenone抑制CYP2B6, CYP2C8, CYP2C9, CYP2C19和CYP3A, 对应的Ki值见表3。表3. Esaxerenone对CYP450酶的抑制作用：Esaxerenone不会对CYP1A2, CYP2A6, CYP2D6或CYP2E1的活性产生抑制，而对CYP3A4的活性具有时间依赖性抑制作用（参考IC50值，表3.）。并通过使用咪达唑仑和睾酮作为CYP3A4底物进行了灭活研究，获得了对应的Kinact 和KI值，见表3. 使用人肝微粒体研究了Esaxerenone可逆地抑制UGT1A1和UGT2B7的能力。对应UGT1A1和UGT2B7的IC50值分别为23.6 mM和100 mM，对应UGT1A1的Ki为12.4 mM。Esaxerenone对人肝细胞中CYP450酶的诱导能力。考察了Esaxerenone诱导CYP1A2，CYP2B6或CYP3A4的能力。Esaxerenone没有表现出细胞毒性作用。比较了Esaxerenone与奥美拉唑、利福平或苯巴比妥在最大浓度下诱导CYP450酶的mRNA的表达和酶活性的倍数变化，如图2所示。Esaxerenone不诱导CYP1A2 mRNA表达或活性增加，但表现出对CYP2B6和CYP3A4的诱导作用"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1233,
+          "raw_text": "Esaxerenone抑制CYP3A",
+          "chunk_id": "1233",
+          "data": "。此外，还使用1.25mg至10 mg的Esaxerenone进行了DDI模拟。3结果与分析3.1体外DDI研究1. Esaxerenone对人肝微粒体中P450和UGT活性的抑制能力。研究表明Esaxerenone抑制CYP2B6, CYP2C8, CYP2C9, CYP2C19和CYP3A, 对应的Ki值见表3。表3. Esaxerenone对CYP450酶的抑制作用：Esaxerenone不会对CYP1A2, CYP2A6, CYP2D6或CYP2E1的活性产生抑制，而对CYP3A4的活性具有时间依赖性抑制作用（参考IC50值，表3.）。并通过使用咪达唑仑和睾酮作为CYP3A4底物进行了灭活研究，获得了对应的Kinact 和KI值，见表3. 使用人肝微粒体研究了Esaxerenone可逆地抑制UGT1A1和UGT2B7的能力。对应UGT1A1和UGT2B7的IC50值分别为23.6 mM和100 mM，对应UGT1A1的Ki为12.4 mM。Esaxerenone对人肝细胞中CYP450酶的诱导能力。考察了Esaxerenone诱导CYP1A2，CYP2B6或CYP3A4的能力。Esaxerenone没有表现出细胞毒性作用。比较了Esaxerenone与奥美拉唑、利福平或苯巴比妥在最大浓度下诱导CYP450酶的mRNA的表达和酶活性的倍数变化，如图2所示。Esaxerenone不诱导CYP1A2 mRNA表达或活性增加，但表现出对CYP2B6和CYP3A4的诱导作用"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1233,
+          "raw_text": "Esaxerenone对CYP3A4的活性具有时间依赖性抑制作用",
+          "chunk_id": "1233",
+          "data": "。此外，还使用1.25mg至10 mg的Esaxerenone进行了DDI模拟。3结果与分析3.1体外DDI研究1. Esaxerenone对人肝微粒体中P450和UGT活性的抑制能力。研究表明Esaxerenone抑制CYP2B6, CYP2C8, CYP2C9, CYP2C19和CYP3A, 对应的Ki值见表3。表3. Esaxerenone对CYP450酶的抑制作用：Esaxerenone不会对CYP1A2, CYP2A6, CYP2D6或CYP2E1的活性产生抑制，而对CYP3A4的活性具有时间依赖性抑制作用（参考IC50值，表3.）。并通过使用咪达唑仑和睾酮作为CYP3A4底物进行了灭活研究，获得了对应的Kinact 和KI值，见表3. 使用人肝微粒体研究了Esaxerenone可逆地抑制UGT1A1和UGT2B7的能力。对应UGT1A1和UGT2B7的IC50值分别为23.6 mM和100 mM，对应UGT1A1的Ki为12.4 mM。Esaxerenone对人肝细胞中CYP450酶的诱导能力。考察了Esaxerenone诱导CYP1A2，CYP2B6或CYP3A4的能力。Esaxerenone没有表现出细胞毒性作用。比较了Esaxerenone与奥美拉唑、利福平或苯巴比妥在最大浓度下诱导CYP450酶的mRNA的表达和酶活性的倍数变化，如图2所示。Esaxerenone不诱导CYP1A2 mRNA表达或活性增加，但表现出对CYP2B6和CYP3A4的诱导作用"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1233,
+          "raw_text": "Esaxerenone可逆地抑制UGT1A1",
+          "chunk_id": "1233",
+          "data": "。此外，还使用1.25mg至10 mg的Esaxerenone进行了DDI模拟。3结果与分析3.1体外DDI研究1. Esaxerenone对人肝微粒体中P450和UGT活性的抑制能力。研究表明Esaxerenone抑制CYP2B6, CYP2C8, CYP2C9, CYP2C19和CYP3A, 对应的Ki值见表3。表3. Esaxerenone对CYP450酶的抑制作用：Esaxerenone不会对CYP1A2, CYP2A6, CYP2D6或CYP2E1的活性产生抑制，而对CYP3A4的活性具有时间依赖性抑制作用（参考IC50值，表3.）。并通过使用咪达唑仑和睾酮作为CYP3A4底物进行了灭活研究，获得了对应的Kinact 和KI值，见表3. 使用人肝微粒体研究了Esaxerenone可逆地抑制UGT1A1和UGT2B7的能力。对应UGT1A1和UGT2B7的IC50值分别为23.6 mM和100 mM，对应UGT1A1的Ki为12.4 mM。Esaxerenone对人肝细胞中CYP450酶的诱导能力。考察了Esaxerenone诱导CYP1A2，CYP2B6或CYP3A4的能力。Esaxerenone没有表现出细胞毒性作用。比较了Esaxerenone与奥美拉唑、利福平或苯巴比妥在最大浓度下诱导CYP450酶的mRNA的表达和酶活性的倍数变化，如图2所示。Esaxerenone不诱导CYP1A2 mRNA表达或活性增加，但表现出对CYP2B6和CYP3A4的诱导作用"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1233,
+          "raw_text": "Esaxerenone可逆地抑制UGT2B7",
+          "chunk_id": "1233",
+          "data": "。此外，还使用1.25mg至10 mg的Esaxerenone进行了DDI模拟。3结果与分析3.1体外DDI研究1. Esaxerenone对人肝微粒体中P450和UGT活性的抑制能力。研究表明Esaxerenone抑制CYP2B6, CYP2C8, CYP2C9, CYP2C19和CYP3A, 对应的Ki值见表3。表3. Esaxerenone对CYP450酶的抑制作用：Esaxerenone不会对CYP1A2, CYP2A6, CYP2D6或CYP2E1的活性产生抑制，而对CYP3A4的活性具有时间依赖性抑制作用（参考IC50值，表3.）。并通过使用咪达唑仑和睾酮作为CYP3A4底物进行了灭活研究，获得了对应的Kinact 和KI值，见表3. 使用人肝微粒体研究了Esaxerenone可逆地抑制UGT1A1和UGT2B7的能力。对应UGT1A1和UGT2B7的IC50值分别为23.6 mM和100 mM，对应UGT1A1的Ki为12.4 mM。Esaxerenone对人肝细胞中CYP450酶的诱导能力。考察了Esaxerenone诱导CYP1A2，CYP2B6或CYP3A4的能力。Esaxerenone没有表现出细胞毒性作用。比较了Esaxerenone与奥美拉唑、利福平或苯巴比妥在最大浓度下诱导CYP450酶的mRNA的表达和酶活性的倍数变化，如图2所示。Esaxerenone不诱导CYP1A2 mRNA表达或活性增加，但表现出对CYP2B6和CYP3A4的诱导作用"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1233,
+    "source": "凡默谷",
+    "text": "。此外，还使用1.25mg至10 mg的Esaxerenone进行了DDI模拟。3结果与分析3.1体外DDI研究1. Esaxerenone对人肝微粒体中P450和UGT活性的抑制能力。研究表明Esaxerenone抑制CYP2B6, CYP2C8, CYP2C9, CYP2C19和CYP3A, 对应的Ki值见表3。表3. Esaxerenone对CYP450酶的抑制作用：Esaxerenone不会对CYP1A2, CYP2A6, CYP2D6或CYP2E1的活性产生抑制，而对CYP3A4的活性具有时间依赖性抑制作用（参考IC50值，表3.）。并通过使用咪达唑仑和睾酮作为CYP3A4底物进行了灭活研究，获得了对应的Kinact 和KI值，见表3. 使用人肝微粒体研究了Esaxerenone可逆地抑制UGT1A1和UGT2B7的能力。对应UGT1A1和UGT2B7的IC50值分别为23.6 mM和100 mM，对应UGT1A1的Ki为12.4 mM。Esaxerenone对人肝细胞中CYP450酶的诱导能力。考察了Esaxerenone诱导CYP1A2，CYP2B6或CYP3A4的能力。Esaxerenone没有表现出细胞毒性作用。比较了Esaxerenone与奥美拉唑、利福平或苯巴比妥在最大浓度下诱导CYP450酶的mRNA的表达和酶活性的倍数变化，如图2所示。Esaxerenone不诱导CYP1A2 mRNA表达或活性增加，但表现出对CYP2B6和CYP3A4的诱导作用"
+  }
+]

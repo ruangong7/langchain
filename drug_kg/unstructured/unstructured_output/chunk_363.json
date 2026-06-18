@@ -1,0 +1,166 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "ACEI",
+        "canonical_name": "ACEI",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "利尿剂",
+        "canonical_name": "利尿剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "保钾利尿药",
+        "canonical_name": "保钾利尿药",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "补钾药",
+        "canonical_name": "补钾药",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "钾盐",
+        "canonical_name": "钾盐",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "血管神经性水肿",
+        "canonical_name": "血管神经性水肿",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "高血钾",
+        "canonical_name": "高血钾",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "血钾",
+        "canonical_name": "血钾",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Population",
+        "name": "肾功能不全",
+        "canonical_name": "肾功能不全",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "丁香园用药指南",
+          "chunk_index": 363,
+          "raw_text": "ACEI、利尿剂等心血管药物① ACEI：合用可增加发生血管神经性水肿的风险，故禁止合用。停止使用 ACEI治疗 36ｈ后方可使 用 本药。",
+          "chunk_id": "363",
+          "data": "ACEI、利尿剂等心血管药物① ACEI：合用可增加发生血管神经性水肿的风险，故禁止合用。停止使用 ACEI治疗 36ｈ后方可使 用 本药。②对肾功能不全，eGFR＜ 30 ml/（min·1，73 m2）的患者，与保钾利尿药（如螺内酯、氨苯喋啶、阿米洛利）、补钾药、钾盐合用时可能升高血钾，在合用时应监测血钾。| 延伸问题各类促凝血药与哪些药物存在相互作用？▼点击「阅读原文」查看完整答案"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "丁香园用药指南",
+          "chunk_index": 363,
+          "raw_text": "ACEI：合用可增加发生血管神经性水肿的风险，故禁止合用。",
+          "chunk_id": "363",
+          "data": "ACEI、利尿剂等心血管药物① ACEI：合用可增加发生血管神经性水肿的风险，故禁止合用。停止使用 ACEI治疗 36ｈ后方可使 用 本药。②对肾功能不全，eGFR＜ 30 ml/（min·1，73 m2）的患者，与保钾利尿药（如螺内酯、氨苯喋啶、阿米洛利）、补钾药、钾盐合用时可能升高血钾，在合用时应监测血钾。| 延伸问题各类促凝血药与哪些药物存在相互作用？▼点击「阅读原文」查看完整答案"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "丁香园用药指南",
+          "chunk_index": 363,
+          "raw_text": "与保钾利尿药（如螺内酯、氨苯喋啶、阿米洛利）、补钾药、钾盐合用时可能升高血钾，在合用时应监测血钾。",
+          "chunk_id": "363",
+          "data": "ACEI、利尿剂等心血管药物① ACEI：合用可增加发生血管神经性水肿的风险，故禁止合用。停止使用 ACEI治疗 36ｈ后方可使 用 本药。②对肾功能不全，eGFR＜ 30 ml/（min·1，73 m2）的患者，与保钾利尿药（如螺内酯、氨苯喋啶、阿米洛利）、补钾药、钾盐合用时可能升高血钾，在合用时应监测血钾。| 延伸问题各类促凝血药与哪些药物存在相互作用？▼点击「阅读原文」查看完整答案"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "丁香园用药指南",
+          "chunk_index": 363,
+          "raw_text": "与保钾利尿药（如螺内酯、氨苯喋啶、阿米洛利）、补钾药、钾盐合用时可能升高血钾，在合用时应监测血钾。",
+          "chunk_id": "363",
+          "data": "ACEI、利尿剂等心血管药物① ACEI：合用可增加发生血管神经性水肿的风险，故禁止合用。停止使用 ACEI治疗 36ｈ后方可使 用 本药。②对肾功能不全，eGFR＜ 30 ml/（min·1，73 m2）的患者，与保钾利尿药（如螺内酯、氨苯喋啶、阿米洛利）、补钾药、钾盐合用时可能升高血钾，在合用时应监测血钾。| 延伸问题各类促凝血药与哪些药物存在相互作用？▼点击「阅读原文」查看完整答案"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "丁香园用药指南",
+          "chunk_index": 363,
+          "raw_text": "与保钾利尿药（如螺内酯、氨苯喋啶、阿米洛利）、补钾药、钾盐合用时可能升高血钾，在合用时应监测血钾。",
+          "chunk_id": "363",
+          "data": "ACEI、利尿剂等心血管药物① ACEI：合用可增加发生血管神经性水肿的风险，故禁止合用。停止使用 ACEI治疗 36ｈ后方可使 用 本药。②对肾功能不全，eGFR＜ 30 ml/（min·1，73 m2）的患者，与保钾利尿药（如螺内酯、氨苯喋啶、阿米洛利）、补钾药、钾盐合用时可能升高血钾，在合用时应监测血钾。| 延伸问题各类促凝血药与哪些药物存在相互作用？▼点击「阅读原文」查看完整答案"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_6",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "丁香园用药指南",
+          "chunk_index": 363,
+          "raw_text": "与保钾利尿药（如螺内酯、氨苯喋啶、阿米洛利）、补钾药、钾盐合用时可能升高血钾，在合用时应监测血钾。",
+          "chunk_id": "363",
+          "data": "ACEI、利尿剂等心血管药物① ACEI：合用可增加发生血管神经性水肿的风险，故禁止合用。停止使用 ACEI治疗 36ｈ后方可使 用 本药。②对肾功能不全，eGFR＜ 30 ml/（min·1，73 m2）的患者，与保钾利尿药（如螺内酯、氨苯喋啶、阿米洛利）、补钾药、钾盐合用时可能升高血钾，在合用时应监测血钾。| 延伸问题各类促凝血药与哪些药物存在相互作用？▼点击「阅读原文」查看完整答案"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "丁香园用药指南",
+          "chunk_index": 363,
+          "raw_text": "对肾功能不全，eGFR＜ 30 ml/（min·1，73 m2）的患者，与保钾利尿药（如螺内酯、氨苯喋啶、阿米洛利）、补钾药、钾盐合用时可能升高血钾，在合用时应监测血钾。",
+          "chunk_id": "363",
+          "data": "ACEI、利尿剂等心血管药物① ACEI：合用可增加发生血管神经性水肿的风险，故禁止合用。停止使用 ACEI治疗 36ｈ后方可使 用 本药。②对肾功能不全，eGFR＜ 30 ml/（min·1，73 m2）的患者，与保钾利尿药（如螺内酯、氨苯喋啶、阿米洛利）、补钾药、钾盐合用时可能升高血钾，在合用时应监测血钾。| 延伸问题各类促凝血药与哪些药物存在相互作用？▼点击「阅读原文」查看完整答案"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 363,
+    "source": "丁香园用药指南",
+    "text": "ACEI、利尿剂等心血管药物① ACEI：合用可增加发生血管神经性水肿的风险，故禁止合用。停止使用 ACEI治疗 36ｈ后方可使 用 本药。②对肾功能不全，eGFR＜ 30 ml/（min·1，73 m2）的患者，与保钾利尿药（如螺内酯、氨苯喋啶、阿米洛利）、补钾药、钾盐合用时可能升高血钾，在合用时应监测血钾。| 延伸问题各类促凝血药与哪些药物存在相互作用？▼点击「阅读原文」查看完整答案"
+  }
+]

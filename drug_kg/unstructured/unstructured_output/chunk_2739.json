@@ -1,0 +1,66 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "GQD",
+        "canonical_name": "GQD",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "Huang-Lian",
+        "canonical_name": "Huang-Lian",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "berberine",
+        "canonical_name": "berberine",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "glycyrrhizic acid",
+        "canonical_name": "glycyrrhizic acid",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药用植物研究前沿",
+          "chunk_index": 2739,
+          "raw_text": "GQD could remarkably improve the plasma concentrations of berberine (BER) and other alkaloids in Huang-Lian by at least 30%, and glycyrrhizic acid (GLY) from Gan-Cao played a major role.",
+          "chunk_id": "2739",
+          "data": ". A multi-component pharmacokinetic study of GQD and the single herbs was conducted by simultaneously monitoring 42 major bioactive compounds (markers) in rats plasma using LC/MS/MS within 30 min. GQD could remarkably improve the plasma concentrations of berberine (BER) and other alkaloids in Huang-Lian by at least 30%, and glycyrrhizic acid (GLY) from Gan-Cao played a major role. A Caco-2 cell monolayer test indicated that GLY improved the permeability of BER by inhibiting P-glycoprotein"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "药用植物研究前沿",
+          "chunk_index": 2739,
+          "raw_text": "A Caco-2 cell monolayer test indicated that GLY improved the permeability of BER by inhibiting P-glycoprotein",
+          "chunk_id": "2739",
+          "data": ". A multi-component pharmacokinetic study of GQD and the single herbs was conducted by simultaneously monitoring 42 major bioactive compounds (markers) in rats plasma using LC/MS/MS within 30 min. GQD could remarkably improve the plasma concentrations of berberine (BER) and other alkaloids in Huang-Lian by at least 30%, and glycyrrhizic acid (GLY) from Gan-Cao played a major role. A Caco-2 cell monolayer test indicated that GLY improved the permeability of BER by inhibiting P-glycoprotein"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 2739,
+    "source": "药用植物研究前沿",
+    "text": ". A multi-component pharmacokinetic study of GQD and the single herbs was conducted by simultaneously monitoring 42 major bioactive compounds (markers) in rats plasma using LC/MS/MS within 30 min. GQD could remarkably improve the plasma concentrations of berberine (BER) and other alkaloids in Huang-Lian by at least 30%, and glycyrrhizic acid (GLY) from Gan-Cao played a major role. A Caco-2 cell monolayer test indicated that GLY improved the permeability of BER by inhibiting P-glycoprotein"
+  }
+]

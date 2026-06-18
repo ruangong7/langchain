@@ -1,0 +1,252 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "维生素E",
+        "canonical_name": "维生素E",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "香豆素",
+        "canonical_name": "香豆素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "人参",
+        "canonical_name": "人参",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "肝素",
+        "canonical_name": "肝素",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "阿司匹林",
+        "canonical_name": "阿司匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "MAO抑制剂",
+        "canonical_name": "MAO抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "非甾体抗炎药",
+        "canonical_name": "非甾体抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "SideEffect",
+        "name": "出血风险增加",
+        "canonical_name": "出血风险增加",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "头痛",
+        "canonical_name": "头痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "SideEffect",
+        "name": "睡眠困难",
+        "canonical_name": "睡眠困难",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "SideEffect",
+        "name": "紧张",
+        "canonical_name": "紧张",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "SideEffect",
+        "name": "多动",
+        "canonical_name": "多动",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1836,
+          "raw_text": "Taking vitamin E with a blood-thinning medication such as Coumadin can increase anti-clotting activity and may cause an increased risk of bleeding.",
+          "chunk_id": "1836",
+          "data": "。Examples of drug interactions with dietary supplements …药物与膳食补充剂相互作用的实例：Vitamin E维生素ETaking vitamin E with a blood-thinning medication such as Coumadin can increase anti-clotting activity and may cause an increased risk of bleeding.维生素E与血液稀释剂（如：香豆素）同时服用会增加抗凝血活性，导致增加出血的风险。Ginseng人参This herb can interfere with the bleeding effects of Coumadin. In addition, ginseng can enhance the bleeding effects of heparin, aspirin, and nonsteroidal anti-inflammatory drugs such as ibuprofen, naproxen, and ketoprofen. Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.这种药草能干扰香豆素的出血作用"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1836,
+          "raw_text": "This herb can interfere with the bleeding effects of Coumadin.",
+          "chunk_id": "1836",
+          "data": "。Examples of drug interactions with dietary supplements …药物与膳食补充剂相互作用的实例：Vitamin E维生素ETaking vitamin E with a blood-thinning medication such as Coumadin can increase anti-clotting activity and may cause an increased risk of bleeding.维生素E与血液稀释剂（如：香豆素）同时服用会增加抗凝血活性，导致增加出血的风险。Ginseng人参This herb can interfere with the bleeding effects of Coumadin. In addition, ginseng can enhance the bleeding effects of heparin, aspirin, and nonsteroidal anti-inflammatory drugs such as ibuprofen, naproxen, and ketoprofen. Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.这种药草能干扰香豆素的出血作用"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1836,
+          "raw_text": "ginseng can enhance the bleeding effects of heparin",
+          "chunk_id": "1836",
+          "data": "。Examples of drug interactions with dietary supplements …药物与膳食补充剂相互作用的实例：Vitamin E维生素ETaking vitamin E with a blood-thinning medication such as Coumadin can increase anti-clotting activity and may cause an increased risk of bleeding.维生素E与血液稀释剂（如：香豆素）同时服用会增加抗凝血活性，导致增加出血的风险。Ginseng人参This herb can interfere with the bleeding effects of Coumadin. In addition, ginseng can enhance the bleeding effects of heparin, aspirin, and nonsteroidal anti-inflammatory drugs such as ibuprofen, naproxen, and ketoprofen. Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.这种药草能干扰香豆素的出血作用"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1836,
+          "raw_text": "ginseng can enhance the bleeding effects of aspirin",
+          "chunk_id": "1836",
+          "data": "。Examples of drug interactions with dietary supplements …药物与膳食补充剂相互作用的实例：Vitamin E维生素ETaking vitamin E with a blood-thinning medication such as Coumadin can increase anti-clotting activity and may cause an increased risk of bleeding.维生素E与血液稀释剂（如：香豆素）同时服用会增加抗凝血活性，导致增加出血的风险。Ginseng人参This herb can interfere with the bleeding effects of Coumadin. In addition, ginseng can enhance the bleeding effects of heparin, aspirin, and nonsteroidal anti-inflammatory drugs such as ibuprofen, naproxen, and ketoprofen. Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.这种药草能干扰香豆素的出血作用"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1836,
+          "raw_text": "ginseng can enhance the bleeding effects of nonsteroidal anti-inflammatory drugs such as ibuprofen, naproxen, and ketoprofen.",
+          "chunk_id": "1836",
+          "data": "。Examples of drug interactions with dietary supplements …药物与膳食补充剂相互作用的实例：Vitamin E维生素ETaking vitamin E with a blood-thinning medication such as Coumadin can increase anti-clotting activity and may cause an increased risk of bleeding.维生素E与血液稀释剂（如：香豆素）同时服用会增加抗凝血活性，导致增加出血的风险。Ginseng人参This herb can interfere with the bleeding effects of Coumadin. In addition, ginseng can enhance the bleeding effects of heparin, aspirin, and nonsteroidal anti-inflammatory drugs such as ibuprofen, naproxen, and ketoprofen. Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.这种药草能干扰香豆素的出血作用"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1836,
+          "raw_text": "Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.",
+          "chunk_id": "1836",
+          "data": "。Examples of drug interactions with dietary supplements …药物与膳食补充剂相互作用的实例：Vitamin E维生素ETaking vitamin E with a blood-thinning medication such as Coumadin can increase anti-clotting activity and may cause an increased risk of bleeding.维生素E与血液稀释剂（如：香豆素）同时服用会增加抗凝血活性，导致增加出血的风险。Ginseng人参This herb can interfere with the bleeding effects of Coumadin. In addition, ginseng can enhance the bleeding effects of heparin, aspirin, and nonsteroidal anti-inflammatory drugs such as ibuprofen, naproxen, and ketoprofen. Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.这种药草能干扰香豆素的出血作用"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1836,
+          "raw_text": "Taking vitamin E with a blood-thinning medication such as Coumadin can increase anti-clotting activity and may cause an increased risk of bleeding.",
+          "chunk_id": "1836",
+          "data": "。Examples of drug interactions with dietary supplements …药物与膳食补充剂相互作用的实例：Vitamin E维生素ETaking vitamin E with a blood-thinning medication such as Coumadin can increase anti-clotting activity and may cause an increased risk of bleeding.维生素E与血液稀释剂（如：香豆素）同时服用会增加抗凝血活性，导致增加出血的风险。Ginseng人参This herb can interfere with the bleeding effects of Coumadin. In addition, ginseng can enhance the bleeding effects of heparin, aspirin, and nonsteroidal anti-inflammatory drugs such as ibuprofen, naproxen, and ketoprofen. Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.这种药草能干扰香豆素的出血作用"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1836,
+          "raw_text": "This herb can interfere with the bleeding effects of Coumadin. In addition, ginseng can enhance the bleeding effects of heparin, aspirin, and nonsteroidal anti-inflammatory drugs",
+          "chunk_id": "1836",
+          "data": "。Examples of drug interactions with dietary supplements …药物与膳食补充剂相互作用的实例：Vitamin E维生素ETaking vitamin E with a blood-thinning medication such as Coumadin can increase anti-clotting activity and may cause an increased risk of bleeding.维生素E与血液稀释剂（如：香豆素）同时服用会增加抗凝血活性，导致增加出血的风险。Ginseng人参This herb can interfere with the bleeding effects of Coumadin. In addition, ginseng can enhance the bleeding effects of heparin, aspirin, and nonsteroidal anti-inflammatory drugs such as ibuprofen, naproxen, and ketoprofen. Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.这种药草能干扰香豆素的出血作用"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1836,
+          "raw_text": "Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.",
+          "chunk_id": "1836",
+          "data": "。Examples of drug interactions with dietary supplements …药物与膳食补充剂相互作用的实例：Vitamin E维生素ETaking vitamin E with a blood-thinning medication such as Coumadin can increase anti-clotting activity and may cause an increased risk of bleeding.维生素E与血液稀释剂（如：香豆素）同时服用会增加抗凝血活性，导致增加出血的风险。Ginseng人参This herb can interfere with the bleeding effects of Coumadin. In addition, ginseng can enhance the bleeding effects of heparin, aspirin, and nonsteroidal anti-inflammatory drugs such as ibuprofen, naproxen, and ketoprofen. Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.这种药草能干扰香豆素的出血作用"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1836,
+          "raw_text": "Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.",
+          "chunk_id": "1836",
+          "data": "。Examples of drug interactions with dietary supplements …药物与膳食补充剂相互作用的实例：Vitamin E维生素ETaking vitamin E with a blood-thinning medication such as Coumadin can increase anti-clotting activity and may cause an increased risk of bleeding.维生素E与血液稀释剂（如：香豆素）同时服用会增加抗凝血活性，导致增加出血的风险。Ginseng人参This herb can interfere with the bleeding effects of Coumadin. In addition, ginseng can enhance the bleeding effects of heparin, aspirin, and nonsteroidal anti-inflammatory drugs such as ibuprofen, naproxen, and ketoprofen. Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.这种药草能干扰香豆素的出血作用"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1836,
+          "raw_text": "Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.",
+          "chunk_id": "1836",
+          "data": "。Examples of drug interactions with dietary supplements …药物与膳食补充剂相互作用的实例：Vitamin E维生素ETaking vitamin E with a blood-thinning medication such as Coumadin can increase anti-clotting activity and may cause an increased risk of bleeding.维生素E与血液稀释剂（如：香豆素）同时服用会增加抗凝血活性，导致增加出血的风险。Ginseng人参This herb can interfere with the bleeding effects of Coumadin. In addition, ginseng can enhance the bleeding effects of heparin, aspirin, and nonsteroidal anti-inflammatory drugs such as ibuprofen, naproxen, and ketoprofen. Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.这种药草能干扰香豆素的出血作用"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "广东疾控",
+          "chunk_index": 1836,
+          "raw_text": "Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.",
+          "chunk_id": "1836",
+          "data": "。Examples of drug interactions with dietary supplements …药物与膳食补充剂相互作用的实例：Vitamin E维生素ETaking vitamin E with a blood-thinning medication such as Coumadin can increase anti-clotting activity and may cause an increased risk of bleeding.维生素E与血液稀释剂（如：香豆素）同时服用会增加抗凝血活性，导致增加出血的风险。Ginseng人参This herb can interfere with the bleeding effects of Coumadin. In addition, ginseng can enhance the bleeding effects of heparin, aspirin, and nonsteroidal anti-inflammatory drugs such as ibuprofen, naproxen, and ketoprofen. Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.这种药草能干扰香豆素的出血作用"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1836,
+    "source": "广东疾控",
+    "text": "。Examples of drug interactions with dietary supplements …药物与膳食补充剂相互作用的实例：Vitamin E维生素ETaking vitamin E with a blood-thinning medication such as Coumadin can increase anti-clotting activity and may cause an increased risk of bleeding.维生素E与血液稀释剂（如：香豆素）同时服用会增加抗凝血活性，导致增加出血的风险。Ginseng人参This herb can interfere with the bleeding effects of Coumadin. In addition, ginseng can enhance the bleeding effects of heparin, aspirin, and nonsteroidal anti-inflammatory drugs such as ibuprofen, naproxen, and ketoprofen. Combining ginseng with MAO inhibitors such as Nardil or Parnate may cause headache, trouble sleeping, nervousness, and hyperactivity.这种药草能干扰香豆素的出血作用"
+  }
+]

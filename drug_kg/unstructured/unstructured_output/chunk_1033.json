@@ -1,0 +1,190 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "艾瑞昔布",
+        "canonical_name": "艾瑞昔布",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP3A强诱导剂",
+        "canonical_name": "CYP3A强诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "环泊酚",
+        "canonical_name": "环泊酚",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "CYP2B6弱抑制剂",
+        "canonical_name": "CYP2B6弱抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "CYP2B6中等诱导剂",
+        "canonical_name": "CYP2B6中等诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "吡咯替尼",
+        "canonical_name": "吡咯替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "canonical_name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "CYP3A4酶",
+        "canonical_name": "CYP3A4酶",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1033,
+          "raw_text": "艾瑞昔布与CYP3A强诱导剂利福平的临床DDI试验",
+          "chunk_id": "1033"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1033,
+          "raw_text": "利福平为CYP3A强诱导剂",
+          "chunk_id": "1033"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1033,
+          "raw_text": "环泊酚和伏立康唑（CYP2B6弱抑制剂）以及利福平（CYP2B6中等诱导剂）的临床DDI试验",
+          "chunk_id": "1033"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1033,
+          "raw_text": "环泊酚和伏立康唑（CYP2B6弱抑制剂）以及利福平（CYP2B6中等诱导剂）的临床DDI试验",
+          "chunk_id": "1033"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1033,
+          "raw_text": "伏立康唑为CYP2B6弱抑制剂",
+          "chunk_id": "1033"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1033,
+          "raw_text": "利福平为CYP2B6中等诱导剂",
+          "chunk_id": "1033"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1033,
+          "raw_text": "与单独使用吡罗替尼相比，健康受试者联用伊曲康唑后，吡罗替尼的CmaX和AUC0—0分别增加了2.78倍和10.8倍",
+          "chunk_id": "1033"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1033,
+          "raw_text": "伊曲康唑为CYP3A4酶抑制剂",
+          "chunk_id": "1033"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1033,
+          "raw_text": "吡咯替尼主要由CYP3A4酶代谢",
+          "chunk_id": "1033"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1033,
+    "source": "凡默谷",
+    "text": "。—0分别升高1.19 倍和1.12倍，而M1和M2的药动学无显著变化。在“药物临床试验登记与信息公布平台”搜 索艾瑞昔布的相关临床试验，可发现申办方已完 成了艾瑞昔布与CYP3A强诱导剂利福平的临床 DDI试验（登记号CTR20160474)，但数据未公开。到目前为止，艾瑞昔布药品说明书也尚未根据临 床DDI试验的结果进行用药说明。1.1.8环泊酚[22]环泊酚同丙泊酚相似，在体内 主要经UGT酶催化发生二相结合反应，并主要以 葡萄糖醛酸结合代谢物M4的形式从尿液中排出 (51.6% )。环泊酚药品说明书提示，除原形的葡 萄糖醛酸结合外，环泊酚还可经CYP酶（主要为 CYP2B6酶)介导单氧化代谢后再发生结合代谢， 因此开展了环泊酚和伏立康唑（CYP2B6弱抑制 剂）以及利福平（CYP2B6中等诱导剂）的临床DDI 试验，在“药物临床试验登记与信息公布平台”上 的登记号分别为CTR20192568和CTR20182359,结 果显示利福平对环泊酚的药动学无显著影响;伏 立康唑和环泊酚的DDI试验结果尚未公开。1.1.9吡咯替尼[23—24]吡咯替尼在人体内经历 代谢广泛，放射性标记研究表明，原形药物的累 积回收率约不足10%，以〇-脱甲基吡啶代谢物和 单氧化代谢物为主。吡咯替尼主要由CYP3A4酶代谢，与单独使用吡罗替尼相比，健康受试者联 用伊曲康唑后，吡罗替尼的CmaX和AUC0—0分别增 加了2.78倍和10.8倍。试验结果提示，吡咯替尼为 CYP3A4酶的敏感底物"
+  }
+]

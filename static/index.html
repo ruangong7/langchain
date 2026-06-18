@@ -25,11 +25,7 @@
     }
 
     * { box-sizing: border-box; }
-
-    html,
-    body {
-      height: 100%;
-    }
+    html, body { height: 100%; }
 
     body {
       margin: 0;
@@ -43,26 +39,18 @@
       color: var(--text);
     }
 
-    button,
-    input,
-    textarea {
-      font: inherit;
-    }
-
-    button {
-      border: 0;
-    }
+    button, input, textarea { font: inherit; }
+    button { border: 0; }
 
     .shell {
       min-height: 100%;
       display: grid;
-      grid-template-columns: 300px minmax(0, 1fr);
+      grid-template-columns: 320px minmax(0, 1fr);
       gap: 16px;
       padding: 16px;
     }
 
-    .panel,
-    .workspace {
+    .panel, .workspace {
       min-height: calc(100vh - 32px);
       border: 1px solid var(--line);
       border-radius: var(--radius);
@@ -105,7 +93,6 @@
       margin: 0;
       font-size: 21px;
       line-height: 1.2;
-      letter-spacing: 0;
     }
 
     .brand p {
@@ -132,7 +119,7 @@
       letter-spacing: .04em;
     }
 
-    .account-card {
+    .account-card, .summary-card {
       display: grid;
       gap: 10px;
     }
@@ -206,10 +193,7 @@
       background: var(--accent-strong);
     }
 
-    .button.ghost {
-      background: transparent;
-    }
-
+    .button.ghost { background: transparent; }
     .button:disabled {
       opacity: .55;
       cursor: not-allowed;
@@ -233,9 +217,7 @@
       margin-bottom: 12px;
     }
 
-    .field:last-child {
-      margin-bottom: 0;
-    }
+    .field:last-child { margin-bottom: 0; }
 
     label {
       color: var(--muted);
@@ -243,8 +225,7 @@
       font-weight: 700;
     }
 
-    input,
-    textarea {
+    input, textarea {
       width: 100%;
       border: 1px solid var(--line);
       border-radius: 7px;
@@ -267,8 +248,7 @@
       line-height: 1.55;
     }
 
-    input:focus,
-    textarea:focus {
+    input:focus, textarea:focus {
       border-color: var(--accent);
       background: #fff;
       box-shadow: 0 0 0 3px rgba(8, 122, 115, .14);
@@ -315,6 +295,22 @@
       box-shadow: 0 0 0 4px var(--accent-soft);
     }
 
+    .summary-box {
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface-soft);
+      min-height: 84px;
+      font-size: 13px;
+      line-height: 1.6;
+      color: var(--text);
+      white-space: pre-wrap;
+    }
+
+    .summary-box.empty {
+      color: var(--muted);
+    }
+
     .workspace {
       display: grid;
       grid-template-rows: auto minmax(0, 1fr) auto;
@@ -333,7 +329,6 @@
     .topbar h2 {
       margin: 0;
       font-size: 17px;
-      letter-spacing: 0;
     }
 
     .topbar small {
@@ -365,7 +360,6 @@
       margin: 0 0 8px;
       color: var(--text);
       font-size: 22px;
-      letter-spacing: 0;
     }
 
     .empty p {
@@ -379,14 +373,8 @@
       gap: 6px;
     }
 
-    .message.user {
-      align-self: flex-end;
-    }
-
-    .message.assistant,
-    .message.error {
-      align-self: flex-start;
-    }
+    .message.user { align-self: flex-end; }
+    .message.assistant, .message.error { align-self: flex-start; }
 
     .meta {
       padding: 0 2px;
@@ -476,12 +464,10 @@
       background: rgba(13, 28, 35, .42);
     }
 
-    .modal-backdrop.open {
-      display: grid;
-    }
+    .modal-backdrop.open { display: grid; }
 
     .modal {
-      width: min(440px, 100%);
+      width: min(520px, 100%);
       border: 1px solid var(--line);
       border-radius: 8px;
       background: var(--surface);
@@ -502,12 +488,9 @@
     .modal-head h3 {
       margin: 0;
       font-size: 18px;
-      letter-spacing: 0;
     }
 
-    .modal-body {
-      padding: 16px;
-    }
+    .modal-body { padding: 16px; }
 
     .tabs {
       display: grid;
@@ -521,87 +504,48 @@
     }
 
     .tab {
-      height: 34px;
+      height: 38px;
       border-radius: 6px;
       background: transparent;
       color: var(--muted);
-      cursor: pointer;
       font-weight: 700;
     }
 
     .tab.active {
-      background: var(--surface);
+      background: #fff;
       color: var(--text);
-      box-shadow: 0 4px 14px rgba(17, 31, 38, .08);
+      box-shadow: 0 6px 16px rgba(17, 31, 38, .08);
     }
 
-    .form-error {
+    .auth-error {
       display: none;
-      margin-bottom: 12px;
-      padding: 10px;
+      margin-top: 12px;
+      padding: 10px 12px;
       border: 1px solid #f1b7b4;
-      border-radius: 7px;
+      border-radius: 8px;
       background: #fff6f5;
       color: var(--danger);
       font-size: 13px;
       line-height: 1.5;
     }
 
-    .form-error.show {
-      display: block;
-    }
+    .auth-error.show { display: block; }
+    .hidden { display: none !important; }
 
-    .hidden {
-      display: none !important;
-    }
-
-    @media (max-width: 920px) {
+    @media (max-width: 900px) {
       .shell {
         grid-template-columns: 1fr;
-        padding: 10px;
       }
 
-      .panel,
-      .workspace {
+      .panel, .workspace {
         min-height: auto;
       }
 
-      .workspace {
-        min-height: calc(100vh - 20px);
-      }
-
-      .chips {
-        grid-template-columns: 1fr 1fr;
-      }
-    }
-
-    @media (max-width: 640px) {
-      .topbar,
-      .composer-row,
-      .composer-meta {
-        display: grid;
-        grid-template-columns: 1fr;
-      }
-
-      .topbar {
-        align-items: flex-start;
-      }
-
-      .button-row,
-      .topbar .button-row {
-        width: 100%;
-      }
-
-      .button-row .button,
-      .composer-row .button {
-        width: 100%;
-      }
-
       .message {
-        width: 100%;
+        width: min(100%, 760px);
       }
 
-      .chips {
+      .composer-row {
         grid-template-columns: 1fr;
       }
     }
@@ -609,93 +553,105 @@
 </head>
 <body>
   <main class="shell">
-    <aside class="panel" aria-label="侧边栏">
+    <aside class="panel">
       <section class="brand">
         <div class="brand-row">
-          <div class="mark" aria-hidden="true">+</div>
+          <div class="mark">药</div>
           <div>
             <h1>健康用药助手</h1>
           </div>
         </div>
-        <p>围绕药品、症状、疾病和用药安全问题进行问答。</p>
+        <p>支持药物问答、相互作用查询，并结合用户自己的健康档案进行更个体化的用药提示。</p>
       </section>
 
       <section class="side-section">
-        <div class="section-title">账号</div>
-        <div class="account-card" id="guestBox">
-          <div class="identity">
-            <div class="avatar">未</div>
-            <div>
-              <strong>未登录</strong>
-              <span>登录后会自动保留上下文</span>
+        <div class="section-title">账户状态</div>
+        <div class="account-card">
+          <div id="guestBox">
+            <div class="identity">
+              <div class="avatar">?</div>
+              <div>
+                <strong>未登录</strong>
+                <span>登录后可保存健康档案并进行个体化问答</span>
+              </div>
+            </div>
+            <div class="button-row" style="margin-top:10px;">
+              <button class="button primary" id="openLoginBtn" type="button">登录 / 注册</button>
             </div>
           </div>
-          <button class="button primary" id="openLoginBtn">登录</button>
-        </div>
 
-        <div class="account-card hidden" id="userBox">
-          <div class="identity">
-            <div class="avatar" id="userAvatar">用</div>
-            <div>
-              <strong id="userName">用户</strong>
-              <span id="memoryLabel">会话已隔离</span>
+          <div id="userBox" class="hidden">
+            <div class="identity">
+              <div class="avatar" id="userAvatar">U</div>
+              <div>
+                <strong id="userName">用户</strong>
+                <span id="memoryLabel">会话已隔离</span>
+              </div>
             </div>
-          </div>
-          <div class="button-row">
-            <button class="button" id="profileBtn">资料</button>
-            <button class="button ghost" id="logoutBtn">退出</button>
+            <div class="button-row">
+              <button class="button" id="profileBtn" type="button">健康档案</button>
+              <button class="button ghost" id="logoutBtn" type="button">退出</button>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="side-section">
-        <div class="section-title">快捷问题</div>
+        <div class="section-title">档案摘要</div>
+        <div class="summary-card">
+          <div class="summary-box empty" id="profileSummary">登录后可在这里查看健康档案摘要，包括年龄、基础病、过敏史和当前用药。</div>
+        </div>
+      </section>
+
+      <section class="side-section">
+        <div class="section-title">快捷提问</div>
         <div class="chips">
-          <button class="chip" data-prompt="阿司匹林和布洛芬能一起吃吗？">阿司匹林和布洛芬能一起吃吗？</button>
-          <button class="chip" data-prompt="二甲双胍饭前吃还是饭后吃？">二甲双胍饭前吃还是饭后吃？</button>
-          <button class="chip" data-prompt="头孢过敏的人还能吃哪些药？">头孢过敏的人还能吃哪些药？</button>
-          <button class="chip" data-prompt="孕妇感冒发烧可以怎么处理？">孕妇感冒发烧可以怎么处理？</button>
+          <button class="chip" data-prompt="我有高血压，正在吃缬沙坦，布洛芬能不能吃？">我有高血压，正在吃缬沙坦，布洛芬能不能吃？</button>
+          <button class="chip" data-prompt="我对青霉素过敏，现在咳嗽发烧，阿莫西林适合吗？">我对青霉素过敏，现在咳嗽发烧，阿莫西林适合吗？</button>
+          <button class="chip" data-prompt="我长期吃二甲双胍，现在又开了布洛芬，需要注意什么？">我长期吃二甲双胍，现在又开了布洛芬，需要注意什么？</button>
         </div>
       </section>
 
       <section class="side-section">
         <div class="status">
-          <span class="dot" aria-hidden="true"></span>
-          <span id="statusText">准备就绪</span>
+          <span class="dot"></span>
+          <span id="statusText">请先登录</span>
         </div>
       </section>
     </aside>
 
-    <section class="workspace" aria-label="聊天窗口">
+    <section class="workspace">
       <header class="topbar">
         <div>
-          <h2>用药咨询</h2>
-          <small>回复仅供健康信息参考，紧急情况请及时就医。</small>
+          <h2>智能问答</h2>
+          <small>支持普通问答和流式回复，登录后会自动结合健康档案。</small>
         </div>
         <div class="button-row">
-          <button class="button" id="clearBtn" title="清空当前页面消息">清空</button>
-          <button class="button" id="copyBtn" title="复制最后一条回复">复制</button>
+          <button class="button" id="clearBtn" type="button">清空对话</button>
+          <button class="button" id="copyBtn" type="button">复制最后回复</button>
         </div>
       </header>
 
-      <div class="chat" id="chat" aria-live="polite">
+      <section class="chat" id="chat">
         <div class="empty" id="emptyState">
-          <h3>点击登录后开始咨询</h3>
-          <p>登录状态会在本机保存；后端用户系统接好后，这个入口可以直接对接真实账号。</p>
+          <h3>今天想确认哪条用药信息？</h3>
+          <p>输入药名、症状、人群或剂量，系统会优先围绕药物知识和你的健康档案来回答。</p>
         </div>
-      </div>
+      </section>
 
-      <form class="composer" id="composer">
-        <div class="composer-row">
-          <textarea id="question" placeholder="输入问题，例如：阿司匹林和布洛芬能一起吃吗？" rows="2"></textarea>
-          <button class="button" id="sendBtn" type="button">发送</button>
-          <button class="button primary" id="streamBtn" type="submit">流式</button>
-        </div>
-        <div class="composer-meta">
-          <span>Ctrl / Command + Enter 流式发送</span>
-          <span class="warn">请勿把回答替代医生诊断或处方。</span>
-        </div>
-      </form>
+      <section class="composer">
+        <form id="composer">
+          <div class="composer-row">
+            <textarea id="question" rows="3" placeholder="例如：我有胃病，最近在吃阿司匹林，还能吃布洛芬吗？" disabled></textarea>
+            <button class="button" id="sendBtn" type="button" disabled>普通发送</button>
+            <button class="button primary" id="streamBtn" type="submit" disabled>流式发送</button>
+          </div>
+          <div class="composer-meta">
+            <span>回车换行，Ctrl/Command + Enter 可直接流式发送</span>
+            <span class="warn">高风险或复杂情况仍应咨询医生或药师</span>
+          </div>
+        </form>
+      </section>
     </section>
   </main>
 
@@ -706,11 +662,10 @@
         <button class="button ghost" id="closeAuthBtn" type="button">关闭</button>
       </div>
       <div class="modal-body">
-        <div class="tabs" role="tablist">
+        <div class="tabs">
           <button class="tab active" id="loginTab" type="button">登录</button>
           <button class="tab" id="registerTab" type="button">注册</button>
         </div>
-        <div class="form-error" id="authError"></div>
         <form id="authForm">
           <div class="field">
             <label for="authUsername">用户名</label>
@@ -721,6 +676,7 @@
             <input id="authPassword" type="password" autocomplete="current-password" />
           </div>
           <button class="button primary" id="authSubmitBtn" type="submit">登录</button>
+          <div class="auth-error" id="authError"></div>
         </form>
       </div>
     </section>
@@ -729,13 +685,13 @@
   <div class="modal-backdrop" id="profileModal" aria-hidden="true">
     <section class="modal" role="dialog" aria-modal="true" aria-labelledby="profileTitle">
       <div class="modal-head">
-        <h3 id="profileTitle">个人资料</h3>
+        <h3 id="profileTitle">健康档案</h3>
         <button class="button ghost" id="closeProfileBtn" type="button">关闭</button>
       </div>
       <div class="modal-body">
         <form id="profileForm">
           <div class="field">
-            <label for="profileName">昵称</label>
+            <label for="profileName">称呼</label>
             <input id="profileName" autocomplete="nickname" />
           </div>
           <div class="field">
@@ -743,10 +699,26 @@
             <input id="profileAge" inputmode="numeric" />
           </div>
           <div class="field">
-            <label for="profileNotes">个人信息</label>
-            <textarea id="profileNotes" rows="3" placeholder="例如：过敏史、长期用药、慢性病等"></textarea>
+            <label for="profileGender">性别</label>
+            <input id="profileGender" placeholder="如：男 / 女" />
           </div>
-          <button class="button primary" type="submit">保存</button>
+          <div class="field">
+            <label for="profileConditions">基础病</label>
+            <textarea id="profileConditions" rows="2" placeholder="用逗号或换行分隔，如：高血压、糖尿病"></textarea>
+          </div>
+          <div class="field">
+            <label for="profileAllergies">过敏史</label>
+            <textarea id="profileAllergies" rows="2" placeholder="用逗号或换行分隔，如：青霉素、布洛芬"></textarea>
+          </div>
+          <div class="field">
+            <label for="profileMedications">当前用药</label>
+            <textarea id="profileMedications" rows="4" placeholder="每行一种，格式：药名 / 剂量 / 频次 / 用途"></textarea>
+          </div>
+          <div class="field">
+            <label for="profileNotes">备注</label>
+            <textarea id="profileNotes" rows="3" placeholder="例如：胃溃疡病史、哺乳期、近期发热等"></textarea>
+          </div>
+          <button class="button primary" id="profileSubmitBtn" type="submit">保存档案</button>
         </form>
       </div>
     </section>
@@ -771,6 +743,7 @@
     const userAvatar = document.getElementById('userAvatar');
     const userName = document.getElementById('userName');
     const memoryLabel = document.getElementById('memoryLabel');
+    const profileSummary = document.getElementById('profileSummary');
 
     const authModal = document.getElementById('authModal');
     const closeAuthBtn = document.getElementById('closeAuthBtn');
@@ -788,7 +761,12 @@
     const profileForm = document.getElementById('profileForm');
     const profileName = document.getElementById('profileName');
     const profileAge = document.getElementById('profileAge');
+    const profileGender = document.getElementById('profileGender');
+    const profileConditions = document.getElementById('profileConditions');
+    const profileAllergies = document.getElementById('profileAllergies');
+    const profileMedications = document.getElementById('profileMedications');
     const profileNotes = document.getElementById('profileNotes');
+    const profileSubmitBtn = document.getElementById('profileSubmitBtn');
 
     const defaultApiBase = (location.protocol === 'http:' || location.protocol === 'https:')
       ? location.origin
@@ -800,6 +778,9 @@
 
     currentUser = readUser();
     renderAuthState();
+    if (currentUser?.token) {
+      loadHealthProfile().catch(() => null);
+    }
 
     function readUser() {
       try {
@@ -824,6 +805,13 @@
       return base.replace(/\/$/, '');
     }
 
+    function authHeaders(includeJson = false) {
+      const headers = {};
+      if (includeJson) headers['Content-Type'] = 'application/json';
+      if (currentUser?.token) headers.Authorization = `Bearer ${currentUser.token}`;
+      return headers;
+    }
+
     function getMemoryId() {
       if (!currentUser) return 'user_guest';
       if (currentUser.id !== undefined && currentUser.id !== null && String(currentUser.id).trim()) {
@@ -831,6 +819,22 @@
       }
       const username = String(currentUser.username || currentUser.displayName || 'guest').trim() || 'guest';
       return `user_name_${encodeURIComponent(username)}`;
+    }
+
+    function summarizeProfile(profile) {
+      if (!profile) {
+        return '登录后可在这里查看健康档案摘要，包括年龄、基础病、过敏史和当前用药。';
+      }
+      const lines = [];
+      if (profile.age) lines.push(`年龄：${profile.age}`);
+      if (profile.gender) lines.push(`性别：${profile.gender}`);
+      if (profile.conditions?.length) lines.push(`基础病：${profile.conditions.join('、')}`);
+      if (profile.allergies?.length) lines.push(`过敏史：${profile.allergies.join('、')}`);
+      if (profile.medications?.length) {
+        lines.push(`当前用药：${profile.medications.map(item => item.drug_name).filter(Boolean).join('、')}`);
+      }
+      if (profile.notes) lines.push(`备注：${profile.notes}`);
+      return lines.length ? lines.join('\n') : '还没有填写健康档案，建议补充基础病、过敏史和当前用药。';
     }
 
     function renderAuthState() {
@@ -847,12 +851,12 @@
         userAvatar.textContent = label.slice(0, 1).toUpperCase();
         memoryLabel.textContent = '会话已隔离';
         statusText.textContent = '已登录';
-        if (emptyState) {
-          emptyState.querySelector('h3').textContent = '今天想确认哪条用药信息？';
-          emptyState.querySelector('p').textContent = '输入药名、症状、人群或剂量，助手会优先围绕医疗和用药知识库回答。';
-        }
+        profileSummary.textContent = summarizeProfile(currentUser.profile);
+        profileSummary.classList.toggle('empty', false);
       } else {
         statusText.textContent = '请先登录';
+        profileSummary.textContent = '登录后可在这里查看健康档案摘要，包括年龄、基础病、过敏史和当前用药。';
+        profileSummary.classList.add('empty');
       }
     }
 
@@ -898,53 +902,56 @@
       authSubmitBtn.textContent = authMode === 'register' ? '注册并登录' : '登录';
     }
 
-    function localUsers() {
-      try {
-        return JSON.parse(localStorage.getItem('localUsers') || '{}');
-      } catch (err) {
-        return {};
-      }
+    function splitList(text) {
+      return String(text || '')
+        .split(/[\n,，、;]/)
+        .map(item => item.trim())
+        .filter(Boolean);
     }
 
-    function saveLocalUsers(users) {
-      localStorage.setItem('localUsers', JSON.stringify(users));
+    function parseMedicationLines(text) {
+      return String(text || '')
+        .split('\n')
+        .map(line => line.trim())
+        .filter(Boolean)
+        .map((line) => {
+          const parts = line.split('/').map(item => item.trim()).filter(Boolean);
+          return {
+            drug_name: parts[0] || '',
+            dosage: parts[1] || '',
+            frequency: parts[2] || '',
+            purpose: parts[3] || ''
+          };
+        })
+        .filter(item => item.drug_name);
     }
 
-    function handleLocalAuth() {
-      const username = authUsername.value.trim().toLowerCase();
-      const password = authPassword.value;
-      if (username.length < 3) {
-        showAuthError('用户名至少需要 3 个字符');
-        return;
-      }
-      if (password.length < 6) {
-        showAuthError('密码至少需要 6 个字符');
-        return;
-      }
+    function formatMedicationLines(medications) {
+      return (medications || []).map((item) => {
+        const parts = [item.drug_name || ''];
+        if (item.dosage) parts.push(item.dosage);
+        if (item.frequency) parts.push(item.frequency);
+        if (item.purpose) parts.push(item.purpose);
+        return parts.filter(Boolean).join(' / ');
+      }).join('\n');
+    }
 
-      const users = localUsers();
-      if (authMode === 'register') {
-        if (users[username]) {
-          showAuthError('用户名已存在');
-          return;
-        }
-        users[username] = {
-          username,
-          password,
-          displayName: username,
-          profile: {}
-        };
-        saveLocalUsers(users);
-      } else if (!users[username] || users[username].password !== password) {
-        showAuthError('用户名或密码不正确');
-        return;
+    async function loadHealthProfile() {
+      if (!currentUser?.token) return null;
+      const base = getApiBase();
+      const resp = await fetch(`${base}/me/health-profile`, {
+        headers: authHeaders()
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok) {
+        throw new Error(data.detail || data.message || '加载健康档案失败');
       }
-
-      const { password: ignored, ...user } = users[username];
-      saveUser(user);
-      closeModal(authModal);
-      statusText.textContent = '登录成功';
-      question.focus();
+      saveUser({
+        ...currentUser,
+        displayName: data.display_name || currentUser.displayName || currentUser.username,
+        profile: data
+      });
+      return data;
     }
 
     async function handleAuth() {
@@ -979,10 +986,11 @@
           displayName: data.user?.username || username,
           token: data.token,
           expiresAt: data.expires_at,
-          profile: {}
+          profile: null
         });
         closeModal(authModal);
         resetAuthForm();
+        await loadHealthProfile().catch(() => null);
         statusText.textContent = authMode === 'register' ? '注册成功' : '登录成功';
         question.focus();
       } catch (err) {
@@ -1051,7 +1059,7 @@
       try {
         const base = getApiBase();
         const url = `${base}/chat?memory_id=${encodeURIComponent(getMemoryId())}&message=${encodeURIComponent(q)}`;
-        const resp = await fetch(url);
+        const resp = await fetch(url, { headers: authHeaders() });
         const text = await resp.text();
         if (!resp.ok) throw new Error(text || resp.statusText);
         lastAssistantText = text;
@@ -1078,7 +1086,7 @@
       try {
         const base = getApiBase();
         const url = `${base}/chat-stream?memory_id=${encodeURIComponent(getMemoryId())}&message=${encodeURIComponent(q)}`;
-        const resp = await fetch(url);
+        const resp = await fetch(url, { headers: authHeaders() });
         if (!resp.ok || !resp.body) throw new Error(await resp.text() || resp.statusText);
 
         const reader = resp.body.getReader();
@@ -1097,8 +1105,17 @@
             const data = lines.length
               ? lines.map(line => line.slice(5).replace(/^ /, '')).join('\n')
               : chunk;
-            if (data.trim() === '[DONE]') continue;
-            answer += data;
+            if (!data.trim()) continue;
+
+            let payload = null;
+            try {
+              payload = JSON.parse(data);
+            } catch (err) {
+              payload = { data };
+            }
+            if (payload.done) continue;
+            if (payload.error) throw new Error(payload.error);
+            answer += payload.data || '';
             setBubbleText(bubble, answer);
           }
         }
@@ -1121,6 +1138,16 @@
         setBusy(false);
         question.focus();
       }
+    }
+
+    function fillProfileForm(profile) {
+      profileName.value = profile?.display_name || currentUser?.displayName || currentUser?.username || '';
+      profileAge.value = profile?.age || '';
+      profileGender.value = profile?.gender || '';
+      profileConditions.value = (profile?.conditions || []).join('，');
+      profileAllergies.value = (profile?.allergies || []).join('，');
+      profileMedications.value = formatMedicationLines(profile?.medications || []);
+      profileNotes.value = profile?.notes || '';
     }
 
     openLoginBtn.addEventListener('click', () => {
@@ -1146,33 +1173,54 @@
 
     profileBtn.addEventListener('click', () => {
       if (!requireLogin()) return;
-      profileName.value = currentUser.displayName || '';
-      profileAge.value = currentUser.profile?.age || '';
-      profileNotes.value = currentUser.profile?.notes || '';
+      fillProfileForm(currentUser.profile || null);
       openModal(profileModal);
+      loadHealthProfile().then(fillProfileForm).catch(() => null);
     });
 
     closeProfileBtn.addEventListener('click', () => closeModal(profileModal));
 
     profileForm.addEventListener('submit', (event) => {
       event.preventDefault();
-      const updated = {
-        ...currentUser,
-        displayName: profileName.value.trim() || currentUser.username,
-        profile: {
-          age: profileAge.value.trim(),
-          notes: profileNotes.value.trim()
+      const payload = {
+        display_name: profileName.value.trim() || currentUser.username,
+        gender: profileGender.value.trim(),
+        age: profileAge.value.trim() ? Number(profileAge.value.trim()) : null,
+        conditions: splitList(profileConditions.value),
+        allergies: splitList(profileAllergies.value),
+        medications: parseMedicationLines(profileMedications.value),
+        notes: profileNotes.value.trim()
+      };
+
+      const submit = async () => {
+        profileSubmitBtn.disabled = true;
+        statusText.textContent = '正在保存健康档案';
+        const base = getApiBase();
+        const resp = await fetch(`${base}/me/health-profile`, {
+          method: 'PUT',
+          headers: authHeaders(true),
+          body: JSON.stringify(payload)
+        });
+        const data = await resp.json().catch(() => ({}));
+        if (!resp.ok) {
+          throw new Error(data.detail || data.message || '保存健康档案失败');
         }
+        saveUser({
+          ...currentUser,
+          displayName: data.display_name || currentUser.username,
+          profile: data
+        });
+        closeModal(profileModal);
+        statusText.textContent = '健康档案已保存';
       };
-      const users = localUsers();
-      users[updated.username] = {
-        ...users[updated.username],
-        ...updated
-      };
-      saveLocalUsers(users);
-      saveUser(updated);
-      closeModal(profileModal);
-      statusText.textContent = '资料已保存';
+
+      submit()
+        .catch((err) => {
+          statusText.textContent = String(err.message || err);
+        })
+        .finally(() => {
+          profileSubmitBtn.disabled = false;
+        });
     });
 
     clearBtn.addEventListener('click', () => {

@@ -1,0 +1,310 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "三氧化二砷",
+        "canonical_name": "三氧化二砷",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "帕比司他",
+        "canonical_name": "帕比司他",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "拉帕替尼",
+        "canonical_name": "拉帕替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "尼洛替尼",
+        "canonical_name": "尼洛替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "帕唑帕尼",
+        "canonical_name": "帕唑帕尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "舒尼替尼",
+        "canonical_name": "舒尼替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "凡德他尼",
+        "canonical_name": "凡德他尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "维莫非尼",
+        "canonical_name": "维莫非尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "QT间期延长",
+        "canonical_name": "QT间期延长",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "尖端扭转型室性心动过速",
+        "canonical_name": "尖端扭转型室性心动过速",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "QTc",
+        "canonical_name": "QTc",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_5",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_6",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_7",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_3",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_5",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_6",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_8",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "健康界心血管前线",
+          "chunk_index": 850,
+          "raw_text": "其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）",
+          "chunk_id": "850",
+          "data": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 850,
+    "source": "健康界心血管前线",
+    "text": "。QT间期延长是尖端扭转性心动过速的危险因素，是传统和靶向抗肿瘤治疗的常见后果，Federica和Framingham公式可以提供最准确的QT间期校正。在非靶向治疗中，三氧化二砷与QTc延长和尖端扭转型室性心动过速的发生风险最高，其他高危药物包括组蛋白去乙酰化酶抑制剂帕比司他以及几种TKIs（拉帕替尼、尼洛替尼、帕唑帕尼、舒尼替尼、凡德他尼和维莫非尼）。共识指出对于该类患者治疗原则包括早期识别与患者相关的危险因素，常规密切监测、准确测量QT/QTc，纠正QT延长的可逆原因，了解影响QT间期的药效学和药代动力学药物相互作用，并与肿瘤心脏病专家密切合作。参考文献：Beavers CJ, Rodgers JE, Bagnola AJ, et al. A Scientific Statement From the American Heart Association. Circulation. 2022 Mar 7. doi: 10.1161/CIR.0000000000001056. Epub ahead of print. PMID: 35249373.专家简介刘莹 医学博士、博士生导师、主任医师、教授；大连医科大学附属第一医院心血管病医院，心力衰竭与结构性心脏病科主任。致力于心力衰竭、心肌病及高血压等心血管疾病的基础与临床研究；积极开展心肌病的精准诊治和管理；推动肿瘤心脏病学的早期筛查和诊治；建立规范心血管疾病的抗凝管理体系；曾赴美国Cleveland Clinic及瑞典Lund University研修"
+  }
+]

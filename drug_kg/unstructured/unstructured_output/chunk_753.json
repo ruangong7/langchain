@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "泊沙康唑",
+        "canonical_name": "泊沙康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "利福布汀",
+        "canonical_name": "利福布汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "苯妥英",
+        "canonical_name": "苯妥英",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "侵袭性真菌病",
+        "canonical_name": "侵袭性真菌病",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "泊沙康唑血药浓度",
+        "canonical_name": "泊沙康唑血药浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "临床用药评价",
+          "chunk_index": 753,
+          "raw_text": "泊沙康唑和利福布汀合用后，泊沙康唑的Cmax和AUC均有所下降，峰浓度（Cmax）和曲线下面积（AUC）分别降低了43％和49％",
+          "chunk_id": "753",
+          "data": "。当存在药物相互作用时，需考虑药物安全性和有效性，推荐利福喷丁作为患者首选用药。泊沙康唑口服混悬液使用后在人体内的肺组织浓度远高于血液浓度，Therapeutic drug monitoring(TDM) of antifungal agents：guidelines from the British Society for Medical Mycology指南推荐泊沙康唑用于预防侵袭性真菌病（IFD）的血药浓度阈值Cmin>0.5μg/mL，推荐泊沙康唑用于治疗IFD的血药浓度阈值为Cmin>1.0~1.25μg/mL。一项针对健康受试者服用泊沙康唑口服混悬液后对利福布汀影响的前瞻性研究显示，泊沙康唑和利福布汀合用后，泊沙康唑的Cmax和AUC均有所下降，峰浓度（Cmax）和曲线下面积（AUC）分别降低了43％和49％（Evaluation of the pharmacokinetics of posaconazole and rifabutin following coadministration to healthy men）。一项回顾性的临床研究显示，同时使用利福平或苯妥英，导致泊沙康唑的清除率增加600％（Understanding variability in posaconazole exposure using an integrated population pharmacokinetic analysis）"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "临床用药评价",
+          "chunk_index": 753,
+          "raw_text": "同时使用利福平或苯妥英，导致泊沙康唑的清除率增加600％",
+          "chunk_id": "753",
+          "data": "。当存在药物相互作用时，需考虑药物安全性和有效性，推荐利福喷丁作为患者首选用药。泊沙康唑口服混悬液使用后在人体内的肺组织浓度远高于血液浓度，Therapeutic drug monitoring(TDM) of antifungal agents：guidelines from the British Society for Medical Mycology指南推荐泊沙康唑用于预防侵袭性真菌病（IFD）的血药浓度阈值Cmin>0.5μg/mL，推荐泊沙康唑用于治疗IFD的血药浓度阈值为Cmin>1.0~1.25μg/mL。一项针对健康受试者服用泊沙康唑口服混悬液后对利福布汀影响的前瞻性研究显示，泊沙康唑和利福布汀合用后，泊沙康唑的Cmax和AUC均有所下降，峰浓度（Cmax）和曲线下面积（AUC）分别降低了43％和49％（Evaluation of the pharmacokinetics of posaconazole and rifabutin following coadministration to healthy men）。一项回顾性的临床研究显示，同时使用利福平或苯妥英，导致泊沙康唑的清除率增加600％（Understanding variability in posaconazole exposure using an integrated population pharmacokinetic analysis）"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "临床用药评价",
+          "chunk_index": 753,
+          "raw_text": "同时使用利福平或苯妥英，导致泊沙康唑的清除率增加600％",
+          "chunk_id": "753",
+          "data": "。当存在药物相互作用时，需考虑药物安全性和有效性，推荐利福喷丁作为患者首选用药。泊沙康唑口服混悬液使用后在人体内的肺组织浓度远高于血液浓度，Therapeutic drug monitoring(TDM) of antifungal agents：guidelines from the British Society for Medical Mycology指南推荐泊沙康唑用于预防侵袭性真菌病（IFD）的血药浓度阈值Cmin>0.5μg/mL，推荐泊沙康唑用于治疗IFD的血药浓度阈值为Cmin>1.0~1.25μg/mL。一项针对健康受试者服用泊沙康唑口服混悬液后对利福布汀影响的前瞻性研究显示，泊沙康唑和利福布汀合用后，泊沙康唑的Cmax和AUC均有所下降，峰浓度（Cmax）和曲线下面积（AUC）分别降低了43％和49％（Evaluation of the pharmacokinetics of posaconazole and rifabutin following coadministration to healthy men）。一项回顾性的临床研究显示，同时使用利福平或苯妥英，导致泊沙康唑的清除率增加600％（Understanding variability in posaconazole exposure using an integrated population pharmacokinetic analysis）"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "临床用药评价",
+          "chunk_index": 753,
+          "raw_text": "推荐泊沙康唑用于预防侵袭性真菌病（IFD）的血药浓度阈值Cmin>0.5μg/mL，推荐泊沙康唑用于治疗IFD的血药浓度阈值为Cmin>1.0~1.25μg/mL",
+          "chunk_id": "753",
+          "data": "。当存在药物相互作用时，需考虑药物安全性和有效性，推荐利福喷丁作为患者首选用药。泊沙康唑口服混悬液使用后在人体内的肺组织浓度远高于血液浓度，Therapeutic drug monitoring(TDM) of antifungal agents：guidelines from the British Society for Medical Mycology指南推荐泊沙康唑用于预防侵袭性真菌病（IFD）的血药浓度阈值Cmin>0.5μg/mL，推荐泊沙康唑用于治疗IFD的血药浓度阈值为Cmin>1.0~1.25μg/mL。一项针对健康受试者服用泊沙康唑口服混悬液后对利福布汀影响的前瞻性研究显示，泊沙康唑和利福布汀合用后，泊沙康唑的Cmax和AUC均有所下降，峰浓度（Cmax）和曲线下面积（AUC）分别降低了43％和49％（Evaluation of the pharmacokinetics of posaconazole and rifabutin following coadministration to healthy men）。一项回顾性的临床研究显示，同时使用利福平或苯妥英，导致泊沙康唑的清除率增加600％（Understanding variability in posaconazole exposure using an integrated population pharmacokinetic analysis）"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "临床用药评价",
+          "chunk_index": 753,
+          "raw_text": "推荐泊沙康唑用于预防侵袭性真菌病（IFD）的血药浓度阈值Cmin>0.5μg/mL，推荐泊沙康唑用于治疗IFD的血药浓度阈值为Cmin>1.0~1.25μg/mL",
+          "chunk_id": "753",
+          "data": "。当存在药物相互作用时，需考虑药物安全性和有效性，推荐利福喷丁作为患者首选用药。泊沙康唑口服混悬液使用后在人体内的肺组织浓度远高于血液浓度，Therapeutic drug monitoring(TDM) of antifungal agents：guidelines from the British Society for Medical Mycology指南推荐泊沙康唑用于预防侵袭性真菌病（IFD）的血药浓度阈值Cmin>0.5μg/mL，推荐泊沙康唑用于治疗IFD的血药浓度阈值为Cmin>1.0~1.25μg/mL。一项针对健康受试者服用泊沙康唑口服混悬液后对利福布汀影响的前瞻性研究显示，泊沙康唑和利福布汀合用后，泊沙康唑的Cmax和AUC均有所下降，峰浓度（Cmax）和曲线下面积（AUC）分别降低了43％和49％（Evaluation of the pharmacokinetics of posaconazole and rifabutin following coadministration to healthy men）。一项回顾性的临床研究显示，同时使用利福平或苯妥英，导致泊沙康唑的清除率增加600％（Understanding variability in posaconazole exposure using an integrated population pharmacokinetic analysis）"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 753,
+    "source": "临床用药评价",
+    "text": "。当存在药物相互作用时，需考虑药物安全性和有效性，推荐利福喷丁作为患者首选用药。泊沙康唑口服混悬液使用后在人体内的肺组织浓度远高于血液浓度，Therapeutic drug monitoring(TDM) of antifungal agents：guidelines from the British Society for Medical Mycology指南推荐泊沙康唑用于预防侵袭性真菌病（IFD）的血药浓度阈值Cmin>0.5μg/mL，推荐泊沙康唑用于治疗IFD的血药浓度阈值为Cmin>1.0~1.25μg/mL。一项针对健康受试者服用泊沙康唑口服混悬液后对利福布汀影响的前瞻性研究显示，泊沙康唑和利福布汀合用后，泊沙康唑的Cmax和AUC均有所下降，峰浓度（Cmax）和曲线下面积（AUC）分别降低了43％和49％（Evaluation of the pharmacokinetics of posaconazole and rifabutin following coadministration to healthy men）。一项回顾性的临床研究显示，同时使用利福平或苯妥英，导致泊沙康唑的清除率增加600％（Understanding variability in posaconazole exposure using an integrated population pharmacokinetic analysis）"
+  }
+]

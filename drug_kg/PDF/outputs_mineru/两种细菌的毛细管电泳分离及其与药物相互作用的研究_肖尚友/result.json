@@ -1,0 +1,1007 @@
+[
+  {
+    "type": "text",
+    "text": "两种细菌的毛细管电泳分离及其与药物相互作用的研究",
+    "text_level": 1,
+    "bbox": [
+      101,
+      85,
+      866,
+      108
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "肖尚友1,2 阴永光2 宋广涛2,3 杨元娟2, 2，4 夏之宁∗1,2",
+    "bbox": [
+      149,
+      128,
+      820,
+      152
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 重庆大学生物力学与组织工程教育部重点实验室 重庆 2 (重庆大学化学化工学院,重庆 400044)",
+    "bbox": [
+      44,
+      154,
+      921,
+      170
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "3 中国科学院长春应用化学研究所 长春 4 重庆市药剂学校 重庆",
+    "bbox": [
+      137,
+      173,
+      828,
+      188
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘 要 通过对大肠杆菌与金黄色葡萄球菌的毛细管电泳行为的研究 包括对细菌样品预处理 缓冲液 检测波长以及聚合物添加剂对分离度的改进等的考察 在优化的实验条件下 实现了大肠杆菌与金黄色葡萄球菌的快速分离 从而建立一种新的细菌辅助识别与定性的补充方法 将抗菌药物阿奇霉素与金黄色葡萄球菌混合培育 发现由于阿奇霉素抑制细菌表面蛋白合成 造成与金黄色葡萄球菌作用后 细菌表面电荷密度降低表现为阿奇霉素对金黄色葡萄球菌的电泳淌度的影响 而且培育时间与金黄色葡萄球菌的淌度线性相关",
+    "bbox": [
+      54,
+      213,
+      909,
+      305
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词 细菌,毛细管电泳,大肠杆菌,金黄色葡萄球菌,阿奇霉素",
+    "bbox": [
+      54,
+      317,
+      593,
+      332
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 引 言",
+    "text_level": 2,
+    "bbox": [
+      20,
+      344,
+      171,
+      366
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "细菌是单细胞原核微生物 了解与控制细菌的各种活动 对各种细菌进行识别和性质研究是微生物科学的研究基础 然而往往多种细菌共存于同一环境体系之中 所以发展快速 高效的细菌分离识别分析方法十分重要 目前 仍缺乏对各种细菌进行快速高效分离分析的方法 基于细菌形态识别的技术仍占据着主要地位。近年来,根据其物理化学特性研究细菌的方法有质谱法[1]、电化学法[2]、色谱法[3,4] 离子淌度谱法[5]及光谱法[6,7]等 这些方法具有快速和定量准确的特点 电泳作为一种分离手段早已用于细菌的分离与性质研究[8]",
+    "bbox": [
+      12,
+      378,
+      949,
+      500
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "细菌的细胞壁含有蛋白质 唾液酸等 在一定 pH的水溶液中离解而带一定的电荷 细菌表面的荷电情况与溶液的组成、pH、离子强度、温度等因素相关。细菌的类型、生长阶段及生长条件不同,其表面的聚合物组成也不同 因此表现为其电泳淌度和等电点存在差异 这是利用电泳淌度或等电点的不同对细菌进行分离和表征的基础[9,10]。毛细管电泳用于分离粪肠球菌、化脓链球菌、无乳链球菌、肺炎双球菌和金黄色葡萄球菌的混合体系[11] 是研究细菌混合体系的组成和分离分析的有效手段 无胶筛分毛细管电泳被用来对啤酒酵母菌 藤黄微球菌 产气肠杆菌 荧光假单胞菌的分离与淌度测定[9] 对药品和果汁中嗜酸乳杆菌、婴儿双歧杆菌的定性与定量分析[12],以及对尿液中细菌病原体的分析[13]。毛细管凝胶电泳还被用于进行细菌混合物的分离[14] 毛细管电泳不仅可以分离不同种属的细菌 也能够分离不同亚型细菌[15]。",
+    "bbox": [
+      12,
+      503,
+      949,
+      686
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Armstrong等[16]采用毛细管电泳-激光诱导荧光微流体系对细菌的生存状态进行过考察。不同的荧光探针可分别与活细菌和死细菌发生特异性的结合 利用荧光强度可对样品中细菌的生存状态进行分析。Torimura等[17]采用电泳介导微分析 (electrophoretic-mediatedmicroanalysis,EMMA)对细菌的活性进行了研究 发现某些抗菌药物与细菌培育后 一些细菌的电泳淌度发生了变化 而有些细菌 虽然电泳淌度没有发生变化 但活性降低 将 EMMA用于细菌活性分析 对于抗菌药物的筛选及药物作用机理研究无疑具有积极的意义。Armstrong等[18]首创用亲和毛细管电泳峰漂移法研究化合物与细菌的结合行为 将细菌加入到电泳缓冲液中 通过测定分子有效淌度的变化来考察化合物与细菌的结合 并通过 Scatchard方程分析 求得了万古霉素与婴儿双歧杆菌的结合常数",
+    "bbox": [
+      12,
+      690,
+      949,
+      851
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "大肠杆菌 金黄色葡萄球菌为环境中常见的菌种 也是食品 制药等工业中微生物检测的常规菌种对人类健康有重要的影响 大肠杆菌为有代表性的革兰氏阴性菌 而金黄色葡萄球菌为有代表性的革兰氏阳性菌 本实验以大肠杆菌与金黄色葡萄球菌为对象 采用毛细管区带电泳模式 实现了大肠杆菌与金黄色葡萄球菌的快速分离 并对抗菌药物阿奇霉素与金黄色葡萄球菌相互作用进行了考察",
+    "bbox": [
+      12,
+      855,
+      949,
+      914
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "第 33卷",
+    "bbox": [
+      20,
+      11,
+      84,
+      24
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "2005年 7月",
+    "bbox": [
+      22,
+      32,
+      113,
+      45
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "分析化学 (FENXIHUAXUE) 研究报告",
+    "bbox": [
+      331,
+      11,
+      654,
+      24
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "ChineseJournalofAnalyticalChemistry",
+    "bbox": [
+      351,
+      32,
+      644,
+      47
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "第 7期",
+    "bbox": [
+      888,
+      11,
+      945,
+      24
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "917\\~921",
+    "bbox": [
+      874,
+      32,
+      947,
+      44
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "收稿； 接受",
+    "bbox": [
+      32,
+      923,
+      262,
+      935
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "本文系国家自然科学基金 No 及教育部跨世纪优秀人才培养计划 教技函 号 资助项目",
+    "bbox": [
+      32,
+      937,
+      844,
+      950
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      34,
+      960,
+      997,
+      977
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      14,
+      66,
+      886,
+      83
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 实验部分",
+    "text_level": 2,
+    "bbox": [
+      16,
+      96,
+      173,
+      117
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.1 仪器与试剂",
+    "text_level": 2,
+    "bbox": [
+      16,
+      129,
+      177,
+      145
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "自组装毛细管电泳仪：可调高压电源 kV ；可变单波长紫外可见检测器 nm ；光电倍增管 北京卓立汉光有限公司 ；HW 色谱工作站 南京千谱软件有限公司 ；KQ 型超声波清洗器 (50W,昆山市超声仪器有限公司 )；石英毛细管 (内径 $7 5 ~ \\mu _ { \\mathrm { m } } ,$ ,总长 65.0cm,有效长度 51.6cm,河北永年锐沣色谱器件有限公司 ；TGL 高速台式离心机 上海安亭分析仪器厂 注射用乳酸糖阿奇霉素 万单位 浙江震元制药有限公司 大肠杆菌和金黄色葡萄球菌 重庆市药剂学校三羟甲基氨基甲烷 Tris 聚乙二醇 PEG 与乙二胺四乙酸 EDTA 为化学纯 其它试剂均为分析纯 水为二次蒸馏水",
+    "bbox": [
+      12,
+      149,
+      951,
+      290
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "毛细管用 0.1mol/L $\\mathrm { N a O H }$ 溶液冲洗 2min,水冲洗 5min,Tris-硼酸-EDTA(TBE)电泳缓冲液 (组成为 mmolLTris mmolL $\\mathrm { H _ { 3 } B O _ { 3 } \\cdot 0 . \\nabla 1 \\ m m o l } .$ LEDTA pH 冲洗 $5 \\mathrm { ~ m ~ i n } ;$ ；电迁移进样 $2 4 ~ \\mathrm { { k V } \\times }$ $1 0 \\mathrm { ~ s ~ }$ ；正向电泳,电压 24kV；室温；检测波长 210nm。",
+    "bbox": [
+      14,
+      294,
+      953,
+      351
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "22 细菌培养及样品处理",
+    "text_level": 2,
+    "bbox": [
+      16,
+      355,
+      264,
+      370
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "细菌在琼脂培养基上培养 用培养液 含有葡萄糖 mmolL磷酸二氢钠 mmolL磷酸氢二钠mmolL 洗脱 $4 \\mathrm { ^ { \\circ } C }$ 保存 电泳前将细菌样品置于离心管中 以 rmin离心 min除去上清液用电泳缓冲液清洗 震荡使细菌悬浮 重复上述操作两次 使细菌富集并除去培养液 代谢物 已富集的细菌样品可超声一定时间,使其聚集体解聚,在溶液中均匀分布,制备成细菌试样。",
+    "bbox": [
+      12,
+      376,
+      949,
+      454
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "3 结果与讨论",
+    "text_level": 2,
+    "bbox": [
+      16,
+      467,
+      200,
+      488
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "31 电泳缓冲液的选择",
+    "text_level": 2,
+    "bbox": [
+      16,
+      500,
+      240,
+      516
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "细菌的电泳行为受缓冲液的组成 pH 离子强度等影响 选择合适的电泳缓冲液对于维持细菌的稳定性 保证分析重现性和提高分离效能十分重要 参照文献 对 $\\mathrm { { N a } _ { 2 } \\mathrm { { C O } _ { 3 } } }$ 缓冲液 组成为 molL$\\mathrm { N a H C O _ { 3 } \\Phi \\Phi \\Phi \\Phi \\Phi ^ { \\mathrm { T } 1 5 } }$ 与 $\\mathrm { T B E } ^ { [ 1 2 ] }$ 缓冲液进行了比较。结果表明,采用 $\\mathrm { N a _ { 2 } C O _ { 3 } }$ 缓冲液细菌峰形较宽且响应较小 而 TBE缓冲液效果较好 进一步研究了 TBE缓冲液中 EDTA的作用 发现 EDTA的加入可以使细菌之间的聚集作用降低 且使细菌在 nm处的响应增强 但其机理尚等研究 因金黄色葡萄球菌能够在 pH 的范围内生长 在 pH 的 TBE[12]缓冲液甚至 $\\mathrm { p H } ~ 9 . ~ 5$ 的缓冲液中也能保持细菌的活性[11],故选择 pH8.4TBE作为运行缓冲液。",
+    "bbox": [
+      12,
+      521,
+      953,
+      661
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "3.2 检测波长的选择",
+    "text_level": 2,
+    "bbox": [
+      16,
+      665,
+      220,
+      682
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "细菌为大颗粒物质 呈半透明状 通常认为对其检测是基于细菌对光的散射作用 细菌表面物质对紫外光的吸收也有一定贡献 细菌的直径在微米级范围 大于入射光线波长 因而对入射光的减少主要以米氏散射为主 比较 nm三个检测波长下组分的透过光成分响应虽然相差不大 但在nm处光度下降较大 故实验选择 nm为检测波长",
+    "bbox": [
+      12,
+      686,
+      949,
+      765
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "3.3 对离心前后样品的电泳考察",
+    "text_level": 2,
+    "bbox": [
+      16,
+      769,
+      325,
+      785
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "将等渗液培育的细菌直接进样 进行电泳分析 发现两种细菌的电泳谱图相似：在宽峰之前均存在一峰形尖锐的电泳峰 由于细菌为大颗粒物质 扩散比小分子物质小 电泳峰尖锐 所以 此较尖锐的电泳峰可能即为细菌的电泳峰 而电泳谱图中的宽峰则为样品中存在的细菌代谢产物 将细菌样品离心 取其上清液进行电泳 两种细菌样品上清液得到的谱图相似 宽峰之前的尖峰消失 也证实此尖峰即为细菌的电泳峰 将两种上清液混合后进行电泳仅得到单一电泳峰 说明二者为同一物质 这是由于保存细菌的培养液中含有葡萄糖 而两种细菌对葡萄糖的代谢产物均为丙酮酸 因此该电泳峰对应的物质可能为丙酮酸",
+    "bbox": [
+      12,
+      788,
+      949,
+      929
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "918",
+    "bbox": [
+      28,
+      35,
+      58,
+      45
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "分 析 化 学",
+    "bbox": [
+      422,
+      32,
+      517,
+      45
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "第 33卷",
+    "bbox": [
+      872,
+      32,
+      937,
+      45
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      34,
+      960,
+      997,
+      977
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "34 样品的超声处理",
+    "text_level": 2,
+    "bbox": [
+      16,
+      66,
+      220,
+      83
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "细菌虽属单细胞微生物,但在自然界中,通常不是以单个个体的形式存在,而是众多细菌彼此结合在一起形成聚集体 (aggregation)。不同聚集数的聚集体电泳淌度存在差异,电泳谱图较为复杂,不利于对细菌的识别与分析 对细菌样品施加小功率的超声波 可使细菌个体彼此分开 又不至于破坏细菌细胞壁的完整性 实验将细菌样品进行超声处理 利用超声波的空化作用使细菌聚集体解离 也使细菌在样品溶液中能够更加均一化 本实验研究了超声对金黄色葡萄球菌 大肠杆菌的电泳行为的影响 研究表明 随着超声时间的延长 电泳峰的个数减少 并伴随着各峰的相对强度的变化 大肠杆菌超声处理 90min,金黄色葡萄球菌超声处理 130min后,两者均得到单一的峰。结果如图 1所示。",
+    "bbox": [
+      10,
+      87,
+      949,
+      229
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "chart",
+    "img_path": "images/729ba6b77487dcac6f268648666ab2824f06a49092e61cc123e72394fa44e17d.jpg",
+    "content": "| t/min | Value |\n|-------|-------|\n| 4     | Peak  |\n| 5     | High  |\n| 6     | Low   |\n| 8     | Baseline |",
+    "chart_caption": [],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      212,
+      235,
+      355,
+      344
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "chart",
+    "img_path": "images/3827a101b60efd4d15a95a16c1bbe81ba535af8bd26a84439398f4d59f0de432.jpg",
+    "content": "| t/min | Value |\n|-------|-------|\n| 2     | ~0    |\n| 4     | ~1.0  |\n| 6     | ~0.3  |\n| 8     | ~0.1  |",
+    "chart_caption": [],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      381,
+      235,
+      519,
+      344
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "chart",
+    "img_path": "images/781cfa87d07d614941a145953df07a38467ae832e88b88a7bcfda17b1e14db02.jpg",
+    "content": "| t/min | Value |\n|-------|-------|\n| 4     | 100   |\n| 5     | 80    |\n| 6     | 70    |\n| 7     | 60    |\n| 8     | 50    |",
+    "chart_caption": [],
+    "chart_footnote": [],
+    "sub_type": "line chart",
+    "bbox": [
+      551,
+      235,
+      694,
+      344
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "chart",
+    "img_path": "images/eed7adfd6ad8244094e332dab7a3a57ad02468139048f9b8c1636c4d2204a838.jpg",
+    "content": "| t/min | Value |\n|-------|-------|\n| 4     | Peak  |",
+    "chart_caption": [
+      "图 超声处理对细菌电泳的影响",
+      "Fig.1 Theeffectofsupersonicontheelectropherogramsofbacteria"
+    ],
+    "chart_footnote": [
+      "a 未超声的大肠杆菌 E.coliwithoutsupersonic；b 大肠杆菌超声处理 min E.coliimmensedinanultrasoundbathfor90min)；c.未超声的金黄色葡萄球菌 (S.aureuswithoutsupersonic)；d.金黄色葡萄球菌超声处理 min S.aureusimmensedinanultrasoundbathfor min"
+    ],
+    "sub_type": "line chart",
+    "bbox": [
+      729,
+      247,
+      866,
+      344
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3.5 金黄色葡萄球菌与大肠杆菌的分离",
+    "text_level": 2,
+    "bbox": [
+      16,
+      453,
+      389,
+      469
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "将金黄色葡萄球菌和大肠杆菌样品分别超声处理 min后 二者混合均匀 进样 得到的电泳谱",
+    "bbox": [
+      54,
+      473,
+      949,
+      490
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "图如图 所示 图 $2 \\mathrm { a }$ 表明 毛细管电泳可在 $6 \\mathrm { ~ m ~ i n ~ }$ 内实现金黄色葡萄球菌和大肠杆菌的分离 但金黄色葡萄球菌与大肠杆菌的电泳峰都存在分叉现象 这可能是由于细菌在电泳过程中重新聚集的缘故[19] 在缓冲液中加入 PEG W/V浓度 得到电泳谱图如图 $\\mathrm { 2 b _ { \\circ } }$ 二者的分离度增加,但是两峰的信噪比大大降低 原因可能是 PEG包覆在细菌表面 影响了细菌的淌度；同时PEG在此电泳中具有筛分的性质 对细菌具有大小与形状选择区分 使分离度增大 但缓冲液的粘度变大 电渗流变小 在相同的进样电压与时间条件下 进样量减小 导致细菌出峰变小 另外 PEG造成背景信号增大 影响了细菌的检测 可以认为在对待细菌分离不佳的情况下,加入 PEG有利于分离度的提高。但是在实际分离中更应兼顾分离度与信噪比 以得到最佳的分离分析效果",
+    "bbox": [
+      12,
+      494,
+      610,
+      737
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3.6 阿奇霉素对金黄色葡萄球菌电泳淌度的影响",
+    "text_level": 2,
+    "bbox": [
+      16,
+      741,
+      474,
+      758
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "阿奇霉素为氮杂内酯类抗生素 对金黄色葡萄球菌有较强的抑菌作用 将阿奇霉素与金黄色葡萄球菌混合培育 考察不同培育时间阿奇霉素对金黄色葡萄球菌电泳淌度的影响 为了扣除电泳中电渗流的波动对测定的干扰 采用中性物质二甲亚砜作为电渗流标记物 同时 为了避免二甲亚砜标记物对金黄色葡萄球菌的作用 实验采用了标记物分区带进样技术 如图 所示 方法为：将标记物 $( 2 4  { \\mathrm { ~ \\mathbf { k } ~ } }  { \\mathrm { V } } \\times 2  { \\mathrm { ~ \\mathbf { s } ~ } } )$ 电泳缓冲液 $( \\ 2 4 \\ \\mathrm { \\ k V } \\times 2 0 \\ \\mathrm { \\ s } )$ 细菌样品 $( 2 4 \\mathrm { ~ k V } \\times 1 0 \\mathrm { ~ s } )$ 依次进样 然后进行电泳 由于二甲亚砜电泳速度比金黄色葡萄球菌快 所以电泳过程中二者不接触 这就避免",
+    "bbox": [
+      12,
+      762,
+      608,
+      943
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "chart",
+    "img_path": "images/9c0f44826381edf40cadcc4204571d62b9d7b5723c3cb075cb2d2bf682da4dad.jpg",
+    "content": "| Peak | Time (min) |\n|------|------------|\n| 1    | 5.5        |\n| 2    | 6.0        |\n| 3    | 9.0        |\n| 4    | 14.0       |\n| 5    | 14.5       |\n| 6    | 15.0       |\n| 7    | 16.0       |\n| 8    | 17.0       |\n| 9    | 18.0       |",
+    "chart_caption": [
+      "图 金黄色葡萄球菌 与大肠杆菌的分离谱图",
+      "Fig.2 Electropherogramsofthesepara tionofS.aureus andE.coli"
+    ],
+    "chart_footnote": [
+      "a 缓 冲 液 中 不 含 聚 乙 二 醇 runningbuffercontainingnopolyethyleneglyocl PEG ；b 缓冲液中含 聚 $Z \\ = \\ \\overrightarrow { \\sf E }$ PEG(W/V)dissolvedinrunningbuffer)。"
+    ],
+    "sub_type": "line chart",
+    "bbox": [
+      618,
+      496,
+      911,
+      635
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "image",
+    "img_path": "images/648ad38994eef76e5519713e985e9dfe135e8de307d723ee6e570e0c998289bc.jpg",
+    "image_caption": [
+      "图 标记物分区带进样技术示意图",
+      "Fig.3 Schematicillustrationofforepart markertechnique"
+    ],
+    "image_footnote": [],
+    "content": "样品\nSample\n标记物\nMarker\n缓冲液\nBuffer\n+ -",
+    "sub_type": "text_image",
+    "bbox": [
+      614,
+      817,
+      933,
+      871
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "了标记物对细菌的影响 由此得到的细菌有效淌度并非其真实淌度 而是与其真实淌度相差一定值但由于考察对象为细菌淌度的相对变化,所以这不会对药物与细菌的相互作用研究带来不利影响。研究发现,随药物与细菌混合时间的延长 细菌的净电泳速度减慢 其电泳淌度与培育时间之间存在一线性关系 如图 所示 阿奇霉素可抑制细菌蛋白质的合成,属快速抑制剂。由于阿奇霉素与细菌作用后,细菌表面荷负电蛋白减少 引起细菌表面电荷密度降低 从而改变了细菌的淌度。",
+    "bbox": [
+      16,
+      947,
+      949,
+      963
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "第 7期",
+    "bbox": [
+      26,
+      32,
+      82,
+      45
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "肖尚友等：两种细菌的毛细管电泳分离以及药物与细菌的相互作用分析",
+    "bbox": [
+      212,
+      32,
+      771,
+      47
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "919",
+    "bbox": [
+      913,
+      35,
+      945,
+      45
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "(C)1994-2023ChinaAcademic Journal ElectronicPublishingHouse.Allrignts其其rved.http://www.cnki.ne",
+    "bbox": [
+      34,
+      961,
+      997,
+      977
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      12,
+      66,
+      608,
+      208
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "4 结论与展望",
+    "text_level": 2,
+    "bbox": [
+      16,
+      220,
+      200,
+      241
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "实现了大肠杆菌与金黄色葡萄球菌的毛细管电泳快速分离将阿奇霉素与金黄色葡萄球菌混合培育 发现培育时间与金黄色葡萄球菌的淌度存在线性关系 由于细菌对环境极其敏感 易发生破碎 因此电泳介质的选择受到很大限制 此外 细菌溶液也",
+    "bbox": [
+      12,
+      252,
+      608,
+      331
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "chart",
+    "img_path": "images/6344cb7f92d3232515ca370635971484f4be0931816148ba3b99c9aedbfebbe3.jpg",
+    "content": "| 培育时间 Incubation time (min) | 电泳滴度 Mobility (10⁻³ cm²·V⁻¹·min⁻¹) |\n| ------------------------------ | -------------------------------------- |\n| 0                              | -15.5                                  |\n| 20                             | -14.8                                  |\n| 40                             | -14.2                                  |\n| 60                             | -13.7                                  |\n| 80                             | -13.2                                  |\n| 100                            | -12.8                                  |\n| 120                            | -12.4                                  |\n| 140                            | -12.0                                  |\n| 160                            | -11.6                                  |\n| 180                            | -11.2                                  |\n| 200                            | -10.8                                  |\n| 220                            | -10.4                                  |\n| 240                            | -10.0                                  |\n| 260                            | -9.6                                   |\n| 280                            | -9.2                                   |",
+    "chart_caption": [
+      "图 金黄色葡萄球菌的电泳淌度与培育时间的关系",
+      "Fig.4 RelationshipbetweenelectrophoreticmobilityofS.aureusandincubationtime"
+    ],
+    "chart_footnote": [],
+    "sub_type": "scatterplot",
+    "bbox": [
+      614,
+      74,
+      911,
+      218
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "会随时间发生变化 如细菌的繁殖与聚集 导致实验重现性差 许多细菌释放酶 蛋白质等生物分子这些生物分子对其它细菌存在影响 也会对细菌的分析造成干扰 毛细管电泳的紫外 可见检测主要是基于细菌在紫外和可见区域对光的散射 对于检测低浓度的微生物不够灵敏 因此 发展更为灵敏的检测方法 以实现低浓度细菌的检测应引起重视 毛细管电泳用于细菌的分离分析 具有高效快速的特点 并易于实现自动化与微型化 结合高灵敏度的检测方法 可进一步应用于临床与环境中细菌的分离与定量分析。它能作为流式细胞术的补充,表征细菌表面的荷电性质。此外,采用毛细管电泳研究分子与细菌的相互作用具有广阔的发展前景,将这一方法与毛细管阵列技术相结合,有可能成为测定抗菌药物效价的一种快速的方法 并用于抗菌药物的高通量筛选",
+    "bbox": [
+      12,
+      335,
+      951,
+      496
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "References",
+    "text_level": 2,
+    "bbox": [
+      16,
+      522,
+      123,
+      534
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "KussakA WeintraubA Anal.Biochem.,2002 ：",
+      "2 HanS,LiX,GuoG,SunY,YuanZ.Anal.Chim.Acta,2000,405(1-2)：115～121",
+      "3 MossCW.J.Chromatogr.,1981,203：337～347",
+      "TalbotHM WatsonDF MurrellJC CarterJF FarrimondP J.Chromatogr.A 2001 ：",
+      "5 VinopalRT,JadamecJR,FurD P,DemarsA L,JakubielskiS,GreenC,AndersonCP,DugasJE,DeBonoR F. Anal.Chim.Acta,2002 ：",
+      "LeblancL DufourER FEMSMicrobiol.Lett. 2002 ：",
+      "SchusterKC ReeseI UrlaubE GapesJR LendlB Anal.Chem. 2000 ：",
+      "8 BierM,TranslatedbyYaoKan(姚 侃 ),DuanJinsheng(段金生 ),WangYunfa(王云发 ),LiKangzong(李亢宗 ).Electrophoresis(电泳 ).Beijing(北京 )：SciencePress(科学出版社 ),1966：296～317",
+      "ArmstrongDW SchulteG SchneiderheinzeJM WestenbergDJ Anal.Chem.,1999 ：",
+      "SchneiderheinzeJM ArmstrongDW SchulteG WestenbergDJ FEMSMicrobiol.Lett.,2000 ：",
+      "EbersoleRC MccormickRM Bio/Technology,1993 ：",
+      "12 ArmstrongDW,SchneiderheinzeJM,KullmanJP,HeL.FEMSMicrobiol.Lett.,2001,194(1)：33～37",
+      "13 ArmstrongDW,SchneiderheinzeJM.Anal.Chem.,2000,72(18)：4474～4476",
+      "ShintaniT YamadaK TorimuraM FEMSMicrobiol.Lett.,2002 ：",
+      "15 ChenPing(陈 萍 ),LiRenkuan(李仁宽 ),XuXiaohua(徐小华 ),RaoPingfan(饶平凡 ).ChineseJournalofChroma-tography 色谱 2002 ：",
+      "16 ArmstrongDW,HeL.Anal.Chem.,2001,73(19)：4551～4557",
+      "TorimuraM ItoS KanoK IkedaT EsakaY UedaT J.Chromatogr.B 1999 ：",
+      "18 BerthodA,RodriguezM,ArmstrongDW.Electrophoresis,2002,23：847～857",
+      "19 ZhengJ,YeungES.Anal.Chem.,2003,75(4)：818～824"
+    ],
+    "bbox": [
+      22,
+      538,
+      955,
+      947
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "920",
+    "bbox": [
+      28,
+      35,
+      58,
+      45
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "分 析 化 学",
+    "bbox": [
+      422,
+      32,
+      517,
+      45
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "第 33卷",
+    "bbox": [
+      872,
+      32,
+      937,
+      45
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      34,
+      960,
+      997,
+      977
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "SeparationofE.coliandS.aureusandtheInteraction betweenS.aureusandAzithromycinbyCapillaryElectrophoresis",
+    "text_level": 1,
+    "bbox": [
+      82,
+      69,
+      896,
+      115
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "XiaoShangyou1,2,YinYongguang2,SongGuangtao2,3,YangYuanjuan2,4,XiaZhining∗1,2",
+    "bbox": [
+      145,
+      134,
+      822,
+      153
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "1 (KeyLaboratoryforBiomechanics＆ TissueEngineering,StateEducationMinistryofChina, ChongqingUniversity,Chongqing400044)",
+    "bbox": [
+      143,
+      155,
+      820,
+      190
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "2 (CollegeofChemistryandChemicalEngineering,ChongqingUniversity,Chongqing400044)",
+    "bbox": [
+      135,
+      192,
+      828,
+      209
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "3 (ChangchunInstituteofAppliedChemistry,ChineseAcademyofSciences,Changchun130022)",
+    "bbox": [
+      135,
+      211,
+      832,
+      226
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "4 (ChongqingPharmaceuticalSchool,Chongqing400030)",
+    "bbox": [
+      270,
+      230,
+      696,
+      246
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "Abstract AcapillaryelectrophoresismethodwasappliedtotherapidseparationandrecognitionofE.coli andS.aureus.Thepre-treatmentofsample,compositionoftherunningbuffer,detectionwavelengthand improvementofresolutionbypolymeradditiveinrunningbufferwereinvestigated.Theoptimizedconditions wereobtainedwith24kV asseparatevoltage,4.5mmol/LTris-4.5mmol/L $\\mathrm { H _ { 3 } B O _ { 3 } \\mathrm { ~ - ~ } 0 . ~ 1 }$ mmol/LEDTA (pH8.4)asrunningbuffer.TheseparationofE.coliandS.aureuswasachievedin6minutesinthecase. Theinfluenceofazithromycinasananti-bacteriadrugonS.aureuswasalsostudiedbycapillaryelectrophoresis.SinceAzithromycincaninhibitthesynthesisofproteinonthesurfaceofS.aureus,theelectric chargedensityofS.aureus′surfacecouldbedecreasedbyactionfrom azithromycin.A linearrelationship betweenincubationtimeandthemobilityofS.aureuswasobtainedbythiscapillaryelectrophoresismethod developedinthispaper.",
+    "bbox": [
+      16,
+      269,
+      961,
+      471
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "Keywords Bacteria,capillaryelectrophoresis,E.coli,S.aureus,azithromycin",
+    "bbox": [
+      16,
+      475,
+      723,
+      492
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "(Received24May2004；accepted5February2005)",
+    "bbox": [
+      604,
+      494,
+      951,
+      508
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "《化学计量学方法 》(第二版 )简介",
+    "text_level": 2,
+    "bbox": [
+      282,
+      572,
+      686,
+      593
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "化学计量学方法 第二版 在第一版的基础上补充了最新出现的化学计量学研究方法和最新的研究成果 该书包括了化学计量学的主要内容 全书共分 章 分别为误差及与数理统计基础 回归分析 相关分析和数据平滑 最优化方法 主成分分析和因子分析 偏最小二乘方法 多元校正及分辨 小波分析 遗传算法和模拟退火算法 人工神经网络法及在化学中的应用 模拟识别方法 化合物结构表征和构效关系研究 组合化学 谱图库检索和结构解析专家系统及实验设计 此外 为方便读者查阅 该书还将常用数据信息列为附表",
+    "bbox": [
+      12,
+      615,
+      951,
+      705
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "化学计量学方法 第二版 作为教育部研究生工作办公室推荐的研究生教学用书 可作为化学 生物化学 医学化学及环境化学等专业的研究生学习 也可供相关领域广大科技工作者参考",
+    "bbox": [
+      12,
+      707,
+      949,
+      741
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "化学计量学方法 第二版 许禄 邵学广著 于 年 月由科学出版社 北京市东黄城根北街 号 邮编出版 共 万字 订价 元",
+    "bbox": [
+      16,
+      745,
+      949,
+      779
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "第 7期",
+    "bbox": [
+      26,
+      32,
+      82,
+      45
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "肖尚友等：两种细菌的毛细管电泳分离以及药物与细菌的相互作用分析",
+    "bbox": [
+      212,
+      32,
+      771,
+      47
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "921",
+    "bbox": [
+      913,
+      35,
+      943,
+      45
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      34,
+      960,
+      997,
+      977
+    ],
+    "page_idx": 4
+  }
+]

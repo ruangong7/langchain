@@ -1,0 +1,1381 @@
+[
+  {
+    "type": "text",
+    "text": "doi: 10． 3969 / j． issn． 1006 － 4931． 2020． 12． 004",
+    "bbox": [
+      65,
+      109,
+      366,
+      122
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "新型冠状病毒肺炎抗病毒药物相互作用研究＊",
+    "text_level": 1,
+    "bbox": [
+      149,
+      137,
+      842,
+      165
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "陈昭阳 1，2 ，骆旭东 1 ，何治尧 1，2 ，柏 杨 1 ，徐 1，3 ，苏 娜 1△",
+    "bbox": [
+      231,
+      168,
+      763,
+      187
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "( 1． 四川大学华西医院临床药学部，四川 成都 610041; 2． 四川大学生物治疗国家重点实验室，四川 成都 610041;",
+    "bbox": [
+      84,
+      189,
+      905,
+      206
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "3． 四川大学华西药学院临床药学与药事管理学系，四川 成都 610041)",
+    "bbox": [
+      248,
+      206,
+      744,
+      222
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘要: 目的 探讨新型冠状病毒肺炎抗病毒药物的相互作用 方法 检索抗病毒药物 － 干扰素 洛匹那韦 /利托那韦 利巴韦林磷酸氯喹、阿比多尔的药物相互作用文献，整理并分析这些药物的相互作用。结果与结论 上述抗病毒药物尤其是洛匹那韦 /利托那韦 磷酸氯喹和许多药物之间存在明确的相互作用，主要影响途径是抑制或诱导药物代谢酶，导致底物血药浓度变化 药物的相互作用会影响药物疗效，甚至造成不良反应，临床应用中应重视并注意避免联用或调整药物剂量。",
+    "bbox": [
+      65,
+      225,
+      929,
+      287
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词:新型冠状病毒肺炎; 抗病毒药物; 药物相互作用; 细胞色素 P450; 尿苷二磷酸葡萄糖醛酸转移酶; 合理用药",
+    "bbox": [
+      67,
+      288,
+      796,
+      303
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号: R95; R978． 7 文献标识码: A 文章编号: 1006 － 4931 (2020 )12 － 0018 － 06",
+    "bbox": [
+      179,
+      305,
+      816,
+      319
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Drug － Drug Interactions During Antiviral Therapy for Coronavirus Disease 2019",
+    "bbox": [
+      124,
+      323,
+      870,
+      338
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "CHEN Zhaoyang1，2 ，LUO Xudong1 ，HE Zhiyao1，2 ，BAI Yang1 ，XU Ting1，3 ，SU Na1",
+    "bbox": [
+      240,
+      342,
+      757,
+      356
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "( 1． Department of Clinical Pharmacy，West China Hospital，Sichuan University，Chengdu，Sichuan，China 610041; 2． State Key Laboratory of Biotherapy， Sichuan University，Chengdu，Sichuan，China 610041; 3． Department of Clinical Pharmacy and Pharmaceutical Administration，West China School of Pharmacy，Sichuan University，Chengdu，Sichuan，China 610041)",
+    "bbox": [
+      65,
+      357,
+      931,
+      400
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Abstract: Objective To investigate the drug － drug interactions of antiviral drugs for coronavirus disease 2019． Methods The literature on the drug － drug interactions of antiviral drugs: interferon － α，lopinavir / ritonavir，ribavirin，chloroquine，and abidor was searched，and the drug － drug interactions of these drugs were collated and analyzed． Results and Conclusion There was a clear interaction between these antiviral drugs and many drugs，especially lopinavir / ritonavir and chloroquine，which was mainly affected by interfering with drug metabolic enzymes． The drug interactions of these antiviral drugs are clear，the drug － drug interactions will affect the efficacy of drugs， or even cause adverse reactions． Therefore，we should pay attention to these drug － drug interactions，avoid drug combinations or adjust dosage appropriately．",
+    "bbox": [
+      65,
+      403,
+      931,
+      512
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Key words: coronavirus disease 2019; antiviral drug; drug － drug interaction; CYP450; UTGs; rational drug use",
+    "bbox": [
+      65,
+      514,
+      744,
+      527
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "新型冠状病毒肺炎(COVID －19) 疫情正严重危害着人类的生命健康 对于 COVID － 19，尚无特效治疗药物，目前临床抗新型冠状病毒试验性治疗药物包括α －干扰素 洛匹那韦 /利托那韦( LPV /r) 利巴韦林 磷酸氯喹 阿比多尔[ 1 ] 《中国 －世界卫生组织新型冠状病毒肺炎( COVID － 19) 联合考察报告 》指出，55 924 例确诊病例中，77． 8%的患者年龄介于 30 ～69 岁(中位年龄51 岁)，60 岁以上及患高血压 糖尿病 心血管系统等慢性基础疾病的人群为重症和死亡高危人群[ 2 ] 上述人群由于基础疾病的原因，常需多药合用，治疗 COVID －19期间，基础疾病治疗药物和抗病毒药物间可能产生相互作用，干扰疗效，甚至产生严重的药品不良反应(ADR)在此，对抗新型冠状病毒药物的药物相互作用(DDI) 进行综述，为临床合理使用抗新型冠状病毒药物提供参考 现报道如下",
+    "bbox": [
+      65,
+      535,
+      485,
+      809
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 药物相互作用",
+    "text_level": 2,
+    "bbox": [
+      65,
+      813,
+      206,
+      828
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "DDI 是指同时或间隔一定时间先后使用 2 种或 2 种以上药物后产生的负荷效应[ 3 ] 。这种效应是药物间彼此发生反应，或在机体的代谢酶、转运蛋白等因素主导下产生的，改变了药物原有的理化性质和吸收、分布、代谢、排泄过程，产生了单种药物所不具有的药理作用或ADR 其临床表现为药效增强或减弱 ADR加重或减轻",
+    "bbox": [
+      65,
+      831,
+      485,
+      865
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      507,
+      535,
+      929,
+      606
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "DDI 包括药动学 药效学 药剂学的相互作用 其中药动学相互作用研究最多，临床常见，涉及药物在体内的整个吸收 分布 代谢 排泄过程[ 3 － 4 ] 而介导这些相互作用的物质主要有: 1) 药物代谢酶，大部分是 Ⅰ 相代谢中的细胞色素 P450(CYP450)，其次是 Ⅱ 相结合反应中的尿苷二磷酸葡萄糖醛酸转移酶( UTGs) ; 2) 药物转运体，主要为三磷酸腺苷结合盒(ABC)转运体和溶质转运蛋白 ( SLC) 转运体[ 5 ] 。 重视这些类型的 DDI 研究，可有效避免其带来的用药风险，保障药物的安全使用",
+    "bbox": [
+      507,
+      609,
+      929,
+      772
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2 抗新型冠状病毒药物及 DDI",
+    "text_level": 2,
+    "bbox": [
+      507,
+      776,
+      757,
+      791
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2 1 α －干扰素",
+    "text_level": 2,
+    "bbox": [
+      509,
+      795,
+      650,
+      809
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "《新型冠状病毒肺炎诊疗方案》推荐试用 α －干扰素雾化吸入以抗病毒 但目前国内尚无其雾化制剂，临床常用干扰素 α1b 和干扰素 α2b[ 6 ] 虽雾化给药后局部药物浓度高，很少吸收入血，但仍需注意 DDI。",
+    "bbox": [
+      507,
+      812,
+      929,
+      866
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "· 专论 ·",
+    "bbox": [
+      82,
+      61,
+      137,
+      74
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Monograph",
+    "bbox": [
+      70,
+      77,
+      147,
+      89
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中国药业",
+    "bbox": [
+      445,
+      57,
+      549,
+      78
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "China Pharmaceuticals",
+    "bbox": [
+      411,
+      78,
+      584,
+      89
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "2020 年 6 月 20 日 第 29 卷第 12 期",
+    "bbox": [
+      722,
+      63,
+      927,
+      74
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Vol． 29，No． 12，June 20，2020",
+    "bbox": [
+      766,
+      78,
+      927,
+      87
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "＊基金项目:四川省软科学研究计划项目[2018ZR0212] 。",
+    "bbox": [
+      97,
+      889,
+      457,
+      903
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "第一作者: 陈昭阳，男，在读硕士研究生，药师，研究方向为临床药学，( 电话) 028 － 85422965( 电子信箱) zy115678@ 163． com 。",
+    "bbox": [
+      104,
+      904,
+      895,
+      920
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "△通信作者: 苏娜，女，硕士研究生，副主任药师，研究方向为临床药学，( 电子信箱) zoya159@163． com。",
+    "bbox": [
+      97,
+      922,
+      742,
+      936
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "18",
+    "bbox": [
+      78,
+      948,
+      100,
+      960
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      65,
+      107,
+      413,
+      123
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "α － 干扰素为 CYP1A2 抑制剂 [ 7 － 9 ] ，故与经肝药酶CYP1A2 代谢的药物合用会造成后者代谢降低，药物在体内蓄积，血药浓度升高，ADR 风险增加 经 CYP1A2代谢的药物包括茶碱 氯氮平 咖啡因 普萘洛尔 华法林、对乙酰氨基酚等[ 10 ] 。其中，α －干扰素与茶碱合用时后者的血药浓度会升高 100% [ 11 ] 故当这些药物和 α －干扰素合用时需酌情减量或换药。α －干扰素也会抑制CYP2C19 和 CYP3A4 的活性[ 12 － 13 ] WONG 等[ 12 ] 报道了1 例皮下注射 α －干扰素 11 MU、每周 3 次，同时口服吉非罗齐 $6 0 0 ~ \\mathrm { m g } \\cdot$ 、每日 2 次的患者出现严重肝功能损害，推 测 可 能 是 由 于 α － 干 扰 素 和 吉 非 罗 齐 均 可 抑 制CYP1A2 和 CYP2C19 的活性，同时其也是代谢底物，造成药物在体内蓄积，产生严重 ADR。CYP3A4 在 CYP450中占 50%，许多药物均经 CYP3A4 代谢( 见表 1) ，这类药物和 α － 干扰素合用时需谨慎。TANVETYANON 等[ 14 ]以唑来膦酸联合 α －干扰素治疗 1 例类癌肿瘤，患者出现严重低钙血症及急性肾功能损害，推测 α －干扰素可增强唑来膦酸对破骨细胞的抑制作用，从而增加低钙血症的风险",
+    "bbox": [
+      65,
+      124,
+      485,
+      473
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/2079af7c2782afe124d7b06070275b2a323acdd9b9ac15757391f5d7e04ec07e.jpg",
+    "table_caption": [
+      "表 1 α － 干扰素对 CYP450 的抑制"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>CYP450 类型</td><td>代谢底物</td></tr><tr><td>CYP1A2</td><td>茶碱、氯氮平、咖啡因、普萘洛尔、华法林、对乙酰氨基酚</td></tr><tr><td>CYP3A4</td><td>芬太尼、羟考酮、非洛地平、硝苯地平、维拉帕米、地尔硫䓬、环孢素、他克莫司、胺碘酮、奎尼丁、阿米替林、舍曲林、西酞普兰、氯氮平、卡马西平、洛伐他汀、阿托伐他汀、环磷酰胺、地塞米松、甲泼尼龙、利托那韦、秋水仙碱、西沙必利、克拉霉素、酮康唑、伊曲康唑、三唑仑、利福平</td></tr><tr><td>CYP2C19</td><td>地西泮、苯巴比妥、奥美拉唑、丙米嗪、氯喹、苯妥英</td></tr></table>",
+    "bbox": [
+      68,
+      494,
+      485,
+      615
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "α －干扰素雾化吸入时，可能存在和其他雾化液配伍使用情况，当 2 种及以上药物配伍使用时可能出现反应，表现为药剂学的 DDI。王兵等[ 15 ]使用干扰素 α2b 和吸入用沙丁胺醇 吸入用布地奈德 吸入用特布他林 盐酸氨溴索、地塞米松配伍雾化，在冷凝液中未发现新物质生成，药物结构均未发生变化，但和吸入用异丙托溴铵溶液配伍后，药物结构发生变化，干扰素 α2b 蛋白成分基本消失 杨明明等[ 16 ]使用干扰素 α1b 和布地奈德异丙托溴铵和特布他林配伍雾化，结果配伍后 0 ～4 h内药物外观 含量 纯度和干扰素活性均无明显变化，但干扰素药效一定程度减弱，布地奈德含量出现较大幅度降低 上述药物和 α －干扰素配伍后是否能用于临床，有待进一步研究。",
+    "bbox": [
+      65,
+      621,
+      485,
+      859
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 ． 2 L PV / r",
+    "text_level": 2,
+    "bbox": [
+      65,
+      864,
+      176,
+      877
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "LPV /r 多用于抗人类免疫缺陷病毒 － 1( HIV － 1)的治疗，试用于 COVID －19 的治疗 $\\mathrm { . } \\mathrm { L P V } / \\mathrm { r }$ 为 CYP3A抑制剂，故经 CYP3A 代谢的药物和 $\\mathrm { L P V } / \\mathrm { r }$ 共用时会造成 前 者 代 谢 降 低 ，血 药 浓 度 增 高 ，可 能 会 引 发 严 重ADR。同时，LPVr 也是 CYP3A 的代谢底物，和对 CYP3A有抑制或诱导作用的药物联用时，将会影响 $\\mathrm { L P V } / \\mathrm { r }$ 在体内的正常代谢过程，从而影响其疗效 此外，LPV /r 还会抑制 P －糖蛋白 有机阴离子转运多肽(OATP1PB1)的葡萄糖醛酸化诱导作用 目前，许多药物和 LPV /r 的相互作用较明确，通过对药物剂量的调整和用药监护可有效避免 $\\mathrm { L P V } / \\mathrm { r }$ 和一些常用药物间的相互作用 详见表 $2 ^ { [ 1 7 - 1 8 ] }$ 。",
+    "bbox": [
+      65,
+      879,
+      485,
+      933
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      507,
+      107,
+      929,
+      269
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 ． 3 利巴韦林",
+    "text_level": 2,
+    "bbox": [
+      507,
+      273,
+      636,
+      288
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "利巴韦林是广谱抗病毒药物，人肝和大鼠肝微粒体的体外研究结果表明，CYP450 介导的利巴韦林代谢很少或没有，由 CYP450 介导的 DDI 可能性极小[ 25 ] 。但仍和一些药物存在明确的相互作用，包括硫唑嘌呤、华法林、核苷类似物及一些中药。",
+    "bbox": [
+      507,
+      291,
+      929,
+      380
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "利巴韦林和硫唑嘌呤联用会增加硫唑嘌呤骨髓抑制 ADR 的风险 [ 26 － 27 ] 。 PEYRIN － BIROULET 等 [ 26 ] 认为，利巴韦林通过抑制次黄嘌呤核苷酸脱氢酶(IMPDH) 的活性干扰硫唑嘌呤的正常代谢，增加了 6 －甲基化衍生物的浓度，降低了代谢产物 6 －硫鸟苷酸浓度，抑制了骨髓。故应避免利巴韦林和硫唑嘌呤联用，如必须联用，需监测血细胞水平，谨防骨髓抑制的发生 利巴韦林和华法林联用会增加华法林的需要量[28 － 29]，SCHULMAN[30]推测利巴韦林可能通过与华法林受体结合或拮抗华法林受体而减少华法林的吸收，但缺乏支持这一潜在机制的证据 另一研究发现，1例血友病患者使用利巴韦林4周后血浆中维生素 K 依赖性凝血因子Ⅶ的活性增加了 15% ～20%，虽然参与研究的患者没有服用华法林，但使用利巴韦林增加了凝血因子Ⅶ的合成，这可能是华法林需求量增加的潜在机制[31] 利巴韦林和华法林联用时应适当增加华法林的剂量，并密切监测患者的国际标准化比值(INR) 利巴韦林可抑制核苷类似物齐多夫定 拉米夫定 司他夫定的磷酸化进程，产生拮抗作用，导致毒性增加[32] 利巴韦林和去羟肌苷联用会导致严重毒性，包括肝功能衰竭 周围神经病变 胰腺炎 有症状的高乳酸血症和乳酸性酸中毒[25，33 － 34]，利巴韦林应避免和这些核苷类似物联用利巴韦林和一些中药间也存在相互作用，LIAO等[35]通过动物体内药代动力学实验证实，水飞蓟宾 甘草酸会显著降低利巴韦林的药时曲线下面积( AUC)和峰浓度 $\\left( \\mathrm { \\mathop { C } } _ { \\operatorname* { m a x } } \\right)$ ，苦参碱可降低利巴韦林代谢物的 AUC 和 $C _ { \\mathrm { m a x } ; }$ ，提示这些中药会降低利巴韦林的疗效",
+    "bbox": [
+      507,
+      382,
+      929,
+      859
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 4 磷酸氯喹",
+    "text_level": 2,
+    "bbox": [
+      509,
+      863,
+      631,
+      877
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "氯喹是治疗疟疾的药物，试用于治疗 COVID－19，与一些药物存在 DDI，包括西咪替丁、氨苄西林、环孢素、卡马西平 、 抑酸剂等 。 详见表 3 [ 36 － 37 ] 。",
+    "bbox": [
+      507,
+      879,
+      927,
+      933
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "2020 年 6 月 20 日 第 29 卷第 12 期",
+    "bbox": [
+      67,
+      63,
+      273,
+      76
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Vol． 29，No． 12，June 20，2020",
+    "bbox": [
+      68,
+      78,
+      228,
+      87
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "中国药业",
+    "bbox": [
+      445,
+      57,
+      547,
+      77
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "China Pharmaceuticals",
+    "bbox": [
+      411,
+      77,
+      584,
+      89
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "· 专论 ·",
+    "bbox": [
+      865,
+      61,
+      917,
+      74
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Monograph",
+    "bbox": [
+      852,
+      77,
+      927,
+      89
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "19",
+    "bbox": [
+      897,
+      948,
+      919,
+      960
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      978
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/16216004ff631ce42d9904bf14a0b0fd0b01793c12b7e4c58a0c85a50e8b7469.jpg",
+    "table_caption": [
+      "表 2 洛匹那韦 /利托那韦药物相互作用"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药物类型</td><td>联用药物</td><td>DDI效应</td><td>用药建议</td></tr><tr><td rowspan=\"10\">抗感染药物</td><td>替诺福韦(300mg、每日1次)</td><td>替诺福韦血药浓度增加,LPV/r无变化</td><td>无须调整剂量,但需监测和替诺福韦相关的ADR[19]</td></tr><tr><td>奈韦拉平(200mg、每日2次)、依非韦伦(600mg、每日1次)</td><td>LPV血药浓度降低</td><td>LPV剂量应调至500mg/125mg、每日2次</td></tr><tr><td>艾尔巴韦/格拉瑞韦</td><td>艾尔巴韦/格拉瑞韦血药浓度增加</td><td>禁止联用</td></tr><tr><td>克拉霉素</td><td>克拉霉素血药浓度增加</td><td>肌酐清除率30~60mL/min时克拉霉素减量50%,&lt;30mL/min时克拉霉素减量75%;肾功能正常者无须调整剂量</td></tr><tr><td>夫西地酸</td><td>夫西地酸血药浓度增加</td><td>禁止联用</td></tr><tr><td>伊曲康唑</td><td>伊曲康唑血药浓度增加</td><td>建议伊曲康唑每天用量不超过200mg[20-21]</td></tr><tr><td>伏立康唑</td><td>伏立康唑血药浓度降低</td><td>避免联用</td></tr><tr><td>利福平</td><td>利福平诱导CYP3A4,LPV血药浓度大幅降低。</td><td>禁止联用</td></tr><tr><td>利福布汀(150mg、每日1次)</td><td>利福布汀及其代谢产物血药浓度增加</td><td>联用时,推荐利福布汀剂量为150mg、每周3次,若不耐受,调整为150mg、每周2次;该剂量可能达不到利福布汀的最佳治疗剂量</td></tr><tr><td>贝达喹啉</td><td>贝达喹啉有效治疗浓度增加[22-23]</td><td>谨慎联用,注意监测ADR</td></tr><tr><td rowspan=\"10\">心血管系统药物</td><td>硝苯地平、非洛地平、尼卡地平</td><td>3药血药浓度可能会增加</td><td>酌情调整降压药物剂量,并密切观察ADR</td></tr><tr><td>洛伐他汀、辛伐他汀</td><td>两药血药浓度增高,可能诱发严重/威胁生命的ADR</td><td>禁止联用,推荐使用氟伐他汀和普伐他汀</td></tr><tr><td>阿托伐他汀</td><td>阿托伐他汀血药浓度增加</td><td>谨慎使用阿托伐他汀,并使用最低有效剂量</td></tr><tr><td>瑞舒伐他汀</td><td>瑞舒伐他汀血药浓度增加</td><td>谨慎使用瑞舒伐他汀,每日用量不超过10mg</td></tr><tr><td>华法林</td><td>华法林血药浓度可能会升高</td><td>谨慎联用,注意监测国际标准化比值(INR)</td></tr><tr><td>利伐沙班</td><td>利伐沙班血药浓度可能会升高</td><td>避免同时使用,增加出血风险</td></tr><tr><td>胺碘酮</td><td>胺碘酮血药浓度大幅度增加,可能诱发严重心律失常</td><td>禁止联用</td></tr><tr><td>地高辛</td><td>LPV/r抑制P-糖蛋白,使地高辛血药浓度增加</td><td>谨慎联用,需监测地高辛血药浓度</td></tr><tr><td>奎尼丁、利多卡因</td><td>两药血药浓度可能会升高</td><td>谨慎联用,建议监测药物血药浓度</td></tr><tr><td>决奈达隆</td><td>决奈达隆血药浓度增加</td><td>禁止联用</td></tr><tr><td rowspan=\"7\">精神疾病类药物</td><td>苯妥英钠、苯巴比妥</td><td>苯妥英钠和苯巴比妥均能诱导CYP3,LPV血药浓度降低</td><td>联用时需谨慎,适当增加LPV剂量,且不能每日给药1次</td></tr><tr><td>卡马西平</td><td>卡马西平血药浓度增加,LPV血药浓度降低</td><td>联用时需谨慎,适当增加LPV剂量,且不能每日给药1次</td></tr><tr><td>拉莫三嗪、丙戊酸钠</td><td>两药血药浓度均降低</td><td>需增加拉莫三嗪或丙戊酸钠剂量,并监测拉莫三嗪血药浓度,特别是在开始或停用药物后2周内</td></tr><tr><td>曲唑酮</td><td>曲唑酮血药浓度增加</td><td>减少曲唑酮剂量</td></tr><tr><td>喹硫平</td><td>喹硫平血药浓度增加</td><td>不推荐联用,若要联用,喹硫平剂量应减少至治疗剂量的1/6,并注意监测喹硫平的ADR</td></tr><tr><td>咪达唑仑</td><td>咪达唑仑血药浓度大幅增加</td><td>禁止和咪达唑仑口服制剂联用,和咪达唑仑静脉制剂联用时需谨慎</td></tr><tr><td>三唑仑</td><td>三唑仑血药浓度大幅增加</td><td>禁止联用</td></tr><tr><td rowspan=\"3\">磷酸二酯酶抑制剂</td><td>西地那非</td><td>西地那非血药浓度大幅增加</td><td>治疗勃起功能障碍时西地那非48h内不超过25mg,治疗肺动脉高压时禁止联用</td></tr><tr><td>他达拉非</td><td>他达拉非血药浓度增加</td><td>治疗勃起功能障碍时他达拉非72h内不超过10mg</td></tr><tr><td>伐地那非</td><td>伐地那非血药浓度大幅度增加</td><td>禁止联用</td></tr><tr><td rowspan=\"2\">镇痛药物</td><td>美沙酮</td><td>美沙酮血药浓度降低</td><td>联用时,适当增加美沙酮剂量</td></tr><tr><td>芬太尼</td><td>芬太尼血药浓度增加</td><td>注意监测芬太尼ADR,尤其关注呼吸抑制</td></tr><tr><td rowspan=\"2\">抗肿瘤药物</td><td>阿帕他胺</td><td>阿帕他胺血药浓度增加,LPV/r血药浓度降低</td><td>禁止联用</td></tr><tr><td>尼洛替尼、达沙替尼、伊布替尼、长春新碱</td><td>这些药物血药浓度增加,LPV/r血药浓度降低</td><td>避免联用,使用时需监测ADR</td></tr><tr><td>内皮素受体拮抗剂</td><td>波生坦</td><td>波生坦血药浓度增加</td><td>使用LPV/r前需停用波生坦36h,LPV/r治疗10d后,启动波生坦治疗,初始剂量62.5mg、每日1次或隔日1次,并监测ADR</td></tr><tr><td rowspan=\"2\">胃肠促动力药α1肾上腺素受体阻滞剂</td><td>西沙必利</td><td>西沙必利血药浓度大幅度增加,可能诱发严重心律失常</td><td>禁止联用</td></tr><tr><td>阿夫唑嗪</td><td>阿夫唑嗪血药浓度大幅度增加,诱发严重低血压</td><td>禁止联用</td></tr><tr><td>糖皮质激素</td><td>布地奈德、环索奈德、地塞米松、氟替卡松、甲基泼尼松龙、曲安奈德、倍他米松、泼尼松龙</td><td>这些药物血药浓度增加,LPV/r血药浓度降低</td><td>注意监测糖皮质激素高浓度下的ADR;长期使用建议选用倍他米松和泼尼松龙(受CYP3A影响小)</td></tr><tr><td rowspan=\"2\">麦角生物碱免疫抑制剂</td><td>麦角新碱、麦角胺</td><td>麦角衍生物血药浓度升高,导致出现急性麦角毒性</td><td>禁止联用</td></tr><tr><td>环孢素、西罗莫司、他克莫司</td><td>这些药物血药浓度可能会增加</td><td>建议监测免疫抑制剂的血药浓度</td></tr><tr><td rowspan=\"2\">痛风治疗药物甲状腺素</td><td>秋水仙碱</td><td>LPV/r对P-糖蛋白及CYP3A有抑制作用,可增加秋水仙碱血药浓度</td><td>禁止联用</td></tr><tr><td>左甲状腺素钠</td><td>LPV/r诱导葡萄糖醛酸化,促进左甲状腺素代谢</td><td>联用时需增加左甲状腺素钠剂量[24]</td></tr></table>",
+    "bbox": [
+      68,
+      122,
+      927,
+      935
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "· 专论 ·",
+    "bbox": [
+      82,
+      61,
+      137,
+      74
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "Monograph",
+    "bbox": [
+      70,
+      77,
+      147,
+      89
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "中国药业",
+    "bbox": [
+      445,
+      57,
+      547,
+      78
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "China Pharmaceuticals",
+    "bbox": [
+      413,
+      78,
+      584,
+      89
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "2020 年 6 月 20 日 第 29 卷第 12 期",
+    "bbox": [
+      722,
+      63,
+      927,
+      76
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "Vol． 29，No． 12，June 20，2020",
+    "bbox": [
+      766,
+      78,
+      927,
+      89
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "20",
+    "bbox": [
+      78,
+      948,
+      100,
+      960
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      964,
+      835,
+      979
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/43786b4329fdbaac7e4a66e11bb8154717b545eb4186c9857cd60aedc83e337a.jpg",
+    "table_caption": [
+      "表 3 磷酸氯喹药物相互作用"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>联用药物</td><td>DDI</td><td>用药建议</td></tr><tr><td>西咪替丁[38]</td><td>抑制氯喹代谢,血药浓度增高</td><td>避免同时使用,合用需加强监测 ADR</td></tr><tr><td>氨苄西林</td><td>氯喹降低氨苄西林的口服生物利用度</td><td>联用时至少间隔 2 h</td></tr><tr><td>环孢素</td><td>抑制环孢素的代谢,增加环孢素血药浓度</td><td>注意监测血药浓度</td></tr><tr><td>胰岛素及其他降糖药物</td><td>氯喹会增强降糖作用</td><td>适当减少降糖药物剂量</td></tr><tr><td>吡喹酮[39]</td><td>氯喹会降低吡喹酮的生物利用度</td><td>避免联用,间隔服用</td></tr><tr><td>抑酸剂</td><td>降低氯喹吸收</td><td>联用时至少间隔 4 h</td></tr><tr><td>他莫昔芬</td><td>两药联用,视网膜毒性风险增高</td><td>避免联用</td></tr><tr><td>延长 QT 间期的药物[40]:胺碘酮、奎尼丁、克拉霉素、氯丙嗪、司帕沙星、莫西沙星、美沙酮、氟哌啶醇</td><td>联用可能延长 QT 间期,引发尖端扭转型室性心动过速</td><td>避免联用</td></tr><tr><td>卡马西平</td><td>卡马西平拮抗氯喹的作用</td><td>避免联用</td></tr><tr><td>甲氨蝶呤[41]</td><td>氯喹降低甲氨蝶呤的生物利用度</td><td>避免联用,间隔服用</td></tr></table>",
+    "bbox": [
+      65,
+      123,
+      929,
+      344
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2 5 阿比多尔",
+    "text_level": 2,
+    "bbox": [
+      65,
+      349,
+      191,
+      363
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "阿比多尔是用于抗流感病毒的药物，试用于治疗COVID － 19。 有研究指出，阿比多尔主要通过 CYP3A4代谢[ 42 － 43 ] ，故可推断对 CYP3A4 有影响的药物和阿比多尔联用可能产生相互作用 对 CYP3A4 有诱导作用的药物包括利福平 苯巴比妥 卡马西平 苯妥英钠 地塞米松[ 10 ]，阿比多尔若和这些药物联用可能会加速前者的代谢，降低其血药浓度，联用时应适当增加阿比多尔剂量，并密切监测 对 CYP3A4 有抑制作用的常用药物包括氟康唑 伊曲康唑 酮康唑 克拉霉素 地尔硫 维拉帕米 氟伏沙明 氟西汀 甲硝唑 利托那韦 西咪替丁[ 10 ] 这些药物和阿比多尔联用可能会降低后者的代谢，升高其血药浓度，增加 ADR 风险，联用时适当减少阿比多尔的剂量，并密切观察 ADR 其他经 CYP3A4代谢的底物和阿比多尔间可能会产生相互竞争作用，影响药物疗效(见表 1)",
+    "bbox": [
+      65,
+      366,
+      485,
+      640
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "有研究提示，阿比多尔会抑制 UTG1A9 和 UTG2B7的活性[ 44 ] ，也会经 UTG1A9 代谢[ 45 ] 。 故和经 UTG1A9 和UTG2B7 代 谢 的 药 物 联 用 时 ，可 能 会 出 现 DDI。 经UTG1A9 代谢的药物[ 46 ]包括对乙酰氨基酚、双氯芬酸、布洛芬、酮洛芬、氟比洛芬酯、丙戊酸钠、吗啡、丙泊酚、雷洛昔芬。经 UTG2B7 代谢的药物[ 46 ]包括布洛芬、酮洛芬、萘普生、吲哚美辛、双氯芬酸、氟比洛芬酯、表柔比星、依折麦布、吉非罗齐、吗啡、纳曲酮、齐多夫定、丙戊酸钠 他克莫司 这些药物和阿比多尔需谨慎联用，并密切观察 ADR，及时做好药物的调整。",
+    "bbox": [
+      65,
+      643,
+      485,
+      825
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "3 结语",
+    "text_level": 2,
+    "bbox": [
+      65,
+      828,
+      137,
+      843
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "上述 5 种抗病毒药物和其他药物间存在一些明确的 DDI，且有些会导致严重 ADR 医务工作者需加强对这些 DDI 的认知，促进药物的合理使用 在新型冠状病毒肺炎的救治过程中，应更加注意抗病毒药物的 DDI，避免影响疗效，促进临床安全用药。",
+    "bbox": [
+      65,
+      846,
+      485,
+      936
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "参考文献:",
+    "text_level": 2,
+    "bbox": [
+      510,
+      349,
+      589,
+      363
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1] 国家卫生健康委，国家中医药管理局 ． 新型冠状病毒肺炎诊疗 方 案 ( 试 行 第 七 版 ) [ EB / OL] ． ( 2020 － 03 － 03) [2020 －03 － 07 ] ． http: / / www． nhc． gov． cn / yzygj / s7653p / 202003 / 46c9294a7dfe4cef80dc7f5912eb1989 / files / ce3e6945832a438eaae415350a8ce964． pdf．",
+      "[2] 中国 －世界卫生组织新型冠状病毒肺炎( COVID －19) 联合考察组 ． 中国 －世界卫生组织新型冠状病毒肺炎( COVID －19)联合考察报告 [ EB / OL ] ． ( 2020 － 02 － 29) [ 2020 － 03 － 07 ] ．http: / / www． nhc． gov． cn / jkj / s3578 / 202002 / 87fd92510d094e4b9bad597608f5cc2c / files / e73a238d8eff45d5ab855fa078f4c0dd． pdf．",
+      "[3 ] PORCALLA A，BARSHTEYN N，SNYDER S，et al． An Innovative，Collaborative，and Strategic Approach to Proactively Evaluate and Update Drug Interactions Based on Prescribing Information of Newly Approved Medicinal Products [ J ] ． Therapeutic Innovation ＆ Regulatory Science，2017，51( 6) : 780 － 786．",
+      "[ 4 ] ROBERTS AG，GIBBS ME． Mechanisms and the clinical relevance of complex drug － drug interactions [ J ] ． Clin Pharmacol，2018， 10: 123 － 134．",
+      "[5] 沙碧君，周素凤，王 璐，等 ． 药物相互作用临床研究方法及进展[J]． 中国临床药理学与治疗学，2019，24( 9) : 1037 － 1045．",
+      "[6] 陈泳伍，唐丽琴，张圣雨，等 ． α 干扰素雾化治疗在新型冠状病毒肺炎中的合理使用及药学监护[J /OL]． 中国医院药学杂志，2020: 007． (2020 － 02 － 24) [2020 － 03 － 07]． http: / / kns．cnki． net / kcms / detail /42． 1204． R． 20200224． 1905． 007． htmL．",
+      "[ 7 ] ISLAM M，FRYE RF，RICHARDS TJ，et al． Differential effect of IFNalpha － 2b on the cytochrome P450 enzyme system: a potential basis of IFN toxicity and its modulation by other drugs [ J ] ． Clin Cancer Res，2002，8( 8) : 2480 － 2487．",
+      "[8] BECQUEMONT L，CHAZOUILLERES O，SERFATY L，et al． Effect of interferon alpha － ribavirin bitherapy on cytochrome P450 1A2 and 2D6 and N － acetyltransferase － 2 activities in patients with chronic active hepatitis C [ J ] ． Clin Pharmacol Ther， 2002，71( 6) : 488 － 495．",
+      "[ 9 ] CHEN C，HAN YH，YANG Z，et al． Effect of interferon － alpha2bon the expression of various drug － metabolizing enzymes andtransporters in co － cultures of freshly prepared human primaryhepatocytes [ J ] ． Xenobiotica，2011，41( 6) : 476 － 485．",
+      "[10 ] PAPP － JAMBOR C，JASCHINSKI U，FORST H． Cytochrome P450 enzymes and their role in drug interactions[J] ． Anaesthesist， 2002，51( 1) : 2 － 15．",
+      "[ 11 ] FDA． INTRON Interferon alfa － 2b DESCRIPTION [ EB / OL ] ．( 2018 － 05 － 04) [ 2020 － 03 － 07 ] ． https: / / www． accessdata．fda． gov /drugsatfda\\_docs /label /2018 /103132Orig1s5199lbl． pdf．",
+      "[12 ] WONG SF，JAKOWATZ JG，TAHERI R． Potential drug － drug interaction between interferon alfa － 2b and gemfibrozil in a patient with malignant melanoma [ J ] ． Clinical Therapeutics， 2005，27( 12) : 1942 － 1948．",
+      "[13 ] FLAMAN AS，GRAVEL C，HASHEM AM，et al． The effect ofinterferon － alpha on the expression of cytochrome P450 3A4in human hepatoma cells [ J ] ． Toxicol Appl Pharmacol，2011，253( 2) : 130 － 136．",
+      "[14] TANVETYANON T，CHOUDHURY AM． Hypocalcemia and azotemia associated with zoledronic acid and interferon alfa[J] ． Annals of Pharmacotherapy，2004，38( 3) : 418 － 421．",
+      "[15] 王 兵，程 婷，卢 晨，等 ． 重组人干扰素 α －2b 与儿童雾化吸入药物的配伍研究[J]． 中华妇幼临床医学杂志:电子版，2017，13( 4) : 474 － 481．",
+      "[16] 杨明明，马鸿杰，李 根，等． 注射用重组人干扰素 α1b与常用药物的配伍研究[J]． 临床合理用药杂志，2019，12( 8) : 5 － 7．",
+      "[ 17 ] FDA． KALETRA ( lopinavir / ritonavir) capsules DESCRIPTION[ EB / OL ] ． ( 2019 － 12 － 01) [ 2020 － 03 － 07 ] ． https: / / www．accessdata． fda． gov / drugsatfda\\_docs / label / 2019 / 021226s048lbl． pdf．",
+      "[18 ] FDA． 洛匹那韦利托那韦片药品说明书 [ EB / OL] ． (2017 －10 － 13 ) [ 2020 － 03 － 05 ] ． http: / / www． drugfuture． com / fda /drugview / 021906．",
+      "[19 ] KEARNEY BP，MATHIAS A，MITTAN A，et al． Pharmacokinetics and safety of tenofovir disoproxil fumarate on coadministration with lopinavir / ritonavir [ J ] ． Jaids Journal of Acquired Immune Deficiency，2006，43( 3) : 278 － 283．",
+      "[20] CROMMENTUYN KM，MULDER JW，SPARIDANS RW，et al． Drug － drug interaction between itraconazole and the antiretroviral drug lopinavir / ritonavir in an HIV － 1 － infected patient with disseminated histoplasmosis [ J ] ． Clinical Infectious Diseases， 2004，38( 8) : e73 － e75．",
+      "[21] HILLS － NIEMINEN C，HUGHES CA，HOUSTON S，et al． Drug － drug interaction between itraconazole and the protease inhibitor lopinavir / ritonavir [ J ] ． Annals of Pharmacotherapy， 2009，43( 12) : 2117 － 2120．",
+      "[22] VAN HEESWIJK RP，DANNEMANN B，HOETELMANS RM． Bedaquiline: a review of human pharmacokinetics and drug － drug interactions [ J ] ． Journal of Antimicrobial Chemotherapy， 2014，69( 9) : 2310 － 2318．",
+      "[23 ] PANDIE M，WIESNER L，MCILLERON H，et al． Drug － drug interactions between bedaquiline and the antiretrovirals",
+      "lopinavir / ritonavir and nevirapine in HIV － infected patients withdrug － resistant TB [ J ] ． Journal of Antimicrobial Chemotherapy，2016，71( 4) : 1037 － 1040．",
+      "[24] SAHAJPAL R，AHMED RA，HUGHES CA，et al． Probable interaction between levothyroxine and ritonavir: Case report and literature review [ J ] ． American Journal of Health System Pharmacy，2017，74( 8) : 587 － 592．",
+      "[25 ] FDA． REBETOL DESCRIPTION[EB /OL] ． ( 2020 － 01) [2020 － 03 － 07 ] ． https: / / www． accessdata． fda． gov / drugsatfda\\_docs / label / 2020 / 020903s056，021546s012lbl． pdf．",
+      "[26 ] PEYRIN － BIROULET L，CADRANEL JF，NOUSBAUM JB， et al． Interaction of ribavirin with azathioprine metabolism potentially induces myelosuppression [ J ] ． Alimentary Pharmacology Therapeutics，2008，28( 8) : 984 － 993．",
+      "[27 ] THEVENOT T，MATHURIN P，MOUSSALLI J，et al． Effects of cirrhosis ，interferon and azathioprine on adverse events in patients with chronic hepatitis C treated with ribavirin[ J] ． Journal of Viral Hepatitis，1997，4( 4) : 243 － 253．",
+      "[28 ] PETERSON D，VAN ERMEN A． Increased warfarin requirements in a patient with chronic hepatitis C infection receiving sofosbuvir and ribavirin [ J ] ． American Journal of Health System Pharmacy， 2017，74( 12) : 888 － 892．",
+      "[29] DECAROLIS DD，WESTANMO AD，CHEN YC，et al． Evaluation of a Potential Interaction Between New Regimens to Treat Hepatitis C and Warfarin [ J ] ． Annals of Pharmacotherapy，2016， 50( 11) : 909 － 917．",
+      "[ 30 ] SCHULMAN S． Inhibition of warfarin activity by ribavirin [ J ] ． Annals of Pharmacotherapy，2002，36( 1) : 72 － 74．",
+      "[31] YAMAMOTO K，HONDA T，MATSUSHITA T，et al． Anti － HCV agent，ribavirin，elevates the activity of clotting factor VII in patients with hemophilia: a possible mechanism of decreased events of bleeding in patients with hemophilia by ribavirin [ J ] ． J Thromb Haemost，2006，4( 2) : 469 － 470．",
+      "[32 ] LAFEUILLADE A，HITTINGER G，CHADAPAUD S． Increased mitochondrial toxicity with ribavirin in HIV / HCV coinfection[J]． Lancet，2001，357( 9252) : 280 － 281．",
+      "[33 ] MORENO A，QUEREDA C，MORENO L，et al． High rate of didanosine － related mitochondrial toxicity in HIV / HCV － coinfected patients receiving ribavirin [ J ] ． Antivir Ther，2004， 9( 1) : 133 － 138．",
+      "[ 34 ] BUTT AA． Fatal lactic acidosis and pancreatitis associated with ribavirin and didanosine therapy[J] ． AIDS Reader，2003，13( 7) : 344 － 348．",
+      "[ 35 ] LIAO S，JIN X，LI J，et al． Effects of Silymarin，Glycyrrhizin，andOxymatrine on the Pharmacokinetics of Ribavirin and Its MajorMetabolite in Rats[J] ． Phytotherapy Research: PTR，2016，30( 4) :618 － 626．",
+      "[36 ] LEWIS J，GREGORIAN T，PORTILLO I，et al． Drug interactions with antimalarial medications in older travelers: a clinical guide[J] ． Journal of Travel Medicine，2020，27( 1) : taz 089．",
+      "[37 ] FDA． ARALEN DESCRIPTION[ EB / OL] ． ( 2018 － 10) [2020 － 03 － 07 ] ． https: / / www． accessdata． fda． gov / drugsatfda\\_docs /"
+    ],
+    "bbox": [
+      510,
+      366,
+      929,
+      934
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "2020 年 6 月 20 日 第 29 卷第 12 期",
+    "bbox": [
+      67,
+      63,
+      272,
+      76
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Vol． 29，No． 12，June 20，2020",
+    "bbox": [
+      68,
+      78,
+      228,
+      87
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "中国药业",
+    "bbox": [
+      445,
+      57,
+      547,
+      77
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "China Pharmaceuticals",
+    "bbox": [
+      413,
+      78,
+      584,
+      87
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "· 专论 ·",
+    "bbox": [
+      865,
+      61,
+      915,
+      74
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Monograph",
+    "bbox": [
+      853,
+      77,
+      927,
+      89
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "21",
+    "bbox": [
+      897,
+      948,
+      917,
+      960
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      978
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      67,
+      108,
+      489,
+      935
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      510,
+      108,
+      931,
+      935
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "· 专论 ·",
+    "bbox": [
+      82,
+      61,
+      137,
+      74
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "Monograph",
+    "bbox": [
+      70,
+      77,
+      147,
+      89
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "中国药业",
+    "bbox": [
+      445,
+      57,
+      549,
+      78
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "China Pharmaceuticals",
+    "bbox": [
+      411,
+      78,
+      584,
+      89
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "2020 年 6 月 20 日 第 29 卷第 12 期",
+    "bbox": [
+      722,
+      63,
+      927,
+      74
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "Vol． 29，No． 12，June 20，2020",
+    "bbox": [
+      766,
+      78,
+      927,
+      87
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "22",
+    "bbox": [
+      78,
+      948,
+      100,
+      959
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      964,
+      833,
+      979
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "doi: 10． 3969 / j． issn． 1006 － 4931． 2020． 12． 005",
+    "bbox": [
+      65,
+      109,
+      366,
+      122
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "新形势下我国医疗保障体系发展路径探索",
+    "text_level": 1,
+    "bbox": [
+      168,
+      133,
+      823,
+      161
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "吴 锦 1 ，刘 梁 2 ，石 萍 2 ，王淑玲 2△",
+    "bbox": [
+      329,
+      165,
+      663,
+      181
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "( 1． 浙江医药高等专科学校，浙江 宁波 315000; 2． 沈阳药科大学，辽宁 沈阳 110016)",
+    "bbox": [
+      149,
+      184,
+      842,
+      200
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "摘要:目的 为优化我国医疗保障体系发展路径提供参考。方法 查阅有关商业医疗保险与社会医疗保险融合的相关文献，并综合分析现阶段我国医疗保障体系存在的问题，为新形势下我国医疗保障体系的进一步完善提出切实可行的建议 结果与结论 我国医疗保障体系在医保基金收支、医保报销水平、医保基金监管等方面存在一定问题，建议通过改革医保支付方式、推动商业保险发展、加强医保监管体系建设等路径来完善我国医疗保障体系的建设",
+    "bbox": [
+      65,
+      202,
+      929,
+      265
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "关键词:医疗保障体系; 商业保险; 发展路径; 医保改革",
+    "bbox": [
+      67,
+      267,
+      416,
+      281
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "中图分类号: R95",
+    "bbox": [
+      206,
+      284,
+      319,
+      297
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "文献标识码:A",
+    "bbox": [
+      364,
+      284,
+      460,
+      297
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "文章编号: 1006 － 4931 (2020 )12 － 0023 － 04",
+    "bbox": [
+      507,
+      284,
+      789,
+      298
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "Exploration on the Development Paths of China's Medical Security System in the New Situation",
+    "text_level": 1,
+    "bbox": [
+      73,
+      302,
+      921,
+      318
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "WU Jin1 ，LIU Liang2 ，SHI Ping2 ，WANG Shuling2",
+    "bbox": [
+      344,
+      321,
+      653,
+      335
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "( 1． Zhejiang Pharmaceutical College，Ningbo，Zhejiang，China 315000; 2． Shenyang Pharmaceutical University，Shenyang，Liaoning，China 110016)",
+    "bbox": [
+      77,
+      337,
+      917,
+      350
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "Abstract: Objective To provide reference for optimizing the development paths of China's medical security system． Methods The relevant literature on the integration of commercial medical insurance and social medical insurance was consulted，the existing problems of China's medical security system was analyzed，and practical suggestions for the construction of China's medical security system in the new situation were put forward． Results and Conclusion There were some problems in China's medical security system in terms of medical insurance fund revenue and expenditure，the level of medical insurance reimbursement，and the supervision of medical insurance fund． It is suggested to improve the construction of China's medical security system by reforming medical insurance payment methods， promoting the development of commercial insurance，and strengthening the construction of the medical insurance supervision system．",
+    "bbox": [
+      65,
+      353,
+      931,
+      464
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "Key words: medical security system; business insurance; development path; medical insurance reform",
+    "bbox": [
+      65,
+      468,
+      690,
+      482
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "2017 年 10 月 18 日，习近平总书记在中国共产党第十九次全国代表大会上提出“完善统一的城乡居民基本医疗保险制度”的要求，为我国医疗保障体系的发展开拓了新的路径 为人民提供完备的健康保障体系，既是各国政府的重要职责，也是维护社会稳定和有序健康发展的前提 实现全民医保是我国医疗保障制度的终极目标。自 1998 年城镇职工基本医保制度建立以来，我国的医保改革已历经 20 余载，截至 2019 年末，我国基本医疗保险参保人数已有 135 436 万人，医保覆盖范围稳定在 95%以上，取得了举世瞩目的进展，然而也存在筹资渠道窄 报销比例低 医保基金套取现象等问题[ 1 ] 面对我国医保体系发展进展与阻力并存 成绩与遗憾同在",
+    "bbox": [
+      65,
+      491,
+      487,
+      596
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      507,
+      491,
+      929,
+      596
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "＊基金项目:浙江省药品监督管理局项目[ZPC2018013] 。",
+    "bbox": [
+      97,
+      614,
+      457,
+      627
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "第一作者: 吴锦，女，硕士研究生，副教授，研究方向为社会保障政策、医药政策与药房管理，( 电子信箱) 84967586@ qq． com。",
+    "bbox": [
+      105,
+      630,
+      889,
+      645
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "△通信作者: 王淑玲，女，副教授，硕士研究生导师，研究方向为医药政策与药房管理，( 电子信箱) lingyi50@ 163． com。",
+    "bbox": [
+      97,
+      646,
+      833,
+      661
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "label / 2018 / 006002s045lbl． pdf．",
+    "bbox": [
+      102,
+      683,
+      304,
+      696
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[38 ] ETTE EI，BROWN － AWALA EA，ESSIEN EE． Chloroquineelimination in humans: effect of low － dose cimetidine[J] ． Journalof Clinical Pharmacology，1987，27( 10) : 813 － 816．",
+      "[39 ] MASIMIREMBWA CM，NAIK YS，HASLER JA． The effect of chloroquine on the pharmacokinetics and metabolism of praziquantel in rats and in humans [ J ] ． Biopharm Drug Dispos，1994， 15( 1) : 33 － 43．",
+      "[40] GUPTA A，LAWRENCE AT，KRISHNAN K，et al． Current concepts in the mechanisms and management of drug － induced QT prolongation and torsade de pointes [ J ] ． Am Heart J， 2007，153( 6) : 891 － 899．",
+      "[41 ] SEIDEMAN P，ALBERTIONI F，BECK O，et al． Chloroquine reduces the bioavailability of methotrexate in patients with rheumatoid arthritis ． A possible mechanism of reduced hepatotoxicity[J]． Arthritis Rheum，1994，37( 6) : 830 － 833．",
+      "[ 42 ] DENG P，ZHONG D，YU K，et al． Pharmacokinetics，metabolism， and excretion of the antiviral drug arbidol in humans [ J ] ． Antimicrobial Agents Chemotherapy，2013，57( 4) : 1743 － 1755．",
+      "[43 ] BLAISING J，POLYAK SJ，PECHEUR EI． Arbidol as a broad － spectrum antiviral: An update [ J ] ． Antiviral Research，2014， 107: 84 － 94．",
+      "[ 44 ] LIU X，HUANG T，CHEN JX，et al． Arbidol exhibits stronginhibition towards UDP － glucuronosyltransferase ( UGT) 1A9and 2B7 [ J]． Pharmazie，2013，68( 12) : 945 － 950．",
+      "[45 ] SONG JH，FANG ZZ，ZHU LL，et al． Glucuronidation of the broad － spectrum antiviral drug arbidol by UGT isoforms [ J ] ． J Pharm Pharmacol，2013，65( 4) : 521 － 527．",
+      "[46 ] KIANG TK，ENSOM MH，CHANG TK． UDP － glucuronosyltrans-ferases and clinical drug － drug interactions[J] ． Pharmacol Ther，2005，106( 1) : 97 － 132．"
+    ],
+    "bbox": [
+      68,
+      697,
+      487,
+      935
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      510,
+      682,
+      931,
+      917
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "(收稿日期: 2020 － 03 － 19 )",
+    "bbox": [
+      724,
+      921,
+      897,
+      934
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "2020 年 6 月 20 日 第 29 卷第 12 期",
+    "bbox": [
+      67,
+      63,
+      273,
+      76
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "Vol． 29，No． 12，June 20，2020",
+    "bbox": [
+      68,
+      78,
+      228,
+      87
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "中国药业",
+    "bbox": [
+      445,
+      57,
+      549,
+      77
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "China Pharmaceuticals",
+    "bbox": [
+      411,
+      78,
+      584,
+      89
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "· 专论 ·",
+    "bbox": [
+      865,
+      61,
+      915,
+      74
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "Monograph",
+    "bbox": [
+      852,
+      77,
+      927,
+      89
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "23",
+    "bbox": [
+      897,
+      948,
+      919,
+      960
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 5
+  }
+]

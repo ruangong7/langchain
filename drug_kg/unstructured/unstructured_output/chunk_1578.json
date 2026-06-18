@@ -1,0 +1,105 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "环丙沙星",
+        "canonical_name": "环丙沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氯氮平",
+        "canonical_name": "氯氮平",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Population",
+        "name": "认知障碍患者",
+        "canonical_name": "认知障碍患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Population",
+        "name": "严重智力残疾患者",
+        "canonical_name": "严重智力残疾患者",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "医脉通精神科",
+          "chunk_index": 1578,
+          "raw_text": "Ciprofloxacin and Clozapine: A Potentially Fatal but Underappreciated Interaction.",
+          "chunk_id": "1578",
+          "data": "。对于存在认知障碍或严重智力残疾的患者而言，避免药物相互作用更加重要，因为这些患者可能难以表述躯体不适，进而酿成恶果。文献索引：Meyer JM, et al. Ciprofloxacin and Clozapine: A Potentially Fatal but Underappreciated Interaction. Case Reports in Psychiatry. http://dx.doi.org/10.1155/2016/5606098.点击「阅读原文」可查看及检索历史文章。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "医脉通精神科",
+          "chunk_index": 1578,
+          "raw_text": "对于存在认知障碍或严重智力残疾的患者而言，避免药物相互作用更加重要",
+          "chunk_id": "1578",
+          "data": "。对于存在认知障碍或严重智力残疾的患者而言，避免药物相互作用更加重要，因为这些患者可能难以表述躯体不适，进而酿成恶果。文献索引：Meyer JM, et al. Ciprofloxacin and Clozapine: A Potentially Fatal but Underappreciated Interaction. Case Reports in Psychiatry. http://dx.doi.org/10.1155/2016/5606098.点击「阅读原文」可查看及检索历史文章。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "医脉通精神科",
+          "chunk_index": 1578,
+          "raw_text": "对于存在认知障碍或严重智力残疾的患者而言，避免药物相互作用更加重要",
+          "chunk_id": "1578",
+          "data": "。对于存在认知障碍或严重智力残疾的患者而言，避免药物相互作用更加重要，因为这些患者可能难以表述躯体不适，进而酿成恶果。文献索引：Meyer JM, et al. Ciprofloxacin and Clozapine: A Potentially Fatal but Underappreciated Interaction. Case Reports in Psychiatry. http://dx.doi.org/10.1155/2016/5606098.点击「阅读原文」可查看及检索历史文章。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "医脉通精神科",
+          "chunk_index": 1578,
+          "raw_text": "对于存在认知障碍或严重智力残疾的患者而言，避免药物相互作用更加重要",
+          "chunk_id": "1578",
+          "data": "。对于存在认知障碍或严重智力残疾的患者而言，避免药物相互作用更加重要，因为这些患者可能难以表述躯体不适，进而酿成恶果。文献索引：Meyer JM, et al. Ciprofloxacin and Clozapine: A Potentially Fatal but Underappreciated Interaction. Case Reports in Psychiatry. http://dx.doi.org/10.1155/2016/5606098.点击「阅读原文」可查看及检索历史文章。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "医脉通精神科",
+          "chunk_index": 1578,
+          "raw_text": "对于存在认知障碍或严重智力残疾的患者而言，避免药物相互作用更加重要",
+          "chunk_id": "1578",
+          "data": "。对于存在认知障碍或严重智力残疾的患者而言，避免药物相互作用更加重要，因为这些患者可能难以表述躯体不适，进而酿成恶果。文献索引：Meyer JM, et al. Ciprofloxacin and Clozapine: A Potentially Fatal but Underappreciated Interaction. Case Reports in Psychiatry. http://dx.doi.org/10.1155/2016/5606098.点击「阅读原文」可查看及检索历史文章。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1578,
+    "source": "医脉通精神科",
+    "text": "。对于存在认知障碍或严重智力残疾的患者而言，避免药物相互作用更加重要，因为这些患者可能难以表述躯体不适，进而酿成恶果。文献索引：Meyer JM, et al. Ciprofloxacin and Clozapine: A Potentially Fatal but Underappreciated Interaction. Case Reports in Psychiatry. http://dx.doi.org/10.1155/2016/5606098.点击「阅读原文」可查看及检索历史文章。"
+  }
+]

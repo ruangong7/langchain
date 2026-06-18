@@ -1,0 +1,321 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "非那西丁",
+        "canonical_name": "非那西丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "7-乙氧基试卤",
+        "canonical_name": "7-乙氧基试卤",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "依法韦仑",
+        "canonical_name": "依法韦仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "安非他酮",
+        "canonical_name": "安非他酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "紫杉醇",
+        "canonical_name": "紫杉醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "阿莫地喹",
+        "canonical_name": "阿莫地喹",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "S-华法令",
+        "canonical_name": "S-华法令",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "双氯芬酸",
+        "canonical_name": "双氯芬酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "S-美芬妥英",
+        "canonical_name": "S-美芬妥英",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "丁呋洛尔",
+        "canonical_name": "丁呋洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "右美沙芬",
+        "canonical_name": "右美沙芬",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "canonical_name": "咪达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "睾酮",
+        "canonical_name": "睾酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "CYP1A2",
+        "canonical_name": "CYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "CYP2B6",
+        "canonical_name": "CYP2B6",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "CYP2C8",
+        "canonical_name": "CYP2C8",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "CYP2C9",
+        "canonical_name": "CYP2C9",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "DrugClass",
+        "name": "CYP2C19",
+        "canonical_name": "CYP2C19",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "DrugClass",
+        "name": "CYP2D6",
+        "canonical_name": "CYP2D6",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "DrugClass",
+        "name": "CYP3A4/5",
+        "canonical_name": "CYP3A4/5",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3127,
+          "raw_text": "CYP1A2非那西丁(phenacetin)非那西丁-O-去乙基化反应",
+          "chunk_id": "3127",
+          "data": "。也可使用对已知抑制剂产生较低IC50 的探针底物以避免低估在研药物潜在的相互作用。（6）可使用阳性和阴性对照试验在体外系统进行内部校正，以获得临界值，为DDI临床研究提供参考。附录5. 用于评估药物相互作用的药物清单表 2  体外试验可选择的CYP酶指针底物及其特征反应酶特异性底物特征反应CYP1A2非那西丁(phenacetin)非那西丁-O-去乙基化反应7-乙氧基试卤(7-ethoxyresorufin)7-乙氧基试卤-去去乙基化反应CYP2B6依法韦仑(efavirenz)依法韦仑羟化反应安非他酮(bupropion)安非他酮羟化反应CYP2C8紫杉醇(paclitaxel)紫杉醇6a-羟化反应阿莫地喹(amodiaquine)阿莫地喹 N-去乙基化反应CYP2C9S-华法令(S-warfarin)S-华法令7-羟化反应双氯芬酸（diclofenac）双氯酚酸4‘-羟化反应’CYP2C19S-美芬妥英(S-Mephenytoin)S-美芬妥英 4‘-羟化反应’CYP2D6丁呋洛尔(bufuralol)丁呋洛尔1’-羟化反应右美沙芬(dextromethorphan)右美沙芬O-去甲基化反应CYP3A4/5*咪达唑仑（midazolam）咪达唑仑1‘羟化反应’睾酮(testosterone)睾酮6b‘羟化反应’*对于CYP3A4/5，应同时选用两种底物进行试验"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3127,
+          "raw_text": "7-乙氧基试卤(7-ethoxyresorufin)7-乙氧基试卤-去去乙基化反应",
+          "chunk_id": "3127",
+          "data": "。也可使用对已知抑制剂产生较低IC50 的探针底物以避免低估在研药物潜在的相互作用。（6）可使用阳性和阴性对照试验在体外系统进行内部校正，以获得临界值，为DDI临床研究提供参考。附录5. 用于评估药物相互作用的药物清单表 2  体外试验可选择的CYP酶指针底物及其特征反应酶特异性底物特征反应CYP1A2非那西丁(phenacetin)非那西丁-O-去乙基化反应7-乙氧基试卤(7-ethoxyresorufin)7-乙氧基试卤-去去乙基化反应CYP2B6依法韦仑(efavirenz)依法韦仑羟化反应安非他酮(bupropion)安非他酮羟化反应CYP2C8紫杉醇(paclitaxel)紫杉醇6a-羟化反应阿莫地喹(amodiaquine)阿莫地喹 N-去乙基化反应CYP2C9S-华法令(S-warfarin)S-华法令7-羟化反应双氯芬酸（diclofenac）双氯酚酸4‘-羟化反应’CYP2C19S-美芬妥英(S-Mephenytoin)S-美芬妥英 4‘-羟化反应’CYP2D6丁呋洛尔(bufuralol)丁呋洛尔1’-羟化反应右美沙芬(dextromethorphan)右美沙芬O-去甲基化反应CYP3A4/5*咪达唑仑（midazolam）咪达唑仑1‘羟化反应’睾酮(testosterone)睾酮6b‘羟化反应’*对于CYP3A4/5，应同时选用两种底物进行试验"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3127,
+          "raw_text": "CYP2B6依法韦仑(efavirenz)依法韦仑羟化反应",
+          "chunk_id": "3127",
+          "data": "。也可使用对已知抑制剂产生较低IC50 的探针底物以避免低估在研药物潜在的相互作用。（6）可使用阳性和阴性对照试验在体外系统进行内部校正，以获得临界值，为DDI临床研究提供参考。附录5. 用于评估药物相互作用的药物清单表 2  体外试验可选择的CYP酶指针底物及其特征反应酶特异性底物特征反应CYP1A2非那西丁(phenacetin)非那西丁-O-去乙基化反应7-乙氧基试卤(7-ethoxyresorufin)7-乙氧基试卤-去去乙基化反应CYP2B6依法韦仑(efavirenz)依法韦仑羟化反应安非他酮(bupropion)安非他酮羟化反应CYP2C8紫杉醇(paclitaxel)紫杉醇6a-羟化反应阿莫地喹(amodiaquine)阿莫地喹 N-去乙基化反应CYP2C9S-华法令(S-warfarin)S-华法令7-羟化反应双氯芬酸（diclofenac）双氯酚酸4‘-羟化反应’CYP2C19S-美芬妥英(S-Mephenytoin)S-美芬妥英 4‘-羟化反应’CYP2D6丁呋洛尔(bufuralol)丁呋洛尔1’-羟化反应右美沙芬(dextromethorphan)右美沙芬O-去甲基化反应CYP3A4/5*咪达唑仑（midazolam）咪达唑仑1‘羟化反应’睾酮(testosterone)睾酮6b‘羟化反应’*对于CYP3A4/5，应同时选用两种底物进行试验"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3127,
+          "raw_text": "安非他酮(bupropion)安非他酮羟化反应",
+          "chunk_id": "3127",
+          "data": "。也可使用对已知抑制剂产生较低IC50 的探针底物以避免低估在研药物潜在的相互作用。（6）可使用阳性和阴性对照试验在体外系统进行内部校正，以获得临界值，为DDI临床研究提供参考。附录5. 用于评估药物相互作用的药物清单表 2  体外试验可选择的CYP酶指针底物及其特征反应酶特异性底物特征反应CYP1A2非那西丁(phenacetin)非那西丁-O-去乙基化反应7-乙氧基试卤(7-ethoxyresorufin)7-乙氧基试卤-去去乙基化反应CYP2B6依法韦仑(efavirenz)依法韦仑羟化反应安非他酮(bupropion)安非他酮羟化反应CYP2C8紫杉醇(paclitaxel)紫杉醇6a-羟化反应阿莫地喹(amodiaquine)阿莫地喹 N-去乙基化反应CYP2C9S-华法令(S-warfarin)S-华法令7-羟化反应双氯芬酸（diclofenac）双氯酚酸4‘-羟化反应’CYP2C19S-美芬妥英(S-Mephenytoin)S-美芬妥英 4‘-羟化反应’CYP2D6丁呋洛尔(bufuralol)丁呋洛尔1’-羟化反应右美沙芬(dextromethorphan)右美沙芬O-去甲基化反应CYP3A4/5*咪达唑仑（midazolam）咪达唑仑1‘羟化反应’睾酮(testosterone)睾酮6b‘羟化反应’*对于CYP3A4/5，应同时选用两种底物进行试验"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3127,
+          "raw_text": "CYP2C8紫杉醇(paclitaxel)紫杉醇6a-羟化反应",
+          "chunk_id": "3127",
+          "data": "。也可使用对已知抑制剂产生较低IC50 的探针底物以避免低估在研药物潜在的相互作用。（6）可使用阳性和阴性对照试验在体外系统进行内部校正，以获得临界值，为DDI临床研究提供参考。附录5. 用于评估药物相互作用的药物清单表 2  体外试验可选择的CYP酶指针底物及其特征反应酶特异性底物特征反应CYP1A2非那西丁(phenacetin)非那西丁-O-去乙基化反应7-乙氧基试卤(7-ethoxyresorufin)7-乙氧基试卤-去去乙基化反应CYP2B6依法韦仑(efavirenz)依法韦仑羟化反应安非他酮(bupropion)安非他酮羟化反应CYP2C8紫杉醇(paclitaxel)紫杉醇6a-羟化反应阿莫地喹(amodiaquine)阿莫地喹 N-去乙基化反应CYP2C9S-华法令(S-warfarin)S-华法令7-羟化反应双氯芬酸（diclofenac）双氯酚酸4‘-羟化反应’CYP2C19S-美芬妥英(S-Mephenytoin)S-美芬妥英 4‘-羟化反应’CYP2D6丁呋洛尔(bufuralol)丁呋洛尔1’-羟化反应右美沙芬(dextromethorphan)右美沙芬O-去甲基化反应CYP3A4/5*咪达唑仑（midazolam）咪达唑仑1‘羟化反应’睾酮(testosterone)睾酮6b‘羟化反应’*对于CYP3A4/5，应同时选用两种底物进行试验"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3127,
+          "raw_text": "阿莫地喹(amodiaquine)阿莫地喹 N-去乙基化反应",
+          "chunk_id": "3127",
+          "data": "。也可使用对已知抑制剂产生较低IC50 的探针底物以避免低估在研药物潜在的相互作用。（6）可使用阳性和阴性对照试验在体外系统进行内部校正，以获得临界值，为DDI临床研究提供参考。附录5. 用于评估药物相互作用的药物清单表 2  体外试验可选择的CYP酶指针底物及其特征反应酶特异性底物特征反应CYP1A2非那西丁(phenacetin)非那西丁-O-去乙基化反应7-乙氧基试卤(7-ethoxyresorufin)7-乙氧基试卤-去去乙基化反应CYP2B6依法韦仑(efavirenz)依法韦仑羟化反应安非他酮(bupropion)安非他酮羟化反应CYP2C8紫杉醇(paclitaxel)紫杉醇6a-羟化反应阿莫地喹(amodiaquine)阿莫地喹 N-去乙基化反应CYP2C9S-华法令(S-warfarin)S-华法令7-羟化反应双氯芬酸（diclofenac）双氯酚酸4‘-羟化反应’CYP2C19S-美芬妥英(S-Mephenytoin)S-美芬妥英 4‘-羟化反应’CYP2D6丁呋洛尔(bufuralol)丁呋洛尔1’-羟化反应右美沙芬(dextromethorphan)右美沙芬O-去甲基化反应CYP3A4/5*咪达唑仑（midazolam）咪达唑仑1‘羟化反应’睾酮(testosterone)睾酮6b‘羟化反应’*对于CYP3A4/5，应同时选用两种底物进行试验"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3127,
+          "raw_text": "CYP2C9S-华法令(S-warfarin)S-华法令7-羟化反应",
+          "chunk_id": "3127",
+          "data": "。也可使用对已知抑制剂产生较低IC50 的探针底物以避免低估在研药物潜在的相互作用。（6）可使用阳性和阴性对照试验在体外系统进行内部校正，以获得临界值，为DDI临床研究提供参考。附录5. 用于评估药物相互作用的药物清单表 2  体外试验可选择的CYP酶指针底物及其特征反应酶特异性底物特征反应CYP1A2非那西丁(phenacetin)非那西丁-O-去乙基化反应7-乙氧基试卤(7-ethoxyresorufin)7-乙氧基试卤-去去乙基化反应CYP2B6依法韦仑(efavirenz)依法韦仑羟化反应安非他酮(bupropion)安非他酮羟化反应CYP2C8紫杉醇(paclitaxel)紫杉醇6a-羟化反应阿莫地喹(amodiaquine)阿莫地喹 N-去乙基化反应CYP2C9S-华法令(S-warfarin)S-华法令7-羟化反应双氯芬酸（diclofenac）双氯酚酸4‘-羟化反应’CYP2C19S-美芬妥英(S-Mephenytoin)S-美芬妥英 4‘-羟化反应’CYP2D6丁呋洛尔(bufuralol)丁呋洛尔1’-羟化反应右美沙芬(dextromethorphan)右美沙芬O-去甲基化反应CYP3A4/5*咪达唑仑（midazolam）咪达唑仑1‘羟化反应’睾酮(testosterone)睾酮6b‘羟化反应’*对于CYP3A4/5，应同时选用两种底物进行试验"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3127,
+          "raw_text": "双氯芬酸（diclofenac）双氯酚酸4‘-羟化反应’",
+          "chunk_id": "3127",
+          "data": "。也可使用对已知抑制剂产生较低IC50 的探针底物以避免低估在研药物潜在的相互作用。（6）可使用阳性和阴性对照试验在体外系统进行内部校正，以获得临界值，为DDI临床研究提供参考。附录5. 用于评估药物相互作用的药物清单表 2  体外试验可选择的CYP酶指针底物及其特征反应酶特异性底物特征反应CYP1A2非那西丁(phenacetin)非那西丁-O-去乙基化反应7-乙氧基试卤(7-ethoxyresorufin)7-乙氧基试卤-去去乙基化反应CYP2B6依法韦仑(efavirenz)依法韦仑羟化反应安非他酮(bupropion)安非他酮羟化反应CYP2C8紫杉醇(paclitaxel)紫杉醇6a-羟化反应阿莫地喹(amodiaquine)阿莫地喹 N-去乙基化反应CYP2C9S-华法令(S-warfarin)S-华法令7-羟化反应双氯芬酸（diclofenac）双氯酚酸4‘-羟化反应’CYP2C19S-美芬妥英(S-Mephenytoin)S-美芬妥英 4‘-羟化反应’CYP2D6丁呋洛尔(bufuralol)丁呋洛尔1’-羟化反应右美沙芬(dextromethorphan)右美沙芬O-去甲基化反应CYP3A4/5*咪达唑仑（midazolam）咪达唑仑1‘羟化反应’睾酮(testosterone)睾酮6b‘羟化反应’*对于CYP3A4/5，应同时选用两种底物进行试验"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3127,
+          "raw_text": "CYP2C19S-美芬妥英(S-Mephenytoin)S-美芬妥英 4‘-羟化反应’",
+          "chunk_id": "3127",
+          "data": "。也可使用对已知抑制剂产生较低IC50 的探针底物以避免低估在研药物潜在的相互作用。（6）可使用阳性和阴性对照试验在体外系统进行内部校正，以获得临界值，为DDI临床研究提供参考。附录5. 用于评估药物相互作用的药物清单表 2  体外试验可选择的CYP酶指针底物及其特征反应酶特异性底物特征反应CYP1A2非那西丁(phenacetin)非那西丁-O-去乙基化反应7-乙氧基试卤(7-ethoxyresorufin)7-乙氧基试卤-去去乙基化反应CYP2B6依法韦仑(efavirenz)依法韦仑羟化反应安非他酮(bupropion)安非他酮羟化反应CYP2C8紫杉醇(paclitaxel)紫杉醇6a-羟化反应阿莫地喹(amodiaquine)阿莫地喹 N-去乙基化反应CYP2C9S-华法令(S-warfarin)S-华法令7-羟化反应双氯芬酸（diclofenac）双氯酚酸4‘-羟化反应’CYP2C19S-美芬妥英(S-Mephenytoin)S-美芬妥英 4‘-羟化反应’CYP2D6丁呋洛尔(bufuralol)丁呋洛尔1’-羟化反应右美沙芬(dextromethorphan)右美沙芬O-去甲基化反应CYP3A4/5*咪达唑仑（midazolam）咪达唑仑1‘羟化反应’睾酮(testosterone)睾酮6b‘羟化反应’*对于CYP3A4/5，应同时选用两种底物进行试验"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3127,
+          "raw_text": "CYP2D6丁呋洛尔(bufuralol)丁呋洛尔1’-羟化反应",
+          "chunk_id": "3127",
+          "data": "。也可使用对已知抑制剂产生较低IC50 的探针底物以避免低估在研药物潜在的相互作用。（6）可使用阳性和阴性对照试验在体外系统进行内部校正，以获得临界值，为DDI临床研究提供参考。附录5. 用于评估药物相互作用的药物清单表 2  体外试验可选择的CYP酶指针底物及其特征反应酶特异性底物特征反应CYP1A2非那西丁(phenacetin)非那西丁-O-去乙基化反应7-乙氧基试卤(7-ethoxyresorufin)7-乙氧基试卤-去去乙基化反应CYP2B6依法韦仑(efavirenz)依法韦仑羟化反应安非他酮(bupropion)安非他酮羟化反应CYP2C8紫杉醇(paclitaxel)紫杉醇6a-羟化反应阿莫地喹(amodiaquine)阿莫地喹 N-去乙基化反应CYP2C9S-华法令(S-warfarin)S-华法令7-羟化反应双氯芬酸（diclofenac）双氯酚酸4‘-羟化反应’CYP2C19S-美芬妥英(S-Mephenytoin)S-美芬妥英 4‘-羟化反应’CYP2D6丁呋洛尔(bufuralol)丁呋洛尔1’-羟化反应右美沙芬(dextromethorphan)右美沙芬O-去甲基化反应CYP3A4/5*咪达唑仑（midazolam）咪达唑仑1‘羟化反应’睾酮(testosterone)睾酮6b‘羟化反应’*对于CYP3A4/5，应同时选用两种底物进行试验"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3127,
+          "raw_text": "右美沙芬(dextromethorphan)右美沙芬O-去甲基化反应",
+          "chunk_id": "3127",
+          "data": "。也可使用对已知抑制剂产生较低IC50 的探针底物以避免低估在研药物潜在的相互作用。（6）可使用阳性和阴性对照试验在体外系统进行内部校正，以获得临界值，为DDI临床研究提供参考。附录5. 用于评估药物相互作用的药物清单表 2  体外试验可选择的CYP酶指针底物及其特征反应酶特异性底物特征反应CYP1A2非那西丁(phenacetin)非那西丁-O-去乙基化反应7-乙氧基试卤(7-ethoxyresorufin)7-乙氧基试卤-去去乙基化反应CYP2B6依法韦仑(efavirenz)依法韦仑羟化反应安非他酮(bupropion)安非他酮羟化反应CYP2C8紫杉醇(paclitaxel)紫杉醇6a-羟化反应阿莫地喹(amodiaquine)阿莫地喹 N-去乙基化反应CYP2C9S-华法令(S-warfarin)S-华法令7-羟化反应双氯芬酸（diclofenac）双氯酚酸4‘-羟化反应’CYP2C19S-美芬妥英(S-Mephenytoin)S-美芬妥英 4‘-羟化反应’CYP2D6丁呋洛尔(bufuralol)丁呋洛尔1’-羟化反应右美沙芬(dextromethorphan)右美沙芬O-去甲基化反应CYP3A4/5*咪达唑仑（midazolam）咪达唑仑1‘羟化反应’睾酮(testosterone)睾酮6b‘羟化反应’*对于CYP3A4/5，应同时选用两种底物进行试验"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_12",
+        "target_id": "ent_20",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3127,
+          "raw_text": "CYP3A4/5*咪达唑仑（midazolam）咪达唑仑1‘羟化反应’",
+          "chunk_id": "3127",
+          "data": "。也可使用对已知抑制剂产生较低IC50 的探针底物以避免低估在研药物潜在的相互作用。（6）可使用阳性和阴性对照试验在体外系统进行内部校正，以获得临界值，为DDI临床研究提供参考。附录5. 用于评估药物相互作用的药物清单表 2  体外试验可选择的CYP酶指针底物及其特征反应酶特异性底物特征反应CYP1A2非那西丁(phenacetin)非那西丁-O-去乙基化反应7-乙氧基试卤(7-ethoxyresorufin)7-乙氧基试卤-去去乙基化反应CYP2B6依法韦仑(efavirenz)依法韦仑羟化反应安非他酮(bupropion)安非他酮羟化反应CYP2C8紫杉醇(paclitaxel)紫杉醇6a-羟化反应阿莫地喹(amodiaquine)阿莫地喹 N-去乙基化反应CYP2C9S-华法令(S-warfarin)S-华法令7-羟化反应双氯芬酸（diclofenac）双氯酚酸4‘-羟化反应’CYP2C19S-美芬妥英(S-Mephenytoin)S-美芬妥英 4‘-羟化反应’CYP2D6丁呋洛尔(bufuralol)丁呋洛尔1’-羟化反应右美沙芬(dextromethorphan)右美沙芬O-去甲基化反应CYP3A4/5*咪达唑仑（midazolam）咪达唑仑1‘羟化反应’睾酮(testosterone)睾酮6b‘羟化反应’*对于CYP3A4/5，应同时选用两种底物进行试验"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "IN_CLASS",
+        "source_id": "ent_13",
+        "target_id": "ent_20",
+        "properties": {
+          "source": "驭时GCP信息",
+          "chunk_index": 3127,
+          "raw_text": "睾酮(testosterone)睾酮6b‘羟化反应’",
+          "chunk_id": "3127",
+          "data": "。也可使用对已知抑制剂产生较低IC50 的探针底物以避免低估在研药物潜在的相互作用。（6）可使用阳性和阴性对照试验在体外系统进行内部校正，以获得临界值，为DDI临床研究提供参考。附录5. 用于评估药物相互作用的药物清单表 2  体外试验可选择的CYP酶指针底物及其特征反应酶特异性底物特征反应CYP1A2非那西丁(phenacetin)非那西丁-O-去乙基化反应7-乙氧基试卤(7-ethoxyresorufin)7-乙氧基试卤-去去乙基化反应CYP2B6依法韦仑(efavirenz)依法韦仑羟化反应安非他酮(bupropion)安非他酮羟化反应CYP2C8紫杉醇(paclitaxel)紫杉醇6a-羟化反应阿莫地喹(amodiaquine)阿莫地喹 N-去乙基化反应CYP2C9S-华法令(S-warfarin)S-华法令7-羟化反应双氯芬酸（diclofenac）双氯酚酸4‘-羟化反应’CYP2C19S-美芬妥英(S-Mephenytoin)S-美芬妥英 4‘-羟化反应’CYP2D6丁呋洛尔(bufuralol)丁呋洛尔1’-羟化反应右美沙芬(dextromethorphan)右美沙芬O-去甲基化反应CYP3A4/5*咪达唑仑（midazolam）咪达唑仑1‘羟化反应’睾酮(testosterone)睾酮6b‘羟化反应’*对于CYP3A4/5，应同时选用两种底物进行试验"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 3127,
+    "source": "驭时GCP信息",
+    "text": "。也可使用对已知抑制剂产生较低IC50 的探针底物以避免低估在研药物潜在的相互作用。（6）可使用阳性和阴性对照试验在体外系统进行内部校正，以获得临界值，为DDI临床研究提供参考。附录5. 用于评估药物相互作用的药物清单表 2  体外试验可选择的CYP酶指针底物及其特征反应酶特异性底物特征反应CYP1A2非那西丁(phenacetin)非那西丁-O-去乙基化反应7-乙氧基试卤(7-ethoxyresorufin)7-乙氧基试卤-去去乙基化反应CYP2B6依法韦仑(efavirenz)依法韦仑羟化反应安非他酮(bupropion)安非他酮羟化反应CYP2C8紫杉醇(paclitaxel)紫杉醇6a-羟化反应阿莫地喹(amodiaquine)阿莫地喹 N-去乙基化反应CYP2C9S-华法令(S-warfarin)S-华法令7-羟化反应双氯芬酸（diclofenac）双氯酚酸4‘-羟化反应’CYP2C19S-美芬妥英(S-Mephenytoin)S-美芬妥英 4‘-羟化反应’CYP2D6丁呋洛尔(bufuralol)丁呋洛尔1’-羟化反应右美沙芬(dextromethorphan)右美沙芬O-去甲基化反应CYP3A4/5*咪达唑仑（midazolam）咪达唑仑1‘羟化反应’睾酮(testosterone)睾酮6b‘羟化反应’*对于CYP3A4/5，应同时选用两种底物进行试验"
+  }
+]

@@ -109,6 +109,37 @@ class UserAuthService:
         signature_b64 = base64.urlsafe_b64encode(signature).decode("ascii").rstrip("=")
         return {"token": f"{payload_b64}.{signature_b64}", "expires_at": expires_at}
 
+    @staticmethod
+    def _urlsafe_b64decode(data: str) -> bytes:
+        padded = data + "=" * (-len(data) % 4)
+        return base64.urlsafe_b64decode(padded.encode("ascii"))
+
+    def verify_token(self, token: str) -> Dict[str, Any]:
+        raw_token = str(token or "").strip()
+        if not raw_token or "." not in raw_token:
+            raise AuthError("登录状态无效，请重新登录")
+
+        payload_b64, signature_b64 = raw_token.split(".", 1)
+        expected_signature = hmac.new(
+            AUTH_TOKEN_SECRET.encode("utf-8"),
+            payload_b64.encode("ascii"),
+            hashlib.sha256,
+        ).digest()
+        actual_signature = self._urlsafe_b64decode(signature_b64)
+        if not hmac.compare_digest(expected_signature, actual_signature):
+            raise AuthError("登录状态无效，请重新登录")
+
+        try:
+            payload = json.loads(self._urlsafe_b64decode(payload_b64).decode("utf-8"))
+        except Exception as exc:
+            raise AuthError("登录状态无效，请重新登录") from exc
+
+        expires_at = int(payload.get("exp", 0) or 0)
+        if expires_at <= int(time.time()):
+            raise AuthError("登录状态已过期，请重新登录")
+
+        return payload
+
     def register(self, username: str, password: str) -> Dict[str, Any]:
         normalized = self._normalize_username(username)
         checked_password = self._validate_password(password)

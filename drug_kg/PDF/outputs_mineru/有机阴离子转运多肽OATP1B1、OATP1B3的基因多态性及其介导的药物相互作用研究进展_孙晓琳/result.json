@@ -1,0 +1,1137 @@
+[
+  {
+    "type": "text",
+    "text": "有机阴离子转运多肽 OATP1B1、 OATP1B3 的基因多态性及其介导的药物相互作用研究进展",
+    "text_level": 1,
+    "bbox": [
+      194,
+      190,
+      803,
+      242
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "孙晓琳1，2 ，赵 娣2 ，李军袖2 ，郭朝瑞2 ，陈西敬2 ，张广钦1",
+    "bbox": [
+      228,
+      254,
+      761,
+      274
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 中国药科大学临床药学教研室，南京210009，江苏;",
+    "bbox": [
+      300,
+      277,
+      692,
+      293
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2 中国药科大学药代动力学研究中心，南京 210009，江苏",
+    "bbox": [
+      287,
+      294,
+      709,
+      312
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘要 有机阴离子转运多肽( organic anion trans-porting polypeptides，OATPs) 是一类摄取型转运体。 它的特点是在机体内分布广泛，底物众多，其中 OATP1B1 和 OATP1B3 主要分布于肝细胞基底侧，在许多药物肝摄取过程中起着重要的作用。所以临床上常出现由其介导的药物相互作用而导致严 重 的 不 良 反 应 发 生 。 此 外，OATP1B1 和OATP1B3 具有单核苷酸多态性，可导致其转运功能发生变化从而造成药物作用的个体差异。 本文综述了 OATP1B1 和 OATP1B3 的单核苷酸多态性及其介导的药物相互作用的最新研究进展。",
+    "bbox": [
+      105,
+      332,
+      485,
+      529
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词 有机阴离子转运多肽; 药物相互作用; 单核苷酸多态性",
+    "bbox": [
+      107,
+      531,
+      482,
+      565
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号: R968",
+    "bbox": [
+      107,
+      577,
+      253,
+      592
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "文献标志码: A",
+    "bbox": [
+      107,
+      595,
+      226,
+      609
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "文 章 编 号: 1009-2501( 2015) 11-1296-06",
+    "bbox": [
+      107,
+      613,
+      426,
+      629
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "有机阴离子转运多肽( OATPs) 属于溶质运载体 ( solute carrier，SLC) 超家族，能介导药物及内源 性 物 质 的 跨 膜 转 运。 其 中 OATP1B1 和OATP1B3 在肝脏中有较高的表达，它位于肝细胞的基底侧，在药物的肝摄取过程中起到至关重要的作用［1］。 由于药物通过 OATP1B1 和 OATP1B3的摄取进入肝脏后才能被肝内代谢，因此转运体介导的摄取速率是药物总清除率的一个决定因素。 它们的底物众多，很多在结构上不相关的药物会经由其转运，其中包括临床上常用药物，如羟甲基戊二酰辅酶 A 还原酶的抑制剂( 他汀类) 、血管紧张素 Ⅱ 受体拮抗剂( 沙坦类) 、血管紧张肽转换酶抑制剂和抗糖尿病类药物( 列奈类) 等。 除了有机阴离子药物，OATP1B1 和 OATP1B3 还可以转运中性( 如地高辛) 及两性药物( 如非索非那定) 。 此外，这两种转运体的底物经常会产生重叠，但对一部分药物，两种转运体的亲和性不同，如 OATP1B1 对 3-硫酸雌酮的亲和性要强于OATP1B3，而八肽胆囊收缩素、 替米沙坦只是OATP1B3 的底物 。",
+    "bbox": [
+      105,
+      640,
+      482,
+      730
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      332,
+      889,
+      601
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "药物相互作用( drug-drug interaction，DDI) 是指联合使用两种或多种药物时，药物原有的理化性质，药代动力学或药效动力学会相互影响并发生改变。 联合用药在临床上常被使用，近年来常有由于联合用药使转运体被抑制或诱导，从而导致的药物相互作用的报道。 其中，对于主要经肝代谢的药物，肝摄取转运体介导转运活性的抑制会改变其血药浓度，继而产生严重的不良反应。例如，十九世纪末发生西立伐他汀与吉非贝齐合用，导致31 人中 12 人死亡的案例。 为了评价转运体介导的药物相互作用，国际转运体联合会( ITC) 公布了能够引起药物代谢动力学变化的转运 体，包 括 OATP1B1 和 OATP1B3 。 另 外，OATP1B1 和 OATP1B3 的基因具有多种突变，具有单 核 苷 酸 多 态 性 ( single nucleotide polymor-phisms，SNPs) 。 这种多态性会导致 OATP1B1 和",
+    "bbox": [
+      510,
+      602,
+      889,
+      890
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "· 1296 ·",
+    "bbox": [
+      122,
+      77,
+      184,
+      89
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "◇ 综述与讲座 ◇",
+    "bbox": [
+      117,
+      124,
+      240,
+      140
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中国临床药理学与治疗学",
+    "bbox": [
+      744,
+      118,
+      878,
+      130
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中国药理学会主办",
+    "bbox": [
+      781,
+      131,
+      878,
+      141
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "CN 34-1206 /R，ISSN 1009-2501",
+    "bbox": [
+      717,
+      142,
+      878,
+      152
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "http: / / www． cjcpt． com",
+    "bbox": [
+      764,
+      154,
+      877,
+      164
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "2015 Nov; 20( 11) : 1296 － 1301",
+    "bbox": [
+      722,
+      165,
+      877,
+      174
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "2015-05-08 收稿 2015-08-07 修回",
+    "bbox": [
+      107,
+      762,
+      307,
+      774
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "国家自然基金资助( 81473272)",
+    "bbox": [
+      109,
+      775,
+      284,
+      787
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "孙晓琳，女，硕士，研究方向: 药物代谢动力学。",
+    "bbox": [
+      109,
+      788,
+      371,
+      800
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "Tel: 15995481093 E-mail: sunxiaolin\\_90315@ 163． com",
+    "bbox": [
+      109,
+      801,
+      433,
+      812
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "陈西敬，通信作者，男，博士，教授，研究方向: 药物代谢动力学",
+    "bbox": [
+      109,
+      813,
+      465,
+      826
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "Tel: 13605160357 E-mail: chenxh-lab@ hotmail． com",
+    "bbox": [
+      109,
+      827,
+      418,
+      838
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "张广钦，通信作者，男，博士，副教授，研究方向: 离子通道及钙信号转导 。",
+    "bbox": [
+      109,
+      839,
+      482,
+      864
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "Tel: 13951613298 E-mail: njzhanggq@ 163． com",
+    "bbox": [
+      109,
+      866,
+      393,
+      878
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "OATP1B3 功能的发生改变，对药物肝脏摄取产生影响，从而使药物的人体动力学及药效学发生变化 。 本文就近年来 OATP1B1 和 OATP1B3 单核苷酸多态性对临床药物处置的影响，及由于其活性被抑制而导致的临床相互作用的最新研究进展进行综述 。",
+    "bbox": [
+      105,
+      108,
+      482,
+      212
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 OATP1B1 和 OATP1B3 的基因多态性",
+    "text_level": 2,
+    "bbox": [
+      105,
+      225,
+      478,
+      242
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "OATP1B1 和 OATP1B3 的 编 码 基 因 为 SL-CO1B1 和 SLCO1B3 。 SLCO1B1 和 SLCO1B3 基因具有高度多态性。 OATP1B1 的编码基因的多种变异型对 OATP1B1 的表达和功能都有显著的影响，如 c． 521T ＞ C 和 c． 388A ＞ G 等 。 其 中，c． 521T ＞ C 影响最大［2］，它可以减少 OATP1B1 的表达量从而影响其转运活性。 研究表明 c．521T＞C 基因型能够减弱 OATP1B1 转运 3-硫酸雌酮( E3S) 、17 β-D-葡萄糖醛酸化雌二醇( E17 βG) 、 利福平、普伐他汀、阿托伐他汀、罗舒伐他汀和阿曲生坦的活性［3］。 因此，SLCO1B1 的单核苷酸多态性对药物的消除和代谢动力学具有重要的影响。",
+    "bbox": [
+      105,
+      253,
+      484,
+      467
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "如，亚洲患者中，SLCO1B1\\* 15 ( c． 388G-c． 521C)基因型患者体内的 SN-38 浓度增大，毒副作用增加［4］。 因此，临床上对不同基因型患者应该更谨慎的使用 SN-38 等受基因型影响较大的药物，根据不同的基因型适当改变给药剂量，以达到药效或避免增加的毒副作用。 OATP1B3 的编码基因中，c． 1564G ＞ T 能够显著减少 OATP1B3 对磺溴酞钠、E3S、E17βG、胆酰牛磺酸、八肽胆囊收缩素、脱氢表雄酮硫酸盐( DHEAS) 6 种底物的转运活性 。 但 c． 334T ＞ G 和 c． 699G ＞ A 与野生型相比，对 以 上 6 种底物的转运活性没有差异［5］。c． 699G ＞ A 、 c． 1559A ＞ C 和 c． 1679T ＞ C 基因型会减少 OATP1B3 对罗舒伐他汀的摄取，但对于阿托伐 他 汀 的 摄 取 没 有 影 响［6］。 在 人 体 内，OATP1B3 被证明与多烯紫杉醇的代谢动力学有关，其等位基因 IVS12-5676A ＞ G 会导致多烯紫杉醇 AUC 的增加和清除率的减少［7］。 OATP1B1和 OATP1B3 主要的基因多态性在不同种族间的发生频率详见表1，各基因多态性位点及氨基酸置换详见图1。",
+    "bbox": [
+      510,
+      108,
+      889,
+      466
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/989eec38037162bd4d945573554af7339ff90d5ad5aa7d93ff2034f422373253.jpg",
+    "table_caption": [
+      "表1 不同种族间 SLCO1B1 和 SLCO1B3 的基因多态性及其发生频率表"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td rowspan=\"2\">基因</td><td rowspan=\"2\">多态位点</td><td rowspan=\"2\">氨基酸改变</td><td colspan=\"3\">基因频率(%)</td></tr><tr><td>亚洲人</td><td>非裔美国人</td><td>欧裔美国人</td></tr><tr><td rowspan=\"6\">SLCO1B1</td><td>388A&gt;G</td><td>Asn130Asp</td><td>53.7</td><td>74</td><td>30</td></tr><tr><td>521T&gt;C</td><td>Val174Ala</td><td>0.7</td><td>2</td><td>14</td></tr><tr><td>452A&gt;G</td><td>Asn151Ser</td><td>3.7</td><td>-</td><td>-</td></tr><tr><td>245T&gt;C</td><td>Val82Ala</td><td>0</td><td>0</td><td>2</td></tr><tr><td>1007C&gt;G</td><td>Pro336Arg</td><td>1.2</td><td>-</td><td>-</td></tr><tr><td>1454G&gt;T</td><td>Cys485Phe</td><td>0.8</td><td>-</td><td>-</td></tr><tr><td rowspan=\"4\">SLCO1B3</td><td>334T&gt;G</td><td>Ser112Ala</td><td>71</td><td>39</td><td>52</td></tr><tr><td>699G&gt;A</td><td>Met233Ile</td><td>74</td><td>48</td><td>78</td></tr><tr><td>1559A&gt;C</td><td>His520Pro</td><td>0.6</td><td>0</td><td>0</td></tr><tr><td>1679T&gt;C</td><td>Val560Ala</td><td>0</td><td>3.6</td><td>0</td></tr></table>",
+    "bbox": [
+      110,
+      491,
+      889,
+      677
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "image",
+    "img_path": "images/c795a3dedaad74b2ba18a1f619286d0be4f5b49bed7eef9b8ff413d3dd3966b6.jpg",
+    "image_caption": [
+      "图 1 OATP1B1 和 OATP1B3 部分氨基酸置换位点示意图"
+    ],
+    "image_footnote": [
+      "注: 由 SLCO1B1 基因编码变异引起的氨基酸置换由菱形表示，由 SLCO1B3 基因编码变异引起的氨基酸置换由圆形表示"
+    ],
+    "content": "1B1\nA151S\n1B1\nL152K\n1B1\nE155T\n1B1\nE156G\n1B3\nM223I\n1B1\nD241N\n1B3\nG256A\n1B1\nI353T\n1B1\nD432G\n1B1\nC485P\n1B3\nH520P\n1B1\nF73L\n1B1\nV82A\n1B1\nV174A\n1B3\nT147A\n1B1\nL193A\n1B1\nP336A\n1B3\nV560A\n1B1\nA655G\n1B1\nG677G\n1B1\nG677G",
+    "sub_type": "text_image",
+    "bbox": [
+      231,
+      680,
+      761,
+      853
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "中国临床药理学与治疗学 2015 Nov; 20( 11)",
+    "bbox": [
+      107,
+      77,
+      394,
+      91
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "· 1297 ·",
+    "bbox": [
+      810,
+      77,
+      873,
+      89
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 OATP1B1 和 OATP1B3 介导的药物相互作用",
+    "text_level": 2,
+    "bbox": [
+      105,
+      123,
+      478,
+      159
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "FDA 的 《药物相互作用研究指导草案》 和EMA 《药 物 相 互 作 用 研 究 指 导 原 则 》 认 为OATP1B1 和 OATP1B3 作为两种重要的转运体，可能与很多临床相互作用有关，因此如果某种药物是这两种转运体的底物或抑制剂，那么可能存在较为明显的药物相互作用。 此外，PBPK 模型可以较为准确地预测药物相互作用，为临床给药提供参考。 OATP1B1 和 OATP1B3 的底物及抑制剂见表 2 。",
+    "bbox": [
+      105,
+      168,
+      482,
+      222
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      115,
+      889,
+      221
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/59f8e4e2b4c1494c4fda38adf4ad168d5962e920cd3038ef1d9d25120def07e8.jpg",
+    "table_caption": [
+      "表 2 OATP1B1 和 OATP1B3 的底物药物和抑制剂"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>OATP</td><td>基因符号</td><td>底物</td><td>抑制剂</td><td>诱导剂</td></tr><tr><td>OATP1B1</td><td>SLCO1B1</td><td>阿托伐他汀,西立伐他汀,氟伐他汀,匹伐他汀,普伐他汀,罗舒伐他汀,辛伐他汀酸,依那普利,非索非那定,甲氨蝶呤,缬沙坦,波生坦,奥美沙坦,阿曲生坦,利福平,SN-38,伊立替康,头孢托仑,瑞格列奈,西罗莫司,沙奎那韦,洛匹那韦,头孢哌酮,头孢唑林,托拉塞米</td><td>环孢素,吉非贝齐,利福平,罗红霉素,泰利霉素,利托那韦,沙奎那韦,奈非那韦,西地那非,阿托伐他汀酸,辛伐他汀,辛伐他汀酸,阿托伐他汀酯,洛伐他汀,洛伐他汀酸,格列本脲,贯叶金丝桃素,紫杉醇,瑞格列奈,替米沙坦,他克莫司,曲格列酮</td><td>双氯芬酸,布洛芬,罗美昔布</td></tr><tr><td>OATP1B3</td><td>SLCO1B3</td><td>波生坦,地高辛,依那普利,红霉素,非索非那定,氟伐他汀,匹伐他汀,普伐他汀,罗舒伐他汀,利福平,奥美沙坦,替米沙坦,阿曲生坦,缬沙坦,伊马替尼,甲氨蝶呤,紫杉醇,多烯紫杉醇,CCK-8,头孢拉定,头孢唑啉,头孢美唑,头孢托仑,头孢氨苄,萘夫西林</td><td>环孢素,利福平,红霉素,罗红霉素,克拉霉素,泰利霉素</td><td>双氯芬酸,布洛芬,罗美昔布</td></tr></table>",
+    "bbox": [
+      109,
+      246,
+      890,
+      514
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2．1 他汀类药物与其他药物的相互作用 他汀类药物是羟甲基戊二酰辅酶 A( HMG-CoA) 还原酶抑制剂，是临床上常用且有效的降脂药物，广泛应用于高脂血症的治疗。 除了氟伐他汀外，其他他汀类药物都是 OATP1B1 和 OATP1B3 的底物，人体内处置过程都会受到 OATP1B1 和 OATP1B3活性的影响［8］。 因此，对 OATP1B1 和 OATP1B3的抑制可能会导致他汀药物的血药浓度增加，从而导致横纹肌溶解而引起猝死，此外还可以引发急性肾功能衰竭等不良反应。",
+    "bbox": [
+      105,
+      530,
+      482,
+      709
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "环孢素是 OATP1B1 和 OATP1B3 的强效抑制剂。 有报道称环孢素能够明显抑制 OATP1B1 介导转运的匹伐他汀、阿托伐他汀、罗舒伐他汀、普伐他汀［9］; 环孢素也可以强效抑制 OATP1B3 介导 的 转 运 罗 舒 伐 他 汀［10］。 说 明 环 孢 素 是OATP1B 和 OATP1B3 的强抑制剂。 人体内罗舒伐他汀与环孢素的相互作用的研究结果表明，与对照组相比，同时服用环孢素的患者体内罗舒伐他汀的 AUC 和 Cmax分别增加 7． 1 和 10． 6 倍［11］",
+    "bbox": [
+      105,
+      711,
+      482,
+      872
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "抗结 核 药 物 利 福 平 也 是 OATP1B1 和",
+    "bbox": [
+      142,
+      873,
+      482,
+      889
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "OATP1B3 的抑制剂［12］。 在体外，利福平可以强效抑制 OATP1B1 和 OATP1B3 对他汀类药物的摄取。 与环孢素类似，利福平抑制 OATP1B1 介导转运的匹伐他汀、阿托伐他汀、罗舒伐他汀、氟伐他汀和普伐他汀［9］。 另有临床研究表明，600 mg 利福平与阿托伐他汀联用后，阿托伐他汀的 AUC 增加了 600% ，可能与 OATP1B1 和 OATP1B3 对阿托伐他汀转运的活性被抑制有关。",
+    "bbox": [
+      510,
+      530,
+      887,
+      673
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "某些口服降糖药对 OATP1B1 和 OATP1B3 介导摄取的他汀类药物存在相互作用。 其中，格列酮类药物是 OATP1B1 的底物［13］，瑞格列奈也被证明其血药浓度与 OATP1B1 的编码基因 SL-CO1B1 的基因型有关［14］。 实验表明，罗格列酮和瑞格列奈能够抑制 OATP1B1 和 OATP1B3 介导摄取的普伐他汀［15］和阿托伐他汀［16］。 然而有一个非常 有 趣 的 现 象，罗 格 列 酮 浓 度 为 10 μmol /L时，却能够促进 OATP1B1 和 OATP1B3 介导的普伐他汀的摄取。 虽然关于促进摄取尚未有相关临床文献报道，但说明由转运体介导的药物相互作用的机制不只是对转运体的抑制，也可能是对转运体活力的促进，从而减少药物血药浓度。",
+    "bbox": [
+      510,
+      675,
+      889,
+      890
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "· 1298 ·",
+    "bbox": [
+      124,
+      77,
+      184,
+      89
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "Chin J Clin Pharmacol Ther 2015 Nov; 20( 11)",
+    "bbox": [
+      598,
+      78,
+      882,
+      91
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      107,
+      108,
+      428,
+      124
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "据报道，贝特类降血脂药与他汀类药物合用会产生严重的不良反应。 美国 FDA 不良反应报告系统显示，1997 年至2000 年间，有8 例由普伐他汀和贝特类药物联用引起的横纹肌溶解( 1 例死亡) ［17］的报告。 随后进行的临床试验显示，与对照组相比，给予吉非贝齐的受试者体内普伐他汀 AUC 增加了一倍。 此外，由于与吉非贝齐联用发生严重不良反应后撤市的西立伐他汀，进一步地说明吉非贝齐及其代谢 物 是 OATP1B1 和OATP1B3 的抑制剂［18］，从而使得普伐他汀和西立伐他汀血药浓度增加。",
+    "bbox": [
+      105,
+      126,
+      482,
+      323
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "大环内酯类药物通常是 CYP3A 的强抑制剂，其与他汀类药物的相互作用最初被认为与代谢酶被抑制有关。 然而近年来，在体内和体外水平上对大环内酯类药物体外对 OATP 介导的转运的影响进行研究。 Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运［19］。 Jacobson等的临床实验结果表明，克拉霉素能够将普伐他汀 的 $C _ { \\mathrm { m a x } }$ x 和 AUC 分 别 $\\textbf { \\textsf { M } } \\overset { 1 8 } { \\mathrm { 1 8 } } \\mathrm { \\ n g / m I }$ 和54 $\\mathrm { n g } \\bullet \\mathrm { h } \\bullet \\mathrm { m L } ^ { - 1 }$ 增 加 至 41 ng /mL 和114 $\\mathrm { n g \\bullet h \\bullet _ { \\mathrm { m L } } \\mathrm { ^ { - 1 } } }$ ，可能与 OATP 转运作用被抑制有关［20］ 。 。",
+    "bbox": [
+      105,
+      326,
+      482,
+      543
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "此外，某些中药成分也能与他汀类药物发生相互作用。 黄芩苷是黄芩的主要成分，在临床上主要用于抗菌消炎和抗感染。 临床研究表明，黄芩苷能够提高 OATP1B1 的转运活性，使罗舒伐他汀的血药浓度降低［21］。 此外， $\\mathbb { W } \\mathbf { u }$ 等研究发现，黄酮类化合物槲皮素与普伐他汀联用时，能够提高人体内普伐他汀的血药浓度。 $\\mathbb { W } \\mathbf { u }$ 认 为 这 与OATP1B1 的转运活性被槲皮素抑制有关，提示临床上槲皮素与他汀类药物联用时可能存在风险［22］ 。",
+    "bbox": [
+      105,
+      546,
+      482,
+      725
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2． 2 波生坦与其他药物的相互作用 波生坦是内皮素受体拮抗剂，临床上广泛用于特发性肺动脉高压、结缔组织病合并肺动脉高压、先天性心脏病合并肺动脉高压等的治疗。 它在人体内主要经由 CYP2C9 和 CYP3A4 代 谢 和 OATP1B1 和OATP1B3 转运 。 Treiber 等人［23］ 研究后发现，环孢素、利福平和西地那非能够明显抑制波生坦的摄取。 环孢素和利福平的 $\\mathrm { I C } _ { 5 0 }$ 值明显低于它们在人体内的治疗浓度，说明很可能发生临床上的相互作用; 西地那非虽然也能够抑制转运体的摄取，但由于其 $\\mathrm { I C } _ { 5 0 }$ 值高于其治疗浓度，因此可能没有明显的相互作用。 一项临床试验结果显示［24］，第一次波生坦和利福平联合用药时，其血药浓度比对照组增加 5 倍; 但当波生坦达到稳态浓度时，联合用药组血药浓度反而下降 58% 。 说明第一次联合用药时，利福平抑制转运体摄取，血药浓度增加; 达到稳态后，由于利福平是 CYP3A4 诱导剂，波生坦代谢增加，血药浓度降低。",
+    "bbox": [
+      105,
+      728,
+      482,
+      890
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      108,
+      887,
+      271
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2． 3 非索非那定与其他药物的相互作用 非索非那定是第二代 H1 抗组胺药，临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等，主要经肝脏以原型药物形式代谢，在肝细胞内的摄取主要经由 OATP1B1 和 OATP1B3 介导 。 Matsushima ［12］运用稳转细胞模型研究多种药物对 OATP1B1 和 OATP1B3 介导的非索非那定的摄取，结果发现环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。",
+    "bbox": [
+      510,
+      273,
+      887,
+      451
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2． 4 临床中药代动力学相互作用的预测 当研究一种药物是否为 OATP1B1 和 OATP1B3 的抑制剂时，可使用稳转 OATP1B1 和 OATP1B3 细胞系以 E17βG 或他汀类药物为底物，研究药物对转运体的抑制强弱并得到 $\\mathrm { I C } _ { 5 0 }$ 值。 当 $\\mathrm { I C } _ { 5 0 }$ 值小于 10倍该药物在人体内的 $C _ { \\mathrm { m a x } }$ 值时，该药物可能是OATP1B1 和 OATP1B3 的抑制剂。 通过体内-体外外推法计算 R 值( 公式如下) ，可知该药物是否可能产生临床相互作用。 当 $R > 2$ 时，说明该药物可能与 OATP1B1 和 OATP1B3 的底物产生临床相互作用。 可用阿托伐他汀、匹伐他汀或普伐他汀为 OATP1B1 和 OATP1B3 底物进行临床相互作用试验进行验证。",
+    "bbox": [
+      510,
+      455,
+      889,
+      688
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "equation",
+    "text": "$$\nR = 1 + \\left(\\mathrm{fu} \\times I _ {\\text {in,max}} / \\mathrm{IC} _ {5 0}\\right)\n$$",
+    "text_format": "latex",
+    "bbox": [
+      547,
+      690,
+      742,
+      708
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "$I _ { \\mathrm { i n , m a x } }$ 为估算的抑制剂在肝门静脉中的最大浓度; $\\mathrm { F u }$ 为药物游离分数。",
+    "bbox": [
+      510,
+      709,
+      887,
+      743
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "equation",
+    "text": "$$\nI _ {\\text { in,max }} = I _ {\\max} + \\left(\\mathrm{Fa} \\times \\text { Dose } \\times \\mathrm{k} _ {\\mathrm{a}} / \\mathrm{Q} _ {\\mathrm{h}}\\right)\n$$",
+    "text_format": "latex",
+    "bbox": [
+      547,
+      746,
+      825,
+      763
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "$I _ { \\mathrm { m a x } }$ 抑制剂在血中的最大浓度; $\\mathrm { F a }$ 为抑制剂占其给药剂量分数; ka为抑制剂的吸收速率常数;$\\mathrm { Q } _ { \\mathrm { h } }$ 为肝血流量。",
+    "bbox": [
+      510,
+      765,
+      887,
+      818
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "当一种药物在人体内的肝清除率大于其 0．3倍的总清除率时，该药物的主要消除场所为肝脏，并可能是肝转运体的底物。 通过研究药物的理化性质( 如溶解度和渗透性等) 并结合稳转细胞系或肝 细 胞，判 断 药 物 是 否 为 OATP1B1 和OATP1B3 的底物。 如果一个药物是 OATP1B1 和OATP1B3 的底物，则可考虑进行药物相互作用的临床试验。 通过同时给予药物与利福平或环孢素等特异性抑制剂，研究在人体内药物是否可能与其他药物产生相互作用。",
+    "bbox": [
+      510,
+      819,
+      887,
+      890
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "中国临床药理学与治疗学 2015 Nov; 20( 11)",
+    "bbox": [
+      107,
+      77,
+      394,
+      91
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "· 1299 ·",
+    "bbox": [
+      810,
+      77,
+      873,
+      89
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      107,
+      108,
+      482,
+      214
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "2．5 运用模型分析肝摄取转运体活性变化产生的药物动力学变化 运用生理药代动力学( PB-PK) 模型可以对主要经肝脏代谢的药物的药代动力学变化进行分析。 PBPK 模型能够有效地预测与肝摄取转运体抑制剂合用时，由于肝摄取转运体的活性被抑制，而导致的他汀类等药物血药浓度的变化，但同时肝脏内的药物浓度变化不大。Varma 等成功运用建立的 PBPK 模型预测普伐他汀的肝脏内代谢过程，并有效地评价了由吉非贝齐和利福平等 OATP1B1 和 OATP1B3 的抑制剂而产生的药物相互作用，与临床报道的药代参数相似［25］。 这些模型表明转运体功能的变化是导致他汀等药物药代动力学变化的一个重要原因。 因此将 PBPK 模型应用于临床试验方案设计的优化及给药方案的调整，可以较为准确地预测药物间相互作用，并避免因此而产生的毒副作用。",
+    "bbox": [
+      107,
+      216,
+      485,
+      502
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "3 展望",
+    "text_level": 2,
+    "bbox": [
+      107,
+      514,
+      184,
+      531
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "近年来，随着有关 OATP1B1 和 OATP1B3 介导的药物相互作用及基因多态性的报道越来越多，其重要性已逐渐被人们所重视。 然而围绕上述问题仍有许多工作亟待完成。 首先，目前虽然对于他汀类药物与其他药物联用时引起的不良反应的机制较为明确，但对许多其他药物研究较少;其次，PBPK 模型仅能对部分药物的临床相互作用进行预测，但对大部分其他药物相互作用的预测仍不够准确，需要建立更多的体内、外实验模型以适用于不同的药物; 此外，对基因多态性与药物相互作用之间关系的了解尚少，对其进一步研究将会使个体化给药更加精准，从而保证临床用药的安全性和有效性。",
+    "bbox": [
+      107,
+      542,
+      482,
+      775
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "参 考 文 献",
+    "text_level": 2,
+    "bbox": [
+      248,
+      785,
+      341,
+      802
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "［1］ Mikkaichi T，Suzuki T，Tanemoto M，et al． The organic anion transporter ( oatp) family［J］． Drug Metab Pharmacokinet，2004，19( 3) : 171-179．",
+      "［2］ Kalliokoski A，Neuvonen PJ，Niemi M． Slco1b1 polymorphism and oral antidiabetic drugs［J］． Basic Clin"
+    ],
+    "bbox": [
+      115,
+      812,
+      485,
+      890
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "ref_text",
+    "text": "Pharmacol Toxicol，2010，107( 4) : 775-781．",
+    "bbox": [
+      552,
+      108,
+      835,
+      122
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "ref_text",
+    "text": "［3］ 鲍美华，张轶雯，程琳，等． 瑞苏伐他汀遗传药理学研究进展［J］． 中国临床药理学与治疗学，2013，18( 2) : 234-240．",
+    "bbox": [
+      521,
+      123,
+      889,
+      168
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "ref_text",
+    "text": "［4］ Han JY，Lim HS，Shin ES，et al． Influence of the organic anion-transporting polypeptide 1b1 ( oatp1b1 ) polymorphisms on irinotecan-pharmacokinetics and clinical outcome of patients with advanced non-small cell lung cancer［J］． Lung Cancer，2008，59( 1) : 69- 75．",
+    "bbox": [
+      521,
+      168,
+      890,
+      259
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "ref_text",
+    "text": "［5］ Letschert K，Keppler D，Konig J． Mutations in the slco1b3 gene affecting the substrate specificity of the hepatocellular uptake transporter oatp1b3 ( oatp8 ) ［J］． Pharmacogenetics，2004，14( 7) : 441-452．",
+    "bbox": [
+      521,
+      261,
+      890,
+      322
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "ref_text",
+    "text": "［6 Schwarz UI，Meyer zu Schwabedissen HE，Tirona RG，et al． Identification of novel functional organic anion-transporting polypeptide 1b3 polymorphisms and assessment of substrate specificity［J］． Pharmacogenet Genomics，2011，21( 3) : 103-114．",
+    "bbox": [
+      521,
+      323,
+      887,
+      398
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "ref_text",
+    "text": "［7］ Chew SC，Sandanaraj E，Singh O，et al． Influence of slco1b3 haplotype ‐ tag snps on docetaxel disposition in chinese nasopharyngeal cancer patients［J］． Br J Clin Pharmacol，2012，73( 4) : 606-618．",
+    "bbox": [
+      521,
+      400,
+      889,
+      460
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "ref_text",
+    "text": "［8］ Elsby R，Hilgendorf C，Fenner K． Understanding the critical disposition pathways of statins to assess drugdrug interaction risk during drug development: It＇s not just about oatp1b1［J］． Clin Pharmacol Ther，2012， 92( 5) : 584-598．",
+    "bbox": [
+      521,
+      461,
+      890,
+      536
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "ref_text",
+    "text": "［9］ Izumi S，Nozaki Y，Maeda K，et al． Investigation of the impact of substrate selection on in vitro organic anion transporting polypeptide 1b1 inhibition profiles for the prediction of drug-drug interactions ［J］． Drug Metab Dispos，2015，43( 2) : 235-247．",
+    "bbox": [
+      521,
+      537,
+      890,
+      613
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "ref_text",
+    "text": "［10］ Ho RH，Tirona RG，Leake BF，et al． Drug and bileacid transporters in rosuvastatin hepatic uptake: Func-tion，expression，and pharmacogenetics［J］． Gastroen-terology，2006，130( 6) : 1793-1806．",
+    "bbox": [
+      521,
+      614,
+      890,
+      675
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "ref_text",
+    "text": "［11］ Simonson SG，Raza A，Martin PD，et al． Rosuvastatin pharmacokinetics in heart transplant recipients administered an antirejection regimen including cyclosporine ［J］． Clin Pharmacol Ther，2004，76( 2) : 167-177．",
+    "bbox": [
+      521,
+      676,
+      889,
+      736
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "ref_text",
+    "text": "［12］ Matsushima S，Maeda K，Ishiguro N，et al． Investigation of the inhibitory effects of various drugs on the hepatic uptake of fexofenadine in humans ［J］． Drug Metab Dispos，2008，36( 4) : 663-669．",
+    "bbox": [
+      521,
+      737,
+      890,
+      797
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "ref_text",
+    "text": "［13］ Nozawa T，Sugiura S，Nakajima M，et al． Involvement of organic anion transporting polypeptides in the transport of troglitazone sulfate: Implications for understanding troglitazone hepatotoxicity［J］． Drug Metab Dispos，2004，32( 3) : 291-294．",
+    "bbox": [
+      521,
+      799,
+      890,
+      873
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "ref_text",
+    "text": "［14］ Niemi M，Backman JT，Kajosaari LI，et al． Polymor-",
+    "bbox": [
+      521,
+      875,
+      890,
+      890
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "· 1300 ·",
+    "bbox": [
+      124,
+      77,
+      184,
+      89
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "Chin J Clin Pharmacol Ther 2015 Nov; 20( 11)",
+    "bbox": [
+      598,
+      78,
+      882,
+      91
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      979
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "phic organic anion transporting polypeptide 1b1 is a major determinant of repaglinide pharmacokinetics［J］． Clin Pharmacol Ther，2005，77( 6) : 468-478．",
+      "［15］ Bachmakov I，Glaeser H，Fromm MF，et al． Interaction of oral antidiabetic drugs with hepatic uptake transporters focus on organic anion transporting polypeptides and organic cation transporter 1［J］． Diabetes，2008，57( 6) : 1463-1469．",
+      "［16］ Klatt S，Fromm MF，Knig J． The influence of oralantidiabetic drugs on cellular drug uptake mediated byhepatic oatp family members［J］． Basic Clin Pharma-col Toxicol，2013，112( 4) : 244-250．",
+      "［17］ IgelM，Sudhop T，Von Bergmann K． Pharmacology of 3-hydroxy-3-methylglutaryl-coenzyme a reductase inhibitors ( statins) ，including rosuvastatin and pitavastatin［J］． J Clin Pharmacol，2002，42( 8) : 835-845．",
+      "［18］ Macha S，Koenen R，Sennewald R，et al． Effect of gemfibrozil，rifampicin，or probenecid on the pharmacokinetics of the SGLT2 inhibitor empagliflozin in healthy volunteers［J］． Clin Ther，2014，36 ( 2 ) : 280-290． e281．",
+      "［19］ Seithel A，Eberl S，Singer K，et al． The influence of macrolide antibiotics on the uptake of organic anions and drugs mediated by oatp1b1 and oatp1b3［J］． Drug Metab Dispos，2007，35( 5) : 779-786．",
+      "［20］ Jacobson TA． Comparative pharmacokinetic interaction",
+      "profiles of pravastatin，simvastatin，and atorvastatin when coadministered with cytochrome p450 inhibitors ［J］． Am J Cardiol，2004，94( 9) : 1140-1146．",
+      "［21］ Fan L，Zhang W，Guo D，et al． The effect of herbal medicine baicalin on pharmacokinetics of rosuvastatin， substrate of organic anion ‐ transporting polypeptide 1b1［J］． Clin Pharmacol Ther，2008，83 ( 3) : 471- 476．",
+      "［22］ Wu LX，Guo CX，Chen WQ，et al． Inhibition of the organic anion ‐ transporting polypeptide 1b1 by quercetin: An in vitro and in vivo assessment［J］． Br J Clin Pharmacol，2012，73( 5) : 750-757．",
+      "［23］ Treiber A，Schneiter R，Haeusler S，et al． Bosentan is a substrate of human oatp1b1 and oatp1b3: Inhibition of hepatic uptake as the common mechanism of its interactions with cyclosporin a，rifampicin，and sildenafil［J］． Drug Metab Dispos，2007，35 ( 8) : 1400- 1407．",
+      "［24］ Van Giersbergen PLM，Treiber A，Schneiter R，et al． Inhibitory and inductive effects of rifampin on the pharmacokinetics of bosentan in healthy subjects［J］． Clin Pharmacol Ther，2007，81( 3) : 414-419．",
+      "［25］ Varma MVS，Lai Y，Feng B，et al． Physiologically based modeling of pravastatin transporter-mediated hepatobiliary disposition and drug-drug interactions ［J］． Pharm Res，2012，29( 10) : 2860-2873．"
+    ],
+    "bbox": [
+      109,
+      107,
+      490,
+      510
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      509,
+      107,
+      894,
+      510
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "Advances in investigations of gene polymorphisms and drug-drug interactions mediated by organic anion transporting polypeptides OATP1B1 and OATP1B3",
+    "text_level": 1,
+    "bbox": [
+      107,
+      527,
+      892,
+      593
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "SUN Xiao-lin 1，2 ，ZHAO Di 2 ，LI Jun-xiu 2 ，GUO Chao-rui 2 ，CHEN Xi-jing 2 ，ZHANG Guang-qin 1",
+    "bbox": [
+      105,
+      602,
+      892,
+      642
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "1 Department of Clinical Pharmacy，2 Pharmacokinetic Research Center，China Pharmaceutical University，Nanjing 21000，Jiangsu，China",
+    "bbox": [
+      104,
+      650,
+      892,
+      684
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "ABSTRACT Organic anion transporting polypeptides ( OATPs) family are responsible for the cellular uptake of a broad range of endogenous compounds and xenobiotics in multiple tissues． Among them，OATP1B1 and OATP1B3 are mainly localized to the basolateral membrane of hepatocytes，playing important roles in hepatic uptake． Thus，it is common that the severe adverse reactions occur clinically caused by OATP1B1 and OATP1B3 mediated drugdrug interaction． Besides，the single nucleotide polymorphisms of OATP1B1 and OATP1B3 may be contributed to interindividual variability in drug disposition and response． In this review，the single nucleotide polymorphisms of OATP1B1 and OATP1B3 will be summarized，and the potential drug-drug interactions mediated by OATP1B1 and OATP1B3 will also be reviewed．",
+    "bbox": [
+      105,
+      703,
+      487,
+      891
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      703,
+      890,
+      804
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "KEY WORDS organic anion transporting polypeptides; drug-drug interaction; SNPs",
+    "bbox": [
+      510,
+      807,
+      890,
+      841
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "本文编辑: 钟正灵",
+    "bbox": [
+      715,
+      851,
+      852,
+      866
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "中国临床药理学与治疗学 2015 Nov; 20( 11)",
+    "bbox": [
+      109,
+      77,
+      394,
+      91
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "· 1301 ·",
+    "bbox": [
+      810,
+      77,
+      873,
+      89
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 5
+  }
+]

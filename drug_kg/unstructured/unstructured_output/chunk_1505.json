@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "DOAC",
+        "canonical_name": "直接口服抗凝药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Population",
+        "name": "女性",
+        "canonical_name": "女性",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Population",
+        "name": "年龄较大",
+        "canonical_name": "老年人",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Population",
+        "name": "体重较低",
+        "canonical_name": "低体重",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Population",
+        "name": "肾功能较差",
+        "canonical_name": "肾功能不全",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_2",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "医脉通心血管",
+          "chunk_index": 1505,
+          "raw_text": "应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险",
+          "chunk_id": "1505",
+          "data": "。 结论 临床医生应关注DOAC与常用药物的相互作用问题，必要时，为保证安全，应调整DOAC剂量或停药。重要的是，应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险。另外，抗凝门诊随访可能是解决这些问题的有效方法。 参考来源：1. Barbara S. Wiggins, Dave L. Dixon, Ron R. Neyens, et al. Select Drug-Drug Interactions With Direct Oral Anticoagulants: JACC Review Topic of the Week. J Am Coll Cardiol. 2020; 75(11): 1341-1350.2. Geoffrey D. Barnes. Drug-Drug Interactions With Direct Oral Anticoagulants. ACC. Mar 19, 2020."
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "医脉通心血管",
+          "chunk_index": 1505,
+          "raw_text": "应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险",
+          "chunk_id": "1505",
+          "data": "。 结论 临床医生应关注DOAC与常用药物的相互作用问题，必要时，为保证安全，应调整DOAC剂量或停药。重要的是，应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险。另外，抗凝门诊随访可能是解决这些问题的有效方法。 参考来源：1. Barbara S. Wiggins, Dave L. Dixon, Ron R. Neyens, et al. Select Drug-Drug Interactions With Direct Oral Anticoagulants: JACC Review Topic of the Week. J Am Coll Cardiol. 2020; 75(11): 1341-1350.2. Geoffrey D. Barnes. Drug-Drug Interactions With Direct Oral Anticoagulants. ACC. Mar 19, 2020."
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "医脉通心血管",
+          "chunk_index": 1505,
+          "raw_text": "应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险",
+          "chunk_id": "1505",
+          "data": "。 结论 临床医生应关注DOAC与常用药物的相互作用问题，必要时，为保证安全，应调整DOAC剂量或停药。重要的是，应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险。另外，抗凝门诊随访可能是解决这些问题的有效方法。 参考来源：1. Barbara S. Wiggins, Dave L. Dixon, Ron R. Neyens, et al. Select Drug-Drug Interactions With Direct Oral Anticoagulants: JACC Review Topic of the Week. J Am Coll Cardiol. 2020; 75(11): 1341-1350.2. Geoffrey D. Barnes. Drug-Drug Interactions With Direct Oral Anticoagulants. ACC. Mar 19, 2020."
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "医脉通心血管",
+          "chunk_index": 1505,
+          "raw_text": "应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险",
+          "chunk_id": "1505",
+          "data": "。 结论 临床医生应关注DOAC与常用药物的相互作用问题，必要时，为保证安全，应调整DOAC剂量或停药。重要的是，应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险。另外，抗凝门诊随访可能是解决这些问题的有效方法。 参考来源：1. Barbara S. Wiggins, Dave L. Dixon, Ron R. Neyens, et al. Select Drug-Drug Interactions With Direct Oral Anticoagulants: JACC Review Topic of the Week. J Am Coll Cardiol. 2020; 75(11): 1341-1350.2. Geoffrey D. Barnes. Drug-Drug Interactions With Direct Oral Anticoagulants. ACC. Mar 19, 2020."
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1505,
+    "source": "医脉通心血管",
+    "text": "。 结论 临床医生应关注DOAC与常用药物的相互作用问题，必要时，为保证安全，应调整DOAC剂量或停药。重要的是，应更多关注女性、年龄较大、体重较低或肾功能较差的患者，以减轻用药错误的风险。另外，抗凝门诊随访可能是解决这些问题的有效方法。 参考来源：1. Barbara S. Wiggins, Dave L. Dixon, Ron R. Neyens, et al. Select Drug-Drug Interactions With Direct Oral Anticoagulants: JACC Review Topic of the Week. J Am Coll Cardiol. 2020; 75(11): 1341-1350.2. Geoffrey D. Barnes. Drug-Drug Interactions With Direct Oral Anticoagulants. ACC. Mar 19, 2020."
+  }
+]

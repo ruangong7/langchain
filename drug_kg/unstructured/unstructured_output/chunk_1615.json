@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "厄洛替尼",
+        "canonical_name": "厄洛替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "卡培他滨",
+        "canonical_name": "卡培他滨",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "医脉通肿瘤科",
+          "chunk_index": 1615,
+          "raw_text": "厄洛替尼与华法林联用时也有类似的案例报道。",
+          "chunk_id": "1615",
+          "data": "。厄洛替尼与华法林联用时也有类似的案例报道。厄洛替尼不推荐剂量调整。当与卡培他滨合并用药时，厄洛替尼浓度可能增加。小结与展望EGFR-TKI药物的问世，为医生和患者提供了更丰富、更有效的治疗方案。鉴于癌症患者常需要接受多种药物治疗，所以临床医生在为患者制定个体化的治疗方案时，应设法避免或控制药物的相互作用，从而在有利控制病情的同时减少不良反应。目前，靶向抗肿瘤药物药动学相互作用的研究已成为抗肿瘤药物治疗过程的重要研究课题。期待今后有更多研究为临床合理使用靶向抗肿瘤药物提供参考，为抗肿瘤药物治疗提供新的研究方向。参考文献：Borda IT, Slone D, Jick H. Assessment of adverse reactions within a drug surveillance program. JAMA. 1968 Aug 26;205(9):645-7."
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "医脉通肿瘤科",
+          "chunk_index": 1615,
+          "raw_text": "当与卡培他滨合并用药时，厄洛替尼浓度可能增加。",
+          "chunk_id": "1615",
+          "data": "。厄洛替尼与华法林联用时也有类似的案例报道。厄洛替尼不推荐剂量调整。当与卡培他滨合并用药时，厄洛替尼浓度可能增加。小结与展望EGFR-TKI药物的问世，为医生和患者提供了更丰富、更有效的治疗方案。鉴于癌症患者常需要接受多种药物治疗，所以临床医生在为患者制定个体化的治疗方案时，应设法避免或控制药物的相互作用，从而在有利控制病情的同时减少不良反应。目前，靶向抗肿瘤药物药动学相互作用的研究已成为抗肿瘤药物治疗过程的重要研究课题。期待今后有更多研究为临床合理使用靶向抗肿瘤药物提供参考，为抗肿瘤药物治疗提供新的研究方向。参考文献：Borda IT, Slone D, Jick H. Assessment of adverse reactions within a drug surveillance program. JAMA. 1968 Aug 26;205(9):645-7."
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1615,
+    "source": "医脉通肿瘤科",
+    "text": "。厄洛替尼与华法林联用时也有类似的案例报道。厄洛替尼不推荐剂量调整。当与卡培他滨合并用药时，厄洛替尼浓度可能增加。小结与展望EGFR-TKI药物的问世，为医生和患者提供了更丰富、更有效的治疗方案。鉴于癌症患者常需要接受多种药物治疗，所以临床医生在为患者制定个体化的治疗方案时，应设法避免或控制药物的相互作用，从而在有利控制病情的同时减少不良反应。目前，靶向抗肿瘤药物药动学相互作用的研究已成为抗肿瘤药物治疗过程的重要研究课题。期待今后有更多研究为临床合理使用靶向抗肿瘤药物提供参考，为抗肿瘤药物治疗提供新的研究方向。参考文献：Borda IT, Slone D, Jick H. Assessment of adverse reactions within a drug surveillance program. JAMA. 1968 Aug 26;205(9):645-7."
+  }
+]

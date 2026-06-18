@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "奈玛特韦片/利托那韦片",
+        "canonical_name": "奈玛特韦片/利托那韦片",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "Paxlovid",
+        "canonical_name": "Paxlovid",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Population",
+        "name": "肾功能不全者",
+        "canonical_name": "肾功能不全者",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "用药参考",
+          "chunk_index": 2279,
+          "raw_text": "奈玛特韦片/利托那韦片与100种处方最多的药物之间的相互作用",
+          "chunk_id": "2279",
+          "data": "。近期，IDSA发布了奈玛特韦片/利托那韦片药物相关作用管理指南，介绍了奈玛特韦片/利托那韦片与100种处方最多的药物之间的相互作用。表1  奈玛特韦片/利托那韦片避免使用的情况表2 已知与奈玛特韦片/利托那韦片具有相互作用的常用处方药物及建议表3 肾功能不全者的使用建议参考资料：1.IDSA. Management of drug interactions with nirmatrelvir/ritonavir(Paxlovid): Resource for Clinicians. https://www.idsociety.org/paxlovid.2.广东省药学会.新型冠状病毒肺炎抗病毒治疗临床药学指引.2022.4.29."
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "用药参考",
+          "chunk_index": 2279,
+          "raw_text": "表3 肾功能不全者的使用建议",
+          "chunk_id": "2279",
+          "data": "。近期，IDSA发布了奈玛特韦片/利托那韦片药物相关作用管理指南，介绍了奈玛特韦片/利托那韦片与100种处方最多的药物之间的相互作用。表1  奈玛特韦片/利托那韦片避免使用的情况表2 已知与奈玛特韦片/利托那韦片具有相互作用的常用处方药物及建议表3 肾功能不全者的使用建议参考资料：1.IDSA. Management of drug interactions with nirmatrelvir/ritonavir(Paxlovid): Resource for Clinicians. https://www.idsociety.org/paxlovid.2.广东省药学会.新型冠状病毒肺炎抗病毒治疗临床药学指引.2022.4.29."
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 2279,
+    "source": "用药参考",
+    "text": "。近期，IDSA发布了奈玛特韦片/利托那韦片药物相关作用管理指南，介绍了奈玛特韦片/利托那韦片与100种处方最多的药物之间的相互作用。表1  奈玛特韦片/利托那韦片避免使用的情况表2 已知与奈玛特韦片/利托那韦片具有相互作用的常用处方药物及建议表3 肾功能不全者的使用建议参考资料：1.IDSA. Management of drug interactions with nirmatrelvir/ritonavir(Paxlovid): Resource for Clinicians. https://www.idsociety.org/paxlovid.2.广东省药学会.新型冠状病毒肺炎抗病毒治疗临床药学指引.2022.4.29."
+  }
+]

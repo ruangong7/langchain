@@ -1,0 +1,1507 @@
+[
+  {
+    "type": "text",
+    "text": "关于 HBV 及其药物相互作用的反应扩散方程的参数识别",
+    "text_level": 1,
+    "bbox": [
+      173,
+      146,
+      826,
+      224
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "乔梅红，齐欢，龙长江",
+    "bbox": [
+      369,
+      252,
+      625,
+      273
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "(华中科技大学系统工程研究所, 湖北 武汉 430074)",
+    "bbox": [
+      230,
+      278,
+      764,
+      298
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘要:研究具有反应-扩散现象的 HBV 及其药物相互作用系统的参数识别问题,依该系统正问题解的性质,建立了参数识别问题的数学模型,论证了系统正问题解关于待识别参数的连续依赖性与参数识别问题最优解的存在性.",
+    "bbox": [
+      63,
+      325,
+      931,
+      394
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词: 反应扩散方程; Green 公式; Cauchy 不等式; 上解; 下解",
+    "bbox": [
+      63,
+      397,
+      712,
+      418
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号: O175.13 AMS(2000) 主题分类: 34C25",
+    "bbox": [
+      66,
+      421,
+      657,
+      440
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "文献标识码:A 文章编号:1001-9847(2010)01-0007-06",
+    "bbox": [
+      66,
+      443,
+      689,
+      464
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1. 引言",
+    "text_level": 2,
+    "bbox": [
+      18,
+      491,
+      105,
+      515
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "乙型肝炎是由乙肝病毒(Hapatitis B virus, HBV)引起的、以肝脏炎性病变为主并可引起多器官损害的一种传染病，是一种常见病，多发病，是目前危害人类身体健康的重要传染病之一，呈世界性分布，流行面广，乙肝的预防与治疗，是全球普遍关注的重要卫生问题[1]。国内外学者应用数学模型研究抗病毒药物作用下乙型肝炎病毒在人体内感染、复制、释放、清除的动力学过程，了解病毒的致病机理，指导临床医师制定治疗方案[2]。在数学研究中，一些复杂的系统往往是分布参数系统，即由偏微分或积分方程(组)所描述。要求得对现实有更为真实的反映，必须准确确定描述系统中各个变量密度变化规律的分布参数的系统性能参数。分布参数系统的参数识别问题作为一类无穷维空间上的最优化问题，在近十几年来，已越来越受到人们的重视，成为研究与认识复杂系统变化规律的有力工具[3-6]。Banks最早把参数识别理论与方法用于一维与二维种群生态系统的研究中，建立了相应的参数识别问题的逼近理论的一般框架以及相应的收敛性结论[7,8]。本文研究了一类具有反应-扩散现象的HBV及其药物相互作用系统的参数识别问题，依该系统正问题解的性质，建立了参数识别问题的数学模型，论证了系统正问题解关于待识别参数的连续依赖性与参数识别问题最优解的存在性。",
+    "bbox": [
+      13,
+      518,
+      981,
+      828
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2. 系统的描述及其基本结论",
+    "text_level": 2,
+    "bbox": [
+      15,
+      831,
+      353,
+      853
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "具有反应扩散现象的 HBV 及其药物相互作用系统可描述为:",
+    "bbox": [
+      63,
+      857,
+      696,
+      877
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "应用数学",
+    "bbox": [
+      15,
+      53,
+      171,
+      71
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "MATHEMATICA APPLICATA",
+    "bbox": [
+      18,
+      77,
+      310,
+      92
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "2010, 23(1):7-12",
+    "bbox": [
+      18,
+      98,
+      173,
+      116
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "\\* 收稿日期:2008-09-01",
+    "bbox": [
+      47,
+      910,
+      271,
+      926
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "基金项目: 国家自然科学基金资助项目(60774036), 湖北省自然科学基金重点项目(2008CDA063), 中国国家博士后基金(20070420909). https://www.cnki.net",
+    "bbox": [
+      43,
+      929,
+      977,
+      971
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "作者简介:乔梅红,女,汉,山西人,博士生,研究方向:系统分析与集成.",
+    "bbox": [
+      77,
+      971,
+      696,
+      988
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\left\\{ \\begin{array}{l} \\frac {\\partial u _ {1}}{\\partial t} = d _ {1} \\Delta u _ {1} + \\gamma_ {1} u _ {1} \\left(1 - \\frac {u _ {1}}{K}\\right) - \\gamma_ {2} u _ {1} u _ {2}, \\\\ \\frac {\\partial u _ {2}}{\\partial t} = d _ {2} \\Delta u _ {2} + \\gamma_ {3} u _ {1} - \\gamma_ {4} u _ {1} u _ {2}, \\quad (x, t) \\in Q, \\end{array} \\right. \\tag {1a}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      207,
+      44,
+      979,
+      134
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\nu _ {i} (x, t) = 0, i = 1, 2, (x, t) \\in \\Gamma , \\tag {1c}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      312,
+      137,
+      979,
+      159
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\nu _ {i} (x, 0) = u _ {i ^ {0}} (x), i = 1, 2, x \\in \\Omega , \\tag {1d}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      312,
+      162,
+      979,
+      183
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "其中， $u_{1}(x,t)$ ， $u_{2}(x,t)$ 分别表示人体肝脏内部的 HBV 和药物的密度， $T=[0,t_{f}]$ ， $Q=\\Omega\\times T$ ， $\\Gamma=\\partial\\Omega\\times T$ ， $\\Omega\\in R^{2}$ 为一有界光滑区域。 $\\partial\\Omega\\in\\mathrm{C}^{1+\\alpha}(0<\\alpha<1)$ ， $u_{i0}(x)\\geqslant0(i=1,2)$ ；参数 $d_{i}(i=1,2)$ ， $\\gamma_{j}(j=1,\\cdots,4)\\in\\mathrm{C}^{1}(\\Omega)$ 为与时间无关的正函数；系统 K 为已知正常数。 $d_{1},d_{2}$ 分别为 HBV 和药物的扩散系统， $\\gamma_{1}$ 为 HBV 的内禀增长率，K 是肝脏能容纳 HBV 的最大容纳量， $\\gamma_{2}$ 是药物抑制 HBV 增殖的比率， $\\gamma_{3}$ 是药物的投放率，它与检测的肝脏内的 HBV 量成正比， $\\gamma_{4}$ 是 HBV 对药物的消耗率。",
+    "bbox": [
+      15,
+      186,
+      984,
+      328
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "下面引入关于问题(1)的一些基本结论.",
+    "bbox": [
+      66,
+      333,
+      477,
+      352
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "引理2.1(比较原理）设 $u^{(1)}$ 和 $u^{(2)} \\in \\mathbf{C}^{2,1}(Q_T)$ 和 $\\overline{\\mathbf{Q}}_T$ 上连续，且是热传导方程 $u_t - \\Delta u = 0$ 在 $Q_T$ 上的解，若在 $\\Gamma_T$ 上有 $u^{(1)} \\leqslant u^{(2)} (u^{(1)} \\geqslant u^{(2)})$ ，则在 $\\overline{\\mathbf{Q}}_T$ 上也有 $u^{(1)} \\leqslant u^{(2)} (u^{(1)} \\geqslant u^{(2)})$ .",
+    "bbox": [
+      15,
+      355,
+      981,
+      402
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "对于问题(1)中给定的参数,基于抛物型方程的比较原理(引理2.1),可得问题(1)解的存在唯一性结论,设",
+    "bbox": [
+      15,
+      403,
+      981,
+      446
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\nf _ {1} \\left(u _ {1}, u _ {2}\\right) = \\gamma_ {1} u _ {1} \\left(1 - \\frac {u _ {1}}{K} - \\gamma_ {2} u _ {1} u _ {2}\\right), f _ {2} \\left(u _ {1}, u _ {2}\\right) = \\gamma_ {3} u _ {1} - \\gamma_ {4} u _ {1} u _ {2},\n$$",
+    "text_format": "latex",
+    "bbox": [
+      150,
+      445,
+      840,
+      491
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "当 $u_{i} \\geqslant 0 (i = 1,2)$ 时，有 $\\partial f_{1} / \\partial u_{2} = -\\gamma_{2}u_{1} \\leqslant 0, \\partial f_{2} / \\partial u_{1} = \\gamma_{3} - \\gamma_{4}u_{2}$ .",
+    "bbox": [
+      15,
+      493,
+      760,
+      515
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "因为药物过量会对肝脏产生很大副作用，所以我们仅考虑 $u_{2} \\leqslant \\gamma_{3} / \\gamma_{4}$ 时的情形，即 $\\partial f_{2} / \\partial u_{1} \\geqslant 0$ 。由抛物方程组下解的定义， $(0,0)$ 是问题(1)的一下解。构造(1)的一上解。",
+    "bbox": [
+      15,
+      518,
+      981,
+      565
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "考虑如下常微分方程组：",
+    "bbox": [
+      63,
+      566,
+      321,
+      585
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\left\\{ \\begin{array}{l} \\frac {\\mathrm{d} \\overline {{\\mathrm{u} _ {1}}}}{\\mathrm{d} t} = \\gamma_ {1} \\overline {{\\mathrm{u} _ {1}}} \\left(1 - \\frac {\\overline {{\\mathrm{u} _ {1}}}}{K}\\right), \\\\ \\frac {\\mathrm{d} \\overline {{\\mathrm{u} _ {2}}}}{\\mathrm{d} t} = \\gamma_ {3} \\overline {{\\mathrm{u} _ {1}}} - \\gamma_ {4} \\overline {{\\mathrm{u} _ {1}}} \\overline {{\\mathrm{u} _ {2}}}, \\end{array} \\right.\n$$",
+    "text_format": "latex",
+    "bbox": [
+      369,
+      582,
+      621,
+      669
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\bar {u} _ {i} (0) = \\hat {u} _ {i} = \\sup _ {x \\in \\Omega} u _ {i 0} (x) > 0, i = 1, 2.\n$$",
+    "text_format": "latex",
+    "bbox": [
+      278,
+      674,
+      714,
+      696
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "由 K 的生物意义, 知 $\\hat{u}_{1} \\leqslant K$ . 解上面方程组, 有",
+    "bbox": [
+      15,
+      699,
+      518,
+      718
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\bar {\\mathrm{u}} _ {1} (t) = \\left[ \\frac {1}{K} + \\left(\\frac {1}{\\hat {u} _ {1}} - \\frac {1}{K}\\right) \\mathrm{e} ^ {- \\gamma_ {1} t} \\right] ^ {- 1}, \\bar {\\mathrm{u}} _ {2} (t) = \\frac {\\gamma_ {3}}{\\gamma_ {4}} - \\left(\\frac {\\gamma_ {3}}{\\gamma_ {4}} - \\hat {u} _ {2}\\right) \\mathrm{e} ^ {- \\gamma_ {4} \\int_ {0} ^ {t} \\bar {\\mathrm{u}} _ {1} (s) \\mathrm{d} s}.\n$$",
+    "text_format": "latex",
+    "bbox": [
+      136,
+      717,
+      853,
+      763
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "显然 $(\\bar{\\mathbf{u}}_1(t),\\bar{\\mathbf{u}}_2(t))$ 是问题(1)的一上解.因此，有如下结论成立",
+    "bbox": [
+      15,
+      766,
+      678,
+      786
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "定理2.1 设 $u_{i0}(x) \\in \\mathrm{C}^2(\\Omega) \\cap \\mathrm{L}^\\infty(\\Omega)(i=1,2)$ 为非负函数， $(u_1(x,t), u_2(x,t))$ 为问题(1)的解，则 $u_i(x,t)(i=1,2)$ 是一致有界的，且",
+    "bbox": [
+      15,
+      790,
+      981,
+      835
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\nu _ {1} (x, t) \\leqslant \\max \\left\\{K, \\hat {u} _ {1} \\right\\} \\doteq K, \\| u _ {2} (x, t) \\| _ {L ^ {2} (\\Omega)} \\leqslant L, t \\in T,\n$$",
+    "text_format": "latex",
+    "bbox": [
+      189,
+      837,
+      803,
+      860
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "其中 L 的具体形式见下面证明推导.",
+    "bbox": [
+      15,
+      863,
+      394,
+      883
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "证 $u_{1}(x,t)\\leqslant \\max \\{K,\\hat{u}_{1}\\} \\doteq K$ 是显然的.",
+    "bbox": [
+      61,
+      886,
+      529,
+      907
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\frac {\\mathrm{d}}{\\mathrm{d} t} \\int_ {\\Omega} u _ {2} ^ {2} \\mathrm{d} x = \\int_ {\\Omega} 2 u _ {2} \\frac {\\partial u _ {2}}{\\partial t} \\mathrm{d} x = \\int_ {\\Omega} 2 u _ {2} d _ {2} \\Delta u _ {2} \\mathrm{d} x + \\int_ {\\Omega} 2 u _ {2} \\cdot \\gamma_ {3} u _ {1} \\mathrm{d} x - \\int_ {\\Omega} 2 u _ {2} \\cdot \\gamma_ {4} u _ {1} u _ {2} \\mathrm{d} x\n$$",
+    "text_format": "latex",
+    "bbox": [
+      79,
+      908,
+      913,
+      947
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "中国知网 $\\leqslant 2d_{2}\\int_{\\Omega} / /$ $(\\nabla u_{2})\\mathrm{d}x + 2\\int_{\\Omega}u_{1}(\\gamma_{3}u_{2} - \\gamma_{4}u_{2}^{2})\\mathrm{d}x$",
+    "bbox": [
+      43,
+      950,
+      659,
+      988
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "8",
+    "bbox": [
+      36,
+      14,
+      52,
+      29
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "应用数学",
+    "bbox": [
+      417,
+      14,
+      568,
+      31
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "2010",
+    "bbox": [
+      933,
+      14,
+      979,
+      29
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\leqslant - 2 d _ {2} \\int_ {\\Omega} (\\nabla u _ {2}) ^ {2} \\mathrm{d} x + 2 \\int_ {\\Omega} \\mathrm{K} \\left(\\gamma_ {3} u _ {2} - \\gamma_ {4} u _ {2} ^ {2}\\right) \\mathrm{d} x.\n$$",
+    "text_format": "latex",
+    "bbox": [
+      253,
+      52,
+      737,
+      88
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "因为 $\\int_{\\Omega} u^2 \\mathrm{d}x \\leqslant \\varepsilon \\int_{\\Omega} (\\nabla u^2)^2 \\mathrm{d}x + C \\varepsilon^{-m} \\left( \\int_{\\Omega} u^2 \\mathrm{d}x \\right)^2, 0 < \\varepsilon < 1.$ 这里 $m > 1, C = C(\\Omega, m)$ . 所以",
+    "bbox": [
+      15,
+      88,
+      974,
+      130
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\begin{array}{l} \\int_ {\\Omega} (\\nabla u _ {2}) ^ {2} \\mathrm{d} x \\geqslant \\frac {1}{\\varepsilon} \\int_ {\\Omega} u _ {2} ^ {2} \\mathrm{d} x - C \\varepsilon^ {- (m + 1)} \\left(\\int_ {\\Omega} u _ {2} \\mathrm{d} x\\right) ^ {2}, 0 <   \\varepsilon <   1, \\\\ - 2 d _ {2} \\int_ {\\Omega} (\\nabla u _ {2}) ^ {2} \\mathrm{d} x \\leqslant \\frac {- 2 d _ {2}}{\\varepsilon} \\int_ {\\Omega} u _ {2} ^ {2} \\mathrm{d} x + 2 d _ {2} C \\varepsilon^ {- (m + 1)} \\left(\\int_ {\\Omega} u _ {2} \\mathrm{d} x\\right) ^ {2}, 0 <   \\varepsilon <   1, \\\\ \\frac {\\mathrm{d}}{\\mathrm{d} t} \\int_ {\\Omega} u ^ {2} \\mathrm{d} x \\leqslant \\left(\\frac {- 2 d _ {2}}{\\varepsilon} - 2 \\gamma_ {4} \\mathrm{K}\\right) \\int_ {\\Omega} u ^ {2} \\mathrm{d} x + 2 \\gamma_ {3} \\mathrm{K} \\int_ {\\Omega} u ^ {2} \\mathrm{d} x + 2 d _ {2} C \\varepsilon^ {- (m + 1)} \\left(\\int_ {\\Omega} u ^ {2} \\mathrm{d} x\\right) ^ {2}. \\\\ \\end{array}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      95,
+      127,
+      894,
+      255
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "因为 $-2d_{2}/\\varepsilon-2\\gamma_{4}K<0$ ，所以 $\\int_{\\Omega}u_{2}^{2}dx\\leqslant C_{1}2^{m+1}\\parallel u_{2}\\parallel_{L(\\Omega)}^{2}+C_{2}<+\\infty$ 。又因为 $\\sup_{L\\geqslant0}\\parallel u_{2}\\parallel_{L(\\Omega)}\\leqslant\\gamma_{3}/\\gamma_{4}$ ，所以 $\\parallel u_{2}\\parallel_{L^{2}(\\Omega)}^{2}\\leqslant C_{1}2^{m+1}\\gamma_{3}^{2}/\\gamma_{4}^{2}+C_{2}$ ，即",
+    "bbox": [
+      15,
+      258,
+      979,
+      319
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\left\\| u ^ {2} \\right\\| _ {L ^ {2} (\\Omega)} \\leqslant \\left(\\mathrm{C} _ {1} 2 ^ {m + 1} \\frac {\\gamma_ {3} ^ {2}}{\\gamma_ {4} ^ {2}} + C _ {2}\\right) ^ {1 / 2} \\doteq \\mathrm{L}.\n$$",
+    "text_format": "latex",
+    "bbox": [
+      294,
+      322,
+      703,
+      360
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3. 参数识别问题",
+    "text_level": 2,
+    "bbox": [
+      15,
+      367,
+      216,
+      388
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "要使微分方程组(1)较真实地反映 HBV 和药物之间的相互作用规律,首先应较准确地确定系统(1)中的参数 $d_{i}(i=1,2),\\gamma_{j}(j=1,\\cdots,4)$ . 因此,将建立确定参数 $d_{i}(i=1,2),\\gamma_{j}(j=1,\\cdots,4)$ 中参数识别模型,引入如下假设:",
+    "bbox": [
+      15,
+      393,
+      981,
+      460
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "(H1) 设 $0 < d_{i} \\leqslant d_{i} \\leqslant \\overline{d}_{i}; 0 < \\gamma_{j} \\leqslant \\gamma_{j} \\leqslant \\overline{\\gamma}_{j} (i = 1, 2; j = 1, \\cdots, 4)$ 且它们均为正常数；",
+    "bbox": [
+      61,
+      461,
+      977,
+      485
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "$\\left(\\mathrm{H}_{2}\\right)\\|\\nabla d_{i}\\|_{L^{2}(\\Omega)}^{2}= \\left(\\frac{\\partial d_{i}}{\\partial x_{1}}\\right)^{2}+\\left(\\frac{\\partial d_{i}}{\\partial x_{2}}\\right)^{2}\\leqslant\\mathrm{D}_{i},D_{i}(i=1,2)$ 为正常数.",
+    "bbox": [
+      63,
+      482,
+      792,
+      527
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "记 $q = (d_1, d_2, \\gamma_1, \\gamma_2, \\gamma_3, \\gamma_4), d = (d_1, d_2), \\gamma = (\\gamma_1, \\gamma_2, \\gamma_3, \\gamma_4)$ ，定义函数空间 $M = [\\mathrm{C}^1(\\Omega) \\cap \\mathrm{C}(\\Omega)]^6$ ，其范数定义为",
+    "bbox": [
+      15,
+      530,
+      977,
+      575
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\| q \\| _ {M} ^ {2} = \\sum_ {i = 1} ^ {2} \\| d _ {i} (x) \\| _ {L ^ {2} (\\Omega)} ^ {2} + \\sum_ {j = 1} ^ {4} \\| \\gamma_ {j} (x) \\| _ {L ^ {2} (\\Omega)} ^ {2}. \\tag {2}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      239,
+      576,
+      977,
+      621
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "显然， $q$ 所在的函数空间 $M$ 为一Hilbert空间.",
+    "bbox": [
+      15,
+      623,
+      500,
+      642
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "定义 q 的容许参数集为 $M_{ad} = \\{ q \\in M \\mid \\|q\\|_{M}^{2} \\leqslant R, 0 < d_{i} \\leqslant d_{i} \\leqslant \\overline{d}_{i}; 0 < \\gamma_{j} \\leqslant \\gamma_{j} \\leqslant \\overline{\\gamma}_{j}, \\|\\nabla d_{i}\\|_{L^{2}(\\Omega)}^{2} \\leqslant D_{i}(i=1,2; j=1,\\cdots,4)\\}$ ，其中 $R, d_{i}, \\overline{d}_{i}, \\gamma_{j}, \\overline{\\gamma}_{j} (i=1,2; j=1,\\cdots,4)$ 均为正常数。易知 $M_{ad}$ 为函数空间 M 的一紧子集。",
+    "bbox": [
+      15,
+      644,
+      981,
+      715
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "定义 $H = [\\mathrm{L}^2 (\\Omega)]^3$ ，且 $\\| u\\| _H = (\\sum_{i = 1}^{2}\\int_{\\Omega}u_i^2\\mathrm{d}x)^{1 / 2},\\langle u,v\\rangle = \\sum_{i = 1}^{2}\\int_{\\Omega}u_iv_idx.$",
+    "bbox": [
+      61,
+      718,
+      885,
+      754
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "记 $u(x,t) = (u_{1}(x,t),u_{2}(x,t)),V = \\{u\\in \\mathbf{H}\\mid \\mathbf{u}\\mid_{\\partial \\Omega} = 0\\} ,v = L^{2}(T;V)$ .则系统(1)可写成如下形式",
+    "bbox": [
+      15,
+      757,
+      977,
+      802
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "equation",
+    "text": "$$\nu _ {t} = D \\Delta u + f (u), \\tag {3a}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      397,
+      805,
+      977,
+      828
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "equation",
+    "text": "$$\nu (x, 0) = u _ {0} (x), \\tag {3b}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      404,
+      831,
+      977,
+      852
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "其中",
+    "bbox": [
+      15,
+      855,
+      70,
+      874
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "equation",
+    "text": "$$\nD = \\operatorname{diag} \\left(d _ {1}, d _ {2}\\right), \\Delta u = \\left(\\Delta u _ {1}, \\Delta u _ {2}\\right) ^ {\\mathrm{T}}, u (x, 0) = \\left(u _ {1 0} (x), u _ {2 0} (x)\\right),\n$$",
+    "text_format": "latex",
+    "bbox": [
+      150,
+      877,
+      842,
+      899
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "equation",
+    "text": "$$\nf (u) = \\left(\\gamma_ {1} u _ {1} \\left(1 - \\frac {u _ {1}}{K}\\right) - \\gamma_ {2} u _ {1} u _ {2}, \\gamma_ {3} u _ {1} - \\gamma_ {4} u _ {1} u _ {2}\\right) ^ {\\mathrm{T}}.\n$$",
+    "text_format": "latex",
+    "bbox": [
+      237,
+      896,
+      755,
+      941
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "类似定理 2.1 $^{[6]}$ 的推理证明, 可以推出: 对于任意给定的参数 $q \\in M_{ad}$ ，系统(3)存在唯一解 $u(x,t)$ . 记(3)相对于参数 $q \\in M_{ad}$ 的解为 $u(x,t;q)$ 或者 $u(q)$ ，则 $u(x,t;q)$ 满足如下的正",
+    "bbox": [
+      15,
+      944,
+      981,
+      989
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "第1期",
+    "bbox": [
+      18,
+      14,
+      84,
+      31
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "乔梅红等:关于 HBV 及其药物相互作用的反应扩散方程的参数识别",
+    "bbox": [
+      182,
+      14,
+      787,
+      31
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "9",
+    "bbox": [
+      942,
+      14,
+      958,
+      28
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "则性条件 $^{[9]}$",
+    "bbox": [
+      15,
+      53,
+      139,
+      73
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "equation",
+    "text": "$$\nu (x, t; q) \\in_ {\\mathrm{v}} \\cap \\mathrm{H} ^ {1} (T; H) \\cap \\mathrm{C} (\\mathrm{T}; \\mathrm{H}). \\tag {4}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      283,
+      74,
+      977,
+      98
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "设 $u^{k}(x)=(u_{1}^{k}(x),u_{2}^{k}(x))\\in\\mathrm{H}$ 为对应于问题的解在 $t_{k}\\in\\mathrm{T}(i=1,2,\\cdots,m)$ 时刻的观测值.这样，可建立如下的关于系统(3)的参数识别模型(MP)",
+    "bbox": [
+      15,
+      100,
+      979,
+      143
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\min J (u (q)) = \\frac {1}{2} \\sum_ {k = 1} ^ {m} \\| u (x, t _ {k}; q) - u ^ {k} (x) \\| _ {L ^ {2} (\\Omega)} ^ {2},\n$$",
+    "text_format": "latex",
+    "bbox": [
+      230,
+      149,
+      757,
+      188
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "使得 $q \\in M_{ad}$ , $u(q)$ 为对应于 $q \\in M_{ad}$ 的问题(3)的解.",
+    "bbox": [
+      15,
+      191,
+      584,
+      212
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "定义 3.1 若存在 $q^{*} \\in M_{ad}$ ，使得任意 $q \\in M_{ad}$ ，有",
+    "bbox": [
+      61,
+      213,
+      602,
+      234
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "equation",
+    "text": "$$\nJ (u (q ^ {*})) \\leqslant J (u (q)), \\tag {5}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      378,
+      237,
+      977,
+      258
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "$u(q^{*}), u(q)$ 分别为对应于 $q^{*}, q \\in M_{ad}$ 的问题(3)的解，则称 $q^{*}$ 为问题(MP)的最优解.",
+    "bbox": [
+      15,
+      261,
+      922,
+      282
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "定理 3.1 若 $q \\in M_{ad}$ , $u(q)$ 为对应于 $q \\in M_{ad}$ 的问题(3)的解, 则映射 $u(q) \\to J(u(q))$ 在 V 上连续.",
+    "bbox": [
+      15,
+      284,
+      977,
+      325
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "证 由多元函数及范数 $\\| \\cdot \\|_{L^2 (\\Omega)}$ 的定义, 结论显然成立.",
+    "bbox": [
+      61,
+      330,
+      668,
+      351
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "4. 最优解的存在性",
+    "text_level": 2,
+    "bbox": [
+      15,
+      354,
+      244,
+      375
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "首先证明 $u(x,t;q)$ 关于参数 $q \\in M_{ad}$ 的连续依赖性.",
+    "bbox": [
+      63,
+      379,
+      616,
+      399
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "引理 4.1 若 $q \\in M_{ad}$ ，则存在常数 $\\omega > 0$ ，使得任意 $\\varphi \\in V$ ，有",
+    "bbox": [
+      63,
+      402,
+      714,
+      421
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\langle D \\Delta \\varphi , \\varphi \\rangle \\leqslant \\omega \\| \\varphi \\| _ {L ^ {2} (\\Omega)} ^ {2}, \\tag {6}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      358,
+      424,
+      977,
+      446
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "其中 $\\varphi=(\\varphi_{1},\\varphi_{2}),\\Delta\\varphi=(\\Delta\\varphi_{1},\\Delta\\varphi_{2})^{\\mathrm{T}}$",
+    "bbox": [
+      15,
+      448,
+      415,
+      467
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "证 对于任意的 $q \\in M_{ad}, \\varphi \\in V$ ，由 Green 公式与 Cauchy 不等式，有",
+    "bbox": [
+      61,
+      472,
+      787,
+      491
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\begin{array}{l} \\langle D \\Delta \\varphi , \\varphi \\rangle = \\int_ {\\Omega} \\left(d _ {1} \\varphi_ {1} \\Delta \\varphi_ {1} + d _ {2} \\varphi_ {2} \\Delta \\varphi_ {2}\\right) d x = - \\sum_ {i = 1} ^ {2} \\int_ {\\Omega} \\nabla \\left(d _ {i} \\varphi_ {i}\\right) \\cdot \\nabla \\varphi_ {i} d x \\\\ = - \\sum_ {i = 1} ^ {2} \\int_ {\\Omega} (\\varphi_ {i} \\nabla d _ {i} \\nabla \\varphi_ {i} + d _ {i} \\nabla^ {2} \\varphi_ {i}) \\mathrm{d} x \\\\ \\leqslant - \\sum_ {i = 1} ^ {2} \\| d _ {i} ^ {1 / 2} \\nabla \\varphi_ {i} \\| _ {L ^ {2} (\\Omega)} ^ {2} + \\frac {1}{2} \\sum_ {i = 1} ^ {2} \\| d _ {i} ^ {1 / 2} \\nabla \\varphi_ {i} \\| _ {L ^ {2} (\\Omega)} ^ {2} + \\frac {1}{2} \\sum_ {i = 1} ^ {2} \\| d _ {i} ^ {- 1 / 2} \\varphi_ {i} \\nabla d _ {i} \\| _ {L ^ {2} (\\Omega)} ^ {2} \\\\ \\leqslant \\frac {1}{2} \\sum_ {i = 1} ^ {2} \\| d _ {i} ^ {- 1 / 2} \\varphi_ {i} \\nabla d _ {i} \\| _ {L ^ {2} (\\Omega)} ^ {2}. \\\\ \\end{array}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      38,
+      494,
+      949,
+      677
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "取 $\\omega = \\max \\left\\{\\frac{\\|\\nabla d_i\\|_{L^2(\\Omega)}^{2}}{2d_i} \\mid i = 1,2\\right\\}$ , 从而, 有",
+    "bbox": [
+      15,
+      675,
+      509,
+      721
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\langle D \\Delta \\varphi , \\varphi \\rangle \\leqslant \\omega \\sum_ {i = 1} ^ {2} \\| \\varphi_ {i} \\| _ {L ^ {2} (\\Omega)} ^ {2} \\leqslant \\omega \\| \\varphi \\| _ {H}.\n$$",
+    "text_format": "latex",
+    "bbox": [
+      273,
+      723,
+      710,
+      763
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "由上述引理可得问题(3)的解 $u(x,t;q)$ 关于识别参数 $q \\in M_{ad}$ 的连续依赖性结果.",
+    "bbox": [
+      63,
+      766,
+      915,
+      787
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "定理 4.1 若条件 $(\\mathrm{H}_{1}),(\\mathrm{H}_{2})$ 成立， $u(x,t;q)$ 是问题(3)对应于 $q\\in M_{ad}$ 的解，则由(3)确定的映射 $q\\rightarrow u(x,t;q)$ 在 $M_{ad}$ 上是连续的.",
+    "bbox": [
+      15,
+      790,
+      977,
+      832
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "证 设 $\\bar{q}, q \\in M_{\\alpha d}, \\bar{u}, u$ 分别为对应问题(3)的解，记 $\\delta_{q} = \\bar{q} - q, \\delta_{u} = \\bar{u} - u$ ，则 $\\delta_{u}$ 满足",
+    "bbox": [
+      61,
+      835,
+      958,
+      857
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "equation",
+    "text": "$$\n(\\delta u) _ {t} = \\mathrm{D} \\Delta \\delta u + (\\delta D) \\Delta u + f (\\bar {\\mathrm{u}}, \\bar {\\gamma}) - \\mathrm{f} (\\mathrm{u}, \\gamma), \\tag {7a}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      253,
+      859,
+      977,
+      880
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\delta_ {u} (x, 0) = 0, \\tag {7b}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      424,
+      883,
+      977,
+      902
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "其中 $\\mathrm{D} = \\mathrm{diag}(\\mathrm{d}_1,\\mathrm{d}_2),\\delta D = \\mathrm{diag}(\\delta d_1,\\delta d_2)$ .在(7a)两边同乘以 $\\delta u$ ，并在 $\\Omega$ 上积分，得",
+    "bbox": [
+      15,
+      905,
+      913,
+      926
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\langle (\\delta u) _ {t}, \\delta u \\rangle = \\langle \\overline {{{D}}} \\Delta \\delta u + (\\delta D) \\Delta u, \\delta u \\rangle + \\langle f (\\bar {u}, \\bar {\\gamma}) - f (u, \\gamma), \\delta u \\rangle , \\tag {8}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      159,
+      928,
+      977,
+      950
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\frac {1}{2} \\frac {\\partial}{\\partial t} \\| \\delta u \\| _ {L ^ {(\\Omega)}} = \\langle \\mathbf {D} \\Delta \\delta u, \\delta u \\rangle + \\langle (\\delta D) \\Delta u, \\delta u \\rangle + \\langle f (\\bar {u}, \\bar {\\gamma}) - f (u, \\gamma), \\delta u \\rangle . \\tag {9}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      41,
+      952,
+      977,
+      986
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "10",
+    "bbox": [
+      36,
+      13,
+      63,
+      28
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "应用数学",
+    "bbox": [
+      417,
+      14,
+      566,
+      31
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "2010",
+    "bbox": [
+      933,
+      14,
+      979,
+      28
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "由基本不等式 $ab \\leqslant a^{2}/(2\\eta) + \\eta b^{2}/2, \\eta$ 为任意正数，则有",
+    "bbox": [
+      15,
+      53,
+      607,
+      74
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\langle (\\delta D) \\Delta u, \\delta u \\rangle = \\sum_ {i = 1} ^ {2} \\int_ {\\Omega} \\left(\\delta d _ {i} \\Delta u _ {i} \\delta u _ {i}\\right) d x \\leqslant \\frac {1}{2} \\eta \\sum_ {i = 1} ^ {2} \\int_ {\\Omega} \\left(\\delta d _ {i} \\Delta u _ {i}\\right) ^ {2} d x + \\frac {\\eta}{2} \\sum_ {i = 1} ^ {2} \\int_ {\\Omega} \\left(\\delta u _ {i}\\right) ^ {2} d x, \\tag {10}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      66,
+      77,
+      977,
+      118
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "$u \\in \\mathrm{L}^2(T; H^2(\\Omega) \\cap \\mathrm{H}_0^1(\\Omega))$ . 设 $\\mathbb{N} = \\max \\{(\\Delta u_i)^2 \\mid i = 1, 2\\}$ , 则",
+    "bbox": [
+      15,
+      121,
+      712,
+      144
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\langle (\\delta D) \\Delta_ {u}, \\delta_ {u} \\rangle \\leqslant \\frac {\\mathrm{N}}{2 \\eta} \\| \\delta d \\| _ {L ^ {2} (\\Omega)} ^ {2} + \\frac {\\eta}{2} \\| \\delta_ {u} \\| _ {H} ^ {2}. \\tag {11}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      255,
+      147,
+      977,
+      180
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "取 $\\eta = N$ , 有",
+    "bbox": [
+      15,
+      186,
+      157,
+      204
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\langle (\\delta D) \\Delta_ {u}, \\delta_ {u} \\rangle \\leqslant \\frac {1}{2} \\| \\delta d \\| _ {L ^ {2} (\\Omega)} ^ {2} + \\frac {\\mathbf {N}}{2} \\| \\delta_ {u} \\| _ {H} ^ {2}. \\tag {12}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      255,
+      210,
+      977,
+      243
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "而函数 $f_{i}(u,\\gamma)$ 关于 $u_{i},\\gamma_{j}(i=1,2;j=1,\\cdots,4)$ 二阶连续可微且由 $u_{i}$ 的有界性及 $\\gamma_{j}$ 的取值范围知， $f_{i}=f_{i}(u,\\gamma)(i=1,2)$ 的定义域为一有界闭凸集，从而存在常数 $\\lambda_{i}>0(i=1,2)$ 使得",
+    "bbox": [
+      15,
+      251,
+      979,
+      294
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\mid f _ {i} (\\bar {\\mathrm{u}}, \\bar {\\gamma}) - \\mathrm{f} _ {i} (u, \\gamma) \\mid \\leqslant \\lambda_ {i} \\left(\\sum_ {i = 1} ^ {2} \\mid \\delta u _ {i} \\mid + \\sum_ {j = 1} ^ {4} \\mid \\delta \\gamma_ {j} \\mid\\right), \\tag {13}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      216,
+      295,
+      977,
+      340
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "显然可取到 $\\mu$ 从而有",
+    "bbox": [
+      18,
+      340,
+      239,
+      360
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\left\\| f (\\bar {\\mathbf {u}}, \\bar {\\gamma}) - \\mathrm{f} (\\mathbf {u}, \\gamma) \\right\\| _ {L ^ {2} (\\Omega)} ^ {2} \\leqslant \\mu \\left(\\sum_ {i = 1} ^ {2} \\left\\| \\delta_ {\\boldsymbol {u} _ {i}} \\right\\| _ {L ^ {2} (\\Omega)} ^ {2} + \\sum_ {j = 1} ^ {4} \\left\\| \\delta \\gamma_ {j} \\right\\| _ {L ^ {2} (\\Omega)} ^ {2}\\right). \\tag {14}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      150,
+      363,
+      977,
+      406
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "由(12)和(14)式，",
+    "bbox": [
+      18,
+      406,
+      200,
+      426
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\langle f (\\bar {u}, \\bar {\\gamma}) - f (u, \\gamma), \\delta u \\rangle = \\frac {1 + \\mu}{2} \\| \\delta u \\| _ {H} ^ {2} + \\sum_ {j = 1} ^ {4} \\| \\delta \\gamma_ {j} \\| _ {L ^ {2} (\\Omega)} ^ {2}. \\tag {15}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      180,
+      430,
+      977,
+      473
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "又由引理 4.1, 并取 $\\theta = 2\\omega + L + \\mu + 1$ , 得",
+    "bbox": [
+      15,
+      475,
+      465,
+      494
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\frac {\\partial}{\\partial t} \\left\\| \\delta_ {u} \\right\\| _ {H} ^ {2} \\leqslant \\theta \\left\\| \\delta_ {u} \\right\\| _ {H} ^ {2} + \\left\\| \\delta_ {q} \\right\\| _ {L ^ {2}} ^ {2}.\n$$",
+    "text_format": "latex",
+    "bbox": [
+      305,
+      497,
+      684,
+      533
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "由 Gronwall 不等式, 取 $\\theta = t_{f}^{-1} \\exp(\\theta t_{f})$ , 得",
+    "bbox": [
+      15,
+      539,
+      472,
+      559
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "equation",
+    "text": "$$\n\\left\\| \\delta_ {u} \\right\\| _ {H} ^ {2} \\leqslant \\theta \\| \\delta_ {q} \\| _ {L ^ {2}} ^ {2}. \\tag {16}\n$$",
+    "text_format": "latex",
+    "bbox": [
+      383,
+      560,
+      977,
+      584
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "由(16)式知,命题成立.经上面的讨论,可得到参数识别问题(MP)最优解的存在性结论.",
+    "bbox": [
+      15,
+      587,
+      917,
+      606
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "定理 4.2 若条件 $(\\mathrm{H}_{1}),(\\mathrm{H}_{2})$ 成立， $u(x,t;q)$ 是问题(3)对应于 $q\\in M_{ad}$ 的解，则参数识别问题(MP)存在最优解 $q^{*}\\in M_{ad}$ .",
+    "bbox": [
+      15,
+      609,
+      981,
+      654
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "证 由定理3.1知，目标泛函 $J(u(q)) = (\\sum_{k=1}^{m} \\| u(x, t_k; q) - u^k(x) \\|_H) / 2$ 关于 $u(q)$ 在 $V$ 上是连续的；又由定理4.1知， $q \\to u(x, t; q)$ 在 $M_{\\alpha d}$ 上是连续的，从而，目标泛函 $J(q) = J(u(q))$ 在 $M_{\\alpha d}$ 上是连续的，而 $M_{\\alpha d}$ 是 $M$ 上的紧子集，故存在 $q^* \\in M_{\\alpha d}$ 使得对于任意的 $q \\in M_{\\alpha d}$ 有 $J(q^*) \\leqslant J(q)$ .",
+    "bbox": [
+      15,
+      657,
+      979,
+      756
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "5. 结论",
+    "text_level": 2,
+    "bbox": [
+      15,
+      760,
+      105,
+      780
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "本文研究了一类具有反应-扩散现象的 HBV 及其药物相互作用系统(1)的正问题解关于待识别参数的连续依赖性与参数识别问题最优解的存在性,说明系统(1)中的参数满足条件 $\\left(\\mathrm{H}_{1}\\right),\\left(\\mathrm{H}_{2}\\right)$ 时,HBV 将可能持续在人体肝脏内存在.为了使得肝脏内部的 HBV 数量减少或消失,采用系统(1)的治疗策略是不够的,采取 HBV 的预防接种,改变药物的输入量等手段可能得考虑进来.",
+    "bbox": [
+      13,
+      784,
+      981,
+      899
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "参考文献：",
+    "text_level": 2,
+    "bbox": [
+      15,
+      925,
+      143,
+      947
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1] Maddrey W C Hepatitis B: an important public health issue [J]. Medical Virology, 2000, 61: 362-366.",
+      "[2] Lau G K et al. Combination therapy with lamivudine and famciclovir for chronic hepatitis B-infected Chi-",
+      "nese patients: aviral dynamics study[J]. Hepatology, 2003, 32(2): 394-399.",
+      "[3] Qian H, Murray J D. A simple method of parameter space determination for diffusion-driven instability with three species[J]. Appl. Math. Letter, 2001, 14: 405-411.",
+      "[4] Banks H T, Kareivay P, Vurph K A. Parameter estimation techniques for interaction and redistribution models: a predator-prey example[J]. Math. Biosci., 1987, 84: 356-362.",
+      "[5] Rai B, Freedman H I, Addicott J F. Analysis of three species model of mutualism in predator-prey and competitive systems[J]. Math. Biosci., 1983, 65: 13-50.",
+      "[6] 李春发, 冯恩民, 胡建国. 三维种群生态动力系统的参数识别 [J]. 应用数学学报, 2004, 27(1): 64-71.",
+      "[7] Banks H T, Murray J D. Estimation of nonlinearities in parabolic models for growth, predation and dispersal of populations[J]. J. Math. Anal. Appl., 1989, 141: 580-602.",
+      "[8] Ahmed N U·Optimization and Identification of Systems Governed by Evolution Equations on Banach Space[M]. New York: John Wiley and Sone·Inc., 1989.",
+      "[9] Smoller J. Shock Waves and Reaction-diffusion Equations[M]. New York: Springer-Verlag, 1983.",
+      "[10] 鲍旭丽, 段钟平. 乙型肝炎病毒动力学研究进展 [J]. 国外医学病毒学分册, 2004, 11(2): 36-40.",
+      "[11] Nowak M A, Robert M M. Virus Dynamics, Mathematical Principles of Immunology and Virology [M]. New York: Oxford University Press, 2000.",
+      "[12] Wanga Kaifa, Wang Wendi, Song Shiping. Dynamics of an HBV model with diffusion and delay [J]. Journal of Theoretical Biology, 2008, 253(1): 36-44.",
+      "[13] Guo Lin, Li Wantong. Bistable wavefronts in a diffusive and competitive Lotka-Volterra type system with nonlocal delays[J]. J. Differential Equations, 2008, 244: 487-513.",
+      "[14] Andrei Korobeinikov·Global properties of basic virus dynamics models[J]·Bulletin of Mathematical Biology, 2004, 66: 879-883.",
+      "[15] Nowak M A, Bonhoeffer S, Hill A M, Boehme R, Thomas H C, Mcdade H. Viral dynamics in hepatitis B virus infection[J]. J. Proceedings of the National Academy of Sciences, 1996, 93: 4398-4402.",
+      "[16] 陈兰荪等. 数学生态学模型与研究方法 [M]. 北京: 科学出版社, 1988.",
+      "[17] Pao C V. On nonlinear reaction-diffusion system [J]. J. Math. Anal. Appl., 1982, 87: 165-198."
+    ],
+    "bbox": [
+      18,
+      950,
+      977,
+      989
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "第1期",
+    "bbox": [
+      18,
+      14,
+      84,
+      31
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "乔梅红等:关于 HBV 及其药物相互作用的反应扩散方程的参数识别",
+    "bbox": [
+      182,
+      14,
+      787,
+      31
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "11",
+    "bbox": [
+      933,
+      14,
+      958,
+      29
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      15,
+      50,
+      981,
+      600
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "Parameter Identification of Reaction-diffusion Equation of Interaction System of HBV and Medicine",
+    "text_level": 1,
+    "bbox": [
+      116,
+      627,
+      881,
+      681
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "QIAO Mei-hong, QI Huan, LONG Chang-jiang",
+    "bbox": [
+      246,
+      713,
+      748,
+      733
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "(Institute of Systems Engineering, Huazhong University of Science and Technology, Wuhan 430074, China)",
+    "bbox": [
+      15,
+      736,
+      979,
+      778
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "Abstract: Parameter identification problem of interaction system of HBV and medicine with reaction-diffusion phenomenon is investigated in this paper. The mathematical model of this problem is constructed and the continuous dependence of the solution to the direct problem on the parameters identified is obtained on the basis of investigation of the direct problem. Meanwhile, a result on the existence of optimal solution of the parameter identification problem is given.",
+    "bbox": [
+      13,
+      805,
+      979,
+      944
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "Key words: Reaction-diffusion equation; Green formula; Cauchy inequality; Upper solution; Lower solution",
+    "bbox": [
+      15,
+      947,
+      979,
+      989
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "12",
+    "bbox": [
+      36,
+      13,
+      63,
+      28
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "应用数学",
+    "bbox": [
+      417,
+      14,
+      568,
+      31
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "2010",
+    "bbox": [
+      933,
+      14,
+      979,
+      28
+    ],
+    "page_idx": 5
+  }
+]

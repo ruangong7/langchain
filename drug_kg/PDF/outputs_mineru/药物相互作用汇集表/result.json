@@ -1,0 +1,568 @@
+[
+  {
+    "type": "text",
+    "text": "药物相互作用汇集表",
+    "text_level": 2,
+    "bbox": [
+      342,
+      141,
+      815,
+      167
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "编者按：上海市医学科学情报站译编的《药物相互作用汇集表》列举了一些药物（有些国内临床已常用）合并应用时可能产生的一些药理学相互作用，可供广大医药卫生人员了解药性和掌握合理用药时的参考，现分节连续在本栏转登，请读者注意。",
+    "bbox": [
+      104,
+      207,
+      919,
+      287
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "原编者按：本表列举了一些药物合并应用时可能产生的一些药理学相互作用 (Interaction)。这些作用有的是以动物试验为依据，有的则是对有限的临床病例观察的结果。文内所载的药物有些是国内临床常用者，有的虽不常用，但可供借鉴。这些资料，对医药工作者了解药物的性能、合并用药时可能产生的药理作用以及在临床工作中掌握合理用药等方面均有一定的参考意义。",
+    "bbox": [
+      100,
+      297,
+      921,
+      435
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "为了便于读者了解本表所载内容，避免由于译名繁琐和不当造成的误解，现将药品的英文原名及别名附于首次出现的译名之后，并将表内常用的药理学术语注释于下。由于水平有限，文内错误之处，希读者批评指正。",
+    "bbox": [
+      102,
+      446,
+      921,
+      525
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "协同 (Synergism): 是指相加性协同, 与相加 (Summation) 或加和 (Additive) 都是指二种药物合用时, 其作用等于每种药物单独作用的总和或大于其总和;",
+    "bbox": [
+      59,
+      535,
+      960,
+      581
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "增加 (Increase): 一般是指二种药物合用时, 其中一药的作用强度或作用持续时间得到增加;",
+    "bbox": [
+      131,
+      591,
+      885,
+      608
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "增强 (Enhance): 亦可译为提高,一般是指药物合用时,其中一药的特性或作用的效能量有所增强或提高;",
+    "bbox": [
+      59,
+      618,
+      960,
+      661
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "强化 (Potentiate): 亦可译为增强或增强性协同, 是指二种药物合用时, 其作用大于其单独作用相加的总和;",
+    "bbox": [
+      59,
+      674,
+      960,
+      719
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "拮抗 (Antagonism): 是指二种药物合用时, 其中一药物的作用比其单独应用时为小;",
+    "bbox": [
+      133,
+      730,
+      821,
+      747
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "减弱 (Decrease): 一般是指二种药物合用时, 其中一药的作用强度或作用持续时间的减弱。",
+    "bbox": [
+      133,
+      757,
+      870,
+      776
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "国外医药",
+    "bbox": [
+      86,
+      116,
+      182,
+      134
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "药",
+    "bbox": [
+      162,
+      101,
+      256,
+      144
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "参政资料",
+    "bbox": [
+      75,
+      144,
+      266,
+      186
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "44",
+    "bbox": [
+      98,
+      936,
+      119,
+      949
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "中国知网 https://www.cnki.net",
+    "bbox": [
+      36,
+      954,
+      390,
+      974
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "table",
+    "img_path": "images/baf737d4b6209f814c33d6332a6bef865f41323ae5ce3ccb650a2dd7a9cbc183.jpg",
+    "table_caption": [
+      "镇 痛 药"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药名</td><td>同服药名</td><td>可能产生的相互作用</td></tr><tr><td>扑热息痛(Acetaminophen, Tylenol)</td><td>口服抗凝药</td><td>曾报导,可增强抗凝药的作用</td></tr><tr><td>亚胺芪(Carbamazepine, Tegretol, Iminostilbene)</td><td>单胺氧化酶抑制剂(MAOI)</td><td>由于亚胺芪的结构与三环抗抑郁药类似,故不能同服或在MAOI停药至少一周后给药</td></tr><tr><td rowspan=\"3\">秋水仙碱(Colchicine)</td><td>中枢神经抑制药</td><td>动物试验表明,秋水仙碱可因抑制药而增敏</td></tr><tr><td>拟交感神经兴奋药</td><td>动物试验表明,作用可因拟交感神经药而增强</td></tr><tr><td>维生素 $B_{12}$ </td><td>秋水仙碱可干扰 $B_{12}$ 在胃肠道的吸收,但尚未有由于两药同服而引起 $B_{12}$ 缺少的证据</td></tr><tr><td>安乃近(Dipyrone, Narone, Pyrilgin)</td><td>氯丙嗪(Chlorpromazine, Thorzine)</td><td>不宜同时服用,因退热作用的增强可能导致严重的体温降低</td></tr><tr><td rowspan=\"2\">消炎痛(Indomethacin, Indacin)</td><td>口服抗凝药</td><td>抗凝作用可因蛋白结合部位被置换而增强</td></tr><tr><td>羧苯磺胺(丙磺舒, Probenecid, Benemid)</td><td>羧苯磺胺可干扰消炎痛的肾排泄;但羧苯磺胺的利尿酸尿的作用不受影响</td></tr><tr><td rowspan=\"3\">甲氧异丁嗪(Methotrimeprazine, Levoprome)(并参见安定药项下的吩噻嗪类)</td><td>镇痛药(水杨酸盐类,麻醉药)</td><td>可起加和作用,同服时应减少一种或二种药物的剂量</td></tr><tr><td>降压药单胺氧化酶抑制剂</td><td>禁忌与甲氧异丁嗪同服</td></tr><tr><td>司可林(琥珀胆碱,Succinylcholine, Anectine)</td><td>血压下降,并可增加药物的中枢神经系统作用</td></tr><tr><td rowspan=\"4\">麻醉性镇痛药</td><td>口服抗凝药</td><td>长期服用麻醉药可增强抗凝作用</td></tr><tr><td>丙烯左吗烷 (Levalor-phan,Lorfan); 丙烯吗啡(Nalorphine, Nalline)</td><td>可逆转麻醉性镇痛药的呼吸抑制作用,但不能逆转镇静药、安眠药、麻醉药等的呼吸抑制作用</td></tr><tr><td>单胺氧化酶抑制剂</td><td>增强麻醉作用,同服时应减少剂量</td></tr><tr><td>呼吸抑制药(麻醉药,巴比妥类,吩噻嗪类,镇静药,安眠药)</td><td>增强呼吸抑制作用,宜减少麻醉药的剂量</td></tr><tr><td>羟基保泰松(Oxyphenbutazone, Tandearil)</td><td>口服抗凝药</td><td>抗凝药物的效应可因蛋白结合部位被置换而增加</td></tr><tr><td rowspan=\"8\">保泰松(Phenylbutazone, Butazolidin)</td><td>强力化学治疗剂(Potent Chemotherapy)</td><td>毒性可能增加</td></tr><tr><td>氯喹(Chloroquine, Ara- len);羟基氯喹(Hydroxychloroquine, Plaquenil)</td><td>保泰松及其他已知的、易引起药敏和皮炎的药物不应与氯喹和羟基氯喹同时服用</td></tr><tr><td>苯妥英钠(Diphenylhy-dantoin Dilantin)</td><td>曾报导,苯妥英钠可因其代谢作用被保泰松所抑制而增强</td></tr><tr><td>降血糖药[胰岛素(Iusulin),磺酰脲类(Sulfony-ureas)]</td><td>降血糖作用增强;曾报导,保泰松可干扰乙酰己酰胺(Acetohexamide)有效代谢物的排泄;参与蛋白结合部位的置换作用</td></tr><tr><td>甲基雄烯醇酮(Methan-drostenolone, Dianabol)</td><td>已证实,甲基雄烯醇酮能提高羟基保泰松的血浆浓度</td></tr><tr><td>水杨酸盐类(Salicyla-tes)</td><td>在治疗关节炎时,同时服二药有引起胃肠道溃疡的危险</td></tr><tr><td>磺胺类(Sulfonamides)</td><td>磺胺的活性增强</td></tr><tr><td>三环抗抑郁药(Tricyclic antidepressants)</td><td>小白鼠试验表明,丙咪嗪或去甲丙咪嗪均可抑制保泰松在肠道的吸收</td></tr><tr><td>Phenyramidol(Analexin)</td><td>口服抗凝药:苯妥英钠;磺酰脲</td><td>Phenyramidol 可因代谢受抑制而作用增强</td></tr><tr><td rowspan=\"2\">丙氧芬(达丰)(Propoxyphene, Darvon)</td><td>苏醒药(如苯丙胺,咖啡因和苯甲酸钠)</td><td>丙氧芬的剂量不宜过多,否则可引起抽搐</td></tr><tr><td>Orphenadrine(Dispal, Norflex)</td><td>曾报导,同时给药可出现精神错乱、焦虑和震颤等症状</td></tr><tr><td rowspan=\"7\">水杨酸盐</td><td>尿道碱化剂</td><td>由于能加速水杨酸盐的排泄率而使其作用减弱</td></tr><tr><td>对氨基水杨酸(Amino-salicylic acid, PAS)</td><td>发生水杨酸盐类毒性反应的危险性有可能增加</td></tr><tr><td>抗凝药</td><td>剂量超过1克/天时,抗凝作用增强</td></tr><tr><td>皮质激素类(Corticosteroids)</td><td>合并用于治疗关节炎患者时应审慎,以免增加发生胃肠道溃疡的危险</td></tr><tr><td>苯妥英钠</td><td>曾报导,大剂量阿司匹林能增强苯妥英钠的作用</td></tr><tr><td>甲氨喋呤(Methotrexate)</td><td>因能在白蛋白结合部位置换出甲氨喋呤而使其毒性增加</td></tr><tr><td>苯巴比妥(Phenobarbital)</td><td>水杨酸盐的药效可因酶促作用而减弱</td></tr><tr><td rowspan=\"3\">水杨酸盐</td><td>保泰松</td><td>合并用药治疗关节炎患者时有增加胃肠道发生溃疡的危险</td></tr><tr><td>羧苯磺胺(丙磺舒);磺胺吡唑二酮(Sulfinpyrazone, Anturane)</td><td>水杨酸盐拮抗这些药物的利尿酸尿(Uricosuriceffect)作用</td></tr><tr><td>磺酰脲</td><td>部分原因可能由于磺酰脲的蛋白结合部位被置换而使降血糖效应增强</td></tr></table>",
+    "bbox": [
+      71,
+      128,
+      932,
+      929
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "中国知网 https://www.cnki.net",
+    "bbox": [
+      36,
+      954,
+      390,
+      974
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "45",
+    "bbox": [
+      882,
+      944,
+      901,
+      955
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "",
+    "table_caption": [],
+    "table_footnote": [],
+    "bbox": [
+      61,
+      87,
+      926,
+      935
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "46",
+    "bbox": [
+      82,
+      949,
+      102,
+      959
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "中国知网 https://www.cnki.net",
+    "bbox": [
+      39,
+      955,
+      390,
+      974
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "",
+    "table_caption": [],
+    "table_footnote": [],
+    "bbox": [
+      57,
+      88,
+      917,
+      296
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/714453db5e796a1af62fbb02f4dd54b7e56598f45bace9758434375e4f044e35.jpg",
+    "table_caption": [
+      "麻醉药"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药名</td><td>同服药名</td><td>可能产生的相互作用</td></tr><tr><td rowspan=\"2\">全身麻醉药</td><td>降压药及其他具有降低血压作用的药物〔萝芙木生物碱,吩噻嗪类,单胺氧化酶抑制剂等〕</td><td>降压作用增强</td></tr><tr><td>卡那霉素(Kanamycin,Kantrex);新霉素(Neo-mycin);链霉素(Streptomycin)</td><td>这类抗菌素如给全身麻醉患者腹腔注射,可引起神经肌肉麻痹与呼吸抑制反应</td></tr><tr><td rowspan=\"2\">氯仿</td><td>肾上腺素(Epinephrine);去甲肾上腺素(Norepinephrine,Levophed)</td><td>氯仿能使心肌对这类药物敏感,同时用药能增加室性心动过速或心室纤颤的发生机会</td></tr><tr><td>心得安(Propranolol,Inderal)</td><td>心得安不应与产生抑制心肌作用的麻醉药如氯仿同时用于治疗心律不齐</td></tr><tr><td rowspan=\"3\">环丙烷(Cyclopropane)和卤烷一氟烷,(Fluothane)</td><td>Doxapram(Dopram)</td><td>Doxapram能增加肾上腺素的释放,如与麻醉药同服,可增加心脏对肾上腺素的敏感性</td></tr><tr><td>肾上腺素</td><td>环丙烷和卤烷可使心肌对这类药物的作用敏感,同时用药可增加室性心动过速或心室纤颤的发生机会</td></tr><tr><td>筒箭毒碱(Tubocucarine)</td><td>筒箭毒碱作用增强,剂量应减少</td></tr><tr><td rowspan=\"2\">乙醚(Ether)</td><td>心得安</td><td>心得安不应与抑制心肌的麻醉药如乙醚同时用于治疗心律不齐</td></tr><tr><td>筒箭毒碱</td><td>筒箭毒碱的作用增强,剂量应减少</td></tr><tr><td>Fluroxene(Fluoromar)</td><td>筒箭毒碱</td><td>筒箭毒碱的作用增强,剂量应减少</td></tr><tr><td>甲氧氟烷 (Methoxyflurane, Penthrane)</td><td>筒箭毒碱</td><td>筒箭毒碱的作用增强,剂量应减少</td></tr><tr><td rowspan=\"2\">局部麻醉药</td><td>中枢神经抑制剂;心血管抑制剂</td><td>与局部麻醉药一起用时,这些药物的作用有所增强</td></tr><tr><td>血管收缩剂催产剂</td><td>如临产时发生低血压(麻醉药可引起低血压),催产药与血管收缩剂合并应用可引起严重的持续性高血压</td></tr><tr><td rowspan=\"2\">普鲁卡因(Procaine)</td><td>单胺氧化酶抑制剂</td><td>普鲁卡因作用可增强</td></tr><tr><td>司可林</td><td>普鲁卡因静脉注射可增强司可林的作用</td></tr></table>",
+    "bbox": [
+      57,
+      359,
+      915,
+      938
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "中国知网 https://www.cnki.net",
+    "bbox": [
+      36,
+      954,
+      390,
+      974
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "47",
+    "bbox": [
+      874,
+      951,
+      895,
+      962
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "",
+    "table_caption": [],
+    "table_footnote": [],
+    "bbox": [
+      75,
+      81,
+      932,
+      343
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "table",
+    "img_path": "images/ca102de2b911ea621f82789b7fbfdbfe470a61e8196d8fb24982a96ba39c5f89.jpg",
+    "table_caption": [
+      "抗贫血药"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药名</td><td>同服药名</td><td>可能产生的相互作用</td></tr><tr><td rowspan=\"2\">铁盐(Iron salts)</td><td>别嘌呤醇(Allopurinol, Zyloprin)</td><td>避免同服,因动物试验提示可增加肝脏铁质的浓度</td></tr><tr><td>抗坏血酸(Ascorbic acid)</td><td>曾主张用大剂量的抗坏血酸来增进口服铁剂的吸收</td></tr><tr><td>右旋醋酐铁(Dextriferron, Astrafer);山梨醇铁(Iron sorbitex, Jectofer)</td><td>口服铁剂</td><td>患者的铁结合量可超出正常而导致铁毒性出现</td></tr></table>",
+    "bbox": [
+      71,
+      393,
+      928,
+      594
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "table",
+    "img_path": "images/b05631ec295a30c41f568349277fbb9e054208ed69513a1816f331ee2221f3c3.jpg",
+    "table_caption": [
+      "抗心律不齐药"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药名</td><td>同服药名</td><td>可能产生的相互作用</td></tr><tr><td rowspan=\"5\">心得安</td><td>α-肾上腺素能阻断剂</td><td>在治疗嗜铬细胞瘤时为了避免血压激烈升高,可一起使用</td></tr><tr><td>氯仿乙醚</td><td>心得安不宜与抑制心肌的麻醉药(如氯仿和乙醚)合并用于治疗心律不齐</td></tr><tr><td>降血糖药</td><td>可引起低血糖;由于心得安妨碍急性低血糖的先兆体征和症状表现,因此危险性就更大</td></tr><tr><td>硝酸脱水山梨醇酯(Iso-sorbide dinitrate, Isordil)</td><td>曾报导,在治疗心绞痛时有协同作用,但二种药物合用是否有利尚有争论</td></tr><tr><td>单胺氧化酶抑制剂</td><td>二者不宜同时应用或停服单胺氧化酶抑制剂二周后再用药</td></tr><tr><td>心得安</td><td>利血平(Reserpine, Serpasil)</td><td>由于附加的儿茶酚胺阻断作用可使体内的交感神经活动大为降低</td></tr><tr><td rowspan=\"4\">奎尼丁(Quinidine)</td><td>抗凝药</td><td>奎尼丁可抑制肝内凝血酶原的形式,从而使抗凝作用增强</td></tr><tr><td>肌肉松弛药[十甲季铵(Decamethonium),司可林,筒箭毒碱]</td><td>增强肌肉松弛作用</td></tr><tr><td>萝芙木生物碱</td><td>出现心律不齐,故合并用药必须谨慎</td></tr><tr><td>藜芦生物碱(Veratrum alkaloid)</td><td>合用时必须谨慎,并应注意观察</td></tr></table>",
+    "bbox": [
+      69,
+      644,
+      926,
+      926
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "48",
+    "bbox": [
+      86,
+      942,
+      106,
+      954
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "中国知网 https://www.cnki.net",
+    "bbox": [
+      39,
+      955,
+      390,
+      974
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "table",
+    "img_path": "",
+    "table_caption": [],
+    "table_footnote": [],
+    "bbox": [
+      57,
+      91,
+      917,
+      375
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "table",
+    "img_path": "images/9ac165c418e041d12604a15c3a1f8bc59e0508dc7082609c8510d1d703b2d87e.jpg",
+    "table_caption": [
+      "抗胆碱能药"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药名</td><td>同服药名</td><td>可能产生的相互作用</td></tr><tr><td>抗胆碱能药</td><td>抗组织胺药;吩噻嗪类;三环抗抑郁药;新斯的明</td><td>这些药物具有一定的抗胆碱能活性,因此可增强抗胆碱能作用抗胆碱能药物可减慢肠蠕动而影响新斯的明口服制剂的吸收</td></tr></table>",
+    "bbox": [
+      59,
+      439,
+      915,
+      571
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "table",
+    "img_path": "images/47fdfd9a3dd50da6eb69aa85a94a585e5ecee281caa83b83edfd58cc6cb262cb.jpg",
+    "table_caption": [
+      "抗 凝 药"
+    ],
+    "table_footnote": [
+      "\\* 注：双硫醒 (Disulfiram) 的化学名为双（二乙基氨荒酰）二硫化物，结构式 $(\\mathrm{C}_2\\mathrm{H}_5)_2\\mathrm{NC}-\\mathrm{S}-\\mathrm{S}-\\mathrm{CN}(\\mathrm{C}_2$",
+      "$H_{5}$ ) $_{2}$ 为戒酒药，必须在戒酒后至少12小时后才可服用。其副作用为嗜眠，易疲劳，头痛和皮炎；若在服药后饮酒则可出现中毒反应，颜面和颈部血管明显扩张，心动过速和呼吸促迫，随后出现恶心呕吐，苍白，血压下降，偶可引起抽搐，心律不齐和心肌梗塞；大量乙醇可引起昏睡，头痛，呼吸困难，神志丧失而至死亡。"
+    ],
+    "table_body": "<table><tr><td>药名</td><td>同服药名</td><td>可能产生的相互作用</td></tr><tr><td rowspan=\"5\">口服抗凝药</td><td>巴比妥盐类(Barbiturates);水合氯醛(Chloral hydrate);导眠能(Glutethimide, Doriden);灰黄霉素(Griseofulvin, Fulvicin, Grifulvin);眠尔通(Meprobamate)</td><td>这些药物可引起酶促作用而使抗凝药的代谢大为加速,因此抗凝药的剂量必须增大</td></tr><tr><td>扑热息痛(Acetaminophen, Tylenol)</td><td>曾报导可增加对抗凝药的反应</td></tr><tr><td>乙醇</td><td>可能改变抗凝药的作用,但未能断定</td></tr><tr><td>麻醉药</td><td>可增强抗凝作用</td></tr><tr><td>制酸药</td><td>大剂量时,由于抑制吸收可使抗凝作用减弱</td></tr><tr><td rowspan=\"14\">口服抗凝药</td><td>抗菌素(氯霉素,新霉素,四环素)</td><td>可使抗凝药作用增强,部分原因是由于胃肠道维生素K的生物合成受到干扰所致</td></tr><tr><td>抗组织胺</td><td>曾报导,可减弱抗凝药的作用</td></tr><tr><td>菠萝蛋白酶(Bromelain, Ananase);</td><td>可增强抗凝作用</td></tr><tr><td>利眠宁 (Chlordiazepoxide, Librium)</td><td>曾报导,可使抗凝药发生不同的反应</td></tr><tr><td>氯磺丙脲 (Chlorpropamide, Diabinase)</td><td>抗凝药可增强氯磺丙脲的作用</td></tr><tr><td>去胆固醇树脂 (Cholestyramine, Cuemid, Questran)</td><td>抗凝作用可因抑制或延迟吸收而减弱;但维生素K的吸收也同时减弱。故建议抗凝药至少在服去胆固醇树脂前一小时应用</td></tr><tr><td>糜蛋白酶-胰蛋白酶 (Chymotrypsine-Trypsin, Chymoral)</td><td>同时服用要谨慎观察</td></tr><tr><td>安妥明 (Clofibrate, Atromide-S)</td><td>可增加抗凝反应,开始用安妥明治疗时,抗凝药的剂量必须减少1/3至1/2</td></tr><tr><td>皮质激素 (Corticosteroid); 促肾上腺皮质激素 (Corticortopin, ACTH)</td><td>可改变抗凝药的反应</td></tr><tr><td>右旋甲状腺素 (Dextrothyroxine, Choloxin)</td><td>抗凝药物作用增强,可能由于增加受体部位的亲和性所致;故开始用甲状腺素治疗时,抗凝药的剂量可减少1/3,然后酌情调整剂量</td></tr><tr><td>苯妥英钠</td><td>由于抗凝药从蛋白质结合部位被置换而使其作用增强;抗凝药能增加苯妥英钠的血清浓度而导致苯妥英钠的中毒</td></tr><tr><td>双硫醒 (Disulfiram, Antabuse)*</td><td>可增强抗凝药的作用</td></tr><tr><td>Ethchlorvynol, Placidyl</td><td>曾报导,因酶促作用可使抗凝药的反应减弱</td></tr><tr><td>卤吡醇 (Haloperidol, Haldol)</td><td>曾报导,可对抗苯茚二酮的抗凝作用</td></tr></table>",
+    "bbox": [
+      53,
+      634,
+      913,
+      936
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "中国知网 https://www.cnki.net",
+    "bbox": [
+      36,
+      954,
+      392,
+      974
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "49",
+    "bbox": [
+      874,
+      949,
+      895,
+      962
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "table",
+    "img_path": "",
+    "table_caption": [],
+    "table_footnote": [
+      "",
+      ""
+    ],
+    "bbox": [
+      61,
+      78,
+      926,
+      828
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "page_number",
+    "text": "50",
+    "bbox": [
+      73,
+      939,
+      94,
+      952
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "中国知网 https://www.cnki.net",
+    "bbox": [
+      36,
+      954,
+      390,
+      974
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "table",
+    "img_path": "images/d484415a3cf08856a977d646ac2d250957daf01dbe7e3302f506b652cfb35971.jpg",
+    "table_caption": [],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药名</td><td>同服药名</td><td>可能产生的相互作用</td></tr><tr><td rowspan=\"18\">口服抗凝药</td><td>肝素(Heparin)</td><td>可增加抗凝药的作用</td></tr><tr><td>消炎痛</td><td>由于蛋白结合部位被置换而使抗凝药效应增强</td></tr><tr><td>甲基雄烯醇酮</td><td>可增强抗凝药作用</td></tr><tr><td>利他林(哌醋甲酯,(Methylphenidate,Ritalin)</td><td>抗凝药的作用因代谢受抑制而增强</td></tr><tr><td>矿物油</td><td>在个别情况下,抗凝药的作用会发生不同的变化</td></tr><tr><td>单胺氧化酶抑制剂</td><td>曾报导,可增强茚滴二酮(Indandione)的抗凝作用</td></tr><tr><td>去甲乙基睾酮(Nor-ethandrolone,Nilevar)</td><td>可增强抗凝药的作用</td></tr><tr><td>口服避孕药</td><td>可减弱抗凝药的作用,因此抗凝药的剂量必须增大</td></tr><tr><td>羟基保泰松;保泰松</td><td>由于蛋白结合部位被置换而使抗凝药作用增加</td></tr><tr><td>Phenyramidol,Analexin</td><td>可因抑制代谢作用而使抗凝药的作用增强</td></tr><tr><td>丙基硫氧嘧啶(Propylthiouracil,PTU)</td><td>可增强抗凝药的作用</td></tr><tr><td>由北美木瓜(番木瓜)提取的水解蛋白酶(Papase)</td><td>禁忌与抗凝药合用</td></tr><tr><td>奎尼丁;奎宁</td><td>因抑制凝血酶在肝脏的形成而使抗凝药的作用增强</td></tr><tr><td>水杨酸盐</td><td>抗凝药作用增强,尤其当水杨酸盐剂量超过1克/天时更为明显</td></tr><tr><td>磺胺类</td><td>抗凝药作用增强,部分原因是由于胃肠道内维生素K的生物合成被干扰以及蛋白结合部位被置换所致</td></tr><tr><td>甲苯磺丁脲(Tolbutamide,Orinase,D860)</td><td>甲苯磺丁脲的降血糖作用可因代谢受抑制而增强</td></tr><tr><td>维生素K</td><td>可拮抗抗凝药的作用</td></tr><tr><td>黄嘌呤类(Xanthines)</td><td>大剂量可改变抗凝药的作用</td></tr></table>",
+    "bbox": [
+      57,
+      90,
+      915,
+      905
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "footer",
+    "text": "中国知网 https://www.cnki.net",
+    "bbox": [
+      36,
+      954,
+      390,
+      974
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "page_number",
+    "text": "51",
+    "bbox": [
+      868,
+      949,
+      887,
+      961
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "table",
+    "img_path": "images/602d175092d78088c5784b8a57d83e243688efd82dd3d36f93fa74b8dbb45ec9.jpg",
+    "table_caption": [
+      "消毒剂"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药名</td><td>同服药名</td><td>可能产生的相互作用</td></tr><tr><td>Acrisorcin</td><td>肥皂</td><td>应将敷药部位的肥皂洗净,因它可使Acrisorcin的活性明显减弱</td></tr><tr><td>硼酸</td><td>碘甙</td><td>硼酸在碘甙存在的情况下有刺激作用,故在用后者治疗期间不宜同时应用</td></tr><tr><td>季铵防腐剂</td><td>阴离子药物肥皂</td><td>阴离子药物和肥皂均与阳离子季铵盐化合物禁忌配伍</td></tr></table>",
+    "bbox": [
+      67,
+      136,
+      924,
+      325
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "table",
+    "img_path": "images/6e7dbd8bce582771efbfc6de5007e7410ee0e0be2650d7ca4df20435fbccf7a6.jpg",
+    "table_caption": [
+      "抗肿瘤药"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>药名</td><td>同服药名</td><td>可能产生的相互作用</td></tr><tr><td>抗肿瘤药</td><td>其他抑制骨髓药物</td><td>可使骨髓严重抑制,有些抗肿瘤药物可合并应用,但也有些抗肿瘤药物禁忌合用</td></tr><tr><td>硫唑嘌呤(Azathioprine,Imuran)</td><td>别嘌呤醇(Allopurinol)</td><td>别嘌呤醇抑制硫唑嘌呤的代谢,因此后者剂量宜比正常用量减少1/3至1/4</td></tr><tr><td rowspan=\"2\">环磷酰胺(Cyclophosphamide,Cytoxan)</td><td>氯霉素</td><td>动物试验表明,先用氯霉素治疗可减少环磷酰胺的致死率,这种作用显然是由于在体内使环磷酰胺活化的微粒体酶受抑制之故</td></tr><tr><td>皮质激素</td><td>动物试验表明,环磷酰胺的活化作用可被去氢氢化可的松抑制</td></tr><tr><td>放线菌素D</td><td>青霉素G</td><td>体外试验表明,青霉素G的杀菌作用可被拮抗</td></tr><tr><td>巯基嘌呤(Mercaptopurine,Purinethol)</td><td>别嘌呤醇</td><td>别嘌呤醇抑制巯基嘌呤的代谢,因此后者的剂量要比正常用量减少1/3至1/4</td></tr><tr><td rowspan=\"2\">甲氨喋呤(Methotrexate,MTX)</td><td>对氨基苯甲酸,水杨酸盐,磺胺药(抗菌类,利尿类或降血糖类)</td><td>这些药物可置换白蛋白结合部位上的甲氨喋呤,而使其毒性增大</td></tr><tr><td>甲酰四氢叶酸(Leucovorin)</td><td>可对抗甲氨喋呤的作用,过量时可用作解毒剂</td></tr><tr><td>噻替哌(Thio-TEPA)</td><td>氯霉素磺胺类</td><td>可加重骨髓的抑制作用</td></tr></table>",
+    "bbox": [
+      63,
+      396,
+      924,
+      901
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "(待续)",
+    "bbox": [
+      772,
+      912,
+      848,
+      929
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "page_number",
+    "text": "52",
+    "bbox": [
+      78,
+      944,
+      100,
+      955
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "footer",
+    "text": "中国知网 https://www.cnki.net",
+    "bbox": [
+      39,
+      955,
+      390,
+      974
+    ],
+    "page_idx": 8
+  }
+]

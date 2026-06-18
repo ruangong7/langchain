@@ -1,0 +1,121 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "艾博韦泰",
+        "canonical_name": "艾博韦泰",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "洛匹那韦",
+        "canonical_name": "洛匹那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "利托那韦",
+        "canonical_name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "宁格替尼",
+        "canonical_name": "宁格替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "吉非替尼",
+        "canonical_name": "吉非替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "非小细胞肺癌",
+        "canonical_name": "非小细胞肺癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Disease",
+        "name": "艾滋病",
+        "canonical_name": "艾滋病",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1042,
+          "raw_text": "联用艾博韦泰后，洛匹那韦和利托纳韦的AU0-t分别降低了37%和38%，但DDI机制不明。",
+          "chunk_id": "1042"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1042,
+          "raw_text": "联用艾博韦泰后，洛匹那韦和利托纳韦的AU0-t分别降低了37%和38%，但DDI机制不明。",
+          "chunk_id": "1042"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1042,
+          "raw_text": "宁格替尼单独用药时，N-去甲基代谢物M1的血浆暴露量约为原形药物的1.7倍，联用吉非替尼后，因对CYP1A1等酶的抑制作用使得M1的血浆暴露量降低了84%，但宁格替尼的药动学未发生显著变化",
+          "chunk_id": "1042"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_7",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1042,
+          "raw_text": "主要用于非小细胞肺癌（NSCLC)等的治疗",
+          "chunk_id": "1042"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1042,
+          "raw_text": "艾滋病的治疗常采用多药联用的手段如艾博韦泰和洛匹那韦/利托那韦联用",
+          "chunk_id": "1042"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1042,
+    "source": "凡默谷",
+    "text": "。依米他韦的药动学未受显著影响。艾滋病的治疗常采用多药联用的手段如艾 博韦泰和洛匹那韦/利托那韦联用[3]。联用艾博 韦泰后，洛匹那韦和利托纳韦的AU0-t分别降低 了 37%和38%，但DDI机制不明。受伦理限制， 未进行艾博韦泰的单药试验，通过群体药动学模 型分析，洛匹那韦/利托纳韦对艾博韦泰的药动学 无显著影响。此外，在“药物临床试验登记与信息公布平 台”上，可查到已完成可洛派韦与赛拉瑞韦钾在 健康受试者体内的DDI试验（登记号 CTR20170587)，但数据尚未公开。4.2抗肿瘤药的联合应用肿瘤的发生和发展 涉及多种信号通路，与单一用药相比，抗肿瘤药 联合疗法具有增效和降低耐药性等优点[44]。此 外，肿瘤患者常存在多种并发症和药物使用带来 的副作用，需要服用其他药物进行辅助治疗。对 联合疗法中药动学相互作用的监测，有助于更清 楚地了解药物的体内处置过程，为评估药物的安 全性和有效性提供参考。对甲苯磺酸宁格替尼[5]是由广东东阳光药 物集团有限公司开发的多靶点酪氨酸激酶抑制 剂，目前处于临床二期试验，主要用于非小细胞 肺癌（NSCLC)等的治疗。临床上为克服其他信号 通路激活而导致的EGFR抑制剂吉非替尼的耐药 性，NSCLC患者同时服用宁格替尼与吉非替尼。宁格替尼单独用药时，N-去甲基代谢物M1的血 浆暴露量约为原形药物的1.7倍，联用吉非替尼 后，因对CYP1A1等酶的抑制作用使得M1的血浆 暴露量降低了 84%，但宁格替尼的药动学未发生 显著变化"
+  }
+]

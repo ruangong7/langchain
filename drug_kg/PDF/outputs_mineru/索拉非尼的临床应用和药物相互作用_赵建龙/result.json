@@ -1,0 +1,762 @@
+[
+  {
+    "type": "text",
+    "text": "索拉非尼的临床应用和药物相互作用",
+    "text_level": 1,
+    "bbox": [
+      77,
+      129,
+      566,
+      154
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Sorafenib on clinical application and drug interaction",
+    "text_level": 1,
+    "bbox": [
+      77,
+      158,
+      620,
+      177
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "综述",
+    "bbox": [
+      810,
+      101,
+      902,
+      127
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Review",
+    "bbox": [
+      820,
+      128,
+      897,
+      140
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "赵建龙，占 辉，杨 月 ，",
+    "bbox": [
+      75,
+      225,
+      275,
+      241
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "李文哲，王中辉，邱相君",
+    "bbox": [
+      78,
+      244,
+      268,
+      259
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "( 河南科技大学 医学院，河南 洛阳 471003)",
+    "bbox": [
+      75,
+      298,
+      344,
+      312
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "ZHAO Jian － long，ZHAN Hui，",
+    "bbox": [
+      75,
+      347,
+      307,
+      362
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "YANG Yue，LI Wen － zhe，",
+    "bbox": [
+      78,
+      366,
+      278,
+      381
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "WANG Zhong － hui，QIU Xiang － jun",
+    "bbox": [
+      78,
+      385,
+      349,
+      400
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "( Medical College of Henan University of Science and Technology， Luoyang 471003，Henan Province，China)",
+    "bbox": [
+      73,
+      439,
+      359,
+      494
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘要: 索拉非尼是一种多靶点的酪氨酸激酶抑制剂，主要治疗晚期肾癌、肝癌。药物 － 药物相互作用引起的索拉非尼的药代动力学的变化可能影响其临床效果和安全性，个体化的治疗药物监测可以控制潜在的药物相互作用的发生。 本文对索拉非尼的临床应用和药物 －药物相互作用做一综述。",
+    "bbox": [
+      396,
+      224,
+      919,
+      288
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词:索拉非尼; 临床应用; 药物相互作用; 治疗药物监测; 酪氨酸激酶抑制剂",
+    "bbox": [
+      400,
+      291,
+      910,
+      306
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "DOI: 10. 13699 /j. cnki. 1001 － 6821. 2014. 10. 027",
+    "bbox": [
+      400,
+      309,
+      712,
+      322
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号: R979. 1; R969. 2 文献标志码: A",
+    "bbox": [
+      400,
+      325,
+      732,
+      338
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "文章编号: 1001 － 6821( 2014) 10 － 0958 － 04",
+    "bbox": [
+      400,
+      342,
+      682,
+      356
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Abstract: Sorafenib is a multi － targeted tyrosinekinase inhibitor，and mainly used for the treatment of advanced renal cell carcinoma and hepatocellular carcinoma. The pharmacokinetic changes of sorafenib caused by drug － drug interactions may affect its clinical efficacy and safety，so individualized treatment drug monitoring could control the occurrence of potential drug interactions． In this paper，the clinical applications and drug － drug interaction of sorafenib was reviewed．",
+    "bbox": [
+      396,
+      376,
+      922,
+      502
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Key words: sorafenib; clinical application; drug interaction; therapeutic drug monitoring; tyrosinekinase inhibitor",
+    "bbox": [
+      398,
+      506,
+      922,
+      541
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "索拉非尼( sorafenib，商品名 Nexavar，多吉美) ，是一种多靶点抗肿瘤新药，也是一种血管内皮细胞生长因子受体( VEGFR) 的酪氨酸激酶抑制剂( TKIs) ［1 － 2］。 在合用其他抗肿瘤药物的晚期实体瘤治疗中，索拉非尼表现出良好的安全性和抗肿瘤活性［3］。 索拉非尼主要用于治疗晚期肾癌、肝癌; 另外，联合其他抗肿瘤药物用于多种进展性实体瘤的治疗，如黑色素瘤、乳腺癌、非小细胞肺癌( NSCLC) 、甲状腺癌、胃癌等［3 － 5］。 索拉非尼主要通过 CYP3A4 进行氧化代谢，以及通过尿苷二磷酸葡萄糖醛酸基转移酶( UGT) 1A9 进行葡萄糖苷酸化代谢; 同时索拉非尼是 CYP3A4，CYP2C19 和 CYP2D6 的竞争性抑制剂，合并用药时会引起药物间的相互作用( DDI) ［6 － 8］ 。",
+    "bbox": [
+      396,
+      561,
+      921,
+      745
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 临床应用",
+    "text_level": 2,
+    "bbox": [
+      400,
+      747,
+      500,
+      763
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "肝癌 索拉非尼可显著抑制体内外肝癌的生长，其效应呈剂量依赖性。 索拉非尼可显著抑制细胞的增殖，在人肝癌亚历山大细胞( PLC /PRF /5) 和人肝癌细胞株( HepG2) 的半数抑制浓度( $\\mathrm { I C } _ { 5 0 } \\big )$ 分别为6. 3，4. 5 mol · L － 1，亦可显著抑制肝癌细胞内丝裂原活化蛋白激酶的激酶( MEK) 、胞外信号调节激酶( ERK) 的磷酸化水平［9］。 索拉非尼在抑制人肝癌细胞株 HepG2 增殖，诱导其凋亡，髓样细胞白血病 － 1 蛋 白 质 ( Mcl － 1 ) 及 人 碱 性 成 纤 维 细 胞 生 长 因 子 － 2( bFGF － 2) 可能在肝癌细胞的增殖分化中起着重要的作用［10］。 索拉非尼治疗肝癌的疗效与患者本身的身体状况和肝功能密切相关，患者有较好的身体状况和肝功能，其生存周期就会更长; 体力状态和肝功能状况较差的肝癌患者不建议单独用索拉非尼进行治疗。 同时，甲胎蛋白水平可作为肝癌病情的一个重要预测指标［11］。 在亚太人群的晚期肝癌患者中，索拉非尼与安慰剂相比可延长生存期，且耐受性良好; 索拉非尼可以改善肝癌患者的生存率，提高其生存质量，是肝癌靶向治疗的新途径［12］。 同时，索拉非尼治疗中国人中晚期原发性肝癌患者有较好的病情控制和生存获益，不良反应可控［13］ 。 。",
+    "bbox": [
+      396,
+      766,
+      921,
+      914
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "958",
+    "bbox": [
+      28,
+      43,
+      57,
+      55
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中 国 临 床 药 理 学 杂 志",
+    "bbox": [
+      386,
+      40,
+      596,
+      55
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "第 30 卷 第 10 期 2014 年 10 月( 总第 180 期)",
+    "bbox": [
+      369,
+      61,
+      613,
+      73
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "收稿日期: 2014 － 05 － 22",
+    "bbox": [
+      75,
+      810,
+      220,
+      824
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "修回日期: 2014 － 06 － 17",
+    "bbox": [
+      78,
+      826,
+      220,
+      838
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "作者简介: 赵建龙( 1962 － ) ，男，副教授，主要从事临床病理学研究",
+    "bbox": [
+      78,
+      840,
+      352,
+      866
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "通信作者:邱相君，副教授，硕士生导师",
+    "bbox": [
+      78,
+      869,
+      300,
+      881
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "MP: 13698882699",
+    "bbox": [
+      139,
+      883,
+      236,
+      894
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "E － mail: lyxiangjun@ 126. com",
+    "bbox": [
+      137,
+      897,
+      305,
+      909
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      979
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      73,
+      84,
+      482,
+      290
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "肾癌 索拉非尼治疗转移性肾癌的多中心、 随机、双盲与安慰剂对照的 Ⅲ 期临床试验的结果显示［14］，索拉非尼临床获益率高达 84% ; 与安慰剂比较，索拉非尼可显著延长转移性肾癌患者中位无进展生存期( PFS) ，并显著延长总生存期( OS) 。 索拉非尼在中国治疗晚期肾癌的开放、多中心、非对照的 Ⅱ 期临床试验结果显示［15］，临床获益率达 84. 21% ，客观缓解率达21%，PFS 长达 41 周。 索拉非尼对晚期肾癌的病情控制有较好的效果，但其多种不良反应应加强管理，治疗前应全面评估患者个体条件，并告知不良反应的种类和相应的处理和监控方法，治疗中严格控制相关的风险因素和监测临床症状［16］。 通过索拉非尼新辅助治疗可能缩小肿瘤、降低肿瘤分期，使原先无法手术的局部晚期患者能够接受手术切除，从而提高疗效或改善患者生活质量［17］",
+    "bbox": [
+      73,
+      292,
+      482,
+      573
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "非小细胞肺癌 由于索拉非尼可以抑制非小细胞肺癌患者 k － ras 基因突变引起的 Ras /Raf /MEK /ERK 信号通路的上调，显示出独特的抗肿瘤活性［18］。索拉非尼与先前治疗非小细胞肺癌的药物( 长春瑞滨、顺铂和吉非替尼) 合用治疗非小细胞肺癌，显示出可延缓肿瘤生长的作用。 索拉非尼单药治疗非小细胞肺癌显示出良好的效果，临床耐受性良好，对复发性非小细胞肺癌具有抗肿瘤活性［19］，且在治疗过程中未发现其对患者的体力状况和症状带来不良影响［20］。 局部进展或复发的非小细胞肺癌患者接受索拉非尼联合吉非替尼治疗的耐受性良好。 尽管索拉非尼单药治疗进展期非小细胞肺癌患者显示出临床获益，但是与其他酪氨酸激酶抑制剂一样，与化疗药物联用时并未显示出生存获益［19 。",
+    "bbox": [
+      73,
+      576,
+      482,
+      838
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "其他 肿 瘤 索 拉 非 尼 显 著 抑 制 人 卵 巢 癌SKOV －3细胞的增殖，且其抑制作用呈剂量和时间依赖性［21］。 索拉非尼通过阻断肿瘤细胞的 MAPK 通路和影响 VEGFR 表达干扰和阻断肿瘤血供，来抑制肿瘤细胞的增殖，为骨肉瘤的治疗提出了新的思路 ［22］在其他肿瘤治疗中，索拉非尼与化疗药物联合治疗转移性恶性黑色素瘤疗效较好; 治疗甲状腺癌、前列腺癌也显示良好的趋势［23］",
+    "bbox": [
+      73,
+      840,
+      482,
+      914
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      84,
+      919,
+      156
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 药物相互作用",
+    "text_level": 2,
+    "bbox": [
+      510,
+      160,
+      650,
+      175
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "达卡巴嗪 其在体内分解释放出甲基正离子$\\left( \\ \\mathrm { C H } _ { 3 } ^ { \\ + } \\right)$ ，发挥烷化作用; 同时又能转化成一种与嘌呤生物合成的中间产物相似的物质，可能干扰嘌呤的生物合成，用于黑色素瘤、软组织肿瘤、恶性淋巴瘤等恶性肿瘤的治疗。 索拉非尼与达卡巴嗪合用时，达卡巴嗪的 AUC 和 $C _ { \\mathrm { m a x } }$ 分别减少 23%和 16%，达卡巴嗪的代谢物 5 － 氨基咪唑 － 4 － 甲酰胺( AIC) 的 AUC 和$C _ { \\mathrm { m a x } }$ 值分别增加 41% 和 45% ，达卡巴嗪和 AIC 的 $t _ { 1 / 2 }$ 无明显影响; 而索拉非尼及其 3 个代谢物的 AUC 和$C _ { \\mathrm { m a x } }$ 值有很大的波动。 当索拉非尼与达卡巴嗪合用时，可以减少达卡巴嗪的暴露，增加 AIC 的暴露［24］ 。",
+    "bbox": [
+      510,
+      178,
+      919,
+      385
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "卡培他滨 其可在体内转变成 5 － 氟尿嘧啶( 5 － FU) 的抗代谢氟嘧啶脱氧核苷氨基甲酸酯类药物，能够抑制细胞分裂和干扰 RNA 和蛋白质合成，用于紫杉醇和蒽环类抗生素化疗方案治疗无效的晚期原发性或转移性乳腺癌的进一步治疗。 索拉非尼与卡培 他 滨 合 用 时，卡培他滨不改变索拉非尼的$\\mathrm { A U C } _ { 0 - 1 2 }$ h 和 $C _ { \\mathrm { m a x } }$ ，而索拉非尼可以使卡培他滨和 5 －FU 的 $\\mathrm { A U C } _ { 0 - 1 2 }$ h略微增加［25］。 但是，索拉非尼的 3 级手足综合征不良反应与合用卡培他滨相关，限制索拉非尼的继续使用［25］ 。",
+    "bbox": [
+      510,
+      387,
+      919,
+      574
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "多西他赛 其主要治疗晚期乳腺癌、卵巢癌、非小细胞肺癌，对头颈部癌、小细胞肺癌、胃癌、胰腺癌、黑色素瘤等也有一定疗效。 索拉非尼与多西他赛合用时，索拉非尼可以使多西他赛的 $\\mathrm { A U C } _ { 0 - \\operatorname* { i n f } }$ 和中位$C _ { \\mathrm { m a x } }$ 显著增加，中位清除率明显减少，增加多西他赛的暴露; 多西他赛可以减少索拉非尼的血浆暴露，但不明显改变索拉非尼的药代动力学参数［26］。",
+    "bbox": [
+      510,
+      577,
+      919,
+      706
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "卡铂和紫杉醇 卡铂为第 2 代铂类化合物，其生化物征与顺铂相似，但肾毒性、耳毒性、神经毒性低，尤其是胃肠道反应低。 卡铂为广谱抗肿瘤药，主要用于小细胞肺癌、卵巢癌、睾丸肿瘤、 头颈部鳞癌等治疗。 在非小细胞肺癌患者治疗中［27］，索拉非尼 400mg 合 用 卡 铂 $5 \\mathrm {  ~ \\ m g ~ } \\bullet \\mathrm {  ~ \\ m i n ~ } \\bullet \\mathrm {  ~ \\ m L ^ { - 1 } ~ }$ 、 紫 杉 醇 200$\\log \\cdot \\mathrm { ~ m ~ } ^ { - 2 }$ ，药代动力学的相互影响无相关性，但抗肿瘤活性明显增强。",
+    "bbox": [
+      510,
+      709,
+      919,
+      857
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "西妥昔单抗和伊立替康 其是美国食品药品监督管理局( FDA) 批准的治疗晚期大肠癌的药物。 西妥昔单抗可与表达于正常细胞和多种癌细胞表面的上皮生长因子( EGF) 受体特异性结合，并竞争性阻断EGF 和其他配体，通过与 EGF 受体结合的酪氨酸激酶( TK) 的抑制作用，阻断细胞内信号转传途径，从而抑制癌细胞的增殖，诱导癌细胞的凋亡，减少基质金属蛋白酶和血管内皮生长因子的产生。 伊立替康是喜树碱的半合成衍生物。 伊立替康及其活性代谢物SN － 38可与拓扑异构酶I － DNA 复合物结合，从而阻止断裂单链的再连接。 在晚期大肠癌的治疗中［28］，索拉非尼合用西妥昔单抗和伊立替康，在第 1，15 天，索拉非尼血浆药物浓度－时间曲线表现为吸收缓慢和消除延长。 合用索拉非尼可以增加伊立替康的耐受性，减少西妥昔单抗和伊立替康的临床治疗剂量; 虽初始高剂量的索拉非尼可以增加皮疹发生率，但与总体药物暴露无相关性［28］。",
+    "bbox": [
+      510,
+      860,
+      919,
+      914
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Ch i n J Cl i n P harmacol",
+    "bbox": [
+      374,
+      40,
+      600,
+      55
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "959",
+    "bbox": [
+      939,
+      41,
+      969,
+      53
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Vol. 30 No. 10 October 2014( Serial No. 180)",
+    "bbox": [
+      376,
+      64,
+      608,
+      74
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      73,
+      84,
+      485,
+      346
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "非洛地平 非洛地平为选择性钙离子拮抗药，主要抑制小动脉平滑肌细胞外钙的内流，选择性扩张小动脉，对静脉无此作用，不引起体位性低血压，对心肌亦无明显抑制作用，主要用于高血压的治疗。 非洛地平是 CYP3A4 的底物，与索拉非尼合用时，会发生CYP3A4 相关的临床药代动力学的药物相互作用。 在不调整其他治疗方法的情况下，与非洛地平合用，可引起索拉非尼的血药浓度升高 3 倍，同时发生3 级厌食症［ 29］ 。",
+    "bbox": [
+      73,
+      349,
+      484,
+      517
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "替莫唑胺 其是脑胶质瘤新药，可用于治疗脑胶质瘤，针对性强、特异性高，可透过血脑屏障，用于治疗脑胶质瘤及转移瘤，特别是多形性胶质母细胞瘤或间变性星形细胞瘤的一线用药。 在复发性角质母细胞瘤治疗中，索拉非尼和替莫唑胺联用安全，但该方案对复发性多元性角质母细胞瘤的活性有限。",
+    "bbox": [
+      73,
+      519,
+      482,
+      630
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "泼尼松龙 皮疹也是导致索拉非尼停药和减少剂量的原因，由于晚期肝癌治疗药物选择有限，因此需要建立一种对索拉非尼诱导皮疹的有效治疗方法。口服泼尼松龙作为预防治疗索拉非尼引起的皮疹，可加快索拉非尼的代谢［30］。 短期的全身性类固醇可以治疗索拉非尼引起的皮疹，但要注意的药物 － 药物相互作用 。",
+    "bbox": [
+      73,
+      632,
+      482,
+      762
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "CYP450 酶底物、诱导剂和抑制剂 在体外试验中［31］，索拉非尼已被发现可抑制 CYP2B6 、 CYP2C8 、CYP2C9 、 CYP2C19 和 CYP2D6 的活性，抑制由葡萄糖醛酸化 UGT1A1 和 UGT1A9 和 P 糖蛋白介导的运输，索拉非尼合用这些酶的底物时，不排除底物血浆浓度增加的可能。 咪达唑仑 奥美拉唑和右美沙芬分别被用来研究 CYP3A4、CYP2C19 和 CYP2D6 的活性，即探针药，其对索拉非尼无代谢基础上的相互作用。 索拉非 尼 对 CYP3A4 活性具有弱的诱导作用，而 对CYP2C19 和 CYP2D6 则无临床意义上的诱导和抑制［32］。 利福平是 CYP3A4 的诱导剂，索拉非尼单剂量给药前 5 d 给予利福平，索拉非尼的 AUC 下降 37% 。其他 CYP3A4 诱导剂，如苯妥英钠，卡马西平，苯巴比妥和地塞米松，还可以增加或减少其血浆浓度［33］。酮康唑是一种强效的 CYP3A4 抑制剂，每日 1 次，连续 7 d 给药并无改变索拉非尼 50 mg 的平均 AUC［34］3 讨论",
+    "bbox": [
+      73,
+      765,
+      485,
+      914
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      84,
+      922,
+      250
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "索拉非尼在治疗晚期肾癌、肝癌中取得了明显疗效，在其他进展性实体瘤如黑色素瘤、乳腺癌、非小细胞肺癌、甲状腺癌、胃癌等的治疗中，常联合其他抗肿瘤药物。 临床上，药物 － 药物相互作用引起的索拉非尼药代动力学的变化可能影响其临床疗效和安全性。个体化的治疗药物监测可以控制潜在的药物相互作用的发生。",
+    "bbox": [
+      510,
+      254,
+      921,
+      382
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "参考文献:",
+    "text_level": 2,
+    "bbox": [
+      512,
+      393,
+      603,
+      410
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "［1］ Couchman L，Birch M，Ireland R，et al． An automated method for the measurement of a range of tyrosine kinase inhibitors in human plasma or serum using turbulent flow liquid chromatography － tandem mass spectrometry ［J］． Anal Bioanal Chem，2012，403: 1685 － 1695．",
+      "［2 ］ Wilhelm SM，Adnane L，Newell P，et al． Preclinical overview of sorafenib，a multikinase inhibitor that targets both Raf and VEGF and PDGF receptor tyrosine kinase signaling［J］． Mol Cancer Ther， 2008，7: 3129 － 3140．",
+      "［3 ］ Takimoto CH，Awada A． Safety and anti － tumor activity of sorafenib ( Nexavar) in combination with other anti － cancer agents: a review of clinical trials［J］． Cancer Chemother Pharmacol，2008， 61: 535 － 548．",
+      "［4］ 唐克，李燕，陈晓光． 多靶点抗肿瘤药物索拉非尼的研究进展J］． 中国新药杂志，2011，20: 2434 － 2441．",
+      "［5 ］ Brendel E，Ludwig M，Lathia C，et al． Pharmacokinetic results of a phase I trial of sorafenib in combination with dacarbazine in patients with advanced solid tumors［J］． Cancer Chemother Pharmacol， 2011，68: 53 － 61．",
+      "［6 ］ Heinz WJ，Kahle K，Helle － Beyersdorf A，et al． High － perform-ance liquid chromatographic method for the determination of sor-afenib in human serum and peritoneal fluid［J］． Cancer ChemotherPharmacol，2011，68: 239 － 245．",
+      "［7］ Flaherty KT，Lathia C，Frye RF，et al． Interaction of sorafenib and cytochrome P450 isoenzymes in patients with advanced melanoma: a phase I / II pharmacokinetic interaction study［J］． Cancer Chemother Pharmacol，2011，68: 1111 － 1118．",
+      "［8］ Kenny JR，Mukadam S，Zhang C，et al． Drug － drug interaction potential of marketed oncology drugs: in vitro assessment of time － dependent cytochrome P450 inhibition，reactive metabolite formation and drug － drug interaction prediction［J］． Pharm Res，2012，29:",
+      "1960 － 1976．",
+      "［9 ］ Liu L，Cao Y，Chen C，et al． Sorafenib blocks the RAF /MEK / ERK pathway，inhibits tumor angiogenesis，and induces tumor cell apoptosis in hepatocellular carcinoma model PLC /PRF /5 ［J］． Cancer Res，2006，66: 11851 － 11858．",
+      "［10］ 廖于，李照东，左的于，等． 索拉非尼诱导 HepG2 细胞凋亡过程中 Mcl － 1 与 bFGF － 2 的表达及意义［J］． 重庆医学，2013，42:255 － 257．",
+      "［11］ 时建军，宋素异，戚志平． 索拉非尼治疗肝癌患者疗效的回顾性分析［J］． 中国临床药理学杂志，2013，29: 491 － 493．",
+      "［12］ 张传海，荚卫东． 索拉非尼在肝癌治疗中的应用［J］． 临床药物治疗杂志，2012，10: 24 － 26．",
+      "［13］ 杨柳青，秦叔逵，龚新雷，等． 索拉非尼治疗国人中晚期原发性肝癌的临床研究［J］． 中国新药杂志，2013，22: 2053 － 2059．",
+      "［14］ Escudier B，Eisen T，Stadler WM，et al． Sorafenib for treatment of renal cell carcinoma: Final efficacy and safety results of the phase III treatment approaches in renal cancer global evaluation trial［J］． J Clin Oncol，2009，27: 3312 － 3318．",
+      "［15］ 周爱萍，何志嵩，于世英，等． 索拉非尼治疗转移性肾癌的临床试验［J］． 中华泌尿外科杂志，2009，30: 10 － 14．",
+      "［16］ 张志伟，宋希双，黄涛． 索拉非尼治疗晚期肾癌的临床研究［J］．医学与哲学，2013，34: 52 － 53，56．",
+      "［17］ 郑玮，寿建忠，马建辉． 索拉非尼治疗肾癌的研究现状［J］． 临床药物治疗杂志，2012，10: 19 － 23．",
+      "［18］ Gollob JA，Wilhelm S，Carter C，et al． Role of Raf kinase in canc-er : therapeutic potential of targeting the Raf /MEK /ERK signalransduction path way［J］． Semin Oncol，2006，33: 392 － 406．",
+      "［19］ 靳毅，刘巍． 索拉非尼治疗非小细胞肺癌的临床研究进展［J］．肿瘤，2010，30: 795 － 797．",
+      "20］ Gondek K，Dhandar R，Simantov R，et al． Health － related quality of life measures in advanced nonsmall cell lung cancer patients receiving sorafenib［JB /OL］． J Clin Oncol，2006，24( 18S) : 17085．",
+      "［21］ 潘敏，余进进，黄小艳，等． 索拉非尼对人卵巢癌 SKOV － 3 细胞凋亡的影响［J］． 实用癌症杂志，2012，27: 12 － 14，17．",
+      "［22］ 刘爱勇，李佳，李珠明，等． 索拉非尼抑制骨肉瘤细胞增殖及其作用机制研究［J］． 内蒙古医学杂志，2013，45: 385 －389．",
+      "［23］ 王尔兵，王肇炎． 多激酶抑制药———索拉非尼的临床研究［J］．医药导报，2010，29: 335 － 338．",
+      "［24］ Brendel E，Ludwig M，Lathia C，et al． Pharmacokinetic results of a",
+      "phase I trial of sorafenib in combination with dacarbazine in patients with advanced solid tumors［J］． Cancer Chemother Pharmacol， 2011，68: 53 － 61．",
+      "［25］ Infante JR，Jones SF，Bendell JC，et al． A drug interaction study evaluating the pharmacokinetics and toxicity of sorafenib in combination with capecitabine［J］． Cancer Chemother Pharmacol，2012， 69: 137 － 144．",
+      "［26］ Mardjuadi F，Medioni J，Kerger J，et al． Phase I study of sorafenib in combination with docetaxel and prednisone in chemo － naive patients with metastatic castration － resistant prostate cancer［J］． Cancer Chemother Pharmacol，2012，70: 293 － 303．",
+      "［27］ Okamoto I，Miyazaki M，Morinaga R，et al． Phase I clinical and pharmacokinetic study of sorafenib in combination with carboplatin and paclitaxel in patients with advanced non – small cell lung cancer［J］． Invest New Drugs，2010，28: 844 － 853．",
+      "［28］ Azad N，Dasari A，Arcaroli J，et al． Phase I pharmacokinetic and pharmacodynamic study of cetuximab，irinotecan and sorafenib in advanced colorectal cancer［J］． Invest New Drugs，2013，31: 345 － 354．",
+      "［29］ Gomo C，Coriat R，Faivre L，et al． Pharmacokinetic interaction in-volving sorafenib and the calcium － channel blocker felodipine in apatient with hepatocellular carcinoma［J］． Invest New Drugs，2011，29: 1511 － 1514．",
+      "［30］ Noda S，Shioya M，Hira D，et al． Pharmacokinetic interaction be-tween sorafenib and prednisolone in a patient with hepatocellularcarcinoma［J］． Cancer Chemother Pharmacol，2013，72: 269 － 272．",
+      "［31］ Kane RC，Farrell AT，Saber H，et al． Sorafenib for the treatment ofadvanced renal cell carcinoma［J］． Clin Cancer Res，2006，12:7271 － 7278．",
+      "［32］ Flaherty KT，Lathia C，Frye RF，et al． Interaction of sorafenib and cytochrome P450 isoenzymes in patients with advanced melanoma: a phase I / II pharmacokinetic interaction study［J］． Cancer Chemother Pharmacol，2011，68: 1111 － 1118．",
+      "［33］ Pajares B，Torres E，Trigo JM，et al． Tyrosine kinase inhibitors and drug interactions: a review with practical recommendations［J］． Clin Transl Oncol，2012，14: 94 － 101．",
+      "［34］ Lathia C，Lettieri J，Cihon F，et al． Lack of effect of ketoconazole －mediated CYP3A inhibition on sorafenib clinical pharmacokinetics［J］．Cancer Chemother Pharmacol，2006，57: 685 －692．"
+    ],
+    "bbox": [
+      512,
+      417,
+      924,
+      916
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "960",
+    "bbox": [
+      28,
+      43,
+      57,
+      57
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "中 国 临 床 药 理 学 杂 志",
+    "bbox": [
+      386,
+      40,
+      596,
+      55
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "第 30 卷 第 10 期 2014 年 10 月( 总第 180 期)",
+    "bbox": [
+      369,
+      61,
+      613,
+      73
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      979
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      80,
+      84,
+      485,
+      694
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      515,
+      85,
+      922,
+      694
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Ch i n J Cl i n P harmacol",
+    "bbox": [
+      374,
+      40,
+      600,
+      55
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "961",
+    "bbox": [
+      939,
+      41,
+      968,
+      53
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Vol. 30 No. 10 October 2014( Serial No. 180)",
+    "bbox": [
+      376,
+      63,
+      608,
+      74
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 3
+  }
+]

@@ -1,0 +1,745 @@
+[
+  {
+    "type": "text",
+    "text": "临床药师对ICU潜在药物相互作用的鉴别和药学干预",
+    "text_level": 1,
+    "bbox": [
+      90,
+      86,
+      709,
+      107
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "王海涛1， 张抗怀1，刘娜1，王娜1，张莉1， 张小玲2 （西安交通大学第二附属医院 ，1．药学部 ，2．重症医学科 ，陕西 西安710004）",
+    "bbox": [
+      89,
+      127,
+      905,
+      159
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［摘要］ 目的 ：本研究描述药物潜在的药物相互作用（pDDIs）在重症监护室（ICU）发生的危险因素和类型 分析临床药师通过药学干预提高ICU患者用药的安全性和有效性 方法 ： 以 Micromedex和 Medscape药物相互作用数据库为基础鉴别出pD－DIs 临床药师根据患者具体病情 并参考相关文献对pDDIs的严重性进行评估和分析 最后对ICU医嘱中pDDIs进行药学干预 ，并提出具体的建议。 结果 ：一共有560位患者纳入本研究 ，一共审核了6105条药物医嘱 ，分析了420条pDDIs。 最常见的药学干预为监测 包括监测实验室检查值 肝肾功等 结论 ： 数据显示ICU的pDDIs发生率较高 临床药师可以评估和干预pDDIs 提高ICU患者用药安全",
+    "bbox": [
+      87,
+      172,
+      905,
+      271
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［关键词］ 相互作用 ；重症监护室 ；临床药师 ；药学干预 ；监测",
+    "bbox": [
+      89,
+      274,
+      490,
+      288
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［中图分类号］ R942 ［文献标识码］ A ［文章编号］1001－5213（2018）16－1747－04 DOI：10．13286／j．cnki．chinhosppharmacyj．2018．16．17",
+    "bbox": [
+      89,
+      291,
+      887,
+      304
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Identificationofpotentialdrug－druginteractionsinanintensivecareunitandpharmaceuticalin－ terventionbyclinicalpharmacists",
+    "text_level": 1,
+    "bbox": [
+      87,
+      319,
+      902,
+      355
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "WANGHai－tao1，ZHANGKang－huai1，LIUNa1， WANGNa1，ZHANGLi1，ZHANGXiao－ling2 （1．Depart－mentofPharmacy； 2．IntensiveCareUnit，TheSecondAffiliatedHospitalofXi’anJiaotongUniversity，ShaanxiXi’an710004，China）",
+    "bbox": [
+      87,
+      370,
+      905,
+      420
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "ABSTRACT：OBJECTIVE Todescribethefrequencyandtypeofpotentialdrug－druginteractions（pDDIs）inageneralinten－ sivecareunit（ICU） andtomakerecommendationstoimprovethemedicationsafetyandefficacyofICUpatients．METHODS BasedontheMicromedexandMedscapedatabaseofdruginteractions，pDDIswereidentifiedandclassifiedintocategoriesofpo－ tentialclinicaloutcomeandmanagementadvice．RESULTS Atotalof560patientswereenrolledinthisstudy，with6105medi－ cationand420potentialpDDIsidentifiedandanalyzed．Themostcommonpharmaceuticalinterventionwasmonitoringconsis－ tingofmonitoringlaboratoryvalues，liverandkidneyfunctions，electrocardiogramandbloodpressure．CONCLUSION Data showthattheincidenceofpDDIsinICUishigh．ClinicalpharmacistscaninterveneinpDDIstoimprovemedicationsafetyin ICUpatients",
+    "bbox": [
+      87,
+      432,
+      907,
+      563
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "KEYWORDS：drug－druginteractions； ICU； clinicalpharmacist； pharmaceuticalintervention； monitoring",
+    "bbox": [
+      89,
+      568,
+      769,
+      581
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "伴随药物使用而发生的药物不良反应已经成为一个公共问题， 而 在 药 物 不 良 反 应 中， 约 有30％为药物相互作用（DDIs）所导致［1］ 。 在发生 DDIs的患者中，大约有5％～20％的患者需要住院治疗甚至致死［2］ 。 有研究显示，在美国有11％的患者可能发生DDIs，这也直接导致患者医疗费用增加［3］ 尽管DDIs结果在某些时候对药物治疗是有益的 但是大多数DDIs对患者是不利的 这些DDIs在临床药物治疗上也是不希望发生的",
+    "bbox": [
+      89,
+      602,
+      482,
+      772
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "目前国内外一些医疗机构利用一些软件技术和警示来预防DDIs的发生，但是仍有很多DDIs事件的发生，并影响广大患者的用药安全 在重症监护室（intensivecareunit，ICU）的患者发生DDIs发生危险因素比较多，其中包括 ： 联合使用多种药物 使用治疗指数窄的药物， 还有器官功能衰竭特别是肝肾功能不全［4－5］ 。 此外，ICU 老年患者较 多 ， 这 些 患者的药动学和药效学会发生改变［6－7］ 。 由 于 DDIs引发的药物不良反应大部分是可以预测和预防的 ，那么评估和干预ICU 患者医嘱的pDDIs就十分重要。 对 患 者 有 害 的 pDDIs进行药学干预是优化治疗方案的措施，并且可以使ICU患者的药物治疗更加安全和有效 因此作为ICU 治疗团队重要一员的临床药师，可以在临床上鉴别和评估pDDIs，和临床医生一起管理pDDIs。 本研究描述了临床药师对某三甲医院ICU 患者用药医嘱潜在的pDDIs进行鉴别、评估和干预",
+    "bbox": [
+      89,
+      776,
+      482,
+      885
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      602,
+      905,
+      810
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 资料与方法",
+    "text_level": 2,
+    "bbox": [
+      512,
+      814,
+      633,
+      829
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1．1 临床资料 某三甲医院ICU 病区一共有15张床位，接收医院所有病区（除新生儿科）病情危重且需要在ICU加强治疗的患者 所有在2016年2月—2017年2月期间入住ICU 的患者均纳入此次研究。 患者的药物医嘱、人口统计学特征、临床实验室检查等信息均从医院 HIS系统中获取。 ICU 专职临床药师每日均审核医嘱、观察患者病情变化直到患者转科、出院或死亡。",
+    "bbox": [
+      512,
+      832,
+      905,
+      885
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志2018年8月第38卷第16期 ChinHospPharmJ，Aug2018，Vol38，No．16",
+    "bbox": [
+      90,
+      57,
+      635,
+      71
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "· 7471 ·",
+    "bbox": [
+      818,
+      59,
+      889,
+      72
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "［作者简介］ 王海涛 ，男 ，硕士 ，主管药师 ，研究方向 ：ICU药物治疗、抗感染药物 ，电话 ：029－87679574，E－mail：acmilan781114＠yahoo．com",
+    "bbox": [
+      87,
+      901,
+      867,
+      914
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      79,
+      482,
+      170
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 ．2 方法",
+    "text_level": 2,
+    "bbox": [
+      90,
+      173,
+      176,
+      187
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1．2．1 定义 DDIs是指患者在使用一种药物同时或在一定时间内先后使用另一种药物 食品添加剂或某些食品后出现的复合效应［8］ 。 也可以定义为对药物联合治疗的临床反应或药理学的改变［4］",
+    "bbox": [
+      89,
+      191,
+      482,
+      263
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1．2．2 分 析 和 干 预 方 法 某 院 专 职ICU 临 床 药师首先借助合理用药监测系统对ICU病区的治疗药物医嘱进行初步审查 ， 以 Micromedex药物相互作用数据库为基 础 ， 再 参 考 文 献 ， 根 据 患 者 的 具 体病情和身体状况 对 $\\mathrm { p D D I s }$ 的严重性进行判断和分析。 DDIs严重性 分 级 见 表1［9］ 。 如 果 $\\mathrm { p D D I s }$ 有 临床干预意 义 ， 临床药师则会在第 一时间与医师沟通 ，如果医生接受 干 预 ， 就会及时监测或调整用药方案。 皮肤用药、眼 药、中 草 药、肠 外 营 养、肠 内 营养 和 灌 肠 的 药 物 不 在 此 次 研 究 里 面 。 药 学 干 预$\\mathrm { p D D I s }$ 的措施 ： 密 切 监 测 （ 包 括 监 护 血 常 规 、 肝 肾功、凝血指标、电解质、心电 图、血 药 浓 度 等） ， 调 整给药时间 ， 避免联合使用 ， 使用替代药物 ， 调整药物剂量等。",
+    "bbox": [
+      89,
+      266,
+      482,
+      525
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/f4218f3dd681e2566d0fcbc8bda90938e86c0ddd177498945a87fdda0a739d21.jpg",
+    "table_caption": [
+      "表 1 DDIs严重性分级",
+      "Tab1 SeveritylevelsofDDIs"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>严重级别</td><td>具体描述</td></tr><tr><td>Type-AContraindicated</td><td>相互作用可以威胁患者生命,联合使用是禁忌</td></tr><tr><td>Type-BMajor</td><td>相互作用可能威胁患者生命,和/或需要一个替代药物,如果必须联用需要干预去减小或预防严重的不良反应</td></tr><tr><td>Type-CModerate</td><td>相互作用可能会引起患者病情加重,需要严密监测</td></tr><tr><td>Type-DMinor</td><td>相互作用临床效应有限,不需要替换药物</td></tr></table>",
+    "bbox": [
+      90,
+      562,
+      482,
+      693
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1．2．3 统计方法 采用SPSS19．0进行统计分析 ，计数分类资料单因素分析采用 $\\chi ^ { 2 }$ 检验，多因素分析采用 $\\mathrm { L o g i s t i c }$ 非条 件 回 归 分 析， $P { < } 0 . 0 5$ 为 差 异 具有显著性。",
+    "bbox": [
+      89,
+      696,
+      482,
+      768
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 结果",
+    "text_level": 2,
+    "bbox": [
+      90,
+      772,
+      157,
+      785
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2．1 临床资料 一共有560位患者纳入本次研究其中女性患者有213人（38．0％） 60岁以上的患者有308人（55．0％） 平均年龄（61．8±15．6）岁 使用10种药物以上的患者有353人（63．01％） 有303（54．1％）位患者至少经历了一次 $\\mathrm { p D D I s }$ ，其中60岁以上的 患 者 有179人， 有 显 著 性 $( \\chi ^ { 2 } = 4 . 4 3 , P <$ 0．05） ；发生 $\\mathrm { p D D I s }$ 患者中女性有121人，并没有显著性 $( \\chi ^ { 2 } = 0 . 6 6 , P { > } 0 . 0 5 )$ ； 发 生 $\\mathrm { p D D I s }$ 患 者 中 使用10种药物 以 上 的 患 者 为 205人， 有 统 计 学 意 义$( \\chi ^ { 2 } = 6 . 0 5 , P { < } 0 . 0 5 )$ ， 发 生 $\\mathrm { p D D I s }$ 患 者 的 单 因 素分析如（表2）所示。 将单因素分析有意义的2个变量进行 Logistic非条件回归分析，结果如表3所示，结果显 示 $\\geqslant 6 0$ 岁 和 使 用 ≥10种以上药物是影响$\\mathrm { p D D I s }$ 的独立危险因素。",
+    "bbox": [
+      89,
+      790,
+      482,
+      917
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      79,
+      905,
+      210
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/7246905bafe31b206f747307c433dbbfa3459f7329d08278af41bd8f76e34b0c.jpg",
+    "table_caption": [
+      "表 2 潜在的药物相互作用 $\\mathrm { ( p D D I s ) }$ 单因素分析",
+      "Tab2 UnivariateanalysisoffactorswithoccurrenceofpD－ DIs",
+      "表 3 Logistic回归分析 $\\mathrm { p D D I s }$ 的危险因素"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>变量</td><td>pDDIs 发生人数</td><td>P 值</td></tr><tr><td> $\\geqslant 60$ 岁患者</td><td>179</td><td rowspan=\"2\">0.035</td></tr><tr><td> $<60$ 岁患者</td><td>124</td></tr><tr><td>男</td><td>182</td><td rowspan=\"2\">0.416</td></tr><tr><td>女</td><td>121</td></tr><tr><td>使用 $\\geqslant 10$ 种以上药物</td><td>205</td><td rowspan=\"2\">0.014</td></tr><tr><td>使用 $<10$ 种以下药物</td><td>98</td></tr></table>",
+    "bbox": [
+      514,
+      269,
+      905,
+      363
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/509f2df5c209d58982192ce5bc674e0ca2115349efcfea1225cf774fa1a3962a.jpg",
+    "table_caption": [
+      "Tab3 Logisticregressionanalysisofriskfactorsaffecting $\\mathrm { p D D I s }$"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>变量</td><td> $\\beta$ </td><td>P值</td><td>OR值</td><td>95%CI</td></tr><tr><td> $\\geqslant 60$ 岁患者</td><td>0.422</td><td>0.015</td><td>1.525</td><td>1.085~2.144</td></tr><tr><td>使用 $\\geqslant 10$ 种以上药物</td><td>0.489</td><td>0.006</td><td>1.631</td><td>1.149~2.317</td></tr><tr><td>常量</td><td>-0.539</td><td></td><td></td><td></td></tr></table>",
+    "bbox": [
+      512,
+      422,
+      905,
+      476
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 ．2 $\\mathrm { p D D I s }$ 类型和干预措施 临床药师一共审核了6105条药物医嘱，其中一共有420对pDDIs。 一共有48种药物相互作用对 ， 其中15种占到所观察到 $\\mathrm { p D D I s }$ 的73．8％，药物相互作用严重程度具体见（表4） 。 临床药师一共药学干预951条，每一个 $\\mathrm { p D }$ －DIs可能有多个药学干预措施。 最常见的措施为监测，包括监测实验室指标、心电图、血压、肝肾功等。其他的干预措施包括 ： 避免联合使用、 换用其他药物、调整剂量和频次等 ，具体见（表5） 。",
+    "bbox": [
+      510,
+      481,
+      905,
+      648
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/9e9a97423ee8cd0cb7f29a2d3d197a7a8628c417f6c769f092115f297906945d.jpg",
+    "table_caption": [
+      "表 4 ICU患者最常见的 15 种 $\\mathrm { p D D I s }$",
+      "Tab4 FifteenmostfrequentlyoccurringpDDIsinICU $\\mathrm { p a ^ { - } }$ tients"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>pDDIs</td><td>次数</td><td>严重分级</td></tr><tr><td>袢利尿剂+非甾体抗炎药</td><td>36</td><td>morderate(C)</td></tr><tr><td>咪达唑仑+三唑类抗真菌药</td><td>35</td><td>morderate(C)</td></tr><tr><td>喹诺酮类药物+茶碱类药物</td><td>30</td><td>major(B)</td></tr><tr><td>碳青霉烯类药物+丙戊酸钠</td><td>26</td><td>major(B)</td></tr><tr><td>袢利尿剂+糖皮质激素</td><td>21</td><td>minor(D)</td></tr><tr><td>胺碘酮+芬太尼</td><td>20</td><td>major(B)</td></tr><tr><td>非甾体抗炎药+B受体阻滞剂</td><td>20</td><td>morderate(C)</td></tr><tr><td>利奈唑胺+去甲肾上腺素</td><td>20</td><td>Contraindicated(A)</td></tr><tr><td>莫西沙星+华法林</td><td>19</td><td>morderate(C)</td></tr><tr><td>胺碘酮+三唑类抗真菌药</td><td>18</td><td>major(B)</td></tr><tr><td>万古霉素+氨基糖苷类药物</td><td>15</td><td>major(B)</td></tr><tr><td>奥美拉唑+伏立康唑</td><td>14</td><td>minor(D)</td></tr><tr><td>芬太尼+三唑类抗真菌药</td><td>13</td><td>major(B)</td></tr><tr><td>咪达唑仑+茶碱类药物</td><td>12</td><td>morderate(C)</td></tr><tr><td>芬太尼+呋塞米</td><td>11</td><td>morderate(C)</td></tr></table>",
+    "bbox": [
+      514,
+      707,
+      905,
+      915
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "· 8471 ·",
+    "bbox": [
+      105,
+      59,
+      176,
+      71
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志2018年8月第38卷第16期 ChinHospPharmJ，Aug2018，Vol38，No．16",
+    "bbox": [
+      361,
+      57,
+      905,
+      70
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      979
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/5a13f0d378bd2bafda239a7b9e9f7af049f41b2d36d47bb3f4d8390385888507.jpg",
+    "table_caption": [
+      "表 5 干预建议",
+      "Tab5 Advisedmanagementstrategy"
+    ],
+    "table_footnote": [
+      "注 ：a实验室值包括 ：电解质 血常规 血药浓度 血气值等"
+    ],
+    "table_body": "<table><tr><td>干预建议</td><td>次数</td></tr><tr><td>密切监测</td><td></td></tr><tr><td> $实验室值^a$ </td><td>221</td></tr><tr><td>凝血时间</td><td>40</td></tr><tr><td>肾功能</td><td>37</td></tr><tr><td>肝功能</td><td>30</td></tr><tr><td>心电图</td><td>115</td></tr><tr><td>血压监测</td><td>80</td></tr><tr><td>临床疗效或毒性监测</td><td>152</td></tr><tr><td>避免联合使用</td><td>106</td></tr><tr><td>调整剂量或频次</td><td>30</td></tr><tr><td>风险调整策略</td><td></td></tr><tr><td>换用同类其他药品</td><td>90</td></tr><tr><td>排钾或保钾利尿剂</td><td>25</td></tr><tr><td>增加胃肠道和肝脏保护</td><td>36</td></tr></table>",
+    "bbox": [
+      92,
+      112,
+      484,
+      296
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3 讨 论",
+    "text_level": 2,
+    "bbox": [
+      90,
+      313,
+      157,
+      326
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "根据文献报道，高龄也是一个发生 $\\mathrm { p D D I s }$ 的高危因素，这是因为随着年龄增长患者得慢性疾病的机会也 会 增 多 ， 常 常 需 要 多 种 药 物 联 合 治 疗 ［7，10］ 。本研究和其他文献报道一样［4，10］ 发现年龄和 $\\mathrm { p D D I s }$ 的发生率有明显的关系。 另外年龄大的患者肝肾功能也会退化， 使他们在ICU 治疗时间长， 增加使 用药物的天数，从而使这些患者联合使用更多药物的机会［6－7］ 。 和目前的研究一样［4－5，9］ ，使用多种药品数量是 发 生 $\\mathrm { p D D I s }$ 独 立 危 险 因 素 。 本 研 究 发 现 性 别和 $\\mathrm { p D D I s }$ 的发生没有明显关系 ，这和一些文献研究结果一样［4，10］ 。 但是也有研究显示性别和 $\\mathrm { p D D I s }$ 的发生有关 系［11］ ， 这些研究认为女性患者比男性患者更容易发生pDDIs。 然而目前还没有确切的证据说明性别和 $\\mathrm { p D D I s }$ 之间有关系。",
+    "bbox": [
+      89,
+      331,
+      482,
+      595
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "只有15对相互作用的药物对占全部 $\\mathrm { p D D I s }$ 的73．8％。 ICU 病 房 和 普 通 病 房 发 生 的 $\\mathrm { p D D I s }$ 有 显著地不同，比如 ：咪达唑仑和三唑类抗真菌药之间的$\\mathrm { p D D I s }$ 在普通病房很少会发生 但是在ICU 病区这个 $\\mathrm { p D D I s }$ 却是排在最常见的 $\\mathrm { p D D I s }$ 第二位，因为ICU病人常常 需 要 咪 达 唑 仑 来 镇 静。 苯 二 氮 芯卓类药物有多种药理作用 ：镇静、抗焦虑、催眠、抗惊厥和肌肉松弛等，特别是咪达唑仑是ICU患者常用的药物 。 $\\mathrm { C Y P 3 A 4 }$ 在咪达唑仑、阿普唑仑等苯二氮 芯卓类药物的代谢起着至关重要的作用。 抗真菌药（特别是伏立康唑、氟康唑）是较强的 CYP3A4抑制剂，它可以增加咪达唑仑 氟哌啶醇和芬太尼等镇静药的曲线下面积，可能导致这些镇静药物疗效增加而发生不良反应［12－13］ 当咪达唑仑和伏立康唑联合使用时，咪达唑仑的最高血药浓度可以增加3．8倍，从而使联用这两种药物的患者需要更长的唤醒时间［12］右美托咪定是咪达唑仑的合适的替代药物 ， 因为它不受CYP450抑制 另外也可以考虑使用棘白菌素类抗真菌药替代三唑类药物。",
+    "bbox": [
+      89,
+      599,
+      482,
+      917
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      79,
+      904,
+      112
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "目前的研究显示在ICU 病区 $\\mathrm { p D D I s }$ 发生率非常高，一般为普通病房的2倍［14］ ， 我们的研究也证实了ICU 患者 $\\mathrm { p D D I s }$ 的发生率很高 ， 至少有54％的ICU 患者至少发生一次 $\\mathrm { p D D I s }$ 。 在 $\\mathrm { p D D I s }$ 中有的没有临床意义 ，比如奥美拉唑可以升高伏立康唑的浓度和药时曲线下面积 ，但升高的幅度不大，临床上意义不大［15］ 。 如果每个 $\\mathrm { p D D I s }$ 都反馈给临床医生，那么会引起警惕疲劳［16］ 。 而一个pDDIs的临床意义不 容 易 确 定， 可 能 需 要 个 体 化 的 评 估。 如 果$\\mathrm { p D D I s }$ 不根据患者具体病情 对药物的反应 给药途径和剂量等 很难去评价和分析一个 $\\mathrm { p D D I s }$ 的临床意义。 比如 HMGCoA 还原酶抑制剂， 这类药物 有很多的适应症 ，对大多数患者是安全和有效的 并且有数据显示这类药物对脓毒症和一些感染性疾病有益［17］ 然而，高剂量的 $\\mathrm { H M G C o A }$ 还原酶抑制剂和一个中到强度的CYP450抑制剂联合使用可能会导致横纹肌横纹肌溶解症 还有一些含金属离子的药物（铝碳酸镁片 硫糖铝 硫酸亚铁等） ， 它们与喹诺酮类药物的片剂（莫西沙星、左氧氟沙星等）一起服用，易产生络合物而减少喹诺酮类药物的吸收 ，但是如果是注射液则不会发生此类反应 这就需要我们ICU临床药师去根据每个患者情况去具体分析 ，然后把有临床价值和意义的 $\\mathrm { p D D I s }$ 反 馈 给 临 床 医生，并提出药学干预措施",
+    "bbox": [
+      510,
+      116,
+      905,
+      562
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "关于临床的干预 ， 最常见的药学干预为严密监测体征、症状、实验室相关指标等， 这和一些文献报道一致［4，10］ 。 我们发现大多数 $\\mathrm { p D D I s }$ 可以通过监测临床症状或实验室数据来管理和干预 因为ICU患者通过严 密 的 监 测 ， 偏 离 正 常 值 会 很 快 被 发 现。更好的临床决策是医嘱和实验室数据联系起来 ， 只有超出正常值时候才有临床意义。 临床药师根据患者具体情况监测 DDIs， 必要时管 理 药 物 治 疗 ， 并 减少患者病情恶化，这对于ICU患者的药物治疗是至关重要的。 还有一些干预手段包括剂量调整和监测可能发生的不良反应 等 ， 对每一个可能发生的 $\\mathrm { p D - }$ DIs风险和获益进行个体化的评估",
+    "bbox": [
+      510,
+      565,
+      907,
+      787
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "临床药师参与ICU 患者医嘱审核和药物治疗是十分 有 必 要 的， 分 析pDDIs是 十 分 重 要 的 ， 因 为分析pDDIs需要根据每一位病的病情 基础疾病等才能在临床上和医生一起正确地处理pDDIs 临床药师的药学知识加上医师的临床经验可以区分一个$\\mathrm { p D D I s }$ 在临床上有意义或没意义 ， 帮助患 者 优 化 药",
+    "bbox": [
+      510,
+      790,
+      907,
+      898
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "（ 下转第 1 7 5 8 页 ）",
+    "bbox": [
+      789,
+      904,
+      902,
+      917
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志2018年8月第38卷第16期 ChinHospPharmJ，Aug2018，Vol38，No．16",
+    "bbox": [
+      90,
+      58,
+      635,
+      70
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "· 9471 ·",
+    "bbox": [
+      818,
+      60,
+      889,
+      71
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      978
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "惩措施是本管控体系的有益补充 ，发挥协同作用",
+    "bbox": [
+      90,
+      79,
+      463,
+      95
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "合理用药管控任重而道远 ， 本院通过近两年的实践取得了一定的效果，随着医改的进一步深入 ，临床路径管理和单病种付费模式逐渐推广 ， 接下来将这套合理用药管控体系进行拓展 ， 使其实现针对患者的具体情况实施合理用药管控是更为有意义的后续延伸课题。",
+    "bbox": [
+      89,
+      98,
+      482,
+      206
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "参考文献 ：",
+    "text_level": 2,
+    "bbox": [
+      90,
+      210,
+      161,
+      223
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "［1］ YangT，LiuL，XiaoJ．ClinicalApplicationandManagementofHospitalRationalUseofDrugs［J］．HospAdminJChinPLA（解放军医院管理杂志） 201623（3） 291－293",
+      "［2］ LiangD，CuiYM．Approachesfortheseparationofmedicineanddrug［J］．ChinHospPharmJ（中国医院药学杂志） ，2018，38（9） ：903－906",
+      "［3］ LiuJ，RuAZ，CaiRJ， ． Useofadiverseadjuvantdrugearlywarningmonitoringsystemindrug management［J］．ChinHospPharmJ（中国医院药学杂志） 201838（5） ：547－551",
+      "［4］ ZhouYW，LiangYF．Todiscusstheactivelycarryoutpharma－ceuticalcarefortherationaluseofdrugsincontroltoincomeration［J］．ChinJofClinRationalDrugUse（临床合理用药杂志） 20147（3） 159－160",
+      "［5］ ZhengY．ToDiscussthemethodofcontroltheproportionofdrugincome［J］．ChinPharm（中国药师） ，2013，16（11） ：1753－1755．",
+      "［6］ LiuYC，ZhangSH，GuoH， ．Effectanalysisofcontrollingthemedicalfeesofinpatientsbypharmacistsinnew medicalreformprogram ［J］．ChinHospPharmJ （中国医院药学杂志） 201838（2） 189－191"
+    ],
+    "bbox": [
+      92,
+      227,
+      485,
+      310
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      514,
+      79,
+      907,
+      275
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "［收稿日期］2018－0328",
+    "bbox": [
+      771,
+      278,
+      905,
+      291
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "（ 上接第 1 7 4 9 页 ）",
+    "text_level": 2,
+    "bbox": [
+      90,
+      388,
+      206,
+      401
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "物治疗方案，从而提高患者的用药安全",
+    "text_level": 2,
+    "bbox": [
+      90,
+      406,
+      391,
+      420
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "参考文献 ：",
+    "text_level": 2,
+    "bbox": [
+      90,
+      424,
+      161,
+      437
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "［1］ GrizzleAJ，MahmoodM H，KoY， ．Reasonsprovidedbyprescriberswhenoverridingdrug－druginteractionalerts［J］AmJManageCare200713（10） 573－578",
+      "［2］ PapadopoulosJ，SmithburgerPL．Commondruginteractions leadingtoadversedrugeventsintheintensivecareunit：man－ agementandpharmacokineticconsiderations［J］．CritCare Med201038（6Suppl） ：S126",
+      "［3］ AparasuR，BaerR，AparasuA．Clinicallyimportantpotentialdrug－druginteractionsinoutpatientsettings［J］．Rsap20073（4） 426437",
+      "［4］ HasanSS，LimKN，AnwarM， ．Impactofpharmacists＇in－ terventiononidentificationandmanagementofdrug－drugin－ teractionsinanintensivecaresetting．［J］．SingapMedJ，2012， 53（8） 526－531",
+      "［5］ ReisAMM，CassianiSHB．Prevalenceofpotentialdruginterac－ tionsinpatientsinanintensivecareunitofauniversityhospi－ talinBrazil［J］．Clinics2011669－15",
+      "［6］ PasinaL，DjadeCD，NobiliA， ．Drug－druginteractionsinacohortofhospitalizedelderlypatients［J］．PharmacoepidemiolDrugSaf201322（10） 1054－1060",
+      "［7］ CorsonelloA， AbbatecolaAM，FuscoS， ．Theimpactofdruginteractionsandpolypharmacyonantimicrobialtherapyintheelderly［J］．ClinMicrobiolInfect201521（1） ：20",
+      "［8］ XiaoHL．RecommendationsofFDAonstudiesandlabelingwritingofdruginteraction ［J］．DrugEvaluationResearch（药物评价研究） ，2013，36（1） ：1－4",
+      "［9］ IsmailM，KhanF，NoorS， ．Potentialdrug－druginterac－",
+      "tionsinmedicalintensivecareunitofatertiarycarehospitalinPakistan［J］．IntJClinPharm201638（5） ：1052",
+      "［10］ AndradeTNGDSilvestreCCCunhaLC ．Pharmaceutical interventionassessmentintheidentificationandmanagement ofdruginteractionsinanintensivecareunit［J］．JPharmSci－ US20155（1） 13－18",
+      "［11］ KafeelH，RukhR，QamarH， ．PossibilityofDrug－DrugInteractioninPrescriptionDispensedbyCommunityandHos－pitalPharmacy［J］．JPharmPharmacol，2014，5（5） ：401－407",
+      "［12］ SaariTILaineK LeinoK ．Effectofvoriconazoleonthepharmacokineticsandpharmacodynamicsofintravenousando－ralmidazolam［J］．ClinPharmacolTher，2006； 79（4） ：362－370",
+      "［13］ Kotlinska－LemieszekA．ShouldMidazolamDrug－DrugInterac－tionsbeofConcerntoPalliativeCarePhysicians？［J］．DrugSaf201336（9） 789－790",
+      "［14］ Zwart－VanRJ，UijtendaalE，TenBM， ．Frequencyandna－tureofdrug－druginteractionsinaDutchuniversityhospital［J］．BritJClinPharmaco201068（2） ：187－193",
+      "［15］ WoodN，TanK，PurkinsL， ．Effectofomeprazoleonthesteady－statepharmacokineticsofvoriconazole［J］．BritJClinPharmaco201556（s1） ：56－61",
+      "［16］ SmithburgerPL Kane－GillSLSeybertAL．Drug－druginterac－ tionsinthemedicalintensivecareunit：anassessmentoffre－ quency，severityandthemedicationsinvolved［J］．IntJPharm Pract201220（6） 402－408",
+      "［17］ TleyjehIM，KashourT，HakimFA， ．Statinsforthepre－ventionandtreatmentofinfectionsasystematicreviewandmeta－analysis［J］．ArchInternMed2009169（18） 1658－1667"
+    ],
+    "bbox": [
+      90,
+      439,
+      485,
+      822
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      514,
+      387,
+      907,
+      783
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "［收稿日期］2017－12－28",
+    "bbox": [
+      771,
+      785,
+      905,
+      797
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "· 8571 ·",
+    "bbox": [
+      105,
+      60,
+      176,
+      71
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志2018年8月第38卷第16期 ChinHospPharmJ，Aug2018，Vol38，No．16",
+    "bbox": [
+      361,
+      58,
+      905,
+      70
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      833,
+      979
+    ],
+    "page_idx": 3
+  }
+]

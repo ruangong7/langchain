@@ -1,0 +1,656 @@
+[
+  {
+    "type": "text",
+    "text": "响应曲面法在麻醉药物相互作用中的研究现状及进展",
+    "text_level": 1,
+    "bbox": [
+      152,
+      89,
+      852,
+      114
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "黄英 1 ，贾晋太 2\\*",
+    "bbox": [
+      426,
+      121,
+      579,
+      138
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "（1. 长治医学院，山西 长治；2. 长治医学院附属和平医院麻醉科，山西 长治）",
+    "bbox": [
+      268,
+      140,
+      734,
+      153
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘要：响应曲面法（RSM）是一种多维模型法，用于表述两个及两个以上的自变量改变时，作为因变量的响应曲面发生变化的规律，已成功应用于工业、农业等领域。近年来，RSM被用来描述两种麻醉药物合用时的药效学特征,通过将两种药物各种配比的量-效曲线构筑成为三维的反应曲面来判定药物相互作用的性质，并可定量描述药物相互作用的程度，被认为是目前研究药效学相互作用的理想方法。本文就RSM 在麻醉药物相互作用中的研究现状及进展作一综述，旨在为麻醉医师优化相关麻醉药物使用方案及开展进一步研究提供借鉴。",
+    "bbox": [
+      107,
+      157,
+      895,
+      208
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词：响应曲面法；麻醉药；药物相互作用",
+    "bbox": [
+      109,
+      209,
+      371,
+      220
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号：R614 文献标识码：A DOI: 10.19613/j.cnki.1671-3141.2019.93.049",
+    "bbox": [
+      109,
+      221,
+      648,
+      234
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "本文引用格式：黄英 , 贾晋太 . 响应曲面法在麻醉药物相互作用中的研究现状及进展 [J]. 世界最新医学信息文摘 ,2019,19(93):101-102,109.",
+    "bbox": [
+      109,
+      236,
+      873,
+      249
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Research Status and Progress of Response Surface Methodology in Anesthetic Drug Interaction",
+    "text_level": 1,
+    "bbox": [
+      159,
+      258,
+      845,
+      273
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "HUANG Ying1 , JIA Jin-tai2\\*",
+    "bbox": [
+      415,
+      276,
+      589,
+      289
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "(1.Changzhi Medical College, Changzhi Shanxi;2.Department of Anesthesiology, Peace Hospital Affiliated to Changzhi Medical College, Changzhi Shanxi)",
+    "bbox": [
+      80,
+      292,
+      924,
+      306
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "ABSTRACT: Response Surface Methodology (RSM) is a multi-dimensional model method which was used to describe the change of response surface as a dependent variable when two or more independent variables are changed. It has been successfully applied in many fields such as industry and agriculture. In recent years, RSM is considered to be the ideal method for studying pharmacodynamic interactions. It has been used to describe the pharmacodynamics of two anesthetic drugs in combination, and to determine the nature of drug interactions by constructing a three-dimensional response surface by combining the dose-effect curves of the two drugs in various ratios,also to quantitatively describe the extent of drug interactions. This article reviews the research status and progress of RSM in anesthetic drug interactions, aiming to provide reference for anesthesiologists to optimize the use of anesthetic drugs and further research.",
+    "bbox": [
+      107,
+      308,
+      897,
+      434
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "KEY WORDS: Response surface methodology; Anesthetics; Drug interaction",
+    "bbox": [
+      109,
+      436,
+      616,
+      449
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "0 引言",
+    "text_level": 2,
+    "bbox": [
+      75,
+      491,
+      137,
+      506
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "早期由于技术方面的限制，分析研究药物药效学相互作用的方法多选择等效线图解法与多重剂量效应曲线法。但是等效线图解法只能描述单一水平上的药效相互作用，多重剂量效应曲线法中每条曲线所表示的两种药物中只有其中一种药物的浓度发生了改变，在解释药物相互作用的效果上尚不如前者 [1]。而响应曲面法（response surface methodology，RSM）则能完整地描述药物的量效关系，并确切的显示两种或多种药物间相互作用的类型及最佳水平范围，而且所需要的试验组数相对较少，可节省人力物力，被认为是目前研究药效学相互作用的理想方法。现结合国内外相关文献就 RSM 在麻醉药物相互作用中的研究现状及进展作一综述。",
+    "bbox": [
+      73,
+      506,
+      487,
+      651
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 响应曲面法的发展",
+    "text_level": 2,
+    "bbox": [
+      75,
+      657,
+      243,
+      672
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "RSM 最早于 1951 年由 Box 和 Wilson[2] 提出，并将其应用于各种试验的优化，在农业、工业及生物技术等多方面都有成功的应用 [1]。近年来，RSM 开始用来描述两种药物合用时的相互作用性质和机制，包括了抗生素类、抗癫痫类和抗炎类等多种药物 [3-8]。其本质是将两种药物各种配比的量 - 效曲线构筑成为三维的反应曲面，结合其形态及统计学分析，来判定药物相互作用的性质，并可定量描述药物相互作用的程度。2000 年 Minto 等 [9] 首次报道了应用 RSM 研究麻醉药物间的相互作用，并认为 RSM 实际上是将两种或两种以上药物的任何浓度组合视为一种“新药”，将药物合用后产生的效应在三维坐标图上表示出来，在坐标中 X 和 Y 轴分别代表 A、B 麻醉药物的不同浓度，Z 轴则代表药物的效应，麻醉药物单独的量效关系以及组合间的相互作用均可通过这个反应曲面来反映。RSM 不仅能够以最少的患者获得最可靠的结果，也能够与其它信息整合达到优化麻醉（例如充分麻醉、快速清醒）的效果，同时还可以从响应曲面中得到等效线与多重剂量效应曲线。",
+    "bbox": [
+      75,
+      674,
+      487,
+      869
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "作者简介 ：黄英（1993-），女，汉族，重庆市奉节县人，在读硕士研究生，住院医师，研究方向 ：吸入麻醉自动化控制的理论与临床应用研究。通讯作者 \\* ：贾晋太（1963-），男，汉族，山西长治人，博士，主任医师，研究方向 ：吸入麻醉自动化控制的理论与临床应用研究，专业特长 ：危重疑难手术的麻醉及抢救。",
+    "bbox": [
+      80,
+      876,
+      480,
+      934
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "在 RSM 中协同作用是通过水平表面向外弯曲来表示的；而相加作用通过水平表面向内弯曲表示。响应曲面参数是使用与两种药物的浓度和作用范围的所有区域有关的数据点同时估计的，与等效线不同，此模型可用于描述整个浓度和效应水平范围内的相互作用类型，并对所研究药物的任何比例进行效应预测。有学者指出应用 RSM 的前提是：联合药物中各个药物单独使用时的量效关系满足 Hill 方程（S 型曲线 )。",
+    "bbox": [
+      515,
+      491,
+      929,
+      583
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2 响应曲面法在麻醉药物相互作用中的研究",
+    "text_level": 2,
+    "bbox": [
+      515,
+      589,
+      862,
+      604
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2.1 镇静与镇痛药物之间的相互作用",
+    "text_level": 2,
+    "bbox": [
+      515,
+      605,
+      763,
+      619
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2.1.1 丙泊酚与阿片类药物",
+    "text_level": 2,
+    "bbox": [
+      515,
+      619,
+      685,
+      631
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "全凭静脉麻醉需要镇静与镇痛药物联合使用来实施，但联合应用时因为两药的相互作用，不恰当的药物配比会引起麻醉过深或者过浅的风险。已有研究表明，阿片类药物可以降低提供足够麻醉深度所需的镇静药物的剂量。全凭静脉麻醉的麻醉维持通常以靶控输注丙泊酚和瑞芬太尼为主。2004 年，Kern 等 [10] 用 Greco模型描述了丙泊酚与瑞芬太尼联合麻醉下患者对各种伤害性刺激反应的耐受能力，表明他们之间存在协同作用。同年，Drover 等 [11]以行胃镜检查的 32 例患者为研究对象，通过 Minto 模型对数据进行分析，结果表明在瑞芬太尼存在的情况下丙泊酚 $\\mathrm { C } _ { 5 0 }$ （50% 患者耐受刺激时的浓度）从 3.7μg/mL 降到 2.8μg/mL。说明对于同等强度的刺激，瑞芬太尼可以降低丙泊酚的用量，但是将瑞芬太尼的剂量增加到一定水平以上时并不会导致丙泊酚需求的大幅减少，却增加了瑞芬太尼的副作用如迟发性呼吸抑制。越来越多的研究表明丙泊酚与瑞芬太尼在伤害性刺激反应方面表现为协同作用，在脑电双频谱指数（bispectral index,BIS）中存在相加作用 [12,13]。近几年，不少学者也探究了丙泊酚与瑞芬太尼在肌肉强直和呼吸暂停等方面的相互作用。2017 年 Choe 等 [14] 应用响应曲面法证实联合应用丙泊酚与瑞芬太尼对肌肉强直和呼吸暂停分别具有次加性和协同作用，对意识消失（loss of consciousness,LOC）、脑电图参数的影响是相加作用。然而对于丙泊酚与瑞芬太尼相互作用的机制一直未得到很好的解释。Bouillon 等 [15] 研究丙泊酚与瑞芬太尼在催眠、喉镜耐受、BIS 和脑电图近似熵及疼痛强度等方面的相互作用，并且认为两者之间可能的作用机制是阿片类药物降低疼痛刺激，然后投射到皮质，镇静催眠药物作用于皮质，降低手术期间对疼痛刺激反应的概率。",
+    "bbox": [
+      515,
+      631,
+      929,
+      931
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "世界最新医学信息文摘 2019 年第 19 卷第 93 期",
+    "bbox": [
+      322,
+      40,
+      682,
+      55
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "101",
+    "bbox": [
+      900,
+      42,
+      927,
+      54
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "·综述·",
+    "bbox": [
+      826,
+      64,
+      919,
+      86
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "投稿邮箱 ：sjzxyx88@126.com",
+    "bbox": [
+      28,
+      962,
+      927,
+      977
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      65,
+      63,
+      478,
+      90
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.1.2 七氟烷与阿片类药物",
+    "text_level": 2,
+    "bbox": [
+      65,
+      91,
+      235,
+      102
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "静吸复合麻醉常用的麻醉诱导及维持的组合是七氟烷复合阿片类药物，探讨两者之间的相互作用有助于提高麻醉效果，减少不良反应的发生。Kleef 和 Dahan[16,17] 等应用改进的 Minto 模型研究了七氟烷与阿芬太尼联合用药对 9 名男性健康志愿者的呼吸（通气控制）、循环（心率）和 BIS 的影响，结果表明七氟烷与阿芬太尼之间的浓度效应呈线性关系并观察到两种药物对安静时的通气量和心率影响为协同作用；对缺氧条件下的通气量、心率以及 BIS 等表现为相加作用；其中七氟烷对 BIS 的影响与阿芬太尼浓度无关，而阿芬太尼无论在七氟烷存在与否的情况下都对 BIS 没有影响；结果还显示七氟烷和阿芬太尼联合用药比单独用药更能引起通气量和心率的下降；在研究的剂量范围内，与安静状态相比，缺氧时机体对麻醉药物更为敏感。因此在临床上联合应用两者时应警惕缺氧情况的出现。2012 年，Heyse[18] 等就七氟烷与瑞芬太尼之间的相互作用做了研究，并比较了 Greco 模型、固定 C50（O）分层模型、缩放 C50（O）分层模型、简化的 Greco 模型、Minto 模型等五种曲面模型在描述七氟烷与瑞芬太尼相互作用的拟合效果上的优良，得出了就麻醉的催眠和镇痛效果而言，七氟烷与瑞芬太尼之间表现出强烈的协同作用。随后他又采用交叉试验设计的方法，发现七氟烷与瑞芬太尼在 BIS、状态熵（SE）和反应熵（RE）上存在相加作用；而对于复合变异指数，则存在适度的协同作用 [19]。",
+    "bbox": [
+      65,
+      102,
+      478,
+      363
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.2 镇静药物之间的相互作用",
+    "text_level": 2,
+    "bbox": [
+      65,
+      364,
+      268,
+      375
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "临床上对镇静与镇痛药物之间的相互作用研究较多，而镇静药物之间的相互作用研究较少。Schumacher 等 [20] 报道称 60 例患者术前接受不同浓度的丙泊酚和七氟烷，在达到伪稳态后，记录BIS、SE 和 RE，以及对摇动和呼喊、电刺激、喉罩置入和喉镜检查等一系列刺激强度增加的反应，发现丙泊酚与七氟烷对成人 BIS的影响具有相加作用，且单用七氟烷不能抑制 BIS 至与丙泊酚达到相同的水平，说明七氟烷和丙泊酚对脑电的抑制作用效果不同。同样，Harris [21] 等通过研究观察到 50% 患者 LOC 时 0.46ET% 七氟烷相应的丙泊酚目标浓度为 1.2μg/ mL；50% 患者手术切皮不动时 0.86ET% 七氟烷相应的的丙泊酚目标浓度为 5.4 μg/ mL。研究证实了丙泊酚与七氟烷以相加作用产生 LOC 和手术切皮不动，且表明两者具有共同的作用机制或单一作用位点，可能与 γ- 氨基丁酸 A 型（GABA（A））受体有关。LOC 和手术切皮不动似乎是在中枢神经系统的不同水平上介导的。这与 $\\mathrm { S e b e l } ^ { [ 2 2 ] }$ 等的结论一致：丙泊酚和七氟烷均能单独增强 GABA（A）受体对 GABA 亚最大浓度的响应幅度，且呈剂量依赖性，这种增强是由 GABA 受体表面亲和力的增加所支持的。两种麻醉药的联合应用进一步增强了GABA 受体的表观亲和力，且对受体功能的调节是相加的，表明这两种药物在 GABA（A）受体上有单独的结合位点和聚合的作用途径，这从作用机制层面解释了丙泊酚与七氟烷之间的相加作用。",
+    "bbox": [
+      65,
+      376,
+      480,
+      635
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.3 镇痛药物之间的相互作用",
+    "text_level": 2,
+    "bbox": [
+      65,
+      636,
+      268,
+      648
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "随 着 加 速 康 复 外 科 理 念（enhanced recovery after surgery，ERAS）的提出，术后镇痛作为其中尤为重要的一环，而越来越多的研究表明响应曲面法能够为多种药物在术后镇痛中的联合应用提供有效的评估和指导，进而为临床中不同镇痛药物联合应用提供最优化的配伍方案。刘鹏飞等 [23] 选择舒芬太尼和曲马多为研究药物，采用响应曲面法探讨阿片类 - 非阿片类镇痛药对术后伤口疼痛刺激的药效学相互作用，结果表明二者在抑制术后疼痛刺激具有明显的协同作用，其中在抑制体动下视觉模拟评分（visualanalogue score，VAS）时协同作用更为明显。随后刘文涛等 [24] 分析了术后镇痛药地佐辛与氟比洛芬酯之间的相互作用，获得了达到良好的镇痛效果和更少的副作用发生时的最佳浓度组合。",
+    "bbox": [
+      65,
+      649,
+      480,
+      791
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.4 其他麻醉相关药物中的应用",
+    "text_level": 2,
+    "bbox": [
+      65,
+      793,
+      282,
+      804
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "可乐定是一种 α2- 肾上腺素能受体激动剂，除了常作为降压药使用外，它还具有抗焦虑和镇静作用 [25]，然而它的效果并不局限于此，研究表明术前用可乐定可以降低术中对阿片类药物和挥发性麻醉剂的需求，还可以减少静脉麻醉药的诱导剂量 [26,27]。 $\\mathrm { H i g u c h i } ^ { [ 2 8 ] }$ ] 等通过随机对照研究结果显示 $\\mathrm { E C } _ { 5 0 } \\pm \\mathrm { S E }$ 值在空白对照组、 $2 . 5 \\mu \\mathrm { g } / \\mathrm { k g }$ 可乐定组和 5.0μg/kg 可乐定组分别为$2 . 6 7 \\pm 0$ .18μg/mL、1.31±0.12μg/mL 和 $0 . 9 1 \\pm 0 .$ 13μg/mL。可乐定组的 $\\mathrm { E C } _ { 5 0 }$ 显著小于对照组，并发现丙泊酚与可乐定对 LOC 具有50 相加作用。这与先前 Ghignone[26,27] 的结论一致。在临床上三种及三种以上药物复合应用也很常见，仅仅研究两种药物的相互作用及最佳剂量组合已经远远不能满足临床的需求，因而探索响应曲面法在多种麻醉药物之间的相互作用也是研究者目前研究的方向。为此 Short[29] 等研究了咪达唑仑、丙泊酚和阿芬太尼之间的相互作用，发现在镇静方面虽然两种药物组合的作用都是协同的，但三种药物组合的镇静效果却低于预期，与单独药物相比，三种药物联合使用仍然导致剂量 - 反应曲线显著向左偏移 ( 协同作用 )。Minto[9] 在 Short 等的研究基础上，应用 RSM 来分析这三种药物在镇静效应中的相互作用，指出分别单独大剂量应用丙泊酚和阿芬太尼可以使全部患者消除对声音的反应，但单独应用高剂量的咪达唑仑只有 80% 的患者可消除对声音的反应，继续增加咪达唑仑的剂量也能使全部患者消除对声音的反应。而当联合了丙泊酚和阿芬太尼后，达到同样的镇静催眠效果时，明显减少了咪达唑仑的用量。我国台北 Liou[30] 等采用 OAA/S 评分作为镇静效应指标，对 103 例行胃镜检查患者进行镇静监测，结果发现咪达唑仑与阿芬太尼的协同作用最强 $( \\mathrm { U } _ { 5 0 }$ 下降 24.3%)，而加入丙泊酚后，几乎没有提供额外的协同作用 $( \\mathbf { U } _ { 5 0 }$ 仅下降 25.8%)。研究证明 RSM 能够预测咪达唑仑，阿芬太尼或丙泊酚组合后对行胃镜治疗患者的镇静程度，并明确三种不同类型药物之间的相互作用来帮助指导镇静期间药物的选择及用量，同时还指出阿芬太尼占比 <12% 时可以避免呼吸抑制的发生，可以在一定程度上降低单独应用阿片类药物引起呼吸抑制的风险，增加麻醉的安全性。",
+    "bbox": [
+      65,
+      805,
+      480,
+      935
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      505,
+      63,
+      919,
+      337
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "3 结语",
+    "text_level": 2,
+    "bbox": [
+      507,
+      344,
+      569,
+      358
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "目前 RSM 在麻醉中主要研究的是镇静与镇痛两种药物的相互作用，而在临床实践中，常为三种甚至三种以上药物同时使用，量化地描述各个药物间的相互作用将更具有临床实际意义。但由于临床研究条件、计算机水平等诸多原因的限制，国内应用 RSM研究麻醉药物相互作用的报道还不多，而且不良反应的发生可能会妨碍数据的收集范围，而影响模型参数的确定。随着麻醉药物研究的不断进展以及大量的麻醉新药在临床中的应用，尚需应用RSM 对麻醉药物相互作用进行大量的研究和探索，以达到更好地指导临床个体化用药的目的，为临床麻醉中安全、合理用药提供借鉴。",
+    "bbox": [
+      505,
+      360,
+      919,
+      491
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "参考文献",
+    "text_level": 2,
+    "bbox": [
+      509,
+      496,
+      568,
+      510
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1]　\u0007Prichard M N , Shipman C . A three-dimensional model to analyze drug-drug interactions[J]. 1990, 14(4-5):181-205.",
+      "[2]　\u0007Myers, R.H, Khuri, et al. Response surface methodology: 1966-1986. Technical report[J]. Technometrics, 1989, 31(2):137-157.",
+      "[3]　\u0007Meletiadis J , Mouton J W , Meis J F G M , et al. In Vitro Drug Interaction Modeling of Combinations of Azoles with Terbinafine against Clinical Scedosporium prolificans Isolates[J]. Antimicrobial Agents and Chemotherapy, 2003, 47(1):106-117.",
+      "[4]　\u0007Joseph Meletiadis,Debbie T.A. te Dorsthorst,Paul E. Verweij. The concentration-dependent nature of in vitro amphotericin B-itraconazole interaction against Aspergillus fumigatus : isobolographic and response surface analysis of complex pharmacodynamic interactions[J]. International Journal of Antimicrobial Agents,2006,28(5).",
+      "[5]　\u0007Te Dorsthorst D T A , Verweij P E , Meis J F G M , et al. In Vitro Interactions between Amphotericin B, Itraconazole, and Flucytosine against 21 Clinical Aspergillus Isolates Determined by Two Drug Interaction Models[J]. Antimicrobial Agents and Chemotherapy, 2004, 48(6):2007-2013.",
+      "[6]　\u0007Luszczki J J , Czuczwar S J . Isobolographic and subthreshold methods in the detection of interactions between oxcarbazepine and conventional a-ntiepileptics-a comparative study[J]. Epilepsy Research, 2003, 56(1):27-42.",
+      "[7]　\u0007Satyanarayana P S V , Jain N K , Singh A , et al. Isobolographic analys-is of interaction between cyclooxygenase inhibitors and tramadol in acetic- acidinduced writhing in mice[J]. Progress in Neuro-Psychopharmacology & Biological Psychiatry, 2004, 28(4):0-649.",
+      "[8]　\u0007Miranda H F, Pinardi G. Isobolographic analysis of the antinociceptive interactions of clonidine with nonsteroidal anti-inflammatory drugs[J]. Phar macological Research, 2004, 50(3):273-278.",
+      "[9]　\u0007Minto C F, Schnider T W, Short T G, et al. Response Surface Model for Anesthetic Drug Interactions[J]. Anesthesiology, 2000, 92(6):1603-1616.",
+      "[10]　\u0007Kern S E, Xie G, White J L, et al. A Response Surface Analysis of Propofol-Remifentanil Pharmacodynamic Interaction in Volunteers[J]. Anesthesiology, 2004, 100(6):1373-1381.",
+      "[11]　\u0007Drover D R, Litalien C, Wellis V, et al. Determination of the pharmacodynamic interaction of propofol and remifentanil during esophagogastroduodenoscopy in children[J]. Pediatric Anesthesia, 2010, 19(2):138-144.",
+      "[12]　\u0007Jeleazcov C, Ihmsen H, Schmidt J, et al. Pharmacodynamic modelling of"
+    ],
+    "bbox": [
+      502,
+      511,
+      922,
+      940
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "（下转第109 页）",
+    "bbox": [
+      823,
+      946,
+      919,
+      957
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "",
+    "bbox": [
+      73,
+      40,
+      100,
+      53
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "World Latest Medicine Information (Electronic Version) 2019 Vo1.19 No.93",
+    "bbox": [
+      226,
+      40,
+      759,
+      55
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "投稿邮箱 ：sjzxyx88@126.com",
+    "bbox": [
+      28,
+      962,
+      833,
+      977
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "follow-up[J]. Eur Spine J, 2005, 14(Suppl 1): 38.",
+      "[10] \u0007Sasso R C, Smucker J D, Hacker R J, et al. Artificial disc versus fusion: a prospective, randomized study with 2-year follow-up on 99 patients[J]. Spine, 2007, 32(26): 2933-2940.",
+      "[11]　\u0007周非非 , 赵衍斌 , 孙宇 , 等 . Bryan 人工颈椎间盘置换术后异位骨化形成的临床因素分析 [J]. 中国脊柱脊髓杂志 , 2009, 19(1): 39-43.",
+      "[12]　\u0007田伟 . 颈椎人工间盘置换术后异位骨化的发病机制 - 前瞻性自身对照CT研究.2012年骨科COA年会论文摘要全集.",
+      "[13] \u0007Kim S W, Paik S H, Castro P A F, et al. Analysis of factors that may influence range of motion after cervical disc arthroplasty[J]. The Spine Journal, 2010, 10(8): 683-688.",
+      "[14] \u0007Kang K C, Lee C S, Han J H, et al. The factors that influence the postoperative segmental range of motion after cervical artificial disc replacement[J]. The Spine Journal, 2010, 10(8): 689-696.",
+      "[15] \u0007Alan TV, Sigita B, Robert P, et al. Spinal artificial disc replacement:cervical arthroplasty (part Ⅱ ) :indications, surgical technique, and complications[J]. Contemporary Neurosurg, 2007,29( 13) : 1- 5.",
+      "[16] \u0007Sola S, Hebecker R, Knoop M, et al. Bryan cervical disc prosthesis-three years follow-up[J]. Eur Spine J, 2005, 14(Suppl 1): 38.",
+      "[17]　\u0007赵衍斌, 周非非, 孙宇, 等. 影响 Bryan 人工颈椎间盘置换术后置换节段活动度的因素 [J]. 中国脊柱脊髓杂志 , 2008, 18(4): 245-248.",
+      "[18] \u0007Leung C, Casey A T, Goffin J, et al. Clinical significance of heterotopic ossification in cervical disc replacement: a prospective multicenter clinical trial[J]. Neurosurgery, 2005, 57(4): 759-763.",
+      "[19] \u0007Mehren C, Suchomel P, Grochulla F, et al. Heterotopic ossification in total cervical artificial disc replacement[J]. Spine, 2006, 31(24): 2802-2806.",
+      "[20] \u0007Malham G M, Parker R M, Ellis N J, et al. Cervical artificial disc replacement with ProDisc-C: clinical and radiographic outcomes with long-term followup[J]. Journal of Clinical Neuroscience, 2014, 21(6): 949-953.",
+      "[21] \u0007Pedersen N W, Kristensen S S, Schmidt S A, et al. Factors associated with heterotopic bone formation following total hip replacement[J]. Archives of orthopaedic and trauma surgery,1989,108(2):92-95.",
+      "[22]　\u0007刘文华,朱兵,刘晓伟,等.单节段Bryan人工颈椎间盘置换术后异位骨化的发生率和疗效观察 [J]. 中国修复重建外科杂志 ,2012,26(6):699-702.",
+      "[23] \u0007Wang M Y, Leung C H S, Casey A T H. Cervical arthroplasty with the Bryan disc[J]. Neurosurgery, 2005, 56(1): 58-65.",
+      "[24] 韩骁 , 田伟 , 刘波 , 等 . 颈椎退行性疾病 Bryan 间盘置换术后椎旁骨化影响因素分析 [J]. 山东医药 ,2017,57(4):13-16.",
+      "[25] \u0007Goffin J, Loon J, Calenbergh FV. Cervical arthroplasty with the Bryan disc:4- and 6-year results[C].North American Spine Society 21st Annual Meeting,2006,26-30(Abstract).",
+      "[26] \u0007Wu J C, Huang W C, Tsai T Y, et al. Multilevel arthroplasty for cervical spondylosis: more heterotopic ossification at 3 years of follow-up[J]. Spine, 2012, 37(20): E1251-E1259.",
+      "[27] \u0007Kim S W, Limson M A, Kim S B, et al. Comparison of radiographic changes after ACDF versus Bryan disc arthroplasty in single and bi-level cases[J]. European spine journal, 2009, 18(2): 218.",
+      "[28] \u0007Bartels R H M A, Donk R. Fusion around cervical disc prosthesis: case report[J]. Neurosurgery, 2005, 57(1): E194.",
+      "[29]　\u0007李旭,尚希福,张文志,等.颈椎人工椎间盘术置换后异位骨化和假体类型的相关性分析 [J]. 中国康复医学会颈椎病专业委员会第十二次学术年会论文集 , 2010.",
+      "[30] \u0007Fijn R, Koorevaar R T, Brouwers J R B J. Prevention of heterotopic ossification after total hip replacement with NSAIDs[J]. Pharmacy world & science, 2003, 25(4): 138-145.",
+      "[31] \u0007Mehren C, Suchomel P, Grochulla F, et al. Heterotopic ossification in total cervical artificial disc replacement[J]. Spine, 2006, 31(24): 2802-2806.",
+      "[32]　\u0007孙宇,潘胜发,张凤山,等.颈椎人工椎间盘置换术治疗颈椎间盘疾患的早期临床观察 [J]. 中国脊柱脊髓杂志 , 2006, 16(2): 85-89.",
+      "[33]　\u0007韩慧 , 董荣华 , 曹福江 .Bryan 人工颈椎间盘置换近期疗效分析 [J]. 中国矫形外科杂志 ,2009,17(15).",
+      "[34]　\u0007Nunley R M, Zhu J, Clohisy J C, et al. Aspirin decreases heterotopic ossification after hip resurfacing[J]. Clinical Orthopaedics and Related Research®, 2011, 469(6): 1614-1620.",
+      "[35]　\u0007Zhang K, Wang L, Zhang S, et al. Celecoxib inhibits the heterotopic ossification in the rat model with Achilles tenotomy[J]. European Journal of Orthopaedic Surgery & Traumatology, 2013, 23(2): 145-148.",
+      "[36]　\u0007Barbato M, D’Angelo E, Di Loreto G, et al. Adherence to routine use of pharmacological prophylaxis of heterotopic ossification after total hip arthroplasty: results from an Italian multicenter, prospective, observational survey[J]. Journal of Orthopaedics and Traumatology, 2012, 13(2): 63-67.",
+      "[37]　\u0007Teichert M, Griens F, Buijs E, et al. Effectiveness of interventions by community pharmacists to reduce risk of gastrointestinal side effects in nonselective nonsteroidal anti‐inflammatory drug users[J]. Pharmacoepidemiology and drug safety, 2014, 23(4): 382-389."
+    ],
+    "bbox": [
+      77,
+      63,
+      490,
+      511
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      517,
+      63,
+      929,
+      500
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "（上接第102 页）",
+    "bbox": [
+      78,
+      563,
+      174,
+      574
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "the bispectral index response to propofol-based anaesthesia during general surgery in children[J]. British Journal of Anaesthesia, 2008, 100(4):509-516.",
+      "[13]　\u0007Fuentes Ricardo,Cortínez Luis Ignacio,Contreras Víctor,Ibacache Mauricio, Anderson Brian J. Propofol pharmacokinetic and pharmacodynamic profile and its electroencephalographic interaction with remifentanil in children[J]. Paediatric anaesthesia,2018.",
+      "[14]　\u0007SangMin Choe,Byung‐Moon Choi,Yong‐Hun Lee,Soo‐Han Lee,Eun‐Kyung Lee,Ki‐Seong Kim,Gyu‐Jeong Noh. Response surface modelling of the pharmacodynamic interaction between propofol and remifentanil in patients undergoing anaesthesia[J]. Clinical and Experimental Pharmacology and Physiology,2017,44(1).",
+      "[15]　\u0007Bouillon T W, Bruhn J, Radulescu L , et al. Pharmacodynamic Interaction between Propofol and Remifentanil Regarding Hypnosis, Tolerance of Laryngoscopy, Bispectral Index, and Electroencephalographic Approximate Entropy[J]. Anesthesiology, 2004, 100(6):1353-1372.",
+      "[16]　\u0007Herd D W, Anderson B J, Keene N A, et al. Investigating the pharmacodynamics of ketamine in children[J].Pediatric Anesthesia,2010,18(1):36-42.",
+      "[17]　\u0007Dahan A, Nieuwenhuijs D, Olofsen E, et al. Response Surface Modeling of Alfentanil-Sevoflurane Interaction on Cardiorespiratory Control and Bispectral Index[J]. Anesthesiology, 2001, 94(6):982-991.",
+      "[18]　\u0007Heyse Bjorn,Proost Johannes H,Schumacher Peter M,Bouillon Thomas W,Vereecke Hugo E M,Eleveld Douglas J,Luginbühl Martin,Struys Michel M R F. Sevoflurane remifentanil interaction: comparison of different response surface models[J]. Anesthesiology,2012,116(2).",
+      "[19]　\u0007Heyse B, Proost J H, Hannivoort L N, et al. A response surface mod-el approach for continuous measures of hypnotic and analgesic effect duri-ng sevoflurane-remifentanil interaction: quantifying the pharmacodynamic s-hift evoked by stimulation[J]. Anesthesiology, 2014, 120(6):1390-1399.",
+      "[20]　\u0007Schumacher P M, Dossche J, Mortier E P, et al. Response surface modeling of the interaction between propofol and sevoflurane[J]. Anesthesiology,",
+      "2009, 111(4):790-804.",
+      "[21]　\u0007Robert S. Harris,Olga Lazar,Jay W. Johansen,Peter S. Sebel. Interaction of Propofol and Sevoflurane on Loss of Consciousness and Movement to Skin Incision during General Anesthesia[J]. Anesthesiology,2006,104(6).",
+      "[22]　\u0007Sebel L E, Richardson J E, Singh S P, et al. Additive Effects of Sevoflurane and Propofol on ??-Aminobutyric Acid Receptor Function[J]. Anesthesiology, 2006, 104(6):1176-1183.",
+      "[23]　\u0007刘鹏飞 , 关雷 . 响应曲面法研究术后静脉镇痛舒芬太尼和曲马多的药效学相互作用 [J]. 中国实验诊断学 , 2015(9):1501-1504.",
+      "[24]　\u0007刘文涛 , 关雷 . 应用响应曲面法改进地佐辛和氟比洛芬酯术后镇痛效果的临床观察 [J]. 中国实验诊断学 , 2016(5):726-729.",
+      "[25]　\u0007Kamibayashi T, Maze M. Clinical Uses of α2-Adrenergic Agonists[J]. Anesthesiology, 2000, 93(5):1345-1349.",
+      "[26]　\u0007Ghignone M, Calvillo O, Quintin L. Anesthesia and Hypertension:The Effect of Clonidine on Perioperative Hemodynamics and Isoflurane Requirements[J]. Anesthesiology,1987,67(1):3.",
+      "[27] \u0007Ghignone M, Quintin L, Duke P C, et al. Effects of Clonidine on Na-rcotic Requirements and Hemodynamic Response during Induction of Fent-anyl Anesthesia and Endotracheal Intubation[J]. Anesthesiology,1986,64(1):36-42.",
+      "[28]　\u0007Higuchi H, Adachi Y, Dahan A, et al. The Interaction Between Propofol and Clonidine for Loss of Consciousness[J]. Anesthesia & Analgesia, 2002, 94(4):886-891.",
+      "[30]　\u0007Short T G , Plummer J L, Chui P T . HYPNOTIC AND ANAESTHETIC INTERACTIONS BETWEEN MIDAZOLAM, PROPOFOL AND ALFENTANIL[J]. BJA: British Journal of Anaesthesia, 1992, 69(2):162-167.",
+      "[31]　\u0007Liou J Y , Ting C K , Teng W N , et al. Adaptation of non-linear mixe-d amount with zero amount response surface model for analysis of conce-ntration-dependent synergism and safety with midazolam, alfentanil, and propofol sedation[J]. British Journal of Anaesthesia, 2018:S000709121830223X."
+    ],
+    "bbox": [
+      77,
+      582,
+      489,
+      936
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      517,
+      579,
+      931,
+      925
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "世界最新医学信息文摘 2019 年第 19 卷第 93 期",
+    "bbox": [
+      322,
+      40,
+      682,
+      55
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "109",
+    "bbox": [
+      900,
+      42,
+      927,
+      54
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "投稿邮箱 ：sjzxyx88@126.com",
+    "bbox": [
+      28,
+      962,
+      927,
+      977
+    ],
+    "page_idx": 2
+  }
+]

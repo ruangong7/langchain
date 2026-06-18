@@ -1,0 +1,756 @@
+[
+  {
+    "type": "image",
+    "img_path": "images/16572e0be8cb5efbdec5fe44f40a8fa8c34fe44d1a4ee3057711f2585cddc631.jpg",
+    "image_caption": [],
+    "image_footnote": [],
+    "content": "Portrait of a man in business attire with glasses, seated indoors (no visible text or symbols)",
+    "sub_type": "natural_image",
+    "bbox": [
+      97,
+      110,
+      312,
+      332
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "赵荣生 主任药师，药学博士，现任北京大学第三医院院长助理、药剂科副主任。主要从事临床药学、临床药理学及药剂学教学、研究等工作。主要学术兼职：中国药理学会治疗药物监测研究专业委员会常务委员兼秘书长、国家发展和改革委员会药品价格评审专家、北京药学会理事、北京药师协会理事、北京药学会药剂专业委员会副主任委员、北京药师协会慢病防治药学专业委员会副主任委员、北京医学会临床药学分会常务委员。《临床药物治疗杂志》副主编，《实用药物与临床》《山东医药》《中国医院用药评价与分析杂志》《药品评价》等杂志编委。",
+    "bbox": [
+      102,
+      446,
+      312,
+      880
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Drug-drug interactions related to insulin 与胰岛素治疗相关的药物相互作用",
+    "text_level": 1,
+    "bbox": [
+      341,
+      134,
+      869,
+      237
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "陈诗狄 $^{1,2}$ 赵荣生 $^{1*}$",
+    "bbox": [
+      344,
+      245,
+      476,
+      261
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "$^{1}$ 北京大学第三医院药剂科； $^{2}$ 北京大学药学院药事管理与临床药学系",
+    "bbox": [
+      341,
+      268,
+      711,
+      282
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "通讯作者 赵荣生",
+    "bbox": [
+      341,
+      285,
+      437,
+      298
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号 R969.2 文献标识码 A 文章编号 1672-2809(2015)17-0034-04",
+    "bbox": [
+      341,
+      300,
+      795,
+      312
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘要 胰岛素在糖尿病管理中应用广泛，是不可缺少的一种治疗方案。同时，在糖尿病管理中常需联合应用多种药物，因此，药物相互作用则是临床医生不可忽视的一个问题。本文就与胰岛素治疗相关的药物相互作用作一简单综述，为临床合理应用胰岛素给出建议，以期提高治疗疗效，减少低血糖风险。",
+    "bbox": [
+      341,
+      315,
+      873,
+      374
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词 胰岛素；糖尿病；药物相互作用",
+    "bbox": [
+      341,
+      378,
+      569,
+      391
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "近年来随着生活方式和饮食习惯的改变以及人口老龄化的加剧，中国人群糖尿病的发病率急速升高[1]。据估计，中国成年人糖尿病的患病率已经由1980年的 $0.67\\%^{[2]}$ 增至2008年的 $9.7\\%^{[3]}$ ，糖尿病已成为一个日益严峻的公共卫生问题。糖尿病的发病机制是由于胰岛β细胞胰岛素分泌缺陷和/或机体对胰岛素不敏感，从而导致碳水化合物、脂肪和蛋白质代谢的紊乱[4]。由此可见，胰岛素治疗对于控制血糖水平和防治糖尿病远期并发症有着重要作用。但是在应用胰岛素的临床过程中经常会同时使用其他药物，有些药物会增强或减弱胰岛素的降糖效应。因此，正确认识与胰岛素相关的药物相互作用对于评估胰岛素治疗的安全性和有效性非常必要。",
+    "bbox": [
+      344,
+      408,
+      598,
+      798
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "胰岛素的发展简史与临床应用现状",
+    "text_level": 2,
+    "bbox": [
+      344,
+      824,
+      593,
+      840
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1921年，Banting和Best首次从狗的胰腺中成功提取胰岛素，使糖尿病的治疗成为可能。1923年末，动物胰岛素开始应用于临床 $^{[5]}$ ，直至20世纪80年代基因工程/重组DNA技术的发展使生物合成重组人胰岛素的生产得以实现，自此，人胰岛素突破了数量和质量的限制，在临床得到日益广泛地应用 $^{[6]}$ 。20世纪90年代末，科学家又对人胰岛素的氨基酸序列进行修饰，研制出可以更好地模拟生理胰岛素分泌的胰岛素类似物 $^{[7]}$ 。",
+    "bbox": [
+      344,
+      845,
+      598,
+      902
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      617,
+      407,
+      874,
+      610
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2013年IMS Health市场调研数据 $^{[8]}$ 显示，在全球范围内，动物胰岛素正在逐渐被重组人胰岛素所代替，欧美国家基本上已经不再使用动物胰岛素，而中国仍有10.2%的动物胰岛素使用量，其中中小城市占比高于大城市。动物胰岛素和人胰岛素在糖尿病治疗中的有效性和安全性是否相同仍存在争议。最近的一系列研究显示，在中国糖尿病患者中，使用人胰岛素者比使用动物胰岛素者疗效更好和不良反应更少 $^{[9,10]}$ 。",
+    "bbox": [
+      620,
+      614,
+      874,
+      859
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1型糖尿病患者必须进行胰岛素注射治疗，而2型糖尿病患者随着其胰岛β细胞功能的不断恶化，仅通过改变生活方式和口服降糖药无法有效控制血糖，或因口服药物的不良反应不能或不宜坚持用药者即需胰岛素注射治疗。除此之外，胰岛素在妊娠期糖尿病患者的治疗中发挥着重要作用[11]，也可被用于降低非糖尿病患者各种应激状态(手术、感染、外伤)下的短暂高血糖[12]。",
+    "bbox": [
+      622,
+      865,
+      876,
+      902
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "药物与临床 Drugs and Clinic",
+    "bbox": [
+      87,
+      51,
+      355,
+      84
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "34",
+    "bbox": [
+      90,
+      927,
+      113,
+      937
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "药品评价 2015年第12卷第17期",
+    "bbox": [
+      121,
+      927,
+      267,
+      937
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "(C)1994-2023 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.net",
+    "bbox": [
+      30,
+      961,
+      852,
+      977
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      121,
+      473,
+      242
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "胰岛素的药理作用",
+    "text_level": 2,
+    "bbox": [
+      90,
+      267,
+      226,
+      282
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "胰岛素是一种由两条多肽链(A、B链)组成、分子量约56kD的蛋白质，其链间通过两个二硫键相连。胰岛素有利于物质的新陈代谢和各种离子穿越细胞膜，同时可以促进体内能源物质的储备，刺激葡萄糖合成肝糖原、脂质合成脂肪、氨基酸转化为蛋白质而被储备起来，使血糖下降。普通胰岛素皮下注射后组合成六聚体(6个胰岛素分子)结构。六聚体必须先分解为二聚体，然后再分解为单体，才能通过毛细血管吸收。这个原则也是精蛋白、锌添加胰岛素和胰岛素类似物改变胰岛素中的氨基酸以达到速效或长效的前提 $^{[13]}$ 。",
+    "bbox": [
+      89,
+      287,
+      475,
+      491
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "按照起效作用快慢和维持作用时间，胰岛素制剂可分为速效、短效、中效、长效和预混五类。其中，速效和短效胰岛素都可作为餐时胰岛素，中效和长效胰岛素可作为基础胰岛素。速效胰岛素常见的有门冬胰岛素和赖脯胰岛素，起效时间为10～15min，作用维持时间为4～6h，用药10min内应进食；短效和预混胰岛素起效时间大约都为0.5h，前者作用维持时间为5～8h，后者为16～24h；中效胰岛素有NPH和胰岛素锌混悬液，起效时间为2～4h，作用维持时间为13～16h；长效胰岛素常见的有甘精胰岛素和地特胰岛素，起效时间为2～3h，作用维持时间为24～30h。长效胰岛素和预混胰岛素切勿静脉注射，紧急情况下的静脉输注仅限普通胰岛素。",
+    "bbox": [
+      89,
+      496,
+      476,
+      762
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "与胰岛素相关的药物相互作用",
+    "text_level": 2,
+    "bbox": [
+      92,
+      787,
+      308,
+      802
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "药物相互作用是指同时或相隔一定时间内联合应用2种或2种以上的药物，一种药物受到另一种药物的影响，由于其间或与人体间的作用，改变了一种药物包括其原有性质、体内过程和组织对药物的敏感性，或改变药物的效应和毒性等。药物相互作用的结果往往往是双相的，从临床角度考虑，效应加强可以表现为疗效提高，也可以表现为毒性增大；效应减弱可以表现为毒性减轻，也可以表现为疗效降低。有时药物之间的相互作用可能是影响治疗成功的关键所在。",
+    "bbox": [
+      90,
+      808,
+      475,
+      907
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      492,
+      121,
+      876,
+      199
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1. 药物-药物相互作用",
+    "text_level": 2,
+    "bbox": [
+      493,
+      204,
+      651,
+      220
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "胰岛素与其他药物之间的相互作用较为常见，本文着重针对胰岛素与临床常用药物之间的不利相互作用作一综述。",
+    "bbox": [
+      493,
+      226,
+      876,
+      282
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.1胰岛素与降糖药的相互作用 口服降糖药是治疗2型糖尿病的首选药物，种类繁多，分别有其特点和不足[14]。2014年ADA指南[15]推荐二甲双胍作为唯一起始用药，是其他口服药以及胰岛素联用的基础。荟萃分析显示，二甲双胍能减少1型成年糖尿病患者 $10\\%$ 的胰岛素用量[16]；如果二甲双胍、吡格列酮和胰岛素三药联合使用则可以更加显著减少胰岛素用量[17]。因此，在这种情况下，如果不适当降低胰岛素剂量，那么患者发生低血糖的风险就会大大增加。磺脲类和格列奈类降糖药的主要作用机制是刺激胰岛β细胞分泌、释放胰岛素并增加周围组织对胰岛素的敏感性，也是2型糖尿病患者的常用药物。该类药物本身就有发生低血糖的不良反应，在与胰岛素联用时更要关注其协同降血糖作用。",
+    "bbox": [
+      492,
+      287,
+      878,
+      575
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "除了口服降糖药物，经皮下注射给药的胰高血糖素样肽-1(glucagon-like peptide-1, GLP-1)受体激动剂如艾塞那肽、利拉鲁肽与胰岛素联合使用时能够改变葡萄糖的代谢，有可能增加严重低血糖的发生风险。临床中二者合用时要密切监测患者血糖水平，注意调整胰岛素剂量 $^{[18]}$ 。",
+    "bbox": [
+      492,
+      579,
+      876,
+      699
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.2 胰岛素与水杨酸类药物等的相互作用 水杨酸盐类包括临床常见的阿司匹林、柳氮磺胺吡啶、奥沙拉嗪、对乙酰氨基酚等药物在与胰岛素联用时有可能增加低血糖的发生风险，其相互作用机制还不是很清楚[19]。水杨酸盐或可与胰岛素竞争结合血浆蛋白，从而使血液中游离胰岛素水平增高。REID等[20]早在1959年针对14位每日胰岛素需求量在14～112IU之间的糖尿病患者做了一个阿司匹林等效量的研究，结果表明，在患者耐受的情况下，大剂量阿司匹林(3.5～7.5g)可以减少甚至替代患者所需的胰岛素量。",
+    "bbox": [
+      492,
+      704,
+      878,
+      907
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "药物与临床 Drugs and Clinic",
+    "bbox": [
+      598,
+      68,
+      802,
+      85
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "The image contains no text.",
+    "bbox": [
+      806,
+      68,
+      867,
+      81
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "2015年第12卷第17期 药品评价",
+    "bbox": [
+      696,
+      924,
+      843,
+      936
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "35",
+    "bbox": [
+      852,
+      924,
+      876,
+      937
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "(C)1994-2023 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.net",
+    "bbox": [
+      29,
+      959,
+      852,
+      977
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "非甾体抗炎药可增强胰岛素降糖作用，还能抑制胰岛细胞内前列腺素E的合成从而使胰岛素的分泌增加，加大低血糖的发生率 $^{[21]}$ 。",
+    "bbox": [
+      97,
+      123,
+      480,
+      181
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "磺胺类药物的血浆蛋白结合率较高，能够置换高血浆蛋白结合率的其他药物，并且磺胺抑制CYP2C9酶的活性，增加CYP2C9底物比如格列美脲、那格列奈等的暴露水平。在磺胺类药物与磺脲类联用时已有致低血糖发生的报道[22]，该类情况同样可能发生在磺胺类药物与其他降糖药物包括胰岛素联用的过程中。",
+    "bbox": [
+      97,
+      185,
+      483,
+      304
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "除此之外，临床常用的抗凝血药物如华法林在人体内与血浆蛋白大量结合，游离华法林仅为0.5%\\~3%，其与胰岛素联用时也会竞争结合蛋白结合位点，从而使血液中游离胰岛素水平升高，增强其降血糖作用。",
+    "bbox": [
+      97,
+      309,
+      483,
+      408
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "1.3 胰岛素与奎宁等药物的相互作用 奎宁又称金鸡纳碱，与奎尼丁同属喹啉类生物碱。很早之前奎宁就被认为其与一些严重低血糖的发生密切相关，原因可能是奎宁、奎尼丁、氯喹等可延缓胰岛素的降解，从而升高血中胰岛素浓度，加强其降血糖作用。Phillips等 $^{[23]}$ 分别给予健康志愿者和疟疾患者奎尼丁治疗，用药过程中可以观察到两组受试者血浆胰岛素浓度均有所升高、血糖水平均下降。后也有研究表明 $^{[24]}$ ，在健康受试者中，奎宁升高血浆胰岛素浓度的程度更高于奎尼丁。",
+      "1.4胰岛素与 $\\beta$ -肾上腺素受体阻滞剂的相互作用 非选择性 $\\beta$ -受体阻滞剂如普萘洛尔不仅能够抑制 $\\beta$ -肾上腺素能受体介导的胰岛素分泌，升高血糖水平；也可阻止肾上腺素升血糖的反应，干扰机体调节血糖的功能，与胰岛素同用可增加低血糖的风险。除此之外， $\\beta$ -受体阻滞剂可通过抑制交感神经兴奋而掩盖心悸、颤抖等低血糖症状，延误诊断和治疗。而心脏选择性的 $\\beta_{1}$ -受体阻滞剂与胰岛素及其他口服降糖药之间的作用较为少见。有研究[25]表明，相比心脏选择性的 $\\beta_{1}$ -受体阻滞剂，老年糖尿病患者使用非选择性 $\\beta$ -受体阻滞剂有更高的低血糖发生风险。因此，在临床上开始使用或暂停使用非选择性 $\\beta$ -受体阻滞剂尤其是普萘洛尔时需注意监测患者血糖情况。",
+      "1.5 胰岛素与血管紧张素转换酶抑制剂的相互作用\n血管紧张素转换酶抑制剂(angiotensin converting"
+    ],
+    "bbox": [
+      97,
+      413,
+      483,
+      906
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "enzyme inhibitors, ACEI)和血管紧张素Ⅱ受体阻滞剂(Angiotensin receptor blockers, ARB)能够通过不同的位点抑制肾素-血管紧张素-醛固酮系统，降低血压、减少血液灌注、改善肾小球滤过膜、降低尿蛋白以及血肌酐浓度，因此合并有高血压或肾病早期表现或二者皆有的糖尿病患者以及糖尿病肾病患者偏好使用该类药物，但是ACEI与ARB类药物均可以增加体内胰岛素的敏感性。Meta分析[26]显示，在非糖尿病的高血压患者中，ACEI增加胰岛素敏感性的强度大于ARB。因此临床上这两类药物与胰岛素联用时要注意调整胰岛素用量，预防低血糖的发生。",
+    "bbox": [
+      497,
+      123,
+      883,
+      347
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "1.6 胰岛素与其他药物的相互作用 锂盐可变性地影响体内葡萄糖代谢，在与胰岛素联用时可致血糖水平过高或过低。胰岛素依赖的糖尿病患者服用各种口服避孕药时，胰岛素的需求量也会增加或减少，以前者居多。α-受体激动剂可乐定也会增强或减弱胰岛素的降糖效应，并掩盖低血糖的一些表现。因此，胰岛素与上述药物联用时要严密监测血糖。",
+    "bbox": [
+      497,
+      351,
+      883,
+      491
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "糖皮质类固醇(泼尼松、去炎松和醋酸可的松、氢化可的松及地塞米松、培他米松等)、胰高血糖素、促肾上腺皮质激素、雌激素和甲状腺素均能够对抗胰岛素的降糖作用，增加胰岛素的需求量 $^{[27]}$ 。利尿药可引起糖耐量减低，其中，噻嗪类利尿药对糖耐量的影响最大、髓袢利尿药较小，而保钾利尿药对糖代谢无影响。虽然利尿药引起健康人血糖升高的幅度很小，但是糖尿病患者应用这类药时可发生严重的高血糖。由于利尿药对糖代谢的影响与剂量相关，因此当必须联用这两种药物时，可采用小剂量疗法或适当增加胰岛素剂量 $^{[21]}$ 。",
+    "bbox": [
+      497,
+      496,
+      883,
+      719
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "除此之外，单胺氧化酶抑制剂(monoaminoxidase inhibitor, MAOI)、氯贝特、溴隐亭、茶碱、酮康唑、甲苯达唑、甲氨蝶呤、美曲普汀(调脂药)、普兰林肽、氟苯丙胺(用于减肥)、睾酮等均可通过不同方式对体内血糖水平产生直接或间接影响。在与上述药物合用时，胰岛素应按需减量。",
+    "bbox": [
+      497,
+      723,
+      883,
+      844
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2. 药物-酒精/尼古丁相互作用",
+    "text_level": 2,
+    "bbox": [
+      499,
+      849,
+      711,
+      863
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "长期饮酒是2型糖尿病已知的危险因素。近期的一些研究 $^{[28]}$ 表明，过度的酒精摄入不仅能够干扰肝细胞和骨骼肌细胞中胰岛素的信号传导引起胰岛素抵抗，还会诱导胰腺β细胞凋亡。酒精通过改变体内葡萄糖代谢会使血糖水平升高或下降。糖尿病患者接受胰岛素治疗的同时若有饮酒需注意监测血糖变化，适时调整胰岛素剂量。",
+    "bbox": [
+      499,
+      869,
+      883,
+      906
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "IS",
+    "bbox": [
+      99,
+      50,
+      171,
+      81
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "药物与临床 Drugs and Clinic",
+    "bbox": [
+      164,
+      68,
+      368,
+      85
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "36",
+    "bbox": [
+      97,
+      923,
+      121,
+      935
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "药品评价 2015年第12卷第17期",
+    "bbox": [
+      128,
+      923,
+      276,
+      936
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "(C)1994-2023 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.net",
+    "bbox": [
+      29,
+      959,
+      852,
+      977
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      87,
+      121,
+      471,
+      219
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "烟草在体内通过释放内源性活性物质引起胰岛素抵抗，还能使外周血管收缩导致胰岛素的吸收减少 $^{[29]}$ 。正在接受胰岛素治疗的吸烟患者突然戒烟时，应注意监测血糖变化。",
+    "bbox": [
+      87,
+      224,
+      471,
+      303
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "胰岛素的药物治疗建议",
+    "text_level": 2,
+    "bbox": [
+      87,
+      328,
+      257,
+      343
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "随着我国人口老龄化加剧，老年患者常罹患多种基础疾病，治疗中可能需要同时服用多种药物，由不良药物相互作用引起的药源性损害是一种药疗差错。临床药师在参与临床药物治疗过程中，要从专业的角度提出若干规避不良药物相互作用的建议。糖尿病治疗是一个长期的过程，临床上使用胰岛素要注意关注其疗效、安全性、远期获益等多种治疗结局。重视胰岛素与其他药物之间潜在的相互作用，做到合理配伍与个体化用药，这样对提高药物疗效、控制血糖达标、避免药物不良反应等方面有着重要意义。",
+    "bbox": [
+      87,
+      348,
+      473,
+      551
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "参考文献",
+    "text_level": 2,
+    "bbox": [
+      89,
+      575,
+      159,
+      591
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1] Yang ZJ, Liu J, Ge JP, et al. Prevalence of cardiovascular disease risk factor in the Chinese population: the 2007-2008 China National Diabetes and Metabolic Disorders Study[J]. Eur Heart J, 2012, 33(2): 213-220.",
+      "[2] National diabeties research group. Diabetes mellitus survey of 300,000 in fourteen provinces and cities of China[J]. Chinese Journal of Internal Medicine, 1981, 20: 678-681.",
+      "[3] Yang W, Lu J, Weng J, et al. Prevalence of diabetes among men and women in China[J]. N Engl J Med, 2010, 362(12): 1090-1101.",
+      "[4] Melmed S, Williams R. Williams textbook of endocrinology(12th Ed.)[M]. Philadelphia: Elsevier/Saunders, 2011: 1371-1435.",
+      "[5] Roth J, Qureshi S, Whitford I, et al. Insulin's discovery: New insights on its ninetieth birthday[J]. Diabetes Metab Res Rev, 2012, 28(4): 293-304.",
+      "[6] Pickup JC, Williams G. Textbook of Diabetes[M]. 3rd ed. Oxford: Blackwell Scientific Publications, 2003: 371-383.",
+      "[7] Borgono CA, Zinman B. Insulins: past, present and future[J]. Endocrinol Metab Clin North Am, 2012, 41(1): 1-24.",
+      "[8] 2013年IMS Health市场调研数据.",
+      "[9] 母义明, 赵家军, 朱大龙, 等. 人胰岛素和动物胰岛素的临床使用专家意见 [J]. 药品评价, 2014, 11(15): 8-10.",
+      "[10] 赵家军, 张贺娜, 王柯, 等. 动物胰岛素与人胰岛素在中国糖尿病患者中的",
+      "安全性和有效性对比: Meta分析[J]. 药品评价, 2015, 12(5): 6-14.",
+      "[11] Feig D. Avoiding the slippery slope: preventing the development of diabetes in women with a history of gestational diabetes[J]. Diabetes Metab Res Rev, 2012, 28(4): 317-320.",
+      "[12] Van den Berghe G, Wouters P, Weekers F, et al. Intensive insulin therapy in critically ill patients[J]. N Engl J Med, 2001(345): 1359-1367.",
+      "[13] Joseph T, Robert L, Gary C, et al. Pathophysiologic approach[M]. Seventh edition. New York: McGraw-Hill Medical. 2008: 1215-1237.",
+      "[14] Safavi M, Foroymadi A, Abdollahi M. The importance of synthetic drugs for type 2 diabetes drug discovery[J]. Expert Opin Drug Discov, 2013, 8(11): 1339-1363.",
+      "[15] American Diabetes Association. Standards of medical care in diabetes-2014[J]. Diabetes Care, 2014, 37(Suppl 1): S14-80.",
+      "[16] Abdelghaffar S, Attia AM. Metformin added to insulin therapy for type 1 diabetes mellitus in adolescents[J]. Cochrane Database Syst Rev, 2009, 1: CD006691.",
+      "[17] Liao L, Yang M, Qiu LL, et al. Appropriate insulin initiation dosage for insulin-naive type 2 diabetes outpatients receiving insulin monotherapy or in combination with metformin and/or pioglitazone[J]. Chin Med J(Engl), 2010, 123(24): 3684-3688.",
+      "[18] Product Information: TOUJEO(R) subcutaneous injection, insulin glargine subcutaneous injection. sanofi-aventis(per manufacturer), Bridgewater, NJ, Feb, 2015.",
+      "[19] Product Information: SYMLIN(R) subcutaneous injection, pramlintide acetate subcutaneous injection. AstraZeneca Pharmaceuticals LP(per FDA), Wilmington, DE, Feb, 2015.",
+      "[20] Reid J, Lightbody TD. The insulin equivalence of salicylate[J]. Br Med J, 1959, 1(5126): 897-900.",
+      "[21] 毛玉丹, 翟所迪. 糖尿病治疗中的药物相互作用[J]. 中国药房, 2008, 19(35): 2787-2789.",
+      "[22] Johnson JF, Dobmeier ME. Symptomatic hypoglycemia secondary to a glipizide-trimethoprim/sulfamethoxazole drug interaction[J]. DICP, 1990, 24(3): 250-251.",
+      "[23] Phillips RE, Looareesuwan S, White NJ, et al. Hypoglycaemia and antimalarial drugs: quinidine and release of insulin[J]. Br Med J(Clin Res Ed), 1986, 292(6531): 1319-1321.",
+      "[24] Davis TM, Karbwang J, Looareesuwan S, et al. Comparative effects of quinine and quinidine on glucose metabolism in healthy volunteers[J]. Br J Clin Pharmacol, 1990, 30(3): 397-403.",
+      "[25] Shorr RI, Ray WA, Daugherty JR, et al. Antihypertensives and the risk of serious hypoglycemia in older persons using insulin or sulfonylureas[J]. JAMA, 1997, 278(1): 40-43.",
+      "[26] Yang Y, Wei RB, Wang ZC, et al. A meta-analysis of the effects of angiotensin converting enzyme inhibitors and angiotensin II receptor blockers on insulin sensitivity in hypertensive patients without diabetes[J]. Diabetes Res Clin Pract, 2015, 107(3): 415-423.",
+      "[27] 范秀荣. 用胰岛素治疗糖尿病注意药物间相互作用 [N]. 保健时报, 2008(12).",
+      "[28] Wang S, Luo Y, Feng A, et al. Ethanol induced impairment of glucose metabolism involves alterations of GABAergic signaling in pancreatic $\\beta$ -cells[J]. Toxicology, 2014, 326: 44-52.",
+      "[29] Kroon LA. Drug interactions with smoking[J]. Am J Health Syst Pharm, 2007, 64(18): 1917-1921."
+    ],
+    "bbox": [
+      87,
+      595,
+      471,
+      892
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      488,
+      119,
+      873,
+      876
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "收稿日期：2015-6-18 接受日期：2015-7-22",
+    "bbox": [
+      634,
+      878,
+      869,
+      891
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "药物与临床 Drugs and Clinic",
+    "bbox": [
+      593,
+      68,
+      795,
+      84
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "The image contains no text.",
+    "bbox": [
+      799,
+      68,
+      861,
+      81
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "2015年第12卷第17期 药品评价",
+    "bbox": [
+      692,
+      919,
+      838,
+      931
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "37",
+    "bbox": [
+      845,
+      919,
+      869,
+      931
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "(C)1994-2023 China Academic Journal Electronic Publishing House. All rights reserved. http://www.cnki.net",
+    "bbox": [
+      29,
+      959,
+      852,
+      977
+    ],
+    "page_idx": 3
+  }
+]

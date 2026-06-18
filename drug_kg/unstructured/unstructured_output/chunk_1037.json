@@ -1,0 +1,290 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "阿帕替尼",
+        "canonical_name": "阿帕替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "CYP3A4底物",
+        "canonical_name": "CYP3A4底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP2C9底物",
+        "canonical_name": "CYP2C9底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "埃克替尼",
+        "canonical_name": "埃克替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "罗沙司他",
+        "canonical_name": "罗沙司他",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "氟唑帕利",
+        "canonical_name": "氟唑帕利",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "CYP2C8底物",
+        "canonical_name": "CYP2C8底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "CYP2B6底物",
+        "canonical_name": "CYP2B6底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "CYP1A2底物",
+        "canonical_name": "CYP1A2底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "CYP2C19底物",
+        "canonical_name": "CYP2C19底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "canonical_name": "咪达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "canonical_name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "拉维达韦",
+        "canonical_name": "拉维达韦",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1037,
+          "raw_text": "阿帕替尼的药品说明书中“药物相互作用”一项标明应避免将阿帕替尼与CYP3A4或CYP2C9的底物联用。",
+          "chunk_id": "1037"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1037,
+          "raw_text": "阿帕替尼的药品说明书中“药物相互作用”一项标明应避免将阿帕替尼与CYP3A4或CYP2C9的底物联用。",
+          "chunk_id": "1037"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1037,
+          "raw_text": "因埃克替尼对CYP2C9酶的抑制作用，使得华法林的抗凝作用增强，建议两药联用时应减少华法林的初始剂量。",
+          "chunk_id": "1037"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1037,
+          "raw_text": "罗沙司他对华法林的药动学无显著影响。",
+          "chunk_id": "1037"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1037,
+          "raw_text": "罗沙司他是CYP2B6、2C8和2C9酶的混合性抑制剂，但对安非他酮(CYP2B6底物)、罗格列酮(CYP2C8底物)的Cmax和AUC未显示有临床意义的影响。",
+          "chunk_id": "1037"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1037,
+          "raw_text": "罗沙司他是CYP2B6、2C8和2C9酶的混合性抑制剂，但对安非他酮(CYP2B6底物)、罗格列酮(CYP2C8底物)的Cmax和AUC未显示有临床意义的影响。",
+          "chunk_id": "1037"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1037,
+          "raw_text": "罗沙司他是CYP2B6、2C8和2C9酶的混合性抑制剂。",
+          "chunk_id": "1037"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1037,
+          "raw_text": "氟唑帕利对CYP1A2、CYP3A4、CYP2C9、CYP2C19、CYP2C8和CYP2B6酶均具有不同程度的抑制作用。",
+          "chunk_id": "1037"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1037,
+          "raw_text": "氟唑帕利对CYP1A2、CYP3A4、CYP2C9、CYP2C19、CYP2C8和CYP2B6酶均具有不同程度的抑制作用。",
+          "chunk_id": "1037"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1037,
+          "raw_text": "氟唑帕利对CYP1A2、CYP3A4、CYP2C9、CYP2C19、CYP2C8和CYP2B6酶均具有不同程度的抑制作用。",
+          "chunk_id": "1037"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1037,
+          "raw_text": "氟唑帕利对CYP1A2、CYP3A4、CYP2C9、CYP2C19、CYP2C8和CYP2B6酶均具有不同程度的抑制作用。",
+          "chunk_id": "1037"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1037,
+          "raw_text": "氟唑帕利对CYP1A2、CYP3A4、CYP2C9、CYP2C19、CYP2C8和CYP2B6酶均具有不同程度的抑制作用。",
+          "chunk_id": "1037"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1037,
+          "raw_text": "氟唑帕利对CYP1A2、CYP3A4、CYP2C9、CYP2C19、CYP2C8和CYP2B6酶均具有不同程度的抑制作用。",
+          "chunk_id": "1037"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1037,
+          "raw_text": "拉维达韦对咪达唑仑（CYP3A4底物）和奥美拉唑（CYP2C19底物）人体药动学影响的临床试验。",
+          "chunk_id": "1037"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "凡默谷",
+          "chunk_index": 1037,
+          "raw_text": "拉维达韦对咪达唑仑（CYP3A4底物）和奥美拉唑（CYP2C19底物）人体药动学影响的临床试验。",
+          "chunk_id": "1037"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 1037,
+    "source": "凡默谷",
+    "text": "。因此，阿帕替尼的药品说明书中“药物相 互作用”一项标明应避免将阿帕替尼与CYP3A4 或CYP2C9的底物联用。另外，在“药物临床试验 登记与信息公布平台”上，也可查到申办方正在 开展阿帕替尼对瑞格列奈（CYP2C8底物）和安非 他酮（CYP2B6底物）的人体药动学影响试验（登记号 CTR20201366)。1.2.3埃克替尼[30]有临床病例报道，因埃克替 尼对CYP2C9酶的抑制作用，使得华法林的抗凝 作用增强，建议两药联用时应减少华法林的初始剂量。1.2.4罗沙司他[31]体外试验显示罗沙司他对 CYP2C9酶具有弱抑制作用。临床上，开展了罗沙 司他与华法林(CYP2C9底物）药动学DDI试验，结 果显示，罗沙司他对华法林的药动学无显著影 响。此外，药品说明书提到罗沙司他是CYP2B6、 2C8和2C9酶的混合性抑制剂，但对安非他酮 (CYP2B6底物）、罗格列酮（CYP2C8底物）的Cmax和AUC未显示有临床意义的影响。1.2.5其他体外试验表明氟唑帕利对CYP1A2、 CYP3A4、CYP2C9、CYP2C19、CYP2C8 和 CYP2B6 酶均 具有不同程度的抑制作用。“药物临床试验登记 与信息公布平台”显示，申办方正在招募复发性 卵巢癌志愿者以开展氟唑帕利对以上代谢酶底 物药动学影响的临床研究（登记号 CTR20210415)。在“药物临床试验登记与信息公布平台”上， 也可查到已开展了拉维达韦对咪达唑仑（CYP3A4 底物）和奥美拉唑（CYP2C19底物）人体药动学影 响的临床试验（登记号NCT01786382)，但数据尚 未发表"
+  }
+]

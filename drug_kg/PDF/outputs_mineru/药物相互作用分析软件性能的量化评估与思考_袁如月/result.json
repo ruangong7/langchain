@@ -1,0 +1,1832 @@
+[
+  {
+    "type": "text",
+    "text": "药物相互作用分析软件性能的量化评估与思考",
+    "text_level": 1,
+    "bbox": [
+      90,
+      99,
+      600,
+      122
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "袁如月1，刘 岩2#，杨天绎 3， 张 力4\\*，赵志刚5，李新辰 5，李皎月2，黄举凯 2，杨晓晖2\\*",
+    "bbox": [
+      107,
+      141,
+      850,
+      157
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "1. 东城退休干部休养所，北京 100120",
+      "2. 北京中医药大学东直门医院，北京 100700",
+      "3. 罗格斯大学，美国 新泽西州 新布朗斯维克 08901",
+      "4. 北京中医药大学东方医院，北京 100078",
+      "5. 首都医科大学附属北京天坛医院，北京 100070"
+    ],
+    "bbox": [
+      109,
+      161,
+      473,
+      245
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘 要：目的 采用多维度定量评估国外 5 个常用药物相互作用（DDI）分析软件的性能，为我国 DDI 软件开发提供参考。方法 对 DDI 分析软件的评估涵盖 4 个维度，即准确性、全面性、易用性、可靠性，准确性采用诊断性 Meta 分析方法对敏感度、特异度等数据进行定量合成，绘制集成受试者工作特征曲线（SROC）图并计算曲线下面积；全面性、易用性、可靠性通过访问软件平台进行量表评分，每个条目 1 分制进行评分，全面性总分 7 分，易用性总分 3 分，可靠性总分 10 分；最终将 4 个性能评分相加得到综合分数。结果 通过既往系统综述文献选取研究频率较高的 5 个 DDI 分析软件为研究对象，包括 Micromedex DrugReax®、Lexicomp Interactions、Epocrates、Drug Interactions Checker(Drugs.com)、Medscape®。准确性方面，Epocrates 敏感度合并值最高，为 0.71；Micromedex 特异度合并值最高，为 0.85；Epocrates 阳性似然比合并值最高，为 6.14；Lexicomp Interactions、Epocrates 阴性似然比最低，为 0.2；Epocrates 曲线下面积最高，为 0.933 2。全面性得分排名为：Micromedex（7 分）＞Lexicomp Interactions（6 分）＞Drugs.com（5 分）＞Medscape（3.5 分）＞Epocrates（3 分）。5 个软件易用性得分均为 3 分，可靠性得分排名为：Lexicomp Interactions（9 分）＝Drugs.com（9 分）＞Micromedex（8 分）＞Medscape（7 分）＞Epocrates（5 分）。最终综合得分排名为 Lexicomp Interactions（8.5 分） ＞Epocrates（7.75 分）＞Micromedex（7.5 分）＞Medscape（5.375 分）＞Drugs.com（5.25 分）。结论 国外 DDI 分析软件识别能力及信息质量参差不齐，对于 DDI严重程度分类标准、参考文献及信息来源等重要信息有待完善，一些软件的易用性及可靠性也有待提升。",
+    "bbox": [
+      87,
+      267,
+      905,
+      493
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词：药物相互作用；软件；性能评估；合理用药；Micromedex DrugReax®；Lexicomp Interactions；Epocrates；Drug Interactions Checker(Drugs.com)；Medscape®",
+    "bbox": [
+      89,
+      496,
+      905,
+      529
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号：R969.2 文献标志码：A 文章编号：1674 - 6376(2025)03 - 0566 - 10",
+    "bbox": [
+      89,
+      531,
+      697,
+      546
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "DOI: 10.7501/j.issn.1674-6376.2025.03.003",
+    "bbox": [
+      89,
+      548,
+      366,
+      563
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Quantitative analysis and reflection on performance of drug-drug interaction analysis software",
+    "text_level": 1,
+    "bbox": [
+      89,
+      588,
+      905,
+      630
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "YUAN Ruyue1, LIU Yan2, YANG Tianyi3, ZHANG Li4, ZHAO Zhigang5, LI Xinchen5, LI Jiaoyue2, HUANG Jukai2, YANG Xiaohui2",
+    "bbox": [
+      105,
+      650,
+      905,
+      682
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "1. Dongcheng Retired Cadre Recuperation Center, Beijing 100120, China",
+      "2. Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing 100700, China",
+      "3. Rutgers University, New Brunswick, NJ 08901, USA",
+      "4. Dongfang Hospital, Beijing University of Chinese Medicine, Beijing 100078, China",
+      "5. Beijing Tiantan Hospital, Capital Medical University, Beijing 100070, China"
+    ],
+    "bbox": [
+      107,
+      687,
+      658,
+      771
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "·566·",
+    "bbox": [
+      95,
+      53,
+      142,
+      64
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "第 48 卷第 3 期 2025 年 3 月",
+    "bbox": [
+      178,
+      52,
+      373,
+      66
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      403,
+      50,
+      663,
+      66
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Vol. 48 No. 3 March 2025",
+    "bbox": [
+      689,
+      53,
+      867,
+      66
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "收稿日期：2024-07-30",
+    "bbox": [
+      124,
+      820,
+      253,
+      833
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "基金项目：中国药品监督管理研究会研究课题-基于多元证据体探索中成药安全性评价方法的研究（2024-Y-Y-006）；临床研究和成果转化能力提升试点项目-中药制剂研发——治疗胃轻瘫中药复方佛香散（DZMG-ZJXY-23002）",
+    "bbox": [
+      124,
+      835,
+      905,
+      863
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "作者简介：袁如月（1998—），女，硕士研究生，研究方向为中医药防治内分泌代谢疾病。E-mail: 15194181006@163.com",
+    "bbox": [
+      124,
+      864,
+      794,
+      878
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "#共同第一作者：刘 岩（1985—），男，博士研究生，副研究员，研究方向为临床研究统计整合方法。E-mail:liuyantcm@163.com",
+    "bbox": [
+      124,
+      879,
+      842,
+      893
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "\\*通信作者：张 力，医学博士，研究员，研究方向为临床评价与药物警戒。E-mail:yty0616@hotmail.com",
+    "bbox": [
+      124,
+      895,
+      712,
+      908
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "杨晓晖，医学博士，教授、主任医师、博士生导师，研究方向为中医药防治内分泌代谢疾病、中药临床评价。E-mail: yxh0616@126.com",
+    "bbox": [
+      193,
+      910,
+      905,
+      923
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      319,
+      977
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Abstract: Objective To quantitatively evaluate the performance of five commonly used foreign drug-drug interaction (DDI) analysis software from multiple dimensions, to provide a reference for the development of DDI software in China. Methods The DDI analysis software were evaluated from four dimensions: accuracy, comprehensiveness, usability, and reliability. The integrated receiver operating characteristic (SROC) curve was plotted, and the area under the curve was calculated. Comprehensiveness, usability, and reliability were scored by accessing the software platform. Each item was scored on a one-point scale, resulting in a total score of seven points for comprehensiveness, three points for usability, and 10 points for reliability. Finally, the scores for the four performance evaluations were added to obtain an overall score. Results Based on the previous literature of systematic review, five frequently used DDI analysis software was selected as the subjects of study. These software include Micromedex DrugReax®, Lexicomp Interactions, Epocrates, Drug Interactions Checker (Drugs.com), and Medscape®. In terms of accuracy, Epocrates had the highest combined sensitivity value at 0.71, while Micromedex had the highest combined specificity value at 0.85. Epocrates also had the highest combined positive likelihood ratio value at 6.14, and Lexicomp Interactions and Epocrates had the lowest combined negative likelihood ratio values at 0.2. Epocrates had the highest area under the curve value at 0.933 2. In terms of comprehensive, Micromedex (seven points) > Lexicomp Interactions (six points) > Drugs.com (five points) > Medscape® (3.5 points) > Epocrates (three points). All five software received a usability score of three. In terms of reliability, Lexicomp Interactions (nine points) = Drugs.com (nine points) > Micromedex (eight points) > Medscape (seven points) > Epocrates (five points). The final overall score rankings were as follows: Lexicomp Interactions (8.5 points) > Epocrates (7.75 points) > Micromedex (7.5 points) > Medscape® (5.375 points) > Drugs.com (5.25 points). Conclusion The identification capability and information quality of foreign DDI analysis software vary. There is room for improvement in important aspects such as DDI severity classification criteria, references and information sources. Furthermore, the usability and reliability of certain software also need to be enhanced.",
+    "bbox": [
+      89,
+      81,
+      907,
+      413
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "Key words: drug-drug interaction; software; performance evaluation; rational use of drug; Micromedex DrugReax®; Lexicomp Interactions; Epocrates; Drug Interactions Checker(Drugs.com); Medscape®",
+    "bbox": [
+      89,
+      417,
+      905,
+      449
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "随着大数据和人工智能（AI）技术在医药领域的蓬勃发展，药物相互作用（DDI）分析软件的应用已成为获取最新DDI信息的重要途径[1]。研究表明[2]，这些软件可有效减低67.5%有害DDI发生率，提高临床医师和药师对DDI的识别能力，有助于推动合理用药水平的提升。然而，现有的DDI分析软件主要由国外研发，且种类繁多，但其识别能力和信息质量参差不齐[1]。仅有少数研究对这些软件性能进行了比较和分析[1,3-5]，但评估角度单一，针对DDI分析软件性能的全面量化比较仍相对不足。因此，本研究多维度、定量化评估比较使用频率较高的 DDI分析软件性能，旨在为临床、科研、监管和制药行业选择合适软件提供参考，同时为我国DDI软件的开发提供新思路。",
+    "bbox": [
+      89,
+      470,
+      482,
+      743
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 研究方法",
+    "text_level": 2,
+    "bbox": [
+      90,
+      747,
+      193,
+      762
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.1 DDI 分析软件的选择",
+    "text_level": 2,
+    "bbox": [
+      90,
+      765,
+      295,
+      781
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "根据既往 DDI 分析软件系统综述报道[1,5]，选取研究频率较高的 5 个软件作为研究对象，包括Micromedex DrugReax® 、 Lexicomp Interactions 、Epocrates、Drug Interactions Checker(Drugs.com)、Medscape®。",
+    "bbox": [
+      89,
+      785,
+      482,
+      879
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.2 DDI分析软件的性能评估内容",
+    "text_level": 2,
+    "bbox": [
+      90,
+      883,
+      366,
+      899
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.2.1 评估内容 采用定性和定量的数据收集和分析策略，由专业人员使用描述性和推理统计从 4个维度评估 DDI 分析软件的性能，分别是准确性（敏感度、特异度、阳性似然比、阴性似然比、曲线下面积）、全面性（发病速度、机制、严重程度、临床管理建议、临床表现、证据等级、参考文献）、易用性（导航工具、用户支持特性、加载速度）、可靠性（作者、免责声明、编辑审查、财务信息披露、存在偏差、用户隐私、数据库的用途、引用、目标受众、友情链接）。",
+    "bbox": [
+      90,
+      903,
+      480,
+      919
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      470,
+      905,
+      645
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.2.2 准确性 检索 PubMed 数据库，收集对比 5个 DDI 分析软件准确性的文献，检索词包括“druginteraction”“Micromedex”“Lexicomp”“Epocrates”“Drugs.com”“Medscape”“accuracy”“Sensitivity”“Specificity”“PPV”“NPV”等，检索时间均为建库至 2023 年 4 月 31 日。",
+    "bbox": [
+      512,
+      648,
+      907,
+      762
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "由 2 位研究者独自浏览查到的每 1 篇文献的标题和摘要，初步筛选出符合纳入标准的文献，再对其全文进行详细阅读，如遇分歧，则咨询第3方协助判断，最终确定是否纳入。2位研究者采用预先设计的表格提取数据，资料提取内容主要包括：作者、发表时间、软件类型、DDI类型、DDI数量、敏感度、特异度、阳性预测值（PPV）、阴性预测值（NPV）等。",
+    "bbox": [
+      510,
+      765,
+      907,
+      900
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "准确性通过提取文献中敏感度、特异度、PPV、",
+    "bbox": [
+      547,
+      903,
+      895,
+      919
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "第 48 卷第 3 期 2025 年 3 月",
+    "bbox": [
+      119,
+      52,
+      315,
+      66
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      347,
+      50,
+      606,
+      66
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Vol. 48 No. 3 March 2025",
+    "bbox": [
+      631,
+      53,
+      810,
+      65
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "·567·",
+    "bbox": [
+      853,
+      53,
+      900,
+      65
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      319,
+      978
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "NPV等数据进行比较。敏感度指软件正确识别临床重要 DDI 的能力，特异度指软件忽略临床不重要DDI的能力，PPV 指软件检测出的临床重要 DDI的概率，NPV指软件忽略是临床不重要DDI的概率，阳性似然比指正确判断阳性与错误判断的比值，阴性似然比指错误判断阴性与正确判断的比值。根据各 DDI分析软件的敏感度、特异度、PPV、NPV 数值，通过公式计算真阳性（TP）、假阳性（FP）、真阴性（TN）、假阴性（FN）[6]。",
+    "bbox": [
+      89,
+      81,
+      482,
+      255
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "TP＝真实阳性总数×敏感度",
+    "bbox": [
+      119,
+      260,
+      310,
+      275
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "$\\mathrm { F P } = ( 1 - 4 ) \\frac { 1 } { 4 } ( \\frac { 1 } { 4 } ) \\frac { 1 } { 4 } ( \\frac { 1 } { 4 } ) \\times \\frac { 1 } { 4 } ( \\frac { 1 } { 2 } ) \\times \\frac { 1 } { 4 } ( \\frac { 1 } { 2 } ) \\frac { 1 } { 4 } ( 1 + \\frac { 1 } { 2 } ) \\frac { 1 } { 4 } ( \\frac { 1 } { 2 } \\times \\frac { 1 } { 4 } ) =$",
+    "bbox": [
+      119,
+      280,
+      361,
+      294
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "TN＝真实阴性总数×特异度",
+    "bbox": [
+      119,
+      299,
+      312,
+      314
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "FN＝（1－敏感度）×真实阳性总数",
+    "bbox": [
+      119,
+      319,
+      364,
+      333
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "1.2.3 全面性、易用性、可靠性及综合分数 全面性、易用性、可靠性通过访问5个软件平台进行量表评分。全面性、易用性、可靠性中每个条目1分制进行评分，通过将条目得分相加计算全面性、易用性、可靠性分数，全面性总分7分，易用性总分3分，可靠性总分10 分。该流程由 2 位研究者共同进行评分，如遇分歧，则咨询第3方协助判断。准确性分数根据诊断性Meta 分析得到的曲线下面积排名依次得 10、8、6、4、2分。由于准确性在4个性能中最为重要[3]，所以准确性占总分的50%、全面性占25%、易用性和可靠性占 25%，最终相加得到软件综合分数。",
+    "bbox": [
+      89,
+      337,
+      482,
+      510
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      81,
+      905,
+      118
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "1.3 统计学分析",
+    "text_level": 2,
+    "bbox": [
+      512,
+      122,
+      648,
+      137
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "采用诊断性 Meta 分析方法对 DDI 分析软件的准确性进行比较，使用Meta-disc1.4软件对所收集的数据进行统计学分析处理。阅读文献、整理数据，并进行异质性检验，若I2＞50%，认为各研究间存在统计学异质性，采用随机效应模型进行数据分析。对敏感度、特异度等数据进行定量合成，绘制集成受试者工作特征曲线（SROC）并计算曲线下面积（AUC）。",
+    "bbox": [
+      510,
+      141,
+      905,
+      275
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2 结果",
+    "text_level": 2,
+    "bbox": [
+      512,
+      278,
+      581,
+      293
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.1 DDI分析软件的基本信息",
+    "text_level": 2,
+    "bbox": [
+      512,
+      298,
+      754,
+      314
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "从基本信息来看，DDI分析软件包含药物数量种类繁多（4578～24000个），5 个软件语言都以英语为主，2 个需要付费订阅。软件使用方式普遍便捷、灵活，有在线版、移动版等多种形式，可供用户根据个人需求选择。有的软件支持单个药物查询，也支持多个药物 DDI 共同查询（≥4 个），用户可同时输入多个药物名称，以获取这些药物之间可能存在的多个相互作用信息。多数软件注重研究数据的及时更新，更新时间从1 d 至 3 年不等。DDI 分析软件基本信息见表 1。",
+    "bbox": [
+      510,
+      317,
+      910,
+      510
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/eac3085ca178cf12442d6238c1828c7fe577ded9aadcc31156fa2f0b47ae6386.jpg",
+    "table_caption": [
+      "表 1 5个 DDI 分析软件相关基本信息",
+      "Table 1 Basic information about five DDI analysis software"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>DDI分析软件</td><td>药物数量</td><td>可同时检测的DDI数量</td><td>语言</td><td>版本</td></tr><tr><td>Micromedex DrugReax®</td><td>-</td><td>≤6</td><td>英语</td><td>在线版、移动版</td></tr><tr><td>Lexicomp Interactions</td><td>&gt;8000</td><td>-</td><td>英语</td><td>印刷版、在线版、移动版</td></tr><tr><td>Epocrates</td><td>4578</td><td>&lt;30</td><td>英语</td><td>在线版、移动版</td></tr><tr><td>Drug Interactions Checker</td><td>&gt;24000</td><td>注册后≥4</td><td>英语</td><td>在线版、移动版</td></tr><tr><td>Medscape®</td><td>&gt;9200</td><td>无限</td><td>英语</td><td>在线版、移动版</td></tr><tr><td>DDI分析软件</td><td>更新</td><td>付费/免费</td><td>网址</td><td>来源</td></tr><tr><td>Micromedex DrugReax®</td><td>每3个月[7]</td><td>付费</td><td colspan=\"2\">https://www.micromedexs MerativeTMolutions.com/home/dispatch</td></tr><tr><td>Lexicomp Interactions</td><td>每天[7]</td><td>付费</td><td>http://www.lexi.com</td><td>Wolters Kluwer ClinicalDrug Information</td></tr><tr><td>Epocrates</td><td>每周</td><td>不需要付费,需要注册</td><td>http://www.epocrates.com</td><td>Athenahealth®</td></tr><tr><td>Drug Interactions Checker</td><td>最近更新2022-12-21</td><td>免费</td><td>http://www.drugs.com</td><td>Cerner Multum</td></tr><tr><td>Medscape®</td><td>最近更新2020-12-08</td><td>免费</td><td>www.medscape.com</td><td>WebMD LLC</td></tr></table>",
+    "bbox": [
+      90,
+      558,
+      907,
+      828
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.2 DDI分析软件的准确性",
+    "text_level": 2,
+    "bbox": [
+      90,
+      845,
+      314,
+      859
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "软件的准确性评估包含敏感度、特异度、PPV、NPV、阳性似然比、阴性似然比。各研究中软件的敏感度范围：Lexicomp Interactions（7%～100%），",
+    "bbox": [
+      89,
+      864,
+      482,
+      921
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "Micromedex（5%～95%），Epocrates（56%～100%），Drugs.com（12%～93%），Medscape（6%～81%）；特异度范围：Lexicomp Interactions（48%～99%），Micromedex（71%～100%），Epocrates（85%～95%），",
+    "bbox": [
+      510,
+      845,
+      905,
+      921
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "·568·",
+    "bbox": [
+      95,
+      53,
+      142,
+      64
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "第 48 卷第 3 期 2025 年 3 月",
+    "bbox": [
+      178,
+      52,
+      373,
+      66
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      403,
+      50,
+      663,
+      66
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "Vol. 48 No. 3 March 2025",
+    "bbox": [
+      689,
+      53,
+      867,
+      65
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      319,
+      977
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "Drugs.com（33%～91%），Medscape（53%～97%）；",
+    "bbox": [
+      89,
+      81,
+      480,
+      99
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "PPV 范围：Lexicomp Interactions（32%～99%），",
+    "bbox": [
+      89,
+      102,
+      473,
+      118
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "Micromedex（53%～100%），Epocrates（85%～98.5%），",
+    "bbox": [
+      89,
+      122,
+      480,
+      138
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "Drugs.com（27%～97%），Medscape（33%～94%）；",
+    "bbox": [
+      89,
+      142,
+      480,
+      159
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "NPV 范围：Lexicomp Interactions（11%～100%），",
+    "bbox": [
+      512,
+      81,
+      895,
+      99
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "Micromedex（11%～95%），Epocrates（33%～100%），",
+    "bbox": [
+      512,
+      102,
+      895,
+      118
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "Drugs.com（6%～80%），Medscape（11%～82%）。DDI",
+    "bbox": [
+      512,
+      122,
+      905,
+      138
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "分析软件准确性对比见表 2。",
+    "bbox": [
+      512,
+      141,
+      729,
+      157
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/d7d2d6ecec96248edad7f9032c379c576e4b2becd14e3835b16ca965c7649798.jpg",
+    "table_caption": [
+      "表 2 DDI 分析软件准确性对比",
+      "Table 2 Comparison of the accuracy of DDI analysis software"
+    ],
+    "table_footnote": [
+      "各研究判定 DDI 分析软件准确性的金标准不同：a-金标准为 eFacts（Facts and Comparisons online），Micromedex DRUG-REAX，Hansten andHorn’s Drug Interactions Analysis and Management；b-金标准为临床药师经验、数据库（PubMed，Scopus 和 Google Scholar）以及《Stockley 'sDrug Interactions》；c-金标准为《Stockley’s Drug Interactions》和 PubMed，由于该文献未给出 DDI 的真实阳性总数和真实阴性总数，所以无法计算其 TP、FP、TN、FN；d-金标准为《Nature Medicine》；e-金标准为研究人员——肿瘤专科临床药师（Board Certified Oncology Pharmacist,BCOP）；f 金标准为《The Renal Drug Handbook》。",
+      "The gold standards for judging the accuracy of DDI analysis software were different: a-the gold standards were eFacts (Facts and Comparisons online), Micromedex DRUG-REAX, Hansten and Horn's Drug Interactions Analysis and Management; b-the gold standard is clinical pharmacist experience, databases (PubMed, Scopus and Google Scholar) and Stockley's Drug Interactions; c-the gold standard is \"Stockley's Drug Interactions\" and PubMed, because the literature does not give the true total number of positives and true negatives of DDI, so its TP, FP, TN, and FN cannot be calculated; d-the gold standard is Nature Medicine; The gold standard is for researchers-Board Certified Oncology Pharmacist (BCOP); e-the gold standard is The Renal Drug Handbook."
+    ],
+    "table_body": "<table><tr><td>作者(发表年份)</td><td>DDI类型</td><td>DDI数量</td><td>软件</td><td>敏感度/%</td><td>特异度/%</td><td>PPV/%</td><td>NPV/%</td><td>TP</td><td>FP</td><td>TN</td><td>FN</td></tr><tr><td rowspan=\"3\">Robert Barrons (2004)[8]</td><td rowspan=\"3\">普通</td><td rowspan=\"3\">40个临床重要DDI, 40个临床不重要 $\\text{DDI}^{\\text{a}}$ </td><td>Lexicomp Interactions</td><td>97.50</td><td>90.00</td><td>90.70</td><td>97.30</td><td>39</td><td>1</td><td>39</td><td>1</td></tr><tr><td>Micromedex</td><td>95.00</td><td>100.00</td><td>100.00</td><td>95.12</td><td>38</td><td>0</td><td>40</td><td>2</td></tr><tr><td>Epocrates</td><td>87.18</td><td>85.00</td><td>85.00</td><td>87.18</td><td>34</td><td>6</td><td>34</td><td>5</td></tr><tr><td rowspan=\"3\">Natalie A Perkins, et al. (2006)[9]</td><td rowspan=\"3\">普通</td><td rowspan=\"3\">40个临床重要DDI, 40个临床不重要DDI</td><td>Lexicomp Interactions</td><td>100.00</td><td>52.00</td><td>62.00</td><td>100.00</td><td>16</td><td>10</td><td>11</td><td>0</td></tr><tr><td>Micromedex</td><td>94.00</td><td>71.00</td><td>71.00</td><td>94.00</td><td>15</td><td>6</td><td>15</td><td>1</td></tr><tr><td>Epocrates</td><td>100.00</td><td>90.00</td><td>89.00</td><td>100.00</td><td>16</td><td>2</td><td>19</td><td>0</td></tr><tr><td rowspan=\"4\">Raziyeh Kheshti, et al. (2016)[3]</td><td rowspan=\"4\">普通</td><td rowspan=\"4\">360个未知DDI、40个临床重要 $\\text{DDI}^{\\text{b}}$ </td><td>Lexicomp Interactions</td><td>77.00</td><td>49.00</td><td>81.00</td><td>42.00</td><td>228</td><td>53</td><td>51</td><td>68</td></tr><tr><td>Micromedex</td><td>41.00</td><td>78.00</td><td>85.00</td><td>30.00</td><td>125</td><td>21</td><td>78</td><td>176</td></tr><tr><td>Medscape</td><td>47.00</td><td>53.00</td><td>77.00</td><td>23.00</td><td>147</td><td>42</td><td>49</td><td>162</td></tr><tr><td>Epocrates</td><td>56.00</td><td>73.00</td><td>87.00</td><td>33.00</td><td>172</td><td>25</td><td>69</td><td>134</td></tr><tr><td rowspan=\"5\">Lauren A. Marcath, et al. (2018)[6]</td><td rowspan=\"5\">口服溶瘤药物</td><td rowspan=\"5\">145个临床相关DDI(包括口服溶瘤药物) $^{\\text{c}}$ </td><td>Lexicomp Interactions</td><td>96.00</td><td>80.00</td><td>95.00</td><td>83.00</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Micromedex</td><td>86.00</td><td>87.00</td><td>96.00</td><td>62.00</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Drugs.com</td><td>93.00</td><td>73.00</td><td>93.00</td><td>73.00</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Medscape</td><td>79.00</td><td>73.00</td><td>92.00</td><td>48.00</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Epocrates</td><td>73.00</td><td>83.00</td><td>94.00</td><td>45.00</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td rowspan=\"4\">Faisal Shakeel, et al. (2020)[10]</td><td rowspan=\"4\">草药与抗肿瘤药物</td><td rowspan=\"4\">847个草药-药物 $\\text{DDI}^{\\text{d}}$ </td><td>Lexicomp Interactions</td><td>7.00</td><td>99.00</td><td>98.00</td><td>11.00</td><td>53</td><td>1</td><td>87</td><td>706</td></tr><tr><td>Micromedex</td><td>5.00</td><td>99.00</td><td>97.00</td><td>11.00</td><td>38</td><td>1</td><td>87</td><td>721</td></tr><tr><td>Drugs.com</td><td>12.00</td><td>44.00</td><td>64.00</td><td>6.00</td><td>91</td><td>49</td><td>39</td><td>668</td></tr><tr><td>Medscape</td><td>6.00</td><td>97.00</td><td>94.00</td><td>11.00</td><td>46</td><td>3</td><td>85</td><td>713</td></tr><tr><td rowspan=\"5\">John B Bossaer, et al. (2022)[11]</td><td rowspan=\"5\">口服抗肿瘤药物</td><td rowspan=\"5\">293个DDI(229个真DDI、64个假 $\\text{DDI}^{\\text{e}}$ </td><td>Lexicomp Interactions</td><td>88.60</td><td>96.90</td><td>99.00</td><td>70.50</td><td>203</td><td>2</td><td>62</td><td>26</td></tr><tr><td>Micromedex</td><td>69.00</td><td>71.90</td><td>89.80</td><td>39.30</td><td>158</td><td>18</td><td>46</td><td>71</td></tr><tr><td>Drugs.com</td><td>90.80</td><td>90.60</td><td>97.20</td><td>73.40</td><td>208</td><td>6</td><td>58</td><td>21</td></tr><tr><td>Medscape</td><td>81.20</td><td>62.50</td><td>88.60</td><td>38.20</td><td>187</td><td>24</td><td>40</td><td>42</td></tr><tr><td>Epocrates</td><td>85.60</td><td>95.40</td><td>98.50</td><td>64.90</td><td>196</td><td>3</td><td>61</td><td>33</td></tr><tr><td rowspan=\"4\">Aysel Pehlivanli, et al. (2022)[12]</td><td rowspan=\"4\">免疫抑制剂</td><td rowspan=\"4\">127个免疫抑制剂-肾移植患者共用药潜在 $\\text{DDI}^{\\text{f}}$ </td><td>Lexicomp Interactions</td><td>72.00</td><td>48.00</td><td>32.00</td><td>70.00</td><td>23</td><td>49</td><td>46</td><td>9</td></tr><tr><td>Micromedex</td><td>53.00</td><td>83.00</td><td>53.00</td><td>83.00</td><td>17</td><td>16</td><td>79</td><td>15</td></tr><tr><td>Drugs.com</td><td>75.00</td><td>33.00</td><td>27.00</td><td>80.00</td><td>24</td><td>64</td><td>31</td><td>8</td></tr><tr><td>Medscape</td><td>59.00</td><td>61.00</td><td>33.00</td><td>82.00</td><td>19</td><td>37</td><td>58</td><td>13</td></tr></table>",
+    "bbox": [
+      92,
+      205,
+      905,
+      765
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "第 48 卷第 3 期 2025 年 3 月",
+    "bbox": [
+      119,
+      52,
+      315,
+      66
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      347,
+      50,
+      606,
+      66
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Vol. 48 No. 3 March 2025",
+    "bbox": [
+      631,
+      53,
+      811,
+      65
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "·569·",
+    "bbox": [
+      853,
+      53,
+      900,
+      65
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      319,
+      978
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "通过诊断比值比（DOR）分析异质性，5个DDI分析软件的 $I ^ { 2 } { > } 5 0 \\%$ ，均存在不同程度的统计学异质性，使用随机效应模型合并效应量。敏感度方面Epocrates 合 并 值 最 高 ， 为 0.71 ； 特 异 度 方 面Micromedex合并值最高，为 0.85；阳性似然比方面",
+    "bbox": [
+      89,
+      81,
+      482,
+      177
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "Epocrates 合并值最高，为 6.14；阴性似然比方面Lexicomp Interactions、Epocrates 最低，为 0.2；AUC方面 Epocrates 最高，为 0.933 2。DDI 分析软件拟合值对比情况见表 3。各软件合并 SROC 曲线见图 1。",
+    "bbox": [
+      510,
+      81,
+      905,
+      177
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "table",
+    "img_path": "images/c490de07f20909655e75b5f1e8f619a8ff2658f5d8c9f3a67b5e73f51ccb354b.jpg",
+    "table_caption": [
+      "表 3 DDI 分析软件拟合值对比情况",
+      "Table 3 Comparison of fitted values of DDI analysis software"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>DDI分析软件</td><td>敏感度</td><td>特异度</td><td>阳性似然比</td><td>阴性似然比</td><td>AUC</td></tr><tr><td>Lexicomp Interactions</td><td>0.41</td><td>0.72</td><td>3.68</td><td>0.20</td><td>0.90</td></tr><tr><td>Micromedex</td><td>0.28</td><td>0.85</td><td>2.80</td><td>0.37</td><td>0.87</td></tr><tr><td>Drugs.com</td><td>0.32</td><td>0.52</td><td>1.28</td><td>0.54</td><td>0.64</td></tr><tr><td>Medscape</td><td>0.30</td><td>0.69</td><td>1.52</td><td>0.66</td><td>0.66</td></tr><tr><td>Epocrates</td><td>0.71</td><td>0.84</td><td>6.14</td><td>0.20</td><td>0.93</td></tr></table>",
+    "bbox": [
+      90,
+      224,
+      905,
+      354
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "image",
+    "img_path": "images/3c53298dfa3ef946f432f003ec12deab13634e17bfb07133a3eaeb96193ee42d.jpg",
+    "image_caption": [
+      "图 1 DDI 分析软件的合并 SROC 曲线",
+      "Fig. 1 Combined SROC curve of DDI analysis software"
+    ],
+    "image_footnote": [],
+    "content": "",
+    "bbox": [
+      129,
+      377,
+      843,
+      872
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "·570·",
+    "bbox": [
+      95,
+      53,
+      142,
+      64
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "第 48 卷第 3 期 2025 年 3 月",
+    "bbox": [
+      179,
+      52,
+      373,
+      66
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      403,
+      50,
+      663,
+      66
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "Vol. 48 No. 3 March 2025",
+    "bbox": [
+      690,
+      53,
+      867,
+      66
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      959,
+      319,
+      978
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "2.3 DDI分析软件的信息全面性",
+    "text_level": 2,
+    "bbox": [
+      89,
+      81,
+      349,
+      97
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "本研究从 7 个方面验证了 DDI 分析软件的全面性，全面性条目在软件中的覆盖情况：发病速度 $( n { = } 1 )$ ）、作用机制 $( n { = } 5 )$ ）、严重程度（ $( n =$ 3.5）、临床管理建议（n＝5）、临床表现 $( n { = } 5 )$ 、证据等级（n＝2）、参考文献（n＝3），全面性得分 排 名 为 ： Micromedex （ 7 分 ） ＞ LexicompInteractions（6 分）＞Drugs.com（5 分）＞Medscape（3.5 分）＞Epocrates（3 分）。DDI 分析软件全面性对比见表 4。",
+    "bbox": [
+      89,
+      102,
+      482,
+      177
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      512,
+      81,
+      905,
+      177
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "table",
+    "img_path": "images/4d4617a1d71cdbea011cc2175ca8b933070dcde8371b058203a5d22fcdd8b2b2.jpg",
+    "table_caption": [
+      "表 4 DDI 分析软件全面性对比",
+      "Table 4 Comparison of comprehensiveness of DDI analysis software"
+    ],
+    "table_footnote": [
+      "×-无该条目，√-有该条目；a-由于 Lexicomp Interactions 及Micromedex为付费软件，无法获取准确信息，其全面性相关条目评价参考既往研究[3]；b-各条目 0、0.5、1 分，全面性总分 7 分。",
+      "×-assessment criteria excluded, √-assessment criteria included; a-since Lexicomp Interactions and Micromedex are paid software, accurate information cannot be obtained, and the evaluation of their comprehensiveness related items refers to previous studies[3]; b-0, 0.5, 1 points for each item, and a total score of 7 points for comprehensiveness."
+    ],
+    "table_body": "<table><tr><td>DDI分析软件平台</td><td>发病速度</td><td>作用机制</td><td>严重程度</td><td>临床管理建议</td><td>临床表现</td><td>证据等级</td><td>参考文献</td><td>全面性分数b</td></tr><tr><td>Lexicomp  $Interactions^a$ </td><td>×</td><td>√</td><td>√</td><td>√</td><td>√</td><td>√</td><td>√</td><td>6分</td></tr><tr><td> $Micromedex^a$ </td><td>√</td><td>√</td><td>√</td><td>√</td><td>√</td><td>√</td><td>√</td><td>7分</td></tr><tr><td>Drugs.com</td><td>×</td><td>√</td><td>√</td><td>√</td><td>√</td><td>×</td><td>√</td><td>5分</td></tr><tr><td>Medscape</td><td>×</td><td>√</td><td>有时</td><td>√</td><td>√</td><td>×</td><td>×</td><td>3.5分</td></tr><tr><td>Epocrates</td><td>×</td><td>√</td><td>×</td><td>√</td><td>√</td><td>×</td><td>×</td><td>3分</td></tr></table>",
+    "bbox": [
+      90,
+      221,
+      904,
+      339
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "2.4 DDI分析软件平台的易用性和可靠性",
+    "text_level": 2,
+    "bbox": [
+      89,
+      427,
+      418,
+      442
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "易用性条目在软件平台中的覆盖情况：导航工具（n＝5）、用户支持特性（n＝5）、加载速度（2个需付费，1 个需注册后才可使用），可靠性条目在软件平台中的覆盖情况：作者（n＝1）、免责声明（n＝5）、编辑审查（n＝5）、财务信息披露（n＝2）、存在偏倚（n＝3）、用户隐私（n＝5）、数据库的用途$( n { = } 5 ) .$ 、引用 $( n { = } 4 )$ ）、目标受众（n＝5）、友情链接（n＝3）。5 个软件平台易用性得分均为 3 分，可靠性得分排名为：Lexicomp Interactions（9 分）＝Drugs.com（9 分）＞Micromedex（8 分）＞Medscape（7分）＞Epocrates（5分）。DDI分析软件平台易用性与可靠性对比见表5和 6。",
+    "bbox": [
+      89,
+      446,
+      482,
+      677
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "2.5 DDI分析软件的综合得分",
+    "text_level": 2,
+    "bbox": [
+      89,
+      682,
+      331,
+      698
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "通过准确性、全面性、易用性、可靠性计算各",
+    "bbox": [
+      124,
+      701,
+      480,
+      717
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "DDI 分析软件综合得分，分数排名依次为 LexicompInteractions（8.5 分）＞Epocrates（7.75 分）＞Micromedex（7.5 分）＞Medscape（5.375 分）＞Drugs.com（5.25 分），软件综合得分见表 7。",
+    "bbox": [
+      510,
+      427,
+      905,
+      501
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "3 讨论",
+    "text_level": 2,
+    "bbox": [
+      512,
+      505,
+      581,
+      520
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "本 研 究 通 过 将 Micromedex DrugReax® 、Lexicomp Interactions、Epocrates、Drug InteractionsChecker (Drugs.com)、Medscape® 5 个国外 DDI 分析软件进行对比，从准确性、全面性、易用性、可靠性多维度评估软件性能。对国外软件性能进行分析，从而为我国DDI分析软件开发和应用提供参考和启示。",
+    "bbox": [
+      510,
+      525,
+      905,
+      657
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "3.1 国外DDI分析软件开发和研究现状",
+    "text_level": 2,
+    "bbox": [
+      510,
+      662,
+      828,
+      677
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "3.1.1 准确性 本研究通过对比 5 个 DDI 分析软件的准确性提示，需付费订阅的软件准确性整体优于免费软件，但在检测草药-药物相互作用方面，Micromedex、Lexicomp Interactions、Drugs.com、Medscape性能均有待提高[10]，其主要原因可能是缺乏草药-药物相互作用的可靠信息。通过对比各研究发现[6,8-12]，同一研究中软件准确性存在显著差异，既往不同研究得到的结论中各软件的准确性（敏感度、特异度、PPV、NPV）及个软件之间的排序相差较大。例如 Barrons[8]研究结果表明准确性方面Micromedex＞Lexicomp Interactions＞Epocrates，而Bossaer 等 [11] 研 究 表 明 准 确 性 方 面 LexicompInteractions＞Epocrates＞Micromedex。分析其可能的原因如下：①各研究人群不同、用药剂量、检测DDI数量及类型不同，具有差异性；②准确性对比的金标准不同；③研究时间相差较大，软件版本性能改进，导致结果发生改变；④不同软件严重程度分级标准有差异，目前尚未统一。",
+    "bbox": [
+      510,
+      682,
+      905,
+      717
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "table",
+    "img_path": "images/f46e0a2003edd9fc7eb1fe2881324207867bd1bc26487a9f9f78b16ee16abd78.jpg",
+    "table_caption": [
+      "表 5 DDI 分析软件平台易用性对比",
+      "Table 5 Comparison of usability of DDI analysis software platform"
+    ],
+    "table_footnote": [
+      "√-有该条目；a-各条目1分，易用性总分3分。",
+      "√-assessment criteria included; a-1 point for each assessment criteria, a total score of 3 points for usability."
+    ],
+    "table_body": "<table><tr><td>DDI分析软件平台</td><td>导航工具(站点地图、索引或菜单系统)</td><td>用户支持特性[帮助功能或常见问题(FAQ)]</td><td>加载速度(加载数据库所用时间的可接受性)</td><td>分数a</td></tr><tr><td>Lexicomp Interactions</td><td>√</td><td>√</td><td>付费</td><td>3分</td></tr><tr><td>Micromedex</td><td>√</td><td>√</td><td>付费</td><td>3分</td></tr><tr><td>Drugs.com</td><td>√</td><td>√</td><td>√</td><td>3分</td></tr><tr><td>Medscape</td><td>√</td><td>√</td><td>√</td><td>3分</td></tr><tr><td>Epocrates</td><td>√</td><td>√</td><td>注册</td><td>3分</td></tr></table>",
+    "bbox": [
+      90,
+      762,
+      907,
+      890
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "第 48 卷第 3 期 2025 年 3 月",
+    "bbox": [
+      119,
+      52,
+      315,
+      66
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      346,
+      50,
+      606,
+      66
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "Vol. 48 No. 3 March 2025",
+    "bbox": [
+      631,
+      53,
+      811,
+      65
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "·571·",
+    "bbox": [
+      853,
+      53,
+      900,
+      65
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      319,
+      978
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "table",
+    "img_path": "images/f9ba515879de4d9719ca4fbc2c0dceea2a9e2f16d2eb9bc9007cb8cddf62b47b.jpg",
+    "table_caption": [
+      "表 6 DDI 分析软件平台可靠性对比",
+      "Table 6 Comparison of reliability of DDI analysis software platform"
+    ],
+    "table_footnote": [
+      "×-无该条目，√-有该条目；b-各条目1 分，可靠性总分10 分。",
+      "×-assessment criteria excluded, √-assessment criteria included; b-1 point for each assessment criteria, a total score of 10 points for reliability."
+    ],
+    "table_body": "<table><tr><td>DDI分析软件平台</td><td>作者(作者的姓名和证书)</td><td>免责声明(存在声明,表明有关信息不应取代医疗保健专业人员的建议)</td><td>编辑审查(数据库内容验证程序的说明)</td><td>财务信息披露(数据库资金来源说明)</td><td>存在偏倚(存在广告和/或附属关系)</td><td>用户隐私(存在与用户有关的隐私政策声明)</td><td>数据库的用途(指示数据库的目标)</td><td>引用(编辑内容是否被引用)</td><td>目标受众(数据库的目标客户)</td><td>友情链接(具有其他药物数据库的超链接,用于验证药物信息)</td><td>分数b</td></tr><tr><td>Lexicomp Interactions</td><td>×</td><td>√</td><td>√</td><td>√</td><td>√</td><td>√</td><td>√</td><td>√</td><td>√</td><td>√</td><td>9分</td></tr><tr><td>Micromedex</td><td>×</td><td>√</td><td>√</td><td>√</td><td>×</td><td>√</td><td>√</td><td>√</td><td>√</td><td>√</td><td>8分</td></tr><tr><td>Drugs.com</td><td>√</td><td>√</td><td>√</td><td>×</td><td>√</td><td>√</td><td>√</td><td>√</td><td>√</td><td>√</td><td>9分</td></tr><tr><td>Medscape</td><td>×</td><td>√</td><td>√</td><td>×</td><td>√</td><td>√</td><td>√</td><td>√</td><td>√</td><td>×</td><td>7分</td></tr><tr><td>Epocrates</td><td>×</td><td>√</td><td>√</td><td>×</td><td>×</td><td>√</td><td>√</td><td>×</td><td>√</td><td>×</td><td>5分</td></tr></table>",
+    "bbox": [
+      90,
+      116,
+      907,
+      323
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "table",
+    "img_path": "images/e6c58aa616c7b2147609103c95367a16dc6117214f4f16917966acafaddbef39.jpg",
+    "table_caption": [
+      "表 7 DDI 分析软件综合得分",
+      "Table 7 Overall score of DDI analysis software"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>DDI 分析软件</td><td>准确性</td><td>全面性</td><td>易用性</td><td>可靠性</td><td>综合得分</td></tr><tr><td>Lexicomp Interactions</td><td>8</td><td>6</td><td>3</td><td>9</td><td>8.5</td></tr><tr><td>Micromedex</td><td>6</td><td>7</td><td>3</td><td>8</td><td>7.5</td></tr><tr><td>Drugs.com</td><td>2</td><td>5</td><td>3</td><td>9</td><td>5.25</td></tr><tr><td>Medscape</td><td>4</td><td>3.5</td><td>3</td><td>7</td><td>5.375</td></tr><tr><td>Epocrates</td><td>10</td><td>3</td><td>3</td><td>5</td><td>7.75</td></tr></table>",
+    "bbox": [
+      90,
+      400,
+      907,
+      517
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      532,
+      482,
+      843
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "此外，纳入研究的 DDI 可分为实际 DDI（临床相关 DDI）与潜在 DDI，实际 DDI 是指与临床相关实际发生的 DDI，潜在 DDI 是指从药物的已知药理特性预测的 DDI。Magro 等[13]研究证明实际 DDI 的发生率始终低于潜在 DDI，使用 DDI 分析软件可有效减少潜在 DDI 的发生。但由于潜在DDI 信息冗杂可能会导致过度警报从而忽略严重DDI，所以 DDI 分析软件须具有高敏感度和高特异度以排除临床不重要的 DDI 预警，突出严重和新的 DDI 预警信号的检出，更为有效地指导临床合理用药。",
+    "bbox": [
+      89,
+      846,
+      482,
+      921
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      532,
+      905,
+      666
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "3.1.2 全面性 本研究从 7 个方面验证了 DDI 分析软件的全面性，大部分软件都包含DDI临床表现、作用机制、严重程度、临床管理建议，需要付费订阅的DDI分析软件信息要素更加丰富全面，还包括证据等级和参考文献，在全面性方面优于免费软件。尽管大多数软件具有较好的全面性，但既往研究显示 DDI分析软件在严重程度分类、参考文献和信息来源方面存在很大差异[5]，而证据等级和参考文献来源是确保信息准确性的重要依据，提示在今后的DDI分析软件开发过程中应完善证据等级及参考文献来源等信息，各国相关监管机构及行业学会应出台 DDI严重程度分类等指南以进行规范。",
+    "bbox": [
+      510,
+      669,
+      910,
+      902
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "3.1.3 易用性和可靠性 本研究参考 OncoRx-IQ工具[14]的评价内容对 5 个 DDI 分析软件平台的易用性和可靠性进行评估。OncoRx-IQ 是在总结了HONcode、DISCERN、Netscoring、eEUROPE、DARTS 5 个网站质量评估工具优缺点的基础上开发的DDI网站质量评估工具，在试点研究中测试良好。各健康信息网站可靠性的评估方法都有不同的定义和评分，但大多参照 Silberg 等[15]制定的判定标准——“作者”“归属”和“披露”。其中，“作者”指作者是否为医学专业人员，是否提供联系方式等；“归属”指网站是否归属于权威医学机构或组织；“披露”指网站是否披露信息来源、财务信息等。本研究结果提示，5 个软件均具有较好的易用性，但在信息可靠性方面有不同程度的缺失，大都缺少作者信息和财务信息披露。未来各网站在完善过程中要注重该类信息的补充，这些标准可以用来评估网站提供的健康信息的可信度和可靠性，帮助用户更好地选取最可信赖的健康信息网站。",
+    "bbox": [
+      510,
+      905,
+      905,
+      921
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "page_number",
+    "text": "·572·",
+    "bbox": [
+      95,
+      53,
+      142,
+      64
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "第 48 卷第 3 期 2025 年 3 月",
+    "bbox": [
+      179,
+      52,
+      373,
+      66
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      403,
+      50,
+      663,
+      66
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "Vol. 48 No. 3 March 2025",
+    "bbox": [
+      690,
+      53,
+      867,
+      65
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      319,
+      977
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      81,
+      485,
+      412
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "3.1.4 综合得分 健康信息资源的质量评估方法通常包括两个方面[14]：一是资源的信息质量评估，如内容的准确性、全面性等；二是资源的技术质量评估，如界面设计、用户体验、响应速度等。其中，前者是评估资源内容的重要指标，而后者则是评估资源技术运营的重要指标。本研究根据上述思路从全方位评估DDI分析软件质量，多维度剖析软件性能，根据准确性、全面性、易用性、可靠性分数得出软件性能综合分数，排名依次为 LexicompInteractions＞Epocrates＞Micromedex＞Medscape＞Drugs.com。虽然本研究在软件准确性评估方面可能存在一定偏倚风险，但截至目前，国内还未有相关研究从准确性、全面性、易用性、可靠性4 个方面评估国外常用DDI分析软件的性能，具有一定借鉴意义。",
+    "bbox": [
+      89,
+      415,
+      484,
+      706
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "3.2 临床常见DDI在软件中的表现",
+    "text_level": 2,
+    "bbox": [
+      90,
+      710,
+      371,
+      726
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "本研究选取2对临床常见DDI，在5个软件中进行筛查和处理。",
+    "bbox": [
+      89,
+      729,
+      482,
+      765
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "3.2.1 阿司匹林与舍曲林的DDI 对于阿司匹林与舍曲林的组合，Micromedex报告显示，阿司匹林与舍曲林联合使用可能会增加出血风险，属于主要药物相互作用；Lexicomp Interactions 则指出该组合为C 级警告，需监控治疗，联合用药可能会增加出血风险，建议加强监测或调整剂量；Epocrates则建议监控治疗，重点监测出血症状，认为该组合可能会增加胃肠道或其他部位的出血风险，甚至可能导致危及生命的出血。其累加效应可增强抗血小板作用，因为舍曲林作为选择性血清素再吸收抑制剂（SSRI），通过抑制血小板对 5-羟色胺的摄取来增加出血风险；Drugs.com 指出这一组合具有中度临床意义，通常建议避免联合使用，仅在特殊情况下使用，且应密切关注患者是否出现出血迹象；Medscape 则提醒，使用时应谨慎，并建议对患者进行出血症状的监测。多项病例报告和流行病学研究（包括病例对照和队列研究）[16]表明，SSRI（包括舍曲林）可能会增加胃肠道出血的风险，特别是与阿司匹林等非甾体抗炎药联合使用时。所有5 个软件的筛选结果均表明阿司匹林与舍曲林存在药物相互作用，且有不同程度的临床影响，但在报告内容 上 ， Micromedex 、 Lexicomp Interactions 、Drugs.com 3 款软件提供了更为详细的作用机制及管理建议，并引用了相关文献，这对于医务人员的临床使用更具参考价值和实用性。",
+    "bbox": [
+      89,
+      769,
+      482,
+      921
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      81,
+      907,
+      412
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "3.2.2 氯吡格雷与埃索美拉唑的DDI 针对氯吡格雷与埃索美拉唑的组合，Micromedex 报告指出，埃索美拉唑可能减少氯吡格雷活性代谢产物的生成，从而降低其抗血小板作用。该软件提示需要权衡风险 与 获 益 ， 考 虑 调 整 治 疗 方 案 ； LexicompInteractions则给出了D级警告，建议在考虑治疗改进时，需权衡联合用药的风险与获益，并实施积极的监测、经验性的剂量调整或换用可替代药物等措施；Epocrates 建议避免联合使用或选择替代方案，因联合用药可能降低氯吡格雷活性代谢物水平；Drugs.com 指出该组合具有重大临床意义，通常应避免联合使用，因其风险大于获益，且与质子泵抑制剂（PPI）联合使用可能降低氯吡格雷的心脏保护作用。该软件提出的机制为，PPI 通过抑制肝脏的细胞色素 P450 2C19（CYP2C19）酶系，从而减少氯吡格雷的代谢活化；Medscape 则提醒，氯吡格雷与埃索美拉唑的联合使用为严重 DDI，埃索美拉唑通过影响 CYP2C19 代谢降低氯吡格雷的疗效，建议避免联合用药或使用替代药物。多项研究[17]表明，同时使用氯吡格雷和埃索美拉唑或奥美拉唑会显著降低氯吡格雷的抗血小板活性。氯吡格雷作为无活性的前体药物，在体内需通过肝脏的CYP450 酶系（主要是 CYP2C19 和 CYP3A4 同工酶）转化为活性代谢产物。部分 PPI 也主要通过 CYP2C19 在肝脏代谢，因此，氯吡格雷与PPI 联合使用时，可能会因竞争CYP2C19的同一结合位点而发生DDI，",
+    "bbox": [
+      510,
+      415,
+      910,
+      921
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "第 48 卷第 3 期 2025 年 3 月",
+    "bbox": [
+      119,
+      52,
+      315,
+      66
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      347,
+      50,
+      606,
+      66
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "Vol. 48 No. 3 March 2025",
+    "bbox": [
+      633,
+      53,
+      810,
+      65
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "page_number",
+    "text": "·573·",
+    "bbox": [
+      853,
+      53,
+      900,
+      65
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      959,
+      319,
+      977
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "因此应避免同时使用。",
+    "bbox": [
+      90,
+      81,
+      260,
+      97
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "5 个软件均显示氯吡格雷与埃索美拉唑存在DDI，且建议避免联合应用，但对于其严重程度差异较大。Drugs.com 和 Medscape 提示该组合为严重DDI ， 而 Micromedex 、 Lexicomp Interactions 和Epocrates则提示为主要DDI。临床应用中，应选择更加严谨的软件以确保患者安全，同时使用2 种软件进行筛选也能减少因信息不全面而引起的分析误差，提高分析的准确性。",
+    "bbox": [
+      89,
+      102,
+      482,
+      255
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "3.3 对我国DDI研究的思考",
+    "text_level": 2,
+    "bbox": [
+      90,
+      258,
+      317,
+      273
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "3.3.1 我国 DDI 分析软件开发和研究现状 既往研究[18]显示，我国尚未开发出成熟的 DDI 分析软件，国外DDI分析软件在中国并未广泛应用，医疗行业人员主要依靠移动健康应用程序来查询 DDI信息。我国手机应用商店中具有DDI分析功能的应用程序（APP）共有 7 款，分别是合理用药信息支持系统移动版（MCDEX 移动版）、丁香园药物助手、用药参考、人卫用药助手、用药指南、丁香园、医脉通。",
+    "bbox": [
+      89,
+      278,
+      482,
+      449
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "研究[18]显示这7款APP 中有 6款免费，但有2款需付费才能获得更全面的 DDI 信息。使用手机APP 评分量表 MARS 进行评估后发现，这些 APP的平均分为 3.63 分（满分 5 分），质量存在两极分化。此外，7 款 APP 均未获得监管部门的批准，3款 APP 提供了信息来源，4 款 APP 无法识别超过50%的测试DDI对，原因在于缺乏可靠的DDI证据来源。由于这些APP 的开发过程没有临床医师或药学专家参与完成，从而导致APP的广泛使用存在局限性[18]。",
+    "bbox": [
+      89,
+      454,
+      482,
+      645
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "3.3.2 对我国 DDI 分析软件的启示 国外 DDI 研究开始较早，DDI数据库等资源较为成熟，然而我国尚未开发出专业且功能完善的 DDI分析软件。由于语言差异和付费问题，国外软件不适合我国医疗行业人员，尤其是基层医疗机构。因此学习和借鉴国外 DDI 分析软件优势，开发和完善中国 DDI 分析软件十分必要。以下是关于我国 DDI分析软件开发的几点建议。",
+    "bbox": [
+      89,
+      649,
+      482,
+      802
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "（1）药物信息丰富性：数据库应尽可能涵盖多种 DDI 类型及相互作用信息，以提高数据库使用价值。",
+      "（2）数据准确性：DDI信息应包含证据级别及参考文献来源，在一定程度上保证了数据的准确性；此外，数据的收集及整理应由专业的编辑、审核团"
+    ],
+    "bbox": [
+      89,
+      806,
+      482,
+      920
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "队完成；最后，各领域具有丰富经验的权威专家对专论内容的审核、修订等质控环节，是确保信息权威性和实用性的关键。",
+    "bbox": [
+      510,
+      81,
+      905,
+      137
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "list",
+    "sub_type": "text",
+    "list_items": [
+      "（3）数据时效性：编辑团队应建立数据更新、维护机制，对最新医药学研究成果进行长期、持续性追踪、收集、分析和评价，以确保DDI信息的时效性和完整性。",
+      "（4）使用简便性：在开发 DDI 分析软件时，应充分考虑用户的体验感。软件的可用性和易用性很可能是影响用户在多种可用资源之间进行选择时做出决定的最终因素，因此要重视软件的易用性及专业信息的可理解性[19]。"
+    ],
+    "bbox": [
+      510,
+      141,
+      904,
+      313
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "3.4 本研究的局限性",
+    "text_level": 2,
+    "bbox": [
+      512,
+      317,
+      680,
+      333
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "本研究最初通过既往系统综述文献选取研究频率较高的 6个软件作为研究对象，由于后期发现Drug Interaction Facts®在多个软件相互比较的文献中研究较少，在准确性分析方面可能存在偏倚风险，故排除该软件，最终选取5个DDI 分析软件。虽然其他软件在 DDI筛查方面也进行过研究，但文献数量少使用频率低，本研究选取的 5个软件已具备代表性，对其性能的研究可以代表国外DDI分析软件现状。",
+    "bbox": [
+      510,
+      335,
+      910,
+      509
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "此外，在 DDI 分析软件准确性对比方面，本研究结果与其他研究结果有较大差异[3,7,8-9,11]，考虑原因之一是本研究虽参考诊断性 Meta分析的方法，但由于主要目的是通过拟合效应量比较各 DDI分析软件的准确性，且纳入文献并非临床诊断性研究，本研究未严格按照诊断性 Meta分析步骤进行，以确保该分析研究的可操作性，因此可能存在偏倚风险。",
+    "bbox": [
+      510,
+      511,
+      905,
+      665
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "4 结语",
+    "text_level": 2,
+    "bbox": [
+      512,
+      669,
+      579,
+      684
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "DDI是影响药品安全的重要因素之一，合理利用 DDI分析软件可有效减少有害 DDI。本研究通过多维度评估国外 5个 DDI分析软件性能，得到准确性、全面性、可靠性、易用性的综合评分排名为Lexicomp Interactions ＞ Epocrates ＞ Micromedex ＞Medscape＞Drugs.com。研究发现，各软件识别能力及信息质量参差不齐，对于DDI严重程度分类标准、参考文献及信息来源等重要信息有待完善，一些软件的易用性及可靠性也有待提升。目前我国尚未开发出专业且功能完善的DDI分析软件，主要依靠移动健康应用程序来查询 DDI 信息，在 DDI 研究和软件开发方面也还存在一定的差距和挑战。因此，借鉴国外 DDI 分析软件优势，对开发、完善我国DDI 分析软件具有一定的意义。未来我国应加强DDI数据的收集、整合、利用，开发完善符合我国实用需求的 DDI 分析软件技术，加强药品监管机构的参与和指导，制定和完善DDI 相关指南，共同推进我国DDI研究的发展和软件的应用以识别DDI潜在风险，为监管提供科学依据，保障公众用药安全。",
+    "bbox": [
+      510,
+      688,
+      910,
+      921
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "page_number",
+    "text": "·574·",
+    "bbox": [
+      95,
+      53,
+      142,
+      64
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "header",
+    "text": "第 48 卷第 3 期 2025 年 3 月",
+    "bbox": [
+      178,
+      52,
+      373,
+      66
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      403,
+      50,
+      663,
+      66
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "header",
+    "text": "Vol. 48 No. 3 March 2025",
+    "bbox": [
+      689,
+      53,
+      867,
+      66
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      319,
+      977
+    ],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      81,
+      485,
+      216
+    ],
+    "page_idx": 9
+  },
+  {
+    "type": "text",
+    "text": "利益冲突 所有作者均声明不存在利益冲突",
+    "text_level": 2,
+    "bbox": [
+      121,
+      231,
+      413,
+      245
+    ],
+    "page_idx": 9
+  },
+  {
+    "type": "text",
+    "text": "参考文献",
+    "text_level": 2,
+    "bbox": [
+      92,
+      254,
+      157,
+      268
+    ],
+    "page_idx": 9
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1] Roblek T, Vaupotic T, Mrhar A, et al. Drug-drug interaction software in clinical practice: A systematic review [J]. Eur J Clin Pharmacol, 2015, 71(2): 131-142.",
+      "[2] Halkin H, Katzir I, Kurman I, et al. Preventing drug interactions by online prescription screening in community pharmacies and medical practices [J]. Clin Pharmacol Ther, 2001, 69(4): 260-265.",
+      "[3] Kheshti R, Aalipour M, Namazi S. A comparison of five common drug-drug interaction software programs regarding accuracy and comprehensiveness [J]. J Res Pharm Pract, 2016, 5(4): 257-263.",
+      "[4] Patel R I, Beckett R D. Evaluation of resources for analyzing drug interactions [J]. J Med Libr Assoc, 2016, 104(4): 290-295.",
+      "[5] Kongsholm G G, Nielsen A K T, Damkier P. Drug interaction databases in medical literature: Transparency of ownership, funding, classification algorithms, level of documentation, and staff qualifications. A systematic review [J]. Eur J Clin Pharmacol, 2015, 71(11): 1397- 1402.",
+      "[6] Marcath L A, Xi J Y, Hoylman E K, et al. Comparison of nine tools for screening drug-drug interactions of oral oncolytics [J]. J Oncol Pract, 2018, 14(6): e368-e374.",
+      "[7] Vonbach P, Dubied A, Krähenbühl S, et al. Evaluation of frequently used drug interaction screening programs [J]. Pharm World Sci, 2008, 30(4): 367-374.",
+      "[8] Barrons R. Evaluation of personal digital assistant software for drug interactions [J]. Am J Health Syst Pharm, 2004, 61(4): 380-385.",
+      "[9] Perkins N A, Murphy J E, Malone D C, et al. Performance of drug-drug interaction software for personal digital",
+      "assistants [J]. Ann Pharmacother, 2006, 40(5): 850-855.",
+      "[10] Shakeel F, Fang F, Kidwell K M, et al. Comparison of eight screening tools to detect interactions between herbal supplements and oncology agents [J]. J Oncol Pharm Pract, 2020, 26(8): 1843-1849.",
+      "[11] Bossaer J B, Eskens D, Gardner A. Sensitivity and specificity of drug interaction databases to detect interactions with recently approved oral antineoplastics [J]. J Oncol Pharm Pract, 2022, 28(1): 82-86.",
+      "[12] Pehlivanli A, Eren-Sadioglu R, Aktar M, et al. Potential drug-drug interactions of immunosuppressants in kidney transplant recipients: Comparison of drug interaction resources [J]. Int J Clin Pharm, 2022, 44(3): 651-662.",
+      "[13] Magro L, Moretti U, Leone R. Epidemiology and characteristics of adverse drug reactions caused by drugdrug interactions [J]. Expert Opin Drug Saf, 2012, 11(1): 83-94.",
+      "[14] Yap K Y, Raaj S, Chan A. OncoRx-IQ: A tool for quality assessment of online anticancer drug interactions [J]. Int J Qual Health Care, 2010, 22(2): 93-106.",
+      "[15] Silberg W M, Lundberg G D, Musacchio R A. Assessing, controlling, and assuring the quality of medical information on the Internet: Caveant lector et viewor: Let the reader and viewer beware [J]. JAMA, 1997, 277(15): 1244-1245.",
+      "[16] Haghbin H, Zakirkhodjaev N, Husain F F, et al. Risk of gastrointestinal bleeding with concurrent use of NSAID and SSRI: A systematic review and network meta-analysis [J]. Dig Dis Sci, 2023, 68(5): 1975-1982.",
+      "[17] Ai M Y, Chen Y Z, Kuo C L, et al. A network metaanalysis: Evaluating the efficacy and safety of concurrent proton pump inhibitors and clopidogrel therapy in post-PCI patients [J]. Front Cardiovasc Med, 2024, 11: 1385318.",
+      "[18] Shen C Y, Jiang B, Yang Q L, et al. Mobile apps for drugdrug interaction checks in Chinese app stores: Systematic review and content analysis [J]. JMIR Mhealth Uhealth, 2021, 9(6): e26262.",
+      "[19] Morte-Romea E, Luque-Gómez P, Arenere-Mendoza M, et al. Performance assessment of software to detect and assist prescribers with antimicrobial drug interactions: Are all of them created equal? [J]. Antibiotics (Basel), 2020, 9(1): 19."
+    ],
+    "bbox": [
+      85,
+      268,
+      489,
+      817
+    ],
+    "page_idx": 9
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      510,
+      80,
+      910,
+      817
+    ],
+    "page_idx": 9
+  },
+  {
+    "type": "text",
+    "text": "[责任编辑 刘东博]",
+    "bbox": [
+      766,
+      820,
+      902,
+      833
+    ],
+    "page_idx": 9
+  },
+  {
+    "type": "header",
+    "text": "第 48 卷第 3 期 2025 年 3 月",
+    "bbox": [
+      119,
+      52,
+      315,
+      66
+    ],
+    "page_idx": 9
+  },
+  {
+    "type": "header",
+    "text": "Drug Evaluation Research",
+    "bbox": [
+      347,
+      50,
+      606,
+      66
+    ],
+    "page_idx": 9
+  },
+  {
+    "type": "header",
+    "text": "Vol. 48 No. 3 March 2025",
+    "bbox": [
+      631,
+      53,
+      811,
+      65
+    ],
+    "page_idx": 9
+  },
+  {
+    "type": "page_number",
+    "text": "·575·",
+    "bbox": [
+      853,
+      53,
+      900,
+      65
+    ],
+    "page_idx": 9
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      959,
+      319,
+      977
+    ],
+    "page_idx": 9
+  }
+]

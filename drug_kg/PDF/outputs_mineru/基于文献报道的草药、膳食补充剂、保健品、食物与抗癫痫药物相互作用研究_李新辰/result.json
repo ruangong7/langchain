@@ -1,0 +1,898 @@
+[
+  {
+    "type": "text",
+    "text": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究",
+    "text_level": 1,
+    "bbox": [
+      90,
+      100,
+      907,
+      150
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "李新辰，赵志刚，杨莉，李凌涛，苏丽丽 （首都医科大学附属北京天坛医院药学部，北京 100070）",
+    "bbox": [
+      90,
+      170,
+      754,
+      186
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［摘要］ 目的：提供系统的关于抗癫痫药物与草药、膳食补充剂、保健品与食物间的相互作用信息，为医生、药师进一步管理用药风险提供参考。方法：检索PubMed、中国知网、万方、维普，纳入符合要求的文献。以被纳入草药、膳食补充剂、保健品、食物的通用名在NMPA药品数据库、SAMR特殊食品信息查询平台、《中国药典》、地方中药饮片炮制规范、京东网、淘宝网进行检索确认其在我国的商品存在形式。结果：48篇文献被纳入该研究，共得到44条草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用信息，其中14条来自案例 临床报道，30条来自体内 体外实验。结论：草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用的研究尚不充分，虽然该研究为医务人员提供了有关此类相互作用信息的系统总结，但还需要进一步建立数据库并开发有效工具才能帮助临床做好用药风险的管理。",
+    "bbox": [
+      89,
+      201,
+      905,
+      323
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［关键词］ 抗癫痫药物；草药；膳食补充剂；保健品；食物；药物相互作用",
+    "bbox": [
+      90,
+      326,
+      557,
+      340
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［中图分类号］R971+. 6 ［文献标识码］A ［文章编号］1001-5213（2024）20-2363-07 DOI：10. 13286/j. 1001-5213. 2024. 20. 06",
+    "bbox": [
+      89,
+      343,
+      833,
+      357
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Drug-interaction between antiepileptic drugs and herb remedies， dietary supplements， healthy products and food： based upon literature reports",
+    "text_level": 1,
+    "bbox": [
+      87,
+      368,
+      907,
+      402
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "LI Xinchen， ZHAO Zhigang， YANG Li， LI Lingtao， SU Lili（Department of Pharmacy， Beijing Tiantan Hospi⁃tal， Capital Medical University， Beijing 100070， China）",
+    "bbox": [
+      87,
+      417,
+      907,
+      451
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "ABSTRACT: OBJECTIVE To provide a systematic presentation about drug-interaction between antiepileptic drug and herb remedies， dietary supplements， healthy products， food， help medical professional to further management pharmaceutical risk. METHODS The databases of PubMed， China National Knowledge Infrastructure （CNKI）， Wanfang and CQVIP were searched for the eligible literature items. And drug database of National Medical Products Administration （NMPA）， special food information query platform of State Administration for Market Regulation （SAMR）， Chinese Pharmacopoeia， local Chinese medicine decoction preparation standards， JD. com and Taobao were accessed for confirming the existence of common names included in herb remedies， dietary supplements， healthy products and foods in China. RESULTS A total of 48 herb remedies， dietary supplements， healthy products and food-antiepileptic drug interaction pairs were identified from published literature，14 pairs from case report and 30 pairs from in vivo/vitro study. CONCLUSION Researches on the interaction between herb remedies， dietary supplements， healthy products， food and anti-epileptic drugs have remained insufficient. Although this study provides a systematic summary of information on such interactions for healthcare professionals， further establishment of databases and development of effective tools are required for a proper management of medication risks in clinical practices.",
+    "bbox": [
+      87,
+      465,
+      907,
+      677
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "KEY WORDS: antiepileptic drugs； herb remedies； dietary supplements； healthy products； food； drug interactions",
+    "bbox": [
+      89,
+      678,
+      806,
+      694
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "癫痫是最常见的神经系统疾病之一，全球范围内约五千万人罹患该病［1］ 。长期规律服用抗癫痫药物（antiepileptic drugs，AEDs）是癫痫患者首选的、最基本的治疗方式。AEDs治疗窗窄，多种因素可影响其血药浓度，使治疗无效或产生毒性。药物相互作用是最重要的因素之一。",
+    "bbox": [
+      89,
+      715,
+      485,
+      829
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "因“天然即安全”的理念深入人心，癫痫患者极易出于健康目的服用草药、膳食补充剂、保健品以及特定条件下有药理活性的食物，这使AEDs相关的药物相互作用发生风险增加。并且，这种风险是普遍存在的，以美国为例，40%～60%成年人服用包括草药在内的膳食补充剂，且其中的25%同时服用处方药［2］ 。一项纳入490例癫痫患者的前瞻性研究显示，50.4%的患者服用草药或膳食补充剂，其中10%的患者服用的草药或膳食补充剂与AEDs有潜在相互作用［3］ 。",
+    "bbox": [
+      90,
+      832,
+      484,
+      888
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      715,
+      905,
+      849
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "药品说明书与合理用药软件中此类信息的更新有滞后性，但预防药物相互作用对用药安全极为重要［4-5］ 。因此，有必要系统性搜集此类信息并加以评价，为临床处理此类风险提供参考。",
+    "bbox": [
+      510,
+      852,
+      907,
+      888
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志 2024 年 10 月第 44 卷第 20 期 Chin J Hosp Pharm，Oct 2024，Vol 44，No. 20",
+    "bbox": [
+      90,
+      55,
+      638,
+      70
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "· 2363 ·",
+    "bbox": [
+      818,
+      58,
+      889,
+      71
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "［基金项目］国家重点研发计划子课题（编号：2020 2008305） ［作者简介］李新辰，男，硕士，主管药师，研究方向：药事管理 ［通信作者］杨莉，女，硕士，副主任药师，副教授，研究方向：临床药学",
+    "bbox": [
+      89,
+      906,
+      907,
+      937
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      322,
+      978
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      77,
+      482,
+      113
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1　资料与方法",
+    "text_level": 2,
+    "bbox": [
+      90,
+      116,
+      211,
+      131
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.1　数据源与文献检索　本研究的对象是草药、膳食补充剂、保健品、食物，其中膳食补充剂的定义参照FDA颁布的《膳食补充剂健康与教育法》［6］（Dietary Supplement Health and Education Act，DSHEA）所述。",
+    "bbox": [
+      89,
+      135,
+      482,
+      227
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我 国 上 市通用名）以“用 ”关系分别与下列关键词逐个 结 合 检 索 ，包 括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。",
+    "bbox": [
+      89,
+      231,
+      482,
+      380
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "中文文献检索中国知网、万方、维普数据库，检索式：主题：（“我国上市AEDs通用名”） and 主题：（“相互作用”）以“ND”关系分别与下列关键词逐个结合检索：中药、草药、天然产物、辅助医疗、替代医疗、膳食补充剂、保健品、食物、植物药。",
+    "bbox": [
+      89,
+      385,
+      482,
+      476
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "检索策略使用的我国上市 通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加 巴 喷 丁（gabapentin）、拉 莫 三 嗪（lamotrigine）、托 吡 酯（topiramate）、左 乙 拉 西 坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。",
+    "bbox": [
+      89,
+      480,
+      482,
+      630
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "中英文数据库检索均不限制文献出版的时间区间。",
+    "bbox": [
+      89,
+      633,
+      482,
+      667
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 2　纳排标准与数据提取　如果文献资料涉及草药、膳食补充剂、保健品、食物与AEDs相互作用的原始数据，则不论研究类型均被纳入。排除无法自全文或摘要得到数据的文献以及研究中未明确给出与AEDs产生相互作用药物名称的研究。文献的合格性评估与选择由两名药师独立进行。纳入结果存在差异时由第三人评估解决。",
+    "bbox": [
+      89,
+      671,
+      482,
+      802
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1.3　纳入样本在我国销售形式的检索　使用纳入本研究的草药、膳食补充剂、保健品、食物的通用名称，在国家药品监督管理局（ucts Administration，NMPA）上市药品查询数据库检索是否有纳入样本的药品上市；检索国家市场监督管理总局（State Administration for Market Regu⁃lation，SAMR）特殊食品信息查询平台查询是否有含纳入样本的保健品产品；查询《中国药典》及地方中药饮片炮制规范确定纳入样本是否在我国存在对应的中药饮片；查询京东网、淘宝网，确认纳入样本在我国是否有食品、膳食补充剂或其他的销售形式。",
+    "bbox": [
+      89,
+      806,
+      482,
+      937
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      77,
+      905,
+      170
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2　结果",
+    "text_level": 2,
+    "bbox": [
+      512,
+      173,
+      581,
+      189
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.1　文献检索结果　初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。",
+    "bbox": [
+      510,
+      193,
+      905,
+      305
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "image",
+    "img_path": "images/20f1fab95d57748e637ca4aa5f0a7a250ce111008d50aa36a3bf6e322730ff53.jpg",
+    "image_caption": [
+      "图1　文献筛选流程",
+      "Fig 1 Flow chart of literature screening"
+    ],
+    "image_footnote": [],
+    "content": "```mermaid\ngraph TD\n  A[\"PubMed初步检索得文献525篇\"] --> C[\"1 472篇\"]\n  B[\"CNKI、万方、维普初步检索得文献947篇\"] --> C\n  C --> D[\"48篇\"]\n  E[\"通过阅读题目及摘要剔除：\\n重复文献(n=80)\\n未提供数据(n=9)\\n不相关(n=1369)\"] --> D\n```",
+    "sub_type": "flowchart",
+    "bbox": [
+      521,
+      313,
+      897,
+      419
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物　能够与 发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。",
+    "bbox": [
+      510,
+      459,
+      905,
+      590
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.3　纳入样本在我国销售形式　墨角藻、耳叶决明、芥酸、壳聚糖在我国不以草药、膳食补充剂、保健品、食品中任一形式销售；天麻、银杏叶、桔梗、赤芍均有对应药品、中药饮片、保健品、膳食补充剂、食品形式的产品；正天丸、加味逍遥丸是OTC药品；小青龙汤、小柴胡汤、柴胡龙骨牡蛎汤是我国传统方剂；其余被纳入本研究的天然产物至少有一种对应上述分类的产品。具体结果见表3。",
+    "bbox": [
+      510,
+      594,
+      905,
+      744
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "3　讨论",
+    "text_level": 2,
+    "bbox": [
+      512,
+      748,
+      581,
+      763
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "本文研究对象在我国和西方国家都有广泛临床应用与销售，以美国为例，1994年出台DSHEA，至2006年，膳食补充剂与其他含天然药物的产品销售额增长了2倍，达74.5亿美元［7］，至2021年达到123 5 亿美元［8］ 。",
+    "bbox": [
+      510,
+      767,
+      905,
+      860
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "从研究结果数量看，已报道的与草药、膳食补充剂、保健品、食物存在相互作用的仅有第一代和第二代中的拉莫三嗪、奥卡西平、左乙拉西坦，尚未见第三代AEDs的相关报道。考虑到纳入本研究的AEDs与研究对象都有广泛应用，相关的研究报道数量匮乏，原因可能有：（1）草药、膳食补充剂、保健品、食物与药物相互作用的发现是一种“bedside-to-bench”的模式，依赖患者自发 ADR 报告，此类报告比例低、数量少，将ADR归因于药物而非天然药物产品引起可能是主因之一［9］ ；（2）“一物多名”使消费者与医务人员难以准确识别风险，如：海巴戟天又名诺丽果，在我国以诺丽果汁、诺丽果酵素、诺丽果干等名称销售；藤黄果也称瘦瘦果；贯叶连翘又名贯叶金丝桃、圣约翰草；（3）报道未明确相互作用的原因，如：有报道［10］ 一患者持续饮用某种能量饮料2个月后，因突发癫痫（既往2年控制良好，除丙戊酸外未服用其他药物）被送往急诊，血药浓度检测显示丙戊酸浓度仅为10 ng·mL-1；停止饮用该饮料2月后，癫痫再次得到控制。该研究最终仅推测癫痫控制的失败是由于能量饮料中某种黄酮类成分导致的，而未能锁定具体成分；（4）中英文以外文献报道未在本研究检索范围内。",
+    "bbox": [
+      510,
+      863,
+      905,
+      937
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "· 2364 ·",
+    "bbox": [
+      107,
+      59,
+      176,
+      70
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志 2024 年 10 月第 44 卷第 20 期 Chin J Hosp Pharm，Oct 2024，Vol 44，No. 20",
+    "bbox": [
+      357,
+      55,
+      905,
+      69
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      319,
+      978
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/5ae4c9d2b58c8caaef4c55e7ec9330b9d7d9ddc062ffccbec3ec9cf80af0210e.jpg",
+    "table_caption": [
+      "表1　与 有相互作用的草药、膳食补充剂、保健品、食物（案例报道或临床研究）",
+      "Tab 1 Herbs，dietary supplements，healthy products and foods interacting with AEDs （case reports & clinical trials）"
+    ],
+    "table_footnote": [
+      "注（note）：VPA，丙戊酸（valproate）；PHT，苯妥英（phenytoin）；CBZ，卡马西平（carbamazepine）；LGT，拉莫三嗪（lamotrigine）。"
+    ],
+    "table_body": "<table><tr><td>草药、膳食补充剂、保健品、食物名称</td><td>AEDs</td><td>研究类型</td><td>相互作用结果</td><td>机制研究</td></tr><tr><td>银杏叶[15]</td><td>VPA与PHT</td><td>案例报道</td><td>患者死亡。</td><td>银杏叶有CYP2C19诱导作用,致VPA与PHT低于治疗剂量,进一步导致惊厥发生。</td></tr><tr><td>假马齿苋[16]</td><td>PHT</td><td>案例报道</td><td>癫痫控制失败,PHT血药浓度下降。</td><td>-</td></tr><tr><td>海巴戟天[17]</td><td>PHT</td><td>案例报道</td><td>PHT血药浓度降低,癫痫控制不佳。</td><td>海巴戟天有CYP 2C9诱导作用,降低PHT血药浓度。</td></tr><tr><td>胡椒[18]</td><td>CBZ</td><td>开放标签交叉研究,癫痫患者</td><td>口服20mg胡椒碱使CBZ的 $AUC_{0-12h}$ 、 $C_{ss}$ 、 $t_{1/2p}$ 显著升高;K(el)显著下降</td><td>胡椒碱增加了CBZ的吸收,减弱其代谢清除。</td></tr><tr><td>贯叶连翘[19]</td><td>CBZ</td><td>开放标签研究,健康受试者</td><td>对CBZ药动学参数无影响</td><td>-</td></tr><tr><td>车前子壳[20]</td><td>CBZ</td><td>开放标签研究</td><td>CBZ吸收减弱,血药浓度降低</td><td>减少消化液量,减弱CBZ溶解,同时果壳对CBZ有一定吸附作用。</td></tr><tr><td>壳聚糖[21]</td><td>VPA</td><td>案例报道</td><td>以500mg bid剂量服用壳聚糖后的几天突发性的出现肌阵挛抽搐、意识丧失和强直阵挛发作,癫痫控制失败。</td><td>-</td></tr><tr><td>白柑橘</td><td>CBZ[22]</td><td>随即交叉试验,健康受试者</td><td>CBZ的 $C_{max}$ 与AUC显著增加, $t_{max}$ 显著缩短</td><td>-</td></tr><tr><td>加味逍遥丸[23]</td><td>CBZ</td><td>RCT,健康受试者</td><td>CBZ血药浓度降低</td><td>CYP3A诱导作用,增强了CBZ的代谢</td></tr><tr><td>咖啡因[24]</td><td>CBZ</td><td>开放标签交叉研究</td><td>300mg咖啡因分3次给药,给予服用200mg CBZ的患者。生物利用度降低32%, $t_{1/2}$ 延长2倍</td><td>-</td></tr><tr><td>咖啡[25]</td><td>LGT</td><td>交叉复制试验</td><td>LGT的AUC与 $C_{max}$ 下降程度随每日咖啡应用量增加而增加</td><td>-</td></tr><tr><td>可口可乐[26]</td><td>CBZ</td><td>随即交叉试验</td><td> $C_{max}$ 与AUC显著增加, $t_{max}$ 缩短</td><td>-</td></tr><tr><td>褪黑素[27]</td><td>CBZ</td><td>RCT研究,癫痫儿童</td><td>褪黑素与CBZ无明显相互作用</td><td>-</td></tr><tr><td>胡椒[28-29]</td><td>PHT</td><td>交叉试验</td><td>胡椒碱显著提高PHT的吸收与AUC,减少PHT的消除</td><td>可能与胡椒碱抑制P-gp有关。</td></tr></table>",
+    "bbox": [
+      92,
+      111,
+      905,
+      583
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      87,
+      607,
+      485,
+      937
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      512,
+      608,
+      826,
+      624
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "从机制层面看，与CBZ的相互作用报道最多，其中胡椒、桔梗、天麻、耳叶决明、芥酸、大豆等被报道可增加CBZ血药浓度，苦参、Septilin、护肝宁片等可降低CBZ血药浓度，但这些研究未对机制进行充分研究。因 主要在肝脏经 3 4代谢成活性代谢产物CBZE，相互作用对CBZ药动学参数的改变，很可能是因抑制或诱导CYP3A4酶。VPA方面，推测银杏叶导致的相互作用与其CYP2C19诱导作用有关；天麻对VPA疗效的增强可能通过增强OATP蛋白对VPA的转运实现；积雪草、藏菖蒲、壳聚糖相关的相互作用并未做机制分析，鉴于UTG途径是VPA的主要代谢途径，而CYP450酶中除CYP2C19 外，CYP2A6 与 CYP2B6 也对 VPA 有代谢作用［11］ ，因此其很可能通过对上述途径中的一个或多个代谢酶产生影响，进而影响VPA的代谢与疗效。LTG主要经UGT转化为葡萄糖醛酸苷代谢产",
+    "bbox": [
+      510,
+      627,
+      907,
+      937
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志 2024 年 10 月第 44 卷第 20 期 Chin J Hosp Pharm，Oct 2024，Vol 44，No. 20",
+    "bbox": [
+      90,
+      55,
+      638,
+      70
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "· 2365 ·",
+    "bbox": [
+      818,
+      58,
+      892,
+      71
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      322,
+      978
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/95685820ea653190174281cf84aa0171befe73b7817f0a813acc370f5b43ea8d.jpg",
+    "table_caption": [
+      "表2　与 有相互作用的草药、膳食补充剂、保健品、食物（体内 体外研究）",
+      "Tab 2 Herbs，dietary supplements，healthy products and foods interacting with AEDs （in vivo/vitro study）"
+    ],
+    "table_footnote": [
+      "注（note）：CBZE，卡马西平 10，11-环氧化物（carbamazepine-10，11-epoxide）；PB，苯巴比妥（phenobarbital）；LEV，左乙拉西坦（levetiracetam）。"
+    ],
+    "table_body": "<table><tr><td>草药、膳食补充剂、保健品、食物名称</td><td>AEDs</td><td>相互作用结果</td><td>机制研究</td></tr><tr><td>积雪草[30]</td><td>VAP、PHT</td><td>亚治疗剂量的VPA、PHT与积雪草水提液同服 $C_{\\text{max}}$ 、AUC显著提高,抗癫痫疗效增强。</td><td>-</td></tr><tr><td>天麻</td><td>VPA[31-32]CBZ[33]</td><td>VPA与天麻同服时,VPA的脑脊液浓度增加。CBZ与天麻同用,可在短期内增强卡马西平疗效,但也增加神经系统与非神经系统ADR发生风险。</td><td>天麻水提液成份通过OATP转运蛋白增强VPA的血脑屏障透过性。天麻可减弱CBZ的自诱导作用。</td></tr><tr><td>藤黄果[34]</td><td>LTG</td><td>同时服用藤黄果与LGT 96 h后,不影响LGT血药浓度;但服用藤黄果14 d后再给与LGT会使LGT的全身暴露量降低, $V_d$ 增加。</td><td>-</td></tr><tr><td>墨角藻[35]</td><td>LTG</td><td>同时服用墨角藻与LGT,LGT药动学参数不变;提前服用14 d墨角藻后给予LGT,LGT的 $C_{\\text{max}}$ 降低,全身暴露量略有下降。</td><td>-</td></tr><tr><td>瓜拉纳[36]</td><td>LTG</td><td>瓜拉纳可导致LGT的 $C_{\\text{max}}$ 与 $AUC_{0-24h}$ 显著下降,体内平均滞留时间延长。</td><td>-</td></tr><tr><td>耳叶决明[37]</td><td>CBZ</td><td>耳叶决明与CBZ同服致CBZ血药浓度提高47.1%。</td><td>-</td></tr><tr><td>黑种草[38]</td><td>PHT</td><td>黑种草( $>1 \\text{ g}\\cdot\\text{d}^{-1}$ )或胸腺苯醌( $>18 \\text{ mg}\\cdot\\text{d}^{-1}$ )与PHT同服时,ADR风险增加。</td><td>黑种草中的胸腺苯醌有CYP2C9抑制作用,可抑制苯妥英代谢为羟基苯妥英。</td></tr><tr><td>水飞蓟[39]</td><td>PHT</td><td>水飞蓟宾A对PHT代谢具有强抑制作用,水飞蓟宾B具有中等抑制作用。</td><td>-</td></tr><tr><td>鸦胆子[39]</td><td>PHT</td><td>鸦胆子中的鸦胆子苦醇和鸦胆子素D对PHT代谢无影响。</td><td>-</td></tr><tr><td>甘草[40]</td><td>CBZ</td><td>甘草连续给药不影响CBZ的药动学参数。</td><td>-</td></tr><tr><td>赤芍[41]</td><td>PHT</td><td>赤芍延长PHT的 $T_{\\text{max}}$ °</td><td>PHT的延缓吸收可能导致其起效时间延后。</td></tr><tr><td>赤芍[42]</td><td>CBZ</td><td>CBZ与赤芍同服导致CBZ的 $T_{\\text{max}}$ 显著降低,但不影响CBZ的 $C_{\\text{max}}$ 、 $AUC$ 、 $t_{1/2}$ 、 $CL/F$ 、 $V_d/F$ 。</td><td>-</td></tr><tr><td>鼠尾草[43]</td><td>PB</td><td>降低癫痫发作的阈值。</td><td>鼠尾草中所含的侧柏酮可能是原因所在。</td></tr><tr><td>银杏叶[44]</td><td>CBZ</td><td>CBZ生物利用度下降,清除率提高。</td><td>-</td></tr><tr><td>藏菖蒲[45]</td><td>VAP、CBZ</td><td>藏菖蒲水醇提取物与VAP联用减少大鼠肌阵挛发生率,延长肌阵挛潜伏期;与CBZ联用延长肌阵挛潜伏期。VAP与CBZ的平均血浆浓度水平不受藏菖蒲水醇提取物影响。</td><td>-</td></tr><tr><td>苦参[46]</td><td>CBZ</td><td>苦参显著降低CBZ的 $AUC_{0-t}$ ,显著提升CBZE的 $AUC_{0-t}$ °。苦参降低CBZ和CBZE在脑和肝中的浓度,使CBZE在肾中的浓度降低,影响了CBZE的排泄。</td><td>-</td></tr><tr><td>圣罗勒[47]</td><td>LEV</td><td>除LEV的 $T_{\\text{max}}$ 增加外无其他显著的相互作用。且二者合用癫痫控制改善、氧化应激减弱。</td><td>-</td></tr><tr><td>芥酸[48]</td><td>CBZ</td><td>增加CBZ生物利用度。</td><td>抑制肝CYP3A2、CYP2C11与肠道P-gp/MDR1的表达。</td></tr><tr><td>虎杖[49]</td><td>CBZ</td><td>降低CBZE形成速度;增加CBZE在血浆、脑、肝、肾脏中的浓度。</td><td>抑制肠道中CYP3A与肾脏MRP2活性。</td></tr><tr><td>桔梗[50-51]</td><td>CBZ</td><td>CBZ血药浓度升高。</td><td>-</td></tr><tr><td>大枣[52]</td><td>PHT、PB</td><td>大枣水提物与亚治疗剂量PHT或PB联用,增强两者的抗癫痫发作效应,但不改变二者的血药浓度。</td><td>-</td></tr><tr><td>酸橙[53]</td><td>LGT</td><td>酸橙提取物能够提升大鼠体内LGT的 $t_{\\text{max}}$ ,但影响较小。</td><td>-</td></tr><tr><td>Septilin[54](含金果蕨、茜草、余甘子、辣木、甘草)</td><td>CBZ</td><td>CBZ的 $t_{1/2a}$ 、 $t_{1/2e}$ 、 $AUC_{0-24h}$ 、稳态 $C_{\\text{max}}$ 均显著下降。</td><td>-</td></tr><tr><td>大豆[55]</td><td>CBZ</td><td>CBZ与大豆同服,CBZ的 $C_{\\text{max}}$ , $T_{\\text{max}}$ , $AUC_{0-t}$ 显著降低,血浆清除率与 $V_d$ 显著升高。</td><td>-</td></tr><tr><td>齐墩果酸[56]</td><td>LGT</td><td>长期给与齐墩果酸提高LGT的 $AUC_{0-t}$ 与 $C_{\\text{max}}$ 并降低其清除率。</td><td>-</td></tr><tr><td>正天丸[57]</td><td>PHT、CBZ</td><td>正天丸使PHT与CBZ的 $AUC_{0-t}$ 和 $C_{\\text{max}}$ 增加, $T_{\\text{max}}$ 延长。</td><td>正天丸抑制了CYP2C19和CYP3A4的活性,降低了PHT和CBZ的代谢。</td></tr><tr><td>护肝宁片[58]</td><td>CBZ</td><td>护肝宁片可降低CBZ的AUC值,但不影响其的体内代谢。</td><td>-</td></tr><tr><td>小柴胡汤[59]</td><td>CBZ</td><td>小柴胡汤与CBZ同服会降低CBZ的 $C_{\\text{max}}$ 与AUC值,但不影响CBZ的代谢。</td><td>小柴胡汤延缓胃排空。</td></tr><tr><td>柴胡龙骨牡蛎汤[60]</td><td>CBZ</td><td>柴胡龙骨牡蛎汤与CBZ同服不影响CBZ药动学参数。</td><td>-</td></tr><tr><td>小青龙汤[61]</td><td>CBZ</td><td>小青龙汤与CBZ同服,CBZ的 $T_{\\text{max}}$ 延长;持续一周的在CBZ给药前服用小青龙汤可加速CBZ的代谢,但不影响其蛋白结合率。</td><td>-</td></tr></table>",
+    "bbox": [
+      92,
+      111,
+      905,
+      914
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "· 2366 ·",
+    "bbox": [
+      107,
+      59,
+      176,
+      70
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志 2024 年 10 月第 44 卷第 20 期 Chin J Hosp Pharm，Oct 2024，Vol 44，No. 20",
+    "bbox": [
+      359,
+      55,
+      905,
+      70
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      959,
+      319,
+      978
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "table",
+    "img_path": "images/bfc933179a500d6d25792bab415f937e79afd3e20870bf011a37f3e1b14d3e9f.jpg",
+    "table_caption": [
+      "表3　我国销售的与癫痫治疗安全性相关的草药 膳食补充剂/食物/保健品",
+      "Tab 3 Marketed forms of the included samples in China"
+    ],
+    "table_footnote": [
+      "注（note）：√：在对应网站有产品注册或销售，或在专著中有收载 （There are product registrations or sales on the corresponding website，or it is included in the monograph）；x：在对应网站无产品注册或 销售，或在专著中无收载（There is no product registration or sale on the corresponding website，or it is not included in the monograph）。"
+    ],
+    "table_body": "<table><tr><td>纳入样本名称</td><td>NMPA</td><td>SAMR</td><td>《中国药典》/地方炮规</td><td>网售膳食补充剂/食物</td></tr><tr><td>银杏叶</td><td>√</td><td>√</td><td>√</td><td>√</td></tr><tr><td>假马齿苋</td><td>×</td><td>×</td><td>×</td><td>√</td></tr><tr><td>海巴戟天</td><td>×</td><td>√</td><td>×</td><td>√</td></tr><tr><td>胡椒碱</td><td>×</td><td>√</td><td>×</td><td>×</td></tr><tr><td>贯叶连翘</td><td>√</td><td>×</td><td>√</td><td>√</td></tr><tr><td>积雪草</td><td>×</td><td>√</td><td>√</td><td>×</td></tr><tr><td>天麻</td><td>√</td><td>√</td><td>√</td><td>√</td></tr><tr><td>藤黄果</td><td>×</td><td>×</td><td>×</td><td>√</td></tr><tr><td>墨角藻</td><td>×</td><td>×</td><td>×</td><td>×</td></tr><tr><td>瓜拉纳</td><td>×</td><td>√</td><td>×</td><td>√</td></tr><tr><td>耳叶决明</td><td>×</td><td>×</td><td>×</td><td>×</td></tr><tr><td>黑种草</td><td>×</td><td>×</td><td>√</td><td>×</td></tr><tr><td>赤芍</td><td>√</td><td>√</td><td>√</td><td>√</td></tr><tr><td>鼠尾草</td><td>×</td><td>×</td><td>×</td><td>√</td></tr><tr><td>圣罗勒</td><td>×</td><td>×</td><td>×</td><td>√</td></tr><tr><td>虎杖</td><td>√</td><td>×</td><td>√</td><td>×</td></tr><tr><td>桔梗</td><td>√</td><td>√</td><td>√</td><td>√</td></tr><tr><td>芥酸</td><td>×</td><td>×</td><td>×</td><td>×</td></tr><tr><td>车前子壳</td><td>×</td><td>×</td><td>×</td><td>√</td></tr><tr><td>壳聚糖</td><td>×</td><td>×</td><td>×</td><td>×</td></tr><tr><td>白柑橘</td><td>×</td><td>×</td><td>×</td><td>√</td></tr><tr><td>咖啡因</td><td>×</td><td>×</td><td>×</td><td>√</td></tr><tr><td>可口乐可</td><td>×</td><td>×</td><td>×</td><td>√</td></tr><tr><td>褪黑素</td><td>×</td><td>×</td><td>×</td><td>√</td></tr><tr><td>Septilin</td><td>×</td><td>×</td><td>×</td><td>√</td></tr><tr><td>齐墩果酸</td><td>√</td><td>×</td><td>×</td><td>×</td></tr><tr><td>水飞蓟</td><td>√</td><td>√</td><td>√</td><td>√</td></tr><tr><td>鸦胆子</td><td>√</td><td>×</td><td>√</td><td>√</td></tr><tr><td>甘草</td><td>√</td><td>×</td><td>√</td><td>√</td></tr><tr><td>藏菖蒲</td><td>√</td><td>×</td><td>√</td><td>×</td></tr><tr><td>苦参</td><td>√</td><td>√</td><td>√</td><td>√</td></tr><tr><td>大枣</td><td>√</td><td>√</td><td>√</td><td>√</td></tr><tr><td>酸橙</td><td>×</td><td>√</td><td>×</td><td>√</td></tr><tr><td>大豆</td><td>×</td><td>√</td><td>×</td><td>√</td></tr></table>",
+    "bbox": [
+      92,
+      128,
+      484,
+      729
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "物，无明显肝脏首过效应，但有报道CYP450诱导剂可影响其半衰期［12］。 主要经 2 9 和CYP2C19 代 谢 ，其 中 银 杏 叶 被 认 为 可 诱 导2 19 使 血药浓度降低，正天丸抑制2 19使 血药浓度升高，半衰期延长。海巴戟天诱导CYP2C9降低PHT浓度，黑种草则体现相反的作用。胡椒中的胡椒碱可能抑制P-gp提高PHT吸收。即草药成份至少可通过上述3条途径，改变PHT的药动学参数。涉及到PB的两例相互作用属药效学相互作用，未见药动学参数改变，其中的机制可能与鼠尾草和大枣中具体的成分功效有关。",
+    "bbox": [
+      89,
+      818,
+      482,
+      937
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      77,
+      904,
+      189
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "从风险分布角度看，一方面由表3结果可以发现草药、膳食补充剂、保健品、食物覆盖的事物是有交叉的，如水飞蓟，既是饮片也是保健品或膳食补充剂中的成份，天麻“药食同源”，可以药品、保健品、膳食补充剂和食品形式摄入人体；另一方面草药可以以中成药或中药饮片处方的形式组合地被患者使用，从而使患者在服用AEDs的同时，摄入一种以上可能与其发生相互作用的药物，使此类相互作用出现的可能性更高，结果更难预测。",
+    "bbox": [
+      510,
+      193,
+      905,
+      362
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "综上，本研究系统收集了与AEDs有相互作用的草药、膳食补充剂、保健品、食物的研究信息。同时也反映出上述产品与AEDs相互作用报道与研究的不充分，致使药品说明书中关于此类相互作用的描述大量缺失［13-14］ 。因此，为进一步深入研究此类用药风险，开展真实世界研究以及构建对应的数据库系统是有必要的。",
+    "bbox": [
+      510,
+      366,
+      905,
+      496
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "参考文献：",
+    "text_level": 2,
+    "bbox": [
+      514,
+      500,
+      584,
+      513
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "［1］ Singh G， Sander JW. The global burden of epilepsy report：Implications for low- and middle-income countries［J］. Epi⁃lepsy Behav，2020，105：106949.",
+      "［2］ Mishra S， Stierman B， Gahche JJ，et al. Dietary supplementuse among adults： United States，2017-2018［J］. NCHS Data，2021（399）：1-8",
+      "［3］ Bosak M， Mołek P， Słowik A. Use of dietary and herbalsupplements in adult patients with epilepsy［J］. Epilepsy Res，2019，156：106168.",
+      "［4］ 王海涛，张抗怀，刘娜，等. 临床药师对ICU潜在药物相互作用的鉴别和药学干预［］ 中国医院药学杂志，2018，38（16）：1747-1749，1758.",
+      "Wang HT,Zhang KH,Liu N,et al.Identification of potential drug-drug interactions in an intensive care unit and pharmaceutical intervention by clinical pharmacists ［J］. Chin J Hosp Pharm，2018，38（16）：1747-1749，1758.",
+      "［5］ 黄灿，高爱苹，郑永红，等. 我院药师在直接抗病毒药物相互作用管理中的实践［J］. 中国医院药学杂志，2022，42（3）：329-332.",
+      "Huang C， Gao AP， Zheng YH，et al. Practice of pharmacistsin drug-drug interactions management of DAA in our hospital［J］. Chin J Hosp Pharm，2022，42（3）：329-332.",
+      "［6］ Glade MJ. The Dietary Supplement Health and Education Actof 1994： focus on labeling issues［J］. Nutrition，1997，13（11/12）：999-1001.",
+      "［7］ Smith T， Kawa K， Eckl V，et al. Herbal supplement sales in US increase 7. 7% in 2016. Consumer preferences shifting toward ingredients with general wellness benefits， driving growth of adaptogens and digestive health products［J/OL］.",
+      "Herbal Gram，2017，115：56-65［2024-07-29］. http：//cms. herbalgram. org/herbalgram/issue115/hg115-herbmarketrpt. html",
+      "［8］ Smith T， Resetar H， Morton C. US Sales of Herbal Supplements Increase by 9. 7% in 2021. Near-record retail sales growth continues to be driven largely by pandemic-related wellness concerns， including immune and digestive health， supportmood， and energy［J/OL］. Herbal Gram，2022，136：42-69 ［2024-07-29］. https：//www. herbalgram. org/resources/herb⁃-19 -11- - - features-1/2021-herb-market-report/",
+      "［9］ Barnes J， Mills SY， Abbot NC，et al. Different standards forreporting ADRs to herbal remedies and conventional OTC medi⁃cines： face-to-face interviews with 515 users of herbal remedies［J］. Br J Clin Pharmacol，1998，45（5）：496-500.",
+      "［10］Yamada-Takeda M， Patel A， Fenton G. Energy drink-inducedbreakthrough seizure in a patient on valproic acid-consideringherbal safety in epilepsy［J］. J Pharm Pract，2019，32（5）：485-487.",
+      "［11］袁磊，马慕白，彭麒霖，等 丙戊酸个体化给药研究进展［］医药导报，2017，36（10）：1083-1091.Yuan L， Ma MB， Peng QL，et al. Progress in individualizeddrug administration of valproic acid［J］. Her Med，2017，36（10）：1083-1091",
+      "［12］李里，袁淑华，朱雨岚，等 新型抗癫痫药之间及其与传统抗癫痫药的相互作用和机制［J］. 中国新药杂志，2007，16（2）：102-106，113Li L， Yuan SH， Zhu YL，et al. Interactions and combinationrationale of new antiepileptic drugs with traditional antiepilepticdrugs［J］. Chin J N Drugs，2007，16（2）：102-106，113.",
+      "［13］周莎，杨洪军，荆志伟，等 中药大品种口服中成药说明书安全性信息分析［］ 中国药物警戒，2021，18（10）：981-985Zhou S， Yang HJ， Jing ZW，et al. Safety information in oralChinese patent medicine instructions for big brand traditionalChinese medicine［J］. Chin J Pharmacovigil，2021，18（10）：981-985.",
+      "［14］郑蕊，关曼柯，钟长鸣，等 中药注射剂说明书安全性信息报告调查分析［J］. 中药新药与临床药理，2020，6（3）：363-367.Zheng R， Guan MK， Zhong CM，et al. Investigation andanalysis on safety information in Chinese medicine injectioninstructions［J］. Tradit Chin Drug Res Clin Pharmacol，2020，6（3）：363-367",
+      "［15］Kupiec T， Raj V. Fatal seizures due to potential herb-druginteractions with Ginkgo biloba［J］. J Anal Toxicol，2005，29（7）：755-758.",
+      "［16］Dandekar UP， Chandra RS， Dalvi SS，et al. Analysis of a clinically important interaction between phenytoin and Shankhapushpi， an Ayurvedic preparation ［J］. J Ethnopharmacol， 1992，35（3）：285-288.",
+      "［17］Kang YC， Chen MH， Lai SL. Potentially unsafe herb-druginteractions between a commercial product of noni juice and phe⁃nytoin- A case report［J］. Acta Neurol Taiwan，2015，24（2）：43-46.",
+      "[18]Pattanaik S，Hota D，Prabhakar S，et al．Pharmacokineticinteraction of single dose of piperine with steady-state carbam⁃azepine in epilepsy patients［J］. Phytother Res，2009，23（9）：1281-1286.",
+      "［19］Burstein AH， Horton RL， Dunn T，et al. Lack of effect of StJohn’s Wort on carbamazepine pharmacokinetics in healthy vol⁃unteers［J］. Clin Pharmacol Ther，2000，68（6）：605-612.",
+      "［20］Etman MA. Effect of a bulk forming laxative on the bioavailabil⁃ity of carbamazepine in man［J］. Drug Dev Ind Pharm，1995，21（16）：1901-1906.",
+      "［21］Striano P， Zara F， Minetti C，et al. Chitosan may decrease serum valproate and increase the risk of seizure reappearance ［J］. BMJ，2009，339： b3751.",
+      "［22］Garg SK， Bhargava VK， James H，et al. Influence of kinnowjuice on the bioavailability of carbamazepine in healthy male vol⁃unteers［J］. Neurol India，1998，46（3）：229-231.",
+      "［23］Zhang ZJ， Kang WH， Li Q，et al. The beneficial effects of theherbal medicine Free and Easy Wanderer Plus （FEWP） formood disorders： double-blind， placebo-controlled studies［J］. JPsychiatr Res，2007，41（10）：828-836.",
+      "［24］Vaz J， Kulkarni C， David J，et al. Influence of caffeine on phar⁃macokinetic profile of sodium valproate and carbamazepine innormal human volunteers［J］. Indian J Exp Biol，1998，36（1）：112-114.",
+      "［25］Welty TE， Gidal BE， Duan JW，et al. Coffee and cigarettesmoking interactions with lamotrigine［J］. Epilepsy Behav，2021，116：107741.",
+      "［26］Malhotra S， Dixit RK， Garg SK. Effect of an acidic beverage（Coca-Cola） on the pharmacokinetics of carbamazepine inhealthy volunteers［J］. Methods Find Exp Clin Pharmacol，2002，24（1）：31-33",
+      "［27］Gupta M， Gupta YK， Agarwal S，et al. Effects of add-onmelatonin administration on antioxidant enzymes in childrenwith epilepsy taking carbamazepine monotherapy： a random⁃ized， double-blind， placebo-controlled trial ［J］. Epilepsia，2004，45（12）：1636-1639.",
+      "［28］Bano G， Amla V， Raina RK，et al. The effect of piperine onpharmacokinetics of phenytoin in healthy volunteers［J］. Planta，1987，53（6）：568-569",
+      "［29］Velpandian T， Jasuja R， Bhardwaj RK，et al. Piperine infood： interference in the pharmacokinetics of phenytoin［J］. EurJ Drug Metab Pharmacokinet，2001，26（4）：241-247.",
+      "［30］Kumar R， Arora R， Sarangi SC，et al. Pharmacodynamic and pharmacokinetic interactions of hydroalcoholic leaf extract of Centella asiatica with valproate and phenytoin in experimental models of epilepsy in rats［J］. J Ethnopharmacol，2021，270： 113784",
+      "［31］Yang L， Lin IH， Ting CT，et al. Modulation of the transport of valproic acid through the blood-brain barrier in rats by the Gastrodia elata extracts［J］. J Ethnopharmacol，2021，278： 114276.",
+      "［32］Yang L， Tsai TH. Neuroprotective effect and herbal-drug phar⁃macokinetic interaction of Gastrodia elata extract on valproicacid［J］. Biomed Pharmacother，2022，156：113938.",
+      "［33］Yip KL， Zhou XL， Chook P，et al. Herb-drug interaction ofgastrodiae rhizoma on carbamazepine： a pharmacokinetic studyin rats［J］. Epilepsy Res，2020，165：106376.",
+      "［34］Ventura S， Rodrigues M， Falcão A，et al. Short-term effects of Garcinia cambogia extract on the pharmacokinetics of lamotrigine given as a single-dose in Wistar rats［J］. Food Chem Toxicol，2019，128：61-67.",
+      "［35］Ventura S， Rodrigues M， Falcão A，et al. Safety evidence onthe administration of Fucus vesiculosus L. （bladderwrack）extract and lamotrigine： data from pharmacokinetic studies inthe rat［J］. Drug Chem Toxicol，2020，43（6）：560-566.",
+      "［36］Ventura S， Rodrigues M， Falcão A，et al. Effects of Paullinia",
+      "cupana extract on lamotrigine pharmacokinetics in rats： a herb-drug interaction on the gastrointestinal tract with potential clini⁃cal impact［J］. Food Chem Toxicol，2018，115：170-177.",
+      "［37］Thabrew I， Munasinghe J， Chackrewarthi S，et al. The effectsof Cassia auriculata and Cardiospermum halicacabum teas onthe steady state blood level and toxicity of carbamazepine［J］. JEthnopharmacol，2004，90（1）：145-150.",
+      "［38］Wang Z， Wang XY， Wang Z，et al. Potential herb-drug interaction risk of thymoquinone and phenytoin［J］. Chem Biol Interact，2022，353：109801.",
+      "[39］陈悦悦，刘勇，陈银楠，等．鸦胆子和水飞蓟主要活性成分对苯妥英代谢的抑制作用研究［J］. 中国当代医药，2021，28（26）：4-7，13.",
+      "Chen YY， Liu Y， Chen YN，et al. Inhibitory effect of themain active components of Brucea javanica and Silythistle onthe metabolism of Phenytoin［J］. China Mod Med，2021，28（26）：4-7，13.",
+      "［40］陈江飞，徐萍，朱素燕，等 甘草对大鼠体内卡马西平药动学的影响［］ 中国临床药理学与治疗学，2010，15（9）：1046-1050.",
+      "Chen JF， Xu P， Zhu SY，et al. Effect of licorice on carbamaze⁃pine pharmacokinetics in rats［J］. Chin J Clin Pharmacol Ther，2010，15（9）：1046-1050.",
+      "［41］Chen LC， Chou MH， Lin MF，et al. Effects of PaeoniaeRadix， a traditional Chinese medicine， on the pharmacokineticsof phenytoin［J］. J Clin Pharm Ther，2001，26（4）：271-278.",
+      "［42］Chen LC， Chen YF， Chou MH，et al. Pharmacokinetic inter⁃actions between carbamazepine and the traditional Chinese medi⁃cine Paeoniae Radix［J］. Biol Pharm Bull，2002，25（4）：532-535",
+      "［43］Miller LG. Herbal medicinals： selected clinical considerations focusing on known or potential drug-herb interactions［J］. Arch Intern Med，1998，158（20）：2200-2211.",
+      "［44］Harish Chandra R， Rajkumar M， Veeresham C. Pharmacoki⁃netic interaction of Ginkgo biloba with carbamazepine［J］.Planta Med，2009，75（4）：399-457.",
+      "［45］Katyal J， Sarangal V， Gupta YK. Interaction of hydroalcoholicextract of Acorus calamus Linn. with sodium valproate and car⁃bamazepine［J］. Indian J Exp Biol，2012，50（1）：51-55.",
+      "［46］Shi L， Dang XL， Liu XY，et al. Effect of Sophora flavescenson the pharmacokinetics of carbamazepine in rats［J］. ArchPharm Res，2014，37（12）：1617-1623.",
+      "［47］Sarangi SC， Pattnaik SS， Katyal J，et al. An interaction studyof Ocimum sanctum L. and levetiracetam in pentylenetetrazolekindling model of epilepsy［J］. J Ethnopharmacol，2020，249：112389.",
+      "［48］ ， ， ，et alsinapic acid on hepatic cytochrome P450 3A2，2C11， and intes⁃tinal P-glycoprotein on the pharmacokinetics of oral carbamaze⁃pine in rats： Potential food/herb-drug interaction［J］. EpilepsyRes，2019，153：14-18.",
+      "［49］Chi YC， Lin SP， Hou YC. A new herb-drug interaction ofPolygonum cuspidatum， a resveratrol-rich nutraceutical， withcarbamazepine in rats［J］. Toxicol Appl Pharmacol，2012，263",
+      "（3）：315-322.",
+      "［50］刘萍，魏玲 桔梗对卡马西平家兔体内血药浓度的影响［］中国医院用药评价与分析，2008，8（5）：366-369",
+      "Liu P， Wei L. Effect of Platycodon grandiflorum on the bloodconcentration of carbamazepine in rabbits［J］. Eval Anal Drug，2008，8（5）：366-369",
+      "［51］张秀立. 桔梗与卡马西平在动物体内的相互作用［J］. 中国实2009 4（35） 10-12",
+      "Zhang XL. Study the interaction between Platycodon grandiflorum and Carbamazepine in animals［J].China Pract Med, 2009 4（35） 10-12",
+      "［52］Pahuja M， Kleekal T， Reeta KH，et al. Interaction profile ofZizyphus jujuba with phenytoin， phenobarbitone， and carbam⁃azepine in maximal electroshock-induced seizures in rats［J］.Epilepsy Behav，2012，25（3）：368-373.",
+      "［53］Ventura S， Rodrigues M， Falcão A，et al. Evaluation of theeffects of Citrus aurantium （bitter orange） extract onlamotrigine pharmacokinetics： Insights from in vivo studies inrats［J］. Food Chem Toxicol，2018，121：166-172.",
+      "［54］Garg SK， Islam AS， Kumar N. Effect of Septilin： a herbalpreparation on pharmacokinetics of carbamazepine in rabbits［J］. Indian J Physiol Pharmacol，1998，42（4）：527-532.",
+      "［55］Singh D， Asad M. Effect of soybean administration on the phar⁃macokinetics of carbamazepine and omeprazole in rats［J］. Fun⁃dam Clin Pharmacol，2010，24（3）：351-355.",
+      "［56］汪毅. 齐墩果酸对拉莫三嗪在大鼠体内药物代谢动力学的影响［D］. 温州：温州医科大学，2021.",
+      "Wang Y. Effect of oleanolic acid on pharmacokinetics oflamotrigine in rats［D］. Wenzhou： Wenzhou Medical Univer⁃sity，2021.",
+      "［57］纪国栋 正天丸对大鼠体内苯妥英钠和卡马西平药动学参数的影响［ ］ 山东：山东第一医科大学，2019",
+      "［58］郑艳，杨长青，张昌浩. 护肝宁片对卡马西平在大鼠体内药物动力学的影响［J］. 中国医药工业杂志，2009，40（2）：117-119.",
+      "Zheng Y， Yang CQ， Zhang CH. Effect of huganning tablets onpharmacokinetics of carbamazepine in rats［J］. Chin J Pharm，2009，40（2）：117-119.",
+      "［59］Ohnishi N， Okada K， Yoshioka M，et al. Studies on interac⁃tions between traditional herbal and western medicines. Ⅴ .effects of Sho-saiko-to （Xiao-Cai-hu-Tang） on the pharmacoki⁃netics of carbamazepine in rats［J］. Biol Pharm Bull，2002，25（11）：1461-1466.",
+      "［60］Ohnishi N， Nakasako S， Okada K，et al. Studies on interactions between traditional herbal and Western medicines. Ⅳ ： lack of pharmacokinetic interactions between Saiko-karyukotsu-borei-to and carbamazepine in rats［J］. Eur J Drug Metab Pharmacokinet，2001，26（1/2）：129-135.",
+      "［61］Ohnishi N， Yonekawa Y， Nakasako S，et al. Studies on interactions between traditional herbal and Western medicines. Ⅰ . Effects of Sho-seiryu-to on the pharmacokinetics of carbamaze pine in rats［J］. Biol Pharm Bull，1999，22（5）：527-531."
+    ],
+    "bbox": [
+      515,
+      515,
+      905,
+      937
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志 2024 年 10 月第 44 卷第 20 期 Chin J Hosp Pharm，Oct 2024，Vol 44，No. 20",
+    "bbox": [
+      90,
+      55,
+      638,
+      70
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "· 2367 ·",
+    "bbox": [
+      818,
+      58,
+      892,
+      71
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      959,
+      321,
+      978
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      90,
+      77,
+      485,
+      937
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      514,
+      76,
+      907,
+      937
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "· 2368 ·",
+    "bbox": [
+      107,
+      58,
+      176,
+      70
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志 2024 年 10 月第 44 卷第 20 期 Chin J Hosp Pharm，Oct 2024，Vol 44，No. 20",
+    "bbox": [
+      359,
+      55,
+      905,
+      69
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      959,
+      319,
+      978
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      90,
+      76,
+      485,
+      863
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      510,
+      76,
+      907,
+      832
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "收稿日期/Received：2023-10-19",
+    "bbox": [
+      722,
+      834,
+      905,
+      845
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "修回日期/Revised：2024-01-10",
+    "bbox": [
+      722,
+      847,
+      899,
+      858
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "中国医院药学杂志 2024 年 10 月第 44 卷第 20 期 Chin J Hosp Pharm，Oct 2024，Vol 44，No. 20",
+    "bbox": [
+      90,
+      55,
+      638,
+      69
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "page_number",
+    "text": "· 2369 ·",
+    "bbox": [
+      818,
+      58,
+      889,
+      71
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      31,
+      959,
+      319,
+      978
+    ],
+    "page_idx": 6
+  }
+]

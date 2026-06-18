@@ -1,0 +1,48 @@
+基于 Lexicomp 和 Medscape 数据库的米氮平处方药物相互作用调查及对策
+叶根深蚌埠市第一人民医院药学部，安徽蚌埠 233000摘要：目的分析蚌埠市第一人民医院精神卫生科米氮平门诊处方中药物相互作用情况，促进合理用药。方法采用回顾性研究，从信息化系统获取 2022 年 1 月 1 日—2023 年 6 月 30 日米氮平联合用药门诊处方，分别基于 Lexicomp、Medscape数据库识别药物相互作用，按新划分药物相互作用严重程度分级合并 Lexicomp 和 Medscape 数据库结果。描述性统计米氮平相关药物相互作用的发生率，以 Kappa 检验比较 Lexicomp、Medscape、Lexicomp＋Medscape 数据库中药物相互作用严重程度分级、风险点的一致性强度。结果按纳排标准得到有效处方 402 张，按 Lexicomp、Medscape、Lexicomp＋Medscape数据库，药物相互作用处方分别为402张（100%）、383张（95.3%）、402张（100%）。在严重程度分级、风险点方面，Lexicomp＋Medscape 数据库与 Lexicomp 数据库的一致性很强（Kappa＞0.99，P＝0），而 Lexicomp＋Medscape 数据库或 Lexicomp 数据库与 Medscape 数据库有明显差异（Kappa＜0，P＜0.05）；Medscape、Lexicomp 数据库在风险点方面有互补性。按药品计，Lexicomp＋Medscape 数据库 620 例次药物相互作用中，米氮平与丁螺环酮、抗抑郁药帕罗西汀等的严重药物相互作用（5-HT综合征）达 39.2%，应避免联用；与镇静催眠药、抗精神分裂症药的药物相互作用均为中度，达 60.8%，应密切监测或换药。结论蚌埠市第一人民医院米氮平与其他药物存在严重、中度药物相互作用，有必要结合 Lexicomp＋Medscape 数据库，加强米氮平药物相互作用要点培训，采取信息化管控，防范风险。
+Investigation and countermeasure of mirtazapine prescription drug interaction based on Lexicomp and Medscape database
+YE Genshen Department of Pharmacy, Bengbu First People’s Hospital, Bengbu 233000, China Abstract: Objective To analyze drug interactions in the outpatient prescription of mirtazapine in the department of Mental Health, Bengbu First People’s Hospital, and to promote the rational use of medication. Methods A retrospective study was conducted to obtain the outpatient prescriptions for mirtazapine co-administration in the department from January 1, 2022 to June 30, 2023 from the information system, drug interactions were identified based on Lexicomp and Medscape database, respectively, and merged according to the newly classified drug interactions severity grading. The incidence of mirtazapine-associated drug interactions was descriptive statisticed, the strength of concordance of the severity grading of drug interactions and the risk points between and among the Lexicomp, Medscape, and Lexicomp + Medscape database were tested by Kappa test. Results A total of 402 effective prescriptions were obtained according to the allotting standard, and the drug interactions prescriptions were 402 (100%), 383 (95.3%) and 402 (100%) according to Lexicomp, Medscape, and Lexicomp + Medscape database, respectively. In terms of severity classification and risk points, Lexicomp + Medscape database and Lexicomp database were strongly consistent (Kappa > 0.99, P = 0), while Lexicomp + Medscape database or Lexicomp and Medscape database were significantly different (Kappa < 0, P < 0.05). Lexicomp and Medscape database are complementary in terms of risk points. In the 620 cases of Lexicomp + Medscape database drug interactions, miltazapine, buspirone, paroxetine, and other antidepressants had severe drug interactions (5-HT syndrome) of 39.2%, which should be avoided. Drug interactions with sedative hypnotics and antischizophrenic drugs were moderate, up to 60.8%, and should be closely monitored or ch an ged. Conclusion Th ere are severe and mod erate d ru g in teraction s b etween mirtazapin e and oth er drugs in Bengbu First People’s Hospital, and it’s necessary to strengthen the training on the essentials of mirtazapine drug interactions based on the Lexicomp + Medscape database, and to adopt informational controls to prevent risks.药物相互作用严重威胁患者安全且增加治疗费用[1]。米氮平被视为耐受性良好、相对安全的抗抑郁药物[2-3]，但其药物相互作用常被临床忽视。基于 Lexicomp、Medscape 数据库的药物相互作用研究已成当前热点[4-5]，但不同数据库在药物相互作用方面有分歧[6]，给临床信息利用带来困扰。目前，虽有文献分析精神疾病用药的药物相互作用[4, 7]，但尚无研究深入探讨米氮平药物相互作用，且未关注严重程度及风险点；为保障患者用药安全，有必要进一步研究。本研究应用 Lexicomp、Medscape 数据库，重新划分严重程度分级，回顾性调查蚌埠市第一人民医院精神卫生科门诊米氮平联合用药处方的药物相互作用，梳理严重程度及风险点，并提出干预措施。
+1.2 药物相互作用鉴别及严重程度分级、风险点
+基于 Lexicomp 和 Medscape 数据库鉴别处方中米氮平相关药物相互作用及严重程度分级、风险点。参照 Lexicomp 和 Medscape 数据库的定义及文献方法[8]，新划分的药物相互作用严重程度分级为轻度、中度和严重，用于合并、比较结果；数据库中未纳入或无药物相互作用的药物不列入新分级，见表 1。
+1.3 数据处理与统计学方法
+应用R 4.2.2进行统计分析。偏态分布计量资料以中位数（四分位间距）表示，分类资料以频数（构成比）表示。应用 irr 包，采用 Cohen’s Kappa 评价
+1 资料与方法
+1.1 数据来源
+利用医院信息系统获取2022年1月1日—2023年 6 月 30 日精神卫生科门诊米氮平片（山西康宝生物制品股份有限公司）处方数据。其中同一患者同日多张处方合并为一张处方，排除合并后单药处方；同一患者非同日处方药品品种完全相同的，仅纳入首次处方，否则按不同处方计。
+两组间一致性。
+2 结果
+2.1 米氮平药物相互作用处方情况
+米氮平片联合用药处方共402张，按Lexicomp、Medscape、Lexicomp＋Medscape 数据库分别存在药物相互作用处方为402 张（100%）、383张（95.3%）、402张（100%），患者平均年龄 53 岁。处方人口学特征、临床特征及用药数据见表 2。
+2.2 米氮平药物相互作用严重程度分级
+按药品计，Lexicomp＋Medscape 数据库中药物相互作用共 620 例次，其中严重的为 243 例次（39.2%），主要药物为抗焦虑药丁螺环酮 173 例次（27.9%），其次为抗抑郁药 70例次（11.3%），信息均来自 Lexicomp 数据库；中度的为 377 例次（60.8%），主要为镇静催眠药 302 例次（48.7%）、抗精神分裂症药 71 例次（11.5%）。按 Lexicomp 数据库，检出与米氮平有药物相互作用药品 20种，药物相互作用共 619 例次，其中严重的为 243 例次（39.3%），中度的 375 例次（60.6%），轻度的 1 例次（0.1%），为左氧氟沙星–米氮平药物相互作用；按 Medscape 数据库，检出与米氮平有药物相互作用药品 17 种，药物相互作用共 592 例次，均为中度，见表3。
+不同信息源米氮平的药物相互作用严重程度分级一致性检验显示，Kappa 按药品（Lexicomp＋Medscape）－Lexicomp0.993 0， P 按药品 （ Lexicomp ＋ Medscape） － Lexicomp＝ 0；
+2.3 米氮平药物相互作用风险点情况
+按药物相互作用风险点计 ， Lexicomp ＋Medscape数据库中风险点共 832例次，包括过度中枢抑制378例次（45.4%）、5-羟色胺（5-HT）升高314 例次（37.8%），QT 间期延长 140 例次（16.8%）。其中，严重风险点243例次（29.2%），均为5-HT 升高，由丁螺环酮、抗抑郁药引起，信息均来自Lexicomp 数据库。按 Lexicomp 数据库，风险点 691例次，包括过度中枢抑制 375 例次（54.3%）、5-HT升高314例次（37.8%），QT间期延长2例次（0.2%）。按 Medscape 数据库，共 733 例次，包括过度中枢抑制 350 例次（47.7%）、5-HT 升高 243 例次（33.2%），QT 间期延长 140 例次（19.1%），见表 4。
+不同信息源中与米氮平药物相互作用风险点及其严重程度分级见表 5。一致性检验显示，本研究发现，Lexicomp 数据库比 Medscape 数据库多检出有药物相互作用药品 4 种、处方 19 张（4.73%）；提示在涵盖药物相互作用的药品方面，Lexicomp 数据库更丰富，与文献一致[4]。在严重程度分级、风险点方面，Lexicomp＋Medscape 数据库与 Lexicomp 数据库的一致性均很强（Kappa＞0.99，
+3 讨论
+3.1 Lexicomp、Medscape 数据库中药物相互作用严重程度分级情况及互补性
+Lexicomp、Medscape 数据库是常用的药物相互作用检索工具[9]，但严重程度分级不同；重新界定分级，利于整合应用数据[8]；同时，临床更关注有临床意义的药物相互作用，故本研究未统计Lexicomp、Medscape 数据库中均未纳入或均无药物相互作用的药品，以提供更简明详尽的信息，减少信息过多导致的关注点偏移。
+2D6/1A2 酶形成 8-羟基代谢物，较小程度上由CYP3A4 酶形成 N-去甲基和 N-氧化物代谢物[11-12]；也是 CYP3A4 的抑制剂及 CYP2D6/1A2 弱抑制剂、p-糖蛋白（P-gp）抑制剂[11]，但不是 P-gp 底物[13]。
+丁螺环酮经CYP3A 代谢，并与CYP3A强抑制剂利托那韦发生相互作用[14]。米氮平可抑制丁螺环酮代谢使后者浓度升高而发生药物相互作用。药效学方面，5-HT1A、5-HT2A、5-HT3 受体在 5-HT 综合征的发病机制中起关键作用[15]。米氮平强效拮抗中枢突触前 α2-肾上腺素能受体，5-HT2、5-HT3受体，增加去甲肾上腺素释放，间接释放 5-HT[12, 16]，产生抗抑郁作用；但对 5-HT1A 和 5-HT1B 受体均无明显影响[12]。而丁螺环酮部分激动5-HT1A受体，可与其他 5-HT 能药物联用引起 5-HT 综合征[14]。因而米氮平–丁螺环酮可能产生协同作用，诱发 5-HT综合征。
+P＝0）、而 Lexicomp＋Medscape 数据库或 Lexicomp与 Medscape 数据库均有明显差异（Kappa＜0，P＜0.05）；提示 Lexicomp＋Medscape 数据库中主要信息来自 Lexicomp 数据库。
+3.4 米氮平与其他抗抑郁药的药物相互作用
+本研究发现，潜在致死性的 5-HT 综合征还涉及米氮平与新型抗抑郁药如帕罗西汀、氟西汀、曲唑酮和舍曲林；也应避免联用。
+本研究新发现，从风险点看，尽管在 5-HT 升高、过度中枢抑制方面，Lexicomp数据库检出更多药对及例次；但在QT间期延长方面，Medscape数据库比 Lexicomp 数据库多检出了 10 组药对、138例次；提示 Lexicomp、Medscape 数据库有一定的互补性。因而，在人力充沛的医疗机构，可考虑综合纳入 Lexicomp、Medscape 数据库信息；否则仅优选 Lexicomp 数据库中的信息，可能遗漏重要风险点。
+药动学方面，米氮平等多种抗抑郁药血浆蛋白结合率通常高于80%；血浆蛋白结合置换可导致药物相互作用；但未结合的药物被快速代谢和排泄，蛋白质结合相互作用通常短暂且自限，故该机制临床意义较小[11]。氟西汀及其代谢产物去甲氟西汀是CYP2D6底物和强抑制剂，氟西汀还是CYP2C9底物和中度抑制剂，CYP3A4/3A5/2C19/2B6/1A2 底物和弱抑制剂[11, 13]。舍曲林是 CYP2D6/2C19/3A4/2B6[11]、P-gp的底物和强抑制剂[13]。曲唑酮主要经CYP3A4 代谢，也是 2D6/1A2 的底物、P-gp 的诱导剂[11, 13]。米氮平可能抑制帕罗西汀、舍曲林经P-gp转运，而不影响氟西汀等其他药物；可能主要经CYP3A4/2D6/1A2 代谢途径与上述抗抑郁药发生药物相互作用。
+3.2 米氮平联合用药处方药物相互作用情况
+本研究发现，基于 Lexicomp＋Medscape 数据库，蚌埠市第一人民医院 402张米氮平联合用药处方中，药物相互作用发生率达 100%；620例次药物相互作用中，米氮平与丁螺环酮、帕罗西汀等的严重药物相互作用（5-HT 综合征）达 39.2%，应避免联用；与镇静催眠药等的中度药物相互作用达60.8%，应注意监测或换药。为临床提供上述信息，有利于避免不适宜联合用药，更好地保障患者用药安全。
+药效学方面，曲唑酮抑制 5-HT 转运体，拮抗5-HT2A、5-HT2C、α1 和 α2 肾上腺素能受体，其经CYP3A4 酶产生的代谢物对 5-HT 再摄取的抑制作用更强[12]；联用5-HT 能受体药物，也可诱发 5-HT综合征[17]。
+3.3 米氮平与丁螺环酮的药物相互作用
+因而，米氮平联用上述抗抑郁药，可能主要经上述药动学、药效学机制，促使中枢神经系统突触间隙中5-HT水平增加，诱发致死性 5-HT 综合征。本研究显示，米氮平与上述抗抑郁药还可引起 QT间期延长风险。较早报道认为，某些选择性5-HT 再摄取抑制剂和米氮平可导致 QT间期延长[18]；2014年有研究称米氮平、氟西汀、帕罗西汀、舍曲林均有引起心律失常风险，但未明确其是如何影响 QT间期[19]。最近研究表明，米氮平浓度与QT 间期延长之间存在正相关关系；但米氮平 45、75mg 时的影响无临床意义[20]。因此，常规剂量米氮平可能不会对 QT 间期产生显著影响[2]。然而，上述药动学机制可使米氮平等抗抑郁药浓度上升、药效学作用增强，或发生有临床意义的 QT间期延长。
+米氮平与丁螺环酮可能会联用于焦虑、抑郁症状共存患者[10]，但本研究发现，两者药物相互作用为具有潜在致死性的 5-HT 综合征；应避免联用。药动学方面，米氮平主要由细胞色素酶（CYP）
+3.5 米氮平与镇静催眠药的药物相互作用
+本研究显示，米氮平与镇静催眠药如苯二氮䓬类药物、右佐匹克隆等的药物相互作用为过度中枢抑制，中度；应注意监测或换药。
+米氮平强效拮抗 H1 受体，在较低剂量下更多与组胺受体结合，产生镇静催眠作用[12, 21]。新研究显示，米氮平影响阿片 κ和μ受体亚型，从而诱导和维持睡眠，并能在上述镇静催眠药无效患者中显效[16]。故米氮平与上述药物联用引起过度中枢抑制，主要为药效学相互作用；患者若为高空作业等需要高度集中精力者，则有风险。
+利益冲突所有作者均声明不存在利益冲突
+3.6 米氮平与抗精神分裂症药的药物相互作用
+米氮平与非典型抗精神分裂症药物的药物相互作用涉及过度中枢抑制、5-HT 升高、QT间期延长，均为中度，可能主要与 CYP 酶参与代谢机制有关[21]；需要监测或换药。
+喹硫平是CYP3A4弱亲和力底物，呈剂量依赖性延长QT间期；100%经 CYP3A4 代谢途径而与其他药物（如CYP3A4抑制剂氟伏沙明、CYP3A4 竞争性高亲和力底物洛伐他汀）发生药物相互作用；阿立哌唑是CYP2D6高亲和力底物，理论上会竞争性抑制米氮平的代谢，增加其血药浓度；利培酮是CYP3A4及CYP2D6 中等亲和力底物，与米氮平的药物相互作用主要与此代谢酶亚型相关[21]。类似地，米氮平–奥氮平经 CYP 酶代谢相互作用导致奥氮平血清水平升高，或诱发上述药物相互作用。
+米氮平与上述药物联用期间，如患者出现精神状态改变等症状，应采用临床诊断标准如 Sternbach标准、Radomski 标准和 Hunter 标准评估，及时排查 5-HT 综合征[3, 15]；一旦考虑该风险，应采取停药、对症支持治疗等措施解救[15]。
+4 对策
+米氮平因其耐受性、安全性均相对良好而常用于有抑郁、睡眠障碍等患者[22]，但仍会和其他药物发生药物相互作用、甚至潜在致死性5-HT综合征，有必要引起重视。基于本研究结果，临床药师整理米氮平的药物相互作用严重程度分级、风险点、建议等信息，并采取以下干预措施提高医务人员认识、促进用药安全：一是与精神卫生科医师沟通反馈，培训要点；二是通过医院OA 系统向全院相关医务人员提供警示信息及培训要点；三是医院在信息系统中维护药品规则，将“严重”药物相互作用设置为“黑灯”警示，系统自动拦截，并提示药物相互作用风险点为“可引起潜在致死性 5-HT 综合征”及建议“避免联用”；如医师结合临床仍认为必须联用的，须再次电子签名确认。“中度”药物相互作用设置为“红灯”警示，提示相应风险点及建议“需要监测或换药”。
+[责任编辑高源]

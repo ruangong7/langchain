@@ -1,0 +1,139 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "沙奎那韦",
+        "canonical_name": "沙奎那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "西柚汁",
+        "canonical_name": "西柚汁",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "β受体拮抗剂",
+        "canonical_name": "β受体拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "钙通道阻滞剂",
+        "canonical_name": "钙通道阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "苯二氮䓬类",
+        "canonical_name": "苯二氮䓬类",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "羟甲基戊二酸单酰辅酶A还原酶抑制剂",
+        "canonical_name": "羟甲基戊二酸单酰辅酶A还原酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "环孢素",
+        "canonical_name": "环孢素",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物与用药安全",
+          "chunk_index": 2719,
+          "raw_text": "如沙奎那韦与西柚汁合用时，AUC可增大50% ~ 200%",
+          "chunk_id": "2719",
+          "data": "。如沙奎那韦与西柚汁合用时，AUC可增大50% ~ 200%类似的药物还包括β受体拮抗剂、钙通道阻滞剂、苯二氮䓬类和羟甲基戊二酸单酰辅酶A还原酶抑制剂(HMG-CoA reductase inhibitor)等。西柚汁对P-gp介导的肠细胞转运过程也有抑制作用，例如环孢素与西柚汁合用时，其生物利用度大大增加被认为主要由P-gp的抑制引起。由于西抽汁是一种天然产品，患者的饮用量、频度、与给药的间隔时间、不同品牌的成分含量等因素都不尽相同，因此，它与药物相互作用的程度在不同患者中存在较大的差异。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物与用药安全",
+          "chunk_index": 2719,
+          "raw_text": "类似的药物还包括β受体拮抗剂、钙通道阻滞剂、苯二氮䓬类和羟甲基戊二酸单酰辅酶A还原酶抑制剂(HMG-CoA reductase inhibitor)等。",
+          "chunk_id": "2719",
+          "data": "。如沙奎那韦与西柚汁合用时，AUC可增大50% ~ 200%类似的药物还包括β受体拮抗剂、钙通道阻滞剂、苯二氮䓬类和羟甲基戊二酸单酰辅酶A还原酶抑制剂(HMG-CoA reductase inhibitor)等。西柚汁对P-gp介导的肠细胞转运过程也有抑制作用，例如环孢素与西柚汁合用时，其生物利用度大大增加被认为主要由P-gp的抑制引起。由于西抽汁是一种天然产品，患者的饮用量、频度、与给药的间隔时间、不同品牌的成分含量等因素都不尽相同，因此，它与药物相互作用的程度在不同患者中存在较大的差异。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物与用药安全",
+          "chunk_index": 2719,
+          "raw_text": "类似的药物还包括β受体拮抗剂、钙通道阻滞剂、苯二氮䓬类和羟甲基戊二酸单酰辅酶A还原酶抑制剂(HMG-CoA reductase inhibitor)等。",
+          "chunk_id": "2719",
+          "data": "。如沙奎那韦与西柚汁合用时，AUC可增大50% ~ 200%类似的药物还包括β受体拮抗剂、钙通道阻滞剂、苯二氮䓬类和羟甲基戊二酸单酰辅酶A还原酶抑制剂(HMG-CoA reductase inhibitor)等。西柚汁对P-gp介导的肠细胞转运过程也有抑制作用，例如环孢素与西柚汁合用时，其生物利用度大大增加被认为主要由P-gp的抑制引起。由于西抽汁是一种天然产品，患者的饮用量、频度、与给药的间隔时间、不同品牌的成分含量等因素都不尽相同，因此，它与药物相互作用的程度在不同患者中存在较大的差异。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物与用药安全",
+          "chunk_index": 2719,
+          "raw_text": "类似的药物还包括β受体拮抗剂、钙通道阻滞剂、苯二氮䓬类和羟甲基戊二酸单酰辅酶A还原酶抑制剂(HMG-CoA reductase inhibitor)等。",
+          "chunk_id": "2719",
+          "data": "。如沙奎那韦与西柚汁合用时，AUC可增大50% ~ 200%类似的药物还包括β受体拮抗剂、钙通道阻滞剂、苯二氮䓬类和羟甲基戊二酸单酰辅酶A还原酶抑制剂(HMG-CoA reductase inhibitor)等。西柚汁对P-gp介导的肠细胞转运过程也有抑制作用，例如环孢素与西柚汁合用时，其生物利用度大大增加被认为主要由P-gp的抑制引起。由于西抽汁是一种天然产品，患者的饮用量、频度、与给药的间隔时间、不同品牌的成分含量等因素都不尽相同，因此，它与药物相互作用的程度在不同患者中存在较大的差异。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物与用药安全",
+          "chunk_index": 2719,
+          "raw_text": "类似的药物还包括β受体拮抗剂、钙通道阻滞剂、苯二氮䓬类和羟甲基戊二酸单酰辅酶A还原酶抑制剂(HMG-CoA reductase inhibitor)等。",
+          "chunk_id": "2719",
+          "data": "。如沙奎那韦与西柚汁合用时，AUC可增大50% ~ 200%类似的药物还包括β受体拮抗剂、钙通道阻滞剂、苯二氮䓬类和羟甲基戊二酸单酰辅酶A还原酶抑制剂(HMG-CoA reductase inhibitor)等。西柚汁对P-gp介导的肠细胞转运过程也有抑制作用，例如环孢素与西柚汁合用时，其生物利用度大大增加被认为主要由P-gp的抑制引起。由于西抽汁是一种天然产品，患者的饮用量、频度、与给药的间隔时间、不同品牌的成分含量等因素都不尽相同，因此，它与药物相互作用的程度在不同患者中存在较大的差异。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物与用药安全",
+          "chunk_index": 2719,
+          "raw_text": "西柚汁对P-gp介导的肠细胞转运过程也有抑制作用，例如环孢素与西柚汁合用时，其生物利用度大大增加被认为主要由P-gp的抑制引起。",
+          "chunk_id": "2719",
+          "data": "。如沙奎那韦与西柚汁合用时，AUC可增大50% ~ 200%类似的药物还包括β受体拮抗剂、钙通道阻滞剂、苯二氮䓬类和羟甲基戊二酸单酰辅酶A还原酶抑制剂(HMG-CoA reductase inhibitor)等。西柚汁对P-gp介导的肠细胞转运过程也有抑制作用，例如环孢素与西柚汁合用时，其生物利用度大大增加被认为主要由P-gp的抑制引起。由于西抽汁是一种天然产品，患者的饮用量、频度、与给药的间隔时间、不同品牌的成分含量等因素都不尽相同，因此，它与药物相互作用的程度在不同患者中存在较大的差异。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 2719,
+    "source": "药物与用药安全",
+    "text": "。如沙奎那韦与西柚汁合用时，AUC可增大50% ~ 200%类似的药物还包括β受体拮抗剂、钙通道阻滞剂、苯二氮䓬类和羟甲基戊二酸单酰辅酶A还原酶抑制剂(HMG-CoA reductase inhibitor)等。西柚汁对P-gp介导的肠细胞转运过程也有抑制作用，例如环孢素与西柚汁合用时，其生物利用度大大增加被认为主要由P-gp的抑制引起。由于西抽汁是一种天然产品，患者的饮用量、频度、与给药的间隔时间、不同品牌的成分含量等因素都不尽相同，因此，它与药物相互作用的程度在不同患者中存在较大的差异。"
+  }
+]

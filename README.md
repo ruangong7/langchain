@@ -69,18 +69,12 @@ LOG_LEVEL=INFO
 ALLOWED_ORIGINS=http://127.0.0.1:8000,http://localhost:8000
 CHAT_MEMORY_TTL_SECONDS=86400
 CHAT_MEMORY_MAX_MESSAGES=20
-CHAT_MEMORY_SUMMARY_ENABLED=true
-CHAT_MEMORY_SUMMARY_MAX_CHARS=1000
 AUTH_TOKEN_SECRET=change_me_to_a_long_random_secret
 AUTH_TOKEN_TTL_SECONDS=86400
 
 RAG_MAX_CONTEXT_CHARS=6000
 RAG_MAX_DOC_CHARS=1200
 RAG_FINAL_TOP_K=5
-CROSS_ENCODER_ENABLED=false
-CROSS_ENCODER_MODEL_PATH=
-CROSS_ENCODER_MAX_LENGTH=512
-CROSS_ENCODER_CANDIDATE_TOP_K=20
 REWRITE_SHORT_QUERY_CHARS=12
 
 DRUG_ALIAS_FILE=data/drug_aliases.csv
@@ -115,30 +109,22 @@ uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 
 会话记忆按 `memory_id` 隔离，存储在 Redis 的 `chat_memory:{memory_id}` 列表中。每次回答完成后，系统会追加一条用户消息和一条助手消息，并按 `CHAT_MEMORY_TTL_SECONDS` 设置过期时间。
 
-当前回答阶段采用“长期摘要 + 最近 7 轮原文”的上下文：
+当前回答阶段采用最近 7 轮对话作为上下文：
 
 - `services/llm_service.py` 中的 `ANSWER_HISTORY_TURNS = 7` 控制回答模型最多读取最近 7 轮历史。
 - 1 轮对话包含 1 条用户消息和 1 条助手消息，因此至少需要保留 14 条消息。
-- `CHAT_MEMORY_MAX_MESSAGES` 控制 Redis 中短期列表最多保留的消息条数，建议设置为 `20` 或更大；这样超过 7 轮时仍有溢出历史可被压缩进摘要。
-- 查询理解中的上下文消歧会读取长期摘要和最近 5 轮，用于处理“这个药”“刚才那个”等含糊指代。
-- `CHAT_MEMORY_SUMMARY_ENABLED=true` 时，回答保存后会检查超过最近 7 轮的溢出历史。
-- 溢出历史会和旧摘要合并，写入 `chat_memory_summary:{memory_id}`，并与短期记忆使用相同 TTL。
-- 摘要只保留稳定信息，例如用户长期用药、已提到的疾病/过敏史、明确禁忌、偏好和已经澄清过的问题；不保存一次性闲聊和不确定推测。
-- 摘要更新采用增量方式：旧摘要 + 新溢出的轮次生成新摘要，并由 `CHAT_MEMORY_SUMMARY_MAX_CHARS` 控制最大长度。
-- 回答时的上下文顺序为：长期摘要、最近 7 轮对话、当前问题、RAG 检索内容。摘要只作为辅助上下文，专业结论仍优先受知识库和数据库结果约束。
+- `CHAT_MEMORY_MAX_MESSAGES` 控制 Redis 中保留的消息条数，建议设置为 `14` 或更大；如果设置为 `20`，Redis 会保留最近 10 轮，但最终回答仍只取最近 7 轮。
+- 查询理解中的上下文消歧会读取最近 5 轮，用于处理“这个药”“刚才那个”等含糊指代。
 
-## 交叉编码器重排
+记忆摘要建议采用“短期窗口 + 长期摘要”的策略：
 
-检索链路默认是“稠密检索 + BM25 检索 + RRF 融合 + 轻量词面重排”。如果需要更高精度的最终排序，可以启用交叉编码器：
+- 短期记忆：始终保留最近 7 轮原文，用于回答时保持上下文细节。
+- 长期摘要：当对话超过 7 轮时，把更早的历史压缩成摘要，单独保存到类似 `chat_memory_summary:{memory_id}` 的 Redis key。
+- 摘要内容只保留稳定信息，例如用户长期用药、已提到的疾病/过敏史、明确禁忌、偏好和已经澄清过的问题；不要保存一次性闲聊和不确定推测。
+- 摘要更新采用增量方式：每次窗口外历史增加时，用旧摘要 + 新溢出的轮次生成新摘要，控制在 500-1000 字以内。
+- 回答时的上下文顺序建议为：长期摘要、最近 7 轮对话、当前问题、RAG 检索内容。摘要只作为辅助上下文，专业结论仍应优先受知识库和数据库结果约束。
 
-```env
-CROSS_ENCODER_ENABLED=true
-CROSS_ENCODER_MODEL_PATH=models/cross_encoder
-CROSS_ENCODER_MAX_LENGTH=512
-CROSS_ENCODER_CANDIDATE_TOP_K=20
-```
-
-启用后，RAG 会先按原有策略得到候选文档，再对前 `CROSS_ENCODER_CANDIDATE_TOP_K` 条候选执行 query-document 成对打分，并按 `cross_encoder_score` 重新排序。模型需是 `transformers` 可加载的 sequence classification 模型；如果模型路径为空、加载失败或推理失败，系统会记录日志并自动回退到原排序。
+当前代码已经实现短期 7 轮记忆；长期摘要属于推荐策略入。
 
 ## API 示例
 

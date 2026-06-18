@@ -1,0 +1,819 @@
+[
+  {
+    "type": "text",
+    "text": "基于药品说明书分析住院患者华法林的药物相互作用及抗凝强度",
+    "text_level": 1,
+    "bbox": [
+      90,
+      99,
+      907,
+      152
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "徐鹏 张国柱 ( 合肥市第三人民医院 合肥 230022)",
+    "bbox": [
+      89,
+      168,
+      463,
+      184
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘 要 目的: 为临床药师在华法林规范化抗凝治疗中发挥作用提供参考。 方法: 回顾性调查2015 年全年使用华法林的住院患者，统计患者 INR 监测情况、可能发生相互作用的合并用药等信息。 结果: 存在一种以上可能与华法林发生相互作用的合并用药共计127 例，占79． 9% ; 涉及的药物23 种共使用292 次，中药注射剂所占比例为32． 5% ，包括丹参制剂、人参制剂和银杏制剂。 146 例患者进行了 INR 检测，82 例 INR ＜2 的患者中有45 例未采取剂量调整措施。 住院期间停用华法林的有 36例，占22．0%，出院医嘱长期服用的有118 例，占74．2% 结论: 华法林抗凝治疗需进一步规范，特别是抗凝不足和与中药注射剂的合并用药应进行必要干预。",
+    "bbox": [
+      87,
+      204,
+      905,
+      303
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词 华法林;联合用药;药物相互作用;中药注射剂;抗凝强度",
+    "bbox": [
+      90,
+      306,
+      527,
+      321
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中图分类号:R 文献标识码:A 文章编号: 1008-049X( 2016) 11-2113-03",
+    "bbox": [
+      89,
+      323,
+      579,
+      338
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Analysis of Drug Interactions and Anticoagulation Intensity of Warfarin in Inpatients Based on the Drug Instructions",
+    "text_level": 1,
+    "bbox": [
+      87,
+      361,
+      909,
+      391
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Xu Peng，Zhang Guozhu( Department of Pharmacy，the Third People ’ s Hospital of Hefei，Hefei 230022，China)",
+    "bbox": [
+      89,
+      394,
+      781,
+      407
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "ABSTRACT Objective: To provide reference for the role of clinical pharmacist played in the standardized use of warfarin in anticoagulation therapy． Methods: A retrospective analysis was conducted on the inpatients received warfarin． The information on the monitoring of INR and concomitant medications likely with drug interactions with warfarin were evaluated． Results: Totally 127 cases received one or more concomitant medications likely with drug interactions with warfarin，which accounted for 79． 9% ( 127 /159) ． Of the 23 concomitant medications，the frequency of traditional Chinese medicine injections was 32． 5% ( 95 /292) ，which included Danshen preparations，Ginseng preparations and Gingko preparations． INR was tested in 146 cases． Of the 80 cases whose INR was less than two，45 ones were with the stable dose of warfarin． Totally 36 cases ( 22% ) suspended warfarin during the hospitalization and 118 cases ( 74． 2% ) were ordered to take warfarin for a long time． Conclusion: The use of warfarin in anticoagulation therapy should be further regularized，especially that of low intensity of anticoagulation and concomitant medications with Chinese medicine injections should be intervened．",
+    "bbox": [
+      87,
+      409,
+      907,
+      554
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "KEY WORDS Warfarin; Concomitant medication; Drug interactions; Traditional Chinese medicine injections; Anticoagulation intensity",
+    "bbox": [
+      87,
+      558,
+      907,
+      586
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "华法林为使用最为广泛的口服抗凝药，华法林长期抗凝主要用于静脉血栓的预防和治疗、房颤以及心脏瓣膜置换术后。 华法林的治疗指数窄，再加上合并药物、食物、患者身体状况以及遗传等诸多因素均会影响华法林的抗凝作用，因此，华法林在长期抗凝治疗过程中较易发生出血不良反应。",
+    "bbox": [
+      89,
+      607,
+      482,
+      693
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "在影响华法林抗凝强度的相关药物中，《华法林抗凝治疗临床药师指导手册》［1］共列出了 300 多种，2013 年 《华法林抗凝治疗的中国专家共识》［2］ 也列出了近百种可能与华法林发生药物相互作用的药物，其中包括数种中草药成分。目前，临床使用的华法林包括国产和进口品种( 芬兰) ，国产和进口华法林的药品说明书也具体列出了可能改变华法林抗凝作用的西药和中草药。",
+    "bbox": [
+      87,
+      696,
+      482,
+      815
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "药品说明书为具有法律效力的文书，《处方管理办法》第14 条规定医师应当按照药品说明书来开具处方。 为此，本文以国产和进口华法林的药品说明书为依据，调查住院患者华法林的药物相互作用，并分析住院患者华法林抗凝强度，为我院临床药师在提高抗凝治疗率和达标率以及降低华法林出血风险中发挥作用提供前期依据。",
+    "bbox": [
+      89,
+      819,
+      482,
+      887
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      608,
+      905,
+      639
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 资料与方法",
+    "text_level": 2,
+    "bbox": [
+      512,
+      644,
+      618,
+      657
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "通过 PASS 临床药学管理系统( 四川美康医药软件研究开发有限公司) 分别调出我院 2015 年开具华法林的病区患者住院号，再通过医院管理信息系统( 合肥汉思信息技术有限责任公司) 凭住院号查阅使用过华法林的电子病历，填写华法林使用情况调查表，统计患者性别、年龄、用药主要目的、INR、可能发生相互作用的合并用药( 以国产和进口华法林药品说明书列出的药物为依据) 等情况。",
+    "bbox": [
+      510,
+      661,
+      905,
+      778
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "使用 SPSS 17．0 统计学软件对数据进行统计分析，计量资料以 x珋 ± s 表示，比较采用 t 检验; 计数资料以百分率( % )表示，比较采用 $\\chi ^ { 2 }$ 检验。 P ＜0．05为差异有统计学意义。",
+    "bbox": [
+      510,
+      783,
+      905,
+      832
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2 结果",
+    "text_level": 2,
+    "bbox": [
+      512,
+      835,
+      571,
+      848
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2． 1 一般情况",
+    "text_level": 2,
+    "bbox": [
+      512,
+      854,
+      616,
+      868
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "2015 年1 月1 日 ～12 月31 日共有159 例住院患者使用了华法林，女性81 例，男性 78 例; 年龄最小 16 岁，最大 91岁，平均年龄 $\\left( 6 9 . 9 \\pm 1 2 . 6 \\right)$ 岁; 平均住院天数为 ( 11． 5 ±7．8) d。 共有11 个科室使用了华法林，其中，心血管内科占67． 3% ( 107 /159) ，肿瘤科占8． 3% ( 13 /159) ，神 经 内 科 占6． 3% ( 13 /159) 。",
+    "bbox": [
+      541,
+      872,
+      904,
+      887
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中国药师",
+    "bbox": [
+      92,
+      46,
+      174,
+      63
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "2016 年第 19 卷第 11 期 China Pharmacist 2016，Vol． 19 No． 11",
+    "bbox": [
+      201,
+      49,
+      636,
+      63
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "通讯作者: 徐鹏 Tel: 18955141092 E-mail: 370377650@ qq． com",
+    "bbox": [
+      89,
+      901,
+      460,
+      915
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "2113",
+    "bbox": [
+      840,
+      934,
+      895,
+      948
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      978
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      87,
+      80,
+      482,
+      165
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2．2 华法林主要用药目的",
+    "text_level": 2,
+    "bbox": [
+      89,
+      168,
+      270,
+      183
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "使用华法林的用药目的包括房颤( 51．6%，82/159) 心瓣膜病( 21．4%，34/159) 、静脉血栓的预防和治疗等( 27%，43 /159) 。",
+    "bbox": [
+      87,
+      187,
+      482,
+      236
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2． 3 华法林用量",
+    "text_level": 2,
+    "bbox": [
+      89,
+      241,
+      208,
+      254
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "住院时华法林初始使用剂量最小为0． 83 mg，最大为6． 25 mg，平均剂量为( 2． 45 ± 0． 6) mg 。 住院期间华法林用量进行调整的有 37 例，占23．3%; 停止服用华法林的有 36例，占22． 0% ; 出院时医嘱长期服用的有 118 例，占74． 2% 。",
+    "bbox": [
+      87,
+      258,
+      482,
+      326
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2． 4 华法林合并用药情况",
+    "text_level": 2,
+    "bbox": [
+      89,
+      330,
+      270,
+      344
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "以国产和进口华法林药品说明书为依据，结合医院在用品种，确定可能与华法林产生相互作用的药物，具体见表1。",
+    "bbox": [
+      89,
+      347,
+      482,
+      379
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/020fcd559a27636621ef95fa2801739582deb9458b2197f4f1c16d2f137413c9.jpg",
+    "table_caption": [
+      "表 1 可能与华法林产生相互作用的药物"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>类别</td><td>增强华法林抗凝作用</td><td>减弱华法林抗凝作用</td></tr><tr><td>抗感染药物</td><td>头孢孟多、头孢甲肟、头孢美唑、拉氧头孢、左氧氟沙星、红霉素、阿奇霉素、克拉霉素、甲硝唑、氟康唑、伊曲康唑、头孢哌酮、头孢哌酮/舒巴坦</td><td>利福平</td></tr><tr><td>心血管系统药物</td><td>地高辛、辛伐他汀、普萘洛尔、乙胺碘呋酮、苯扎贝特</td><td>螺内酯</td></tr><tr><td>NSAIDs</td><td>阿司匹林、吲哚美辛</td><td></td></tr><tr><td>消化系统药物</td><td>奥美拉唑、西咪替丁</td><td></td></tr><tr><td>维生素类</td><td>VitA、VitE</td><td>VitC(高剂量)、VitK</td></tr><tr><td>中成药制剂</td><td>丹参、银杏(银杏叶)、大蒜、当归、木瓜</td><td>人参、贯叶连翘</td></tr><tr><td>其它类</td><td>可待因、环磷酰胺、氟尿嘧啶、α及β-干扰素、氨甲喋呤、左甲状腺素</td><td>巴比妥类、卡马西平、环孢菌素、巯基嘌呤、丙戊酸钠、硫唑嘌呤</td></tr></table>",
+    "bbox": [
+      90,
+      399,
+      484,
+      640
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "在159 例使用华法林的住院患者中，同时使用可能与华法林产生相互作用的药物品种数平均为( 1．85 ±1．4) 种，共有127 例患者存在一种以上合并用药，其中，存在一种合并用药的有 35 例，存在二种的有 42 例，存在三种的有 34 例，存在四种的有9 例，存在五及五种以上的有7 例。",
+    "bbox": [
+      89,
+      640,
+      482,
+      726
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "在 127 例存在华法林的合并用药中，23 种药物共使用292 次，合并用药频次前十位的药物见表2",
+    "bbox": [
+      89,
+      728,
+      482,
+      760
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/4725d2529dbaf08b0f934b0f382c0fed3a44354e9df5052f40ec43d0cbfc2378.jpg",
+    "table_caption": [
+      "表2 华法林合并用药频次排名"
+    ],
+    "table_footnote": [
+      "注: 丹参制剂包括参芎 丹参多酚酸盐 丹红 丹参川芎嗪和丹参酮II; 人参制剂包括生脉、参麦和参附; 银杏制剂包括银杏叶提取物。"
+    ],
+    "table_body": "<table><tr><td>排名</td><td>药物</td><td>例数(例)</td><td>百分比(%)</td><td>排名</td><td>药物</td><td>例数(例)</td><td>百分比(%)</td></tr><tr><td>1</td><td>螺内酯</td><td>63</td><td>26.0</td><td>6</td><td>银杏制剂</td><td>12</td><td>4.1</td></tr><tr><td>2</td><td>地高辛</td><td>59</td><td>20.2</td><td>7</td><td>胺碘酮</td><td>12</td><td>4.1</td></tr><tr><td>3</td><td>丹参制剂</td><td>54</td><td>18.5</td><td>8</td><td>奥美拉唑</td><td>10</td><td>3.4</td></tr><tr><td>4</td><td>人参制剂</td><td>29</td><td>9.9</td><td>9</td><td>头孢哌酮舒巴坦</td><td>6</td><td>2.1</td></tr><tr><td>5</td><td>左氧氟沙星</td><td>22</td><td>7.5</td><td>10</td><td>头孢哌酮</td><td>5</td><td>1.7</td></tr></table>",
+    "bbox": [
+      92,
+      781,
+      484,
+      885
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2． 5 抗凝强度",
+    "text_level": 2,
+    "bbox": [
+      512,
+      82,
+      616,
+      95
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2． 5． 1 INR 监测情况 159 例使用华法林的住院患者中，INR 平均检测( 2． 1 ± 2． 0) 次，INR 检测次数见表 3 。",
+    "bbox": [
+      510,
+      99,
+      904,
+      130
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/92eb91678d7f0f8ba0df704e9ef1b60567704dcb82d1dd47cdcae2b5be171431.jpg",
+    "table_caption": [
+      "表 3 INR 检测次数"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>INR 检测次数</td><td>例数(例)</td><td>百分比(%)</td></tr><tr><td>0</td><td>13</td><td>8.2</td></tr><tr><td>1</td><td>57</td><td>35.8</td></tr><tr><td>2</td><td>45</td><td>28.3</td></tr><tr><td>3</td><td>27</td><td>17.0</td></tr><tr><td> $\\geqslant 4$ </td><td>17</td><td>10.7</td></tr></table>",
+    "bbox": [
+      514,
+      149,
+      905,
+      237
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2． 5． 2 INR ＞3 或 ＜2 的患者情况比较 159 例使用华法林的住院患者中，共有146 例进行了INR 检测，其中INR ＞3 的有 26 例，INR ＜ 2 的有 82 例。 INR ＞ 3 组和 INR ＜ 2 组患者的具体情况见表 4，INR ＞ 3 组的平均年龄明显高于 INR ＜ 2组( P ＜ 0． 001) 。",
+    "bbox": [
+      510,
+      241,
+      905,
+      323
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/1db7d93da7f6234bf9cee83164e5563cc6aaede9c880e52ab35868475b31b106.jpg",
+    "table_caption": [
+      "表 4 INR ＞ 3 组和 INR ＜ 2 组的患者情况比较",
+      "$[ \\mathfrak { h } ( \\mathbf { \\mathscr { q } } _ { o } ) , \\mathbf { \\bar { \\bar { x } } } \\pm \\mathbf { \\bar { s } } ]$"
+    ],
+    "table_footnote": [
+      "注: 与 INR ＞ 3 组比较，aP ＜ 0． 01 。"
+    ],
+    "table_body": "<table><tr><td>组别</td><td>男性比例</td><td>年龄(岁)</td><td>住院天数(d)</td><td>初始剂量(mg)</td><td>合并用药品种数</td></tr><tr><td>INR &lt; 2</td><td>64(82.1)</td><td> $68.3 \\pm 14.9^a$ </td><td> $9.8 \\pm 6.5$ </td><td> $2.46 \\pm 0.7$ </td><td> $1.61 \\pm 1.3$ </td></tr><tr><td>INR &gt; 3</td><td>14(17.9)</td><td> $72.5 \\pm 9.3$ </td><td> $13.3 \\pm 7.0$ </td><td> $2.45 \\pm 0.8$ </td><td> $2.58 \\pm 1.7$ </td></tr></table>",
+    "bbox": [
+      514,
+      360,
+      905,
+      420
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2． 5． 3 INR ＜ 2 以及 INR ＞ 3 的处理情况 82 例 INR ＜ 2 的患者中，45 例在住院期间未采取剂量调整措施，37 例采取了处理措施，处理措施包括: 增加华法林剂量( 12 例) 、改用抗血小板药阿司匹林或氯吡格雷( 21 例) 、停用( 2 例) 、暂停或减小剂量( 2 例)",
+    "bbox": [
+      510,
+      439,
+      905,
+      521
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "26 例 INR ＞ 3 的住院患者中，3 例在住院期间未采取剂量调整措施，23 例采取了处理措施，处理措施包括: 减小华法林剂量( 14 例) 停用( 4 例) 改用抗血小板药阿司匹林或氯吡格雷( 4 例) 、 增加剂量( 1 例) 。",
+    "bbox": [
+      510,
+      525,
+      905,
+      590
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2． 6 出血情况",
+    "text_level": 2,
+    "bbox": [
+      512,
+      594,
+      616,
+      607
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "在159 例使用华法林的住院患者中，两例出现出血症状，均为咳血痰，1 例采取停用华法林且推注 Vit k1后，INR恢复正常且出血症状消失，另一例停用华法林两天后出血症状消失 。",
+    "bbox": [
+      510,
+      611,
+      905,
+      677
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "3 讨论",
+    "text_level": 2,
+    "bbox": [
+      512,
+      681,
+      571,
+      694
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "3．1 抗凝治疗率和达标率",
+    "text_level": 2,
+    "bbox": [
+      510,
+      699,
+      690,
+      713
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "在159 例使用华法林的住院患者中，共有 36 例在住院期间中止了华法林抗凝治疗，其中有 28 例改用抗血小板药物阿司匹林或氯吡格雷，还有8 例未继续抗凝或抗血小板治疗。 进一步分析发现，这 36 例停用华法林的原因主要为监测不方便，患者不愿意继续使用华法林",
+    "bbox": [
+      510,
+      715,
+      905,
+      799
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "《华法林抗凝治疗的中国专家共识》( 2013 年) 指出，华法林最佳的抗凝强度范围为 $\\mathrm { I N R } \\ 2 . 0 \\sim 3 . 0 \\ \\AA ^ { \\textregistered }$ 。 在 146 例进行 INR 检测的患者中，INR ＜ 2 的共有 82 例，占 56% ; INR ＞3 的共有 26 例，占17． 8% 。 在 82 例 INR ＜ 2 的患者中有 45例并未采取剂量调整措施，因此在抗凝达标方面主要存在抗凝不足的问题，抗凝不足的原因包括高估出血风险 患者住院时间短未能及时调整和监测等等。",
+    "bbox": [
+      510,
+      801,
+      905,
+      917
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "www． zgys． org",
+    "bbox": [
+      99,
+      52,
+      189,
+      63
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "药物与临床",
+    "bbox": [
+      766,
+      43,
+      887,
+      63
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "21 14",
+    "bbox": [
+      102,
+      934,
+      159,
+      948
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "INR ＞ 3 组与 INR ＜ 2 组在性别、 年龄、 初始剂量和合并用药品种数进行比较，发现 INR ＞ 3 组的平均年龄明显高于INR ＜ 2 组( P ＜ 0． 01) ，提示高龄患者的 INR 总体偏高，因而对于高龄患者更应加强监测。",
+    "bbox": [
+      89,
+      80,
+      484,
+      147
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3．2 华法林合并用药",
+    "text_level": 2,
+    "bbox": [
+      89,
+      149,
+      238,
+      162
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "在华法林抗凝治疗当中，发生药物相互作用可能是其导致出血事件的主要原因［3］。 本文以华法林药品说明书为依据，在159 例使用华法林的住院患者中，发现 127 例患者存在一种以上可能影响华法林抗凝作用的合并用药。 在合并用药频次前十名中，可能降低抗凝作用的有两种: 螺内酯和人参制剂，可能增强抗凝作用的有八种。 按患者使用频次计算，中药注射剂占到32． 5% ( 95 /292) ，包括丹参制剂( 5 个品种) 、人参制剂( 2 个品种) 和银杏制剂( 1 个品种) 。",
+    "bbox": [
+      89,
+      166,
+      482,
+      299
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "中药注射剂成分非常复杂，如丹参制剂的有效成分分为脂溶性和水溶性两大类，参芎中含有水溶性丹参素［4］，丹参多酚酸盐的主要成分为水溶性的丹参多酚酸盐类化合物［5］，丹参川芎嗪含有水溶性丹参素，丹红含有丹参酮和丹参酚等丹参的有效成分，丹参酮 Ⅱ 中主要含有隐丹参酮、丹参酮 Ⅱ A等酮类化合物［6］。 中药注射剂对华法林抗凝作用的影响可分为药动学和药效学两个方面，丹参可抑制血小板聚集而增强华法林抗凝作用，而在药动学方面的影响较复杂，其既可抑制相应肝药酶而升高华法林的血药浓度［7-8］，也可诱导肝药酶而降低华法林的血药浓度［9］; 银杏可抑制血小板活化因子而增强华法林抗凝作用［10］，其在药动学方面既可降低也可升高华法林血药浓度［11，12］; 人参在体外试验证明可抑制血小板聚集而增强华法林抗凝作用［13］，但人体试验发现人参对血小板功能并没有显著影响［14］，在药动学方面，体外试验虽发现人参可抑制华法林的代谢酶［15］，而人体试验发现人参对华法林代谢的影响并不具有临床意义［16］。 从以上可知，中药注射剂对华法林抗凝强度的影响非常复杂，很多体外试验与体内试验结果之间也存在矛盾之处，一些中药注射剂具体是升高还是降低华法林的抗凝作用也难以评估 因此，华法林和中药注射剂的联合用药需谨慎，对于联合用药患者，应进一步加强 INR 的监测，密切关注是否有出血症状，及时调整华法林的用量，甚至停用中药注射剂",
+    "bbox": [
+      89,
+      302,
+      484,
+      674
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3．3 临床药师参与抗凝治疗",
+    "text_level": 2,
+    "bbox": [
+      89,
+      677,
+      284,
+      690
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "随着医院的快速发展，在我院服用华法林进行抗凝治疗的患者也不断增加。 如何规范华法林抗凝治疗，特别是在提高患者抗凝治疗率和达标率方面，临床药师也应积极发挥作用 。",
+    "bbox": [
+      89,
+      695,
+      482,
+      759
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "在 159 例使用华法林的患者中，出院时医嘱要求长期服用的患者占到74． 2% ( 118 /159) 。 由于这些服用华法林的患者大多病情复杂，华法林抗凝强度又易受到食物、药物、疾病状态等多种因素的影响，因此，这些患者在出院后如何进行规范化抗凝治疗需要药师的关注。 国内一些医院如南京鼓楼医院、济南市中心医院建立了抗凝门诊，临床药师通过为患者提供系统、持续、科学的抗凝指导，抗凝门诊在提高患者用药依从性、提高抗凝达标率以及减少出血风险方面发挥了重要作用。",
+    "bbox": [
+      89,
+      763,
+      482,
+      912
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "对于患者于住院期间存在的抗凝不足和抗凝中止问题，临床药师应加强和医师的沟通交流，消除对华法林出血风险的过度担心，避免不必要的或过多的联合用药，并通过用药教育，使患者知晓华法林抗凝治疗的重要性，从而尽量避免华法林抗凝治疗的中止，进一步提高华法林抗凝达标率。",
+    "bbox": [
+      510,
+      80,
+      905,
+      162
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "本研究的不足主要表现在回顾性分析的滞后性而不能对合并用药等进行提前干预，以及未进行随访而不能对患者出院后的华法林使用情况进行分析，这些不足可作为临床药师参与抗凝治疗管理的切入点，将在以后的工作和研究中逐步完善 。",
+    "bbox": [
+      510,
+      165,
+      905,
+      247
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "参 考 文 献",
+    "text_level": 2,
+    "bbox": [
+      653,
+      258,
+      764,
+      272
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "1 葛卫红． 华法林抗凝治疗临床药师指导手册［M］． 北京: 人民卫生出版社，2009． 93-97",
+      "2 中华医学会心血管病学分会，中国老年学学会． 华法林抗凝治疗中国专家共识［J］． 中华内科杂志，2013，52( 1) : 76-82",
+      "3 Narum S，Solhaug V，Myhr K，et al． Warfarin-associated bleeding events and concomitant use of potentially interacting medicines reported to the Norwegian spontaneous reporting system［J］． Br J Clin Pharmacol，2011，71( 2) : 254-262",
+      "4 朱迪，向文英，王爱民，等． 参芎葡萄糖注射液中有机酸和无机阴离子的离子色谱法测定［J］． 中国医药工业杂志，2015，46( 7) :743-745",
+      "5 张晓雷，陈俊华，郭春霞，等． 丹参多酚酸盐的药理作用研究［J］．世界临床药物，2013，34( 5) : 292-297",
+      "6 李双，王琳． 丹参酮 Ⅱ -磺酸钠注射液的药理及临床应用进展［J． 中药与临床，2011，2( 3) : 61-63",
+      "7 冯立影，梁晓玲，李婷婷，等． 丹红注射液对大鼠体内华法林抗凝作用的影响［J］． 中国药师，2016，19( 1) : 1-4",
+      "8 Wu WW，Yeung JH． Inhibition of warfarin hydroxylation by major tanshinones of Danshen ( Salvia miltiorrhiza) in the rat in vitro and in vivo［J］． Phytomedicine，2010，17( 3) : 219-226",
+      "9 Qiu F，Wang G，Zhang R，et al． Effect of danshen extract on the activity of CYP3A4 in healthy volunteers［J］． Br J Clin Pharmacol， 2010，69( 6) : 656-62",
+      "10 Chung KF，Dent G，McCusker M，et al． Effect of a ginkgolide mixture ( BN 52063) in antagonising skin and platelet responses to platelet activating factor in man［J］． Lancet，1987，1( 8527) : 248-251",
+      "11 Gaudineau C，Beckerman R，Welbourn S，et al． Inhibition of human P450 enzymes by multiple constituents of the Ginkgo biloba extract ［J］ ． Biochem Biophys Res Commun，2004; 318( 4) : 1072-1078",
+      "12 Taki Y，Yokotani K，Yamada S，et al． Ginkgo biloba extract attenuates warfarin-mediated anticoagulation through induction of hepatic cytochrome P450 enzymes by bilobalide in mice［J］ ． Phytomedicine， 2012，19( 2) : 177-182",
+      "13 Li CT，Wang HB，Xu BJ． A comparative study on anticoagulant activities of three Chinese herbal medicines from the genus Panax and anticoagulant activities of ginsenosides Rg1 and Rg2［J］ ． Pharm Biol，2013，51( 2) : 1077-1780",
+      "14 Beckert BW，Concannon MJ，Henry SL，et al． The effect of herbal medicines on platelet function: an in vivo experiment and review of the literature［J］ ． Plast Reconstr Surg，2007，120: 2044-2050",
+      "15 Liu Y，Zhang JW，Li W，et al． Ginsenoside metabolites，rather than naturally occurring ginsenosides，lead to inhibition of human cytochrome P450 enzymes［J］ ． Toxicol Sci ，2006，91( 2) : 356-364",
+      "16 Jiang X，Blair EY，McLachlan AJ． Investigation of the effects of herbal medicines on warfarin response in healthy subjects: a population pharmacokinetic-pharmacodynamic modeling approach［J］ ． J Clin Pharmacol，2006，46( 11) : 1370-1378"
+    ],
+    "bbox": [
+      510,
+      275,
+      910,
+      871
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "( 2016-04-14 收稿 2016-05-04 修回)",
+    "bbox": [
+      663,
+      872,
+      873,
+      884
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "中国药师",
+    "bbox": [
+      92,
+      46,
+      174,
+      63
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "2016 年第 19 卷第 11 期",
+    "bbox": [
+      201,
+      49,
+      359,
+      63
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "China Pharmacist 2016，Vol． 19 No． 11",
+    "bbox": [
+      386,
+      49,
+      636,
+      63
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "2115",
+    "bbox": [
+      840,
+      934,
+      897,
+      948
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      28,
+      963,
+      835,
+      979
+    ],
+    "page_idx": 2
+  }
+]

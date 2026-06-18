@@ -1,0 +1,1022 @@
+[
+  {
+    "type": "text",
+    "text": "·安全与合理用药·",
+    "bbox": [
+      697,
+      71,
+      895,
+      90
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "DOI:10.19803/j.1672-8629.20240182 中图分类号：R969.2 文献标志码：A  文章编号：1672-8629（2025）08-0902-07",
+    "bbox": [
+      100,
+      97,
+      850,
+      111
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中草药 - 药物相互作用数据库的建立与评价方法探讨",
+    "text_level": 1,
+    "bbox": [
+      100,
+      126,
+      724,
+      148
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "申晨1，周娴 2 ，刘建平1\\*（1 北京中医药大学循证医学中心，北京 100029；2 西悉尼大学澳大利亚国家辅助医学研究院，澳大利亚悉尼 2145）",
+    "bbox": [
+      100,
+      161,
+      904,
+      193
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "摘要：目的介绍常用的草药-药物相互作用（HDI）数据库和评价方法，探讨中草药-药物相互作用（CHDI）的评价思路。方法 检索中国知网和PubMed数据库建库至 2024 年3月19日数据，总结HDI数据库、因果关系推断、证据分级和质量评价，以及临床相关性的评价方法。结果 临床决策支持（CDS）系统需要综合评估证据质量分级、临床相关性、风险因素、不良反应等参数；DI概率评估量表（DIPS）可用于评估HDI与不良事件的因果关系，但无专门针对HDI证据质量和临床相关性的评价方法。结论 需参考药物相互作用质量评价方法以及中草药证据评价体系，建立CHDI证据评价体系和CDS工具。",
+    "bbox": [
+      97,
+      214,
+      905,
+      323
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词：中草药-药物相互作用；数据库；因果关系推断；证据质量；临床相关性",
+    "bbox": [
+      100,
+      325,
+      645,
+      340
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Database and Evaluation Methods for Chinese Herb-Drug Interactions",
+    "text_level": 1,
+    "bbox": [
+      100,
+      356,
+      717,
+      372
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "SHEN Chen1 , ZHOU Xian2 , LIU Jianping1\\* (1 Centre for Evidence-Based Chinese Medicine, Beijing University of Chinese Medicine, Beijing 100029, China; 2 NICM Health Research Institute, Western Sydney University, Westmead 2145, Australia)",
+    "bbox": [
+      97,
+      390,
+      907,
+      423
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Abstract: Objective To outline the commonly used databases and evaluation methods for Herb-Drug Interactions (HDIs) and explore ways to evaluate Chinese Herbal-Drug Interactions (CHDIs). Methods CNKI and PubMed were searched for related literature published from inception to March 19, 2024. The HDI database, causal inference, evidence grading and quality assessment, as well as methods for evaluation of clinical relevance were summarized. Results Clinical decision support (CDS) systems required all-round assessment of the quality grading of evidence, clinical relevance, risk factors and adverse reactions. The DIPS scale could be used to evaluate the causality between HDIs and adverse events, but there was no specific method for evaluating the quality of evidence and clinical relevance of HDIs. Conclusion The methods for evaluating the quality of drug interactions and the evaluation system for evidence of Chinese herbal medicine need to be consulted to establish an evidence evaluation system and CDS tool for CHDIs.",
+    "bbox": [
+      97,
+      439,
+      907,
+      602
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Keywords: Chinese Herb-Drug Interaction; Database; Causal Inference; Evidence Quality; Clinical Correlation",
+    "bbox": [
+      100,
+      605,
+      833,
+      620
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "根据国家药品监督管理局发布的《国家药品不良反应监测年度报告》，2022 年全国药品不良反应监测网络收到《药品不良反应 / 事件报告表》202.3万份，其中，严重药品不良反应 / 事件（ADR/ADE）报告占同期报告总数的13.0%，医生和临床药师报告 ADR/ADE 分别占 55.9% 和 25.8%[1]。药物相互作用（Drug Interactions, DI）是医生在开具处方时必须考虑的重要因素之一 [2]。DI主要包括药物-药物相互作用（Drug-Drug Interactions, DDI）、中草药 - 药物相互作用（Herb-Drug Interactions, HDI）、药物 - 食物相互作用及药物- 环境相互作用。研究显示约10.6% 的潜在 DDI 会导致 ADR/ADE[3]。以肿瘤治疗为例，多数经中西医结合治疗的晚期肿瘤患者，因伴发疾病较多，临床用药复杂，在化疗药物抗肿瘤治疗的基础上，常联合抗肿瘤中药注射剂或中药汤剂等同时适用其他基础疾病的治疗 [4]。在接受口服化疗药物和草药治疗的患者中，有8%的患者报告有临床相关的HDI[5]。然而，目前 DI的证据多为传统综述、体外实验的推断，以及有限的病例报告和观察性研究，且临床试验多在健康的同质成年人中开展 [6]。因此，需要采用特殊方式检索、评估并总结DI的证据。",
+    "bbox": [
+      97,
+      641,
+      495,
+      822
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      641,
+      907,
+      884
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "研究人员和制药企业从1990 年代末开始利用各种信息技术建立DI数据库。这些数据库分为可免费访问的和商业购买的 2 类。通常，构建专业数据库，需要 3 个关键步骤。首先是确定需要收集信息的数据来源；其次是抓取或数字化数据，并将数据保存在本地，以便进行进一步的处理；最后，通过提取和评估原始数据，获得结构化数据，即按照一定规则和格式组织的数据。前 2 步通常是数据库开发初期的主要工作，需要专家或专业人员的意见以及信息技术支持。然而，第 3 步是最耗时且劳动密集型工作，并贯穿于数据库的整个开发生命周期和维护过程。由于 DI 信息通常藏匿于各类自然语言文本中，如摘要、期刊论文、书籍或药物评估报告，因此，从这些文本中提取结构化数据成为数据库开发的一个瓶颈 [7]。为解决DI数据库开发中耗时和劳动密集的问题，近年来开始使用人工智能（AI）技术从文献中自动提取 DI信息，并在 SUPP.AI数据库中展示获得的证据 [8]。然而，尽管AI 技术在这一领域取得了显著进展，但仍远未能取代有经验的医学研究人员从文献中提取和评估DI息的工作。",
+    "bbox": [
+      510,
+      888,
+      907,
+      925
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中国药物警戒 第 22 卷第 8 期 2025 年 8 月 August, 2025, Vol.22, No.8",
+    "bbox": [
+      400,
+      40,
+      905,
+      55
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_footnote",
+    "text": "基金项目：国家自然科学基金资助项目（81830115）；国家中医药管理局中医药创新团队及人才支持计划项目（ZYYCXTD-C-202006）。作者简介：申晨，女，在读博士，中西医结合循证医学。\\* 通信作者：刘建平，男，教授·博导，中西医结合循证医学。E-mail：Liujp@bucm.edu.cn",
+    "bbox": [
+      97,
+      848,
+      497,
+      929
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "page_number",
+    "text": "902",
+    "bbox": [
+      100,
+      934,
+      129,
+      946
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      960,
+      346,
+      977
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      89,
+      70,
+      485,
+      434
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "尽管HDI 数据库及决策支持工具的提供者渴望提供临床相关内容，但改进现有技术面临着几个挑战。许多 HDI 缺乏高质量的证据支持，缺少针对相关人群进行的对照临床试验 [9]，个案报告的报道数量有限并且常常报告的信息不全面[10]。药物参考书和知识库编辑者使用不同的方法来识别和评估证据 [11-13]。没有指南或标准来通过一致的系统评估或分类确定 DI 的临床相关性 [14]。为了减少法律责任，决策支持系统的研发者可能有动机纳入几乎所有可能的DI，包括对受暴露患者风险极低的DI[15]。因此，本研究拟介绍目前常用的HDI数据库，以及对DI的证据评价方法，为提高临床决策支持工具质量，也为临床工作者和证据评价者提供参考。值得注意的是，根据文献梳理发现，多数研究提出其研究对象为“药物相互作用”但未对“药物相互作用”的含义进行限定，因此本文按照广义的分类进行理解，即该“药物相互作用”评价工具既可以用于DDI，也可以用于HDI。如果工具或方法明确指出其适用范畴是DDI，本文也在介绍中进行明确说明，并适当提出针对 HDI 的适用性建议。DDI 应理解为西药和西药的相互作用，而HDI 其含义涵盖了中草药与西药的相互作用。",
+    "bbox": [
+      89,
+      438,
+      485,
+      884
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1 HDI 数据库",
+    "text_level": 2,
+    "bbox": [
+      90,
+      889,
+      201,
+      903
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "目前国际常用的HDI数据库有10 个 [6]（附录：",
+    "bbox": [
+      129,
+      908,
+      473,
+      924
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "表 1）。其中，免费数据库包括 CMSS（Chi Mei SearchSystem）、CWMIIN（Chinese-Western Medicine IntegrativeInformation Network）、DHIQW（Drug Herb InteractionQuery Website）、NaPDI（Center of Excellence for NaturalProduct-Drug Interaction Research）、Probot（Probot ChineseMedicine-Drug Interaction Database）和 SUPP.AI，商业数据库包括 DIDB（UW Drug Interaction Database）、LDI（Lexicomp Drug Interactions）、NMCD（Natural MedicinesComprehensive Database）和 SHMI（Stockley's HerbalMedicines Interactions）数据库。从《中华人民共和国药典》（2015 年版）的 616 种草药中选择了50 种热门草药（按照万方数据和 PubMed 数据库中发表的研究数量进行筛选），在10 个HDI数据库中进行检索，并展示每个数据库中每种草药信息的参考文献数量。结果发现 CMSS、Probot 和 SUPP.AI 对热门草药有较好的覆盖，提供的参考文献也更为全面，而其他 HDI数据库则参考文献数量较少。尽管如此，DHIQW和NaPDI仍然涵盖了非常有用的HDI信息，如实验条件和结果的结构化数据 [6]。",
+    "bbox": [
+      500,
+      70,
+      897,
+      454
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "大部分数据库原始文献来源于PubMed，也有一些数据库还纳入处方信息、书籍、会议论文，甚至监管文件。许多数据库使用来自后处理的原始文献数据，由医疗专业人员和研究人员验证原始数据并简化技术细节；而SUPP.AI则直接从原始参考文献中提取证据语句，没有经过进一步的改写或专业人员的验证。然而，CMSS、CWMIIN 和 DHIQW 这 3 个数据库已经停止持续更新，DIDB、NMCD 和 SHMI 属于商业数据库，用户需要年度订阅才能访问数据，用以支付定期更新的成本。但需要注意的是，许多HDI数据库都发布了免责声明或警示，指出数据库提供的信息不应作为医疗保健专业人员建议的替代品，需要由执业者根据专业知识和相关情况进行解释 [6]。",
+    "bbox": [
+      500,
+      459,
+      897,
+      721
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2 DI的证据评价方法",
+    "text_level": 2,
+    "bbox": [
+      500,
+      724,
+      670,
+      739
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.1 DI个案报告的因果关系推断工具",
+    "text_level": 2,
+    "bbox": [
+      500,
+      745,
+      786,
+      760
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "ADR监测往往会产生大量待评估的风险信号，需要进行评估和确认 [16]。其中，在评估ADR的病例报告时，最具挑战性的一个方面是判定相互作用与不良事件的因果关系。1981 年，NARANJO 等 [17] 提出1项评估ADR与所涉及药物之间因果关系可能性的评分标准。此外，也有其他评估ADR因果关系的方法发表 [18-20]。研究证实 Naranjo's评分与其他算法基本一致，在评估ADR因果关系方面极具价值且得到了广泛应用[19]。尽管如此，Naranjo's 评分主要用于单一药品的不良事件评估，而DI涉及促变药（Preci-pitant Drug）和受变药（Object Drug）2 种药物，Naranjo's评分则缺少评估潜在 DI 因果关系所必需的几个关键问题 [21]。",
+    "bbox": [
+      500,
+      765,
+      895,
+      924
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "中国药物警戒 第 22 卷第 8 期 2025 年 8 月 August, 2025, Vol.22, No.8",
+    "bbox": [
+      92,
+      40,
+      596,
+      55
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "903",
+    "bbox": [
+      865,
+      934,
+      892,
+      946
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      960,
+      346,
+      977
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      99,
+      70,
+      494,
+      168
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "因此，有研究开发了 DI 概率评估量表（Drug Inte-raction Probability Scale, DIPS），旨在帮助从业者评估判断因DI引起的ADR。该量表共包含10 个条目（附录：表2），通过对10 个条目的分数进行相加来获得综合分数 [21]。总分越高，ADR由DI引起的可能性就越高，即 >8 分代表高度可能（Highly Possible）；5\\~8 分 代 表可能（Possible）；2\\~4 分 代 表可能 性 低（Probable）；<2 分为可疑（Doubtful）。值得一提的是，包含 Naranjo's评分在内的DI 概率评估工具均需要依赖病例报告的完整、全面性进行判断。DIPS的开发者指出[21]，当病例报告提供的数据信息有限时，可能会导致量表得分较低，从而导致假阴性结果。使用DIPS 时需要对涉及潜在相互作用的2 种药物有充分的了解，如不能意识到导致受变药反应改变的其他原因，也可能导致假阳性因果关系判断。如在报告华法林和抗生素相互作用的病例时，作者往往没有考虑到患者感染对华法林代谢和维生素K 摄入量的影响。此外，DIPS 得分只适用于单个病例，并不适用于接受相互作用药物治疗的患者群体。",
+    "bbox": [
+      97,
+      173,
+      497,
+      557
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "沙特阿拉伯食品药品监督管理局（SFDA）启动1项 HDI 项目[22]，旨在基于现有证据检测 HDI 安全信号并进行评估。首先，选择30种在SFDA注册的常用草药产品，并根据常用程度进行优先排序。其次，从世界卫生组织全球个体病例安全报告数据库（VigiBase）、SFDA 国家药品监督管理局药物警戒中心数据、AdisInsight® 数据库和天然药物数据库（NatMed）中提取报告的潜在 HDI信号。排除 SFDA未注册的药物以及 SFDA、美国食品药品监督管理局（FDA）和欧洲药品管理局（EMA）产品信息中标明的相互作用信号。最后，通过文献、全球病例、本地病例及其他相关文件对潜在 HDI证据进行检索，并采用DIPS 评估HDI与不良事件的因果关系概率。研究发现共有566 个潜在 HDI信号，最后对41个信号进行因果关系评估。使用DIPS评估的结果显示：22 个 HDI 被评为“可能”（53.66%）、7 个“可能性低”（17.07%）、12个“可疑”（29.27%）。该研究建议将“可能”的HDI信息呈现在草药产品标签信息中，如姜黄素- 他克莫司、紫锥菊- 依托泊苷、银杏-布洛芬、绿茶 - 华法林及甘草 - 噻嗪类利尿药的 HDI 信息。",
+    "bbox": [
+      97,
+      561,
+      497,
+      925
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      70,
+      904,
+      107
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "关于DI因果推断的统计分析方法，通常需要探讨一个估计量—因果药物相互作用（Causal Drug-Drug Interactions）[23]，其量化了药物 A 的因果 效 应因药物 B 的存在与不存在而改变的程度。在研究DI的影响时，混杂调整可以通过处理加权的逆概率（IPTW）来完成，这是一种最初用于处理多值治疗的因果推断方法。此外，还有研究探讨了如何通过成对平均治疗效果来开发多值治疗的因果推理方法[23]。",
+    "bbox": [
+      510,
+      111,
+      905,
+      271
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2.2 临床决策支持系统中DI的证据分级方法",
+    "text_level": 2,
+    "bbox": [
+      510,
+      276,
+      855,
+      291
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "临床决策支持（Clinical Decision Support, CDS）系统及其知识库需要整合现有证据，并基于证据集合对DI 进行评估和分级（表1）。瑞典和芬兰使用一种CDS系统（SFINX）[24]，其知识库根据临床相关性和文献资料的分级将DDI 进行分类。文献资料的分级范围从0至4，0 表示基于与类似药物的研究推断得出的数据。当存在潜在不良的DI且尚无临床研究证实或可能不会开展临床研究时，评为 0 分。与SFINX相似，荷兰的1项CDS系统也基于临床相关性和CDS文件对DDI进行分类[25]。该系统使用4个核心参数：① DI 的证据质量分级；② DI 导致的潜在 ADR 的临床相关性；③风险因素；④接受该药物组合治疗的患者中ADR的发生率。研究者没有提供关于该评价过程或研究质量评级的可靠性或有效性的信息。",
+    "bbox": [
+      510,
+      296,
+      907,
+      578
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "研究者使用5 个类别（0\\~4）对DI的证据质量进行分级。有些DI 缺乏研究或病例报告的证据，以理论探讨为主要依据。如已知 HMG-CoA 还原酶抑制剂（他汀类药物）对细胞色素P450 酶系统具有不同的抑制作用。在考虑 DI和细胞色素P450 酶时，将他汀类药物作为一类药物处理是不正确的。因此，对于通过类比推断可能相关的DI的这类研究，该CDS系统工作组要求获取有关 DI机制的详细资料，以确定 DI 的相关性。在风险因素的评估维度，DI导致ADR的风险可能取决于患者的相关特征（如年龄、性别）、疾病（如肾功能和肝功能）和药物（如剂量、给药途径）。研究者在评估DI 时，会通过DI证据收集有关预测 ADR 的因素信息。但是，在大多数潜在DI 相关研究中，并未报告有关风险因素信息。另外，以上CDS系统在证据评估方面主要关注 ADR 风险及其相关因素的评估，对于有益的DI却没有给予足够的重视。",
+    "bbox": [
+      510,
+      581,
+      907,
+      925
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "中国药物警戒 第 22 卷第 8 期 2025 年 8 月 August, 2025, Vol.22, No.8",
+    "bbox": [
+      400,
+      40,
+      905,
+      55
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "904",
+    "bbox": [
+      100,
+      934,
+      132,
+      946
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      960,
+      347,
+      978
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "img_path": "images/12e3734507fd37943d1063125df9020e356c0d405a362326a84d4525cf3d97ea.jpg",
+    "table_caption": [
+      "表 1 CDS 系统中 DI 的评估和分级示例",
+      "Table 1 Examples of Assessment and Grading of Drug Interactions in Clinical Decision Support Systems"
+    ],
+    "table_footnote": [
+      "注：分类列中“-”代表所示的条目为并列条目，应被评为同一分类或等级。",
+      "Notes: In the classification column,“-”represents that the items indicated are parallel items and should be classified or ranked as the same."
+    ],
+    "table_body": "<table><tr><td>分类</td><td>定义</td></tr><tr><td colspan=\"2\">瑞典和芬兰计算机化CDS系统(SFINX)</td></tr><tr><td>DI分类标准</td><td></td></tr><tr><td>证据分级标准</td><td></td></tr><tr><td>0</td><td>数据来源于基于类似药物研究的外推</td></tr><tr><td>1</td><td>数据来源于不完整的病例报告和/或体外研究</td></tr><tr><td>2</td><td>数据来源于有完整且充分资料的病例报告</td></tr><tr><td>3</td><td>数据来源于基于健康志愿者的研究和/或患者的小样本预研究</td></tr><tr><td>4</td><td>数据来源于基于相关患者群体的对照研究</td></tr><tr><td>临床相关性分类标准</td><td></td></tr><tr><td>A</td><td>轻微的DI且没有临床相关性</td></tr><tr><td>B</td><td>DI的临床结局不确定,可能会发生变化</td></tr><tr><td>C</td><td>存在临床相关的DI,可以通过剂量调整等方式处理</td></tr><tr><td>D</td><td>存在临床相关的DI,并应该避免联合用药</td></tr><tr><td colspan=\"2\">荷兰计算机化CDS系统DI分类标准</td></tr><tr><td>DI的证据质量分级</td><td></td></tr><tr><td>0</td><td>药物动力学动物研究;对人体内情况具有有限预测价值的体外研究;文件数据</td></tr><tr><td>1</td><td>不完整的、已发表的病例报告[没有进行药物停用(de-challenge)或再次使用(re-challenge),并且在不良反应ADR中存在其他可解释的因素]</td></tr><tr><td>2</td><td>报告完整的已发表病例报告;病例系列的回顾性分析</td></tr><tr><td>3</td><td>对患者或健康志愿者进行的、有对照的、已发表的DI研究,使用替代终点(surrogate endpoints)评估</td></tr><tr><td>4</td><td>对患者或健康志愿者进行的、有对照的、已发表DI研究,使用临床相关终点评估</td></tr><tr><td>-</td><td>学术会议中发表的壁报或摘要:根据提供信息的完整度分为0或1。如果壁报或摘要的信息在学术会议后的3年内未在同行评审的期刊上发表,该证据将被重新分类为0</td></tr><tr><td>-</td><td>产品特性摘要/欧盟公众评估报告(EPAR)发表的信息:根据提供信息分为0、1或2</td></tr><tr><td>-</td><td>回顾性病例系列:根据提供的信息分为2或3</td></tr><tr><td colspan=\"2\">DI导致ADR的严重程度分类示例</td></tr><tr><td>A</td><td>临床无关的效应</td></tr><tr><td>-</td><td>地高辛治疗失败</td></tr><tr><td>-</td><td>心室早搏,心房异位心跳</td></tr><tr><td>-</td><td>国际标准化比率增加至4.0</td></tr><tr><td>B</td><td>由于二氢吡啶类钙拮抗剂生物利用度增加而引起的ADR</td></tr><tr><td>-</td><td>失忆</td></tr><tr><td>-</td><td>疲劳</td></tr><tr><td>-</td><td>头痛</td></tr><tr><td>-</td><td>恶心</td></tr><tr><td>C</td><td>由于抗癫痫药物、环孢素、他克莫司和西罗莫司生物利用度增加而引起的ADR</td></tr><tr><td>-</td><td>美沙酮、雷氟酰胺、铁补充剂、甲状腺素和抗抑郁药物治疗失败的风险增加</td></tr><tr><td>-</td><td>帕金森综合征,震颤</td></tr><tr><td>-</td><td>上消化道出血风险增加</td></tr><tr><td>D</td><td>由于氨基糖苷类抗生素、锂、甲氨蝶呤和地高辛生物利用度增加而引起的ADR</td></tr><tr><td>-</td><td>治疗严重但非致命性疾病失败的风险增加,如左旋多巴、甲基多巴、循环利尿剂</td></tr><tr><td>-</td><td>深静脉血栓</td></tr><tr><td>-</td><td>惊厥</td></tr><tr><td>E</td><td>生命救治失败的风险增加,如抗逆转录病毒药物、奎尼丁、排斥预防(环孢霉素、他克莫司、西罗莫司)</td></tr><tr><td>-</td><td>QT间期延长</td></tr><tr><td>-</td><td>肺栓塞</td></tr><tr><td>-</td><td>横纹肌溶解症</td></tr><tr><td>-</td><td>多器官功能衰竭</td></tr><tr><td>F</td><td>死亡</td></tr><tr><td>-</td><td>尖端扭转性心动过速,室性心动过速</td></tr><tr><td>-</td><td>妊娠风险增加,对胎儿/新生儿具有风险因素</td></tr><tr><td>-</td><td>骨髓抑制</td></tr><tr><td>-</td><td>血清素综合征</td></tr></table>",
+    "bbox": [
+      84,
+      102,
+      905,
+      903
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "中国药物警戒 第 22 卷第 8 期 2025 年 8 月 August, 2025, Vol.22, No.8",
+    "bbox": [
+      92,
+      40,
+      596,
+      55
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "905",
+    "bbox": [
+      865,
+      934,
+      894,
+      946
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      960,
+      346,
+      978
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "2.3 DI的证据质量评价及推荐强度形成",
+    "text_level": 2,
+    "bbox": [
+      99,
+      71,
+      408,
+      87
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "英国利物浦大学学者借鉴 GRADE（Grading ofRecommendations Assessment, Development and Evalua-tion）方法 [26]，改良形成 DI的证据质量评价工具及推荐强度分级标准 [27-28]，并围绕治疗艾滋病、乙型肝炎、肝细胞癌、丁型肝炎和原发性胆汁性肝硬化的药物，以及治疗丙型肝炎病毒的直接抗病毒药物，形成DI的质量评价及推荐强度，在网站上发布 [29-30]。该质量评价工具主要以研究类型、研究实施情况、升级或降级的条件为评价标准，最终形成DI研究质量结果（表 2）。",
+    "bbox": [
+      97,
+      91,
+      495,
+      291
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "证据的推荐强度根据问题确定，即“同时使用2 种西药是否安全？”利物浦大学的学者根据DI的证据情况给出了推荐强度 [28]，红色表示“禁忌或需要避免联合用药”；橙色表示“可能发生相互作用，需要密切监测、改变剂量或给药时间”；黄色表示“可能或理论上的DI，临床意义不明确或不太可能发生”；绿色表示“同时使用2 种药物被认为是安全的情况”；空符号表示尚未对该药物组合开展研究，但已根据药物的代谢特征预测出会发生DI。然而，目前发现的证据质量评价或分级方法主要对DI的证据类型进行不同程度的分类，并未结合不同研究类型的报告规范及方法学评价工具进行进一步的评价。",
+    "bbox": [
+      97,
+      294,
+      495,
+      537
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "目前，尚无研究将该方法应用于HDI的证据评价中。传统医学中，中草药作为疗效评价的代表，需要综合考虑药效物质基础的复杂性和多变性、转化医学的双向性特点，以及研究过程中对“人用经验”和古籍证据的重视。因此，研究者们正在努力探索符合中草药特点的评价体系。1项研究参考 GRADE方法创建了“整合证据链法”（Eff-iEC）[31]，通过“临床经验（初证）”“实验研究（辅证）”和“临床试验（验证）”3 个环节构建成完整的有效性评价链条，并将初证环节细分为经方时方、经验方、协定方、自拟方4 个不同级别证据。有研究将中医古籍、现代名医经验的证据分级体系与 GRADE 方法相结合 [32]，提出中医干预类证据分级系统。而针对古籍证据，有研究提出了独立的古籍文献分级体系[33]。",
+    "bbox": [
+      97,
+      540,
+      495,
+      822
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "2.4 DI的临床相关性评估方法",
+    "text_level": 2,
+    "bbox": [
+      99,
+      827,
+      337,
+      843
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "如果有充分证据表明DI可能需要临床管理，则需要进一步评估以确定其临床相关性。根据具体情况，如果出现临床相关的DI，可能需要改变治疗方法、加强监测和 / 或对患者进行教育。已有研究总结了具有临床相关的HDI 药物组合，但并未明确提出临床相关性的定义或分类标准 [34-36]。有研究将DI的临床相关性定义为“当药物的治疗活性和 / 或毒性发生一定程度的变化，以至于可能需要调整药物剂量或进行医疗干预”[37]。1 项专家共识 [7] 则将临床相关的 DDI 定义为“与安全问题相关的潜在 DI，可能导致毒性或疗效丧失，需要医疗专业人员和 / 或参与药物治疗过程的系统关注。该定义不包括理论推断的DI，如：①对具有宽治疗指数的药物的次要清除途径的代谢抑制（<30％总清除）；②对次要清除途径的代谢诱导；③共同消除途径的2个底物之间的竞争性抑制”。",
+    "bbox": [
+      97,
+      847,
+      494,
+      925
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      510,
+      70,
+      907,
+      312
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "在评估其临床相关性时，需要明确与DI 相关的临床结局，包括影响程度、变异性和发生率（如果已知），以及可能增加或减少患者危害的影响因素[25]。然而，评估DI的临床相关性只是一种估计，因为患者之间的变异性通常是未知的，而对于PK DI，受变药的变化可能会有4\\~6 倍的差异 [7，38]。对于某些DI，根据受变药的特性给予一般风险评级也是合理的，如具有窄治疗指数（Narrow Therapeutic Index, NTI）的受变药需引起关注，该类药物的剂量或血药浓度的微小差异可能会导致严重的治疗失败和 / 或严重ADR，可能危及生命或导致持续或显著的残疾或功能丧失 [39]。前述荷兰的 CDS系统利用ADR 的严重程度对 DI 的临床相关性进行分级 [25]，类别（A\\~F）按严重程度递增的顺序排列（附录：表 1）。该分类没有严格的定义来进行区分，仅使用一般性描述进行评估，同时参考了美国国家癌症研究所的《通用毒性标准》（NCI-CTC）：A 或B所代表的ADR的严重程度很低，临床相关性一般也很低；C或D所代表的ADR，临床相关性可能取决于患者个人的ADR 风险因素，如果不知道具体的风险因素，这些DI一般应被视为具有临床相关性；对于E 类和 F 类，DI 效应的严重程度危及生命，或怀疑该 DI导致死亡。",
+    "bbox": [
+      510,
+      315,
+      907,
+      762
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "3 小结",
+    "text_level": 2,
+    "bbox": [
+      510,
+      765,
+      571,
+      780
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "建立HDI专门的数据库并且对DI研究进行多维度评价对辅助临床决策至关重要。本文介绍了因果关系推断、证据分级和质量评价，临床相关性的评估方法及CDS系统评估的关键参数。目前尚无专门针对HDI的证据分级和质量及临床相关性的评价方法和体系，在借鉴已有评价方法的同时，HDI的评价还需要开发适用于中药特点的新方法，并结合",
+    "bbox": [
+      510,
+      785,
+      907,
+      925
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "header",
+    "text": "中国药物警戒 第 22 卷第 8 期 2025 年 8 月 August, 2025, Vol.22, No.8",
+    "bbox": [
+      400,
+      40,
+      905,
+      55
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "page_number",
+    "text": "906",
+    "bbox": [
+      100,
+      934,
+      132,
+      946
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      960,
+      347,
+      978
+    ],
+    "page_idx": 4
+  },
+  {
+    "type": "table",
+    "img_path": "images/72809697420ceea65689198400b952ca53c568291cd37d8c9562068a6a648023.jpg",
+    "table_caption": [
+      "表 2 DI研究质量评价及升降级标准",
+      "Table 2 Quality Evaluation and Grading Standards for Drug Interaction Studies"
+    ],
+    "table_footnote": [
+      "注：SmPC. Summary of Product characteristics (European)，产品特性摘要（欧洲）；USPl. United States Prescribing Information，美国处方信息。根据提供的信息，SmPC/USPl中描述的PK研究信息可能被评为极低、低或中等。\\*. AUC（或Cmax、Cmin 或Ctrough，如未研究 AUC）下降50%或增加2倍（100%）。#. 假设 PK有50%的变异性，为了能够有80%的把握来显示50%的差异，需要n=10。＋.假设 PK有50%的变异性，为了能够有 80% 的把握来展示 50% 的差异，需要 n=15。",
+      "Notes: SmPC. Summary of Product Characteristics (European); USPI. United States Prescribing Information. Based on the provided information, the PK study information described in SmPC/USPI may be rated as very low, low, or moderate. \\* . A 50% decrease or a doubling (100%) in AUC (or Cmax, Cmin, or Ctrough if AUC not studied). # . Assuming a 50% variability in PK, an n=10 is required to have an 80% chance of demonstrating a 50% difference. + . Assuming a 50% variability in PK, an n=15 is required to have an 80% chance of demonstrating a 50% difference."
+    ],
+    "table_body": "<table><tr><td>示例</td><td>证据质量</td><td>升级标准</td><td>降级标准</td></tr><tr><td>有关代谢的编辑述评</td><td>极低</td><td></td><td></td></tr><tr><td>SPC/USPI关于抗病毒药物代谢、联合用药的代谢影响、药效/毒性、体外研究或类似联合用药的外推数据的声明</td><td>极低</td><td>由于严重和/或生命威胁的影响而在SPC/USPI中被禁用</td><td></td></tr><tr><td>动物研究或体外研究(不在SPC/USPI中)</td><td>极低</td><td></td><td></td></tr><tr><td>单一病例报告</td><td>极低</td><td></td><td></td></tr><tr><td>多个病例报告(单独发表或作为系列病例发表)</td><td>低</td><td>严重的临床或实验室异常</td><td>摘要</td></tr><tr><td>交叉设计的稳态PK研究,包括曲线下面积(AUC)信息</td><td>中等</td><td>PK和/或临床/实验室异常的显著变化*</td><td>摘要&lt;10个受试者#剂量/剂型未用于临床</td></tr><tr><td>交叉设计的稳态PK研究,不包括AUC信息</td><td>低</td><td>PK和/或临床/实验室,和/或通过群体PK模型得出的PK估计值异常的显著变化*</td><td>摘要&lt;15个受试者+剂量/剂型未用于临床</td></tr><tr><td>平行设计的稳态PK研究,包括AUC信息</td><td>中等</td><td>PK和/或临床/实验室异常的显著变化*</td><td>摘要&lt;10个受试者#剂量/剂型未用于临床</td></tr><tr><td>平行设计的稳态PK研究,不包括AUC信息</td><td>低</td><td>PK和/或临床/实验室,和/或通过群体PK模型得出的PK估计值异常的显著变化*</td><td>摘要&lt;15个受试者+剂量/剂型未用于临床</td></tr><tr><td>交叉设计的单剂量PK研究,包括AUC信息</td><td>低</td><td>PK和/或临床/实验室异常的显著变化*</td><td></td></tr><tr><td>交叉设计的单剂量PK研究,不包括AUC信息</td><td>极低</td><td>PK和/或临床/实验室,和/或通过群体药代动力学模型得出的药动学估计值异常的显著变化*</td><td></td></tr><tr><td>平行设计的单剂量PK研究,包括AUC信息</td><td>低</td><td>PK和/或临床/实验室异常的显著变化*</td><td></td></tr><tr><td>平行设计的单剂量PK研究,不包括AUC信息</td><td>极低</td><td>PK和/或临床/实验室,和/或通过群体PK模型得出的PK估计值异常的显著变化*</td><td></td></tr><tr><td>PK数据/研究,稳态或单剂量,与历史数据对比</td><td>极低</td><td></td><td></td></tr><tr><td>HIV阳性患者的PK数据/研究,与健康志愿者的数据/研究对比</td><td>极低</td><td></td><td></td></tr><tr><td>HIV阳性患者的观察性PK研究(包括非特定人群的PK分析)</td><td>低</td><td></td><td>摘要存在重大偏倚</td></tr><tr><td>从带有临床或验证的替代终点的随机对照相互作用试验中获得的数据</td><td>高</td><td></td><td>摘要未专门进行相互作用试验</td></tr><tr><td>使用探针底物进行代谢/相互作用研究</td><td>低</td><td>PK和/或临床/实验室异常的显著变化</td><td>摘要</td></tr></table>",
+    "bbox": [
+      92,
+      112,
+      895,
+      654
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "临床实践、经验和研究数据进行综合评估。中药本身具有多成分、多靶点、动态性和整体性等特点，使得HDI的影响因素更加复杂。中药的成分组成可能会随着生长环境、采收、加工、炮制等因素而变化，导致中药的组分和药效具有动态性。同时，在考虑中药的作用时，不仅受单个成分的影响，还需考虑多个成分之间的相互作用以及整体药效的变化。因此，在对HDI的因果关系进行推断时，需要综合考虑各种影响因素，并提出更加综合全面的评估。该过程也对病例报告等研究的报告规范、全面、完整性提出了更高要求。此外，相比 DDI的证据基础，HDI的证据相对较少，可能存在较少的高质量证据。因此，更需要考虑多种数据来源和证据质量，在基于生物学合理性和已知药理学证据充分的情况下，建立全面、完善且实用的HDI证据评价体系和CDS系统。值得注意的是，DI 临床相关性等评价方法多以ADR 发生风险作为评价侧重，缺少对于有益DI的评估和考量。目前已有的DI证据质量评价工具主要依据研究类型进行分类，而DI的方法学及报告质量评价清单值得进一步关注。",
+    "bbox": [
+      89,
+      786,
+      485,
+      926
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      500,
+      786,
+      895,
+      926
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "header",
+    "text": "中国药物警戒 第 22 卷第 8 期 2025 年 8 月 August, 2025, Vol.22, No.8",
+    "bbox": [
+      92,
+      40,
+      596,
+      55
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "page_number",
+    "text": "907",
+    "bbox": [
+      865,
+      934,
+      892,
+      946
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      960,
+      346,
+      978
+    ],
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      97,
+      70,
+      494,
+      189
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "附录（表 1\\~2）",
+    "text_level": 2,
+    "bbox": [
+      100,
+      194,
+      208,
+      209
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "本文补充数据可在线查阅：https://doi.org/10.19803/j.1672-8629.20240182。",
+    "bbox": [
+      97,
+      214,
+      494,
+      251
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "参考文献",
+    "text_level": 2,
+    "bbox": [
+      100,
+      255,
+      174,
+      270
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1] ADR, NMPA. National Annual Report on Adverse Drug Reaction Monitoring(2022)[EB/OL]. [2024-02-26]. https://cdr-adr.org.cn/ drug\\_1/aqjs\\_1/drug\\_aqjs\\_sjbg/202303/t20230324\\_50019.html.",
+      "[2] HAMMAR T, HAMQVIST S, ZETTERHOLM M, et al. Current Knowledge about Providing Drug-Drug Interaction Services for Patients-a Scoping rReview[J]. Pharmacy (Basel), 2021, 9(2): 69.",
+      "[3] LIU R, ABDULHAMEED MDM, KUMAR K, et al. Data-Driven Prediction of Adverse Drug Reactions Induced by Drug-Drug Interactions[J]. BMC Pharmacol Toxicol, 2017, 18(1): 44.",
+      "[4] CHEN W, MOU JZ, SA RN, et al. Establishment of Pharmaceutical Care Pathway for Tumor Patients Treated with Integrated Traditional Chinese and Western Medicine[J]. Evaluation and Analysis of Drug-Use in Hospitals of China( 中国医院用药评价与分析 ), 2020, 20(5): 628-630.",
+      "[5] CLAIRET AL, BOITEUX-JURAIN M, CURTIT E, et al. Interaction Between Phytotherapy and Oral Anticancer Agents: Prospective Study and Literature Review[J]. Med Oncol, 2019, 36(5): 45.",
+      "[6] ZHANG Y, MAN IP C, LAI YS, et al. Overview of Current Herb-Drug Interaction Databases[J]. Drug Metab Dispos, 2022, 50(1): 86-94.",
+      "[7] SCHEIFE RT, HINES LE, BOYCE RD, et al. Consensus Recommen-Dations for Systematic Evaluation of Drug-Drug Interaction Evidence for Clinical Decision Support[J]. Drug Saf, 2015, 38(2): 197-206.",
+      "[8] WANG L, TAFJORD O, COHAN A, et al. SUPP.AI: Finding Evidence for Supplement-Drug Interactions[C]. Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations, 2020: 362-371.",
+      "[9] PAN HY, WU LW, WANG PC, et al. Real-World Evidence of the Herb-Drug Interactions[J]. J Food Drug Anal, 2022, 30(3): 316-330.",
+      "[10] BABOS MB, HEINAN M, REDMOND L, et al. Herb-Drug Interactions: Worlds Intersect with the Patient at the Center[J]. Medicines (Basel), 2021, 8(8): 44.",
+      "[11] BIASE TMMA, BRUNIÉRI GS, SILVA MT, et al. Potential Drug Interactions in Adults living in Manaus: a Real-World Comparison of Two Databases, 2019[J]. Turk J Pharm Sci, 2022, 19(5): 543-551.",
+      "[12] SHAREEF J, BELAGODU SRIDHAR S, THOMAS S, et al. Potential Psychotropic and COVID-19 Drug Interactions: a Comparison of Integrated Evidence from Six Database Programs[J]. Cureus, 2021, 13(12): e20319.",
+      "[13] BECKETT RD, BRATTAIN Y, TRUONG J, et al. Tertiary Drug",
+      "Information Sources for Treatment and Prevention of COVID-19[J]. J Med Libr Assoc, 2023, 111(4): 783-791.",
+      "[14] SILE I, TETEROVSKA R, ONZEVS O, et al. Safety Concerns Related to the Simultaneous Use of Prescription or Over-the-Counter Medications and Herbal Medicinal Products: Survey Results Among Latvian Citizens[J]. Int J Environ Res Public Health, 2023, 20(16): 6551.",
+      "[15] LEDGER TS, BROOKE-COWDEN K, COIERA E. Post-Implementation Optimization of Medication Alerts in Hospital Computerized Provider Order Entry Systems: a Scoping Review[J]. J Am Med Inform Assoc, 2023, 30(12): 2064-2071.",
+      "[16] GAO YJ, ZHAO X, BAI TK, et al. Discovery and Identification Strategies of Drug Safety Risks Based on Big Data Monitoring of Adverse Reactions[J]. Chinese Journal of Pharmacovigilance( 中 国 药物警戒 ), 2024, 21(1): 1-5, 14.",
+      "[17] NARANJO CA, BUSTO U, SELLERS EM, et al. A Method for Estimating the Probability of Adverse DrugReactions[J]. Clin Pharmacol Ther, 1981, 30: 239-245.",
+      "[18] RODRÍGUEZ-LOPEZ A, MEJÍA-ABRIL G, ZUBIAUR P, et al. Use of Exposure Data to Establish Causality in Drug-Adverse Event Relationships: an Example with Desvenlafaxine[J]. Pharmaceuticals (Basel), 2024, 17(1): 69.",
+      "[19] PRADHAN P, LAVALLEE M, AKINOLA S, et al. Causality Assessment of Adverse Drug Reaction: a Narrative Review to Find the Most Exhaustive and Easy-to-Use Tool in Post-Authorization Settings[J]. J Appl Biomed, 2023, 21(2): 59-66.",
+      "[20] SHARMA JB, KRISHNAMURTHY MN, AWASE A, et al. Validation of a Novel Causality Assessment Scale for Adverse Events in Non-small Cell Lung Carcinoma Patients Treated with Platinum and Pemetrexed Doublet Chemotherapy[J]. Ther Adv Drug Saf, 2021, 12: 2042098621991280.",
+      "[21] HORN JR, HANSTEN PD, CHAN LN. Proposal for a New Tool to Evaluate Drug Interaction Cases[J]. Ann Pharmacother, 2007, 41(4): 674-680.",
+      "[22] ALGHAMDI W, AL-FADEL N, ALGHAMDI EA, et al. Signal Detection and Assessment of Herb-Drug Interactions: Saudi Food and Drug Authority Experience[J]. Drugs Real World Outcomes, 2023, 10(4): 577-585.",
+      "[23] SHU D, HAN P, HENNESSY S, et al. Robust Causal Inference of Drug-Drug Interactions[J]. Stat Med, 2023, 42(7): 970-992.",
+      "[24] BÖTTIGER Y, LAINE K, ANDERSSON ML, et al. SFINX-a Drug-Drug Interaction Database Designed for Clinical Decision Support Systems[J]. Eur J Clin Pharmacol, 2009, 65(6): 627-633.",
+      "[25] VAN ROON EN, FLIKWEERT S, LE COMTE M, et al. Clinical Relevance of Drug-Drug Interactions: a Structured Assessment Procedure[J]. Drug Saf, 2005, 28(12): 1131-1139.",
+      "[26] GUYATT GH, OXMAN AD, VIST GE, et al. GRADE: an Emerging Consensus on Rating Quality of Evidence and Strength of Recommendations[J]. BMJ, 2008, 336(7650): 924-926.",
+      "[27] The University of Liverpool. Quality of Evidence[EB/OL]. [2024-02- 26]. https://liverpool-hiv-hep.s3.eu-west-2.amazonaws.com/QoE\\_ Info\\_HIV\\_2023\\_Jan.pdf."
+    ],
+    "bbox": [
+      97,
+      273,
+      497,
+      926
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      507,
+      66,
+      910,
+      920
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "（下转第913页）",
+    "bbox": [
+      781,
+      916,
+      902,
+      931
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "header",
+    "text": "中国药物警戒 第 22 卷第 8 期 2025 年 8 月 August, 2025, Vol.22, No.8",
+    "bbox": [
+      400,
+      40,
+      905,
+      55
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "page_number",
+    "text": "908",
+    "bbox": [
+      100,
+      934,
+      129,
+      946
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      960,
+      346,
+      978
+    ],
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "参考文献",
+    "text_level": 2,
+    "bbox": [
+      92,
+      71,
+      164,
+      86
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[1] DONG H, ZHANG L, LI B, et al. Screening Inflammatory Protein Biomarkers on Premature Infants with Necrotizing Enterocolitis[J]. Inflammation Research: Official Journal of the European Histamine Research Society, 2023(72): 757-768.",
+      "[2] STANIKOV AA, JOUZA M, BOHOSOVA OJP. Role of the Microbiome in Pathophysiology of Necrotising Enterocolitis in Preterm Neonates[J]. BMJ Paediatrics Open, 2023(7): 1-8.",
+      "[3] THNERT R, KEEN EC, DANTAS G, et al. Necrotizing Enterocolitis and the Microbiome: Current Status and Future Directions[J]. The Journal of Infectious Diseases, 2021(223): S256-S271.",
+      "[4] HU X, LIANG H, LI F, et al. Necrotizing Enterocolitis: Current Understanding of the Prevention and Management[J]. Pediatric Surgery International, 2024, 40(32): 2-18.",
+      "[5] ROBERT C, OLIVIER R, MANON T, et al. Neonatal Bacterial Infections: Diagnosis, Bacterial Epidemiology and Antibiotic Treatment[J]. Infectious Diseases Now, 2023(53): 1-7.",
+      "[6] SHANG H, WANG YS, SHEN ZY. National Clinical Testing Operation Procedures( 全国临床检验操作规程 )[M]. Beijing: People's Health Press, 2015: 246.",
+      "[7] MA YM, ZHOU J, DONG HL, et al. Trend Analysis of Antimicrobial Drug Susceptibility of Major Pathogenic Bacteria in Our Hospital[J]. China Pharmacy( 中国药房 ), 2015, 26(26): 3658-3660.",
+      "[8] QIU H, ZHANG HS, LIU X, et al. Analysis of Pathogenic Bacteria and Influencing Factors of Hospital-Acquired Infections in Preterm",
+      "Infants with NEC[J]. Chinese Journal of Hospital Infection( 中华医院 感染学杂志 ), 2019, 29(11): 1708-1712.",
+      "[9] BIZZARRO MJ, EHRENKRANZ RA, GALLAGHER PG. Concurrent Bloodstream Infections in Infants with Necrotizing Enterocolitis[J]. Journal of Pediatrics, 2014, 164(1): 61-66.",
+      "[10] ARNOLD M, MOORE SW, SIDLER D, et al. Long-Term Outcome of Surgically Managed Necrotizing Enterocolitis in a Developing Country[J]. Pediatric Surgery International, 2010, 26(4): 355-360.",
+      "[11] SHERMAN MP. New Concepts of Microbial Translocation in the Neonatal Intestine: Mechanisms and Prevention[J]. Clinics in Perinatology, 2010, 37(3): 565-579.",
+      "[12] SKEATH T, STEWART C, WAUGH S, et al. Cytomegalovirus and Other Common Enteric Viruses Are Not Commonly Associated with NEC[J]. Acta Paediatr, 2016, 105 (1): 50-52.",
+      "[13] Antimicrobial Resistance Collaborators. Global Burden of Bacterial Antimicrobial Resistance in 2019: a Systematic Analysis[J]. Lancet, 2022, 399(10325): 629-655.",
+      "[14] National Bacterial Drug Resistance Surveillance Network. National Bacterial Drug Resistance Monitoring Network 2014-2019 Bacterial Drug Resistance Surveillance Report[J]. Chinese Journal of Infection Control( 中国感染控制杂志 ), 2021, 20(1): 15-31.",
+      "[15] CHA HY, CAI Y. Distribution of 672 Klebsiella Pneumoniae Strains and Analysis of the Current Status of Drug Resistance[J]. Chinese Journal of Clinical Pharmacology( 中国临床药理学杂志 ), 2021, 37(7): 868-872."
+    ],
+    "bbox": [
+      85,
+      87,
+      489,
+      477
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      500,
+      69,
+      899,
+      454
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "（收稿日期：2024-07-17 编辑：彭丽丽）",
+    "bbox": [
+      603,
+      457,
+      889,
+      470
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "（上接第908页）",
+    "text_level": 2,
+    "bbox": [
+      97,
+      535,
+      223,
+      550
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "[28] SEDEN K, GIBBONS S, MARZOLINI C, et al. Development of an Evidence Evaluation and Synthesis System for Drug-Drug Interactions, and Its Application to a Systematic Review of HIV and Malaria Coinfection[J]. PLoS One, 2017, 12(3): e0173509.",
+      "[29] The University of Liverpool. Interaction Summary Tables[EB/OL]. [2024-02-26]. https://www.hep-druginteractions.org/prescribing\\_ resources/.",
+      "[30] The University of Liverpool. Interaction Summary Tables[EB/OL]. [2024-02-26]. https://www.hiv-druginteractions.org/prescribing\\_ resources.",
+      "[31] XIAO XH, LUO Y, ZHAO X, et al. New Strategies and Methods for Evaluating the Efficacy of Traditional Chinese Medicine: Integrated Evidence Chain Method[J]. China Journal of Chinese Materia Medica ( 中国中药杂志 ), 2024, 49(19): 5113-5124.",
+      "[32] LIU SN, GUO XF WU DR, et al. Discussion on the Construction of a Clinical Evidence Grading System for Traditional Chinese Medicine Interventions[J]. Journal of Traditional Chinese Medicine( 中医杂 志 ), 2023(18): 1885-1889.",
+      "[33] ZHANG L, ZENG XT, TONG L. The Approach to Developing a Grading Scale for Evidence Evaluation in Traditional Chinese Medicine Based on Evidence-Based Medicine Principles[J]. Chinese Archives of Traditional Chinese Medicine( 中华中医药杂志 ), 2020, 35(6): 2971- 2973.",
+      "[34] ORELLANA-PAUCAR A, VINTIMILLA-ROJAS D. Interactions of Clinical Relevance Associated with Concurrent Administration of Prescription Drug and Food or Medicinal Plants: a Systematic Review Protocol[J]. Syst Rev, 2020, 9(1): 1.",
+      "[35] FASINU PS, RAPP GK. Herbal Interaction with Chemotherapeutic Drugs-a Focus on Clinically Significant Findings[J]. Front Oncol, 2019, 9: 1356.",
+      "[36] SHAIKH AS, THOMAS AB, CHITLANGE SS. Herb-Drug Interaction Studies of Herbs Used in Treatment of Cardiovascular Disorders-a Narrative Review of Preclinical and Clinical Studies[J]. Phytother Res, 2020, 34(5): 1008-1026.",
+      "[37] European Medicines Agency. Guideline on the Investigation of Drug Interactions[EB/OL]. [2024-03-29]. https://www.ema.europa.eu/en/ documents/scientific-guideline/guideline-investigation-drug-interactionsrevision-1\\_en.pdf.",
+      "[38] DE LEON J, SPINA E, DIAZ FJ. Pharmacokinetic Drug Interaction Studies Must Consider Pharmacological Heterogeneity, Use of Repeated Dosing, and Translation Into a Message Understandable to Practicing Clinicians[J]. J Clin Psychopharmacol, 2009, 29(3): 201-205.",
+      "[39] YU LX, JIANG W, ZHANG X, et al. Novel Bioequivalence Approach for Narrow Therapeutic Index Drugs[J]. Clin Pharmacol Ther, 2015, 97(3): 286-291."
+    ],
+    "bbox": [
+      87,
+      560,
+      487,
+      931
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      500,
+      560,
+      899,
+      914
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "（收稿日期：2024-03-19 编辑：朱蓓）",
+    "bbox": [
+      618,
+      916,
+      889,
+      931
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "header",
+    "text": "中国药物警戒 第 22 卷第 8 期 2025 年 8 月 August, 2025, Vol.22, No.8",
+    "bbox": [
+      92,
+      40,
+      596,
+      55
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "page_number",
+    "text": "913",
+    "bbox": [
+      865,
+      934,
+      892,
+      946
+    ],
+    "page_idx": 7
+  },
+  {
+    "type": "footer",
+    "text": "",
+    "bbox": [
+      30,
+      960,
+      346,
+      978
+    ],
+    "page_idx": 7
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "阿格列汀",
+        "canonical_name": "阿格列汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "DPP-4抑制剂",
+        "canonical_name": "DPP-4抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "糖尿病",
+        "canonical_name": "糖尿病",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Population",
+        "name": "老年人群",
+        "canonical_name": "老年人群",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "中国医学论坛报今日循环",
+          "chunk_index": 548,
+          "raw_text": "在DPP-4抑制剂中，阿格列汀不但具有较好的心血管安全性，而且药物间相互作用风险低",
+          "chunk_id": "548",
+          "data": "。因此，阿格列汀在临床使用中药物间相互作用少3。4总之，在DPP-4抑制剂中，阿格列汀不但具有较好的心血管安全性，而且药物间相互作用风险低，适合糖尿病患者长期血糖管理治疗，尤其在合并有多种疾病的老年人群中，具有较高的安全性。参考文献：1、N Engl J Med 2007;156:2457–71.2、Diabetes Obes Metab. 2015 Nov;17(11):1085-92.3、阿格列汀FDA说明书.4M编号：SACN.DPP.18.11.12302  本材料有效期至2019年12月非广告用途，仅供相关医学人士参考。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "中国医学论坛报今日循环",
+          "chunk_index": 548,
+          "raw_text": "适合糖尿病患者长期血糖管理治疗",
+          "chunk_id": "548",
+          "data": "。因此，阿格列汀在临床使用中药物间相互作用少3。4总之，在DPP-4抑制剂中，阿格列汀不但具有较好的心血管安全性，而且药物间相互作用风险低，适合糖尿病患者长期血糖管理治疗，尤其在合并有多种疾病的老年人群中，具有较高的安全性。参考文献：1、N Engl J Med 2007;156:2457–71.2、Diabetes Obes Metab. 2015 Nov;17(11):1085-92.3、阿格列汀FDA说明书.4M编号：SACN.DPP.18.11.12302  本材料有效期至2019年12月非广告用途，仅供相关医学人士参考。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "中国医学论坛报今日循环",
+          "chunk_index": 548,
+          "raw_text": "在合并有多种疾病的老年人群中，具有较高的安全性",
+          "chunk_id": "548",
+          "data": "。因此，阿格列汀在临床使用中药物间相互作用少3。4总之，在DPP-4抑制剂中，阿格列汀不但具有较好的心血管安全性，而且药物间相互作用风险低，适合糖尿病患者长期血糖管理治疗，尤其在合并有多种疾病的老年人群中，具有较高的安全性。参考文献：1、N Engl J Med 2007;156:2457–71.2、Diabetes Obes Metab. 2015 Nov;17(11):1085-92.3、阿格列汀FDA说明书.4M编号：SACN.DPP.18.11.12302  本材料有效期至2019年12月非广告用途，仅供相关医学人士参考。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 548,
+    "source": "中国医学论坛报今日循环",
+    "text": "。因此，阿格列汀在临床使用中药物间相互作用少3。4总之，在DPP-4抑制剂中，阿格列汀不但具有较好的心血管安全性，而且药物间相互作用风险低，适合糖尿病患者长期血糖管理治疗，尤其在合并有多种疾病的老年人群中，具有较高的安全性。参考文献：1、N Engl J Med 2007;156:2457–71.2、Diabetes Obes Metab. 2015 Nov;17(11):1085-92.3、阿格列汀FDA说明书.4M编号：SACN.DPP.18.11.12302  本材料有效期至2019年12月非广告用途，仅供相关医学人士参考。"
+  }
+]

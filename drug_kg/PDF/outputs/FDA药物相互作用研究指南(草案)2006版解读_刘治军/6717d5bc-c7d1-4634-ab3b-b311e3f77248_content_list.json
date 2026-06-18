@@ -1,0 +1,1491 @@
+[
+    {
+        "type": "text",
+        "text": "编 译",
+        "text_level": 2,
+        "bbox": [
+            23,
+            69,
+            137,
+            93
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "FDA药物相互作用研究指南 （草案 ）2006版解读",
+        "text_level": 1,
+        "bbox": [
+            174,
+            117,
+            798,
+            146
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "刘治军1傅得兴1汤 光2",
+        "bbox": [
+            358,
+            155,
+            608,
+            175
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "卫生部北京医院药学部临床药理室 北京 首都医科大学附属友谊医院 北京",
+        "bbox": [
+            98,
+            177,
+            872,
+            194
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "摘要 年 月美国 FDA药物评价和研究中心 CDER 及生物制品评价和研究中心 CBER 共同发布了 药物相互作用研究 实验设计 数据分析及其在剂量调整和处方标签中的应用 草案 的指南 以下简称指南 为新药和新生物制品的研发者提供了药物代谢和药物转运方面的体内、体外相互作用研究规范。本文结合作者的工作经验对指南进行解读供新药开发人员和从事药物相互作用研究的临床药理工作者参考",
+        "bbox": [
+            52,
+            209,
+            914,
+            313
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "关键词 药物相互作用 指南 细胞色素 P 酶系 P糖蛋白",
+        "bbox": [
+            52,
+            317,
+            598,
+            333
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "中图分类号：R969∙2；R-62 文献标识码：A 文章编号：1674-0440（2008）01-0050-09",
+        "bbox": [
+            54,
+            337,
+            817,
+            357
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "FDA于 年 月发表了关于药物相互作用研究指南 内容涉及药物相互作用研究的全过程 包括实验设计 研究人群或体外研究用细胞 微粒体探针底物 抑制剂 诱导剂的选择 观察指标 样本量和数据统计分析等 除代谢性药物相互作用外 本版指南对 P-糖蛋白 （P-gp）介导的药物相互作用的研究方法给予了详细的指导 与 FDA 年的指南相比增加了 $\\mathrm { P ^ { - } g p }$ 相关的药物相互作用体内体外研究的详细指导",
+        "bbox": [
+            11,
+            381,
+            468,
+            570
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1 药物相互作用研究的背景知识",
+        "text_level": 2,
+        "bbox": [
+            17,
+            593,
+            313,
+            611
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "包括细胞色素 P CYP 酶在内的多个药物代谢酶都能被联用的药物所抑制或诱导 从而导致药物浓度发生巨大改变 影响其安全性和有效性同时药物转运蛋白相关的药物相互作用受到越来越多的关注如 $\\mathrm { P \\mathrm { \\bar { ~ } g n } }$ 、有机阴离子转运蛋白 （OAT）等表 列出了一些人类主要的转运蛋白和已知的底物 抑制剂和诱导剂",
+        "bbox": [
+            11,
+            614,
+            468,
+            760
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2 药物相互作用研究的一般策略",
+        "text_level": 2,
+        "bbox": [
+            15,
+            783,
+            313,
+            801
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "图 是根据体外代谢 抑制和诱导实验的结果以及体内代谢实验数据确定体内相互作用研究必要性的流程图",
+        "bbox": [
+            13,
+            805,
+            465,
+            865
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "目前研究尚未发现 CYPD 酶被诱导的情况而 CYPCCYPB和 Pgp是可以和 CYPA一起被诱导的。CYP3A对所有已知的诱导剂都很敏感因此考察受试药物是否能够诱导 CYPA CYPCCYPC CYPC 和 CYPA时 只需要体外考察其对 CYPA 和 CYPA酶的诱导情况即可 如果体外实验显示受试药物对 CYPA没有诱导作用 那么就可以免做对 CYPC和 CYPB的诱导研究",
+        "bbox": [
+            56,
+            868,
+            461,
+            887
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            500,
+            381,
+            953,
+            529
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3 体内药物相互作用实验设计",
+        "text_level": 2,
+        "bbox": [
+            503,
+            552,
+            781,
+            571
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3∙1 实验设计",
+        "text_level": 2,
+        "bbox": [
+            503,
+            575,
+            639,
+            592
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "体内药物相互作用研究通常设计为比较底物S浓度在有和没有作用药物 I时的变化情况根据具体的研究需要和临床目标 有多种药物相互作用研究方法可供选择 随机交叉法 如先服用 S后服用 S I组和先服用 S I后服用 S组 或单次序交叉法 总是先服用 S后服用 S I或者相反或平行设计（一组服用 S另一组服用 S＋I）。",
+        "bbox": [
+            500,
+            596,
+            957,
+            742
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "设计方案时注意 如果实验需要达到稳态血药浓度而底物或作用药物和 或 其代谢物的半衰期较长 此时不能采用额外给予一个负荷剂量的方法加快达到稳态 但可以考虑特殊的实验设计 比如选择单次序交叉法或者平行设计法 而不是随机交叉法 如果作用药物是一个快速可逆的抑制剂 其服用时间应该在测定当天服用底物前或同时服用 这样才能增加其敏感性 对于基于作用机制mechanismbased的抑制剂 如红霉素 在服用底物药物前服用作用药物可以放大相互作用强度 如果作用药物 抑制剂或诱导剂 的吸收受多种因素的影响 如胃 pH值 则需要采取适当的方法控制吸收方面的变化 为了排除由于食物 饮料 果汁等影响代谢酶和转运蛋白而引起误差指南建议实验过程中要严格控制饮食",
+        "bbox": [
+            500,
+            746,
+            955,
+            958
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "DOI :10．13220／j．cnki．jipr．2008．01．036",
+        "bbox": [
+            27,
+            0,
+            315,
+            13
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": ".50.",
+        "bbox": [
+            32,
+            13,
+            75,
+            24
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "InternationalJournalofPharmaceuticalResearch",
+        "bbox": [
+            472,
+            12,
+            813,
+            25
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "2008Feb；35（1）",
+        "bbox": [
+            825,
+            12,
+            951,
+            25
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "收稿日期：2007-09-06",
+        "bbox": [
+            38,
+            908,
+            187,
+            923
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_footnote",
+        "text": "作者简介 刘治军 男 副主任药师 在读博士研究生 研究方向临床药学 Tel Emailliuzhijun com",
+        "bbox": [
+            15,
+            927,
+            463,
+            958
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "",
+        "bbox": [
+            34,
+            958,
+            961,
+            976
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/12519c34c8fd299e57a8b98877cabd9eef1c382301ef1d4a4585641509ddc6b9.jpg",
+        "table_caption": [
+            "表1 主要的人类药物转运蛋白"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>基因</td><td>别名</td><td>组织分布</td><td>底物</td><td>抑制剂</td></tr><tr><td> $ABCB1$ </td><td>P-gp MDR1</td><td>肠道、肝、肾、脑、胎盘、肾上腺、睾丸</td><td>地高辛、非索非那定、茚地那韦、长春新碱、秋水仙碱、拓扑替康、紫杉醇</td><td>利托那韦、环孢素、维拉帕米、红霉素、酮康唑、伊曲康唑、奎尼丁、埃拉利达(elacridar)、LY335979、伐司扑达(valspodar)</td></tr><tr><td> $ABCB4$ </td><td>MDR3</td><td>肝</td><td>地高辛、紫杉醇、长春碱</td><td></td></tr><tr><td> $ABCC1$ </td><td>MRP1</td><td>肠、肝、肾、脑</td><td>阿德福韦、茚地那韦</td><td></td></tr><tr><td> $ABCC2$ </td><td>MRP2, CMOAT</td><td>肠、肝、肾、脑</td><td>茚地那韦、顺铂</td><td>环孢素</td></tr><tr><td> $ABCC3$ </td><td>MRP3, CMOAT2</td><td>肠、肝、肾、胎盘、肾上腺</td><td>依托泊苷、甲氨蝶呤、替尼泊苷</td><td></td></tr><tr><td> $ABCC6$ </td><td>MRP6</td><td>肝、肾</td><td>顺铂、柔红霉素</td><td></td></tr><tr><td> $ABCG2$ </td><td>BCRP</td><td>肠、肝、乳腺、胎盘</td><td>柔红霉素、多柔比星、拓扑替康、罗伐他汀、柳氮磺吡啶</td><td>埃拉立达、吉非替尼</td></tr><tr><td> $SLCO1B1$ </td><td>OATP1B1, OATP2, OATP-C</td><td>肝</td><td>利福平、罗伐他汀、甲氨蝶呤、普伐他汀、甲状腺素</td><td>环孢素、利福平</td></tr><tr><td> $SLCO1B3$ </td><td>OATP1B3, OATP8</td><td>肝</td><td>地高辛、甲氨蝶呤、利福平</td><td></td></tr><tr><td> $SLCO2B1$ </td><td>SLC21A9, OATP-B</td><td>肠、肝、肾、脑</td><td>普伐他汀</td><td></td></tr><tr><td> $SLC10A1$ </td><td>NTCP</td><td>肝、胰腺</td><td>罗伐他汀</td><td></td></tr><tr><td> $SLC15A1$ </td><td>PEPT1</td><td>肠、肾</td><td>氨苄西林、阿莫西林、卡托普利、伐昔洛韦</td><td></td></tr><tr><td> $SLC15A2$ </td><td>PEPT2</td><td>肾</td><td>氨苄西林、阿莫西林、卡托普利、伐昔洛韦</td><td></td></tr><tr><td> $SLC22A1$ </td><td>OCT-1</td><td>肝</td><td>阿昔洛韦、金刚烷胺、地昔帕明、更昔洛韦、二甲双胍</td><td>双异丙吡胺、咪达唑仑、苯乙双胍、奎尼丁、奎宁、利托那韦、维拉帕米</td></tr><tr><td> $SLC22A2$ </td><td>OCT2</td><td>肾、脑</td><td>金刚烷胺、西咪替丁、美金刚</td><td>地昔帕明、奎宁、酚苄明</td></tr><tr><td> $SLC22A3$ </td><td>OCT3</td><td>骨骼肌、肝、胎盘、肾、心</td><td>西咪替丁</td><td>地昔帕明、哌唑嗪、酚苄明</td></tr><tr><td> $SLC22A4$ </td><td>OCTN1</td><td>肾、骨骼肌、胎盘、前列腺、心</td><td>奎尼丁、维拉帕米</td><td></td></tr><tr><td> $SLC22A6$ </td><td>OAT1</td><td>肾、脑</td><td>阿昔洛韦、阿德福韦、甲氨蝶呤、齐多夫定</td><td>丙磺舒、头孢羟氨苄、头孢孟多、头孢唑林</td></tr><tr><td> $SLC22A8$ </td><td>OAT3</td><td>肾、脑</td><td>西咪替丁、甲氨蝶呤、齐多夫定</td><td>丙磺舒、头孢羟氨苄、头孢孟多、头孢唑林</td></tr></table>",
+        "bbox": [
+            13,
+            65,
+            955,
+            734
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            11,
+            760,
+            468,
+            863
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3∙2 研究群体",
+        "text_level": 2,
+        "bbox": [
+            15,
+            865,
+            151,
+            883
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "体内药物相互作用研究一般可以选择健康受试者研究结果可以推论到患者群体然而在某些特定情况下 受试药物所表现的治疗效果或者所要观察的药效学效果不在健康者身上出现因而需要从患者群体中招募受试者 在表现型和基因型研究中确定基因决定的代谢多态性对于评估具有基因多态性的 CYPD CYPC 和 CYPC 酶的意义重大药物相互作用的程度 （抑制或诱导 ）可能因受试者的某个具体 CYP酶的基因型的不同而有差异",
+        "bbox": [
+            11,
+            887,
+            468,
+            969
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            500,
+            760,
+            953,
+            863
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3∙3 底物和作用药物的选择",
+        "text_level": 2,
+        "bbox": [
+            503,
+            865,
+            761,
+            883
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "指南推荐的 CYP酶底物见表 如果实验中发现受试药物能抑制或诱导酶的代谢 进一步研究时应该在临床可能合用的药物中选择其它一些敏感底物。如果体内实验显示受试药物 （作用药物 ）对酶敏感性底物 表 都没有影响 则可以推断受试药物对其他酶底物的代谢也没有影响 当体外实验不能排除受试药物是 CYPA酶的诱导剂时 可以采用最敏感的 CYP3A底物 （表 3）进行体内评价。",
+        "bbox": [
+            500,
+            887,
+            955,
+            969
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "国际药学研究杂志 年 月 第 卷 第 期",
+        "bbox": [
+            15,
+            10,
+            403,
+            27
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "·51·",
+        "bbox": [
+            893,
+            12,
+            939,
+            25
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/7ae1f806ec8d3593e359cda9245920a1aca3c7ff0f0299fa24bd6d94bb0f7866.jpg",
+        "image_caption": [
+            "图1 CYP酶相关的药物相互作用研究流程图"
+        ],
+        "image_footnote": [
+            "NME新分子实体"
+        ],
+        "content": "```mermaid\ngraph TD\n    A[\"体外代谢信息（人类组织研究）<br>  CYP1A2, 2C8, 2C9, 2C19, 2D6, 3A\"] --> B[\"NME 不是酶底物或 NME 是底物但酶对其代谢的贡献不是主要的\"]\n  A --> C[\"NME 是底物，酶对其代谢消除的贡献大或者未知\"]\n  A --> D[\"NME 是酶诱导剂或抑制剂或无相关体外数据\"]\n  A --> E[\"NME 不是酶的诱导剂或抑制剂\"]\n  B --> F[\"根据这些体外和体内药物处置数据定处方标签\"]\n  C --> G[\"利用最强抑制剂或者诱导剂进行体内研究\"]\n  D --> H[\"利用最敏感/最特异的底物进行体内研究\"]\n  E --> I[\"按照上述数据确定处方标签\"]\n  F --> J[\"存在显著相互作用？\"]\n  G --> J\n  H --> K[\"存在显著相互作用？\"]\n  J --> L[\"是\"]\n  J --> M[\"不是\"]\n  K --> N[\"是\"]\n  K --> O[\"不是\"]\n  L --> P[\"根据临床可能合用的情况选择其他抑制剂/诱导剂\"]\n  M --> Q[\"不需要进一步研究\"]\n  Q --> R[\"根据体内和体外研究数据确定处方标签\"]\n  K --> S[\"研究其他可能在临床合用的安全范围窄的底物\"]\n  S --> T[\"需要调整剂量？\"]\n  T --> U[\"需要调整剂量？\"]\n  T --> V[\"是\"]\n  T --> W[\"不是\"]\n  S --> X[\"需要调整剂量？\"]\n  X --> Y[\"是\"]\n  X --> Z[\"不是\"]\n  X --> AA[\"是\"]\n  X --> AB[\"不是\"]\n  X --> AC[\"不需要进一步研究\"]\n  AC --> AD[\"根据体内和体外研究数据确定处方标签\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            180,
+            56,
+            817,
+            492
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/715c5b329aa1bf8159d9e9cc3d8caa780da66dd002b5f0bfb3b27582ce8edce7.jpg",
+        "table_caption": [
+            "表2 体内研究推荐的 CYP酶底物、抑制剂和诱导剂"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>CYP酶</td><td>底物</td><td>抑制剂</td><td>诱导剂</td></tr><tr><td>1A2</td><td>茶碱、咖啡因</td><td>氟伏沙明</td><td>吸烟(相对于不吸烟)</td></tr><tr><td>2B6</td><td>依法韦仑</td><td></td><td>利福平</td></tr><tr><td>2C8</td><td>瑞格列奈、罗格列酮</td><td>吉非贝齐</td><td>利福平</td></tr><tr><td>2C9</td><td>甲苯磺丁脲、华法林</td><td>氟康唑、胺碘酮(用于慢代谢型与快代谢型受试者的比较)</td><td>利福平</td></tr><tr><td>2C19</td><td>奥美拉唑、埃索拉唑、兰索拉唑、泮托拉唑</td><td>奥美拉唑、氟伏沙明、吗氯贝胺(用于慢代谢型与快代谢型受试者的比较)</td><td>利福平</td></tr><tr><td>2D6</td><td>地昔帕明、阿托西汀 (atomoxetine)、右美沙芬</td><td>帕罗西汀、氟西汀、奎尼丁(用于慢代谢型与快代谢型受试者的比较)</td><td>未确定</td></tr><tr><td>2E1</td><td>氯唑沙宗</td><td>双硫仑</td><td>乙醇</td></tr><tr><td>3A4/3A5</td><td>咪达唑仑、丁螺环酮、非洛地平、洛伐他汀、依来曲普坦、西地那非、辛伐他汀、三唑仑</td><td>阿扎那韦 (atazanavir)、泰利霉素、克拉霉素、伊曲康唑、酮康唑、茚地那韦、那非那韦、利托那韦、沙奎那韦、奈法唑酮</td><td>利福平、卡马西平</td></tr></table>",
+        "bbox": [
+            13,
+            573,
+            955,
+            857
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            11,
+            880,
+            468,
+            963
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "版指南指出 此前的诱导实验常常采用避孕药作为底物 由于避孕药不是 CYPA最敏感的底物因此阴性的实验结果仍然不能排除受试药物不是CYPA酶诱导剂",
+        "bbox": [
+            501,
+            880,
+            953,
+            963
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "·52·",
+        "bbox": [
+            32,
+            12,
+            75,
+            24
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "InternationalJournalofPharmaceuticalResearch",
+        "bbox": [
+            472,
+            13,
+            812,
+            25
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "2008Feb；35（1）",
+        "bbox": [
+            825,
+            12,
+            951,
+            25
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "()1994-2024 China Academic Journal Electronic Publishing House. AIlrights reserved.http://www.cnki.net",
+        "bbox": [
+            34,
+            961,
+            961,
+            976
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/fe38a3ec3777f507c804fbfe02ebf1ae63e1b57ce611d0d3bae3d1012efb286b.jpg",
+        "table_caption": [
+            "表3 CYP酶敏感底物和安全范围窄的底物"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>酶</td><td>敏感底物</td><td>安全范围窄的底物</td></tr><tr><td>CYP3A</td><td>布地奈德、氟替卡松、丁螺环酮、依来曲普坦、非洛地平、洛伐他汀、辛伐他汀、沙奎那韦、西地那非、伐地那非、三唑仑、咪达唑仑、依普利酮</td><td>阿芬太尼、芬太尼、阿司咪唑、特非那定、西沙必利、环孢素、西罗莫司、他克莫司、甲磺酸双氢麦角胺、麦角胺、匹莫齐特</td></tr><tr><td>CYP1A2</td><td>度洛西汀、阿洛司琼</td><td>茶碱、替扎尼定(tizanidine)</td></tr><tr><td>CYP2C8</td><td>瑞格列奈</td><td>紫杉醇</td></tr><tr><td>CYP2C9</td><td></td><td>华法林、苯妥英</td></tr><tr><td>CYP2C19</td><td>奥美拉唑</td><td>S美芬妥英</td></tr><tr><td>CYP2D6</td><td>地昔帕明</td><td>硫利达嗪</td></tr></table>",
+        "bbox": [
+            13,
+            65,
+            953,
+            255
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/274fd5e87064ce2994bb3ea0006f44463c1215e507ca5f2b06576880d5ebcec9.jpg",
+        "table_caption": [
+            "表4 CYP酶抑制剂分级"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>酶</td><td>强抑制剂AUC升高 $\\geqslant 5$ 倍</td><td>中等抑制剂2倍 $\\leqslant$ AUC升高 $<5$ 倍</td><td>弱抑制剂1.25倍 $\\leqslant$ AUC升高 $<2$ 倍</td></tr><tr><td>CYP3A</td><td>阿扎那韦、泰利霉素、克拉霉素、伊曲康唑、酮康唑、茚地那韦、那非那韦、利托那韦、沙奎那韦、奈法唑酮</td><td>安普那韦、福沙那韦、阿瑞吡坦、地尔硫草、红霉素、氟康唑、维拉帕米、葡萄柚汁</td><td>西咪替丁</td></tr><tr><td>CYP1A2</td><td>氟伏沙明</td><td>环丙沙星、美西律、普罗帕酮、齐留通</td><td>阿昔洛韦、西咪替丁、法莫替丁、诺氟沙星、维拉帕米</td></tr><tr><td>CYP2C8</td><td>吉非贝齐</td><td></td><td>甲氧苄啶</td></tr><tr><td>CYP2C9</td><td></td><td>胺碘酮、氟康唑、氧雄龙</td><td>磺吡酮</td></tr><tr><td>CYP2C19</td><td>奥美拉唑</td><td></td><td></td></tr><tr><td>CYP2D6</td><td>帕罗西汀、氟西汀、奎尼丁</td><td>度洛西汀、特比萘芬</td><td>胺碘酮、舍曲林</td></tr></table>",
+        "bbox": [
+            13,
+            299,
+            953,
+            532
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "指南提供了酶抑制剂活性的分级标准 根据体内实验中酶抑制剂升高联用的咪达唑仑或其他底物的血浆 AUC的倍数 对 CYPA酶抑制剂进行分级如果受试药物使口服咪达唑仑或其他底物的 AUC升高大于等于 倍 则属强抑制剂 如果 AUC升高在 倍间 则为中等抑制剂 如果 AUC升高在1∙25～2倍间则为弱抑制剂。其他酶抑制剂的分级也采用类似方法 部分酶抑制剂的分级见表",
+        "bbox": [
+            11,
+            558,
+            468,
+            727
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "所考察受试药物的代谢被作用药物抑制或诱导时 应该选择该酶已知的强的抑制剂或诱导剂 如受试药物显示主要通过 CYPA代谢 选择酮康唑抑制剂 和利福平 诱导剂 作为作用药物是最优的 如果实验结果是阴性的 则可以证明受试药物与其他药物没有临床意义的代谢方面的药物相互作用 如果研究结果提示存在药物相互作用 则可以进一步研究受试药物与其他中等强度的抑制剂或诱导剂之间是否存在相互作用 为今后的处方剂量的调整提供依据。",
+        "bbox": [
+            11,
+            731,
+            468,
+            946
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "CYPC 和 CYPC 代谢 比较此药的弱代谢型与强代谢型受试者的药代动力学差异可以间接推测受试药物与这些酶的强抑制剂之间的相互作用程度",
+        "bbox": [
+            500,
+            558,
+            953,
+            619
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "在一个实验中受试者同时服用多种 CYP酶底物 即鸡尾酒模式 也是一种评价药物抑制或诱导酶代谢活性的方法 但是要求实验设计合理并考虑到下列因素 一种特定酶的底物对该酶具有较高的选择性 底物之间没有相互作用发生受试者的数量达到统计学要求 这种鸡尾酒实验的阴性结果可以免除对其中某个具体酶的进一步评价 然而阳性结果则需要进一步的体内研究 如果一个 鸡尾酒设计法 满足以下情况 药物浓度变化在安全范围内 入选的 CYP酶都参与药物代谢消除 药物其他代谢途径或者不被抑制的途径的药物清除率低 鸡尾酒实验可比单个相互作用研究提供更多的信息 而结论的确定程度取决于药物其他不被抑制的代谢途径的清除率分数 清除率分数越小 确定程度越高 如果单一的相互作用实验显示抑制效应可以导致严重的安全隐患则",
+        "bbox": [
+            498,
+            623,
+            955,
+            972
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "国际药学研究杂志 年 月 第 卷 第 期",
+        "bbox": [
+            15,
+            10,
+            403,
+            27
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "·53.",
+        "bbox": [
+            893,
+            12,
+            939,
+            25
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "如果药物经具有基因多态性的酶 如 CYPD",
+        "bbox": [
+            54,
+            950,
+            461,
+            968
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "不能进行鸡尾酒设计法",
+        "bbox": [
+            13,
+            47,
+            230,
+            65
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3∙4 给药途径",
+        "text_level": 2,
+        "bbox": [
+            17,
+            69,
+            151,
+            87
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "药物相互作用研究中选择合适的给药途径非常重要 受试药物给药途径要与将来临床应用的方式一致 如果仅有口服剂型用于临床 研究注射给药的相互作用就没有必要 尽管口服和注射给药途径的相互作用研究提供的信息 能够辅助判断吸收方面和代谢清除方面相互作用所占整个药代动力学改变的影响比重 注射给药研究无法探讨肠道CYPA酶被抑制或诱导对药物生物利用度方面的影响因此对于某个特定的受试药物体内相互作用研究采取的给药方式取决于未来上市剂型",
+        "bbox": [
+            11,
+            91,
+            468,
+            303
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3∙5 给药剂量",
+        "text_level": 2,
+        "bbox": [
+            17,
+            306,
+            151,
+            322
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "对于底物和作用药物来说 实验设计应该尽可能将彼此相互作用的结果最大化因此指南推荐作用药物 抑制剂或诱导剂 使用最大安全剂量和最短给药间隔 考虑到底物血药浓度升高的安全性问题 使用低于临床常用剂量的给药方案时 体内药物相互作用研究方案应在结果报告中进行讨论",
+        "bbox": [
+            11,
+            326,
+            467,
+            432
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            500,
+            47,
+            899,
+            65
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4 药物代谢酶的确认",
+        "text_level": 2,
+        "bbox": [
+            503,
+            91,
+            697,
+            109
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "如果某个酶对药物的代谢量占整个药物消除量＞25％则可以确认此酶是药物的主要代谢酶。将药物和肝细胞或肝切片一起孵育 然后通过色谱方法分析孵育介质和细胞内药物浓度 这种方法可以直接获得氧化 水解或基团转移形成的代谢物 提供平行代谢还是先后代谢的信息 另一种方法是用HPLC来分析孵育介质 实验还需要优化介质中受试药物浓度和孵育时间 临床预期的稳态血药浓度可以用来指导体外实验介质中药物浓度的选择。",
+        "bbox": [
+            500,
+            112,
+            953,
+            303
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "有三种方法可以很好地确认不同的 CYP酶对药物代谢的贡献 特定的化学物质或抗体作为特定酶的抑制剂 表 列出了常用的特异性化学抑制剂 在确定代谢酶种类及其在药物代谢中的相对贡献时 药物的浓度要 $\\mathrm { K } _ { \\mathrm { m } }$ 值 而抑制剂的浓度既要保证其选择性又要保证足够的量 所以可以采用一系列的抑制剂浓度 当使用基于作用机制的抑制剂时最好将抑制剂与酶预先孵育 15～30min。应用不同的人重组 CYP酶 这种技术对研究单个CYP酶在整个药物代谢中的相对贡献的大小具有很高的价值 但不能代表人肝微粒体酶中的绝对的代谢比率 根据不同供体来源的 CYP酶不同活性建立人肝微粒体库 指南建议至少采用上述两种方法来确认药物代谢酶",
+        "bbox": [
+            500,
+            306,
+            953,
+            432
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/2571a559cff5db6a7c61820b726a7a4f56f620ca7ff605af748ea921ee026434.jpg",
+        "table_caption": [
+            "表5 体外实验酶抑制剂的选择列表"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>CYP</td><td>首选抑制剂</td><td> $K_i(\\mu mol·L^{-1})$ </td><td>可选抑制剂</td><td> $K_i(\\mu mol·L^{-1})$ </td></tr><tr><td>1A2</td><td>呋拉茶碱 (furafylline)</td><td>0.6~0.73</td><td>α萘黄酮</td><td>0.01</td></tr><tr><td rowspan=\"2\">2A6</td><td>反苯环丙胺</td><td>0.02~0.2</td><td>毛果芸香碱</td><td>4</td></tr><tr><td>甲氧沙林</td><td>0.01~0.2</td><td>色胺</td><td>1.7</td></tr><tr><td rowspan=\"7\">2B6</td><td></td><td></td><td>3异丙烯基-3甲基金刚</td><td>2.2</td></tr><tr><td></td><td></td><td>2异丙烯基-2甲基金刚</td><td>5.3</td></tr><tr><td></td><td></td><td>舍曲林</td><td>3.2</td></tr><tr><td></td><td></td><td>苯环利定</td><td>10</td></tr><tr><td></td><td></td><td>塞替派</td><td>4.8</td></tr><tr><td></td><td></td><td>氯吡格雷</td><td>0.5</td></tr><tr><td></td><td></td><td>噻氯匹定</td><td>0.2</td></tr><tr><td rowspan=\"4\">2C8</td><td>孟鲁司特</td><td>1.1</td><td>甲氧苄啶</td><td>32</td></tr><tr><td>槲皮素</td><td></td><td>吉非贝齐</td><td>69~75</td></tr><tr><td></td><td></td><td>罗格列酮</td><td>5.6</td></tr><tr><td></td><td></td><td>吡格列酮</td><td>1.7</td></tr><tr><td rowspan=\"3\">2C9</td><td>磺胺苯吡唑</td><td>0.3</td><td>氟康唑</td><td>7</td></tr><tr><td></td><td></td><td>氟伏沙明</td><td>6.4~19</td></tr><tr><td></td><td></td><td>氟西汀</td><td>18~41</td></tr><tr><td rowspan=\"2\">2C19</td><td></td><td></td><td>噻氯匹定</td><td>1.2</td></tr><tr><td></td><td></td><td>圆柚酮</td><td>0.5</td></tr><tr><td>2D6</td><td>奎尼丁</td><td>0.027~0.4</td><td></td><td></td></tr><tr><td rowspan=\"3\">2E1</td><td></td><td></td><td>二乙基二硫代氨基甲酸酯</td><td>9.8~34</td></tr><tr><td></td><td></td><td>氯美噻唑</td><td>12</td></tr><tr><td></td><td></td><td>二烯丙基二硫醚</td><td>150</td></tr><tr><td rowspan=\"3\">3A4/5</td><td>酮康唑</td><td>0.0037~0.18</td><td>阿扎莫林</td><td>17</td></tr><tr><td>伊曲康唑</td><td>0.27, 2.3</td><td>醋竹桃霉素 (troleandomycin)</td><td>17</td></tr><tr><td></td><td></td><td>维拉帕米</td><td>10, 24</td></tr></table>",
+        "bbox": [
+            13,
+            473,
+            955,
+            952
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "·54·",
+        "bbox": [
+            31,
+            12,
+            75,
+            24
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "InternationalJournalofPharmaceuticalResearch 2008Feb；35（1）",
+        "bbox": [
+            472,
+            12,
+            953,
+            25
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "实验采用的底物参考指南原文",
+        "bbox": [
+            34,
+            954,
+            250,
+            969
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "实验采用的底物参考指南原文",
+        "bbox": [
+            34,
+            958,
+            961,
+            976
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            11,
+            47,
+            468,
+            217
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "5 CYP酶抑制作用的体外评价",
+        "text_level": 2,
+        "bbox": [
+            15,
+            240,
+            298,
+            259
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "CYP酶抑制剂体外实验设计注意事项 $\\mathbb { C } _ { 5 0 }$ 测定时 在底物代谢率允许的情况下 尽量使底物的浓度低于其 $\\mathrm { K } _ { \\mathrm { m } }$ 值 使 $\\mathbb { C } _ { 5 0 }$ 与其 $\\mathrm { K _ { i } }$ 值更具相关性肝微粒体蛋白浓度通常 $\\mathbf { g } \\bullet \\mathrm { ~ L ~ } ^ { - 1 } \\mathbf { ; }$ 缓冲液的性质 $\\mathrm { p H }$ 对 $\\mathrm { V } _ { \\mathrm { m a x } }$ 和 $\\mathrm { K } _ { \\mathrm { m } }$ 的影响显著 尽可能采用标准化的分析条件 反应系统中最好控制底物或抑制剂的消耗不超过 但是对于 $\\mathrm { K } _ { \\mathrm { m } }$ 值很低的药物来说 控制反应体系底物消耗 很困难 建议建立时间 产物形成量的线性关系 建议建立酶量 产物形成量的线性关系 因为某些有机溶剂具有酶诱导或抑制作用 溶剂的浓度都要 vv最好 实验应包括无溶剂对照和溶剂对照实验应该有一个已知抑制剂的阳性对照",
+        "bbox": [
+            11,
+            262,
+            468,
+            541
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "理论上 抑制剂在作用部位的浓度与底物的 $\\mathrm { K _ { i } }$ 值相当或超过 $\\mathrm { K _ { i } }$ 时才能产生明显的抑制效应 相互作用程度 以 R表示 代表底物 AUC改变的倍数 可以通过 R I ${ \\bf / k } _ { \\bf i }$ 来模拟 I代表作用部位抑制剂的浓度 $\\mathrm { K _ { i } }$ 是抑制常数 指南推荐体内相互作用的可能性通过 I K来推断 I代表服用临床最大用药量后平均稳态的药物浓度 游离或结合的全部药物 比值升高 产生相互作用的可能性增大见表6。",
+        "bbox": [
+            11,
+            544,
+            468,
+            734
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/4ea7ef6cd1d54821101ff036a58f479d9a20e6a8d294a6cf26036c963795f391.jpg",
+        "table_caption": [
+            "表6 竞争性 CYP抑制剂的临床相关性预测"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td> $[1]/K_{i}$ 比值</td><td>预测</td></tr><tr><td> $[1]/K_{i}>1$ </td><td>很可能</td></tr><tr><td> $0.1<[1]/K_{i}<1$ </td><td>可能</td></tr><tr><td> $[1]/K_{i}<0.1$ </td><td>不太可能</td></tr></table>",
+        "bbox": [
+            503,
+            65,
+            953,
+            129
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "尽管通过体外数据定量预测体内相互作用发生的可能性存在困难 但可以通过同一个药物对不同CYP酶 CYPA CYPC CYPC CYPCCYPD 和 CYPA 的 $\\mathrm { K _ { i } }$ 值进行筛选排序 体内实验从 I K最大者 或者 $\\mathrm { K _ { i } }$ 最小者 的 CYP酶开始 如果实验显示体内不存在药物相互作用 其他的［I］／K相对较小的 CYP酶的体内实验就可以不做。",
+        "bbox": [
+            500,
+            155,
+            953,
+            305
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "6 CYP酶诱导作用的体外评价",
+        "text_level": 2,
+        "bbox": [
+            503,
+            328,
+            786,
+            346
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "实验设计中应包括一个公认的酶诱导剂 （表7）作为阳性对照 来减小不同供体酶催化活性差异引起的误差 实验中应该注意 受试药物的浓度应该参考临床治疗剂量的血药浓度 至少包括 个涵盖治疗窗的筛选浓度 其中至少 个浓度要超过平均预期治疗浓度 个数量级 与肝细胞共孵育 d后 通过 CYP特异的探针药物 参考指南推荐 测定酶活性 使用新鲜分离的或者冻存的肝细胞进行实验时 应该至少选择 份不同的供体以减少诱导实验中存在的个体差异",
+        "bbox": [
+            498,
+            348,
+            953,
+            560
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "评价药物酶诱导作用时 指南建议 药物体外实验引起的酶活性的改变 阳性对照结果时 可以认为药物具有酶诱导作用 需要进一步的体内研究 $\\mathrm { E C _ { 5 0 } }$ 可以用来比较不同诱导剂诱导能力的强弱 指南认为 根据目前了解的 CYP酶诱导的细胞学机制 如果一个诱导实验显示对CYPA 酶没有诱导作用 可以推断此药物对CYPC CYPC 和 CYPC 也没有诱导作用",
+        "bbox": [
+            500,
+            564,
+            953,
+            733
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\text{阳性对照} (\\%) = \\frac {(\\text {测试药物酶活性一阴性对照酶活性}) \\times 100}{(\\text {阳性对照酶活性一阴性对照酶活性})}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            253,
+            749,
+            717,
+            782
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "除直接测定酶活性方法外 还有一些其他的方法 应用特异性的抗体进行免疫印迹对酶进行定量 该方法需要解决电泳技术对不同 CYP酶的完全分离问题和抗体对 CYP酶的特异性问题应用RT-PCR技术测定细胞内特定酶的mRNA表达水平 要注意有时候 mRNA的表达水平与酶活性的关系不能确定 但是当酶诱导作用 mRNA水平上调 和酶抑制作用 酶活性下调 同时存在时mRNA的测定是有益的 对于受体介导的 CYP酶诱导作用可以采用受体基因测定的方法 细胞表面受体介导的 CYPACYPB和 CYPA酶诱导作用已经被确认 芳族碳氢化物受体 AhR 和孕甾烷X受体（PXR）结合实验和细胞基础上的报告基因分析已经被用来筛查化合物对 CYPA和 CYPA的酶诱导作用 同理 这种方法筛选的结果也不能完全反映酶的活性",
+        "bbox": [
+            11,
+            793,
+            468,
+            961
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            500,
+            793,
+            955,
+            961
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "国际药学研究杂志 年 月 第 卷 第 期",
+        "bbox": [
+            15,
+            10,
+            403,
+            27
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "·55.",
+        "bbox": [
+            893,
+            12,
+            939,
+            25
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "",
+        "bbox": [
+            34,
+            961,
+            961,
+            976
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/c04e500a55e1efa981951797dc22b5bb2ce27d99363c3ce8de22ddcb69f5bdd7.jpg",
+        "table_caption": [
+            "表7 体外酶诱导实验诱导剂的选择列表"
+        ],
+        "table_footnote": [
+            "实验采用的底物参考指南原文"
+        ],
+        "table_body": "<table><tr><td>CYP</td><td>首选诱导剂</td><td>浓度</td><td>诱导倍数</td><td>可选诱导剂</td><td>浓度</td><td>诱导倍数</td></tr><tr><td rowspan=\"3\">1A2</td><td>奥美拉唑</td><td>25~100</td><td>14~24</td><td>兰索拉唑</td><td>10</td><td>10</td></tr><tr><td>β萘黄酮</td><td>33~50</td><td>4~23</td><td></td><td></td><td></td></tr><tr><td>3甲基胆蒽</td><td>1, 2</td><td>6~26</td><td></td><td></td><td></td></tr><tr><td>2A6</td><td>地塞米松</td><td>50</td><td>9.4</td><td>吡唑</td><td>1 000</td><td>7.7</td></tr><tr><td>2B6</td><td>苯巴比妥</td><td>500~1 000</td><td>5~10</td><td>苯妥英</td><td>50</td><td>5~10</td></tr><tr><td>2C8</td><td>利福平</td><td>10</td><td>2~4</td><td>苯巴比妥</td><td>500</td><td>2~3</td></tr><tr><td>2C9</td><td>利福平</td><td>10</td><td>3.7</td><td>苯巴比妥</td><td>100</td><td>2.6</td></tr><tr><td>2C19</td><td>利福平</td><td>10</td><td>20</td><td></td><td></td><td></td></tr><tr><td>3A4</td><td>利福平</td><td>10~50</td><td>4~31</td><td>苯巴比妥</td><td>100~2 000</td><td>3~31</td></tr><tr><td></td><td></td><td></td><td></td><td>苯妥英</td><td>50</td><td>12.5</td></tr><tr><td></td><td></td><td></td><td></td><td>利福喷汀</td><td>50</td><td>9.3</td></tr><tr><td></td><td></td><td></td><td></td><td>曲格列酮</td><td>10~75</td><td>7</td></tr><tr><td></td><td></td><td></td><td></td><td>紫杉醇</td><td>4</td><td>5.2</td></tr><tr><td></td><td></td><td></td><td></td><td>地塞米松</td><td>33~250</td><td>2.9~6.9</td></tr></table>",
+        "bbox": [
+            13,
+            65,
+            955,
+            396
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "7 P-gp底物和抑制剂的体外实验研究",
+        "text_level": 2,
+        "bbox": [
+            15,
+            440,
+            360,
+            459
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "有多种体外实验方法用来考察药物是否是 Pgp的底物或抑制剂 最常见的方法见表 双向转运测定法由于更直接 因此被作为标准的方法ATP酶活性测定法和摄取 外排法可以用于快速筛选 但是不能区分是底物还是抑制剂 如果药物透过性 膜扩散能力 低 ATP酶法和荧光定量法常常无法识别是否是 $\\mathrm { P ^ { - } g p }$ 的底物 对高通透性化合物双向转运测定法也不适用",
+        "bbox": [
+            11,
+            462,
+            472,
+            630
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "表 列出了可以选择的探针底物 这些底物可以作为阳性对照 保证实验用细胞能够表达功能性的Pgp 而表 收录研究比较多的常用的 Pgp抑制剂。",
+        "bbox": [
+            11,
+            634,
+            468,
+            716
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "7∙1 双向转运实验确定药物是否是 P-gp的底物",
+        "text_level": 2,
+        "bbox": [
+            15,
+            720,
+            443,
+            738
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "选择好细胞系和 $\\mathrm { P ^ { - } g p } .$ 底物阳性对照后 遵循下列步骤完成实验 设计几个不同的药物浓度 如",
+        "bbox": [
+            13,
+            741,
+            467,
+            781
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "1, 10, $1 0 0 ~ \\mu _ { \\mathrm { m o l } } . ~ \\mathrm { L } ^ { - 1 }$ 考察 Pgp对药物的外排作用 实验开始前 将极性细胞组成的膜两侧的介质去掉 加入新的介质并孵育 $3 0 ~ \\mathrm { { m i n } }$ 进行双向膜转运通透性研究：在极性膜的 A侧 （apical侧腔侧顶区侧转运方向是 $\\mathrm { A } ^ {  } \\mathrm { B } \\mathrm { \\mathrm { ~ , ~ } }$ ）或 B侧 （basolateral侧 基底侧 转运方向是 $\\mathrm { \\textrm { B } } ^ { \\star } \\mathrm { \\textrm { A } }$ 加入适量体积的含有已知 $\\mathrm { P \\bar { \\ g p } } _ { \\mathbf { \\theta } }$ 底物或受试药物的缓冲液 在 $3 7 ^ { \\circ } \\mathrm { C }$ 孵育 在预定的时间 通常是 h收集受侧的介质测定药物浓度 同时迅速补充缓冲液 $( 5 ) \\boxed { \\mathsf { E } }$ 知 $\\mathrm { P \\mathrm { \\bar { \\ g p } , } }$ 底物作为阳性对照进行同样的实验；（6）当采用 LLCPK MDR 和 MDCKMDR 作为实验细胞系时 相应的野生型细胞系 LLCPK 和 MDCK作为阴性对照 每个实验至少在不同日期重复次 考察日间和日内变异情况 理想的实验还应该测定底物的回收率 来消除药物代谢和非特异性结合带来的误差",
+        "bbox": [
+            500,
+            439,
+            959,
+            782
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/27a0c4f8c41838086bf9585e53115fa262d9ac522389e274e02710cf1fae64de.jpg",
+        "table_caption": [
+            "表8 体外方法确证药物是 P-gp底物或抑制剂"
+        ],
+        "table_footnote": [
+            "(C)1994-2024 China Academic Journal Electronic Publishing House. All rights reserved.http://www.cnki.net"
+        ],
+        "table_body": "<table><tr><td>测定形式</td><td>组织</td><td>测定参数</td><td>备注</td></tr><tr><td>双向转运法(bi-directional transport)</td><td>Caco-2细胞,MDCK-MDR1细胞,LLC-PK1-MDR1细胞</td><td>药物自A→B和自B→A的净流出比率</td><td>直接测定跨膜流出的量评价P-gp的转运和抑制P-gp在膜上的定位和识别不能区分是底物还是抑制剂</td></tr><tr><td>摄取外排法(uptake/efflux)</td><td>肿瘤细胞,cDNA转染细胞,转运蛋白cDNA卵母细胞注射</td><td>抑制荧光探针药物钙黄绿素和若丹明-123的摄取或流出</td><td></td></tr><tr><td>ATP酶活性测定法(ATPase)</td><td>表达P-gp的不同的细胞膜载体,重组P-gp</td><td>ATP酶的激活</td><td>同摄取外排测定法,有时与P-gp功能性测定的相关性不好</td></tr></table>",
+        "bbox": [
+            13,
+            824,
+            955,
+            961
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "·56.",
+        "bbox": [
+            32,
+            12,
+            75,
+            24
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "InternationalJournalofPharmaceuticalResearch 2008Feb；35（1）",
+        "bbox": [
+            472,
+            12,
+            953,
+            25
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/cddeb23884da3b5e9e824fec5b699ea09be027ed41af598a51d53225ba0fab7a.jpg",
+        "table_caption": [
+            "表9 $\\mathsf { P } \\mathsf { \\ P }$ 体外实验可选底物"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"2\">药物</td><td rowspan=\"2\">测定浓度 $(\\mu mol \\cdot L^{-1})$ </td><td colspan=\"3\">比值</td></tr><tr><td>Caco-2</td><td>MDR1-MDCK</td><td>MDR1-LLCPK</td></tr><tr><td>地高辛</td><td>0.01~10</td><td>4~14</td><td>4</td><td>4</td></tr><tr><td>洛哌丁胺</td><td>1~10</td><td>2~5</td><td></td><td>3.4</td></tr><tr><td>奎尼丁</td><td>0.05</td><td>3</td><td></td><td>5</td></tr><tr><td>长春碱</td><td>0.004~10</td><td>2~18</td><td>&gt;9</td><td>3</td></tr><tr><td>他林洛尔(talinolol)</td><td>30</td><td>26</td><td></td><td></td></tr></table>",
+        "bbox": [
+            13,
+            65,
+            468,
+            244
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/d696d3dc8b87043163a94bfac1dc304ff26050095e4cbb373f71965a872e9d91.jpg",
+        "table_caption": [
+            "表10 体外 P-gp抑制剂"
+        ],
+        "table_footnote": [
+            "∗ 地高辛作为底物 ＃ 长春碱作为底物 a CYPA抑制剂 bCYPD 抑制剂"
+        ],
+        "table_body": "<table><tr><td rowspan=\"2\">抑制剂</td><td rowspan=\"2\">IC50 $(\\mu mol \\cdot L^{-1})$ Caco-2*</td><td colspan=\"3\"> $K_i(\\mu mol \\cdot L^{-1})$ </td></tr><tr><td>Caco-2*</td><td>MDCK-MDR1*</td><td>LLC-PK1MDR1#</td></tr><tr><td>环孢素a</td><td>1.3</td><td>0.5</td><td>2.2</td><td>1.3</td></tr><tr><td>酮康唑a</td><td>1.2</td><td></td><td></td><td>5.3</td></tr><tr><td>LY335979</td><td>0.024</td><td></td><td></td><td></td></tr><tr><td>那非那韦a</td><td>1.4</td><td></td><td></td><td></td></tr><tr><td>奎尼丁b</td><td>2.2</td><td>3.2</td><td>8.6</td><td></td></tr><tr><td>利托那韦a</td><td>3.8</td><td></td><td></td><td></td></tr><tr><td>沙奎那韦a</td><td>6.5</td><td></td><td></td><td></td></tr><tr><td>他克莫司</td><td>0.74</td><td></td><td></td><td></td></tr><tr><td>伐司扑达</td><td>0.11</td><td></td><td></td><td></td></tr><tr><td>维拉帕米</td><td>2.1</td><td>8</td><td>15</td><td>23</td></tr><tr><td>埃拉利达</td><td></td><td>0.4</td><td>0.4</td><td></td></tr><tr><td>利血平</td><td></td><td>1.4</td><td>11.5</td><td></td></tr></table>",
+        "bbox": [
+            13,
+            288,
+            468,
+            618
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "由于 Caco 野生型的 LLCPK 和 MDCK也能表达其他外排转运蛋白 因此在评价药物是否是 $\\mathrm { P ^ { - } g p }$ 底物时要谨慎为增加实验的可信性建议增加 P-gp抑制剂 选择参考表 存在下的底物验证实验 如果药物的外排可被 $\\mathrm { P ^ { - } g p }$ 抑制剂明显抑制则说明药物的外排与 $\\mathrm { P ^ { - } g p }$ 有关 指南还建议 可以通过实验对比 MDR 过度表达细胞 转染型细胞 和它们的野生型细胞对药物外排活性的差异 确定 Pgp在药物外排中的贡献大小 利用下列公式描述药物跨膜表观通透性",
+        "bbox": [
+            11,
+            683,
+            470,
+            894
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{P} _ {\\text { app }} = \\left(\\mathrm{V} _ {\\mathrm{r}} / \\mathrm{c} _ {0}\\right) (1 / \\mathrm{S}) (\\mathrm{dc} / \\mathrm{dt})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            133,
+            900,
+            348,
+            920
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "其中 Vr是极性膜受侧介质体积 c是指膜供侧实验药物的浓度 S是指极性细胞形成的膜的面积 dcdt是受侧介质药物浓度与时间曲线的斜率 准确计算$\\mathrm { { P _ { a p p } } }$ 必须要求受侧药物浓度与时间是直线关系。",
+        "bbox": [
+            11,
+            926,
+            472,
+            968
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            501,
+            47,
+            951,
+            88
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "药物经 $\\mathrm { P ^ { - } g p }$ 外排速率 $\\mathrm { R _ { E } }$ 可以通过下列公式计算：",
+        "bbox": [
+            500,
+            91,
+            951,
+            129
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{R} _ {\\mathrm{E}} = \\mathrm{P} _ {\\mathrm{B/A}} / \\mathrm{P} _ {\\mathrm{A/B}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            672,
+            136,
+            784,
+            154
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { P _ { B / A } }$ 和 $\\mathrm { P _ { A } }$ 分别代表受试药物 B→A和 $\\mathrm { A } ^ {  }$ B的跨膜表观通透性 当应用 Caco 细胞系时 $\\mathrm { R _ { E } }$ 可以直接测定 当应用 LLCPK MDR 和 MDCKMDR 作为实验细胞系时采用 $\\mathrm { R } { = } \\mathrm { R } _ { \\mathrm { T } } \\ \\mathrm { / R } _ { \\mathrm { W } }$ $\\mathrm { R _ { T } }$ 和 $\\mathrm { R } _ { \\mathbb { W } }$ 分别代表转染 MDR 基因和野生型的细胞系的 $\\mathrm { R _ { E } }$ 值",
+        "bbox": [
+            500,
+            162,
+            953,
+            269
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "7∙2 双向转运实验确定药物是否是 $\\mathrm { P ^ { - } g p }$ 抑制剂",
+        "text_level": 2,
+        "bbox": [
+            501,
+            272,
+            930,
+            291
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "选择合适的细胞系、 $\\mathrm { P } ^ { \\mathrm { - } } \\mathrm { g p } \\mathrm { : }$ 探针底物和已知 $\\mathrm { P ^ { - } g p }$ 抑制剂后 遵循下述方法开展实验 使用 $\\mathrm { C a c o ^ { - 2 } }$ 细胞系时 要使用无药介质作为空白对照 测试药物的浓度要适宜 当采用 LLCPK MDR 和MDCKMDR 作为实验细胞系时 相应的野生型细胞系 LLCPK 和 MDCK作为阴性对照 孵育细胞系 h后 去除孵育介质 换成浓度合适的 Pgp探针底物 参考表 孵育细胞系h后 测定受侧介质中 Pgp探针底物的浓度每个实验至少在不同日期重复 次 每个实验也要用至少 个极性细胞膜进行测定",
+        "bbox": [
+            500,
+            294,
+            957,
+            526
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "$\\mathbb { C } _ { 5 0 }$ 可以通过非线性回归后根据Hill公式计算",
+        "bbox": [
+            546,
+            530,
+            943,
+            548
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left(\\mathrm{R} _ {\\mathrm{Ei}} / \\mathrm{R} _ {\\mathrm{Ea}}\\right) = 1 - \\left[ \\left(\\mathrm{I} _ {\\max} \\times \\mathrm{I} ^ {\\mathrm{c}}\\right) / \\left(\\mathrm{I} ^ {\\mathrm{c}} + \\mathrm{IC} _ {5 0} ^ {\\mathrm{c}}\\right) \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            577,
+            556,
+            883,
+            574
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "其中 $( \\mathrm { { R _ { E i } } \\hbar \\mathrm { { R _ { E a } } } }$ ）代表在 $\\mathrm { P ^ { - } g p }$ 抑制剂存在（浓度为 I）时 $\\mathrm { P \\bar { \\ g p } \\bar { \\cdot } \\bar { \\ g p } \\bar { \\cdot } }$ 探针底物的外排速率与没有抑制剂时的外排速率 $\\mathrm { J _ { n a x } } \\mathrm { \\hat { \\Omega } }$ 代表最大抑制效应 c是希尔标绘法HillPlot指数 $\\mathbb { C } _ { 5 0 }$ 代表达到最大抑制效应一半时抑制剂的浓度",
+        "bbox": [
+            500,
+            582,
+            953,
+            688
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "7∙3 受试药是否是 $\\mathrm { P ^ { - } g p }$ 底物或抑制剂以及是否需要进行体内实验的判定流程见图 和图",
+        "text_level": 2,
+        "bbox": [
+            500,
+            692,
+            953,
+            733
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "7∙4 潜在 P-gp诱导药物的确定",
+        "text_level": 2,
+        "bbox": [
+            501,
+            735,
+            788,
+            753
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "$\\mathrm { P ^ { - } g p }$ 的表达可被诱导 已知的诱导剂包括利福平和圣约翰草。 $\\mathrm { P ^ { - } g p }$ 对其诱导剂的反应存在明显的物种差异 因此动物实验不能用来评价受试药对人 $\\mathrm { P ^ { - } g p }$ 的诱导效应 另外 $\\mathrm { P ^ { - } g p }$ 的表达也受PXR的调控 因此和 CYPA酶具有共诱导现象",
+        "bbox": [
+            500,
+            757,
+            953,
+            861
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Caco 缺乏 PXR不是研究 Pgp诱导作用的合适细胞系 文献报道人类结肠腺癌细胞 LS WT和其多柔比星抵抗亚系 LS AD 长春碱抵抗亚系 LS V 被用来研究 $\\mathrm { P ^ { - } g p }$ 和 CYPA酶的诱导效应",
+        "bbox": [
+            500,
+            864,
+            957,
+            965
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "国际药学研究杂志 年 月 第 卷 第 期",
+        "bbox": [
+            15,
+            10,
+            403,
+            27
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "·57·",
+        "bbox": [
+            893,
+            12,
+            939,
+            25
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "药物的浓度2oS是指极性细胞形成的膜的面rodcdublis座ouse.Allrights reserved.htp://www.cnki.net",
+        "bbox": [
+            34,
+            960,
+            961,
+            976
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/97f012ab66f42cf124b21aef7fbf7d0afbee2d19b9778fee65123287339caf13.jpg",
+        "image_caption": [
+            "图 2 受试药是否是 P-gp底物以及是否需要进行体内实验的流程图"
+        ],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n  A[\"双向转运实验法 Caco-2 或其他 MDR1超表达的极性上皮细胞系\"] --> B{净通量比率≥2}\n  A --> C{净通量比率<2}\n  B --> D[\"受试药的外排能否被 1 种或多种 P-gp 抑制剂显著性（净通量降低 >50%）抑制？\"]\n  C --> E[\"弱 P-gp 底物或非 P-gp 底物\"]\n  D --> F{是}\n  D --> G{不是}\n  F --> H[\"可能是 P-gp 底物\"]\n  G --> I[\"其他的药物外排系统参与药物转运\"]\n  H --> J[\"进行有 P-gp 抑制剂参与的体内药物相互作用研究\"]\n  I --> K[\"进一步研究哪种药物转运蛋白参与了药物外排\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            34,
+            54,
+            416,
+            378
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "指南指出目前体外评价 $\\mathrm { P ^ { - } g p }$ 诱导效应的适当方法没有确立 因此受试药潜在的 Pgp诱导活性只能通过体内实验评估 由于 $\\mathrm { C Y P 3 A }$ 和 Pgp具有类似的诱导机制 受试药对 CYPA的诱导结果可以用来推论试药对 $\\mathrm { P ^ { - } g p }$ 的诱导效应 如果体外实验没有发现受试药对 CYPA具有诱导效应 不必做CYPA和 $\\mathrm { P ^ { - } g p }$ 的体内考察实验 如果受试药体外诱导实验阳性而进行的 CYPA体内实验结果阴性无诱导作用 也不必进行受试药的 $\\mathrm { P ^ { - } g p }$ 的体内诱导实验 但是如果 CYPA体内实验显示有酶诱导作用 指南推荐受试药进行 Pgp敏感探针底物的体内诱导研究",
+        "bbox": [
+            11,
+            437,
+            468,
+            541
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/00924665e998eb7fc553db2ab31081317a959f5fceda559f1ee036e343f2b281.jpg",
+        "image_caption": [
+            "图3 受试药是否 P-gp抑制剂以及是否需要进行体内实验的流程图"
+        ],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n  A[\"双向转运实验法（含P-gp探针底物）: Caco-2或其他MDR1超表达的极性上皮细胞系\"] --> B[\"探针药物的净通量比率随着受试药浓度的增高而降低\"]\n  A --> C[\"探针药物的净通量比率不受受试药浓度的增高影响\"]\n  B --> D[\"测定K_i或IC50值\"]\n  C --> E[\"弱P-gp抑制剂或非P-gp抑制剂\"]\n  D --> F[\"[I\"]/IC50或K_i值>0.1]\n  D --> G[\"[I\"]/K_i或IC50值<0.1]\n  F --> H[\"推荐以地高辛为底物的体内相互作用实验\"]\n  G --> I[\"不必要进行包含P-gp底物的体内相互作用实验\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            519,
+            53,
+            930,
+            331
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            500,
+            391,
+            953,
+            538
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "（上接第49页 ）",
+        "bbox": [
+            19,
+            585,
+            135,
+            600
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "list",
+        "sub_type": "ref_text",
+        "list_items": [
+            "［26］ FriedrichHFussneggerBKolterKetal．Dissolutionrateimprovementofpoorlywater-solubledrugsobtainedbyadsorbingsolutionsofdrugsinhydrophilicsolventsontohighsurfaceareacar riersJ EurJPharmBiopharm",
+            "［27］ JavadzadehYJafari-NavimipourBNokhodchiA．Liquisolidtechniquefordissolutionrateenhancementofahighdosewater-insolubledrug（carbamazepine） ［J］．IntJPharm2007341（1／2）：26—34．",
+            "［28］ GaviniEHeggeABRassuGetal．Nasaladministrationof carbamazepineusingchitosanmicrospheres：invitro／invivostudiesJ IntJPharm"
+        ],
+        "bbox": [
+            17,
+            604,
+            472,
+            800
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "［29］ MüllerRHSchmidtSButtleIetal．SolEmuls● -noveltechnologyfortheformulationofiv emulsionswithpoorlysoluble drugsJ IntJPham",
+        "bbox": [
+            505,
+            584,
+            957,
+            636
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "［30］ AkkarAMüllerRH．Formulationofintravenouscarbamazepine emulsionsbySolEmuls● technology［J］．EurJPhamBiopharm 2003，55(3).305-312.",
+        "bbox": [
+            507,
+            638,
+            957,
+            689
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "［31］ KelmannRGKuminekGTeixeiraHFetal．Carbamazepineparenteralnanoemulsionspreparedbyspontaneousemulsificationprocess［J］．IntJPharm2007342（1／2）：231—239",
+        "bbox": [
+            507,
+            693,
+            957,
+            744
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "ref_text",
+        "text": "［32］ El-KamelAEl-KhatibM．Thermallyreversibleinsitugelling carbamazepineliquidsuppository J DrugDeliv (2):143-148.",
+        "bbox": [
+            507,
+            746,
+            957,
+            798
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "欢迎订阅欢迎投稿欢迎登录我刊网站",
+        "bbox": [
+            124,
+            876,
+            841,
+            909
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "·58·",
+        "bbox": [
+            32,
+            12,
+            75,
+            24
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "InternationalJournalofPharmaceuticalResearch",
+        "bbox": [
+            472,
+            12,
+            813,
+            25
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "2008Feb；35（1）",
+        "bbox": [
+            825,
+            12,
+            951,
+            25
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "",
+        "bbox": [
+            32,
+            958,
+            961,
+            976
+        ],
+        "page_idx": 8
+    }
+]

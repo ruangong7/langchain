@@ -1,0 +1,397 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "canonical_name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "埃索美拉唑",
+        "canonical_name": "埃索美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "泮托拉唑",
+        "canonical_name": "泮托拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "PPI",
+        "canonical_name": "质子泵抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "RA",
+        "canonical_name": "类风湿关节炎",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "SLE",
+        "canonical_name": "系统性红斑狼疮",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "痛风",
+        "canonical_name": "痛风",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "高尿酸血症",
+        "canonical_name": "高尿酸血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Food",
+        "name": "红肉",
+        "canonical_name": "红肉",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Food",
+        "name": "海鲜",
+        "canonical_name": "海鲜",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Food",
+        "name": "酒精",
+        "canonical_name": "酒精",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Food",
+        "name": "果糖",
+        "canonical_name": "果糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Food",
+        "name": "乳制品",
+        "canonical_name": "乳制品",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Food",
+        "name": "大豆食品",
+        "canonical_name": "大豆食品",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Food",
+        "name": "高嘌呤蔬菜",
+        "canonical_name": "高嘌呤蔬菜",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Food",
+        "name": "咖啡",
+        "canonical_name": "咖啡",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_16",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_16",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "风湿免疫界",
+          "chunk_index": 3044,
+          "raw_text": "研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡",
+          "chunk_id": "3044",
+          "data": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": 3044,
+    "source": "风湿免疫界",
+    "text": "。Jones博士指出，奥美拉唑和埃索美拉唑的药代动力学清除途径涉及CYP2C19和CYP3A4两种酶，而泮托拉唑的清除除以上两种酶以外，还包括CYP2D6和CYP2C9。 最后，Jones博士建议，在对RA和SLE患者进行治疗时，医生一定要询问患者是否同时服用PPI，包括OTC制剂。而临床研究者则需要注意潜在受试者的PPI使用情况。 原文：Drug-drug interactions in rheumatology patients on PPIs: An underappreciated problem?  Arthritis Rheumatol. 2018;70(Suppl 10): Abstract 228.与痛风和高尿酸血症风险相关的饮食因素有哪些？痛风与高尿酸血症都与嘌呤代谢紊乱有关。尽管现在人们普遍接受营养干预在痛风及高尿酸血症的综合治疗中起关键作用，但具体选用何种食物，在针对不同人群开展的不同研究中仍存在争议。比如，有些研究者建议避免食用富含嘌呤的蔬菜或大豆食品，而最近的流行病学研究却得到了完全相反的结论。因此，为了指导营养治疗策略的决策，作者进行了本项meta分析，以确定不同饮食因素与痛风、高尿酸血症发病率的关系。 研究者检索了PubMed和Embase数据库2017年6月以前的所有数据，共检索出符合要求的19个具有足够样本大小的前瞻性队列或横截面研究，全部涉及红肉、海鲜、酒精、果糖、乳制品、大豆食品、高嘌呤蔬菜和咖啡"
+  }
+]

@@ -1,0 +1,945 @@
+[
+  {
+    "type": "text",
+    "text": "Specialmanuscript",
+    "bbox": [
+      19,
+      85,
+      193,
+      101
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "专 稿",
+    "bbox": [
+      23,
+      104,
+      110,
+      128
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中西药物相互作用的研究进展",
+    "text_level": 1,
+    "bbox": [
+      193,
+      146,
+      808,
+      181
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "陈彬彬邹梅娟王琛程刚",
+    "bbox": [
+      333,
+      194,
+      656,
+      212
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "（沈阳药科大学药学院辽宁 沈阳 110016）",
+    "bbox": [
+      262,
+      215,
+      741,
+      234
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［摘要 ］ 对国内外中西药物相互作用的研究方法作一综述为中西药物结合研究提供参考。",
+    "bbox": [
+      73,
+      256,
+      768,
+      272
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "关键词 药物相互作用 药动学 药效学",
+    "bbox": [
+      75,
+      273,
+      405,
+      290
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "中药在我国以及东南亚国家广泛应用 在欧美国家也正逐渐得到重视。中药作为成分复杂、应用疗程较长的特殊药品对化学药 （西药 ） 的吸收、分布 代谢和排泄过程都会产生一定的影响 从而引起治疗作用的增强或减弱 毒 副反应的减少或增加 作用时间的延长或缩短 药物的相互作用分为药物代谢动力学相互作用和药效学相互作用。前者是指药物吸收 分布 代谢和排泄过程中 由于血药浓度 组织分布或活性代谢产物等变化引起的现象 后者是指一种药物与另一种药物配伍后 引起药效的累加 协同或拮抗 或者引起另一种药物组织敏感性的变化",
+    "bbox": [
+      11,
+      311,
+      480,
+      547
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "无论是正在开发的新药还是已经上市的药物只要是希望与其他药物共用 就应考虑药物的相互作用 根据药物的理化性质 药理作用 药代动力学 临床使用的各不相同 要选择合适的药物相互作用的研究方法。",
+    "bbox": [
+      13,
+      550,
+      480,
+      647
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "近年来 国外医药界对单味中药 部分方药与西药的相互作用已经进行了一些临床研究和探索本文对国外文献和研究指南中常用的方法进行总结。",
+    "bbox": [
+      13,
+      648,
+      480,
+      724
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1 药物代谢动力学相互作用",
+    "text_level": 2,
+    "bbox": [
+      19,
+      729,
+      278,
+      744
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1∙1吸收过程的药物相互作用",
+    "text_level": 2,
+    "bbox": [
+      19,
+      750,
+      284,
+      763
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "改变理化性质和胃动力学的药物 中药可以通过改变胃肠道的酸碱度 胃肠蠕动 胃排空时间的长短及在胃肠道内发生络合作用而影响西药的吸收 大多数药物在胃肠道是经过被动转运方式吸收 因此非解离型药物易跨过生物膜吸收 解离型则反之 一般情况下 酸性药物容易在胃吸收 碱性药物则易在肠道吸收 在中成药中 一些抗酸健胃的复方中药能提高胃肠道 pH值 引起酸碱性西药吸收的改变。含钙、镁、铝、铁等离子的中药能与大环内酯类药物发生络合反应 形成不溶解的络合物 使吸收减少 西药的血药浓度下降［1］ 通过改变物理化学性质或者胃动力学而发生相互作用的情况在具体的实验过程中较少体现。",
+    "bbox": [
+      13,
+      768,
+      480,
+      885
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      513,
+      311,
+      982,
+      448
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "被载体蛋白转运的药物 载体蛋白表达于肠道上皮细胞的质膜上 参与某些药物的吸收过程因此当同一载体蛋白参与多种药物和食物的转运时 吸收的竞争性抑制就会发生 抑制这些过程则增加药物的吸收 如果怀疑主动转运参与了药物胃肠道内的吸收和转运 利用体外实验系统检测这种参与的程度 是非常有用的 银杏叶 大豆异黄酮 水飞蓟等富含黄酮的中药 会与 P 糖蛋白多耐药相关蛋白 （MRP1）、乳腺癌耐药蛋白BCRP 等蛋白结合 从而发生黄酮 药物转运相互作用［2］。体外实验包括大鼠外翻肠囊法、在体肠吸收［3］ 固定化脂质体色谱［4］ 肠上皮细胞的细胞模型、P－糖蛋白［56］、原代肝细胞［7］等。",
+    "bbox": [
+      513,
+      450,
+      982,
+      705
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1∙2分布过程的药物相互作用",
+    "text_level": 2,
+    "bbox": [
+      519,
+      709,
+      784,
+      724
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "药物吸收后随血液循环被转运分布到各组织器官 药物分布不仅与药效有关 也与毒性有关 临床上 药效受药物分布和未结合药物浓度两种因素的影响 药物剂量和剂型必须提供足够高的未结合药物浓度 以保证有足够的药物到达药物的作用位点。",
+    "bbox": [
+      513,
+      728,
+      982,
+      844
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "当两种药物同时作用时 由于药物的相互作用 可能引起蛋白结合药物的置换 引起药物分布",
+    "bbox": [
+      513,
+      847,
+      980,
+      883
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "［通讯作者 ］ ∗ 程刚Tel： （024） 23986326E－mail：chenggang63＠hotmail∙com。",
+    "bbox": [
+      37,
+      902,
+      687,
+      917
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "4 ／SINO－TCM",
+    "bbox": [
+      53,
+      936,
+      181,
+      953
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "DOI:10．13313／j．issn．1673－4890．2007．11．010",
+    "bbox": [
+      25,
+      0,
+      363,
+      13
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "第9卷 第11期",
+    "bbox": [
+      17,
+      16,
+      152,
+      30
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "2007年 11月",
+    "bbox": [
+      21,
+      32,
+      130,
+      46
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "中国现代中药",
+    "bbox": [
+      217,
+      22,
+      361,
+      41
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Vol∙9No∙11",
+    "bbox": [
+      863,
+      16,
+      984,
+      30
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "header",
+    "text": "Nov",
+    "bbox": [
+      881,
+      32,
+      984,
+      45
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "footer",
+    "text": "中国知网https://www.cnki.net",
+    "bbox": [
+      35,
+      959,
+      377,
+      977
+    ],
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "改变 如果中西药物蛋白结合率均较高 大于90％ ）两个药物合用极有可能改变西药在体内的浓度 从而影响分布 改变药物效应 蛋白结合率约90％的中药数量多如盐酸去氢骆驼蓬碱蛋白结合率为 （87∙1±5∙3）％［8］克班宁注射液蛋白结合率为 ［9］ β 七叶皂苷蛋白结合率也大于90％［10］因此考察其相互作用的发生也是必要的。蛋白结合率的研究方法有平衡透析法 超滤法 微透析 凝胶过滤法 动力透析 超速离心法 高效迎头分析 旋光色散 圆二色散及毛细管电泳法等 ［11］。",
+    "bbox": [
+      11,
+      83,
+      480,
+      300
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "1∙3代谢过程的相互作用",
+    "text_level": 2,
+    "bbox": [
+      17,
+      303,
+      241,
+      319
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "药物代谢又称生物转化 是指机体对药物的化学处理过程。大多数中西药物在体内经过不同程度的氧化 还原 水解 结合等过程 其中氧化 还原和水解过程为一相代谢结合反应为二相代谢过程 体内药物代谢酶有专一性和非专一性催化酶前者如单胺氧化酶 后者如肝脏微粒体细胞色素P 酶系统 肝药酶 在发生药物代谢性相互作用的酶系统中多数作用与氧化代谢尤其是细胞色素 P－450有关。",
+    "bbox": [
+      11,
+      321,
+      480,
+      500
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "P 有 许 多 已 知 的 亚 型 如 CYPACYPC CYPC CYPD 和 CYPA 等 这些P 的底物宽泛 因此存在竞争性抑制 当一种酶参与药物的代谢时 口服抑制剂 各类同服药物 食物和饮料往往导致药物的相互作用",
+    "bbox": [
+      13,
+      501,
+      480,
+      599
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "中西药物并用时 由于各种化学成分对CYP酶系的不同影响 会发生药效和体内血药浓度的变化 据文献报道 干草［1213］ 五味子［12］ 圣约翰草［14］ （St∙John’swort）等具有不同亚型的 CYP酶诱导作用 与部分西药制剂合用 巴比妥类 苯妥英钠 安替比林 甲苯磺丁脲 咪哒唑仑［15］ 华发林［16］ 安定［17］ 等 有可能使西药代谢加速半衰期缩短药效减弱等。许多中药对不同亚型的药酶有不同程度的抑制作用 银杏叶提取物可能抑制 CYPA 和 CYPC 葡萄柚汁为 CYPA 抑制剂 大蒜中的硫化物可能为 CYPE 抑制剂 人参成分能抑制CYPE 等［18］ 中药能够通过诱导或者抑制肝药酶而改变通过同个酶系代谢的西药 影响其曲线下面积 （AUC） 或最大浓度 （C ）。",
+    "bbox": [
+      11,
+      601,
+      480,
+      878
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "研究代谢相互作用的方法主要有体外 体内和计算机模拟方法",
+    "bbox": [
+      13,
+      880,
+      480,
+      917
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "体外研究中西药物相互作用的方法有肝微粒体、肝匀浆、肝切片、原代肝细胞和 cDNA重组酶等［19］。其中肝微粒体体系由于方便快捷易得条件易于控制重现性好适于大批量操作而被广泛用于药物对CYP酶的作用 药物相互作用等方面的研究 实验中 利用代表性底物 在体外进行抑制实验目的是预测由 P450抑制引起的药物相互作用 如果发现了明显的抑制 应该测定动力学参数如 Ki（抑制常数inhibitionconstant）并估计药物相互作用的可能性［2021］。P－450各主要亚型的底物、诱导剂、抑制剂及探针见表1。",
+    "bbox": [
+      513,
+      83,
+      982,
+      299
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "img_path": "images/113d3162cb264159df9e8a38a95df1e503af1c2c59f0054db246aa6641df1918.jpg",
+    "table_caption": [
+      "表1 P－450各主要亚型的底物、 诱导剂、 抑制剂及探针"
+    ],
+    "table_footnote": [],
+    "table_body": "<table><tr><td>酶亚型</td><td>典型底物</td><td>诱导剂</td><td>抑制剂</td><td>探针</td></tr><tr><td>CYP1A2</td><td>咖啡因茶碱</td><td>烟草熏肉</td><td>氟伏沙明</td><td>咖啡因</td></tr><tr><td>CYP2C9</td><td>华法林特布他林</td><td>巴比妥盐利福平</td><td>磺胺苯吡唑</td><td>特布他林</td></tr><tr><td>CYP2C19</td><td>美芬妥英奥美拉唑</td><td>巴比妥盐利福平</td><td></td><td>S-美芬妥英</td></tr><tr><td>CYP2D6</td><td>丙咪嗪美托洛尔</td><td>巴比妥盐利福平</td><td>奎尼丁</td><td>右美沙芬</td></tr><tr><td>CYP2E1</td><td>对乙酰氨基酚乙醇</td><td>异烟肼乙醇</td><td>双硫仑</td><td>氯唑沙宗</td></tr><tr><td>CYP3A4</td><td>环孢素维拉帕米尼非地平</td><td>苯妥英巴比妥盐利福平</td><td>酮康唑维拉帕米红霉素</td><td>红霉素咪哒唑仑</td></tr><tr><td>CYP3A5</td><td>环孢素</td><td>巴比妥盐利福平</td><td>酮康唑红霉素</td><td>红霉素</td></tr></table>",
+    "bbox": [
+      519,
+      325,
+      980,
+      609
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "鸡尾酒体外探针法是在体外肝微粒体体系中同时孵育药物和多个特异性 CYP 特异性探针底物 通过探针的代谢物生成量的变化来反映药物对CYP 酶亚型活性的影响［22］ 可实现快速 高通量的中草药成分对 CYP 亚型体外抑制作用的筛选 实验的同时 对先导化合物不同衍生物的 IC进行比较 还可以得出化学结构 代谢行为关系",
+    "bbox": [
+      513,
+      623,
+      982,
+      758
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "原代肝细胞的培养是研究中草药对药物代谢酶影响 评价中草药 化学药相互作用的体外常用模型 可以从分子水平评价中草药对药物代谢酶的mRNA、蛋白表达水平及酶活性的影响［7］。",
+    "bbox": [
+      513,
+      761,
+      982,
+      839
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "计算机模拟药物相互作用的方法用于研究药物对CYP等代谢酶的作用 如结构 活性关系 三维定量结构 －活性关系药效基团模拟等［23］。计算机模拟方法的运用可极大地加快中草药对CYP等代谢酶作用 中草药 化学药代谢性相互作用等的研究进展。",
+    "bbox": [
+      513,
+      840,
+      982,
+      917
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "第9卷 第11期2007年11月",
+    "bbox": [
+      15,
+      15,
+      152,
+      47
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "中国现代中药",
+    "bbox": [
+      217,
+      22,
+      361,
+      42
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "header",
+    "text": "Vol No Nov",
+    "bbox": [
+      863,
+      16,
+      984,
+      45
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "SINO TCM",
+    "bbox": [
+      822,
+      939,
+      905,
+      953
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "page_number",
+    "text": "5",
+    "bbox": [
+      940,
+      936,
+      958,
+      953
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "footer",
+    "text": "中国知网https://www.cnki.net",
+    "bbox": [
+      35,
+      959,
+      377,
+      977
+    ],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      13,
+      83,
+      480,
+      121
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "虽然体外模型能提供快速 高通量的研究中西药物相互作用的手段和方法 但体内的相互作用研究仍有着不可取代的重要地位 体内研究方法可以从整体动物实验和鸡尾酒体内探针法两个方面着手。整体动物实验是指给予实验动物一定剂量的中草药 考察其对探针底物在动物体内药动学的影响同时注意动物数据外推至人的种属差异。鸡尾酒体内探针法是给予受试动物一定剂量的中草药后 再给予一定剂量一定比例的鸡尾酒组成 观察其代谢物生成情况。应用鸡尾酒体内探药试验来考察植物药对体内人肝CYP活性的影响方法简便快速将有利于积极预测和避免植物药与西药之间发生的不利相互作用［11］",
+    "bbox": [
+      11,
+      123,
+      480,
+      378
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "实验中 可以根据药物相互作用的程度 进行动物实验研究来获取体内外的相关性资料 预测体内的相互作用可能性",
+    "bbox": [
+      13,
+      382,
+      480,
+      439
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "1∙4排泄过程的相互作用",
+    "text_level": 2,
+    "bbox": [
+      19,
+      441,
+      243,
+      458
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "肾脏排泄过程中药物的相互作用 药物及其代谢物主要经过肾脏排泄排泄方式为肾小球滤过 肾小管重吸收和肾小管的主动分泌 如果中药和西药通过相同机制排泄联用时可在排泄部位发生竞争抑制",
+    "bbox": [
+      13,
+      460,
+      480,
+      558
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "药物在肾小管重吸收受到尿液 pH值的影响在肾小管滤液中存在着解离型和非解离型药物 脂溶性高的非解离型药物易被肾小管重吸收而排泄慢；水溶性高的解离型药物不易被重吸收而排泄较快 许多中药及其制剂能酸化或碱化尿液 从而影响西药的解离 影响排泄的快慢 酸性中药如乌梅 山楂 女贞子 山茱萸 五味子及大部分含有相关成分的中成药及汤剂 碱性中药如硼砂等 酸性药物的相互作用比碱性药物的相互作用报道得多 也有些药物通过他们的代谢产物和配伍用药相互作用 如果药物是被大量地分泌到肾小管滤液中而且肾清除率很高 就有必要考虑药物在肾脏排泄过程中相互作用的可能［111］",
+    "bbox": [
+      11,
+      561,
+      480,
+      818
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "胆汁排泄过程中药物的相互作用 相对分子质量超过 的药物主要由胆汁排泄 同时这些药物还要求具有强的极性基团 许多排入胆汁的药物是代谢物 常见葡萄糖醛酸结合物 如灯盏花乙素 ［24］ 染料木黄酮 ［25］ 清胆合剂 ［26］ 丹参酮 ［27］等皆为胆汁排泄 由于借助于载体蛋白 因此可能存在药物相互作用 从而影响血浆中的药物的AUC 同时肝肠循环的存在可能影响药物的保留时间。",
+    "bbox": [
+      13,
+      820,
+      480,
+      917
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "",
+    "bbox": [
+      513,
+      83,
+      980,
+      160
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "预测胆汁排泄和尿液排泄过程中药物的相互作用可以利用人组织源性的样品、细胞表达的载体蛋白［28］进行体外抑制实验研究。",
+    "bbox": [
+      513,
+      164,
+      980,
+      220
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2 药效学相互作用",
+    "text_level": 2,
+    "bbox": [
+      519,
+      224,
+      697,
+      241
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "药效学中的中西药物相互作用可能改变效应器官对相同浓度药物的敏感性表现在同一受体部位或相同生理系统上作用的相加 （1＋1＝2）、协同（1＋1＞2） 或拮抗 （1＋1＜1）［1］。",
+    "bbox": [
+      515,
+      244,
+      980,
+      321
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2∙1相同受体上的中西药物相互作用",
+    "text_level": 2,
+    "bbox": [
+      519,
+      325,
+      847,
+      340
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "即受体激动剂和受体拮抗剂间的竞争性拮抗作用 如中成药洋金花中的莨菪碱及阿托品等 可拮抗 M 胆碱能受体激动剂 鸦片中的吗啡能与纳洛酮竞争性拮抗等",
+    "bbox": [
+      513,
+      344,
+      980,
+      421
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2∙2敏感化现象",
+    "text_level": 2,
+    "bbox": [
+      519,
+      425,
+      662,
+      441
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "一种药物可以使组织或受体对另一药物的敏感性增强 即为敏感化现象 如长期服用胍乙啶后使肾上腺受体敏感性增高 去甲肾上腺素的升压反应大为增强。",
+    "bbox": [
+      513,
+      444,
+      980,
+      521
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2∙3在中枢神经系统的中西药相互作用",
+    "text_level": 2,
+    "bbox": [
+      519,
+      525,
+      867,
+      541
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "如中药麻黄及其制剂常用于哮喘 但有中枢兴奋作用 与中枢系统抑制药巴比妥类等合用则互相拮抗。",
+    "bbox": [
+      513,
+      544,
+      980,
+      601
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "2∙4在心脏的中西药相互作用",
+    "text_level": 2,
+    "bbox": [
+      519,
+      604,
+      784,
+      621
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "如中药甘草与强心苷类药物合用 可使强心苷中毒率增加等［29］ 。",
+    "bbox": [
+      515,
+      625,
+      980,
+      661
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "总之 中西药物相互作用是一个比较复杂的过程 较之西药之间的相互作用 由于中药复杂的成分 对其机制的研究更为重要 本文介绍了相互作用研究过程中可能涉及到的方法 在具体实验当中 应当根据中西药的化学成分 理化性质 药动学参数 药理作用 药代动力学和药效动力学特点来选择合适的实验 从而指导临床安全合理的用药",
+    "bbox": [
+      513,
+      665,
+      980,
+      821
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "参考文献",
+    "text_level": 2,
+    "bbox": [
+      705,
+      845,
+      792,
+      861
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [
+      "朱建华 中西药物相互作用 M 北京 人民卫生出版社，2006.7-25.",
+      "［2］MarilynEMorrisShuzhongZhang∙Flavonoid-druginterac-",
+      "tions：EffectsofflavonoidsonABCtransporters［J］∙Life Science",
+      "唐晓荞 杨祥良 灯盏花素磷脂复合物改善大鼠小肠吸收的研究 J 中国中药杂志",
+      "［4］ 盛亮洪李睿岩李萍等∙固定化脂质体色谱研究中药复方的细胞膜通透性成分及其质量控制 J 分析化学2004,32(12):1595-1598.",
+      "［5］ DepartmentofHealthandHumanServicesFDA∙Druginteractionstudies-studydesigndataanalysisaimplica tions for dosing and labeling （draft ） ［ M ］ ∙ Rockville",
+      "［6］ 宋娟刘晓磊彭文兴∙P-糖蛋白介导药物相互作用的细胞模 型 研 究 概 况 ［J］ ∙中 国 药 房200617（15）：1183-1185.",
+      "鲁鑫焱 蒋惠娣 曾苏 黄酮类化合物在原代肝细胞上的代谢和药物相互作用研究进展 J 药学学报41(12)，1130-1135.",
+      "王长虹 邹小广 孙殿甲 等 盐酸去氢骆驼蓬碱血浆蛋白结合率的测定 ［J］∙中国医院药学杂志200525（2）：99-101.",
+      "商庆节 马云淑 程欣 克班宁与大鼠血浆蛋白结合的初步研究 J 云南中医学院学报",
+      "［10］ 董雪玲∙浅谈 β-七叶皂苷钠在结核脑膜炎中的临床应用 J 中华中西医学杂志",
+      "［11］ LeonShargelSusannaWu-PongAndrewB∙C∙Yu∙Appliedbiopharmaceuticsandpharmaco-kinetics∙Fifthedition ［ M ］ ∙Mc Graw-Hill／Appleton ＆ Lange 2005.270-282.",
+      "张锦楠 李亚伟 徐艳霞 等 甘草和五味子对大鼠肝微粒体 CYP 诱导作用的研究 J 中国药学杂志2002,37(6):424-426.",
+      "［13］ NengZhouYiZengLiangPingWang∙18-Glycyrrhetinic acidinteractionwithbovineserumalbumin［J］∙Journalof PhotochemistryandPhotobiologyA：Chemistry 185,271-276.",
+      "WatkinsRE MaglichJM MooreLB etal Crystal structureofhumanPXRincomplexwiththeSt∙John’s wortcompoundhyperforin J Biochemistry (6)：1430-1438.",
+      "［15］ MarkowitzJ∙S∙DeVaneC∙L∙BoultonD∙W∙etal∙ EffectofSt∙John’swort（Hypericumperforatum）onCy tochromeP D and A activityinhealthyvolunteers J LifeSciences",
+      "［16］ YueQYBergquistCGerdenB∙SafetyofSt∙John’swort（Hypericum perforatum） ［J］∙Lancet2000355",
+      "(9203): 576-577.",
+      "［17］ MarkowitzJSDonovanJLDeVaneCLetal∙Effectof St∙John’swortondrugmetabolismbyinductionofcytochromeP450－3A4enzyme［J］∙JournaloftheAmerican MedicalAssociation",
+      "［18］ MaryL∙ChavezMelanieA∙Jordanetal∙Evidencebaseddrugherbalinteractions J LifeSciences 78.2146-2157.",
+      "王海学 邓巧琳 CYP s体外重组技术及在药物代谢和安全性评价中的应用 J 中国药理学通报(6):621-624.",
+      "［20］ AshrafMozayaniPharmD PhD LionelP∙ Raymon∙Handbookofdruginteraction［M ］∙HumanaPressInc2004.599-631.",
+      "［21］ DavidI∙Min∙CytochromeP450∙EncyclopediaofClinical Pharmacy［M］∙MarcelDekker2003∙246-251∙",
+      "［22］ MiiaTurpeinenUusitaloJoukoJalonenJormaetal∙ MultipleP450substratesinasinglerun：rapidandcomprehensiveinvitrointeractionassay［J］∙EuropeanJournal ofPharmaceuticalSciences",
+      "徐娟 王林编译 计算机辅助药物设计中的 QSPRQSAR和 QSMR研究 J 国外医学 药学分册(3):135-138.",
+      "［24］ XiuhuaHaoGangChengJinSunetal∙Validationofan HPLCmethodforthedeterminationofscutellarininrat plasmaanditspharmacokinetics［J］∙JournalofPharmaceuticaland BiomedicalAnalysis 360-363.",
+      "周四元 刘新友 滕增辉 等 不同剂量染料木黄酮及其代谢产物在大鼠胆汁中的排泄动力学 J 药学学报2006,41(8).752-755.",
+      "曹瑀 江宁东 沈德海 等 清胆合剂治疗胆道术后胆汁排泄不畅 例 J 广西中医药",
+      "田葆萍 袁志芳 张兰桐 丹参及其制剂的体内药代动力学研究概述 J 中国药房",
+      "［28］ NikolaosKouvatsosVictoriaThurstonKathrynBallet al∙BileAcidinteractionswithrabbitileallipidbinding proteinandanengineeredhelixlessvariantrevealnovellig andbindingpropertiesofaversatileβClamShellprotein scaffoldJ J MolBiol",
+      "［29］ SSatyanarayanaEswarKKilari∙Influenceofnicorandil onthepharmacodynamicsandpharmacokineticsofgliclaz ideinratsandrabbitsJ Molecularandcellularbiochemistry"
+    ],
+    "bbox": [
+      519,
+      864,
+      984,
+      917
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "第9卷 第11期2007年11月",
+    "bbox": [
+      15,
+      15,
+      152,
+      47
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "中国现代中药",
+    "bbox": [
+      217,
+      22,
+      361,
+      42
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "header",
+    "text": "Vol No Nov",
+    "bbox": [
+      863,
+      16,
+      984,
+      45
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "page_number",
+    "text": "6",
+    "bbox": [
+      55,
+      936,
+      75,
+      952
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "SINO－TCM",
+    "bbox": [
+      98,
+      940,
+      181,
+      953
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "footer",
+    "text": "中国知网https://www.cnki.net",
+    "bbox": [
+      35,
+      959,
+      375,
+      977
+    ],
+    "page_idx": 2
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      19,
+      82,
+      486,
+      890
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "list",
+    "sub_type": "ref_text",
+    "list_items": [],
+    "bbox": [
+      519,
+      82,
+      988,
+      872
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "（收稿日期 2007-09-24）",
+    "bbox": [
+      784,
+      875,
+      982,
+      890
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "第9卷 第11期2007年11月",
+    "bbox": [
+      15,
+      15,
+      152,
+      47
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "中国现代中药",
+    "bbox": [
+      217,
+      22,
+      361,
+      42
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "header",
+    "text": "Vol No Nov",
+    "bbox": [
+      863,
+      16,
+      984,
+      45
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "SINO TCM",
+    "bbox": [
+      822,
+      939,
+      905,
+      953
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "page_number",
+    "text": "7",
+    "bbox": [
+      942,
+      936,
+      958,
+      953
+    ],
+    "page_idx": 3
+  },
+  {
+    "type": "footer",
+    "text": "中国知网https://www.cnki.net",
+    "bbox": [
+      35,
+      959,
+      375,
+      977
+    ],
+    "page_idx": 3
+  }
+]
