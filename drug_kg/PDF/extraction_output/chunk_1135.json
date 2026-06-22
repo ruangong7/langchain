@@ -1,0 +1,165 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "氟康唑",
+        "canonical_name": "氟康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "canonical_name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "地尔硫䓬",
+        "canonical_name": "地尔硫䓬",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "烟曲霉素",
+        "canonical_name": "烟曲霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "FK血药浓度",
+        "canonical_name": "FK血药浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+          "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+          "raw_text": "利福平对CYP的诱导作用非常强甚至足以抵消该酶抑制剂地尔硫䓬、氟康唑和克拉霉素的作用",
+          "chunk_id": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+          "data": "溃疡而给予氟康唑和克拉霉素在此期间并未发现 FK 血药浓度升高第天停用利福平并将 FK506剂量降至 $1 2 _ { \\mathrm { ~ m ~ g ~ } } \\cdot \\mathrm { ~ d ~ } ^ { - 1 }$ 。FK506血药浓度仍缓慢上升至第天为 $\\mu _ { \\textrm { g } } \\cdot \\textrm { L } ^ { - 1 } .$ 并持续上升第天调整剂量降为 $8 \\mathrm { m g \\bullet \\ d ^ { - 1 } }$ 最终在第天达到 FK 的治疗浓度 ［27］ 此病例说明利福平对 CYP 的诱导作用非常强甚至足以抵消该酶抑制剂地尔硫 $☉$ 氟康唑和克拉霉素的作用临床上应予以足够重视2∙2∙4 夫马洁林 （烟曲霉素fumagillin） 1例 49岁男性肾移植患者使用 FK 每日次每次 $\\mathrm { 1 0 ~ _ { m g } ) }$ 强的松霉酚酸酯进行免疫抑制疗法因真菌感染而使用烟曲霉素疗程第天 FK 血药浓度从 $1 0 ~ \\mu _ { \\mathrm { ~ g ~ } } \\cdot _ { \\mathrm { ~ L ~ } }$ －1降至 $3 . 5 \\ \\mu _ { \\mathrm { g } } .$ $\\mathrm { ~ L ~ } ^ { - 1 }$ 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+          "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+          "raw_text": "溃疡而给予氟康唑和克拉霉素在此期间并未发现FK血药浓度升高",
+          "chunk_id": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+          "data": "溃疡而给予氟康唑和克拉霉素在此期间并未发现 FK 血药浓度升高第天停用利福平并将 FK506剂量降至 $1 2 _ { \\mathrm { ~ m ~ g ~ } } \\cdot \\mathrm { ~ d ~ } ^ { - 1 }$ 。FK506血药浓度仍缓慢上升至第天为 $\\mu _ { \\textrm { g } } \\cdot \\textrm { L } ^ { - 1 } .$ 并持续上升第天调整剂量降为 $8 \\mathrm { m g \\bullet \\ d ^ { - 1 } }$ 最终在第天达到 FK 的治疗浓度 ［27］ 此病例说明利福平对 CYP 的诱导作用非常强甚至足以抵消该酶抑制剂地尔硫 $☉$ 氟康唑和克拉霉素的作用临床上应予以足够重视2∙2∙4 夫马洁林 （烟曲霉素fumagillin） 1例 49岁男性肾移植患者使用 FK 每日次每次 $\\mathrm { 1 0 ~ _ { m g } ) }$ 强的松霉酚酸酯进行免疫抑制疗法因真菌感染而使用烟曲霉素疗程第天 FK 血药浓度从 $1 0 ~ \\mu _ { \\mathrm { ~ g ~ } } \\cdot _ { \\mathrm { ~ L ~ } }$ －1降至 $3 . 5 \\ \\mu _ { \\mathrm { g } } .$ $\\mathrm { ~ L ~ } ^ { - 1 }$ 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+          "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+          "raw_text": "溃疡而给予氟康唑和克拉霉素在此期间并未发现FK血药浓度升高",
+          "chunk_id": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+          "data": "溃疡而给予氟康唑和克拉霉素在此期间并未发现 FK 血药浓度升高第天停用利福平并将 FK506剂量降至 $1 2 _ { \\mathrm { ~ m ~ g ~ } } \\cdot \\mathrm { ~ d ~ } ^ { - 1 }$ 。FK506血药浓度仍缓慢上升至第天为 $\\mu _ { \\textrm { g } } \\cdot \\textrm { L } ^ { - 1 } .$ 并持续上升第天调整剂量降为 $8 \\mathrm { m g \\bullet \\ d ^ { - 1 } }$ 最终在第天达到 FK 的治疗浓度 ［27］ 此病例说明利福平对 CYP 的诱导作用非常强甚至足以抵消该酶抑制剂地尔硫 $☉$ 氟康唑和克拉霉素的作用临床上应予以足够重视2∙2∙4 夫马洁林 （烟曲霉素fumagillin） 1例 49岁男性肾移植患者使用 FK 每日次每次 $\\mathrm { 1 0 ~ _ { m g } ) }$ 强的松霉酚酸酯进行免疫抑制疗法因真菌感染而使用烟曲霉素疗程第天 FK 血药浓度从 $1 0 ~ \\mu _ { \\mathrm { ~ g ~ } } \\cdot _ { \\mathrm { ~ L ~ } }$ －1降至 $3 . 5 \\ \\mu _ { \\mathrm { g } } .$ $\\mathrm { ~ L ~ } ^ { - 1 }$ 。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+          "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+          "raw_text": "利福平对CYP的诱导作用非常强甚至足以抵消该酶抑制剂地尔硫䓬、氟康唑和克拉霉素的作用",
+          "chunk_id": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+          "data": "溃疡而给予氟康唑和克拉霉素在此期间并未发现 FK 血药浓度升高第天停用利福平并将 FK506剂量降至 $1 2 _ { \\mathrm { ~ m ~ g ~ } } \\cdot \\mathrm { ~ d ~ } ^ { - 1 }$ 。FK506血药浓度仍缓慢上升至第天为 $\\mu _ { \\textrm { g } } \\cdot \\textrm { L } ^ { - 1 } .$ 并持续上升第天调整剂量降为 $8 \\mathrm { m g \\bullet \\ d ^ { - 1 } }$ 最终在第天达到 FK 的治疗浓度 ［27］ 此病例说明利福平对 CYP 的诱导作用非常强甚至足以抵消该酶抑制剂地尔硫 $☉$ 氟康唑和克拉霉素的作用临床上应予以足够重视2∙2∙4 夫马洁林 （烟曲霉素fumagillin） 1例 49岁男性肾移植患者使用 FK 每日次每次 $\\mathrm { 1 0 ~ _ { m g } ) }$ 强的松霉酚酸酯进行免疫抑制疗法因真菌感染而使用烟曲霉素疗程第天 FK 血药浓度从 $1 0 ~ \\mu _ { \\mathrm { ~ g ~ } } \\cdot _ { \\mathrm { ~ L ~ } }$ －1降至 $3 . 5 \\ \\mu _ { \\mathrm { g } } .$ $\\mathrm { ~ L ~ } ^ { - 1 }$ 。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+          "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+          "raw_text": "因真菌感染而使用烟曲霉素疗程第天FK血药浓度从10μg·L-1降至3.5μg·L-1",
+          "chunk_id": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+          "data": "溃疡而给予氟康唑和克拉霉素在此期间并未发现 FK 血药浓度升高第天停用利福平并将 FK506剂量降至 $1 2 _ { \\mathrm { ~ m ~ g ~ } } \\cdot \\mathrm { ~ d ~ } ^ { - 1 }$ 。FK506血药浓度仍缓慢上升至第天为 $\\mu _ { \\textrm { g } } \\cdot \\textrm { L } ^ { - 1 } .$ 并持续上升第天调整剂量降为 $8 \\mathrm { m g \\bullet \\ d ^ { - 1 } }$ 最终在第天达到 FK 的治疗浓度 ［27］ 此病例说明利福平对 CYP 的诱导作用非常强甚至足以抵消该酶抑制剂地尔硫 $☉$ 氟康唑和克拉霉素的作用临床上应予以足够重视2∙2∙4 夫马洁林 （烟曲霉素fumagillin） 1例 49岁男性肾移植患者使用 FK 每日次每次 $\\mathrm { 1 0 ~ _ { m g } ) }$ 强的松霉酚酸酯进行免疫抑制疗法因真菌感染而使用烟曲霉素疗程第天 FK 血药浓度从 $1 0 ~ \\mu _ { \\mathrm { ~ g ~ } } \\cdot _ { \\mathrm { ~ L ~ } }$ －1降至 $3 . 5 \\ \\mu _ { \\mathrm { g } } .$ $\\mathrm { ~ L ~ } ^ { - 1 }$ 。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+          "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+          "raw_text": "FK506血药浓度仍缓慢上升",
+          "chunk_id": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+          "data": "溃疡而给予氟康唑和克拉霉素在此期间并未发现 FK 血药浓度升高第天停用利福平并将 FK506剂量降至 $1 2 _ { \\mathrm { ~ m ~ g ~ } } \\cdot \\mathrm { ~ d ~ } ^ { - 1 }$ 。FK506血药浓度仍缓慢上升至第天为 $\\mu _ { \\textrm { g } } \\cdot \\textrm { L } ^ { - 1 } .$ 并持续上升第天调整剂量降为 $8 \\mathrm { m g \\bullet \\ d ^ { - 1 } }$ 最终在第天达到 FK 的治疗浓度 ［27］ 此病例说明利福平对 CYP 的诱导作用非常强甚至足以抵消该酶抑制剂地尔硫 $☉$ 氟康唑和克拉霉素的作用临床上应予以足够重视2∙2∙4 夫马洁林 （烟曲霉素fumagillin） 1例 49岁男性肾移植患者使用 FK 每日次每次 $\\mathrm { 1 0 ~ _ { m g } ) }$ 强的松霉酚酸酯进行免疫抑制疗法因真菌感染而使用烟曲霉素疗程第天 FK 血药浓度从 $1 0 ~ \\mu _ { \\mathrm { ~ g ~ } } \\cdot _ { \\mathrm { ~ L ~ } }$ －1降至 $3 . 5 \\ \\mu _ { \\mathrm { g } } .$ $\\mathrm { ~ L ~ } ^ { - 1 }$ 。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+          "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+          "raw_text": "利福平对CYP的诱导作用非常强甚至足以抵消该酶抑制剂地尔硫䓬、氟康唑和克拉霉素的作用",
+          "chunk_id": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+          "data": "溃疡而给予氟康唑和克拉霉素在此期间并未发现 FK 血药浓度升高第天停用利福平并将 FK506剂量降至 $1 2 _ { \\mathrm { ~ m ~ g ~ } } \\cdot \\mathrm { ~ d ~ } ^ { - 1 }$ 。FK506血药浓度仍缓慢上升至第天为 $\\mu _ { \\textrm { g } } \\cdot \\textrm { L } ^ { - 1 } .$ 并持续上升第天调整剂量降为 $8 \\mathrm { m g \\bullet \\ d ^ { - 1 } }$ 最终在第天达到 FK 的治疗浓度 ［27］ 此病例说明利福平对 CYP 的诱导作用非常强甚至足以抵消该酶抑制剂地尔硫 $☉$ 氟康唑和克拉霉素的作用临床上应予以足够重视2∙2∙4 夫马洁林 （烟曲霉素fumagillin） 1例 49岁男性肾移植患者使用 FK 每日次每次 $\\mathrm { 1 0 ~ _ { m g } ) }$ 强的松霉酚酸酯进行免疫抑制疗法因真菌感染而使用烟曲霉素疗程第天 FK 血药浓度从 $1 0 ~ \\mu _ { \\mathrm { ~ g ~ } } \\cdot _ { \\mathrm { ~ L ~ } }$ －1降至 $3 . 5 \\ \\mu _ { \\mathrm { g } } .$ $\\mathrm { ~ L ~ } ^ { - 1 }$ 。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_6",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+          "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+          "raw_text": "因真菌感染而使用烟曲霉素疗程第天FK血药浓度从10μg·L-1降至3.5μg·L-1",
+          "chunk_id": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+          "data": "溃疡而给予氟康唑和克拉霉素在此期间并未发现 FK 血药浓度升高第天停用利福平并将 FK506剂量降至 $1 2 _ { \\mathrm { ~ m ~ g ~ } } \\cdot \\mathrm { ~ d ~ } ^ { - 1 }$ 。FK506血药浓度仍缓慢上升至第天为 $\\mu _ { \\textrm { g } } \\cdot \\textrm { L } ^ { - 1 } .$ 并持续上升第天调整剂量降为 $8 \\mathrm { m g \\bullet \\ d ^ { - 1 } }$ 最终在第天达到 FK 的治疗浓度 ［27］ 此病例说明利福平对 CYP 的诱导作用非常强甚至足以抵消该酶抑制剂地尔硫 $☉$ 氟康唑和克拉霉素的作用临床上应予以足够重视2∙2∙4 夫马洁林 （烟曲霉素fumagillin） 1例 49岁男性肾移植患者使用 FK 每日次每次 $\\mathrm { 1 0 ~ _ { m g } ) }$ 强的松霉酚酸酯进行免疫抑制疗法因真菌感染而使用烟曲霉素疗程第天 FK 血药浓度从 $1 0 ~ \\mu _ { \\mathrm { ~ g ~ } } \\cdot _ { \\mathrm { ~ L ~ } }$ －1降至 $3 . 5 \\ \\mu _ { \\mathrm { g } } .$ $\\mathrm { ~ L ~ } ^ { - 1 }$ 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:10",
+    "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+    "text": "溃疡而给予氟康唑和克拉霉素在此期间并未发现 FK 血药浓度升高第天停用利福平并将 FK506剂量降至 $1 2 _ { \\mathrm { ~ m ~ g ~ } } \\cdot \\mathrm { ~ d ~ } ^ { - 1 }$ 。FK506血药浓度仍缓慢上升至第天为 $\\mu _ { \\textrm { g } } \\cdot \\textrm { L } ^ { - 1 } .$ 并持续上升第天调整剂量降为 $8 \\mathrm { m g \\bullet \\ d ^ { - 1 } }$ 最终在第天达到 FK 的治疗浓度 ［27］ 此病例说明利福平对 CYP 的诱导作用非常强甚至足以抵消该酶抑制剂地尔硫 $☉$ 氟康唑和克拉霉素的作用临床上应予以足够重视2∙2∙4 夫马洁林 （烟曲霉素fumagillin） 1例 49岁男性肾移植患者使用 FK 每日次每次 $\\mathrm { 1 0 ~ _ { m g } ) }$ 强的松霉酚酸酯进行免疫抑制疗法因真菌感染而使用烟曲霉素疗程第天 FK 血药浓度从 $1 0 ~ \\mu _ { \\mathrm { ~ g ~ } } \\cdot _ { \\mathrm { ~ L ~ } }$ －1降至 $3 . 5 \\ \\mu _ { \\mathrm { g } } .$ $\\mathrm { ~ L ~ } ^ { - 1 }$ 。"
+  }
+]

@@ -1,0 +1,179 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Siponimod",
+        "canonical_name": "Siponimod",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "普萘洛尔",
+        "canonical_name": "普萘洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "β-受体阻滞剂",
+        "canonical_name": "β-受体阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "CYP3A4/CYP2C9诱导剂",
+        "canonical_name": "CYP3A4/CYP2C9诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "CYP3A4/CYP2C9抑制剂",
+        "canonical_name": "CYP3A4/CYP2C9抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "中度CYP2C9/强CYP3A4诱导剂",
+        "canonical_name": "中度CYP2C9/强CYP3A4诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "中度CYP2C9或中强度CYP3A4抑制剂",
+        "canonical_name": "中度CYP2C9或中强度CYP3A4抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "避孕药",
+        "canonical_name": "避孕药",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "SideEffect",
+        "name": "负性变时效应",
+        "canonical_name": "负性变时效应",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "raw_text": "在稳态下在 Siponimod 中加用普萘洛尔( 小于累加效应) 与稳态下在普萘洛尔中加用 Siponimod 相比，负性变时效应更不明显",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "data": "1.6 β-受体阻滞剂在药效学( PD) /安全性研究中评估了Siponimod 和普萘洛尔的共同给药的负性变时效应，在稳态下在 Siponimod 中加用普萘洛尔( 小于累加效应) 与稳态下在普萘洛尔中加用 Siponimod 相比，负性变时效应更不明显( HR累加效应) 故建议接受 β 受体阻滞剂治疗的患者在启动 Si-ponimod 之前可能需要暂时中断 β 受体阻滞剂治疗。 而接受稳定剂量 Siponimod 的患者则可以开始接受 β 受体阻滞剂治疗 〔 8 〕 。 。\n综上研究可知，由于 CYP3A4 /CYP2C9 诱导剂使 Siponi-mod 的暴露减少，CYP3A4 /CYP2C9 抑制剂使 Siponimod 的暴露增加。 因此不建议同时使用中度 CYP2C9/强 CYP3A4 诱导剂( 如利福平、依法韦伦) ，中度 CYP2C9 或中强度 CYP3A4 抑制剂( 如氟康唑) 。\n2 结论和展望\n当前 Siponimod 的药物相互作用研究显示 Siponimod 与避孕药联用无影响且具有良好的耐受性与安全性，但由于其主要通过 CYP2C9 和 CYP3A4 代谢的特点显示受 CYP2C9 /CYP3A4 诱导剂或抑制剂强度的影响。 另外 Siponimod 作为选择性1-磷酸鞘氨醇( S1P) 受体调节剂，其作用机制可调节涉及免疫、心率、平滑肌张力和内皮屏障功能，药物相互作用研究亦显示其具有影响免疫调节、改变疫苗的耐受性和功效、降低心率等。 Siponimod 作为继发进展型多发性硬化症的热门药物其临床应用前景良好，而目前国内对于 Siponimod 的药物相互作用研究尚少，可基于目前的研究方向进行深入研究，以期为临床安全用药提供更科学合理的指导依据。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "raw_text": "建议接受 β 受体阻滞剂治疗的患者在启动 Siponimod 之前可能需要暂时中断 β 受体阻滞剂治疗",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "data": "1.6 β-受体阻滞剂在药效学( PD) /安全性研究中评估了Siponimod 和普萘洛尔的共同给药的负性变时效应，在稳态下在 Siponimod 中加用普萘洛尔( 小于累加效应) 与稳态下在普萘洛尔中加用 Siponimod 相比，负性变时效应更不明显( HR累加效应) 故建议接受 β 受体阻滞剂治疗的患者在启动 Si-ponimod 之前可能需要暂时中断 β 受体阻滞剂治疗。 而接受稳定剂量 Siponimod 的患者则可以开始接受 β 受体阻滞剂治疗 〔 8 〕 。 。\n综上研究可知，由于 CYP3A4 /CYP2C9 诱导剂使 Siponi-mod 的暴露减少，CYP3A4 /CYP2C9 抑制剂使 Siponimod 的暴露增加。 因此不建议同时使用中度 CYP2C9/强 CYP3A4 诱导剂( 如利福平、依法韦伦) ，中度 CYP2C9 或中强度 CYP3A4 抑制剂( 如氟康唑) 。\n2 结论和展望\n当前 Siponimod 的药物相互作用研究显示 Siponimod 与避孕药联用无影响且具有良好的耐受性与安全性，但由于其主要通过 CYP2C9 和 CYP3A4 代谢的特点显示受 CYP2C9 /CYP3A4 诱导剂或抑制剂强度的影响。 另外 Siponimod 作为选择性1-磷酸鞘氨醇( S1P) 受体调节剂，其作用机制可调节涉及免疫、心率、平滑肌张力和内皮屏障功能，药物相互作用研究亦显示其具有影响免疫调节、改变疫苗的耐受性和功效、降低心率等。 Siponimod 作为继发进展型多发性硬化症的热门药物其临床应用前景良好，而目前国内对于 Siponimod 的药物相互作用研究尚少，可基于目前的研究方向进行深入研究，以期为临床安全用药提供更科学合理的指导依据。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "raw_text": "CYP3A4/CYP2C9 诱导剂使 Siponimod 的暴露减少",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "data": "1.6 β-受体阻滞剂在药效学( PD) /安全性研究中评估了Siponimod 和普萘洛尔的共同给药的负性变时效应，在稳态下在 Siponimod 中加用普萘洛尔( 小于累加效应) 与稳态下在普萘洛尔中加用 Siponimod 相比，负性变时效应更不明显( HR累加效应) 故建议接受 β 受体阻滞剂治疗的患者在启动 Si-ponimod 之前可能需要暂时中断 β 受体阻滞剂治疗。 而接受稳定剂量 Siponimod 的患者则可以开始接受 β 受体阻滞剂治疗 〔 8 〕 。 。\n综上研究可知，由于 CYP3A4 /CYP2C9 诱导剂使 Siponi-mod 的暴露减少，CYP3A4 /CYP2C9 抑制剂使 Siponimod 的暴露增加。 因此不建议同时使用中度 CYP2C9/强 CYP3A4 诱导剂( 如利福平、依法韦伦) ，中度 CYP2C9 或中强度 CYP3A4 抑制剂( 如氟康唑) 。\n2 结论和展望\n当前 Siponimod 的药物相互作用研究显示 Siponimod 与避孕药联用无影响且具有良好的耐受性与安全性，但由于其主要通过 CYP2C9 和 CYP3A4 代谢的特点显示受 CYP2C9 /CYP3A4 诱导剂或抑制剂强度的影响。 另外 Siponimod 作为选择性1-磷酸鞘氨醇( S1P) 受体调节剂，其作用机制可调节涉及免疫、心率、平滑肌张力和内皮屏障功能，药物相互作用研究亦显示其具有影响免疫调节、改变疫苗的耐受性和功效、降低心率等。 Siponimod 作为继发进展型多发性硬化症的热门药物其临床应用前景良好，而目前国内对于 Siponimod 的药物相互作用研究尚少，可基于目前的研究方向进行深入研究，以期为临床安全用药提供更科学合理的指导依据。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "raw_text": "CYP3A4/CYP2C9 抑制剂使 Siponimod 的暴露增加",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "data": "1.6 β-受体阻滞剂在药效学( PD) /安全性研究中评估了Siponimod 和普萘洛尔的共同给药的负性变时效应，在稳态下在 Siponimod 中加用普萘洛尔( 小于累加效应) 与稳态下在普萘洛尔中加用 Siponimod 相比，负性变时效应更不明显( HR累加效应) 故建议接受 β 受体阻滞剂治疗的患者在启动 Si-ponimod 之前可能需要暂时中断 β 受体阻滞剂治疗。 而接受稳定剂量 Siponimod 的患者则可以开始接受 β 受体阻滞剂治疗 〔 8 〕 。 。\n综上研究可知，由于 CYP3A4 /CYP2C9 诱导剂使 Siponi-mod 的暴露减少，CYP3A4 /CYP2C9 抑制剂使 Siponimod 的暴露增加。 因此不建议同时使用中度 CYP2C9/强 CYP3A4 诱导剂( 如利福平、依法韦伦) ，中度 CYP2C9 或中强度 CYP3A4 抑制剂( 如氟康唑) 。\n2 结论和展望\n当前 Siponimod 的药物相互作用研究显示 Siponimod 与避孕药联用无影响且具有良好的耐受性与安全性，但由于其主要通过 CYP2C9 和 CYP3A4 代谢的特点显示受 CYP2C9 /CYP3A4 诱导剂或抑制剂强度的影响。 另外 Siponimod 作为选择性1-磷酸鞘氨醇( S1P) 受体调节剂，其作用机制可调节涉及免疫、心率、平滑肌张力和内皮屏障功能，药物相互作用研究亦显示其具有影响免疫调节、改变疫苗的耐受性和功效、降低心率等。 Siponimod 作为继发进展型多发性硬化症的热门药物其临床应用前景良好，而目前国内对于 Siponimod 的药物相互作用研究尚少，可基于目前的研究方向进行深入研究，以期为临床安全用药提供更科学合理的指导依据。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "raw_text": "不建议同时使用中度 CYP2C9/强 CYP3A4 诱导剂( 如利福平、依法韦伦)",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "data": "1.6 β-受体阻滞剂在药效学( PD) /安全性研究中评估了Siponimod 和普萘洛尔的共同给药的负性变时效应，在稳态下在 Siponimod 中加用普萘洛尔( 小于累加效应) 与稳态下在普萘洛尔中加用 Siponimod 相比，负性变时效应更不明显( HR累加效应) 故建议接受 β 受体阻滞剂治疗的患者在启动 Si-ponimod 之前可能需要暂时中断 β 受体阻滞剂治疗。 而接受稳定剂量 Siponimod 的患者则可以开始接受 β 受体阻滞剂治疗 〔 8 〕 。 。\n综上研究可知，由于 CYP3A4 /CYP2C9 诱导剂使 Siponi-mod 的暴露减少，CYP3A4 /CYP2C9 抑制剂使 Siponimod 的暴露增加。 因此不建议同时使用中度 CYP2C9/强 CYP3A4 诱导剂( 如利福平、依法韦伦) ，中度 CYP2C9 或中强度 CYP3A4 抑制剂( 如氟康唑) 。\n2 结论和展望\n当前 Siponimod 的药物相互作用研究显示 Siponimod 与避孕药联用无影响且具有良好的耐受性与安全性，但由于其主要通过 CYP2C9 和 CYP3A4 代谢的特点显示受 CYP2C9 /CYP3A4 诱导剂或抑制剂强度的影响。 另外 Siponimod 作为选择性1-磷酸鞘氨醇( S1P) 受体调节剂，其作用机制可调节涉及免疫、心率、平滑肌张力和内皮屏障功能，药物相互作用研究亦显示其具有影响免疫调节、改变疫苗的耐受性和功效、降低心率等。 Siponimod 作为继发进展型多发性硬化症的热门药物其临床应用前景良好，而目前国内对于 Siponimod 的药物相互作用研究尚少，可基于目前的研究方向进行深入研究，以期为临床安全用药提供更科学合理的指导依据。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "raw_text": "不建议同时使用中度 CYP2C9 或中强度 CYP3A4 抑制剂( 如氟康唑)",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "data": "1.6 β-受体阻滞剂在药效学( PD) /安全性研究中评估了Siponimod 和普萘洛尔的共同给药的负性变时效应，在稳态下在 Siponimod 中加用普萘洛尔( 小于累加效应) 与稳态下在普萘洛尔中加用 Siponimod 相比，负性变时效应更不明显( HR累加效应) 故建议接受 β 受体阻滞剂治疗的患者在启动 Si-ponimod 之前可能需要暂时中断 β 受体阻滞剂治疗。 而接受稳定剂量 Siponimod 的患者则可以开始接受 β 受体阻滞剂治疗 〔 8 〕 。 。\n综上研究可知，由于 CYP3A4 /CYP2C9 诱导剂使 Siponi-mod 的暴露减少，CYP3A4 /CYP2C9 抑制剂使 Siponimod 的暴露增加。 因此不建议同时使用中度 CYP2C9/强 CYP3A4 诱导剂( 如利福平、依法韦伦) ，中度 CYP2C9 或中强度 CYP3A4 抑制剂( 如氟康唑) 。\n2 结论和展望\n当前 Siponimod 的药物相互作用研究显示 Siponimod 与避孕药联用无影响且具有良好的耐受性与安全性，但由于其主要通过 CYP2C9 和 CYP3A4 代谢的特点显示受 CYP2C9 /CYP3A4 诱导剂或抑制剂强度的影响。 另外 Siponimod 作为选择性1-磷酸鞘氨醇( S1P) 受体调节剂，其作用机制可调节涉及免疫、心率、平滑肌张力和内皮屏障功能，药物相互作用研究亦显示其具有影响免疫调节、改变疫苗的耐受性和功效、降低心率等。 Siponimod 作为继发进展型多发性硬化症的热门药物其临床应用前景良好，而目前国内对于 Siponimod 的药物相互作用研究尚少，可基于目前的研究方向进行深入研究，以期为临床安全用药提供更科学合理的指导依据。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "raw_text": "Siponimod 与避孕药联用无影响且具有良好的耐受性与安全性",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "data": "1.6 β-受体阻滞剂在药效学( PD) /安全性研究中评估了Siponimod 和普萘洛尔的共同给药的负性变时效应，在稳态下在 Siponimod 中加用普萘洛尔( 小于累加效应) 与稳态下在普萘洛尔中加用 Siponimod 相比，负性变时效应更不明显( HR累加效应) 故建议接受 β 受体阻滞剂治疗的患者在启动 Si-ponimod 之前可能需要暂时中断 β 受体阻滞剂治疗。 而接受稳定剂量 Siponimod 的患者则可以开始接受 β 受体阻滞剂治疗 〔 8 〕 。 。\n综上研究可知，由于 CYP3A4 /CYP2C9 诱导剂使 Siponi-mod 的暴露减少，CYP3A4 /CYP2C9 抑制剂使 Siponimod 的暴露增加。 因此不建议同时使用中度 CYP2C9/强 CYP3A4 诱导剂( 如利福平、依法韦伦) ，中度 CYP2C9 或中强度 CYP3A4 抑制剂( 如氟康唑) 。\n2 结论和展望\n当前 Siponimod 的药物相互作用研究显示 Siponimod 与避孕药联用无影响且具有良好的耐受性与安全性，但由于其主要通过 CYP2C9 和 CYP3A4 代谢的特点显示受 CYP2C9 /CYP3A4 诱导剂或抑制剂强度的影响。 另外 Siponimod 作为选择性1-磷酸鞘氨醇( S1P) 受体调节剂，其作用机制可调节涉及免疫、心率、平滑肌张力和内皮屏障功能，药物相互作用研究亦显示其具有影响免疫调节、改变疫苗的耐受性和功效、降低心率等。 Siponimod 作为继发进展型多发性硬化症的热门药物其临床应用前景良好，而目前国内对于 Siponimod 的药物相互作用研究尚少，可基于目前的研究方向进行深入研究，以期为临床安全用药提供更科学合理的指导依据。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "raw_text": "Siponimod 和普萘洛尔的共同给药的负性变时效应",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "data": "1.6 β-受体阻滞剂在药效学( PD) /安全性研究中评估了Siponimod 和普萘洛尔的共同给药的负性变时效应，在稳态下在 Siponimod 中加用普萘洛尔( 小于累加效应) 与稳态下在普萘洛尔中加用 Siponimod 相比，负性变时效应更不明显( HR累加效应) 故建议接受 β 受体阻滞剂治疗的患者在启动 Si-ponimod 之前可能需要暂时中断 β 受体阻滞剂治疗。 而接受稳定剂量 Siponimod 的患者则可以开始接受 β 受体阻滞剂治疗 〔 8 〕 。 。\n综上研究可知，由于 CYP3A4 /CYP2C9 诱导剂使 Siponi-mod 的暴露减少，CYP3A4 /CYP2C9 抑制剂使 Siponimod 的暴露增加。 因此不建议同时使用中度 CYP2C9/强 CYP3A4 诱导剂( 如利福平、依法韦伦) ，中度 CYP2C9 或中强度 CYP3A4 抑制剂( 如氟康唑) 。\n2 结论和展望\n当前 Siponimod 的药物相互作用研究显示 Siponimod 与避孕药联用无影响且具有良好的耐受性与安全性，但由于其主要通过 CYP2C9 和 CYP3A4 代谢的特点显示受 CYP2C9 /CYP3A4 诱导剂或抑制剂强度的影响。 另外 Siponimod 作为选择性1-磷酸鞘氨醇( S1P) 受体调节剂，其作用机制可调节涉及免疫、心率、平滑肌张力和内皮屏障功能，药物相互作用研究亦显示其具有影响免疫调节、改变疫苗的耐受性和功效、降低心率等。 Siponimod 作为继发进展型多发性硬化症的热门药物其临床应用前景良好，而目前国内对于 Siponimod 的药物相互作用研究尚少，可基于目前的研究方向进行深入研究，以期为临床安全用药提供更科学合理的指导依据。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:4",
+    "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+    "text": "1.6 β-受体阻滞剂在药效学( PD) /安全性研究中评估了Siponimod 和普萘洛尔的共同给药的负性变时效应，在稳态下在 Siponimod 中加用普萘洛尔( 小于累加效应) 与稳态下在普萘洛尔中加用 Siponimod 相比，负性变时效应更不明显( HR累加效应) 故建议接受 β 受体阻滞剂治疗的患者在启动 Si-ponimod 之前可能需要暂时中断 β 受体阻滞剂治疗。 而接受稳定剂量 Siponimod 的患者则可以开始接受 β 受体阻滞剂治疗 〔 8 〕 。 。\n综上研究可知，由于 CYP3A4 /CYP2C9 诱导剂使 Siponi-mod 的暴露减少，CYP3A4 /CYP2C9 抑制剂使 Siponimod 的暴露增加。 因此不建议同时使用中度 CYP2C9/强 CYP3A4 诱导剂( 如利福平、依法韦伦) ，中度 CYP2C9 或中强度 CYP3A4 抑制剂( 如氟康唑) 。\n2 结论和展望\n当前 Siponimod 的药物相互作用研究显示 Siponimod 与避孕药联用无影响且具有良好的耐受性与安全性，但由于其主要通过 CYP2C9 和 CYP3A4 代谢的特点显示受 CYP2C9 /CYP3A4 诱导剂或抑制剂强度的影响。 另外 Siponimod 作为选择性1-磷酸鞘氨醇( S1P) 受体调节剂，其作用机制可调节涉及免疫、心率、平滑肌张力和内皮屏障功能，药物相互作用研究亦显示其具有影响免疫调节、改变疫苗的耐受性和功效、降低心率等。 Siponimod 作为继发进展型多发性硬化症的热门药物其临床应用前景良好，而目前国内对于 Siponimod 的药物相互作用研究尚少，可基于目前的研究方向进行深入研究，以期为临床安全用药提供更科学合理的指导依据。"
+  }
+]

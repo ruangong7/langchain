@@ -1,0 +1,139 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "抗精神障碍药物",
+        "canonical_name": "抗精神障碍药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "SideEffect",
+        "name": "QT间期延长",
+        "canonical_name": "QT间期延长",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "尖端扭转型室性心动过速",
+        "canonical_name": "尖端扭转型室性心动过速",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Population",
+        "name": "女性",
+        "canonical_name": "女性",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Population",
+        "name": "老年患者",
+        "canonical_name": "老年患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "CYP抑制剂",
+        "canonical_name": "CYP抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "QT延长药物",
+        "canonical_name": "QT延长药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "1例精神障碍患者因药物相互作用致QT间期延长并文献病例分析_刘佳明.pdf",
+          "chunk_index": "5",
+          "raw_text": "QT间期延长是抗精神障碍药物常见的不良反应",
+          "chunk_id": "1例精神障碍患者因药物相互作用致QT间期延长并文献病例分析_刘佳明:5",
+          "data": "n1 ，Chen Shuxuan2 ，Zhang Lan（1 1.Department of Pharmacy，Xuanwu Hospital，Capital Medical University，Beijing 100053，China；2.School of Pharmacy，Capital Medical University，Beijing 100059，China）［Abstract］ A case of QT interval prolongation caused by drug-drug interactions in a patient with psychiatric disorders was reported. The cases of QT interval prolongation caused by drug-drug interactions involving antipsychotic drugs collected from CNKI database，PubMed and other databases were summarized and analyzed. A total of 13 patients were enrolled，including 7 females（53. 8%），with a median age of 62 years. Totally 11 antipsychotic drugs and 9 drugs of other categories in combination use were involved. The median time between the use of the suspected drug and the onset of QT interval prolongation was 5 d. The severity of QT interval prolongation was defined as grade 4，3， and 2 in 5（38. 46%），5（38. 46%），and 3（23. 08%） patients，respectively. The QT interval of 12 patients was normalized by dosage r"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "1例精神障碍患者因药物相互作用致QT间期延长并文献病例分析_刘佳明.pdf",
+          "chunk_index": "5",
+          "raw_text": "QT间期延长是抗精神障碍药物常见的不良反应，但易造成尖端扭转型室性心动过速",
+          "chunk_id": "1例精神障碍患者因药物相互作用致QT间期延长并文献病例分析_刘佳明:5",
+          "data": "n1 ，Chen Shuxuan2 ，Zhang Lan（1 1.Department of Pharmacy，Xuanwu Hospital，Capital Medical University，Beijing 100053，China；2.School of Pharmacy，Capital Medical University，Beijing 100059，China）［Abstract］ A case of QT interval prolongation caused by drug-drug interactions in a patient with psychiatric disorders was reported. The cases of QT interval prolongation caused by drug-drug interactions involving antipsychotic drugs collected from CNKI database，PubMed and other databases were summarized and analyzed. A total of 13 patients were enrolled，including 7 females（53. 8%），with a median age of 62 years. Totally 11 antipsychotic drugs and 9 drugs of other categories in combination use were involved. The median time between the use of the suspected drug and the onset of QT interval prolongation was 5 d. The severity of QT interval prolongation was defined as grade 4，3， and 2 in 5（38. 46%），5（38. 46%），and 3（23. 08%） patients，respectively. The QT interval of 12 patients was normalized by dosage r"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "1例精神障碍患者因药物相互作用致QT间期延长并文献病例分析_刘佳明.pdf",
+          "chunk_index": "5",
+          "raw_text": "Particular clinical vigilance is required for high-risk groups, including female and elderly patients, and when co-administering CYP inhibitors or drugs associated with QT prolongation.",
+          "chunk_id": "1例精神障碍患者因药物相互作用致QT间期延长并文献病例分析_刘佳明:5",
+          "data": "n1 ，Chen Shuxuan2 ，Zhang Lan（1 1.Department of Pharmacy，Xuanwu Hospital，Capital Medical University，Beijing 100053，China；2.School of Pharmacy，Capital Medical University，Beijing 100059，China）［Abstract］ A case of QT interval prolongation caused by drug-drug interactions in a patient with psychiatric disorders was reported. The cases of QT interval prolongation caused by drug-drug interactions involving antipsychotic drugs collected from CNKI database，PubMed and other databases were summarized and analyzed. A total of 13 patients were enrolled，including 7 females（53. 8%），with a median age of 62 years. Totally 11 antipsychotic drugs and 9 drugs of other categories in combination use were involved. The median time between the use of the suspected drug and the onset of QT interval prolongation was 5 d. The severity of QT interval prolongation was defined as grade 4，3， and 2 in 5（38. 46%），5（38. 46%），and 3（23. 08%） patients，respectively. The QT interval of 12 patients was normalized by dosage r"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "1例精神障碍患者因药物相互作用致QT间期延长并文献病例分析_刘佳明.pdf",
+          "chunk_index": "5",
+          "raw_text": "Particular clinical vigilance is required for high-risk groups, including female and elderly patients, and when co-administering CYP inhibitors or drugs associated with QT prolongation.",
+          "chunk_id": "1例精神障碍患者因药物相互作用致QT间期延长并文献病例分析_刘佳明:5",
+          "data": "n1 ，Chen Shuxuan2 ，Zhang Lan（1 1.Department of Pharmacy，Xuanwu Hospital，Capital Medical University，Beijing 100053，China；2.School of Pharmacy，Capital Medical University，Beijing 100059，China）［Abstract］ A case of QT interval prolongation caused by drug-drug interactions in a patient with psychiatric disorders was reported. The cases of QT interval prolongation caused by drug-drug interactions involving antipsychotic drugs collected from CNKI database，PubMed and other databases were summarized and analyzed. A total of 13 patients were enrolled，including 7 females（53. 8%），with a median age of 62 years. Totally 11 antipsychotic drugs and 9 drugs of other categories in combination use were involved. The median time between the use of the suspected drug and the onset of QT interval prolongation was 5 d. The severity of QT interval prolongation was defined as grade 4，3， and 2 in 5（38. 46%），5（38. 46%），and 3（23. 08%） patients，respectively. The QT interval of 12 patients was normalized by dosage r"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_7",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "1例精神障碍患者因药物相互作用致QT间期延长并文献病例分析_刘佳明.pdf",
+          "chunk_index": "5",
+          "raw_text": "Particular clinical vigilance is required for high-risk groups, including female and elderly patients, and when co-administering CYP inhibitors or drugs associated with QT prolongation.",
+          "chunk_id": "1例精神障碍患者因药物相互作用致QT间期延长并文献病例分析_刘佳明:5",
+          "data": "n1 ，Chen Shuxuan2 ，Zhang Lan（1 1.Department of Pharmacy，Xuanwu Hospital，Capital Medical University，Beijing 100053，China；2.School of Pharmacy，Capital Medical University，Beijing 100059，China）［Abstract］ A case of QT interval prolongation caused by drug-drug interactions in a patient with psychiatric disorders was reported. The cases of QT interval prolongation caused by drug-drug interactions involving antipsychotic drugs collected from CNKI database，PubMed and other databases were summarized and analyzed. A total of 13 patients were enrolled，including 7 females（53. 8%），with a median age of 62 years. Totally 11 antipsychotic drugs and 9 drugs of other categories in combination use were involved. The median time between the use of the suspected drug and the onset of QT interval prolongation was 5 d. The severity of QT interval prolongation was defined as grade 4，3， and 2 in 5（38. 46%），5（38. 46%），and 3（23. 08%） patients，respectively. The QT interval of 12 patients was normalized by dosage r"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_7",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "1例精神障碍患者因药物相互作用致QT间期延长并文献病例分析_刘佳明.pdf",
+          "chunk_index": "5",
+          "raw_text": "Particular clinical vigilance is required for high-risk groups, including female and elderly patients, and when co-administering CYP inhibitors or drugs associated with QT prolongation.",
+          "chunk_id": "1例精神障碍患者因药物相互作用致QT间期延长并文献病例分析_刘佳明:5",
+          "data": "n1 ，Chen Shuxuan2 ，Zhang Lan（1 1.Department of Pharmacy，Xuanwu Hospital，Capital Medical University，Beijing 100053，China；2.School of Pharmacy，Capital Medical University，Beijing 100059，China）［Abstract］ A case of QT interval prolongation caused by drug-drug interactions in a patient with psychiatric disorders was reported. The cases of QT interval prolongation caused by drug-drug interactions involving antipsychotic drugs collected from CNKI database，PubMed and other databases were summarized and analyzed. A total of 13 patients were enrolled，including 7 females（53. 8%），with a median age of 62 years. Totally 11 antipsychotic drugs and 9 drugs of other categories in combination use were involved. The median time between the use of the suspected drug and the onset of QT interval prolongation was 5 d. The severity of QT interval prolongation was defined as grade 4，3， and 2 in 5（38. 46%），5（38. 46%），and 3（23. 08%） patients，respectively. The QT interval of 12 patients was normalized by dosage r"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "1例精神障碍患者因药物相互作用致QT间期延长并文献病例分析_刘佳明:5",
+    "source": "1例精神障碍患者因药物相互作用致QT间期延长并文献病例分析_刘佳明.pdf",
+    "text": "n1 ，Chen Shuxuan2 ，Zhang Lan（1 1.Department of Pharmacy，Xuanwu Hospital，Capital Medical University，Beijing 100053，China；2.School of Pharmacy，Capital Medical University，Beijing 100059，China）［Abstract］ A case of QT interval prolongation caused by drug-drug interactions in a patient with psychiatric disorders was reported. The cases of QT interval prolongation caused by drug-drug interactions involving antipsychotic drugs collected from CNKI database，PubMed and other databases were summarized and analyzed. A total of 13 patients were enrolled，including 7 females（53. 8%），with a median age of 62 years. Totally 11 antipsychotic drugs and 9 drugs of other categories in combination use were involved. The median time between the use of the suspected drug and the onset of QT interval prolongation was 5 d. The severity of QT interval prolongation was defined as grade 4，3， and 2 in 5（38. 46%），5（38. 46%），and 3（23. 08%） patients，respectively. The QT interval of 12 patients was normalized by dosage reduction or drug discontinuation，treatment with magnesium and potassium supplementation，and installation of pacemaker within 2\\~4 d. One patient died. Particular clinical vigilance is required for high-risk groups，including female and elderly patients，and when co-administering CYP inhibitors or drugs associated with QT prolongation. Pharmacists should proactively engage in the development and monitoring of clinical medication regimens，implementing timely interventions to prevent the occurrence of severe cardiovascular events.\n0　引言\n精神障碍患者需长期药物治疗，QT间期延长是抗精神障碍药物常见的不良反应，临床症状不显著，但易造成尖端扭转型室性心动过速（Tors‐ade de pointes，TdP）等严重心血管不良事件［1-4］。"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "INSTI类药物",
+        "canonical_name": "整合酶链转移抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "多替拉韦",
+        "canonical_name": "多替拉韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "拉替拉韦",
+        "canonical_name": "拉替拉韦",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+          "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:8",
+          "raw_text": "多替拉韦在体外抑制肾脏有机阳离子转运体2（organic cation transporter 2，OCT2）、多药及毒素外排转运蛋白 1（multidrug and toxin ex⁃crete 1，MATE1）［4］",
+          "chunk_id": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:8",
+          "data": "国内未上市）。国外研究显示，与抗逆转隶病毒（antiretroviral，ARV）药物相关的药物相互作用（drug-drug interaction，DDI）发生率在18%\\~54%，其中有0. 2%\\~5. 6%涉及禁忌药物联合［2］ 。最近，首个有关中国HIV感染/AIDS患者潜在 DDI 的研究结果显示，有 13.32% 的处方存在DDI，其中0.43%涉及严重不良事件或药效大幅下降［2］ 。DDI可能与疗效降低、不良反应和依从性不佳相关，因此有必要对ARV药物相关DDI进行总结和归纳。本文总结了AIDS治疗药物间的相互作用以及AIDS治疗药物与合并机会性感染和其他常见疾病治疗药物的DDI，为提升用药安全提供参考。INSTI类药物主要通过尿苷二磷酸葡萄糖醛酸转移酶 1A1（uridine-5'-diphosphate-glucuronosy trans⁃ferase 1A1，UGT1A1）进行代谢，少部分涉及 CYP3A，因此不会诱导或抑制CYP450酶系。然而可能会对转运体产生抑制作用，例如多替拉韦在体外抑制肾脏有机阳离子转运体2（organic cation transporter 2，OCT2）、多药及毒素外排转运蛋白 1（multidrug and toxin ex⁃crete 1，MATE1）［4］ 。拉替拉韦是第1个被美国食品药品管理局（Food and Drug Administration，FDA）批准的INSTI，它既不是CYP450酶系的抑制剂或诱导剂也不干扰P-gp介导的药物转运，因此可以成为预防DDI 的合适选择［4］ 。NRTI 类药物也不会被 CYP450酶系统清除，但因为其清除的主要途径是肾脏，可能受转运蛋白介导的相互作用影响。1 抗AIDS药物的代谢及转运特性\n一般通过相同酶系统代谢的2种药物或者同一转运系统的底物之间可能产生竞争从而引起DDI［3］ 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+          "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:8",
+          "raw_text": "INSTI类药物...例如多替拉韦",
+          "chunk_id": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:8",
+          "data": "国内未上市）。国外研究显示，与抗逆转隶病毒（antiretroviral，ARV）药物相关的药物相互作用（drug-drug interaction，DDI）发生率在18%\\~54%，其中有0. 2%\\~5. 6%涉及禁忌药物联合［2］ 。最近，首个有关中国HIV感染/AIDS患者潜在 DDI 的研究结果显示，有 13.32% 的处方存在DDI，其中0.43%涉及严重不良事件或药效大幅下降［2］ 。DDI可能与疗效降低、不良反应和依从性不佳相关，因此有必要对ARV药物相关DDI进行总结和归纳。本文总结了AIDS治疗药物间的相互作用以及AIDS治疗药物与合并机会性感染和其他常见疾病治疗药物的DDI，为提升用药安全提供参考。INSTI类药物主要通过尿苷二磷酸葡萄糖醛酸转移酶 1A1（uridine-5'-diphosphate-glucuronosy trans⁃ferase 1A1，UGT1A1）进行代谢，少部分涉及 CYP3A，因此不会诱导或抑制CYP450酶系。然而可能会对转运体产生抑制作用，例如多替拉韦在体外抑制肾脏有机阳离子转运体2（organic cation transporter 2，OCT2）、多药及毒素外排转运蛋白 1（multidrug and toxin ex⁃crete 1，MATE1）［4］ 。拉替拉韦是第1个被美国食品药品管理局（Food and Drug Administration，FDA）批准的INSTI，它既不是CYP450酶系的抑制剂或诱导剂也不干扰P-gp介导的药物转运，因此可以成为预防DDI 的合适选择［4］ 。NRTI 类药物也不会被 CYP450酶系统清除，但因为其清除的主要途径是肾脏，可能受转运蛋白介导的相互作用影响。1 抗AIDS药物的代谢及转运特性\n一般通过相同酶系统代谢的2种药物或者同一转运系统的底物之间可能产生竞争从而引起DDI［3］ 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+          "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:8",
+          "raw_text": "拉替拉韦是第1个被美国食品药品管理局（Food and Drug Administration，FDA）批准的INSTI",
+          "chunk_id": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:8",
+          "data": "国内未上市）。国外研究显示，与抗逆转隶病毒（antiretroviral，ARV）药物相关的药物相互作用（drug-drug interaction，DDI）发生率在18%\\~54%，其中有0. 2%\\~5. 6%涉及禁忌药物联合［2］ 。最近，首个有关中国HIV感染/AIDS患者潜在 DDI 的研究结果显示，有 13.32% 的处方存在DDI，其中0.43%涉及严重不良事件或药效大幅下降［2］ 。DDI可能与疗效降低、不良反应和依从性不佳相关，因此有必要对ARV药物相关DDI进行总结和归纳。本文总结了AIDS治疗药物间的相互作用以及AIDS治疗药物与合并机会性感染和其他常见疾病治疗药物的DDI，为提升用药安全提供参考。INSTI类药物主要通过尿苷二磷酸葡萄糖醛酸转移酶 1A1（uridine-5'-diphosphate-glucuronosy trans⁃ferase 1A1，UGT1A1）进行代谢，少部分涉及 CYP3A，因此不会诱导或抑制CYP450酶系。然而可能会对转运体产生抑制作用，例如多替拉韦在体外抑制肾脏有机阳离子转运体2（organic cation transporter 2，OCT2）、多药及毒素外排转运蛋白 1（multidrug and toxin ex⁃crete 1，MATE1）［4］ 。拉替拉韦是第1个被美国食品药品管理局（Food and Drug Administration，FDA）批准的INSTI，它既不是CYP450酶系的抑制剂或诱导剂也不干扰P-gp介导的药物转运，因此可以成为预防DDI 的合适选择［4］ 。NRTI 类药物也不会被 CYP450酶系统清除，但因为其清除的主要途径是肾脏，可能受转运蛋白介导的相互作用影响。1 抗AIDS药物的代谢及转运特性\n一般通过相同酶系统代谢的2种药物或者同一转运系统的底物之间可能产生竞争从而引起DDI［3］ 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:8",
+    "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+    "text": "国内未上市）。国外研究显示，与抗逆转隶病毒（antiretroviral，ARV）药物相关的药物相互作用（drug-drug interaction，DDI）发生率在18%\\~54%，其中有0. 2%\\~5. 6%涉及禁忌药物联合［2］ 。最近，首个有关中国HIV感染/AIDS患者潜在 DDI 的研究结果显示，有 13.32% 的处方存在DDI，其中0.43%涉及严重不良事件或药效大幅下降［2］ 。DDI可能与疗效降低、不良反应和依从性不佳相关，因此有必要对ARV药物相关DDI进行总结和归纳。本文总结了AIDS治疗药物间的相互作用以及AIDS治疗药物与合并机会性感染和其他常见疾病治疗药物的DDI，为提升用药安全提供参考。INSTI类药物主要通过尿苷二磷酸葡萄糖醛酸转移酶 1A1（uridine-5'-diphosphate-glucuronosy trans⁃ferase 1A1，UGT1A1）进行代谢，少部分涉及 CYP3A，因此不会诱导或抑制CYP450酶系。然而可能会对转运体产生抑制作用，例如多替拉韦在体外抑制肾脏有机阳离子转运体2（organic cation transporter 2，OCT2）、多药及毒素外排转运蛋白 1（multidrug and toxin ex⁃crete 1，MATE1）［4］ 。拉替拉韦是第1个被美国食品药品管理局（Food and Drug Administration，FDA）批准的INSTI，它既不是CYP450酶系的抑制剂或诱导剂也不干扰P-gp介导的药物转运，因此可以成为预防DDI 的合适选择［4］ 。NRTI 类药物也不会被 CYP450酶系统清除，但因为其清除的主要途径是肾脏，可能受转运蛋白介导的相互作用影响。1 抗AIDS药物的代谢及转运特性\n一般通过相同酶系统代谢的2种药物或者同一转运系统的底物之间可能产生竞争从而引起DDI［3］ 。"
+  }
+]

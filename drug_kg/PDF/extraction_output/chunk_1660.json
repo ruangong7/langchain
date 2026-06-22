@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "环孢素",
+        "canonical_name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "异烟肼",
+        "canonical_name": "异烟肼",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "钙调磷酸酶抑制剂",
+        "canonical_name": "钙调磷酸酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "肾病综合征",
+        "canonical_name": "肾病综合征",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "canonical_name": "血药浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊.pdf",
+          "chunk_index": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊:2",
+          "raw_text": "环孢素（cyclosporin A，CsA）是一种钙调磷酸酶抑制剂（calcineurin inhibitor，CNIs），是临床上常用的免疫抑制剂是激素耐药型肾病综合征的首选用药由于的药代动力学个体差异大治疗窗窄故临床应用中需进行血药浓度监测调整给药方案使其浓度在有效范围以达到最佳疗效和减少不良反应的发生［1］ 临床对于肾病综合征（ nephrotic syndrome，NS） 合并结核感染的患儿常规联用异烟肼 （ isoniazid， INH ） 和利福平或单用与相互作用明确，目前仅国外报道了RFP 对移植患者CsA 血药浓度影响合并结核感染患者需要两药联合使用时如何调整给药方案提高血药浓度国内外均无相关报道本研究总结年首都医科大学附属北京儿童医院肾内科联用 CsA 和 RFP 的患儿共3 例，药师通过监测血药浓度对患儿进行监护与干预提高了临床疗效同时引起医务人员对药物相互作用的重视",
+          "chunk_id": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊:2",
+          "data": "the drug interaction， ensured the safety of patients， and promoted the rational drug use in clinic．［Keywords］rifampicin；cyclosporine A；blood concentration monitoring；drug interaction环孢素（cyclosporin A，CsA）是一种钙调磷酸酶抑制剂（calcineurin inhibitor，CNIs），是临床上常用的免疫抑制剂是激素耐药型肾病综合征的首选用药由于的药代动力学个体差异大治疗窗窄故临床应用中需进行血药浓度监测调整给药方案使其浓度在有效范围以达到最佳疗效和减少不良反应的发生［1］ 临床对于肾病综合征（ nephrotic syndrome，NS） 合并结核感染的患儿常规联用异烟肼 （ isoniazid， INH ） 和利福平或单用与相互作用明确，目前仅国外报道了RFP 对移植患者CsA 血药浓度影响合并结核感染患者需要两药联合使用时如何调整给药方案提高血药浓度国内外均无相关报道本研究总结年首都医科大学附属北京儿童医院肾内科联用 CsA 和 RFP 的患儿共3 例，药师通过监测血药浓度对患儿进行监护与干预提高了临床疗效同时引起医务人员对药物相互作用的重视"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊.pdf",
+          "chunk_index": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊:2",
+          "raw_text": "环孢素（cyclosporin A，CsA）是一种钙调磷酸酶抑制剂（calcineurin inhibitor，CNIs）",
+          "chunk_id": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊:2",
+          "data": "the drug interaction， ensured the safety of patients， and promoted the rational drug use in clinic．［Keywords］rifampicin；cyclosporine A；blood concentration monitoring；drug interaction环孢素（cyclosporin A，CsA）是一种钙调磷酸酶抑制剂（calcineurin inhibitor，CNIs），是临床上常用的免疫抑制剂是激素耐药型肾病综合征的首选用药由于的药代动力学个体差异大治疗窗窄故临床应用中需进行血药浓度监测调整给药方案使其浓度在有效范围以达到最佳疗效和减少不良反应的发生［1］ 临床对于肾病综合征（ nephrotic syndrome，NS） 合并结核感染的患儿常规联用异烟肼 （ isoniazid， INH ） 和利福平或单用与相互作用明确，目前仅国外报道了RFP 对移植患者CsA 血药浓度影响合并结核感染患者需要两药联合使用时如何调整给药方案提高血药浓度国内外均无相关报道本研究总结年首都医科大学附属北京儿童医院肾内科联用 CsA 和 RFP 的患儿共3 例，药师通过监测血药浓度对患儿进行监护与干预提高了临床疗效同时引起医务人员对药物相互作用的重视"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊.pdf",
+          "chunk_index": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊:2",
+          "raw_text": "环孢素（cyclosporin A，CsA）是一种钙调磷酸酶抑制剂（calcineurin inhibitor，CNIs），是临床上常用的免疫抑制剂是激素耐药型肾病综合征的首选用药",
+          "chunk_id": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊:2",
+          "data": "the drug interaction， ensured the safety of patients， and promoted the rational drug use in clinic．［Keywords］rifampicin；cyclosporine A；blood concentration monitoring；drug interaction环孢素（cyclosporin A，CsA）是一种钙调磷酸酶抑制剂（calcineurin inhibitor，CNIs），是临床上常用的免疫抑制剂是激素耐药型肾病综合征的首选用药由于的药代动力学个体差异大治疗窗窄故临床应用中需进行血药浓度监测调整给药方案使其浓度在有效范围以达到最佳疗效和减少不良反应的发生［1］ 临床对于肾病综合征（ nephrotic syndrome，NS） 合并结核感染的患儿常规联用异烟肼 （ isoniazid， INH ） 和利福平或单用与相互作用明确，目前仅国外报道了RFP 对移植患者CsA 血药浓度影响合并结核感染患者需要两药联合使用时如何调整给药方案提高血药浓度国内外均无相关报道本研究总结年首都医科大学附属北京儿童医院肾内科联用 CsA 和 RFP 的患儿共3 例，药师通过监测血药浓度对患儿进行监护与干预提高了临床疗效同时引起医务人员对药物相互作用的重视"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊.pdf",
+          "chunk_index": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊:2",
+          "raw_text": "由于的药代动力学个体差异大治疗窗窄故临床应用中需进行血药浓度监测调整给药方案使其浓度在有效范围以达到最佳疗效和减少不良反应的发生",
+          "chunk_id": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊:2",
+          "data": "the drug interaction， ensured the safety of patients， and promoted the rational drug use in clinic．［Keywords］rifampicin；cyclosporine A；blood concentration monitoring；drug interaction环孢素（cyclosporin A，CsA）是一种钙调磷酸酶抑制剂（calcineurin inhibitor，CNIs），是临床上常用的免疫抑制剂是激素耐药型肾病综合征的首选用药由于的药代动力学个体差异大治疗窗窄故临床应用中需进行血药浓度监测调整给药方案使其浓度在有效范围以达到最佳疗效和减少不良反应的发生［1］ 临床对于肾病综合征（ nephrotic syndrome，NS） 合并结核感染的患儿常规联用异烟肼 （ isoniazid， INH ） 和利福平或单用与相互作用明确，目前仅国外报道了RFP 对移植患者CsA 血药浓度影响合并结核感染患者需要两药联合使用时如何调整给药方案提高血药浓度国内外均无相关报道本研究总结年首都医科大学附属北京儿童医院肾内科联用 CsA 和 RFP 的患儿共3 例，药师通过监测血药浓度对患儿进行监护与干预提高了临床疗效同时引起医务人员对药物相互作用的重视"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊.pdf",
+          "chunk_index": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊:2",
+          "raw_text": "临床对于肾病综合征（ nephrotic syndrome，NS） 合并结核感染的患儿常规联用异烟肼 （ isoniazid， INH ） 和利福平或单用与相互作用明确",
+          "chunk_id": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊:2",
+          "data": "the drug interaction， ensured the safety of patients， and promoted the rational drug use in clinic．［Keywords］rifampicin；cyclosporine A；blood concentration monitoring；drug interaction环孢素（cyclosporin A，CsA）是一种钙调磷酸酶抑制剂（calcineurin inhibitor，CNIs），是临床上常用的免疫抑制剂是激素耐药型肾病综合征的首选用药由于的药代动力学个体差异大治疗窗窄故临床应用中需进行血药浓度监测调整给药方案使其浓度在有效范围以达到最佳疗效和减少不良反应的发生［1］ 临床对于肾病综合征（ nephrotic syndrome，NS） 合并结核感染的患儿常规联用异烟肼 （ isoniazid， INH ） 和利福平或单用与相互作用明确，目前仅国外报道了RFP 对移植患者CsA 血药浓度影响合并结核感染患者需要两药联合使用时如何调整给药方案提高血药浓度国内外均无相关报道本研究总结年首都医科大学附属北京儿童医院肾内科联用 CsA 和 RFP 的患儿共3 例，药师通过监测血药浓度对患儿进行监护与干预提高了临床疗效同时引起医务人员对药物相互作用的重视"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊:2",
+    "source": "利福平联合环孢素治疗儿童肾病综合征合并结核感染的药物相互作用_李殊.pdf",
+    "text": "the drug interaction， ensured the safety of patients， and promoted the rational drug use in clinic．［Keywords］rifampicin；cyclosporine A；blood concentration monitoring；drug interaction环孢素（cyclosporin A，CsA）是一种钙调磷酸酶抑制剂（calcineurin inhibitor，CNIs），是临床上常用的免疫抑制剂是激素耐药型肾病综合征的首选用药由于的药代动力学个体差异大治疗窗窄故临床应用中需进行血药浓度监测调整给药方案使其浓度在有效范围以达到最佳疗效和减少不良反应的发生［1］ 临床对于肾病综合征（ nephrotic syndrome，NS） 合并结核感染的患儿常规联用异烟肼 （ isoniazid， INH ） 和利福平或单用与相互作用明确，目前仅国外报道了RFP 对移植患者CsA 血药浓度影响合并结核感染患者需要两药联合使用时如何调整给药方案提高血药浓度国内外均无相关报道本研究总结年首都医科大学附属北京儿童医院肾内科联用 CsA 和 RFP 的患儿共3 例，药师通过监测血药浓度对患儿进行监护与干预提高了临床疗效同时引起医务人员对药物相互作用的重视"
+  }
+]

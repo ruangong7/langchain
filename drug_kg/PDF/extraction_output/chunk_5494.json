@@ -1,0 +1,159 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "canonical_name": "阿托伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "CYP3A4抑制剂",
+        "canonical_name": "CYP3A4抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP3A4底物",
+        "canonical_name": "CYP3A4底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "冠心病",
+        "canonical_name": "冠心病",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "肌病",
+        "canonical_name": "肌病",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "肌酐",
+        "canonical_name": "肌酐",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "肌酸激酶",
+        "canonical_name": "肌酸激酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Population",
+        "name": "老年患者",
+        "canonical_name": "老年患者",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏.pdf",
+          "chunk_index": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏:6",
+          "raw_text": "atorvastatin in elderly patients with CAD",
+          "chunk_id": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏:6",
+          "data": "ijing 100191, China;2 Department of Cardiology, Beijing Hospital, National Center of Gerontology, Beijing 100730, China;3 Department of Pharmacy, Beijing Hospital, National Center of Gerontology, Beijing 100730, China)Abstract: Objective To study the safety and efficacy of atorvastatin in elderly patients with CAD when combined with substrates and inhibitors of CYP3A4, so as to find out the risk factors associated with atorvastatin-induced myopathy. Methods The clinical data of elderly patients, who had received atorvastatin, were collected in one research center from March to June in 2017 and analyzed by SPSS. The associated risk factors were analyzed by multivariate linear regres － sion analysis. Results There was no significant effect on the safety and efficacy of atorvastatin for elderly patients with CAD, combined with the inhibitors of CYP3A4. However, with the increasing number of the substrates of CYP3A4, CRE showed a rising tendency. According to the result of multivariate lin"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏.pdf",
+          "chunk_index": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏:6",
+          "raw_text": "combined with the inhibitors of CYP3A4",
+          "chunk_id": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏:6",
+          "data": "ijing 100191, China;2 Department of Cardiology, Beijing Hospital, National Center of Gerontology, Beijing 100730, China;3 Department of Pharmacy, Beijing Hospital, National Center of Gerontology, Beijing 100730, China)Abstract: Objective To study the safety and efficacy of atorvastatin in elderly patients with CAD when combined with substrates and inhibitors of CYP3A4, so as to find out the risk factors associated with atorvastatin-induced myopathy. Methods The clinical data of elderly patients, who had received atorvastatin, were collected in one research center from March to June in 2017 and analyzed by SPSS. The associated risk factors were analyzed by multivariate linear regres － sion analysis. Results There was no significant effect on the safety and efficacy of atorvastatin for elderly patients with CAD, combined with the inhibitors of CYP3A4. However, with the increasing number of the substrates of CYP3A4, CRE showed a rising tendency. According to the result of multivariate lin"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏.pdf",
+          "chunk_index": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏:6",
+          "raw_text": "combined with ... multiple CYP3A4 substrates",
+          "chunk_id": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏:6",
+          "data": "ijing 100191, China;2 Department of Cardiology, Beijing Hospital, National Center of Gerontology, Beijing 100730, China;3 Department of Pharmacy, Beijing Hospital, National Center of Gerontology, Beijing 100730, China)Abstract: Objective To study the safety and efficacy of atorvastatin in elderly patients with CAD when combined with substrates and inhibitors of CYP3A4, so as to find out the risk factors associated with atorvastatin-induced myopathy. Methods The clinical data of elderly patients, who had received atorvastatin, were collected in one research center from March to June in 2017 and analyzed by SPSS. The associated risk factors were analyzed by multivariate linear regres － sion analysis. Results There was no significant effect on the safety and efficacy of atorvastatin for elderly patients with CAD, combined with the inhibitors of CYP3A4. However, with the increasing number of the substrates of CYP3A4, CRE showed a rising tendency. According to the result of multivariate lin"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏.pdf",
+          "chunk_index": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏:6",
+          "raw_text": "atorvastatin-induced myopathy",
+          "chunk_id": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏:6",
+          "data": "ijing 100191, China;2 Department of Cardiology, Beijing Hospital, National Center of Gerontology, Beijing 100730, China;3 Department of Pharmacy, Beijing Hospital, National Center of Gerontology, Beijing 100730, China)Abstract: Objective To study the safety and efficacy of atorvastatin in elderly patients with CAD when combined with substrates and inhibitors of CYP3A4, so as to find out the risk factors associated with atorvastatin-induced myopathy. Methods The clinical data of elderly patients, who had received atorvastatin, were collected in one research center from March to June in 2017 and analyzed by SPSS. The associated risk factors were analyzed by multivariate linear regres － sion analysis. Results There was no significant effect on the safety and efficacy of atorvastatin for elderly patients with CAD, combined with the inhibitors of CYP3A4. However, with the increasing number of the substrates of CYP3A4, CRE showed a rising tendency. According to the result of multivariate lin"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏.pdf",
+          "chunk_index": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏:6",
+          "raw_text": "CRE showed a rising tendency",
+          "chunk_id": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏:6",
+          "data": "ijing 100191, China;2 Department of Cardiology, Beijing Hospital, National Center of Gerontology, Beijing 100730, China;3 Department of Pharmacy, Beijing Hospital, National Center of Gerontology, Beijing 100730, China)Abstract: Objective To study the safety and efficacy of atorvastatin in elderly patients with CAD when combined with substrates and inhibitors of CYP3A4, so as to find out the risk factors associated with atorvastatin-induced myopathy. Methods The clinical data of elderly patients, who had received atorvastatin, were collected in one research center from March to June in 2017 and analyzed by SPSS. The associated risk factors were analyzed by multivariate linear regres － sion analysis. Results There was no significant effect on the safety and efficacy of atorvastatin for elderly patients with CAD, combined with the inhibitors of CYP3A4. However, with the increasing number of the substrates of CYP3A4, CRE showed a rising tendency. According to the result of multivariate lin"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏.pdf",
+          "chunk_index": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏:6",
+          "raw_text": "CK could be influenced by ... atorvastatin",
+          "chunk_id": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏:6",
+          "data": "ijing 100191, China;2 Department of Cardiology, Beijing Hospital, National Center of Gerontology, Beijing 100730, China;3 Department of Pharmacy, Beijing Hospital, National Center of Gerontology, Beijing 100730, China)Abstract: Objective To study the safety and efficacy of atorvastatin in elderly patients with CAD when combined with substrates and inhibitors of CYP3A4, so as to find out the risk factors associated with atorvastatin-induced myopathy. Methods The clinical data of elderly patients, who had received atorvastatin, were collected in one research center from March to June in 2017 and analyzed by SPSS. The associated risk factors were analyzed by multivariate linear regres － sion analysis. Results There was no significant effect on the safety and efficacy of atorvastatin for elderly patients with CAD, combined with the inhibitors of CYP3A4. However, with the increasing number of the substrates of CYP3A4, CRE showed a rising tendency. According to the result of multivariate lin"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏.pdf",
+          "chunk_index": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏:6",
+          "raw_text": "elderly patients received atorvastatin ... should be monitored",
+          "chunk_id": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏:6",
+          "data": "ijing 100191, China;2 Department of Cardiology, Beijing Hospital, National Center of Gerontology, Beijing 100730, China;3 Department of Pharmacy, Beijing Hospital, National Center of Gerontology, Beijing 100730, China)Abstract: Objective To study the safety and efficacy of atorvastatin in elderly patients with CAD when combined with substrates and inhibitors of CYP3A4, so as to find out the risk factors associated with atorvastatin-induced myopathy. Methods The clinical data of elderly patients, who had received atorvastatin, were collected in one research center from March to June in 2017 and analyzed by SPSS. The associated risk factors were analyzed by multivariate linear regres － sion analysis. Results There was no significant effect on the safety and efficacy of atorvastatin for elderly patients with CAD, combined with the inhibitors of CYP3A4. However, with the increasing number of the substrates of CYP3A4, CRE showed a rising tendency. According to the result of multivariate lin"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏:6",
+    "source": "药物相互作用对阿托伐他汀安全性和有效性的影响分析_张宏.pdf",
+    "text": "ijing 100191, China;2 Department of Cardiology, Beijing Hospital, National Center of Gerontology, Beijing 100730, China;3 Department of Pharmacy, Beijing Hospital, National Center of Gerontology, Beijing 100730, China)Abstract: Objective To study the safety and efficacy of atorvastatin in elderly patients with CAD when combined with substrates and inhibitors of CYP3A4, so as to find out the risk factors associated with atorvastatin-induced myopathy. Methods The clinical data of elderly patients, who had received atorvastatin, were collected in one research center from March to June in 2017 and analyzed by SPSS. The associated risk factors were analyzed by multivariate linear regres － sion analysis. Results There was no significant effect on the safety and efficacy of atorvastatin for elderly patients with CAD, combined with the inhibitors of CYP3A4. However, with the increasing number of the substrates of CYP3A4, CRE showed a rising tendency. According to the result of multivariate linear regression analysis, CK could be influ － enced by age, gender, dyslipidemia, and the inhibitors of CYP3A4 in elderly patients with CAD. Conclusion The safety parameters should be monitored when elderly patients received atorvastatin and in combination with CYP3A4 inhibitors and multiple CYP3A4 substrates, especially the CRE and CK.Keywords: atorvastatin;"
+  }
+]

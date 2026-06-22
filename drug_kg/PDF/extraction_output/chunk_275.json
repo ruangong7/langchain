@@ -1,0 +1,390 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "索非布韦",
+        "canonical_name": "索非布韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "替诺福韦",
+        "canonical_name": "替诺福韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "恩曲他滨",
+        "canonical_name": "恩曲他滨",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "拉米夫定",
+        "canonical_name": "拉米夫定",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "齐多夫定",
+        "canonical_name": "齐多夫定",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "阿巴卡韦",
+        "canonical_name": "阿巴卡韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "司美匹韦",
+        "canonical_name": "司美匹韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "达卡他韦",
+        "canonical_name": "达卡他韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "翁比他韦",
+        "canonical_name": "翁比他韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "帕利瑞韦",
+        "canonical_name": "帕利瑞韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "利托那韦",
+        "canonical_name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "达萨布韦",
+        "canonical_name": "达萨布韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "NRTIs",
+        "canonical_name": "核苷类逆转录酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "蛋白酶抑制剂",
+        "canonical_name": "蛋白酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Disease",
+        "name": "肾小管疾病",
+        "canonical_name": "肾小管疾病",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "raw_text": "含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+          "data": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:0",
+    "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+    "text": "1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。\n1.3 NRTIs 与其他 DAA 的相互作用 Ouwerkerk-Mahadevan 等 [16] 研究了健康志愿者对 TDF 与司美匹韦（simeprevir, SIM）的相互作用未发现它们之间的相互作用。基于 ABC、3TC、AZT、TDF 与达卡他韦（daclatasvir, DAC）、SIM 在体内代谢和清除的机制，它们发生有临床意义相互作用的可能性极小，也不须要调整剂量[11]。\n翁比他韦（ombitasvir, OBV）、帕利瑞韦 / 利托那韦（paritaprevir/ritonavir, PTV/r）及达萨布韦（dasabuvir, DAV）常联合应用于抗 HCV 治疗。在一项针对 HIV/HCV 合并感染初治患者的研究中联合应用 3TC+ABC 及 PTV/OBV/r+DAV 组合，未发现它们之间的相互作用，也不须要调整剂量[17]。"
+  }
+]

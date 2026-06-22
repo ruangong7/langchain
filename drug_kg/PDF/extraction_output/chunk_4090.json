@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "环孢素",
+        "canonical_name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "强的松龙",
+        "canonical_name": "强的松龙",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "雷尼替丁",
+        "canonical_name": "雷尼替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "肝脏毒性",
+        "canonical_name": "肝脏毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "肝功能",
+        "canonical_name": "肝功能",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Symptom",
+        "name": "黄疸",
+        "canonical_name": "黄疸",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "环孢素的药物相互作用及毒性_张青.pdf",
+          "chunk_index": "环孢素的药物相互作用及毒性_张青:2",
+          "raw_text": "环孢素以减少强的松龙的清除，而增强强的松龙的治疗效果。环孢素减少强的松龙的代谢有3个机理：1，环孢素引起肝脏中毒可以降低肝脏代谢药物的能力。2，环孢素可能减少肝脏细胞色素P-450酶的数量。3，环孢素可能竞争抑制P-450酶代谢强的松龙。",
+          "chunk_id": "环孢素的药物相互作用及毒性_张青:2",
+          "data": "ve effects of captopril against ischemiare Perfusion-induced Ventricular arrhythmias in vitro and in vivo Am j med 1988;环孢素的药物相互作用及毒性\n张青温洪波（中国医科大学附属第四医院 110005）环孢素（Cyclosporin,　以下简称 Cs）是器移杆的新型免疫抑制剂．临床主要用于心脏、肝脏、肾脏和骨髓移植术后可能出现的排斥反应．近两年来，我国已有医院应用．国内有关 C s 的药物相互作用及毒性的报道较少，本文根据外文文献对此做一概述。与强的松龙：J.M.Duun 等1　报告C s 以减少强的松龙的清除，而增强强的松龙的治疗效果．C s 减少强的松龙的代谢有 3 个机理：1 ，C s 引起肝脏中毒可以降低肝脏代谢药物的能力．2 ，C s 可能减少肝脏细胞色素P-450 酶的数量．3 ，C s 可能竞争抑制P - 4 5 0 酶代谢强的松龙。与雷尼替丁：C . H i e s s e 等 2 报告 1 例 3 8 岁的男性，因肾衰于 8 3 年 3 月做肾移植术．该患者无肝炎史，手术当日，表面抗原阴性．肝功能正常，术后每日给予 C s 6 0 m g /k g ，为了防止上消化道出血每日用雷尼替丁 1 5 0 m g ．术后第 8 天肾功能正常后，该患者出现黄疸症状．体温 3 7 ℃，血清胆红素为 6 0 μ m o l / L （正常低于 2 0 μ m o l / L ），丙氨酸转氨酶（A L T ）为 5 3 0 m u / m l （正常低于 2 0 m u / m l ），天冬氨酸转氨酶（A S T ）为 1 0 0 m u / m l （正常低于 2 0 m u /m l ），碱性磷酸酶为 84u/l （正常低于 60u/l ）．停用雷尼替丁，C s 减至每日 2 m g ／ k g （血中浓度 1 5 3 n g / m l ），肝功能迅速恢复正常．所以两药合用应该谨慎，并且需要监视肝脏功能。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "环孢素的药物相互作用及毒性_张青.pdf",
+          "chunk_index": "环孢素的药物相互作用及毒性_张青:2",
+          "raw_text": "两药合用应该谨慎，并且需要监视肝脏功能。",
+          "chunk_id": "环孢素的药物相互作用及毒性_张青:2",
+          "data": "ve effects of captopril against ischemiare Perfusion-induced Ventricular arrhythmias in vitro and in vivo Am j med 1988;环孢素的药物相互作用及毒性\n张青温洪波（中国医科大学附属第四医院 110005）环孢素（Cyclosporin,　以下简称 Cs）是器移杆的新型免疫抑制剂．临床主要用于心脏、肝脏、肾脏和骨髓移植术后可能出现的排斥反应．近两年来，我国已有医院应用．国内有关 C s 的药物相互作用及毒性的报道较少，本文根据外文文献对此做一概述。与强的松龙：J.M.Duun 等1　报告C s 以减少强的松龙的清除，而增强强的松龙的治疗效果．C s 减少强的松龙的代谢有 3 个机理：1 ，C s 引起肝脏中毒可以降低肝脏代谢药物的能力．2 ，C s 可能减少肝脏细胞色素P-450 酶的数量．3 ，C s 可能竞争抑制P - 4 5 0 酶代谢强的松龙。与雷尼替丁：C . H i e s s e 等 2 报告 1 例 3 8 岁的男性，因肾衰于 8 3 年 3 月做肾移植术．该患者无肝炎史，手术当日，表面抗原阴性．肝功能正常，术后每日给予 C s 6 0 m g /k g ，为了防止上消化道出血每日用雷尼替丁 1 5 0 m g ．术后第 8 天肾功能正常后，该患者出现黄疸症状．体温 3 7 ℃，血清胆红素为 6 0 μ m o l / L （正常低于 2 0 μ m o l / L ），丙氨酸转氨酶（A L T ）为 5 3 0 m u / m l （正常低于 2 0 m u / m l ），天冬氨酸转氨酶（A S T ）为 1 0 0 m u / m l （正常低于 2 0 m u /m l ），碱性磷酸酶为 84u/l （正常低于 60u/l ）．停用雷尼替丁，C s 减至每日 2 m g ／ k g （血中浓度 1 5 3 n g / m l ），肝功能迅速恢复正常．所以两药合用应该谨慎，并且需要监视肝脏功能。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "环孢素的药物相互作用及毒性_张青.pdf",
+          "chunk_index": "环孢素的药物相互作用及毒性_张青:2",
+          "raw_text": "环孢素引起肝脏中毒可以降低肝脏代谢药物的能力。",
+          "chunk_id": "环孢素的药物相互作用及毒性_张青:2",
+          "data": "ve effects of captopril against ischemiare Perfusion-induced Ventricular arrhythmias in vitro and in vivo Am j med 1988;环孢素的药物相互作用及毒性\n张青温洪波（中国医科大学附属第四医院 110005）环孢素（Cyclosporin,　以下简称 Cs）是器移杆的新型免疫抑制剂．临床主要用于心脏、肝脏、肾脏和骨髓移植术后可能出现的排斥反应．近两年来，我国已有医院应用．国内有关 C s 的药物相互作用及毒性的报道较少，本文根据外文文献对此做一概述。与强的松龙：J.M.Duun 等1　报告C s 以减少强的松龙的清除，而增强强的松龙的治疗效果．C s 减少强的松龙的代谢有 3 个机理：1 ，C s 引起肝脏中毒可以降低肝脏代谢药物的能力．2 ，C s 可能减少肝脏细胞色素P-450 酶的数量．3 ，C s 可能竞争抑制P - 4 5 0 酶代谢强的松龙。与雷尼替丁：C . H i e s s e 等 2 报告 1 例 3 8 岁的男性，因肾衰于 8 3 年 3 月做肾移植术．该患者无肝炎史，手术当日，表面抗原阴性．肝功能正常，术后每日给予 C s 6 0 m g /k g ，为了防止上消化道出血每日用雷尼替丁 1 5 0 m g ．术后第 8 天肾功能正常后，该患者出现黄疸症状．体温 3 7 ℃，血清胆红素为 6 0 μ m o l / L （正常低于 2 0 μ m o l / L ），丙氨酸转氨酶（A L T ）为 5 3 0 m u / m l （正常低于 2 0 m u / m l ），天冬氨酸转氨酶（A S T ）为 1 0 0 m u / m l （正常低于 2 0 m u /m l ），碱性磷酸酶为 84u/l （正常低于 60u/l ）．停用雷尼替丁，C s 减至每日 2 m g ／ k g （血中浓度 1 5 3 n g / m l ），肝功能迅速恢复正常．所以两药合用应该谨慎，并且需要监视肝脏功能。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "环孢素的药物相互作用及毒性_张青.pdf",
+          "chunk_index": "环孢素的药物相互作用及毒性_张青:2",
+          "raw_text": "两药合用应该谨慎，并且需要监视肝脏功能。",
+          "chunk_id": "环孢素的药物相互作用及毒性_张青:2",
+          "data": "ve effects of captopril against ischemiare Perfusion-induced Ventricular arrhythmias in vitro and in vivo Am j med 1988;环孢素的药物相互作用及毒性\n张青温洪波（中国医科大学附属第四医院 110005）环孢素（Cyclosporin,　以下简称 Cs）是器移杆的新型免疫抑制剂．临床主要用于心脏、肝脏、肾脏和骨髓移植术后可能出现的排斥反应．近两年来，我国已有医院应用．国内有关 C s 的药物相互作用及毒性的报道较少，本文根据外文文献对此做一概述。与强的松龙：J.M.Duun 等1　报告C s 以减少强的松龙的清除，而增强强的松龙的治疗效果．C s 减少强的松龙的代谢有 3 个机理：1 ，C s 引起肝脏中毒可以降低肝脏代谢药物的能力．2 ，C s 可能减少肝脏细胞色素P-450 酶的数量．3 ，C s 可能竞争抑制P - 4 5 0 酶代谢强的松龙。与雷尼替丁：C . H i e s s e 等 2 报告 1 例 3 8 岁的男性，因肾衰于 8 3 年 3 月做肾移植术．该患者无肝炎史，手术当日，表面抗原阴性．肝功能正常，术后每日给予 C s 6 0 m g /k g ，为了防止上消化道出血每日用雷尼替丁 1 5 0 m g ．术后第 8 天肾功能正常后，该患者出现黄疸症状．体温 3 7 ℃，血清胆红素为 6 0 μ m o l / L （正常低于 2 0 μ m o l / L ），丙氨酸转氨酶（A L T ）为 5 3 0 m u / m l （正常低于 2 0 m u / m l ），天冬氨酸转氨酶（A S T ）为 1 0 0 m u / m l （正常低于 2 0 m u /m l ），碱性磷酸酶为 84u/l （正常低于 60u/l ）．停用雷尼替丁，C s 减至每日 2 m g ／ k g （血中浓度 1 5 3 n g / m l ），肝功能迅速恢复正常．所以两药合用应该谨慎，并且需要监视肝脏功能。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "环孢素的药物相互作用及毒性_张青.pdf",
+          "chunk_index": "环孢素的药物相互作用及毒性_张青:2",
+          "raw_text": "该患者出现黄疸症状。",
+          "chunk_id": "环孢素的药物相互作用及毒性_张青:2",
+          "data": "ve effects of captopril against ischemiare Perfusion-induced Ventricular arrhythmias in vitro and in vivo Am j med 1988;环孢素的药物相互作用及毒性\n张青温洪波（中国医科大学附属第四医院 110005）环孢素（Cyclosporin,　以下简称 Cs）是器移杆的新型免疫抑制剂．临床主要用于心脏、肝脏、肾脏和骨髓移植术后可能出现的排斥反应．近两年来，我国已有医院应用．国内有关 C s 的药物相互作用及毒性的报道较少，本文根据外文文献对此做一概述。与强的松龙：J.M.Duun 等1　报告C s 以减少强的松龙的清除，而增强强的松龙的治疗效果．C s 减少强的松龙的代谢有 3 个机理：1 ，C s 引起肝脏中毒可以降低肝脏代谢药物的能力．2 ，C s 可能减少肝脏细胞色素P-450 酶的数量．3 ，C s 可能竞争抑制P - 4 5 0 酶代谢强的松龙。与雷尼替丁：C . H i e s s e 等 2 报告 1 例 3 8 岁的男性，因肾衰于 8 3 年 3 月做肾移植术．该患者无肝炎史，手术当日，表面抗原阴性．肝功能正常，术后每日给予 C s 6 0 m g /k g ，为了防止上消化道出血每日用雷尼替丁 1 5 0 m g ．术后第 8 天肾功能正常后，该患者出现黄疸症状．体温 3 7 ℃，血清胆红素为 6 0 μ m o l / L （正常低于 2 0 μ m o l / L ），丙氨酸转氨酶（A L T ）为 5 3 0 m u / m l （正常低于 2 0 m u / m l ），天冬氨酸转氨酶（A S T ）为 1 0 0 m u / m l （正常低于 2 0 m u /m l ），碱性磷酸酶为 84u/l （正常低于 60u/l ）．停用雷尼替丁，C s 减至每日 2 m g ／ k g （血中浓度 1 5 3 n g / m l ），肝功能迅速恢复正常．所以两药合用应该谨慎，并且需要监视肝脏功能。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "环孢素的药物相互作用及毒性_张青:2",
+    "source": "环孢素的药物相互作用及毒性_张青.pdf",
+    "text": "ve effects of captopril against ischemiare Perfusion-induced Ventricular arrhythmias in vitro and in vivo Am j med 1988;环孢素的药物相互作用及毒性\n张青温洪波（中国医科大学附属第四医院 110005）环孢素（Cyclosporin,　以下简称 Cs）是器移杆的新型免疫抑制剂．临床主要用于心脏、肝脏、肾脏和骨髓移植术后可能出现的排斥反应．近两年来，我国已有医院应用．国内有关 C s 的药物相互作用及毒性的报道较少，本文根据外文文献对此做一概述。与强的松龙：J.M.Duun 等1　报告C s 以减少强的松龙的清除，而增强强的松龙的治疗效果．C s 减少强的松龙的代谢有 3 个机理：1 ，C s 引起肝脏中毒可以降低肝脏代谢药物的能力．2 ，C s 可能减少肝脏细胞色素P-450 酶的数量．3 ，C s 可能竞争抑制P - 4 5 0 酶代谢强的松龙。与雷尼替丁：C . H i e s s e 等 2 报告 1 例 3 8 岁的男性，因肾衰于 8 3 年 3 月做肾移植术．该患者无肝炎史，手术当日，表面抗原阴性．肝功能正常，术后每日给予 C s 6 0 m g /k g ，为了防止上消化道出血每日用雷尼替丁 1 5 0 m g ．术后第 8 天肾功能正常后，该患者出现黄疸症状．体温 3 7 ℃，血清胆红素为 6 0 μ m o l / L （正常低于 2 0 μ m o l / L ），丙氨酸转氨酶（A L T ）为 5 3 0 m u / m l （正常低于 2 0 m u / m l ），天冬氨酸转氨酶（A S T ）为 1 0 0 m u / m l （正常低于 2 0 m u /m l ），碱性磷酸酶为 84u/l （正常低于 60u/l ）．停用雷尼替丁，C s 减至每日 2 m g ／ k g （血中浓度 1 5 3 n g / m l ），肝功能迅速恢复正常．所以两药合用应该谨慎，并且需要监视肝脏功能。"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "canonical_name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "甲氨蝶呤",
+        "canonical_name": "甲氨蝶呤",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "canonical_name": "质子泵抑制剂",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "raw_text": "Omeprazole may delay MTX elimination",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "data": "terature\nYUAN Zheng 1 ，XU Jing 2 ，QIU Jin-chun2( 1 Zhengzhou Maternity and Child Health Hospital，Zhengzhou 450003，China;2 Nanjing Children ’ s Hospital Affiliated to Nanjing Medical University，Nanjing 210008，China)［Abstract］ Objestive: To discuss the mechanisms and clinical features of interaction between omeprazole and methotrexate( MTX) in order to provide references for rational use of proton pump inhibitors( PPIs) and MTX． Methods: One case of decreased elimination of MTX potentially induced by a drug interaction between methotrexate and omeprazole in a 9-year-old boy was analyzed and evaluated． Published literatures were searched for cases reports of interaction between PPIs and MTX through CNKI，WanFang Database，and Pubmed Database from 1990 to 2015． Results: Only 10 case reports were collected including two in China． Omeprazole may delay MTX elimination;"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "raw_text": "proton pump inhibitors( PPIs)",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "data": "terature\nYUAN Zheng 1 ，XU Jing 2 ，QIU Jin-chun2( 1 Zhengzhou Maternity and Child Health Hospital，Zhengzhou 450003，China;2 Nanjing Children ’ s Hospital Affiliated to Nanjing Medical University，Nanjing 210008，China)［Abstract］ Objestive: To discuss the mechanisms and clinical features of interaction between omeprazole and methotrexate( MTX) in order to provide references for rational use of proton pump inhibitors( PPIs) and MTX． Methods: One case of decreased elimination of MTX potentially induced by a drug interaction between methotrexate and omeprazole in a 9-year-old boy was analyzed and evaluated． Published literatures were searched for cases reports of interaction between PPIs and MTX through CNKI，WanFang Database，and Pubmed Database from 1990 to 2015． Results: Only 10 case reports were collected including two in China． Omeprazole may delay MTX elimination;"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+    "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+    "text": "terature\nYUAN Zheng 1 ，XU Jing 2 ，QIU Jin-chun2( 1 Zhengzhou Maternity and Child Health Hospital，Zhengzhou 450003，China;2 Nanjing Children ’ s Hospital Affiliated to Nanjing Medical University，Nanjing 210008，China)［Abstract］ Objestive: To discuss the mechanisms and clinical features of interaction between omeprazole and methotrexate( MTX) in order to provide references for rational use of proton pump inhibitors( PPIs) and MTX． Methods: One case of decreased elimination of MTX potentially induced by a drug interaction between methotrexate and omeprazole in a 9-year-old boy was analyzed and evaluated． Published literatures were searched for cases reports of interaction between PPIs and MTX through CNKI，WanFang Database，and Pubmed Database from 1990 to 2015． Results: Only 10 case reports were collected including two in China． Omeprazole may delay MTX elimination;"
+  }
+]

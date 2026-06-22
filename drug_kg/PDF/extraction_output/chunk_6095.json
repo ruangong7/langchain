@@ -1,0 +1,66 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "甲巯咪唑",
+        "canonical_name": "甲巯咪唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "丙酸氟替卡松吸入气雾剂",
+        "canonical_name": "丙酸氟替卡松",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "Graves病",
+        "canonical_name": "弥漫性毒性甲状腺肿",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "支气管哮喘急性发作",
+        "canonical_name": "支气管哮喘",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "质子泵抑制剂与其他药物相互作用的药学监护实践_李海燕.pdf",
+          "chunk_index": "质子泵抑制剂与其他药物相互作用的药学监护实践_李海燕:7",
+          "raw_text": "加用甲巯咪唑（10 mg，tid，7月1日~7月15日）",
+          "chunk_id": "质子泵抑制剂与其他药物相互作用的药学监护实践_李海燕:7",
+          "data": "mg，tid，6 月 27 日 \\~7月4日）。6月27日心电图示：窦性心动过速，频发室性早搏，心电图不正常，左室劳损。心脏彩超示：心率123次/min，示波下心律不齐；加用盐酸曲美他嗪片（20 mg，tid，6月28日\\~7月15日）。7月1日甲状腺功能示：游离 T$2 9 . 5 1 \\mathrm { p m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 、游离 $\\mathrm { T } _ { 4 } 8 3 . 1 0 \\mathrm { p m o l } { \\cdot } \\mathrm { L } ^ { - }$ 1、总 $\\mathrm { T } _ { 3 } 6 . 9 6 \\mathrm { n m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 、总 $\\mathrm { T } _ { 4 } ~ 1 9 6 . 8 0 ~ \\mathrm { n m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 、促甲状腺素 $< 0 . 0 1 \\mu \\mathrm { I U } \\cdot \\mathrm { m L } ^ { - 1 } .$ 、甲状腺过氧化物酶抗体 $5 0 8 . 4 0 ~ \\mathrm { I U } \\cdot \\mathrm { m L } ^ { - 1 }$ 。全消化道钡透示：胃炎改变，十二指肠憩。患者甲功不正常，追问病史既往有弥漫性毒性甲状腺肿（Graves 病），未治疗。修正诊断：Graves 病。加用甲巯咪唑（10 mg，tid，7月1日\\~7月15日）。7月4日间断气短喘息，呼吸科会诊考虑“支气管哮喘急性发作（难治型）”，加用丙酸氟替卡松吸入气雾剂（1吸 / 次，bid，7月4日\\~ 7月15日）；将促动力药换为枸橼酸莫沙必利片（5 mg，tid，7月4日～7月15 日）。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "质子泵抑制剂与其他药物相互作用的药学监护实践_李海燕.pdf",
+          "chunk_index": "质子泵抑制剂与其他药物相互作用的药学监护实践_李海燕:7",
+          "raw_text": "加用丙酸氟替卡松吸入气雾剂（1吸 / 次，bid，7月4日~ 7月15日）",
+          "chunk_id": "质子泵抑制剂与其他药物相互作用的药学监护实践_李海燕:7",
+          "data": "mg，tid，6 月 27 日 \\~7月4日）。6月27日心电图示：窦性心动过速，频发室性早搏，心电图不正常，左室劳损。心脏彩超示：心率123次/min，示波下心律不齐；加用盐酸曲美他嗪片（20 mg，tid，6月28日\\~7月15日）。7月1日甲状腺功能示：游离 T$2 9 . 5 1 \\mathrm { p m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 、游离 $\\mathrm { T } _ { 4 } 8 3 . 1 0 \\mathrm { p m o l } { \\cdot } \\mathrm { L } ^ { - }$ 1、总 $\\mathrm { T } _ { 3 } 6 . 9 6 \\mathrm { n m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 、总 $\\mathrm { T } _ { 4 } ~ 1 9 6 . 8 0 ~ \\mathrm { n m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 、促甲状腺素 $< 0 . 0 1 \\mu \\mathrm { I U } \\cdot \\mathrm { m L } ^ { - 1 } .$ 、甲状腺过氧化物酶抗体 $5 0 8 . 4 0 ~ \\mathrm { I U } \\cdot \\mathrm { m L } ^ { - 1 }$ 。全消化道钡透示：胃炎改变，十二指肠憩。患者甲功不正常，追问病史既往有弥漫性毒性甲状腺肿（Graves 病），未治疗。修正诊断：Graves 病。加用甲巯咪唑（10 mg，tid，7月1日\\~7月15日）。7月4日间断气短喘息，呼吸科会诊考虑“支气管哮喘急性发作（难治型）”，加用丙酸氟替卡松吸入气雾剂（1吸 / 次，bid，7月4日\\~ 7月15日）；将促动力药换为枸橼酸莫沙必利片（5 mg，tid，7月4日～7月15 日）。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "质子泵抑制剂与其他药物相互作用的药学监护实践_李海燕:7",
+    "source": "质子泵抑制剂与其他药物相互作用的药学监护实践_李海燕.pdf",
+    "text": "mg，tid，6 月 27 日 \\~7月4日）。6月27日心电图示：窦性心动过速，频发室性早搏，心电图不正常，左室劳损。心脏彩超示：心率123次/min，示波下心律不齐；加用盐酸曲美他嗪片（20 mg，tid，6月28日\\~7月15日）。7月1日甲状腺功能示：游离 T$2 9 . 5 1 \\mathrm { p m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 、游离 $\\mathrm { T } _ { 4 } 8 3 . 1 0 \\mathrm { p m o l } { \\cdot } \\mathrm { L } ^ { - }$ 1、总 $\\mathrm { T } _ { 3 } 6 . 9 6 \\mathrm { n m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 、总 $\\mathrm { T } _ { 4 } ~ 1 9 6 . 8 0 ~ \\mathrm { n m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 、促甲状腺素 $< 0 . 0 1 \\mu \\mathrm { I U } \\cdot \\mathrm { m L } ^ { - 1 } .$ 、甲状腺过氧化物酶抗体 $5 0 8 . 4 0 ~ \\mathrm { I U } \\cdot \\mathrm { m L } ^ { - 1 }$ 。全消化道钡透示：胃炎改变，十二指肠憩。患者甲功不正常，追问病史既往有弥漫性毒性甲状腺肿（Graves 病），未治疗。修正诊断：Graves 病。加用甲巯咪唑（10 mg，tid，7月1日\\~7月15日）。7月4日间断气短喘息，呼吸科会诊考虑“支气管哮喘急性发作（难治型）”，加用丙酸氟替卡松吸入气雾剂（1吸 / 次，bid，7月4日\\~ 7月15日）；将促动力药换为枸橼酸莫沙必利片（5 mg，tid，7月4日～7月15 日）。"
+  }
+]

@@ -1,0 +1,286 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "阿片类物质",
+        "canonical_name": "阿片类物质",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "苯二氮䓬类药物",
+        "canonical_name": "苯二氮䓬类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "丁丙诺啡",
+        "canonical_name": "丁丙诺啡",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "美沙酮",
+        "canonical_name": "美沙酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "HIV治疗药物",
+        "canonical_name": "HIV治疗药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "肝药酶抑制剂",
+        "canonical_name": "肝药酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "肝药酶诱导剂",
+        "canonical_name": "肝药酶诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "过量或中毒",
+        "canonical_name": "过量或中毒",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "戒断症状",
+        "canonical_name": "戒断症状",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "死亡",
+        "canonical_name": "死亡",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "SideEffect",
+        "name": "呼吸抑制",
+        "canonical_name": "呼吸抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "SideEffect",
+        "name": "心血管效应",
+        "canonical_name": "心血管效应",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "SideEffect",
+        "name": "Torsades de Pointes",
+        "canonical_name": "Torsades de Pointes",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "依从性降低",
+        "canonical_name": "依从性降低",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "SideEffect",
+        "name": "较差的临床结局",
+        "canonical_name": "较差的临床结局",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "抑制肝药酶活性的药物能引起血浆中药物浓度的增高易导致过量或中毒",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "gbenzodiazepinesordrugsthatmay potentiatecardiaceffectssuchasTorsadesdePointeswillbeconsidered KEYWORDS druginteraetion；clinicalimplication\n药物相互作用的临床意义\nChrisBCHAPLEO（ReckittBenckiserPharmaceuticalsEngland）摘要阿片类物质已经被证实在临床上能与多种药物发生相互作用多数是药代动力学上的相互作用也有部分药物是在药效学方面发生的相互作用药代动力学上的相互作用包括对肝药酶 P 的抑制或诱导药效学上的相互作用包括对中枢神经系统附加的抑制作用抑制肝药酶活性的药物能引起血浆中药物浓度的增高易导致过量或中毒诱导肝药酶活性的药物能加速药物的代谢降低血浆中药物浓度和药物有效性；对阿片物质来说可能导致戒断症状。药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "诱导肝药酶活性的药物能加速药物的代谢降低血浆中药物浓度和药物有效性；对阿片物质来说可能导致戒断症状",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "gbenzodiazepinesordrugsthatmay potentiatecardiaceffectssuchasTorsadesdePointeswillbeconsidered KEYWORDS druginteraetion；clinicalimplication\n药物相互作用的临床意义\nChrisBCHAPLEO（ReckittBenckiserPharmaceuticalsEngland）摘要阿片类物质已经被证实在临床上能与多种药物发生相互作用多数是药代动力学上的相互作用也有部分药物是在药效学方面发生的相互作用药代动力学上的相互作用包括对肝药酶 P 的抑制或诱导药效学上的相互作用包括对中枢神经系统附加的抑制作用抑制肝药酶活性的药物能引起血浆中药物浓度的增高易导致过量或中毒诱导肝药酶活性的药物能加速药物的代谢降低血浆中药物浓度和药物有效性；对阿片物质来说可能导致戒断症状。药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "gbenzodiazepinesordrugsthatmay potentiatecardiaceffectssuchasTorsadesdePointeswillbeconsidered KEYWORDS druginteraetion；clinicalimplication\n药物相互作用的临床意义\nChrisBCHAPLEO（ReckittBenckiserPharmaceuticalsEngland）摘要阿片类物质已经被证实在临床上能与多种药物发生相互作用多数是药代动力学上的相互作用也有部分药物是在药效学方面发生的相互作用药代动力学上的相互作用包括对肝药酶 P 的抑制或诱导药效学上的相互作用包括对中枢神经系统附加的抑制作用抑制肝药酶活性的药物能引起血浆中药物浓度的增高易导致过量或中毒诱导肝药酶活性的药物能加速药物的代谢降低血浆中药物浓度和药物有效性；对阿片物质来说可能导致戒断症状。药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "gbenzodiazepinesordrugsthatmay potentiatecardiaceffectssuchasTorsadesdePointeswillbeconsidered KEYWORDS druginteraetion；clinicalimplication\n药物相互作用的临床意义\nChrisBCHAPLEO（ReckittBenckiserPharmaceuticalsEngland）摘要阿片类物质已经被证实在临床上能与多种药物发生相互作用多数是药代动力学上的相互作用也有部分药物是在药效学方面发生的相互作用药代动力学上的相互作用包括对肝药酶 P 的抑制或诱导药效学上的相互作用包括对中枢神经系统附加的抑制作用抑制肝药酶活性的药物能引起血浆中药物浓度的增高易导致过量或中毒诱导肝药酶活性的药物能加速药物的代谢降低血浆中药物浓度和药物有效性；对阿片物质来说可能导致戒断症状。药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "gbenzodiazepinesordrugsthatmay potentiatecardiaceffectssuchasTorsadesdePointeswillbeconsidered KEYWORDS druginteraetion；clinicalimplication\n药物相互作用的临床意义\nChrisBCHAPLEO（ReckittBenckiserPharmaceuticalsEngland）摘要阿片类物质已经被证实在临床上能与多种药物发生相互作用多数是药代动力学上的相互作用也有部分药物是在药效学方面发生的相互作用药代动力学上的相互作用包括对肝药酶 P 的抑制或诱导药效学上的相互作用包括对中枢神经系统附加的抑制作用抑制肝药酶活性的药物能引起血浆中药物浓度的增高易导致过量或中毒诱导肝药酶活性的药物能加速药物的代谢降低血浆中药物浓度和药物有效性；对阿片物质来说可能导致戒断症状。药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "抑制肝药酶活性的药物能引起血浆中药物浓度的增高易导致过量或中毒",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "gbenzodiazepinesordrugsthatmay potentiatecardiaceffectssuchasTorsadesdePointeswillbeconsidered KEYWORDS druginteraetion；clinicalimplication\n药物相互作用的临床意义\nChrisBCHAPLEO（ReckittBenckiserPharmaceuticalsEngland）摘要阿片类物质已经被证实在临床上能与多种药物发生相互作用多数是药代动力学上的相互作用也有部分药物是在药效学方面发生的相互作用药代动力学上的相互作用包括对肝药酶 P 的抑制或诱导药效学上的相互作用包括对中枢神经系统附加的抑制作用抑制肝药酶活性的药物能引起血浆中药物浓度的增高易导致过量或中毒诱导肝药酶活性的药物能加速药物的代谢降低血浆中药物浓度和药物有效性；对阿片物质来说可能导致戒断症状。药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "诱导肝药酶活性的药物能加速药物的代谢降低血浆中药物浓度和药物有效性；对阿片物质来说可能导致戒断症状",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "gbenzodiazepinesordrugsthatmay potentiatecardiaceffectssuchasTorsadesdePointeswillbeconsidered KEYWORDS druginteraetion；clinicalimplication\n药物相互作用的临床意义\nChrisBCHAPLEO（ReckittBenckiserPharmaceuticalsEngland）摘要阿片类物质已经被证实在临床上能与多种药物发生相互作用多数是药代动力学上的相互作用也有部分药物是在药效学方面发生的相互作用药代动力学上的相互作用包括对肝药酶 P 的抑制或诱导药效学上的相互作用包括对中枢神经系统附加的抑制作用抑制肝药酶活性的药物能引起血浆中药物浓度的增高易导致过量或中毒诱导肝药酶活性的药物能加速药物的代谢降低血浆中药物浓度和药物有效性；对阿片物质来说可能导致戒断症状。药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "gbenzodiazepinesordrugsthatmay potentiatecardiaceffectssuchasTorsadesdePointeswillbeconsidered KEYWORDS druginteraetion；clinicalimplication\n药物相互作用的临床意义\nChrisBCHAPLEO（ReckittBenckiserPharmaceuticalsEngland）摘要阿片类物质已经被证实在临床上能与多种药物发生相互作用多数是药代动力学上的相互作用也有部分药物是在药效学方面发生的相互作用药代动力学上的相互作用包括对肝药酶 P 的抑制或诱导药效学上的相互作用包括对中枢神经系统附加的抑制作用抑制肝药酶活性的药物能引起血浆中药物浓度的增高易导致过量或中毒诱导肝药酶活性的药物能加速药物的代谢降低血浆中药物浓度和药物有效性；对阿片物质来说可能导致戒断症状。药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "gbenzodiazepinesordrugsthatmay potentiatecardiaceffectssuchasTorsadesdePointeswillbeconsidered KEYWORDS druginteraetion；clinicalimplication\n药物相互作用的临床意义\nChrisBCHAPLEO（ReckittBenckiserPharmaceuticalsEngland）摘要阿片类物质已经被证实在临床上能与多种药物发生相互作用多数是药代动力学上的相互作用也有部分药物是在药效学方面发生的相互作用药代动力学上的相互作用包括对肝药酶 P 的抑制或诱导药效学上的相互作用包括对中枢神经系统附加的抑制作用抑制肝药酶活性的药物能引起血浆中药物浓度的增高易导致过量或中毒诱导肝药酶活性的药物能加速药物的代谢降低血浆中药物浓度和药物有效性；对阿片物质来说可能导致戒断症状。药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "gbenzodiazepinesordrugsthatmay potentiatecardiaceffectssuchasTorsadesdePointeswillbeconsidered KEYWORDS druginteraetion；clinicalimplication\n药物相互作用的临床意义\nChrisBCHAPLEO（ReckittBenckiserPharmaceuticalsEngland）摘要阿片类物质已经被证实在临床上能与多种药物发生相互作用多数是药代动力学上的相互作用也有部分药物是在药效学方面发生的相互作用药代动力学上的相互作用包括对肝药酶 P 的抑制或诱导药效学上的相互作用包括对中枢神经系统附加的抑制作用抑制肝药酶活性的药物能引起血浆中药物浓度的增高易导致过量或中毒诱导肝药酶活性的药物能加速药物的代谢降低血浆中药物浓度和药物有效性；对阿片物质来说可能导致戒断症状。药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "gbenzodiazepinesordrugsthatmay potentiatecardiaceffectssuchasTorsadesdePointeswillbeconsidered",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "gbenzodiazepinesordrugsthatmay potentiatecardiaceffectssuchasTorsadesdePointeswillbeconsidered KEYWORDS druginteraetion；clinicalimplication\n药物相互作用的临床意义\nChrisBCHAPLEO（ReckittBenckiserPharmaceuticalsEngland）摘要阿片类物质已经被证实在临床上能与多种药物发生相互作用多数是药代动力学上的相互作用也有部分药物是在药效学方面发生的相互作用药代动力学上的相互作用包括对肝药酶 P 的抑制或诱导药效学上的相互作用包括对中枢神经系统附加的抑制作用抑制肝药酶活性的药物能引起血浆中药物浓度的增高易导致过量或中毒诱导肝药酶活性的药物能加速药物的代谢降低血浆中药物浓度和药物有效性；对阿片物质来说可能导致戒断症状。药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_5",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "gbenzodiazepinesordrugsthatmay potentiatecardiaceffectssuchasTorsadesdePointeswillbeconsidered KEYWORDS druginteraetion；clinicalimplication\n药物相互作用的临床意义\nChrisBCHAPLEO（ReckittBenckiserPharmaceuticalsEngland）摘要阿片类物质已经被证实在临床上能与多种药物发生相互作用多数是药代动力学上的相互作用也有部分药物是在药效学方面发生的相互作用药代动力学上的相互作用包括对肝药酶 P 的抑制或诱导药效学上的相互作用包括对中枢神经系统附加的抑制作用抑制肝药酶活性的药物能引起血浆中药物浓度的增高易导致过量或中毒诱导肝药酶活性的药物能加速药物的代谢降低血浆中药物浓度和药物有效性；对阿片物质来说可能导致戒断症状。药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_5",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "gbenzodiazepinesordrugsthatmay potentiatecardiaceffectssuchasTorsadesdePointeswillbeconsidered KEYWORDS druginteraetion；clinicalimplication\n药物相互作用的临床意义\nChrisBCHAPLEO（ReckittBenckiserPharmaceuticalsEngland）摘要阿片类物质已经被证实在临床上能与多种药物发生相互作用多数是药代动力学上的相互作用也有部分药物是在药效学方面发生的相互作用药代动力学上的相互作用包括对肝药酶 P 的抑制或诱导药效学上的相互作用包括对中枢神经系统附加的抑制作用抑制肝药酶活性的药物能引起血浆中药物浓度的增高易导致过量或中毒诱导肝药酶活性的药物能加速药物的代谢降低血浆中药物浓度和药物有效性；对阿片物质来说可能导致戒断症状。药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+    "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+    "text": "gbenzodiazepinesordrugsthatmay potentiatecardiaceffectssuchasTorsadesdePointeswillbeconsidered KEYWORDS druginteraetion；clinicalimplication\n药物相互作用的临床意义\nChrisBCHAPLEO（ReckittBenckiserPharmaceuticalsEngland）摘要阿片类物质已经被证实在临床上能与多种药物发生相互作用多数是药代动力学上的相互作用也有部分药物是在药效学方面发生的相互作用药代动力学上的相互作用包括对肝药酶 P 的抑制或诱导药效学上的相互作用包括对中枢神经系统附加的抑制作用抑制肝药酶活性的药物能引起血浆中药物浓度的增高易导致过量或中毒诱导肝药酶活性的药物能加速药物的代谢降低血浆中药物浓度和药物有效性；对阿片物质来说可能导致戒断症状。药效学的相互作用发生在同时使用抑制呼吸的药物如苯二氮艹卓类药物和丁丙诺啡或美沙酮的情况下两者共同滥用可导致死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION"
+  }
+]

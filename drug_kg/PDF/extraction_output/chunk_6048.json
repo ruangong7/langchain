@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "谷红注射液",
+        "canonical_name": "谷红注射液",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "葡萄柚汁",
+        "canonical_name": "葡萄柚汁",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Food",
+        "name": "圣约翰草制剂",
+        "canonical_name": "圣约翰草制剂",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月.pdf",
+          "chunk_index": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月:3",
+          "raw_text": "Co-administration of grapefruit juice or St. John's wort formulations has been reported to severely disrupt synthetic drug therapy",
+          "chunk_id": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月:3",
+          "data": "Introduction\nIn China, integrating Chinese medicine with Western medicine to treat many multifactorial diseases is a significant advantage[1–8]. This integration necessitates a high degree of pharmacokinetic compatibility between the complex herbal medicines and the comedicated synthetic drugs, meaning the absence of unintentional pharmacokinetic drug interaction that could interfere with drug therapy leading to decreased efficacy or safety[9–10]. Co-administration of grapefruit juice or St. John’s wort formulations has been reported to severely disrupt synthetic drug therapy by, respectively,Received 9 October 2024 / Accepted 14 April 2025 How to cite this article: Wang QY, Ma ZZ, Yuan JY, Yue GL, Feng YF, Xia XY, Jia WW, Du FF, Wang FQ, Yu X, Cheng C, Huang YH, Wang XK, Zeng YM, Li YF, Song ZJ, Yang JL, Li C. Human pharmacokinetics and drug interaction potential of GuHong: an intravenous herbal formulation for managing ischemic stroke. Acupunct Herb Med 2025;"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月.pdf",
+          "chunk_index": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月:3",
+          "raw_text": "Co-administration of grapefruit juice or St. John's wort formulations has been reported to severely disrupt synthetic drug therapy",
+          "chunk_id": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月:3",
+          "data": "Introduction\nIn China, integrating Chinese medicine with Western medicine to treat many multifactorial diseases is a significant advantage[1–8]. This integration necessitates a high degree of pharmacokinetic compatibility between the complex herbal medicines and the comedicated synthetic drugs, meaning the absence of unintentional pharmacokinetic drug interaction that could interfere with drug therapy leading to decreased efficacy or safety[9–10]. Co-administration of grapefruit juice or St. John’s wort formulations has been reported to severely disrupt synthetic drug therapy by, respectively,Received 9 October 2024 / Accepted 14 April 2025 How to cite this article: Wang QY, Ma ZZ, Yuan JY, Yue GL, Feng YF, Xia XY, Jia WW, Du FF, Wang FQ, Yu X, Cheng C, Huang YH, Wang XK, Zeng YM, Li YF, Song ZJ, Yang JL, Li C. Human pharmacokinetics and drug interaction potential of GuHong: an intravenous herbal formulation for managing ischemic stroke. Acupunct Herb Med 2025;"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月:3",
+    "source": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月.pdf",
+    "text": "Introduction\nIn China, integrating Chinese medicine with Western medicine to treat many multifactorial diseases is a significant advantage[1–8]. This integration necessitates a high degree of pharmacokinetic compatibility between the complex herbal medicines and the comedicated synthetic drugs, meaning the absence of unintentional pharmacokinetic drug interaction that could interfere with drug therapy leading to decreased efficacy or safety[9–10]. Co-administration of grapefruit juice or St. John’s wort formulations has been reported to severely disrupt synthetic drug therapy by, respectively,Received 9 October 2024 / Accepted 14 April 2025 How to cite this article: Wang QY, Ma ZZ, Yuan JY, Yue GL, Feng YF, Xia XY, Jia WW, Du FF, Wang FQ, Yu X, Cheng C, Huang YH, Wang XK, Zeng YM, Li YF, Song ZJ, Yang JL, Li C. Human pharmacokinetics and drug interaction potential of GuHong: an intravenous herbal formulation for managing ischemic stroke. Acupunct Herb Med 2025;"
+  }
+]

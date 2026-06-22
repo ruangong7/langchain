@@ -1,0 +1,272 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "博舒替尼",
+        "canonical_name": "博舒替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "BCR-ABL抑制剂",
+        "canonical_name": "BCR-ABL抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "厄洛替尼",
+        "canonical_name": "厄洛替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "泼纳替尼",
+        "canonical_name": "泼纳替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "P-gp",
+        "canonical_name": "P-gp",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "BCRP",
+        "canonical_name": "BCRP",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "MATE1",
+        "canonical_name": "MATE1",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "MATE2-K",
+        "canonical_name": "MATE2-K",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "OCT1",
+        "canonical_name": "OCT1",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "OCT3",
+        "canonical_name": "OCT3",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "长春新碱",
+        "canonical_name": "长春新碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "紫杉醇",
+        "canonical_name": "紫杉醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "米托蒽醌",
+        "canonical_name": "米托蒽醌",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "raw_text": "博舒替尼为第三代 BCR-ABL 抑制剂",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "data": "博舒替尼博舒替尼为第三代 BCR-ABL 抑制剂2012 年由 FDA 批准作为三线药物治疗其他 TKIs耐药的 $\\mathrm { C M L _ { \\odot } }$ HEGEDUS 等[17]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP对博舒替尼在 K562 细胞上的摄取无明显影响高浓度的博舒替尼对 $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 有一定的抑制作用厄洛替尼为 MATE1 MATE2 - K OCT1 和OCT3 的抑制剂 $[ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } \\geqslant 0 . 1 ^ { [ 1 0 ] }$ 厄洛替尼为 P-gp 和 BCRP 抑制剂抑制 $\\mathrm { P - \\mathrm { g p } }$ 介导的长春新碱和紫杉醇在 KB-C2 细胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "raw_text": "泼纳替尼为新型 BCR-ABL 抑制剂",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "data": "博舒替尼博舒替尼为第三代 BCR-ABL 抑制剂2012 年由 FDA 批准作为三线药物治疗其他 TKIs耐药的 $\\mathrm { C M L _ { \\odot } }$ HEGEDUS 等[17]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP对博舒替尼在 K562 细胞上的摄取无明显影响高浓度的博舒替尼对 $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 有一定的抑制作用厄洛替尼为 MATE1 MATE2 - K OCT1 和OCT3 的抑制剂 $[ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } \\geqslant 0 . 1 ^ { [ 1 0 ] }$ 厄洛替尼为 P-gp 和 BCRP 抑制剂抑制 $\\mathrm { P - \\mathrm { g p } }$ 介导的长春新碱和紫杉醇在 KB-C2 细胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "raw_text": "高浓度的博舒替尼对 P-gp 和 BCRP 有一定的抑制作用",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "data": "博舒替尼博舒替尼为第三代 BCR-ABL 抑制剂2012 年由 FDA 批准作为三线药物治疗其他 TKIs耐药的 $\\mathrm { C M L _ { \\odot } }$ HEGEDUS 等[17]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP对博舒替尼在 K562 细胞上的摄取无明显影响高浓度的博舒替尼对 $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 有一定的抑制作用厄洛替尼为 MATE1 MATE2 - K OCT1 和OCT3 的抑制剂 $[ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } \\geqslant 0 . 1 ^ { [ 1 0 ] }$ 厄洛替尼为 P-gp 和 BCRP 抑制剂抑制 $\\mathrm { P - \\mathrm { g p } }$ 介导的长春新碱和紫杉醇在 KB-C2 细胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "raw_text": "高浓度的博舒替尼对 P-gp 和 BCRP 有一定的抑制作用",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "data": "博舒替尼博舒替尼为第三代 BCR-ABL 抑制剂2012 年由 FDA 批准作为三线药物治疗其他 TKIs耐药的 $\\mathrm { C M L _ { \\odot } }$ HEGEDUS 等[17]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP对博舒替尼在 K562 细胞上的摄取无明显影响高浓度的博舒替尼对 $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 有一定的抑制作用厄洛替尼为 MATE1 MATE2 - K OCT1 和OCT3 的抑制剂 $[ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } \\geqslant 0 . 1 ^ { [ 1 0 ] }$ 厄洛替尼为 P-gp 和 BCRP 抑制剂抑制 $\\mathrm { P - \\mathrm { g p } }$ 介导的长春新碱和紫杉醇在 KB-C2 细胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "raw_text": "厄洛替尼为 MATE1 MATE2-K OCT1 和 OCT3 的抑制剂",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "data": "博舒替尼博舒替尼为第三代 BCR-ABL 抑制剂2012 年由 FDA 批准作为三线药物治疗其他 TKIs耐药的 $\\mathrm { C M L _ { \\odot } }$ HEGEDUS 等[17]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP对博舒替尼在 K562 细胞上的摄取无明显影响高浓度的博舒替尼对 $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 有一定的抑制作用厄洛替尼为 MATE1 MATE2 - K OCT1 和OCT3 的抑制剂 $[ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } \\geqslant 0 . 1 ^ { [ 1 0 ] }$ 厄洛替尼为 P-gp 和 BCRP 抑制剂抑制 $\\mathrm { P - \\mathrm { g p } }$ 介导的长春新碱和紫杉醇在 KB-C2 细胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "raw_text": "厄洛替尼为 MATE1 MATE2-K OCT1 和 OCT3 的抑制剂",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "data": "博舒替尼博舒替尼为第三代 BCR-ABL 抑制剂2012 年由 FDA 批准作为三线药物治疗其他 TKIs耐药的 $\\mathrm { C M L _ { \\odot } }$ HEGEDUS 等[17]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP对博舒替尼在 K562 细胞上的摄取无明显影响高浓度的博舒替尼对 $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 有一定的抑制作用厄洛替尼为 MATE1 MATE2 - K OCT1 和OCT3 的抑制剂 $[ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } \\geqslant 0 . 1 ^ { [ 1 0 ] }$ 厄洛替尼为 P-gp 和 BCRP 抑制剂抑制 $\\mathrm { P - \\mathrm { g p } }$ 介导的长春新碱和紫杉醇在 KB-C2 细胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "raw_text": "厄洛替尼为 MATE1 MATE2-K OCT1 和 OCT3 的抑制剂",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "data": "博舒替尼博舒替尼为第三代 BCR-ABL 抑制剂2012 年由 FDA 批准作为三线药物治疗其他 TKIs耐药的 $\\mathrm { C M L _ { \\odot } }$ HEGEDUS 等[17]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP对博舒替尼在 K562 细胞上的摄取无明显影响高浓度的博舒替尼对 $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 有一定的抑制作用厄洛替尼为 MATE1 MATE2 - K OCT1 和OCT3 的抑制剂 $[ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } \\geqslant 0 . 1 ^ { [ 1 0 ] }$ 厄洛替尼为 P-gp 和 BCRP 抑制剂抑制 $\\mathrm { P - \\mathrm { g p } }$ 介导的长春新碱和紫杉醇在 KB-C2 细胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "raw_text": "厄洛替尼为 MATE1 MATE2-K OCT1 和 OCT3 的抑制剂",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "data": "博舒替尼博舒替尼为第三代 BCR-ABL 抑制剂2012 年由 FDA 批准作为三线药物治疗其他 TKIs耐药的 $\\mathrm { C M L _ { \\odot } }$ HEGEDUS 等[17]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP对博舒替尼在 K562 细胞上的摄取无明显影响高浓度的博舒替尼对 $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 有一定的抑制作用厄洛替尼为 MATE1 MATE2 - K OCT1 和OCT3 的抑制剂 $[ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } \\geqslant 0 . 1 ^ { [ 1 0 ] }$ 厄洛替尼为 P-gp 和 BCRP 抑制剂抑制 $\\mathrm { P - \\mathrm { g p } }$ 介导的长春新碱和紫杉醇在 KB-C2 细胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "raw_text": "厄洛替尼为 P-gp 和 BCRP 抑制剂",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "data": "博舒替尼博舒替尼为第三代 BCR-ABL 抑制剂2012 年由 FDA 批准作为三线药物治疗其他 TKIs耐药的 $\\mathrm { C M L _ { \\odot } }$ HEGEDUS 等[17]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP对博舒替尼在 K562 细胞上的摄取无明显影响高浓度的博舒替尼对 $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 有一定的抑制作用厄洛替尼为 MATE1 MATE2 - K OCT1 和OCT3 的抑制剂 $[ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } \\geqslant 0 . 1 ^ { [ 1 0 ] }$ 厄洛替尼为 P-gp 和 BCRP 抑制剂抑制 $\\mathrm { P - \\mathrm { g p } }$ 介导的长春新碱和紫杉醇在 KB-C2 细胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "raw_text": "厄洛替尼为 P-gp 和 BCRP 抑制剂",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "data": "博舒替尼博舒替尼为第三代 BCR-ABL 抑制剂2012 年由 FDA 批准作为三线药物治疗其他 TKIs耐药的 $\\mathrm { C M L _ { \\odot } }$ HEGEDUS 等[17]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP对博舒替尼在 K562 细胞上的摄取无明显影响高浓度的博舒替尼对 $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 有一定的抑制作用厄洛替尼为 MATE1 MATE2 - K OCT1 和OCT3 的抑制剂 $[ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } \\geqslant 0 . 1 ^ { [ 1 0 ] }$ 厄洛替尼为 P-gp 和 BCRP 抑制剂抑制 $\\mathrm { P - \\mathrm { g p } }$ 介导的长春新碱和紫杉醇在 KB-C2 细胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "raw_text": "抑制 P-gp 介导的长春新碱和紫杉醇在 KB-C2 细胞上的外排",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "data": "博舒替尼博舒替尼为第三代 BCR-ABL 抑制剂2012 年由 FDA 批准作为三线药物治疗其他 TKIs耐药的 $\\mathrm { C M L _ { \\odot } }$ HEGEDUS 等[17]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP对博舒替尼在 K562 细胞上的摄取无明显影响高浓度的博舒替尼对 $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 有一定的抑制作用厄洛替尼为 MATE1 MATE2 - K OCT1 和OCT3 的抑制剂 $[ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } \\geqslant 0 . 1 ^ { [ 1 0 ] }$ 厄洛替尼为 P-gp 和 BCRP 抑制剂抑制 $\\mathrm { P - \\mathrm { g p } }$ 介导的长春新碱和紫杉醇在 KB-C2 细胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "raw_text": "抑制 P-gp 介导的长春新碱和紫杉醇在 KB-C2 细胞上的外排",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "data": "博舒替尼博舒替尼为第三代 BCR-ABL 抑制剂2012 年由 FDA 批准作为三线药物治疗其他 TKIs耐药的 $\\mathrm { C M L _ { \\odot } }$ HEGEDUS 等[17]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP对博舒替尼在 K562 细胞上的摄取无明显影响高浓度的博舒替尼对 $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 有一定的抑制作用厄洛替尼为 MATE1 MATE2 - K OCT1 和OCT3 的抑制剂 $[ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } \\geqslant 0 . 1 ^ { [ 1 0 ] }$ 厄洛替尼为 P-gp 和 BCRP 抑制剂抑制 $\\mathrm { P - \\mathrm { g p } }$ 介导的长春新碱和紫杉醇在 KB-C2 细胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "raw_text": "抑制 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+          "data": "博舒替尼博舒替尼为第三代 BCR-ABL 抑制剂2012 年由 FDA 批准作为三线药物治疗其他 TKIs耐药的 $\\mathrm { C M L _ { \\odot } }$ HEGEDUS 等[17]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP对博舒替尼在 K562 细胞上的摄取无明显影响高浓度的博舒替尼对 $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 有一定的抑制作用厄洛替尼为 MATE1 MATE2 - K OCT1 和OCT3 的抑制剂 $[ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } \\geqslant 0 . 1 ^ { [ 1 0 ] }$ 厄洛替尼为 P-gp 和 BCRP 抑制剂抑制 $\\mathrm { P - \\mathrm { g p } }$ 介导的长春新碱和紫杉醇在 KB-C2 细胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:5",
+    "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+    "text": "博舒替尼博舒替尼为第三代 BCR-ABL 抑制剂2012 年由 FDA 批准作为三线药物治疗其他 TKIs耐药的 $\\mathrm { C M L _ { \\odot } }$ HEGEDUS 等[17]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP对博舒替尼在 K562 细胞上的摄取无明显影响高浓度的博舒替尼对 $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 有一定的抑制作用厄洛替尼为 MATE1 MATE2 - K OCT1 和OCT3 的抑制剂 $[ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } \\geqslant 0 . 1 ^ { [ 1 0 ] }$ 厄洛替尼为 P-gp 和 BCRP 抑制剂抑制 $\\mathrm { P - \\mathrm { g p } }$ 介导的长春新碱和紫杉醇在 KB-C2 细胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。"
+  }
+]

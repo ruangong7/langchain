@@ -1,0 +1,219 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Food",
+        "name": "辣椒素",
+        "canonical_name": "辣椒素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP1A2",
+        "canonical_name": "CYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "CYP2B6",
+        "canonical_name": "CYP2B6",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP2C9",
+        "canonical_name": "CYP2C9",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "CYP2C19",
+        "canonical_name": "CYP2C19",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "CYP2C11",
+        "canonical_name": "CYP2C11",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "CYP2D6",
+        "canonical_name": "CYP2D6",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "CYP3A2",
+        "canonical_name": "CYP3A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "CYP3A4",
+        "canonical_name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "CYP3A5",
+        "canonical_name": "CYP3A5",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Disease",
+        "name": "癌症",
+        "canonical_name": "癌症",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰.pdf",
+          "chunk_index": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "raw_text": "辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 )",
+          "chunk_id": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "data": "境化学致癌物多环芳烃( PAH) 的氧化分解代谢，由 PAH 诱导的 CYP1A1 表达可引发致癌性代谢物的形成，致癌物进入细胞核并与特异性DNA 残基结合导致癌变，主要致癌靶器官为肺和皮肤［15］因此，辣椒素对癌症可能具有一定的治疗效果。综上所述，虽然辣椒素对 CYP450 酶不同亚型的作用不同( 表1) ，在体外试验中，辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 ) 。但是辣椒素对CYP2E1 的作用则有不同的报道，由于两个实验分别采用大鼠和人肝微粒体，而大鼠和人类 CYP450 各亚型酶不完全一致，这可能是导致差异的原因，但目前尚未有研究证实这一点 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰.pdf",
+          "chunk_index": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "raw_text": "辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 )",
+          "chunk_id": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "data": "境化学致癌物多环芳烃( PAH) 的氧化分解代谢，由 PAH 诱导的 CYP1A1 表达可引发致癌性代谢物的形成，致癌物进入细胞核并与特异性DNA 残基结合导致癌变，主要致癌靶器官为肺和皮肤［15］因此，辣椒素对癌症可能具有一定的治疗效果。综上所述，虽然辣椒素对 CYP450 酶不同亚型的作用不同( 表1) ，在体外试验中，辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 ) 。但是辣椒素对CYP2E1 的作用则有不同的报道，由于两个实验分别采用大鼠和人肝微粒体，而大鼠和人类 CYP450 各亚型酶不完全一致，这可能是导致差异的原因，但目前尚未有研究证实这一点 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰.pdf",
+          "chunk_index": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "raw_text": "辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 )",
+          "chunk_id": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "data": "境化学致癌物多环芳烃( PAH) 的氧化分解代谢，由 PAH 诱导的 CYP1A1 表达可引发致癌性代谢物的形成，致癌物进入细胞核并与特异性DNA 残基结合导致癌变，主要致癌靶器官为肺和皮肤［15］因此，辣椒素对癌症可能具有一定的治疗效果。综上所述，虽然辣椒素对 CYP450 酶不同亚型的作用不同( 表1) ，在体外试验中，辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 ) 。但是辣椒素对CYP2E1 的作用则有不同的报道，由于两个实验分别采用大鼠和人肝微粒体，而大鼠和人类 CYP450 各亚型酶不完全一致，这可能是导致差异的原因，但目前尚未有研究证实这一点 。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰.pdf",
+          "chunk_index": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "raw_text": "辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 )",
+          "chunk_id": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "data": "境化学致癌物多环芳烃( PAH) 的氧化分解代谢，由 PAH 诱导的 CYP1A1 表达可引发致癌性代谢物的形成，致癌物进入细胞核并与特异性DNA 残基结合导致癌变，主要致癌靶器官为肺和皮肤［15］因此，辣椒素对癌症可能具有一定的治疗效果。综上所述，虽然辣椒素对 CYP450 酶不同亚型的作用不同( 表1) ，在体外试验中，辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 ) 。但是辣椒素对CYP2E1 的作用则有不同的报道，由于两个实验分别采用大鼠和人肝微粒体，而大鼠和人类 CYP450 各亚型酶不完全一致，这可能是导致差异的原因，但目前尚未有研究证实这一点 。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰.pdf",
+          "chunk_index": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "raw_text": "辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 )",
+          "chunk_id": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "data": "境化学致癌物多环芳烃( PAH) 的氧化分解代谢，由 PAH 诱导的 CYP1A1 表达可引发致癌性代谢物的形成，致癌物进入细胞核并与特异性DNA 残基结合导致癌变，主要致癌靶器官为肺和皮肤［15］因此，辣椒素对癌症可能具有一定的治疗效果。综上所述，虽然辣椒素对 CYP450 酶不同亚型的作用不同( 表1) ，在体外试验中，辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 ) 。但是辣椒素对CYP2E1 的作用则有不同的报道，由于两个实验分别采用大鼠和人肝微粒体，而大鼠和人类 CYP450 各亚型酶不完全一致，这可能是导致差异的原因，但目前尚未有研究证实这一点 。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰.pdf",
+          "chunk_index": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "raw_text": "辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 )",
+          "chunk_id": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "data": "境化学致癌物多环芳烃( PAH) 的氧化分解代谢，由 PAH 诱导的 CYP1A1 表达可引发致癌性代谢物的形成，致癌物进入细胞核并与特异性DNA 残基结合导致癌变，主要致癌靶器官为肺和皮肤［15］因此，辣椒素对癌症可能具有一定的治疗效果。综上所述，虽然辣椒素对 CYP450 酶不同亚型的作用不同( 表1) ，在体外试验中，辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 ) 。但是辣椒素对CYP2E1 的作用则有不同的报道，由于两个实验分别采用大鼠和人肝微粒体，而大鼠和人类 CYP450 各亚型酶不完全一致，这可能是导致差异的原因，但目前尚未有研究证实这一点 。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰.pdf",
+          "chunk_index": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "raw_text": "辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 )",
+          "chunk_id": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "data": "境化学致癌物多环芳烃( PAH) 的氧化分解代谢，由 PAH 诱导的 CYP1A1 表达可引发致癌性代谢物的形成，致癌物进入细胞核并与特异性DNA 残基结合导致癌变，主要致癌靶器官为肺和皮肤［15］因此，辣椒素对癌症可能具有一定的治疗效果。综上所述，虽然辣椒素对 CYP450 酶不同亚型的作用不同( 表1) ，在体外试验中，辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 ) 。但是辣椒素对CYP2E1 的作用则有不同的报道，由于两个实验分别采用大鼠和人肝微粒体，而大鼠和人类 CYP450 各亚型酶不完全一致，这可能是导致差异的原因，但目前尚未有研究证实这一点 。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰.pdf",
+          "chunk_index": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "raw_text": "辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 )",
+          "chunk_id": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "data": "境化学致癌物多环芳烃( PAH) 的氧化分解代谢，由 PAH 诱导的 CYP1A1 表达可引发致癌性代谢物的形成，致癌物进入细胞核并与特异性DNA 残基结合导致癌变，主要致癌靶器官为肺和皮肤［15］因此，辣椒素对癌症可能具有一定的治疗效果。综上所述，虽然辣椒素对 CYP450 酶不同亚型的作用不同( 表1) ，在体外试验中，辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 ) 。但是辣椒素对CYP2E1 的作用则有不同的报道，由于两个实验分别采用大鼠和人肝微粒体，而大鼠和人类 CYP450 各亚型酶不完全一致，这可能是导致差异的原因，但目前尚未有研究证实这一点 。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰.pdf",
+          "chunk_index": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "raw_text": "辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 )",
+          "chunk_id": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "data": "境化学致癌物多环芳烃( PAH) 的氧化分解代谢，由 PAH 诱导的 CYP1A1 表达可引发致癌性代谢物的形成，致癌物进入细胞核并与特异性DNA 残基结合导致癌变，主要致癌靶器官为肺和皮肤［15］因此，辣椒素对癌症可能具有一定的治疗效果。综上所述，虽然辣椒素对 CYP450 酶不同亚型的作用不同( 表1) ，在体外试验中，辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 ) 。但是辣椒素对CYP2E1 的作用则有不同的报道，由于两个实验分别采用大鼠和人肝微粒体，而大鼠和人类 CYP450 各亚型酶不完全一致，这可能是导致差异的原因，但目前尚未有研究证实这一点 。"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰.pdf",
+          "chunk_index": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "raw_text": "辣椒素对癌症可能具有一定的治疗效果",
+          "chunk_id": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+          "data": "境化学致癌物多环芳烃( PAH) 的氧化分解代谢，由 PAH 诱导的 CYP1A1 表达可引发致癌性代谢物的形成，致癌物进入细胞核并与特异性DNA 残基结合导致癌变，主要致癌靶器官为肺和皮肤［15］因此，辣椒素对癌症可能具有一定的治疗效果。综上所述，虽然辣椒素对 CYP450 酶不同亚型的作用不同( 表1) ，在体外试验中，辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 ) 。但是辣椒素对CYP2E1 的作用则有不同的报道，由于两个实验分别采用大鼠和人肝微粒体，而大鼠和人类 CYP450 各亚型酶不完全一致，这可能是导致差异的原因，但目前尚未有研究证实这一点 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:4",
+    "source": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰.pdf",
+    "text": "境化学致癌物多环芳烃( PAH) 的氧化分解代谢，由 PAH 诱导的 CYP1A1 表达可引发致癌性代谢物的形成，致癌物进入细胞核并与特异性DNA 残基结合导致癌变，主要致癌靶器官为肺和皮肤［15］因此，辣椒素对癌症可能具有一定的治疗效果。综上所述，虽然辣椒素对 CYP450 酶不同亚型的作用不同( 表1) ，在体外试验中，辣椒素能够抑制多种细胞色素P450 酶 ( CYP1A2，CYP2B6，CYP2C9，CYP2C19，CYP2C11，CYP2D6，CYP3A2，CYP3A4 和 CYP3A5 ) 。但是辣椒素对CYP2E1 的作用则有不同的报道，由于两个实验分别采用大鼠和人肝微粒体，而大鼠和人类 CYP450 各亚型酶不完全一致，这可能是导致差异的原因，但目前尚未有研究证实这一点 。"
+  }
+]

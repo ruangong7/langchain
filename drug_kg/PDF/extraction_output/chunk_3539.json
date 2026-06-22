@@ -1,0 +1,107 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "IG-105",
+        "canonical_name": "IG-105",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "CYP1A2",
+        "canonical_name": "CYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP2D6",
+        "canonical_name": "CYP2D6",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "CYP3A",
+        "canonical_name": "CYP3A",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP2C19",
+        "canonical_name": "CYP2C19",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:1",
+          "raw_text": "IG-105 对 CYP1A2、CYP2D6 和 CYP3A 具有中度抑制作用, 对 CYP2C19 具有较强的抑制作用, 因此与主要被这些酶代谢的药物合用时应格外注意药物相互作用, 避免毒副作用。",
+          "mechanism": "抑制",
+          "severity": "中度",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:1",
+          "data": ".4、23.64、0.39、1.4 和 3.14 μmol·L−1 。结果表明, IG-105 的生物转化涉及多个酶途径, 当与其他药物合用时, 由于其他药物抑制某种 P450 酶的活性而使IG-105 代谢受阻从而引起毒副作用的风险较低;同时, IG-105 对 CYP1A2、CYP2D6 和 CYP3A 具有中度抑制作用, 对 CYP2C19 具有较强的抑制作用, 因此与主要被这些酶代谢的药物合用时应格外注意药物相互作用, 避免毒副作用。\nIn vitro metabolism and drug-drug interaction potential of IG-105, a novel antimicrotubule agent"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:1",
+          "raw_text": "IG-105 对 CYP1A2、CYP2D6 和 CYP3A 具有中度抑制作用, 对 CYP2C19 具有较强的抑制作用, 因此与主要被这些酶代谢的药物合用时应格外注意药物相互作用, 避免毒副作用。",
+          "mechanism": "抑制",
+          "severity": "中度",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:1",
+          "data": ".4、23.64、0.39、1.4 和 3.14 μmol·L−1 。结果表明, IG-105 的生物转化涉及多个酶途径, 当与其他药物合用时, 由于其他药物抑制某种 P450 酶的活性而使IG-105 代谢受阻从而引起毒副作用的风险较低;同时, IG-105 对 CYP1A2、CYP2D6 和 CYP3A 具有中度抑制作用, 对 CYP2C19 具有较强的抑制作用, 因此与主要被这些酶代谢的药物合用时应格外注意药物相互作用, 避免毒副作用。\nIn vitro metabolism and drug-drug interaction potential of IG-105, a novel antimicrotubule agent"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:1",
+          "raw_text": "IG-105 对 CYP1A2、CYP2D6 和 CYP3A 具有中度抑制作用, 对 CYP2C19 具有较强的抑制作用, 因此与主要被这些酶代谢的药物合用时应格外注意药物相互作用, 避免毒副作用。",
+          "mechanism": "抑制",
+          "severity": "中度",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:1",
+          "data": ".4、23.64、0.39、1.4 和 3.14 μmol·L−1 。结果表明, IG-105 的生物转化涉及多个酶途径, 当与其他药物合用时, 由于其他药物抑制某种 P450 酶的活性而使IG-105 代谢受阻从而引起毒副作用的风险较低;同时, IG-105 对 CYP1A2、CYP2D6 和 CYP3A 具有中度抑制作用, 对 CYP2C19 具有较强的抑制作用, 因此与主要被这些酶代谢的药物合用时应格外注意药物相互作用, 避免毒副作用。\nIn vitro metabolism and drug-drug interaction potential of IG-105, a novel antimicrotubule agent"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:1",
+          "raw_text": "IG-105 对 CYP1A2、CYP2D6 和 CYP3A 具有中度抑制作用, 对 CYP2C19 具有较强的抑制作用, 因此与主要被这些酶代谢的药物合用时应格外注意药物相互作用, 避免毒副作用。",
+          "mechanism": "抑制",
+          "severity": "强",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:1",
+          "data": ".4、23.64、0.39、1.4 和 3.14 μmol·L−1 。结果表明, IG-105 的生物转化涉及多个酶途径, 当与其他药物合用时, 由于其他药物抑制某种 P450 酶的活性而使IG-105 代谢受阻从而引起毒副作用的风险较低;同时, IG-105 对 CYP1A2、CYP2D6 和 CYP3A 具有中度抑制作用, 对 CYP2C19 具有较强的抑制作用, 因此与主要被这些酶代谢的药物合用时应格外注意药物相互作用, 避免毒副作用。\nIn vitro metabolism and drug-drug interaction potential of IG-105, a novel antimicrotubule agent"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:1",
+    "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+    "text": ".4、23.64、0.39、1.4 和 3.14 μmol·L−1 。结果表明, IG-105 的生物转化涉及多个酶途径, 当与其他药物合用时, 由于其他药物抑制某种 P450 酶的活性而使IG-105 代谢受阻从而引起毒副作用的风险较低;同时, IG-105 对 CYP1A2、CYP2D6 和 CYP3A 具有中度抑制作用, 对 CYP2C19 具有较强的抑制作用, 因此与主要被这些酶代谢的药物合用时应格外注意药物相互作用, 避免毒副作用。\nIn vitro metabolism and drug-drug interaction potential of IG-105, a novel antimicrotubule agent"
+  }
+]

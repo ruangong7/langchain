@@ -1,0 +1,132 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "胺碘酮",
+        "canonical_name": "胺碘酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "心房颤动",
+        "canonical_name": "心房颤动",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "缺血性卒中",
+        "canonical_name": "缺血性卒中",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "出血风险",
+        "canonical_name": "出血风险",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Population",
+        "name": "肾功能不全患者",
+        "canonical_name": "肾功能不全患者",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤.pdf",
+          "chunk_index": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤:9",
+          "raw_text": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响",
+          "chunk_id": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤:9",
+          "data": "=53.240，P= 0.000). Conclusion Renal dysfunction affects the degree of amiodarone-warfarin DDI.【Keywords】 Renal function；Atrial fibrillation；Drug-drug interaction老年人群的心房颤动（atrial fibrilltion，AF）患病率为2.25%[1]。非瓣膜性AF与缺血性卒中，密切相关[2]。口服抗凝药物如华法林对AF患者卒中发病具有预防效果[3]。胺碘酮可控制AF患者的心律失常[4] 。药物相互作用（drug-drug interaction，DDI）是指 2种药物序贯或合并使用时，所导致的药物效应与作用的改变。DDI可以是药物作用时间的缩短或延长，或药物作用的减弱或增强，从而产生有害不良反应或有益的治疗作用。作为仅次于肝脏的药物代谢器官，肾脏在药物的清除、代谢中起着极其重要的作用。某些药物的生物利用度在年轻人和老年人群中的肾和肝损害中都显著提高[5]。荟萃分析显示，AF并发慢性肾病患者使用华法林可能会增加出血风险[6]。但肾功能是否可以影响华法林-胺碘酮之间的DDI效应，国内少见报道。本次研究目的是明确患者基线肾功能是否会改变胺碘酮对华法林抗凝效果的影响。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤.pdf",
+          "chunk_index": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤:9",
+          "raw_text": "口服抗凝药物如华法林对AF患者卒中发病具有预防效果",
+          "chunk_id": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤:9",
+          "data": "=53.240，P= 0.000). Conclusion Renal dysfunction affects the degree of amiodarone-warfarin DDI.【Keywords】 Renal function；Atrial fibrillation；Drug-drug interaction老年人群的心房颤动（atrial fibrilltion，AF）患病率为2.25%[1]。非瓣膜性AF与缺血性卒中，密切相关[2]。口服抗凝药物如华法林对AF患者卒中发病具有预防效果[3]。胺碘酮可控制AF患者的心律失常[4] 。药物相互作用（drug-drug interaction，DDI）是指 2种药物序贯或合并使用时，所导致的药物效应与作用的改变。DDI可以是药物作用时间的缩短或延长，或药物作用的减弱或增强，从而产生有害不良反应或有益的治疗作用。作为仅次于肝脏的药物代谢器官，肾脏在药物的清除、代谢中起着极其重要的作用。某些药物的生物利用度在年轻人和老年人群中的肾和肝损害中都显著提高[5]。荟萃分析显示，AF并发慢性肾病患者使用华法林可能会增加出血风险[6]。但肾功能是否可以影响华法林-胺碘酮之间的DDI效应，国内少见报道。本次研究目的是明确患者基线肾功能是否会改变胺碘酮对华法林抗凝效果的影响。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤.pdf",
+          "chunk_index": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤:9",
+          "raw_text": "胺碘酮可控制AF患者的心律失常",
+          "chunk_id": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤:9",
+          "data": "=53.240，P= 0.000). Conclusion Renal dysfunction affects the degree of amiodarone-warfarin DDI.【Keywords】 Renal function；Atrial fibrillation；Drug-drug interaction老年人群的心房颤动（atrial fibrilltion，AF）患病率为2.25%[1]。非瓣膜性AF与缺血性卒中，密切相关[2]。口服抗凝药物如华法林对AF患者卒中发病具有预防效果[3]。胺碘酮可控制AF患者的心律失常[4] 。药物相互作用（drug-drug interaction，DDI）是指 2种药物序贯或合并使用时，所导致的药物效应与作用的改变。DDI可以是药物作用时间的缩短或延长，或药物作用的减弱或增强，从而产生有害不良反应或有益的治疗作用。作为仅次于肝脏的药物代谢器官，肾脏在药物的清除、代谢中起着极其重要的作用。某些药物的生物利用度在年轻人和老年人群中的肾和肝损害中都显著提高[5]。荟萃分析显示，AF并发慢性肾病患者使用华法林可能会增加出血风险[6]。但肾功能是否可以影响华法林-胺碘酮之间的DDI效应，国内少见报道。本次研究目的是明确患者基线肾功能是否会改变胺碘酮对华法林抗凝效果的影响。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤.pdf",
+          "chunk_index": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤:9",
+          "raw_text": "AF并发慢性肾病患者使用华法林可能会增加出血风险",
+          "chunk_id": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤:9",
+          "data": "=53.240，P= 0.000). Conclusion Renal dysfunction affects the degree of amiodarone-warfarin DDI.【Keywords】 Renal function；Atrial fibrillation；Drug-drug interaction老年人群的心房颤动（atrial fibrilltion，AF）患病率为2.25%[1]。非瓣膜性AF与缺血性卒中，密切相关[2]。口服抗凝药物如华法林对AF患者卒中发病具有预防效果[3]。胺碘酮可控制AF患者的心律失常[4] 。药物相互作用（drug-drug interaction，DDI）是指 2种药物序贯或合并使用时，所导致的药物效应与作用的改变。DDI可以是药物作用时间的缩短或延长，或药物作用的减弱或增强，从而产生有害不良反应或有益的治疗作用。作为仅次于肝脏的药物代谢器官，肾脏在药物的清除、代谢中起着极其重要的作用。某些药物的生物利用度在年轻人和老年人群中的肾和肝损害中都显著提高[5]。荟萃分析显示，AF并发慢性肾病患者使用华法林可能会增加出血风险[6]。但肾功能是否可以影响华法林-胺碘酮之间的DDI效应，国内少见报道。本次研究目的是明确患者基线肾功能是否会改变胺碘酮对华法林抗凝效果的影响。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤.pdf",
+          "chunk_index": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤:9",
+          "raw_text": "AF并发慢性肾病患者使用华法林可能会增加出血风险",
+          "chunk_id": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤:9",
+          "data": "=53.240，P= 0.000). Conclusion Renal dysfunction affects the degree of amiodarone-warfarin DDI.【Keywords】 Renal function；Atrial fibrillation；Drug-drug interaction老年人群的心房颤动（atrial fibrilltion，AF）患病率为2.25%[1]。非瓣膜性AF与缺血性卒中，密切相关[2]。口服抗凝药物如华法林对AF患者卒中发病具有预防效果[3]。胺碘酮可控制AF患者的心律失常[4] 。药物相互作用（drug-drug interaction，DDI）是指 2种药物序贯或合并使用时，所导致的药物效应与作用的改变。DDI可以是药物作用时间的缩短或延长，或药物作用的减弱或增强，从而产生有害不良反应或有益的治疗作用。作为仅次于肝脏的药物代谢器官，肾脏在药物的清除、代谢中起着极其重要的作用。某些药物的生物利用度在年轻人和老年人群中的肾和肝损害中都显著提高[5]。荟萃分析显示，AF并发慢性肾病患者使用华法林可能会增加出血风险[6]。但肾功能是否可以影响华法林-胺碘酮之间的DDI效应，国内少见报道。本次研究目的是明确患者基线肾功能是否会改变胺碘酮对华法林抗凝效果的影响。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤.pdf",
+          "chunk_index": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤:9",
+          "raw_text": "非瓣膜性AF与缺血性卒中，密切相关",
+          "chunk_id": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤:9",
+          "data": "=53.240，P= 0.000). Conclusion Renal dysfunction affects the degree of amiodarone-warfarin DDI.【Keywords】 Renal function；Atrial fibrillation；Drug-drug interaction老年人群的心房颤动（atrial fibrilltion，AF）患病率为2.25%[1]。非瓣膜性AF与缺血性卒中，密切相关[2]。口服抗凝药物如华法林对AF患者卒中发病具有预防效果[3]。胺碘酮可控制AF患者的心律失常[4] 。药物相互作用（drug-drug interaction，DDI）是指 2种药物序贯或合并使用时，所导致的药物效应与作用的改变。DDI可以是药物作用时间的缩短或延长，或药物作用的减弱或增强，从而产生有害不良反应或有益的治疗作用。作为仅次于肝脏的药物代谢器官，肾脏在药物的清除、代谢中起着极其重要的作用。某些药物的生物利用度在年轻人和老年人群中的肾和肝损害中都显著提高[5]。荟萃分析显示，AF并发慢性肾病患者使用华法林可能会增加出血风险[6]。但肾功能是否可以影响华法林-胺碘酮之间的DDI效应，国内少见报道。本次研究目的是明确患者基线肾功能是否会改变胺碘酮对华法林抗凝效果的影响。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤:9",
+    "source": "肾功能对心房颤动患者华法林-胺碘酮药物相互作用的影响_孙彩凤.pdf",
+    "text": "=53.240，P= 0.000). Conclusion Renal dysfunction affects the degree of amiodarone-warfarin DDI.【Keywords】 Renal function；Atrial fibrillation；Drug-drug interaction老年人群的心房颤动（atrial fibrilltion，AF）患病率为2.25%[1]。非瓣膜性AF与缺血性卒中，密切相关[2]。口服抗凝药物如华法林对AF患者卒中发病具有预防效果[3]。胺碘酮可控制AF患者的心律失常[4] 。药物相互作用（drug-drug interaction，DDI）是指 2种药物序贯或合并使用时，所导致的药物效应与作用的改变。DDI可以是药物作用时间的缩短或延长，或药物作用的减弱或增强，从而产生有害不良反应或有益的治疗作用。作为仅次于肝脏的药物代谢器官，肾脏在药物的清除、代谢中起着极其重要的作用。某些药物的生物利用度在年轻人和老年人群中的肾和肝损害中都显著提高[5]。荟萃分析显示，AF并发慢性肾病患者使用华法林可能会增加出血风险[6]。但肾功能是否可以影响华法林-胺碘酮之间的DDI效应，国内少见报道。本次研究目的是明确患者基线肾功能是否会改变胺碘酮对华法林抗凝效果的影响。"
+  }
+]

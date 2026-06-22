@@ -1,0 +1,285 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "canonical_name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Food",
+        "name": "圣约翰草",
+        "canonical_name": "圣约翰草",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Food",
+        "name": "银杏",
+        "canonical_name": "银杏",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "canonical_name": "阿托伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "辛伐他汀",
+        "canonical_name": "辛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "艾司唑仑",
+        "canonical_name": "艾司唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "canonical_name": "咪达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "伏立康唑血药浓度",
+        "canonical_name": "伏立康唑血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "canonical_name": "质子泵抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "降脂药",
+        "canonical_name": "降脂药",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "镇静催眠药",
+        "canonical_name": "镇静催眠药",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "伏立康唑高风险代谢性药物相互作用分析_连玉菲.pdf",
+          "chunk_index": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "raw_text": "影响CYP2C19活性的联合用药主要是质子泵抑制剂奥美拉唑和奥美拉唑、利福平、圣约翰草和银杏",
+          "chunk_id": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "data": "谢特点调整伏立康唑与联合用药的给药剂量，并积极监测伏立康唑血药浓度，避免不合理的联合用药。结论在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。Investigation and analysis of the high risk of voriconazole combined medication LIAN Yufei，LIU Hongtao，ZHANG Yue， et al． Department of Pharmacy，Hebei General Hospital，Hebei，Shijiazhuang 050051，China【Abstract 】 Objective To investigate the voriconazole combined medication status to provide reference and basis for its rational use of drugs． Methods A retrospective analysis was performed to collect the medical information of all the patients who were treated by voriconazole injection or oral voriconazole tablets in our hospital from June 1，2016 to May 31，2020，and the medical information was statistically analyzed． Based on the cytochrome P450 enzymes ( CYO2 C19，CYP3A4，CYP2C9) ， the doctor ’ s prescription with high-risk potential drug interaction with voriconazole was evaluated． Results A total of 416 cases of voriconazole were included in the long-term medical order，and"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "伏立康唑高风险代谢性药物相互作用分析_连玉菲.pdf",
+          "chunk_index": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "raw_text": "影响CYP2C19活性的联合用药主要是质子泵抑制剂奥美拉唑和奥美拉唑、利福平、圣约翰草和银杏",
+          "chunk_id": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "data": "谢特点调整伏立康唑与联合用药的给药剂量，并积极监测伏立康唑血药浓度，避免不合理的联合用药。结论在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。Investigation and analysis of the high risk of voriconazole combined medication LIAN Yufei，LIU Hongtao，ZHANG Yue， et al． Department of Pharmacy，Hebei General Hospital，Hebei，Shijiazhuang 050051，China【Abstract 】 Objective To investigate the voriconazole combined medication status to provide reference and basis for its rational use of drugs． Methods A retrospective analysis was performed to collect the medical information of all the patients who were treated by voriconazole injection or oral voriconazole tablets in our hospital from June 1，2016 to May 31，2020，and the medical information was statistically analyzed． Based on the cytochrome P450 enzymes ( CYO2 C19，CYP3A4，CYP2C9) ， the doctor ’ s prescription with high-risk potential drug interaction with voriconazole was evaluated． Results A total of 416 cases of voriconazole were included in the long-term medical order，and"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "伏立康唑高风险代谢性药物相互作用分析_连玉菲.pdf",
+          "chunk_index": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "raw_text": "影响CYP2C19活性的联合用药主要是质子泵抑制剂奥美拉唑和奥美拉唑、利福平、圣约翰草和银杏",
+          "chunk_id": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "data": "谢特点调整伏立康唑与联合用药的给药剂量，并积极监测伏立康唑血药浓度，避免不合理的联合用药。结论在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。Investigation and analysis of the high risk of voriconazole combined medication LIAN Yufei，LIU Hongtao，ZHANG Yue， et al． Department of Pharmacy，Hebei General Hospital，Hebei，Shijiazhuang 050051，China【Abstract 】 Objective To investigate the voriconazole combined medication status to provide reference and basis for its rational use of drugs． Methods A retrospective analysis was performed to collect the medical information of all the patients who were treated by voriconazole injection or oral voriconazole tablets in our hospital from June 1，2016 to May 31，2020，and the medical information was statistically analyzed． Based on the cytochrome P450 enzymes ( CYO2 C19，CYP3A4，CYP2C9) ， the doctor ’ s prescription with high-risk potential drug interaction with voriconazole was evaluated． Results A total of 416 cases of voriconazole were included in the long-term medical order，and"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "伏立康唑高风险代谢性药物相互作用分析_连玉菲.pdf",
+          "chunk_index": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "raw_text": "影响CYP2C19活性的联合用药主要是质子泵抑制剂奥美拉唑和奥美拉唑、利福平、圣约翰草和银杏",
+          "chunk_id": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "data": "谢特点调整伏立康唑与联合用药的给药剂量，并积极监测伏立康唑血药浓度，避免不合理的联合用药。结论在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。Investigation and analysis of the high risk of voriconazole combined medication LIAN Yufei，LIU Hongtao，ZHANG Yue， et al． Department of Pharmacy，Hebei General Hospital，Hebei，Shijiazhuang 050051，China【Abstract 】 Objective To investigate the voriconazole combined medication status to provide reference and basis for its rational use of drugs． Methods A retrospective analysis was performed to collect the medical information of all the patients who were treated by voriconazole injection or oral voriconazole tablets in our hospital from June 1，2016 to May 31，2020，and the medical information was statistically analyzed． Based on the cytochrome P450 enzymes ( CYO2 C19，CYP3A4，CYP2C9) ， the doctor ’ s prescription with high-risk potential drug interaction with voriconazole was evaluated． Results A total of 416 cases of voriconazole were included in the long-term medical order，and"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "伏立康唑高风险代谢性药物相互作用分析_连玉菲.pdf",
+          "chunk_index": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "raw_text": "影响CYP3A4活性的联合用药为降脂药阿托伐他汀、辛伐他汀，镇静催眠药艾司唑仑、咪达唑仑",
+          "chunk_id": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "data": "谢特点调整伏立康唑与联合用药的给药剂量，并积极监测伏立康唑血药浓度，避免不合理的联合用药。结论在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。Investigation and analysis of the high risk of voriconazole combined medication LIAN Yufei，LIU Hongtao，ZHANG Yue， et al． Department of Pharmacy，Hebei General Hospital，Hebei，Shijiazhuang 050051，China【Abstract 】 Objective To investigate the voriconazole combined medication status to provide reference and basis for its rational use of drugs． Methods A retrospective analysis was performed to collect the medical information of all the patients who were treated by voriconazole injection or oral voriconazole tablets in our hospital from June 1，2016 to May 31，2020，and the medical information was statistically analyzed． Based on the cytochrome P450 enzymes ( CYO2 C19，CYP3A4，CYP2C9) ， the doctor ’ s prescription with high-risk potential drug interaction with voriconazole was evaluated． Results A total of 416 cases of voriconazole were included in the long-term medical order，and"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "伏立康唑高风险代谢性药物相互作用分析_连玉菲.pdf",
+          "chunk_index": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "raw_text": "影响CYP3A4活性的联合用药为降脂药阿托伐他汀、辛伐他汀，镇静催眠药艾司唑仑、咪达唑仑",
+          "chunk_id": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "data": "谢特点调整伏立康唑与联合用药的给药剂量，并积极监测伏立康唑血药浓度，避免不合理的联合用药。结论在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。Investigation and analysis of the high risk of voriconazole combined medication LIAN Yufei，LIU Hongtao，ZHANG Yue， et al． Department of Pharmacy，Hebei General Hospital，Hebei，Shijiazhuang 050051，China【Abstract 】 Objective To investigate the voriconazole combined medication status to provide reference and basis for its rational use of drugs． Methods A retrospective analysis was performed to collect the medical information of all the patients who were treated by voriconazole injection or oral voriconazole tablets in our hospital from June 1，2016 to May 31，2020，and the medical information was statistically analyzed． Based on the cytochrome P450 enzymes ( CYO2 C19，CYP3A4，CYP2C9) ， the doctor ’ s prescription with high-risk potential drug interaction with voriconazole was evaluated． Results A total of 416 cases of voriconazole were included in the long-term medical order，and"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "伏立康唑高风险代谢性药物相互作用分析_连玉菲.pdf",
+          "chunk_index": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "raw_text": "影响CYP3A4活性的联合用药为降脂药阿托伐他汀、辛伐他汀，镇静催眠药艾司唑仑、咪达唑仑",
+          "chunk_id": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "data": "谢特点调整伏立康唑与联合用药的给药剂量，并积极监测伏立康唑血药浓度，避免不合理的联合用药。结论在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。Investigation and analysis of the high risk of voriconazole combined medication LIAN Yufei，LIU Hongtao，ZHANG Yue， et al． Department of Pharmacy，Hebei General Hospital，Hebei，Shijiazhuang 050051，China【Abstract 】 Objective To investigate the voriconazole combined medication status to provide reference and basis for its rational use of drugs． Methods A retrospective analysis was performed to collect the medical information of all the patients who were treated by voriconazole injection or oral voriconazole tablets in our hospital from June 1，2016 to May 31，2020，and the medical information was statistically analyzed． Based on the cytochrome P450 enzymes ( CYO2 C19，CYP3A4，CYP2C9) ， the doctor ’ s prescription with high-risk potential drug interaction with voriconazole was evaluated． Results A total of 416 cases of voriconazole were included in the long-term medical order，and"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "伏立康唑高风险代谢性药物相互作用分析_连玉菲.pdf",
+          "chunk_index": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "raw_text": "影响CYP3A4活性的联合用药为降脂药阿托伐他汀、辛伐他汀，镇静催眠药艾司唑仑、咪达唑仑",
+          "chunk_id": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "data": "谢特点调整伏立康唑与联合用药的给药剂量，并积极监测伏立康唑血药浓度，避免不合理的联合用药。结论在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。Investigation and analysis of the high risk of voriconazole combined medication LIAN Yufei，LIU Hongtao，ZHANG Yue， et al． Department of Pharmacy，Hebei General Hospital，Hebei，Shijiazhuang 050051，China【Abstract 】 Objective To investigate the voriconazole combined medication status to provide reference and basis for its rational use of drugs． Methods A retrospective analysis was performed to collect the medical information of all the patients who were treated by voriconazole injection or oral voriconazole tablets in our hospital from June 1，2016 to May 31，2020，and the medical information was statistically analyzed． Based on the cytochrome P450 enzymes ( CYO2 C19，CYP3A4，CYP2C9) ， the doctor ’ s prescription with high-risk potential drug interaction with voriconazole was evaluated． Results A total of 416 cases of voriconazole were included in the long-term medical order，and"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "伏立康唑高风险代谢性药物相互作用分析_连玉菲.pdf",
+          "chunk_index": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "raw_text": "积极监测伏立康唑血药浓度",
+          "chunk_id": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "data": "谢特点调整伏立康唑与联合用药的给药剂量，并积极监测伏立康唑血药浓度，避免不合理的联合用药。结论在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。Investigation and analysis of the high risk of voriconazole combined medication LIAN Yufei，LIU Hongtao，ZHANG Yue， et al． Department of Pharmacy，Hebei General Hospital，Hebei，Shijiazhuang 050051，China【Abstract 】 Objective To investigate the voriconazole combined medication status to provide reference and basis for its rational use of drugs． Methods A retrospective analysis was performed to collect the medical information of all the patients who were treated by voriconazole injection or oral voriconazole tablets in our hospital from June 1，2016 to May 31，2020，and the medical information was statistically analyzed． Based on the cytochrome P450 enzymes ( CYO2 C19，CYP3A4，CYP2C9) ， the doctor ’ s prescription with high-risk potential drug interaction with voriconazole was evaluated． Results A total of 416 cases of voriconazole were included in the long-term medical order，and"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "伏立康唑高风险代谢性药物相互作用分析_连玉菲.pdf",
+          "chunk_index": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "raw_text": "质子泵抑制剂奥美拉唑",
+          "chunk_id": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "data": "谢特点调整伏立康唑与联合用药的给药剂量，并积极监测伏立康唑血药浓度，避免不合理的联合用药。结论在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。Investigation and analysis of the high risk of voriconazole combined medication LIAN Yufei，LIU Hongtao，ZHANG Yue， et al． Department of Pharmacy，Hebei General Hospital，Hebei，Shijiazhuang 050051，China【Abstract 】 Objective To investigate the voriconazole combined medication status to provide reference and basis for its rational use of drugs． Methods A retrospective analysis was performed to collect the medical information of all the patients who were treated by voriconazole injection or oral voriconazole tablets in our hospital from June 1，2016 to May 31，2020，and the medical information was statistically analyzed． Based on the cytochrome P450 enzymes ( CYO2 C19，CYP3A4，CYP2C9) ， the doctor ’ s prescription with high-risk potential drug interaction with voriconazole was evaluated． Results A total of 416 cases of voriconazole were included in the long-term medical order，and"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "伏立康唑高风险代谢性药物相互作用分析_连玉菲.pdf",
+          "chunk_index": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "raw_text": "降脂药阿托伐他汀",
+          "chunk_id": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "data": "谢特点调整伏立康唑与联合用药的给药剂量，并积极监测伏立康唑血药浓度，避免不合理的联合用药。结论在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。Investigation and analysis of the high risk of voriconazole combined medication LIAN Yufei，LIU Hongtao，ZHANG Yue， et al． Department of Pharmacy，Hebei General Hospital，Hebei，Shijiazhuang 050051，China【Abstract 】 Objective To investigate the voriconazole combined medication status to provide reference and basis for its rational use of drugs． Methods A retrospective analysis was performed to collect the medical information of all the patients who were treated by voriconazole injection or oral voriconazole tablets in our hospital from June 1，2016 to May 31，2020，and the medical information was statistically analyzed． Based on the cytochrome P450 enzymes ( CYO2 C19，CYP3A4，CYP2C9) ， the doctor ’ s prescription with high-risk potential drug interaction with voriconazole was evaluated． Results A total of 416 cases of voriconazole were included in the long-term medical order，and"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "伏立康唑高风险代谢性药物相互作用分析_连玉菲.pdf",
+          "chunk_index": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "raw_text": "降脂药辛伐他汀",
+          "chunk_id": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "data": "谢特点调整伏立康唑与联合用药的给药剂量，并积极监测伏立康唑血药浓度，避免不合理的联合用药。结论在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。Investigation and analysis of the high risk of voriconazole combined medication LIAN Yufei，LIU Hongtao，ZHANG Yue， et al． Department of Pharmacy，Hebei General Hospital，Hebei，Shijiazhuang 050051，China【Abstract 】 Objective To investigate the voriconazole combined medication status to provide reference and basis for its rational use of drugs． Methods A retrospective analysis was performed to collect the medical information of all the patients who were treated by voriconazole injection or oral voriconazole tablets in our hospital from June 1，2016 to May 31，2020，and the medical information was statistically analyzed． Based on the cytochrome P450 enzymes ( CYO2 C19，CYP3A4，CYP2C9) ， the doctor ’ s prescription with high-risk potential drug interaction with voriconazole was evaluated． Results A total of 416 cases of voriconazole were included in the long-term medical order，and"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "伏立康唑高风险代谢性药物相互作用分析_连玉菲.pdf",
+          "chunk_index": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "raw_text": "镇静催眠药艾司唑仑",
+          "chunk_id": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "data": "谢特点调整伏立康唑与联合用药的给药剂量，并积极监测伏立康唑血药浓度，避免不合理的联合用药。结论在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。Investigation and analysis of the high risk of voriconazole combined medication LIAN Yufei，LIU Hongtao，ZHANG Yue， et al． Department of Pharmacy，Hebei General Hospital，Hebei，Shijiazhuang 050051，China【Abstract 】 Objective To investigate the voriconazole combined medication status to provide reference and basis for its rational use of drugs． Methods A retrospective analysis was performed to collect the medical information of all the patients who were treated by voriconazole injection or oral voriconazole tablets in our hospital from June 1，2016 to May 31，2020，and the medical information was statistically analyzed． Based on the cytochrome P450 enzymes ( CYO2 C19，CYP3A4，CYP2C9) ， the doctor ’ s prescription with high-risk potential drug interaction with voriconazole was evaluated． Results A total of 416 cases of voriconazole were included in the long-term medical order，and"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "伏立康唑高风险代谢性药物相互作用分析_连玉菲.pdf",
+          "chunk_index": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "raw_text": "镇静催眠药咪达唑仑",
+          "chunk_id": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+          "data": "谢特点调整伏立康唑与联合用药的给药剂量，并积极监测伏立康唑血药浓度，避免不合理的联合用药。结论在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。Investigation and analysis of the high risk of voriconazole combined medication LIAN Yufei，LIU Hongtao，ZHANG Yue， et al． Department of Pharmacy，Hebei General Hospital，Hebei，Shijiazhuang 050051，China【Abstract 】 Objective To investigate the voriconazole combined medication status to provide reference and basis for its rational use of drugs． Methods A retrospective analysis was performed to collect the medical information of all the patients who were treated by voriconazole injection or oral voriconazole tablets in our hospital from June 1，2016 to May 31，2020，and the medical information was statistically analyzed． Based on the cytochrome P450 enzymes ( CYO2 C19，CYP3A4，CYP2C9) ， the doctor ’ s prescription with high-risk potential drug interaction with voriconazole was evaluated． Results A total of 416 cases of voriconazole were included in the long-term medical order，and"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "伏立康唑高风险代谢性药物相互作用分析_连玉菲:7",
+    "source": "伏立康唑高风险代谢性药物相互作用分析_连玉菲.pdf",
+    "text": "谢特点调整伏立康唑与联合用药的给药剂量，并积极监测伏立康唑血药浓度，避免不合理的联合用药。结论在临床治疗中，伏立康唑与其他药物联合使用情况较普遍，治疗中医师及药师均应重视并给予特别关注，尽量避免不合理的代谢性药物相互作用，确保患者用药安全。Investigation and analysis of the high risk of voriconazole combined medication LIAN Yufei，LIU Hongtao，ZHANG Yue， et al． Department of Pharmacy，Hebei General Hospital，Hebei，Shijiazhuang 050051，China【Abstract 】 Objective To investigate the voriconazole combined medication status to provide reference and basis for its rational use of drugs． Methods A retrospective analysis was performed to collect the medical information of all the patients who were treated by voriconazole injection or oral voriconazole tablets in our hospital from June 1，2016 to May 31，2020，and the medical information was statistically analyzed． Based on the cytochrome P450 enzymes ( CYO2 C19，CYP3A4，CYP2C9) ， the doctor ’ s prescription with high-risk potential drug interaction with voriconazole was evaluated． Results A total of 416 cases of voriconazole were included in the long-term medical order，and a total of 416 patients had combined medication，of whom，there were 203 patients with potential metabolic drug interactions，accounting for 48． 80% ，in which，the combination drugs that affected the activity of CYP2C19 were mainly proton pump inhibitors omeprazole and omeprazole，rifampin，St． John ’ s wort and ginkgo biloba． Moreover the combination drugs that affected the activity of CYP3A4 were lipid-lowering drugsatorvastatin，simvastatin，sedative and hypnotic drugs estazolam，midazolam;"
+  }
+]

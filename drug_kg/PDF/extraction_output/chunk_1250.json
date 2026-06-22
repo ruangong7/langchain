@@ -1,0 +1,75 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "万古霉素",
+        "canonical_name": "万古霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "血肌酐",
+        "canonical_name": "血肌酐",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:4",
+          "raw_text": "高度怀疑为万古霉素联合使用注射用伏立康唑所导致的急性肾功能损伤",
+          "consequence": "急性肾损伤",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:4",
+          "data": "m { \\ m m o l { \\cdot } L } ^ { - 1 }$ ，支气管灌洗液示鲍曼不动杆菌。患者血肌酐值较前明显升高，高度怀疑为万古霉素联合使用注射用伏立康唑所导致的急性肾功能损伤，停用万古霉素和伏立康唑，并行血液净化治疗;停用拉氧头孢，改为头孢哌酮舒巴坦 3 $\\textrm { g } i v g t t \\ \\mathrm { q } 1 2 \\mathrm { h } +$ 环丙沙星 $0 . 4 \\mathrm { ~ g ~ } i v g t t \\mathrm { ~ q d }$ ，以覆盖鲍曼不动杆菌。入院第 17 天 $\\mathrm { C r ~ 2 9 5 . 2 ~ \\mu { m o l } \\bullet { L } ^ { - 1 } , \\mathrm { e G F R ~ 1 2 . 1 ~ \\ m L \\bullet { m i n } ^ { - 1 } } }$ ，$\\mathrm { U r e a } ~ 3 4 . 0 4 ~ \\mathrm { m m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 。肾内科会诊为急性肾损伤( AKI) ，予以床旁透析。入院第18天 $\\mathrm { G r } ~ 2 3 5 ~ { \\mu \\mathrm { m o l } } { \\cdot } \\mathrm { L } ^ { - 1 }$ ，eGFR $1 5 . 1 ~ \\mathrm { m L ^ { \\bullet } m i n ^ { - 1 } } , \\mathrm { U r e a } ~ 2 6 . 8 8 ~ \\mathrm { m m o l \\bullet L ^ { - 1 } }$ ，血肌酐有下降。患者家属要求签字出院。对患者的用药情况进行分析，高度怀疑是由万古霉素联用伏立康唑后诱发的 AKI。原因如下: ( 1)在联合使用注射用伏立康唑后，肾功能出现跳水式下降，见图 1。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:4",
+          "raw_text": "患者血肌酐值较前明显升高",
+          "effect": "升高",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:4",
+          "data": "m { \\ m m o l { \\cdot } L } ^ { - 1 }$ ，支气管灌洗液示鲍曼不动杆菌。患者血肌酐值较前明显升高，高度怀疑为万古霉素联合使用注射用伏立康唑所导致的急性肾功能损伤，停用万古霉素和伏立康唑，并行血液净化治疗;停用拉氧头孢，改为头孢哌酮舒巴坦 3 $\\textrm { g } i v g t t \\ \\mathrm { q } 1 2 \\mathrm { h } +$ 环丙沙星 $0 . 4 \\mathrm { ~ g ~ } i v g t t \\mathrm { ~ q d }$ ，以覆盖鲍曼不动杆菌。入院第 17 天 $\\mathrm { C r ~ 2 9 5 . 2 ~ \\mu { m o l } \\bullet { L } ^ { - 1 } , \\mathrm { e G F R ~ 1 2 . 1 ~ \\ m L \\bullet { m i n } ^ { - 1 } } }$ ，$\\mathrm { U r e a } ~ 3 4 . 0 4 ~ \\mathrm { m m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 。肾内科会诊为急性肾损伤( AKI) ，予以床旁透析。入院第18天 $\\mathrm { G r } ~ 2 3 5 ~ { \\mu \\mathrm { m o l } } { \\cdot } \\mathrm { L } ^ { - 1 }$ ，eGFR $1 5 . 1 ~ \\mathrm { m L ^ { \\bullet } m i n ^ { - 1 } } , \\mathrm { U r e a } ~ 2 6 . 8 8 ~ \\mathrm { m m o l \\bullet L ^ { - 1 } }$ ，血肌酐有下降。患者家属要求签字出院。对患者的用药情况进行分析，高度怀疑是由万古霉素联用伏立康唑后诱发的 AKI。原因如下: ( 1)在联合使用注射用伏立康唑后，肾功能出现跳水式下降，见图 1。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:4",
+          "raw_text": "患者血肌酐值较前明显升高",
+          "effect": "升高",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:4",
+          "data": "m { \\ m m o l { \\cdot } L } ^ { - 1 }$ ，支气管灌洗液示鲍曼不动杆菌。患者血肌酐值较前明显升高，高度怀疑为万古霉素联合使用注射用伏立康唑所导致的急性肾功能损伤，停用万古霉素和伏立康唑，并行血液净化治疗;停用拉氧头孢，改为头孢哌酮舒巴坦 3 $\\textrm { g } i v g t t \\ \\mathrm { q } 1 2 \\mathrm { h } +$ 环丙沙星 $0 . 4 \\mathrm { ~ g ~ } i v g t t \\mathrm { ~ q d }$ ，以覆盖鲍曼不动杆菌。入院第 17 天 $\\mathrm { C r ~ 2 9 5 . 2 ~ \\mu { m o l } \\bullet { L } ^ { - 1 } , \\mathrm { e G F R ~ 1 2 . 1 ~ \\ m L \\bullet { m i n } ^ { - 1 } } }$ ，$\\mathrm { U r e a } ~ 3 4 . 0 4 ~ \\mathrm { m m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 。肾内科会诊为急性肾损伤( AKI) ，予以床旁透析。入院第18天 $\\mathrm { G r } ~ 2 3 5 ~ { \\mu \\mathrm { m o l } } { \\cdot } \\mathrm { L } ^ { - 1 }$ ，eGFR $1 5 . 1 ~ \\mathrm { m L ^ { \\bullet } m i n ^ { - 1 } } , \\mathrm { U r e a } ~ 2 6 . 8 8 ~ \\mathrm { m m o l \\bullet L ^ { - 1 } }$ ，血肌酐有下降。患者家属要求签字出院。对患者的用药情况进行分析，高度怀疑是由万古霉素联用伏立康唑后诱发的 AKI。原因如下: ( 1)在联合使用注射用伏立康唑后，肾功能出现跳水式下降，见图 1。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:4",
+    "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+    "text": "m { \\ m m o l { \\cdot } L } ^ { - 1 }$ ，支气管灌洗液示鲍曼不动杆菌。患者血肌酐值较前明显升高，高度怀疑为万古霉素联合使用注射用伏立康唑所导致的急性肾功能损伤，停用万古霉素和伏立康唑，并行血液净化治疗;停用拉氧头孢，改为头孢哌酮舒巴坦 3 $\\textrm { g } i v g t t \\ \\mathrm { q } 1 2 \\mathrm { h } +$ 环丙沙星 $0 . 4 \\mathrm { ~ g ~ } i v g t t \\mathrm { ~ q d }$ ，以覆盖鲍曼不动杆菌。入院第 17 天 $\\mathrm { C r ~ 2 9 5 . 2 ~ \\mu { m o l } \\bullet { L } ^ { - 1 } , \\mathrm { e G F R ~ 1 2 . 1 ~ \\ m L \\bullet { m i n } ^ { - 1 } } }$ ，$\\mathrm { U r e a } ~ 3 4 . 0 4 ~ \\mathrm { m m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 。肾内科会诊为急性肾损伤( AKI) ，予以床旁透析。入院第18天 $\\mathrm { G r } ~ 2 3 5 ~ { \\mu \\mathrm { m o l } } { \\cdot } \\mathrm { L } ^ { - 1 }$ ，eGFR $1 5 . 1 ~ \\mathrm { m L ^ { \\bullet } m i n ^ { - 1 } } , \\mathrm { U r e a } ~ 2 6 . 8 8 ~ \\mathrm { m m o l \\bullet L ^ { - 1 } }$ ，血肌酐有下降。患者家属要求签字出院。对患者的用药情况进行分析，高度怀疑是由万古霉素联用伏立康唑后诱发的 AKI。原因如下: ( 1)在联合使用注射用伏立康唑后，肾功能出现跳水式下降，见图 1。"
+  }
+]

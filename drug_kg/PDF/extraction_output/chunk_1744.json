@@ -1,0 +1,199 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "warfarin",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "digoxin",
+        "canonical_name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "amiodarone",
+        "canonical_name": "胺碘酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "pravastatin",
+        "canonical_name": "普伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "fluvastatin",
+        "canonical_name": "氟伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "clopidogrel",
+        "canonical_name": "氯吡格雷",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "aspirin",
+        "canonical_name": "阿司匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "benbromarone",
+        "canonical_name": "苯溴马隆",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "metformin",
+        "canonical_name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "proton pump inhibitors",
+        "canonical_name": "质子泵抑制剂",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "华法林与心血管疾病常用药物相互作用研究进展_朱长友.pdf",
+          "chunk_index": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "raw_text": "Interaction drugs include commonly used cardiotonic drugs (digoxin)",
+          "chunk_id": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "data": "2）warfarin metabolism can be reduced and the concentration of warfarin in patients can be increased by interfering CYPs；（3）warfarin distribution is affected，the binding effect of warfarin with non -protein is increased，and its anticoagulant effect is enhanced. Interaction drugs include commonly used cardiotonic drugs （digoxin），anti-arrhythmia drugs （amiodarone），lipid-lowering drugs （pravastatin，fluvastatin， etc.），antiplatelet drugs （clopidogrel，aspirin，etc.），uric acid lowering drugs （benbromarone），proton pump inhibitors and hypoglycemic drugs（metformin）. Warfarin's anticoagulant effect can be affected by its interactions with other drugs. Therefore，the research progress of warfarin interaction with commonly used drugs for cardiovascular diseases was reviewed，in order to provide guidance for the clinical application of warfarin.Keywords: Warfarin；Cardiovascular disease；"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "华法林与心血管疾病常用药物相互作用研究进展_朱长友.pdf",
+          "chunk_index": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "raw_text": "Interaction drugs include ... anti-arrhythmia drugs (amiodarone)",
+          "chunk_id": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "data": "2）warfarin metabolism can be reduced and the concentration of warfarin in patients can be increased by interfering CYPs；（3）warfarin distribution is affected，the binding effect of warfarin with non -protein is increased，and its anticoagulant effect is enhanced. Interaction drugs include commonly used cardiotonic drugs （digoxin），anti-arrhythmia drugs （amiodarone），lipid-lowering drugs （pravastatin，fluvastatin， etc.），antiplatelet drugs （clopidogrel，aspirin，etc.），uric acid lowering drugs （benbromarone），proton pump inhibitors and hypoglycemic drugs（metformin）. Warfarin's anticoagulant effect can be affected by its interactions with other drugs. Therefore，the research progress of warfarin interaction with commonly used drugs for cardiovascular diseases was reviewed，in order to provide guidance for the clinical application of warfarin.Keywords: Warfarin；Cardiovascular disease；"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "华法林与心血管疾病常用药物相互作用研究进展_朱长友.pdf",
+          "chunk_index": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "raw_text": "Interaction drugs include ... lipid-lowering drugs (pravastatin, fluvastatin, etc.)",
+          "chunk_id": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "data": "2）warfarin metabolism can be reduced and the concentration of warfarin in patients can be increased by interfering CYPs；（3）warfarin distribution is affected，the binding effect of warfarin with non -protein is increased，and its anticoagulant effect is enhanced. Interaction drugs include commonly used cardiotonic drugs （digoxin），anti-arrhythmia drugs （amiodarone），lipid-lowering drugs （pravastatin，fluvastatin， etc.），antiplatelet drugs （clopidogrel，aspirin，etc.），uric acid lowering drugs （benbromarone），proton pump inhibitors and hypoglycemic drugs（metformin）. Warfarin's anticoagulant effect can be affected by its interactions with other drugs. Therefore，the research progress of warfarin interaction with commonly used drugs for cardiovascular diseases was reviewed，in order to provide guidance for the clinical application of warfarin.Keywords: Warfarin；Cardiovascular disease；"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "华法林与心血管疾病常用药物相互作用研究进展_朱长友.pdf",
+          "chunk_index": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "raw_text": "Interaction drugs include ... lipid-lowering drugs (pravastatin, fluvastatin, etc.)",
+          "chunk_id": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "data": "2）warfarin metabolism can be reduced and the concentration of warfarin in patients can be increased by interfering CYPs；（3）warfarin distribution is affected，the binding effect of warfarin with non -protein is increased，and its anticoagulant effect is enhanced. Interaction drugs include commonly used cardiotonic drugs （digoxin），anti-arrhythmia drugs （amiodarone），lipid-lowering drugs （pravastatin，fluvastatin， etc.），antiplatelet drugs （clopidogrel，aspirin，etc.），uric acid lowering drugs （benbromarone），proton pump inhibitors and hypoglycemic drugs（metformin）. Warfarin's anticoagulant effect can be affected by its interactions with other drugs. Therefore，the research progress of warfarin interaction with commonly used drugs for cardiovascular diseases was reviewed，in order to provide guidance for the clinical application of warfarin.Keywords: Warfarin；Cardiovascular disease；"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "华法林与心血管疾病常用药物相互作用研究进展_朱长友.pdf",
+          "chunk_index": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "raw_text": "Interaction drugs include ... antiplatelet drugs (clopidogrel, aspirin, etc.)",
+          "chunk_id": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "data": "2）warfarin metabolism can be reduced and the concentration of warfarin in patients can be increased by interfering CYPs；（3）warfarin distribution is affected，the binding effect of warfarin with non -protein is increased，and its anticoagulant effect is enhanced. Interaction drugs include commonly used cardiotonic drugs （digoxin），anti-arrhythmia drugs （amiodarone），lipid-lowering drugs （pravastatin，fluvastatin， etc.），antiplatelet drugs （clopidogrel，aspirin，etc.），uric acid lowering drugs （benbromarone），proton pump inhibitors and hypoglycemic drugs（metformin）. Warfarin's anticoagulant effect can be affected by its interactions with other drugs. Therefore，the research progress of warfarin interaction with commonly used drugs for cardiovascular diseases was reviewed，in order to provide guidance for the clinical application of warfarin.Keywords: Warfarin；Cardiovascular disease；"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "华法林与心血管疾病常用药物相互作用研究进展_朱长友.pdf",
+          "chunk_index": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "raw_text": "Interaction drugs include ... antiplatelet drugs (clopidogrel, aspirin, etc.)",
+          "chunk_id": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "data": "2）warfarin metabolism can be reduced and the concentration of warfarin in patients can be increased by interfering CYPs；（3）warfarin distribution is affected，the binding effect of warfarin with non -protein is increased，and its anticoagulant effect is enhanced. Interaction drugs include commonly used cardiotonic drugs （digoxin），anti-arrhythmia drugs （amiodarone），lipid-lowering drugs （pravastatin，fluvastatin， etc.），antiplatelet drugs （clopidogrel，aspirin，etc.），uric acid lowering drugs （benbromarone），proton pump inhibitors and hypoglycemic drugs（metformin）. Warfarin's anticoagulant effect can be affected by its interactions with other drugs. Therefore，the research progress of warfarin interaction with commonly used drugs for cardiovascular diseases was reviewed，in order to provide guidance for the clinical application of warfarin.Keywords: Warfarin；Cardiovascular disease；"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "华法林与心血管疾病常用药物相互作用研究进展_朱长友.pdf",
+          "chunk_index": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "raw_text": "Interaction drugs include ... uric acid lowering drugs (benbromarone)",
+          "chunk_id": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "data": "2）warfarin metabolism can be reduced and the concentration of warfarin in patients can be increased by interfering CYPs；（3）warfarin distribution is affected，the binding effect of warfarin with non -protein is increased，and its anticoagulant effect is enhanced. Interaction drugs include commonly used cardiotonic drugs （digoxin），anti-arrhythmia drugs （amiodarone），lipid-lowering drugs （pravastatin，fluvastatin， etc.），antiplatelet drugs （clopidogrel，aspirin，etc.），uric acid lowering drugs （benbromarone），proton pump inhibitors and hypoglycemic drugs（metformin）. Warfarin's anticoagulant effect can be affected by its interactions with other drugs. Therefore，the research progress of warfarin interaction with commonly used drugs for cardiovascular diseases was reviewed，in order to provide guidance for the clinical application of warfarin.Keywords: Warfarin；Cardiovascular disease；"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "华法林与心血管疾病常用药物相互作用研究进展_朱长友.pdf",
+          "chunk_index": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "raw_text": "Interaction drugs include ... hypoglycemic drugs (metformin)",
+          "chunk_id": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "data": "2）warfarin metabolism can be reduced and the concentration of warfarin in patients can be increased by interfering CYPs；（3）warfarin distribution is affected，the binding effect of warfarin with non -protein is increased，and its anticoagulant effect is enhanced. Interaction drugs include commonly used cardiotonic drugs （digoxin），anti-arrhythmia drugs （amiodarone），lipid-lowering drugs （pravastatin，fluvastatin， etc.），antiplatelet drugs （clopidogrel，aspirin，etc.），uric acid lowering drugs （benbromarone），proton pump inhibitors and hypoglycemic drugs（metformin）. Warfarin's anticoagulant effect can be affected by its interactions with other drugs. Therefore，the research progress of warfarin interaction with commonly used drugs for cardiovascular diseases was reviewed，in order to provide guidance for the clinical application of warfarin.Keywords: Warfarin；Cardiovascular disease；"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "华法林与心血管疾病常用药物相互作用研究进展_朱长友.pdf",
+          "chunk_index": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "raw_text": "Interaction drugs include ... proton pump inhibitors",
+          "chunk_id": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+          "data": "2）warfarin metabolism can be reduced and the concentration of warfarin in patients can be increased by interfering CYPs；（3）warfarin distribution is affected，the binding effect of warfarin with non -protein is increased，and its anticoagulant effect is enhanced. Interaction drugs include commonly used cardiotonic drugs （digoxin），anti-arrhythmia drugs （amiodarone），lipid-lowering drugs （pravastatin，fluvastatin， etc.），antiplatelet drugs （clopidogrel，aspirin，etc.），uric acid lowering drugs （benbromarone），proton pump inhibitors and hypoglycemic drugs（metformin）. Warfarin's anticoagulant effect can be affected by its interactions with other drugs. Therefore，the research progress of warfarin interaction with commonly used drugs for cardiovascular diseases was reviewed，in order to provide guidance for the clinical application of warfarin.Keywords: Warfarin；Cardiovascular disease；"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "华法林与心血管疾病常用药物相互作用研究进展_朱长友:4",
+    "source": "华法林与心血管疾病常用药物相互作用研究进展_朱长友.pdf",
+    "text": "2）warfarin metabolism can be reduced and the concentration of warfarin in patients can be increased by interfering CYPs；（3）warfarin distribution is affected，the binding effect of warfarin with non -protein is increased，and its anticoagulant effect is enhanced. Interaction drugs include commonly used cardiotonic drugs （digoxin），anti-arrhythmia drugs （amiodarone），lipid-lowering drugs （pravastatin，fluvastatin， etc.），antiplatelet drugs （clopidogrel，aspirin，etc.），uric acid lowering drugs （benbromarone），proton pump inhibitors and hypoglycemic drugs（metformin）. Warfarin's anticoagulant effect can be affected by its interactions with other drugs. Therefore，the research progress of warfarin interaction with commonly used drugs for cardiovascular diseases was reviewed，in order to provide guidance for the clinical application of warfarin.Keywords: Warfarin；Cardiovascular disease；"
+  }
+]

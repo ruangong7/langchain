@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "MTX",
+        "canonical_name": "甲氨蝶呤",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伊立替康",
+        "canonical_name": "伊立替康",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Food",
+        "name": "圣约翰草",
+        "canonical_name": "圣约翰草",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "奈韦拉平",
+        "canonical_name": "奈韦拉平",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "致死性毒副作用",
+        "canonical_name": "致死性毒副作用",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "骨髓抑制",
+        "canonical_name": "骨髓抑制",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "癌症治疗中药物相互作用_胡胜.pdf",
+          "chunk_index": "癌症治疗中药物相互作用_胡胜:5",
+          "raw_text": "是非水溶性，在低 pH 条件下进入肾小管，导致 MTX不能从肾脏排除，出现致死性毒副作用。",
+          "chunk_id": "癌症治疗中药物相互作用_胡胜:5",
+          "data": "，是非水溶性，在低 pH 条件下进入肾小管，导致 MTX不能从肾脏排除，出现致死性毒副作用。St John’s Wor（t 圣约翰草,也称为 Hypericum perforatum，贯叶连翘）[18]，一种常见的草药成分，作为抗抑郁药物。Mathijssen等发现 5 个不同类型的癌症患者接受静脉内 350/（mg·m2 ）的伊立替康，与 St John’s Wor（t 900mg，1 天1 次口服，共 18 天）联合或不联合，在 St John’sWort 组，伊立替康的活性产物 SN-38 浓度降低42%，而在非 St John’s Wort 组有更严重的骨髓抑制作用，提示伊立替康不应与 St John’s Wort 联合使用。St John’s Wort的提取物可以诱导肝药酶和P-糖蛋白，与其他药物存在相互作用，如抗病毒药物nevirapin（e 奈韦拉平）。and pharmacodynamics of combination chemotherapy with paclitaxel and epirubicin in breast cancer patients [J]. Br J Clin Pharmacol, 2002, 53(5): 508- 518.[6] Kruijtzer CMF, Beijnen JH, Schellens JHM. Improvement of oral drug treatment by temporary inhibition of drug transporters and/or cytochrome P450 in the gastrointestinal tract and liver: an overview\n4 展望\n为了获得最大的治疗效果，需要收集更多的关于药物间相互作用的临床和理论上的资料。新的研究技术在此方面已经发挥巨大作用，如表达人类药物代谢酶的转基因小鼠作为研究药物间相互作用的模型，计算机辅助分析进行定量和定性预计药物间相互作用[19]。参考文献："
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "癌症治疗中药物相互作用_胡胜.pdf",
+          "chunk_index": "癌症治疗中药物相互作用_胡胜:5",
+          "raw_text": "Mathijssen等发现 5 个不同类型的癌症患者接受静脉内 350/（mg·m2 ）的伊立替康，与 St John’s Wor（t 900mg，1 天1 次口服，共 18 天）联合或不联合，在 St John’sWort 组，伊立替康的活性产物 SN-38 浓度降低42%，而在非 St John’s Wort 组有更严重的骨髓抑制作用，提示伊立替康不应与 St John’s Wort 联合使用。",
+          "chunk_id": "癌症治疗中药物相互作用_胡胜:5",
+          "data": "，是非水溶性，在低 pH 条件下进入肾小管，导致 MTX不能从肾脏排除，出现致死性毒副作用。St John’s Wor（t 圣约翰草,也称为 Hypericum perforatum，贯叶连翘）[18]，一种常见的草药成分，作为抗抑郁药物。Mathijssen等发现 5 个不同类型的癌症患者接受静脉内 350/（mg·m2 ）的伊立替康，与 St John’s Wor（t 900mg，1 天1 次口服，共 18 天）联合或不联合，在 St John’sWort 组，伊立替康的活性产物 SN-38 浓度降低42%，而在非 St John’s Wort 组有更严重的骨髓抑制作用，提示伊立替康不应与 St John’s Wort 联合使用。St John’s Wort的提取物可以诱导肝药酶和P-糖蛋白，与其他药物存在相互作用，如抗病毒药物nevirapin（e 奈韦拉平）。and pharmacodynamics of combination chemotherapy with paclitaxel and epirubicin in breast cancer patients [J]. Br J Clin Pharmacol, 2002, 53(5): 508- 518.[6] Kruijtzer CMF, Beijnen JH, Schellens JHM. Improvement of oral drug treatment by temporary inhibition of drug transporters and/or cytochrome P450 in the gastrointestinal tract and liver: an overview\n4 展望\n为了获得最大的治疗效果，需要收集更多的关于药物间相互作用的临床和理论上的资料。新的研究技术在此方面已经发挥巨大作用，如表达人类药物代谢酶的转基因小鼠作为研究药物间相互作用的模型，计算机辅助分析进行定量和定性预计药物间相互作用[19]。参考文献："
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "癌症治疗中药物相互作用_胡胜.pdf",
+          "chunk_index": "癌症治疗中药物相互作用_胡胜:5",
+          "raw_text": "St John’s Wort的提取物可以诱导肝药酶和P-糖蛋白，与其他药物存在相互作用，如抗病毒药物nevirapin（e 奈韦拉平）。",
+          "chunk_id": "癌症治疗中药物相互作用_胡胜:5",
+          "data": "，是非水溶性，在低 pH 条件下进入肾小管，导致 MTX不能从肾脏排除，出现致死性毒副作用。St John’s Wor（t 圣约翰草,也称为 Hypericum perforatum，贯叶连翘）[18]，一种常见的草药成分，作为抗抑郁药物。Mathijssen等发现 5 个不同类型的癌症患者接受静脉内 350/（mg·m2 ）的伊立替康，与 St John’s Wor（t 900mg，1 天1 次口服，共 18 天）联合或不联合，在 St John’sWort 组，伊立替康的活性产物 SN-38 浓度降低42%，而在非 St John’s Wort 组有更严重的骨髓抑制作用，提示伊立替康不应与 St John’s Wort 联合使用。St John’s Wort的提取物可以诱导肝药酶和P-糖蛋白，与其他药物存在相互作用，如抗病毒药物nevirapin（e 奈韦拉平）。and pharmacodynamics of combination chemotherapy with paclitaxel and epirubicin in breast cancer patients [J]. Br J Clin Pharmacol, 2002, 53(5): 508- 518.[6] Kruijtzer CMF, Beijnen JH, Schellens JHM. Improvement of oral drug treatment by temporary inhibition of drug transporters and/or cytochrome P450 in the gastrointestinal tract and liver: an overview\n4 展望\n为了获得最大的治疗效果，需要收集更多的关于药物间相互作用的临床和理论上的资料。新的研究技术在此方面已经发挥巨大作用，如表达人类药物代谢酶的转基因小鼠作为研究药物间相互作用的模型，计算机辅助分析进行定量和定性预计药物间相互作用[19]。参考文献："
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "癌症治疗中药物相互作用_胡胜.pdf",
+          "chunk_index": "癌症治疗中药物相互作用_胡胜:5",
+          "raw_text": "是非水溶性，在低 pH 条件下进入肾小管，导致 MTX不能从肾脏排除，出现致死性毒副作用。",
+          "chunk_id": "癌症治疗中药物相互作用_胡胜:5",
+          "data": "，是非水溶性，在低 pH 条件下进入肾小管，导致 MTX不能从肾脏排除，出现致死性毒副作用。St John’s Wor（t 圣约翰草,也称为 Hypericum perforatum，贯叶连翘）[18]，一种常见的草药成分，作为抗抑郁药物。Mathijssen等发现 5 个不同类型的癌症患者接受静脉内 350/（mg·m2 ）的伊立替康，与 St John’s Wor（t 900mg，1 天1 次口服，共 18 天）联合或不联合，在 St John’sWort 组，伊立替康的活性产物 SN-38 浓度降低42%，而在非 St John’s Wort 组有更严重的骨髓抑制作用，提示伊立替康不应与 St John’s Wort 联合使用。St John’s Wort的提取物可以诱导肝药酶和P-糖蛋白，与其他药物存在相互作用，如抗病毒药物nevirapin（e 奈韦拉平）。and pharmacodynamics of combination chemotherapy with paclitaxel and epirubicin in breast cancer patients [J]. Br J Clin Pharmacol, 2002, 53(5): 508- 518.[6] Kruijtzer CMF, Beijnen JH, Schellens JHM. Improvement of oral drug treatment by temporary inhibition of drug transporters and/or cytochrome P450 in the gastrointestinal tract and liver: an overview\n4 展望\n为了获得最大的治疗效果，需要收集更多的关于药物间相互作用的临床和理论上的资料。新的研究技术在此方面已经发挥巨大作用，如表达人类药物代谢酶的转基因小鼠作为研究药物间相互作用的模型，计算机辅助分析进行定量和定性预计药物间相互作用[19]。参考文献："
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "癌症治疗中药物相互作用_胡胜.pdf",
+          "chunk_index": "癌症治疗中药物相互作用_胡胜:5",
+          "raw_text": "而在非 St John’s Wort 组有更严重的骨髓抑制作用",
+          "chunk_id": "癌症治疗中药物相互作用_胡胜:5",
+          "data": "，是非水溶性，在低 pH 条件下进入肾小管，导致 MTX不能从肾脏排除，出现致死性毒副作用。St John’s Wor（t 圣约翰草,也称为 Hypericum perforatum，贯叶连翘）[18]，一种常见的草药成分，作为抗抑郁药物。Mathijssen等发现 5 个不同类型的癌症患者接受静脉内 350/（mg·m2 ）的伊立替康，与 St John’s Wor（t 900mg，1 天1 次口服，共 18 天）联合或不联合，在 St John’sWort 组，伊立替康的活性产物 SN-38 浓度降低42%，而在非 St John’s Wort 组有更严重的骨髓抑制作用，提示伊立替康不应与 St John’s Wort 联合使用。St John’s Wort的提取物可以诱导肝药酶和P-糖蛋白，与其他药物存在相互作用，如抗病毒药物nevirapin（e 奈韦拉平）。and pharmacodynamics of combination chemotherapy with paclitaxel and epirubicin in breast cancer patients [J]. Br J Clin Pharmacol, 2002, 53(5): 508- 518.[6] Kruijtzer CMF, Beijnen JH, Schellens JHM. Improvement of oral drug treatment by temporary inhibition of drug transporters and/or cytochrome P450 in the gastrointestinal tract and liver: an overview\n4 展望\n为了获得最大的治疗效果，需要收集更多的关于药物间相互作用的临床和理论上的资料。新的研究技术在此方面已经发挥巨大作用，如表达人类药物代谢酶的转基因小鼠作为研究药物间相互作用的模型，计算机辅助分析进行定量和定性预计药物间相互作用[19]。参考文献："
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "癌症治疗中药物相互作用_胡胜:5",
+    "source": "癌症治疗中药物相互作用_胡胜.pdf",
+    "text": "，是非水溶性，在低 pH 条件下进入肾小管，导致 MTX不能从肾脏排除，出现致死性毒副作用。St John’s Wor（t 圣约翰草,也称为 Hypericum perforatum，贯叶连翘）[18]，一种常见的草药成分，作为抗抑郁药物。Mathijssen等发现 5 个不同类型的癌症患者接受静脉内 350/（mg·m2 ）的伊立替康，与 St John’s Wor（t 900mg，1 天1 次口服，共 18 天）联合或不联合，在 St John’sWort 组，伊立替康的活性产物 SN-38 浓度降低42%，而在非 St John’s Wort 组有更严重的骨髓抑制作用，提示伊立替康不应与 St John’s Wort 联合使用。St John’s Wort的提取物可以诱导肝药酶和P-糖蛋白，与其他药物存在相互作用，如抗病毒药物nevirapin（e 奈韦拉平）。and pharmacodynamics of combination chemotherapy with paclitaxel and epirubicin in breast cancer patients [J]. Br J Clin Pharmacol, 2002, 53(5): 508- 518.[6] Kruijtzer CMF, Beijnen JH, Schellens JHM. Improvement of oral drug treatment by temporary inhibition of drug transporters and/or cytochrome P450 in the gastrointestinal tract and liver: an overview\n4 展望\n为了获得最大的治疗效果，需要收集更多的关于药物间相互作用的临床和理论上的资料。新的研究技术在此方面已经发挥巨大作用，如表达人类药物代谢酶的转基因小鼠作为研究药物间相互作用的模型，计算机辅助分析进行定量和定性预计药物间相互作用[19]。参考文献："
+  }
+]

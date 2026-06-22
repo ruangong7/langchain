@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "奈玛特韦/利托那韦片",
+        "canonical_name": "奈玛特韦/利托那韦片",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "抗真菌药",
+        "canonical_name": "抗真菌药",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "儿童奈玛特韦_利托那韦片临床使用情况及药物相互作用分析_高鹏.pdf",
+          "chunk_index": "儿童奈玛特韦_利托那韦片临床使用情况及药物相互作用分析_高鹏:5",
+          "raw_text": "药物较多，共收集奈玛特韦/利托那韦片潜在相互作用药物 15 种，需关注与抗真菌药的潜在药物相互作用。",
+          "chunk_id": "儿童奈玛特韦_利托那韦片临床使用情况及药物相互作用分析_高鹏:5",
+          "data": "药物较多，共收集奈玛特韦/利托那韦片潜在相互作用药物 15 种，需关注与抗真菌药的潜在药物相互作用。结论儿童使用奈玛特韦/利托那韦片较多的科室为血液科，合并基础疾病主要为肿瘤，用药期间联用潜在相互作用的药物时应当注意监测疗效和药物不良反应。引用本文：高鹏, 刘银, 黄凌斐, 等. 儿童奈玛特韦/利托那韦片临床使用情况及药物相互作用分析[J]. 中国现代应用药学,2023, 40(22): 3164-3168.\nClinical Application and Drug Interaction Analysis of Nirmatrelvir/Ritonavir Tablets in Children\nGAO Peng1, LIU Yin1, HUANG Lingfei1, ZHU Zhengyi1, NI Yinghua1, YANG Jufei1, MIAO Jing1,2\\* (1.Department of Pharmacy, Children’s Hospital, Zhejiang University School of Medicine, National Clinical Research Center for Child Health, Hangzhou 310052, China;"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "儿童奈玛特韦_利托那韦片临床使用情况及药物相互作用分析_高鹏:5",
+    "source": "儿童奈玛特韦_利托那韦片临床使用情况及药物相互作用分析_高鹏.pdf",
+    "text": "药物较多，共收集奈玛特韦/利托那韦片潜在相互作用药物 15 种，需关注与抗真菌药的潜在药物相互作用。结论儿童使用奈玛特韦/利托那韦片较多的科室为血液科，合并基础疾病主要为肿瘤，用药期间联用潜在相互作用的药物时应当注意监测疗效和药物不良反应。引用本文：高鹏, 刘银, 黄凌斐, 等. 儿童奈玛特韦/利托那韦片临床使用情况及药物相互作用分析[J]. 中国现代应用药学,2023, 40(22): 3164-3168.\nClinical Application and Drug Interaction Analysis of Nirmatrelvir/Ritonavir Tablets in Children\nGAO Peng1, LIU Yin1, HUANG Lingfei1, ZHU Zhengyi1, NI Yinghua1, YANG Jufei1, MIAO Jing1,2\\* (1.Department of Pharmacy, Children’s Hospital, Zhejiang University School of Medicine, National Clinical Research Center for Child Health, Hangzhou 310052, China;"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "多奈哌齐",
+        "canonical_name": "多奈哌齐",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "莫西沙星",
+        "canonical_name": "莫西沙星",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "多奈哌齐与莫西沙星联合用药的药物相互作用_孙雪梅.pdf",
+          "chunk_index": "多奈哌齐与莫西沙星联合用药的药物相互作用_孙雪梅:20",
+          "raw_text": "slows its CL_int, and increases donepezil exposure in the body.",
+          "chunk_id": "多奈哌齐与莫西沙星联合用药的药物相互作用_孙雪梅:20",
+          "data": "，slows its $\\mathrm { C L } _ { \\mathrm { i n t } } ,$ ，and increases donepezil exposure in the body.Keywords donepezil；moxifloxacin；drug combination；drug interaction药物相互作用是指患者服用多种药物时产生药效增强或减轻，甚至出现不良反应的现象［1］。老年人常常多病共存，不可避免地存在多重用药［2］。由于老年患者身体机能逐渐衰退，代谢能力减退［3］，多种药物联用时易发生药物相互作用，带来不可预知的安全隐患［4］。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "多奈哌齐与莫西沙星联合用药的药物相互作用_孙雪梅:20",
+    "source": "多奈哌齐与莫西沙星联合用药的药物相互作用_孙雪梅.pdf",
+    "text": "，slows its $\\mathrm { C L } _ { \\mathrm { i n t } } ,$ ，and increases donepezil exposure in the body.Keywords donepezil；moxifloxacin；drug combination；drug interaction药物相互作用是指患者服用多种药物时产生药效增强或减轻，甚至出现不良反应的现象［1］。老年人常常多病共存，不可避免地存在多重用药［2］。由于老年患者身体机能逐渐衰退，代谢能力减退［3］，多种药物联用时易发生药物相互作用，带来不可预知的安全隐患［4］。"
+  }
+]

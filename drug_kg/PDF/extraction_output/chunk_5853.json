@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "莫达非尼",
+        "canonical_name": "莫达非尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Disease",
+        "name": "发作性睡病",
+        "canonical_name": "发作性睡病",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "戒断症状",
+        "canonical_name": "戒断症状",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "莫达非尼的临床应用和药物相互作用_俞海泓.pdf",
+          "chunk_index": "莫达非尼的临床应用和药物相互作用_俞海泓:15",
+          "raw_text": "莫达非尼可以治疗本病",
+          "chunk_id": "莫达非尼的临床应用和药物相互作用_俞海泓:15",
+          "data": "胞外液DA浓度升高。动物实验发现，发作性睡病犬静脉注射莫达非尼 $5\\mathrm{mg}\\cdot \\mathrm{kg}^{-1}$ 觉醒时间明显增加[10]。莫达非尼能激活orexin神经元[11]，增加组胺的释放[12]而治疗本病。一系列的临床研究结果表明莫达非尼可以治疗本病。BILLIARD等[13]将50位NRL患者随机双盲分成2组，交叉应用莫达非尼 $300\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 或安慰剂4wk（2wk清洗期）。患者的睡眠日记及多导睡眠图（polysomnography，PSG）显示：莫达非尼不改变夜间睡眠，但减少白天睡眠及嗜睡症状，觉醒时的感觉没有改变。清醒状态维持试验(maintenance of wakefulness test, MWT) 显示莫达非尼明显改善 EDS，但不能减少猝倒的发作。美国 NRL 研究小组 $^{[14]}$ 采用了大样本、多中心平行试验，以评估莫达非尼的疗效及不良反应。莫达非尼 200 或 400 mg·d $^{-1}$ ，患者主观感觉及 Epworth 嗜睡量表（Epworth sleepiness scale，ESS）评分均显示嗜睡症状明显改善。MWT 和多次小睡潜伏期试验（multiple sleep latency test，MSLT）客观地发现莫达非尼改善 EDS；夜间 PSG 显示莫达非尼不影响夜间睡眠的启动、维持、睡眠结构及睡眠质量。这个治疗小组又研究了已经接受莫达非尼治疗的患者停药后的反应。他们发现停药后患者又出现了 EDS，但停药后不产生戒断症状。SCHWARTZ 等 $^{[15]}$ 研究了莫达非尼不同剂量及不同给药时间对傍晚嗜睡的影响。32 例患者随机分成莫达非尼 200 mg qd、400 mg qd、200 mg bid 三组，发现 200 mg bid 组比前 2 组对维持傍晚觉醒效果明显，400 mg qd 组较 200 mg qd 组疗效佳。进一步研究 $^{[16]}$ 发现莫达非尼能改善 NRL 患者的执行功能。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "莫达非尼的临床应用和药物相互作用_俞海泓.pdf",
+          "chunk_index": "莫达非尼的临床应用和药物相互作用_俞海泓:15",
+          "raw_text": "停药后不产生戒断症状",
+          "chunk_id": "莫达非尼的临床应用和药物相互作用_俞海泓:15",
+          "data": "胞外液DA浓度升高。动物实验发现，发作性睡病犬静脉注射莫达非尼 $5\\mathrm{mg}\\cdot \\mathrm{kg}^{-1}$ 觉醒时间明显增加[10]。莫达非尼能激活orexin神经元[11]，增加组胺的释放[12]而治疗本病。一系列的临床研究结果表明莫达非尼可以治疗本病。BILLIARD等[13]将50位NRL患者随机双盲分成2组，交叉应用莫达非尼 $300\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 或安慰剂4wk（2wk清洗期）。患者的睡眠日记及多导睡眠图（polysomnography，PSG）显示：莫达非尼不改变夜间睡眠，但减少白天睡眠及嗜睡症状，觉醒时的感觉没有改变。清醒状态维持试验(maintenance of wakefulness test, MWT) 显示莫达非尼明显改善 EDS，但不能减少猝倒的发作。美国 NRL 研究小组 $^{[14]}$ 采用了大样本、多中心平行试验，以评估莫达非尼的疗效及不良反应。莫达非尼 200 或 400 mg·d $^{-1}$ ，患者主观感觉及 Epworth 嗜睡量表（Epworth sleepiness scale，ESS）评分均显示嗜睡症状明显改善。MWT 和多次小睡潜伏期试验（multiple sleep latency test，MSLT）客观地发现莫达非尼改善 EDS；夜间 PSG 显示莫达非尼不影响夜间睡眠的启动、维持、睡眠结构及睡眠质量。这个治疗小组又研究了已经接受莫达非尼治疗的患者停药后的反应。他们发现停药后患者又出现了 EDS，但停药后不产生戒断症状。SCHWARTZ 等 $^{[15]}$ 研究了莫达非尼不同剂量及不同给药时间对傍晚嗜睡的影响。32 例患者随机分成莫达非尼 200 mg qd、400 mg qd、200 mg bid 三组，发现 200 mg bid 组比前 2 组对维持傍晚觉醒效果明显，400 mg qd 组较 200 mg qd 组疗效佳。进一步研究 $^{[16]}$ 发现莫达非尼能改善 NRL 患者的执行功能。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "莫达非尼的临床应用和药物相互作用_俞海泓:15",
+    "source": "莫达非尼的临床应用和药物相互作用_俞海泓.pdf",
+    "text": "胞外液DA浓度升高。动物实验发现，发作性睡病犬静脉注射莫达非尼 $5\\mathrm{mg}\\cdot \\mathrm{kg}^{-1}$ 觉醒时间明显增加[10]。莫达非尼能激活orexin神经元[11]，增加组胺的释放[12]而治疗本病。一系列的临床研究结果表明莫达非尼可以治疗本病。BILLIARD等[13]将50位NRL患者随机双盲分成2组，交叉应用莫达非尼 $300\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 或安慰剂4wk（2wk清洗期）。患者的睡眠日记及多导睡眠图（polysomnography，PSG）显示：莫达非尼不改变夜间睡眠，但减少白天睡眠及嗜睡症状，觉醒时的感觉没有改变。清醒状态维持试验(maintenance of wakefulness test, MWT) 显示莫达非尼明显改善 EDS，但不能减少猝倒的发作。美国 NRL 研究小组 $^{[14]}$ 采用了大样本、多中心平行试验，以评估莫达非尼的疗效及不良反应。莫达非尼 200 或 400 mg·d $^{-1}$ ，患者主观感觉及 Epworth 嗜睡量表（Epworth sleepiness scale，ESS）评分均显示嗜睡症状明显改善。MWT 和多次小睡潜伏期试验（multiple sleep latency test，MSLT）客观地发现莫达非尼改善 EDS；夜间 PSG 显示莫达非尼不影响夜间睡眠的启动、维持、睡眠结构及睡眠质量。这个治疗小组又研究了已经接受莫达非尼治疗的患者停药后的反应。他们发现停药后患者又出现了 EDS，但停药后不产生戒断症状。SCHWARTZ 等 $^{[15]}$ 研究了莫达非尼不同剂量及不同给药时间对傍晚嗜睡的影响。32 例患者随机分成莫达非尼 200 mg qd、400 mg qd、200 mg bid 三组，发现 200 mg bid 组比前 2 组对维持傍晚觉醒效果明显，400 mg qd 组较 200 mg qd 组疗效佳。进一步研究 $^{[16]}$ 发现莫达非尼能改善 NRL 患者的执行功能。"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "SSRI类药物",
+        "canonical_name": "SSRI类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氟西汀",
+        "canonical_name": "氟西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "抗利尿激素分泌异常综合征",
+        "canonical_name": "抗利尿激素分泌异常综合征",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "抑郁症",
+        "canonical_name": "抑郁症",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡.pdf",
+          "chunk_index": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡:7",
+          "raw_text": "六种SSRI类药物诱发的不良反应98例，其中氟西汀引起的不良反应最多",
+          "chunk_id": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡:7",
+          "data": "结果：六种SSRI类药物诱发的不良反应98例，其中氟西汀引起的不良反应最多，抗利尿激素分泌异常综合征(SIADH)是最常见的不良反应，同时也会出现少见的不良反应。结论：临床应重视SSRI类药物的严重不良反应及药物的相互作用，以确保用药安全。Analysis of SSRI-induced Adverse Reaction and Drug Interaction\nChen fan, Gao Zhongyang (first central hospital of tianjin, Tianjin, 300192, China)ABSTRACT Objective: To understand the adverse reaction of SSRI, provide warning of the drug rational use. Method: The cases of ADR of SSRI were searched through CNKI and PubMeD from January, 2000 to August, 2006 and the interaction with other medications were as well. Result: The ADR of fluoxetine happened most, and SIADH was the main reaction in all the 98 cases, also there were some ADRs seldom appeared. Conclusion: It must attach attention to the serious ADR and drug interaction of SSRI so that the rational use of drugs can be assured.抑郁症是一种常见疾病,严重困扰患者的生活和工作,给家庭和社会带来沉重的负担。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡.pdf",
+          "chunk_index": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡:7",
+          "raw_text": "抗利尿激素分泌异常综合征(SIADH)是最常见的不良反应",
+          "chunk_id": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡:7",
+          "data": "结果：六种SSRI类药物诱发的不良反应98例，其中氟西汀引起的不良反应最多，抗利尿激素分泌异常综合征(SIADH)是最常见的不良反应，同时也会出现少见的不良反应。结论：临床应重视SSRI类药物的严重不良反应及药物的相互作用，以确保用药安全。Analysis of SSRI-induced Adverse Reaction and Drug Interaction\nChen fan, Gao Zhongyang (first central hospital of tianjin, Tianjin, 300192, China)ABSTRACT Objective: To understand the adverse reaction of SSRI, provide warning of the drug rational use. Method: The cases of ADR of SSRI were searched through CNKI and PubMeD from January, 2000 to August, 2006 and the interaction with other medications were as well. Result: The ADR of fluoxetine happened most, and SIADH was the main reaction in all the 98 cases, also there were some ADRs seldom appeared. Conclusion: It must attach attention to the serious ADR and drug interaction of SSRI so that the rational use of drugs can be assured.抑郁症是一种常见疾病,严重困扰患者的生活和工作,给家庭和社会带来沉重的负担。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡.pdf",
+          "chunk_index": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡:7",
+          "raw_text": "抑郁症是一种常见疾病",
+          "chunk_id": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡:7",
+          "data": "结果：六种SSRI类药物诱发的不良反应98例，其中氟西汀引起的不良反应最多，抗利尿激素分泌异常综合征(SIADH)是最常见的不良反应，同时也会出现少见的不良反应。结论：临床应重视SSRI类药物的严重不良反应及药物的相互作用，以确保用药安全。Analysis of SSRI-induced Adverse Reaction and Drug Interaction\nChen fan, Gao Zhongyang (first central hospital of tianjin, Tianjin, 300192, China)ABSTRACT Objective: To understand the adverse reaction of SSRI, provide warning of the drug rational use. Method: The cases of ADR of SSRI were searched through CNKI and PubMeD from January, 2000 to August, 2006 and the interaction with other medications were as well. Result: The ADR of fluoxetine happened most, and SIADH was the main reaction in all the 98 cases, also there were some ADRs seldom appeared. Conclusion: It must attach attention to the serious ADR and drug interaction of SSRI so that the rational use of drugs can be assured.抑郁症是一种常见疾病,严重困扰患者的生活和工作,给家庭和社会带来沉重的负担。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡:7",
+    "source": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡.pdf",
+    "text": "结果：六种SSRI类药物诱发的不良反应98例，其中氟西汀引起的不良反应最多，抗利尿激素分泌异常综合征(SIADH)是最常见的不良反应，同时也会出现少见的不良反应。结论：临床应重视SSRI类药物的严重不良反应及药物的相互作用，以确保用药安全。Analysis of SSRI-induced Adverse Reaction and Drug Interaction\nChen fan, Gao Zhongyang (first central hospital of tianjin, Tianjin, 300192, China)ABSTRACT Objective: To understand the adverse reaction of SSRI, provide warning of the drug rational use. Method: The cases of ADR of SSRI were searched through CNKI and PubMeD from January, 2000 to August, 2006 and the interaction with other medications were as well. Result: The ADR of fluoxetine happened most, and SIADH was the main reaction in all the 98 cases, also there were some ADRs seldom appeared. Conclusion: It must attach attention to the serious ADR and drug interaction of SSRI so that the rational use of drugs can be assured.抑郁症是一种常见疾病,严重困扰患者的生活和工作,给家庭和社会带来沉重的负担。"
+  }
+]

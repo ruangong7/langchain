@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Siponimod",
+        "canonical_name": "Siponimod",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "CYP2C9*1/*1",
+        "canonical_name": "CYP2C9*1/*1",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP2C9*2/*3",
+        "canonical_name": "CYP2C9*2/*3",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "CYP2C9*3/*3",
+        "canonical_name": "CYP2C9*3/*3",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:3",
+          "raw_text": "Siponimod 的AUC 大约高 2 ～4 倍，Cmax 相对于 CYP2C9*1/*1 基因型略微增加 。与 CYP2C9*1/*1( 28 h) 基因型相比，CYP2C9*2/*3( 51 h) 和 CYP2C9*3/*3( 126 h) 基因型的平均 T1/2 延长 。",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:3",
+          "data": "\\* 3 /\\* 3 基因型的受试者中，Siponimod 的AUC 大约高 2 ～4 倍， $\\mathbf { , C } _ { \\mathrm { m a x } }$ 相对于 CYP2C9\\* 1 /\\* 1 基因型略微增加 。与 CYP2C9\\* 1 /\\* 1( 28 h) 基因型相比，CYP2C9\\* 2 /\\*3( 51 h) 和 CYP2C9\\* 3 /\\* 3( 126 h) 基因型的平均 $\\mathrm { T } _ { 1 / 2 }$ 延长 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:3",
+          "raw_text": "Siponimod 的AUC 大约高 2 ～4 倍，Cmax 相对于 CYP2C9*1/*1 基因型略微增加 。与 CYP2C9*1/*1( 28 h) 基因型相比，CYP2C9*2/*3( 51 h) 和 CYP2C9*3/*3( 126 h) 基因型的平均 T1/2 延长 。",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:3",
+          "data": "\\* 3 /\\* 3 基因型的受试者中，Siponimod 的AUC 大约高 2 ～4 倍， $\\mathbf { , C } _ { \\mathrm { m a x } }$ 相对于 CYP2C9\\* 1 /\\* 1 基因型略微增加 。与 CYP2C9\\* 1 /\\* 1( 28 h) 基因型相比，CYP2C9\\* 2 /\\*3( 51 h) 和 CYP2C9\\* 3 /\\* 3( 126 h) 基因型的平均 $\\mathrm { T } _ { 1 / 2 }$ 延长 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:3",
+          "raw_text": "Siponimod 的AUC 大约高 2 ～4 倍，Cmax 相对于 CYP2C9*1/*1 基因型略微增加 。与 CYP2C9*1/*1( 28 h) 基因型相比，CYP2C9*2/*3( 51 h) 和 CYP2C9*3/*3( 126 h) 基因型的平均 T1/2 延长 。",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:3",
+          "data": "\\* 3 /\\* 3 基因型的受试者中，Siponimod 的AUC 大约高 2 ～4 倍， $\\mathbf { , C } _ { \\mathrm { m a x } }$ 相对于 CYP2C9\\* 1 /\\* 1 基因型略微增加 。与 CYP2C9\\* 1 /\\* 1( 28 h) 基因型相比，CYP2C9\\* 2 /\\*3( 51 h) 和 CYP2C9\\* 3 /\\* 3( 126 h) 基因型的平均 $\\mathrm { T } _ { 1 / 2 }$ 延长 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:3",
+    "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+    "text": "\\* 3 /\\* 3 基因型的受试者中，Siponimod 的AUC 大约高 2 ～4 倍， $\\mathbf { , C } _ { \\mathrm { m a x } }$ 相对于 CYP2C9\\* 1 /\\* 1 基因型略微增加 。与 CYP2C9\\* 1 /\\* 1( 28 h) 基因型相比，CYP2C9\\* 2 /\\*3( 51 h) 和 CYP2C9\\* 3 /\\* 3( 126 h) 基因型的平均 $\\mathrm { T } _ { 1 / 2 }$ 延长 。"
+  }
+]

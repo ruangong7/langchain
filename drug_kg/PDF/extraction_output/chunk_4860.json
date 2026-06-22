@@ -1,0 +1,162 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "保钾利尿剂",
+        "canonical_name": "保钾利尿剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "高钾血症",
+        "canonical_name": "高钾血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "他克莫司血药浓度",
+        "canonical_name": "他克莫司血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "肝功能",
+        "canonical_name": "肝功能",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "肾功能",
+        "canonical_name": "肾功能",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "电解质",
+        "canonical_name": "电解质",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙.pdf",
+          "chunk_index": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙:1",
+          "raw_text": "The concentration of tacrolimus was elevated after addition of voriconazole",
+          "mechanism": "伏立康唑升高他克莫司血药浓度",
+          "consequence": "增加高钾血症风险",
+          "chunk_id": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙:1",
+          "data": "long 1 ，WEI Li-na 2 ，L Wen-wen1\\* ( 1. Department of Pharmacy，Binzhou Medical University Hospital，Binzhou 256603，China;2. Department of Pharmacy，Affiliated Hospital of Qingdao University，Qingdao 266034，China)［Abstract］ Objective To investigate the clinical characteristics and treatment of hyperkalemia caused by tacrolimus after liver transplantation． Methods Clinical data of one patient diagnosed with hyperkalemia induced by tacrolimus following liver transplantation were collected and retrospectively analyzed． Results The concentration of tacrolimus was elevated after addition of voriconazole，and the risk of hyperkalemia was increased when potassium-sparing diuretics was used． Conclusion Tacrolimus blood concentration，liver and kidney function，as well as electrolytes should be closely monitored after voriconazole is used． Moreover，the dose of tacrolimus should be adjusted timely and try to avoid combination use of drugs that induce hyperkalemia．"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙.pdf",
+          "chunk_index": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙:1",
+          "raw_text": "the risk of hyperkalemia was increased when potassium-sparing diuretics was used",
+          "consequence": "增加高钾血症风险",
+          "chunk_id": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙:1",
+          "data": "long 1 ，WEI Li-na 2 ，L Wen-wen1\\* ( 1. Department of Pharmacy，Binzhou Medical University Hospital，Binzhou 256603，China;2. Department of Pharmacy，Affiliated Hospital of Qingdao University，Qingdao 266034，China)［Abstract］ Objective To investigate the clinical characteristics and treatment of hyperkalemia caused by tacrolimus after liver transplantation． Methods Clinical data of one patient diagnosed with hyperkalemia induced by tacrolimus following liver transplantation were collected and retrospectively analyzed． Results The concentration of tacrolimus was elevated after addition of voriconazole，and the risk of hyperkalemia was increased when potassium-sparing diuretics was used． Conclusion Tacrolimus blood concentration，liver and kidney function，as well as electrolytes should be closely monitored after voriconazole is used． Moreover，the dose of tacrolimus should be adjusted timely and try to avoid combination use of drugs that induce hyperkalemia．"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙.pdf",
+          "chunk_index": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙:1",
+          "raw_text": "hyperkalemia caused by tacrolimus after liver transplantation",
+          "chunk_id": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙:1",
+          "data": "long 1 ，WEI Li-na 2 ，L Wen-wen1\\* ( 1. Department of Pharmacy，Binzhou Medical University Hospital，Binzhou 256603，China;2. Department of Pharmacy，Affiliated Hospital of Qingdao University，Qingdao 266034，China)［Abstract］ Objective To investigate the clinical characteristics and treatment of hyperkalemia caused by tacrolimus after liver transplantation． Methods Clinical data of one patient diagnosed with hyperkalemia induced by tacrolimus following liver transplantation were collected and retrospectively analyzed． Results The concentration of tacrolimus was elevated after addition of voriconazole，and the risk of hyperkalemia was increased when potassium-sparing diuretics was used． Conclusion Tacrolimus blood concentration，liver and kidney function，as well as electrolytes should be closely monitored after voriconazole is used． Moreover，the dose of tacrolimus should be adjusted timely and try to avoid combination use of drugs that induce hyperkalemia．"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙.pdf",
+          "chunk_index": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙:1",
+          "raw_text": "Tacrolimus blood concentration ... should be closely monitored",
+          "chunk_id": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙:1",
+          "data": "long 1 ，WEI Li-na 2 ，L Wen-wen1\\* ( 1. Department of Pharmacy，Binzhou Medical University Hospital，Binzhou 256603，China;2. Department of Pharmacy，Affiliated Hospital of Qingdao University，Qingdao 266034，China)［Abstract］ Objective To investigate the clinical characteristics and treatment of hyperkalemia caused by tacrolimus after liver transplantation． Methods Clinical data of one patient diagnosed with hyperkalemia induced by tacrolimus following liver transplantation were collected and retrospectively analyzed． Results The concentration of tacrolimus was elevated after addition of voriconazole，and the risk of hyperkalemia was increased when potassium-sparing diuretics was used． Conclusion Tacrolimus blood concentration，liver and kidney function，as well as electrolytes should be closely monitored after voriconazole is used． Moreover，the dose of tacrolimus should be adjusted timely and try to avoid combination use of drugs that induce hyperkalemia．"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙.pdf",
+          "chunk_index": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙:1",
+          "raw_text": "liver and kidney function, as well as electrolytes should be closely monitored",
+          "chunk_id": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙:1",
+          "data": "long 1 ，WEI Li-na 2 ，L Wen-wen1\\* ( 1. Department of Pharmacy，Binzhou Medical University Hospital，Binzhou 256603，China;2. Department of Pharmacy，Affiliated Hospital of Qingdao University，Qingdao 266034，China)［Abstract］ Objective To investigate the clinical characteristics and treatment of hyperkalemia caused by tacrolimus after liver transplantation． Methods Clinical data of one patient diagnosed with hyperkalemia induced by tacrolimus following liver transplantation were collected and retrospectively analyzed． Results The concentration of tacrolimus was elevated after addition of voriconazole，and the risk of hyperkalemia was increased when potassium-sparing diuretics was used． Conclusion Tacrolimus blood concentration，liver and kidney function，as well as electrolytes should be closely monitored after voriconazole is used． Moreover，the dose of tacrolimus should be adjusted timely and try to avoid combination use of drugs that induce hyperkalemia．"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙.pdf",
+          "chunk_index": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙:1",
+          "raw_text": "liver and kidney function, as well as electrolytes should be closely monitored",
+          "chunk_id": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙:1",
+          "data": "long 1 ，WEI Li-na 2 ，L Wen-wen1\\* ( 1. Department of Pharmacy，Binzhou Medical University Hospital，Binzhou 256603，China;2. Department of Pharmacy，Affiliated Hospital of Qingdao University，Qingdao 266034，China)［Abstract］ Objective To investigate the clinical characteristics and treatment of hyperkalemia caused by tacrolimus after liver transplantation． Methods Clinical data of one patient diagnosed with hyperkalemia induced by tacrolimus following liver transplantation were collected and retrospectively analyzed． Results The concentration of tacrolimus was elevated after addition of voriconazole，and the risk of hyperkalemia was increased when potassium-sparing diuretics was used． Conclusion Tacrolimus blood concentration，liver and kidney function，as well as electrolytes should be closely monitored after voriconazole is used． Moreover，the dose of tacrolimus should be adjusted timely and try to avoid combination use of drugs that induce hyperkalemia．"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙.pdf",
+          "chunk_index": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙:1",
+          "raw_text": "liver and kidney function, as well as electrolytes should be closely monitored",
+          "chunk_id": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙:1",
+          "data": "long 1 ，WEI Li-na 2 ，L Wen-wen1\\* ( 1. Department of Pharmacy，Binzhou Medical University Hospital，Binzhou 256603，China;2. Department of Pharmacy，Affiliated Hospital of Qingdao University，Qingdao 266034，China)［Abstract］ Objective To investigate the clinical characteristics and treatment of hyperkalemia caused by tacrolimus after liver transplantation． Methods Clinical data of one patient diagnosed with hyperkalemia induced by tacrolimus following liver transplantation were collected and retrospectively analyzed． Results The concentration of tacrolimus was elevated after addition of voriconazole，and the risk of hyperkalemia was increased when potassium-sparing diuretics was used． Conclusion Tacrolimus blood concentration，liver and kidney function，as well as electrolytes should be closely monitored after voriconazole is used． Moreover，the dose of tacrolimus should be adjusted timely and try to avoid combination use of drugs that induce hyperkalemia．"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙:1",
+    "source": "肝移植术后他克莫司药物相互作用致高钾血症一例_周肖龙.pdf",
+    "text": "long 1 ，WEI Li-na 2 ，L Wen-wen1\\* ( 1. Department of Pharmacy，Binzhou Medical University Hospital，Binzhou 256603，China;2. Department of Pharmacy，Affiliated Hospital of Qingdao University，Qingdao 266034，China)［Abstract］ Objective To investigate the clinical characteristics and treatment of hyperkalemia caused by tacrolimus after liver transplantation． Methods Clinical data of one patient diagnosed with hyperkalemia induced by tacrolimus following liver transplantation were collected and retrospectively analyzed． Results The concentration of tacrolimus was elevated after addition of voriconazole，and the risk of hyperkalemia was increased when potassium-sparing diuretics was used． Conclusion Tacrolimus blood concentration，liver and kidney function，as well as electrolytes should be closely monitored after voriconazole is used． Moreover，the dose of tacrolimus should be adjusted timely and try to avoid combination use of drugs that induce hyperkalemia．"
+  }
+]

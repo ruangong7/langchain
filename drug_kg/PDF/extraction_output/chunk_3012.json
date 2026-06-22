@@ -1,0 +1,326 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "泼纳替尼",
+        "canonical_name": "泼纳替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "克唑替尼",
+        "canonical_name": "克唑替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "吉非替尼",
+        "canonical_name": "吉非替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "elacridar",
+        "canonical_name": "elacridar",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "环孢素A",
+        "canonical_name": "环孢素A",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "GF120918",
+        "canonical_name": "GF120918",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "罗丹明123",
+        "canonical_name": "罗丹明123",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "多柔比星",
+        "canonical_name": "多柔比星",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "米托蒽醌",
+        "canonical_name": "米托蒽醌",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "BCR-ABL抑制剂",
+        "canonical_name": "BCR-ABL抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "HGFR抑制剂",
+        "canonical_name": "HGFR抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "ALK抑制剂",
+        "canonical_name": "ALK抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "HER1/EGFR抑制剂",
+        "canonical_name": "HER1/EGFR抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Disease",
+        "name": "慢性粒细胞白血病",
+        "canonical_name": "慢性粒细胞白血病",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Disease",
+        "name": "非小细胞肺癌",
+        "canonical_name": "非小细胞肺癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "P-糖蛋白",
+        "canonical_name": "P-糖蛋白",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "BCRP",
+        "canonical_name": "BCRP",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "raw_text": "泼纳替尼为新型 BCR-ABL 抑制剂",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "data": "胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。泼纳替尼对高表达 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的 K562细胞的 $\\mathrm { I C } _ { 5 0 }$ 值与野生型相比升高了 2 倍证明泼纳替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外泼纳替尼也为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的抑制剂合用可增加其底物的在 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞上的摄取量[18]克唑替尼克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌 CHUAN 等[29]发现合用 elacridar 可显著提高克唑替尼的口服暴露量采用 Abcb1a/1b$\\left( - / - \\right) / \\mathrm { A b c g } 2 \\left( - / - \\right)$ 小鼠进行研究发现口服$5 \\ \\mathrm { m g \\cdot k g ^ { - 1 } }$ 克唑替尼的暴露量与野生型小鼠相比升高 2 倍脑组织中 24 h 分布量升高 40 倍高剂量组 $( 5 0 ~ \\mathrm { m g \\cdot k g ^ { - 1 } } )$ ） 口服暴露量与野生型小鼠相当提示在该剂量下肠道 $\\mathrm { P - \\mathrm { g p } }$ 出现饱和而 24 h 脑组织分布仍然升高 70 倍另外克唑替尼可以显著提高罗丹明 123 和多柔比星在 $\\mathrm { P - \\mathrm { g p } }$ 高表达细胞中的摄取量[30]吉非替尼吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌在亚裔人群中有效率较高 AGARWAL 等[19] 通过MDCK 细胞试验发现吉非替尼为"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "raw_text": "克唑替尼为 HGFR 和 ALK 的强效抑制剂",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "data": "胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。泼纳替尼对高表达 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的 K562细胞的 $\\mathrm { I C } _ { 5 0 }$ 值与野生型相比升高了 2 倍证明泼纳替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外泼纳替尼也为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的抑制剂合用可增加其底物的在 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞上的摄取量[18]克唑替尼克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌 CHUAN 等[29]发现合用 elacridar 可显著提高克唑替尼的口服暴露量采用 Abcb1a/1b$\\left( - / - \\right) / \\mathrm { A b c g } 2 \\left( - / - \\right)$ 小鼠进行研究发现口服$5 \\ \\mathrm { m g \\cdot k g ^ { - 1 } }$ 克唑替尼的暴露量与野生型小鼠相比升高 2 倍脑组织中 24 h 分布量升高 40 倍高剂量组 $( 5 0 ~ \\mathrm { m g \\cdot k g ^ { - 1 } } )$ ） 口服暴露量与野生型小鼠相当提示在该剂量下肠道 $\\mathrm { P - \\mathrm { g p } }$ 出现饱和而 24 h 脑组织分布仍然升高 70 倍另外克唑替尼可以显著提高罗丹明 123 和多柔比星在 $\\mathrm { P - \\mathrm { g p } }$ 高表达细胞中的摄取量[30]吉非替尼吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌在亚裔人群中有效率较高 AGARWAL 等[19] 通过MDCK 细胞试验发现吉非替尼为"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "raw_text": "克唑替尼为 HGFR 和 ALK 的强效抑制剂",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "data": "胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。泼纳替尼对高表达 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的 K562细胞的 $\\mathrm { I C } _ { 5 0 }$ 值与野生型相比升高了 2 倍证明泼纳替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外泼纳替尼也为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的抑制剂合用可增加其底物的在 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞上的摄取量[18]克唑替尼克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌 CHUAN 等[29]发现合用 elacridar 可显著提高克唑替尼的口服暴露量采用 Abcb1a/1b$\\left( - / - \\right) / \\mathrm { A b c g } 2 \\left( - / - \\right)$ 小鼠进行研究发现口服$5 \\ \\mathrm { m g \\cdot k g ^ { - 1 } }$ 克唑替尼的暴露量与野生型小鼠相比升高 2 倍脑组织中 24 h 分布量升高 40 倍高剂量组 $( 5 0 ~ \\mathrm { m g \\cdot k g ^ { - 1 } } )$ ） 口服暴露量与野生型小鼠相当提示在该剂量下肠道 $\\mathrm { P - \\mathrm { g p } }$ 出现饱和而 24 h 脑组织分布仍然升高 70 倍另外克唑替尼可以显著提高罗丹明 123 和多柔比星在 $\\mathrm { P - \\mathrm { g p } }$ 高表达细胞中的摄取量[30]吉非替尼吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌在亚裔人群中有效率较高 AGARWAL 等[19] 通过MDCK 细胞试验发现吉非替尼为"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "raw_text": "吉非替尼为 HER1/EGFR 的可逆抑制剂",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "data": "胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。泼纳替尼对高表达 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的 K562细胞的 $\\mathrm { I C } _ { 5 0 }$ 值与野生型相比升高了 2 倍证明泼纳替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外泼纳替尼也为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的抑制剂合用可增加其底物的在 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞上的摄取量[18]克唑替尼克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌 CHUAN 等[29]发现合用 elacridar 可显著提高克唑替尼的口服暴露量采用 Abcb1a/1b$\\left( - / - \\right) / \\mathrm { A b c g } 2 \\left( - / - \\right)$ 小鼠进行研究发现口服$5 \\ \\mathrm { m g \\cdot k g ^ { - 1 } }$ 克唑替尼的暴露量与野生型小鼠相比升高 2 倍脑组织中 24 h 分布量升高 40 倍高剂量组 $( 5 0 ~ \\mathrm { m g \\cdot k g ^ { - 1 } } )$ ） 口服暴露量与野生型小鼠相当提示在该剂量下肠道 $\\mathrm { P - \\mathrm { g p } }$ 出现饱和而 24 h 脑组织分布仍然升高 70 倍另外克唑替尼可以显著提高罗丹明 123 和多柔比星在 $\\mathrm { P - \\mathrm { g p } }$ 高表达细胞中的摄取量[30]吉非替尼吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌在亚裔人群中有效率较高 AGARWAL 等[19] 通过MDCK 细胞试验发现吉非替尼为"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "raw_text": "泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "data": "胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。泼纳替尼对高表达 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的 K562细胞的 $\\mathrm { I C } _ { 5 0 }$ 值与野生型相比升高了 2 倍证明泼纳替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外泼纳替尼也为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的抑制剂合用可增加其底物的在 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞上的摄取量[18]克唑替尼克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌 CHUAN 等[29]发现合用 elacridar 可显著提高克唑替尼的口服暴露量采用 Abcb1a/1b$\\left( - / - \\right) / \\mathrm { A b c g } 2 \\left( - / - \\right)$ 小鼠进行研究发现口服$5 \\ \\mathrm { m g \\cdot k g ^ { - 1 } }$ 克唑替尼的暴露量与野生型小鼠相比升高 2 倍脑组织中 24 h 分布量升高 40 倍高剂量组 $( 5 0 ~ \\mathrm { m g \\cdot k g ^ { - 1 } } )$ ） 口服暴露量与野生型小鼠相当提示在该剂量下肠道 $\\mathrm { P - \\mathrm { g p } }$ 出现饱和而 24 h 脑组织分布仍然升高 70 倍另外克唑替尼可以显著提高罗丹明 123 和多柔比星在 $\\mathrm { P - \\mathrm { g p } }$ 高表达细胞中的摄取量[30]吉非替尼吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌在亚裔人群中有效率较高 AGARWAL 等[19] 通过MDCK 细胞试验发现吉非替尼为"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "raw_text": "克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "data": "胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。泼纳替尼对高表达 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的 K562细胞的 $\\mathrm { I C } _ { 5 0 }$ 值与野生型相比升高了 2 倍证明泼纳替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外泼纳替尼也为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的抑制剂合用可增加其底物的在 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞上的摄取量[18]克唑替尼克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌 CHUAN 等[29]发现合用 elacridar 可显著提高克唑替尼的口服暴露量采用 Abcb1a/1b$\\left( - / - \\right) / \\mathrm { A b c g } 2 \\left( - / - \\right)$ 小鼠进行研究发现口服$5 \\ \\mathrm { m g \\cdot k g ^ { - 1 } }$ 克唑替尼的暴露量与野生型小鼠相比升高 2 倍脑组织中 24 h 分布量升高 40 倍高剂量组 $( 5 0 ~ \\mathrm { m g \\cdot k g ^ { - 1 } } )$ ） 口服暴露量与野生型小鼠相当提示在该剂量下肠道 $\\mathrm { P - \\mathrm { g p } }$ 出现饱和而 24 h 脑组织分布仍然升高 70 倍另外克唑替尼可以显著提高罗丹明 123 和多柔比星在 $\\mathrm { P - \\mathrm { g p } }$ 高表达细胞中的摄取量[30]吉非替尼吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌在亚裔人群中有效率较高 AGARWAL 等[19] 通过MDCK 细胞试验发现吉非替尼为"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "raw_text": "吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "data": "胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。泼纳替尼对高表达 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的 K562细胞的 $\\mathrm { I C } _ { 5 0 }$ 值与野生型相比升高了 2 倍证明泼纳替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外泼纳替尼也为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的抑制剂合用可增加其底物的在 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞上的摄取量[18]克唑替尼克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌 CHUAN 等[29]发现合用 elacridar 可显著提高克唑替尼的口服暴露量采用 Abcb1a/1b$\\left( - / - \\right) / \\mathrm { A b c g } 2 \\left( - / - \\right)$ 小鼠进行研究发现口服$5 \\ \\mathrm { m g \\cdot k g ^ { - 1 } }$ 克唑替尼的暴露量与野生型小鼠相比升高 2 倍脑组织中 24 h 分布量升高 40 倍高剂量组 $( 5 0 ~ \\mathrm { m g \\cdot k g ^ { - 1 } } )$ ） 口服暴露量与野生型小鼠相当提示在该剂量下肠道 $\\mathrm { P - \\mathrm { g p } }$ 出现饱和而 24 h 脑组织分布仍然升高 70 倍另外克唑替尼可以显著提高罗丹明 123 和多柔比星在 $\\mathrm { P - \\mathrm { g p } }$ 高表达细胞中的摄取量[30]吉非替尼吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌在亚裔人群中有效率较高 AGARWAL 等[19] 通过MDCK 细胞试验发现吉非替尼为"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "raw_text": "泼纳替尼为 P-gp 和 BCRP 的底物",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "data": "胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。泼纳替尼对高表达 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的 K562细胞的 $\\mathrm { I C } _ { 5 0 }$ 值与野生型相比升高了 2 倍证明泼纳替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外泼纳替尼也为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的抑制剂合用可增加其底物的在 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞上的摄取量[18]克唑替尼克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌 CHUAN 等[29]发现合用 elacridar 可显著提高克唑替尼的口服暴露量采用 Abcb1a/1b$\\left( - / - \\right) / \\mathrm { A b c g } 2 \\left( - / - \\right)$ 小鼠进行研究发现口服$5 \\ \\mathrm { m g \\cdot k g ^ { - 1 } }$ 克唑替尼的暴露量与野生型小鼠相比升高 2 倍脑组织中 24 h 分布量升高 40 倍高剂量组 $( 5 0 ~ \\mathrm { m g \\cdot k g ^ { - 1 } } )$ ） 口服暴露量与野生型小鼠相当提示在该剂量下肠道 $\\mathrm { P - \\mathrm { g p } }$ 出现饱和而 24 h 脑组织分布仍然升高 70 倍另外克唑替尼可以显著提高罗丹明 123 和多柔比星在 $\\mathrm { P - \\mathrm { g p } }$ 高表达细胞中的摄取量[30]吉非替尼吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌在亚裔人群中有效率较高 AGARWAL 等[19] 通过MDCK 细胞试验发现吉非替尼为"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "raw_text": "泼纳替尼为 P-gp 和 BCRP 的底物",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "data": "胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。泼纳替尼对高表达 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的 K562细胞的 $\\mathrm { I C } _ { 5 0 }$ 值与野生型相比升高了 2 倍证明泼纳替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外泼纳替尼也为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的抑制剂合用可增加其底物的在 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞上的摄取量[18]克唑替尼克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌 CHUAN 等[29]发现合用 elacridar 可显著提高克唑替尼的口服暴露量采用 Abcb1a/1b$\\left( - / - \\right) / \\mathrm { A b c g } 2 \\left( - / - \\right)$ 小鼠进行研究发现口服$5 \\ \\mathrm { m g \\cdot k g ^ { - 1 } }$ 克唑替尼的暴露量与野生型小鼠相比升高 2 倍脑组织中 24 h 分布量升高 40 倍高剂量组 $( 5 0 ~ \\mathrm { m g \\cdot k g ^ { - 1 } } )$ ） 口服暴露量与野生型小鼠相当提示在该剂量下肠道 $\\mathrm { P - \\mathrm { g p } }$ 出现饱和而 24 h 脑组织分布仍然升高 70 倍另外克唑替尼可以显著提高罗丹明 123 和多柔比星在 $\\mathrm { P - \\mathrm { g p } }$ 高表达细胞中的摄取量[30]吉非替尼吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌在亚裔人群中有效率较高 AGARWAL 等[19] 通过MDCK 细胞试验发现吉非替尼为"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "raw_text": "合用 elacridar 可显著提高克唑替尼的口服暴露量",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "data": "胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。泼纳替尼对高表达 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的 K562细胞的 $\\mathrm { I C } _ { 5 0 }$ 值与野生型相比升高了 2 倍证明泼纳替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外泼纳替尼也为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的抑制剂合用可增加其底物的在 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞上的摄取量[18]克唑替尼克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌 CHUAN 等[29]发现合用 elacridar 可显著提高克唑替尼的口服暴露量采用 Abcb1a/1b$\\left( - / - \\right) / \\mathrm { A b c g } 2 \\left( - / - \\right)$ 小鼠进行研究发现口服$5 \\ \\mathrm { m g \\cdot k g ^ { - 1 } }$ 克唑替尼的暴露量与野生型小鼠相比升高 2 倍脑组织中 24 h 分布量升高 40 倍高剂量组 $( 5 0 ~ \\mathrm { m g \\cdot k g ^ { - 1 } } )$ ） 口服暴露量与野生型小鼠相当提示在该剂量下肠道 $\\mathrm { P - \\mathrm { g p } }$ 出现饱和而 24 h 脑组织分布仍然升高 70 倍另外克唑替尼可以显著提高罗丹明 123 和多柔比星在 $\\mathrm { P - \\mathrm { g p } }$ 高表达细胞中的摄取量[30]吉非替尼吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌在亚裔人群中有效率较高 AGARWAL 等[19] 通过MDCK 细胞试验发现吉非替尼为"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "raw_text": "合用 P-gp 抑制剂环孢素 A 或 P-gp/BCRP 双重抑制剂 GF120918 后吉非替尼的脑摄取量显著升高",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "data": "胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。泼纳替尼对高表达 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的 K562细胞的 $\\mathrm { I C } _ { 5 0 }$ 值与野生型相比升高了 2 倍证明泼纳替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外泼纳替尼也为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的抑制剂合用可增加其底物的在 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞上的摄取量[18]克唑替尼克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌 CHUAN 等[29]发现合用 elacridar 可显著提高克唑替尼的口服暴露量采用 Abcb1a/1b$\\left( - / - \\right) / \\mathrm { A b c g } 2 \\left( - / - \\right)$ 小鼠进行研究发现口服$5 \\ \\mathrm { m g \\cdot k g ^ { - 1 } }$ 克唑替尼的暴露量与野生型小鼠相比升高 2 倍脑组织中 24 h 分布量升高 40 倍高剂量组 $( 5 0 ~ \\mathrm { m g \\cdot k g ^ { - 1 } } )$ ） 口服暴露量与野生型小鼠相当提示在该剂量下肠道 $\\mathrm { P - \\mathrm { g p } }$ 出现饱和而 24 h 脑组织分布仍然升高 70 倍另外克唑替尼可以显著提高罗丹明 123 和多柔比星在 $\\mathrm { P - \\mathrm { g p } }$ 高表达细胞中的摄取量[30]吉非替尼吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌在亚裔人群中有效率较高 AGARWAL 等[19] 通过MDCK 细胞试验发现吉非替尼为"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "raw_text": "合用 P-gp 抑制剂环孢素 A 或 P-gp/BCRP 双重抑制剂 GF120918 后吉非替尼的脑摄取量显著升高",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "data": "胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。泼纳替尼对高表达 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的 K562细胞的 $\\mathrm { I C } _ { 5 0 }$ 值与野生型相比升高了 2 倍证明泼纳替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外泼纳替尼也为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的抑制剂合用可增加其底物的在 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞上的摄取量[18]克唑替尼克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌 CHUAN 等[29]发现合用 elacridar 可显著提高克唑替尼的口服暴露量采用 Abcb1a/1b$\\left( - / - \\right) / \\mathrm { A b c g } 2 \\left( - / - \\right)$ 小鼠进行研究发现口服$5 \\ \\mathrm { m g \\cdot k g ^ { - 1 } }$ 克唑替尼的暴露量与野生型小鼠相比升高 2 倍脑组织中 24 h 分布量升高 40 倍高剂量组 $( 5 0 ~ \\mathrm { m g \\cdot k g ^ { - 1 } } )$ ） 口服暴露量与野生型小鼠相当提示在该剂量下肠道 $\\mathrm { P - \\mathrm { g p } }$ 出现饱和而 24 h 脑组织分布仍然升高 70 倍另外克唑替尼可以显著提高罗丹明 123 和多柔比星在 $\\mathrm { P - \\mathrm { g p } }$ 高表达细胞中的摄取量[30]吉非替尼吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌在亚裔人群中有效率较高 AGARWAL 等[19] 通过MDCK 细胞试验发现吉非替尼为"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "raw_text": "克唑替尼可以显著提高罗丹明 123 和多柔比星在 P-gp 高表达细胞中的摄取量",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "data": "胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。泼纳替尼对高表达 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的 K562细胞的 $\\mathrm { I C } _ { 5 0 }$ 值与野生型相比升高了 2 倍证明泼纳替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外泼纳替尼也为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的抑制剂合用可增加其底物的在 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞上的摄取量[18]克唑替尼克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌 CHUAN 等[29]发现合用 elacridar 可显著提高克唑替尼的口服暴露量采用 Abcb1a/1b$\\left( - / - \\right) / \\mathrm { A b c g } 2 \\left( - / - \\right)$ 小鼠进行研究发现口服$5 \\ \\mathrm { m g \\cdot k g ^ { - 1 } }$ 克唑替尼的暴露量与野生型小鼠相比升高 2 倍脑组织中 24 h 分布量升高 40 倍高剂量组 $( 5 0 ~ \\mathrm { m g \\cdot k g ^ { - 1 } } )$ ） 口服暴露量与野生型小鼠相当提示在该剂量下肠道 $\\mathrm { P - \\mathrm { g p } }$ 出现饱和而 24 h 脑组织分布仍然升高 70 倍另外克唑替尼可以显著提高罗丹明 123 和多柔比星在 $\\mathrm { P - \\mathrm { g p } }$ 高表达细胞中的摄取量[30]吉非替尼吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌在亚裔人群中有效率较高 AGARWAL 等[19] 通过MDCK 细胞试验发现吉非替尼为"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "raw_text": "克唑替尼可以显著提高罗丹明 123 和多柔比星在 P-gp 高表达细胞中的摄取量",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "data": "胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。泼纳替尼对高表达 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的 K562细胞的 $\\mathrm { I C } _ { 5 0 }$ 值与野生型相比升高了 2 倍证明泼纳替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外泼纳替尼也为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的抑制剂合用可增加其底物的在 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞上的摄取量[18]克唑替尼克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌 CHUAN 等[29]发现合用 elacridar 可显著提高克唑替尼的口服暴露量采用 Abcb1a/1b$\\left( - / - \\right) / \\mathrm { A b c g } 2 \\left( - / - \\right)$ 小鼠进行研究发现口服$5 \\ \\mathrm { m g \\cdot k g ^ { - 1 } }$ 克唑替尼的暴露量与野生型小鼠相比升高 2 倍脑组织中 24 h 分布量升高 40 倍高剂量组 $( 5 0 ~ \\mathrm { m g \\cdot k g ^ { - 1 } } )$ ） 口服暴露量与野生型小鼠相当提示在该剂量下肠道 $\\mathrm { P - \\mathrm { g p } }$ 出现饱和而 24 h 脑组织分布仍然升高 70 倍另外克唑替尼可以显著提高罗丹明 123 和多柔比星在 $\\mathrm { P - \\mathrm { g p } }$ 高表达细胞中的摄取量[30]吉非替尼吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌在亚裔人群中有效率较高 AGARWAL 等[19] 通过MDCK 细胞试验发现吉非替尼为"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_17",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "raw_text": "BCRP 介导的米托蒽醌在 HEK293 细胞上的外排",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+          "data": "胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。泼纳替尼对高表达 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的 K562细胞的 $\\mathrm { I C } _ { 5 0 }$ 值与野生型相比升高了 2 倍证明泼纳替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外泼纳替尼也为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的抑制剂合用可增加其底物的在 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞上的摄取量[18]克唑替尼克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌 CHUAN 等[29]发现合用 elacridar 可显著提高克唑替尼的口服暴露量采用 Abcb1a/1b$\\left( - / - \\right) / \\mathrm { A b c g } 2 \\left( - / - \\right)$ 小鼠进行研究发现口服$5 \\ \\mathrm { m g \\cdot k g ^ { - 1 } }$ 克唑替尼的暴露量与野生型小鼠相比升高 2 倍脑组织中 24 h 分布量升高 40 倍高剂量组 $( 5 0 ~ \\mathrm { m g \\cdot k g ^ { - 1 } } )$ ） 口服暴露量与野生型小鼠相当提示在该剂量下肠道 $\\mathrm { P - \\mathrm { g p } }$ 出现饱和而 24 h 脑组织分布仍然升高 70 倍另外克唑替尼可以显著提高罗丹明 123 和多柔比星在 $\\mathrm { P - \\mathrm { g p } }$ 高表达细胞中的摄取量[30]吉非替尼吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌在亚裔人群中有效率较高 AGARWAL 等[19] 通过MDCK 细胞试验发现吉非替尼为"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:6",
+    "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+    "text": "胞上的外排以及 BCRP 介导的米托蒽醌在 HEK293 细胞上的外排[28]泼纳替尼泼纳替尼为新型 BCR-ABL 抑制剂对包括 T315I 在内的一系列突变株有效 2012 年由FDA 批准作为三线药物治疗其他 TKIs 耐药的CML。泼纳替尼对高表达 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的 K562细胞的 $\\mathrm { I C } _ { 5 0 }$ 值与野生型相比升高了 2 倍证明泼纳替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外泼纳替尼也为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的抑制剂合用可增加其底物的在 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞上的摄取量[18]克唑替尼克唑替尼为 HGFR 和 ALK 的强效抑制剂 2011 年由 FDA 批准用于治疗 ALK 阳性的非小细胞肺癌 CHUAN 等[29]发现合用 elacridar 可显著提高克唑替尼的口服暴露量采用 Abcb1a/1b$\\left( - / - \\right) / \\mathrm { A b c g } 2 \\left( - / - \\right)$ 小鼠进行研究发现口服$5 \\ \\mathrm { m g \\cdot k g ^ { - 1 } }$ 克唑替尼的暴露量与野生型小鼠相比升高 2 倍脑组织中 24 h 分布量升高 40 倍高剂量组 $( 5 0 ~ \\mathrm { m g \\cdot k g ^ { - 1 } } )$ ） 口服暴露量与野生型小鼠相当提示在该剂量下肠道 $\\mathrm { P - \\mathrm { g p } }$ 出现饱和而 24 h 脑组织分布仍然升高 70 倍另外克唑替尼可以显著提高罗丹明 123 和多柔比星在 $\\mathrm { P - \\mathrm { g p } }$ 高表达细胞中的摄取量[30]吉非替尼吉非替尼为 HER1/EGFR 的可逆抑制剂 2002 年首次于日本上市 2003 年 5 月在美国获准作为三线药物用于治疗晚期非小细胞肺癌在亚裔人群中有效率较高 AGARWAL 等[19] 通过MDCK 细胞试验发现吉非替尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP的底物合用 $\\mathrm { P - \\mathrm { g p } }$ 抑制剂环孢素 A 或 $\\mathrm { P - g p / B C R P }$ 双重抑制剂 GF120918 后吉非替尼的脑摄取量显著升高在 Abc1a/1b （ -/- ） /Abcg2 （ -/- ） 小鼠体内吉非替尼的脑摄取量与野生型小鼠相比升高了 8 倍[20] 。"
+  }
+]

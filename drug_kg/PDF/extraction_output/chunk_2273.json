@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "伏立康唑血药浓度",
+        "canonical_name": "伏立康唑血药浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于伏立康唑血药浓度监测成功干预药物相互作用3例_余静洁.pdf",
+          "chunk_index": "基于伏立康唑血药浓度监测成功干预药物相互作用3例_余静洁:12",
+          "raw_text": "combination of voriconazole and rifampin should be avoided",
+          "chunk_id": "基于伏立康唑血药浓度监测成功干预药物相互作用3例_余静洁:12",
+          "data": "pted．For these patients，combination of voriconazole and rifampin should be avoided．血液肿瘤是一类可侵袭及转移至全身进而导致死亡、严重威胁人类健康的恶性疾病。治疗此类疾病需长期反复使用化疗药物或免疫抑制药等易引发多种并发症治疗复杂，联合用药较多，易产生药物相互作用。既往临床药师对于鉴别有临床意义的药物相互作用缺乏客观依据，干预成功率较低。随着血药浓度监测( therapeutic drug monitoring，TDM) 及基因检测等手段在医疗机构的推广应用，临床药师可借助多种技术手段实施药学服务。华中科技大学同济医学院附属同济医院药学部建立了基于液质联用技术的伏立康唑 TDM 方法，通过对血液内科 3 例伏立康唑与利福平联用患者的持续监护及干预，揭示了两药相互作用的严重程度，为临床治疗决策提供了客观参考。次提出药物调整建议，临床仍未予采纳，考虑口服吸收差，改为静脉滴注伏立康唑 $\\left( \\ 2 0 0 \\ \\mathrm { m g } , \\mathrm { q } 1 2 \\mathrm { h } \\right)$ 。1 周后复查血药浓度结果为 $0 . 0 2 ~ \\mu \\mathrm { g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，仍远低于有效血药浓度范围( $1 . 5 \\sim 5 . 5 ~ \\mu \\mathrm { g } \\cdot \\mathrm { m L } ^ { - 1 } )$ 。临床医师综合考虑患者化疗后深度粒缺期真菌和结核感染风险后，停用利福平，继续乙胺丁醇及异烟肼二联抗结核治疗。患者该化疗周期无异常，利福平停药 3 d 后伏立康唑浓度$0 . 9 1 ~ \\mu \\mathrm { g } \\cdot \\mathrm { m L } ^ { - 1 }$ 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于伏立康唑血药浓度监测成功干预药物相互作用3例_余静洁.pdf",
+          "chunk_index": "基于伏立康唑血药浓度监测成功干预药物相互作用3例_余静洁:12",
+          "raw_text": "基于伏立康唑血药浓度监测成功干预药物相互作用3例",
+          "chunk_id": "基于伏立康唑血药浓度监测成功干预药物相互作用3例_余静洁:12",
+          "data": "pted．For these patients，combination of voriconazole and rifampin should be avoided．血液肿瘤是一类可侵袭及转移至全身进而导致死亡、严重威胁人类健康的恶性疾病。治疗此类疾病需长期反复使用化疗药物或免疫抑制药等易引发多种并发症治疗复杂，联合用药较多，易产生药物相互作用。既往临床药师对于鉴别有临床意义的药物相互作用缺乏客观依据，干预成功率较低。随着血药浓度监测( therapeutic drug monitoring，TDM) 及基因检测等手段在医疗机构的推广应用，临床药师可借助多种技术手段实施药学服务。华中科技大学同济医学院附属同济医院药学部建立了基于液质联用技术的伏立康唑 TDM 方法，通过对血液内科 3 例伏立康唑与利福平联用患者的持续监护及干预，揭示了两药相互作用的严重程度，为临床治疗决策提供了客观参考。次提出药物调整建议，临床仍未予采纳，考虑口服吸收差，改为静脉滴注伏立康唑 $\\left( \\ 2 0 0 \\ \\mathrm { m g } , \\mathrm { q } 1 2 \\mathrm { h } \\right)$ 。1 周后复查血药浓度结果为 $0 . 0 2 ~ \\mu \\mathrm { g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，仍远低于有效血药浓度范围( $1 . 5 \\sim 5 . 5 ~ \\mu \\mathrm { g } \\cdot \\mathrm { m L } ^ { - 1 } )$ 。临床医师综合考虑患者化疗后深度粒缺期真菌和结核感染风险后，停用利福平，继续乙胺丁醇及异烟肼二联抗结核治疗。患者该化疗周期无异常，利福平停药 3 d 后伏立康唑浓度$0 . 9 1 ~ \\mu \\mathrm { g } \\cdot \\mathrm { m L } ^ { - 1 }$ 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于伏立康唑血药浓度监测成功干预药物相互作用3例_余静洁:12",
+    "source": "基于伏立康唑血药浓度监测成功干预药物相互作用3例_余静洁.pdf",
+    "text": "pted．For these patients，combination of voriconazole and rifampin should be avoided．血液肿瘤是一类可侵袭及转移至全身进而导致死亡、严重威胁人类健康的恶性疾病。治疗此类疾病需长期反复使用化疗药物或免疫抑制药等易引发多种并发症治疗复杂，联合用药较多，易产生药物相互作用。既往临床药师对于鉴别有临床意义的药物相互作用缺乏客观依据，干预成功率较低。随着血药浓度监测( therapeutic drug monitoring，TDM) 及基因检测等手段在医疗机构的推广应用，临床药师可借助多种技术手段实施药学服务。华中科技大学同济医学院附属同济医院药学部建立了基于液质联用技术的伏立康唑 TDM 方法，通过对血液内科 3 例伏立康唑与利福平联用患者的持续监护及干预，揭示了两药相互作用的严重程度，为临床治疗决策提供了客观参考。次提出药物调整建议，临床仍未予采纳，考虑口服吸收差，改为静脉滴注伏立康唑 $\\left( \\ 2 0 0 \\ \\mathrm { m g } , \\mathrm { q } 1 2 \\mathrm { h } \\right)$ 。1 周后复查血药浓度结果为 $0 . 0 2 ~ \\mu \\mathrm { g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，仍远低于有效血药浓度范围( $1 . 5 \\sim 5 . 5 ~ \\mu \\mathrm { g } \\cdot \\mathrm { m L } ^ { - 1 } )$ 。临床医师综合考虑患者化疗后深度粒缺期真菌和结核感染风险后，停用利福平，继续乙胺丁醇及异烟肼二联抗结核治疗。患者该化疗周期无异常，利福平停药 3 d 后伏立康唑浓度$0 . 9 1 ~ \\mu \\mathrm { g } \\cdot \\mathrm { m L } ^ { - 1 }$ 。"
+  }
+]

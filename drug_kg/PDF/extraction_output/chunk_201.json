@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "胺碘酮",
+        "canonical_name": "胺碘酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Indicator",
+        "name": "INR",
+        "canonical_name": "INR",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "出血",
+        "canonical_name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "皮疹",
+        "canonical_name": "皮疹",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "胃肠道不适",
+        "canonical_name": "胃肠道不适",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏.pdf",
+          "chunk_index": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏:1",
+          "raw_text": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究",
+          "chunk_id": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏:1",
+          "data": "1. 3 资料采集\n中国药学杂志2013 年12 月第48 卷第24 期时的华法林剂量或 INR 值虽然不在目标范围但连续3 次检测结果稳定且临床不再调整华法林剂量。稳定期 INR 值( INR value during stable dosage) 定义为华法林稳定剂量时的患者 INR 值。 华法林出血事件定义为用药期间观察到的一般性岀血、皮疹、胃肠道不适、严重岀血反应等事件。\nChin Pharm J，2013 December，Vol. 48 No. 24患者稳定期 INR 值为 1. 88 ± 0. 63，华法林稳定剂量为( 2. 58 ± 0. 96) mg · d － 1 。 45. 9% ( n = 95 )的患者稳定期 INR 值在目标治疗范围内( 2. 0 ～3. 0) ，43. 9% ( N = 91) 的患者低于目标范围，5. 3%( n = 11) 高于目标范围 。 患者 VKORC1 和 CYP2C9的基因型分布如下: 4 例患者 VKORC1-1639GG，20例为 VKORC1-1639GA，183 例为 VKORC1: 1639AA 。189 例患者为 CYP2C9\\* 1\\* 1 和 18 例为 CYP2C9\\*1\\* 3 。 未发现 CYP2C9 \\* 3 \\* 3 基因学患者，未发现等位基因 CYP2C9\\* 2 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏.pdf",
+          "chunk_index": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏:1",
+          "raw_text": "稳定期 INR 值( INR value during stable dosage) 定义为华法林稳定剂量时的患者 INR 值。",
+          "chunk_id": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏:1",
+          "data": "1. 3 资料采集\n中国药学杂志2013 年12 月第48 卷第24 期时的华法林剂量或 INR 值虽然不在目标范围但连续3 次检测结果稳定且临床不再调整华法林剂量。稳定期 INR 值( INR value during stable dosage) 定义为华法林稳定剂量时的患者 INR 值。 华法林出血事件定义为用药期间观察到的一般性岀血、皮疹、胃肠道不适、严重岀血反应等事件。\nChin Pharm J，2013 December，Vol. 48 No. 24患者稳定期 INR 值为 1. 88 ± 0. 63，华法林稳定剂量为( 2. 58 ± 0. 96) mg · d － 1 。 45. 9% ( n = 95 )的患者稳定期 INR 值在目标治疗范围内( 2. 0 ～3. 0) ，43. 9% ( N = 91) 的患者低于目标范围，5. 3%( n = 11) 高于目标范围 。 患者 VKORC1 和 CYP2C9的基因型分布如下: 4 例患者 VKORC1-1639GG，20例为 VKORC1-1639GA，183 例为 VKORC1: 1639AA 。189 例患者为 CYP2C9\\* 1\\* 1 和 18 例为 CYP2C9\\*1\\* 3 。 未发现 CYP2C9 \\* 3 \\* 3 基因学患者，未发现等位基因 CYP2C9\\* 2 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏.pdf",
+          "chunk_index": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏:1",
+          "raw_text": "华法林出血事件定义为用药期间观察到的一般性岀血、皮疹、胃肠道不适、严重岀血反应等事件。",
+          "chunk_id": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏:1",
+          "data": "1. 3 资料采集\n中国药学杂志2013 年12 月第48 卷第24 期时的华法林剂量或 INR 值虽然不在目标范围但连续3 次检测结果稳定且临床不再调整华法林剂量。稳定期 INR 值( INR value during stable dosage) 定义为华法林稳定剂量时的患者 INR 值。 华法林出血事件定义为用药期间观察到的一般性岀血、皮疹、胃肠道不适、严重岀血反应等事件。\nChin Pharm J，2013 December，Vol. 48 No. 24患者稳定期 INR 值为 1. 88 ± 0. 63，华法林稳定剂量为( 2. 58 ± 0. 96) mg · d － 1 。 45. 9% ( n = 95 )的患者稳定期 INR 值在目标治疗范围内( 2. 0 ～3. 0) ，43. 9% ( N = 91) 的患者低于目标范围，5. 3%( n = 11) 高于目标范围 。 患者 VKORC1 和 CYP2C9的基因型分布如下: 4 例患者 VKORC1-1639GG，20例为 VKORC1-1639GA，183 例为 VKORC1: 1639AA 。189 例患者为 CYP2C9\\* 1\\* 1 和 18 例为 CYP2C9\\*1\\* 3 。 未发现 CYP2C9 \\* 3 \\* 3 基因学患者，未发现等位基因 CYP2C9\\* 2 。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏.pdf",
+          "chunk_index": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏:1",
+          "raw_text": "华法林出血事件定义为用药期间观察到的一般性岀血、皮疹、胃肠道不适、严重岀血反应等事件。",
+          "chunk_id": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏:1",
+          "data": "1. 3 资料采集\n中国药学杂志2013 年12 月第48 卷第24 期时的华法林剂量或 INR 值虽然不在目标范围但连续3 次检测结果稳定且临床不再调整华法林剂量。稳定期 INR 值( INR value during stable dosage) 定义为华法林稳定剂量时的患者 INR 值。 华法林出血事件定义为用药期间观察到的一般性岀血、皮疹、胃肠道不适、严重岀血反应等事件。\nChin Pharm J，2013 December，Vol. 48 No. 24患者稳定期 INR 值为 1. 88 ± 0. 63，华法林稳定剂量为( 2. 58 ± 0. 96) mg · d － 1 。 45. 9% ( n = 95 )的患者稳定期 INR 值在目标治疗范围内( 2. 0 ～3. 0) ，43. 9% ( N = 91) 的患者低于目标范围，5. 3%( n = 11) 高于目标范围 。 患者 VKORC1 和 CYP2C9的基因型分布如下: 4 例患者 VKORC1-1639GG，20例为 VKORC1-1639GA，183 例为 VKORC1: 1639AA 。189 例患者为 CYP2C9\\* 1\\* 1 和 18 例为 CYP2C9\\*1\\* 3 。 未发现 CYP2C9 \\* 3 \\* 3 基因学患者，未发现等位基因 CYP2C9\\* 2 。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏.pdf",
+          "chunk_index": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏:1",
+          "raw_text": "华法林出血事件定义为用药期间观察到的一般性岀血、皮疹、胃肠道不适、严重岀血反应等事件。",
+          "chunk_id": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏:1",
+          "data": "1. 3 资料采集\n中国药学杂志2013 年12 月第48 卷第24 期时的华法林剂量或 INR 值虽然不在目标范围但连续3 次检测结果稳定且临床不再调整华法林剂量。稳定期 INR 值( INR value during stable dosage) 定义为华法林稳定剂量时的患者 INR 值。 华法林出血事件定义为用药期间观察到的一般性岀血、皮疹、胃肠道不适、严重岀血反应等事件。\nChin Pharm J，2013 December，Vol. 48 No. 24患者稳定期 INR 值为 1. 88 ± 0. 63，华法林稳定剂量为( 2. 58 ± 0. 96) mg · d － 1 。 45. 9% ( n = 95 )的患者稳定期 INR 值在目标治疗范围内( 2. 0 ～3. 0) ，43. 9% ( N = 91) 的患者低于目标范围，5. 3%( n = 11) 高于目标范围 。 患者 VKORC1 和 CYP2C9的基因型分布如下: 4 例患者 VKORC1-1639GG，20例为 VKORC1-1639GA，183 例为 VKORC1: 1639AA 。189 例患者为 CYP2C9\\* 1\\* 1 和 18 例为 CYP2C9\\*1\\* 3 。 未发现 CYP2C9 \\* 3 \\* 3 基因学患者，未发现等位基因 CYP2C9\\* 2 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏:1",
+    "source": "CYP2C9和VKORC1基因分型患者华法林_胺碘酮药物相互作用的横断面研究_王志宏.pdf",
+    "text": "1. 3 资料采集\n中国药学杂志2013 年12 月第48 卷第24 期时的华法林剂量或 INR 值虽然不在目标范围但连续3 次检测结果稳定且临床不再调整华法林剂量。稳定期 INR 值( INR value during stable dosage) 定义为华法林稳定剂量时的患者 INR 值。 华法林出血事件定义为用药期间观察到的一般性岀血、皮疹、胃肠道不适、严重岀血反应等事件。\nChin Pharm J，2013 December，Vol. 48 No. 24患者稳定期 INR 值为 1. 88 ± 0. 63，华法林稳定剂量为( 2. 58 ± 0. 96) mg · d － 1 。 45. 9% ( n = 95 )的患者稳定期 INR 值在目标治疗范围内( 2. 0 ～3. 0) ，43. 9% ( N = 91) 的患者低于目标范围，5. 3%( n = 11) 高于目标范围 。 患者 VKORC1 和 CYP2C9的基因型分布如下: 4 例患者 VKORC1-1639GG，20例为 VKORC1-1639GA，183 例为 VKORC1: 1639AA 。189 例患者为 CYP2C9\\* 1\\* 1 和 18 例为 CYP2C9\\*1\\* 3 。 未发现 CYP2C9 \\* 3 \\* 3 基因学患者，未发现等位基因 CYP2C9\\* 2 。"
+  }
+]

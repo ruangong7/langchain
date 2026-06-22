@@ -1,0 +1,139 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "第一代抗组胺药",
+        "canonical_name": "第一代抗组胺药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "第二代抗组胺药",
+        "canonical_name": "第二代抗组胺药",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "苯海拉明",
+        "canonical_name": "苯海拉明",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "特非那定",
+        "canonical_name": "特非那定",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "阿司咪唑",
+        "canonical_name": "阿司咪唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "心脏毒性",
+        "canonical_name": "心脏毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "镇静作用",
+        "canonical_name": "镇静作用",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "抗组胺药的药物相互作用_孙平华.pdf",
+          "chunk_index": "抗组胺药的药物相互作用_孙平华:1",
+          "raw_text": "以苯海拉明为代表的“经典型”或“镇静型”抗组胺药",
+          "chunk_id": "抗组胺药的药物相互作用_孙平华:1",
+          "data": "SUN Ping-hua $^{1}$ , YAO Zhi-hong $^{1}$ , SUN Tie-min $^{2}$(1 Faculty of Pharmacy, Jinan University, Guangzhou 510632, China;2 School of Pharmaceutical Engineering, Shenyang Pharmaceutical University, Shenyang 110015, China)[Abstract] The first and second generations of antihistamines react with variety of drugs, leading to cardiotoxicity. The third generation of antihistamines seems no such severe cardiotoxicity reported. This introduction discussed the adverse reactions of antihistamines commonly used as OTCs. Attention should be paid to the drug-drug interactions and cardiotoxicity of antihistamines.抗组胺药(主要是组胺 $H_{1}$ 受体阻滞剂)是使用最广泛的药物之一,并且有许多已作为 OTC 使用[1]。以苯海拉明为代表的“经典型”或“镇静型”抗组胺药具有良好的疗效,但不良反应多,其中最显著的是镇静作用。实际上,在 OTC 中,它们常被用作安眠药或抗过敏药物与其他药物如解热镇痛药、去鼻塞剂等制成复方制剂用于感冒发热和流感[2]。约 50% 过敏症患者均使用第一代抗组胺药[3]。一些非镇静型抗组胺药,如第二代抗组胺药中的特非那定和阿司咪唑,高剂量时因药物相互作用而表现出心脏毒性,故已停止使用。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "抗组胺药的药物相互作用_孙平华.pdf",
+          "chunk_index": "抗组胺药的药物相互作用_孙平华:1",
+          "raw_text": "第二代抗组胺药中的特非那定和阿司咪唑",
+          "chunk_id": "抗组胺药的药物相互作用_孙平华:1",
+          "data": "SUN Ping-hua $^{1}$ , YAO Zhi-hong $^{1}$ , SUN Tie-min $^{2}$(1 Faculty of Pharmacy, Jinan University, Guangzhou 510632, China;2 School of Pharmaceutical Engineering, Shenyang Pharmaceutical University, Shenyang 110015, China)[Abstract] The first and second generations of antihistamines react with variety of drugs, leading to cardiotoxicity. The third generation of antihistamines seems no such severe cardiotoxicity reported. This introduction discussed the adverse reactions of antihistamines commonly used as OTCs. Attention should be paid to the drug-drug interactions and cardiotoxicity of antihistamines.抗组胺药(主要是组胺 $H_{1}$ 受体阻滞剂)是使用最广泛的药物之一,并且有许多已作为 OTC 使用[1]。以苯海拉明为代表的“经典型”或“镇静型”抗组胺药具有良好的疗效,但不良反应多,其中最显著的是镇静作用。实际上,在 OTC 中,它们常被用作安眠药或抗过敏药物与其他药物如解热镇痛药、去鼻塞剂等制成复方制剂用于感冒发热和流感[2]。约 50% 过敏症患者均使用第一代抗组胺药[3]。一些非镇静型抗组胺药,如第二代抗组胺药中的特非那定和阿司咪唑,高剂量时因药物相互作用而表现出心脏毒性,故已停止使用。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "抗组胺药的药物相互作用_孙平华.pdf",
+          "chunk_index": "抗组胺药的药物相互作用_孙平华:1",
+          "raw_text": "第二代抗组胺药中的特非那定和阿司咪唑",
+          "chunk_id": "抗组胺药的药物相互作用_孙平华:1",
+          "data": "SUN Ping-hua $^{1}$ , YAO Zhi-hong $^{1}$ , SUN Tie-min $^{2}$(1 Faculty of Pharmacy, Jinan University, Guangzhou 510632, China;2 School of Pharmaceutical Engineering, Shenyang Pharmaceutical University, Shenyang 110015, China)[Abstract] The first and second generations of antihistamines react with variety of drugs, leading to cardiotoxicity. The third generation of antihistamines seems no such severe cardiotoxicity reported. This introduction discussed the adverse reactions of antihistamines commonly used as OTCs. Attention should be paid to the drug-drug interactions and cardiotoxicity of antihistamines.抗组胺药(主要是组胺 $H_{1}$ 受体阻滞剂)是使用最广泛的药物之一,并且有许多已作为 OTC 使用[1]。以苯海拉明为代表的“经典型”或“镇静型”抗组胺药具有良好的疗效,但不良反应多,其中最显著的是镇静作用。实际上,在 OTC 中,它们常被用作安眠药或抗过敏药物与其他药物如解热镇痛药、去鼻塞剂等制成复方制剂用于感冒发热和流感[2]。约 50% 过敏症患者均使用第一代抗组胺药[3]。一些非镇静型抗组胺药,如第二代抗组胺药中的特非那定和阿司咪唑,高剂量时因药物相互作用而表现出心脏毒性,故已停止使用。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_5",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "抗组胺药的药物相互作用_孙平华.pdf",
+          "chunk_index": "抗组胺药的药物相互作用_孙平华:1",
+          "raw_text": "以苯海拉明为代表的“经典型”或“镇静型”抗组胺药具有良好的疗效,但不良反应多,其中最显著的是镇静作用",
+          "chunk_id": "抗组胺药的药物相互作用_孙平华:1",
+          "data": "SUN Ping-hua $^{1}$ , YAO Zhi-hong $^{1}$ , SUN Tie-min $^{2}$(1 Faculty of Pharmacy, Jinan University, Guangzhou 510632, China;2 School of Pharmaceutical Engineering, Shenyang Pharmaceutical University, Shenyang 110015, China)[Abstract] The first and second generations of antihistamines react with variety of drugs, leading to cardiotoxicity. The third generation of antihistamines seems no such severe cardiotoxicity reported. This introduction discussed the adverse reactions of antihistamines commonly used as OTCs. Attention should be paid to the drug-drug interactions and cardiotoxicity of antihistamines.抗组胺药(主要是组胺 $H_{1}$ 受体阻滞剂)是使用最广泛的药物之一,并且有许多已作为 OTC 使用[1]。以苯海拉明为代表的“经典型”或“镇静型”抗组胺药具有良好的疗效,但不良反应多,其中最显著的是镇静作用。实际上,在 OTC 中,它们常被用作安眠药或抗过敏药物与其他药物如解热镇痛药、去鼻塞剂等制成复方制剂用于感冒发热和流感[2]。约 50% 过敏症患者均使用第一代抗组胺药[3]。一些非镇静型抗组胺药,如第二代抗组胺药中的特非那定和阿司咪唑,高剂量时因药物相互作用而表现出心脏毒性,故已停止使用。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "抗组胺药的药物相互作用_孙平华.pdf",
+          "chunk_index": "抗组胺药的药物相互作用_孙平华:1",
+          "raw_text": "一些非镇静型抗组胺药,如第二代抗组胺药中的特非那定和阿司咪唑,高剂量时因药物相互作用而表现出心脏毒性",
+          "chunk_id": "抗组胺药的药物相互作用_孙平华:1",
+          "data": "SUN Ping-hua $^{1}$ , YAO Zhi-hong $^{1}$ , SUN Tie-min $^{2}$(1 Faculty of Pharmacy, Jinan University, Guangzhou 510632, China;2 School of Pharmaceutical Engineering, Shenyang Pharmaceutical University, Shenyang 110015, China)[Abstract] The first and second generations of antihistamines react with variety of drugs, leading to cardiotoxicity. The third generation of antihistamines seems no such severe cardiotoxicity reported. This introduction discussed the adverse reactions of antihistamines commonly used as OTCs. Attention should be paid to the drug-drug interactions and cardiotoxicity of antihistamines.抗组胺药(主要是组胺 $H_{1}$ 受体阻滞剂)是使用最广泛的药物之一,并且有许多已作为 OTC 使用[1]。以苯海拉明为代表的“经典型”或“镇静型”抗组胺药具有良好的疗效,但不良反应多,其中最显著的是镇静作用。实际上,在 OTC 中,它们常被用作安眠药或抗过敏药物与其他药物如解热镇痛药、去鼻塞剂等制成复方制剂用于感冒发热和流感[2]。约 50% 过敏症患者均使用第一代抗组胺药[3]。一些非镇静型抗组胺药,如第二代抗组胺药中的特非那定和阿司咪唑,高剂量时因药物相互作用而表现出心脏毒性,故已停止使用。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "抗组胺药的药物相互作用_孙平华.pdf",
+          "chunk_index": "抗组胺药的药物相互作用_孙平华:1",
+          "raw_text": "一些非镇静型抗组胺药,如第二代抗组胺药中的特非那定和阿司咪唑,高剂量时因药物相互作用而表现出心脏毒性",
+          "chunk_id": "抗组胺药的药物相互作用_孙平华:1",
+          "data": "SUN Ping-hua $^{1}$ , YAO Zhi-hong $^{1}$ , SUN Tie-min $^{2}$(1 Faculty of Pharmacy, Jinan University, Guangzhou 510632, China;2 School of Pharmaceutical Engineering, Shenyang Pharmaceutical University, Shenyang 110015, China)[Abstract] The first and second generations of antihistamines react with variety of drugs, leading to cardiotoxicity. The third generation of antihistamines seems no such severe cardiotoxicity reported. This introduction discussed the adverse reactions of antihistamines commonly used as OTCs. Attention should be paid to the drug-drug interactions and cardiotoxicity of antihistamines.抗组胺药(主要是组胺 $H_{1}$ 受体阻滞剂)是使用最广泛的药物之一,并且有许多已作为 OTC 使用[1]。以苯海拉明为代表的“经典型”或“镇静型”抗组胺药具有良好的疗效,但不良反应多,其中最显著的是镇静作用。实际上,在 OTC 中,它们常被用作安眠药或抗过敏药物与其他药物如解热镇痛药、去鼻塞剂等制成复方制剂用于感冒发热和流感[2]。约 50% 过敏症患者均使用第一代抗组胺药[3]。一些非镇静型抗组胺药,如第二代抗组胺药中的特非那定和阿司咪唑,高剂量时因药物相互作用而表现出心脏毒性,故已停止使用。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "抗组胺药的药物相互作用_孙平华:1",
+    "source": "抗组胺药的药物相互作用_孙平华.pdf",
+    "text": "SUN Ping-hua $^{1}$ , YAO Zhi-hong $^{1}$ , SUN Tie-min $^{2}$(1 Faculty of Pharmacy, Jinan University, Guangzhou 510632, China;2 School of Pharmaceutical Engineering, Shenyang Pharmaceutical University, Shenyang 110015, China)[Abstract] The first and second generations of antihistamines react with variety of drugs, leading to cardiotoxicity. The third generation of antihistamines seems no such severe cardiotoxicity reported. This introduction discussed the adverse reactions of antihistamines commonly used as OTCs. Attention should be paid to the drug-drug interactions and cardiotoxicity of antihistamines.抗组胺药(主要是组胺 $H_{1}$ 受体阻滞剂)是使用最广泛的药物之一,并且有许多已作为 OTC 使用[1]。以苯海拉明为代表的“经典型”或“镇静型”抗组胺药具有良好的疗效,但不良反应多,其中最显著的是镇静作用。实际上,在 OTC 中,它们常被用作安眠药或抗过敏药物与其他药物如解热镇痛药、去鼻塞剂等制成复方制剂用于感冒发热和流感[2]。约 50% 过敏症患者均使用第一代抗组胺药[3]。一些非镇静型抗组胺药,如第二代抗组胺药中的特非那定和阿司咪唑,高剂量时因药物相互作用而表现出心脏毒性,故已停止使用。"
+  }
+]

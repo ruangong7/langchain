@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "CDK4/6抑制剂",
+        "canonical_name": "CDK4/6抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Disease",
+        "name": "乳腺癌",
+        "canonical_name": "乳腺癌",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "乳腺癌CDK4_6抑制剂药物相互作用管理专家共识（2024版）_陈艳伟.pdf",
+          "chunk_index": "乳腺癌CDK4_6抑制剂药物相互作用管理专家共识（2024版）_陈艳伟:30",
+          "raw_text": "CDK4/6 抑制剂为激素受体（Hormone receptor, HR）阳性、人表皮生长因子受体 2（Human epidermal growth factor receptor 2,HER-2）阴性乳腺癌患者的临床治疗模式带来变革性的突破。",
+          "chunk_id": "乳腺癌CDK4_6抑制剂药物相互作用管理专家共识（2024版）_陈艳伟:30",
+          "data": "n, DDI）。为了保障 CDK4/6 抑制剂在临床使用的有效性及安全性，本共识系统总结中国上市用于治疗乳腺癌的 CDK4/6 抑制剂的药物相互作用资料，形成相关共识意见，为临床医务人员在 CDK4/6 抑制剂相互作用管理工作方面提供参考。Expert Consensus on the Management of Drug-Drug Interactions with CDK4/6 inhibitors in Breast Cancer (2024 Edition)\nHospital Pharmacy Professional Committee of Chinese Pharmaceutical Association, Writing Group of Expert Consensus on the Management of Drug-Drug Interactions with CDK4/6 Inhibitors in Breast Cancer Abstract Cyclin-dependent kinase 4/6 (CDK4/6) inhibitors in combination with conventional endocrine therapy significantly improve progression-free survival and overall survival in hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER-2)-negative breast cancer patients with a wide range of applications. CDK4/6 inhibitors are metabolized by cytochrome P450 enzymes and transported by some drug transporters, and are susceptible to drug -drug interactions mediated by drug-metabolizing enzymes and drug transporters with other drugs. To ensure"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "乳腺癌CDK4_6抑制剂药物相互作用管理专家共识（2024版）_陈艳伟:30",
+    "source": "乳腺癌CDK4_6抑制剂药物相互作用管理专家共识（2024版）_陈艳伟.pdf",
+    "text": "n, DDI）。为了保障 CDK4/6 抑制剂在临床使用的有效性及安全性，本共识系统总结中国上市用于治疗乳腺癌的 CDK4/6 抑制剂的药物相互作用资料，形成相关共识意见，为临床医务人员在 CDK4/6 抑制剂相互作用管理工作方面提供参考。Expert Consensus on the Management of Drug-Drug Interactions with CDK4/6 inhibitors in Breast Cancer (2024 Edition)\nHospital Pharmacy Professional Committee of Chinese Pharmaceutical Association, Writing Group of Expert Consensus on the Management of Drug-Drug Interactions with CDK4/6 Inhibitors in Breast Cancer Abstract Cyclin-dependent kinase 4/6 (CDK4/6) inhibitors in combination with conventional endocrine therapy significantly improve progression-free survival and overall survival in hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER-2)-negative breast cancer patients with a wide range of applications. CDK4/6 inhibitors are metabolized by cytochrome P450 enzymes and transported by some drug transporters, and are susceptible to drug -drug interactions mediated by drug-metabolizing enzymes and drug transporters with other drugs. To ensure the efficacy and safe ty of CDK4/6 inhibitors in clinical use, this consensus systematically summarizes the data on drug -drug interaction of CDK4/6 inhibitors that are marketed in China for the treatment of breast cancer, and forms relevant consensus opinions to provide references for clinical medical professionals in managing the drug-drug interactions of CDK4/6 inhibitors.细胞周期蛋白依赖性激酶 4/6（Cyclin-dependent kinase 4/6, CDK4/6） 抑制剂为激素受体（Hormone receptor, HR）阳性、人表皮生长因子受体 2（Human epidermal growth factor receptor 2,HER-2）阴性乳腺癌患者的临床治疗模式带来变革性的突破。"
+  }
+]

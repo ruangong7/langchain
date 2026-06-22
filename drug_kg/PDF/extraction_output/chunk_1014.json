@@ -1,0 +1,152 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "五味子甲素",
+        "canonical_name": "五味子甲素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "canonical_name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "五味子提取物",
+        "canonical_name": "五味子提取物",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "吴茱萸碱",
+        "canonical_name": "吴茱萸碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "吴茱萸次碱",
+        "canonical_name": "吴茱萸次碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "五味子",
+        "canonical_name": "五味子",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:11",
+          "raw_text": "五味子甲素抑制P-gp介导的他克莫司的外排，其中五味子甲素抑制P-gp的作用最强。",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:11",
+          "data": "hrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。严子玲等［12］证实 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 抑制剂维拉帕米及五味子提取物均可促进吴茱萸碱和吴茱萸次碱的大鼠肠吸收，提示五味子可能通过抑制 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 的外排作用而促进吴茱萸碱和吴茱萸次碱的肠吸收。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:11",
+          "raw_text": "P-gp抑制剂维拉帕米及五味子提取物均可促进吴茱萸碱和吴茱萸次碱的大鼠肠吸收",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:11",
+          "data": "hrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。严子玲等［12］证实 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 抑制剂维拉帕米及五味子提取物均可促进吴茱萸碱和吴茱萸次碱的大鼠肠吸收，提示五味子可能通过抑制 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 的外排作用而促进吴茱萸碱和吴茱萸次碱的肠吸收。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:11",
+          "raw_text": "P-gp抑制剂维拉帕米及五味子提取物均可促进吴茱萸碱和吴茱萸次碱的大鼠肠吸收",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:11",
+          "data": "hrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。严子玲等［12］证实 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 抑制剂维拉帕米及五味子提取物均可促进吴茱萸碱和吴茱萸次碱的大鼠肠吸收，提示五味子可能通过抑制 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 的外排作用而促进吴茱萸碱和吴茱萸次碱的肠吸收。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:11",
+          "raw_text": "P-gp抑制剂维拉帕米及五味子提取物均可促进吴茱萸碱和吴茱萸次碱的大鼠肠吸收",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:11",
+          "data": "hrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。严子玲等［12］证实 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 抑制剂维拉帕米及五味子提取物均可促进吴茱萸碱和吴茱萸次碱的大鼠肠吸收，提示五味子可能通过抑制 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 的外排作用而促进吴茱萸碱和吴茱萸次碱的肠吸收。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:11",
+          "raw_text": "P-gp抑制剂维拉帕米及五味子提取物均可促进吴茱萸碱和吴茱萸次碱的大鼠肠吸收",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:11",
+          "data": "hrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。严子玲等［12］证实 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 抑制剂维拉帕米及五味子提取物均可促进吴茱萸碱和吴茱萸次碱的大鼠肠吸收，提示五味子可能通过抑制 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 的外排作用而促进吴茱萸碱和吴茱萸次碱的肠吸收。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:11",
+          "raw_text": "五味子可能通过抑制P-gp的外排作用而促进吴茱萸碱和吴茱萸次碱的肠吸收",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:11",
+          "data": "hrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。严子玲等［12］证实 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 抑制剂维拉帕米及五味子提取物均可促进吴茱萸碱和吴茱萸次碱的大鼠肠吸收，提示五味子可能通过抑制 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 的外排作用而促进吴茱萸碱和吴茱萸次碱的肠吸收。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:11",
+          "raw_text": "五味子可能通过抑制P-gp的外排作用而促进吴茱萸碱和吴茱萸次碱的肠吸收",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:11",
+          "data": "hrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。严子玲等［12］证实 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 抑制剂维拉帕米及五味子提取物均可促进吴茱萸碱和吴茱萸次碱的大鼠肠吸收，提示五味子可能通过抑制 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 的外排作用而促进吴茱萸碱和吴茱萸次碱的肠吸收。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:11",
+    "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+    "text": "hrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。严子玲等［12］证实 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 抑制剂维拉帕米及五味子提取物均可促进吴茱萸碱和吴茱萸次碱的大鼠肠吸收，提示五味子可能通过抑制 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 的外排作用而促进吴茱萸碱和吴茱萸次碱的肠吸收。"
+  }
+]

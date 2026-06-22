@@ -1,0 +1,286 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "非索非那定",
+        "canonical_name": "非索非那定",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "第二代H1抗组胺药",
+        "canonical_name": "第二代H1抗组胺药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "过敏性鼻炎",
+        "canonical_name": "过敏性鼻炎",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "荨麻疹",
+        "canonical_name": "荨麻疹",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "过敏性哮喘",
+        "canonical_name": "过敏性哮喘",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "环孢素",
+        "canonical_name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "嗜睡",
+        "canonical_name": "嗜睡",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "中枢神经系统损伤",
+        "canonical_name": "中枢神经系统损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "大环内酯类药物",
+        "canonical_name": "大环内酯类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "canonical_name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "泰利霉素",
+        "canonical_name": "泰利霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "红霉素",
+        "canonical_name": "红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "罗红霉素",
+        "canonical_name": "罗红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "普伐他汀",
+        "canonical_name": "普伐他汀",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳.pdf",
+          "chunk_index": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "raw_text": "非索非那定是第二代 H1 抗组胺药",
+          "chunk_id": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "data": "2． 3 非索非那定与其他药物的相互作用非索非那定是第二代 H1 抗组胺药，临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等，主要经肝脏以原型药物形式代谢，在肝细胞内的摄取主要经由 OATP1B1 和 OATP1B3 介导 。 Matsushima ［12］运用稳转细胞模型研究多种药物对 OATP1B1 和 OATP1B3 介导的非索非那定的摄取，结果发现环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。\n大环内酯类药物通常是 CYP3A 的强抑制剂，其与他汀类药物的相互作用最初被认为与代谢酶被抑制有关。 然而近年来，在体内和体外水平上对大环内酯类药物体外对 OATP 介导的转运的影响进行研究。 Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运［19］。 Jacobson等的临床实验结果表明，克拉霉素能够将普伐他汀的 $C _ { \\mathrm { m a x } }$ x 和 AUC 分别 $\\textbf { \\textsf { M } } \\overset { 1 8 } { \\mathrm { 1 8 } } \\mathrm { \\ n g / m I }$ 和54 $\\mathrm { n g } \\bullet \\mathrm { h } \\bullet \\mathrm { m L } ^ { - 1 }$ 增加至 41 ng /mL 和114 $\\mathrm { n g \\bullet h \\bullet _ { \\mathrm { m L } } \\mathrm { ^ { - 1 } } }$ ，可能与 OATP 转运作用被抑制有关［20］ 。 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳.pdf",
+          "chunk_index": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "raw_text": "临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等",
+          "chunk_id": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "data": "2． 3 非索非那定与其他药物的相互作用非索非那定是第二代 H1 抗组胺药，临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等，主要经肝脏以原型药物形式代谢，在肝细胞内的摄取主要经由 OATP1B1 和 OATP1B3 介导 。 Matsushima ［12］运用稳转细胞模型研究多种药物对 OATP1B1 和 OATP1B3 介导的非索非那定的摄取，结果发现环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。\n大环内酯类药物通常是 CYP3A 的强抑制剂，其与他汀类药物的相互作用最初被认为与代谢酶被抑制有关。 然而近年来，在体内和体外水平上对大环内酯类药物体外对 OATP 介导的转运的影响进行研究。 Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运［19］。 Jacobson等的临床实验结果表明，克拉霉素能够将普伐他汀的 $C _ { \\mathrm { m a x } }$ x 和 AUC 分别 $\\textbf { \\textsf { M } } \\overset { 1 8 } { \\mathrm { 1 8 } } \\mathrm { \\ n g / m I }$ 和54 $\\mathrm { n g } \\bullet \\mathrm { h } \\bullet \\mathrm { m L } ^ { - 1 }$ 增加至 41 ng /mL 和114 $\\mathrm { n g \\bullet h \\bullet _ { \\mathrm { m L } } \\mathrm { ^ { - 1 } } }$ ，可能与 OATP 转运作用被抑制有关［20］ 。 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳.pdf",
+          "chunk_index": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "raw_text": "临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等",
+          "chunk_id": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "data": "2． 3 非索非那定与其他药物的相互作用非索非那定是第二代 H1 抗组胺药，临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等，主要经肝脏以原型药物形式代谢，在肝细胞内的摄取主要经由 OATP1B1 和 OATP1B3 介导 。 Matsushima ［12］运用稳转细胞模型研究多种药物对 OATP1B1 和 OATP1B3 介导的非索非那定的摄取，结果发现环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。\n大环内酯类药物通常是 CYP3A 的强抑制剂，其与他汀类药物的相互作用最初被认为与代谢酶被抑制有关。 然而近年来，在体内和体外水平上对大环内酯类药物体外对 OATP 介导的转运的影响进行研究。 Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运［19］。 Jacobson等的临床实验结果表明，克拉霉素能够将普伐他汀的 $C _ { \\mathrm { m a x } }$ x 和 AUC 分别 $\\textbf { \\textsf { M } } \\overset { 1 8 } { \\mathrm { 1 8 } } \\mathrm { \\ n g / m I }$ 和54 $\\mathrm { n g } \\bullet \\mathrm { h } \\bullet \\mathrm { m L } ^ { - 1 }$ 增加至 41 ng /mL 和114 $\\mathrm { n g \\bullet h \\bullet _ { \\mathrm { m L } } \\mathrm { ^ { - 1 } } }$ ，可能与 OATP 转运作用被抑制有关［20］ 。 。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳.pdf",
+          "chunk_index": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "raw_text": "临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等",
+          "chunk_id": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "data": "2． 3 非索非那定与其他药物的相互作用非索非那定是第二代 H1 抗组胺药，临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等，主要经肝脏以原型药物形式代谢，在肝细胞内的摄取主要经由 OATP1B1 和 OATP1B3 介导 。 Matsushima ［12］运用稳转细胞模型研究多种药物对 OATP1B1 和 OATP1B3 介导的非索非那定的摄取，结果发现环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。\n大环内酯类药物通常是 CYP3A 的强抑制剂，其与他汀类药物的相互作用最初被认为与代谢酶被抑制有关。 然而近年来，在体内和体外水平上对大环内酯类药物体外对 OATP 介导的转运的影响进行研究。 Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运［19］。 Jacobson等的临床实验结果表明，克拉霉素能够将普伐他汀的 $C _ { \\mathrm { m a x } }$ x 和 AUC 分别 $\\textbf { \\textsf { M } } \\overset { 1 8 } { \\mathrm { 1 8 } } \\mathrm { \\ n g / m I }$ 和54 $\\mathrm { n g } \\bullet \\mathrm { h } \\bullet \\mathrm { m L } ^ { - 1 }$ 增加至 41 ng /mL 和114 $\\mathrm { n g \\bullet h \\bullet _ { \\mathrm { m L } } \\mathrm { ^ { - 1 } } }$ ，可能与 OATP 转运作用被抑制有关［20］ 。 。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳.pdf",
+          "chunk_index": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "raw_text": "环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。",
+          "chunk_id": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "data": "2． 3 非索非那定与其他药物的相互作用非索非那定是第二代 H1 抗组胺药，临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等，主要经肝脏以原型药物形式代谢，在肝细胞内的摄取主要经由 OATP1B1 和 OATP1B3 介导 。 Matsushima ［12］运用稳转细胞模型研究多种药物对 OATP1B1 和 OATP1B3 介导的非索非那定的摄取，结果发现环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。\n大环内酯类药物通常是 CYP3A 的强抑制剂，其与他汀类药物的相互作用最初被认为与代谢酶被抑制有关。 然而近年来，在体内和体外水平上对大环内酯类药物体外对 OATP 介导的转运的影响进行研究。 Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运［19］。 Jacobson等的临床实验结果表明，克拉霉素能够将普伐他汀的 $C _ { \\mathrm { m a x } }$ x 和 AUC 分别 $\\textbf { \\textsf { M } } \\overset { 1 8 } { \\mathrm { 1 8 } } \\mathrm { \\ n g / m I }$ 和54 $\\mathrm { n g } \\bullet \\mathrm { h } \\bullet \\mathrm { m L } ^ { - 1 }$ 增加至 41 ng /mL 和114 $\\mathrm { n g \\bullet h \\bullet _ { \\mathrm { m L } } \\mathrm { ^ { - 1 } } }$ ，可能与 OATP 转运作用被抑制有关［20］ 。 。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳.pdf",
+          "chunk_index": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "raw_text": "环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。",
+          "chunk_id": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "data": "2． 3 非索非那定与其他药物的相互作用非索非那定是第二代 H1 抗组胺药，临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等，主要经肝脏以原型药物形式代谢，在肝细胞内的摄取主要经由 OATP1B1 和 OATP1B3 介导 。 Matsushima ［12］运用稳转细胞模型研究多种药物对 OATP1B1 和 OATP1B3 介导的非索非那定的摄取，结果发现环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。\n大环内酯类药物通常是 CYP3A 的强抑制剂，其与他汀类药物的相互作用最初被认为与代谢酶被抑制有关。 然而近年来，在体内和体外水平上对大环内酯类药物体外对 OATP 介导的转运的影响进行研究。 Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运［19］。 Jacobson等的临床实验结果表明，克拉霉素能够将普伐他汀的 $C _ { \\mathrm { m a x } }$ x 和 AUC 分别 $\\textbf { \\textsf { M } } \\overset { 1 8 } { \\mathrm { 1 8 } } \\mathrm { \\ n g / m I }$ 和54 $\\mathrm { n g } \\bullet \\mathrm { h } \\bullet \\mathrm { m L } ^ { - 1 }$ 增加至 41 ng /mL 和114 $\\mathrm { n g \\bullet h \\bullet _ { \\mathrm { m L } } \\mathrm { ^ { - 1 } } }$ ，可能与 OATP 转运作用被抑制有关［20］ 。 。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳.pdf",
+          "chunk_index": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "raw_text": "环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。",
+          "chunk_id": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "data": "2． 3 非索非那定与其他药物的相互作用非索非那定是第二代 H1 抗组胺药，临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等，主要经肝脏以原型药物形式代谢，在肝细胞内的摄取主要经由 OATP1B1 和 OATP1B3 介导 。 Matsushima ［12］运用稳转细胞模型研究多种药物对 OATP1B1 和 OATP1B3 介导的非索非那定的摄取，结果发现环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。\n大环内酯类药物通常是 CYP3A 的强抑制剂，其与他汀类药物的相互作用最初被认为与代谢酶被抑制有关。 然而近年来，在体内和体外水平上对大环内酯类药物体外对 OATP 介导的转运的影响进行研究。 Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运［19］。 Jacobson等的临床实验结果表明，克拉霉素能够将普伐他汀的 $C _ { \\mathrm { m a x } }$ x 和 AUC 分别 $\\textbf { \\textsf { M } } \\overset { 1 8 } { \\mathrm { 1 8 } } \\mathrm { \\ n g / m I }$ 和54 $\\mathrm { n g } \\bullet \\mathrm { h } \\bullet \\mathrm { m L } ^ { - 1 }$ 增加至 41 ng /mL 和114 $\\mathrm { n g \\bullet h \\bullet _ { \\mathrm { m L } } \\mathrm { ^ { - 1 } } }$ ，可能与 OATP 转运作用被抑制有关［20］ 。 。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳.pdf",
+          "chunk_index": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "raw_text": "环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。",
+          "chunk_id": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "data": "2． 3 非索非那定与其他药物的相互作用非索非那定是第二代 H1 抗组胺药，临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等，主要经肝脏以原型药物形式代谢，在肝细胞内的摄取主要经由 OATP1B1 和 OATP1B3 介导 。 Matsushima ［12］运用稳转细胞模型研究多种药物对 OATP1B1 和 OATP1B3 介导的非索非那定的摄取，结果发现环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。\n大环内酯类药物通常是 CYP3A 的强抑制剂，其与他汀类药物的相互作用最初被认为与代谢酶被抑制有关。 然而近年来，在体内和体外水平上对大环内酯类药物体外对 OATP 介导的转运的影响进行研究。 Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运［19］。 Jacobson等的临床实验结果表明，克拉霉素能够将普伐他汀的 $C _ { \\mathrm { m a x } }$ x 和 AUC 分别 $\\textbf { \\textsf { M } } \\overset { 1 8 } { \\mathrm { 1 8 } } \\mathrm { \\ n g / m I }$ 和54 $\\mathrm { n g } \\bullet \\mathrm { h } \\bullet \\mathrm { m L } ^ { - 1 }$ 增加至 41 ng /mL 和114 $\\mathrm { n g \\bullet h \\bullet _ { \\mathrm { m L } } \\mathrm { ^ { - 1 } } }$ ，可能与 OATP 转运作用被抑制有关［20］ 。 。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳.pdf",
+          "chunk_index": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "raw_text": "大环内酯类药物通常是 CYP3A 的强抑制剂，其与他汀类药物的相互作用最初被认为与代谢酶被抑制有关。",
+          "chunk_id": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "data": "2． 3 非索非那定与其他药物的相互作用非索非那定是第二代 H1 抗组胺药，临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等，主要经肝脏以原型药物形式代谢，在肝细胞内的摄取主要经由 OATP1B1 和 OATP1B3 介导 。 Matsushima ［12］运用稳转细胞模型研究多种药物对 OATP1B1 和 OATP1B3 介导的非索非那定的摄取，结果发现环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。\n大环内酯类药物通常是 CYP3A 的强抑制剂，其与他汀类药物的相互作用最初被认为与代谢酶被抑制有关。 然而近年来，在体内和体外水平上对大环内酯类药物体外对 OATP 介导的转运的影响进行研究。 Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运［19］。 Jacobson等的临床实验结果表明，克拉霉素能够将普伐他汀的 $C _ { \\mathrm { m a x } }$ x 和 AUC 分别 $\\textbf { \\textsf { M } } \\overset { 1 8 } { \\mathrm { 1 8 } } \\mathrm { \\ n g / m I }$ 和54 $\\mathrm { n g } \\bullet \\mathrm { h } \\bullet \\mathrm { m L } ^ { - 1 }$ 增加至 41 ng /mL 和114 $\\mathrm { n g \\bullet h \\bullet _ { \\mathrm { m L } } \\mathrm { ^ { - 1 } } }$ ，可能与 OATP 转运作用被抑制有关［20］ 。 。"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳.pdf",
+          "chunk_index": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "raw_text": "克拉霉素能够将普伐他汀的 Cmax 和 AUC 分别增加至 41 ng/mL 和114 ng·h·mL-1，可能与 OATP 转运作用被抑制有关",
+          "chunk_id": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "data": "2． 3 非索非那定与其他药物的相互作用非索非那定是第二代 H1 抗组胺药，临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等，主要经肝脏以原型药物形式代谢，在肝细胞内的摄取主要经由 OATP1B1 和 OATP1B3 介导 。 Matsushima ［12］运用稳转细胞模型研究多种药物对 OATP1B1 和 OATP1B3 介导的非索非那定的摄取，结果发现环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。\n大环内酯类药物通常是 CYP3A 的强抑制剂，其与他汀类药物的相互作用最初被认为与代谢酶被抑制有关。 然而近年来，在体内和体外水平上对大环内酯类药物体外对 OATP 介导的转运的影响进行研究。 Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运［19］。 Jacobson等的临床实验结果表明，克拉霉素能够将普伐他汀的 $C _ { \\mathrm { m a x } }$ x 和 AUC 分别 $\\textbf { \\textsf { M } } \\overset { 1 8 } { \\mathrm { 1 8 } } \\mathrm { \\ n g / m I }$ 和54 $\\mathrm { n g } \\bullet \\mathrm { h } \\bullet \\mathrm { m L } ^ { - 1 }$ 增加至 41 ng /mL 和114 $\\mathrm { n g \\bullet h \\bullet _ { \\mathrm { m L } } \\mathrm { ^ { - 1 } } }$ ，可能与 OATP 转运作用被抑制有关［20］ 。 。"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳.pdf",
+          "chunk_index": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "raw_text": "Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运",
+          "chunk_id": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "data": "2． 3 非索非那定与其他药物的相互作用非索非那定是第二代 H1 抗组胺药，临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等，主要经肝脏以原型药物形式代谢，在肝细胞内的摄取主要经由 OATP1B1 和 OATP1B3 介导 。 Matsushima ［12］运用稳转细胞模型研究多种药物对 OATP1B1 和 OATP1B3 介导的非索非那定的摄取，结果发现环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。\n大环内酯类药物通常是 CYP3A 的强抑制剂，其与他汀类药物的相互作用最初被认为与代谢酶被抑制有关。 然而近年来，在体内和体外水平上对大环内酯类药物体外对 OATP 介导的转运的影响进行研究。 Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运［19］。 Jacobson等的临床实验结果表明，克拉霉素能够将普伐他汀的 $C _ { \\mathrm { m a x } }$ x 和 AUC 分别 $\\textbf { \\textsf { M } } \\overset { 1 8 } { \\mathrm { 1 8 } } \\mathrm { \\ n g / m I }$ 和54 $\\mathrm { n g } \\bullet \\mathrm { h } \\bullet \\mathrm { m L } ^ { - 1 }$ 增加至 41 ng /mL 和114 $\\mathrm { n g \\bullet h \\bullet _ { \\mathrm { m L } } \\mathrm { ^ { - 1 } } }$ ，可能与 OATP 转运作用被抑制有关［20］ 。 。"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳.pdf",
+          "chunk_index": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "raw_text": "Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运",
+          "chunk_id": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "data": "2． 3 非索非那定与其他药物的相互作用非索非那定是第二代 H1 抗组胺药，临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等，主要经肝脏以原型药物形式代谢，在肝细胞内的摄取主要经由 OATP1B1 和 OATP1B3 介导 。 Matsushima ［12］运用稳转细胞模型研究多种药物对 OATP1B1 和 OATP1B3 介导的非索非那定的摄取，结果发现环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。\n大环内酯类药物通常是 CYP3A 的强抑制剂，其与他汀类药物的相互作用最初被认为与代谢酶被抑制有关。 然而近年来，在体内和体外水平上对大环内酯类药物体外对 OATP 介导的转运的影响进行研究。 Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运［19］。 Jacobson等的临床实验结果表明，克拉霉素能够将普伐他汀的 $C _ { \\mathrm { m a x } }$ x 和 AUC 分别 $\\textbf { \\textsf { M } } \\overset { 1 8 } { \\mathrm { 1 8 } } \\mathrm { \\ n g / m I }$ 和54 $\\mathrm { n g } \\bullet \\mathrm { h } \\bullet \\mathrm { m L } ^ { - 1 }$ 增加至 41 ng /mL 和114 $\\mathrm { n g \\bullet h \\bullet _ { \\mathrm { m L } } \\mathrm { ^ { - 1 } } }$ ，可能与 OATP 转运作用被抑制有关［20］ 。 。"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_14",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳.pdf",
+          "chunk_index": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "raw_text": "Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运",
+          "chunk_id": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+          "data": "2． 3 非索非那定与其他药物的相互作用非索非那定是第二代 H1 抗组胺药，临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等，主要经肝脏以原型药物形式代谢，在肝细胞内的摄取主要经由 OATP1B1 和 OATP1B3 介导 。 Matsushima ［12］运用稳转细胞模型研究多种药物对 OATP1B1 和 OATP1B3 介导的非索非那定的摄取，结果发现环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。\n大环内酯类药物通常是 CYP3A 的强抑制剂，其与他汀类药物的相互作用最初被认为与代谢酶被抑制有关。 然而近年来，在体内和体外水平上对大环内酯类药物体外对 OATP 介导的转运的影响进行研究。 Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运［19］。 Jacobson等的临床实验结果表明，克拉霉素能够将普伐他汀的 $C _ { \\mathrm { m a x } }$ x 和 AUC 分别 $\\textbf { \\textsf { M } } \\overset { 1 8 } { \\mathrm { 1 8 } } \\mathrm { \\ n g / m I }$ 和54 $\\mathrm { n g } \\bullet \\mathrm { h } \\bullet \\mathrm { m L } ^ { - 1 }$ 增加至 41 ng /mL 和114 $\\mathrm { n g \\bullet h \\bullet _ { \\mathrm { m L } } \\mathrm { ^ { - 1 } } }$ ，可能与 OATP 转运作用被抑制有关［20］ 。 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳:2",
+    "source": "有机阴离子转运多肽OATP1B1、OATP1B3的基因多态性及其介导的药物相互作用研究进展_孙晓琳.pdf",
+    "text": "2． 3 非索非那定与其他药物的相互作用非索非那定是第二代 H1 抗组胺药，临床主要用于治疗变态反应性疾病，如过敏性鼻炎、荨麻疹、过敏性哮喘等，主要经肝脏以原型药物形式代谢，在肝细胞内的摄取主要经由 OATP1B1 和 OATP1B3 介导 。 Matsushima ［12］运用稳转细胞模型研究多种药物对 OATP1B1 和 OATP1B3 介导的非索非那定的摄取，结果发现环孢素和利福平在治疗浓度下都能够抑制非索非那定的摄取，从而导致嗜睡或中枢神经系统损伤等不良反应。\n大环内酯类药物通常是 CYP3A 的强抑制剂，其与他汀类药物的相互作用最初被认为与代谢酶被抑制有关。 然而近年来，在体内和体外水平上对大环内酯类药物体外对 OATP 介导的转运的影响进行研究。 Seithel 等在体外证明克拉霉素、泰利霉素、红霉素和罗红霉素能够抑制 OATP1B1 和OATP1B3 介导的普伐他汀的转运［19］。 Jacobson等的临床实验结果表明，克拉霉素能够将普伐他汀的 $C _ { \\mathrm { m a x } }$ x 和 AUC 分别 $\\textbf { \\textsf { M } } \\overset { 1 8 } { \\mathrm { 1 8 } } \\mathrm { \\ n g / m I }$ 和54 $\\mathrm { n g } \\bullet \\mathrm { h } \\bullet \\mathrm { m L } ^ { - 1 }$ 增加至 41 ng /mL 和114 $\\mathrm { n g \\bullet h \\bullet _ { \\mathrm { m L } } \\mathrm { ^ { - 1 } } }$ ，可能与 OATP 转运作用被抑制有关［20］ 。 。"
+  }
+]

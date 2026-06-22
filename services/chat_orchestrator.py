@@ -2,12 +2,15 @@
 from __future__ import annotations
 
 import logging
-from typing import Any, AsyncIterator, Dict, List, Optional
+from typing import TYPE_CHECKING, Any, AsyncIterator, Dict, List, Optional
 
 from services.llm_service import LLMService
 from services.query_understanding import QueryUnderstandingService
 from services.rag_service import RAGService
 from tools.database_tool import DatabaseTool
+
+if TYPE_CHECKING:
+    from services.graphrag_service import GraphRAGService
 
 logger = logging.getLogger(__name__)
 
@@ -20,11 +23,13 @@ class ChatOrchestrator:
         query_understanding: QueryUnderstandingService,
         rag_service: RAGService,
         llm_service: LLMService,
+        graphrag_service: Optional[GraphRAGService] = None,
         database_tool: Optional[DatabaseTool] = None,
     ):
         self.query_understanding = query_understanding
         self.rag_service = rag_service
         self.llm_service = llm_service
+        self.graphrag_service = graphrag_service
         self.database_tool = database_tool
 
     def answer(self, memory_id: str, message: str, user_id: Optional[int] = None) -> str:
@@ -116,6 +121,14 @@ class ChatOrchestrator:
                 retrieval_queries,
             )
         logger.info("意图分流: route=continue，进入医疗RAG，queries=%s", retrieval_queries)
+
+        primary_query = str(analysis.get("resolved_query") or analysis.get("normalized_query") or message).strip()
+        if self.graphrag_service is not None:
+            try:
+                return self.graphrag_service.retrieve_context_for_analysis(analysis, primary_query)
+            except Exception as exc:
+                logger.warning("GraphRAG 检索失败，回退旧RAG: error=%s", exc, exc_info=True)
+
         return self.rag_service.retrieve_context_multi(retrieval_queries)
 
     def _resolve_with_history(self, memory_id: str, message: str, analysis: Dict[str, Any]) -> Dict[str, Any]:

@@ -1,0 +1,239 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "地高辛",
+        "canonical_name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "canonical_name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "酮康唑",
+        "canonical_name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "恶心",
+        "canonical_name": "恶心",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "呕吐",
+        "canonical_name": "呕吐",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "视觉平衡失调",
+        "canonical_name": "视觉平衡失调",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "窦性心动过速",
+        "canonical_name": "窦性心动过速",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "地高辛血药浓度",
+        "canonical_name": "地高辛血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "充血性心力衰竭",
+        "canonical_name": "充血性心力衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "心房扑动",
+        "canonical_name": "心房扑动",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Disease",
+        "name": "心房颤动",
+        "canonical_name": "心房颤动",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Population",
+        "name": "老年人",
+        "canonical_name": "老年人",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "地高辛的药物相互作用_邱建红.pdf",
+          "chunk_index": "地高辛的药物相互作用_邱建红:0",
+          "raw_text": "地高辛为临床常用的强心苷类药物，主要用于充血性心力衰竭(CHF)的治疗",
+          "chunk_id": "地高辛的药物相互作用_邱建红:0",
+          "data": "地高辛的药物相互作用\n邱建红\n226001江苏省南通市中医院\nDrug interaction of digoxin Qiu Jianhong Nantong City Traditional Chinese Medicine Hospital of Jiangsu Province 226001 Abstract This paper studies the interaction and mechanism of digoxin and other drugs,and suggest that we should be careful to choose the combination of digoxin in clinical practice,should closely monitor the serum concentration of digoxin and prevent adverse reactions.地高辛为临床常用的强心苷类药物，主要用于充血性心力衰竭(CHF)的治疗和心房扑动及心房颤动(AF)患者心室率的控制。地高辛治疗指数窄，安全范围小，药效学、药动学个体差异大，治疗浓度与中毒浓度接近，其有效血浆浓度0.5～1.5 ng/mL，中毒血浆浓度＞2 ng/mL[1]，因此临床上有必要进行治疗药物监测(TDM)。地高辛常应用于老年人，老年人因其自身特点，联合用药趋于常规化和普遍化，这种合用对地高辛的血药浓度产生较大影响。本文主要讨论地高辛的药物相互作用及其机理，为临床合理、有效、安全利用地高辛及进行临床药学工作提供参考。\n地高辛与抗真菌药相互作用\n使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现，症状一般在合用7～13 d后最明显，地高辛血药浓度可增加2～4倍[4]。伊曲康唑抑制了P-gp介导的肾小管对地高辛的分泌，导致地高辛肾清除率下降，同时伊曲康唑也能抑制地高辛在血脑屏障中由P-gp介导的外向转运，因而合用后可能出现中枢神经系统的中毒症状。酮康唑与伊曲康唑有类似作用。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "地高辛的药物相互作用_邱建红.pdf",
+          "chunk_index": "地高辛的药物相互作用_邱建红:0",
+          "raw_text": "和心房扑动及心房颤动(AF)患者心室率的控制",
+          "chunk_id": "地高辛的药物相互作用_邱建红:0",
+          "data": "地高辛的药物相互作用\n邱建红\n226001江苏省南通市中医院\nDrug interaction of digoxin Qiu Jianhong Nantong City Traditional Chinese Medicine Hospital of Jiangsu Province 226001 Abstract This paper studies the interaction and mechanism of digoxin and other drugs,and suggest that we should be careful to choose the combination of digoxin in clinical practice,should closely monitor the serum concentration of digoxin and prevent adverse reactions.地高辛为临床常用的强心苷类药物，主要用于充血性心力衰竭(CHF)的治疗和心房扑动及心房颤动(AF)患者心室率的控制。地高辛治疗指数窄，安全范围小，药效学、药动学个体差异大，治疗浓度与中毒浓度接近，其有效血浆浓度0.5～1.5 ng/mL，中毒血浆浓度＞2 ng/mL[1]，因此临床上有必要进行治疗药物监测(TDM)。地高辛常应用于老年人，老年人因其自身特点，联合用药趋于常规化和普遍化，这种合用对地高辛的血药浓度产生较大影响。本文主要讨论地高辛的药物相互作用及其机理，为临床合理、有效、安全利用地高辛及进行临床药学工作提供参考。\n地高辛与抗真菌药相互作用\n使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现，症状一般在合用7～13 d后最明显，地高辛血药浓度可增加2～4倍[4]。伊曲康唑抑制了P-gp介导的肾小管对地高辛的分泌，导致地高辛肾清除率下降，同时伊曲康唑也能抑制地高辛在血脑屏障中由P-gp介导的外向转运，因而合用后可能出现中枢神经系统的中毒症状。酮康唑与伊曲康唑有类似作用。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "地高辛的药物相互作用_邱建红.pdf",
+          "chunk_index": "地高辛的药物相互作用_邱建红:0",
+          "raw_text": "和心房扑动及心房颤动(AF)患者心室率的控制",
+          "chunk_id": "地高辛的药物相互作用_邱建红:0",
+          "data": "地高辛的药物相互作用\n邱建红\n226001江苏省南通市中医院\nDrug interaction of digoxin Qiu Jianhong Nantong City Traditional Chinese Medicine Hospital of Jiangsu Province 226001 Abstract This paper studies the interaction and mechanism of digoxin and other drugs,and suggest that we should be careful to choose the combination of digoxin in clinical practice,should closely monitor the serum concentration of digoxin and prevent adverse reactions.地高辛为临床常用的强心苷类药物，主要用于充血性心力衰竭(CHF)的治疗和心房扑动及心房颤动(AF)患者心室率的控制。地高辛治疗指数窄，安全范围小，药效学、药动学个体差异大，治疗浓度与中毒浓度接近，其有效血浆浓度0.5～1.5 ng/mL，中毒血浆浓度＞2 ng/mL[1]，因此临床上有必要进行治疗药物监测(TDM)。地高辛常应用于老年人，老年人因其自身特点，联合用药趋于常规化和普遍化，这种合用对地高辛的血药浓度产生较大影响。本文主要讨论地高辛的药物相互作用及其机理，为临床合理、有效、安全利用地高辛及进行临床药学工作提供参考。\n地高辛与抗真菌药相互作用\n使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现，症状一般在合用7～13 d后最明显，地高辛血药浓度可增加2～4倍[4]。伊曲康唑抑制了P-gp介导的肾小管对地高辛的分泌，导致地高辛肾清除率下降，同时伊曲康唑也能抑制地高辛在血脑屏障中由P-gp介导的外向转运，因而合用后可能出现中枢神经系统的中毒症状。酮康唑与伊曲康唑有类似作用。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "地高辛的药物相互作用_邱建红.pdf",
+          "chunk_index": "地高辛的药物相互作用_邱建红:0",
+          "raw_text": "使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现，症状一般在合用7～13 d后最明显，地高辛血药浓度可增加2～4倍",
+          "chunk_id": "地高辛的药物相互作用_邱建红:0",
+          "data": "地高辛的药物相互作用\n邱建红\n226001江苏省南通市中医院\nDrug interaction of digoxin Qiu Jianhong Nantong City Traditional Chinese Medicine Hospital of Jiangsu Province 226001 Abstract This paper studies the interaction and mechanism of digoxin and other drugs,and suggest that we should be careful to choose the combination of digoxin in clinical practice,should closely monitor the serum concentration of digoxin and prevent adverse reactions.地高辛为临床常用的强心苷类药物，主要用于充血性心力衰竭(CHF)的治疗和心房扑动及心房颤动(AF)患者心室率的控制。地高辛治疗指数窄，安全范围小，药效学、药动学个体差异大，治疗浓度与中毒浓度接近，其有效血浆浓度0.5～1.5 ng/mL，中毒血浆浓度＞2 ng/mL[1]，因此临床上有必要进行治疗药物监测(TDM)。地高辛常应用于老年人，老年人因其自身特点，联合用药趋于常规化和普遍化，这种合用对地高辛的血药浓度产生较大影响。本文主要讨论地高辛的药物相互作用及其机理，为临床合理、有效、安全利用地高辛及进行临床药学工作提供参考。\n地高辛与抗真菌药相互作用\n使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现，症状一般在合用7～13 d后最明显，地高辛血药浓度可增加2～4倍[4]。伊曲康唑抑制了P-gp介导的肾小管对地高辛的分泌，导致地高辛肾清除率下降，同时伊曲康唑也能抑制地高辛在血脑屏障中由P-gp介导的外向转运，因而合用后可能出现中枢神经系统的中毒症状。酮康唑与伊曲康唑有类似作用。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "地高辛的药物相互作用_邱建红.pdf",
+          "chunk_index": "地高辛的药物相互作用_邱建红:0",
+          "raw_text": "酮康唑与伊曲康唑有类似作用",
+          "chunk_id": "地高辛的药物相互作用_邱建红:0",
+          "data": "地高辛的药物相互作用\n邱建红\n226001江苏省南通市中医院\nDrug interaction of digoxin Qiu Jianhong Nantong City Traditional Chinese Medicine Hospital of Jiangsu Province 226001 Abstract This paper studies the interaction and mechanism of digoxin and other drugs,and suggest that we should be careful to choose the combination of digoxin in clinical practice,should closely monitor the serum concentration of digoxin and prevent adverse reactions.地高辛为临床常用的强心苷类药物，主要用于充血性心力衰竭(CHF)的治疗和心房扑动及心房颤动(AF)患者心室率的控制。地高辛治疗指数窄，安全范围小，药效学、药动学个体差异大，治疗浓度与中毒浓度接近，其有效血浆浓度0.5～1.5 ng/mL，中毒血浆浓度＞2 ng/mL[1]，因此临床上有必要进行治疗药物监测(TDM)。地高辛常应用于老年人，老年人因其自身特点，联合用药趋于常规化和普遍化，这种合用对地高辛的血药浓度产生较大影响。本文主要讨论地高辛的药物相互作用及其机理，为临床合理、有效、安全利用地高辛及进行临床药学工作提供参考。\n地高辛与抗真菌药相互作用\n使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现，症状一般在合用7～13 d后最明显，地高辛血药浓度可增加2～4倍[4]。伊曲康唑抑制了P-gp介导的肾小管对地高辛的分泌，导致地高辛肾清除率下降，同时伊曲康唑也能抑制地高辛在血脑屏障中由P-gp介导的外向转运，因而合用后可能出现中枢神经系统的中毒症状。酮康唑与伊曲康唑有类似作用。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "地高辛的药物相互作用_邱建红.pdf",
+          "chunk_index": "地高辛的药物相互作用_邱建红:0",
+          "raw_text": "使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现",
+          "chunk_id": "地高辛的药物相互作用_邱建红:0",
+          "data": "地高辛的药物相互作用\n邱建红\n226001江苏省南通市中医院\nDrug interaction of digoxin Qiu Jianhong Nantong City Traditional Chinese Medicine Hospital of Jiangsu Province 226001 Abstract This paper studies the interaction and mechanism of digoxin and other drugs,and suggest that we should be careful to choose the combination of digoxin in clinical practice,should closely monitor the serum concentration of digoxin and prevent adverse reactions.地高辛为临床常用的强心苷类药物，主要用于充血性心力衰竭(CHF)的治疗和心房扑动及心房颤动(AF)患者心室率的控制。地高辛治疗指数窄，安全范围小，药效学、药动学个体差异大，治疗浓度与中毒浓度接近，其有效血浆浓度0.5～1.5 ng/mL，中毒血浆浓度＞2 ng/mL[1]，因此临床上有必要进行治疗药物监测(TDM)。地高辛常应用于老年人，老年人因其自身特点，联合用药趋于常规化和普遍化，这种合用对地高辛的血药浓度产生较大影响。本文主要讨论地高辛的药物相互作用及其机理，为临床合理、有效、安全利用地高辛及进行临床药学工作提供参考。\n地高辛与抗真菌药相互作用\n使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现，症状一般在合用7～13 d后最明显，地高辛血药浓度可增加2～4倍[4]。伊曲康唑抑制了P-gp介导的肾小管对地高辛的分泌，导致地高辛肾清除率下降，同时伊曲康唑也能抑制地高辛在血脑屏障中由P-gp介导的外向转运，因而合用后可能出现中枢神经系统的中毒症状。酮康唑与伊曲康唑有类似作用。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "地高辛的药物相互作用_邱建红.pdf",
+          "chunk_index": "地高辛的药物相互作用_邱建红:0",
+          "raw_text": "使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现",
+          "chunk_id": "地高辛的药物相互作用_邱建红:0",
+          "data": "地高辛的药物相互作用\n邱建红\n226001江苏省南通市中医院\nDrug interaction of digoxin Qiu Jianhong Nantong City Traditional Chinese Medicine Hospital of Jiangsu Province 226001 Abstract This paper studies the interaction and mechanism of digoxin and other drugs,and suggest that we should be careful to choose the combination of digoxin in clinical practice,should closely monitor the serum concentration of digoxin and prevent adverse reactions.地高辛为临床常用的强心苷类药物，主要用于充血性心力衰竭(CHF)的治疗和心房扑动及心房颤动(AF)患者心室率的控制。地高辛治疗指数窄，安全范围小，药效学、药动学个体差异大，治疗浓度与中毒浓度接近，其有效血浆浓度0.5～1.5 ng/mL，中毒血浆浓度＞2 ng/mL[1]，因此临床上有必要进行治疗药物监测(TDM)。地高辛常应用于老年人，老年人因其自身特点，联合用药趋于常规化和普遍化，这种合用对地高辛的血药浓度产生较大影响。本文主要讨论地高辛的药物相互作用及其机理，为临床合理、有效、安全利用地高辛及进行临床药学工作提供参考。\n地高辛与抗真菌药相互作用\n使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现，症状一般在合用7～13 d后最明显，地高辛血药浓度可增加2～4倍[4]。伊曲康唑抑制了P-gp介导的肾小管对地高辛的分泌，导致地高辛肾清除率下降，同时伊曲康唑也能抑制地高辛在血脑屏障中由P-gp介导的外向转运，因而合用后可能出现中枢神经系统的中毒症状。酮康唑与伊曲康唑有类似作用。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "地高辛的药物相互作用_邱建红.pdf",
+          "chunk_index": "地高辛的药物相互作用_邱建红:0",
+          "raw_text": "使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现",
+          "chunk_id": "地高辛的药物相互作用_邱建红:0",
+          "data": "地高辛的药物相互作用\n邱建红\n226001江苏省南通市中医院\nDrug interaction of digoxin Qiu Jianhong Nantong City Traditional Chinese Medicine Hospital of Jiangsu Province 226001 Abstract This paper studies the interaction and mechanism of digoxin and other drugs,and suggest that we should be careful to choose the combination of digoxin in clinical practice,should closely monitor the serum concentration of digoxin and prevent adverse reactions.地高辛为临床常用的强心苷类药物，主要用于充血性心力衰竭(CHF)的治疗和心房扑动及心房颤动(AF)患者心室率的控制。地高辛治疗指数窄，安全范围小，药效学、药动学个体差异大，治疗浓度与中毒浓度接近，其有效血浆浓度0.5～1.5 ng/mL，中毒血浆浓度＞2 ng/mL[1]，因此临床上有必要进行治疗药物监测(TDM)。地高辛常应用于老年人，老年人因其自身特点，联合用药趋于常规化和普遍化，这种合用对地高辛的血药浓度产生较大影响。本文主要讨论地高辛的药物相互作用及其机理，为临床合理、有效、安全利用地高辛及进行临床药学工作提供参考。\n地高辛与抗真菌药相互作用\n使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现，症状一般在合用7～13 d后最明显，地高辛血药浓度可增加2～4倍[4]。伊曲康唑抑制了P-gp介导的肾小管对地高辛的分泌，导致地高辛肾清除率下降，同时伊曲康唑也能抑制地高辛在血脑屏障中由P-gp介导的外向转运，因而合用后可能出现中枢神经系统的中毒症状。酮康唑与伊曲康唑有类似作用。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "地高辛的药物相互作用_邱建红.pdf",
+          "chunk_index": "地高辛的药物相互作用_邱建红:0",
+          "raw_text": "使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现",
+          "chunk_id": "地高辛的药物相互作用_邱建红:0",
+          "data": "地高辛的药物相互作用\n邱建红\n226001江苏省南通市中医院\nDrug interaction of digoxin Qiu Jianhong Nantong City Traditional Chinese Medicine Hospital of Jiangsu Province 226001 Abstract This paper studies the interaction and mechanism of digoxin and other drugs,and suggest that we should be careful to choose the combination of digoxin in clinical practice,should closely monitor the serum concentration of digoxin and prevent adverse reactions.地高辛为临床常用的强心苷类药物，主要用于充血性心力衰竭(CHF)的治疗和心房扑动及心房颤动(AF)患者心室率的控制。地高辛治疗指数窄，安全范围小，药效学、药动学个体差异大，治疗浓度与中毒浓度接近，其有效血浆浓度0.5～1.5 ng/mL，中毒血浆浓度＞2 ng/mL[1]，因此临床上有必要进行治疗药物监测(TDM)。地高辛常应用于老年人，老年人因其自身特点，联合用药趋于常规化和普遍化，这种合用对地高辛的血药浓度产生较大影响。本文主要讨论地高辛的药物相互作用及其机理，为临床合理、有效、安全利用地高辛及进行临床药学工作提供参考。\n地高辛与抗真菌药相互作用\n使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现，症状一般在合用7～13 d后最明显，地高辛血药浓度可增加2～4倍[4]。伊曲康唑抑制了P-gp介导的肾小管对地高辛的分泌，导致地高辛肾清除率下降，同时伊曲康唑也能抑制地高辛在血脑屏障中由P-gp介导的外向转运，因而合用后可能出现中枢神经系统的中毒症状。酮康唑与伊曲康唑有类似作用。"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "地高辛的药物相互作用_邱建红.pdf",
+          "chunk_index": "地高辛的药物相互作用_邱建红:0",
+          "raw_text": "地高辛血药浓度可增加2～4倍",
+          "chunk_id": "地高辛的药物相互作用_邱建红:0",
+          "data": "地高辛的药物相互作用\n邱建红\n226001江苏省南通市中医院\nDrug interaction of digoxin Qiu Jianhong Nantong City Traditional Chinese Medicine Hospital of Jiangsu Province 226001 Abstract This paper studies the interaction and mechanism of digoxin and other drugs,and suggest that we should be careful to choose the combination of digoxin in clinical practice,should closely monitor the serum concentration of digoxin and prevent adverse reactions.地高辛为临床常用的强心苷类药物，主要用于充血性心力衰竭(CHF)的治疗和心房扑动及心房颤动(AF)患者心室率的控制。地高辛治疗指数窄，安全范围小，药效学、药动学个体差异大，治疗浓度与中毒浓度接近，其有效血浆浓度0.5～1.5 ng/mL，中毒血浆浓度＞2 ng/mL[1]，因此临床上有必要进行治疗药物监测(TDM)。地高辛常应用于老年人，老年人因其自身特点，联合用药趋于常规化和普遍化，这种合用对地高辛的血药浓度产生较大影响。本文主要讨论地高辛的药物相互作用及其机理，为临床合理、有效、安全利用地高辛及进行临床药学工作提供参考。\n地高辛与抗真菌药相互作用\n使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现，症状一般在合用7～13 d后最明显，地高辛血药浓度可增加2～4倍[4]。伊曲康唑抑制了P-gp介导的肾小管对地高辛的分泌，导致地高辛肾清除率下降，同时伊曲康唑也能抑制地高辛在血脑屏障中由P-gp介导的外向转运，因而合用后可能出现中枢神经系统的中毒症状。酮康唑与伊曲康唑有类似作用。"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "地高辛的药物相互作用_邱建红.pdf",
+          "chunk_index": "地高辛的药物相互作用_邱建红:0",
+          "raw_text": "地高辛常应用于老年人，老年人因其自身特点，联合用药趋于常规化和普遍化，这种合用对地高辛的血药浓度产生较大影响",
+          "chunk_id": "地高辛的药物相互作用_邱建红:0",
+          "data": "地高辛的药物相互作用\n邱建红\n226001江苏省南通市中医院\nDrug interaction of digoxin Qiu Jianhong Nantong City Traditional Chinese Medicine Hospital of Jiangsu Province 226001 Abstract This paper studies the interaction and mechanism of digoxin and other drugs,and suggest that we should be careful to choose the combination of digoxin in clinical practice,should closely monitor the serum concentration of digoxin and prevent adverse reactions.地高辛为临床常用的强心苷类药物，主要用于充血性心力衰竭(CHF)的治疗和心房扑动及心房颤动(AF)患者心室率的控制。地高辛治疗指数窄，安全范围小，药效学、药动学个体差异大，治疗浓度与中毒浓度接近，其有效血浆浓度0.5～1.5 ng/mL，中毒血浆浓度＞2 ng/mL[1]，因此临床上有必要进行治疗药物监测(TDM)。地高辛常应用于老年人，老年人因其自身特点，联合用药趋于常规化和普遍化，这种合用对地高辛的血药浓度产生较大影响。本文主要讨论地高辛的药物相互作用及其机理，为临床合理、有效、安全利用地高辛及进行临床药学工作提供参考。\n地高辛与抗真菌药相互作用\n使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现，症状一般在合用7～13 d后最明显，地高辛血药浓度可增加2～4倍[4]。伊曲康唑抑制了P-gp介导的肾小管对地高辛的分泌，导致地高辛肾清除率下降，同时伊曲康唑也能抑制地高辛在血脑屏障中由P-gp介导的外向转运，因而合用后可能出现中枢神经系统的中毒症状。酮康唑与伊曲康唑有类似作用。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "地高辛的药物相互作用_邱建红:0",
+    "source": "地高辛的药物相互作用_邱建红.pdf",
+    "text": "地高辛的药物相互作用\n邱建红\n226001江苏省南通市中医院\nDrug interaction of digoxin Qiu Jianhong Nantong City Traditional Chinese Medicine Hospital of Jiangsu Province 226001 Abstract This paper studies the interaction and mechanism of digoxin and other drugs,and suggest that we should be careful to choose the combination of digoxin in clinical practice,should closely monitor the serum concentration of digoxin and prevent adverse reactions.地高辛为临床常用的强心苷类药物，主要用于充血性心力衰竭(CHF)的治疗和心房扑动及心房颤动(AF)患者心室率的控制。地高辛治疗指数窄，安全范围小，药效学、药动学个体差异大，治疗浓度与中毒浓度接近，其有效血浆浓度0.5～1.5 ng/mL，中毒血浆浓度＞2 ng/mL[1]，因此临床上有必要进行治疗药物监测(TDM)。地高辛常应用于老年人，老年人因其自身特点，联合用药趋于常规化和普遍化，这种合用对地高辛的血药浓度产生较大影响。本文主要讨论地高辛的药物相互作用及其机理，为临床合理、有效、安全利用地高辛及进行临床药学工作提供参考。\n地高辛与抗真菌药相互作用\n使用地高辛患者合用伊曲康唑可产生恶心、呕吐、视觉平衡失调、窦性心动过速等中毒表现，症状一般在合用7～13 d后最明显，地高辛血药浓度可增加2～4倍[4]。伊曲康唑抑制了P-gp介导的肾小管对地高辛的分泌，导致地高辛肾清除率下降，同时伊曲康唑也能抑制地高辛在血脑屏障中由P-gp介导的外向转运，因而合用后可能出现中枢神经系统的中毒症状。酮康唑与伊曲康唑有类似作用。"
+  }
+]

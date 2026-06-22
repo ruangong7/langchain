@@ -1,0 +1,170 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "LDV/SOF",
+        "canonical_name": "雷迪帕韦/索磷布韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "洛匹那韦/利托那韦",
+        "canonical_name": "洛匹那韦/利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "RAL",
+        "canonical_name": "拉替拉韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "DAC",
+        "canonical_name": "达卡他韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "达鲁那韦-利托那韦",
+        "canonical_name": "达鲁那韦/利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "阿扎那韦-利托那韦",
+        "canonical_name": "阿扎那韦/利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "药物性肝损伤",
+        "canonical_name": "药物性肝损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Symptom",
+        "name": "胆红素升高",
+        "canonical_name": "胆红素升高",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:5",
+          "raw_text": "不建议 LPV/r与 LDV/SOF 的联合应用",
+          "mechanism": "LDV 作为 P-糖蛋白的底物导致 LPV 的清除减少，血药浓度相应增加",
+          "consequence": "增加肝损伤风险",
+          "recommendation": "不建议联合应用",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:5",
+          "data": "LDV/SOF 的药代动力学没有影响，但这些变化没有实际的临床意义 [11]。3　蛋白酶抑制剂与的相互作用\n目前国内的蛋白酶抑制剂主要是洛匹那韦/ 利托那韦（lopinavir boosted with ritonavir, LPV/r）。Tseng 等 [25] 在对 67 例 HIV/HCV 合并感染者应用 LDV/SOF 抗 HCV 治疗过程中，发现了 3 例药物性肝损伤，这 3 例患者在疗程开始的 2 周内出现了胆红素较正常水平 2 ～ 14 倍的升高，而且均应用了以 LPV/r 为基础的 ART 方案，推测可能是因为 LDV 作为 P- 糖蛋白的底物导致 LPV 的清除减少，血药浓度相应增加，因此不建议 LPV/r与 LDV/SOF 的联合应用。在关于 HIV/HCV 合并感染的 ANRS HC30QUADRI 研究中发现，RAL 与 DAC 联合应用后，RAL 的血药浓度只降低了 6 ，DAC 则没有明显的变化，因此，二者联用时均不须要调整剂量[31]。在针对健康志愿者的AI444-093研究中发现，LPV/r 与 DAC 联合应用后，DAC 的药时 AUC仅轻度增加（15 ），无须调整 DAC 的剂量。针对 HIV/HCV 合并感染者的 AI444-043 研究发现，分别联合应用达鲁那韦 - 利托那韦（darunavirboosted with ritonavir, DRV/r） 和 LPV/r 后，DAC的 AUC 增幅较小，分别为 40 和 15 [26]。在AI444-032 研究中发现当阿扎那韦 - 利托那韦（atazanavir boosted with ritonavir, ATV/r）与 DAC联用时，DAC 的血药浓度升高 2.1 倍，因此建议DAC 在与增强型蛋白酶抑制剂联用时降低DAC的剂量[27]。然而，另一项联合应用 DRV/r 和 DAC（30 mg）的研究发现，12 例 HIV/HCV 合并感染者中有 9 例出现了复发 [28]。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:5",
+          "raw_text": "发现了 3 例药物性肝损伤",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:5",
+          "data": "LDV/SOF 的药代动力学没有影响，但这些变化没有实际的临床意义 [11]。3　蛋白酶抑制剂与的相互作用\n目前国内的蛋白酶抑制剂主要是洛匹那韦/ 利托那韦（lopinavir boosted with ritonavir, LPV/r）。Tseng 等 [25] 在对 67 例 HIV/HCV 合并感染者应用 LDV/SOF 抗 HCV 治疗过程中，发现了 3 例药物性肝损伤，这 3 例患者在疗程开始的 2 周内出现了胆红素较正常水平 2 ～ 14 倍的升高，而且均应用了以 LPV/r 为基础的 ART 方案，推测可能是因为 LDV 作为 P- 糖蛋白的底物导致 LPV 的清除减少，血药浓度相应增加，因此不建议 LPV/r与 LDV/SOF 的联合应用。在关于 HIV/HCV 合并感染的 ANRS HC30QUADRI 研究中发现，RAL 与 DAC 联合应用后，RAL 的血药浓度只降低了 6 ，DAC 则没有明显的变化，因此，二者联用时均不须要调整剂量[31]。在针对健康志愿者的AI444-093研究中发现，LPV/r 与 DAC 联合应用后，DAC 的药时 AUC仅轻度增加（15 ），无须调整 DAC 的剂量。针对 HIV/HCV 合并感染者的 AI444-043 研究发现，分别联合应用达鲁那韦 - 利托那韦（darunavirboosted with ritonavir, DRV/r） 和 LPV/r 后，DAC的 AUC 增幅较小，分别为 40 和 15 [26]。在AI444-032 研究中发现当阿扎那韦 - 利托那韦（atazanavir boosted with ritonavir, ATV/r）与 DAC联用时，DAC 的血药浓度升高 2.1 倍，因此建议DAC 在与增强型蛋白酶抑制剂联用时降低DAC的剂量[27]。然而，另一项联合应用 DRV/r 和 DAC（30 mg）的研究发现，12 例 HIV/HCV 合并感染者中有 9 例出现了复发 [28]。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:5",
+          "raw_text": "出现了胆红素较正常水平 2 ～ 14 倍的升高",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:5",
+          "data": "LDV/SOF 的药代动力学没有影响，但这些变化没有实际的临床意义 [11]。3　蛋白酶抑制剂与的相互作用\n目前国内的蛋白酶抑制剂主要是洛匹那韦/ 利托那韦（lopinavir boosted with ritonavir, LPV/r）。Tseng 等 [25] 在对 67 例 HIV/HCV 合并感染者应用 LDV/SOF 抗 HCV 治疗过程中，发现了 3 例药物性肝损伤，这 3 例患者在疗程开始的 2 周内出现了胆红素较正常水平 2 ～ 14 倍的升高，而且均应用了以 LPV/r 为基础的 ART 方案，推测可能是因为 LDV 作为 P- 糖蛋白的底物导致 LPV 的清除减少，血药浓度相应增加，因此不建议 LPV/r与 LDV/SOF 的联合应用。在关于 HIV/HCV 合并感染的 ANRS HC30QUADRI 研究中发现，RAL 与 DAC 联合应用后，RAL 的血药浓度只降低了 6 ，DAC 则没有明显的变化，因此，二者联用时均不须要调整剂量[31]。在针对健康志愿者的AI444-093研究中发现，LPV/r 与 DAC 联合应用后，DAC 的药时 AUC仅轻度增加（15 ），无须调整 DAC 的剂量。针对 HIV/HCV 合并感染者的 AI444-043 研究发现，分别联合应用达鲁那韦 - 利托那韦（darunavirboosted with ritonavir, DRV/r） 和 LPV/r 后，DAC的 AUC 增幅较小，分别为 40 和 15 [26]。在AI444-032 研究中发现当阿扎那韦 - 利托那韦（atazanavir boosted with ritonavir, ATV/r）与 DAC联用时，DAC 的血药浓度升高 2.1 倍，因此建议DAC 在与增强型蛋白酶抑制剂联用时降低DAC的剂量[27]。然而，另一项联合应用 DRV/r 和 DAC（30 mg）的研究发现，12 例 HIV/HCV 合并感染者中有 9 例出现了复发 [28]。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:5",
+          "raw_text": "RAL 与 DAC 联合应用后，RAL 的血药浓度只降低了 6 ，DAC 则没有明显的变化，因此，二者联用时均不须要调整剂量",
+          "consequence": "无临床意义变化",
+          "recommendation": "无需调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:5",
+          "data": "LDV/SOF 的药代动力学没有影响，但这些变化没有实际的临床意义 [11]。3　蛋白酶抑制剂与的相互作用\n目前国内的蛋白酶抑制剂主要是洛匹那韦/ 利托那韦（lopinavir boosted with ritonavir, LPV/r）。Tseng 等 [25] 在对 67 例 HIV/HCV 合并感染者应用 LDV/SOF 抗 HCV 治疗过程中，发现了 3 例药物性肝损伤，这 3 例患者在疗程开始的 2 周内出现了胆红素较正常水平 2 ～ 14 倍的升高，而且均应用了以 LPV/r 为基础的 ART 方案，推测可能是因为 LDV 作为 P- 糖蛋白的底物导致 LPV 的清除减少，血药浓度相应增加，因此不建议 LPV/r与 LDV/SOF 的联合应用。在关于 HIV/HCV 合并感染的 ANRS HC30QUADRI 研究中发现，RAL 与 DAC 联合应用后，RAL 的血药浓度只降低了 6 ，DAC 则没有明显的变化，因此，二者联用时均不须要调整剂量[31]。在针对健康志愿者的AI444-093研究中发现，LPV/r 与 DAC 联合应用后，DAC 的药时 AUC仅轻度增加（15 ），无须调整 DAC 的剂量。针对 HIV/HCV 合并感染者的 AI444-043 研究发现，分别联合应用达鲁那韦 - 利托那韦（darunavirboosted with ritonavir, DRV/r） 和 LPV/r 后，DAC的 AUC 增幅较小，分别为 40 和 15 [26]。在AI444-032 研究中发现当阿扎那韦 - 利托那韦（atazanavir boosted with ritonavir, ATV/r）与 DAC联用时，DAC 的血药浓度升高 2.1 倍，因此建议DAC 在与增强型蛋白酶抑制剂联用时降低DAC的剂量[27]。然而，另一项联合应用 DRV/r 和 DAC（30 mg）的研究发现，12 例 HIV/HCV 合并感染者中有 9 例出现了复发 [28]。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:5",
+          "raw_text": "LPV/r 与 DAC 联合应用后，DAC 的药时 AUC仅轻度增加（15 ），无须调整 DAC 的剂量",
+          "consequence": "AUC轻度增加15%",
+          "recommendation": "无需调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:5",
+          "data": "LDV/SOF 的药代动力学没有影响，但这些变化没有实际的临床意义 [11]。3　蛋白酶抑制剂与的相互作用\n目前国内的蛋白酶抑制剂主要是洛匹那韦/ 利托那韦（lopinavir boosted with ritonavir, LPV/r）。Tseng 等 [25] 在对 67 例 HIV/HCV 合并感染者应用 LDV/SOF 抗 HCV 治疗过程中，发现了 3 例药物性肝损伤，这 3 例患者在疗程开始的 2 周内出现了胆红素较正常水平 2 ～ 14 倍的升高，而且均应用了以 LPV/r 为基础的 ART 方案，推测可能是因为 LDV 作为 P- 糖蛋白的底物导致 LPV 的清除减少，血药浓度相应增加，因此不建议 LPV/r与 LDV/SOF 的联合应用。在关于 HIV/HCV 合并感染的 ANRS HC30QUADRI 研究中发现，RAL 与 DAC 联合应用后，RAL 的血药浓度只降低了 6 ，DAC 则没有明显的变化，因此，二者联用时均不须要调整剂量[31]。在针对健康志愿者的AI444-093研究中发现，LPV/r 与 DAC 联合应用后，DAC 的药时 AUC仅轻度增加（15 ），无须调整 DAC 的剂量。针对 HIV/HCV 合并感染者的 AI444-043 研究发现，分别联合应用达鲁那韦 - 利托那韦（darunavirboosted with ritonavir, DRV/r） 和 LPV/r 后，DAC的 AUC 增幅较小，分别为 40 和 15 [26]。在AI444-032 研究中发现当阿扎那韦 - 利托那韦（atazanavir boosted with ritonavir, ATV/r）与 DAC联用时，DAC 的血药浓度升高 2.1 倍，因此建议DAC 在与增强型蛋白酶抑制剂联用时降低DAC的剂量[27]。然而，另一项联合应用 DRV/r 和 DAC（30 mg）的研究发现，12 例 HIV/HCV 合并感染者中有 9 例出现了复发 [28]。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:5",
+          "raw_text": "分别联合应用达鲁那韦 - 利托那韦（DRV/r）和 LPV/r 后，DAC的 AUC 增幅较小，分别为 40 和 15",
+          "consequence": "AUC增加40%",
+          "recommendation": "可能需要调整剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:5",
+          "data": "LDV/SOF 的药代动力学没有影响，但这些变化没有实际的临床意义 [11]。3　蛋白酶抑制剂与的相互作用\n目前国内的蛋白酶抑制剂主要是洛匹那韦/ 利托那韦（lopinavir boosted with ritonavir, LPV/r）。Tseng 等 [25] 在对 67 例 HIV/HCV 合并感染者应用 LDV/SOF 抗 HCV 治疗过程中，发现了 3 例药物性肝损伤，这 3 例患者在疗程开始的 2 周内出现了胆红素较正常水平 2 ～ 14 倍的升高，而且均应用了以 LPV/r 为基础的 ART 方案，推测可能是因为 LDV 作为 P- 糖蛋白的底物导致 LPV 的清除减少，血药浓度相应增加，因此不建议 LPV/r与 LDV/SOF 的联合应用。在关于 HIV/HCV 合并感染的 ANRS HC30QUADRI 研究中发现，RAL 与 DAC 联合应用后，RAL 的血药浓度只降低了 6 ，DAC 则没有明显的变化，因此，二者联用时均不须要调整剂量[31]。在针对健康志愿者的AI444-093研究中发现，LPV/r 与 DAC 联合应用后，DAC 的药时 AUC仅轻度增加（15 ），无须调整 DAC 的剂量。针对 HIV/HCV 合并感染者的 AI444-043 研究发现，分别联合应用达鲁那韦 - 利托那韦（darunavirboosted with ritonavir, DRV/r） 和 LPV/r 后，DAC的 AUC 增幅较小，分别为 40 和 15 [26]。在AI444-032 研究中发现当阿扎那韦 - 利托那韦（atazanavir boosted with ritonavir, ATV/r）与 DAC联用时，DAC 的血药浓度升高 2.1 倍，因此建议DAC 在与增强型蛋白酶抑制剂联用时降低DAC的剂量[27]。然而，另一项联合应用 DRV/r 和 DAC（30 mg）的研究发现，12 例 HIV/HCV 合并感染者中有 9 例出现了复发 [28]。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:5",
+          "raw_text": "阿扎那韦 - 利托那韦（ATV/r）与 DAC联用时，DAC 的血药浓度升高 2.1 倍，因此建议DAC 在与增强型蛋白酶抑制剂联用时降低DAC的剂量",
+          "consequence": "血药浓度升高2.1倍",
+          "recommendation": "降低DAC剂量",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:5",
+          "data": "LDV/SOF 的药代动力学没有影响，但这些变化没有实际的临床意义 [11]。3　蛋白酶抑制剂与的相互作用\n目前国内的蛋白酶抑制剂主要是洛匹那韦/ 利托那韦（lopinavir boosted with ritonavir, LPV/r）。Tseng 等 [25] 在对 67 例 HIV/HCV 合并感染者应用 LDV/SOF 抗 HCV 治疗过程中，发现了 3 例药物性肝损伤，这 3 例患者在疗程开始的 2 周内出现了胆红素较正常水平 2 ～ 14 倍的升高，而且均应用了以 LPV/r 为基础的 ART 方案，推测可能是因为 LDV 作为 P- 糖蛋白的底物导致 LPV 的清除减少，血药浓度相应增加，因此不建议 LPV/r与 LDV/SOF 的联合应用。在关于 HIV/HCV 合并感染的 ANRS HC30QUADRI 研究中发现，RAL 与 DAC 联合应用后，RAL 的血药浓度只降低了 6 ，DAC 则没有明显的变化，因此，二者联用时均不须要调整剂量[31]。在针对健康志愿者的AI444-093研究中发现，LPV/r 与 DAC 联合应用后，DAC 的药时 AUC仅轻度增加（15 ），无须调整 DAC 的剂量。针对 HIV/HCV 合并感染者的 AI444-043 研究发现，分别联合应用达鲁那韦 - 利托那韦（darunavirboosted with ritonavir, DRV/r） 和 LPV/r 后，DAC的 AUC 增幅较小，分别为 40 和 15 [26]。在AI444-032 研究中发现当阿扎那韦 - 利托那韦（atazanavir boosted with ritonavir, ATV/r）与 DAC联用时，DAC 的血药浓度升高 2.1 倍，因此建议DAC 在与增强型蛋白酶抑制剂联用时降低DAC的剂量[27]。然而，另一项联合应用 DRV/r 和 DAC（30 mg）的研究发现，12 例 HIV/HCV 合并感染者中有 9 例出现了复发 [28]。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:5",
+    "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+    "text": "LDV/SOF 的药代动力学没有影响，但这些变化没有实际的临床意义 [11]。3　蛋白酶抑制剂与的相互作用\n目前国内的蛋白酶抑制剂主要是洛匹那韦/ 利托那韦（lopinavir boosted with ritonavir, LPV/r）。Tseng 等 [25] 在对 67 例 HIV/HCV 合并感染者应用 LDV/SOF 抗 HCV 治疗过程中，发现了 3 例药物性肝损伤，这 3 例患者在疗程开始的 2 周内出现了胆红素较正常水平 2 ～ 14 倍的升高，而且均应用了以 LPV/r 为基础的 ART 方案，推测可能是因为 LDV 作为 P- 糖蛋白的底物导致 LPV 的清除减少，血药浓度相应增加，因此不建议 LPV/r与 LDV/SOF 的联合应用。在关于 HIV/HCV 合并感染的 ANRS HC30QUADRI 研究中发现，RAL 与 DAC 联合应用后，RAL 的血药浓度只降低了 6 ，DAC 则没有明显的变化，因此，二者联用时均不须要调整剂量[31]。在针对健康志愿者的AI444-093研究中发现，LPV/r 与 DAC 联合应用后，DAC 的药时 AUC仅轻度增加（15 ），无须调整 DAC 的剂量。针对 HIV/HCV 合并感染者的 AI444-043 研究发现，分别联合应用达鲁那韦 - 利托那韦（darunavirboosted with ritonavir, DRV/r） 和 LPV/r 后，DAC的 AUC 增幅较小，分别为 40 和 15 [26]。在AI444-032 研究中发现当阿扎那韦 - 利托那韦（atazanavir boosted with ritonavir, ATV/r）与 DAC联用时，DAC 的血药浓度升高 2.1 倍，因此建议DAC 在与增强型蛋白酶抑制剂联用时降低DAC的剂量[27]。然而，另一项联合应用 DRV/r 和 DAC（30 mg）的研究发现，12 例 HIV/HCV 合并感染者中有 9 例出现了复发 [28]。"
+  }
+]

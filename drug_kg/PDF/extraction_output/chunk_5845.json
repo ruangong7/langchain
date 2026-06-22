@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "莫西沙星",
+        "canonical_name": "莫西沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "呼吸喹诺酮类",
+        "canonical_name": "呼吸喹诺酮类",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "第四代氟喹诺酮类",
+        "canonical_name": "第四代氟喹诺酮类",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "肺部感染",
+        "canonical_name": "肺部感染",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "左氧氟沙星",
+        "canonical_name": "左氧氟沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "吉米沙星",
+        "canonical_name": "吉米沙星",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄.pdf",
+          "chunk_index": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄:9",
+          "raw_text": "现临床上公认的治疗细菌性肺部感染最好的药物是第四代氟喹诺酮类药物莫西沙星",
+          "chunk_id": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄:9",
+          "data": "疗或换药后，避免了不良反应的发生，优化了治疗方案。结论莫西沙星用于治疗肺部感染临床疗效显著，不良反应少，是名副其实的“呼吸喹诺酮类”药物。但由于肺部感染患者多数患有基础疾病，联合使用药物种类较多，所以临床使用时应特别关注药物相互作用的发生。Conclusion Moxifloxacin is a real \"breathing quinolone\" drug with remarkable clinical efficacy and few adverse reactions in the treatment of pulmonary infection. However, since most patients with pulmonary infection suffer from underlying diseases and there are many kinds of drugs used in combination, special attention should be paid to the occurrence of drug interactions in clinical use.[Keywords] moxifloxacin;pulmonary infections;clinical evaluation;drug interactions;inpatients;analysis肺部感染指终末气道、肺泡腔及肺间质在内的肺实质炎症，病因以细菌性感染最为常见，主要是由于患者免疫力或呼吸功能低下引起，与患者自身的营养状况及基础疾病密切相关。现临床上公认的治疗细菌性肺部感染最好的药物是第四代氟喹诺酮类药物莫西沙星，其抗菌谱广，抗菌活性强，不良反应少，可用于革兰阳性菌、革兰阴性菌、厌氧菌、支原体、衣原体、军团菌等感染 [1]，与左氧氟沙星和吉米沙星并称为“呼吸喹诺酮类”，其抗菌机制是干扰Ⅱ、Ⅳ拓扑异构酶，而拓扑异构酶是控制 DNA 复制、修复、转录的关键酶 [2]。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄.pdf",
+          "chunk_index": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄:9",
+          "raw_text": "与左氧氟沙星和吉米沙星并称为“呼吸喹诺酮类”",
+          "chunk_id": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄:9",
+          "data": "疗或换药后，避免了不良反应的发生，优化了治疗方案。结论莫西沙星用于治疗肺部感染临床疗效显著，不良反应少，是名副其实的“呼吸喹诺酮类”药物。但由于肺部感染患者多数患有基础疾病，联合使用药物种类较多，所以临床使用时应特别关注药物相互作用的发生。Conclusion Moxifloxacin is a real \"breathing quinolone\" drug with remarkable clinical efficacy and few adverse reactions in the treatment of pulmonary infection. However, since most patients with pulmonary infection suffer from underlying diseases and there are many kinds of drugs used in combination, special attention should be paid to the occurrence of drug interactions in clinical use.[Keywords] moxifloxacin;pulmonary infections;clinical evaluation;drug interactions;inpatients;analysis肺部感染指终末气道、肺泡腔及肺间质在内的肺实质炎症，病因以细菌性感染最为常见，主要是由于患者免疫力或呼吸功能低下引起，与患者自身的营养状况及基础疾病密切相关。现临床上公认的治疗细菌性肺部感染最好的药物是第四代氟喹诺酮类药物莫西沙星，其抗菌谱广，抗菌活性强，不良反应少，可用于革兰阳性菌、革兰阴性菌、厌氧菌、支原体、衣原体、军团菌等感染 [1]，与左氧氟沙星和吉米沙星并称为“呼吸喹诺酮类”，其抗菌机制是干扰Ⅱ、Ⅳ拓扑异构酶，而拓扑异构酶是控制 DNA 复制、修复、转录的关键酶 [2]。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄.pdf",
+          "chunk_index": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄:9",
+          "raw_text": "与左氧氟沙星和吉米沙星并称为“呼吸喹诺酮类”",
+          "chunk_id": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄:9",
+          "data": "疗或换药后，避免了不良反应的发生，优化了治疗方案。结论莫西沙星用于治疗肺部感染临床疗效显著，不良反应少，是名副其实的“呼吸喹诺酮类”药物。但由于肺部感染患者多数患有基础疾病，联合使用药物种类较多，所以临床使用时应特别关注药物相互作用的发生。Conclusion Moxifloxacin is a real \"breathing quinolone\" drug with remarkable clinical efficacy and few adverse reactions in the treatment of pulmonary infection. However, since most patients with pulmonary infection suffer from underlying diseases and there are many kinds of drugs used in combination, special attention should be paid to the occurrence of drug interactions in clinical use.[Keywords] moxifloxacin;pulmonary infections;clinical evaluation;drug interactions;inpatients;analysis肺部感染指终末气道、肺泡腔及肺间质在内的肺实质炎症，病因以细菌性感染最为常见，主要是由于患者免疫力或呼吸功能低下引起，与患者自身的营养状况及基础疾病密切相关。现临床上公认的治疗细菌性肺部感染最好的药物是第四代氟喹诺酮类药物莫西沙星，其抗菌谱广，抗菌活性强，不良反应少，可用于革兰阳性菌、革兰阴性菌、厌氧菌、支原体、衣原体、军团菌等感染 [1]，与左氧氟沙星和吉米沙星并称为“呼吸喹诺酮类”，其抗菌机制是干扰Ⅱ、Ⅳ拓扑异构酶，而拓扑异构酶是控制 DNA 复制、修复、转录的关键酶 [2]。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄.pdf",
+          "chunk_index": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄:9",
+          "raw_text": "与左氧氟沙星和吉米沙星并称为“呼吸喹诺酮类”",
+          "chunk_id": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄:9",
+          "data": "疗或换药后，避免了不良反应的发生，优化了治疗方案。结论莫西沙星用于治疗肺部感染临床疗效显著，不良反应少，是名副其实的“呼吸喹诺酮类”药物。但由于肺部感染患者多数患有基础疾病，联合使用药物种类较多，所以临床使用时应特别关注药物相互作用的发生。Conclusion Moxifloxacin is a real \"breathing quinolone\" drug with remarkable clinical efficacy and few adverse reactions in the treatment of pulmonary infection. However, since most patients with pulmonary infection suffer from underlying diseases and there are many kinds of drugs used in combination, special attention should be paid to the occurrence of drug interactions in clinical use.[Keywords] moxifloxacin;pulmonary infections;clinical evaluation;drug interactions;inpatients;analysis肺部感染指终末气道、肺泡腔及肺间质在内的肺实质炎症，病因以细菌性感染最为常见，主要是由于患者免疫力或呼吸功能低下引起，与患者自身的营养状况及基础疾病密切相关。现临床上公认的治疗细菌性肺部感染最好的药物是第四代氟喹诺酮类药物莫西沙星，其抗菌谱广，抗菌活性强，不良反应少，可用于革兰阳性菌、革兰阴性菌、厌氧菌、支原体、衣原体、军团菌等感染 [1]，与左氧氟沙星和吉米沙星并称为“呼吸喹诺酮类”，其抗菌机制是干扰Ⅱ、Ⅳ拓扑异构酶，而拓扑异构酶是控制 DNA 复制、修复、转录的关键酶 [2]。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄.pdf",
+          "chunk_index": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄:9",
+          "raw_text": "莫西沙星用于治疗肺部感染临床疗效显著",
+          "chunk_id": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄:9",
+          "data": "疗或换药后，避免了不良反应的发生，优化了治疗方案。结论莫西沙星用于治疗肺部感染临床疗效显著，不良反应少，是名副其实的“呼吸喹诺酮类”药物。但由于肺部感染患者多数患有基础疾病，联合使用药物种类较多，所以临床使用时应特别关注药物相互作用的发生。Conclusion Moxifloxacin is a real \"breathing quinolone\" drug with remarkable clinical efficacy and few adverse reactions in the treatment of pulmonary infection. However, since most patients with pulmonary infection suffer from underlying diseases and there are many kinds of drugs used in combination, special attention should be paid to the occurrence of drug interactions in clinical use.[Keywords] moxifloxacin;pulmonary infections;clinical evaluation;drug interactions;inpatients;analysis肺部感染指终末气道、肺泡腔及肺间质在内的肺实质炎症，病因以细菌性感染最为常见，主要是由于患者免疫力或呼吸功能低下引起，与患者自身的营养状况及基础疾病密切相关。现临床上公认的治疗细菌性肺部感染最好的药物是第四代氟喹诺酮类药物莫西沙星，其抗菌谱广，抗菌活性强，不良反应少，可用于革兰阳性菌、革兰阴性菌、厌氧菌、支原体、衣原体、军团菌等感染 [1]，与左氧氟沙星和吉米沙星并称为“呼吸喹诺酮类”，其抗菌机制是干扰Ⅱ、Ⅳ拓扑异构酶，而拓扑异构酶是控制 DNA 复制、修复、转录的关键酶 [2]。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄:9",
+    "source": "莫西沙星治疗肺部感染的临床疗效评价及药物相互作用分析_杨丽雄.pdf",
+    "text": "疗或换药后，避免了不良反应的发生，优化了治疗方案。结论莫西沙星用于治疗肺部感染临床疗效显著，不良反应少，是名副其实的“呼吸喹诺酮类”药物。但由于肺部感染患者多数患有基础疾病，联合使用药物种类较多，所以临床使用时应特别关注药物相互作用的发生。Conclusion Moxifloxacin is a real \"breathing quinolone\" drug with remarkable clinical efficacy and few adverse reactions in the treatment of pulmonary infection. However, since most patients with pulmonary infection suffer from underlying diseases and there are many kinds of drugs used in combination, special attention should be paid to the occurrence of drug interactions in clinical use.[Keywords] moxifloxacin;pulmonary infections;clinical evaluation;drug interactions;inpatients;analysis肺部感染指终末气道、肺泡腔及肺间质在内的肺实质炎症，病因以细菌性感染最为常见，主要是由于患者免疫力或呼吸功能低下引起，与患者自身的营养状况及基础疾病密切相关。现临床上公认的治疗细菌性肺部感染最好的药物是第四代氟喹诺酮类药物莫西沙星，其抗菌谱广，抗菌活性强，不良反应少，可用于革兰阳性菌、革兰阴性菌、厌氧菌、支原体、衣原体、军团菌等感染 [1]，与左氧氟沙星和吉米沙星并称为“呼吸喹诺酮类”，其抗菌机制是干扰Ⅱ、Ⅳ拓扑异构酶，而拓扑异构酶是控制 DNA 复制、修复、转录的关键酶 [2]。"
+  }
+]

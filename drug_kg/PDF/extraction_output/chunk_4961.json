@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Indicator",
+        "name": "他克莫司血药浓度",
+        "canonical_name": "他克莫司血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Indicator",
+        "name": "血压",
+        "canonical_name": "血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "尿蛋白",
+        "canonical_name": "尿蛋白",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:1",
+          "raw_text": "第 31 天复查 TAC 浓度降至 2.1 ng·mL^-1",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:1",
+          "data": "嘱。第 31 天复查 TAC 浓度降至 $2 . 1 \\ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，TAC 代谢基因检测回报 CYP3A5 基因型为\\* 3 / \\* 3 慢代谢型。第 25 天后，伴随 TAC 血药浓度降低血压持续下降，且尿蛋白逐渐转阴，第 35天出院时血压降至 99 /60 mmHg 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:1",
+          "raw_text": "伴随 TAC 血药浓度降低血压持续下降",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:1",
+          "data": "嘱。第 31 天复查 TAC 浓度降至 $2 . 1 \\ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，TAC 代谢基因检测回报 CYP3A5 基因型为\\* 3 / \\* 3 慢代谢型。第 25 天后，伴随 TAC 血药浓度降低血压持续下降，且尿蛋白逐渐转阴，第 35天出院时血压降至 99 /60 mmHg 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:1",
+          "raw_text": "尿蛋白逐渐转阴",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:1",
+          "data": "嘱。第 31 天复查 TAC 浓度降至 $2 . 1 \\ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，TAC 代谢基因检测回报 CYP3A5 基因型为\\* 3 / \\* 3 慢代谢型。第 25 天后，伴随 TAC 血药浓度降低血压持续下降，且尿蛋白逐渐转阴，第 35天出院时血压降至 99 /60 mmHg 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:1",
+    "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+    "text": "嘱。第 31 天复查 TAC 浓度降至 $2 . 1 \\ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，TAC 代谢基因检测回报 CYP3A5 基因型为\\* 3 / \\* 3 慢代谢型。第 25 天后，伴随 TAC 血药浓度降低血压持续下降，且尿蛋白逐渐转阴，第 35天出院时血压降至 99 /60 mmHg 。"
+  }
+]

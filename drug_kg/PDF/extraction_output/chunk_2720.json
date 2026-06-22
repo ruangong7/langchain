@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "左甲状腺素钠",
+        "canonical_name": "左甲状腺素钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "钙盐",
+        "canonical_name": "钙盐",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "铁盐",
+        "canonical_name": "铁盐",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "甲状腺功能减退",
+        "canonical_name": "甲状腺功能减退",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于软件评价左甲状腺素钠的药物相互作用及临床数据分析_施芳红.pdf",
+          "chunk_index": "基于软件评价左甲状腺素钠的药物相互作用及临床数据分析_施芳红:2",
+          "raw_text": "The combination of calcium and iron salt were the main manifestation.",
+          "chunk_id": "基于软件评价左甲状腺素钠的药物相互作用及临床数据分析_施芳红:2",
+          "data": "Xiaoyan1 1． Department of Pharmacy，Renji Hospital，School of Medicine，Shanghai Jiaotong University，Shanghai 200127，China;2． Department of Pharmacy，Shanghai Children ’ s Medical Center，School of Medicine，Shanghai Jiaotong University ABSTRACT Objective: To evaluate the interaction of levothyroxine sodium ( L-T4 ) by drug-drug interactions ( DDIs) software ( Lexi-InteractionTM ) and analyze clinical data to provide reference for clinical rational drug use． Methods: Lexi-InteractionTM software was used to evaluate the DDIs of levothyroxine sodium from a theoretical perspective． Clinical interaction data were combined to analyze the current clinical interactions，impacts，and measures to be taken． Results: A total of 36 DDIs related to levothyroxine sodium were screened out by software． Among them，four were in group B， 16 in group C，14 in group D，and 2 in group X． Among them，the efficacy of L-T4 was mainly reduced ( 30，83． 3% ) ． It also included an increase in L-T4 efficacy ( 2，5． 6% ) and ch"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "基于软件评价左甲状腺素钠的药物相互作用及临床数据分析_施芳红.pdf",
+          "chunk_index": "基于软件评价左甲状腺素钠的药物相互作用及临床数据分析_施芳红:2",
+          "raw_text": "The combination of calcium and iron salt were the main manifestation.",
+          "chunk_id": "基于软件评价左甲状腺素钠的药物相互作用及临床数据分析_施芳红:2",
+          "data": "Xiaoyan1 1． Department of Pharmacy，Renji Hospital，School of Medicine，Shanghai Jiaotong University，Shanghai 200127，China;2． Department of Pharmacy，Shanghai Children ’ s Medical Center，School of Medicine，Shanghai Jiaotong University ABSTRACT Objective: To evaluate the interaction of levothyroxine sodium ( L-T4 ) by drug-drug interactions ( DDIs) software ( Lexi-InteractionTM ) and analyze clinical data to provide reference for clinical rational drug use． Methods: Lexi-InteractionTM software was used to evaluate the DDIs of levothyroxine sodium from a theoretical perspective． Clinical interaction data were combined to analyze the current clinical interactions，impacts，and measures to be taken． Results: A total of 36 DDIs related to levothyroxine sodium were screened out by software． Among them，four were in group B， 16 in group C，14 in group D，and 2 in group X． Among them，the efficacy of L-T4 was mainly reduced ( 30，83． 3% ) ． It also included an increase in L-T4 efficacy ( 2，5． 6% ) and ch"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "基于软件评价左甲状腺素钠的药物相互作用及临床数据分析_施芳红.pdf",
+          "chunk_index": "基于软件评价左甲状腺素钠的药物相互作用及临床数据分析_施芳红:2",
+          "raw_text": "左甲状腺素钠( L-T4) 是治疗甲状腺功能减退的主要替代药物",
+          "chunk_id": "基于软件评价左甲状腺素钠的药物相互作用及临床数据分析_施芳红:2",
+          "data": "Xiaoyan1 1． Department of Pharmacy，Renji Hospital，School of Medicine，Shanghai Jiaotong University，Shanghai 200127，China;2． Department of Pharmacy，Shanghai Children ’ s Medical Center，School of Medicine，Shanghai Jiaotong University ABSTRACT Objective: To evaluate the interaction of levothyroxine sodium ( L-T4 ) by drug-drug interactions ( DDIs) software ( Lexi-InteractionTM ) and analyze clinical data to provide reference for clinical rational drug use． Methods: Lexi-InteractionTM software was used to evaluate the DDIs of levothyroxine sodium from a theoretical perspective． Clinical interaction data were combined to analyze the current clinical interactions，impacts，and measures to be taken． Results: A total of 36 DDIs related to levothyroxine sodium were screened out by software． Among them，four were in group B， 16 in group C，14 in group D，and 2 in group X． Among them，the efficacy of L-T4 was mainly reduced ( 30，83． 3% ) ． It also included an increase in L-T4 efficacy ( 2，5． 6% ) and ch"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于软件评价左甲状腺素钠的药物相互作用及临床数据分析_施芳红:2",
+    "source": "基于软件评价左甲状腺素钠的药物相互作用及临床数据分析_施芳红.pdf",
+    "text": "Xiaoyan1 1． Department of Pharmacy，Renji Hospital，School of Medicine，Shanghai Jiaotong University，Shanghai 200127，China;2． Department of Pharmacy，Shanghai Children ’ s Medical Center，School of Medicine，Shanghai Jiaotong University ABSTRACT Objective: To evaluate the interaction of levothyroxine sodium ( L-T4 ) by drug-drug interactions ( DDIs) software ( Lexi-InteractionTM ) and analyze clinical data to provide reference for clinical rational drug use． Methods: Lexi-InteractionTM software was used to evaluate the DDIs of levothyroxine sodium from a theoretical perspective． Clinical interaction data were combined to analyze the current clinical interactions，impacts，and measures to be taken． Results: A total of 36 DDIs related to levothyroxine sodium were screened out by software． Among them，four were in group B， 16 in group C，14 in group D，and 2 in group X． Among them，the efficacy of L-T4 was mainly reduced ( 30，83． 3% ) ． It also included an increase in L-T4 efficacy ( 2，5． 6% ) and changes in the efficacy and adverse reactions of other drugs ( 4，11． 1% ) ． A total of 98 patients were analyzed，of which DDIs accounted for 69． 4% ( 68 /98) and 2 or more patients accounted for 48． 0% ( 47 /98) ． The combination of calcium and iron salt were the main manifestation． It takes accounting for 21． 4% ( 21 /98) of the 2 or less，with calcium salt as the main performance． Most of the patients who used L-T4 were hypothyroidism patients and had multiple diseases at the same time． Conclusion: The drug interactions of L-T4 were dominated by D and C grades． Most of them had the effect of lowering L-T4． Clinically，DDIs were mainly expressed as calcium salt and iron salt． Therefore，there were many clinically combined diseases and more drugs were used together． In patients， the use of L-T4 and other drugs should take in different times thus may reduce its effects．左甲状腺素钠( L-T4) 是治疗甲状腺功能减退的主要替代药物，主要基于其具备疗效确切，不良反应少，肠道吸收好，半衰期长，治疗成本低等优点［1］。"
+  }
+]

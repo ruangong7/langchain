@@ -1,0 +1,124 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氨甲喋呤",
+        "canonical_name": "氨甲喋呤",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "水杨酸",
+        "canonical_name": "水杨酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "保泰松",
+        "canonical_name": "保泰松",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "青霉素类",
+        "canonical_name": "青霉素类",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "磺胺类药物",
+        "canonical_name": "磺胺类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "羧苯磺胺",
+        "canonical_name": "羧苯磺胺",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "抗肿瘤药物相互作用的临床意义_Esther van Meerten.pdf",
+          "chunk_index": "抗肿瘤药物相互作用的临床意义_Esther van Meerten:0",
+          "raw_text": "肾小管对氨甲喋呤的分泌可以被其他有机酸竞争性抑制，如：水杨酸，保泰松，青霉素类和磺胺类药物；其中羧苯磺胺可以完全阻断肾小管的分泌；氨甲喋呤和青霉素类在肾小管分泌上的竞争是因为他们的分子结构相似。",
+          "mechanism": "竞争性抑制肾小管分泌",
+          "chunk_id": "抗肿瘤药物相互作用的临床意义_Esther van Meerten:0",
+          "data": "1. 抗代谢药物\n肾小管对氨甲喋呤的分泌可以被其他有机酸竞争性抑制，如：水杨酸，保泰松，青霉素类和磺胺类药物；其中羧苯磺胺可以完全阻断肾小管的分泌；氨甲喋呤和青霉素类在肾小管分泌上的竞争是因为他们的分子结构相似。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "抗肿瘤药物相互作用的临床意义_Esther van Meerten.pdf",
+          "chunk_index": "抗肿瘤药物相互作用的临床意义_Esther van Meerten:0",
+          "raw_text": "肾小管对氨甲喋呤的分泌可以被其他有机酸竞争性抑制，如：水杨酸，保泰松，青霉素类和磺胺类药物；其中羧苯磺胺可以完全阻断肾小管的分泌；氨甲喋呤和青霉素类在肾小管分泌上的竞争是因为他们的分子结构相似。",
+          "mechanism": "竞争性抑制肾小管分泌",
+          "chunk_id": "抗肿瘤药物相互作用的临床意义_Esther van Meerten:0",
+          "data": "1. 抗代谢药物\n肾小管对氨甲喋呤的分泌可以被其他有机酸竞争性抑制，如：水杨酸，保泰松，青霉素类和磺胺类药物；其中羧苯磺胺可以完全阻断肾小管的分泌；氨甲喋呤和青霉素类在肾小管分泌上的竞争是因为他们的分子结构相似。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "抗肿瘤药物相互作用的临床意义_Esther van Meerten.pdf",
+          "chunk_index": "抗肿瘤药物相互作用的临床意义_Esther van Meerten:0",
+          "raw_text": "肾小管对氨甲喋呤的分泌可以被其他有机酸竞争性抑制，如：水杨酸，保泰松，青霉素类和磺胺类药物；其中羧苯磺胺可以完全阻断肾小管的分泌；氨甲喋呤和青霉素类在肾小管分泌上的竞争是因为他们的分子结构相似。",
+          "mechanism": "竞争性抑制肾小管分泌",
+          "chunk_id": "抗肿瘤药物相互作用的临床意义_Esther van Meerten:0",
+          "data": "1. 抗代谢药物\n肾小管对氨甲喋呤的分泌可以被其他有机酸竞争性抑制，如：水杨酸，保泰松，青霉素类和磺胺类药物；其中羧苯磺胺可以完全阻断肾小管的分泌；氨甲喋呤和青霉素类在肾小管分泌上的竞争是因为他们的分子结构相似。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "抗肿瘤药物相互作用的临床意义_Esther van Meerten.pdf",
+          "chunk_index": "抗肿瘤药物相互作用的临床意义_Esther van Meerten:0",
+          "raw_text": "肾小管对氨甲喋呤的分泌可以被其他有机酸竞争性抑制，如：水杨酸，保泰松，青霉素类和磺胺类药物；其中羧苯磺胺可以完全阻断肾小管的分泌；氨甲喋呤和青霉素类在肾小管分泌上的竞争是因为他们的分子结构相似。",
+          "mechanism": "竞争性抑制肾小管分泌",
+          "chunk_id": "抗肿瘤药物相互作用的临床意义_Esther van Meerten:0",
+          "data": "1. 抗代谢药物\n肾小管对氨甲喋呤的分泌可以被其他有机酸竞争性抑制，如：水杨酸，保泰松，青霉素类和磺胺类药物；其中羧苯磺胺可以完全阻断肾小管的分泌；氨甲喋呤和青霉素类在肾小管分泌上的竞争是因为他们的分子结构相似。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "抗肿瘤药物相互作用的临床意义_Esther van Meerten.pdf",
+          "chunk_index": "抗肿瘤药物相互作用的临床意义_Esther van Meerten:0",
+          "raw_text": "肾小管对氨甲喋呤的分泌可以被其他有机酸竞争性抑制，如：水杨酸，保泰松，青霉素类和磺胺类药物；其中羧苯磺胺可以完全阻断肾小管的分泌；氨甲喋呤和青霉素类在肾小管分泌上的竞争是因为他们的分子结构相似。",
+          "mechanism": "完全阻断肾小管分泌",
+          "chunk_id": "抗肿瘤药物相互作用的临床意义_Esther van Meerten:0",
+          "data": "1. 抗代谢药物\n肾小管对氨甲喋呤的分泌可以被其他有机酸竞争性抑制，如：水杨酸，保泰松，青霉素类和磺胺类药物；其中羧苯磺胺可以完全阻断肾小管的分泌；氨甲喋呤和青霉素类在肾小管分泌上的竞争是因为他们的分子结构相似。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "抗肿瘤药物相互作用的临床意义_Esther van Meerten:0",
+    "source": "抗肿瘤药物相互作用的临床意义_Esther van Meerten.pdf",
+    "text": "1. 抗代谢药物\n肾小管对氨甲喋呤的分泌可以被其他有机酸竞争性抑制，如：水杨酸，保泰松，青霉素类和磺胺类药物；其中羧苯磺胺可以完全阻断肾小管的分泌；氨甲喋呤和青霉素类在肾小管分泌上的竞争是因为他们的分子结构相似。"
+  }
+]

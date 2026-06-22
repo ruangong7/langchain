@@ -1,0 +1,159 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "替考拉宁",
+        "canonical_name": "替考拉宁",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "联磺甲氧苄啶",
+        "canonical_name": "联磺甲氧苄啶",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "美罗培南",
+        "canonical_name": "美罗培南",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "更昔洛韦",
+        "canonical_name": "更昔洛韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "抗生素相关性腹泻",
+        "canonical_name": "抗生素相关性腹泻",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "全血细胞减少",
+        "canonical_name": "全血细胞减少",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Population",
+        "name": "血液透析患者",
+        "canonical_name": "血液透析患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "巨细胞病毒肺炎",
+        "canonical_name": "巨细胞病毒肺炎",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓.pdf",
+          "chunk_index": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓:6",
+          "raw_text": "患者出现了抗生素相关性腹泻",
+          "chunk_id": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓:6",
+          "data": "替考拉宁、联磺甲氧苄啶、美罗培南及治疗巨细胞病毒肺炎的更昔洛韦均需调整给药剂量或频次，同时，患者出现了抗生素相关性腹泻，以及更昔洛韦相关的全血细胞减少等不良反应，临床药师给予全程的药学监护。最终，患者肺部感染治疗好转出院，院外继续规律透析。Pharmaceutical care on a hemodialysis patient with cytomegalovirus pneumonia\nZHANG Xin, ZHOU Liang, WANG Ming-mei, WEI Jin-fei, WANG Xin-hui, LIU Gui-yang(Department of Pharmacy, The First Affiliated Hospital of PLA General Hospital, Beijing 100048, China)[ABSTRACT] One 65-year-old male patient was hospitalized for abnormal urine test, chest tightness, shortness of breath. The patient was previously diagnosed with nephrotic syndrome, and given hormone and immunosuppressive therapy. The patient with immunocompromise developed pulmonary infection after hospitalization, which was diagnosed with cytomegalovirus pneumonia. Clinical pharmacists took pharmaceutical care by adjusting the dosage and frequency of teicoplanin, sulfamethoxazole, meropenem in initial therapeutic regimen and ganciclovir for CMV pneumonia in the case of hemodialysis, and monitored the adverse reacti"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓.pdf",
+          "chunk_index": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓:6",
+          "raw_text": "更昔洛韦相关的全血细胞减少",
+          "chunk_id": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓:6",
+          "data": "替考拉宁、联磺甲氧苄啶、美罗培南及治疗巨细胞病毒肺炎的更昔洛韦均需调整给药剂量或频次，同时，患者出现了抗生素相关性腹泻，以及更昔洛韦相关的全血细胞减少等不良反应，临床药师给予全程的药学监护。最终，患者肺部感染治疗好转出院，院外继续规律透析。Pharmaceutical care on a hemodialysis patient with cytomegalovirus pneumonia\nZHANG Xin, ZHOU Liang, WANG Ming-mei, WEI Jin-fei, WANG Xin-hui, LIU Gui-yang(Department of Pharmacy, The First Affiliated Hospital of PLA General Hospital, Beijing 100048, China)[ABSTRACT] One 65-year-old male patient was hospitalized for abnormal urine test, chest tightness, shortness of breath. The patient was previously diagnosed with nephrotic syndrome, and given hormone and immunosuppressive therapy. The patient with immunocompromise developed pulmonary infection after hospitalization, which was diagnosed with cytomegalovirus pneumonia. Clinical pharmacists took pharmaceutical care by adjusting the dosage and frequency of teicoplanin, sulfamethoxazole, meropenem in initial therapeutic regimen and ganciclovir for CMV pneumonia in the case of hemodialysis, and monitored the adverse reacti"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓.pdf",
+          "chunk_index": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓:6",
+          "raw_text": "治疗巨细胞病毒肺炎的更昔洛韦",
+          "chunk_id": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓:6",
+          "data": "替考拉宁、联磺甲氧苄啶、美罗培南及治疗巨细胞病毒肺炎的更昔洛韦均需调整给药剂量或频次，同时，患者出现了抗生素相关性腹泻，以及更昔洛韦相关的全血细胞减少等不良反应，临床药师给予全程的药学监护。最终，患者肺部感染治疗好转出院，院外继续规律透析。Pharmaceutical care on a hemodialysis patient with cytomegalovirus pneumonia\nZHANG Xin, ZHOU Liang, WANG Ming-mei, WEI Jin-fei, WANG Xin-hui, LIU Gui-yang(Department of Pharmacy, The First Affiliated Hospital of PLA General Hospital, Beijing 100048, China)[ABSTRACT] One 65-year-old male patient was hospitalized for abnormal urine test, chest tightness, shortness of breath. The patient was previously diagnosed with nephrotic syndrome, and given hormone and immunosuppressive therapy. The patient with immunocompromise developed pulmonary infection after hospitalization, which was diagnosed with cytomegalovirus pneumonia. Clinical pharmacists took pharmaceutical care by adjusting the dosage and frequency of teicoplanin, sulfamethoxazole, meropenem in initial therapeutic regimen and ganciclovir for CMV pneumonia in the case of hemodialysis, and monitored the adverse reacti"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓.pdf",
+          "chunk_index": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓:6",
+          "raw_text": "替考拉宁...需调整给药剂量或频次",
+          "chunk_id": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓:6",
+          "data": "替考拉宁、联磺甲氧苄啶、美罗培南及治疗巨细胞病毒肺炎的更昔洛韦均需调整给药剂量或频次，同时，患者出现了抗生素相关性腹泻，以及更昔洛韦相关的全血细胞减少等不良反应，临床药师给予全程的药学监护。最终，患者肺部感染治疗好转出院，院外继续规律透析。Pharmaceutical care on a hemodialysis patient with cytomegalovirus pneumonia\nZHANG Xin, ZHOU Liang, WANG Ming-mei, WEI Jin-fei, WANG Xin-hui, LIU Gui-yang(Department of Pharmacy, The First Affiliated Hospital of PLA General Hospital, Beijing 100048, China)[ABSTRACT] One 65-year-old male patient was hospitalized for abnormal urine test, chest tightness, shortness of breath. The patient was previously diagnosed with nephrotic syndrome, and given hormone and immunosuppressive therapy. The patient with immunocompromise developed pulmonary infection after hospitalization, which was diagnosed with cytomegalovirus pneumonia. Clinical pharmacists took pharmaceutical care by adjusting the dosage and frequency of teicoplanin, sulfamethoxazole, meropenem in initial therapeutic regimen and ganciclovir for CMV pneumonia in the case of hemodialysis, and monitored the adverse reacti"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓.pdf",
+          "chunk_index": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓:6",
+          "raw_text": "联磺甲氧苄啶...需调整给药剂量或频次",
+          "chunk_id": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓:6",
+          "data": "替考拉宁、联磺甲氧苄啶、美罗培南及治疗巨细胞病毒肺炎的更昔洛韦均需调整给药剂量或频次，同时，患者出现了抗生素相关性腹泻，以及更昔洛韦相关的全血细胞减少等不良反应，临床药师给予全程的药学监护。最终，患者肺部感染治疗好转出院，院外继续规律透析。Pharmaceutical care on a hemodialysis patient with cytomegalovirus pneumonia\nZHANG Xin, ZHOU Liang, WANG Ming-mei, WEI Jin-fei, WANG Xin-hui, LIU Gui-yang(Department of Pharmacy, The First Affiliated Hospital of PLA General Hospital, Beijing 100048, China)[ABSTRACT] One 65-year-old male patient was hospitalized for abnormal urine test, chest tightness, shortness of breath. The patient was previously diagnosed with nephrotic syndrome, and given hormone and immunosuppressive therapy. The patient with immunocompromise developed pulmonary infection after hospitalization, which was diagnosed with cytomegalovirus pneumonia. Clinical pharmacists took pharmaceutical care by adjusting the dosage and frequency of teicoplanin, sulfamethoxazole, meropenem in initial therapeutic regimen and ganciclovir for CMV pneumonia in the case of hemodialysis, and monitored the adverse reacti"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓.pdf",
+          "chunk_index": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓:6",
+          "raw_text": "美罗培南...需调整给药剂量或频次",
+          "chunk_id": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓:6",
+          "data": "替考拉宁、联磺甲氧苄啶、美罗培南及治疗巨细胞病毒肺炎的更昔洛韦均需调整给药剂量或频次，同时，患者出现了抗生素相关性腹泻，以及更昔洛韦相关的全血细胞减少等不良反应，临床药师给予全程的药学监护。最终，患者肺部感染治疗好转出院，院外继续规律透析。Pharmaceutical care on a hemodialysis patient with cytomegalovirus pneumonia\nZHANG Xin, ZHOU Liang, WANG Ming-mei, WEI Jin-fei, WANG Xin-hui, LIU Gui-yang(Department of Pharmacy, The First Affiliated Hospital of PLA General Hospital, Beijing 100048, China)[ABSTRACT] One 65-year-old male patient was hospitalized for abnormal urine test, chest tightness, shortness of breath. The patient was previously diagnosed with nephrotic syndrome, and given hormone and immunosuppressive therapy. The patient with immunocompromise developed pulmonary infection after hospitalization, which was diagnosed with cytomegalovirus pneumonia. Clinical pharmacists took pharmaceutical care by adjusting the dosage and frequency of teicoplanin, sulfamethoxazole, meropenem in initial therapeutic regimen and ganciclovir for CMV pneumonia in the case of hemodialysis, and monitored the adverse reacti"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓.pdf",
+          "chunk_index": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓:6",
+          "raw_text": "更昔洛韦...需调整给药剂量或频次",
+          "chunk_id": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓:6",
+          "data": "替考拉宁、联磺甲氧苄啶、美罗培南及治疗巨细胞病毒肺炎的更昔洛韦均需调整给药剂量或频次，同时，患者出现了抗生素相关性腹泻，以及更昔洛韦相关的全血细胞减少等不良反应，临床药师给予全程的药学监护。最终，患者肺部感染治疗好转出院，院外继续规律透析。Pharmaceutical care on a hemodialysis patient with cytomegalovirus pneumonia\nZHANG Xin, ZHOU Liang, WANG Ming-mei, WEI Jin-fei, WANG Xin-hui, LIU Gui-yang(Department of Pharmacy, The First Affiliated Hospital of PLA General Hospital, Beijing 100048, China)[ABSTRACT] One 65-year-old male patient was hospitalized for abnormal urine test, chest tightness, shortness of breath. The patient was previously diagnosed with nephrotic syndrome, and given hormone and immunosuppressive therapy. The patient with immunocompromise developed pulmonary infection after hospitalization, which was diagnosed with cytomegalovirus pneumonia. Clinical pharmacists took pharmaceutical care by adjusting the dosage and frequency of teicoplanin, sulfamethoxazole, meropenem in initial therapeutic regimen and ganciclovir for CMV pneumonia in the case of hemodialysis, and monitored the adverse reacti"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓:6",
+    "source": "从1例老年感染患者探讨碳青霉烯类药物与丙戊酸钠的药物相互作用_王东晓.pdf",
+    "text": "替考拉宁、联磺甲氧苄啶、美罗培南及治疗巨细胞病毒肺炎的更昔洛韦均需调整给药剂量或频次，同时，患者出现了抗生素相关性腹泻，以及更昔洛韦相关的全血细胞减少等不良反应，临床药师给予全程的药学监护。最终，患者肺部感染治疗好转出院，院外继续规律透析。Pharmaceutical care on a hemodialysis patient with cytomegalovirus pneumonia\nZHANG Xin, ZHOU Liang, WANG Ming-mei, WEI Jin-fei, WANG Xin-hui, LIU Gui-yang(Department of Pharmacy, The First Affiliated Hospital of PLA General Hospital, Beijing 100048, China)[ABSTRACT] One 65-year-old male patient was hospitalized for abnormal urine test, chest tightness, shortness of breath. The patient was previously diagnosed with nephrotic syndrome, and given hormone and immunosuppressive therapy. The patient with immunocompromise developed pulmonary infection after hospitalization, which was diagnosed with cytomegalovirus pneumonia. Clinical pharmacists took pharmaceutical care by adjusting the dosage and frequency of teicoplanin, sulfamethoxazole, meropenem in initial therapeutic regimen and ganciclovir for CMV pneumonia in the case of hemodialysis, and monitored the adverse reactions during hospitalization, such as antibiotic-associated diarrhea and ganciclovir related pancytopenia. The patient continued to receive hemodialysis outside the hospital after the pneumonia was cured."
+  }
+]

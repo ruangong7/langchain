@@ -1,0 +1,199 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "氯喹",
+        "canonical_name": "氯喹",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "SideEffect",
+        "name": "完全性房室传导阻滞",
+        "canonical_name": "完全性房室传导阻滞",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "心室颤动",
+        "canonical_name": "心室颤动",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "失明",
+        "canonical_name": "失明",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "心源性休克",
+        "canonical_name": "心源性休克",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "呕吐",
+        "canonical_name": "呕吐",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "低钾血症",
+        "canonical_name": "低钾血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "急性肾衰竭",
+        "canonical_name": "急性肾衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "高铁血红蛋白血症",
+        "canonical_name": "高铁血红蛋白血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "发热",
+        "canonical_name": "发热",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+          "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "raw_text": "atrioventricular block complete ( ROR = 2. 90，IC-2SD = 1. 64)",
+          "chunk_id": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "data": "，2 ，ZHAO Qing-wei 1，2\\* ( 1． The FirstAffiliated Hospital，College of Medicine，Zhejiang University，Hangzhou 310003，China;2． Zhejiang Provincial Key Laboratory forDrug Evaluation and Clinical Research，Hangzhou 310003，China)ABSTRACT: OBJECTIVE To analyze and evaluate the safety signals of chloroquine in the patients，and to provide a valuable reference for rational use in clinic. METHODS Both the reporting odds ratio ( ROR) method and Bayesian confidence propagation neural network ( BCPNN) were applied to analyze safety signals of chloroquine based upon the adverse drug events ( ADEs) data ranging from 2004 to 2020 as reported in the Adverse Event Reporting System ( FAERS) database of the Food and Drug Administration ( FDA) ，and to systematically assesse the safety signals of chloroquine phosphate on various organs systems. RESULTS Among the 2 063 reports of ADEs studied，557 reports were considered to be mainly caused by chloroquine. The results demonstrated that the high-risk ADEs signals"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+          "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "raw_text": "ventricular fibrillation ( ROR = 3. 40，IC-2SD = 1. 27)",
+          "chunk_id": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "data": "，2 ，ZHAO Qing-wei 1，2\\* ( 1． The FirstAffiliated Hospital，College of Medicine，Zhejiang University，Hangzhou 310003，China;2． Zhejiang Provincial Key Laboratory forDrug Evaluation and Clinical Research，Hangzhou 310003，China)ABSTRACT: OBJECTIVE To analyze and evaluate the safety signals of chloroquine in the patients，and to provide a valuable reference for rational use in clinic. METHODS Both the reporting odds ratio ( ROR) method and Bayesian confidence propagation neural network ( BCPNN) were applied to analyze safety signals of chloroquine based upon the adverse drug events ( ADEs) data ranging from 2004 to 2020 as reported in the Adverse Event Reporting System ( FAERS) database of the Food and Drug Administration ( FDA) ，and to systematically assesse the safety signals of chloroquine phosphate on various organs systems. RESULTS Among the 2 063 reports of ADEs studied，557 reports were considered to be mainly caused by chloroquine. The results demonstrated that the high-risk ADEs signals"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+          "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "raw_text": "blindness ( ROR = 27. 51，IC-2SD = 0. 55)",
+          "chunk_id": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "data": "，2 ，ZHAO Qing-wei 1，2\\* ( 1． The FirstAffiliated Hospital，College of Medicine，Zhejiang University，Hangzhou 310003，China;2． Zhejiang Provincial Key Laboratory forDrug Evaluation and Clinical Research，Hangzhou 310003，China)ABSTRACT: OBJECTIVE To analyze and evaluate the safety signals of chloroquine in the patients，and to provide a valuable reference for rational use in clinic. METHODS Both the reporting odds ratio ( ROR) method and Bayesian confidence propagation neural network ( BCPNN) were applied to analyze safety signals of chloroquine based upon the adverse drug events ( ADEs) data ranging from 2004 to 2020 as reported in the Adverse Event Reporting System ( FAERS) database of the Food and Drug Administration ( FDA) ，and to systematically assesse the safety signals of chloroquine phosphate on various organs systems. RESULTS Among the 2 063 reports of ADEs studied，557 reports were considered to be mainly caused by chloroquine. The results demonstrated that the high-risk ADEs signals"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+          "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "raw_text": "cardiogenic shock ( ROR = 6. 86，IC-2SD = 0. 54)",
+          "chunk_id": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "data": "，2 ，ZHAO Qing-wei 1，2\\* ( 1． The FirstAffiliated Hospital，College of Medicine，Zhejiang University，Hangzhou 310003，China;2． Zhejiang Provincial Key Laboratory forDrug Evaluation and Clinical Research，Hangzhou 310003，China)ABSTRACT: OBJECTIVE To analyze and evaluate the safety signals of chloroquine in the patients，and to provide a valuable reference for rational use in clinic. METHODS Both the reporting odds ratio ( ROR) method and Bayesian confidence propagation neural network ( BCPNN) were applied to analyze safety signals of chloroquine based upon the adverse drug events ( ADEs) data ranging from 2004 to 2020 as reported in the Adverse Event Reporting System ( FAERS) database of the Food and Drug Administration ( FDA) ，and to systematically assesse the safety signals of chloroquine phosphate on various organs systems. RESULTS Among the 2 063 reports of ADEs studied，557 reports were considered to be mainly caused by chloroquine. The results demonstrated that the high-risk ADEs signals"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+          "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "raw_text": "vomiting ( ROR = 1. 70，IC-2SD = 1. 83)",
+          "chunk_id": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "data": "，2 ，ZHAO Qing-wei 1，2\\* ( 1． The FirstAffiliated Hospital，College of Medicine，Zhejiang University，Hangzhou 310003，China;2． Zhejiang Provincial Key Laboratory forDrug Evaluation and Clinical Research，Hangzhou 310003，China)ABSTRACT: OBJECTIVE To analyze and evaluate the safety signals of chloroquine in the patients，and to provide a valuable reference for rational use in clinic. METHODS Both the reporting odds ratio ( ROR) method and Bayesian confidence propagation neural network ( BCPNN) were applied to analyze safety signals of chloroquine based upon the adverse drug events ( ADEs) data ranging from 2004 to 2020 as reported in the Adverse Event Reporting System ( FAERS) database of the Food and Drug Administration ( FDA) ，and to systematically assesse the safety signals of chloroquine phosphate on various organs systems. RESULTS Among the 2 063 reports of ADEs studied，557 reports were considered to be mainly caused by chloroquine. The results demonstrated that the high-risk ADEs signals"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+          "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "raw_text": "hypokalaemia ( ROR = 4. 18，IC-2SD = 1. 51)",
+          "chunk_id": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "data": "，2 ，ZHAO Qing-wei 1，2\\* ( 1． The FirstAffiliated Hospital，College of Medicine，Zhejiang University，Hangzhou 310003，China;2． Zhejiang Provincial Key Laboratory forDrug Evaluation and Clinical Research，Hangzhou 310003，China)ABSTRACT: OBJECTIVE To analyze and evaluate the safety signals of chloroquine in the patients，and to provide a valuable reference for rational use in clinic. METHODS Both the reporting odds ratio ( ROR) method and Bayesian confidence propagation neural network ( BCPNN) were applied to analyze safety signals of chloroquine based upon the adverse drug events ( ADEs) data ranging from 2004 to 2020 as reported in the Adverse Event Reporting System ( FAERS) database of the Food and Drug Administration ( FDA) ，and to systematically assesse the safety signals of chloroquine phosphate on various organs systems. RESULTS Among the 2 063 reports of ADEs studied，557 reports were considered to be mainly caused by chloroquine. The results demonstrated that the high-risk ADEs signals"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+          "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "raw_text": "renal failure acute ( ROR = 3. 08，IC-2SD = 0. 30)",
+          "chunk_id": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "data": "，2 ，ZHAO Qing-wei 1，2\\* ( 1． The FirstAffiliated Hospital，College of Medicine，Zhejiang University，Hangzhou 310003，China;2． Zhejiang Provincial Key Laboratory forDrug Evaluation and Clinical Research，Hangzhou 310003，China)ABSTRACT: OBJECTIVE To analyze and evaluate the safety signals of chloroquine in the patients，and to provide a valuable reference for rational use in clinic. METHODS Both the reporting odds ratio ( ROR) method and Bayesian confidence propagation neural network ( BCPNN) were applied to analyze safety signals of chloroquine based upon the adverse drug events ( ADEs) data ranging from 2004 to 2020 as reported in the Adverse Event Reporting System ( FAERS) database of the Food and Drug Administration ( FDA) ，and to systematically assesse the safety signals of chloroquine phosphate on various organs systems. RESULTS Among the 2 063 reports of ADEs studied，557 reports were considered to be mainly caused by chloroquine. The results demonstrated that the high-risk ADEs signals"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+          "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "raw_text": "methaemoglobinaemia ( ROR = 4. 37，IC-2SD = 0. 03)",
+          "chunk_id": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "data": "，2 ，ZHAO Qing-wei 1，2\\* ( 1． The FirstAffiliated Hospital，College of Medicine，Zhejiang University，Hangzhou 310003，China;2． Zhejiang Provincial Key Laboratory forDrug Evaluation and Clinical Research，Hangzhou 310003，China)ABSTRACT: OBJECTIVE To analyze and evaluate the safety signals of chloroquine in the patients，and to provide a valuable reference for rational use in clinic. METHODS Both the reporting odds ratio ( ROR) method and Bayesian confidence propagation neural network ( BCPNN) were applied to analyze safety signals of chloroquine based upon the adverse drug events ( ADEs) data ranging from 2004 to 2020 as reported in the Adverse Event Reporting System ( FAERS) database of the Food and Drug Administration ( FDA) ，and to systematically assesse the safety signals of chloroquine phosphate on various organs systems. RESULTS Among the 2 063 reports of ADEs studied，557 reports were considered to be mainly caused by chloroquine. The results demonstrated that the high-risk ADEs signals"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+          "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "raw_text": "pyrexia ( ROR = 1. 80，IC-2SD = 1. 84)",
+          "chunk_id": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+          "data": "，2 ，ZHAO Qing-wei 1，2\\* ( 1． The FirstAffiliated Hospital，College of Medicine，Zhejiang University，Hangzhou 310003，China;2． Zhejiang Provincial Key Laboratory forDrug Evaluation and Clinical Research，Hangzhou 310003，China)ABSTRACT: OBJECTIVE To analyze and evaluate the safety signals of chloroquine in the patients，and to provide a valuable reference for rational use in clinic. METHODS Both the reporting odds ratio ( ROR) method and Bayesian confidence propagation neural network ( BCPNN) were applied to analyze safety signals of chloroquine based upon the adverse drug events ( ADEs) data ranging from 2004 to 2020 as reported in the Adverse Event Reporting System ( FAERS) database of the Food and Drug Administration ( FDA) ，and to systematically assesse the safety signals of chloroquine phosphate on various organs systems. RESULTS Among the 2 063 reports of ADEs studied，557 reports were considered to be mainly caused by chloroquine. The results demonstrated that the high-risk ADEs signals"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:15",
+    "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+    "text": "，2 ，ZHAO Qing-wei 1，2\\* ( 1． The FirstAffiliated Hospital，College of Medicine，Zhejiang University，Hangzhou 310003，China;2． Zhejiang Provincial Key Laboratory forDrug Evaluation and Clinical Research，Hangzhou 310003，China)ABSTRACT: OBJECTIVE To analyze and evaluate the safety signals of chloroquine in the patients，and to provide a valuable reference for rational use in clinic. METHODS Both the reporting odds ratio ( ROR) method and Bayesian confidence propagation neural network ( BCPNN) were applied to analyze safety signals of chloroquine based upon the adverse drug events ( ADEs) data ranging from 2004 to 2020 as reported in the Adverse Event Reporting System ( FAERS) database of the Food and Drug Administration ( FDA) ，and to systematically assesse the safety signals of chloroquine phosphate on various organs systems. RESULTS Among the 2 063 reports of ADEs studied，557 reports were considered to be mainly caused by chloroquine. The results demonstrated that the high-risk ADEs signals of chloroquine involved various systems，such as atrioventricular block complete ( ROR = 2. 90，IC-2SD = 1. 64) ，ventricular fibrillation ( ROR = 3. 40，IC-2SD = 1. 27) ，blindness ( ROR = 27. 51，IC-2SD = 0. 55) ，cardiogenic shock ( ROR = 6. 86，IC-2SD = 0. 54) ，vomiting ( ROR = 1. 70，IC-2SD = 1. 83) . Moreover，some rare ADEs with high-risk signals showed a correlation with chloroquine，including hypokalaemia ( ROR = 4. 18，IC-2SD = 1. 51) ，renal failure acute ( ROR = 3. 08，IC-2SD = 0. 30) ，methaemoglobinaemia ( ROR = 4. 37，IC-2SD = 0. 03) ，and pyrexia ( ROR = 1. 80，IC-2SD = 1. 84) ，which were consistent with literature reports. However，these ADEs were not listed in instruction and worth much attention in clinic. Moreover，basic diseases of patients and drug incompatibility need much attention to prevent the occurrence and exacerbation of chloroquine － related adverse reactions． CONCLU-SION A comprehensive analysis of the ADEs signals of chloroquine could shed some light on understanding of its safety characteristics and would provide valuable information for rational use of chloroquine in clinic，especially in treatment of COVID-19．基金项目: 国家临床重点专科( 临床药学) 项目资助;"
+  }
+]

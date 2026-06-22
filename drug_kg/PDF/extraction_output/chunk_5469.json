@@ -1,0 +1,61 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "更昔洛韦",
+        "canonical_name": "更昔洛韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "霉酚酸",
+        "canonical_name": "霉酚酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Population",
+        "name": "肾移植患者",
+        "canonical_name": "肾移植患者",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+          "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:2",
+          "raw_text": "结果表明合用更昔洛韦会减低肾移植患者体内霉酚酸 AUC 。",
+          "effect": "减低霉酚酸AUC",
+          "chunk_id": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:2",
+          "data": "0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 明显下降，差异有统计学意义 $\\left( \\ U = 1 2 9 3 6 . 5 , Z = \\ - 2 . 4 4 2 , P = 0 . 0 1 5 \\right)$ 。结果表明合用更昔洛韦会减低肾移植患者体内霉酚酸 AUC 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+          "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:2",
+          "raw_text": "结果表明合用更昔洛韦会减低肾移植患者体内霉酚酸 AUC 。",
+          "note": "合用更昔洛韦可能影响霉酚酸暴露量",
+          "chunk_id": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:2",
+          "data": "0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 明显下降，差异有统计学意义 $\\left( \\ U = 1 2 9 3 6 . 5 , Z = \\ - 2 . 4 4 2 , P = 0 . 0 1 5 \\right)$ 。结果表明合用更昔洛韦会减低肾移植患者体内霉酚酸 AUC 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:2",
+    "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+    "text": "0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 明显下降，差异有统计学意义 $\\left( \\ U = 1 2 9 3 6 . 5 , Z = \\ - 2 . 4 4 2 , P = 0 . 0 1 5 \\right)$ 。结果表明合用更昔洛韦会减低肾移植患者体内霉酚酸 AUC 。"
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "canonical_name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "甲氨蝶呤",
+        "canonical_name": "甲氨蝶呤",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "canonical_name": "质子泵抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "阿糖胞苷",
+        "canonical_name": "阿糖胞苷",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "6-巯嘌呤",
+        "canonical_name": "6-巯嘌呤",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "白血病",
+        "canonical_name": "白血病",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "淋巴瘤",
+        "canonical_name": "淋巴瘤",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "骨肉瘤",
+        "canonical_name": "骨肉瘤",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Disease",
+        "name": "急性淋巴细胞白血病",
+        "canonical_name": "急性淋巴细胞白血病",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Disease",
+        "name": "中枢神经系统白血病",
+        "canonical_name": "中枢神经系统白血病",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Disease",
+        "name": "胃肠系疾病",
+        "canonical_name": "胃肠系疾病",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "raw_text": "Omeprazole may delay MTX elimination; therefore, when prescribing MTX, an alternative to omeprazole should be considered.",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "data": "1990 to 2015． Results: Only 10 case reports were collected including two in China． Omeprazole may delay MTX elimination;therefore，when prescribing MTX，an alternative to omeprazole should be considered． Conclusion: Physicians should be alerted to this potential drug interaction in patients receiving concomitant PPIs and high-dose methotrexate．DNA 的合成，临床广泛用于白血病、淋巴瘤、骨肉瘤等恶性肿瘤的治疗。MTX 单用或与其他药物合用，可选择用于急性淋巴细胞白血病( acute lymphoblas-tic leukemia，ALL) 的巩固维持治疗 。大剂量 MTX可使药物透过血脑屏障，提高脑脊液中药物的浓度，发挥预防中枢神经系统白血病( CNSL) 的作用在国内外 ALL 的实践指南或诊疗建议中，临床多采用 MTX 联合阿糖胞苷或 6-巯嘌呤等发挥抗肿瘤作用，辅以水化、碱化、亚叶酸钙等治疗［2 － 3］。当患者在化疗前伴有胃肠系疾病或预防化疗引起的胃肠道不良反应时，临床可能同时或先后用到质子泵抑制剂( proton pump inhibitor，PPI) 。甲氨蝶呤( methotrexate，MTX) 是广谱抗肿瘤药物，通过竞争性抑制二氢叶酸还原酶而最终影响患儿入院后给予静脉营养、肠内营养及奥曲肽0． 1 mg 皮下注射 $q d .$ 奥美拉唑 $1 6 ~ \\mathrm { m g }$ 静脉滴注 $\\mathrm { q } 1 2 \\mathrm { h }$ 治疗，并予还原型谷胱甘肽 0． 1 g 静脉滴注 2 d。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "raw_text": "质子泵抑制剂( proton pump inhibitor, PPI)",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "data": "1990 to 2015． Results: Only 10 case reports were collected including two in China． Omeprazole may delay MTX elimination;therefore，when prescribing MTX，an alternative to omeprazole should be considered． Conclusion: Physicians should be alerted to this potential drug interaction in patients receiving concomitant PPIs and high-dose methotrexate．DNA 的合成，临床广泛用于白血病、淋巴瘤、骨肉瘤等恶性肿瘤的治疗。MTX 单用或与其他药物合用，可选择用于急性淋巴细胞白血病( acute lymphoblas-tic leukemia，ALL) 的巩固维持治疗 。大剂量 MTX可使药物透过血脑屏障，提高脑脊液中药物的浓度，发挥预防中枢神经系统白血病( CNSL) 的作用在国内外 ALL 的实践指南或诊疗建议中，临床多采用 MTX 联合阿糖胞苷或 6-巯嘌呤等发挥抗肿瘤作用，辅以水化、碱化、亚叶酸钙等治疗［2 － 3］。当患者在化疗前伴有胃肠系疾病或预防化疗引起的胃肠道不良反应时，临床可能同时或先后用到质子泵抑制剂( proton pump inhibitor，PPI) 。甲氨蝶呤( methotrexate，MTX) 是广谱抗肿瘤药物，通过竞争性抑制二氢叶酸还原酶而最终影响患儿入院后给予静脉营养、肠内营养及奥曲肽0． 1 mg 皮下注射 $q d .$ 奥美拉唑 $1 6 ~ \\mathrm { m g }$ 静脉滴注 $\\mathrm { q } 1 2 \\mathrm { h }$ 治疗，并予还原型谷胱甘肽 0． 1 g 静脉滴注 2 d。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "raw_text": "MTX 单用或与其他药物合用，可选择用于急性淋巴细胞白血病( acute lymphoblastic leukemia, ALL) 的巩固维持治疗",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "data": "1990 to 2015． Results: Only 10 case reports were collected including two in China． Omeprazole may delay MTX elimination;therefore，when prescribing MTX，an alternative to omeprazole should be considered． Conclusion: Physicians should be alerted to this potential drug interaction in patients receiving concomitant PPIs and high-dose methotrexate．DNA 的合成，临床广泛用于白血病、淋巴瘤、骨肉瘤等恶性肿瘤的治疗。MTX 单用或与其他药物合用，可选择用于急性淋巴细胞白血病( acute lymphoblas-tic leukemia，ALL) 的巩固维持治疗 。大剂量 MTX可使药物透过血脑屏障，提高脑脊液中药物的浓度，发挥预防中枢神经系统白血病( CNSL) 的作用在国内外 ALL 的实践指南或诊疗建议中，临床多采用 MTX 联合阿糖胞苷或 6-巯嘌呤等发挥抗肿瘤作用，辅以水化、碱化、亚叶酸钙等治疗［2 － 3］。当患者在化疗前伴有胃肠系疾病或预防化疗引起的胃肠道不良反应时，临床可能同时或先后用到质子泵抑制剂( proton pump inhibitor，PPI) 。甲氨蝶呤( methotrexate，MTX) 是广谱抗肿瘤药物，通过竞争性抑制二氢叶酸还原酶而最终影响患儿入院后给予静脉营养、肠内营养及奥曲肽0． 1 mg 皮下注射 $q d .$ 奥美拉唑 $1 6 ~ \\mathrm { m g }$ 静脉滴注 $\\mathrm { q } 1 2 \\mathrm { h }$ 治疗，并予还原型谷胱甘肽 0． 1 g 静脉滴注 2 d。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "raw_text": "DNA 的合成，临床广泛用于白血病、淋巴瘤、骨肉瘤等恶性肿瘤的治疗",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "data": "1990 to 2015． Results: Only 10 case reports were collected including two in China． Omeprazole may delay MTX elimination;therefore，when prescribing MTX，an alternative to omeprazole should be considered． Conclusion: Physicians should be alerted to this potential drug interaction in patients receiving concomitant PPIs and high-dose methotrexate．DNA 的合成，临床广泛用于白血病、淋巴瘤、骨肉瘤等恶性肿瘤的治疗。MTX 单用或与其他药物合用，可选择用于急性淋巴细胞白血病( acute lymphoblas-tic leukemia，ALL) 的巩固维持治疗 。大剂量 MTX可使药物透过血脑屏障，提高脑脊液中药物的浓度，发挥预防中枢神经系统白血病( CNSL) 的作用在国内外 ALL 的实践指南或诊疗建议中，临床多采用 MTX 联合阿糖胞苷或 6-巯嘌呤等发挥抗肿瘤作用，辅以水化、碱化、亚叶酸钙等治疗［2 － 3］。当患者在化疗前伴有胃肠系疾病或预防化疗引起的胃肠道不良反应时，临床可能同时或先后用到质子泵抑制剂( proton pump inhibitor，PPI) 。甲氨蝶呤( methotrexate，MTX) 是广谱抗肿瘤药物，通过竞争性抑制二氢叶酸还原酶而最终影响患儿入院后给予静脉营养、肠内营养及奥曲肽0． 1 mg 皮下注射 $q d .$ 奥美拉唑 $1 6 ~ \\mathrm { m g }$ 静脉滴注 $\\mathrm { q } 1 2 \\mathrm { h }$ 治疗，并予还原型谷胱甘肽 0． 1 g 静脉滴注 2 d。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "raw_text": "DNA 的合成，临床广泛用于白血病、淋巴瘤、骨肉瘤等恶性肿瘤的治疗",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "data": "1990 to 2015． Results: Only 10 case reports were collected including two in China． Omeprazole may delay MTX elimination;therefore，when prescribing MTX，an alternative to omeprazole should be considered． Conclusion: Physicians should be alerted to this potential drug interaction in patients receiving concomitant PPIs and high-dose methotrexate．DNA 的合成，临床广泛用于白血病、淋巴瘤、骨肉瘤等恶性肿瘤的治疗。MTX 单用或与其他药物合用，可选择用于急性淋巴细胞白血病( acute lymphoblas-tic leukemia，ALL) 的巩固维持治疗 。大剂量 MTX可使药物透过血脑屏障，提高脑脊液中药物的浓度，发挥预防中枢神经系统白血病( CNSL) 的作用在国内外 ALL 的实践指南或诊疗建议中，临床多采用 MTX 联合阿糖胞苷或 6-巯嘌呤等发挥抗肿瘤作用，辅以水化、碱化、亚叶酸钙等治疗［2 － 3］。当患者在化疗前伴有胃肠系疾病或预防化疗引起的胃肠道不良反应时，临床可能同时或先后用到质子泵抑制剂( proton pump inhibitor，PPI) 。甲氨蝶呤( methotrexate，MTX) 是广谱抗肿瘤药物，通过竞争性抑制二氢叶酸还原酶而最终影响患儿入院后给予静脉营养、肠内营养及奥曲肽0． 1 mg 皮下注射 $q d .$ 奥美拉唑 $1 6 ~ \\mathrm { m g }$ 静脉滴注 $\\mathrm { q } 1 2 \\mathrm { h }$ 治疗，并予还原型谷胱甘肽 0． 1 g 静脉滴注 2 d。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "raw_text": "MTX 单用或与其他药物合用，可选择用于急性淋巴细胞白血病( acute lymphoblastic leukemia, ALL) 的巩固维持治疗",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "data": "1990 to 2015． Results: Only 10 case reports were collected including two in China． Omeprazole may delay MTX elimination;therefore，when prescribing MTX，an alternative to omeprazole should be considered． Conclusion: Physicians should be alerted to this potential drug interaction in patients receiving concomitant PPIs and high-dose methotrexate．DNA 的合成，临床广泛用于白血病、淋巴瘤、骨肉瘤等恶性肿瘤的治疗。MTX 单用或与其他药物合用，可选择用于急性淋巴细胞白血病( acute lymphoblas-tic leukemia，ALL) 的巩固维持治疗 。大剂量 MTX可使药物透过血脑屏障，提高脑脊液中药物的浓度，发挥预防中枢神经系统白血病( CNSL) 的作用在国内外 ALL 的实践指南或诊疗建议中，临床多采用 MTX 联合阿糖胞苷或 6-巯嘌呤等发挥抗肿瘤作用，辅以水化、碱化、亚叶酸钙等治疗［2 － 3］。当患者在化疗前伴有胃肠系疾病或预防化疗引起的胃肠道不良反应时，临床可能同时或先后用到质子泵抑制剂( proton pump inhibitor，PPI) 。甲氨蝶呤( methotrexate，MTX) 是广谱抗肿瘤药物，通过竞争性抑制二氢叶酸还原酶而最终影响患儿入院后给予静脉营养、肠内营养及奥曲肽0． 1 mg 皮下注射 $q d .$ 奥美拉唑 $1 6 ~ \\mathrm { m g }$ 静脉滴注 $\\mathrm { q } 1 2 \\mathrm { h }$ 治疗，并予还原型谷胱甘肽 0． 1 g 静脉滴注 2 d。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "raw_text": "大剂量 MTX可使药物透过血脑屏障，提高脑脊液中药物的浓度，发挥预防中枢神经系统白血病( CNSL) 的作用",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "data": "1990 to 2015． Results: Only 10 case reports were collected including two in China． Omeprazole may delay MTX elimination;therefore，when prescribing MTX，an alternative to omeprazole should be considered． Conclusion: Physicians should be alerted to this potential drug interaction in patients receiving concomitant PPIs and high-dose methotrexate．DNA 的合成，临床广泛用于白血病、淋巴瘤、骨肉瘤等恶性肿瘤的治疗。MTX 单用或与其他药物合用，可选择用于急性淋巴细胞白血病( acute lymphoblas-tic leukemia，ALL) 的巩固维持治疗 。大剂量 MTX可使药物透过血脑屏障，提高脑脊液中药物的浓度，发挥预防中枢神经系统白血病( CNSL) 的作用在国内外 ALL 的实践指南或诊疗建议中，临床多采用 MTX 联合阿糖胞苷或 6-巯嘌呤等发挥抗肿瘤作用，辅以水化、碱化、亚叶酸钙等治疗［2 － 3］。当患者在化疗前伴有胃肠系疾病或预防化疗引起的胃肠道不良反应时，临床可能同时或先后用到质子泵抑制剂( proton pump inhibitor，PPI) 。甲氨蝶呤( methotrexate，MTX) 是广谱抗肿瘤药物，通过竞争性抑制二氢叶酸还原酶而最终影响患儿入院后给予静脉营养、肠内营养及奥曲肽0． 1 mg 皮下注射 $q d .$ 奥美拉唑 $1 6 ~ \\mathrm { m g }$ 静脉滴注 $\\mathrm { q } 1 2 \\mathrm { h }$ 治疗，并予还原型谷胱甘肽 0． 1 g 静脉滴注 2 d。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "raw_text": "MTX 联合阿糖胞苷或 6-巯嘌呤等发挥抗肿瘤作用",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "data": "1990 to 2015． Results: Only 10 case reports were collected including two in China． Omeprazole may delay MTX elimination;therefore，when prescribing MTX，an alternative to omeprazole should be considered． Conclusion: Physicians should be alerted to this potential drug interaction in patients receiving concomitant PPIs and high-dose methotrexate．DNA 的合成，临床广泛用于白血病、淋巴瘤、骨肉瘤等恶性肿瘤的治疗。MTX 单用或与其他药物合用，可选择用于急性淋巴细胞白血病( acute lymphoblas-tic leukemia，ALL) 的巩固维持治疗 。大剂量 MTX可使药物透过血脑屏障，提高脑脊液中药物的浓度，发挥预防中枢神经系统白血病( CNSL) 的作用在国内外 ALL 的实践指南或诊疗建议中，临床多采用 MTX 联合阿糖胞苷或 6-巯嘌呤等发挥抗肿瘤作用，辅以水化、碱化、亚叶酸钙等治疗［2 － 3］。当患者在化疗前伴有胃肠系疾病或预防化疗引起的胃肠道不良反应时，临床可能同时或先后用到质子泵抑制剂( proton pump inhibitor，PPI) 。甲氨蝶呤( methotrexate，MTX) 是广谱抗肿瘤药物，通过竞争性抑制二氢叶酸还原酶而最终影响患儿入院后给予静脉营养、肠内营养及奥曲肽0． 1 mg 皮下注射 $q d .$ 奥美拉唑 $1 6 ~ \\mathrm { m g }$ 静脉滴注 $\\mathrm { q } 1 2 \\mathrm { h }$ 治疗，并予还原型谷胱甘肽 0． 1 g 静脉滴注 2 d。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "raw_text": "MTX 联合阿糖胞苷或 6-巯嘌呤等发挥抗肿瘤作用",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "data": "1990 to 2015． Results: Only 10 case reports were collected including two in China． Omeprazole may delay MTX elimination;therefore，when prescribing MTX，an alternative to omeprazole should be considered． Conclusion: Physicians should be alerted to this potential drug interaction in patients receiving concomitant PPIs and high-dose methotrexate．DNA 的合成，临床广泛用于白血病、淋巴瘤、骨肉瘤等恶性肿瘤的治疗。MTX 单用或与其他药物合用，可选择用于急性淋巴细胞白血病( acute lymphoblas-tic leukemia，ALL) 的巩固维持治疗 。大剂量 MTX可使药物透过血脑屏障，提高脑脊液中药物的浓度，发挥预防中枢神经系统白血病( CNSL) 的作用在国内外 ALL 的实践指南或诊疗建议中，临床多采用 MTX 联合阿糖胞苷或 6-巯嘌呤等发挥抗肿瘤作用，辅以水化、碱化、亚叶酸钙等治疗［2 － 3］。当患者在化疗前伴有胃肠系疾病或预防化疗引起的胃肠道不良反应时，临床可能同时或先后用到质子泵抑制剂( proton pump inhibitor，PPI) 。甲氨蝶呤( methotrexate，MTX) 是广谱抗肿瘤药物，通过竞争性抑制二氢叶酸还原酶而最终影响患儿入院后给予静脉营养、肠内营养及奥曲肽0． 1 mg 皮下注射 $q d .$ 奥美拉唑 $1 6 ~ \\mathrm { m g }$ 静脉滴注 $\\mathrm { q } 1 2 \\mathrm { h }$ 治疗，并予还原型谷胱甘肽 0． 1 g 静脉滴注 2 d。"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "raw_text": "当患者在化疗前伴有胃肠系疾病或预防化疗引起的胃肠道不良反应时，临床可能同时或先后用到质子泵抑制剂",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+          "data": "1990 to 2015． Results: Only 10 case reports were collected including two in China． Omeprazole may delay MTX elimination;therefore，when prescribing MTX，an alternative to omeprazole should be considered． Conclusion: Physicians should be alerted to this potential drug interaction in patients receiving concomitant PPIs and high-dose methotrexate．DNA 的合成，临床广泛用于白血病、淋巴瘤、骨肉瘤等恶性肿瘤的治疗。MTX 单用或与其他药物合用，可选择用于急性淋巴细胞白血病( acute lymphoblas-tic leukemia，ALL) 的巩固维持治疗 。大剂量 MTX可使药物透过血脑屏障，提高脑脊液中药物的浓度，发挥预防中枢神经系统白血病( CNSL) 的作用在国内外 ALL 的实践指南或诊疗建议中，临床多采用 MTX 联合阿糖胞苷或 6-巯嘌呤等发挥抗肿瘤作用，辅以水化、碱化、亚叶酸钙等治疗［2 － 3］。当患者在化疗前伴有胃肠系疾病或预防化疗引起的胃肠道不良反应时，临床可能同时或先后用到质子泵抑制剂( proton pump inhibitor，PPI) 。甲氨蝶呤( methotrexate，MTX) 是广谱抗肿瘤药物，通过竞争性抑制二氢叶酸还原酶而最终影响患儿入院后给予静脉营养、肠内营养及奥曲肽0． 1 mg 皮下注射 $q d .$ 奥美拉唑 $1 6 ~ \\mathrm { m g }$ 静脉滴注 $\\mathrm { q } 1 2 \\mathrm { h }$ 治疗，并予还原型谷胱甘肽 0． 1 g 静脉滴注 2 d。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:7",
+    "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+    "text": "1990 to 2015． Results: Only 10 case reports were collected including two in China． Omeprazole may delay MTX elimination;therefore，when prescribing MTX，an alternative to omeprazole should be considered． Conclusion: Physicians should be alerted to this potential drug interaction in patients receiving concomitant PPIs and high-dose methotrexate．DNA 的合成，临床广泛用于白血病、淋巴瘤、骨肉瘤等恶性肿瘤的治疗。MTX 单用或与其他药物合用，可选择用于急性淋巴细胞白血病( acute lymphoblas-tic leukemia，ALL) 的巩固维持治疗 。大剂量 MTX可使药物透过血脑屏障，提高脑脊液中药物的浓度，发挥预防中枢神经系统白血病( CNSL) 的作用在国内外 ALL 的实践指南或诊疗建议中，临床多采用 MTX 联合阿糖胞苷或 6-巯嘌呤等发挥抗肿瘤作用，辅以水化、碱化、亚叶酸钙等治疗［2 － 3］。当患者在化疗前伴有胃肠系疾病或预防化疗引起的胃肠道不良反应时，临床可能同时或先后用到质子泵抑制剂( proton pump inhibitor，PPI) 。甲氨蝶呤( methotrexate，MTX) 是广谱抗肿瘤药物，通过竞争性抑制二氢叶酸还原酶而最终影响患儿入院后给予静脉营养、肠内营养及奥曲肽0． 1 mg 皮下注射 $q d .$ 奥美拉唑 $1 6 ~ \\mathrm { m g }$ 静脉滴注 $\\mathrm { q } 1 2 \\mathrm { h }$ 治疗，并予还原型谷胱甘肽 0． 1 g 静脉滴注 2 d。"
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "大环内酯类抗菌药物",
+        "canonical_name": "大环内酯类抗菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "环孢素",
+        "canonical_name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "克红霉素",
+        "canonical_name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "氟红霉素",
+        "canonical_name": "氟红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "交沙霉素",
+        "canonical_name": "交沙霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "麦迪霉素",
+        "canonical_name": "麦迪霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "麦迪霉素醋酸盐",
+        "canonical_name": "美欧卡霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "罗红霉素",
+        "canonical_name": "罗红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "CYP3A4抑制剂",
+        "canonical_name": "CYP3A4抑制剂",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel.pdf",
+          "chunk_index": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "raw_text": "像大环内酯类这样抑制CYP3A4的抗生素可以估计到会影响环孢素的体内命运。",
+          "chunk_id": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "data": "3.2 环孢素\n第二组: 克红霉素(clarithromycin)、氟红霉素(flurithromy-cin)、交沙霉素(josamycin)、麦迪霉素(midecamycin)、麦迪霉素醋酸盐(美欧卡霉素, ponsinomycin)和罗红霉素(roxithromycin)等与CYP3A4亲和力较小的药物, 形成复合物的程度较低, 很少引起药物相互作用。\n环孢素是广泛用于肾、肝和心脏移植的免疫抑制剂。口服环孢素的吸收很少。肾移植病人口服环孢菌素的平均生物利用率仅28%。环孢素主要是在肝脏经CYP3A4的同工酶代谢。像大环内酯类这样抑制CYP3A4的抗生素可以估计到会影响环孢素的体内命运。另一个影响环孢菌素使用的因素是其治疗作用和无毒性作用的血中浓度范围很窄。\n3. 预期和已充分评价的相互作用"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel.pdf",
+          "chunk_index": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "raw_text": "克红霉素(clarithromycin)属于大环内酯类",
+          "chunk_id": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "data": "3.2 环孢素\n第二组: 克红霉素(clarithromycin)、氟红霉素(flurithromy-cin)、交沙霉素(josamycin)、麦迪霉素(midecamycin)、麦迪霉素醋酸盐(美欧卡霉素, ponsinomycin)和罗红霉素(roxithromycin)等与CYP3A4亲和力较小的药物, 形成复合物的程度较低, 很少引起药物相互作用。\n环孢素是广泛用于肾、肝和心脏移植的免疫抑制剂。口服环孢素的吸收很少。肾移植病人口服环孢菌素的平均生物利用率仅28%。环孢素主要是在肝脏经CYP3A4的同工酶代谢。像大环内酯类这样抑制CYP3A4的抗生素可以估计到会影响环孢素的体内命运。另一个影响环孢菌素使用的因素是其治疗作用和无毒性作用的血中浓度范围很窄。\n3. 预期和已充分评价的相互作用"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel.pdf",
+          "chunk_index": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "raw_text": "氟红霉素(flurithromycin)属于大环内酯类",
+          "chunk_id": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "data": "3.2 环孢素\n第二组: 克红霉素(clarithromycin)、氟红霉素(flurithromy-cin)、交沙霉素(josamycin)、麦迪霉素(midecamycin)、麦迪霉素醋酸盐(美欧卡霉素, ponsinomycin)和罗红霉素(roxithromycin)等与CYP3A4亲和力较小的药物, 形成复合物的程度较低, 很少引起药物相互作用。\n环孢素是广泛用于肾、肝和心脏移植的免疫抑制剂。口服环孢素的吸收很少。肾移植病人口服环孢菌素的平均生物利用率仅28%。环孢素主要是在肝脏经CYP3A4的同工酶代谢。像大环内酯类这样抑制CYP3A4的抗生素可以估计到会影响环孢素的体内命运。另一个影响环孢菌素使用的因素是其治疗作用和无毒性作用的血中浓度范围很窄。\n3. 预期和已充分评价的相互作用"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel.pdf",
+          "chunk_index": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "raw_text": "交沙霉素(josamycin)属于大环内酯类",
+          "chunk_id": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "data": "3.2 环孢素\n第二组: 克红霉素(clarithromycin)、氟红霉素(flurithromy-cin)、交沙霉素(josamycin)、麦迪霉素(midecamycin)、麦迪霉素醋酸盐(美欧卡霉素, ponsinomycin)和罗红霉素(roxithromycin)等与CYP3A4亲和力较小的药物, 形成复合物的程度较低, 很少引起药物相互作用。\n环孢素是广泛用于肾、肝和心脏移植的免疫抑制剂。口服环孢素的吸收很少。肾移植病人口服环孢菌素的平均生物利用率仅28%。环孢素主要是在肝脏经CYP3A4的同工酶代谢。像大环内酯类这样抑制CYP3A4的抗生素可以估计到会影响环孢素的体内命运。另一个影响环孢菌素使用的因素是其治疗作用和无毒性作用的血中浓度范围很窄。\n3. 预期和已充分评价的相互作用"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel.pdf",
+          "chunk_index": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "raw_text": "麦迪霉素(midecamycin)属于大环内酯类",
+          "chunk_id": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "data": "3.2 环孢素\n第二组: 克红霉素(clarithromycin)、氟红霉素(flurithromy-cin)、交沙霉素(josamycin)、麦迪霉素(midecamycin)、麦迪霉素醋酸盐(美欧卡霉素, ponsinomycin)和罗红霉素(roxithromycin)等与CYP3A4亲和力较小的药物, 形成复合物的程度较低, 很少引起药物相互作用。\n环孢素是广泛用于肾、肝和心脏移植的免疫抑制剂。口服环孢素的吸收很少。肾移植病人口服环孢菌素的平均生物利用率仅28%。环孢素主要是在肝脏经CYP3A4的同工酶代谢。像大环内酯类这样抑制CYP3A4的抗生素可以估计到会影响环孢素的体内命运。另一个影响环孢菌素使用的因素是其治疗作用和无毒性作用的血中浓度范围很窄。\n3. 预期和已充分评价的相互作用"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel.pdf",
+          "chunk_index": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "raw_text": "麦迪霉素醋酸盐(美欧卡霉素)属于大环内酯类",
+          "chunk_id": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "data": "3.2 环孢素\n第二组: 克红霉素(clarithromycin)、氟红霉素(flurithromy-cin)、交沙霉素(josamycin)、麦迪霉素(midecamycin)、麦迪霉素醋酸盐(美欧卡霉素, ponsinomycin)和罗红霉素(roxithromycin)等与CYP3A4亲和力较小的药物, 形成复合物的程度较低, 很少引起药物相互作用。\n环孢素是广泛用于肾、肝和心脏移植的免疫抑制剂。口服环孢素的吸收很少。肾移植病人口服环孢菌素的平均生物利用率仅28%。环孢素主要是在肝脏经CYP3A4的同工酶代谢。像大环内酯类这样抑制CYP3A4的抗生素可以估计到会影响环孢素的体内命运。另一个影响环孢菌素使用的因素是其治疗作用和无毒性作用的血中浓度范围很窄。\n3. 预期和已充分评价的相互作用"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel.pdf",
+          "chunk_index": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "raw_text": "罗红霉素(roxithromycin)属于大环内酯类",
+          "chunk_id": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "data": "3.2 环孢素\n第二组: 克红霉素(clarithromycin)、氟红霉素(flurithromy-cin)、交沙霉素(josamycin)、麦迪霉素(midecamycin)、麦迪霉素醋酸盐(美欧卡霉素, ponsinomycin)和罗红霉素(roxithromycin)等与CYP3A4亲和力较小的药物, 形成复合物的程度较低, 很少引起药物相互作用。\n环孢素是广泛用于肾、肝和心脏移植的免疫抑制剂。口服环孢素的吸收很少。肾移植病人口服环孢菌素的平均生物利用率仅28%。环孢素主要是在肝脏经CYP3A4的同工酶代谢。像大环内酯类这样抑制CYP3A4的抗生素可以估计到会影响环孢素的体内命运。另一个影响环孢菌素使用的因素是其治疗作用和无毒性作用的血中浓度范围很窄。\n3. 预期和已充分评价的相互作用"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel.pdf",
+          "chunk_index": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "raw_text": "大环内酯类抑制CYP3A4",
+          "chunk_id": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "data": "3.2 环孢素\n第二组: 克红霉素(clarithromycin)、氟红霉素(flurithromy-cin)、交沙霉素(josamycin)、麦迪霉素(midecamycin)、麦迪霉素醋酸盐(美欧卡霉素, ponsinomycin)和罗红霉素(roxithromycin)等与CYP3A4亲和力较小的药物, 形成复合物的程度较低, 很少引起药物相互作用。\n环孢素是广泛用于肾、肝和心脏移植的免疫抑制剂。口服环孢素的吸收很少。肾移植病人口服环孢菌素的平均生物利用率仅28%。环孢素主要是在肝脏经CYP3A4的同工酶代谢。像大环内酯类这样抑制CYP3A4的抗生素可以估计到会影响环孢素的体内命运。另一个影响环孢菌素使用的因素是其治疗作用和无毒性作用的血中浓度范围很窄。\n3. 预期和已充分评价的相互作用"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel.pdf",
+          "chunk_index": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "raw_text": "克红霉素(clarithromycin)与环孢素相互作用",
+          "chunk_id": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+          "data": "3.2 环孢素\n第二组: 克红霉素(clarithromycin)、氟红霉素(flurithromy-cin)、交沙霉素(josamycin)、麦迪霉素(midecamycin)、麦迪霉素醋酸盐(美欧卡霉素, ponsinomycin)和罗红霉素(roxithromycin)等与CYP3A4亲和力较小的药物, 形成复合物的程度较低, 很少引起药物相互作用。\n环孢素是广泛用于肾、肝和心脏移植的免疫抑制剂。口服环孢素的吸收很少。肾移植病人口服环孢菌素的平均生物利用率仅28%。环孢素主要是在肝脏经CYP3A4的同工酶代谢。像大环内酯类这样抑制CYP3A4的抗生素可以估计到会影响环孢素的体内命运。另一个影响环孢菌素使用的因素是其治疗作用和无毒性作用的血中浓度范围很窄。\n3. 预期和已充分评价的相互作用"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel:3",
+    "source": "大环内酯类抗菌药物的药物相互作用_Niel-Avon Rosenstiel.pdf",
+    "text": "3.2 环孢素\n第二组: 克红霉素(clarithromycin)、氟红霉素(flurithromy-cin)、交沙霉素(josamycin)、麦迪霉素(midecamycin)、麦迪霉素醋酸盐(美欧卡霉素, ponsinomycin)和罗红霉素(roxithromycin)等与CYP3A4亲和力较小的药物, 形成复合物的程度较低, 很少引起药物相互作用。\n环孢素是广泛用于肾、肝和心脏移植的免疫抑制剂。口服环孢素的吸收很少。肾移植病人口服环孢菌素的平均生物利用率仅28%。环孢素主要是在肝脏经CYP3A4的同工酶代谢。像大环内酯类这样抑制CYP3A4的抗生素可以估计到会影响环孢素的体内命运。另一个影响环孢菌素使用的因素是其治疗作用和无毒性作用的血中浓度范围很窄。\n3. 预期和已充分评价的相互作用"
+  }
+]

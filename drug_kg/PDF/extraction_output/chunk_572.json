@@ -1,0 +1,106 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "直接抗病毒药物",
+        "canonical_name": "直接抗病毒药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Disease",
+        "name": "丙型肝炎",
+        "canonical_name": "丙型肝炎",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "HBsAg",
+        "canonical_name": "HBsAg",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "HBV DNA",
+        "canonical_name": "HBV DNA",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "ALT",
+        "canonical_name": "ALT",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "DAAs",
+        "canonical_name": "DAAs",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "丙型肝炎直接抗病毒药物应用中的药物相互作用管理专家共识.pdf",
+          "chunk_index": "丙型肝炎直接抗病毒药物应用中的药物相互作用管理专家共识:9",
+          "raw_text": "丙型肝炎直接抗病毒药物应用中的药物相互作用管理专家共识",
+          "chunk_id": "丙型肝炎直接抗病毒药物应用中的药物相互作用管理专家共识:9",
+          "data": "后出现慢性乙型肝炎再激活，因此，在使用 DAAs 前，需筛查HBsAg。若 HBsAg 呈阳性，使用 DAAs 前需检测 HBV DNA，如果存在 HBV 复制，需根据慢性乙型肝炎相关指南处理并监测HBV DNA 载量和 ALT 变化情况;如果服药前未检测出 HBVDNA，在使用 DAAs 过程中也应监测 HBV DNA 载量和 ALT 的变化，按照相关指南进行抗 HBV 治疗。如果 DAAs 治疗期间发生了 DDI，应该追踪随访至该 DDI完全缓解，或者转诊至相关的临床科室。\n3． 1． 2 了解患者合并基础疾病的具体情况及合并用药的数量、具体的药物名称仔细询问患者的合并疾病史、饮酒史和过敏史，获得患者所有应用药物( 包括非处方药物、中草药、保健品、补品等) 的信息; 评估这些药物应用的必要性，停用非必须应用的药物。\n3． 4 DDI 管理流程图见图 1 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "丙型肝炎直接抗病毒药物应用中的药物相互作用管理专家共识.pdf",
+          "chunk_index": "丙型肝炎直接抗病毒药物应用中的药物相互作用管理专家共识:9",
+          "raw_text": "在使用 DAAs 前，需筛查HBsAg",
+          "chunk_id": "丙型肝炎直接抗病毒药物应用中的药物相互作用管理专家共识:9",
+          "data": "后出现慢性乙型肝炎再激活，因此，在使用 DAAs 前，需筛查HBsAg。若 HBsAg 呈阳性，使用 DAAs 前需检测 HBV DNA，如果存在 HBV 复制，需根据慢性乙型肝炎相关指南处理并监测HBV DNA 载量和 ALT 变化情况;如果服药前未检测出 HBVDNA，在使用 DAAs 过程中也应监测 HBV DNA 载量和 ALT 的变化，按照相关指南进行抗 HBV 治疗。如果 DAAs 治疗期间发生了 DDI，应该追踪随访至该 DDI完全缓解，或者转诊至相关的临床科室。\n3． 1． 2 了解患者合并基础疾病的具体情况及合并用药的数量、具体的药物名称仔细询问患者的合并疾病史、饮酒史和过敏史，获得患者所有应用药物( 包括非处方药物、中草药、保健品、补品等) 的信息; 评估这些药物应用的必要性，停用非必须应用的药物。\n3． 4 DDI 管理流程图见图 1 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "丙型肝炎直接抗病毒药物应用中的药物相互作用管理专家共识.pdf",
+          "chunk_index": "丙型肝炎直接抗病毒药物应用中的药物相互作用管理专家共识:9",
+          "raw_text": "使用 DAAs 前需检测 HBV DNA",
+          "chunk_id": "丙型肝炎直接抗病毒药物应用中的药物相互作用管理专家共识:9",
+          "data": "后出现慢性乙型肝炎再激活，因此，在使用 DAAs 前，需筛查HBsAg。若 HBsAg 呈阳性，使用 DAAs 前需检测 HBV DNA，如果存在 HBV 复制，需根据慢性乙型肝炎相关指南处理并监测HBV DNA 载量和 ALT 变化情况;如果服药前未检测出 HBVDNA，在使用 DAAs 过程中也应监测 HBV DNA 载量和 ALT 的变化，按照相关指南进行抗 HBV 治疗。如果 DAAs 治疗期间发生了 DDI，应该追踪随访至该 DDI完全缓解，或者转诊至相关的临床科室。\n3． 1． 2 了解患者合并基础疾病的具体情况及合并用药的数量、具体的药物名称仔细询问患者的合并疾病史、饮酒史和过敏史，获得患者所有应用药物( 包括非处方药物、中草药、保健品、补品等) 的信息; 评估这些药物应用的必要性，停用非必须应用的药物。\n3． 4 DDI 管理流程图见图 1 。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "丙型肝炎直接抗病毒药物应用中的药物相互作用管理专家共识.pdf",
+          "chunk_index": "丙型肝炎直接抗病毒药物应用中的药物相互作用管理专家共识:9",
+          "raw_text": "监测HBV DNA 载量和 ALT 变化情况",
+          "chunk_id": "丙型肝炎直接抗病毒药物应用中的药物相互作用管理专家共识:9",
+          "data": "后出现慢性乙型肝炎再激活，因此，在使用 DAAs 前，需筛查HBsAg。若 HBsAg 呈阳性，使用 DAAs 前需检测 HBV DNA，如果存在 HBV 复制，需根据慢性乙型肝炎相关指南处理并监测HBV DNA 载量和 ALT 变化情况;如果服药前未检测出 HBVDNA，在使用 DAAs 过程中也应监测 HBV DNA 载量和 ALT 的变化，按照相关指南进行抗 HBV 治疗。如果 DAAs 治疗期间发生了 DDI，应该追踪随访至该 DDI完全缓解，或者转诊至相关的临床科室。\n3． 1． 2 了解患者合并基础疾病的具体情况及合并用药的数量、具体的药物名称仔细询问患者的合并疾病史、饮酒史和过敏史，获得患者所有应用药物( 包括非处方药物、中草药、保健品、补品等) 的信息; 评估这些药物应用的必要性，停用非必须应用的药物。\n3． 4 DDI 管理流程图见图 1 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "丙型肝炎直接抗病毒药物应用中的药物相互作用管理专家共识:9",
+    "source": "丙型肝炎直接抗病毒药物应用中的药物相互作用管理专家共识.pdf",
+    "text": "后出现慢性乙型肝炎再激活，因此，在使用 DAAs 前，需筛查HBsAg。若 HBsAg 呈阳性，使用 DAAs 前需检测 HBV DNA，如果存在 HBV 复制，需根据慢性乙型肝炎相关指南处理并监测HBV DNA 载量和 ALT 变化情况;如果服药前未检测出 HBVDNA，在使用 DAAs 过程中也应监测 HBV DNA 载量和 ALT 的变化，按照相关指南进行抗 HBV 治疗。如果 DAAs 治疗期间发生了 DDI，应该追踪随访至该 DDI完全缓解，或者转诊至相关的临床科室。\n3． 1． 2 了解患者合并基础疾病的具体情况及合并用药的数量、具体的药物名称仔细询问患者的合并疾病史、饮酒史和过敏史，获得患者所有应用药物( 包括非处方药物、中草药、保健品、补品等) 的信息; 评估这些药物应用的必要性，停用非必须应用的药物。\n3． 4 DDI 管理流程图见图 1 。"
+  }
+]

@@ -1,0 +1,336 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "奈玛特韦片",
+        "canonical_name": "奈玛特韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利托那韦片",
+        "canonical_name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "呕吐",
+        "canonical_name": "呕吐",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "肾损伤",
+        "canonical_name": "肾损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "嗜睡",
+        "canonical_name": "嗜睡",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "心率减慢",
+        "canonical_name": "心率减慢",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "胃肠道不适",
+        "canonical_name": "胃肠道不适",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "心律失常",
+        "canonical_name": "心律失常",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "低血压",
+        "canonical_name": "低血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Symptom",
+        "name": "恶心",
+        "canonical_name": "恶心",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Symptom",
+        "name": "头晕",
+        "canonical_name": "头晕",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir tablets is common． Drug interactions and adverse drug reactions occur in some patients w ith combined use of nirmatrelvir tablets / ritonavir tablets，w hich should be paid more attention to in clinical treatment． Clinical pharmacists should strengthen the information system to intercept potential drug interaction orders and actively participate in clinical medication intervention in order to avoid potential adverse drug interactions and ensure patients' medication safety．",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+          "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "raw_text": "There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) .",
+          "chunk_id": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+          "data": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir ta"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连:5",
+    "source": "含奈玛特韦片_利托那韦片联用医嘱的潜在药物相互作用分析_郭春连.pdf",
+    "text": "sing nirmatrelvir tablets /ritonavir tablets from December 1st，2022 to February 28th，2023 in our hospital was extracted;by referring to the information on drug interactions in Medscape and Medication Assistant databases，the medical orders with drug-drug interactions were identified and the severity was graded． The adverse events caused by drug interactions were analyzed． Results A total of 452 inpatients were treated of neimatvir tablets /ritonavir tablets，and 117 patients had potential interaction w ith neimatvir tablets / ritonavir tablets，accounting for 25. 88% ． The severity of drug interactions w as classified as contraindication in 27 cases，severe in 70 cases，and moderate in 20 cases． There were 8 cases of adverse events caused by drug interactions，mainly manifested as vomiting，kidney injury，drowsiness，slow heart rate，gastrointestinal discomfort，arrhythmia，hypotension and related symptoms ( nausea，dizziness) ． Conclusion Multiple combined use of nirmatrelvir tablets /ritonavir tablets is common． Drug interactions and adverse drug reactions occur in some patients w ith combined use of nirmatrelvir tablets / ritonavir tablets，w hich should be paid more attention to in clinical treatment． Clinical pharmacists should strengthen the information system to intercept potential drug interaction orders and actively participate in clinical medication intervention in order to avoid potential adverse drug interactions and ensure patients' medication safety．\n0 引言\n新型冠状病毒感染( COVID-19) 自 2019 年 12月以来陆续在全球各国家蔓延，截至 2022 年 6 月15 日，全球有超过5.34 亿例确诊病例和630 万例死亡病例［1］。"
+  }
+]

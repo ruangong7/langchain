@@ -1,0 +1,130 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "米氮平",
+        "canonical_name": "米氮平",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "丁螺环酮",
+        "canonical_name": "丁螺环酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "帕罗西汀",
+        "canonical_name": "帕罗西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "镇静催眠药",
+        "canonical_name": "镇静催眠药",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "抗精神分裂症药",
+        "canonical_name": "抗精神分裂症药",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "5-HT综合征",
+        "canonical_name": "5-HT综合征",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深.pdf",
+          "chunk_index": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:9",
+          "raw_text": "米氮平、丁螺环酮、帕罗西汀等抗抑郁药存在严重药物相互作用（5-HT综合征）",
+          "severity": "严重",
+          "consequence": "5-HT综合征",
+          "recommendation": "应避免合用",
+          "chunk_id": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:9",
+          "data": "药的药物相互作用均为中度，达 60.8%，应密切监测或换药。结论蚌埠市第一人民医院米氮平与其他药物存在严重、中度药物相互作用，有必要结合 Lexicomp＋Medscape 数据库，加强米氮平药物相互作用要点培训，采取信息化管控，防范风险。Investigation and countermeasure of mirtazapine prescription drug interaction based on Lexicomp and Medscape database\nYE Genshen Department of Pharmacy, Bengbu First People’s Hospital, Bengbu 233000, China Abstract: Objective To analyze drug interactions in the outpatient prescription of mirtazapine in the department of Mental Health, Bengbu First People’s Hospital, and to promote the rational use of medication. Methods A retrospective study was conducted to obtain the outpatient prescriptions for mirtazapine co-administration in the department from January 1, 2022 to June 30, 2023 from the information system, drug interactions were identified based on Lexicomp and Medscape database, respectively, and merged according to the newly classified drug interactions severity grading. The incidence of mirtazapine-associated drug interactions was descriptive statisticed, the s"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深.pdf",
+          "chunk_index": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:9",
+          "raw_text": "米氮平、丁螺环酮、帕罗西汀等抗抑郁药存在严重药物相互作用（5-HT综合征）",
+          "severity": "严重",
+          "consequence": "5-HT综合征",
+          "recommendation": "应避免合用",
+          "chunk_id": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:9",
+          "data": "药的药物相互作用均为中度，达 60.8%，应密切监测或换药。结论蚌埠市第一人民医院米氮平与其他药物存在严重、中度药物相互作用，有必要结合 Lexicomp＋Medscape 数据库，加强米氮平药物相互作用要点培训，采取信息化管控，防范风险。Investigation and countermeasure of mirtazapine prescription drug interaction based on Lexicomp and Medscape database\nYE Genshen Department of Pharmacy, Bengbu First People’s Hospital, Bengbu 233000, China Abstract: Objective To analyze drug interactions in the outpatient prescription of mirtazapine in the department of Mental Health, Bengbu First People’s Hospital, and to promote the rational use of medication. Methods A retrospective study was conducted to obtain the outpatient prescriptions for mirtazapine co-administration in the department from January 1, 2022 to June 30, 2023 from the information system, drug interactions were identified based on Lexicomp and Medscape database, respectively, and merged according to the newly classified drug interactions severity grading. The incidence of mirtazapine-associated drug interactions was descriptive statisticed, the s"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深.pdf",
+          "chunk_index": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:9",
+          "raw_text": "与镇静催眠药和抗精神分裂症药的药物相互作用均为中度，达60.8%，应密切监测或换药",
+          "severity": "中度",
+          "recommendation": "应密切监测或换药",
+          "chunk_id": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:9",
+          "data": "药的药物相互作用均为中度，达 60.8%，应密切监测或换药。结论蚌埠市第一人民医院米氮平与其他药物存在严重、中度药物相互作用，有必要结合 Lexicomp＋Medscape 数据库，加强米氮平药物相互作用要点培训，采取信息化管控，防范风险。Investigation and countermeasure of mirtazapine prescription drug interaction based on Lexicomp and Medscape database\nYE Genshen Department of Pharmacy, Bengbu First People’s Hospital, Bengbu 233000, China Abstract: Objective To analyze drug interactions in the outpatient prescription of mirtazapine in the department of Mental Health, Bengbu First People’s Hospital, and to promote the rational use of medication. Methods A retrospective study was conducted to obtain the outpatient prescriptions for mirtazapine co-administration in the department from January 1, 2022 to June 30, 2023 from the information system, drug interactions were identified based on Lexicomp and Medscape database, respectively, and merged according to the newly classified drug interactions severity grading. The incidence of mirtazapine-associated drug interactions was descriptive statisticed, the s"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深.pdf",
+          "chunk_index": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:9",
+          "raw_text": "与镇静催眠药和抗精神分裂症药的药物相互作用均为中度，达60.8%，应密切监测或换药",
+          "severity": "中度",
+          "recommendation": "应密切监测或换药",
+          "chunk_id": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:9",
+          "data": "药的药物相互作用均为中度，达 60.8%，应密切监测或换药。结论蚌埠市第一人民医院米氮平与其他药物存在严重、中度药物相互作用，有必要结合 Lexicomp＋Medscape 数据库，加强米氮平药物相互作用要点培训，采取信息化管控，防范风险。Investigation and countermeasure of mirtazapine prescription drug interaction based on Lexicomp and Medscape database\nYE Genshen Department of Pharmacy, Bengbu First People’s Hospital, Bengbu 233000, China Abstract: Objective To analyze drug interactions in the outpatient prescription of mirtazapine in the department of Mental Health, Bengbu First People’s Hospital, and to promote the rational use of medication. Methods A retrospective study was conducted to obtain the outpatient prescriptions for mirtazapine co-administration in the department from January 1, 2022 to June 30, 2023 from the information system, drug interactions were identified based on Lexicomp and Medscape database, respectively, and merged according to the newly classified drug interactions severity grading. The incidence of mirtazapine-associated drug interactions was descriptive statisticed, the s"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深.pdf",
+          "chunk_index": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:9",
+          "raw_text": "米氮平、丁螺环酮、帕罗西汀等抗抑郁药存在严重药物相互作用（5-HT综合征）",
+          "severity": "严重",
+          "chunk_id": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:9",
+          "data": "药的药物相互作用均为中度，达 60.8%，应密切监测或换药。结论蚌埠市第一人民医院米氮平与其他药物存在严重、中度药物相互作用，有必要结合 Lexicomp＋Medscape 数据库，加强米氮平药物相互作用要点培训，采取信息化管控，防范风险。Investigation and countermeasure of mirtazapine prescription drug interaction based on Lexicomp and Medscape database\nYE Genshen Department of Pharmacy, Bengbu First People’s Hospital, Bengbu 233000, China Abstract: Objective To analyze drug interactions in the outpatient prescription of mirtazapine in the department of Mental Health, Bengbu First People’s Hospital, and to promote the rational use of medication. Methods A retrospective study was conducted to obtain the outpatient prescriptions for mirtazapine co-administration in the department from January 1, 2022 to June 30, 2023 from the information system, drug interactions were identified based on Lexicomp and Medscape database, respectively, and merged according to the newly classified drug interactions severity grading. The incidence of mirtazapine-associated drug interactions was descriptive statisticed, the s"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:9",
+    "source": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深.pdf",
+    "text": "药的药物相互作用均为中度，达 60.8%，应密切监测或换药。结论蚌埠市第一人民医院米氮平与其他药物存在严重、中度药物相互作用，有必要结合 Lexicomp＋Medscape 数据库，加强米氮平药物相互作用要点培训，采取信息化管控，防范风险。Investigation and countermeasure of mirtazapine prescription drug interaction based on Lexicomp and Medscape database\nYE Genshen Department of Pharmacy, Bengbu First People’s Hospital, Bengbu 233000, China Abstract: Objective To analyze drug interactions in the outpatient prescription of mirtazapine in the department of Mental Health, Bengbu First People’s Hospital, and to promote the rational use of medication. Methods A retrospective study was conducted to obtain the outpatient prescriptions for mirtazapine co-administration in the department from January 1, 2022 to June 30, 2023 from the information system, drug interactions were identified based on Lexicomp and Medscape database, respectively, and merged according to the newly classified drug interactions severity grading. The incidence of mirtazapine-associated drug interactions was descriptive statisticed, the strength of concordance of the severity grading of drug interactions and the risk points between and among the Lexicomp, Medscape, and Lexicomp + Medscape database were tested by Kappa test. Results A total of 402 effective prescriptions were obtained according to the allotting standard, and the drug interactions prescriptions were 402 (100%), 383 (95.3%) and 402 (100%) according to Lexicomp, Medscape, and Lexicomp + Medscape database, respectively. In terms of severity classification and risk points, Lexicomp + Medscape database and Lexicomp database were strongly consistent (Kappa > 0.99, P = 0), while Lexicomp + Medscape database or Lexicomp and Medscape database were significantly different (Kappa < 0, P < 0.05). Lexicomp and Medscape database are complementary in terms of risk points. In the 620 cases of Lexicomp + Medscape database drug interactions, miltazapine, buspirone, paroxetine, and other antidepressants had severe drug interactions (5-HT syndrome) of 39.2%, which should be avoided. Drug interactions with sedative hypnotics and antischizophrenic drugs were moderate, up to 60.8%, and should be closely monitored or ch an ged. Conclusion Th ere are severe and mod erate d ru g in teraction s b etween mirtazapin e and oth er drugs in Bengbu First People’s Hospital, and it’s necessary to strengthen the training on the essentials of mirtazapine drug interactions based on the Lexicomp + Medscape database, and to adopt informational controls to prevent risks.药物相互作用严重威胁患者安全且增加治疗费用[1]。"
+  }
+]

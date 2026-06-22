@@ -1,0 +1,202 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "利尿药",
+        "canonical_name": "利尿药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "洋地黄类",
+        "canonical_name": "洋地黄类",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "丁苯氧酸",
+        "canonical_name": "丁苯氧酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "氯噻酮",
+        "canonical_name": "氯噻酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "利尿酸",
+        "canonical_name": "利尿酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "速尿",
+        "canonical_name": "速尿",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "甲苯喹唑磺胺",
+        "canonical_name": "甲苯喹唑磺胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "喹乙唑酮",
+        "canonical_name": "喹乙唑酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "地高辛",
+        "canonical_name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "心律失常",
+        "canonical_name": "心律失常",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "药物相互作用_Daniel A Hussar.pdf",
+          "chunk_index": "药物相互作用_Daniel A Hussar:3",
+          "raw_text": "利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等",
+          "chunk_id": "药物相互作用_Daniel A Hussar:3",
+          "data": "(Nursing (8):34-39, 1986 (英文)利尿药/洋地黄类利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等可致钾过度丢失，而使患者心脏对地高辛等强心药物特别敏感，易致心律失常。合用时应适当补钾或配用滞钾利尿剂。\n张大录摘译管葆真校]"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "药物相互作用_Daniel A Hussar.pdf",
+          "chunk_index": "药物相互作用_Daniel A Hussar:3",
+          "raw_text": "利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等",
+          "chunk_id": "药物相互作用_Daniel A Hussar:3",
+          "data": "(Nursing (8):34-39, 1986 (英文)利尿药/洋地黄类利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等可致钾过度丢失，而使患者心脏对地高辛等强心药物特别敏感，易致心律失常。合用时应适当补钾或配用滞钾利尿剂。\n张大录摘译管葆真校]"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "药物相互作用_Daniel A Hussar.pdf",
+          "chunk_index": "药物相互作用_Daniel A Hussar:3",
+          "raw_text": "利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等",
+          "chunk_id": "药物相互作用_Daniel A Hussar:3",
+          "data": "(Nursing (8):34-39, 1986 (英文)利尿药/洋地黄类利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等可致钾过度丢失，而使患者心脏对地高辛等强心药物特别敏感，易致心律失常。合用时应适当补钾或配用滞钾利尿剂。\n张大录摘译管葆真校]"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "药物相互作用_Daniel A Hussar.pdf",
+          "chunk_index": "药物相互作用_Daniel A Hussar:3",
+          "raw_text": "利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等",
+          "chunk_id": "药物相互作用_Daniel A Hussar:3",
+          "data": "(Nursing (8):34-39, 1986 (英文)利尿药/洋地黄类利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等可致钾过度丢失，而使患者心脏对地高辛等强心药物特别敏感，易致心律失常。合用时应适当补钾或配用滞钾利尿剂。\n张大录摘译管葆真校]"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "药物相互作用_Daniel A Hussar.pdf",
+          "chunk_index": "药物相互作用_Daniel A Hussar:3",
+          "raw_text": "利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等",
+          "chunk_id": "药物相互作用_Daniel A Hussar:3",
+          "data": "(Nursing (8):34-39, 1986 (英文)利尿药/洋地黄类利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等可致钾过度丢失，而使患者心脏对地高辛等强心药物特别敏感，易致心律失常。合用时应适当补钾或配用滞钾利尿剂。\n张大录摘译管葆真校]"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "药物相互作用_Daniel A Hussar.pdf",
+          "chunk_index": "药物相互作用_Daniel A Hussar:3",
+          "raw_text": "利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等",
+          "chunk_id": "药物相互作用_Daniel A Hussar:3",
+          "data": "(Nursing (8):34-39, 1986 (英文)利尿药/洋地黄类利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等可致钾过度丢失，而使患者心脏对地高辛等强心药物特别敏感，易致心律失常。合用时应适当补钾或配用滞钾利尿剂。\n张大录摘译管葆真校]"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物相互作用_Daniel A Hussar.pdf",
+          "chunk_index": "药物相互作用_Daniel A Hussar:3",
+          "raw_text": "地高辛等强心药物",
+          "chunk_id": "药物相互作用_Daniel A Hussar:3",
+          "data": "(Nursing (8):34-39, 1986 (英文)利尿药/洋地黄类利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等可致钾过度丢失，而使患者心脏对地高辛等强心药物特别敏感，易致心律失常。合用时应适当补钾或配用滞钾利尿剂。\n张大录摘译管葆真校]"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物相互作用_Daniel A Hussar.pdf",
+          "chunk_index": "药物相互作用_Daniel A Hussar:3",
+          "raw_text": "利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等可致钾过度丢失，而使患者心脏对地高辛等强心药物特别敏感，易致心律失常。",
+          "mechanism": "利尿药致钾过度丢失，增加心脏对洋地黄类的敏感性",
+          "consequence": "易致心律失常",
+          "suggestion": "合用时应适当补钾或配用滞钾利尿剂",
+          "chunk_id": "药物相互作用_Daniel A Hussar:3",
+          "data": "(Nursing (8):34-39, 1986 (英文)利尿药/洋地黄类利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等可致钾过度丢失，而使患者心脏对地高辛等强心药物特别敏感，易致心律失常。合用时应适当补钾或配用滞钾利尿剂。\n张大录摘译管葆真校]"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "药物相互作用_Daniel A Hussar.pdf",
+          "chunk_index": "药物相互作用_Daniel A Hussar:3",
+          "raw_text": "易致心律失常",
+          "chunk_id": "药物相互作用_Daniel A Hussar:3",
+          "data": "(Nursing (8):34-39, 1986 (英文)利尿药/洋地黄类利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等可致钾过度丢失，而使患者心脏对地高辛等强心药物特别敏感，易致心律失常。合用时应适当补钾或配用滞钾利尿剂。\n张大录摘译管葆真校]"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物相互作用_Daniel A Hussar:3",
+    "source": "药物相互作用_Daniel A Hussar.pdf",
+    "text": "(Nursing (8):34-39, 1986 (英文)利尿药/洋地黄类利尿药如丁苯氧酸、氯噻酮、利尿酸、速尿、甲苯喹唑磺胺、喹乙唑酮等可致钾过度丢失，而使患者心脏对地高辛等强心药物特别敏感，易致心律失常。合用时应适当补钾或配用滞钾利尿剂。\n张大录摘译管葆真校]"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "替芬泰",
+        "canonical_name": "替芬泰",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "富马酸替诺福韦酯",
+        "canonical_name": "富马酸替诺福韦酯",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "替诺福韦",
+        "canonical_name": "替诺福韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "恩替卡韦",
+        "canonical_name": "恩替卡韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "核苷酸类逆转录酶抑制剂",
+        "canonical_name": "核苷酸类逆转录酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "乙型肝炎病毒感染",
+        "canonical_name": "乙型肝炎病毒感染",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "OAT3",
+        "canonical_name": "OAT3",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "OATs",
+        "canonical_name": "OATs",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤.pdf",
+          "chunk_index": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:21",
+          "raw_text": "富马酸替诺福韦酯（tenofovir disoproxil fumarate，TDF）是一种新型核苷酸类逆转录酶抑制剂",
+          "chunk_id": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:21",
+          "data": "ibition of OAT3, suggesting that the dose needs to be adjusted in clinical combination.Key words: bentysrepinine (Y101);tenofovir disoproxil fumarate (TDF);tenofovir (TFV);drug-drug interactions;renal excretion;OAT3富马酸替诺福韦酯（tenofovir disoproxil fumarate，TDF）是一种新型核苷酸类逆转录酶抑制剂，临床研究表明TDF可以治疗多种病毒感染，该药于2008年被批准用于乙型肝炎病毒（HBV）感染的治疗［1-2］ 。临床上TDF仍然是HBV感染治疗的一线药物，患者的依从性和疗效较好。TDF的作用靶点是病毒聚合酶，长期服用只能抑制病毒的复制，而且停药后易复发［3-4］。因此，TDF常与其他药物联合应用于治疗HBV感染，如Park等［5］研究TDF联合恩替卡韦治疗HBV感染，发现联合用药后较TDF单独治疗具有更高的病毒抑制率 。TDF 作为替诺福韦（tenofovir，TFV）的前药，口服后吸收良好，在生物体内能迅速被酶水解转化为TFV，且TFV是TDF在生物体内吸收和排泄的主要形式。有文献报道，TFV主要经肾脏有机阴离子转运体（OATs）从血液进入肾小管上皮细胞，经肾小球过滤和肾小管主动分泌随尿液排泄［6-7］。OAT3转运体的底物，肾脏排泄是Y101、M8的重要消除途径［12］。Y101与M8的化学结构式见图1。由于TDF代谢物TFV与Y101代谢物M8均为OATs的底物，因此TDF与Y101联合用药后可能会发生OATs介导的药物-药物相互作用（DDI），进而影响药物的安全性及疗效。本研究拟从大鼠体内吸收和肾排泄2个方面初步探讨TDF与Y101联合使用后OATs介导的DDI，以期为临床合理用药提供参考依据和研究基础。替芬泰（bentysrepinine，Y101）是一种抗 HBV候选新药，目前正处于临床Ⅱ期研究阶段。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤.pdf",
+          "chunk_index": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:21",
+          "raw_text": "该药于2008年被批准用于乙型肝炎病毒（HBV）感染的治疗",
+          "chunk_id": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:21",
+          "data": "ibition of OAT3, suggesting that the dose needs to be adjusted in clinical combination.Key words: bentysrepinine (Y101);tenofovir disoproxil fumarate (TDF);tenofovir (TFV);drug-drug interactions;renal excretion;OAT3富马酸替诺福韦酯（tenofovir disoproxil fumarate，TDF）是一种新型核苷酸类逆转录酶抑制剂，临床研究表明TDF可以治疗多种病毒感染，该药于2008年被批准用于乙型肝炎病毒（HBV）感染的治疗［1-2］ 。临床上TDF仍然是HBV感染治疗的一线药物，患者的依从性和疗效较好。TDF的作用靶点是病毒聚合酶，长期服用只能抑制病毒的复制，而且停药后易复发［3-4］。因此，TDF常与其他药物联合应用于治疗HBV感染，如Park等［5］研究TDF联合恩替卡韦治疗HBV感染，发现联合用药后较TDF单独治疗具有更高的病毒抑制率 。TDF 作为替诺福韦（tenofovir，TFV）的前药，口服后吸收良好，在生物体内能迅速被酶水解转化为TFV，且TFV是TDF在生物体内吸收和排泄的主要形式。有文献报道，TFV主要经肾脏有机阴离子转运体（OATs）从血液进入肾小管上皮细胞，经肾小球过滤和肾小管主动分泌随尿液排泄［6-7］。OAT3转运体的底物，肾脏排泄是Y101、M8的重要消除途径［12］。Y101与M8的化学结构式见图1。由于TDF代谢物TFV与Y101代谢物M8均为OATs的底物，因此TDF与Y101联合用药后可能会发生OATs介导的药物-药物相互作用（DDI），进而影响药物的安全性及疗效。本研究拟从大鼠体内吸收和肾排泄2个方面初步探讨TDF与Y101联合使用后OATs介导的DDI，以期为临床合理用药提供参考依据和研究基础。替芬泰（bentysrepinine，Y101）是一种抗 HBV候选新药，目前正处于临床Ⅱ期研究阶段。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤.pdf",
+          "chunk_index": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:21",
+          "raw_text": "TDF联合恩替卡韦治疗HBV感染，发现联合用药后较TDF单独治疗具有更高的病毒抑制率",
+          "chunk_id": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:21",
+          "data": "ibition of OAT3, suggesting that the dose needs to be adjusted in clinical combination.Key words: bentysrepinine (Y101);tenofovir disoproxil fumarate (TDF);tenofovir (TFV);drug-drug interactions;renal excretion;OAT3富马酸替诺福韦酯（tenofovir disoproxil fumarate，TDF）是一种新型核苷酸类逆转录酶抑制剂，临床研究表明TDF可以治疗多种病毒感染，该药于2008年被批准用于乙型肝炎病毒（HBV）感染的治疗［1-2］ 。临床上TDF仍然是HBV感染治疗的一线药物，患者的依从性和疗效较好。TDF的作用靶点是病毒聚合酶，长期服用只能抑制病毒的复制，而且停药后易复发［3-4］。因此，TDF常与其他药物联合应用于治疗HBV感染，如Park等［5］研究TDF联合恩替卡韦治疗HBV感染，发现联合用药后较TDF单独治疗具有更高的病毒抑制率 。TDF 作为替诺福韦（tenofovir，TFV）的前药，口服后吸收良好，在生物体内能迅速被酶水解转化为TFV，且TFV是TDF在生物体内吸收和排泄的主要形式。有文献报道，TFV主要经肾脏有机阴离子转运体（OATs）从血液进入肾小管上皮细胞，经肾小球过滤和肾小管主动分泌随尿液排泄［6-7］。OAT3转运体的底物，肾脏排泄是Y101、M8的重要消除途径［12］。Y101与M8的化学结构式见图1。由于TDF代谢物TFV与Y101代谢物M8均为OATs的底物，因此TDF与Y101联合用药后可能会发生OATs介导的药物-药物相互作用（DDI），进而影响药物的安全性及疗效。本研究拟从大鼠体内吸收和肾排泄2个方面初步探讨TDF与Y101联合使用后OATs介导的DDI，以期为临床合理用药提供参考依据和研究基础。替芬泰（bentysrepinine，Y101）是一种抗 HBV候选新药，目前正处于临床Ⅱ期研究阶段。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤.pdf",
+          "chunk_index": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:21",
+          "raw_text": "TDF与Y101联合用药后可能会发生OATs介导的药物-药物相互作用（DDI）",
+          "chunk_id": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:21",
+          "data": "ibition of OAT3, suggesting that the dose needs to be adjusted in clinical combination.Key words: bentysrepinine (Y101);tenofovir disoproxil fumarate (TDF);tenofovir (TFV);drug-drug interactions;renal excretion;OAT3富马酸替诺福韦酯（tenofovir disoproxil fumarate，TDF）是一种新型核苷酸类逆转录酶抑制剂，临床研究表明TDF可以治疗多种病毒感染，该药于2008年被批准用于乙型肝炎病毒（HBV）感染的治疗［1-2］ 。临床上TDF仍然是HBV感染治疗的一线药物，患者的依从性和疗效较好。TDF的作用靶点是病毒聚合酶，长期服用只能抑制病毒的复制，而且停药后易复发［3-4］。因此，TDF常与其他药物联合应用于治疗HBV感染，如Park等［5］研究TDF联合恩替卡韦治疗HBV感染，发现联合用药后较TDF单独治疗具有更高的病毒抑制率 。TDF 作为替诺福韦（tenofovir，TFV）的前药，口服后吸收良好，在生物体内能迅速被酶水解转化为TFV，且TFV是TDF在生物体内吸收和排泄的主要形式。有文献报道，TFV主要经肾脏有机阴离子转运体（OATs）从血液进入肾小管上皮细胞，经肾小球过滤和肾小管主动分泌随尿液排泄［6-7］。OAT3转运体的底物，肾脏排泄是Y101、M8的重要消除途径［12］。Y101与M8的化学结构式见图1。由于TDF代谢物TFV与Y101代谢物M8均为OATs的底物，因此TDF与Y101联合用药后可能会发生OATs介导的药物-药物相互作用（DDI），进而影响药物的安全性及疗效。本研究拟从大鼠体内吸收和肾排泄2个方面初步探讨TDF与Y101联合使用后OATs介导的DDI，以期为临床合理用药提供参考依据和研究基础。替芬泰（bentysrepinine，Y101）是一种抗 HBV候选新药，目前正处于临床Ⅱ期研究阶段。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤.pdf",
+          "chunk_index": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:21",
+          "raw_text": "TFV主要经肾脏有机阴离子转运体（OATs）从血液进入肾小管上皮细胞",
+          "chunk_id": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:21",
+          "data": "ibition of OAT3, suggesting that the dose needs to be adjusted in clinical combination.Key words: bentysrepinine (Y101);tenofovir disoproxil fumarate (TDF);tenofovir (TFV);drug-drug interactions;renal excretion;OAT3富马酸替诺福韦酯（tenofovir disoproxil fumarate，TDF）是一种新型核苷酸类逆转录酶抑制剂，临床研究表明TDF可以治疗多种病毒感染，该药于2008年被批准用于乙型肝炎病毒（HBV）感染的治疗［1-2］ 。临床上TDF仍然是HBV感染治疗的一线药物，患者的依从性和疗效较好。TDF的作用靶点是病毒聚合酶，长期服用只能抑制病毒的复制，而且停药后易复发［3-4］。因此，TDF常与其他药物联合应用于治疗HBV感染，如Park等［5］研究TDF联合恩替卡韦治疗HBV感染，发现联合用药后较TDF单独治疗具有更高的病毒抑制率 。TDF 作为替诺福韦（tenofovir，TFV）的前药，口服后吸收良好，在生物体内能迅速被酶水解转化为TFV，且TFV是TDF在生物体内吸收和排泄的主要形式。有文献报道，TFV主要经肾脏有机阴离子转运体（OATs）从血液进入肾小管上皮细胞，经肾小球过滤和肾小管主动分泌随尿液排泄［6-7］。OAT3转运体的底物，肾脏排泄是Y101、M8的重要消除途径［12］。Y101与M8的化学结构式见图1。由于TDF代谢物TFV与Y101代谢物M8均为OATs的底物，因此TDF与Y101联合用药后可能会发生OATs介导的药物-药物相互作用（DDI），进而影响药物的安全性及疗效。本研究拟从大鼠体内吸收和肾排泄2个方面初步探讨TDF与Y101联合使用后OATs介导的DDI，以期为临床合理用药提供参考依据和研究基础。替芬泰（bentysrepinine，Y101）是一种抗 HBV候选新药，目前正处于临床Ⅱ期研究阶段。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤.pdf",
+          "chunk_index": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:21",
+          "raw_text": "Y101与M8的化学结构式见图1。由于TDF代谢物TFV与Y101代谢物M8均为OATs的底物",
+          "chunk_id": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:21",
+          "data": "ibition of OAT3, suggesting that the dose needs to be adjusted in clinical combination.Key words: bentysrepinine (Y101);tenofovir disoproxil fumarate (TDF);tenofovir (TFV);drug-drug interactions;renal excretion;OAT3富马酸替诺福韦酯（tenofovir disoproxil fumarate，TDF）是一种新型核苷酸类逆转录酶抑制剂，临床研究表明TDF可以治疗多种病毒感染，该药于2008年被批准用于乙型肝炎病毒（HBV）感染的治疗［1-2］ 。临床上TDF仍然是HBV感染治疗的一线药物，患者的依从性和疗效较好。TDF的作用靶点是病毒聚合酶，长期服用只能抑制病毒的复制，而且停药后易复发［3-4］。因此，TDF常与其他药物联合应用于治疗HBV感染，如Park等［5］研究TDF联合恩替卡韦治疗HBV感染，发现联合用药后较TDF单独治疗具有更高的病毒抑制率 。TDF 作为替诺福韦（tenofovir，TFV）的前药，口服后吸收良好，在生物体内能迅速被酶水解转化为TFV，且TFV是TDF在生物体内吸收和排泄的主要形式。有文献报道，TFV主要经肾脏有机阴离子转运体（OATs）从血液进入肾小管上皮细胞，经肾小球过滤和肾小管主动分泌随尿液排泄［6-7］。OAT3转运体的底物，肾脏排泄是Y101、M8的重要消除途径［12］。Y101与M8的化学结构式见图1。由于TDF代谢物TFV与Y101代谢物M8均为OATs的底物，因此TDF与Y101联合用药后可能会发生OATs介导的药物-药物相互作用（DDI），进而影响药物的安全性及疗效。本研究拟从大鼠体内吸收和肾排泄2个方面初步探讨TDF与Y101联合使用后OATs介导的DDI，以期为临床合理用药提供参考依据和研究基础。替芬泰（bentysrepinine，Y101）是一种抗 HBV候选新药，目前正处于临床Ⅱ期研究阶段。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:21",
+    "source": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤.pdf",
+    "text": "ibition of OAT3, suggesting that the dose needs to be adjusted in clinical combination.Key words: bentysrepinine (Y101);tenofovir disoproxil fumarate (TDF);tenofovir (TFV);drug-drug interactions;renal excretion;OAT3富马酸替诺福韦酯（tenofovir disoproxil fumarate，TDF）是一种新型核苷酸类逆转录酶抑制剂，临床研究表明TDF可以治疗多种病毒感染，该药于2008年被批准用于乙型肝炎病毒（HBV）感染的治疗［1-2］ 。临床上TDF仍然是HBV感染治疗的一线药物，患者的依从性和疗效较好。TDF的作用靶点是病毒聚合酶，长期服用只能抑制病毒的复制，而且停药后易复发［3-4］。因此，TDF常与其他药物联合应用于治疗HBV感染，如Park等［5］研究TDF联合恩替卡韦治疗HBV感染，发现联合用药后较TDF单独治疗具有更高的病毒抑制率 。TDF 作为替诺福韦（tenofovir，TFV）的前药，口服后吸收良好，在生物体内能迅速被酶水解转化为TFV，且TFV是TDF在生物体内吸收和排泄的主要形式。有文献报道，TFV主要经肾脏有机阴离子转运体（OATs）从血液进入肾小管上皮细胞，经肾小球过滤和肾小管主动分泌随尿液排泄［6-7］。OAT3转运体的底物，肾脏排泄是Y101、M8的重要消除途径［12］。Y101与M8的化学结构式见图1。由于TDF代谢物TFV与Y101代谢物M8均为OATs的底物，因此TDF与Y101联合用药后可能会发生OATs介导的药物-药物相互作用（DDI），进而影响药物的安全性及疗效。本研究拟从大鼠体内吸收和肾排泄2个方面初步探讨TDF与Y101联合使用后OATs介导的DDI，以期为临床合理用药提供参考依据和研究基础。替芬泰（bentysrepinine，Y101）是一种抗 HBV候选新药，目前正处于临床Ⅱ期研究阶段。"
+  }
+]

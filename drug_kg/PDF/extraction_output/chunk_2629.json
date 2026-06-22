@@ -1,0 +1,165 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "大环内酯类抗生素",
+        "canonical_name": "大环内酯类抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "四环素类抗生素",
+        "canonical_name": "四环素类抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "喹诺酮类抗生素",
+        "canonical_name": "喹诺酮类抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "抗凝药物",
+        "canonical_name": "抗凝药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "抗酸药物",
+        "canonical_name": "抗酸药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "抗癫痫药物",
+        "canonical_name": "抗癫痫药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "支原体肺炎",
+        "canonical_name": "支原体肺炎",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟.pdf",
+          "chunk_index": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+          "raw_text": "Macrolide antibiotics exhibited a higher number of DDIs, requiring particular attention when used concomitantly with medications for patients with comorbidities such as diabetes and hyperlipidemia.",
+          "chunk_id": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+          "data": "注与抗凝药物、抗酸药物等之间的DDI，必要时调整给药方案并进行指标监测。结论对于多病共存，多药同服患者，DDI 可能频繁发生，临床医师和药师必要时应调整用药方案并进行恰当地监护，避免因 DDI 引起药物不良反应或治疗失败，促进临床合理用药。【文献标志码】A\nDrug-drug interactions of antimicrobial agents in patients with mycoplasmal pneumonia based on pharmaceutical information database\nZHANG Chunjuan1 , ZHOU Xicheng1 , LIU Fanglin1 , ZHU Yanping2 (1 Department of Pharmacy, 2 Medical Department, Haiyan People’s Hospital, Zhejiang Province, Jiaxing 314300, China)【ABSTRACT】 AIM To evaluate the drug-drug interactions (DDIs) of antimicrobial agents used in the treatment of mycoplasmal pneumonia (MP) and provide management recommendations for appropriate clinical drug use. METHODS A comprehensive search was conducted in 3 drug information databases (Micromedex, Lexicomp, and DDInter) to retrieve information on DDIs involving antimicrobial agents used in the guidelines for MP. Each drug was queried individually, and the results were analyzed. RESULTS Multiple interactions were found for all 11 antimicrobial agents for "
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟.pdf",
+          "chunk_index": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+          "raw_text": "Macrolide antibiotics exhibited a higher number of DDIs, requiring particular attention when used concomitantly with medications for patients with comorbidities such as diabetes and hyperlipidemia.",
+          "chunk_id": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+          "data": "注与抗凝药物、抗酸药物等之间的DDI，必要时调整给药方案并进行指标监测。结论对于多病共存，多药同服患者，DDI 可能频繁发生，临床医师和药师必要时应调整用药方案并进行恰当地监护，避免因 DDI 引起药物不良反应或治疗失败，促进临床合理用药。【文献标志码】A\nDrug-drug interactions of antimicrobial agents in patients with mycoplasmal pneumonia based on pharmaceutical information database\nZHANG Chunjuan1 , ZHOU Xicheng1 , LIU Fanglin1 , ZHU Yanping2 (1 Department of Pharmacy, 2 Medical Department, Haiyan People’s Hospital, Zhejiang Province, Jiaxing 314300, China)【ABSTRACT】 AIM To evaluate the drug-drug interactions (DDIs) of antimicrobial agents used in the treatment of mycoplasmal pneumonia (MP) and provide management recommendations for appropriate clinical drug use. METHODS A comprehensive search was conducted in 3 drug information databases (Micromedex, Lexicomp, and DDInter) to retrieve information on DDIs involving antimicrobial agents used in the guidelines for MP. Each drug was queried individually, and the results were analyzed. RESULTS Multiple interactions were found for all 11 antimicrobial agents for "
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟.pdf",
+          "chunk_index": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+          "raw_text": "Tetracycline antibiotics necessitated consideration of interactions with antiepileptic drugs",
+          "chunk_id": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+          "data": "注与抗凝药物、抗酸药物等之间的DDI，必要时调整给药方案并进行指标监测。结论对于多病共存，多药同服患者，DDI 可能频繁发生，临床医师和药师必要时应调整用药方案并进行恰当地监护，避免因 DDI 引起药物不良反应或治疗失败，促进临床合理用药。【文献标志码】A\nDrug-drug interactions of antimicrobial agents in patients with mycoplasmal pneumonia based on pharmaceutical information database\nZHANG Chunjuan1 , ZHOU Xicheng1 , LIU Fanglin1 , ZHU Yanping2 (1 Department of Pharmacy, 2 Medical Department, Haiyan People’s Hospital, Zhejiang Province, Jiaxing 314300, China)【ABSTRACT】 AIM To evaluate the drug-drug interactions (DDIs) of antimicrobial agents used in the treatment of mycoplasmal pneumonia (MP) and provide management recommendations for appropriate clinical drug use. METHODS A comprehensive search was conducted in 3 drug information databases (Micromedex, Lexicomp, and DDInter) to retrieve information on DDIs involving antimicrobial agents used in the guidelines for MP. Each drug was queried individually, and the results were analyzed. RESULTS Multiple interactions were found for all 11 antimicrobial agents for "
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟.pdf",
+          "chunk_index": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+          "raw_text": "Quinolone antibiotics should be monitored for potential DDIs with anticoagulants and acid-suppressing medications.",
+          "chunk_id": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+          "data": "注与抗凝药物、抗酸药物等之间的DDI，必要时调整给药方案并进行指标监测。结论对于多病共存，多药同服患者，DDI 可能频繁发生，临床医师和药师必要时应调整用药方案并进行恰当地监护，避免因 DDI 引起药物不良反应或治疗失败，促进临床合理用药。【文献标志码】A\nDrug-drug interactions of antimicrobial agents in patients with mycoplasmal pneumonia based on pharmaceutical information database\nZHANG Chunjuan1 , ZHOU Xicheng1 , LIU Fanglin1 , ZHU Yanping2 (1 Department of Pharmacy, 2 Medical Department, Haiyan People’s Hospital, Zhejiang Province, Jiaxing 314300, China)【ABSTRACT】 AIM To evaluate the drug-drug interactions (DDIs) of antimicrobial agents used in the treatment of mycoplasmal pneumonia (MP) and provide management recommendations for appropriate clinical drug use. METHODS A comprehensive search was conducted in 3 drug information databases (Micromedex, Lexicomp, and DDInter) to retrieve information on DDIs involving antimicrobial agents used in the guidelines for MP. Each drug was queried individually, and the results were analyzed. RESULTS Multiple interactions were found for all 11 antimicrobial agents for "
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟.pdf",
+          "chunk_index": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+          "raw_text": "Quinolone antibiotics should be monitored for potential DDIs with anticoagulants and acid-suppressing medications.",
+          "chunk_id": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+          "data": "注与抗凝药物、抗酸药物等之间的DDI，必要时调整给药方案并进行指标监测。结论对于多病共存，多药同服患者，DDI 可能频繁发生，临床医师和药师必要时应调整用药方案并进行恰当地监护，避免因 DDI 引起药物不良反应或治疗失败，促进临床合理用药。【文献标志码】A\nDrug-drug interactions of antimicrobial agents in patients with mycoplasmal pneumonia based on pharmaceutical information database\nZHANG Chunjuan1 , ZHOU Xicheng1 , LIU Fanglin1 , ZHU Yanping2 (1 Department of Pharmacy, 2 Medical Department, Haiyan People’s Hospital, Zhejiang Province, Jiaxing 314300, China)【ABSTRACT】 AIM To evaluate the drug-drug interactions (DDIs) of antimicrobial agents used in the treatment of mycoplasmal pneumonia (MP) and provide management recommendations for appropriate clinical drug use. METHODS A comprehensive search was conducted in 3 drug information databases (Micromedex, Lexicomp, and DDInter) to retrieve information on DDIs involving antimicrobial agents used in the guidelines for MP. Each drug was queried individually, and the results were analyzed. RESULTS Multiple interactions were found for all 11 antimicrobial agents for "
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟.pdf",
+          "chunk_index": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+          "raw_text": "antimicrobial agents used in the treatment of mycoplasmal pneumonia",
+          "chunk_id": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+          "data": "注与抗凝药物、抗酸药物等之间的DDI，必要时调整给药方案并进行指标监测。结论对于多病共存，多药同服患者，DDI 可能频繁发生，临床医师和药师必要时应调整用药方案并进行恰当地监护，避免因 DDI 引起药物不良反应或治疗失败，促进临床合理用药。【文献标志码】A\nDrug-drug interactions of antimicrobial agents in patients with mycoplasmal pneumonia based on pharmaceutical information database\nZHANG Chunjuan1 , ZHOU Xicheng1 , LIU Fanglin1 , ZHU Yanping2 (1 Department of Pharmacy, 2 Medical Department, Haiyan People’s Hospital, Zhejiang Province, Jiaxing 314300, China)【ABSTRACT】 AIM To evaluate the drug-drug interactions (DDIs) of antimicrobial agents used in the treatment of mycoplasmal pneumonia (MP) and provide management recommendations for appropriate clinical drug use. METHODS A comprehensive search was conducted in 3 drug information databases (Micromedex, Lexicomp, and DDInter) to retrieve information on DDIs involving antimicrobial agents used in the guidelines for MP. Each drug was queried individually, and the results were analyzed. RESULTS Multiple interactions were found for all 11 antimicrobial agents for "
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟.pdf",
+          "chunk_index": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+          "raw_text": "antimicrobial agents used in the treatment of mycoplasmal pneumonia",
+          "chunk_id": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+          "data": "注与抗凝药物、抗酸药物等之间的DDI，必要时调整给药方案并进行指标监测。结论对于多病共存，多药同服患者，DDI 可能频繁发生，临床医师和药师必要时应调整用药方案并进行恰当地监护，避免因 DDI 引起药物不良反应或治疗失败，促进临床合理用药。【文献标志码】A\nDrug-drug interactions of antimicrobial agents in patients with mycoplasmal pneumonia based on pharmaceutical information database\nZHANG Chunjuan1 , ZHOU Xicheng1 , LIU Fanglin1 , ZHU Yanping2 (1 Department of Pharmacy, 2 Medical Department, Haiyan People’s Hospital, Zhejiang Province, Jiaxing 314300, China)【ABSTRACT】 AIM To evaluate the drug-drug interactions (DDIs) of antimicrobial agents used in the treatment of mycoplasmal pneumonia (MP) and provide management recommendations for appropriate clinical drug use. METHODS A comprehensive search was conducted in 3 drug information databases (Micromedex, Lexicomp, and DDInter) to retrieve information on DDIs involving antimicrobial agents used in the guidelines for MP. Each drug was queried individually, and the results were analyzed. RESULTS Multiple interactions were found for all 11 antimicrobial agents for "
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟.pdf",
+          "chunk_index": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+          "raw_text": "antimicrobial agents used in the treatment of mycoplasmal pneumonia",
+          "chunk_id": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+          "data": "注与抗凝药物、抗酸药物等之间的DDI，必要时调整给药方案并进行指标监测。结论对于多病共存，多药同服患者，DDI 可能频繁发生，临床医师和药师必要时应调整用药方案并进行恰当地监护，避免因 DDI 引起药物不良反应或治疗失败，促进临床合理用药。【文献标志码】A\nDrug-drug interactions of antimicrobial agents in patients with mycoplasmal pneumonia based on pharmaceutical information database\nZHANG Chunjuan1 , ZHOU Xicheng1 , LIU Fanglin1 , ZHU Yanping2 (1 Department of Pharmacy, 2 Medical Department, Haiyan People’s Hospital, Zhejiang Province, Jiaxing 314300, China)【ABSTRACT】 AIM To evaluate the drug-drug interactions (DDIs) of antimicrobial agents used in the treatment of mycoplasmal pneumonia (MP) and provide management recommendations for appropriate clinical drug use. METHODS A comprehensive search was conducted in 3 drug information databases (Micromedex, Lexicomp, and DDInter) to retrieve information on DDIs involving antimicrobial agents used in the guidelines for MP. Each drug was queried individually, and the results were analyzed. RESULTS Multiple interactions were found for all 11 antimicrobial agents for "
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟:9",
+    "source": "基于药学信息数据库的治疗支原体肺炎的抗感染药物相互作用_张春娟.pdf",
+    "text": "注与抗凝药物、抗酸药物等之间的DDI，必要时调整给药方案并进行指标监测。结论对于多病共存，多药同服患者，DDI 可能频繁发生，临床医师和药师必要时应调整用药方案并进行恰当地监护，避免因 DDI 引起药物不良反应或治疗失败，促进临床合理用药。【文献标志码】A\nDrug-drug interactions of antimicrobial agents in patients with mycoplasmal pneumonia based on pharmaceutical information database\nZHANG Chunjuan1 , ZHOU Xicheng1 , LIU Fanglin1 , ZHU Yanping2 (1 Department of Pharmacy, 2 Medical Department, Haiyan People’s Hospital, Zhejiang Province, Jiaxing 314300, China)【ABSTRACT】 AIM To evaluate the drug-drug interactions (DDIs) of antimicrobial agents used in the treatment of mycoplasmal pneumonia (MP) and provide management recommendations for appropriate clinical drug use. METHODS A comprehensive search was conducted in 3 drug information databases (Micromedex, Lexicomp, and DDInter) to retrieve information on DDIs involving antimicrobial agents used in the guidelines for MP. Each drug was queried individually, and the results were analyzed. RESULTS Multiple interactions were found for all 11 antimicrobial agents for treating MP in the 3 databases. Macrolide antibiotics exhibited a higher number of DDIs, requiring particular attention when used concomitantly with medications for patients with comorbidities such as diabetes and hyperlipidemia. Tetracycline antibiotics necessitated consideration of interactions with antiepileptic drugs, and caution was advised when using formulations containing metal cations. Quinolone antibiotics should be monitored for potential DDIs with anticoagulants and acid-suppressing medications. When necessary, treatment regimens should be adjusted, and appropriate monitoring of clinical indicators should be implemented. CONCLUSION DDIs may occur frequently in patients with multiple comorbidities and concurrent use of multiple medications. It is essential for clinicians and pharmacists to adjust treatment regimens and provide appropriate monitoring to avoid adverse drug reactions or treatment failure due to DDIs, thereby promoting rational drug use in clinical practice.【KEY WORDS】 mycoplasmal pneumonia;"
+  }
+]

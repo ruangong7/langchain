@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "canonical_name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "甲氨蝶呤",
+        "canonical_name": "甲氨蝶呤",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "canonical_name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "腹痛",
+        "canonical_name": "腹痛",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:9",
+          "raw_text": "化疗当天停用奥美拉唑，MTX 44 h 血药浓度 14.04 μmol·L⁻¹，临时追加亚叶酸钙 288 mg 静脉滴注 q6h，共4次。68 h 血药浓度 4.08 μmol·L⁻¹，予追加亚叶酸钙65 mg 解救。第2次行大剂量 PPI 化疗后，患儿尚未表现出明显的不良反应，监测 MTX 的血药浓度明显高于正常范围。",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:9",
+          "data": "\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ ，患儿无明显不良反应，血药浓度均在正常范围。D21 复查血淀粉酶、尿淀粉酶均正常，患儿无腹痛等表现，继续静脉营养、肠内营养等。D28 复查血常规可，$\\mathrm { A L T } ~ 1 5 2 ~ \\mathrm { U } { \\bullet } \\mathrm { L } ^ { - 1 }$ ，一般情况可，行 HDMTX + 6-MP 方案化疗，予大剂量 $\\mathbf { M T X } 2 . 6 1 \\ \\mathrm { g }$ 静脉滴注。化疗当天停用奥美拉唑，MTX 44 h 血药浓度 $1 4 . 0 4 ~ \\mu \\mathrm { m o l } \\cdot$ $\\mathrm { ~ L ~ } ^ { - 1 }$ ，临时追加亚叶酸钙 $2 8 8 ~ \\mathrm { m g }$ 静脉滴注 $\\mathrm { \\ q 6 h }$ ，共 4次 。68 h 血药浓度 $4 . 0 8 ~ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ ，予追加亚叶酸钙$6 5 ~ \\mathrm { m g }$ 解救。第 2 次行大剂量 PPI 化疗后，患儿尚未表现出明显的不良反应，监测 MTX 的血药浓度明显高于正常范围。继续监测92 h 血药浓度1．76$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ ，予追加亚叶酸钙 $2 6 ~ \\mathrm { m g }$ 解救。后续相继测定 116，140，168，192 和 216 h 的血药浓度 。具体用药过程血药浓度及处置详见表 1 PPI 给药后血药浓度随时间的变化趋势见图 1。经过综合治疗，患儿未出现明显不良反应，d 36 病情稳定予以出院 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:9",
+          "raw_text": "监测 MTX 的血药浓度明显高于正常范围。",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:9",
+          "data": "\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ ，患儿无明显不良反应，血药浓度均在正常范围。D21 复查血淀粉酶、尿淀粉酶均正常，患儿无腹痛等表现，继续静脉营养、肠内营养等。D28 复查血常规可，$\\mathrm { A L T } ~ 1 5 2 ~ \\mathrm { U } { \\bullet } \\mathrm { L } ^ { - 1 }$ ，一般情况可，行 HDMTX + 6-MP 方案化疗，予大剂量 $\\mathbf { M T X } 2 . 6 1 \\ \\mathrm { g }$ 静脉滴注。化疗当天停用奥美拉唑，MTX 44 h 血药浓度 $1 4 . 0 4 ~ \\mu \\mathrm { m o l } \\cdot$ $\\mathrm { ~ L ~ } ^ { - 1 }$ ，临时追加亚叶酸钙 $2 8 8 ~ \\mathrm { m g }$ 静脉滴注 $\\mathrm { \\ q 6 h }$ ，共 4次 。68 h 血药浓度 $4 . 0 8 ~ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ ，予追加亚叶酸钙$6 5 ~ \\mathrm { m g }$ 解救。第 2 次行大剂量 PPI 化疗后，患儿尚未表现出明显的不良反应，监测 MTX 的血药浓度明显高于正常范围。继续监测92 h 血药浓度1．76$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ ，予追加亚叶酸钙 $2 6 ~ \\mathrm { m g }$ 解救。后续相继测定 116，140，168，192 和 216 h 的血药浓度 。具体用药过程血药浓度及处置详见表 1 PPI 给药后血药浓度随时间的变化趋势见图 1。经过综合治疗，患儿未出现明显不良反应，d 36 病情稳定予以出院 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:9",
+          "raw_text": "患儿无腹痛等表现",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:9",
+          "data": "\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ ，患儿无明显不良反应，血药浓度均在正常范围。D21 复查血淀粉酶、尿淀粉酶均正常，患儿无腹痛等表现，继续静脉营养、肠内营养等。D28 复查血常规可，$\\mathrm { A L T } ~ 1 5 2 ~ \\mathrm { U } { \\bullet } \\mathrm { L } ^ { - 1 }$ ，一般情况可，行 HDMTX + 6-MP 方案化疗，予大剂量 $\\mathbf { M T X } 2 . 6 1 \\ \\mathrm { g }$ 静脉滴注。化疗当天停用奥美拉唑，MTX 44 h 血药浓度 $1 4 . 0 4 ~ \\mu \\mathrm { m o l } \\cdot$ $\\mathrm { ~ L ~ } ^ { - 1 }$ ，临时追加亚叶酸钙 $2 8 8 ~ \\mathrm { m g }$ 静脉滴注 $\\mathrm { \\ q 6 h }$ ，共 4次 。68 h 血药浓度 $4 . 0 8 ~ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ ，予追加亚叶酸钙$6 5 ~ \\mathrm { m g }$ 解救。第 2 次行大剂量 PPI 化疗后，患儿尚未表现出明显的不良反应，监测 MTX 的血药浓度明显高于正常范围。继续监测92 h 血药浓度1．76$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ ，予追加亚叶酸钙 $2 6 ~ \\mathrm { m g }$ 解救。后续相继测定 116，140，168，192 和 216 h 的血药浓度 。具体用药过程血药浓度及处置详见表 1 PPI 给药后血药浓度随时间的变化趋势见图 1。经过综合治疗，患儿未出现明显不良反应，d 36 病情稳定予以出院 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:9",
+    "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+    "text": "\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ ，患儿无明显不良反应，血药浓度均在正常范围。D21 复查血淀粉酶、尿淀粉酶均正常，患儿无腹痛等表现，继续静脉营养、肠内营养等。D28 复查血常规可，$\\mathrm { A L T } ~ 1 5 2 ~ \\mathrm { U } { \\bullet } \\mathrm { L } ^ { - 1 }$ ，一般情况可，行 HDMTX + 6-MP 方案化疗，予大剂量 $\\mathbf { M T X } 2 . 6 1 \\ \\mathrm { g }$ 静脉滴注。化疗当天停用奥美拉唑，MTX 44 h 血药浓度 $1 4 . 0 4 ~ \\mu \\mathrm { m o l } \\cdot$ $\\mathrm { ~ L ~ } ^ { - 1 }$ ，临时追加亚叶酸钙 $2 8 8 ~ \\mathrm { m g }$ 静脉滴注 $\\mathrm { \\ q 6 h }$ ，共 4次 。68 h 血药浓度 $4 . 0 8 ~ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ ，予追加亚叶酸钙$6 5 ~ \\mathrm { m g }$ 解救。第 2 次行大剂量 PPI 化疗后，患儿尚未表现出明显的不良反应，监测 MTX 的血药浓度明显高于正常范围。继续监测92 h 血药浓度1．76$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ ，予追加亚叶酸钙 $2 6 ~ \\mathrm { m g }$ 解救。后续相继测定 116，140，168，192 和 216 h 的血药浓度 。具体用药过程血药浓度及处置详见表 1 PPI 给药后血药浓度随时间的变化趋势见图 1。经过综合治疗，患儿未出现明显不良反应，d 36 病情稳定予以出院 。"
+  }
+]

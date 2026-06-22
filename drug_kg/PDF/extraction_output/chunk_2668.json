@@ -1,0 +1,178 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "麦冬皂苷D",
+        "canonical_name": "麦冬皂苷D",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "麦冬皂苷D′",
+        "canonical_name": "麦冬皂苷D′",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "体重下降",
+        "canonical_name": "体重下降",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "脾指数增大",
+        "canonical_name": "脾指数增大",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "肺指数增大",
+        "canonical_name": "肺指数增大",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "白细胞数降低",
+        "canonical_name": "白细胞数降低",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "淋巴细胞百分比降低",
+        "canonical_name": "淋巴细胞百分比降低",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华.pdf",
+          "chunk_index": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "raw_text": "OPD组大鼠体重均下降(P<0.05,P<0.01)",
+          "chunk_id": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "data": "2.2.1 对体重和脏器系数的影响\n由表2可见，与正常对照组相比， $\\mathsf { O P D ^ { \\prime } , O P D }$ ，$\\mathsf { O P D + O P D ^ { \\prime } }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组大鼠体重均下降$( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ，心、肝和肾指数无明显变化，脾指数增大 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right) ; 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime } , 0 { \\mathsf { P } } \\mathsf { D } { + } 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组肺指数增大 $( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ）。\nOPD+OPD′和OPD→OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 组比较，体重和以上脏器指数均无显著性差异。\n2.2.2 对血常规指标的影响\n如表3所示，OPD组大鼠白细胞数较正常对照组明显降低 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right)$ ），但尚在正常生理范围；各组淋巴细胞百分比与正常对照组比较均降低（P<0.05）。OPD+OPD′和OPD OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 比较，以上指标均无显著性差异。红细胞及溶血相关指标另文发表［11］ 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华.pdf",
+          "chunk_index": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "raw_text": "脾指数增大(P<0.05,P<0.01)",
+          "chunk_id": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "data": "2.2.1 对体重和脏器系数的影响\n由表2可见，与正常对照组相比， $\\mathsf { O P D ^ { \\prime } , O P D }$ ，$\\mathsf { O P D + O P D ^ { \\prime } }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组大鼠体重均下降$( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ，心、肝和肾指数无明显变化，脾指数增大 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right) ; 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime } , 0 { \\mathsf { P } } \\mathsf { D } { + } 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组肺指数增大 $( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ）。\nOPD+OPD′和OPD→OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 组比较，体重和以上脏器指数均无显著性差异。\n2.2.2 对血常规指标的影响\n如表3所示，OPD组大鼠白细胞数较正常对照组明显降低 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right)$ ），但尚在正常生理范围；各组淋巴细胞百分比与正常对照组比较均降低（P<0.05）。OPD+OPD′和OPD OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 比较，以上指标均无显著性差异。红细胞及溶血相关指标另文发表［11］ 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华.pdf",
+          "chunk_index": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "raw_text": "OPD组大鼠白细胞数较正常对照组明显降低(P<0.05,P<0.01)",
+          "chunk_id": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "data": "2.2.1 对体重和脏器系数的影响\n由表2可见，与正常对照组相比， $\\mathsf { O P D ^ { \\prime } , O P D }$ ，$\\mathsf { O P D + O P D ^ { \\prime } }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组大鼠体重均下降$( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ，心、肝和肾指数无明显变化，脾指数增大 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right) ; 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime } , 0 { \\mathsf { P } } \\mathsf { D } { + } 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组肺指数增大 $( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ）。\nOPD+OPD′和OPD→OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 组比较，体重和以上脏器指数均无显著性差异。\n2.2.2 对血常规指标的影响\n如表3所示，OPD组大鼠白细胞数较正常对照组明显降低 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right)$ ），但尚在正常生理范围；各组淋巴细胞百分比与正常对照组比较均降低（P<0.05）。OPD+OPD′和OPD OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 比较，以上指标均无显著性差异。红细胞及溶血相关指标另文发表［11］ 。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华.pdf",
+          "chunk_index": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "raw_text": "各组淋巴细胞百分比与正常对照组比较均降低(P<0.05)",
+          "chunk_id": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "data": "2.2.1 对体重和脏器系数的影响\n由表2可见，与正常对照组相比， $\\mathsf { O P D ^ { \\prime } , O P D }$ ，$\\mathsf { O P D + O P D ^ { \\prime } }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组大鼠体重均下降$( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ，心、肝和肾指数无明显变化，脾指数增大 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right) ; 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime } , 0 { \\mathsf { P } } \\mathsf { D } { + } 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组肺指数增大 $( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ）。\nOPD+OPD′和OPD→OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 组比较，体重和以上脏器指数均无显著性差异。\n2.2.2 对血常规指标的影响\n如表3所示，OPD组大鼠白细胞数较正常对照组明显降低 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right)$ ），但尚在正常生理范围；各组淋巴细胞百分比与正常对照组比较均降低（P<0.05）。OPD+OPD′和OPD OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 比较，以上指标均无显著性差异。红细胞及溶血相关指标另文发表［11］ 。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华.pdf",
+          "chunk_index": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "raw_text": "OPD′组大鼠体重均下降(P<0.05,P<0.01)",
+          "chunk_id": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "data": "2.2.1 对体重和脏器系数的影响\n由表2可见，与正常对照组相比， $\\mathsf { O P D ^ { \\prime } , O P D }$ ，$\\mathsf { O P D + O P D ^ { \\prime } }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组大鼠体重均下降$( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ，心、肝和肾指数无明显变化，脾指数增大 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right) ; 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime } , 0 { \\mathsf { P } } \\mathsf { D } { + } 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组肺指数增大 $( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ）。\nOPD+OPD′和OPD→OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 组比较，体重和以上脏器指数均无显著性差异。\n2.2.2 对血常规指标的影响\n如表3所示，OPD组大鼠白细胞数较正常对照组明显降低 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right)$ ），但尚在正常生理范围；各组淋巴细胞百分比与正常对照组比较均降低（P<0.05）。OPD+OPD′和OPD OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 比较，以上指标均无显著性差异。红细胞及溶血相关指标另文发表［11］ 。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华.pdf",
+          "chunk_index": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "raw_text": "OPD′组脾指数增大(P<0.05,P<0.01)",
+          "chunk_id": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "data": "2.2.1 对体重和脏器系数的影响\n由表2可见，与正常对照组相比， $\\mathsf { O P D ^ { \\prime } , O P D }$ ，$\\mathsf { O P D + O P D ^ { \\prime } }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组大鼠体重均下降$( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ，心、肝和肾指数无明显变化，脾指数增大 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right) ; 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime } , 0 { \\mathsf { P } } \\mathsf { D } { + } 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组肺指数增大 $( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ）。\nOPD+OPD′和OPD→OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 组比较，体重和以上脏器指数均无显著性差异。\n2.2.2 对血常规指标的影响\n如表3所示，OPD组大鼠白细胞数较正常对照组明显降低 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right)$ ），但尚在正常生理范围；各组淋巴细胞百分比与正常对照组比较均降低（P<0.05）。OPD+OPD′和OPD OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 比较，以上指标均无显著性差异。红细胞及溶血相关指标另文发表［11］ 。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华.pdf",
+          "chunk_index": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "raw_text": "OPD′组肺指数增大(P<0.05,P<0.01)",
+          "chunk_id": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "data": "2.2.1 对体重和脏器系数的影响\n由表2可见，与正常对照组相比， $\\mathsf { O P D ^ { \\prime } , O P D }$ ，$\\mathsf { O P D + O P D ^ { \\prime } }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组大鼠体重均下降$( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ，心、肝和肾指数无明显变化，脾指数增大 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right) ; 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime } , 0 { \\mathsf { P } } \\mathsf { D } { + } 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组肺指数增大 $( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ）。\nOPD+OPD′和OPD→OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 组比较，体重和以上脏器指数均无显著性差异。\n2.2.2 对血常规指标的影响\n如表3所示，OPD组大鼠白细胞数较正常对照组明显降低 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right)$ ），但尚在正常生理范围；各组淋巴细胞百分比与正常对照组比较均降低（P<0.05）。OPD+OPD′和OPD OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 比较，以上指标均无显著性差异。红细胞及溶血相关指标另文发表［11］ 。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华.pdf",
+          "chunk_index": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "raw_text": "各组淋巴细胞百分比与正常对照组比较均降低(P<0.05)",
+          "chunk_id": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "data": "2.2.1 对体重和脏器系数的影响\n由表2可见，与正常对照组相比， $\\mathsf { O P D ^ { \\prime } , O P D }$ ，$\\mathsf { O P D + O P D ^ { \\prime } }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组大鼠体重均下降$( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ，心、肝和肾指数无明显变化，脾指数增大 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right) ; 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime } , 0 { \\mathsf { P } } \\mathsf { D } { + } 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组肺指数增大 $( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ）。\nOPD+OPD′和OPD→OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 组比较，体重和以上脏器指数均无显著性差异。\n2.2.2 对血常规指标的影响\n如表3所示，OPD组大鼠白细胞数较正常对照组明显降低 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right)$ ），但尚在正常生理范围；各组淋巴细胞百分比与正常对照组比较均降低（P<0.05）。OPD+OPD′和OPD OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 比较，以上指标均无显著性差异。红细胞及溶血相关指标另文发表［11］ 。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华.pdf",
+          "chunk_index": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "raw_text": "OPD+OPD′和OPD→OPD′组与OPD或OPD′组比较，体重和以上脏器指数均无显著性差异",
+          "chunk_id": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+          "data": "2.2.1 对体重和脏器系数的影响\n由表2可见，与正常对照组相比， $\\mathsf { O P D ^ { \\prime } , O P D }$ ，$\\mathsf { O P D + O P D ^ { \\prime } }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组大鼠体重均下降$( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ，心、肝和肾指数无明显变化，脾指数增大 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right) ; 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime } , 0 { \\mathsf { P } } \\mathsf { D } { + } 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组肺指数增大 $( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ）。\nOPD+OPD′和OPD→OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 组比较，体重和以上脏器指数均无显著性差异。\n2.2.2 对血常规指标的影响\n如表3所示，OPD组大鼠白细胞数较正常对照组明显降低 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right)$ ），但尚在正常生理范围；各组淋巴细胞百分比与正常对照组比较均降低（P<0.05）。OPD+OPD′和OPD OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 比较，以上指标均无显著性差异。红细胞及溶血相关指标另文发表［11］ 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:5",
+    "source": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华.pdf",
+    "text": "2.2.1 对体重和脏器系数的影响\n由表2可见，与正常对照组相比， $\\mathsf { O P D ^ { \\prime } , O P D }$ ，$\\mathsf { O P D + O P D ^ { \\prime } }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组大鼠体重均下降$( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ，心、肝和肾指数无明显变化，脾指数增大 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right) ; 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime } , 0 { \\mathsf { P } } \\mathsf { D } { + } 0 { \\mathsf { P } } \\mathsf { D } ^ { \\prime }$ 和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ 组肺指数增大 $( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ）。\nOPD+OPD′和OPD→OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 组比较，体重和以上脏器指数均无显著性差异。\n2.2.2 对血常规指标的影响\n如表3所示，OPD组大鼠白细胞数较正常对照组明显降低 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right)$ ），但尚在正常生理范围；各组淋巴细胞百分比与正常对照组比较均降低（P<0.05）。OPD+OPD′和OPD OPD′组与OPD或 $\\mathsf { O P D ^ { \\prime } }$ 比较，以上指标均无显著性差异。红细胞及溶血相关指标另文发表［11］ 。"
+  }
+]

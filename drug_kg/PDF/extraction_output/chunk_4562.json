@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "丙戊酸钠",
+        "canonical_name": "丙戊酸钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "SideEffect",
+        "name": "Stevens-Johnson综合征/中毒性表皮坏死松解症",
+        "canonical_name": "Stevens-Johnson综合征/中毒性表皮坏死松解症",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "重症药疹",
+        "canonical_name": "重症药疹",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "糖尿病综合管理中的药物相互作用调查与分析_马雪辰.pdf",
+          "chunk_index": "糖尿病综合管理中的药物相互作用调查与分析_马雪辰:4",
+          "raw_text": "法回顾性分析例脑出血术后患者使用丙戊酸钠引起son 综合征 / 中毒性表皮坏死松解症（SJS / TEN）的治疗过程，并采用诺氏评估量表进行关联性评价。结果丙戊酸钠与 SJS / TEN 的关联性为“很可能”（诺氏评估量表评分为 6 分）。",
+          "chunk_id": "糖尿病综合管理中的药物相互作用调查与分析_马雪辰:4",
+          "data": "法回顾性分析例脑出血术后患者使用丙戊酸钠引起son 综合征 / 中毒性表皮坏死松解症（SJS / TEN）的治疗过程，并采用诺氏评估量表进行关联性评价。结果丙戊酸钠与 SJS / TEN 的关联性为“很可能”（诺氏评估量表评分为 6 分）。经停药、补液、血浆置换、糖皮质激素冲击和序贯治疗及抗感染等治疗后，患者全身皮疹好转。结论临床使用丙戊酸钠时应警惕重症药疹的发生。使用前应仔细询问患者的病史及过敏史，一旦怀疑为药疹，应立即停用可疑药物，并根据药疹的严重程度制订治疗方案。Stevens - Johnson Syndrome / Toxic Epidermal Necrolysis Induced by Sodium Valproate： A Case Report\nDENG Jing ZHANG Peiming LI Yaowei The People's Hospital of Guang'an Guang'an Sichuan China 638099 Abstract：Objective To provide a reference for the clinical diagnosis and treatment of severe drug eruption induced by sodium第一作者：邓静，女，大学本科，主管药师，研究方向为抗感染临床药学，（电子信箱）471149293@qq. com。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "糖尿病综合管理中的药物相互作用调查与分析_马雪辰.pdf",
+          "chunk_index": "糖尿病综合管理中的药物相互作用调查与分析_马雪辰:4",
+          "raw_text": "结论临床使用丙戊酸钠时应警惕重症药疹的发生。",
+          "chunk_id": "糖尿病综合管理中的药物相互作用调查与分析_马雪辰:4",
+          "data": "法回顾性分析例脑出血术后患者使用丙戊酸钠引起son 综合征 / 中毒性表皮坏死松解症（SJS / TEN）的治疗过程，并采用诺氏评估量表进行关联性评价。结果丙戊酸钠与 SJS / TEN 的关联性为“很可能”（诺氏评估量表评分为 6 分）。经停药、补液、血浆置换、糖皮质激素冲击和序贯治疗及抗感染等治疗后，患者全身皮疹好转。结论临床使用丙戊酸钠时应警惕重症药疹的发生。使用前应仔细询问患者的病史及过敏史，一旦怀疑为药疹，应立即停用可疑药物，并根据药疹的严重程度制订治疗方案。Stevens - Johnson Syndrome / Toxic Epidermal Necrolysis Induced by Sodium Valproate： A Case Report\nDENG Jing ZHANG Peiming LI Yaowei The People's Hospital of Guang'an Guang'an Sichuan China 638099 Abstract：Objective To provide a reference for the clinical diagnosis and treatment of severe drug eruption induced by sodium第一作者：邓静，女，大学本科，主管药师，研究方向为抗感染临床药学，（电子信箱）471149293@qq. com。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "糖尿病综合管理中的药物相互作用调查与分析_马雪辰:4",
+    "source": "糖尿病综合管理中的药物相互作用调查与分析_马雪辰.pdf",
+    "text": "法回顾性分析例脑出血术后患者使用丙戊酸钠引起son 综合征 / 中毒性表皮坏死松解症（SJS / TEN）的治疗过程，并采用诺氏评估量表进行关联性评价。结果丙戊酸钠与 SJS / TEN 的关联性为“很可能”（诺氏评估量表评分为 6 分）。经停药、补液、血浆置换、糖皮质激素冲击和序贯治疗及抗感染等治疗后，患者全身皮疹好转。结论临床使用丙戊酸钠时应警惕重症药疹的发生。使用前应仔细询问患者的病史及过敏史，一旦怀疑为药疹，应立即停用可疑药物，并根据药疹的严重程度制订治疗方案。Stevens - Johnson Syndrome / Toxic Epidermal Necrolysis Induced by Sodium Valproate： A Case Report\nDENG Jing ZHANG Peiming LI Yaowei The People's Hospital of Guang'an Guang'an Sichuan China 638099 Abstract：Objective To provide a reference for the clinical diagnosis and treatment of severe drug eruption induced by sodium第一作者：邓静，女，大学本科，主管药师，研究方向为抗感染临床药学，（电子信箱）471149293@qq. com。"
+  }
+]

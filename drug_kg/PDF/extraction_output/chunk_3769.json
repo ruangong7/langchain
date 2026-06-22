@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "他汀类",
+        "canonical_name": "他汀类",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Indicator",
+        "name": "血糖",
+        "canonical_name": "血糖",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "氟哌啶醇药物相互作用的研究进展_雷凯.pdf",
+          "chunk_index": "氟哌啶醇药物相互作用的研究进展_雷凯:9",
+          "raw_text": "在临床上使用他汀类药物时，应注意监测血糖，及时调整用药。",
+          "chunk_id": "氟哌啶醇药物相互作用的研究进展_雷凯:9",
+          "data": "通道增加细胞内血源性低密度脂蛋白-胆固醇的量抑制 ATP和辅酶 $Q _ { 1 0 }$ 的生成、抑制葡萄糖转运体4 的基因表达、诱导胰岛 $\\beta$ 细胞炎性反应氧化及凋亡等。在临床上使用他汀类药物时，应注意监测血糖，及时调整用药。Mechanisms of Diabetogenic Action of Statins\nLiu Shuyuan，Su Yixin ( Department of Pharmacy，Ordos Central Hospital，Inner Mongolia Ordos 017000，China)ABSTRACT Objective: To alarm the effect of statins on blood glucose，and provide evidence for the rational use of statins in clinics． Methods: The recent articles on the effects and potential mechanisms of diabetogenic action of statins were reviewed and summarized． Results and Conclusion: Stains，especially lipophilic stains，could increase blood glucose via multiple pathways to induce diabetes． The potential mechanisms included inhibiting L-type calcium channel，increasing the uptake of plasma-derived LDL-C，inhibiting synthesis of ATP and Coenzyme Q10，inhibiting the expression of glucose transporter 4 and inducing β-cell inflammation，oxidation and apoptosis． Blood glucose should be monitored and adjusted timely when statins "
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "氟哌啶醇药物相互作用的研究进展_雷凯:9",
+    "source": "氟哌啶醇药物相互作用的研究进展_雷凯.pdf",
+    "text": "通道增加细胞内血源性低密度脂蛋白-胆固醇的量抑制 ATP和辅酶 $Q _ { 1 0 }$ 的生成、抑制葡萄糖转运体4 的基因表达、诱导胰岛 $\\beta$ 细胞炎性反应氧化及凋亡等。在临床上使用他汀类药物时，应注意监测血糖，及时调整用药。Mechanisms of Diabetogenic Action of Statins\nLiu Shuyuan，Su Yixin ( Department of Pharmacy，Ordos Central Hospital，Inner Mongolia Ordos 017000，China)ABSTRACT Objective: To alarm the effect of statins on blood glucose，and provide evidence for the rational use of statins in clinics． Methods: The recent articles on the effects and potential mechanisms of diabetogenic action of statins were reviewed and summarized． Results and Conclusion: Stains，especially lipophilic stains，could increase blood glucose via multiple pathways to induce diabetes． The potential mechanisms included inhibiting L-type calcium channel，increasing the uptake of plasma-derived LDL-C，inhibiting synthesis of ATP and Coenzyme Q10，inhibiting the expression of glucose transporter 4 and inducing β-cell inflammation，oxidation and apoptosis． Blood glucose should be monitored and adjusted timely when statins are used in clinics．他汀类调脂药通过抑制 3-羟基-3-甲基-戊二酰辅酶 A还原酶 ( 3-hydroxy-3-methylglutaryl coenzyme A，HMG-CoA)"
+  }
+]

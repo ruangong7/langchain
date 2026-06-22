@@ -1,0 +1,159 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "IG-105",
+        "canonical_name": "IG-105",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "CYP1A2",
+        "canonical_name": "CYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "CYP2B6",
+        "canonical_name": "CYP2B6",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "CYP2C9",
+        "canonical_name": "CYP2C9",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "CYP2C19",
+        "canonical_name": "CYP2C19",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "CYP2D6",
+        "canonical_name": "CYP2D6",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "CYP3A4",
+        "canonical_name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "CYP3A5",
+        "canonical_name": "CYP3A5",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:12",
+          "raw_text": "CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6、CYP3A4 以及 CYP3A5可不同程度的代谢 IG-105",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:12",
+          "data": "IG-105 在 NADPH 再生系统作为辅酶的条件下可被 HLMs 代谢。IG-105 的底物消耗在反应时间为0～15 min 内、以及肝微粒体蛋白质量浓度为 0.01～$0 . 2 \\ \\mathrm { \\ m g { \\cdot } m L ^ { - 1 } }$ 内, 呈线性动力学。因此选择微粒体浓度为 $0 . 1 \\ \\mathrm { m g } \\cdot \\mathrm { L } ^ { - 1 }$ 以及孵育时间15 min作为孵育条件。\n2 参与 IG-105 I 相代谢的 CYP450 同工酶\n10 种重组人 P450 酶 (CYP1A2、CYP2A6、CYP2B6、CYP2C8、CYP2C9、CYP2C19、CYP2D6、CYP2E1、CYP3A4 和 CYP3A5) 与 IG-105 共同孵育15 或 30 min 后, 如图 1 所示, CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6、CYP3A4 以及 CYP3A5可不同程度的代谢 IG-105, 其中 CYP1A2、CYP2B6、CYP2C9 和 CYP2C19 对 IG-105 的代谢速度较快, 15min 内 50%以上的原形药物消失。\n数据分析使用 SPSS 13.0 软件计算 $\\mathrm { I C } _ { 5 0 }$ 值。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:12",
+          "raw_text": "CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6、CYP3A4 以及 CYP3A5可不同程度的代谢 IG-105",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:12",
+          "data": "IG-105 在 NADPH 再生系统作为辅酶的条件下可被 HLMs 代谢。IG-105 的底物消耗在反应时间为0～15 min 内、以及肝微粒体蛋白质量浓度为 0.01～$0 . 2 \\ \\mathrm { \\ m g { \\cdot } m L ^ { - 1 } }$ 内, 呈线性动力学。因此选择微粒体浓度为 $0 . 1 \\ \\mathrm { m g } \\cdot \\mathrm { L } ^ { - 1 }$ 以及孵育时间15 min作为孵育条件。\n2 参与 IG-105 I 相代谢的 CYP450 同工酶\n10 种重组人 P450 酶 (CYP1A2、CYP2A6、CYP2B6、CYP2C8、CYP2C9、CYP2C19、CYP2D6、CYP2E1、CYP3A4 和 CYP3A5) 与 IG-105 共同孵育15 或 30 min 后, 如图 1 所示, CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6、CYP3A4 以及 CYP3A5可不同程度的代谢 IG-105, 其中 CYP1A2、CYP2B6、CYP2C9 和 CYP2C19 对 IG-105 的代谢速度较快, 15min 内 50%以上的原形药物消失。\n数据分析使用 SPSS 13.0 软件计算 $\\mathrm { I C } _ { 5 0 }$ 值。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:12",
+          "raw_text": "CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6、CYP3A4 以及 CYP3A5可不同程度的代谢 IG-105",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:12",
+          "data": "IG-105 在 NADPH 再生系统作为辅酶的条件下可被 HLMs 代谢。IG-105 的底物消耗在反应时间为0～15 min 内、以及肝微粒体蛋白质量浓度为 0.01～$0 . 2 \\ \\mathrm { \\ m g { \\cdot } m L ^ { - 1 } }$ 内, 呈线性动力学。因此选择微粒体浓度为 $0 . 1 \\ \\mathrm { m g } \\cdot \\mathrm { L } ^ { - 1 }$ 以及孵育时间15 min作为孵育条件。\n2 参与 IG-105 I 相代谢的 CYP450 同工酶\n10 种重组人 P450 酶 (CYP1A2、CYP2A6、CYP2B6、CYP2C8、CYP2C9、CYP2C19、CYP2D6、CYP2E1、CYP3A4 和 CYP3A5) 与 IG-105 共同孵育15 或 30 min 后, 如图 1 所示, CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6、CYP3A4 以及 CYP3A5可不同程度的代谢 IG-105, 其中 CYP1A2、CYP2B6、CYP2C9 和 CYP2C19 对 IG-105 的代谢速度较快, 15min 内 50%以上的原形药物消失。\n数据分析使用 SPSS 13.0 软件计算 $\\mathrm { I C } _ { 5 0 }$ 值。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:12",
+          "raw_text": "CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6、CYP3A4 以及 CYP3A5可不同程度的代谢 IG-105",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:12",
+          "data": "IG-105 在 NADPH 再生系统作为辅酶的条件下可被 HLMs 代谢。IG-105 的底物消耗在反应时间为0～15 min 内、以及肝微粒体蛋白质量浓度为 0.01～$0 . 2 \\ \\mathrm { \\ m g { \\cdot } m L ^ { - 1 } }$ 内, 呈线性动力学。因此选择微粒体浓度为 $0 . 1 \\ \\mathrm { m g } \\cdot \\mathrm { L } ^ { - 1 }$ 以及孵育时间15 min作为孵育条件。\n2 参与 IG-105 I 相代谢的 CYP450 同工酶\n10 种重组人 P450 酶 (CYP1A2、CYP2A6、CYP2B6、CYP2C8、CYP2C9、CYP2C19、CYP2D6、CYP2E1、CYP3A4 和 CYP3A5) 与 IG-105 共同孵育15 或 30 min 后, 如图 1 所示, CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6、CYP3A4 以及 CYP3A5可不同程度的代谢 IG-105, 其中 CYP1A2、CYP2B6、CYP2C9 和 CYP2C19 对 IG-105 的代谢速度较快, 15min 内 50%以上的原形药物消失。\n数据分析使用 SPSS 13.0 软件计算 $\\mathrm { I C } _ { 5 0 }$ 值。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:12",
+          "raw_text": "CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6、CYP3A4 以及 CYP3A5可不同程度的代谢 IG-105",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:12",
+          "data": "IG-105 在 NADPH 再生系统作为辅酶的条件下可被 HLMs 代谢。IG-105 的底物消耗在反应时间为0～15 min 内、以及肝微粒体蛋白质量浓度为 0.01～$0 . 2 \\ \\mathrm { \\ m g { \\cdot } m L ^ { - 1 } }$ 内, 呈线性动力学。因此选择微粒体浓度为 $0 . 1 \\ \\mathrm { m g } \\cdot \\mathrm { L } ^ { - 1 }$ 以及孵育时间15 min作为孵育条件。\n2 参与 IG-105 I 相代谢的 CYP450 同工酶\n10 种重组人 P450 酶 (CYP1A2、CYP2A6、CYP2B6、CYP2C8、CYP2C9、CYP2C19、CYP2D6、CYP2E1、CYP3A4 和 CYP3A5) 与 IG-105 共同孵育15 或 30 min 后, 如图 1 所示, CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6、CYP3A4 以及 CYP3A5可不同程度的代谢 IG-105, 其中 CYP1A2、CYP2B6、CYP2C9 和 CYP2C19 对 IG-105 的代谢速度较快, 15min 内 50%以上的原形药物消失。\n数据分析使用 SPSS 13.0 软件计算 $\\mathrm { I C } _ { 5 0 }$ 值。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:12",
+          "raw_text": "CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6、CYP3A4 以及 CYP3A5可不同程度的代谢 IG-105",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:12",
+          "data": "IG-105 在 NADPH 再生系统作为辅酶的条件下可被 HLMs 代谢。IG-105 的底物消耗在反应时间为0～15 min 内、以及肝微粒体蛋白质量浓度为 0.01～$0 . 2 \\ \\mathrm { \\ m g { \\cdot } m L ^ { - 1 } }$ 内, 呈线性动力学。因此选择微粒体浓度为 $0 . 1 \\ \\mathrm { m g } \\cdot \\mathrm { L } ^ { - 1 }$ 以及孵育时间15 min作为孵育条件。\n2 参与 IG-105 I 相代谢的 CYP450 同工酶\n10 种重组人 P450 酶 (CYP1A2、CYP2A6、CYP2B6、CYP2C8、CYP2C9、CYP2C19、CYP2D6、CYP2E1、CYP3A4 和 CYP3A5) 与 IG-105 共同孵育15 或 30 min 后, 如图 1 所示, CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6、CYP3A4 以及 CYP3A5可不同程度的代谢 IG-105, 其中 CYP1A2、CYP2B6、CYP2C9 和 CYP2C19 对 IG-105 的代谢速度较快, 15min 内 50%以上的原形药物消失。\n数据分析使用 SPSS 13.0 软件计算 $\\mathrm { I C } _ { 5 0 }$ 值。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:12",
+          "raw_text": "CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6、CYP3A4 以及 CYP3A5可不同程度的代谢 IG-105",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:12",
+          "data": "IG-105 在 NADPH 再生系统作为辅酶的条件下可被 HLMs 代谢。IG-105 的底物消耗在反应时间为0～15 min 内、以及肝微粒体蛋白质量浓度为 0.01～$0 . 2 \\ \\mathrm { \\ m g { \\cdot } m L ^ { - 1 } }$ 内, 呈线性动力学。因此选择微粒体浓度为 $0 . 1 \\ \\mathrm { m g } \\cdot \\mathrm { L } ^ { - 1 }$ 以及孵育时间15 min作为孵育条件。\n2 参与 IG-105 I 相代谢的 CYP450 同工酶\n10 种重组人 P450 酶 (CYP1A2、CYP2A6、CYP2B6、CYP2C8、CYP2C9、CYP2C19、CYP2D6、CYP2E1、CYP3A4 和 CYP3A5) 与 IG-105 共同孵育15 或 30 min 后, 如图 1 所示, CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6、CYP3A4 以及 CYP3A5可不同程度的代谢 IG-105, 其中 CYP1A2、CYP2B6、CYP2C9 和 CYP2C19 对 IG-105 的代谢速度较快, 15min 内 50%以上的原形药物消失。\n数据分析使用 SPSS 13.0 软件计算 $\\mathrm { I C } _ { 5 0 }$ 值。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:12",
+    "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+    "text": "IG-105 在 NADPH 再生系统作为辅酶的条件下可被 HLMs 代谢。IG-105 的底物消耗在反应时间为0～15 min 内、以及肝微粒体蛋白质量浓度为 0.01～$0 . 2 \\ \\mathrm { \\ m g { \\cdot } m L ^ { - 1 } }$ 内, 呈线性动力学。因此选择微粒体浓度为 $0 . 1 \\ \\mathrm { m g } \\cdot \\mathrm { L } ^ { - 1 }$ 以及孵育时间15 min作为孵育条件。\n2 参与 IG-105 I 相代谢的 CYP450 同工酶\n10 种重组人 P450 酶 (CYP1A2、CYP2A6、CYP2B6、CYP2C8、CYP2C9、CYP2C19、CYP2D6、CYP2E1、CYP3A4 和 CYP3A5) 与 IG-105 共同孵育15 或 30 min 后, 如图 1 所示, CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6、CYP3A4 以及 CYP3A5可不同程度的代谢 IG-105, 其中 CYP1A2、CYP2B6、CYP2C9 和 CYP2C19 对 IG-105 的代谢速度较快, 15min 内 50%以上的原形药物消失。\n数据分析使用 SPSS 13.0 软件计算 $\\mathrm { I C } _ { 5 0 }$ 值。"
+  }
+]

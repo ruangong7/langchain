@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "格列苯脲",
+        "canonical_name": "格列苯脲",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "canonical_name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "口服降糖药",
+        "canonical_name": "口服降糖药",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "低血糖",
+        "canonical_name": "低血糖",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆.pdf",
+          "chunk_index": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆:1",
+          "raw_text": "口服降糖药中格列苯脲是P-gp的底物及抑制剂，临床上发现当克拉霉素与格列苯脲合用时低血糖的发生率升高",
+          "chunk_id": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆:1",
+          "data": "2. 3 P-gp 与口服降糖药\nP-gp 又称 P-糖蛋白，体内分布广泛，在肝脏中分布于肝细胞胆管膜侧，属 ABC 家族，是多药耐药基因( MDR1) 的产物，在肝脏中主要负责内源性物质及药物自肝细胞向胆汁中的外排，是一类非常重要的外排型转运蛋白，底物广泛。口服降糖药中格列苯脲是 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物及抑制剂，临床上发现当克拉霉素与格列苯脲合用时低血糖的发生率升高，因此 Lilja等［15］研究克拉霉素对格列苯脲在健康志愿者体内的药动学影响时发现，克拉霉素使格列苯脲的 $\\rho _ { \\mathrm { m a x } }$ 增大 1. 25 倍，AUC 增大1. 35 倍，并指出这可能与克拉霉素( $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 经典抑制剂) 抑制肠道和肝脏中的 $\\mathrm { P \\mathrm { \\# ~ } f \\mathrm { \\# ~ } }$ 有关。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆.pdf",
+          "chunk_index": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆:1",
+          "raw_text": "口服降糖药中格列苯脲",
+          "chunk_id": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆:1",
+          "data": "2. 3 P-gp 与口服降糖药\nP-gp 又称 P-糖蛋白，体内分布广泛，在肝脏中分布于肝细胞胆管膜侧，属 ABC 家族，是多药耐药基因( MDR1) 的产物，在肝脏中主要负责内源性物质及药物自肝细胞向胆汁中的外排，是一类非常重要的外排型转运蛋白，底物广泛。口服降糖药中格列苯脲是 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物及抑制剂，临床上发现当克拉霉素与格列苯脲合用时低血糖的发生率升高，因此 Lilja等［15］研究克拉霉素对格列苯脲在健康志愿者体内的药动学影响时发现，克拉霉素使格列苯脲的 $\\rho _ { \\mathrm { m a x } }$ 增大 1. 25 倍，AUC 增大1. 35 倍，并指出这可能与克拉霉素( $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 经典抑制剂) 抑制肠道和肝脏中的 $\\mathrm { P \\mathrm { \\# ~ } f \\mathrm { \\# ~ } }$ 有关。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆.pdf",
+          "chunk_index": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆:1",
+          "raw_text": "当克拉霉素与格列苯脲合用时低血糖的发生率升高",
+          "chunk_id": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆:1",
+          "data": "2. 3 P-gp 与口服降糖药\nP-gp 又称 P-糖蛋白，体内分布广泛，在肝脏中分布于肝细胞胆管膜侧，属 ABC 家族，是多药耐药基因( MDR1) 的产物，在肝脏中主要负责内源性物质及药物自肝细胞向胆汁中的外排，是一类非常重要的外排型转运蛋白，底物广泛。口服降糖药中格列苯脲是 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物及抑制剂，临床上发现当克拉霉素与格列苯脲合用时低血糖的发生率升高，因此 Lilja等［15］研究克拉霉素对格列苯脲在健康志愿者体内的药动学影响时发现，克拉霉素使格列苯脲的 $\\rho _ { \\mathrm { m a x } }$ 增大 1. 25 倍，AUC 增大1. 35 倍，并指出这可能与克拉霉素( $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 经典抑制剂) 抑制肠道和肝脏中的 $\\mathrm { P \\mathrm { \\# ~ } f \\mathrm { \\# ~ } }$ 有关。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆:1",
+    "source": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆.pdf",
+    "text": "2. 3 P-gp 与口服降糖药\nP-gp 又称 P-糖蛋白，体内分布广泛，在肝脏中分布于肝细胞胆管膜侧，属 ABC 家族，是多药耐药基因( MDR1) 的产物，在肝脏中主要负责内源性物质及药物自肝细胞向胆汁中的外排，是一类非常重要的外排型转运蛋白，底物广泛。口服降糖药中格列苯脲是 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物及抑制剂，临床上发现当克拉霉素与格列苯脲合用时低血糖的发生率升高，因此 Lilja等［15］研究克拉霉素对格列苯脲在健康志愿者体内的药动学影响时发现，克拉霉素使格列苯脲的 $\\rho _ { \\mathrm { m a x } }$ 增大 1. 25 倍，AUC 增大1. 35 倍，并指出这可能与克拉霉素( $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 经典抑制剂) 抑制肠道和肝脏中的 $\\mathrm { P \\mathrm { \\# ~ } f \\mathrm { \\# ~ } }$ 有关。"
+  }
+]

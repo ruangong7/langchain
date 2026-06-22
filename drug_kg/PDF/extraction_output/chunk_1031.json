@@ -1,0 +1,61 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "canonical_name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "五味子醇甲",
+        "canonical_name": "五味子醇甲",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "五味子酯甲",
+        "canonical_name": "五味子酯甲",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "6",
+          "raw_text": "加入 P-gp 抑制药维拉帕米后，在 AP-BL 方向的转运中，五味子醇甲和五味子酯甲的 Ka和 ΔPapp 均显著上升(P<0.05)，而在 BL-AP 方向的转运中，两种有效成分的 Ka和 ΔPapp 均显著降低(P<0.05)，表明维拉帕米能通过抑制 P-gp 的外排作用，从而促进五味子醇甲和五味子酯甲的吸收。",
+          "mechanism": "维拉帕米通过抑制P-gp外排作用，促进五味子醇甲和五味子酯甲的吸收",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:6",
+          "data": "a } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } } }$ 抑制药可促进这三种成分的吸收。于洋等［32］通过建立 Caco-2 细胞模型，从吸收的角度去研究北五味子的主要活性成分五味子醇甲和酯甲，结果显示，加入 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 抑制药维拉帕米后，在 AP-BL 方向的转运中，五味子醇甲和五味子酯甲的 Ka和 $\\mathrm { \\Delta P _ { a p p } }$ 均显著上升( P$< 0 . 0 5 )$ ，而在 BL-AP 方向的转运中，两种有效成分的 Ka和$\\mathrm { \\Delta P _ { a p p } }$ 均显著降低( $\\textstyle P < 0 . 0 5 )$ ，表明维拉帕米能通过抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的外排作用，从而促进五味子醇甲和五味子酯甲的吸收。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "6",
+          "raw_text": "加入 P-gp 抑制药维拉帕米后，在 AP-BL 方向的转运中，五味子醇甲和五味子酯甲的 Ka和 ΔPapp 均显著上升(P<0.05)，而在 BL-AP 方向的转运中，两种有效成分的 Ka和 ΔPapp 均显著降低(P<0.05)，表明维拉帕米能通过抑制 P-gp 的外排作用，从而促进五味子醇甲和五味子酯甲的吸收。",
+          "mechanism": "维拉帕米通过抑制P-gp外排作用，促进五味子醇甲和五味子酯甲的吸收",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:6",
+          "data": "a } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } } }$ 抑制药可促进这三种成分的吸收。于洋等［32］通过建立 Caco-2 细胞模型，从吸收的角度去研究北五味子的主要活性成分五味子醇甲和酯甲，结果显示，加入 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 抑制药维拉帕米后，在 AP-BL 方向的转运中，五味子醇甲和五味子酯甲的 Ka和 $\\mathrm { \\Delta P _ { a p p } }$ 均显著上升( P$< 0 . 0 5 )$ ，而在 BL-AP 方向的转运中，两种有效成分的 Ka和$\\mathrm { \\Delta P _ { a p p } }$ 均显著降低( $\\textstyle P < 0 . 0 5 )$ ，表明维拉帕米能通过抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的外排作用，从而促进五味子醇甲和五味子酯甲的吸收。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:6",
+    "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+    "text": "a } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } } }$ 抑制药可促进这三种成分的吸收。于洋等［32］通过建立 Caco-2 细胞模型，从吸收的角度去研究北五味子的主要活性成分五味子醇甲和酯甲，结果显示，加入 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 抑制药维拉帕米后，在 AP-BL 方向的转运中，五味子醇甲和五味子酯甲的 Ka和 $\\mathrm { \\Delta P _ { a p p } }$ 均显著上升( P$< 0 . 0 5 )$ ，而在 BL-AP 方向的转运中，两种有效成分的 Ka和$\\mathrm { \\Delta P _ { a p p } }$ 均显著降低( $\\textstyle P < 0 . 0 5 )$ ，表明维拉帕米能通过抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的外排作用，从而促进五味子醇甲和五味子酯甲的吸收。"
+  }
+]

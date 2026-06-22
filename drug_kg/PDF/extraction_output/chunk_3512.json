@@ -1,0 +1,199 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "NOACs",
+        "canonical_name": "新型口服抗凝药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利伐沙班",
+        "canonical_name": "利伐沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "阿哌沙班",
+        "canonical_name": "阿哌沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "奎尼丁",
+        "canonical_name": "奎尼丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "苯妥英",
+        "canonical_name": "苯妥英",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "圣约翰草",
+        "canonical_name": "圣约翰草",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "唑类抗真菌药",
+        "canonical_name": "唑类抗真菌药",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "利托那韦",
+        "canonical_name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "栓塞风险增加",
+        "canonical_name": "栓塞风险增加",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "出血风险增加",
+        "canonical_name": "出血风险增加",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "NOACs与心血管药物（如奎尼丁）存在药动学相互作用",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "，当肠道上皮细胞中的 $\\mathrm { P g p }$ 被诱导时， $\\mathrm { P \\mathrm { - } g p }$ 底物药物被 $\\mathrm { P g p }$ 外排到肠道内而降低药物通过肠壁进入体循环 ；在肝脏和肾脏中，某些药物通过诱导 $\\mathrm { P - g p }$ 活性增加 $\\mathrm { N O A C s }$ 排泄到胆汁和尿液中的速度 ， 从而加速药物从体循环中清除， 可降低血浆中 NOACs水平， 使抗凝作用减弱而导致栓塞风险增加相反，抑制 $\\mathrm { P - g p }$ 活性可导致药物吸收和排泄水平的改变使血浆浓度升高，增加出血风险。另一种乳腺癌耐药蛋白（breastcancerresistantprotein， BCRP）在利伐沙班和阿哌沙班的药物转运方面与 $\\mathrm { P g p }$ 具有相似的作用 ， 但BCRP只影响沙班类药物与强抑制剂 （如唑类抗真菌药和利托那韦 ） 的联合用药［13， 20］ ， 因此利伐沙班或阿哌沙班与其他药物的相互作用受 $\\mathrm { P g p }$ 转运体系影响更为显著。临床上， $\\mathrm { N O A C s }$ 与心血管药物（如奎尼丁） 抗癫痫药（如苯妥英） 及抗抑郁药 （如圣约翰草） 等多种药物存在药动学相互作用已有的部分临床常用药物与 $\\mathrm { N O A C s }$ 的药动学相互作用的总结如表2所示 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "NOACs与抗癫痫药（如苯妥英）存在药动学相互作用",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "，当肠道上皮细胞中的 $\\mathrm { P g p }$ 被诱导时， $\\mathrm { P \\mathrm { - } g p }$ 底物药物被 $\\mathrm { P g p }$ 外排到肠道内而降低药物通过肠壁进入体循环 ；在肝脏和肾脏中，某些药物通过诱导 $\\mathrm { P - g p }$ 活性增加 $\\mathrm { N O A C s }$ 排泄到胆汁和尿液中的速度 ， 从而加速药物从体循环中清除， 可降低血浆中 NOACs水平， 使抗凝作用减弱而导致栓塞风险增加相反，抑制 $\\mathrm { P - g p }$ 活性可导致药物吸收和排泄水平的改变使血浆浓度升高，增加出血风险。另一种乳腺癌耐药蛋白（breastcancerresistantprotein， BCRP）在利伐沙班和阿哌沙班的药物转运方面与 $\\mathrm { P g p }$ 具有相似的作用 ， 但BCRP只影响沙班类药物与强抑制剂 （如唑类抗真菌药和利托那韦 ） 的联合用药［13， 20］ ， 因此利伐沙班或阿哌沙班与其他药物的相互作用受 $\\mathrm { P g p }$ 转运体系影响更为显著。临床上， $\\mathrm { N O A C s }$ 与心血管药物（如奎尼丁） 抗癫痫药（如苯妥英） 及抗抑郁药 （如圣约翰草） 等多种药物存在药动学相互作用已有的部分临床常用药物与 $\\mathrm { N O A C s }$ 的药动学相互作用的总结如表2所示 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "NOACs与抗抑郁药（如圣约翰草）存在药动学相互作用",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "，当肠道上皮细胞中的 $\\mathrm { P g p }$ 被诱导时， $\\mathrm { P \\mathrm { - } g p }$ 底物药物被 $\\mathrm { P g p }$ 外排到肠道内而降低药物通过肠壁进入体循环 ；在肝脏和肾脏中，某些药物通过诱导 $\\mathrm { P - g p }$ 活性增加 $\\mathrm { N O A C s }$ 排泄到胆汁和尿液中的速度 ， 从而加速药物从体循环中清除， 可降低血浆中 NOACs水平， 使抗凝作用减弱而导致栓塞风险增加相反，抑制 $\\mathrm { P - g p }$ 活性可导致药物吸收和排泄水平的改变使血浆浓度升高，增加出血风险。另一种乳腺癌耐药蛋白（breastcancerresistantprotein， BCRP）在利伐沙班和阿哌沙班的药物转运方面与 $\\mathrm { P g p }$ 具有相似的作用 ， 但BCRP只影响沙班类药物与强抑制剂 （如唑类抗真菌药和利托那韦 ） 的联合用药［13， 20］ ， 因此利伐沙班或阿哌沙班与其他药物的相互作用受 $\\mathrm { P g p }$ 转运体系影响更为显著。临床上， $\\mathrm { N O A C s }$ 与心血管药物（如奎尼丁） 抗癫痫药（如苯妥英） 及抗抑郁药 （如圣约翰草） 等多种药物存在药动学相互作用已有的部分临床常用药物与 $\\mathrm { N O A C s }$ 的药动学相互作用的总结如表2所示 。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "BCRP只影响沙班类药物与强抑制剂（如唑类抗真菌药）的联合用药",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "，当肠道上皮细胞中的 $\\mathrm { P g p }$ 被诱导时， $\\mathrm { P \\mathrm { - } g p }$ 底物药物被 $\\mathrm { P g p }$ 外排到肠道内而降低药物通过肠壁进入体循环 ；在肝脏和肾脏中，某些药物通过诱导 $\\mathrm { P - g p }$ 活性增加 $\\mathrm { N O A C s }$ 排泄到胆汁和尿液中的速度 ， 从而加速药物从体循环中清除， 可降低血浆中 NOACs水平， 使抗凝作用减弱而导致栓塞风险增加相反，抑制 $\\mathrm { P - g p }$ 活性可导致药物吸收和排泄水平的改变使血浆浓度升高，增加出血风险。另一种乳腺癌耐药蛋白（breastcancerresistantprotein， BCRP）在利伐沙班和阿哌沙班的药物转运方面与 $\\mathrm { P g p }$ 具有相似的作用 ， 但BCRP只影响沙班类药物与强抑制剂 （如唑类抗真菌药和利托那韦 ） 的联合用药［13， 20］ ， 因此利伐沙班或阿哌沙班与其他药物的相互作用受 $\\mathrm { P g p }$ 转运体系影响更为显著。临床上， $\\mathrm { N O A C s }$ 与心血管药物（如奎尼丁） 抗癫痫药（如苯妥英） 及抗抑郁药 （如圣约翰草） 等多种药物存在药动学相互作用已有的部分临床常用药物与 $\\mathrm { N O A C s }$ 的药动学相互作用的总结如表2所示 。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "BCRP只影响沙班类药物与强抑制剂（如利托那韦）的联合用药",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "，当肠道上皮细胞中的 $\\mathrm { P g p }$ 被诱导时， $\\mathrm { P \\mathrm { - } g p }$ 底物药物被 $\\mathrm { P g p }$ 外排到肠道内而降低药物通过肠壁进入体循环 ；在肝脏和肾脏中，某些药物通过诱导 $\\mathrm { P - g p }$ 活性增加 $\\mathrm { N O A C s }$ 排泄到胆汁和尿液中的速度 ， 从而加速药物从体循环中清除， 可降低血浆中 NOACs水平， 使抗凝作用减弱而导致栓塞风险增加相反，抑制 $\\mathrm { P - g p }$ 活性可导致药物吸收和排泄水平的改变使血浆浓度升高，增加出血风险。另一种乳腺癌耐药蛋白（breastcancerresistantprotein， BCRP）在利伐沙班和阿哌沙班的药物转运方面与 $\\mathrm { P g p }$ 具有相似的作用 ， 但BCRP只影响沙班类药物与强抑制剂 （如唑类抗真菌药和利托那韦 ） 的联合用药［13， 20］ ， 因此利伐沙班或阿哌沙班与其他药物的相互作用受 $\\mathrm { P g p }$ 转运体系影响更为显著。临床上， $\\mathrm { N O A C s }$ 与心血管药物（如奎尼丁） 抗癫痫药（如苯妥英） 及抗抑郁药 （如圣约翰草） 等多种药物存在药动学相互作用已有的部分临床常用药物与 $\\mathrm { N O A C s }$ 的药动学相互作用的总结如表2所示 。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "BCRP只影响沙班类药物与强抑制剂（如唑类抗真菌药）的联合用药",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "，当肠道上皮细胞中的 $\\mathrm { P g p }$ 被诱导时， $\\mathrm { P \\mathrm { - } g p }$ 底物药物被 $\\mathrm { P g p }$ 外排到肠道内而降低药物通过肠壁进入体循环 ；在肝脏和肾脏中，某些药物通过诱导 $\\mathrm { P - g p }$ 活性增加 $\\mathrm { N O A C s }$ 排泄到胆汁和尿液中的速度 ， 从而加速药物从体循环中清除， 可降低血浆中 NOACs水平， 使抗凝作用减弱而导致栓塞风险增加相反，抑制 $\\mathrm { P - g p }$ 活性可导致药物吸收和排泄水平的改变使血浆浓度升高，增加出血风险。另一种乳腺癌耐药蛋白（breastcancerresistantprotein， BCRP）在利伐沙班和阿哌沙班的药物转运方面与 $\\mathrm { P g p }$ 具有相似的作用 ， 但BCRP只影响沙班类药物与强抑制剂 （如唑类抗真菌药和利托那韦 ） 的联合用药［13， 20］ ， 因此利伐沙班或阿哌沙班与其他药物的相互作用受 $\\mathrm { P g p }$ 转运体系影响更为显著。临床上， $\\mathrm { N O A C s }$ 与心血管药物（如奎尼丁） 抗癫痫药（如苯妥英） 及抗抑郁药 （如圣约翰草） 等多种药物存在药动学相互作用已有的部分临床常用药物与 $\\mathrm { N O A C s }$ 的药动学相互作用的总结如表2所示 。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "BCRP只影响沙班类药物与强抑制剂（如利托那韦）的联合用药",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "，当肠道上皮细胞中的 $\\mathrm { P g p }$ 被诱导时， $\\mathrm { P \\mathrm { - } g p }$ 底物药物被 $\\mathrm { P g p }$ 外排到肠道内而降低药物通过肠壁进入体循环 ；在肝脏和肾脏中，某些药物通过诱导 $\\mathrm { P - g p }$ 活性增加 $\\mathrm { N O A C s }$ 排泄到胆汁和尿液中的速度 ， 从而加速药物从体循环中清除， 可降低血浆中 NOACs水平， 使抗凝作用减弱而导致栓塞风险增加相反，抑制 $\\mathrm { P - g p }$ 活性可导致药物吸收和排泄水平的改变使血浆浓度升高，增加出血风险。另一种乳腺癌耐药蛋白（breastcancerresistantprotein， BCRP）在利伐沙班和阿哌沙班的药物转运方面与 $\\mathrm { P g p }$ 具有相似的作用 ， 但BCRP只影响沙班类药物与强抑制剂 （如唑类抗真菌药和利托那韦 ） 的联合用药［13， 20］ ， 因此利伐沙班或阿哌沙班与其他药物的相互作用受 $\\mathrm { P g p }$ 转运体系影响更为显著。临床上， $\\mathrm { N O A C s }$ 与心血管药物（如奎尼丁） 抗癫痫药（如苯妥英） 及抗抑郁药 （如圣约翰草） 等多种药物存在药动学相互作用已有的部分临床常用药物与 $\\mathrm { N O A C s }$ 的药动学相互作用的总结如表2所示 。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "降低血浆中NOACs水平，使抗凝作用减弱而导致栓塞风险增加",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "，当肠道上皮细胞中的 $\\mathrm { P g p }$ 被诱导时， $\\mathrm { P \\mathrm { - } g p }$ 底物药物被 $\\mathrm { P g p }$ 外排到肠道内而降低药物通过肠壁进入体循环 ；在肝脏和肾脏中，某些药物通过诱导 $\\mathrm { P - g p }$ 活性增加 $\\mathrm { N O A C s }$ 排泄到胆汁和尿液中的速度 ， 从而加速药物从体循环中清除， 可降低血浆中 NOACs水平， 使抗凝作用减弱而导致栓塞风险增加相反，抑制 $\\mathrm { P - g p }$ 活性可导致药物吸收和排泄水平的改变使血浆浓度升高，增加出血风险。另一种乳腺癌耐药蛋白（breastcancerresistantprotein， BCRP）在利伐沙班和阿哌沙班的药物转运方面与 $\\mathrm { P g p }$ 具有相似的作用 ， 但BCRP只影响沙班类药物与强抑制剂 （如唑类抗真菌药和利托那韦 ） 的联合用药［13， 20］ ， 因此利伐沙班或阿哌沙班与其他药物的相互作用受 $\\mathrm { P g p }$ 转运体系影响更为显著。临床上， $\\mathrm { N O A C s }$ 与心血管药物（如奎尼丁） 抗癫痫药（如苯妥英） 及抗抑郁药 （如圣约翰草） 等多种药物存在药动学相互作用已有的部分临床常用药物与 $\\mathrm { N O A C s }$ 的药动学相互作用的总结如表2所示 。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "抑制P-gp活性可导致药物吸收和排泄水平的改变使血浆浓度升高，增加出血风险",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "，当肠道上皮细胞中的 $\\mathrm { P g p }$ 被诱导时， $\\mathrm { P \\mathrm { - } g p }$ 底物药物被 $\\mathrm { P g p }$ 外排到肠道内而降低药物通过肠壁进入体循环 ；在肝脏和肾脏中，某些药物通过诱导 $\\mathrm { P - g p }$ 活性增加 $\\mathrm { N O A C s }$ 排泄到胆汁和尿液中的速度 ， 从而加速药物从体循环中清除， 可降低血浆中 NOACs水平， 使抗凝作用减弱而导致栓塞风险增加相反，抑制 $\\mathrm { P - g p }$ 活性可导致药物吸收和排泄水平的改变使血浆浓度升高，增加出血风险。另一种乳腺癌耐药蛋白（breastcancerresistantprotein， BCRP）在利伐沙班和阿哌沙班的药物转运方面与 $\\mathrm { P g p }$ 具有相似的作用 ， 但BCRP只影响沙班类药物与强抑制剂 （如唑类抗真菌药和利托那韦 ） 的联合用药［13， 20］ ， 因此利伐沙班或阿哌沙班与其他药物的相互作用受 $\\mathrm { P g p }$ 转运体系影响更为显著。临床上， $\\mathrm { N O A C s }$ 与心血管药物（如奎尼丁） 抗癫痫药（如苯妥英） 及抗抑郁药 （如圣约翰草） 等多种药物存在药动学相互作用已有的部分临床常用药物与 $\\mathrm { N O A C s }$ 的药动学相互作用的总结如表2所示 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+    "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+    "text": "，当肠道上皮细胞中的 $\\mathrm { P g p }$ 被诱导时， $\\mathrm { P \\mathrm { - } g p }$ 底物药物被 $\\mathrm { P g p }$ 外排到肠道内而降低药物通过肠壁进入体循环 ；在肝脏和肾脏中，某些药物通过诱导 $\\mathrm { P - g p }$ 活性增加 $\\mathrm { N O A C s }$ 排泄到胆汁和尿液中的速度 ， 从而加速药物从体循环中清除， 可降低血浆中 NOACs水平， 使抗凝作用减弱而导致栓塞风险增加相反，抑制 $\\mathrm { P - g p }$ 活性可导致药物吸收和排泄水平的改变使血浆浓度升高，增加出血风险。另一种乳腺癌耐药蛋白（breastcancerresistantprotein， BCRP）在利伐沙班和阿哌沙班的药物转运方面与 $\\mathrm { P g p }$ 具有相似的作用 ， 但BCRP只影响沙班类药物与强抑制剂 （如唑类抗真菌药和利托那韦 ） 的联合用药［13， 20］ ， 因此利伐沙班或阿哌沙班与其他药物的相互作用受 $\\mathrm { P g p }$ 转运体系影响更为显著。临床上， $\\mathrm { N O A C s }$ 与心血管药物（如奎尼丁） 抗癫痫药（如苯妥英） 及抗抑郁药 （如圣约翰草） 等多种药物存在药动学相互作用已有的部分临床常用药物与 $\\mathrm { N O A C s }$ 的药动学相互作用的总结如表2所示 。"
+  }
+]

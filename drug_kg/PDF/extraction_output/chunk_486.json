@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "非甾体抗炎药",
+        "canonical_name": "非甾体抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "镇静催眠药",
+        "canonical_name": "镇静催眠药",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "先天性心脏病",
+        "canonical_name": "先天性心脏病",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "川崎病",
+        "canonical_name": "川崎病",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵.pdf",
+          "chunk_index": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵:0",
+          "raw_text": "与华法林存在的药物中，安全性分级为级的有种， 级有种。 例使用华法林的患儿主要诊断为先天性心脏病( ) 和川崎病( ) ，其中例( ) 合并使用与华法林存在的药物; 同时合并使用存在种药物的患儿有例。所用与华法林存在的药物有种，均为级。 年间，合并使用与华法林存在药物情况共发生例次，其中最多的是非甾体抗炎药，其次是镇静催眠药。",
+          "chunk_id": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵:0",
+          "data": "上海儿童医学中心华法林药物相互作用 5 年数据分析\n徐静涵施芳红李浩 ， 张顺国 ( 1． 上海交通大学医学院附属上海儿童医学中心药剂科上海 200127; 2． 上海交通大学医学院附属仁济医院药剂科; 3． 上海交通大学医学院附属上海儿童医学中心临床研究中心)摘要目的: 分析儿童患者华法林治疗过程中药物相互作用( ) 情况，为华法林合理用药提供依据。 方法: 基于药物相互作用软件筛选与华法林具有明显的药物及其安全性分级信息; 收集年上海交通大学医学院附属上海儿童医学中心接受华法林治疗的病例资料，分析使用华法林的情况。 结果: 与华法林存在的药物中，安全性分级为级的有种， 级有种。 例使用华法林的患儿主要诊断为先天性心脏病( ) 和川崎病( ) ，其中例( ) 合并使用与华法林存在的药物; 同时合并使用存在种药物的患儿有例。所用与华法林存在的药物有种，均为级。 年间，合并使用与华法林存在药物情况共发生例次，其中最多的是非甾体抗炎药，其次是镇静催眠药。 结论: 儿童患者应用华法林时，具有药物相互作用的药物同时使用的情况应当注意 。\nFive-years Data Analysis of Warfarin Drug Interactions in Shanghai Children ’ s Medical Center\nXu Jinghan1 ，Shi Fanghong2 ，Li Hao1，3 ，Zhang Shunguo1 ( 1． Department of Pharmacy，Shanghai Children ’ s Medical Center，Shanghai Jiao Tong University School of Medicine，Shanghai 200127，China;2． Department of Pharmacy，Renji Hospital，Shanghai Jiao Tong University School of Medicine;"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵.pdf",
+          "chunk_index": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵:0",
+          "raw_text": "与华法林存在的药物中，安全性分级为级的有种， 级有种。 例使用华法林的患儿主要诊断为先天性心脏病( ) 和川崎病( ) ，其中例( ) 合并使用与华法林存在的药物; 同时合并使用存在种药物的患儿有例。所用与华法林存在的药物有种，均为级。 年间，合并使用与华法林存在药物情况共发生例次，其中最多的是非甾体抗炎药，其次是镇静催眠药。",
+          "chunk_id": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵:0",
+          "data": "上海儿童医学中心华法林药物相互作用 5 年数据分析\n徐静涵施芳红李浩 ， 张顺国 ( 1． 上海交通大学医学院附属上海儿童医学中心药剂科上海 200127; 2． 上海交通大学医学院附属仁济医院药剂科; 3． 上海交通大学医学院附属上海儿童医学中心临床研究中心)摘要目的: 分析儿童患者华法林治疗过程中药物相互作用( ) 情况，为华法林合理用药提供依据。 方法: 基于药物相互作用软件筛选与华法林具有明显的药物及其安全性分级信息; 收集年上海交通大学医学院附属上海儿童医学中心接受华法林治疗的病例资料，分析使用华法林的情况。 结果: 与华法林存在的药物中，安全性分级为级的有种， 级有种。 例使用华法林的患儿主要诊断为先天性心脏病( ) 和川崎病( ) ，其中例( ) 合并使用与华法林存在的药物; 同时合并使用存在种药物的患儿有例。所用与华法林存在的药物有种，均为级。 年间，合并使用与华法林存在药物情况共发生例次，其中最多的是非甾体抗炎药，其次是镇静催眠药。 结论: 儿童患者应用华法林时，具有药物相互作用的药物同时使用的情况应当注意 。\nFive-years Data Analysis of Warfarin Drug Interactions in Shanghai Children ’ s Medical Center\nXu Jinghan1 ，Shi Fanghong2 ，Li Hao1，3 ，Zhang Shunguo1 ( 1． Department of Pharmacy，Shanghai Children ’ s Medical Center，Shanghai Jiao Tong University School of Medicine，Shanghai 200127，China;2． Department of Pharmacy，Renji Hospital，Shanghai Jiao Tong University School of Medicine;"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵.pdf",
+          "chunk_index": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵:0",
+          "raw_text": "例使用华法林的患儿主要诊断为先天性心脏病( ) 和川崎病( )",
+          "chunk_id": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵:0",
+          "data": "上海儿童医学中心华法林药物相互作用 5 年数据分析\n徐静涵施芳红李浩 ， 张顺国 ( 1． 上海交通大学医学院附属上海儿童医学中心药剂科上海 200127; 2． 上海交通大学医学院附属仁济医院药剂科; 3． 上海交通大学医学院附属上海儿童医学中心临床研究中心)摘要目的: 分析儿童患者华法林治疗过程中药物相互作用( ) 情况，为华法林合理用药提供依据。 方法: 基于药物相互作用软件筛选与华法林具有明显的药物及其安全性分级信息; 收集年上海交通大学医学院附属上海儿童医学中心接受华法林治疗的病例资料，分析使用华法林的情况。 结果: 与华法林存在的药物中，安全性分级为级的有种， 级有种。 例使用华法林的患儿主要诊断为先天性心脏病( ) 和川崎病( ) ，其中例( ) 合并使用与华法林存在的药物; 同时合并使用存在种药物的患儿有例。所用与华法林存在的药物有种，均为级。 年间，合并使用与华法林存在药物情况共发生例次，其中最多的是非甾体抗炎药，其次是镇静催眠药。 结论: 儿童患者应用华法林时，具有药物相互作用的药物同时使用的情况应当注意 。\nFive-years Data Analysis of Warfarin Drug Interactions in Shanghai Children ’ s Medical Center\nXu Jinghan1 ，Shi Fanghong2 ，Li Hao1，3 ，Zhang Shunguo1 ( 1． Department of Pharmacy，Shanghai Children ’ s Medical Center，Shanghai Jiao Tong University School of Medicine，Shanghai 200127，China;2． Department of Pharmacy，Renji Hospital，Shanghai Jiao Tong University School of Medicine;"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵.pdf",
+          "chunk_index": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵:0",
+          "raw_text": "例使用华法林的患儿主要诊断为先天性心脏病( ) 和川崎病( )",
+          "chunk_id": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵:0",
+          "data": "上海儿童医学中心华法林药物相互作用 5 年数据分析\n徐静涵施芳红李浩 ， 张顺国 ( 1． 上海交通大学医学院附属上海儿童医学中心药剂科上海 200127; 2． 上海交通大学医学院附属仁济医院药剂科; 3． 上海交通大学医学院附属上海儿童医学中心临床研究中心)摘要目的: 分析儿童患者华法林治疗过程中药物相互作用( ) 情况，为华法林合理用药提供依据。 方法: 基于药物相互作用软件筛选与华法林具有明显的药物及其安全性分级信息; 收集年上海交通大学医学院附属上海儿童医学中心接受华法林治疗的病例资料，分析使用华法林的情况。 结果: 与华法林存在的药物中，安全性分级为级的有种， 级有种。 例使用华法林的患儿主要诊断为先天性心脏病( ) 和川崎病( ) ，其中例( ) 合并使用与华法林存在的药物; 同时合并使用存在种药物的患儿有例。所用与华法林存在的药物有种，均为级。 年间，合并使用与华法林存在药物情况共发生例次，其中最多的是非甾体抗炎药，其次是镇静催眠药。 结论: 儿童患者应用华法林时，具有药物相互作用的药物同时使用的情况应当注意 。\nFive-years Data Analysis of Warfarin Drug Interactions in Shanghai Children ’ s Medical Center\nXu Jinghan1 ，Shi Fanghong2 ，Li Hao1，3 ，Zhang Shunguo1 ( 1． Department of Pharmacy，Shanghai Children ’ s Medical Center，Shanghai Jiao Tong University School of Medicine，Shanghai 200127，China;2． Department of Pharmacy，Renji Hospital，Shanghai Jiao Tong University School of Medicine;"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵:0",
+    "source": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵.pdf",
+    "text": "上海儿童医学中心华法林药物相互作用 5 年数据分析\n徐静涵施芳红李浩 ， 张顺国 ( 1． 上海交通大学医学院附属上海儿童医学中心药剂科上海 200127; 2． 上海交通大学医学院附属仁济医院药剂科; 3． 上海交通大学医学院附属上海儿童医学中心临床研究中心)摘要目的: 分析儿童患者华法林治疗过程中药物相互作用( ) 情况，为华法林合理用药提供依据。 方法: 基于药物相互作用软件筛选与华法林具有明显的药物及其安全性分级信息; 收集年上海交通大学医学院附属上海儿童医学中心接受华法林治疗的病例资料，分析使用华法林的情况。 结果: 与华法林存在的药物中，安全性分级为级的有种， 级有种。 例使用华法林的患儿主要诊断为先天性心脏病( ) 和川崎病( ) ，其中例( ) 合并使用与华法林存在的药物; 同时合并使用存在种药物的患儿有例。所用与华法林存在的药物有种，均为级。 年间，合并使用与华法林存在药物情况共发生例次，其中最多的是非甾体抗炎药，其次是镇静催眠药。 结论: 儿童患者应用华法林时，具有药物相互作用的药物同时使用的情况应当注意 。\nFive-years Data Analysis of Warfarin Drug Interactions in Shanghai Children ’ s Medical Center\nXu Jinghan1 ，Shi Fanghong2 ，Li Hao1，3 ，Zhang Shunguo1 ( 1． Department of Pharmacy，Shanghai Children ’ s Medical Center，Shanghai Jiao Tong University School of Medicine，Shanghai 200127，China;2． Department of Pharmacy，Renji Hospital，Shanghai Jiao Tong University School of Medicine;"
+  }
+]

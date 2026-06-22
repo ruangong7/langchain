@@ -30,6 +30,14 @@ HEADING_RE = re.compile(
     r"|[IVXivx]+"
     r")[\u3001.\uff0e]?\s*[\u4e00-\u9fffA-Za-z].*$"
 )
+QA_HEADING_RE = re.compile(r"^\s*\d{1,4}[.\u3001\uff0e]\s*")
+SECTION_HEADING_RE = re.compile(
+    r"^\s*("
+    r"[0-9]+(\.[0-9]+)*"
+    r"|[\u4e00\u4e8c\u4e09\u56db\u4e94\u516d\u4e03\u516b\u4e5d\u5341]+"
+    r"|[IVXivx]+"
+    r")[\u3001.\uff0e]?\s*"
+)
 
 
 def normalize_text(text: str) -> str:
@@ -141,22 +149,193 @@ def merge_blocks_to_paragraphs(blocks: list[dict[str, Any]]) -> list[str]:
     return cleaned
 
 
-def chunk_text(paragraphs: list[str], chunk_size: int, overlap: int) -> list[str]:
+def split_long_text(text: str, chunk_size: int, overlap: int) -> list[str]:
+    text = text.strip()
+    if len(text) <= chunk_size:
+        return [text] if text else []
+
+    sentence_parts = re.split(r"(?<=[。！？；;])", text)
+    parts = [part.strip() for part in sentence_parts if part.strip()]
+    if not parts:
+        parts = [text]
+
     chunks: list[str] = []
     current = ""
-
-    for para in paragraphs:
+    for part in parts:
         if not current:
-            current = para
+            current = part
             continue
-        if len(current) + 1 + len(para) <= chunk_size:
-            current = current + "\n" + para
+        if len(current) + len(part) <= chunk_size:
+            current += part
         else:
             chunks.append(current.strip())
             if overlap > 0 and len(current) > overlap:
-                current = current[-overlap:] + "\n" + para
+                current = current[-overlap:] + part
             else:
-                current = para
+                current = part
+
+    if current.strip():
+        chunks.append(current.strip())
+    return chunks
+
+
+def split_embedded_qa_units(units: list[str]) -> list[str]:
+    refined: list[str] = []
+    pattern = re.compile(r"(?m)(?=^\s*\d{1,4}[.\u3001\uff0e]\s*)")
+
+    for unit in units:
+        text = unit.strip()
+        if not text:
+            continue
+        if not QA_HEADING_RE.match(text):
+            refined.append(text)
+            continue
+
+        parts = [part.strip() for part in pattern.split(text) if part.strip()]
+        if len(parts) <= 1:
+            refined.append(text)
+            continue
+        refined.extend(parts)
+
+    return refined
+
+
+def is_qa_document(paragraphs: list[str]) -> bool:
+    qa_count = sum(1 for para in paragraphs if QA_HEADING_RE.match(para.strip()))
+    if qa_count >= 2:
+        return True
+    joined = "\n".join(paragraphs[:5])
+    if "问题与解答" in joined or "问答" in joined:
+        return True
+    return False
+
+
+def build_qa_units(paragraphs: list[str]) -> list[str]:
+    buckets: list[tuple[int | None, str]] = []
+    current = ""
+    current_num: int | None = None
+
+    for para in paragraphs:
+        text = para.strip()
+        if not text:
+            continue
+
+        if text == "问题与解答":
+            if current.strip():
+                buckets.append((current_num, current.strip()))
+            current = text
+            current_num = None
+            continue
+
+        if QA_HEADING_RE.match(text):
+            if current.strip():
+                buckets.append((current_num, current.strip()))
+            current = text
+            match = re.match(r"^\s*(\d{1,4})", text)
+            current_num = int(match.group(1)) if match else None
+            continue
+
+        if not current:
+            current = text
+            current_num = None
+            continue
+
+        current = current + "\n" + text
+
+    if current.strip():
+        buckets.append((current_num, current.strip()))
+
+    refined_pairs: list[tuple[int | None, str]] = []
+    for num, unit in buckets:
+        if unit.strip() == "问题与解答":
+            continue
+        if unit.startswith("问题与解答\n"):
+            unit = unit.split("\n", 1)[1].strip()
+        if unit:
+            refined_pairs.append((num, unit))
+
+    numbered = [(num, unit) for num, unit in refined_pairs if num is not None]
+    unnumbered = [unit for num, unit in refined_pairs if num is None]
+    numbered.sort(key=lambda item: item[0])
+
+    ordered = [unit for _, unit in numbered]
+    ordered.extend(unnumbered)
+    return ordered
+
+
+def build_semantic_units(paragraphs: list[str]) -> list[str]:
+    if is_qa_document(paragraphs):
+        return build_qa_units(paragraphs)
+
+    units: list[str] = []
+    current = ""
+    current_kind = ""
+
+    for para in paragraphs:
+        text = para.strip()
+        if not text:
+            continue
+
+        is_qa = bool(QA_HEADING_RE.match(text))
+        is_heading = bool(SECTION_HEADING_RE.match(text)) and len(text) <= 60
+
+        if is_qa:
+            if current.strip():
+                units.append(current.strip())
+            current = text
+            current_kind = "qa"
+            continue
+
+        if is_heading:
+            if current.strip():
+                units.append(current.strip())
+            current = text
+            current_kind = "heading"
+            continue
+
+        if not current:
+            current = text
+            current_kind = "text"
+            continue
+
+        if current_kind == "qa":
+            current = current + "\n" + text
+            continue
+
+        if current_kind == "heading":
+            current = current + "\n" + text
+            current_kind = "text"
+            continue
+
+        units.append(current.strip())
+        current = text
+        current_kind = "text"
+
+    if current.strip():
+        units.append(current.strip())
+    return split_embedded_qa_units(units)
+
+
+def chunk_text(paragraphs: list[str], chunk_size: int, overlap: int) -> list[str]:
+    units = build_semantic_units(paragraphs)
+    chunks: list[str] = []
+    current = ""
+
+    for unit in units:
+        if len(unit) > chunk_size:
+            oversized_parts = split_long_text(unit, chunk_size=chunk_size, overlap=overlap)
+        else:
+            oversized_parts = [unit]
+
+        for part in oversized_parts:
+            if not current:
+                current = part
+                continue
+            if len(current) + 1 + len(part) <= chunk_size:
+                current = current + "\n" + part
+            else:
+                chunks.append(current.strip())
+                current = part
 
     if current.strip():
         chunks.append(current.strip())

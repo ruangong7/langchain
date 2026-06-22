@@ -1,0 +1,179 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "洛伐他汀",
+        "canonical_name": "洛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "二氢吡啶类钙拮抗剂",
+        "canonical_name": "二氢吡啶类钙拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "硝苯地平",
+        "canonical_name": "硝苯地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "非洛地平",
+        "canonical_name": "非洛地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "拉西地平",
+        "canonical_name": "拉西地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "乐卡地平",
+        "canonical_name": "乐卡地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "尼莫地平",
+        "canonical_name": "尼莫地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "高血压",
+        "canonical_name": "高血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "血脂异常",
+        "canonical_name": "血脂异常",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+          "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+          "raw_text": "对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。",
+          "chunk_id": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+          "data": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。Drug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists\nXIA Zongling, CHEN Rong, ZOU Sulan, YAO Zhuoxian(The Third Affiliated Hospital of Soochow University, Department of Pharmacy, Changzhou 213000, China)ABSTRACT：OBJECTIVE To investigate the influences of five dihydropyridin calcium antagonists on the metabolism of lovastatin. METHODS The lovastatin was incubated with different concentrations of nifedipine felodipin, lacidipine, lercanidipine, and nimodipine in rat liver microsomes in vitro. The metabolic reaction was started by adding NADP/NADPH (0.9 mmol·L−1 /0.2 mmol·L−1 ) after microsomal incubates being prewarmed for 5 min, continued at 37 for several periods in a ℃ shaking water bath. Then the reaction was terminated and protein was precipitated by ice acetonitrile. After the super-speed centrifugation, the supernatant was analyzed by HPLC."
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+          "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+          "raw_text": "宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。",
+          "chunk_id": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+          "data": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。Drug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists\nXIA Zongling, CHEN Rong, ZOU Sulan, YAO Zhuoxian(The Third Affiliated Hospital of Soochow University, Department of Pharmacy, Changzhou 213000, China)ABSTRACT：OBJECTIVE To investigate the influences of five dihydropyridin calcium antagonists on the metabolism of lovastatin. METHODS The lovastatin was incubated with different concentrations of nifedipine felodipin, lacidipine, lercanidipine, and nimodipine in rat liver microsomes in vitro. The metabolic reaction was started by adding NADP/NADPH (0.9 mmol·L−1 /0.2 mmol·L−1 ) after microsomal incubates being prewarmed for 5 min, continued at 37 for several periods in a ℃ shaking water bath. Then the reaction was terminated and protein was precipitated by ice acetonitrile. After the super-speed centrifugation, the supernatant was analyzed by HPLC."
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+          "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+          "raw_text": "宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。",
+          "chunk_id": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+          "data": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。Drug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists\nXIA Zongling, CHEN Rong, ZOU Sulan, YAO Zhuoxian(The Third Affiliated Hospital of Soochow University, Department of Pharmacy, Changzhou 213000, China)ABSTRACT：OBJECTIVE To investigate the influences of five dihydropyridin calcium antagonists on the metabolism of lovastatin. METHODS The lovastatin was incubated with different concentrations of nifedipine felodipin, lacidipine, lercanidipine, and nimodipine in rat liver microsomes in vitro. The metabolic reaction was started by adding NADP/NADPH (0.9 mmol·L−1 /0.2 mmol·L−1 ) after microsomal incubates being prewarmed for 5 min, continued at 37 for several periods in a ℃ shaking water bath. Then the reaction was terminated and protein was precipitated by ice acetonitrile. After the super-speed centrifugation, the supernatant was analyzed by HPLC."
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+          "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+          "raw_text": "不同二氢吡啶类钙拮抗剂对洛伐他汀代谢的影响不同。",
+          "chunk_id": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+          "data": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。Drug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists\nXIA Zongling, CHEN Rong, ZOU Sulan, YAO Zhuoxian(The Third Affiliated Hospital of Soochow University, Department of Pharmacy, Changzhou 213000, China)ABSTRACT：OBJECTIVE To investigate the influences of five dihydropyridin calcium antagonists on the metabolism of lovastatin. METHODS The lovastatin was incubated with different concentrations of nifedipine felodipin, lacidipine, lercanidipine, and nimodipine in rat liver microsomes in vitro. The metabolic reaction was started by adding NADP/NADPH (0.9 mmol·L−1 /0.2 mmol·L−1 ) after microsomal incubates being prewarmed for 5 min, continued at 37 for several periods in a ℃ shaking water bath. Then the reaction was terminated and protein was precipitated by ice acetonitrile. After the super-speed centrifugation, the supernatant was analyzed by HPLC."
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+          "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+          "raw_text": "不同二氢吡啶类钙拮抗剂对洛伐他汀代谢的影响不同。",
+          "chunk_id": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+          "data": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。Drug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists\nXIA Zongling, CHEN Rong, ZOU Sulan, YAO Zhuoxian(The Third Affiliated Hospital of Soochow University, Department of Pharmacy, Changzhou 213000, China)ABSTRACT：OBJECTIVE To investigate the influences of five dihydropyridin calcium antagonists on the metabolism of lovastatin. METHODS The lovastatin was incubated with different concentrations of nifedipine felodipin, lacidipine, lercanidipine, and nimodipine in rat liver microsomes in vitro. The metabolic reaction was started by adding NADP/NADPH (0.9 mmol·L−1 /0.2 mmol·L−1 ) after microsomal incubates being prewarmed for 5 min, continued at 37 for several periods in a ℃ shaking water bath. Then the reaction was terminated and protein was precipitated by ice acetonitrile. After the super-speed centrifugation, the supernatant was analyzed by HPLC."
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+          "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+          "raw_text": "尼莫地平抑制作用最强。",
+          "chunk_id": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+          "data": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。Drug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists\nXIA Zongling, CHEN Rong, ZOU Sulan, YAO Zhuoxian(The Third Affiliated Hospital of Soochow University, Department of Pharmacy, Changzhou 213000, China)ABSTRACT：OBJECTIVE To investigate the influences of five dihydropyridin calcium antagonists on the metabolism of lovastatin. METHODS The lovastatin was incubated with different concentrations of nifedipine felodipin, lacidipine, lercanidipine, and nimodipine in rat liver microsomes in vitro. The metabolic reaction was started by adding NADP/NADPH (0.9 mmol·L−1 /0.2 mmol·L−1 ) after microsomal incubates being prewarmed for 5 min, continued at 37 for several periods in a ℃ shaking water bath. Then the reaction was terminated and protein was precipitated by ice acetonitrile. After the super-speed centrifugation, the supernatant was analyzed by HPLC."
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+          "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+          "raw_text": "治疗血脂异常",
+          "chunk_id": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+          "data": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。Drug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists\nXIA Zongling, CHEN Rong, ZOU Sulan, YAO Zhuoxian(The Third Affiliated Hospital of Soochow University, Department of Pharmacy, Changzhou 213000, China)ABSTRACT：OBJECTIVE To investigate the influences of five dihydropyridin calcium antagonists on the metabolism of lovastatin. METHODS The lovastatin was incubated with different concentrations of nifedipine felodipin, lacidipine, lercanidipine, and nimodipine in rat liver microsomes in vitro. The metabolic reaction was started by adding NADP/NADPH (0.9 mmol·L−1 /0.2 mmol·L−1 ) after microsomal incubates being prewarmed for 5 min, continued at 37 for several periods in a ℃ shaking water bath. Then the reaction was terminated and protein was precipitated by ice acetonitrile. After the super-speed centrifugation, the supernatant was analyzed by HPLC."
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+          "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+          "raw_text": "降压药",
+          "chunk_id": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+          "data": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。Drug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists\nXIA Zongling, CHEN Rong, ZOU Sulan, YAO Zhuoxian(The Third Affiliated Hospital of Soochow University, Department of Pharmacy, Changzhou 213000, China)ABSTRACT：OBJECTIVE To investigate the influences of five dihydropyridin calcium antagonists on the metabolism of lovastatin. METHODS The lovastatin was incubated with different concentrations of nifedipine felodipin, lacidipine, lercanidipine, and nimodipine in rat liver microsomes in vitro. The metabolic reaction was started by adding NADP/NADPH (0.9 mmol·L−1 /0.2 mmol·L−1 ) after microsomal incubates being prewarmed for 5 min, continued at 37 for several periods in a ℃ shaking water bath. Then the reaction was terminated and protein was precipitated by ice acetonitrile. After the super-speed centrifugation, the supernatant was analyzed by HPLC."
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:12",
+    "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+    "text": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。Drug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists\nXIA Zongling, CHEN Rong, ZOU Sulan, YAO Zhuoxian(The Third Affiliated Hospital of Soochow University, Department of Pharmacy, Changzhou 213000, China)ABSTRACT：OBJECTIVE To investigate the influences of five dihydropyridin calcium antagonists on the metabolism of lovastatin. METHODS The lovastatin was incubated with different concentrations of nifedipine felodipin, lacidipine, lercanidipine, and nimodipine in rat liver microsomes in vitro. The metabolic reaction was started by adding NADP/NADPH (0.9 mmol·L−1 /0.2 mmol·L−1 ) after microsomal incubates being prewarmed for 5 min, continued at 37 for several periods in a ℃ shaking water bath. Then the reaction was terminated and protein was precipitated by ice acetonitrile. After the super-speed centrifugation, the supernatant was analyzed by HPLC. The inhibition parameters $\\left( \\mathrm { I C } _ { 5 0 } \\right)$ were calculated. RESULTS The results indicated that different dihydropyridin calcium antagonists showed different influences on the metabolism of lovastatin. The inhibition of nifedipine was mild weakest $( \\mathrm { I C } _ { 5 0 } { = } 5 3 . 9 8 ~ \\mathrm { \\mu m o l { \\cdot } L ^ { - 1 } } )$ , and nimodipine was strongest ${ ( \\mathrm { I C } _ { 5 0 } { = } 2 . 0 1 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } ) }$ . The structural analysis indicated that the LogP was positively correlated with the $\\mathrm { I C } _ { 5 0 } ,$ otherwise, the mass amu and surface area grid were negatively correlated. CONCLUSION When lovastatin and dihydropyridin calcium antagonists were administered together to treat dyslipidemia and hypertension simutanously, drug interactions with significant clinical consequences may occur. And we should choose the dihydropyridin calcium antagonist with the greater LogP and less mass amu, surface area grid, such as近年来，我国心血管病发病率及相关危险因素均有增加趋势。"
+  }
+]

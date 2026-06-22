@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "伏立康唑与利福平药物相互作用的临床回顾性研究_陈婷婷.pdf",
+          "chunk_index": "伏立康唑与利福平药物相互作用的临床回顾性研究_陈婷婷:7",
+          "raw_text": "伏立康唑与利福平联用时，谷浓度显著降低，利福平停药7 d以上，谷浓度可能恢复至目标范围内；利福平对伏立康唑的代谢诱导作用可能受患者病情严重程度的影响。",
+          "chunk_id": "伏立康唑与利福平药物相互作用的临床回顾性研究_陈婷婷:7",
+          "data": "剂量PPI；1例在利福平停药第7 d实施伏立康唑TDM；1例在联用利福平前谷浓度超标。结论伏立康唑与利福平联用时，谷浓度显著降低，利福平停药7 d以上，谷浓度可能恢复至目标范围内；利福平对伏立康唑的代谢诱导作用可能受患者病情严重程度的影响。Retrospective study on the interaction between voriconazole and rifampin in clinical patients\nChen Tingting, Lin Zhiqiang, Wu Shuifa, and Zhang Qingquan(Department of Pharmacy, Quanzhou First Hospital, Quanzhou 362000)Abstract Objective To retrospectively study the induction and duration of rifampin on voriconazole trough concentration and the interfering factors of the interaction between rifampin and voriconazole. Methods The data of patients in our hospital who had been treated with voriconazole and rifampin and also underwent voriconazole TDM from May 2018 to December 2022 was collected. The basic information, rifampin regimen, voriconazole regimen, other co-medications and voriconazole TDM results were analyzed. Results A total of 32 patients were collected;"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "伏立康唑与利福平药物相互作用的临床回顾性研究_陈婷婷:7",
+    "source": "伏立康唑与利福平药物相互作用的临床回顾性研究_陈婷婷.pdf",
+    "text": "剂量PPI；1例在利福平停药第7 d实施伏立康唑TDM；1例在联用利福平前谷浓度超标。结论伏立康唑与利福平联用时，谷浓度显著降低，利福平停药7 d以上，谷浓度可能恢复至目标范围内；利福平对伏立康唑的代谢诱导作用可能受患者病情严重程度的影响。Retrospective study on the interaction between voriconazole and rifampin in clinical patients\nChen Tingting, Lin Zhiqiang, Wu Shuifa, and Zhang Qingquan(Department of Pharmacy, Quanzhou First Hospital, Quanzhou 362000)Abstract Objective To retrospectively study the induction and duration of rifampin on voriconazole trough concentration and the interfering factors of the interaction between rifampin and voriconazole. Methods The data of patients in our hospital who had been treated with voriconazole and rifampin and also underwent voriconazole TDM from May 2018 to December 2022 was collected. The basic information, rifampin regimen, voriconazole regimen, other co-medications and voriconazole TDM results were analyzed. Results A total of 32 patients were collected;"
+  }
+]

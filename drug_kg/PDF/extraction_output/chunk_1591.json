@@ -1,0 +1,199 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利伐沙班",
+        "canonical_name": "利伐沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "抗癫痫药物",
+        "canonical_name": "抗癫痫药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "丙戊酸钠",
+        "canonical_name": "丙戊酸钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "卡马西平",
+        "canonical_name": "卡马西平",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "苯巴比妥",
+        "canonical_name": "苯巴比妥",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "奥卡西平",
+        "canonical_name": "奥卡西平",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "左乙拉西坦",
+        "canonical_name": "左乙拉西坦",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "心房颤动",
+        "canonical_name": "心房颤动",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "卒中",
+        "canonical_name": "卒中",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "癫痫",
+        "canonical_name": "癫痫",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁.pdf",
+          "chunk_index": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "raw_text": "利伐沙班与抗癫痫药物相互作用的研究进展",
+          "chunk_id": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "data": "ZHANG Yuan1 , LU Yi2 , WAN Chen-guang3 , CHANG Bin-ge3 Abstract: Stroke caused by atrial fibrillation is a serious complication. Patients with cerebral infarction due to non-valvular atrial fibrillation have a higher risk of epilepsy than patients with other causes of stroke. Treatment may require rivaroxaban combined with antiepileptic drugs. Rivaroxaban, a novel oral anticoagulant, is an oral direct factor Xa inhibitor and a substrate of CYP3A4 and Pglycoprotein (P-gp). Some antiepileptic drugs induce CYP3A4 and/or P-gp, and when combination with rivaroxaban, they can reduce rivaroxaban plasma concentrations and increase the risk of thrombosis. This article reviews the interaction of rivaroxaban combination with sodium valproate, carbamazepine, phenobarbital, oxcarbazepine, levetiracetam, and other antiepileptic drugs. Based on relevant studies and case reports, this paper provides recommendations for clinical rational drug use.心房颤动（房颤）是临床最常见的快速性心律失常，房颤导致的卒中是其严重的并发症，有房颤患者的卒中发生率是无房颤患者"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁.pdf",
+          "chunk_index": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "raw_text": "利伐沙班联合丙戊酸钠等抗癫痫药物的相互作用",
+          "chunk_id": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "data": "ZHANG Yuan1 , LU Yi2 , WAN Chen-guang3 , CHANG Bin-ge3 Abstract: Stroke caused by atrial fibrillation is a serious complication. Patients with cerebral infarction due to non-valvular atrial fibrillation have a higher risk of epilepsy than patients with other causes of stroke. Treatment may require rivaroxaban combined with antiepileptic drugs. Rivaroxaban, a novel oral anticoagulant, is an oral direct factor Xa inhibitor and a substrate of CYP3A4 and Pglycoprotein (P-gp). Some antiepileptic drugs induce CYP3A4 and/or P-gp, and when combination with rivaroxaban, they can reduce rivaroxaban plasma concentrations and increase the risk of thrombosis. This article reviews the interaction of rivaroxaban combination with sodium valproate, carbamazepine, phenobarbital, oxcarbazepine, levetiracetam, and other antiepileptic drugs. Based on relevant studies and case reports, this paper provides recommendations for clinical rational drug use.心房颤动（房颤）是临床最常见的快速性心律失常，房颤导致的卒中是其严重的并发症，有房颤患者的卒中发生率是无房颤患者"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁.pdf",
+          "chunk_index": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "raw_text": "利伐沙班联合卡马西平等抗癫痫药物的相互作用",
+          "chunk_id": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "data": "ZHANG Yuan1 , LU Yi2 , WAN Chen-guang3 , CHANG Bin-ge3 Abstract: Stroke caused by atrial fibrillation is a serious complication. Patients with cerebral infarction due to non-valvular atrial fibrillation have a higher risk of epilepsy than patients with other causes of stroke. Treatment may require rivaroxaban combined with antiepileptic drugs. Rivaroxaban, a novel oral anticoagulant, is an oral direct factor Xa inhibitor and a substrate of CYP3A4 and Pglycoprotein (P-gp). Some antiepileptic drugs induce CYP3A4 and/or P-gp, and when combination with rivaroxaban, they can reduce rivaroxaban plasma concentrations and increase the risk of thrombosis. This article reviews the interaction of rivaroxaban combination with sodium valproate, carbamazepine, phenobarbital, oxcarbazepine, levetiracetam, and other antiepileptic drugs. Based on relevant studies and case reports, this paper provides recommendations for clinical rational drug use.心房颤动（房颤）是临床最常见的快速性心律失常，房颤导致的卒中是其严重的并发症，有房颤患者的卒中发生率是无房颤患者"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁.pdf",
+          "chunk_index": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "raw_text": "利伐沙班联合苯巴比妥等抗癫痫药物的相互作用",
+          "chunk_id": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "data": "ZHANG Yuan1 , LU Yi2 , WAN Chen-guang3 , CHANG Bin-ge3 Abstract: Stroke caused by atrial fibrillation is a serious complication. Patients with cerebral infarction due to non-valvular atrial fibrillation have a higher risk of epilepsy than patients with other causes of stroke. Treatment may require rivaroxaban combined with antiepileptic drugs. Rivaroxaban, a novel oral anticoagulant, is an oral direct factor Xa inhibitor and a substrate of CYP3A4 and Pglycoprotein (P-gp). Some antiepileptic drugs induce CYP3A4 and/or P-gp, and when combination with rivaroxaban, they can reduce rivaroxaban plasma concentrations and increase the risk of thrombosis. This article reviews the interaction of rivaroxaban combination with sodium valproate, carbamazepine, phenobarbital, oxcarbazepine, levetiracetam, and other antiepileptic drugs. Based on relevant studies and case reports, this paper provides recommendations for clinical rational drug use.心房颤动（房颤）是临床最常见的快速性心律失常，房颤导致的卒中是其严重的并发症，有房颤患者的卒中发生率是无房颤患者"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁.pdf",
+          "chunk_index": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "raw_text": "利伐沙班联合奥卡西平等抗癫痫药物的相互作用",
+          "chunk_id": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "data": "ZHANG Yuan1 , LU Yi2 , WAN Chen-guang3 , CHANG Bin-ge3 Abstract: Stroke caused by atrial fibrillation is a serious complication. Patients with cerebral infarction due to non-valvular atrial fibrillation have a higher risk of epilepsy than patients with other causes of stroke. Treatment may require rivaroxaban combined with antiepileptic drugs. Rivaroxaban, a novel oral anticoagulant, is an oral direct factor Xa inhibitor and a substrate of CYP3A4 and Pglycoprotein (P-gp). Some antiepileptic drugs induce CYP3A4 and/or P-gp, and when combination with rivaroxaban, they can reduce rivaroxaban plasma concentrations and increase the risk of thrombosis. This article reviews the interaction of rivaroxaban combination with sodium valproate, carbamazepine, phenobarbital, oxcarbazepine, levetiracetam, and other antiepileptic drugs. Based on relevant studies and case reports, this paper provides recommendations for clinical rational drug use.心房颤动（房颤）是临床最常见的快速性心律失常，房颤导致的卒中是其严重的并发症，有房颤患者的卒中发生率是无房颤患者"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁.pdf",
+          "chunk_index": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "raw_text": "利伐沙班联合左乙拉西坦等抗癫痫药物的相互作用",
+          "chunk_id": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "data": "ZHANG Yuan1 , LU Yi2 , WAN Chen-guang3 , CHANG Bin-ge3 Abstract: Stroke caused by atrial fibrillation is a serious complication. Patients with cerebral infarction due to non-valvular atrial fibrillation have a higher risk of epilepsy than patients with other causes of stroke. Treatment may require rivaroxaban combined with antiepileptic drugs. Rivaroxaban, a novel oral anticoagulant, is an oral direct factor Xa inhibitor and a substrate of CYP3A4 and Pglycoprotein (P-gp). Some antiepileptic drugs induce CYP3A4 and/or P-gp, and when combination with rivaroxaban, they can reduce rivaroxaban plasma concentrations and increase the risk of thrombosis. This article reviews the interaction of rivaroxaban combination with sodium valproate, carbamazepine, phenobarbital, oxcarbazepine, levetiracetam, and other antiepileptic drugs. Based on relevant studies and case reports, this paper provides recommendations for clinical rational drug use.心房颤动（房颤）是临床最常见的快速性心律失常，房颤导致的卒中是其严重的并发症，有房颤患者的卒中发生率是无房颤患者"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁.pdf",
+          "chunk_index": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "raw_text": "利伐沙班用于房颤导致的卒中",
+          "chunk_id": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "data": "ZHANG Yuan1 , LU Yi2 , WAN Chen-guang3 , CHANG Bin-ge3 Abstract: Stroke caused by atrial fibrillation is a serious complication. Patients with cerebral infarction due to non-valvular atrial fibrillation have a higher risk of epilepsy than patients with other causes of stroke. Treatment may require rivaroxaban combined with antiepileptic drugs. Rivaroxaban, a novel oral anticoagulant, is an oral direct factor Xa inhibitor and a substrate of CYP3A4 and Pglycoprotein (P-gp). Some antiepileptic drugs induce CYP3A4 and/or P-gp, and when combination with rivaroxaban, they can reduce rivaroxaban plasma concentrations and increase the risk of thrombosis. This article reviews the interaction of rivaroxaban combination with sodium valproate, carbamazepine, phenobarbital, oxcarbazepine, levetiracetam, and other antiepileptic drugs. Based on relevant studies and case reports, this paper provides recommendations for clinical rational drug use.心房颤动（房颤）是临床最常见的快速性心律失常，房颤导致的卒中是其严重的并发症，有房颤患者的卒中发生率是无房颤患者"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁.pdf",
+          "chunk_index": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "raw_text": "房颤导致的卒中",
+          "chunk_id": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "data": "ZHANG Yuan1 , LU Yi2 , WAN Chen-guang3 , CHANG Bin-ge3 Abstract: Stroke caused by atrial fibrillation is a serious complication. Patients with cerebral infarction due to non-valvular atrial fibrillation have a higher risk of epilepsy than patients with other causes of stroke. Treatment may require rivaroxaban combined with antiepileptic drugs. Rivaroxaban, a novel oral anticoagulant, is an oral direct factor Xa inhibitor and a substrate of CYP3A4 and Pglycoprotein (P-gp). Some antiepileptic drugs induce CYP3A4 and/or P-gp, and when combination with rivaroxaban, they can reduce rivaroxaban plasma concentrations and increase the risk of thrombosis. This article reviews the interaction of rivaroxaban combination with sodium valproate, carbamazepine, phenobarbital, oxcarbazepine, levetiracetam, and other antiepileptic drugs. Based on relevant studies and case reports, this paper provides recommendations for clinical rational drug use.心房颤动（房颤）是临床最常见的快速性心律失常，房颤导致的卒中是其严重的并发症，有房颤患者的卒中发生率是无房颤患者"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁.pdf",
+          "chunk_index": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "raw_text": "卒中后癫痫风险增加",
+          "chunk_id": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+          "data": "ZHANG Yuan1 , LU Yi2 , WAN Chen-guang3 , CHANG Bin-ge3 Abstract: Stroke caused by atrial fibrillation is a serious complication. Patients with cerebral infarction due to non-valvular atrial fibrillation have a higher risk of epilepsy than patients with other causes of stroke. Treatment may require rivaroxaban combined with antiepileptic drugs. Rivaroxaban, a novel oral anticoagulant, is an oral direct factor Xa inhibitor and a substrate of CYP3A4 and Pglycoprotein (P-gp). Some antiepileptic drugs induce CYP3A4 and/or P-gp, and when combination with rivaroxaban, they can reduce rivaroxaban plasma concentrations and increase the risk of thrombosis. This article reviews the interaction of rivaroxaban combination with sodium valproate, carbamazepine, phenobarbital, oxcarbazepine, levetiracetam, and other antiepileptic drugs. Based on relevant studies and case reports, this paper provides recommendations for clinical rational drug use.心房颤动（房颤）是临床最常见的快速性心律失常，房颤导致的卒中是其严重的并发症，有房颤患者的卒中发生率是无房颤患者"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁:1",
+    "source": "利伐沙班与抗癫痫药物相互作用的研究进展_章袁.pdf",
+    "text": "ZHANG Yuan1 , LU Yi2 , WAN Chen-guang3 , CHANG Bin-ge3 Abstract: Stroke caused by atrial fibrillation is a serious complication. Patients with cerebral infarction due to non-valvular atrial fibrillation have a higher risk of epilepsy than patients with other causes of stroke. Treatment may require rivaroxaban combined with antiepileptic drugs. Rivaroxaban, a novel oral anticoagulant, is an oral direct factor Xa inhibitor and a substrate of CYP3A4 and Pglycoprotein (P-gp). Some antiepileptic drugs induce CYP3A4 and/or P-gp, and when combination with rivaroxaban, they can reduce rivaroxaban plasma concentrations and increase the risk of thrombosis. This article reviews the interaction of rivaroxaban combination with sodium valproate, carbamazepine, phenobarbital, oxcarbazepine, levetiracetam, and other antiepileptic drugs. Based on relevant studies and case reports, this paper provides recommendations for clinical rational drug use.心房颤动（房颤）是临床最常见的快速性心律失常，房颤导致的卒中是其严重的并发症，有房颤患者的卒中发生率是无房颤患者的 4～5 倍[1]。"
+  }
+]

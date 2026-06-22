@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "三唑类抗真菌药物",
+        "canonical_name": "三唑类抗真菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "药物不良反应",
+        "canonical_name": "药物不良反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "canonical_name": "血药浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "伏立康唑药物相互作用致药物不良反应文献分析_周炜.pdf",
+          "chunk_index": "伏立康唑药物相互作用致药物不良反应文献分析_周炜:11",
+          "raw_text": "伏立康唑属于广谱的第二代三唑类抗真菌药物",
+          "chunk_id": "伏立康唑药物相互作用致药物不良反应文献分析_周炜:11",
+          "data": "ture. Results A total of 64 articles and 68 patients were collected，including 45 males （66. 2%） and 23 females （33. 8%）；17 cases （25. 0%） were aged 40\\~60，and 24 cases （35. 3%） were aged 60\\~80. The types of tumor drugs were the most diverse， with a total of 16 cases （23. 5%）. There were 59 cases （86. 8%） of elevated blood drug concentration. The organs and systems involved were mainly the gastrointestinal system （14 cases，20. 6%），followed by the nervous system （12 cases，17. 7%）. Conclusion Voriconazole can interact with multiple drugs，leading to adverse drug reactions.\n0　引言\n伏立康唑属于广谱的第二代三唑类抗真菌药物［1］，对曲霉菌、念珠菌、足放线病菌和新型隐球菌等均具有较好的临床抗菌活性，并且可以作为侵袭性曲霉病的首选药物［2］，也适用于治疗氟康唑耐药的念珠菌引起的严重侵袭性感染［3］，在临床中广泛应用。然而，伏立康唑会导致严重的药物不良反应（Adverse drug reaction，ADR），这可能与药物浓度有关［4］ 。伏立康唑的血药浓度个体差异大，药代动力学具有非线性的特点，其主要经CYP2C19、CYP2C9和 CYP3A4代谢［5］ 。由于代谢的特点，伏立康唑与很多药物存在药物相互作用（Drug-drug interaction，DDI）。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "伏立康唑药物相互作用致药物不良反应文献分析_周炜.pdf",
+          "chunk_index": "伏立康唑药物相互作用致药物不良反应文献分析_周炜:11",
+          "raw_text": "伏立康唑会导致严重的药物不良反应",
+          "chunk_id": "伏立康唑药物相互作用致药物不良反应文献分析_周炜:11",
+          "data": "ture. Results A total of 64 articles and 68 patients were collected，including 45 males （66. 2%） and 23 females （33. 8%）；17 cases （25. 0%） were aged 40\\~60，and 24 cases （35. 3%） were aged 60\\~80. The types of tumor drugs were the most diverse， with a total of 16 cases （23. 5%）. There were 59 cases （86. 8%） of elevated blood drug concentration. The organs and systems involved were mainly the gastrointestinal system （14 cases，20. 6%），followed by the nervous system （12 cases，17. 7%）. Conclusion Voriconazole can interact with multiple drugs，leading to adverse drug reactions.\n0　引言\n伏立康唑属于广谱的第二代三唑类抗真菌药物［1］，对曲霉菌、念珠菌、足放线病菌和新型隐球菌等均具有较好的临床抗菌活性，并且可以作为侵袭性曲霉病的首选药物［2］，也适用于治疗氟康唑耐药的念珠菌引起的严重侵袭性感染［3］，在临床中广泛应用。然而，伏立康唑会导致严重的药物不良反应（Adverse drug reaction，ADR），这可能与药物浓度有关［4］ 。伏立康唑的血药浓度个体差异大，药代动力学具有非线性的特点，其主要经CYP2C19、CYP2C9和 CYP3A4代谢［5］ 。由于代谢的特点，伏立康唑与很多药物存在药物相互作用（Drug-drug interaction，DDI）。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "伏立康唑药物相互作用致药物不良反应文献分析_周炜.pdf",
+          "chunk_index": "伏立康唑药物相互作用致药物不良反应文献分析_周炜:11",
+          "raw_text": "伏立康唑的血药浓度个体差异大",
+          "chunk_id": "伏立康唑药物相互作用致药物不良反应文献分析_周炜:11",
+          "data": "ture. Results A total of 64 articles and 68 patients were collected，including 45 males （66. 2%） and 23 females （33. 8%）；17 cases （25. 0%） were aged 40\\~60，and 24 cases （35. 3%） were aged 60\\~80. The types of tumor drugs were the most diverse， with a total of 16 cases （23. 5%）. There were 59 cases （86. 8%） of elevated blood drug concentration. The organs and systems involved were mainly the gastrointestinal system （14 cases，20. 6%），followed by the nervous system （12 cases，17. 7%）. Conclusion Voriconazole can interact with multiple drugs，leading to adverse drug reactions.\n0　引言\n伏立康唑属于广谱的第二代三唑类抗真菌药物［1］，对曲霉菌、念珠菌、足放线病菌和新型隐球菌等均具有较好的临床抗菌活性，并且可以作为侵袭性曲霉病的首选药物［2］，也适用于治疗氟康唑耐药的念珠菌引起的严重侵袭性感染［3］，在临床中广泛应用。然而，伏立康唑会导致严重的药物不良反应（Adverse drug reaction，ADR），这可能与药物浓度有关［4］ 。伏立康唑的血药浓度个体差异大，药代动力学具有非线性的特点，其主要经CYP2C19、CYP2C9和 CYP3A4代谢［5］ 。由于代谢的特点，伏立康唑与很多药物存在药物相互作用（Drug-drug interaction，DDI）。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "伏立康唑药物相互作用致药物不良反应文献分析_周炜:11",
+    "source": "伏立康唑药物相互作用致药物不良反应文献分析_周炜.pdf",
+    "text": "ture. Results A total of 64 articles and 68 patients were collected，including 45 males （66. 2%） and 23 females （33. 8%）；17 cases （25. 0%） were aged 40\\~60，and 24 cases （35. 3%） were aged 60\\~80. The types of tumor drugs were the most diverse， with a total of 16 cases （23. 5%）. There were 59 cases （86. 8%） of elevated blood drug concentration. The organs and systems involved were mainly the gastrointestinal system （14 cases，20. 6%），followed by the nervous system （12 cases，17. 7%）. Conclusion Voriconazole can interact with multiple drugs，leading to adverse drug reactions.\n0　引言\n伏立康唑属于广谱的第二代三唑类抗真菌药物［1］，对曲霉菌、念珠菌、足放线病菌和新型隐球菌等均具有较好的临床抗菌活性，并且可以作为侵袭性曲霉病的首选药物［2］，也适用于治疗氟康唑耐药的念珠菌引起的严重侵袭性感染［3］，在临床中广泛应用。然而，伏立康唑会导致严重的药物不良反应（Adverse drug reaction，ADR），这可能与药物浓度有关［4］ 。伏立康唑的血药浓度个体差异大，药代动力学具有非线性的特点，其主要经CYP2C19、CYP2C9和 CYP3A4代谢［5］ 。由于代谢的特点，伏立康唑与很多药物存在药物相互作用（Drug-drug interaction，DDI）。"
+  }
+]

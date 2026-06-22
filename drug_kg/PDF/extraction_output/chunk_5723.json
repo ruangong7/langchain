@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "amifostine",
+        "canonical_name": "amifostine",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "SideEffect",
+        "name": "hypocalcemia",
+        "canonical_name": "hypocalcemia",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Symptom",
+        "name": "convulsions",
+        "canonical_name": "convulsions",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "calcium gluconate",
+        "canonical_name": "calcium gluconate",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Population",
+        "name": "children with leukemia",
+        "canonical_name": "children with leukemia",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物相互作用致华法林药效增强的病例分析_方志远.pdf",
+          "chunk_index": "药物相互作用致华法林药效增强的病例分析_方志远:11",
+          "raw_text": "Hypocalcemia convulsions induced by amifostine chemotherapy in children with leukemia",
+          "chunk_id": "药物相互作用致华法林药效增强的病例分析_方志远:11",
+          "data": "Hypocalcemia convulsions induced by amifostine chemotherapy in children with leukemia ZHANG Lin-lin，ZHANG Bin，JIANG Ze-hui，HU Chuan，HAO Liang-chun，XU Gang \\* ( Department of Hematology，Shengjing Hospital of China Medical University，Shenyang 110004，China)［Abstract］ Objective To explore the incidence of hypocalcemia induced by amifostine in children with leukemia during chemotherapy and propose prevention methods for convulsions． Methods Totally 218 pediatric patients diagnosed with leukemia were classified into several groups according to the administration time of amifostine． The incidences among different groups were compared． Results The ratio of hypocalcemia induced by amifostine was 21. 10% ． The symptom of hypocalcemia was relieved after 10% calcium gluconate treatment，and the blood calcium recovered to normal level． A higher incidence of hypocalcemia was observed in group of amifostine administration for more than 5 d continuously． Conclusion Pediatric patients with amifostine ad"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "药物相互作用致华法林药效增强的病例分析_方志远.pdf",
+          "chunk_index": "药物相互作用致华法林药效增强的病例分析_方志远:11",
+          "raw_text": "Hypocalcemia convulsions induced by amifostine chemotherapy in children with leukemia",
+          "chunk_id": "药物相互作用致华法林药效增强的病例分析_方志远:11",
+          "data": "Hypocalcemia convulsions induced by amifostine chemotherapy in children with leukemia ZHANG Lin-lin，ZHANG Bin，JIANG Ze-hui，HU Chuan，HAO Liang-chun，XU Gang \\* ( Department of Hematology，Shengjing Hospital of China Medical University，Shenyang 110004，China)［Abstract］ Objective To explore the incidence of hypocalcemia induced by amifostine in children with leukemia during chemotherapy and propose prevention methods for convulsions． Methods Totally 218 pediatric patients diagnosed with leukemia were classified into several groups according to the administration time of amifostine． The incidences among different groups were compared． Results The ratio of hypocalcemia induced by amifostine was 21. 10% ． The symptom of hypocalcemia was relieved after 10% calcium gluconate treatment，and the blood calcium recovered to normal level． A higher incidence of hypocalcemia was observed in group of amifostine administration for more than 5 d continuously． Conclusion Pediatric patients with amifostine ad"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物相互作用致华法林药效增强的病例分析_方志远.pdf",
+          "chunk_index": "药物相互作用致华法林药效增强的病例分析_方志远:11",
+          "raw_text": "The symptom of hypocalcemia was relieved after 10% calcium gluconate treatment",
+          "chunk_id": "药物相互作用致华法林药效增强的病例分析_方志远:11",
+          "data": "Hypocalcemia convulsions induced by amifostine chemotherapy in children with leukemia ZHANG Lin-lin，ZHANG Bin，JIANG Ze-hui，HU Chuan，HAO Liang-chun，XU Gang \\* ( Department of Hematology，Shengjing Hospital of China Medical University，Shenyang 110004，China)［Abstract］ Objective To explore the incidence of hypocalcemia induced by amifostine in children with leukemia during chemotherapy and propose prevention methods for convulsions． Methods Totally 218 pediatric patients diagnosed with leukemia were classified into several groups according to the administration time of amifostine． The incidences among different groups were compared． Results The ratio of hypocalcemia induced by amifostine was 21. 10% ． The symptom of hypocalcemia was relieved after 10% calcium gluconate treatment，and the blood calcium recovered to normal level． A higher incidence of hypocalcemia was observed in group of amifostine administration for more than 5 d continuously． Conclusion Pediatric patients with amifostine ad"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "药物相互作用致华法林药效增强的病例分析_方志远.pdf",
+          "chunk_index": "药物相互作用致华法林药效增强的病例分析_方志远:11",
+          "raw_text": "Pediatric patients with amifostine administration are liable to hypocalcemia convulsions",
+          "chunk_id": "药物相互作用致华法林药效增强的病例分析_方志远:11",
+          "data": "Hypocalcemia convulsions induced by amifostine chemotherapy in children with leukemia ZHANG Lin-lin，ZHANG Bin，JIANG Ze-hui，HU Chuan，HAO Liang-chun，XU Gang \\* ( Department of Hematology，Shengjing Hospital of China Medical University，Shenyang 110004，China)［Abstract］ Objective To explore the incidence of hypocalcemia induced by amifostine in children with leukemia during chemotherapy and propose prevention methods for convulsions． Methods Totally 218 pediatric patients diagnosed with leukemia were classified into several groups according to the administration time of amifostine． The incidences among different groups were compared． Results The ratio of hypocalcemia induced by amifostine was 21. 10% ． The symptom of hypocalcemia was relieved after 10% calcium gluconate treatment，and the blood calcium recovered to normal level． A higher incidence of hypocalcemia was observed in group of amifostine administration for more than 5 d continuously． Conclusion Pediatric patients with amifostine ad"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物相互作用致华法林药效增强的病例分析_方志远:11",
+    "source": "药物相互作用致华法林药效增强的病例分析_方志远.pdf",
+    "text": "Hypocalcemia convulsions induced by amifostine chemotherapy in children with leukemia ZHANG Lin-lin，ZHANG Bin，JIANG Ze-hui，HU Chuan，HAO Liang-chun，XU Gang \\* ( Department of Hematology，Shengjing Hospital of China Medical University，Shenyang 110004，China)［Abstract］ Objective To explore the incidence of hypocalcemia induced by amifostine in children with leukemia during chemotherapy and propose prevention methods for convulsions． Methods Totally 218 pediatric patients diagnosed with leukemia were classified into several groups according to the administration time of amifostine． The incidences among different groups were compared． Results The ratio of hypocalcemia induced by amifostine was 21. 10% ． The symptom of hypocalcemia was relieved after 10% calcium gluconate treatment，and the blood calcium recovered to normal level． A higher incidence of hypocalcemia was observed in group of amifostine administration for more than 5 d continuously． Conclusion Pediatric patients with amifostine administration are liable to hypocalcemia convulsions，and calcium gluconate administration is an effective means for convulsions．"
+  }
+]

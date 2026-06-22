@@ -1,0 +1,72 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "warfarin",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "paroxetine",
+        "canonical_name": "帕罗西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "bleeding",
+        "canonical_name": "出血",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "由止血困难一例谈抗抑郁药物相互作用_闵涛.pdf",
+          "chunk_index": "由止血困难一例谈抗抑郁药物相互作用_闵涛:1",
+          "raw_text": "This paper introduces a case of rheumatic heart disease who took warfarin for a long time after mitral valve replacement and was difficult to stop bleeding due to the diagnosis of generalized anxiety disorder combined with paroxetine. Furthermore, this paper analyzes the mechanism of adverse events caused by the combination of warfarin and paroxetine, discusses the mechanism of the drug-drug interaction, and enlightens clinicians that they should pay attention to rational drug use and avoid unreasonable combination of drugs in clinical work in order to reduce the occurrence of adverse reactions caused by the drug-drug interaction.",
+          "chunk_id": "由止血困难一例谈抗抑郁药物相互作用_闵涛:1",
+          "data": "MIN Tao1 , XV Jing2 , ZHAI Jinguo1[Abstract] This paper introduces a case of rheumatic heart disease who took warfarin for a long time after mitral valve replacement and was difficult to stop bleeding due to the diagnosis of generalized anxiety disorder combined with paroxetine. Furthermore, this paper analyzes the mechanism of adverse events caused by the combination of warfarin and paroxetine, discusses the mechanism of the drug-drug interaction, and enlightens clinicians that they should pay attention to rational drug use and avoid unreasonable combination of drugs in clinical work in order to reduce the occurrence of adverse reactions caused by the drug-drug interaction."
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "由止血困难一例谈抗抑郁药物相互作用_闵涛.pdf",
+          "chunk_index": "由止血困难一例谈抗抑郁药物相互作用_闵涛:1",
+          "raw_text": "This paper introduces a case of rheumatic heart disease who took warfarin for a long time after mitral valve replacement and was difficult to stop bleeding due to the diagnosis of generalized anxiety disorder combined with paroxetine. Furthermore, this paper analyzes the mechanism of adverse events caused by the combination of warfarin and paroxetine, discusses the mechanism of the drug-drug interaction, and enlightens clinicians that they should pay attention to rational drug use and avoid unreasonable combination of drugs in clinical work in order to reduce the occurrence of adverse reactions caused by the drug-drug interaction.",
+          "chunk_id": "由止血困难一例谈抗抑郁药物相互作用_闵涛:1",
+          "data": "MIN Tao1 , XV Jing2 , ZHAI Jinguo1[Abstract] This paper introduces a case of rheumatic heart disease who took warfarin for a long time after mitral valve replacement and was difficult to stop bleeding due to the diagnosis of generalized anxiety disorder combined with paroxetine. Furthermore, this paper analyzes the mechanism of adverse events caused by the combination of warfarin and paroxetine, discusses the mechanism of the drug-drug interaction, and enlightens clinicians that they should pay attention to rational drug use and avoid unreasonable combination of drugs in clinical work in order to reduce the occurrence of adverse reactions caused by the drug-drug interaction."
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "由止血困难一例谈抗抑郁药物相互作用_闵涛.pdf",
+          "chunk_index": "由止血困难一例谈抗抑郁药物相互作用_闵涛:1",
+          "raw_text": "This paper introduces a case of rheumatic heart disease who took warfarin for a long time after mitral valve replacement and was difficult to stop bleeding due to the diagnosis of generalized anxiety disorder combined with paroxetine. Furthermore, this paper analyzes the mechanism of adverse events caused by the combination of warfarin and paroxetine, discusses the mechanism of the drug-drug interaction, and enlightens clinicians that they should pay attention to rational drug use and avoid unreasonable combination of drugs in clinical work in order to reduce the occurrence of adverse reactions caused by the drug-drug interaction.",
+          "chunk_id": "由止血困难一例谈抗抑郁药物相互作用_闵涛:1",
+          "data": "MIN Tao1 , XV Jing2 , ZHAI Jinguo1[Abstract] This paper introduces a case of rheumatic heart disease who took warfarin for a long time after mitral valve replacement and was difficult to stop bleeding due to the diagnosis of generalized anxiety disorder combined with paroxetine. Furthermore, this paper analyzes the mechanism of adverse events caused by the combination of warfarin and paroxetine, discusses the mechanism of the drug-drug interaction, and enlightens clinicians that they should pay attention to rational drug use and avoid unreasonable combination of drugs in clinical work in order to reduce the occurrence of adverse reactions caused by the drug-drug interaction."
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "由止血困难一例谈抗抑郁药物相互作用_闵涛:1",
+    "source": "由止血困难一例谈抗抑郁药物相互作用_闵涛.pdf",
+    "text": "MIN Tao1 , XV Jing2 , ZHAI Jinguo1[Abstract] This paper introduces a case of rheumatic heart disease who took warfarin for a long time after mitral valve replacement and was difficult to stop bleeding due to the diagnosis of generalized anxiety disorder combined with paroxetine. Furthermore, this paper analyzes the mechanism of adverse events caused by the combination of warfarin and paroxetine, discusses the mechanism of the drug-drug interaction, and enlightens clinicians that they should pay attention to rational drug use and avoid unreasonable combination of drugs in clinical work in order to reduce the occurrence of adverse reactions caused by the drug-drug interaction."
+  }
+]

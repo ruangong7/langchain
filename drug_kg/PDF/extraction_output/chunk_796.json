@@ -1,0 +1,112 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "氯吡格雷",
+        "canonical_name": "氯吡格雷",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "瑞格列奈",
+        "canonical_name": "瑞格列奈",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "低血糖",
+        "canonical_name": "低血糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "冠状动脉粥样硬化性心脏病",
+        "canonical_name": "冠状动脉粥样硬化性心脏病",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "2型糖尿病",
+        "canonical_name": "2型糖尿病",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "临床药师参与1例药物相互作用致低血糖实践_刘芝.pdf",
+          "chunk_index": "临床药师参与1例药物相互作用致低血糖实践_刘芝:1",
+          "raw_text": "通过评估整个治疗方案，分析患者突发低血糖的原因是由氯吡格雷片与瑞格列奈片相互作用所致",
+          "chunk_id": "临床药师参与1例药物相互作用致低血糖实践_刘芝:1",
+          "data": "2． Department of Pharmacy，Chinese People' s Liberation Army Western Theater General Hospital，Chengdu，Sichuan，China 610036)Abstract: Objective To investigate the role of clinical pharmacists in interfering with potential drug interactions． Methods Clinical pharmacist participated in the treatment of acute hypoglycemia in 1 patient with coronary atherosclerotic heart disease and type 2 diabetes mellitus． Through the evaluation of the whole treatment program，the author analyzed that the reason of the sudden hypoglycemia in patients was caused by the interaction between clopidogrel bisulfate tablet and regrainide tablet，and proposed the next treatment measures based on the comprehensive consideration of the patients' basic diseases． Results The physician followed the advice of the clinical pharmacist and hypoglycemia did not recur after the adjustment of medication regimen． Conclusion Combination drug use is common in clinical drug treatment． Clinical pharmacists should be familiar with th"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "临床药师参与1例药物相互作用致低血糖实践_刘芝.pdf",
+          "chunk_index": "临床药师参与1例药物相互作用致低血糖实践_刘芝:1",
+          "raw_text": "分析患者突发低血糖的原因是由氯吡格雷片与瑞格列奈片相互作用所致",
+          "chunk_id": "临床药师参与1例药物相互作用致低血糖实践_刘芝:1",
+          "data": "2． Department of Pharmacy，Chinese People' s Liberation Army Western Theater General Hospital，Chengdu，Sichuan，China 610036)Abstract: Objective To investigate the role of clinical pharmacists in interfering with potential drug interactions． Methods Clinical pharmacist participated in the treatment of acute hypoglycemia in 1 patient with coronary atherosclerotic heart disease and type 2 diabetes mellitus． Through the evaluation of the whole treatment program，the author analyzed that the reason of the sudden hypoglycemia in patients was caused by the interaction between clopidogrel bisulfate tablet and regrainide tablet，and proposed the next treatment measures based on the comprehensive consideration of the patients' basic diseases． Results The physician followed the advice of the clinical pharmacist and hypoglycemia did not recur after the adjustment of medication regimen． Conclusion Combination drug use is common in clinical drug treatment． Clinical pharmacists should be familiar with th"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "临床药师参与1例药物相互作用致低血糖实践_刘芝.pdf",
+          "chunk_index": "临床药师参与1例药物相互作用致低血糖实践_刘芝:1",
+          "raw_text": "分析患者突发低血糖的原因是由氯吡格雷片与瑞格列奈片相互作用所致",
+          "chunk_id": "临床药师参与1例药物相互作用致低血糖实践_刘芝:1",
+          "data": "2． Department of Pharmacy，Chinese People' s Liberation Army Western Theater General Hospital，Chengdu，Sichuan，China 610036)Abstract: Objective To investigate the role of clinical pharmacists in interfering with potential drug interactions． Methods Clinical pharmacist participated in the treatment of acute hypoglycemia in 1 patient with coronary atherosclerotic heart disease and type 2 diabetes mellitus． Through the evaluation of the whole treatment program，the author analyzed that the reason of the sudden hypoglycemia in patients was caused by the interaction between clopidogrel bisulfate tablet and regrainide tablet，and proposed the next treatment measures based on the comprehensive consideration of the patients' basic diseases． Results The physician followed the advice of the clinical pharmacist and hypoglycemia did not recur after the adjustment of medication regimen． Conclusion Combination drug use is common in clinical drug treatment． Clinical pharmacists should be familiar with th"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "临床药师参与1例药物相互作用致低血糖实践_刘芝.pdf",
+          "chunk_index": "临床药师参与1例药物相互作用致低血糖实践_刘芝:1",
+          "raw_text": "用于2型糖尿病患者，特别是合并动脉粥样硬化性心血管疾病(ASCVD)患者",
+          "chunk_id": "临床药师参与1例药物相互作用致低血糖实践_刘芝:1",
+          "data": "2． Department of Pharmacy，Chinese People' s Liberation Army Western Theater General Hospital，Chengdu，Sichuan，China 610036)Abstract: Objective To investigate the role of clinical pharmacists in interfering with potential drug interactions． Methods Clinical pharmacist participated in the treatment of acute hypoglycemia in 1 patient with coronary atherosclerotic heart disease and type 2 diabetes mellitus． Through the evaluation of the whole treatment program，the author analyzed that the reason of the sudden hypoglycemia in patients was caused by the interaction between clopidogrel bisulfate tablet and regrainide tablet，and proposed the next treatment measures based on the comprehensive consideration of the patients' basic diseases． Results The physician followed the advice of the clinical pharmacist and hypoglycemia did not recur after the adjustment of medication regimen． Conclusion Combination drug use is common in clinical drug treatment． Clinical pharmacists should be familiar with th"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "临床药师参与1例药物相互作用致低血糖实践_刘芝.pdf",
+          "chunk_index": "临床药师参与1例药物相互作用致低血糖实践_刘芝:1",
+          "raw_text": "用于2型糖尿病患者",
+          "chunk_id": "临床药师参与1例药物相互作用致低血糖实践_刘芝:1",
+          "data": "2． Department of Pharmacy，Chinese People' s Liberation Army Western Theater General Hospital，Chengdu，Sichuan，China 610036)Abstract: Objective To investigate the role of clinical pharmacists in interfering with potential drug interactions． Methods Clinical pharmacist participated in the treatment of acute hypoglycemia in 1 patient with coronary atherosclerotic heart disease and type 2 diabetes mellitus． Through the evaluation of the whole treatment program，the author analyzed that the reason of the sudden hypoglycemia in patients was caused by the interaction between clopidogrel bisulfate tablet and regrainide tablet，and proposed the next treatment measures based on the comprehensive consideration of the patients' basic diseases． Results The physician followed the advice of the clinical pharmacist and hypoglycemia did not recur after the adjustment of medication regimen． Conclusion Combination drug use is common in clinical drug treatment． Clinical pharmacists should be familiar with th"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "临床药师参与1例药物相互作用致低血糖实践_刘芝:1",
+    "source": "临床药师参与1例药物相互作用致低血糖实践_刘芝.pdf",
+    "text": "2． Department of Pharmacy，Chinese People' s Liberation Army Western Theater General Hospital，Chengdu，Sichuan，China 610036)Abstract: Objective To investigate the role of clinical pharmacists in interfering with potential drug interactions． Methods Clinical pharmacist participated in the treatment of acute hypoglycemia in 1 patient with coronary atherosclerotic heart disease and type 2 diabetes mellitus． Through the evaluation of the whole treatment program，the author analyzed that the reason of the sudden hypoglycemia in patients was caused by the interaction between clopidogrel bisulfate tablet and regrainide tablet，and proposed the next treatment measures based on the comprehensive consideration of the patients' basic diseases． Results The physician followed the advice of the clinical pharmacist and hypoglycemia did not recur after the adjustment of medication regimen． Conclusion Combination drug use is common in clinical drug treatment． Clinical pharmacists should be familiar with the possible drug interactions between drugs，so as to reduce or avoid the occurrence of adverse reactions and ensure the safety and efficacy of drug use．糖尿病综合管理包括生活方式干预、减重及降压、调脂、抗血小板治疗等，用于 2 型糖尿病患者，特别是合并动脉粥样硬化性心血管疾病(ASCVD)患者，可在控制血糖的同时，全面管理好各种心血管危险因素，最大限度地降低心血管事件和死亡风险，但势必导致患者同时服用多种药物，可能存在药物间的相互作用，从而增加药品不良反应发生的风险。"
+  }
+]

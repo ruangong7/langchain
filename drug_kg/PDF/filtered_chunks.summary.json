@@ -1,0 +1,12 @@
+{
+  "input_files": 6097,
+  "kept_files": 3632,
+  "total_records": 6097,
+  "kept_records": 3632,
+  "keep_ratio": 0.5957028046580285,
+  "use_llm": true,
+  "max_workers": 8,
+  "output_dir": "drug_kg\\PDF\\filtered_chunks",
+  "decisions_file": "drug_kg\\PDF\\filtered_chunks.decisions.jsonl",
+  "failed_file": "drug_kg\\PDF\\filtered_chunks.decisions.failed.jsonl"
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "canonical_name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "canonical_name": "质子泵抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "消化性溃疡",
+        "canonical_name": "消化性溃疡",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "奥美拉唑药物相互作用案例分析_刘雄.pdf",
+          "chunk_index": "奥美拉唑药物相互作用案例分析_刘雄:4",
+          "raw_text": "奥美拉唑为质子泵抑制剂",
+          "chunk_id": "奥美拉唑药物相互作用案例分析_刘雄:4",
+          "data": ", reduce efficacy, occur side effects and influence the therapeutic effects.奥美拉唑为质子泵抑制剂可以有效地抑制胃酸分泌是临床上治疗消化性溃疡的首选药物[1-2]。但是许多患者多种病变情况并存需要同时服用多种药物奥美拉唑与其他药物同时服用时与部分药物是有相互作用的多表现为抑制作用或强化作用而且容易出现许多不良反应严重影响药物的效果与患者的治疗[3] 本研究就本院消化内科采用奥美拉唑治疗消化性溃疡的同时服用其他药物出现相互作用案例进行分析总结并提出防范措施。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "奥美拉唑药物相互作用案例分析_刘雄.pdf",
+          "chunk_index": "奥美拉唑药物相互作用案例分析_刘雄:4",
+          "raw_text": "是临床上治疗消化性溃疡的首选药物",
+          "chunk_id": "奥美拉唑药物相互作用案例分析_刘雄:4",
+          "data": ", reduce efficacy, occur side effects and influence the therapeutic effects.奥美拉唑为质子泵抑制剂可以有效地抑制胃酸分泌是临床上治疗消化性溃疡的首选药物[1-2]。但是许多患者多种病变情况并存需要同时服用多种药物奥美拉唑与其他药物同时服用时与部分药物是有相互作用的多表现为抑制作用或强化作用而且容易出现许多不良反应严重影响药物的效果与患者的治疗[3] 本研究就本院消化内科采用奥美拉唑治疗消化性溃疡的同时服用其他药物出现相互作用案例进行分析总结并提出防范措施。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "奥美拉唑药物相互作用案例分析_刘雄:4",
+    "source": "奥美拉唑药物相互作用案例分析_刘雄.pdf",
+    "text": ", reduce efficacy, occur side effects and influence the therapeutic effects.奥美拉唑为质子泵抑制剂可以有效地抑制胃酸分泌是临床上治疗消化性溃疡的首选药物[1-2]。但是许多患者多种病变情况并存需要同时服用多种药物奥美拉唑与其他药物同时服用时与部分药物是有相互作用的多表现为抑制作用或强化作用而且容易出现许多不良反应严重影响药物的效果与患者的治疗[3] 本研究就本院消化内科采用奥美拉唑治疗消化性溃疡的同时服用其他药物出现相互作用案例进行分析总结并提出防范措施。"
+  }
+]

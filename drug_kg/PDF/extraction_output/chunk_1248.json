@@ -1,0 +1,211 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "万古霉素",
+        "canonical_name": "万古霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "急性肾损伤",
+        "canonical_name": "急性肾损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "Cr",
+        "canonical_name": "肌酐",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "eGFR",
+        "canonical_name": "估算肾小球滤过率",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "Urea",
+        "canonical_name": "尿素",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "万古霉素谷浓度",
+        "canonical_name": "万古霉素谷浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "伏立康唑谷浓度",
+        "canonical_name": "伏立康唑谷浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "raw_text": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "data": "{ \\bullet } { \\mathrm { m L } } ^ { - 1 } )$ ，将万古霉素减量为 $0 . 5 \\textrm { g } i v g t t \\textrm { q } 1 2 \\mathrm { h }$ 。入院第 12 天，$\\mathrm { C r ~ 6 8 . 3 ~ \\mu \\mathrm { m o l } \\bullet L ^ { - 1 } , \\epsilon G F R ~ 7 0 . 8 ~ \\mu L \\bullet \\operatorname* { m i n } ^ { - 1 } }$ ，Urea$8 . 6 2 \\ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ ，万古霉素谷浓度为 $4 0 . 9 ~ \\mu \\mathrm { g } \\bullet \\mathrm { m L } ^ { - 1 }$ ，伏立康唑谷浓度为 3．8 $\\mathrm { m g } \\bullet \\mathrm { L } ^ { - 1 } \\big ( \\ 1 . 0 \\sim 5 . 0 \\big )$ 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "raw_text": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "data": "{ \\bullet } { \\mathrm { m L } } ^ { - 1 } )$ ，将万古霉素减量为 $0 . 5 \\textrm { g } i v g t t \\textrm { q } 1 2 \\mathrm { h }$ 。入院第 12 天，$\\mathrm { C r ~ 6 8 . 3 ~ \\mu \\mathrm { m o l } \\bullet L ^ { - 1 } , \\epsilon G F R ~ 7 0 . 8 ~ \\mu L \\bullet \\operatorname* { m i n } ^ { - 1 } }$ ，Urea$8 . 6 2 \\ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ ，万古霉素谷浓度为 $4 0 . 9 ~ \\mu \\mathrm { g } \\bullet \\mathrm { m L } ^ { - 1 }$ ，伏立康唑谷浓度为 3．8 $\\mathrm { m g } \\bullet \\mathrm { L } ^ { - 1 } \\big ( \\ 1 . 0 \\sim 5 . 0 \\big )$ 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "raw_text": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "data": "{ \\bullet } { \\mathrm { m L } } ^ { - 1 } )$ ，将万古霉素减量为 $0 . 5 \\textrm { g } i v g t t \\textrm { q } 1 2 \\mathrm { h }$ 。入院第 12 天，$\\mathrm { C r ~ 6 8 . 3 ~ \\mu \\mathrm { m o l } \\bullet L ^ { - 1 } , \\epsilon G F R ~ 7 0 . 8 ~ \\mu L \\bullet \\operatorname* { m i n } ^ { - 1 } }$ ，Urea$8 . 6 2 \\ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ ，万古霉素谷浓度为 $4 0 . 9 ~ \\mu \\mathrm { g } \\bullet \\mathrm { m L } ^ { - 1 }$ ，伏立康唑谷浓度为 3．8 $\\mathrm { m g } \\bullet \\mathrm { L } ^ { - 1 } \\big ( \\ 1 . 0 \\sim 5 . 0 \\big )$ 。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "raw_text": "伏立康唑谷浓度为3.8 mg·L^-1 (1.0~5.0)",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "data": "{ \\bullet } { \\mathrm { m L } } ^ { - 1 } )$ ，将万古霉素减量为 $0 . 5 \\textrm { g } i v g t t \\textrm { q } 1 2 \\mathrm { h }$ 。入院第 12 天，$\\mathrm { C r ~ 6 8 . 3 ~ \\mu \\mathrm { m o l } \\bullet L ^ { - 1 } , \\epsilon G F R ~ 7 0 . 8 ~ \\mu L \\bullet \\operatorname* { m i n } ^ { - 1 } }$ ，Urea$8 . 6 2 \\ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ ，万古霉素谷浓度为 $4 0 . 9 ~ \\mu \\mathrm { g } \\bullet \\mathrm { m L } ^ { - 1 }$ ，伏立康唑谷浓度为 3．8 $\\mathrm { m g } \\bullet \\mathrm { L } ^ { - 1 } \\big ( \\ 1 . 0 \\sim 5 . 0 \\big )$ 。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "raw_text": "万古霉素谷浓度为40.9 μg·mL^-1",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "data": "{ \\bullet } { \\mathrm { m L } } ^ { - 1 } )$ ，将万古霉素减量为 $0 . 5 \\textrm { g } i v g t t \\textrm { q } 1 2 \\mathrm { h }$ 。入院第 12 天，$\\mathrm { C r ~ 6 8 . 3 ~ \\mu \\mathrm { m o l } \\bullet L ^ { - 1 } , \\epsilon G F R ~ 7 0 . 8 ~ \\mu L \\bullet \\operatorname* { m i n } ^ { - 1 } }$ ，Urea$8 . 6 2 \\ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ ，万古霉素谷浓度为 $4 0 . 9 ~ \\mu \\mathrm { g } \\bullet \\mathrm { m L } ^ { - 1 }$ ，伏立康唑谷浓度为 3．8 $\\mathrm { m g } \\bullet \\mathrm { L } ^ { - 1 } \\big ( \\ 1 . 0 \\sim 5 . 0 \\big )$ 。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "raw_text": "Cr 68.3 μmol·L^-1",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "data": "{ \\bullet } { \\mathrm { m L } } ^ { - 1 } )$ ，将万古霉素减量为 $0 . 5 \\textrm { g } i v g t t \\textrm { q } 1 2 \\mathrm { h }$ 。入院第 12 天，$\\mathrm { C r ~ 6 8 . 3 ~ \\mu \\mathrm { m o l } \\bullet L ^ { - 1 } , \\epsilon G F R ~ 7 0 . 8 ~ \\mu L \\bullet \\operatorname* { m i n } ^ { - 1 } }$ ，Urea$8 . 6 2 \\ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ ，万古霉素谷浓度为 $4 0 . 9 ~ \\mu \\mathrm { g } \\bullet \\mathrm { m L } ^ { - 1 }$ ，伏立康唑谷浓度为 3．8 $\\mathrm { m g } \\bullet \\mathrm { L } ^ { - 1 } \\big ( \\ 1 . 0 \\sim 5 . 0 \\big )$ 。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "raw_text": "Cr 68.3 μmol·L^-1",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "data": "{ \\bullet } { \\mathrm { m L } } ^ { - 1 } )$ ，将万古霉素减量为 $0 . 5 \\textrm { g } i v g t t \\textrm { q } 1 2 \\mathrm { h }$ 。入院第 12 天，$\\mathrm { C r ~ 6 8 . 3 ~ \\mu \\mathrm { m o l } \\bullet L ^ { - 1 } , \\epsilon G F R ~ 7 0 . 8 ~ \\mu L \\bullet \\operatorname* { m i n } ^ { - 1 } }$ ，Urea$8 . 6 2 \\ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ ，万古霉素谷浓度为 $4 0 . 9 ~ \\mu \\mathrm { g } \\bullet \\mathrm { m L } ^ { - 1 }$ ，伏立康唑谷浓度为 3．8 $\\mathrm { m g } \\bullet \\mathrm { L } ^ { - 1 } \\big ( \\ 1 . 0 \\sim 5 . 0 \\big )$ 。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "raw_text": "eGFR 70.8 μL·min^-1",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "data": "{ \\bullet } { \\mathrm { m L } } ^ { - 1 } )$ ，将万古霉素减量为 $0 . 5 \\textrm { g } i v g t t \\textrm { q } 1 2 \\mathrm { h }$ 。入院第 12 天，$\\mathrm { C r ~ 6 8 . 3 ~ \\mu \\mathrm { m o l } \\bullet L ^ { - 1 } , \\epsilon G F R ~ 7 0 . 8 ~ \\mu L \\bullet \\operatorname* { m i n } ^ { - 1 } }$ ，Urea$8 . 6 2 \\ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ ，万古霉素谷浓度为 $4 0 . 9 ~ \\mu \\mathrm { g } \\bullet \\mathrm { m L } ^ { - 1 }$ ，伏立康唑谷浓度为 3．8 $\\mathrm { m g } \\bullet \\mathrm { L } ^ { - 1 } \\big ( \\ 1 . 0 \\sim 5 . 0 \\big )$ 。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "raw_text": "eGFR 70.8 μL·min^-1",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "data": "{ \\bullet } { \\mathrm { m L } } ^ { - 1 } )$ ，将万古霉素减量为 $0 . 5 \\textrm { g } i v g t t \\textrm { q } 1 2 \\mathrm { h }$ 。入院第 12 天，$\\mathrm { C r ~ 6 8 . 3 ~ \\mu \\mathrm { m o l } \\bullet L ^ { - 1 } , \\epsilon G F R ~ 7 0 . 8 ~ \\mu L \\bullet \\operatorname* { m i n } ^ { - 1 } }$ ，Urea$8 . 6 2 \\ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ ，万古霉素谷浓度为 $4 0 . 9 ~ \\mu \\mathrm { g } \\bullet \\mathrm { m L } ^ { - 1 }$ ，伏立康唑谷浓度为 3．8 $\\mathrm { m g } \\bullet \\mathrm { L } ^ { - 1 } \\big ( \\ 1 . 0 \\sim 5 . 0 \\big )$ 。"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "raw_text": "Urea 8.62 mmol·L^-1",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "data": "{ \\bullet } { \\mathrm { m L } } ^ { - 1 } )$ ，将万古霉素减量为 $0 . 5 \\textrm { g } i v g t t \\textrm { q } 1 2 \\mathrm { h }$ 。入院第 12 天，$\\mathrm { C r ~ 6 8 . 3 ~ \\mu \\mathrm { m o l } \\bullet L ^ { - 1 } , \\epsilon G F R ~ 7 0 . 8 ~ \\mu L \\bullet \\operatorname* { m i n } ^ { - 1 } }$ ，Urea$8 . 6 2 \\ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ ，万古霉素谷浓度为 $4 0 . 9 ~ \\mu \\mathrm { g } \\bullet \\mathrm { m L } ^ { - 1 }$ ，伏立康唑谷浓度为 3．8 $\\mathrm { m g } \\bullet \\mathrm { L } ^ { - 1 } \\big ( \\ 1 . 0 \\sim 5 . 0 \\big )$ 。"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "raw_text": "Urea 8.62 mmol·L^-1",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+          "data": "{ \\bullet } { \\mathrm { m L } } ^ { - 1 } )$ ，将万古霉素减量为 $0 . 5 \\textrm { g } i v g t t \\textrm { q } 1 2 \\mathrm { h }$ 。入院第 12 天，$\\mathrm { C r ~ 6 8 . 3 ~ \\mu \\mathrm { m o l } \\bullet L ^ { - 1 } , \\epsilon G F R ~ 7 0 . 8 ~ \\mu L \\bullet \\operatorname* { m i n } ^ { - 1 } }$ ，Urea$8 . 6 2 \\ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ ，万古霉素谷浓度为 $4 0 . 9 ~ \\mu \\mathrm { g } \\bullet \\mathrm { m L } ^ { - 1 }$ ，伏立康唑谷浓度为 3．8 $\\mathrm { m g } \\bullet \\mathrm { L } ^ { - 1 } \\big ( \\ 1 . 0 \\sim 5 . 0 \\big )$ 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:2",
+    "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+    "text": "{ \\bullet } { \\mathrm { m L } } ^ { - 1 } )$ ，将万古霉素减量为 $0 . 5 \\textrm { g } i v g t t \\textrm { q } 1 2 \\mathrm { h }$ 。入院第 12 天，$\\mathrm { C r ~ 6 8 . 3 ~ \\mu \\mathrm { m o l } \\bullet L ^ { - 1 } , \\epsilon G F R ~ 7 0 . 8 ~ \\mu L \\bullet \\operatorname* { m i n } ^ { - 1 } }$ ，Urea$8 . 6 2 \\ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ ，万古霉素谷浓度为 $4 0 . 9 ~ \\mu \\mathrm { g } \\bullet \\mathrm { m L } ^ { - 1 }$ ，伏立康唑谷浓度为 3．8 $\\mathrm { m g } \\bullet \\mathrm { L } ^ { - 1 } \\big ( \\ 1 . 0 \\sim 5 . 0 \\big )$ 。"
+  }
+]

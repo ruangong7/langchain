@@ -1,0 +1,171 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "呋塞米",
+        "canonical_name": "呋塞米",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "氢氯噻嗪",
+        "canonical_name": "氢氯噻嗪",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "螺内酯",
+        "canonical_name": "螺内酯",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "脂溶性维生素",
+        "canonical_name": "脂溶性维生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "铝碳酸镁",
+        "canonical_name": "铝碳酸镁",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "硫糖铝",
+        "canonical_name": "硫糖铝",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "INR",
+        "canonical_name": "INR",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "药物相互作用对华法林抗凝强度的影响分析_杨瑞.pdf",
+          "chunk_index": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:5",
+          "raw_text": "合并使用能够引起 INR 值降低的药物最多为利尿剂，排名前三位的为呋塞米、氢氯噻嗪及螺内酯。利尿药通过间接的方法降低华法林的抗凝作用",
+          "mechanism": "利尿后血容量下降，致血中凝血因子浓度升高，以及改善肝脏淤血状况，增加肝脏凝血因子合成",
+          "consequence": "降低华法林抗凝作用",
+          "chunk_id": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:5",
+          "data": "3． 2． 2 合并使用能够引起 INR 值降低的药物本次调查显示，合并使用能够引起 INR 值降低的药物最多为利尿剂，排名前三位的为呋塞米、氢氯噻嗪及螺内酯。利尿药通过间接的方法降低华法林的抗凝作用，其机制主要是通过提升心力衰竭患者的心功能，利尿后血容量下降，致血中凝血因子浓度升高，以及改善肝脏淤血状况，增加肝脏凝血因子合成;螺内酯机制为利尿诱导凝血因子浓度升高，直接降低华法林抗凝效果［17］。其次是脂溶性维生素( II) ，由于脂溶性维生素针中含有维生素 K，故可以拮抗华法林抗凝作用，从而降低华法林抗凝疗效。再者是抗酸药物，铝碳酸镁及硫糖铝都可以吸附胃肠道中的华法林而减少其吸收，可致华法林作用减少。Effect of drug interaction on anticoagulant strength of warfarin\nYANG Rui 1 ，XU Haisha 1 ，ZHANG Zanling 1 ，QU Jian 2 ，LI Juan 1 ，PENG Shiqi 1 ，DAI Yuxin 1 ，QU Qiang 1 1 Department of Pharmacy，Xiangya Hospital，Central South Univesty，Changsha 410008，Hunan，China;"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "药物相互作用对华法林抗凝强度的影响分析_杨瑞.pdf",
+          "chunk_index": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:5",
+          "raw_text": "合并使用能够引起 INR 值降低的药物最多为利尿剂，排名前三位的为呋塞米、氢氯噻嗪及螺内酯。利尿药通过间接的方法降低华法林的抗凝作用",
+          "mechanism": "利尿后血容量下降，致血中凝血因子浓度升高，以及改善肝脏淤血状况，增加肝脏凝血因子合成",
+          "consequence": "降低华法林抗凝作用",
+          "chunk_id": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:5",
+          "data": "3． 2． 2 合并使用能够引起 INR 值降低的药物本次调查显示，合并使用能够引起 INR 值降低的药物最多为利尿剂，排名前三位的为呋塞米、氢氯噻嗪及螺内酯。利尿药通过间接的方法降低华法林的抗凝作用，其机制主要是通过提升心力衰竭患者的心功能，利尿后血容量下降，致血中凝血因子浓度升高，以及改善肝脏淤血状况，增加肝脏凝血因子合成;螺内酯机制为利尿诱导凝血因子浓度升高，直接降低华法林抗凝效果［17］。其次是脂溶性维生素( II) ，由于脂溶性维生素针中含有维生素 K，故可以拮抗华法林抗凝作用，从而降低华法林抗凝疗效。再者是抗酸药物，铝碳酸镁及硫糖铝都可以吸附胃肠道中的华法林而减少其吸收，可致华法林作用减少。Effect of drug interaction on anticoagulant strength of warfarin\nYANG Rui 1 ，XU Haisha 1 ，ZHANG Zanling 1 ，QU Jian 2 ，LI Juan 1 ，PENG Shiqi 1 ，DAI Yuxin 1 ，QU Qiang 1 1 Department of Pharmacy，Xiangya Hospital，Central South Univesty，Changsha 410008，Hunan，China;"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "药物相互作用对华法林抗凝强度的影响分析_杨瑞.pdf",
+          "chunk_index": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:5",
+          "raw_text": "螺内酯机制为利尿诱导凝血因子浓度升高，直接降低华法林抗凝效果",
+          "mechanism": "利尿诱导凝血因子浓度升高",
+          "consequence": "直接降低华法林抗凝效果",
+          "chunk_id": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:5",
+          "data": "3． 2． 2 合并使用能够引起 INR 值降低的药物本次调查显示，合并使用能够引起 INR 值降低的药物最多为利尿剂，排名前三位的为呋塞米、氢氯噻嗪及螺内酯。利尿药通过间接的方法降低华法林的抗凝作用，其机制主要是通过提升心力衰竭患者的心功能，利尿后血容量下降，致血中凝血因子浓度升高，以及改善肝脏淤血状况，增加肝脏凝血因子合成;螺内酯机制为利尿诱导凝血因子浓度升高，直接降低华法林抗凝效果［17］。其次是脂溶性维生素( II) ，由于脂溶性维生素针中含有维生素 K，故可以拮抗华法林抗凝作用，从而降低华法林抗凝疗效。再者是抗酸药物，铝碳酸镁及硫糖铝都可以吸附胃肠道中的华法林而减少其吸收，可致华法林作用减少。Effect of drug interaction on anticoagulant strength of warfarin\nYANG Rui 1 ，XU Haisha 1 ，ZHANG Zanling 1 ，QU Jian 2 ，LI Juan 1 ，PENG Shiqi 1 ，DAI Yuxin 1 ，QU Qiang 1 1 Department of Pharmacy，Xiangya Hospital，Central South Univesty，Changsha 410008，Hunan，China;"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "药物相互作用对华法林抗凝强度的影响分析_杨瑞.pdf",
+          "chunk_index": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:5",
+          "raw_text": "脂溶性维生素针中含有维生素 K，故可以拮抗华法林抗凝作用，从而降低华法林抗凝疗效",
+          "mechanism": "含有维生素K，拮抗华法林抗凝作用",
+          "consequence": "降低华法林抗凝疗效",
+          "chunk_id": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:5",
+          "data": "3． 2． 2 合并使用能够引起 INR 值降低的药物本次调查显示，合并使用能够引起 INR 值降低的药物最多为利尿剂，排名前三位的为呋塞米、氢氯噻嗪及螺内酯。利尿药通过间接的方法降低华法林的抗凝作用，其机制主要是通过提升心力衰竭患者的心功能，利尿后血容量下降，致血中凝血因子浓度升高，以及改善肝脏淤血状况，增加肝脏凝血因子合成;螺内酯机制为利尿诱导凝血因子浓度升高，直接降低华法林抗凝效果［17］。其次是脂溶性维生素( II) ，由于脂溶性维生素针中含有维生素 K，故可以拮抗华法林抗凝作用，从而降低华法林抗凝疗效。再者是抗酸药物，铝碳酸镁及硫糖铝都可以吸附胃肠道中的华法林而减少其吸收，可致华法林作用减少。Effect of drug interaction on anticoagulant strength of warfarin\nYANG Rui 1 ，XU Haisha 1 ，ZHANG Zanling 1 ，QU Jian 2 ，LI Juan 1 ，PENG Shiqi 1 ，DAI Yuxin 1 ，QU Qiang 1 1 Department of Pharmacy，Xiangya Hospital，Central South Univesty，Changsha 410008，Hunan，China;"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "药物相互作用对华法林抗凝强度的影响分析_杨瑞.pdf",
+          "chunk_index": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:5",
+          "raw_text": "铝碳酸镁及硫糖铝都可以吸附胃肠道中的华法林而减少其吸收，可致华法林作用减少",
+          "mechanism": "吸附胃肠道中的华法林而减少其吸收",
+          "consequence": "华法林作用减少",
+          "chunk_id": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:5",
+          "data": "3． 2． 2 合并使用能够引起 INR 值降低的药物本次调查显示，合并使用能够引起 INR 值降低的药物最多为利尿剂，排名前三位的为呋塞米、氢氯噻嗪及螺内酯。利尿药通过间接的方法降低华法林的抗凝作用，其机制主要是通过提升心力衰竭患者的心功能，利尿后血容量下降，致血中凝血因子浓度升高，以及改善肝脏淤血状况，增加肝脏凝血因子合成;螺内酯机制为利尿诱导凝血因子浓度升高，直接降低华法林抗凝效果［17］。其次是脂溶性维生素( II) ，由于脂溶性维生素针中含有维生素 K，故可以拮抗华法林抗凝作用，从而降低华法林抗凝疗效。再者是抗酸药物，铝碳酸镁及硫糖铝都可以吸附胃肠道中的华法林而减少其吸收，可致华法林作用减少。Effect of drug interaction on anticoagulant strength of warfarin\nYANG Rui 1 ，XU Haisha 1 ，ZHANG Zanling 1 ，QU Jian 2 ，LI Juan 1 ，PENG Shiqi 1 ，DAI Yuxin 1 ，QU Qiang 1 1 Department of Pharmacy，Xiangya Hospital，Central South Univesty，Changsha 410008，Hunan，China;"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "药物相互作用对华法林抗凝强度的影响分析_杨瑞.pdf",
+          "chunk_index": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:5",
+          "raw_text": "铝碳酸镁及硫糖铝都可以吸附胃肠道中的华法林而减少其吸收，可致华法林作用减少",
+          "mechanism": "吸附胃肠道中的华法林而减少其吸收",
+          "consequence": "华法林作用减少",
+          "chunk_id": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:5",
+          "data": "3． 2． 2 合并使用能够引起 INR 值降低的药物本次调查显示，合并使用能够引起 INR 值降低的药物最多为利尿剂，排名前三位的为呋塞米、氢氯噻嗪及螺内酯。利尿药通过间接的方法降低华法林的抗凝作用，其机制主要是通过提升心力衰竭患者的心功能，利尿后血容量下降，致血中凝血因子浓度升高，以及改善肝脏淤血状况，增加肝脏凝血因子合成;螺内酯机制为利尿诱导凝血因子浓度升高，直接降低华法林抗凝效果［17］。其次是脂溶性维生素( II) ，由于脂溶性维生素针中含有维生素 K，故可以拮抗华法林抗凝作用，从而降低华法林抗凝疗效。再者是抗酸药物，铝碳酸镁及硫糖铝都可以吸附胃肠道中的华法林而减少其吸收，可致华法林作用减少。Effect of drug interaction on anticoagulant strength of warfarin\nYANG Rui 1 ，XU Haisha 1 ，ZHANG Zanling 1 ，QU Jian 2 ，LI Juan 1 ，PENG Shiqi 1 ，DAI Yuxin 1 ，QU Qiang 1 1 Department of Pharmacy，Xiangya Hospital，Central South Univesty，Changsha 410008，Hunan，China;"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "药物相互作用对华法林抗凝强度的影响分析_杨瑞.pdf",
+          "chunk_index": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:5",
+          "raw_text": "合并使用能够引起 INR 值降低的药物",
+          "chunk_id": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:5",
+          "data": "3． 2． 2 合并使用能够引起 INR 值降低的药物本次调查显示，合并使用能够引起 INR 值降低的药物最多为利尿剂，排名前三位的为呋塞米、氢氯噻嗪及螺内酯。利尿药通过间接的方法降低华法林的抗凝作用，其机制主要是通过提升心力衰竭患者的心功能，利尿后血容量下降，致血中凝血因子浓度升高，以及改善肝脏淤血状况，增加肝脏凝血因子合成;螺内酯机制为利尿诱导凝血因子浓度升高，直接降低华法林抗凝效果［17］。其次是脂溶性维生素( II) ，由于脂溶性维生素针中含有维生素 K，故可以拮抗华法林抗凝作用，从而降低华法林抗凝疗效。再者是抗酸药物，铝碳酸镁及硫糖铝都可以吸附胃肠道中的华法林而减少其吸收，可致华法林作用减少。Effect of drug interaction on anticoagulant strength of warfarin\nYANG Rui 1 ，XU Haisha 1 ，ZHANG Zanling 1 ，QU Jian 2 ，LI Juan 1 ，PENG Shiqi 1 ，DAI Yuxin 1 ，QU Qiang 1 1 Department of Pharmacy，Xiangya Hospital，Central South Univesty，Changsha 410008，Hunan，China;"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:5",
+    "source": "药物相互作用对华法林抗凝强度的影响分析_杨瑞.pdf",
+    "text": "3． 2． 2 合并使用能够引起 INR 值降低的药物本次调查显示，合并使用能够引起 INR 值降低的药物最多为利尿剂，排名前三位的为呋塞米、氢氯噻嗪及螺内酯。利尿药通过间接的方法降低华法林的抗凝作用，其机制主要是通过提升心力衰竭患者的心功能，利尿后血容量下降，致血中凝血因子浓度升高，以及改善肝脏淤血状况，增加肝脏凝血因子合成;螺内酯机制为利尿诱导凝血因子浓度升高，直接降低华法林抗凝效果［17］。其次是脂溶性维生素( II) ，由于脂溶性维生素针中含有维生素 K，故可以拮抗华法林抗凝作用，从而降低华法林抗凝疗效。再者是抗酸药物，铝碳酸镁及硫糖铝都可以吸附胃肠道中的华法林而减少其吸收，可致华法林作用减少。Effect of drug interaction on anticoagulant strength of warfarin\nYANG Rui 1 ，XU Haisha 1 ，ZHANG Zanling 1 ，QU Jian 2 ，LI Juan 1 ，PENG Shiqi 1 ，DAI Yuxin 1 ，QU Qiang 1 1 Department of Pharmacy，Xiangya Hospital，Central South Univesty，Changsha 410008，Hunan，China;"
+  }
+]

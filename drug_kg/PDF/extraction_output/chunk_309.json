@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "丙戊酸钠",
+        "canonical_name": "丙戊酸钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "奥氮平",
+        "canonical_name": "奥氮平",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Indicator",
+        "name": "丙戊酸游离药物浓度",
+        "canonical_name": "丙戊酸游离药物浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "HPLC-MS_MS结合超滤法研究丙戊酸钠和奥氮平药物相互作用_任丽琼.pdf",
+          "chunk_index": "HPLC-MS_MS结合超滤法研究丙戊酸钠和奥氮平药物相互作用_任丽琼:11",
+          "raw_text": "奥氮平联用存在血浆蛋白竞争性相互作用，且奥氮平血浆蛋白结合能力强于丙戊酸钠，导致联用后丙戊酸游离药物浓度增加，药理效应及毒副作用增强，建议临床连用丙戊酸钠和奥氮时监测丙戊酸钠游离药物浓度，减少不良反应的发生，提高丙戊酸用药的有效性和安全性。",
+          "chunk_id": "HPLC-MS_MS结合超滤法研究丙戊酸钠和奥氮平药物相互作用_任丽琼:11",
+          "data": "奥氮平联用存在血浆蛋白竞争性相互作用，且奥氮平血浆蛋白结合能力强于丙戊酸钠，导致联用后丙戊酸游离药物浓度增加，药理效应及毒副作用增强，建议临床连用丙戊酸钠和奥氮时监测丙戊酸钠游离药物浓度，减少不良反应的发生，提高丙戊酸用药的有效性和安全性。Study on the drug interaction between sodium valproate and olanzapine using HPLC-MS/MS combined with ultrafiltration\nREN Li-qiong1 , XU Ting2 , XU Fan3\\*(1. College of Pharmacy, Dali University, Dali 671000, China;2. Pharmacy Department of the Second Affiliated Hospital of Kunming Medical University, Kunming 650101, China;"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "HPLC-MS_MS结合超滤法研究丙戊酸钠和奥氮平药物相互作用_任丽琼.pdf",
+          "chunk_index": "HPLC-MS_MS结合超滤法研究丙戊酸钠和奥氮平药物相互作用_任丽琼:11",
+          "raw_text": "奥氮平联用存在血浆蛋白竞争性相互作用，且奥氮平血浆蛋白结合能力强于丙戊酸钠，导致联用后丙戊酸游离药物浓度增加，药理效应及毒副作用增强，建议临床连用丙戊酸钠和奥氮时监测丙戊酸钠游离药物浓度，减少不良反应的发生，提高丙戊酸用药的有效性和安全性。",
+          "chunk_id": "HPLC-MS_MS结合超滤法研究丙戊酸钠和奥氮平药物相互作用_任丽琼:11",
+          "data": "奥氮平联用存在血浆蛋白竞争性相互作用，且奥氮平血浆蛋白结合能力强于丙戊酸钠，导致联用后丙戊酸游离药物浓度增加，药理效应及毒副作用增强，建议临床连用丙戊酸钠和奥氮时监测丙戊酸钠游离药物浓度，减少不良反应的发生，提高丙戊酸用药的有效性和安全性。Study on the drug interaction between sodium valproate and olanzapine using HPLC-MS/MS combined with ultrafiltration\nREN Li-qiong1 , XU Ting2 , XU Fan3\\*(1. College of Pharmacy, Dali University, Dali 671000, China;2. Pharmacy Department of the Second Affiliated Hospital of Kunming Medical University, Kunming 650101, China;"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "HPLC-MS_MS结合超滤法研究丙戊酸钠和奥氮平药物相互作用_任丽琼:11",
+    "source": "HPLC-MS_MS结合超滤法研究丙戊酸钠和奥氮平药物相互作用_任丽琼.pdf",
+    "text": "奥氮平联用存在血浆蛋白竞争性相互作用，且奥氮平血浆蛋白结合能力强于丙戊酸钠，导致联用后丙戊酸游离药物浓度增加，药理效应及毒副作用增强，建议临床连用丙戊酸钠和奥氮时监测丙戊酸钠游离药物浓度，减少不良反应的发生，提高丙戊酸用药的有效性和安全性。Study on the drug interaction between sodium valproate and olanzapine using HPLC-MS/MS combined with ultrafiltration\nREN Li-qiong1 , XU Ting2 , XU Fan3\\*(1. College of Pharmacy, Dali University, Dali 671000, China;2. Pharmacy Department of the Second Affiliated Hospital of Kunming Medical University, Kunming 650101, China;"
+  }
+]

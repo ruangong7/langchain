@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "万古霉素",
+        "canonical_name": "万古霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "倍他环糊精",
+        "canonical_name": "倍他环糊精",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "急性肾损伤",
+        "canonical_name": "急性肾损伤",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "万古霉素血药浓度",
+        "canonical_name": "万古霉素血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "肾功能",
+        "canonical_name": "肾功能",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:10",
+          "raw_text": "论伏立康唑的辅料倍他环糊精与万古霉之间存在药代动力学方面的相互作用，加重了对肾功能的影响。应谨慎万古霉素与伏立康唑注射剂的联合使用，必须联用时尽量选用伏立康唑的口服剂型，并应加强对万古霉素血药浓度和肾功能的动态监测，以减少急性肾损伤的发生。",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:10",
+          "data": "论伏立康唑的辅料倍他环糊精与万古霉之间存在药代动力学方面的相互作用，加重了对肾功能的影响。应谨慎万古霉素与伏立康唑注射剂的联合使用，必须联用时尽量选用伏立康唑的口服剂型，并应加强对万古霉素血药浓度和肾功能的动态监测，以减少急性肾损伤的发生。文献标志码: A\nAcute Kidney Injury Caused by the Combined Use of Vancomycin and Voriconazole\nTAN Xiangping，MEI Zhengrong，YUAN Zhongwen，SITU Bing\\* ( Department of Pharmacology，the Third Affiliated Hospital of Guangzhou Medical University，Guangzhou，Guangdong 510150，China)ABSTRACT: OBJECTIVE To investigate the effect of voriconazole combined with vancomycin on renal function． METHODS Clinical pharmacists participated in the pharmaceutical care of a case of acute kidney injury caused by voriconazole combined with vancomycin． Naranjo score was used to judge the correlation of the adverse reactions and analyze the characteristics of the drug interaction． RESULTS The renal function of the patient was normal before medication． After voriconazole was combined with vancomycin，although the dosage of vancomycin was lower than normal dosage，acute renal injury still occurred． The patien"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:10",
+          "raw_text": "论伏立康唑的辅料倍他环糊精与万古霉之间存在药代动力学方面的相互作用，加重了对肾功能的影响。",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:10",
+          "data": "论伏立康唑的辅料倍他环糊精与万古霉之间存在药代动力学方面的相互作用，加重了对肾功能的影响。应谨慎万古霉素与伏立康唑注射剂的联合使用，必须联用时尽量选用伏立康唑的口服剂型，并应加强对万古霉素血药浓度和肾功能的动态监测，以减少急性肾损伤的发生。文献标志码: A\nAcute Kidney Injury Caused by the Combined Use of Vancomycin and Voriconazole\nTAN Xiangping，MEI Zhengrong，YUAN Zhongwen，SITU Bing\\* ( Department of Pharmacology，the Third Affiliated Hospital of Guangzhou Medical University，Guangzhou，Guangdong 510150，China)ABSTRACT: OBJECTIVE To investigate the effect of voriconazole combined with vancomycin on renal function． METHODS Clinical pharmacists participated in the pharmaceutical care of a case of acute kidney injury caused by voriconazole combined with vancomycin． Naranjo score was used to judge the correlation of the adverse reactions and analyze the characteristics of the drug interaction． RESULTS The renal function of the patient was normal before medication． After voriconazole was combined with vancomycin，although the dosage of vancomycin was lower than normal dosage，acute renal injury still occurred． The patien"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:10",
+          "raw_text": "万古霉素是用于治疗严重革兰氏阳性菌感染的糖肽类抗菌药物，虽对肾功能有影响",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:10",
+          "data": "论伏立康唑的辅料倍他环糊精与万古霉之间存在药代动力学方面的相互作用，加重了对肾功能的影响。应谨慎万古霉素与伏立康唑注射剂的联合使用，必须联用时尽量选用伏立康唑的口服剂型，并应加强对万古霉素血药浓度和肾功能的动态监测，以减少急性肾损伤的发生。文献标志码: A\nAcute Kidney Injury Caused by the Combined Use of Vancomycin and Voriconazole\nTAN Xiangping，MEI Zhengrong，YUAN Zhongwen，SITU Bing\\* ( Department of Pharmacology，the Third Affiliated Hospital of Guangzhou Medical University，Guangzhou，Guangdong 510150，China)ABSTRACT: OBJECTIVE To investigate the effect of voriconazole combined with vancomycin on renal function． METHODS Clinical pharmacists participated in the pharmaceutical care of a case of acute kidney injury caused by voriconazole combined with vancomycin． Naranjo score was used to judge the correlation of the adverse reactions and analyze the characteristics of the drug interaction． RESULTS The renal function of the patient was normal before medication． After voriconazole was combined with vancomycin，although the dosage of vancomycin was lower than normal dosage，acute renal injury still occurred． The patien"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:10",
+          "raw_text": "应加强对万古霉素血药浓度和肾功能的动态监测",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:10",
+          "data": "论伏立康唑的辅料倍他环糊精与万古霉之间存在药代动力学方面的相互作用，加重了对肾功能的影响。应谨慎万古霉素与伏立康唑注射剂的联合使用，必须联用时尽量选用伏立康唑的口服剂型，并应加强对万古霉素血药浓度和肾功能的动态监测，以减少急性肾损伤的发生。文献标志码: A\nAcute Kidney Injury Caused by the Combined Use of Vancomycin and Voriconazole\nTAN Xiangping，MEI Zhengrong，YUAN Zhongwen，SITU Bing\\* ( Department of Pharmacology，the Third Affiliated Hospital of Guangzhou Medical University，Guangzhou，Guangdong 510150，China)ABSTRACT: OBJECTIVE To investigate the effect of voriconazole combined with vancomycin on renal function． METHODS Clinical pharmacists participated in the pharmaceutical care of a case of acute kidney injury caused by voriconazole combined with vancomycin． Naranjo score was used to judge the correlation of the adverse reactions and analyze the characteristics of the drug interaction． RESULTS The renal function of the patient was normal before medication． After voriconazole was combined with vancomycin，although the dosage of vancomycin was lower than normal dosage，acute renal injury still occurred． The patien"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:10",
+          "raw_text": "应加强对万古霉素血药浓度和肾功能的动态监测",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:10",
+          "data": "论伏立康唑的辅料倍他环糊精与万古霉之间存在药代动力学方面的相互作用，加重了对肾功能的影响。应谨慎万古霉素与伏立康唑注射剂的联合使用，必须联用时尽量选用伏立康唑的口服剂型，并应加强对万古霉素血药浓度和肾功能的动态监测，以减少急性肾损伤的发生。文献标志码: A\nAcute Kidney Injury Caused by the Combined Use of Vancomycin and Voriconazole\nTAN Xiangping，MEI Zhengrong，YUAN Zhongwen，SITU Bing\\* ( Department of Pharmacology，the Third Affiliated Hospital of Guangzhou Medical University，Guangzhou，Guangdong 510150，China)ABSTRACT: OBJECTIVE To investigate the effect of voriconazole combined with vancomycin on renal function． METHODS Clinical pharmacists participated in the pharmaceutical care of a case of acute kidney injury caused by voriconazole combined with vancomycin． Naranjo score was used to judge the correlation of the adverse reactions and analyze the characteristics of the drug interaction． RESULTS The renal function of the patient was normal before medication． After voriconazole was combined with vancomycin，although the dosage of vancomycin was lower than normal dosage，acute renal injury still occurred． The patien"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:10",
+    "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+    "text": "论伏立康唑的辅料倍他环糊精与万古霉之间存在药代动力学方面的相互作用，加重了对肾功能的影响。应谨慎万古霉素与伏立康唑注射剂的联合使用，必须联用时尽量选用伏立康唑的口服剂型，并应加强对万古霉素血药浓度和肾功能的动态监测，以减少急性肾损伤的发生。文献标志码: A\nAcute Kidney Injury Caused by the Combined Use of Vancomycin and Voriconazole\nTAN Xiangping，MEI Zhengrong，YUAN Zhongwen，SITU Bing\\* ( Department of Pharmacology，the Third Affiliated Hospital of Guangzhou Medical University，Guangzhou，Guangdong 510150，China)ABSTRACT: OBJECTIVE To investigate the effect of voriconazole combined with vancomycin on renal function． METHODS Clinical pharmacists participated in the pharmaceutical care of a case of acute kidney injury caused by voriconazole combined with vancomycin． Naranjo score was used to judge the correlation of the adverse reactions and analyze the characteristics of the drug interaction． RESULTS The renal function of the patient was normal before medication． After voriconazole was combined with vancomycin，although the dosage of vancomycin was lower than normal dosage，acute renal injury still occurred． The patient's renal function was relieved after blood purification treatment． CONCLUSION The pharmacokinetic interaction between betacyclodextrin，the excipient of voriconazole，and vancomycin exacerbated the effect on renal function． The combination of vancomycin and voriconazole injection should be carefully used． And the oral dosage form of voriconazole should be selected as far as possible． The dynamic monitoring of vancomycin plasma concentration and renal function should be strengthened to reduce the occurrence of acute kidney injury．万古霉素是用于治疗严重革兰氏阳性菌感染的糖肽类抗菌药物，虽对肾功能有影响［1-3］，但随着目前药品制剂工艺的不断改进和临床用药水平的提升，对肾功能的严重损伤也日渐少见。"
+  }
+]

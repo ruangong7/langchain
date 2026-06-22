@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "氯沙坦",
+        "canonical_name": "氯沙坦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "格列美脲",
+        "canonical_name": "格列美脲",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "氯沙坦与格列美脲在人肝微粒体中的药物相互作用_罗俊.pdf",
+          "chunk_index": "氯沙坦与格列美脲在人肝微粒体中的药物相互作用_罗俊:6",
+          "raw_text": "Glimepiride showed significant inhibitory effect on losartan at the concentration of 1-10 μmol·L-1 losartan with a Ki value of 0.4077±0.0862 μmol·L-1. Losartan only showed inhibitory effect on glimepiride at the concentration of 1 μmol·L-1 glimepiride. The inhibitory effect of glimepiride on losartan is stronger than that of losartan on glimepiride.",
+          "chunk_id": "氯沙坦与格列美脲在人肝微粒体中的药物相互作用_罗俊:6",
+          "data": "somes\nLUOJun1，PANPei－pei2（1．DepartmentofPharmacy， MaternalandChildHealthHospitalofTaizhou， ZhejiangTaizhou318000， China；2．DepartmentofPharmacy， TaizhouCentralHospital， ZhejiangTaizhou318000， China）ABSTRACT：OBJECTIVE Toobservethedrug－druginteractionoflosartanandglimepirideinhumanliver microsomes METHODS Losartan （1－10μmol·L－1） andglimepiride（1－10μmolL－1） weremixedtoa200μLincubationsystemandin－ cubatedat37 ℃for30mininashakingwaterbath．ThesampleswereanalyzedusingaUPLC－MS／MSmethodtodetermine thegenerationofmetabolitesoflosartanandglimepiride．Dixonplottingandcalculationof $K _ { \\mathrm { i } }$ valuewereperformedtoevaluate theinhibitoryeffectofglimepirideonlosartanandlosartanonglimepiride．RESULTS Glimepirideshowedsignificantinhibito－ ryeffectonlosartanattheconcentrationof $1 - 1 0 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ losartanwitha ivalueof0 $4 0 7 \\ 7 { \\pm } 0 . 0 8 6 \\ 2 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ ．Losartan onlyshowedinhibitoryeffectongli"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "氯沙坦与格列美脲在人肝微粒体中的药物相互作用_罗俊:6",
+    "source": "氯沙坦与格列美脲在人肝微粒体中的药物相互作用_罗俊.pdf",
+    "text": "somes\nLUOJun1，PANPei－pei2（1．DepartmentofPharmacy， MaternalandChildHealthHospitalofTaizhou， ZhejiangTaizhou318000， China；2．DepartmentofPharmacy， TaizhouCentralHospital， ZhejiangTaizhou318000， China）ABSTRACT：OBJECTIVE Toobservethedrug－druginteractionoflosartanandglimepirideinhumanliver microsomes METHODS Losartan （1－10μmol·L－1） andglimepiride（1－10μmolL－1） weremixedtoa200μLincubationsystemandin－ cubatedat37 ℃for30mininashakingwaterbath．ThesampleswereanalyzedusingaUPLC－MS／MSmethodtodetermine thegenerationofmetabolitesoflosartanandglimepiride．Dixonplottingandcalculationof $K _ { \\mathrm { i } }$ valuewereperformedtoevaluate theinhibitoryeffectofglimepirideonlosartanandlosartanonglimepiride．RESULTS Glimepirideshowedsignificantinhibito－ ryeffectonlosartanattheconcentrationof $1 - 1 0 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ losartanwitha ivalueof0 $4 0 7 \\ 7 { \\pm } 0 . 0 8 6 \\ 2 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ ．Losartan onlyshowedinhibitoryeffectonglimepirideattheconcentrationof1μmol·L－1glimepiride．CONCLUSION Intheincubation systemofhumanliver microsomes， theinhibitoryeffectofglimepirideonlosartanisstrongerthanthatoflosartanon glimepiride．Theinteractionbetweenlosartanandglimepirideinhumanbodyneedsfurtherpharmacokineticinvestigation － v0.KEYWORDS：losartan；"
+  }
+]

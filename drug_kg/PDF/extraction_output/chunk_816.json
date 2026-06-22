@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "维生素K1注射液",
+        "canonical_name": "维生素K1注射液",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Indicator",
+        "name": "INR",
+        "canonical_name": "INR",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "临床药师对华法林药物相互作用的病例分析和干预_杨周生.pdf",
+          "chunk_index": "临床药师对华法林药物相互作用的病例分析和干预_杨周生:3",
+          "raw_text": "该患者经使用维生素K1注射液拮抗华法林后INR降到目标治疗范围以下",
+          "chunk_id": "临床药师对华法林药物相互作用的病例分析和干预_杨周生:3",
+          "data": "2.3 该患者经使用维生素 $\\mathrm { K } _ { 1 }$ 注射液拮抗华法林后 INR 降到目标治疗范围以下华法林治疗方案是否合适患者 11 月 20 日静脉使用维生素 $\\mathrm { K } _ { 1 }$ 注射液$1 0 ~ \\mathrm { m g }$ 拮抗 1 次停华法林 3 d 后 11 月 23 日测得 INR 为 1.41 。医生给予华法林 3 mg/d 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "临床药师对华法林药物相互作用的病例分析和干预_杨周生.pdf",
+          "chunk_index": "临床药师对华法林药物相互作用的病例分析和干预_杨周生:3",
+          "raw_text": "使用维生素K1注射液拮抗华法林后INR降到目标治疗范围以下",
+          "chunk_id": "临床药师对华法林药物相互作用的病例分析和干预_杨周生:3",
+          "data": "2.3 该患者经使用维生素 $\\mathrm { K } _ { 1 }$ 注射液拮抗华法林后 INR 降到目标治疗范围以下华法林治疗方案是否合适患者 11 月 20 日静脉使用维生素 $\\mathrm { K } _ { 1 }$ 注射液$1 0 ~ \\mathrm { m g }$ 拮抗 1 次停华法林 3 d 后 11 月 23 日测得 INR 为 1.41 。医生给予华法林 3 mg/d 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "临床药师对华法林药物相互作用的病例分析和干预_杨周生:3",
+    "source": "临床药师对华法林药物相互作用的病例分析和干预_杨周生.pdf",
+    "text": "2.3 该患者经使用维生素 $\\mathrm { K } _ { 1 }$ 注射液拮抗华法林后 INR 降到目标治疗范围以下华法林治疗方案是否合适患者 11 月 20 日静脉使用维生素 $\\mathrm { K } _ { 1 }$ 注射液$1 0 ~ \\mathrm { m g }$ 拮抗 1 次停华法林 3 d 后 11 月 23 日测得 INR 为 1.41 。医生给予华法林 3 mg/d 。"
+  }
+]

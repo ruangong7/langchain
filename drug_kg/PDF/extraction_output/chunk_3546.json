@@ -1,0 +1,107 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "IG-105",
+        "canonical_name": "IG-105",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "CYP1A2",
+        "canonical_name": "CYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP2C19",
+        "canonical_name": "CYP2C19",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "CYP2D6",
+        "canonical_name": "CYP2D6",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP3A",
+        "canonical_name": "CYP3A",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:16",
+          "raw_text": "那些主要被 CYP1A2、CYP2C19、CYP2D6、CYP3A 代谢解毒的药物与 IG-105 合用时应格外注意药物相互作用。",
+          "mechanism": "IG-105抑制CYP1A2活性",
+          "consequence": "合用可能增加被CYP1A2代谢药物的血药浓度，增加毒性风险",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:16",
+          "data": "$6 . 4 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } )$ 、CYP2D6 $( \\mathrm { I C } _ { 5 0 } { = } 1 . 4 \\ \\mu \\mathrm { m o l { \\cdot } L } ^ { - }$ 1 ) 和 CYP3A$( \\mathrm { I C } _ { 5 0 } { = } 3 . 1 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } )$ 具有中度的抑制作用, 对CYP2C19具有较强的抑制作用 $( \\mathrm { I C } _ { 5 0 }$ 为 $0 . 4 ~ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } ,$ )。因此本研究结果提示, 那些主要被 CYP1A2、CYP2C19、CYP2D6、CYP3A 代谢解毒的药物与 IG-105 合用时应格外注意药物相互作用。\n在代谢性药物相互作用中, 药物扮演两类角色,既是药物代谢酶的底物, 又可能是药物代谢酶的抑制剂。联合用药时, 若一种药物被单一 P450 酶代谢,而另一种药物强烈抑制这种 P450 酶的活性, 则第一种药物因代谢通路受阻, 血药浓度升高, 一旦血药浓度超过治疗窗, 毒性随即发生。因此, 研究药物的代谢性相互作用对于指导安全用药具有重要的意义。本研究重点采用体外代谢研究对 IG-105 代谢性药物相互作用的潜在可能进行了预测。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:16",
+          "raw_text": "那些主要被 CYP1A2、CYP2C19、CYP2D6、CYP3A 代谢解毒的药物与 IG-105 合用时应格外注意药物相互作用。",
+          "mechanism": "IG-105抑制CYP2C19活性",
+          "consequence": "合用可能增加被CYP2C19代谢药物的血药浓度，增加毒性风险",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:16",
+          "data": "$6 . 4 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } )$ 、CYP2D6 $( \\mathrm { I C } _ { 5 0 } { = } 1 . 4 \\ \\mu \\mathrm { m o l { \\cdot } L } ^ { - }$ 1 ) 和 CYP3A$( \\mathrm { I C } _ { 5 0 } { = } 3 . 1 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } )$ 具有中度的抑制作用, 对CYP2C19具有较强的抑制作用 $( \\mathrm { I C } _ { 5 0 }$ 为 $0 . 4 ~ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } ,$ )。因此本研究结果提示, 那些主要被 CYP1A2、CYP2C19、CYP2D6、CYP3A 代谢解毒的药物与 IG-105 合用时应格外注意药物相互作用。\n在代谢性药物相互作用中, 药物扮演两类角色,既是药物代谢酶的底物, 又可能是药物代谢酶的抑制剂。联合用药时, 若一种药物被单一 P450 酶代谢,而另一种药物强烈抑制这种 P450 酶的活性, 则第一种药物因代谢通路受阻, 血药浓度升高, 一旦血药浓度超过治疗窗, 毒性随即发生。因此, 研究药物的代谢性相互作用对于指导安全用药具有重要的意义。本研究重点采用体外代谢研究对 IG-105 代谢性药物相互作用的潜在可能进行了预测。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:16",
+          "raw_text": "那些主要被 CYP1A2、CYP2C19、CYP2D6、CYP3A 代谢解毒的药物与 IG-105 合用时应格外注意药物相互作用。",
+          "mechanism": "IG-105抑制CYP2D6活性",
+          "consequence": "合用可能增加被CYP2D6代谢药物的血药浓度，增加毒性风险",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:16",
+          "data": "$6 . 4 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } )$ 、CYP2D6 $( \\mathrm { I C } _ { 5 0 } { = } 1 . 4 \\ \\mu \\mathrm { m o l { \\cdot } L } ^ { - }$ 1 ) 和 CYP3A$( \\mathrm { I C } _ { 5 0 } { = } 3 . 1 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } )$ 具有中度的抑制作用, 对CYP2C19具有较强的抑制作用 $( \\mathrm { I C } _ { 5 0 }$ 为 $0 . 4 ~ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } ,$ )。因此本研究结果提示, 那些主要被 CYP1A2、CYP2C19、CYP2D6、CYP3A 代谢解毒的药物与 IG-105 合用时应格外注意药物相互作用。\n在代谢性药物相互作用中, 药物扮演两类角色,既是药物代谢酶的底物, 又可能是药物代谢酶的抑制剂。联合用药时, 若一种药物被单一 P450 酶代谢,而另一种药物强烈抑制这种 P450 酶的活性, 则第一种药物因代谢通路受阻, 血药浓度升高, 一旦血药浓度超过治疗窗, 毒性随即发生。因此, 研究药物的代谢性相互作用对于指导安全用药具有重要的意义。本研究重点采用体外代谢研究对 IG-105 代谢性药物相互作用的潜在可能进行了预测。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:16",
+          "raw_text": "那些主要被 CYP1A2、CYP2C19、CYP2D6、CYP3A 代谢解毒的药物与 IG-105 合用时应格外注意药物相互作用。",
+          "mechanism": "IG-105抑制CYP3A活性",
+          "consequence": "合用可能增加被CYP3A代谢药物的血药浓度，增加毒性风险",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:16",
+          "data": "$6 . 4 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } )$ 、CYP2D6 $( \\mathrm { I C } _ { 5 0 } { = } 1 . 4 \\ \\mu \\mathrm { m o l { \\cdot } L } ^ { - }$ 1 ) 和 CYP3A$( \\mathrm { I C } _ { 5 0 } { = } 3 . 1 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } )$ 具有中度的抑制作用, 对CYP2C19具有较强的抑制作用 $( \\mathrm { I C } _ { 5 0 }$ 为 $0 . 4 ~ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } ,$ )。因此本研究结果提示, 那些主要被 CYP1A2、CYP2C19、CYP2D6、CYP3A 代谢解毒的药物与 IG-105 合用时应格外注意药物相互作用。\n在代谢性药物相互作用中, 药物扮演两类角色,既是药物代谢酶的底物, 又可能是药物代谢酶的抑制剂。联合用药时, 若一种药物被单一 P450 酶代谢,而另一种药物强烈抑制这种 P450 酶的活性, 则第一种药物因代谢通路受阻, 血药浓度升高, 一旦血药浓度超过治疗窗, 毒性随即发生。因此, 研究药物的代谢性相互作用对于指导安全用药具有重要的意义。本研究重点采用体外代谢研究对 IG-105 代谢性药物相互作用的潜在可能进行了预测。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:16",
+    "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+    "text": "$6 . 4 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } )$ 、CYP2D6 $( \\mathrm { I C } _ { 5 0 } { = } 1 . 4 \\ \\mu \\mathrm { m o l { \\cdot } L } ^ { - }$ 1 ) 和 CYP3A$( \\mathrm { I C } _ { 5 0 } { = } 3 . 1 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } )$ 具有中度的抑制作用, 对CYP2C19具有较强的抑制作用 $( \\mathrm { I C } _ { 5 0 }$ 为 $0 . 4 ~ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } ,$ )。因此本研究结果提示, 那些主要被 CYP1A2、CYP2C19、CYP2D6、CYP3A 代谢解毒的药物与 IG-105 合用时应格外注意药物相互作用。\n在代谢性药物相互作用中, 药物扮演两类角色,既是药物代谢酶的底物, 又可能是药物代谢酶的抑制剂。联合用药时, 若一种药物被单一 P450 酶代谢,而另一种药物强烈抑制这种 P450 酶的活性, 则第一种药物因代谢通路受阻, 血药浓度升高, 一旦血药浓度超过治疗窗, 毒性随即发生。因此, 研究药物的代谢性相互作用对于指导安全用药具有重要的意义。本研究重点采用体外代谢研究对 IG-105 代谢性药物相互作用的潜在可能进行了预测。"
+  }
+]

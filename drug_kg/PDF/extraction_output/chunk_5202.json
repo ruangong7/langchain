@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Food",
+        "name": "辣椒素",
+        "canonical_name": "辣椒素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "罗丹明123",
+        "canonical_name": "罗丹明123",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰.pdf",
+          "chunk_index": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:16",
+          "raw_text": "辣椒素是一种弱的P-gp抑制剂，通过抑制P-gp功能从而影响P-gp底物R123经肠黏膜透过的作用并且具有肠段差异性。",
+          "chunk_id": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:16",
+          "data": "35］ 采用体外Ussing chamber 实验，研究 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 底物罗丹明 123( R123) 在空肠、回肠和结肠转运时辣椒素的作用。结果发现，辣椒素对R123 的影响仅存在于空肠，但实际上 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 表达量沿肠腔从空肠到结肠逐渐升高，这表明辣椒素是一种弱的 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } } }$ 抑制剂，通过抑制 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\ma"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:16",
+    "source": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰.pdf",
+    "text": "35］ 采用体外Ussing chamber 实验，研究 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 底物罗丹明 123( R123) 在空肠、回肠和结肠转运时辣椒素的作用。结果发现，辣椒素对R123 的影响仅存在于空肠，但实际上 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 表达量沿肠腔从空肠到结肠逐渐升高，这表明辣椒素是一种弱的 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } } }$ 抑制剂，通过抑制 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 功能从而影响 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 底物R123 经肠黏膜透过的作用并且具有肠段差异性。"
+  }
+]

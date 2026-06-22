@@ -1,0 +1,279 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "canonical_name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "大环内酯类抗菌药物",
+        "canonical_name": "大环内酯类抗菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "磺酰脲类降糖药",
+        "canonical_name": "磺酰脲类降糖药",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "钙拮抗剂",
+        "canonical_name": "钙拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "低血糖",
+        "canonical_name": "低血糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "血压降低",
+        "canonical_name": "血压降低",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "急性肾衰竭",
+        "canonical_name": "急性肾衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "支气管炎",
+        "canonical_name": "支气管炎",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "肺炎",
+        "canonical_name": "肺炎",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "百日咳",
+        "canonical_name": "百日咳",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Disease",
+        "name": "咽炎",
+        "canonical_name": "咽炎",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Disease",
+        "name": "鼻窦炎",
+        "canonical_name": "鼻窦炎",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Disease",
+        "name": "毛囊炎",
+        "canonical_name": "毛囊炎",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Disease",
+        "name": "幽门螺杆菌感染",
+        "canonical_name": "幽门螺杆菌感染",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙.pdf",
+          "chunk_index": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "raw_text": "克拉霉素是一种半合成14元环的红霉素衍生物，属于第二代大环内酯类抗菌药物",
+          "chunk_id": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "data": "e-review rules for clarithromycin combined drug prescription have been established successfully.KEYWORDS clarithromycin；potential adverse drug interactions；prescription pre-review克拉霉素是一种半合成14元环的红霉素衍生物，属于第二代大环内酯类抗菌药物，具有半衰期长、对酸稳定、生物利用度高和患者耐受性好等特点；该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病[1―2]。大环内酯类抗菌药物为代谢酶细胞色素 P450（cytochrome P450，CYP）3A4和转运体 P 糖蛋白（P-glycoprotein，P-gp）的底物及抑制剂，其中以克拉霉素对CYP3A4的抑制作用最强，与其他药物发生潜在不良药物相互作用（potential adversedrug interactions，pADIs）的风险最高[3] 。本课题组前期研究发现，蚌埠市第三人民医院（以下简称“我院”）门诊处方中，克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等，因此需要加强监测及干预[4―5]。近年来，我国各级卫生健康委要求医疗机构积极推进处方前置审核工作的信息化建设，例如有学者开展了基于循证医学证据的处方审核，提高了信息化审方的同质性和规范性[6]。因此，本研究调查了我院门诊开具的克拉霉素联合用药处方，依据循证医学证据对处方中存在pADIs的药物进行鉴别及分级（发现联合用药处方存在的问题），通过合理用药管理系统建立联合用药处方的精细化前置审方规则（解决问题），旨在为保障患者用药安全提供参考。2　结果"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙.pdf",
+          "chunk_index": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "raw_text": "该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病",
+          "chunk_id": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "data": "e-review rules for clarithromycin combined drug prescription have been established successfully.KEYWORDS clarithromycin；potential adverse drug interactions；prescription pre-review克拉霉素是一种半合成14元环的红霉素衍生物，属于第二代大环内酯类抗菌药物，具有半衰期长、对酸稳定、生物利用度高和患者耐受性好等特点；该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病[1―2]。大环内酯类抗菌药物为代谢酶细胞色素 P450（cytochrome P450，CYP）3A4和转运体 P 糖蛋白（P-glycoprotein，P-gp）的底物及抑制剂，其中以克拉霉素对CYP3A4的抑制作用最强，与其他药物发生潜在不良药物相互作用（potential adversedrug interactions，pADIs）的风险最高[3] 。本课题组前期研究发现，蚌埠市第三人民医院（以下简称“我院”）门诊处方中，克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等，因此需要加强监测及干预[4―5]。近年来，我国各级卫生健康委要求医疗机构积极推进处方前置审核工作的信息化建设，例如有学者开展了基于循证医学证据的处方审核，提高了信息化审方的同质性和规范性[6]。因此，本研究调查了我院门诊开具的克拉霉素联合用药处方，依据循证医学证据对处方中存在pADIs的药物进行鉴别及分级（发现联合用药处方存在的问题），通过合理用药管理系统建立联合用药处方的精细化前置审方规则（解决问题），旨在为保障患者用药安全提供参考。2　结果"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙.pdf",
+          "chunk_index": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "raw_text": "该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病",
+          "chunk_id": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "data": "e-review rules for clarithromycin combined drug prescription have been established successfully.KEYWORDS clarithromycin；potential adverse drug interactions；prescription pre-review克拉霉素是一种半合成14元环的红霉素衍生物，属于第二代大环内酯类抗菌药物，具有半衰期长、对酸稳定、生物利用度高和患者耐受性好等特点；该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病[1―2]。大环内酯类抗菌药物为代谢酶细胞色素 P450（cytochrome P450，CYP）3A4和转运体 P 糖蛋白（P-glycoprotein，P-gp）的底物及抑制剂，其中以克拉霉素对CYP3A4的抑制作用最强，与其他药物发生潜在不良药物相互作用（potential adversedrug interactions，pADIs）的风险最高[3] 。本课题组前期研究发现，蚌埠市第三人民医院（以下简称“我院”）门诊处方中，克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等，因此需要加强监测及干预[4―5]。近年来，我国各级卫生健康委要求医疗机构积极推进处方前置审核工作的信息化建设，例如有学者开展了基于循证医学证据的处方审核，提高了信息化审方的同质性和规范性[6]。因此，本研究调查了我院门诊开具的克拉霉素联合用药处方，依据循证医学证据对处方中存在pADIs的药物进行鉴别及分级（发现联合用药处方存在的问题），通过合理用药管理系统建立联合用药处方的精细化前置审方规则（解决问题），旨在为保障患者用药安全提供参考。2　结果"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙.pdf",
+          "chunk_index": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "raw_text": "该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病",
+          "chunk_id": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "data": "e-review rules for clarithromycin combined drug prescription have been established successfully.KEYWORDS clarithromycin；potential adverse drug interactions；prescription pre-review克拉霉素是一种半合成14元环的红霉素衍生物，属于第二代大环内酯类抗菌药物，具有半衰期长、对酸稳定、生物利用度高和患者耐受性好等特点；该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病[1―2]。大环内酯类抗菌药物为代谢酶细胞色素 P450（cytochrome P450，CYP）3A4和转运体 P 糖蛋白（P-glycoprotein，P-gp）的底物及抑制剂，其中以克拉霉素对CYP3A4的抑制作用最强，与其他药物发生潜在不良药物相互作用（potential adversedrug interactions，pADIs）的风险最高[3] 。本课题组前期研究发现，蚌埠市第三人民医院（以下简称“我院”）门诊处方中，克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等，因此需要加强监测及干预[4―5]。近年来，我国各级卫生健康委要求医疗机构积极推进处方前置审核工作的信息化建设，例如有学者开展了基于循证医学证据的处方审核，提高了信息化审方的同质性和规范性[6]。因此，本研究调查了我院门诊开具的克拉霉素联合用药处方，依据循证医学证据对处方中存在pADIs的药物进行鉴别及分级（发现联合用药处方存在的问题），通过合理用药管理系统建立联合用药处方的精细化前置审方规则（解决问题），旨在为保障患者用药安全提供参考。2　结果"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙.pdf",
+          "chunk_index": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "raw_text": "该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病",
+          "chunk_id": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "data": "e-review rules for clarithromycin combined drug prescription have been established successfully.KEYWORDS clarithromycin；potential adverse drug interactions；prescription pre-review克拉霉素是一种半合成14元环的红霉素衍生物，属于第二代大环内酯类抗菌药物，具有半衰期长、对酸稳定、生物利用度高和患者耐受性好等特点；该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病[1―2]。大环内酯类抗菌药物为代谢酶细胞色素 P450（cytochrome P450，CYP）3A4和转运体 P 糖蛋白（P-glycoprotein，P-gp）的底物及抑制剂，其中以克拉霉素对CYP3A4的抑制作用最强，与其他药物发生潜在不良药物相互作用（potential adversedrug interactions，pADIs）的风险最高[3] 。本课题组前期研究发现，蚌埠市第三人民医院（以下简称“我院”）门诊处方中，克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等，因此需要加强监测及干预[4―5]。近年来，我国各级卫生健康委要求医疗机构积极推进处方前置审核工作的信息化建设，例如有学者开展了基于循证医学证据的处方审核，提高了信息化审方的同质性和规范性[6]。因此，本研究调查了我院门诊开具的克拉霉素联合用药处方，依据循证医学证据对处方中存在pADIs的药物进行鉴别及分级（发现联合用药处方存在的问题），通过合理用药管理系统建立联合用药处方的精细化前置审方规则（解决问题），旨在为保障患者用药安全提供参考。2　结果"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙.pdf",
+          "chunk_index": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "raw_text": "该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病",
+          "chunk_id": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "data": "e-review rules for clarithromycin combined drug prescription have been established successfully.KEYWORDS clarithromycin；potential adverse drug interactions；prescription pre-review克拉霉素是一种半合成14元环的红霉素衍生物，属于第二代大环内酯类抗菌药物，具有半衰期长、对酸稳定、生物利用度高和患者耐受性好等特点；该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病[1―2]。大环内酯类抗菌药物为代谢酶细胞色素 P450（cytochrome P450，CYP）3A4和转运体 P 糖蛋白（P-glycoprotein，P-gp）的底物及抑制剂，其中以克拉霉素对CYP3A4的抑制作用最强，与其他药物发生潜在不良药物相互作用（potential adversedrug interactions，pADIs）的风险最高[3] 。本课题组前期研究发现，蚌埠市第三人民医院（以下简称“我院”）门诊处方中，克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等，因此需要加强监测及干预[4―5]。近年来，我国各级卫生健康委要求医疗机构积极推进处方前置审核工作的信息化建设，例如有学者开展了基于循证医学证据的处方审核，提高了信息化审方的同质性和规范性[6]。因此，本研究调查了我院门诊开具的克拉霉素联合用药处方，依据循证医学证据对处方中存在pADIs的药物进行鉴别及分级（发现联合用药处方存在的问题），通过合理用药管理系统建立联合用药处方的精细化前置审方规则（解决问题），旨在为保障患者用药安全提供参考。2　结果"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙.pdf",
+          "chunk_index": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "raw_text": "该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病",
+          "chunk_id": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "data": "e-review rules for clarithromycin combined drug prescription have been established successfully.KEYWORDS clarithromycin；potential adverse drug interactions；prescription pre-review克拉霉素是一种半合成14元环的红霉素衍生物，属于第二代大环内酯类抗菌药物，具有半衰期长、对酸稳定、生物利用度高和患者耐受性好等特点；该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病[1―2]。大环内酯类抗菌药物为代谢酶细胞色素 P450（cytochrome P450，CYP）3A4和转运体 P 糖蛋白（P-glycoprotein，P-gp）的底物及抑制剂，其中以克拉霉素对CYP3A4的抑制作用最强，与其他药物发生潜在不良药物相互作用（potential adversedrug interactions，pADIs）的风险最高[3] 。本课题组前期研究发现，蚌埠市第三人民医院（以下简称“我院”）门诊处方中，克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等，因此需要加强监测及干预[4―5]。近年来，我国各级卫生健康委要求医疗机构积极推进处方前置审核工作的信息化建设，例如有学者开展了基于循证医学证据的处方审核，提高了信息化审方的同质性和规范性[6]。因此，本研究调查了我院门诊开具的克拉霉素联合用药处方，依据循证医学证据对处方中存在pADIs的药物进行鉴别及分级（发现联合用药处方存在的问题），通过合理用药管理系统建立联合用药处方的精细化前置审方规则（解决问题），旨在为保障患者用药安全提供参考。2　结果"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙.pdf",
+          "chunk_index": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "raw_text": "该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病",
+          "chunk_id": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "data": "e-review rules for clarithromycin combined drug prescription have been established successfully.KEYWORDS clarithromycin；potential adverse drug interactions；prescription pre-review克拉霉素是一种半合成14元环的红霉素衍生物，属于第二代大环内酯类抗菌药物，具有半衰期长、对酸稳定、生物利用度高和患者耐受性好等特点；该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病[1―2]。大环内酯类抗菌药物为代谢酶细胞色素 P450（cytochrome P450，CYP）3A4和转运体 P 糖蛋白（P-glycoprotein，P-gp）的底物及抑制剂，其中以克拉霉素对CYP3A4的抑制作用最强，与其他药物发生潜在不良药物相互作用（potential adversedrug interactions，pADIs）的风险最高[3] 。本课题组前期研究发现，蚌埠市第三人民医院（以下简称“我院”）门诊处方中，克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等，因此需要加强监测及干预[4―5]。近年来，我国各级卫生健康委要求医疗机构积极推进处方前置审核工作的信息化建设，例如有学者开展了基于循证医学证据的处方审核，提高了信息化审方的同质性和规范性[6]。因此，本研究调查了我院门诊开具的克拉霉素联合用药处方，依据循证医学证据对处方中存在pADIs的药物进行鉴别及分级（发现联合用药处方存在的问题），通过合理用药管理系统建立联合用药处方的精细化前置审方规则（解决问题），旨在为保障患者用药安全提供参考。2　结果"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙.pdf",
+          "chunk_index": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "raw_text": "克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等",
+          "chunk_id": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "data": "e-review rules for clarithromycin combined drug prescription have been established successfully.KEYWORDS clarithromycin；potential adverse drug interactions；prescription pre-review克拉霉素是一种半合成14元环的红霉素衍生物，属于第二代大环内酯类抗菌药物，具有半衰期长、对酸稳定、生物利用度高和患者耐受性好等特点；该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病[1―2]。大环内酯类抗菌药物为代谢酶细胞色素 P450（cytochrome P450，CYP）3A4和转运体 P 糖蛋白（P-glycoprotein，P-gp）的底物及抑制剂，其中以克拉霉素对CYP3A4的抑制作用最强，与其他药物发生潜在不良药物相互作用（potential adversedrug interactions，pADIs）的风险最高[3] 。本课题组前期研究发现，蚌埠市第三人民医院（以下简称“我院”）门诊处方中，克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等，因此需要加强监测及干预[4―5]。近年来，我国各级卫生健康委要求医疗机构积极推进处方前置审核工作的信息化建设，例如有学者开展了基于循证医学证据的处方审核，提高了信息化审方的同质性和规范性[6]。因此，本研究调查了我院门诊开具的克拉霉素联合用药处方，依据循证医学证据对处方中存在pADIs的药物进行鉴别及分级（发现联合用药处方存在的问题），通过合理用药管理系统建立联合用药处方的精细化前置审方规则（解决问题），旨在为保障患者用药安全提供参考。2　结果"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙.pdf",
+          "chunk_index": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "raw_text": "克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等",
+          "chunk_id": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "data": "e-review rules for clarithromycin combined drug prescription have been established successfully.KEYWORDS clarithromycin；potential adverse drug interactions；prescription pre-review克拉霉素是一种半合成14元环的红霉素衍生物，属于第二代大环内酯类抗菌药物，具有半衰期长、对酸稳定、生物利用度高和患者耐受性好等特点；该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病[1―2]。大环内酯类抗菌药物为代谢酶细胞色素 P450（cytochrome P450，CYP）3A4和转运体 P 糖蛋白（P-glycoprotein，P-gp）的底物及抑制剂，其中以克拉霉素对CYP3A4的抑制作用最强，与其他药物发生潜在不良药物相互作用（potential adversedrug interactions，pADIs）的风险最高[3] 。本课题组前期研究发现，蚌埠市第三人民医院（以下简称“我院”）门诊处方中，克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等，因此需要加强监测及干预[4―5]。近年来，我国各级卫生健康委要求医疗机构积极推进处方前置审核工作的信息化建设，例如有学者开展了基于循证医学证据的处方审核，提高了信息化审方的同质性和规范性[6]。因此，本研究调查了我院门诊开具的克拉霉素联合用药处方，依据循证医学证据对处方中存在pADIs的药物进行鉴别及分级（发现联合用药处方存在的问题），通过合理用药管理系统建立联合用药处方的精细化前置审方规则（解决问题），旨在为保障患者用药安全提供参考。2　结果"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙.pdf",
+          "chunk_index": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "raw_text": "克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等",
+          "chunk_id": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "data": "e-review rules for clarithromycin combined drug prescription have been established successfully.KEYWORDS clarithromycin；potential adverse drug interactions；prescription pre-review克拉霉素是一种半合成14元环的红霉素衍生物，属于第二代大环内酯类抗菌药物，具有半衰期长、对酸稳定、生物利用度高和患者耐受性好等特点；该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病[1―2]。大环内酯类抗菌药物为代谢酶细胞色素 P450（cytochrome P450，CYP）3A4和转运体 P 糖蛋白（P-glycoprotein，P-gp）的底物及抑制剂，其中以克拉霉素对CYP3A4的抑制作用最强，与其他药物发生潜在不良药物相互作用（potential adversedrug interactions，pADIs）的风险最高[3] 。本课题组前期研究发现，蚌埠市第三人民医院（以下简称“我院”）门诊处方中，克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等，因此需要加强监测及干预[4―5]。近年来，我国各级卫生健康委要求医疗机构积极推进处方前置审核工作的信息化建设，例如有学者开展了基于循证医学证据的处方审核，提高了信息化审方的同质性和规范性[6]。因此，本研究调查了我院门诊开具的克拉霉素联合用药处方，依据循证医学证据对处方中存在pADIs的药物进行鉴别及分级（发现联合用药处方存在的问题），通过合理用药管理系统建立联合用药处方的精细化前置审方规则（解决问题），旨在为保障患者用药安全提供参考。2　结果"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙.pdf",
+          "chunk_index": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "raw_text": "克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等",
+          "chunk_id": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "data": "e-review rules for clarithromycin combined drug prescription have been established successfully.KEYWORDS clarithromycin；potential adverse drug interactions；prescription pre-review克拉霉素是一种半合成14元环的红霉素衍生物，属于第二代大环内酯类抗菌药物，具有半衰期长、对酸稳定、生物利用度高和患者耐受性好等特点；该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病[1―2]。大环内酯类抗菌药物为代谢酶细胞色素 P450（cytochrome P450，CYP）3A4和转运体 P 糖蛋白（P-glycoprotein，P-gp）的底物及抑制剂，其中以克拉霉素对CYP3A4的抑制作用最强，与其他药物发生潜在不良药物相互作用（potential adversedrug interactions，pADIs）的风险最高[3] 。本课题组前期研究发现，蚌埠市第三人民医院（以下简称“我院”）门诊处方中，克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等，因此需要加强监测及干预[4―5]。近年来，我国各级卫生健康委要求医疗机构积极推进处方前置审核工作的信息化建设，例如有学者开展了基于循证医学证据的处方审核，提高了信息化审方的同质性和规范性[6]。因此，本研究调查了我院门诊开具的克拉霉素联合用药处方，依据循证医学证据对处方中存在pADIs的药物进行鉴别及分级（发现联合用药处方存在的问题），通过合理用药管理系统建立联合用药处方的精细化前置审方规则（解决问题），旨在为保障患者用药安全提供参考。2　结果"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙.pdf",
+          "chunk_index": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "raw_text": "克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等",
+          "chunk_id": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+          "data": "e-review rules for clarithromycin combined drug prescription have been established successfully.KEYWORDS clarithromycin；potential adverse drug interactions；prescription pre-review克拉霉素是一种半合成14元环的红霉素衍生物，属于第二代大环内酯类抗菌药物，具有半衰期长、对酸稳定、生物利用度高和患者耐受性好等特点；该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病[1―2]。大环内酯类抗菌药物为代谢酶细胞色素 P450（cytochrome P450，CYP）3A4和转运体 P 糖蛋白（P-glycoprotein，P-gp）的底物及抑制剂，其中以克拉霉素对CYP3A4的抑制作用最强，与其他药物发生潜在不良药物相互作用（potential adversedrug interactions，pADIs）的风险最高[3] 。本课题组前期研究发现，蚌埠市第三人民医院（以下简称“我院”）门诊处方中，克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等，因此需要加强监测及干预[4―5]。近年来，我国各级卫生健康委要求医疗机构积极推进处方前置审核工作的信息化建设，例如有学者开展了基于循证医学证据的处方审核，提高了信息化审方的同质性和规范性[6]。因此，本研究调查了我院门诊开具的克拉霉素联合用药处方，依据循证医学证据对处方中存在pADIs的药物进行鉴别及分级（发现联合用药处方存在的问题），通过合理用药管理系统建立联合用药处方的精细化前置审方规则（解决问题），旨在为保障患者用药安全提供参考。2　结果"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙:9",
+    "source": "克拉霉素潜在不良药物相互作用分析及精细化前置审方规则建立_汪龙.pdf",
+    "text": "e-review rules for clarithromycin combined drug prescription have been established successfully.KEYWORDS clarithromycin；potential adverse drug interactions；prescription pre-review克拉霉素是一种半合成14元环的红霉素衍生物，属于第二代大环内酯类抗菌药物，具有半衰期长、对酸稳定、生物利用度高和患者耐受性好等特点；该药对革兰氏阳性菌、厌氧菌、支原体及衣原体等均有抗菌活性，已广泛用于治疗支气管炎、肺炎、百日咳、咽炎、鼻窦炎、毛囊炎和幽门螺杆菌感染等疾病[1―2]。大环内酯类抗菌药物为代谢酶细胞色素 P450（cytochrome P450，CYP）3A4和转运体 P 糖蛋白（P-glycoprotein，P-gp）的底物及抑制剂，其中以克拉霉素对CYP3A4的抑制作用最强，与其他药物发生潜在不良药物相互作用（potential adversedrug interactions，pADIs）的风险最高[3] 。本课题组前期研究发现，蚌埠市第三人民医院（以下简称“我院”）门诊处方中，克拉霉素与磺酰脲类降糖药、钙拮抗剂等药物联用存在pADIs，如导致患者低血糖、血压降低和急性肾衰竭等，因此需要加强监测及干预[4―5]。近年来，我国各级卫生健康委要求医疗机构积极推进处方前置审核工作的信息化建设，例如有学者开展了基于循证医学证据的处方审核，提高了信息化审方的同质性和规范性[6]。因此，本研究调查了我院门诊开具的克拉霉素联合用药处方，依据循证医学证据对处方中存在pADIs的药物进行鉴别及分级（发现联合用药处方存在的问题），通过合理用药管理系统建立联合用药处方的精细化前置审方规则（解决问题），旨在为保障患者用药安全提供参考。2　结果"
+  }
+]

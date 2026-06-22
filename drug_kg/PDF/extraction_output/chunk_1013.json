@@ -1,0 +1,265 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "五味子甲素",
+        "canonical_name": "五味子甲素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "五味子乙素",
+        "canonical_name": "五味子乙素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "五味子醇甲",
+        "canonical_name": "五味子醇甲",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "五味子酯甲",
+        "canonical_name": "五味子酯甲",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "五味子丙素",
+        "canonical_name": "五味子丙素",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "五味子醇乙",
+        "canonical_name": "五味子醇乙",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "五酯片",
+        "canonical_name": "五酯片",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "canonical_name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "CYP3A11",
+        "canonical_name": "CYP3A11",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "UGT1A1",
+        "canonical_name": "UGT1A1",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Indicator",
+        "name": "PXR",
+        "canonical_name": "PXR",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "10",
+          "raw_text": "五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:10",
+          "data": "乙素、五味子醇甲、五味子酯甲也具有 PXR 激活效应，将五味子成分与 PXR LBD 进行分子对接，从配体-受体相互作用的角度分析五味子成分对 PXR 的激活效应，发现五味子酯甲能通过氢键和疏水作用与 PXR 配体结合腔发生广泛的相互作用。$\\mathrm { Z e n g }$ 等［35］ 通过 RT-qPCR 和蛋白质印迹法证实了使用五酯片治疗后，PXR 的目的基因 CYP3A11 和UGT1A1 表达显著升高，五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR，并且活性相似。$\\mathrm { M u }$ ［36］ 等证实了五味子甲素、五味子乙素、五味子醇甲五味子醇乙能激活 PXR，对 hPXR 和 mPXR 的$\\mathrm { E C } _ { 5 0 }$ 分别为 $2 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 和 $1 . 2 5 \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并且这种作用来自它们的母体植物( the parental herbs) ，而不是代谢物 。有研究通过建立 Caco-2 细胞模型［26］，证实五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "10",
+          "raw_text": "五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:10",
+          "data": "乙素、五味子醇甲、五味子酯甲也具有 PXR 激活效应，将五味子成分与 PXR LBD 进行分子对接，从配体-受体相互作用的角度分析五味子成分对 PXR 的激活效应，发现五味子酯甲能通过氢键和疏水作用与 PXR 配体结合腔发生广泛的相互作用。$\\mathrm { Z e n g }$ 等［35］ 通过 RT-qPCR 和蛋白质印迹法证实了使用五酯片治疗后，PXR 的目的基因 CYP3A11 和UGT1A1 表达显著升高，五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR，并且活性相似。$\\mathrm { M u }$ ［36］ 等证实了五味子甲素、五味子乙素、五味子醇甲五味子醇乙能激活 PXR，对 hPXR 和 mPXR 的$\\mathrm { E C } _ { 5 0 }$ 分别为 $2 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 和 $1 . 2 5 \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并且这种作用来自它们的母体植物( the parental herbs) ，而不是代谢物 。有研究通过建立 Caco-2 细胞模型［26］，证实五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_3",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "10",
+          "raw_text": "五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:10",
+          "data": "乙素、五味子醇甲、五味子酯甲也具有 PXR 激活效应，将五味子成分与 PXR LBD 进行分子对接，从配体-受体相互作用的角度分析五味子成分对 PXR 的激活效应，发现五味子酯甲能通过氢键和疏水作用与 PXR 配体结合腔发生广泛的相互作用。$\\mathrm { Z e n g }$ 等［35］ 通过 RT-qPCR 和蛋白质印迹法证实了使用五酯片治疗后，PXR 的目的基因 CYP3A11 和UGT1A1 表达显著升高，五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR，并且活性相似。$\\mathrm { M u }$ ［36］ 等证实了五味子甲素、五味子乙素、五味子醇甲五味子醇乙能激活 PXR，对 hPXR 和 mPXR 的$\\mathrm { E C } _ { 5 0 }$ 分别为 $2 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 和 $1 . 2 5 \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并且这种作用来自它们的母体植物( the parental herbs) ，而不是代谢物 。有研究通过建立 Caco-2 细胞模型［26］，证实五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "10",
+          "raw_text": "五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:10",
+          "data": "乙素、五味子醇甲、五味子酯甲也具有 PXR 激活效应，将五味子成分与 PXR LBD 进行分子对接，从配体-受体相互作用的角度分析五味子成分对 PXR 的激活效应，发现五味子酯甲能通过氢键和疏水作用与 PXR 配体结合腔发生广泛的相互作用。$\\mathrm { Z e n g }$ 等［35］ 通过 RT-qPCR 和蛋白质印迹法证实了使用五酯片治疗后，PXR 的目的基因 CYP3A11 和UGT1A1 表达显著升高，五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR，并且活性相似。$\\mathrm { M u }$ ［36］ 等证实了五味子甲素、五味子乙素、五味子醇甲五味子醇乙能激活 PXR，对 hPXR 和 mPXR 的$\\mathrm { E C } _ { 5 0 }$ 分别为 $2 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 和 $1 . 2 5 \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并且这种作用来自它们的母体植物( the parental herbs) ，而不是代谢物 。有研究通过建立 Caco-2 细胞模型［26］，证实五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_5",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "10",
+          "raw_text": "五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:10",
+          "data": "乙素、五味子醇甲、五味子酯甲也具有 PXR 激活效应，将五味子成分与 PXR LBD 进行分子对接，从配体-受体相互作用的角度分析五味子成分对 PXR 的激活效应，发现五味子酯甲能通过氢键和疏水作用与 PXR 配体结合腔发生广泛的相互作用。$\\mathrm { Z e n g }$ 等［35］ 通过 RT-qPCR 和蛋白质印迹法证实了使用五酯片治疗后，PXR 的目的基因 CYP3A11 和UGT1A1 表达显著升高，五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR，并且活性相似。$\\mathrm { M u }$ ［36］ 等证实了五味子甲素、五味子乙素、五味子醇甲五味子醇乙能激活 PXR，对 hPXR 和 mPXR 的$\\mathrm { E C } _ { 5 0 }$ 分别为 $2 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 和 $1 . 2 5 \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并且这种作用来自它们的母体植物( the parental herbs) ，而不是代谢物 。有研究通过建立 Caco-2 细胞模型［26］，证实五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_6",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "10",
+          "raw_text": "五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:10",
+          "data": "乙素、五味子醇甲、五味子酯甲也具有 PXR 激活效应，将五味子成分与 PXR LBD 进行分子对接，从配体-受体相互作用的角度分析五味子成分对 PXR 的激活效应，发现五味子酯甲能通过氢键和疏水作用与 PXR 配体结合腔发生广泛的相互作用。$\\mathrm { Z e n g }$ 等［35］ 通过 RT-qPCR 和蛋白质印迹法证实了使用五酯片治疗后，PXR 的目的基因 CYP3A11 和UGT1A1 表达显著升高，五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR，并且活性相似。$\\mathrm { M u }$ ［36］ 等证实了五味子甲素、五味子乙素、五味子醇甲五味子醇乙能激活 PXR，对 hPXR 和 mPXR 的$\\mathrm { E C } _ { 5 0 }$ 分别为 $2 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 和 $1 . 2 5 \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并且这种作用来自它们的母体植物( the parental herbs) ，而不是代谢物 。有研究通过建立 Caco-2 细胞模型［26］，证实五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "10",
+          "raw_text": "使用五酯片治疗后，PXR 的目的基因 CYP3A11 和 UGT1A1 表达显著升高",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:10",
+          "data": "乙素、五味子醇甲、五味子酯甲也具有 PXR 激活效应，将五味子成分与 PXR LBD 进行分子对接，从配体-受体相互作用的角度分析五味子成分对 PXR 的激活效应，发现五味子酯甲能通过氢键和疏水作用与 PXR 配体结合腔发生广泛的相互作用。$\\mathrm { Z e n g }$ 等［35］ 通过 RT-qPCR 和蛋白质印迹法证实了使用五酯片治疗后，PXR 的目的基因 CYP3A11 和UGT1A1 表达显著升高，五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR，并且活性相似。$\\mathrm { M u }$ ［36］ 等证实了五味子甲素、五味子乙素、五味子醇甲五味子醇乙能激活 PXR，对 hPXR 和 mPXR 的$\\mathrm { E C } _ { 5 0 }$ 分别为 $2 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 和 $1 . 2 5 \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并且这种作用来自它们的母体植物( the parental herbs) ，而不是代谢物 。有研究通过建立 Caco-2 细胞模型［26］，证实五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "10",
+          "raw_text": "使用五酯片治疗后，PXR 的目的基因 CYP3A11 和 UGT1A1 表达显著升高",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:10",
+          "data": "乙素、五味子醇甲、五味子酯甲也具有 PXR 激活效应，将五味子成分与 PXR LBD 进行分子对接，从配体-受体相互作用的角度分析五味子成分对 PXR 的激活效应，发现五味子酯甲能通过氢键和疏水作用与 PXR 配体结合腔发生广泛的相互作用。$\\mathrm { Z e n g }$ 等［35］ 通过 RT-qPCR 和蛋白质印迹法证实了使用五酯片治疗后，PXR 的目的基因 CYP3A11 和UGT1A1 表达显著升高，五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR，并且活性相似。$\\mathrm { M u }$ ［36］ 等证实了五味子甲素、五味子乙素、五味子醇甲五味子醇乙能激活 PXR，对 hPXR 和 mPXR 的$\\mathrm { E C } _ { 5 0 }$ 分别为 $2 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 和 $1 . 2 5 \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并且这种作用来自它们的母体植物( the parental herbs) ，而不是代谢物 。有研究通过建立 Caco-2 细胞模型［26］，证实五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "10",
+          "raw_text": "五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 P-gp 介导的他克莫司的外排",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:10",
+          "data": "乙素、五味子醇甲、五味子酯甲也具有 PXR 激活效应，将五味子成分与 PXR LBD 进行分子对接，从配体-受体相互作用的角度分析五味子成分对 PXR 的激活效应，发现五味子酯甲能通过氢键和疏水作用与 PXR 配体结合腔发生广泛的相互作用。$\\mathrm { Z e n g }$ 等［35］ 通过 RT-qPCR 和蛋白质印迹法证实了使用五酯片治疗后，PXR 的目的基因 CYP3A11 和UGT1A1 表达显著升高，五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR，并且活性相似。$\\mathrm { M u }$ ［36］ 等证实了五味子甲素、五味子乙素、五味子醇甲五味子醇乙能激活 PXR，对 hPXR 和 mPXR 的$\\mathrm { E C } _ { 5 0 }$ 分别为 $2 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 和 $1 . 2 5 \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并且这种作用来自它们的母体植物( the parental herbs) ，而不是代谢物 。有研究通过建立 Caco-2 细胞模型［26］，证实五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "10",
+          "raw_text": "五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 P-gp 介导的他克莫司的外排",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:10",
+          "data": "乙素、五味子醇甲、五味子酯甲也具有 PXR 激活效应，将五味子成分与 PXR LBD 进行分子对接，从配体-受体相互作用的角度分析五味子成分对 PXR 的激活效应，发现五味子酯甲能通过氢键和疏水作用与 PXR 配体结合腔发生广泛的相互作用。$\\mathrm { Z e n g }$ 等［35］ 通过 RT-qPCR 和蛋白质印迹法证实了使用五酯片治疗后，PXR 的目的基因 CYP3A11 和UGT1A1 表达显著升高，五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR，并且活性相似。$\\mathrm { M u }$ ［36］ 等证实了五味子甲素、五味子乙素、五味子醇甲五味子醇乙能激活 PXR，对 hPXR 和 mPXR 的$\\mathrm { E C } _ { 5 0 }$ 分别为 $2 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 和 $1 . 2 5 \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并且这种作用来自它们的母体植物( the parental herbs) ，而不是代谢物 。有研究通过建立 Caco-2 细胞模型［26］，证实五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "10",
+          "raw_text": "五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 P-gp 介导的他克莫司的外排",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:10",
+          "data": "乙素、五味子醇甲、五味子酯甲也具有 PXR 激活效应，将五味子成分与 PXR LBD 进行分子对接，从配体-受体相互作用的角度分析五味子成分对 PXR 的激活效应，发现五味子酯甲能通过氢键和疏水作用与 PXR 配体结合腔发生广泛的相互作用。$\\mathrm { Z e n g }$ 等［35］ 通过 RT-qPCR 和蛋白质印迹法证实了使用五酯片治疗后，PXR 的目的基因 CYP3A11 和UGT1A1 表达显著升高，五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR，并且活性相似。$\\mathrm { M u }$ ［36］ 等证实了五味子甲素、五味子乙素、五味子醇甲五味子醇乙能激活 PXR，对 hPXR 和 mPXR 的$\\mathrm { E C } _ { 5 0 }$ 分别为 $2 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 和 $1 . 2 5 \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并且这种作用来自它们的母体植物( the parental herbs) ，而不是代谢物 。有研究通过建立 Caco-2 细胞模型［26］，证实五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "10",
+          "raw_text": "五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 P-gp 介导的他克莫司的外排",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:10",
+          "data": "乙素、五味子醇甲、五味子酯甲也具有 PXR 激活效应，将五味子成分与 PXR LBD 进行分子对接，从配体-受体相互作用的角度分析五味子成分对 PXR 的激活效应，发现五味子酯甲能通过氢键和疏水作用与 PXR 配体结合腔发生广泛的相互作用。$\\mathrm { Z e n g }$ 等［35］ 通过 RT-qPCR 和蛋白质印迹法证实了使用五酯片治疗后，PXR 的目的基因 CYP3A11 和UGT1A1 表达显著升高，五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR，并且活性相似。$\\mathrm { M u }$ ［36］ 等证实了五味子甲素、五味子乙素、五味子醇甲五味子醇乙能激活 PXR，对 hPXR 和 mPXR 的$\\mathrm { E C } _ { 5 0 }$ 分别为 $2 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 和 $1 . 2 5 \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并且这种作用来自它们的母体植物( the parental herbs) ，而不是代谢物 。有研究通过建立 Caco-2 细胞模型［26］，证实五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "10",
+          "raw_text": "五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 P-gp 介导的他克莫司的外排",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:10",
+          "data": "乙素、五味子醇甲、五味子酯甲也具有 PXR 激活效应，将五味子成分与 PXR LBD 进行分子对接，从配体-受体相互作用的角度分析五味子成分对 PXR 的激活效应，发现五味子酯甲能通过氢键和疏水作用与 PXR 配体结合腔发生广泛的相互作用。$\\mathrm { Z e n g }$ 等［35］ 通过 RT-qPCR 和蛋白质印迹法证实了使用五酯片治疗后，PXR 的目的基因 CYP3A11 和UGT1A1 表达显著升高，五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR，并且活性相似。$\\mathrm { M u }$ ［36］ 等证实了五味子甲素、五味子乙素、五味子醇甲五味子醇乙能激活 PXR，对 hPXR 和 mPXR 的$\\mathrm { E C } _ { 5 0 }$ 分别为 $2 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 和 $1 . 2 5 \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并且这种作用来自它们的母体植物( the parental herbs) ，而不是代谢物 。有研究通过建立 Caco-2 细胞模型［26］，证实五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:10",
+    "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+    "text": "乙素、五味子醇甲、五味子酯甲也具有 PXR 激活效应，将五味子成分与 PXR LBD 进行分子对接，从配体-受体相互作用的角度分析五味子成分对 PXR 的激活效应，发现五味子酯甲能通过氢键和疏水作用与 PXR 配体结合腔发生广泛的相互作用。$\\mathrm { Z e n g }$ 等［35］ 通过 RT-qPCR 和蛋白质印迹法证实了使用五酯片治疗后，PXR 的目的基因 CYP3A11 和UGT1A1 表达显著升高，五味子甲素、五味子乙素、五味子丙素五味子醇甲五味子醇乙五味子酯甲能激活人 PXR，并且活性相似。$\\mathrm { M u }$ ［36］ 等证实了五味子甲素、五味子乙素、五味子醇甲五味子醇乙能激活 PXR，对 hPXR 和 mPXR 的$\\mathrm { E C } _ { 5 0 }$ 分别为 $2 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 和 $1 . 2 5 \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并且这种作用来自它们的母体植物( the parental herbs) ，而不是代谢物 。有研究通过建立 Caco-2 细胞模型［26］，证实五酯片、维拉帕米、五味子甲素、五味子丙素及五味子醇乙能抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 介导的他克莫司的外排，其中五味子甲素抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的作用最强。"
+  }
+]

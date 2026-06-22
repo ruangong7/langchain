@@ -1,0 +1,191 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "银杏",
+        "canonical_name": "银杏",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "姜黄",
+        "canonical_name": "姜黄",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "甘草",
+        "canonical_name": "甘草",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "人参",
+        "canonical_name": "人参",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "黄芪",
+        "canonical_name": "黄芪",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "化学药物",
+        "canonical_name": "化学药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "BCRP",
+        "canonical_name": "乳腺癌耐药蛋白",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜.pdf",
+          "chunk_index": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "raw_text": "This paper will mainly review the effects of the commonly used traditional Chinese medicines such as ginkgo, turmeric, liquorice root, ginseng and astragali radix on BCRP and the possible herb-drug interactions",
+          "chunk_id": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "data": "良影响。此外，由于BCRP的过表达也是导致肿瘤多药耐药的重要原因之一，如何逆转BCRP介导的肿瘤多药耐药，也成为当前抗肿瘤治疗的迫切需求。从大量中药资源宝库中寻找与开发低毒、高效的抑制剂，将有可能为逆转介导的肿瘤多药耐药带来新的生机与希望。Herb-Drug Interactions Mediated by Breast Cancer Resistance Protein\nWu Lingna, Zhan Tao, Xia Chunhua(Clinical Pharmacology Institute, Nanchang University, Nanchang 330006, China)Abstract: Traditional Chinese medicine (TCM) and its preparations are often used together with chemical drugs as an important therapeutic means in clinical practice. Therefore, attention should be paid to the interaction between traditional Chinese medicines and chemical drugs. BCRP (Breast Cancer Resistance Protein) is one of the most important efflux transporters involved in the absorption, distribution, metabolism and excretion of many drugs in the body. The expression and efflux activity of BCRP are often affected by related substrates or inhibitors, resulting in the pharmacokinetic change of the combined drugs and herb- drug interactions. This paper will mainly review the effects of the c"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜.pdf",
+          "chunk_index": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "raw_text": "This paper will mainly review the effects of the commonly used traditional Chinese medicines such as ginkgo, turmeric, liquorice root, ginseng and astragali radix on BCRP and the possible herb-drug interactions",
+          "chunk_id": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "data": "良影响。此外，由于BCRP的过表达也是导致肿瘤多药耐药的重要原因之一，如何逆转BCRP介导的肿瘤多药耐药，也成为当前抗肿瘤治疗的迫切需求。从大量中药资源宝库中寻找与开发低毒、高效的抑制剂，将有可能为逆转介导的肿瘤多药耐药带来新的生机与希望。Herb-Drug Interactions Mediated by Breast Cancer Resistance Protein\nWu Lingna, Zhan Tao, Xia Chunhua(Clinical Pharmacology Institute, Nanchang University, Nanchang 330006, China)Abstract: Traditional Chinese medicine (TCM) and its preparations are often used together with chemical drugs as an important therapeutic means in clinical practice. Therefore, attention should be paid to the interaction between traditional Chinese medicines and chemical drugs. BCRP (Breast Cancer Resistance Protein) is one of the most important efflux transporters involved in the absorption, distribution, metabolism and excretion of many drugs in the body. The expression and efflux activity of BCRP are often affected by related substrates or inhibitors, resulting in the pharmacokinetic change of the combined drugs and herb- drug interactions. This paper will mainly review the effects of the c"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜.pdf",
+          "chunk_index": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "raw_text": "This paper will mainly review the effects of the commonly used traditional Chinese medicines such as ginkgo, turmeric, liquorice root, ginseng and astragali radix on BCRP and the possible herb-drug interactions",
+          "chunk_id": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "data": "良影响。此外，由于BCRP的过表达也是导致肿瘤多药耐药的重要原因之一，如何逆转BCRP介导的肿瘤多药耐药，也成为当前抗肿瘤治疗的迫切需求。从大量中药资源宝库中寻找与开发低毒、高效的抑制剂，将有可能为逆转介导的肿瘤多药耐药带来新的生机与希望。Herb-Drug Interactions Mediated by Breast Cancer Resistance Protein\nWu Lingna, Zhan Tao, Xia Chunhua(Clinical Pharmacology Institute, Nanchang University, Nanchang 330006, China)Abstract: Traditional Chinese medicine (TCM) and its preparations are often used together with chemical drugs as an important therapeutic means in clinical practice. Therefore, attention should be paid to the interaction between traditional Chinese medicines and chemical drugs. BCRP (Breast Cancer Resistance Protein) is one of the most important efflux transporters involved in the absorption, distribution, metabolism and excretion of many drugs in the body. The expression and efflux activity of BCRP are often affected by related substrates or inhibitors, resulting in the pharmacokinetic change of the combined drugs and herb- drug interactions. This paper will mainly review the effects of the c"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜.pdf",
+          "chunk_index": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "raw_text": "This paper will mainly review the effects of the commonly used traditional Chinese medicines such as ginkgo, turmeric, liquorice root, ginseng and astragali radix on BCRP and the possible herb-drug interactions",
+          "chunk_id": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "data": "良影响。此外，由于BCRP的过表达也是导致肿瘤多药耐药的重要原因之一，如何逆转BCRP介导的肿瘤多药耐药，也成为当前抗肿瘤治疗的迫切需求。从大量中药资源宝库中寻找与开发低毒、高效的抑制剂，将有可能为逆转介导的肿瘤多药耐药带来新的生机与希望。Herb-Drug Interactions Mediated by Breast Cancer Resistance Protein\nWu Lingna, Zhan Tao, Xia Chunhua(Clinical Pharmacology Institute, Nanchang University, Nanchang 330006, China)Abstract: Traditional Chinese medicine (TCM) and its preparations are often used together with chemical drugs as an important therapeutic means in clinical practice. Therefore, attention should be paid to the interaction between traditional Chinese medicines and chemical drugs. BCRP (Breast Cancer Resistance Protein) is one of the most important efflux transporters involved in the absorption, distribution, metabolism and excretion of many drugs in the body. The expression and efflux activity of BCRP are often affected by related substrates or inhibitors, resulting in the pharmacokinetic change of the combined drugs and herb- drug interactions. This paper will mainly review the effects of the c"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜.pdf",
+          "chunk_index": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "raw_text": "This paper will mainly review the effects of the commonly used traditional Chinese medicines such as ginkgo, turmeric, liquorice root, ginseng and astragali radix on BCRP and the possible herb-drug interactions",
+          "chunk_id": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "data": "良影响。此外，由于BCRP的过表达也是导致肿瘤多药耐药的重要原因之一，如何逆转BCRP介导的肿瘤多药耐药，也成为当前抗肿瘤治疗的迫切需求。从大量中药资源宝库中寻找与开发低毒、高效的抑制剂，将有可能为逆转介导的肿瘤多药耐药带来新的生机与希望。Herb-Drug Interactions Mediated by Breast Cancer Resistance Protein\nWu Lingna, Zhan Tao, Xia Chunhua(Clinical Pharmacology Institute, Nanchang University, Nanchang 330006, China)Abstract: Traditional Chinese medicine (TCM) and its preparations are often used together with chemical drugs as an important therapeutic means in clinical practice. Therefore, attention should be paid to the interaction between traditional Chinese medicines and chemical drugs. BCRP (Breast Cancer Resistance Protein) is one of the most important efflux transporters involved in the absorption, distribution, metabolism and excretion of many drugs in the body. The expression and efflux activity of BCRP are often affected by related substrates or inhibitors, resulting in the pharmacokinetic change of the combined drugs and herb- drug interactions. This paper will mainly review the effects of the c"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜.pdf",
+          "chunk_index": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "raw_text": "This paper will mainly review the effects of the commonly used traditional Chinese medicines such as ginkgo, turmeric, liquorice root, ginseng and astragali radix on BCRP",
+          "chunk_id": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "data": "良影响。此外，由于BCRP的过表达也是导致肿瘤多药耐药的重要原因之一，如何逆转BCRP介导的肿瘤多药耐药，也成为当前抗肿瘤治疗的迫切需求。从大量中药资源宝库中寻找与开发低毒、高效的抑制剂，将有可能为逆转介导的肿瘤多药耐药带来新的生机与希望。Herb-Drug Interactions Mediated by Breast Cancer Resistance Protein\nWu Lingna, Zhan Tao, Xia Chunhua(Clinical Pharmacology Institute, Nanchang University, Nanchang 330006, China)Abstract: Traditional Chinese medicine (TCM) and its preparations are often used together with chemical drugs as an important therapeutic means in clinical practice. Therefore, attention should be paid to the interaction between traditional Chinese medicines and chemical drugs. BCRP (Breast Cancer Resistance Protein) is one of the most important efflux transporters involved in the absorption, distribution, metabolism and excretion of many drugs in the body. The expression and efflux activity of BCRP are often affected by related substrates or inhibitors, resulting in the pharmacokinetic change of the combined drugs and herb- drug interactions. This paper will mainly review the effects of the c"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜.pdf",
+          "chunk_index": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "raw_text": "This paper will mainly review the effects of the commonly used traditional Chinese medicines such as ginkgo, turmeric, liquorice root, ginseng and astragali radix on BCRP",
+          "chunk_id": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "data": "良影响。此外，由于BCRP的过表达也是导致肿瘤多药耐药的重要原因之一，如何逆转BCRP介导的肿瘤多药耐药，也成为当前抗肿瘤治疗的迫切需求。从大量中药资源宝库中寻找与开发低毒、高效的抑制剂，将有可能为逆转介导的肿瘤多药耐药带来新的生机与希望。Herb-Drug Interactions Mediated by Breast Cancer Resistance Protein\nWu Lingna, Zhan Tao, Xia Chunhua(Clinical Pharmacology Institute, Nanchang University, Nanchang 330006, China)Abstract: Traditional Chinese medicine (TCM) and its preparations are often used together with chemical drugs as an important therapeutic means in clinical practice. Therefore, attention should be paid to the interaction between traditional Chinese medicines and chemical drugs. BCRP (Breast Cancer Resistance Protein) is one of the most important efflux transporters involved in the absorption, distribution, metabolism and excretion of many drugs in the body. The expression and efflux activity of BCRP are often affected by related substrates or inhibitors, resulting in the pharmacokinetic change of the combined drugs and herb- drug interactions. This paper will mainly review the effects of the c"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜.pdf",
+          "chunk_index": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "raw_text": "This paper will mainly review the effects of the commonly used traditional Chinese medicines such as ginkgo, turmeric, liquorice root, ginseng and astragali radix on BCRP",
+          "chunk_id": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "data": "良影响。此外，由于BCRP的过表达也是导致肿瘤多药耐药的重要原因之一，如何逆转BCRP介导的肿瘤多药耐药，也成为当前抗肿瘤治疗的迫切需求。从大量中药资源宝库中寻找与开发低毒、高效的抑制剂，将有可能为逆转介导的肿瘤多药耐药带来新的生机与希望。Herb-Drug Interactions Mediated by Breast Cancer Resistance Protein\nWu Lingna, Zhan Tao, Xia Chunhua(Clinical Pharmacology Institute, Nanchang University, Nanchang 330006, China)Abstract: Traditional Chinese medicine (TCM) and its preparations are often used together with chemical drugs as an important therapeutic means in clinical practice. Therefore, attention should be paid to the interaction between traditional Chinese medicines and chemical drugs. BCRP (Breast Cancer Resistance Protein) is one of the most important efflux transporters involved in the absorption, distribution, metabolism and excretion of many drugs in the body. The expression and efflux activity of BCRP are often affected by related substrates or inhibitors, resulting in the pharmacokinetic change of the combined drugs and herb- drug interactions. This paper will mainly review the effects of the c"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜.pdf",
+          "chunk_index": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "raw_text": "This paper will mainly review the effects of the commonly used traditional Chinese medicines such as ginkgo, turmeric, liquorice root, ginseng and astragali radix on BCRP",
+          "chunk_id": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "data": "良影响。此外，由于BCRP的过表达也是导致肿瘤多药耐药的重要原因之一，如何逆转BCRP介导的肿瘤多药耐药，也成为当前抗肿瘤治疗的迫切需求。从大量中药资源宝库中寻找与开发低毒、高效的抑制剂，将有可能为逆转介导的肿瘤多药耐药带来新的生机与希望。Herb-Drug Interactions Mediated by Breast Cancer Resistance Protein\nWu Lingna, Zhan Tao, Xia Chunhua(Clinical Pharmacology Institute, Nanchang University, Nanchang 330006, China)Abstract: Traditional Chinese medicine (TCM) and its preparations are often used together with chemical drugs as an important therapeutic means in clinical practice. Therefore, attention should be paid to the interaction between traditional Chinese medicines and chemical drugs. BCRP (Breast Cancer Resistance Protein) is one of the most important efflux transporters involved in the absorption, distribution, metabolism and excretion of many drugs in the body. The expression and efflux activity of BCRP are often affected by related substrates or inhibitors, resulting in the pharmacokinetic change of the combined drugs and herb- drug interactions. This paper will mainly review the effects of the c"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜.pdf",
+          "chunk_index": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "raw_text": "This paper will mainly review the effects of the commonly used traditional Chinese medicines such as ginkgo, turmeric, liquorice root, ginseng and astragali radix on BCRP",
+          "chunk_id": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+          "data": "良影响。此外，由于BCRP的过表达也是导致肿瘤多药耐药的重要原因之一，如何逆转BCRP介导的肿瘤多药耐药，也成为当前抗肿瘤治疗的迫切需求。从大量中药资源宝库中寻找与开发低毒、高效的抑制剂，将有可能为逆转介导的肿瘤多药耐药带来新的生机与希望。Herb-Drug Interactions Mediated by Breast Cancer Resistance Protein\nWu Lingna, Zhan Tao, Xia Chunhua(Clinical Pharmacology Institute, Nanchang University, Nanchang 330006, China)Abstract: Traditional Chinese medicine (TCM) and its preparations are often used together with chemical drugs as an important therapeutic means in clinical practice. Therefore, attention should be paid to the interaction between traditional Chinese medicines and chemical drugs. BCRP (Breast Cancer Resistance Protein) is one of the most important efflux transporters involved in the absorption, distribution, metabolism and excretion of many drugs in the body. The expression and efflux activity of BCRP are often affected by related substrates or inhibitors, resulting in the pharmacokinetic change of the combined drugs and herb- drug interactions. This paper will mainly review the effects of the c"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜:6",
+    "source": "基于乳腺癌耐药蛋白介导的中药-化学药物相互作用研究_吴玲娜.pdf",
+    "text": "良影响。此外，由于BCRP的过表达也是导致肿瘤多药耐药的重要原因之一，如何逆转BCRP介导的肿瘤多药耐药，也成为当前抗肿瘤治疗的迫切需求。从大量中药资源宝库中寻找与开发低毒、高效的抑制剂，将有可能为逆转介导的肿瘤多药耐药带来新的生机与希望。Herb-Drug Interactions Mediated by Breast Cancer Resistance Protein\nWu Lingna, Zhan Tao, Xia Chunhua(Clinical Pharmacology Institute, Nanchang University, Nanchang 330006, China)Abstract: Traditional Chinese medicine (TCM) and its preparations are often used together with chemical drugs as an important therapeutic means in clinical practice. Therefore, attention should be paid to the interaction between traditional Chinese medicines and chemical drugs. BCRP (Breast Cancer Resistance Protein) is one of the most important efflux transporters involved in the absorption, distribution, metabolism and excretion of many drugs in the body. The expression and efflux activity of BCRP are often affected by related substrates or inhibitors, resulting in the pharmacokinetic change of the combined drugs and herb- drug interactions. This paper will mainly review the effects of the commonly used traditional Chinese medicines such as ginkgo, turmeric, liquorice root, ginseng and astragali radix on BCRP and the possible herb-drug interactions, so as to provide scientific basis for avoiding the risk of clinical herb-drug combination.Keywords: BCRP, herb and drug co-administration, interactions（责任编辑：周哲琦, 责任译审：王昭）"
+  }
+]

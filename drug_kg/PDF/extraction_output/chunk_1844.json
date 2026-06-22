@@ -1,0 +1,538 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "卡马西平",
+        "canonical_name": "卡马西平",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "醋竹桃霉素",
+        "canonical_name": "醋竹桃霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "红霉素",
+        "canonical_name": "红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "阿波霉素",
+        "canonical_name": "阿波霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "麦迪霉素",
+        "canonical_name": "麦迪霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "甲腈咪胍",
+        "canonical_name": "甲腈咪胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "右丙氧芬",
+        "canonical_name": "右丙氧芬",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "华法令",
+        "canonical_name": "华法令",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "大环内酯族抗生素",
+        "canonical_name": "大环内酯族抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "H2受体拮抗剂",
+        "canonical_name": "H2受体拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "镇痛药",
+        "canonical_name": "镇痛药",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "口服避孕药",
+        "canonical_name": "口服避孕药",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "SideEffect",
+        "name": "卡马西平中毒",
+        "canonical_name": "卡马西平中毒",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "抗利尿激素异常分泌综合征",
+        "canonical_name": "抗利尿激素异常分泌综合征",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Symptom",
+        "name": "发作性眩晕",
+        "canonical_name": "发作性眩晕",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Symptom",
+        "name": "视物模糊",
+        "canonical_name": "视物模糊",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Symptom",
+        "name": "眼球震颤",
+        "canonical_name": "眼球震颤",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Symptom",
+        "name": "恶心呕吐",
+        "canonical_name": "恶心呕吐",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Symptom",
+        "name": "步态共济失调",
+        "canonical_name": "步态共济失调",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Symptom",
+        "name": "阴道大出血",
+        "canonical_name": "阴道大出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Indicator",
+        "name": "血浆渗透压",
+        "canonical_name": "血浆渗透压",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Indicator",
+        "name": "血清钠",
+        "canonical_name": "血清钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Indicator",
+        "name": "血清钾",
+        "canonical_name": "血清钾",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Indicator",
+        "name": "血清氯化物",
+        "canonical_name": "血清氯化物",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Indicator",
+        "name": "凝血酶原时间",
+        "canonical_name": "凝血酶原时间",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "大环内酯族抗生素醋竹桃霉素可明显增高血CBZ浓度",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "口服红霉素500 mg qid抗感染时，血CBZ浓度达28.2 mg/l而发生CBZ中毒",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "合用其它大环内酯类药物如阿波霉素时亦应警惕CBZ中毒",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "合用其它大环内酯类药物如麦迪霉素时亦应警惕CBZ中毒",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "H2受体拮抗剂甲腈咪胍亦为肝氧化酶抑制剂，可使血CBZ浓度增高",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "镇痛药右丙氧芬亦为肝氧化酶抑制剂，可使血CBZ浓度增高",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "CBZ合用口服避孕药时可发生阴道大出血及避孕失败",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "CBZ还能使华法令的抗凝作用减弱，凝血酶无时间延长",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "血CBZ浓度达28.2 mg/l而发生CBZ中毒",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "发生CBZ中毒及抗利尿激素异常分泌综合征",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_14",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_14",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_14",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_14",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_14",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_14",
+        "target_id": "ent_21",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "血浆渗透压、血清钠、钾、氯化物均降低",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_14",
+        "target_id": "ent_22",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "血浆渗透压、血清钠、钾、氯化物均降低",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_14",
+        "target_id": "ent_23",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "血浆渗透压、血清钠、钾、氯化物均降低",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_14",
+        "target_id": "ent_24",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "血浆渗透压、血清钠、钾、氯化物均降低",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_25",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "CBZ还能使华法令的抗凝作用减弱，凝血酶无时间延长",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "大环内酯族抗生素醋竹桃霉素",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "红霉素亦为大环内酯族抗生素",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_23",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "其它大环内酯类药物如阿波霉素",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_24",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "其它大环内酯类药物如麦迪霉素",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_25",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "H2受体拮抗剂甲腈咪胍",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_26",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "镇痛药右丙氧芬",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      },
+      {
+        "id": "rel_27",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_20",
+        "properties": {
+          "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+          "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "raw_text": "CBZ合用口服避孕药时可发生阴道大出血及避孕失败",
+          "chunk_id": "卡马西平的药物相互作用及毒性_王焕林:3",
+          "data": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "卡马西平的药物相互作用及毒性_王焕林:3",
+    "source": "卡马西平的药物相互作用及毒性_王焕林.pdf",
+    "text": "与某些内科药物相互作用 Dravct $^{[1]}$ ，Mesdjian 等 $^{[12]}$ 分别报道大环内酯族抗生素醋竹桃霉素（troleandomycin）可明显增高血CBZ浓度。最近 Corranco 等 $^{[13]}$ 观察到1例长期服用 CBZ（400mg tid），血浆 CBZ 浓度稳定于治疗范围（9-13mg/l）的癫痫患者，口服红霉素（erythromycin）500 mg qid 抗感染时，血 CBZ 浓度达 28.2 mg/l 而发生 CBZ 中毒及抗利尿激素异常分泌综合征，表现为发作性眩晕、视物模糊、眼球震颤、恶心呕吐、步态共济失调等。血浆渗透压、血清钠、钾、氯化物均降低。停药并限制液体摄入，48h 后（血 CBZ 浓度 5.9mg/l）中毒症状完全消失，血浆渗透压、血清电解质亦恢复正常。红霉素亦为大环内酯族抗生素，其化学结构与醋竹桃霉素相似。曾报道儿童合用红霉素亦可发生 CBZ 中毒反应。Corranco 等认为红霉素可能通过对肝脏细胞色素 P-450（CBZ 氧化所必需的单氧化酶）的竞争结合而干扰 CBZ 的代谢。Wong 等亦研究发现红霉素可使 CBZ 的廓清率降低，而导致血浆 CBZ 浓度增高。上述情况提示，合用其它大环内酯类药物如阿波霉素 (albomycin)、麦迪霉素 (midecamycin) 时亦应警惕 CBZ 中毒。\n$H_{2}$ 受体拮抗剂甲腈咪胍 (cimetidine) 和镇痛药右丙氧芬 (dextropropoxyhene) 亦为肝氧化酶抑制剂，可使血 CBZ 浓度增高。CBZ 合用口服避孕药时可发生阴道大出血及避孕失败 $^{[10]}$ 。此外，CBZ 还能使华法令 (warfarin) 的抗凝作用减弱，凝血酶无时间延长。"
+  }
+]

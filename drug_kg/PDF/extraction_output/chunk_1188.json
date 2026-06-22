@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "依他康唑",
+        "canonical_name": "依他康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "氟康唑",
+        "canonical_name": "氟康唑",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+          "chunk_index": "他克莫司药物相互作用的新进展_李继芳:1",
+          "raw_text": "Banerjee[9]等报道28例心肺移植患者术后联合应用依他康唑（100mg一天2次）与FK506,合用前FK506剂量为8.4±3.8mg·d-1，平均血药浓度10.6ng·ml-1，合用后在11±3天达到稳定治疗浓度时，其剂量调整为2.9±1.8mg·d-1，平均血药浓度10.5±1.1ng·ml-1，剂量减少63%，停用依他康唑后FK506的剂量需增加87%（由4.7±3mg·d-1增加到8.8±3.2mg·d-1)。",
+          "chunk_id": "他克莫司药物相互作用的新进展_李继芳:1",
+          "data": "均由 $10.37\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ 上升至 $18.97\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ ，有 $55.5\\%$ 的患者需将FK506的剂量调低[8]。Banerjee[9]等报道28例心肺移植患者术后联合应用依他康唑（ $100\\mathrm{mg}$ 一天2次）与FK506,合用前FK506剂量为 $8.4\\pm 3.8\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，平均血药浓度 $10.6\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ ，合用后在 $11\\pm 3$ 天达到稳定治疗浓度时，其剂量调整为 $2.9\\pm 1.8\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，平均血药浓度 $10.5\\pm 1.1\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ ，剂量减少 $63\\%$ ，停用依他康唑后FK506的剂量需增加 $87\\%$ （由 $4.7\\pm 3\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 增加到 $8.8\\pm$ $3.2\\mathrm{mg}\\cdot \\mathrm{d}^{-1})$ 。氟康唑（fluconazole)主要抑制P4502C9,对CYP3A4抑制作用较弱，因而对其他通过CYP3A4代谢的药物影响较小，一般只有其剂量达到 $200\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 以上时，才能观察到药物的相互作用。有报道[23]称口服氟康唑 $100\\mathrm{mg}$ · $\\mathrm{d}^{-1}$ 或 $200\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，FK506的血谷浓度分别上升1.4倍和3.1倍，同时半衰期延长并呈剂量依赖性。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+          "chunk_index": "他克莫司药物相互作用的新进展_李继芳:1",
+          "raw_text": "有报道[23]称口服氟康唑100mg·d-1或200mg·d-1，FK506的血谷浓度分别上升1.4倍和3.1倍，同时半衰期延长并呈剂量依赖性。",
+          "chunk_id": "他克莫司药物相互作用的新进展_李继芳:1",
+          "data": "均由 $10.37\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ 上升至 $18.97\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ ，有 $55.5\\%$ 的患者需将FK506的剂量调低[8]。Banerjee[9]等报道28例心肺移植患者术后联合应用依他康唑（ $100\\mathrm{mg}$ 一天2次）与FK506,合用前FK506剂量为 $8.4\\pm 3.8\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，平均血药浓度 $10.6\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ ，合用后在 $11\\pm 3$ 天达到稳定治疗浓度时，其剂量调整为 $2.9\\pm 1.8\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，平均血药浓度 $10.5\\pm 1.1\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ ，剂量减少 $63\\%$ ，停用依他康唑后FK506的剂量需增加 $87\\%$ （由 $4.7\\pm 3\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 增加到 $8.8\\pm$ $3.2\\mathrm{mg}\\cdot \\mathrm{d}^{-1})$ 。氟康唑（fluconazole)主要抑制P4502C9,对CYP3A4抑制作用较弱，因而对其他通过CYP3A4代谢的药物影响较小，一般只有其剂量达到 $200\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 以上时，才能观察到药物的相互作用。有报道[23]称口服氟康唑 $100\\mathrm{mg}$ · $\\mathrm{d}^{-1}$ 或 $200\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，FK506的血谷浓度分别上升1.4倍和3.1倍，同时半衰期延长并呈剂量依赖性。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "他克莫司药物相互作用的新进展_李继芳:1",
+    "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+    "text": "均由 $10.37\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ 上升至 $18.97\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ ，有 $55.5\\%$ 的患者需将FK506的剂量调低[8]。Banerjee[9]等报道28例心肺移植患者术后联合应用依他康唑（ $100\\mathrm{mg}$ 一天2次）与FK506,合用前FK506剂量为 $8.4\\pm 3.8\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，平均血药浓度 $10.6\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ ，合用后在 $11\\pm 3$ 天达到稳定治疗浓度时，其剂量调整为 $2.9\\pm 1.8\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，平均血药浓度 $10.5\\pm 1.1\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ ，剂量减少 $63\\%$ ，停用依他康唑后FK506的剂量需增加 $87\\%$ （由 $4.7\\pm 3\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 增加到 $8.8\\pm$ $3.2\\mathrm{mg}\\cdot \\mathrm{d}^{-1})$ 。氟康唑（fluconazole)主要抑制P4502C9,对CYP3A4抑制作用较弱，因而对其他通过CYP3A4代谢的药物影响较小，一般只有其剂量达到 $200\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 以上时，才能观察到药物的相互作用。有报道[23]称口服氟康唑 $100\\mathrm{mg}$ · $\\mathrm{d}^{-1}$ 或 $200\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，FK506的血谷浓度分别上升1.4倍和3.1倍，同时半衰期延长并呈剂量依赖性。"
+  }
+]

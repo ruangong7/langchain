@@ -1,0 +1,259 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "西格列汀",
+        "canonical_name": "西格列汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "canonical_name": "西咪替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "丙磺舒",
+        "canonical_name": "丙磺舒",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "布洛芬",
+        "canonical_name": "布洛芬",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "呋塞米",
+        "canonical_name": "呋塞米",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "非诺贝酸",
+        "canonical_name": "非诺贝酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "喹那普利",
+        "canonical_name": "喹那普利",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "吲达帕胺",
+        "canonical_name": "吲达帕胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "地高辛",
+        "canonical_name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "canonical_name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "利托那韦",
+        "canonical_name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "奎尼丁",
+        "canonical_name": "奎尼丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "长春碱",
+        "canonical_name": "长春碱",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳.pdf",
+          "chunk_index": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "raw_text": "西格列汀轻度抑制介导的西咪替丁的摄取",
+          "chunk_id": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "data": "P } } _ { \\mathrm { { g p } } } )$ 。西格列汀轻度抑制介导的西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 1 6 0 ~ \\mu \\mathrm { m o l } )$ 的摄取；丙磺舒 $( \\mathrm { I C } _ { 5 0 } = 5 . 6 ~ \\mu \\mathrm { m o l } )$ 、布洛芬 $( \\mathrm { I C } _ { 5 0 } = 3 . 7 ~ \\mu \\mathrm { m o l } )$ 、呋塞米 $( \\mathrm { { I C } _ { 5 0 } = }$ $1 . 7 \\ \\mu \\mathrm { m o l } )$ 非诺贝酸 $( \\mathrm { I C } _ { 5 0 } = 2 . 2 \\ \\mu \\mathrm { m o l } )$ 喹那普利 $( \\mathrm { I C } _ { 5 0 } = 6 . 2$ $\\mu \\mathrm { m o l } )$ 、吲达帕胺 $( \\mathrm { I C } _ { 5 0 } { = } 1 1 \\ \\mu \\mathrm { m o l } )$ 和西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 7 9 ~ \\mu \\mathrm { m o l } )$ 能抑制对西格列汀的摄取西格列汀不抑制 $\\mathrm { P g p }$ 对地高辛、维拉帕米、利托那韦、奎尼丁和长春碱的摄取；"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳.pdf",
+          "chunk_index": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "raw_text": "丙磺舒能抑制对西格列汀的摄取",
+          "chunk_id": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "data": "P } } _ { \\mathrm { { g p } } } )$ 。西格列汀轻度抑制介导的西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 1 6 0 ~ \\mu \\mathrm { m o l } )$ 的摄取；丙磺舒 $( \\mathrm { I C } _ { 5 0 } = 5 . 6 ~ \\mu \\mathrm { m o l } )$ 、布洛芬 $( \\mathrm { I C } _ { 5 0 } = 3 . 7 ~ \\mu \\mathrm { m o l } )$ 、呋塞米 $( \\mathrm { { I C } _ { 5 0 } = }$ $1 . 7 \\ \\mu \\mathrm { m o l } )$ 非诺贝酸 $( \\mathrm { I C } _ { 5 0 } = 2 . 2 \\ \\mu \\mathrm { m o l } )$ 喹那普利 $( \\mathrm { I C } _ { 5 0 } = 6 . 2$ $\\mu \\mathrm { m o l } )$ 、吲达帕胺 $( \\mathrm { I C } _ { 5 0 } { = } 1 1 \\ \\mu \\mathrm { m o l } )$ 和西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 7 9 ~ \\mu \\mathrm { m o l } )$ 能抑制对西格列汀的摄取西格列汀不抑制 $\\mathrm { P g p }$ 对地高辛、维拉帕米、利托那韦、奎尼丁和长春碱的摄取；"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳.pdf",
+          "chunk_index": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "raw_text": "布洛芬能抑制对西格列汀的摄取",
+          "chunk_id": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "data": "P } } _ { \\mathrm { { g p } } } )$ 。西格列汀轻度抑制介导的西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 1 6 0 ~ \\mu \\mathrm { m o l } )$ 的摄取；丙磺舒 $( \\mathrm { I C } _ { 5 0 } = 5 . 6 ~ \\mu \\mathrm { m o l } )$ 、布洛芬 $( \\mathrm { I C } _ { 5 0 } = 3 . 7 ~ \\mu \\mathrm { m o l } )$ 、呋塞米 $( \\mathrm { { I C } _ { 5 0 } = }$ $1 . 7 \\ \\mu \\mathrm { m o l } )$ 非诺贝酸 $( \\mathrm { I C } _ { 5 0 } = 2 . 2 \\ \\mu \\mathrm { m o l } )$ 喹那普利 $( \\mathrm { I C } _ { 5 0 } = 6 . 2$ $\\mu \\mathrm { m o l } )$ 、吲达帕胺 $( \\mathrm { I C } _ { 5 0 } { = } 1 1 \\ \\mu \\mathrm { m o l } )$ 和西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 7 9 ~ \\mu \\mathrm { m o l } )$ 能抑制对西格列汀的摄取西格列汀不抑制 $\\mathrm { P g p }$ 对地高辛、维拉帕米、利托那韦、奎尼丁和长春碱的摄取；"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳.pdf",
+          "chunk_index": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "raw_text": "呋塞米能抑制对西格列汀的摄取",
+          "chunk_id": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "data": "P } } _ { \\mathrm { { g p } } } )$ 。西格列汀轻度抑制介导的西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 1 6 0 ~ \\mu \\mathrm { m o l } )$ 的摄取；丙磺舒 $( \\mathrm { I C } _ { 5 0 } = 5 . 6 ~ \\mu \\mathrm { m o l } )$ 、布洛芬 $( \\mathrm { I C } _ { 5 0 } = 3 . 7 ~ \\mu \\mathrm { m o l } )$ 、呋塞米 $( \\mathrm { { I C } _ { 5 0 } = }$ $1 . 7 \\ \\mu \\mathrm { m o l } )$ 非诺贝酸 $( \\mathrm { I C } _ { 5 0 } = 2 . 2 \\ \\mu \\mathrm { m o l } )$ 喹那普利 $( \\mathrm { I C } _ { 5 0 } = 6 . 2$ $\\mu \\mathrm { m o l } )$ 、吲达帕胺 $( \\mathrm { I C } _ { 5 0 } { = } 1 1 \\ \\mu \\mathrm { m o l } )$ 和西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 7 9 ~ \\mu \\mathrm { m o l } )$ 能抑制对西格列汀的摄取西格列汀不抑制 $\\mathrm { P g p }$ 对地高辛、维拉帕米、利托那韦、奎尼丁和长春碱的摄取；"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳.pdf",
+          "chunk_index": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "raw_text": "非诺贝酸能抑制对西格列汀的摄取",
+          "chunk_id": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "data": "P } } _ { \\mathrm { { g p } } } )$ 。西格列汀轻度抑制介导的西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 1 6 0 ~ \\mu \\mathrm { m o l } )$ 的摄取；丙磺舒 $( \\mathrm { I C } _ { 5 0 } = 5 . 6 ~ \\mu \\mathrm { m o l } )$ 、布洛芬 $( \\mathrm { I C } _ { 5 0 } = 3 . 7 ~ \\mu \\mathrm { m o l } )$ 、呋塞米 $( \\mathrm { { I C } _ { 5 0 } = }$ $1 . 7 \\ \\mu \\mathrm { m o l } )$ 非诺贝酸 $( \\mathrm { I C } _ { 5 0 } = 2 . 2 \\ \\mu \\mathrm { m o l } )$ 喹那普利 $( \\mathrm { I C } _ { 5 0 } = 6 . 2$ $\\mu \\mathrm { m o l } )$ 、吲达帕胺 $( \\mathrm { I C } _ { 5 0 } { = } 1 1 \\ \\mu \\mathrm { m o l } )$ 和西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 7 9 ~ \\mu \\mathrm { m o l } )$ 能抑制对西格列汀的摄取西格列汀不抑制 $\\mathrm { P g p }$ 对地高辛、维拉帕米、利托那韦、奎尼丁和长春碱的摄取；"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳.pdf",
+          "chunk_index": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "raw_text": "喹那普利能抑制对西格列汀的摄取",
+          "chunk_id": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "data": "P } } _ { \\mathrm { { g p } } } )$ 。西格列汀轻度抑制介导的西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 1 6 0 ~ \\mu \\mathrm { m o l } )$ 的摄取；丙磺舒 $( \\mathrm { I C } _ { 5 0 } = 5 . 6 ~ \\mu \\mathrm { m o l } )$ 、布洛芬 $( \\mathrm { I C } _ { 5 0 } = 3 . 7 ~ \\mu \\mathrm { m o l } )$ 、呋塞米 $( \\mathrm { { I C } _ { 5 0 } = }$ $1 . 7 \\ \\mu \\mathrm { m o l } )$ 非诺贝酸 $( \\mathrm { I C } _ { 5 0 } = 2 . 2 \\ \\mu \\mathrm { m o l } )$ 喹那普利 $( \\mathrm { I C } _ { 5 0 } = 6 . 2$ $\\mu \\mathrm { m o l } )$ 、吲达帕胺 $( \\mathrm { I C } _ { 5 0 } { = } 1 1 \\ \\mu \\mathrm { m o l } )$ 和西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 7 9 ~ \\mu \\mathrm { m o l } )$ 能抑制对西格列汀的摄取西格列汀不抑制 $\\mathrm { P g p }$ 对地高辛、维拉帕米、利托那韦、奎尼丁和长春碱的摄取；"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳.pdf",
+          "chunk_index": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "raw_text": "吲达帕胺能抑制对西格列汀的摄取",
+          "chunk_id": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "data": "P } } _ { \\mathrm { { g p } } } )$ 。西格列汀轻度抑制介导的西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 1 6 0 ~ \\mu \\mathrm { m o l } )$ 的摄取；丙磺舒 $( \\mathrm { I C } _ { 5 0 } = 5 . 6 ~ \\mu \\mathrm { m o l } )$ 、布洛芬 $( \\mathrm { I C } _ { 5 0 } = 3 . 7 ~ \\mu \\mathrm { m o l } )$ 、呋塞米 $( \\mathrm { { I C } _ { 5 0 } = }$ $1 . 7 \\ \\mu \\mathrm { m o l } )$ 非诺贝酸 $( \\mathrm { I C } _ { 5 0 } = 2 . 2 \\ \\mu \\mathrm { m o l } )$ 喹那普利 $( \\mathrm { I C } _ { 5 0 } = 6 . 2$ $\\mu \\mathrm { m o l } )$ 、吲达帕胺 $( \\mathrm { I C } _ { 5 0 } { = } 1 1 \\ \\mu \\mathrm { m o l } )$ 和西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 7 9 ~ \\mu \\mathrm { m o l } )$ 能抑制对西格列汀的摄取西格列汀不抑制 $\\mathrm { P g p }$ 对地高辛、维拉帕米、利托那韦、奎尼丁和长春碱的摄取；"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳.pdf",
+          "chunk_index": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "raw_text": "西格列汀不抑制Pgp对地高辛的摄取",
+          "chunk_id": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "data": "P } } _ { \\mathrm { { g p } } } )$ 。西格列汀轻度抑制介导的西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 1 6 0 ~ \\mu \\mathrm { m o l } )$ 的摄取；丙磺舒 $( \\mathrm { I C } _ { 5 0 } = 5 . 6 ~ \\mu \\mathrm { m o l } )$ 、布洛芬 $( \\mathrm { I C } _ { 5 0 } = 3 . 7 ~ \\mu \\mathrm { m o l } )$ 、呋塞米 $( \\mathrm { { I C } _ { 5 0 } = }$ $1 . 7 \\ \\mu \\mathrm { m o l } )$ 非诺贝酸 $( \\mathrm { I C } _ { 5 0 } = 2 . 2 \\ \\mu \\mathrm { m o l } )$ 喹那普利 $( \\mathrm { I C } _ { 5 0 } = 6 . 2$ $\\mu \\mathrm { m o l } )$ 、吲达帕胺 $( \\mathrm { I C } _ { 5 0 } { = } 1 1 \\ \\mu \\mathrm { m o l } )$ 和西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 7 9 ~ \\mu \\mathrm { m o l } )$ 能抑制对西格列汀的摄取西格列汀不抑制 $\\mathrm { P g p }$ 对地高辛、维拉帕米、利托那韦、奎尼丁和长春碱的摄取；"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳.pdf",
+          "chunk_index": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "raw_text": "西格列汀不抑制Pgp对维拉帕米的摄取",
+          "chunk_id": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "data": "P } } _ { \\mathrm { { g p } } } )$ 。西格列汀轻度抑制介导的西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 1 6 0 ~ \\mu \\mathrm { m o l } )$ 的摄取；丙磺舒 $( \\mathrm { I C } _ { 5 0 } = 5 . 6 ~ \\mu \\mathrm { m o l } )$ 、布洛芬 $( \\mathrm { I C } _ { 5 0 } = 3 . 7 ~ \\mu \\mathrm { m o l } )$ 、呋塞米 $( \\mathrm { { I C } _ { 5 0 } = }$ $1 . 7 \\ \\mu \\mathrm { m o l } )$ 非诺贝酸 $( \\mathrm { I C } _ { 5 0 } = 2 . 2 \\ \\mu \\mathrm { m o l } )$ 喹那普利 $( \\mathrm { I C } _ { 5 0 } = 6 . 2$ $\\mu \\mathrm { m o l } )$ 、吲达帕胺 $( \\mathrm { I C } _ { 5 0 } { = } 1 1 \\ \\mu \\mathrm { m o l } )$ 和西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 7 9 ~ \\mu \\mathrm { m o l } )$ 能抑制对西格列汀的摄取西格列汀不抑制 $\\mathrm { P g p }$ 对地高辛、维拉帕米、利托那韦、奎尼丁和长春碱的摄取；"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳.pdf",
+          "chunk_index": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "raw_text": "西格列汀不抑制Pgp对利托那韦的摄取",
+          "chunk_id": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "data": "P } } _ { \\mathrm { { g p } } } )$ 。西格列汀轻度抑制介导的西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 1 6 0 ~ \\mu \\mathrm { m o l } )$ 的摄取；丙磺舒 $( \\mathrm { I C } _ { 5 0 } = 5 . 6 ~ \\mu \\mathrm { m o l } )$ 、布洛芬 $( \\mathrm { I C } _ { 5 0 } = 3 . 7 ~ \\mu \\mathrm { m o l } )$ 、呋塞米 $( \\mathrm { { I C } _ { 5 0 } = }$ $1 . 7 \\ \\mu \\mathrm { m o l } )$ 非诺贝酸 $( \\mathrm { I C } _ { 5 0 } = 2 . 2 \\ \\mu \\mathrm { m o l } )$ 喹那普利 $( \\mathrm { I C } _ { 5 0 } = 6 . 2$ $\\mu \\mathrm { m o l } )$ 、吲达帕胺 $( \\mathrm { I C } _ { 5 0 } { = } 1 1 \\ \\mu \\mathrm { m o l } )$ 和西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 7 9 ~ \\mu \\mathrm { m o l } )$ 能抑制对西格列汀的摄取西格列汀不抑制 $\\mathrm { P g p }$ 对地高辛、维拉帕米、利托那韦、奎尼丁和长春碱的摄取；"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳.pdf",
+          "chunk_index": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "raw_text": "西格列汀不抑制Pgp对奎尼丁的摄取",
+          "chunk_id": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "data": "P } } _ { \\mathrm { { g p } } } )$ 。西格列汀轻度抑制介导的西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 1 6 0 ~ \\mu \\mathrm { m o l } )$ 的摄取；丙磺舒 $( \\mathrm { I C } _ { 5 0 } = 5 . 6 ~ \\mu \\mathrm { m o l } )$ 、布洛芬 $( \\mathrm { I C } _ { 5 0 } = 3 . 7 ~ \\mu \\mathrm { m o l } )$ 、呋塞米 $( \\mathrm { { I C } _ { 5 0 } = }$ $1 . 7 \\ \\mu \\mathrm { m o l } )$ 非诺贝酸 $( \\mathrm { I C } _ { 5 0 } = 2 . 2 \\ \\mu \\mathrm { m o l } )$ 喹那普利 $( \\mathrm { I C } _ { 5 0 } = 6 . 2$ $\\mu \\mathrm { m o l } )$ 、吲达帕胺 $( \\mathrm { I C } _ { 5 0 } { = } 1 1 \\ \\mu \\mathrm { m o l } )$ 和西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 7 9 ~ \\mu \\mathrm { m o l } )$ 能抑制对西格列汀的摄取西格列汀不抑制 $\\mathrm { P g p }$ 对地高辛、维拉帕米、利托那韦、奎尼丁和长春碱的摄取；"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳.pdf",
+          "chunk_index": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "raw_text": "西格列汀不抑制Pgp对长春碱的摄取",
+          "chunk_id": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+          "data": "P } } _ { \\mathrm { { g p } } } )$ 。西格列汀轻度抑制介导的西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 1 6 0 ~ \\mu \\mathrm { m o l } )$ 的摄取；丙磺舒 $( \\mathrm { I C } _ { 5 0 } = 5 . 6 ~ \\mu \\mathrm { m o l } )$ 、布洛芬 $( \\mathrm { I C } _ { 5 0 } = 3 . 7 ~ \\mu \\mathrm { m o l } )$ 、呋塞米 $( \\mathrm { { I C } _ { 5 0 } = }$ $1 . 7 \\ \\mu \\mathrm { m o l } )$ 非诺贝酸 $( \\mathrm { I C } _ { 5 0 } = 2 . 2 \\ \\mu \\mathrm { m o l } )$ 喹那普利 $( \\mathrm { I C } _ { 5 0 } = 6 . 2$ $\\mu \\mathrm { m o l } )$ 、吲达帕胺 $( \\mathrm { I C } _ { 5 0 } { = } 1 1 \\ \\mu \\mathrm { m o l } )$ 和西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 7 9 ~ \\mu \\mathrm { m o l } )$ 能抑制对西格列汀的摄取西格列汀不抑制 $\\mathrm { P g p }$ 对地高辛、维拉帕米、利托那韦、奎尼丁和长春碱的摄取；"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳:3",
+    "source": "二肽肽酶-4抑制剂西格列汀相关的药物相互作用_金阳.pdf",
+    "text": "P } } _ { \\mathrm { { g p } } } )$ 。西格列汀轻度抑制介导的西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 1 6 0 ~ \\mu \\mathrm { m o l } )$ 的摄取；丙磺舒 $( \\mathrm { I C } _ { 5 0 } = 5 . 6 ~ \\mu \\mathrm { m o l } )$ 、布洛芬 $( \\mathrm { I C } _ { 5 0 } = 3 . 7 ~ \\mu \\mathrm { m o l } )$ 、呋塞米 $( \\mathrm { { I C } _ { 5 0 } = }$ $1 . 7 \\ \\mu \\mathrm { m o l } )$ 非诺贝酸 $( \\mathrm { I C } _ { 5 0 } = 2 . 2 \\ \\mu \\mathrm { m o l } )$ 喹那普利 $( \\mathrm { I C } _ { 5 0 } = 6 . 2$ $\\mu \\mathrm { m o l } )$ 、吲达帕胺 $( \\mathrm { I C } _ { 5 0 } { = } 1 1 \\ \\mu \\mathrm { m o l } )$ 和西咪替丁 $( \\mathrm { I C } _ { 5 0 } = 7 9 ~ \\mu \\mathrm { m o l } )$ 能抑制对西格列汀的摄取西格列汀不抑制 $\\mathrm { P g p }$ 对地高辛、维拉帕米、利托那韦、奎尼丁和长春碱的摄取；"
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "喜树碱",
+        "canonical_name": "喜树碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "canonical_name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Food",
+        "name": "墨角藻黄素",
+        "canonical_name": "墨角藻黄素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP3A4",
+        "canonical_name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "P-糖蛋白",
+        "canonical_name": "P-糖蛋白",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:16",
+          "raw_text": "喜树碱是一种拓扑异构酶 I抑制剂，临床上广泛用于肿瘤治疗，它可以抑制 PXR-CYP3A4 途径，负向调控 CYP3A4 表达。",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:16",
+          "data": "［14］。这表明机体存在多种抑制 CYP3A和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 转录机制，药物改变 PXR 构象后可以抑制 PXR 与辅激活因子及其他核受体结合。喜树碱是一种拓扑异构酶 I抑制剂，临床上广泛用于肿瘤治疗，它可以抑制 PXR-CYP3A4 途径，负向调控 CYP3A4 表达。$\\mathrm { C h e n }$ 等［15］首先排除了其他几种抑制 PXR 方式，双杂交实验、体外辅激活因子结合实验的结果显示，喜树碱可抑制 PXR 与 SRC-1 结合。Krausova 等［16］在研究二甲双胍过程中也发现二甲双胍能够抑制 PXR 和 SRC-1 的结合，负向调控 CYP3A4 转录过程，并且在 CAR 介导 CYP3A4 调控途径中可能也存在这种抑制机制。这几项研究证实辅激活因子参与 PXR 激活 CYP3A4 调控，阻碍辅激活因子和 PXR 的结合将导致 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 表达下调。墨角藻黄素是裙带菜中的类胡萝卜素，通过对人肝癌细胞系 $_ \\mathrm { H e p G } 2$ 的研究发现， $1 \\sim 1 0 ~ \\mu \\mathrm { m o l } \\cdot \\mathrm { L }$ － 1 墨角藻黄素可以降低利福平诱导的 CYP3A4 和 MDR1 表达，进一步的机制研究表明，墨角藻黄素通过衰减 CYP3A4 启动子激活阻碍 PXR 与 SRC-1 相互作用，负向调控 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 表达［17］。因此墨角藻黄素可以有效对抗诱导剂的诱导效应，减弱药物不良反应Forskolin 激活的 PKA 和 PKC 可影响 PXR 和辅激活因子结合，进而影响 CYP3A4 的转录。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:16",
+          "raw_text": "二甲双胍能够抑制 PXR 和 SRC-1 的结合，负向调控 CYP3A4 转录过程",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:16",
+          "data": "［14］。这表明机体存在多种抑制 CYP3A和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 转录机制，药物改变 PXR 构象后可以抑制 PXR 与辅激活因子及其他核受体结合。喜树碱是一种拓扑异构酶 I抑制剂，临床上广泛用于肿瘤治疗，它可以抑制 PXR-CYP3A4 途径，负向调控 CYP3A4 表达。$\\mathrm { C h e n }$ 等［15］首先排除了其他几种抑制 PXR 方式，双杂交实验、体外辅激活因子结合实验的结果显示，喜树碱可抑制 PXR 与 SRC-1 结合。Krausova 等［16］在研究二甲双胍过程中也发现二甲双胍能够抑制 PXR 和 SRC-1 的结合，负向调控 CYP3A4 转录过程，并且在 CAR 介导 CYP3A4 调控途径中可能也存在这种抑制机制。这几项研究证实辅激活因子参与 PXR 激活 CYP3A4 调控，阻碍辅激活因子和 PXR 的结合将导致 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 表达下调。墨角藻黄素是裙带菜中的类胡萝卜素，通过对人肝癌细胞系 $_ \\mathrm { H e p G } 2$ 的研究发现， $1 \\sim 1 0 ~ \\mu \\mathrm { m o l } \\cdot \\mathrm { L }$ － 1 墨角藻黄素可以降低利福平诱导的 CYP3A4 和 MDR1 表达，进一步的机制研究表明，墨角藻黄素通过衰减 CYP3A4 启动子激活阻碍 PXR 与 SRC-1 相互作用，负向调控 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 表达［17］。因此墨角藻黄素可以有效对抗诱导剂的诱导效应，减弱药物不良反应Forskolin 激活的 PKA 和 PKC 可影响 PXR 和辅激活因子结合，进而影响 CYP3A4 的转录。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:16",
+          "raw_text": "墨角藻黄素通过衰减 CYP3A4 启动子激活阻碍 PXR 与 SRC-1 相互作用，负向调控 CYP3A4 和 P-糖蛋白表达",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:16",
+          "data": "［14］。这表明机体存在多种抑制 CYP3A和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 转录机制，药物改变 PXR 构象后可以抑制 PXR 与辅激活因子及其他核受体结合。喜树碱是一种拓扑异构酶 I抑制剂，临床上广泛用于肿瘤治疗，它可以抑制 PXR-CYP3A4 途径，负向调控 CYP3A4 表达。$\\mathrm { C h e n }$ 等［15］首先排除了其他几种抑制 PXR 方式，双杂交实验、体外辅激活因子结合实验的结果显示，喜树碱可抑制 PXR 与 SRC-1 结合。Krausova 等［16］在研究二甲双胍过程中也发现二甲双胍能够抑制 PXR 和 SRC-1 的结合，负向调控 CYP3A4 转录过程，并且在 CAR 介导 CYP3A4 调控途径中可能也存在这种抑制机制。这几项研究证实辅激活因子参与 PXR 激活 CYP3A4 调控，阻碍辅激活因子和 PXR 的结合将导致 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 表达下调。墨角藻黄素是裙带菜中的类胡萝卜素，通过对人肝癌细胞系 $_ \\mathrm { H e p G } 2$ 的研究发现， $1 \\sim 1 0 ~ \\mu \\mathrm { m o l } \\cdot \\mathrm { L }$ － 1 墨角藻黄素可以降低利福平诱导的 CYP3A4 和 MDR1 表达，进一步的机制研究表明，墨角藻黄素通过衰减 CYP3A4 启动子激活阻碍 PXR 与 SRC-1 相互作用，负向调控 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 表达［17］。因此墨角藻黄素可以有效对抗诱导剂的诱导效应，减弱药物不良反应Forskolin 激活的 PKA 和 PKC 可影响 PXR 和辅激活因子结合，进而影响 CYP3A4 的转录。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:16",
+          "raw_text": "墨角藻黄素通过衰减 CYP3A4 启动子激活阻碍 PXR 与 SRC-1 相互作用，负向调控 CYP3A4 和 P-糖蛋白表达",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:16",
+          "data": "［14］。这表明机体存在多种抑制 CYP3A和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 转录机制，药物改变 PXR 构象后可以抑制 PXR 与辅激活因子及其他核受体结合。喜树碱是一种拓扑异构酶 I抑制剂，临床上广泛用于肿瘤治疗，它可以抑制 PXR-CYP3A4 途径，负向调控 CYP3A4 表达。$\\mathrm { C h e n }$ 等［15］首先排除了其他几种抑制 PXR 方式，双杂交实验、体外辅激活因子结合实验的结果显示，喜树碱可抑制 PXR 与 SRC-1 结合。Krausova 等［16］在研究二甲双胍过程中也发现二甲双胍能够抑制 PXR 和 SRC-1 的结合，负向调控 CYP3A4 转录过程，并且在 CAR 介导 CYP3A4 调控途径中可能也存在这种抑制机制。这几项研究证实辅激活因子参与 PXR 激活 CYP3A4 调控，阻碍辅激活因子和 PXR 的结合将导致 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 表达下调。墨角藻黄素是裙带菜中的类胡萝卜素，通过对人肝癌细胞系 $_ \\mathrm { H e p G } 2$ 的研究发现， $1 \\sim 1 0 ~ \\mu \\mathrm { m o l } \\cdot \\mathrm { L }$ － 1 墨角藻黄素可以降低利福平诱导的 CYP3A4 和 MDR1 表达，进一步的机制研究表明，墨角藻黄素通过衰减 CYP3A4 启动子激活阻碍 PXR 与 SRC-1 相互作用，负向调控 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 表达［17］。因此墨角藻黄素可以有效对抗诱导剂的诱导效应，减弱药物不良反应Forskolin 激活的 PKA 和 PKC 可影响 PXR 和辅激活因子结合，进而影响 CYP3A4 的转录。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:16",
+          "raw_text": "墨角藻黄素可以降低利福平诱导的 CYP3A4 和 MDR1 表达",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:16",
+          "data": "［14］。这表明机体存在多种抑制 CYP3A和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 转录机制，药物改变 PXR 构象后可以抑制 PXR 与辅激活因子及其他核受体结合。喜树碱是一种拓扑异构酶 I抑制剂，临床上广泛用于肿瘤治疗，它可以抑制 PXR-CYP3A4 途径，负向调控 CYP3A4 表达。$\\mathrm { C h e n }$ 等［15］首先排除了其他几种抑制 PXR 方式，双杂交实验、体外辅激活因子结合实验的结果显示，喜树碱可抑制 PXR 与 SRC-1 结合。Krausova 等［16］在研究二甲双胍过程中也发现二甲双胍能够抑制 PXR 和 SRC-1 的结合，负向调控 CYP3A4 转录过程，并且在 CAR 介导 CYP3A4 调控途径中可能也存在这种抑制机制。这几项研究证实辅激活因子参与 PXR 激活 CYP3A4 调控，阻碍辅激活因子和 PXR 的结合将导致 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 表达下调。墨角藻黄素是裙带菜中的类胡萝卜素，通过对人肝癌细胞系 $_ \\mathrm { H e p G } 2$ 的研究发现， $1 \\sim 1 0 ~ \\mu \\mathrm { m o l } \\cdot \\mathrm { L }$ － 1 墨角藻黄素可以降低利福平诱导的 CYP3A4 和 MDR1 表达，进一步的机制研究表明，墨角藻黄素通过衰减 CYP3A4 启动子激活阻碍 PXR 与 SRC-1 相互作用，负向调控 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 表达［17］。因此墨角藻黄素可以有效对抗诱导剂的诱导效应，减弱药物不良反应Forskolin 激活的 PKA 和 PKC 可影响 PXR 和辅激活因子结合，进而影响 CYP3A4 的转录。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:16",
+    "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+    "text": "［14］。这表明机体存在多种抑制 CYP3A和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 转录机制，药物改变 PXR 构象后可以抑制 PXR 与辅激活因子及其他核受体结合。喜树碱是一种拓扑异构酶 I抑制剂，临床上广泛用于肿瘤治疗，它可以抑制 PXR-CYP3A4 途径，负向调控 CYP3A4 表达。$\\mathrm { C h e n }$ 等［15］首先排除了其他几种抑制 PXR 方式，双杂交实验、体外辅激活因子结合实验的结果显示，喜树碱可抑制 PXR 与 SRC-1 结合。Krausova 等［16］在研究二甲双胍过程中也发现二甲双胍能够抑制 PXR 和 SRC-1 的结合，负向调控 CYP3A4 转录过程，并且在 CAR 介导 CYP3A4 调控途径中可能也存在这种抑制机制。这几项研究证实辅激活因子参与 PXR 激活 CYP3A4 调控，阻碍辅激活因子和 PXR 的结合将导致 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 表达下调。墨角藻黄素是裙带菜中的类胡萝卜素，通过对人肝癌细胞系 $_ \\mathrm { H e p G } 2$ 的研究发现， $1 \\sim 1 0 ~ \\mu \\mathrm { m o l } \\cdot \\mathrm { L }$ － 1 墨角藻黄素可以降低利福平诱导的 CYP3A4 和 MDR1 表达，进一步的机制研究表明，墨角藻黄素通过衰减 CYP3A4 启动子激活阻碍 PXR 与 SRC-1 相互作用，负向调控 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 表达［17］。因此墨角藻黄素可以有效对抗诱导剂的诱导效应，减弱药物不良反应Forskolin 激活的 PKA 和 PKC 可影响 PXR 和辅激活因子结合，进而影响 CYP3A4 的转录。"
+  }
+]

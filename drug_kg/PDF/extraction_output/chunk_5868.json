@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "NRTI类药物",
+        "canonical_name": "NRTI类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "拉替拉韦",
+        "canonical_name": "拉替拉韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "多替拉韦",
+        "canonical_name": "多替拉韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "丙酚替诺福韦",
+        "canonical_name": "丙酚替诺福韦",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+          "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:12",
+          "raw_text": "利福平可以和NRTI类药物合用，例如拉替拉韦、多替拉韦，但需调整剂量为拉替拉韦800 mg bid，多替拉韦 50 mg bid",
+          "chunk_id": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:12",
+          "data": "切观察［6］ 。利福平可以和NRTI类药物合用，例如拉替拉韦、多替拉韦，但需调整剂量为拉替拉韦800 mg bid，多替拉韦 50 mg bid［16］ 。需注意利福平是 P-gp 强效诱导剂，而丙酚替诺福韦是P-gp的底物，故应避免合用。3 抗AIDS药物与机会性感染治疗药物间的相互作用"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+          "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:12",
+          "raw_text": "利福平可以和NRTI类药物合用，例如拉替拉韦、多替拉韦，但需调整剂量为拉替拉韦800 mg bid，多替拉韦 50 mg bid",
+          "chunk_id": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:12",
+          "data": "切观察［6］ 。利福平可以和NRTI类药物合用，例如拉替拉韦、多替拉韦，但需调整剂量为拉替拉韦800 mg bid，多替拉韦 50 mg bid［16］ 。需注意利福平是 P-gp 强效诱导剂，而丙酚替诺福韦是P-gp的底物，故应避免合用。3 抗AIDS药物与机会性感染治疗药物间的相互作用"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+          "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:12",
+          "raw_text": "利福平可以和NRTI类药物合用，例如拉替拉韦、多替拉韦，但需调整剂量为拉替拉韦800 mg bid，多替拉韦 50 mg bid",
+          "chunk_id": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:12",
+          "data": "切观察［6］ 。利福平可以和NRTI类药物合用，例如拉替拉韦、多替拉韦，但需调整剂量为拉替拉韦800 mg bid，多替拉韦 50 mg bid［16］ 。需注意利福平是 P-gp 强效诱导剂，而丙酚替诺福韦是P-gp的底物，故应避免合用。3 抗AIDS药物与机会性感染治疗药物间的相互作用"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+          "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:12",
+          "raw_text": "需注意利福平是 P-gp 强效诱导剂，而丙酚替诺福韦是P-gp的底物，故应避免合用",
+          "chunk_id": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:12",
+          "data": "切观察［6］ 。利福平可以和NRTI类药物合用，例如拉替拉韦、多替拉韦，但需调整剂量为拉替拉韦800 mg bid，多替拉韦 50 mg bid［16］ 。需注意利福平是 P-gp 强效诱导剂，而丙酚替诺福韦是P-gp的底物，故应避免合用。3 抗AIDS药物与机会性感染治疗药物间的相互作用"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:12",
+    "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+    "text": "切观察［6］ 。利福平可以和NRTI类药物合用，例如拉替拉韦、多替拉韦，但需调整剂量为拉替拉韦800 mg bid，多替拉韦 50 mg bid［16］ 。需注意利福平是 P-gp 强效诱导剂，而丙酚替诺福韦是P-gp的底物，故应避免合用。3 抗AIDS药物与机会性感染治疗药物间的相互作用"
+  }
+]

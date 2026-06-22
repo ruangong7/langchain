@@ -1,0 +1,105 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "胺碘酮",
+        "canonical_name": "胺碘酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "喹诺酮类",
+        "canonical_name": "喹诺酮类",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "canonical_name": "质子泵抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "出血",
+        "canonical_name": "出血",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物相互作用致华法林药效增强的病例分析_方志远.pdf",
+          "chunk_index": "药物相互作用致华法林药效增强的病例分析_方志远:1",
+          "raw_text": "Enhanced anticoagulant effect and bleeding accident of warfarin could be attributed to combination use of amiodarone, quinolones and proton pump inhibitors (PPIs), which inhibited the warfarin metabolism.",
+          "mechanism": "抑制华法林代谢",
+          "consequence": "增强抗凝效果，增加出血风险",
+          "chunk_id": "药物相互作用致华法林药效增强的病例分析_方志远:1",
+          "data": "FANG Zhi-yuan，FENG Hang \\* ，LIAN Jiang-ping，LUO Jing，LI Qian ( Department of Pharmacy，Shaanxi Provincial People's Hospital，Xi'an 710068，China)Four patients who experienced bleeding in the course of warfarin therapy was analyzed，and then the potential drugs， which might enhance the anticoagulation effect of warfarin，as well as its potential mechanism were discussed． Results Enhanced anticoagulant effect and bleeding accident of warfarin could be attributed to combination use of amiodarone，quinolones and proton pump inhibitors ( PPIs) ，which inhibited the warfarin metabolism． Conclusion Clinical pharmacists may help physicians to discriminate the drug adverse effect induced by drug interaction in order to improve the safety drug use．"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "药物相互作用致华法林药效增强的病例分析_方志远.pdf",
+          "chunk_index": "药物相互作用致华法林药效增强的病例分析_方志远:1",
+          "raw_text": "Enhanced anticoagulant effect and bleeding accident of warfarin could be attributed to combination use of amiodarone, quinolones and proton pump inhibitors (PPIs), which inhibited the warfarin metabolism.",
+          "mechanism": "抑制华法林代谢",
+          "consequence": "增强抗凝效果，增加出血风险",
+          "chunk_id": "药物相互作用致华法林药效增强的病例分析_方志远:1",
+          "data": "FANG Zhi-yuan，FENG Hang \\* ，LIAN Jiang-ping，LUO Jing，LI Qian ( Department of Pharmacy，Shaanxi Provincial People's Hospital，Xi'an 710068，China)Four patients who experienced bleeding in the course of warfarin therapy was analyzed，and then the potential drugs， which might enhance the anticoagulation effect of warfarin，as well as its potential mechanism were discussed． Results Enhanced anticoagulant effect and bleeding accident of warfarin could be attributed to combination use of amiodarone，quinolones and proton pump inhibitors ( PPIs) ，which inhibited the warfarin metabolism． Conclusion Clinical pharmacists may help physicians to discriminate the drug adverse effect induced by drug interaction in order to improve the safety drug use．"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "药物相互作用致华法林药效增强的病例分析_方志远.pdf",
+          "chunk_index": "药物相互作用致华法林药效增强的病例分析_方志远:1",
+          "raw_text": "Enhanced anticoagulant effect and bleeding accident of warfarin could be attributed to combination use of amiodarone, quinolones and proton pump inhibitors (PPIs), which inhibited the warfarin metabolism.",
+          "mechanism": "抑制华法林代谢",
+          "consequence": "增强抗凝效果，增加出血风险",
+          "chunk_id": "药物相互作用致华法林药效增强的病例分析_方志远:1",
+          "data": "FANG Zhi-yuan，FENG Hang \\* ，LIAN Jiang-ping，LUO Jing，LI Qian ( Department of Pharmacy，Shaanxi Provincial People's Hospital，Xi'an 710068，China)Four patients who experienced bleeding in the course of warfarin therapy was analyzed，and then the potential drugs， which might enhance the anticoagulation effect of warfarin，as well as its potential mechanism were discussed． Results Enhanced anticoagulant effect and bleeding accident of warfarin could be attributed to combination use of amiodarone，quinolones and proton pump inhibitors ( PPIs) ，which inhibited the warfarin metabolism． Conclusion Clinical pharmacists may help physicians to discriminate the drug adverse effect induced by drug interaction in order to improve the safety drug use．"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "药物相互作用致华法林药效增强的病例分析_方志远.pdf",
+          "chunk_index": "药物相互作用致华法林药效增强的病例分析_方志远:1",
+          "raw_text": "Four patients who experienced bleeding in the course of warfarin therapy was analyzed",
+          "chunk_id": "药物相互作用致华法林药效增强的病例分析_方志远:1",
+          "data": "FANG Zhi-yuan，FENG Hang \\* ，LIAN Jiang-ping，LUO Jing，LI Qian ( Department of Pharmacy，Shaanxi Provincial People's Hospital，Xi'an 710068，China)Four patients who experienced bleeding in the course of warfarin therapy was analyzed，and then the potential drugs， which might enhance the anticoagulation effect of warfarin，as well as its potential mechanism were discussed． Results Enhanced anticoagulant effect and bleeding accident of warfarin could be attributed to combination use of amiodarone，quinolones and proton pump inhibitors ( PPIs) ，which inhibited the warfarin metabolism． Conclusion Clinical pharmacists may help physicians to discriminate the drug adverse effect induced by drug interaction in order to improve the safety drug use．"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物相互作用致华法林药效增强的病例分析_方志远:1",
+    "source": "药物相互作用致华法林药效增强的病例分析_方志远.pdf",
+    "text": "FANG Zhi-yuan，FENG Hang \\* ，LIAN Jiang-ping，LUO Jing，LI Qian ( Department of Pharmacy，Shaanxi Provincial People's Hospital，Xi'an 710068，China)Four patients who experienced bleeding in the course of warfarin therapy was analyzed，and then the potential drugs， which might enhance the anticoagulation effect of warfarin，as well as its potential mechanism were discussed． Results Enhanced anticoagulant effect and bleeding accident of warfarin could be attributed to combination use of amiodarone，quinolones and proton pump inhibitors ( PPIs) ，which inhibited the warfarin metabolism． Conclusion Clinical pharmacists may help physicians to discriminate the drug adverse effect induced by drug interaction in order to improve the safety drug use．"
+  }
+]

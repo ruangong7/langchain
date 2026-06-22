@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Buprenorphine",
+        "canonical_name": "Buprenorphine",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "CYP3A4",
+        "canonical_name": "CYP3A4",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:2",
+          "raw_text": "Buprenorphine is metabolised by CYP3A4 but Buprenorphine has a relatively low affinity for CYP3A4 and is therefore a weak inhibitor of the enzyme",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:2",
+          "data": "DrugsthatinhibitCYPenzymeactivitymaycauseincreasesinplasmadrugconcentrationswithassociatedrisks ofoverdoseortoxicity．SomedrugsarecapableofincreasingthesynthesisofCYPenzymesandthereforeincrease thenumberofsitesavailableforbiotransformation．Thisprocessistermedinductionandcorrespondinglymoredrug willbemetabolisedatatime DrugsthatinduceCYPenzymesmayincreasedrugmetabolismleadingtoreducedplasmadrugconcentrations resultinginreducedefficacy；inthecaseofopioidsitmayleadtowithdrawalsymptoms．BuprenorphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:2",
+    "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+    "text": "DrugsthatinhibitCYPenzymeactivitymaycauseincreasesinplasmadrugconcentrationswithassociatedrisks ofoverdoseortoxicity．SomedrugsarecapableofincreasingthesynthesisofCYPenzymesandthereforeincrease thenumberofsitesavailableforbiotransformation．Thisprocessistermedinductionandcorrespondinglymoredrug willbemetabolisedatatime DrugsthatinduceCYPenzymesmayincreasedrugmetabolismleadingtoreducedplasmadrugconcentrations resultinginreducedefficacy；inthecaseofopioidsitmayleadtowithdrawalsymptoms．BuprenorphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；"
+  }
+]

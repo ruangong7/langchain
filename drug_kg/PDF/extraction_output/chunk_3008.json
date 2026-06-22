@@ -1,0 +1,186 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "达沙替尼",
+        "canonical_name": "达沙替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伊马替尼",
+        "canonical_name": "伊马替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "依克立达",
+        "canonical_name": "依克立达",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "BCR-ABL抑制剂",
+        "canonical_name": "BCR-ABL抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "P-糖蛋白",
+        "canonical_name": "P-糖蛋白",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "BCRP",
+        "canonical_name": "BCRP",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "OCT1",
+        "canonical_name": "OCT1",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "MATE1",
+        "canonical_name": "MATE1",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "MATE2K",
+        "canonical_name": "MATE2K",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Disease",
+        "name": "伊马替尼耐药的CML",
+        "canonical_name": "伊马替尼耐药的慢性粒细胞白血病",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+          "raw_text": "达沙替尼为第二代BCR-ABL抑制剂",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+          "data": "FDA 新颁布的药物相互作用指导原则也对转运体介导的药物相互作用的内容进行了补充建议进行 7 种转运体介导的药物相互作用见表 2 本综述主要涉及以下两个方面内容 （1） 小分子 TKIs 作为摄取或外排转运体的底物所导致的药物相互作用 ；（2） 小分子 TKIs 作为摄取或外排转运体的抑制剂所导致的药物相互作用达沙替尼达沙替尼为第二代 BCR-ABL 抑制剂2006 年由 FDA 批准作为二线药物治疗伊马替尼耐药的 $\\mathrm { { C M L } _ { \\circ } }$ DOHSE 等[12]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达的 K562 细胞对达沙替尼耐药证明其为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外达沙替尼在 Abcb1a/1b（-/-） 小鼠体内的口服暴露量与野生型小鼠相比升高 3.6 倍 Abcb1a/1b/Abcg2 （ -/- ） 小鼠口服达沙替尼后的脑组织分布量与野生型小鼠相比升高了13.2 倍 。另外合用依克立达 （ elacridar $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 的双重抑制剂） 后野生型小鼠的脑分布量达到与 Abcb1a/1b （ -/- ） /Abcg2 （ -/- ） 小鼠相当的程度 [13]伊马替尼为 OCT1 MATE1 和 MATE2K 的抑制剂 $( [ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } > 0 . 1 )$ 其主要代谢物 （N-脱甲基）也为 MATE1 的选择性抑制剂[10]。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+          "raw_text": "2006年由FDA批准作为二线药物治疗伊马替尼耐药的CML",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+          "data": "FDA 新颁布的药物相互作用指导原则也对转运体介导的药物相互作用的内容进行了补充建议进行 7 种转运体介导的药物相互作用见表 2 本综述主要涉及以下两个方面内容 （1） 小分子 TKIs 作为摄取或外排转运体的底物所导致的药物相互作用 ；（2） 小分子 TKIs 作为摄取或外排转运体的抑制剂所导致的药物相互作用达沙替尼达沙替尼为第二代 BCR-ABL 抑制剂2006 年由 FDA 批准作为二线药物治疗伊马替尼耐药的 $\\mathrm { { C M L } _ { \\circ } }$ DOHSE 等[12]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达的 K562 细胞对达沙替尼耐药证明其为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外达沙替尼在 Abcb1a/1b（-/-） 小鼠体内的口服暴露量与野生型小鼠相比升高 3.6 倍 Abcb1a/1b/Abcg2 （ -/- ） 小鼠口服达沙替尼后的脑组织分布量与野生型小鼠相比升高了13.2 倍 。另外合用依克立达 （ elacridar $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 的双重抑制剂） 后野生型小鼠的脑分布量达到与 Abcb1a/1b （ -/- ） /Abcg2 （ -/- ） 小鼠相当的程度 [13]伊马替尼为 OCT1 MATE1 和 MATE2K 的抑制剂 $( [ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } > 0 . 1 )$ 其主要代谢物 （N-脱甲基）也为 MATE1 的选择性抑制剂[10]。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+          "raw_text": "达沙替尼为P-gp和BCRP的底物",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+          "data": "FDA 新颁布的药物相互作用指导原则也对转运体介导的药物相互作用的内容进行了补充建议进行 7 种转运体介导的药物相互作用见表 2 本综述主要涉及以下两个方面内容 （1） 小分子 TKIs 作为摄取或外排转运体的底物所导致的药物相互作用 ；（2） 小分子 TKIs 作为摄取或外排转运体的抑制剂所导致的药物相互作用达沙替尼达沙替尼为第二代 BCR-ABL 抑制剂2006 年由 FDA 批准作为二线药物治疗伊马替尼耐药的 $\\mathrm { { C M L } _ { \\circ } }$ DOHSE 等[12]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达的 K562 细胞对达沙替尼耐药证明其为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外达沙替尼在 Abcb1a/1b（-/-） 小鼠体内的口服暴露量与野生型小鼠相比升高 3.6 倍 Abcb1a/1b/Abcg2 （ -/- ） 小鼠口服达沙替尼后的脑组织分布量与野生型小鼠相比升高了13.2 倍 。另外合用依克立达 （ elacridar $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 的双重抑制剂） 后野生型小鼠的脑分布量达到与 Abcb1a/1b （ -/- ） /Abcg2 （ -/- ） 小鼠相当的程度 [13]伊马替尼为 OCT1 MATE1 和 MATE2K 的抑制剂 $( [ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } > 0 . 1 )$ 其主要代谢物 （N-脱甲基）也为 MATE1 的选择性抑制剂[10]。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+          "raw_text": "达沙替尼为P-gp和BCRP的底物",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+          "data": "FDA 新颁布的药物相互作用指导原则也对转运体介导的药物相互作用的内容进行了补充建议进行 7 种转运体介导的药物相互作用见表 2 本综述主要涉及以下两个方面内容 （1） 小分子 TKIs 作为摄取或外排转运体的底物所导致的药物相互作用 ；（2） 小分子 TKIs 作为摄取或外排转运体的抑制剂所导致的药物相互作用达沙替尼达沙替尼为第二代 BCR-ABL 抑制剂2006 年由 FDA 批准作为二线药物治疗伊马替尼耐药的 $\\mathrm { { C M L } _ { \\circ } }$ DOHSE 等[12]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达的 K562 细胞对达沙替尼耐药证明其为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外达沙替尼在 Abcb1a/1b（-/-） 小鼠体内的口服暴露量与野生型小鼠相比升高 3.6 倍 Abcb1a/1b/Abcg2 （ -/- ） 小鼠口服达沙替尼后的脑组织分布量与野生型小鼠相比升高了13.2 倍 。另外合用依克立达 （ elacridar $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 的双重抑制剂） 后野生型小鼠的脑分布量达到与 Abcb1a/1b （ -/- ） /Abcg2 （ -/- ） 小鼠相当的程度 [13]伊马替尼为 OCT1 MATE1 和 MATE2K 的抑制剂 $( [ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } > 0 . 1 )$ 其主要代谢物 （N-脱甲基）也为 MATE1 的选择性抑制剂[10]。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+          "raw_text": "合用依克立达（elacridar P-gp和BCRP的双重抑制剂）后野生型小鼠的脑分布量达到与Abcb1a/1b(-/-)/Abcg2(-/-)小鼠相当的程度",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+          "data": "FDA 新颁布的药物相互作用指导原则也对转运体介导的药物相互作用的内容进行了补充建议进行 7 种转运体介导的药物相互作用见表 2 本综述主要涉及以下两个方面内容 （1） 小分子 TKIs 作为摄取或外排转运体的底物所导致的药物相互作用 ；（2） 小分子 TKIs 作为摄取或外排转运体的抑制剂所导致的药物相互作用达沙替尼达沙替尼为第二代 BCR-ABL 抑制剂2006 年由 FDA 批准作为二线药物治疗伊马替尼耐药的 $\\mathrm { { C M L } _ { \\circ } }$ DOHSE 等[12]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达的 K562 细胞对达沙替尼耐药证明其为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外达沙替尼在 Abcb1a/1b（-/-） 小鼠体内的口服暴露量与野生型小鼠相比升高 3.6 倍 Abcb1a/1b/Abcg2 （ -/- ） 小鼠口服达沙替尼后的脑组织分布量与野生型小鼠相比升高了13.2 倍 。另外合用依克立达 （ elacridar $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 的双重抑制剂） 后野生型小鼠的脑分布量达到与 Abcb1a/1b （ -/- ） /Abcg2 （ -/- ） 小鼠相当的程度 [13]伊马替尼为 OCT1 MATE1 和 MATE2K 的抑制剂 $( [ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } > 0 . 1 )$ 其主要代谢物 （N-脱甲基）也为 MATE1 的选择性抑制剂[10]。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+          "raw_text": "伊马替尼为OCT1 MATE1和MATE2K的抑制剂",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+          "data": "FDA 新颁布的药物相互作用指导原则也对转运体介导的药物相互作用的内容进行了补充建议进行 7 种转运体介导的药物相互作用见表 2 本综述主要涉及以下两个方面内容 （1） 小分子 TKIs 作为摄取或外排转运体的底物所导致的药物相互作用 ；（2） 小分子 TKIs 作为摄取或外排转运体的抑制剂所导致的药物相互作用达沙替尼达沙替尼为第二代 BCR-ABL 抑制剂2006 年由 FDA 批准作为二线药物治疗伊马替尼耐药的 $\\mathrm { { C M L } _ { \\circ } }$ DOHSE 等[12]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达的 K562 细胞对达沙替尼耐药证明其为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外达沙替尼在 Abcb1a/1b（-/-） 小鼠体内的口服暴露量与野生型小鼠相比升高 3.6 倍 Abcb1a/1b/Abcg2 （ -/- ） 小鼠口服达沙替尼后的脑组织分布量与野生型小鼠相比升高了13.2 倍 。另外合用依克立达 （ elacridar $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 的双重抑制剂） 后野生型小鼠的脑分布量达到与 Abcb1a/1b （ -/- ） /Abcg2 （ -/- ） 小鼠相当的程度 [13]伊马替尼为 OCT1 MATE1 和 MATE2K 的抑制剂 $( [ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } > 0 . 1 )$ 其主要代谢物 （N-脱甲基）也为 MATE1 的选择性抑制剂[10]。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+          "raw_text": "伊马替尼为OCT1 MATE1和MATE2K的抑制剂",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+          "data": "FDA 新颁布的药物相互作用指导原则也对转运体介导的药物相互作用的内容进行了补充建议进行 7 种转运体介导的药物相互作用见表 2 本综述主要涉及以下两个方面内容 （1） 小分子 TKIs 作为摄取或外排转运体的底物所导致的药物相互作用 ；（2） 小分子 TKIs 作为摄取或外排转运体的抑制剂所导致的药物相互作用达沙替尼达沙替尼为第二代 BCR-ABL 抑制剂2006 年由 FDA 批准作为二线药物治疗伊马替尼耐药的 $\\mathrm { { C M L } _ { \\circ } }$ DOHSE 等[12]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达的 K562 细胞对达沙替尼耐药证明其为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外达沙替尼在 Abcb1a/1b（-/-） 小鼠体内的口服暴露量与野生型小鼠相比升高 3.6 倍 Abcb1a/1b/Abcg2 （ -/- ） 小鼠口服达沙替尼后的脑组织分布量与野生型小鼠相比升高了13.2 倍 。另外合用依克立达 （ elacridar $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 的双重抑制剂） 后野生型小鼠的脑分布量达到与 Abcb1a/1b （ -/- ） /Abcg2 （ -/- ） 小鼠相当的程度 [13]伊马替尼为 OCT1 MATE1 和 MATE2K 的抑制剂 $( [ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } > 0 . 1 )$ 其主要代谢物 （N-脱甲基）也为 MATE1 的选择性抑制剂[10]。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+          "raw_text": "伊马替尼为OCT1 MATE1和MATE2K的抑制剂",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+          "data": "FDA 新颁布的药物相互作用指导原则也对转运体介导的药物相互作用的内容进行了补充建议进行 7 种转运体介导的药物相互作用见表 2 本综述主要涉及以下两个方面内容 （1） 小分子 TKIs 作为摄取或外排转运体的底物所导致的药物相互作用 ；（2） 小分子 TKIs 作为摄取或外排转运体的抑制剂所导致的药物相互作用达沙替尼达沙替尼为第二代 BCR-ABL 抑制剂2006 年由 FDA 批准作为二线药物治疗伊马替尼耐药的 $\\mathrm { { C M L } _ { \\circ } }$ DOHSE 等[12]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达的 K562 细胞对达沙替尼耐药证明其为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外达沙替尼在 Abcb1a/1b（-/-） 小鼠体内的口服暴露量与野生型小鼠相比升高 3.6 倍 Abcb1a/1b/Abcg2 （ -/- ） 小鼠口服达沙替尼后的脑组织分布量与野生型小鼠相比升高了13.2 倍 。另外合用依克立达 （ elacridar $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 的双重抑制剂） 后野生型小鼠的脑分布量达到与 Abcb1a/1b （ -/- ） /Abcg2 （ -/- ） 小鼠相当的程度 [13]伊马替尼为 OCT1 MATE1 和 MATE2K 的抑制剂 $( [ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } > 0 . 1 )$ 其主要代谢物 （N-脱甲基）也为 MATE1 的选择性抑制剂[10]。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:2",
+    "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+    "text": "FDA 新颁布的药物相互作用指导原则也对转运体介导的药物相互作用的内容进行了补充建议进行 7 种转运体介导的药物相互作用见表 2 本综述主要涉及以下两个方面内容 （1） 小分子 TKIs 作为摄取或外排转运体的底物所导致的药物相互作用 ；（2） 小分子 TKIs 作为摄取或外排转运体的抑制剂所导致的药物相互作用达沙替尼达沙替尼为第二代 BCR-ABL 抑制剂2006 年由 FDA 批准作为二线药物治疗伊马替尼耐药的 $\\mathrm { { C M L } _ { \\circ } }$ DOHSE 等[12]报道 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达的 K562 细胞对达沙替尼耐药证明其为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物另外达沙替尼在 Abcb1a/1b（-/-） 小鼠体内的口服暴露量与野生型小鼠相比升高 3.6 倍 Abcb1a/1b/Abcg2 （ -/- ） 小鼠口服达沙替尼后的脑组织分布量与野生型小鼠相比升高了13.2 倍 。另外合用依克立达 （ elacridar $\\mathrm { P - \\mathrm { g p } }$ 和BCRP 的双重抑制剂） 后野生型小鼠的脑分布量达到与 Abcb1a/1b （ -/- ） /Abcg2 （ -/- ） 小鼠相当的程度 [13]伊马替尼为 OCT1 MATE1 和 MATE2K 的抑制剂 $( [ \\mathrm { I } ] / \\mathrm { I C } _ { 5 0 } > 0 . 1 )$ 其主要代谢物 （N-脱甲基）也为 MATE1 的选择性抑制剂[10]。"
+  }
+]

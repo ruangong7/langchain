@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 from typing import Any
@@ -10,12 +11,13 @@ import dashscope
 import faiss
 import numpy as np
 from dashscope import TextEmbedding
+from dotenv import load_dotenv
 
 ROOT_DIR = Path(__file__).resolve().parents[2]
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
-from config import DASHSCOPE_API_KEY, EMBEDDING_MODEL
+load_dotenv(ROOT_DIR / ".env")
 
 
 def _configure_stdout() -> None:
@@ -26,6 +28,13 @@ def _configure_stdout() -> None:
 def _norm(value: Any) -> str:
     if value is None:
         return ""
+    return str(value).strip()
+
+
+def _get_env(name: str, default: str | None = None) -> str:
+    value = os.getenv(name, default)
+    if value is None or str(value).strip() == "":
+        raise RuntimeError(f"Missing environment variable: {name}")
     return str(value).strip()
 
 
@@ -75,13 +84,13 @@ def _search_one(query_vec: np.ndarray, index_path: Path, meta_path: Path, top_k:
 
 
 def search_graph_docs(*, query: str, index_dir: Path, top_k: int) -> dict[str, list[dict[str, Any]]]:
-    dashscope.api_key = DASHSCOPE_API_KEY
-    embeddings = DashScopeEmbeddings(model=EMBEDDING_MODEL)
+    dashscope.api_key = _get_env("DASHSCOPE_API_KEY")
+    embeddings = DashScopeEmbeddings(model=_get_env("EMBEDDING_MODEL"))
     query_vec = np.asarray(embeddings.embed_query(query), dtype=np.float32)
     query_vec = _normalize(query_vec)
 
     results: dict[str, list[dict[str, Any]]] = {}
-    for stem in ("node_docs", "edge_docs", "subgraph_docs"):
+    for stem in ("node_docs", "edge_docs", "subgraph_docs", "community_docs"):
         index_path = index_dir / f"{stem}.index"
         meta_path = index_dir / f"{stem}_meta.jsonl"
         if not index_path.exists() or not meta_path.exists():
@@ -97,7 +106,7 @@ def main() -> None:
     parser.add_argument(
         "--index-dir",
         type=Path,
-        default=Path("drug_kg/graphrag/index"),
+        default=Path("drug_kg/graphrag/index_standard"),
         help="Directory containing graph embedding matrices and metadata",
     )
     parser.add_argument("--top-k", type=int, default=5, help="Top K results per index")

@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 DEFAULT_QUERIES = [
-    "糖尿病患者哪些药会影响肾功能",
+    "糖尿病患者哪些药物会影响肾功能",
     "华法林和什么药有相互作用",
     "孕妇慎用哪些药",
 ]
@@ -19,13 +19,15 @@ def _configure_stdout() -> None:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 
-def run_query(*, query: str, top_k: int, workdir: Path) -> dict:
+def run_query(*, query: str, top_k: int, index_dir: Path, workdir: Path) -> dict:
     cmd = [
         sys.executable,
         "drug_kg/graphrag/search_graph_docs.py",
         query,
         "--top-k",
         str(top_k),
+        "--index-dir",
+        str(index_dir),
     ]
     completed = subprocess.run(
         cmd,
@@ -41,7 +43,7 @@ def run_query(*, query: str, top_k: int, workdir: Path) -> dict:
 
 def print_results(query: str, results: dict) -> None:
     print(f"\n=== Query: {query} ===")
-    for doc_type in ("node_docs", "edge_docs", "subgraph_docs"):
+    for doc_type in ("community_docs", "subgraph_docs", "edge_docs", "node_docs"):
         items = results.get(doc_type) or []
         print(f"\n[{doc_type}] top {len(items)}")
         for idx, item in enumerate(items, start=1):
@@ -64,13 +66,19 @@ def main() -> None:
         help="Custom query to test. Can be provided multiple times.",
     )
     parser.add_argument("--top-k", type=int, default=3, help="Top K per doc type")
+    parser.add_argument(
+        "--index-dir",
+        type=Path,
+        default=Path("drug_kg/graphrag/index_standard"),
+        help="Directory containing graph indexes",
+    )
     args = parser.parse_args()
 
     workdir = Path(__file__).resolve().parents[2]
     queries = args.query or DEFAULT_QUERIES
 
     for query in queries:
-        results = run_query(query=query, top_k=args.top_k, workdir=workdir)
+        results = run_query(query=query, top_k=args.top_k, index_dir=args.index_dir, workdir=workdir)
         print_results(query, results)
 
 

@@ -1,0 +1,139 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "选择性5-羟色胺再摄取抑制剂",
+        "canonical_name": "选择性5-羟色胺再摄取抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氟西汀",
+        "canonical_name": "氟西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "氟伏沙明",
+        "canonical_name": "氟伏沙明",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "帕罗西汀",
+        "canonical_name": "帕罗西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "舍曲林",
+        "canonical_name": "舍曲林",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "西酞普兰",
+        "canonical_name": "西酞普兰",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "新型抗抑郁药",
+        "canonical_name": "新型抗抑郁药",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊.pdf",
+          "chunk_index": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊:4",
+          "raw_text": "主要有氟西汀、氟伏沙明、帕罗西汀、舍曲林和西酞普兰。",
+          "chunk_id": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊:4",
+          "data": "R e v i e w\n新型抗抑郁药的代谢与细胞色素 P450介导的药物相互作用\nMetabolism ofantidepressants and cytochrome P450 mediated drug-drug interactions李海菊，王峰，李焕德摘要：新型抗抑郁药(选择性5 －羟色胺再摄取抑制剂，SSRI)疗效肯定，耐受性好，已得到广泛应用。SSRI 剂既是P 450 酶的底物又是 P 450 酶的抑制剂，其重要特征是对P 450酶的抑制。当SSRI 剂与P 450酶的其他底物合用时，可能发生明显的具有临床意义的药物相互作用。(中南大学湘雅二医院临床药学研究室，湖南长沙　410011)Abstract ：Selective serotonin reuptake inhibitors(SSRIs) are new antidepressants which can inhibit serotonin reuptake selectively.They are extensively used in many countries.SSRIs are substrates and inhibitors of CYP450 enzymes.When SSRIs are used concurrently with substrates of CYP450 isoenzymes, there is likelihood of clinically important pharmacokinetic drug-drug interaction.LI Hai-ju，WANG Feng， LI Huan-de选择性5－羟色胺再摄取抑制剂(selective serotonin reuptake inhibitors ，SSRIs)是一类5－羟色胺(serotonin, 5 －HT)神经元摄取泵的强抑制剂，主要有氟西汀、氟伏沙明、帕罗西汀、舍曲林和西酞普兰。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊.pdf",
+          "chunk_index": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊:4",
+          "raw_text": "主要有氟西汀、氟伏沙明、帕罗西汀、舍曲林和西酞普兰。",
+          "chunk_id": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊:4",
+          "data": "R e v i e w\n新型抗抑郁药的代谢与细胞色素 P450介导的药物相互作用\nMetabolism ofantidepressants and cytochrome P450 mediated drug-drug interactions李海菊，王峰，李焕德摘要：新型抗抑郁药(选择性5 －羟色胺再摄取抑制剂，SSRI)疗效肯定，耐受性好，已得到广泛应用。SSRI 剂既是P 450 酶的底物又是 P 450 酶的抑制剂，其重要特征是对P 450酶的抑制。当SSRI 剂与P 450酶的其他底物合用时，可能发生明显的具有临床意义的药物相互作用。(中南大学湘雅二医院临床药学研究室，湖南长沙　410011)Abstract ：Selective serotonin reuptake inhibitors(SSRIs) are new antidepressants which can inhibit serotonin reuptake selectively.They are extensively used in many countries.SSRIs are substrates and inhibitors of CYP450 enzymes.When SSRIs are used concurrently with substrates of CYP450 isoenzymes, there is likelihood of clinically important pharmacokinetic drug-drug interaction.LI Hai-ju，WANG Feng， LI Huan-de选择性5－羟色胺再摄取抑制剂(selective serotonin reuptake inhibitors ，SSRIs)是一类5－羟色胺(serotonin, 5 －HT)神经元摄取泵的强抑制剂，主要有氟西汀、氟伏沙明、帕罗西汀、舍曲林和西酞普兰。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊.pdf",
+          "chunk_index": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊:4",
+          "raw_text": "主要有氟西汀、氟伏沙明、帕罗西汀、舍曲林和西酞普兰。",
+          "chunk_id": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊:4",
+          "data": "R e v i e w\n新型抗抑郁药的代谢与细胞色素 P450介导的药物相互作用\nMetabolism ofantidepressants and cytochrome P450 mediated drug-drug interactions李海菊，王峰，李焕德摘要：新型抗抑郁药(选择性5 －羟色胺再摄取抑制剂，SSRI)疗效肯定，耐受性好，已得到广泛应用。SSRI 剂既是P 450 酶的底物又是 P 450 酶的抑制剂，其重要特征是对P 450酶的抑制。当SSRI 剂与P 450酶的其他底物合用时，可能发生明显的具有临床意义的药物相互作用。(中南大学湘雅二医院临床药学研究室，湖南长沙　410011)Abstract ：Selective serotonin reuptake inhibitors(SSRIs) are new antidepressants which can inhibit serotonin reuptake selectively.They are extensively used in many countries.SSRIs are substrates and inhibitors of CYP450 enzymes.When SSRIs are used concurrently with substrates of CYP450 isoenzymes, there is likelihood of clinically important pharmacokinetic drug-drug interaction.LI Hai-ju，WANG Feng， LI Huan-de选择性5－羟色胺再摄取抑制剂(selective serotonin reuptake inhibitors ，SSRIs)是一类5－羟色胺(serotonin, 5 －HT)神经元摄取泵的强抑制剂，主要有氟西汀、氟伏沙明、帕罗西汀、舍曲林和西酞普兰。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊.pdf",
+          "chunk_index": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊:4",
+          "raw_text": "主要有氟西汀、氟伏沙明、帕罗西汀、舍曲林和西酞普兰。",
+          "chunk_id": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊:4",
+          "data": "R e v i e w\n新型抗抑郁药的代谢与细胞色素 P450介导的药物相互作用\nMetabolism ofantidepressants and cytochrome P450 mediated drug-drug interactions李海菊，王峰，李焕德摘要：新型抗抑郁药(选择性5 －羟色胺再摄取抑制剂，SSRI)疗效肯定，耐受性好，已得到广泛应用。SSRI 剂既是P 450 酶的底物又是 P 450 酶的抑制剂，其重要特征是对P 450酶的抑制。当SSRI 剂与P 450酶的其他底物合用时，可能发生明显的具有临床意义的药物相互作用。(中南大学湘雅二医院临床药学研究室，湖南长沙　410011)Abstract ：Selective serotonin reuptake inhibitors(SSRIs) are new antidepressants which can inhibit serotonin reuptake selectively.They are extensively used in many countries.SSRIs are substrates and inhibitors of CYP450 enzymes.When SSRIs are used concurrently with substrates of CYP450 isoenzymes, there is likelihood of clinically important pharmacokinetic drug-drug interaction.LI Hai-ju，WANG Feng， LI Huan-de选择性5－羟色胺再摄取抑制剂(selective serotonin reuptake inhibitors ，SSRIs)是一类5－羟色胺(serotonin, 5 －HT)神经元摄取泵的强抑制剂，主要有氟西汀、氟伏沙明、帕罗西汀、舍曲林和西酞普兰。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊.pdf",
+          "chunk_index": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊:4",
+          "raw_text": "主要有氟西汀、氟伏沙明、帕罗西汀、舍曲林和西酞普兰。",
+          "chunk_id": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊:4",
+          "data": "R e v i e w\n新型抗抑郁药的代谢与细胞色素 P450介导的药物相互作用\nMetabolism ofantidepressants and cytochrome P450 mediated drug-drug interactions李海菊，王峰，李焕德摘要：新型抗抑郁药(选择性5 －羟色胺再摄取抑制剂，SSRI)疗效肯定，耐受性好，已得到广泛应用。SSRI 剂既是P 450 酶的底物又是 P 450 酶的抑制剂，其重要特征是对P 450酶的抑制。当SSRI 剂与P 450酶的其他底物合用时，可能发生明显的具有临床意义的药物相互作用。(中南大学湘雅二医院临床药学研究室，湖南长沙　410011)Abstract ：Selective serotonin reuptake inhibitors(SSRIs) are new antidepressants which can inhibit serotonin reuptake selectively.They are extensively used in many countries.SSRIs are substrates and inhibitors of CYP450 enzymes.When SSRIs are used concurrently with substrates of CYP450 isoenzymes, there is likelihood of clinically important pharmacokinetic drug-drug interaction.LI Hai-ju，WANG Feng， LI Huan-de选择性5－羟色胺再摄取抑制剂(selective serotonin reuptake inhibitors ，SSRIs)是一类5－羟色胺(serotonin, 5 －HT)神经元摄取泵的强抑制剂，主要有氟西汀、氟伏沙明、帕罗西汀、舍曲林和西酞普兰。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊.pdf",
+          "chunk_index": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊:4",
+          "raw_text": "新型抗抑郁药(选择性5-羟色胺再摄取抑制剂，SSRI)",
+          "chunk_id": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊:4",
+          "data": "R e v i e w\n新型抗抑郁药的代谢与细胞色素 P450介导的药物相互作用\nMetabolism ofantidepressants and cytochrome P450 mediated drug-drug interactions李海菊，王峰，李焕德摘要：新型抗抑郁药(选择性5 －羟色胺再摄取抑制剂，SSRI)疗效肯定，耐受性好，已得到广泛应用。SSRI 剂既是P 450 酶的底物又是 P 450 酶的抑制剂，其重要特征是对P 450酶的抑制。当SSRI 剂与P 450酶的其他底物合用时，可能发生明显的具有临床意义的药物相互作用。(中南大学湘雅二医院临床药学研究室，湖南长沙　410011)Abstract ：Selective serotonin reuptake inhibitors(SSRIs) are new antidepressants which can inhibit serotonin reuptake selectively.They are extensively used in many countries.SSRIs are substrates and inhibitors of CYP450 enzymes.When SSRIs are used concurrently with substrates of CYP450 isoenzymes, there is likelihood of clinically important pharmacokinetic drug-drug interaction.LI Hai-ju，WANG Feng， LI Huan-de选择性5－羟色胺再摄取抑制剂(selective serotonin reuptake inhibitors ，SSRIs)是一类5－羟色胺(serotonin, 5 －HT)神经元摄取泵的强抑制剂，主要有氟西汀、氟伏沙明、帕罗西汀、舍曲林和西酞普兰。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊:4",
+    "source": "新型抗抑郁药的代谢与细胞色素P450介导的药物相互作用_李海菊.pdf",
+    "text": "R e v i e w\n新型抗抑郁药的代谢与细胞色素 P450介导的药物相互作用\nMetabolism ofantidepressants and cytochrome P450 mediated drug-drug interactions李海菊，王峰，李焕德摘要：新型抗抑郁药(选择性5 －羟色胺再摄取抑制剂，SSRI)疗效肯定，耐受性好，已得到广泛应用。SSRI 剂既是P 450 酶的底物又是 P 450 酶的抑制剂，其重要特征是对P 450酶的抑制。当SSRI 剂与P 450酶的其他底物合用时，可能发生明显的具有临床意义的药物相互作用。(中南大学湘雅二医院临床药学研究室，湖南长沙　410011)Abstract ：Selective serotonin reuptake inhibitors(SSRIs) are new antidepressants which can inhibit serotonin reuptake selectively.They are extensively used in many countries.SSRIs are substrates and inhibitors of CYP450 enzymes.When SSRIs are used concurrently with substrates of CYP450 isoenzymes, there is likelihood of clinically important pharmacokinetic drug-drug interaction.LI Hai-ju，WANG Feng， LI Huan-de选择性5－羟色胺再摄取抑制剂(selective serotonin reuptake inhibitors ，SSRIs)是一类5－羟色胺(serotonin, 5 －HT)神经元摄取泵的强抑制剂，主要有氟西汀、氟伏沙明、帕罗西汀、舍曲林和西酞普兰。"
+  }
+]

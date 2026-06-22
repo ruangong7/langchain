@@ -1,0 +1,72 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "环孢素",
+        "canonical_name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "从临床案例看临床药师在药物相互作用中的药学监护_陈婷婷.pdf",
+          "chunk_index": "从临床案例看临床药师在药物相互作用中的药学监护_陈婷婷:4",
+          "raw_text": "华法林、环孢素及伏立康唑均是药动学 DDI 药学监护的典型案例",
+          "chunk_id": "从临床案例看临床药师在药物相互作用中的药学监护_陈婷婷:4",
+          "data": "\\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，在目标范围 100 ～ 400 $\\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 之间。之后的随访复查也均在目标范围内，4 月 16 日为 107. 8 $\\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 、 7 月 2 日为$1 1 8 . 3 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 } . 1 1$ 月29 日为 $1 0 7 . 9 ~ \\mathrm { n g } \\cdot \\mathrm { m L }$ － 1 。华法林、环孢素及伏立康唑均是药动学 DDI 药学监护的典型案例，以上3 个案例中，在临床药师干预前，DDI 的存在将影响临床疗效或导致不良反应，如果没有及时干预，则严重影响着临床结局。由于药动学 DDI 的难以预测，更应受到临床药师的重点关注。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "从临床案例看临床药师在药物相互作用中的药学监护_陈婷婷.pdf",
+          "chunk_index": "从临床案例看临床药师在药物相互作用中的药学监护_陈婷婷:4",
+          "raw_text": "华法林、环孢素及伏立康唑均是药动学 DDI 药学监护的典型案例",
+          "chunk_id": "从临床案例看临床药师在药物相互作用中的药学监护_陈婷婷:4",
+          "data": "\\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，在目标范围 100 ～ 400 $\\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 之间。之后的随访复查也均在目标范围内，4 月 16 日为 107. 8 $\\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 、 7 月 2 日为$1 1 8 . 3 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 } . 1 1$ 月29 日为 $1 0 7 . 9 ~ \\mathrm { n g } \\cdot \\mathrm { m L }$ － 1 。华法林、环孢素及伏立康唑均是药动学 DDI 药学监护的典型案例，以上3 个案例中，在临床药师干预前，DDI 的存在将影响临床疗效或导致不良反应，如果没有及时干预，则严重影响着临床结局。由于药动学 DDI 的难以预测，更应受到临床药师的重点关注。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "从临床案例看临床药师在药物相互作用中的药学监护_陈婷婷.pdf",
+          "chunk_index": "从临床案例看临床药师在药物相互作用中的药学监护_陈婷婷:4",
+          "raw_text": "华法林、环孢素及伏立康唑均是药动学 DDI 药学监护的典型案例",
+          "chunk_id": "从临床案例看临床药师在药物相互作用中的药学监护_陈婷婷:4",
+          "data": "\\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，在目标范围 100 ～ 400 $\\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 之间。之后的随访复查也均在目标范围内，4 月 16 日为 107. 8 $\\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 、 7 月 2 日为$1 1 8 . 3 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 } . 1 1$ 月29 日为 $1 0 7 . 9 ~ \\mathrm { n g } \\cdot \\mathrm { m L }$ － 1 。华法林、环孢素及伏立康唑均是药动学 DDI 药学监护的典型案例，以上3 个案例中，在临床药师干预前，DDI 的存在将影响临床疗效或导致不良反应，如果没有及时干预，则严重影响着临床结局。由于药动学 DDI 的难以预测，更应受到临床药师的重点关注。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "从临床案例看临床药师在药物相互作用中的药学监护_陈婷婷:4",
+    "source": "从临床案例看临床药师在药物相互作用中的药学监护_陈婷婷.pdf",
+    "text": "\\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，在目标范围 100 ～ 400 $\\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 之间。之后的随访复查也均在目标范围内，4 月 16 日为 107. 8 $\\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 、 7 月 2 日为$1 1 8 . 3 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 } . 1 1$ 月29 日为 $1 0 7 . 9 ~ \\mathrm { n g } \\cdot \\mathrm { m L }$ － 1 。华法林、环孢素及伏立康唑均是药动学 DDI 药学监护的典型案例，以上3 个案例中，在临床药师干预前，DDI 的存在将影响临床疗效或导致不良反应，如果没有及时干预，则严重影响着临床结局。由于药动学 DDI 的难以预测，更应受到临床药师的重点关注。"
+  }
+]

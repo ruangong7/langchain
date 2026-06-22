@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "克霉唑",
+        "canonical_name": "克霉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "西罗莫司",
+        "canonical_name": "西罗莫司",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+          "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:5",
+          "raw_text": "Vasquez等的研究则表明 FK 与克霉唑合用后FK 的相对生物利用度增加一倍以上平均 AUC0-12 增加250% 谷血浓度增加一倍以上 平均最大浓度显著增加；t从 (3.2±1.6) h 降低到 (1.9±1.0) h 表观口服清除率下降了60%。",
+          "chunk_id": "他克莫司发生药物相互作用的分子机制_徐芳:5",
+          "data": "$ ）Vasquez等 ［18］的研究则表明 FK 与克霉唑合用后FK 的相对生物利用度增加一倍以上平均 $\\mathrm { { A U C } _ { 0 - 1 2 } }$ 增加250％谷血浓度增加一倍以上平均最大浓度显著增加；t从 $( 3 . 2 \\pm 1 . 6 ) $ h降低到 $( 1 . 9 \\pm 1 . 0 ) $ h表观口服清除率下降了60％。\n在上述两项研究中 $1 \\mathrm { m g } \\bullet \\mathrm { d } ^ { - 1 }$ 1组和 $2 \\mathrm { m g \\bullet \\ d ^ { - } }$ 1组的西罗莫司血浆水平与单用西罗莫司组患者相似提示 FK 不影响西罗莫司的代谢。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+          "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:5",
+          "raw_text": "在上述两项研究中 1mg·d-1 1组和 2mg·d-1 1组的西罗莫司血浆水平与单用西罗莫司组患者相似提示 FK 不影响西罗莫司的代谢。",
+          "chunk_id": "他克莫司发生药物相互作用的分子机制_徐芳:5",
+          "data": "$ ）Vasquez等 ［18］的研究则表明 FK 与克霉唑合用后FK 的相对生物利用度增加一倍以上平均 $\\mathrm { { A U C } _ { 0 - 1 2 } }$ 增加250％谷血浓度增加一倍以上平均最大浓度显著增加；t从 $( 3 . 2 \\pm 1 . 6 ) $ h降低到 $( 1 . 9 \\pm 1 . 0 ) $ h表观口服清除率下降了60％。\n在上述两项研究中 $1 \\mathrm { m g } \\bullet \\mathrm { d } ^ { - 1 }$ 1组和 $2 \\mathrm { m g \\bullet \\ d ^ { - } }$ 1组的西罗莫司血浆水平与单用西罗莫司组患者相似提示 FK 不影响西罗莫司的代谢。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:5",
+    "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+    "text": "$ ）Vasquez等 ［18］的研究则表明 FK 与克霉唑合用后FK 的相对生物利用度增加一倍以上平均 $\\mathrm { { A U C } _ { 0 - 1 2 } }$ 增加250％谷血浓度增加一倍以上平均最大浓度显著增加；t从 $( 3 . 2 \\pm 1 . 6 ) $ h降低到 $( 1 . 9 \\pm 1 . 0 ) $ h表观口服清除率下降了60％。\n在上述两项研究中 $1 \\mathrm { m g } \\bullet \\mathrm { d } ^ { - 1 }$ 1组和 $2 \\mathrm { m g \\bullet \\ d ^ { - } }$ 1组的西罗莫司血浆水平与单用西罗莫司组患者相似提示 FK 不影响西罗莫司的代谢。"
+  }
+]

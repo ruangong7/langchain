@@ -1,0 +1,139 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "IG-105",
+        "canonical_name": "IG-105",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "CYP1A2",
+        "canonical_name": "CYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "CYP2B6",
+        "canonical_name": "CYP2B6",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "CYP2C19",
+        "canonical_name": "CYP2C19",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "CYP3A",
+        "canonical_name": "CYP3A",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "CYP2C9",
+        "canonical_name": "CYP2C9",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "CYP2D6",
+        "canonical_name": "CYP2D6",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:13",
+          "raw_text": "加入1 μmol·L-1 α-萘黄酮(CYP1A2的选择性抑制剂)后, IG-105的代谢百分率降至对照的34%, 表明抑制CYP1A2严重影响了IG-105的代谢",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:13",
+          "data": "如图 2 所示, 以不加入抑制剂时 IG-105 的代谢百分率设为 100%, 加入 $1 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } \\ a -$ 萘黄酮 (CYP1A2的选择性抑制剂) 后, IG-105 的代谢百分率降至对照的 34%, 表明抑制 CYP1A2 严重影响了 IG-105 的代谢; 加入 $1 0 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 噻氯匹定 (CYP2B6的选择性抑制剂)、 $5 \\ \\mathrm { \\mu m o l { \\cdot } L } ^ { - 1 }$ 苄基尼凡诺 (CYP2C19 的选择性抑制剂)、 $1 0 \\mu \\mathrm { m o l { \\cdot } L }$ −1 酮康唑 (CYP3A 的选择性抑制剂) 也显著地将 IG-105 的代谢百分率降低至对照的62%、82%和 48%。CYP2C9 和 CYP2D6 的抑制剂的添加对 IG-105 代谢没有显著影响。对于 CYP2C9, 虽然重组P450酶实验结果显示其可以快速代谢IG-105,但抑制剂结果显示, 抑制 CPY2C9 的活性并不会显著减少 IG-105 的代谢, 说明 CPY2C9 并不是主要负责 IG-105 代谢的 P450 酶。因此推测, IG-105 的代谢最有可能是由 CYP1A2、CYP2B6、CYP2C19 和CYP3A 介导的。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:13",
+          "raw_text": "加入10 μmol·L-1 噻氯匹定(CYP2B6的选择性抑制剂)显著地将IG-105的代谢百分率降低至对照的62%",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:13",
+          "data": "如图 2 所示, 以不加入抑制剂时 IG-105 的代谢百分率设为 100%, 加入 $1 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } \\ a -$ 萘黄酮 (CYP1A2的选择性抑制剂) 后, IG-105 的代谢百分率降至对照的 34%, 表明抑制 CYP1A2 严重影响了 IG-105 的代谢; 加入 $1 0 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 噻氯匹定 (CYP2B6的选择性抑制剂)、 $5 \\ \\mathrm { \\mu m o l { \\cdot } L } ^ { - 1 }$ 苄基尼凡诺 (CYP2C19 的选择性抑制剂)、 $1 0 \\mu \\mathrm { m o l { \\cdot } L }$ −1 酮康唑 (CYP3A 的选择性抑制剂) 也显著地将 IG-105 的代谢百分率降低至对照的62%、82%和 48%。CYP2C9 和 CYP2D6 的抑制剂的添加对 IG-105 代谢没有显著影响。对于 CYP2C9, 虽然重组P450酶实验结果显示其可以快速代谢IG-105,但抑制剂结果显示, 抑制 CPY2C9 的活性并不会显著减少 IG-105 的代谢, 说明 CPY2C9 并不是主要负责 IG-105 代谢的 P450 酶。因此推测, IG-105 的代谢最有可能是由 CYP1A2、CYP2B6、CYP2C19 和CYP3A 介导的。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:13",
+          "raw_text": "加入5 μmol·L-1 苄基尼凡诺(CYP2C19的选择性抑制剂)显著地将IG-105的代谢百分率降低至对照的82%",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:13",
+          "data": "如图 2 所示, 以不加入抑制剂时 IG-105 的代谢百分率设为 100%, 加入 $1 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } \\ a -$ 萘黄酮 (CYP1A2的选择性抑制剂) 后, IG-105 的代谢百分率降至对照的 34%, 表明抑制 CYP1A2 严重影响了 IG-105 的代谢; 加入 $1 0 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 噻氯匹定 (CYP2B6的选择性抑制剂)、 $5 \\ \\mathrm { \\mu m o l { \\cdot } L } ^ { - 1 }$ 苄基尼凡诺 (CYP2C19 的选择性抑制剂)、 $1 0 \\mu \\mathrm { m o l { \\cdot } L }$ −1 酮康唑 (CYP3A 的选择性抑制剂) 也显著地将 IG-105 的代谢百分率降低至对照的62%、82%和 48%。CYP2C9 和 CYP2D6 的抑制剂的添加对 IG-105 代谢没有显著影响。对于 CYP2C9, 虽然重组P450酶实验结果显示其可以快速代谢IG-105,但抑制剂结果显示, 抑制 CPY2C9 的活性并不会显著减少 IG-105 的代谢, 说明 CPY2C9 并不是主要负责 IG-105 代谢的 P450 酶。因此推测, IG-105 的代谢最有可能是由 CYP1A2、CYP2B6、CYP2C19 和CYP3A 介导的。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:13",
+          "raw_text": "加入10 μmol·L-1 酮康唑(CYP3A的选择性抑制剂)显著地将IG-105的代谢百分率降低至对照的48%",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:13",
+          "data": "如图 2 所示, 以不加入抑制剂时 IG-105 的代谢百分率设为 100%, 加入 $1 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } \\ a -$ 萘黄酮 (CYP1A2的选择性抑制剂) 后, IG-105 的代谢百分率降至对照的 34%, 表明抑制 CYP1A2 严重影响了 IG-105 的代谢; 加入 $1 0 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 噻氯匹定 (CYP2B6的选择性抑制剂)、 $5 \\ \\mathrm { \\mu m o l { \\cdot } L } ^ { - 1 }$ 苄基尼凡诺 (CYP2C19 的选择性抑制剂)、 $1 0 \\mu \\mathrm { m o l { \\cdot } L }$ −1 酮康唑 (CYP3A 的选择性抑制剂) 也显著地将 IG-105 的代谢百分率降低至对照的62%、82%和 48%。CYP2C9 和 CYP2D6 的抑制剂的添加对 IG-105 代谢没有显著影响。对于 CYP2C9, 虽然重组P450酶实验结果显示其可以快速代谢IG-105,但抑制剂结果显示, 抑制 CPY2C9 的活性并不会显著减少 IG-105 的代谢, 说明 CPY2C9 并不是主要负责 IG-105 代谢的 P450 酶。因此推测, IG-105 的代谢最有可能是由 CYP1A2、CYP2B6、CYP2C19 和CYP3A 介导的。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:13",
+          "raw_text": "CYP2C9的抑制剂的添加对IG-105代谢没有显著影响",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:13",
+          "data": "如图 2 所示, 以不加入抑制剂时 IG-105 的代谢百分率设为 100%, 加入 $1 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } \\ a -$ 萘黄酮 (CYP1A2的选择性抑制剂) 后, IG-105 的代谢百分率降至对照的 34%, 表明抑制 CYP1A2 严重影响了 IG-105 的代谢; 加入 $1 0 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 噻氯匹定 (CYP2B6的选择性抑制剂)、 $5 \\ \\mathrm { \\mu m o l { \\cdot } L } ^ { - 1 }$ 苄基尼凡诺 (CYP2C19 的选择性抑制剂)、 $1 0 \\mu \\mathrm { m o l { \\cdot } L }$ −1 酮康唑 (CYP3A 的选择性抑制剂) 也显著地将 IG-105 的代谢百分率降低至对照的62%、82%和 48%。CYP2C9 和 CYP2D6 的抑制剂的添加对 IG-105 代谢没有显著影响。对于 CYP2C9, 虽然重组P450酶实验结果显示其可以快速代谢IG-105,但抑制剂结果显示, 抑制 CPY2C9 的活性并不会显著减少 IG-105 的代谢, 说明 CPY2C9 并不是主要负责 IG-105 代谢的 P450 酶。因此推测, IG-105 的代谢最有可能是由 CYP1A2、CYP2B6、CYP2C19 和CYP3A 介导的。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:13",
+          "raw_text": "CYP2D6的抑制剂的添加对IG-105代谢没有显著影响",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:13",
+          "data": "如图 2 所示, 以不加入抑制剂时 IG-105 的代谢百分率设为 100%, 加入 $1 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } \\ a -$ 萘黄酮 (CYP1A2的选择性抑制剂) 后, IG-105 的代谢百分率降至对照的 34%, 表明抑制 CYP1A2 严重影响了 IG-105 的代谢; 加入 $1 0 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 噻氯匹定 (CYP2B6的选择性抑制剂)、 $5 \\ \\mathrm { \\mu m o l { \\cdot } L } ^ { - 1 }$ 苄基尼凡诺 (CYP2C19 的选择性抑制剂)、 $1 0 \\mu \\mathrm { m o l { \\cdot } L }$ −1 酮康唑 (CYP3A 的选择性抑制剂) 也显著地将 IG-105 的代谢百分率降低至对照的62%、82%和 48%。CYP2C9 和 CYP2D6 的抑制剂的添加对 IG-105 代谢没有显著影响。对于 CYP2C9, 虽然重组P450酶实验结果显示其可以快速代谢IG-105,但抑制剂结果显示, 抑制 CPY2C9 的活性并不会显著减少 IG-105 的代谢, 说明 CPY2C9 并不是主要负责 IG-105 代谢的 P450 酶。因此推测, IG-105 的代谢最有可能是由 CYP1A2、CYP2B6、CYP2C19 和CYP3A 介导的。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:13",
+    "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+    "text": "如图 2 所示, 以不加入抑制剂时 IG-105 的代谢百分率设为 100%, 加入 $1 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } \\ a -$ 萘黄酮 (CYP1A2的选择性抑制剂) 后, IG-105 的代谢百分率降至对照的 34%, 表明抑制 CYP1A2 严重影响了 IG-105 的代谢; 加入 $1 0 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 噻氯匹定 (CYP2B6的选择性抑制剂)、 $5 \\ \\mathrm { \\mu m o l { \\cdot } L } ^ { - 1 }$ 苄基尼凡诺 (CYP2C19 的选择性抑制剂)、 $1 0 \\mu \\mathrm { m o l { \\cdot } L }$ −1 酮康唑 (CYP3A 的选择性抑制剂) 也显著地将 IG-105 的代谢百分率降低至对照的62%、82%和 48%。CYP2C9 和 CYP2D6 的抑制剂的添加对 IG-105 代谢没有显著影响。对于 CYP2C9, 虽然重组P450酶实验结果显示其可以快速代谢IG-105,但抑制剂结果显示, 抑制 CPY2C9 的活性并不会显著减少 IG-105 的代谢, 说明 CPY2C9 并不是主要负责 IG-105 代谢的 P450 酶。因此推测, IG-105 的代谢最有可能是由 CYP1A2、CYP2B6、CYP2C19 和CYP3A 介导的。"
+  }
+]

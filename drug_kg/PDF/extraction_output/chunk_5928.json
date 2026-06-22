@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "表皮生长因子受体酪氨酸激酶抑制剂",
+        "canonical_name": "EGFR-TKI",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "吉非替尼",
+        "canonical_name": "吉非替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "厄洛替尼",
+        "canonical_name": "厄洛替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "埃克替尼",
+        "canonical_name": "埃克替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "抗凝药物",
+        "canonical_name": "抗凝药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "不良反应",
+        "canonical_name": "不良反应",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军.pdf",
+          "chunk_index": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军:7",
+          "raw_text": "13 cases of adverse ADRs associated with drug-drug interaction of first generation EGFR-TKI included gefitinib (n=6), erlotinib (n=6), icotinib (n=1).",
+          "chunk_id": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军:7",
+          "data": "互作用的药物品种较多，其中抗凝药物位居第一（6 例）。不良反应累及血液系统、神经系统、泌尿系统、肝胆系统、皮肤及附件系统等多个器官/系统。结论临床医师和药师应知晓有临床意义的 EGFR-TKI药物相互作用，加强用药监测，避免和减少用药风险。Literature Analysis of 13 Cases of Adverse Reactions Caused by the Drug-drug Interaction of Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitors\nCHENG Jun，HAN Yixuan，WANG Long，ZHANG Guanjun，ZHAO Dan（Department of Pharmacy，the Third People’s Hospital Bengbu City ,Anhui Province，Bengbu 233000，China） ABSTRACT Objective To analyze adverse reactions(ADRs) associated with drug interactions of epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI), and promote safe drug use. Methods The case reports of ADRs caused by adverse reactions associated with drug-drug interaction of EGFR-TKI from the databases of CNKI, VIP, Wanfang and PubMed, and the literature was analyzed.. Results A total of 13 reports involving 13 patients of ADRs associated with drug-drug interaction of EGFR-TKI. Of all the 13 patients，4 were male and 9 were female with age from 35 to 79 "
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军.pdf",
+          "chunk_index": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军:7",
+          "raw_text": "13 cases of adverse ADRs associated with drug-drug interaction of first generation EGFR-TKI included gefitinib (n=6), erlotinib (n=6), icotinib (n=1).",
+          "chunk_id": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军:7",
+          "data": "互作用的药物品种较多，其中抗凝药物位居第一（6 例）。不良反应累及血液系统、神经系统、泌尿系统、肝胆系统、皮肤及附件系统等多个器官/系统。结论临床医师和药师应知晓有临床意义的 EGFR-TKI药物相互作用，加强用药监测，避免和减少用药风险。Literature Analysis of 13 Cases of Adverse Reactions Caused by the Drug-drug Interaction of Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitors\nCHENG Jun，HAN Yixuan，WANG Long，ZHANG Guanjun，ZHAO Dan（Department of Pharmacy，the Third People’s Hospital Bengbu City ,Anhui Province，Bengbu 233000，China） ABSTRACT Objective To analyze adverse reactions(ADRs) associated with drug interactions of epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI), and promote safe drug use. Methods The case reports of ADRs caused by adverse reactions associated with drug-drug interaction of EGFR-TKI from the databases of CNKI, VIP, Wanfang and PubMed, and the literature was analyzed.. Results A total of 13 reports involving 13 patients of ADRs associated with drug-drug interaction of EGFR-TKI. Of all the 13 patients，4 were male and 9 were female with age from 35 to 79 "
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军.pdf",
+          "chunk_index": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军:7",
+          "raw_text": "13 cases of adverse ADRs associated with drug-drug interaction of first generation EGFR-TKI included gefitinib (n=6), erlotinib (n=6), icotinib (n=1).",
+          "chunk_id": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军:7",
+          "data": "互作用的药物品种较多，其中抗凝药物位居第一（6 例）。不良反应累及血液系统、神经系统、泌尿系统、肝胆系统、皮肤及附件系统等多个器官/系统。结论临床医师和药师应知晓有临床意义的 EGFR-TKI药物相互作用，加强用药监测，避免和减少用药风险。Literature Analysis of 13 Cases of Adverse Reactions Caused by the Drug-drug Interaction of Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitors\nCHENG Jun，HAN Yixuan，WANG Long，ZHANG Guanjun，ZHAO Dan（Department of Pharmacy，the Third People’s Hospital Bengbu City ,Anhui Province，Bengbu 233000，China） ABSTRACT Objective To analyze adverse reactions(ADRs) associated with drug interactions of epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI), and promote safe drug use. Methods The case reports of ADRs caused by adverse reactions associated with drug-drug interaction of EGFR-TKI from the databases of CNKI, VIP, Wanfang and PubMed, and the literature was analyzed.. Results A total of 13 reports involving 13 patients of ADRs associated with drug-drug interaction of EGFR-TKI. Of all the 13 patients，4 were male and 9 were female with age from 35 to 79 "
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军.pdf",
+          "chunk_index": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军:7",
+          "raw_text": "There were many types of drugs that interact with EGFR-TKI, among which anticoagulant drugs ranked first (n=6).",
+          "chunk_id": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军:7",
+          "data": "互作用的药物品种较多，其中抗凝药物位居第一（6 例）。不良反应累及血液系统、神经系统、泌尿系统、肝胆系统、皮肤及附件系统等多个器官/系统。结论临床医师和药师应知晓有临床意义的 EGFR-TKI药物相互作用，加强用药监测，避免和减少用药风险。Literature Analysis of 13 Cases of Adverse Reactions Caused by the Drug-drug Interaction of Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitors\nCHENG Jun，HAN Yixuan，WANG Long，ZHANG Guanjun，ZHAO Dan（Department of Pharmacy，the Third People’s Hospital Bengbu City ,Anhui Province，Bengbu 233000，China） ABSTRACT Objective To analyze adverse reactions(ADRs) associated with drug interactions of epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI), and promote safe drug use. Methods The case reports of ADRs caused by adverse reactions associated with drug-drug interaction of EGFR-TKI from the databases of CNKI, VIP, Wanfang and PubMed, and the literature was analyzed.. Results A total of 13 reports involving 13 patients of ADRs associated with drug-drug interaction of EGFR-TKI. Of all the 13 patients，4 were male and 9 were female with age from 35 to 79 "
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军.pdf",
+          "chunk_index": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军:7",
+          "raw_text": "Adverse reactions involved multiple organs/systems such as the blood system, nervous system, urinary system, liver and gallbladder system, skin and accessory system, etc.",
+          "chunk_id": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军:7",
+          "data": "互作用的药物品种较多，其中抗凝药物位居第一（6 例）。不良反应累及血液系统、神经系统、泌尿系统、肝胆系统、皮肤及附件系统等多个器官/系统。结论临床医师和药师应知晓有临床意义的 EGFR-TKI药物相互作用，加强用药监测，避免和减少用药风险。Literature Analysis of 13 Cases of Adverse Reactions Caused by the Drug-drug Interaction of Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitors\nCHENG Jun，HAN Yixuan，WANG Long，ZHANG Guanjun，ZHAO Dan（Department of Pharmacy，the Third People’s Hospital Bengbu City ,Anhui Province，Bengbu 233000，China） ABSTRACT Objective To analyze adverse reactions(ADRs) associated with drug interactions of epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI), and promote safe drug use. Methods The case reports of ADRs caused by adverse reactions associated with drug-drug interaction of EGFR-TKI from the databases of CNKI, VIP, Wanfang and PubMed, and the literature was analyzed.. Results A total of 13 reports involving 13 patients of ADRs associated with drug-drug interaction of EGFR-TKI. Of all the 13 patients，4 were male and 9 were female with age from 35 to 79 "
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军:7",
+    "source": "表皮生长因子受体酪氨酸激酶抑制剂药物相互作用致不良反应13例文献分析_程军.pdf",
+    "text": "互作用的药物品种较多，其中抗凝药物位居第一（6 例）。不良反应累及血液系统、神经系统、泌尿系统、肝胆系统、皮肤及附件系统等多个器官/系统。结论临床医师和药师应知晓有临床意义的 EGFR-TKI药物相互作用，加强用药监测，避免和减少用药风险。Literature Analysis of 13 Cases of Adverse Reactions Caused by the Drug-drug Interaction of Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitors\nCHENG Jun，HAN Yixuan，WANG Long，ZHANG Guanjun，ZHAO Dan（Department of Pharmacy，the Third People’s Hospital Bengbu City ,Anhui Province，Bengbu 233000，China） ABSTRACT Objective To analyze adverse reactions(ADRs) associated with drug interactions of epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI), and promote safe drug use. Methods The case reports of ADRs caused by adverse reactions associated with drug-drug interaction of EGFR-TKI from the databases of CNKI, VIP, Wanfang and PubMed, and the literature was analyzed.. Results A total of 13 reports involving 13 patients of ADRs associated with drug-drug interaction of EGFR-TKI. Of all the 13 patients，4 were male and 9 were female with age from 35 to 79 years and the average age was 56 years. 13 cases of adverse ADRs associated with drug-drug interaction of first generation EGFR-TKI included gefitinib （ n=6 ） ,erlotinib （n=6）,icotinib（n=1）.There were many types of drugs that interact with EGFR-TKI, among which anticoagulant drugs ranked first (n=6). Adverse reactions involved multiple organs/systems such as the blood system, nervous system, urinary system, liver and gallbladder system, skin and accessory system, etc. Conclusion Clinicians and pharmacist should be aware of this clinically significant drug-drug interaction of EGFR-TKI and avoid the combined use．It is necessary to strengthen monitoring and intervention to reduce and avoid the risk of medication. KEYWORDS Epidermal growth factor receptor tyrosine kinase inhibitor;"
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "氟哌啶醇",
+        "canonical_name": "氟哌啶醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "麻醉药物",
+        "canonical_name": "麻醉药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "镇痛药物",
+        "canonical_name": "镇痛药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "催眠药物",
+        "canonical_name": "催眠药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "抗高血压药",
+        "canonical_name": "抗高血压药",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "氟哌啶醇药物相互作用的研究进展_雷凯.pdf",
+          "chunk_index": "氟哌啶醇药物相互作用的研究进展_雷凯:5",
+          "raw_text": "微抑制，才使得伏立康唑的血浓度显著升高。",
+          "chunk_id": "氟哌啶醇药物相互作用的研究进展_雷凯:5",
+          "data": "微抑制，才使得伏立康唑的血浓度显著升高。7 讨论\n药物相互作用除了物理与化学因素外，主要与其代谢途径有关。氟哌啶醇是 CYP3A4 和 CYP2D6 的底物与抑制药;还原型氟哌啶醇是 CYP3A4 的底物及 CYP2D6 的抑制药［35］。氟哌啶醇对 P 糖蛋白( $\\mathrm { P \\mathrm { { g p } ) } }$ 有轻微抑制作用，是 P-gp 抑制药，但不是 P-gp 的底物［36］，因此其他药物不能通过影响 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 从而改变氟哌啶醇的吸收与代谢。其他药物和氟哌啶醇合用时可通过影响 CYP 酶或多巴胺受体等方式可能产生潜在临床意义的药动学和药效学相互作用。如氟哌啶醇临床上与麻醉药物、镇痛药物、催眠药物合用，可互相增加疗效，合并使用时应注意控制剂量［37］;与抗高血压药合用时，可使血压显著降低［20］。6 与其他药物的相互作用"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "氟哌啶醇药物相互作用的研究进展_雷凯.pdf",
+          "chunk_index": "氟哌啶醇药物相互作用的研究进展_雷凯:5",
+          "raw_text": "氟哌啶醇临床上与麻醉药物、镇痛药物、催眠药物合用，可互相增加疗效，合并使用时应注意控制剂量",
+          "chunk_id": "氟哌啶醇药物相互作用的研究进展_雷凯:5",
+          "data": "微抑制，才使得伏立康唑的血浓度显著升高。7 讨论\n药物相互作用除了物理与化学因素外，主要与其代谢途径有关。氟哌啶醇是 CYP3A4 和 CYP2D6 的底物与抑制药;还原型氟哌啶醇是 CYP3A4 的底物及 CYP2D6 的抑制药［35］。氟哌啶醇对 P 糖蛋白( $\\mathrm { P \\mathrm { { g p } ) } }$ 有轻微抑制作用，是 P-gp 抑制药，但不是 P-gp 的底物［36］，因此其他药物不能通过影响 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 从而改变氟哌啶醇的吸收与代谢。其他药物和氟哌啶醇合用时可通过影响 CYP 酶或多巴胺受体等方式可能产生潜在临床意义的药动学和药效学相互作用。如氟哌啶醇临床上与麻醉药物、镇痛药物、催眠药物合用，可互相增加疗效，合并使用时应注意控制剂量［37］;与抗高血压药合用时，可使血压显著降低［20］。6 与其他药物的相互作用"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "氟哌啶醇药物相互作用的研究进展_雷凯.pdf",
+          "chunk_index": "氟哌啶醇药物相互作用的研究进展_雷凯:5",
+          "raw_text": "氟哌啶醇临床上与麻醉药物、镇痛药物、催眠药物合用，可互相增加疗效，合并使用时应注意控制剂量",
+          "chunk_id": "氟哌啶醇药物相互作用的研究进展_雷凯:5",
+          "data": "微抑制，才使得伏立康唑的血浓度显著升高。7 讨论\n药物相互作用除了物理与化学因素外，主要与其代谢途径有关。氟哌啶醇是 CYP3A4 和 CYP2D6 的底物与抑制药;还原型氟哌啶醇是 CYP3A4 的底物及 CYP2D6 的抑制药［35］。氟哌啶醇对 P 糖蛋白( $\\mathrm { P \\mathrm { { g p } ) } }$ 有轻微抑制作用，是 P-gp 抑制药，但不是 P-gp 的底物［36］，因此其他药物不能通过影响 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 从而改变氟哌啶醇的吸收与代谢。其他药物和氟哌啶醇合用时可通过影响 CYP 酶或多巴胺受体等方式可能产生潜在临床意义的药动学和药效学相互作用。如氟哌啶醇临床上与麻醉药物、镇痛药物、催眠药物合用，可互相增加疗效，合并使用时应注意控制剂量［37］;与抗高血压药合用时，可使血压显著降低［20］。6 与其他药物的相互作用"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "氟哌啶醇药物相互作用的研究进展_雷凯.pdf",
+          "chunk_index": "氟哌啶醇药物相互作用的研究进展_雷凯:5",
+          "raw_text": "氟哌啶醇临床上与麻醉药物、镇痛药物、催眠药物合用，可互相增加疗效，合并使用时应注意控制剂量",
+          "chunk_id": "氟哌啶醇药物相互作用的研究进展_雷凯:5",
+          "data": "微抑制，才使得伏立康唑的血浓度显著升高。7 讨论\n药物相互作用除了物理与化学因素外，主要与其代谢途径有关。氟哌啶醇是 CYP3A4 和 CYP2D6 的底物与抑制药;还原型氟哌啶醇是 CYP3A4 的底物及 CYP2D6 的抑制药［35］。氟哌啶醇对 P 糖蛋白( $\\mathrm { P \\mathrm { { g p } ) } }$ 有轻微抑制作用，是 P-gp 抑制药，但不是 P-gp 的底物［36］，因此其他药物不能通过影响 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 从而改变氟哌啶醇的吸收与代谢。其他药物和氟哌啶醇合用时可通过影响 CYP 酶或多巴胺受体等方式可能产生潜在临床意义的药动学和药效学相互作用。如氟哌啶醇临床上与麻醉药物、镇痛药物、催眠药物合用，可互相增加疗效，合并使用时应注意控制剂量［37］;与抗高血压药合用时，可使血压显著降低［20］。6 与其他药物的相互作用"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "氟哌啶醇药物相互作用的研究进展_雷凯.pdf",
+          "chunk_index": "氟哌啶醇药物相互作用的研究进展_雷凯:5",
+          "raw_text": "与抗高血压药合用时，可使血压显著降低",
+          "chunk_id": "氟哌啶醇药物相互作用的研究进展_雷凯:5",
+          "data": "微抑制，才使得伏立康唑的血浓度显著升高。7 讨论\n药物相互作用除了物理与化学因素外，主要与其代谢途径有关。氟哌啶醇是 CYP3A4 和 CYP2D6 的底物与抑制药;还原型氟哌啶醇是 CYP3A4 的底物及 CYP2D6 的抑制药［35］。氟哌啶醇对 P 糖蛋白( $\\mathrm { P \\mathrm { { g p } ) } }$ 有轻微抑制作用，是 P-gp 抑制药，但不是 P-gp 的底物［36］，因此其他药物不能通过影响 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 从而改变氟哌啶醇的吸收与代谢。其他药物和氟哌啶醇合用时可通过影响 CYP 酶或多巴胺受体等方式可能产生潜在临床意义的药动学和药效学相互作用。如氟哌啶醇临床上与麻醉药物、镇痛药物、催眠药物合用，可互相增加疗效，合并使用时应注意控制剂量［37］;与抗高血压药合用时，可使血压显著降低［20］。6 与其他药物的相互作用"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "氟哌啶醇药物相互作用的研究进展_雷凯:5",
+    "source": "氟哌啶醇药物相互作用的研究进展_雷凯.pdf",
+    "text": "微抑制，才使得伏立康唑的血浓度显著升高。7 讨论\n药物相互作用除了物理与化学因素外，主要与其代谢途径有关。氟哌啶醇是 CYP3A4 和 CYP2D6 的底物与抑制药;还原型氟哌啶醇是 CYP3A4 的底物及 CYP2D6 的抑制药［35］。氟哌啶醇对 P 糖蛋白( $\\mathrm { P \\mathrm { { g p } ) } }$ 有轻微抑制作用，是 P-gp 抑制药，但不是 P-gp 的底物［36］，因此其他药物不能通过影响 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 从而改变氟哌啶醇的吸收与代谢。其他药物和氟哌啶醇合用时可通过影响 CYP 酶或多巴胺受体等方式可能产生潜在临床意义的药动学和药效学相互作用。如氟哌啶醇临床上与麻醉药物、镇痛药物、催眠药物合用，可互相增加疗效，合并使用时应注意控制剂量［37］;与抗高血压药合用时，可使血压显著降低［20］。6 与其他药物的相互作用"
+  }
+]

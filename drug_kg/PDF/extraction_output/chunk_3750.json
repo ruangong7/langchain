@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "地塞米松",
+        "canonical_name": "地塞米松",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "紫杉醇",
+        "canonical_name": "紫杉醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "CYP3A4诱导剂",
+        "canonical_name": "CYP3A4诱导剂",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "植物药-化疗药物相互作用的研究进展_原海燕.pdf",
+          "chunk_index": "植物药-化疗药物相互作用的研究进展_原海燕:5",
+          "raw_text": "目前已知的PXR配体(如利福平、地塞米松、clortrimazole和紫杉醇）都是CYP3A4的诱导剂。",
+          "chunk_id": "植物药-化疗药物相互作用的研究进展_原海燕:5",
+          "data": "3 核受体\n近年来，在外源性化合物影响 CYP450 酶依赖性代谢的机制方面取得了重要的进展，并且外源性化合物诱导肝脏 CYP450 同工酶表达的机制研究上有了突破性发现，确定了 3 个主要的孤儿核受体超家族成员：组成型雄烷受体（constitutive and rostanereceptor CAR）、孕烷 X 受体（pregnane X receptor PXR）、维生素 D 结合受体（vitamin D-binding receptor VDR），它们分别在介导肝脏 CYP2, CYP3 和 CYP4 家族同工酶诱导中发挥作用。\n研究表明 PXR 是 CYP3A4 和 Pgp 转录调节的关键因子 $^{[17, 18]}$ ，PXR 对 CYP3A 的调节机制如下：配体与 PXR 结合使之活化，形成受体配体复合物，然后与视黄醛 X 受体（retinoid X receptor RXR）形成异二聚体，最后作用于 CYP3A4 基因启动子上的外源性化合物反应元件，促进 CYP3A4 的转录。MDR1 基因编码 P 糖蛋白，PXR 可作用于 MDR1 基因上约 8 kb 的远端增强子（位置类似于CYP3A4基因启动子上的外源性化合物反应元件处)使MDR1表达增加。PXR不仅是CYP3A的主要转录调控因子，而且参与了其他多种蛋白如 $\\mathrm{CYP2B6^{[19]}}$ 、 $\\mathrm{CYP2C9^{[20]}}$ 、谷胱甘肽S转移酶 $^{[21]}$ 、多药耐药相关蛋白 $^{[22]}$ 的转录调节。目前已知的PXR配体(如利福平、地塞米松、clortrimazole和紫杉醇）都是CYP3A4的诱导剂。以上的研究提示激活PXR可能是植物药诱导药物代谢酶和转运蛋白的主要机制之一。\n4 植物药对核受体的诱导能力"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "植物药-化疗药物相互作用的研究进展_原海燕.pdf",
+          "chunk_index": "植物药-化疗药物相互作用的研究进展_原海燕:5",
+          "raw_text": "目前已知的PXR配体(如利福平、地塞米松、clortrimazole和紫杉醇）都是CYP3A4的诱导剂。",
+          "chunk_id": "植物药-化疗药物相互作用的研究进展_原海燕:5",
+          "data": "3 核受体\n近年来，在外源性化合物影响 CYP450 酶依赖性代谢的机制方面取得了重要的进展，并且外源性化合物诱导肝脏 CYP450 同工酶表达的机制研究上有了突破性发现，确定了 3 个主要的孤儿核受体超家族成员：组成型雄烷受体（constitutive and rostanereceptor CAR）、孕烷 X 受体（pregnane X receptor PXR）、维生素 D 结合受体（vitamin D-binding receptor VDR），它们分别在介导肝脏 CYP2, CYP3 和 CYP4 家族同工酶诱导中发挥作用。\n研究表明 PXR 是 CYP3A4 和 Pgp 转录调节的关键因子 $^{[17, 18]}$ ，PXR 对 CYP3A 的调节机制如下：配体与 PXR 结合使之活化，形成受体配体复合物，然后与视黄醛 X 受体（retinoid X receptor RXR）形成异二聚体，最后作用于 CYP3A4 基因启动子上的外源性化合物反应元件，促进 CYP3A4 的转录。MDR1 基因编码 P 糖蛋白，PXR 可作用于 MDR1 基因上约 8 kb 的远端增强子（位置类似于CYP3A4基因启动子上的外源性化合物反应元件处)使MDR1表达增加。PXR不仅是CYP3A的主要转录调控因子，而且参与了其他多种蛋白如 $\\mathrm{CYP2B6^{[19]}}$ 、 $\\mathrm{CYP2C9^{[20]}}$ 、谷胱甘肽S转移酶 $^{[21]}$ 、多药耐药相关蛋白 $^{[22]}$ 的转录调节。目前已知的PXR配体(如利福平、地塞米松、clortrimazole和紫杉醇）都是CYP3A4的诱导剂。以上的研究提示激活PXR可能是植物药诱导药物代谢酶和转运蛋白的主要机制之一。\n4 植物药对核受体的诱导能力"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "植物药-化疗药物相互作用的研究进展_原海燕.pdf",
+          "chunk_index": "植物药-化疗药物相互作用的研究进展_原海燕:5",
+          "raw_text": "目前已知的PXR配体(如利福平、地塞米松、clortrimazole和紫杉醇）都是CYP3A4的诱导剂。",
+          "chunk_id": "植物药-化疗药物相互作用的研究进展_原海燕:5",
+          "data": "3 核受体\n近年来，在外源性化合物影响 CYP450 酶依赖性代谢的机制方面取得了重要的进展，并且外源性化合物诱导肝脏 CYP450 同工酶表达的机制研究上有了突破性发现，确定了 3 个主要的孤儿核受体超家族成员：组成型雄烷受体（constitutive and rostanereceptor CAR）、孕烷 X 受体（pregnane X receptor PXR）、维生素 D 结合受体（vitamin D-binding receptor VDR），它们分别在介导肝脏 CYP2, CYP3 和 CYP4 家族同工酶诱导中发挥作用。\n研究表明 PXR 是 CYP3A4 和 Pgp 转录调节的关键因子 $^{[17, 18]}$ ，PXR 对 CYP3A 的调节机制如下：配体与 PXR 结合使之活化，形成受体配体复合物，然后与视黄醛 X 受体（retinoid X receptor RXR）形成异二聚体，最后作用于 CYP3A4 基因启动子上的外源性化合物反应元件，促进 CYP3A4 的转录。MDR1 基因编码 P 糖蛋白，PXR 可作用于 MDR1 基因上约 8 kb 的远端增强子（位置类似于CYP3A4基因启动子上的外源性化合物反应元件处)使MDR1表达增加。PXR不仅是CYP3A的主要转录调控因子，而且参与了其他多种蛋白如 $\\mathrm{CYP2B6^{[19]}}$ 、 $\\mathrm{CYP2C9^{[20]}}$ 、谷胱甘肽S转移酶 $^{[21]}$ 、多药耐药相关蛋白 $^{[22]}$ 的转录调节。目前已知的PXR配体(如利福平、地塞米松、clortrimazole和紫杉醇）都是CYP3A4的诱导剂。以上的研究提示激活PXR可能是植物药诱导药物代谢酶和转运蛋白的主要机制之一。\n4 植物药对核受体的诱导能力"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "植物药-化疗药物相互作用的研究进展_原海燕:5",
+    "source": "植物药-化疗药物相互作用的研究进展_原海燕.pdf",
+    "text": "3 核受体\n近年来，在外源性化合物影响 CYP450 酶依赖性代谢的机制方面取得了重要的进展，并且外源性化合物诱导肝脏 CYP450 同工酶表达的机制研究上有了突破性发现，确定了 3 个主要的孤儿核受体超家族成员：组成型雄烷受体（constitutive and rostanereceptor CAR）、孕烷 X 受体（pregnane X receptor PXR）、维生素 D 结合受体（vitamin D-binding receptor VDR），它们分别在介导肝脏 CYP2, CYP3 和 CYP4 家族同工酶诱导中发挥作用。\n研究表明 PXR 是 CYP3A4 和 Pgp 转录调节的关键因子 $^{[17, 18]}$ ，PXR 对 CYP3A 的调节机制如下：配体与 PXR 结合使之活化，形成受体配体复合物，然后与视黄醛 X 受体（retinoid X receptor RXR）形成异二聚体，最后作用于 CYP3A4 基因启动子上的外源性化合物反应元件，促进 CYP3A4 的转录。MDR1 基因编码 P 糖蛋白，PXR 可作用于 MDR1 基因上约 8 kb 的远端增强子（位置类似于CYP3A4基因启动子上的外源性化合物反应元件处)使MDR1表达增加。PXR不仅是CYP3A的主要转录调控因子，而且参与了其他多种蛋白如 $\\mathrm{CYP2B6^{[19]}}$ 、 $\\mathrm{CYP2C9^{[20]}}$ 、谷胱甘肽S转移酶 $^{[21]}$ 、多药耐药相关蛋白 $^{[22]}$ 的转录调节。目前已知的PXR配体(如利福平、地塞米松、clortrimazole和紫杉醇）都是CYP3A4的诱导剂。以上的研究提示激活PXR可能是植物药诱导药物代谢酶和转运蛋白的主要机制之一。\n4 植物药对核受体的诱导能力"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "canonical_name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "canonical_name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "肾毒性",
+        "canonical_name": "肾毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "高血压",
+        "canonical_name": "高血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "他克莫司血药浓度",
+        "canonical_name": "他克莫司血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "血清肌酸酐",
+        "canonical_name": "血清肌酸酐",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Population",
+        "name": "CYP3A5*3/*3基因型患儿",
+        "canonical_name": "CYP3A5*3/*3基因型患儿",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "8",
+          "raw_text": "克拉霉素奥美拉唑均可升高他克莫司血药浓度，风险均为 D 级",
+          "mechanism": "CYP3A4抑制",
+          "consequence": "他克莫司血药浓度升高",
+          "severity": "D级",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:8",
+          "data": "b i d )$ 口服抗 $\\mathrm { H p }$ 治疗 14 d 。第 11 天测 TAC 浓度 $1 6 . 3 \\mathrm { \\ n g \\cdot m L ^ { - 1 } }$ ，尿蛋白转阴，出院维持口服方案 。临床药师查阅 Lexicomp Drug interactions，提示克拉霉素奥美拉唑均可升高他克莫司血药浓度，风险均为 D 级，建议降低 TAC 用量。但医师认为目前方案有效，TAC 减量可致肾病复发，暂不调整。“很可能”相关。参考文献:\n此外，对于肝药酶 CYP3A5 \\* 3 / \\* 3 基因型的患儿，TAC 更易与 CYP3A4 抑制药发生药物相互作用。TAC 主要经过 CYP3A5 和 CYP3A4 代谢，其中CYP3A5 是 TAC 主要代谢酶［4 － 5］ 。但本例患儿CYP3A5 基因型为\\* 3 / \\* 3，其 CYP3A5 活性极低，因此 CYP3A4 是该患儿 TAC 主要代谢酶［4 － 5］。克拉霉素和奥美拉唑是 CYP3A4 抑制药，抑制 TAC 代谢导致血药浓度升高，并引起严重高血压。此外，多项肾移植案例报道 TAC 联用克拉霉素可导致 TAC 血药浓度和血清肌酸酐同步升高［6 － 8］，且下调 TAC 至原剂量1 /3 ～ 1 /2 仍可导致血药浓度升高［8］。大量肾移植研究证实，TAC 在 $2 5 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 以上时肾毒性发生率为90%［9］。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "8",
+          "raw_text": "克拉霉素奥美拉唑均可升高他克莫司血药浓度，风险均为 D 级",
+          "mechanism": "CYP3A4抑制",
+          "consequence": "他克莫司血药浓度升高",
+          "severity": "D级",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:8",
+          "data": "b i d )$ 口服抗 $\\mathrm { H p }$ 治疗 14 d 。第 11 天测 TAC 浓度 $1 6 . 3 \\mathrm { \\ n g \\cdot m L ^ { - 1 } }$ ，尿蛋白转阴，出院维持口服方案 。临床药师查阅 Lexicomp Drug interactions，提示克拉霉素奥美拉唑均可升高他克莫司血药浓度，风险均为 D 级，建议降低 TAC 用量。但医师认为目前方案有效，TAC 减量可致肾病复发，暂不调整。“很可能”相关。参考文献:\n此外，对于肝药酶 CYP3A5 \\* 3 / \\* 3 基因型的患儿，TAC 更易与 CYP3A4 抑制药发生药物相互作用。TAC 主要经过 CYP3A5 和 CYP3A4 代谢，其中CYP3A5 是 TAC 主要代谢酶［4 － 5］ 。但本例患儿CYP3A5 基因型为\\* 3 / \\* 3，其 CYP3A5 活性极低，因此 CYP3A4 是该患儿 TAC 主要代谢酶［4 － 5］。克拉霉素和奥美拉唑是 CYP3A4 抑制药，抑制 TAC 代谢导致血药浓度升高，并引起严重高血压。此外，多项肾移植案例报道 TAC 联用克拉霉素可导致 TAC 血药浓度和血清肌酸酐同步升高［6 － 8］，且下调 TAC 至原剂量1 /3 ～ 1 /2 仍可导致血药浓度升高［8］。大量肾移植研究证实，TAC 在 $2 5 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 以上时肾毒性发生率为90%［9］。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "8",
+          "raw_text": "TAC 在 25 ng·mL-1 以上时肾毒性发生率为90%",
+          "condition": "血药浓度>25 ng/mL",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:8",
+          "data": "b i d )$ 口服抗 $\\mathrm { H p }$ 治疗 14 d 。第 11 天测 TAC 浓度 $1 6 . 3 \\mathrm { \\ n g \\cdot m L ^ { - 1 } }$ ，尿蛋白转阴，出院维持口服方案 。临床药师查阅 Lexicomp Drug interactions，提示克拉霉素奥美拉唑均可升高他克莫司血药浓度，风险均为 D 级，建议降低 TAC 用量。但医师认为目前方案有效，TAC 减量可致肾病复发，暂不调整。“很可能”相关。参考文献:\n此外，对于肝药酶 CYP3A5 \\* 3 / \\* 3 基因型的患儿，TAC 更易与 CYP3A4 抑制药发生药物相互作用。TAC 主要经过 CYP3A5 和 CYP3A4 代谢，其中CYP3A5 是 TAC 主要代谢酶［4 － 5］ 。但本例患儿CYP3A5 基因型为\\* 3 / \\* 3，其 CYP3A5 活性极低，因此 CYP3A4 是该患儿 TAC 主要代谢酶［4 － 5］。克拉霉素和奥美拉唑是 CYP3A4 抑制药，抑制 TAC 代谢导致血药浓度升高，并引起严重高血压。此外，多项肾移植案例报道 TAC 联用克拉霉素可导致 TAC 血药浓度和血清肌酸酐同步升高［6 － 8］，且下调 TAC 至原剂量1 /3 ～ 1 /2 仍可导致血药浓度升高［8］。大量肾移植研究证实，TAC 在 $2 5 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 以上时肾毒性发生率为90%［9］。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "8",
+          "raw_text": "克拉霉素和奥美拉唑是 CYP3A4 抑制药，抑制 TAC 代谢导致血药浓度升高，并引起严重高血压",
+          "mechanism": "血药浓度升高",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:8",
+          "data": "b i d )$ 口服抗 $\\mathrm { H p }$ 治疗 14 d 。第 11 天测 TAC 浓度 $1 6 . 3 \\mathrm { \\ n g \\cdot m L ^ { - 1 } }$ ，尿蛋白转阴，出院维持口服方案 。临床药师查阅 Lexicomp Drug interactions，提示克拉霉素奥美拉唑均可升高他克莫司血药浓度，风险均为 D 级，建议降低 TAC 用量。但医师认为目前方案有效，TAC 减量可致肾病复发，暂不调整。“很可能”相关。参考文献:\n此外，对于肝药酶 CYP3A5 \\* 3 / \\* 3 基因型的患儿，TAC 更易与 CYP3A4 抑制药发生药物相互作用。TAC 主要经过 CYP3A5 和 CYP3A4 代谢，其中CYP3A5 是 TAC 主要代谢酶［4 － 5］ 。但本例患儿CYP3A5 基因型为\\* 3 / \\* 3，其 CYP3A5 活性极低，因此 CYP3A4 是该患儿 TAC 主要代谢酶［4 － 5］。克拉霉素和奥美拉唑是 CYP3A4 抑制药，抑制 TAC 代谢导致血药浓度升高，并引起严重高血压。此外，多项肾移植案例报道 TAC 联用克拉霉素可导致 TAC 血药浓度和血清肌酸酐同步升高［6 － 8］，且下调 TAC 至原剂量1 /3 ～ 1 /2 仍可导致血药浓度升高［8］。大量肾移植研究证实，TAC 在 $2 5 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 以上时肾毒性发生率为90%［9］。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "8",
+          "raw_text": "第 11 天测 TAC 浓度 16.3 ng·mL-1",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:8",
+          "data": "b i d )$ 口服抗 $\\mathrm { H p }$ 治疗 14 d 。第 11 天测 TAC 浓度 $1 6 . 3 \\mathrm { \\ n g \\cdot m L ^ { - 1 } }$ ，尿蛋白转阴，出院维持口服方案 。临床药师查阅 Lexicomp Drug interactions，提示克拉霉素奥美拉唑均可升高他克莫司血药浓度，风险均为 D 级，建议降低 TAC 用量。但医师认为目前方案有效，TAC 减量可致肾病复发，暂不调整。“很可能”相关。参考文献:\n此外，对于肝药酶 CYP3A5 \\* 3 / \\* 3 基因型的患儿，TAC 更易与 CYP3A4 抑制药发生药物相互作用。TAC 主要经过 CYP3A5 和 CYP3A4 代谢，其中CYP3A5 是 TAC 主要代谢酶［4 － 5］ 。但本例患儿CYP3A5 基因型为\\* 3 / \\* 3，其 CYP3A5 活性极低，因此 CYP3A4 是该患儿 TAC 主要代谢酶［4 － 5］。克拉霉素和奥美拉唑是 CYP3A4 抑制药，抑制 TAC 代谢导致血药浓度升高，并引起严重高血压。此外，多项肾移植案例报道 TAC 联用克拉霉素可导致 TAC 血药浓度和血清肌酸酐同步升高［6 － 8］，且下调 TAC 至原剂量1 /3 ～ 1 /2 仍可导致血药浓度升高［8］。大量肾移植研究证实，TAC 在 $2 5 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 以上时肾毒性发生率为90%［9］。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "8",
+          "raw_text": "TAC 联用克拉霉素可导致 TAC 血药浓度和血清肌酸酐同步升高",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:8",
+          "data": "b i d )$ 口服抗 $\\mathrm { H p }$ 治疗 14 d 。第 11 天测 TAC 浓度 $1 6 . 3 \\mathrm { \\ n g \\cdot m L ^ { - 1 } }$ ，尿蛋白转阴，出院维持口服方案 。临床药师查阅 Lexicomp Drug interactions，提示克拉霉素奥美拉唑均可升高他克莫司血药浓度，风险均为 D 级，建议降低 TAC 用量。但医师认为目前方案有效，TAC 减量可致肾病复发，暂不调整。“很可能”相关。参考文献:\n此外，对于肝药酶 CYP3A5 \\* 3 / \\* 3 基因型的患儿，TAC 更易与 CYP3A4 抑制药发生药物相互作用。TAC 主要经过 CYP3A5 和 CYP3A4 代谢，其中CYP3A5 是 TAC 主要代谢酶［4 － 5］ 。但本例患儿CYP3A5 基因型为\\* 3 / \\* 3，其 CYP3A5 活性极低，因此 CYP3A4 是该患儿 TAC 主要代谢酶［4 － 5］。克拉霉素和奥美拉唑是 CYP3A4 抑制药，抑制 TAC 代谢导致血药浓度升高，并引起严重高血压。此外，多项肾移植案例报道 TAC 联用克拉霉素可导致 TAC 血药浓度和血清肌酸酐同步升高［6 － 8］，且下调 TAC 至原剂量1 /3 ～ 1 /2 仍可导致血药浓度升高［8］。大量肾移植研究证实，TAC 在 $2 5 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 以上时肾毒性发生率为90%［9］。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "8",
+          "raw_text": "对于肝药酶 CYP3A5*3/*3 基因型的患儿，TAC 更易与 CYP3A4 抑制药发生药物相互作用",
+          "condition": "CYP3A5*3/*3基因型",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:8",
+          "data": "b i d )$ 口服抗 $\\mathrm { H p }$ 治疗 14 d 。第 11 天测 TAC 浓度 $1 6 . 3 \\mathrm { \\ n g \\cdot m L ^ { - 1 } }$ ，尿蛋白转阴，出院维持口服方案 。临床药师查阅 Lexicomp Drug interactions，提示克拉霉素奥美拉唑均可升高他克莫司血药浓度，风险均为 D 级，建议降低 TAC 用量。但医师认为目前方案有效，TAC 减量可致肾病复发，暂不调整。“很可能”相关。参考文献:\n此外，对于肝药酶 CYP3A5 \\* 3 / \\* 3 基因型的患儿，TAC 更易与 CYP3A4 抑制药发生药物相互作用。TAC 主要经过 CYP3A5 和 CYP3A4 代谢，其中CYP3A5 是 TAC 主要代谢酶［4 － 5］ 。但本例患儿CYP3A5 基因型为\\* 3 / \\* 3，其 CYP3A5 活性极低，因此 CYP3A4 是该患儿 TAC 主要代谢酶［4 － 5］。克拉霉素和奥美拉唑是 CYP3A4 抑制药，抑制 TAC 代谢导致血药浓度升高，并引起严重高血压。此外，多项肾移植案例报道 TAC 联用克拉霉素可导致 TAC 血药浓度和血清肌酸酐同步升高［6 － 8］，且下调 TAC 至原剂量1 /3 ～ 1 /2 仍可导致血药浓度升高［8］。大量肾移植研究证实，TAC 在 $2 5 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 以上时肾毒性发生率为90%［9］。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "8",
+          "raw_text": "对于肝药酶 CYP3A5*3/*3 基因型的患儿，TAC 更易与 CYP3A4 抑制药发生药物相互作用",
+          "condition": "CYP3A5*3/*3基因型",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:8",
+          "data": "b i d )$ 口服抗 $\\mathrm { H p }$ 治疗 14 d 。第 11 天测 TAC 浓度 $1 6 . 3 \\mathrm { \\ n g \\cdot m L ^ { - 1 } }$ ，尿蛋白转阴，出院维持口服方案 。临床药师查阅 Lexicomp Drug interactions，提示克拉霉素奥美拉唑均可升高他克莫司血药浓度，风险均为 D 级，建议降低 TAC 用量。但医师认为目前方案有效，TAC 减量可致肾病复发，暂不调整。“很可能”相关。参考文献:\n此外，对于肝药酶 CYP3A5 \\* 3 / \\* 3 基因型的患儿，TAC 更易与 CYP3A4 抑制药发生药物相互作用。TAC 主要经过 CYP3A5 和 CYP3A4 代谢，其中CYP3A5 是 TAC 主要代谢酶［4 － 5］ 。但本例患儿CYP3A5 基因型为\\* 3 / \\* 3，其 CYP3A5 活性极低，因此 CYP3A4 是该患儿 TAC 主要代谢酶［4 － 5］。克拉霉素和奥美拉唑是 CYP3A4 抑制药，抑制 TAC 代谢导致血药浓度升高，并引起严重高血压。此外，多项肾移植案例报道 TAC 联用克拉霉素可导致 TAC 血药浓度和血清肌酸酐同步升高［6 － 8］，且下调 TAC 至原剂量1 /3 ～ 1 /2 仍可导致血药浓度升高［8］。大量肾移植研究证实，TAC 在 $2 5 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 以上时肾毒性发生率为90%［9］。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:8",
+    "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+    "text": "b i d )$ 口服抗 $\\mathrm { H p }$ 治疗 14 d 。第 11 天测 TAC 浓度 $1 6 . 3 \\mathrm { \\ n g \\cdot m L ^ { - 1 } }$ ，尿蛋白转阴，出院维持口服方案 。临床药师查阅 Lexicomp Drug interactions，提示克拉霉素奥美拉唑均可升高他克莫司血药浓度，风险均为 D 级，建议降低 TAC 用量。但医师认为目前方案有效，TAC 减量可致肾病复发，暂不调整。“很可能”相关。参考文献:\n此外，对于肝药酶 CYP3A5 \\* 3 / \\* 3 基因型的患儿，TAC 更易与 CYP3A4 抑制药发生药物相互作用。TAC 主要经过 CYP3A5 和 CYP3A4 代谢，其中CYP3A5 是 TAC 主要代谢酶［4 － 5］ 。但本例患儿CYP3A5 基因型为\\* 3 / \\* 3，其 CYP3A5 活性极低，因此 CYP3A4 是该患儿 TAC 主要代谢酶［4 － 5］。克拉霉素和奥美拉唑是 CYP3A4 抑制药，抑制 TAC 代谢导致血药浓度升高，并引起严重高血压。此外，多项肾移植案例报道 TAC 联用克拉霉素可导致 TAC 血药浓度和血清肌酸酐同步升高［6 － 8］，且下调 TAC 至原剂量1 /3 ～ 1 /2 仍可导致血药浓度升高［8］。大量肾移植研究证实，TAC 在 $2 5 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 以上时肾毒性发生率为90%［9］。"
+  }
+]

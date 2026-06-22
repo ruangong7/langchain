@@ -1,0 +1,72 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "氯吡格雷",
+        "canonical_name": "氯吡格雷",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "雷贝拉唑",
+        "canonical_name": "雷贝拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Indicator",
+        "name": "CYP2C19基因多态性",
+        "canonical_name": "CYP2C19基因多态性",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "CYP2C19基因多态性对氯吡格雷和雷贝拉唑药物相互作用的影响_丁少波.pdf",
+          "chunk_index": "CYP2C19基因多态性对氯吡格雷和雷贝拉唑药物相互作用的影响_丁少波:7",
+          "raw_text": "CYP2C19 gene polymorphism has a certain effect on the drug - drug interactions between clopidogrel and rabeprazole",
+          "chunk_id": "CYP2C19基因多态性对氯吡格雷和雷贝拉唑药物相互作用的影响_丁少波:7",
+          "data": "group C was significantly lower than that第一作者：丁少波，女，大学本科，主任药师，研究方向为临床药学及药事管理，（电话）0769 - 28636361（电子信箱）943098759@qq. com。in group A，while the $\\mathrm { M A ^ { \\mathrm { ~ - ~ } } A D P }$ in group C was significantly higher than that in group A $\\left( P \\ < \\ 0 . \\ : 0 5 \\right)$ . In EM patients，the inhibition rate of ADP in group B and group C was significantly lower than that in group A，while the MA - ADP in group C was significantly higher than that in group A $\\left( P < 0 . 0 5 \\right)$ ）. In IM patients，the ADP inhibition rate in group C was significantly lower than that in group A $\\left( P \\ < \\ 0 . 0 5 \\right)$ . There was no significant difference in the incidence of MACE and gastrointestinal reactions among the three groups $\\left( P > 0 . 0 5 \\right)$ . Conclusion CYP2C19 gene polymorphism has a certain effect on the drug - drug interactions between clopidogrel and rabeprazole，and the combination of two drugs should be considered in the clinic.截至年的数据显示，我国心血管病患者数约亿，其中冠状动脉"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "CYP2C19基因多态性对氯吡格雷和雷贝拉唑药物相互作用的影响_丁少波.pdf",
+          "chunk_index": "CYP2C19基因多态性对氯吡格雷和雷贝拉唑药物相互作用的影响_丁少波:7",
+          "raw_text": "CYP2C19 gene polymorphism has a certain effect on the drug - drug interactions between clopidogrel and rabeprazole",
+          "chunk_id": "CYP2C19基因多态性对氯吡格雷和雷贝拉唑药物相互作用的影响_丁少波:7",
+          "data": "group C was significantly lower than that第一作者：丁少波，女，大学本科，主任药师，研究方向为临床药学及药事管理，（电话）0769 - 28636361（电子信箱）943098759@qq. com。in group A，while the $\\mathrm { M A ^ { \\mathrm { ~ - ~ } } A D P }$ in group C was significantly higher than that in group A $\\left( P \\ < \\ 0 . \\ : 0 5 \\right)$ . In EM patients，the inhibition rate of ADP in group B and group C was significantly lower than that in group A，while the MA - ADP in group C was significantly higher than that in group A $\\left( P < 0 . 0 5 \\right)$ ）. In IM patients，the ADP inhibition rate in group C was significantly lower than that in group A $\\left( P \\ < \\ 0 . 0 5 \\right)$ . There was no significant difference in the incidence of MACE and gastrointestinal reactions among the three groups $\\left( P > 0 . 0 5 \\right)$ . Conclusion CYP2C19 gene polymorphism has a certain effect on the drug - drug interactions between clopidogrel and rabeprazole，and the combination of two drugs should be considered in the clinic.截至年的数据显示，我国心血管病患者数约亿，其中冠状动脉"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "CYP2C19基因多态性对氯吡格雷和雷贝拉唑药物相互作用的影响_丁少波.pdf",
+          "chunk_index": "CYP2C19基因多态性对氯吡格雷和雷贝拉唑药物相互作用的影响_丁少波:7",
+          "raw_text": "CYP2C19 gene polymorphism has a certain effect on the drug - drug interactions between clopidogrel and rabeprazole",
+          "chunk_id": "CYP2C19基因多态性对氯吡格雷和雷贝拉唑药物相互作用的影响_丁少波:7",
+          "data": "group C was significantly lower than that第一作者：丁少波，女，大学本科，主任药师，研究方向为临床药学及药事管理，（电话）0769 - 28636361（电子信箱）943098759@qq. com。in group A，while the $\\mathrm { M A ^ { \\mathrm { ~ - ~ } } A D P }$ in group C was significantly higher than that in group A $\\left( P \\ < \\ 0 . \\ : 0 5 \\right)$ . In EM patients，the inhibition rate of ADP in group B and group C was significantly lower than that in group A，while the MA - ADP in group C was significantly higher than that in group A $\\left( P < 0 . 0 5 \\right)$ ）. In IM patients，the ADP inhibition rate in group C was significantly lower than that in group A $\\left( P \\ < \\ 0 . 0 5 \\right)$ . There was no significant difference in the incidence of MACE and gastrointestinal reactions among the three groups $\\left( P > 0 . 0 5 \\right)$ . Conclusion CYP2C19 gene polymorphism has a certain effect on the drug - drug interactions between clopidogrel and rabeprazole，and the combination of two drugs should be considered in the clinic.截至年的数据显示，我国心血管病患者数约亿，其中冠状动脉"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "CYP2C19基因多态性对氯吡格雷和雷贝拉唑药物相互作用的影响_丁少波:7",
+    "source": "CYP2C19基因多态性对氯吡格雷和雷贝拉唑药物相互作用的影响_丁少波.pdf",
+    "text": "group C was significantly lower than that第一作者：丁少波，女，大学本科，主任药师，研究方向为临床药学及药事管理，（电话）0769 - 28636361（电子信箱）943098759@qq. com。in group A，while the $\\mathrm { M A ^ { \\mathrm { ~ - ~ } } A D P }$ in group C was significantly higher than that in group A $\\left( P \\ < \\ 0 . \\ : 0 5 \\right)$ . In EM patients，the inhibition rate of ADP in group B and group C was significantly lower than that in group A，while the MA - ADP in group C was significantly higher than that in group A $\\left( P < 0 . 0 5 \\right)$ ）. In IM patients，the ADP inhibition rate in group C was significantly lower than that in group A $\\left( P \\ < \\ 0 . 0 5 \\right)$ . There was no significant difference in the incidence of MACE and gastrointestinal reactions among the three groups $\\left( P > 0 . 0 5 \\right)$ . Conclusion CYP2C19 gene polymorphism has a certain effect on the drug - drug interactions between clopidogrel and rabeprazole，and the combination of two drugs should be considered in the clinic.截至年的数据显示，我国心血管病患者数约亿，其中冠状动脉粥样硬化性心脏病患者万，心血管病也是我国居民首要死亡原因，且患者数仍将快速增长［1］。"
+  }
+]

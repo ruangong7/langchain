@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "丙戊酸钠",
+        "canonical_name": "丙戊酸钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "碳青霉烯类抗菌药物",
+        "canonical_name": "碳青霉烯类抗菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "癫痫",
+        "canonical_name": "癫痫",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "血浓度急剧下降",
+        "canonical_name": "血浓度急剧下降",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "癫痫发作",
+        "canonical_name": "癫痫发作",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟.pdf",
+          "chunk_index": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:9",
+          "raw_text": "癫患者合用丙戊酸钠和碳青霉烯类抗菌药物时出现丙戊酸( valproicacid，VPA) 血浓度急剧下降、 甚至癫发作的情况。",
+          "chunk_id": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:9",
+          "data": "，but more data are needed to demonstrate it．近年来越来越多的文献报道，癫患者合用丙戊酸钠和碳青霉烯类抗菌药物时出现丙戊酸( valproicacid，VPA) 血浓度急剧下降、 甚至癫发作的情况。笔者收集我科近年来症状性癫患者合用丙戊酸钠和碳青霉烯类抗菌药物的临床资料，评价二者合用的临床意义 。压病、糖尿病、冠心病等;7 例感染均为重症肺炎，由胸部 X 线片检查或胸部 CT 证实。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟.pdf",
+          "chunk_index": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:9",
+          "raw_text": "癫患者合用丙戊酸钠和碳青霉烯类抗菌药物时出现丙戊酸( valproicacid，VPA) 血浓度急剧下降、 甚至癫发作的情况。",
+          "chunk_id": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:9",
+          "data": "，but more data are needed to demonstrate it．近年来越来越多的文献报道，癫患者合用丙戊酸钠和碳青霉烯类抗菌药物时出现丙戊酸( valproicacid，VPA) 血浓度急剧下降、 甚至癫发作的情况。笔者收集我科近年来症状性癫患者合用丙戊酸钠和碳青霉烯类抗菌药物的临床资料，评价二者合用的临床意义 。压病、糖尿病、冠心病等;7 例感染均为重症肺炎，由胸部 X 线片检查或胸部 CT 证实。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟.pdf",
+          "chunk_index": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:9",
+          "raw_text": "癫患者合用丙戊酸钠和碳青霉烯类抗菌药物时出现丙戊酸( valproicacid，VPA) 血浓度急剧下降、 甚至癫发作的情况。",
+          "chunk_id": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:9",
+          "data": "，but more data are needed to demonstrate it．近年来越来越多的文献报道，癫患者合用丙戊酸钠和碳青霉烯类抗菌药物时出现丙戊酸( valproicacid，VPA) 血浓度急剧下降、 甚至癫发作的情况。笔者收集我科近年来症状性癫患者合用丙戊酸钠和碳青霉烯类抗菌药物的临床资料，评价二者合用的临床意义 。压病、糖尿病、冠心病等;7 例感染均为重症肺炎，由胸部 X 线片检查或胸部 CT 证实。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟.pdf",
+          "chunk_index": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:9",
+          "raw_text": "癫患者合用丙戊酸钠和碳青霉烯类抗菌药物",
+          "chunk_id": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:9",
+          "data": "，but more data are needed to demonstrate it．近年来越来越多的文献报道，癫患者合用丙戊酸钠和碳青霉烯类抗菌药物时出现丙戊酸( valproicacid，VPA) 血浓度急剧下降、 甚至癫发作的情况。笔者收集我科近年来症状性癫患者合用丙戊酸钠和碳青霉烯类抗菌药物的临床资料，评价二者合用的临床意义 。压病、糖尿病、冠心病等;7 例感染均为重症肺炎，由胸部 X 线片检查或胸部 CT 证实。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:9",
+    "source": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟.pdf",
+    "text": "，but more data are needed to demonstrate it．近年来越来越多的文献报道，癫患者合用丙戊酸钠和碳青霉烯类抗菌药物时出现丙戊酸( valproicacid，VPA) 血浓度急剧下降、 甚至癫发作的情况。笔者收集我科近年来症状性癫患者合用丙戊酸钠和碳青霉烯类抗菌药物的临床资料，评价二者合用的临床意义 。压病、糖尿病、冠心病等;7 例感染均为重症肺炎，由胸部 X 线片检查或胸部 CT 证实。"
+  }
+]

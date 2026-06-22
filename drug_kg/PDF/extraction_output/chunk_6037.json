@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "谷红注射液",
+        "canonical_name": "谷红注射液",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "羟基红花黄色素A",
+        "canonical_name": "羟基红花黄色素A",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "N-乙酰-L-谷氨酰胺",
+        "canonical_name": "N-乙酰-L-谷氨酰胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "缺血性卒中",
+        "canonical_name": "缺血性卒中",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "红花",
+        "canonical_name": "红花",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月.pdf",
+          "chunk_index": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月:2",
+          "raw_text": "GuHong is an intravenous herbal formulation used as adjunct therapy for the management of ischemic stroke.",
+          "chunk_id": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月:2",
+          "data": "ianjin, China;5 Tonghua Guhong Pharmaceutical Tonghua, China;6 Zhongshan Institute for Drug Discovery, Zhongshan, China;7 China-Serbia “Belt and Road” Joint Laboratory for Natural Products and Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China Objective: Unlike for drug-drug interactions, rigorous guidelines for assessing herb-drug interactions are nonexistent. GuHong is an intravenous herbal formulation used as adjunct therapy for the management of ischemic stroke. This investigation aimed to evaluate its potential to precipitate pharmacokinetic drug interactions. To facilitate the potential assessment, a human multi-compound pharmacokinetic study, along with associated supportive studies, was conducted to pinpoint GuHong compounds for testing.Methods: After analyzing the chemical composition of GuHong, a pharmacokinetic study was conducted in healthy subjects who received GuHong intravenously to identify its significantly exposed compou"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月.pdf",
+          "chunk_index": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月:2",
+          "raw_text": "A total of 54 constituents (0.01–27.18 μmol/day) derived from Carthamus tinctorius flowers (Honghua) and N-acetyl-L-glutamine (3,090 μmol/day) were detected in GuHong.",
+          "chunk_id": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月:2",
+          "data": "ianjin, China;5 Tonghua Guhong Pharmaceutical Tonghua, China;6 Zhongshan Institute for Drug Discovery, Zhongshan, China;7 China-Serbia “Belt and Road” Joint Laboratory for Natural Products and Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China Objective: Unlike for drug-drug interactions, rigorous guidelines for assessing herb-drug interactions are nonexistent. GuHong is an intravenous herbal formulation used as adjunct therapy for the management of ischemic stroke. This investigation aimed to evaluate its potential to precipitate pharmacokinetic drug interactions. To facilitate the potential assessment, a human multi-compound pharmacokinetic study, along with associated supportive studies, was conducted to pinpoint GuHong compounds for testing.Methods: After analyzing the chemical composition of GuHong, a pharmacokinetic study was conducted in healthy subjects who received GuHong intravenously to identify its significantly exposed compou"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月.pdf",
+          "chunk_index": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月:2",
+          "raw_text": "hydroxysafflor yellow A emerged as the principal circulating compound from Honghua.",
+          "chunk_id": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月:2",
+          "data": "ianjin, China;5 Tonghua Guhong Pharmaceutical Tonghua, China;6 Zhongshan Institute for Drug Discovery, Zhongshan, China;7 China-Serbia “Belt and Road” Joint Laboratory for Natural Products and Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China Objective: Unlike for drug-drug interactions, rigorous guidelines for assessing herb-drug interactions are nonexistent. GuHong is an intravenous herbal formulation used as adjunct therapy for the management of ischemic stroke. This investigation aimed to evaluate its potential to precipitate pharmacokinetic drug interactions. To facilitate the potential assessment, a human multi-compound pharmacokinetic study, along with associated supportive studies, was conducted to pinpoint GuHong compounds for testing.Methods: After analyzing the chemical composition of GuHong, a pharmacokinetic study was conducted in healthy subjects who received GuHong intravenously to identify its significantly exposed compou"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月.pdf",
+          "chunk_index": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月:2",
+          "raw_text": "N-Acetyl-L-glutamine was another major circulating compound of GuHong.",
+          "chunk_id": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月:2",
+          "data": "ianjin, China;5 Tonghua Guhong Pharmaceutical Tonghua, China;6 Zhongshan Institute for Drug Discovery, Zhongshan, China;7 China-Serbia “Belt and Road” Joint Laboratory for Natural Products and Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China Objective: Unlike for drug-drug interactions, rigorous guidelines for assessing herb-drug interactions are nonexistent. GuHong is an intravenous herbal formulation used as adjunct therapy for the management of ischemic stroke. This investigation aimed to evaluate its potential to precipitate pharmacokinetic drug interactions. To facilitate the potential assessment, a human multi-compound pharmacokinetic study, along with associated supportive studies, was conducted to pinpoint GuHong compounds for testing.Methods: After analyzing the chemical composition of GuHong, a pharmacokinetic study was conducted in healthy subjects who received GuHong intravenously to identify its significantly exposed compou"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月:2",
+    "source": "谷红注射液的人体药代特征和药物相互作用风险研究（英文）_王秋月.pdf",
+    "text": "ianjin, China;5 Tonghua Guhong Pharmaceutical Tonghua, China;6 Zhongshan Institute for Drug Discovery, Zhongshan, China;7 China-Serbia “Belt and Road” Joint Laboratory for Natural Products and Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China Objective: Unlike for drug-drug interactions, rigorous guidelines for assessing herb-drug interactions are nonexistent. GuHong is an intravenous herbal formulation used as adjunct therapy for the management of ischemic stroke. This investigation aimed to evaluate its potential to precipitate pharmacokinetic drug interactions. To facilitate the potential assessment, a human multi-compound pharmacokinetic study, along with associated supportive studies, was conducted to pinpoint GuHong compounds for testing.Methods: After analyzing the chemical composition of GuHong, a pharmacokinetic study was conducted in healthy subjects who received GuHong intravenously to identify its significantly exposed compounds and their pharmacokinetics. In addition, supportive rat and in vitro studies were conducted to assess the hepatic and renal disposition of these compounds, including their metabolism and transport. The potential of GuHong to precipitate drug interactions was evaluated in vitro using significantly exposed compounds, which were tested for their effects on drug-metabolizing enzymes and drug transporters listed in the ICH M12 Guideline (2024), with a focus on inhibition and induction. Samples were analyzed by liquid chromatography-mass spectrometry.Results: A total of 54 constituents (0.01–27.18 μmol/day) derived from Carthamus tinctorius flowers (Honghua) and N-acetyl-L-glutamine (3,090 μmol/day) were detected in GuHong. Following intravenous administration of GuHong, hydroxysafflor yellow A emerged as the principal circulating compound from Honghua. Saffloquinoside D, kaempferol-3-O-rutinoside, kaempferol-3-Osophoroside, 8-hydroxycinnamic acid-8-O-glucoside, coumaric acid-4-O-glucoside, and chlorogenic acid, also from Honghua, were detected but at low plasma levels. Hydroxysafflor yellow A, primarily eliminated via glomerular filtration-based renal excretion, exhibited the characteristics of an intravenous “hard drug.” N-Acetyl-L-glutamine was another major circulating compound of GuHong and was eliminated through renal excretion and hydrolysis to L-glutamine. GuHong had a low potential to precipitate pharmacokinetic drug interactions.Conclusions: The low drug interaction potential of GuHong is advantageous for its use in the treatment of ischemic stroke in the context of polypharmacy. The methodology developed here can be applied to the study of other complex herbal medicines for their pharmacokinetic drug interaction potential.Keywords: Carthamus tinctorius, Drug interaction, GuHong injection, Hydroxysafflor yellow A, N-Acetyl-L-glutamine, Pharmacokinetics"
+  }
+]

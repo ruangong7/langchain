@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "凡德他尼",
+        "canonical_name": "凡德他尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "小分子酪氨酸激酶抑制剂",
+        "canonical_name": "小分子酪氨酸激酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "髓样甲状腺癌",
+        "canonical_name": "髓样甲状腺癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "P-gp",
+        "canonical_name": "P-糖蛋白",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "BCRP",
+        "canonical_name": "乳腺癌耐药蛋白",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:10",
+          "raw_text": "凡德他尼为口服小分子多靶点 TKIs",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:10",
+          "data": "凡德他尼凡德他尼为口服小分子多靶点 TKIs（ EGFR VEGFR RET BRK） 2011 年由 FDA批准用于治疗不能切除局部晚期或转移的有症状或进展性髓样甲状腺癌 ZHENG 等[43]发现凡德他尼不是 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物凡德他尼对$\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞的敏感性与野生型细胞没有明显差异但 MINOCHA 等[44]认为凡德他尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:10",
+          "raw_text": "2011 年由 FDA批准用于治疗不能切除局部晚期或转移的有症状或进展性髓样甲状腺癌",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:10",
+          "data": "凡德他尼凡德他尼为口服小分子多靶点 TKIs（ EGFR VEGFR RET BRK） 2011 年由 FDA批准用于治疗不能切除局部晚期或转移的有症状或进展性髓样甲状腺癌 ZHENG 等[43]发现凡德他尼不是 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物凡德他尼对$\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞的敏感性与野生型细胞没有明显差异但 MINOCHA 等[44]认为凡德他尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:10",
+          "raw_text": "凡德他尼不是 P-gp 和 BCRP 的底物",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:10",
+          "data": "凡德他尼凡德他尼为口服小分子多靶点 TKIs（ EGFR VEGFR RET BRK） 2011 年由 FDA批准用于治疗不能切除局部晚期或转移的有症状或进展性髓样甲状腺癌 ZHENG 等[43]发现凡德他尼不是 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物凡德他尼对$\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞的敏感性与野生型细胞没有明显差异但 MINOCHA 等[44]认为凡德他尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物 。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:10",
+          "raw_text": "凡德他尼不是 P-gp 和 BCRP 的底物",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:10",
+          "data": "凡德他尼凡德他尼为口服小分子多靶点 TKIs（ EGFR VEGFR RET BRK） 2011 年由 FDA批准用于治疗不能切除局部晚期或转移的有症状或进展性髓样甲状腺癌 ZHENG 等[43]发现凡德他尼不是 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物凡德他尼对$\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞的敏感性与野生型细胞没有明显差异但 MINOCHA 等[44]认为凡德他尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:10",
+    "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+    "text": "凡德他尼凡德他尼为口服小分子多靶点 TKIs（ EGFR VEGFR RET BRK） 2011 年由 FDA批准用于治疗不能切除局部晚期或转移的有症状或进展性髓样甲状腺癌 ZHENG 等[43]发现凡德他尼不是 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物凡德他尼对$\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 高表达细胞的敏感性与野生型细胞没有明显差异但 MINOCHA 等[44]认为凡德他尼为 $\\mathrm { P - \\mathrm { g p } }$ 和 BCRP 的底物 。"
+  }
+]

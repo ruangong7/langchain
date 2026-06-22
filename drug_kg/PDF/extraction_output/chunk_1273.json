@@ -1,0 +1,41 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "雷尼替丁",
+        "canonical_name": "雷尼替丁",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:6",
+          "raw_text": "口服雷尼替丁 （150 mg bid） 对伏立康唑的血药浓度影响也不大合用时不必进行剂量调整[13]",
+          "interaction_effect": "对伏立康唑血药浓度影响不大",
+          "recommendation": "合用时不必进行剂量调整",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:6",
+          "data": "7 d） 测得伏立康唑在稳态时的$\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { h } \\setminus } \\ c _ { \\mathrm { m a x } }$ 分别增加了 23％和 18％。从用药安全角度讲这个增幅并无太大临床意义之后的研究表明口服雷尼替丁 （150 mg bid） 对伏立康唑的血药浓度影响也不大合用时不必进行剂量调整[13] 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:6",
+    "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+    "text": "7 d） 测得伏立康唑在稳态时的$\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { h } \\setminus } \\ c _ { \\mathrm { m a x } }$ 分别增加了 23％和 18％。从用药安全角度讲这个增幅并无太大临床意义之后的研究表明口服雷尼替丁 （150 mg bid） 对伏立康唑的血药浓度影响也不大合用时不必进行剂量调整[13] 。"
+  }
+]

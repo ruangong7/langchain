@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import os
 import sys
 from pathlib import Path
 from typing import Any
@@ -11,16 +12,24 @@ import dashscope
 import faiss
 import numpy as np
 from dashscope import TextEmbedding
+from dotenv import load_dotenv
 
 ROOT_DIR = Path(__file__).resolve().parents[2]
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
-from config import DASHSCOPE_API_KEY, EMBEDDING_MODEL
+load_dotenv(ROOT_DIR / ".env")
 
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
+
+
+def _get_env(name: str, default: str | None = None) -> str:
+    value = os.getenv(name, default)
+    if value is None or str(value).strip() == "":
+        raise RuntimeError(f"Missing environment variable: {name}")
+    return str(value).strip()
 
 
 def _norm(value: Any) -> str:
@@ -115,26 +124,26 @@ def main() -> None:
     parser.add_argument(
         "--input-dir",
         type=Path,
-        default=Path("drug_kg/graphrag/output"),
-        help="Directory containing node_docs.jsonl / edge_docs.jsonl / subgraph_docs.jsonl",
+        default=Path("drug_kg/graphrag/output_standard"),
+        help="Directory containing node_docs.jsonl / edge_docs.jsonl / subgraph_docs.jsonl / community_docs.jsonl",
     )
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=Path("drug_kg/graphrag/index"),
+        default=Path("drug_kg/graphrag/index_standard"),
         help="Directory for embedding matrices and metadata",
     )
     parser.add_argument(
         "--doc-types",
         nargs="*",
-        default=["node_docs", "edge_docs", "subgraph_docs"],
-        help="Document types to build: node_docs edge_docs subgraph_docs",
+        default=["node_docs", "edge_docs", "subgraph_docs", "community_docs"],
+        help="Document types to build: node_docs edge_docs subgraph_docs community_docs",
     )
     parser.add_argument("--batch-size", type=int, default=200, help="Number of docs per embedding progress batch")
     args = parser.parse_args()
 
-    dashscope.api_key = DASHSCOPE_API_KEY
-    embeddings = DashScopeEmbeddings(model=EMBEDDING_MODEL)
+    dashscope.api_key = _get_env("DASHSCOPE_API_KEY")
+    embeddings = DashScopeEmbeddings(model=_get_env("EMBEDDING_MODEL"))
 
     summaries = []
     for stem in args.doc_types:

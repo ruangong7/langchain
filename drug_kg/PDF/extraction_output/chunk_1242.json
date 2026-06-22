@@ -1,0 +1,72 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "万古霉素",
+        "canonical_name": "万古霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "急性肾损伤",
+        "canonical_name": "急性肾损伤",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:0",
+          "raw_text": "2．1 该病例是否可判断为万古霉素联用伏立康唑后诱发的 AKI?",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:0",
+          "data": "2．1 该病例是否可判断为万古霉素联用伏立康唑后诱发的 AKI?\n入院第4 天，血培养示: 耐甲氧西林人葡萄球菌$\\left( ~ + \\right) _ { \\mathrm { ~ \\circ ~ } } \\mathrm { C r ~ \\ 3 3 . 2 ~ { ~ \\mu \\mathrm { m o l } \\bullet L ^ { - 1 } } , { \\mathrm { e G F R ~ 9 8 ~ { \\mathrm { m L } \\bullet \\mathrm { m i n } ^ { - 1 } } , U r e a } } }$ $4 . 6 3 ~ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ 。考虑血流感染，加用万古霉素$\\big ( 0 . 5 \\mathrm { \\textmu } _ { \\mathrm { g } } i v g t t \\mathrm { \\textmu } _ { \\mathrm { q } } 8 \\mathrm { h } \\big )$ 治疗 。入院第 9 天 1-3-β-d 葡聚糖$2 1 1 . 1 ~ \\mathrm { p g ^ { \\bullet } m L ^ { - 1 } }$ ，曲霉菌半乳甘露聚糖 $0 . 8 1 ~ \\mu \\mathrm { g } ^ { \\bullet } \\mathrm { L } ^ { - 1 }$ 。$\\mathrm { C r ~ 4 2 . 6 ~ \\mu \\mu m o l \\bullet ~ L ^ { - 1 } , e G F R ~ 9 0 . 2 ~ \\ m L \\bullet \\ m i n ^ { - 1 } , U r e a }$ $4 . 7 4 ~ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:0",
+          "raw_text": "2．1 该病例是否可判断为万古霉素联用伏立康唑后诱发的 AKI?",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:0",
+          "data": "2．1 该病例是否可判断为万古霉素联用伏立康唑后诱发的 AKI?\n入院第4 天，血培养示: 耐甲氧西林人葡萄球菌$\\left( ~ + \\right) _ { \\mathrm { ~ \\circ ~ } } \\mathrm { C r ~ \\ 3 3 . 2 ~ { ~ \\mu \\mathrm { m o l } \\bullet L ^ { - 1 } } , { \\mathrm { e G F R ~ 9 8 ~ { \\mathrm { m L } \\bullet \\mathrm { m i n } ^ { - 1 } } , U r e a } } }$ $4 . 6 3 ~ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ 。考虑血流感染，加用万古霉素$\\big ( 0 . 5 \\mathrm { \\textmu } _ { \\mathrm { g } } i v g t t \\mathrm { \\textmu } _ { \\mathrm { q } } 8 \\mathrm { h } \\big )$ 治疗 。入院第 9 天 1-3-β-d 葡聚糖$2 1 1 . 1 ~ \\mathrm { p g ^ { \\bullet } m L ^ { - 1 } }$ ，曲霉菌半乳甘露聚糖 $0 . 8 1 ~ \\mu \\mathrm { g } ^ { \\bullet } \\mathrm { L } ^ { - 1 }$ 。$\\mathrm { C r ~ 4 2 . 6 ~ \\mu \\mu m o l \\bullet ~ L ^ { - 1 } , e G F R ~ 9 0 . 2 ~ \\ m L \\bullet \\ m i n ^ { - 1 } , U r e a }$ $4 . 7 4 ~ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+          "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:0",
+          "raw_text": "2．1 该病例是否可判断为万古霉素联用伏立康唑后诱发的 AKI?",
+          "chunk_id": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:0",
+          "data": "2．1 该病例是否可判断为万古霉素联用伏立康唑后诱发的 AKI?\n入院第4 天，血培养示: 耐甲氧西林人葡萄球菌$\\left( ~ + \\right) _ { \\mathrm { ~ \\circ ~ } } \\mathrm { C r ~ \\ 3 3 . 2 ~ { ~ \\mu \\mathrm { m o l } \\bullet L ^ { - 1 } } , { \\mathrm { e G F R ~ 9 8 ~ { \\mathrm { m L } \\bullet \\mathrm { m i n } ^ { - 1 } } , U r e a } } }$ $4 . 6 3 ~ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ 。考虑血流感染，加用万古霉素$\\big ( 0 . 5 \\mathrm { \\textmu } _ { \\mathrm { g } } i v g t t \\mathrm { \\textmu } _ { \\mathrm { q } } 8 \\mathrm { h } \\big )$ 治疗 。入院第 9 天 1-3-β-d 葡聚糖$2 1 1 . 1 ~ \\mathrm { p g ^ { \\bullet } m L ^ { - 1 } }$ ，曲霉菌半乳甘露聚糖 $0 . 8 1 ~ \\mu \\mathrm { g } ^ { \\bullet } \\mathrm { L } ^ { - 1 }$ 。$\\mathrm { C r ~ 4 2 . 6 ~ \\mu \\mu m o l \\bullet ~ L ^ { - 1 } , e G F R ~ 9 0 . 2 ~ \\ m L \\bullet \\ m i n ^ { - 1 } , U r e a }$ $4 . 7 4 ~ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍:0",
+    "source": "伏立康唑与万古霉素的药物相互作用致急性肾损伤1例_谭湘萍.pdf",
+    "text": "2．1 该病例是否可判断为万古霉素联用伏立康唑后诱发的 AKI?\n入院第4 天，血培养示: 耐甲氧西林人葡萄球菌$\\left( ~ + \\right) _ { \\mathrm { ~ \\circ ~ } } \\mathrm { C r ~ \\ 3 3 . 2 ~ { ~ \\mu \\mathrm { m o l } \\bullet L ^ { - 1 } } , { \\mathrm { e G F R ~ 9 8 ~ { \\mathrm { m L } \\bullet \\mathrm { m i n } ^ { - 1 } } , U r e a } } }$ $4 . 6 3 ~ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ 。考虑血流感染，加用万古霉素$\\big ( 0 . 5 \\mathrm { \\textmu } _ { \\mathrm { g } } i v g t t \\mathrm { \\textmu } _ { \\mathrm { q } } 8 \\mathrm { h } \\big )$ 治疗 。入院第 9 天 1-3-β-d 葡聚糖$2 1 1 . 1 ~ \\mathrm { p g ^ { \\bullet } m L ^ { - 1 } }$ ，曲霉菌半乳甘露聚糖 $0 . 8 1 ~ \\mu \\mathrm { g } ^ { \\bullet } \\mathrm { L } ^ { - 1 }$ 。$\\mathrm { C r ~ 4 2 . 6 ~ \\mu \\mu m o l \\bullet ~ L ^ { - 1 } , e G F R ~ 9 0 . 2 ~ \\ m L \\bullet \\ m i n ^ { - 1 } , U r e a }$ $4 . 7 4 ~ \\mathrm { m m o l ^ { \\bullet } L } ^ { - 1 }$ 。"
+  }
+]

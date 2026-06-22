@@ -110,36 +110,38 @@ async def lifespan(app: FastAPI):
             database_tool = None
             logger.warning("数据库工具初始化失败，工具调用将返回不可用: %s", exc, exc_info=True)
 
-        tools = [
-            {
-                "type": "function",
-                "function": {
-                    "name": "queryRealDrugDatabase",
-                    "description": "查询 real_drug 数据库，获取药物详细信息，包括饮食禁忌、相互作用等。",
-                    "parameters": {
-                        "type": "object",
-                        "properties": {
-                            "drugName": {"type": "string", "description": "药物名称"}
+        tools = []
+        if LLM_TOOL_CALLS_ENABLED:
+            tools = [
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "queryRealDrugDatabase",
+                        "description": "查询 real_drug 数据库，获取药物详细信息，包括饮食禁忌、相互作用等。",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "drugName": {"type": "string", "description": "药物名称"}
+                            },
+                            "required": ["drugName"],
                         },
-                        "required": ["drugName"],
                     },
                 },
-            },
-            {
-                "type": "function",
-                "function": {
-                    "name": "queryJointData",
-                    "description": "联合查询：先查 yinshi 获取用户用药，再按药物名称查询 real_drug。",
-                    "parameters": {
-                        "type": "object",
-                        "properties": {
-                            "question": {"type": "string", "description": "查询问题"}
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "queryJointData",
+                        "description": "联合查询：先查 yinshi 获取用户用药，再按药物名称查询 real_drug。",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "question": {"type": "string", "description": "查询问题"}
+                            },
+                            "required": ["question"],
                         },
-                        "required": ["question"],
                     },
                 },
-            },
-        ]
+            ]
 
         def query_real_drug_database(drugName: str) -> str:
             if database_tool is None:
@@ -151,10 +153,14 @@ async def lifespan(app: FastAPI):
                 return "数据库工具当前不可用，无法执行联合查询。"
             return database_tool.query_joint_data(question)
 
-        tool_handlers = {
-            "queryRealDrugDatabase": query_real_drug_database,
-            "queryJointData": query_joint_data,
-        }
+        tool_handlers = {}
+        if LLM_TOOL_CALLS_ENABLED:
+            tool_handlers = {
+                "queryRealDrugDatabase": query_real_drug_database,
+                "queryJointData": query_joint_data,
+            }
+
+        logger.info("LLM 工具调用开关: enabled=%s", LLM_TOOL_CALLS_ENABLED)
 
         memory_service = MemoryService()
         llm_service = LLMService(tools=tools, tool_handlers=tool_handlers, memory_service=memory_service)
@@ -193,11 +199,20 @@ async def lifespan(app: FastAPI):
             sparse_retriever.title_index,
             reranker=CrossEncoderReranker(),
         )
+        graphrag_service = None
+        try:
+            from services.graphrag_service import GraphRAGService
+
+            graphrag_service = GraphRAGService(project_root="drug_kg/graphrag/official_project")
+            logger.info("官方 GraphRAG 检索已启用")
+        except Exception as exc:
+            logger.warning("官方 GraphRAG 初始化失败，将回退到旧RAG: %s", exc, exc_info=True)
         query_understanding_service = QueryUnderstandingService()
         chat_orchestrator = ChatOrchestrator(
             query_understanding=query_understanding_service,
             rag_service=rag_service,
             llm_service=llm_service,
+            graphrag_service=graphrag_service,
             database_tool=database_tool,
         )
 

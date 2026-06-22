@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "喹诺酮类药物",
+        "canonical_name": "喹诺酮类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "SideEffect",
+        "name": "皮肤反应",
+        "canonical_name": "皮肤反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "神经系统反应",
+        "canonical_name": "神经系统反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "消化道反应",
+        "canonical_name": "消化道反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Population",
+        "name": "患者年龄",
+        "canonical_name": "患者年龄",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Population",
+        "name": "过敏史",
+        "canonical_name": "过敏史",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中.pdf",
+          "chunk_index": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中:1",
+          "raw_text": "患者所发生的不良反应中 , 以皮肤反应较多 , 占比 33.33%(14/42)",
+          "chunk_id": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中:1",
+          "data": "%), 平时无疾病猝死患者 80 例(21.51%)。结论佛山市社区心脏性猝死患者男性多于女性 , 冠心病、急性梗死是主要的猝死原因。养成健康的生活、工作习惯 , 大力普及心肺复苏应急、心脏性疾病护理知识 , 对预防心脏性猝死有重要的意义。Analysis of clinical and epidemiological characteristics of sudden cardiac death in the community of Foshan city HUO Jian-yang, XU Wei-gan. Department of Emergency, Foshan First People’s Hospital, Foshan 528000, China【Abstract】　Objective To analyze the clinical and epidemiological characteristics of sudden cardiac death in the community of Foshan city, so as to investigate a reasonable plan to prevent sudden cardiac death.作者单位：528000　佛山市第一人民医院急诊科铜绿假单胞菌并没有抗菌作用；第二代喹诺酮类药物对铜绿假单胞菌存在抑制作用 , 但同时出现明显的不良反应 , 但发生率较低［6］；第三代时已具有抑制葡萄球菌和铜绿假单胞菌的作用 , 同时可以抑制革兰阳性菌 , 并开始在胃肠道疾病、呼吸道疾病、泌尿系统疾病的治疗中推广应用 , 临床疗效较为显著［7］。近年来, 喹诺酮类药物在使用过程中, 消化道反应、皮肤过敏、神经系统症状等不良反应偶有发生, 研究表明, 这些不良反应的发生可能与患者年龄、过敏史等原因相关［8］。本研究表明 , 患者所发生的不良反应中 , 以皮肤反应较多 , 占比 33.33%(14/42) ；神经系统反应次之 ,占比 21.43%(9/42) ；消化道反应占比 19.05%(8/42) ；"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中.pdf",
+          "chunk_index": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中:1",
+          "raw_text": "神经系统反应次之 ,占比 21.43%(9/42)",
+          "chunk_id": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中:1",
+          "data": "%), 平时无疾病猝死患者 80 例(21.51%)。结论佛山市社区心脏性猝死患者男性多于女性 , 冠心病、急性梗死是主要的猝死原因。养成健康的生活、工作习惯 , 大力普及心肺复苏应急、心脏性疾病护理知识 , 对预防心脏性猝死有重要的意义。Analysis of clinical and epidemiological characteristics of sudden cardiac death in the community of Foshan city HUO Jian-yang, XU Wei-gan. Department of Emergency, Foshan First People’s Hospital, Foshan 528000, China【Abstract】　Objective To analyze the clinical and epidemiological characteristics of sudden cardiac death in the community of Foshan city, so as to investigate a reasonable plan to prevent sudden cardiac death.作者单位：528000　佛山市第一人民医院急诊科铜绿假单胞菌并没有抗菌作用；第二代喹诺酮类药物对铜绿假单胞菌存在抑制作用 , 但同时出现明显的不良反应 , 但发生率较低［6］；第三代时已具有抑制葡萄球菌和铜绿假单胞菌的作用 , 同时可以抑制革兰阳性菌 , 并开始在胃肠道疾病、呼吸道疾病、泌尿系统疾病的治疗中推广应用 , 临床疗效较为显著［7］。近年来, 喹诺酮类药物在使用过程中, 消化道反应、皮肤过敏、神经系统症状等不良反应偶有发生, 研究表明, 这些不良反应的发生可能与患者年龄、过敏史等原因相关［8］。本研究表明 , 患者所发生的不良反应中 , 以皮肤反应较多 , 占比 33.33%(14/42) ；神经系统反应次之 ,占比 21.43%(9/42) ；消化道反应占比 19.05%(8/42) ；"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中.pdf",
+          "chunk_index": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中:1",
+          "raw_text": "消化道反应占比 19.05%(8/42)",
+          "chunk_id": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中:1",
+          "data": "%), 平时无疾病猝死患者 80 例(21.51%)。结论佛山市社区心脏性猝死患者男性多于女性 , 冠心病、急性梗死是主要的猝死原因。养成健康的生活、工作习惯 , 大力普及心肺复苏应急、心脏性疾病护理知识 , 对预防心脏性猝死有重要的意义。Analysis of clinical and epidemiological characteristics of sudden cardiac death in the community of Foshan city HUO Jian-yang, XU Wei-gan. Department of Emergency, Foshan First People’s Hospital, Foshan 528000, China【Abstract】　Objective To analyze the clinical and epidemiological characteristics of sudden cardiac death in the community of Foshan city, so as to investigate a reasonable plan to prevent sudden cardiac death.作者单位：528000　佛山市第一人民医院急诊科铜绿假单胞菌并没有抗菌作用；第二代喹诺酮类药物对铜绿假单胞菌存在抑制作用 , 但同时出现明显的不良反应 , 但发生率较低［6］；第三代时已具有抑制葡萄球菌和铜绿假单胞菌的作用 , 同时可以抑制革兰阳性菌 , 并开始在胃肠道疾病、呼吸道疾病、泌尿系统疾病的治疗中推广应用 , 临床疗效较为显著［7］。近年来, 喹诺酮类药物在使用过程中, 消化道反应、皮肤过敏、神经系统症状等不良反应偶有发生, 研究表明, 这些不良反应的发生可能与患者年龄、过敏史等原因相关［8］。本研究表明 , 患者所发生的不良反应中 , 以皮肤反应较多 , 占比 33.33%(14/42) ；神经系统反应次之 ,占比 21.43%(9/42) ；消化道反应占比 19.05%(8/42) ；"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中.pdf",
+          "chunk_index": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中:1",
+          "raw_text": "这些不良反应的发生可能与患者年龄、过敏史等原因相关",
+          "chunk_id": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中:1",
+          "data": "%), 平时无疾病猝死患者 80 例(21.51%)。结论佛山市社区心脏性猝死患者男性多于女性 , 冠心病、急性梗死是主要的猝死原因。养成健康的生活、工作习惯 , 大力普及心肺复苏应急、心脏性疾病护理知识 , 对预防心脏性猝死有重要的意义。Analysis of clinical and epidemiological characteristics of sudden cardiac death in the community of Foshan city HUO Jian-yang, XU Wei-gan. Department of Emergency, Foshan First People’s Hospital, Foshan 528000, China【Abstract】　Objective To analyze the clinical and epidemiological characteristics of sudden cardiac death in the community of Foshan city, so as to investigate a reasonable plan to prevent sudden cardiac death.作者单位：528000　佛山市第一人民医院急诊科铜绿假单胞菌并没有抗菌作用；第二代喹诺酮类药物对铜绿假单胞菌存在抑制作用 , 但同时出现明显的不良反应 , 但发生率较低［6］；第三代时已具有抑制葡萄球菌和铜绿假单胞菌的作用 , 同时可以抑制革兰阳性菌 , 并开始在胃肠道疾病、呼吸道疾病、泌尿系统疾病的治疗中推广应用 , 临床疗效较为显著［7］。近年来, 喹诺酮类药物在使用过程中, 消化道反应、皮肤过敏、神经系统症状等不良反应偶有发生, 研究表明, 这些不良反应的发生可能与患者年龄、过敏史等原因相关［8］。本研究表明 , 患者所发生的不良反应中 , 以皮肤反应较多 , 占比 33.33%(14/42) ；神经系统反应次之 ,占比 21.43%(9/42) ；消化道反应占比 19.05%(8/42) ；"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中.pdf",
+          "chunk_index": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中:1",
+          "raw_text": "这些不良反应的发生可能与患者年龄、过敏史等原因相关",
+          "chunk_id": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中:1",
+          "data": "%), 平时无疾病猝死患者 80 例(21.51%)。结论佛山市社区心脏性猝死患者男性多于女性 , 冠心病、急性梗死是主要的猝死原因。养成健康的生活、工作习惯 , 大力普及心肺复苏应急、心脏性疾病护理知识 , 对预防心脏性猝死有重要的意义。Analysis of clinical and epidemiological characteristics of sudden cardiac death in the community of Foshan city HUO Jian-yang, XU Wei-gan. Department of Emergency, Foshan First People’s Hospital, Foshan 528000, China【Abstract】　Objective To analyze the clinical and epidemiological characteristics of sudden cardiac death in the community of Foshan city, so as to investigate a reasonable plan to prevent sudden cardiac death.作者单位：528000　佛山市第一人民医院急诊科铜绿假单胞菌并没有抗菌作用；第二代喹诺酮类药物对铜绿假单胞菌存在抑制作用 , 但同时出现明显的不良反应 , 但发生率较低［6］；第三代时已具有抑制葡萄球菌和铜绿假单胞菌的作用 , 同时可以抑制革兰阳性菌 , 并开始在胃肠道疾病、呼吸道疾病、泌尿系统疾病的治疗中推广应用 , 临床疗效较为显著［7］。近年来, 喹诺酮类药物在使用过程中, 消化道反应、皮肤过敏、神经系统症状等不良反应偶有发生, 研究表明, 这些不良反应的发生可能与患者年龄、过敏史等原因相关［8］。本研究表明 , 患者所发生的不良反应中 , 以皮肤反应较多 , 占比 33.33%(14/42) ；神经系统反应次之 ,占比 21.43%(9/42) ；消化道反应占比 19.05%(8/42) ；"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中:1",
+    "source": "喹诺酮类药物不良反应及药物相互作用分析_廖伟中.pdf",
+    "text": "%), 平时无疾病猝死患者 80 例(21.51%)。结论佛山市社区心脏性猝死患者男性多于女性 , 冠心病、急性梗死是主要的猝死原因。养成健康的生活、工作习惯 , 大力普及心肺复苏应急、心脏性疾病护理知识 , 对预防心脏性猝死有重要的意义。Analysis of clinical and epidemiological characteristics of sudden cardiac death in the community of Foshan city HUO Jian-yang, XU Wei-gan. Department of Emergency, Foshan First People’s Hospital, Foshan 528000, China【Abstract】　Objective To analyze the clinical and epidemiological characteristics of sudden cardiac death in the community of Foshan city, so as to investigate a reasonable plan to prevent sudden cardiac death.作者单位：528000　佛山市第一人民医院急诊科铜绿假单胞菌并没有抗菌作用；第二代喹诺酮类药物对铜绿假单胞菌存在抑制作用 , 但同时出现明显的不良反应 , 但发生率较低［6］；第三代时已具有抑制葡萄球菌和铜绿假单胞菌的作用 , 同时可以抑制革兰阳性菌 , 并开始在胃肠道疾病、呼吸道疾病、泌尿系统疾病的治疗中推广应用 , 临床疗效较为显著［7］。近年来, 喹诺酮类药物在使用过程中, 消化道反应、皮肤过敏、神经系统症状等不良反应偶有发生, 研究表明, 这些不良反应的发生可能与患者年龄、过敏史等原因相关［8］。本研究表明 , 患者所发生的不良反应中 , 以皮肤反应较多 , 占比 33.33%(14/42) ；神经系统反应次之 ,占比 21.43%(9/42) ；消化道反应占比 19.05%(8/42) ；"
+  }
+]

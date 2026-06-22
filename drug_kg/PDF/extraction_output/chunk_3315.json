@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "苯妥英",
+        "canonical_name": "苯妥英",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "Fasturtec",
+        "canonical_name": "Fasturtec",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "环孢素",
+        "canonical_name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "地高辛",
+        "canonical_name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "高尿酸血症",
+        "canonical_name": "高尿酸血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "急性高尿酸血症",
+        "canonical_name": "急性高尿酸血症",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "抗心律失常药的药物相互作用_刘萍.pdf",
+          "chunk_index": "抗心律失常药的药物相互作用_刘萍:4",
+          "raw_text": "Sanofi-Synthelabo 的基因工程化氧化酶药物 Fasturtec（rasburicase）已根据集中程序（centralised procedure）在欧盟获准用于治疗高尿酸血症。",
+          "chunk_id": "抗心律失常药的药物相互作用_刘萍:4",
+          "data": "rand 公司的 cevimeline(Evoxac)是毒蕈碱 $M_{1}$ 受体激动剂，在美国上市用于治疗 Sjogren 综合征；Dusa 公司的光敏剂 5-氨基乙酰丙酸（Levulan Kerstick）在美国上市用于光化性角化病；Brocacef 公司的 artemotil (Artecef) 是荷兰上市的新抗疟药。6 NAS 的希望\n在 2000 年的 38 个 NAS 中，6 个具有成为重磅炸弹级药物的潜能。其中之一就是前文所提及的 Astra Zeneca 公司的 Nexium。4 药物撤市\n此外，2001年NAS将会有很好的表现，2001年第一季度就上市了12个NAS。另一件大事是 Glaxo SmithKline 公司的肠易激综合征治疗药阿洛司琼（Lotronex），在 2000 年 3 月美国首次上市后，仅仅半年多的时间，即于 2000 年 11 月撤出美• 利基市场：一些因容量小而被忽视的小产品市场，但因介入者少、通过专业化经营也可获得较为丰厚的利润。【Fasturtec 在欧盟获准】\nSanofi-Synthelabo 的基因工程化氧化酶药物 Fasturtec（rasburicase）已根据集中程序（centralised procedure）在欧盟获准用于治疗高尿酸血症。(上接第244页)防苯妥英中毒，通常可减量25%\\~50%，这种相互作用可在数周后才完全发生。伴有高度肿瘤负荷（high tumour burden）的血液学恶性肿瘤病人，常在化疗初期面临肿瘤快速溶解或缩小的危险，本品通过将难溶性的尿酸转化成可溶性的、便于肾脏代谢的尿囊素，特异性地治疗并预防急性高尿酸血症，故可防止此类病人罹患急性肾衰。本品可增加环孢素浓度，合用时应监护，通常需减少环孢素剂量。本品还可增加地高辛浓度。3 可延长 QT 间期的非抗心律失常药物\nFasturtec 于 2001 年 2 月获欧盟肯定意见，并计划在 2001 年第二季度在欧洲首个市场上市。本品在日本处于临床阶段。据公司预测，到 2005 年本品的全球销售额将会达到 1 亿欧元。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "抗心律失常药的药物相互作用_刘萍.pdf",
+          "chunk_index": "抗心律失常药的药物相互作用_刘萍:4",
+          "raw_text": "本品通过将难溶性的尿酸转化成可溶性的、便于肾脏代谢的尿囊素，特异性地治疗并预防急性高尿酸血症，故可防止此类病人罹患急性肾衰。",
+          "chunk_id": "抗心律失常药的药物相互作用_刘萍:4",
+          "data": "rand 公司的 cevimeline(Evoxac)是毒蕈碱 $M_{1}$ 受体激动剂，在美国上市用于治疗 Sjogren 综合征；Dusa 公司的光敏剂 5-氨基乙酰丙酸（Levulan Kerstick）在美国上市用于光化性角化病；Brocacef 公司的 artemotil (Artecef) 是荷兰上市的新抗疟药。6 NAS 的希望\n在 2000 年的 38 个 NAS 中，6 个具有成为重磅炸弹级药物的潜能。其中之一就是前文所提及的 Astra Zeneca 公司的 Nexium。4 药物撤市\n此外，2001年NAS将会有很好的表现，2001年第一季度就上市了12个NAS。另一件大事是 Glaxo SmithKline 公司的肠易激综合征治疗药阿洛司琼（Lotronex），在 2000 年 3 月美国首次上市后，仅仅半年多的时间，即于 2000 年 11 月撤出美• 利基市场：一些因容量小而被忽视的小产品市场，但因介入者少、通过专业化经营也可获得较为丰厚的利润。【Fasturtec 在欧盟获准】\nSanofi-Synthelabo 的基因工程化氧化酶药物 Fasturtec（rasburicase）已根据集中程序（centralised procedure）在欧盟获准用于治疗高尿酸血症。(上接第244页)防苯妥英中毒，通常可减量25%\\~50%，这种相互作用可在数周后才完全发生。伴有高度肿瘤负荷（high tumour burden）的血液学恶性肿瘤病人，常在化疗初期面临肿瘤快速溶解或缩小的危险，本品通过将难溶性的尿酸转化成可溶性的、便于肾脏代谢的尿囊素，特异性地治疗并预防急性高尿酸血症，故可防止此类病人罹患急性肾衰。本品可增加环孢素浓度，合用时应监护，通常需减少环孢素剂量。本品还可增加地高辛浓度。3 可延长 QT 间期的非抗心律失常药物\nFasturtec 于 2001 年 2 月获欧盟肯定意见，并计划在 2001 年第二季度在欧洲首个市场上市。本品在日本处于临床阶段。据公司预测，到 2005 年本品的全球销售额将会达到 1 亿欧元。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "抗心律失常药的药物相互作用_刘萍.pdf",
+          "chunk_index": "抗心律失常药的药物相互作用_刘萍:4",
+          "raw_text": "本品可增加环孢素浓度，合用时应监护，通常需减少环孢素剂量。",
+          "chunk_id": "抗心律失常药的药物相互作用_刘萍:4",
+          "data": "rand 公司的 cevimeline(Evoxac)是毒蕈碱 $M_{1}$ 受体激动剂，在美国上市用于治疗 Sjogren 综合征；Dusa 公司的光敏剂 5-氨基乙酰丙酸（Levulan Kerstick）在美国上市用于光化性角化病；Brocacef 公司的 artemotil (Artecef) 是荷兰上市的新抗疟药。6 NAS 的希望\n在 2000 年的 38 个 NAS 中，6 个具有成为重磅炸弹级药物的潜能。其中之一就是前文所提及的 Astra Zeneca 公司的 Nexium。4 药物撤市\n此外，2001年NAS将会有很好的表现，2001年第一季度就上市了12个NAS。另一件大事是 Glaxo SmithKline 公司的肠易激综合征治疗药阿洛司琼（Lotronex），在 2000 年 3 月美国首次上市后，仅仅半年多的时间，即于 2000 年 11 月撤出美• 利基市场：一些因容量小而被忽视的小产品市场，但因介入者少、通过专业化经营也可获得较为丰厚的利润。【Fasturtec 在欧盟获准】\nSanofi-Synthelabo 的基因工程化氧化酶药物 Fasturtec（rasburicase）已根据集中程序（centralised procedure）在欧盟获准用于治疗高尿酸血症。(上接第244页)防苯妥英中毒，通常可减量25%\\~50%，这种相互作用可在数周后才完全发生。伴有高度肿瘤负荷（high tumour burden）的血液学恶性肿瘤病人，常在化疗初期面临肿瘤快速溶解或缩小的危险，本品通过将难溶性的尿酸转化成可溶性的、便于肾脏代谢的尿囊素，特异性地治疗并预防急性高尿酸血症，故可防止此类病人罹患急性肾衰。本品可增加环孢素浓度，合用时应监护，通常需减少环孢素剂量。本品还可增加地高辛浓度。3 可延长 QT 间期的非抗心律失常药物\nFasturtec 于 2001 年 2 月获欧盟肯定意见，并计划在 2001 年第二季度在欧洲首个市场上市。本品在日本处于临床阶段。据公司预测，到 2005 年本品的全球销售额将会达到 1 亿欧元。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "抗心律失常药的药物相互作用_刘萍.pdf",
+          "chunk_index": "抗心律失常药的药物相互作用_刘萍:4",
+          "raw_text": "本品还可增加地高辛浓度。",
+          "chunk_id": "抗心律失常药的药物相互作用_刘萍:4",
+          "data": "rand 公司的 cevimeline(Evoxac)是毒蕈碱 $M_{1}$ 受体激动剂，在美国上市用于治疗 Sjogren 综合征；Dusa 公司的光敏剂 5-氨基乙酰丙酸（Levulan Kerstick）在美国上市用于光化性角化病；Brocacef 公司的 artemotil (Artecef) 是荷兰上市的新抗疟药。6 NAS 的希望\n在 2000 年的 38 个 NAS 中，6 个具有成为重磅炸弹级药物的潜能。其中之一就是前文所提及的 Astra Zeneca 公司的 Nexium。4 药物撤市\n此外，2001年NAS将会有很好的表现，2001年第一季度就上市了12个NAS。另一件大事是 Glaxo SmithKline 公司的肠易激综合征治疗药阿洛司琼（Lotronex），在 2000 年 3 月美国首次上市后，仅仅半年多的时间，即于 2000 年 11 月撤出美• 利基市场：一些因容量小而被忽视的小产品市场，但因介入者少、通过专业化经营也可获得较为丰厚的利润。【Fasturtec 在欧盟获准】\nSanofi-Synthelabo 的基因工程化氧化酶药物 Fasturtec（rasburicase）已根据集中程序（centralised procedure）在欧盟获准用于治疗高尿酸血症。(上接第244页)防苯妥英中毒，通常可减量25%\\~50%，这种相互作用可在数周后才完全发生。伴有高度肿瘤负荷（high tumour burden）的血液学恶性肿瘤病人，常在化疗初期面临肿瘤快速溶解或缩小的危险，本品通过将难溶性的尿酸转化成可溶性的、便于肾脏代谢的尿囊素，特异性地治疗并预防急性高尿酸血症，故可防止此类病人罹患急性肾衰。本品可增加环孢素浓度，合用时应监护，通常需减少环孢素剂量。本品还可增加地高辛浓度。3 可延长 QT 间期的非抗心律失常药物\nFasturtec 于 2001 年 2 月获欧盟肯定意见，并计划在 2001 年第二季度在欧洲首个市场上市。本品在日本处于临床阶段。据公司预测，到 2005 年本品的全球销售额将会达到 1 亿欧元。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "抗心律失常药的药物相互作用_刘萍.pdf",
+          "chunk_index": "抗心律失常药的药物相互作用_刘萍:4",
+          "raw_text": "防苯妥英中毒，通常可减量25%~50%，这种相互作用可在数周后才完全发生。",
+          "chunk_id": "抗心律失常药的药物相互作用_刘萍:4",
+          "data": "rand 公司的 cevimeline(Evoxac)是毒蕈碱 $M_{1}$ 受体激动剂，在美国上市用于治疗 Sjogren 综合征；Dusa 公司的光敏剂 5-氨基乙酰丙酸（Levulan Kerstick）在美国上市用于光化性角化病；Brocacef 公司的 artemotil (Artecef) 是荷兰上市的新抗疟药。6 NAS 的希望\n在 2000 年的 38 个 NAS 中，6 个具有成为重磅炸弹级药物的潜能。其中之一就是前文所提及的 Astra Zeneca 公司的 Nexium。4 药物撤市\n此外，2001年NAS将会有很好的表现，2001年第一季度就上市了12个NAS。另一件大事是 Glaxo SmithKline 公司的肠易激综合征治疗药阿洛司琼（Lotronex），在 2000 年 3 月美国首次上市后，仅仅半年多的时间，即于 2000 年 11 月撤出美• 利基市场：一些因容量小而被忽视的小产品市场，但因介入者少、通过专业化经营也可获得较为丰厚的利润。【Fasturtec 在欧盟获准】\nSanofi-Synthelabo 的基因工程化氧化酶药物 Fasturtec（rasburicase）已根据集中程序（centralised procedure）在欧盟获准用于治疗高尿酸血症。(上接第244页)防苯妥英中毒，通常可减量25%\\~50%，这种相互作用可在数周后才完全发生。伴有高度肿瘤负荷（high tumour burden）的血液学恶性肿瘤病人，常在化疗初期面临肿瘤快速溶解或缩小的危险，本品通过将难溶性的尿酸转化成可溶性的、便于肾脏代谢的尿囊素，特异性地治疗并预防急性高尿酸血症，故可防止此类病人罹患急性肾衰。本品可增加环孢素浓度，合用时应监护，通常需减少环孢素剂量。本品还可增加地高辛浓度。3 可延长 QT 间期的非抗心律失常药物\nFasturtec 于 2001 年 2 月获欧盟肯定意见，并计划在 2001 年第二季度在欧洲首个市场上市。本品在日本处于临床阶段。据公司预测，到 2005 年本品的全球销售额将会达到 1 亿欧元。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "抗心律失常药的药物相互作用_刘萍:4",
+    "source": "抗心律失常药的药物相互作用_刘萍.pdf",
+    "text": "rand 公司的 cevimeline(Evoxac)是毒蕈碱 $M_{1}$ 受体激动剂，在美国上市用于治疗 Sjogren 综合征；Dusa 公司的光敏剂 5-氨基乙酰丙酸（Levulan Kerstick）在美国上市用于光化性角化病；Brocacef 公司的 artemotil (Artecef) 是荷兰上市的新抗疟药。6 NAS 的希望\n在 2000 年的 38 个 NAS 中，6 个具有成为重磅炸弹级药物的潜能。其中之一就是前文所提及的 Astra Zeneca 公司的 Nexium。4 药物撤市\n此外，2001年NAS将会有很好的表现，2001年第一季度就上市了12个NAS。另一件大事是 Glaxo SmithKline 公司的肠易激综合征治疗药阿洛司琼（Lotronex），在 2000 年 3 月美国首次上市后，仅仅半年多的时间，即于 2000 年 11 月撤出美• 利基市场：一些因容量小而被忽视的小产品市场，但因介入者少、通过专业化经营也可获得较为丰厚的利润。【Fasturtec 在欧盟获准】\nSanofi-Synthelabo 的基因工程化氧化酶药物 Fasturtec（rasburicase）已根据集中程序（centralised procedure）在欧盟获准用于治疗高尿酸血症。(上接第244页)防苯妥英中毒，通常可减量25%\\~50%，这种相互作用可在数周后才完全发生。伴有高度肿瘤负荷（high tumour burden）的血液学恶性肿瘤病人，常在化疗初期面临肿瘤快速溶解或缩小的危险，本品通过将难溶性的尿酸转化成可溶性的、便于肾脏代谢的尿囊素，特异性地治疗并预防急性高尿酸血症，故可防止此类病人罹患急性肾衰。本品可增加环孢素浓度，合用时应监护，通常需减少环孢素剂量。本品还可增加地高辛浓度。3 可延长 QT 间期的非抗心律失常药物\nFasturtec 于 2001 年 2 月获欧盟肯定意见，并计划在 2001 年第二季度在欧洲首个市场上市。本品在日本处于临床阶段。据公司预测，到 2005 年本品的全球销售额将会达到 1 亿欧元。"
+  }
+]

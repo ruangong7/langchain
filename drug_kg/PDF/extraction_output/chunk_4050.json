@@ -1,0 +1,123 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "环孢素A",
+        "canonical_name": "环孢素A",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "甲基泼尼松龙",
+        "canonical_name": "甲基泼尼松龙",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "氨基糖甙类",
+        "canonical_name": "氨基糖甙类",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "canonical_name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "血肌酐",
+        "canonical_name": "血肌酐",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "肾毒性",
+        "canonical_name": "肾毒性",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "环孢素A与药物相互作用_梁健健.pdf",
+          "chunk_index": "环孢素A与药物相互作用_梁健健:3",
+          "raw_text": "当 CyA 与 MP 合用时，大剂量 MP 会令 CyA 的血药浓度明显升高，而普通剂量的 MP 不会改变 CyA 的血药浓度",
+          "mechanism": "竞争性抑制P450酶",
+          "consequence": "大剂量MP使环孢素A血药浓度升高",
+          "chunk_id": "环孢素A与药物相互作用_梁健健:3",
+          "data": "11 与激素类药合用\nCyA 广泛地应用于器官移植术中，当遇到急性排斥反应时，临床上往往采用大剂量甲基泼尼松龙 (methylprednisolone, MP) 冲击疗法。当 CyA 与 MP 合用时，大剂量 MP 会令 CyA 的血药浓度明显升高，而普通剂量的 MP 不会改变 CyA 的血药浓度 $^{[13]}$ 。其作用机理可能与竞争性抑制 P $_{450}$ 酶有关。\n12 与氨基糖甙类合用\nCyA 最明显的不良反应是对肾的毒性。当 CyA 与具有肾毒性的氨基糖甙类药物合用时，两种药物的肾毒性协同，血肌酐明显增加。故应严密监测患者肾功能。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "环孢素A与药物相互作用_梁健健.pdf",
+          "chunk_index": "环孢素A与药物相互作用_梁健健:3",
+          "raw_text": "当 CyA 与具有肾毒性的氨基糖甙类药物合用时，两种药物的肾毒性协同，血肌酐明显增加。故应严密监测患者肾功能。",
+          "consequence": "肾毒性协同，血肌酐增加",
+          "suggestion": "严密监测患者肾功能",
+          "chunk_id": "环孢素A与药物相互作用_梁健健:3",
+          "data": "11 与激素类药合用\nCyA 广泛地应用于器官移植术中，当遇到急性排斥反应时，临床上往往采用大剂量甲基泼尼松龙 (methylprednisolone, MP) 冲击疗法。当 CyA 与 MP 合用时，大剂量 MP 会令 CyA 的血药浓度明显升高，而普通剂量的 MP 不会改变 CyA 的血药浓度 $^{[13]}$ 。其作用机理可能与竞争性抑制 P $_{450}$ 酶有关。\n12 与氨基糖甙类合用\nCyA 最明显的不良反应是对肾的毒性。当 CyA 与具有肾毒性的氨基糖甙类药物合用时，两种药物的肾毒性协同，血肌酐明显增加。故应严密监测患者肾功能。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "环孢素A与药物相互作用_梁健健.pdf",
+          "chunk_index": "环孢素A与药物相互作用_梁健健:3",
+          "raw_text": "大剂量 MP 会令 CyA 的血药浓度明显升高",
+          "chunk_id": "环孢素A与药物相互作用_梁健健:3",
+          "data": "11 与激素类药合用\nCyA 广泛地应用于器官移植术中，当遇到急性排斥反应时，临床上往往采用大剂量甲基泼尼松龙 (methylprednisolone, MP) 冲击疗法。当 CyA 与 MP 合用时，大剂量 MP 会令 CyA 的血药浓度明显升高，而普通剂量的 MP 不会改变 CyA 的血药浓度 $^{[13]}$ 。其作用机理可能与竞争性抑制 P $_{450}$ 酶有关。\n12 与氨基糖甙类合用\nCyA 最明显的不良反应是对肾的毒性。当 CyA 与具有肾毒性的氨基糖甙类药物合用时，两种药物的肾毒性协同，血肌酐明显增加。故应严密监测患者肾功能。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "环孢素A与药物相互作用_梁健健.pdf",
+          "chunk_index": "环孢素A与药物相互作用_梁健健:3",
+          "raw_text": "血肌酐明显增加",
+          "chunk_id": "环孢素A与药物相互作用_梁健健:3",
+          "data": "11 与激素类药合用\nCyA 广泛地应用于器官移植术中，当遇到急性排斥反应时，临床上往往采用大剂量甲基泼尼松龙 (methylprednisolone, MP) 冲击疗法。当 CyA 与 MP 合用时，大剂量 MP 会令 CyA 的血药浓度明显升高，而普通剂量的 MP 不会改变 CyA 的血药浓度 $^{[13]}$ 。其作用机理可能与竞争性抑制 P $_{450}$ 酶有关。\n12 与氨基糖甙类合用\nCyA 最明显的不良反应是对肾的毒性。当 CyA 与具有肾毒性的氨基糖甙类药物合用时，两种药物的肾毒性协同，血肌酐明显增加。故应严密监测患者肾功能。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "环孢素A与药物相互作用_梁健健.pdf",
+          "chunk_index": "环孢素A与药物相互作用_梁健健:3",
+          "raw_text": "CyA 最明显的不良反应是对肾的毒性",
+          "chunk_id": "环孢素A与药物相互作用_梁健健:3",
+          "data": "11 与激素类药合用\nCyA 广泛地应用于器官移植术中，当遇到急性排斥反应时，临床上往往采用大剂量甲基泼尼松龙 (methylprednisolone, MP) 冲击疗法。当 CyA 与 MP 合用时，大剂量 MP 会令 CyA 的血药浓度明显升高，而普通剂量的 MP 不会改变 CyA 的血药浓度 $^{[13]}$ 。其作用机理可能与竞争性抑制 P $_{450}$ 酶有关。\n12 与氨基糖甙类合用\nCyA 最明显的不良反应是对肾的毒性。当 CyA 与具有肾毒性的氨基糖甙类药物合用时，两种药物的肾毒性协同，血肌酐明显增加。故应严密监测患者肾功能。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "环孢素A与药物相互作用_梁健健:3",
+    "source": "环孢素A与药物相互作用_梁健健.pdf",
+    "text": "11 与激素类药合用\nCyA 广泛地应用于器官移植术中，当遇到急性排斥反应时，临床上往往采用大剂量甲基泼尼松龙 (methylprednisolone, MP) 冲击疗法。当 CyA 与 MP 合用时，大剂量 MP 会令 CyA 的血药浓度明显升高，而普通剂量的 MP 不会改变 CyA 的血药浓度 $^{[13]}$ 。其作用机理可能与竞争性抑制 P $_{450}$ 酶有关。\n12 与氨基糖甙类合用\nCyA 最明显的不良反应是对肾的毒性。当 CyA 与具有肾毒性的氨基糖甙类药物合用时，两种药物的肾毒性协同，血肌酐明显增加。故应严密监测患者肾功能。"
+  }
+]

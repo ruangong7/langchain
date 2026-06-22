@@ -1,0 +1,217 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "丹参乙醇提取物",
+        "canonical_name": "丹参乙醇提取物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "丹参酮类",
+        "canonical_name": "丹参酮类",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "二氢丹参酮",
+        "canonical_name": "二氢丹参酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "隐丹参酮",
+        "canonical_name": "隐丹参酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "丹参酮Ⅰ",
+        "canonical_name": "丹参酮Ⅰ",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "丹参酮ⅡA",
+        "canonical_name": "丹参酮ⅡA",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "呋拉茶碱",
+        "canonical_name": "呋拉茶碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "CYP1A2",
+        "canonical_name": "CYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "CYP3A4/5",
+        "canonical_name": "CYP3A4/5",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "CYP2C19",
+        "canonical_name": "CYP2C19",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "raw_text": "丹参乙醇提取物是CYP1A2活性的强抑制剂",
+          "mechanism": "抑制",
+          "severity": "强",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "data": "2.2 丹参中的活性单体对大鼠肝微粒CYP450活性的抑制作用\n应用大鼠肝微粒体进行的研究发现，丹参乙醇提取物是CYP1A2活性的强抑制剂，是CYP3A4/5的中等强度抑制剂[7]，以丹参酮为主要成分的丹参提取物对CYP1A2同样具有中等强度抑制作用。根据 $K _ { \\mathrm { i } }$ 值从小到大，丹参酮类对CYP1A2活性的抑制程度依次为：二氢丹参酮 $\\left( K _ { \\mathrm { i } } = \\right.$ $3 . 6 4 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）＞隐丹参酮 $( K _ { \\mathrm { i } } = 4 . 0 7 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } ) \\ >$ 丹参酮Ⅰ $( K _ { \\mathrm { i } } = 2 2 . 6 ~ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ＞丹参酮Ⅱ $\\begin{array} { r l } { \\mathrm { ~ \\bf ~ A ~ } } & { { } ( K _ { \\mathrm { i } } = } \\end{array}$ $2 3 . 8 \\ \\mathrm { \\textmu m o l \\bullet L ^ { - 1 } } ) >$ 呋拉茶碱 $( K _ { \\mathrm { i } } = 3 5 . 8 \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），后者为 CYP1A2 的选择性抑制剂 [11]。此外，丹参酮Ⅱ A也可显著抑制 CYP2C19 的活性 [12]。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "raw_text": "丹参乙醇提取物是CYP3A4/5的中等强度抑制剂",
+          "mechanism": "抑制",
+          "severity": "中等",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "data": "2.2 丹参中的活性单体对大鼠肝微粒CYP450活性的抑制作用\n应用大鼠肝微粒体进行的研究发现，丹参乙醇提取物是CYP1A2活性的强抑制剂，是CYP3A4/5的中等强度抑制剂[7]，以丹参酮为主要成分的丹参提取物对CYP1A2同样具有中等强度抑制作用。根据 $K _ { \\mathrm { i } }$ 值从小到大，丹参酮类对CYP1A2活性的抑制程度依次为：二氢丹参酮 $\\left( K _ { \\mathrm { i } } = \\right.$ $3 . 6 4 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）＞隐丹参酮 $( K _ { \\mathrm { i } } = 4 . 0 7 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } ) \\ >$ 丹参酮Ⅰ $( K _ { \\mathrm { i } } = 2 2 . 6 ~ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ＞丹参酮Ⅱ $\\begin{array} { r l } { \\mathrm { ~ \\bf ~ A ~ } } & { { } ( K _ { \\mathrm { i } } = } \\end{array}$ $2 3 . 8 \\ \\mathrm { \\textmu m o l \\bullet L ^ { - 1 } } ) >$ 呋拉茶碱 $( K _ { \\mathrm { i } } = 3 5 . 8 \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），后者为 CYP1A2 的选择性抑制剂 [11]。此外，丹参酮Ⅱ A也可显著抑制 CYP2C19 的活性 [12]。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "raw_text": "以丹参酮为主要成分的丹参提取物对CYP1A2同样具有中等强度抑制作用",
+          "mechanism": "抑制",
+          "severity": "中等",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "data": "2.2 丹参中的活性单体对大鼠肝微粒CYP450活性的抑制作用\n应用大鼠肝微粒体进行的研究发现，丹参乙醇提取物是CYP1A2活性的强抑制剂，是CYP3A4/5的中等强度抑制剂[7]，以丹参酮为主要成分的丹参提取物对CYP1A2同样具有中等强度抑制作用。根据 $K _ { \\mathrm { i } }$ 值从小到大，丹参酮类对CYP1A2活性的抑制程度依次为：二氢丹参酮 $\\left( K _ { \\mathrm { i } } = \\right.$ $3 . 6 4 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）＞隐丹参酮 $( K _ { \\mathrm { i } } = 4 . 0 7 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } ) \\ >$ 丹参酮Ⅰ $( K _ { \\mathrm { i } } = 2 2 . 6 ~ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ＞丹参酮Ⅱ $\\begin{array} { r l } { \\mathrm { ~ \\bf ~ A ~ } } & { { } ( K _ { \\mathrm { i } } = } \\end{array}$ $2 3 . 8 \\ \\mathrm { \\textmu m o l \\bullet L ^ { - 1 } } ) >$ 呋拉茶碱 $( K _ { \\mathrm { i } } = 3 5 . 8 \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），后者为 CYP1A2 的选择性抑制剂 [11]。此外，丹参酮Ⅱ A也可显著抑制 CYP2C19 的活性 [12]。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "raw_text": "二氢丹参酮对CYP1A2活性的抑制程度（Ki=3.64 μmol·L⁻¹）",
+          "mechanism": "抑制",
+          "severity": "强",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "data": "2.2 丹参中的活性单体对大鼠肝微粒CYP450活性的抑制作用\n应用大鼠肝微粒体进行的研究发现，丹参乙醇提取物是CYP1A2活性的强抑制剂，是CYP3A4/5的中等强度抑制剂[7]，以丹参酮为主要成分的丹参提取物对CYP1A2同样具有中等强度抑制作用。根据 $K _ { \\mathrm { i } }$ 值从小到大，丹参酮类对CYP1A2活性的抑制程度依次为：二氢丹参酮 $\\left( K _ { \\mathrm { i } } = \\right.$ $3 . 6 4 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）＞隐丹参酮 $( K _ { \\mathrm { i } } = 4 . 0 7 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } ) \\ >$ 丹参酮Ⅰ $( K _ { \\mathrm { i } } = 2 2 . 6 ~ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ＞丹参酮Ⅱ $\\begin{array} { r l } { \\mathrm { ~ \\bf ~ A ~ } } & { { } ( K _ { \\mathrm { i } } = } \\end{array}$ $2 3 . 8 \\ \\mathrm { \\textmu m o l \\bullet L ^ { - 1 } } ) >$ 呋拉茶碱 $( K _ { \\mathrm { i } } = 3 5 . 8 \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），后者为 CYP1A2 的选择性抑制剂 [11]。此外，丹参酮Ⅱ A也可显著抑制 CYP2C19 的活性 [12]。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "raw_text": "隐丹参酮对CYP1A2活性的抑制程度（Ki=4.07 μmol·L⁻¹）",
+          "mechanism": "抑制",
+          "severity": "强",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "data": "2.2 丹参中的活性单体对大鼠肝微粒CYP450活性的抑制作用\n应用大鼠肝微粒体进行的研究发现，丹参乙醇提取物是CYP1A2活性的强抑制剂，是CYP3A4/5的中等强度抑制剂[7]，以丹参酮为主要成分的丹参提取物对CYP1A2同样具有中等强度抑制作用。根据 $K _ { \\mathrm { i } }$ 值从小到大，丹参酮类对CYP1A2活性的抑制程度依次为：二氢丹参酮 $\\left( K _ { \\mathrm { i } } = \\right.$ $3 . 6 4 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）＞隐丹参酮 $( K _ { \\mathrm { i } } = 4 . 0 7 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } ) \\ >$ 丹参酮Ⅰ $( K _ { \\mathrm { i } } = 2 2 . 6 ~ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ＞丹参酮Ⅱ $\\begin{array} { r l } { \\mathrm { ~ \\bf ~ A ~ } } & { { } ( K _ { \\mathrm { i } } = } \\end{array}$ $2 3 . 8 \\ \\mathrm { \\textmu m o l \\bullet L ^ { - 1 } } ) >$ 呋拉茶碱 $( K _ { \\mathrm { i } } = 3 5 . 8 \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），后者为 CYP1A2 的选择性抑制剂 [11]。此外，丹参酮Ⅱ A也可显著抑制 CYP2C19 的活性 [12]。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "raw_text": "丹参酮Ⅰ对CYP1A2活性的抑制程度（Ki=22.6 μmol·L⁻¹）",
+          "mechanism": "抑制",
+          "severity": "中等",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "data": "2.2 丹参中的活性单体对大鼠肝微粒CYP450活性的抑制作用\n应用大鼠肝微粒体进行的研究发现，丹参乙醇提取物是CYP1A2活性的强抑制剂，是CYP3A4/5的中等强度抑制剂[7]，以丹参酮为主要成分的丹参提取物对CYP1A2同样具有中等强度抑制作用。根据 $K _ { \\mathrm { i } }$ 值从小到大，丹参酮类对CYP1A2活性的抑制程度依次为：二氢丹参酮 $\\left( K _ { \\mathrm { i } } = \\right.$ $3 . 6 4 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）＞隐丹参酮 $( K _ { \\mathrm { i } } = 4 . 0 7 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } ) \\ >$ 丹参酮Ⅰ $( K _ { \\mathrm { i } } = 2 2 . 6 ~ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ＞丹参酮Ⅱ $\\begin{array} { r l } { \\mathrm { ~ \\bf ~ A ~ } } & { { } ( K _ { \\mathrm { i } } = } \\end{array}$ $2 3 . 8 \\ \\mathrm { \\textmu m o l \\bullet L ^ { - 1 } } ) >$ 呋拉茶碱 $( K _ { \\mathrm { i } } = 3 5 . 8 \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），后者为 CYP1A2 的选择性抑制剂 [11]。此外，丹参酮Ⅱ A也可显著抑制 CYP2C19 的活性 [12]。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "raw_text": "丹参酮ⅡA对CYP1A2活性的抑制程度（Ki=23.8 μmol·L⁻¹）",
+          "mechanism": "抑制",
+          "severity": "中等",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "data": "2.2 丹参中的活性单体对大鼠肝微粒CYP450活性的抑制作用\n应用大鼠肝微粒体进行的研究发现，丹参乙醇提取物是CYP1A2活性的强抑制剂，是CYP3A4/5的中等强度抑制剂[7]，以丹参酮为主要成分的丹参提取物对CYP1A2同样具有中等强度抑制作用。根据 $K _ { \\mathrm { i } }$ 值从小到大，丹参酮类对CYP1A2活性的抑制程度依次为：二氢丹参酮 $\\left( K _ { \\mathrm { i } } = \\right.$ $3 . 6 4 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）＞隐丹参酮 $( K _ { \\mathrm { i } } = 4 . 0 7 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } ) \\ >$ 丹参酮Ⅰ $( K _ { \\mathrm { i } } = 2 2 . 6 ~ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ＞丹参酮Ⅱ $\\begin{array} { r l } { \\mathrm { ~ \\bf ~ A ~ } } & { { } ( K _ { \\mathrm { i } } = } \\end{array}$ $2 3 . 8 \\ \\mathrm { \\textmu m o l \\bullet L ^ { - 1 } } ) >$ 呋拉茶碱 $( K _ { \\mathrm { i } } = 3 5 . 8 \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），后者为 CYP1A2 的选择性抑制剂 [11]。此外，丹参酮Ⅱ A也可显著抑制 CYP2C19 的活性 [12]。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "raw_text": "呋拉茶碱为CYP1A2的选择性抑制剂（Ki=35.8 μmol·L⁻¹）",
+          "mechanism": "抑制",
+          "severity": "弱",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "data": "2.2 丹参中的活性单体对大鼠肝微粒CYP450活性的抑制作用\n应用大鼠肝微粒体进行的研究发现，丹参乙醇提取物是CYP1A2活性的强抑制剂，是CYP3A4/5的中等强度抑制剂[7]，以丹参酮为主要成分的丹参提取物对CYP1A2同样具有中等强度抑制作用。根据 $K _ { \\mathrm { i } }$ 值从小到大，丹参酮类对CYP1A2活性的抑制程度依次为：二氢丹参酮 $\\left( K _ { \\mathrm { i } } = \\right.$ $3 . 6 4 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）＞隐丹参酮 $( K _ { \\mathrm { i } } = 4 . 0 7 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } ) \\ >$ 丹参酮Ⅰ $( K _ { \\mathrm { i } } = 2 2 . 6 ~ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ＞丹参酮Ⅱ $\\begin{array} { r l } { \\mathrm { ~ \\bf ~ A ~ } } & { { } ( K _ { \\mathrm { i } } = } \\end{array}$ $2 3 . 8 \\ \\mathrm { \\textmu m o l \\bullet L ^ { - 1 } } ) >$ 呋拉茶碱 $( K _ { \\mathrm { i } } = 3 5 . 8 \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），后者为 CYP1A2 的选择性抑制剂 [11]。此外，丹参酮Ⅱ A也可显著抑制 CYP2C19 的活性 [12]。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "raw_text": "丹参酮ⅡA也可显著抑制CYP2C19的活性",
+          "mechanism": "抑制",
+          "severity": "显著",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "data": "2.2 丹参中的活性单体对大鼠肝微粒CYP450活性的抑制作用\n应用大鼠肝微粒体进行的研究发现，丹参乙醇提取物是CYP1A2活性的强抑制剂，是CYP3A4/5的中等强度抑制剂[7]，以丹参酮为主要成分的丹参提取物对CYP1A2同样具有中等强度抑制作用。根据 $K _ { \\mathrm { i } }$ 值从小到大，丹参酮类对CYP1A2活性的抑制程度依次为：二氢丹参酮 $\\left( K _ { \\mathrm { i } } = \\right.$ $3 . 6 4 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）＞隐丹参酮 $( K _ { \\mathrm { i } } = 4 . 0 7 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } ) \\ >$ 丹参酮Ⅰ $( K _ { \\mathrm { i } } = 2 2 . 6 ~ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ＞丹参酮Ⅱ $\\begin{array} { r l } { \\mathrm { ~ \\bf ~ A ~ } } & { { } ( K _ { \\mathrm { i } } = } \\end{array}$ $2 3 . 8 \\ \\mathrm { \\textmu m o l \\bullet L ^ { - 1 } } ) >$ 呋拉茶碱 $( K _ { \\mathrm { i } } = 3 5 . 8 \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），后者为 CYP1A2 的选择性抑制剂 [11]。此外，丹参酮Ⅱ A也可显著抑制 CYP2C19 的活性 [12]。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+    "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+    "text": "2.2 丹参中的活性单体对大鼠肝微粒CYP450活性的抑制作用\n应用大鼠肝微粒体进行的研究发现，丹参乙醇提取物是CYP1A2活性的强抑制剂，是CYP3A4/5的中等强度抑制剂[7]，以丹参酮为主要成分的丹参提取物对CYP1A2同样具有中等强度抑制作用。根据 $K _ { \\mathrm { i } }$ 值从小到大，丹参酮类对CYP1A2活性的抑制程度依次为：二氢丹参酮 $\\left( K _ { \\mathrm { i } } = \\right.$ $3 . 6 4 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）＞隐丹参酮 $( K _ { \\mathrm { i } } = 4 . 0 7 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } ) \\ >$ 丹参酮Ⅰ $( K _ { \\mathrm { i } } = 2 2 . 6 ~ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ＞丹参酮Ⅱ $\\begin{array} { r l } { \\mathrm { ~ \\bf ~ A ~ } } & { { } ( K _ { \\mathrm { i } } = } \\end{array}$ $2 3 . 8 \\ \\mathrm { \\textmu m o l \\bullet L ^ { - 1 } } ) >$ 呋拉茶碱 $( K _ { \\mathrm { i } } = 3 5 . 8 \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），后者为 CYP1A2 的选择性抑制剂 [11]。此外，丹参酮Ⅱ A也可显著抑制 CYP2C19 的活性 [12]。"
+  }
+]

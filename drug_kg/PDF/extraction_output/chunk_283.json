@@ -1,0 +1,106 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "PTV",
+        "canonical_name": "帕利瑞韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "RTV",
+        "canonical_name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "LPV/r",
+        "canonical_name": "洛匹那韦/利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "OBV",
+        "canonical_name": "奥比他韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "DAV",
+        "canonical_name": "达塞布韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "胃肠道不良反应",
+        "canonical_name": "胃肠道不良反应",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:7",
+          "raw_text": "PTV 是通过 P4503A4 酶来代谢的， 而且需 RTV 促使其达到足够的血药浓度才能有效抗HCV。",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:7",
+          "data": "DAA很有限。因此，在今后的临床实践中，我们仍须继续关注 ARV 与 DAA 的相互作用以及DAA在合并感染者特定病程阶段中的应用经验。PTV 是通过 P4503A4 酶来代谢的， 而且需 RTV 促使其达到足够的血药浓度才能有效抗HCV。而 RTV 还具有抗 HIV 的活性，所以对于HIV/HCV 合并感染者应用上述组合抗 HCV 前，必须达到 HIV 病毒学的抑制 [29]。在 PTV/OBV/r+DAV组合中 RTV 的剂量为 100 mg，如与 LPV/r 联用，则 RTV 的剂量高达 300 mg，这无疑会增加胃肠道不良反应，因此，不推荐LPV/r与该组合联用[30]。【参考文献】\n（ 收稿修回）（本文编辑闫晶晶）\nHIV/HCV 合并感染者中\n两类抗病毒药物相互作用的研究\n张雪，徐小元[ 摘要 ]　直接抗病毒药物对 HIV/HCV 合并感染者及单纯 HCV 感染者的疗效相当，然而药物 - 药物相互作用是临床医师在选择抗病毒方案时不容忽视的问题。本文检索分析了国内外有关直接抗病毒药物与抗反转录病毒药物相互作用的文献，并对两类抗病毒药物的相互作用进行综述，以期为临床医师治疗 HIV/HCV 合并感染者时选择恰当的直接抗病毒药物组合提供参考。Research of drug-drug interactions between 2 antiviral agents in HIV/HCV co-infected patients\nZHANG Xue, XU Xiao-Yuan\\*Department of Infectious Disease, Peking University First Hospital, 100034, China;"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:7",
+          "raw_text": "在 PTV/OBV/r+DAV组合中 RTV 的剂量为 100 mg，如与 LPV/r 联用，则 RTV 的剂量高达 300 mg，这无疑会增加胃肠道不良反应，因此，不推荐LPV/r与该组合联用。",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:7",
+          "data": "DAA很有限。因此，在今后的临床实践中，我们仍须继续关注 ARV 与 DAA 的相互作用以及DAA在合并感染者特定病程阶段中的应用经验。PTV 是通过 P4503A4 酶来代谢的， 而且需 RTV 促使其达到足够的血药浓度才能有效抗HCV。而 RTV 还具有抗 HIV 的活性，所以对于HIV/HCV 合并感染者应用上述组合抗 HCV 前，必须达到 HIV 病毒学的抑制 [29]。在 PTV/OBV/r+DAV组合中 RTV 的剂量为 100 mg，如与 LPV/r 联用，则 RTV 的剂量高达 300 mg，这无疑会增加胃肠道不良反应，因此，不推荐LPV/r与该组合联用[30]。【参考文献】\n（ 收稿修回）（本文编辑闫晶晶）\nHIV/HCV 合并感染者中\n两类抗病毒药物相互作用的研究\n张雪，徐小元[ 摘要 ]　直接抗病毒药物对 HIV/HCV 合并感染者及单纯 HCV 感染者的疗效相当，然而药物 - 药物相互作用是临床医师在选择抗病毒方案时不容忽视的问题。本文检索分析了国内外有关直接抗病毒药物与抗反转录病毒药物相互作用的文献，并对两类抗病毒药物的相互作用进行综述，以期为临床医师治疗 HIV/HCV 合并感染者时选择恰当的直接抗病毒药物组合提供参考。Research of drug-drug interactions between 2 antiviral agents in HIV/HCV co-infected patients\nZHANG Xue, XU Xiao-Yuan\\*Department of Infectious Disease, Peking University First Hospital, 100034, China;"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:7",
+          "raw_text": "在 PTV/OBV/r+DAV组合中 RTV 的剂量为 100 mg，如与 LPV/r 联用，则 RTV 的剂量高达 300 mg，这无疑会增加胃肠道不良反应，因此，不推荐LPV/r与该组合联用。",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:7",
+          "data": "DAA很有限。因此，在今后的临床实践中，我们仍须继续关注 ARV 与 DAA 的相互作用以及DAA在合并感染者特定病程阶段中的应用经验。PTV 是通过 P4503A4 酶来代谢的， 而且需 RTV 促使其达到足够的血药浓度才能有效抗HCV。而 RTV 还具有抗 HIV 的活性，所以对于HIV/HCV 合并感染者应用上述组合抗 HCV 前，必须达到 HIV 病毒学的抑制 [29]。在 PTV/OBV/r+DAV组合中 RTV 的剂量为 100 mg，如与 LPV/r 联用，则 RTV 的剂量高达 300 mg，这无疑会增加胃肠道不良反应，因此，不推荐LPV/r与该组合联用[30]。【参考文献】\n（ 收稿修回）（本文编辑闫晶晶）\nHIV/HCV 合并感染者中\n两类抗病毒药物相互作用的研究\n张雪，徐小元[ 摘要 ]　直接抗病毒药物对 HIV/HCV 合并感染者及单纯 HCV 感染者的疗效相当，然而药物 - 药物相互作用是临床医师在选择抗病毒方案时不容忽视的问题。本文检索分析了国内外有关直接抗病毒药物与抗反转录病毒药物相互作用的文献，并对两类抗病毒药物的相互作用进行综述，以期为临床医师治疗 HIV/HCV 合并感染者时选择恰当的直接抗病毒药物组合提供参考。Research of drug-drug interactions between 2 antiviral agents in HIV/HCV co-infected patients\nZHANG Xue, XU Xiao-Yuan\\*Department of Infectious Disease, Peking University First Hospital, 100034, China;"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:7",
+          "raw_text": "如与 LPV/r 联用，则 RTV 的剂量高达 300 mg，这无疑会增加胃肠道不良反应",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:7",
+          "data": "DAA很有限。因此，在今后的临床实践中，我们仍须继续关注 ARV 与 DAA 的相互作用以及DAA在合并感染者特定病程阶段中的应用经验。PTV 是通过 P4503A4 酶来代谢的， 而且需 RTV 促使其达到足够的血药浓度才能有效抗HCV。而 RTV 还具有抗 HIV 的活性，所以对于HIV/HCV 合并感染者应用上述组合抗 HCV 前，必须达到 HIV 病毒学的抑制 [29]。在 PTV/OBV/r+DAV组合中 RTV 的剂量为 100 mg，如与 LPV/r 联用，则 RTV 的剂量高达 300 mg，这无疑会增加胃肠道不良反应，因此，不推荐LPV/r与该组合联用[30]。【参考文献】\n（ 收稿修回）（本文编辑闫晶晶）\nHIV/HCV 合并感染者中\n两类抗病毒药物相互作用的研究\n张雪，徐小元[ 摘要 ]　直接抗病毒药物对 HIV/HCV 合并感染者及单纯 HCV 感染者的疗效相当，然而药物 - 药物相互作用是临床医师在选择抗病毒方案时不容忽视的问题。本文检索分析了国内外有关直接抗病毒药物与抗反转录病毒药物相互作用的文献，并对两类抗病毒药物的相互作用进行综述，以期为临床医师治疗 HIV/HCV 合并感染者时选择恰当的直接抗病毒药物组合提供参考。Research of drug-drug interactions between 2 antiviral agents in HIV/HCV co-infected patients\nZHANG Xue, XU Xiao-Yuan\\*Department of Infectious Disease, Peking University First Hospital, 100034, China;"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:7",
+    "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+    "text": "DAA很有限。因此，在今后的临床实践中，我们仍须继续关注 ARV 与 DAA 的相互作用以及DAA在合并感染者特定病程阶段中的应用经验。PTV 是通过 P4503A4 酶来代谢的， 而且需 RTV 促使其达到足够的血药浓度才能有效抗HCV。而 RTV 还具有抗 HIV 的活性，所以对于HIV/HCV 合并感染者应用上述组合抗 HCV 前，必须达到 HIV 病毒学的抑制 [29]。在 PTV/OBV/r+DAV组合中 RTV 的剂量为 100 mg，如与 LPV/r 联用，则 RTV 的剂量高达 300 mg，这无疑会增加胃肠道不良反应，因此，不推荐LPV/r与该组合联用[30]。【参考文献】\n（ 收稿修回）（本文编辑闫晶晶）\nHIV/HCV 合并感染者中\n两类抗病毒药物相互作用的研究\n张雪，徐小元[ 摘要 ]　直接抗病毒药物对 HIV/HCV 合并感染者及单纯 HCV 感染者的疗效相当，然而药物 - 药物相互作用是临床医师在选择抗病毒方案时不容忽视的问题。本文检索分析了国内外有关直接抗病毒药物与抗反转录病毒药物相互作用的文献，并对两类抗病毒药物的相互作用进行综述，以期为临床医师治疗 HIV/HCV 合并感染者时选择恰当的直接抗病毒药物组合提供参考。Research of drug-drug interactions between 2 antiviral agents in HIV/HCV co-infected patients\nZHANG Xue, XU Xiao-Yuan\\*Department of Infectious Disease, Peking University First Hospital, 100034, China;"
+  }
+]

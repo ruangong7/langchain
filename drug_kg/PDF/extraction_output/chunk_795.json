@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "硫酸氢氯吡格雷片",
+        "canonical_name": "氯吡格雷",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "瑞格列奈片",
+        "canonical_name": "瑞格列奈",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "2型糖尿病",
+        "canonical_name": "2型糖尿病",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "低血糖",
+        "canonical_name": "低血糖",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "临床药师参与1例药物相互作用致低血糖实践_刘芝.pdf",
+          "chunk_index": "临床药师参与1例药物相互作用致低血糖实践_刘芝:0",
+          "raw_text": "分析患者突发低血糖为硫酸氢氯吡格雷片与瑞格列奈片的相互作用所致",
+          "chunk_id": "临床药师参与1例药物相互作用致低血糖实践_刘芝:0",
+          "data": "临床药师参与 1 例药物相互作用致低血糖实践\n刘芝 1 ，陈斌 1 ，董丽娥 2 △( 1． 四川省绵竹市人民医院药剂科，四川德阳 618200; 2． 中国人民解放军西部战区总医院药剂科，四川成都 610036)摘要: 目的探讨临床药师在干预潜在药物相互作用中的作用。方法临床药师参与 1 例 2 型糖尿病并冠状动脉粥样硬化性心脏病突发低血糖的治疗过程，通过对治疗方案的评价，分析患者突发低血糖为硫酸氢氯吡格雷片与瑞格列奈片的相互作用所致，提出用药建议。结果医师采纳临床药师建议，调整药物治疗方案后未再出现低血糖反应。结论联合用药在临床药物治疗过程中普遍存在，临床药师应熟悉药物间可能存在的药物相互作用，从而减少或避免药品不良反应发生，保证患者的用药安全、有效。\nClinical Pharmacist Participating in the Practice of Drug Interaction Resulting in Hypoglycemia in 1 Case\nLIU Zhi1 ，CHEN Bin1 ，DONG Li' e2( 1． Deprtment of Pharmacy，Mianzhu People' s Hospital，Deyang，Sichuan，China 618200;"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "临床药师参与1例药物相互作用致低血糖实践_刘芝.pdf",
+          "chunk_index": "临床药师参与1例药物相互作用致低血糖实践_刘芝:0",
+          "raw_text": "分析患者突发低血糖为硫酸氢氯吡格雷片与瑞格列奈片的相互作用所致",
+          "chunk_id": "临床药师参与1例药物相互作用致低血糖实践_刘芝:0",
+          "data": "临床药师参与 1 例药物相互作用致低血糖实践\n刘芝 1 ，陈斌 1 ，董丽娥 2 △( 1． 四川省绵竹市人民医院药剂科，四川德阳 618200; 2． 中国人民解放军西部战区总医院药剂科，四川成都 610036)摘要: 目的探讨临床药师在干预潜在药物相互作用中的作用。方法临床药师参与 1 例 2 型糖尿病并冠状动脉粥样硬化性心脏病突发低血糖的治疗过程，通过对治疗方案的评价，分析患者突发低血糖为硫酸氢氯吡格雷片与瑞格列奈片的相互作用所致，提出用药建议。结果医师采纳临床药师建议，调整药物治疗方案后未再出现低血糖反应。结论联合用药在临床药物治疗过程中普遍存在，临床药师应熟悉药物间可能存在的药物相互作用，从而减少或避免药品不良反应发生，保证患者的用药安全、有效。\nClinical Pharmacist Participating in the Practice of Drug Interaction Resulting in Hypoglycemia in 1 Case\nLIU Zhi1 ，CHEN Bin1 ，DONG Li' e2( 1． Deprtment of Pharmacy，Mianzhu People' s Hospital，Deyang，Sichuan，China 618200;"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "临床药师参与1例药物相互作用致低血糖实践_刘芝.pdf",
+          "chunk_index": "临床药师参与1例药物相互作用致低血糖实践_刘芝:0",
+          "raw_text": "2型糖尿病并冠状动脉粥样硬化性心脏病突发低血糖",
+          "chunk_id": "临床药师参与1例药物相互作用致低血糖实践_刘芝:0",
+          "data": "临床药师参与 1 例药物相互作用致低血糖实践\n刘芝 1 ，陈斌 1 ，董丽娥 2 △( 1． 四川省绵竹市人民医院药剂科，四川德阳 618200; 2． 中国人民解放军西部战区总医院药剂科，四川成都 610036)摘要: 目的探讨临床药师在干预潜在药物相互作用中的作用。方法临床药师参与 1 例 2 型糖尿病并冠状动脉粥样硬化性心脏病突发低血糖的治疗过程，通过对治疗方案的评价，分析患者突发低血糖为硫酸氢氯吡格雷片与瑞格列奈片的相互作用所致，提出用药建议。结果医师采纳临床药师建议，调整药物治疗方案后未再出现低血糖反应。结论联合用药在临床药物治疗过程中普遍存在，临床药师应熟悉药物间可能存在的药物相互作用，从而减少或避免药品不良反应发生，保证患者的用药安全、有效。\nClinical Pharmacist Participating in the Practice of Drug Interaction Resulting in Hypoglycemia in 1 Case\nLIU Zhi1 ，CHEN Bin1 ，DONG Li' e2( 1． Deprtment of Pharmacy，Mianzhu People' s Hospital，Deyang，Sichuan，China 618200;"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "临床药师参与1例药物相互作用致低血糖实践_刘芝:0",
+    "source": "临床药师参与1例药物相互作用致低血糖实践_刘芝.pdf",
+    "text": "临床药师参与 1 例药物相互作用致低血糖实践\n刘芝 1 ，陈斌 1 ，董丽娥 2 △( 1． 四川省绵竹市人民医院药剂科，四川德阳 618200; 2． 中国人民解放军西部战区总医院药剂科，四川成都 610036)摘要: 目的探讨临床药师在干预潜在药物相互作用中的作用。方法临床药师参与 1 例 2 型糖尿病并冠状动脉粥样硬化性心脏病突发低血糖的治疗过程，通过对治疗方案的评价，分析患者突发低血糖为硫酸氢氯吡格雷片与瑞格列奈片的相互作用所致，提出用药建议。结果医师采纳临床药师建议，调整药物治疗方案后未再出现低血糖反应。结论联合用药在临床药物治疗过程中普遍存在，临床药师应熟悉药物间可能存在的药物相互作用，从而减少或避免药品不良反应发生，保证患者的用药安全、有效。\nClinical Pharmacist Participating in the Practice of Drug Interaction Resulting in Hypoglycemia in 1 Case\nLIU Zhi1 ，CHEN Bin1 ，DONG Li' e2( 1． Deprtment of Pharmacy，Mianzhu People' s Hospital，Deyang，Sichuan，China 618200;"
+  }
+]

@@ -1,0 +1,139 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "唑类抗真菌药物",
+        "canonical_name": "唑类抗真菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "氟康唑",
+        "canonical_name": "氟康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "伊曲康唑",
+        "canonical_name": "伊曲康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "非甾体抗炎药",
+        "canonical_name": "非甾体抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "出血风险",
+        "canonical_name": "出血风险",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新.pdf",
+          "chunk_index": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新:10",
+          "raw_text": "华法林和部分唑类抗真菌药联用会增强华法林的抗凝作用",
+          "chunk_id": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新:10",
+          "data": "ANG Jin － hua2，3( 1. Department of Pharmacy， Huaihe Hospital of Henan University， Kaifeng 475001， Henan Province， China;2. Department of Pharmacy， Fujian Medical University Union Hospital， Fuzhou 350001，Fujian Province，China;3. School of Pharmacy，Fujian Medical University， Fuzhou 350001， Fujian Province，China)华法林是目前临床上应用最广泛的维生素 K 依赖性凝血因子抑制剂［1］。国外的华法林说明书中指出，华法林和部分唑类抗真菌药联用会增强华法林的抗凝作用［2］。但是，国内的华法林说明书并未指出华法林与唑类抗真菌药物存在相互作用。本文从华法林和唑类抗真菌药物的药代动力学( PK) 特征出发，对唑类抗真菌药物与华法林的相互作用机制的相关文献报道进行综述。1 华法林与唑类抗真菌药物的药物相互作用的机制\n药效动力学( pharmacodynamics，PD) 相互作用指一种药物引起另一种药物疗效或药物不良反应( ADR) 的增加性或拮抗性药理效应的现象，比如华法林和非甾体抗炎药联合使用会增加出血风险。唑类药物对肝药物代谢酶的抑制作用是华法林与唑类药物产生相互作用的机制，如氟康唑、伏立康唑和伊曲康唑等［3］定稿日期: 2019 － 04 － 18"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新.pdf",
+          "chunk_index": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新:10",
+          "raw_text": "华法林和非甾体抗炎药联合使用会增加出血风险",
+          "chunk_id": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新:10",
+          "data": "ANG Jin － hua2，3( 1. Department of Pharmacy， Huaihe Hospital of Henan University， Kaifeng 475001， Henan Province， China;2. Department of Pharmacy， Fujian Medical University Union Hospital， Fuzhou 350001，Fujian Province，China;3. School of Pharmacy，Fujian Medical University， Fuzhou 350001， Fujian Province，China)华法林是目前临床上应用最广泛的维生素 K 依赖性凝血因子抑制剂［1］。国外的华法林说明书中指出，华法林和部分唑类抗真菌药联用会增强华法林的抗凝作用［2］。但是，国内的华法林说明书并未指出华法林与唑类抗真菌药物存在相互作用。本文从华法林和唑类抗真菌药物的药代动力学( PK) 特征出发，对唑类抗真菌药物与华法林的相互作用机制的相关文献报道进行综述。1 华法林与唑类抗真菌药物的药物相互作用的机制\n药效动力学( pharmacodynamics，PD) 相互作用指一种药物引起另一种药物疗效或药物不良反应( ADR) 的增加性或拮抗性药理效应的现象，比如华法林和非甾体抗炎药联合使用会增加出血风险。唑类药物对肝药物代谢酶的抑制作用是华法林与唑类药物产生相互作用的机制，如氟康唑、伏立康唑和伊曲康唑等［3］定稿日期: 2019 － 04 － 18"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新.pdf",
+          "chunk_index": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新:10",
+          "raw_text": "华法林和非甾体抗炎药联合使用会增加出血风险",
+          "chunk_id": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新:10",
+          "data": "ANG Jin － hua2，3( 1. Department of Pharmacy， Huaihe Hospital of Henan University， Kaifeng 475001， Henan Province， China;2. Department of Pharmacy， Fujian Medical University Union Hospital， Fuzhou 350001，Fujian Province，China;3. School of Pharmacy，Fujian Medical University， Fuzhou 350001， Fujian Province，China)华法林是目前临床上应用最广泛的维生素 K 依赖性凝血因子抑制剂［1］。国外的华法林说明书中指出，华法林和部分唑类抗真菌药联用会增强华法林的抗凝作用［2］。但是，国内的华法林说明书并未指出华法林与唑类抗真菌药物存在相互作用。本文从华法林和唑类抗真菌药物的药代动力学( PK) 特征出发，对唑类抗真菌药物与华法林的相互作用机制的相关文献报道进行综述。1 华法林与唑类抗真菌药物的药物相互作用的机制\n药效动力学( pharmacodynamics，PD) 相互作用指一种药物引起另一种药物疗效或药物不良反应( ADR) 的增加性或拮抗性药理效应的现象，比如华法林和非甾体抗炎药联合使用会增加出血风险。唑类药物对肝药物代谢酶的抑制作用是华法林与唑类药物产生相互作用的机制，如氟康唑、伏立康唑和伊曲康唑等［3］定稿日期: 2019 － 04 － 18"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新.pdf",
+          "chunk_index": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新:10",
+          "raw_text": "氟康唑、伏立康唑和伊曲康唑等",
+          "chunk_id": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新:10",
+          "data": "ANG Jin － hua2，3( 1. Department of Pharmacy， Huaihe Hospital of Henan University， Kaifeng 475001， Henan Province， China;2. Department of Pharmacy， Fujian Medical University Union Hospital， Fuzhou 350001，Fujian Province，China;3. School of Pharmacy，Fujian Medical University， Fuzhou 350001， Fujian Province，China)华法林是目前临床上应用最广泛的维生素 K 依赖性凝血因子抑制剂［1］。国外的华法林说明书中指出，华法林和部分唑类抗真菌药联用会增强华法林的抗凝作用［2］。但是，国内的华法林说明书并未指出华法林与唑类抗真菌药物存在相互作用。本文从华法林和唑类抗真菌药物的药代动力学( PK) 特征出发，对唑类抗真菌药物与华法林的相互作用机制的相关文献报道进行综述。1 华法林与唑类抗真菌药物的药物相互作用的机制\n药效动力学( pharmacodynamics，PD) 相互作用指一种药物引起另一种药物疗效或药物不良反应( ADR) 的增加性或拮抗性药理效应的现象，比如华法林和非甾体抗炎药联合使用会增加出血风险。唑类药物对肝药物代谢酶的抑制作用是华法林与唑类药物产生相互作用的机制，如氟康唑、伏立康唑和伊曲康唑等［3］定稿日期: 2019 － 04 － 18"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新.pdf",
+          "chunk_index": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新:10",
+          "raw_text": "氟康唑、伏立康唑和伊曲康唑等",
+          "chunk_id": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新:10",
+          "data": "ANG Jin － hua2，3( 1. Department of Pharmacy， Huaihe Hospital of Henan University， Kaifeng 475001， Henan Province， China;2. Department of Pharmacy， Fujian Medical University Union Hospital， Fuzhou 350001，Fujian Province，China;3. School of Pharmacy，Fujian Medical University， Fuzhou 350001， Fujian Province，China)华法林是目前临床上应用最广泛的维生素 K 依赖性凝血因子抑制剂［1］。国外的华法林说明书中指出，华法林和部分唑类抗真菌药联用会增强华法林的抗凝作用［2］。但是，国内的华法林说明书并未指出华法林与唑类抗真菌药物存在相互作用。本文从华法林和唑类抗真菌药物的药代动力学( PK) 特征出发，对唑类抗真菌药物与华法林的相互作用机制的相关文献报道进行综述。1 华法林与唑类抗真菌药物的药物相互作用的机制\n药效动力学( pharmacodynamics，PD) 相互作用指一种药物引起另一种药物疗效或药物不良反应( ADR) 的增加性或拮抗性药理效应的现象，比如华法林和非甾体抗炎药联合使用会增加出血风险。唑类药物对肝药物代谢酶的抑制作用是华法林与唑类药物产生相互作用的机制，如氟康唑、伏立康唑和伊曲康唑等［3］定稿日期: 2019 － 04 － 18"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新.pdf",
+          "chunk_index": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新:10",
+          "raw_text": "氟康唑、伏立康唑和伊曲康唑等",
+          "chunk_id": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新:10",
+          "data": "ANG Jin － hua2，3( 1. Department of Pharmacy， Huaihe Hospital of Henan University， Kaifeng 475001， Henan Province， China;2. Department of Pharmacy， Fujian Medical University Union Hospital， Fuzhou 350001，Fujian Province，China;3. School of Pharmacy，Fujian Medical University， Fuzhou 350001， Fujian Province，China)华法林是目前临床上应用最广泛的维生素 K 依赖性凝血因子抑制剂［1］。国外的华法林说明书中指出，华法林和部分唑类抗真菌药联用会增强华法林的抗凝作用［2］。但是，国内的华法林说明书并未指出华法林与唑类抗真菌药物存在相互作用。本文从华法林和唑类抗真菌药物的药代动力学( PK) 特征出发，对唑类抗真菌药物与华法林的相互作用机制的相关文献报道进行综述。1 华法林与唑类抗真菌药物的药物相互作用的机制\n药效动力学( pharmacodynamics，PD) 相互作用指一种药物引起另一种药物疗效或药物不良反应( ADR) 的增加性或拮抗性药理效应的现象，比如华法林和非甾体抗炎药联合使用会增加出血风险。唑类药物对肝药物代谢酶的抑制作用是华法林与唑类药物产生相互作用的机制，如氟康唑、伏立康唑和伊曲康唑等［3］定稿日期: 2019 － 04 － 18"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新:10",
+    "source": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新.pdf",
+    "text": "ANG Jin － hua2，3( 1. Department of Pharmacy， Huaihe Hospital of Henan University， Kaifeng 475001， Henan Province， China;2. Department of Pharmacy， Fujian Medical University Union Hospital， Fuzhou 350001，Fujian Province，China;3. School of Pharmacy，Fujian Medical University， Fuzhou 350001， Fujian Province，China)华法林是目前临床上应用最广泛的维生素 K 依赖性凝血因子抑制剂［1］。国外的华法林说明书中指出，华法林和部分唑类抗真菌药联用会增强华法林的抗凝作用［2］。但是，国内的华法林说明书并未指出华法林与唑类抗真菌药物存在相互作用。本文从华法林和唑类抗真菌药物的药代动力学( PK) 特征出发，对唑类抗真菌药物与华法林的相互作用机制的相关文献报道进行综述。1 华法林与唑类抗真菌药物的药物相互作用的机制\n药效动力学( pharmacodynamics，PD) 相互作用指一种药物引起另一种药物疗效或药物不良反应( ADR) 的增加性或拮抗性药理效应的现象，比如华法林和非甾体抗炎药联合使用会增加出血风险。唑类药物对肝药物代谢酶的抑制作用是华法林与唑类药物产生相互作用的机制，如氟康唑、伏立康唑和伊曲康唑等［3］定稿日期: 2019 － 04 － 18"
+  }
+]

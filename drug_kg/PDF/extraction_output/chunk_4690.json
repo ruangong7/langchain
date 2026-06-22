@@ -1,0 +1,178 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "选择性5-羟色胺再摄取抑制剂",
+        "canonical_name": "选择性5-羟色胺再摄取抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氟西汀",
+        "canonical_name": "氟西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "帕罗西汀",
+        "canonical_name": "帕罗西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "舍曲林",
+        "canonical_name": "舍曲林",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "氟伏沙明",
+        "canonical_name": "氟伏沙明",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "西酞普兰",
+        "canonical_name": "西酞普兰",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "CYP2C9",
+        "canonical_name": "CYP2C9",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤.pdf",
+          "chunk_index": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "raw_text": "氟西汀、帕罗西汀、舍曲林、氟伏沙明、西酞普兰等均通过 CYP2C9、CYP2D6、CYP2C19、CYP1A2、CYP3A4等不同的同工酶代谢",
+          "chunk_id": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "data": "3.2 选择性 5-羟色胺再摄取抑制剂（selective serotonin reup-take inhibitors，SSRIs）\nSSRIs是新型的抗抑郁药，在临床上的应用非常广泛，并且大部分均通过CYP系统代谢。氟西汀、帕罗西汀、舍曲林、氟伏沙明、西酞普兰等均通过 CYP2C9、CYP2D6、CYP2C19、CYP1A2、CYP3A4等不同的同工酶代谢，并且对其产生不同程度的抑制作用，因此临床上易发生药物相互作用。研究表明，氟西汀、帕罗西汀、舍曲林、氟伏沙明对CYP2C9均有不同程度的抑制作用。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤.pdf",
+          "chunk_index": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "raw_text": "氟西汀、帕罗西汀、舍曲林、氟伏沙明、西酞普兰等均通过 CYP2C9、CYP2D6、CYP2C19、CYP1A2、CYP3A4等不同的同工酶代谢",
+          "chunk_id": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "data": "3.2 选择性 5-羟色胺再摄取抑制剂（selective serotonin reup-take inhibitors，SSRIs）\nSSRIs是新型的抗抑郁药，在临床上的应用非常广泛，并且大部分均通过CYP系统代谢。氟西汀、帕罗西汀、舍曲林、氟伏沙明、西酞普兰等均通过 CYP2C9、CYP2D6、CYP2C19、CYP1A2、CYP3A4等不同的同工酶代谢，并且对其产生不同程度的抑制作用，因此临床上易发生药物相互作用。研究表明，氟西汀、帕罗西汀、舍曲林、氟伏沙明对CYP2C9均有不同程度的抑制作用。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤.pdf",
+          "chunk_index": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "raw_text": "氟西汀、帕罗西汀、舍曲林、氟伏沙明、西酞普兰等均通过 CYP2C9、CYP2D6、CYP2C19、CYP1A2、CYP3A4等不同的同工酶代谢",
+          "chunk_id": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "data": "3.2 选择性 5-羟色胺再摄取抑制剂（selective serotonin reup-take inhibitors，SSRIs）\nSSRIs是新型的抗抑郁药，在临床上的应用非常广泛，并且大部分均通过CYP系统代谢。氟西汀、帕罗西汀、舍曲林、氟伏沙明、西酞普兰等均通过 CYP2C9、CYP2D6、CYP2C19、CYP1A2、CYP3A4等不同的同工酶代谢，并且对其产生不同程度的抑制作用，因此临床上易发生药物相互作用。研究表明，氟西汀、帕罗西汀、舍曲林、氟伏沙明对CYP2C9均有不同程度的抑制作用。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤.pdf",
+          "chunk_index": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "raw_text": "氟西汀、帕罗西汀、舍曲林、氟伏沙明、西酞普兰等均通过 CYP2C9、CYP2D6、CYP2C19、CYP1A2、CYP3A4等不同的同工酶代谢",
+          "chunk_id": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "data": "3.2 选择性 5-羟色胺再摄取抑制剂（selective serotonin reup-take inhibitors，SSRIs）\nSSRIs是新型的抗抑郁药，在临床上的应用非常广泛，并且大部分均通过CYP系统代谢。氟西汀、帕罗西汀、舍曲林、氟伏沙明、西酞普兰等均通过 CYP2C9、CYP2D6、CYP2C19、CYP1A2、CYP3A4等不同的同工酶代谢，并且对其产生不同程度的抑制作用，因此临床上易发生药物相互作用。研究表明，氟西汀、帕罗西汀、舍曲林、氟伏沙明对CYP2C9均有不同程度的抑制作用。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤.pdf",
+          "chunk_index": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "raw_text": "氟西汀、帕罗西汀、舍曲林、氟伏沙明、西酞普兰等均通过 CYP2C9、CYP2D6、CYP2C19、CYP1A2、CYP3A4等不同的同工酶代谢",
+          "chunk_id": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "data": "3.2 选择性 5-羟色胺再摄取抑制剂（selective serotonin reup-take inhibitors，SSRIs）\nSSRIs是新型的抗抑郁药，在临床上的应用非常广泛，并且大部分均通过CYP系统代谢。氟西汀、帕罗西汀、舍曲林、氟伏沙明、西酞普兰等均通过 CYP2C9、CYP2D6、CYP2C19、CYP1A2、CYP3A4等不同的同工酶代谢，并且对其产生不同程度的抑制作用，因此临床上易发生药物相互作用。研究表明，氟西汀、帕罗西汀、舍曲林、氟伏沙明对CYP2C9均有不同程度的抑制作用。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤.pdf",
+          "chunk_index": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "raw_text": "氟西汀、帕罗西汀、舍曲林、氟伏沙明对CYP2C9均有不同程度的抑制作用",
+          "chunk_id": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "data": "3.2 选择性 5-羟色胺再摄取抑制剂（selective serotonin reup-take inhibitors，SSRIs）\nSSRIs是新型的抗抑郁药，在临床上的应用非常广泛，并且大部分均通过CYP系统代谢。氟西汀、帕罗西汀、舍曲林、氟伏沙明、西酞普兰等均通过 CYP2C9、CYP2D6、CYP2C19、CYP1A2、CYP3A4等不同的同工酶代谢，并且对其产生不同程度的抑制作用，因此临床上易发生药物相互作用。研究表明，氟西汀、帕罗西汀、舍曲林、氟伏沙明对CYP2C9均有不同程度的抑制作用。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤.pdf",
+          "chunk_index": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "raw_text": "氟西汀、帕罗西汀、舍曲林、氟伏沙明对CYP2C9均有不同程度的抑制作用",
+          "chunk_id": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "data": "3.2 选择性 5-羟色胺再摄取抑制剂（selective serotonin reup-take inhibitors，SSRIs）\nSSRIs是新型的抗抑郁药，在临床上的应用非常广泛，并且大部分均通过CYP系统代谢。氟西汀、帕罗西汀、舍曲林、氟伏沙明、西酞普兰等均通过 CYP2C9、CYP2D6、CYP2C19、CYP1A2、CYP3A4等不同的同工酶代谢，并且对其产生不同程度的抑制作用，因此临床上易发生药物相互作用。研究表明，氟西汀、帕罗西汀、舍曲林、氟伏沙明对CYP2C9均有不同程度的抑制作用。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤.pdf",
+          "chunk_index": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "raw_text": "氟西汀、帕罗西汀、舍曲林、氟伏沙明对CYP2C9均有不同程度的抑制作用",
+          "chunk_id": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "data": "3.2 选择性 5-羟色胺再摄取抑制剂（selective serotonin reup-take inhibitors，SSRIs）\nSSRIs是新型的抗抑郁药，在临床上的应用非常广泛，并且大部分均通过CYP系统代谢。氟西汀、帕罗西汀、舍曲林、氟伏沙明、西酞普兰等均通过 CYP2C9、CYP2D6、CYP2C19、CYP1A2、CYP3A4等不同的同工酶代谢，并且对其产生不同程度的抑制作用，因此临床上易发生药物相互作用。研究表明，氟西汀、帕罗西汀、舍曲林、氟伏沙明对CYP2C9均有不同程度的抑制作用。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤.pdf",
+          "chunk_index": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "raw_text": "氟西汀、帕罗西汀、舍曲林、氟伏沙明对CYP2C9均有不同程度的抑制作用",
+          "chunk_id": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+          "data": "3.2 选择性 5-羟色胺再摄取抑制剂（selective serotonin reup-take inhibitors，SSRIs）\nSSRIs是新型的抗抑郁药，在临床上的应用非常广泛，并且大部分均通过CYP系统代谢。氟西汀、帕罗西汀、舍曲林、氟伏沙明、西酞普兰等均通过 CYP2C9、CYP2D6、CYP2C19、CYP1A2、CYP3A4等不同的同工酶代谢，并且对其产生不同程度的抑制作用，因此临床上易发生药物相互作用。研究表明，氟西汀、帕罗西汀、舍曲林、氟伏沙明对CYP2C9均有不同程度的抑制作用。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤:0",
+    "source": "细胞色素P_(450)2C9基因多态性与药物相互作用_王琤.pdf",
+    "text": "3.2 选择性 5-羟色胺再摄取抑制剂（selective serotonin reup-take inhibitors，SSRIs）\nSSRIs是新型的抗抑郁药，在临床上的应用非常广泛，并且大部分均通过CYP系统代谢。氟西汀、帕罗西汀、舍曲林、氟伏沙明、西酞普兰等均通过 CYP2C9、CYP2D6、CYP2C19、CYP1A2、CYP3A4等不同的同工酶代谢，并且对其产生不同程度的抑制作用，因此临床上易发生药物相互作用。研究表明，氟西汀、帕罗西汀、舍曲林、氟伏沙明对CYP2C9均有不同程度的抑制作用。"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "抑制胃酸分泌药",
+        "canonical_name": "抑制胃酸分泌药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "H2受体阻滞剂",
+        "canonical_name": "H2受体阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "canonical_name": "西咪替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "canonical_name": "质子泵抑制剂",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤.pdf",
+          "chunk_index": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤:5",
+          "raw_text": "H2受体阻滞剂类抑酸药",
+          "chunk_id": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤:5",
+          "data": "、196 对。H2受体阻滞剂类抑酸药 DDI 最多，其中西咪替丁的 DDI 达 777 对。结论抑制胃酸分泌药物较易与其他药物发生相互作用，主管医师和临床药师应对其药物治疗方案进行整理和优化，避免因 DDI 引起药物不良反应或导致疗效降低。Evaluation of drug-drug interactions in anti-gastric acid secretion drugs by MCDEX databases\nYUAN Qin1, SUN Jiajing2, ZOU Qingmei1, YANG Biao1 Abstract: Objective To evaluate and analyze the drug-drug interactions (DDI) of anti-gastric acid secretion drugs. Methods The DDI of anti-gastric acid secretion drugs in MCDEX databases’drug interaction section were selected, the results were analyze and summarized. Results 3 607 Pairs of DDIs were identifined in MCDEX databases involving 28 types of anti-gastric acid secretion drugs, the DDIs that were taboo combination use, not recommended combination use, cautious combination use, pay attention to use, can be used in combination were 50, 168, 2 214, 979, and 196, respectively. The quantities of DDIs in H2 receptor antagonists was the most. Among them, the DDI of cimetidine reached 777 pairs. Conclusion The anti-gastric acid"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤.pdf",
+          "chunk_index": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤:5",
+          "raw_text": "西咪替丁的 DDI 达 777 对",
+          "chunk_id": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤:5",
+          "data": "、196 对。H2受体阻滞剂类抑酸药 DDI 最多，其中西咪替丁的 DDI 达 777 对。结论抑制胃酸分泌药物较易与其他药物发生相互作用，主管医师和临床药师应对其药物治疗方案进行整理和优化，避免因 DDI 引起药物不良反应或导致疗效降低。Evaluation of drug-drug interactions in anti-gastric acid secretion drugs by MCDEX databases\nYUAN Qin1, SUN Jiajing2, ZOU Qingmei1, YANG Biao1 Abstract: Objective To evaluate and analyze the drug-drug interactions (DDI) of anti-gastric acid secretion drugs. Methods The DDI of anti-gastric acid secretion drugs in MCDEX databases’drug interaction section were selected, the results were analyze and summarized. Results 3 607 Pairs of DDIs were identifined in MCDEX databases involving 28 types of anti-gastric acid secretion drugs, the DDIs that were taboo combination use, not recommended combination use, cautious combination use, pay attention to use, can be used in combination were 50, 168, 2 214, 979, and 196, respectively. The quantities of DDIs in H2 receptor antagonists was the most. Among them, the DDI of cimetidine reached 777 pairs. Conclusion The anti-gastric acid"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤.pdf",
+          "chunk_index": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤:5",
+          "raw_text": "proton pump inhibitors",
+          "chunk_id": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤:5",
+          "data": "、196 对。H2受体阻滞剂类抑酸药 DDI 最多，其中西咪替丁的 DDI 达 777 对。结论抑制胃酸分泌药物较易与其他药物发生相互作用，主管医师和临床药师应对其药物治疗方案进行整理和优化，避免因 DDI 引起药物不良反应或导致疗效降低。Evaluation of drug-drug interactions in anti-gastric acid secretion drugs by MCDEX databases\nYUAN Qin1, SUN Jiajing2, ZOU Qingmei1, YANG Biao1 Abstract: Objective To evaluate and analyze the drug-drug interactions (DDI) of anti-gastric acid secretion drugs. Methods The DDI of anti-gastric acid secretion drugs in MCDEX databases’drug interaction section were selected, the results were analyze and summarized. Results 3 607 Pairs of DDIs were identifined in MCDEX databases involving 28 types of anti-gastric acid secretion drugs, the DDIs that were taboo combination use, not recommended combination use, cautious combination use, pay attention to use, can be used in combination were 50, 168, 2 214, 979, and 196, respectively. The quantities of DDIs in H2 receptor antagonists was the most. Among them, the DDI of cimetidine reached 777 pairs. Conclusion The anti-gastric acid"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤:5",
+    "source": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤.pdf",
+    "text": "、196 对。H2受体阻滞剂类抑酸药 DDI 最多，其中西咪替丁的 DDI 达 777 对。结论抑制胃酸分泌药物较易与其他药物发生相互作用，主管医师和临床药师应对其药物治疗方案进行整理和优化，避免因 DDI 引起药物不良反应或导致疗效降低。Evaluation of drug-drug interactions in anti-gastric acid secretion drugs by MCDEX databases\nYUAN Qin1, SUN Jiajing2, ZOU Qingmei1, YANG Biao1 Abstract: Objective To evaluate and analyze the drug-drug interactions (DDI) of anti-gastric acid secretion drugs. Methods The DDI of anti-gastric acid secretion drugs in MCDEX databases’drug interaction section were selected, the results were analyze and summarized. Results 3 607 Pairs of DDIs were identifined in MCDEX databases involving 28 types of anti-gastric acid secretion drugs, the DDIs that were taboo combination use, not recommended combination use, cautious combination use, pay attention to use, can be used in combination were 50, 168, 2 214, 979, and 196, respectively. The quantities of DDIs in H2 receptor antagonists was the most. Among them, the DDI of cimetidine reached 777 pairs. Conclusion The anti-gastric acid secretion drugs are more likely to interact with others, chief physician and clinical pharmacists should pay more attention on these patients to avoid the adversr drug reactions during therapy.Key word: anti-gastric acid secretion drugs, drug-drug interaction, medication safety, H2 receptor antagonists, proton pump inhibitors;"
+  }
+]

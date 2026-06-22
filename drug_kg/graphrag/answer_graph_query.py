@@ -8,12 +8,14 @@ from pathlib import Path
 from typing import Any
 
 import requests
+from dotenv import load_dotenv
 
 ROOT_DIR = Path(__file__).resolve().parents[2]
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
-from config import MODEL_NAME
+load_dotenv(ROOT_DIR / ".env")
+
 from drug_kg.graphrag.search_graph_docs import search_graph_docs
 
 
@@ -35,6 +37,13 @@ def _clip(text: str, max_chars: int) -> str:
     return text[:max_chars] + "..."
 
 
+def _get_env(name: str, default: str | None = None) -> str:
+    value = os.getenv(name, default)
+    if value is None or str(value).strip() == "":
+        raise RuntimeError(f"Missing environment variable: {name}")
+    return str(value).strip()
+
+
 def _format_item(doc_type: str, item: dict[str, Any], index: int, max_chars: int) -> str:
     score = float(item.get("score", 0.0))
     doc_id = _norm(item.get("doc_id"))
@@ -44,7 +53,7 @@ def _format_item(doc_type: str, item: dict[str, Any], index: int, max_chars: int
 
 def build_context(*, results: dict[str, list[dict[str, Any]]], max_items_per_type: int, max_chars_per_item: int) -> str:
     lines: list[str] = []
-    for doc_type in ("node_docs", "edge_docs", "subgraph_docs"):
+    for doc_type in ("community_docs", "subgraph_docs", "edge_docs", "node_docs"):
         items = results.get(doc_type) or []
         if not items:
             continue
@@ -59,17 +68,15 @@ def _chat_completions_url(base_url: str) -> str:
 
 
 def generate_answer(*, question: str, context: str, model: str, timeout_s: int) -> dict[str, Any]:
-    api_key = os.getenv("DEEPSEEK_API_KEY", "").strip()
+    api_key = _get_env("DEEPSEEK_API_KEY")
     base_url = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com/v1").strip()
-    if not api_key:
-        raise RuntimeError("Missing DEEPSEEK_API_KEY environment variable")
 
     system_prompt = (
         "你是一个医疗知识图谱问答助手。"
-        "你必须仅基于给定的图谱检索上下文回答，不要编造。"
-        "如果证据不足，要明确说“当前检索证据不足”。"
+        "你必须仅基于给定的 GraphRAG 检索上下文回答，不要编造。"
+        "如果证据不足，要明确说明“当前检索证据不足”。"
         "优先输出结构化、简洁、可核查的答案。"
-        "回答时尽量归纳出涉及的药物、关系类型、证据要点。"
+        "回答时尽量归纳涉及的药物、关系类型、证据要点和适用范围。"
     )
     user_prompt = (
         f"用户问题：{question}\n\n"
@@ -113,7 +120,7 @@ def main() -> None:
     parser.add_argument(
         "--index-dir",
         type=Path,
-        default=Path("drug_kg/graphrag/index"),
+        default=Path("drug_kg/graphrag/index_standard"),
         help="Directory containing graph indexes",
     )
     parser.add_argument("--top-k", type=int, default=5, help="Top K results per doc type")
@@ -131,7 +138,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--model",
-        default=os.getenv("DEEPSEEK_MODEL_NAME", MODEL_NAME),
+        default=os.getenv("DEEPSEEK_MODEL_NAME", os.getenv("MODEL_NAME", "deepseek-chat")),
         help="LLM model name for answer generation",
     )
     parser.add_argument("--timeout-s", type=int, default=120, help="Generation timeout in seconds")
@@ -170,7 +177,7 @@ def main() -> None:
     print("=== Answer ===")
     print(generated["answer"])
     print("\n=== Retrieval Summary ===")
-    for doc_type in ("node_docs", "edge_docs", "subgraph_docs"):
+    for doc_type in ("community_docs", "subgraph_docs", "edge_docs", "node_docs"):
         items = results.get(doc_type) or []
         print(f"{doc_type}: {len(items)}")
         for idx, item in enumerate(items[: max(1, args.max_items_per_type)], start=1):

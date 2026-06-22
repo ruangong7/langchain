@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "中药注射剂",
+        "canonical_name": "中药注射剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Population",
+        "name": "老年患者",
+        "canonical_name": "老年患者",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中药注射剂与华法林药物相互作用的研究进展_李乐.pdf",
+          "chunk_index": "中药注射剂与华法林药物相互作用的研究进展_李乐:5",
+          "raw_text": "华法林的抗凝效果，加之老年患者基础疾病较多，导致中药注射剂与华法林合用时更容易出现药物不良反应、药物相互作用及药源性疾病等用药相关问题",
+          "chunk_id": "中药注射剂与华法林药物相互作用的研究进展_李乐:5",
+          "data": "华法林的抗凝效果，加之老年患者基础疾病较多，导致中药注射剂与华法林合用时更容易出现药物不良反应、药物相互作用及药源性疾病等用药相关问题，而临床上往往容易忽视二者合用时的用药安全。本文回顾性分析了上述常用中药注射剂与华法林相互作用的相关研究。重点探讨中药注射剂影响华法林作用的实验研究及临床研究结果，在中医药仍是我国临床实践重要组成部分的背景下，老年病科医生应充分考虑中药对华法林抗凝作用的影响，以提高药物疗效降低药物不良反应，让老年患者在诊治过程中最大获益The research progress of TCM injections with Warfarin drug interactions( LI Le，CHENG Xin，WANG Jingjing. Medical administration department of first affiliated hospital of Kunming medical university，Kunming 650032，China. )Warfarin is a widely used in the clinic oral anticoagulant. Chinese native medicine preparation【Abstract 】 ， Stonecrop Ginkgo Chinese Goldthread Ginseng and other traditional Chinese medicine injection were widely used. The traditional ， ， ， Chinease medicine injections can increase or decrease the anticoagulant effect of warfarin. In geriatrics many drugs in elderly patients ， with potential safety hazard probably generate drug related issues such as adverse drug reactions drug interactions and drug-induced ， ， ， diseases. This paper retrospecti"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "中药注射剂与华法林药物相互作用的研究进展_李乐.pdf",
+          "chunk_index": "中药注射剂与华法林药物相互作用的研究进展_李乐:5",
+          "raw_text": "老年患者基础疾病较多，导致中药注射剂与华法林合用时更容易出现药物不良反应",
+          "chunk_id": "中药注射剂与华法林药物相互作用的研究进展_李乐:5",
+          "data": "华法林的抗凝效果，加之老年患者基础疾病较多，导致中药注射剂与华法林合用时更容易出现药物不良反应、药物相互作用及药源性疾病等用药相关问题，而临床上往往容易忽视二者合用时的用药安全。本文回顾性分析了上述常用中药注射剂与华法林相互作用的相关研究。重点探讨中药注射剂影响华法林作用的实验研究及临床研究结果，在中医药仍是我国临床实践重要组成部分的背景下，老年病科医生应充分考虑中药对华法林抗凝作用的影响，以提高药物疗效降低药物不良反应，让老年患者在诊治过程中最大获益The research progress of TCM injections with Warfarin drug interactions( LI Le，CHENG Xin，WANG Jingjing. Medical administration department of first affiliated hospital of Kunming medical university，Kunming 650032，China. )Warfarin is a widely used in the clinic oral anticoagulant. Chinese native medicine preparation【Abstract 】 ， Stonecrop Ginkgo Chinese Goldthread Ginseng and other traditional Chinese medicine injection were widely used. The traditional ， ， ， Chinease medicine injections can increase or decrease the anticoagulant effect of warfarin. In geriatrics many drugs in elderly patients ， with potential safety hazard probably generate drug related issues such as adverse drug reactions drug interactions and drug-induced ， ， ， diseases. This paper retrospecti"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "中药注射剂与华法林药物相互作用的研究进展_李乐:5",
+    "source": "中药注射剂与华法林药物相互作用的研究进展_李乐.pdf",
+    "text": "华法林的抗凝效果，加之老年患者基础疾病较多，导致中药注射剂与华法林合用时更容易出现药物不良反应、药物相互作用及药源性疾病等用药相关问题，而临床上往往容易忽视二者合用时的用药安全。本文回顾性分析了上述常用中药注射剂与华法林相互作用的相关研究。重点探讨中药注射剂影响华法林作用的实验研究及临床研究结果，在中医药仍是我国临床实践重要组成部分的背景下，老年病科医生应充分考虑中药对华法林抗凝作用的影响，以提高药物疗效降低药物不良反应，让老年患者在诊治过程中最大获益The research progress of TCM injections with Warfarin drug interactions( LI Le，CHENG Xin，WANG Jingjing. Medical administration department of first affiliated hospital of Kunming medical university，Kunming 650032，China. )Warfarin is a widely used in the clinic oral anticoagulant. Chinese native medicine preparation【Abstract 】 ， Stonecrop Ginkgo Chinese Goldthread Ginseng and other traditional Chinese medicine injection were widely used. The traditional ， ， ， Chinease medicine injections can increase or decrease the anticoagulant effect of warfarin. In geriatrics many drugs in elderly patients ， with potential safety hazard probably generate drug related issues such as adverse drug reactions drug interactions and drug-induced ， ， ， diseases. This paper retrospectively analyzed the related research of traditional Chinese medicine injection commonly used with warfarin interaction. Mainly discuss the clinical research of traditional Chinese medicine injections how to influence warfarin function results of experimental study under the background of clinical practice of traditional Chinese medicine still an important part in our ， country help and guidance for the geriatrics physician fully consider the traditional Chinese medicine influence of warfarin anticoagu-， lation effect improve the drug efficacy and reduce adverse drug reactions let the elderly patients get the maximum benefit in the ， ， process of diagnosis and treatments． traditional Chinese华法林是临床广泛应用的一种香豆素类口服抗凝血药，主要用于预防各种凝血。"
+  }
+]

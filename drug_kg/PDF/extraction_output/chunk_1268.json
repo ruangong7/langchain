@@ -1,0 +1,319 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氟康唑",
+        "canonical_name": "氟康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "三唑类抗真菌药",
+        "canonical_name": "三唑类抗真菌药",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "CYP2C19底物",
+        "canonical_name": "CYP2C19底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP2C9底物",
+        "canonical_name": "CYP2C9底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "CYP3A4底物",
+        "canonical_name": "CYP3A4底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "CYP2C19抑制剂",
+        "canonical_name": "CYP2C19抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "CYP2C9抑制剂",
+        "canonical_name": "CYP2C9抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "CYP3A4抑制剂",
+        "canonical_name": "CYP3A4抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "侵袭性曲霉菌病",
+        "canonical_name": "侵袭性曲霉菌病",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Disease",
+        "name": "念珠菌感染",
+        "canonical_name": "念珠菌感染",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Disease",
+        "name": "足放线病菌感染",
+        "canonical_name": "足放线病菌感染",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Disease",
+        "name": "镰刀菌感染",
+        "canonical_name": "镰刀菌感染",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Disease",
+        "name": "深部真菌感染",
+        "canonical_name": "深部真菌感染",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Population",
+        "name": "免疫缺陷病人",
+        "canonical_name": "免疫缺陷病人",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "canonical_name": "血药浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "raw_text": "伏立康唑是合成的第2代三唑类广谱抗真菌药",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "data": "Voriconazole related drug interactions and countermeasures\nMENG Xian-min ZHANG Li（ Affiliated Public Health Clinical Center ， Fudan University ， SHANGHAI 201508 ， China ）［ ABSTRACT ］ Voriconazole is the second-generation systemic triazole with potent activity for anti-fungal infections ， particularly the patients with severe fungal infection and immunodeficiency． Human liver microsomes experiments in vitro show that ， voriconazole is not only the substrates of CYP2C19 ， CYP2C9 and CYP3A4 ， but also as inhibitors of these enzymes． Moreover ， most of the drugs are metabolized by these enzymes ， so ， voriconazole would be expected to possess many potential drug interactions． Doctors should pay more attention during the clinical application of voriconazole． In this paper ， we reviewed the reported drug interactions of voriconazole and summarized the countermeasures for clinicians as a comprehensive advice．伏立康唑 （voriconazole ） 是合成的第 2 代三唑类广谱抗真菌药为氟康唑的衍生物通过抑制真菌中细胞色素 P450 （ cytochrome P450 ， C"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "raw_text": "伏立康唑不仅是CYP2C19的底物",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "data": "Voriconazole related drug interactions and countermeasures\nMENG Xian-min ZHANG Li（ Affiliated Public Health Clinical Center ， Fudan University ， SHANGHAI 201508 ， China ）［ ABSTRACT ］ Voriconazole is the second-generation systemic triazole with potent activity for anti-fungal infections ， particularly the patients with severe fungal infection and immunodeficiency． Human liver microsomes experiments in vitro show that ， voriconazole is not only the substrates of CYP2C19 ， CYP2C9 and CYP3A4 ， but also as inhibitors of these enzymes． Moreover ， most of the drugs are metabolized by these enzymes ， so ， voriconazole would be expected to possess many potential drug interactions． Doctors should pay more attention during the clinical application of voriconazole． In this paper ， we reviewed the reported drug interactions of voriconazole and summarized the countermeasures for clinicians as a comprehensive advice．伏立康唑 （voriconazole ） 是合成的第 2 代三唑类广谱抗真菌药为氟康唑的衍生物通过抑制真菌中细胞色素 P450 （ cytochrome P450 ， C"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "raw_text": "伏立康唑不仅是CYP2C9的底物",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "data": "Voriconazole related drug interactions and countermeasures\nMENG Xian-min ZHANG Li（ Affiliated Public Health Clinical Center ， Fudan University ， SHANGHAI 201508 ， China ）［ ABSTRACT ］ Voriconazole is the second-generation systemic triazole with potent activity for anti-fungal infections ， particularly the patients with severe fungal infection and immunodeficiency． Human liver microsomes experiments in vitro show that ， voriconazole is not only the substrates of CYP2C19 ， CYP2C9 and CYP3A4 ， but also as inhibitors of these enzymes． Moreover ， most of the drugs are metabolized by these enzymes ， so ， voriconazole would be expected to possess many potential drug interactions． Doctors should pay more attention during the clinical application of voriconazole． In this paper ， we reviewed the reported drug interactions of voriconazole and summarized the countermeasures for clinicians as a comprehensive advice．伏立康唑 （voriconazole ） 是合成的第 2 代三唑类广谱抗真菌药为氟康唑的衍生物通过抑制真菌中细胞色素 P450 （ cytochrome P450 ， C"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "raw_text": "伏立康唑不仅是CYP3A4的底物",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "data": "Voriconazole related drug interactions and countermeasures\nMENG Xian-min ZHANG Li（ Affiliated Public Health Clinical Center ， Fudan University ， SHANGHAI 201508 ， China ）［ ABSTRACT ］ Voriconazole is the second-generation systemic triazole with potent activity for anti-fungal infections ， particularly the patients with severe fungal infection and immunodeficiency． Human liver microsomes experiments in vitro show that ， voriconazole is not only the substrates of CYP2C19 ， CYP2C9 and CYP3A4 ， but also as inhibitors of these enzymes． Moreover ， most of the drugs are metabolized by these enzymes ， so ， voriconazole would be expected to possess many potential drug interactions． Doctors should pay more attention during the clinical application of voriconazole． In this paper ， we reviewed the reported drug interactions of voriconazole and summarized the countermeasures for clinicians as a comprehensive advice．伏立康唑 （voriconazole ） 是合成的第 2 代三唑类广谱抗真菌药为氟康唑的衍生物通过抑制真菌中细胞色素 P450 （ cytochrome P450 ， C"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "raw_text": "伏立康唑也是CYP2C19的抑制剂",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "data": "Voriconazole related drug interactions and countermeasures\nMENG Xian-min ZHANG Li（ Affiliated Public Health Clinical Center ， Fudan University ， SHANGHAI 201508 ， China ）［ ABSTRACT ］ Voriconazole is the second-generation systemic triazole with potent activity for anti-fungal infections ， particularly the patients with severe fungal infection and immunodeficiency． Human liver microsomes experiments in vitro show that ， voriconazole is not only the substrates of CYP2C19 ， CYP2C9 and CYP3A4 ， but also as inhibitors of these enzymes． Moreover ， most of the drugs are metabolized by these enzymes ， so ， voriconazole would be expected to possess many potential drug interactions． Doctors should pay more attention during the clinical application of voriconazole． In this paper ， we reviewed the reported drug interactions of voriconazole and summarized the countermeasures for clinicians as a comprehensive advice．伏立康唑 （voriconazole ） 是合成的第 2 代三唑类广谱抗真菌药为氟康唑的衍生物通过抑制真菌中细胞色素 P450 （ cytochrome P450 ， C"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "raw_text": "伏立康唑也是CYP2C9的抑制剂",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "data": "Voriconazole related drug interactions and countermeasures\nMENG Xian-min ZHANG Li（ Affiliated Public Health Clinical Center ， Fudan University ， SHANGHAI 201508 ， China ）［ ABSTRACT ］ Voriconazole is the second-generation systemic triazole with potent activity for anti-fungal infections ， particularly the patients with severe fungal infection and immunodeficiency． Human liver microsomes experiments in vitro show that ， voriconazole is not only the substrates of CYP2C19 ， CYP2C9 and CYP3A4 ， but also as inhibitors of these enzymes． Moreover ， most of the drugs are metabolized by these enzymes ， so ， voriconazole would be expected to possess many potential drug interactions． Doctors should pay more attention during the clinical application of voriconazole． In this paper ， we reviewed the reported drug interactions of voriconazole and summarized the countermeasures for clinicians as a comprehensive advice．伏立康唑 （voriconazole ） 是合成的第 2 代三唑类广谱抗真菌药为氟康唑的衍生物通过抑制真菌中细胞色素 P450 （ cytochrome P450 ， C"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "raw_text": "伏立康唑也是CYP3A4的抑制剂",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "data": "Voriconazole related drug interactions and countermeasures\nMENG Xian-min ZHANG Li（ Affiliated Public Health Clinical Center ， Fudan University ， SHANGHAI 201508 ， China ）［ ABSTRACT ］ Voriconazole is the second-generation systemic triazole with potent activity for anti-fungal infections ， particularly the patients with severe fungal infection and immunodeficiency． Human liver microsomes experiments in vitro show that ， voriconazole is not only the substrates of CYP2C19 ， CYP2C9 and CYP3A4 ， but also as inhibitors of these enzymes． Moreover ， most of the drugs are metabolized by these enzymes ， so ， voriconazole would be expected to possess many potential drug interactions． Doctors should pay more attention during the clinical application of voriconazole． In this paper ， we reviewed the reported drug interactions of voriconazole and summarized the countermeasures for clinicians as a comprehensive advice．伏立康唑 （voriconazole ） 是合成的第 2 代三唑类广谱抗真菌药为氟康唑的衍生物通过抑制真菌中细胞色素 P450 （ cytochrome P450 ， C"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "raw_text": "伏立康唑主要用于侵袭性曲霉菌病",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "data": "Voriconazole related drug interactions and countermeasures\nMENG Xian-min ZHANG Li（ Affiliated Public Health Clinical Center ， Fudan University ， SHANGHAI 201508 ， China ）［ ABSTRACT ］ Voriconazole is the second-generation systemic triazole with potent activity for anti-fungal infections ， particularly the patients with severe fungal infection and immunodeficiency． Human liver microsomes experiments in vitro show that ， voriconazole is not only the substrates of CYP2C19 ， CYP2C9 and CYP3A4 ， but also as inhibitors of these enzymes． Moreover ， most of the drugs are metabolized by these enzymes ， so ， voriconazole would be expected to possess many potential drug interactions． Doctors should pay more attention during the clinical application of voriconazole． In this paper ， we reviewed the reported drug interactions of voriconazole and summarized the countermeasures for clinicians as a comprehensive advice．伏立康唑 （voriconazole ） 是合成的第 2 代三唑类广谱抗真菌药为氟康唑的衍生物通过抑制真菌中细胞色素 P450 （ cytochrome P450 ， C"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "raw_text": "对氟康唑耐药的念珠菌引起的严重侵袭性感染",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "data": "Voriconazole related drug interactions and countermeasures\nMENG Xian-min ZHANG Li（ Affiliated Public Health Clinical Center ， Fudan University ， SHANGHAI 201508 ， China ）［ ABSTRACT ］ Voriconazole is the second-generation systemic triazole with potent activity for anti-fungal infections ， particularly the patients with severe fungal infection and immunodeficiency． Human liver microsomes experiments in vitro show that ， voriconazole is not only the substrates of CYP2C19 ， CYP2C9 and CYP3A4 ， but also as inhibitors of these enzymes． Moreover ， most of the drugs are metabolized by these enzymes ， so ， voriconazole would be expected to possess many potential drug interactions． Doctors should pay more attention during the clinical application of voriconazole． In this paper ， we reviewed the reported drug interactions of voriconazole and summarized the countermeasures for clinicians as a comprehensive advice．伏立康唑 （voriconazole ） 是合成的第 2 代三唑类广谱抗真菌药为氟康唑的衍生物通过抑制真菌中细胞色素 P450 （ cytochrome P450 ， C"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "raw_text": "足放线病菌属引起的严重感染",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "data": "Voriconazole related drug interactions and countermeasures\nMENG Xian-min ZHANG Li（ Affiliated Public Health Clinical Center ， Fudan University ， SHANGHAI 201508 ， China ）［ ABSTRACT ］ Voriconazole is the second-generation systemic triazole with potent activity for anti-fungal infections ， particularly the patients with severe fungal infection and immunodeficiency． Human liver microsomes experiments in vitro show that ， voriconazole is not only the substrates of CYP2C19 ， CYP2C9 and CYP3A4 ， but also as inhibitors of these enzymes． Moreover ， most of the drugs are metabolized by these enzymes ， so ， voriconazole would be expected to possess many potential drug interactions． Doctors should pay more attention during the clinical application of voriconazole． In this paper ， we reviewed the reported drug interactions of voriconazole and summarized the countermeasures for clinicians as a comprehensive advice．伏立康唑 （voriconazole ） 是合成的第 2 代三唑类广谱抗真菌药为氟康唑的衍生物通过抑制真菌中细胞色素 P450 （ cytochrome P450 ， C"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "raw_text": "镰刀菌属引起的严重感染",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "data": "Voriconazole related drug interactions and countermeasures\nMENG Xian-min ZHANG Li（ Affiliated Public Health Clinical Center ， Fudan University ， SHANGHAI 201508 ， China ）［ ABSTRACT ］ Voriconazole is the second-generation systemic triazole with potent activity for anti-fungal infections ， particularly the patients with severe fungal infection and immunodeficiency． Human liver microsomes experiments in vitro show that ， voriconazole is not only the substrates of CYP2C19 ， CYP2C9 and CYP3A4 ， but also as inhibitors of these enzymes． Moreover ， most of the drugs are metabolized by these enzymes ， so ， voriconazole would be expected to possess many potential drug interactions． Doctors should pay more attention during the clinical application of voriconazole． In this paper ， we reviewed the reported drug interactions of voriconazole and summarized the countermeasures for clinicians as a comprehensive advice．伏立康唑 （voriconazole ） 是合成的第 2 代三唑类广谱抗真菌药为氟康唑的衍生物通过抑制真菌中细胞色素 P450 （ cytochrome P450 ， C"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "raw_text": "是治疗深部真菌感染的重要药物之一",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "data": "Voriconazole related drug interactions and countermeasures\nMENG Xian-min ZHANG Li（ Affiliated Public Health Clinical Center ， Fudan University ， SHANGHAI 201508 ， China ）［ ABSTRACT ］ Voriconazole is the second-generation systemic triazole with potent activity for anti-fungal infections ， particularly the patients with severe fungal infection and immunodeficiency． Human liver microsomes experiments in vitro show that ， voriconazole is not only the substrates of CYP2C19 ， CYP2C9 and CYP3A4 ， but also as inhibitors of these enzymes． Moreover ， most of the drugs are metabolized by these enzymes ， so ， voriconazole would be expected to possess many potential drug interactions． Doctors should pay more attention during the clinical application of voriconazole． In this paper ， we reviewed the reported drug interactions of voriconazole and summarized the countermeasures for clinicians as a comprehensive advice．伏立康唑 （voriconazole ） 是合成的第 2 代三唑类广谱抗真菌药为氟康唑的衍生物通过抑制真菌中细胞色素 P450 （ cytochrome P450 ， C"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "raw_text": "免疫缺陷病人真菌感染的治疗",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "data": "Voriconazole related drug interactions and countermeasures\nMENG Xian-min ZHANG Li（ Affiliated Public Health Clinical Center ， Fudan University ， SHANGHAI 201508 ， China ）［ ABSTRACT ］ Voriconazole is the second-generation systemic triazole with potent activity for anti-fungal infections ， particularly the patients with severe fungal infection and immunodeficiency． Human liver microsomes experiments in vitro show that ， voriconazole is not only the substrates of CYP2C19 ， CYP2C9 and CYP3A4 ， but also as inhibitors of these enzymes． Moreover ， most of the drugs are metabolized by these enzymes ， so ， voriconazole would be expected to possess many potential drug interactions． Doctors should pay more attention during the clinical application of voriconazole． In this paper ， we reviewed the reported drug interactions of voriconazole and summarized the countermeasures for clinicians as a comprehensive advice．伏立康唑 （voriconazole ） 是合成的第 2 代三唑类广谱抗真菌药为氟康唑的衍生物通过抑制真菌中细胞色素 P450 （ cytochrome P450 ， C"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "raw_text": "伏立康唑的血药浓度与其疗效和不良反应也有一定的相关性",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "data": "Voriconazole related drug interactions and countermeasures\nMENG Xian-min ZHANG Li（ Affiliated Public Health Clinical Center ， Fudan University ， SHANGHAI 201508 ， China ）［ ABSTRACT ］ Voriconazole is the second-generation systemic triazole with potent activity for anti-fungal infections ， particularly the patients with severe fungal infection and immunodeficiency． Human liver microsomes experiments in vitro show that ， voriconazole is not only the substrates of CYP2C19 ， CYP2C9 and CYP3A4 ， but also as inhibitors of these enzymes． Moreover ， most of the drugs are metabolized by these enzymes ， so ， voriconazole would be expected to possess many potential drug interactions． Doctors should pay more attention during the clinical application of voriconazole． In this paper ， we reviewed the reported drug interactions of voriconazole and summarized the countermeasures for clinicians as a comprehensive advice．伏立康唑 （voriconazole ） 是合成的第 2 代三唑类广谱抗真菌药为氟康唑的衍生物通过抑制真菌中细胞色素 P450 （ cytochrome P450 ， C"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "raw_text": "对氟康唑耐药的念珠菌引起的严重侵袭性感染",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:1",
+          "data": "Voriconazole related drug interactions and countermeasures\nMENG Xian-min ZHANG Li（ Affiliated Public Health Clinical Center ， Fudan University ， SHANGHAI 201508 ， China ）［ ABSTRACT ］ Voriconazole is the second-generation systemic triazole with potent activity for anti-fungal infections ， particularly the patients with severe fungal infection and immunodeficiency． Human liver microsomes experiments in vitro show that ， voriconazole is not only the substrates of CYP2C19 ， CYP2C9 and CYP3A4 ， but also as inhibitors of these enzymes． Moreover ， most of the drugs are metabolized by these enzymes ， so ， voriconazole would be expected to possess many potential drug interactions． Doctors should pay more attention during the clinical application of voriconazole． In this paper ， we reviewed the reported drug interactions of voriconazole and summarized the countermeasures for clinicians as a comprehensive advice．伏立康唑 （voriconazole ） 是合成的第 2 代三唑类广谱抗真菌药为氟康唑的衍生物通过抑制真菌中细胞色素 P450 （ cytochrome P450 ， C"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:1",
+    "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+    "text": "Voriconazole related drug interactions and countermeasures\nMENG Xian-min ZHANG Li（ Affiliated Public Health Clinical Center ， Fudan University ， SHANGHAI 201508 ， China ）［ ABSTRACT ］ Voriconazole is the second-generation systemic triazole with potent activity for anti-fungal infections ， particularly the patients with severe fungal infection and immunodeficiency． Human liver microsomes experiments in vitro show that ， voriconazole is not only the substrates of CYP2C19 ， CYP2C9 and CYP3A4 ， but also as inhibitors of these enzymes． Moreover ， most of the drugs are metabolized by these enzymes ， so ， voriconazole would be expected to possess many potential drug interactions． Doctors should pay more attention during the clinical application of voriconazole． In this paper ， we reviewed the reported drug interactions of voriconazole and summarized the countermeasures for clinicians as a comprehensive advice．伏立康唑 （voriconazole ） 是合成的第 2 代三唑类广谱抗真菌药为氟康唑的衍生物通过抑制真菌中细胞色素 P450 （ cytochrome P450 ， CYP ）介导的羊毛固醇 14 α-去甲基化酶使真菌细胞膜麦角固醇的生物合成受阻以致细胞内重要物质摄取受影响或流失而使真菌死亡[1] 伏立康唑主要用于侵袭性曲霉菌病对氟康唑 （fluconazol） 耐药的念珠菌引起的严重侵袭性感染足放线病菌属及镰刀菌属引起的严重感染以及免疫缺陷病人真菌感染的治疗是治疗深部真菌感染的重要药物之一[2] 体外人肝微粒体试验表明伏立康唑不仅是 CYP2C19 CYP2C9 和 CYP3A4 的底物也是其抑制剂其中对 CYP2C19 的亲和力最高因此这 3 种酶的底物诱导剂和抑制剂尤其是CYP2C19 基因型和 （ 或 ） 与可调节 CYP2C19 或CYP3A4 活性的药物合用很可能对伏立康唑的血药浓度产生影响[3] 近期的一系列研究表明伏立康唑的血药浓度与其疗效和不良反应也有一定的相关性临床上在应用此药时应引起足够的重视本文就已报告的伏立康唑药物相互作用作一综述并总结出相应的对策以供临床参考。"
+  }
+]

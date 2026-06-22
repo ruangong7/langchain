@@ -1,0 +1,342 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "buprenorphine",
+        "canonical_name": "buprenorphine",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "methadone",
+        "canonical_name": "methadone",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP3A4 inhibitors",
+        "canonical_name": "CYP3A4 inhibitors",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "CYP3A4 inducers",
+        "canonical_name": "CYP3A4 inducers",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP2B6 inhibitors",
+        "canonical_name": "CYP2B6 inhibitors",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "CYP2B6 inducers",
+        "canonical_name": "CYP2B6 inducers",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "CYP2C19 inhibitors",
+        "canonical_name": "CYP2C19 inhibitors",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "CYP2C19 inducers",
+        "canonical_name": "CYP2C19 inducers",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "respiratory depression",
+        "canonical_name": "respiratory depression",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "opiate withdrawal symptoms",
+        "canonical_name": "opiate withdrawal symptoms",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "SideEffect",
+        "name": "overdose",
+        "canonical_name": "overdose",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Indicator",
+        "name": "plasma buprenorphine",
+        "canonical_name": "plasma buprenorphine",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Indicator",
+        "name": "serum methadone levels",
+        "canonical_name": "serum methadone levels",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "raw_text": "CYP3A4 inhibitors may increase plasma buprenorphine",
+          "mechanism": "CYP3A4 inhibition",
+          "consequence": "increased plasma buprenorphine",
+          "severity": "low",
+          "confidence": "high",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "data": "norphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；todatenosignificantchangesinCYP3A4activityhavebeenreportedin therapeuticconcentrations．AlthoughCYP3A4inhibitorsmayincreaseplasmabuprenorphineit’ssafetyprofilein particulartheceilingeffecttorespiratorydepressionmeansthattheeffectsareunlikelytobelifethreatening CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequentdecrease in plasma buprenorphineleadingtoopiatewithdrawalsymptoms．Whiletherearestudiesindicatingthatbuprenorphinealso hasaninhibitoryeffectonCYP2D6invitrointhebodyitisnotpredictedtocauseclinicallysignificantinteractions withotherdrugsmetabolisedbyCYPD AlthoughCYP3A4wasthoughttobetheprimaryCYPisoforminvolvedinthemetabolismofmethadonethisisnot consistentwithhumandruginteractionstudies．RecentdatasuggestthatCYP2B6playsthemostimportantrolein methadonemetabolismwithCYP2C19andCYP3A4beinginvolvedtoalesserextent．CYP2C9andCYP2D6alsohave aneff"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "raw_text": "CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequent decrease in plasma buprenorphine, leading to opiate withdrawal symptoms",
+          "mechanism": "CYP3A4 induction",
+          "consequence": "decreased plasma buprenorphine, opiate withdrawal symptoms",
+          "severity": "medium",
+          "confidence": "high",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "data": "norphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；todatenosignificantchangesinCYP3A4activityhavebeenreportedin therapeuticconcentrations．AlthoughCYP3A4inhibitorsmayincreaseplasmabuprenorphineit’ssafetyprofilein particulartheceilingeffecttorespiratorydepressionmeansthattheeffectsareunlikelytobelifethreatening CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequentdecrease in plasma buprenorphineleadingtoopiatewithdrawalsymptoms．Whiletherearestudiesindicatingthatbuprenorphinealso hasaninhibitoryeffectonCYP2D6invitrointhebodyitisnotpredictedtocauseclinicallysignificantinteractions withotherdrugsmetabolisedbyCYPD AlthoughCYP3A4wasthoughttobetheprimaryCYPisoforminvolvedinthemetabolismofmethadonethisisnot consistentwithhumandruginteractionstudies．RecentdatasuggestthatCYP2B6playsthemostimportantrolein methadonemetabolismwithCYP2C19andCYP3A4beinginvolvedtoalesserextent．CYP2C9andCYP2D6alsohave aneff"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "raw_text": "Co-administration of drugs that inhibit these enzymes may result in reduced methadone metabolism and elevated serum methadone levels",
+          "mechanism": "CYP2B6 inhibition",
+          "consequence": "elevated serum methadone levels, possible overdose and respiratory depression",
+          "severity": "high",
+          "confidence": "high",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "data": "norphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；todatenosignificantchangesinCYP3A4activityhavebeenreportedin therapeuticconcentrations．AlthoughCYP3A4inhibitorsmayincreaseplasmabuprenorphineit’ssafetyprofilein particulartheceilingeffecttorespiratorydepressionmeansthattheeffectsareunlikelytobelifethreatening CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequentdecrease in plasma buprenorphineleadingtoopiatewithdrawalsymptoms．Whiletherearestudiesindicatingthatbuprenorphinealso hasaninhibitoryeffectonCYP2D6invitrointhebodyitisnotpredictedtocauseclinicallysignificantinteractions withotherdrugsmetabolisedbyCYPD AlthoughCYP3A4wasthoughttobetheprimaryCYPisoforminvolvedinthemetabolismofmethadonethisisnot consistentwithhumandruginteractionstudies．RecentdatasuggestthatCYP2B6playsthemostimportantrolein methadonemetabolismwithCYP2C19andCYP3A4beinginvolvedtoalesserextent．CYP2C9andCYP2D6alsohave aneff"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "raw_text": "drugs that induce these CYP enzymes may promote more rapid metabolism of methadone, possibly leading to opiate withdrawal symptoms",
+          "mechanism": "CYP2B6 induction",
+          "consequence": "decreased methadone levels, opiate withdrawal symptoms",
+          "severity": "medium",
+          "confidence": "high",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "data": "norphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；todatenosignificantchangesinCYP3A4activityhavebeenreportedin therapeuticconcentrations．AlthoughCYP3A4inhibitorsmayincreaseplasmabuprenorphineit’ssafetyprofilein particulartheceilingeffecttorespiratorydepressionmeansthattheeffectsareunlikelytobelifethreatening CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequentdecrease in plasma buprenorphineleadingtoopiatewithdrawalsymptoms．Whiletherearestudiesindicatingthatbuprenorphinealso hasaninhibitoryeffectonCYP2D6invitrointhebodyitisnotpredictedtocauseclinicallysignificantinteractions withotherdrugsmetabolisedbyCYPD AlthoughCYP3A4wasthoughttobetheprimaryCYPisoforminvolvedinthemetabolismofmethadonethisisnot consistentwithhumandruginteractionstudies．RecentdatasuggestthatCYP2B6playsthemostimportantrolein methadonemetabolismwithCYP2C19andCYP3A4beinginvolvedtoalesserextent．CYP2C9andCYP2D6alsohave aneff"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "raw_text": "CYP2C19 and CYP3A4 being involved to a lesser extent",
+          "mechanism": "CYP2C19 inhibition",
+          "consequence": "reduced methadone metabolism, elevated serum methadone levels",
+          "severity": "medium",
+          "confidence": "medium",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "data": "norphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；todatenosignificantchangesinCYP3A4activityhavebeenreportedin therapeuticconcentrations．AlthoughCYP3A4inhibitorsmayincreaseplasmabuprenorphineit’ssafetyprofilein particulartheceilingeffecttorespiratorydepressionmeansthattheeffectsareunlikelytobelifethreatening CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequentdecrease in plasma buprenorphineleadingtoopiatewithdrawalsymptoms．Whiletherearestudiesindicatingthatbuprenorphinealso hasaninhibitoryeffectonCYP2D6invitrointhebodyitisnotpredictedtocauseclinicallysignificantinteractions withotherdrugsmetabolisedbyCYPD AlthoughCYP3A4wasthoughttobetheprimaryCYPisoforminvolvedinthemetabolismofmethadonethisisnot consistentwithhumandruginteractionstudies．RecentdatasuggestthatCYP2B6playsthemostimportantrolein methadonemetabolismwithCYP2C19andCYP3A4beinginvolvedtoalesserextent．CYP2C9andCYP2D6alsohave aneff"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "raw_text": "drugs that induce these CYP enzymes may promote more rapid metabolism of methadone",
+          "mechanism": "CYP2C19 induction",
+          "consequence": "decreased methadone levels",
+          "severity": "medium",
+          "confidence": "medium",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "data": "norphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；todatenosignificantchangesinCYP3A4activityhavebeenreportedin therapeuticconcentrations．AlthoughCYP3A4inhibitorsmayincreaseplasmabuprenorphineit’ssafetyprofilein particulartheceilingeffecttorespiratorydepressionmeansthattheeffectsareunlikelytobelifethreatening CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequentdecrease in plasma buprenorphineleadingtoopiatewithdrawalsymptoms．Whiletherearestudiesindicatingthatbuprenorphinealso hasaninhibitoryeffectonCYP2D6invitrointhebodyitisnotpredictedtocauseclinicallysignificantinteractions withotherdrugsmetabolisedbyCYPD AlthoughCYP3A4wasthoughttobetheprimaryCYPisoforminvolvedinthemetabolismofmethadonethisisnot consistentwithhumandruginteractionstudies．RecentdatasuggestthatCYP2B6playsthemostimportantrolein methadonemetabolismwithCYP2C19andCYP3A4beinginvolvedtoalesserextent．CYP2C9andCYP2D6alsohave aneff"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "raw_text": "CYP3A4 being involved to a lesser extent",
+          "mechanism": "CYP3A4 inhibition",
+          "consequence": "reduced methadone metabolism, elevated serum methadone levels",
+          "severity": "medium",
+          "confidence": "medium",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "data": "norphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；todatenosignificantchangesinCYP3A4activityhavebeenreportedin therapeuticconcentrations．AlthoughCYP3A4inhibitorsmayincreaseplasmabuprenorphineit’ssafetyprofilein particulartheceilingeffecttorespiratorydepressionmeansthattheeffectsareunlikelytobelifethreatening CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequentdecrease in plasma buprenorphineleadingtoopiatewithdrawalsymptoms．Whiletherearestudiesindicatingthatbuprenorphinealso hasaninhibitoryeffectonCYP2D6invitrointhebodyitisnotpredictedtocauseclinicallysignificantinteractions withotherdrugsmetabolisedbyCYPD AlthoughCYP3A4wasthoughttobetheprimaryCYPisoforminvolvedinthemetabolismofmethadonethisisnot consistentwithhumandruginteractionstudies．RecentdatasuggestthatCYP2B6playsthemostimportantrolein methadonemetabolismwithCYP2C19andCYP3A4beinginvolvedtoalesserextent．CYP2C9andCYP2D6alsohave aneff"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "raw_text": "drugs that induce these CYP enzymes may promote more rapid metabolism of methadone",
+          "mechanism": "CYP3A4 induction",
+          "consequence": "decreased methadone levels",
+          "severity": "medium",
+          "confidence": "medium",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "data": "norphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；todatenosignificantchangesinCYP3A4activityhavebeenreportedin therapeuticconcentrations．AlthoughCYP3A4inhibitorsmayincreaseplasmabuprenorphineit’ssafetyprofilein particulartheceilingeffecttorespiratorydepressionmeansthattheeffectsareunlikelytobelifethreatening CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequentdecrease in plasma buprenorphineleadingtoopiatewithdrawalsymptoms．Whiletherearestudiesindicatingthatbuprenorphinealso hasaninhibitoryeffectonCYP2D6invitrointhebodyitisnotpredictedtocauseclinicallysignificantinteractions withotherdrugsmetabolisedbyCYPD AlthoughCYP3A4wasthoughttobetheprimaryCYPisoforminvolvedinthemetabolismofmethadonethisisnot consistentwithhumandruginteractionstudies．RecentdatasuggestthatCYP2B6playsthemostimportantrolein methadonemetabolismwithCYP2C19andCYP3A4beinginvolvedtoalesserextent．CYP2C9andCYP2D6alsohave aneff"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "raw_text": "ceiling effect to respiratory depression",
+          "severity": "low",
+          "confidence": "high",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "data": "norphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；todatenosignificantchangesinCYP3A4activityhavebeenreportedin therapeuticconcentrations．AlthoughCYP3A4inhibitorsmayincreaseplasmabuprenorphineit’ssafetyprofilein particulartheceilingeffecttorespiratorydepressionmeansthattheeffectsareunlikelytobelifethreatening CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequentdecrease in plasma buprenorphineleadingtoopiatewithdrawalsymptoms．Whiletherearestudiesindicatingthatbuprenorphinealso hasaninhibitoryeffectonCYP2D6invitrointhebodyitisnotpredictedtocauseclinicallysignificantinteractions withotherdrugsmetabolisedbyCYPD AlthoughCYP3A4wasthoughttobetheprimaryCYPisoforminvolvedinthemetabolismofmethadonethisisnot consistentwithhumandruginteractionstudies．RecentdatasuggestthatCYP2B6playsthemostimportantrolein methadonemetabolismwithCYP2C19andCYP3A4beinginvolvedtoalesserextent．CYP2C9andCYP2D6alsohave aneff"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "raw_text": "potentially fatal respiratory depression",
+          "severity": "high",
+          "confidence": "high",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "data": "norphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；todatenosignificantchangesinCYP3A4activityhavebeenreportedin therapeuticconcentrations．AlthoughCYP3A4inhibitorsmayincreaseplasmabuprenorphineit’ssafetyprofilein particulartheceilingeffecttorespiratorydepressionmeansthattheeffectsareunlikelytobelifethreatening CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequentdecrease in plasma buprenorphineleadingtoopiatewithdrawalsymptoms．Whiletherearestudiesindicatingthatbuprenorphinealso hasaninhibitoryeffectonCYP2D6invitrointhebodyitisnotpredictedtocauseclinicallysignificantinteractions withotherdrugsmetabolisedbyCYPD AlthoughCYP3A4wasthoughttobetheprimaryCYPisoforminvolvedinthemetabolismofmethadonethisisnot consistentwithhumandruginteractionstudies．RecentdatasuggestthatCYP2B6playsthemostimportantrolein methadonemetabolismwithCYP2C19andCYP3A4beinginvolvedtoalesserextent．CYP2C9andCYP2D6alsohave aneff"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "raw_text": "leading to opiate withdrawal symptoms",
+          "severity": "medium",
+          "confidence": "high",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "data": "norphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；todatenosignificantchangesinCYP3A4activityhavebeenreportedin therapeuticconcentrations．AlthoughCYP3A4inhibitorsmayincreaseplasmabuprenorphineit’ssafetyprofilein particulartheceilingeffecttorespiratorydepressionmeansthattheeffectsareunlikelytobelifethreatening CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequentdecrease in plasma buprenorphineleadingtoopiatewithdrawalsymptoms．Whiletherearestudiesindicatingthatbuprenorphinealso hasaninhibitoryeffectonCYP2D6invitrointhebodyitisnotpredictedtocauseclinicallysignificantinteractions withotherdrugsmetabolisedbyCYPD AlthoughCYP3A4wasthoughttobetheprimaryCYPisoforminvolvedinthemetabolismofmethadonethisisnot consistentwithhumandruginteractionstudies．RecentdatasuggestthatCYP2B6playsthemostimportantrolein methadonemetabolismwithCYP2C19andCYP3A4beinginvolvedtoalesserextent．CYP2C9andCYP2D6alsohave aneff"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "raw_text": "possibly leading to opiate withdrawal symptoms",
+          "severity": "medium",
+          "confidence": "high",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "data": "norphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；todatenosignificantchangesinCYP3A4activityhavebeenreportedin therapeuticconcentrations．AlthoughCYP3A4inhibitorsmayincreaseplasmabuprenorphineit’ssafetyprofilein particulartheceilingeffecttorespiratorydepressionmeansthattheeffectsareunlikelytobelifethreatening CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequentdecrease in plasma buprenorphineleadingtoopiatewithdrawalsymptoms．Whiletherearestudiesindicatingthatbuprenorphinealso hasaninhibitoryeffectonCYP2D6invitrointhebodyitisnotpredictedtocauseclinicallysignificantinteractions withotherdrugsmetabolisedbyCYPD AlthoughCYP3A4wasthoughttobetheprimaryCYPisoforminvolvedinthemetabolismofmethadonethisisnot consistentwithhumandruginteractionstudies．RecentdatasuggestthatCYP2B6playsthemostimportantrolein methadonemetabolismwithCYP2C19andCYP3A4beinginvolvedtoalesserextent．CYP2C9andCYP2D6alsohave aneff"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "raw_text": "problems associated with overdose",
+          "severity": "high",
+          "confidence": "high",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "data": "norphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；todatenosignificantchangesinCYP3A4activityhavebeenreportedin therapeuticconcentrations．AlthoughCYP3A4inhibitorsmayincreaseplasmabuprenorphineit’ssafetyprofilein particulartheceilingeffecttorespiratorydepressionmeansthattheeffectsareunlikelytobelifethreatening CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequentdecrease in plasma buprenorphineleadingtoopiatewithdrawalsymptoms．Whiletherearestudiesindicatingthatbuprenorphinealso hasaninhibitoryeffectonCYP2D6invitrointhebodyitisnotpredictedtocauseclinicallysignificantinteractions withotherdrugsmetabolisedbyCYPD AlthoughCYP3A4wasthoughttobetheprimaryCYPisoforminvolvedinthemetabolismofmethadonethisisnot consistentwithhumandruginteractionstudies．RecentdatasuggestthatCYP2B6playsthemostimportantrolein methadonemetabolismwithCYP2C19andCYP3A4beinginvolvedtoalesserextent．CYP2C9andCYP2D6alsohave aneff"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "raw_text": "increase plasma buprenorphine",
+          "confidence": "high",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "data": "norphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；todatenosignificantchangesinCYP3A4activityhavebeenreportedin therapeuticconcentrations．AlthoughCYP3A4inhibitorsmayincreaseplasmabuprenorphineit’ssafetyprofilein particulartheceilingeffecttorespiratorydepressionmeansthattheeffectsareunlikelytobelifethreatening CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequentdecrease in plasma buprenorphineleadingtoopiatewithdrawalsymptoms．Whiletherearestudiesindicatingthatbuprenorphinealso hasaninhibitoryeffectonCYP2D6invitrointhebodyitisnotpredictedtocauseclinicallysignificantinteractions withotherdrugsmetabolisedbyCYPD AlthoughCYP3A4wasthoughttobetheprimaryCYPisoforminvolvedinthemetabolismofmethadonethisisnot consistentwithhumandruginteractionstudies．RecentdatasuggestthatCYP2B6playsthemostimportantrolein methadonemetabolismwithCYP2C19andCYP3A4beinginvolvedtoalesserextent．CYP2C9andCYP2D6alsohave aneff"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "raw_text": "elevated serum methadone levels",
+          "confidence": "high",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+          "data": "norphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；todatenosignificantchangesinCYP3A4activityhavebeenreportedin therapeuticconcentrations．AlthoughCYP3A4inhibitorsmayincreaseplasmabuprenorphineit’ssafetyprofilein particulartheceilingeffecttorespiratorydepressionmeansthattheeffectsareunlikelytobelifethreatening CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequentdecrease in plasma buprenorphineleadingtoopiatewithdrawalsymptoms．Whiletherearestudiesindicatingthatbuprenorphinealso hasaninhibitoryeffectonCYP2D6invitrointhebodyitisnotpredictedtocauseclinicallysignificantinteractions withotherdrugsmetabolisedbyCYPD AlthoughCYP3A4wasthoughttobetheprimaryCYPisoforminvolvedinthemetabolismofmethadonethisisnot consistentwithhumandruginteractionstudies．RecentdatasuggestthatCYP2B6playsthemostimportantrolein methadonemetabolismwithCYP2C19andCYP3A4beinginvolvedtoalesserextent．CYP2C9andCYP2D6alsohave aneff"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:3",
+    "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+    "text": "norphineismetabolisedbyCYP3A4butBuprenorphinehasarelativelylowaffinityforCYP3A4andis thereforeaweakinhibitoroftheenzyme；todatenosignificantchangesinCYP3A4activityhavebeenreportedin therapeuticconcentrations．AlthoughCYP3A4inhibitorsmayincreaseplasmabuprenorphineit’ssafetyprofilein particulartheceilingeffecttorespiratorydepressionmeansthattheeffectsareunlikelytobelifethreatening CYP3A4 inducers may promote rapid buprenorphine metabolism and a subsequentdecrease in plasma buprenorphineleadingtoopiatewithdrawalsymptoms．Whiletherearestudiesindicatingthatbuprenorphinealso hasaninhibitoryeffectonCYP2D6invitrointhebodyitisnotpredictedtocauseclinicallysignificantinteractions withotherdrugsmetabolisedbyCYPD AlthoughCYP3A4wasthoughttobetheprimaryCYPisoforminvolvedinthemetabolismofmethadonethisisnot consistentwithhumandruginteractionstudies．RecentdatasuggestthatCYP2B6playsthemostimportantrolein methadonemetabolismwithCYP2C19andCYP3A4beinginvolvedtoalesserextent．CYP2C9andCYP2D6alsohave aneffectonmethadone’smetabolism．Assomanyisoenzymesareinvolvedinthemetabolismofmethadonemethadone interactswithawidevarietyofothercompoundsthatusetheCYPenzymesystem．Co－administrationofdrugsthat inhibittheseenzymesmayresultinreducedmethadonemetabolismandsubsequentlyelevatedserummethadonelevels Thiscouldpossiblyresultinproblemsassociatedwithoverdose－inparticularpotentiallyfatalrespiratorydepression ConverselydrugsthatinducetheseCYPenzymesmaypromotemorerapidmetabolismofmethadonepossiblyleadingto opiatewithdrawalsymptoms．Closemonitoringofthepatientmayberequired Pharmacodynamicinteractionsmayoccurwithconcomitantuseofbuprenorphineormethadoneanddrugsthat eldncyou ntsrese ormethadonehavebeenco－abused ExamplesofinteractionsbetweenHIVandopiatetherapieswillbediscussedastheycancontributetonon adherenceandpoorclinicaloutcomes．Inadditioninteractionsinvolvingbenzodiazepinesordrugsthatmay potentiatecardiaceffectssuchasTorsadesdePointeswillbeconsidered KEYWORDS druginteraetion；"
+  }
+]

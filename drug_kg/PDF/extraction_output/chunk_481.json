@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "三唑类药物",
+        "canonical_name": "三唑类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "抗血液恶性肿瘤药物",
+        "canonical_name": "抗血液恶性肿瘤药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "骨髓抑制",
+        "canonical_name": "骨髓抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "肝毒性",
+        "canonical_name": "肝毒性",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "治疗药物监测",
+        "canonical_name": "治疗药物监测",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "三唑类药物与抗血液恶性肿瘤药物相互作用研究进展_刘春晴.pdf",
+          "chunk_index": "三唑类药物与抗血液恶性肿瘤药物相互作用研究进展_刘春晴:5",
+          "raw_text": "ood drug concentration and increase the risk of adverse drug reaction （ADR） such as myelosuppression and hepatotoxicity；the combination of novel anti - hematologic malignancies drugs （such as small - molecule targeted drugs，chimeric antigen receptor T - cell therapy，etc.） with triazole drugs may enhance immunosuppression and affect therapeutic efficacy. It is recommended to strengthen therapeutic drug monitoring and patients' education，adjust doses，or select alternative antifungal regimens when using these drugs in combination.",
+          "chunk_id": "三唑类药物与抗血液恶性肿瘤药物相互作用研究进展_刘春晴:5",
+          "data": "ood drug concentration and increase the risk of adverse drug reaction （ADR） such as myelosuppression and hepatotoxicity；the combination of novel anti - hematologic malignancies drugs （such as small - molecule targeted drugs，chimeric antigen receptor T - cell therapy，etc.） with triazole drugs may enhance immunosuppression and affect therapeutic efficacy. It is recommended to strengthen therapeutic drug monitoring and patients' education，adjust doses，or select alternative antifungal regimens when using these drugs in combination. Conclusion Triazole drugs have certain interactions with traditional and novel anti - hematologic malignancies drugs. In clinical practice，individualized drug administration should be implemented based on drug characteristics and individual patient conditions，and therapeutic drug monitoring should be carried out to ensure medication safety.Key words：triazole drugs；"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "三唑类药物与抗血液恶性肿瘤药物相互作用研究进展_刘春晴.pdf",
+          "chunk_index": "三唑类药物与抗血液恶性肿瘤药物相互作用研究进展_刘春晴:5",
+          "raw_text": "ood drug concentration and increase the risk of adverse drug reaction （ADR） such as myelosuppression and hepatotoxicity",
+          "chunk_id": "三唑类药物与抗血液恶性肿瘤药物相互作用研究进展_刘春晴:5",
+          "data": "ood drug concentration and increase the risk of adverse drug reaction （ADR） such as myelosuppression and hepatotoxicity；the combination of novel anti - hematologic malignancies drugs （such as small - molecule targeted drugs，chimeric antigen receptor T - cell therapy，etc.） with triazole drugs may enhance immunosuppression and affect therapeutic efficacy. It is recommended to strengthen therapeutic drug monitoring and patients' education，adjust doses，or select alternative antifungal regimens when using these drugs in combination. Conclusion Triazole drugs have certain interactions with traditional and novel anti - hematologic malignancies drugs. In clinical practice，individualized drug administration should be implemented based on drug characteristics and individual patient conditions，and therapeutic drug monitoring should be carried out to ensure medication safety.Key words：triazole drugs；"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "三唑类药物与抗血液恶性肿瘤药物相互作用研究进展_刘春晴.pdf",
+          "chunk_index": "三唑类药物与抗血液恶性肿瘤药物相互作用研究进展_刘春晴:5",
+          "raw_text": "ood drug concentration and increase the risk of adverse drug reaction （ADR） such as myelosuppression and hepatotoxicity",
+          "chunk_id": "三唑类药物与抗血液恶性肿瘤药物相互作用研究进展_刘春晴:5",
+          "data": "ood drug concentration and increase the risk of adverse drug reaction （ADR） such as myelosuppression and hepatotoxicity；the combination of novel anti - hematologic malignancies drugs （such as small - molecule targeted drugs，chimeric antigen receptor T - cell therapy，etc.） with triazole drugs may enhance immunosuppression and affect therapeutic efficacy. It is recommended to strengthen therapeutic drug monitoring and patients' education，adjust doses，or select alternative antifungal regimens when using these drugs in combination. Conclusion Triazole drugs have certain interactions with traditional and novel anti - hematologic malignancies drugs. In clinical practice，individualized drug administration should be implemented based on drug characteristics and individual patient conditions，and therapeutic drug monitoring should be carried out to ensure medication safety.Key words：triazole drugs；"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "三唑类药物与抗血液恶性肿瘤药物相互作用研究进展_刘春晴.pdf",
+          "chunk_index": "三唑类药物与抗血液恶性肿瘤药物相互作用研究进展_刘春晴:5",
+          "raw_text": "It is recommended to strengthen therapeutic drug monitoring",
+          "chunk_id": "三唑类药物与抗血液恶性肿瘤药物相互作用研究进展_刘春晴:5",
+          "data": "ood drug concentration and increase the risk of adverse drug reaction （ADR） such as myelosuppression and hepatotoxicity；the combination of novel anti - hematologic malignancies drugs （such as small - molecule targeted drugs，chimeric antigen receptor T - cell therapy，etc.） with triazole drugs may enhance immunosuppression and affect therapeutic efficacy. It is recommended to strengthen therapeutic drug monitoring and patients' education，adjust doses，or select alternative antifungal regimens when using these drugs in combination. Conclusion Triazole drugs have certain interactions with traditional and novel anti - hematologic malignancies drugs. In clinical practice，individualized drug administration should be implemented based on drug characteristics and individual patient conditions，and therapeutic drug monitoring should be carried out to ensure medication safety.Key words：triazole drugs；"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "三唑类药物与抗血液恶性肿瘤药物相互作用研究进展_刘春晴:5",
+    "source": "三唑类药物与抗血液恶性肿瘤药物相互作用研究进展_刘春晴.pdf",
+    "text": "ood drug concentration and increase the risk of adverse drug reaction （ADR） such as myelosuppression and hepatotoxicity；the combination of novel anti - hematologic malignancies drugs （such as small - molecule targeted drugs，chimeric antigen receptor T - cell therapy，etc.） with triazole drugs may enhance immunosuppression and affect therapeutic efficacy. It is recommended to strengthen therapeutic drug monitoring and patients' education，adjust doses，or select alternative antifungal regimens when using these drugs in combination. Conclusion Triazole drugs have certain interactions with traditional and novel anti - hematologic malignancies drugs. In clinical practice，individualized drug administration should be implemented based on drug characteristics and individual patient conditions，and therapeutic drug monitoring should be carried out to ensure medication safety.Key words：triazole drugs；"
+  }
+]

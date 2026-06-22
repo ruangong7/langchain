@@ -1,0 +1,118 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "酮康唑",
+        "canonical_name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "依他康唑",
+        "canonical_name": "依他康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "唑类抗真菌药",
+        "canonical_name": "唑类抗真菌药",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP3A4抑制剂",
+        "canonical_name": "CYP3A4抑制剂",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+          "chunk_index": "他克莫司药物相互作用的新进展_李继芳:0",
+          "raw_text": "唑类抗真菌药物酮康唑（ketocoonazole）、依他康唑（Itraconazole）中的杂环氮原子能与P450血红素中的铁原子直接结合，从而抑制P450的活性，它们是肝脏CYP3A4的强效抑制剂，当与FK506合用时，肝代谢因此会受到抑制，血药浓度升高。",
+          "mechanism": "抑制CYP3A4，减少他克莫司代谢",
+          "consequence": "他克莫司血药浓度升高",
+          "severity": "高",
+          "chunk_id": "他克莫司药物相互作用的新进展_李继芳:0",
+          "data": "2.1 FK506与抗感染药的相互作用\n2.1.1 与抗真菌药\n唑类抗真菌药物酮康唑（ketocoonazole）、依他康唑（Itraconazole）中的杂环氮原子能与P450血红素中的铁原子直接结合，从而抑制P450的活性，它们是肝脏CYP3A4的强效抑制剂，当与FK506合用时，肝代谢因此会受到抑制，血药浓度升高。ElDah shan[7]等按一定入选标准筛选了70例活体肾移植患者，研究了酮康唑 $(100\\mathrm{g}\\cdot \\mathrm{d}^{-1})$ 与FK506合用(试验组)及不合用(控制组)，FK506的剂量与浓度的变化，结果显示在6个月和2年时，试验组FK506的剂量比起始剂量分别减少了 $58.7\\%$ 和 $53.8\\%$ ，明显低于控制组，但两药的血药浓度均在治疗范围，无显著性差别，且试验组中无急性不良反应发生。9例造血干细胞移植患者单独给予FK506 $(0.03\\mathrm{mg}\\cdot \\mathrm{kg}^{-1}\\cdot \\mathrm{d}^{-1})$ 与合用依他康唑 $[200\\mathrm{mg}\\cdot (12\\mathrm{h})^{-1}$ ，平均稳态血药浓度 $0.430\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}]$ 相比，FK506的稳态血药浓度由 $7.6\\sim 12.5\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ 增至 $16.65\\sim 22.52\\mathrm{ng}\\cdot$ $\\mathrm{ml}^{-1}$ ，平均由 $10.37\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ 上升至 $18.97\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ ，有 $55.5\\%$ 的患者需将FK506的剂量调低[8]。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+          "chunk_index": "他克莫司药物相互作用的新进展_李继芳:0",
+          "raw_text": "9例造血干细胞移植患者单独给予FK506 (0.03mg·kg⁻¹·d⁻¹) 与合用依他康唑 [200mg·(12h)⁻¹，平均稳态血药浓度0.430ng·ml⁻¹] 相比，FK506的稳态血药浓度由7.6~12.5ng·ml⁻¹增至16.65~22.52ng·ml⁻¹，平均由10.37ng·ml⁻¹上升至18.97ng·ml⁻¹，有55.5%的患者需将FK506的剂量调低。",
+          "mechanism": "抑制CYP3A4，减少他克莫司代谢",
+          "consequence": "他克莫司血药浓度升高，需减量",
+          "severity": "高",
+          "chunk_id": "他克莫司药物相互作用的新进展_李继芳:0",
+          "data": "2.1 FK506与抗感染药的相互作用\n2.1.1 与抗真菌药\n唑类抗真菌药物酮康唑（ketocoonazole）、依他康唑（Itraconazole）中的杂环氮原子能与P450血红素中的铁原子直接结合，从而抑制P450的活性，它们是肝脏CYP3A4的强效抑制剂，当与FK506合用时，肝代谢因此会受到抑制，血药浓度升高。ElDah shan[7]等按一定入选标准筛选了70例活体肾移植患者，研究了酮康唑 $(100\\mathrm{g}\\cdot \\mathrm{d}^{-1})$ 与FK506合用(试验组)及不合用(控制组)，FK506的剂量与浓度的变化，结果显示在6个月和2年时，试验组FK506的剂量比起始剂量分别减少了 $58.7\\%$ 和 $53.8\\%$ ，明显低于控制组，但两药的血药浓度均在治疗范围，无显著性差别，且试验组中无急性不良反应发生。9例造血干细胞移植患者单独给予FK506 $(0.03\\mathrm{mg}\\cdot \\mathrm{kg}^{-1}\\cdot \\mathrm{d}^{-1})$ 与合用依他康唑 $[200\\mathrm{mg}\\cdot (12\\mathrm{h})^{-1}$ ，平均稳态血药浓度 $0.430\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}]$ 相比，FK506的稳态血药浓度由 $7.6\\sim 12.5\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ 增至 $16.65\\sim 22.52\\mathrm{ng}\\cdot$ $\\mathrm{ml}^{-1}$ ，平均由 $10.37\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ 上升至 $18.97\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ ，有 $55.5\\%$ 的患者需将FK506的剂量调低[8]。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+          "chunk_index": "他克莫司药物相互作用的新进展_李继芳:0",
+          "raw_text": "唑类抗真菌药物酮康唑",
+          "chunk_id": "他克莫司药物相互作用的新进展_李继芳:0",
+          "data": "2.1 FK506与抗感染药的相互作用\n2.1.1 与抗真菌药\n唑类抗真菌药物酮康唑（ketocoonazole）、依他康唑（Itraconazole）中的杂环氮原子能与P450血红素中的铁原子直接结合，从而抑制P450的活性，它们是肝脏CYP3A4的强效抑制剂，当与FK506合用时，肝代谢因此会受到抑制，血药浓度升高。ElDah shan[7]等按一定入选标准筛选了70例活体肾移植患者，研究了酮康唑 $(100\\mathrm{g}\\cdot \\mathrm{d}^{-1})$ 与FK506合用(试验组)及不合用(控制组)，FK506的剂量与浓度的变化，结果显示在6个月和2年时，试验组FK506的剂量比起始剂量分别减少了 $58.7\\%$ 和 $53.8\\%$ ，明显低于控制组，但两药的血药浓度均在治疗范围，无显著性差别，且试验组中无急性不良反应发生。9例造血干细胞移植患者单独给予FK506 $(0.03\\mathrm{mg}\\cdot \\mathrm{kg}^{-1}\\cdot \\mathrm{d}^{-1})$ 与合用依他康唑 $[200\\mathrm{mg}\\cdot (12\\mathrm{h})^{-1}$ ，平均稳态血药浓度 $0.430\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}]$ 相比，FK506的稳态血药浓度由 $7.6\\sim 12.5\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ 增至 $16.65\\sim 22.52\\mathrm{ng}\\cdot$ $\\mathrm{ml}^{-1}$ ，平均由 $10.37\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ 上升至 $18.97\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ ，有 $55.5\\%$ 的患者需将FK506的剂量调低[8]。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+          "chunk_index": "他克莫司药物相互作用的新进展_李继芳:0",
+          "raw_text": "依他康唑",
+          "chunk_id": "他克莫司药物相互作用的新进展_李继芳:0",
+          "data": "2.1 FK506与抗感染药的相互作用\n2.1.1 与抗真菌药\n唑类抗真菌药物酮康唑（ketocoonazole）、依他康唑（Itraconazole）中的杂环氮原子能与P450血红素中的铁原子直接结合，从而抑制P450的活性，它们是肝脏CYP3A4的强效抑制剂，当与FK506合用时，肝代谢因此会受到抑制，血药浓度升高。ElDah shan[7]等按一定入选标准筛选了70例活体肾移植患者，研究了酮康唑 $(100\\mathrm{g}\\cdot \\mathrm{d}^{-1})$ 与FK506合用(试验组)及不合用(控制组)，FK506的剂量与浓度的变化，结果显示在6个月和2年时，试验组FK506的剂量比起始剂量分别减少了 $58.7\\%$ 和 $53.8\\%$ ，明显低于控制组，但两药的血药浓度均在治疗范围，无显著性差别，且试验组中无急性不良反应发生。9例造血干细胞移植患者单独给予FK506 $(0.03\\mathrm{mg}\\cdot \\mathrm{kg}^{-1}\\cdot \\mathrm{d}^{-1})$ 与合用依他康唑 $[200\\mathrm{mg}\\cdot (12\\mathrm{h})^{-1}$ ，平均稳态血药浓度 $0.430\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}]$ 相比，FK506的稳态血药浓度由 $7.6\\sim 12.5\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ 增至 $16.65\\sim 22.52\\mathrm{ng}\\cdot$ $\\mathrm{ml}^{-1}$ ，平均由 $10.37\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ 上升至 $18.97\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ ，有 $55.5\\%$ 的患者需将FK506的剂量调低[8]。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+          "chunk_index": "他克莫司药物相互作用的新进展_李继芳:0",
+          "raw_text": "它们是肝脏CYP3A4的强效抑制剂",
+          "chunk_id": "他克莫司药物相互作用的新进展_李继芳:0",
+          "data": "2.1 FK506与抗感染药的相互作用\n2.1.1 与抗真菌药\n唑类抗真菌药物酮康唑（ketocoonazole）、依他康唑（Itraconazole）中的杂环氮原子能与P450血红素中的铁原子直接结合，从而抑制P450的活性，它们是肝脏CYP3A4的强效抑制剂，当与FK506合用时，肝代谢因此会受到抑制，血药浓度升高。ElDah shan[7]等按一定入选标准筛选了70例活体肾移植患者，研究了酮康唑 $(100\\mathrm{g}\\cdot \\mathrm{d}^{-1})$ 与FK506合用(试验组)及不合用(控制组)，FK506的剂量与浓度的变化，结果显示在6个月和2年时，试验组FK506的剂量比起始剂量分别减少了 $58.7\\%$ 和 $53.8\\%$ ，明显低于控制组，但两药的血药浓度均在治疗范围，无显著性差别，且试验组中无急性不良反应发生。9例造血干细胞移植患者单独给予FK506 $(0.03\\mathrm{mg}\\cdot \\mathrm{kg}^{-1}\\cdot \\mathrm{d}^{-1})$ 与合用依他康唑 $[200\\mathrm{mg}\\cdot (12\\mathrm{h})^{-1}$ ，平均稳态血药浓度 $0.430\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}]$ 相比，FK506的稳态血药浓度由 $7.6\\sim 12.5\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ 增至 $16.65\\sim 22.52\\mathrm{ng}\\cdot$ $\\mathrm{ml}^{-1}$ ，平均由 $10.37\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ 上升至 $18.97\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ ，有 $55.5\\%$ 的患者需将FK506的剂量调低[8]。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "他克莫司药物相互作用的新进展_李继芳:0",
+    "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+    "text": "2.1 FK506与抗感染药的相互作用\n2.1.1 与抗真菌药\n唑类抗真菌药物酮康唑（ketocoonazole）、依他康唑（Itraconazole）中的杂环氮原子能与P450血红素中的铁原子直接结合，从而抑制P450的活性，它们是肝脏CYP3A4的强效抑制剂，当与FK506合用时，肝代谢因此会受到抑制，血药浓度升高。ElDah shan[7]等按一定入选标准筛选了70例活体肾移植患者，研究了酮康唑 $(100\\mathrm{g}\\cdot \\mathrm{d}^{-1})$ 与FK506合用(试验组)及不合用(控制组)，FK506的剂量与浓度的变化，结果显示在6个月和2年时，试验组FK506的剂量比起始剂量分别减少了 $58.7\\%$ 和 $53.8\\%$ ，明显低于控制组，但两药的血药浓度均在治疗范围，无显著性差别，且试验组中无急性不良反应发生。9例造血干细胞移植患者单独给予FK506 $(0.03\\mathrm{mg}\\cdot \\mathrm{kg}^{-1}\\cdot \\mathrm{d}^{-1})$ 与合用依他康唑 $[200\\mathrm{mg}\\cdot (12\\mathrm{h})^{-1}$ ，平均稳态血药浓度 $0.430\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}]$ 相比，FK506的稳态血药浓度由 $7.6\\sim 12.5\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ 增至 $16.65\\sim 22.52\\mathrm{ng}\\cdot$ $\\mathrm{ml}^{-1}$ ，平均由 $10.37\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ 上升至 $18.97\\mathrm{ng}\\cdot \\mathrm{ml}^{-1}$ ，有 $55.5\\%$ 的患者需将FK506的剂量调低[8]。"
+  }
+]

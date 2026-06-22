@@ -1,0 +1,179 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "canonical_name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "canonical_name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "CYP3A5基因型",
+        "canonical_name": "CYP3A5基因型",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "他克莫司血药浓度",
+        "canonical_name": "他克莫司血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "血压",
+        "canonical_name": "血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "高血压",
+        "canonical_name": "高血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Symptom",
+        "name": "头痛",
+        "canonical_name": "头痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "肾病综合征",
+        "canonical_name": "肾病综合征",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "10",
+          "raw_text": "临床药师及时提醒医师奥美拉唑和克拉霉素与他克莫司存在药物相互作用",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:10",
+          "data": "TAC 剂量，监测 CYP3A5 基因型和TAC 血药浓度;③院外口服治疗 $\\mathrm { H p }$ 期间每 2 ～ 3 天应监测1 次血压，注意是否头痛。本案例提示高浓度TAC 致高血压常见，院外口服治疗期间可建议患者监测血压。本案例及其他案例提示临床药师应该且能够在肾病综合征患者个体化应用他克莫司方面发挥积极作用［12］ 。( 本文编辑戴荣源)\n用药点评\n肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析\nMedication Comment Drug interaction analysis of pediatric idiopathic nephrotic syndrome complicated with Helicobacter pylori infection申新田1a，2 ，陈超阳1a，张利利1a， 文迪1a，乌日汗1a，钟旭辉1b， 周颖1a，崔一民1a摘要: 目的探讨临床药师参与肾病综合征合并幽门螺旋菌( Hp) 感染患儿药物治疗的作用。方法临床药师参与 1 例肾病综合征合并 $\\mathrm { H p }$ 感染患儿的治疗过程，优化用药方案，通过快速查阅药学信息，减少药物相互作用。结果和结论患儿好转，出院。临床药师及时提醒医师奥美拉唑和克拉霉素与他克莫司存在药物相互作用，保证他克莫司的疗效并及时干预以减少药物相互作用。( 1. 北京大学第一医院，a. 药剂科;b. 儿科，北京 100034;"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "10",
+          "raw_text": "临床药师及时提醒医师奥美拉唑和克拉霉素与他克莫司存在药物相互作用",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:10",
+          "data": "TAC 剂量，监测 CYP3A5 基因型和TAC 血药浓度;③院外口服治疗 $\\mathrm { H p }$ 期间每 2 ～ 3 天应监测1 次血压，注意是否头痛。本案例提示高浓度TAC 致高血压常见，院外口服治疗期间可建议患者监测血压。本案例及其他案例提示临床药师应该且能够在肾病综合征患者个体化应用他克莫司方面发挥积极作用［12］ 。( 本文编辑戴荣源)\n用药点评\n肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析\nMedication Comment Drug interaction analysis of pediatric idiopathic nephrotic syndrome complicated with Helicobacter pylori infection申新田1a，2 ，陈超阳1a，张利利1a， 文迪1a，乌日汗1a，钟旭辉1b， 周颖1a，崔一民1a摘要: 目的探讨临床药师参与肾病综合征合并幽门螺旋菌( Hp) 感染患儿药物治疗的作用。方法临床药师参与 1 例肾病综合征合并 $\\mathrm { H p }$ 感染患儿的治疗过程，优化用药方案，通过快速查阅药学信息，减少药物相互作用。结果和结论患儿好转，出院。临床药师及时提醒医师奥美拉唑和克拉霉素与他克莫司存在药物相互作用，保证他克莫司的疗效并及时干预以减少药物相互作用。( 1. 北京大学第一医院，a. 药剂科;b. 儿科，北京 100034;"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "10",
+          "raw_text": "监测 CYP3A5 基因型和TAC 血药浓度",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:10",
+          "data": "TAC 剂量，监测 CYP3A5 基因型和TAC 血药浓度;③院外口服治疗 $\\mathrm { H p }$ 期间每 2 ～ 3 天应监测1 次血压，注意是否头痛。本案例提示高浓度TAC 致高血压常见，院外口服治疗期间可建议患者监测血压。本案例及其他案例提示临床药师应该且能够在肾病综合征患者个体化应用他克莫司方面发挥积极作用［12］ 。( 本文编辑戴荣源)\n用药点评\n肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析\nMedication Comment Drug interaction analysis of pediatric idiopathic nephrotic syndrome complicated with Helicobacter pylori infection申新田1a，2 ，陈超阳1a，张利利1a， 文迪1a，乌日汗1a，钟旭辉1b， 周颖1a，崔一民1a摘要: 目的探讨临床药师参与肾病综合征合并幽门螺旋菌( Hp) 感染患儿药物治疗的作用。方法临床药师参与 1 例肾病综合征合并 $\\mathrm { H p }$ 感染患儿的治疗过程，优化用药方案，通过快速查阅药学信息，减少药物相互作用。结果和结论患儿好转，出院。临床药师及时提醒医师奥美拉唑和克拉霉素与他克莫司存在药物相互作用，保证他克莫司的疗效并及时干预以减少药物相互作用。( 1. 北京大学第一医院，a. 药剂科;b. 儿科，北京 100034;"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "10",
+          "raw_text": "监测 CYP3A5 基因型和TAC 血药浓度",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:10",
+          "data": "TAC 剂量，监测 CYP3A5 基因型和TAC 血药浓度;③院外口服治疗 $\\mathrm { H p }$ 期间每 2 ～ 3 天应监测1 次血压，注意是否头痛。本案例提示高浓度TAC 致高血压常见，院外口服治疗期间可建议患者监测血压。本案例及其他案例提示临床药师应该且能够在肾病综合征患者个体化应用他克莫司方面发挥积极作用［12］ 。( 本文编辑戴荣源)\n用药点评\n肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析\nMedication Comment Drug interaction analysis of pediatric idiopathic nephrotic syndrome complicated with Helicobacter pylori infection申新田1a，2 ，陈超阳1a，张利利1a， 文迪1a，乌日汗1a，钟旭辉1b， 周颖1a，崔一民1a摘要: 目的探讨临床药师参与肾病综合征合并幽门螺旋菌( Hp) 感染患儿药物治疗的作用。方法临床药师参与 1 例肾病综合征合并 $\\mathrm { H p }$ 感染患儿的治疗过程，优化用药方案，通过快速查阅药学信息，减少药物相互作用。结果和结论患儿好转，出院。临床药师及时提醒医师奥美拉唑和克拉霉素与他克莫司存在药物相互作用，保证他克莫司的疗效并及时干预以减少药物相互作用。( 1. 北京大学第一医院，a. 药剂科;b. 儿科，北京 100034;"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "10",
+          "raw_text": "高浓度TAC 致高血压常见",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:10",
+          "data": "TAC 剂量，监测 CYP3A5 基因型和TAC 血药浓度;③院外口服治疗 $\\mathrm { H p }$ 期间每 2 ～ 3 天应监测1 次血压，注意是否头痛。本案例提示高浓度TAC 致高血压常见，院外口服治疗期间可建议患者监测血压。本案例及其他案例提示临床药师应该且能够在肾病综合征患者个体化应用他克莫司方面发挥积极作用［12］ 。( 本文编辑戴荣源)\n用药点评\n肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析\nMedication Comment Drug interaction analysis of pediatric idiopathic nephrotic syndrome complicated with Helicobacter pylori infection申新田1a，2 ，陈超阳1a，张利利1a， 文迪1a，乌日汗1a，钟旭辉1b， 周颖1a，崔一民1a摘要: 目的探讨临床药师参与肾病综合征合并幽门螺旋菌( Hp) 感染患儿药物治疗的作用。方法临床药师参与 1 例肾病综合征合并 $\\mathrm { H p }$ 感染患儿的治疗过程，优化用药方案，通过快速查阅药学信息，减少药物相互作用。结果和结论患儿好转，出院。临床药师及时提醒医师奥美拉唑和克拉霉素与他克莫司存在药物相互作用，保证他克莫司的疗效并及时干预以减少药物相互作用。( 1. 北京大学第一医院，a. 药剂科;b. 儿科，北京 100034;"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "10",
+          "raw_text": "注意是否头痛",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:10",
+          "data": "TAC 剂量，监测 CYP3A5 基因型和TAC 血药浓度;③院外口服治疗 $\\mathrm { H p }$ 期间每 2 ～ 3 天应监测1 次血压，注意是否头痛。本案例提示高浓度TAC 致高血压常见，院外口服治疗期间可建议患者监测血压。本案例及其他案例提示临床药师应该且能够在肾病综合征患者个体化应用他克莫司方面发挥积极作用［12］ 。( 本文编辑戴荣源)\n用药点评\n肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析\nMedication Comment Drug interaction analysis of pediatric idiopathic nephrotic syndrome complicated with Helicobacter pylori infection申新田1a，2 ，陈超阳1a，张利利1a， 文迪1a，乌日汗1a，钟旭辉1b， 周颖1a，崔一民1a摘要: 目的探讨临床药师参与肾病综合征合并幽门螺旋菌( Hp) 感染患儿药物治疗的作用。方法临床药师参与 1 例肾病综合征合并 $\\mathrm { H p }$ 感染患儿的治疗过程，优化用药方案，通过快速查阅药学信息，减少药物相互作用。结果和结论患儿好转，出院。临床药师及时提醒医师奥美拉唑和克拉霉素与他克莫司存在药物相互作用，保证他克莫司的疗效并及时干预以减少药物相互作用。( 1. 北京大学第一医院，a. 药剂科;b. 儿科，北京 100034;"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "10",
+          "raw_text": "院外口服治疗期间可建议患者监测血压",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:10",
+          "data": "TAC 剂量，监测 CYP3A5 基因型和TAC 血药浓度;③院外口服治疗 $\\mathrm { H p }$ 期间每 2 ～ 3 天应监测1 次血压，注意是否头痛。本案例提示高浓度TAC 致高血压常见，院外口服治疗期间可建议患者监测血压。本案例及其他案例提示临床药师应该且能够在肾病综合征患者个体化应用他克莫司方面发挥积极作用［12］ 。( 本文编辑戴荣源)\n用药点评\n肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析\nMedication Comment Drug interaction analysis of pediatric idiopathic nephrotic syndrome complicated with Helicobacter pylori infection申新田1a，2 ，陈超阳1a，张利利1a， 文迪1a，乌日汗1a，钟旭辉1b， 周颖1a，崔一民1a摘要: 目的探讨临床药师参与肾病综合征合并幽门螺旋菌( Hp) 感染患儿药物治疗的作用。方法临床药师参与 1 例肾病综合征合并 $\\mathrm { H p }$ 感染患儿的治疗过程，优化用药方案，通过快速查阅药学信息，减少药物相互作用。结果和结论患儿好转，出院。临床药师及时提醒医师奥美拉唑和克拉霉素与他克莫司存在药物相互作用，保证他克莫司的疗效并及时干预以减少药物相互作用。( 1. 北京大学第一医院，a. 药剂科;b. 儿科，北京 100034;"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "10",
+          "raw_text": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:10",
+          "data": "TAC 剂量，监测 CYP3A5 基因型和TAC 血药浓度;③院外口服治疗 $\\mathrm { H p }$ 期间每 2 ～ 3 天应监测1 次血压，注意是否头痛。本案例提示高浓度TAC 致高血压常见，院外口服治疗期间可建议患者监测血压。本案例及其他案例提示临床药师应该且能够在肾病综合征患者个体化应用他克莫司方面发挥积极作用［12］ 。( 本文编辑戴荣源)\n用药点评\n肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析\nMedication Comment Drug interaction analysis of pediatric idiopathic nephrotic syndrome complicated with Helicobacter pylori infection申新田1a，2 ，陈超阳1a，张利利1a， 文迪1a，乌日汗1a，钟旭辉1b， 周颖1a，崔一民1a摘要: 目的探讨临床药师参与肾病综合征合并幽门螺旋菌( Hp) 感染患儿药物治疗的作用。方法临床药师参与 1 例肾病综合征合并 $\\mathrm { H p }$ 感染患儿的治疗过程，优化用药方案，通过快速查阅药学信息，减少药物相互作用。结果和结论患儿好转，出院。临床药师及时提醒医师奥美拉唑和克拉霉素与他克莫司存在药物相互作用，保证他克莫司的疗效并及时干预以减少药物相互作用。( 1. 北京大学第一医院，a. 药剂科;b. 儿科，北京 100034;"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:10",
+    "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+    "text": "TAC 剂量，监测 CYP3A5 基因型和TAC 血药浓度;③院外口服治疗 $\\mathrm { H p }$ 期间每 2 ～ 3 天应监测1 次血压，注意是否头痛。本案例提示高浓度TAC 致高血压常见，院外口服治疗期间可建议患者监测血压。本案例及其他案例提示临床药师应该且能够在肾病综合征患者个体化应用他克莫司方面发挥积极作用［12］ 。( 本文编辑戴荣源)\n用药点评\n肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析\nMedication Comment Drug interaction analysis of pediatric idiopathic nephrotic syndrome complicated with Helicobacter pylori infection申新田1a，2 ，陈超阳1a，张利利1a， 文迪1a，乌日汗1a，钟旭辉1b， 周颖1a，崔一民1a摘要: 目的探讨临床药师参与肾病综合征合并幽门螺旋菌( Hp) 感染患儿药物治疗的作用。方法临床药师参与 1 例肾病综合征合并 $\\mathrm { H p }$ 感染患儿的治疗过程，优化用药方案，通过快速查阅药学信息，减少药物相互作用。结果和结论患儿好转，出院。临床药师及时提醒医师奥美拉唑和克拉霉素与他克莫司存在药物相互作用，保证他克莫司的疗效并及时干预以减少药物相互作用。( 1. 北京大学第一医院，a. 药剂科;b. 儿科，北京 100034;"
+  }
+]
