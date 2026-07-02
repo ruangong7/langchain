@@ -1,0 +1,133 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "canonical_name": "阿托伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "阿奇霉素",
+        "canonical_name": "阿奇霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "依那普利",
+        "canonical_name": "依那普利",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "canonical_name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "氯化钾",
+        "canonical_name": "氯化钾",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "canonical_name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "呋塞米",
+        "canonical_name": "呋塞米",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "庆大霉素",
+        "canonical_name": "庆大霉素",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊.pdf",
+          "chunk_index": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊:2",
+          "raw_text": "Atorvastatin/azithromycin (10.4%) were the most common interacting pairs.",
+          "chunk_id": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊:2",
+          "data": ", Shenyang, Liaoning, 113200,China;\n2 Liaoning Traditional Chinese Medicine University, Shenyang,Liaoning,110163, China;\n3 General Hospital ofShenyang Military Region ofPLA, Shenyang, Liaoning,110840, China)The study aims to investigate the potential DDI among hospitalized cardiac patients and assess the related risk factors associated with these interactions. A total of 150 cardiac patients administered more than 2 types of drugs during hospital stay for longer than 24 hours were enrolled from May 2013 to December 2013. The medications of the patients were analyzed for possible interactions using the standard drug interaction database-Micromedex-2 (Thomson Reuters) × 2.0. In a total of 150 enrolled patients, at least one interacting drug combination was identified among 32 patients. The incidence of potential DDI was 21.3%. A total of 48 potentially hazardous drug interactions were identified. Atorvastatin/azithromycin (10.4%), enalapril/metformin (10.4%), enalapril/potassium chloride"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊.pdf",
+          "chunk_index": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊:2",
+          "raw_text": "enalapril/metformin (10.4%) were the most common interacting pairs.",
+          "chunk_id": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊:2",
+          "data": ", Shenyang, Liaoning, 113200,China;\n2 Liaoning Traditional Chinese Medicine University, Shenyang,Liaoning,110163, China;\n3 General Hospital ofShenyang Military Region ofPLA, Shenyang, Liaoning,110840, China)The study aims to investigate the potential DDI among hospitalized cardiac patients and assess the related risk factors associated with these interactions. A total of 150 cardiac patients administered more than 2 types of drugs during hospital stay for longer than 24 hours were enrolled from May 2013 to December 2013. The medications of the patients were analyzed for possible interactions using the standard drug interaction database-Micromedex-2 (Thomson Reuters) × 2.0. In a total of 150 enrolled patients, at least one interacting drug combination was identified among 32 patients. The incidence of potential DDI was 21.3%. A total of 48 potentially hazardous drug interactions were identified. Atorvastatin/azithromycin (10.4%), enalapril/metformin (10.4%), enalapril/potassium chloride"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊.pdf",
+          "chunk_index": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊:2",
+          "raw_text": "enalapril/potassium chloride (10.4%) were the most common interacting pairs.",
+          "chunk_id": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊:2",
+          "data": ", Shenyang, Liaoning, 113200,China;\n2 Liaoning Traditional Chinese Medicine University, Shenyang,Liaoning,110163, China;\n3 General Hospital ofShenyang Military Region ofPLA, Shenyang, Liaoning,110840, China)The study aims to investigate the potential DDI among hospitalized cardiac patients and assess the related risk factors associated with these interactions. A total of 150 cardiac patients administered more than 2 types of drugs during hospital stay for longer than 24 hours were enrolled from May 2013 to December 2013. The medications of the patients were analyzed for possible interactions using the standard drug interaction database-Micromedex-2 (Thomson Reuters) × 2.0. In a total of 150 enrolled patients, at least one interacting drug combination was identified among 32 patients. The incidence of potential DDI was 21.3%. A total of 48 potentially hazardous drug interactions were identified. Atorvastatin/azithromycin (10.4%), enalapril/metformin (10.4%), enalapril/potassium chloride"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊.pdf",
+          "chunk_index": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊:2",
+          "raw_text": "atorvastatin/clarithromycin (8.3%) were the most common interacting pairs.",
+          "chunk_id": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊:2",
+          "data": ", Shenyang, Liaoning, 113200,China;\n2 Liaoning Traditional Chinese Medicine University, Shenyang,Liaoning,110163, China;\n3 General Hospital ofShenyang Military Region ofPLA, Shenyang, Liaoning,110840, China)The study aims to investigate the potential DDI among hospitalized cardiac patients and assess the related risk factors associated with these interactions. A total of 150 cardiac patients administered more than 2 types of drugs during hospital stay for longer than 24 hours were enrolled from May 2013 to December 2013. The medications of the patients were analyzed for possible interactions using the standard drug interaction database-Micromedex-2 (Thomson Reuters) × 2.0. In a total of 150 enrolled patients, at least one interacting drug combination was identified among 32 patients. The incidence of potential DDI was 21.3%. A total of 48 potentially hazardous drug interactions were identified. Atorvastatin/azithromycin (10.4%), enalapril/metformin (10.4%), enalapril/potassium chloride"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊.pdf",
+          "chunk_index": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊:2",
+          "raw_text": "furosemide/gentamicin (6.3%) were the most common interacting pairs.",
+          "chunk_id": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊:2",
+          "data": ", Shenyang, Liaoning, 113200,China;\n2 Liaoning Traditional Chinese Medicine University, Shenyang,Liaoning,110163, China;\n3 General Hospital ofShenyang Military Region ofPLA, Shenyang, Liaoning,110840, China)The study aims to investigate the potential DDI among hospitalized cardiac patients and assess the related risk factors associated with these interactions. A total of 150 cardiac patients administered more than 2 types of drugs during hospital stay for longer than 24 hours were enrolled from May 2013 to December 2013. The medications of the patients were analyzed for possible interactions using the standard drug interaction database-Micromedex-2 (Thomson Reuters) × 2.0. In a total of 150 enrolled patients, at least one interacting drug combination was identified among 32 patients. The incidence of potential DDI was 21.3%. A total of 48 potentially hazardous drug interactions were identified. Atorvastatin/azithromycin (10.4%), enalapril/metformin (10.4%), enalapril/potassium chloride"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊:2",
+    "source": "心血管病患者住院治疗期间潜在的药物相互作用研究_王瑞菊.pdf",
+    "text": ", Shenyang, Liaoning, 113200,China;\n2 Liaoning Traditional Chinese Medicine University, Shenyang,Liaoning,110163, China;\n3 General Hospital ofShenyang Military Region ofPLA, Shenyang, Liaoning,110840, China)The study aims to investigate the potential DDI among hospitalized cardiac patients and assess the related risk factors associated with these interactions. A total of 150 cardiac patients administered more than 2 types of drugs during hospital stay for longer than 24 hours were enrolled from May 2013 to December 2013. The medications of the patients were analyzed for possible interactions using the standard drug interaction database-Micromedex-2 (Thomson Reuters) × 2.0. In a total of 150 enrolled patients, at least one interacting drug combination was identified among 32 patients. The incidence of potential DDI was 21.3%. A total of 48 potentially hazardous drug interactions were identified. Atorvastatin/azithromycin (10.4%), enalapril/metformin (10.4%), enalapril/potassium chloride (10.4%), atorvastatin/clarithromycin (8.3%) and furosemide/gentamicin (6.3%) were the most common interacting pairs. Drugs most commonly involved were atorvastatin, enalapril, digoxin, furosemide, clopidogrel and warfarin. Majority of interactions were of moderate severity (62.5% ) and pharmacokinetic (58.3% ) in nature. Increased number of medicines, prolonged hospital stays and comorbid conditions were the risk factors found associated with the potential DDI. The incidence of DDI in hospitalized cardiac patients was high, increased drug species, prolonged hospitalization and presence of complications were the risk factors of potential DDI in hospitalized cardiac patients. This study highlighted the need of intense monitoring of patients who had identified risk factors to help detect and prevent them from serious health hazards associated with drug interactions.Cardiovascular disease; Drug interaction; Interaction severity; Micromedex Chinese Library Classification(CLC): R54 Document code: A Article ID: 1673-6273(2015)23-4544-04随着患合并疾病种类越来越多，其药物治疗方案也更加复杂，这些复杂的治疗方案在很大程度上增加了药物 - 药物相互作用(Drug-drug interaction，DDI)的风险[1] 当一种药物的疗效被同时服用的其他药物所改变时，这种现象称为DDI[2] 如果一种药物具有影响同时服用的其他药物吸收分布代谢排泄的作用，那么其在药代动力学水平也会发生相互作用；同理，如果同时服用的药物具有相似或相反作用时，其药效动力学也会发生相互作用 [3]。 研究人员认为 DDI 造成的严重药物副作用(ad-verse drug reactions，ADR) 是大量患者住院或需要急救的原因之一据估测，DDI导致的副作用占全部药物副作用发生率的6-30%[4]，而且每年的住院患者中，约有 2.8%是由 DDI 所致ADR 造成的[5] 。"
+  }
+]

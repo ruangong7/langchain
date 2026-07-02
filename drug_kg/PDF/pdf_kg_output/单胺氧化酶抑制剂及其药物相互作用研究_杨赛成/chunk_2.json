@@ -1,0 +1,126 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "单胺氧化酶抑制剂",
+        "canonical_name": "单胺氧化酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "司来吉兰",
+        "canonical_name": "司来吉兰",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "异烟肼",
+        "canonical_name": "异烟肼",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "普鲁卡因",
+        "canonical_name": "普鲁卡因",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "MAO-A",
+        "canonical_name": "MAO-A",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "MAO-B",
+        "canonical_name": "MAO-B",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "氯吉兰",
+        "canonical_name": "氯吉兰",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成.pdf",
+          "chunk_index": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成:2",
+          "raw_text": "MAOIs 可作为药物使用，如司来吉兰、异烟肼、普鲁卡因",
+          "chunk_id": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成:2",
+          "data": "drug reactions，the dose of 11 drugs should be decreased when being used with MAOIs，or the combination should be avoided．\n0 引言\n单胺氧化酶( MAO) 是去甲肾上腺素( NA) 、5-羟色胺( 5-HT) 等内源性单胺类递质以及外源性单胺类物质( 如酪胺) 的重要灭活酶。 MAO 有 2种亚型，即 A 型 MAO ( MAO-A) 和 B 型 MAO( MAO-B) 。 MAO-A 主要以极性芳香胺为底物，如含有羟基的 5-HT 和 NA，其活性被氯吉兰选择性抑制; MAO-B 主要以非极性芳香胺为底物，如不含羟基的苯乙胺，其活性能被司来吉兰选择性抑制［1］。 MAO 抑制剂( MAOIs) 是选择性抑制机体内 MAO 活性的药物，能与 MAO 发生可逆或不可逆结合，形成药物 － 酶复合物，抑制酶的活性，干扰底物的正常代谢，从而产生各种药理作用和不良反应。 MAOIs 可作为药物使用，如司来吉兰、异烟肼、普鲁卡因［1-4］等。 有些药物与 MAOIs 存在相互作用，导致药效增强，甚至发生严重的不良反应。 为进一步了解 MAOIs 及其与其他药物的相互作用，本文以本院药品说明书为检索重点，查阅相关资料，进一步明确: ①含有 MAOIs 的药物，②与 MAOIs 存在相互作用的药物及药学监护。\n1 资料与方法\n1. 1 说明书调查获取本院及其他医疗机构尽可能多的说明书原件或复印件。 制定 “单胺氧化酶抑制剂说明书调查表”; 查看说明书中药物的化学结构，含有胺基的重点记录; 了解该药物的药理作用，属于 MAOIs 的重点记录; 查看说明书中 【禁忌】、 【注意事项】、 【药物相互作用 】，提及 MAOIs的重点记录。\n1. 2 文献搜索检索中英文文献检索数据库，如CNKI 数字图书馆、 万方数据知识服务平台、PubMed 、 High Wire Press 等，搜索与 MAOIs 相关的文献 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成.pdf",
+          "chunk_index": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成:2",
+          "raw_text": "MAOIs 可作为药物使用，如司来吉兰、异烟肼、普鲁卡因",
+          "chunk_id": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成:2",
+          "data": "drug reactions，the dose of 11 drugs should be decreased when being used with MAOIs，or the combination should be avoided．\n0 引言\n单胺氧化酶( MAO) 是去甲肾上腺素( NA) 、5-羟色胺( 5-HT) 等内源性单胺类递质以及外源性单胺类物质( 如酪胺) 的重要灭活酶。 MAO 有 2种亚型，即 A 型 MAO ( MAO-A) 和 B 型 MAO( MAO-B) 。 MAO-A 主要以极性芳香胺为底物，如含有羟基的 5-HT 和 NA，其活性被氯吉兰选择性抑制; MAO-B 主要以非极性芳香胺为底物，如不含羟基的苯乙胺，其活性能被司来吉兰选择性抑制［1］。 MAO 抑制剂( MAOIs) 是选择性抑制机体内 MAO 活性的药物，能与 MAO 发生可逆或不可逆结合，形成药物 － 酶复合物，抑制酶的活性，干扰底物的正常代谢，从而产生各种药理作用和不良反应。 MAOIs 可作为药物使用，如司来吉兰、异烟肼、普鲁卡因［1-4］等。 有些药物与 MAOIs 存在相互作用，导致药效增强，甚至发生严重的不良反应。 为进一步了解 MAOIs 及其与其他药物的相互作用，本文以本院药品说明书为检索重点，查阅相关资料，进一步明确: ①含有 MAOIs 的药物，②与 MAOIs 存在相互作用的药物及药学监护。\n1 资料与方法\n1. 1 说明书调查获取本院及其他医疗机构尽可能多的说明书原件或复印件。 制定 “单胺氧化酶抑制剂说明书调查表”; 查看说明书中药物的化学结构，含有胺基的重点记录; 了解该药物的药理作用，属于 MAOIs 的重点记录; 查看说明书中 【禁忌】、 【注意事项】、 【药物相互作用 】，提及 MAOIs的重点记录。\n1. 2 文献搜索检索中英文文献检索数据库，如CNKI 数字图书馆、 万方数据知识服务平台、PubMed 、 High Wire Press 等，搜索与 MAOIs 相关的文献 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成.pdf",
+          "chunk_index": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成:2",
+          "raw_text": "MAOIs 可作为药物使用，如司来吉兰、异烟肼、普鲁卡因",
+          "chunk_id": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成:2",
+          "data": "drug reactions，the dose of 11 drugs should be decreased when being used with MAOIs，or the combination should be avoided．\n0 引言\n单胺氧化酶( MAO) 是去甲肾上腺素( NA) 、5-羟色胺( 5-HT) 等内源性单胺类递质以及外源性单胺类物质( 如酪胺) 的重要灭活酶。 MAO 有 2种亚型，即 A 型 MAO ( MAO-A) 和 B 型 MAO( MAO-B) 。 MAO-A 主要以极性芳香胺为底物，如含有羟基的 5-HT 和 NA，其活性被氯吉兰选择性抑制; MAO-B 主要以非极性芳香胺为底物，如不含羟基的苯乙胺，其活性能被司来吉兰选择性抑制［1］。 MAO 抑制剂( MAOIs) 是选择性抑制机体内 MAO 活性的药物，能与 MAO 发生可逆或不可逆结合，形成药物 － 酶复合物，抑制酶的活性，干扰底物的正常代谢，从而产生各种药理作用和不良反应。 MAOIs 可作为药物使用，如司来吉兰、异烟肼、普鲁卡因［1-4］等。 有些药物与 MAOIs 存在相互作用，导致药效增强，甚至发生严重的不良反应。 为进一步了解 MAOIs 及其与其他药物的相互作用，本文以本院药品说明书为检索重点，查阅相关资料，进一步明确: ①含有 MAOIs 的药物，②与 MAOIs 存在相互作用的药物及药学监护。\n1 资料与方法\n1. 1 说明书调查获取本院及其他医疗机构尽可能多的说明书原件或复印件。 制定 “单胺氧化酶抑制剂说明书调查表”; 查看说明书中药物的化学结构，含有胺基的重点记录; 了解该药物的药理作用，属于 MAOIs 的重点记录; 查看说明书中 【禁忌】、 【注意事项】、 【药物相互作用 】，提及 MAOIs的重点记录。\n1. 2 文献搜索检索中英文文献检索数据库，如CNKI 数字图书馆、 万方数据知识服务平台、PubMed 、 High Wire Press 等，搜索与 MAOIs 相关的文献 。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成.pdf",
+          "chunk_index": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成:2",
+          "raw_text": "MAO-A 其活性被氯吉兰选择性抑制",
+          "chunk_id": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成:2",
+          "data": "drug reactions，the dose of 11 drugs should be decreased when being used with MAOIs，or the combination should be avoided．\n0 引言\n单胺氧化酶( MAO) 是去甲肾上腺素( NA) 、5-羟色胺( 5-HT) 等内源性单胺类递质以及外源性单胺类物质( 如酪胺) 的重要灭活酶。 MAO 有 2种亚型，即 A 型 MAO ( MAO-A) 和 B 型 MAO( MAO-B) 。 MAO-A 主要以极性芳香胺为底物，如含有羟基的 5-HT 和 NA，其活性被氯吉兰选择性抑制; MAO-B 主要以非极性芳香胺为底物，如不含羟基的苯乙胺，其活性能被司来吉兰选择性抑制［1］。 MAO 抑制剂( MAOIs) 是选择性抑制机体内 MAO 活性的药物，能与 MAO 发生可逆或不可逆结合，形成药物 － 酶复合物，抑制酶的活性，干扰底物的正常代谢，从而产生各种药理作用和不良反应。 MAOIs 可作为药物使用，如司来吉兰、异烟肼、普鲁卡因［1-4］等。 有些药物与 MAOIs 存在相互作用，导致药效增强，甚至发生严重的不良反应。 为进一步了解 MAOIs 及其与其他药物的相互作用，本文以本院药品说明书为检索重点，查阅相关资料，进一步明确: ①含有 MAOIs 的药物，②与 MAOIs 存在相互作用的药物及药学监护。\n1 资料与方法\n1. 1 说明书调查获取本院及其他医疗机构尽可能多的说明书原件或复印件。 制定 “单胺氧化酶抑制剂说明书调查表”; 查看说明书中药物的化学结构，含有胺基的重点记录; 了解该药物的药理作用，属于 MAOIs 的重点记录; 查看说明书中 【禁忌】、 【注意事项】、 【药物相互作用 】，提及 MAOIs的重点记录。\n1. 2 文献搜索检索中英文文献检索数据库，如CNKI 数字图书馆、 万方数据知识服务平台、PubMed 、 High Wire Press 等，搜索与 MAOIs 相关的文献 。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成.pdf",
+          "chunk_index": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成:2",
+          "raw_text": "MAO-B 其活性能被司来吉兰选择性抑制",
+          "chunk_id": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成:2",
+          "data": "drug reactions，the dose of 11 drugs should be decreased when being used with MAOIs，or the combination should be avoided．\n0 引言\n单胺氧化酶( MAO) 是去甲肾上腺素( NA) 、5-羟色胺( 5-HT) 等内源性单胺类递质以及外源性单胺类物质( 如酪胺) 的重要灭活酶。 MAO 有 2种亚型，即 A 型 MAO ( MAO-A) 和 B 型 MAO( MAO-B) 。 MAO-A 主要以极性芳香胺为底物，如含有羟基的 5-HT 和 NA，其活性被氯吉兰选择性抑制; MAO-B 主要以非极性芳香胺为底物，如不含羟基的苯乙胺，其活性能被司来吉兰选择性抑制［1］。 MAO 抑制剂( MAOIs) 是选择性抑制机体内 MAO 活性的药物，能与 MAO 发生可逆或不可逆结合，形成药物 － 酶复合物，抑制酶的活性，干扰底物的正常代谢，从而产生各种药理作用和不良反应。 MAOIs 可作为药物使用，如司来吉兰、异烟肼、普鲁卡因［1-4］等。 有些药物与 MAOIs 存在相互作用，导致药效增强，甚至发生严重的不良反应。 为进一步了解 MAOIs 及其与其他药物的相互作用，本文以本院药品说明书为检索重点，查阅相关资料，进一步明确: ①含有 MAOIs 的药物，②与 MAOIs 存在相互作用的药物及药学监护。\n1 资料与方法\n1. 1 说明书调查获取本院及其他医疗机构尽可能多的说明书原件或复印件。 制定 “单胺氧化酶抑制剂说明书调查表”; 查看说明书中药物的化学结构，含有胺基的重点记录; 了解该药物的药理作用，属于 MAOIs 的重点记录; 查看说明书中 【禁忌】、 【注意事项】、 【药物相互作用 】，提及 MAOIs的重点记录。\n1. 2 文献搜索检索中英文文献检索数据库，如CNKI 数字图书馆、 万方数据知识服务平台、PubMed 、 High Wire Press 等，搜索与 MAOIs 相关的文献 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成:2",
+    "source": "单胺氧化酶抑制剂及其药物相互作用研究_杨赛成.pdf",
+    "text": "drug reactions，the dose of 11 drugs should be decreased when being used with MAOIs，or the combination should be avoided．\n0 引言\n单胺氧化酶( MAO) 是去甲肾上腺素( NA) 、5-羟色胺( 5-HT) 等内源性单胺类递质以及外源性单胺类物质( 如酪胺) 的重要灭活酶。 MAO 有 2种亚型，即 A 型 MAO ( MAO-A) 和 B 型 MAO( MAO-B) 。 MAO-A 主要以极性芳香胺为底物，如含有羟基的 5-HT 和 NA，其活性被氯吉兰选择性抑制; MAO-B 主要以非极性芳香胺为底物，如不含羟基的苯乙胺，其活性能被司来吉兰选择性抑制［1］。 MAO 抑制剂( MAOIs) 是选择性抑制机体内 MAO 活性的药物，能与 MAO 发生可逆或不可逆结合，形成药物 － 酶复合物，抑制酶的活性，干扰底物的正常代谢，从而产生各种药理作用和不良反应。 MAOIs 可作为药物使用，如司来吉兰、异烟肼、普鲁卡因［1-4］等。 有些药物与 MAOIs 存在相互作用，导致药效增强，甚至发生严重的不良反应。 为进一步了解 MAOIs 及其与其他药物的相互作用，本文以本院药品说明书为检索重点，查阅相关资料，进一步明确: ①含有 MAOIs 的药物，②与 MAOIs 存在相互作用的药物及药学监护。\n1 资料与方法\n1. 1 说明书调查获取本院及其他医疗机构尽可能多的说明书原件或复印件。 制定 “单胺氧化酶抑制剂说明书调查表”; 查看说明书中药物的化学结构，含有胺基的重点记录; 了解该药物的药理作用，属于 MAOIs 的重点记录; 查看说明书中 【禁忌】、 【注意事项】、 【药物相互作用 】，提及 MAOIs的重点记录。\n1. 2 文献搜索检索中英文文献检索数据库，如CNKI 数字图书馆、 万方数据知识服务平台、PubMed 、 High Wire Press 等，搜索与 MAOIs 相关的文献 。"
+  }
+]

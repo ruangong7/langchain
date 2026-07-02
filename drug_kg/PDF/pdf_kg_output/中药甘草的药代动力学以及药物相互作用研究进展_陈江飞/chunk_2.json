@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "甘草甜素",
+        "canonical_name": "甘草甜素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "甘草次酸",
+        "canonical_name": "甘草次酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "甘草",
+        "canonical_name": "甘草",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "中药甘草的药代动力学以及药物相互作用研究进展_陈江飞.pdf",
+          "chunk_index": "中药甘草的药代动力学以及药物相互作用研究进展_陈江飞:2",
+          "raw_text": "甘草中的三萜皂苷类为主要活性成分，尤以甘草甜素(glycyrrhizin, GL, 图1)为主",
+          "chunk_id": "中药甘草的药代动力学以及药物相互作用研究进展_陈江飞:2",
+          "data": "5,7,3,4-四羟基-7-葡糖基-二氢黄酮醇和 8,5-二羟基-3-α-鼠李糖黄酮，胀果甘草中也发现两种新的异黄酮类成分 glabroisoflavanaone A 和 glabroisoflavanaone B[6]。\n2 药代动力学\n2.1 吸收甘草中的三萜皂苷类为主要活性成分，尤以甘草甜素(glycyrrhizin, GL, 图1)为主，因此它也是甘草在体内药代动力学研究的指标。大鼠口服GL剂量超过 $50\\mathrm{mg / kg}$ 才能在血浆中检测到[9-11]，表明它的口服生物利用度很低 $(4\\% ,200\\mathrm{mg / kg}\\cdot \\mathrm{o})^{[10]}$ ，而腹腔注射显著增加生物利用度 $(65\\% \\sim 90\\%)$ [11]，健康志愿者即使口服剂量达到800或 $1600\\mathrm{mg}$ 仅能检测出很低的血药浓度[9,12]，但这些研究结果显示无论是纯GL还是甘草提取物口服给药后均易检测到其苷元甘草次酸(glycyrrhetic acid, GA)的血药浓度。GL大鼠口服给药后GA的达峰时间 $(t_\\mathrm{max})$ 为 $12\\sim 16$ $\\mathrm{h}^{[9 - 10,13]}$ ，在人体内为 $8\\sim 12\\mathrm{h}^{[9,14]}$ 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "中药甘草的药代动力学以及药物相互作用研究进展_陈江飞.pdf",
+          "chunk_index": "中药甘草的药代动力学以及药物相互作用研究进展_陈江飞:2",
+          "raw_text": "其苷元甘草次酸(glycyrrhetic acid, GA)",
+          "chunk_id": "中药甘草的药代动力学以及药物相互作用研究进展_陈江飞:2",
+          "data": "5,7,3,4-四羟基-7-葡糖基-二氢黄酮醇和 8,5-二羟基-3-α-鼠李糖黄酮，胀果甘草中也发现两种新的异黄酮类成分 glabroisoflavanaone A 和 glabroisoflavanaone B[6]。\n2 药代动力学\n2.1 吸收甘草中的三萜皂苷类为主要活性成分，尤以甘草甜素(glycyrrhizin, GL, 图1)为主，因此它也是甘草在体内药代动力学研究的指标。大鼠口服GL剂量超过 $50\\mathrm{mg / kg}$ 才能在血浆中检测到[9-11]，表明它的口服生物利用度很低 $(4\\% ,200\\mathrm{mg / kg}\\cdot \\mathrm{o})^{[10]}$ ，而腹腔注射显著增加生物利用度 $(65\\% \\sim 90\\%)$ [11]，健康志愿者即使口服剂量达到800或 $1600\\mathrm{mg}$ 仅能检测出很低的血药浓度[9,12]，但这些研究结果显示无论是纯GL还是甘草提取物口服给药后均易检测到其苷元甘草次酸(glycyrrhetic acid, GA)的血药浓度。GL大鼠口服给药后GA的达峰时间 $(t_\\mathrm{max})$ 为 $12\\sim 16$ $\\mathrm{h}^{[9 - 10,13]}$ ，在人体内为 $8\\sim 12\\mathrm{h}^{[9,14]}$ 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "中药甘草的药代动力学以及药物相互作用研究进展_陈江飞:2",
+    "source": "中药甘草的药代动力学以及药物相互作用研究进展_陈江飞.pdf",
+    "text": "5,7,3,4-四羟基-7-葡糖基-二氢黄酮醇和 8,5-二羟基-3-α-鼠李糖黄酮，胀果甘草中也发现两种新的异黄酮类成分 glabroisoflavanaone A 和 glabroisoflavanaone B[6]。\n2 药代动力学\n2.1 吸收甘草中的三萜皂苷类为主要活性成分，尤以甘草甜素(glycyrrhizin, GL, 图1)为主，因此它也是甘草在体内药代动力学研究的指标。大鼠口服GL剂量超过 $50\\mathrm{mg / kg}$ 才能在血浆中检测到[9-11]，表明它的口服生物利用度很低 $(4\\% ,200\\mathrm{mg / kg}\\cdot \\mathrm{o})^{[10]}$ ，而腹腔注射显著增加生物利用度 $(65\\% \\sim 90\\%)$ [11]，健康志愿者即使口服剂量达到800或 $1600\\mathrm{mg}$ 仅能检测出很低的血药浓度[9,12]，但这些研究结果显示无论是纯GL还是甘草提取物口服给药后均易检测到其苷元甘草次酸(glycyrrhetic acid, GA)的血药浓度。GL大鼠口服给药后GA的达峰时间 $(t_\\mathrm{max})$ 为 $12\\sim 16$ $\\mathrm{h}^{[9 - 10,13]}$ ，在人体内为 $8\\sim 12\\mathrm{h}^{[9,14]}$ 。"
+  }
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "diflucan",
+        "canonical_name": "氟康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "vioxx",
+        "canonical_name": "罗非昔布",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "celebrex",
+        "canonical_name": "塞来昔布",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "ketoconazole",
+        "canonical_name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "diltiazem",
+        "canonical_name": "地尔硫卓",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "verapamil",
+        "canonical_name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "nifedipine",
+        "canonical_name": "硝苯地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "CYP3A4",
+        "canonical_name": "细胞色素P450 3A4",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美.pdf",
+          "chunk_index": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美:11",
+          "raw_text": "the inhibition degrees of diflucan, vioxx, celebrex, ketoconazole, diltiazem and verapamil to every enzymes were determined by half inhibitory concentration (IC50) values of every enzymes.",
+          "chunk_id": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美:11",
+          "data": "助。\nStudy on the effects of human CYP450 3A4 allelic polymorphism on drug metabolisms and drug-drug interactions in vitro\nLI Shuan-mei, LIU Duan, ZHU Juan-li, CHEN Chao Objective To study the inhibition degrees of drugs on the human cytochrome P450 3A4 (CYP3A4)(wild type, WT) and its four mutant allelic recombinant enzymes [CYP3A4\\*3(M445T), CYP3A4\\*4(I118V), CYP3A4\\*17(F189S), CYP3A4\\*18(L293P)] in vitro.Methods The kinetics parameters of WT and four mutant allelic recombinants were detected in catalyzing fluorescent substrate dibenzylfluorescein (DBF) dealkylation and probe substrate nifedipine oxidization by the fluorescent high throughout and the HPLC. Furthermore, the inhibition degrees of diflucan, vioxx, celebrex, ketoconazole, diltiazem and verapamil to every enzymes were determined by half inhibitory concentration $(\\mathrm{IC}_{50})$ values of every enzymes.Results Besides the F189S, other four recombinant enzymes could catalyze DBF and nifedipine to their relevant metabolites"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美.pdf",
+          "chunk_index": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美:11",
+          "raw_text": "the inhibition degrees of diflucan, vioxx, celebrex, ketoconazole, diltiazem and verapamil to every enzymes were determined by half inhibitory concentration (IC50) values of every enzymes.",
+          "chunk_id": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美:11",
+          "data": "助。\nStudy on the effects of human CYP450 3A4 allelic polymorphism on drug metabolisms and drug-drug interactions in vitro\nLI Shuan-mei, LIU Duan, ZHU Juan-li, CHEN Chao Objective To study the inhibition degrees of drugs on the human cytochrome P450 3A4 (CYP3A4)(wild type, WT) and its four mutant allelic recombinant enzymes [CYP3A4\\*3(M445T), CYP3A4\\*4(I118V), CYP3A4\\*17(F189S), CYP3A4\\*18(L293P)] in vitro.Methods The kinetics parameters of WT and four mutant allelic recombinants were detected in catalyzing fluorescent substrate dibenzylfluorescein (DBF) dealkylation and probe substrate nifedipine oxidization by the fluorescent high throughout and the HPLC. Furthermore, the inhibition degrees of diflucan, vioxx, celebrex, ketoconazole, diltiazem and verapamil to every enzymes were determined by half inhibitory concentration $(\\mathrm{IC}_{50})$ values of every enzymes.Results Besides the F189S, other four recombinant enzymes could catalyze DBF and nifedipine to their relevant metabolites"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美.pdf",
+          "chunk_index": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美:11",
+          "raw_text": "the inhibition degrees of diflucan, vioxx, celebrex, ketoconazole, diltiazem and verapamil to every enzymes were determined by half inhibitory concentration (IC50) values of every enzymes.",
+          "chunk_id": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美:11",
+          "data": "助。\nStudy on the effects of human CYP450 3A4 allelic polymorphism on drug metabolisms and drug-drug interactions in vitro\nLI Shuan-mei, LIU Duan, ZHU Juan-li, CHEN Chao Objective To study the inhibition degrees of drugs on the human cytochrome P450 3A4 (CYP3A4)(wild type, WT) and its four mutant allelic recombinant enzymes [CYP3A4\\*3(M445T), CYP3A4\\*4(I118V), CYP3A4\\*17(F189S), CYP3A4\\*18(L293P)] in vitro.Methods The kinetics parameters of WT and four mutant allelic recombinants were detected in catalyzing fluorescent substrate dibenzylfluorescein (DBF) dealkylation and probe substrate nifedipine oxidization by the fluorescent high throughout and the HPLC. Furthermore, the inhibition degrees of diflucan, vioxx, celebrex, ketoconazole, diltiazem and verapamil to every enzymes were determined by half inhibitory concentration $(\\mathrm{IC}_{50})$ values of every enzymes.Results Besides the F189S, other four recombinant enzymes could catalyze DBF and nifedipine to their relevant metabolites"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美.pdf",
+          "chunk_index": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美:11",
+          "raw_text": "the inhibition degrees of diflucan, vioxx, celebrex, ketoconazole, diltiazem and verapamil to every enzymes were determined by half inhibitory concentration (IC50) values of every enzymes.",
+          "chunk_id": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美:11",
+          "data": "助。\nStudy on the effects of human CYP450 3A4 allelic polymorphism on drug metabolisms and drug-drug interactions in vitro\nLI Shuan-mei, LIU Duan, ZHU Juan-li, CHEN Chao Objective To study the inhibition degrees of drugs on the human cytochrome P450 3A4 (CYP3A4)(wild type, WT) and its four mutant allelic recombinant enzymes [CYP3A4\\*3(M445T), CYP3A4\\*4(I118V), CYP3A4\\*17(F189S), CYP3A4\\*18(L293P)] in vitro.Methods The kinetics parameters of WT and four mutant allelic recombinants were detected in catalyzing fluorescent substrate dibenzylfluorescein (DBF) dealkylation and probe substrate nifedipine oxidization by the fluorescent high throughout and the HPLC. Furthermore, the inhibition degrees of diflucan, vioxx, celebrex, ketoconazole, diltiazem and verapamil to every enzymes were determined by half inhibitory concentration $(\\mathrm{IC}_{50})$ values of every enzymes.Results Besides the F189S, other four recombinant enzymes could catalyze DBF and nifedipine to their relevant metabolites"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美.pdf",
+          "chunk_index": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美:11",
+          "raw_text": "the inhibition degrees of diflucan, vioxx, celebrex, ketoconazole, diltiazem and verapamil to every enzymes were determined by half inhibitory concentration (IC50) values of every enzymes.",
+          "chunk_id": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美:11",
+          "data": "助。\nStudy on the effects of human CYP450 3A4 allelic polymorphism on drug metabolisms and drug-drug interactions in vitro\nLI Shuan-mei, LIU Duan, ZHU Juan-li, CHEN Chao Objective To study the inhibition degrees of drugs on the human cytochrome P450 3A4 (CYP3A4)(wild type, WT) and its four mutant allelic recombinant enzymes [CYP3A4\\*3(M445T), CYP3A4\\*4(I118V), CYP3A4\\*17(F189S), CYP3A4\\*18(L293P)] in vitro.Methods The kinetics parameters of WT and four mutant allelic recombinants were detected in catalyzing fluorescent substrate dibenzylfluorescein (DBF) dealkylation and probe substrate nifedipine oxidization by the fluorescent high throughout and the HPLC. Furthermore, the inhibition degrees of diflucan, vioxx, celebrex, ketoconazole, diltiazem and verapamil to every enzymes were determined by half inhibitory concentration $(\\mathrm{IC}_{50})$ values of every enzymes.Results Besides the F189S, other four recombinant enzymes could catalyze DBF and nifedipine to their relevant metabolites"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美.pdf",
+          "chunk_index": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美:11",
+          "raw_text": "the inhibition degrees of diflucan, vioxx, celebrex, ketoconazole, diltiazem and verapamil to every enzymes were determined by half inhibitory concentration (IC50) values of every enzymes.",
+          "chunk_id": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美:11",
+          "data": "助。\nStudy on the effects of human CYP450 3A4 allelic polymorphism on drug metabolisms and drug-drug interactions in vitro\nLI Shuan-mei, LIU Duan, ZHU Juan-li, CHEN Chao Objective To study the inhibition degrees of drugs on the human cytochrome P450 3A4 (CYP3A4)(wild type, WT) and its four mutant allelic recombinant enzymes [CYP3A4\\*3(M445T), CYP3A4\\*4(I118V), CYP3A4\\*17(F189S), CYP3A4\\*18(L293P)] in vitro.Methods The kinetics parameters of WT and four mutant allelic recombinants were detected in catalyzing fluorescent substrate dibenzylfluorescein (DBF) dealkylation and probe substrate nifedipine oxidization by the fluorescent high throughout and the HPLC. Furthermore, the inhibition degrees of diflucan, vioxx, celebrex, ketoconazole, diltiazem and verapamil to every enzymes were determined by half inhibitory concentration $(\\mathrm{IC}_{50})$ values of every enzymes.Results Besides the F189S, other four recombinant enzymes could catalyze DBF and nifedipine to their relevant metabolites"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美.pdf",
+          "chunk_index": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美:11",
+          "raw_text": "probe substrate nifedipine oxidization",
+          "chunk_id": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美:11",
+          "data": "助。\nStudy on the effects of human CYP450 3A4 allelic polymorphism on drug metabolisms and drug-drug interactions in vitro\nLI Shuan-mei, LIU Duan, ZHU Juan-li, CHEN Chao Objective To study the inhibition degrees of drugs on the human cytochrome P450 3A4 (CYP3A4)(wild type, WT) and its four mutant allelic recombinant enzymes [CYP3A4\\*3(M445T), CYP3A4\\*4(I118V), CYP3A4\\*17(F189S), CYP3A4\\*18(L293P)] in vitro.Methods The kinetics parameters of WT and four mutant allelic recombinants were detected in catalyzing fluorescent substrate dibenzylfluorescein (DBF) dealkylation and probe substrate nifedipine oxidization by the fluorescent high throughout and the HPLC. Furthermore, the inhibition degrees of diflucan, vioxx, celebrex, ketoconazole, diltiazem and verapamil to every enzymes were determined by half inhibitory concentration $(\\mathrm{IC}_{50})$ values of every enzymes.Results Besides the F189S, other four recombinant enzymes could catalyze DBF and nifedipine to their relevant metabolites"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美:11",
+    "source": "体外研究人细胞色素P450_3A4等位基因多态性对药物代谢和药物相互作用的影响_李拴美.pdf",
+    "text": "助。\nStudy on the effects of human CYP450 3A4 allelic polymorphism on drug metabolisms and drug-drug interactions in vitro\nLI Shuan-mei, LIU Duan, ZHU Juan-li, CHEN Chao Objective To study the inhibition degrees of drugs on the human cytochrome P450 3A4 (CYP3A4)(wild type, WT) and its four mutant allelic recombinant enzymes [CYP3A4\\*3(M445T), CYP3A4\\*4(I118V), CYP3A4\\*17(F189S), CYP3A4\\*18(L293P)] in vitro.Methods The kinetics parameters of WT and four mutant allelic recombinants were detected in catalyzing fluorescent substrate dibenzylfluorescein (DBF) dealkylation and probe substrate nifedipine oxidization by the fluorescent high throughout and the HPLC. Furthermore, the inhibition degrees of diflucan, vioxx, celebrex, ketoconazole, diltiazem and verapamil to every enzymes were determined by half inhibitory concentration $(\\mathrm{IC}_{50})$ values of every enzymes.Results Besides the F189S, other four recombinant enzymes could catalyze DBF and nifedipine to their relevant metabolites. The Km values (substrate affinities) of the mutant allelic recombinants in catalyzing DBF were similar to that of WT. The intrinsic clearance rates of M445T and L293P were 3.1 and 3.8 times higher than that of WT, respectively (P < 0.05). The intrinsic clearance rate of I118V was 1.3 times (P = 0.1010) higher than that of WT. The Km values of the recombinant enzymes in catalyzing nifedipine oxidation were lower than that of WT. The intrinsic clearance rates of I118V and L293P were 0.7 and 2.6 times higher than that of WT (P < 0.05). The intrinsic clearance rate of M445T was similar to that of WT (P = 0.7676). The inhibition degrees of 6 drugs showed the following rank order against every recombinant enzymes as measured: ketoconazole > diltiazem > verapamil > diflucan > celebrex > vioxx. The mean IC $_{50}$ values of every recombinant enzymes by drugs were arranged as WT < L293P < M445T < I118V.Conclusions The allelic change induced the change of the enzyme kinetic character and inhibition degrees of the drugs on enzymes. This could be used to lay the foundation in studying on the clinical drug combination.【Key words】Cytochrome P-450 enzyme system; Polymorphism, single nucleotide; Inhibitory concentration 50; Drug interactions Author Affiliations: National Engineering Research Center for Miniaturized Detection System, NorthWest University, Xi'an 710069, China (LI Shuan-mei, LIU Duan, CHEN Chao); Shaanxi Lifegen Co. Ltd, Xi'an 710069, China (ZHU Juan-li)Chin Med Biotechnol, 2009, 4(3):177-183 www.cmbp.net.cn"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "霉酚酸",
+        "canonical_name": "霉酚酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "更昔洛韦",
+        "canonical_name": "更昔洛韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "抑制胃酸分泌药物",
+        "canonical_name": "抑制胃酸分泌药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+          "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:2",
+          "raw_text": "合用更昔洛韦降低霉酚酸体内暴露量",
+          "chunk_id": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:2",
+          "data": ", P = 0 . 0 0 0 \\right)$ 。 结论霉酚酸体内暴露量与谷浓度有一定的相关性但是不能通过谷浓度估算出来合用抑制胃酸分泌药物不影响霉酚酸体内暴露量合用更昔洛韦降低霉酚酸体内暴露量；不同抗排斥方案霉酚酸体内暴露量存在差异。\nEffects of drug interactions on in vivo exposure of mycophenolic acid in renal transplant recipients"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+          "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:2",
+          "raw_text": "合用抑制胃酸分泌药物不影响霉酚酸体内暴露量",
+          "chunk_id": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:2",
+          "data": ", P = 0 . 0 0 0 \\right)$ 。 结论霉酚酸体内暴露量与谷浓度有一定的相关性但是不能通过谷浓度估算出来合用抑制胃酸分泌药物不影响霉酚酸体内暴露量合用更昔洛韦降低霉酚酸体内暴露量；不同抗排斥方案霉酚酸体内暴露量存在差异。\nEffects of drug interactions on in vivo exposure of mycophenolic acid in renal transplant recipients"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:2",
+    "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+    "text": ", P = 0 . 0 0 0 \\right)$ 。 结论霉酚酸体内暴露量与谷浓度有一定的相关性但是不能通过谷浓度估算出来合用抑制胃酸分泌药物不影响霉酚酸体内暴露量合用更昔洛韦降低霉酚酸体内暴露量；不同抗排斥方案霉酚酸体内暴露量存在差异。\nEffects of drug interactions on in vivo exposure of mycophenolic acid in renal transplant recipients"
+  }
+]

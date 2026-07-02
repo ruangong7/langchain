@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "丹参",
+        "canonical_name": "丹参",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "细胞色素P450酶",
+        "canonical_name": "细胞色素P450酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "心脑血管疾病",
+        "canonical_name": "心脑血管疾病",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "基于细胞色素P450酶的丹参代谢及其药物相互作用的研究进展_张飞燕.pdf",
+          "chunk_index": "基于细胞色素P450酶的丹参代谢及其药物相互作用的研究进展_张飞燕:0",
+          "raw_text": "近年来，丹参被广泛应用于心脑血管疾病的治疗",
+          "chunk_id": "基于细胞色素P450酶的丹参代谢及其药物相互作用的研究进展_张飞燕:0",
+          "data": "基于细胞色素 P450 酶的丹参代谢及其药物相互作用的研究进展\n张飞燕，俸珊，徐晓玉\\*西南大学药学院，重庆 400716摘要：近年来，丹参被广泛应用于心脑血管疾病的治疗，因此，丹参活性成分的体内代谢及其药物间相互作用越来越受关注。就丹参提取物、主要单体成分和丹参复方基于细胞色素 P450 酶（CYP450s）的代谢及药物间相互作用的研究进展进行综述，为丹参及其活性成分的应用和研究提供参考。\nResearch progress on metabolism and interaction of Salvia miltiorrhiza based on cytochrome P450s"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于细胞色素P450酶的丹参代谢及其药物相互作用的研究进展_张飞燕.pdf",
+          "chunk_index": "基于细胞色素P450酶的丹参代谢及其药物相互作用的研究进展_张飞燕:0",
+          "raw_text": "基于细胞色素 P450 酶的丹参代谢及其药物相互作用",
+          "chunk_id": "基于细胞色素P450酶的丹参代谢及其药物相互作用的研究进展_张飞燕:0",
+          "data": "基于细胞色素 P450 酶的丹参代谢及其药物相互作用的研究进展\n张飞燕，俸珊，徐晓玉\\*西南大学药学院，重庆 400716摘要：近年来，丹参被广泛应用于心脑血管疾病的治疗，因此，丹参活性成分的体内代谢及其药物间相互作用越来越受关注。就丹参提取物、主要单体成分和丹参复方基于细胞色素 P450 酶（CYP450s）的代谢及药物间相互作用的研究进展进行综述，为丹参及其活性成分的应用和研究提供参考。\nResearch progress on metabolism and interaction of Salvia miltiorrhiza based on cytochrome P450s"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于细胞色素P450酶的丹参代谢及其药物相互作用的研究进展_张飞燕:0",
+    "source": "基于细胞色素P450酶的丹参代谢及其药物相互作用的研究进展_张飞燕.pdf",
+    "text": "基于细胞色素 P450 酶的丹参代谢及其药物相互作用的研究进展\n张飞燕，俸珊，徐晓玉\\*西南大学药学院，重庆 400716摘要：近年来，丹参被广泛应用于心脑血管疾病的治疗，因此，丹参活性成分的体内代谢及其药物间相互作用越来越受关注。就丹参提取物、主要单体成分和丹参复方基于细胞色素 P450 酶（CYP450s）的代谢及药物间相互作用的研究进展进行综述，为丹参及其活性成分的应用和研究提供参考。\nResearch progress on metabolism and interaction of Salvia miltiorrhiza based on cytochrome P450s"
+  }
+]

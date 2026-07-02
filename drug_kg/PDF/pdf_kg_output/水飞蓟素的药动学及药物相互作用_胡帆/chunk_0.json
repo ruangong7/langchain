@@ -1,0 +1,139 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "水飞蓟素",
+        "canonical_name": "水飞蓟素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "黄酮多酚类混合物",
+        "canonical_name": "黄酮多酚类混合物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP450酶",
+        "canonical_name": "CYP450酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "葡萄糖醛酸转移酶",
+        "canonical_name": "葡萄糖醛酸转移酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "P糖蛋白",
+        "canonical_name": "P糖蛋白",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "OATP1B1",
+        "canonical_name": "OATP1B1",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "BCRP",
+        "canonical_name": "BCRP",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "水飞蓟素的药动学及药物相互作用_胡帆.pdf",
+          "chunk_index": "水飞蓟素的药动学及药物相互作用_胡帆:0",
+          "raw_text": "水飞蓟素是水飞蓟种子中提取的黄酮多酚类混合物。",
+          "chunk_id": "水飞蓟素的药动学及药物相互作用_胡帆:0",
+          "data": "水飞蓟素的药动学及药物相互作用\n胡帆 $^{1,2}$ ，袁洪 $^{1}$ ，黄志军 $^{1}$ ，左笑丛 $^{1}$(1. 中南大学湘雅三医院，湖南长沙 410013；2. 中南大学药学院，湖南长沙 410013)[摘要] 水飞蓟素是水飞蓟种子中提取的黄酮多酚类混合物。在体内经一相和二相代谢后大部分经胆汁排泄，可降低CYP450酶、葡萄糖醛酸转移酶（UGT）的活性；抑制P糖蛋白（P-gp）、OATP1B1与BCRP的转运，从而影响相应酶与转运体底物的药动学参数，因此发生药物相互作用的风险较高。本文综述了近年来水飞蓟素的药动学及药物相互作用研究。\nPharmacokinetics and herb-drug interactions of silymarin"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "水飞蓟素的药动学及药物相互作用_胡帆.pdf",
+          "chunk_index": "水飞蓟素的药动学及药物相互作用_胡帆:0",
+          "raw_text": "可降低CYP450酶、葡萄糖醛酸转移酶（UGT）的活性；抑制P糖蛋白（P-gp）、OATP1B1与BCRP的转运，从而影响相应酶与转运体底物的药动学参数，因此发生药物相互作用的风险较高。",
+          "chunk_id": "水飞蓟素的药动学及药物相互作用_胡帆:0",
+          "data": "水飞蓟素的药动学及药物相互作用\n胡帆 $^{1,2}$ ，袁洪 $^{1}$ ，黄志军 $^{1}$ ，左笑丛 $^{1}$(1. 中南大学湘雅三医院，湖南长沙 410013；2. 中南大学药学院，湖南长沙 410013)[摘要] 水飞蓟素是水飞蓟种子中提取的黄酮多酚类混合物。在体内经一相和二相代谢后大部分经胆汁排泄，可降低CYP450酶、葡萄糖醛酸转移酶（UGT）的活性；抑制P糖蛋白（P-gp）、OATP1B1与BCRP的转运，从而影响相应酶与转运体底物的药动学参数，因此发生药物相互作用的风险较高。本文综述了近年来水飞蓟素的药动学及药物相互作用研究。\nPharmacokinetics and herb-drug interactions of silymarin"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "水飞蓟素的药动学及药物相互作用_胡帆.pdf",
+          "chunk_index": "水飞蓟素的药动学及药物相互作用_胡帆:0",
+          "raw_text": "可降低CYP450酶、葡萄糖醛酸转移酶（UGT）的活性；抑制P糖蛋白（P-gp）、OATP1B1与BCRP的转运，从而影响相应酶与转运体底物的药动学参数，因此发生药物相互作用的风险较高。",
+          "chunk_id": "水飞蓟素的药动学及药物相互作用_胡帆:0",
+          "data": "水飞蓟素的药动学及药物相互作用\n胡帆 $^{1,2}$ ，袁洪 $^{1}$ ，黄志军 $^{1}$ ，左笑丛 $^{1}$(1. 中南大学湘雅三医院，湖南长沙 410013；2. 中南大学药学院，湖南长沙 410013)[摘要] 水飞蓟素是水飞蓟种子中提取的黄酮多酚类混合物。在体内经一相和二相代谢后大部分经胆汁排泄，可降低CYP450酶、葡萄糖醛酸转移酶（UGT）的活性；抑制P糖蛋白（P-gp）、OATP1B1与BCRP的转运，从而影响相应酶与转运体底物的药动学参数，因此发生药物相互作用的风险较高。本文综述了近年来水飞蓟素的药动学及药物相互作用研究。\nPharmacokinetics and herb-drug interactions of silymarin"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "水飞蓟素的药动学及药物相互作用_胡帆.pdf",
+          "chunk_index": "水飞蓟素的药动学及药物相互作用_胡帆:0",
+          "raw_text": "可降低CYP450酶、葡萄糖醛酸转移酶（UGT）的活性；抑制P糖蛋白（P-gp）、OATP1B1与BCRP的转运，从而影响相应酶与转运体底物的药动学参数，因此发生药物相互作用的风险较高。",
+          "chunk_id": "水飞蓟素的药动学及药物相互作用_胡帆:0",
+          "data": "水飞蓟素的药动学及药物相互作用\n胡帆 $^{1,2}$ ，袁洪 $^{1}$ ，黄志军 $^{1}$ ，左笑丛 $^{1}$(1. 中南大学湘雅三医院，湖南长沙 410013；2. 中南大学药学院，湖南长沙 410013)[摘要] 水飞蓟素是水飞蓟种子中提取的黄酮多酚类混合物。在体内经一相和二相代谢后大部分经胆汁排泄，可降低CYP450酶、葡萄糖醛酸转移酶（UGT）的活性；抑制P糖蛋白（P-gp）、OATP1B1与BCRP的转运，从而影响相应酶与转运体底物的药动学参数，因此发生药物相互作用的风险较高。本文综述了近年来水飞蓟素的药动学及药物相互作用研究。\nPharmacokinetics and herb-drug interactions of silymarin"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "水飞蓟素的药动学及药物相互作用_胡帆.pdf",
+          "chunk_index": "水飞蓟素的药动学及药物相互作用_胡帆:0",
+          "raw_text": "可降低CYP450酶、葡萄糖醛酸转移酶（UGT）的活性；抑制P糖蛋白（P-gp）、OATP1B1与BCRP的转运，从而影响相应酶与转运体底物的药动学参数，因此发生药物相互作用的风险较高。",
+          "chunk_id": "水飞蓟素的药动学及药物相互作用_胡帆:0",
+          "data": "水飞蓟素的药动学及药物相互作用\n胡帆 $^{1,2}$ ，袁洪 $^{1}$ ，黄志军 $^{1}$ ，左笑丛 $^{1}$(1. 中南大学湘雅三医院，湖南长沙 410013；2. 中南大学药学院，湖南长沙 410013)[摘要] 水飞蓟素是水飞蓟种子中提取的黄酮多酚类混合物。在体内经一相和二相代谢后大部分经胆汁排泄，可降低CYP450酶、葡萄糖醛酸转移酶（UGT）的活性；抑制P糖蛋白（P-gp）、OATP1B1与BCRP的转运，从而影响相应酶与转运体底物的药动学参数，因此发生药物相互作用的风险较高。本文综述了近年来水飞蓟素的药动学及药物相互作用研究。\nPharmacokinetics and herb-drug interactions of silymarin"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "水飞蓟素的药动学及药物相互作用_胡帆.pdf",
+          "chunk_index": "水飞蓟素的药动学及药物相互作用_胡帆:0",
+          "raw_text": "可降低CYP450酶、葡萄糖醛酸转移酶（UGT）的活性；抑制P糖蛋白（P-gp）、OATP1B1与BCRP的转运，从而影响相应酶与转运体底物的药动学参数，因此发生药物相互作用的风险较高。",
+          "chunk_id": "水飞蓟素的药动学及药物相互作用_胡帆:0",
+          "data": "水飞蓟素的药动学及药物相互作用\n胡帆 $^{1,2}$ ，袁洪 $^{1}$ ，黄志军 $^{1}$ ，左笑丛 $^{1}$(1. 中南大学湘雅三医院，湖南长沙 410013；2. 中南大学药学院，湖南长沙 410013)[摘要] 水飞蓟素是水飞蓟种子中提取的黄酮多酚类混合物。在体内经一相和二相代谢后大部分经胆汁排泄，可降低CYP450酶、葡萄糖醛酸转移酶（UGT）的活性；抑制P糖蛋白（P-gp）、OATP1B1与BCRP的转运，从而影响相应酶与转运体底物的药动学参数，因此发生药物相互作用的风险较高。本文综述了近年来水飞蓟素的药动学及药物相互作用研究。\nPharmacokinetics and herb-drug interactions of silymarin"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "水飞蓟素的药动学及药物相互作用_胡帆:0",
+    "source": "水飞蓟素的药动学及药物相互作用_胡帆.pdf",
+    "text": "水飞蓟素的药动学及药物相互作用\n胡帆 $^{1,2}$ ，袁洪 $^{1}$ ，黄志军 $^{1}$ ，左笑丛 $^{1}$(1. 中南大学湘雅三医院，湖南长沙 410013；2. 中南大学药学院，湖南长沙 410013)[摘要] 水飞蓟素是水飞蓟种子中提取的黄酮多酚类混合物。在体内经一相和二相代谢后大部分经胆汁排泄，可降低CYP450酶、葡萄糖醛酸转移酶（UGT）的活性；抑制P糖蛋白（P-gp）、OATP1B1与BCRP的转运，从而影响相应酶与转运体底物的药动学参数，因此发生药物相互作用的风险较高。本文综述了近年来水飞蓟素的药动学及药物相互作用研究。\nPharmacokinetics and herb-drug interactions of silymarin"
+  }
+]

@@ -1,0 +1,139 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "IG-105",
+        "canonical_name": "IG-105",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "CYP1A2",
+        "canonical_name": "CYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP2B6",
+        "canonical_name": "CYP2B6",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "CYP2C9",
+        "canonical_name": "CYP2C9",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP2C19",
+        "canonical_name": "CYP2C19",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "CYP2D6",
+        "canonical_name": "CYP2D6",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "CYP3A",
+        "canonical_name": "CYP3A",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:9",
+          "raw_text": "将肝微粒体、IG-105 与 CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6 和 CYP3A 六种同工酶的特异性抑制剂分别共同孵育, 通过测定原药的消耗, 进一步明确人肝微粒体中主要负责 IG-105 代谢的 CYP 同工酶。",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:9",
+          "data": "2 (轰击能量$2 8 \\mathrm { e V } ) _ { \\mathfrak { c } }$ 。依据《FDA 生物样品分析方法验证的指导原则》, 对于定量方法开展了包括特异性、线性、准确度、精密度、回收率、稳定性在内方法学验证。\n将肝微粒体、IG-105 与 CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6 和 CYP3A 六种同工酶的特异性抑制剂分别共同孵育, 通过测定原药的消耗, 进一步明确人肝微粒体中主要负责 IG-105 代谢的 CYP 同工酶。以不加入抑制剂为对照, 考察何种同工酶被抑制后, IG-105 的代谢显著减少, 即证明该 P450 酶对 IG-105 的代谢起主要作用。各酶特异性化学抑制剂的终浓度如下: CYP1A2 抑制剂 $\\alpha \\mathrm { - }$ 萘黄酮$1 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2B6 抑制剂噻氯匹定 $1 0 \\mathrm { \\ \\ u m o l { \\cdot } L ^ { - 1 } }$ ,CYP2C9抑制剂磺胺苯吡啶 $1 0 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2C19 抑制剂苄基尼凡诺 $5 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2D6抑制剂奎尼丁1$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , 以及 CYP3A 抑制剂酮康唑 $1 0 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 。在以上浓度下, 特异性抑制剂对目标 P450 酶的抑制率大于 $9 0 \\% ^ { [ 1 3 - 1 7 ] }$ 。抑制剂与肝微粒体 37 ℃预孵育 5min, 加入 NADPH 溶液启动反应。所有孵育均为三样本。无抑制剂的对照组以 DMSO 代替化学抑制剂。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:9",
+          "raw_text": "将肝微粒体、IG-105 与 CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6 和 CYP3A 六种同工酶的特异性抑制剂分别共同孵育, 通过测定原药的消耗, 进一步明确人肝微粒体中主要负责 IG-105 代谢的 CYP 同工酶。",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:9",
+          "data": "2 (轰击能量$2 8 \\mathrm { e V } ) _ { \\mathfrak { c } }$ 。依据《FDA 生物样品分析方法验证的指导原则》, 对于定量方法开展了包括特异性、线性、准确度、精密度、回收率、稳定性在内方法学验证。\n将肝微粒体、IG-105 与 CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6 和 CYP3A 六种同工酶的特异性抑制剂分别共同孵育, 通过测定原药的消耗, 进一步明确人肝微粒体中主要负责 IG-105 代谢的 CYP 同工酶。以不加入抑制剂为对照, 考察何种同工酶被抑制后, IG-105 的代谢显著减少, 即证明该 P450 酶对 IG-105 的代谢起主要作用。各酶特异性化学抑制剂的终浓度如下: CYP1A2 抑制剂 $\\alpha \\mathrm { - }$ 萘黄酮$1 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2B6 抑制剂噻氯匹定 $1 0 \\mathrm { \\ \\ u m o l { \\cdot } L ^ { - 1 } }$ ,CYP2C9抑制剂磺胺苯吡啶 $1 0 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2C19 抑制剂苄基尼凡诺 $5 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2D6抑制剂奎尼丁1$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , 以及 CYP3A 抑制剂酮康唑 $1 0 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 。在以上浓度下, 特异性抑制剂对目标 P450 酶的抑制率大于 $9 0 \\% ^ { [ 1 3 - 1 7 ] }$ 。抑制剂与肝微粒体 37 ℃预孵育 5min, 加入 NADPH 溶液启动反应。所有孵育均为三样本。无抑制剂的对照组以 DMSO 代替化学抑制剂。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:9",
+          "raw_text": "将肝微粒体、IG-105 与 CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6 和 CYP3A 六种同工酶的特异性抑制剂分别共同孵育, 通过测定原药的消耗, 进一步明确人肝微粒体中主要负责 IG-105 代谢的 CYP 同工酶。",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:9",
+          "data": "2 (轰击能量$2 8 \\mathrm { e V } ) _ { \\mathfrak { c } }$ 。依据《FDA 生物样品分析方法验证的指导原则》, 对于定量方法开展了包括特异性、线性、准确度、精密度、回收率、稳定性在内方法学验证。\n将肝微粒体、IG-105 与 CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6 和 CYP3A 六种同工酶的特异性抑制剂分别共同孵育, 通过测定原药的消耗, 进一步明确人肝微粒体中主要负责 IG-105 代谢的 CYP 同工酶。以不加入抑制剂为对照, 考察何种同工酶被抑制后, IG-105 的代谢显著减少, 即证明该 P450 酶对 IG-105 的代谢起主要作用。各酶特异性化学抑制剂的终浓度如下: CYP1A2 抑制剂 $\\alpha \\mathrm { - }$ 萘黄酮$1 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2B6 抑制剂噻氯匹定 $1 0 \\mathrm { \\ \\ u m o l { \\cdot } L ^ { - 1 } }$ ,CYP2C9抑制剂磺胺苯吡啶 $1 0 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2C19 抑制剂苄基尼凡诺 $5 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2D6抑制剂奎尼丁1$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , 以及 CYP3A 抑制剂酮康唑 $1 0 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 。在以上浓度下, 特异性抑制剂对目标 P450 酶的抑制率大于 $9 0 \\% ^ { [ 1 3 - 1 7 ] }$ 。抑制剂与肝微粒体 37 ℃预孵育 5min, 加入 NADPH 溶液启动反应。所有孵育均为三样本。无抑制剂的对照组以 DMSO 代替化学抑制剂。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:9",
+          "raw_text": "将肝微粒体、IG-105 与 CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6 和 CYP3A 六种同工酶的特异性抑制剂分别共同孵育, 通过测定原药的消耗, 进一步明确人肝微粒体中主要负责 IG-105 代谢的 CYP 同工酶。",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:9",
+          "data": "2 (轰击能量$2 8 \\mathrm { e V } ) _ { \\mathfrak { c } }$ 。依据《FDA 生物样品分析方法验证的指导原则》, 对于定量方法开展了包括特异性、线性、准确度、精密度、回收率、稳定性在内方法学验证。\n将肝微粒体、IG-105 与 CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6 和 CYP3A 六种同工酶的特异性抑制剂分别共同孵育, 通过测定原药的消耗, 进一步明确人肝微粒体中主要负责 IG-105 代谢的 CYP 同工酶。以不加入抑制剂为对照, 考察何种同工酶被抑制后, IG-105 的代谢显著减少, 即证明该 P450 酶对 IG-105 的代谢起主要作用。各酶特异性化学抑制剂的终浓度如下: CYP1A2 抑制剂 $\\alpha \\mathrm { - }$ 萘黄酮$1 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2B6 抑制剂噻氯匹定 $1 0 \\mathrm { \\ \\ u m o l { \\cdot } L ^ { - 1 } }$ ,CYP2C9抑制剂磺胺苯吡啶 $1 0 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2C19 抑制剂苄基尼凡诺 $5 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2D6抑制剂奎尼丁1$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , 以及 CYP3A 抑制剂酮康唑 $1 0 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 。在以上浓度下, 特异性抑制剂对目标 P450 酶的抑制率大于 $9 0 \\% ^ { [ 1 3 - 1 7 ] }$ 。抑制剂与肝微粒体 37 ℃预孵育 5min, 加入 NADPH 溶液启动反应。所有孵育均为三样本。无抑制剂的对照组以 DMSO 代替化学抑制剂。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:9",
+          "raw_text": "将肝微粒体、IG-105 与 CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6 和 CYP3A 六种同工酶的特异性抑制剂分别共同孵育, 通过测定原药的消耗, 进一步明确人肝微粒体中主要负责 IG-105 代谢的 CYP 同工酶。",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:9",
+          "data": "2 (轰击能量$2 8 \\mathrm { e V } ) _ { \\mathfrak { c } }$ 。依据《FDA 生物样品分析方法验证的指导原则》, 对于定量方法开展了包括特异性、线性、准确度、精密度、回收率、稳定性在内方法学验证。\n将肝微粒体、IG-105 与 CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6 和 CYP3A 六种同工酶的特异性抑制剂分别共同孵育, 通过测定原药的消耗, 进一步明确人肝微粒体中主要负责 IG-105 代谢的 CYP 同工酶。以不加入抑制剂为对照, 考察何种同工酶被抑制后, IG-105 的代谢显著减少, 即证明该 P450 酶对 IG-105 的代谢起主要作用。各酶特异性化学抑制剂的终浓度如下: CYP1A2 抑制剂 $\\alpha \\mathrm { - }$ 萘黄酮$1 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2B6 抑制剂噻氯匹定 $1 0 \\mathrm { \\ \\ u m o l { \\cdot } L ^ { - 1 } }$ ,CYP2C9抑制剂磺胺苯吡啶 $1 0 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2C19 抑制剂苄基尼凡诺 $5 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2D6抑制剂奎尼丁1$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , 以及 CYP3A 抑制剂酮康唑 $1 0 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 。在以上浓度下, 特异性抑制剂对目标 P450 酶的抑制率大于 $9 0 \\% ^ { [ 1 3 - 1 7 ] }$ 。抑制剂与肝微粒体 37 ℃预孵育 5min, 加入 NADPH 溶液启动反应。所有孵育均为三样本。无抑制剂的对照组以 DMSO 代替化学抑制剂。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+          "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:9",
+          "raw_text": "将肝微粒体、IG-105 与 CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6 和 CYP3A 六种同工酶的特异性抑制剂分别共同孵育, 通过测定原药的消耗, 进一步明确人肝微粒体中主要负责 IG-105 代谢的 CYP 同工酶。",
+          "chunk_id": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:9",
+          "data": "2 (轰击能量$2 8 \\mathrm { e V } ) _ { \\mathfrak { c } }$ 。依据《FDA 生物样品分析方法验证的指导原则》, 对于定量方法开展了包括特异性、线性、准确度、精密度、回收率、稳定性在内方法学验证。\n将肝微粒体、IG-105 与 CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6 和 CYP3A 六种同工酶的特异性抑制剂分别共同孵育, 通过测定原药的消耗, 进一步明确人肝微粒体中主要负责 IG-105 代谢的 CYP 同工酶。以不加入抑制剂为对照, 考察何种同工酶被抑制后, IG-105 的代谢显著减少, 即证明该 P450 酶对 IG-105 的代谢起主要作用。各酶特异性化学抑制剂的终浓度如下: CYP1A2 抑制剂 $\\alpha \\mathrm { - }$ 萘黄酮$1 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2B6 抑制剂噻氯匹定 $1 0 \\mathrm { \\ \\ u m o l { \\cdot } L ^ { - 1 } }$ ,CYP2C9抑制剂磺胺苯吡啶 $1 0 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2C19 抑制剂苄基尼凡诺 $5 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2D6抑制剂奎尼丁1$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , 以及 CYP3A 抑制剂酮康唑 $1 0 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 。在以上浓度下, 特异性抑制剂对目标 P450 酶的抑制率大于 $9 0 \\% ^ { [ 1 3 - 1 7 ] }$ 。抑制剂与肝微粒体 37 ℃预孵育 5min, 加入 NADPH 溶液启动反应。所有孵育均为三样本。无抑制剂的对照组以 DMSO 代替化学抑制剂。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶:9",
+    "source": "新型抗肿瘤微管抑制剂IG-105的体外代谢及药物相互作用的研究_庞晶.pdf",
+    "text": "2 (轰击能量$2 8 \\mathrm { e V } ) _ { \\mathfrak { c } }$ 。依据《FDA 生物样品分析方法验证的指导原则》, 对于定量方法开展了包括特异性、线性、准确度、精密度、回收率、稳定性在内方法学验证。\n将肝微粒体、IG-105 与 CYP1A2、CYP2B6、CYP2C9、CYP2C19、CYP2D6 和 CYP3A 六种同工酶的特异性抑制剂分别共同孵育, 通过测定原药的消耗, 进一步明确人肝微粒体中主要负责 IG-105 代谢的 CYP 同工酶。以不加入抑制剂为对照, 考察何种同工酶被抑制后, IG-105 的代谢显著减少, 即证明该 P450 酶对 IG-105 的代谢起主要作用。各酶特异性化学抑制剂的终浓度如下: CYP1A2 抑制剂 $\\alpha \\mathrm { - }$ 萘黄酮$1 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2B6 抑制剂噻氯匹定 $1 0 \\mathrm { \\ \\ u m o l { \\cdot } L ^ { - 1 } }$ ,CYP2C9抑制剂磺胺苯吡啶 $1 0 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2C19 抑制剂苄基尼凡诺 $5 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , CYP2D6抑制剂奎尼丁1$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , 以及 CYP3A 抑制剂酮康唑 $1 0 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 。在以上浓度下, 特异性抑制剂对目标 P450 酶的抑制率大于 $9 0 \\% ^ { [ 1 3 - 1 7 ] }$ 。抑制剂与肝微粒体 37 ℃预孵育 5min, 加入 NADPH 溶液启动反应。所有孵育均为三样本。无抑制剂的对照组以 DMSO 代替化学抑制剂。"
+  }
+]

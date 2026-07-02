@@ -1,0 +1,191 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "药根碱",
+        "canonical_name": "药根碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "华法令",
+        "canonical_name": "华法令",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "硫喷妥钠",
+        "canonical_name": "硫喷妥钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "甲苯磺丁脲",
+        "canonical_name": "甲苯磺丁脲",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "黄连",
+        "canonical_name": "黄连",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "黄柏",
+        "canonical_name": "黄柏",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "D860",
+        "canonical_name": "D860",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药根碱药物相互作用及其机制研究_谭毓治.pdf",
+          "chunk_index": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "raw_text": "整体动物药效学研究表明能延长所致的小鼠凝血时间能延长所致的小鼠睡眠时间能增强 $\\mathrm { D } { } _ { 8 6 0 }$ 的降血糖作用体外实验结果表明$\\mathrm { J a t }$ 与人血清白蛋白结合常数为 $1 . 2 9 \\times 1 0 ^ { 3 }$ L·$\\mathbf { m o l } ^ { - 1 }$ 说明其与白蛋白有高度结合与血浆白蛋白的高度结合可通过竞争使和 $\\mathrm { D } _ { 8 6 0 }$ 置换出来造成其血浆浓度明显增高药效或毒性加强这可能是药根碱与和 $\\mathrm { D } _ { 8 6 0 }$ 产生药物相互作用的药理学机制上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度",
+          "chunk_id": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "data": "{ \\mathrm { p } } } = 1 . 2 9 \\times 1 0 ^ { 4 } \\mathbf { L } \\cdot \\mathbf { m o l } ^ { - 1 }$ 结合常数大表明二者有高度的结合\n4 讨论\n整体动物药效学研究表明能延长所致的小鼠凝血时间能延长所致的小鼠睡眠时间能增强 $\\mathrm { D } { } _ { 8 6 0 }$ 的降血糖作用体外实验结果表明$\\mathrm { J a t }$ 与人血清白蛋白结合常数为 $1 . 2 9 \\times 1 0 ^ { 3 }$ L·$\\mathbf { m o l } ^ { - 1 }$ 说明其与白蛋白有高度结合与血浆白蛋白的高度结合可通过竞争使和 $\\mathrm { D } _ { 8 6 0 }$ 置换出来造成其血浆浓度明显增高药效或毒性加强这可能是药根碱与和 $\\mathrm { D } _ { 8 6 0 }$ 产生药物相互作用的药理学机制上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度\nStudy on the interactions between jatrorrhizine and other drugs and mechanisms of the interaction"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "药根碱药物相互作用及其机制研究_谭毓治.pdf",
+          "chunk_index": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "raw_text": "整体动物药效学研究表明能延长所致的小鼠凝血时间能延长所致的小鼠睡眠时间能增强 $\\mathrm { D } { } _ { 8 6 0 }$ 的降血糖作用体外实验结果表明$\\mathrm { J a t }$ 与人血清白蛋白结合常数为 $1 . 2 9 \\times 1 0 ^ { 3 }$ L·$\\mathbf { m o l } ^ { - 1 }$ 说明其与白蛋白有高度结合与血浆白蛋白的高度结合可通过竞争使和 $\\mathrm { D } _ { 8 6 0 }$ 置换出来造成其血浆浓度明显增高药效或毒性加强这可能是药根碱与和 $\\mathrm { D } _ { 8 6 0 }$ 产生药物相互作用的药理学机制上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度",
+          "chunk_id": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "data": "{ \\mathrm { p } } } = 1 . 2 9 \\times 1 0 ^ { 4 } \\mathbf { L } \\cdot \\mathbf { m o l } ^ { - 1 }$ 结合常数大表明二者有高度的结合\n4 讨论\n整体动物药效学研究表明能延长所致的小鼠凝血时间能延长所致的小鼠睡眠时间能增强 $\\mathrm { D } { } _ { 8 6 0 }$ 的降血糖作用体外实验结果表明$\\mathrm { J a t }$ 与人血清白蛋白结合常数为 $1 . 2 9 \\times 1 0 ^ { 3 }$ L·$\\mathbf { m o l } ^ { - 1 }$ 说明其与白蛋白有高度结合与血浆白蛋白的高度结合可通过竞争使和 $\\mathrm { D } _ { 8 6 0 }$ 置换出来造成其血浆浓度明显增高药效或毒性加强这可能是药根碱与和 $\\mathrm { D } _ { 8 6 0 }$ 产生药物相互作用的药理学机制上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度\nStudy on the interactions between jatrorrhizine and other drugs and mechanisms of the interaction"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "药根碱药物相互作用及其机制研究_谭毓治.pdf",
+          "chunk_index": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "raw_text": "整体动物药效学研究表明能延长所致的小鼠凝血时间能延长所致的小鼠睡眠时间能增强 $\\mathrm { D } { } _ { 8 6 0 }$ 的降血糖作用体外实验结果表明$\\mathrm { J a t }$ 与人血清白蛋白结合常数为 $1 . 2 9 \\times 1 0 ^ { 3 }$ L·$\\mathbf { m o l } ^ { - 1 }$ 说明其与白蛋白有高度结合与血浆白蛋白的高度结合可通过竞争使和 $\\mathrm { D } _ { 8 6 0 }$ 置换出来造成其血浆浓度明显增高药效或毒性加强这可能是药根碱与和 $\\mathrm { D } _ { 8 6 0 }$ 产生药物相互作用的药理学机制上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度",
+          "chunk_id": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "data": "{ \\mathrm { p } } } = 1 . 2 9 \\times 1 0 ^ { 4 } \\mathbf { L } \\cdot \\mathbf { m o l } ^ { - 1 }$ 结合常数大表明二者有高度的结合\n4 讨论\n整体动物药效学研究表明能延长所致的小鼠凝血时间能延长所致的小鼠睡眠时间能增强 $\\mathrm { D } { } _ { 8 6 0 }$ 的降血糖作用体外实验结果表明$\\mathrm { J a t }$ 与人血清白蛋白结合常数为 $1 . 2 9 \\times 1 0 ^ { 3 }$ L·$\\mathbf { m o l } ^ { - 1 }$ 说明其与白蛋白有高度结合与血浆白蛋白的高度结合可通过竞争使和 $\\mathrm { D } _ { 8 6 0 }$ 置换出来造成其血浆浓度明显增高药效或毒性加强这可能是药根碱与和 $\\mathrm { D } _ { 8 6 0 }$ 产生药物相互作用的药理学机制上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度\nStudy on the interactions between jatrorrhizine and other drugs and mechanisms of the interaction"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "药根碱药物相互作用及其机制研究_谭毓治.pdf",
+          "chunk_index": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "raw_text": "整体动物药效学研究表明能延长所致的小鼠凝血时间能延长所致的小鼠睡眠时间能增强 $\\mathrm { D } { } _ { 8 6 0 }$ 的降血糖作用体外实验结果表明$\\mathrm { J a t }$ 与人血清白蛋白结合常数为 $1 . 2 9 \\times 1 0 ^ { 3 }$ L·$\\mathbf { m o l } ^ { - 1 }$ 说明其与白蛋白有高度结合与血浆白蛋白的高度结合可通过竞争使和 $\\mathrm { D } _ { 8 6 0 }$ 置换出来造成其血浆浓度明显增高药效或毒性加强这可能是药根碱与和 $\\mathrm { D } _ { 8 6 0 }$ 产生药物相互作用的药理学机制上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度",
+          "chunk_id": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "data": "{ \\mathrm { p } } } = 1 . 2 9 \\times 1 0 ^ { 4 } \\mathbf { L } \\cdot \\mathbf { m o l } ^ { - 1 }$ 结合常数大表明二者有高度的结合\n4 讨论\n整体动物药效学研究表明能延长所致的小鼠凝血时间能延长所致的小鼠睡眠时间能增强 $\\mathrm { D } { } _ { 8 6 0 }$ 的降血糖作用体外实验结果表明$\\mathrm { J a t }$ 与人血清白蛋白结合常数为 $1 . 2 9 \\times 1 0 ^ { 3 }$ L·$\\mathbf { m o l } ^ { - 1 }$ 说明其与白蛋白有高度结合与血浆白蛋白的高度结合可通过竞争使和 $\\mathrm { D } _ { 8 6 0 }$ 置换出来造成其血浆浓度明显增高药效或毒性加强这可能是药根碱与和 $\\mathrm { D } _ { 8 6 0 }$ 产生药物相互作用的药理学机制上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度\nStudy on the interactions between jatrorrhizine and other drugs and mechanisms of the interaction"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药根碱药物相互作用及其机制研究_谭毓治.pdf",
+          "chunk_index": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "raw_text": "上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度",
+          "chunk_id": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "data": "{ \\mathrm { p } } } = 1 . 2 9 \\times 1 0 ^ { 4 } \\mathbf { L } \\cdot \\mathbf { m o l } ^ { - 1 }$ 结合常数大表明二者有高度的结合\n4 讨论\n整体动物药效学研究表明能延长所致的小鼠凝血时间能延长所致的小鼠睡眠时间能增强 $\\mathrm { D } { } _ { 8 6 0 }$ 的降血糖作用体外实验结果表明$\\mathrm { J a t }$ 与人血清白蛋白结合常数为 $1 . 2 9 \\times 1 0 ^ { 3 }$ L·$\\mathbf { m o l } ^ { - 1 }$ 说明其与白蛋白有高度结合与血浆白蛋白的高度结合可通过竞争使和 $\\mathrm { D } _ { 8 6 0 }$ 置换出来造成其血浆浓度明显增高药效或毒性加强这可能是药根碱与和 $\\mathrm { D } _ { 8 6 0 }$ 产生药物相互作用的药理学机制上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度\nStudy on the interactions between jatrorrhizine and other drugs and mechanisms of the interaction"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "药根碱药物相互作用及其机制研究_谭毓治.pdf",
+          "chunk_index": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "raw_text": "上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度",
+          "chunk_id": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "data": "{ \\mathrm { p } } } = 1 . 2 9 \\times 1 0 ^ { 4 } \\mathbf { L } \\cdot \\mathbf { m o l } ^ { - 1 }$ 结合常数大表明二者有高度的结合\n4 讨论\n整体动物药效学研究表明能延长所致的小鼠凝血时间能延长所致的小鼠睡眠时间能增强 $\\mathrm { D } { } _ { 8 6 0 }$ 的降血糖作用体外实验结果表明$\\mathrm { J a t }$ 与人血清白蛋白结合常数为 $1 . 2 9 \\times 1 0 ^ { 3 }$ L·$\\mathbf { m o l } ^ { - 1 }$ 说明其与白蛋白有高度结合与血浆白蛋白的高度结合可通过竞争使和 $\\mathrm { D } _ { 8 6 0 }$ 置换出来造成其血浆浓度明显增高药效或毒性加强这可能是药根碱与和 $\\mathrm { D } _ { 8 6 0 }$ 产生药物相互作用的药理学机制上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度\nStudy on the interactions between jatrorrhizine and other drugs and mechanisms of the interaction"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "药根碱药物相互作用及其机制研究_谭毓治.pdf",
+          "chunk_index": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "raw_text": "上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度",
+          "chunk_id": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "data": "{ \\mathrm { p } } } = 1 . 2 9 \\times 1 0 ^ { 4 } \\mathbf { L } \\cdot \\mathbf { m o l } ^ { - 1 }$ 结合常数大表明二者有高度的结合\n4 讨论\n整体动物药效学研究表明能延长所致的小鼠凝血时间能延长所致的小鼠睡眠时间能增强 $\\mathrm { D } { } _ { 8 6 0 }$ 的降血糖作用体外实验结果表明$\\mathrm { J a t }$ 与人血清白蛋白结合常数为 $1 . 2 9 \\times 1 0 ^ { 3 }$ L·$\\mathbf { m o l } ^ { - 1 }$ 说明其与白蛋白有高度结合与血浆白蛋白的高度结合可通过竞争使和 $\\mathrm { D } _ { 8 6 0 }$ 置换出来造成其血浆浓度明显增高药效或毒性加强这可能是药根碱与和 $\\mathrm { D } _ { 8 6 0 }$ 产生药物相互作用的药理学机制上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度\nStudy on the interactions between jatrorrhizine and other drugs and mechanisms of the interaction"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药根碱药物相互作用及其机制研究_谭毓治.pdf",
+          "chunk_index": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "raw_text": "上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度",
+          "chunk_id": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "data": "{ \\mathrm { p } } } = 1 . 2 9 \\times 1 0 ^ { 4 } \\mathbf { L } \\cdot \\mathbf { m o l } ^ { - 1 }$ 结合常数大表明二者有高度的结合\n4 讨论\n整体动物药效学研究表明能延长所致的小鼠凝血时间能延长所致的小鼠睡眠时间能增强 $\\mathrm { D } { } _ { 8 6 0 }$ 的降血糖作用体外实验结果表明$\\mathrm { J a t }$ 与人血清白蛋白结合常数为 $1 . 2 9 \\times 1 0 ^ { 3 }$ L·$\\mathbf { m o l } ^ { - 1 }$ 说明其与白蛋白有高度结合与血浆白蛋白的高度结合可通过竞争使和 $\\mathrm { D } _ { 8 6 0 }$ 置换出来造成其血浆浓度明显增高药效或毒性加强这可能是药根碱与和 $\\mathrm { D } _ { 8 6 0 }$ 产生药物相互作用的药理学机制上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度\nStudy on the interactions between jatrorrhizine and other drugs and mechanisms of the interaction"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "药根碱药物相互作用及其机制研究_谭毓治.pdf",
+          "chunk_index": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "raw_text": "上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度",
+          "chunk_id": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "data": "{ \\mathrm { p } } } = 1 . 2 9 \\times 1 0 ^ { 4 } \\mathbf { L } \\cdot \\mathbf { m o l } ^ { - 1 }$ 结合常数大表明二者有高度的结合\n4 讨论\n整体动物药效学研究表明能延长所致的小鼠凝血时间能延长所致的小鼠睡眠时间能增强 $\\mathrm { D } { } _ { 8 6 0 }$ 的降血糖作用体外实验结果表明$\\mathrm { J a t }$ 与人血清白蛋白结合常数为 $1 . 2 9 \\times 1 0 ^ { 3 }$ L·$\\mathbf { m o l } ^ { - 1 }$ 说明其与白蛋白有高度结合与血浆白蛋白的高度结合可通过竞争使和 $\\mathrm { D } _ { 8 6 0 }$ 置换出来造成其血浆浓度明显增高药效或毒性加强这可能是药根碱与和 $\\mathrm { D } _ { 8 6 0 }$ 产生药物相互作用的药理学机制上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度\nStudy on the interactions between jatrorrhizine and other drugs and mechanisms of the interaction"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "药根碱药物相互作用及其机制研究_谭毓治.pdf",
+          "chunk_index": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "raw_text": "上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度",
+          "chunk_id": "药根碱药物相互作用及其机制研究_谭毓治:7",
+          "data": "{ \\mathrm { p } } } = 1 . 2 9 \\times 1 0 ^ { 4 } \\mathbf { L } \\cdot \\mathbf { m o l } ^ { - 1 }$ 结合常数大表明二者有高度的结合\n4 讨论\n整体动物药效学研究表明能延长所致的小鼠凝血时间能延长所致的小鼠睡眠时间能增强 $\\mathrm { D } { } _ { 8 6 0 }$ 的降血糖作用体外实验结果表明$\\mathrm { J a t }$ 与人血清白蛋白结合常数为 $1 . 2 9 \\times 1 0 ^ { 3 }$ L·$\\mathbf { m o l } ^ { - 1 }$ 说明其与白蛋白有高度结合与血浆白蛋白的高度结合可通过竞争使和 $\\mathrm { D } _ { 8 6 0 }$ 置换出来造成其血浆浓度明显增高药效或毒性加强这可能是药根碱与和 $\\mathrm { D } _ { 8 6 0 }$ 产生药物相互作用的药理学机制上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度\nStudy on the interactions between jatrorrhizine and other drugs and mechanisms of the interaction"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药根碱药物相互作用及其机制研究_谭毓治:7",
+    "source": "药根碱药物相互作用及其机制研究_谭毓治.pdf",
+    "text": "{ \\mathrm { p } } } = 1 . 2 9 \\times 1 0 ^ { 4 } \\mathbf { L } \\cdot \\mathbf { m o l } ^ { - 1 }$ 结合常数大表明二者有高度的结合\n4 讨论\n整体动物药效学研究表明能延长所致的小鼠凝血时间能延长所致的小鼠睡眠时间能增强 $\\mathrm { D } { } _ { 8 6 0 }$ 的降血糖作用体外实验结果表明$\\mathrm { J a t }$ 与人血清白蛋白结合常数为 $1 . 2 9 \\times 1 0 ^ { 3 }$ L·$\\mathbf { m o l } ^ { - 1 }$ 说明其与白蛋白有高度结合与血浆白蛋白的高度结合可通过竞争使和 $\\mathrm { D } _ { 8 6 0 }$ 置换出来造成其血浆浓度明显增高药效或毒性加强这可能是药根碱与和 $\\mathrm { D } _ { 8 6 0 }$ 产生药物相互作用的药理学机制上述结果提示为了避免引起不良的药物相互作用华法令硫喷妥钠甲苯磺丁脲与黄连黄柏或含有药根碱成分的中药合用时应持慎重态度\nStudy on the interactions between jatrorrhizine and other drugs and mechanisms of the interaction"
+  }
+]

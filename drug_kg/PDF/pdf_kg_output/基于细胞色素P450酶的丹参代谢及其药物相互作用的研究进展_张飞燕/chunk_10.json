@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "丹参酮I",
+        "canonical_name": "丹参酮I",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Indicator",
+        "name": "CYP1A1",
+        "canonical_name": "CYP1A1",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "40-羟基华法林",
+        "canonical_name": "40-羟基华法林",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于细胞色素P450酶的丹参代谢及其药物相互作用的研究进展_张飞燕.pdf",
+          "chunk_index": "10",
+          "raw_text": "酮 I 能够通过介导抑制 CYP1A1 活性来减少 40-羟基华法林的形成，表明在大鼠体内外丹参酮I能够抑制CYP1A1的介导作用来影响华法林的代谢。提示经 CYP450s代谢的药物在临床上与丹参酮 I 合用时，可能发生药物之间的相互作用。",
+          "chunk_id": "基于细胞色素P450酶的丹参代谢及其药物相互作用的研究进展_张飞燕:10",
+          "data": "酮 I 能够通过介导抑制 CYP1A1 活性来减少 40-羟基华法林的形成，表明在大鼠体内外丹参酮I能够抑制CYP1A1的介导作用来影响华法林的代谢。提示经 CYP450s代谢的药物在临床上与丹参酮 I 合用时，可能发生药物之间的相互作用。\n2.3 丹参复方"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "基于细胞色素P450酶的丹参代谢及其药物相互作用的研究进展_张飞燕.pdf",
+          "chunk_index": "10",
+          "raw_text": "酮 I 能够通过介导抑制 CYP1A1 活性来减少 40-羟基华法林的形成，表明在大鼠体内外丹参酮I能够抑制CYP1A1的介导作用来影响华法林的代谢。",
+          "chunk_id": "基于细胞色素P450酶的丹参代谢及其药物相互作用的研究进展_张飞燕:10",
+          "data": "酮 I 能够通过介导抑制 CYP1A1 活性来减少 40-羟基华法林的形成，表明在大鼠体内外丹参酮I能够抑制CYP1A1的介导作用来影响华法林的代谢。提示经 CYP450s代谢的药物在临床上与丹参酮 I 合用时，可能发生药物之间的相互作用。\n2.3 丹参复方"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "基于细胞色素P450酶的丹参代谢及其药物相互作用的研究进展_张飞燕.pdf",
+          "chunk_index": "10",
+          "raw_text": "酮 I 能够通过介导抑制 CYP1A1 活性来减少 40-羟基华法林的形成，表明在大鼠体内外丹参酮I能够抑制CYP1A1的介导作用来影响华法林的代谢。",
+          "chunk_id": "基于细胞色素P450酶的丹参代谢及其药物相互作用的研究进展_张飞燕:10",
+          "data": "酮 I 能够通过介导抑制 CYP1A1 活性来减少 40-羟基华法林的形成，表明在大鼠体内外丹参酮I能够抑制CYP1A1的介导作用来影响华法林的代谢。提示经 CYP450s代谢的药物在临床上与丹参酮 I 合用时，可能发生药物之间的相互作用。\n2.3 丹参复方"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于细胞色素P450酶的丹参代谢及其药物相互作用的研究进展_张飞燕:10",
+    "source": "基于细胞色素P450酶的丹参代谢及其药物相互作用的研究进展_张飞燕.pdf",
+    "text": "酮 I 能够通过介导抑制 CYP1A1 活性来减少 40-羟基华法林的形成，表明在大鼠体内外丹参酮I能够抑制CYP1A1的介导作用来影响华法林的代谢。提示经 CYP450s代谢的药物在临床上与丹参酮 I 合用时，可能发生药物之间的相互作用。\n2.3 丹参复方"
+  }
+]

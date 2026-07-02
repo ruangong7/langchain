@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "小檗碱",
+        "canonical_name": "小檗碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "华法令",
+        "canonical_name": "华法令",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "硫喷妥钠",
+        "canonical_name": "硫喷妥钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "甲苯磺丁脲",
+        "canonical_name": "甲苯磺丁脲",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "小檗碱竞争血浆蛋白结合部位所致药物相互作用的研究_谭毓治.pdf",
+          "chunk_index": "小檗碱竞争血浆蛋白结合部位所致药物相互作用的研究_谭毓治:2",
+          "raw_text": "本文在此基础上进一步研究小檗碱与华法令硫喷妥钠甲苯磺丁脲等竞争血浆蛋白结合部位所致的药物相互作用。",
+          "chunk_id": "小檗碱竞争血浆蛋白结合部位所致药物相互作用的研究_谭毓治:2",
+          "data": "数为$5 . 7 8 \\times 1 0 ^ { 4 } \\mathrm { m o l } ^ { - 1 }$ 二者有高度的结合［1］ 本文在此基础上进一步研究小檗碱与华法令硫喷妥钠甲苯磺丁脲等竞争血浆蛋白结合部位所致的药物相互作用。\n22 盐酸小檗碱对华法令出血时间的影响取小鼠只按性别体重随机分成组每组10只第1组为正常组第2组为生理盐水（NS）＋$\\mathrm { B e r }$ 组第组为 $\\mathbb { W } \\mathrm { a r } ^ { + } \\mathrm { B e r }$ 组第组为 $\\mathbb { W } \\mathrm { a r } ^ { + } \\mathrm { N S }$ 组第组小鼠提前 po 给予或 $\\mathbb { W } \\mathrm { a r } ( 1 $ $\\mathbf { m g \\cdot k g } ^ { - 1 } )$ ；24h 后第2、3组小鼠 $\\mathrm { i p \\ B e r ( i p \\ ^ { 4 } \\ m g \\cdot }$ $\\mathbf { k g } ^ { - 1 } )$ 第组后眼眶取血用玻板法测定各鼠的凝血时间［2］\n2．3 盐酸小檗碱对硫喷妥钠的睡眠时间的影响"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "小檗碱竞争血浆蛋白结合部位所致药物相互作用的研究_谭毓治.pdf",
+          "chunk_index": "小檗碱竞争血浆蛋白结合部位所致药物相互作用的研究_谭毓治:2",
+          "raw_text": "本文在此基础上进一步研究小檗碱与华法令硫喷妥钠甲苯磺丁脲等竞争血浆蛋白结合部位所致的药物相互作用。",
+          "chunk_id": "小檗碱竞争血浆蛋白结合部位所致药物相互作用的研究_谭毓治:2",
+          "data": "数为$5 . 7 8 \\times 1 0 ^ { 4 } \\mathrm { m o l } ^ { - 1 }$ 二者有高度的结合［1］ 本文在此基础上进一步研究小檗碱与华法令硫喷妥钠甲苯磺丁脲等竞争血浆蛋白结合部位所致的药物相互作用。\n22 盐酸小檗碱对华法令出血时间的影响取小鼠只按性别体重随机分成组每组10只第1组为正常组第2组为生理盐水（NS）＋$\\mathrm { B e r }$ 组第组为 $\\mathbb { W } \\mathrm { a r } ^ { + } \\mathrm { B e r }$ 组第组为 $\\mathbb { W } \\mathrm { a r } ^ { + } \\mathrm { N S }$ 组第组小鼠提前 po 给予或 $\\mathbb { W } \\mathrm { a r } ( 1 $ $\\mathbf { m g \\cdot k g } ^ { - 1 } )$ ；24h 后第2、3组小鼠 $\\mathrm { i p \\ B e r ( i p \\ ^ { 4 } \\ m g \\cdot }$ $\\mathbf { k g } ^ { - 1 } )$ 第组后眼眶取血用玻板法测定各鼠的凝血时间［2］\n2．3 盐酸小檗碱对硫喷妥钠的睡眠时间的影响"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "小檗碱竞争血浆蛋白结合部位所致药物相互作用的研究_谭毓治.pdf",
+          "chunk_index": "小檗碱竞争血浆蛋白结合部位所致药物相互作用的研究_谭毓治:2",
+          "raw_text": "本文在此基础上进一步研究小檗碱与华法令硫喷妥钠甲苯磺丁脲等竞争血浆蛋白结合部位所致的药物相互作用。",
+          "chunk_id": "小檗碱竞争血浆蛋白结合部位所致药物相互作用的研究_谭毓治:2",
+          "data": "数为$5 . 7 8 \\times 1 0 ^ { 4 } \\mathrm { m o l } ^ { - 1 }$ 二者有高度的结合［1］ 本文在此基础上进一步研究小檗碱与华法令硫喷妥钠甲苯磺丁脲等竞争血浆蛋白结合部位所致的药物相互作用。\n22 盐酸小檗碱对华法令出血时间的影响取小鼠只按性别体重随机分成组每组10只第1组为正常组第2组为生理盐水（NS）＋$\\mathrm { B e r }$ 组第组为 $\\mathbb { W } \\mathrm { a r } ^ { + } \\mathrm { B e r }$ 组第组为 $\\mathbb { W } \\mathrm { a r } ^ { + } \\mathrm { N S }$ 组第组小鼠提前 po 给予或 $\\mathbb { W } \\mathrm { a r } ( 1 $ $\\mathbf { m g \\cdot k g } ^ { - 1 } )$ ；24h 后第2、3组小鼠 $\\mathrm { i p \\ B e r ( i p \\ ^ { 4 } \\ m g \\cdot }$ $\\mathbf { k g } ^ { - 1 } )$ 第组后眼眶取血用玻板法测定各鼠的凝血时间［2］\n2．3 盐酸小檗碱对硫喷妥钠的睡眠时间的影响"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "小檗碱竞争血浆蛋白结合部位所致药物相互作用的研究_谭毓治:2",
+    "source": "小檗碱竞争血浆蛋白结合部位所致药物相互作用的研究_谭毓治.pdf",
+    "text": "数为$5 . 7 8 \\times 1 0 ^ { 4 } \\mathrm { m o l } ^ { - 1 }$ 二者有高度的结合［1］ 本文在此基础上进一步研究小檗碱与华法令硫喷妥钠甲苯磺丁脲等竞争血浆蛋白结合部位所致的药物相互作用。\n22 盐酸小檗碱对华法令出血时间的影响取小鼠只按性别体重随机分成组每组10只第1组为正常组第2组为生理盐水（NS）＋$\\mathrm { B e r }$ 组第组为 $\\mathbb { W } \\mathrm { a r } ^ { + } \\mathrm { B e r }$ 组第组为 $\\mathbb { W } \\mathrm { a r } ^ { + } \\mathrm { N S }$ 组第组小鼠提前 po 给予或 $\\mathbb { W } \\mathrm { a r } ( 1 $ $\\mathbf { m g \\cdot k g } ^ { - 1 } )$ ；24h 后第2、3组小鼠 $\\mathrm { i p \\ B e r ( i p \\ ^ { 4 } \\ m g \\cdot }$ $\\mathbf { k g } ^ { - 1 } )$ 第组后眼眶取血用玻板法测定各鼠的凝血时间［2］\n2．3 盐酸小檗碱对硫喷妥钠的睡眠时间的影响"
+  }
+]

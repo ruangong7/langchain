@@ -1,0 +1,63 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Food",
+        "name": "辣椒素",
+        "canonical_name": "辣椒素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "辛伐他汀",
+        "canonical_name": "辛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Indicator",
+        "name": "Ugt1a1",
+        "canonical_name": "Ugt1a1",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰.pdf",
+          "chunk_index": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:9",
+          "raw_text": "连续服用辣椒素...于第7天静脉注射给予大鼠辛伐他汀...辛伐他汀的AUC显著降低...结果表明，辣椒素对Ugt1a1酶具有诱导作用且与辣椒素的剂量没有关系。",
+          "mechanism": "辣椒素诱导Ugt1a1酶，促进辛伐他汀代谢",
+          "consequence": "辛伐他汀血药浓度降低，AUC显著降低",
+          "severity": "中",
+          "chunk_id": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:9",
+          "data": "萄糖醛酸化不仅在首过消除中起重要作用，而且在口服药物个体间生物利用度的变化程度中起主要作用［27］。 除了 UGTs 外，Ⅱ 相代谢酶还有硫酸基转移酶( SULTs) 和谷胱甘肽 S-转移酶( GSTs) ，NAT 以及硫代嘌呤甲基转移酶。\nUGTs 超家族可分为参与酚和胆红素代谢的 UGT1 和参与类固醇代谢的 UGT2 两个家族。 其中 UGT1A 亚家族成员在胃肠道中大量存在，参与多种口服药物的首过消除。 有文献报道辣椒素可能诱导 UGT1A1，促进某些底物药物的代谢。$Z \\mathrm { { h u } } \\ { \\frac { \\cong \\Delta \\mathfrak { s } } { \\Rightarrow } } \\ ^ { [ 2 8 ] }$ ］探讨辣椒素对辛伐他汀药动学的影响机制。 连续服用辣椒素( 3 $, 8 ~ \\mathrm { m g } \\cdot \\mathrm { k g } ^ { - 1 } )$ ，于第7 天静脉注射给予大鼠辛伐他汀8 $\\mathrm { m g \\cdot k g ^ { - } }$ 1，测定辛伐他汀的血药浓度，结果发现第7天静脉注射给予辛伐他汀后，辛伐他汀的 $\\mathrm { A U C } _ { 0 \\to }$ 降低至$\\mid 1 6 2 . 8 \\pm 1 0 4 . 7$ ) 和 $( ~ 1 3 9 . 5 \\pm 6 9 . 5 ) ~ \\mathrm { { \\ m g } \\bullet \\ h \\bullet \\ L ^ { - 1 } }$ ，与空白组$( ~ 6 6 8 . 3 \\pm 5 0 6 . 5 ) ~ \\mathrm { { m g } ~ ^ { * } ~ h ~ ^ { \\bullet } ~ L ^ { ^ { - 1 } } }$ 相比显著降低; 辛伐他汀的$\\mathrm { A U C } _ { 0 \\to \\infty }$ 也显著降低， $. C L / F { \\bigl ( } 1 7 7 . 9 \\pm 7 8 .$ 7 ) 和 ( $1 8 9 . 8 \\pm 6 3 . 6 ) $ $\\mathrm { k g \\cdot L \\cdot h ^ { - 1 } }$ 显著增加( $\\textstyle P < 0 ."
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰.pdf",
+          "chunk_index": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:9",
+          "raw_text": "辣椒素可能诱导UGT1A1...CAP处理后大鼠肝脏中Ugt1a1的mRNA水平和蛋白质水平均有明显提升。",
+          "effect": "诱导",
+          "chunk_id": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:9",
+          "data": "萄糖醛酸化不仅在首过消除中起重要作用，而且在口服药物个体间生物利用度的变化程度中起主要作用［27］。 除了 UGTs 外，Ⅱ 相代谢酶还有硫酸基转移酶( SULTs) 和谷胱甘肽 S-转移酶( GSTs) ，NAT 以及硫代嘌呤甲基转移酶。\nUGTs 超家族可分为参与酚和胆红素代谢的 UGT1 和参与类固醇代谢的 UGT2 两个家族。 其中 UGT1A 亚家族成员在胃肠道中大量存在，参与多种口服药物的首过消除。 有文献报道辣椒素可能诱导 UGT1A1，促进某些底物药物的代谢。$Z \\mathrm { { h u } } \\ { \\frac { \\cong \\Delta \\mathfrak { s } } { \\Rightarrow } } \\ ^ { [ 2 8 ] }$ ］探讨辣椒素对辛伐他汀药动学的影响机制。 连续服用辣椒素( 3 $, 8 ~ \\mathrm { m g } \\cdot \\mathrm { k g } ^ { - 1 } )$ ，于第7 天静脉注射给予大鼠辛伐他汀8 $\\mathrm { m g \\cdot k g ^ { - } }$ 1，测定辛伐他汀的血药浓度，结果发现第7天静脉注射给予辛伐他汀后，辛伐他汀的 $\\mathrm { A U C } _ { 0 \\to }$ 降低至$\\mid 1 6 2 . 8 \\pm 1 0 4 . 7$ ) 和 $( ~ 1 3 9 . 5 \\pm 6 9 . 5 ) ~ \\mathrm { { \\ m g } \\bullet \\ h \\bullet \\ L ^ { - 1 } }$ ，与空白组$( ~ 6 6 8 . 3 \\pm 5 0 6 . 5 ) ~ \\mathrm { { m g } ~ ^ { * } ~ h ~ ^ { \\bullet } ~ L ^ { ^ { - 1 } } }$ 相比显著降低; 辛伐他汀的$\\mathrm { A U C } _ { 0 \\to \\infty }$ 也显著降低， $. C L / F { \\bigl ( } 1 7 7 . 9 \\pm 7 8 .$ 7 ) 和 ( $1 8 9 . 8 \\pm 6 3 . 6 ) $ $\\mathrm { k g \\cdot L \\cdot h ^ { - 1 } }$ 显著增加( $\\textstyle P < 0 ."
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰:9",
+    "source": "药物代谢酶和转运体介导的辣椒素-药物相互作用研究进展_秦琰杰.pdf",
+    "text": "萄糖醛酸化不仅在首过消除中起重要作用，而且在口服药物个体间生物利用度的变化程度中起主要作用［27］。 除了 UGTs 外，Ⅱ 相代谢酶还有硫酸基转移酶( SULTs) 和谷胱甘肽 S-转移酶( GSTs) ，NAT 以及硫代嘌呤甲基转移酶。\nUGTs 超家族可分为参与酚和胆红素代谢的 UGT1 和参与类固醇代谢的 UGT2 两个家族。 其中 UGT1A 亚家族成员在胃肠道中大量存在，参与多种口服药物的首过消除。 有文献报道辣椒素可能诱导 UGT1A1，促进某些底物药物的代谢。$Z \\mathrm { { h u } } \\ { \\frac { \\cong \\Delta \\mathfrak { s } } { \\Rightarrow } } \\ ^ { [ 2 8 ] }$ ］探讨辣椒素对辛伐他汀药动学的影响机制。 连续服用辣椒素( 3 $, 8 ~ \\mathrm { m g } \\cdot \\mathrm { k g } ^ { - 1 } )$ ，于第7 天静脉注射给予大鼠辛伐他汀8 $\\mathrm { m g \\cdot k g ^ { - } }$ 1，测定辛伐他汀的血药浓度，结果发现第7天静脉注射给予辛伐他汀后，辛伐他汀的 $\\mathrm { A U C } _ { 0 \\to }$ 降低至$\\mid 1 6 2 . 8 \\pm 1 0 4 . 7$ ) 和 $( ~ 1 3 9 . 5 \\pm 6 9 . 5 ) ~ \\mathrm { { \\ m g } \\bullet \\ h \\bullet \\ L ^ { - 1 } }$ ，与空白组$( ~ 6 6 8 . 3 \\pm 5 0 6 . 5 ) ~ \\mathrm { { m g } ~ ^ { * } ~ h ~ ^ { \\bullet } ~ L ^ { ^ { - 1 } } }$ 相比显著降低; 辛伐他汀的$\\mathrm { A U C } _ { 0 \\to \\infty }$ 也显著降低， $. C L / F { \\bigl ( } 1 7 7 . 9 \\pm 7 8 .$ 7 ) 和 ( $1 8 9 . 8 \\pm 6 3 . 6 ) $ $\\mathrm { k g \\cdot L \\cdot h ^ { - 1 } }$ 显著增加( $\\textstyle P < 0 . 0 5 )$ ; 同时，CAP 处理后大鼠肝脏中 Ugt1a1 的 mRNA 水平和蛋白质水平均有明显提升。 结果表明，辣椒素对 Ugt1a1 酶具有诱导作用且与辣椒素的剂量没有关系。"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "阿司匹林",
+        "canonical_name": "阿司匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氯吡格雷",
+        "canonical_name": "氯吡格雷",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "canonical_name": "阿托伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "急性冠状动脉综合征",
+        "canonical_name": "急性冠状动脉综合征",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "氯吡格雷羧酸衍生物浓度",
+        "canonical_name": "氯吡格雷羧酸衍生物浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "血小板聚集率",
+        "canonical_name": "血小板聚集率",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧.pdf",
+          "chunk_index": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧:2",
+          "raw_text": "在抗血小板治疗( 阿司匹林和氯吡格雷) 后再强化他汀治疗是急性冠状动脉脉综合征( acute coronary syn-drome，ACS) 和经皮冠状动脉介入治疗( PCI) 的规范化治疗措施",
+          "chunk_id": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧:2",
+          "data": "% ，两者间差异均无统计学意义( $P \\ = 0 . 0 8 , 0 . 6 2 )$ ，表明 2 组联用氯吡格雷与阿托伐他汀均不影响氯吡格雷的抗血小板治疗效果。 结论本研究未检测到血氯吡格雷原药成分;氯吡格雷和阿托伐他汀间无相互作用。\n( 1. 甘肃省第二人民医院，a. 重症医学科; b.心内科; c. 急诊科，兰州 730000)WANG Yan － hui 1a ，ZHANG Hao 1b ，MENG Xiao － dong 1b ，WEI Hong － shun1c ，WANG Shu － hong 1a ，FANG Yan1a ，LI Qi 1c ，WANG Jing1b ，PEI Yi － xuan1b( 1. a. Intensive Care Unit; b. Department of Cardiology; c. Department of Emergency，Second Provincial People' s Hospital of Gansu，Lanzhou 730000， China)Abstract: Objective To investigate the effects of atorvastatin and clopidogrel in patients with acute coronary syndrome ( ACS) on carboxylic acid derivatives of blood concentration and rate of platelet aggregation.Methods The 25 healthy subjects and 66 cases of patients with ACS were involved. Basis on the common treatment in ACS patients，all subjects and patients were given aspirin 100 $\\mathbf { m } \\mathbf { g } \\cdot \\mathbf { d } ^ { - 1 }$ ，clopidogrel 75 mg · $\\mathrm { ~ d ~ } ^ { - 1 }$ ，and atorvastatin 20 $\\mathbf { m "
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧.pdf",
+          "chunk_index": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧:2",
+          "raw_text": "在抗血小板治疗( 阿司匹林和氯吡格雷) 后再强化他汀治疗是急性冠状动脉脉综合征( acute coronary syn-drome，ACS) 和经皮冠状动脉介入治疗( PCI) 的规范化治疗措施",
+          "chunk_id": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧:2",
+          "data": "% ，两者间差异均无统计学意义( $P \\ = 0 . 0 8 , 0 . 6 2 )$ ，表明 2 组联用氯吡格雷与阿托伐他汀均不影响氯吡格雷的抗血小板治疗效果。 结论本研究未检测到血氯吡格雷原药成分;氯吡格雷和阿托伐他汀间无相互作用。\n( 1. 甘肃省第二人民医院，a. 重症医学科; b.心内科; c. 急诊科，兰州 730000)WANG Yan － hui 1a ，ZHANG Hao 1b ，MENG Xiao － dong 1b ，WEI Hong － shun1c ，WANG Shu － hong 1a ，FANG Yan1a ，LI Qi 1c ，WANG Jing1b ，PEI Yi － xuan1b( 1. a. Intensive Care Unit; b. Department of Cardiology; c. Department of Emergency，Second Provincial People' s Hospital of Gansu，Lanzhou 730000， China)Abstract: Objective To investigate the effects of atorvastatin and clopidogrel in patients with acute coronary syndrome ( ACS) on carboxylic acid derivatives of blood concentration and rate of platelet aggregation.Methods The 25 healthy subjects and 66 cases of patients with ACS were involved. Basis on the common treatment in ACS patients，all subjects and patients were given aspirin 100 $\\mathbf { m } \\mathbf { g } \\cdot \\mathbf { d } ^ { - 1 }$ ，clopidogrel 75 mg · $\\mathrm { ~ d ~ } ^ { - 1 }$ ，and atorvastatin 20 $\\mathbf { m "
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧.pdf",
+          "chunk_index": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧:2",
+          "raw_text": "在抗血小板治疗( 阿司匹林和氯吡格雷) 后再强化他汀治疗是急性冠状动脉脉综合征( acute coronary syn-drome，ACS) 和经皮冠状动脉介入治疗( PCI) 的规范化治疗措施",
+          "chunk_id": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧:2",
+          "data": "% ，两者间差异均无统计学意义( $P \\ = 0 . 0 8 , 0 . 6 2 )$ ，表明 2 组联用氯吡格雷与阿托伐他汀均不影响氯吡格雷的抗血小板治疗效果。 结论本研究未检测到血氯吡格雷原药成分;氯吡格雷和阿托伐他汀间无相互作用。\n( 1. 甘肃省第二人民医院，a. 重症医学科; b.心内科; c. 急诊科，兰州 730000)WANG Yan － hui 1a ，ZHANG Hao 1b ，MENG Xiao － dong 1b ，WEI Hong － shun1c ，WANG Shu － hong 1a ，FANG Yan1a ，LI Qi 1c ，WANG Jing1b ，PEI Yi － xuan1b( 1. a. Intensive Care Unit; b. Department of Cardiology; c. Department of Emergency，Second Provincial People' s Hospital of Gansu，Lanzhou 730000， China)Abstract: Objective To investigate the effects of atorvastatin and clopidogrel in patients with acute coronary syndrome ( ACS) on carboxylic acid derivatives of blood concentration and rate of platelet aggregation.Methods The 25 healthy subjects and 66 cases of patients with ACS were involved. Basis on the common treatment in ACS patients，all subjects and patients were given aspirin 100 $\\mathbf { m } \\mathbf { g } \\cdot \\mathbf { d } ^ { - 1 }$ ，clopidogrel 75 mg · $\\mathrm { ~ d ~ } ^ { - 1 }$ ，and atorvastatin 20 $\\mathbf { m "
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧.pdf",
+          "chunk_index": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧:2",
+          "raw_text": "氯吡格雷和他汀类药物均经肝细胞色素P450 同工酶3A4 途径代谢，两者同时使用可能竞争同工酶 CYP3A4，从而影响氯吡格雷的抗血小板作用。结论本研究未检测到血氯吡格雷原药成分;氯吡格雷和阿托伐他汀间无相互作用。",
+          "chunk_id": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧:2",
+          "data": "% ，两者间差异均无统计学意义( $P \\ = 0 . 0 8 , 0 . 6 2 )$ ，表明 2 组联用氯吡格雷与阿托伐他汀均不影响氯吡格雷的抗血小板治疗效果。 结论本研究未检测到血氯吡格雷原药成分;氯吡格雷和阿托伐他汀间无相互作用。\n( 1. 甘肃省第二人民医院，a. 重症医学科; b.心内科; c. 急诊科，兰州 730000)WANG Yan － hui 1a ，ZHANG Hao 1b ，MENG Xiao － dong 1b ，WEI Hong － shun1c ，WANG Shu － hong 1a ，FANG Yan1a ，LI Qi 1c ，WANG Jing1b ，PEI Yi － xuan1b( 1. a. Intensive Care Unit; b. Department of Cardiology; c. Department of Emergency，Second Provincial People' s Hospital of Gansu，Lanzhou 730000， China)Abstract: Objective To investigate the effects of atorvastatin and clopidogrel in patients with acute coronary syndrome ( ACS) on carboxylic acid derivatives of blood concentration and rate of platelet aggregation.Methods The 25 healthy subjects and 66 cases of patients with ACS were involved. Basis on the common treatment in ACS patients，all subjects and patients were given aspirin 100 $\\mathbf { m } \\mathbf { g } \\cdot \\mathbf { d } ^ { - 1 }$ ，clopidogrel 75 mg · $\\mathrm { ~ d ~ } ^ { - 1 }$ ，and atorvastatin 20 $\\mathbf { m "
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧.pdf",
+          "chunk_index": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧:2",
+          "raw_text": "用HPLC －MS/MS 测定加服阿托伐他汀前后氯吡格雷羧酸衍生物( clopidogrel acidderivatives，SR26334) 浓度",
+          "chunk_id": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧:2",
+          "data": "% ，两者间差异均无统计学意义( $P \\ = 0 . 0 8 , 0 . 6 2 )$ ，表明 2 组联用氯吡格雷与阿托伐他汀均不影响氯吡格雷的抗血小板治疗效果。 结论本研究未检测到血氯吡格雷原药成分;氯吡格雷和阿托伐他汀间无相互作用。\n( 1. 甘肃省第二人民医院，a. 重症医学科; b.心内科; c. 急诊科，兰州 730000)WANG Yan － hui 1a ，ZHANG Hao 1b ，MENG Xiao － dong 1b ，WEI Hong － shun1c ，WANG Shu － hong 1a ，FANG Yan1a ，LI Qi 1c ，WANG Jing1b ，PEI Yi － xuan1b( 1. a. Intensive Care Unit; b. Department of Cardiology; c. Department of Emergency，Second Provincial People' s Hospital of Gansu，Lanzhou 730000， China)Abstract: Objective To investigate the effects of atorvastatin and clopidogrel in patients with acute coronary syndrome ( ACS) on carboxylic acid derivatives of blood concentration and rate of platelet aggregation.Methods The 25 healthy subjects and 66 cases of patients with ACS were involved. Basis on the common treatment in ACS patients，all subjects and patients were given aspirin 100 $\\mathbf { m } \\mathbf { g } \\cdot \\mathbf { d } ^ { - 1 }$ ，clopidogrel 75 mg · $\\mathrm { ~ d ~ } ^ { - 1 }$ ，and atorvastatin 20 $\\mathbf { m "
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧.pdf",
+          "chunk_index": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧:2",
+          "raw_text": "同时测定血小板聚集率，了解氯吡格雷和阿托伐他汀是否存在药物相互作用",
+          "chunk_id": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧:2",
+          "data": "% ，两者间差异均无统计学意义( $P \\ = 0 . 0 8 , 0 . 6 2 )$ ，表明 2 组联用氯吡格雷与阿托伐他汀均不影响氯吡格雷的抗血小板治疗效果。 结论本研究未检测到血氯吡格雷原药成分;氯吡格雷和阿托伐他汀间无相互作用。\n( 1. 甘肃省第二人民医院，a. 重症医学科; b.心内科; c. 急诊科，兰州 730000)WANG Yan － hui 1a ，ZHANG Hao 1b ，MENG Xiao － dong 1b ，WEI Hong － shun1c ，WANG Shu － hong 1a ，FANG Yan1a ，LI Qi 1c ，WANG Jing1b ，PEI Yi － xuan1b( 1. a. Intensive Care Unit; b. Department of Cardiology; c. Department of Emergency，Second Provincial People' s Hospital of Gansu，Lanzhou 730000， China)Abstract: Objective To investigate the effects of atorvastatin and clopidogrel in patients with acute coronary syndrome ( ACS) on carboxylic acid derivatives of blood concentration and rate of platelet aggregation.Methods The 25 healthy subjects and 66 cases of patients with ACS were involved. Basis on the common treatment in ACS patients，all subjects and patients were given aspirin 100 $\\mathbf { m } \\mathbf { g } \\cdot \\mathbf { d } ^ { - 1 }$ ，clopidogrel 75 mg · $\\mathrm { ~ d ~ } ^ { - 1 }$ ，and atorvastatin 20 $\\mathbf { m "
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧:2",
+    "source": "抗血小板治疗后再联用阿托伐他汀对代谢的影响和药物相互作用研究_王燕慧.pdf",
+    "text": "% ，两者间差异均无统计学意义( $P \\ = 0 . 0 8 , 0 . 6 2 )$ ，表明 2 组联用氯吡格雷与阿托伐他汀均不影响氯吡格雷的抗血小板治疗效果。 结论本研究未检测到血氯吡格雷原药成分;氯吡格雷和阿托伐他汀间无相互作用。\n( 1. 甘肃省第二人民医院，a. 重症医学科; b.心内科; c. 急诊科，兰州 730000)WANG Yan － hui 1a ，ZHANG Hao 1b ，MENG Xiao － dong 1b ，WEI Hong － shun1c ，WANG Shu － hong 1a ，FANG Yan1a ，LI Qi 1c ，WANG Jing1b ，PEI Yi － xuan1b( 1. a. Intensive Care Unit; b. Department of Cardiology; c. Department of Emergency，Second Provincial People' s Hospital of Gansu，Lanzhou 730000， China)Abstract: Objective To investigate the effects of atorvastatin and clopidogrel in patients with acute coronary syndrome ( ACS) on carboxylic acid derivatives of blood concentration and rate of platelet aggregation.Methods The 25 healthy subjects and 66 cases of patients with ACS were involved. Basis on the common treatment in ACS patients，all subjects and patients were given aspirin 100 $\\mathbf { m } \\mathbf { g } \\cdot \\mathbf { d } ^ { - 1 }$ ，clopidogrel 75 mg · $\\mathrm { ~ d ~ } ^ { - 1 }$ ，and atorvastatin 20 $\\mathbf { m } \\mathbf { g } \\cdot \\mathbf { d } ^ { - 1 }$ ，5 days later discontinued the atorvastatin only. The $5 , 9$ days after treatment，the clopidogrel carboxylic acid derivatives blood concentration was measured by $\\mathrm { H P L C \\mathrm { ~ - ~ } M S / M S }$ ． The platelet aggregation rate was determinate by flow cytometry. Results In course of the double antiplatelet therapy plus atorvastatin therapy and double antiplatelet therapy only，the concentrations in plasma of clopidogrel carboxylic acid were $\\left( 5 . 7 6 \\pm 0 . 8 7 \\right)$ ， $( 5 . 6 7 \\pm 0 . 8 8 ) ~ \\mathrm { n g } \\bullet \\mathrm { d L } ^ { - 1 }$ in healthy group; while were $\\left( 5 . 9 6 \\pm 0 . 8 7 \\right)$ ， $\\left( 5 . 8 6 \\pm 0 . 9 7 \\right)$ $\\mathrm { n g } \\cdot \\mathrm { d L } ^ { - 1 }$ in patients group，respectively． There wasn' t significant difference $\\mid P >$ 0. 05) . In the same conditions，platelet aggregation rate were ( 44. 25 ±修回日期: 2013 － 07 － 01 MP:13609365937 E － mail: mojishanren@ realss. com 16. 37) % ， $( 4 7 . 6 1 \\pm 1 6 . 6 7 ) $ % in healthy group while it were $\\cdot 4 7 . 7 0 \\pm 1 5 . 0 7 )$ %， $\\left( 4 7 . 0 2 \\pm 1 5 . 4 5 \\right)$ % in ACS group，respectively． There was not significant difference ( $P > 0 . 0 5 )$ also. Conclusion Clopidogrel predecessor in blood was not detect. There is no interaction between atorvastatin and clopidogrel.Key words: acute coronary syndrome; atorvastatin; clopidogrel; clopidogrel carboxylic acid derivative; platelet aggregation ; HPLC － MS / MS在抗血小板治疗( 阿司匹林和氯吡格雷) 后再强化他汀治疗是急性冠状动脉脉综合征( acute coronary syn-drome，ACS) 和经皮冠状动脉介入治疗( PCI) 的规范化治疗措施［1］。 氯吡格雷和他汀类药物均经肝细胞色素P450 同工酶3A4 途径代谢，两者同时使用可能竞争同工酶 CYP3A4，从而影响氯吡格雷的抗血小板作用［2］。本研究选择健康受试者和ACS 患者在双联抗血小板治疗期间加服阿托伐他汀，用HPLC －MS/MS 测定加服阿托伐他汀前后氯吡格雷羧酸衍生物( clopidogrel acidderivatives，SR26334) 浓度; 同时测定血小板聚集率，了解氯吡格雷和阿托伐他汀是否存在药物相互作用。"
+  }
+]

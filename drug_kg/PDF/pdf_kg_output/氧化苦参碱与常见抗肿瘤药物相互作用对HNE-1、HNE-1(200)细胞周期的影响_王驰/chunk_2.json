@@ -1,0 +1,158 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "氧化苦参碱",
+        "canonical_name": "氧化苦参碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "VCR",
+        "canonical_name": "长春新碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "BLM",
+        "canonical_name": "博来霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "5-Fu",
+        "canonical_name": "5-氟尿嘧啶",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "DDP",
+        "canonical_name": "顺铂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "VRP",
+        "canonical_name": "维拉帕米",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰.pdf",
+          "chunk_index": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+          "raw_text": "VCR +Oxy VCR +VRP",
+          "chunk_id": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+          "data": "TT） （北方同正生物制品公司）仪器和设备 ： 倒置显微镜 ( 重庆光学仪器厂XSZ-D2) ； Varian 600C 型直线加速器 （ 美国 ） ； 流式细胞仪 FACSCalibar (BECTONDICKINSON ， 美国)等 。\n1.2 实验方法\n加药实验组分为 4 组 ： ①VCR +Oxy VCR +VRP ； ② BLM +Oxy ， BLM +VRP ； ③ 5-Fu +Oxy ， 5-Fu +$\\mathrm { V R P } ; \\textcircled { 4 } \\mathrm { D D P + O x y } , \\mathrm { D D P + V R P }$ 。\n1 材料与方法\n将上述每组中的两种药物分别处理 HNE-1 和HNE-1（200）实验细胞以不加任何药物的 HNE-1HNE-1(200)细胞为对照组\n1 1 材料\n细胞系人鼻咽癌（HNE-1）细胞株由重庆医科取对数生长期 HNE-1 HNE-1 （200 ） 细胞 （1×107 /ml） 以磷酸盐缓冲液(PBS)洗涤 2 次加入 3ml 无血清 RPMI-1640 培养液使细胞同步化 12h 后将无血清培养液弃去换为 3ml 含 10％ 小牛血清 RPMI-1640 培养液除对照组外 4 种抗肿瘤药分别与$_ \\mathrm { O x y }$ VRP 联用各药物加入量分别为 $\\mathrm { O x y } ( 1 0 0 \\mu \\mathrm { g / m l } ) \\hspace \\mathrm { . V R P } ( 0 . 1 \\mu \\mathrm { g / m l } )$ 、VCR (1.5μg/ml) 、 BLM (1.5μg/ml) 、DDP(1.0μg/ml) 、5-Fu （2.1μg/ml) 。 24h后收集细胞胰酶消化 PBS 洗涤 2次乙醇固定后 0.05％ PI 染色30min 上机检测以 Modfit LT 2.0软件分析细胞周期\n2 结果\n2 1 对照组细胞周期"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰.pdf",
+          "chunk_index": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+          "raw_text": "BLM +Oxy , BLM +VRP",
+          "chunk_id": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+          "data": "TT） （北方同正生物制品公司）仪器和设备 ： 倒置显微镜 ( 重庆光学仪器厂XSZ-D2) ； Varian 600C 型直线加速器 （ 美国 ） ； 流式细胞仪 FACSCalibar (BECTONDICKINSON ， 美国)等 。\n1.2 实验方法\n加药实验组分为 4 组 ： ①VCR +Oxy VCR +VRP ； ② BLM +Oxy ， BLM +VRP ； ③ 5-Fu +Oxy ， 5-Fu +$\\mathrm { V R P } ; \\textcircled { 4 } \\mathrm { D D P + O x y } , \\mathrm { D D P + V R P }$ 。\n1 材料与方法\n将上述每组中的两种药物分别处理 HNE-1 和HNE-1（200）实验细胞以不加任何药物的 HNE-1HNE-1(200)细胞为对照组\n1 1 材料\n细胞系人鼻咽癌（HNE-1）细胞株由重庆医科取对数生长期 HNE-1 HNE-1 （200 ） 细胞 （1×107 /ml） 以磷酸盐缓冲液(PBS)洗涤 2 次加入 3ml 无血清 RPMI-1640 培养液使细胞同步化 12h 后将无血清培养液弃去换为 3ml 含 10％ 小牛血清 RPMI-1640 培养液除对照组外 4 种抗肿瘤药分别与$_ \\mathrm { O x y }$ VRP 联用各药物加入量分别为 $\\mathrm { O x y } ( 1 0 0 \\mu \\mathrm { g / m l } ) \\hspace \\mathrm { . V R P } ( 0 . 1 \\mu \\mathrm { g / m l } )$ 、VCR (1.5μg/ml) 、 BLM (1.5μg/ml) 、DDP(1.0μg/ml) 、5-Fu （2.1μg/ml) 。 24h后收集细胞胰酶消化 PBS 洗涤 2次乙醇固定后 0.05％ PI 染色30min 上机检测以 Modfit LT 2.0软件分析细胞周期\n2 结果\n2 1 对照组细胞周期"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰.pdf",
+          "chunk_index": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+          "raw_text": "5-Fu +Oxy , 5-Fu +VRP",
+          "chunk_id": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+          "data": "TT） （北方同正生物制品公司）仪器和设备 ： 倒置显微镜 ( 重庆光学仪器厂XSZ-D2) ； Varian 600C 型直线加速器 （ 美国 ） ； 流式细胞仪 FACSCalibar (BECTONDICKINSON ， 美国)等 。\n1.2 实验方法\n加药实验组分为 4 组 ： ①VCR +Oxy VCR +VRP ； ② BLM +Oxy ， BLM +VRP ； ③ 5-Fu +Oxy ， 5-Fu +$\\mathrm { V R P } ; \\textcircled { 4 } \\mathrm { D D P + O x y } , \\mathrm { D D P + V R P }$ 。\n1 材料与方法\n将上述每组中的两种药物分别处理 HNE-1 和HNE-1（200）实验细胞以不加任何药物的 HNE-1HNE-1(200)细胞为对照组\n1 1 材料\n细胞系人鼻咽癌（HNE-1）细胞株由重庆医科取对数生长期 HNE-1 HNE-1 （200 ） 细胞 （1×107 /ml） 以磷酸盐缓冲液(PBS)洗涤 2 次加入 3ml 无血清 RPMI-1640 培养液使细胞同步化 12h 后将无血清培养液弃去换为 3ml 含 10％ 小牛血清 RPMI-1640 培养液除对照组外 4 种抗肿瘤药分别与$_ \\mathrm { O x y }$ VRP 联用各药物加入量分别为 $\\mathrm { O x y } ( 1 0 0 \\mu \\mathrm { g / m l } ) \\hspace \\mathrm { . V R P } ( 0 . 1 \\mu \\mathrm { g / m l } )$ 、VCR (1.5μg/ml) 、 BLM (1.5μg/ml) 、DDP(1.0μg/ml) 、5-Fu （2.1μg/ml) 。 24h后收集细胞胰酶消化 PBS 洗涤 2次乙醇固定后 0.05％ PI 染色30min 上机检测以 Modfit LT 2.0软件分析细胞周期\n2 结果\n2 1 对照组细胞周期"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰.pdf",
+          "chunk_index": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+          "raw_text": "DDP +Oxy , DDP +VRP",
+          "chunk_id": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+          "data": "TT） （北方同正生物制品公司）仪器和设备 ： 倒置显微镜 ( 重庆光学仪器厂XSZ-D2) ； Varian 600C 型直线加速器 （ 美国 ） ； 流式细胞仪 FACSCalibar (BECTONDICKINSON ， 美国)等 。\n1.2 实验方法\n加药实验组分为 4 组 ： ①VCR +Oxy VCR +VRP ； ② BLM +Oxy ， BLM +VRP ； ③ 5-Fu +Oxy ， 5-Fu +$\\mathrm { V R P } ; \\textcircled { 4 } \\mathrm { D D P + O x y } , \\mathrm { D D P + V R P }$ 。\n1 材料与方法\n将上述每组中的两种药物分别处理 HNE-1 和HNE-1（200）实验细胞以不加任何药物的 HNE-1HNE-1(200)细胞为对照组\n1 1 材料\n细胞系人鼻咽癌（HNE-1）细胞株由重庆医科取对数生长期 HNE-1 HNE-1 （200 ） 细胞 （1×107 /ml） 以磷酸盐缓冲液(PBS)洗涤 2 次加入 3ml 无血清 RPMI-1640 培养液使细胞同步化 12h 后将无血清培养液弃去换为 3ml 含 10％ 小牛血清 RPMI-1640 培养液除对照组外 4 种抗肿瘤药分别与$_ \\mathrm { O x y }$ VRP 联用各药物加入量分别为 $\\mathrm { O x y } ( 1 0 0 \\mu \\mathrm { g / m l } ) \\hspace \\mathrm { . V R P } ( 0 . 1 \\mu \\mathrm { g / m l } )$ 、VCR (1.5μg/ml) 、 BLM (1.5μg/ml) 、DDP(1.0μg/ml) 、5-Fu （2.1μg/ml) 。 24h后收集细胞胰酶消化 PBS 洗涤 2次乙醇固定后 0.05％ PI 染色30min 上机检测以 Modfit LT 2.0软件分析细胞周期\n2 结果\n2 1 对照组细胞周期"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰.pdf",
+          "chunk_index": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+          "raw_text": "VCR +Oxy VCR +VRP",
+          "chunk_id": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+          "data": "TT） （北方同正生物制品公司）仪器和设备 ： 倒置显微镜 ( 重庆光学仪器厂XSZ-D2) ； Varian 600C 型直线加速器 （ 美国 ） ； 流式细胞仪 FACSCalibar (BECTONDICKINSON ， 美国)等 。\n1.2 实验方法\n加药实验组分为 4 组 ： ①VCR +Oxy VCR +VRP ； ② BLM +Oxy ， BLM +VRP ； ③ 5-Fu +Oxy ， 5-Fu +$\\mathrm { V R P } ; \\textcircled { 4 } \\mathrm { D D P + O x y } , \\mathrm { D D P + V R P }$ 。\n1 材料与方法\n将上述每组中的两种药物分别处理 HNE-1 和HNE-1（200）实验细胞以不加任何药物的 HNE-1HNE-1(200)细胞为对照组\n1 1 材料\n细胞系人鼻咽癌（HNE-1）细胞株由重庆医科取对数生长期 HNE-1 HNE-1 （200 ） 细胞 （1×107 /ml） 以磷酸盐缓冲液(PBS)洗涤 2 次加入 3ml 无血清 RPMI-1640 培养液使细胞同步化 12h 后将无血清培养液弃去换为 3ml 含 10％ 小牛血清 RPMI-1640 培养液除对照组外 4 种抗肿瘤药分别与$_ \\mathrm { O x y }$ VRP 联用各药物加入量分别为 $\\mathrm { O x y } ( 1 0 0 \\mu \\mathrm { g / m l } ) \\hspace \\mathrm { . V R P } ( 0 . 1 \\mu \\mathrm { g / m l } )$ 、VCR (1.5μg/ml) 、 BLM (1.5μg/ml) 、DDP(1.0μg/ml) 、5-Fu （2.1μg/ml) 。 24h后收集细胞胰酶消化 PBS 洗涤 2次乙醇固定后 0.05％ PI 染色30min 上机检测以 Modfit LT 2.0软件分析细胞周期\n2 结果\n2 1 对照组细胞周期"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰.pdf",
+          "chunk_index": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+          "raw_text": "BLM +Oxy , BLM +VRP",
+          "chunk_id": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+          "data": "TT） （北方同正生物制品公司）仪器和设备 ： 倒置显微镜 ( 重庆光学仪器厂XSZ-D2) ； Varian 600C 型直线加速器 （ 美国 ） ； 流式细胞仪 FACSCalibar (BECTONDICKINSON ， 美国)等 。\n1.2 实验方法\n加药实验组分为 4 组 ： ①VCR +Oxy VCR +VRP ； ② BLM +Oxy ， BLM +VRP ； ③ 5-Fu +Oxy ， 5-Fu +$\\mathrm { V R P } ; \\textcircled { 4 } \\mathrm { D D P + O x y } , \\mathrm { D D P + V R P }$ 。\n1 材料与方法\n将上述每组中的两种药物分别处理 HNE-1 和HNE-1（200）实验细胞以不加任何药物的 HNE-1HNE-1(200)细胞为对照组\n1 1 材料\n细胞系人鼻咽癌（HNE-1）细胞株由重庆医科取对数生长期 HNE-1 HNE-1 （200 ） 细胞 （1×107 /ml） 以磷酸盐缓冲液(PBS)洗涤 2 次加入 3ml 无血清 RPMI-1640 培养液使细胞同步化 12h 后将无血清培养液弃去换为 3ml 含 10％ 小牛血清 RPMI-1640 培养液除对照组外 4 种抗肿瘤药分别与$_ \\mathrm { O x y }$ VRP 联用各药物加入量分别为 $\\mathrm { O x y } ( 1 0 0 \\mu \\mathrm { g / m l } ) \\hspace \\mathrm { . V R P } ( 0 . 1 \\mu \\mathrm { g / m l } )$ 、VCR (1.5μg/ml) 、 BLM (1.5μg/ml) 、DDP(1.0μg/ml) 、5-Fu （2.1μg/ml) 。 24h后收集细胞胰酶消化 PBS 洗涤 2次乙醇固定后 0.05％ PI 染色30min 上机检测以 Modfit LT 2.0软件分析细胞周期\n2 结果\n2 1 对照组细胞周期"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰.pdf",
+          "chunk_index": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+          "raw_text": "5-Fu +Oxy , 5-Fu +VRP",
+          "chunk_id": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+          "data": "TT） （北方同正生物制品公司）仪器和设备 ： 倒置显微镜 ( 重庆光学仪器厂XSZ-D2) ； Varian 600C 型直线加速器 （ 美国 ） ； 流式细胞仪 FACSCalibar (BECTONDICKINSON ， 美国)等 。\n1.2 实验方法\n加药实验组分为 4 组 ： ①VCR +Oxy VCR +VRP ； ② BLM +Oxy ， BLM +VRP ； ③ 5-Fu +Oxy ， 5-Fu +$\\mathrm { V R P } ; \\textcircled { 4 } \\mathrm { D D P + O x y } , \\mathrm { D D P + V R P }$ 。\n1 材料与方法\n将上述每组中的两种药物分别处理 HNE-1 和HNE-1（200）实验细胞以不加任何药物的 HNE-1HNE-1(200)细胞为对照组\n1 1 材料\n细胞系人鼻咽癌（HNE-1）细胞株由重庆医科取对数生长期 HNE-1 HNE-1 （200 ） 细胞 （1×107 /ml） 以磷酸盐缓冲液(PBS)洗涤 2 次加入 3ml 无血清 RPMI-1640 培养液使细胞同步化 12h 后将无血清培养液弃去换为 3ml 含 10％ 小牛血清 RPMI-1640 培养液除对照组外 4 种抗肿瘤药分别与$_ \\mathrm { O x y }$ VRP 联用各药物加入量分别为 $\\mathrm { O x y } ( 1 0 0 \\mu \\mathrm { g / m l } ) \\hspace \\mathrm { . V R P } ( 0 . 1 \\mu \\mathrm { g / m l } )$ 、VCR (1.5μg/ml) 、 BLM (1.5μg/ml) 、DDP(1.0μg/ml) 、5-Fu （2.1μg/ml) 。 24h后收集细胞胰酶消化 PBS 洗涤 2次乙醇固定后 0.05％ PI 染色30min 上机检测以 Modfit LT 2.0软件分析细胞周期\n2 结果\n2 1 对照组细胞周期"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰.pdf",
+          "chunk_index": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+          "raw_text": "DDP +Oxy , DDP +VRP",
+          "chunk_id": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+          "data": "TT） （北方同正生物制品公司）仪器和设备 ： 倒置显微镜 ( 重庆光学仪器厂XSZ-D2) ； Varian 600C 型直线加速器 （ 美国 ） ； 流式细胞仪 FACSCalibar (BECTONDICKINSON ， 美国)等 。\n1.2 实验方法\n加药实验组分为 4 组 ： ①VCR +Oxy VCR +VRP ； ② BLM +Oxy ， BLM +VRP ； ③ 5-Fu +Oxy ， 5-Fu +$\\mathrm { V R P } ; \\textcircled { 4 } \\mathrm { D D P + O x y } , \\mathrm { D D P + V R P }$ 。\n1 材料与方法\n将上述每组中的两种药物分别处理 HNE-1 和HNE-1（200）实验细胞以不加任何药物的 HNE-1HNE-1(200)细胞为对照组\n1 1 材料\n细胞系人鼻咽癌（HNE-1）细胞株由重庆医科取对数生长期 HNE-1 HNE-1 （200 ） 细胞 （1×107 /ml） 以磷酸盐缓冲液(PBS)洗涤 2 次加入 3ml 无血清 RPMI-1640 培养液使细胞同步化 12h 后将无血清培养液弃去换为 3ml 含 10％ 小牛血清 RPMI-1640 培养液除对照组外 4 种抗肿瘤药分别与$_ \\mathrm { O x y }$ VRP 联用各药物加入量分别为 $\\mathrm { O x y } ( 1 0 0 \\mu \\mathrm { g / m l } ) \\hspace \\mathrm { . V R P } ( 0 . 1 \\mu \\mathrm { g / m l } )$ 、VCR (1.5μg/ml) 、 BLM (1.5μg/ml) 、DDP(1.0μg/ml) 、5-Fu （2.1μg/ml) 。 24h后收集细胞胰酶消化 PBS 洗涤 2次乙醇固定后 0.05％ PI 染色30min 上机检测以 Modfit LT 2.0软件分析细胞周期\n2 结果\n2 1 对照组细胞周期"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰:2",
+    "source": "氧化苦参碱与常见抗肿瘤药物相互作用对HNE-1、HNE-1(200)细胞周期的影响_王驰.pdf",
+    "text": "TT） （北方同正生物制品公司）仪器和设备 ： 倒置显微镜 ( 重庆光学仪器厂XSZ-D2) ； Varian 600C 型直线加速器 （ 美国 ） ； 流式细胞仪 FACSCalibar (BECTONDICKINSON ， 美国)等 。\n1.2 实验方法\n加药实验组分为 4 组 ： ①VCR +Oxy VCR +VRP ； ② BLM +Oxy ， BLM +VRP ； ③ 5-Fu +Oxy ， 5-Fu +$\\mathrm { V R P } ; \\textcircled { 4 } \\mathrm { D D P + O x y } , \\mathrm { D D P + V R P }$ 。\n1 材料与方法\n将上述每组中的两种药物分别处理 HNE-1 和HNE-1（200）实验细胞以不加任何药物的 HNE-1HNE-1(200)细胞为对照组\n1 1 材料\n细胞系人鼻咽癌（HNE-1）细胞株由重庆医科取对数生长期 HNE-1 HNE-1 （200 ） 细胞 （1×107 /ml） 以磷酸盐缓冲液(PBS)洗涤 2 次加入 3ml 无血清 RPMI-1640 培养液使细胞同步化 12h 后将无血清培养液弃去换为 3ml 含 10％ 小牛血清 RPMI-1640 培养液除对照组外 4 种抗肿瘤药分别与$_ \\mathrm { O x y }$ VRP 联用各药物加入量分别为 $\\mathrm { O x y } ( 1 0 0 \\mu \\mathrm { g / m l } ) \\hspace \\mathrm { . V R P } ( 0 . 1 \\mu \\mathrm { g / m l } )$ 、VCR (1.5μg/ml) 、 BLM (1.5μg/ml) 、DDP(1.0μg/ml) 、5-Fu （2.1μg/ml) 。 24h后收集细胞胰酶消化 PBS 洗涤 2次乙醇固定后 0.05％ PI 染色30min 上机检测以 Modfit LT 2.0软件分析细胞周期\n2 结果\n2 1 对照组细胞周期"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "canonical_name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "仙茅苷",
+        "canonical_name": "仙茅苷",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "维拉帕米和仙茅苷在大鼠体内药物相互作用研究_耿传荣.pdf",
+          "chunk_index": "维拉帕米和仙茅苷在大鼠体内药物相互作用研究_耿传荣:4",
+          "raw_text": "联用药组灌胃给药维拉帕米和仙茅苷，其给药剂量分别为 10 mg·kg^-1·20 mg·kg^-1。",
+          "chunk_id": "维拉帕米和仙茅苷在大鼠体内药物相互作用研究_耿传荣:4",
+          "data": "- 1 } }$ 1，联用药组灌胃给药维拉帕米和仙茅苷，其给药剂量分别为 10 mg·$\\mathrm { k g ^ { - 1 } } \\cdot 2 0 \\mathrm { m g ^ { - } k g ^ { - } }$ 1 。\n精密称取一定量的仙茅苷于量瓶中用甲醇稀释至刻度配成浓度为 $1 0 \\mathrm { m g \\cdot m L }$ 1 的对照品储备液。精密称取一定量的内标紫丁香苷于量瓶中用甲醇稀释至刻度配成浓度为 $1 0 0 \\mathrm { n g \\cdot m L ^ { - 1 } }$ 的对照品储备液在 0.083 0.25 0.5 1 2 3 4 6 8 10 12 24 h 于大鼠眼眶取血 $3 0 0 \\mu \\mathrm { L }$ 置涂有肝素的 EP 管中血浆$5 0 0 0 \\mathrm { r \\cdot m i n ^ { - 1 } }$ 离心 5min 取上清液在-40℃下保存用甲醇将仙茅苷对照品储备液稀释成 10\\~5000$\\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 } \\left( 1 0 , 2 0 , 5 0 , 1 0 0 , 2 0 0 , 5 0 0 , 1 0 0 0 , 2 0 0 0 , 5 0 0 0 \\right.$ $\\mathrm { n g \\cdot m L ^ { - 1 } } )$ 浓度的溶液然后各取 $1 0 ~ \\mu \\mathrm { L }$ 加入到含有$1 0 0 \\mu \\mathrm { L }$ 空白血浆中加入 $1 0 ~ \\mu \\mathrm { L }$ 甲醇溶液再加入$1 9 0 \\mu \\mathrm { L }$ 含有内标紫丁香苷 $1 0 0 \\mathrm { n g \\cdot m L ^ { - 1 } }$ 的乙腈溶液涡旋 60s 然后于 $1 2 0 0 0 \\mathrm { r } { \\cdot } \\mathrm { m i n } ^ { - 1 }$ 离心 10 min 制得相对于血浆浓度为 $1 { \\sim } 5 0 0 \\mathrm { n g } { \\cdot } \\mathrm { m L } ^ { - 1 }$ 的溶液 （1 2 5 1"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "维拉帕米和仙茅苷在大鼠体内药物相互作用研究_耿传荣:4",
+    "source": "维拉帕米和仙茅苷在大鼠体内药物相互作用研究_耿传荣.pdf",
+    "text": "- 1 } }$ 1，联用药组灌胃给药维拉帕米和仙茅苷，其给药剂量分别为 10 mg·$\\mathrm { k g ^ { - 1 } } \\cdot 2 0 \\mathrm { m g ^ { - } k g ^ { - } }$ 1 。\n精密称取一定量的仙茅苷于量瓶中用甲醇稀释至刻度配成浓度为 $1 0 \\mathrm { m g \\cdot m L }$ 1 的对照品储备液。精密称取一定量的内标紫丁香苷于量瓶中用甲醇稀释至刻度配成浓度为 $1 0 0 \\mathrm { n g \\cdot m L ^ { - 1 } }$ 的对照品储备液在 0.083 0.25 0.5 1 2 3 4 6 8 10 12 24 h 于大鼠眼眶取血 $3 0 0 \\mu \\mathrm { L }$ 置涂有肝素的 EP 管中血浆$5 0 0 0 \\mathrm { r \\cdot m i n ^ { - 1 } }$ 离心 5min 取上清液在-40℃下保存用甲醇将仙茅苷对照品储备液稀释成 10\\~5000$\\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 } \\left( 1 0 , 2 0 , 5 0 , 1 0 0 , 2 0 0 , 5 0 0 , 1 0 0 0 , 2 0 0 0 , 5 0 0 0 \\right.$ $\\mathrm { n g \\cdot m L ^ { - 1 } } )$ 浓度的溶液然后各取 $1 0 ~ \\mu \\mathrm { L }$ 加入到含有$1 0 0 \\mu \\mathrm { L }$ 空白血浆中加入 $1 0 ~ \\mu \\mathrm { L }$ 甲醇溶液再加入$1 9 0 \\mu \\mathrm { L }$ 含有内标紫丁香苷 $1 0 0 \\mathrm { n g \\cdot m L ^ { - 1 } }$ 的乙腈溶液涡旋 60s 然后于 $1 2 0 0 0 \\mathrm { r } { \\cdot } \\mathrm { m i n } ^ { - 1 }$ 离心 10 min 制得相对于血浆浓度为 $1 { \\sim } 5 0 0 \\mathrm { n g } { \\cdot } \\mathrm { m L } ^ { - 1 }$ 的溶液 （1 2 5 1020 、 $5 0 , 1 0 0 , 2 0 0 , 5 0 0 \\mathrm { n g } { \\cdot } \\mathrm { m L } ^ { - 1 } )$ 取上清液进样分析。按上述方法配制仙茅苷低中高分别为 2 50 400$\\mathrm { n g \\cdot m L ^ { - 1 } }$ 的质控样品溶液于-4 ℃保存备用"
+  }
+]

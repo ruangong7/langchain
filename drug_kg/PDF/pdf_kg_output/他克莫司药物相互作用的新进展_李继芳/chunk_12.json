@@ -1,0 +1,62 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "Everolimus",
+        "canonical_name": "Everolimus",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "巴利昔单抗",
+        "canonical_name": "巴利昔单抗",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+          "chunk_index": "他克莫司药物相互作用的新进展_李继芳:12",
+          "raw_text": "与Everolimus( $1.5~mg\\cdot d^{-1}$ ，每天2次)合用，发现不论FK506的剂量是否减半，Everolimus对FK506各项药动学参数均无明显影响。结果提示，Everolimus并不影响FK506的正常代谢。",
+          "interaction_type": "无影响",
+          "chunk_id": "他克莫司药物相互作用的新进展_李继芳:12",
+          "data": "与Everolimus( $1.5~mg\\cdot d^{-1}$ ，每天2次)合用，发现不论FK506的剂量是否减半，Everolimus对FK506各项药动学参数均无明显影响。结果提示，Everolimus并不影响FK506的正常代谢。\n以上研究表明，巴利昔单抗与 FK506 合用可提高 FK506 的血药浓度进而下调剂量且不增加任何副作用，其机制可能与细胞因子改变 CYP3A4 的活性相关。\n2.2.8 与皮质类固醇 (corticosteroids)\n2.2.4 与 FK778"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+          "chunk_index": "他克莫司药物相互作用的新进展_李继芳:12",
+          "raw_text": "巴利昔单抗与 FK506 合用可提高 FK506 的血药浓度进而下调剂量且不增加任何副作用，其机制可能与细胞因子改变 CYP3A4 的活性相关。",
+          "interaction_type": "增加血药浓度",
+          "effect": "提高血药浓度，可下调剂量，不增加副作用",
+          "chunk_id": "他克莫司药物相互作用的新进展_李继芳:12",
+          "data": "与Everolimus( $1.5~mg\\cdot d^{-1}$ ，每天2次)合用，发现不论FK506的剂量是否减半，Everolimus对FK506各项药动学参数均无明显影响。结果提示，Everolimus并不影响FK506的正常代谢。\n以上研究表明，巴利昔单抗与 FK506 合用可提高 FK506 的血药浓度进而下调剂量且不增加任何副作用，其机制可能与细胞因子改变 CYP3A4 的活性相关。\n2.2.8 与皮质类固醇 (corticosteroids)\n2.2.4 与 FK778"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "他克莫司药物相互作用的新进展_李继芳:12",
+    "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+    "text": "与Everolimus( $1.5~mg\\cdot d^{-1}$ ，每天2次)合用，发现不论FK506的剂量是否减半，Everolimus对FK506各项药动学参数均无明显影响。结果提示，Everolimus并不影响FK506的正常代谢。\n以上研究表明，巴利昔单抗与 FK506 合用可提高 FK506 的血药浓度进而下调剂量且不增加任何副作用，其机制可能与细胞因子改变 CYP3A4 的活性相关。\n2.2.8 与皮质类固醇 (corticosteroids)\n2.2.4 与 FK778"
+  }
+]

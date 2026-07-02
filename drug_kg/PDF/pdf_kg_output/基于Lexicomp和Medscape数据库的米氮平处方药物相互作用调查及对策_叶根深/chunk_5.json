@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "米氮平",
+        "canonical_name": "米氮平",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "丁螺环酮",
+        "canonical_name": "丁螺环酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "抗抑郁药",
+        "canonical_name": "抗抑郁药",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "过度中枢抑制",
+        "canonical_name": "过度中枢抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "5-羟色胺升高",
+        "canonical_name": "5-羟色胺升高",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "QT间期延长",
+        "canonical_name": "QT间期延长",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深.pdf",
+          "chunk_index": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:5",
+          "raw_text": "严重风险点243例次（29.2%），均为5-HT 升高，由丁螺环酮、抗抑郁药引起",
+          "chunk_id": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:5",
+          "data": "程度分级一致性检验显示，Kappa 按药品（Lexicomp＋Medscape）－Lexicomp0.993 0， P 按药品 （ Lexicomp ＋ Medscape） － Lexicomp＝ 0；\n2.3 米氮平药物相互作用风险点情况\n按药物相互作用风险点计 ， Lexicomp ＋Medscape数据库中风险点共 832例次，包括过度中枢抑制378例次（45.4%）、5-羟色胺（5-HT）升高314 例次（37.8%），QT 间期延长 140 例次（16.8%）。其中，严重风险点243例次（29.2%），均为5-HT 升高，由丁螺环酮、抗抑郁药引起，信息均来自Lexicomp 数据库。按 Lexicomp 数据库，风险点 691例次，包括过度中枢抑制 375 例次（54.3%）、5-HT升高314例次（37.8%），QT间期延长2例次（0.2%）。按 Medscape 数据库，共 733 例次，包括过度中枢抑制 350 例次（47.7%）、5-HT 升高 243 例次（33.2%），QT 间期延长 140 例次（19.1%），见表 4。\n不同信息源中与米氮平药物相互作用风险点及其严重程度分级见表 5。一致性检验显示，本研究发现，Lexicomp 数据库比 Medscape 数据库多检出有药物相互作用药品 4 种、处方 19 张（4.73%）；提示在涵盖药物相互作用的药品方面，Lexicomp 数据库更丰富，与文献一致[4]。在严重程度分级、风险点方面，Lexicomp＋Medscape 数据库与 Lexicomp 数据库的一致性均很强（Kappa＞0.99，\n3 讨论\n3.1 Lexicomp、Medscape 数据库中药物相互作用严重程度分级情况及互补性"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深.pdf",
+          "chunk_index": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:5",
+          "raw_text": "严重风险点243例次（29.2%），均为5-HT 升高，由丁螺环酮、抗抑郁药引起",
+          "chunk_id": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:5",
+          "data": "程度分级一致性检验显示，Kappa 按药品（Lexicomp＋Medscape）－Lexicomp0.993 0， P 按药品 （ Lexicomp ＋ Medscape） － Lexicomp＝ 0；\n2.3 米氮平药物相互作用风险点情况\n按药物相互作用风险点计 ， Lexicomp ＋Medscape数据库中风险点共 832例次，包括过度中枢抑制378例次（45.4%）、5-羟色胺（5-HT）升高314 例次（37.8%），QT 间期延长 140 例次（16.8%）。其中，严重风险点243例次（29.2%），均为5-HT 升高，由丁螺环酮、抗抑郁药引起，信息均来自Lexicomp 数据库。按 Lexicomp 数据库，风险点 691例次，包括过度中枢抑制 375 例次（54.3%）、5-HT升高314例次（37.8%），QT间期延长2例次（0.2%）。按 Medscape 数据库，共 733 例次，包括过度中枢抑制 350 例次（47.7%）、5-HT 升高 243 例次（33.2%），QT 间期延长 140 例次（19.1%），见表 4。\n不同信息源中与米氮平药物相互作用风险点及其严重程度分级见表 5。一致性检验显示，本研究发现，Lexicomp 数据库比 Medscape 数据库多检出有药物相互作用药品 4 种、处方 19 张（4.73%）；提示在涵盖药物相互作用的药品方面，Lexicomp 数据库更丰富，与文献一致[4]。在严重程度分级、风险点方面，Lexicomp＋Medscape 数据库与 Lexicomp 数据库的一致性均很强（Kappa＞0.99，\n3 讨论\n3.1 Lexicomp、Medscape 数据库中药物相互作用严重程度分级情况及互补性"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深.pdf",
+          "chunk_index": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:5",
+          "raw_text": "过度中枢抑制378例次（45.4%）",
+          "chunk_id": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:5",
+          "data": "程度分级一致性检验显示，Kappa 按药品（Lexicomp＋Medscape）－Lexicomp0.993 0， P 按药品 （ Lexicomp ＋ Medscape） － Lexicomp＝ 0；\n2.3 米氮平药物相互作用风险点情况\n按药物相互作用风险点计 ， Lexicomp ＋Medscape数据库中风险点共 832例次，包括过度中枢抑制378例次（45.4%）、5-羟色胺（5-HT）升高314 例次（37.8%），QT 间期延长 140 例次（16.8%）。其中，严重风险点243例次（29.2%），均为5-HT 升高，由丁螺环酮、抗抑郁药引起，信息均来自Lexicomp 数据库。按 Lexicomp 数据库，风险点 691例次，包括过度中枢抑制 375 例次（54.3%）、5-HT升高314例次（37.8%），QT间期延长2例次（0.2%）。按 Medscape 数据库，共 733 例次，包括过度中枢抑制 350 例次（47.7%）、5-HT 升高 243 例次（33.2%），QT 间期延长 140 例次（19.1%），见表 4。\n不同信息源中与米氮平药物相互作用风险点及其严重程度分级见表 5。一致性检验显示，本研究发现，Lexicomp 数据库比 Medscape 数据库多检出有药物相互作用药品 4 种、处方 19 张（4.73%）；提示在涵盖药物相互作用的药品方面，Lexicomp 数据库更丰富，与文献一致[4]。在严重程度分级、风险点方面，Lexicomp＋Medscape 数据库与 Lexicomp 数据库的一致性均很强（Kappa＞0.99，\n3 讨论\n3.1 Lexicomp、Medscape 数据库中药物相互作用严重程度分级情况及互补性"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深.pdf",
+          "chunk_index": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:5",
+          "raw_text": "5-羟色胺（5-HT）升高314 例次（37.8%）",
+          "chunk_id": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:5",
+          "data": "程度分级一致性检验显示，Kappa 按药品（Lexicomp＋Medscape）－Lexicomp0.993 0， P 按药品 （ Lexicomp ＋ Medscape） － Lexicomp＝ 0；\n2.3 米氮平药物相互作用风险点情况\n按药物相互作用风险点计 ， Lexicomp ＋Medscape数据库中风险点共 832例次，包括过度中枢抑制378例次（45.4%）、5-羟色胺（5-HT）升高314 例次（37.8%），QT 间期延长 140 例次（16.8%）。其中，严重风险点243例次（29.2%），均为5-HT 升高，由丁螺环酮、抗抑郁药引起，信息均来自Lexicomp 数据库。按 Lexicomp 数据库，风险点 691例次，包括过度中枢抑制 375 例次（54.3%）、5-HT升高314例次（37.8%），QT间期延长2例次（0.2%）。按 Medscape 数据库，共 733 例次，包括过度中枢抑制 350 例次（47.7%）、5-HT 升高 243 例次（33.2%），QT 间期延长 140 例次（19.1%），见表 4。\n不同信息源中与米氮平药物相互作用风险点及其严重程度分级见表 5。一致性检验显示，本研究发现，Lexicomp 数据库比 Medscape 数据库多检出有药物相互作用药品 4 种、处方 19 张（4.73%）；提示在涵盖药物相互作用的药品方面，Lexicomp 数据库更丰富，与文献一致[4]。在严重程度分级、风险点方面，Lexicomp＋Medscape 数据库与 Lexicomp 数据库的一致性均很强（Kappa＞0.99，\n3 讨论\n3.1 Lexicomp、Medscape 数据库中药物相互作用严重程度分级情况及互补性"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深.pdf",
+          "chunk_index": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:5",
+          "raw_text": "QT 间期延长 140 例次（16.8%）",
+          "chunk_id": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:5",
+          "data": "程度分级一致性检验显示，Kappa 按药品（Lexicomp＋Medscape）－Lexicomp0.993 0， P 按药品 （ Lexicomp ＋ Medscape） － Lexicomp＝ 0；\n2.3 米氮平药物相互作用风险点情况\n按药物相互作用风险点计 ， Lexicomp ＋Medscape数据库中风险点共 832例次，包括过度中枢抑制378例次（45.4%）、5-羟色胺（5-HT）升高314 例次（37.8%），QT 间期延长 140 例次（16.8%）。其中，严重风险点243例次（29.2%），均为5-HT 升高，由丁螺环酮、抗抑郁药引起，信息均来自Lexicomp 数据库。按 Lexicomp 数据库，风险点 691例次，包括过度中枢抑制 375 例次（54.3%）、5-HT升高314例次（37.8%），QT间期延长2例次（0.2%）。按 Medscape 数据库，共 733 例次，包括过度中枢抑制 350 例次（47.7%）、5-HT 升高 243 例次（33.2%），QT 间期延长 140 例次（19.1%），见表 4。\n不同信息源中与米氮平药物相互作用风险点及其严重程度分级见表 5。一致性检验显示，本研究发现，Lexicomp 数据库比 Medscape 数据库多检出有药物相互作用药品 4 种、处方 19 张（4.73%）；提示在涵盖药物相互作用的药品方面，Lexicomp 数据库更丰富，与文献一致[4]。在严重程度分级、风险点方面，Lexicomp＋Medscape 数据库与 Lexicomp 数据库的一致性均很强（Kappa＞0.99，\n3 讨论\n3.1 Lexicomp、Medscape 数据库中药物相互作用严重程度分级情况及互补性"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深:5",
+    "source": "基于Lexicomp和Medscape数据库的米氮平处方药物相互作用调查及对策_叶根深.pdf",
+    "text": "程度分级一致性检验显示，Kappa 按药品（Lexicomp＋Medscape）－Lexicomp0.993 0， P 按药品 （ Lexicomp ＋ Medscape） － Lexicomp＝ 0；\n2.3 米氮平药物相互作用风险点情况\n按药物相互作用风险点计 ， Lexicomp ＋Medscape数据库中风险点共 832例次，包括过度中枢抑制378例次（45.4%）、5-羟色胺（5-HT）升高314 例次（37.8%），QT 间期延长 140 例次（16.8%）。其中，严重风险点243例次（29.2%），均为5-HT 升高，由丁螺环酮、抗抑郁药引起，信息均来自Lexicomp 数据库。按 Lexicomp 数据库，风险点 691例次，包括过度中枢抑制 375 例次（54.3%）、5-HT升高314例次（37.8%），QT间期延长2例次（0.2%）。按 Medscape 数据库，共 733 例次，包括过度中枢抑制 350 例次（47.7%）、5-HT 升高 243 例次（33.2%），QT 间期延长 140 例次（19.1%），见表 4。\n不同信息源中与米氮平药物相互作用风险点及其严重程度分级见表 5。一致性检验显示，本研究发现，Lexicomp 数据库比 Medscape 数据库多检出有药物相互作用药品 4 种、处方 19 张（4.73%）；提示在涵盖药物相互作用的药品方面，Lexicomp 数据库更丰富，与文献一致[4]。在严重程度分级、风险点方面，Lexicomp＋Medscape 数据库与 Lexicomp 数据库的一致性均很强（Kappa＞0.99，\n3 讨论\n3.1 Lexicomp、Medscape 数据库中药物相互作用严重程度分级情况及互补性"
+  }
+]

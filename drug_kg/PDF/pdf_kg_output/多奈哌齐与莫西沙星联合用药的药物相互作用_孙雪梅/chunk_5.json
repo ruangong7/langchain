@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "多奈哌齐",
+        "canonical_name": "多奈哌齐",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "莫西沙星",
+        "canonical_name": "莫西沙星",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "多奈哌齐与莫西沙星联合用药的药物相互作用_孙雪梅.pdf",
+          "chunk_index": "多奈哌齐与莫西沙星联合用药的药物相互作用_孙雪梅:5",
+          "raw_text": "探讨盐酸多奈哌齐和盐酸莫西沙星联用的药物相互作用",
+          "chunk_id": "多奈哌齐与莫西沙星联合用药的药物相互作用_孙雪梅:5",
+          "data": "和盐酸莫西沙星联合治疗。目前，多奈哌齐与其他药物联合用药的临床疗效研究较多［5-12］，但药物相互作用研究鲜有报道。因此，本研究从体外肝微粒体与体内药物代谢方面，探讨盐酸多奈哌齐和盐酸莫西沙星联用的药物相互作用，旨在为临床合理用药提供参考。\n1.3.2  液相色谱-串联质谱 （liquid chromatography-tandem mass spectrometry，LC-MS/MS） 分析：色谱柱Agilent Eclipse Plus C18柱 $( 4 . 6 ~ \\mathrm { m m } \\times 1 0 0 ~ \\mathrm { m m } , 3 . 5 $ μm），自动进样器温度4 ℃，柱温 $3 0 ~ \\mathrm { ‰}$ 。流动相由5 mmol/L乙酸铵缓冲液 （含有0.1%甲酸） 和甲醇组成。肝微粒体体系流动相乙酸铵∶甲醇 （V/V） 为$4 0 ~ : ~ 6 0$ ，大鼠血浆样品比例 （V/V） 为 $1 0 ~ : ~ 9 0$ ，流速$0 . 6 ~ \\mathrm { m L } \\cdot \\mathrm { m i n } ^ { - 1 }$ ，进样体积5 μL。在正离子模式下采用电喷雾电离 （electrospray ionization，ESI） 源进行离子化，采集方式为多通道离子反应监测 （multi-channelion reaction monitoring，MRM），离子喷雾电压5 500 V，离子源温度500 ℃，碰撞气体压力6 psi，气帘气体压力10 psi，雾化气压力55 psi，辅助气压力55 psi，多奈哌齐和普萘洛尔的去簇电压分别80 eV和68 eV，碰撞能量分别60 eV和24 eV。用于定量分析的离子对分别为质荷比 （m/z） 380.2 → 91.3（多奈哌齐） 和$2 6 0 . 0 \\longrightarrow 1 1 6 . 4$ （内标，普萘洛尔） 。\n1 材料与方法\n1.1  主要试剂、药品和动物"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "多奈哌齐与莫西沙星联合用药的药物相互作用_孙雪梅:5",
+    "source": "多奈哌齐与莫西沙星联合用药的药物相互作用_孙雪梅.pdf",
+    "text": "和盐酸莫西沙星联合治疗。目前，多奈哌齐与其他药物联合用药的临床疗效研究较多［5-12］，但药物相互作用研究鲜有报道。因此，本研究从体外肝微粒体与体内药物代谢方面，探讨盐酸多奈哌齐和盐酸莫西沙星联用的药物相互作用，旨在为临床合理用药提供参考。\n1.3.2  液相色谱-串联质谱 （liquid chromatography-tandem mass spectrometry，LC-MS/MS） 分析：色谱柱Agilent Eclipse Plus C18柱 $( 4 . 6 ~ \\mathrm { m m } \\times 1 0 0 ~ \\mathrm { m m } , 3 . 5 $ μm），自动进样器温度4 ℃，柱温 $3 0 ~ \\mathrm { ‰}$ 。流动相由5 mmol/L乙酸铵缓冲液 （含有0.1%甲酸） 和甲醇组成。肝微粒体体系流动相乙酸铵∶甲醇 （V/V） 为$4 0 ~ : ~ 6 0$ ，大鼠血浆样品比例 （V/V） 为 $1 0 ~ : ~ 9 0$ ，流速$0 . 6 ~ \\mathrm { m L } \\cdot \\mathrm { m i n } ^ { - 1 }$ ，进样体积5 μL。在正离子模式下采用电喷雾电离 （electrospray ionization，ESI） 源进行离子化，采集方式为多通道离子反应监测 （multi-channelion reaction monitoring，MRM），离子喷雾电压5 500 V，离子源温度500 ℃，碰撞气体压力6 psi，气帘气体压力10 psi，雾化气压力55 psi，辅助气压力55 psi，多奈哌齐和普萘洛尔的去簇电压分别80 eV和68 eV，碰撞能量分别60 eV和24 eV。用于定量分析的离子对分别为质荷比 （m/z） 380.2 → 91.3（多奈哌齐） 和$2 6 0 . 0 \\longrightarrow 1 1 6 . 4$ （内标，普萘洛尔） 。\n1 材料与方法\n1.1  主要试剂、药品和动物"
+  }
+]

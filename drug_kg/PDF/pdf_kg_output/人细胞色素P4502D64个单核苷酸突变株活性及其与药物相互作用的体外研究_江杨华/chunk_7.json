@@ -1,0 +1,126 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "奎尼丁",
+        "canonical_name": "奎尼丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "舍曲林",
+        "canonical_name": "舍曲林",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "氯丙嗪",
+        "canonical_name": "氯丙嗪",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "氟西汀",
+        "canonical_name": "氟西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "阿米替林",
+        "canonical_name": "阿米替林",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "CYP2D6抑制剂",
+        "canonical_name": "CYP2D6抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "CYP2D6底物",
+        "canonical_name": "CYP2D6底物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华.pdf",
+          "chunk_index": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华:7",
+          "raw_text": "已知的2D6抑制剂（奎尼丁、舍曲林）",
+          "chunk_id": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华:7",
+          "data": "s expressing CYP2D6 WT and the four strains of CYP2D6 with single-nucleotide substitution\n2.2 2D6 WT 和 4 个单核苷酸突变株的酶动力学参数\n2.2.1 对丁呋洛尔 1-羟基化的代谢活性各酶的米氏动力学曲线见图 2，酶动力学参数见表 2。单核苷酸突变株 V7M、G169R 和 E410K 的 Km 值低于而 P34S 的 Km 值高于 2D6 WT (P < 0.05); V7M 的 Vmax 和 Vmax/Km 值明显高于而 P34S 的 Vmax 和 Vmax/Km 值明显低于 2D6 WT (P < 0.05)。\n1.2.4 药物抑制实验实验选用药物包括已知的2D6抑制剂（奎尼丁、舍曲林）、底物（氯丙嗪、氟西汀、阿米替林）和既非抑制剂又非底物的化合物（酮康唑、曲格列酮）；针对的酶为2D6 WT、V7M和G169R；以AMMC为代谢底物。实验时，底物AMMC的浓度在其Km值附近；检测的药物设为11个浓度梯度，2倍稀释，奎尼丁的浓度从0.5到 $0.0005\\mu \\mathrm{mol} / \\mathrm{L}$ ，其他药物浓度均从128到 $0.125\\mu \\mathrm{mol} / \\mathrm{L}$ ；酶的量在线性范围内，孵育时间为 $40\\mathrm{min}^{[10]}$ 。实验条件同AMMC去甲基化代谢活性的测定，读数模型采用终点读数法(Endpoint)。实验各进行3次，取平均值。\n1.3 统计学分析\n应用 SPSS12.0 软件进行统计学处理。酶动力学参数检测结果以 $\\bar{x} \\pm s$ 表示，2D6 各单核苷酸突变株与 WT 之间差异的比较采用成组设计资料的 t 检验，以 P < 0.05 为差异有统计学意义。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华.pdf",
+          "chunk_index": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华:7",
+          "raw_text": "已知的2D6抑制剂（奎尼丁、舍曲林）",
+          "chunk_id": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华:7",
+          "data": "s expressing CYP2D6 WT and the four strains of CYP2D6 with single-nucleotide substitution\n2.2 2D6 WT 和 4 个单核苷酸突变株的酶动力学参数\n2.2.1 对丁呋洛尔 1-羟基化的代谢活性各酶的米氏动力学曲线见图 2，酶动力学参数见表 2。单核苷酸突变株 V7M、G169R 和 E410K 的 Km 值低于而 P34S 的 Km 值高于 2D6 WT (P < 0.05); V7M 的 Vmax 和 Vmax/Km 值明显高于而 P34S 的 Vmax 和 Vmax/Km 值明显低于 2D6 WT (P < 0.05)。\n1.2.4 药物抑制实验实验选用药物包括已知的2D6抑制剂（奎尼丁、舍曲林）、底物（氯丙嗪、氟西汀、阿米替林）和既非抑制剂又非底物的化合物（酮康唑、曲格列酮）；针对的酶为2D6 WT、V7M和G169R；以AMMC为代谢底物。实验时，底物AMMC的浓度在其Km值附近；检测的药物设为11个浓度梯度，2倍稀释，奎尼丁的浓度从0.5到 $0.0005\\mu \\mathrm{mol} / \\mathrm{L}$ ，其他药物浓度均从128到 $0.125\\mu \\mathrm{mol} / \\mathrm{L}$ ；酶的量在线性范围内，孵育时间为 $40\\mathrm{min}^{[10]}$ 。实验条件同AMMC去甲基化代谢活性的测定，读数模型采用终点读数法(Endpoint)。实验各进行3次，取平均值。\n1.3 统计学分析\n应用 SPSS12.0 软件进行统计学处理。酶动力学参数检测结果以 $\\bar{x} \\pm s$ 表示，2D6 各单核苷酸突变株与 WT 之间差异的比较采用成组设计资料的 t 检验，以 P < 0.05 为差异有统计学意义。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华.pdf",
+          "chunk_index": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华:7",
+          "raw_text": "底物（氯丙嗪、氟西汀、阿米替林）",
+          "chunk_id": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华:7",
+          "data": "s expressing CYP2D6 WT and the four strains of CYP2D6 with single-nucleotide substitution\n2.2 2D6 WT 和 4 个单核苷酸突变株的酶动力学参数\n2.2.1 对丁呋洛尔 1-羟基化的代谢活性各酶的米氏动力学曲线见图 2，酶动力学参数见表 2。单核苷酸突变株 V7M、G169R 和 E410K 的 Km 值低于而 P34S 的 Km 值高于 2D6 WT (P < 0.05); V7M 的 Vmax 和 Vmax/Km 值明显高于而 P34S 的 Vmax 和 Vmax/Km 值明显低于 2D6 WT (P < 0.05)。\n1.2.4 药物抑制实验实验选用药物包括已知的2D6抑制剂（奎尼丁、舍曲林）、底物（氯丙嗪、氟西汀、阿米替林）和既非抑制剂又非底物的化合物（酮康唑、曲格列酮）；针对的酶为2D6 WT、V7M和G169R；以AMMC为代谢底物。实验时，底物AMMC的浓度在其Km值附近；检测的药物设为11个浓度梯度，2倍稀释，奎尼丁的浓度从0.5到 $0.0005\\mu \\mathrm{mol} / \\mathrm{L}$ ，其他药物浓度均从128到 $0.125\\mu \\mathrm{mol} / \\mathrm{L}$ ；酶的量在线性范围内，孵育时间为 $40\\mathrm{min}^{[10]}$ 。实验条件同AMMC去甲基化代谢活性的测定，读数模型采用终点读数法(Endpoint)。实验各进行3次，取平均值。\n1.3 统计学分析\n应用 SPSS12.0 软件进行统计学处理。酶动力学参数检测结果以 $\\bar{x} \\pm s$ 表示，2D6 各单核苷酸突变株与 WT 之间差异的比较采用成组设计资料的 t 检验，以 P < 0.05 为差异有统计学意义。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华.pdf",
+          "chunk_index": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华:7",
+          "raw_text": "底物（氯丙嗪、氟西汀、阿米替林）",
+          "chunk_id": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华:7",
+          "data": "s expressing CYP2D6 WT and the four strains of CYP2D6 with single-nucleotide substitution\n2.2 2D6 WT 和 4 个单核苷酸突变株的酶动力学参数\n2.2.1 对丁呋洛尔 1-羟基化的代谢活性各酶的米氏动力学曲线见图 2，酶动力学参数见表 2。单核苷酸突变株 V7M、G169R 和 E410K 的 Km 值低于而 P34S 的 Km 值高于 2D6 WT (P < 0.05); V7M 的 Vmax 和 Vmax/Km 值明显高于而 P34S 的 Vmax 和 Vmax/Km 值明显低于 2D6 WT (P < 0.05)。\n1.2.4 药物抑制实验实验选用药物包括已知的2D6抑制剂（奎尼丁、舍曲林）、底物（氯丙嗪、氟西汀、阿米替林）和既非抑制剂又非底物的化合物（酮康唑、曲格列酮）；针对的酶为2D6 WT、V7M和G169R；以AMMC为代谢底物。实验时，底物AMMC的浓度在其Km值附近；检测的药物设为11个浓度梯度，2倍稀释，奎尼丁的浓度从0.5到 $0.0005\\mu \\mathrm{mol} / \\mathrm{L}$ ，其他药物浓度均从128到 $0.125\\mu \\mathrm{mol} / \\mathrm{L}$ ；酶的量在线性范围内，孵育时间为 $40\\mathrm{min}^{[10]}$ 。实验条件同AMMC去甲基化代谢活性的测定，读数模型采用终点读数法(Endpoint)。实验各进行3次，取平均值。\n1.3 统计学分析\n应用 SPSS12.0 软件进行统计学处理。酶动力学参数检测结果以 $\\bar{x} \\pm s$ 表示，2D6 各单核苷酸突变株与 WT 之间差异的比较采用成组设计资料的 t 检验，以 P < 0.05 为差异有统计学意义。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华.pdf",
+          "chunk_index": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华:7",
+          "raw_text": "底物（氯丙嗪、氟西汀、阿米替林）",
+          "chunk_id": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华:7",
+          "data": "s expressing CYP2D6 WT and the four strains of CYP2D6 with single-nucleotide substitution\n2.2 2D6 WT 和 4 个单核苷酸突变株的酶动力学参数\n2.2.1 对丁呋洛尔 1-羟基化的代谢活性各酶的米氏动力学曲线见图 2，酶动力学参数见表 2。单核苷酸突变株 V7M、G169R 和 E410K 的 Km 值低于而 P34S 的 Km 值高于 2D6 WT (P < 0.05); V7M 的 Vmax 和 Vmax/Km 值明显高于而 P34S 的 Vmax 和 Vmax/Km 值明显低于 2D6 WT (P < 0.05)。\n1.2.4 药物抑制实验实验选用药物包括已知的2D6抑制剂（奎尼丁、舍曲林）、底物（氯丙嗪、氟西汀、阿米替林）和既非抑制剂又非底物的化合物（酮康唑、曲格列酮）；针对的酶为2D6 WT、V7M和G169R；以AMMC为代谢底物。实验时，底物AMMC的浓度在其Km值附近；检测的药物设为11个浓度梯度，2倍稀释，奎尼丁的浓度从0.5到 $0.0005\\mu \\mathrm{mol} / \\mathrm{L}$ ，其他药物浓度均从128到 $0.125\\mu \\mathrm{mol} / \\mathrm{L}$ ；酶的量在线性范围内，孵育时间为 $40\\mathrm{min}^{[10]}$ 。实验条件同AMMC去甲基化代谢活性的测定，读数模型采用终点读数法(Endpoint)。实验各进行3次，取平均值。\n1.3 统计学分析\n应用 SPSS12.0 软件进行统计学处理。酶动力学参数检测结果以 $\\bar{x} \\pm s$ 表示，2D6 各单核苷酸突变株与 WT 之间差异的比较采用成组设计资料的 t 检验，以 P < 0.05 为差异有统计学意义。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华:7",
+    "source": "人细胞色素P4502D64个单核苷酸突变株活性及其与药物相互作用的体外研究_江杨华.pdf",
+    "text": "s expressing CYP2D6 WT and the four strains of CYP2D6 with single-nucleotide substitution\n2.2 2D6 WT 和 4 个单核苷酸突变株的酶动力学参数\n2.2.1 对丁呋洛尔 1-羟基化的代谢活性各酶的米氏动力学曲线见图 2，酶动力学参数见表 2。单核苷酸突变株 V7M、G169R 和 E410K 的 Km 值低于而 P34S 的 Km 值高于 2D6 WT (P < 0.05); V7M 的 Vmax 和 Vmax/Km 值明显高于而 P34S 的 Vmax 和 Vmax/Km 值明显低于 2D6 WT (P < 0.05)。\n1.2.4 药物抑制实验实验选用药物包括已知的2D6抑制剂（奎尼丁、舍曲林）、底物（氯丙嗪、氟西汀、阿米替林）和既非抑制剂又非底物的化合物（酮康唑、曲格列酮）；针对的酶为2D6 WT、V7M和G169R；以AMMC为代谢底物。实验时，底物AMMC的浓度在其Km值附近；检测的药物设为11个浓度梯度，2倍稀释，奎尼丁的浓度从0.5到 $0.0005\\mu \\mathrm{mol} / \\mathrm{L}$ ，其他药物浓度均从128到 $0.125\\mu \\mathrm{mol} / \\mathrm{L}$ ；酶的量在线性范围内，孵育时间为 $40\\mathrm{min}^{[10]}$ 。实验条件同AMMC去甲基化代谢活性的测定，读数模型采用终点读数法(Endpoint)。实验各进行3次，取平均值。\n1.3 统计学分析\n应用 SPSS12.0 软件进行统计学处理。酶动力学参数检测结果以 $\\bar{x} \\pm s$ 表示，2D6 各单核苷酸突变株与 WT 之间差异的比较采用成组设计资料的 t 检验，以 P < 0.05 为差异有统计学意义。"
+  }
+]

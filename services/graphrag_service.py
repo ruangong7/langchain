@@ -9,6 +9,7 @@ from typing import Any, Dict, Optional
 
 import graphrag.api as graphrag_api
 import pandas as pd
+from dotenv import load_dotenv
 from graphrag.config.load_config import load_config
 from graphrag_storage import create_storage
 from graphrag_storage.tables.table_provider_factory import create_table_provider
@@ -49,6 +50,7 @@ class GraphRAGService:
         self.max_context_chars = max_context_chars
         self._executor = ThreadPoolExecutor(max_workers=1, thread_name_prefix="graphrag-query")
 
+        load_dotenv(self.project_root / ".env")
         self.config = load_config(root_dir=self.project_root)
         self._tables = self._load_tables()
         logger.info(

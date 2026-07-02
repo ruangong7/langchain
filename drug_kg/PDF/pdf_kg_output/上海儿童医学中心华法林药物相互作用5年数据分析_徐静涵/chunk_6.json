@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "口服避孕药",
+        "canonical_name": "口服避孕药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Disease",
+        "name": "子宫内膜异位症",
+        "canonical_name": "子宫内膜异位症",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "不良反应",
+        "canonical_name": "不良反应",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵.pdf",
+          "chunk_index": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵:6",
+          "raw_text": "可能提高子宫内膜异位症患者的促排卵效率，降低治疗花费，改善胚胎质量，且对妊娠结局无明显负面影响，故可作为一种治疗子宫内膜异位症相关性不孕的有效治疗手段。",
+          "chunk_id": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵:6",
+          "data": "产率差异无统计学意义( P ) 组药品不良反应发生率较低，无严重不良反应发生。 结论: 可能提高子宫内膜异位症患者的促排卵效率，降低治疗花费，改善胚胎质量，且对妊娠结局无明显负面影响，故可作为一种治疗子宫内膜异位症相关性不孕的有效治疗手段。\nEffects of Oral Contraceptive Pills on in vitro Fertilization-Embryo Transfer in Patients with Endometriosis， ， ， ( ; ， ，Tongji Medical College，Huazhong University of Science and Technology，Wuhan 43oo30,China)ABSTRACT Objective: ( ) in vitro ( ) outcomes in patients with endometriosis.Methods: This retrospective cohort study included 512 IVF cycles of patients with endometriosis.The study group included 216 patients pretreated with OCP before IVF，while the control group included 296 patients without OCP pretreatment.The live birth rate and clinical pregnancy rate were the main evaluation indexes ，and outcome of ovulation induction Results : ［( ) vs ． ( ) ，P ］ ［( ) vs ． ( ) ，P ］， 2 ［( ) · vs ． ( ) · ，P ］ ［( ) vs ． ( ) ，P ］ ， ［( ) vs ． ( ) ，P ］ ( vs ，P 0.05)of high-quality embryos were higher in OCP-pretreated patients.No differences were found in clinical pregnancy ra"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵.pdf",
+          "chunk_index": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵:6",
+          "raw_text": "组药品不良反应发生率较低，无严重不良反应发生。",
+          "chunk_id": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵:6",
+          "data": "产率差异无统计学意义( P ) 组药品不良反应发生率较低，无严重不良反应发生。 结论: 可能提高子宫内膜异位症患者的促排卵效率，降低治疗花费，改善胚胎质量，且对妊娠结局无明显负面影响，故可作为一种治疗子宫内膜异位症相关性不孕的有效治疗手段。\nEffects of Oral Contraceptive Pills on in vitro Fertilization-Embryo Transfer in Patients with Endometriosis， ， ， ( ; ， ，Tongji Medical College，Huazhong University of Science and Technology，Wuhan 43oo30,China)ABSTRACT Objective: ( ) in vitro ( ) outcomes in patients with endometriosis.Methods: This retrospective cohort study included 512 IVF cycles of patients with endometriosis.The study group included 216 patients pretreated with OCP before IVF，while the control group included 296 patients without OCP pretreatment.The live birth rate and clinical pregnancy rate were the main evaluation indexes ，and outcome of ovulation induction Results : ［( ) vs ． ( ) ，P ］ ［( ) vs ． ( ) ，P ］， 2 ［( ) · vs ． ( ) · ，P ］ ［( ) vs ． ( ) ，P ］ ， ［( ) vs ． ( ) ，P ］ ( vs ，P 0.05)of high-quality embryos were higher in OCP-pretreated patients.No differences were found in clinical pregnancy ra"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵:6",
+    "source": "上海儿童医学中心华法林药物相互作用5年数据分析_徐静涵.pdf",
+    "text": "产率差异无统计学意义( P ) 组药品不良反应发生率较低，无严重不良反应发生。 结论: 可能提高子宫内膜异位症患者的促排卵效率，降低治疗花费，改善胚胎质量，且对妊娠结局无明显负面影响，故可作为一种治疗子宫内膜异位症相关性不孕的有效治疗手段。\nEffects of Oral Contraceptive Pills on in vitro Fertilization-Embryo Transfer in Patients with Endometriosis， ， ， ( ; ， ，Tongji Medical College，Huazhong University of Science and Technology，Wuhan 43oo30,China)ABSTRACT Objective: ( ) in vitro ( ) outcomes in patients with endometriosis.Methods: This retrospective cohort study included 512 IVF cycles of patients with endometriosis.The study group included 216 patients pretreated with OCP before IVF，while the control group included 296 patients without OCP pretreatment.The live birth rate and clinical pregnancy rate were the main evaluation indexes ，and outcome of ovulation induction Results : ［( ) vs ． ( ) ，P ］ ［( ) vs ． ( ) ，P ］， 2 ［( ) · vs ． ( ) · ，P ］ ［( ) vs ． ( ) ，P ］ ， ［( ) vs ． ( ) ，P ］ ( vs ，P 0.05)of high-quality embryos were higher in OCP-pretreated patients.No differences were found in clinical pregnancy rate and live birth rate. The incidence of common adverse drug reactions of OCP was low，and there was no severe adverse drug reaction. Conclusion: OCP pretreatment may lower the cost of ovarian stimulation and improve embryo quality without significant influence on pregnancy outcomes."
+  }
+]

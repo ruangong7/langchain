@@ -118,7 +118,7 @@ class LightIntentClassifierService:
         if label == "medical":
             return {
                 "domain": "medical",
-                "route": "medical_rewrite",
+                "route": "continue",
                 "medical_score": round(confidence, 4),
                 "confidence": round(confidence, 4),
                 "intent": "unknown",

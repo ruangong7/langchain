@@ -1,0 +1,86 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "mTOR抑制药",
+        "canonical_name": "mTOR抑制药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "降糖药",
+        "canonical_name": "降糖药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "免疫抑制药",
+        "canonical_name": "免疫抑制药",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "canonical_name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "血糖水平",
+        "canonical_name": "血糖水平",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:4",
+          "raw_text": "Is mTOR 抑制药的患者都会通过监测血药浓度以调整剂量",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:4",
+          "data": "Is mTOR 抑制药的患者都会通过监测血药浓度以调整剂量;而降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平和药物特异性毒性反应来进行评估。 因此，了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定，趋利避害\n2 常用免疫抑制药的药物动力学"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:4",
+          "raw_text": "降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平和药物特异性毒性反应来进行评估",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:4",
+          "data": "Is mTOR 抑制药的患者都会通过监测血药浓度以调整剂量;而降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平和药物特异性毒性反应来进行评估。 因此，了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定，趋利避害\n2 常用免疫抑制药的药物动力学"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:4",
+          "raw_text": "了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:4",
+          "data": "Is mTOR 抑制药的患者都会通过监测血药浓度以调整剂量;而降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平和药物特异性毒性反应来进行评估。 因此，了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定，趋利避害\n2 常用免疫抑制药的药物动力学"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:4",
+    "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+    "text": "Is mTOR 抑制药的患者都会通过监测血药浓度以调整剂量;而降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平和药物特异性毒性反应来进行评估。 因此，了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定，趋利避害\n2 常用免疫抑制药的药物动力学"
+  }
+]

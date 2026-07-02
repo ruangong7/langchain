@@ -1,0 +1,299 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "表没食子儿茶素没食子酸酯",
+        "canonical_name": "表没食子儿茶素没食子酸酯",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "EGCG",
+        "canonical_name": "EGCG",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "EGC",
+        "canonical_name": "EGC",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "没食子酸",
+        "canonical_name": "没食子酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "细胞色素P450",
+        "canonical_name": "细胞色素P450",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "乙醛脱氢酶",
+        "canonical_name": "乙醛脱氢酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "芳基乙酰胺脱乙酰酶",
+        "canonical_name": "芳基乙酰胺脱乙酰酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "N-乙酰基转移酶",
+        "canonical_name": "N-乙酰基转移酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "UGT",
+        "canonical_name": "UGT",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "谷胱甘肽S转移酶",
+        "canonical_name": "谷胱甘肽S转移酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "SULT",
+        "canonical_name": "SULT",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "P-糖蛋白",
+        "canonical_name": "P-糖蛋白",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "DrugClass",
+        "name": "MRP",
+        "canonical_name": "MRP",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "DrugClass",
+        "name": "有机阴离子转运多肽",
+        "canonical_name": "有机阴离子转运多肽",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "DrugClass",
+        "name": "ABC转运蛋白",
+        "canonical_name": "ABC转运蛋白",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+          "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "raw_text": "表没食子儿茶素没食子酸酯（EGCG）",
+          "chunk_id": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "data": "^ { - 1 } , ( 1 6 1 \\pm 3 9 ) \\ \\mathsf { m g } \\cdot \\mathsf { m i n } \\cdot \\mathsf { L } ^ { - 1 }$ 1 和（24±7）min［5］ 。\n肝是药物代谢的主要器官。药物的肝内代谢分为Ⅰ相反应和Ⅱ相反应。参与Ⅰ相反应的代谢酶主要是细胞色素 P450（cytochrome P450，CYP450）超家族、乙醛脱氢酶和芳基乙酰胺脱乙酰酶（arylacetamide deacetylase，AADAC）等，参与Ⅱ相反应的代谢酶包括N-乙酰基转移酶（N-acetyl⁃transferase，NAT）、UGT、谷胱甘肽 S 转移酶（glu⁃tathione S-transferase，GST）和 SULT 等。此外，肝组织中还有药物转运蛋白参与药物的肝脏摄取和药物代谢产物经胆汁的排泄过程，包括P-糖蛋白（P-glycoprotein，P-gp）、MRP、有机阴离子转运多肽 （organic anion transporting polypeptides，OATP）和ABC转运蛋白等。\n1.2 代谢和排泄\n1.2.1 EGCG口服给药后经肠道细菌代谢和经尿、 便排泄\nEGCG在口服给药后大部分进入肠道。Kohri等［9］ ig给予给大鼠3H标记的EGCG后发现，给药后72 h内，粪便中的放射性为总放射性的35.2%，且血和尿中检测到的放射性主要来源于EGCG被肠道细菌降解的产物。Li等［10］ 报道，利用人类粪便菌群对EGC，EC和ECG进行厌氧发酵的产物与口服摄入EGCG的人血和尿中鉴定的3种儿茶素环状裂变产物相同，也说明口服EGCG被排入肠道后在肠道细菌的作用下进行代谢。动物及人的体内外研究显示，EGCG在肠道微生物分泌的水解酶、氧化还原酶、裂解酶和转移酶等的作用下先降解为EGC和没食子酸，随后进一步转化［11］。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+          "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "raw_text": "参与Ⅰ相反应的代谢酶主要是细胞色素P450（CYP450）超家族",
+          "chunk_id": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "data": "^ { - 1 } , ( 1 6 1 \\pm 3 9 ) \\ \\mathsf { m g } \\cdot \\mathsf { m i n } \\cdot \\mathsf { L } ^ { - 1 }$ 1 和（24±7）min［5］ 。\n肝是药物代谢的主要器官。药物的肝内代谢分为Ⅰ相反应和Ⅱ相反应。参与Ⅰ相反应的代谢酶主要是细胞色素 P450（cytochrome P450，CYP450）超家族、乙醛脱氢酶和芳基乙酰胺脱乙酰酶（arylacetamide deacetylase，AADAC）等，参与Ⅱ相反应的代谢酶包括N-乙酰基转移酶（N-acetyl⁃transferase，NAT）、UGT、谷胱甘肽 S 转移酶（glu⁃tathione S-transferase，GST）和 SULT 等。此外，肝组织中还有药物转运蛋白参与药物的肝脏摄取和药物代谢产物经胆汁的排泄过程，包括P-糖蛋白（P-glycoprotein，P-gp）、MRP、有机阴离子转运多肽 （organic anion transporting polypeptides，OATP）和ABC转运蛋白等。\n1.2 代谢和排泄\n1.2.1 EGCG口服给药后经肠道细菌代谢和经尿、 便排泄\nEGCG在口服给药后大部分进入肠道。Kohri等［9］ ig给予给大鼠3H标记的EGCG后发现，给药后72 h内，粪便中的放射性为总放射性的35.2%，且血和尿中检测到的放射性主要来源于EGCG被肠道细菌降解的产物。Li等［10］ 报道，利用人类粪便菌群对EGC，EC和ECG进行厌氧发酵的产物与口服摄入EGCG的人血和尿中鉴定的3种儿茶素环状裂变产物相同，也说明口服EGCG被排入肠道后在肠道细菌的作用下进行代谢。动物及人的体内外研究显示，EGCG在肠道微生物分泌的水解酶、氧化还原酶、裂解酶和转移酶等的作用下先降解为EGC和没食子酸，随后进一步转化［11］。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+          "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "raw_text": "参与Ⅰ相反应的代谢酶主要是...乙醛脱氢酶",
+          "chunk_id": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "data": "^ { - 1 } , ( 1 6 1 \\pm 3 9 ) \\ \\mathsf { m g } \\cdot \\mathsf { m i n } \\cdot \\mathsf { L } ^ { - 1 }$ 1 和（24±7）min［5］ 。\n肝是药物代谢的主要器官。药物的肝内代谢分为Ⅰ相反应和Ⅱ相反应。参与Ⅰ相反应的代谢酶主要是细胞色素 P450（cytochrome P450，CYP450）超家族、乙醛脱氢酶和芳基乙酰胺脱乙酰酶（arylacetamide deacetylase，AADAC）等，参与Ⅱ相反应的代谢酶包括N-乙酰基转移酶（N-acetyl⁃transferase，NAT）、UGT、谷胱甘肽 S 转移酶（glu⁃tathione S-transferase，GST）和 SULT 等。此外，肝组织中还有药物转运蛋白参与药物的肝脏摄取和药物代谢产物经胆汁的排泄过程，包括P-糖蛋白（P-glycoprotein，P-gp）、MRP、有机阴离子转运多肽 （organic anion transporting polypeptides，OATP）和ABC转运蛋白等。\n1.2 代谢和排泄\n1.2.1 EGCG口服给药后经肠道细菌代谢和经尿、 便排泄\nEGCG在口服给药后大部分进入肠道。Kohri等［9］ ig给予给大鼠3H标记的EGCG后发现，给药后72 h内，粪便中的放射性为总放射性的35.2%，且血和尿中检测到的放射性主要来源于EGCG被肠道细菌降解的产物。Li等［10］ 报道，利用人类粪便菌群对EGC，EC和ECG进行厌氧发酵的产物与口服摄入EGCG的人血和尿中鉴定的3种儿茶素环状裂变产物相同，也说明口服EGCG被排入肠道后在肠道细菌的作用下进行代谢。动物及人的体内外研究显示，EGCG在肠道微生物分泌的水解酶、氧化还原酶、裂解酶和转移酶等的作用下先降解为EGC和没食子酸，随后进一步转化［11］。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+          "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "raw_text": "参与Ⅰ相反应的代谢酶主要是...芳基乙酰胺脱乙酰酶",
+          "chunk_id": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "data": "^ { - 1 } , ( 1 6 1 \\pm 3 9 ) \\ \\mathsf { m g } \\cdot \\mathsf { m i n } \\cdot \\mathsf { L } ^ { - 1 }$ 1 和（24±7）min［5］ 。\n肝是药物代谢的主要器官。药物的肝内代谢分为Ⅰ相反应和Ⅱ相反应。参与Ⅰ相反应的代谢酶主要是细胞色素 P450（cytochrome P450，CYP450）超家族、乙醛脱氢酶和芳基乙酰胺脱乙酰酶（arylacetamide deacetylase，AADAC）等，参与Ⅱ相反应的代谢酶包括N-乙酰基转移酶（N-acetyl⁃transferase，NAT）、UGT、谷胱甘肽 S 转移酶（glu⁃tathione S-transferase，GST）和 SULT 等。此外，肝组织中还有药物转运蛋白参与药物的肝脏摄取和药物代谢产物经胆汁的排泄过程，包括P-糖蛋白（P-glycoprotein，P-gp）、MRP、有机阴离子转运多肽 （organic anion transporting polypeptides，OATP）和ABC转运蛋白等。\n1.2 代谢和排泄\n1.2.1 EGCG口服给药后经肠道细菌代谢和经尿、 便排泄\nEGCG在口服给药后大部分进入肠道。Kohri等［9］ ig给予给大鼠3H标记的EGCG后发现，给药后72 h内，粪便中的放射性为总放射性的35.2%，且血和尿中检测到的放射性主要来源于EGCG被肠道细菌降解的产物。Li等［10］ 报道，利用人类粪便菌群对EGC，EC和ECG进行厌氧发酵的产物与口服摄入EGCG的人血和尿中鉴定的3种儿茶素环状裂变产物相同，也说明口服EGCG被排入肠道后在肠道细菌的作用下进行代谢。动物及人的体内外研究显示，EGCG在肠道微生物分泌的水解酶、氧化还原酶、裂解酶和转移酶等的作用下先降解为EGC和没食子酸，随后进一步转化［11］。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+          "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "raw_text": "参与Ⅱ相反应的代谢酶包括N-乙酰基转移酶",
+          "chunk_id": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "data": "^ { - 1 } , ( 1 6 1 \\pm 3 9 ) \\ \\mathsf { m g } \\cdot \\mathsf { m i n } \\cdot \\mathsf { L } ^ { - 1 }$ 1 和（24±7）min［5］ 。\n肝是药物代谢的主要器官。药物的肝内代谢分为Ⅰ相反应和Ⅱ相反应。参与Ⅰ相反应的代谢酶主要是细胞色素 P450（cytochrome P450，CYP450）超家族、乙醛脱氢酶和芳基乙酰胺脱乙酰酶（arylacetamide deacetylase，AADAC）等，参与Ⅱ相反应的代谢酶包括N-乙酰基转移酶（N-acetyl⁃transferase，NAT）、UGT、谷胱甘肽 S 转移酶（glu⁃tathione S-transferase，GST）和 SULT 等。此外，肝组织中还有药物转运蛋白参与药物的肝脏摄取和药物代谢产物经胆汁的排泄过程，包括P-糖蛋白（P-glycoprotein，P-gp）、MRP、有机阴离子转运多肽 （organic anion transporting polypeptides，OATP）和ABC转运蛋白等。\n1.2 代谢和排泄\n1.2.1 EGCG口服给药后经肠道细菌代谢和经尿、 便排泄\nEGCG在口服给药后大部分进入肠道。Kohri等［9］ ig给予给大鼠3H标记的EGCG后发现，给药后72 h内，粪便中的放射性为总放射性的35.2%，且血和尿中检测到的放射性主要来源于EGCG被肠道细菌降解的产物。Li等［10］ 报道，利用人类粪便菌群对EGC，EC和ECG进行厌氧发酵的产物与口服摄入EGCG的人血和尿中鉴定的3种儿茶素环状裂变产物相同，也说明口服EGCG被排入肠道后在肠道细菌的作用下进行代谢。动物及人的体内外研究显示，EGCG在肠道微生物分泌的水解酶、氧化还原酶、裂解酶和转移酶等的作用下先降解为EGC和没食子酸，随后进一步转化［11］。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+          "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "raw_text": "参与Ⅱ相反应的代谢酶包括...UGT",
+          "chunk_id": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "data": "^ { - 1 } , ( 1 6 1 \\pm 3 9 ) \\ \\mathsf { m g } \\cdot \\mathsf { m i n } \\cdot \\mathsf { L } ^ { - 1 }$ 1 和（24±7）min［5］ 。\n肝是药物代谢的主要器官。药物的肝内代谢分为Ⅰ相反应和Ⅱ相反应。参与Ⅰ相反应的代谢酶主要是细胞色素 P450（cytochrome P450，CYP450）超家族、乙醛脱氢酶和芳基乙酰胺脱乙酰酶（arylacetamide deacetylase，AADAC）等，参与Ⅱ相反应的代谢酶包括N-乙酰基转移酶（N-acetyl⁃transferase，NAT）、UGT、谷胱甘肽 S 转移酶（glu⁃tathione S-transferase，GST）和 SULT 等。此外，肝组织中还有药物转运蛋白参与药物的肝脏摄取和药物代谢产物经胆汁的排泄过程，包括P-糖蛋白（P-glycoprotein，P-gp）、MRP、有机阴离子转运多肽 （organic anion transporting polypeptides，OATP）和ABC转运蛋白等。\n1.2 代谢和排泄\n1.2.1 EGCG口服给药后经肠道细菌代谢和经尿、 便排泄\nEGCG在口服给药后大部分进入肠道。Kohri等［9］ ig给予给大鼠3H标记的EGCG后发现，给药后72 h内，粪便中的放射性为总放射性的35.2%，且血和尿中检测到的放射性主要来源于EGCG被肠道细菌降解的产物。Li等［10］ 报道，利用人类粪便菌群对EGC，EC和ECG进行厌氧发酵的产物与口服摄入EGCG的人血和尿中鉴定的3种儿茶素环状裂变产物相同，也说明口服EGCG被排入肠道后在肠道细菌的作用下进行代谢。动物及人的体内外研究显示，EGCG在肠道微生物分泌的水解酶、氧化还原酶、裂解酶和转移酶等的作用下先降解为EGC和没食子酸，随后进一步转化［11］。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+          "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "raw_text": "参与Ⅱ相反应的代谢酶包括...谷胱甘肽S转移酶",
+          "chunk_id": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "data": "^ { - 1 } , ( 1 6 1 \\pm 3 9 ) \\ \\mathsf { m g } \\cdot \\mathsf { m i n } \\cdot \\mathsf { L } ^ { - 1 }$ 1 和（24±7）min［5］ 。\n肝是药物代谢的主要器官。药物的肝内代谢分为Ⅰ相反应和Ⅱ相反应。参与Ⅰ相反应的代谢酶主要是细胞色素 P450（cytochrome P450，CYP450）超家族、乙醛脱氢酶和芳基乙酰胺脱乙酰酶（arylacetamide deacetylase，AADAC）等，参与Ⅱ相反应的代谢酶包括N-乙酰基转移酶（N-acetyl⁃transferase，NAT）、UGT、谷胱甘肽 S 转移酶（glu⁃tathione S-transferase，GST）和 SULT 等。此外，肝组织中还有药物转运蛋白参与药物的肝脏摄取和药物代谢产物经胆汁的排泄过程，包括P-糖蛋白（P-glycoprotein，P-gp）、MRP、有机阴离子转运多肽 （organic anion transporting polypeptides，OATP）和ABC转运蛋白等。\n1.2 代谢和排泄\n1.2.1 EGCG口服给药后经肠道细菌代谢和经尿、 便排泄\nEGCG在口服给药后大部分进入肠道。Kohri等［9］ ig给予给大鼠3H标记的EGCG后发现，给药后72 h内，粪便中的放射性为总放射性的35.2%，且血和尿中检测到的放射性主要来源于EGCG被肠道细菌降解的产物。Li等［10］ 报道，利用人类粪便菌群对EGC，EC和ECG进行厌氧发酵的产物与口服摄入EGCG的人血和尿中鉴定的3种儿茶素环状裂变产物相同，也说明口服EGCG被排入肠道后在肠道细菌的作用下进行代谢。动物及人的体内外研究显示，EGCG在肠道微生物分泌的水解酶、氧化还原酶、裂解酶和转移酶等的作用下先降解为EGC和没食子酸，随后进一步转化［11］。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+          "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "raw_text": "参与Ⅱ相反应的代谢酶包括...SULT",
+          "chunk_id": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "data": "^ { - 1 } , ( 1 6 1 \\pm 3 9 ) \\ \\mathsf { m g } \\cdot \\mathsf { m i n } \\cdot \\mathsf { L } ^ { - 1 }$ 1 和（24±7）min［5］ 。\n肝是药物代谢的主要器官。药物的肝内代谢分为Ⅰ相反应和Ⅱ相反应。参与Ⅰ相反应的代谢酶主要是细胞色素 P450（cytochrome P450，CYP450）超家族、乙醛脱氢酶和芳基乙酰胺脱乙酰酶（arylacetamide deacetylase，AADAC）等，参与Ⅱ相反应的代谢酶包括N-乙酰基转移酶（N-acetyl⁃transferase，NAT）、UGT、谷胱甘肽 S 转移酶（glu⁃tathione S-transferase，GST）和 SULT 等。此外，肝组织中还有药物转运蛋白参与药物的肝脏摄取和药物代谢产物经胆汁的排泄过程，包括P-糖蛋白（P-glycoprotein，P-gp）、MRP、有机阴离子转运多肽 （organic anion transporting polypeptides，OATP）和ABC转运蛋白等。\n1.2 代谢和排泄\n1.2.1 EGCG口服给药后经肠道细菌代谢和经尿、 便排泄\nEGCG在口服给药后大部分进入肠道。Kohri等［9］ ig给予给大鼠3H标记的EGCG后发现，给药后72 h内，粪便中的放射性为总放射性的35.2%，且血和尿中检测到的放射性主要来源于EGCG被肠道细菌降解的产物。Li等［10］ 报道，利用人类粪便菌群对EGC，EC和ECG进行厌氧发酵的产物与口服摄入EGCG的人血和尿中鉴定的3种儿茶素环状裂变产物相同，也说明口服EGCG被排入肠道后在肠道细菌的作用下进行代谢。动物及人的体内外研究显示，EGCG在肠道微生物分泌的水解酶、氧化还原酶、裂解酶和转移酶等的作用下先降解为EGC和没食子酸，随后进一步转化［11］。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+          "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "raw_text": "肝组织中还有药物转运蛋白...包括P-糖蛋白",
+          "chunk_id": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "data": "^ { - 1 } , ( 1 6 1 \\pm 3 9 ) \\ \\mathsf { m g } \\cdot \\mathsf { m i n } \\cdot \\mathsf { L } ^ { - 1 }$ 1 和（24±7）min［5］ 。\n肝是药物代谢的主要器官。药物的肝内代谢分为Ⅰ相反应和Ⅱ相反应。参与Ⅰ相反应的代谢酶主要是细胞色素 P450（cytochrome P450，CYP450）超家族、乙醛脱氢酶和芳基乙酰胺脱乙酰酶（arylacetamide deacetylase，AADAC）等，参与Ⅱ相反应的代谢酶包括N-乙酰基转移酶（N-acetyl⁃transferase，NAT）、UGT、谷胱甘肽 S 转移酶（glu⁃tathione S-transferase，GST）和 SULT 等。此外，肝组织中还有药物转运蛋白参与药物的肝脏摄取和药物代谢产物经胆汁的排泄过程，包括P-糖蛋白（P-glycoprotein，P-gp）、MRP、有机阴离子转运多肽 （organic anion transporting polypeptides，OATP）和ABC转运蛋白等。\n1.2 代谢和排泄\n1.2.1 EGCG口服给药后经肠道细菌代谢和经尿、 便排泄\nEGCG在口服给药后大部分进入肠道。Kohri等［9］ ig给予给大鼠3H标记的EGCG后发现，给药后72 h内，粪便中的放射性为总放射性的35.2%，且血和尿中检测到的放射性主要来源于EGCG被肠道细菌降解的产物。Li等［10］ 报道，利用人类粪便菌群对EGC，EC和ECG进行厌氧发酵的产物与口服摄入EGCG的人血和尿中鉴定的3种儿茶素环状裂变产物相同，也说明口服EGCG被排入肠道后在肠道细菌的作用下进行代谢。动物及人的体内外研究显示，EGCG在肠道微生物分泌的水解酶、氧化还原酶、裂解酶和转移酶等的作用下先降解为EGC和没食子酸，随后进一步转化［11］。"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+          "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "raw_text": "肝组织中还有药物转运蛋白...包括MRP",
+          "chunk_id": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "data": "^ { - 1 } , ( 1 6 1 \\pm 3 9 ) \\ \\mathsf { m g } \\cdot \\mathsf { m i n } \\cdot \\mathsf { L } ^ { - 1 }$ 1 和（24±7）min［5］ 。\n肝是药物代谢的主要器官。药物的肝内代谢分为Ⅰ相反应和Ⅱ相反应。参与Ⅰ相反应的代谢酶主要是细胞色素 P450（cytochrome P450，CYP450）超家族、乙醛脱氢酶和芳基乙酰胺脱乙酰酶（arylacetamide deacetylase，AADAC）等，参与Ⅱ相反应的代谢酶包括N-乙酰基转移酶（N-acetyl⁃transferase，NAT）、UGT、谷胱甘肽 S 转移酶（glu⁃tathione S-transferase，GST）和 SULT 等。此外，肝组织中还有药物转运蛋白参与药物的肝脏摄取和药物代谢产物经胆汁的排泄过程，包括P-糖蛋白（P-glycoprotein，P-gp）、MRP、有机阴离子转运多肽 （organic anion transporting polypeptides，OATP）和ABC转运蛋白等。\n1.2 代谢和排泄\n1.2.1 EGCG口服给药后经肠道细菌代谢和经尿、 便排泄\nEGCG在口服给药后大部分进入肠道。Kohri等［9］ ig给予给大鼠3H标记的EGCG后发现，给药后72 h内，粪便中的放射性为总放射性的35.2%，且血和尿中检测到的放射性主要来源于EGCG被肠道细菌降解的产物。Li等［10］ 报道，利用人类粪便菌群对EGC，EC和ECG进行厌氧发酵的产物与口服摄入EGCG的人血和尿中鉴定的3种儿茶素环状裂变产物相同，也说明口服EGCG被排入肠道后在肠道细菌的作用下进行代谢。动物及人的体内外研究显示，EGCG在肠道微生物分泌的水解酶、氧化还原酶、裂解酶和转移酶等的作用下先降解为EGC和没食子酸，随后进一步转化［11］。"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+          "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "raw_text": "肝组织中还有药物转运蛋白...包括有机阴离子转运多肽",
+          "chunk_id": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "data": "^ { - 1 } , ( 1 6 1 \\pm 3 9 ) \\ \\mathsf { m g } \\cdot \\mathsf { m i n } \\cdot \\mathsf { L } ^ { - 1 }$ 1 和（24±7）min［5］ 。\n肝是药物代谢的主要器官。药物的肝内代谢分为Ⅰ相反应和Ⅱ相反应。参与Ⅰ相反应的代谢酶主要是细胞色素 P450（cytochrome P450，CYP450）超家族、乙醛脱氢酶和芳基乙酰胺脱乙酰酶（arylacetamide deacetylase，AADAC）等，参与Ⅱ相反应的代谢酶包括N-乙酰基转移酶（N-acetyl⁃transferase，NAT）、UGT、谷胱甘肽 S 转移酶（glu⁃tathione S-transferase，GST）和 SULT 等。此外，肝组织中还有药物转运蛋白参与药物的肝脏摄取和药物代谢产物经胆汁的排泄过程，包括P-糖蛋白（P-glycoprotein，P-gp）、MRP、有机阴离子转运多肽 （organic anion transporting polypeptides，OATP）和ABC转运蛋白等。\n1.2 代谢和排泄\n1.2.1 EGCG口服给药后经肠道细菌代谢和经尿、 便排泄\nEGCG在口服给药后大部分进入肠道。Kohri等［9］ ig给予给大鼠3H标记的EGCG后发现，给药后72 h内，粪便中的放射性为总放射性的35.2%，且血和尿中检测到的放射性主要来源于EGCG被肠道细菌降解的产物。Li等［10］ 报道，利用人类粪便菌群对EGC，EC和ECG进行厌氧发酵的产物与口服摄入EGCG的人血和尿中鉴定的3种儿茶素环状裂变产物相同，也说明口服EGCG被排入肠道后在肠道细菌的作用下进行代谢。动物及人的体内外研究显示，EGCG在肠道微生物分泌的水解酶、氧化还原酶、裂解酶和转移酶等的作用下先降解为EGC和没食子酸，随后进一步转化［11］。"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_21",
+        "properties": {
+          "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+          "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "raw_text": "肝组织中还有药物转运蛋白...包括ABC转运蛋白",
+          "chunk_id": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "data": "^ { - 1 } , ( 1 6 1 \\pm 3 9 ) \\ \\mathsf { m g } \\cdot \\mathsf { m i n } \\cdot \\mathsf { L } ^ { - 1 }$ 1 和（24±7）min［5］ 。\n肝是药物代谢的主要器官。药物的肝内代谢分为Ⅰ相反应和Ⅱ相反应。参与Ⅰ相反应的代谢酶主要是细胞色素 P450（cytochrome P450，CYP450）超家族、乙醛脱氢酶和芳基乙酰胺脱乙酰酶（arylacetamide deacetylase，AADAC）等，参与Ⅱ相反应的代谢酶包括N-乙酰基转移酶（N-acetyl⁃transferase，NAT）、UGT、谷胱甘肽 S 转移酶（glu⁃tathione S-transferase，GST）和 SULT 等。此外，肝组织中还有药物转运蛋白参与药物的肝脏摄取和药物代谢产物经胆汁的排泄过程，包括P-糖蛋白（P-glycoprotein，P-gp）、MRP、有机阴离子转运多肽 （organic anion transporting polypeptides，OATP）和ABC转运蛋白等。\n1.2 代谢和排泄\n1.2.1 EGCG口服给药后经肠道细菌代谢和经尿、 便排泄\nEGCG在口服给药后大部分进入肠道。Kohri等［9］ ig给予给大鼠3H标记的EGCG后发现，给药后72 h内，粪便中的放射性为总放射性的35.2%，且血和尿中检测到的放射性主要来源于EGCG被肠道细菌降解的产物。Li等［10］ 报道，利用人类粪便菌群对EGC，EC和ECG进行厌氧发酵的产物与口服摄入EGCG的人血和尿中鉴定的3种儿茶素环状裂变产物相同，也说明口服EGCG被排入肠道后在肠道细菌的作用下进行代谢。动物及人的体内外研究显示，EGCG在肠道微生物分泌的水解酶、氧化还原酶、裂解酶和转移酶等的作用下先降解为EGC和没食子酸，随后进一步转化［11］。"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+          "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "raw_text": "EGCG在肠道微生物...作用下先降解为EGC和没食子酸",
+          "chunk_id": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "data": "^ { - 1 } , ( 1 6 1 \\pm 3 9 ) \\ \\mathsf { m g } \\cdot \\mathsf { m i n } \\cdot \\mathsf { L } ^ { - 1 }$ 1 和（24±7）min［5］ 。\n肝是药物代谢的主要器官。药物的肝内代谢分为Ⅰ相反应和Ⅱ相反应。参与Ⅰ相反应的代谢酶主要是细胞色素 P450（cytochrome P450，CYP450）超家族、乙醛脱氢酶和芳基乙酰胺脱乙酰酶（arylacetamide deacetylase，AADAC）等，参与Ⅱ相反应的代谢酶包括N-乙酰基转移酶（N-acetyl⁃transferase，NAT）、UGT、谷胱甘肽 S 转移酶（glu⁃tathione S-transferase，GST）和 SULT 等。此外，肝组织中还有药物转运蛋白参与药物的肝脏摄取和药物代谢产物经胆汁的排泄过程，包括P-糖蛋白（P-glycoprotein，P-gp）、MRP、有机阴离子转运多肽 （organic anion transporting polypeptides，OATP）和ABC转运蛋白等。\n1.2 代谢和排泄\n1.2.1 EGCG口服给药后经肠道细菌代谢和经尿、 便排泄\nEGCG在口服给药后大部分进入肠道。Kohri等［9］ ig给予给大鼠3H标记的EGCG后发现，给药后72 h内，粪便中的放射性为总放射性的35.2%，且血和尿中检测到的放射性主要来源于EGCG被肠道细菌降解的产物。Li等［10］ 报道，利用人类粪便菌群对EGC，EC和ECG进行厌氧发酵的产物与口服摄入EGCG的人血和尿中鉴定的3种儿茶素环状裂变产物相同，也说明口服EGCG被排入肠道后在肠道细菌的作用下进行代谢。动物及人的体内外研究显示，EGCG在肠道微生物分泌的水解酶、氧化还原酶、裂解酶和转移酶等的作用下先降解为EGC和没食子酸，随后进一步转化［11］。"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+          "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "raw_text": "EGCG在肠道微生物...作用下先降解为EGC和没食子酸",
+          "chunk_id": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+          "data": "^ { - 1 } , ( 1 6 1 \\pm 3 9 ) \\ \\mathsf { m g } \\cdot \\mathsf { m i n } \\cdot \\mathsf { L } ^ { - 1 }$ 1 和（24±7）min［5］ 。\n肝是药物代谢的主要器官。药物的肝内代谢分为Ⅰ相反应和Ⅱ相反应。参与Ⅰ相反应的代谢酶主要是细胞色素 P450（cytochrome P450，CYP450）超家族、乙醛脱氢酶和芳基乙酰胺脱乙酰酶（arylacetamide deacetylase，AADAC）等，参与Ⅱ相反应的代谢酶包括N-乙酰基转移酶（N-acetyl⁃transferase，NAT）、UGT、谷胱甘肽 S 转移酶（glu⁃tathione S-transferase，GST）和 SULT 等。此外，肝组织中还有药物转运蛋白参与药物的肝脏摄取和药物代谢产物经胆汁的排泄过程，包括P-糖蛋白（P-glycoprotein，P-gp）、MRP、有机阴离子转运多肽 （organic anion transporting polypeptides，OATP）和ABC转运蛋白等。\n1.2 代谢和排泄\n1.2.1 EGCG口服给药后经肠道细菌代谢和经尿、 便排泄\nEGCG在口服给药后大部分进入肠道。Kohri等［9］ ig给予给大鼠3H标记的EGCG后发现，给药后72 h内，粪便中的放射性为总放射性的35.2%，且血和尿中检测到的放射性主要来源于EGCG被肠道细菌降解的产物。Li等［10］ 报道，利用人类粪便菌群对EGC，EC和ECG进行厌氧发酵的产物与口服摄入EGCG的人血和尿中鉴定的3种儿茶素环状裂变产物相同，也说明口服EGCG被排入肠道后在肠道细菌的作用下进行代谢。动物及人的体内外研究显示，EGCG在肠道微生物分泌的水解酶、氧化还原酶、裂解酶和转移酶等的作用下先降解为EGC和没食子酸，随后进一步转化［11］。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:3",
+    "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+    "text": "^ { - 1 } , ( 1 6 1 \\pm 3 9 ) \\ \\mathsf { m g } \\cdot \\mathsf { m i n } \\cdot \\mathsf { L } ^ { - 1 }$ 1 和（24±7）min［5］ 。\n肝是药物代谢的主要器官。药物的肝内代谢分为Ⅰ相反应和Ⅱ相反应。参与Ⅰ相反应的代谢酶主要是细胞色素 P450（cytochrome P450，CYP450）超家族、乙醛脱氢酶和芳基乙酰胺脱乙酰酶（arylacetamide deacetylase，AADAC）等，参与Ⅱ相反应的代谢酶包括N-乙酰基转移酶（N-acetyl⁃transferase，NAT）、UGT、谷胱甘肽 S 转移酶（glu⁃tathione S-transferase，GST）和 SULT 等。此外，肝组织中还有药物转运蛋白参与药物的肝脏摄取和药物代谢产物经胆汁的排泄过程，包括P-糖蛋白（P-glycoprotein，P-gp）、MRP、有机阴离子转运多肽 （organic anion transporting polypeptides，OATP）和ABC转运蛋白等。\n1.2 代谢和排泄\n1.2.1 EGCG口服给药后经肠道细菌代谢和经尿、 便排泄\nEGCG在口服给药后大部分进入肠道。Kohri等［9］ ig给予给大鼠3H标记的EGCG后发现，给药后72 h内，粪便中的放射性为总放射性的35.2%，且血和尿中检测到的放射性主要来源于EGCG被肠道细菌降解的产物。Li等［10］ 报道，利用人类粪便菌群对EGC，EC和ECG进行厌氧发酵的产物与口服摄入EGCG的人血和尿中鉴定的3种儿茶素环状裂变产物相同，也说明口服EGCG被排入肠道后在肠道细菌的作用下进行代谢。动物及人的体内外研究显示，EGCG在肠道微生物分泌的水解酶、氧化还原酶、裂解酶和转移酶等的作用下先降解为EGC和没食子酸，随后进一步转化［11］。"
+  }
+]

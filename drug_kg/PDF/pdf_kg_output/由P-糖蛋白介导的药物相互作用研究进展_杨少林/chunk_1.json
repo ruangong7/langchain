@@ -1,0 +1,177 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "抗肿瘤药",
+        "canonical_name": "抗肿瘤药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "循环系统用药",
+        "canonical_name": "循环系统用药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "抗生素",
+        "canonical_name": "抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "免疫调节剂",
+        "canonical_name": "免疫调节剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "中枢神经系统用药",
+        "canonical_name": "中枢神经系统用药",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "由P-糖蛋白介导的药物相互作用研究进展_杨少林.pdf",
+          "chunk_index": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "raw_text": "P-糖蛋白(P-gp)是一种 ATP 依赖性的外向型转运泵，分布于全身多个重要脏器中，参与多类药物的体内转运过程，由多药耐药( multidrug resistance，MDR) 基因编码的，也是抗抗肿瘤药产生多药耐药作用的主要原因。",
+          "chunk_id": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "data": "疫调节剂、中枢神经系统用药等药物的相互作用。 结论:由 P-糖蛋白介导的药物相互作用研究不够深入，缺乏系统性研究。\nResearch Progress on P-glycoprotein-mediated Drug Interactions\nYANG Shao-lin1，2\\* ，LI Huan-de 1，2 ，PENG Zhen-zhen1，2 ，ZHAO Xu-yuan1，2# (1. Dept． of Pharmacy，The Second Xiangya Hospital of Central South University，Changsha 410011，China; 2. School ofPharmacy，Central South University，Changsha 410013，China)ABSTRACT OBJECTIVE: To introduce the research progress on P-glycoprotein-mediated drug interactions． METHODS: Based on recent representative papers both at home and abroad，the properties，functions and action mechanism of P-glycoprotein and their application in drug interaction was analyzed and reviewed． RESULTS: Pglycoprotein was found to be able to mediate drug interactions of such drugs as anti-tumor drugs，circulatory system drugs，antibiotics，immunomodulators and central nervous system drugs etc． CONCLUSION: There is lack of in-depth and systematic research on the drug interactions mediated by P-glycoprotein．P-糖蛋白(P-gp)是一种 ATP 依"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "由P-糖蛋白介导的药物相互作用研究进展_杨少林.pdf",
+          "chunk_index": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "raw_text": "P-糖蛋白(P-gp)是一种 ATP 依赖性的外向型转运泵，分布于全身多个重要脏器中，参与多类药物的体内转运过程，由多药耐药( multidrug resistance，MDR) 基因编码的，也是抗抗肿瘤药产生多药耐药作用的主要原因。",
+          "chunk_id": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "data": "疫调节剂、中枢神经系统用药等药物的相互作用。 结论:由 P-糖蛋白介导的药物相互作用研究不够深入，缺乏系统性研究。\nResearch Progress on P-glycoprotein-mediated Drug Interactions\nYANG Shao-lin1，2\\* ，LI Huan-de 1，2 ，PENG Zhen-zhen1，2 ，ZHAO Xu-yuan1，2# (1. Dept． of Pharmacy，The Second Xiangya Hospital of Central South University，Changsha 410011，China; 2. School ofPharmacy，Central South University，Changsha 410013，China)ABSTRACT OBJECTIVE: To introduce the research progress on P-glycoprotein-mediated drug interactions． METHODS: Based on recent representative papers both at home and abroad，the properties，functions and action mechanism of P-glycoprotein and their application in drug interaction was analyzed and reviewed． RESULTS: Pglycoprotein was found to be able to mediate drug interactions of such drugs as anti-tumor drugs，circulatory system drugs，antibiotics，immunomodulators and central nervous system drugs etc． CONCLUSION: There is lack of in-depth and systematic research on the drug interactions mediated by P-glycoprotein．P-糖蛋白(P-gp)是一种 ATP 依"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "由P-糖蛋白介导的药物相互作用研究进展_杨少林.pdf",
+          "chunk_index": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "raw_text": "P-糖蛋白(P-gp)是一种 ATP 依赖性的外向型转运泵，分布于全身多个重要脏器中，参与多类药物的体内转运过程，由多药耐药( multidrug resistance，MDR) 基因编码的，也是抗抗肿瘤药产生多药耐药作用的主要原因。",
+          "chunk_id": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "data": "疫调节剂、中枢神经系统用药等药物的相互作用。 结论:由 P-糖蛋白介导的药物相互作用研究不够深入，缺乏系统性研究。\nResearch Progress on P-glycoprotein-mediated Drug Interactions\nYANG Shao-lin1，2\\* ，LI Huan-de 1，2 ，PENG Zhen-zhen1，2 ，ZHAO Xu-yuan1，2# (1. Dept． of Pharmacy，The Second Xiangya Hospital of Central South University，Changsha 410011，China; 2. School ofPharmacy，Central South University，Changsha 410013，China)ABSTRACT OBJECTIVE: To introduce the research progress on P-glycoprotein-mediated drug interactions． METHODS: Based on recent representative papers both at home and abroad，the properties，functions and action mechanism of P-glycoprotein and their application in drug interaction was analyzed and reviewed． RESULTS: Pglycoprotein was found to be able to mediate drug interactions of such drugs as anti-tumor drugs，circulatory system drugs，antibiotics，immunomodulators and central nervous system drugs etc． CONCLUSION: There is lack of in-depth and systematic research on the drug interactions mediated by P-glycoprotein．P-糖蛋白(P-gp)是一种 ATP 依"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "由P-糖蛋白介导的药物相互作用研究进展_杨少林.pdf",
+          "chunk_index": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "raw_text": "P-糖蛋白(P-gp)是一种 ATP 依赖性的外向型转运泵，分布于全身多个重要脏器中，参与多类药物的体内转运过程，由多药耐药( multidrug resistance，MDR) 基因编码的，也是抗抗肿瘤药产生多药耐药作用的主要原因。",
+          "chunk_id": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "data": "疫调节剂、中枢神经系统用药等药物的相互作用。 结论:由 P-糖蛋白介导的药物相互作用研究不够深入，缺乏系统性研究。\nResearch Progress on P-glycoprotein-mediated Drug Interactions\nYANG Shao-lin1，2\\* ，LI Huan-de 1，2 ，PENG Zhen-zhen1，2 ，ZHAO Xu-yuan1，2# (1. Dept． of Pharmacy，The Second Xiangya Hospital of Central South University，Changsha 410011，China; 2. School ofPharmacy，Central South University，Changsha 410013，China)ABSTRACT OBJECTIVE: To introduce the research progress on P-glycoprotein-mediated drug interactions． METHODS: Based on recent representative papers both at home and abroad，the properties，functions and action mechanism of P-glycoprotein and their application in drug interaction was analyzed and reviewed． RESULTS: Pglycoprotein was found to be able to mediate drug interactions of such drugs as anti-tumor drugs，circulatory system drugs，antibiotics，immunomodulators and central nervous system drugs etc． CONCLUSION: There is lack of in-depth and systematic research on the drug interactions mediated by P-glycoprotein．P-糖蛋白(P-gp)是一种 ATP 依"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "由P-糖蛋白介导的药物相互作用研究进展_杨少林.pdf",
+          "chunk_index": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "raw_text": "P-糖蛋白(P-gp)是一种 ATP 依赖性的外向型转运泵，分布于全身多个重要脏器中，参与多类药物的体内转运过程，由多药耐药( multidrug resistance，MDR) 基因编码的，也是抗抗肿瘤药产生多药耐药作用的主要原因。",
+          "chunk_id": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "data": "疫调节剂、中枢神经系统用药等药物的相互作用。 结论:由 P-糖蛋白介导的药物相互作用研究不够深入，缺乏系统性研究。\nResearch Progress on P-glycoprotein-mediated Drug Interactions\nYANG Shao-lin1，2\\* ，LI Huan-de 1，2 ，PENG Zhen-zhen1，2 ，ZHAO Xu-yuan1，2# (1. Dept． of Pharmacy，The Second Xiangya Hospital of Central South University，Changsha 410011，China; 2. School ofPharmacy，Central South University，Changsha 410013，China)ABSTRACT OBJECTIVE: To introduce the research progress on P-glycoprotein-mediated drug interactions． METHODS: Based on recent representative papers both at home and abroad，the properties，functions and action mechanism of P-glycoprotein and their application in drug interaction was analyzed and reviewed． RESULTS: Pglycoprotein was found to be able to mediate drug interactions of such drugs as anti-tumor drugs，circulatory system drugs，antibiotics，immunomodulators and central nervous system drugs etc． CONCLUSION: There is lack of in-depth and systematic research on the drug interactions mediated by P-glycoprotein．P-糖蛋白(P-gp)是一种 ATP 依"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "由P-糖蛋白介导的药物相互作用研究进展_杨少林.pdf",
+          "chunk_index": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "raw_text": "P-糖蛋白(P-gp)是一种 ATP 依赖性的外向型转运泵，分布于全身多个重要脏器中，参与多类药物的体内转运过程，由多药耐药( multidrug resistance，MDR) 基因编码的，也是抗抗肿瘤药产生多药耐药作用的主要原因。",
+          "chunk_id": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "data": "疫调节剂、中枢神经系统用药等药物的相互作用。 结论:由 P-糖蛋白介导的药物相互作用研究不够深入，缺乏系统性研究。\nResearch Progress on P-glycoprotein-mediated Drug Interactions\nYANG Shao-lin1，2\\* ，LI Huan-de 1，2 ，PENG Zhen-zhen1，2 ，ZHAO Xu-yuan1，2# (1. Dept． of Pharmacy，The Second Xiangya Hospital of Central South University，Changsha 410011，China; 2. School ofPharmacy，Central South University，Changsha 410013，China)ABSTRACT OBJECTIVE: To introduce the research progress on P-glycoprotein-mediated drug interactions． METHODS: Based on recent representative papers both at home and abroad，the properties，functions and action mechanism of P-glycoprotein and their application in drug interaction was analyzed and reviewed． RESULTS: Pglycoprotein was found to be able to mediate drug interactions of such drugs as anti-tumor drugs，circulatory system drugs，antibiotics，immunomodulators and central nervous system drugs etc． CONCLUSION: There is lack of in-depth and systematic research on the drug interactions mediated by P-glycoprotein．P-糖蛋白(P-gp)是一种 ATP 依"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "由P-糖蛋白介导的药物相互作用研究进展_杨少林.pdf",
+          "chunk_index": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "raw_text": "P-糖蛋白(P-gp)是一种 ATP 依赖性的外向型转运泵，分布于全身多个重要脏器中，参与多类药物的体内转运过程，由多药耐药( multidrug resistance，MDR) 基因编码的，也是抗抗肿瘤药产生多药耐药作用的主要原因。",
+          "chunk_id": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "data": "疫调节剂、中枢神经系统用药等药物的相互作用。 结论:由 P-糖蛋白介导的药物相互作用研究不够深入，缺乏系统性研究。\nResearch Progress on P-glycoprotein-mediated Drug Interactions\nYANG Shao-lin1，2\\* ，LI Huan-de 1，2 ，PENG Zhen-zhen1，2 ，ZHAO Xu-yuan1，2# (1. Dept． of Pharmacy，The Second Xiangya Hospital of Central South University，Changsha 410011，China; 2. School ofPharmacy，Central South University，Changsha 410013，China)ABSTRACT OBJECTIVE: To introduce the research progress on P-glycoprotein-mediated drug interactions． METHODS: Based on recent representative papers both at home and abroad，the properties，functions and action mechanism of P-glycoprotein and their application in drug interaction was analyzed and reviewed． RESULTS: Pglycoprotein was found to be able to mediate drug interactions of such drugs as anti-tumor drugs，circulatory system drugs，antibiotics，immunomodulators and central nervous system drugs etc． CONCLUSION: There is lack of in-depth and systematic research on the drug interactions mediated by P-glycoprotein．P-糖蛋白(P-gp)是一种 ATP 依"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "由P-糖蛋白介导的药物相互作用研究进展_杨少林.pdf",
+          "chunk_index": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "raw_text": "P-糖蛋白(P-gp)是一种 ATP 依赖性的外向型转运泵，分布于全身多个重要脏器中，参与多类药物的体内转运过程，由多药耐药( multidrug resistance，MDR) 基因编码的，也是抗抗肿瘤药产生多药耐药作用的主要原因。",
+          "chunk_id": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "data": "疫调节剂、中枢神经系统用药等药物的相互作用。 结论:由 P-糖蛋白介导的药物相互作用研究不够深入，缺乏系统性研究。\nResearch Progress on P-glycoprotein-mediated Drug Interactions\nYANG Shao-lin1，2\\* ，LI Huan-de 1，2 ，PENG Zhen-zhen1，2 ，ZHAO Xu-yuan1，2# (1. Dept． of Pharmacy，The Second Xiangya Hospital of Central South University，Changsha 410011，China; 2. School ofPharmacy，Central South University，Changsha 410013，China)ABSTRACT OBJECTIVE: To introduce the research progress on P-glycoprotein-mediated drug interactions． METHODS: Based on recent representative papers both at home and abroad，the properties，functions and action mechanism of P-glycoprotein and their application in drug interaction was analyzed and reviewed． RESULTS: Pglycoprotein was found to be able to mediate drug interactions of such drugs as anti-tumor drugs，circulatory system drugs，antibiotics，immunomodulators and central nervous system drugs etc． CONCLUSION: There is lack of in-depth and systematic research on the drug interactions mediated by P-glycoprotein．P-糖蛋白(P-gp)是一种 ATP 依"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "由P-糖蛋白介导的药物相互作用研究进展_杨少林.pdf",
+          "chunk_index": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "raw_text": "P-糖蛋白(P-gp)是一种 ATP 依赖性的外向型转运泵，分布于全身多个重要脏器中，参与多类药物的体内转运过程，由多药耐药( multidrug resistance，MDR) 基因编码的，也是抗抗肿瘤药产生多药耐药作用的主要原因。",
+          "chunk_id": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "data": "疫调节剂、中枢神经系统用药等药物的相互作用。 结论:由 P-糖蛋白介导的药物相互作用研究不够深入，缺乏系统性研究。\nResearch Progress on P-glycoprotein-mediated Drug Interactions\nYANG Shao-lin1，2\\* ，LI Huan-de 1，2 ，PENG Zhen-zhen1，2 ，ZHAO Xu-yuan1，2# (1. Dept． of Pharmacy，The Second Xiangya Hospital of Central South University，Changsha 410011，China; 2. School ofPharmacy，Central South University，Changsha 410013，China)ABSTRACT OBJECTIVE: To introduce the research progress on P-glycoprotein-mediated drug interactions． METHODS: Based on recent representative papers both at home and abroad，the properties，functions and action mechanism of P-glycoprotein and their application in drug interaction was analyzed and reviewed． RESULTS: Pglycoprotein was found to be able to mediate drug interactions of such drugs as anti-tumor drugs，circulatory system drugs，antibiotics，immunomodulators and central nervous system drugs etc． CONCLUSION: There is lack of in-depth and systematic research on the drug interactions mediated by P-glycoprotein．P-糖蛋白(P-gp)是一种 ATP 依"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "由P-糖蛋白介导的药物相互作用研究进展_杨少林.pdf",
+          "chunk_index": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "raw_text": "P-糖蛋白(P-gp)是一种 ATP 依赖性的外向型转运泵，分布于全身多个重要脏器中，参与多类药物的体内转运过程，由多药耐药( multidrug resistance，MDR) 基因编码的，也是抗抗肿瘤药产生多药耐药作用的主要原因。",
+          "chunk_id": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+          "data": "疫调节剂、中枢神经系统用药等药物的相互作用。 结论:由 P-糖蛋白介导的药物相互作用研究不够深入，缺乏系统性研究。\nResearch Progress on P-glycoprotein-mediated Drug Interactions\nYANG Shao-lin1，2\\* ，LI Huan-de 1，2 ，PENG Zhen-zhen1，2 ，ZHAO Xu-yuan1，2# (1. Dept． of Pharmacy，The Second Xiangya Hospital of Central South University，Changsha 410011，China; 2. School ofPharmacy，Central South University，Changsha 410013，China)ABSTRACT OBJECTIVE: To introduce the research progress on P-glycoprotein-mediated drug interactions． METHODS: Based on recent representative papers both at home and abroad，the properties，functions and action mechanism of P-glycoprotein and their application in drug interaction was analyzed and reviewed． RESULTS: Pglycoprotein was found to be able to mediate drug interactions of such drugs as anti-tumor drugs，circulatory system drugs，antibiotics，immunomodulators and central nervous system drugs etc． CONCLUSION: There is lack of in-depth and systematic research on the drug interactions mediated by P-glycoprotein．P-糖蛋白(P-gp)是一种 ATP 依"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "由P-糖蛋白介导的药物相互作用研究进展_杨少林:1",
+    "source": "由P-糖蛋白介导的药物相互作用研究进展_杨少林.pdf",
+    "text": "疫调节剂、中枢神经系统用药等药物的相互作用。 结论:由 P-糖蛋白介导的药物相互作用研究不够深入，缺乏系统性研究。\nResearch Progress on P-glycoprotein-mediated Drug Interactions\nYANG Shao-lin1，2\\* ，LI Huan-de 1，2 ，PENG Zhen-zhen1，2 ，ZHAO Xu-yuan1，2# (1. Dept． of Pharmacy，The Second Xiangya Hospital of Central South University，Changsha 410011，China; 2. School ofPharmacy，Central South University，Changsha 410013，China)ABSTRACT OBJECTIVE: To introduce the research progress on P-glycoprotein-mediated drug interactions． METHODS: Based on recent representative papers both at home and abroad，the properties，functions and action mechanism of P-glycoprotein and their application in drug interaction was analyzed and reviewed． RESULTS: Pglycoprotein was found to be able to mediate drug interactions of such drugs as anti-tumor drugs，circulatory system drugs，antibiotics，immunomodulators and central nervous system drugs etc． CONCLUSION: There is lack of in-depth and systematic research on the drug interactions mediated by P-glycoprotein．P-糖蛋白(P-gp)是一种 ATP 依赖性的外向型转运泵，分布于全身多个重要脏器中，参与多类药物的体内转运过程，由多药耐药( multidrug resistance，MDR) 基因编码的，也是抗抗肿瘤药产生多药耐药作用的主要原因。"
+  }
+]

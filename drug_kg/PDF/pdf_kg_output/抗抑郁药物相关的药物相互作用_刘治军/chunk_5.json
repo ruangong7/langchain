@@ -1,0 +1,146 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "氟伏沙明",
+        "canonical_name": "氟伏沙明",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "美西律",
+        "canonical_name": "美西律",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "氟西汀",
+        "canonical_name": "氟西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "地高辛",
+        "canonical_name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "美西律血药浓度",
+        "canonical_name": "美西律血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "地高辛血清浓度",
+        "canonical_name": "地高辛血清浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "洋地黄中毒",
+        "canonical_name": "洋地黄中毒",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "恶心呕吐",
+        "canonical_name": "恶心呕吐",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "抗抑郁药物相关的药物相互作用_刘治军.pdf",
+          "chunk_index": "抗抑郁药物相关的药物相互作用_刘治军:5",
+          "raw_text": "可见氟伏沙明对美西律的代谢有很大影响，两药合用应慎重，并监测美西律血药浓度",
+          "chunk_id": "抗抑郁药物相关的药物相互作用_刘治军:5",
+          "data": "·h·L $^{-1}$ 和 $(0.623 \\pm 0.133)$ ， $(0.536 \\pm 0.164)$ mg·L $^{-1}$ 。可见氟伏沙明对美西律的代谢有很大影响，两药合用应慎重，并监测美西律血药浓度 $^{[12]}$ 。\n氟西汀能升高地高辛的血药浓度，增强其药理作用，诱发洋地黄中毒。文献[9]报道一名93岁妇女于养老院中使用卡托普利 $50\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，呋塞米 $40\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，雷尼替丁 $300\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 和地高辛 $0.125\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 等药物，维持治疗至少2个月。因出现抑郁症状，加用氟西汀 $10\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 。1周后出现恶心呕吐，地高辛血清浓度已从 $1.0\\sim 1.4\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 升高至 $4.2\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 。停用地高辛和氟西汀后，至地高辛血清浓度恢复正常范围；重新使用地高辛 $0.125\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，其后3周地高辛血清浓度在 $0.9\\sim 1.4\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 。因抑郁症状仍存在，故重新使用氟西汀，地高辛血清浓度又升高。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "抗抑郁药物相关的药物相互作用_刘治军.pdf",
+          "chunk_index": "抗抑郁药物相关的药物相互作用_刘治军:5",
+          "raw_text": "可见氟伏沙明对美西律的代谢有很大影响，两药合用应慎重，并监测美西律血药浓度",
+          "chunk_id": "抗抑郁药物相关的药物相互作用_刘治军:5",
+          "data": "·h·L $^{-1}$ 和 $(0.623 \\pm 0.133)$ ， $(0.536 \\pm 0.164)$ mg·L $^{-1}$ 。可见氟伏沙明对美西律的代谢有很大影响，两药合用应慎重，并监测美西律血药浓度 $^{[12]}$ 。\n氟西汀能升高地高辛的血药浓度，增强其药理作用，诱发洋地黄中毒。文献[9]报道一名93岁妇女于养老院中使用卡托普利 $50\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，呋塞米 $40\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，雷尼替丁 $300\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 和地高辛 $0.125\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 等药物，维持治疗至少2个月。因出现抑郁症状，加用氟西汀 $10\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 。1周后出现恶心呕吐，地高辛血清浓度已从 $1.0\\sim 1.4\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 升高至 $4.2\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 。停用地高辛和氟西汀后，至地高辛血清浓度恢复正常范围；重新使用地高辛 $0.125\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，其后3周地高辛血清浓度在 $0.9\\sim 1.4\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 。因抑郁症状仍存在，故重新使用氟西汀，地高辛血清浓度又升高。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "抗抑郁药物相关的药物相互作用_刘治军.pdf",
+          "chunk_index": "抗抑郁药物相关的药物相互作用_刘治军:5",
+          "raw_text": "氟西汀能升高地高辛的血药浓度，增强其药理作用，诱发洋地黄中毒",
+          "chunk_id": "抗抑郁药物相关的药物相互作用_刘治军:5",
+          "data": "·h·L $^{-1}$ 和 $(0.623 \\pm 0.133)$ ， $(0.536 \\pm 0.164)$ mg·L $^{-1}$ 。可见氟伏沙明对美西律的代谢有很大影响，两药合用应慎重，并监测美西律血药浓度 $^{[12]}$ 。\n氟西汀能升高地高辛的血药浓度，增强其药理作用，诱发洋地黄中毒。文献[9]报道一名93岁妇女于养老院中使用卡托普利 $50\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，呋塞米 $40\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，雷尼替丁 $300\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 和地高辛 $0.125\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 等药物，维持治疗至少2个月。因出现抑郁症状，加用氟西汀 $10\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 。1周后出现恶心呕吐，地高辛血清浓度已从 $1.0\\sim 1.4\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 升高至 $4.2\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 。停用地高辛和氟西汀后，至地高辛血清浓度恢复正常范围；重新使用地高辛 $0.125\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，其后3周地高辛血清浓度在 $0.9\\sim 1.4\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 。因抑郁症状仍存在，故重新使用氟西汀，地高辛血清浓度又升高。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "抗抑郁药物相关的药物相互作用_刘治军.pdf",
+          "chunk_index": "抗抑郁药物相关的药物相互作用_刘治军:5",
+          "raw_text": "氟西汀能升高地高辛的血药浓度",
+          "chunk_id": "抗抑郁药物相关的药物相互作用_刘治军:5",
+          "data": "·h·L $^{-1}$ 和 $(0.623 \\pm 0.133)$ ， $(0.536 \\pm 0.164)$ mg·L $^{-1}$ 。可见氟伏沙明对美西律的代谢有很大影响，两药合用应慎重，并监测美西律血药浓度 $^{[12]}$ 。\n氟西汀能升高地高辛的血药浓度，增强其药理作用，诱发洋地黄中毒。文献[9]报道一名93岁妇女于养老院中使用卡托普利 $50\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，呋塞米 $40\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，雷尼替丁 $300\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 和地高辛 $0.125\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 等药物，维持治疗至少2个月。因出现抑郁症状，加用氟西汀 $10\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 。1周后出现恶心呕吐，地高辛血清浓度已从 $1.0\\sim 1.4\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 升高至 $4.2\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 。停用地高辛和氟西汀后，至地高辛血清浓度恢复正常范围；重新使用地高辛 $0.125\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，其后3周地高辛血清浓度在 $0.9\\sim 1.4\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 。因抑郁症状仍存在，故重新使用氟西汀，地高辛血清浓度又升高。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "抗抑郁药物相关的药物相互作用_刘治军.pdf",
+          "chunk_index": "抗抑郁药物相关的药物相互作用_刘治军:5",
+          "raw_text": "氟西汀能升高地高辛的血药浓度，增强其药理作用，诱发洋地黄中毒",
+          "chunk_id": "抗抑郁药物相关的药物相互作用_刘治军:5",
+          "data": "·h·L $^{-1}$ 和 $(0.623 \\pm 0.133)$ ， $(0.536 \\pm 0.164)$ mg·L $^{-1}$ 。可见氟伏沙明对美西律的代谢有很大影响，两药合用应慎重，并监测美西律血药浓度 $^{[12]}$ 。\n氟西汀能升高地高辛的血药浓度，增强其药理作用，诱发洋地黄中毒。文献[9]报道一名93岁妇女于养老院中使用卡托普利 $50\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，呋塞米 $40\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，雷尼替丁 $300\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 和地高辛 $0.125\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 等药物，维持治疗至少2个月。因出现抑郁症状，加用氟西汀 $10\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 。1周后出现恶心呕吐，地高辛血清浓度已从 $1.0\\sim 1.4\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 升高至 $4.2\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 。停用地高辛和氟西汀后，至地高辛血清浓度恢复正常范围；重新使用地高辛 $0.125\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，其后3周地高辛血清浓度在 $0.9\\sim 1.4\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 。因抑郁症状仍存在，故重新使用氟西汀，地高辛血清浓度又升高。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "抗抑郁药物相关的药物相互作用_刘治军.pdf",
+          "chunk_index": "抗抑郁药物相关的药物相互作用_刘治军:5",
+          "raw_text": "1周后出现恶心呕吐",
+          "chunk_id": "抗抑郁药物相关的药物相互作用_刘治军:5",
+          "data": "·h·L $^{-1}$ 和 $(0.623 \\pm 0.133)$ ， $(0.536 \\pm 0.164)$ mg·L $^{-1}$ 。可见氟伏沙明对美西律的代谢有很大影响，两药合用应慎重，并监测美西律血药浓度 $^{[12]}$ 。\n氟西汀能升高地高辛的血药浓度，增强其药理作用，诱发洋地黄中毒。文献[9]报道一名93岁妇女于养老院中使用卡托普利 $50\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，呋塞米 $40\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，雷尼替丁 $300\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 和地高辛 $0.125\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 等药物，维持治疗至少2个月。因出现抑郁症状，加用氟西汀 $10\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 。1周后出现恶心呕吐，地高辛血清浓度已从 $1.0\\sim 1.4\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 升高至 $4.2\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 。停用地高辛和氟西汀后，至地高辛血清浓度恢复正常范围；重新使用地高辛 $0.125\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，其后3周地高辛血清浓度在 $0.9\\sim 1.4\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 。因抑郁症状仍存在，故重新使用氟西汀，地高辛血清浓度又升高。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "抗抑郁药物相关的药物相互作用_刘治军:5",
+    "source": "抗抑郁药物相关的药物相互作用_刘治军.pdf",
+    "text": "·h·L $^{-1}$ 和 $(0.623 \\pm 0.133)$ ， $(0.536 \\pm 0.164)$ mg·L $^{-1}$ 。可见氟伏沙明对美西律的代谢有很大影响，两药合用应慎重，并监测美西律血药浓度 $^{[12]}$ 。\n氟西汀能升高地高辛的血药浓度，增强其药理作用，诱发洋地黄中毒。文献[9]报道一名93岁妇女于养老院中使用卡托普利 $50\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，呋塞米 $40\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，雷尼替丁 $300\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 和地高辛 $0.125\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 等药物，维持治疗至少2个月。因出现抑郁症状，加用氟西汀 $10\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ 。1周后出现恶心呕吐，地高辛血清浓度已从 $1.0\\sim 1.4\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 升高至 $4.2\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 。停用地高辛和氟西汀后，至地高辛血清浓度恢复正常范围；重新使用地高辛 $0.125\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，其后3周地高辛血清浓度在 $0.9\\sim 1.4\\mathrm{nmol}\\cdot \\mathrm{L}^{-1}$ 。因抑郁症状仍存在，故重新使用氟西汀，地高辛血清浓度又升高。"
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "补骨脂素",
+        "canonical_name": "补骨脂素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "异补骨脂素",
+        "canonical_name": "异补骨脂素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "黄独乙素",
+        "canonical_name": "黄独乙素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "黄药子",
+        "canonical_name": "黄药子",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP450酶",
+        "canonical_name": "CYP450酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "肝毒性",
+        "canonical_name": "肝毒性",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君.pdf",
+          "chunk_index": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君:1",
+          "raw_text": "补骨脂素/异补骨脂素可以抑制肝脏CYP450酶活性，减少其对黄独乙素的代谢，导致黄独乙素蓄积。",
+          "chunk_id": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君:1",
+          "data": "素或黄独乙素中药在合用时可能产生的药物相互作用。\nStudy on drug interactions between psoralen/isopsoralen and diosbulbin B based on CYP450 enzyme\nWU Zijun1 , MA Jiang2 , HE Xin1,2 Abstract: Objective To investigate the effect of psoralen and isopsoralen on the metabolism of diosbulbin B in rats based on cytochrome P450 enzyme system (CYP450). Methods After administration of psoralen or isopsoralen for 1, 3, 7 days, respectively, isolated circulatory liver perfusion was used to study the metabolism of diosbulbin B in the liver of rats. UPLC-MS /MS was used to detect the content of diosbulbin B in circulating perfusate. When rats were treated with psoralen/isopsoralen for one week before administration of extraction of Dioscorea bulbifera L. $( 1 0 \\ \\mathrm { \\ g } { \\cdot } \\mathrm { k g } ^ { - 1 } ) .$ , blood was taken from the inner canthus of rats and the pharmacokinetic parameters of diosbulbin B were calculated by non-compartment model in DAS 2.0 software. Results After orally administration of psoralen"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君.pdf",
+          "chunk_index": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君:1",
+          "raw_text": "补骨脂素/异补骨脂素可以抑制肝脏CYP450酶活性，减少其对黄独乙素的代谢，导致黄独乙素蓄积。",
+          "chunk_id": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君:1",
+          "data": "素或黄独乙素中药在合用时可能产生的药物相互作用。\nStudy on drug interactions between psoralen/isopsoralen and diosbulbin B based on CYP450 enzyme\nWU Zijun1 , MA Jiang2 , HE Xin1,2 Abstract: Objective To investigate the effect of psoralen and isopsoralen on the metabolism of diosbulbin B in rats based on cytochrome P450 enzyme system (CYP450). Methods After administration of psoralen or isopsoralen for 1, 3, 7 days, respectively, isolated circulatory liver perfusion was used to study the metabolism of diosbulbin B in the liver of rats. UPLC-MS /MS was used to detect the content of diosbulbin B in circulating perfusate. When rats were treated with psoralen/isopsoralen for one week before administration of extraction of Dioscorea bulbifera L. $( 1 0 \\ \\mathrm { \\ g } { \\cdot } \\mathrm { k g } ^ { - 1 } ) .$ , blood was taken from the inner canthus of rats and the pharmacokinetic parameters of diosbulbin B were calculated by non-compartment model in DAS 2.0 software. Results After orally administration of psoralen"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君.pdf",
+          "chunk_index": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君:1",
+          "raw_text": "补骨脂素/异补骨脂素可以抑制肝脏CYP450酶活性。",
+          "chunk_id": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君:1",
+          "data": "素或黄独乙素中药在合用时可能产生的药物相互作用。\nStudy on drug interactions between psoralen/isopsoralen and diosbulbin B based on CYP450 enzyme\nWU Zijun1 , MA Jiang2 , HE Xin1,2 Abstract: Objective To investigate the effect of psoralen and isopsoralen on the metabolism of diosbulbin B in rats based on cytochrome P450 enzyme system (CYP450). Methods After administration of psoralen or isopsoralen for 1, 3, 7 days, respectively, isolated circulatory liver perfusion was used to study the metabolism of diosbulbin B in the liver of rats. UPLC-MS /MS was used to detect the content of diosbulbin B in circulating perfusate. When rats were treated with psoralen/isopsoralen for one week before administration of extraction of Dioscorea bulbifera L. $( 1 0 \\ \\mathrm { \\ g } { \\cdot } \\mathrm { k g } ^ { - 1 } ) .$ , blood was taken from the inner canthus of rats and the pharmacokinetic parameters of diosbulbin B were calculated by non-compartment model in DAS 2.0 software. Results After orally administration of psoralen"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君.pdf",
+          "chunk_index": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君:1",
+          "raw_text": "补骨脂素/异补骨脂素可以抑制肝脏CYP450酶活性。",
+          "chunk_id": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君:1",
+          "data": "素或黄独乙素中药在合用时可能产生的药物相互作用。\nStudy on drug interactions between psoralen/isopsoralen and diosbulbin B based on CYP450 enzyme\nWU Zijun1 , MA Jiang2 , HE Xin1,2 Abstract: Objective To investigate the effect of psoralen and isopsoralen on the metabolism of diosbulbin B in rats based on cytochrome P450 enzyme system (CYP450). Methods After administration of psoralen or isopsoralen for 1, 3, 7 days, respectively, isolated circulatory liver perfusion was used to study the metabolism of diosbulbin B in the liver of rats. UPLC-MS /MS was used to detect the content of diosbulbin B in circulating perfusate. When rats were treated with psoralen/isopsoralen for one week before administration of extraction of Dioscorea bulbifera L. $( 1 0 \\ \\mathrm { \\ g } { \\cdot } \\mathrm { k g } ^ { - 1 } ) .$ , blood was taken from the inner canthus of rats and the pharmacokinetic parameters of diosbulbin B were calculated by non-compartment model in DAS 2.0 software. Results After orally administration of psoralen"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君.pdf",
+          "chunk_index": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君:1",
+          "raw_text": "黄药子引发肝毒性。",
+          "chunk_id": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君:1",
+          "data": "素或黄独乙素中药在合用时可能产生的药物相互作用。\nStudy on drug interactions between psoralen/isopsoralen and diosbulbin B based on CYP450 enzyme\nWU Zijun1 , MA Jiang2 , HE Xin1,2 Abstract: Objective To investigate the effect of psoralen and isopsoralen on the metabolism of diosbulbin B in rats based on cytochrome P450 enzyme system (CYP450). Methods After administration of psoralen or isopsoralen for 1, 3, 7 days, respectively, isolated circulatory liver perfusion was used to study the metabolism of diosbulbin B in the liver of rats. UPLC-MS /MS was used to detect the content of diosbulbin B in circulating perfusate. When rats were treated with psoralen/isopsoralen for one week before administration of extraction of Dioscorea bulbifera L. $( 1 0 \\ \\mathrm { \\ g } { \\cdot } \\mathrm { k g } ^ { - 1 } ) .$ , blood was taken from the inner canthus of rats and the pharmacokinetic parameters of diosbulbin B were calculated by non-compartment model in DAS 2.0 software. Results After orally administration of psoralen"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君:1",
+    "source": "基于CYP450酶的补骨脂素及异补骨脂素与黄独乙素的药物相互作用研究_吴梓君.pdf",
+    "text": "素或黄独乙素中药在合用时可能产生的药物相互作用。\nStudy on drug interactions between psoralen/isopsoralen and diosbulbin B based on CYP450 enzyme\nWU Zijun1 , MA Jiang2 , HE Xin1,2 Abstract: Objective To investigate the effect of psoralen and isopsoralen on the metabolism of diosbulbin B in rats based on cytochrome P450 enzyme system (CYP450). Methods After administration of psoralen or isopsoralen for 1, 3, 7 days, respectively, isolated circulatory liver perfusion was used to study the metabolism of diosbulbin B in the liver of rats. UPLC-MS /MS was used to detect the content of diosbulbin B in circulating perfusate. When rats were treated with psoralen/isopsoralen for one week before administration of extraction of Dioscorea bulbifera L. $( 1 0 \\ \\mathrm { \\ g } { \\cdot } \\mathrm { k g } ^ { - 1 } ) .$ , blood was taken from the inner canthus of rats and the pharmacokinetic parameters of diosbulbin B were calculated by non-compartment model in DAS 2.0 software. Results After orally administration of psoralen/isopsoralen for different days, the amount of diosbulbin B in circulating perfusate was relatively increased, and psoralen/isopsoralen showed stronger inhibition to the enzyme after prolonged administration. Compared with the non-intervention group, after treating with psoralen/isopsoralen, the values of area under the curve $\\left( \\mathrm { { A U C } } _ { 0 \\sim t } \\right)$ and mean residence time $\\mathrm { ( M R T _ { 0 ^ { - } } }$ ) were increased and the elimination half life $( t _ { 1 / 2 z } )$ values was decreased. Conclusion Psoralen/isopsoralen can inhibit the activity of CYP450 enzyme in the liver, reduce its metabolism of diosbulbin B, reduce the metabolism of diosbulbin B in the liver and cause accumulation. In clinical medication, attention should be paid to the drug interaction that can be produced when Chinese medicine containing psoralen/isopsoralen or diosbulbin B is combined.黄药子，又名黄独，为薯蓣科薯蓣属植物黄独Dioscorea bulbifera L. 的块茎，性味辛、凉、苦，有小毒。最早记载于唐代孙思邀的《千金月令》，可治疗瘿疾、喉痹、犬蛇咬伤、吐血等［1］。现代研究显示，黄药子的化学成分较复杂，主要含有二萜内酯类、黄酮及酚酸类、皂苷、鞣质等成分［2-4］ ，其中二萜内酯类成分是其发挥抗肿瘤、抗炎、抗菌生物活性的主要物质基础，同时也是黄药子引发肝毒性的主要成分。目前已分离出的二萜内酯类成分有黄独素A～M［5-7］ 等，而黄独乙素（disobulbin B），即黄独素 B，为目前研究较多的代表性成分，其在黄药子生药中的质量分数为 2～3 mg·g−1［8］ 。"
+  }
+]

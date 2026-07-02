@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "洛匹那韦/利托那韦",
+        "canonical_name": "洛匹那韦/利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "蛋白酶抑制剂",
+        "canonical_name": "蛋白酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP3A底物",
+        "canonical_name": "CYP3A底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "人类免疫缺陷病毒感染",
+        "canonical_name": "人类免疫缺陷病毒感染",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "不良反应",
+        "canonical_name": "不良反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "耐药性",
+        "canonical_name": "耐药性",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹.pdf",
+          "chunk_index": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹:0",
+          "raw_text": "复合型蛋白酶抑制LPV/r",
+          "chunk_id": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹:0",
+          "data": "洛匹那韦/利托那韦药物相互作用研究进展Δ\n苏丹＊，张蕾，沈爱宗（# 中国科学技术大学附属第一医院/安徽省立医院药剂科，合肥 230001）摘要目的：了解洛匹那韦/利托那韦（LPV/r）药物相互作用的研究进展，为其临床安全、合理、有效使用提供参考。方法：以“洛匹那韦/利托那韦”“药物相互作用”“药物代谢酶”“细胞色素”“药动学”“药效学”“Lopinavir/ritonavir”“Drug-drug interaction”“Herb-drug interactions”“Drug-metabolizing enzymes”“Cytochrome”“Pharmacokinetics”“Pharmaco-dynamics”等为关键词，在中国知网、万方数据、维普网、PubMed、Micromedex等数据库中组合查询2000年2月－2020 年2月发表的相关文献，对复合型蛋白酶抑制LPV/r治疗人类免疫缺陷病毒感染等疾病时与其他药物联用时的相互作用进行综述。结果：LPV/r主要经肝脏细胞色素 P450（CYP）酶代谢，并可抑制转运蛋白P-糖蛋白（P-gp），对药物代谢酶和转运体有广泛的作用，在联合用药中LPV/r或CYP3A底物暴露量的增加可导致显著的不良反应，或致使LPV/r疗效丧失并产生耐药性。结论：临床上LPV/r与其他药物联合使用广泛，与经相关酶或转运体代谢的药物联用时需考虑其用药剂量的调整，充分考虑可能出现的药物相互作用或潜在风险，并结合患者的个体差异，选择相互作用较小的药物，同时加强相关药学监护。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹.pdf",
+          "chunk_index": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹:0",
+          "raw_text": "治疗人类免疫缺陷病毒感染等疾病",
+          "chunk_id": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹:0",
+          "data": "洛匹那韦/利托那韦药物相互作用研究进展Δ\n苏丹＊，张蕾，沈爱宗（# 中国科学技术大学附属第一医院/安徽省立医院药剂科，合肥 230001）摘要目的：了解洛匹那韦/利托那韦（LPV/r）药物相互作用的研究进展，为其临床安全、合理、有效使用提供参考。方法：以“洛匹那韦/利托那韦”“药物相互作用”“药物代谢酶”“细胞色素”“药动学”“药效学”“Lopinavir/ritonavir”“Drug-drug interaction”“Herb-drug interactions”“Drug-metabolizing enzymes”“Cytochrome”“Pharmacokinetics”“Pharmaco-dynamics”等为关键词，在中国知网、万方数据、维普网、PubMed、Micromedex等数据库中组合查询2000年2月－2020 年2月发表的相关文献，对复合型蛋白酶抑制LPV/r治疗人类免疫缺陷病毒感染等疾病时与其他药物联用时的相互作用进行综述。结果：LPV/r主要经肝脏细胞色素 P450（CYP）酶代谢，并可抑制转运蛋白P-糖蛋白（P-gp），对药物代谢酶和转运体有广泛的作用，在联合用药中LPV/r或CYP3A底物暴露量的增加可导致显著的不良反应，或致使LPV/r疗效丧失并产生耐药性。结论：临床上LPV/r与其他药物联合使用广泛，与经相关酶或转运体代谢的药物联用时需考虑其用药剂量的调整，充分考虑可能出现的药物相互作用或潜在风险，并结合患者的个体差异，选择相互作用较小的药物，同时加强相关药学监护。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹.pdf",
+          "chunk_index": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹:0",
+          "raw_text": "LPV/r或CYP3A底物暴露量的增加可导致显著的不良反应",
+          "chunk_id": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹:0",
+          "data": "洛匹那韦/利托那韦药物相互作用研究进展Δ\n苏丹＊，张蕾，沈爱宗（# 中国科学技术大学附属第一医院/安徽省立医院药剂科，合肥 230001）摘要目的：了解洛匹那韦/利托那韦（LPV/r）药物相互作用的研究进展，为其临床安全、合理、有效使用提供参考。方法：以“洛匹那韦/利托那韦”“药物相互作用”“药物代谢酶”“细胞色素”“药动学”“药效学”“Lopinavir/ritonavir”“Drug-drug interaction”“Herb-drug interactions”“Drug-metabolizing enzymes”“Cytochrome”“Pharmacokinetics”“Pharmaco-dynamics”等为关键词，在中国知网、万方数据、维普网、PubMed、Micromedex等数据库中组合查询2000年2月－2020 年2月发表的相关文献，对复合型蛋白酶抑制LPV/r治疗人类免疫缺陷病毒感染等疾病时与其他药物联用时的相互作用进行综述。结果：LPV/r主要经肝脏细胞色素 P450（CYP）酶代谢，并可抑制转运蛋白P-糖蛋白（P-gp），对药物代谢酶和转运体有广泛的作用，在联合用药中LPV/r或CYP3A底物暴露量的增加可导致显著的不良反应，或致使LPV/r疗效丧失并产生耐药性。结论：临床上LPV/r与其他药物联合使用广泛，与经相关酶或转运体代谢的药物联用时需考虑其用药剂量的调整，充分考虑可能出现的药物相互作用或潜在风险，并结合患者的个体差异，选择相互作用较小的药物，同时加强相关药学监护。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹.pdf",
+          "chunk_index": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹:0",
+          "raw_text": "LPV/r或CYP3A底物暴露量的增加可导致显著的不良反应",
+          "chunk_id": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹:0",
+          "data": "洛匹那韦/利托那韦药物相互作用研究进展Δ\n苏丹＊，张蕾，沈爱宗（# 中国科学技术大学附属第一医院/安徽省立医院药剂科，合肥 230001）摘要目的：了解洛匹那韦/利托那韦（LPV/r）药物相互作用的研究进展，为其临床安全、合理、有效使用提供参考。方法：以“洛匹那韦/利托那韦”“药物相互作用”“药物代谢酶”“细胞色素”“药动学”“药效学”“Lopinavir/ritonavir”“Drug-drug interaction”“Herb-drug interactions”“Drug-metabolizing enzymes”“Cytochrome”“Pharmacokinetics”“Pharmaco-dynamics”等为关键词，在中国知网、万方数据、维普网、PubMed、Micromedex等数据库中组合查询2000年2月－2020 年2月发表的相关文献，对复合型蛋白酶抑制LPV/r治疗人类免疫缺陷病毒感染等疾病时与其他药物联用时的相互作用进行综述。结果：LPV/r主要经肝脏细胞色素 P450（CYP）酶代谢，并可抑制转运蛋白P-糖蛋白（P-gp），对药物代谢酶和转运体有广泛的作用，在联合用药中LPV/r或CYP3A底物暴露量的增加可导致显著的不良反应，或致使LPV/r疗效丧失并产生耐药性。结论：临床上LPV/r与其他药物联合使用广泛，与经相关酶或转运体代谢的药物联用时需考虑其用药剂量的调整，充分考虑可能出现的药物相互作用或潜在风险，并结合患者的个体差异，选择相互作用较小的药物，同时加强相关药学监护。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹.pdf",
+          "chunk_index": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹:0",
+          "raw_text": "或致使LPV/r疗效丧失并产生耐药性",
+          "chunk_id": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹:0",
+          "data": "洛匹那韦/利托那韦药物相互作用研究进展Δ\n苏丹＊，张蕾，沈爱宗（# 中国科学技术大学附属第一医院/安徽省立医院药剂科，合肥 230001）摘要目的：了解洛匹那韦/利托那韦（LPV/r）药物相互作用的研究进展，为其临床安全、合理、有效使用提供参考。方法：以“洛匹那韦/利托那韦”“药物相互作用”“药物代谢酶”“细胞色素”“药动学”“药效学”“Lopinavir/ritonavir”“Drug-drug interaction”“Herb-drug interactions”“Drug-metabolizing enzymes”“Cytochrome”“Pharmacokinetics”“Pharmaco-dynamics”等为关键词，在中国知网、万方数据、维普网、PubMed、Micromedex等数据库中组合查询2000年2月－2020 年2月发表的相关文献，对复合型蛋白酶抑制LPV/r治疗人类免疫缺陷病毒感染等疾病时与其他药物联用时的相互作用进行综述。结果：LPV/r主要经肝脏细胞色素 P450（CYP）酶代谢，并可抑制转运蛋白P-糖蛋白（P-gp），对药物代谢酶和转运体有广泛的作用，在联合用药中LPV/r或CYP3A底物暴露量的增加可导致显著的不良反应，或致使LPV/r疗效丧失并产生耐药性。结论：临床上LPV/r与其他药物联合使用广泛，与经相关酶或转运体代谢的药物联用时需考虑其用药剂量的调整，充分考虑可能出现的药物相互作用或潜在风险，并结合患者的个体差异，选择相互作用较小的药物，同时加强相关药学监护。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹:0",
+    "source": "洛匹那韦_利托那韦药物相互作用研究进展_苏丹.pdf",
+    "text": "洛匹那韦/利托那韦药物相互作用研究进展Δ\n苏丹＊，张蕾，沈爱宗（# 中国科学技术大学附属第一医院/安徽省立医院药剂科，合肥 230001）摘要目的：了解洛匹那韦/利托那韦（LPV/r）药物相互作用的研究进展，为其临床安全、合理、有效使用提供参考。方法：以“洛匹那韦/利托那韦”“药物相互作用”“药物代谢酶”“细胞色素”“药动学”“药效学”“Lopinavir/ritonavir”“Drug-drug interaction”“Herb-drug interactions”“Drug-metabolizing enzymes”“Cytochrome”“Pharmacokinetics”“Pharmaco-dynamics”等为关键词，在中国知网、万方数据、维普网、PubMed、Micromedex等数据库中组合查询2000年2月－2020 年2月发表的相关文献，对复合型蛋白酶抑制LPV/r治疗人类免疫缺陷病毒感染等疾病时与其他药物联用时的相互作用进行综述。结果：LPV/r主要经肝脏细胞色素 P450（CYP）酶代谢，并可抑制转运蛋白P-糖蛋白（P-gp），对药物代谢酶和转运体有广泛的作用，在联合用药中LPV/r或CYP3A底物暴露量的增加可导致显著的不良反应，或致使LPV/r疗效丧失并产生耐药性。结论：临床上LPV/r与其他药物联合使用广泛，与经相关酶或转运体代谢的药物联用时需考虑其用药剂量的调整，充分考虑可能出现的药物相互作用或潜在风险，并结合患者的个体差异，选择相互作用较小的药物，同时加强相关药学监护。"
+  }
+]

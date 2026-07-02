@@ -1,0 +1,146 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "米非司酮",
+        "canonical_name": "米非司酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "米索前列醇",
+        "canonical_name": "米索前列醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "心肌梗死",
+        "canonical_name": "心肌梗死",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "miglustat",
+        "canonical_name": "miglustat",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "OGT918",
+        "canonical_name": "OGT918",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "Vevesca",
+        "canonical_name": "Vevesca",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "I型戈谢病",
+        "canonical_name": "I型戈谢病",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "认知功能障碍",
+        "canonical_name": "认知功能障碍",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "葡萄柚汁与药物相互作用的可能性_迟丹怡.pdf",
+          "chunk_index": "葡萄柚汁与药物相互作用的可能性_迟丹怡:1",
+          "raw_text": "还有1例21岁女性患者合用米非司酮与米索前列醇3天后，出现心肌梗死的报告。该信指出，上述不良事件与米索前列醇的关联性尚未确定。",
+          "chunk_id": "葡萄柚汁与药物相互作用的可能性_迟丹怡:1",
+          "data": "出现全身严重细菌感染，其中1例导致死亡。还有1例21岁女性患者合用米非司酮与米索前列醇3天后，出现心肌梗死的报告。该信指出，上述不良事件与米索前列醇的关联性尚未确定。\n(迟丹怡摘译王大猷校)\nMIGLUSTAT 致可疑认知功能障碍而暂停使用\nOxford Glyco Sciences 公司暂时停止了用于治疗 I 型戈谢病的新药 miglustat（OGT918, Vevesca）在以色列的使用，原因是一位 66 岁的老者使用此药后出现了不明原因的认知功能障碍，这位患者在 miglustat 临床试验期间以及在随后的扩大试验方案中连续使用，直至 2001 年 10 月停药。公司指出，此患者正在接受调查。目前该药暂停使用。\n(迟丹怡摘译王大猷校)(以上资料源于 WHO Pharmaceuticals Newsletter No.3, 2002)"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "葡萄柚汁与药物相互作用的可能性_迟丹怡.pdf",
+          "chunk_index": "葡萄柚汁与药物相互作用的可能性_迟丹怡:1",
+          "raw_text": "还有1例21岁女性患者合用米非司酮与米索前列醇3天后，出现心肌梗死的报告。该信指出，上述不良事件与米索前列醇的关联性尚未确定。",
+          "chunk_id": "葡萄柚汁与药物相互作用的可能性_迟丹怡:1",
+          "data": "出现全身严重细菌感染，其中1例导致死亡。还有1例21岁女性患者合用米非司酮与米索前列醇3天后，出现心肌梗死的报告。该信指出，上述不良事件与米索前列醇的关联性尚未确定。\n(迟丹怡摘译王大猷校)\nMIGLUSTAT 致可疑认知功能障碍而暂停使用\nOxford Glyco Sciences 公司暂时停止了用于治疗 I 型戈谢病的新药 miglustat（OGT918, Vevesca）在以色列的使用，原因是一位 66 岁的老者使用此药后出现了不明原因的认知功能障碍，这位患者在 miglustat 临床试验期间以及在随后的扩大试验方案中连续使用，直至 2001 年 10 月停药。公司指出，此患者正在接受调查。目前该药暂停使用。\n(迟丹怡摘译王大猷校)(以上资料源于 WHO Pharmaceuticals Newsletter No.3, 2002)"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "葡萄柚汁与药物相互作用的可能性_迟丹怡.pdf",
+          "chunk_index": "葡萄柚汁与药物相互作用的可能性_迟丹怡:1",
+          "raw_text": "用于治疗 I 型戈谢病的新药 miglustat（OGT918, Vevesca）",
+          "chunk_id": "葡萄柚汁与药物相互作用的可能性_迟丹怡:1",
+          "data": "出现全身严重细菌感染，其中1例导致死亡。还有1例21岁女性患者合用米非司酮与米索前列醇3天后，出现心肌梗死的报告。该信指出，上述不良事件与米索前列醇的关联性尚未确定。\n(迟丹怡摘译王大猷校)\nMIGLUSTAT 致可疑认知功能障碍而暂停使用\nOxford Glyco Sciences 公司暂时停止了用于治疗 I 型戈谢病的新药 miglustat（OGT918, Vevesca）在以色列的使用，原因是一位 66 岁的老者使用此药后出现了不明原因的认知功能障碍，这位患者在 miglustat 临床试验期间以及在随后的扩大试验方案中连续使用，直至 2001 年 10 月停药。公司指出，此患者正在接受调查。目前该药暂停使用。\n(迟丹怡摘译王大猷校)(以上资料源于 WHO Pharmaceuticals Newsletter No.3, 2002)"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "葡萄柚汁与药物相互作用的可能性_迟丹怡.pdf",
+          "chunk_index": "葡萄柚汁与药物相互作用的可能性_迟丹怡:1",
+          "raw_text": "miglustat（OGT918, Vevesca）",
+          "chunk_id": "葡萄柚汁与药物相互作用的可能性_迟丹怡:1",
+          "data": "出现全身严重细菌感染，其中1例导致死亡。还有1例21岁女性患者合用米非司酮与米索前列醇3天后，出现心肌梗死的报告。该信指出，上述不良事件与米索前列醇的关联性尚未确定。\n(迟丹怡摘译王大猷校)\nMIGLUSTAT 致可疑认知功能障碍而暂停使用\nOxford Glyco Sciences 公司暂时停止了用于治疗 I 型戈谢病的新药 miglustat（OGT918, Vevesca）在以色列的使用，原因是一位 66 岁的老者使用此药后出现了不明原因的认知功能障碍，这位患者在 miglustat 临床试验期间以及在随后的扩大试验方案中连续使用，直至 2001 年 10 月停药。公司指出，此患者正在接受调查。目前该药暂停使用。\n(迟丹怡摘译王大猷校)(以上资料源于 WHO Pharmaceuticals Newsletter No.3, 2002)"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "葡萄柚汁与药物相互作用的可能性_迟丹怡.pdf",
+          "chunk_index": "葡萄柚汁与药物相互作用的可能性_迟丹怡:1",
+          "raw_text": "miglustat（OGT918, Vevesca）",
+          "chunk_id": "葡萄柚汁与药物相互作用的可能性_迟丹怡:1",
+          "data": "出现全身严重细菌感染，其中1例导致死亡。还有1例21岁女性患者合用米非司酮与米索前列醇3天后，出现心肌梗死的报告。该信指出，上述不良事件与米索前列醇的关联性尚未确定。\n(迟丹怡摘译王大猷校)\nMIGLUSTAT 致可疑认知功能障碍而暂停使用\nOxford Glyco Sciences 公司暂时停止了用于治疗 I 型戈谢病的新药 miglustat（OGT918, Vevesca）在以色列的使用，原因是一位 66 岁的老者使用此药后出现了不明原因的认知功能障碍，这位患者在 miglustat 临床试验期间以及在随后的扩大试验方案中连续使用，直至 2001 年 10 月停药。公司指出，此患者正在接受调查。目前该药暂停使用。\n(迟丹怡摘译王大猷校)(以上资料源于 WHO Pharmaceuticals Newsletter No.3, 2002)"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "葡萄柚汁与药物相互作用的可能性_迟丹怡.pdf",
+          "chunk_index": "葡萄柚汁与药物相互作用的可能性_迟丹怡:1",
+          "raw_text": "一位 66 岁的老者使用此药后出现了不明原因的认知功能障碍",
+          "chunk_id": "葡萄柚汁与药物相互作用的可能性_迟丹怡:1",
+          "data": "出现全身严重细菌感染，其中1例导致死亡。还有1例21岁女性患者合用米非司酮与米索前列醇3天后，出现心肌梗死的报告。该信指出，上述不良事件与米索前列醇的关联性尚未确定。\n(迟丹怡摘译王大猷校)\nMIGLUSTAT 致可疑认知功能障碍而暂停使用\nOxford Glyco Sciences 公司暂时停止了用于治疗 I 型戈谢病的新药 miglustat（OGT918, Vevesca）在以色列的使用，原因是一位 66 岁的老者使用此药后出现了不明原因的认知功能障碍，这位患者在 miglustat 临床试验期间以及在随后的扩大试验方案中连续使用，直至 2001 年 10 月停药。公司指出，此患者正在接受调查。目前该药暂停使用。\n(迟丹怡摘译王大猷校)(以上资料源于 WHO Pharmaceuticals Newsletter No.3, 2002)"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "葡萄柚汁与药物相互作用的可能性_迟丹怡:1",
+    "source": "葡萄柚汁与药物相互作用的可能性_迟丹怡.pdf",
+    "text": "出现全身严重细菌感染，其中1例导致死亡。还有1例21岁女性患者合用米非司酮与米索前列醇3天后，出现心肌梗死的报告。该信指出，上述不良事件与米索前列醇的关联性尚未确定。\n(迟丹怡摘译王大猷校)\nMIGLUSTAT 致可疑认知功能障碍而暂停使用\nOxford Glyco Sciences 公司暂时停止了用于治疗 I 型戈谢病的新药 miglustat（OGT918, Vevesca）在以色列的使用，原因是一位 66 岁的老者使用此药后出现了不明原因的认知功能障碍，这位患者在 miglustat 临床试验期间以及在随后的扩大试验方案中连续使用，直至 2001 年 10 月停药。公司指出，此患者正在接受调查。目前该药暂停使用。\n(迟丹怡摘译王大猷校)(以上资料源于 WHO Pharmaceuticals Newsletter No.3, 2002)"
+  }
+]

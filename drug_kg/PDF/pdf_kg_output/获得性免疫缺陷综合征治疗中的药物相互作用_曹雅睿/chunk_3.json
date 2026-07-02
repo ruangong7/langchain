@@ -1,0 +1,185 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "NNRTI",
+        "canonical_name": "非核苷类逆转录酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "奈韦拉平",
+        "canonical_name": "奈韦拉平",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "依非韦伦",
+        "canonical_name": "依非韦伦",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "依曲韦林",
+        "canonical_name": "依曲韦林",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "利福布汀",
+        "canonical_name": "利福布汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "卡马西平",
+        "canonical_name": "卡马西平",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "苯妥英钠",
+        "canonical_name": "苯妥英钠",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+          "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "raw_text": "EFV对CYP3A4的诱导作用强于NVP，当与利福布汀合用时，利福布汀血药浓度下降，可以增加1倍剂量以达到疗效。",
+          "chunk_id": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "data": "抑制剂或诱导剂也不干扰P-gp介导的药物转运，因此可以成为预防DDI 的合适选择［4］ 。NRTI 类药物也不会被 CYP450酶系统清除，但因为其清除的主要途径是肾脏，可能受转运蛋白介导的相互作用影响。\n1 抗AIDS药物的代谢及转运特性\n一般通过相同酶系统代谢的2种药物或者同一转运系统的底物之间可能产生竞争从而引起DDI［3］ 。大部分ARV药物是细胞色素P450（cytochrome P450，CYP450）酶系的底物、诱导剂或抑制剂，可能与其他经CYP450酶系代谢的药物发生DDI，导致药物蓄积和潜在毒性，或达不到治疗效果。其中PI和NNRTI与CYP酶系之间发生DDI的风险较大，而NRTI发生DDI 的可能性极小［4］ 。此外，PI 还是 P 糖蛋白（P-gly⁃coprotein，P-gp）、多药耐药相关蛋白 1（multi-drugresistant associate protein 1，MRP1）等转运体的底物［3］ 。ARV药物的代谢及转运特性见表1。NNRTI由肝脏通过CYP450酶系广泛代谢，奈韦拉平（Nevirap⁃ine，NVP）和依非韦伦（Efavirenz，EFV）受 CYP3A4 和CYP2B6代谢并诱导自身代谢酶。EFV不仅有诱导作用还对CYP2C9和CYP2C19有轻度抑制作用［5］ 。EFV对CYP3A4的诱导作用强于NVP，当与利福布汀合用时，利福布汀血药浓度下降，可以增加1倍剂量以达到疗效。依曲韦林经 CYP3A4、CYP2C9 和 CYP2C19 代谢并对它们有抑制作用。与强效CYP3A4诱导剂（利福平、卡马西平、苯妥英钠、NVP及EFV）合用时，依曲韦林血药浓度大幅下降，应禁止合用［6］。\n2 抗AIDS药物之间的相互作用\n根据2018版中国艾滋病诊疗指南［8］，抗HIV的标准方案为2种NRTI类骨干药物联合第3类HAART药物。由于大部分ARV药物均由CYP酶系代谢，彼此之间发生DDI的概率较高并且血药浓度难以预测。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+          "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "raw_text": "与强效CYP3A4诱导剂（利福平、卡马西平、苯妥英钠、NVP及EFV）合用时，依曲韦林血药浓度大幅下降，应禁止合用。",
+          "chunk_id": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "data": "抑制剂或诱导剂也不干扰P-gp介导的药物转运，因此可以成为预防DDI 的合适选择［4］ 。NRTI 类药物也不会被 CYP450酶系统清除，但因为其清除的主要途径是肾脏，可能受转运蛋白介导的相互作用影响。\n1 抗AIDS药物的代谢及转运特性\n一般通过相同酶系统代谢的2种药物或者同一转运系统的底物之间可能产生竞争从而引起DDI［3］ 。大部分ARV药物是细胞色素P450（cytochrome P450，CYP450）酶系的底物、诱导剂或抑制剂，可能与其他经CYP450酶系代谢的药物发生DDI，导致药物蓄积和潜在毒性，或达不到治疗效果。其中PI和NNRTI与CYP酶系之间发生DDI的风险较大，而NRTI发生DDI 的可能性极小［4］ 。此外，PI 还是 P 糖蛋白（P-gly⁃coprotein，P-gp）、多药耐药相关蛋白 1（multi-drugresistant associate protein 1，MRP1）等转运体的底物［3］ 。ARV药物的代谢及转运特性见表1。NNRTI由肝脏通过CYP450酶系广泛代谢，奈韦拉平（Nevirap⁃ine，NVP）和依非韦伦（Efavirenz，EFV）受 CYP3A4 和CYP2B6代谢并诱导自身代谢酶。EFV不仅有诱导作用还对CYP2C9和CYP2C19有轻度抑制作用［5］ 。EFV对CYP3A4的诱导作用强于NVP，当与利福布汀合用时，利福布汀血药浓度下降，可以增加1倍剂量以达到疗效。依曲韦林经 CYP3A4、CYP2C9 和 CYP2C19 代谢并对它们有抑制作用。与强效CYP3A4诱导剂（利福平、卡马西平、苯妥英钠、NVP及EFV）合用时，依曲韦林血药浓度大幅下降，应禁止合用［6］。\n2 抗AIDS药物之间的相互作用\n根据2018版中国艾滋病诊疗指南［8］，抗HIV的标准方案为2种NRTI类骨干药物联合第3类HAART药物。由于大部分ARV药物均由CYP酶系代谢，彼此之间发生DDI的概率较高并且血药浓度难以预测。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+          "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "raw_text": "与强效CYP3A4诱导剂（利福平、卡马西平、苯妥英钠、NVP及EFV）合用时，依曲韦林血药浓度大幅下降，应禁止合用。",
+          "chunk_id": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "data": "抑制剂或诱导剂也不干扰P-gp介导的药物转运，因此可以成为预防DDI 的合适选择［4］ 。NRTI 类药物也不会被 CYP450酶系统清除，但因为其清除的主要途径是肾脏，可能受转运蛋白介导的相互作用影响。\n1 抗AIDS药物的代谢及转运特性\n一般通过相同酶系统代谢的2种药物或者同一转运系统的底物之间可能产生竞争从而引起DDI［3］ 。大部分ARV药物是细胞色素P450（cytochrome P450，CYP450）酶系的底物、诱导剂或抑制剂，可能与其他经CYP450酶系代谢的药物发生DDI，导致药物蓄积和潜在毒性，或达不到治疗效果。其中PI和NNRTI与CYP酶系之间发生DDI的风险较大，而NRTI发生DDI 的可能性极小［4］ 。此外，PI 还是 P 糖蛋白（P-gly⁃coprotein，P-gp）、多药耐药相关蛋白 1（multi-drugresistant associate protein 1，MRP1）等转运体的底物［3］ 。ARV药物的代谢及转运特性见表1。NNRTI由肝脏通过CYP450酶系广泛代谢，奈韦拉平（Nevirap⁃ine，NVP）和依非韦伦（Efavirenz，EFV）受 CYP3A4 和CYP2B6代谢并诱导自身代谢酶。EFV不仅有诱导作用还对CYP2C9和CYP2C19有轻度抑制作用［5］ 。EFV对CYP3A4的诱导作用强于NVP，当与利福布汀合用时，利福布汀血药浓度下降，可以增加1倍剂量以达到疗效。依曲韦林经 CYP3A4、CYP2C9 和 CYP2C19 代谢并对它们有抑制作用。与强效CYP3A4诱导剂（利福平、卡马西平、苯妥英钠、NVP及EFV）合用时，依曲韦林血药浓度大幅下降，应禁止合用［6］。\n2 抗AIDS药物之间的相互作用\n根据2018版中国艾滋病诊疗指南［8］，抗HIV的标准方案为2种NRTI类骨干药物联合第3类HAART药物。由于大部分ARV药物均由CYP酶系代谢，彼此之间发生DDI的概率较高并且血药浓度难以预测。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+          "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "raw_text": "与强效CYP3A4诱导剂（利福平、卡马西平、苯妥英钠、NVP及EFV）合用时，依曲韦林血药浓度大幅下降，应禁止合用。",
+          "chunk_id": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "data": "抑制剂或诱导剂也不干扰P-gp介导的药物转运，因此可以成为预防DDI 的合适选择［4］ 。NRTI 类药物也不会被 CYP450酶系统清除，但因为其清除的主要途径是肾脏，可能受转运蛋白介导的相互作用影响。\n1 抗AIDS药物的代谢及转运特性\n一般通过相同酶系统代谢的2种药物或者同一转运系统的底物之间可能产生竞争从而引起DDI［3］ 。大部分ARV药物是细胞色素P450（cytochrome P450，CYP450）酶系的底物、诱导剂或抑制剂，可能与其他经CYP450酶系代谢的药物发生DDI，导致药物蓄积和潜在毒性，或达不到治疗效果。其中PI和NNRTI与CYP酶系之间发生DDI的风险较大，而NRTI发生DDI 的可能性极小［4］ 。此外，PI 还是 P 糖蛋白（P-gly⁃coprotein，P-gp）、多药耐药相关蛋白 1（multi-drugresistant associate protein 1，MRP1）等转运体的底物［3］ 。ARV药物的代谢及转运特性见表1。NNRTI由肝脏通过CYP450酶系广泛代谢，奈韦拉平（Nevirap⁃ine，NVP）和依非韦伦（Efavirenz，EFV）受 CYP3A4 和CYP2B6代谢并诱导自身代谢酶。EFV不仅有诱导作用还对CYP2C9和CYP2C19有轻度抑制作用［5］ 。EFV对CYP3A4的诱导作用强于NVP，当与利福布汀合用时，利福布汀血药浓度下降，可以增加1倍剂量以达到疗效。依曲韦林经 CYP3A4、CYP2C9 和 CYP2C19 代谢并对它们有抑制作用。与强效CYP3A4诱导剂（利福平、卡马西平、苯妥英钠、NVP及EFV）合用时，依曲韦林血药浓度大幅下降，应禁止合用［6］。\n2 抗AIDS药物之间的相互作用\n根据2018版中国艾滋病诊疗指南［8］，抗HIV的标准方案为2种NRTI类骨干药物联合第3类HAART药物。由于大部分ARV药物均由CYP酶系代谢，彼此之间发生DDI的概率较高并且血药浓度难以预测。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+          "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "raw_text": "与强效CYP3A4诱导剂（利福平、卡马西平、苯妥英钠、NVP及EFV）合用时，依曲韦林血药浓度大幅下降，应禁止合用。",
+          "chunk_id": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "data": "抑制剂或诱导剂也不干扰P-gp介导的药物转运，因此可以成为预防DDI 的合适选择［4］ 。NRTI 类药物也不会被 CYP450酶系统清除，但因为其清除的主要途径是肾脏，可能受转运蛋白介导的相互作用影响。\n1 抗AIDS药物的代谢及转运特性\n一般通过相同酶系统代谢的2种药物或者同一转运系统的底物之间可能产生竞争从而引起DDI［3］ 。大部分ARV药物是细胞色素P450（cytochrome P450，CYP450）酶系的底物、诱导剂或抑制剂，可能与其他经CYP450酶系代谢的药物发生DDI，导致药物蓄积和潜在毒性，或达不到治疗效果。其中PI和NNRTI与CYP酶系之间发生DDI的风险较大，而NRTI发生DDI 的可能性极小［4］ 。此外，PI 还是 P 糖蛋白（P-gly⁃coprotein，P-gp）、多药耐药相关蛋白 1（multi-drugresistant associate protein 1，MRP1）等转运体的底物［3］ 。ARV药物的代谢及转运特性见表1。NNRTI由肝脏通过CYP450酶系广泛代谢，奈韦拉平（Nevirap⁃ine，NVP）和依非韦伦（Efavirenz，EFV）受 CYP3A4 和CYP2B6代谢并诱导自身代谢酶。EFV不仅有诱导作用还对CYP2C9和CYP2C19有轻度抑制作用［5］ 。EFV对CYP3A4的诱导作用强于NVP，当与利福布汀合用时，利福布汀血药浓度下降，可以增加1倍剂量以达到疗效。依曲韦林经 CYP3A4、CYP2C9 和 CYP2C19 代谢并对它们有抑制作用。与强效CYP3A4诱导剂（利福平、卡马西平、苯妥英钠、NVP及EFV）合用时，依曲韦林血药浓度大幅下降，应禁止合用［6］。\n2 抗AIDS药物之间的相互作用\n根据2018版中国艾滋病诊疗指南［8］，抗HIV的标准方案为2种NRTI类骨干药物联合第3类HAART药物。由于大部分ARV药物均由CYP酶系代谢，彼此之间发生DDI的概率较高并且血药浓度难以预测。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+          "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "raw_text": "与强效CYP3A4诱导剂（利福平、卡马西平、苯妥英钠、NVP及EFV）合用时，依曲韦林血药浓度大幅下降，应禁止合用。",
+          "chunk_id": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "data": "抑制剂或诱导剂也不干扰P-gp介导的药物转运，因此可以成为预防DDI 的合适选择［4］ 。NRTI 类药物也不会被 CYP450酶系统清除，但因为其清除的主要途径是肾脏，可能受转运蛋白介导的相互作用影响。\n1 抗AIDS药物的代谢及转运特性\n一般通过相同酶系统代谢的2种药物或者同一转运系统的底物之间可能产生竞争从而引起DDI［3］ 。大部分ARV药物是细胞色素P450（cytochrome P450，CYP450）酶系的底物、诱导剂或抑制剂，可能与其他经CYP450酶系代谢的药物发生DDI，导致药物蓄积和潜在毒性，或达不到治疗效果。其中PI和NNRTI与CYP酶系之间发生DDI的风险较大，而NRTI发生DDI 的可能性极小［4］ 。此外，PI 还是 P 糖蛋白（P-gly⁃coprotein，P-gp）、多药耐药相关蛋白 1（multi-drugresistant associate protein 1，MRP1）等转运体的底物［3］ 。ARV药物的代谢及转运特性见表1。NNRTI由肝脏通过CYP450酶系广泛代谢，奈韦拉平（Nevirap⁃ine，NVP）和依非韦伦（Efavirenz，EFV）受 CYP3A4 和CYP2B6代谢并诱导自身代谢酶。EFV不仅有诱导作用还对CYP2C9和CYP2C19有轻度抑制作用［5］ 。EFV对CYP3A4的诱导作用强于NVP，当与利福布汀合用时，利福布汀血药浓度下降，可以增加1倍剂量以达到疗效。依曲韦林经 CYP3A4、CYP2C9 和 CYP2C19 代谢并对它们有抑制作用。与强效CYP3A4诱导剂（利福平、卡马西平、苯妥英钠、NVP及EFV）合用时，依曲韦林血药浓度大幅下降，应禁止合用［6］。\n2 抗AIDS药物之间的相互作用\n根据2018版中国艾滋病诊疗指南［8］，抗HIV的标准方案为2种NRTI类骨干药物联合第3类HAART药物。由于大部分ARV药物均由CYP酶系代谢，彼此之间发生DDI的概率较高并且血药浓度难以预测。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+          "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "raw_text": "NNRTI由肝脏通过CYP450酶系广泛代谢，奈韦拉平（Nevirapine，NVP）和依非韦伦（Efavirenz，EFV）受CYP3A4和CYP2B6代谢并诱导自身代谢酶。",
+          "chunk_id": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "data": "抑制剂或诱导剂也不干扰P-gp介导的药物转运，因此可以成为预防DDI 的合适选择［4］ 。NRTI 类药物也不会被 CYP450酶系统清除，但因为其清除的主要途径是肾脏，可能受转运蛋白介导的相互作用影响。\n1 抗AIDS药物的代谢及转运特性\n一般通过相同酶系统代谢的2种药物或者同一转运系统的底物之间可能产生竞争从而引起DDI［3］ 。大部分ARV药物是细胞色素P450（cytochrome P450，CYP450）酶系的底物、诱导剂或抑制剂，可能与其他经CYP450酶系代谢的药物发生DDI，导致药物蓄积和潜在毒性，或达不到治疗效果。其中PI和NNRTI与CYP酶系之间发生DDI的风险较大，而NRTI发生DDI 的可能性极小［4］ 。此外，PI 还是 P 糖蛋白（P-gly⁃coprotein，P-gp）、多药耐药相关蛋白 1（multi-drugresistant associate protein 1，MRP1）等转运体的底物［3］ 。ARV药物的代谢及转运特性见表1。NNRTI由肝脏通过CYP450酶系广泛代谢，奈韦拉平（Nevirap⁃ine，NVP）和依非韦伦（Efavirenz，EFV）受 CYP3A4 和CYP2B6代谢并诱导自身代谢酶。EFV不仅有诱导作用还对CYP2C9和CYP2C19有轻度抑制作用［5］ 。EFV对CYP3A4的诱导作用强于NVP，当与利福布汀合用时，利福布汀血药浓度下降，可以增加1倍剂量以达到疗效。依曲韦林经 CYP3A4、CYP2C9 和 CYP2C19 代谢并对它们有抑制作用。与强效CYP3A4诱导剂（利福平、卡马西平、苯妥英钠、NVP及EFV）合用时，依曲韦林血药浓度大幅下降，应禁止合用［6］。\n2 抗AIDS药物之间的相互作用\n根据2018版中国艾滋病诊疗指南［8］，抗HIV的标准方案为2种NRTI类骨干药物联合第3类HAART药物。由于大部分ARV药物均由CYP酶系代谢，彼此之间发生DDI的概率较高并且血药浓度难以预测。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+          "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "raw_text": "NNRTI由肝脏通过CYP450酶系广泛代谢，奈韦拉平（Nevirapine，NVP）和依非韦伦（Efavirenz，EFV）受CYP3A4和CYP2B6代谢并诱导自身代谢酶。",
+          "chunk_id": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "data": "抑制剂或诱导剂也不干扰P-gp介导的药物转运，因此可以成为预防DDI 的合适选择［4］ 。NRTI 类药物也不会被 CYP450酶系统清除，但因为其清除的主要途径是肾脏，可能受转运蛋白介导的相互作用影响。\n1 抗AIDS药物的代谢及转运特性\n一般通过相同酶系统代谢的2种药物或者同一转运系统的底物之间可能产生竞争从而引起DDI［3］ 。大部分ARV药物是细胞色素P450（cytochrome P450，CYP450）酶系的底物、诱导剂或抑制剂，可能与其他经CYP450酶系代谢的药物发生DDI，导致药物蓄积和潜在毒性，或达不到治疗效果。其中PI和NNRTI与CYP酶系之间发生DDI的风险较大，而NRTI发生DDI 的可能性极小［4］ 。此外，PI 还是 P 糖蛋白（P-gly⁃coprotein，P-gp）、多药耐药相关蛋白 1（multi-drugresistant associate protein 1，MRP1）等转运体的底物［3］ 。ARV药物的代谢及转运特性见表1。NNRTI由肝脏通过CYP450酶系广泛代谢，奈韦拉平（Nevirap⁃ine，NVP）和依非韦伦（Efavirenz，EFV）受 CYP3A4 和CYP2B6代谢并诱导自身代谢酶。EFV不仅有诱导作用还对CYP2C9和CYP2C19有轻度抑制作用［5］ 。EFV对CYP3A4的诱导作用强于NVP，当与利福布汀合用时，利福布汀血药浓度下降，可以增加1倍剂量以达到疗效。依曲韦林经 CYP3A4、CYP2C9 和 CYP2C19 代谢并对它们有抑制作用。与强效CYP3A4诱导剂（利福平、卡马西平、苯妥英钠、NVP及EFV）合用时，依曲韦林血药浓度大幅下降，应禁止合用［6］。\n2 抗AIDS药物之间的相互作用\n根据2018版中国艾滋病诊疗指南［8］，抗HIV的标准方案为2种NRTI类骨干药物联合第3类HAART药物。由于大部分ARV药物均由CYP酶系代谢，彼此之间发生DDI的概率较高并且血药浓度难以预测。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+          "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "raw_text": "依曲韦林经CYP3A4、CYP2C9和CYP2C19代谢并对它们有抑制作用。",
+          "chunk_id": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+          "data": "抑制剂或诱导剂也不干扰P-gp介导的药物转运，因此可以成为预防DDI 的合适选择［4］ 。NRTI 类药物也不会被 CYP450酶系统清除，但因为其清除的主要途径是肾脏，可能受转运蛋白介导的相互作用影响。\n1 抗AIDS药物的代谢及转运特性\n一般通过相同酶系统代谢的2种药物或者同一转运系统的底物之间可能产生竞争从而引起DDI［3］ 。大部分ARV药物是细胞色素P450（cytochrome P450，CYP450）酶系的底物、诱导剂或抑制剂，可能与其他经CYP450酶系代谢的药物发生DDI，导致药物蓄积和潜在毒性，或达不到治疗效果。其中PI和NNRTI与CYP酶系之间发生DDI的风险较大，而NRTI发生DDI 的可能性极小［4］ 。此外，PI 还是 P 糖蛋白（P-gly⁃coprotein，P-gp）、多药耐药相关蛋白 1（multi-drugresistant associate protein 1，MRP1）等转运体的底物［3］ 。ARV药物的代谢及转运特性见表1。NNRTI由肝脏通过CYP450酶系广泛代谢，奈韦拉平（Nevirap⁃ine，NVP）和依非韦伦（Efavirenz，EFV）受 CYP3A4 和CYP2B6代谢并诱导自身代谢酶。EFV不仅有诱导作用还对CYP2C9和CYP2C19有轻度抑制作用［5］ 。EFV对CYP3A4的诱导作用强于NVP，当与利福布汀合用时，利福布汀血药浓度下降，可以增加1倍剂量以达到疗效。依曲韦林经 CYP3A4、CYP2C9 和 CYP2C19 代谢并对它们有抑制作用。与强效CYP3A4诱导剂（利福平、卡马西平、苯妥英钠、NVP及EFV）合用时，依曲韦林血药浓度大幅下降，应禁止合用［6］。\n2 抗AIDS药物之间的相互作用\n根据2018版中国艾滋病诊疗指南［8］，抗HIV的标准方案为2种NRTI类骨干药物联合第3类HAART药物。由于大部分ARV药物均由CYP酶系代谢，彼此之间发生DDI的概率较高并且血药浓度难以预测。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿:3",
+    "source": "获得性免疫缺陷综合征治疗中的药物相互作用_曹雅睿.pdf",
+    "text": "抑制剂或诱导剂也不干扰P-gp介导的药物转运，因此可以成为预防DDI 的合适选择［4］ 。NRTI 类药物也不会被 CYP450酶系统清除，但因为其清除的主要途径是肾脏，可能受转运蛋白介导的相互作用影响。\n1 抗AIDS药物的代谢及转运特性\n一般通过相同酶系统代谢的2种药物或者同一转运系统的底物之间可能产生竞争从而引起DDI［3］ 。大部分ARV药物是细胞色素P450（cytochrome P450，CYP450）酶系的底物、诱导剂或抑制剂，可能与其他经CYP450酶系代谢的药物发生DDI，导致药物蓄积和潜在毒性，或达不到治疗效果。其中PI和NNRTI与CYP酶系之间发生DDI的风险较大，而NRTI发生DDI 的可能性极小［4］ 。此外，PI 还是 P 糖蛋白（P-gly⁃coprotein，P-gp）、多药耐药相关蛋白 1（multi-drugresistant associate protein 1，MRP1）等转运体的底物［3］ 。ARV药物的代谢及转运特性见表1。NNRTI由肝脏通过CYP450酶系广泛代谢，奈韦拉平（Nevirap⁃ine，NVP）和依非韦伦（Efavirenz，EFV）受 CYP3A4 和CYP2B6代谢并诱导自身代谢酶。EFV不仅有诱导作用还对CYP2C9和CYP2C19有轻度抑制作用［5］ 。EFV对CYP3A4的诱导作用强于NVP，当与利福布汀合用时，利福布汀血药浓度下降，可以增加1倍剂量以达到疗效。依曲韦林经 CYP3A4、CYP2C9 和 CYP2C19 代谢并对它们有抑制作用。与强效CYP3A4诱导剂（利福平、卡马西平、苯妥英钠、NVP及EFV）合用时，依曲韦林血药浓度大幅下降，应禁止合用［6］。\n2 抗AIDS药物之间的相互作用\n根据2018版中国艾滋病诊疗指南［8］，抗HIV的标准方案为2种NRTI类骨干药物联合第3类HAART药物。由于大部分ARV药物均由CYP酶系代谢，彼此之间发生DDI的概率较高并且血药浓度难以预测。"
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "索拉非尼",
+        "canonical_name": "索拉非尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "酪氨酸激酶抑制剂",
+        "canonical_name": "酪氨酸激酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "晚期肾癌",
+        "canonical_name": "晚期肾癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "肝癌",
+        "canonical_name": "肝癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "药代动力学",
+        "canonical_name": "药代动力学",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "索拉非尼的临床应用和药物相互作用_赵建龙.pdf",
+          "chunk_index": "索拉非尼的临床应用和药物相互作用_赵建龙:0",
+          "raw_text": "索拉非尼是一种多靶点的酪氨酸激酶抑制剂",
+          "chunk_id": "索拉非尼的临床应用和药物相互作用_赵建龙:0",
+          "data": "Review\n索拉非尼的临床应用和药物相互作用\nSorafenib on clinical application and drug interaction\n摘要: 索拉非尼是一种多靶点的酪氨酸激酶抑制剂，主要治疗晚期肾癌、肝癌。药物 － 药物相互作用引起的索拉非尼的药代动力学的变化可能影响其临床效果和安全性，个体化的治疗药物监测可以控制潜在的药物相互作用的发生。 本文对索拉非尼的临床应用和药物 －药物相互作用做一综述。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "索拉非尼的临床应用和药物相互作用_赵建龙.pdf",
+          "chunk_index": "索拉非尼的临床应用和药物相互作用_赵建龙:0",
+          "raw_text": "主要治疗晚期肾癌、肝癌",
+          "chunk_id": "索拉非尼的临床应用和药物相互作用_赵建龙:0",
+          "data": "Review\n索拉非尼的临床应用和药物相互作用\nSorafenib on clinical application and drug interaction\n摘要: 索拉非尼是一种多靶点的酪氨酸激酶抑制剂，主要治疗晚期肾癌、肝癌。药物 － 药物相互作用引起的索拉非尼的药代动力学的变化可能影响其临床效果和安全性，个体化的治疗药物监测可以控制潜在的药物相互作用的发生。 本文对索拉非尼的临床应用和药物 －药物相互作用做一综述。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "索拉非尼的临床应用和药物相互作用_赵建龙.pdf",
+          "chunk_index": "索拉非尼的临床应用和药物相互作用_赵建龙:0",
+          "raw_text": "主要治疗晚期肾癌、肝癌",
+          "chunk_id": "索拉非尼的临床应用和药物相互作用_赵建龙:0",
+          "data": "Review\n索拉非尼的临床应用和药物相互作用\nSorafenib on clinical application and drug interaction\n摘要: 索拉非尼是一种多靶点的酪氨酸激酶抑制剂，主要治疗晚期肾癌、肝癌。药物 － 药物相互作用引起的索拉非尼的药代动力学的变化可能影响其临床效果和安全性，个体化的治疗药物监测可以控制潜在的药物相互作用的发生。 本文对索拉非尼的临床应用和药物 －药物相互作用做一综述。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "索拉非尼的临床应用和药物相互作用_赵建龙.pdf",
+          "chunk_index": "索拉非尼的临床应用和药物相互作用_赵建龙:0",
+          "raw_text": "药物 － 药物相互作用引起的索拉非尼的药代动力学的变化可能影响其临床效果和安全性",
+          "chunk_id": "索拉非尼的临床应用和药物相互作用_赵建龙:0",
+          "data": "Review\n索拉非尼的临床应用和药物相互作用\nSorafenib on clinical application and drug interaction\n摘要: 索拉非尼是一种多靶点的酪氨酸激酶抑制剂，主要治疗晚期肾癌、肝癌。药物 － 药物相互作用引起的索拉非尼的药代动力学的变化可能影响其临床效果和安全性，个体化的治疗药物监测可以控制潜在的药物相互作用的发生。 本文对索拉非尼的临床应用和药物 －药物相互作用做一综述。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "索拉非尼的临床应用和药物相互作用_赵建龙:0",
+    "source": "索拉非尼的临床应用和药物相互作用_赵建龙.pdf",
+    "text": "Review\n索拉非尼的临床应用和药物相互作用\nSorafenib on clinical application and drug interaction\n摘要: 索拉非尼是一种多靶点的酪氨酸激酶抑制剂，主要治疗晚期肾癌、肝癌。药物 － 药物相互作用引起的索拉非尼的药代动力学的变化可能影响其临床效果和安全性，个体化的治疗药物监测可以控制潜在的药物相互作用的发生。 本文对索拉非尼的临床应用和药物 －药物相互作用做一综述。"
+  }
+]

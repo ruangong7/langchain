@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "表没食子儿茶素没食子酸酯",
+        "canonical_name": "EGCG",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "绿茶提取物",
+        "canonical_name": "绿茶提取物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "儿茶素",
+        "canonical_name": "儿茶素",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+          "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:1",
+          "raw_text": "禁食期间反复口服大剂量绿茶提取物，可显著提高儿茶素（尤其是EGCG）的生物利用度",
+          "chunk_id": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:1",
+          "data": "及继发炎症风暴，有望用于防治新型冠状病毒肺炎［3］ ，但要应用于临床，需考虑其药动学特点及与其他药物的相互作用。本文就近年来关于EGCG的药动学特点及其对肝药物代谢影响的研究进展进行综述。\n1 EGCG体内药动学特点\n1.1 体内吸收和分布\nEGCG的口服生物利用度差。给人类健康志愿者饮用绿茶溶液后，大部分EGCG不进入血液，而是通过胆汁排至肠道［4］。在男性健康志愿者中，口服 6种不同剂量 $( 5 0 \\sim 1 6 0 0 \\ \\mathsf { m g } ) \\mathsf { E G C G }$ 后，血药浓度峰值（maximum concentration， $C _ { \\mathrm { m a x } } )$ 为$1 3 0 . 3 7 \\sim 3 3 9 1 . 6 0 up \\mu { 9 } \\cdot { \\mathsf { L } } ^ { - 1 }$ ，血浆药物浓度-时间曲线下面积（area under the curve，AUC）为 441.66～$1 0 3 6 7 . 9 8 \\ \\mu 9 \\cdot \\mathsf { h } \\cdot \\mathsf { L } ^ { - 1 }$ ，达峰时间（time of maximum$\\mathsf { c o n c e n t r a t i o n } , T _ { \\mathsf { m a x } } )$ 约为 1.31～2.19 h，而 EGCG$1 6 3 . 8 ~ \\mu \\mathrm { m o l } \\cdot \\mathrm { k g } ^ { - 1 }$ ig 给予小鼠后的 $C _ { \\mathrm { m a x } }$ 为（0.28 ±$0 . 0 8 ) \\ \\mu \\mathrm { m } 0 1 \\cdot \\mathsf { L } ^ { - 1 } , T _ { \\mathrm { m a x } }$ 为 $( 9 0 { \\pm } 2 6 ) \\mathrm { \\ m i n } ^ { [ 5 ] }$ 。Suganuma等［6］ ig给予小鼠3H标记的EGCG后，在胃肠、肝、肺、胰腺、乳腺和皮肤中检测到显著的放射性，脑、肾、子宫、卵巢和睾丸中也发现放射性分布；间隔6 h后，对雌鼠二次给药，其"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+          "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:1",
+          "raw_text": "禁食期间反复口服大剂量绿茶提取物，可显著提高儿茶素（尤其是EGCG）的生物利用度",
+          "chunk_id": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:1",
+          "data": "及继发炎症风暴，有望用于防治新型冠状病毒肺炎［3］ ，但要应用于临床，需考虑其药动学特点及与其他药物的相互作用。本文就近年来关于EGCG的药动学特点及其对肝药物代谢影响的研究进展进行综述。\n1 EGCG体内药动学特点\n1.1 体内吸收和分布\nEGCG的口服生物利用度差。给人类健康志愿者饮用绿茶溶液后，大部分EGCG不进入血液，而是通过胆汁排至肠道［4］。在男性健康志愿者中，口服 6种不同剂量 $( 5 0 \\sim 1 6 0 0 \\ \\mathsf { m g } ) \\mathsf { E G C G }$ 后，血药浓度峰值（maximum concentration， $C _ { \\mathrm { m a x } } )$ 为$1 3 0 . 3 7 \\sim 3 3 9 1 . 6 0 up \\mu { 9 } \\cdot { \\mathsf { L } } ^ { - 1 }$ ，血浆药物浓度-时间曲线下面积（area under the curve，AUC）为 441.66～$1 0 3 6 7 . 9 8 \\ \\mu 9 \\cdot \\mathsf { h } \\cdot \\mathsf { L } ^ { - 1 }$ ，达峰时间（time of maximum$\\mathsf { c o n c e n t r a t i o n } , T _ { \\mathsf { m a x } } )$ 约为 1.31～2.19 h，而 EGCG$1 6 3 . 8 ~ \\mu \\mathrm { m o l } \\cdot \\mathrm { k g } ^ { - 1 }$ ig 给予小鼠后的 $C _ { \\mathrm { m a x } }$ 为（0.28 ±$0 . 0 8 ) \\ \\mu \\mathrm { m } 0 1 \\cdot \\mathsf { L } ^ { - 1 } , T _ { \\mathrm { m a x } }$ 为 $( 9 0 { \\pm } 2 6 ) \\mathrm { \\ m i n } ^ { [ 5 ] }$ 。Suganuma等［6］ ig给予小鼠3H标记的EGCG后，在胃肠、肝、肺、胰腺、乳腺和皮肤中检测到显著的放射性，脑、肾、子宫、卵巢和睾丸中也发现放射性分布；间隔6 h后，对雌鼠二次给药，其"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文:1",
+    "source": "表没食子儿茶素没食子酸酯药动学及其药物相互作用研究进展_陈思文.pdf",
+    "text": "及继发炎症风暴，有望用于防治新型冠状病毒肺炎［3］ ，但要应用于临床，需考虑其药动学特点及与其他药物的相互作用。本文就近年来关于EGCG的药动学特点及其对肝药物代谢影响的研究进展进行综述。\n1 EGCG体内药动学特点\n1.1 体内吸收和分布\nEGCG的口服生物利用度差。给人类健康志愿者饮用绿茶溶液后，大部分EGCG不进入血液，而是通过胆汁排至肠道［4］。在男性健康志愿者中，口服 6种不同剂量 $( 5 0 \\sim 1 6 0 0 \\ \\mathsf { m g } ) \\mathsf { E G C G }$ 后，血药浓度峰值（maximum concentration， $C _ { \\mathrm { m a x } } )$ 为$1 3 0 . 3 7 \\sim 3 3 9 1 . 6 0 up \\mu { 9 } \\cdot { \\mathsf { L } } ^ { - 1 }$ ，血浆药物浓度-时间曲线下面积（area under the curve，AUC）为 441.66～$1 0 3 6 7 . 9 8 \\ \\mu 9 \\cdot \\mathsf { h } \\cdot \\mathsf { L } ^ { - 1 }$ ，达峰时间（time of maximum$\\mathsf { c o n c e n t r a t i o n } , T _ { \\mathsf { m a x } } )$ 约为 1.31～2.19 h，而 EGCG$1 6 3 . 8 ~ \\mu \\mathrm { m o l } \\cdot \\mathrm { k g } ^ { - 1 }$ ig 给予小鼠后的 $C _ { \\mathrm { m a x } }$ 为（0.28 ±$0 . 0 8 ) \\ \\mu \\mathrm { m } 0 1 \\cdot \\mathsf { L } ^ { - 1 } , T _ { \\mathrm { m a x } }$ 为 $( 9 0 { \\pm } 2 6 ) \\mathrm { \\ m i n } ^ { [ 5 ] }$ 。Suganuma等［6］ ig给予小鼠3H标记的EGCG后，在胃肠、肝、肺、胰腺、乳腺和皮肤中检测到显著的放射性，脑、肾、子宫、卵巢和睾丸中也发现放射性分布；间隔6 h后，对雌鼠二次给药，其血液、脑、肝、胰腺、膀胱和骨骼中的放射性水平比单次给药提高4\\~6倍。表明EGCG口服给药后大部分进入肠道，其代谢产物在体内分布广泛，多次给药会有累积效应。美国药典进行的膳食补充剂安全数据审查结果也显示，禁食期间反复口服大剂量绿茶提取物，可显著提高儿茶素（尤其是EGCG）的生物利用度［7］。"
+  }
+]

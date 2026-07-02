@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "贝达喹啉",
+        "canonical_name": "贝达喹啉",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "德拉马尼",
+        "canonical_name": "德拉马尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "普托马尼",
+        "canonical_name": "普托马尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "耐药结核病",
+        "canonical_name": "耐药结核病",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "抗耐药结核新药贝达喹啉、德拉马尼和普托马尼的药动学特征及药物相互作用研究进展_丁杨明.pdf",
+          "chunk_index": "抗耐药结核新药贝达喹啉、德拉马尼和普托马尼的药动学特征及药物相互作用研究进展_丁杨明:0",
+          "raw_text": "近年贝达喹啉(Bedaquiline, BDQ)、德拉马尼(Delamanid, DLM)、普托马尼(Pretomanid, PMD)等抗耐药结核新药的出现，显著提高了耐药结核的治愈率。",
+          "chunk_id": "抗耐药结核新药贝达喹啉、德拉马尼和普托马尼的药动学特征及药物相互作用研究进展_丁杨明:0",
+          "data": "抗耐药结核新药贝达喹啉、德拉马尼和普托马尼的药动学特征及药物相互作用研究进展\n丁杨明陆宇\\*(首都医科大学附属北京胸科医院药物学研究室北京市结核病胸部肿瘤研究所耐药结核病北京市重点实验室，北京 101149)摘要：结核病(Tuberculosis, TB)是人类健康的主要威胁之一，多药组合的化学治疗是控制结核病的主要手段。近年贝达喹啉(Bedaquiline, BDQ)、德拉马尼(Delamanid, DLM)、普托马尼(Pretomanid, PMD)等抗耐药结核新药的出现，显著提高了耐药结核的治愈率。了解抗耐药结核新药的药动学特征及药物相互作用特点，合理设计药物组合及给药方案，可以减少药物不良反应发生，提高治疗成功率。本文对三种主要抗耐药结核新药的代谢动力学及药物相互作用研究进行综述，旨在为临床治疗提供依据和参考。\nResearch progress on pharmacokinetic and drug-drug interaction of new anti-drug-resistant tuberculosis drugs bedaquiline, delamanid, and pretomanid"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "抗耐药结核新药贝达喹啉、德拉马尼和普托马尼的药动学特征及药物相互作用研究进展_丁杨明.pdf",
+          "chunk_index": "抗耐药结核新药贝达喹啉、德拉马尼和普托马尼的药动学特征及药物相互作用研究进展_丁杨明:0",
+          "raw_text": "近年贝达喹啉(Bedaquiline, BDQ)、德拉马尼(Delamanid, DLM)、普托马尼(Pretomanid, PMD)等抗耐药结核新药的出现，显著提高了耐药结核的治愈率。",
+          "chunk_id": "抗耐药结核新药贝达喹啉、德拉马尼和普托马尼的药动学特征及药物相互作用研究进展_丁杨明:0",
+          "data": "抗耐药结核新药贝达喹啉、德拉马尼和普托马尼的药动学特征及药物相互作用研究进展\n丁杨明陆宇\\*(首都医科大学附属北京胸科医院药物学研究室北京市结核病胸部肿瘤研究所耐药结核病北京市重点实验室，北京 101149)摘要：结核病(Tuberculosis, TB)是人类健康的主要威胁之一，多药组合的化学治疗是控制结核病的主要手段。近年贝达喹啉(Bedaquiline, BDQ)、德拉马尼(Delamanid, DLM)、普托马尼(Pretomanid, PMD)等抗耐药结核新药的出现，显著提高了耐药结核的治愈率。了解抗耐药结核新药的药动学特征及药物相互作用特点，合理设计药物组合及给药方案，可以减少药物不良反应发生，提高治疗成功率。本文对三种主要抗耐药结核新药的代谢动力学及药物相互作用研究进行综述，旨在为临床治疗提供依据和参考。\nResearch progress on pharmacokinetic and drug-drug interaction of new anti-drug-resistant tuberculosis drugs bedaquiline, delamanid, and pretomanid"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "抗耐药结核新药贝达喹啉、德拉马尼和普托马尼的药动学特征及药物相互作用研究进展_丁杨明.pdf",
+          "chunk_index": "抗耐药结核新药贝达喹啉、德拉马尼和普托马尼的药动学特征及药物相互作用研究进展_丁杨明:0",
+          "raw_text": "近年贝达喹啉(Bedaquiline, BDQ)、德拉马尼(Delamanid, DLM)、普托马尼(Pretomanid, PMD)等抗耐药结核新药的出现，显著提高了耐药结核的治愈率。",
+          "chunk_id": "抗耐药结核新药贝达喹啉、德拉马尼和普托马尼的药动学特征及药物相互作用研究进展_丁杨明:0",
+          "data": "抗耐药结核新药贝达喹啉、德拉马尼和普托马尼的药动学特征及药物相互作用研究进展\n丁杨明陆宇\\*(首都医科大学附属北京胸科医院药物学研究室北京市结核病胸部肿瘤研究所耐药结核病北京市重点实验室，北京 101149)摘要：结核病(Tuberculosis, TB)是人类健康的主要威胁之一，多药组合的化学治疗是控制结核病的主要手段。近年贝达喹啉(Bedaquiline, BDQ)、德拉马尼(Delamanid, DLM)、普托马尼(Pretomanid, PMD)等抗耐药结核新药的出现，显著提高了耐药结核的治愈率。了解抗耐药结核新药的药动学特征及药物相互作用特点，合理设计药物组合及给药方案，可以减少药物不良反应发生，提高治疗成功率。本文对三种主要抗耐药结核新药的代谢动力学及药物相互作用研究进行综述，旨在为临床治疗提供依据和参考。\nResearch progress on pharmacokinetic and drug-drug interaction of new anti-drug-resistant tuberculosis drugs bedaquiline, delamanid, and pretomanid"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "抗耐药结核新药贝达喹啉、德拉马尼和普托马尼的药动学特征及药物相互作用研究进展_丁杨明:0",
+    "source": "抗耐药结核新药贝达喹啉、德拉马尼和普托马尼的药动学特征及药物相互作用研究进展_丁杨明.pdf",
+    "text": "抗耐药结核新药贝达喹啉、德拉马尼和普托马尼的药动学特征及药物相互作用研究进展\n丁杨明陆宇\\*(首都医科大学附属北京胸科医院药物学研究室北京市结核病胸部肿瘤研究所耐药结核病北京市重点实验室，北京 101149)摘要：结核病(Tuberculosis, TB)是人类健康的主要威胁之一，多药组合的化学治疗是控制结核病的主要手段。近年贝达喹啉(Bedaquiline, BDQ)、德拉马尼(Delamanid, DLM)、普托马尼(Pretomanid, PMD)等抗耐药结核新药的出现，显著提高了耐药结核的治愈率。了解抗耐药结核新药的药动学特征及药物相互作用特点，合理设计药物组合及给药方案，可以减少药物不良反应发生，提高治疗成功率。本文对三种主要抗耐药结核新药的代谢动力学及药物相互作用研究进行综述，旨在为临床治疗提供依据和参考。\nResearch progress on pharmacokinetic and drug-drug interaction of new anti-drug-resistant tuberculosis drugs bedaquiline, delamanid, and pretomanid"
+  }
+]

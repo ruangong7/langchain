@@ -1,0 +1,544 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "丹参酮Ⅰ",
+        "canonical_name": "丹参酮Ⅰ",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "隐丹参酮",
+        "canonical_name": "隐丹参酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "丹参乙醇提取物",
+        "canonical_name": "丹参乙醇提取物",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "丹参酮ⅡA",
+        "canonical_name": "丹参酮ⅡA",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "丹参素钠",
+        "canonical_name": "丹参素钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "二氢丹参酮Ⅰ",
+        "canonical_name": "二氢丹参酮Ⅰ",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "丹参新酮",
+        "canonical_name": "丹参新酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "原儿茶醛",
+        "canonical_name": "原儿茶醛",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "次丹参酮",
+        "canonical_name": "次丹参酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "丹参素",
+        "canonical_name": "丹参素",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "CYP1A2",
+        "canonical_name": "CYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "CYP3A4/5",
+        "canonical_name": "CYP3A4/5",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "CYP2C9",
+        "canonical_name": "CYP2C9",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "CYP2D6",
+        "canonical_name": "CYP2D6",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "CYP3A4",
+        "canonical_name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "DrugClass",
+        "name": "CYP2E1",
+        "canonical_name": "CYP2E1",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性",
+          "mechanism": "上调表达和活性",
+          "effect": "诱导",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达",
+          "mechanism": "上调mRNA表达",
+          "effect": "诱导",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性",
+          "mechanism": "上调mRNA和蛋白表达",
+          "effect": "诱导",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "丹参酮ⅡA对重组人肝微粒体CYPlA2发挥抑制作用，Ki值为0.56~2.74 μmol·L-1，属于中等强度抑制剂",
+          "mechanism": "抑制",
+          "severity": "中等强度",
+          "Ki": "0.56~2.74 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "丹参素钠不影响rCYPlA2的活性",
+          "mechanism": "无影响",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂",
+          "mechanism": "抑制",
+          "severity": "强",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "二氢丹参酮Ⅰ是CYP1A2 的强抑制剂 (Ki=0.53 μmol·L-1)",
+          "mechanism": "抑制",
+          "severity": "强",
+          "Ki": "0.53 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "丹参酮Ⅰ、丹参酮ⅡA、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 (Ki=1.5~1.75 μmol·L-1)",
+          "mechanism": "抑制",
+          "severity": "中等强度",
+          "Ki": "1.5~1.75 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮ⅡA、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 (Ki=1.92~62 μmol·L-1)",
+          "mechanism": "抑制",
+          "severity": "中等强度",
+          "Ki": "1.92~62 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮ⅡA、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 (Ki=1.92~62 μmol·L-1)",
+          "mechanism": "抑制",
+          "severity": "中等强度",
+          "Ki": "1.92~62 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮ⅡA、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 (Ki=1.92~62 μmol·L-1)",
+          "mechanism": "抑制",
+          "severity": "中等强度",
+          "Ki": "1.92~62 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮ⅡA、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 (Ki=1.92~62 μmol·L-1)",
+          "mechanism": "抑制",
+          "severity": "中等强度",
+          "Ki": "1.92~62 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮ⅡA、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 (Ki=1.92~62 μmol·L-1)",
+          "mechanism": "抑制",
+          "severity": "中等强度",
+          "Ki": "1.92~62 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "丹参新酮是 CYP2D6 的中等强度抑制剂 (Ki=30.32 μmol·L-1)",
+          "mechanism": "抑制",
+          "severity": "中等强度",
+          "Ki": "30.32 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "隐丹参酮、原儿茶醛和丹参酮Ⅰ是 CYP2D6 的弱抑制剂",
+          "mechanism": "抑制",
+          "severity": "弱",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "隐丹参酮、原儿茶醛和丹参酮Ⅰ是 CYP2D6 的弱抑制剂",
+          "mechanism": "抑制",
+          "severity": "弱",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "隐丹参酮、原儿茶醛和丹参酮Ⅰ是 CYP2D6 的弱抑制剂",
+          "mechanism": "抑制",
+          "severity": "弱",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "次丹参酮、丹参新酮和二氢丹参酮Ⅰ是 CYP3A4 酶中等强度抑制剂 (Ki=2.11~33.88 μmol·L-1)",
+          "mechanism": "抑制",
+          "severity": "中等强度",
+          "Ki": "2.11~33.88 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "次丹参酮、丹参新酮和二氢丹参酮Ⅰ是 CYP3A4 酶中等强度抑制剂 (Ki=2.11~33.88 μmol·L-1)",
+          "mechanism": "抑制",
+          "severity": "中等强度",
+          "Ki": "2.11~33.88 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_23",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "次丹参酮、丹参新酮和二氢丹参酮Ⅰ是 CYP3A4 酶中等强度抑制剂 (Ki=2.11~33.88 μmol·L-1)",
+          "mechanism": "抑制",
+          "severity": "中等强度",
+          "Ki": "2.11~33.88 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_24",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "原儿茶醛、丹参酮Ⅰ和隐丹参酮是CYP3A4的弱抑制剂 (Ki=86~220 μmol·L-1)",
+          "mechanism": "抑制",
+          "severity": "弱",
+          "Ki": "86~220 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_25",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "原儿茶醛、丹参酮Ⅰ和隐丹参酮是CYP3A4的弱抑制剂 (Ki=86~220 μmol·L-1)",
+          "mechanism": "抑制",
+          "severity": "弱",
+          "Ki": "86~220 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_26",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "原儿茶醛、丹参酮Ⅰ和隐丹参酮是CYP3A4的弱抑制剂 (Ki=86~220 μmol·L-1)",
+          "mechanism": "抑制",
+          "severity": "弱",
+          "Ki": "86~220 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_27",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "丹参酮Ⅰ和隐丹参酮可中等程度抑制CYP2E1的活性 (Ki值分别为3.67 μmol·L-1 和 10.8 μmol·L-1)",
+          "mechanism": "抑制",
+          "severity": "中等程度",
+          "Ki": "3.67 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_28",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "丹参酮Ⅰ和隐丹参酮可中等程度抑制CYP2E1的活性 (Ki值分别为3.67 μmol·L-1 和 10.8 μmol·L-1)",
+          "mechanism": "抑制",
+          "severity": "中等程度",
+          "Ki": "10.8 μmol·L-1",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_29",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "二氢丹参酮Ⅰ不影响 CYP2E1 的活性",
+          "mechanism": "无影响",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      },
+      {
+        "id": "rel_30",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "raw_text": "水溶性成分中的丹参素是 CYP2C9 的中等强度抑制剂",
+          "mechanism": "抑制",
+          "severity": "中等强度",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+          "data": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mat"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:3",
+    "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+    "text": "）相比，丹参酮Ⅰ可显著上调肝细胞中 CYP1A2 的表达和活性，隐丹参酮可在转录水平上调 CYP1A2 的 mRNA 表达（见表 1），但不影响其翻译；丹参乙醇提取物可同时上调 CYP1A2 的mRNA 和蛋白表达，但不影响其活性 [5]。\n研究丹参对人类 CYP450 体外活性的影响，多采用人类肝脏微粒体孵育探针药物的方法或重组酶实验。应用重组的人类 CYP450 同工酶，沈红武等 [15] 研究发现丹参酮可抑制多种主要 CYP450 的活性，丹参酮Ⅱ A 对重组人肝微粒体 CYPlA2（rCYPlA2）发挥抑制作用的 $K _ { \\mathrm { i } }$ 值为 $0 . 5 6 \\sim 2 . 7 4 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，属于中等强度抑制剂，而丹参素钠不影响 rCYPlA2 的活性 [13]。应用人类肝微粒体进行的研究发现，丹参乙醇提取物（脂溶性成分）是CYP1A2 和 CYP3A4/5 酶活性的强抑制剂 [7]，二氢丹参酮Ⅰ是 CYP1A2 的强抑制剂 $( K _ { \\mathrm { i } } = 0 . 5 3 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ、丹参酮Ⅱ $\\mathrm { A } ,$ 、丹参新酮和隐丹参酮是CYP1A2的中等强度抑制剂 $( K _ { \\mathrm { i } } = 1 . 5 \\sim 1 . 7 5 ~ \\mathrm { \\mu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），二氢丹参酮Ⅰ、丹参酮Ⅰ、丹参酮Ⅱ A、丹参新酮和隐丹参酮是 CYP2C9 的中等强度抑制剂 CYP2C9 $( K _ { \\mathrm { i } } = 1 . 9 2 \\sim$ $6 2 ~ { \\mu \\mathrm { m o l } } \\cdot \\mathrm { L } ^ { - 1 } )$ ），丹参新酮是 CYP2D6 的中等强度抑制剂 $( K _ { \\mathrm { i } } = 3 0 . 3 2 \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），而隐丹参酮、原儿茶醛和丹参酮Ⅰ是 CYP2D6 的弱抑制剂，次丹参酮、丹参新酮和二氢丹参酮Ⅰ是 CYP3A4 酶中等强度抑制剂 $\\left( K _ { \\mathrm { i } } = \\right.$ $2 . 1 1 \\sim 3 3 . 8 8 ~ \\mathrm { \\textmu m o l } \\cdot \\mathrm { L } ^ { - 1 } )$ ），原儿茶醛、丹参酮Ⅰ和隐丹参酮是CYP3A4的弱抑制剂 $( K _ { \\mathrm { i } } = 8 6 \\sim 2 2 0 \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ），丹参酮Ⅰ和隐丹参酮可中等程度抑制CYP2E1的活性 $( K _ { \\mathrm { i } }$ 值分别为 $3 . 6 7 ~ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 和 10.8 μmol • L － 1 ），二氢丹参酮Ⅰ不影响 CYP2E1 的活性 [7-10，13-14]。此外，发现水溶性成分中的丹参素是 CYP2C9 的中等强度抑制剂 [9]。这些研究表明，丹参酮类等脂溶性成分对人类多种肝微粒体 CYP450 同工酶具有抑制作用，而水溶性成分仅发现丹参素可中等强度抑制CYP2C9的活性。"
+  }
+]

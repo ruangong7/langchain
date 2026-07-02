@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "直接抗丙型肝炎病毒药物",
+        "canonical_name": "直接抗丙型肝炎病毒药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "降脂药",
+        "canonical_name": "降脂药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "免疫抑制剂",
+        "canonical_name": "免疫抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "抗逆转录病毒药物",
+        "canonical_name": "抗逆转录病毒药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "中草药",
+        "canonical_name": "中草药",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "丙型肝炎",
+        "canonical_name": "丙型肝炎",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "直接抗丙型肝炎病毒药物的药物相互作用_姜波.pdf",
+          "chunk_index": "直接抗丙型肝炎病毒药物的药物相互作用_姜波:1",
+          "raw_text": "There are three scenarios in co-administration of DAA and commonly used drugs such as lipid-regulating drugs, immunosuppressants, antiretroviral drugs and Chinese herbal medicines: (1) drug concentration of DAA or concomitant medication increased by several times (or even dozens of times), leading to serious adverse events and ...; (2) ... need to strengthen monitoring, adjust dosage and dosing interval; (3) no clinically significant interaction was expected.",
+          "chunk_id": "直接抗丙型肝炎病毒药物的药物相互作用_姜波:1",
+          "data": "，需要加强监测、调整给药剂量和给药间隔时间 ； （ ）预测合用后不会产生明显ADRs。\nDrug－druginteractionsassociatedwithdirect－actingantiviralagentsforhepatitisC\nJIANGBo， CHEN WanSheng＊ （DepartmentofPharmacy， Changzheng Hospital， Second Military MedicalUniversity，Shanghai200003， China）［ABSTRACT］ g－ g （ ） － g g （ ） p g y observed in clinical practice，the mechanisms of which include inhibiting or inducing CYP45O enzyme activity，inhibiting or acti-vating multiple protein transporters and altering plasma protein binding. DDI associated with DAA have two major implications for treatment. First，concomitant medication may affect the exposure level of DAA，resulting in decreased efficacy or increased adverse drug reactions （ADRs).Second,DAA may affect the concentration of concomitant medication，leading to corresponding symptoms or even serious adverse events.There are three scenarios in co-administration of DAA and commonly used drugs such as lipid-regulating drugs，immunosuppressants，antiretroviral drugs and Chinese herbal medicines:（"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "直接抗丙型肝炎病毒药物的药物相互作用_姜波.pdf",
+          "chunk_index": "直接抗丙型肝炎病毒药物的药物相互作用_姜波:1",
+          "raw_text": "There are three scenarios in co-administration of DAA and commonly used drugs such as lipid-regulating drugs, immunosuppressants, antiretroviral drugs and Chinese herbal medicines: (1) drug concentration of DAA or concomitant medication increased by several times (or even dozens of times), leading to serious adverse events and ...; (2) ... need to strengthen monitoring, adjust dosage and dosing interval; (3) no clinically significant interaction was expected.",
+          "chunk_id": "直接抗丙型肝炎病毒药物的药物相互作用_姜波:1",
+          "data": "，需要加强监测、调整给药剂量和给药间隔时间 ； （ ）预测合用后不会产生明显ADRs。\nDrug－druginteractionsassociatedwithdirect－actingantiviralagentsforhepatitisC\nJIANGBo， CHEN WanSheng＊ （DepartmentofPharmacy， Changzheng Hospital， Second Military MedicalUniversity，Shanghai200003， China）［ABSTRACT］ g－ g （ ） － g g （ ） p g y observed in clinical practice，the mechanisms of which include inhibiting or inducing CYP45O enzyme activity，inhibiting or acti-vating multiple protein transporters and altering plasma protein binding. DDI associated with DAA have two major implications for treatment. First，concomitant medication may affect the exposure level of DAA，resulting in decreased efficacy or increased adverse drug reactions （ADRs).Second,DAA may affect the concentration of concomitant medication，leading to corresponding symptoms or even serious adverse events.There are three scenarios in co-administration of DAA and commonly used drugs such as lipid-regulating drugs，immunosuppressants，antiretroviral drugs and Chinese herbal medicines:（"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "直接抗丙型肝炎病毒药物的药物相互作用_姜波.pdf",
+          "chunk_index": "直接抗丙型肝炎病毒药物的药物相互作用_姜波:1",
+          "raw_text": "There are three scenarios in co-administration of DAA and commonly used drugs such as lipid-regulating drugs, immunosuppressants, antiretroviral drugs and Chinese herbal medicines: (1) drug concentration of DAA or concomitant medication increased by several times (or even dozens of times), leading to serious adverse events and ...; (2) ... need to strengthen monitoring, adjust dosage and dosing interval; (3) no clinically significant interaction was expected.",
+          "chunk_id": "直接抗丙型肝炎病毒药物的药物相互作用_姜波:1",
+          "data": "，需要加强监测、调整给药剂量和给药间隔时间 ； （ ）预测合用后不会产生明显ADRs。\nDrug－druginteractionsassociatedwithdirect－actingantiviralagentsforhepatitisC\nJIANGBo， CHEN WanSheng＊ （DepartmentofPharmacy， Changzheng Hospital， Second Military MedicalUniversity，Shanghai200003， China）［ABSTRACT］ g－ g （ ） － g g （ ） p g y observed in clinical practice，the mechanisms of which include inhibiting or inducing CYP45O enzyme activity，inhibiting or acti-vating multiple protein transporters and altering plasma protein binding. DDI associated with DAA have two major implications for treatment. First，concomitant medication may affect the exposure level of DAA，resulting in decreased efficacy or increased adverse drug reactions （ADRs).Second,DAA may affect the concentration of concomitant medication，leading to corresponding symptoms or even serious adverse events.There are three scenarios in co-administration of DAA and commonly used drugs such as lipid-regulating drugs，immunosuppressants，antiretroviral drugs and Chinese herbal medicines:（"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "直接抗丙型肝炎病毒药物的药物相互作用_姜波.pdf",
+          "chunk_index": "直接抗丙型肝炎病毒药物的药物相互作用_姜波:1",
+          "raw_text": "There are three scenarios in co-administration of DAA and commonly used drugs such as lipid-regulating drugs, immunosuppressants, antiretroviral drugs and Chinese herbal medicines: (1) drug concentration of DAA or concomitant medication increased by several times (or even dozens of times), leading to serious adverse events and ...; (2) ... need to strengthen monitoring, adjust dosage and dosing interval; (3) no clinically significant interaction was expected.",
+          "chunk_id": "直接抗丙型肝炎病毒药物的药物相互作用_姜波:1",
+          "data": "，需要加强监测、调整给药剂量和给药间隔时间 ； （ ）预测合用后不会产生明显ADRs。\nDrug－druginteractionsassociatedwithdirect－actingantiviralagentsforhepatitisC\nJIANGBo， CHEN WanSheng＊ （DepartmentofPharmacy， Changzheng Hospital， Second Military MedicalUniversity，Shanghai200003， China）［ABSTRACT］ g－ g （ ） － g g （ ） p g y observed in clinical practice，the mechanisms of which include inhibiting or inducing CYP45O enzyme activity，inhibiting or acti-vating multiple protein transporters and altering plasma protein binding. DDI associated with DAA have two major implications for treatment. First，concomitant medication may affect the exposure level of DAA，resulting in decreased efficacy or increased adverse drug reactions （ADRs).Second,DAA may affect the concentration of concomitant medication，leading to corresponding symptoms or even serious adverse events.There are three scenarios in co-administration of DAA and commonly used drugs such as lipid-regulating drugs，immunosuppressants，antiretroviral drugs and Chinese herbal medicines:（"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "直接抗丙型肝炎病毒药物的药物相互作用_姜波.pdf",
+          "chunk_index": "直接抗丙型肝炎病毒药物的药物相互作用_姜波:1",
+          "raw_text": "直接抗丙型肝炎病毒药物的药物相互作用",
+          "chunk_id": "直接抗丙型肝炎病毒药物的药物相互作用_姜波:1",
+          "data": "，需要加强监测、调整给药剂量和给药间隔时间 ； （ ）预测合用后不会产生明显ADRs。\nDrug－druginteractionsassociatedwithdirect－actingantiviralagentsforhepatitisC\nJIANGBo， CHEN WanSheng＊ （DepartmentofPharmacy， Changzheng Hospital， Second Military MedicalUniversity，Shanghai200003， China）［ABSTRACT］ g－ g （ ） － g g （ ） p g y observed in clinical practice，the mechanisms of which include inhibiting or inducing CYP45O enzyme activity，inhibiting or acti-vating multiple protein transporters and altering plasma protein binding. DDI associated with DAA have two major implications for treatment. First，concomitant medication may affect the exposure level of DAA，resulting in decreased efficacy or increased adverse drug reactions （ADRs).Second,DAA may affect the concentration of concomitant medication，leading to corresponding symptoms or even serious adverse events.There are three scenarios in co-administration of DAA and commonly used drugs such as lipid-regulating drugs，immunosuppressants，antiretroviral drugs and Chinese herbal medicines:（"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "直接抗丙型肝炎病毒药物的药物相互作用_姜波:1",
+    "source": "直接抗丙型肝炎病毒药物的药物相互作用_姜波.pdf",
+    "text": "，需要加强监测、调整给药剂量和给药间隔时间 ； （ ）预测合用后不会产生明显ADRs。\nDrug－druginteractionsassociatedwithdirect－actingantiviralagentsforhepatitisC\nJIANGBo， CHEN WanSheng＊ （DepartmentofPharmacy， Changzheng Hospital， Second Military MedicalUniversity，Shanghai200003， China）［ABSTRACT］ g－ g （ ） － g g （ ） p g y observed in clinical practice，the mechanisms of which include inhibiting or inducing CYP45O enzyme activity，inhibiting or acti-vating multiple protein transporters and altering plasma protein binding. DDI associated with DAA have two major implications for treatment. First，concomitant medication may affect the exposure level of DAA，resulting in decreased efficacy or increased adverse drug reactions （ADRs).Second,DAA may affect the concentration of concomitant medication，leading to corresponding symptoms or even serious adverse events.There are three scenarios in co-administration of DAA and commonly used drugs such as lipid-regulating drugs，immunosuppressants，antiretroviral drugs and Chinese herbal medicines:（1） drug concentration ofDAAorconcomitantmedicationincreasedbyseveraltimes（orevendozensoftimes） ，leadingtoseriousadverseeventsand － ； （ ） p y g y q g， drug dosage or dosing interval；(3）no clinically significant interaction was expected.［KEYWORDS］ hepatitisvirus，typeC；direct－actingantiviralagent；drug－druginteraction；review［ （ ） － ］到年全球约有亿人抗丙型肝炎病毒（ ， ） 抗体阳性 ［ ］ 。 每年有近万人死于引起的肝脏疾病，主要死亡原因为肝硬化和肝细胞癌［ ］ 。 在我国， 丙型肝炎的疾病负担同样不容小觑根据年全国血清流行病学调查结果推算， 我国约有万例感染者［ ］ 年中国肝炎论坛上公布的《中国丙肝感染现状与对策研究报告》显示现阶段我国的丙型肝炎疾病控制面临公众认知度低诊断和治疗率低抗病毒药物可及性和可负担性低、监测资料欠完善等"
+  }
+]

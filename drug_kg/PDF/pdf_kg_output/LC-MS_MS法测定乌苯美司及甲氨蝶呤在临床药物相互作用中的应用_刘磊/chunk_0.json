@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "乌苯美司",
+        "canonical_name": "乌苯美司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "甲氨蝶呤",
+        "canonical_name": "甲氨蝶呤",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "LC-MS_MS法测定乌苯美司及甲氨蝶呤在临床药物相互作用中的应用_刘磊.pdf",
+          "chunk_index": "LC-MS_MS法测定乌苯美司及甲氨蝶呤在临床药物相互作用中的应用_刘磊:0",
+          "raw_text": "LC-MS/ MS 法测定乌苯美司及甲氨蝶呤在临床药物相互作用中的应用",
+          "chunk_id": "LC-MS_MS法测定乌苯美司及甲氨蝶呤在临床药物相互作用中的应用_刘磊:0",
+          "data": "LC-MS/ MS 法测定乌苯美司及甲氨蝶呤在临床药物相互作用中的应用\n刘磊 1 佟学丰 2 徐鑫 3 张馨月 3 刘志浩 3 孟强 3 王长远 3 ▲1.大连医科大学附属大连市第三人民医院药剂科辽宁大连 116033；2.沈阳医学院基础医学院辽宁沈阳 110034；\n3.大连医科大学药学院辽宁大连 116044\n[摘要] 目的建立灵敏高效专属性强的高效液相色谱质谱联用法用于测定生物样品中乌苯美司和甲氨蝶呤的浓度。 方法两种 LC-MS/MS 法均采用乙腈沉淀蛋白法处理生物样品 ， 应用 Hypersil ODS-C18 色谱柱分离 ， 通过电喷雾电离源串联质谱以多反应监测方式进行负离子检测测定生物样品中乌苯美司和甲氨蝶呤的浓度其中 m/z 309.10 →m/z 120.30 m/z 455.20→m/z 308.20 和 m/z 370.40→m/z 288.10 分别作为乌苯美司 、甲氨蝶呤和西洛他唑（内标）定量分析时监测的离子对色谱分离的流动相为乙腈-0.1%甲酸水（60∶40 =v/v） 流速为 $0 . 4 ~ \\mathrm { m L / m i n _ { \\mathrm { ~ o ~ } } }$ 结果苯美司 、甲氨蝶呤在 2.00\\~2000.00 ng/mL 的范围内线性关系良好 $\\scriptstyle \\left( r ^ { 2 } = 0 . 9 9 7 6 \\right)$ 。 结论所建的 LC-MS/MS 法快速灵敏专属性强适用于乌苯美司和甲氨蝶呤临床药代动力学研究\nApplication of LC-MS/MS in the determination of clinical pharmaceutical interaction of ubenimex and methotrexate"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "LC-MS_MS法测定乌苯美司及甲氨蝶呤在临床药物相互作用中的应用_刘磊:0",
+    "source": "LC-MS_MS法测定乌苯美司及甲氨蝶呤在临床药物相互作用中的应用_刘磊.pdf",
+    "text": "LC-MS/ MS 法测定乌苯美司及甲氨蝶呤在临床药物相互作用中的应用\n刘磊 1 佟学丰 2 徐鑫 3 张馨月 3 刘志浩 3 孟强 3 王长远 3 ▲1.大连医科大学附属大连市第三人民医院药剂科辽宁大连 116033；2.沈阳医学院基础医学院辽宁沈阳 110034；\n3.大连医科大学药学院辽宁大连 116044\n[摘要] 目的建立灵敏高效专属性强的高效液相色谱质谱联用法用于测定生物样品中乌苯美司和甲氨蝶呤的浓度。 方法两种 LC-MS/MS 法均采用乙腈沉淀蛋白法处理生物样品 ， 应用 Hypersil ODS-C18 色谱柱分离 ， 通过电喷雾电离源串联质谱以多反应监测方式进行负离子检测测定生物样品中乌苯美司和甲氨蝶呤的浓度其中 m/z 309.10 →m/z 120.30 m/z 455.20→m/z 308.20 和 m/z 370.40→m/z 288.10 分别作为乌苯美司 、甲氨蝶呤和西洛他唑（内标）定量分析时监测的离子对色谱分离的流动相为乙腈-0.1%甲酸水（60∶40 =v/v） 流速为 $0 . 4 ~ \\mathrm { m L / m i n _ { \\mathrm { ~ o ~ } } }$ 结果苯美司 、甲氨蝶呤在 2.00\\~2000.00 ng/mL 的范围内线性关系良好 $\\scriptstyle \\left( r ^ { 2 } = 0 . 9 9 7 6 \\right)$ 。 结论所建的 LC-MS/MS 法快速灵敏专属性强适用于乌苯美司和甲氨蝶呤临床药代动力学研究\nApplication of LC-MS/MS in the determination of clinical pharmaceutical interaction of ubenimex and methotrexate"
+  }
+]

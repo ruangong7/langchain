@@ -7,6 +7,7 @@ from rank_bm25 import BM25Okapi
 import jieba
 import logging
 import os
+import json
 
 logger = logging.getLogger(__name__)
 
@@ -107,6 +108,47 @@ class SparseRetriever(BaseRetriever):
         
         logger.info(f"[SparseRetriever] 从 {content_dir} 加载了 {len(documents)} 条文档")
         
+        retriever = cls(documents, top_k)
+        retriever.title_index = title_index
+        return retriever
+
+    @classmethod
+    def from_jsonl(cls, jsonl_path: str, top_k=10):
+        """从统一 JSONL 语料加载文档并构建 BM25 检索器。"""
+        documents = []
+        title_index = {}
+
+        if not os.path.exists(jsonl_path):
+            raise FileNotFoundError(f"统一语料文件不存在: {jsonl_path}")
+
+        with open(jsonl_path, "r", encoding="utf-8") as f:
+            for line_no, raw in enumerate(f, start=1):
+                line = raw.strip()
+                if not line:
+                    continue
+                try:
+                    row = json.loads(line)
+                except json.JSONDecodeError as exc:
+                    logger.warning("[SparseRetriever] 跳过损坏JSON: %s:%d error=%s", jsonl_path, line_no, exc)
+                    continue
+
+                text = str(row.get("text") or "").strip()
+                if not text:
+                    continue
+
+                source = str(row.get("source") or "未知来源").strip() or "未知来源"
+                metadata = {
+                    "source": source,
+                    "source_type": str(row.get("source_type") or "").strip(),
+                    "chunk_id": row.get("chunk_id"),
+                    "chunk_index": row.get("chunk_index"),
+                    "corpus_chunk_index": row.get("corpus_chunk_index"),
+                }
+                doc = Document(page_content=text, metadata=metadata)
+                documents.append(doc)
+                title_index[text] = source
+
+        logger.info(f"[SparseRetriever] 从 {jsonl_path} 加载了 {len(documents)} 条文档")
         retriever = cls(documents, top_k)
         retriever.title_index = title_index
         return retriever

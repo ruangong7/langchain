@@ -1,0 +1,113 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "止咳橘红",
+        "canonical_name": "止咳橘红",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP3A4底物",
+        "canonical_name": "CYP3A4底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "CYP1A2底物",
+        "canonical_name": "CYP1A2底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "芸香科类中药",
+        "canonical_name": "芸香科类中药",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Food",
+        "name": "十字花科蔬菜",
+        "canonical_name": "十字花科蔬菜",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "St. John's Wort",
+        "canonical_name": "圣约翰草",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "化学药品",
+        "canonical_name": "化学药品",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "化学药物与中药相关的药物相互作用_程泽能.pdf",
+          "chunk_index": "化学药物与中药相关的药物相互作用_程泽能:6",
+          "raw_text": "止咳橘红长期使用或超过治疗剂量使用时是否会对CYP3A4产生显著性影响，尚需进一步的研究证明。",
+          "chunk_id": "化学药物与中药相关的药物相互作用_程泽能:6",
+          "data": "，能够导致CYP3A4底物咪哒唑仑代谢的轻微抑制，而对CYP1A2的活性没有影响。但是，止咳橘红长期使用或超过治疗剂量使用时是否会对CYP3A4产生显著性影响，尚需进一步的研究证明。实验室正着手研究其他芸香科类中药对CYP3A4的抑制作用。\n$OH E_{1}$ 和 $4-OH E_{1}$ 是潜在致癌物，十字花科蔬菜对这两种物质的影响及其程度、对其他 CYP1A2 催化代谢的药物的影响等，都需要进一步研究证实。\n1.4 St. John's Wort 与化学药品的相互作用[7]"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "化学药物与中药相关的药物相互作用_程泽能.pdf",
+          "chunk_index": "化学药物与中药相关的药物相互作用_程泽能:6",
+          "raw_text": "实验室正着手研究其他芸香科类中药对CYP3A4的抑制作用。",
+          "chunk_id": "化学药物与中药相关的药物相互作用_程泽能:6",
+          "data": "，能够导致CYP3A4底物咪哒唑仑代谢的轻微抑制，而对CYP1A2的活性没有影响。但是，止咳橘红长期使用或超过治疗剂量使用时是否会对CYP3A4产生显著性影响，尚需进一步的研究证明。实验室正着手研究其他芸香科类中药对CYP3A4的抑制作用。\n$OH E_{1}$ 和 $4-OH E_{1}$ 是潜在致癌物，十字花科蔬菜对这两种物质的影响及其程度、对其他 CYP1A2 催化代谢的药物的影响等，都需要进一步研究证实。\n1.4 St. John's Wort 与化学药品的相互作用[7]"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "化学药物与中药相关的药物相互作用_程泽能.pdf",
+          "chunk_index": "化学药物与中药相关的药物相互作用_程泽能:6",
+          "raw_text": "十字花科蔬菜对这两种物质的影响及其程度、对其他 CYP1A2 催化代谢的药物的影响等，都需要进一步研究证实。",
+          "chunk_id": "化学药物与中药相关的药物相互作用_程泽能:6",
+          "data": "，能够导致CYP3A4底物咪哒唑仑代谢的轻微抑制，而对CYP1A2的活性没有影响。但是，止咳橘红长期使用或超过治疗剂量使用时是否会对CYP3A4产生显著性影响，尚需进一步的研究证明。实验室正着手研究其他芸香科类中药对CYP3A4的抑制作用。\n$OH E_{1}$ 和 $4-OH E_{1}$ 是潜在致癌物，十字花科蔬菜对这两种物质的影响及其程度、对其他 CYP1A2 催化代谢的药物的影响等，都需要进一步研究证实。\n1.4 St. John's Wort 与化学药品的相互作用[7]"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "化学药物与中药相关的药物相互作用_程泽能.pdf",
+          "chunk_index": "化学药物与中药相关的药物相互作用_程泽能:6",
+          "raw_text": "St. John's Wort 与化学药品的相互作用",
+          "chunk_id": "化学药物与中药相关的药物相互作用_程泽能:6",
+          "data": "，能够导致CYP3A4底物咪哒唑仑代谢的轻微抑制，而对CYP1A2的活性没有影响。但是，止咳橘红长期使用或超过治疗剂量使用时是否会对CYP3A4产生显著性影响，尚需进一步的研究证明。实验室正着手研究其他芸香科类中药对CYP3A4的抑制作用。\n$OH E_{1}$ 和 $4-OH E_{1}$ 是潜在致癌物，十字花科蔬菜对这两种物质的影响及其程度、对其他 CYP1A2 催化代谢的药物的影响等，都需要进一步研究证实。\n1.4 St. John's Wort 与化学药品的相互作用[7]"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "化学药物与中药相关的药物相互作用_程泽能:6",
+    "source": "化学药物与中药相关的药物相互作用_程泽能.pdf",
+    "text": "，能够导致CYP3A4底物咪哒唑仑代谢的轻微抑制，而对CYP1A2的活性没有影响。但是，止咳橘红长期使用或超过治疗剂量使用时是否会对CYP3A4产生显著性影响，尚需进一步的研究证明。实验室正着手研究其他芸香科类中药对CYP3A4的抑制作用。\n$OH E_{1}$ 和 $4-OH E_{1}$ 是潜在致癌物，十字花科蔬菜对这两种物质的影响及其程度、对其他 CYP1A2 催化代谢的药物的影响等，都需要进一步研究证实。\n1.4 St. John's Wort 与化学药品的相互作用[7]"
+  }
+]

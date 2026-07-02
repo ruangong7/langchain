@@ -1,0 +1,41 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "丙泊酚",
+        "canonical_name": "丙泊酚",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "依托咪酯",
+        "canonical_name": "依托咪酯",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "等辐射法分析结肠镜麻醉中丙泊酚与依托咪酯的药物相互作用_李有武.pdf",
+          "chunk_index": "等辐射法分析结肠镜麻醉中丙泊酚与依托咪酯的药物相互作用_李有武:0",
+          "raw_text": "经等辐射分析法证实，丙泊酚与依托咪酯在结肠镜 TCI 麻醉时麻醉效应呈协同作用。",
+          "mechanism": "协同作用",
+          "effect": "麻醉效应协同",
+          "chunk_id": "等辐射法分析结肠镜麻醉中丙泊酚与依托咪酯的药物相互作用_李有武:0",
+          "data": "等辐射法分析结肠镜麻醉中丙泊酚与依托咪酯的药物相互作用\n李有武，李成龙，涂学云，戴转云，王铮，詹育成，汪燕广东省第二中医院麻醉科( 广东广州 510095)【摘要】目的采用等辐射分析法研究结肠镜麻醉中靶控输注( TCI) 丙泊酚与依托咪酯两药之间的相互作用方法选择门诊待做无痛结肠镜检查患者158 例，随机分成丙泊酚组( P 组) 依托咪酯组( E 组) 丙泊酚－依托咪酯复合组( C 组) 3 组，采用序贯法确定各组病例数。 麻醉诱导前各组以序贯方式静脉 TCI 丙泊酚、依托咪酯及两药复合药物。 病人睫毛反射消失时即开始结肠镜检查，测定 P、E、C 组半数血浆有效浓度值( $\\mathrm { E C } _ { 5 0 } )$ ，采用等辐射分析法分析二者之间的相互作用。 结果 P 组 $\\mathrm { E C } _ { 5 0 }$ 值为 $4 . 1 5 \\mu \\mathrm { g } / \\mathrm { m L }$ ，其95% 可信区间为 $3 . 5 \\sim 4 . 8 \\mu \\mathrm { g } / \\mathrm { m L } ;$ E 组 $\\mathrm { E C } _ { 5 0 }$ 值为400 ng/mL，其 95% 可信区间为 $3 7 0 \\sim 4 2 5 ~ \\mathrm { n g / m L }$ ; 丙泊酚复合依托咪酯靶控输注麻醉用于结肠镜检查，其 $\\mathrm { E C } _ { 5 0 }$ 分别降为 1． 28 /220，其 $\\mathrm { E C } _ { 5 0 }$ 比值总和为0．86，位于95%CI 左侧，P＜0．05。 结论经等辐射分析法证实，丙泊酚与依托咪酯在结肠镜 TCI 麻醉时麻醉效应呈协同作用。\nIsobolographic Analysis of Pharmacodynamic Interactions Between Propofol and Etomidate for Colonoscopy"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "等辐射法分析结肠镜麻醉中丙泊酚与依托咪酯的药物相互作用_李有武:0",
+    "source": "等辐射法分析结肠镜麻醉中丙泊酚与依托咪酯的药物相互作用_李有武.pdf",
+    "text": "等辐射法分析结肠镜麻醉中丙泊酚与依托咪酯的药物相互作用\n李有武，李成龙，涂学云，戴转云，王铮，詹育成，汪燕广东省第二中医院麻醉科( 广东广州 510095)【摘要】目的采用等辐射分析法研究结肠镜麻醉中靶控输注( TCI) 丙泊酚与依托咪酯两药之间的相互作用方法选择门诊待做无痛结肠镜检查患者158 例，随机分成丙泊酚组( P 组) 依托咪酯组( E 组) 丙泊酚－依托咪酯复合组( C 组) 3 组，采用序贯法确定各组病例数。 麻醉诱导前各组以序贯方式静脉 TCI 丙泊酚、依托咪酯及两药复合药物。 病人睫毛反射消失时即开始结肠镜检查，测定 P、E、C 组半数血浆有效浓度值( $\\mathrm { E C } _ { 5 0 } )$ ，采用等辐射分析法分析二者之间的相互作用。 结果 P 组 $\\mathrm { E C } _ { 5 0 }$ 值为 $4 . 1 5 \\mu \\mathrm { g } / \\mathrm { m L }$ ，其95% 可信区间为 $3 . 5 \\sim 4 . 8 \\mu \\mathrm { g } / \\mathrm { m L } ;$ E 组 $\\mathrm { E C } _ { 5 0 }$ 值为400 ng/mL，其 95% 可信区间为 $3 7 0 \\sim 4 2 5 ~ \\mathrm { n g / m L }$ ; 丙泊酚复合依托咪酯靶控输注麻醉用于结肠镜检查，其 $\\mathrm { E C } _ { 5 0 }$ 分别降为 1． 28 /220，其 $\\mathrm { E C } _ { 5 0 }$ 比值总和为0．86，位于95%CI 左侧，P＜0．05。 结论经等辐射分析法证实，丙泊酚与依托咪酯在结肠镜 TCI 麻醉时麻醉效应呈协同作用。\nIsobolographic Analysis of Pharmacodynamic Interactions Between Propofol and Etomidate for Colonoscopy"
+  }
+]

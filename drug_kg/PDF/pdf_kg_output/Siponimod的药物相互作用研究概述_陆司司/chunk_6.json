@@ -1,0 +1,212 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Siponimod",
+        "canonical_name": "Siponimod",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "阿托品",
+        "canonical_name": "阿托品",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "异丙肾上腺素",
+        "canonical_name": "异丙肾上腺素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "依法韦仑",
+        "canonical_name": "依法韦仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "氟康唑",
+        "canonical_name": "氟康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "中度CYP3A4诱导剂",
+        "canonical_name": "中度CYP3A4诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "中度CYP2C9和CYP3A4双重抑制剂",
+        "canonical_name": "中度CYP2C9和CYP3A4双重抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Population",
+        "name": "CYP2C9*2/*3基因型",
+        "canonical_name": "CYP2C9*2/*3基因型",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Population",
+        "name": "CYP2C9*3/*3基因型",
+        "canonical_name": "CYP2C9*3/*3基因型",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "raw_text": "Siponimod 诱导的心率降低可以通过阿托品或异丙肾上腺素逆转",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "data": "nimod 诱导的心率降低可以通过阿托品或异丙肾上腺素逆转〔8〕 。\n在一项建模评估试验〔4〕 中报道，利福平和依法韦仑( 中度 CYP3A4 诱导剂) 使 Siponimod 的 AUCtau，ss 分别减少高达78% 和高达 52% 。\n两项氟康唑与 Siponimod 联合用药的研究〔15〕 结果显示:①1 日 200 mg 氟康唑( 中度 CYP2C9 和 CYP3A4 双重抑制剂)和在 CYP2C9\\* 1 /\\* 1 健康志愿者中单剂量 Siponimod 4 mg 联合用药，Siponimod 的 AUC 增加 2 倍( 1110 增加至 $2 1 6 0 \\ \\mathrm { n g \\cdot }$ mL － 1 ) $\\bullet \\mathrm { C } _ { \\mathrm { m a x } }$ 由 31. 2 增加至 34. 0 ng · mL － 1 ，Siponimod 平均终末半衰期增加 50% ( 40. 6 增加至 61. 6 h) 。 ②具有 CYP2C9\\*2 /\\* 3 和 CYP2C9 \\* 3 /\\* 3 基因型的受试者中，Siponimod 的AUC 大约高 2 ～4 倍， $\\mathbf { , C } _ { \\mathrm { m a x } }$ 相对于 CYP2C9\\* 1 /\\* 1 基因型略微增加 。 与 CYP2C9\\* 1 /\\* 1( 28 h) 基因型相比，CYP2C9\\* 2 /\\*3( 51 h) 和 CYP2C9\\* 3 /\\* 3( 126 h) 基因型的平均 $\\mathrm { T } _ { 1 / 2 }$ 延长 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "raw_text": "Siponimod 诱导的心率降低可以通过阿托品或异丙肾上腺素逆转",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "data": "nimod 诱导的心率降低可以通过阿托品或异丙肾上腺素逆转〔8〕 。\n在一项建模评估试验〔4〕 中报道，利福平和依法韦仑( 中度 CYP3A4 诱导剂) 使 Siponimod 的 AUCtau，ss 分别减少高达78% 和高达 52% 。\n两项氟康唑与 Siponimod 联合用药的研究〔15〕 结果显示:①1 日 200 mg 氟康唑( 中度 CYP2C9 和 CYP3A4 双重抑制剂)和在 CYP2C9\\* 1 /\\* 1 健康志愿者中单剂量 Siponimod 4 mg 联合用药，Siponimod 的 AUC 增加 2 倍( 1110 增加至 $2 1 6 0 \\ \\mathrm { n g \\cdot }$ mL － 1 ) $\\bullet \\mathrm { C } _ { \\mathrm { m a x } }$ 由 31. 2 增加至 34. 0 ng · mL － 1 ，Siponimod 平均终末半衰期增加 50% ( 40. 6 增加至 61. 6 h) 。 ②具有 CYP2C9\\*2 /\\* 3 和 CYP2C9 \\* 3 /\\* 3 基因型的受试者中，Siponimod 的AUC 大约高 2 ～4 倍， $\\mathbf { , C } _ { \\mathrm { m a x } }$ 相对于 CYP2C9\\* 1 /\\* 1 基因型略微增加 。 与 CYP2C9\\* 1 /\\* 1( 28 h) 基因型相比，CYP2C9\\* 2 /\\*3( 51 h) 和 CYP2C9\\* 3 /\\* 3( 126 h) 基因型的平均 $\\mathrm { T } _ { 1 / 2 }$ 延长 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "raw_text": "利福平和依法韦仑(中度CYP3A4诱导剂)使Siponimod的AUCtau,ss分别减少高达78%和高达52%",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "data": "nimod 诱导的心率降低可以通过阿托品或异丙肾上腺素逆转〔8〕 。\n在一项建模评估试验〔4〕 中报道，利福平和依法韦仑( 中度 CYP3A4 诱导剂) 使 Siponimod 的 AUCtau，ss 分别减少高达78% 和高达 52% 。\n两项氟康唑与 Siponimod 联合用药的研究〔15〕 结果显示:①1 日 200 mg 氟康唑( 中度 CYP2C9 和 CYP3A4 双重抑制剂)和在 CYP2C9\\* 1 /\\* 1 健康志愿者中单剂量 Siponimod 4 mg 联合用药，Siponimod 的 AUC 增加 2 倍( 1110 增加至 $2 1 6 0 \\ \\mathrm { n g \\cdot }$ mL － 1 ) $\\bullet \\mathrm { C } _ { \\mathrm { m a x } }$ 由 31. 2 增加至 34. 0 ng · mL － 1 ，Siponimod 平均终末半衰期增加 50% ( 40. 6 增加至 61. 6 h) 。 ②具有 CYP2C9\\*2 /\\* 3 和 CYP2C9 \\* 3 /\\* 3 基因型的受试者中，Siponimod 的AUC 大约高 2 ～4 倍， $\\mathbf { , C } _ { \\mathrm { m a x } }$ 相对于 CYP2C9\\* 1 /\\* 1 基因型略微增加 。 与 CYP2C9\\* 1 /\\* 1( 28 h) 基因型相比，CYP2C9\\* 2 /\\*3( 51 h) 和 CYP2C9\\* 3 /\\* 3( 126 h) 基因型的平均 $\\mathrm { T } _ { 1 / 2 }$ 延长 。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "raw_text": "利福平和依法韦仑(中度CYP3A4诱导剂)使Siponimod的AUCtau,ss分别减少高达78%和高达52%",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "data": "nimod 诱导的心率降低可以通过阿托品或异丙肾上腺素逆转〔8〕 。\n在一项建模评估试验〔4〕 中报道，利福平和依法韦仑( 中度 CYP3A4 诱导剂) 使 Siponimod 的 AUCtau，ss 分别减少高达78% 和高达 52% 。\n两项氟康唑与 Siponimod 联合用药的研究〔15〕 结果显示:①1 日 200 mg 氟康唑( 中度 CYP2C9 和 CYP3A4 双重抑制剂)和在 CYP2C9\\* 1 /\\* 1 健康志愿者中单剂量 Siponimod 4 mg 联合用药，Siponimod 的 AUC 增加 2 倍( 1110 增加至 $2 1 6 0 \\ \\mathrm { n g \\cdot }$ mL － 1 ) $\\bullet \\mathrm { C } _ { \\mathrm { m a x } }$ 由 31. 2 增加至 34. 0 ng · mL － 1 ，Siponimod 平均终末半衰期增加 50% ( 40. 6 增加至 61. 6 h) 。 ②具有 CYP2C9\\*2 /\\* 3 和 CYP2C9 \\* 3 /\\* 3 基因型的受试者中，Siponimod 的AUC 大约高 2 ～4 倍， $\\mathbf { , C } _ { \\mathrm { m a x } }$ 相对于 CYP2C9\\* 1 /\\* 1 基因型略微增加 。 与 CYP2C9\\* 1 /\\* 1( 28 h) 基因型相比，CYP2C9\\* 2 /\\*3( 51 h) 和 CYP2C9\\* 3 /\\* 3( 126 h) 基因型的平均 $\\mathrm { T } _ { 1 / 2 }$ 延长 。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "raw_text": "利福平和依法韦仑(中度CYP3A4诱导剂)",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "data": "nimod 诱导的心率降低可以通过阿托品或异丙肾上腺素逆转〔8〕 。\n在一项建模评估试验〔4〕 中报道，利福平和依法韦仑( 中度 CYP3A4 诱导剂) 使 Siponimod 的 AUCtau，ss 分别减少高达78% 和高达 52% 。\n两项氟康唑与 Siponimod 联合用药的研究〔15〕 结果显示:①1 日 200 mg 氟康唑( 中度 CYP2C9 和 CYP3A4 双重抑制剂)和在 CYP2C9\\* 1 /\\* 1 健康志愿者中单剂量 Siponimod 4 mg 联合用药，Siponimod 的 AUC 增加 2 倍( 1110 增加至 $2 1 6 0 \\ \\mathrm { n g \\cdot }$ mL － 1 ) $\\bullet \\mathrm { C } _ { \\mathrm { m a x } }$ 由 31. 2 增加至 34. 0 ng · mL － 1 ，Siponimod 平均终末半衰期增加 50% ( 40. 6 增加至 61. 6 h) 。 ②具有 CYP2C9\\*2 /\\* 3 和 CYP2C9 \\* 3 /\\* 3 基因型的受试者中，Siponimod 的AUC 大约高 2 ～4 倍， $\\mathbf { , C } _ { \\mathrm { m a x } }$ 相对于 CYP2C9\\* 1 /\\* 1 基因型略微增加 。 与 CYP2C9\\* 1 /\\* 1( 28 h) 基因型相比，CYP2C9\\* 2 /\\*3( 51 h) 和 CYP2C9\\* 3 /\\* 3( 126 h) 基因型的平均 $\\mathrm { T } _ { 1 / 2 }$ 延长 。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "raw_text": "利福平和依法韦仑(中度CYP3A4诱导剂)",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "data": "nimod 诱导的心率降低可以通过阿托品或异丙肾上腺素逆转〔8〕 。\n在一项建模评估试验〔4〕 中报道，利福平和依法韦仑( 中度 CYP3A4 诱导剂) 使 Siponimod 的 AUCtau，ss 分别减少高达78% 和高达 52% 。\n两项氟康唑与 Siponimod 联合用药的研究〔15〕 结果显示:①1 日 200 mg 氟康唑( 中度 CYP2C9 和 CYP3A4 双重抑制剂)和在 CYP2C9\\* 1 /\\* 1 健康志愿者中单剂量 Siponimod 4 mg 联合用药，Siponimod 的 AUC 增加 2 倍( 1110 增加至 $2 1 6 0 \\ \\mathrm { n g \\cdot }$ mL － 1 ) $\\bullet \\mathrm { C } _ { \\mathrm { m a x } }$ 由 31. 2 增加至 34. 0 ng · mL － 1 ，Siponimod 平均终末半衰期增加 50% ( 40. 6 增加至 61. 6 h) 。 ②具有 CYP2C9\\*2 /\\* 3 和 CYP2C9 \\* 3 /\\* 3 基因型的受试者中，Siponimod 的AUC 大约高 2 ～4 倍， $\\mathbf { , C } _ { \\mathrm { m a x } }$ 相对于 CYP2C9\\* 1 /\\* 1 基因型略微增加 。 与 CYP2C9\\* 1 /\\* 1( 28 h) 基因型相比，CYP2C9\\* 2 /\\*3( 51 h) 和 CYP2C9\\* 3 /\\* 3( 126 h) 基因型的平均 $\\mathrm { T } _ { 1 / 2 }$ 延长 。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "raw_text": "氟康唑(中度CYP2C9和CYP3A4双重抑制剂)与Siponimod联合用药，Siponimod的AUC增加2倍，Cmax增加，半衰期延长",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "data": "nimod 诱导的心率降低可以通过阿托品或异丙肾上腺素逆转〔8〕 。\n在一项建模评估试验〔4〕 中报道，利福平和依法韦仑( 中度 CYP3A4 诱导剂) 使 Siponimod 的 AUCtau，ss 分别减少高达78% 和高达 52% 。\n两项氟康唑与 Siponimod 联合用药的研究〔15〕 结果显示:①1 日 200 mg 氟康唑( 中度 CYP2C9 和 CYP3A4 双重抑制剂)和在 CYP2C9\\* 1 /\\* 1 健康志愿者中单剂量 Siponimod 4 mg 联合用药，Siponimod 的 AUC 增加 2 倍( 1110 增加至 $2 1 6 0 \\ \\mathrm { n g \\cdot }$ mL － 1 ) $\\bullet \\mathrm { C } _ { \\mathrm { m a x } }$ 由 31. 2 增加至 34. 0 ng · mL － 1 ，Siponimod 平均终末半衰期增加 50% ( 40. 6 增加至 61. 6 h) 。 ②具有 CYP2C9\\*2 /\\* 3 和 CYP2C9 \\* 3 /\\* 3 基因型的受试者中，Siponimod 的AUC 大约高 2 ～4 倍， $\\mathbf { , C } _ { \\mathrm { m a x } }$ 相对于 CYP2C9\\* 1 /\\* 1 基因型略微增加 。 与 CYP2C9\\* 1 /\\* 1( 28 h) 基因型相比，CYP2C9\\* 2 /\\*3( 51 h) 和 CYP2C9\\* 3 /\\* 3( 126 h) 基因型的平均 $\\mathrm { T } _ { 1 / 2 }$ 延长 。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "raw_text": "氟康唑(中度CYP2C9和CYP3A4双重抑制剂)",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "data": "nimod 诱导的心率降低可以通过阿托品或异丙肾上腺素逆转〔8〕 。\n在一项建模评估试验〔4〕 中报道，利福平和依法韦仑( 中度 CYP3A4 诱导剂) 使 Siponimod 的 AUCtau，ss 分别减少高达78% 和高达 52% 。\n两项氟康唑与 Siponimod 联合用药的研究〔15〕 结果显示:①1 日 200 mg 氟康唑( 中度 CYP2C9 和 CYP3A4 双重抑制剂)和在 CYP2C9\\* 1 /\\* 1 健康志愿者中单剂量 Siponimod 4 mg 联合用药，Siponimod 的 AUC 增加 2 倍( 1110 增加至 $2 1 6 0 \\ \\mathrm { n g \\cdot }$ mL － 1 ) $\\bullet \\mathrm { C } _ { \\mathrm { m a x } }$ 由 31. 2 增加至 34. 0 ng · mL － 1 ，Siponimod 平均终末半衰期增加 50% ( 40. 6 增加至 61. 6 h) 。 ②具有 CYP2C9\\*2 /\\* 3 和 CYP2C9 \\* 3 /\\* 3 基因型的受试者中，Siponimod 的AUC 大约高 2 ～4 倍， $\\mathbf { , C } _ { \\mathrm { m a x } }$ 相对于 CYP2C9\\* 1 /\\* 1 基因型略微增加 。 与 CYP2C9\\* 1 /\\* 1( 28 h) 基因型相比，CYP2C9\\* 2 /\\*3( 51 h) 和 CYP2C9\\* 3 /\\* 3( 126 h) 基因型的平均 $\\mathrm { T } _ { 1 / 2 }$ 延长 。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "raw_text": "具有CYP2C9*2/*3和CYP2C9*3/*3基因型的受试者中，Siponimod的AUC大约高2～4倍，Cmax略微增加，半衰期延长",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "data": "nimod 诱导的心率降低可以通过阿托品或异丙肾上腺素逆转〔8〕 。\n在一项建模评估试验〔4〕 中报道，利福平和依法韦仑( 中度 CYP3A4 诱导剂) 使 Siponimod 的 AUCtau，ss 分别减少高达78% 和高达 52% 。\n两项氟康唑与 Siponimod 联合用药的研究〔15〕 结果显示:①1 日 200 mg 氟康唑( 中度 CYP2C9 和 CYP3A4 双重抑制剂)和在 CYP2C9\\* 1 /\\* 1 健康志愿者中单剂量 Siponimod 4 mg 联合用药，Siponimod 的 AUC 增加 2 倍( 1110 增加至 $2 1 6 0 \\ \\mathrm { n g \\cdot }$ mL － 1 ) $\\bullet \\mathrm { C } _ { \\mathrm { m a x } }$ 由 31. 2 增加至 34. 0 ng · mL － 1 ，Siponimod 平均终末半衰期增加 50% ( 40. 6 增加至 61. 6 h) 。 ②具有 CYP2C9\\*2 /\\* 3 和 CYP2C9 \\* 3 /\\* 3 基因型的受试者中，Siponimod 的AUC 大约高 2 ～4 倍， $\\mathbf { , C } _ { \\mathrm { m a x } }$ 相对于 CYP2C9\\* 1 /\\* 1 基因型略微增加 。 与 CYP2C9\\* 1 /\\* 1( 28 h) 基因型相比，CYP2C9\\* 2 /\\*3( 51 h) 和 CYP2C9\\* 3 /\\* 3( 126 h) 基因型的平均 $\\mathrm { T } _ { 1 / 2 }$ 延长 。"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "raw_text": "具有CYP2C9*2/*3和CYP2C9*3/*3基因型的受试者中，Siponimod的AUC大约高2～4倍，Cmax略微增加，半衰期延长",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:6",
+          "data": "nimod 诱导的心率降低可以通过阿托品或异丙肾上腺素逆转〔8〕 。\n在一项建模评估试验〔4〕 中报道，利福平和依法韦仑( 中度 CYP3A4 诱导剂) 使 Siponimod 的 AUCtau，ss 分别减少高达78% 和高达 52% 。\n两项氟康唑与 Siponimod 联合用药的研究〔15〕 结果显示:①1 日 200 mg 氟康唑( 中度 CYP2C9 和 CYP3A4 双重抑制剂)和在 CYP2C9\\* 1 /\\* 1 健康志愿者中单剂量 Siponimod 4 mg 联合用药，Siponimod 的 AUC 增加 2 倍( 1110 增加至 $2 1 6 0 \\ \\mathrm { n g \\cdot }$ mL － 1 ) $\\bullet \\mathrm { C } _ { \\mathrm { m a x } }$ 由 31. 2 增加至 34. 0 ng · mL － 1 ，Siponimod 平均终末半衰期增加 50% ( 40. 6 增加至 61. 6 h) 。 ②具有 CYP2C9\\*2 /\\* 3 和 CYP2C9 \\* 3 /\\* 3 基因型的受试者中，Siponimod 的AUC 大约高 2 ～4 倍， $\\mathbf { , C } _ { \\mathrm { m a x } }$ 相对于 CYP2C9\\* 1 /\\* 1 基因型略微增加 。 与 CYP2C9\\* 1 /\\* 1( 28 h) 基因型相比，CYP2C9\\* 2 /\\*3( 51 h) 和 CYP2C9\\* 3 /\\* 3( 126 h) 基因型的平均 $\\mathrm { T } _ { 1 / 2 }$ 延长 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:6",
+    "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+    "text": "nimod 诱导的心率降低可以通过阿托品或异丙肾上腺素逆转〔8〕 。\n在一项建模评估试验〔4〕 中报道，利福平和依法韦仑( 中度 CYP3A4 诱导剂) 使 Siponimod 的 AUCtau，ss 分别减少高达78% 和高达 52% 。\n两项氟康唑与 Siponimod 联合用药的研究〔15〕 结果显示:①1 日 200 mg 氟康唑( 中度 CYP2C9 和 CYP3A4 双重抑制剂)和在 CYP2C9\\* 1 /\\* 1 健康志愿者中单剂量 Siponimod 4 mg 联合用药，Siponimod 的 AUC 增加 2 倍( 1110 增加至 $2 1 6 0 \\ \\mathrm { n g \\cdot }$ mL － 1 ) $\\bullet \\mathrm { C } _ { \\mathrm { m a x } }$ 由 31. 2 增加至 34. 0 ng · mL － 1 ，Siponimod 平均终末半衰期增加 50% ( 40. 6 增加至 61. 6 h) 。 ②具有 CYP2C9\\*2 /\\* 3 和 CYP2C9 \\* 3 /\\* 3 基因型的受试者中，Siponimod 的AUC 大约高 2 ～4 倍， $\\mathbf { , C } _ { \\mathrm { m a x } }$ 相对于 CYP2C9\\* 1 /\\* 1 基因型略微增加 。 与 CYP2C9\\* 1 /\\* 1( 28 h) 基因型相比，CYP2C9\\* 2 /\\*3( 51 h) 和 CYP2C9\\* 3 /\\* 3( 126 h) 基因型的平均 $\\mathrm { T } _ { 1 / 2 }$ 延长 。"
+  }
+]

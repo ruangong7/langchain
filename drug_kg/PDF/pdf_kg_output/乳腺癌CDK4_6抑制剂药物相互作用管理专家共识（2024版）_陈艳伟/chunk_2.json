@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "CDK4/6抑制剂",
+        "canonical_name": "CDK4/6抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Disease",
+        "name": "乳腺癌",
+        "canonical_name": "乳腺癌",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "乳腺癌CDK4_6抑制剂药物相互作用管理专家共识（2024版）_陈艳伟.pdf",
+          "chunk_index": "乳腺癌CDK4_6抑制剂药物相互作用管理专家共识（2024版）_陈艳伟:2",
+          "raw_text": "中国上市用于治疗乳腺癌的 CDK4/6 抑制剂",
+          "chunk_id": "乳腺癌CDK4_6抑制剂药物相互作用管理专家共识（2024版）_陈艳伟:2",
+          "data": "n, DDI）。为了保障 CDK4/6 抑制剂在临床使用的有效性及安全性，本共识系统总结中国上市用于治疗乳腺癌的 CDK4/6 抑制剂的药物相互作用资料，形成相关共识意见，为临床医务人员在 CDK4/6 抑制剂相互作用管理工作方面提供参考。\nExpert Consensus on the Management of Drug-Drug Interactions with CDK4/6 inhibitors in Breast Cancer (2024 Edition)"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "乳腺癌CDK4_6抑制剂药物相互作用管理专家共识（2024版）_陈艳伟:2",
+    "source": "乳腺癌CDK4_6抑制剂药物相互作用管理专家共识（2024版）_陈艳伟.pdf",
+    "text": "n, DDI）。为了保障 CDK4/6 抑制剂在临床使用的有效性及安全性，本共识系统总结中国上市用于治疗乳腺癌的 CDK4/6 抑制剂的药物相互作用资料，形成相关共识意见，为临床医务人员在 CDK4/6 抑制剂相互作用管理工作方面提供参考。\nExpert Consensus on the Management of Drug-Drug Interactions with CDK4/6 inhibitors in Breast Cancer (2024 Edition)"
+  }
+]

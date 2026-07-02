@@ -1,0 +1,207 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "吉非替尼",
+        "canonical_name": "吉非替尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "canonical_name": "质子泵抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "强CYP3A4抑制剂",
+        "canonical_name": "强CYP3A4抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "H2受体拮抗剂",
+        "canonical_name": "H2受体拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP3A4诱导剂",
+        "canonical_name": "CYP3A4诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "CYP2D6底物",
+        "canonical_name": "CYP2D6底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "地塞米松",
+        "canonical_name": "地塞米松",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "美托洛尔",
+        "canonical_name": "美托洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "非小细胞肺癌",
+        "canonical_name": "非小细胞肺癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "抑酸药",
+        "canonical_name": "抑酸药",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军.pdf",
+          "chunk_index": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "raw_text": "吉非替尼作为选择性表皮生长因子受体酪氨酸激酶抑制剂（EGFR-TKI），可用于 EGFR 基因突变阳性局部晚期或转移性NSCLC的治疗",
+          "chunk_id": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "data": "igation for potential adverse drug interactions based on pharmacokinetics of gefitinib and establishment of review rules\nCHENG Jun，WANG Long，SI Fuguo，ZHANG Guanjun（Dept. of Pharmacy， the Third People’s Hospital ofBengbu， Anhui Bengbu 233000， China）ABSTRACT OBJECTIVE To analyze the potential adverse drug interactions based on pharmacokinetics （PK-pADIs） of gefitinib， and establish its corresponding prescription review rules. METHODS Outpatient prescriptions of gefitinib combination therapy in our hospital from January 1，2022 to November 30，2024 were collected through rational drug software system. PKpADIs present in the prescriptions were identified based on the Drugs. com® drug interactions database. The specific combination drugs and cases of PK-pADIs were statistically analyzed， and prescription review rules were established according to the severity classification of PK-pADIs. RESULTS & CONCLUSIONS A total of 217 prescriptions of gefitinib combination therapy were enrolled. Among th"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军.pdf",
+          "chunk_index": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "raw_text": "联合用药包括质子泵抑制剂（13例）",
+          "severity": "severe",
+          "chunk_id": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "data": "igation for potential adverse drug interactions based on pharmacokinetics of gefitinib and establishment of review rules\nCHENG Jun，WANG Long，SI Fuguo，ZHANG Guanjun（Dept. of Pharmacy， the Third People’s Hospital ofBengbu， Anhui Bengbu 233000， China）ABSTRACT OBJECTIVE To analyze the potential adverse drug interactions based on pharmacokinetics （PK-pADIs） of gefitinib， and establish its corresponding prescription review rules. METHODS Outpatient prescriptions of gefitinib combination therapy in our hospital from January 1，2022 to November 30，2024 were collected through rational drug software system. PKpADIs present in the prescriptions were identified based on the Drugs. com® drug interactions database. The specific combination drugs and cases of PK-pADIs were statistically analyzed， and prescription review rules were established according to the severity classification of PK-pADIs. RESULTS & CONCLUSIONS A total of 217 prescriptions of gefitinib combination therapy were enrolled. Among th"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军.pdf",
+          "chunk_index": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "raw_text": "联合用药包括强CYP3A4抑制剂（7例）",
+          "severity": "moderate",
+          "chunk_id": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "data": "igation for potential adverse drug interactions based on pharmacokinetics of gefitinib and establishment of review rules\nCHENG Jun，WANG Long，SI Fuguo，ZHANG Guanjun（Dept. of Pharmacy， the Third People’s Hospital ofBengbu， Anhui Bengbu 233000， China）ABSTRACT OBJECTIVE To analyze the potential adverse drug interactions based on pharmacokinetics （PK-pADIs） of gefitinib， and establish its corresponding prescription review rules. METHODS Outpatient prescriptions of gefitinib combination therapy in our hospital from January 1，2022 to November 30，2024 were collected through rational drug software system. PKpADIs present in the prescriptions were identified based on the Drugs. com® drug interactions database. The specific combination drugs and cases of PK-pADIs were statistically analyzed， and prescription review rules were established according to the severity classification of PK-pADIs. RESULTS & CONCLUSIONS A total of 217 prescriptions of gefitinib combination therapy were enrolled. Among th"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军.pdf",
+          "chunk_index": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "raw_text": "联合用药包括H2受体拮抗剂（4例）",
+          "severity": "severe",
+          "chunk_id": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "data": "igation for potential adverse drug interactions based on pharmacokinetics of gefitinib and establishment of review rules\nCHENG Jun，WANG Long，SI Fuguo，ZHANG Guanjun（Dept. of Pharmacy， the Third People’s Hospital ofBengbu， Anhui Bengbu 233000， China）ABSTRACT OBJECTIVE To analyze the potential adverse drug interactions based on pharmacokinetics （PK-pADIs） of gefitinib， and establish its corresponding prescription review rules. METHODS Outpatient prescriptions of gefitinib combination therapy in our hospital from January 1，2022 to November 30，2024 were collected through rational drug software system. PKpADIs present in the prescriptions were identified based on the Drugs. com® drug interactions database. The specific combination drugs and cases of PK-pADIs were statistically analyzed， and prescription review rules were established according to the severity classification of PK-pADIs. RESULTS & CONCLUSIONS A total of 217 prescriptions of gefitinib combination therapy were enrolled. Among th"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军.pdf",
+          "chunk_index": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "raw_text": "联合用药包括CYP3A4诱导剂（3例）",
+          "severity": "moderate",
+          "chunk_id": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "data": "igation for potential adverse drug interactions based on pharmacokinetics of gefitinib and establishment of review rules\nCHENG Jun，WANG Long，SI Fuguo，ZHANG Guanjun（Dept. of Pharmacy， the Third People’s Hospital ofBengbu， Anhui Bengbu 233000， China）ABSTRACT OBJECTIVE To analyze the potential adverse drug interactions based on pharmacokinetics （PK-pADIs） of gefitinib， and establish its corresponding prescription review rules. METHODS Outpatient prescriptions of gefitinib combination therapy in our hospital from January 1，2022 to November 30，2024 were collected through rational drug software system. PKpADIs present in the prescriptions were identified based on the Drugs. com® drug interactions database. The specific combination drugs and cases of PK-pADIs were statistically analyzed， and prescription review rules were established according to the severity classification of PK-pADIs. RESULTS & CONCLUSIONS A total of 217 prescriptions of gefitinib combination therapy were enrolled. Among th"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军.pdf",
+          "chunk_index": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "raw_text": "联合用药包括CYP2D6底物（2例）",
+          "severity": "moderate",
+          "chunk_id": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "data": "igation for potential adverse drug interactions based on pharmacokinetics of gefitinib and establishment of review rules\nCHENG Jun，WANG Long，SI Fuguo，ZHANG Guanjun（Dept. of Pharmacy， the Third People’s Hospital ofBengbu， Anhui Bengbu 233000， China）ABSTRACT OBJECTIVE To analyze the potential adverse drug interactions based on pharmacokinetics （PK-pADIs） of gefitinib， and establish its corresponding prescription review rules. METHODS Outpatient prescriptions of gefitinib combination therapy in our hospital from January 1，2022 to November 30，2024 were collected through rational drug software system. PKpADIs present in the prescriptions were identified based on the Drugs. com® drug interactions database. The specific combination drugs and cases of PK-pADIs were statistically analyzed， and prescription review rules were established according to the severity classification of PK-pADIs. RESULTS & CONCLUSIONS A total of 217 prescriptions of gefitinib combination therapy were enrolled. Among th"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军.pdf",
+          "chunk_index": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "raw_text": "吉非替尼与地塞米松联用应触发警报",
+          "severity": "moderate",
+          "chunk_id": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "data": "igation for potential adverse drug interactions based on pharmacokinetics of gefitinib and establishment of review rules\nCHENG Jun，WANG Long，SI Fuguo，ZHANG Guanjun（Dept. of Pharmacy， the Third People’s Hospital ofBengbu， Anhui Bengbu 233000， China）ABSTRACT OBJECTIVE To analyze the potential adverse drug interactions based on pharmacokinetics （PK-pADIs） of gefitinib， and establish its corresponding prescription review rules. METHODS Outpatient prescriptions of gefitinib combination therapy in our hospital from January 1，2022 to November 30，2024 were collected through rational drug software system. PKpADIs present in the prescriptions were identified based on the Drugs. com® drug interactions database. The specific combination drugs and cases of PK-pADIs were statistically analyzed， and prescription review rules were established according to the severity classification of PK-pADIs. RESULTS & CONCLUSIONS A total of 217 prescriptions of gefitinib combination therapy were enrolled. Among th"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军.pdf",
+          "chunk_index": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "raw_text": "吉非替尼与美托洛尔联用应触发警报",
+          "severity": "moderate",
+          "chunk_id": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "data": "igation for potential adverse drug interactions based on pharmacokinetics of gefitinib and establishment of review rules\nCHENG Jun，WANG Long，SI Fuguo，ZHANG Guanjun（Dept. of Pharmacy， the Third People’s Hospital ofBengbu， Anhui Bengbu 233000， China）ABSTRACT OBJECTIVE To analyze the potential adverse drug interactions based on pharmacokinetics （PK-pADIs） of gefitinib， and establish its corresponding prescription review rules. METHODS Outpatient prescriptions of gefitinib combination therapy in our hospital from January 1，2022 to November 30，2024 were collected through rational drug software system. PKpADIs present in the prescriptions were identified based on the Drugs. com® drug interactions database. The specific combination drugs and cases of PK-pADIs were statistically analyzed， and prescription review rules were established according to the severity classification of PK-pADIs. RESULTS & CONCLUSIONS A total of 217 prescriptions of gefitinib combination therapy were enrolled. Among th"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军.pdf",
+          "chunk_index": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "raw_text": "吉非替尼与抑酸药联用应进行人工审核",
+          "severity": "severe",
+          "chunk_id": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+          "data": "igation for potential adverse drug interactions based on pharmacokinetics of gefitinib and establishment of review rules\nCHENG Jun，WANG Long，SI Fuguo，ZHANG Guanjun（Dept. of Pharmacy， the Third People’s Hospital ofBengbu， Anhui Bengbu 233000， China）ABSTRACT OBJECTIVE To analyze the potential adverse drug interactions based on pharmacokinetics （PK-pADIs） of gefitinib， and establish its corresponding prescription review rules. METHODS Outpatient prescriptions of gefitinib combination therapy in our hospital from January 1，2022 to November 30，2024 were collected through rational drug software system. PKpADIs present in the prescriptions were identified based on the Drugs. com® drug interactions database. The specific combination drugs and cases of PK-pADIs were statistically analyzed， and prescription review rules were established according to the severity classification of PK-pADIs. RESULTS & CONCLUSIONS A total of 217 prescriptions of gefitinib combination therapy were enrolled. Among th"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军:1",
+    "source": "吉非替尼基于药动学的潜在不良药物相互作用处方分析及审方规则建立_程军.pdf",
+    "text": "igation for potential adverse drug interactions based on pharmacokinetics of gefitinib and establishment of review rules\nCHENG Jun，WANG Long，SI Fuguo，ZHANG Guanjun（Dept. of Pharmacy， the Third People’s Hospital ofBengbu， Anhui Bengbu 233000， China）ABSTRACT OBJECTIVE To analyze the potential adverse drug interactions based on pharmacokinetics （PK-pADIs） of gefitinib， and establish its corresponding prescription review rules. METHODS Outpatient prescriptions of gefitinib combination therapy in our hospital from January 1，2022 to November 30，2024 were collected through rational drug software system. PKpADIs present in the prescriptions were identified based on the Drugs. com® drug interactions database. The specific combination drugs and cases of PK-pADIs were statistically analyzed， and prescription review rules were established according to the severity classification of PK-pADIs. RESULTS & CONCLUSIONS A total of 217 prescriptions of gefitinib combination therapy were enrolled. Among them，28 prescriptions （12.90%）， involving a total of 28 patients， had 29 cases of PK-pADIs， with respiratory medicine prescriptions （22 prescriptions） being the main type. The combination drugs included proton pump inhibitors （13 cases）， strong cytochrome P450 3A4（CYP3A4） inhibitors （7 cases）， H2 receptor antagonists （4 cases）， CYP3A4 inducers （3 cases）， and CYP2D6 substrates （2 cases）. The severity classifications for these interactions were severe， moderate， severe， moderate and moderate， respectively. Based on the above severity classification of PK-pADIs， four prescription review rules had been established as follows： when gefitinib was combined with acid-suppressing drugs， it should be subject to “manual review”； when gefitinib was combined with dexamethasone， metoprolol， or strong CYP3A4 inhibitors， an “alert” should be triggered， and the physician should be informed via an alert box to strengthen the monitoring of relevant indicators. Clinical pharmacists need to conduct in-depth training on knowledge related to gefitinib drug interactions in key clinical departments such as respiratory medicine. They should strengthen the monitoring and guidance of rational drug use for patients who are on long-term gefitinib therapy， and promptly identify and intervene in PK-pADIs， thereby enhancing the rationality， safety， and effectiveness of clinical drug use.KEYWORDS gefitinib； potential adverse drug interactions based on pharmacokinetics； prescription analysis； review rules肺癌是世界范围内最常见的恶性肿瘤，而非小细胞肺癌（non-small cell lung cancer，NSCLC）是肺癌的主要类型。近年来，基于驱动基因的NSCLC靶向治疗日益受到临床重视[1]。吉非替尼作为选择性表皮生长因子受体酪氨酸激酶抑制剂（epidermal growth factor receptor-tyrosine kinase inhibitor，EGFR-TKI），可用于 EGFR 基因突变阳性局部晚期或转移性NSCLC的治疗，于2002年在日本获批上市，并于2005年在我国获批上市。作为全球首个上市的EGFR-TKI，该药的临床应用逐渐广泛，同时也引发了累及皮肤、消化道、肺、肝、肾等多个系统/器官的不良反应，其用药安全性值得临床关注[2]。药物相互作用是影响用药安全的重要因素之一，其中基于药动学的潜在不良药物相互作用（potential adverse drug inter‐actions based on pharmacokinetics，PK-pADIs）是指多种药物在同时或相继使用时，因吸收、分布、代谢或排泄过程受到彼此影响，导致血药浓度异常变化，进而引发不良临床后果[3]。其易被临床忽视，值得重点关注。吉非替尼主要通过肝脏中的细胞色素P450 3A4（cytochromeP450 3A4，CYP3A4）和CYP2D6代谢，其PK-pADIs可能会导致患者疗效降低及不良反应增加，影响该药的安全性。2018年，国家卫生健康委员会发布了《医疗机构处方审核规范》，提出“药师是处方审核工作第一责任人”，并明确应当推进处方审核信息化，而如何利用信息化手段辅助药师从药学专业角度审核并干预 PK-pADIs，是开展精准药学服务的关键内容之一。本研究拟通过调查我院吉非替尼联合用药处方来查找 $\\mathrm { P K - p A D I s }$ ，对其危险性进行分级并基于此建立审方规则，旨在减少和避免PK-pADIs，为吉非替尼的安全合理使用提供参考。"
+  }
+]

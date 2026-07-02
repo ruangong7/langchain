@@ -1,0 +1,106 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "口服降糖药",
+        "canonical_name": "口服降糖药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Disease",
+        "name": "2型糖尿病",
+        "canonical_name": "2型糖尿病",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "糖尿病",
+        "canonical_name": "糖尿病",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "糖尿病肾病",
+        "canonical_name": "糖尿病肾病",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "糖尿病高血压",
+        "canonical_name": "糖尿病高血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "糖尿病心脏病",
+        "canonical_name": "糖尿病心脏病",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆.pdf",
+          "chunk_index": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆:1",
+          "raw_text": "The drugs of first choice for treatmenting type 2 diabetes are oral antidiabetic agents.",
+          "chunk_id": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆:1",
+          "data": "必要对肝脏转运体介导的与口服降糖药相关的药物相互作用进行深入研究。\nProgress in Liver Transporter-Mediated Drug Interactions with Oral Antidiabetic Agents\nZHANG Fan，WEI Yu-hui ，LI Bo-xia，WU Xin-an\\* ( Pharmacy Department of the First Hospital of Lanzhou University， Lanzhou 730000，China)ABSTRACT: OBJECTIVE To summarize the liver transporter-mediated drug interactions with oral antidiabetic agents. METHODS The related documentations in near ten years were searched and useful information to clarify liver transporter-mediated drug interactions with oral antidiabetic agents was summarized. RESULTS The drugs of first choice for treatmenting type 2 diabetes are oral antidiabetic agents. In clinic，oral antidiabetic agents often co-administrate with other drugs which may cause the rate of drug-drug interaction increasing. In vivo，amount of oral antidiabetic agents are distributed in liver where exist may kinds of metabolic enzymes and transporters，when drugs were transported by same liver transporter，the rate of drug-drug inter"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆.pdf",
+          "chunk_index": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆:1",
+          "raw_text": "伴发的疾病包括糖尿病肾病糖尿病高血压、糖尿病心脏病等",
+          "chunk_id": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆:1",
+          "data": "必要对肝脏转运体介导的与口服降糖药相关的药物相互作用进行深入研究。\nProgress in Liver Transporter-Mediated Drug Interactions with Oral Antidiabetic Agents\nZHANG Fan，WEI Yu-hui ，LI Bo-xia，WU Xin-an\\* ( Pharmacy Department of the First Hospital of Lanzhou University， Lanzhou 730000，China)ABSTRACT: OBJECTIVE To summarize the liver transporter-mediated drug interactions with oral antidiabetic agents. METHODS The related documentations in near ten years were searched and useful information to clarify liver transporter-mediated drug interactions with oral antidiabetic agents was summarized. RESULTS The drugs of first choice for treatmenting type 2 diabetes are oral antidiabetic agents. In clinic，oral antidiabetic agents often co-administrate with other drugs which may cause the rate of drug-drug interaction increasing. In vivo，amount of oral antidiabetic agents are distributed in liver where exist may kinds of metabolic enzymes and transporters，when drugs were transported by same liver transporter，the rate of drug-drug inter"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆.pdf",
+          "chunk_index": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆:1",
+          "raw_text": "伴发的疾病包括糖尿病肾病糖尿病高血压、糖尿病心脏病等",
+          "chunk_id": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆:1",
+          "data": "必要对肝脏转运体介导的与口服降糖药相关的药物相互作用进行深入研究。\nProgress in Liver Transporter-Mediated Drug Interactions with Oral Antidiabetic Agents\nZHANG Fan，WEI Yu-hui ，LI Bo-xia，WU Xin-an\\* ( Pharmacy Department of the First Hospital of Lanzhou University， Lanzhou 730000，China)ABSTRACT: OBJECTIVE To summarize the liver transporter-mediated drug interactions with oral antidiabetic agents. METHODS The related documentations in near ten years were searched and useful information to clarify liver transporter-mediated drug interactions with oral antidiabetic agents was summarized. RESULTS The drugs of first choice for treatmenting type 2 diabetes are oral antidiabetic agents. In clinic，oral antidiabetic agents often co-administrate with other drugs which may cause the rate of drug-drug interaction increasing. In vivo，amount of oral antidiabetic agents are distributed in liver where exist may kinds of metabolic enzymes and transporters，when drugs were transported by same liver transporter，the rate of drug-drug inter"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_SYMPTOM",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆.pdf",
+          "chunk_index": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆:1",
+          "raw_text": "伴发的疾病包括糖尿病肾病糖尿病高血压、糖尿病心脏病等",
+          "chunk_id": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆:1",
+          "data": "必要对肝脏转运体介导的与口服降糖药相关的药物相互作用进行深入研究。\nProgress in Liver Transporter-Mediated Drug Interactions with Oral Antidiabetic Agents\nZHANG Fan，WEI Yu-hui ，LI Bo-xia，WU Xin-an\\* ( Pharmacy Department of the First Hospital of Lanzhou University， Lanzhou 730000，China)ABSTRACT: OBJECTIVE To summarize the liver transporter-mediated drug interactions with oral antidiabetic agents. METHODS The related documentations in near ten years were searched and useful information to clarify liver transporter-mediated drug interactions with oral antidiabetic agents was summarized. RESULTS The drugs of first choice for treatmenting type 2 diabetes are oral antidiabetic agents. In clinic，oral antidiabetic agents often co-administrate with other drugs which may cause the rate of drug-drug interaction increasing. In vivo，amount of oral antidiabetic agents are distributed in liver where exist may kinds of metabolic enzymes and transporters，when drugs were transported by same liver transporter，the rate of drug-drug inter"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆:1",
+    "source": "肝脏转运体介导的与口服降糖药相关药物相互作用研究进展_张帆.pdf",
+    "text": "必要对肝脏转运体介导的与口服降糖药相关的药物相互作用进行深入研究。\nProgress in Liver Transporter-Mediated Drug Interactions with Oral Antidiabetic Agents\nZHANG Fan，WEI Yu-hui ，LI Bo-xia，WU Xin-an\\* ( Pharmacy Department of the First Hospital of Lanzhou University， Lanzhou 730000，China)ABSTRACT: OBJECTIVE To summarize the liver transporter-mediated drug interactions with oral antidiabetic agents. METHODS The related documentations in near ten years were searched and useful information to clarify liver transporter-mediated drug interactions with oral antidiabetic agents was summarized. RESULTS The drugs of first choice for treatmenting type 2 diabetes are oral antidiabetic agents. In clinic，oral antidiabetic agents often co-administrate with other drugs which may cause the rate of drug-drug interaction increasing. In vivo，amount of oral antidiabetic agents are distributed in liver where exist may kinds of metabolic enzymes and transporters，when drugs were transported by same liver transporter，the rate of drug-drug interactions will increase. So transporters mediated drug interaction is one of the main mechanism in drug interation with oral antidiabetic agents. CONCLUSION Liver transporters play important role in drug interactions with oral antidiabetic agents． for decreasing rate of drug-drug interactions and promoting rational use of drug，it is necessary to review and research the liver transporter-mediated drug interactions with oral antidiabetic agents.糖尿病是继癌症心血管疾病之后发病率居世界第三的流行疾病。 近年来，糖尿病的发病率在全球呈增长趋势，其中90%以2 型糖尿病为主，2 型糖尿病具有 2 个特征: 胰岛素分泌受损及胰岛素抵抗，20%～30%的病人需要胰岛素治疗，大多数用口服降糖药治疗即可。 由于糖尿病是一种复杂的代谢性疾病，往往随着病情的发展合并一系列心、肾、眼底微血管神经等病变，伴发的疾病包括糖尿病肾病糖尿病高血压、糖尿病心脏病等，因此患者常同时服用多种药物来治疗相关疾病，这使药物相互作用的发生概率显著升高，导致临床上的不合理用药［1-3］"
+  }
+]

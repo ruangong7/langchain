@@ -1,0 +1,245 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "甲氨蝶呤",
+        "canonical_name": "甲氨蝶呤",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "canonical_name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "雷贝拉唑",
+        "canonical_name": "雷贝拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "埃索美拉唑",
+        "canonical_name": "埃索美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "canonical_name": "质子泵抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "胃肠道反应",
+        "canonical_name": "胃肠道反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "皮肤瘙痒",
+        "canonical_name": "皮肤瘙痒",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "黏膜损害",
+        "canonical_name": "黏膜损害",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "骨髓抑制",
+        "canonical_name": "骨髓抑制",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "肝功能损害",
+        "canonical_name": "肝功能损害",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "甲氨蝶呤血药浓度",
+        "canonical_name": "甲氨蝶呤血药浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "raw_text": "索到雷贝拉唑、埃索美拉唑与 MTX 联合应用的案例报道。",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "data": "索到雷贝拉唑、埃索美拉唑与 MTX 联合应用的案例报道。 分别对患者的年龄、性别、联合应用的 PPI 的类型和临床表现等方面进行统计，并对结果进行分析评价，如表2 所示。\n图 1 甲氨蝶呤( MTX) 给药后血药浓度变化趋势\n3 分析与讨论\n是肿瘤化疗的常用药物，常规剂量下，MTX 在体内无明显代谢，而大剂量时，则可有部分代谢。 清除符合三相模式，第一相分布入器官中; 第二相为肾脏排泄，第三相是将 MTX 排泄入肠肝循环。 主要是通过肾脏排泄，大约41%在第 1 个 6 h 内以原型通过尿液排泄，24 h 内为 90% 。 少部分可能经由胆道，最后由粪便排出。 因此肾功能障碍或水化碱化的不足可能导致 MTX 排泄延迟［4］。 目前，多数研究将MTX 的排泄延迟定义为用药 24 h 后血药浓度≥10$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } , 4 8 \\mathrm { ~ h ~ }$ 血药浓度 $\\geq 1 . 0 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } , 7 2 \\ \\mathrm { h }$ 血药浓度 $\\geqslant 0 . \\mathrm { ~ 1 ~ } \\ J \\mathrm { ~ } \\ J \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\ J$ 。 美国 FDA 将 MTX 72 h 的血药浓度 $\\geqslant 0 . \\ 2 \\ \\ J \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 、 96 h 血药浓度 ≥ 0． 05$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ 定义为排泄延迟。 根据 《儿童急性淋巴细胞白血病诊疗建议( 第 4 次修订) 并结合文献分析［2］，如患者 MTX 化"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "raw_text": "索到雷贝拉唑、埃索美拉唑与 MTX 联合应用的案例报道。",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "data": "索到雷贝拉唑、埃索美拉唑与 MTX 联合应用的案例报道。 分别对患者的年龄、性别、联合应用的 PPI 的类型和临床表现等方面进行统计，并对结果进行分析评价，如表2 所示。\n图 1 甲氨蝶呤( MTX) 给药后血药浓度变化趋势\n3 分析与讨论\n是肿瘤化疗的常用药物，常规剂量下，MTX 在体内无明显代谢，而大剂量时，则可有部分代谢。 清除符合三相模式，第一相分布入器官中; 第二相为肾脏排泄，第三相是将 MTX 排泄入肠肝循环。 主要是通过肾脏排泄，大约41%在第 1 个 6 h 内以原型通过尿液排泄，24 h 内为 90% 。 少部分可能经由胆道，最后由粪便排出。 因此肾功能障碍或水化碱化的不足可能导致 MTX 排泄延迟［4］。 目前，多数研究将MTX 的排泄延迟定义为用药 24 h 后血药浓度≥10$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } , 4 8 \\mathrm { ~ h ~ }$ 血药浓度 $\\geq 1 . 0 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } , 7 2 \\ \\mathrm { h }$ 血药浓度 $\\geqslant 0 . \\mathrm { ~ 1 ~ } \\ J \\mathrm { ~ } \\ J \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\ J$ 。 美国 FDA 将 MTX 72 h 的血药浓度 $\\geqslant 0 . \\ 2 \\ \\ J \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 、 96 h 血药浓度 ≥ 0． 05$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ 定义为排泄延迟。 根据 《儿童急性淋巴细胞白血病诊疗建议( 第 4 次修订) 并结合文献分析［2］，如患者 MTX 化"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "raw_text": "索到雷贝拉唑、埃索美拉唑与 MTX 联合应用的案例报道。",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "data": "索到雷贝拉唑、埃索美拉唑与 MTX 联合应用的案例报道。 分别对患者的年龄、性别、联合应用的 PPI 的类型和临床表现等方面进行统计，并对结果进行分析评价，如表2 所示。\n图 1 甲氨蝶呤( MTX) 给药后血药浓度变化趋势\n3 分析与讨论\n是肿瘤化疗的常用药物，常规剂量下，MTX 在体内无明显代谢，而大剂量时，则可有部分代谢。 清除符合三相模式，第一相分布入器官中; 第二相为肾脏排泄，第三相是将 MTX 排泄入肠肝循环。 主要是通过肾脏排泄，大约41%在第 1 个 6 h 内以原型通过尿液排泄，24 h 内为 90% 。 少部分可能经由胆道，最后由粪便排出。 因此肾功能障碍或水化碱化的不足可能导致 MTX 排泄延迟［4］。 目前，多数研究将MTX 的排泄延迟定义为用药 24 h 后血药浓度≥10$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } , 4 8 \\mathrm { ~ h ~ }$ 血药浓度 $\\geq 1 . 0 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } , 7 2 \\ \\mathrm { h }$ 血药浓度 $\\geqslant 0 . \\mathrm { ~ 1 ~ } \\ J \\mathrm { ~ } \\ J \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\ J$ 。 美国 FDA 将 MTX 72 h 的血药浓度 $\\geqslant 0 . \\ 2 \\ \\ J \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 、 96 h 血药浓度 ≥ 0． 05$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ 定义为排泄延迟。 根据 《儿童急性淋巴细胞白血病诊疗建议( 第 4 次修订) 并结合文献分析［2］，如患者 MTX 化"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "raw_text": "联合应用的 PPI 的类型",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "data": "索到雷贝拉唑、埃索美拉唑与 MTX 联合应用的案例报道。 分别对患者的年龄、性别、联合应用的 PPI 的类型和临床表现等方面进行统计，并对结果进行分析评价，如表2 所示。\n图 1 甲氨蝶呤( MTX) 给药后血药浓度变化趋势\n3 分析与讨论\n是肿瘤化疗的常用药物，常规剂量下，MTX 在体内无明显代谢，而大剂量时，则可有部分代谢。 清除符合三相模式，第一相分布入器官中; 第二相为肾脏排泄，第三相是将 MTX 排泄入肠肝循环。 主要是通过肾脏排泄，大约41%在第 1 个 6 h 内以原型通过尿液排泄，24 h 内为 90% 。 少部分可能经由胆道，最后由粪便排出。 因此肾功能障碍或水化碱化的不足可能导致 MTX 排泄延迟［4］。 目前，多数研究将MTX 的排泄延迟定义为用药 24 h 后血药浓度≥10$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } , 4 8 \\mathrm { ~ h ~ }$ 血药浓度 $\\geq 1 . 0 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } , 7 2 \\ \\mathrm { h }$ 血药浓度 $\\geqslant 0 . \\mathrm { ~ 1 ~ } \\ J \\mathrm { ~ } \\ J \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\ J$ 。 美国 FDA 将 MTX 72 h 的血药浓度 $\\geqslant 0 . \\ 2 \\ \\ J \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 、 96 h 血药浓度 ≥ 0． 05$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ 定义为排泄延迟。 根据 《儿童急性淋巴细胞白血病诊疗建议( 第 4 次修订) 并结合文献分析［2］，如患者 MTX 化"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "raw_text": "联合应用的 PPI 的类型",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "data": "索到雷贝拉唑、埃索美拉唑与 MTX 联合应用的案例报道。 分别对患者的年龄、性别、联合应用的 PPI 的类型和临床表现等方面进行统计，并对结果进行分析评价，如表2 所示。\n图 1 甲氨蝶呤( MTX) 给药后血药浓度变化趋势\n3 分析与讨论\n是肿瘤化疗的常用药物，常规剂量下，MTX 在体内无明显代谢，而大剂量时，则可有部分代谢。 清除符合三相模式，第一相分布入器官中; 第二相为肾脏排泄，第三相是将 MTX 排泄入肠肝循环。 主要是通过肾脏排泄，大约41%在第 1 个 6 h 内以原型通过尿液排泄，24 h 内为 90% 。 少部分可能经由胆道，最后由粪便排出。 因此肾功能障碍或水化碱化的不足可能导致 MTX 排泄延迟［4］。 目前，多数研究将MTX 的排泄延迟定义为用药 24 h 后血药浓度≥10$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } , 4 8 \\mathrm { ~ h ~ }$ 血药浓度 $\\geq 1 . 0 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } , 7 2 \\ \\mathrm { h }$ 血药浓度 $\\geqslant 0 . \\mathrm { ~ 1 ~ } \\ J \\mathrm { ~ } \\ J \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\ J$ 。 美国 FDA 将 MTX 72 h 的血药浓度 $\\geqslant 0 . \\ 2 \\ \\ J \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 、 96 h 血药浓度 ≥ 0． 05$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ 定义为排泄延迟。 根据 《儿童急性淋巴细胞白血病诊疗建议( 第 4 次修订) 并结合文献分析［2］，如患者 MTX 化"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "raw_text": "联合应用的 PPI 的类型",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "data": "索到雷贝拉唑、埃索美拉唑与 MTX 联合应用的案例报道。 分别对患者的年龄、性别、联合应用的 PPI 的类型和临床表现等方面进行统计，并对结果进行分析评价，如表2 所示。\n图 1 甲氨蝶呤( MTX) 给药后血药浓度变化趋势\n3 分析与讨论\n是肿瘤化疗的常用药物，常规剂量下，MTX 在体内无明显代谢，而大剂量时，则可有部分代谢。 清除符合三相模式，第一相分布入器官中; 第二相为肾脏排泄，第三相是将 MTX 排泄入肠肝循环。 主要是通过肾脏排泄，大约41%在第 1 个 6 h 内以原型通过尿液排泄，24 h 内为 90% 。 少部分可能经由胆道，最后由粪便排出。 因此肾功能障碍或水化碱化的不足可能导致 MTX 排泄延迟［4］。 目前，多数研究将MTX 的排泄延迟定义为用药 24 h 后血药浓度≥10$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } , 4 8 \\mathrm { ~ h ~ }$ 血药浓度 $\\geq 1 . 0 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } , 7 2 \\ \\mathrm { h }$ 血药浓度 $\\geqslant 0 . \\mathrm { ~ 1 ~ } \\ J \\mathrm { ~ } \\ J \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\ J$ 。 美国 FDA 将 MTX 72 h 的血药浓度 $\\geqslant 0 . \\ 2 \\ \\ J \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 、 96 h 血药浓度 ≥ 0． 05$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ 定义为排泄延迟。 根据 《儿童急性淋巴细胞白血病诊疗建议( 第 4 次修订) 并结合文献分析［2］，如患者 MTX 化"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "raw_text": "MTX 的排泄延迟可能会导致胃肠道反应、皮肤瘙痒、黏膜损害、骨髓移植等不良反应，严重时更可能引起肝功能损害",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "data": "索到雷贝拉唑、埃索美拉唑与 MTX 联合应用的案例报道。 分别对患者的年龄、性别、联合应用的 PPI 的类型和临床表现等方面进行统计，并对结果进行分析评价，如表2 所示。\n图 1 甲氨蝶呤( MTX) 给药后血药浓度变化趋势\n3 分析与讨论\n是肿瘤化疗的常用药物，常规剂量下，MTX 在体内无明显代谢，而大剂量时，则可有部分代谢。 清除符合三相模式，第一相分布入器官中; 第二相为肾脏排泄，第三相是将 MTX 排泄入肠肝循环。 主要是通过肾脏排泄，大约41%在第 1 个 6 h 内以原型通过尿液排泄，24 h 内为 90% 。 少部分可能经由胆道，最后由粪便排出。 因此肾功能障碍或水化碱化的不足可能导致 MTX 排泄延迟［4］。 目前，多数研究将MTX 的排泄延迟定义为用药 24 h 后血药浓度≥10$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } , 4 8 \\mathrm { ~ h ~ }$ 血药浓度 $\\geq 1 . 0 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } , 7 2 \\ \\mathrm { h }$ 血药浓度 $\\geqslant 0 . \\mathrm { ~ 1 ~ } \\ J \\mathrm { ~ } \\ J \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\ J$ 。 美国 FDA 将 MTX 72 h 的血药浓度 $\\geqslant 0 . \\ 2 \\ \\ J \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 、 96 h 血药浓度 ≥ 0． 05$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ 定义为排泄延迟。 根据 《儿童急性淋巴细胞白血病诊疗建议( 第 4 次修订) 并结合文献分析［2］，如患者 MTX 化"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "raw_text": "MTX 的排泄延迟可能会导致胃肠道反应、皮肤瘙痒、黏膜损害、骨髓移植等不良反应，严重时更可能引起肝功能损害",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "data": "索到雷贝拉唑、埃索美拉唑与 MTX 联合应用的案例报道。 分别对患者的年龄、性别、联合应用的 PPI 的类型和临床表现等方面进行统计，并对结果进行分析评价，如表2 所示。\n图 1 甲氨蝶呤( MTX) 给药后血药浓度变化趋势\n3 分析与讨论\n是肿瘤化疗的常用药物，常规剂量下，MTX 在体内无明显代谢，而大剂量时，则可有部分代谢。 清除符合三相模式，第一相分布入器官中; 第二相为肾脏排泄，第三相是将 MTX 排泄入肠肝循环。 主要是通过肾脏排泄，大约41%在第 1 个 6 h 内以原型通过尿液排泄，24 h 内为 90% 。 少部分可能经由胆道，最后由粪便排出。 因此肾功能障碍或水化碱化的不足可能导致 MTX 排泄延迟［4］。 目前，多数研究将MTX 的排泄延迟定义为用药 24 h 后血药浓度≥10$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } , 4 8 \\mathrm { ~ h ~ }$ 血药浓度 $\\geq 1 . 0 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } , 7 2 \\ \\mathrm { h }$ 血药浓度 $\\geqslant 0 . \\mathrm { ~ 1 ~ } \\ J \\mathrm { ~ } \\ J \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\ J$ 。 美国 FDA 将 MTX 72 h 的血药浓度 $\\geqslant 0 . \\ 2 \\ \\ J \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 、 96 h 血药浓度 ≥ 0． 05$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ 定义为排泄延迟。 根据 《儿童急性淋巴细胞白血病诊疗建议( 第 4 次修订) 并结合文献分析［2］，如患者 MTX 化"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "raw_text": "MTX 的排泄延迟可能会导致胃肠道反应、皮肤瘙痒、黏膜损害、骨髓移植等不良反应，严重时更可能引起肝功能损害",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "data": "索到雷贝拉唑、埃索美拉唑与 MTX 联合应用的案例报道。 分别对患者的年龄、性别、联合应用的 PPI 的类型和临床表现等方面进行统计，并对结果进行分析评价，如表2 所示。\n图 1 甲氨蝶呤( MTX) 给药后血药浓度变化趋势\n3 分析与讨论\n是肿瘤化疗的常用药物，常规剂量下，MTX 在体内无明显代谢，而大剂量时，则可有部分代谢。 清除符合三相模式，第一相分布入器官中; 第二相为肾脏排泄，第三相是将 MTX 排泄入肠肝循环。 主要是通过肾脏排泄，大约41%在第 1 个 6 h 内以原型通过尿液排泄，24 h 内为 90% 。 少部分可能经由胆道，最后由粪便排出。 因此肾功能障碍或水化碱化的不足可能导致 MTX 排泄延迟［4］。 目前，多数研究将MTX 的排泄延迟定义为用药 24 h 后血药浓度≥10$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } , 4 8 \\mathrm { ~ h ~ }$ 血药浓度 $\\geq 1 . 0 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } , 7 2 \\ \\mathrm { h }$ 血药浓度 $\\geqslant 0 . \\mathrm { ~ 1 ~ } \\ J \\mathrm { ~ } \\ J \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\ J$ 。 美国 FDA 将 MTX 72 h 的血药浓度 $\\geqslant 0 . \\ 2 \\ \\ J \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 、 96 h 血药浓度 ≥ 0． 05$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ 定义为排泄延迟。 根据 《儿童急性淋巴细胞白血病诊疗建议( 第 4 次修订) 并结合文献分析［2］，如患者 MTX 化"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "raw_text": "MTX 的排泄延迟可能会导致胃肠道反应、皮肤瘙痒、黏膜损害、骨髓移植等不良反应，严重时更可能引起肝功能损害",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "data": "索到雷贝拉唑、埃索美拉唑与 MTX 联合应用的案例报道。 分别对患者的年龄、性别、联合应用的 PPI 的类型和临床表现等方面进行统计，并对结果进行分析评价，如表2 所示。\n图 1 甲氨蝶呤( MTX) 给药后血药浓度变化趋势\n3 分析与讨论\n是肿瘤化疗的常用药物，常规剂量下，MTX 在体内无明显代谢，而大剂量时，则可有部分代谢。 清除符合三相模式，第一相分布入器官中; 第二相为肾脏排泄，第三相是将 MTX 排泄入肠肝循环。 主要是通过肾脏排泄，大约41%在第 1 个 6 h 内以原型通过尿液排泄，24 h 内为 90% 。 少部分可能经由胆道，最后由粪便排出。 因此肾功能障碍或水化碱化的不足可能导致 MTX 排泄延迟［4］。 目前，多数研究将MTX 的排泄延迟定义为用药 24 h 后血药浓度≥10$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } , 4 8 \\mathrm { ~ h ~ }$ 血药浓度 $\\geq 1 . 0 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } , 7 2 \\ \\mathrm { h }$ 血药浓度 $\\geqslant 0 . \\mathrm { ~ 1 ~ } \\ J \\mathrm { ~ } \\ J \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\ J$ 。 美国 FDA 将 MTX 72 h 的血药浓度 $\\geqslant 0 . \\ 2 \\ \\ J \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 、 96 h 血药浓度 ≥ 0． 05$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ 定义为排泄延迟。 根据 《儿童急性淋巴细胞白血病诊疗建议( 第 4 次修订) 并结合文献分析［2］，如患者 MTX 化"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "raw_text": "MTX 的排泄延迟可能会导致胃肠道反应、皮肤瘙痒、黏膜损害、骨髓移植等不良反应，严重时更可能引起肝功能损害",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "data": "索到雷贝拉唑、埃索美拉唑与 MTX 联合应用的案例报道。 分别对患者的年龄、性别、联合应用的 PPI 的类型和临床表现等方面进行统计，并对结果进行分析评价，如表2 所示。\n图 1 甲氨蝶呤( MTX) 给药后血药浓度变化趋势\n3 分析与讨论\n是肿瘤化疗的常用药物，常规剂量下，MTX 在体内无明显代谢，而大剂量时，则可有部分代谢。 清除符合三相模式，第一相分布入器官中; 第二相为肾脏排泄，第三相是将 MTX 排泄入肠肝循环。 主要是通过肾脏排泄，大约41%在第 1 个 6 h 内以原型通过尿液排泄，24 h 内为 90% 。 少部分可能经由胆道，最后由粪便排出。 因此肾功能障碍或水化碱化的不足可能导致 MTX 排泄延迟［4］。 目前，多数研究将MTX 的排泄延迟定义为用药 24 h 后血药浓度≥10$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } , 4 8 \\mathrm { ~ h ~ }$ 血药浓度 $\\geq 1 . 0 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } , 7 2 \\ \\mathrm { h }$ 血药浓度 $\\geqslant 0 . \\mathrm { ~ 1 ~ } \\ J \\mathrm { ~ } \\ J \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\ J$ 。 美国 FDA 将 MTX 72 h 的血药浓度 $\\geqslant 0 . \\ 2 \\ \\ J \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 、 96 h 血药浓度 ≥ 0． 05$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ 定义为排泄延迟。 根据 《儿童急性淋巴细胞白血病诊疗建议( 第 4 次修订) 并结合文献分析［2］，如患者 MTX 化"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+          "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "raw_text": "MTX 血药浓度的监测显得尤为重要，临床可以通过监测 MTX 的血药浓度，及时进行解救",
+          "chunk_id": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+          "data": "索到雷贝拉唑、埃索美拉唑与 MTX 联合应用的案例报道。 分别对患者的年龄、性别、联合应用的 PPI 的类型和临床表现等方面进行统计，并对结果进行分析评价，如表2 所示。\n图 1 甲氨蝶呤( MTX) 给药后血药浓度变化趋势\n3 分析与讨论\n是肿瘤化疗的常用药物，常规剂量下，MTX 在体内无明显代谢，而大剂量时，则可有部分代谢。 清除符合三相模式，第一相分布入器官中; 第二相为肾脏排泄，第三相是将 MTX 排泄入肠肝循环。 主要是通过肾脏排泄，大约41%在第 1 个 6 h 内以原型通过尿液排泄，24 h 内为 90% 。 少部分可能经由胆道，最后由粪便排出。 因此肾功能障碍或水化碱化的不足可能导致 MTX 排泄延迟［4］。 目前，多数研究将MTX 的排泄延迟定义为用药 24 h 后血药浓度≥10$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } , 4 8 \\mathrm { ~ h ~ }$ 血药浓度 $\\geq 1 . 0 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } , 7 2 \\ \\mathrm { h }$ 血药浓度 $\\geqslant 0 . \\mathrm { ~ 1 ~ } \\ J \\mathrm { ~ } \\ J \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\ J$ 。 美国 FDA 将 MTX 72 h 的血药浓度 $\\geqslant 0 . \\ 2 \\ \\ J \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 、 96 h 血药浓度 ≥ 0． 05$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ 定义为排泄延迟。 根据 《儿童急性淋巴细胞白血病诊疗建议( 第 4 次修订) 并结合文献分析［2］，如患者 MTX 化"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征:6",
+    "source": "奥美拉唑与甲氨蝶呤药物相互作用1例并文献复习_袁征.pdf",
+    "text": "索到雷贝拉唑、埃索美拉唑与 MTX 联合应用的案例报道。 分别对患者的年龄、性别、联合应用的 PPI 的类型和临床表现等方面进行统计，并对结果进行分析评价，如表2 所示。\n图 1 甲氨蝶呤( MTX) 给药后血药浓度变化趋势\n3 分析与讨论\n是肿瘤化疗的常用药物，常规剂量下，MTX 在体内无明显代谢，而大剂量时，则可有部分代谢。 清除符合三相模式，第一相分布入器官中; 第二相为肾脏排泄，第三相是将 MTX 排泄入肠肝循环。 主要是通过肾脏排泄，大约41%在第 1 个 6 h 内以原型通过尿液排泄，24 h 内为 90% 。 少部分可能经由胆道，最后由粪便排出。 因此肾功能障碍或水化碱化的不足可能导致 MTX 排泄延迟［4］。 目前，多数研究将MTX 的排泄延迟定义为用药 24 h 后血药浓度≥10$\\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } , 4 8 \\mathrm { ~ h ~ }$ 血药浓度 $\\geq 1 . 0 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } , 7 2 \\ \\mathrm { h }$ 血药浓度 $\\geqslant 0 . \\mathrm { ~ 1 ~ } \\ J \\mathrm { ~ } \\ J \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\mathrm { ~ } \\ J$ 。 美国 FDA 将 MTX 72 h 的血药浓度 $\\geqslant 0 . \\ 2 \\ \\ J \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 、 96 h 血药浓度 ≥ 0． 05$\\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 }$ 定义为排泄延迟。 根据 《儿童急性淋巴细胞白血病诊疗建议( 第 4 次修订) 并结合文献分析［2］，如患者 MTX 化疗后 44 h 的血药浓度 ≥ 1． 0$\\mathrm { \\rVert { \\mu \\mathrm { m o l } { \\cdot } L } ^ { - 1 } } . 6 8 \\mathrm { ~ h ~ }$ 的血药浓度 ${ \\geqslant } 0 . 1 ~ { \\mu } \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ ，则认为发生排泄延迟［］，本例患儿第 2 次 MTX 化疗 44 h后血药浓度为 $1 4 . 0 4 ~ { \\mu \\mathrm { m o l } } \\bullet \\mathrm { L } ^ { - 1 } \\left( \\mathbf { \\Omega } > 1 . 0 ~ { \\mu \\mathrm { m o l } } \\bullet \\mathrm { L } ^ { - 1 } \\right)$ ，68 h 后血药浓度为 4． $0 8 \\ \\mu \\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 } \\big ( \\ > 0 . \\ 1 \\ \\mu \\mathrm { m o l } \\cdot$ L ) ，属于排泄延迟。 而 MTX 的排泄延迟可能会导致胃肠道反应、皮肤瘙痒、黏膜损害、骨髓移植等不良反应，严重时更可能引起肝功能损害，因此MTX 血药浓度的监测显得尤为重要，临床可以通过监测 MTX 的血药浓度，及时进行解救，以减少不良反应的发生。"
+  }
+]

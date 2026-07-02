@@ -1,0 +1,219 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "环孢素",
+        "canonical_name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "依维莫司",
+        "canonical_name": "依维莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "西罗莫司",
+        "canonical_name": "西罗莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "免疫抑制药",
+        "canonical_name": "免疫抑制药",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "降糖药",
+        "canonical_name": "降糖药",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "CNIs",
+        "canonical_name": "CNIs",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "mTOR抑制药",
+        "canonical_name": "mTOR抑制药",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "霉酚酸制剂",
+        "canonical_name": "霉酚酸制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "canonical_name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "血糖水平",
+        "canonical_name": "血糖水平",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "raw_text": "常用 CNIs 主要为 TAC 和 CsA",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "data": "通过监测血药浓度以调整剂量;而降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平和药物特异性毒性反应来进行评估。 因此，了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定，趋利避害\n2 常用免疫抑制药的药物动力学\n移植术后常用免疫抑制药包括 CNIs、mTOR 抑制药、霉酚酸制剂等。 常用 CNIs 主要为 TAC 和 CsA，口服后在胃肠道吸收个体差异大，生物利用度低。 吸收入血后，TAC 血浆蛋白结合率高，主要与白蛋白、α1-酸性糖蛋白结合。 CsA 主要分布于血浆、红细胞，血浆中 CsA 主要与脂蛋白结合，蛋白结合率约90% 。 两者均主要通过 CYP450 代谢，TAC 主要为 CYP3A4 和 CYP3A5，CsA 通过 CYP3A4 代谢。 同时，它们都是肝脏和肠中 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，主要经胆汁排泄，肾脏消除可忽略不计。 此外，CsA 除了是 CYP3A4 酶抑制药，还是 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial \\mathrm { E P } } \\cdot \\partial \\mathrm { E P } } }$ 乳腺癌耐药蛋白(BRCP)、 有机阴离子转运多肽(OATP)1B1、OATP1B3 等药物转运体的抑制药［8］ 。 mTOR 抑制药包括依维莫司、西罗莫司，均为 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，而依维莫司同时也是 CYP3A4、 CYP2D6 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega }"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "raw_text": "常用 CNIs 主要为 TAC 和 CsA",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "data": "通过监测血药浓度以调整剂量;而降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平和药物特异性毒性反应来进行评估。 因此，了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定，趋利避害\n2 常用免疫抑制药的药物动力学\n移植术后常用免疫抑制药包括 CNIs、mTOR 抑制药、霉酚酸制剂等。 常用 CNIs 主要为 TAC 和 CsA，口服后在胃肠道吸收个体差异大，生物利用度低。 吸收入血后，TAC 血浆蛋白结合率高，主要与白蛋白、α1-酸性糖蛋白结合。 CsA 主要分布于血浆、红细胞，血浆中 CsA 主要与脂蛋白结合，蛋白结合率约90% 。 两者均主要通过 CYP450 代谢，TAC 主要为 CYP3A4 和 CYP3A5，CsA 通过 CYP3A4 代谢。 同时，它们都是肝脏和肠中 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，主要经胆汁排泄，肾脏消除可忽略不计。 此外，CsA 除了是 CYP3A4 酶抑制药，还是 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial \\mathrm { E P } } \\cdot \\partial \\mathrm { E P } } }$ 乳腺癌耐药蛋白(BRCP)、 有机阴离子转运多肽(OATP)1B1、OATP1B3 等药物转运体的抑制药［8］ 。 mTOR 抑制药包括依维莫司、西罗莫司，均为 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，而依维莫司同时也是 CYP3A4、 CYP2D6 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega }"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "raw_text": "mTOR 抑制药包括依维莫司、西罗莫司",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "data": "通过监测血药浓度以调整剂量;而降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平和药物特异性毒性反应来进行评估。 因此，了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定，趋利避害\n2 常用免疫抑制药的药物动力学\n移植术后常用免疫抑制药包括 CNIs、mTOR 抑制药、霉酚酸制剂等。 常用 CNIs 主要为 TAC 和 CsA，口服后在胃肠道吸收个体差异大，生物利用度低。 吸收入血后，TAC 血浆蛋白结合率高，主要与白蛋白、α1-酸性糖蛋白结合。 CsA 主要分布于血浆、红细胞，血浆中 CsA 主要与脂蛋白结合，蛋白结合率约90% 。 两者均主要通过 CYP450 代谢，TAC 主要为 CYP3A4 和 CYP3A5，CsA 通过 CYP3A4 代谢。 同时，它们都是肝脏和肠中 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，主要经胆汁排泄，肾脏消除可忽略不计。 此外，CsA 除了是 CYP3A4 酶抑制药，还是 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial \\mathrm { E P } } \\cdot \\partial \\mathrm { E P } } }$ 乳腺癌耐药蛋白(BRCP)、 有机阴离子转运多肽(OATP)1B1、OATP1B3 等药物转运体的抑制药［8］ 。 mTOR 抑制药包括依维莫司、西罗莫司，均为 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，而依维莫司同时也是 CYP3A4、 CYP2D6 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega }"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "raw_text": "mTOR 抑制药包括依维莫司、西罗莫司",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "data": "通过监测血药浓度以调整剂量;而降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平和药物特异性毒性反应来进行评估。 因此，了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定，趋利避害\n2 常用免疫抑制药的药物动力学\n移植术后常用免疫抑制药包括 CNIs、mTOR 抑制药、霉酚酸制剂等。 常用 CNIs 主要为 TAC 和 CsA，口服后在胃肠道吸收个体差异大，生物利用度低。 吸收入血后，TAC 血浆蛋白结合率高，主要与白蛋白、α1-酸性糖蛋白结合。 CsA 主要分布于血浆、红细胞，血浆中 CsA 主要与脂蛋白结合，蛋白结合率约90% 。 两者均主要通过 CYP450 代谢，TAC 主要为 CYP3A4 和 CYP3A5，CsA 通过 CYP3A4 代谢。 同时，它们都是肝脏和肠中 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，主要经胆汁排泄，肾脏消除可忽略不计。 此外，CsA 除了是 CYP3A4 酶抑制药，还是 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial \\mathrm { E P } } \\cdot \\partial \\mathrm { E P } } }$ 乳腺癌耐药蛋白(BRCP)、 有机阴离子转运多肽(OATP)1B1、OATP1B3 等药物转运体的抑制药［8］ 。 mTOR 抑制药包括依维莫司、西罗莫司，均为 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，而依维莫司同时也是 CYP3A4、 CYP2D6 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega }"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "raw_text": "常用免疫抑制药包括 CNIs、mTOR 抑制药、霉酚酸制剂等",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "data": "通过监测血药浓度以调整剂量;而降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平和药物特异性毒性反应来进行评估。 因此，了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定，趋利避害\n2 常用免疫抑制药的药物动力学\n移植术后常用免疫抑制药包括 CNIs、mTOR 抑制药、霉酚酸制剂等。 常用 CNIs 主要为 TAC 和 CsA，口服后在胃肠道吸收个体差异大，生物利用度低。 吸收入血后，TAC 血浆蛋白结合率高，主要与白蛋白、α1-酸性糖蛋白结合。 CsA 主要分布于血浆、红细胞，血浆中 CsA 主要与脂蛋白结合，蛋白结合率约90% 。 两者均主要通过 CYP450 代谢，TAC 主要为 CYP3A4 和 CYP3A5，CsA 通过 CYP3A4 代谢。 同时，它们都是肝脏和肠中 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，主要经胆汁排泄，肾脏消除可忽略不计。 此外，CsA 除了是 CYP3A4 酶抑制药，还是 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial \\mathrm { E P } } \\cdot \\partial \\mathrm { E P } } }$ 乳腺癌耐药蛋白(BRCP)、 有机阴离子转运多肽(OATP)1B1、OATP1B3 等药物转运体的抑制药［8］ 。 mTOR 抑制药包括依维莫司、西罗莫司，均为 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，而依维莫司同时也是 CYP3A4、 CYP2D6 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega }"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "raw_text": "常用免疫抑制药包括 CNIs、mTOR 抑制药、霉酚酸制剂等",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "data": "通过监测血药浓度以调整剂量;而降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平和药物特异性毒性反应来进行评估。 因此，了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定，趋利避害\n2 常用免疫抑制药的药物动力学\n移植术后常用免疫抑制药包括 CNIs、mTOR 抑制药、霉酚酸制剂等。 常用 CNIs 主要为 TAC 和 CsA，口服后在胃肠道吸收个体差异大，生物利用度低。 吸收入血后，TAC 血浆蛋白结合率高，主要与白蛋白、α1-酸性糖蛋白结合。 CsA 主要分布于血浆、红细胞，血浆中 CsA 主要与脂蛋白结合，蛋白结合率约90% 。 两者均主要通过 CYP450 代谢，TAC 主要为 CYP3A4 和 CYP3A5，CsA 通过 CYP3A4 代谢。 同时，它们都是肝脏和肠中 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，主要经胆汁排泄，肾脏消除可忽略不计。 此外，CsA 除了是 CYP3A4 酶抑制药，还是 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial \\mathrm { E P } } \\cdot \\partial \\mathrm { E P } } }$ 乳腺癌耐药蛋白(BRCP)、 有机阴离子转运多肽(OATP)1B1、OATP1B3 等药物转运体的抑制药［8］ 。 mTOR 抑制药包括依维莫司、西罗莫司，均为 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，而依维莫司同时也是 CYP3A4、 CYP2D6 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega }"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "raw_text": "常用免疫抑制药包括 CNIs、mTOR 抑制药、霉酚酸制剂等",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "data": "通过监测血药浓度以调整剂量;而降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平和药物特异性毒性反应来进行评估。 因此，了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定，趋利避害\n2 常用免疫抑制药的药物动力学\n移植术后常用免疫抑制药包括 CNIs、mTOR 抑制药、霉酚酸制剂等。 常用 CNIs 主要为 TAC 和 CsA，口服后在胃肠道吸收个体差异大，生物利用度低。 吸收入血后，TAC 血浆蛋白结合率高，主要与白蛋白、α1-酸性糖蛋白结合。 CsA 主要分布于血浆、红细胞，血浆中 CsA 主要与脂蛋白结合，蛋白结合率约90% 。 两者均主要通过 CYP450 代谢，TAC 主要为 CYP3A4 和 CYP3A5，CsA 通过 CYP3A4 代谢。 同时，它们都是肝脏和肠中 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，主要经胆汁排泄，肾脏消除可忽略不计。 此外，CsA 除了是 CYP3A4 酶抑制药，还是 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial \\mathrm { E P } } \\cdot \\partial \\mathrm { E P } } }$ 乳腺癌耐药蛋白(BRCP)、 有机阴离子转运多肽(OATP)1B1、OATP1B3 等药物转运体的抑制药［8］ 。 mTOR 抑制药包括依维莫司、西罗莫司，均为 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，而依维莫司同时也是 CYP3A4、 CYP2D6 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega }"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_5",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "raw_text": "通过监测血药浓度以调整剂量",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "data": "通过监测血药浓度以调整剂量;而降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平和药物特异性毒性反应来进行评估。 因此，了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定，趋利避害\n2 常用免疫抑制药的药物动力学\n移植术后常用免疫抑制药包括 CNIs、mTOR 抑制药、霉酚酸制剂等。 常用 CNIs 主要为 TAC 和 CsA，口服后在胃肠道吸收个体差异大，生物利用度低。 吸收入血后，TAC 血浆蛋白结合率高，主要与白蛋白、α1-酸性糖蛋白结合。 CsA 主要分布于血浆、红细胞，血浆中 CsA 主要与脂蛋白结合，蛋白结合率约90% 。 两者均主要通过 CYP450 代谢，TAC 主要为 CYP3A4 和 CYP3A5，CsA 通过 CYP3A4 代谢。 同时，它们都是肝脏和肠中 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，主要经胆汁排泄，肾脏消除可忽略不计。 此外，CsA 除了是 CYP3A4 酶抑制药，还是 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial \\mathrm { E P } } \\cdot \\partial \\mathrm { E P } } }$ 乳腺癌耐药蛋白(BRCP)、 有机阴离子转运多肽(OATP)1B1、OATP1B3 等药物转运体的抑制药［8］ 。 mTOR 抑制药包括依维莫司、西罗莫司，均为 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，而依维莫司同时也是 CYP3A4、 CYP2D6 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega }"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_6",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "raw_text": "降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平...来进行评估",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "data": "通过监测血药浓度以调整剂量;而降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平和药物特异性毒性反应来进行评估。 因此，了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定，趋利避害\n2 常用免疫抑制药的药物动力学\n移植术后常用免疫抑制药包括 CNIs、mTOR 抑制药、霉酚酸制剂等。 常用 CNIs 主要为 TAC 和 CsA，口服后在胃肠道吸收个体差异大，生物利用度低。 吸收入血后，TAC 血浆蛋白结合率高，主要与白蛋白、α1-酸性糖蛋白结合。 CsA 主要分布于血浆、红细胞，血浆中 CsA 主要与脂蛋白结合，蛋白结合率约90% 。 两者均主要通过 CYP450 代谢，TAC 主要为 CYP3A4 和 CYP3A5，CsA 通过 CYP3A4 代谢。 同时，它们都是肝脏和肠中 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，主要经胆汁排泄，肾脏消除可忽略不计。 此外，CsA 除了是 CYP3A4 酶抑制药，还是 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial \\mathrm { E P } } \\cdot \\partial \\mathrm { E P } } }$ 乳腺癌耐药蛋白(BRCP)、 有机阴离子转运多肽(OATP)1B1、OATP1B3 等药物转运体的抑制药［8］ 。 mTOR 抑制药包括依维莫司、西罗莫司，均为 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，而依维莫司同时也是 CYP3A4、 CYP2D6 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega }"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "raw_text": "了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+          "data": "通过监测血药浓度以调整剂量;而降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平和药物特异性毒性反应来进行评估。 因此，了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定，趋利避害\n2 常用免疫抑制药的药物动力学\n移植术后常用免疫抑制药包括 CNIs、mTOR 抑制药、霉酚酸制剂等。 常用 CNIs 主要为 TAC 和 CsA，口服后在胃肠道吸收个体差异大，生物利用度低。 吸收入血后，TAC 血浆蛋白结合率高，主要与白蛋白、α1-酸性糖蛋白结合。 CsA 主要分布于血浆、红细胞，血浆中 CsA 主要与脂蛋白结合，蛋白结合率约90% 。 两者均主要通过 CYP450 代谢，TAC 主要为 CYP3A4 和 CYP3A5，CsA 通过 CYP3A4 代谢。 同时，它们都是肝脏和肠中 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，主要经胆汁排泄，肾脏消除可忽略不计。 此外，CsA 除了是 CYP3A4 酶抑制药，还是 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial \\mathrm { E P } } \\cdot \\partial \\mathrm { E P } } }$ 乳腺癌耐药蛋白(BRCP)、 有机阴离子转运多肽(OATP)1B1、OATP1B3 等药物转运体的抑制药［8］ 。 mTOR 抑制药包括依维莫司、西罗莫司，均为 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，而依维莫司同时也是 CYP3A4、 CYP2D6 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega }"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:5",
+    "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+    "text": "通过监测血药浓度以调整剂量;而降糖药则无需常规检测血药浓度，其疗效与毒性反应只能通过血糖水平和药物特异性毒性反应来进行评估。 因此，了解降糖药和免疫抑制药间可能的 DDIs 有助于治疗方案的合理制定，趋利避害\n2 常用免疫抑制药的药物动力学\n移植术后常用免疫抑制药包括 CNIs、mTOR 抑制药、霉酚酸制剂等。 常用 CNIs 主要为 TAC 和 CsA，口服后在胃肠道吸收个体差异大，生物利用度低。 吸收入血后，TAC 血浆蛋白结合率高，主要与白蛋白、α1-酸性糖蛋白结合。 CsA 主要分布于血浆、红细胞，血浆中 CsA 主要与脂蛋白结合，蛋白结合率约90% 。 两者均主要通过 CYP450 代谢，TAC 主要为 CYP3A4 和 CYP3A5，CsA 通过 CYP3A4 代谢。 同时，它们都是肝脏和肠中 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，主要经胆汁排泄，肾脏消除可忽略不计。 此外，CsA 除了是 CYP3A4 酶抑制药，还是 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial \\mathrm { E P } } \\cdot \\partial \\mathrm { E P } } }$ 乳腺癌耐药蛋白(BRCP)、 有机阴离子转运多肽(OATP)1B1、OATP1B3 等药物转运体的抑制药［8］ 。 mTOR 抑制药包括依维莫司、西罗莫司，均为 CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的底物，而依维莫司同时也是 CYP3A4、 CYP2D6 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 抑制药，西罗莫司为 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } } }$ 抑制药，两者主要由粪便排出。 因此，任何抑制CYP3A4 和(或)P- $\\mathrm { \\vec { \\ v p } }$ 的药物都有可能减少 CNIs 和 mTOR 抑制药的体内暴露量，从而影响其药理学效应。"
+  }
+]

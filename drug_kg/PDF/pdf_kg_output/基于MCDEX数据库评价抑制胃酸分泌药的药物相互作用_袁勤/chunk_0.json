@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "抑制胃酸分泌药",
+        "canonical_name": "抑制胃酸分泌药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "H2受体阻滞剂",
+        "canonical_name": "H2受体阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "canonical_name": "西咪替丁",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤.pdf",
+          "chunk_index": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤:0",
+          "raw_text": "H2受体阻滞剂类抑酸药 DDI 最多，其中西咪替丁的 DDI 达 777 对。",
+          "chunk_id": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤:0",
+          "data": "基于 MCDEX 数据库评价抑制胃酸分泌药的药物相互作用\n袁勤1，孙嘉婧2\\*，邹清梅 1，杨彪1摘要：目的评价抑制胃酸分泌药的药物相互作用（DDI）。方法在MCDEX 数据库药物相互作用版块中检索抑制胃酸分泌药的 DDI，并对其进行归纳分析。结果 28 种抑制胃酸分泌药在 MCDEX 数据库中提示存在 3 607 对 DDI，其中禁忌合用、不推荐合用、谨慎合用、关注、可以合用的分别有 50、168、2 214、979、196 对。H2受体阻滞剂类抑酸药 DDI 最多，其中西咪替丁的 DDI 达 777 对。结论抑制胃酸分泌药物较易与其他药物发生相互作用，主管医师和临床药师应对其药物治疗方案进行整理和优化，避免因 DDI 引起药物不良反应或导致疗效降低。\nEvaluation of drug-drug interactions in anti-gastric acid secretion drugs by MCDEX databases"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤.pdf",
+          "chunk_index": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤:0",
+          "raw_text": "H2受体阻滞剂类抑酸药 DDI 最多",
+          "chunk_id": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤:0",
+          "data": "基于 MCDEX 数据库评价抑制胃酸分泌药的药物相互作用\n袁勤1，孙嘉婧2\\*，邹清梅 1，杨彪1摘要：目的评价抑制胃酸分泌药的药物相互作用（DDI）。方法在MCDEX 数据库药物相互作用版块中检索抑制胃酸分泌药的 DDI，并对其进行归纳分析。结果 28 种抑制胃酸分泌药在 MCDEX 数据库中提示存在 3 607 对 DDI，其中禁忌合用、不推荐合用、谨慎合用、关注、可以合用的分别有 50、168、2 214、979、196 对。H2受体阻滞剂类抑酸药 DDI 最多，其中西咪替丁的 DDI 达 777 对。结论抑制胃酸分泌药物较易与其他药物发生相互作用，主管医师和临床药师应对其药物治疗方案进行整理和优化，避免因 DDI 引起药物不良反应或导致疗效降低。\nEvaluation of drug-drug interactions in anti-gastric acid secretion drugs by MCDEX databases"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤:0",
+    "source": "基于MCDEX数据库评价抑制胃酸分泌药的药物相互作用_袁勤.pdf",
+    "text": "基于 MCDEX 数据库评价抑制胃酸分泌药的药物相互作用\n袁勤1，孙嘉婧2\\*，邹清梅 1，杨彪1摘要：目的评价抑制胃酸分泌药的药物相互作用（DDI）。方法在MCDEX 数据库药物相互作用版块中检索抑制胃酸分泌药的 DDI，并对其进行归纳分析。结果 28 种抑制胃酸分泌药在 MCDEX 数据库中提示存在 3 607 对 DDI，其中禁忌合用、不推荐合用、谨慎合用、关注、可以合用的分别有 50、168、2 214、979、196 对。H2受体阻滞剂类抑酸药 DDI 最多，其中西咪替丁的 DDI 达 777 对。结论抑制胃酸分泌药物较易与其他药物发生相互作用，主管医师和临床药师应对其药物治疗方案进行整理和优化，避免因 DDI 引起药物不良反应或导致疗效降低。\nEvaluation of drug-drug interactions in anti-gastric acid secretion drugs by MCDEX databases"
+  }
+]

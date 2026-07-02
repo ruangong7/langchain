@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "吗啉硝唑",
+        "canonical_name": "吗啉硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "丙磺舒",
+        "canonical_name": "丙磺舒",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "canonical_name": "西咪替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "canonical_name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "替诺福韦",
+        "canonical_name": "替诺福韦",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:4",
+          "raw_text": "本文旨在利用法，以吗啉硝唑 $- d _ { 8 }$ 作为内标，使用手性柱 Lux cellulose-4（4.6 mm×250 mm，5 μm），建立快速稳定的方法检测大鼠血浆中R/S-吗啉硝唑浓度，并用于丙磺舒、西咪替丁、二甲双胍、替诺福韦对R S 吗啉硝唑代谢的相互作用研究。",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:4",
+          "data": "、OATs、P 糖蛋白等转运体的底物［7］；二甲双胍的细胞摄取和外排过程与和多药及毒性化合物外排转运蛋白（ ）相关并具有转运体依赖性［8-9］；替诺福韦主要由有机阴离子转运体（主要是参与调节，也包括少量 ）参与调节进入肾小管细胞［10］ 。\n已有文献报道采用法［11］、法［12-14］ 、UPLC/Q-TOF MS［2］法等测定人血浆及尿样中的吗啉硝唑及其代谢物，其中等［15］使用 Phenomenex Lux cellulose-4 色谱柱（250 mm×4.6， μ ），吗啉硝唑 $- d _ { 4 }$ 做内标，同时利用检测人血浆中吗啉硝唑对映体浓度。本文旨在利用法，以吗啉硝唑 $- d _ { 8 }$ 作为内标，使用手性柱 Lux cellulose-4（4.6 mm×250 mm，5 μm），建立快速稳定的方法检测大鼠血浆中R/S-吗啉硝唑浓度，并用于丙磺舒、西咪替丁、二甲双胍、替诺福韦对R S 吗啉硝唑代谢的相互作用研究。\n1　实验材料\n1.1 仪器\nAgilent 液质系统与 Agilent 1290 液相系统、Agilent6460 三重四极杆质谱仪、MassHunter Workstation（安捷伦科技有限公司）；XP26 电子天平（精度 0.001 mg；Mettler Toledo 公司）、Mettler Toledo XS105 电子天平（精度 0.01 mg；MettlerToledo 公司）；Eppendorf 5417c 离心机（Eppendorf 公司）；BECKMAN COULTER Allegra 64R Centrifuge 离心机（贝克曼库尔特有限公司）；QL-901旋涡振荡仪（其林贝尔仪器制造公司）；KUDOS超声波清洗器（科导超声仪器有限公司）； ${ \\mathrm { M i l l i - Q } } ^ { \\mathrm { \\tiny ~ \\textregistered } }$ 超纯水系统（Millipore 公司）。\n2　方法与结果\n2.1 色谱条件"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:4",
+          "raw_text": "本文旨在利用法，以吗啉硝唑 $- d _ { 8 }$ 作为内标，使用手性柱 Lux cellulose-4（4.6 mm×250 mm，5 μm），建立快速稳定的方法检测大鼠血浆中R/S-吗啉硝唑浓度，并用于丙磺舒、西咪替丁、二甲双胍、替诺福韦对R S 吗啉硝唑代谢的相互作用研究。",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:4",
+          "data": "、OATs、P 糖蛋白等转运体的底物［7］；二甲双胍的细胞摄取和外排过程与和多药及毒性化合物外排转运蛋白（ ）相关并具有转运体依赖性［8-9］；替诺福韦主要由有机阴离子转运体（主要是参与调节，也包括少量 ）参与调节进入肾小管细胞［10］ 。\n已有文献报道采用法［11］、法［12-14］ 、UPLC/Q-TOF MS［2］法等测定人血浆及尿样中的吗啉硝唑及其代谢物，其中等［15］使用 Phenomenex Lux cellulose-4 色谱柱（250 mm×4.6， μ ），吗啉硝唑 $- d _ { 4 }$ 做内标，同时利用检测人血浆中吗啉硝唑对映体浓度。本文旨在利用法，以吗啉硝唑 $- d _ { 8 }$ 作为内标，使用手性柱 Lux cellulose-4（4.6 mm×250 mm，5 μm），建立快速稳定的方法检测大鼠血浆中R/S-吗啉硝唑浓度，并用于丙磺舒、西咪替丁、二甲双胍、替诺福韦对R S 吗啉硝唑代谢的相互作用研究。\n1　实验材料\n1.1 仪器\nAgilent 液质系统与 Agilent 1290 液相系统、Agilent6460 三重四极杆质谱仪、MassHunter Workstation（安捷伦科技有限公司）；XP26 电子天平（精度 0.001 mg；Mettler Toledo 公司）、Mettler Toledo XS105 电子天平（精度 0.01 mg；MettlerToledo 公司）；Eppendorf 5417c 离心机（Eppendorf 公司）；BECKMAN COULTER Allegra 64R Centrifuge 离心机（贝克曼库尔特有限公司）；QL-901旋涡振荡仪（其林贝尔仪器制造公司）；KUDOS超声波清洗器（科导超声仪器有限公司）； ${ \\mathrm { M i l l i - Q } } ^ { \\mathrm { \\tiny ~ \\textregistered } }$ 超纯水系统（Millipore 公司）。\n2　方法与结果\n2.1 色谱条件"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:4",
+          "raw_text": "本文旨在利用法，以吗啉硝唑 $- d _ { 8 }$ 作为内标，使用手性柱 Lux cellulose-4（4.6 mm×250 mm，5 μm），建立快速稳定的方法检测大鼠血浆中R/S-吗啉硝唑浓度，并用于丙磺舒、西咪替丁、二甲双胍、替诺福韦对R S 吗啉硝唑代谢的相互作用研究。",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:4",
+          "data": "、OATs、P 糖蛋白等转运体的底物［7］；二甲双胍的细胞摄取和外排过程与和多药及毒性化合物外排转运蛋白（ ）相关并具有转运体依赖性［8-9］；替诺福韦主要由有机阴离子转运体（主要是参与调节，也包括少量 ）参与调节进入肾小管细胞［10］ 。\n已有文献报道采用法［11］、法［12-14］ 、UPLC/Q-TOF MS［2］法等测定人血浆及尿样中的吗啉硝唑及其代谢物，其中等［15］使用 Phenomenex Lux cellulose-4 色谱柱（250 mm×4.6， μ ），吗啉硝唑 $- d _ { 4 }$ 做内标，同时利用检测人血浆中吗啉硝唑对映体浓度。本文旨在利用法，以吗啉硝唑 $- d _ { 8 }$ 作为内标，使用手性柱 Lux cellulose-4（4.6 mm×250 mm，5 μm），建立快速稳定的方法检测大鼠血浆中R/S-吗啉硝唑浓度，并用于丙磺舒、西咪替丁、二甲双胍、替诺福韦对R S 吗啉硝唑代谢的相互作用研究。\n1　实验材料\n1.1 仪器\nAgilent 液质系统与 Agilent 1290 液相系统、Agilent6460 三重四极杆质谱仪、MassHunter Workstation（安捷伦科技有限公司）；XP26 电子天平（精度 0.001 mg；Mettler Toledo 公司）、Mettler Toledo XS105 电子天平（精度 0.01 mg；MettlerToledo 公司）；Eppendorf 5417c 离心机（Eppendorf 公司）；BECKMAN COULTER Allegra 64R Centrifuge 离心机（贝克曼库尔特有限公司）；QL-901旋涡振荡仪（其林贝尔仪器制造公司）；KUDOS超声波清洗器（科导超声仪器有限公司）； ${ \\mathrm { M i l l i - Q } } ^ { \\mathrm { \\tiny ~ \\textregistered } }$ 超纯水系统（Millipore 公司）。\n2　方法与结果\n2.1 色谱条件"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:4",
+          "raw_text": "本文旨在利用法，以吗啉硝唑 $- d _ { 8 }$ 作为内标，使用手性柱 Lux cellulose-4（4.6 mm×250 mm，5 μm），建立快速稳定的方法检测大鼠血浆中R/S-吗啉硝唑浓度，并用于丙磺舒、西咪替丁、二甲双胍、替诺福韦对R S 吗啉硝唑代谢的相互作用研究。",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:4",
+          "data": "、OATs、P 糖蛋白等转运体的底物［7］；二甲双胍的细胞摄取和外排过程与和多药及毒性化合物外排转运蛋白（ ）相关并具有转运体依赖性［8-9］；替诺福韦主要由有机阴离子转运体（主要是参与调节，也包括少量 ）参与调节进入肾小管细胞［10］ 。\n已有文献报道采用法［11］、法［12-14］ 、UPLC/Q-TOF MS［2］法等测定人血浆及尿样中的吗啉硝唑及其代谢物，其中等［15］使用 Phenomenex Lux cellulose-4 色谱柱（250 mm×4.6， μ ），吗啉硝唑 $- d _ { 4 }$ 做内标，同时利用检测人血浆中吗啉硝唑对映体浓度。本文旨在利用法，以吗啉硝唑 $- d _ { 8 }$ 作为内标，使用手性柱 Lux cellulose-4（4.6 mm×250 mm，5 μm），建立快速稳定的方法检测大鼠血浆中R/S-吗啉硝唑浓度，并用于丙磺舒、西咪替丁、二甲双胍、替诺福韦对R S 吗啉硝唑代谢的相互作用研究。\n1　实验材料\n1.1 仪器\nAgilent 液质系统与 Agilent 1290 液相系统、Agilent6460 三重四极杆质谱仪、MassHunter Workstation（安捷伦科技有限公司）；XP26 电子天平（精度 0.001 mg；Mettler Toledo 公司）、Mettler Toledo XS105 电子天平（精度 0.01 mg；MettlerToledo 公司）；Eppendorf 5417c 离心机（Eppendorf 公司）；BECKMAN COULTER Allegra 64R Centrifuge 离心机（贝克曼库尔特有限公司）；QL-901旋涡振荡仪（其林贝尔仪器制造公司）；KUDOS超声波清洗器（科导超声仪器有限公司）； ${ \\mathrm { M i l l i - Q } } ^ { \\mathrm { \\tiny ~ \\textregistered } }$ 超纯水系统（Millipore 公司）。\n2　方法与结果\n2.1 色谱条件"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:4",
+    "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+    "text": "、OATs、P 糖蛋白等转运体的底物［7］；二甲双胍的细胞摄取和外排过程与和多药及毒性化合物外排转运蛋白（ ）相关并具有转运体依赖性［8-9］；替诺福韦主要由有机阴离子转运体（主要是参与调节，也包括少量 ）参与调节进入肾小管细胞［10］ 。\n已有文献报道采用法［11］、法［12-14］ 、UPLC/Q-TOF MS［2］法等测定人血浆及尿样中的吗啉硝唑及其代谢物，其中等［15］使用 Phenomenex Lux cellulose-4 色谱柱（250 mm×4.6， μ ），吗啉硝唑 $- d _ { 4 }$ 做内标，同时利用检测人血浆中吗啉硝唑对映体浓度。本文旨在利用法，以吗啉硝唑 $- d _ { 8 }$ 作为内标，使用手性柱 Lux cellulose-4（4.6 mm×250 mm，5 μm），建立快速稳定的方法检测大鼠血浆中R/S-吗啉硝唑浓度，并用于丙磺舒、西咪替丁、二甲双胍、替诺福韦对R S 吗啉硝唑代谢的相互作用研究。\n1　实验材料\n1.1 仪器\nAgilent 液质系统与 Agilent 1290 液相系统、Agilent6460 三重四极杆质谱仪、MassHunter Workstation（安捷伦科技有限公司）；XP26 电子天平（精度 0.001 mg；Mettler Toledo 公司）、Mettler Toledo XS105 电子天平（精度 0.01 mg；MettlerToledo 公司）；Eppendorf 5417c 离心机（Eppendorf 公司）；BECKMAN COULTER Allegra 64R Centrifuge 离心机（贝克曼库尔特有限公司）；QL-901旋涡振荡仪（其林贝尔仪器制造公司）；KUDOS超声波清洗器（科导超声仪器有限公司）； ${ \\mathrm { M i l l i - Q } } ^ { \\mathrm { \\tiny ~ \\textregistered } }$ 超纯水系统（Millipore 公司）。\n2　方法与结果\n2.1 色谱条件"
+  }
+]

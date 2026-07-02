@@ -1,0 +1,83 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "铝碳酸镁",
+        "canonical_name": "铝碳酸镁",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "硫糖铝",
+        "canonical_name": "硫糖铝",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "INR",
+        "canonical_name": "国际标准化比值",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "药物相互作用对华法林抗凝强度的影响分析_杨瑞.pdf",
+          "chunk_index": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:8",
+          "raw_text": "铝碳酸镁及硫糖铝都可以吸附胃肠道中的华法林而减少其吸收，可致华法林作用减少。",
+          "mechanism": "吸附胃肠道中的华法林而减少其吸收",
+          "consequence": "华法林作用减少",
+          "chunk_id": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:8",
+          "data": "华法林抗凝疗效。 再者是抗酸药物，铝碳酸镁及硫糖铝都可以吸附胃肠道中的华法林而减少其吸收，可致华法林作用减少。\nEffect of drug interaction on anticoagulant strength of warfarin\nYANG Rui 1 ，XU Haisha 1 ，ZHANG Zanling 1 ，QU Jian 2 ，LI Juan 1 ，PENG Shiqi 1 ，DAI Yuxin 1 ，QU Qiang 1 1 Department of Pharmacy，Xiangya Hospital，Central South Univesty，Changsha 410008，Hunan，China; 2 Department of Pharmacy，the Second Xiangya Hospital，Central South Univesty，Changsha 410011，Hunan，China: To provide rational evidence for the administration of warfarin in clinic by investigating the utilization of warfarin in our hospital．mg． In patients with INR ＜ 2，there were 66． 92% of patients combined with more than one kind of drugs，which decreased the effect of warfarin． In patients with INR ＞ 3，there were 80% of patients combined with more than one kind of drugs，which increased the effect of warfarin． : The rate of warfarin compliance is low and the warfarin-drug interactions exert a great influence on the patients whose INR value did not reach the predicted range． "
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "药物相互作用对华法林抗凝强度的影响分析_杨瑞.pdf",
+          "chunk_index": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:8",
+          "raw_text": "铝碳酸镁及硫糖铝都可以吸附胃肠道中的华法林而减少其吸收，可致华法林作用减少。",
+          "mechanism": "吸附胃肠道中的华法林而减少其吸收",
+          "consequence": "华法林作用减少",
+          "chunk_id": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:8",
+          "data": "华法林抗凝疗效。 再者是抗酸药物，铝碳酸镁及硫糖铝都可以吸附胃肠道中的华法林而减少其吸收，可致华法林作用减少。\nEffect of drug interaction on anticoagulant strength of warfarin\nYANG Rui 1 ，XU Haisha 1 ，ZHANG Zanling 1 ，QU Jian 2 ，LI Juan 1 ，PENG Shiqi 1 ，DAI Yuxin 1 ，QU Qiang 1 1 Department of Pharmacy，Xiangya Hospital，Central South Univesty，Changsha 410008，Hunan，China; 2 Department of Pharmacy，the Second Xiangya Hospital，Central South Univesty，Changsha 410011，Hunan，China: To provide rational evidence for the administration of warfarin in clinic by investigating the utilization of warfarin in our hospital．mg． In patients with INR ＜ 2，there were 66． 92% of patients combined with more than one kind of drugs，which decreased the effect of warfarin． In patients with INR ＞ 3，there were 80% of patients combined with more than one kind of drugs，which increased the effect of warfarin． : The rate of warfarin compliance is low and the warfarin-drug interactions exert a great influence on the patients whose INR value did not reach the predicted range． "
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "药物相互作用对华法林抗凝强度的影响分析_杨瑞.pdf",
+          "chunk_index": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:8",
+          "raw_text": "华法林抗凝疗效。",
+          "chunk_id": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:8",
+          "data": "华法林抗凝疗效。 再者是抗酸药物，铝碳酸镁及硫糖铝都可以吸附胃肠道中的华法林而减少其吸收，可致华法林作用减少。\nEffect of drug interaction on anticoagulant strength of warfarin\nYANG Rui 1 ，XU Haisha 1 ，ZHANG Zanling 1 ，QU Jian 2 ，LI Juan 1 ，PENG Shiqi 1 ，DAI Yuxin 1 ，QU Qiang 1 1 Department of Pharmacy，Xiangya Hospital，Central South Univesty，Changsha 410008，Hunan，China; 2 Department of Pharmacy，the Second Xiangya Hospital，Central South Univesty，Changsha 410011，Hunan，China: To provide rational evidence for the administration of warfarin in clinic by investigating the utilization of warfarin in our hospital．mg． In patients with INR ＜ 2，there were 66． 92% of patients combined with more than one kind of drugs，which decreased the effect of warfarin． In patients with INR ＞ 3，there were 80% of patients combined with more than one kind of drugs，which increased the effect of warfarin． : The rate of warfarin compliance is low and the warfarin-drug interactions exert a great influence on the patients whose INR value did not reach the predicted range． "
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物相互作用对华法林抗凝强度的影响分析_杨瑞:8",
+    "source": "药物相互作用对华法林抗凝强度的影响分析_杨瑞.pdf",
+    "text": "华法林抗凝疗效。 再者是抗酸药物，铝碳酸镁及硫糖铝都可以吸附胃肠道中的华法林而减少其吸收，可致华法林作用减少。\nEffect of drug interaction on anticoagulant strength of warfarin\nYANG Rui 1 ，XU Haisha 1 ，ZHANG Zanling 1 ，QU Jian 2 ，LI Juan 1 ，PENG Shiqi 1 ，DAI Yuxin 1 ，QU Qiang 1 1 Department of Pharmacy，Xiangya Hospital，Central South Univesty，Changsha 410008，Hunan，China; 2 Department of Pharmacy，the Second Xiangya Hospital，Central South Univesty，Changsha 410011，Hunan，China: To provide rational evidence for the administration of warfarin in clinic by investigating the utilization of warfarin in our hospital．mg． In patients with INR ＜ 2，there were 66． 92% of patients combined with more than one kind of drugs，which decreased the effect of warfarin． In patients with INR ＞ 3，there were 80% of patients combined with more than one kind of drugs，which increased the effect of warfarin． : The rate of warfarin compliance is low and the warfarin-drug interactions exert a great influence on the patients whose INR value did not reach the predicted range． Thus，to keep the drug safety of patients， more attention should be paid on drug interactions and direct personalized medicine using professional knowledge of pharmacy．: By retrospective analysis， the prescription of warfarin in our hospital was obtained from November 2016 to February 2017 from the system for clinical pharmacist． The general situation of the inpatient，the diagnosis of disease，the use of warfarin，and the combination of drugs and the number of International Normalized Ratio ( INR ) were statistically and descriptively analyzed． : In this investigation，200 patients were included，of whom 53% were males and 47% were females with an average age of ( 55． 28 ± 13． 56 ) years． Only 21% of the average INR values reached the predicted range ( 2 ＜ INR ＜ 3) during hospitalization and the average dose of warfarin was ( 2． 62 ± 0． 60 )warfarin; drug interaction; anticoagulant strength; rational administration of drugs本文编辑: 储冀汝"
+  }
+]

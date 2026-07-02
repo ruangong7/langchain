@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "抗心绞痛药",
+        "canonical_name": "抗心绞痛药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Population",
+        "name": "老年人",
+        "canonical_name": "老年人",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Indicator",
+        "name": "药物浓度",
+        "canonical_name": "药物浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_2",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "抗心绞痛药的药物相互作用_李筱旻.pdf",
+          "chunk_index": "抗心绞痛药的药物相互作用_李筱旻:3",
+          "raw_text": "因心绞痛患者多为老年人由于肝肾功能的下降及身体机能的减退对药物浓度变化更为敏感因此在临床合并用药时应注意观察患者的临床表现适时监测药物浓度避免发生不良甚至是危及生命的药物相互作用",
+          "chunk_id": "抗心绞痛药的药物相互作用_李筱旻:3",
+          "data": "是细胞色素酶系统的底物有些还是其抑制剂易发生治疗药物的相互作用因心绞痛患者多为老年人由于肝肾功能的下降及身体机能的减退对药物浓度变化更为敏感因此在临床合并用药时应注意观察患者的临床表现适时监测药物浓度避免发生不良甚至是危及生命的药物相互作用\nDrug interactions with antianginal drugs"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "抗心绞痛药的药物相互作用_李筱旻.pdf",
+          "chunk_index": "抗心绞痛药的药物相互作用_李筱旻:3",
+          "raw_text": "因心绞痛患者多为老年人由于肝肾功能的下降及身体机能的减退对药物浓度变化更为敏感因此在临床合并用药时应注意观察患者的临床表现适时监测药物浓度避免发生不良甚至是危及生命的药物相互作用",
+          "chunk_id": "抗心绞痛药的药物相互作用_李筱旻:3",
+          "data": "是细胞色素酶系统的底物有些还是其抑制剂易发生治疗药物的相互作用因心绞痛患者多为老年人由于肝肾功能的下降及身体机能的减退对药物浓度变化更为敏感因此在临床合并用药时应注意观察患者的临床表现适时监测药物浓度避免发生不良甚至是危及生命的药物相互作用\nDrug interactions with antianginal drugs"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "抗心绞痛药的药物相互作用_李筱旻:3",
+    "source": "抗心绞痛药的药物相互作用_李筱旻.pdf",
+    "text": "是细胞色素酶系统的底物有些还是其抑制剂易发生治疗药物的相互作用因心绞痛患者多为老年人由于肝肾功能的下降及身体机能的减退对药物浓度变化更为敏感因此在临床合并用药时应注意观察患者的临床表现适时监测药物浓度避免发生不良甚至是危及生命的药物相互作用\nDrug interactions with antianginal drugs"
+  }
+]

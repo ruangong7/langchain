@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "苦参碱",
+        "canonical_name": "苦参碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "CYP3A4",
+        "canonical_name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "细胞色素P450超家族",
+        "canonical_name": "细胞色素P450超家族",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜.pdf",
+          "chunk_index": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜:1",
+          "raw_text": "Matrine could induce CYP3A4 transcription by activating human pregnane X receptor, and induce mRNA expression of pregnane X receptor to up-regulate the mRNA expression of CYP3A4",
+          "chunk_id": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜:1",
+          "data": "863 /j. issn1001-4454. 2017. 03. 040\nStudy on the Effect of Matrine on CYP3A4 Through Human Pregnane X Receptor in vitro\nGU Yue-yu1 ，LIAO Xiao-zhong 1 ，LIU Jia-hui 1 ，CHEN Yu-ling 2 ，LIN Mei-gui 3 ，ZHANG Li-na 4 ，MO Sui-lin1( 1. The First Affiliated Hospital，Sun Yat-Sen University，Guangzhou 510080，China; 2. Kiang Wu Hospital，Macau; 3. Liwan District Shiweitang Street Community Health Service Center，Guangzhou 510360，China; 4. The Sixth Affiliated Hospital，Sun Yat-Sen University，Guangzhou 510655，China)Abstract Objective: To investigate the effect of Matrine on CYP3A4 in transcriptional activation and the induction，and to evaluate the interaction of herb-drug in combination. Methods: The cells proliferation effect of Matrine on LS174T and HepG2 cells was determined by CCK-8 assay. Matrine affected on CYP3A4 through human pregnane X receptor transfected into cells and luciferase activities were measured by ransient co-transfection reporter gene assay. Real-time PCR was applied to determine"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜.pdf",
+          "chunk_index": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜:1",
+          "raw_text": "CYP3A4 是 P450 酶中最主要的亚型酶",
+          "chunk_id": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜:1",
+          "data": "863 /j. issn1001-4454. 2017. 03. 040\nStudy on the Effect of Matrine on CYP3A4 Through Human Pregnane X Receptor in vitro\nGU Yue-yu1 ，LIAO Xiao-zhong 1 ，LIU Jia-hui 1 ，CHEN Yu-ling 2 ，LIN Mei-gui 3 ，ZHANG Li-na 4 ，MO Sui-lin1( 1. The First Affiliated Hospital，Sun Yat-Sen University，Guangzhou 510080，China; 2. Kiang Wu Hospital，Macau; 3. Liwan District Shiweitang Street Community Health Service Center，Guangzhou 510360，China; 4. The Sixth Affiliated Hospital，Sun Yat-Sen University，Guangzhou 510655，China)Abstract Objective: To investigate the effect of Matrine on CYP3A4 in transcriptional activation and the induction，and to evaluate the interaction of herb-drug in combination. Methods: The cells proliferation effect of Matrine on LS174T and HepG2 cells was determined by CCK-8 assay. Matrine affected on CYP3A4 through human pregnane X receptor transfected into cells and luciferase activities were measured by ransient co-transfection reporter gene assay. Real-time PCR was applied to determine"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜:1",
+    "source": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜.pdf",
+    "text": "863 /j. issn1001-4454. 2017. 03. 040\nStudy on the Effect of Matrine on CYP3A4 Through Human Pregnane X Receptor in vitro\nGU Yue-yu1 ，LIAO Xiao-zhong 1 ，LIU Jia-hui 1 ，CHEN Yu-ling 2 ，LIN Mei-gui 3 ，ZHANG Li-na 4 ，MO Sui-lin1( 1. The First Affiliated Hospital，Sun Yat-Sen University，Guangzhou 510080，China; 2. Kiang Wu Hospital，Macau; 3. Liwan District Shiweitang Street Community Health Service Center，Guangzhou 510360，China; 4. The Sixth Affiliated Hospital，Sun Yat-Sen University，Guangzhou 510655，China)Abstract Objective: To investigate the effect of Matrine on CYP3A4 in transcriptional activation and the induction，and to evaluate the interaction of herb-drug in combination. Methods: The cells proliferation effect of Matrine on LS174T and HepG2 cells was determined by CCK-8 assay. Matrine affected on CYP3A4 through human pregnane X receptor transfected into cells and luciferase activities were measured by ransient co-transfection reporter gene assay. Real-time PCR was applied to determine the mRNA expression of pregnane X receptor and CYP3A4 in LS174T and HepG2 cells. Results: In a certain concentration range of Matrine，there was an obvious anti-proliferative effects on HepG2 and LS174T cells. For HepG2 cells，Matrine could induce CYP3A4 transcription by activating human pregnane X receptor，and induce mRNA expression of pregnane X receptor to up-regulate the mRNA expression of CYP3A4. For LS174T cells，Matrine could induce CYP3A4 transcription by activating human pregnane X receptor，and induce mRNA expression of pregnane X receptor to up-regulate the mRNA expression of CYP3A4，the action was in concentration dependent. Conclusion: The effect of Matrine on CYP3A4 maybe relate to the activation of pregnane X receptor，which indicate that Matrine might has an influence on the metabolism with other drugs in combination.孕烷 X 受体 ( Pregnane X receptor，PXR) 是由Kliewer 等 〔1〕 于 1998 年在小鼠体内发现的核受体( Nuclearreceptor，NR) 超家族 1 亚家族成员，是核受体家族的重要成员之一。 PXR 是一种配体依赖性转录因子，主要在肝、肾、肠、大脑、胰腺等多种组织和器官中表达〔2-4〕 。 肝脏是药物代谢的主要场所，细胞色素 P450 超家族 ( Cytochrome P450 proteins，CYP) 是药物代谢第一阶段中主要的代谢酶系统，CYP3A4 是 P450 酶中最主要的亚型酶，参与 50% 以上的药物代谢。 现已证实 PXR 参与 CYP 基因的转录与调控，是 CYP3A4 酶表达的关键上游因子〔5〕 。 PXR 被多种药物、 激素或果汁等激活后，能对CYP3A4 产生显著的诱导或激活作用〔6〕 。 故研究药物对 PXR 介导的 CYP3A4 通路的调节作用对了解药物代谢及药物之间的相互作用甚具意义。"
+  }
+]

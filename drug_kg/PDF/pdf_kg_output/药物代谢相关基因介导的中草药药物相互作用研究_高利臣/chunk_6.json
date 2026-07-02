@@ -1,0 +1,291 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "咖啡因",
+        "canonical_name": "咖啡因",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "葛根",
+        "canonical_name": "葛根",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "五味子",
+        "canonical_name": "五味子",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "银杏",
+        "canonical_name": "银杏",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "小檗碱",
+        "canonical_name": "小檗碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "麻醉椒提取物",
+        "canonical_name": "麻醉椒提取物",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "抗肿瘤药物",
+        "canonical_name": "抗肿瘤药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "降脂药物",
+        "canonical_name": "降脂药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "抗癫痫药物",
+        "canonical_name": "抗癫痫药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Disease",
+        "name": "哮喘",
+        "canonical_name": "哮喘",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣.pdf",
+          "chunk_index": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "raw_text": "咖啡因用于哮喘治疗时，食用葛根可以降低咖啡因血浆药物浓度，常用剂量很难达到理想治疗效果。",
+          "mechanism": "葛根促进CYP1A2代谢，降低咖啡因浓度",
+          "consequence": "降低咖啡因疗效",
+          "severity": "中",
+          "chunk_id": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "data": "参与咖啡因等多种药物代谢活动。 在日常生活中经常食用葛根能够促进CYP1A2对众多前致癌物的代谢激活作用，对于预防癌症的发生有重要意义。 但是咖啡因用于哮喘治疗时 ， 食用葛根可以降低咖啡因血浆药物浓度 ， 常用剂量很难达到理想治疗效果 。\nAhR的配体结合结构域与中草药结合并使自身构象发生变化，释放联合抑制因子，并结合联合激活因子，促使核受体 DNA 结合结构域与代谢酶或转运体基因的相应启动子区反应元件结合 ， 激活转录，启动药物代谢酶或转运体基因表达 ，产生诱导活性［19］此外， CYP2C9、 CYP2B6、 CYP2E1、 P－gp、OATP1B1和葡萄糖醛酸转移酶（UDP－Glucuro－nosyltransferases， UGTs） 也代谢和转运一大批药物， 如 P－gp 是化疗药物重要的转运体 ，OATP1B1是众多他汀类药物的转运体 CYP2B6是抗癫痫和戒烟药物安非他酮的重要代谢酶。 在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生AhR的靶点基因包括 CYP1A1、CYP1A2、CYP1B1 CYP2E1 UGT1A1 UGT1A6 和UGT2B 等； CAR 的靶点基因包括 CYP2A6CYP2B6、 CYP2C9、 CYP2C19、 CYP3A4、UGT1A1 UGT2B1 MDR1等；PXR的靶点基因包括 CYP1A2 CYP2B6 CYP2C8 CYP2C9CYP2C19、 CYP3A4、 CYP3A5、 CYP3A7、UGT1A1、 UGT1A3、 UGT1A4、 UGT1A6、UGT1A9、 MDR1 等［20］ 。 OATP1B1 是核受体LXR（LiverXreceptor） 和FXR（farnesoidXre－ceptor）的靶点基因［21］\n3 中草药－药物相互作用核受体影响机制研究\n4 结语及展望"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣.pdf",
+          "chunk_index": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "raw_text": "在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生",
+          "consequence": "可能影响疗效或增加毒副反应",
+          "severity": "高",
+          "chunk_id": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "data": "参与咖啡因等多种药物代谢活动。 在日常生活中经常食用葛根能够促进CYP1A2对众多前致癌物的代谢激活作用，对于预防癌症的发生有重要意义。 但是咖啡因用于哮喘治疗时 ， 食用葛根可以降低咖啡因血浆药物浓度 ， 常用剂量很难达到理想治疗效果 。\nAhR的配体结合结构域与中草药结合并使自身构象发生变化，释放联合抑制因子，并结合联合激活因子，促使核受体 DNA 结合结构域与代谢酶或转运体基因的相应启动子区反应元件结合 ， 激活转录，启动药物代谢酶或转运体基因表达 ，产生诱导活性［19］此外， CYP2C9、 CYP2B6、 CYP2E1、 P－gp、OATP1B1和葡萄糖醛酸转移酶（UDP－Glucuro－nosyltransferases， UGTs） 也代谢和转运一大批药物， 如 P－gp 是化疗药物重要的转运体 ，OATP1B1是众多他汀类药物的转运体 CYP2B6是抗癫痫和戒烟药物安非他酮的重要代谢酶。 在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生AhR的靶点基因包括 CYP1A1、CYP1A2、CYP1B1 CYP2E1 UGT1A1 UGT1A6 和UGT2B 等； CAR 的靶点基因包括 CYP2A6CYP2B6、 CYP2C9、 CYP2C19、 CYP3A4、UGT1A1 UGT2B1 MDR1等；PXR的靶点基因包括 CYP1A2 CYP2B6 CYP2C8 CYP2C9CYP2C19、 CYP3A4、 CYP3A5、 CYP3A7、UGT1A1、 UGT1A3、 UGT1A4、 UGT1A6、UGT1A9、 MDR1 等［20］ 。 OATP1B1 是核受体LXR（LiverXreceptor） 和FXR（farnesoidXre－ceptor）的靶点基因［21］\n3 中草药－药物相互作用核受体影响机制研究\n4 结语及展望"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣.pdf",
+          "chunk_index": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "raw_text": "在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生",
+          "consequence": "可能影响疗效或增加毒副反应",
+          "severity": "高",
+          "chunk_id": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "data": "参与咖啡因等多种药物代谢活动。 在日常生活中经常食用葛根能够促进CYP1A2对众多前致癌物的代谢激活作用，对于预防癌症的发生有重要意义。 但是咖啡因用于哮喘治疗时 ， 食用葛根可以降低咖啡因血浆药物浓度 ， 常用剂量很难达到理想治疗效果 。\nAhR的配体结合结构域与中草药结合并使自身构象发生变化，释放联合抑制因子，并结合联合激活因子，促使核受体 DNA 结合结构域与代谢酶或转运体基因的相应启动子区反应元件结合 ， 激活转录，启动药物代谢酶或转运体基因表达 ，产生诱导活性［19］此外， CYP2C9、 CYP2B6、 CYP2E1、 P－gp、OATP1B1和葡萄糖醛酸转移酶（UDP－Glucuro－nosyltransferases， UGTs） 也代谢和转运一大批药物， 如 P－gp 是化疗药物重要的转运体 ，OATP1B1是众多他汀类药物的转运体 CYP2B6是抗癫痫和戒烟药物安非他酮的重要代谢酶。 在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生AhR的靶点基因包括 CYP1A1、CYP1A2、CYP1B1 CYP2E1 UGT1A1 UGT1A6 和UGT2B 等； CAR 的靶点基因包括 CYP2A6CYP2B6、 CYP2C9、 CYP2C19、 CYP3A4、UGT1A1 UGT2B1 MDR1等；PXR的靶点基因包括 CYP1A2 CYP2B6 CYP2C8 CYP2C9CYP2C19、 CYP3A4、 CYP3A5、 CYP3A7、UGT1A1、 UGT1A3、 UGT1A4、 UGT1A6、UGT1A9、 MDR1 等［20］ 。 OATP1B1 是核受体LXR（LiverXreceptor） 和FXR（farnesoidXre－ceptor）的靶点基因［21］\n3 中草药－药物相互作用核受体影响机制研究\n4 结语及展望"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣.pdf",
+          "chunk_index": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "raw_text": "在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生",
+          "consequence": "可能影响疗效或增加毒副反应",
+          "severity": "高",
+          "chunk_id": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "data": "参与咖啡因等多种药物代谢活动。 在日常生活中经常食用葛根能够促进CYP1A2对众多前致癌物的代谢激活作用，对于预防癌症的发生有重要意义。 但是咖啡因用于哮喘治疗时 ， 食用葛根可以降低咖啡因血浆药物浓度 ， 常用剂量很难达到理想治疗效果 。\nAhR的配体结合结构域与中草药结合并使自身构象发生变化，释放联合抑制因子，并结合联合激活因子，促使核受体 DNA 结合结构域与代谢酶或转运体基因的相应启动子区反应元件结合 ， 激活转录，启动药物代谢酶或转运体基因表达 ，产生诱导活性［19］此外， CYP2C9、 CYP2B6、 CYP2E1、 P－gp、OATP1B1和葡萄糖醛酸转移酶（UDP－Glucuro－nosyltransferases， UGTs） 也代谢和转运一大批药物， 如 P－gp 是化疗药物重要的转运体 ，OATP1B1是众多他汀类药物的转运体 CYP2B6是抗癫痫和戒烟药物安非他酮的重要代谢酶。 在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生AhR的靶点基因包括 CYP1A1、CYP1A2、CYP1B1 CYP2E1 UGT1A1 UGT1A6 和UGT2B 等； CAR 的靶点基因包括 CYP2A6CYP2B6、 CYP2C9、 CYP2C19、 CYP3A4、UGT1A1 UGT2B1 MDR1等；PXR的靶点基因包括 CYP1A2 CYP2B6 CYP2C8 CYP2C9CYP2C19、 CYP3A4、 CYP3A5、 CYP3A7、UGT1A1、 UGT1A3、 UGT1A4、 UGT1A6、UGT1A9、 MDR1 等［20］ 。 OATP1B1 是核受体LXR（LiverXreceptor） 和FXR（farnesoidXre－ceptor）的靶点基因［21］\n3 中草药－药物相互作用核受体影响机制研究\n4 结语及展望"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣.pdf",
+          "chunk_index": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "raw_text": "在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生",
+          "consequence": "可能影响疗效或增加毒副反应",
+          "severity": "高",
+          "chunk_id": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "data": "参与咖啡因等多种药物代谢活动。 在日常生活中经常食用葛根能够促进CYP1A2对众多前致癌物的代谢激活作用，对于预防癌症的发生有重要意义。 但是咖啡因用于哮喘治疗时 ， 食用葛根可以降低咖啡因血浆药物浓度 ， 常用剂量很难达到理想治疗效果 。\nAhR的配体结合结构域与中草药结合并使自身构象发生变化，释放联合抑制因子，并结合联合激活因子，促使核受体 DNA 结合结构域与代谢酶或转运体基因的相应启动子区反应元件结合 ， 激活转录，启动药物代谢酶或转运体基因表达 ，产生诱导活性［19］此外， CYP2C9、 CYP2B6、 CYP2E1、 P－gp、OATP1B1和葡萄糖醛酸转移酶（UDP－Glucuro－nosyltransferases， UGTs） 也代谢和转运一大批药物， 如 P－gp 是化疗药物重要的转运体 ，OATP1B1是众多他汀类药物的转运体 CYP2B6是抗癫痫和戒烟药物安非他酮的重要代谢酶。 在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生AhR的靶点基因包括 CYP1A1、CYP1A2、CYP1B1 CYP2E1 UGT1A1 UGT1A6 和UGT2B 等； CAR 的靶点基因包括 CYP2A6CYP2B6、 CYP2C9、 CYP2C19、 CYP3A4、UGT1A1 UGT2B1 MDR1等；PXR的靶点基因包括 CYP1A2 CYP2B6 CYP2C8 CYP2C9CYP2C19、 CYP3A4、 CYP3A5、 CYP3A7、UGT1A1、 UGT1A3、 UGT1A4、 UGT1A6、UGT1A9、 MDR1 等［20］ 。 OATP1B1 是核受体LXR（LiverXreceptor） 和FXR（farnesoidXre－ceptor）的靶点基因［21］\n3 中草药－药物相互作用核受体影响机制研究\n4 结语及展望"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣.pdf",
+          "chunk_index": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "raw_text": "在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生",
+          "consequence": "可能影响疗效或增加毒副反应",
+          "severity": "高",
+          "chunk_id": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "data": "参与咖啡因等多种药物代谢活动。 在日常生活中经常食用葛根能够促进CYP1A2对众多前致癌物的代谢激活作用，对于预防癌症的发生有重要意义。 但是咖啡因用于哮喘治疗时 ， 食用葛根可以降低咖啡因血浆药物浓度 ， 常用剂量很难达到理想治疗效果 。\nAhR的配体结合结构域与中草药结合并使自身构象发生变化，释放联合抑制因子，并结合联合激活因子，促使核受体 DNA 结合结构域与代谢酶或转运体基因的相应启动子区反应元件结合 ， 激活转录，启动药物代谢酶或转运体基因表达 ，产生诱导活性［19］此外， CYP2C9、 CYP2B6、 CYP2E1、 P－gp、OATP1B1和葡萄糖醛酸转移酶（UDP－Glucuro－nosyltransferases， UGTs） 也代谢和转运一大批药物， 如 P－gp 是化疗药物重要的转运体 ，OATP1B1是众多他汀类药物的转运体 CYP2B6是抗癫痫和戒烟药物安非他酮的重要代谢酶。 在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生AhR的靶点基因包括 CYP1A1、CYP1A2、CYP1B1 CYP2E1 UGT1A1 UGT1A6 和UGT2B 等； CAR 的靶点基因包括 CYP2A6CYP2B6、 CYP2C9、 CYP2C19、 CYP3A4、UGT1A1 UGT2B1 MDR1等；PXR的靶点基因包括 CYP1A2 CYP2B6 CYP2C8 CYP2C9CYP2C19、 CYP3A4、 CYP3A5、 CYP3A7、UGT1A1、 UGT1A3、 UGT1A4、 UGT1A6、UGT1A9、 MDR1 等［20］ 。 OATP1B1 是核受体LXR（LiverXreceptor） 和FXR（farnesoidXre－ceptor）的靶点基因［21］\n3 中草药－药物相互作用核受体影响机制研究\n4 结语及展望"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣.pdf",
+          "chunk_index": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "raw_text": "在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生",
+          "consequence": "可能影响疗效或增加毒副反应",
+          "severity": "高",
+          "chunk_id": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "data": "参与咖啡因等多种药物代谢活动。 在日常生活中经常食用葛根能够促进CYP1A2对众多前致癌物的代谢激活作用，对于预防癌症的发生有重要意义。 但是咖啡因用于哮喘治疗时 ， 食用葛根可以降低咖啡因血浆药物浓度 ， 常用剂量很难达到理想治疗效果 。\nAhR的配体结合结构域与中草药结合并使自身构象发生变化，释放联合抑制因子，并结合联合激活因子，促使核受体 DNA 结合结构域与代谢酶或转运体基因的相应启动子区反应元件结合 ， 激活转录，启动药物代谢酶或转运体基因表达 ，产生诱导活性［19］此外， CYP2C9、 CYP2B6、 CYP2E1、 P－gp、OATP1B1和葡萄糖醛酸转移酶（UDP－Glucuro－nosyltransferases， UGTs） 也代谢和转运一大批药物， 如 P－gp 是化疗药物重要的转运体 ，OATP1B1是众多他汀类药物的转运体 CYP2B6是抗癫痫和戒烟药物安非他酮的重要代谢酶。 在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生AhR的靶点基因包括 CYP1A1、CYP1A2、CYP1B1 CYP2E1 UGT1A1 UGT1A6 和UGT2B 等； CAR 的靶点基因包括 CYP2A6CYP2B6、 CYP2C9、 CYP2C19、 CYP3A4、UGT1A1 UGT2B1 MDR1等；PXR的靶点基因包括 CYP1A2 CYP2B6 CYP2C8 CYP2C9CYP2C19、 CYP3A4、 CYP3A5、 CYP3A7、UGT1A1、 UGT1A3、 UGT1A4、 UGT1A6、UGT1A9、 MDR1 等［20］ 。 OATP1B1 是核受体LXR（LiverXreceptor） 和FXR（farnesoidXre－ceptor）的靶点基因［21］\n3 中草药－药物相互作用核受体影响机制研究\n4 结语及展望"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣.pdf",
+          "chunk_index": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "raw_text": "在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生",
+          "consequence": "可能影响疗效或增加毒副反应",
+          "severity": "高",
+          "chunk_id": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "data": "参与咖啡因等多种药物代谢活动。 在日常生活中经常食用葛根能够促进CYP1A2对众多前致癌物的代谢激活作用，对于预防癌症的发生有重要意义。 但是咖啡因用于哮喘治疗时 ， 食用葛根可以降低咖啡因血浆药物浓度 ， 常用剂量很难达到理想治疗效果 。\nAhR的配体结合结构域与中草药结合并使自身构象发生变化，释放联合抑制因子，并结合联合激活因子，促使核受体 DNA 结合结构域与代谢酶或转运体基因的相应启动子区反应元件结合 ， 激活转录，启动药物代谢酶或转运体基因表达 ，产生诱导活性［19］此外， CYP2C9、 CYP2B6、 CYP2E1、 P－gp、OATP1B1和葡萄糖醛酸转移酶（UDP－Glucuro－nosyltransferases， UGTs） 也代谢和转运一大批药物， 如 P－gp 是化疗药物重要的转运体 ，OATP1B1是众多他汀类药物的转运体 CYP2B6是抗癫痫和戒烟药物安非他酮的重要代谢酶。 在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生AhR的靶点基因包括 CYP1A1、CYP1A2、CYP1B1 CYP2E1 UGT1A1 UGT1A6 和UGT2B 等； CAR 的靶点基因包括 CYP2A6CYP2B6、 CYP2C9、 CYP2C19、 CYP3A4、UGT1A1 UGT2B1 MDR1等；PXR的靶点基因包括 CYP1A2 CYP2B6 CYP2C8 CYP2C9CYP2C19、 CYP3A4、 CYP3A5、 CYP3A7、UGT1A1、 UGT1A3、 UGT1A4、 UGT1A6、UGT1A9、 MDR1 等［20］ 。 OATP1B1 是核受体LXR（LiverXreceptor） 和FXR（farnesoidXre－ceptor）的靶点基因［21］\n3 中草药－药物相互作用核受体影响机制研究\n4 结语及展望"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣.pdf",
+          "chunk_index": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "raw_text": "在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生",
+          "consequence": "可能影响疗效或增加毒副反应",
+          "severity": "高",
+          "chunk_id": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "data": "参与咖啡因等多种药物代谢活动。 在日常生活中经常食用葛根能够促进CYP1A2对众多前致癌物的代谢激活作用，对于预防癌症的发生有重要意义。 但是咖啡因用于哮喘治疗时 ， 食用葛根可以降低咖啡因血浆药物浓度 ， 常用剂量很难达到理想治疗效果 。\nAhR的配体结合结构域与中草药结合并使自身构象发生变化，释放联合抑制因子，并结合联合激活因子，促使核受体 DNA 结合结构域与代谢酶或转运体基因的相应启动子区反应元件结合 ， 激活转录，启动药物代谢酶或转运体基因表达 ，产生诱导活性［19］此外， CYP2C9、 CYP2B6、 CYP2E1、 P－gp、OATP1B1和葡萄糖醛酸转移酶（UDP－Glucuro－nosyltransferases， UGTs） 也代谢和转运一大批药物， 如 P－gp 是化疗药物重要的转运体 ，OATP1B1是众多他汀类药物的转运体 CYP2B6是抗癫痫和戒烟药物安非他酮的重要代谢酶。 在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生AhR的靶点基因包括 CYP1A1、CYP1A2、CYP1B1 CYP2E1 UGT1A1 UGT1A6 和UGT2B 等； CAR 的靶点基因包括 CYP2A6CYP2B6、 CYP2C9、 CYP2C19、 CYP3A4、UGT1A1 UGT2B1 MDR1等；PXR的靶点基因包括 CYP1A2 CYP2B6 CYP2C8 CYP2C9CYP2C19、 CYP3A4、 CYP3A5、 CYP3A7、UGT1A1、 UGT1A3、 UGT1A4、 UGT1A6、UGT1A9、 MDR1 等［20］ 。 OATP1B1 是核受体LXR（LiverXreceptor） 和FXR（farnesoidXre－ceptor）的靶点基因［21］\n3 中草药－药物相互作用核受体影响机制研究\n4 结语及展望"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣.pdf",
+          "chunk_index": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "raw_text": "在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生",
+          "consequence": "可能影响疗效或增加毒副反应",
+          "severity": "高",
+          "chunk_id": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "data": "参与咖啡因等多种药物代谢活动。 在日常生活中经常食用葛根能够促进CYP1A2对众多前致癌物的代谢激活作用，对于预防癌症的发生有重要意义。 但是咖啡因用于哮喘治疗时 ， 食用葛根可以降低咖啡因血浆药物浓度 ， 常用剂量很难达到理想治疗效果 。\nAhR的配体结合结构域与中草药结合并使自身构象发生变化，释放联合抑制因子，并结合联合激活因子，促使核受体 DNA 结合结构域与代谢酶或转运体基因的相应启动子区反应元件结合 ， 激活转录，启动药物代谢酶或转运体基因表达 ，产生诱导活性［19］此外， CYP2C9、 CYP2B6、 CYP2E1、 P－gp、OATP1B1和葡萄糖醛酸转移酶（UDP－Glucuro－nosyltransferases， UGTs） 也代谢和转运一大批药物， 如 P－gp 是化疗药物重要的转运体 ，OATP1B1是众多他汀类药物的转运体 CYP2B6是抗癫痫和戒烟药物安非他酮的重要代谢酶。 在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生AhR的靶点基因包括 CYP1A1、CYP1A2、CYP1B1 CYP2E1 UGT1A1 UGT1A6 和UGT2B 等； CAR 的靶点基因包括 CYP2A6CYP2B6、 CYP2C9、 CYP2C19、 CYP3A4、UGT1A1 UGT2B1 MDR1等；PXR的靶点基因包括 CYP1A2 CYP2B6 CYP2C8 CYP2C9CYP2C19、 CYP3A4、 CYP3A5、 CYP3A7、UGT1A1、 UGT1A3、 UGT1A4、 UGT1A6、UGT1A9、 MDR1 等［20］ 。 OATP1B1 是核受体LXR（LiverXreceptor） 和FXR（farnesoidXre－ceptor）的靶点基因［21］\n3 中草药－药物相互作用核受体影响机制研究\n4 结语及展望"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣.pdf",
+          "chunk_index": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "raw_text": "在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生",
+          "consequence": "可能影响疗效或增加毒副反应",
+          "severity": "高",
+          "chunk_id": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "data": "参与咖啡因等多种药物代谢活动。 在日常生活中经常食用葛根能够促进CYP1A2对众多前致癌物的代谢激活作用，对于预防癌症的发生有重要意义。 但是咖啡因用于哮喘治疗时 ， 食用葛根可以降低咖啡因血浆药物浓度 ， 常用剂量很难达到理想治疗效果 。\nAhR的配体结合结构域与中草药结合并使自身构象发生变化，释放联合抑制因子，并结合联合激活因子，促使核受体 DNA 结合结构域与代谢酶或转运体基因的相应启动子区反应元件结合 ， 激活转录，启动药物代谢酶或转运体基因表达 ，产生诱导活性［19］此外， CYP2C9、 CYP2B6、 CYP2E1、 P－gp、OATP1B1和葡萄糖醛酸转移酶（UDP－Glucuro－nosyltransferases， UGTs） 也代谢和转运一大批药物， 如 P－gp 是化疗药物重要的转运体 ，OATP1B1是众多他汀类药物的转运体 CYP2B6是抗癫痫和戒烟药物安非他酮的重要代谢酶。 在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生AhR的靶点基因包括 CYP1A1、CYP1A2、CYP1B1 CYP2E1 UGT1A1 UGT1A6 和UGT2B 等； CAR 的靶点基因包括 CYP2A6CYP2B6、 CYP2C9、 CYP2C19、 CYP3A4、UGT1A1 UGT2B1 MDR1等；PXR的靶点基因包括 CYP1A2 CYP2B6 CYP2C8 CYP2C9CYP2C19、 CYP3A4、 CYP3A5、 CYP3A7、UGT1A1、 UGT1A3、 UGT1A4、 UGT1A6、UGT1A9、 MDR1 等［20］ 。 OATP1B1 是核受体LXR（LiverXreceptor） 和FXR（farnesoidXre－ceptor）的靶点基因［21］\n3 中草药－药物相互作用核受体影响机制研究\n4 结语及展望"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣.pdf",
+          "chunk_index": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "raw_text": "在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生",
+          "consequence": "可能影响疗效或增加毒副反应",
+          "severity": "高",
+          "chunk_id": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "data": "参与咖啡因等多种药物代谢活动。 在日常生活中经常食用葛根能够促进CYP1A2对众多前致癌物的代谢激活作用，对于预防癌症的发生有重要意义。 但是咖啡因用于哮喘治疗时 ， 食用葛根可以降低咖啡因血浆药物浓度 ， 常用剂量很难达到理想治疗效果 。\nAhR的配体结合结构域与中草药结合并使自身构象发生变化，释放联合抑制因子，并结合联合激活因子，促使核受体 DNA 结合结构域与代谢酶或转运体基因的相应启动子区反应元件结合 ， 激活转录，启动药物代谢酶或转运体基因表达 ，产生诱导活性［19］此外， CYP2C9、 CYP2B6、 CYP2E1、 P－gp、OATP1B1和葡萄糖醛酸转移酶（UDP－Glucuro－nosyltransferases， UGTs） 也代谢和转运一大批药物， 如 P－gp 是化疗药物重要的转运体 ，OATP1B1是众多他汀类药物的转运体 CYP2B6是抗癫痫和戒烟药物安非他酮的重要代谢酶。 在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生AhR的靶点基因包括 CYP1A1、CYP1A2、CYP1B1 CYP2E1 UGT1A1 UGT1A6 和UGT2B 等； CAR 的靶点基因包括 CYP2A6CYP2B6、 CYP2C9、 CYP2C19、 CYP3A4、UGT1A1 UGT2B1 MDR1等；PXR的靶点基因包括 CYP1A2 CYP2B6 CYP2C8 CYP2C9CYP2C19、 CYP3A4、 CYP3A5、 CYP3A7、UGT1A1、 UGT1A3、 UGT1A4、 UGT1A6、UGT1A9、 MDR1 等［20］ 。 OATP1B1 是核受体LXR（LiverXreceptor） 和FXR（farnesoidXre－ceptor）的靶点基因［21］\n3 中草药－药物相互作用核受体影响机制研究\n4 结语及展望"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣.pdf",
+          "chunk_index": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "raw_text": "在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生",
+          "consequence": "可能影响疗效或增加毒副反应",
+          "severity": "高",
+          "chunk_id": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "data": "参与咖啡因等多种药物代谢活动。 在日常生活中经常食用葛根能够促进CYP1A2对众多前致癌物的代谢激活作用，对于预防癌症的发生有重要意义。 但是咖啡因用于哮喘治疗时 ， 食用葛根可以降低咖啡因血浆药物浓度 ， 常用剂量很难达到理想治疗效果 。\nAhR的配体结合结构域与中草药结合并使自身构象发生变化，释放联合抑制因子，并结合联合激活因子，促使核受体 DNA 结合结构域与代谢酶或转运体基因的相应启动子区反应元件结合 ， 激活转录，启动药物代谢酶或转运体基因表达 ，产生诱导活性［19］此外， CYP2C9、 CYP2B6、 CYP2E1、 P－gp、OATP1B1和葡萄糖醛酸转移酶（UDP－Glucuro－nosyltransferases， UGTs） 也代谢和转运一大批药物， 如 P－gp 是化疗药物重要的转运体 ，OATP1B1是众多他汀类药物的转运体 CYP2B6是抗癫痫和戒烟药物安非他酮的重要代谢酶。 在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生AhR的靶点基因包括 CYP1A1、CYP1A2、CYP1B1 CYP2E1 UGT1A1 UGT1A6 和UGT2B 等； CAR 的靶点基因包括 CYP2A6CYP2B6、 CYP2C9、 CYP2C19、 CYP3A4、UGT1A1 UGT2B1 MDR1等；PXR的靶点基因包括 CYP1A2 CYP2B6 CYP2C8 CYP2C9CYP2C19、 CYP3A4、 CYP3A5、 CYP3A7、UGT1A1、 UGT1A3、 UGT1A4、 UGT1A6、UGT1A9、 MDR1 等［20］ 。 OATP1B1 是核受体LXR（LiverXreceptor） 和FXR（farnesoidXre－ceptor）的靶点基因［21］\n3 中草药－药物相互作用核受体影响机制研究\n4 结语及展望"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣.pdf",
+          "chunk_index": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "raw_text": "咖啡因用于哮喘治疗时",
+          "chunk_id": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+          "data": "参与咖啡因等多种药物代谢活动。 在日常生活中经常食用葛根能够促进CYP1A2对众多前致癌物的代谢激活作用，对于预防癌症的发生有重要意义。 但是咖啡因用于哮喘治疗时 ， 食用葛根可以降低咖啡因血浆药物浓度 ， 常用剂量很难达到理想治疗效果 。\nAhR的配体结合结构域与中草药结合并使自身构象发生变化，释放联合抑制因子，并结合联合激活因子，促使核受体 DNA 结合结构域与代谢酶或转运体基因的相应启动子区反应元件结合 ， 激活转录，启动药物代谢酶或转运体基因表达 ，产生诱导活性［19］此外， CYP2C9、 CYP2B6、 CYP2E1、 P－gp、OATP1B1和葡萄糖醛酸转移酶（UDP－Glucuro－nosyltransferases， UGTs） 也代谢和转运一大批药物， 如 P－gp 是化疗药物重要的转运体 ，OATP1B1是众多他汀类药物的转运体 CYP2B6是抗癫痫和戒烟药物安非他酮的重要代谢酶。 在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生AhR的靶点基因包括 CYP1A1、CYP1A2、CYP1B1 CYP2E1 UGT1A1 UGT1A6 和UGT2B 等； CAR 的靶点基因包括 CYP2A6CYP2B6、 CYP2C9、 CYP2C19、 CYP3A4、UGT1A1 UGT2B1 MDR1等；PXR的靶点基因包括 CYP1A2 CYP2B6 CYP2C8 CYP2C9CYP2C19、 CYP3A4、 CYP3A5、 CYP3A7、UGT1A1、 UGT1A3、 UGT1A4、 UGT1A6、UGT1A9、 MDR1 等［20］ 。 OATP1B1 是核受体LXR（LiverXreceptor） 和FXR（farnesoidXre－ceptor）的靶点基因［21］\n3 中草药－药物相互作用核受体影响机制研究\n4 结语及展望"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣:6",
+    "source": "药物代谢相关基因介导的中草药药物相互作用研究_高利臣.pdf",
+    "text": "参与咖啡因等多种药物代谢活动。 在日常生活中经常食用葛根能够促进CYP1A2对众多前致癌物的代谢激活作用，对于预防癌症的发生有重要意义。 但是咖啡因用于哮喘治疗时 ， 食用葛根可以降低咖啡因血浆药物浓度 ， 常用剂量很难达到理想治疗效果 。\nAhR的配体结合结构域与中草药结合并使自身构象发生变化，释放联合抑制因子，并结合联合激活因子，促使核受体 DNA 结合结构域与代谢酶或转运体基因的相应启动子区反应元件结合 ， 激活转录，启动药物代谢酶或转运体基因表达 ，产生诱导活性［19］此外， CYP2C9、 CYP2B6、 CYP2E1、 P－gp、OATP1B1和葡萄糖醛酸转移酶（UDP－Glucuro－nosyltransferases， UGTs） 也代谢和转运一大批药物， 如 P－gp 是化疗药物重要的转运体 ，OATP1B1是众多他汀类药物的转运体 CYP2B6是抗癫痫和戒烟药物安非他酮的重要代谢酶。 在服用以上药物酶及转运体底物药物时尽量避免与相应的诱导剂和抑制剂五味子银杏小檗碱和麻醉椒提取物同时服用以保证这些抗肿瘤药物降脂药物和抗癫痫药物能够达到应有的疗效避免毒副反应发生AhR的靶点基因包括 CYP1A1、CYP1A2、CYP1B1 CYP2E1 UGT1A1 UGT1A6 和UGT2B 等； CAR 的靶点基因包括 CYP2A6CYP2B6、 CYP2C9、 CYP2C19、 CYP3A4、UGT1A1 UGT2B1 MDR1等；PXR的靶点基因包括 CYP1A2 CYP2B6 CYP2C8 CYP2C9CYP2C19、 CYP3A4、 CYP3A5、 CYP3A7、UGT1A1、 UGT1A3、 UGT1A4、 UGT1A6、UGT1A9、 MDR1 等［20］ 。 OATP1B1 是核受体LXR（LiverXreceptor） 和FXR（farnesoidXre－ceptor）的靶点基因［21］\n3 中草药－药物相互作用核受体影响机制研究\n4 结语及展望"
+  }
+]

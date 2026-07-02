@@ -1,0 +1,279 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "二氢杨梅素",
+        "canonical_name": "二氢杨梅素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "黄酮类化合物",
+        "canonical_name": "黄酮类化合物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "肝癌",
+        "canonical_name": "肝癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "乳腺癌",
+        "canonical_name": "乳腺癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "卵巢癌",
+        "canonical_name": "卵巢癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "高血压",
+        "canonical_name": "高血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "高血脂",
+        "canonical_name": "高血脂",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "血糖异常",
+        "canonical_name": "血糖异常",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "阿尔茨海默病",
+        "canonical_name": "阿尔茨海默病",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "帕金森病",
+        "canonical_name": "帕金森病",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Disease",
+        "name": "酒精成瘾",
+        "canonical_name": "酒精成瘾",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Disease",
+        "name": "抑郁症",
+        "canonical_name": "抑郁症",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "DrugClass",
+        "name": "神经精神药物",
+        "canonical_name": "神经精神药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "化疗药物",
+        "canonical_name": "化疗药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "二氢杨梅素药理及药物相互作用研究进展_周海云.pdf",
+          "chunk_index": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "raw_text": "二氢杨梅素是一种多酚羟基双氢黄酮醇类化合物",
+          "chunk_id": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "data": "杨梅素的深入研究以及药物开发利用提供科学依据。\nResearch progress on pharmacological effects of dihydromyricetin and its interactions with drugs\nZHOU Hai-yun, WANG Wen-qing, SHI Chun-yang, XIONG Wei, FANG Jian-guo Department of Pharmacy, Tongji Hospital Affiliated to Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China Abstract: Dihydromyricetin (DMY) is the main flavonoid compound in Ampelopsis grossedentata. It is popular for various biological and pharmacological activities including antiflammatory, antibacterial, antitumor, regulating blood fat, hypolipidemic, and protecting liver function. Recently studies have suggested that DMY works as neuroprotective molecular, ameliorating neurological abnormal symptoms in the Alzheimer’s disease, Parkinson’s disease, alcohol addiction, major depression disorder and so on. This paper reviewed various pharmacological effects of DMY and analyzed detailedly its interactions with the neuropsychiatric drugs and chemotherapeutics in t"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "二氢杨梅素药理及药物相互作用研究进展_周海云.pdf",
+          "chunk_index": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "raw_text": "具有抑制包括肝癌、乳腺癌、卵巢癌在内的肿瘤活性的作用",
+          "chunk_id": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "data": "杨梅素的深入研究以及药物开发利用提供科学依据。\nResearch progress on pharmacological effects of dihydromyricetin and its interactions with drugs\nZHOU Hai-yun, WANG Wen-qing, SHI Chun-yang, XIONG Wei, FANG Jian-guo Department of Pharmacy, Tongji Hospital Affiliated to Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China Abstract: Dihydromyricetin (DMY) is the main flavonoid compound in Ampelopsis grossedentata. It is popular for various biological and pharmacological activities including antiflammatory, antibacterial, antitumor, regulating blood fat, hypolipidemic, and protecting liver function. Recently studies have suggested that DMY works as neuroprotective molecular, ameliorating neurological abnormal symptoms in the Alzheimer’s disease, Parkinson’s disease, alcohol addiction, major depression disorder and so on. This paper reviewed various pharmacological effects of DMY and analyzed detailedly its interactions with the neuropsychiatric drugs and chemotherapeutics in t"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "二氢杨梅素药理及药物相互作用研究进展_周海云.pdf",
+          "chunk_index": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "raw_text": "具有抑制包括肝癌、乳腺癌、卵巢癌在内的肿瘤活性的作用",
+          "chunk_id": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "data": "杨梅素的深入研究以及药物开发利用提供科学依据。\nResearch progress on pharmacological effects of dihydromyricetin and its interactions with drugs\nZHOU Hai-yun, WANG Wen-qing, SHI Chun-yang, XIONG Wei, FANG Jian-guo Department of Pharmacy, Tongji Hospital Affiliated to Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China Abstract: Dihydromyricetin (DMY) is the main flavonoid compound in Ampelopsis grossedentata. It is popular for various biological and pharmacological activities including antiflammatory, antibacterial, antitumor, regulating blood fat, hypolipidemic, and protecting liver function. Recently studies have suggested that DMY works as neuroprotective molecular, ameliorating neurological abnormal symptoms in the Alzheimer’s disease, Parkinson’s disease, alcohol addiction, major depression disorder and so on. This paper reviewed various pharmacological effects of DMY and analyzed detailedly its interactions with the neuropsychiatric drugs and chemotherapeutics in t"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "二氢杨梅素药理及药物相互作用研究进展_周海云.pdf",
+          "chunk_index": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "raw_text": "具有抑制包括肝癌、乳腺癌、卵巢癌在内的肿瘤活性的作用",
+          "chunk_id": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "data": "杨梅素的深入研究以及药物开发利用提供科学依据。\nResearch progress on pharmacological effects of dihydromyricetin and its interactions with drugs\nZHOU Hai-yun, WANG Wen-qing, SHI Chun-yang, XIONG Wei, FANG Jian-guo Department of Pharmacy, Tongji Hospital Affiliated to Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China Abstract: Dihydromyricetin (DMY) is the main flavonoid compound in Ampelopsis grossedentata. It is popular for various biological and pharmacological activities including antiflammatory, antibacterial, antitumor, regulating blood fat, hypolipidemic, and protecting liver function. Recently studies have suggested that DMY works as neuroprotective molecular, ameliorating neurological abnormal symptoms in the Alzheimer’s disease, Parkinson’s disease, alcohol addiction, major depression disorder and so on. This paper reviewed various pharmacological effects of DMY and analyzed detailedly its interactions with the neuropsychiatric drugs and chemotherapeutics in t"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "二氢杨梅素药理及药物相互作用研究进展_周海云.pdf",
+          "chunk_index": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "raw_text": "对高血压、高血脂以及血糖异常具有改善作用",
+          "chunk_id": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "data": "杨梅素的深入研究以及药物开发利用提供科学依据。\nResearch progress on pharmacological effects of dihydromyricetin and its interactions with drugs\nZHOU Hai-yun, WANG Wen-qing, SHI Chun-yang, XIONG Wei, FANG Jian-guo Department of Pharmacy, Tongji Hospital Affiliated to Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China Abstract: Dihydromyricetin (DMY) is the main flavonoid compound in Ampelopsis grossedentata. It is popular for various biological and pharmacological activities including antiflammatory, antibacterial, antitumor, regulating blood fat, hypolipidemic, and protecting liver function. Recently studies have suggested that DMY works as neuroprotective molecular, ameliorating neurological abnormal symptoms in the Alzheimer’s disease, Parkinson’s disease, alcohol addiction, major depression disorder and so on. This paper reviewed various pharmacological effects of DMY and analyzed detailedly its interactions with the neuropsychiatric drugs and chemotherapeutics in t"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "二氢杨梅素药理及药物相互作用研究进展_周海云.pdf",
+          "chunk_index": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "raw_text": "对高血压、高血脂以及血糖异常具有改善作用",
+          "chunk_id": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "data": "杨梅素的深入研究以及药物开发利用提供科学依据。\nResearch progress on pharmacological effects of dihydromyricetin and its interactions with drugs\nZHOU Hai-yun, WANG Wen-qing, SHI Chun-yang, XIONG Wei, FANG Jian-guo Department of Pharmacy, Tongji Hospital Affiliated to Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China Abstract: Dihydromyricetin (DMY) is the main flavonoid compound in Ampelopsis grossedentata. It is popular for various biological and pharmacological activities including antiflammatory, antibacterial, antitumor, regulating blood fat, hypolipidemic, and protecting liver function. Recently studies have suggested that DMY works as neuroprotective molecular, ameliorating neurological abnormal symptoms in the Alzheimer’s disease, Parkinson’s disease, alcohol addiction, major depression disorder and so on. This paper reviewed various pharmacological effects of DMY and analyzed detailedly its interactions with the neuropsychiatric drugs and chemotherapeutics in t"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "二氢杨梅素药理及药物相互作用研究进展_周海云.pdf",
+          "chunk_index": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "raw_text": "对高血压、高血脂以及血糖异常具有改善作用",
+          "chunk_id": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "data": "杨梅素的深入研究以及药物开发利用提供科学依据。\nResearch progress on pharmacological effects of dihydromyricetin and its interactions with drugs\nZHOU Hai-yun, WANG Wen-qing, SHI Chun-yang, XIONG Wei, FANG Jian-guo Department of Pharmacy, Tongji Hospital Affiliated to Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China Abstract: Dihydromyricetin (DMY) is the main flavonoid compound in Ampelopsis grossedentata. It is popular for various biological and pharmacological activities including antiflammatory, antibacterial, antitumor, regulating blood fat, hypolipidemic, and protecting liver function. Recently studies have suggested that DMY works as neuroprotective molecular, ameliorating neurological abnormal symptoms in the Alzheimer’s disease, Parkinson’s disease, alcohol addiction, major depression disorder and so on. This paper reviewed various pharmacological effects of DMY and analyzed detailedly its interactions with the neuropsychiatric drugs and chemotherapeutics in t"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "二氢杨梅素药理及药物相互作用研究进展_周海云.pdf",
+          "chunk_index": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "raw_text": "对阿尔茨海默病、帕金森病、酒精成瘾及抑郁症也有很好的神经保护活性",
+          "chunk_id": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "data": "杨梅素的深入研究以及药物开发利用提供科学依据。\nResearch progress on pharmacological effects of dihydromyricetin and its interactions with drugs\nZHOU Hai-yun, WANG Wen-qing, SHI Chun-yang, XIONG Wei, FANG Jian-guo Department of Pharmacy, Tongji Hospital Affiliated to Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China Abstract: Dihydromyricetin (DMY) is the main flavonoid compound in Ampelopsis grossedentata. It is popular for various biological and pharmacological activities including antiflammatory, antibacterial, antitumor, regulating blood fat, hypolipidemic, and protecting liver function. Recently studies have suggested that DMY works as neuroprotective molecular, ameliorating neurological abnormal symptoms in the Alzheimer’s disease, Parkinson’s disease, alcohol addiction, major depression disorder and so on. This paper reviewed various pharmacological effects of DMY and analyzed detailedly its interactions with the neuropsychiatric drugs and chemotherapeutics in t"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "二氢杨梅素药理及药物相互作用研究进展_周海云.pdf",
+          "chunk_index": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "raw_text": "对阿尔茨海默病、帕金森病、酒精成瘾及抑郁症也有很好的神经保护活性",
+          "chunk_id": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "data": "杨梅素的深入研究以及药物开发利用提供科学依据。\nResearch progress on pharmacological effects of dihydromyricetin and its interactions with drugs\nZHOU Hai-yun, WANG Wen-qing, SHI Chun-yang, XIONG Wei, FANG Jian-guo Department of Pharmacy, Tongji Hospital Affiliated to Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China Abstract: Dihydromyricetin (DMY) is the main flavonoid compound in Ampelopsis grossedentata. It is popular for various biological and pharmacological activities including antiflammatory, antibacterial, antitumor, regulating blood fat, hypolipidemic, and protecting liver function. Recently studies have suggested that DMY works as neuroprotective molecular, ameliorating neurological abnormal symptoms in the Alzheimer’s disease, Parkinson’s disease, alcohol addiction, major depression disorder and so on. This paper reviewed various pharmacological effects of DMY and analyzed detailedly its interactions with the neuropsychiatric drugs and chemotherapeutics in t"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "二氢杨梅素药理及药物相互作用研究进展_周海云.pdf",
+          "chunk_index": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "raw_text": "对阿尔茨海默病、帕金森病、酒精成瘾及抑郁症也有很好的神经保护活性",
+          "chunk_id": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "data": "杨梅素的深入研究以及药物开发利用提供科学依据。\nResearch progress on pharmacological effects of dihydromyricetin and its interactions with drugs\nZHOU Hai-yun, WANG Wen-qing, SHI Chun-yang, XIONG Wei, FANG Jian-guo Department of Pharmacy, Tongji Hospital Affiliated to Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China Abstract: Dihydromyricetin (DMY) is the main flavonoid compound in Ampelopsis grossedentata. It is popular for various biological and pharmacological activities including antiflammatory, antibacterial, antitumor, regulating blood fat, hypolipidemic, and protecting liver function. Recently studies have suggested that DMY works as neuroprotective molecular, ameliorating neurological abnormal symptoms in the Alzheimer’s disease, Parkinson’s disease, alcohol addiction, major depression disorder and so on. This paper reviewed various pharmacological effects of DMY and analyzed detailedly its interactions with the neuropsychiatric drugs and chemotherapeutics in t"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "二氢杨梅素药理及药物相互作用研究进展_周海云.pdf",
+          "chunk_index": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "raw_text": "对阿尔茨海默病、帕金森病、酒精成瘾及抑郁症也有很好的神经保护活性",
+          "chunk_id": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "data": "杨梅素的深入研究以及药物开发利用提供科学依据。\nResearch progress on pharmacological effects of dihydromyricetin and its interactions with drugs\nZHOU Hai-yun, WANG Wen-qing, SHI Chun-yang, XIONG Wei, FANG Jian-guo Department of Pharmacy, Tongji Hospital Affiliated to Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China Abstract: Dihydromyricetin (DMY) is the main flavonoid compound in Ampelopsis grossedentata. It is popular for various biological and pharmacological activities including antiflammatory, antibacterial, antitumor, regulating blood fat, hypolipidemic, and protecting liver function. Recently studies have suggested that DMY works as neuroprotective molecular, ameliorating neurological abnormal symptoms in the Alzheimer’s disease, Parkinson’s disease, alcohol addiction, major depression disorder and so on. This paper reviewed various pharmacological effects of DMY and analyzed detailedly its interactions with the neuropsychiatric drugs and chemotherapeutics in t"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "二氢杨梅素药理及药物相互作用研究进展_周海云.pdf",
+          "chunk_index": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "raw_text": "分析了其与神经精神药物和化疗药物在代谢和药效学方面的相互作用",
+          "chunk_id": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "data": "杨梅素的深入研究以及药物开发利用提供科学依据。\nResearch progress on pharmacological effects of dihydromyricetin and its interactions with drugs\nZHOU Hai-yun, WANG Wen-qing, SHI Chun-yang, XIONG Wei, FANG Jian-guo Department of Pharmacy, Tongji Hospital Affiliated to Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China Abstract: Dihydromyricetin (DMY) is the main flavonoid compound in Ampelopsis grossedentata. It is popular for various biological and pharmacological activities including antiflammatory, antibacterial, antitumor, regulating blood fat, hypolipidemic, and protecting liver function. Recently studies have suggested that DMY works as neuroprotective molecular, ameliorating neurological abnormal symptoms in the Alzheimer’s disease, Parkinson’s disease, alcohol addiction, major depression disorder and so on. This paper reviewed various pharmacological effects of DMY and analyzed detailedly its interactions with the neuropsychiatric drugs and chemotherapeutics in t"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "二氢杨梅素药理及药物相互作用研究进展_周海云.pdf",
+          "chunk_index": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "raw_text": "分析了其与神经精神药物和化疗药物在代谢和药效学方面的相互作用",
+          "chunk_id": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+          "data": "杨梅素的深入研究以及药物开发利用提供科学依据。\nResearch progress on pharmacological effects of dihydromyricetin and its interactions with drugs\nZHOU Hai-yun, WANG Wen-qing, SHI Chun-yang, XIONG Wei, FANG Jian-guo Department of Pharmacy, Tongji Hospital Affiliated to Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China Abstract: Dihydromyricetin (DMY) is the main flavonoid compound in Ampelopsis grossedentata. It is popular for various biological and pharmacological activities including antiflammatory, antibacterial, antitumor, regulating blood fat, hypolipidemic, and protecting liver function. Recently studies have suggested that DMY works as neuroprotective molecular, ameliorating neurological abnormal symptoms in the Alzheimer’s disease, Parkinson’s disease, alcohol addiction, major depression disorder and so on. This paper reviewed various pharmacological effects of DMY and analyzed detailedly its interactions with the neuropsychiatric drugs and chemotherapeutics in t"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "二氢杨梅素药理及药物相互作用研究进展_周海云:1",
+    "source": "二氢杨梅素药理及药物相互作用研究进展_周海云.pdf",
+    "text": "杨梅素的深入研究以及药物开发利用提供科学依据。\nResearch progress on pharmacological effects of dihydromyricetin and its interactions with drugs\nZHOU Hai-yun, WANG Wen-qing, SHI Chun-yang, XIONG Wei, FANG Jian-guo Department of Pharmacy, Tongji Hospital Affiliated to Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China Abstract: Dihydromyricetin (DMY) is the main flavonoid compound in Ampelopsis grossedentata. It is popular for various biological and pharmacological activities including antiflammatory, antibacterial, antitumor, regulating blood fat, hypolipidemic, and protecting liver function. Recently studies have suggested that DMY works as neuroprotective molecular, ameliorating neurological abnormal symptoms in the Alzheimer’s disease, Parkinson’s disease, alcohol addiction, major depression disorder and so on. This paper reviewed various pharmacological effects of DMY and analyzed detailedly its interactions with the neuropsychiatric drugs and chemotherapeutics in the metabolism and pharmacodynamics perspectives in the last decade. We further elucidate the role of DMY in the combined medication, aiming to provide scientific reference for its potential in clinic.二氢杨梅素（dihydromyricelin，DMY 或 DHM）又名双氢杨梅素、蛇葡萄素（ampelopsin，AMP）、白蔹素等。1940 年，从葡萄科蛇葡萄属植物楝叶玉葡萄 Ampelopsis meliaefolia (Hand. -Mazz.) W. T.Wang 叶中首次分离得到该化合物，命名为蛇葡萄素[1]。1996 年，周天达等[2]再次从藤茶的茎叶中分离得到该化合物，并命名为二氢杨梅素。二氢杨梅素是一种多酚羟基双氢黄酮醇类化合物，存在于葡萄科（Vitaceae）、杨梅科（Myricaceae）、杜鹃科（ Cuculidae ）、 藤黄科 （ Guttiferae ）、 大戟科（Euphorbiaceaec）、橄榄科（Burseraceae）、豆科（Leguminosae）、山榄科（Sapotaceae）等植物中，其中以葡萄科蛇葡萄属植物显齿蛇葡萄 Ampelopsisgrossedentata (Hand. -Mazz.) W. T. Wang，即藤茶中含量最为丰富，高达 37.4%～38.5%[3-4]。目前已有研究表明，二氢杨梅素除了具有黄酮类化合物的保肝护肝、抗氧化、抗菌等一般特性外，还具有抑制包括肝癌、乳腺癌、卵巢癌在内的肿瘤活性的作用，对高血压、高血脂以及血糖异常具有改善作用，特别是最近有研究发现其对阿尔茨海默病（Alzheimer’sdisease，AD）、帕金森病（Parkinson’ s disease，PD）、酒精成瘾及抑郁症也有很好的神经保护活性。近年来，随着对二氢杨梅素药理和药效学认识的不断深入，其在体内外与其他药物之间的相互作用也逐渐得到广泛关注。本文将对近几年二氢杨梅素药理作用，包括药物之间相互作用的研究进展进行综述，以期为二氢杨梅素进一步体内药理作用研究、剂型开发、合理应用等方面提供科学依据。"
+  }
+]

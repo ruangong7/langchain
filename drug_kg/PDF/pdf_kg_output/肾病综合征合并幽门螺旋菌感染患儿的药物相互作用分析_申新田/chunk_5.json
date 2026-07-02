@@ -1,0 +1,199 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "canonical_name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Indicator",
+        "name": "血常规",
+        "canonical_name": "血常规",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "血压",
+        "canonical_name": "血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "血糖",
+        "canonical_name": "血糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "血清肌酸酐",
+        "canonical_name": "血清肌酸酐",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "尿素氮",
+        "canonical_name": "尿素氮",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "谷丙转氨酶",
+        "canonical_name": "谷丙转氨酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "谷草转氨酶",
+        "canonical_name": "谷草转氨酶",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "CYP3A5基因型",
+        "canonical_name": "CYP3A5基因型",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "5",
+          "raw_text": "住院期间每周监测TAC 血药浓度",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:5",
+          "data": "1 }$ 。 住院期间每周监测TAC 血药浓度; 监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等; 检测患儿细胞色素 P450 3A5( CYP3A5) 基因型 。\n2. 3 治疗前后化验指标变化\n患儿第10 天24 h 尿蛋白定量降低至0. $6 0 \\mathrm { \\ g } \\bullet 2 4 \\mathrm { h } ^ { - 1 }$ ，第11 天测蛋白肌酸酐比0. 1，出院; 第18 天出现尿蛋白 $3 + \\sim 4 +$ ，第 23 天再次入院，第 28 天尿蛋白降至$1 . 5 7 \\mathrm { ~ g ~ } ^ { \\bullet } 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ ，第 35 天尿蛋白降至 0. 01 $\\mathrm { ~ g ~ } \\cdot 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ 。血浆白蛋白第11 天升高至 $1 9 . 0 \\ \\mathrm { g \\cdot L ^ { - 1 } }$ ，第25 天升高至 $2 4 . 8 \\mathrm { ~ g ~ } \\cdot \\mathrm { ~ L ~ } ^ { - 1 }$ ，第 35 天升高至 $2 9 . 1 \\ \\mathrm { g } \\bullet \\ \\mathrm { L } ^ { - 1 }$ 。\n1. 3 入院诊断\n入院诊断为 NS，原发性，单纯型，继发激素耐药，频复发，病理为微小病变。\n3 讨论"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "5",
+          "raw_text": "监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:5",
+          "data": "1 }$ 。 住院期间每周监测TAC 血药浓度; 监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等; 检测患儿细胞色素 P450 3A5( CYP3A5) 基因型 。\n2. 3 治疗前后化验指标变化\n患儿第10 天24 h 尿蛋白定量降低至0. $6 0 \\mathrm { \\ g } \\bullet 2 4 \\mathrm { h } ^ { - 1 }$ ，第11 天测蛋白肌酸酐比0. 1，出院; 第18 天出现尿蛋白 $3 + \\sim 4 +$ ，第 23 天再次入院，第 28 天尿蛋白降至$1 . 5 7 \\mathrm { ~ g ~ } ^ { \\bullet } 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ ，第 35 天尿蛋白降至 0. 01 $\\mathrm { ~ g ~ } \\cdot 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ 。血浆白蛋白第11 天升高至 $1 9 . 0 \\ \\mathrm { g \\cdot L ^ { - 1 } }$ ，第25 天升高至 $2 4 . 8 \\mathrm { ~ g ~ } \\cdot \\mathrm { ~ L ~ } ^ { - 1 }$ ，第 35 天升高至 $2 9 . 1 \\ \\mathrm { g } \\bullet \\ \\mathrm { L } ^ { - 1 }$ 。\n1. 3 入院诊断\n入院诊断为 NS，原发性，单纯型，继发激素耐药，频复发，病理为微小病变。\n3 讨论"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "5",
+          "raw_text": "监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:5",
+          "data": "1 }$ 。 住院期间每周监测TAC 血药浓度; 监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等; 检测患儿细胞色素 P450 3A5( CYP3A5) 基因型 。\n2. 3 治疗前后化验指标变化\n患儿第10 天24 h 尿蛋白定量降低至0. $6 0 \\mathrm { \\ g } \\bullet 2 4 \\mathrm { h } ^ { - 1 }$ ，第11 天测蛋白肌酸酐比0. 1，出院; 第18 天出现尿蛋白 $3 + \\sim 4 +$ ，第 23 天再次入院，第 28 天尿蛋白降至$1 . 5 7 \\mathrm { ~ g ~ } ^ { \\bullet } 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ ，第 35 天尿蛋白降至 0. 01 $\\mathrm { ~ g ~ } \\cdot 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ 。血浆白蛋白第11 天升高至 $1 9 . 0 \\ \\mathrm { g \\cdot L ^ { - 1 } }$ ，第25 天升高至 $2 4 . 8 \\mathrm { ~ g ~ } \\cdot \\mathrm { ~ L ~ } ^ { - 1 }$ ，第 35 天升高至 $2 9 . 1 \\ \\mathrm { g } \\bullet \\ \\mathrm { L } ^ { - 1 }$ 。\n1. 3 入院诊断\n入院诊断为 NS，原发性，单纯型，继发激素耐药，频复发，病理为微小病变。\n3 讨论"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "5",
+          "raw_text": "监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:5",
+          "data": "1 }$ 。 住院期间每周监测TAC 血药浓度; 监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等; 检测患儿细胞色素 P450 3A5( CYP3A5) 基因型 。\n2. 3 治疗前后化验指标变化\n患儿第10 天24 h 尿蛋白定量降低至0. $6 0 \\mathrm { \\ g } \\bullet 2 4 \\mathrm { h } ^ { - 1 }$ ，第11 天测蛋白肌酸酐比0. 1，出院; 第18 天出现尿蛋白 $3 + \\sim 4 +$ ，第 23 天再次入院，第 28 天尿蛋白降至$1 . 5 7 \\mathrm { ~ g ~ } ^ { \\bullet } 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ ，第 35 天尿蛋白降至 0. 01 $\\mathrm { ~ g ~ } \\cdot 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ 。血浆白蛋白第11 天升高至 $1 9 . 0 \\ \\mathrm { g \\cdot L ^ { - 1 } }$ ，第25 天升高至 $2 4 . 8 \\mathrm { ~ g ~ } \\cdot \\mathrm { ~ L ~ } ^ { - 1 }$ ，第 35 天升高至 $2 9 . 1 \\ \\mathrm { g } \\bullet \\ \\mathrm { L } ^ { - 1 }$ 。\n1. 3 入院诊断\n入院诊断为 NS，原发性，单纯型，继发激素耐药，频复发，病理为微小病变。\n3 讨论"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "5",
+          "raw_text": "监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:5",
+          "data": "1 }$ 。 住院期间每周监测TAC 血药浓度; 监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等; 检测患儿细胞色素 P450 3A5( CYP3A5) 基因型 。\n2. 3 治疗前后化验指标变化\n患儿第10 天24 h 尿蛋白定量降低至0. $6 0 \\mathrm { \\ g } \\bullet 2 4 \\mathrm { h } ^ { - 1 }$ ，第11 天测蛋白肌酸酐比0. 1，出院; 第18 天出现尿蛋白 $3 + \\sim 4 +$ ，第 23 天再次入院，第 28 天尿蛋白降至$1 . 5 7 \\mathrm { ~ g ~ } ^ { \\bullet } 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ ，第 35 天尿蛋白降至 0. 01 $\\mathrm { ~ g ~ } \\cdot 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ 。血浆白蛋白第11 天升高至 $1 9 . 0 \\ \\mathrm { g \\cdot L ^ { - 1 } }$ ，第25 天升高至 $2 4 . 8 \\mathrm { ~ g ~ } \\cdot \\mathrm { ~ L ~ } ^ { - 1 }$ ，第 35 天升高至 $2 9 . 1 \\ \\mathrm { g } \\bullet \\ \\mathrm { L } ^ { - 1 }$ 。\n1. 3 入院诊断\n入院诊断为 NS，原发性，单纯型，继发激素耐药，频复发，病理为微小病变。\n3 讨论"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "5",
+          "raw_text": "监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:5",
+          "data": "1 }$ 。 住院期间每周监测TAC 血药浓度; 监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等; 检测患儿细胞色素 P450 3A5( CYP3A5) 基因型 。\n2. 3 治疗前后化验指标变化\n患儿第10 天24 h 尿蛋白定量降低至0. $6 0 \\mathrm { \\ g } \\bullet 2 4 \\mathrm { h } ^ { - 1 }$ ，第11 天测蛋白肌酸酐比0. 1，出院; 第18 天出现尿蛋白 $3 + \\sim 4 +$ ，第 23 天再次入院，第 28 天尿蛋白降至$1 . 5 7 \\mathrm { ~ g ~ } ^ { \\bullet } 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ ，第 35 天尿蛋白降至 0. 01 $\\mathrm { ~ g ~ } \\cdot 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ 。血浆白蛋白第11 天升高至 $1 9 . 0 \\ \\mathrm { g \\cdot L ^ { - 1 } }$ ，第25 天升高至 $2 4 . 8 \\mathrm { ~ g ~ } \\cdot \\mathrm { ~ L ~ } ^ { - 1 }$ ，第 35 天升高至 $2 9 . 1 \\ \\mathrm { g } \\bullet \\ \\mathrm { L } ^ { - 1 }$ 。\n1. 3 入院诊断\n入院诊断为 NS，原发性，单纯型，继发激素耐药，频复发，病理为微小病变。\n3 讨论"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "5",
+          "raw_text": "监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:5",
+          "data": "1 }$ 。 住院期间每周监测TAC 血药浓度; 监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等; 检测患儿细胞色素 P450 3A5( CYP3A5) 基因型 。\n2. 3 治疗前后化验指标变化\n患儿第10 天24 h 尿蛋白定量降低至0. $6 0 \\mathrm { \\ g } \\bullet 2 4 \\mathrm { h } ^ { - 1 }$ ，第11 天测蛋白肌酸酐比0. 1，出院; 第18 天出现尿蛋白 $3 + \\sim 4 +$ ，第 23 天再次入院，第 28 天尿蛋白降至$1 . 5 7 \\mathrm { ~ g ~ } ^ { \\bullet } 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ ，第 35 天尿蛋白降至 0. 01 $\\mathrm { ~ g ~ } \\cdot 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ 。血浆白蛋白第11 天升高至 $1 9 . 0 \\ \\mathrm { g \\cdot L ^ { - 1 } }$ ，第25 天升高至 $2 4 . 8 \\mathrm { ~ g ~ } \\cdot \\mathrm { ~ L ~ } ^ { - 1 }$ ，第 35 天升高至 $2 9 . 1 \\ \\mathrm { g } \\bullet \\ \\mathrm { L } ^ { - 1 }$ 。\n1. 3 入院诊断\n入院诊断为 NS，原发性，单纯型，继发激素耐药，频复发，病理为微小病变。\n3 讨论"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "5",
+          "raw_text": "监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:5",
+          "data": "1 }$ 。 住院期间每周监测TAC 血药浓度; 监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等; 检测患儿细胞色素 P450 3A5( CYP3A5) 基因型 。\n2. 3 治疗前后化验指标变化\n患儿第10 天24 h 尿蛋白定量降低至0. $6 0 \\mathrm { \\ g } \\bullet 2 4 \\mathrm { h } ^ { - 1 }$ ，第11 天测蛋白肌酸酐比0. 1，出院; 第18 天出现尿蛋白 $3 + \\sim 4 +$ ，第 23 天再次入院，第 28 天尿蛋白降至$1 . 5 7 \\mathrm { ~ g ~ } ^ { \\bullet } 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ ，第 35 天尿蛋白降至 0. 01 $\\mathrm { ~ g ~ } \\cdot 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ 。血浆白蛋白第11 天升高至 $1 9 . 0 \\ \\mathrm { g \\cdot L ^ { - 1 } }$ ，第25 天升高至 $2 4 . 8 \\mathrm { ~ g ~ } \\cdot \\mathrm { ~ L ~ } ^ { - 1 }$ ，第 35 天升高至 $2 9 . 1 \\ \\mathrm { g } \\bullet \\ \\mathrm { L } ^ { - 1 }$ 。\n1. 3 入院诊断\n入院诊断为 NS，原发性，单纯型，继发激素耐药，频复发，病理为微小病变。\n3 讨论"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "5",
+          "raw_text": "检测患儿细胞色素 P450 3A5( CYP3A5) 基因型",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:5",
+          "data": "1 }$ 。 住院期间每周监测TAC 血药浓度; 监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等; 检测患儿细胞色素 P450 3A5( CYP3A5) 基因型 。\n2. 3 治疗前后化验指标变化\n患儿第10 天24 h 尿蛋白定量降低至0. $6 0 \\mathrm { \\ g } \\bullet 2 4 \\mathrm { h } ^ { - 1 }$ ，第11 天测蛋白肌酸酐比0. 1，出院; 第18 天出现尿蛋白 $3 + \\sim 4 +$ ，第 23 天再次入院，第 28 天尿蛋白降至$1 . 5 7 \\mathrm { ~ g ~ } ^ { \\bullet } 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ ，第 35 天尿蛋白降至 0. 01 $\\mathrm { ~ g ~ } \\cdot 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ 。血浆白蛋白第11 天升高至 $1 9 . 0 \\ \\mathrm { g \\cdot L ^ { - 1 } }$ ，第25 天升高至 $2 4 . 8 \\mathrm { ~ g ~ } \\cdot \\mathrm { ~ L ~ } ^ { - 1 }$ ，第 35 天升高至 $2 9 . 1 \\ \\mathrm { g } \\bullet \\ \\mathrm { L } ^ { - 1 }$ 。\n1. 3 入院诊断\n入院诊断为 NS，原发性，单纯型，继发激素耐药，频复发，病理为微小病变。\n3 讨论"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:5",
+    "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+    "text": "1 }$ 。 住院期间每周监测TAC 血药浓度; 监测 TAC 药物不良反应，如血常规、血压、血糖、血清肌酸酐、尿素氮、谷丙转氨酶( ALT) 、谷草转氨酶( AST) 等; 检测患儿细胞色素 P450 3A5( CYP3A5) 基因型 。\n2. 3 治疗前后化验指标变化\n患儿第10 天24 h 尿蛋白定量降低至0. $6 0 \\mathrm { \\ g } \\bullet 2 4 \\mathrm { h } ^ { - 1 }$ ，第11 天测蛋白肌酸酐比0. 1，出院; 第18 天出现尿蛋白 $3 + \\sim 4 +$ ，第 23 天再次入院，第 28 天尿蛋白降至$1 . 5 7 \\mathrm { ~ g ~ } ^ { \\bullet } 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ ，第 35 天尿蛋白降至 0. 01 $\\mathrm { ~ g ~ } \\cdot 2 4 \\mathrm { ~ h ~ } ^ { - 1 }$ 。血浆白蛋白第11 天升高至 $1 9 . 0 \\ \\mathrm { g \\cdot L ^ { - 1 } }$ ，第25 天升高至 $2 4 . 8 \\mathrm { ~ g ~ } \\cdot \\mathrm { ~ L ~ } ^ { - 1 }$ ，第 35 天升高至 $2 9 . 1 \\ \\mathrm { g } \\bullet \\ \\mathrm { L } ^ { - 1 }$ 。\n1. 3 入院诊断\n入院诊断为 NS，原发性，单纯型，继发激素耐药，频复发，病理为微小病变。\n3 讨论"
+  }
+]

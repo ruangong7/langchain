@@ -1,0 +1,166 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "甲双胍",
+        "canonical_name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "依格列汀",
+        "canonical_name": "依格列汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "DPP-4i",
+        "canonical_name": "DPP-4抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "SGLT-2i",
+        "canonical_name": "SGLT-2抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "乳酸酸中毒",
+        "canonical_name": "乳酸酸中毒",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "INR",
+        "canonical_name": "国际标准化比值",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "血糖",
+        "canonical_name": "血糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "尿糖排泄",
+        "canonical_name": "尿糖排泄",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "药物相互作用早期临床研究在创新降糖药中的应用进展_项雪梅.pdf",
+          "chunk_index": "10",
+          "raw_text": "甲双胍依赖于有阳离子转运体 （OCT1）的肝窦摄取而肝脏是发挥甲双胍降糖作用和产生罕见的严重毒性-乳酸酸中毒的主要部位",
+          "chunk_id": "药物相互作用早期临床研究在创新降糖药中的应用进展_项雪梅:10",
+          "data": "f } }$ 及 $C _ { \\mathrm { m a x } }$ 等 PK 参数作为终指标在合及不合使用促药时 PK 参数的均值比 90%置信区处于 80%\\~125%时可以为 DDI 无临床意义[1-3] 。\n6.2 药效学指标\n甲双胍依赖于有阳离子转运体 （OCT1）的肝窦摄取而肝脏是发挥甲双胍降糖作用和产生罕见的严重毒性-乳酸酸中毒的主要部位另外它主要是过转运体 OCT2/多药及毒性化合物外排转运体 （MATEs）1/2-K 被肾管主动转运清除[45]有报道表明甲双胍的疗效和毒性的改与全身暴露化不完全相 [46] 因此过进行口服葡萄糖耐量试验（OGTT）来评估甲双胍的降血糖作用用该 PD 参数对 PK 指标进行补充是比较合适的[47]在项评估依格列汀与甲双胍的 DDI 研究中以给药前进行 OGTT 试验结果作为基线在每阶段给药稳态再进行 OGTT 试验评价指标可以描为相对基线血糖-时曲线下面积的减少 ΔAUGC 以及血糖峰值差值 $\\Delta G _ { \\mathrm { m a x } }$ OGTT 无效应边界为 0.75\\~1.33[47]另外华法常用的 PD 指标为 INR-时曲线下面积的增量 $\\mathrm { i A U C } _ { \\mathrm { I N R } }$ 以及 $\\mathrm { I N R } _ { \\mathrm { m a x } } ^ { [ 3 7 , 4 4 ] }$ 在 DPP-4i类创新降糖药的 DDI 临床研究中常常采用 DPP-4i 单独使用阶段及与其他药物合用阶段的血浆DPP-4 活性的效应-时曲线下面积作为 PD 终对于 SGLT-2i 类创新降糖药的 DDI 临床研究常常进行每个时段内尿糖排泄（UGE） 测作为PD 指标[41 ，42]\nApplication Progress of Early Phase Clinical Drug Interaction Studies in Innovative Hypoglycemic Agents\\*"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "药物相互作用早期临床研究在创新降糖药中的应用进展_项雪梅.pdf",
+          "chunk_index": "10",
+          "raw_text": "过进行口服葡萄糖耐量试验（OGTT）来评估甲双胍的降血糖作用",
+          "chunk_id": "药物相互作用早期临床研究在创新降糖药中的应用进展_项雪梅:10",
+          "data": "f } }$ 及 $C _ { \\mathrm { m a x } }$ 等 PK 参数作为终指标在合及不合使用促药时 PK 参数的均值比 90%置信区处于 80%\\~125%时可以为 DDI 无临床意义[1-3] 。\n6.2 药效学指标\n甲双胍依赖于有阳离子转运体 （OCT1）的肝窦摄取而肝脏是发挥甲双胍降糖作用和产生罕见的严重毒性-乳酸酸中毒的主要部位另外它主要是过转运体 OCT2/多药及毒性化合物外排转运体 （MATEs）1/2-K 被肾管主动转运清除[45]有报道表明甲双胍的疗效和毒性的改与全身暴露化不完全相 [46] 因此过进行口服葡萄糖耐量试验（OGTT）来评估甲双胍的降血糖作用用该 PD 参数对 PK 指标进行补充是比较合适的[47]在项评估依格列汀与甲双胍的 DDI 研究中以给药前进行 OGTT 试验结果作为基线在每阶段给药稳态再进行 OGTT 试验评价指标可以描为相对基线血糖-时曲线下面积的减少 ΔAUGC 以及血糖峰值差值 $\\Delta G _ { \\mathrm { m a x } }$ OGTT 无效应边界为 0.75\\~1.33[47]另外华法常用的 PD 指标为 INR-时曲线下面积的增量 $\\mathrm { i A U C } _ { \\mathrm { I N R } }$ 以及 $\\mathrm { I N R } _ { \\mathrm { m a x } } ^ { [ 3 7 , 4 4 ] }$ 在 DPP-4i类创新降糖药的 DDI 临床研究中常常采用 DPP-4i 单独使用阶段及与其他药物合用阶段的血浆DPP-4 活性的效应-时曲线下面积作为 PD 终对于 SGLT-2i 类创新降糖药的 DDI 临床研究常常进行每个时段内尿糖排泄（UGE） 测作为PD 指标[41 ，42]\nApplication Progress of Early Phase Clinical Drug Interaction Studies in Innovative Hypoglycemic Agents\\*"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "药物相互作用早期临床研究在创新降糖药中的应用进展_项雪梅.pdf",
+          "chunk_index": "10",
+          "raw_text": "华法常用的 PD 指标为 INR-时曲线下面积的增量 iAUC_INR 以及 INR_max",
+          "chunk_id": "药物相互作用早期临床研究在创新降糖药中的应用进展_项雪梅:10",
+          "data": "f } }$ 及 $C _ { \\mathrm { m a x } }$ 等 PK 参数作为终指标在合及不合使用促药时 PK 参数的均值比 90%置信区处于 80%\\~125%时可以为 DDI 无临床意义[1-3] 。\n6.2 药效学指标\n甲双胍依赖于有阳离子转运体 （OCT1）的肝窦摄取而肝脏是发挥甲双胍降糖作用和产生罕见的严重毒性-乳酸酸中毒的主要部位另外它主要是过转运体 OCT2/多药及毒性化合物外排转运体 （MATEs）1/2-K 被肾管主动转运清除[45]有报道表明甲双胍的疗效和毒性的改与全身暴露化不完全相 [46] 因此过进行口服葡萄糖耐量试验（OGTT）来评估甲双胍的降血糖作用用该 PD 参数对 PK 指标进行补充是比较合适的[47]在项评估依格列汀与甲双胍的 DDI 研究中以给药前进行 OGTT 试验结果作为基线在每阶段给药稳态再进行 OGTT 试验评价指标可以描为相对基线血糖-时曲线下面积的减少 ΔAUGC 以及血糖峰值差值 $\\Delta G _ { \\mathrm { m a x } }$ OGTT 无效应边界为 0.75\\~1.33[47]另外华法常用的 PD 指标为 INR-时曲线下面积的增量 $\\mathrm { i A U C } _ { \\mathrm { I N R } }$ 以及 $\\mathrm { I N R } _ { \\mathrm { m a x } } ^ { [ 3 7 , 4 4 ] }$ 在 DPP-4i类创新降糖药的 DDI 临床研究中常常采用 DPP-4i 单独使用阶段及与其他药物合用阶段的血浆DPP-4 活性的效应-时曲线下面积作为 PD 终对于 SGLT-2i 类创新降糖药的 DDI 临床研究常常进行每个时段内尿糖排泄（UGE） 测作为PD 指标[41 ，42]\nApplication Progress of Early Phase Clinical Drug Interaction Studies in Innovative Hypoglycemic Agents\\*"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "药物相互作用早期临床研究在创新降糖药中的应用进展_项雪梅.pdf",
+          "chunk_index": "10",
+          "raw_text": "在项评估依格列汀与甲双胍的 DDI 研究中以给药前进行 OGTT 试验结果作为基线",
+          "chunk_id": "药物相互作用早期临床研究在创新降糖药中的应用进展_项雪梅:10",
+          "data": "f } }$ 及 $C _ { \\mathrm { m a x } }$ 等 PK 参数作为终指标在合及不合使用促药时 PK 参数的均值比 90%置信区处于 80%\\~125%时可以为 DDI 无临床意义[1-3] 。\n6.2 药效学指标\n甲双胍依赖于有阳离子转运体 （OCT1）的肝窦摄取而肝脏是发挥甲双胍降糖作用和产生罕见的严重毒性-乳酸酸中毒的主要部位另外它主要是过转运体 OCT2/多药及毒性化合物外排转运体 （MATEs）1/2-K 被肾管主动转运清除[45]有报道表明甲双胍的疗效和毒性的改与全身暴露化不完全相 [46] 因此过进行口服葡萄糖耐量试验（OGTT）来评估甲双胍的降血糖作用用该 PD 参数对 PK 指标进行补充是比较合适的[47]在项评估依格列汀与甲双胍的 DDI 研究中以给药前进行 OGTT 试验结果作为基线在每阶段给药稳态再进行 OGTT 试验评价指标可以描为相对基线血糖-时曲线下面积的减少 ΔAUGC 以及血糖峰值差值 $\\Delta G _ { \\mathrm { m a x } }$ OGTT 无效应边界为 0.75\\~1.33[47]另外华法常用的 PD 指标为 INR-时曲线下面积的增量 $\\mathrm { i A U C } _ { \\mathrm { I N R } }$ 以及 $\\mathrm { I N R } _ { \\mathrm { m a x } } ^ { [ 3 7 , 4 4 ] }$ 在 DPP-4i类创新降糖药的 DDI 临床研究中常常采用 DPP-4i 单独使用阶段及与其他药物合用阶段的血浆DPP-4 活性的效应-时曲线下面积作为 PD 终对于 SGLT-2i 类创新降糖药的 DDI 临床研究常常进行每个时段内尿糖排泄（UGE） 测作为PD 指标[41 ，42]\nApplication Progress of Early Phase Clinical Drug Interaction Studies in Innovative Hypoglycemic Agents\\*"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "药物相互作用早期临床研究在创新降糖药中的应用进展_项雪梅.pdf",
+          "chunk_index": "10",
+          "raw_text": "DPP-4i类创新降糖药",
+          "chunk_id": "药物相互作用早期临床研究在创新降糖药中的应用进展_项雪梅:10",
+          "data": "f } }$ 及 $C _ { \\mathrm { m a x } }$ 等 PK 参数作为终指标在合及不合使用促药时 PK 参数的均值比 90%置信区处于 80%\\~125%时可以为 DDI 无临床意义[1-3] 。\n6.2 药效学指标\n甲双胍依赖于有阳离子转运体 （OCT1）的肝窦摄取而肝脏是发挥甲双胍降糖作用和产生罕见的严重毒性-乳酸酸中毒的主要部位另外它主要是过转运体 OCT2/多药及毒性化合物外排转运体 （MATEs）1/2-K 被肾管主动转运清除[45]有报道表明甲双胍的疗效和毒性的改与全身暴露化不完全相 [46] 因此过进行口服葡萄糖耐量试验（OGTT）来评估甲双胍的降血糖作用用该 PD 参数对 PK 指标进行补充是比较合适的[47]在项评估依格列汀与甲双胍的 DDI 研究中以给药前进行 OGTT 试验结果作为基线在每阶段给药稳态再进行 OGTT 试验评价指标可以描为相对基线血糖-时曲线下面积的减少 ΔAUGC 以及血糖峰值差值 $\\Delta G _ { \\mathrm { m a x } }$ OGTT 无效应边界为 0.75\\~1.33[47]另外华法常用的 PD 指标为 INR-时曲线下面积的增量 $\\mathrm { i A U C } _ { \\mathrm { I N R } }$ 以及 $\\mathrm { I N R } _ { \\mathrm { m a x } } ^ { [ 3 7 , 4 4 ] }$ 在 DPP-4i类创新降糖药的 DDI 临床研究中常常采用 DPP-4i 单独使用阶段及与其他药物合用阶段的血浆DPP-4 活性的效应-时曲线下面积作为 PD 终对于 SGLT-2i 类创新降糖药的 DDI 临床研究常常进行每个时段内尿糖排泄（UGE） 测作为PD 指标[41 ，42]\nApplication Progress of Early Phase Clinical Drug Interaction Studies in Innovative Hypoglycemic Agents\\*"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "药物相互作用早期临床研究在创新降糖药中的应用进展_项雪梅.pdf",
+          "chunk_index": "10",
+          "raw_text": "DPP-4i 类创新降糖药的 DDI 临床研究中常常采用 DPP-4i 单独使用阶段及与其他药物合用阶段的血浆DPP-4 活性的效应-时曲线下面积作为 PD 终",
+          "chunk_id": "药物相互作用早期临床研究在创新降糖药中的应用进展_项雪梅:10",
+          "data": "f } }$ 及 $C _ { \\mathrm { m a x } }$ 等 PK 参数作为终指标在合及不合使用促药时 PK 参数的均值比 90%置信区处于 80%\\~125%时可以为 DDI 无临床意义[1-3] 。\n6.2 药效学指标\n甲双胍依赖于有阳离子转运体 （OCT1）的肝窦摄取而肝脏是发挥甲双胍降糖作用和产生罕见的严重毒性-乳酸酸中毒的主要部位另外它主要是过转运体 OCT2/多药及毒性化合物外排转运体 （MATEs）1/2-K 被肾管主动转运清除[45]有报道表明甲双胍的疗效和毒性的改与全身暴露化不完全相 [46] 因此过进行口服葡萄糖耐量试验（OGTT）来评估甲双胍的降血糖作用用该 PD 参数对 PK 指标进行补充是比较合适的[47]在项评估依格列汀与甲双胍的 DDI 研究中以给药前进行 OGTT 试验结果作为基线在每阶段给药稳态再进行 OGTT 试验评价指标可以描为相对基线血糖-时曲线下面积的减少 ΔAUGC 以及血糖峰值差值 $\\Delta G _ { \\mathrm { m a x } }$ OGTT 无效应边界为 0.75\\~1.33[47]另外华法常用的 PD 指标为 INR-时曲线下面积的增量 $\\mathrm { i A U C } _ { \\mathrm { I N R } }$ 以及 $\\mathrm { I N R } _ { \\mathrm { m a x } } ^ { [ 3 7 , 4 4 ] }$ 在 DPP-4i类创新降糖药的 DDI 临床研究中常常采用 DPP-4i 单独使用阶段及与其他药物合用阶段的血浆DPP-4 活性的效应-时曲线下面积作为 PD 终对于 SGLT-2i 类创新降糖药的 DDI 临床研究常常进行每个时段内尿糖排泄（UGE） 测作为PD 指标[41 ，42]\nApplication Progress of Early Phase Clinical Drug Interaction Studies in Innovative Hypoglycemic Agents\\*"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_5",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "药物相互作用早期临床研究在创新降糖药中的应用进展_项雪梅.pdf",
+          "chunk_index": "10",
+          "raw_text": "SGLT-2i 类创新降糖药的 DDI 临床研究常常进行每个时段内尿糖排泄（UGE） 测作为PD 指标",
+          "chunk_id": "药物相互作用早期临床研究在创新降糖药中的应用进展_项雪梅:10",
+          "data": "f } }$ 及 $C _ { \\mathrm { m a x } }$ 等 PK 参数作为终指标在合及不合使用促药时 PK 参数的均值比 90%置信区处于 80%\\~125%时可以为 DDI 无临床意义[1-3] 。\n6.2 药效学指标\n甲双胍依赖于有阳离子转运体 （OCT1）的肝窦摄取而肝脏是发挥甲双胍降糖作用和产生罕见的严重毒性-乳酸酸中毒的主要部位另外它主要是过转运体 OCT2/多药及毒性化合物外排转运体 （MATEs）1/2-K 被肾管主动转运清除[45]有报道表明甲双胍的疗效和毒性的改与全身暴露化不完全相 [46] 因此过进行口服葡萄糖耐量试验（OGTT）来评估甲双胍的降血糖作用用该 PD 参数对 PK 指标进行补充是比较合适的[47]在项评估依格列汀与甲双胍的 DDI 研究中以给药前进行 OGTT 试验结果作为基线在每阶段给药稳态再进行 OGTT 试验评价指标可以描为相对基线血糖-时曲线下面积的减少 ΔAUGC 以及血糖峰值差值 $\\Delta G _ { \\mathrm { m a x } }$ OGTT 无效应边界为 0.75\\~1.33[47]另外华法常用的 PD 指标为 INR-时曲线下面积的增量 $\\mathrm { i A U C } _ { \\mathrm { I N R } }$ 以及 $\\mathrm { I N R } _ { \\mathrm { m a x } } ^ { [ 3 7 , 4 4 ] }$ 在 DPP-4i类创新降糖药的 DDI 临床研究中常常采用 DPP-4i 单独使用阶段及与其他药物合用阶段的血浆DPP-4 活性的效应-时曲线下面积作为 PD 终对于 SGLT-2i 类创新降糖药的 DDI 临床研究常常进行每个时段内尿糖排泄（UGE） 测作为PD 指标[41 ，42]\nApplication Progress of Early Phase Clinical Drug Interaction Studies in Innovative Hypoglycemic Agents\\*"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物相互作用早期临床研究在创新降糖药中的应用进展_项雪梅:10",
+    "source": "药物相互作用早期临床研究在创新降糖药中的应用进展_项雪梅.pdf",
+    "text": "f } }$ 及 $C _ { \\mathrm { m a x } }$ 等 PK 参数作为终指标在合及不合使用促药时 PK 参数的均值比 90%置信区处于 80%\\~125%时可以为 DDI 无临床意义[1-3] 。\n6.2 药效学指标\n甲双胍依赖于有阳离子转运体 （OCT1）的肝窦摄取而肝脏是发挥甲双胍降糖作用和产生罕见的严重毒性-乳酸酸中毒的主要部位另外它主要是过转运体 OCT2/多药及毒性化合物外排转运体 （MATEs）1/2-K 被肾管主动转运清除[45]有报道表明甲双胍的疗效和毒性的改与全身暴露化不完全相 [46] 因此过进行口服葡萄糖耐量试验（OGTT）来评估甲双胍的降血糖作用用该 PD 参数对 PK 指标进行补充是比较合适的[47]在项评估依格列汀与甲双胍的 DDI 研究中以给药前进行 OGTT 试验结果作为基线在每阶段给药稳态再进行 OGTT 试验评价指标可以描为相对基线血糖-时曲线下面积的减少 ΔAUGC 以及血糖峰值差值 $\\Delta G _ { \\mathrm { m a x } }$ OGTT 无效应边界为 0.75\\~1.33[47]另外华法常用的 PD 指标为 INR-时曲线下面积的增量 $\\mathrm { i A U C } _ { \\mathrm { I N R } }$ 以及 $\\mathrm { I N R } _ { \\mathrm { m a x } } ^ { [ 3 7 , 4 4 ] }$ 在 DPP-4i类创新降糖药的 DDI 临床研究中常常采用 DPP-4i 单独使用阶段及与其他药物合用阶段的血浆DPP-4 活性的效应-时曲线下面积作为 PD 终对于 SGLT-2i 类创新降糖药的 DDI 临床研究常常进行每个时段内尿糖排泄（UGE） 测作为PD 指标[41 ，42]\nApplication Progress of Early Phase Clinical Drug Interaction Studies in Innovative Hypoglycemic Agents\\*"
+  }
+]

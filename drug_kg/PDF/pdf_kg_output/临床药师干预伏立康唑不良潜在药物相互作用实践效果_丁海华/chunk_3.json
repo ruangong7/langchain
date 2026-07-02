@@ -1,0 +1,279 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "canonical_name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "地塞米松",
+        "canonical_name": "地塞米松",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "辛伐他汀",
+        "canonical_name": "辛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "三唑类抗真菌药",
+        "canonical_name": "三唑类抗真菌药",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "CYP2C19底物",
+        "canonical_name": "CYP2C19底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "CYP2C9底物",
+        "canonical_name": "CYP2C9底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "CYP3A4底物",
+        "canonical_name": "CYP3A4底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "CYP2C19抑制剂",
+        "canonical_name": "CYP2C19抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "CYP2C9抑制剂",
+        "canonical_name": "CYP2C9抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "CYP3A4抑制剂",
+        "canonical_name": "CYP3A4抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Disease",
+        "name": "侵袭性肺曲霉菌病",
+        "canonical_name": "侵袭性肺曲霉菌病",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "SideEffect",
+        "name": "药品不良反应",
+        "canonical_name": "药品不良反应",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华.pdf",
+          "chunk_index": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "raw_text": "伏立康唑属第2代三唑类抗真菌药",
+          "chunk_id": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "data": "药安全。\nEffect Analysis of Clinical Pharmacists′ Intervention on Adverse Potential Drug - Drug Interactions of Voriconazole\nDING Haihua1 CHEN Daojun2 WANG Hua3 ZHANG Yunling1 1. Department of Pharmacy Anhui Chest Hospital Hefei Anhui China 230022 2. School of Medical Technology Anhui Medical College Hefei Anhui China 230601 3. Department of Tuberculosis Anhui Chest Hospital Hefei Anhui China 230022 Abstract：Objective To promote the rational use of voriconazole in clinical practice. Methods A catalogue for drug combination classification related to adverse potential drug - drug interactions $\\mathrm { ( \\ p D D I s ) }$ of voriconazole in the hospital was formulated. Clinical pharmacists summarized the risks and medication recommendations for voriconazole - related pDDIs based on pharmacological effects，carried out special training on rational use of voriconazole in clinical departments and real - time intervention on medical orders （prescriptions） through the pre - review prescription sys"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华.pdf",
+          "chunk_index": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "raw_text": "是 CYP2C19，CYP2C9，CYP3A4 的底物及抑制剂",
+          "chunk_id": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "data": "药安全。\nEffect Analysis of Clinical Pharmacists′ Intervention on Adverse Potential Drug - Drug Interactions of Voriconazole\nDING Haihua1 CHEN Daojun2 WANG Hua3 ZHANG Yunling1 1. Department of Pharmacy Anhui Chest Hospital Hefei Anhui China 230022 2. School of Medical Technology Anhui Medical College Hefei Anhui China 230601 3. Department of Tuberculosis Anhui Chest Hospital Hefei Anhui China 230022 Abstract：Objective To promote the rational use of voriconazole in clinical practice. Methods A catalogue for drug combination classification related to adverse potential drug - drug interactions $\\mathrm { ( \\ p D D I s ) }$ of voriconazole in the hospital was formulated. Clinical pharmacists summarized the risks and medication recommendations for voriconazole - related pDDIs based on pharmacological effects，carried out special training on rational use of voriconazole in clinical departments and real - time intervention on medical orders （prescriptions） through the pre - review prescription sys"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华.pdf",
+          "chunk_index": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "raw_text": "是 CYP2C19，CYP2C9，CYP3A4 的底物及抑制剂",
+          "chunk_id": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "data": "药安全。\nEffect Analysis of Clinical Pharmacists′ Intervention on Adverse Potential Drug - Drug Interactions of Voriconazole\nDING Haihua1 CHEN Daojun2 WANG Hua3 ZHANG Yunling1 1. Department of Pharmacy Anhui Chest Hospital Hefei Anhui China 230022 2. School of Medical Technology Anhui Medical College Hefei Anhui China 230601 3. Department of Tuberculosis Anhui Chest Hospital Hefei Anhui China 230022 Abstract：Objective To promote the rational use of voriconazole in clinical practice. Methods A catalogue for drug combination classification related to adverse potential drug - drug interactions $\\mathrm { ( \\ p D D I s ) }$ of voriconazole in the hospital was formulated. Clinical pharmacists summarized the risks and medication recommendations for voriconazole - related pDDIs based on pharmacological effects，carried out special training on rational use of voriconazole in clinical departments and real - time intervention on medical orders （prescriptions） through the pre - review prescription sys"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华.pdf",
+          "chunk_index": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "raw_text": "是 CYP2C19，CYP2C9，CYP3A4 的底物及抑制剂",
+          "chunk_id": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "data": "药安全。\nEffect Analysis of Clinical Pharmacists′ Intervention on Adverse Potential Drug - Drug Interactions of Voriconazole\nDING Haihua1 CHEN Daojun2 WANG Hua3 ZHANG Yunling1 1. Department of Pharmacy Anhui Chest Hospital Hefei Anhui China 230022 2. School of Medical Technology Anhui Medical College Hefei Anhui China 230601 3. Department of Tuberculosis Anhui Chest Hospital Hefei Anhui China 230022 Abstract：Objective To promote the rational use of voriconazole in clinical practice. Methods A catalogue for drug combination classification related to adverse potential drug - drug interactions $\\mathrm { ( \\ p D D I s ) }$ of voriconazole in the hospital was formulated. Clinical pharmacists summarized the risks and medication recommendations for voriconazole - related pDDIs based on pharmacological effects，carried out special training on rational use of voriconazole in clinical departments and real - time intervention on medical orders （prescriptions） through the pre - review prescription sys"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华.pdf",
+          "chunk_index": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "raw_text": "是 CYP2C19，CYP2C9，CYP3A4 的底物及抑制剂",
+          "chunk_id": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "data": "药安全。\nEffect Analysis of Clinical Pharmacists′ Intervention on Adverse Potential Drug - Drug Interactions of Voriconazole\nDING Haihua1 CHEN Daojun2 WANG Hua3 ZHANG Yunling1 1. Department of Pharmacy Anhui Chest Hospital Hefei Anhui China 230022 2. School of Medical Technology Anhui Medical College Hefei Anhui China 230601 3. Department of Tuberculosis Anhui Chest Hospital Hefei Anhui China 230022 Abstract：Objective To promote the rational use of voriconazole in clinical practice. Methods A catalogue for drug combination classification related to adverse potential drug - drug interactions $\\mathrm { ( \\ p D D I s ) }$ of voriconazole in the hospital was formulated. Clinical pharmacists summarized the risks and medication recommendations for voriconazole - related pDDIs based on pharmacological effects，carried out special training on rational use of voriconazole in clinical departments and real - time intervention on medical orders （prescriptions） through the pre - review prescription sys"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华.pdf",
+          "chunk_index": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "raw_text": "是 CYP2C19，CYP2C9，CYP3A4 的底物及抑制剂",
+          "chunk_id": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "data": "药安全。\nEffect Analysis of Clinical Pharmacists′ Intervention on Adverse Potential Drug - Drug Interactions of Voriconazole\nDING Haihua1 CHEN Daojun2 WANG Hua3 ZHANG Yunling1 1. Department of Pharmacy Anhui Chest Hospital Hefei Anhui China 230022 2. School of Medical Technology Anhui Medical College Hefei Anhui China 230601 3. Department of Tuberculosis Anhui Chest Hospital Hefei Anhui China 230022 Abstract：Objective To promote the rational use of voriconazole in clinical practice. Methods A catalogue for drug combination classification related to adverse potential drug - drug interactions $\\mathrm { ( \\ p D D I s ) }$ of voriconazole in the hospital was formulated. Clinical pharmacists summarized the risks and medication recommendations for voriconazole - related pDDIs based on pharmacological effects，carried out special training on rational use of voriconazole in clinical departments and real - time intervention on medical orders （prescriptions） through the pre - review prescription sys"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华.pdf",
+          "chunk_index": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "raw_text": "是 CYP2C19，CYP2C9，CYP3A4 的底物及抑制剂",
+          "chunk_id": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "data": "药安全。\nEffect Analysis of Clinical Pharmacists′ Intervention on Adverse Potential Drug - Drug Interactions of Voriconazole\nDING Haihua1 CHEN Daojun2 WANG Hua3 ZHANG Yunling1 1. Department of Pharmacy Anhui Chest Hospital Hefei Anhui China 230022 2. School of Medical Technology Anhui Medical College Hefei Anhui China 230601 3. Department of Tuberculosis Anhui Chest Hospital Hefei Anhui China 230022 Abstract：Objective To promote the rational use of voriconazole in clinical practice. Methods A catalogue for drug combination classification related to adverse potential drug - drug interactions $\\mathrm { ( \\ p D D I s ) }$ of voriconazole in the hospital was formulated. Clinical pharmacists summarized the risks and medication recommendations for voriconazole - related pDDIs based on pharmacological effects，carried out special training on rational use of voriconazole in clinical departments and real - time intervention on medical orders （prescriptions） through the pre - review prescription sys"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华.pdf",
+          "chunk_index": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "raw_text": "伏立康唑属第2代三唑类抗真菌药，是治疗侵袭性肺曲霉菌病的首选药物",
+          "chunk_id": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "data": "药安全。\nEffect Analysis of Clinical Pharmacists′ Intervention on Adverse Potential Drug - Drug Interactions of Voriconazole\nDING Haihua1 CHEN Daojun2 WANG Hua3 ZHANG Yunling1 1. Department of Pharmacy Anhui Chest Hospital Hefei Anhui China 230022 2. School of Medical Technology Anhui Medical College Hefei Anhui China 230601 3. Department of Tuberculosis Anhui Chest Hospital Hefei Anhui China 230022 Abstract：Objective To promote the rational use of voriconazole in clinical practice. Methods A catalogue for drug combination classification related to adverse potential drug - drug interactions $\\mathrm { ( \\ p D D I s ) }$ of voriconazole in the hospital was formulated. Clinical pharmacists summarized the risks and medication recommendations for voriconazole - related pDDIs based on pharmacological effects，carried out special training on rational use of voriconazole in clinical departments and real - time intervention on medical orders （prescriptions） through the pre - review prescription sys"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华.pdf",
+          "chunk_index": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "raw_text": "伏立康唑与奥美拉唑合用诱导的不良pDDIs频率比例下降",
+          "chunk_id": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "data": "药安全。\nEffect Analysis of Clinical Pharmacists′ Intervention on Adverse Potential Drug - Drug Interactions of Voriconazole\nDING Haihua1 CHEN Daojun2 WANG Hua3 ZHANG Yunling1 1. Department of Pharmacy Anhui Chest Hospital Hefei Anhui China 230022 2. School of Medical Technology Anhui Medical College Hefei Anhui China 230601 3. Department of Tuberculosis Anhui Chest Hospital Hefei Anhui China 230022 Abstract：Objective To promote the rational use of voriconazole in clinical practice. Methods A catalogue for drug combination classification related to adverse potential drug - drug interactions $\\mathrm { ( \\ p D D I s ) }$ of voriconazole in the hospital was formulated. Clinical pharmacists summarized the risks and medication recommendations for voriconazole - related pDDIs based on pharmacological effects，carried out special training on rational use of voriconazole in clinical departments and real - time intervention on medical orders （prescriptions） through the pre - review prescription sys"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华.pdf",
+          "chunk_index": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "raw_text": "伏立康唑与地塞米松合用诱导的不良pDDIs频率比例下降",
+          "chunk_id": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "data": "药安全。\nEffect Analysis of Clinical Pharmacists′ Intervention on Adverse Potential Drug - Drug Interactions of Voriconazole\nDING Haihua1 CHEN Daojun2 WANG Hua3 ZHANG Yunling1 1. Department of Pharmacy Anhui Chest Hospital Hefei Anhui China 230022 2. School of Medical Technology Anhui Medical College Hefei Anhui China 230601 3. Department of Tuberculosis Anhui Chest Hospital Hefei Anhui China 230022 Abstract：Objective To promote the rational use of voriconazole in clinical practice. Methods A catalogue for drug combination classification related to adverse potential drug - drug interactions $\\mathrm { ( \\ p D D I s ) }$ of voriconazole in the hospital was formulated. Clinical pharmacists summarized the risks and medication recommendations for voriconazole - related pDDIs based on pharmacological effects，carried out special training on rational use of voriconazole in clinical departments and real - time intervention on medical orders （prescriptions） through the pre - review prescription sys"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华.pdf",
+          "chunk_index": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "raw_text": "伏立康唑与利福平合用诱导的不良pDDIs频率比例下降",
+          "chunk_id": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "data": "药安全。\nEffect Analysis of Clinical Pharmacists′ Intervention on Adverse Potential Drug - Drug Interactions of Voriconazole\nDING Haihua1 CHEN Daojun2 WANG Hua3 ZHANG Yunling1 1. Department of Pharmacy Anhui Chest Hospital Hefei Anhui China 230022 2. School of Medical Technology Anhui Medical College Hefei Anhui China 230601 3. Department of Tuberculosis Anhui Chest Hospital Hefei Anhui China 230022 Abstract：Objective To promote the rational use of voriconazole in clinical practice. Methods A catalogue for drug combination classification related to adverse potential drug - drug interactions $\\mathrm { ( \\ p D D I s ) }$ of voriconazole in the hospital was formulated. Clinical pharmacists summarized the risks and medication recommendations for voriconazole - related pDDIs based on pharmacological effects，carried out special training on rational use of voriconazole in clinical departments and real - time intervention on medical orders （prescriptions） through the pre - review prescription sys"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华.pdf",
+          "chunk_index": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "raw_text": "伏立康唑与辛伐他汀合用诱导的不良pDDIs频率比例下降",
+          "chunk_id": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "data": "药安全。\nEffect Analysis of Clinical Pharmacists′ Intervention on Adverse Potential Drug - Drug Interactions of Voriconazole\nDING Haihua1 CHEN Daojun2 WANG Hua3 ZHANG Yunling1 1. Department of Pharmacy Anhui Chest Hospital Hefei Anhui China 230022 2. School of Medical Technology Anhui Medical College Hefei Anhui China 230601 3. Department of Tuberculosis Anhui Chest Hospital Hefei Anhui China 230022 Abstract：Objective To promote the rational use of voriconazole in clinical practice. Methods A catalogue for drug combination classification related to adverse potential drug - drug interactions $\\mathrm { ( \\ p D D I s ) }$ of voriconazole in the hospital was formulated. Clinical pharmacists summarized the risks and medication recommendations for voriconazole - related pDDIs based on pharmacological effects，carried out special training on rational use of voriconazole in clinical departments and real - time intervention on medical orders （prescriptions） through the pre - review prescription sys"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华.pdf",
+          "chunk_index": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "raw_text": "伏立康唑与其他药物联用时可能会产生不良pDDI，影响临床疗效，甚至会产生严重的药品不良反应",
+          "chunk_id": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+          "data": "药安全。\nEffect Analysis of Clinical Pharmacists′ Intervention on Adverse Potential Drug - Drug Interactions of Voriconazole\nDING Haihua1 CHEN Daojun2 WANG Hua3 ZHANG Yunling1 1. Department of Pharmacy Anhui Chest Hospital Hefei Anhui China 230022 2. School of Medical Technology Anhui Medical College Hefei Anhui China 230601 3. Department of Tuberculosis Anhui Chest Hospital Hefei Anhui China 230022 Abstract：Objective To promote the rational use of voriconazole in clinical practice. Methods A catalogue for drug combination classification related to adverse potential drug - drug interactions $\\mathrm { ( \\ p D D I s ) }$ of voriconazole in the hospital was formulated. Clinical pharmacists summarized the risks and medication recommendations for voriconazole - related pDDIs based on pharmacological effects，carried out special training on rational use of voriconazole in clinical departments and real - time intervention on medical orders （prescriptions） through the pre - review prescription sys"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华:3",
+    "source": "临床药师干预伏立康唑不良潜在药物相互作用实践效果_丁海华.pdf",
+    "text": "药安全。\nEffect Analysis of Clinical Pharmacists′ Intervention on Adverse Potential Drug - Drug Interactions of Voriconazole\nDING Haihua1 CHEN Daojun2 WANG Hua3 ZHANG Yunling1 1. Department of Pharmacy Anhui Chest Hospital Hefei Anhui China 230022 2. School of Medical Technology Anhui Medical College Hefei Anhui China 230601 3. Department of Tuberculosis Anhui Chest Hospital Hefei Anhui China 230022 Abstract：Objective To promote the rational use of voriconazole in clinical practice. Methods A catalogue for drug combination classification related to adverse potential drug - drug interactions $\\mathrm { ( \\ p D D I s ) }$ of voriconazole in the hospital was formulated. Clinical pharmacists summarized the risks and medication recommendations for voriconazole - related pDDIs based on pharmacological effects，carried out special training on rational use of voriconazole in clinical departments and real - time intervention on medical orders （prescriptions） through the pre - review prescription system，and provided individualized and refined medication reminder information. The patients treated with voriconazole discharged from the Anhui Chest Hospital from January 1 to March 31，2021 （before intervention） and from January 1 to March 31，2023 （after intervention） were selected as the control group （186 cases） and the intervention group （140 cases） respectively by the PASS prescription review system of the PIP Platform. The related information of patients were collected，the incidence of voriconazole - related adverse pDDIs and adverse drug reactions （ADRs） was analyzed.Results There were 80 cases （57. 14%） and 101 case times of voriconazole - related pDDIs in the intervention group，which were significantly less than 123 cases （66. 13%） and 181 case times in the control group $\\left( P < 0 . 0 5 \\right)$ . Compared with that in the control group，the frequency proportion of adverse pDDIs induced by the combination of voriconazole with omeprazole， dexamethasone，rifampicin and simvastatin in the intervention group decreased. The incidence of ADRs was 6. 43% in the intervention group，which was lower than 10. 22% in the control group $\\left( P > 0 . 0 5 \\right)$ ；the incidence of voriconazole - related pDDIs was 88. 89%，which was slightly lower than 89. 47% in the control group $\\left( P > 0 . 0 5 \\right)$ ；the incidence of severe ADRs was 11. 11%， which was significantly lower than 52. 63% in the control group $\\left( P \\ < \\ 0 . \\ : 0 5 \\right)$ ；the proportion of patients having voriconazole - related adverse pDDIs （twice or more） and ADRs was 44. 44%，which was lower than 36. 84% in the control group $\\left( P > 0 . 0 5 \\right)$ .Conclusion There are multiple adverse $\\mathrm { \\ p D D I s }$ between voriconazole and various drugs. Clinical pharmacists′ practice in the rational medication training and prescription intervention can decrease the medication risk and ensure the patients′ medication safety.Key words：voriconazole；adverse potential drug - drug interaction；clinical pharmacist；prescription review；rational drug use多数慢性病患者一般需同时使用多种药物治疗，临床医师疾病诊疗过程中易忽视由此产生的药物相互作用。研究显示，部分具有临床意义的不良潜在药物相互作用 $\\left( \\mathrm { p D D I } \\right)$ 与住院时间延长、医疗成本增加及不良的生活质量和治疗结局有关［1］。伏立康唑属第2代三唑类抗真菌药，是治疗侵袭性肺曲霉菌病的首选药物［2］。其在体内通过肝脏细胞色素P450（CYP450）以非线性动力学方式代谢，是 CYP2C19，CYP2C9，CYP3A4 的底物及抑制剂。研究表明，伏立康唑与其他药物联用时可能会产生不良 $\\mathrm { p D D I }$ ，影响临床疗效［3］，甚至会产生严重的药品不良反应（ ）［4］。安徽省胸科医院（下文以我院代指）为呼吸专科医院，伏立康唑不良 $\\mathrm { p D D I }$ 数据丰富。基于此，本研究中探讨了临床药师干预伏立康唑不良pDDI的工作模式与实践效果，以促进临床合理用药。现报道如下。"
+  }
+]

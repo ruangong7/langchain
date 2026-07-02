@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "抗肿瘤药物",
+        "canonical_name": "抗肿瘤药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "蛋白酶抑制剂",
+        "canonical_name": "蛋白酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "核苷类逆转录酶抑制剂",
+        "canonical_name": "核苷类逆转录酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "非核苷类逆转录酶抑制剂",
+        "canonical_name": "非核苷类逆转录酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "核苷酸逆转录酶抑制剂",
+        "canonical_name": "核苷酸逆转录酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "MRP转运体",
+        "canonical_name": "MRP转运体",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "外排型转运体与CYP450酶所介导的药物相互作用_王崇.pdf",
+          "chunk_index": "外排型转运体与CYP450酶所介导的药物相互作用_王崇:2",
+          "raw_text": "人类MRP1、MRP2及MRP3主要参与许多治疗药物的外排过程, 如抗肿瘤药物及其结合代谢产物, 蛋白酶抑制剂 (protease inhibitors, PIs) 等",
+          "chunk_id": "外排型转运体与CYP450酶所介导的药物相互作用_王崇:2",
+          "data": "物同时给药后产生复杂的药代动力学相互作用。本文从外排型转运体与代谢酶在药物吸收过程中的作用、外排型转运体的类型、药物代谢酶的种类、外排型转运体与CYP450酶共同介导的DDI以及P-gp与(或)CYP3A介导DDI的研究方法等方面进行综述。\n2.2 多药耐药相关蛋白 MRP 同属 ABC 超家族, MRP2 是 MRP 转运体家族中重要的一员。与 P-gp 不同, MRP 转运体为毛细管多专属性有机阴离子转运体, 能够转运谷胱甘肽结合物、半胱氨酰白三烯 (LTC) $^{[10, 11]}$ 及非共轭结合的有机阴离子。目前, 已被报道的 MRP 转运体有 8 种, 其中人类 MRP1、MRP2 及 MRP3 主要参与许多治疗药物的外排过程, 如抗肿瘤药物及其结合代谢产物, 蛋白酶抑制剂 (protease inhibitors, PIs) 等 $^{[12-14]}$ 。大量的核苷类逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NRTIs)、非核苷类逆转录酶抑制剂 (nonnucleoside reverse transcriptase inhibitors, NNRTIs) 以及核苷酸逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NtRTIs) 能够浓度依赖性地抑制 MRP1、MRP2 和 MRP3。MRP 主要表达于肠上皮细胞的基顶膜侧, 表达水平从肠近端到远端逐渐降低。\n1 外排型转运体与代谢酶在药物吸收过程中的作用"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "外排型转运体与CYP450酶所介导的药物相互作用_王崇.pdf",
+          "chunk_index": "外排型转运体与CYP450酶所介导的药物相互作用_王崇:2",
+          "raw_text": "人类MRP1、MRP2及MRP3主要参与许多治疗药物的外排过程, 如抗肿瘤药物及其结合代谢产物, 蛋白酶抑制剂 (protease inhibitors, PIs) 等",
+          "chunk_id": "外排型转运体与CYP450酶所介导的药物相互作用_王崇:2",
+          "data": "物同时给药后产生复杂的药代动力学相互作用。本文从外排型转运体与代谢酶在药物吸收过程中的作用、外排型转运体的类型、药物代谢酶的种类、外排型转运体与CYP450酶共同介导的DDI以及P-gp与(或)CYP3A介导DDI的研究方法等方面进行综述。\n2.2 多药耐药相关蛋白 MRP 同属 ABC 超家族, MRP2 是 MRP 转运体家族中重要的一员。与 P-gp 不同, MRP 转运体为毛细管多专属性有机阴离子转运体, 能够转运谷胱甘肽结合物、半胱氨酰白三烯 (LTC) $^{[10, 11]}$ 及非共轭结合的有机阴离子。目前, 已被报道的 MRP 转运体有 8 种, 其中人类 MRP1、MRP2 及 MRP3 主要参与许多治疗药物的外排过程, 如抗肿瘤药物及其结合代谢产物, 蛋白酶抑制剂 (protease inhibitors, PIs) 等 $^{[12-14]}$ 。大量的核苷类逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NRTIs)、非核苷类逆转录酶抑制剂 (nonnucleoside reverse transcriptase inhibitors, NNRTIs) 以及核苷酸逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NtRTIs) 能够浓度依赖性地抑制 MRP1、MRP2 和 MRP3。MRP 主要表达于肠上皮细胞的基顶膜侧, 表达水平从肠近端到远端逐渐降低。\n1 外排型转运体与代谢酶在药物吸收过程中的作用"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "外排型转运体与CYP450酶所介导的药物相互作用_王崇.pdf",
+          "chunk_index": "外排型转运体与CYP450酶所介导的药物相互作用_王崇:2",
+          "raw_text": "大量的核苷类逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NRTIs)、非核苷类逆转录酶抑制剂 (nonnucleoside reverse transcriptase inhibitors, NNRTIs) 以及核苷酸逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NtRTIs) 能够浓度依赖性地抑制MRP1、MRP2和MRP3。",
+          "chunk_id": "外排型转运体与CYP450酶所介导的药物相互作用_王崇:2",
+          "data": "物同时给药后产生复杂的药代动力学相互作用。本文从外排型转运体与代谢酶在药物吸收过程中的作用、外排型转运体的类型、药物代谢酶的种类、外排型转运体与CYP450酶共同介导的DDI以及P-gp与(或)CYP3A介导DDI的研究方法等方面进行综述。\n2.2 多药耐药相关蛋白 MRP 同属 ABC 超家族, MRP2 是 MRP 转运体家族中重要的一员。与 P-gp 不同, MRP 转运体为毛细管多专属性有机阴离子转运体, 能够转运谷胱甘肽结合物、半胱氨酰白三烯 (LTC) $^{[10, 11]}$ 及非共轭结合的有机阴离子。目前, 已被报道的 MRP 转运体有 8 种, 其中人类 MRP1、MRP2 及 MRP3 主要参与许多治疗药物的外排过程, 如抗肿瘤药物及其结合代谢产物, 蛋白酶抑制剂 (protease inhibitors, PIs) 等 $^{[12-14]}$ 。大量的核苷类逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NRTIs)、非核苷类逆转录酶抑制剂 (nonnucleoside reverse transcriptase inhibitors, NNRTIs) 以及核苷酸逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NtRTIs) 能够浓度依赖性地抑制 MRP1、MRP2 和 MRP3。MRP 主要表达于肠上皮细胞的基顶膜侧, 表达水平从肠近端到远端逐渐降低。\n1 外排型转运体与代谢酶在药物吸收过程中的作用"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "外排型转运体与CYP450酶所介导的药物相互作用_王崇.pdf",
+          "chunk_index": "外排型转运体与CYP450酶所介导的药物相互作用_王崇:2",
+          "raw_text": "大量的核苷类逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NRTIs)、非核苷类逆转录酶抑制剂 (nonnucleoside reverse transcriptase inhibitors, NNRTIs) 以及核苷酸逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NtRTIs) 能够浓度依赖性地抑制MRP1、MRP2和MRP3。",
+          "chunk_id": "外排型转运体与CYP450酶所介导的药物相互作用_王崇:2",
+          "data": "物同时给药后产生复杂的药代动力学相互作用。本文从外排型转运体与代谢酶在药物吸收过程中的作用、外排型转运体的类型、药物代谢酶的种类、外排型转运体与CYP450酶共同介导的DDI以及P-gp与(或)CYP3A介导DDI的研究方法等方面进行综述。\n2.2 多药耐药相关蛋白 MRP 同属 ABC 超家族, MRP2 是 MRP 转运体家族中重要的一员。与 P-gp 不同, MRP 转运体为毛细管多专属性有机阴离子转运体, 能够转运谷胱甘肽结合物、半胱氨酰白三烯 (LTC) $^{[10, 11]}$ 及非共轭结合的有机阴离子。目前, 已被报道的 MRP 转运体有 8 种, 其中人类 MRP1、MRP2 及 MRP3 主要参与许多治疗药物的外排过程, 如抗肿瘤药物及其结合代谢产物, 蛋白酶抑制剂 (protease inhibitors, PIs) 等 $^{[12-14]}$ 。大量的核苷类逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NRTIs)、非核苷类逆转录酶抑制剂 (nonnucleoside reverse transcriptase inhibitors, NNRTIs) 以及核苷酸逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NtRTIs) 能够浓度依赖性地抑制 MRP1、MRP2 和 MRP3。MRP 主要表达于肠上皮细胞的基顶膜侧, 表达水平从肠近端到远端逐渐降低。\n1 外排型转运体与代谢酶在药物吸收过程中的作用"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "外排型转运体与CYP450酶所介导的药物相互作用_王崇.pdf",
+          "chunk_index": "外排型转运体与CYP450酶所介导的药物相互作用_王崇:2",
+          "raw_text": "大量的核苷类逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NRTIs)、非核苷类逆转录酶抑制剂 (nonnucleoside reverse transcriptase inhibitors, NNRTIs) 以及核苷酸逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NtRTIs) 能够浓度依赖性地抑制MRP1、MRP2和MRP3。",
+          "chunk_id": "外排型转运体与CYP450酶所介导的药物相互作用_王崇:2",
+          "data": "物同时给药后产生复杂的药代动力学相互作用。本文从外排型转运体与代谢酶在药物吸收过程中的作用、外排型转运体的类型、药物代谢酶的种类、外排型转运体与CYP450酶共同介导的DDI以及P-gp与(或)CYP3A介导DDI的研究方法等方面进行综述。\n2.2 多药耐药相关蛋白 MRP 同属 ABC 超家族, MRP2 是 MRP 转运体家族中重要的一员。与 P-gp 不同, MRP 转运体为毛细管多专属性有机阴离子转运体, 能够转运谷胱甘肽结合物、半胱氨酰白三烯 (LTC) $^{[10, 11]}$ 及非共轭结合的有机阴离子。目前, 已被报道的 MRP 转运体有 8 种, 其中人类 MRP1、MRP2 及 MRP3 主要参与许多治疗药物的外排过程, 如抗肿瘤药物及其结合代谢产物, 蛋白酶抑制剂 (protease inhibitors, PIs) 等 $^{[12-14]}$ 。大量的核苷类逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NRTIs)、非核苷类逆转录酶抑制剂 (nonnucleoside reverse transcriptase inhibitors, NNRTIs) 以及核苷酸逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NtRTIs) 能够浓度依赖性地抑制 MRP1、MRP2 和 MRP3。MRP 主要表达于肠上皮细胞的基顶膜侧, 表达水平从肠近端到远端逐渐降低。\n1 外排型转运体与代谢酶在药物吸收过程中的作用"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "外排型转运体与CYP450酶所介导的药物相互作用_王崇:2",
+    "source": "外排型转运体与CYP450酶所介导的药物相互作用_王崇.pdf",
+    "text": "物同时给药后产生复杂的药代动力学相互作用。本文从外排型转运体与代谢酶在药物吸收过程中的作用、外排型转运体的类型、药物代谢酶的种类、外排型转运体与CYP450酶共同介导的DDI以及P-gp与(或)CYP3A介导DDI的研究方法等方面进行综述。\n2.2 多药耐药相关蛋白 MRP 同属 ABC 超家族, MRP2 是 MRP 转运体家族中重要的一员。与 P-gp 不同, MRP 转运体为毛细管多专属性有机阴离子转运体, 能够转运谷胱甘肽结合物、半胱氨酰白三烯 (LTC) $^{[10, 11]}$ 及非共轭结合的有机阴离子。目前, 已被报道的 MRP 转运体有 8 种, 其中人类 MRP1、MRP2 及 MRP3 主要参与许多治疗药物的外排过程, 如抗肿瘤药物及其结合代谢产物, 蛋白酶抑制剂 (protease inhibitors, PIs) 等 $^{[12-14]}$ 。大量的核苷类逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NRTIs)、非核苷类逆转录酶抑制剂 (nonnucleoside reverse transcriptase inhibitors, NNRTIs) 以及核苷酸逆转录酶抑制剂 (nucleoside reverse transcriptase inhibitors, NtRTIs) 能够浓度依赖性地抑制 MRP1、MRP2 和 MRP3。MRP 主要表达于肠上皮细胞的基顶膜侧, 表达水平从肠近端到远端逐渐降低。\n1 外排型转运体与代谢酶在药物吸收过程中的作用"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "inputs": {
+    "structured": "/Users/david/Desktop/drug_agent/langchain/drug_kg/structured/result.json",
+    "unstructured": "/Users/david/Desktop/drug_agent/langchain/drug_kg/unstructured/result.json",
+    "pdf": "/Users/david/Desktop/drug_agent/langchain/drug_kg/PDF/pdf_kg_result.json"
+  },
+  "alias_file": "/Users/david/Desktop/drug_agent/langchain/drug_kg/entity_aliases.json",
+  "alias_entries": 47,
+  "dataset_record_counts": {
+    "structured": 6431,
+    "unstructured": 2080,
+    "pdf": 5119
+  },
+  "normalized_entities": 19443,
+  "normalized_triples": 63284,
+  "entity_type_counts": {
+    "Disease": 2778,
+    "Drug": 7066,
+    "DrugClass": 3036,
+    "Food": 771,
+    "Indicator": 1332,
+    "Population": 996,
+    "SideEffect": 2691,
+    "Symptom": 773
+  },
+  "relation_type_counts": {
+    "AFFECTS_INDICATOR": 5300,
+    "APPLIES_TO": 189,
+    "CONTRAINDICATED_FOR": 2662,
+    "HAS_ADVERSE_REACTION": 10246,
+    "HAS_SYMPTOM": 1257,
+    "INDICATED_FOR": 7157,
+    "INTERACTS_WITH": 31278,
+    "IN_CLASS": 5195
+  },
+  "polarity_counts": {
+    "affirmed": 62152,
+    "negated_or_no_effect": 1132
+  },
+  "dataset_relation_counts": {
+    "unstructured": 15176,
+    "pdf": 31130,
+    "structured": 20214
+  },
+  "stats": {
+    "kept_relations": 99734,
+    "dropped_relation_self_loop": 33,
+    "dropped_entities": 29,
+    "dropped_relation_missing_entity": 78
+  }
+}

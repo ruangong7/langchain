@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "莫西沙星",
+        "canonical_name": "莫西沙星",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Food",
+        "name": "美式早餐",
+        "canonical_name": "美式早餐",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物相互作用对莫西沙星药物动力学的影响_Moise PA.pdf",
+          "chunk_index": "药物相互作用对莫西沙星药物动力学的影响_Moise PA:3",
+          "raw_text": "健康志愿者口服200mg莫西沙星后进食典型的美式早餐，与禁食状态相比，血药浓度达峰时间中数从．延迟至．，血药峰浓度中数轻微降低．至1.04mg/L，进食不会影响莫西沙星的分布和清除，因而不会影响整体抗菌活性。",
+          "chunk_id": "药物相互作用对莫西沙星药物动力学的影响_Moise PA:3",
+          "data": "$1 . 1 7 _ { \\mathrm { m g / L ) } }$ 显著降低。\nGarcia-Rodriguez JA ，et al．Drugs T oday，2000，36（4） ：215（ 英文）\n22-5 莫西沙星的药物动力学\n莫西沙星口服后吸收迅速、良好，口服 $4 0 0 \\mathrm { { m g } }$ 后，绝对生物利用度约为 ％， $\\mathrm { 2 h }$ 内达到平均血药峰浓度$3 . 5 6 \\mathrm { { m g / L } }$ 。 典型的 $4 0 0 _ { \\mathrm { m g / d } }$ 疗程 $1 0 \\mathrm { d }$ 疗法，在第10天血药峰浓度为 $4 . 5 2 _ { \\mathrm { m g / L } }$ ，于 ． 达峰。 口服 、、 、 、 和 $8 0 0 \\mathrm { { m g } }$ 莫西沙星，达血药峰浓度$( \\mathrm { \\ C _ { m a x } } )$ 的时间范围是 $0 . 5 \\sim 4 \\mathrm { h }$ ，血药峰浓度从 $5 0 \\mathrm { m g }$ 剂量的 $0 . 2 9 _ { \\mathrm { m g / I } }$ 到 $8 0 0 \\mathrm { { m g } }$ 剂量的 $4 . 7 3 _ { \\mathrm { m g / L } }$ 。 进食或胃 $\\mathrm { p H }$ 升高不会明显影响吸收速率和程度。\n健康志愿者口服 $2 0 0 \\mathrm { { m g } }$ 莫西沙星后进食典型的美式早餐，与禁食状态相比，血药浓度达峰时间中数从． 延迟至 ． ，血药峰浓度中数轻微降低 ． 至$\\mathrm { 1 . 0 4 _ { m g } / L ) }$ ，进食不会影响莫西沙星的分布和清除，因而不会影响整体抗菌活性。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物相互作用对莫西沙星药物动力学的影响_Moise PA:3",
+    "source": "药物相互作用对莫西沙星药物动力学的影响_Moise PA.pdf",
+    "text": "$1 . 1 7 _ { \\mathrm { m g / L ) } }$ 显著降低。\nGarcia-Rodriguez JA ，et al．Drugs T oday，2000，36（4） ：215（ 英文）\n22-5 莫西沙星的药物动力学\n莫西沙星口服后吸收迅速、良好，口服 $4 0 0 \\mathrm { { m g } }$ 后，绝对生物利用度约为 ％， $\\mathrm { 2 h }$ 内达到平均血药峰浓度$3 . 5 6 \\mathrm { { m g / L } }$ 。 典型的 $4 0 0 _ { \\mathrm { m g / d } }$ 疗程 $1 0 \\mathrm { d }$ 疗法，在第10天血药峰浓度为 $4 . 5 2 _ { \\mathrm { m g / L } }$ ，于 ． 达峰。 口服 、、 、 、 和 $8 0 0 \\mathrm { { m g } }$ 莫西沙星，达血药峰浓度$( \\mathrm { \\ C _ { m a x } } )$ 的时间范围是 $0 . 5 \\sim 4 \\mathrm { h }$ ，血药峰浓度从 $5 0 \\mathrm { m g }$ 剂量的 $0 . 2 9 _ { \\mathrm { m g / I } }$ 到 $8 0 0 \\mathrm { { m g } }$ 剂量的 $4 . 7 3 _ { \\mathrm { m g / L } }$ 。 进食或胃 $\\mathrm { p H }$ 升高不会明显影响吸收速率和程度。\n健康志愿者口服 $2 0 0 \\mathrm { { m g } }$ 莫西沙星后进食典型的美式早餐，与禁食状态相比，血药浓度达峰时间中数从． 延迟至 ． ，血药峰浓度中数轻微降低 ． 至$\\mathrm { 1 . 0 4 _ { m g } / L ) }$ ，进食不会影响莫西沙星的分布和清除，因而不会影响整体抗菌活性。"
+  }
+]

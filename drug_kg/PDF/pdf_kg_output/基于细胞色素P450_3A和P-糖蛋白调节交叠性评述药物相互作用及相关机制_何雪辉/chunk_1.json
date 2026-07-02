@@ -1,0 +1,92 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "苯巴比妥",
+        "canonical_name": "苯巴比妥",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "酮康唑",
+        "canonical_name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP3A",
+        "canonical_name": "细胞色素P450 3A",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "P-gp",
+        "canonical_name": "P-糖蛋白",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:1",
+          "raw_text": "已知一些临床药物如苯巴比妥、酮康唑可以干预机体CYP3A 和 P-gp 的活性和表达",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:1",
+          "data": "控具有交叠性是近年来药物代谢动力学领域较有突破性的研究成果，核受体调控途径可能是产生调节交叠性的重要原因之一。 因此，诠释细胞色素 P450 3A 和 P-糖蛋白调节交叠性的分子机制对新药研发、药物靶标寻找和临床合理用药具有十分重要的意义。\n文献标志码:A细胞色素 P450 3A( cytochrome P450 3A，CYP3A) 是体内重要的Ⅰ相代谢酶，参与内外源性化合物的代谢; P-糖蛋白( P-glycoprotein， $\\mathrm { P \\mathrm { \\mathop { g p } } ) }$ 是一种能量依赖性外排转运蛋白，在药物的吸收分布代谢和排泄过程中发挥重要作用。 已知一些临床药物如苯巴比妥、酮康唑可以干预机体CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f \\mathrm { \\# ~ } }$ 的活性和表达，这类药物更易产生药物相互作用( drug-drug interac-tion，DDI) 药物干预 CYP3A 和 P-gp 的分子机制研究是近年来药物代谢动力学和分子药理学的研究热点，近些年研究取得突破性的进展，机体CYP3A 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } "
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:1",
+          "raw_text": "已知一些临床药物如苯巴比妥、酮康唑可以干预机体CYP3A 和 P-gp 的活性和表达",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:1",
+          "data": "控具有交叠性是近年来药物代谢动力学领域较有突破性的研究成果，核受体调控途径可能是产生调节交叠性的重要原因之一。 因此，诠释细胞色素 P450 3A 和 P-糖蛋白调节交叠性的分子机制对新药研发、药物靶标寻找和临床合理用药具有十分重要的意义。\n文献标志码:A细胞色素 P450 3A( cytochrome P450 3A，CYP3A) 是体内重要的Ⅰ相代谢酶，参与内外源性化合物的代谢; P-糖蛋白( P-glycoprotein， $\\mathrm { P \\mathrm { \\mathop { g p } } ) }$ 是一种能量依赖性外排转运蛋白，在药物的吸收分布代谢和排泄过程中发挥重要作用。 已知一些临床药物如苯巴比妥、酮康唑可以干预机体CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f \\mathrm { \\# ~ } }$ 的活性和表达，这类药物更易产生药物相互作用( drug-drug interac-tion，DDI) 药物干预 CYP3A 和 P-gp 的分子机制研究是近年来药物代谢动力学和分子药理学的研究热点，近些年研究取得突破性的进展，机体CYP3A 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } "
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:1",
+          "raw_text": "已知一些临床药物如苯巴比妥、酮康唑可以干预机体CYP3A 和 P-gp 的活性和表达",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:1",
+          "data": "控具有交叠性是近年来药物代谢动力学领域较有突破性的研究成果，核受体调控途径可能是产生调节交叠性的重要原因之一。 因此，诠释细胞色素 P450 3A 和 P-糖蛋白调节交叠性的分子机制对新药研发、药物靶标寻找和临床合理用药具有十分重要的意义。\n文献标志码:A细胞色素 P450 3A( cytochrome P450 3A，CYP3A) 是体内重要的Ⅰ相代谢酶，参与内外源性化合物的代谢; P-糖蛋白( P-glycoprotein， $\\mathrm { P \\mathrm { \\mathop { g p } } ) }$ 是一种能量依赖性外排转运蛋白，在药物的吸收分布代谢和排泄过程中发挥重要作用。 已知一些临床药物如苯巴比妥、酮康唑可以干预机体CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f \\mathrm { \\# ~ } }$ 的活性和表达，这类药物更易产生药物相互作用( drug-drug interac-tion，DDI) 药物干预 CYP3A 和 P-gp 的分子机制研究是近年来药物代谢动力学和分子药理学的研究热点，近些年研究取得突破性的进展，机体CYP3A 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } "
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:1",
+          "raw_text": "已知一些临床药物如苯巴比妥、酮康唑可以干预机体CYP3A 和 P-gp 的活性和表达",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:1",
+          "data": "控具有交叠性是近年来药物代谢动力学领域较有突破性的研究成果，核受体调控途径可能是产生调节交叠性的重要原因之一。 因此，诠释细胞色素 P450 3A 和 P-糖蛋白调节交叠性的分子机制对新药研发、药物靶标寻找和临床合理用药具有十分重要的意义。\n文献标志码:A细胞色素 P450 3A( cytochrome P450 3A，CYP3A) 是体内重要的Ⅰ相代谢酶，参与内外源性化合物的代谢; P-糖蛋白( P-glycoprotein， $\\mathrm { P \\mathrm { \\mathop { g p } } ) }$ 是一种能量依赖性外排转运蛋白，在药物的吸收分布代谢和排泄过程中发挥重要作用。 已知一些临床药物如苯巴比妥、酮康唑可以干预机体CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f \\mathrm { \\# ~ } }$ 的活性和表达，这类药物更易产生药物相互作用( drug-drug interac-tion，DDI) 药物干预 CYP3A 和 P-gp 的分子机制研究是近年来药物代谢动力学和分子药理学的研究热点，近些年研究取得突破性的进展，机体CYP3A 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } "
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:1",
+    "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+    "text": "控具有交叠性是近年来药物代谢动力学领域较有突破性的研究成果，核受体调控途径可能是产生调节交叠性的重要原因之一。 因此，诠释细胞色素 P450 3A 和 P-糖蛋白调节交叠性的分子机制对新药研发、药物靶标寻找和临床合理用药具有十分重要的意义。\n文献标志码:A细胞色素 P450 3A( cytochrome P450 3A，CYP3A) 是体内重要的Ⅰ相代谢酶，参与内外源性化合物的代谢; P-糖蛋白( P-glycoprotein， $\\mathrm { P \\mathrm { \\mathop { g p } } ) }$ 是一种能量依赖性外排转运蛋白，在药物的吸收分布代谢和排泄过程中发挥重要作用。 已知一些临床药物如苯巴比妥、酮康唑可以干预机体CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f \\mathrm { \\# ~ } }$ 的活性和表达，这类药物更易产生药物相互作用( drug-drug interac-tion，DDI) 药物干预 CYP3A 和 P-gp 的分子机制研究是近年来药物代谢动力学和分子药理学的研究热点，近些年研究取得突破性的进展，机体CYP3A 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } } }$ 的调节存在交叠性是药物易同时影响CYP3A 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 表达的重要原因，核受体对机体基因水平的调控构成了 CYP3A 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 调节交叠性的分子机制［1］ 。 孕烷 X 受体( pregnane X receptor，PXR，NR1I2) 和组成性雄烷受体( constitutive androstane receptor，CAR，NR1I3) 同属孤儿受体，是机体内重要的与代谢酶和转运体调控相关的DNA 特异性转录因子。 临床上一部分 DDI 与 CYP3A 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 的交叠性调节有关。 通过核受体途径，药物调节机体 CYP3A和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 表达，从而改变自身和合用药物的体内药动学过程。基于 CYP3A 和 $\\mathrm { P \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 调节交叠性引发的 DDI 是新药研发早期和临床实验的重要内容，因此CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f \\mathrm { \\# ~ } }$ 调节交叠性研究仍将是今后研究的持续热点之一笔者旨在系统整理 CYP3A和 $\\mathrm { P \\mathrm { \\# ~ } f \\mathrm { \\# ~ } }$ 调节交叠性的机制及由此引发的药物相互作用的最新研究进展，为此方面的深入研究工作提供参考。"
+  }
+]

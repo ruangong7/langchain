@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "5-羟色胺再摄取抑制药",
+        "canonical_name": "5-羟色胺再摄取抑制药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氟西汀",
+        "canonical_name": "氟西汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "抗利尿激素分泌异常综合征",
+        "canonical_name": "抗利尿激素分泌异常综合征",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡.pdf",
+          "chunk_index": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡:0",
+          "raw_text": "六种SSRI类药物诱发的不良反应98例，其中氟西汀引起的不良反应最多",
+          "chunk_id": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡:0",
+          "data": "5-羟色胺再摄取抑制药不良反应及药物相互作用\n陈凡高仲阳 （天津市第一中心医院天津 300192）摘要目的：了解5-羟色胺再摄取抑制药(SSRI)使用发生不良反应的情况，为合理使用药提供警示。方法：检索中国期刊全文数据库(CNKI)和美国NLM PubMed查询系统，对2001年1月～2006年8月收到的SSRI类药物所致的不良反应进行统计，并分析药物的相互作用。结果：六种SSRI类药物诱发的不良反应98例，其中氟西汀引起的不良反应最多，抗利尿激素分泌异常综合征(SIADH)是最常见的不良反应，同时也会出现少见的不良反应。结论：临床应重视SSRI类药物的严重不良反应及药物的相互作用，以确保用药安全。\nAnalysis of SSRI-induced Adverse Reaction and Drug Interaction"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡.pdf",
+          "chunk_index": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡:0",
+          "raw_text": "抗利尿激素分泌异常综合征(SIADH)是最常见的不良反应",
+          "chunk_id": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡:0",
+          "data": "5-羟色胺再摄取抑制药不良反应及药物相互作用\n陈凡高仲阳 （天津市第一中心医院天津 300192）摘要目的：了解5-羟色胺再摄取抑制药(SSRI)使用发生不良反应的情况，为合理使用药提供警示。方法：检索中国期刊全文数据库(CNKI)和美国NLM PubMed查询系统，对2001年1月～2006年8月收到的SSRI类药物所致的不良反应进行统计，并分析药物的相互作用。结果：六种SSRI类药物诱发的不良反应98例，其中氟西汀引起的不良反应最多，抗利尿激素分泌异常综合征(SIADH)是最常见的不良反应，同时也会出现少见的不良反应。结论：临床应重视SSRI类药物的严重不良反应及药物的相互作用，以确保用药安全。\nAnalysis of SSRI-induced Adverse Reaction and Drug Interaction"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡:0",
+    "source": "5-羟色胺再摄取抑制药不良反应及药物相互作用_陈凡.pdf",
+    "text": "5-羟色胺再摄取抑制药不良反应及药物相互作用\n陈凡高仲阳 （天津市第一中心医院天津 300192）摘要目的：了解5-羟色胺再摄取抑制药(SSRI)使用发生不良反应的情况，为合理使用药提供警示。方法：检索中国期刊全文数据库(CNKI)和美国NLM PubMed查询系统，对2001年1月～2006年8月收到的SSRI类药物所致的不良反应进行统计，并分析药物的相互作用。结果：六种SSRI类药物诱发的不良反应98例，其中氟西汀引起的不良反应最多，抗利尿激素分泌异常综合征(SIADH)是最常见的不良反应，同时也会出现少见的不良反应。结论：临床应重视SSRI类药物的严重不良反应及药物的相互作用，以确保用药安全。\nAnalysis of SSRI-induced Adverse Reaction and Drug Interaction"
+  }
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "氯喹",
+        "canonical_name": "氯喹",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "SideEffect",
+        "name": "低血压",
+        "canonical_name": "低血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "胸腔积液",
+        "canonical_name": "胸腔积液",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "缺氧",
+        "canonical_name": "缺氧",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "苍白",
+        "canonical_name": "苍白",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "多器官衰竭",
+        "canonical_name": "多器官衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "肌无力",
+        "canonical_name": "肌无力",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "急性肾衰竭",
+        "canonical_name": "急性肾衰竭",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+          "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:14",
+          "raw_text": "本研究分析结果所得其他 ADEs: 低血压(ROR=1.47, IC-2SD=1.14) ... 均未收录于氯喹药品说明书。",
+          "chunk_id": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:14",
+          "data": "及结缔组织疾病( 肌无力) ，肾脏及泌尿系统疾病( 急性肾衰竭) 等多个说明书未收录的不良反应信号，建议临床应用氯喹时重点关注，警惕类似不良反应的发生。 此外，本研究分析得出新的氯喹相关不良反应信号需要经过更多的临床研究进行系统研究和评估。\n另外，本研究分析结果所得其他 ADEs: 低血压$\\left( \\mathrm { \\ R O R } = 1 . 4 7 , \\mathrm { I C - 2 S D } = 1 . 1 4 \\right)$ 、胸腔积液 $\\mathrm { \\ : ( \\ R O R = }$ $1 . 8 2 , \\mathrm { I C - 2 S D } = 0 . 5 7 )$ 、 缺氧 ( $\\mathrm { R O R } = 6 . 0 5 , \\mathrm { I C - 2 S D } =$ 1. 65) 、 苍白( $\\mathrm { R O R } = 2 . 4 6 , \\mathrm { I C - 2 S D } = 0 . 3 1 )$ ) 和多器官衰竭( $\\mathrm { R O R } = 1 . 8 1 , \\mathrm { I C - 2 S D } = 0 . 0 2 )$ 均未收录于氯喹药品说明书。 建议医务人员在临床使用中密切监护COVID-19 患者并预防上述不良反应的发生。\n3. 5 剂量累积与安全性"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+          "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:14",
+          "raw_text": "本研究分析结果所得其他 ADEs: 胸腔积液(ROR=1.82, IC-2SD=0.57) ... 均未收录于氯喹药品说明书。",
+          "chunk_id": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:14",
+          "data": "及结缔组织疾病( 肌无力) ，肾脏及泌尿系统疾病( 急性肾衰竭) 等多个说明书未收录的不良反应信号，建议临床应用氯喹时重点关注，警惕类似不良反应的发生。 此外，本研究分析得出新的氯喹相关不良反应信号需要经过更多的临床研究进行系统研究和评估。\n另外，本研究分析结果所得其他 ADEs: 低血压$\\left( \\mathrm { \\ R O R } = 1 . 4 7 , \\mathrm { I C - 2 S D } = 1 . 1 4 \\right)$ 、胸腔积液 $\\mathrm { \\ : ( \\ R O R = }$ $1 . 8 2 , \\mathrm { I C - 2 S D } = 0 . 5 7 )$ 、 缺氧 ( $\\mathrm { R O R } = 6 . 0 5 , \\mathrm { I C - 2 S D } =$ 1. 65) 、 苍白( $\\mathrm { R O R } = 2 . 4 6 , \\mathrm { I C - 2 S D } = 0 . 3 1 )$ ) 和多器官衰竭( $\\mathrm { R O R } = 1 . 8 1 , \\mathrm { I C - 2 S D } = 0 . 0 2 )$ 均未收录于氯喹药品说明书。 建议医务人员在临床使用中密切监护COVID-19 患者并预防上述不良反应的发生。\n3. 5 剂量累积与安全性"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+          "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:14",
+          "raw_text": "本研究分析结果所得其他 ADEs: 缺氧(ROR=6.05, IC-2SD=1.65) ... 均未收录于氯喹药品说明书。",
+          "chunk_id": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:14",
+          "data": "及结缔组织疾病( 肌无力) ，肾脏及泌尿系统疾病( 急性肾衰竭) 等多个说明书未收录的不良反应信号，建议临床应用氯喹时重点关注，警惕类似不良反应的发生。 此外，本研究分析得出新的氯喹相关不良反应信号需要经过更多的临床研究进行系统研究和评估。\n另外，本研究分析结果所得其他 ADEs: 低血压$\\left( \\mathrm { \\ R O R } = 1 . 4 7 , \\mathrm { I C - 2 S D } = 1 . 1 4 \\right)$ 、胸腔积液 $\\mathrm { \\ : ( \\ R O R = }$ $1 . 8 2 , \\mathrm { I C - 2 S D } = 0 . 5 7 )$ 、 缺氧 ( $\\mathrm { R O R } = 6 . 0 5 , \\mathrm { I C - 2 S D } =$ 1. 65) 、 苍白( $\\mathrm { R O R } = 2 . 4 6 , \\mathrm { I C - 2 S D } = 0 . 3 1 )$ ) 和多器官衰竭( $\\mathrm { R O R } = 1 . 8 1 , \\mathrm { I C - 2 S D } = 0 . 0 2 )$ 均未收录于氯喹药品说明书。 建议医务人员在临床使用中密切监护COVID-19 患者并预防上述不良反应的发生。\n3. 5 剂量累积与安全性"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+          "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:14",
+          "raw_text": "本研究分析结果所得其他 ADEs: 苍白(ROR=2.46, IC-2SD=0.31) ... 均未收录于氯喹药品说明书。",
+          "chunk_id": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:14",
+          "data": "及结缔组织疾病( 肌无力) ，肾脏及泌尿系统疾病( 急性肾衰竭) 等多个说明书未收录的不良反应信号，建议临床应用氯喹时重点关注，警惕类似不良反应的发生。 此外，本研究分析得出新的氯喹相关不良反应信号需要经过更多的临床研究进行系统研究和评估。\n另外，本研究分析结果所得其他 ADEs: 低血压$\\left( \\mathrm { \\ R O R } = 1 . 4 7 , \\mathrm { I C - 2 S D } = 1 . 1 4 \\right)$ 、胸腔积液 $\\mathrm { \\ : ( \\ R O R = }$ $1 . 8 2 , \\mathrm { I C - 2 S D } = 0 . 5 7 )$ 、 缺氧 ( $\\mathrm { R O R } = 6 . 0 5 , \\mathrm { I C - 2 S D } =$ 1. 65) 、 苍白( $\\mathrm { R O R } = 2 . 4 6 , \\mathrm { I C - 2 S D } = 0 . 3 1 )$ ) 和多器官衰竭( $\\mathrm { R O R } = 1 . 8 1 , \\mathrm { I C - 2 S D } = 0 . 0 2 )$ 均未收录于氯喹药品说明书。 建议医务人员在临床使用中密切监护COVID-19 患者并预防上述不良反应的发生。\n3. 5 剂量累积与安全性"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+          "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:14",
+          "raw_text": "本研究分析结果所得其他 ADEs: 多器官衰竭(ROR=1.81, IC-2SD=0.02) ... 均未收录于氯喹药品说明书。",
+          "chunk_id": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:14",
+          "data": "及结缔组织疾病( 肌无力) ，肾脏及泌尿系统疾病( 急性肾衰竭) 等多个说明书未收录的不良反应信号，建议临床应用氯喹时重点关注，警惕类似不良反应的发生。 此外，本研究分析得出新的氯喹相关不良反应信号需要经过更多的临床研究进行系统研究和评估。\n另外，本研究分析结果所得其他 ADEs: 低血压$\\left( \\mathrm { \\ R O R } = 1 . 4 7 , \\mathrm { I C - 2 S D } = 1 . 1 4 \\right)$ 、胸腔积液 $\\mathrm { \\ : ( \\ R O R = }$ $1 . 8 2 , \\mathrm { I C - 2 S D } = 0 . 5 7 )$ 、 缺氧 ( $\\mathrm { R O R } = 6 . 0 5 , \\mathrm { I C - 2 S D } =$ 1. 65) 、 苍白( $\\mathrm { R O R } = 2 . 4 6 , \\mathrm { I C - 2 S D } = 0 . 3 1 )$ ) 和多器官衰竭( $\\mathrm { R O R } = 1 . 8 1 , \\mathrm { I C - 2 S D } = 0 . 0 2 )$ 均未收录于氯喹药品说明书。 建议医务人员在临床使用中密切监护COVID-19 患者并预防上述不良反应的发生。\n3. 5 剂量累积与安全性"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+          "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:14",
+          "raw_text": "及结缔组织疾病(肌无力) ... 等多个说明书未收录的不良反应信号",
+          "chunk_id": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:14",
+          "data": "及结缔组织疾病( 肌无力) ，肾脏及泌尿系统疾病( 急性肾衰竭) 等多个说明书未收录的不良反应信号，建议临床应用氯喹时重点关注，警惕类似不良反应的发生。 此外，本研究分析得出新的氯喹相关不良反应信号需要经过更多的临床研究进行系统研究和评估。\n另外，本研究分析结果所得其他 ADEs: 低血压$\\left( \\mathrm { \\ R O R } = 1 . 4 7 , \\mathrm { I C - 2 S D } = 1 . 1 4 \\right)$ 、胸腔积液 $\\mathrm { \\ : ( \\ R O R = }$ $1 . 8 2 , \\mathrm { I C - 2 S D } = 0 . 5 7 )$ 、 缺氧 ( $\\mathrm { R O R } = 6 . 0 5 , \\mathrm { I C - 2 S D } =$ 1. 65) 、 苍白( $\\mathrm { R O R } = 2 . 4 6 , \\mathrm { I C - 2 S D } = 0 . 3 1 )$ ) 和多器官衰竭( $\\mathrm { R O R } = 1 . 8 1 , \\mathrm { I C - 2 S D } = 0 . 0 2 )$ 均未收录于氯喹药品说明书。 建议医务人员在临床使用中密切监护COVID-19 患者并预防上述不良反应的发生。\n3. 5 剂量累积与安全性"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+          "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:14",
+          "raw_text": "肾脏及泌尿系统疾病(急性肾衰竭) ... 等多个说明书未收录的不良反应信号",
+          "chunk_id": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:14",
+          "data": "及结缔组织疾病( 肌无力) ，肾脏及泌尿系统疾病( 急性肾衰竭) 等多个说明书未收录的不良反应信号，建议临床应用氯喹时重点关注，警惕类似不良反应的发生。 此外，本研究分析得出新的氯喹相关不良反应信号需要经过更多的临床研究进行系统研究和评估。\n另外，本研究分析结果所得其他 ADEs: 低血压$\\left( \\mathrm { \\ R O R } = 1 . 4 7 , \\mathrm { I C - 2 S D } = 1 . 1 4 \\right)$ 、胸腔积液 $\\mathrm { \\ : ( \\ R O R = }$ $1 . 8 2 , \\mathrm { I C - 2 S D } = 0 . 5 7 )$ 、 缺氧 ( $\\mathrm { R O R } = 6 . 0 5 , \\mathrm { I C - 2 S D } =$ 1. 65) 、 苍白( $\\mathrm { R O R } = 2 . 4 6 , \\mathrm { I C - 2 S D } = 0 . 3 1 )$ ) 和多器官衰竭( $\\mathrm { R O R } = 1 . 8 1 , \\mathrm { I C - 2 S D } = 0 . 0 2 )$ 均未收录于氯喹药品说明书。 建议医务人员在临床使用中密切监护COVID-19 患者并预防上述不良反应的发生。\n3. 5 剂量累积与安全性"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希:14",
+    "source": "基于FDA数据库对氯喹不良反应信号的检测及药物相互作用分析_胡希.pdf",
+    "text": "及结缔组织疾病( 肌无力) ，肾脏及泌尿系统疾病( 急性肾衰竭) 等多个说明书未收录的不良反应信号，建议临床应用氯喹时重点关注，警惕类似不良反应的发生。 此外，本研究分析得出新的氯喹相关不良反应信号需要经过更多的临床研究进行系统研究和评估。\n另外，本研究分析结果所得其他 ADEs: 低血压$\\left( \\mathrm { \\ R O R } = 1 . 4 7 , \\mathrm { I C - 2 S D } = 1 . 1 4 \\right)$ 、胸腔积液 $\\mathrm { \\ : ( \\ R O R = }$ $1 . 8 2 , \\mathrm { I C - 2 S D } = 0 . 5 7 )$ 、 缺氧 ( $\\mathrm { R O R } = 6 . 0 5 , \\mathrm { I C - 2 S D } =$ 1. 65) 、 苍白( $\\mathrm { R O R } = 2 . 4 6 , \\mathrm { I C - 2 S D } = 0 . 3 1 )$ ) 和多器官衰竭( $\\mathrm { R O R } = 1 . 8 1 , \\mathrm { I C - 2 S D } = 0 . 0 2 )$ 均未收录于氯喹药品说明书。 建议医务人员在临床使用中密切监护COVID-19 患者并预防上述不良反应的发生。\n3. 5 剂量累积与安全性"
+  }
+]

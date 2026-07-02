@@ -6,7 +6,6 @@ RRF 与 hybrid_retriever 同公式；去重键为 redis_key。语料与 run_bm25
 from __future__ import annotations
 
 import argparse
-import importlib.util
 import logging
 import os
 import sys
@@ -41,8 +40,9 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
-from config import EMBEDDING_MODEL, REDIS_DB, REDIS_HOST, REDIS_PORT  # noqa: E402
+from config import REDIS_DB, REDIS_HOST, REDIS_PORT, VECTOR_INDEX_NAME, VECTOR_KEY_PREFIX  # noqa: E402
 from services.rag_service import RAGService, document_redis_key  # noqa: E402
+from services.embedding_factory import build_embeddings  # noqa: E402
 
 
 def _redis_scan_match(key_prefix: str) -> str:
@@ -94,16 +94,6 @@ def rrf_fuse_ids(
     return ordered[:final_top]
 
 
-def load_embeddings():
-    main_path = os.path.join(PROJECT_ROOT, "main.py")
-    spec = importlib.util.spec_from_file_location("main", main_path)
-    if spec is None or spec.loader is None:
-        raise RuntimeError(f"无法加载: {main_path}")
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    return mod.DashScopeEmbeddings(model=EMBEDDING_MODEL)
-
-
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="稠密+BM25 RRF 混合检索 Gold Hit@K")
     p.add_argument(
@@ -130,8 +120,8 @@ def parse_args() -> argparse.Namespace:
         default=RRF_K_DEFAULT,
         help="RRF 平滑常数（与 hybrid_retriever.HybridRetriever.RRF_K 一致默认 60）",
     )
-    p.add_argument("--key-prefix", default="qwen3:")
-    p.add_argument("--index-name", default="drug_vectors")
+    p.add_argument("--key-prefix", default=VECTOR_KEY_PREFIX)
+    p.add_argument("--index-name", default=VECTOR_INDEX_NAME)
     p.add_argument("--redis-host", default=REDIS_HOST)
     p.add_argument("--redis-port", type=int, default=REDIS_PORT)
     p.add_argument("--redis-db", type=int, default=REDIS_DB)
@@ -157,7 +147,7 @@ def main() -> None:
     bm25 = BM25Okapi(tokenized)
     logger.info("BM25 索引完成，耗时 %.2fs", time.perf_counter() - t0)
 
-    emb = load_embeddings()
+    emb = build_embeddings()
     vs = Redis(
         redis_url=f"redis://{args.redis_host}:{args.redis_port}/{args.redis_db}",
         index_name=args.index_name,

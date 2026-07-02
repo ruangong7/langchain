@@ -1,0 +1,339 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "五味子木脂素",
+        "canonical_name": "五味子木脂素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "免疫抑制剂",
+        "canonical_name": "免疫抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "抗菌药物",
+        "canonical_name": "抗菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "抗肿瘤药物",
+        "canonical_name": "抗肿瘤药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "阿尔茨海默病",
+        "canonical_name": "阿尔茨海默病",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "抑郁",
+        "canonical_name": "抑郁症",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "焦虑",
+        "canonical_name": "焦虑症",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "五味子甲素",
+        "canonical_name": "五味子甲素",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "五味子乙素",
+        "canonical_name": "五味子乙素",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "五味子丙素",
+        "canonical_name": "五味子丙素",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "五味子醇甲",
+        "canonical_name": "五味子醇甲",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "五味子醇乙",
+        "canonical_name": "五味子醇乙",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "五味子酯甲",
+        "canonical_name": "五味子酯甲",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "五味子酯乙",
+        "canonical_name": "五味子酯乙",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "戈米辛",
+        "canonical_name": "戈米辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Indicator",
+        "name": "细胞色素P450",
+        "canonical_name": "细胞色素P450",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Indicator",
+        "name": "P-糖蛋白",
+        "canonical_name": "P-糖蛋白",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+          "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "raw_text": "木脂素是五味子中主要活性物质，主要有五味子甲素、五味子乙素、五味子丙素、五味子醇甲、五味子醇乙、五味子酯甲、五味子酯乙、戈米辛等",
+          "chunk_id": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "data": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting "
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+          "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "raw_text": "木脂素是五味子中主要活性物质，主要有五味子甲素、五味子乙素、五味子丙素、五味子醇甲、五味子醇乙、五味子酯甲、五味子酯乙、戈米辛等",
+          "chunk_id": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "data": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting "
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+          "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "raw_text": "木脂素是五味子中主要活性物质，主要有五味子甲素、五味子乙素、五味子丙素、五味子醇甲、五味子醇乙、五味子酯甲、五味子酯乙、戈米辛等",
+          "chunk_id": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "data": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting "
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+          "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "raw_text": "木脂素是五味子中主要活性物质，主要有五味子甲素、五味子乙素、五味子丙素、五味子醇甲、五味子醇乙、五味子酯甲、五味子酯乙、戈米辛等",
+          "chunk_id": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "data": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting "
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_12",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+          "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "raw_text": "木脂素是五味子中主要活性物质，主要有五味子甲素、五味子乙素、五味子丙素、五味子醇甲、五味子醇乙、五味子酯甲、五味子酯乙、戈米辛等",
+          "chunk_id": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "data": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting "
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_13",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+          "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "raw_text": "木脂素是五味子中主要活性物质，主要有五味子甲素、五味子乙素、五味子丙素、五味子醇甲、五味子醇乙、五味子酯甲、五味子酯乙、戈米辛等",
+          "chunk_id": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "data": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting "
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_14",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+          "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "raw_text": "木脂素是五味子中主要活性物质，主要有五味子甲素、五味子乙素、五味子丙素、五味子醇甲、五味子醇乙、五味子酯甲、五味子酯乙、戈米辛等",
+          "chunk_id": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "data": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting "
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_15",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+          "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "raw_text": "木脂素是五味子中主要活性物质，主要有五味子甲素、五味子乙素、五味子丙素、五味子醇甲、五味子醇乙、五味子酯甲、五味子酯乙、戈米辛等",
+          "chunk_id": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "data": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting "
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+          "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "raw_text": "五味子木脂素在治疗阿尔茨海默病、抑郁、焦虑等疾病中发挥作用",
+          "chunk_id": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "data": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting "
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+          "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "raw_text": "五味子木脂素在治疗阿尔茨海默病、抑郁、焦虑等疾病中发挥作用",
+          "chunk_id": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "data": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting "
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+          "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "raw_text": "五味子木脂素在治疗阿尔茨海默病、抑郁、焦虑等疾病中发挥作用",
+          "chunk_id": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "data": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting "
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+          "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "raw_text": "五味子木脂素与免疫抑制剂、抗菌药物、抗肿瘤药物等合用时可能会发生基于药物代谢酶和P-糖蛋白转运体介导的药物相互作用",
+          "chunk_id": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "data": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting "
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+          "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "raw_text": "五味子木脂素与免疫抑制剂、抗菌药物、抗肿瘤药物等合用时可能会发生基于药物代谢酶和P-糖蛋白转运体介导的药物相互作用",
+          "chunk_id": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "data": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting "
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+          "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "raw_text": "五味子木脂素与免疫抑制剂、抗菌药物、抗肿瘤药物等合用时可能会发生基于药物代谢酶和P-糖蛋白转运体介导的药物相互作用",
+          "chunk_id": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "data": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting "
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+          "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "raw_text": "细胞色素P450和药物转运体在五味子木脂素的生物转化和代谢清除中起关键作用",
+          "chunk_id": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "data": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting "
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+          "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "raw_text": "五味子木脂素与免疫抑制剂、抗菌药物、抗肿瘤药物等合用时可能会发生基于药物代谢酶和P-糖蛋白转运体介导的药物相互作用",
+          "chunk_id": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+          "data": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting "
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1):1",
+    "source": "五味子木脂素治疗神经精神疾病作用机制及药物相互作用研究进展_姜静静 (1).pdf",
+    "text": "，临床上含有五味子木脂素的药物常与其他药物联合应用，合并用药时可能会发生基于药物代谢酶和转运体介导的药物相互作用。 现对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子木脂素进一步的实验研究和临床应用奠定基础。\nTherapeutic Mechanism of Schisandra Lignans Against Neuropsychiatric Diseases and Drug Interaction: A Review JIANG Jingjing1 ，YU Shidan2 ，LOU Yuefen1( 1 Department of Pharmacy，Shanghai Fourth People's Hospital Affiliated to Tongji University，Shanghai 200434，China; 2 906 Hospital of the Joint Logistics Support Force of the Chinese People's Liberation Army，Ningbo 315300，China)Abstract Schisandra lignans are the main active substances of Fructus Schisandrae Chinensis，which have a wide range of pharmacological effects，especially in the treatment of neuropsychiatric diseases． In recent years，massive research on neuropsychiatric diseases have been conducted． Schisandra lignans exert effects in the treatment of Alzheimer's disease，depression，anxiety and other diseases by regulating neurotransmitters，anti-oxidative stress，inhibiting neuroinflammatory response and inhibiting cell apoptosis． Cytochrome P450 and drug transporters play a key role in the biotransformation and metabolic clearance of Schisandra lignans． In clinical practice，drugs containing Schisandra lignans are usually combined with other drugs to treat diseases，and in drug combination，drug interactions based on drug-metabolizing enzymes and mediated by transporters may occur． This article summarized the molecular mechanism of Schisandra lignans in the treatment of neuropsychiatric diseases and the drug interactions，providing a foundation for further experimental research and clinical application of Schisandra lignans．Keywords Schisandra lignans; Neuropsychiatric diseases; Molecular mechanism; Drug interaction; Cytochrome P450; Drug transporter五味子为木兰科植物五味子［Schisandrachinen-sis( Turcz. ) Baill］，习称 “北五味子” ，或华中五味子( Schisandrasphenanthera Rehd. et Wils. ) ，习称 ” 南五味子”的干燥果实。 始载于 《神农本草经》，位列上品，味酸，性温，归肺、心、肾经，具有收敛固涩，益气生津，补肾宁心之功效［1］。 木脂素是五味子中主要活性物质，主要有五味子甲素、五味子乙素、五味子丙素、五味子醇甲、五味子醇乙、五味子酯甲、五味子酯乙、戈米辛等［2］。 研究发现，五味子木脂素具有保肝，抗肿瘤，止咳，保护神经等药理作用［3-5］。 近年来关于五味子木脂素对于神经及精神方面疾病如阿尔茨海默病、抑郁、焦虑等治疗作用逐渐被人们重视，国内外学者对相关作用机制进行了大量深入的研究［6-9］。 此外，五味子木脂素与免疫抑制剂、 抗菌药物、 抗肿瘤药物等合用时可能会发生基于药物代谢酶和 P-糖蛋白 ( P-glycoprotein，P-gp) 转运体介导的药物相互作用。 本文对五味子木脂素治疗神经精神疾病的分子机制及药物相互作用进行归纳总结，以期为五味子在神经精神疾病的临床应用提供参考 。"
+  }
+]

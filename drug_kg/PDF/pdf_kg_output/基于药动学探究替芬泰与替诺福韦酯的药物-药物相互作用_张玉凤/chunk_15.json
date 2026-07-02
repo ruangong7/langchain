@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "替芬泰",
+        "canonical_name": "替芬泰",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "替诺福韦酯",
+        "canonical_name": "替诺福韦酯",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤.pdf",
+          "chunk_index": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:15",
+          "raw_text": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用",
+          "chunk_id": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:15",
+          "data": ")$ ）的 1 mLKRB，且有机溶剂的最终体积分数不超过 1%。分别孵育5、10、15、30 min后，收集肾切片，用冰冷的KRB冲洗3次，并在滤纸上干燥，每个时间点均平行3个样本。肾切片经匀浆机匀浆后按照“2.2”项样品处理方法处理。\n2.8　数据处理\nAnalyst 1.7.3 软件对待测物 Y101、M8、TFV 和内标进行积分，得出峰面积。以待测物质量浓度为横坐标，待测物与内标物的峰面积比值为纵坐标，以加权最小二乘法（权重为 $1 / x ^ { 2 } )$ 进行回归运算，求得的直线方程即为血浆校正曲线。使用WinNonlin8.3软件处理血药浓度数据，使用非房室模型统计矩法计算药动学参数 $( C _ { \\mathrm { m a x } } \\bullet t _ { \\mathrm { m a x } } \\bullet \\mathrm { U C } _ { \\scriptscriptstyle 0 \\sim { t } } \\bullet \\mathrm { A U C } _ { \\scriptscriptstyle 0 \\sim { \\infty } } \\bullet t _ { 1 / 2 } \\bullet$ 、$\\mathrm { C L } _ { \\mathrm { p } } )$ 。采用t检验进行分析， $P { < } 0 . 0 5$ 为在统计学上具有显著性差异。\n2.7　大鼠iv给药的肾排泄实验"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:15",
+    "source": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤.pdf",
+    "text": ")$ ）的 1 mLKRB，且有机溶剂的最终体积分数不超过 1%。分别孵育5、10、15、30 min后，收集肾切片，用冰冷的KRB冲洗3次，并在滤纸上干燥，每个时间点均平行3个样本。肾切片经匀浆机匀浆后按照“2.2”项样品处理方法处理。\n2.8　数据处理\nAnalyst 1.7.3 软件对待测物 Y101、M8、TFV 和内标进行积分，得出峰面积。以待测物质量浓度为横坐标，待测物与内标物的峰面积比值为纵坐标，以加权最小二乘法（权重为 $1 / x ^ { 2 } )$ 进行回归运算，求得的直线方程即为血浆校正曲线。使用WinNonlin8.3软件处理血药浓度数据，使用非房室模型统计矩法计算药动学参数 $( C _ { \\mathrm { m a x } } \\bullet t _ { \\mathrm { m a x } } \\bullet \\mathrm { U C } _ { \\scriptscriptstyle 0 \\sim { t } } \\bullet \\mathrm { A U C } _ { \\scriptscriptstyle 0 \\sim { \\infty } } \\bullet t _ { 1 / 2 } \\bullet$ 、$\\mathrm { C L } _ { \\mathrm { p } } )$ 。采用t检验进行分析， $P { < } 0 . 0 5$ 为在统计学上具有显著性差异。\n2.7　大鼠iv给药的肾排泄实验"
+  }
+]

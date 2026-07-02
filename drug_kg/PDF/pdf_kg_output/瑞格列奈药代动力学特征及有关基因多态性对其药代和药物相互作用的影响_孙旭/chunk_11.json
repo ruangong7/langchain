@@ -1,0 +1,82 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "瑞格列奈",
+        "canonical_name": "瑞格列奈",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "环孢霉素",
+        "canonical_name": "环孢霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "低血糖症",
+        "canonical_name": "低血糖症",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "canonical_name": "血药浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "瑞格列奈药代动力学特征及有关基因多态性对其药代和药物相互作用的影响_孙旭.pdf",
+          "chunk_index": "瑞格列奈药代动力学特征及有关基因多态性对其药代和药物相互作用的影响_孙旭:11",
+          "raw_text": "环孢霉素是通过抑制 CYP3A4 的促进生物转化作用和 OATP1B1的肝摄取作用而增加瑞格列奈血药浓度的两药合用时环孢霉素可使瑞格列奈 AUC(0-∞) 增加244％ (P<0.001)， Cmax 均值增加175％ (P=0.013) 可能会提高瑞格列奈的降血糖作用从而增加低血糖症的危险",
+          "mechanism": "环孢霉素抑制 CYP3A4 和 OATP1B1，增加瑞格列奈血药浓度",
+          "consequence": "增加低血糖症风险",
+          "severity": "高",
+          "chunk_id": "瑞格列奈药代动力学特征及有关基因多态性对其药代和药物相互作用的影响_孙旭:11",
+          "data": "对象不具有针对性其次试验的样本量相对较少从而不能从量上很好的反应基因多态性对药物代谢的影响再次国内外的研究结果都显示基因多态性只对瑞格列奈的药物血药浓度产生一定影响而与个体降糖效果没有相关性其原因值得深究其研究是否具有临床意义也应重点考量。\n$\\mathrm { \\ ; Y P 3 A 4 }$ 多态性对瑞格列奈药物代谢的影响以及关于瑞格列奈药物作用靶点基因多态性和药物效应个体间差异的研究目前国内都没有相关研究报道我们不但可以扩大样本例数进一步证明和多态性对瑞格列奈药物代谢的影响还可以针对上述两个国内研究空白区作相应的研究工作以期更好地指导临床上个体化用药确保用药的安全性和有效性环孢霉素是通过抑制 $\\mathrm { { C Y } } \\mathrm { { P } } ^ { 3 } \\mathrm { { A } } ^ { 4 }$ 的促进生物转化作用和 OATP1B1的肝摄取作用而增加瑞格列奈血药浓度的两药合用时环孢霉素可使瑞格列奈 $\\mathbf { A U C } _ { ( 0 - \\infty ) }$ 增加244％ $( P { \\overset { \\ll } { \\sim } } 0 . 0 0 1 )$ ， $C _ { \\mathrm { m a x } }$ 均值增加175％ $( P ^ { = } 0 . 0 1 3 )$ 可能会提高瑞格列奈的降血糖作用从而增加低血糖症的危险［27］\nStudy on pharmacokinetic features of Repaglinide and the influence of genetic polymorphisms on its pharmacokinetics and drug interactions"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "瑞格列奈药代动力学特征及有关基因多态性对其药代和药物相互作用的影响_孙旭.pdf",
+          "chunk_index": "瑞格列奈药代动力学特征及有关基因多态性对其药代和药物相互作用的影响_孙旭:11",
+          "raw_text": "环孢霉素是通过抑制 CYP3A4 的促进生物转化作用和 OATP1B1的肝摄取作用而增加瑞格列奈血药浓度",
+          "chunk_id": "瑞格列奈药代动力学特征及有关基因多态性对其药代和药物相互作用的影响_孙旭:11",
+          "data": "对象不具有针对性其次试验的样本量相对较少从而不能从量上很好的反应基因多态性对药物代谢的影响再次国内外的研究结果都显示基因多态性只对瑞格列奈的药物血药浓度产生一定影响而与个体降糖效果没有相关性其原因值得深究其研究是否具有临床意义也应重点考量。\n$\\mathrm { \\ ; Y P 3 A 4 }$ 多态性对瑞格列奈药物代谢的影响以及关于瑞格列奈药物作用靶点基因多态性和药物效应个体间差异的研究目前国内都没有相关研究报道我们不但可以扩大样本例数进一步证明和多态性对瑞格列奈药物代谢的影响还可以针对上述两个国内研究空白区作相应的研究工作以期更好地指导临床上个体化用药确保用药的安全性和有效性环孢霉素是通过抑制 $\\mathrm { { C Y } } \\mathrm { { P } } ^ { 3 } \\mathrm { { A } } ^ { 4 }$ 的促进生物转化作用和 OATP1B1的肝摄取作用而增加瑞格列奈血药浓度的两药合用时环孢霉素可使瑞格列奈 $\\mathbf { A U C } _ { ( 0 - \\infty ) }$ 增加244％ $( P { \\overset { \\ll } { \\sim } } 0 . 0 0 1 )$ ， $C _ { \\mathrm { m a x } }$ 均值增加175％ $( P ^ { = } 0 . 0 1 3 )$ 可能会提高瑞格列奈的降血糖作用从而增加低血糖症的危险［27］\nStudy on pharmacokinetic features of Repaglinide and the influence of genetic polymorphisms on its pharmacokinetics and drug interactions"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "瑞格列奈药代动力学特征及有关基因多态性对其药代和药物相互作用的影响_孙旭.pdf",
+          "chunk_index": "瑞格列奈药代动力学特征及有关基因多态性对其药代和药物相互作用的影响_孙旭:11",
+          "raw_text": "可能会提高瑞格列奈的降血糖作用从而增加低血糖症的危险",
+          "chunk_id": "瑞格列奈药代动力学特征及有关基因多态性对其药代和药物相互作用的影响_孙旭:11",
+          "data": "对象不具有针对性其次试验的样本量相对较少从而不能从量上很好的反应基因多态性对药物代谢的影响再次国内外的研究结果都显示基因多态性只对瑞格列奈的药物血药浓度产生一定影响而与个体降糖效果没有相关性其原因值得深究其研究是否具有临床意义也应重点考量。\n$\\mathrm { \\ ; Y P 3 A 4 }$ 多态性对瑞格列奈药物代谢的影响以及关于瑞格列奈药物作用靶点基因多态性和药物效应个体间差异的研究目前国内都没有相关研究报道我们不但可以扩大样本例数进一步证明和多态性对瑞格列奈药物代谢的影响还可以针对上述两个国内研究空白区作相应的研究工作以期更好地指导临床上个体化用药确保用药的安全性和有效性环孢霉素是通过抑制 $\\mathrm { { C Y } } \\mathrm { { P } } ^ { 3 } \\mathrm { { A } } ^ { 4 }$ 的促进生物转化作用和 OATP1B1的肝摄取作用而增加瑞格列奈血药浓度的两药合用时环孢霉素可使瑞格列奈 $\\mathbf { A U C } _ { ( 0 - \\infty ) }$ 增加244％ $( P { \\overset { \\ll } { \\sim } } 0 . 0 0 1 )$ ， $C _ { \\mathrm { m a x } }$ 均值增加175％ $( P ^ { = } 0 . 0 1 3 )$ 可能会提高瑞格列奈的降血糖作用从而增加低血糖症的危险［27］\nStudy on pharmacokinetic features of Repaglinide and the influence of genetic polymorphisms on its pharmacokinetics and drug interactions"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "瑞格列奈药代动力学特征及有关基因多态性对其药代和药物相互作用的影响_孙旭:11",
+    "source": "瑞格列奈药代动力学特征及有关基因多态性对其药代和药物相互作用的影响_孙旭.pdf",
+    "text": "对象不具有针对性其次试验的样本量相对较少从而不能从量上很好的反应基因多态性对药物代谢的影响再次国内外的研究结果都显示基因多态性只对瑞格列奈的药物血药浓度产生一定影响而与个体降糖效果没有相关性其原因值得深究其研究是否具有临床意义也应重点考量。\n$\\mathrm { \\ ; Y P 3 A 4 }$ 多态性对瑞格列奈药物代谢的影响以及关于瑞格列奈药物作用靶点基因多态性和药物效应个体间差异的研究目前国内都没有相关研究报道我们不但可以扩大样本例数进一步证明和多态性对瑞格列奈药物代谢的影响还可以针对上述两个国内研究空白区作相应的研究工作以期更好地指导临床上个体化用药确保用药的安全性和有效性环孢霉素是通过抑制 $\\mathrm { { C Y } } \\mathrm { { P } } ^ { 3 } \\mathrm { { A } } ^ { 4 }$ 的促进生物转化作用和 OATP1B1的肝摄取作用而增加瑞格列奈血药浓度的两药合用时环孢霉素可使瑞格列奈 $\\mathbf { A U C } _ { ( 0 - \\infty ) }$ 增加244％ $( P { \\overset { \\ll } { \\sim } } 0 . 0 0 1 )$ ， $C _ { \\mathrm { m a x } }$ 均值增加175％ $( P ^ { = } 0 . 0 1 3 )$ 可能会提高瑞格列奈的降血糖作用从而增加低血糖症的危险［27］\nStudy on pharmacokinetic features of Repaglinide and the influence of genetic polymorphisms on its pharmacokinetics and drug interactions"
+  }
+]

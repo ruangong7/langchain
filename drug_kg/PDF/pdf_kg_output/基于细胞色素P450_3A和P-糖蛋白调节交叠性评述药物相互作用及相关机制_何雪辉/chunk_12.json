@@ -1,0 +1,159 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "卡马西平",
+        "canonical_name": "卡马西平",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "长春碱",
+        "canonical_name": "长春碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "抗癫痫药",
+        "canonical_name": "抗癫痫药",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "抗菌药",
+        "canonical_name": "抗菌药",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "抗肿瘤药物",
+        "canonical_name": "抗肿瘤药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "CYP3A4",
+        "canonical_name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "P-gp",
+        "canonical_name": "P-gp",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:12",
+          "raw_text": "抗癫痫药卡马西平",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:12",
+          "data": "ega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } } }$ 调节交叠性的重要原因之一。\n在 MDR1 基因上同样存在 PXR 的应答元件。 目前研究发现MDR1 启动子区并没有应答元件，在上游8 kb 处增强子区有应答元件 DR4I/II/III、 ER6，但只有 DR4I 可以与 PXR/RXR 异二聚体结合并调控 MDR1 转录过程不完整的 ER6可以和 PXR/RXR 结合，但不能诱导上调 MDR1 表达。 抗癫痫药卡马西平和抗菌药利福平可以激活 PXR，形成的 PXR/RXR 异二聚体与应答元件 DR4 结合，进而高度诱导 MDR1基因表达［9］ 。\n2. 1 核受体\nPXR 和 CAR 是一类重要的转录因子，是机体调节内外源性化合物代谢的主要核受体，它们的功能区与其他核受体相似，但结构有所不同。\n由于 CYP3A 和 P-gp 基因上普遍存在 PXR/RXR 的应答元件例如 DR-3、 DR-4、 ER-6，配体激活的 PXR/RXR 异二聚体可以与这些应答元件结合，这是机体产生 CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 正向调控交叠性的重要原因之一。 长春碱存在于夹竹桃科长春花中，是一种抗肿瘤药物，通过 PXR 依赖性机制诱导CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ ，从而促进自身的消除，并介导了与其他CYP3A4 底物的相互作用［10-11］ 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:12",
+          "raw_text": "抗菌药利福平",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:12",
+          "data": "ega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } } }$ 调节交叠性的重要原因之一。\n在 MDR1 基因上同样存在 PXR 的应答元件。 目前研究发现MDR1 启动子区并没有应答元件，在上游8 kb 处增强子区有应答元件 DR4I/II/III、 ER6，但只有 DR4I 可以与 PXR/RXR 异二聚体结合并调控 MDR1 转录过程不完整的 ER6可以和 PXR/RXR 结合，但不能诱导上调 MDR1 表达。 抗癫痫药卡马西平和抗菌药利福平可以激活 PXR，形成的 PXR/RXR 异二聚体与应答元件 DR4 结合，进而高度诱导 MDR1基因表达［9］ 。\n2. 1 核受体\nPXR 和 CAR 是一类重要的转录因子，是机体调节内外源性化合物代谢的主要核受体，它们的功能区与其他核受体相似，但结构有所不同。\n由于 CYP3A 和 P-gp 基因上普遍存在 PXR/RXR 的应答元件例如 DR-3、 DR-4、 ER-6，配体激活的 PXR/RXR 异二聚体可以与这些应答元件结合，这是机体产生 CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 正向调控交叠性的重要原因之一。 长春碱存在于夹竹桃科长春花中，是一种抗肿瘤药物，通过 PXR 依赖性机制诱导CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ ，从而促进自身的消除，并介导了与其他CYP3A4 底物的相互作用［10-11］ 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:12",
+          "raw_text": "长春碱存在于夹竹桃科长春花中，是一种抗肿瘤药物",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:12",
+          "data": "ega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } } }$ 调节交叠性的重要原因之一。\n在 MDR1 基因上同样存在 PXR 的应答元件。 目前研究发现MDR1 启动子区并没有应答元件，在上游8 kb 处增强子区有应答元件 DR4I/II/III、 ER6，但只有 DR4I 可以与 PXR/RXR 异二聚体结合并调控 MDR1 转录过程不完整的 ER6可以和 PXR/RXR 结合，但不能诱导上调 MDR1 表达。 抗癫痫药卡马西平和抗菌药利福平可以激活 PXR，形成的 PXR/RXR 异二聚体与应答元件 DR4 结合，进而高度诱导 MDR1基因表达［9］ 。\n2. 1 核受体\nPXR 和 CAR 是一类重要的转录因子，是机体调节内外源性化合物代谢的主要核受体，它们的功能区与其他核受体相似，但结构有所不同。\n由于 CYP3A 和 P-gp 基因上普遍存在 PXR/RXR 的应答元件例如 DR-3、 DR-4、 ER-6，配体激活的 PXR/RXR 异二聚体可以与这些应答元件结合，这是机体产生 CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 正向调控交叠性的重要原因之一。 长春碱存在于夹竹桃科长春花中，是一种抗肿瘤药物，通过 PXR 依赖性机制诱导CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ ，从而促进自身的消除，并介导了与其他CYP3A4 底物的相互作用［10-11］ 。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:12",
+          "raw_text": "抗癫痫药卡马西平...可以激活PXR，形成的PXR/RXR异二聚体与应答元件DR4结合，进而高度诱导MDR1基因表达",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:12",
+          "data": "ega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } } }$ 调节交叠性的重要原因之一。\n在 MDR1 基因上同样存在 PXR 的应答元件。 目前研究发现MDR1 启动子区并没有应答元件，在上游8 kb 处增强子区有应答元件 DR4I/II/III、 ER6，但只有 DR4I 可以与 PXR/RXR 异二聚体结合并调控 MDR1 转录过程不完整的 ER6可以和 PXR/RXR 结合，但不能诱导上调 MDR1 表达。 抗癫痫药卡马西平和抗菌药利福平可以激活 PXR，形成的 PXR/RXR 异二聚体与应答元件 DR4 结合，进而高度诱导 MDR1基因表达［9］ 。\n2. 1 核受体\nPXR 和 CAR 是一类重要的转录因子，是机体调节内外源性化合物代谢的主要核受体，它们的功能区与其他核受体相似，但结构有所不同。\n由于 CYP3A 和 P-gp 基因上普遍存在 PXR/RXR 的应答元件例如 DR-3、 DR-4、 ER-6，配体激活的 PXR/RXR 异二聚体可以与这些应答元件结合，这是机体产生 CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 正向调控交叠性的重要原因之一。 长春碱存在于夹竹桃科长春花中，是一种抗肿瘤药物，通过 PXR 依赖性机制诱导CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ ，从而促进自身的消除，并介导了与其他CYP3A4 底物的相互作用［10-11］ 。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:12",
+          "raw_text": "抗菌药利福平可以激活PXR，形成的PXR/RXR异二聚体与应答元件DR4结合，进而高度诱导MDR1基因表达",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:12",
+          "data": "ega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } } }$ 调节交叠性的重要原因之一。\n在 MDR1 基因上同样存在 PXR 的应答元件。 目前研究发现MDR1 启动子区并没有应答元件，在上游8 kb 处增强子区有应答元件 DR4I/II/III、 ER6，但只有 DR4I 可以与 PXR/RXR 异二聚体结合并调控 MDR1 转录过程不完整的 ER6可以和 PXR/RXR 结合，但不能诱导上调 MDR1 表达。 抗癫痫药卡马西平和抗菌药利福平可以激活 PXR，形成的 PXR/RXR 异二聚体与应答元件 DR4 结合，进而高度诱导 MDR1基因表达［9］ 。\n2. 1 核受体\nPXR 和 CAR 是一类重要的转录因子，是机体调节内外源性化合物代谢的主要核受体，它们的功能区与其他核受体相似，但结构有所不同。\n由于 CYP3A 和 P-gp 基因上普遍存在 PXR/RXR 的应答元件例如 DR-3、 DR-4、 ER-6，配体激活的 PXR/RXR 异二聚体可以与这些应答元件结合，这是机体产生 CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 正向调控交叠性的重要原因之一。 长春碱存在于夹竹桃科长春花中，是一种抗肿瘤药物，通过 PXR 依赖性机制诱导CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ ，从而促进自身的消除，并介导了与其他CYP3A4 底物的相互作用［10-11］ 。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:12",
+          "raw_text": "长春碱...通过PXR依赖性机制诱导CYP3A4和P-gp，从而促进自身的消除，并介导了与其他CYP3A4底物的相互作用",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:12",
+          "data": "ega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } } }$ 调节交叠性的重要原因之一。\n在 MDR1 基因上同样存在 PXR 的应答元件。 目前研究发现MDR1 启动子区并没有应答元件，在上游8 kb 处增强子区有应答元件 DR4I/II/III、 ER6，但只有 DR4I 可以与 PXR/RXR 异二聚体结合并调控 MDR1 转录过程不完整的 ER6可以和 PXR/RXR 结合，但不能诱导上调 MDR1 表达。 抗癫痫药卡马西平和抗菌药利福平可以激活 PXR，形成的 PXR/RXR 异二聚体与应答元件 DR4 结合，进而高度诱导 MDR1基因表达［9］ 。\n2. 1 核受体\nPXR 和 CAR 是一类重要的转录因子，是机体调节内外源性化合物代谢的主要核受体，它们的功能区与其他核受体相似，但结构有所不同。\n由于 CYP3A 和 P-gp 基因上普遍存在 PXR/RXR 的应答元件例如 DR-3、 DR-4、 ER-6，配体激活的 PXR/RXR 异二聚体可以与这些应答元件结合，这是机体产生 CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 正向调控交叠性的重要原因之一。 长春碱存在于夹竹桃科长春花中，是一种抗肿瘤药物，通过 PXR 依赖性机制诱导CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ ，从而促进自身的消除，并介导了与其他CYP3A4 底物的相互作用［10-11］ 。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:12",
+          "raw_text": "长春碱...通过PXR依赖性机制诱导CYP3A4和P-gp，从而促进自身的消除，并介导了与其他CYP3A4底物的相互作用",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:12",
+          "data": "ega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } } }$ 调节交叠性的重要原因之一。\n在 MDR1 基因上同样存在 PXR 的应答元件。 目前研究发现MDR1 启动子区并没有应答元件，在上游8 kb 处增强子区有应答元件 DR4I/II/III、 ER6，但只有 DR4I 可以与 PXR/RXR 异二聚体结合并调控 MDR1 转录过程不完整的 ER6可以和 PXR/RXR 结合，但不能诱导上调 MDR1 表达。 抗癫痫药卡马西平和抗菌药利福平可以激活 PXR，形成的 PXR/RXR 异二聚体与应答元件 DR4 结合，进而高度诱导 MDR1基因表达［9］ 。\n2. 1 核受体\nPXR 和 CAR 是一类重要的转录因子，是机体调节内外源性化合物代谢的主要核受体，它们的功能区与其他核受体相似，但结构有所不同。\n由于 CYP3A 和 P-gp 基因上普遍存在 PXR/RXR 的应答元件例如 DR-3、 DR-4、 ER-6，配体激活的 PXR/RXR 异二聚体可以与这些应答元件结合，这是机体产生 CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 正向调控交叠性的重要原因之一。 长春碱存在于夹竹桃科长春花中，是一种抗肿瘤药物，通过 PXR 依赖性机制诱导CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ ，从而促进自身的消除，并介导了与其他CYP3A4 底物的相互作用［10-11］ 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:12",
+    "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+    "text": "ega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } } }$ 调节交叠性的重要原因之一。\n在 MDR1 基因上同样存在 PXR 的应答元件。 目前研究发现MDR1 启动子区并没有应答元件，在上游8 kb 处增强子区有应答元件 DR4I/II/III、 ER6，但只有 DR4I 可以与 PXR/RXR 异二聚体结合并调控 MDR1 转录过程不完整的 ER6可以和 PXR/RXR 结合，但不能诱导上调 MDR1 表达。 抗癫痫药卡马西平和抗菌药利福平可以激活 PXR，形成的 PXR/RXR 异二聚体与应答元件 DR4 结合，进而高度诱导 MDR1基因表达［9］ 。\n2. 1 核受体\nPXR 和 CAR 是一类重要的转录因子，是机体调节内外源性化合物代谢的主要核受体，它们的功能区与其他核受体相似，但结构有所不同。\n由于 CYP3A 和 P-gp 基因上普遍存在 PXR/RXR 的应答元件例如 DR-3、 DR-4、 ER-6，配体激活的 PXR/RXR 异二聚体可以与这些应答元件结合，这是机体产生 CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 正向调控交叠性的重要原因之一。 长春碱存在于夹竹桃科长春花中，是一种抗肿瘤药物，通过 PXR 依赖性机制诱导CYP3A4 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ ，从而促进自身的消除，并介导了与其他CYP3A4 底物的相互作用［10-11］ 。"
+  }
+]

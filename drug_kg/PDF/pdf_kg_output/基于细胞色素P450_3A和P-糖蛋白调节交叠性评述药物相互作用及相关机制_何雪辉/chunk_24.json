@@ -1,0 +1,86 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "凡德他尼",
+        "canonical_name": "凡德他尼",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP3A诱导剂",
+        "canonical_name": "CYP3A诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "苦参提取物",
+        "canonical_name": "苦参提取物",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "印地那韦",
+        "canonical_name": "印地那韦",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:24",
+          "raw_text": "利福平是 CYP3A 的诱导剂，同时也上调 P-gp 的表达; 凡德他尼可经 CYP3A 代谢，同时还能够抑制 P-gp 的转运功能采用双交叉设计，健康男性口服凡德他尼与利福平后，凡德他尼的 AUC 减少，但 ρ_max 无明显变化，凡德他尼代谢产物的AUC 和 ρ_max 分别增加，这个研究提示临床应减少凡德他尼与强效 CYP3A 诱导剂合用",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:24",
+          "data": "{ \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 表达，示意图见图2。\n利福平是 CYP3A 的诱导剂，同时也上调 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的表达; 凡德他尼可经 CYP3A 代谢，同时还能够抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的转运功能采用双交叉设计，健康男性口服凡德他尼与利福平后，凡德他尼的 AUC 减少，但 $\\rho _ { \\mathrm { m a x } }$ 无明显变化，凡德他尼代谢产物的AUC 和 $\\rho _ { \\mathrm { m a x } }$ 分别增加，这个研究提示临床应减少凡德他尼与强效 CYP3A 诱导剂合用［34］。 随着中药的广泛使用，大量研究表明，中药对 CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的活性和表达有重要影响，某些中药与其他药物合用时可改变药物的吸收和代谢苦参提取物可诱导大鼠肝肠中 CYP3A 尤其是 CYP3A1 的表达。大鼠连续7 d 合用苦参提取物和印地那韦后，印地那韦血药浓度减低，AUC 和 $\\rho _ { \\mathrm { m a x } }$ 减少，分别为 55% ～ 83% 和 38% ～78%，这表明苦参和印地那韦之间的 DDI 与肝 CYP3A 活性和肠道、肝脏 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 有关［35］\n2. 4 CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的 VDR 调控途径"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:24",
+          "raw_text": "利福平是 CYP3A 的诱导剂",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:24",
+          "data": "{ \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 表达，示意图见图2。\n利福平是 CYP3A 的诱导剂，同时也上调 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的表达; 凡德他尼可经 CYP3A 代谢，同时还能够抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的转运功能采用双交叉设计，健康男性口服凡德他尼与利福平后，凡德他尼的 AUC 减少，但 $\\rho _ { \\mathrm { m a x } }$ 无明显变化，凡德他尼代谢产物的AUC 和 $\\rho _ { \\mathrm { m a x } }$ 分别增加，这个研究提示临床应减少凡德他尼与强效 CYP3A 诱导剂合用［34］。 随着中药的广泛使用，大量研究表明，中药对 CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的活性和表达有重要影响，某些中药与其他药物合用时可改变药物的吸收和代谢苦参提取物可诱导大鼠肝肠中 CYP3A 尤其是 CYP3A1 的表达。大鼠连续7 d 合用苦参提取物和印地那韦后，印地那韦血药浓度减低，AUC 和 $\\rho _ { \\mathrm { m a x } }$ 减少，分别为 55% ～ 83% 和 38% ～78%，这表明苦参和印地那韦之间的 DDI 与肝 CYP3A 活性和肠道、肝脏 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 有关［35］\n2. 4 CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的 VDR 调控途径"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+          "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:24",
+          "raw_text": "大鼠连续7 d 合用苦参提取物和印地那韦后，印地那韦血药浓度减低，AUC 和 ρ_max 减少，分别为 55% ～ 83% 和 38% ～78%，这表明苦参和印地那韦之间的 DDI 与肝 CYP3A 活性和肠道、肝脏 P-gp 有关",
+          "chunk_id": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:24",
+          "data": "{ \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 表达，示意图见图2。\n利福平是 CYP3A 的诱导剂，同时也上调 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的表达; 凡德他尼可经 CYP3A 代谢，同时还能够抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的转运功能采用双交叉设计，健康男性口服凡德他尼与利福平后，凡德他尼的 AUC 减少，但 $\\rho _ { \\mathrm { m a x } }$ 无明显变化，凡德他尼代谢产物的AUC 和 $\\rho _ { \\mathrm { m a x } }$ 分别增加，这个研究提示临床应减少凡德他尼与强效 CYP3A 诱导剂合用［34］。 随着中药的广泛使用，大量研究表明，中药对 CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的活性和表达有重要影响，某些中药与其他药物合用时可改变药物的吸收和代谢苦参提取物可诱导大鼠肝肠中 CYP3A 尤其是 CYP3A1 的表达。大鼠连续7 d 合用苦参提取物和印地那韦后，印地那韦血药浓度减低，AUC 和 $\\rho _ { \\mathrm { m a x } }$ 减少，分别为 55% ～ 83% 和 38% ～78%，这表明苦参和印地那韦之间的 DDI 与肝 CYP3A 活性和肠道、肝脏 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 有关［35］\n2. 4 CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的 VDR 调控途径"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉:24",
+    "source": "基于细胞色素P450_3A和P-糖蛋白调节交叠性评述药物相互作用及相关机制_何雪辉.pdf",
+    "text": "{ \\Omega } } \\mathrm { \\overline { { \\Omega } } \\mathrm { \\overline { { \\Omega } } } } } } } } } } } } } } }$ 表达，示意图见图2。\n利福平是 CYP3A 的诱导剂，同时也上调 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的表达; 凡德他尼可经 CYP3A 代谢，同时还能够抑制 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的转运功能采用双交叉设计，健康男性口服凡德他尼与利福平后，凡德他尼的 AUC 减少，但 $\\rho _ { \\mathrm { m a x } }$ 无明显变化，凡德他尼代谢产物的AUC 和 $\\rho _ { \\mathrm { m a x } }$ 分别增加，这个研究提示临床应减少凡德他尼与强效 CYP3A 诱导剂合用［34］。 随着中药的广泛使用，大量研究表明，中药对 CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的活性和表达有重要影响，某些中药与其他药物合用时可改变药物的吸收和代谢苦参提取物可诱导大鼠肝肠中 CYP3A 尤其是 CYP3A1 的表达。大鼠连续7 d 合用苦参提取物和印地那韦后，印地那韦血药浓度减低，AUC 和 $\\rho _ { \\mathrm { m a x } }$ 减少，分别为 55% ～ 83% 和 38% ～78%，这表明苦参和印地那韦之间的 DDI 与肝 CYP3A 活性和肠道、肝脏 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 有关［35］\n2. 4 CYP3A 和 $\\mathrm { P \\mathrm { \\# ~ } f ^ { \\mathrm { p } } }$ 的 VDR 调控途径"
+  }
+]

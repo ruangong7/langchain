@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "多环芳烃",
+        "canonical_name": "多环芳烃",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "细胞色素酶CYP1A2",
+        "canonical_name": "细胞色素酶CYP1A2",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "吸烟与药物相互作用_王娟.pdf",
+          "chunk_index": "吸烟与药物相互作用_王娟:1",
+          "raw_text": "烟气中多环芳烃类化合物是细胞色素酶CYP1A2的诱导剂",
+          "chunk_id": "吸烟与药物相互作用_王娟:1",
+          "data": "571100; 2. 四川大学华西药学院临床药学与药事管理学系，四川成都 610041;3. 四川省烟草质量监督检测站，四川成都 610041)\nRecent advances in smoke and drugs interaction\nWANG Juan1 ，JIANG Xue-hua2 ，WANG Ling2 ，XIONG Wei2，3△［Abstract］ Objective Cigarette smoking remains highly prevalent in most countries. It can affect drug therapy by both pharmacokinetic and pharmacodynamic mechanisms. Correlation between smoking and drugs has been reviewed，and the future study about situation of smoking and drugs also was reviewed．［Keywords］ smoking; drug; interaction在控烟形式越来越严的今天，世界上仍然存在 13 亿的吸烟人群，并且这个数字仍呈上升趋势［1］。 卫生部 2004 年的统计数据显示，我国15 岁及以上的男性人口中吸烟率达到 48%［2］。 烟气是一种成分复杂的气溶胶，其中的一些成分会影响肝药酶的表达和活性从而影响药物的体内过程。 研究最为广泛的是烟气中多环芳烃 ( polycyclic aromatic hydrocarbons，PAHs) 类化合物，它是细胞色素酶( CYP1A2) 的诱导剂，能使多种经 CYP1A2 代谢药物的体内过程发生变化［3-7］。 PAHs 其它的代谢途径，如葡萄糖醛酸苷结合作用也会被 PAHs 诱导［8］。 吸烟也可以从药效学上对药物产生影响，这主要源于尼古丁的药理作用，尤其是其对心血管系统的作用［8］。 尼古丁能够提高体内儿茶酚胺的释放水平从而刺激中枢神经和周围神经系统，这种刺激与某些药物呈反向药理学作用，从而很大程度上影响这些药物的临床疗效。有精神类疾病的患者吸烟率明显高于普通人群［9-14］，其中精神分裂患者的吸烟率高达 70% ～ 80%［15］。 目前，患者在住院期间，医生会建议"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "吸烟与药物相互作用_王娟:1",
+    "source": "吸烟与药物相互作用_王娟.pdf",
+    "text": "571100; 2. 四川大学华西药学院临床药学与药事管理学系，四川成都 610041;3. 四川省烟草质量监督检测站，四川成都 610041)\nRecent advances in smoke and drugs interaction\nWANG Juan1 ，JIANG Xue-hua2 ，WANG Ling2 ，XIONG Wei2，3△［Abstract］ Objective Cigarette smoking remains highly prevalent in most countries. It can affect drug therapy by both pharmacokinetic and pharmacodynamic mechanisms. Correlation between smoking and drugs has been reviewed，and the future study about situation of smoking and drugs also was reviewed．［Keywords］ smoking; drug; interaction在控烟形式越来越严的今天，世界上仍然存在 13 亿的吸烟人群，并且这个数字仍呈上升趋势［1］。 卫生部 2004 年的统计数据显示，我国15 岁及以上的男性人口中吸烟率达到 48%［2］。 烟气是一种成分复杂的气溶胶，其中的一些成分会影响肝药酶的表达和活性从而影响药物的体内过程。 研究最为广泛的是烟气中多环芳烃 ( polycyclic aromatic hydrocarbons，PAHs) 类化合物，它是细胞色素酶( CYP1A2) 的诱导剂，能使多种经 CYP1A2 代谢药物的体内过程发生变化［3-7］。 PAHs 其它的代谢途径，如葡萄糖醛酸苷结合作用也会被 PAHs 诱导［8］。 吸烟也可以从药效学上对药物产生影响，这主要源于尼古丁的药理作用，尤其是其对心血管系统的作用［8］。 尼古丁能够提高体内儿茶酚胺的释放水平从而刺激中枢神经和周围神经系统，这种刺激与某些药物呈反向药理学作用，从而很大程度上影响这些药物的临床疗效。有精神类疾病的患者吸烟率明显高于普通人群［9-14］，其中精神分裂患者的吸烟率高达 70% ～ 80%［15］。 目前，患者在住院期间，医生会建议戒断吸烟行为，而戒烟后药物体内过程可能会发生变化，这种变化会导致药物不良反应增加或药物疗效不显著。在吸烟者众多的情况下，了解药物在吸烟者体内过程，烟气相关成分与药物在体内的相互作用，以及吸烟者在戒烟后药物体内过程的变化，对于合理用药与降低药物不良反应具有十分重要的意义。 因此本文对吸烟与一些常见药物的相互作用作一综述，以期为进一步研究提供参考。"
+  }
+]

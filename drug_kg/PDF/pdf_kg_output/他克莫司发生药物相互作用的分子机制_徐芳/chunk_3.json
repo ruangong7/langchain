@@ -1,0 +1,125 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "糖皮质激素",
+        "canonical_name": "糖皮质激素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Indicator",
+        "name": "血清肌酐",
+        "canonical_name": "血清肌酐",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "他克莫司血药浓度",
+        "canonical_name": "他克莫司血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "巴西利单抗",
+        "canonical_name": "巴西利单抗",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "抗胸腺细胞球蛋白",
+        "canonical_name": "抗胸腺细胞球蛋白",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+          "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:3",
+          "raw_text": "由于皮质激素是 CYPA 的诱导剂故停用皮质激素后 FK 浓度显著升高从而造成肾毒性使血清肌酐水平升高因此在临床实践中停用糖皮质激素或改变其剂量后应该注意监测 FK 的浓度",
+          "mechanism": "糖皮质激素为CYP3A诱导剂，停用后他克莫司浓度升高",
+          "consequence": "他克莫司浓度升高，增加肾毒性风险，血清肌酐升高",
+          "suggestion": "停用糖皮质激素或改变剂量后应监测他克莫司浓度",
+          "chunk_id": "他克莫司发生药物相互作用的分子机制_徐芳:3",
+          "data": "分子基础 ［2］研究表明由于皮质激素是 CYPA 的诱导剂故停用皮质激素后 FK 浓度显著升高从而造成肾毒性使血清肌酐水平升高因此在临床实践中停用糖皮质激素或改变其剂量后应该注意监测 FK 的浓度\n1∙2 FK 发生药效学相互作用的分子基础\n2∙1∙2 巴西利单抗舒莱 basiliximab simulect Sifontis等 ［7］比较了成人肾移植患者 FK 谷浓度在巴西利单抗FK 组 BASI组与抗胸腺细胞球蛋白 FK 组对照组中的差别结果发现用药后第天 BASI组的 FK 谷浓度比对照组升高了 P BASI组半数患者FK 浓度超过治疗浓度 $( > 2 0 \\ \\boldsymbol { \\mu } _ { \\mathrm { \\ g } } \\bullet \\mathrm { ~ \\cal { L } ~ } ^ { - 1 }$ 而对照组只有例出现这样的情况移植后一周时 BASI组 FK 平均给药剂量 $\\left( 0 . 1 6 \\mathrm { \\ m g \\bullet \\ k g ^ { - 1 } \\bullet \\ d ^ { - 1 } } \\right.$ ）明显低于对照组 （0∙25mg·$\\mathrm { k g } ^ { - 1 } \\cdot \\mathrm { ~ d ~ } ^ { - 1 } ) ( \\mathrm { P } ^ { < } 0 . 0 5 ) \\hphantom { . 0 0 0 }$ 在整个研究期间 BASI组 FK 的剂量需要均较对照组低 （分别是 0∙16和 $0 . 2 4 ~ \\mathrm { { m g } \\cdot ~ \\mathrm { { k g } ^ { - 1 } } }$ ·$\\operatorname { d } ^ { - 1 } , { \\mathbf { P } } ^ { < } { \\ v { O } } . 0 5 )$ 。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+          "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:3",
+          "raw_text": "造成肾毒性使血清肌酐水平升高",
+          "chunk_id": "他克莫司发生药物相互作用的分子机制_徐芳:3",
+          "data": "分子基础 ［2］研究表明由于皮质激素是 CYPA 的诱导剂故停用皮质激素后 FK 浓度显著升高从而造成肾毒性使血清肌酐水平升高因此在临床实践中停用糖皮质激素或改变其剂量后应该注意监测 FK 的浓度\n1∙2 FK 发生药效学相互作用的分子基础\n2∙1∙2 巴西利单抗舒莱 basiliximab simulect Sifontis等 ［7］比较了成人肾移植患者 FK 谷浓度在巴西利单抗FK 组 BASI组与抗胸腺细胞球蛋白 FK 组对照组中的差别结果发现用药后第天 BASI组的 FK 谷浓度比对照组升高了 P BASI组半数患者FK 浓度超过治疗浓度 $( > 2 0 \\ \\boldsymbol { \\mu } _ { \\mathrm { \\ g } } \\bullet \\mathrm { ~ \\cal { L } ~ } ^ { - 1 }$ 而对照组只有例出现这样的情况移植后一周时 BASI组 FK 平均给药剂量 $\\left( 0 . 1 6 \\mathrm { \\ m g \\bullet \\ k g ^ { - 1 } \\bullet \\ d ^ { - 1 } } \\right.$ ）明显低于对照组 （0∙25mg·$\\mathrm { k g } ^ { - 1 } \\cdot \\mathrm { ~ d ~ } ^ { - 1 } ) ( \\mathrm { P } ^ { < } 0 . 0 5 ) \\hphantom { . 0 0 0 }$ 在整个研究期间 BASI组 FK 的剂量需要均较对照组低 （分别是 0∙16和 $0 . 2 4 ~ \\mathrm { { m g } \\cdot ~ \\mathrm { { k g } ^ { - 1 } } }$ ·$\\operatorname { d } ^ { - 1 } , { \\mathbf { P } } ^ { < } { \\ v { O } } . 0 5 )$ 。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+          "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:3",
+          "raw_text": "停用糖皮质激素或改变其剂量后应该注意监测 FK 的浓度",
+          "chunk_id": "他克莫司发生药物相互作用的分子机制_徐芳:3",
+          "data": "分子基础 ［2］研究表明由于皮质激素是 CYPA 的诱导剂故停用皮质激素后 FK 浓度显著升高从而造成肾毒性使血清肌酐水平升高因此在临床实践中停用糖皮质激素或改变其剂量后应该注意监测 FK 的浓度\n1∙2 FK 发生药效学相互作用的分子基础\n2∙1∙2 巴西利单抗舒莱 basiliximab simulect Sifontis等 ［7］比较了成人肾移植患者 FK 谷浓度在巴西利单抗FK 组 BASI组与抗胸腺细胞球蛋白 FK 组对照组中的差别结果发现用药后第天 BASI组的 FK 谷浓度比对照组升高了 P BASI组半数患者FK 浓度超过治疗浓度 $( > 2 0 \\ \\boldsymbol { \\mu } _ { \\mathrm { \\ g } } \\bullet \\mathrm { ~ \\cal { L } ~ } ^ { - 1 }$ 而对照组只有例出现这样的情况移植后一周时 BASI组 FK 平均给药剂量 $\\left( 0 . 1 6 \\mathrm { \\ m g \\bullet \\ k g ^ { - 1 } \\bullet \\ d ^ { - 1 } } \\right.$ ）明显低于对照组 （0∙25mg·$\\mathrm { k g } ^ { - 1 } \\cdot \\mathrm { ~ d ~ } ^ { - 1 } ) ( \\mathrm { P } ^ { < } 0 . 0 5 ) \\hphantom { . 0 0 0 }$ 在整个研究期间 BASI组 FK 的剂量需要均较对照组低 （分别是 0∙16和 $0 . 2 4 ~ \\mathrm { { m g } \\cdot ~ \\mathrm { { k g } ^ { - 1 } } }$ ·$\\operatorname { d } ^ { - 1 } , { \\mathbf { P } } ^ { < } { \\ v { O } } . 0 5 )$ 。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+          "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:3",
+          "raw_text": "巴西利单抗 FK 组 BASI组与抗胸腺细胞球蛋白 FK 组对照组中的差别结果发现用药后第天 BASI组的 FK 谷浓度比对照组升高了 P BASI组半数患者FK 浓度超过治疗浓度",
+          "consequence": "巴西利单抗使他克莫司谷浓度升高，超过治疗浓度",
+          "suggestion": "可能需要降低他克莫司剂量",
+          "chunk_id": "他克莫司发生药物相互作用的分子机制_徐芳:3",
+          "data": "分子基础 ［2］研究表明由于皮质激素是 CYPA 的诱导剂故停用皮质激素后 FK 浓度显著升高从而造成肾毒性使血清肌酐水平升高因此在临床实践中停用糖皮质激素或改变其剂量后应该注意监测 FK 的浓度\n1∙2 FK 发生药效学相互作用的分子基础\n2∙1∙2 巴西利单抗舒莱 basiliximab simulect Sifontis等 ［7］比较了成人肾移植患者 FK 谷浓度在巴西利单抗FK 组 BASI组与抗胸腺细胞球蛋白 FK 组对照组中的差别结果发现用药后第天 BASI组的 FK 谷浓度比对照组升高了 P BASI组半数患者FK 浓度超过治疗浓度 $( > 2 0 \\ \\boldsymbol { \\mu } _ { \\mathrm { \\ g } } \\bullet \\mathrm { ~ \\cal { L } ~ } ^ { - 1 }$ 而对照组只有例出现这样的情况移植后一周时 BASI组 FK 平均给药剂量 $\\left( 0 . 1 6 \\mathrm { \\ m g \\bullet \\ k g ^ { - 1 } \\bullet \\ d ^ { - 1 } } \\right.$ ）明显低于对照组 （0∙25mg·$\\mathrm { k g } ^ { - 1 } \\cdot \\mathrm { ~ d ~ } ^ { - 1 } ) ( \\mathrm { P } ^ { < } 0 . 0 5 ) \\hphantom { . 0 0 0 }$ 在整个研究期间 BASI组 FK 的剂量需要均较对照组低 （分别是 0∙16和 $0 . 2 4 ~ \\mathrm { { m g } \\cdot ~ \\mathrm { { k g } ^ { - 1 } } }$ ·$\\operatorname { d } ^ { - 1 } , { \\mathbf { P } } ^ { < } { \\ v { O } } . 0 5 )$ 。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+          "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:3",
+          "raw_text": "抗胸腺细胞球蛋白 FK 组对照组中的差别结果发现用药后第天 BASI组的 FK 谷浓度比对照组升高了",
+          "consequence": "抗胸腺细胞球蛋白与他克莫司联用，他克莫司浓度可能升高",
+          "chunk_id": "他克莫司发生药物相互作用的分子机制_徐芳:3",
+          "data": "分子基础 ［2］研究表明由于皮质激素是 CYPA 的诱导剂故停用皮质激素后 FK 浓度显著升高从而造成肾毒性使血清肌酐水平升高因此在临床实践中停用糖皮质激素或改变其剂量后应该注意监测 FK 的浓度\n1∙2 FK 发生药效学相互作用的分子基础\n2∙1∙2 巴西利单抗舒莱 basiliximab simulect Sifontis等 ［7］比较了成人肾移植患者 FK 谷浓度在巴西利单抗FK 组 BASI组与抗胸腺细胞球蛋白 FK 组对照组中的差别结果发现用药后第天 BASI组的 FK 谷浓度比对照组升高了 P BASI组半数患者FK 浓度超过治疗浓度 $( > 2 0 \\ \\boldsymbol { \\mu } _ { \\mathrm { \\ g } } \\bullet \\mathrm { ~ \\cal { L } ~ } ^ { - 1 }$ 而对照组只有例出现这样的情况移植后一周时 BASI组 FK 平均给药剂量 $\\left( 0 . 1 6 \\mathrm { \\ m g \\bullet \\ k g ^ { - 1 } \\bullet \\ d ^ { - 1 } } \\right.$ ）明显低于对照组 （0∙25mg·$\\mathrm { k g } ^ { - 1 } \\cdot \\mathrm { ~ d ~ } ^ { - 1 } ) ( \\mathrm { P } ^ { < } 0 . 0 5 ) \\hphantom { . 0 0 0 }$ 在整个研究期间 BASI组 FK 的剂量需要均较对照组低 （分别是 0∙16和 $0 . 2 4 ~ \\mathrm { { m g } \\cdot ~ \\mathrm { { k g } ^ { - 1 } } }$ ·$\\operatorname { d } ^ { - 1 } , { \\mathbf { P } } ^ { < } { \\ v { O } } . 0 5 )$ 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "他克莫司发生药物相互作用的分子机制_徐芳:3",
+    "source": "他克莫司发生药物相互作用的分子机制_徐芳.pdf",
+    "text": "分子基础 ［2］研究表明由于皮质激素是 CYPA 的诱导剂故停用皮质激素后 FK 浓度显著升高从而造成肾毒性使血清肌酐水平升高因此在临床实践中停用糖皮质激素或改变其剂量后应该注意监测 FK 的浓度\n1∙2 FK 发生药效学相互作用的分子基础\n2∙1∙2 巴西利单抗舒莱 basiliximab simulect Sifontis等 ［7］比较了成人肾移植患者 FK 谷浓度在巴西利单抗FK 组 BASI组与抗胸腺细胞球蛋白 FK 组对照组中的差别结果发现用药后第天 BASI组的 FK 谷浓度比对照组升高了 P BASI组半数患者FK 浓度超过治疗浓度 $( > 2 0 \\ \\boldsymbol { \\mu } _ { \\mathrm { \\ g } } \\bullet \\mathrm { ~ \\cal { L } ~ } ^ { - 1 }$ 而对照组只有例出现这样的情况移植后一周时 BASI组 FK 平均给药剂量 $\\left( 0 . 1 6 \\mathrm { \\ m g \\bullet \\ k g ^ { - 1 } \\bullet \\ d ^ { - 1 } } \\right.$ ）明显低于对照组 （0∙25mg·$\\mathrm { k g } ^ { - 1 } \\cdot \\mathrm { ~ d ~ } ^ { - 1 } ) ( \\mathrm { P } ^ { < } 0 . 0 5 ) \\hphantom { . 0 0 0 }$ 在整个研究期间 BASI组 FK 的剂量需要均较对照组低 （分别是 0∙16和 $0 . 2 4 ~ \\mathrm { { m g } \\cdot ~ \\mathrm { { k g } ^ { - 1 } } }$ ·$\\operatorname { d } ^ { - 1 } , { \\mathbf { P } } ^ { < } { \\ v { O } } . 0 5 )$ 。"
+  }
+]

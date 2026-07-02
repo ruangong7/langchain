@@ -1,0 +1,192 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "替诺福韦",
+        "canonical_name": "替诺福韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "恩曲他滨",
+        "canonical_name": "恩曲他滨",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "拉米夫定",
+        "canonical_name": "拉米夫定",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "齐多夫定",
+        "canonical_name": "齐多夫定",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "阿巴卡韦",
+        "canonical_name": "阿巴卡韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "索非布韦",
+        "canonical_name": "索非布韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "核苷类反转录酶抑制剂",
+        "canonical_name": "核苷类反转录酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "蛋白酶抑制剂",
+        "canonical_name": "蛋白酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "肾小管疾病",
+        "canonical_name": "肾小管疾病",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "raw_text": "核苷类反转录酶抑制剂（nucleosidereverse transcriptase inhibitors, NRTIs）主要有替诺福韦（tenofovir, TDF）、恩曲他滨（emtricitabine,FTC）、 拉米夫定（lamivudine, 3TC）、 齐多夫定（zidovudine, AZT）、 阿巴卡韦（abacavir,ABC）。",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "data": "上的药物时，药物在机体内相互影响而使疗效发生变化或产生药物不良反应。DDI 对临床的影响有正负两方面，有些作用可使疗效增加或毒性降低，而有些作用使疗效降低或毒性增大，甚至危及患者生命 [7]。本文所介绍的是两类抗病毒药物DDI 的不良影响。\n1 与的相互作用\n目前国内的核苷类反转录酶抑制剂（nucleosidereverse transcriptase inhibitors, NRTIs）主要有替诺福韦（tenofovir, TDF）、恩曲他滨（emtricitabine,FTC）、 拉米夫定（lamivudine, 3TC）、 齐多夫定（zidovudine, AZT）、 阿巴卡韦（abacavir,ABC）。\n1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "raw_text": "核苷类反转录酶抑制剂（nucleosidereverse transcriptase inhibitors, NRTIs）主要有替诺福韦（tenofovir, TDF）、恩曲他滨（emtricitabine,FTC）、 拉米夫定（lamivudine, 3TC）、 齐多夫定（zidovudine, AZT）、 阿巴卡韦（abacavir,ABC）。",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "data": "上的药物时，药物在机体内相互影响而使疗效发生变化或产生药物不良反应。DDI 对临床的影响有正负两方面，有些作用可使疗效增加或毒性降低，而有些作用使疗效降低或毒性增大，甚至危及患者生命 [7]。本文所介绍的是两类抗病毒药物DDI 的不良影响。\n1 与的相互作用\n目前国内的核苷类反转录酶抑制剂（nucleosidereverse transcriptase inhibitors, NRTIs）主要有替诺福韦（tenofovir, TDF）、恩曲他滨（emtricitabine,FTC）、 拉米夫定（lamivudine, 3TC）、 齐多夫定（zidovudine, AZT）、 阿巴卡韦（abacavir,ABC）。\n1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "raw_text": "核苷类反转录酶抑制剂（nucleosidereverse transcriptase inhibitors, NRTIs）主要有替诺福韦（tenofovir, TDF）、恩曲他滨（emtricitabine,FTC）、 拉米夫定（lamivudine, 3TC）、 齐多夫定（zidovudine, AZT）、 阿巴卡韦（abacavir,ABC）。",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "data": "上的药物时，药物在机体内相互影响而使疗效发生变化或产生药物不良反应。DDI 对临床的影响有正负两方面，有些作用可使疗效增加或毒性降低，而有些作用使疗效降低或毒性增大，甚至危及患者生命 [7]。本文所介绍的是两类抗病毒药物DDI 的不良影响。\n1 与的相互作用\n目前国内的核苷类反转录酶抑制剂（nucleosidereverse transcriptase inhibitors, NRTIs）主要有替诺福韦（tenofovir, TDF）、恩曲他滨（emtricitabine,FTC）、 拉米夫定（lamivudine, 3TC）、 齐多夫定（zidovudine, AZT）、 阿巴卡韦（abacavir,ABC）。\n1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "raw_text": "核苷类反转录酶抑制剂（nucleosidereverse transcriptase inhibitors, NRTIs）主要有替诺福韦（tenofovir, TDF）、恩曲他滨（emtricitabine,FTC）、 拉米夫定（lamivudine, 3TC）、 齐多夫定（zidovudine, AZT）、 阿巴卡韦（abacavir,ABC）。",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "data": "上的药物时，药物在机体内相互影响而使疗效发生变化或产生药物不良反应。DDI 对临床的影响有正负两方面，有些作用可使疗效增加或毒性降低，而有些作用使疗效降低或毒性增大，甚至危及患者生命 [7]。本文所介绍的是两类抗病毒药物DDI 的不良影响。\n1 与的相互作用\n目前国内的核苷类反转录酶抑制剂（nucleosidereverse transcriptase inhibitors, NRTIs）主要有替诺福韦（tenofovir, TDF）、恩曲他滨（emtricitabine,FTC）、 拉米夫定（lamivudine, 3TC）、 齐多夫定（zidovudine, AZT）、 阿巴卡韦（abacavir,ABC）。\n1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "raw_text": "核苷类反转录酶抑制剂（nucleosidereverse transcriptase inhibitors, NRTIs）主要有替诺福韦（tenofovir, TDF）、恩曲他滨（emtricitabine,FTC）、 拉米夫定（lamivudine, 3TC）、 齐多夫定（zidovudine, AZT）、 阿巴卡韦（abacavir,ABC）。",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "data": "上的药物时，药物在机体内相互影响而使疗效发生变化或产生药物不良反应。DDI 对临床的影响有正负两方面，有些作用可使疗效增加或毒性降低，而有些作用使疗效降低或毒性增大，甚至危及患者生命 [7]。本文所介绍的是两类抗病毒药物DDI 的不良影响。\n1 与的相互作用\n目前国内的核苷类反转录酶抑制剂（nucleosidereverse transcriptase inhibitors, NRTIs）主要有替诺福韦（tenofovir, TDF）、恩曲他滨（emtricitabine,FTC）、 拉米夫定（lamivudine, 3TC）、 齐多夫定（zidovudine, AZT）、 阿巴卡韦（abacavir,ABC）。\n1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "raw_text": "联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "data": "上的药物时，药物在机体内相互影响而使疗效发生变化或产生药物不良反应。DDI 对临床的影响有正负两方面，有些作用可使疗效增加或毒性降低，而有些作用使疗效降低或毒性增大，甚至危及患者生命 [7]。本文所介绍的是两类抗病毒药物DDI 的不良影响。\n1 与的相互作用\n目前国内的核苷类反转录酶抑制剂（nucleosidereverse transcriptase inhibitors, NRTIs）主要有替诺福韦（tenofovir, TDF）、恩曲他滨（emtricitabine,FTC）、 拉米夫定（lamivudine, 3TC）、 齐多夫定（zidovudine, AZT）、 阿巴卡韦（abacavir,ABC）。\n1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "raw_text": "联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "data": "上的药物时，药物在机体内相互影响而使疗效发生变化或产生药物不良反应。DDI 对临床的影响有正负两方面，有些作用可使疗效增加或毒性降低，而有些作用使疗效降低或毒性增大，甚至危及患者生命 [7]。本文所介绍的是两类抗病毒药物DDI 的不良影响。\n1 与的相互作用\n目前国内的核苷类反转录酶抑制剂（nucleosidereverse transcriptase inhibitors, NRTIs）主要有替诺福韦（tenofovir, TDF）、恩曲他滨（emtricitabine,FTC）、 拉米夫定（lamivudine, 3TC）、 齐多夫定（zidovudine, AZT）、 阿巴卡韦（abacavir,ABC）。\n1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "raw_text": "含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险。",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "data": "上的药物时，药物在机体内相互影响而使疗效发生变化或产生药物不良反应。DDI 对临床的影响有正负两方面，有些作用可使疗效增加或毒性降低，而有些作用使疗效降低或毒性增大，甚至危及患者生命 [7]。本文所介绍的是两类抗病毒药物DDI 的不良影响。\n1 与的相互作用\n目前国内的核苷类反转录酶抑制剂（nucleosidereverse transcriptase inhibitors, NRTIs）主要有替诺福韦（tenofovir, TDF）、恩曲他滨（emtricitabine,FTC）、 拉米夫定（lamivudine, 3TC）、 齐多夫定（zidovudine, AZT）、 阿巴卡韦（abacavir,ABC）。\n1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+          "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "raw_text": "含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险。",
+          "chunk_id": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+          "data": "上的药物时，药物在机体内相互影响而使疗效发生变化或产生药物不良反应。DDI 对临床的影响有正负两方面，有些作用可使疗效增加或毒性降低，而有些作用使疗效降低或毒性增大，甚至危及患者生命 [7]。本文所介绍的是两类抗病毒药物DDI 的不良影响。\n1 与的相互作用\n目前国内的核苷类反转录酶抑制剂（nucleosidereverse transcriptase inhibitors, NRTIs）主要有替诺福韦（tenofovir, TDF）、恩曲他滨（emtricitabine,FTC）、 拉米夫定（lamivudine, 3TC）、 齐多夫定（zidovudine, AZT）、 阿巴卡韦（abacavir,ABC）。\n1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪:2",
+    "source": "HIV_HCV合并感染者中两类抗病毒药物相互作用的研究_张雪.pdf",
+    "text": "上的药物时，药物在机体内相互影响而使疗效发生变化或产生药物不良反应。DDI 对临床的影响有正负两方面，有些作用可使疗效增加或毒性降低，而有些作用使疗效降低或毒性增大，甚至危及患者生命 [7]。本文所介绍的是两类抗病毒药物DDI 的不良影响。\n1 与的相互作用\n目前国内的核苷类反转录酶抑制剂（nucleosidereverse transcriptase inhibitors, NRTIs）主要有替诺福韦（tenofovir, TDF）、恩曲他滨（emtricitabine,FTC）、 拉米夫定（lamivudine, 3TC）、 齐多夫定（zidovudine, AZT）、 阿巴卡韦（abacavir,ABC）。\n1.1 NRTIs 与索非布韦（sofosbuvir, SOF） SOF是 P- 糖蛋白的底物，并不通过 CYP450 代谢，所以是治疗HIV/HCV合并感染者的一个理想选择[8]。一项针对健康志愿者的队列研究显示，对健康志愿者联合应用含 TDF 的方案（TDF 300 mg，FTC 200 mg，各 1 次 /d）和 SOF（400 mg，1 次 /d）后发现，TDF的血药浓度轻度增加，FTC并没有变化，SOF 的血药浓度轻度下降。而一项针对 HIV/HCV合并感染者联合应用 3TC、FTC、AZT、TDF 与SOF 研究未发现 DDI[9]。但须要注意的是，含有TDF 和蛋白酶抑制剂的方案应避免与 SOF 联合应用，因为TDF的暴露会增加肾小管疾病的风险[10]。目前尚无ABC与SOF共同应用的临床研究，但基于2种药物在体内代谢和清除的机制，它们发生相互作用的可能性极小。\n极小。"
+  }
+]

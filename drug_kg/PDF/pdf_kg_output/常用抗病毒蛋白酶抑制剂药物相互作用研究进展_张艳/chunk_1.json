@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "蛋白酶抑制剂",
+        "canonical_name": "蛋白酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "人类免疫缺陷病毒感染",
+        "canonical_name": "人类免疫缺陷病毒感染",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "获得性免疫缺陷综合征",
+        "canonical_name": "获得性免疫缺陷综合征",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "常用抗病毒蛋白酶抑制剂药物相互作用研究进展_张艳.pdf",
+          "chunk_index": "常用抗病毒蛋白酶抑制剂药物相互作用研究进展_张艳:1",
+          "raw_text": "目前抗病毒药物种类繁多，但大多数都是用于抗人类免疫缺陷病毒（human immunodeficiency virus，HIV）感染，临床治疗获得性免疫缺陷综合征（acquired immunodeficiency syndrome，AIDS）而研发的。",
+          "chunk_id": "常用抗病毒蛋白酶抑制剂药物相互作用研究进展_张艳:1",
+          "data": "酶抑制剂的潜在药物相互作用及机制，以期为临床安全、合理用药提供参考。\nResearch progress in drug interactions of commonly used antiviral protease inhibitors\nZHANG Yan1 , WANG Dan1 , CHENG Lei2 , XU Yong-shou3 , WU Xin-yu2 , DENG Yan2 , TANG Fushan1\\*, YE Lin-hu1, 2\\* (1. Department of Clinical Pharmacy, School of Pharmacy, Zunyi Medical University, Zunyi Guizhou 563006; 2. Department of Pharmacy, The First People’s Hospital of Bijie, Bijie Guizhou 551700; 3. The Fourth People’s Hospital of Guiyang, Guiyang 550000)Abstract: Viruses cause serious harm to human health, and viral diseases are often accompanied by infectious and non-infectious complications. Antiviral drugs are often used together with other drugs. As an important type of antiviral drug with relatively complex pharmacokinetics, protease inhibitors have been widely used. There were potential drug interactions between commonly used antiviral protease inhibitors and many clinical drugs. This paper focused on the potential drug interactions and mechanism of commo"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "常用抗病毒蛋白酶抑制剂药物相互作用研究进展_张艳.pdf",
+          "chunk_index": "常用抗病毒蛋白酶抑制剂药物相互作用研究进展_张艳:1",
+          "raw_text": "目前抗病毒药物种类繁多，但大多数都是用于抗人类免疫缺陷病毒（human immunodeficiency virus，HIV）感染，临床治疗获得性免疫缺陷综合征（acquired immunodeficiency syndrome，AIDS）而研发的。",
+          "chunk_id": "常用抗病毒蛋白酶抑制剂药物相互作用研究进展_张艳:1",
+          "data": "酶抑制剂的潜在药物相互作用及机制，以期为临床安全、合理用药提供参考。\nResearch progress in drug interactions of commonly used antiviral protease inhibitors\nZHANG Yan1 , WANG Dan1 , CHENG Lei2 , XU Yong-shou3 , WU Xin-yu2 , DENG Yan2 , TANG Fushan1\\*, YE Lin-hu1, 2\\* (1. Department of Clinical Pharmacy, School of Pharmacy, Zunyi Medical University, Zunyi Guizhou 563006; 2. Department of Pharmacy, The First People’s Hospital of Bijie, Bijie Guizhou 551700; 3. The Fourth People’s Hospital of Guiyang, Guiyang 550000)Abstract: Viruses cause serious harm to human health, and viral diseases are often accompanied by infectious and non-infectious complications. Antiviral drugs are often used together with other drugs. As an important type of antiviral drug with relatively complex pharmacokinetics, protease inhibitors have been widely used. There were potential drug interactions between commonly used antiviral protease inhibitors and many clinical drugs. This paper focused on the potential drug interactions and mechanism of commo"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "常用抗病毒蛋白酶抑制剂药物相互作用研究进展_张艳:1",
+    "source": "常用抗病毒蛋白酶抑制剂药物相互作用研究进展_张艳.pdf",
+    "text": "酶抑制剂的潜在药物相互作用及机制，以期为临床安全、合理用药提供参考。\nResearch progress in drug interactions of commonly used antiviral protease inhibitors\nZHANG Yan1 , WANG Dan1 , CHENG Lei2 , XU Yong-shou3 , WU Xin-yu2 , DENG Yan2 , TANG Fushan1\\*, YE Lin-hu1, 2\\* (1. Department of Clinical Pharmacy, School of Pharmacy, Zunyi Medical University, Zunyi Guizhou 563006; 2. Department of Pharmacy, The First People’s Hospital of Bijie, Bijie Guizhou 551700; 3. The Fourth People’s Hospital of Guiyang, Guiyang 550000)Abstract: Viruses cause serious harm to human health, and viral diseases are often accompanied by infectious and non-infectious complications. Antiviral drugs are often used together with other drugs. As an important type of antiviral drug with relatively complex pharmacokinetics, protease inhibitors have been widely used. There were potential drug interactions between commonly used antiviral protease inhibitors and many clinical drugs. This paper focused on the potential drug interactions and mechanism of commonly used antiviral protease inhibitors to provide a reference for safe and rational drug use.病毒严重危害人类健康，抗病毒药物的开发策略集中于靶向病毒本身或宿主细胞因子两方面。靶向抗病毒药物包括阻断病毒附着宿主细胞、阻断病毒进入细胞的阻断剂；抑制病毒进入宿主细胞内脱壳以及抑制病毒进入细胞内进行生物合成的聚合酶抑制剂；蛋白酶抑制剂（proteaseinhibitors，PIs）、核苷和核苷酸逆转录酶抑制剂以及整合酶抑制剂[1]。目前抗病毒药物种类繁多，但大多数都是用于抗人类免疫缺陷病毒（humanimmunodeficiency virus，HIV）感染，临床治疗获得性免疫缺陷综合征（acquired immunodeficiencysyndrome，AIDS）而研发的。"
+  }
+]

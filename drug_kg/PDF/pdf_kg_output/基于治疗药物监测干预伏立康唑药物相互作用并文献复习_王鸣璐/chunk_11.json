@@ -1,0 +1,159 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "细胞色素P450酶诱导剂",
+        "canonical_name": "细胞色素P450酶诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "P-糖蛋白诱导剂",
+        "canonical_name": "P-糖蛋白诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "活动性结核病",
+        "canonical_name": "活动性结核病",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "伏立康唑稳态谷浓度",
+        "canonical_name": "伏立康唑稳态谷浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "伏立康唑峰浓度",
+        "canonical_name": "伏立康唑峰浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "伏立康唑药时曲线下面积",
+        "canonical_name": "伏立康唑药时曲线下面积",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐.pdf",
+          "chunk_index": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐:11",
+          "raw_text": "利福平是活动性结核病的一线治疗药物",
+          "chunk_id": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐:11",
+          "data": "代方案据估计，全世界1/3 的人口曾感染过结核杆菌，但绝大多数感染者无结核病的症状和体征，无传染性，但处于发展为活动性结核病和开始具有传染性的风险中，为潜伏结核感染( Latent tuberculosisinfection，LTBI) 。\n利福平是活动性结核病的一线治疗药物，为细胞色素 P450( CYP450) 酶系和转运体 P-糖蛋白$ { \\left( \\mathrm { \\ P - g p } \\right) }$ 的强诱导剂，对 CYP3A4、 CYP3A5、CYP2C9、CYP2D6 等多种同工酶均存在诱导作用，对 CYP3A4 和 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial } \\mathrm { \\Phi } _ { \\mathrm { \\overline { { \\delta } } } \\mathrm { p } } } }$ 发挥协调诱导作用，促进药物在肠道代谢，明显降低底物的吸收［12-13］。 一项有关 CYP450 酶诱导剂/抑制剂对伏立康唑稳态谷浓度( $\\mathbf { C } _ { \\mathrm { m i n } } \\big )$ 影响的队列研究显示，合用利福平可使伏立康唑 $\\mathrm { C } _ { \\mathrm { m i n } }$ 显著降低( $P = 0 . 0 0 4 )$ ［14］ 。 注射用伏立康唑( 商品名: 威凡) 的药品说明书中明确指出，合用利福平 ( 600 mg，qd ) 时，伏立康唑$( 2 0 0 ~ \\mathrm { m g } \\thinspace , \\mathrm { q d } )$ 的 $\\mathrm { C } _ { \\mathrm { m a x } }$ 和 AUC 分别降低 93% 和96%，即使伏立康唑剂量加倍仍无法达到有效治疗浓度，二者应避免合用。 1 例急性髓系白血病患者联用伏立康唑与利福平的病例报告进一步揭示了利福平导致伏立康唑失效的机制［15］。 该患者在治疗第1 天给予伏立康唑初始剂量( 400 mg) 后，$\\mathrm { C } _ { \\mathrm { m a x } }$ 和 $\\mathrm { A U C } _ { \\mathrm { 0 + n f } }$"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐.pdf",
+          "chunk_index": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐:11",
+          "raw_text": "利福平是...细胞色素P450(CYP450)酶系...的强诱导剂",
+          "chunk_id": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐:11",
+          "data": "代方案据估计，全世界1/3 的人口曾感染过结核杆菌，但绝大多数感染者无结核病的症状和体征，无传染性，但处于发展为活动性结核病和开始具有传染性的风险中，为潜伏结核感染( Latent tuberculosisinfection，LTBI) 。\n利福平是活动性结核病的一线治疗药物，为细胞色素 P450( CYP450) 酶系和转运体 P-糖蛋白$ { \\left( \\mathrm { \\ P - g p } \\right) }$ 的强诱导剂，对 CYP3A4、 CYP3A5、CYP2C9、CYP2D6 等多种同工酶均存在诱导作用，对 CYP3A4 和 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial } \\mathrm { \\Phi } _ { \\mathrm { \\overline { { \\delta } } } \\mathrm { p } } } }$ 发挥协调诱导作用，促进药物在肠道代谢，明显降低底物的吸收［12-13］。 一项有关 CYP450 酶诱导剂/抑制剂对伏立康唑稳态谷浓度( $\\mathbf { C } _ { \\mathrm { m i n } } \\big )$ 影响的队列研究显示，合用利福平可使伏立康唑 $\\mathrm { C } _ { \\mathrm { m i n } }$ 显著降低( $P = 0 . 0 0 4 )$ ［14］ 。 注射用伏立康唑( 商品名: 威凡) 的药品说明书中明确指出，合用利福平 ( 600 mg，qd ) 时，伏立康唑$( 2 0 0 ~ \\mathrm { m g } \\thinspace , \\mathrm { q d } )$ 的 $\\mathrm { C } _ { \\mathrm { m a x } }$ 和 AUC 分别降低 93% 和96%，即使伏立康唑剂量加倍仍无法达到有效治疗浓度，二者应避免合用。 1 例急性髓系白血病患者联用伏立康唑与利福平的病例报告进一步揭示了利福平导致伏立康唑失效的机制［15］。 该患者在治疗第1 天给予伏立康唑初始剂量( 400 mg) 后，$\\mathrm { C } _ { \\mathrm { m a x } }$ 和 $\\mathrm { A U C } _ { \\mathrm { 0 + n f } }$"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐.pdf",
+          "chunk_index": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐:11",
+          "raw_text": "利福平是...转运体P-糖蛋白(P-gp)的强诱导剂",
+          "chunk_id": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐:11",
+          "data": "代方案据估计，全世界1/3 的人口曾感染过结核杆菌，但绝大多数感染者无结核病的症状和体征，无传染性，但处于发展为活动性结核病和开始具有传染性的风险中，为潜伏结核感染( Latent tuberculosisinfection，LTBI) 。\n利福平是活动性结核病的一线治疗药物，为细胞色素 P450( CYP450) 酶系和转运体 P-糖蛋白$ { \\left( \\mathrm { \\ P - g p } \\right) }$ 的强诱导剂，对 CYP3A4、 CYP3A5、CYP2C9、CYP2D6 等多种同工酶均存在诱导作用，对 CYP3A4 和 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial } \\mathrm { \\Phi } _ { \\mathrm { \\overline { { \\delta } } } \\mathrm { p } } } }$ 发挥协调诱导作用，促进药物在肠道代谢，明显降低底物的吸收［12-13］。 一项有关 CYP450 酶诱导剂/抑制剂对伏立康唑稳态谷浓度( $\\mathbf { C } _ { \\mathrm { m i n } } \\big )$ 影响的队列研究显示，合用利福平可使伏立康唑 $\\mathrm { C } _ { \\mathrm { m i n } }$ 显著降低( $P = 0 . 0 0 4 )$ ［14］ 。 注射用伏立康唑( 商品名: 威凡) 的药品说明书中明确指出，合用利福平 ( 600 mg，qd ) 时，伏立康唑$( 2 0 0 ~ \\mathrm { m g } \\thinspace , \\mathrm { q d } )$ 的 $\\mathrm { C } _ { \\mathrm { m a x } }$ 和 AUC 分别降低 93% 和96%，即使伏立康唑剂量加倍仍无法达到有效治疗浓度，二者应避免合用。 1 例急性髓系白血病患者联用伏立康唑与利福平的病例报告进一步揭示了利福平导致伏立康唑失效的机制［15］。 该患者在治疗第1 天给予伏立康唑初始剂量( 400 mg) 后，$\\mathrm { C } _ { \\mathrm { m a x } }$ 和 $\\mathrm { A U C } _ { \\mathrm { 0 + n f } }$"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐.pdf",
+          "chunk_index": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐:11",
+          "raw_text": "合用利福平可使伏立康唑Cmin显著降低(P=0.004)...合用利福平(600 mg,qd)时，伏立康唑(200 mg,qd)的Cmax和AUC分别降低93%和96%...二者应避免合用",
+          "chunk_id": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐:11",
+          "data": "代方案据估计，全世界1/3 的人口曾感染过结核杆菌，但绝大多数感染者无结核病的症状和体征，无传染性，但处于发展为活动性结核病和开始具有传染性的风险中，为潜伏结核感染( Latent tuberculosisinfection，LTBI) 。\n利福平是活动性结核病的一线治疗药物，为细胞色素 P450( CYP450) 酶系和转运体 P-糖蛋白$ { \\left( \\mathrm { \\ P - g p } \\right) }$ 的强诱导剂，对 CYP3A4、 CYP3A5、CYP2C9、CYP2D6 等多种同工酶均存在诱导作用，对 CYP3A4 和 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial } \\mathrm { \\Phi } _ { \\mathrm { \\overline { { \\delta } } } \\mathrm { p } } } }$ 发挥协调诱导作用，促进药物在肠道代谢，明显降低底物的吸收［12-13］。 一项有关 CYP450 酶诱导剂/抑制剂对伏立康唑稳态谷浓度( $\\mathbf { C } _ { \\mathrm { m i n } } \\big )$ 影响的队列研究显示，合用利福平可使伏立康唑 $\\mathrm { C } _ { \\mathrm { m i n } }$ 显著降低( $P = 0 . 0 0 4 )$ ［14］ 。 注射用伏立康唑( 商品名: 威凡) 的药品说明书中明确指出，合用利福平 ( 600 mg，qd ) 时，伏立康唑$( 2 0 0 ~ \\mathrm { m g } \\thinspace , \\mathrm { q d } )$ 的 $\\mathrm { C } _ { \\mathrm { m a x } }$ 和 AUC 分别降低 93% 和96%，即使伏立康唑剂量加倍仍无法达到有效治疗浓度，二者应避免合用。 1 例急性髓系白血病患者联用伏立康唑与利福平的病例报告进一步揭示了利福平导致伏立康唑失效的机制［15］。 该患者在治疗第1 天给予伏立康唑初始剂量( 400 mg) 后，$\\mathrm { C } _ { \\mathrm { m a x } }$ 和 $\\mathrm { A U C } _ { \\mathrm { 0 + n f } }$"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐.pdf",
+          "chunk_index": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐:11",
+          "raw_text": "合用利福平可使伏立康唑Cmin显著降低",
+          "chunk_id": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐:11",
+          "data": "代方案据估计，全世界1/3 的人口曾感染过结核杆菌，但绝大多数感染者无结核病的症状和体征，无传染性，但处于发展为活动性结核病和开始具有传染性的风险中，为潜伏结核感染( Latent tuberculosisinfection，LTBI) 。\n利福平是活动性结核病的一线治疗药物，为细胞色素 P450( CYP450) 酶系和转运体 P-糖蛋白$ { \\left( \\mathrm { \\ P - g p } \\right) }$ 的强诱导剂，对 CYP3A4、 CYP3A5、CYP2C9、CYP2D6 等多种同工酶均存在诱导作用，对 CYP3A4 和 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial } \\mathrm { \\Phi } _ { \\mathrm { \\overline { { \\delta } } } \\mathrm { p } } } }$ 发挥协调诱导作用，促进药物在肠道代谢，明显降低底物的吸收［12-13］。 一项有关 CYP450 酶诱导剂/抑制剂对伏立康唑稳态谷浓度( $\\mathbf { C } _ { \\mathrm { m i n } } \\big )$ 影响的队列研究显示，合用利福平可使伏立康唑 $\\mathrm { C } _ { \\mathrm { m i n } }$ 显著降低( $P = 0 . 0 0 4 )$ ［14］ 。 注射用伏立康唑( 商品名: 威凡) 的药品说明书中明确指出，合用利福平 ( 600 mg，qd ) 时，伏立康唑$( 2 0 0 ~ \\mathrm { m g } \\thinspace , \\mathrm { q d } )$ 的 $\\mathrm { C } _ { \\mathrm { m a x } }$ 和 AUC 分别降低 93% 和96%，即使伏立康唑剂量加倍仍无法达到有效治疗浓度，二者应避免合用。 1 例急性髓系白血病患者联用伏立康唑与利福平的病例报告进一步揭示了利福平导致伏立康唑失效的机制［15］。 该患者在治疗第1 天给予伏立康唑初始剂量( 400 mg) 后，$\\mathrm { C } _ { \\mathrm { m a x } }$ 和 $\\mathrm { A U C } _ { \\mathrm { 0 + n f } }$"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐.pdf",
+          "chunk_index": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐:11",
+          "raw_text": "合用利福平(600 mg,qd)时，伏立康唑(200 mg,qd)的Cmax...降低93%",
+          "chunk_id": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐:11",
+          "data": "代方案据估计，全世界1/3 的人口曾感染过结核杆菌，但绝大多数感染者无结核病的症状和体征，无传染性，但处于发展为活动性结核病和开始具有传染性的风险中，为潜伏结核感染( Latent tuberculosisinfection，LTBI) 。\n利福平是活动性结核病的一线治疗药物，为细胞色素 P450( CYP450) 酶系和转运体 P-糖蛋白$ { \\left( \\mathrm { \\ P - g p } \\right) }$ 的强诱导剂，对 CYP3A4、 CYP3A5、CYP2C9、CYP2D6 等多种同工酶均存在诱导作用，对 CYP3A4 和 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial } \\mathrm { \\Phi } _ { \\mathrm { \\overline { { \\delta } } } \\mathrm { p } } } }$ 发挥协调诱导作用，促进药物在肠道代谢，明显降低底物的吸收［12-13］。 一项有关 CYP450 酶诱导剂/抑制剂对伏立康唑稳态谷浓度( $\\mathbf { C } _ { \\mathrm { m i n } } \\big )$ 影响的队列研究显示，合用利福平可使伏立康唑 $\\mathrm { C } _ { \\mathrm { m i n } }$ 显著降低( $P = 0 . 0 0 4 )$ ［14］ 。 注射用伏立康唑( 商品名: 威凡) 的药品说明书中明确指出，合用利福平 ( 600 mg，qd ) 时，伏立康唑$( 2 0 0 ~ \\mathrm { m g } \\thinspace , \\mathrm { q d } )$ 的 $\\mathrm { C } _ { \\mathrm { m a x } }$ 和 AUC 分别降低 93% 和96%，即使伏立康唑剂量加倍仍无法达到有效治疗浓度，二者应避免合用。 1 例急性髓系白血病患者联用伏立康唑与利福平的病例报告进一步揭示了利福平导致伏立康唑失效的机制［15］。 该患者在治疗第1 天给予伏立康唑初始剂量( 400 mg) 后，$\\mathrm { C } _ { \\mathrm { m a x } }$ 和 $\\mathrm { A U C } _ { \\mathrm { 0 + n f } }$"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐.pdf",
+          "chunk_index": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐:11",
+          "raw_text": "合用利福平(600 mg,qd)时，伏立康唑(200 mg,qd)的...AUC分别降低93%和96%",
+          "chunk_id": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐:11",
+          "data": "代方案据估计，全世界1/3 的人口曾感染过结核杆菌，但绝大多数感染者无结核病的症状和体征，无传染性，但处于发展为活动性结核病和开始具有传染性的风险中，为潜伏结核感染( Latent tuberculosisinfection，LTBI) 。\n利福平是活动性结核病的一线治疗药物，为细胞色素 P450( CYP450) 酶系和转运体 P-糖蛋白$ { \\left( \\mathrm { \\ P - g p } \\right) }$ 的强诱导剂，对 CYP3A4、 CYP3A5、CYP2C9、CYP2D6 等多种同工酶均存在诱导作用，对 CYP3A4 和 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial } \\mathrm { \\Phi } _ { \\mathrm { \\overline { { \\delta } } } \\mathrm { p } } } }$ 发挥协调诱导作用，促进药物在肠道代谢，明显降低底物的吸收［12-13］。 一项有关 CYP450 酶诱导剂/抑制剂对伏立康唑稳态谷浓度( $\\mathbf { C } _ { \\mathrm { m i n } } \\big )$ 影响的队列研究显示，合用利福平可使伏立康唑 $\\mathrm { C } _ { \\mathrm { m i n } }$ 显著降低( $P = 0 . 0 0 4 )$ ［14］ 。 注射用伏立康唑( 商品名: 威凡) 的药品说明书中明确指出，合用利福平 ( 600 mg，qd ) 时，伏立康唑$( 2 0 0 ~ \\mathrm { m g } \\thinspace , \\mathrm { q d } )$ 的 $\\mathrm { C } _ { \\mathrm { m a x } }$ 和 AUC 分别降低 93% 和96%，即使伏立康唑剂量加倍仍无法达到有效治疗浓度，二者应避免合用。 1 例急性髓系白血病患者联用伏立康唑与利福平的病例报告进一步揭示了利福平导致伏立康唑失效的机制［15］。 该患者在治疗第1 天给予伏立康唑初始剂量( 400 mg) 后，$\\mathrm { C } _ { \\mathrm { m a x } }$ 和 $\\mathrm { A U C } _ { \\mathrm { 0 + n f } }$"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐:11",
+    "source": "基于治疗药物监测干预伏立康唑药物相互作用并文献复习_王鸣璐.pdf",
+    "text": "代方案据估计，全世界1/3 的人口曾感染过结核杆菌，但绝大多数感染者无结核病的症状和体征，无传染性，但处于发展为活动性结核病和开始具有传染性的风险中，为潜伏结核感染( Latent tuberculosisinfection，LTBI) 。\n利福平是活动性结核病的一线治疗药物，为细胞色素 P450( CYP450) 酶系和转运体 P-糖蛋白$ { \\left( \\mathrm { \\ P - g p } \\right) }$ 的强诱导剂，对 CYP3A4、 CYP3A5、CYP2C9、CYP2D6 等多种同工酶均存在诱导作用，对 CYP3A4 和 $\\mathrm { P \\mathrm { \\frac { \\partial } { \\partial } \\mathrm { \\Phi } _ { \\mathrm { \\overline { { \\delta } } } \\mathrm { p } } } }$ 发挥协调诱导作用，促进药物在肠道代谢，明显降低底物的吸收［12-13］。 一项有关 CYP450 酶诱导剂/抑制剂对伏立康唑稳态谷浓度( $\\mathbf { C } _ { \\mathrm { m i n } } \\big )$ 影响的队列研究显示，合用利福平可使伏立康唑 $\\mathrm { C } _ { \\mathrm { m i n } }$ 显著降低( $P = 0 . 0 0 4 )$ ［14］ 。 注射用伏立康唑( 商品名: 威凡) 的药品说明书中明确指出，合用利福平 ( 600 mg，qd ) 时，伏立康唑$( 2 0 0 ~ \\mathrm { m g } \\thinspace , \\mathrm { q d } )$ 的 $\\mathrm { C } _ { \\mathrm { m a x } }$ 和 AUC 分别降低 93% 和96%，即使伏立康唑剂量加倍仍无法达到有效治疗浓度，二者应避免合用。 1 例急性髓系白血病患者联用伏立康唑与利福平的病例报告进一步揭示了利福平导致伏立康唑失效的机制［15］。 该患者在治疗第1 天给予伏立康唑初始剂量( 400 mg) 后，$\\mathrm { C } _ { \\mathrm { m a x } }$ 和 $\\mathrm { A U C } _ { \\mathrm { 0 + n f } }$ 分别为 3. 92 μg / ml 和 27. 4 h · μg / ml 。合用利福平治疗30 d 后， $\\mathbf { \\Omega } , \\mathbf { C } _ { \\mathrm { m a x } }$ 仅为 0. 038 $\\mu \\mathrm { g } / \\mathrm { m l }$ ，远远低于 VCZ 有效浓度范围( $1 . 0 \\sim 5 . 5 ~ { \\mu \\mathrm { g } } / { \\mathrm { m l } } )$ ， $\\mathrm { A U C } _ { \\mathrm { o - i n f } }$ 为 $0 . 1 4 5 \\mathrm { ~ h } \\cdot \\mu \\mathrm { g } / \\mathrm { m l }$ ，伏立康唑的总暴露量降低了99% 。 然而伏立康唑3 种主要代谢产物的浓度与未合用利福平的首次给药后的浓度相比显著升高，代谢产物除以母体药物( 经分子量校正) 的血浆平均代谢率大幅增加( N-氧化物，45 倍; 羟基伏立康唑，178 倍; 二羟基伏立康唑，422 倍) ，表明利福平确实通过诱导伏立康唑的代谢使其血药浓度显著降低，导致临床治疗失败。"
+  }
+]

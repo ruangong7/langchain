@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "CNIs",
+        "canonical_name": "钙调神经磷酸酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "mTOR抑制药",
+        "canonical_name": "mTOR抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "CYP3A4抑制剂",
+        "canonical_name": "CYP3A4抑制剂",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:6",
+          "raw_text": "任何抑制CYP3A4 和(或)P-糖蛋白的药物都有可能减少 CNIs 和 mTOR 抑制药的体内暴露量，从而影响其药理学效应。",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:6",
+          "data": "} } } } }$ 抑制药，两者主要由粪便排出。 因此，任何抑制CYP3A4 和(或)P- $\\mathrm { \\vec { \\ v p } }$ 的药物都有可能减少 CNIs 和 mTOR 抑制药的体内暴露量，从而影响其药理学效应。\n4．2 格列奈类"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:6",
+          "raw_text": "任何抑制CYP3A4 和(或)P-糖蛋白的药物都有可能减少 CNIs 和 mTOR 抑制药的体内暴露量，从而影响其药理学效应。",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:6",
+          "data": "} } } } }$ 抑制药，两者主要由粪便排出。 因此，任何抑制CYP3A4 和(或)P- $\\mathrm { \\vec { \\ v p } }$ 的药物都有可能减少 CNIs 和 mTOR 抑制药的体内暴露量，从而影响其药理学效应。\n4．2 格列奈类"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:6",
+    "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+    "text": "} } } } }$ 抑制药，两者主要由粪便排出。 因此，任何抑制CYP3A4 和(或)P- $\\mathrm { \\vec { \\ v p } }$ 的药物都有可能减少 CNIs 和 mTOR 抑制药的体内暴露量，从而影响其药理学效应。\n4．2 格列奈类"
+  }
+]

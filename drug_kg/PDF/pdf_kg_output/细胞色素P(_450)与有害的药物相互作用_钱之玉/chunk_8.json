@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "地尔硫",
+        "canonical_name": "地尔硫",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "卡马西平",
+        "canonical_name": "卡马西平",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "细胞色素P(_450)与有害的药物相互作用_钱之玉.pdf",
+          "chunk_index": "细胞色素P(_450)与有害的药物相互作用_钱之玉:8",
+          "raw_text": "如地尔硫与卡马西平合用，可使卡马西平的血药浓度增高40%～72%而产生毒性反应。",
+          "chunk_id": "细胞色素P(_450)与有害的药物相互作用_钱之玉:8",
+          "data": "合用可产生竞争性抑制作用，使药物血药浓度升高，产生毒副作用。如地尔硫与卡马西平合用，可使卡马西平的血药浓度增高40%～72%而产生毒性反应。\nCytochrome P450 and Deleterious Drug Interactions\nQIAN Zhi-yu China Pharmaceutical University[ A B S T R A C T ] Drug interactions play an important role in causing adverse reactions of drugs. Some inappropriate combined application of drugs may induce serious toxic effects, and even death. Drug interactions mediated by cytochrome P450 (CYP) are chiefly represented by induction and inhibition of drug metabolism. Induction of CYP causes increased synthesis or activity of CYP and thus accelerates the metabolism of the drugs that are eliminated by this routine, resulting in reduced plasma drug concentration and delayed treatment. Inhibition of CYP can lower the metabolism of another drug, which may elongate or enhance its effects and increase adverse reactions and even cause deformity-inducing and deadly medical incidents. Deleterious drug interactions due to induction or inhibition of CYP which have occurred in recent"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "细胞色素P(_450)与有害的药物相互作用_钱之玉:8",
+    "source": "细胞色素P(_450)与有害的药物相互作用_钱之玉.pdf",
+    "text": "合用可产生竞争性抑制作用，使药物血药浓度升高，产生毒副作用。如地尔硫与卡马西平合用，可使卡马西平的血药浓度增高40%～72%而产生毒性反应。\nCytochrome P450 and Deleterious Drug Interactions\nQIAN Zhi-yu China Pharmaceutical University[ A B S T R A C T ] Drug interactions play an important role in causing adverse reactions of drugs. Some inappropriate combined application of drugs may induce serious toxic effects, and even death. Drug interactions mediated by cytochrome P450 (CYP) are chiefly represented by induction and inhibition of drug metabolism. Induction of CYP causes increased synthesis or activity of CYP and thus accelerates the metabolism of the drugs that are eliminated by this routine, resulting in reduced plasma drug concentration and delayed treatment. Inhibition of CYP can lower the metabolism of another drug, which may elongate or enhance its effects and increase adverse reactions and even cause deformity-inducing and deadly medical incidents. Deleterious drug interactions due to induction or inhibition of CYP which have occurred in recent years are summarized in this article to arouse high attention of medical workers."
+  }
+]

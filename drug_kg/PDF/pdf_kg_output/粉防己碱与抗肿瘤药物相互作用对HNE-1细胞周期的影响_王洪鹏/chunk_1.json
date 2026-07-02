@@ -1,0 +1,264 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "粉防己碱",
+        "canonical_name": "粉防己碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "长春新碱",
+        "canonical_name": "长春新碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "博来霉素",
+        "canonical_name": "博来霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "顺铂",
+        "canonical_name": "顺铂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "5-氟尿嘧啶",
+        "canonical_name": "5-氟尿嘧啶",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "柔红霉素",
+        "canonical_name": "柔红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "canonical_name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "抗肿瘤药物",
+        "canonical_name": "抗肿瘤药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "鼻咽癌",
+        "canonical_name": "鼻咽癌",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "白血病",
+        "canonical_name": "白血病",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏.pdf",
+          "chunk_index": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "raw_text": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响",
+          "chunk_id": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "data": "t Affiliated Hospital, Chongqing Medical University (Chongqing 400016)\n2 Chongqing Medical University (Chongqing 400016)\n【Abstract】 Objective: To study the effect of tetrandrine (TET) and common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu) after joint action on cell cycle of the HNE-1. Methods: HNE-1 cell line was selected to carry out the experiment, the cells were divided into control group (without any drug), TET group (TET combined with anti-cancer drugs) and verapamil (VRP) group (VRP combined with anti-cancer drugs). The cell cycle was detected by flow cytometry. Results: The cells of TET and VRP group reduced in the $G_{0}/G_{1}$ stage cell population, and there was no significant difference between two groups. Conclusion: Tetrandrine combined with anti-cancer drugs can induce the proportion decreasing of cells in $G_{1}$ phase and inhibit cell multiplication, and the effects was similar to the verapamil. The laboratory evidence can be the evidence for using tetra"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏.pdf",
+          "chunk_index": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "raw_text": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响",
+          "chunk_id": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "data": "t Affiliated Hospital, Chongqing Medical University (Chongqing 400016)\n2 Chongqing Medical University (Chongqing 400016)\n【Abstract】 Objective: To study the effect of tetrandrine (TET) and common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu) after joint action on cell cycle of the HNE-1. Methods: HNE-1 cell line was selected to carry out the experiment, the cells were divided into control group (without any drug), TET group (TET combined with anti-cancer drugs) and verapamil (VRP) group (VRP combined with anti-cancer drugs). The cell cycle was detected by flow cytometry. Results: The cells of TET and VRP group reduced in the $G_{0}/G_{1}$ stage cell population, and there was no significant difference between two groups. Conclusion: Tetrandrine combined with anti-cancer drugs can induce the proportion decreasing of cells in $G_{1}$ phase and inhibit cell multiplication, and the effects was similar to the verapamil. The laboratory evidence can be the evidence for using tetra"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏.pdf",
+          "chunk_index": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "raw_text": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响",
+          "chunk_id": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "data": "t Affiliated Hospital, Chongqing Medical University (Chongqing 400016)\n2 Chongqing Medical University (Chongqing 400016)\n【Abstract】 Objective: To study the effect of tetrandrine (TET) and common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu) after joint action on cell cycle of the HNE-1. Methods: HNE-1 cell line was selected to carry out the experiment, the cells were divided into control group (without any drug), TET group (TET combined with anti-cancer drugs) and verapamil (VRP) group (VRP combined with anti-cancer drugs). The cell cycle was detected by flow cytometry. Results: The cells of TET and VRP group reduced in the $G_{0}/G_{1}$ stage cell population, and there was no significant difference between two groups. Conclusion: Tetrandrine combined with anti-cancer drugs can induce the proportion decreasing of cells in $G_{1}$ phase and inhibit cell multiplication, and the effects was similar to the verapamil. The laboratory evidence can be the evidence for using tetra"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏.pdf",
+          "chunk_index": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "raw_text": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响",
+          "chunk_id": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "data": "t Affiliated Hospital, Chongqing Medical University (Chongqing 400016)\n2 Chongqing Medical University (Chongqing 400016)\n【Abstract】 Objective: To study the effect of tetrandrine (TET) and common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu) after joint action on cell cycle of the HNE-1. Methods: HNE-1 cell line was selected to carry out the experiment, the cells were divided into control group (without any drug), TET group (TET combined with anti-cancer drugs) and verapamil (VRP) group (VRP combined with anti-cancer drugs). The cell cycle was detected by flow cytometry. Results: The cells of TET and VRP group reduced in the $G_{0}/G_{1}$ stage cell population, and there was no significant difference between two groups. Conclusion: Tetrandrine combined with anti-cancer drugs can induce the proportion decreasing of cells in $G_{1}$ phase and inhibit cell multiplication, and the effects was similar to the verapamil. The laboratory evidence can be the evidence for using tetra"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏.pdf",
+          "chunk_index": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "raw_text": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响",
+          "chunk_id": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "data": "t Affiliated Hospital, Chongqing Medical University (Chongqing 400016)\n2 Chongqing Medical University (Chongqing 400016)\n【Abstract】 Objective: To study the effect of tetrandrine (TET) and common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu) after joint action on cell cycle of the HNE-1. Methods: HNE-1 cell line was selected to carry out the experiment, the cells were divided into control group (without any drug), TET group (TET combined with anti-cancer drugs) and verapamil (VRP) group (VRP combined with anti-cancer drugs). The cell cycle was detected by flow cytometry. Results: The cells of TET and VRP group reduced in the $G_{0}/G_{1}$ stage cell population, and there was no significant difference between two groups. Conclusion: Tetrandrine combined with anti-cancer drugs can induce the proportion decreasing of cells in $G_{1}$ phase and inhibit cell multiplication, and the effects was similar to the verapamil. The laboratory evidence can be the evidence for using tetra"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏.pdf",
+          "chunk_index": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "raw_text": "粉防己碱能明显增强柔红霉素(DNR)和长春新碱(VCR)杀伤白血病细胞的能力",
+          "chunk_id": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "data": "t Affiliated Hospital, Chongqing Medical University (Chongqing 400016)\n2 Chongqing Medical University (Chongqing 400016)\n【Abstract】 Objective: To study the effect of tetrandrine (TET) and common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu) after joint action on cell cycle of the HNE-1. Methods: HNE-1 cell line was selected to carry out the experiment, the cells were divided into control group (without any drug), TET group (TET combined with anti-cancer drugs) and verapamil (VRP) group (VRP combined with anti-cancer drugs). The cell cycle was detected by flow cytometry. Results: The cells of TET and VRP group reduced in the $G_{0}/G_{1}$ stage cell population, and there was no significant difference between two groups. Conclusion: Tetrandrine combined with anti-cancer drugs can induce the proportion decreasing of cells in $G_{1}$ phase and inhibit cell multiplication, and the effects was similar to the verapamil. The laboratory evidence can be the evidence for using tetra"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏.pdf",
+          "chunk_index": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "raw_text": "Tetrandrine combined with anti-cancer drugs can induce the proportion decreasing of cells in G1 phase and inhibit cell multiplication, and the effects was similar to the verapamil.",
+          "chunk_id": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "data": "t Affiliated Hospital, Chongqing Medical University (Chongqing 400016)\n2 Chongqing Medical University (Chongqing 400016)\n【Abstract】 Objective: To study the effect of tetrandrine (TET) and common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu) after joint action on cell cycle of the HNE-1. Methods: HNE-1 cell line was selected to carry out the experiment, the cells were divided into control group (without any drug), TET group (TET combined with anti-cancer drugs) and verapamil (VRP) group (VRP combined with anti-cancer drugs). The cell cycle was detected by flow cytometry. Results: The cells of TET and VRP group reduced in the $G_{0}/G_{1}$ stage cell population, and there was no significant difference between two groups. Conclusion: Tetrandrine combined with anti-cancer drugs can induce the proportion decreasing of cells in $G_{1}$ phase and inhibit cell multiplication, and the effects was similar to the verapamil. The laboratory evidence can be the evidence for using tetra"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏.pdf",
+          "chunk_index": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "raw_text": "粉防己碱对鼻咽癌耐药细胞株作用报道较少",
+          "chunk_id": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "data": "t Affiliated Hospital, Chongqing Medical University (Chongqing 400016)\n2 Chongqing Medical University (Chongqing 400016)\n【Abstract】 Objective: To study the effect of tetrandrine (TET) and common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu) after joint action on cell cycle of the HNE-1. Methods: HNE-1 cell line was selected to carry out the experiment, the cells were divided into control group (without any drug), TET group (TET combined with anti-cancer drugs) and verapamil (VRP) group (VRP combined with anti-cancer drugs). The cell cycle was detected by flow cytometry. Results: The cells of TET and VRP group reduced in the $G_{0}/G_{1}$ stage cell population, and there was no significant difference between two groups. Conclusion: Tetrandrine combined with anti-cancer drugs can induce the proportion decreasing of cells in $G_{1}$ phase and inhibit cell multiplication, and the effects was similar to the verapamil. The laboratory evidence can be the evidence for using tetra"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏.pdf",
+          "chunk_index": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "raw_text": "粉防己碱能明显增强柔红霉素(DNR)和长春新碱(VCR)杀伤白血病细胞的能力",
+          "chunk_id": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "data": "t Affiliated Hospital, Chongqing Medical University (Chongqing 400016)\n2 Chongqing Medical University (Chongqing 400016)\n【Abstract】 Objective: To study the effect of tetrandrine (TET) and common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu) after joint action on cell cycle of the HNE-1. Methods: HNE-1 cell line was selected to carry out the experiment, the cells were divided into control group (without any drug), TET group (TET combined with anti-cancer drugs) and verapamil (VRP) group (VRP combined with anti-cancer drugs). The cell cycle was detected by flow cytometry. Results: The cells of TET and VRP group reduced in the $G_{0}/G_{1}$ stage cell population, and there was no significant difference between two groups. Conclusion: Tetrandrine combined with anti-cancer drugs can induce the proportion decreasing of cells in $G_{1}$ phase and inhibit cell multiplication, and the effects was similar to the verapamil. The laboratory evidence can be the evidence for using tetra"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏.pdf",
+          "chunk_index": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "raw_text": "common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu)",
+          "chunk_id": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "data": "t Affiliated Hospital, Chongqing Medical University (Chongqing 400016)\n2 Chongqing Medical University (Chongqing 400016)\n【Abstract】 Objective: To study the effect of tetrandrine (TET) and common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu) after joint action on cell cycle of the HNE-1. Methods: HNE-1 cell line was selected to carry out the experiment, the cells were divided into control group (without any drug), TET group (TET combined with anti-cancer drugs) and verapamil (VRP) group (VRP combined with anti-cancer drugs). The cell cycle was detected by flow cytometry. Results: The cells of TET and VRP group reduced in the $G_{0}/G_{1}$ stage cell population, and there was no significant difference between two groups. Conclusion: Tetrandrine combined with anti-cancer drugs can induce the proportion decreasing of cells in $G_{1}$ phase and inhibit cell multiplication, and the effects was similar to the verapamil. The laboratory evidence can be the evidence for using tetra"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏.pdf",
+          "chunk_index": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "raw_text": "common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu)",
+          "chunk_id": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "data": "t Affiliated Hospital, Chongqing Medical University (Chongqing 400016)\n2 Chongqing Medical University (Chongqing 400016)\n【Abstract】 Objective: To study the effect of tetrandrine (TET) and common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu) after joint action on cell cycle of the HNE-1. Methods: HNE-1 cell line was selected to carry out the experiment, the cells were divided into control group (without any drug), TET group (TET combined with anti-cancer drugs) and verapamil (VRP) group (VRP combined with anti-cancer drugs). The cell cycle was detected by flow cytometry. Results: The cells of TET and VRP group reduced in the $G_{0}/G_{1}$ stage cell population, and there was no significant difference between two groups. Conclusion: Tetrandrine combined with anti-cancer drugs can induce the proportion decreasing of cells in $G_{1}$ phase and inhibit cell multiplication, and the effects was similar to the verapamil. The laboratory evidence can be the evidence for using tetra"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏.pdf",
+          "chunk_index": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "raw_text": "common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu)",
+          "chunk_id": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "data": "t Affiliated Hospital, Chongqing Medical University (Chongqing 400016)\n2 Chongqing Medical University (Chongqing 400016)\n【Abstract】 Objective: To study the effect of tetrandrine (TET) and common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu) after joint action on cell cycle of the HNE-1. Methods: HNE-1 cell line was selected to carry out the experiment, the cells were divided into control group (without any drug), TET group (TET combined with anti-cancer drugs) and verapamil (VRP) group (VRP combined with anti-cancer drugs). The cell cycle was detected by flow cytometry. Results: The cells of TET and VRP group reduced in the $G_{0}/G_{1}$ stage cell population, and there was no significant difference between two groups. Conclusion: Tetrandrine combined with anti-cancer drugs can induce the proportion decreasing of cells in $G_{1}$ phase and inhibit cell multiplication, and the effects was similar to the verapamil. The laboratory evidence can be the evidence for using tetra"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏.pdf",
+          "chunk_index": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "raw_text": "common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu)",
+          "chunk_id": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "data": "t Affiliated Hospital, Chongqing Medical University (Chongqing 400016)\n2 Chongqing Medical University (Chongqing 400016)\n【Abstract】 Objective: To study the effect of tetrandrine (TET) and common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu) after joint action on cell cycle of the HNE-1. Methods: HNE-1 cell line was selected to carry out the experiment, the cells were divided into control group (without any drug), TET group (TET combined with anti-cancer drugs) and verapamil (VRP) group (VRP combined with anti-cancer drugs). The cell cycle was detected by flow cytometry. Results: The cells of TET and VRP group reduced in the $G_{0}/G_{1}$ stage cell population, and there was no significant difference between two groups. Conclusion: Tetrandrine combined with anti-cancer drugs can induce the proportion decreasing of cells in $G_{1}$ phase and inhibit cell multiplication, and the effects was similar to the verapamil. The laboratory evidence can be the evidence for using tetra"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏.pdf",
+          "chunk_index": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "raw_text": "粉防己碱能明显增强柔红霉素(DNR)和长春新碱(VCR)杀伤白血病细胞的能力",
+          "chunk_id": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+          "data": "t Affiliated Hospital, Chongqing Medical University (Chongqing 400016)\n2 Chongqing Medical University (Chongqing 400016)\n【Abstract】 Objective: To study the effect of tetrandrine (TET) and common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu) after joint action on cell cycle of the HNE-1. Methods: HNE-1 cell line was selected to carry out the experiment, the cells were divided into control group (without any drug), TET group (TET combined with anti-cancer drugs) and verapamil (VRP) group (VRP combined with anti-cancer drugs). The cell cycle was detected by flow cytometry. Results: The cells of TET and VRP group reduced in the $G_{0}/G_{1}$ stage cell population, and there was no significant difference between two groups. Conclusion: Tetrandrine combined with anti-cancer drugs can induce the proportion decreasing of cells in $G_{1}$ phase and inhibit cell multiplication, and the effects was similar to the verapamil. The laboratory evidence can be the evidence for using tetra"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏:1",
+    "source": "粉防己碱与抗肿瘤药物相互作用对HNE-1细胞周期的影响_王洪鹏.pdf",
+    "text": "t Affiliated Hospital, Chongqing Medical University (Chongqing 400016)\n2 Chongqing Medical University (Chongqing 400016)\n【Abstract】 Objective: To study the effect of tetrandrine (TET) and common anti-cancer drugs (vincristine, bleomycin, cisplatin, 5-Fu) after joint action on cell cycle of the HNE-1. Methods: HNE-1 cell line was selected to carry out the experiment, the cells were divided into control group (without any drug), TET group (TET combined with anti-cancer drugs) and verapamil (VRP) group (VRP combined with anti-cancer drugs). The cell cycle was detected by flow cytometry. Results: The cells of TET and VRP group reduced in the $G_{0}/G_{1}$ stage cell population, and there was no significant difference between two groups. Conclusion: Tetrandrine combined with anti-cancer drugs can induce the proportion decreasing of cells in $G_{1}$ phase and inhibit cell multiplication, and the effects was similar to the verapamil. The laboratory evidence can be the evidence for using tetrandrine as an adjunct to chemical therapy.粉防碱（TET）是防己科植物粉防己（Stephania tetrandra S. Moore）的主要活性成分。资料表明粉防己碱具有多种生物学效应，在肿瘤防治等方面具有很好的应用前景。研究表明，粉防己碱能明显增强柔红霉素(DNR)和长春新碱(VCR)杀伤白血病细胞的能力[1]。但是粉防己碱对鼻咽癌耐药细胞株作用报道较少。化疗药物导致细胞周期发生变化，细胞增殖受到抑制，最终诱发细胞调亡从而杀伤肿瘤细胞，这是化疗药物的常见机制之一[2]。有关抗肿瘤药物对细胞周期的影响报道较多，但药物相互作用引起耐药细胞和非耐药细胞细胞周期变化的文献报道较少。本研究以鼻咽癌HNE-1细胞株为研究对象，采用流式细胞仪分别检测天然药物TET和VRP分别与4种常用抗肿瘤药物联合应用对两细胞株细胞周期的影响，并进行比较，为进一步探讨 TET 的临床药理作用提供基础。现报告如下。"
+  }
+]

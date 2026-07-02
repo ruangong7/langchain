@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "康唑",
+        "canonical_name": "康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "抗生素",
+        "canonical_name": "抗生素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Indicator",
+        "name": "血药浓度",
+        "canonical_name": "血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "排斥反应",
+        "canonical_name": "排斥反应",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+          "chunk_index": "他克莫司药物相互作用的新进展_李继芳:4",
+          "raw_text": "康唑 $100\\mathrm{mg}$ · $\\mathrm{d}^{-1}$ 或 $200\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，FK506的血谷浓度分别上升1.4倍和3.1倍，同时半衰期延长并呈剂量依赖性。",
+          "chunk_id": "他克莫司药物相互作用的新进展_李继芳:4",
+          "data": "康唑 $100\\mathrm{mg}$ · $\\mathrm{d}^{-1}$ 或 $200\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，FK506的血谷浓度分别上升1.4倍和3.1倍，同时半衰期延长并呈剂量依赖性。\n由此可见，FK506与部分抗生素合用可在短时间内使其血药浓度升高并超出治疗范围，甚至出现严重的排斥反应，因此临床上并用治疗时应严密监测FK506的血药浓度，以防发生不良反应。\n2.1.3 与抗艾滋病毒 (HIV) 药物"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+          "chunk_index": "他克莫司药物相互作用的新进展_李继芳:4",
+          "raw_text": "FK506与部分抗生素合用可在短时间内使其血药浓度升高并超出治疗范围，甚至出现严重的排斥反应",
+          "chunk_id": "他克莫司药物相互作用的新进展_李继芳:4",
+          "data": "康唑 $100\\mathrm{mg}$ · $\\mathrm{d}^{-1}$ 或 $200\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，FK506的血谷浓度分别上升1.4倍和3.1倍，同时半衰期延长并呈剂量依赖性。\n由此可见，FK506与部分抗生素合用可在短时间内使其血药浓度升高并超出治疗范围，甚至出现严重的排斥反应，因此临床上并用治疗时应严密监测FK506的血药浓度，以防发生不良反应。\n2.1.3 与抗艾滋病毒 (HIV) 药物"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+          "chunk_index": "他克莫司药物相互作用的新进展_李继芳:4",
+          "raw_text": "严密监测FK506的血药浓度",
+          "chunk_id": "他克莫司药物相互作用的新进展_李继芳:4",
+          "data": "康唑 $100\\mathrm{mg}$ · $\\mathrm{d}^{-1}$ 或 $200\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，FK506的血谷浓度分别上升1.4倍和3.1倍，同时半衰期延长并呈剂量依赖性。\n由此可见，FK506与部分抗生素合用可在短时间内使其血药浓度升高并超出治疗范围，甚至出现严重的排斥反应，因此临床上并用治疗时应严密监测FK506的血药浓度，以防发生不良反应。\n2.1.3 与抗艾滋病毒 (HIV) 药物"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+          "chunk_index": "他克莫司药物相互作用的新进展_李继芳:4",
+          "raw_text": "出现严重的排斥反应",
+          "chunk_id": "他克莫司药物相互作用的新进展_李继芳:4",
+          "data": "康唑 $100\\mathrm{mg}$ · $\\mathrm{d}^{-1}$ 或 $200\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，FK506的血谷浓度分别上升1.4倍和3.1倍，同时半衰期延长并呈剂量依赖性。\n由此可见，FK506与部分抗生素合用可在短时间内使其血药浓度升高并超出治疗范围，甚至出现严重的排斥反应，因此临床上并用治疗时应严密监测FK506的血药浓度，以防发生不良反应。\n2.1.3 与抗艾滋病毒 (HIV) 药物"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "他克莫司药物相互作用的新进展_李继芳:4",
+    "source": "他克莫司药物相互作用的新进展_李继芳.pdf",
+    "text": "康唑 $100\\mathrm{mg}$ · $\\mathrm{d}^{-1}$ 或 $200\\mathrm{mg}\\cdot \\mathrm{d}^{-1}$ ，FK506的血谷浓度分别上升1.4倍和3.1倍，同时半衰期延长并呈剂量依赖性。\n由此可见，FK506与部分抗生素合用可在短时间内使其血药浓度升高并超出治疗范围，甚至出现严重的排斥反应，因此临床上并用治疗时应严密监测FK506的血药浓度，以防发生不良反应。\n2.1.3 与抗艾滋病毒 (HIV) 药物"
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "吗啉硝唑",
+        "canonical_name": "吗啉硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "丙磺舒",
+        "canonical_name": "丙磺舒",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "canonical_name": "西咪替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "canonical_name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "替诺福韦",
+        "canonical_name": "替诺福韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "5-硝基咪唑类抗菌药物",
+        "canonical_name": "5-硝基咪唑类抗菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "阿米巴病",
+        "canonical_name": "阿米巴病",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "滴虫病",
+        "canonical_name": "滴虫病",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "厌氧菌感染",
+        "canonical_name": "厌氧菌感染",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "盆腔炎",
+        "canonical_name": "盆腔炎",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Population",
+        "name": "肾脏严重衰竭的病人",
+        "canonical_name": "肾脏严重衰竭的病人",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "raw_text": "吗啉硝唑（morinidazole）是第 3 代 5- 硝基咪唑类抗菌药物",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "data": "idazole and S-morinidazole in rat plasma by LC-MS/MS method and its application in a pharmacokinetic interaction study\\*\nTANG Wen-ling1 ，SHEN Xu2 ，WANG Qiao3 ，WU Guo-lan1，4 ，SHENTU Jian-zhong1，4\\*\\*S-morinidazole in rat plasma，and to study the pharmacokinetic interaction of morinidazole after combined with probenecid，cimetidine，metformin，and tenofovir．Methods：After mixed with morinidazole- $\\left. - d _ { 8 } \\right|$ （internal standard），25 μL of rat plasma sample was mixed with 5 μL of internal standard and precipitated by 75 μL of methanol，and the supernatant was analyzed by a LC-MS/MS method．The analyte was separated on a Lux cellulose-4 chiral column（4.6 mm×250 mm，5 μm）with water-methanol（10∶90）as mobile phase at the mobile phase of 0.6 mL·min-1，and the column temperature was 30 ℃．5 μL of analyte was injected into column．Detection was performed using negative MRM mode on a TurboIonSpray source．The mass transitions monitored were m/z 271.3 → 144.3 and m/z 279.4 → 152.3 for morinidaz"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "raw_text": "临床上常采用静脉注射外消旋吗啉硝唑氯化钠注射液治疗阿米巴病、滴虫病和厌氧菌感染",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "data": "idazole and S-morinidazole in rat plasma by LC-MS/MS method and its application in a pharmacokinetic interaction study\\*\nTANG Wen-ling1 ，SHEN Xu2 ，WANG Qiao3 ，WU Guo-lan1，4 ，SHENTU Jian-zhong1，4\\*\\*S-morinidazole in rat plasma，and to study the pharmacokinetic interaction of morinidazole after combined with probenecid，cimetidine，metformin，and tenofovir．Methods：After mixed with morinidazole- $\\left. - d _ { 8 } \\right|$ （internal standard），25 μL of rat plasma sample was mixed with 5 μL of internal standard and precipitated by 75 μL of methanol，and the supernatant was analyzed by a LC-MS/MS method．The analyte was separated on a Lux cellulose-4 chiral column（4.6 mm×250 mm，5 μm）with water-methanol（10∶90）as mobile phase at the mobile phase of 0.6 mL·min-1，and the column temperature was 30 ℃．5 μL of analyte was injected into column．Detection was performed using negative MRM mode on a TurboIonSpray source．The mass transitions monitored were m/z 271.3 → 144.3 and m/z 279.4 → 152.3 for morinidaz"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "raw_text": "临床上常采用静脉注射外消旋吗啉硝唑氯化钠注射液治疗阿米巴病、滴虫病和厌氧菌感染",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "data": "idazole and S-morinidazole in rat plasma by LC-MS/MS method and its application in a pharmacokinetic interaction study\\*\nTANG Wen-ling1 ，SHEN Xu2 ，WANG Qiao3 ，WU Guo-lan1，4 ，SHENTU Jian-zhong1，4\\*\\*S-morinidazole in rat plasma，and to study the pharmacokinetic interaction of morinidazole after combined with probenecid，cimetidine，metformin，and tenofovir．Methods：After mixed with morinidazole- $\\left. - d _ { 8 } \\right|$ （internal standard），25 μL of rat plasma sample was mixed with 5 μL of internal standard and precipitated by 75 μL of methanol，and the supernatant was analyzed by a LC-MS/MS method．The analyte was separated on a Lux cellulose-4 chiral column（4.6 mm×250 mm，5 μm）with water-methanol（10∶90）as mobile phase at the mobile phase of 0.6 mL·min-1，and the column temperature was 30 ℃．5 μL of analyte was injected into column．Detection was performed using negative MRM mode on a TurboIonSpray source．The mass transitions monitored were m/z 271.3 → 144.3 and m/z 279.4 → 152.3 for morinidaz"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "raw_text": "临床上常采用静脉注射外消旋吗啉硝唑氯化钠注射液治疗阿米巴病、滴虫病和厌氧菌感染",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "data": "idazole and S-morinidazole in rat plasma by LC-MS/MS method and its application in a pharmacokinetic interaction study\\*\nTANG Wen-ling1 ，SHEN Xu2 ，WANG Qiao3 ，WU Guo-lan1，4 ，SHENTU Jian-zhong1，4\\*\\*S-morinidazole in rat plasma，and to study the pharmacokinetic interaction of morinidazole after combined with probenecid，cimetidine，metformin，and tenofovir．Methods：After mixed with morinidazole- $\\left. - d _ { 8 } \\right|$ （internal standard），25 μL of rat plasma sample was mixed with 5 μL of internal standard and precipitated by 75 μL of methanol，and the supernatant was analyzed by a LC-MS/MS method．The analyte was separated on a Lux cellulose-4 chiral column（4.6 mm×250 mm，5 μm）with water-methanol（10∶90）as mobile phase at the mobile phase of 0.6 mL·min-1，and the column temperature was 30 ℃．5 μL of analyte was injected into column．Detection was performed using negative MRM mode on a TurboIonSpray source．The mass transitions monitored were m/z 271.3 → 144.3 and m/z 279.4 → 152.3 for morinidaz"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "raw_text": "一项临床研究显示，在盆腔炎的治疗中，其疗效与奥硝唑相当且不良反应少于奥硝唑，有望成为盆腔炎的一线治疗药物",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "data": "idazole and S-morinidazole in rat plasma by LC-MS/MS method and its application in a pharmacokinetic interaction study\\*\nTANG Wen-ling1 ，SHEN Xu2 ，WANG Qiao3 ，WU Guo-lan1，4 ，SHENTU Jian-zhong1，4\\*\\*S-morinidazole in rat plasma，and to study the pharmacokinetic interaction of morinidazole after combined with probenecid，cimetidine，metformin，and tenofovir．Methods：After mixed with morinidazole- $\\left. - d _ { 8 } \\right|$ （internal standard），25 μL of rat plasma sample was mixed with 5 μL of internal standard and precipitated by 75 μL of methanol，and the supernatant was analyzed by a LC-MS/MS method．The analyte was separated on a Lux cellulose-4 chiral column（4.6 mm×250 mm，5 μm）with water-methanol（10∶90）as mobile phase at the mobile phase of 0.6 mL·min-1，and the column temperature was 30 ℃．5 μL of analyte was injected into column．Detection was performed using negative MRM mode on a TurboIonSpray source．The mass transitions monitored were m/z 271.3 → 144.3 and m/z 279.4 → 152.3 for morinidaz"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "raw_text": "本文通过吗啉硝唑联用肾脏转运体抑制剂或底物（丙磺舒、西咪替丁、二甲双胍、替诺福韦），考察大鼠血浆中R-吗啉硝唑与S-吗啉硝唑的药物代谢动力学特征变化",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "data": "idazole and S-morinidazole in rat plasma by LC-MS/MS method and its application in a pharmacokinetic interaction study\\*\nTANG Wen-ling1 ，SHEN Xu2 ，WANG Qiao3 ，WU Guo-lan1，4 ，SHENTU Jian-zhong1，4\\*\\*S-morinidazole in rat plasma，and to study the pharmacokinetic interaction of morinidazole after combined with probenecid，cimetidine，metformin，and tenofovir．Methods：After mixed with morinidazole- $\\left. - d _ { 8 } \\right|$ （internal standard），25 μL of rat plasma sample was mixed with 5 μL of internal standard and precipitated by 75 μL of methanol，and the supernatant was analyzed by a LC-MS/MS method．The analyte was separated on a Lux cellulose-4 chiral column（4.6 mm×250 mm，5 μm）with water-methanol（10∶90）as mobile phase at the mobile phase of 0.6 mL·min-1，and the column temperature was 30 ℃．5 μL of analyte was injected into column．Detection was performed using negative MRM mode on a TurboIonSpray source．The mass transitions monitored were m/z 271.3 → 144.3 and m/z 279.4 → 152.3 for morinidaz"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "raw_text": "本文通过吗啉硝唑联用肾脏转运体抑制剂或底物（丙磺舒、西咪替丁、二甲双胍、替诺福韦），考察大鼠血浆中R-吗啉硝唑与S-吗啉硝唑的药物代谢动力学特征变化",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "data": "idazole and S-morinidazole in rat plasma by LC-MS/MS method and its application in a pharmacokinetic interaction study\\*\nTANG Wen-ling1 ，SHEN Xu2 ，WANG Qiao3 ，WU Guo-lan1，4 ，SHENTU Jian-zhong1，4\\*\\*S-morinidazole in rat plasma，and to study the pharmacokinetic interaction of morinidazole after combined with probenecid，cimetidine，metformin，and tenofovir．Methods：After mixed with morinidazole- $\\left. - d _ { 8 } \\right|$ （internal standard），25 μL of rat plasma sample was mixed with 5 μL of internal standard and precipitated by 75 μL of methanol，and the supernatant was analyzed by a LC-MS/MS method．The analyte was separated on a Lux cellulose-4 chiral column（4.6 mm×250 mm，5 μm）with water-methanol（10∶90）as mobile phase at the mobile phase of 0.6 mL·min-1，and the column temperature was 30 ℃．5 μL of analyte was injected into column．Detection was performed using negative MRM mode on a TurboIonSpray source．The mass transitions monitored were m/z 271.3 → 144.3 and m/z 279.4 → 152.3 for morinidaz"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "raw_text": "本文通过吗啉硝唑联用肾脏转运体抑制剂或底物（丙磺舒、西咪替丁、二甲双胍、替诺福韦），考察大鼠血浆中R-吗啉硝唑与S-吗啉硝唑的药物代谢动力学特征变化",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "data": "idazole and S-morinidazole in rat plasma by LC-MS/MS method and its application in a pharmacokinetic interaction study\\*\nTANG Wen-ling1 ，SHEN Xu2 ，WANG Qiao3 ，WU Guo-lan1，4 ，SHENTU Jian-zhong1，4\\*\\*S-morinidazole in rat plasma，and to study the pharmacokinetic interaction of morinidazole after combined with probenecid，cimetidine，metformin，and tenofovir．Methods：After mixed with morinidazole- $\\left. - d _ { 8 } \\right|$ （internal standard），25 μL of rat plasma sample was mixed with 5 μL of internal standard and precipitated by 75 μL of methanol，and the supernatant was analyzed by a LC-MS/MS method．The analyte was separated on a Lux cellulose-4 chiral column（4.6 mm×250 mm，5 μm）with water-methanol（10∶90）as mobile phase at the mobile phase of 0.6 mL·min-1，and the column temperature was 30 ℃．5 μL of analyte was injected into column．Detection was performed using negative MRM mode on a TurboIonSpray source．The mass transitions monitored were m/z 271.3 → 144.3 and m/z 279.4 → 152.3 for morinidaz"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "raw_text": "本文通过吗啉硝唑联用肾脏转运体抑制剂或底物（丙磺舒、西咪替丁、二甲双胍、替诺福韦），考察大鼠血浆中R-吗啉硝唑与S-吗啉硝唑的药物代谢动力学特征变化",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "data": "idazole and S-morinidazole in rat plasma by LC-MS/MS method and its application in a pharmacokinetic interaction study\\*\nTANG Wen-ling1 ，SHEN Xu2 ，WANG Qiao3 ，WU Guo-lan1，4 ，SHENTU Jian-zhong1，4\\*\\*S-morinidazole in rat plasma，and to study the pharmacokinetic interaction of morinidazole after combined with probenecid，cimetidine，metformin，and tenofovir．Methods：After mixed with morinidazole- $\\left. - d _ { 8 } \\right|$ （internal standard），25 μL of rat plasma sample was mixed with 5 μL of internal standard and precipitated by 75 μL of methanol，and the supernatant was analyzed by a LC-MS/MS method．The analyte was separated on a Lux cellulose-4 chiral column（4.6 mm×250 mm，5 μm）with water-methanol（10∶90）as mobile phase at the mobile phase of 0.6 mL·min-1，and the column temperature was 30 ℃．5 μL of analyte was injected into column．Detection was performed using negative MRM mode on a TurboIonSpray source．The mass transitions monitored were m/z 271.3 → 144.3 and m/z 279.4 → 152.3 for morinidaz"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "raw_text": "肾脏严重衰竭的病人与正常人注射相同剂量吗啉硝唑后，M8-1和M8-2的AUC0-分别增加和倍，肾清除率分别降低了和",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+          "data": "idazole and S-morinidazole in rat plasma by LC-MS/MS method and its application in a pharmacokinetic interaction study\\*\nTANG Wen-ling1 ，SHEN Xu2 ，WANG Qiao3 ，WU Guo-lan1，4 ，SHENTU Jian-zhong1，4\\*\\*S-morinidazole in rat plasma，and to study the pharmacokinetic interaction of morinidazole after combined with probenecid，cimetidine，metformin，and tenofovir．Methods：After mixed with morinidazole- $\\left. - d _ { 8 } \\right|$ （internal standard），25 μL of rat plasma sample was mixed with 5 μL of internal standard and precipitated by 75 μL of methanol，and the supernatant was analyzed by a LC-MS/MS method．The analyte was separated on a Lux cellulose-4 chiral column（4.6 mm×250 mm，5 μm）with water-methanol（10∶90）as mobile phase at the mobile phase of 0.6 mL·min-1，and the column temperature was 30 ℃．5 μL of analyte was injected into column．Detection was performed using negative MRM mode on a TurboIonSpray source．The mass transitions monitored were m/z 271.3 → 144.3 and m/z 279.4 → 152.3 for morinidaz"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:3",
+    "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+    "text": "idazole and S-morinidazole in rat plasma by LC-MS/MS method and its application in a pharmacokinetic interaction study\\*\nTANG Wen-ling1 ，SHEN Xu2 ，WANG Qiao3 ，WU Guo-lan1，4 ，SHENTU Jian-zhong1，4\\*\\*S-morinidazole in rat plasma，and to study the pharmacokinetic interaction of morinidazole after combined with probenecid，cimetidine，metformin，and tenofovir．Methods：After mixed with morinidazole- $\\left. - d _ { 8 } \\right|$ （internal standard），25 μL of rat plasma sample was mixed with 5 μL of internal standard and precipitated by 75 μL of methanol，and the supernatant was analyzed by a LC-MS/MS method．The analyte was separated on a Lux cellulose-4 chiral column（4.6 mm×250 mm，5 μm）with water-methanol（10∶90）as mobile phase at the mobile phase of 0.6 mL·min-1，and the column temperature was 30 ℃．5 μL of analyte was injected into column．Detection was performed using negative MRM mode on a TurboIonSpray source．The mass transitions monitored were m/z 271.3 → 144.3 and m/z 279.4 → 152.3 for morinidazole and morinidazole- $- d _ { 8 }$ ，respectively．Venous blood samples for pharmacokinetic measurements were collected from the rats after administration．Results：The linear range of the calibration curve（5-1 000 ng·mL-1）was obtained with a good correlation coefficient $\\left( r ^ { 2 } { = } 0 . 9 9 8 3 \\pm 0 . 0 0 0 2 \\right)$ The lower limit of quantification was 5 ng·mL-1 ，the average recovery was 95.6%-106.6% and the intra- and interday precision represented by RSD were less than 8.2%．Results for process efficiency test and all stability tests met the acceptance criteria．After the combination of morinidazole and metformin，the $t _ { \\mathrm { m a x } }$ of R-morinidazole was statistically significant，and the pharmacokinetic parameters were not significantly changed after combination with other drugs．Conclusion：This method can perform chiral separation and quantitative analysis of R-morinidazole and S-morinidazole in rat plasma．After morpholindazole is combined with probenecid，cimetidine，metformin and tenofovir respectively，the pharmacokinetics of R-morinidazole and S-morinidazole in rat plasma is not changed significantly.Keywords：morinidazole； nitroimidazole antimicrobial drug； renal transporter； probenecid； cimetidine；metformin； tenofovir； drug-drug interaction； LC-MS/MS吗啉硝唑（morinidazole）是第 3 代 5- 硝基咪唑类抗菌药物，为手性分子，临床上常采用静脉注射外消旋吗啉硝唑氯化钠注射液治疗阿米巴病、滴虫病和厌氧菌（厌氧革兰阴性无芽孢杆菌、厌氧革兰阳性球菌）感染［1］ 等，其活性强于甲硝唑且毒性更小［2］ 。一项临床研究显示，在盆腔炎的治疗中，其疗效与奥硝唑相当且不良反应少于奥硝唑，有望成为盆腔炎的一线治疗药物［3］ 。吗啉硝唑在体内主要通过由酶介导的 N 葡糖醛酸化形成S 吗啉硝唑葡糖苷酸（ ）与R 吗啉硝唑葡糖苷酸（），同时通过 O 硫酸化形成硫酸结合物（ ）［4］ 。吗啉硝唑、 、 、 主要通过尿液排泄，分别占剂量的 21.2%、13.0%，6.6%、28.4%，肾脏严重衰竭的病人与正常人注射相同剂量吗啉硝唑后，M8-1和M8-2的 $\\mathrm { A U C } _ { 0 - }$ 分别增加和倍，肾清除率分别降低了和 ［4］ 。研究显示是肾脏有机阴离子转运体 （ ）和有机阴离子转运体 （ ）的底物， 、 是的底物，并提出肾脏转运体的表达量可能影响吗啉硝唑及其代谢物的排泄［5］，这提示吗啉硝唑与转运体相关底物或抑制剂联用的药物 -药物相互作用值得关注。本文通过吗啉硝唑联用肾脏转运体抑制剂或底物（丙磺舒、西咪替丁、二甲双胍、替诺福韦），考察大鼠血浆中R- 吗啉硝唑与S-吗啉硝唑的药物代谢动力学特征变化。其中丙磺舒可以抑制膜上外输泵，阻滞有机阴离子转运体（ ），是常用的和尿苷二磷酸葡萄糖醛酸基转移酶 （ ）探针性底物［6］；西咪替丁是有机阳离子转运体（OCTs）、OATs、P 糖蛋白等转运体的底物［7］；二甲双胍的细胞摄取和外排过程与和多药及毒性化合物外排转运蛋白（ ）相关并具有转运体依赖性［8-9］；替诺福韦主要由有机阴离子转运体（主要是参与调节，也包括少量 ）参与调节进入肾小管细胞［10］ 。"
+  }
+]

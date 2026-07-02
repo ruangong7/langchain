@@ -1,0 +1,551 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_5",
+        "type": "Food",
+        "name": "黄豆苷原",
+        "canonical_name": "黄豆苷原",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "CYP1A2",
+        "canonical_name": "CYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "胺碘酮",
+        "canonical_name": "胺碘酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "CYP1A1",
+        "canonical_name": "CYP1A1",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "CYP3A4",
+        "canonical_name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "CYP2C8",
+        "canonical_name": "CYP2C8",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "CYP2C19",
+        "canonical_name": "CYP2C19",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Indicator",
+        "name": "CYP2D6",
+        "canonical_name": "CYP2D6",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "银杏叶",
+        "canonical_name": "银杏叶",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Indicator",
+        "name": "CYP2C9",
+        "canonical_name": "CYP2C9",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Food",
+        "name": "桂皮",
+        "canonical_name": "桂皮",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Food",
+        "name": "大蒜素",
+        "canonical_name": "大蒜素",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Food",
+        "name": "新鲜大蒜",
+        "canonical_name": "新鲜大蒜",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Food",
+        "name": "刺芒柄花素",
+        "canonical_name": "刺芒柄花素",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Food",
+        "name": "鸡豆黄素",
+        "canonical_name": "鸡豆黄素",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "Indicator",
+        "name": "CYP2E1",
+        "canonical_name": "CYP2E1",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Drug",
+        "name": "吴茱萸次碱",
+        "canonical_name": "吴茱萸次碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_23",
+        "type": "Indicator",
+        "name": "CYP3A11",
+        "canonical_name": "CYP3A11",
+        "properties": {}
+      },
+      {
+        "id": "ent_24",
+        "type": "Indicator",
+        "name": "CYP4A10",
+        "canonical_name": "CYP4A10",
+        "properties": {}
+      },
+      {
+        "id": "ent_25",
+        "type": "Indicator",
+        "name": "CYP2B1",
+        "canonical_name": "CYP2B1",
+        "properties": {}
+      },
+      {
+        "id": "ent_26",
+        "type": "Indicator",
+        "name": "CYP2B10",
+        "canonical_name": "CYP2B10",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "高剂量黄豆苷原可抑制 CYP1A2活性",
+          "effect": "抑制",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导",
+          "effect": "诱导",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导",
+          "effect": "诱导",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导",
+          "effect": "诱导",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导",
+          "effect": "诱导",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导",
+          "effect": "诱导",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_7",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导",
+          "effect": "诱导",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_13",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达",
+          "effect": "诱导",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_13",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达",
+          "effect": "诱导",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_13",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达",
+          "effect": "诱导",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_15",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性",
+          "effect": "抑制",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_15",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性",
+          "effect": "抑制",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_15",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性",
+          "effect": "抑制",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_15",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性",
+          "effect": "抑制",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_16",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性",
+          "effect": "抑制",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_16",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性",
+          "effect": "抑制",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_16",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性",
+          "effect": "抑制",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_17",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性",
+          "effect": "抑制",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_17",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性",
+          "effect": "抑制",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_17",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性",
+          "effect": "抑制",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_18",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "刺芒柄花素中度抑制人体 CYP2D6",
+          "effect": "抑制",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_22",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_19",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "鸡豆黄素中度抑制人体 CYP2C9",
+          "effect": "抑制",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_23",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_22",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍",
+          "effect": "诱导",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_24",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_22",
+        "target_id": "ent_23",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达",
+          "effect": "诱导",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_25",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_22",
+        "target_id": "ent_24",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达",
+          "effect": "诱导",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_26",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_22",
+        "target_id": "ent_25",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达",
+          "effect": "诱导",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_27",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_22",
+        "target_id": "ent_26",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达",
+          "effect": "诱导",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      },
+      {
+        "id": "rel_28",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_22",
+        "target_id": "ent_21",
+        "properties": {
+          "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+          "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+          "raw_text": "吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达",
+          "effect": "诱导",
+          "chunk_id": "中药-药物相互作用研究进展_袁红昌:3",
+          "data": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "中药-药物相互作用研究进展_袁红昌:3",
+    "source": "中药-药物相互作用研究进展_袁红昌.pdf",
+    "text": "苷原是大豆、芹菜、葛根素和三叶草主要异黄酮形式，体内实验表明，高剂量黄豆苷原可抑制 CYP1A2活性，减少主要羟化代谢产物生成。\nE － mail: zengnan966@ 126. com\n1. 4 同时影响 CYP450 多个亚型酶代谢\n大鼠实验表明［14］，胺碘酮代谢主要由 CYP1A1、CYP1A2 、 CYP3A4 、 CYP2C8 、 CYP2C19 和 CYP2D6 酶诱导 。 银杏叶可诱导 CYP3A4 、 CYP2C9 和 CYP2C19表达，桂皮也可抑制 CYP1A2 、 CYP3A4 、 CYP2C9 和CYP2D6 酶活性。 体外实验表明［15］，大蒜素或新鲜大蒜可中度抑制人体 CYP3A4 、 CYP2C9 和 CYP2C19 活性。 除了刺芒柄花素中度抑制人体 CYP2D6 和鸡豆黄素中度抑制人体 CYP2C9 外，刺芒柄花素和鸡豆黄素仅轻微抑制人体和大鼠 CYP1A2、 CYP2A6、CYP2C19 和 CYP2E1 活性 。 吴茱萸次碱对肝 CYP450酶具有显著影响，给小鼠吴茱萸次碱一周，肝 CYP4501 － 4 家族基因表达改变，肝 CYP1A2 表达在低剂量组增加2 倍，在高剂量组增加 3 倍。 大鼠体内实验表明［16］，吴茱萸次碱除诱导 CYP1A 基因外，也增强CYP3A11 、 CYP4A10 、 CYP2B1 、 CYP2B10 和 CYP2E1的表达，但在大鼠体外孵育肝微粒体试验中，吴茱萸次碱是 CYP1A 酶的抑制药。\n1. 2 CYP3A"
+  }
+]

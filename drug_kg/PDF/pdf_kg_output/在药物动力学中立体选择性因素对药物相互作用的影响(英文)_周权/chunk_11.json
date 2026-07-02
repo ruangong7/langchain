@@ -1,0 +1,120 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "paroxetine",
+        "canonical_name": "paroxetine",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "metoprolol",
+        "canonical_name": "metoprolol",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "fluxetine",
+        "canonical_name": "fluxetine",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "carvedilol",
+        "canonical_name": "carvedilol",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "bucolome",
+        "canonical_name": "bucolome",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "warfarin",
+        "canonical_name": "warfarin",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "S-propafenone",
+        "canonical_name": "S-propafenone",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "R-propafenone",
+        "canonical_name": "R-propafenone",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:11",
+          "raw_text": "S-propafenone metabolism via recombinant CYP3A4 was inhibited by R-enantiomer, with the IC50 value of 125 μmol/L",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:11",
+          "data": "pete for biliary excretion to the extent it can in the female.\nMETHODS FOR STEREOSELECTIVE PHARMA- COKINETIC INTERACTION\nAnalytical methods for enantiomer discrimination in most occasions are necessary, including stable isotope technique and chiral chromatography. The former technique relies on the detection of the mass difference between the isotope-labelled and unlabelled enantiomer by GC-MS. It has been used in the studies of enantiomeric interactions of propafenone $^{[9]}$ , nitrendipine $^{[14]}$ , amphetamine, and benidipine $^{[11]}$ .The latter chiral chromatography has also been applied widely in stereoselective pharmacokinetic interaction study, such as mutual enantiomeric interactions in 4, 5, and 7-hydroxylations of propranolol $^{[48]}$ , N-dealkylation of cisapride $^{[10]}$ , 4'-hydroxylation of flurbiprofen $^{[49]}$ and interactions of paroxetine-metoprolol $^{[27]}$ , fluxetine-carvedilol $^{[37]}$ , and bucolome-warfarin $^{[29]}$ , etc. In our laboratory, through m"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:11",
+          "raw_text": "interactions of paroxetine-metoprolol",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:11",
+          "data": "pete for biliary excretion to the extent it can in the female.\nMETHODS FOR STEREOSELECTIVE PHARMA- COKINETIC INTERACTION\nAnalytical methods for enantiomer discrimination in most occasions are necessary, including stable isotope technique and chiral chromatography. The former technique relies on the detection of the mass difference between the isotope-labelled and unlabelled enantiomer by GC-MS. It has been used in the studies of enantiomeric interactions of propafenone $^{[9]}$ , nitrendipine $^{[14]}$ , amphetamine, and benidipine $^{[11]}$ .The latter chiral chromatography has also been applied widely in stereoselective pharmacokinetic interaction study, such as mutual enantiomeric interactions in 4, 5, and 7-hydroxylations of propranolol $^{[48]}$ , N-dealkylation of cisapride $^{[10]}$ , 4'-hydroxylation of flurbiprofen $^{[49]}$ and interactions of paroxetine-metoprolol $^{[27]}$ , fluxetine-carvedilol $^{[37]}$ , and bucolome-warfarin $^{[29]}$ , etc. In our laboratory, through m"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:11",
+          "raw_text": "interactions of fluxetine-carvedilol",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:11",
+          "data": "pete for biliary excretion to the extent it can in the female.\nMETHODS FOR STEREOSELECTIVE PHARMA- COKINETIC INTERACTION\nAnalytical methods for enantiomer discrimination in most occasions are necessary, including stable isotope technique and chiral chromatography. The former technique relies on the detection of the mass difference between the isotope-labelled and unlabelled enantiomer by GC-MS. It has been used in the studies of enantiomeric interactions of propafenone $^{[9]}$ , nitrendipine $^{[14]}$ , amphetamine, and benidipine $^{[11]}$ .The latter chiral chromatography has also been applied widely in stereoselective pharmacokinetic interaction study, such as mutual enantiomeric interactions in 4, 5, and 7-hydroxylations of propranolol $^{[48]}$ , N-dealkylation of cisapride $^{[10]}$ , 4'-hydroxylation of flurbiprofen $^{[49]}$ and interactions of paroxetine-metoprolol $^{[27]}$ , fluxetine-carvedilol $^{[37]}$ , and bucolome-warfarin $^{[29]}$ , etc. In our laboratory, through m"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:11",
+          "raw_text": "interactions of bucolome-warfarin",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:11",
+          "data": "pete for biliary excretion to the extent it can in the female.\nMETHODS FOR STEREOSELECTIVE PHARMA- COKINETIC INTERACTION\nAnalytical methods for enantiomer discrimination in most occasions are necessary, including stable isotope technique and chiral chromatography. The former technique relies on the detection of the mass difference between the isotope-labelled and unlabelled enantiomer by GC-MS. It has been used in the studies of enantiomeric interactions of propafenone $^{[9]}$ , nitrendipine $^{[14]}$ , amphetamine, and benidipine $^{[11]}$ .The latter chiral chromatography has also been applied widely in stereoselective pharmacokinetic interaction study, such as mutual enantiomeric interactions in 4, 5, and 7-hydroxylations of propranolol $^{[48]}$ , N-dealkylation of cisapride $^{[10]}$ , 4'-hydroxylation of flurbiprofen $^{[49]}$ and interactions of paroxetine-metoprolol $^{[27]}$ , fluxetine-carvedilol $^{[37]}$ , and bucolome-warfarin $^{[29]}$ , etc. In our laboratory, through m"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:11",
+    "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+    "text": "pete for biliary excretion to the extent it can in the female.\nMETHODS FOR STEREOSELECTIVE PHARMA- COKINETIC INTERACTION\nAnalytical methods for enantiomer discrimination in most occasions are necessary, including stable isotope technique and chiral chromatography. The former technique relies on the detection of the mass difference between the isotope-labelled and unlabelled enantiomer by GC-MS. It has been used in the studies of enantiomeric interactions of propafenone $^{[9]}$ , nitrendipine $^{[14]}$ , amphetamine, and benidipine $^{[11]}$ .The latter chiral chromatography has also been applied widely in stereoselective pharmacokinetic interaction study, such as mutual enantiomeric interactions in 4, 5, and 7-hydroxylations of propranolol $^{[48]}$ , N-dealkylation of cisapride $^{[10]}$ , 4'-hydroxylation of flurbiprofen $^{[49]}$ and interactions of paroxetine-metoprolol $^{[27]}$ , fluxetine-carvedilol $^{[37]}$ , and bucolome-warfarin $^{[29]}$ , etc. In our laboratory, through manipulation of the enantiomeric composition of propafenone and a chiral HPLC analysis, we found that S-propafenone metabolism via recombinant CYP3A4 was inhibited by R-enantiomer, with the IC $_{50}$ value of 125 $\\mu$ mol/L $^{[38]}$ .When enantiomer discrimination method was not employed, mutual competitive enantiomer/enantiomer interaction in metabolism could be examined by a mixed alternative substrates model suggested by Segal $^{[50]}$ . The total rate of metabolism of a racemic mixture on the basis of $V_{max}$ and $K_{m}$ values obtained from experiments using the individual enantiomers are estimated according to the model, and then compared with the value experimentally obtained. If the experimental data were almost superimposable on those obtained by simulation, competitive inhibition-based enantiomer/enantiomer interaction may exist. The model was adapted to the 5-hydroxylation of $(S)$ - and $(R)$ -propafenone and N-dealkylation of $(+)$ - and $(-)$ -cisapride $^{[9,10]}$ .In summary, enantiomer/enantiomer interaction in racemates and enantiomer/other drug interaction in coadministration may exist in pharmacokinetics. Some of these are associated with polymorphism, age, species, and sex. The clinical significance of introducing the concept of stereoselectivity into pharmacokinetic interaction study cannot be overestimated, such as avoiding interaction-based adverse reactions, increasing therapeutic index, resolving the apparent anomaly in the plasma concentration-effect relationship, and providing starting point of investigation into drug disposition, etc. With analytical technology spreading and desires of rational drug use increasing, studies of stereoselective pharmacokinetic drug interaction would prosper."
+  }
+]

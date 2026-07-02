@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "环孢素",
+        "canonical_name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Indicator",
+        "name": "环孢素血药浓度",
+        "canonical_name": "环孢素血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "肢体抖动",
+        "canonical_name": "肢体抖动",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Indicator",
+        "name": "血钾",
+        "canonical_name": "血钾",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "3例药物相互作用引起的药物不良反应分析_刘晓.pdf",
+          "chunk_index": "3",
+          "raw_text": "环孢素联合伏立康唑致环孢素血药浓度升高",
+          "chunk_id": "3例药物相互作用引起的药物不良反应分析_刘晓:3",
+          "data": "以补液等对症治疗，复查地高辛血药浓度 $1 . 2 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，患者病情明显好转，无喘憋、恶心、厌食等。\n1 环孢素联合伏立康唑致环孢素血药浓度升高\n患者1，男，52 岁，因“肾病综合征、肾小球微小病变( 光镜) 、慢性肾病 1 期”入院治疗。 初始予以醋酸泼尼松片50 mg qd po，入院第3 天醋酸泼尼松片调整为 40 mg qd po，入院第 6 天加用环孢素 $5 0 ~ \\mathrm { m g } ~ b i d ~ p o$ 。入院第10 天，查环孢素血药浓度为 $1 0 3 . 6 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 。同时，G 试验示: D － 葡聚糖 $> 1 0 0 0 \\mathrm { \\ p g \\ } \\bullet \\mathrm { \\ m L } ^ { - 1 } ; \\mathrm { G M }$ 试验( － ) ; X 线片示双肺渗出。 考虑为真菌感染，加用伏立康唑胶囊 $2 0 0 \\ : \\mathrm { ~ m g } \\ : \\ : b i d \\ : p o$ ，此时患者血钾为 3. 65$\\mathrm { m m o l } \\cdot \\mathrm { ~ L ~ } ^ { - 1 }$ 。 入院第 17 天患者血钾为 5. 50$\\mathrm { m m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并出现肢体抖动，复查环孢素血药浓度为$3 6 1 . 8 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，较前明显升高，遂停用环孢素。 第18 天复查血钾为 $6 . 2 9 \\mathrm { \\ m m o l } \\cdot { \\mathrm { L } } ^ { - 1 }$ ，予以口服聚磺苯乙烯钠散、补液、糖 + 胰岛素静脉点滴排钾。 第 19 天复查血钾为 $4 . 6 2 \\ \\mathrm { m m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，恢复正常范围。 入院第20 天复查环孢素血药浓度为 $5 1 "
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "3例药物相互作用引起的药物不良反应分析_刘晓.pdf",
+          "chunk_index": "3",
+          "raw_text": "环孢素联合伏立康唑致环孢素血药浓度升高",
+          "chunk_id": "3例药物相互作用引起的药物不良反应分析_刘晓:3",
+          "data": "以补液等对症治疗，复查地高辛血药浓度 $1 . 2 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，患者病情明显好转，无喘憋、恶心、厌食等。\n1 环孢素联合伏立康唑致环孢素血药浓度升高\n患者1，男，52 岁，因“肾病综合征、肾小球微小病变( 光镜) 、慢性肾病 1 期”入院治疗。 初始予以醋酸泼尼松片50 mg qd po，入院第3 天醋酸泼尼松片调整为 40 mg qd po，入院第 6 天加用环孢素 $5 0 ~ \\mathrm { m g } ~ b i d ~ p o$ 。入院第10 天，查环孢素血药浓度为 $1 0 3 . 6 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 。同时，G 试验示: D － 葡聚糖 $> 1 0 0 0 \\mathrm { \\ p g \\ } \\bullet \\mathrm { \\ m L } ^ { - 1 } ; \\mathrm { G M }$ 试验( － ) ; X 线片示双肺渗出。 考虑为真菌感染，加用伏立康唑胶囊 $2 0 0 \\ : \\mathrm { ~ m g } \\ : \\ : b i d \\ : p o$ ，此时患者血钾为 3. 65$\\mathrm { m m o l } \\cdot \\mathrm { ~ L ~ } ^ { - 1 }$ 。 入院第 17 天患者血钾为 5. 50$\\mathrm { m m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并出现肢体抖动，复查环孢素血药浓度为$3 6 1 . 8 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，较前明显升高，遂停用环孢素。 第18 天复查血钾为 $6 . 2 9 \\mathrm { \\ m m o l } \\cdot { \\mathrm { L } } ^ { - 1 }$ ，予以口服聚磺苯乙烯钠散、补液、糖 + 胰岛素静脉点滴排钾。 第 19 天复查血钾为 $4 . 6 2 \\ \\mathrm { m m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，恢复正常范围。 入院第20 天复查环孢素血药浓度为 $5 1 "
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "3例药物相互作用引起的药物不良反应分析_刘晓.pdf",
+          "chunk_index": "3",
+          "raw_text": "随着患者环孢素血药浓度的下降，患者肢体抖动症状逐渐改善",
+          "chunk_id": "3例药物相互作用引起的药物不良反应分析_刘晓:3",
+          "data": "以补液等对症治疗，复查地高辛血药浓度 $1 . 2 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，患者病情明显好转，无喘憋、恶心、厌食等。\n1 环孢素联合伏立康唑致环孢素血药浓度升高\n患者1，男，52 岁，因“肾病综合征、肾小球微小病变( 光镜) 、慢性肾病 1 期”入院治疗。 初始予以醋酸泼尼松片50 mg qd po，入院第3 天醋酸泼尼松片调整为 40 mg qd po，入院第 6 天加用环孢素 $5 0 ~ \\mathrm { m g } ~ b i d ~ p o$ 。入院第10 天，查环孢素血药浓度为 $1 0 3 . 6 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 。同时，G 试验示: D － 葡聚糖 $> 1 0 0 0 \\mathrm { \\ p g \\ } \\bullet \\mathrm { \\ m L } ^ { - 1 } ; \\mathrm { G M }$ 试验( － ) ; X 线片示双肺渗出。 考虑为真菌感染，加用伏立康唑胶囊 $2 0 0 \\ : \\mathrm { ~ m g } \\ : \\ : b i d \\ : p o$ ，此时患者血钾为 3. 65$\\mathrm { m m o l } \\cdot \\mathrm { ~ L ~ } ^ { - 1 }$ 。 入院第 17 天患者血钾为 5. 50$\\mathrm { m m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并出现肢体抖动，复查环孢素血药浓度为$3 6 1 . 8 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，较前明显升高，遂停用环孢素。 第18 天复查血钾为 $6 . 2 9 \\mathrm { \\ m m o l } \\cdot { \\mathrm { L } } ^ { - 1 }$ ，予以口服聚磺苯乙烯钠散、补液、糖 + 胰岛素静脉点滴排钾。 第 19 天复查血钾为 $4 . 6 2 \\ \\mathrm { m m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，恢复正常范围。 入院第20 天复查环孢素血药浓度为 $5 1 "
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "3例药物相互作用引起的药物不良反应分析_刘晓.pdf",
+          "chunk_index": "3",
+          "raw_text": "入院第17天患者血钾为5.50 mmol/L，并出现肢体抖动，复查环孢素血药浓度为361.8 ng/mL",
+          "chunk_id": "3例药物相互作用引起的药物不良反应分析_刘晓:3",
+          "data": "以补液等对症治疗，复查地高辛血药浓度 $1 . 2 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，患者病情明显好转，无喘憋、恶心、厌食等。\n1 环孢素联合伏立康唑致环孢素血药浓度升高\n患者1，男，52 岁，因“肾病综合征、肾小球微小病变( 光镜) 、慢性肾病 1 期”入院治疗。 初始予以醋酸泼尼松片50 mg qd po，入院第3 天醋酸泼尼松片调整为 40 mg qd po，入院第 6 天加用环孢素 $5 0 ~ \\mathrm { m g } ~ b i d ~ p o$ 。入院第10 天，查环孢素血药浓度为 $1 0 3 . 6 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 。同时，G 试验示: D － 葡聚糖 $> 1 0 0 0 \\mathrm { \\ p g \\ } \\bullet \\mathrm { \\ m L } ^ { - 1 } ; \\mathrm { G M }$ 试验( － ) ; X 线片示双肺渗出。 考虑为真菌感染，加用伏立康唑胶囊 $2 0 0 \\ : \\mathrm { ~ m g } \\ : \\ : b i d \\ : p o$ ，此时患者血钾为 3. 65$\\mathrm { m m o l } \\cdot \\mathrm { ~ L ~ } ^ { - 1 }$ 。 入院第 17 天患者血钾为 5. 50$\\mathrm { m m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并出现肢体抖动，复查环孢素血药浓度为$3 6 1 . 8 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，较前明显升高，遂停用环孢素。 第18 天复查血钾为 $6 . 2 9 \\mathrm { \\ m m o l } \\cdot { \\mathrm { L } } ^ { - 1 }$ ，予以口服聚磺苯乙烯钠散、补液、糖 + 胰岛素静脉点滴排钾。 第 19 天复查血钾为 $4 . 6 2 \\ \\mathrm { m m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，恢复正常范围。 入院第20 天复查环孢素血药浓度为 $5 1 "
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "3例药物相互作用引起的药物不良反应分析_刘晓:3",
+    "source": "3例药物相互作用引起的药物不良反应分析_刘晓.pdf",
+    "text": "以补液等对症治疗，复查地高辛血药浓度 $1 . 2 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，患者病情明显好转，无喘憋、恶心、厌食等。\n1 环孢素联合伏立康唑致环孢素血药浓度升高\n患者1，男，52 岁，因“肾病综合征、肾小球微小病变( 光镜) 、慢性肾病 1 期”入院治疗。 初始予以醋酸泼尼松片50 mg qd po，入院第3 天醋酸泼尼松片调整为 40 mg qd po，入院第 6 天加用环孢素 $5 0 ~ \\mathrm { m g } ~ b i d ~ p o$ 。入院第10 天，查环孢素血药浓度为 $1 0 3 . 6 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ 。同时，G 试验示: D － 葡聚糖 $> 1 0 0 0 \\mathrm { \\ p g \\ } \\bullet \\mathrm { \\ m L } ^ { - 1 } ; \\mathrm { G M }$ 试验( － ) ; X 线片示双肺渗出。 考虑为真菌感染，加用伏立康唑胶囊 $2 0 0 \\ : \\mathrm { ~ m g } \\ : \\ : b i d \\ : p o$ ，此时患者血钾为 3. 65$\\mathrm { m m o l } \\cdot \\mathrm { ~ L ~ } ^ { - 1 }$ 。 入院第 17 天患者血钾为 5. 50$\\mathrm { m m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，并出现肢体抖动，复查环孢素血药浓度为$3 6 1 . 8 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，较前明显升高，遂停用环孢素。 第18 天复查血钾为 $6 . 2 9 \\mathrm { \\ m m o l } \\cdot { \\mathrm { L } } ^ { - 1 }$ ，予以口服聚磺苯乙烯钠散、补液、糖 + 胰岛素静脉点滴排钾。 第 19 天复查血钾为 $4 . 6 2 \\ \\mathrm { m m o l } \\cdot \\mathrm { L } ^ { - 1 }$ ，恢复正常范围。 入院第20 天复查环孢素血药浓度为 $5 1 . 3 ~ \\mathrm { n g } \\cdot \\mathrm { m L } ^ { - 1 }$ ，随着患者环孢素血药浓度的下降，患者肢体抖动症状逐渐改善 。"
+  }
+]

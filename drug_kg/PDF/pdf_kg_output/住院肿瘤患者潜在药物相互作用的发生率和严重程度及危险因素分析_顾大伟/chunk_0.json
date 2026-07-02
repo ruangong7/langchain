@@ -1,0 +1,93 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "地塞米松磷酸钠",
+        "canonical_name": "地塞米松磷酸钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "阿瑞匹坦",
+        "canonical_name": "阿瑞匹坦",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "非甾体抗炎药",
+        "canonical_name": "非甾体抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "阿片类止痛药",
+        "canonical_name": "阿片类止痛药",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "卡培他滨",
+        "canonical_name": "卡培他滨",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "canonical_name": "质子泵抑制剂",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "住院肿瘤患者潜在药物相互作用的发生率和严重程度及危险因素分析_顾大伟.pdf",
+          "chunk_index": "住院肿瘤患者潜在药物相互作用的发生率和严重程度及危险因素分析_顾大伟:0",
+          "raw_text": "相互作用的类型主要为地塞米松磷酸钠和阿瑞匹坦、非甾体抗炎药及阿片类止痛药、卡培他滨和质子泵抑制剂。",
+          "chunk_id": "住院肿瘤患者潜在药物相互作用的发生率和严重程度及危险因素分析_顾大伟:0",
+          "data": "❖综合诊疗❖ 【Comprehensive Diagnosis and Treatment】\n住院肿瘤患者潜在药物相互作用的发生率和严重程度及危险因素分析\n顾大伟1 ，李璐2 1中国科学院合肥肿瘤医院药学部，安徽合肥 ；2 安徽中医药大学中西医结合学院生物科学系生物化学教研室，安徽合肥【摘要】 目的：调查分析住院肿瘤患者潜在药物相互作用（potential drug － drug interactions，pDDIs） 的发生情况及严重程度，并预测相关的危险因素。 方法：抽取本院2022 年03 月至2022 年 07 月住院肿瘤患者的医嘱，通过 IBM Micromedex 筛查潜在药物相互作用。 结果：282 例患者有 137 例发生 pDDIs ，发生率为48．58％。 相互作用的类型主要为地塞米松磷酸钠和阿瑞匹坦、非甾体抗炎药及阿片类止痛药、卡培他滨和质子泵抑制剂。 通过多因素 Logistic 回归分析发现，年龄（ ≥60 岁）、手术史、体质量指数（ body mass in⁃多药联用种住院天数天等是发生的危险因素结论：肿瘤患者住院期间的发生率高临床医师及药师需要加强监测及干预相关危险因素提高药物治疗的安全性和合理性。\nAnalysis of the incidence，severity and risk factors of potential drug interactions in hospitalized cancer patients"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "住院肿瘤患者潜在药物相互作用的发生率和严重程度及危险因素分析_顾大伟.pdf",
+          "chunk_index": "住院肿瘤患者潜在药物相互作用的发生率和严重程度及危险因素分析_顾大伟:0",
+          "raw_text": "相互作用的类型主要为地塞米松磷酸钠和阿瑞匹坦、非甾体抗炎药及阿片类止痛药、卡培他滨和质子泵抑制剂。",
+          "chunk_id": "住院肿瘤患者潜在药物相互作用的发生率和严重程度及危险因素分析_顾大伟:0",
+          "data": "❖综合诊疗❖ 【Comprehensive Diagnosis and Treatment】\n住院肿瘤患者潜在药物相互作用的发生率和严重程度及危险因素分析\n顾大伟1 ，李璐2 1中国科学院合肥肿瘤医院药学部，安徽合肥 ；2 安徽中医药大学中西医结合学院生物科学系生物化学教研室，安徽合肥【摘要】 目的：调查分析住院肿瘤患者潜在药物相互作用（potential drug － drug interactions，pDDIs） 的发生情况及严重程度，并预测相关的危险因素。 方法：抽取本院2022 年03 月至2022 年 07 月住院肿瘤患者的医嘱，通过 IBM Micromedex 筛查潜在药物相互作用。 结果：282 例患者有 137 例发生 pDDIs ，发生率为48．58％。 相互作用的类型主要为地塞米松磷酸钠和阿瑞匹坦、非甾体抗炎药及阿片类止痛药、卡培他滨和质子泵抑制剂。 通过多因素 Logistic 回归分析发现，年龄（ ≥60 岁）、手术史、体质量指数（ body mass in⁃多药联用种住院天数天等是发生的危险因素结论：肿瘤患者住院期间的发生率高临床医师及药师需要加强监测及干预相关危险因素提高药物治疗的安全性和合理性。\nAnalysis of the incidence，severity and risk factors of potential drug interactions in hospitalized cancer patients"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "住院肿瘤患者潜在药物相互作用的发生率和严重程度及危险因素分析_顾大伟.pdf",
+          "chunk_index": "住院肿瘤患者潜在药物相互作用的发生率和严重程度及危险因素分析_顾大伟:0",
+          "raw_text": "相互作用的类型主要为地塞米松磷酸钠和阿瑞匹坦、非甾体抗炎药及阿片类止痛药、卡培他滨和质子泵抑制剂。",
+          "chunk_id": "住院肿瘤患者潜在药物相互作用的发生率和严重程度及危险因素分析_顾大伟:0",
+          "data": "❖综合诊疗❖ 【Comprehensive Diagnosis and Treatment】\n住院肿瘤患者潜在药物相互作用的发生率和严重程度及危险因素分析\n顾大伟1 ，李璐2 1中国科学院合肥肿瘤医院药学部，安徽合肥 ；2 安徽中医药大学中西医结合学院生物科学系生物化学教研室，安徽合肥【摘要】 目的：调查分析住院肿瘤患者潜在药物相互作用（potential drug － drug interactions，pDDIs） 的发生情况及严重程度，并预测相关的危险因素。 方法：抽取本院2022 年03 月至2022 年 07 月住院肿瘤患者的医嘱，通过 IBM Micromedex 筛查潜在药物相互作用。 结果：282 例患者有 137 例发生 pDDIs ，发生率为48．58％。 相互作用的类型主要为地塞米松磷酸钠和阿瑞匹坦、非甾体抗炎药及阿片类止痛药、卡培他滨和质子泵抑制剂。 通过多因素 Logistic 回归分析发现，年龄（ ≥60 岁）、手术史、体质量指数（ body mass in⁃多药联用种住院天数天等是发生的危险因素结论：肿瘤患者住院期间的发生率高临床医师及药师需要加强监测及干预相关危险因素提高药物治疗的安全性和合理性。\nAnalysis of the incidence，severity and risk factors of potential drug interactions in hospitalized cancer patients"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "住院肿瘤患者潜在药物相互作用的发生率和严重程度及危险因素分析_顾大伟:0",
+    "source": "住院肿瘤患者潜在药物相互作用的发生率和严重程度及危险因素分析_顾大伟.pdf",
+    "text": "❖综合诊疗❖ 【Comprehensive Diagnosis and Treatment】\n住院肿瘤患者潜在药物相互作用的发生率和严重程度及危险因素分析\n顾大伟1 ，李璐2 1中国科学院合肥肿瘤医院药学部，安徽合肥 ；2 安徽中医药大学中西医结合学院生物科学系生物化学教研室，安徽合肥【摘要】 目的：调查分析住院肿瘤患者潜在药物相互作用（potential drug － drug interactions，pDDIs） 的发生情况及严重程度，并预测相关的危险因素。 方法：抽取本院2022 年03 月至2022 年 07 月住院肿瘤患者的医嘱，通过 IBM Micromedex 筛查潜在药物相互作用。 结果：282 例患者有 137 例发生 pDDIs ，发生率为48．58％。 相互作用的类型主要为地塞米松磷酸钠和阿瑞匹坦、非甾体抗炎药及阿片类止痛药、卡培他滨和质子泵抑制剂。 通过多因素 Logistic 回归分析发现，年龄（ ≥60 岁）、手术史、体质量指数（ body mass in⁃多药联用种住院天数天等是发生的危险因素结论：肿瘤患者住院期间的发生率高临床医师及药师需要加强监测及干预相关危险因素提高药物治疗的安全性和合理性。\nAnalysis of the incidence，severity and risk factors of potential drug interactions in hospitalized cancer patients"
+  }
+]

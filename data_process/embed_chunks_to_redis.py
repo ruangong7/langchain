@@ -8,8 +8,8 @@ import sys
 from typing import Any, Dict, List, Tuple
 
 import redis
-from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Redis as RedisVectorStore
+from langchain_core.embeddings import Embeddings
 
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 _PROJECT_ROOT = os.path.normpath(os.path.join(_SCRIPT_DIR, ".."))
@@ -17,20 +17,19 @@ if _PROJECT_ROOT not in sys.path:
     sys.path.insert(0, _PROJECT_ROOT)
 
 from config import (  # noqa: E402
-    DASHSCOPE_API_KEY,
-    DASHSCOPE_BASE_URL,
-    EMBEDDING_MODEL,
     REDIS_DB,
     REDIS_HOST,
     REDIS_PORT,
+    VECTOR_INDEX_NAME,
+    VECTOR_KEY_PREFIX,
 )
+from services.embedding_factory import build_embeddings, embedding_backend_summary  # noqa: E402
 
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
 logger = logging.getLogger(__name__)
-MAX_EMBED_BATCH_SIZE = 10
 
 
 def parse_args() -> argparse.Namespace:
@@ -39,7 +38,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--input",
-        default=os.path.join(_PROJECT_ROOT, "content", "gongzhonghao_text_chunks.jsonl"),
+        default=os.path.join(_PROJECT_ROOT, "content", "unified_chunks.jsonl"),
         help="输入 JSONL 文件路径。",
     )
     parser.add_argument(
@@ -61,14 +60,14 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--key-prefix",
-        default="qwen3:",
+        default=VECTOR_KEY_PREFIX,
         help="文档 key 前缀，最终 key 形如 prefix + corpus_chunk_index。",
     )
     parser.add_argument(
         "--batch-size",
         default=10,
         type=int,
-        help="Embedding 批大小（DashScope 兼容接口最大 10）。",
+        help="写入批大小（本地 embedding / 云端 embedding 均可复用）。",
     )
     parser.add_argument(
         "--overwrite",
@@ -77,7 +76,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--index-name",
-        default="drug_vectors",
+        default=VECTOR_INDEX_NAME,
         help="RedisVectorStore 索引名。",
     )
     return parser.parse_args()
@@ -152,7 +151,7 @@ def _vectorstore_add_with_custom_ids(
 
 def write_batch(
     vectorstore: RedisVectorStore,
-    embeddings: OpenAIEmbeddings,
+    embeddings: Embeddings,
     key_row_pairs: List[Tuple[str, Dict[str, Any]]],
     overwrite: bool,
 ) -> None:
@@ -164,7 +163,14 @@ def write_batch(
     for key, row in key_row_pairs:
         texts.append(str(row["text"]))
         metadata: Dict[str, Any] = {"corpus_chunk_index": int(row["corpus_chunk_index"])}
-        for field in ("source", "source_file", "chunk_index", "chunk_count", "chunk_id"):
+        for field in (
+            "source",
+            "source_type",
+            "source_file",
+            "chunk_index",
+            "chunk_count",
+            "chunk_id",
+        ):
             if field in row:
                 metadata[field] = row[field]
         metadata["legacy_key"] = key
@@ -197,13 +203,6 @@ def main() -> None:
     args = parse_args()
     if args.batch_size <= 0:
         raise ValueError("--batch-size 必须大于 0")
-    if args.batch_size > MAX_EMBED_BATCH_SIZE:
-        logger.warning(
-            "检测到 --batch-size=%d 超过 DashScope 上限，已自动降为 %d",
-            args.batch_size,
-            MAX_EMBED_BATCH_SIZE,
-        )
-        args.batch_size = MAX_EMBED_BATCH_SIZE
 
     rows = load_jsonl(args.input)
     logger.info("读取完成: 共 %d 条", len(rows))
@@ -235,15 +234,8 @@ def main() -> None:
         return
 
     logger.info("待向量化并写入: %d 条", len(pending))
-    embeddings = OpenAIEmbeddings(
-        model=EMBEDDING_MODEL,
-        openai_api_key=DASHSCOPE_API_KEY,
-        openai_api_base=DASHSCOPE_BASE_URL,
-        # DashScope 兼容接口要求 input 是字符串（或字符串列表），
-        # 关闭 langchain_openai 的 token 级长度安全分片，避免传入 token id 列表导致 400。
-        check_embedding_ctx_length=False,
-        tiktoken_enabled=False,
-    )
+    logger.info("Embedding 配置: %s", embedding_backend_summary())
+    embeddings = build_embeddings()
     vectorstore = RedisVectorStore(
         redis_url=redis_url,
         index_name=args.index_name,

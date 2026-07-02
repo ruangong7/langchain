@@ -1,0 +1,219 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Siponimod",
+        "canonical_name": "Siponimod",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "CYP2C9诱导剂",
+        "canonical_name": "CYP2C9诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP3A4诱导剂",
+        "canonical_name": "CYP3A4诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "CYP2C9抑制剂",
+        "canonical_name": "CYP2C9抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP3A4抑制剂",
+        "canonical_name": "CYP3A4抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "疫苗",
+        "canonical_name": "疫苗",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "避孕药",
+        "canonical_name": "避孕药",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "免疫调节或抑制治疗",
+        "canonical_name": "免疫调节或抑制治疗",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "抗心律失常药物",
+        "canonical_name": "抗心律失常药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "β-受体阻滞剂",
+        "canonical_name": "β-受体阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Disease",
+        "name": "活动性继发进展型多发性硬化症",
+        "canonical_name": "活动性继发进展型多发性硬化症",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "raw_text": "Siponimod 作为首个可以延缓活动性继发进展型多发性硬化症患者残疾进展的药物",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "data": "· 药物与临床 ·\nSiponimod 的药物相互作用研究概述\n陆司司( 珠海润都制药股份有限公司，广东珠海 519000)摘要: Siponimod 作为首个可以延缓活动性继发进展型多发性硬化症患者残疾进展的药物，国内联合用药研究以及用药经验尚少; 对此本文通过汇总国外对 Siponimod 药物相互作用研究的最新进展，包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂，旨在为联合用药提供参考，避免在临床用药中产生不利影响因素。\nSummary of Siponimod's Drug Interaction Study"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "raw_text": "包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "data": "· 药物与临床 ·\nSiponimod 的药物相互作用研究概述\n陆司司( 珠海润都制药股份有限公司，广东珠海 519000)摘要: Siponimod 作为首个可以延缓活动性继发进展型多发性硬化症患者残疾进展的药物，国内联合用药研究以及用药经验尚少; 对此本文通过汇总国外对 Siponimod 药物相互作用研究的最新进展，包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂，旨在为联合用药提供参考，避免在临床用药中产生不利影响因素。\nSummary of Siponimod's Drug Interaction Study"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "raw_text": "包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "data": "· 药物与临床 ·\nSiponimod 的药物相互作用研究概述\n陆司司( 珠海润都制药股份有限公司，广东珠海 519000)摘要: Siponimod 作为首个可以延缓活动性继发进展型多发性硬化症患者残疾进展的药物，国内联合用药研究以及用药经验尚少; 对此本文通过汇总国外对 Siponimod 药物相互作用研究的最新进展，包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂，旨在为联合用药提供参考，避免在临床用药中产生不利影响因素。\nSummary of Siponimod's Drug Interaction Study"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "raw_text": "包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "data": "· 药物与临床 ·\nSiponimod 的药物相互作用研究概述\n陆司司( 珠海润都制药股份有限公司，广东珠海 519000)摘要: Siponimod 作为首个可以延缓活动性继发进展型多发性硬化症患者残疾进展的药物，国内联合用药研究以及用药经验尚少; 对此本文通过汇总国外对 Siponimod 药物相互作用研究的最新进展，包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂，旨在为联合用药提供参考，避免在临床用药中产生不利影响因素。\nSummary of Siponimod's Drug Interaction Study"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "raw_text": "包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "data": "· 药物与临床 ·\nSiponimod 的药物相互作用研究概述\n陆司司( 珠海润都制药股份有限公司，广东珠海 519000)摘要: Siponimod 作为首个可以延缓活动性继发进展型多发性硬化症患者残疾进展的药物，国内联合用药研究以及用药经验尚少; 对此本文通过汇总国外对 Siponimod 药物相互作用研究的最新进展，包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂，旨在为联合用药提供参考，避免在临床用药中产生不利影响因素。\nSummary of Siponimod's Drug Interaction Study"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "raw_text": "包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "data": "· 药物与临床 ·\nSiponimod 的药物相互作用研究概述\n陆司司( 珠海润都制药股份有限公司，广东珠海 519000)摘要: Siponimod 作为首个可以延缓活动性继发进展型多发性硬化症患者残疾进展的药物，国内联合用药研究以及用药经验尚少; 对此本文通过汇总国外对 Siponimod 药物相互作用研究的最新进展，包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂，旨在为联合用药提供参考，避免在临床用药中产生不利影响因素。\nSummary of Siponimod's Drug Interaction Study"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "raw_text": "包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "data": "· 药物与临床 ·\nSiponimod 的药物相互作用研究概述\n陆司司( 珠海润都制药股份有限公司，广东珠海 519000)摘要: Siponimod 作为首个可以延缓活动性继发进展型多发性硬化症患者残疾进展的药物，国内联合用药研究以及用药经验尚少; 对此本文通过汇总国外对 Siponimod 药物相互作用研究的最新进展，包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂，旨在为联合用药提供参考，避免在临床用药中产生不利影响因素。\nSummary of Siponimod's Drug Interaction Study"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "raw_text": "包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "data": "· 药物与临床 ·\nSiponimod 的药物相互作用研究概述\n陆司司( 珠海润都制药股份有限公司，广东珠海 519000)摘要: Siponimod 作为首个可以延缓活动性继发进展型多发性硬化症患者残疾进展的药物，国内联合用药研究以及用药经验尚少; 对此本文通过汇总国外对 Siponimod 药物相互作用研究的最新进展，包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂，旨在为联合用药提供参考，避免在临床用药中产生不利影响因素。\nSummary of Siponimod's Drug Interaction Study"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "raw_text": "包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "data": "· 药物与临床 ·\nSiponimod 的药物相互作用研究概述\n陆司司( 珠海润都制药股份有限公司，广东珠海 519000)摘要: Siponimod 作为首个可以延缓活动性继发进展型多发性硬化症患者残疾进展的药物，国内联合用药研究以及用药经验尚少; 对此本文通过汇总国外对 Siponimod 药物相互作用研究的最新进展，包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂，旨在为联合用药提供参考，避免在临床用药中产生不利影响因素。\nSummary of Siponimod's Drug Interaction Study"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "raw_text": "包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:0",
+          "data": "· 药物与临床 ·\nSiponimod 的药物相互作用研究概述\n陆司司( 珠海润都制药股份有限公司，广东珠海 519000)摘要: Siponimod 作为首个可以延缓活动性继发进展型多发性硬化症患者残疾进展的药物，国内联合用药研究以及用药经验尚少; 对此本文通过汇总国外对 Siponimod 药物相互作用研究的最新进展，包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂，旨在为联合用药提供参考，避免在临床用药中产生不利影响因素。\nSummary of Siponimod's Drug Interaction Study"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:0",
+    "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+    "text": "· 药物与临床 ·\nSiponimod 的药物相互作用研究概述\n陆司司( 珠海润都制药股份有限公司，广东珠海 519000)摘要: Siponimod 作为首个可以延缓活动性继发进展型多发性硬化症患者残疾进展的药物，国内联合用药研究以及用药经验尚少; 对此本文通过汇总国外对 Siponimod 药物相互作用研究的最新进展，包括 CYP2C9/CYP3A4 诱导剂及抑制剂、疫苗、避孕药、免疫调节或抑制治疗、抗心律失常药物、β-受体阻滞剂，旨在为联合用药提供参考，避免在临床用药中产生不利影响因素。\nSummary of Siponimod's Drug Interaction Study"
+  }
+]

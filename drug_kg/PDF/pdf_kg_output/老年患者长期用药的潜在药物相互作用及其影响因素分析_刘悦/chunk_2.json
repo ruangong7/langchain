@@ -1,0 +1,59 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "阿司匹林",
+        "canonical_name": "阿司匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Population",
+        "name": "老年患者",
+        "canonical_name": "老年患者",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "心血管疾病",
+        "canonical_name": "心血管疾病",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_2",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+          "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:2",
+          "raw_text": "应特别关注多药、衰弱、具有心血管疾病、有潜在不适当用药的老年患者DDIs 发生情况",
+          "chunk_id": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:2",
+          "data": "相互作用中，患者均使用了阿司匹林。结论社区老年人用药中潜在的具有临床意义的 DDIs多见，应特别关注多药、衰弱、具有心血管疾病、有潜在不适当用药的老年患者DDIs 发生情况，加强潜在DDIs的相关风险监测，以优化药物治疗效果，减少不良结局。\n文献标志码：A引用本文 ： 刘悦，龚辉，单青，等. 老年患者长期用药的潜在药物相互作用及其影响因素分析［J］. 解放军医学院学报，2023，44（6）：587-593.\nPotential drug-drug interactions and its associated factors in long-term drug use in elderly patients"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+          "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:2",
+          "raw_text": "具有心血管疾病",
+          "chunk_id": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:2",
+          "data": "相互作用中，患者均使用了阿司匹林。结论社区老年人用药中潜在的具有临床意义的 DDIs多见，应特别关注多药、衰弱、具有心血管疾病、有潜在不适当用药的老年患者DDIs 发生情况，加强潜在DDIs的相关风险监测，以优化药物治疗效果，减少不良结局。\n文献标志码：A引用本文 ： 刘悦，龚辉，单青，等. 老年患者长期用药的潜在药物相互作用及其影响因素分析［J］. 解放军医学院学报，2023，44（6）：587-593.\nPotential drug-drug interactions and its associated factors in long-term drug use in elderly patients"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:2",
+    "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+    "text": "相互作用中，患者均使用了阿司匹林。结论社区老年人用药中潜在的具有临床意义的 DDIs多见，应特别关注多药、衰弱、具有心血管疾病、有潜在不适当用药的老年患者DDIs 发生情况，加强潜在DDIs的相关风险监测，以优化药物治疗效果，减少不良结局。\n文献标志码：A引用本文 ： 刘悦，龚辉，单青，等. 老年患者长期用药的潜在药物相互作用及其影响因素分析［J］. 解放军医学院学报，2023，44（6）：587-593.\nPotential drug-drug interactions and its associated factors in long-term drug use in elderly patients"
+  }
+]

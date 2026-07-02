@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "生物碱类化合物",
+        "canonical_name": "生物碱类化合物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "药物",
+        "canonical_name": "药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "生物碱类化合物与药物相互作用的研究现状_陈慧敏.pdf",
+          "chunk_index": "生物碱类化合物与药物相互作用的研究现状_陈慧敏:0",
+          "raw_text": "当生物碱类化合物与其他药物联用时，有可能通过影响代谢酶和转运体而与其他药物发生药物相互作用。",
+          "chunk_id": "生物碱类化合物与药物相互作用的研究现状_陈慧敏:0",
+          "data": "Review\n生物碱类化合物与药物相互作用的研究现状Research Status of the interaction between alkaloids and drugs\n摘要:生物碱是主要来源于植物界的一类天然活性成分，能调节多种代谢酶和转运体的活性。 当生物碱类化合物与其他药物联用时，有可能通过影响代谢酶和转运体而与其他药物发生药物相互作用。 本文以代谢酶和转运体为切入点，总结了近年来生物碱类成分与药物相互作用的研究进展。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "生物碱类化合物与药物相互作用的研究现状_陈慧敏:0",
+    "source": "生物碱类化合物与药物相互作用的研究现状_陈慧敏.pdf",
+    "text": "Review\n生物碱类化合物与药物相互作用的研究现状Research Status of the interaction between alkaloids and drugs\n摘要:生物碱是主要来源于植物界的一类天然活性成分，能调节多种代谢酶和转运体的活性。 当生物碱类化合物与其他药物联用时，有可能通过影响代谢酶和转运体而与其他药物发生药物相互作用。 本文以代谢酶和转运体为切入点，总结了近年来生物碱类成分与药物相互作用的研究进展。"
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "canonical_name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "canonical_name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:9",
+          "raw_text": "克拉霉素奥美拉唑均可升高他克莫司血药浓度，风险均为 D 级",
+          "mechanism": "升高血药浓度",
+          "severity": "D级",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:9",
+          "data": "出院维持口服方案 。 临床药师查阅 Lexicomp Drug interactions，提示克拉霉素奥美拉唑均可升高他克莫司血药浓度，风险均为 D 级，建议降低 TAC 用量。 但医师认为目前方案有效，TAC 减量可致肾病复发，暂不调整。\n“很可能”相关。\n参考文献:"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+          "chunk_index": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:9",
+          "raw_text": "克拉霉素奥美拉唑均可升高他克莫司血药浓度，风险均为 D 级",
+          "mechanism": "升高血药浓度",
+          "severity": "D级",
+          "chunk_id": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:9",
+          "data": "出院维持口服方案 。 临床药师查阅 Lexicomp Drug interactions，提示克拉霉素奥美拉唑均可升高他克莫司血药浓度，风险均为 D 级，建议降低 TAC 用量。 但医师认为目前方案有效，TAC 减量可致肾病复发，暂不调整。\n“很可能”相关。\n参考文献:"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田:9",
+    "source": "肾病综合征合并幽门螺旋菌感染患儿的药物相互作用分析_申新田.pdf",
+    "text": "出院维持口服方案 。 临床药师查阅 Lexicomp Drug interactions，提示克拉霉素奥美拉唑均可升高他克莫司血药浓度，风险均为 D 级，建议降低 TAC 用量。 但医师认为目前方案有效，TAC 减量可致肾病复发，暂不调整。\n“很可能”相关。\n参考文献:"
+  }
+]

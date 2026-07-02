@@ -1,0 +1,87 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "塞来昔布",
+        "canonical_name": "塞来昔布",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "非甾体抗炎药",
+        "canonical_name": "非甾体抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "来氟米特",
+        "canonical_name": "来氟米特",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "血管紧张素转换酶抑制药",
+        "canonical_name": "血管紧张素转换酶抑制药",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "血管紧张素Ⅱ受体拮抗药",
+        "canonical_name": "血管紧张素Ⅱ受体拮抗药",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "塞来昔布潜在不良药物相互作用处方调查及对策_程军.pdf",
+          "chunk_index": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:0",
+          "raw_text": "塞来昔布+非甾体抗炎药危险严重性分级为“禁忌”。",
+          "severity": "禁忌",
+          "chunk_id": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:0",
+          "data": "塞来昔布潜在不良药物相互作用处方调查及对策\n( 安徽省蚌埠市第三人民医院药学部，蚌埠 233000)摘要目的分析塞来昔布潜在不良药物相互作用( pADIs) ，促进合理用药。 方法通过医院合理用药软件系统抽取 2020 年 1 月 1 日—12 月 31 日安徽省蚌埠市第三人民医院塞来昔布联合用药的所有门诊处方，鉴别 pADIs，并对$\\mathrm { p A D I s }$ 危险严重性进行分级。 结果共收集塞来昔布胶囊联合用药处方 705 张，存在 $\\mathrm { p A D I s }$ 处方 169 张( 占 24．0%) ${ \\bf \\tt p A - }$ DIs 发生频次 213 次。 其中塞来昔布与非甾体抗炎药、来氟米特与血管紧张素转换酶抑制药或血管紧张素 Ⅱ 受体拮抗药$\\mathrm { p A D I s }$ 发生频次居前 3 位。 塞来昔布+非甾体抗炎药危险严重性分级为“禁忌”。 结论该院塞来昔布胶囊与其他药物存在 pADIs，医院应当加强塞来昔布胶囊 pADIs 风险点培训，采取信息化平台进行 $\\mathrm { p A D I s }$ 警示，以减少和防范用药风险。\n开放科学( 资源服务) 标识码( OSID)\nPrescription Investigation of Celecoxib Potential Adverse Drug Interactions and Countermeasures"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "塞来昔布潜在不良药物相互作用处方调查及对策_程军.pdf",
+          "chunk_index": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:0",
+          "raw_text": "来氟米特与血管紧张素转换酶抑制药或血管紧张素Ⅱ受体拮抗药pADIs发生频次居前3位。",
+          "chunk_id": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:0",
+          "data": "塞来昔布潜在不良药物相互作用处方调查及对策\n( 安徽省蚌埠市第三人民医院药学部，蚌埠 233000)摘要目的分析塞来昔布潜在不良药物相互作用( pADIs) ，促进合理用药。 方法通过医院合理用药软件系统抽取 2020 年 1 月 1 日—12 月 31 日安徽省蚌埠市第三人民医院塞来昔布联合用药的所有门诊处方，鉴别 pADIs，并对$\\mathrm { p A D I s }$ 危险严重性进行分级。 结果共收集塞来昔布胶囊联合用药处方 705 张，存在 $\\mathrm { p A D I s }$ 处方 169 张( 占 24．0%) ${ \\bf \\tt p A - }$ DIs 发生频次 213 次。 其中塞来昔布与非甾体抗炎药、来氟米特与血管紧张素转换酶抑制药或血管紧张素 Ⅱ 受体拮抗药$\\mathrm { p A D I s }$ 发生频次居前 3 位。 塞来昔布+非甾体抗炎药危险严重性分级为“禁忌”。 结论该院塞来昔布胶囊与其他药物存在 pADIs，医院应当加强塞来昔布胶囊 pADIs 风险点培训，采取信息化平台进行 $\\mathrm { p A D I s }$ 警示，以减少和防范用药风险。\n开放科学( 资源服务) 标识码( OSID)\nPrescription Investigation of Celecoxib Potential Adverse Drug Interactions and Countermeasures"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "塞来昔布潜在不良药物相互作用处方调查及对策_程军.pdf",
+          "chunk_index": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:0",
+          "raw_text": "来氟米特与血管紧张素转换酶抑制药或血管紧张素Ⅱ受体拮抗药pADIs发生频次居前3位。",
+          "chunk_id": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:0",
+          "data": "塞来昔布潜在不良药物相互作用处方调查及对策\n( 安徽省蚌埠市第三人民医院药学部，蚌埠 233000)摘要目的分析塞来昔布潜在不良药物相互作用( pADIs) ，促进合理用药。 方法通过医院合理用药软件系统抽取 2020 年 1 月 1 日—12 月 31 日安徽省蚌埠市第三人民医院塞来昔布联合用药的所有门诊处方，鉴别 pADIs，并对$\\mathrm { p A D I s }$ 危险严重性进行分级。 结果共收集塞来昔布胶囊联合用药处方 705 张，存在 $\\mathrm { p A D I s }$ 处方 169 张( 占 24．0%) ${ \\bf \\tt p A - }$ DIs 发生频次 213 次。 其中塞来昔布与非甾体抗炎药、来氟米特与血管紧张素转换酶抑制药或血管紧张素 Ⅱ 受体拮抗药$\\mathrm { p A D I s }$ 发生频次居前 3 位。 塞来昔布+非甾体抗炎药危险严重性分级为“禁忌”。 结论该院塞来昔布胶囊与其他药物存在 pADIs，医院应当加强塞来昔布胶囊 pADIs 风险点培训，采取信息化平台进行 $\\mathrm { p A D I s }$ 警示，以减少和防范用药风险。\n开放科学( 资源服务) 标识码( OSID)\nPrescription Investigation of Celecoxib Potential Adverse Drug Interactions and Countermeasures"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:0",
+    "source": "塞来昔布潜在不良药物相互作用处方调查及对策_程军.pdf",
+    "text": "塞来昔布潜在不良药物相互作用处方调查及对策\n( 安徽省蚌埠市第三人民医院药学部，蚌埠 233000)摘要目的分析塞来昔布潜在不良药物相互作用( pADIs) ，促进合理用药。 方法通过医院合理用药软件系统抽取 2020 年 1 月 1 日—12 月 31 日安徽省蚌埠市第三人民医院塞来昔布联合用药的所有门诊处方，鉴别 pADIs，并对$\\mathrm { p A D I s }$ 危险严重性进行分级。 结果共收集塞来昔布胶囊联合用药处方 705 张，存在 $\\mathrm { p A D I s }$ 处方 169 张( 占 24．0%) ${ \\bf \\tt p A - }$ DIs 发生频次 213 次。 其中塞来昔布与非甾体抗炎药、来氟米特与血管紧张素转换酶抑制药或血管紧张素 Ⅱ 受体拮抗药$\\mathrm { p A D I s }$ 发生频次居前 3 位。 塞来昔布+非甾体抗炎药危险严重性分级为“禁忌”。 结论该院塞来昔布胶囊与其他药物存在 pADIs，医院应当加强塞来昔布胶囊 pADIs 风险点培训，采取信息化平台进行 $\\mathrm { p A D I s }$ 警示，以减少和防范用药风险。\n开放科学( 资源服务) 标识码( OSID)\nPrescription Investigation of Celecoxib Potential Adverse Drug Interactions and Countermeasures"
+  }
+]

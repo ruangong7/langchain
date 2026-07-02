@@ -5,6 +5,7 @@ import base64
 import hashlib
 import hmac
 import json
+import logging
 import secrets
 import time
 from typing import Any, Dict
@@ -22,12 +23,18 @@ from config import (
 )
 
 
+logger = logging.getLogger(__name__)
+
+
 class AuthError(Exception):
     """User-facing authentication error."""
 
 
 class UserAuthService:
     """Register and authenticate users stored in the users table."""
+
+    def __init__(self) -> None:
+        self._ensure_users_table()
 
     def _connect(self):
         return pymysql.connect(
@@ -40,6 +47,54 @@ class UserAuthService:
             cursorclass=pymysql.cursors.DictCursor,
             autocommit=True,
         )
+
+    def _ensure_users_table(self) -> None:
+        try:
+            with self._connect() as conn:
+                with conn.cursor() as cursor:
+                    cursor.execute(
+                        """
+                        CREATE TABLE IF NOT EXISTS users (
+                            id BIGINT PRIMARY KEY AUTO_INCREMENT,
+                            username VARCHAR(64) NOT NULL,
+                            password_hash VARCHAR(255) NOT NULL,
+                            created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                            updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+                            UNIQUE KEY uq_users_username (username)
+                        ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+                        """
+                    )
+                    columns = self._get_table_columns(cursor)
+                    required_columns = {
+                        "password_hash": "ALTER TABLE users ADD COLUMN password_hash VARCHAR(255) NOT NULL",
+                        "created_at": "ALTER TABLE users ADD COLUMN created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP",
+                        "updated_at": "ALTER TABLE users ADD COLUMN updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP",
+                    }
+                    for column_name, statement in required_columns.items():
+                        if column_name not in columns:
+                            cursor.execute(statement)
+
+                    cursor.execute(
+                        """
+                        SELECT COUNT(1) AS count
+                        FROM information_schema.statistics
+                        WHERE table_schema = %s
+                          AND table_name = 'users'
+                          AND index_name = 'uq_users_username'
+                        """,
+                        (MYSQL_DATABASE,),
+                    )
+                    if int((cursor.fetchone() or {}).get("count") or 0) == 0:
+                        cursor.execute("ALTER TABLE users ADD UNIQUE KEY uq_users_username (username)")
+            logger.info("用户认证表 users 已检查完成")
+        except Exception as exc:
+            logger.error("用户认证表 users 初始化失败: %s", exc, exc_info=True)
+            raise
+
+    @staticmethod
+    def _get_table_columns(cursor) -> set[str]:
+        cursor.execute("SHOW COLUMNS FROM users")
+        return {str(row.get("Field") or "") for row in cursor.fetchall()}
 
     @staticmethod
     def _normalize_username(username: str) -> str:

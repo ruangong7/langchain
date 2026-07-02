@@ -1,0 +1,65 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "异鼠李素",
+        "canonical_name": "异鼠李素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伊立替康",
+        "canonical_name": "伊立替康",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP3A4",
+        "canonical_name": "CYP3A4",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽.pdf",
+          "chunk_index": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽:11",
+          "raw_text": "异鼠李素 (1、10 和 25 μmol·L⁻¹) 作用于 HepG2细胞48 h后...选择浓度为25 μmol·L⁻¹ 的异鼠李素与伊立替康联合作用 HepG2细胞, 观察异鼠李素对伊立替康肝癌细胞毒性的影响。结果表明, 在 25 μmol·L⁻¹ 异鼠李素联合作用下,伊立替康对HepG2细胞的 IC₅₀ 为 73.31 μmol·L⁻¹, 并且联合用药各浓度处理组伊立替康对 HepG2 细胞生长抑制率, 与单独伊立替康各浓度处理组相比均无显著性差异 (P > 0.05)。",
+          "mechanism": "异鼠李素对CYP3A4酶活性及联合用药中药物相互作用的影响, 与其对CYP3A4 mRNA的诱导作用没有相关性",
+          "consequence": "联合用药无显著性差异",
+          "severity": "无",
+          "chunk_id": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽:11",
+          "data": "YP3A4 mRNA 的诱导也许是通过 PXR 这一途径。但是, 异鼠李素对 CYP3A4 酶活性及联合用药中药物相互作用的影响, 与其对 CYP3A4 mRNA的诱导作用没有相关性。\n4 单独或联合用药对化疗药物伊立替康肝癌细胞毒性的影响\n异鼠李素 (1、10 和 $2 5 \\mathrm { \\mu m o l { \\cdot } L } ^ { - 1 } )$ 作用于 HepG2细胞48 h后, 对细胞的生长抑制率分别为 (0±0.1) %、$( 2 . 8 3 \\pm 0 . 0 8 )$ %和 $( 6 . 6 7 \\pm 0 . 1 5 )$ %, 呈剂量依赖性, 但与溶剂对照组相比均无显著性差异 $( P > 0 . 0 5 )$ 。化疗药物伊立替康对HepG2细胞的 $\\mathrm { I C } _ { 5 0 }$ 为 $7 3 . 2 4 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 。根据本研究中异鼠李素对 PXR 介导的 CYP3A4 基因转录激活作用 (最大激活浓度为 $2 5 \\mathrm { \\textmu m o l { \\cdot } L ^ { - 1 } } )$ 、对CYP3A4 mRNA 诱导作用 (最大诱导浓度为 25$\\mathrm { \\mu } \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } )$ 以及单独用药对 HepG2 细胞增殖影响的(最大抑制浓度为 $2 5 \\mathrm { \\textmu m o l { \\cdot } L ^ { - 1 } } )$ 分析, 选择浓度为$2 5 \\mathrm { \\ \\mu m o l { \\cdot } L ^ { - 1 } }$ 的异鼠李素与伊立替康联合作用 HepG2细胞, 观察异鼠李素对伊立替康肝癌细胞毒性的影响。结果表明, 在 $2 5 \\mathrm { \\ : \\mu m o l { \\cdot } L ^ { - } }$ 1 异鼠李素联合作用下,伊立替康对HepG2细胞的 $\\mathrm { I C } _ { 5 0 }$ 为 $7 3 . 3 1 \\ \\mu \\mathrm { m o l } { \\cdot "
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽.pdf",
+          "chunk_index": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽:11",
+          "raw_text": "异鼠李素对 CYP3A4 酶活性及联合用药中药物相互作用的影响, 与其对 CYP3A4 mRNA的诱导作用没有相关性。",
+          "mechanism": "异鼠李素对CYP3A4 mRNA的诱导也许是通过PXR这一途径",
+          "consequence": "对CYP3A4酶活性及联合用药中药物相互作用的影响与mRNA诱导无相关性",
+          "severity": "无",
+          "chunk_id": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽:11",
+          "data": "YP3A4 mRNA 的诱导也许是通过 PXR 这一途径。但是, 异鼠李素对 CYP3A4 酶活性及联合用药中药物相互作用的影响, 与其对 CYP3A4 mRNA的诱导作用没有相关性。\n4 单独或联合用药对化疗药物伊立替康肝癌细胞毒性的影响\n异鼠李素 (1、10 和 $2 5 \\mathrm { \\mu m o l { \\cdot } L } ^ { - 1 } )$ 作用于 HepG2细胞48 h后, 对细胞的生长抑制率分别为 (0±0.1) %、$( 2 . 8 3 \\pm 0 . 0 8 )$ %和 $( 6 . 6 7 \\pm 0 . 1 5 )$ %, 呈剂量依赖性, 但与溶剂对照组相比均无显著性差异 $( P > 0 . 0 5 )$ 。化疗药物伊立替康对HepG2细胞的 $\\mathrm { I C } _ { 5 0 }$ 为 $7 3 . 2 4 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 。根据本研究中异鼠李素对 PXR 介导的 CYP3A4 基因转录激活作用 (最大激活浓度为 $2 5 \\mathrm { \\textmu m o l { \\cdot } L ^ { - 1 } } )$ 、对CYP3A4 mRNA 诱导作用 (最大诱导浓度为 25$\\mathrm { \\mu } \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } )$ 以及单独用药对 HepG2 细胞增殖影响的(最大抑制浓度为 $2 5 \\mathrm { \\textmu m o l { \\cdot } L ^ { - 1 } } )$ 分析, 选择浓度为$2 5 \\mathrm { \\ \\mu m o l { \\cdot } L ^ { - 1 } }$ 的异鼠李素与伊立替康联合作用 HepG2细胞, 观察异鼠李素对伊立替康肝癌细胞毒性的影响。结果表明, 在 $2 5 \\mathrm { \\ : \\mu m o l { \\cdot } L ^ { - } }$ 1 异鼠李素联合作用下,伊立替康对HepG2细胞的 $\\mathrm { I C } _ { 5 0 }$ 为 $7 3 . 3 1 \\ \\mu \\mathrm { m o l } { \\cdot "
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽:11",
+    "source": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽.pdf",
+    "text": "YP3A4 mRNA 的诱导也许是通过 PXR 这一途径。但是, 异鼠李素对 CYP3A4 酶活性及联合用药中药物相互作用的影响, 与其对 CYP3A4 mRNA的诱导作用没有相关性。\n4 单独或联合用药对化疗药物伊立替康肝癌细胞毒性的影响\n异鼠李素 (1、10 和 $2 5 \\mathrm { \\mu m o l { \\cdot } L } ^ { - 1 } )$ 作用于 HepG2细胞48 h后, 对细胞的生长抑制率分别为 (0±0.1) %、$( 2 . 8 3 \\pm 0 . 0 8 )$ %和 $( 6 . 6 7 \\pm 0 . 1 5 )$ %, 呈剂量依赖性, 但与溶剂对照组相比均无显著性差异 $( P > 0 . 0 5 )$ 。化疗药物伊立替康对HepG2细胞的 $\\mathrm { I C } _ { 5 0 }$ 为 $7 3 . 2 4 \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ 。根据本研究中异鼠李素对 PXR 介导的 CYP3A4 基因转录激活作用 (最大激活浓度为 $2 5 \\mathrm { \\textmu m o l { \\cdot } L ^ { - 1 } } )$ 、对CYP3A4 mRNA 诱导作用 (最大诱导浓度为 25$\\mathrm { \\mu } \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } )$ 以及单独用药对 HepG2 细胞增殖影响的(最大抑制浓度为 $2 5 \\mathrm { \\textmu m o l { \\cdot } L ^ { - 1 } } )$ 分析, 选择浓度为$2 5 \\mathrm { \\ \\mu m o l { \\cdot } L ^ { - 1 } }$ 的异鼠李素与伊立替康联合作用 HepG2细胞, 观察异鼠李素对伊立替康肝癌细胞毒性的影响。结果表明, 在 $2 5 \\mathrm { \\ : \\mu m o l { \\cdot } L ^ { - } }$ 1 异鼠李素联合作用下,伊立替康对HepG2细胞的 $\\mathrm { I C } _ { 5 0 }$ 为 $7 3 . 3 1 \\ \\mu \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 }$ , 并且联合用药各浓度处理组伊立替康对 HepG2 细胞生长抑制率, 与单独伊立替康各浓度处理组相比均无显著性差异 $( P > 0 . 0 5 )$ , 见图 4。"
+  }
+]

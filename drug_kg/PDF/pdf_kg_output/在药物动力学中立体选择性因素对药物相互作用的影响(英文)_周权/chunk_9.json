@@ -1,0 +1,373 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "propafenone",
+        "canonical_name": "propafenone",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "quinidine",
+        "canonical_name": "quinidine",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "rifampicin",
+        "canonical_name": "rifampicin",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "mephenytoin",
+        "canonical_name": "mephenytoin",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "fluvoxamine",
+        "canonical_name": "fluvoxamine",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "methadone",
+        "canonical_name": "methadone",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "fluoxetine",
+        "canonical_name": "fluoxetine",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "phenytoin",
+        "canonical_name": "phenytoin",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "cyclophosphamide",
+        "canonical_name": "cyclophosphamide",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "hexobarbitone",
+        "canonical_name": "hexobarbitone",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "ketoconazole",
+        "canonical_name": "ketoconazole",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "reboxetine",
+        "canonical_name": "reboxetine",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "nimodipine",
+        "canonical_name": "nimodipine",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "probenecid",
+        "canonical_name": "probenecid",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Drug",
+        "name": "ketoprofen",
+        "canonical_name": "ketoprofen",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "DrugClass",
+        "name": "CYP2D6",
+        "canonical_name": "CYP2D6",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "DrugClass",
+        "name": "CYP3A4",
+        "canonical_name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "DrugClass",
+        "name": "CYP2C19",
+        "canonical_name": "CYP2C19",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "DrugClass",
+        "name": "CYP1A2",
+        "canonical_name": "CYP1A2",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Population",
+        "name": "poor metabolizers",
+        "canonical_name": "poor metabolizers",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed.",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "daily dosing with 600 mg rifampicin for 22 d caused a three to eight fold increase in the 0–8 h urinary R/S ratio of mephenytoin following oral administration (100 mg) of racemic drug to extensive metabolizers of the anticonvulsant.",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "Fluovxamine, a specific inhibitor of CYP1A2, significantly increased the plasma concentrations of methadone enantiomers to the similar extent.",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "Fluoxetine, a potent inhibitor of CYP2D6, markedly increased the plasma concentrations of more active R-enantiomer, without effect on (S)-methadone.",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "Phenytoin induced significantly N-dechloroethylation of (S)-cyclophosphamide while having no effect on that of (R)-enantiomer.",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "rifampicin treatment (600 mg daily for 14 d) produced a larger and a differential increase in the oral clearance of R-(-)-hexobarbitone in young and elderly subjects",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_13",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "Ketoconazole had a robust effect on the single dose pharmacokinetics of both reboxetine enantiomers.",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "Stereoselective drug interactions between nimodipine and propafenone were addressed in our laboratory.",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_16",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "Palylyk et al reported the influence of sex on the stereoselective probenecid-ketoprofen interaction in the rat.",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "propafenone is mainly metabolized by CYP2D6.",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_20",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "CYP2C19 induced by rifampicin only metabolizes S-enantiomer",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_21",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "metabolism via CYP1A2 had no stereoselectivity",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "metabolism via CYP2D6 exhibited stereoselectivity for R-enantiomer",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "IN_CLASS",
+        "source_id": "ent_14",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "similar affinities of the enantiomers for CYP3A4",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_22",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers.",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_22",
+        "properties": {
+          "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+          "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "raw_text": "rifampicin had no effect on mephenytoin metabolism in poor metabolizers",
+          "chunk_id": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+          "data": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselec"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权:9",
+    "source": "在药物动力学中立体选择性因素对药物相互作用的影响(英文)_周权.pdf",
+    "text": "lly more active S-citalopram in comparison with R-enantiomer.\nPATIENT FACTORS INFLUENCING ON STEREOSELECTIVE INTERACTION\nProvide starting point of investigation Some underlying disposition information have been acquired through studies of stereoselective drug interaction. For example, propafenone is mainly metabolized by CYP2D6. Stereoselective differences in plasma concentrations of propafenone enantiomers were observed in poor metabolizers. After coadministration of quinidine (a potent inhibitor of CYP2D6), the differences still existed. Thus, it strongly indicated that at least one possible pathway accounted for the differences $^{[9]}$ . This provides a new starting point of investigation. In our laboratory, substrate concentration-dependent stereoselectivity in propafenone metabolism via CYP3A4 expressed in transgenic Chinese hamster cell lines was observed $^{[38]}$ .Genetic factors Genetic factors are known to be significant in drug disposition and also influence the stereoselective aspects in drug metabolism. Stereoselective drug interactions in extensive metabolizers may not be observed in poor metabolizers (PM). For example, daily dosing with 600 mg rifampicin for 22 d caused a three to eight fold increase in the 0–8 h urinary R/S ratio of mephenytoin following oral administration (100 mg) of racemic drug to extensive metabolizers of the anticonvulsant. By contrast, rifampicin had no effect on mephenytoin metabolism in poor metabolizers $^{[44]}$ . The underlying mechanism is that CYP2C19 induced by rifampicin only metabolizes S-enantiomer and this subfamily can not be induced by rifampicin in PM due to genetic deficiency.Fluovxamine, a specific inhibitor of CYP1A2, significantly increased the plasma concentrations of methadone enantiomers to the similar extent. Fluoxetine, a potent inhibitor of CYP2D6, markedly increased the plasma concentrations of more active R-enantiomer, without effect on (S)-methadone. The study indicated that metabolism via CYP2D6 exhibited stereoselectivity for R-enantiomer whereas metabolism via CYP1A2 had no stereoselectivity $^{[39]}$ .Species The glucuronidation of S-zileuton was competitively inhibited by R-enantiomer in human liver microsomes $^{[45]}$ . However, it was competitively activated by R-zileuton in dog hepatic microsomes $^{[19]}$ , indicating that there are species differences in enantiomer/enantiomer interaction.Phenytoin induced significantly N-dechloroethylation of (S)-cyclophosphamide while having no effect on that of (R)-enantiomer. So it is concluded that different enzymes are responsible for the N-dechloroethylation of two enantiomers $^{[40]}$ .Age Age-associated alternations in enzyme expression may influence the pharmacokinetics of the enantiomers of a racemic drug differently. Several stereoselective drug interactions are also age-associated. For example, rifampicin treatment (600 mg daily for 14 d) produced a larger and a differential increase in the oral clearance of $R-(-)$ -hexobarbitone in young and elderly subjects, an 89-fold change in the young [ (15.6 ± 16.4) mL·min $^{-1}$ ·kg $^{-1}$ to (1146.7 ± 1478.0) mL·min $^{-1}$ ·kg $^{-1}$ ] and a 19-fold change [ (10.3 ± 3.0) mL·min $^{-1}$ ·kg $^{-1}$ to (199.9 ± 98.1) mL·min $^{-1}$ ·kg $^{-1}$ ] in the elderly[46].Ketoconazole had a robust effect on the single dose pharmacokinetics of both reboxetine enantiomers. Furthermore, the fact that the AUC ratio for the two enantiomers was minimally affected by treatment shows similar affinities of the enantiomers for CYP3A4 $^{[41]}$ .Stereoselective drug interactions between nimodipine and propafenone were addressed in our laboratory $^{[42]}$ . Nimodipine (CYP3A4 inhibitor) preferentially inhibited R-propafenone metabolism in rat liver microsomes induced by dexmethasone, which confirms the stereoselectivity for R-enantiomer in propafenone metabolism via CYP3A4. Fluvoxamine has a more pronounced inhibitory effect on (R)-propafenone than that on (S)-propafenone N-dealkylation $^{[43]}$ . It indicates the stereoselectivity (R > S) in propafenone metabolism via CYP1A2. This stereoselectivity was also observed by us using cDNA-expressed transgenic Chinese hamster CHL cell lines as in vitro model (unpublished data).Sex Palylyk et al reported the influence of sex on the stereoselective probenecid-ketoprofen interaction in the rat $^{[47]}$ . An increase of 182 % in the AUC of S-ketoprofen was observed in female whereas only an 88 % increase in S-ketoprofen was observed in male rats. The mechanism is that there is the very efficient biliary clearance of S-ketoprofen conjugate in the male and that probenecid may be unable to compete for biliary excretion to the extent it can in the female."
+  }
+]

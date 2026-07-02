@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Siponimod",
+        "canonical_name": "Siponimod",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+          "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "raw_text": "合用利福平使 Siponimod 的Cmax,ss 和 AUCtau,ss 分别降低 45% 和 57%",
+          "chunk_id": "Siponimod的药物相互作用研究概述_陆司司:4",
+          "data": "0. 1 ～ 75 mg) 和多剂量( 0. 3 ～ 20 mg) 后全身暴露的速率和程度呈剂量比例增加〔9〕 。 此外，在临床前 MS 模型研究中报道 Siponimod 可逆转慢性神经系统麻痹并减少炎症和脱髓鞘 〔 10-13 〕 。\nAnne Gardin 〔14〕 等人在一项健康受试者联合服用 600 mg利福平( 强 CYP3A4 /中度 CYP2C9 双诱导剂) 和 2 mg 的 Si-ponimod 研究中，以 PK、 $\\mathrm { C _ { \\mathrm { m a x } } , \\mathrm { s s , T _ { \\mathrm { m a x } } , \\mathrm { s s , A U C t a u } , \\mathrm { s s } } }$ 为主要评价指标，以代谢物 M3 和 M5 的 PK 安全性/耐受性( 包括ALC) 为次要评价指标，结果显示: 合用利福平使 Siponimod 的$\\mathrm { C } _ { \\mathrm { m a x } } , \\mathrm { s s }$ 和 $\\mathrm { A U C t a u } , \\mathrm { s s }$ 分别降低 45% 和 57% ; 代谢物 M3 的$\\mathrm { \\Delta C _ { \\mathrm { m a x } } } 9 ^ { \\mathrm { s s } }$ 增加 53% ， ${ \\mathrm { , A U C t a u , s s } }$ 降低 10% ; 代谢物 M5 的 AUC-tau，ss 降低 37% 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "Siponimod的药物相互作用研究概述_陆司司:4",
+    "source": "Siponimod的药物相互作用研究概述_陆司司.pdf",
+    "text": "0. 1 ～ 75 mg) 和多剂量( 0. 3 ～ 20 mg) 后全身暴露的速率和程度呈剂量比例增加〔9〕 。 此外，在临床前 MS 模型研究中报道 Siponimod 可逆转慢性神经系统麻痹并减少炎症和脱髓鞘 〔 10-13 〕 。\nAnne Gardin 〔14〕 等人在一项健康受试者联合服用 600 mg利福平( 强 CYP3A4 /中度 CYP2C9 双诱导剂) 和 2 mg 的 Si-ponimod 研究中，以 PK、 $\\mathrm { C _ { \\mathrm { m a x } } , \\mathrm { s s , T _ { \\mathrm { m a x } } , \\mathrm { s s , A U C t a u } , \\mathrm { s s } } }$ 为主要评价指标，以代谢物 M3 和 M5 的 PK 安全性/耐受性( 包括ALC) 为次要评价指标，结果显示: 合用利福平使 Siponimod 的$\\mathrm { C } _ { \\mathrm { m a x } } , \\mathrm { s s }$ 和 $\\mathrm { A U C t a u } , \\mathrm { s s }$ 分别降低 45% 和 57% ; 代谢物 M3 的$\\mathrm { \\Delta C _ { \\mathrm { m a x } } } 9 ^ { \\mathrm { s s } }$ 增加 53% ， ${ \\mathrm { , A U C t a u , s s } }$ 降低 10% ; 代谢物 M5 的 AUC-tau，ss 降低 37% 。"
+  }
+]

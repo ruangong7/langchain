@@ -1,0 +1,186 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "canonical_name": "咪达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "佐米曲坦",
+        "canonical_name": "佐米曲坦",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "地塞米松",
+        "canonical_name": "地塞米松",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "CYP3A",
+        "canonical_name": "CYP3A",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "苯妥英",
+        "canonical_name": "苯妥英",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Food",
+        "name": "乙醇",
+        "canonical_name": "乙醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "糖皮质激素",
+        "canonical_name": "糖皮质激素",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "有机氯杀虫剂",
+        "canonical_name": "有机氯杀虫剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "甲氧氯",
+        "canonical_name": "甲氧氯",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍.pdf",
+          "chunk_index": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+          "raw_text": "佐米曲坦(zolmitriptan)对肝内CYP3A酶活性的诱导作用",
+          "chunk_id": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+          "data": "鼠肝中 CYP3A 具有性别差异的诱导作用。\nHPLC determination of midazolam in rat plasma and applied to investigation the drug interaction\\*\nZHAO Na - ping, YU Lu - shan, ZENG Su $^{**}$(Department of Pharmaceutical Analysis and Drug Metabolism, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310031, China)Abstract Objective: To develop an RP-HPLC method for the determination of midazolam in rats plasma. And the method was applied to investigate the induction effect of zolmitriptan on rat hepatic CYP3A activity in vivo. Method: HPLC for midazolam: The analytical column was $\\mathrm{Diamonsil}^{\\mathrm{TM}}\\mathrm{C}_{18}$ (200 mm × 4.6 mm, 5 μm), the mobile phase consisted of acetonitrile - 0.01 mol · L $^{-1}$ potassium dihydrogen phosphate buffer solution (pH 5.0) (58: 42), the flow rate was 1.0 mL · min $^{-1}$ , and detected at 220 nm. Male and female SD-rats treated with zolmitriptan, dexamethasone and placebo (blank control) separately. And then animals received a single injection "
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍.pdf",
+          "chunk_index": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+          "raw_text": "CYP3A的经典诱导剂地塞米松(dexamethasone)",
+          "chunk_id": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+          "data": "鼠肝中 CYP3A 具有性别差异的诱导作用。\nHPLC determination of midazolam in rat plasma and applied to investigation the drug interaction\\*\nZHAO Na - ping, YU Lu - shan, ZENG Su $^{**}$(Department of Pharmaceutical Analysis and Drug Metabolism, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310031, China)Abstract Objective: To develop an RP-HPLC method for the determination of midazolam in rats plasma. And the method was applied to investigate the induction effect of zolmitriptan on rat hepatic CYP3A activity in vivo. Method: HPLC for midazolam: The analytical column was $\\mathrm{Diamonsil}^{\\mathrm{TM}}\\mathrm{C}_{18}$ (200 mm × 4.6 mm, 5 μm), the mobile phase consisted of acetonitrile - 0.01 mol · L $^{-1}$ potassium dihydrogen phosphate buffer solution (pH 5.0) (58: 42), the flow rate was 1.0 mL · min $^{-1}$ , and detected at 220 nm. Male and female SD-rats treated with zolmitriptan, dexamethasone and placebo (blank control) separately. And then animals received a single injection "
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍.pdf",
+          "chunk_index": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+          "raw_text": "咪达唑仑主要由CYP3A同工酶代谢",
+          "chunk_id": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+          "data": "鼠肝中 CYP3A 具有性别差异的诱导作用。\nHPLC determination of midazolam in rat plasma and applied to investigation the drug interaction\\*\nZHAO Na - ping, YU Lu - shan, ZENG Su $^{**}$(Department of Pharmaceutical Analysis and Drug Metabolism, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310031, China)Abstract Objective: To develop an RP-HPLC method for the determination of midazolam in rats plasma. And the method was applied to investigate the induction effect of zolmitriptan on rat hepatic CYP3A activity in vivo. Method: HPLC for midazolam: The analytical column was $\\mathrm{Diamonsil}^{\\mathrm{TM}}\\mathrm{C}_{18}$ (200 mm × 4.6 mm, 5 μm), the mobile phase consisted of acetonitrile - 0.01 mol · L $^{-1}$ potassium dihydrogen phosphate buffer solution (pH 5.0) (58: 42), the flow rate was 1.0 mL · min $^{-1}$ , and detected at 220 nm. Male and female SD-rats treated with zolmitriptan, dexamethasone and placebo (blank control) separately. And then animals received a single injection "
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍.pdf",
+          "chunk_index": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+          "raw_text": "CYP3A可以被...苯妥英...诱导",
+          "chunk_id": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+          "data": "鼠肝中 CYP3A 具有性别差异的诱导作用。\nHPLC determination of midazolam in rat plasma and applied to investigation the drug interaction\\*\nZHAO Na - ping, YU Lu - shan, ZENG Su $^{**}$(Department of Pharmaceutical Analysis and Drug Metabolism, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310031, China)Abstract Objective: To develop an RP-HPLC method for the determination of midazolam in rats plasma. And the method was applied to investigate the induction effect of zolmitriptan on rat hepatic CYP3A activity in vivo. Method: HPLC for midazolam: The analytical column was $\\mathrm{Diamonsil}^{\\mathrm{TM}}\\mathrm{C}_{18}$ (200 mm × 4.6 mm, 5 μm), the mobile phase consisted of acetonitrile - 0.01 mol · L $^{-1}$ potassium dihydrogen phosphate buffer solution (pH 5.0) (58: 42), the flow rate was 1.0 mL · min $^{-1}$ , and detected at 220 nm. Male and female SD-rats treated with zolmitriptan, dexamethasone and placebo (blank control) separately. And then animals received a single injection "
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍.pdf",
+          "chunk_index": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+          "raw_text": "CYP3A可以被...利福平...诱导",
+          "chunk_id": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+          "data": "鼠肝中 CYP3A 具有性别差异的诱导作用。\nHPLC determination of midazolam in rat plasma and applied to investigation the drug interaction\\*\nZHAO Na - ping, YU Lu - shan, ZENG Su $^{**}$(Department of Pharmaceutical Analysis and Drug Metabolism, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310031, China)Abstract Objective: To develop an RP-HPLC method for the determination of midazolam in rats plasma. And the method was applied to investigate the induction effect of zolmitriptan on rat hepatic CYP3A activity in vivo. Method: HPLC for midazolam: The analytical column was $\\mathrm{Diamonsil}^{\\mathrm{TM}}\\mathrm{C}_{18}$ (200 mm × 4.6 mm, 5 μm), the mobile phase consisted of acetonitrile - 0.01 mol · L $^{-1}$ potassium dihydrogen phosphate buffer solution (pH 5.0) (58: 42), the flow rate was 1.0 mL · min $^{-1}$ , and detected at 220 nm. Male and female SD-rats treated with zolmitriptan, dexamethasone and placebo (blank control) separately. And then animals received a single injection "
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍.pdf",
+          "chunk_index": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+          "raw_text": "CYP3A可以被...乙醇等诱导",
+          "chunk_id": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+          "data": "鼠肝中 CYP3A 具有性别差异的诱导作用。\nHPLC determination of midazolam in rat plasma and applied to investigation the drug interaction\\*\nZHAO Na - ping, YU Lu - shan, ZENG Su $^{**}$(Department of Pharmaceutical Analysis and Drug Metabolism, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310031, China)Abstract Objective: To develop an RP-HPLC method for the determination of midazolam in rats plasma. And the method was applied to investigate the induction effect of zolmitriptan on rat hepatic CYP3A activity in vivo. Method: HPLC for midazolam: The analytical column was $\\mathrm{Diamonsil}^{\\mathrm{TM}}\\mathrm{C}_{18}$ (200 mm × 4.6 mm, 5 μm), the mobile phase consisted of acetonitrile - 0.01 mol · L $^{-1}$ potassium dihydrogen phosphate buffer solution (pH 5.0) (58: 42), the flow rate was 1.0 mL · min $^{-1}$ , and detected at 220 nm. Male and female SD-rats treated with zolmitriptan, dexamethasone and placebo (blank control) separately. And then animals received a single injection "
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍.pdf",
+          "chunk_index": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+          "raw_text": "糖皮质激素（地塞米松）",
+          "chunk_id": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+          "data": "鼠肝中 CYP3A 具有性别差异的诱导作用。\nHPLC determination of midazolam in rat plasma and applied to investigation the drug interaction\\*\nZHAO Na - ping, YU Lu - shan, ZENG Su $^{**}$(Department of Pharmaceutical Analysis and Drug Metabolism, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310031, China)Abstract Objective: To develop an RP-HPLC method for the determination of midazolam in rats plasma. And the method was applied to investigate the induction effect of zolmitriptan on rat hepatic CYP3A activity in vivo. Method: HPLC for midazolam: The analytical column was $\\mathrm{Diamonsil}^{\\mathrm{TM}}\\mathrm{C}_{18}$ (200 mm × 4.6 mm, 5 μm), the mobile phase consisted of acetonitrile - 0.01 mol · L $^{-1}$ potassium dihydrogen phosphate buffer solution (pH 5.0) (58: 42), the flow rate was 1.0 mL · min $^{-1}$ , and detected at 220 nm. Male and female SD-rats treated with zolmitriptan, dexamethasone and placebo (blank control) separately. And then animals received a single injection "
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍.pdf",
+          "chunk_index": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+          "raw_text": "有机氯杀虫剂（甲氧氯）",
+          "chunk_id": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+          "data": "鼠肝中 CYP3A 具有性别差异的诱导作用。\nHPLC determination of midazolam in rat plasma and applied to investigation the drug interaction\\*\nZHAO Na - ping, YU Lu - shan, ZENG Su $^{**}$(Department of Pharmaceutical Analysis and Drug Metabolism, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310031, China)Abstract Objective: To develop an RP-HPLC method for the determination of midazolam in rats plasma. And the method was applied to investigate the induction effect of zolmitriptan on rat hepatic CYP3A activity in vivo. Method: HPLC for midazolam: The analytical column was $\\mathrm{Diamonsil}^{\\mathrm{TM}}\\mathrm{C}_{18}$ (200 mm × 4.6 mm, 5 μm), the mobile phase consisted of acetonitrile - 0.01 mol · L $^{-1}$ potassium dihydrogen phosphate buffer solution (pH 5.0) (58: 42), the flow rate was 1.0 mL · min $^{-1}$ , and detected at 220 nm. Male and female SD-rats treated with zolmitriptan, dexamethasone and placebo (blank control) separately. And then animals received a single injection "
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍:2",
+    "source": "HPLC法测定大鼠血浆中咪达唑仑的含量及其在药物相互作用研究中的应用_赵娜萍.pdf",
+    "text": "鼠肝中 CYP3A 具有性别差异的诱导作用。\nHPLC determination of midazolam in rat plasma and applied to investigation the drug interaction\\*\nZHAO Na - ping, YU Lu - shan, ZENG Su $^{**}$(Department of Pharmaceutical Analysis and Drug Metabolism, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310031, China)Abstract Objective: To develop an RP-HPLC method for the determination of midazolam in rats plasma. And the method was applied to investigate the induction effect of zolmitriptan on rat hepatic CYP3A activity in vivo. Method: HPLC for midazolam: The analytical column was $\\mathrm{Diamonsil}^{\\mathrm{TM}}\\mathrm{C}_{18}$ (200 mm × 4.6 mm, 5 μm), the mobile phase consisted of acetonitrile - 0.01 mol · L $^{-1}$ potassium dihydrogen phosphate buffer solution (pH 5.0) (58: 42), the flow rate was 1.0 mL · min $^{-1}$ , and detected at 220 nm. Male and female SD-rats treated with zolmitriptan, dexamethasone and placebo (blank control) separately. And then animals received a single injection of midazolam (10 mg · kg $^{-1}$ ) in the tail vein after the last dose of zolmitriptan, dexamethasone or placebo. The midazolam pharmacokinetics of zolmitriptan group, dexamethasone group and blank control were compared. Results: The standard curves for midazolam were linear in the range of 0.3 - 375 μmol · L $^{-1}$ , r = 0.9997, and the detection concentration of midazolam was 0.0018 μmol · L $^{-1}$ . The average recovery of midazolam was 97.9%. The area under the curve (AUC $_{0-t}$ ) and the elimination half-life of midazolam was significantly reduced in male rats by the zolmitriptan and dexamethasone pretreatment. While in female rats there were no significantly changes. Conclusion: The method is stable, accurate and simple, and can be used for investigation the effect of zolmitriptan on CYP3A activity in rats. Zolmitriptan has the gender-different effect of induction on male rat hepatic CYP3A activity.咪达唑仑(midazolam)是一个咪唑苯并二氮䓬类药物，咪达唑仑主要由CYP3A同工酶代谢。因为咪达唑仑的肝脏萃取率较低(约为0.34)，其清除率主要取决于CYP3A活性，而不依赖于肝血流量[1]。因此许多CYP3A的抑制剂能增加咪达唑仑的血药浓度延长其半衰期。另外咪达唑仑可以口服或静注方式安全给药，因此经常被用作体内CYP3A活性测定的经典探针底物[2]。咪达唑仑的高效液相色谱测定方法[3]曾有报道过，本文对以往的方法进行改进，使之能被更快速准确地测定，并且用咪达唑仑作为CYP3A的探针药物在大鼠体内研究佐米曲坦(zolmitriptan)对肝内CYP3A酶活性的诱导作用，应用CYP3A的经典诱导剂地塞米松(dexamethasone)作为阳性对照组的诱导剂。细胞色素P450(cytochrome P450,CYP450)是一组主要存在于肝脏和小肠中，结构和功能相关的超家族基因编码的同工酶，药物相互作用、致癌化合物的体内激活与失活等都与CYP活性有着密切关系。其中，CYP3A在药物及内源性物质的代谢中起非常重要的作用，很多药物和内源性物质都是其底物[4,5]。CYP3A可以被糖皮质激素（地塞米松）、有机氯杀虫剂（甲氧氯）和其他药物（苯妥英，利福平，乙醇等）诱导。"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "丙泊酚",
+        "canonical_name": "丙泊酚",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "依托咪酯",
+        "canonical_name": "依托咪酯",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "等辐射法分析结肠镜麻醉中丙泊酚与依托咪酯的药物相互作用_李有武.pdf",
+          "chunk_index": "等辐射法分析结肠镜麻醉中丙泊酚与依托咪酯的药物相互作用_李有武:5",
+          "raw_text": "等辐射分析法判定丙泊酚、依托咪酯联合用药在抑制结肠镜检查体动中表现为药物协同作用",
+          "mechanism": "协同作用",
+          "effect": "抑制结肠镜检查体动",
+          "chunk_id": "等辐射法分析结肠镜麻醉中丙泊酚与依托咪酯的药物相互作用_李有武:5",
+          "data": "rm { E C } _ { 5 0 }$ 比值分数总和为 0． 86，落在 95% CI左侧， $\\scriptstyle P < 0 . 0 5$ 。 等辐射分析法判定丙泊酚、依托咪酯联合用药在抑制结肠镜检查体动中表现为药物协同作用 。\n1． 3 实验方法按照升降序贯试验法［2］ ${ \\big ( } \\mathrm { u p - a n d - }$ down method) ，丙泊酚组初始血浆浓度( Plasma con-$_ \\mathrm { c e n t r a t i o n , C p } )$ 设为 $4 . 5 ~ \\mu \\mathrm { g } / \\mathrm { m L } ^ { \\textrm { B } }$ ，以 $0 . 5 ~ { \\mu \\mathrm { g } } / \\mathrm { m I }$ 作为增减量进行增减; 依托咪酯组初始 $\\mathrm { C p }$ 设为 350$\\mathrm { n g / m L }$ ，以 50 ng/mL 作为增减量进行增减［4］; 丙泊酚/依托咪酯组初始 $\\mathrm { C p }$ 设为 $4 . 5 ~ \\mu \\mathrm { g } / \\mathrm { m L }$ 及 $3 5 0 \\mathrm { n g } /$ mL，以 $0 . 5 ~ { \\mu \\mathrm { g } } / \\mathrm { m L }$ 及 $5 0 ~ \\mathrm { n g / m L }$ 作为增减量进行增减结肠镜检查术中无体动，视此 $\\mathrm { C p }$ 有效，下一例患者 $\\mathrm { C p }$ 则降低相对应的增减量，如仍无体动，按上述办法再降低相应增减量直至出现体动; 术中患者如有体动，则上调相应增减量，如仍有体动，按上述办法增加 $\\mathrm { C p }$ 直至无体动。 当成功－失败( 或失败－成功) 出现7 次交叉，试验结束。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "等辐射法分析结肠镜麻醉中丙泊酚与依托咪酯的药物相互作用_李有武:5",
+    "source": "等辐射法分析结肠镜麻醉中丙泊酚与依托咪酯的药物相互作用_李有武.pdf",
+    "text": "rm { E C } _ { 5 0 }$ 比值分数总和为 0． 86，落在 95% CI左侧， $\\scriptstyle P < 0 . 0 5$ 。 等辐射分析法判定丙泊酚、依托咪酯联合用药在抑制结肠镜检查体动中表现为药物协同作用 。\n1． 3 实验方法按照升降序贯试验法［2］ ${ \\big ( } \\mathrm { u p - a n d - }$ down method) ，丙泊酚组初始血浆浓度( Plasma con-$_ \\mathrm { c e n t r a t i o n , C p } )$ 设为 $4 . 5 ~ \\mu \\mathrm { g } / \\mathrm { m L } ^ { \\textrm { B } }$ ，以 $0 . 5 ~ { \\mu \\mathrm { g } } / \\mathrm { m I }$ 作为增减量进行增减; 依托咪酯组初始 $\\mathrm { C p }$ 设为 350$\\mathrm { n g / m L }$ ，以 50 ng/mL 作为增减量进行增减［4］; 丙泊酚/依托咪酯组初始 $\\mathrm { C p }$ 设为 $4 . 5 ~ \\mu \\mathrm { g } / \\mathrm { m L }$ 及 $3 5 0 \\mathrm { n g } /$ mL，以 $0 . 5 ~ { \\mu \\mathrm { g } } / \\mathrm { m L }$ 及 $5 0 ~ \\mathrm { n g / m L }$ 作为增减量进行增减结肠镜检查术中无体动，视此 $\\mathrm { C p }$ 有效，下一例患者 $\\mathrm { C p }$ 则降低相对应的增减量，如仍无体动，按上述办法再降低相应增减量直至出现体动; 术中患者如有体动，则上调相应增减量，如仍有体动，按上述办法增加 $\\mathrm { C p }$ 直至无体动。 当成功－失败( 或失败－成功) 出现7 次交叉，试验结束。"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "阿司匹林",
+        "canonical_name": "阿司匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氯吡格雷",
+        "canonical_name": "氯吡格雷",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "胃肠道出血",
+        "canonical_name": "胃肠道出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "心血管药物",
+        "canonical_name": "心血管药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Population",
+        "name": "老年人",
+        "canonical_name": "老年人",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "360例严重药品不良反应和药物相互作用的分析_林艳花.pdf",
+          "chunk_index": "360例严重药品不良反应和药物相互作用的分析_林艳花:2",
+          "raw_text": "Aspirin was the most common drug in both potential DDIs and actual DDIs, while aspirin and clopidogrel was the most commonly involved drug pair in actual DDIs, with gastrointestinal bleeding being the most common SADR.",
+          "chunk_id": "360例严重药品不良反应和药物相互作用的分析_林艳花:2",
+          "data": "物相互作用的分析[J]. 中国现代应用药学, 2024, 41(5):696-701.\nAnalysis of Severe Adverse Drug Reactions and Drug Interactions in 360 Cases\nLIN Yanhuaa, LYU Xiaoqunb, REN Weifangb, LIU Yujuanb, JIANG Kangb, JIANG Huaqiaob\\*(1.Jinshan Hospital, Fudan University, a.Department of Nursing, b.Department of Pharmacy, Shanghai 201508, China)ABSTRACT: OBJECTIVE To analyze and evaluate serious adverse drug reaction(SADR) and drug-drug interactions(DDIs) in the real-world, so as to obtain the clinical evidence of DDIs-related SADR, and to provide a reference for rational clinical use. METHODS The SADR reports reported to the National Adverse Drug Reaction Monitoring Center from January 2011 to December 2020 were collected, and Lexi-Interaction® software in UpToDate was used to analyze ≥2 drugs in SADR to evaluate whether there were potential DDIs. And the possible adverse drug reactions caused by DDIs were statistically analyzed. RESULTS Among the 360 cases of SADR, males were slightly more than females(50.83% vs "
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "360例严重药品不良反应和药物相互作用的分析_林艳花.pdf",
+          "chunk_index": "360例严重药品不良反应和药物相互作用的分析_林艳花:2",
+          "raw_text": "Aspirin was the most common drug in both potential DDIs and actual DDIs, while aspirin and clopidogrel was the most commonly involved drug pair in actual DDIs, with gastrointestinal bleeding being the most common SADR.",
+          "chunk_id": "360例严重药品不良反应和药物相互作用的分析_林艳花:2",
+          "data": "物相互作用的分析[J]. 中国现代应用药学, 2024, 41(5):696-701.\nAnalysis of Severe Adverse Drug Reactions and Drug Interactions in 360 Cases\nLIN Yanhuaa, LYU Xiaoqunb, REN Weifangb, LIU Yujuanb, JIANG Kangb, JIANG Huaqiaob\\*(1.Jinshan Hospital, Fudan University, a.Department of Nursing, b.Department of Pharmacy, Shanghai 201508, China)ABSTRACT: OBJECTIVE To analyze and evaluate serious adverse drug reaction(SADR) and drug-drug interactions(DDIs) in the real-world, so as to obtain the clinical evidence of DDIs-related SADR, and to provide a reference for rational clinical use. METHODS The SADR reports reported to the National Adverse Drug Reaction Monitoring Center from January 2011 to December 2020 were collected, and Lexi-Interaction® software in UpToDate was used to analyze ≥2 drugs in SADR to evaluate whether there were potential DDIs. And the possible adverse drug reactions caused by DDIs were statistically analyzed. RESULTS Among the 360 cases of SADR, males were slightly more than females(50.83% vs "
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "360例严重药品不良反应和药物相互作用的分析_林艳花.pdf",
+          "chunk_index": "360例严重药品不良反应和药物相互作用的分析_林艳花:2",
+          "raw_text": "Aspirin was the most common drug in both potential DDIs and actual DDIs, while aspirin and clopidogrel was the most commonly involved drug pair in actual DDIs, with gastrointestinal bleeding being the most common SADR.",
+          "chunk_id": "360例严重药品不良反应和药物相互作用的分析_林艳花:2",
+          "data": "物相互作用的分析[J]. 中国现代应用药学, 2024, 41(5):696-701.\nAnalysis of Severe Adverse Drug Reactions and Drug Interactions in 360 Cases\nLIN Yanhuaa, LYU Xiaoqunb, REN Weifangb, LIU Yujuanb, JIANG Kangb, JIANG Huaqiaob\\*(1.Jinshan Hospital, Fudan University, a.Department of Nursing, b.Department of Pharmacy, Shanghai 201508, China)ABSTRACT: OBJECTIVE To analyze and evaluate serious adverse drug reaction(SADR) and drug-drug interactions(DDIs) in the real-world, so as to obtain the clinical evidence of DDIs-related SADR, and to provide a reference for rational clinical use. METHODS The SADR reports reported to the National Adverse Drug Reaction Monitoring Center from January 2011 to December 2020 were collected, and Lexi-Interaction® software in UpToDate was used to analyze ≥2 drugs in SADR to evaluate whether there were potential DDIs. And the possible adverse drug reactions caused by DDIs were statistically analyzed. RESULTS Among the 360 cases of SADR, males were slightly more than females(50.83% vs "
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "360例严重药品不良反应和药物相互作用的分析_林艳花.pdf",
+          "chunk_index": "360例严重药品不良反应和药物相互作用的分析_林艳花:2",
+          "raw_text": "Cardiovascular agents were the most common implicated pharmacological group, and the gastrointestinal system was the most frequently affected system, and aspirin was the most frequently reported drug.",
+          "chunk_id": "360例严重药品不良反应和药物相互作用的分析_林艳花:2",
+          "data": "物相互作用的分析[J]. 中国现代应用药学, 2024, 41(5):696-701.\nAnalysis of Severe Adverse Drug Reactions and Drug Interactions in 360 Cases\nLIN Yanhuaa, LYU Xiaoqunb, REN Weifangb, LIU Yujuanb, JIANG Kangb, JIANG Huaqiaob\\*(1.Jinshan Hospital, Fudan University, a.Department of Nursing, b.Department of Pharmacy, Shanghai 201508, China)ABSTRACT: OBJECTIVE To analyze and evaluate serious adverse drug reaction(SADR) and drug-drug interactions(DDIs) in the real-world, so as to obtain the clinical evidence of DDIs-related SADR, and to provide a reference for rational clinical use. METHODS The SADR reports reported to the National Adverse Drug Reaction Monitoring Center from January 2011 to December 2020 were collected, and Lexi-Interaction® software in UpToDate was used to analyze ≥2 drugs in SADR to evaluate whether there were potential DDIs. And the possible adverse drug reactions caused by DDIs were statistically analyzed. RESULTS Among the 360 cases of SADR, males were slightly more than females(50.83% vs "
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "360例严重药品不良反应和药物相互作用的分析_林艳花.pdf",
+          "chunk_index": "360例严重药品不良反应和药物相互作用的分析_林艳花:2",
+          "raw_text": "Attention should be paid to the influence of drug interactions on SADR, and prescription should be optimized, especially in the elderly population.",
+          "chunk_id": "360例严重药品不良反应和药物相互作用的分析_林艳花:2",
+          "data": "物相互作用的分析[J]. 中国现代应用药学, 2024, 41(5):696-701.\nAnalysis of Severe Adverse Drug Reactions and Drug Interactions in 360 Cases\nLIN Yanhuaa, LYU Xiaoqunb, REN Weifangb, LIU Yujuanb, JIANG Kangb, JIANG Huaqiaob\\*(1.Jinshan Hospital, Fudan University, a.Department of Nursing, b.Department of Pharmacy, Shanghai 201508, China)ABSTRACT: OBJECTIVE To analyze and evaluate serious adverse drug reaction(SADR) and drug-drug interactions(DDIs) in the real-world, so as to obtain the clinical evidence of DDIs-related SADR, and to provide a reference for rational clinical use. METHODS The SADR reports reported to the National Adverse Drug Reaction Monitoring Center from January 2011 to December 2020 were collected, and Lexi-Interaction® software in UpToDate was used to analyze ≥2 drugs in SADR to evaluate whether there were potential DDIs. And the possible adverse drug reactions caused by DDIs were statistically analyzed. RESULTS Among the 360 cases of SADR, males were slightly more than females(50.83% vs "
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "360例严重药品不良反应和药物相互作用的分析_林艳花:2",
+    "source": "360例严重药品不良反应和药物相互作用的分析_林艳花.pdf",
+    "text": "物相互作用的分析[J]. 中国现代应用药学, 2024, 41(5):696-701.\nAnalysis of Severe Adverse Drug Reactions and Drug Interactions in 360 Cases\nLIN Yanhuaa, LYU Xiaoqunb, REN Weifangb, LIU Yujuanb, JIANG Kangb, JIANG Huaqiaob\\*(1.Jinshan Hospital, Fudan University, a.Department of Nursing, b.Department of Pharmacy, Shanghai 201508, China)ABSTRACT: OBJECTIVE To analyze and evaluate serious adverse drug reaction(SADR) and drug-drug interactions(DDIs) in the real-world, so as to obtain the clinical evidence of DDIs-related SADR, and to provide a reference for rational clinical use. METHODS The SADR reports reported to the National Adverse Drug Reaction Monitoring Center from January 2011 to December 2020 were collected, and Lexi-Interaction® software in UpToDate was used to analyze ≥2 drugs in SADR to evaluate whether there were potential DDIs. And the possible adverse drug reactions caused by DDIs were statistically analyzed. RESULTS Among the 360 cases of SADR, males were slightly more than females(50.83% vs 49.17%), the mean age was (65.27±14.71) years old, and 56.39% were ≥65 years old. Cardiovascular agents were the most common implicated pharmacological group, and the gastrointestinal system was the most frequently affected system, and aspirin was the most frequently reported drug. Among 150 cases of SADR with at least two suspected drugs, 64 cases had potential DDIs, while 42 cases had clinically significant DDIs, of which only 16 and 2 cases of SADR were caused by actual DDIs in category D and X, respectively. The majority of reports(71.43%) were caused by additive pharmacodynamic interactions. Aspirin was the most common drug in both potential DDIs and actual DDIs, while aspirin and clopidogrel was the most commonly involved drug pair in actual DDIs, with gastrointestinal bleeding being the most common SADR. CONCLUSION Attention should be paid to the influence of drug interactions on SADR, and prescription should be optimized, especially in the elderly population. According to the results of potential DDIs, therapeutic drugs should be rationally selected. Meanwhile, monitoring of cardiovascular drugs and key populations should be strengthened to ensure drug safety.KEYWORDS: real-world; serious adverse drug reaction; drug-drug interactions; elderly patients; rational use of drugs随着人口老龄化和慢性共病比例的增加、治疗药物日益复杂，多药联合越来越普遍，潜在的药物 -药物相互作用 (drug-drug interactions，DDIs) 风险也随之增加。DDls 相关的药品不良反应 (adverse drug reaction，ADR) 是药物相关问题的重要原因，而严重药品不良反应 (serious adversedrug reaction，SADR) 会危及生命，导致或延长住院时间、增加额外的住院费用，甚至导致死亡，对病人健康和生命安全构成严重威胁。国内关于SADR 的研究大多数只关注 SADR 的特征分析，而与 DDIs 相关的 SADR 的临床问题研究未见报道。本研究通过复旦大学附属金山医院近 10 年上报国家药品不良反应监测系统的 SADR 来识别和描述存在的 DDIs，量化 DDIs 在 SADR 发生中的重要性，最终得到 DDIs 导致 SADR 的临床证据，为制定诊疗方案提供参考，以减少或避免SADR 的发生，促进临床合理用药，提高医疗质量。"
+  }
+]

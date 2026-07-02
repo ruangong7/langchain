@@ -1,0 +1,175 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "中药",
+        "canonical_name": "中药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "马兜铃酸",
+        "canonical_name": "马兜铃酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "雷公藤甲素",
+        "canonical_name": "雷公藤甲素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "麻黄碱",
+        "canonical_name": "麻黄碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "降压药",
+        "canonical_name": "降压药",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "心脏病",
+        "canonical_name": "心脏病",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "疼痛",
+        "canonical_name": "疼痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "高血压",
+        "canonical_name": "高血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Disease",
+        "name": "糖尿病",
+        "canonical_name": "糖尿病",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "SideEffect",
+        "name": "肝肾毒性",
+        "canonical_name": "肝肾毒性",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "基于转运体的中药毒性及药物相互作用研究进展_叶倩.pdf",
+          "chunk_index": "基于转运体的中药毒性及药物相互作用研究进展_叶倩:1",
+          "raw_text": "中药作为临床医学的重要组成部分，已在临床广泛地应用于治疗心脏病、疼痛、高血压和糖尿病等疾病。",
+          "chunk_id": "基于转运体的中药毒性及药物相互作用研究进展_叶倩:1",
+          "data": "有指导意义。\n文献标志码：A\nResearch progress of metabolism and drug interaction of traditional Chinese medicine based on transporter\nYE Qian1,2 , WEN Hairuo2 , WANG Qi2 , MA Shuangcheng1,Abstract: Herbal-drug interacitons has become a hot sopt of drug toxicity researches. The potency and toxicity of many active ingredients or extracts of traditional Chinese medicines (TCMs) in vivo are related to transporters, and the expression of activity of the transporter could significantly affect the pharmacokinetics and biological activity of TCMs in the body. Among them, studies on the hepatorenal toxicity of aristolochic acid, triptolide and other TCMs ingredients based on transporters have been extensive. The effect of TCMs on transporters will also affect the metabolism of other drugs, resulting in drug interactions. This article summarized the toxicities of TCMs and the effects on metabolism of other drugs from the perspective of transporters, which has guiding significance for toxicity study of TCMs a"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "基于转运体的中药毒性及药物相互作用研究进展_叶倩.pdf",
+          "chunk_index": "基于转运体的中药毒性及药物相互作用研究进展_叶倩:1",
+          "raw_text": "中药作为临床医学的重要组成部分，已在临床广泛地应用于治疗心脏病、疼痛、高血压和糖尿病等疾病。",
+          "chunk_id": "基于转运体的中药毒性及药物相互作用研究进展_叶倩:1",
+          "data": "有指导意义。\n文献标志码：A\nResearch progress of metabolism and drug interaction of traditional Chinese medicine based on transporter\nYE Qian1,2 , WEN Hairuo2 , WANG Qi2 , MA Shuangcheng1,Abstract: Herbal-drug interacitons has become a hot sopt of drug toxicity researches. The potency and toxicity of many active ingredients or extracts of traditional Chinese medicines (TCMs) in vivo are related to transporters, and the expression of activity of the transporter could significantly affect the pharmacokinetics and biological activity of TCMs in the body. Among them, studies on the hepatorenal toxicity of aristolochic acid, triptolide and other TCMs ingredients based on transporters have been extensive. The effect of TCMs on transporters will also affect the metabolism of other drugs, resulting in drug interactions. This article summarized the toxicities of TCMs and the effects on metabolism of other drugs from the perspective of transporters, which has guiding significance for toxicity study of TCMs a"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "基于转运体的中药毒性及药物相互作用研究进展_叶倩.pdf",
+          "chunk_index": "基于转运体的中药毒性及药物相互作用研究进展_叶倩:1",
+          "raw_text": "中药作为临床医学的重要组成部分，已在临床广泛地应用于治疗心脏病、疼痛、高血压和糖尿病等疾病。",
+          "chunk_id": "基于转运体的中药毒性及药物相互作用研究进展_叶倩:1",
+          "data": "有指导意义。\n文献标志码：A\nResearch progress of metabolism and drug interaction of traditional Chinese medicine based on transporter\nYE Qian1,2 , WEN Hairuo2 , WANG Qi2 , MA Shuangcheng1,Abstract: Herbal-drug interacitons has become a hot sopt of drug toxicity researches. The potency and toxicity of many active ingredients or extracts of traditional Chinese medicines (TCMs) in vivo are related to transporters, and the expression of activity of the transporter could significantly affect the pharmacokinetics and biological activity of TCMs in the body. Among them, studies on the hepatorenal toxicity of aristolochic acid, triptolide and other TCMs ingredients based on transporters have been extensive. The effect of TCMs on transporters will also affect the metabolism of other drugs, resulting in drug interactions. This article summarized the toxicities of TCMs and the effects on metabolism of other drugs from the perspective of transporters, which has guiding significance for toxicity study of TCMs a"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "基于转运体的中药毒性及药物相互作用研究进展_叶倩.pdf",
+          "chunk_index": "基于转运体的中药毒性及药物相互作用研究进展_叶倩:1",
+          "raw_text": "中药作为临床医学的重要组成部分，已在临床广泛地应用于治疗心脏病、疼痛、高血压和糖尿病等疾病。",
+          "chunk_id": "基于转运体的中药毒性及药物相互作用研究进展_叶倩:1",
+          "data": "有指导意义。\n文献标志码：A\nResearch progress of metabolism and drug interaction of traditional Chinese medicine based on transporter\nYE Qian1,2 , WEN Hairuo2 , WANG Qi2 , MA Shuangcheng1,Abstract: Herbal-drug interacitons has become a hot sopt of drug toxicity researches. The potency and toxicity of many active ingredients or extracts of traditional Chinese medicines (TCMs) in vivo are related to transporters, and the expression of activity of the transporter could significantly affect the pharmacokinetics and biological activity of TCMs in the body. Among them, studies on the hepatorenal toxicity of aristolochic acid, triptolide and other TCMs ingredients based on transporters have been extensive. The effect of TCMs on transporters will also affect the metabolism of other drugs, resulting in drug interactions. This article summarized the toxicities of TCMs and the effects on metabolism of other drugs from the perspective of transporters, which has guiding significance for toxicity study of TCMs a"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "基于转运体的中药毒性及药物相互作用研究进展_叶倩.pdf",
+          "chunk_index": "基于转运体的中药毒性及药物相互作用研究进展_叶倩:1",
+          "raw_text": "基于转运体的马兜铃酸、雷公藤甲素等中药成分的肝肾毒性研究已较为广泛。",
+          "chunk_id": "基于转运体的中药毒性及药物相互作用研究进展_叶倩:1",
+          "data": "有指导意义。\n文献标志码：A\nResearch progress of metabolism and drug interaction of traditional Chinese medicine based on transporter\nYE Qian1,2 , WEN Hairuo2 , WANG Qi2 , MA Shuangcheng1,Abstract: Herbal-drug interacitons has become a hot sopt of drug toxicity researches. The potency and toxicity of many active ingredients or extracts of traditional Chinese medicines (TCMs) in vivo are related to transporters, and the expression of activity of the transporter could significantly affect the pharmacokinetics and biological activity of TCMs in the body. Among them, studies on the hepatorenal toxicity of aristolochic acid, triptolide and other TCMs ingredients based on transporters have been extensive. The effect of TCMs on transporters will also affect the metabolism of other drugs, resulting in drug interactions. This article summarized the toxicities of TCMs and the effects on metabolism of other drugs from the perspective of transporters, which has guiding significance for toxicity study of TCMs a"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "基于转运体的中药毒性及药物相互作用研究进展_叶倩.pdf",
+          "chunk_index": "基于转运体的中药毒性及药物相互作用研究进展_叶倩:1",
+          "raw_text": "基于转运体的马兜铃酸、雷公藤甲素等中药成分的肝肾毒性研究已较为广泛。",
+          "chunk_id": "基于转运体的中药毒性及药物相互作用研究进展_叶倩:1",
+          "data": "有指导意义。\n文献标志码：A\nResearch progress of metabolism and drug interaction of traditional Chinese medicine based on transporter\nYE Qian1,2 , WEN Hairuo2 , WANG Qi2 , MA Shuangcheng1,Abstract: Herbal-drug interacitons has become a hot sopt of drug toxicity researches. The potency and toxicity of many active ingredients or extracts of traditional Chinese medicines (TCMs) in vivo are related to transporters, and the expression of activity of the transporter could significantly affect the pharmacokinetics and biological activity of TCMs in the body. Among them, studies on the hepatorenal toxicity of aristolochic acid, triptolide and other TCMs ingredients based on transporters have been extensive. The effect of TCMs on transporters will also affect the metabolism of other drugs, resulting in drug interactions. This article summarized the toxicities of TCMs and the effects on metabolism of other drugs from the perspective of transporters, which has guiding significance for toxicity study of TCMs a"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "基于转运体的中药毒性及药物相互作用研究进展_叶倩.pdf",
+          "chunk_index": "基于转运体的中药毒性及药物相互作用研究进展_叶倩:1",
+          "raw_text": "麻黄碱类的交感神经效应可以拮抗降压药的降压作用。",
+          "mechanism": "拮抗",
+          "consequence": "降低降压药的降压作用",
+          "chunk_id": "基于转运体的中药毒性及药物相互作用研究进展_叶倩:1",
+          "data": "有指导意义。\n文献标志码：A\nResearch progress of metabolism and drug interaction of traditional Chinese medicine based on transporter\nYE Qian1,2 , WEN Hairuo2 , WANG Qi2 , MA Shuangcheng1,Abstract: Herbal-drug interacitons has become a hot sopt of drug toxicity researches. The potency and toxicity of many active ingredients or extracts of traditional Chinese medicines (TCMs) in vivo are related to transporters, and the expression of activity of the transporter could significantly affect the pharmacokinetics and biological activity of TCMs in the body. Among them, studies on the hepatorenal toxicity of aristolochic acid, triptolide and other TCMs ingredients based on transporters have been extensive. The effect of TCMs on transporters will also affect the metabolism of other drugs, resulting in drug interactions. This article summarized the toxicities of TCMs and the effects on metabolism of other drugs from the perspective of transporters, which has guiding significance for toxicity study of TCMs a"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于转运体的中药毒性及药物相互作用研究进展_叶倩:1",
+    "source": "基于转运体的中药毒性及药物相互作用研究进展_叶倩.pdf",
+    "text": "有指导意义。\n文献标志码：A\nResearch progress of metabolism and drug interaction of traditional Chinese medicine based on transporter\nYE Qian1,2 , WEN Hairuo2 , WANG Qi2 , MA Shuangcheng1,Abstract: Herbal-drug interacitons has become a hot sopt of drug toxicity researches. The potency and toxicity of many active ingredients or extracts of traditional Chinese medicines (TCMs) in vivo are related to transporters, and the expression of activity of the transporter could significantly affect the pharmacokinetics and biological activity of TCMs in the body. Among them, studies on the hepatorenal toxicity of aristolochic acid, triptolide and other TCMs ingredients based on transporters have been extensive. The effect of TCMs on transporters will also affect the metabolism of other drugs, resulting in drug interactions. This article summarized the toxicities of TCMs and the effects on metabolism of other drugs from the perspective of transporters, which has guiding significance for toxicity study of TCMs and rational drug use in clinical practice.中药作为临床医学的重要组成部分，已在临床广泛地应用于治疗心脏病、疼痛、高血压和糖尿病等疾病。有研究显示，在美国接受处方药治疗的患者中有16%同时在服用中草药或天然药物［1］。鉴于中药的广泛应用，中药-药物相互作用（herbal-druginteractions，HDI）日益受到广泛关注。药物间相互作用普遍存在，主要包括药效学和药动学两种相互作用。药效学的相互作用表现为药物之间的协同作用或拮抗作用，如麻黄碱类的交感神经效应可以拮抗降压药的降压作用；而药动学方面的药物相互作用则表现为药物在体内药动学的改变，其主要机制是转运体（transporter）或代谢酶的表达或活性的改变。"
+  }
+]

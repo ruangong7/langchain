@@ -1,0 +1,103 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "吗啉硝唑",
+        "canonical_name": "吗啉硝唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "丙磺舒",
+        "canonical_name": "丙磺舒",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "canonical_name": "西咪替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "二甲双胍",
+        "canonical_name": "二甲双胍",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "替诺福韦",
+        "canonical_name": "替诺福韦",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:2",
+          "raw_text": "吗啉硝唑分别与丙磺舒、西咪替丁、二甲双胍、替诺福韦联用后，大鼠血浆中R 吗啉硝唑、S 吗啉硝唑药代动力学未发生显著改变。",
+          "interaction_type": "无显著相互作用",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:2",
+          "data": "与其他药物联用后药代动力学参数无显著变化。结论：本方法可对大鼠血浆中的R-吗啉硝唑和S-吗啉硝唑进行手性分离及定量分析。吗啉硝唑分别与丙磺舒、西咪替丁、二甲双胍、替诺福韦联用后，大鼠血浆中R 吗啉硝唑、S 吗啉硝唑药代动力学未发生显著改变。\nDetermination of R-morinidazole and S-morinidazole in rat plasma by LC-MS/MS method and its application in a pharmacokinetic interaction study\\*"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:2",
+          "raw_text": "吗啉硝唑分别与丙磺舒、西咪替丁、二甲双胍、替诺福韦联用后，大鼠血浆中R 吗啉硝唑、S 吗啉硝唑药代动力学未发生显著改变。",
+          "interaction_type": "无显著相互作用",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:2",
+          "data": "与其他药物联用后药代动力学参数无显著变化。结论：本方法可对大鼠血浆中的R-吗啉硝唑和S-吗啉硝唑进行手性分离及定量分析。吗啉硝唑分别与丙磺舒、西咪替丁、二甲双胍、替诺福韦联用后，大鼠血浆中R 吗啉硝唑、S 吗啉硝唑药代动力学未发生显著改变。\nDetermination of R-morinidazole and S-morinidazole in rat plasma by LC-MS/MS method and its application in a pharmacokinetic interaction study\\*"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:2",
+          "raw_text": "吗啉硝唑分别与丙磺舒、西咪替丁、二甲双胍、替诺福韦联用后，大鼠血浆中R 吗啉硝唑、S 吗啉硝唑药代动力学未发生显著改变。",
+          "interaction_type": "无显著相互作用",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:2",
+          "data": "与其他药物联用后药代动力学参数无显著变化。结论：本方法可对大鼠血浆中的R-吗啉硝唑和S-吗啉硝唑进行手性分离及定量分析。吗啉硝唑分别与丙磺舒、西咪替丁、二甲双胍、替诺福韦联用后，大鼠血浆中R 吗啉硝唑、S 吗啉硝唑药代动力学未发生显著改变。\nDetermination of R-morinidazole and S-morinidazole in rat plasma by LC-MS/MS method and its application in a pharmacokinetic interaction study\\*"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+          "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:2",
+          "raw_text": "吗啉硝唑分别与丙磺舒、西咪替丁、二甲双胍、替诺福韦联用后，大鼠血浆中R 吗啉硝唑、S 吗啉硝唑药代动力学未发生显著改变。",
+          "interaction_type": "无显著相互作用",
+          "chunk_id": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:2",
+          "data": "与其他药物联用后药代动力学参数无显著变化。结论：本方法可对大鼠血浆中的R-吗啉硝唑和S-吗啉硝唑进行手性分离及定量分析。吗啉硝唑分别与丙磺舒、西咪替丁、二甲双胍、替诺福韦联用后，大鼠血浆中R 吗啉硝唑、S 吗啉硝唑药代动力学未发生显著改变。\nDetermination of R-morinidazole and S-morinidazole in rat plasma by LC-MS/MS method and its application in a pharmacokinetic interaction study\\*"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲:2",
+    "source": "LC-MS_MS法测定大鼠血浆中R_S-吗啉硝唑及其在药物-药物相互作用研究中的应用_汤文玲.pdf",
+    "text": "与其他药物联用后药代动力学参数无显著变化。结论：本方法可对大鼠血浆中的R-吗啉硝唑和S-吗啉硝唑进行手性分离及定量分析。吗啉硝唑分别与丙磺舒、西咪替丁、二甲双胍、替诺福韦联用后，大鼠血浆中R 吗啉硝唑、S 吗啉硝唑药代动力学未发生显著改变。\nDetermination of R-morinidazole and S-morinidazole in rat plasma by LC-MS/MS method and its application in a pharmacokinetic interaction study\\*"
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "胺碘酮",
+        "canonical_name": "胺碘酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "新型抗丙肝药物",
+        "canonical_name": "新型抗丙肝药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "心律失常",
+        "canonical_name": "心律失常",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "室性心动过速",
+        "canonical_name": "室性心动过速",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "室颤",
+        "canonical_name": "室颤",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "丙型肝炎",
+        "canonical_name": "丙型肝炎",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震.pdf",
+          "chunk_index": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震:1",
+          "raw_text": "a Pak也已加注类似的警告标示。胺碘酮是一个治疗严重心律失常的老药，如室性心动过速和室颤不良反应多，毒性大。新型抗丙肝药物是病毒性肝炎治疗领域的一个重大突破，不仅对 90% 以上的丙肝患者有效，而且相比于传统治疗方案，不良反应明显减少。",
+          "chunk_id": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震:1",
+          "data": "a Pak也已加注类似的警告标示。\n胺碘酮是一个治疗严重心律失常的老药，如室性心动过速和室颤不良反应多，毒性大。新型抗丙肝药物是病毒性肝炎治疗领域的一个重大突破，不仅对 90% 以上的丙肝患者有效，而且相比于传统治疗方案，不良反应明显减少。\nNews. gilead shares dip after warning about hepatitis C drug interaction. Clin Infect Dis, 2015, 60 (15 May).沈震摘译王明贵审校"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震.pdf",
+          "chunk_index": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震:1",
+          "raw_text": "胺碘酮是一个治疗严重心律失常的老药",
+          "chunk_id": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震:1",
+          "data": "a Pak也已加注类似的警告标示。\n胺碘酮是一个治疗严重心律失常的老药，如室性心动过速和室颤不良反应多，毒性大。新型抗丙肝药物是病毒性肝炎治疗领域的一个重大突破，不仅对 90% 以上的丙肝患者有效，而且相比于传统治疗方案，不良反应明显减少。\nNews. gilead shares dip after warning about hepatitis C drug interaction. Clin Infect Dis, 2015, 60 (15 May).沈震摘译王明贵审校"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震.pdf",
+          "chunk_index": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震:1",
+          "raw_text": "胺碘酮是一个治疗严重心律失常的老药，如室性心动过速和室颤",
+          "chunk_id": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震:1",
+          "data": "a Pak也已加注类似的警告标示。\n胺碘酮是一个治疗严重心律失常的老药，如室性心动过速和室颤不良反应多，毒性大。新型抗丙肝药物是病毒性肝炎治疗领域的一个重大突破，不仅对 90% 以上的丙肝患者有效，而且相比于传统治疗方案，不良反应明显减少。\nNews. gilead shares dip after warning about hepatitis C drug interaction. Clin Infect Dis, 2015, 60 (15 May).沈震摘译王明贵审校"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震.pdf",
+          "chunk_index": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震:1",
+          "raw_text": "胺碘酮是一个治疗严重心律失常的老药，如室性心动过速和室颤",
+          "chunk_id": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震:1",
+          "data": "a Pak也已加注类似的警告标示。\n胺碘酮是一个治疗严重心律失常的老药，如室性心动过速和室颤不良反应多，毒性大。新型抗丙肝药物是病毒性肝炎治疗领域的一个重大突破，不仅对 90% 以上的丙肝患者有效，而且相比于传统治疗方案，不良反应明显减少。\nNews. gilead shares dip after warning about hepatitis C drug interaction. Clin Infect Dis, 2015, 60 (15 May).沈震摘译王明贵审校"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震.pdf",
+          "chunk_index": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震:1",
+          "raw_text": "新型抗丙肝药物是病毒性肝炎治疗领域的一个重大突破，不仅对 90% 以上的丙肝患者有效",
+          "chunk_id": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震:1",
+          "data": "a Pak也已加注类似的警告标示。\n胺碘酮是一个治疗严重心律失常的老药，如室性心动过速和室颤不良反应多，毒性大。新型抗丙肝药物是病毒性肝炎治疗领域的一个重大突破，不仅对 90% 以上的丙肝患者有效，而且相比于传统治疗方案，不良反应明显减少。\nNews. gilead shares dip after warning about hepatitis C drug interaction. Clin Infect Dis, 2015, 60 (15 May).沈震摘译王明贵审校"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震:1",
+    "source": "抗丙型肝炎药物的药物相互作用导致Gilead公司股价下跌_沈震.pdf",
+    "text": "a Pak也已加注类似的警告标示。\n胺碘酮是一个治疗严重心律失常的老药，如室性心动过速和室颤不良反应多，毒性大。新型抗丙肝药物是病毒性肝炎治疗领域的一个重大突破，不仅对 90% 以上的丙肝患者有效，而且相比于传统治疗方案，不良反应明显减少。\nNews. gilead shares dip after warning about hepatitis C drug interaction. Clin Infect Dis, 2015, 60 (15 May).沈震摘译王明贵审校"
+  }
+]

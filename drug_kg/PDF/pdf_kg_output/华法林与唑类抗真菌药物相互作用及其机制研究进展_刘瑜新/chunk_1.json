@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "唑类抗真菌药物",
+        "canonical_name": "唑类抗真菌药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新.pdf",
+          "chunk_index": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新:1",
+          "raw_text": "华法林和部分唑类抗真菌药联用会增强华法林的抗凝作用",
+          "chunk_id": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新:1",
+          "data": "ew\n华法林与唑类抗真菌药物相互作用及其机制研究进展\nResearch of the interaction and their mechanisms between warfarin and azole antifungal agents\n刘瑜新1，2 ，傅静兰2，3 ，夏霄彤2，3 ，陈文君2，3 ，吴婷婷2，3 ，张进华2，3( 1. 河南大学淮河医院药学部，河南开封475000. 2. 福建医科大学附属协和医院药学部，福建福州 350001. 3. 福建医科大学药学院，福建福州 350001)Abstract: Warfarin is widely used in clinic because of its low price，specific antagonist and definite therapeutic evaluation index. Adverse events about the interaction between azole antifungal agents and warfarin have been reported. But little attention has been paid to this. The metabolic pathways of warfarin and azole antifungal drugs were discussed in this paper，combined with the reports of the interaction between the two drugs. To elucidate the interaction and mechanism of warfarin with different azole antifungal agents.LIU Yu － xin1，2 ，FU Jing － lan2，3 ，XIA Xiao － tong2，3 ，CHEN Wen － jun2，3 ，ZHANG Jin － hua2，3( 1. Department of Pharmacy， Huaihe Hospital of Henan University， Kaifeng 475001， Henan Province， China; 2. Department of Ph"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新:1",
+    "source": "华法林与唑类抗真菌药物相互作用及其机制研究进展_刘瑜新.pdf",
+    "text": "ew\n华法林与唑类抗真菌药物相互作用及其机制研究进展\nResearch of the interaction and their mechanisms between warfarin and azole antifungal agents\n刘瑜新1，2 ，傅静兰2，3 ，夏霄彤2，3 ，陈文君2，3 ，吴婷婷2，3 ，张进华2，3( 1. 河南大学淮河医院药学部，河南开封475000. 2. 福建医科大学附属协和医院药学部，福建福州 350001. 3. 福建医科大学药学院，福建福州 350001)Abstract: Warfarin is widely used in clinic because of its low price，specific antagonist and definite therapeutic evaluation index. Adverse events about the interaction between azole antifungal agents and warfarin have been reported. But little attention has been paid to this. The metabolic pathways of warfarin and azole antifungal drugs were discussed in this paper，combined with the reports of the interaction between the two drugs. To elucidate the interaction and mechanism of warfarin with different azole antifungal agents.LIU Yu － xin1，2 ，FU Jing － lan2，3 ，XIA Xiao － tong2，3 ，CHEN Wen － jun2，3 ，ZHANG Jin － hua2，3( 1. Department of Pharmacy， Huaihe Hospital of Henan University， Kaifeng 475001， Henan Province， China; 2. Department of Pharmacy， Fujian Medical University Union Hospital， Fuzhou 350001，Fujian Province，China; 3. School of Pharmacy，Fujian Medical University， Fuzhou 350001， Fujian Province，China)华法林是目前临床上应用最广泛的维生素 K 依赖性凝血因子抑制剂［1］。 国外的华法林说明书中指出，华法林和部分唑类抗真菌药联用会增强华法林的抗凝作用［2］。 但是，国内的华法林说明书并未指出华法林与唑类抗真菌药物存在相互作用。 本文从华法林和唑类抗真菌药物的药代动力学( PK) 特征出发，对唑类抗真菌药物与华法林的相互作用机制的相关文献报道进行综述。"
+  }
+]

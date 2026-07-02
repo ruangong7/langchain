@@ -1,0 +1,119 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "依维莫司",
+        "canonical_name": "依维莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "咪达唑仑",
+        "canonical_name": "咪达唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP3A抑制剂",
+        "canonical_name": "CYP3A抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "格隆溴胺",
+        "canonical_name": "格隆溴胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "咯利普兰",
+        "canonical_name": "咯利普兰",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "布地奈德",
+        "canonical_name": "布地奈德",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1).pdf",
+          "chunk_index": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1):2",
+          "raw_text": "使用咪达唑仑 midazolam 作为 CYPA底物原型 CYPA抑制剂分类系统把使咪达唑仑血浆曲线下面积增加倍的药物归类为 CYPA强抑制药增加倍归为中等抑制增加倍则为弱抑制",
+          "chunk_id": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1):2",
+          "data": "A在该细胞中的表达分析了在脂多糖 LPS刺激下格隆溴胺单独或与各抗炎药联合应用后各组细胞释放 TNF 的情况\n034 依维莫司的药物相互作用：一种指导临床决策分类系统的应用 ［英 ］／KovarikJM∥BiopharmDrugDispos\n据估计临床使用的药物中利用细胞色素P CYP A途径进行生物转化因此采用同一途径代谢的药物同时服用时药代动力学方面的可能的药物相互作用有着明确的临床相关性使用咪达唑仑 midazolam 作为 CYPA底物原型 CYPA抑制剂分类系统把使咪达唑仑血浆曲线下面积增加倍的药物归类为 CYPA强抑制药增加倍归为中等抑制增加倍则为弱抑制mRNA水平检测结果表明 M M M 和 M亚型在这些细胞中的表达呈递减趋势 TNF 释放检测结果显示格隆溴胺单独使用并不影响 LPS诱导的 TNF 释放磷酸二酯酶 PDE 抑制剂咯利普兰 rolipram 剂量依赖性抑制 $\\mathrm { J B F } \\mathrm { \\overline { { { \\Omega } } } } ^ { \\mathrm { Q } }$ 释放最大抑制率达70％其 $\\mathrm { { \\mathbb C } _ { 3 5 . } }$ 为 $( 6 8 . 9 \\pm 1 5 . 2 ) \\mathrm { { m o l } \\bullet \\mathrm { { L } ^ { - 1 } } }$ 若同时给予 $1 0 \\ \\mu _ { \\mathrm { m o l } } . \\ \\mathrm { L } ^ { - 1 }$ 格隆溴胺后其 $\\mathrm { { K } _ { 3 5 } }$ 降至$( 1 . 7 0 { \\pm } 1 . 1 8 ) \\mathrm { m o l } { \\bullet } \\mathrm { L } ^ { - 1 } ( \\mathrm { P } { = } 0 . 0 1 5 1 )$ 抗组胺药氮斯汀 （azelastine）也呈剂量依赖性抑制 TNF-α释放而同时给予格隆溴胺对氮 $\\frac { 1 + 2 } { 4 2 }$ 斯汀的这一作用没有影响皮质醇类药布地奈德 budesonide剂量依赖性抑制 TNF 释放的 $\\mathbb { C } _ { 5 0 }$ 为 $("
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1).pdf",
+          "chunk_index": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1):2",
+          "raw_text": "据估计临床使用的药物中利用细胞色素P CYP A途径进行生物转化因此采用同一途径代谢的药物同时服用时药代动力学方面的可能的药物相互作用有着明确的临床相关性",
+          "chunk_id": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1):2",
+          "data": "A在该细胞中的表达分析了在脂多糖 LPS刺激下格隆溴胺单独或与各抗炎药联合应用后各组细胞释放 TNF 的情况\n034 依维莫司的药物相互作用：一种指导临床决策分类系统的应用 ［英 ］／KovarikJM∥BiopharmDrugDispos\n据估计临床使用的药物中利用细胞色素P CYP A途径进行生物转化因此采用同一途径代谢的药物同时服用时药代动力学方面的可能的药物相互作用有着明确的临床相关性使用咪达唑仑 midazolam 作为 CYPA底物原型 CYPA抑制剂分类系统把使咪达唑仑血浆曲线下面积增加倍的药物归类为 CYPA强抑制药增加倍归为中等抑制增加倍则为弱抑制mRNA水平检测结果表明 M M M 和 M亚型在这些细胞中的表达呈递减趋势 TNF 释放检测结果显示格隆溴胺单独使用并不影响 LPS诱导的 TNF 释放磷酸二酯酶 PDE 抑制剂咯利普兰 rolipram 剂量依赖性抑制 $\\mathrm { J B F } \\mathrm { \\overline { { { \\Omega } } } } ^ { \\mathrm { Q } }$ 释放最大抑制率达70％其 $\\mathrm { { \\mathbb C } _ { 3 5 . } }$ 为 $( 6 8 . 9 \\pm 1 5 . 2 ) \\mathrm { { m o l } \\bullet \\mathrm { { L } ^ { - 1 } } }$ 若同时给予 $1 0 \\ \\mu _ { \\mathrm { m o l } } . \\ \\mathrm { L } ^ { - 1 }$ 格隆溴胺后其 $\\mathrm { { K } _ { 3 5 } }$ 降至$( 1 . 7 0 { \\pm } 1 . 1 8 ) \\mathrm { m o l } { \\bullet } \\mathrm { L } ^ { - 1 } ( \\mathrm { P } { = } 0 . 0 1 5 1 )$ 抗组胺药氮斯汀 （azelastine）也呈剂量依赖性抑制 TNF-α释放而同时给予格隆溴胺对氮 $\\frac { 1 + 2 } { 4 2 }$ 斯汀的这一作用没有影响皮质醇类药布地奈德 budesonide剂量依赖性抑制 TNF 释放的 $\\mathbb { C } _ { 5 0 }$ 为 $("
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1).pdf",
+          "chunk_index": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1):2",
+          "raw_text": "格隆溴胺与布地奈德咯利普兰三者合用对 TNF释放的抑制作用最强且三者协同抗炎作用提示联合用药可以显著减少单一药物的用量因此研究人员得出结论格隆溴胺与 PDE 抑制剂咯利普兰及类固醇药布地奈德在抑制炎症介质方面有协同作用。",
+          "chunk_id": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1):2",
+          "data": "A在该细胞中的表达分析了在脂多糖 LPS刺激下格隆溴胺单独或与各抗炎药联合应用后各组细胞释放 TNF 的情况\n034 依维莫司的药物相互作用：一种指导临床决策分类系统的应用 ［英 ］／KovarikJM∥BiopharmDrugDispos\n据估计临床使用的药物中利用细胞色素P CYP A途径进行生物转化因此采用同一途径代谢的药物同时服用时药代动力学方面的可能的药物相互作用有着明确的临床相关性使用咪达唑仑 midazolam 作为 CYPA底物原型 CYPA抑制剂分类系统把使咪达唑仑血浆曲线下面积增加倍的药物归类为 CYPA强抑制药增加倍归为中等抑制增加倍则为弱抑制mRNA水平检测结果表明 M M M 和 M亚型在这些细胞中的表达呈递减趋势 TNF 释放检测结果显示格隆溴胺单独使用并不影响 LPS诱导的 TNF 释放磷酸二酯酶 PDE 抑制剂咯利普兰 rolipram 剂量依赖性抑制 $\\mathrm { J B F } \\mathrm { \\overline { { { \\Omega } } } } ^ { \\mathrm { Q } }$ 释放最大抑制率达70％其 $\\mathrm { { \\mathbb C } _ { 3 5 . } }$ 为 $( 6 8 . 9 \\pm 1 5 . 2 ) \\mathrm { { m o l } \\bullet \\mathrm { { L } ^ { - 1 } } }$ 若同时给予 $1 0 \\ \\mu _ { \\mathrm { m o l } } . \\ \\mathrm { L } ^ { - 1 }$ 格隆溴胺后其 $\\mathrm { { K } _ { 3 5 } }$ 降至$( 1 . 7 0 { \\pm } 1 . 1 8 ) \\mathrm { m o l } { \\bullet } \\mathrm { L } ^ { - 1 } ( \\mathrm { P } { = } 0 . 0 1 5 1 )$ 抗组胺药氮斯汀 （azelastine）也呈剂量依赖性抑制 TNF-α释放而同时给予格隆溴胺对氮 $\\frac { 1 + 2 } { 4 2 }$ 斯汀的这一作用没有影响皮质醇类药布地奈德 budesonide剂量依赖性抑制 TNF 释放的 $\\mathbb { C } _ { 5 0 }$ 为 $("
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1).pdf",
+          "chunk_index": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1):2",
+          "raw_text": "格隆溴胺与布地奈德咯利普兰三者合用对 TNF释放的抑制作用最强且三者协同抗炎作用提示联合用药可以显著减少单一药物的用量因此研究人员得出结论格隆溴胺与 PDE 抑制剂咯利普兰及类固醇药布地奈德在抑制炎症介质方面有协同作用。",
+          "chunk_id": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1):2",
+          "data": "A在该细胞中的表达分析了在脂多糖 LPS刺激下格隆溴胺单独或与各抗炎药联合应用后各组细胞释放 TNF 的情况\n034 依维莫司的药物相互作用：一种指导临床决策分类系统的应用 ［英 ］／KovarikJM∥BiopharmDrugDispos\n据估计临床使用的药物中利用细胞色素P CYP A途径进行生物转化因此采用同一途径代谢的药物同时服用时药代动力学方面的可能的药物相互作用有着明确的临床相关性使用咪达唑仑 midazolam 作为 CYPA底物原型 CYPA抑制剂分类系统把使咪达唑仑血浆曲线下面积增加倍的药物归类为 CYPA强抑制药增加倍归为中等抑制增加倍则为弱抑制mRNA水平检测结果表明 M M M 和 M亚型在这些细胞中的表达呈递减趋势 TNF 释放检测结果显示格隆溴胺单独使用并不影响 LPS诱导的 TNF 释放磷酸二酯酶 PDE 抑制剂咯利普兰 rolipram 剂量依赖性抑制 $\\mathrm { J B F } \\mathrm { \\overline { { { \\Omega } } } } ^ { \\mathrm { Q } }$ 释放最大抑制率达70％其 $\\mathrm { { \\mathbb C } _ { 3 5 . } }$ 为 $( 6 8 . 9 \\pm 1 5 . 2 ) \\mathrm { { m o l } \\bullet \\mathrm { { L } ^ { - 1 } } }$ 若同时给予 $1 0 \\ \\mu _ { \\mathrm { m o l } } . \\ \\mathrm { L } ^ { - 1 }$ 格隆溴胺后其 $\\mathrm { { K } _ { 3 5 } }$ 降至$( 1 . 7 0 { \\pm } 1 . 1 8 ) \\mathrm { m o l } { \\bullet } \\mathrm { L } ^ { - 1 } ( \\mathrm { P } { = } 0 . 0 1 5 1 )$ 抗组胺药氮斯汀 （azelastine）也呈剂量依赖性抑制 TNF-α释放而同时给予格隆溴胺对氮 $\\frac { 1 + 2 } { 4 2 }$ 斯汀的这一作用没有影响皮质醇类药布地奈德 budesonide剂量依赖性抑制 TNF 释放的 $\\mathbb { C } _ { 5 0 }$ 为 $("
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1).pdf",
+          "chunk_index": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1):2",
+          "raw_text": "格隆溴胺与布地奈德咯利普兰三者合用对 TNF释放的抑制作用最强且三者协同抗炎作用提示联合用药可以显著减少单一药物的用量因此研究人员得出结论格隆溴胺与 PDE 抑制剂咯利普兰及类固醇药布地奈德在抑制炎症介质方面有协同作用。",
+          "chunk_id": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1):2",
+          "data": "A在该细胞中的表达分析了在脂多糖 LPS刺激下格隆溴胺单独或与各抗炎药联合应用后各组细胞释放 TNF 的情况\n034 依维莫司的药物相互作用：一种指导临床决策分类系统的应用 ［英 ］／KovarikJM∥BiopharmDrugDispos\n据估计临床使用的药物中利用细胞色素P CYP A途径进行生物转化因此采用同一途径代谢的药物同时服用时药代动力学方面的可能的药物相互作用有着明确的临床相关性使用咪达唑仑 midazolam 作为 CYPA底物原型 CYPA抑制剂分类系统把使咪达唑仑血浆曲线下面积增加倍的药物归类为 CYPA强抑制药增加倍归为中等抑制增加倍则为弱抑制mRNA水平检测结果表明 M M M 和 M亚型在这些细胞中的表达呈递减趋势 TNF 释放检测结果显示格隆溴胺单独使用并不影响 LPS诱导的 TNF 释放磷酸二酯酶 PDE 抑制剂咯利普兰 rolipram 剂量依赖性抑制 $\\mathrm { J B F } \\mathrm { \\overline { { { \\Omega } } } } ^ { \\mathrm { Q } }$ 释放最大抑制率达70％其 $\\mathrm { { \\mathbb C } _ { 3 5 . } }$ 为 $( 6 8 . 9 \\pm 1 5 . 2 ) \\mathrm { { m o l } \\bullet \\mathrm { { L } ^ { - 1 } } }$ 若同时给予 $1 0 \\ \\mu _ { \\mathrm { m o l } } . \\ \\mathrm { L } ^ { - 1 }$ 格隆溴胺后其 $\\mathrm { { K } _ { 3 5 } }$ 降至$( 1 . 7 0 { \\pm } 1 . 1 8 ) \\mathrm { m o l } { \\bullet } \\mathrm { L } ^ { - 1 } ( \\mathrm { P } { = } 0 . 0 1 5 1 )$ 抗组胺药氮斯汀 （azelastine）也呈剂量依赖性抑制 TNF-α释放而同时给予格隆溴胺对氮 $\\frac { 1 + 2 } { 4 2 }$ 斯汀的这一作用没有影响皮质醇类药布地奈德 budesonide剂量依赖性抑制 TNF 释放的 $\\mathbb { C } _ { 5 0 }$ 为 $("
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1):2",
+    "source": "依维莫司的药物相互作用_一种指导临床决策分类系统的应用_汤智慧 (1).pdf",
+    "text": "A在该细胞中的表达分析了在脂多糖 LPS刺激下格隆溴胺单独或与各抗炎药联合应用后各组细胞释放 TNF 的情况\n034 依维莫司的药物相互作用：一种指导临床决策分类系统的应用 ［英 ］／KovarikJM∥BiopharmDrugDispos\n据估计临床使用的药物中利用细胞色素P CYP A途径进行生物转化因此采用同一途径代谢的药物同时服用时药代动力学方面的可能的药物相互作用有着明确的临床相关性使用咪达唑仑 midazolam 作为 CYPA底物原型 CYPA抑制剂分类系统把使咪达唑仑血浆曲线下面积增加倍的药物归类为 CYPA强抑制药增加倍归为中等抑制增加倍则为弱抑制mRNA水平检测结果表明 M M M 和 M亚型在这些细胞中的表达呈递减趋势 TNF 释放检测结果显示格隆溴胺单独使用并不影响 LPS诱导的 TNF 释放磷酸二酯酶 PDE 抑制剂咯利普兰 rolipram 剂量依赖性抑制 $\\mathrm { J B F } \\mathrm { \\overline { { { \\Omega } } } } ^ { \\mathrm { Q } }$ 释放最大抑制率达70％其 $\\mathrm { { \\mathbb C } _ { 3 5 . } }$ 为 $( 6 8 . 9 \\pm 1 5 . 2 ) \\mathrm { { m o l } \\bullet \\mathrm { { L } ^ { - 1 } } }$ 若同时给予 $1 0 \\ \\mu _ { \\mathrm { m o l } } . \\ \\mathrm { L } ^ { - 1 }$ 格隆溴胺后其 $\\mathrm { { K } _ { 3 5 } }$ 降至$( 1 . 7 0 { \\pm } 1 . 1 8 ) \\mathrm { m o l } { \\bullet } \\mathrm { L } ^ { - 1 } ( \\mathrm { P } { = } 0 . 0 1 5 1 )$ 抗组胺药氮斯汀 （azelastine）也呈剂量依赖性抑制 TNF-α释放而同时给予格隆溴胺对氮 $\\frac { 1 + 2 } { 4 2 }$ 斯汀的这一作用没有影响皮质醇类药布地奈德 budesonide剂量依赖性抑制 TNF 释放的 $\\mathbb { C } _ { 5 0 }$ 为 $( \\mathrm { ~ 0 ~ . ~ 5 5 \\pm 0 . ~ 1 3 ~ } )$ $\\mathrm { m o l } \\cdot \\mathrm { L } ^ { - 1 }$ 若同时给以 $1 0 ~ \\mu _ { \\mathrm { m o l } } \\cdot \\mathrm { ~ L ~ } ^ { - }$ 1格隆溴胺后其$\\mathbb { C } _ { \\mathrm { 5 ( } }$ 降至 $\\mathbf { \\Lambda } ^ { ( 0 . } \\ 1 3 \\pm 0 . \\ 0 0 3 ) \\mathbf { n m o l bullet } \\ L ^ { - 1 } \\left( \\mathbf { P } = 0 . \\ 0 2 5 1 \\right)$ 。格隆溴胺与布地奈德咯利普兰三者合用对 TNF释放的抑制作用最强且三者协同抗炎作用提示联合用药可以显著减少单一药物的用量因此研究人员得出结论格隆溴胺与 PDE 抑制剂咯利普兰及类固醇药布地奈德在抑制炎症介质方面有协同作用。"
+  }
+]

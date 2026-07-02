@@ -1,0 +1,219 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "五味子",
+        "canonical_name": "五味子",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "五味子乙素",
+        "canonical_name": "五味子乙素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "五味子酯甲",
+        "canonical_name": "五味子酯甲",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "五味子甲素",
+        "canonical_name": "五味子甲素",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "五味子酯乙",
+        "canonical_name": "五味子酯乙",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "五味子醇乙",
+        "canonical_name": "五味子醇乙",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "CYP450",
+        "canonical_name": "CYP450",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Indicator",
+        "name": "P-糖蛋白",
+        "canonical_name": "P-糖蛋白",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Indicator",
+        "name": "孕烷X受体",
+        "canonical_name": "孕烷X受体",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Indicator",
+        "name": "核因子相关因子",
+        "canonical_name": "核因子相关因子",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "多药耐药相关蛋白",
+        "canonical_name": "多药耐药相关蛋白",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "raw_text": "五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "data": "五味子与其他药物相互作用机制的研究进展\n杨燕辛华雯 ( 广州军区武汉总医院临床药理科武汉 430070)摘要五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等，可通过影响CYP450、P-糖蛋白( p-gp) 、孕烷 X 受体( PXR) 、核因子相关因子( Nrf2) 、多药耐药相关蛋白( MRP1) 等来改变其他药物的吸收和代谢等过程。本文对五味子的化学成分以及和其他药物相互作用的机制进行了综述。\nAction Mechanism Development of Drug Interactions between Schisandra Chinensis and Other Drugs"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "raw_text": "五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "data": "五味子与其他药物相互作用机制的研究进展\n杨燕辛华雯 ( 广州军区武汉总医院临床药理科武汉 430070)摘要五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等，可通过影响CYP450、P-糖蛋白( p-gp) 、孕烷 X 受体( PXR) 、核因子相关因子( Nrf2) 、多药耐药相关蛋白( MRP1) 等来改变其他药物的吸收和代谢等过程。本文对五味子的化学成分以及和其他药物相互作用的机制进行了综述。\nAction Mechanism Development of Drug Interactions between Schisandra Chinensis and Other Drugs"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "raw_text": "五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "data": "五味子与其他药物相互作用机制的研究进展\n杨燕辛华雯 ( 广州军区武汉总医院临床药理科武汉 430070)摘要五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等，可通过影响CYP450、P-糖蛋白( p-gp) 、孕烷 X 受体( PXR) 、核因子相关因子( Nrf2) 、多药耐药相关蛋白( MRP1) 等来改变其他药物的吸收和代谢等过程。本文对五味子的化学成分以及和其他药物相互作用的机制进行了综述。\nAction Mechanism Development of Drug Interactions between Schisandra Chinensis and Other Drugs"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "raw_text": "五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "data": "五味子与其他药物相互作用机制的研究进展\n杨燕辛华雯 ( 广州军区武汉总医院临床药理科武汉 430070)摘要五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等，可通过影响CYP450、P-糖蛋白( p-gp) 、孕烷 X 受体( PXR) 、核因子相关因子( Nrf2) 、多药耐药相关蛋白( MRP1) 等来改变其他药物的吸收和代谢等过程。本文对五味子的化学成分以及和其他药物相互作用的机制进行了综述。\nAction Mechanism Development of Drug Interactions between Schisandra Chinensis and Other Drugs"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "raw_text": "五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "data": "五味子与其他药物相互作用机制的研究进展\n杨燕辛华雯 ( 广州军区武汉总医院临床药理科武汉 430070)摘要五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等，可通过影响CYP450、P-糖蛋白( p-gp) 、孕烷 X 受体( PXR) 、核因子相关因子( Nrf2) 、多药耐药相关蛋白( MRP1) 等来改变其他药物的吸收和代谢等过程。本文对五味子的化学成分以及和其他药物相互作用的机制进行了综述。\nAction Mechanism Development of Drug Interactions between Schisandra Chinensis and Other Drugs"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "raw_text": "五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等，可通过影响CYP450、P-糖蛋白( p-gp) 、孕烷 X 受体( PXR) 、核因子相关因子( Nrf2) 、多药耐药相关蛋白( MRP1) 等来改变其他药物的吸收和代谢等过程。",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "data": "五味子与其他药物相互作用机制的研究进展\n杨燕辛华雯 ( 广州军区武汉总医院临床药理科武汉 430070)摘要五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等，可通过影响CYP450、P-糖蛋白( p-gp) 、孕烷 X 受体( PXR) 、核因子相关因子( Nrf2) 、多药耐药相关蛋白( MRP1) 等来改变其他药物的吸收和代谢等过程。本文对五味子的化学成分以及和其他药物相互作用的机制进行了综述。\nAction Mechanism Development of Drug Interactions between Schisandra Chinensis and Other Drugs"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "raw_text": "五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等，可通过影响CYP450、P-糖蛋白( p-gp) 、孕烷 X 受体( PXR) 、核因子相关因子( Nrf2) 、多药耐药相关蛋白( MRP1) 等来改变其他药物的吸收和代谢等过程。",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "data": "五味子与其他药物相互作用机制的研究进展\n杨燕辛华雯 ( 广州军区武汉总医院临床药理科武汉 430070)摘要五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等，可通过影响CYP450、P-糖蛋白( p-gp) 、孕烷 X 受体( PXR) 、核因子相关因子( Nrf2) 、多药耐药相关蛋白( MRP1) 等来改变其他药物的吸收和代谢等过程。本文对五味子的化学成分以及和其他药物相互作用的机制进行了综述。\nAction Mechanism Development of Drug Interactions between Schisandra Chinensis and Other Drugs"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "raw_text": "五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等，可通过影响CYP450、P-糖蛋白( p-gp) 、孕烷 X 受体( PXR) 、核因子相关因子( Nrf2) 、多药耐药相关蛋白( MRP1) 等来改变其他药物的吸收和代谢等过程。",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "data": "五味子与其他药物相互作用机制的研究进展\n杨燕辛华雯 ( 广州军区武汉总医院临床药理科武汉 430070)摘要五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等，可通过影响CYP450、P-糖蛋白( p-gp) 、孕烷 X 受体( PXR) 、核因子相关因子( Nrf2) 、多药耐药相关蛋白( MRP1) 等来改变其他药物的吸收和代谢等过程。本文对五味子的化学成分以及和其他药物相互作用的机制进行了综述。\nAction Mechanism Development of Drug Interactions between Schisandra Chinensis and Other Drugs"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "raw_text": "五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等，可通过影响CYP450、P-糖蛋白( p-gp) 、孕烷 X 受体( PXR) 、核因子相关因子( Nrf2) 、多药耐药相关蛋白( MRP1) 等来改变其他药物的吸收和代谢等过程。",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "data": "五味子与其他药物相互作用机制的研究进展\n杨燕辛华雯 ( 广州军区武汉总医院临床药理科武汉 430070)摘要五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等，可通过影响CYP450、P-糖蛋白( p-gp) 、孕烷 X 受体( PXR) 、核因子相关因子( Nrf2) 、多药耐药相关蛋白( MRP1) 等来改变其他药物的吸收和代谢等过程。本文对五味子的化学成分以及和其他药物相互作用的机制进行了综述。\nAction Mechanism Development of Drug Interactions between Schisandra Chinensis and Other Drugs"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+          "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "raw_text": "五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等，可通过影响CYP450、P-糖蛋白( p-gp) 、孕烷 X 受体( PXR) 、核因子相关因子( Nrf2) 、多药耐药相关蛋白( MRP1) 等来改变其他药物的吸收和代谢等过程。",
+          "chunk_id": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+          "data": "五味子与其他药物相互作用机制的研究进展\n杨燕辛华雯 ( 广州军区武汉总医院临床药理科武汉 430070)摘要五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等，可通过影响CYP450、P-糖蛋白( p-gp) 、孕烷 X 受体( PXR) 、核因子相关因子( Nrf2) 、多药耐药相关蛋白( MRP1) 等来改变其他药物的吸收和代谢等过程。本文对五味子的化学成分以及和其他药物相互作用的机制进行了综述。\nAction Mechanism Development of Drug Interactions between Schisandra Chinensis and Other Drugs"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "五味子与其他药物相互作用机制的研究进展_杨燕:0",
+    "source": "五味子与其他药物相互作用机制的研究进展_杨燕.pdf",
+    "text": "五味子与其他药物相互作用机制的研究进展\n杨燕辛华雯 ( 广州军区武汉总医院临床药理科武汉 430070)摘要五味子主要成分为五味子乙素、五味子酯甲 、五味子甲素 、五味子酯乙 、五味子醇乙等，可通过影响CYP450、P-糖蛋白( p-gp) 、孕烷 X 受体( PXR) 、核因子相关因子( Nrf2) 、多药耐药相关蛋白( MRP1) 等来改变其他药物的吸收和代谢等过程。本文对五味子的化学成分以及和其他药物相互作用的机制进行了综述。\nAction Mechanism Development of Drug Interactions between Schisandra Chinensis and Other Drugs"
+  }
+]

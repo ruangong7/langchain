@@ -1,0 +1,379 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "苯巴比妥",
+        "canonical_name": "苯巴比妥",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "扑米酮",
+        "canonical_name": "扑米酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "苯妥英",
+        "canonical_name": "苯妥英",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "氯硝西泮",
+        "canonical_name": "氯硝西泮",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "卡马西平",
+        "canonical_name": "卡马西平",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "奥卡西平",
+        "canonical_name": "奥卡西平",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "丙戊酸",
+        "canonical_name": "丙戊酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "加巴喷丁",
+        "canonical_name": "加巴喷丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "拉莫三嗪",
+        "canonical_name": "拉莫三嗪",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "托吡酯",
+        "canonical_name": "托吡酯",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "左乙拉西坦",
+        "canonical_name": "左乙拉西坦",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "拉考沙胺",
+        "canonical_name": "拉考沙胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "唑尼沙胺",
+        "canonical_name": "唑尼沙胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "吡仑帕奈",
+        "canonical_name": "吡仑帕奈",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "抗癫痫药物",
+        "canonical_name": "抗癫痫药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Food",
+        "name": "草药",
+        "canonical_name": "草药",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "Food",
+        "name": "膳食补充剂",
+        "canonical_name": "膳食补充剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Food",
+        "name": "保健品",
+        "canonical_name": "保健品",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Food",
+        "name": "食物",
+        "canonical_name": "食物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "IN_CLASS",
+        "source_id": "ent_12",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "IN_CLASS",
+        "source_id": "ent_13",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "IN_CLASS",
+        "source_id": "ent_14",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_15",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+          "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "raw_text": "能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。",
+          "chunk_id": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+          "data": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰:3",
+    "source": "基于文献报道的草药、膳食补充剂、保健品、食物与抗癫痫药物相互作用研究_李新辰.pdf",
+    "text": "初步共检索到文献1 472篇，其中PubMed检索到525篇，CNKI、万方、维普共947篇。按流程（图1）筛选，最终纳入48篇文献用于本文的分析。16种草药、4种天然化合物、2种中成药、4种食物、3种膳食补充剂/保健品自文献信息中被提取。\n英文文献检索 PubMed 数据库，将检索式（“Drug Interactions”［Mesh］） AND （ 我国上市通用名）以“用 ”关系分别与下列关键词逐个结合检索 ，包括 ：traditional Chinese medicine、TCM、herb、herb\\* remedy、herb\\* medicine、naturalproduct、complementary medicine、alternative medi⁃cine、dietary supplements、healthy product、food、botanical。\n2.2　与AEDs有相互作用的草药、膳食补充剂、保健品、食物能够与发生相互作用的草药、膳食补充剂、保健品、食物中，来源于案例报道或临床试验提供证据的有14条。对应的AEDs、研究类型、相互作用结果、机制见表1。相互作用的发现基于体内或体外实验的有25条。对应的AEDs、相互作用结果、机制见表2。\n检索策略使用的我国上市通用名包括：苯巴比妥（phenobarbital）、扑米酮（primidone）、苯妥英（phenytoin）、氯硝西泮（clonazepam）、卡马西平（carbamazepine）、奥卡西平（oxcarbazepine）、丙戊酸（valproate）、加巴喷丁（gabapentin）、拉莫三嗪（lamotrigine）、托吡酯（topiramate）、左乙拉西坦（levetiracetam）、拉考沙胺（lacosamide）、唑尼沙胺（zonisamide）、吡仑帕奈（perampanel）。"
+  }
+]

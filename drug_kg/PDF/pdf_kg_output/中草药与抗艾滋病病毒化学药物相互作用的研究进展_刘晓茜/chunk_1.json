@@ -1,0 +1,159 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "核苷类逆转录酶抑制剂",
+        "canonical_name": "核苷类逆转录酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "非核苷类逆转录酶抑制剂",
+        "canonical_name": "非核苷类逆转录酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "蛋白酶抑制剂",
+        "canonical_name": "蛋白酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "进入抑制剂",
+        "canonical_name": "进入抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "整合酶抑制剂",
+        "canonical_name": "整合酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "抗艾滋病病毒化学药物",
+        "canonical_name": "抗艾滋病病毒化学药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Food",
+        "name": "中草药",
+        "canonical_name": "中草药",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "艾滋病",
+        "canonical_name": "艾滋病",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+          "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:1",
+          "raw_text": "中草药与抗艾滋病病毒化学药物的相互作用",
+          "chunk_id": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:1",
+          "data": "了中草药与抗艾滋病病毒化学药物的相互作用，为临床合理用药提供参考。\nResearch Progress on the Interaction Between Herb Medicine and Anti-HIV Chemical Drugs\nLIU Xiaoqian, SUN Tao, ZHANG Lijun\\* (Shanghai Public Health Clinical Center, Shanghai 201508, China)ABSTRACT: OBJECTIVE It is common for human immunodeficiency virus (HIV)-infected patients to use herb medicine due to all kinds of chance infections induced by low immunity. However, herb medicine is very complex, which may affect the clinical efficacy, safety of anti-HIV chemical drugs, even induce HIV resistance. In this work, we summarize the research progress of the interaction between herb and anti-HIV chemical drugs. METHODS Searched and summarized the papers with the key words of herb, anti-HIV drugs and drug-drug interaction from the internet of baidu (www.baidu.com) and pubmed (http://www.ncbi.nlm.nih.gov/pubmed/). RESULTS We summarized the co-administration status of herb medicine and anti-HIV drugs, the effect of pharmacokinetic and human cytochromo P450 (C"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+          "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:1",
+          "raw_text": "抗 AIDS 病毒化学药物",
+          "chunk_id": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:1",
+          "data": "了中草药与抗艾滋病病毒化学药物的相互作用，为临床合理用药提供参考。\nResearch Progress on the Interaction Between Herb Medicine and Anti-HIV Chemical Drugs\nLIU Xiaoqian, SUN Tao, ZHANG Lijun\\* (Shanghai Public Health Clinical Center, Shanghai 201508, China)ABSTRACT: OBJECTIVE It is common for human immunodeficiency virus (HIV)-infected patients to use herb medicine due to all kinds of chance infections induced by low immunity. However, herb medicine is very complex, which may affect the clinical efficacy, safety of anti-HIV chemical drugs, even induce HIV resistance. In this work, we summarize the research progress of the interaction between herb and anti-HIV chemical drugs. METHODS Searched and summarized the papers with the key words of herb, anti-HIV drugs and drug-drug interaction from the internet of baidu (www.baidu.com) and pubmed (http://www.ncbi.nlm.nih.gov/pubmed/). RESULTS We summarized the co-administration status of herb medicine and anti-HIV drugs, the effect of pharmacokinetic and human cytochromo P450 (C"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+          "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:1",
+          "raw_text": "核苷类逆转录酶抑制剂",
+          "chunk_id": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:1",
+          "data": "了中草药与抗艾滋病病毒化学药物的相互作用，为临床合理用药提供参考。\nResearch Progress on the Interaction Between Herb Medicine and Anti-HIV Chemical Drugs\nLIU Xiaoqian, SUN Tao, ZHANG Lijun\\* (Shanghai Public Health Clinical Center, Shanghai 201508, China)ABSTRACT: OBJECTIVE It is common for human immunodeficiency virus (HIV)-infected patients to use herb medicine due to all kinds of chance infections induced by low immunity. However, herb medicine is very complex, which may affect the clinical efficacy, safety of anti-HIV chemical drugs, even induce HIV resistance. In this work, we summarize the research progress of the interaction between herb and anti-HIV chemical drugs. METHODS Searched and summarized the papers with the key words of herb, anti-HIV drugs and drug-drug interaction from the internet of baidu (www.baidu.com) and pubmed (http://www.ncbi.nlm.nih.gov/pubmed/). RESULTS We summarized the co-administration status of herb medicine and anti-HIV drugs, the effect of pharmacokinetic and human cytochromo P450 (C"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+          "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:1",
+          "raw_text": "非核苷类逆转录酶抑制剂",
+          "chunk_id": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:1",
+          "data": "了中草药与抗艾滋病病毒化学药物的相互作用，为临床合理用药提供参考。\nResearch Progress on the Interaction Between Herb Medicine and Anti-HIV Chemical Drugs\nLIU Xiaoqian, SUN Tao, ZHANG Lijun\\* (Shanghai Public Health Clinical Center, Shanghai 201508, China)ABSTRACT: OBJECTIVE It is common for human immunodeficiency virus (HIV)-infected patients to use herb medicine due to all kinds of chance infections induced by low immunity. However, herb medicine is very complex, which may affect the clinical efficacy, safety of anti-HIV chemical drugs, even induce HIV resistance. In this work, we summarize the research progress of the interaction between herb and anti-HIV chemical drugs. METHODS Searched and summarized the papers with the key words of herb, anti-HIV drugs and drug-drug interaction from the internet of baidu (www.baidu.com) and pubmed (http://www.ncbi.nlm.nih.gov/pubmed/). RESULTS We summarized the co-administration status of herb medicine and anti-HIV drugs, the effect of pharmacokinetic and human cytochromo P450 (C"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+          "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:1",
+          "raw_text": "蛋白酶抑制剂",
+          "chunk_id": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:1",
+          "data": "了中草药与抗艾滋病病毒化学药物的相互作用，为临床合理用药提供参考。\nResearch Progress on the Interaction Between Herb Medicine and Anti-HIV Chemical Drugs\nLIU Xiaoqian, SUN Tao, ZHANG Lijun\\* (Shanghai Public Health Clinical Center, Shanghai 201508, China)ABSTRACT: OBJECTIVE It is common for human immunodeficiency virus (HIV)-infected patients to use herb medicine due to all kinds of chance infections induced by low immunity. However, herb medicine is very complex, which may affect the clinical efficacy, safety of anti-HIV chemical drugs, even induce HIV resistance. In this work, we summarize the research progress of the interaction between herb and anti-HIV chemical drugs. METHODS Searched and summarized the papers with the key words of herb, anti-HIV drugs and drug-drug interaction from the internet of baidu (www.baidu.com) and pubmed (http://www.ncbi.nlm.nih.gov/pubmed/). RESULTS We summarized the co-administration status of herb medicine and anti-HIV drugs, the effect of pharmacokinetic and human cytochromo P450 (C"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+          "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:1",
+          "raw_text": "进入抑制剂",
+          "chunk_id": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:1",
+          "data": "了中草药与抗艾滋病病毒化学药物的相互作用，为临床合理用药提供参考。\nResearch Progress on the Interaction Between Herb Medicine and Anti-HIV Chemical Drugs\nLIU Xiaoqian, SUN Tao, ZHANG Lijun\\* (Shanghai Public Health Clinical Center, Shanghai 201508, China)ABSTRACT: OBJECTIVE It is common for human immunodeficiency virus (HIV)-infected patients to use herb medicine due to all kinds of chance infections induced by low immunity. However, herb medicine is very complex, which may affect the clinical efficacy, safety of anti-HIV chemical drugs, even induce HIV resistance. In this work, we summarize the research progress of the interaction between herb and anti-HIV chemical drugs. METHODS Searched and summarized the papers with the key words of herb, anti-HIV drugs and drug-drug interaction from the internet of baidu (www.baidu.com) and pubmed (http://www.ncbi.nlm.nih.gov/pubmed/). RESULTS We summarized the co-administration status of herb medicine and anti-HIV drugs, the effect of pharmacokinetic and human cytochromo P450 (C"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+          "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:1",
+          "raw_text": "整合酶抑制剂",
+          "chunk_id": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:1",
+          "data": "了中草药与抗艾滋病病毒化学药物的相互作用，为临床合理用药提供参考。\nResearch Progress on the Interaction Between Herb Medicine and Anti-HIV Chemical Drugs\nLIU Xiaoqian, SUN Tao, ZHANG Lijun\\* (Shanghai Public Health Clinical Center, Shanghai 201508, China)ABSTRACT: OBJECTIVE It is common for human immunodeficiency virus (HIV)-infected patients to use herb medicine due to all kinds of chance infections induced by low immunity. However, herb medicine is very complex, which may affect the clinical efficacy, safety of anti-HIV chemical drugs, even induce HIV resistance. In this work, we summarize the research progress of the interaction between herb and anti-HIV chemical drugs. METHODS Searched and summarized the papers with the key words of herb, anti-HIV drugs and drug-drug interaction from the internet of baidu (www.baidu.com) and pubmed (http://www.ncbi.nlm.nih.gov/pubmed/). RESULTS We summarized the co-administration status of herb medicine and anti-HIV drugs, the effect of pharmacokinetic and human cytochromo P450 (C"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:1",
+    "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+    "text": "了中草药与抗艾滋病病毒化学药物的相互作用，为临床合理用药提供参考。\nResearch Progress on the Interaction Between Herb Medicine and Anti-HIV Chemical Drugs\nLIU Xiaoqian, SUN Tao, ZHANG Lijun\\* (Shanghai Public Health Clinical Center, Shanghai 201508, China)ABSTRACT: OBJECTIVE It is common for human immunodeficiency virus (HIV)-infected patients to use herb medicine due to all kinds of chance infections induced by low immunity. However, herb medicine is very complex, which may affect the clinical efficacy, safety of anti-HIV chemical drugs, even induce HIV resistance. In this work, we summarize the research progress of the interaction between herb and anti-HIV chemical drugs. METHODS Searched and summarized the papers with the key words of herb, anti-HIV drugs and drug-drug interaction from the internet of baidu (www.baidu.com) and pubmed (http://www.ncbi.nlm.nih.gov/pubmed/). RESULTS We summarized the co-administration status of herb medicine and anti-HIV drugs, the effect of pharmacokinetic and human cytochromo P450 (CYP450) enzymes of herb medicine on the anti-HIV chemical drugs. CONCLUSION In this manuscript, we systematically summarized the interaction between herb medicine and anti-HIV drugs, which might offer some clues for clinical therapy.艾滋病(AIDS)是由人类免疫缺陷病毒(HIV)引起的病死率极高的严重疾病，截至 2014 年 10 月底，报告现存活的 AIDS 病毒感染者和患者已达49.7 万例(感染者占 60%左右)，死亡 15.4 万例，经性传播成为主要传播途径。自从 1981 年首次发现 AIDS 以来，至今医学界仍未成功研究出可以彻底治疗 AIDS 的方法，亦未成功开发出疫苗以预防HIV 感染。现有抗 AIDS 病毒化学药物包括核苷类逆转录酶抑制剂 (nucleoside reverse transcriptaseinhibitors，NRTIs)、非核苷类逆转录酶抑制剂(non-nucleoside reverse transcriptase inhibitors ，NNRTIs)、蛋白酶抑制剂(protease inhibitor，PIs)、进入抑制剂 (entry inhibitors) 、 整合酶抑制剂(integrase inhibitors)[1]。根据病毒复制的不同环节将抗病毒药物联合使用而组成的高效抗病毒疗法(HAART 疗法，又称“鸡尾酒”疗法)，能够大幅降低病毒载量、减少机会性感染、获得免疫重建、显著降低 AIDS/AIDS 相关疾病的发病率和病死率。然而 HAART 疗法存在 HIV 耐药、不良反应等种种不足。近年来，中草药因其具有增强机体的免疫能力，抑制或杀灭病毒等特点，在一些发展中国家被广泛用于 AIDS 的辅助甚至替代治疗[2-4]。一项对南非100名接受抗病毒治疗的AIDS患者的调查研究显示，16%的患者同时服用了抗病毒药物和传统中草药，79%的患者在确诊 AIDS 前服用了传统中草药。服用传统中草药的患者人群大多来自贫困地区，以女性、老人、未婚者、教育程度低或者 HIV 感染低于 5 年的人群为主[4]。在乌干达西部的卡巴罗莱地区进行的一项137例AIDS患者的研究显示，其中 63.5%的患者在确诊 HIV 感染后服用了中草药，大约有 32.8%的患者同时服用抗病毒化学药和中草药[5]。抗病毒化学药物和中草药联合服用治疗 AIDS 的情况已经十分普遍，但是中草药成分非常复杂，其对化学药物的影响未知，因此探讨中草药与化学药物的相互作用，了解中草药与化学药物相互作用的作用机制，对临床安全用药具有重要意义。本研究从药效学和药物代谢动力学等方面综述中草药的抗病毒作用及其对化学药物的影响及作用机制。"
+  }
+]

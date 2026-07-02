@@ -1,7 +1,0 @@
-[
-  {
-    "text": "，K 是肝脏能容纳 HBV 的最大容纳量， $\\gamma_{2}$ 是药物抑制 HBV 增殖的比率， $\\gamma_{3}$ 是药物的投放率，它与检测的肝脏内的 HBV 量成正比， $\\gamma_{4}$ 是 HBV 对药物的消耗率。下面引入关于问题(1)的一些基本结论.引理2.1(比较原理）设 $u^{(1)}$ 和 $u^{(2)} \\in \\mathbf{C}^{2,1}(Q_T)$ 和 $\\overline{\\mathbf{Q}}_T$ 上连续，且是热传导方程 $u_t - \\Delta u = 0$ 在 $Q_T$ 上的解，若在 $\\Gamma_T$ 上有 $u^{(1)} \\leqslant u^{(2)} (u^{(1)} \\geqslant u^{(2)})$ ，则在 $\\overline{\\mathbf{Q}}_T$ 上也有 $u^{(1)} \\leqslant u^{(2)} (u^{(1)} \\geqslant u^{(2)})$ .对于问题(1)中给定的参数,基于抛物型方程的比较原理(引理2.1),可得问题(1)解的存在唯一性结论,设当 $u_{i} \\geqslant 0 (i = 1,2)$ 时，有 $\\partial f_{1} / \\partial u_{2} = -\\gamma_{2}u_{1} \\leqslant 0, \\partial f_{2} / \\partial u_{1} = \\gamma_{3} - \\gamma_{4}u_{2}$ .因为药物过量会对肝脏产生很大副作用，所以我们仅考虑 $u_{2} \\leqslant \\gamma_{3} / \\gamma_{4}$ 时的情形，即 $\\partial f_{2} / \\partial u_{1} \\geqslant 0$ 。由抛物方程组下解的定义， $(0,0)$ 是问题(1)的一下解。构造(1)的一上解。",
-    "source": "关于HBV及其药物相互作用的反应扩散方程的参数识别_乔梅红.pdf",
-    "chunk_index": "关于HBV及其药物相互作用的反应扩散方程的参数识别_乔梅红:2"
-  }
-]

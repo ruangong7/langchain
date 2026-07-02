@@ -1,0 +1,139 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "米贝拉地尔",
+        "canonical_name": "米贝拉地尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "T型钙通道阻滞剂",
+        "canonical_name": "T型钙通道阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "高血压",
+        "canonical_name": "高血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "冠心病",
+        "canonical_name": "冠心病",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "心绞痛",
+        "canonical_name": "心绞痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "心力衰竭",
+        "canonical_name": "心力衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "严重不良反应",
+        "canonical_name": "严重不良反应",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏.pdf",
+          "chunk_index": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏:1",
+          "raw_text": "Mibefradil is a new T-type calcium channel blocker",
+          "chunk_id": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏:1",
+          "data": "重视和加强监控药物相互作用的不良反应等安全性评估，加快我国的新药研发进程。\nAnalysis and inspiration from fatal drug interactions causing mibefradil withdrawn\nJIA You-hong, LI Yi-shi Key Laboratory of Clinical Trial Research in Cardiovascular Drugs Ministry of Health, Center for Clinical Pharmacology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100037, China Abstract: Mibefradil is a new T-type calcium channel blocker for treating hypertension, coronary heart disease, angina, and heart failure, which is researched and produced by Switzerland Roche laboratory. It was approved in Europe, the United States, and Japan in 1997, but soon it was withdrawn from the market voluntarily in June 1998 due to its serious side effects. We now reviewed its pharmacological properties, clinical trial results, serious drug interactions, and the adjustment process after listing, hoping that it could give some useful inspiration for the new drug rese"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏.pdf",
+          "chunk_index": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏:1",
+          "raw_text": "适应症为高血压、冠心病心绞痛和心力衰竭",
+          "chunk_id": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏:1",
+          "data": "重视和加强监控药物相互作用的不良反应等安全性评估，加快我国的新药研发进程。\nAnalysis and inspiration from fatal drug interactions causing mibefradil withdrawn\nJIA You-hong, LI Yi-shi Key Laboratory of Clinical Trial Research in Cardiovascular Drugs Ministry of Health, Center for Clinical Pharmacology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100037, China Abstract: Mibefradil is a new T-type calcium channel blocker for treating hypertension, coronary heart disease, angina, and heart failure, which is researched and produced by Switzerland Roche laboratory. It was approved in Europe, the United States, and Japan in 1997, but soon it was withdrawn from the market voluntarily in June 1998 due to its serious side effects. We now reviewed its pharmacological properties, clinical trial results, serious drug interactions, and the adjustment process after listing, hoping that it could give some useful inspiration for the new drug rese"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏.pdf",
+          "chunk_index": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏:1",
+          "raw_text": "适应症为高血压、冠心病心绞痛和心力衰竭",
+          "chunk_id": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏:1",
+          "data": "重视和加强监控药物相互作用的不良反应等安全性评估，加快我国的新药研发进程。\nAnalysis and inspiration from fatal drug interactions causing mibefradil withdrawn\nJIA You-hong, LI Yi-shi Key Laboratory of Clinical Trial Research in Cardiovascular Drugs Ministry of Health, Center for Clinical Pharmacology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100037, China Abstract: Mibefradil is a new T-type calcium channel blocker for treating hypertension, coronary heart disease, angina, and heart failure, which is researched and produced by Switzerland Roche laboratory. It was approved in Europe, the United States, and Japan in 1997, but soon it was withdrawn from the market voluntarily in June 1998 due to its serious side effects. We now reviewed its pharmacological properties, clinical trial results, serious drug interactions, and the adjustment process after listing, hoping that it could give some useful inspiration for the new drug rese"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏.pdf",
+          "chunk_index": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏:1",
+          "raw_text": "适应症为高血压、冠心病心绞痛和心力衰竭",
+          "chunk_id": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏:1",
+          "data": "重视和加强监控药物相互作用的不良反应等安全性评估，加快我国的新药研发进程。\nAnalysis and inspiration from fatal drug interactions causing mibefradil withdrawn\nJIA You-hong, LI Yi-shi Key Laboratory of Clinical Trial Research in Cardiovascular Drugs Ministry of Health, Center for Clinical Pharmacology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100037, China Abstract: Mibefradil is a new T-type calcium channel blocker for treating hypertension, coronary heart disease, angina, and heart failure, which is researched and produced by Switzerland Roche laboratory. It was approved in Europe, the United States, and Japan in 1997, but soon it was withdrawn from the market voluntarily in June 1998 due to its serious side effects. We now reviewed its pharmacological properties, clinical trial results, serious drug interactions, and the adjustment process after listing, hoping that it could give some useful inspiration for the new drug rese"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏.pdf",
+          "chunk_index": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏:1",
+          "raw_text": "适应症为高血压、冠心病心绞痛和心力衰竭",
+          "chunk_id": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏:1",
+          "data": "重视和加强监控药物相互作用的不良反应等安全性评估，加快我国的新药研发进程。\nAnalysis and inspiration from fatal drug interactions causing mibefradil withdrawn\nJIA You-hong, LI Yi-shi Key Laboratory of Clinical Trial Research in Cardiovascular Drugs Ministry of Health, Center for Clinical Pharmacology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100037, China Abstract: Mibefradil is a new T-type calcium channel blocker for treating hypertension, coronary heart disease, angina, and heart failure, which is researched and produced by Switzerland Roche laboratory. It was approved in Europe, the United States, and Japan in 1997, but soon it was withdrawn from the market voluntarily in June 1998 due to its serious side effects. We now reviewed its pharmacological properties, clinical trial results, serious drug interactions, and the adjustment process after listing, hoping that it could give some useful inspiration for the new drug rese"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏.pdf",
+          "chunk_index": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏:1",
+          "raw_text": "due to its serious side effects",
+          "chunk_id": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏:1",
+          "data": "重视和加强监控药物相互作用的不良反应等安全性评估，加快我国的新药研发进程。\nAnalysis and inspiration from fatal drug interactions causing mibefradil withdrawn\nJIA You-hong, LI Yi-shi Key Laboratory of Clinical Trial Research in Cardiovascular Drugs Ministry of Health, Center for Clinical Pharmacology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100037, China Abstract: Mibefradil is a new T-type calcium channel blocker for treating hypertension, coronary heart disease, angina, and heart failure, which is researched and produced by Switzerland Roche laboratory. It was approved in Europe, the United States, and Japan in 1997, but soon it was withdrawn from the market voluntarily in June 1998 due to its serious side effects. We now reviewed its pharmacological properties, clinical trial results, serious drug interactions, and the adjustment process after listing, hoping that it could give some useful inspiration for the new drug rese"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏:1",
+    "source": "致命性药物相互作用导致米贝拉地尔撤市的简析与启示_贾友宏.pdf",
+    "text": "重视和加强监控药物相互作用的不良反应等安全性评估，加快我国的新药研发进程。\nAnalysis and inspiration from fatal drug interactions causing mibefradil withdrawn\nJIA You-hong, LI Yi-shi Key Laboratory of Clinical Trial Research in Cardiovascular Drugs Ministry of Health, Center for Clinical Pharmacology, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100037, China Abstract: Mibefradil is a new T-type calcium channel blocker for treating hypertension, coronary heart disease, angina, and heart failure, which is researched and produced by Switzerland Roche laboratory. It was approved in Europe, the United States, and Japan in 1997, but soon it was withdrawn from the market voluntarily in June 1998 due to its serious side effects. We now reviewed its pharmacological properties, clinical trial results, serious drug interactions, and the adjustment process after listing, hoping that it could give some useful inspiration for the new drug research and development, enhance their understanding for the study on the clinical evaluation of new drugs after listing, attach the importance, and strengthen the safety assessment of monitoring drug interactions, side effects, so as to accelerate the process of research and development of new drugs.盐酸米贝拉地尔 （ mibefradil ， Posicor ，Ro40-5967），也称咪拉地尔，由瑞士罗氏公司研制生产，在欧洲、美国和日本上市，当初适应症为高血压、冠心病心绞痛和心力衰竭[1-2]。美国批准上市时间为 1997年 8 月，但1998 年6 月自愿撤市。投入巨资研制的心血管新药在不到 1 年的时间里就“寿终正寝”了，研发者与生产者都血本无归，其损失是惨重的。检索已经发表的研究其疗效和安全性文献、药品不良反应报告以及药品管理机构采取的措施，进行简要回顾与分析，通过前车之鉴，希望从原研厂家、医疗机构、医生和患者等不同视角，加深对我国新药临床评价研究的认识、加强新药上市再监控和药物相互作用的不良反应评估，以加快我国的新药研发进程。"
+  }
+]

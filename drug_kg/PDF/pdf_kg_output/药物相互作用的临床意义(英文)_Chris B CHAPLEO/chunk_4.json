@@ -1,0 +1,186 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "苯二氮卓类药物",
+        "canonical_name": "苯二氮卓类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "尼古丁",
+        "canonical_name": "尼古丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "伐尼克兰",
+        "canonical_name": "伐尼克兰",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "尼古丁替代疗法",
+        "canonical_name": "尼古丁替代疗法",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "安非他酮",
+        "canonical_name": "安非他酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "SideEffect",
+        "name": "恶心",
+        "canonical_name": "恶心",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "激越",
+        "canonical_name": "激越",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "SideEffect",
+        "name": "抑郁",
+        "canonical_name": "抑郁",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "自杀倾向",
+        "canonical_name": "自杀倾向",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "尼古丁依赖",
+        "canonical_name": "尼古丁依赖",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION\nHAOWeiTANLinxiangTANGQuansheng（MentalHealthInstituteSecondXiangyaHospitalCentralSouthUniversity WHOCollaboratingCenterforDrugAbuseandHealthHunanChangsha410011）ABSTRACT Tobaccouseisthesinglemostpreventablecauseofdeathdisabilityanddiseaseintheworld andisprojectedtobetheleadingcauseofdeathanddisabilityacrossalldevelopedanddevelopingcountriesbythe year2020．Nicotinetheprimaryactiveingredientofcigarettesthatcontributestophysicaldependenceactson nicotinereceptorsinthecentralnervoussystemandleadstothereleaseofneurotransmitters（suchasdopamine）． Likeotherdrugsofabuse nicotine isthoughtto  so producesreinforcing effectsby activating the mesocorticolimbicdopaminesystem．Awidevarietyofcessationtreatmentofnicotinedependencearecommercially availableyetonlytwogeneralapproacheshavereceivedempiricalvalidation：behavioralintervention（including5 Asbriefintervention） andpharm"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "The safety profile of varenicline is excellent, with the most commonly occurring adverse event, nausea, typically mild and well tolerated.",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION\nHAOWeiTANLinxiangTANGQuansheng（MentalHealthInstituteSecondXiangyaHospitalCentralSouthUniversity WHOCollaboratingCenterforDrugAbuseandHealthHunanChangsha410011）ABSTRACT Tobaccouseisthesinglemostpreventablecauseofdeathdisabilityanddiseaseintheworld andisprojectedtobetheleadingcauseofdeathanddisabilityacrossalldevelopedanddevelopingcountriesbythe year2020．Nicotinetheprimaryactiveingredientofcigarettesthatcontributestophysicaldependenceactson nicotinereceptorsinthecentralnervoussystemandleadstothereleaseofneurotransmitters（suchasdopamine）． Likeotherdrugsofabuse nicotine isthoughtto  so producesreinforcing effectsby activating the mesocorticolimbicdopaminesystem．Awidevarietyofcessationtreatmentofnicotinedependencearecommercially availableyetonlytwogeneralapproacheshavereceivedempiricalvalidation：behavioralintervention（including5 Asbriefintervention） andpharm"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "news safety warnings were added to the varenicline label because of post-marketing report including agitation, depression and suicidality.",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION\nHAOWeiTANLinxiangTANGQuansheng（MentalHealthInstituteSecondXiangyaHospitalCentralSouthUniversity WHOCollaboratingCenterforDrugAbuseandHealthHunanChangsha410011）ABSTRACT Tobaccouseisthesinglemostpreventablecauseofdeathdisabilityanddiseaseintheworld andisprojectedtobetheleadingcauseofdeathanddisabilityacrossalldevelopedanddevelopingcountriesbythe year2020．Nicotinetheprimaryactiveingredientofcigarettesthatcontributestophysicaldependenceactson nicotinereceptorsinthecentralnervoussystemandleadstothereleaseofneurotransmitters（suchasdopamine）． Likeotherdrugsofabuse nicotine isthoughtto  so producesreinforcing effectsby activating the mesocorticolimbicdopaminesystem．Awidevarietyofcessationtreatmentofnicotinedependencearecommercially availableyetonlytwogeneralapproacheshavereceivedempiricalvalidation：behavioralintervention（including5 Asbriefintervention） andpharm"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "news safety warnings were added to the varenicline label because of post-marketing report including agitation, depression and suicidality.",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION\nHAOWeiTANLinxiangTANGQuansheng（MentalHealthInstituteSecondXiangyaHospitalCentralSouthUniversity WHOCollaboratingCenterforDrugAbuseandHealthHunanChangsha410011）ABSTRACT Tobaccouseisthesinglemostpreventablecauseofdeathdisabilityanddiseaseintheworld andisprojectedtobetheleadingcauseofdeathanddisabilityacrossalldevelopedanddevelopingcountriesbythe year2020．Nicotinetheprimaryactiveingredientofcigarettesthatcontributestophysicaldependenceactson nicotinereceptorsinthecentralnervoussystemandleadstothereleaseofneurotransmitters（suchasdopamine）． Likeotherdrugsofabuse nicotine isthoughtto  so producesreinforcing effectsby activating the mesocorticolimbicdopaminesystem．Awidevarietyofcessationtreatmentofnicotinedependencearecommercially availableyetonlytwogeneralapproacheshavereceivedempiricalvalidation：behavioralintervention（including5 Asbriefintervention） andpharm"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "news safety warnings were added to the varenicline label because of post-marketing report including agitation, depression and suicidality.",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION\nHAOWeiTANLinxiangTANGQuansheng（MentalHealthInstituteSecondXiangyaHospitalCentralSouthUniversity WHOCollaboratingCenterforDrugAbuseandHealthHunanChangsha410011）ABSTRACT Tobaccouseisthesinglemostpreventablecauseofdeathdisabilityanddiseaseintheworld andisprojectedtobetheleadingcauseofdeathanddisabilityacrossalldevelopedanddevelopingcountriesbythe year2020．Nicotinetheprimaryactiveingredientofcigarettesthatcontributestophysicaldependenceactson nicotinereceptorsinthecentralnervoussystemandleadstothereleaseofneurotransmitters（suchasdopamine）． Likeotherdrugsofabuse nicotine isthoughtto  so producesreinforcing effectsby activating the mesocorticolimbicdopaminesystem．Awidevarietyofcessationtreatmentofnicotinedependencearecommercially availableyetonlytwogeneralapproacheshavereceivedempiricalvalidation：behavioralintervention（including5 Asbriefintervention） andpharm"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "Varenicline, a novel α4β2 nicotinic receptor partial agonist, is efficacious for the treatment of tobacco dependence.",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION\nHAOWeiTANLinxiangTANGQuansheng（MentalHealthInstituteSecondXiangyaHospitalCentralSouthUniversity WHOCollaboratingCenterforDrugAbuseandHealthHunanChangsha410011）ABSTRACT Tobaccouseisthesinglemostpreventablecauseofdeathdisabilityanddiseaseintheworld andisprojectedtobetheleadingcauseofdeathanddisabilityacrossalldevelopedanddevelopingcountriesbythe year2020．Nicotinetheprimaryactiveingredientofcigarettesthatcontributestophysicaldependenceactson nicotinereceptorsinthecentralnervoussystemandleadstothereleaseofneurotransmitters（suchasdopamine）． Likeotherdrugsofabuse nicotine isthoughtto  so producesreinforcing effectsby activating the mesocorticolimbicdopaminesystem．Awidevarietyofcessationtreatmentofnicotinedependencearecommercially availableyetonlytwogeneralapproacheshavereceivedempiricalvalidation：behavioralintervention（including5 Asbriefintervention） andpharm"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "Three types of medication have been available in market for smoking cessation treatment: nicotine replacement treatment (NRT, i.e., transdermal patch, gum, inhaler, nasal spray, and lozenge), sustained release bupropion and varenicline.",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION\nHAOWeiTANLinxiangTANGQuansheng（MentalHealthInstituteSecondXiangyaHospitalCentralSouthUniversity WHOCollaboratingCenterforDrugAbuseandHealthHunanChangsha410011）ABSTRACT Tobaccouseisthesinglemostpreventablecauseofdeathdisabilityanddiseaseintheworld andisprojectedtobetheleadingcauseofdeathanddisabilityacrossalldevelopedanddevelopingcountriesbythe year2020．Nicotinetheprimaryactiveingredientofcigarettesthatcontributestophysicaldependenceactson nicotinereceptorsinthecentralnervoussystemandleadstothereleaseofneurotransmitters（suchasdopamine）． Likeotherdrugsofabuse nicotine isthoughtto  so producesreinforcing effectsby activating the mesocorticolimbicdopaminesystem．Awidevarietyofcessationtreatmentofnicotinedependencearecommercially availableyetonlytwogeneralapproacheshavereceivedempiricalvalidation：behavioralintervention（including5 Asbriefintervention） andpharm"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_5",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+          "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "raw_text": "Three types of medication have been available in market for smoking cessation treatment: nicotine replacement treatment (NRT, i.e., transdermal patch, gum, inhaler, nasal spray, and lozenge), sustained release bupropion and varenicline.",
+          "chunk_id": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+          "data": "死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION\nHAOWeiTANLinxiangTANGQuansheng（MentalHealthInstituteSecondXiangyaHospitalCentralSouthUniversity WHOCollaboratingCenterforDrugAbuseandHealthHunanChangsha410011）ABSTRACT Tobaccouseisthesinglemostpreventablecauseofdeathdisabilityanddiseaseintheworld andisprojectedtobetheleadingcauseofdeathanddisabilityacrossalldevelopedanddevelopingcountriesbythe year2020．Nicotinetheprimaryactiveingredientofcigarettesthatcontributestophysicaldependenceactson nicotinereceptorsinthecentralnervoussystemandleadstothereleaseofneurotransmitters（suchasdopamine）． Likeotherdrugsofabuse nicotine isthoughtto  so producesreinforcing effectsby activating the mesocorticolimbicdopaminesystem．Awidevarietyofcessationtreatmentofnicotinedependencearecommercially availableyetonlytwogeneralapproacheshavereceivedempiricalvalidation：behavioralintervention（including5 Asbriefintervention） andpharm"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物相互作用的临床意义(英文)_Chris B CHAPLEO:4",
+    "source": "药物相互作用的临床意义(英文)_Chris B CHAPLEO.pdf",
+    "text": "死亡本文还讨论了HIV和阿片治疗之间相互作用的例子这种相互作用可导致依从性降低以及较差的临床结局苯二氮艹卓类药物与可加强心血管效应的药物之间的相互作用也需要被考虑到\nNICOTINEDEPENDENCEANDSMOKINGCESSATION\nHAOWeiTANLinxiangTANGQuansheng（MentalHealthInstituteSecondXiangyaHospitalCentralSouthUniversity WHOCollaboratingCenterforDrugAbuseandHealthHunanChangsha410011）ABSTRACT Tobaccouseisthesinglemostpreventablecauseofdeathdisabilityanddiseaseintheworld andisprojectedtobetheleadingcauseofdeathanddisabilityacrossalldevelopedanddevelopingcountriesbythe year2020．Nicotinetheprimaryactiveingredientofcigarettesthatcontributestophysicaldependenceactson nicotinereceptorsinthecentralnervoussystemandleadstothereleaseofneurotransmitters（suchasdopamine）． Likeotherdrugsofabuse nicotine isthoughtto  so producesreinforcing effectsby activating the mesocorticolimbicdopaminesystem．Awidevarietyofcessationtreatmentofnicotinedependencearecommercially availableyetonlytwogeneralapproacheshavereceivedempiricalvalidation：behavioralintervention（including5 Asbriefintervention） andpharmacotherapy．Theevidencesshowthat5Asbriefinterventionisoneofmostcost－ effectivetreatmentsinclinicalworkforbusyphysicians．Threetypesofmedicationhavebeenavailableinmarket forsmokingcessationtreatment：nicotinereplacementtreatment（NRTietransdermalpatchguminhalernasal sprayandlozenge）sustainedreleasebupropionandvarenicline．Vareniclineanovelα4β2nicotinicreceptor partialagonistisefficaciousforthetreatmentoftobaccodependence．Thephase3trialssuggestthatitmaybe moreefficaciousthanNRTandbupropionSR．Thesafetyprofileofvareniclineisexcellentwiththemostcommonly occurringadverseeventnauseatypicallymildandwelltolerated．Howevernewsafetywarningswereaddedto thevareniclinelabelbecauseofpost－marketingreportincludingagitationdepressionandsuicidality．Acausal connectionbetweenvareniclineuseandthesesymptomshasnotbeenestablished"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利奈唑胺",
+        "canonical_name": "利奈唑胺",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "克拉霉素",
+        "canonical_name": "克拉霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Indicator",
+        "name": "利奈唑胺血药浓度",
+        "canonical_name": "利奈唑胺血药浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "不良反应",
+        "canonical_name": "不良反应",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "1例利奈唑胺与克拉霉素药物相互作用的病例分析_刘群.pdf",
+          "chunk_index": "4",
+          "raw_text": "1例利奈唑胺与克拉霉素药物相互作用的病例分析",
+          "chunk_id": "1例利奈唑胺与克拉霉素药物相互作用的病例分析_刘群:4",
+          "data": "素①。结合上述利奈唑胺代谢与年龄的关系，该患儿9岁体重55kg，利奈唑胺一日正常推荐剂量为1.65 g，患儿实际使用剂量为0.8 g（0.4 g bid），患儿使用剂量低于推荐剂量，年龄因素影响不大；患儿肝肾功能无异常，可以排除影响因素②。\n有文献指出利奈唑胺 $C _ { \\mathrm { m i n } } \\geqslant 2 \\ : \\mathrm { m g } \\cdot \\mathrm { m L } ^ { - 1 }$ 能够发挥较好的治疗作用，而 $C _ { \\mathrm { m i n } } \\geqslant 1 0 \\mathrm { m g } \\cdot \\mathrm { m L }$ － 1则可能出现不良反应 [5]，大多数医疗机构将利奈唑胺血清谷浓度高限定为 $7 ~ \\mathrm { m g } \\cdot \\mathrm { m L } ^ { - 1 }$ [6]；因患儿离本院较远，一直网上问诊未再次来院，临床药师后续对患儿进行电话回访，仔细询问知晓患儿利奈唑胺使用剂量持续保持 0.3 g po bid，其他药物剂量不变。2022 年 5 月停药，停药时患儿颈部肿物基本愈合，其间查过两次利奈唑胺血药浓度均在正常安全范围，谷浓度分别为 5.23$\\mathrm { m g \\cdot m L ^ { - 1 } }$ 和 $6 . 4 5 \\mathrm { \\ m g \\cdot m L ^ { - 1 } }$ 。\n2　讨论\n2.1　治疗方案的分析"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "1例利奈唑胺与克拉霉素药物相互作用的病例分析_刘群.pdf",
+          "chunk_index": "4",
+          "raw_text": "患儿查过两次利奈唑胺血药浓度均在正常安全范围",
+          "chunk_id": "1例利奈唑胺与克拉霉素药物相互作用的病例分析_刘群:4",
+          "data": "素①。结合上述利奈唑胺代谢与年龄的关系，该患儿9岁体重55kg，利奈唑胺一日正常推荐剂量为1.65 g，患儿实际使用剂量为0.8 g（0.4 g bid），患儿使用剂量低于推荐剂量，年龄因素影响不大；患儿肝肾功能无异常，可以排除影响因素②。\n有文献指出利奈唑胺 $C _ { \\mathrm { m i n } } \\geqslant 2 \\ : \\mathrm { m g } \\cdot \\mathrm { m L } ^ { - 1 }$ 能够发挥较好的治疗作用，而 $C _ { \\mathrm { m i n } } \\geqslant 1 0 \\mathrm { m g } \\cdot \\mathrm { m L }$ － 1则可能出现不良反应 [5]，大多数医疗机构将利奈唑胺血清谷浓度高限定为 $7 ~ \\mathrm { m g } \\cdot \\mathrm { m L } ^ { - 1 }$ [6]；因患儿离本院较远，一直网上问诊未再次来院，临床药师后续对患儿进行电话回访，仔细询问知晓患儿利奈唑胺使用剂量持续保持 0.3 g po bid，其他药物剂量不变。2022 年 5 月停药，停药时患儿颈部肿物基本愈合，其间查过两次利奈唑胺血药浓度均在正常安全范围，谷浓度分别为 5.23$\\mathrm { m g \\cdot m L ^ { - 1 } }$ 和 $6 . 4 5 \\mathrm { \\ m g \\cdot m L ^ { - 1 } }$ 。\n2　讨论\n2.1　治疗方案的分析"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "1例利奈唑胺与克拉霉素药物相互作用的病例分析_刘群.pdf",
+          "chunk_index": "4",
+          "raw_text": "Cmin≥10 mg·mL-1则可能出现不良反应",
+          "chunk_id": "1例利奈唑胺与克拉霉素药物相互作用的病例分析_刘群:4",
+          "data": "素①。结合上述利奈唑胺代谢与年龄的关系，该患儿9岁体重55kg，利奈唑胺一日正常推荐剂量为1.65 g，患儿实际使用剂量为0.8 g（0.4 g bid），患儿使用剂量低于推荐剂量，年龄因素影响不大；患儿肝肾功能无异常，可以排除影响因素②。\n有文献指出利奈唑胺 $C _ { \\mathrm { m i n } } \\geqslant 2 \\ : \\mathrm { m g } \\cdot \\mathrm { m L } ^ { - 1 }$ 能够发挥较好的治疗作用，而 $C _ { \\mathrm { m i n } } \\geqslant 1 0 \\mathrm { m g } \\cdot \\mathrm { m L }$ － 1则可能出现不良反应 [5]，大多数医疗机构将利奈唑胺血清谷浓度高限定为 $7 ~ \\mathrm { m g } \\cdot \\mathrm { m L } ^ { - 1 }$ [6]；因患儿离本院较远，一直网上问诊未再次来院，临床药师后续对患儿进行电话回访，仔细询问知晓患儿利奈唑胺使用剂量持续保持 0.3 g po bid，其他药物剂量不变。2022 年 5 月停药，停药时患儿颈部肿物基本愈合，其间查过两次利奈唑胺血药浓度均在正常安全范围，谷浓度分别为 5.23$\\mathrm { m g \\cdot m L ^ { - 1 } }$ 和 $6 . 4 5 \\mathrm { \\ m g \\cdot m L ^ { - 1 } }$ 。\n2　讨论\n2.1　治疗方案的分析"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "1例利奈唑胺与克拉霉素药物相互作用的病例分析_刘群:4",
+    "source": "1例利奈唑胺与克拉霉素药物相互作用的病例分析_刘群.pdf",
+    "text": "素①。结合上述利奈唑胺代谢与年龄的关系，该患儿9岁体重55kg，利奈唑胺一日正常推荐剂量为1.65 g，患儿实际使用剂量为0.8 g（0.4 g bid），患儿使用剂量低于推荐剂量，年龄因素影响不大；患儿肝肾功能无异常，可以排除影响因素②。\n有文献指出利奈唑胺 $C _ { \\mathrm { m i n } } \\geqslant 2 \\ : \\mathrm { m g } \\cdot \\mathrm { m L } ^ { - 1 }$ 能够发挥较好的治疗作用，而 $C _ { \\mathrm { m i n } } \\geqslant 1 0 \\mathrm { m g } \\cdot \\mathrm { m L }$ － 1则可能出现不良反应 [5]，大多数医疗机构将利奈唑胺血清谷浓度高限定为 $7 ~ \\mathrm { m g } \\cdot \\mathrm { m L } ^ { - 1 }$ [6]；因患儿离本院较远，一直网上问诊未再次来院，临床药师后续对患儿进行电话回访，仔细询问知晓患儿利奈唑胺使用剂量持续保持 0.3 g po bid，其他药物剂量不变。2022 年 5 月停药，停药时患儿颈部肿物基本愈合，其间查过两次利奈唑胺血药浓度均在正常安全范围，谷浓度分别为 5.23$\\mathrm { m g \\cdot m L ^ { - 1 } }$ 和 $6 . 4 5 \\mathrm { \\ m g \\cdot m L ^ { - 1 } }$ 。\n2　讨论\n2.1　治疗方案的分析"
+  }
+]

@@ -26,6 +26,8 @@ from config import (  # noqa: E402
     REDIS_DB,
     REDIS_HOST,
     REDIS_PORT,
+    VECTOR_INDEX_NAME,
+    VECTOR_KEY_PREFIX,
 )
 
 logging.basicConfig(
@@ -42,13 +44,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--redis-db", default=REDIS_DB, type=int, help="Redis db")
     parser.add_argument(
         "--index-name",
-        default="drug_vectors",
+        default=VECTOR_INDEX_NAME,
         help="Redis 向量索引名（用于自动推导默认 key 前缀）",
     )
     parser.add_argument(
         "--key-prefix",
-        default="qwen3:",
-        help="片段 key 前缀（默认 qwen3:）",
+        default=VECTOR_KEY_PREFIX,
+        help="片段 key 前缀（默认读取配置中的 VECTOR_KEY_PREFIX）",
     )
     parser.add_argument(
         "--sample-size",

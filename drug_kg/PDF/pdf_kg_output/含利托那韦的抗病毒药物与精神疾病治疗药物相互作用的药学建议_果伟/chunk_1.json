@@ -1,0 +1,226 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利托那韦",
+        "canonical_name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "洛匹那韦/利托那韦",
+        "canonical_name": "洛匹那韦/利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "奈玛特韦/利托那韦",
+        "canonical_name": "奈玛特韦/利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "先诺特韦/利托那韦",
+        "canonical_name": "先诺特韦/利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "奥比他韦/帕立瑞韦/利托那韦",
+        "canonical_name": "奥比他韦/帕立瑞韦/利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "精神疾病治疗药物",
+        "canonical_name": "精神疾病治疗药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "喹硫平",
+        "canonical_name": "喹硫平",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "托鲁地文拉法辛",
+        "canonical_name": "托鲁地文拉法辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "哌罗匹隆",
+        "canonical_name": "哌罗匹隆",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "氟哌噻吨美利曲辛",
+        "canonical_name": "氟哌噻吨美利曲辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "抗抑郁药",
+        "canonical_name": "抗抑郁药",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "抗病毒药物",
+        "canonical_name": "抗病毒药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟.pdf",
+          "chunk_index": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "raw_text": "利托那韦是一种拟肽类HIV-1蛋白酶抑制剂，因其可大幅提升CYP3A4底物药物的血药浓度，常与经CYP3A4代谢的其他抗病毒药组成复方制剂...利托那韦是CYP2C8、CYP3A4、CYP3A5、CYP3A7的强抑制剂，CYP2D6的中度抑制剂，以及多种转运蛋白的抑制剂...此外利托那韦还可能诱导CYP1A2、CYP2C8、CYP2C9、CYP2C19的葡萄糖醛酸化和氧化作用...含利托那韦的抗病毒药物与精神疾病治疗药物存在复杂的药物相互作用。",
+          "chunk_id": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "data": "践提供参考。\nPharmaceutical suggestions on the interaction between antiviral drugs containing ritonavir and psychotropic drugs\nGUO Wei1 ，ZHANG Ling2 ，GUO Xiao-bing3 ，BAO Shuang4 ，JIA Fei4 ，NIU Meng-xi4 ，ZANG Yan-nan4 ，ZHUANG Hong-yan4 ，ZUO Zheng-rong5 ，CAO Ya-ru5 ，XU Nan-qi5 ，ZHU Ya-nan5 ，HUANG Ting-ting5 ，SHANG Xiang6 ，WANG Gang4\\*1. Beijing Key Laboratory for the Diagnosis and Treatment of Mental Disorders，2. National Medical Research Center for Mental Disorders，3. Nine Pasychiatric Wards，4. Hospital Administration Office， Beijing Anding Hospital Affiliated Capital Medical University， Beijing 100088，China；5. Department of Pharmacy， the Fourth People's Hospital of Wuhu，Anhui Wuhu 241000，China；6. Department of Pharmacy，Suzhou Guangji Hospital，Jiangsu Suzhou 215003，China【Abstract】 Ritonavir is an antiretroviral drug， which is often combined with other antiviral drugs to form a compound preparation （such as nimatvir/ritonavir， lopinavir/ritonavir， simnotrelvir/ritonavir， etc.）. Ritonavir is an"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟.pdf",
+          "chunk_index": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "raw_text": "如联用喹硫平时，部分文章建议喹硫平剂量减为1/6，部分文章则不建议联用。",
+          "chunk_id": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "data": "践提供参考。\nPharmaceutical suggestions on the interaction between antiviral drugs containing ritonavir and psychotropic drugs\nGUO Wei1 ，ZHANG Ling2 ，GUO Xiao-bing3 ，BAO Shuang4 ，JIA Fei4 ，NIU Meng-xi4 ，ZANG Yan-nan4 ，ZHUANG Hong-yan4 ，ZUO Zheng-rong5 ，CAO Ya-ru5 ，XU Nan-qi5 ，ZHU Ya-nan5 ，HUANG Ting-ting5 ，SHANG Xiang6 ，WANG Gang4\\*1. Beijing Key Laboratory for the Diagnosis and Treatment of Mental Disorders，2. National Medical Research Center for Mental Disorders，3. Nine Pasychiatric Wards，4. Hospital Administration Office， Beijing Anding Hospital Affiliated Capital Medical University， Beijing 100088，China；5. Department of Pharmacy， the Fourth People's Hospital of Wuhu，Anhui Wuhu 241000，China；6. Department of Pharmacy，Suzhou Guangji Hospital，Jiangsu Suzhou 215003，China【Abstract】 Ritonavir is an antiretroviral drug， which is often combined with other antiviral drugs to form a compound preparation （such as nimatvir/ritonavir， lopinavir/ritonavir， simnotrelvir/ritonavir， etc.）. Ritonavir is an"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟.pdf",
+          "chunk_index": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "raw_text": "目前国内有6种含利托那韦的抗病毒药物获批，其中常用的有洛匹那韦/利托那韦片、奈玛特韦片/利托那韦片组合包装以及先诺特韦片/利托那韦片组合包装。",
+          "chunk_id": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "data": "践提供参考。\nPharmaceutical suggestions on the interaction between antiviral drugs containing ritonavir and psychotropic drugs\nGUO Wei1 ，ZHANG Ling2 ，GUO Xiao-bing3 ，BAO Shuang4 ，JIA Fei4 ，NIU Meng-xi4 ，ZANG Yan-nan4 ，ZHUANG Hong-yan4 ，ZUO Zheng-rong5 ，CAO Ya-ru5 ，XU Nan-qi5 ，ZHU Ya-nan5 ，HUANG Ting-ting5 ，SHANG Xiang6 ，WANG Gang4\\*1. Beijing Key Laboratory for the Diagnosis and Treatment of Mental Disorders，2. National Medical Research Center for Mental Disorders，3. Nine Pasychiatric Wards，4. Hospital Administration Office， Beijing Anding Hospital Affiliated Capital Medical University， Beijing 100088，China；5. Department of Pharmacy， the Fourth People's Hospital of Wuhu，Anhui Wuhu 241000，China；6. Department of Pharmacy，Suzhou Guangji Hospital，Jiangsu Suzhou 215003，China【Abstract】 Ritonavir is an antiretroviral drug， which is often combined with other antiviral drugs to form a compound preparation （such as nimatvir/ritonavir， lopinavir/ritonavir， simnotrelvir/ritonavir， etc.）. Ritonavir is an"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟.pdf",
+          "chunk_index": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "raw_text": "目前国内有6种含利托那韦的抗病毒药物获批，其中常用的有洛匹那韦/利托那韦片、奈玛特韦片/利托那韦片组合包装以及先诺特韦片/利托那韦片组合包装。",
+          "chunk_id": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "data": "践提供参考。\nPharmaceutical suggestions on the interaction between antiviral drugs containing ritonavir and psychotropic drugs\nGUO Wei1 ，ZHANG Ling2 ，GUO Xiao-bing3 ，BAO Shuang4 ，JIA Fei4 ，NIU Meng-xi4 ，ZANG Yan-nan4 ，ZHUANG Hong-yan4 ，ZUO Zheng-rong5 ，CAO Ya-ru5 ，XU Nan-qi5 ，ZHU Ya-nan5 ，HUANG Ting-ting5 ，SHANG Xiang6 ，WANG Gang4\\*1. Beijing Key Laboratory for the Diagnosis and Treatment of Mental Disorders，2. National Medical Research Center for Mental Disorders，3. Nine Pasychiatric Wards，4. Hospital Administration Office， Beijing Anding Hospital Affiliated Capital Medical University， Beijing 100088，China；5. Department of Pharmacy， the Fourth People's Hospital of Wuhu，Anhui Wuhu 241000，China；6. Department of Pharmacy，Suzhou Guangji Hospital，Jiangsu Suzhou 215003，China【Abstract】 Ritonavir is an antiretroviral drug， which is often combined with other antiviral drugs to form a compound preparation （such as nimatvir/ritonavir， lopinavir/ritonavir， simnotrelvir/ritonavir， etc.）. Ritonavir is an"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟.pdf",
+          "chunk_index": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "raw_text": "目前国内有6种含利托那韦的抗病毒药物获批，其中常用的有洛匹那韦/利托那韦片、奈玛特韦片/利托那韦片组合包装以及先诺特韦片/利托那韦片组合包装。",
+          "chunk_id": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "data": "践提供参考。\nPharmaceutical suggestions on the interaction between antiviral drugs containing ritonavir and psychotropic drugs\nGUO Wei1 ，ZHANG Ling2 ，GUO Xiao-bing3 ，BAO Shuang4 ，JIA Fei4 ，NIU Meng-xi4 ，ZANG Yan-nan4 ，ZHUANG Hong-yan4 ，ZUO Zheng-rong5 ，CAO Ya-ru5 ，XU Nan-qi5 ，ZHU Ya-nan5 ，HUANG Ting-ting5 ，SHANG Xiang6 ，WANG Gang4\\*1. Beijing Key Laboratory for the Diagnosis and Treatment of Mental Disorders，2. National Medical Research Center for Mental Disorders，3. Nine Pasychiatric Wards，4. Hospital Administration Office， Beijing Anding Hospital Affiliated Capital Medical University， Beijing 100088，China；5. Department of Pharmacy， the Fourth People's Hospital of Wuhu，Anhui Wuhu 241000，China；6. Department of Pharmacy，Suzhou Guangji Hospital，Jiangsu Suzhou 215003，China【Abstract】 Ritonavir is an antiretroviral drug， which is often combined with other antiviral drugs to form a compound preparation （such as nimatvir/ritonavir， lopinavir/ritonavir， simnotrelvir/ritonavir， etc.）. Ritonavir is an"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟.pdf",
+          "chunk_index": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "raw_text": "复方制剂中奥比帕利片（奥比他韦/帕立瑞韦/利托那韦复方制剂）在我国曾获批准上市，但目前该品种已注销。",
+          "chunk_id": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "data": "践提供参考。\nPharmaceutical suggestions on the interaction between antiviral drugs containing ritonavir and psychotropic drugs\nGUO Wei1 ，ZHANG Ling2 ，GUO Xiao-bing3 ，BAO Shuang4 ，JIA Fei4 ，NIU Meng-xi4 ，ZANG Yan-nan4 ，ZHUANG Hong-yan4 ，ZUO Zheng-rong5 ，CAO Ya-ru5 ，XU Nan-qi5 ，ZHU Ya-nan5 ，HUANG Ting-ting5 ，SHANG Xiang6 ，WANG Gang4\\*1. Beijing Key Laboratory for the Diagnosis and Treatment of Mental Disorders，2. National Medical Research Center for Mental Disorders，3. Nine Pasychiatric Wards，4. Hospital Administration Office， Beijing Anding Hospital Affiliated Capital Medical University， Beijing 100088，China；5. Department of Pharmacy， the Fourth People's Hospital of Wuhu，Anhui Wuhu 241000，China；6. Department of Pharmacy，Suzhou Guangji Hospital，Jiangsu Suzhou 215003，China【Abstract】 Ritonavir is an antiretroviral drug， which is often combined with other antiviral drugs to form a compound preparation （such as nimatvir/ritonavir， lopinavir/ritonavir， simnotrelvir/ritonavir， etc.）. Ritonavir is an"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟.pdf",
+          "chunk_index": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "raw_text": "各种抗病毒药物说明书的禁忌和药物相互作用项下均列举了禁忌联用药物和可导致严重不良反应的药物，包括精神疾病治疗、抗抑郁药等。",
+          "chunk_id": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "data": "践提供参考。\nPharmaceutical suggestions on the interaction between antiviral drugs containing ritonavir and psychotropic drugs\nGUO Wei1 ，ZHANG Ling2 ，GUO Xiao-bing3 ，BAO Shuang4 ，JIA Fei4 ，NIU Meng-xi4 ，ZANG Yan-nan4 ，ZHUANG Hong-yan4 ，ZUO Zheng-rong5 ，CAO Ya-ru5 ，XU Nan-qi5 ，ZHU Ya-nan5 ，HUANG Ting-ting5 ，SHANG Xiang6 ，WANG Gang4\\*1. Beijing Key Laboratory for the Diagnosis and Treatment of Mental Disorders，2. National Medical Research Center for Mental Disorders，3. Nine Pasychiatric Wards，4. Hospital Administration Office， Beijing Anding Hospital Affiliated Capital Medical University， Beijing 100088，China；5. Department of Pharmacy， the Fourth People's Hospital of Wuhu，Anhui Wuhu 241000，China；6. Department of Pharmacy，Suzhou Guangji Hospital，Jiangsu Suzhou 215003，China【Abstract】 Ritonavir is an antiretroviral drug， which is often combined with other antiviral drugs to form a compound preparation （such as nimatvir/ritonavir， lopinavir/ritonavir， simnotrelvir/ritonavir， etc.）. Ritonavir is an"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟.pdf",
+          "chunk_index": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "raw_text": "如国产抗抑郁新药托鲁地文拉法辛，以及哌罗匹隆、氟哌噻吨美利曲辛未在全球大部分部分国家使用等。",
+          "chunk_id": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "data": "践提供参考。\nPharmaceutical suggestions on the interaction between antiviral drugs containing ritonavir and psychotropic drugs\nGUO Wei1 ，ZHANG Ling2 ，GUO Xiao-bing3 ，BAO Shuang4 ，JIA Fei4 ，NIU Meng-xi4 ，ZANG Yan-nan4 ，ZHUANG Hong-yan4 ，ZUO Zheng-rong5 ，CAO Ya-ru5 ，XU Nan-qi5 ，ZHU Ya-nan5 ，HUANG Ting-ting5 ，SHANG Xiang6 ，WANG Gang4\\*1. Beijing Key Laboratory for the Diagnosis and Treatment of Mental Disorders，2. National Medical Research Center for Mental Disorders，3. Nine Pasychiatric Wards，4. Hospital Administration Office， Beijing Anding Hospital Affiliated Capital Medical University， Beijing 100088，China；5. Department of Pharmacy， the Fourth People's Hospital of Wuhu，Anhui Wuhu 241000，China；6. Department of Pharmacy，Suzhou Guangji Hospital，Jiangsu Suzhou 215003，China【Abstract】 Ritonavir is an antiretroviral drug， which is often combined with other antiviral drugs to form a compound preparation （such as nimatvir/ritonavir， lopinavir/ritonavir， simnotrelvir/ritonavir， etc.）. Ritonavir is an"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟.pdf",
+          "chunk_index": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "raw_text": "如国产抗抑郁新药托鲁地文拉法辛，以及哌罗匹隆、氟哌噻吨美利曲辛未在全球大部分部分国家使用等。",
+          "chunk_id": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "data": "践提供参考。\nPharmaceutical suggestions on the interaction between antiviral drugs containing ritonavir and psychotropic drugs\nGUO Wei1 ，ZHANG Ling2 ，GUO Xiao-bing3 ，BAO Shuang4 ，JIA Fei4 ，NIU Meng-xi4 ，ZANG Yan-nan4 ，ZHUANG Hong-yan4 ，ZUO Zheng-rong5 ，CAO Ya-ru5 ，XU Nan-qi5 ，ZHU Ya-nan5 ，HUANG Ting-ting5 ，SHANG Xiang6 ，WANG Gang4\\*1. Beijing Key Laboratory for the Diagnosis and Treatment of Mental Disorders，2. National Medical Research Center for Mental Disorders，3. Nine Pasychiatric Wards，4. Hospital Administration Office， Beijing Anding Hospital Affiliated Capital Medical University， Beijing 100088，China；5. Department of Pharmacy， the Fourth People's Hospital of Wuhu，Anhui Wuhu 241000，China；6. Department of Pharmacy，Suzhou Guangji Hospital，Jiangsu Suzhou 215003，China【Abstract】 Ritonavir is an antiretroviral drug， which is often combined with other antiviral drugs to form a compound preparation （such as nimatvir/ritonavir， lopinavir/ritonavir， simnotrelvir/ritonavir， etc.）. Ritonavir is an"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟.pdf",
+          "chunk_index": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "raw_text": "如国产抗抑郁新药托鲁地文拉法辛，以及哌罗匹隆、氟哌噻吨美利曲辛未在全球大部分部分国家使用等。",
+          "chunk_id": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+          "data": "践提供参考。\nPharmaceutical suggestions on the interaction between antiviral drugs containing ritonavir and psychotropic drugs\nGUO Wei1 ，ZHANG Ling2 ，GUO Xiao-bing3 ，BAO Shuang4 ，JIA Fei4 ，NIU Meng-xi4 ，ZANG Yan-nan4 ，ZHUANG Hong-yan4 ，ZUO Zheng-rong5 ，CAO Ya-ru5 ，XU Nan-qi5 ，ZHU Ya-nan5 ，HUANG Ting-ting5 ，SHANG Xiang6 ，WANG Gang4\\*1. Beijing Key Laboratory for the Diagnosis and Treatment of Mental Disorders，2. National Medical Research Center for Mental Disorders，3. Nine Pasychiatric Wards，4. Hospital Administration Office， Beijing Anding Hospital Affiliated Capital Medical University， Beijing 100088，China；5. Department of Pharmacy， the Fourth People's Hospital of Wuhu，Anhui Wuhu 241000，China；6. Department of Pharmacy，Suzhou Guangji Hospital，Jiangsu Suzhou 215003，China【Abstract】 Ritonavir is an antiretroviral drug， which is often combined with other antiviral drugs to form a compound preparation （such as nimatvir/ritonavir， lopinavir/ritonavir， simnotrelvir/ritonavir， etc.）. Ritonavir is an"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟:1",
+    "source": "含利托那韦的抗病毒药物与精神疾病治疗药物相互作用的药学建议_果伟.pdf",
+    "text": "践提供参考。\nPharmaceutical suggestions on the interaction between antiviral drugs containing ritonavir and psychotropic drugs\nGUO Wei1 ，ZHANG Ling2 ，GUO Xiao-bing3 ，BAO Shuang4 ，JIA Fei4 ，NIU Meng-xi4 ，ZANG Yan-nan4 ，ZHUANG Hong-yan4 ，ZUO Zheng-rong5 ，CAO Ya-ru5 ，XU Nan-qi5 ，ZHU Ya-nan5 ，HUANG Ting-ting5 ，SHANG Xiang6 ，WANG Gang4\\*1. Beijing Key Laboratory for the Diagnosis and Treatment of Mental Disorders，2. National Medical Research Center for Mental Disorders，3. Nine Pasychiatric Wards，4. Hospital Administration Office， Beijing Anding Hospital Affiliated Capital Medical University， Beijing 100088，China；5. Department of Pharmacy， the Fourth People's Hospital of Wuhu，Anhui Wuhu 241000，China；6. Department of Pharmacy，Suzhou Guangji Hospital，Jiangsu Suzhou 215003，China【Abstract】 Ritonavir is an antiretroviral drug， which is often combined with other antiviral drugs to form a compound preparation （such as nimatvir/ritonavir， lopinavir/ritonavir， simnotrelvir/ritonavir， etc.）. Ritonavir is an inhibitor or inducer of a variety of metabolic enzymes， and there is a complex drug-drug interaction when combined with psychotropic drugs. Although the drug instructions and domestic and foreign literature provide suggestions for drug combination， there are still some deficiencies in clinical practice， such as different drug varieties at home and abroad， inconsistent recommendations or inability to implement. On the basis of reviewing literature， the research group developed the pharmacy formulate “Pharmaceutical suggestions on the interaction between antiviral drugs with ritonavir and psychotropic drugs\"， based on the current situation in China and clinical practice including the mechanism of drug interaction， changes in blood drug concentration， levels of interaction and pharmaeutical， suggestions， so as to provide reference for clinical practice in psychotropic drug therapy in China.利托那韦是一种拟肽类HIV-1蛋白酶抑制剂，因其可大幅提升CYP3A4底物药物的血药浓度，常与经CYP3A4代谢的其他抗病毒药组成复方制剂，用于治疗 HIV，新型冠状病毒感染（corona virus disease 2019，COVID-19）以及丙型肝炎病毒（human hepa⁃titis C virus，HCV）感染 。 利托那韦是 CYP2C8、CYP3A4、CYP3A5、CYP3A7 的强抑制剂，CYP2D6 的中度抑制剂，以及多种转运蛋白的抑制剂，如P-糖蛋白（P-glycoprotein，P-gp）、有机阴离子转运多肽（or⁃ganic anion transporter polypeptide，OATP）、乳腺癌耐药蛋白（breast cancer resistance protein，BCRP）等。此外利托那韦还可能诱导 CYP1A2、CYP2C8、CYP2C9、CYP2C19 的葡萄糖醛酸化和氧化作用，从而增加经这些途径代谢药物的生物转化，进而导致此类药品的全身暴露量降低，最终疗效降低［1］ 。目前国内有6种含利托那韦的抗病毒药物获批，其中常用的有洛匹那韦/利托那韦片、奈玛特韦片/利托那韦片组合包装以及先诺特韦片/利托那韦片组合包装。复方制剂中奥比帕利片（奥比他韦/帕立瑞韦/利托那韦复方制剂）在我国曾获批准上市，但目前该品种已注销。各种抗病毒药物说明书的禁忌和药物相互作用项下均列举了禁忌联用药物和可导致严重不良反应的药物，包括精神疾病治疗、抗抑郁药等［1-2］ 。尽管目前已有多国发表含利托那韦的抗病毒药物与精神疾病治疗药物联用的综述和共识［3-4］ ，但上述文献在临床应用时仍存在一定不足：①各指南推荐方案不一致：如联用喹硫平时，部分文章建议喹硫平剂量减为1/6［5］ ，部分文章则不建议联用［3-4］ ；②国内精神疾病治疗用药品种与欧美国家品种存在差异，这些药物缺少相关建议：如国产抗抑郁新药托鲁地文拉法辛，以及哌罗匹隆、氟哌噻吨美利曲辛未在全球大部分部分国家使用等；③部分推荐意见无法实施，如有的药物未给出具体的剂量调整建议等。"
+  }
+]

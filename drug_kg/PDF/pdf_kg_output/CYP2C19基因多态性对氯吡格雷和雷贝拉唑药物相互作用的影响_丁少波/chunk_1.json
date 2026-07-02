@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "氯吡格雷",
+        "canonical_name": "氯吡格雷",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "雷贝拉唑",
+        "canonical_name": "雷贝拉唑",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "CYP2C19基因多态性对氯吡格雷和雷贝拉唑药物相互作用的影响_丁少波.pdf",
+          "chunk_index": "CYP2C19基因多态性对氯吡格雷和雷贝拉唑药物相互作用的影响_丁少波:1",
+          "raw_text": "结论 CYP2C19 基因多态性对氯吡格雷与雷贝拉唑的相互作用有一定影响，临床合用时应加以考虑。",
+          "chunk_id": "CYP2C19基因多态性对氯吡格雷和雷贝拉唑药物相互作用的影响_丁少波:1",
+          "data": "比较， 组患者的抑制率显著降低（P ）。 组患者的及胃肠道反应发生率比较无显著差异 $\\left( P > 0 . 0 5 \\right)$ 。结论 CYP2C19 基因多态性对氯吡格雷与雷贝拉唑的相互作用有一定影响，临床合用时应加以考虑。\nEffect of CYP2C19 Gene Polymorphisms on Drug - Drug Interactions Between Clopidogrel and Rabeprazole"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "CYP2C19基因多态性对氯吡格雷和雷贝拉唑药物相互作用的影响_丁少波:1",
+    "source": "CYP2C19基因多态性对氯吡格雷和雷贝拉唑药物相互作用的影响_丁少波.pdf",
+    "text": "比较， 组患者的抑制率显著降低（P ）。 组患者的及胃肠道反应发生率比较无显著差异 $\\left( P > 0 . 0 5 \\right)$ 。结论 CYP2C19 基因多态性对氯吡格雷与雷贝拉唑的相互作用有一定影响，临床合用时应加以考虑。\nEffect of CYP2C19 Gene Polymorphisms on Drug - Drug Interactions Between Clopidogrel and Rabeprazole"
+  }
+]

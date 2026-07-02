@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "伏立康唑",
+        "canonical_name": "伏立康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "三唑类抗真菌药",
+        "canonical_name": "三唑类抗真菌药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP2C19",
+        "canonical_name": "CYP2C19",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "CYP2C9",
+        "canonical_name": "CYP2C9",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP3A4",
+        "canonical_name": "CYP3A4",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:0",
+          "raw_text": "伏立康唑是合成的第2代三唑类广谱抗真菌药",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:0",
+          "data": "伏立康唑药物相互作用与处理对策\n孟现民张莉（复旦大学附属上海市公共卫生临床中心， 上海 201508）［摘要］ 伏立康唑是合成的第2代三唑类广谱抗真菌药抗真菌作用强主要用于各种真菌引起的严重感染以及免疫缺陷病人真菌感染的治疗体外人肝微粒体实验表明伏立康唑不仅是CYP2C19 CYP2C9和CYP3A4酶的底物也是其抑制剂而体内多数药物主要由这几种酶代谢因此伏立康唑与很多药物都存在潜在的相互作用医生在应用此药时应引起注意本文就已报告的伏立康唑药物相互作用作一综述并总结出相应的对策，以供临床参考。\nVoriconazole related drug interactions and countermeasures"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:0",
+          "raw_text": "伏立康唑不仅是CYP2C19 CYP2C9和CYP3A4酶的底物也是其抑制剂",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:0",
+          "data": "伏立康唑药物相互作用与处理对策\n孟现民张莉（复旦大学附属上海市公共卫生临床中心， 上海 201508）［摘要］ 伏立康唑是合成的第2代三唑类广谱抗真菌药抗真菌作用强主要用于各种真菌引起的严重感染以及免疫缺陷病人真菌感染的治疗体外人肝微粒体实验表明伏立康唑不仅是CYP2C19 CYP2C9和CYP3A4酶的底物也是其抑制剂而体内多数药物主要由这几种酶代谢因此伏立康唑与很多药物都存在潜在的相互作用医生在应用此药时应引起注意本文就已报告的伏立康唑药物相互作用作一综述并总结出相应的对策，以供临床参考。\nVoriconazole related drug interactions and countermeasures"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:0",
+          "raw_text": "伏立康唑不仅是CYP2C19 CYP2C9和CYP3A4酶的底物也是其抑制剂",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:0",
+          "data": "伏立康唑药物相互作用与处理对策\n孟现民张莉（复旦大学附属上海市公共卫生临床中心， 上海 201508）［摘要］ 伏立康唑是合成的第2代三唑类广谱抗真菌药抗真菌作用强主要用于各种真菌引起的严重感染以及免疫缺陷病人真菌感染的治疗体外人肝微粒体实验表明伏立康唑不仅是CYP2C19 CYP2C9和CYP3A4酶的底物也是其抑制剂而体内多数药物主要由这几种酶代谢因此伏立康唑与很多药物都存在潜在的相互作用医生在应用此药时应引起注意本文就已报告的伏立康唑药物相互作用作一综述并总结出相应的对策，以供临床参考。\nVoriconazole related drug interactions and countermeasures"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+          "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:0",
+          "raw_text": "伏立康唑不仅是CYP2C19 CYP2C9和CYP3A4酶的底物也是其抑制剂",
+          "chunk_id": "伏立康唑药物相互作用与处理对策_孟现民:0",
+          "data": "伏立康唑药物相互作用与处理对策\n孟现民张莉（复旦大学附属上海市公共卫生临床中心， 上海 201508）［摘要］ 伏立康唑是合成的第2代三唑类广谱抗真菌药抗真菌作用强主要用于各种真菌引起的严重感染以及免疫缺陷病人真菌感染的治疗体外人肝微粒体实验表明伏立康唑不仅是CYP2C19 CYP2C9和CYP3A4酶的底物也是其抑制剂而体内多数药物主要由这几种酶代谢因此伏立康唑与很多药物都存在潜在的相互作用医生在应用此药时应引起注意本文就已报告的伏立康唑药物相互作用作一综述并总结出相应的对策，以供临床参考。\nVoriconazole related drug interactions and countermeasures"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "伏立康唑药物相互作用与处理对策_孟现民:0",
+    "source": "伏立康唑药物相互作用与处理对策_孟现民.pdf",
+    "text": "伏立康唑药物相互作用与处理对策\n孟现民张莉（复旦大学附属上海市公共卫生临床中心， 上海 201508）［摘要］ 伏立康唑是合成的第2代三唑类广谱抗真菌药抗真菌作用强主要用于各种真菌引起的严重感染以及免疫缺陷病人真菌感染的治疗体外人肝微粒体实验表明伏立康唑不仅是CYP2C19 CYP2C9和CYP3A4酶的底物也是其抑制剂而体内多数药物主要由这几种酶代谢因此伏立康唑与很多药物都存在潜在的相互作用医生在应用此药时应引起注意本文就已报告的伏立康唑药物相互作用作一综述并总结出相应的对策，以供临床参考。\nVoriconazole related drug interactions and countermeasures"
+  }
+]

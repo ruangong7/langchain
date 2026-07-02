@@ -1,0 +1,5 @@
+question,gold_redis_keys,intent,source,notes
+阿司匹林和布洛芬有相互作用吗,bge_m3:128|bge_m3:245,interaction,人工标注示例,多个证据块都可支持
+华法林能和阿奇霉素一起吃吗,bge_m3:542|bge_m3:560,interaction,人工标注示例,包含风险与监测建议
+老人吃布洛芬要注意什么,bge_m3:901,population,人工标注示例,单 gold 也允许
+吃头孢能喝酒吗,bge_m3:1201|bge_m3:1333,contraindication,人工标注示例,可同时命中禁忌与不良反应证据

@@ -1,7 +1,9 @@
 [
   {
-    "text": "mma_{4}K<0$ ，所以 $\\int_{\\Omega}u_{2}^{2}dx\\leqslant C_{1}2^{m+1}\\parallel u_{2}\\parallel_{L(\\Omega)}^{2}+C_{2}<+\\infty$ 。又因为 $\\sup_{L\\geqslant0}\\parallel u_{2}\\parallel_{L(\\Omega)}\\leqslant\\gamma_{3}/\\gamma_{4}$ ，所以 $\\parallel u_{2}\\parallel_{L^{2}(\\Omega)}^{2}\\leqslant C_{1}2^{m+1}\\gamma_{3}^{2}/\\gamma_{4}^{2}+C_{2}$ ，即\n3. 参数识别问题\n要使微分方程组(1)较真实地反映 HBV 和药物之间的相互作用规律,首先应较准确地确定系统(1)中的参数 $d_{i}(i=1,2),\\gamma_{j}(j=1,\\cdots,4)$ . 因此,将建立确定参数 $d_{i}(i=1,2),\\gamma_{j}(j=1,\\cdots,4)$ 中参数识别模型,引入如下假设:\n(H1) 设 $0 < d_{i} \\leqslant d_{i} \\leqslant \\overline{d}_{i};0 < \\gamma_{j} \\leqslant \\gamma_{j} \\leqslant \\overline{\\gamma}_{j} (i = 1, 2;j = 1, \\cdots, 4)$ 且它们均为正常数；",
+    "text": "4. 最优解的存在性\n首先证明 u(x,t;q) 关于参数 q Mad 的连续依赖性.引理 4.1 若 q Mad ，则存在常数 > 0 ，使得任意 V ，有其中 =( 1, 2), =( 1, 2)T取 = \\| di\\|L2( )22di i = 1,2 , 从而, 有由上述引理可得问题(3)的解 u(x,t;q) 关于识别参数 q Mad 的连续依赖性结果.定理 4.1 若条件 (H1),(H2) 成立， u(x,t;q) 是问题(3)对应于 q Mad 的解，则由(3)确定的映射 q u(x,t;q) 在 Mad 上是连续的.证设 , q M d, , u 分别为对应问题(3)的解，记 q = - q, u = - u ，则 u 满足其中 D = diag(d1,d2), D = diag( d1, d2) .在(7a)两边同乘以 u ，并在上积分，得由基本不等式 ab a2/(2 ) + b2/2, 为任意正数，则有u L2(T; H2( ) H01( )) . 设 = \\( ui)2 i = 1, 2 , 则取 = N , 有而函数 fi(u, ) 关于 ui, j(i=1,2;j=1,·s,4) 二阶连续可微且由 ui 的有界性及 j 的取值范围知， fi=fi(u, )(i=1,2) 的定义域为一有界闭凸集，从而存在常数 i>0(i=1,2) 使得由(12)和(14)式，又由引理 4.1, 并取 = 2 + L + + 1 , 得由 Gronwall 不等式, 取 = tf-1 ( tf) , 得由(16)式知,命题成立.经上面的讨论,可得到参数识别问题(MP)最优解的存在性结论.定理 4.2 若条件 (H1),(H2) 成立， u(x,t;q) 是问题(3)对应于 q Mad 的解，则参数识别问题(MP)存在最优解 q* Mad .证由定理3.1知，目标泛函 J(u(q)) = ( k=1m \\| u(x, tk; q) - uk(x) \\|H) / 2 关于 u(q) 在 V 上是连续的；又由定理4.1知， q u(x, t; q) 在 M d 上是连续的，从而，目标泛函 J(q) = J(u(q)) 在 M d 上是连续的，而 M d 是 M 上的紧子集，故存在 q* M d 使得对于任意的 q M d 有 J(q*) J(q) .",
     "source": "关于HBV及其药物相互作用的反应扩散方程的参数识别_乔梅红.pdf",
-    "chunk_index": "关于HBV及其药物相互作用的反应扩散方程的参数识别_乔梅红:4"
+    "chunk_index": "关于HBV及其药物相互作用的反应扩散方程的参数识别_乔梅红:4",
+    "section": "最优解的存在性",
+    "section_type": "neutral"
   }
 ]

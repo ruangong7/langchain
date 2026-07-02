@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "六味地黄丸",
+        "canonical_name": "六味地黄丸",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "硝苯地平",
+        "canonical_name": "硝苯地平",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于肝微粒体和指纹图谱研究六味地黄丸与硝苯地平的药物相互作用_郑梅.pdf",
+          "chunk_index": "基于肝微粒体和指纹图谱研究六味地黄丸与硝苯地平的药物相互作用_郑梅:12",
+          "raw_text": "黄丸共同孵育，硝苯地平的 AUC 显著降低、 $\\cdot t _ { \\mathrm { m a x } }$ 延长。 而六味地黄丸的主要成分单独给药与联合给药的药代动力学参数未发生明显的变化( $P \\ > \\ 0 . 0 5 )$ 。",
+          "chunk_id": "基于肝微粒体和指纹图谱研究六味地黄丸与硝苯地平的药物相互作用_郑梅:12",
+          "data": "黄丸共同孵育，硝苯地平的 AUC 显著降低、 $\\cdot t _ { \\mathrm { m a x } }$ 延长。 而六味地黄丸的主要成分单独给药与联合给药的药代动力学参数未发生明显的变化( $P \\ > \\ 0 . 0 5 )$ 。\nFigure 4 Mean plasma concentration-time profiles of the analytes in rats after oral administration of LDP ( 5. 0 g / kg) and NIF ( 10 mg / kg) alone or in combination $( \\bar { x } \\pm s , n = 6 )$为了验证本方法的可行性，本研究同时进行了在体动物实验，通过测定联合用药前后中药主要成分及化学药物的药代动力学参数，考察代谢性药物相互作用，并与体外的评价结果进行比较。\n% 讨论"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于肝微粒体和指纹图谱研究六味地黄丸与硝苯地平的药物相互作用_郑梅:12",
+    "source": "基于肝微粒体和指纹图谱研究六味地黄丸与硝苯地平的药物相互作用_郑梅.pdf",
+    "text": "黄丸共同孵育，硝苯地平的 AUC 显著降低、 $\\cdot t _ { \\mathrm { m a x } }$ 延长。 而六味地黄丸的主要成分单独给药与联合给药的药代动力学参数未发生明显的变化( $P \\ > \\ 0 . 0 5 )$ 。\nFigure 4 Mean plasma concentration-time profiles of the analytes in rats after oral administration of LDP ( 5. 0 g / kg) and NIF ( 10 mg / kg) alone or in combination $( \\bar { x } \\pm s , n = 6 )$为了验证本方法的可行性，本研究同时进行了在体动物实验，通过测定联合用药前后中药主要成分及化学药物的药代动力学参数，考察代谢性药物相互作用，并与体外的评价结果进行比较。\n% 讨论"
+  }
+]

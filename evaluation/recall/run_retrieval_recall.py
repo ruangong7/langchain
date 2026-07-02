@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import argparse
-import importlib.util
 import logging
 import os
 import sys
@@ -33,24 +32,14 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
-from config import EMBEDDING_MODEL, REDIS_DB, REDIS_HOST, REDIS_PORT  # noqa: E402
+from config import REDIS_DB, REDIS_HOST, REDIS_PORT, VECTOR_INDEX_NAME  # noqa: E402
 from langchain_community.vectorstores import Redis  # noqa: E402
 from services.rag_service import RAGService, document_redis_key  # noqa: E402
-
-
-def load_dashscope_embeddings():
-    """与 run_evaluation 一致：从 main.py 加载 DashScopeEmbeddings。"""
-    main_path = os.path.join(PROJECT_ROOT, "main.py")
-    spec = importlib.util.spec_from_file_location("main", main_path)
-    if spec is None or spec.loader is None:
-        raise RuntimeError(f"无法加载: {main_path}")
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    return mod.DashScopeEmbeddings(model=EMBEDDING_MODEL)
+from services.embedding_factory import build_embeddings  # noqa: E402
 
 
 def build_rag_service(top_k: int, index_name: str) -> RAGService:
-    embeddings = load_dashscope_embeddings()
+    embeddings = build_embeddings()
     redis_url = f"redis://{REDIS_HOST}:{REDIS_PORT}/{REDIS_DB}"
     vectorstore = Redis(
         redis_url=redis_url,
@@ -84,7 +73,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--index-name",
-        default="drug_vectors",
+        default=VECTOR_INDEX_NAME,
         help="Redis 向量索引名",
     )
     parser.add_argument(
@@ -116,7 +105,7 @@ def main() -> None:
     questions = df[args.question_col].astype(str).tolist()
     gold_keys = df[args.redis_key_col].tolist()
 
-    logger.info("正在连接向量库并加载 Embedding（main.DashScopeEmbeddings）…")
+    logger.info("正在连接向量库并加载 Embedding…")
     t0 = time.perf_counter()
     rag = build_rag_service(top_k=args.top_k, index_name=args.index_name)
     logger.info(

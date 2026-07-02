@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "小分子酪氨酸激酶抑制剂",
+        "canonical_name": "小分子酪氨酸激酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "肿瘤",
+        "canonical_name": "肿瘤",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+          "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:0",
+          "raw_text": "多种小分子酪氨酸激酶抑制剂 （TKIs） 被批准上市用于多种肿瘤的治疗",
+          "chunk_id": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:0",
+          "data": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用\n马晨刘海燕\n（上海医药集团股份有限公司中央研究院， 上海 201203）\nInteraction of tyrosine kinase inhibitors with drug transporters\nMA Chen ， LIU Hai - yan（ Ce ntral Res e arc h Ins titute ， Shanghai Pharmac e utic als Holding Co. Ltd. ， SHA NGHA I 201 203 ， China ）［ ABSTRACT ］ Tyrosine kinase inhibitors （ TKIs ） are the hotspot of the current antitumor drug discovery. This review listed a series of tyrosine kinase inhibitors ， introduced their drug interactions mediated by transporters and the precautions in clinical application.酪氨酸激酶 （TKs） 在许多生理过程都发挥关键性作用如胚胎发育细胞增殖分化和凋亡等而 TKs 的活性失调被证明与多种癌症的发生发展相关近年来以 TKs 为靶点进行药物研发已成为国际上抗肿瘤药物研究的热点多种小分子酪氨酸激酶抑制剂 （TKIs） 被批准上市用于多种肿瘤的治疗[1] 目前我国已有 9 个小分子 TKIs 上市见表 1 。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨:0",
+    "source": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用_马晨.pdf",
+    "text": "小分子酪氨酸激酶抑制剂由转运体介导的药物相互作用\n马晨刘海燕\n（上海医药集团股份有限公司中央研究院， 上海 201203）\nInteraction of tyrosine kinase inhibitors with drug transporters\nMA Chen ， LIU Hai - yan（ Ce ntral Res e arc h Ins titute ， Shanghai Pharmac e utic als Holding Co. Ltd. ， SHA NGHA I 201 203 ， China ）［ ABSTRACT ］ Tyrosine kinase inhibitors （ TKIs ） are the hotspot of the current antitumor drug discovery. This review listed a series of tyrosine kinase inhibitors ， introduced their drug interactions mediated by transporters and the precautions in clinical application.酪氨酸激酶 （TKs） 在许多生理过程都发挥关键性作用如胚胎发育细胞增殖分化和凋亡等而 TKs 的活性失调被证明与多种癌症的发生发展相关近年来以 TKs 为靶点进行药物研发已成为国际上抗肿瘤药物研究的热点多种小分子酪氨酸激酶抑制剂 （TKIs） 被批准上市用于多种肿瘤的治疗[1] 目前我国已有 9 个小分子 TKIs 上市见表 1 。"
+  }
+]

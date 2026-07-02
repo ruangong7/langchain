@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "替芬泰",
+        "canonical_name": "替芬泰",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "替诺福韦酯",
+        "canonical_name": "替诺福韦酯",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤.pdf",
+          "chunk_index": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:2",
+          "raw_text": "TDF的代谢产物TFV与Y101的代谢产物M8可能通过竞争性抑制有机阴离子转运体（3 OAT3），对TFV、M8的血药浓度及肾排泄造成影响，提示临床合用需要进行剂量调整。",
+          "chunk_id": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:2",
+          "data": "8组与单独孵育组相比，肾切片对TFV或M8的摄取量均显著性下降。结论 TDF的代谢产物TFV与Y101的代谢产物M8可能通过竞争性抑制有机阴离子转运体（3 OAT3），对TFV、M8的血药浓度及肾排泄造成影响，提示临床合用需要进行剂量调整。\nInvestigation of drug-drug interactions between bentysrepinine and tenofovir disoproxil fumarate based on pharmacokinetic"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤:2",
+    "source": "基于药动学探究替芬泰与替诺福韦酯的药物-药物相互作用_张玉凤.pdf",
+    "text": "8组与单独孵育组相比，肾切片对TFV或M8的摄取量均显著性下降。结论 TDF的代谢产物TFV与Y101的代谢产物M8可能通过竞争性抑制有机阴离子转运体（3 OAT3），对TFV、M8的血药浓度及肾排泄造成影响，提示临床合用需要进行剂量调整。\nInvestigation of drug-drug interactions between bentysrepinine and tenofovir disoproxil fumarate based on pharmacokinetic"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "替加环素",
+        "canonical_name": "替加环素",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "1例他克莫司与替加环素药物相互作用病例分析_王璐.pdf",
+          "chunk_index": "0",
+          "raw_text": "联合使用替加环素后患者他克莫司血药浓度显著升高",
+          "chunk_id": "1例他克莫司与替加环素药物相互作用病例分析_王璐:0",
+          "data": "1 例他克莫司与替加环素药物相互作用病例分析\n王璐李伟杰贡雪芃（华中科技大学同济医学院附属同济医院药学部武汉 430030）摘要他克莫司与多种药物可能发生药物相互作用，本文分析 1 例少见的他克莫司与替加环素相互作用病例。 临床药师参与例肾移植患者的治疗过程，发现联合使用替加环素后患者他克莫司血药浓度显著升高，结合文献资料，识别并干预他克莫司与替加环素的药物相互作用，保障药物治疗安全有效。\nAnalysis of A Case of Drug Interaction Between Tacrolimus and Tigecycline"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "1例他克莫司与替加环素药物相互作用病例分析_王璐:0",
+    "source": "1例他克莫司与替加环素药物相互作用病例分析_王璐.pdf",
+    "text": "1 例他克莫司与替加环素药物相互作用病例分析\n王璐李伟杰贡雪芃（华中科技大学同济医学院附属同济医院药学部武汉 430030）摘要他克莫司与多种药物可能发生药物相互作用，本文分析 1 例少见的他克莫司与替加环素相互作用病例。 临床药师参与例肾移植患者的治疗过程，发现联合使用替加环素后患者他克莫司血药浓度显著升高，结合文献资料，识别并干预他克莫司与替加环素的药物相互作用，保障药物治疗安全有效。\nAnalysis of A Case of Drug Interaction Between Tacrolimus and Tigecycline"
+  }
+]

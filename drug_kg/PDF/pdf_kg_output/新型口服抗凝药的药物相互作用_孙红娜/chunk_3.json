@@ -1,0 +1,390 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "利伐沙班",
+        "canonical_name": "利伐沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "阿哌沙班",
+        "canonical_name": "阿哌沙班",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "达比加群酯",
+        "canonical_name": "达比加群酯",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "维拉帕米",
+        "canonical_name": "维拉帕米",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "酮康唑",
+        "canonical_name": "酮康唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "红霉素",
+        "canonical_name": "红霉素",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "利托那韦",
+        "canonical_name": "利托那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "DrugClass",
+        "name": "CYP3A4和P-gp强效抑制剂",
+        "canonical_name": "CYP3A4和P-gp强效抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "P-gp强效抑制剂",
+        "canonical_name": "P-gp强效抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "DrugClass",
+        "name": "P-gp和CYP3A4强诱导剂",
+        "canonical_name": "P-gp和CYP3A4强诱导剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "SideEffect",
+        "name": "出血风险增加",
+        "canonical_name": "出血风险增加",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "SideEffect",
+        "name": "血栓事件风险增加",
+        "canonical_name": "血栓事件风险增加",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Disease",
+        "name": "肺栓塞",
+        "canonical_name": "肺栓塞",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "Disease",
+        "name": "深静脉血栓",
+        "canonical_name": "深静脉血栓",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "Population",
+        "name": "使用CYP3A4和P-gp强诱导剂治疗的患者",
+        "canonical_name": "使用CYP3A4和P-gp强诱导剂治疗的患者",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "达比加群酯的药动学受P-gp抑制剂影响显著，在联合使用P-gp强效抑制剂的情况下需要对患者进行密切的临床监测",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_4",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "利伐沙班、阿哌沙班与CYP3A4和P-gp抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "利伐沙班、阿哌沙班与CYP3A4和P-gp抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "唑类抗真菌药酮康唑是CYP3A4和P-gp强效抑制剂，能使利伐沙班与阿哌沙班的AUC分别增加82%和213%",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "唑类抗真菌药酮康唑是CYP3A4和P-gp强效抑制剂，能使利伐沙班与阿哌沙班的AUC分别增加82%和213%",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "这将导致出血风险增加",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "这将导致出血风险增加",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "利伐沙班(10mg)与红霉素(500mg，tid 连续4d)联用可显著提高利伐沙班的AUC(34%)和最大血浆峰浓度",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "联合使用P-gp和CYP3A4强诱导剂可能会降低NOACs的血浆浓度从而导致亚治疗水平并增加血栓事件的风险",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "联合使用P-gp和CYP3A4强诱导剂可能会降低NOACs的血浆浓度从而导致亚治疗水平并增加血栓事件的风险",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "增加血栓事件的风险",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "增加血栓事件的风险",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_20",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "不推荐NOACs用于CYP3A4和P-gp强诱导剂治疗的肺栓塞和深静脉血栓患者",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_20",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "不推荐NOACs用于CYP3A4和P-gp强诱导剂治疗的肺栓塞和深静脉血栓患者",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "不推荐NOACs用于CYP3A4和P-gp强诱导剂治疗的肺栓塞和深静脉血栓患者",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "不推荐NOACs用于CYP3A4和P-gp强诱导剂治疗的肺栓塞和深静脉血栓患者",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "不推荐NOACs用于CYP3A4和P-gp强诱导剂治疗的肺栓塞和深静脉血栓患者",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "不推荐NOACs用于CYP3A4和P-gp强诱导剂治疗的肺栓塞和深静脉血栓患者",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "BCRP只影响沙班类药物与强抑制剂（如唑类抗真菌药和利托那韦）的联合用药",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      },
+      {
+        "id": "rel_21",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+          "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "raw_text": "BCRP只影响沙班类药物与强抑制剂（如唑类抗真菌药和利托那韦）的联合用药",
+          "chunk_id": "新型口服抗凝药的药物相互作用_孙红娜:3",
+          "data": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } {"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "新型口服抗凝药的药物相互作用_孙红娜:3",
+    "source": "新型口服抗凝药的药物相互作用_孙红娜.pdf",
+    "text": "伐沙班和阿哌沙班在肝脏中被CYP3A4代谢；而依度沙班的代谢程度小于4％，几乎不被CYP系统代谢。 值得注意的是，另有大约50％的利伐沙班和阿哌沙班是通过非 CYP3A4途径（肾脏和其他酶）代谢的， 例如目前国际上热点研究的 CYP2J2。\n1．2 NOACs的药动学相互作用达比加群酯的药动学受 $\\mathrm { P g p }$ 抑制剂影响显著 ， 在联合使用 $\\mathrm { P g p }$ 强效抑制剂的情况下需要对患者进行密切的临床监测；有研究结果表明如果在维拉帕米前2h给予达比加群酯二者之间的相互作用可以最小化［21］对于弱效或中效的 $\\mathrm { P - g p }$ 抑制剂如胺碘酮地高辛维拉帕米等必须谨慎用药利伐沙班、阿哌沙班与CYP3A4和 $\\mathrm { P g p }$ 抑制剂联用会影响自身的药动学特征，并呈强度依赖性特点如唑类抗真菌药酮康唑是CYP3A4和 $\\mathrm { P \\mathrm { - } g p }$ 强效抑制剂， 能使利伐沙班与阿哌沙班的药－时曲线下面积（areaunderplasmaconcentration－timecurve， AUC）分别增加82％和2$1 3 , 2 2 ]$ ，这将导致出血风险增加另一方面， 利伐沙班与CYP3A4和／或 $\\mathrm { P g p }$ 中效抑制剂联合使用是安全的，如利伐沙班 $( 1 0 \\ \\mathrm { m g } )$ 与红霉素（500mg，tid 连续4d） 联用可显著提高利伐沙班的 AUC（34％）和最大血浆峰浓度 $\\left( \\ C _ { \\operatorname* { m a x } } \\right)$ 然而这些变化与利伐沙班治疗患者中观察到的个体间变化相似不被认为具有临床相关性［23］ ； 联合使用 $\\mathrm { P g p }$ 和CYP3A4强诱导剂可能会降低 $\\mathrm { N O A C s }$ 的血浆浓度从而导致亚治疗水平并增加血栓事件的风险因此不推荐 $\\mathrm { N O A C s }$ 用于CYP3A4和 $\\mathrm { P g p }$ 强诱导剂治疗的肺栓塞和深静脉血栓患者1 ．1 ．1 $\\mathrm { P g p }$ 转运体系 $\\mathrm { P } { \\mathrm { - } } \\mathrm { g p }$ 是一种三磷酸腺苷结合转运蛋白， 它在肾脏、 肝脏和小肠等组织中分布并表达［19］ ，同时介导多种药物和内源性化合物的跨膜转运； 但是可用于药物转运的结合位点数量有限，不同药物共同竞争1个结合位点可能导致 $\\mathrm { D D I s }$ 的发生［19］ $\\mathrm { N O A C s }$ 是 $\\mathrm { P - g p }$ 的底物［8］ 其吸收和消除取决于肠内和肾脏内 $\\mathrm { P g p }$ 的活性因此， 当$\\mathrm { N O A C s }$ 与影响 $\\mathrm { P } { \\mathrm { - } } \\mathrm { g p }$ 活性的药物同时使用时， 可能发生DDIs。 对于这些口服抗凝药 ，当肠道上皮细胞中的 $\\mathrm { P g p }$ 被诱导时， $\\mathrm { P \\mathrm { - } g p }$ 底物药物被 $\\mathrm { P g p }$ 外排到肠道内而降低药物通过肠壁进入体循环 ； 在肝脏和肾脏中，某些药物通过诱导 $\\mathrm { P - g p }$ 活性增加 $\\mathrm { N O A C s }$ 排泄到胆汁和尿液中的速度 ， 从而加速药物从体循环中清除， 可降低血浆中 NOACs水平， 使抗凝作用减弱而导致栓塞风险增加相反，抑制 $\\mathrm { P - g p }$ 活性可导致药物吸收和排泄水平的改变使血浆浓度升高，增加出血风险。 另一种乳腺癌耐药蛋白（breastcancerresistantprotein， BCRP）在利伐沙班和阿哌沙班的药物转运方面与 $\\mathrm { P g p }$ 具有相似的作用 ， 但BCRP只影响沙班类药物与强抑制剂 （如唑类抗真菌药和利托那韦 ） 的联合用药［13， 20］ ， 因此利伐沙班或阿哌沙班与其他药物的相互作用受 $\\mathrm { P g p }$ 转运体系影响更为显著。"
+  }
+]

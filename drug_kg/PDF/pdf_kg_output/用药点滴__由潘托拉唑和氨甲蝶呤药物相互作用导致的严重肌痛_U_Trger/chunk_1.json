@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "潘托拉唑",
+        "canonical_name": "潘托拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "氨甲蝶呤",
+        "canonical_name": "氨甲蝶呤",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "肌痛",
+        "canonical_name": "肌痛",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "骨痛",
+        "canonical_name": "骨痛",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "用药点滴__由潘托拉唑和氨甲蝶呤药物相互作用导致的严重肌痛_U_Trger.pdf",
+          "chunk_index": "用药点滴__由潘托拉唑和氨甲蝶呤药物相互作用导致的严重肌痛_U_Trger:1",
+          "raw_text": "唑和氨甲蝶呤药物相互作用导致的严重肌痛",
+          "chunk_id": "用药点滴__由潘托拉唑和氨甲蝶呤药物相互作用导致的严重肌痛_U_Trger:1",
+          "data": "唑和氨甲蝶呤药物相互作用导致的严重肌痛\nDrug points\nSevere myalgia from an interaction between treatments with pantoprazole and methotrexate\nU TrögerInstitute of Clinical Pharmacology B StötzelDepartment of Dermatology and Venerology J Martens-LobenhofferInstitute of Clinical PharmacologyH GollnickDepartment of Dermatology and VenerologyF P Meyer Institute of Clinical PharmacologyHospital of the Otto-von-Guericke-UniversityD-39120MagdeburgGermany一位岁的男子因皮肤型滤泡趋向性细胞淋巴瘤接受干扰素治疗由于肿瘤复发致治疗中断后患者开始使用小剂量的氨甲蝶呤肌注每周次同时因其患有 Barrett 食管和高血压分别服用潘托拉唑（pantoprazole）每日口服和阿替洛尔在首次注射氨甲蝶呤后患者出现严重广泛的肌痛和骨痛以致在注射后的到小时出现部分活动受限并持续数天尽管程度有所减轻上述症状在此后次应用氨甲蝶呤时重复出现多项的临床和实验室检查除外了潜在的局灶或播散性感染及皮肤型细胞淋巴瘤恶化等原因由于症状在给药时出现考虑可能存在某种药物与氨甲蝶呤的相互作用在用雷尼替丁替换潘托拉唑后症状奇迹般地减轻并最终完全消失。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "用药点滴__由潘托拉唑和氨甲蝶呤药物相互作用导致的严重肌痛_U_Trger.pdf",
+          "chunk_index": "用药点滴__由潘托拉唑和氨甲蝶呤药物相互作用导致的严重肌痛_U_Trger:1",
+          "raw_text": "在首次注射氨甲蝶呤后患者出现严重广泛的肌痛和骨痛",
+          "chunk_id": "用药点滴__由潘托拉唑和氨甲蝶呤药物相互作用导致的严重肌痛_U_Trger:1",
+          "data": "唑和氨甲蝶呤药物相互作用导致的严重肌痛\nDrug points\nSevere myalgia from an interaction between treatments with pantoprazole and methotrexate\nU TrögerInstitute of Clinical Pharmacology B StötzelDepartment of Dermatology and Venerology J Martens-LobenhofferInstitute of Clinical PharmacologyH GollnickDepartment of Dermatology and VenerologyF P Meyer Institute of Clinical PharmacologyHospital of the Otto-von-Guericke-UniversityD-39120MagdeburgGermany一位岁的男子因皮肤型滤泡趋向性细胞淋巴瘤接受干扰素治疗由于肿瘤复发致治疗中断后患者开始使用小剂量的氨甲蝶呤肌注每周次同时因其患有 Barrett 食管和高血压分别服用潘托拉唑（pantoprazole）每日口服和阿替洛尔在首次注射氨甲蝶呤后患者出现严重广泛的肌痛和骨痛以致在注射后的到小时出现部分活动受限并持续数天尽管程度有所减轻上述症状在此后次应用氨甲蝶呤时重复出现多项的临床和实验室检查除外了潜在的局灶或播散性感染及皮肤型细胞淋巴瘤恶化等原因由于症状在给药时出现考虑可能存在某种药物与氨甲蝶呤的相互作用在用雷尼替丁替换潘托拉唑后症状奇迹般地减轻并最终完全消失。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "用药点滴__由潘托拉唑和氨甲蝶呤药物相互作用导致的严重肌痛_U_Trger.pdf",
+          "chunk_index": "用药点滴__由潘托拉唑和氨甲蝶呤药物相互作用导致的严重肌痛_U_Trger:1",
+          "raw_text": "在首次注射氨甲蝶呤后患者出现严重广泛的肌痛和骨痛",
+          "chunk_id": "用药点滴__由潘托拉唑和氨甲蝶呤药物相互作用导致的严重肌痛_U_Trger:1",
+          "data": "唑和氨甲蝶呤药物相互作用导致的严重肌痛\nDrug points\nSevere myalgia from an interaction between treatments with pantoprazole and methotrexate\nU TrögerInstitute of Clinical Pharmacology B StötzelDepartment of Dermatology and Venerology J Martens-LobenhofferInstitute of Clinical PharmacologyH GollnickDepartment of Dermatology and VenerologyF P Meyer Institute of Clinical PharmacologyHospital of the Otto-von-Guericke-UniversityD-39120MagdeburgGermany一位岁的男子因皮肤型滤泡趋向性细胞淋巴瘤接受干扰素治疗由于肿瘤复发致治疗中断后患者开始使用小剂量的氨甲蝶呤肌注每周次同时因其患有 Barrett 食管和高血压分别服用潘托拉唑（pantoprazole）每日口服和阿替洛尔在首次注射氨甲蝶呤后患者出现严重广泛的肌痛和骨痛以致在注射后的到小时出现部分活动受限并持续数天尽管程度有所减轻上述症状在此后次应用氨甲蝶呤时重复出现多项的临床和实验室检查除外了潜在的局灶或播散性感染及皮肤型细胞淋巴瘤恶化等原因由于症状在给药时出现考虑可能存在某种药物与氨甲蝶呤的相互作用在用雷尼替丁替换潘托拉唑后症状奇迹般地减轻并最终完全消失。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "用药点滴__由潘托拉唑和氨甲蝶呤药物相互作用导致的严重肌痛_U_Trger:1",
+    "source": "用药点滴__由潘托拉唑和氨甲蝶呤药物相互作用导致的严重肌痛_U_Trger.pdf",
+    "text": "唑和氨甲蝶呤药物相互作用导致的严重肌痛\nDrug points\nSevere myalgia from an interaction between treatments with pantoprazole and methotrexate\nU TrögerInstitute of Clinical Pharmacology B StötzelDepartment of Dermatology and Venerology J Martens-LobenhofferInstitute of Clinical PharmacologyH GollnickDepartment of Dermatology and VenerologyF P Meyer Institute of Clinical PharmacologyHospital of the Otto-von-Guericke-UniversityD-39120MagdeburgGermany一位岁的男子因皮肤型滤泡趋向性细胞淋巴瘤接受干扰素治疗由于肿瘤复发致治疗中断后患者开始使用小剂量的氨甲蝶呤肌注每周次同时因其患有 Barrett 食管和高血压分别服用潘托拉唑（pantoprazole）每日口服和阿替洛尔在首次注射氨甲蝶呤后患者出现严重广泛的肌痛和骨痛以致在注射后的到小时出现部分活动受限并持续数天尽管程度有所减轻上述症状在此后次应用氨甲蝶呤时重复出现多项的临床和实验室检查除外了潜在的局灶或播散性感染及皮肤型细胞淋巴瘤恶化等原因由于症状在给药时出现考虑可能存在某种药物与氨甲蝶呤的相互作用在用雷尼替丁替换潘托拉唑后症状奇迹般地减轻并最终完全消失。"
+  }
+]

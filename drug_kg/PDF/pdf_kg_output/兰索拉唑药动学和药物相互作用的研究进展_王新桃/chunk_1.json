@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "兰索拉唑",
+        "canonical_name": "兰索拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "PPI",
+        "canonical_name": "质子泵抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "胃食管反流性疾病",
+        "canonical_name": "胃食管反流性疾病",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Disease",
+        "name": "佐-埃综合征",
+        "canonical_name": "佐-埃综合征",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "兰索拉唑药动学和药物相互作用的研究进展_王新桃.pdf",
+          "chunk_index": "兰索拉唑药动学和药物相互作用的研究进展_王新桃:1",
+          "raw_text": "流性疾病( gastro-oesophageal reflux disease，GORD) 和佐-埃综合征( Zollinger-Ellison syndrome) 等 。 笔者对兰索拉唑的药动学及与其他药物的相互作用以及联合用药综述如下。",
+          "chunk_id": "兰索拉唑药动学和药物相互作用的研究进展_王新桃:1",
+          "data": "流性疾病( gastro-oesophageal reflux disease，GORD) 和佐-埃综合征( Zollinger-Ellison syndrome) 等 。 笔者对兰索拉唑的药动学及与其他药物的相互作用以及联合用药综述如下。\n$\\mathrm { P } _ { 4 5 0 } ($ ( CYP) 2C19 和 CYP3A4 分别代谢为 5-羟基兰索拉唑和兰索拉唑砜，这两个代谢产物几乎无抗酸活性。体外实验证明兰索拉唑在高浓度条件下受 CYP3A4 的影响较大，而低浓度下受 CYP2C19 的影响更为明显，而在弱代谢者中 CYP3A4 可能居主导地位［5］。CYP3A4 在兰索拉唑的代谢中比在奥美拉唑中更重要［6］。 CYP2C19 在不同个体和种族间存在基因多态性，这是影响 PPI 代谢和临床效果的一个关键因素。\n1． 1． 4 消除单剂量口服兰索拉唑，药物经肾脏完全以代谢物形式排泄。 $\\pmb { \\mathcal { L } } ^ { 1 4 } \\mathbf { C }$ 标记的兰索拉唑经单剂量口服给药试验表明，该药的代谢产物主要有两种消除途径: 约 1 /3 经肾脏排泄，约 2 /3 经大便排泄。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "兰索拉唑药动学和药物相互作用的研究进展_王新桃.pdf",
+          "chunk_index": "兰索拉唑药动学和药物相互作用的研究进展_王新桃:1",
+          "raw_text": "流性疾病( gastro-oesophageal reflux disease，GORD) 和佐-埃综合征( Zollinger-Ellison syndrome) 等 。 笔者对兰索拉唑的药动学及与其他药物的相互作用以及联合用药综述如下。",
+          "chunk_id": "兰索拉唑药动学和药物相互作用的研究进展_王新桃:1",
+          "data": "流性疾病( gastro-oesophageal reflux disease，GORD) 和佐-埃综合征( Zollinger-Ellison syndrome) 等 。 笔者对兰索拉唑的药动学及与其他药物的相互作用以及联合用药综述如下。\n$\\mathrm { P } _ { 4 5 0 } ($ ( CYP) 2C19 和 CYP3A4 分别代谢为 5-羟基兰索拉唑和兰索拉唑砜，这两个代谢产物几乎无抗酸活性。体外实验证明兰索拉唑在高浓度条件下受 CYP3A4 的影响较大，而低浓度下受 CYP2C19 的影响更为明显，而在弱代谢者中 CYP3A4 可能居主导地位［5］。CYP3A4 在兰索拉唑的代谢中比在奥美拉唑中更重要［6］。 CYP2C19 在不同个体和种族间存在基因多态性，这是影响 PPI 代谢和临床效果的一个关键因素。\n1． 1． 4 消除单剂量口服兰索拉唑，药物经肾脏完全以代谢物形式排泄。 $\\pmb { \\mathcal { L } } ^ { 1 4 } \\mathbf { C }$ 标记的兰索拉唑经单剂量口服给药试验表明，该药的代谢产物主要有两种消除途径: 约 1 /3 经肾脏排泄，约 2 /3 经大便排泄。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "兰索拉唑药动学和药物相互作用的研究进展_王新桃.pdf",
+          "chunk_index": "兰索拉唑药动学和药物相互作用的研究进展_王新桃:1",
+          "raw_text": "CYP2C19 在不同个体和种族间存在基因多态性，这是影响 PPI 代谢和临床效果的一个关键因素。",
+          "chunk_id": "兰索拉唑药动学和药物相互作用的研究进展_王新桃:1",
+          "data": "流性疾病( gastro-oesophageal reflux disease，GORD) 和佐-埃综合征( Zollinger-Ellison syndrome) 等 。 笔者对兰索拉唑的药动学及与其他药物的相互作用以及联合用药综述如下。\n$\\mathrm { P } _ { 4 5 0 } ($ ( CYP) 2C19 和 CYP3A4 分别代谢为 5-羟基兰索拉唑和兰索拉唑砜，这两个代谢产物几乎无抗酸活性。体外实验证明兰索拉唑在高浓度条件下受 CYP3A4 的影响较大，而低浓度下受 CYP2C19 的影响更为明显，而在弱代谢者中 CYP3A4 可能居主导地位［5］。CYP3A4 在兰索拉唑的代谢中比在奥美拉唑中更重要［6］。 CYP2C19 在不同个体和种族间存在基因多态性，这是影响 PPI 代谢和临床效果的一个关键因素。\n1． 1． 4 消除单剂量口服兰索拉唑，药物经肾脏完全以代谢物形式排泄。 $\\pmb { \\mathcal { L } } ^ { 1 4 } \\mathbf { C }$ 标记的兰索拉唑经单剂量口服给药试验表明，该药的代谢产物主要有两种消除途径: 约 1 /3 经肾脏排泄，约 2 /3 经大便排泄。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "兰索拉唑药动学和药物相互作用的研究进展_王新桃:1",
+    "source": "兰索拉唑药动学和药物相互作用的研究进展_王新桃.pdf",
+    "text": "流性疾病( gastro-oesophageal reflux disease，GORD) 和佐-埃综合征( Zollinger-Ellison syndrome) 等 。 笔者对兰索拉唑的药动学及与其他药物的相互作用以及联合用药综述如下。\n$\\mathrm { P } _ { 4 5 0 } ($ ( CYP) 2C19 和 CYP3A4 分别代谢为 5-羟基兰索拉唑和兰索拉唑砜，这两个代谢产物几乎无抗酸活性。体外实验证明兰索拉唑在高浓度条件下受 CYP3A4 的影响较大，而低浓度下受 CYP2C19 的影响更为明显，而在弱代谢者中 CYP3A4 可能居主导地位［5］。CYP3A4 在兰索拉唑的代谢中比在奥美拉唑中更重要［6］。 CYP2C19 在不同个体和种族间存在基因多态性，这是影响 PPI 代谢和临床效果的一个关键因素。\n1． 1． 4 消除单剂量口服兰索拉唑，药物经肾脏完全以代谢物形式排泄。 $\\pmb { \\mathcal { L } } ^ { 1 4 } \\mathbf { C }$ 标记的兰索拉唑经单剂量口服给药试验表明，该药的代谢产物主要有两种消除途径: 约 1 /3 经肾脏排泄，约 2 /3 经大便排泄。"
+  }
+]

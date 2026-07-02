@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "苦参碱",
+        "canonical_name": "苦参碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "CYP3A4",
+        "canonical_name": "CYP3A4",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "PXR",
+        "canonical_name": "PXR",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜.pdf",
+          "chunk_index": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜:5",
+          "raw_text": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析",
+          "chunk_id": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜:5",
+          "data": "us、GAPDH、 PXR、 CYP3A4 上下游引物、 PrimeScript TM逆转录试剂盒、 SYBR Premix Ex ${ T a q } ^ { \\mathrm { { T M } } }$ 均购自日本TaKaRa 公司;\n细胞增殖抑制率 =1 －细胞存活率2 4 质粒转染 $\\mathrm { H e p G } _ { 2 }$ 和 LS174T 细胞分别以 $5 \\times$ $1 0 ^ { 4 } / \\mathrm { m L }$ 和 $4 \\times 1 0 ^ { 4 } / \\mathrm { m L }$ 接种到白色 96 孔板中，将质粒 $\\mathrm { p S G 5 - h P X R }$ 、 pGL3-3A4-Luc 、 pRL-TK 、 脂质体与Opti-MEM 培养基共 $1 0 0 ~ \\mu \\mathrm { L }$ 的转染液孵育 20 min后，加入培养板中。 转染 4 h 后，弃去转染液，两种细胞均加入含有生理盐水、 利福平 10 μmol /L;$\\mathrm { H e p G } _ { 2 }$ 中加入5%FBS 的 DMEM 培养液浓度分别为1. 5 3 6 mmol /L，LS174T 中加入 5% FBS 的 DMEM培养液含苦参碱浓度分别为 0.5 1 2 mmol/L 每孔设置5 个复孔，置于37 ℃ 5%CO 的恒温培养条件下孵育 24 h。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜.pdf",
+          "chunk_index": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜:5",
+          "raw_text": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析",
+          "chunk_id": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜:5",
+          "data": "us、GAPDH、 PXR、 CYP3A4 上下游引物、 PrimeScript TM逆转录试剂盒、 SYBR Premix Ex ${ T a q } ^ { \\mathrm { { T M } } }$ 均购自日本TaKaRa 公司;\n细胞增殖抑制率 =1 －细胞存活率2 4 质粒转染 $\\mathrm { H e p G } _ { 2 }$ 和 LS174T 细胞分别以 $5 \\times$ $1 0 ^ { 4 } / \\mathrm { m L }$ 和 $4 \\times 1 0 ^ { 4 } / \\mathrm { m L }$ 接种到白色 96 孔板中，将质粒 $\\mathrm { p S G 5 - h P X R }$ 、 pGL3-3A4-Luc 、 pRL-TK 、 脂质体与Opti-MEM 培养基共 $1 0 0 ~ \\mu \\mathrm { L }$ 的转染液孵育 20 min后，加入培养板中。 转染 4 h 后，弃去转染液，两种细胞均加入含有生理盐水、 利福平 10 μmol /L;$\\mathrm { H e p G } _ { 2 }$ 中加入5%FBS 的 DMEM 培养液浓度分别为1. 5 3 6 mmol /L，LS174T 中加入 5% FBS 的 DMEM培养液含苦参碱浓度分别为 0.5 1 2 mmol/L 每孔设置5 个复孔，置于37 ℃ 5%CO 的恒温培养条件下孵育 24 h。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜.pdf",
+          "chunk_index": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜:5",
+          "raw_text": "利福平10 μmol/L",
+          "chunk_id": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜:5",
+          "data": "us、GAPDH、 PXR、 CYP3A4 上下游引物、 PrimeScript TM逆转录试剂盒、 SYBR Premix Ex ${ T a q } ^ { \\mathrm { { T M } } }$ 均购自日本TaKaRa 公司;\n细胞增殖抑制率 =1 －细胞存活率2 4 质粒转染 $\\mathrm { H e p G } _ { 2 }$ 和 LS174T 细胞分别以 $5 \\times$ $1 0 ^ { 4 } / \\mathrm { m L }$ 和 $4 \\times 1 0 ^ { 4 } / \\mathrm { m L }$ 接种到白色 96 孔板中，将质粒 $\\mathrm { p S G 5 - h P X R }$ 、 pGL3-3A4-Luc 、 pRL-TK 、 脂质体与Opti-MEM 培养基共 $1 0 0 ~ \\mu \\mathrm { L }$ 的转染液孵育 20 min后，加入培养板中。 转染 4 h 后，弃去转染液，两种细胞均加入含有生理盐水、 利福平 10 μmol /L;$\\mathrm { H e p G } _ { 2 }$ 中加入5%FBS 的 DMEM 培养液浓度分别为1. 5 3 6 mmol /L，LS174T 中加入 5% FBS 的 DMEM培养液含苦参碱浓度分别为 0.5 1 2 mmol/L 每孔设置5 个复孔，置于37 ℃ 5%CO 的恒温培养条件下孵育 24 h。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜:5",
+    "source": "苦参碱对人孕烷X受体介导的CYP3A4调节及药物相互作用分析_古月瑜.pdf",
+    "text": "us、GAPDH、 PXR、 CYP3A4 上下游引物、 PrimeScript TM逆转录试剂盒、 SYBR Premix Ex ${ T a q } ^ { \\mathrm { { T M } } }$ 均购自日本TaKaRa 公司;\n细胞增殖抑制率 =1 －细胞存活率2 4 质粒转染 $\\mathrm { H e p G } _ { 2 }$ 和 LS174T 细胞分别以 $5 \\times$ $1 0 ^ { 4 } / \\mathrm { m L }$ 和 $4 \\times 1 0 ^ { 4 } / \\mathrm { m L }$ 接种到白色 96 孔板中，将质粒 $\\mathrm { p S G 5 - h P X R }$ 、 pGL3-3A4-Luc 、 pRL-TK 、 脂质体与Opti-MEM 培养基共 $1 0 0 ~ \\mu \\mathrm { L }$ 的转染液孵育 20 min后，加入培养板中。 转染 4 h 后，弃去转染液，两种细胞均加入含有生理盐水、 利福平 10 μmol /L;$\\mathrm { H e p G } _ { 2 }$ 中加入5%FBS 的 DMEM 培养液浓度分别为1. 5 3 6 mmol /L，LS174T 中加入 5% FBS 的 DMEM培养液含苦参碱浓度分别为 0.5 1 2 mmol/L 每孔设置5 个复孔，置于37 ℃ 5%CO 的恒温培养条件下孵育 24 h。"
+  }
+]

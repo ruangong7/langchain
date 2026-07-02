@@ -17,9 +17,11 @@ class DatabaseTool:
 
     def __init__(self):
         self.connection = None
+        self.capabilities: Dict[str, bool] = {}
         self._connect()
         self._ensure_health_profile_tables()
         self._migrate_legacy_health_profile_columns()
+        self.refresh_capabilities()
 
     def _connect(self):
         try:
@@ -176,90 +178,100 @@ class DatabaseTool:
             self.connection.rollback()
             logger.warning("旧健康档案表迁移已跳过: %s", exc)
 
-    def query_real_drug_database(self, drug_name: str) -> str:
+    def refresh_capabilities(self) -> Dict[str, bool]:
+        capabilities = {
+            "user_health_profile_table": False,
+            "user_medications_table": False,
+        }
         try:
             with self.connection.cursor() as cursor:
-                cursor.execute("SELECT * FROM real_drug WHERE drug_name LIKE %s", (f"%{drug_name}%",))
-                results = cursor.fetchall()
-            if not results:
-                return f"未找到药品 {drug_name} 的相关信息。"
-
-            result_text = f"找到 {len(results)} 条关于 {drug_name} 的记录：\n\n"
-            for index, row in enumerate(results, start=1):
-                result_text += f"记录 {index}:\n"
-                for key, value in row.items():
-                    if value:
-                        result_text += f"  {key}: {value}\n"
-                result_text += "\n"
-            return result_text
+                capabilities["user_health_profile_table"] = self._table_exists("user_health_profile", cursor)
+                capabilities["user_medications_table"] = self._table_exists("user_medications", cursor)
         except Exception as exc:
-            logger.error("查询 real_drug 失败: %s", exc, exc_info=True)
-            return f"查询 real_drug 失败: {exc}"
+            logger.warning("刷新数据库能力失败: %s", exc, exc_info=True)
+        self.capabilities = capabilities
+        logger.info("数据库能力检测: %s", capabilities)
+        return dict(capabilities)
 
-    def query_joint_data(self, question: str) -> str:
+    def get_capabilities(self) -> Dict[str, bool]:
+        if not self.capabilities:
+            return self.refresh_capabilities()
+        return dict(self.capabilities)
+
+    def query_user_health_profile(self, user_id: int) -> str:
+        return self.format_tool_result(self.query_user_health_profile_payload(user_id))
+
+    def query_user_medication_summary(self, user_id: int) -> str:
+        return self.format_tool_result(self.query_user_medication_summary_payload(user_id))
+
+    def query_user_health_profile_payload(self, user_id: int) -> Dict[str, Any]:
+        capabilities = self.get_capabilities()
+        if not (capabilities.get("user_health_profile_table") or capabilities.get("user_medications_table")):
+            return {
+                "ok": False,
+                "tool": "queryUserHealthProfile",
+                "reason": "profile_tables_missing",
+                "message": "数据库中未配置用户健康档案相关表，当前无法读取个体化信息。",
+                "records": [],
+                "count": 0,
+            }
         try:
-            with self.connection.cursor() as cursor:
-                cursor.execute(
-                    "SELECT * FROM yinshi WHERE question LIKE %s OR answer LIKE %s",
-                    (f"%{question}%", f"%{question}%"),
-                )
-                yinshi_results = cursor.fetchall()
-
-                result_text = f"联合查询结果（问题：{question}）：\n\n"
-                if not yinshi_results:
-                    return result_text + "未找到相关的用户用药信息。"
-
-                result_text += "=== 用户用药信息（yinshi）===\n"
-                for row in yinshi_results:
-                    drug_name = row.get("drug_name", "")
-                    result_text += f"药物名称: {drug_name}\n"
-                    for key, value in row.items():
-                        if key != "drug_name" and value:
-                            result_text += f"  {key}: {value}\n"
-                    result_text += "\n"
-
-                    if not drug_name:
-                        continue
-
-                    cursor.execute("SELECT * FROM real_drug WHERE drug_name LIKE %s", (f"%{drug_name}%",))
-                    real_results = cursor.fetchall()
-                    if not real_results:
-                        continue
-
-                    result_text += f"=== {drug_name} 的详细信息（real_drug）===\n"
-                    for real_row in real_results:
-                        for key, value in real_row.items():
-                            if value:
-                                result_text += f"  {key}: {value}\n"
-                    result_text += "\n"
-
-            return result_text
+            profile = self.get_user_health_profile(int(user_id), include_medications=False)
+            return {
+                "ok": True,
+                "tool": "queryUserHealthProfile",
+                "reason": "success",
+                "message": "已读取当前用户的健康档案。",
+                "records": [profile],
+                "count": 1,
+            }
         except Exception as exc:
-            logger.error("联合查询失败: %s", exc, exc_info=True)
-            return f"联合查询失败: {exc}"
+            logger.error("读取用户健康档案失败: %s", exc, exc_info=True)
+            return {
+                "ok": False,
+                "tool": "queryUserHealthProfile",
+                "reason": "query_failed",
+                "message": f"读取用户健康档案失败: {exc}",
+                "records": [],
+                "count": 0,
+            }
+
+    def query_user_medication_summary_payload(self, user_id: int) -> Dict[str, Any]:
+        capabilities = self.get_capabilities()
+        if not capabilities.get("user_medications_table"):
+            return {
+                "ok": False,
+                "tool": "queryUserMedicationSummary",
+                "reason": "medications_table_missing",
+                "message": "数据库中未配置当前用药信息，当前无法读取用药摘要。",
+                "records": [],
+                "count": 0,
+            }
+        try:
+            medications = self.get_user_medications(int(user_id))
+            return {
+                "ok": True,
+                "tool": "queryUserMedicationSummary",
+                "reason": "success",
+                "message": "已读取当前用户登记的用药信息。",
+                "records": medications,
+                "count": len(medications),
+            }
+        except Exception as exc:
+            logger.error("读取当前用药摘要失败: %s", exc, exc_info=True)
+            return {
+                "ok": False,
+                "tool": "queryUserMedicationSummary",
+                "reason": "query_failed",
+                "message": f"读取当前用药摘要失败: {exc}",
+                "records": [],
+                "count": 0,
+            }
 
     def load_drug_lexicon(self, refresh: bool = False) -> List[str]:
-        try:
-            with self.connection.cursor() as cursor:
-                cursor.execute(
-                    """
-                    SELECT DISTINCT drug_name
-                    FROM real_drug
-                    WHERE drug_name IS NOT NULL AND drug_name <> ''
-                    """
-                )
-                rows = cursor.fetchall()
-            names = {
-                str(row.get("drug_name", "")).strip()
-                for row in rows
-                if row.get("drug_name")
-            }
-            return sorted(names, key=len, reverse=True)
-        except Exception as exc:
-            logger.error("加载药品词表失败: %s", exc, exc_info=True)
-            return []
+        return []
 
-    def get_user_health_profile(self, user_id: int) -> Dict[str, Any]:
+    def get_user_health_profile(self, user_id: int, include_medications: bool = True) -> Dict[str, Any]:
         self._ensure_health_profile_tables()
 
         profile: Dict[str, Any] = {
@@ -304,31 +316,14 @@ class DatabaseTool:
                     }
                 )
 
-            cursor.execute(
-                """
-                SELECT drug_name, dosage, purpose, frequency, times_per_day,
-                       administration_time, start_date, end_date
-                FROM user_medications
-                WHERE user_id = %s
-                ORDER BY id ASC
-                """,
-                (user_id,),
-            )
-            profile["medications"] = [
-                {
-                    "drug_name": str(item.get("drug_name") or "").strip(),
-                    "dosage": str(item.get("dosage") or "").strip(),
-                    "purpose": str(item.get("purpose") or "").strip(),
-                    "frequency": str(item.get("frequency") or "").strip(),
-                    "times_per_day": item.get("times_per_day"),
-                    "administration_time": str(item.get("administration_time") or "").strip(),
-                    "start_date": item.get("start_date").isoformat() if item.get("start_date") else None,
-                    "end_date": item.get("end_date").isoformat() if item.get("end_date") else None,
-                }
-                for item in cursor.fetchall()
-                if str(item.get("drug_name") or "").strip()
-            ]
+            if include_medications:
+                profile["medications"] = self._fetch_user_medications(cursor, user_id)
         return profile
+
+    def get_user_medications(self, user_id: int) -> List[Dict[str, Any]]:
+        self._ensure_health_profile_tables()
+        with self.connection.cursor() as cursor:
+            return self._fetch_user_medications(cursor, user_id)
 
     def upsert_user_health_profile(self, user_id: int, payload: Dict[str, Any]) -> Dict[str, Any]:
         self._ensure_health_profile_tables()
@@ -407,23 +402,93 @@ class DatabaseTool:
             raise
         return self.get_user_health_profile(user_id)
 
-    def build_user_personal_context(self, user_id: int) -> str:
+    def build_user_profile_context(self, user_id: int) -> str:
         profile = self.get_user_health_profile(user_id)
+        return self.render_profile_context(profile)
+
+    def build_user_personal_context(self, user_id: int) -> str:
+        return self.build_user_profile_context(user_id)
+
+    def close(self):
+        if self.connection:
+            self.connection.close()
+            logger.info("数据库连接已关闭")
+
+    @staticmethod
+    def format_tool_result(payload: Dict[str, Any]) -> str:
+        tool_name = str(payload.get("tool") or "tool")
+        message = str(payload.get("message") or "").strip()
+        records = payload.get("records") or []
+        if tool_name == "queryUserHealthProfile":
+            if not records:
+                return message
+            profile = records[0] or {}
+            lines = [message, ""]
+            field_mappings = (
+                ("display_name", "称呼"),
+                ("gender", "性别"),
+                ("age", "年龄"),
+                ("height_cm", "身高(cm)"),
+                ("weight_kg", "体重(kg)"),
+                ("notes", "备注"),
+            )
+            for key, label in field_mappings:
+                value = profile.get(key)
+                if value is not None and value != "":
+                    lines.append(f"{label}: {value}")
+            if profile.get("is_pregnant"):
+                lines.append("状态: 妊娠期")
+            if profile.get("is_breastfeeding"):
+                lines.append("状态: 哺乳期")
+            if profile.get("conditions"):
+                lines.append("基础病: " + "、".join(profile["conditions"]))
+            if profile.get("allergies"):
+                lines.append("过敏史: " + "、".join(profile["allergies"]))
+            return "\n".join(lines).strip()
+        if tool_name == "queryUserMedicationSummary":
+            if not records:
+                return message
+            lines = [message, ""]
+            for index, item in enumerate(records, start=1):
+                parts = [str(item.get("drug_name") or "").strip()]
+                for key in ("dosage", "frequency", "administration_time", "purpose"):
+                    value = str(item.get(key) or "").strip()
+                    if value:
+                        parts.append(value)
+                times_per_day = item.get("times_per_day")
+                if times_per_day:
+                    parts.append(f"每日{times_per_day}次")
+                start_date = str(item.get("start_date") or "").strip()
+                end_date = str(item.get("end_date") or "").strip()
+                if start_date or end_date:
+                    parts.append(f"{start_date or '未设开始'} - {end_date or '持续中'}")
+                lines.append(f"{index}. " + " / ".join([part for part in parts if part]))
+            return "\n".join(lines).strip()
+
+        return message
+
+    @staticmethod
+    def render_profile_context(profile: Dict[str, Any]) -> str:
+        if not isinstance(profile, dict):
+            return ""
         has_profile = any(
             [
                 profile.get("display_name"),
                 profile.get("gender"),
                 profile.get("age") is not None,
+                profile.get("height_cm") is not None,
+                profile.get("weight_kg") is not None,
+                profile.get("is_pregnant"),
+                profile.get("is_breastfeeding"),
                 profile.get("conditions"),
                 profile.get("allergies"),
-                profile.get("medications"),
                 profile.get("notes"),
             ]
         )
         if not has_profile:
             return ""
 
-        lines = ["[用户健康档案]"]
+        lines = ["[用户个人档案]"]
         if profile.get("display_name"):
             lines.append(f"称呼: {profile['display_name']}")
         if profile.get("gender"):
@@ -442,38 +507,47 @@ class DatabaseTool:
             lines.append("基础病: " + "、".join(profile["conditions"]))
         if profile.get("allergies"):
             lines.append("过敏史: " + "、".join(profile["allergies"]))
-        if profile.get("medications"):
-            med_lines = []
-            for item in profile["medications"]:
-                parts = [item["drug_name"]]
-                if item.get("dosage"):
-                    parts.append(item["dosage"])
-                if item.get("frequency"):
-                    parts.append(item["frequency"])
-                if item.get("times_per_day"):
-                    parts.append(f"每日{item['times_per_day']}次")
-                if item.get("administration_time"):
-                    parts.append(item["administration_time"])
-                if item.get("purpose"):
-                    parts.append(f"用途:{item['purpose']}")
-                if item.get("start_date") or item.get("end_date"):
-                    parts.append(f"{item.get('start_date') or '未设开始'} - {item.get('end_date') or '持续中'}")
-                med_lines.append(" / ".join(parts))
-            lines.append("当前用药: " + "；".join(med_lines))
         if profile.get("notes"):
-            lines.append("备注: " + profile["notes"])
-        lines.append("回答时请优先结合这些个体信息评估药物相互作用、基础病冲突、过敏风险和特殊人群风险。")
+            lines.append("备注: " + str(profile["notes"]))
+        lines.append("回答时请优先结合这些个体信息评估用药风险、生活场景风险和特殊人群注意事项。")
         return "\n".join(lines)
 
-    def close(self):
-        if self.connection:
-            self.connection.close()
-            logger.info("数据库连接已关闭")
+    @staticmethod
+    def _fetch_user_medications(cursor, user_id: int) -> List[Dict[str, Any]]:
+        cursor.execute(
+            """
+            SELECT drug_name, dosage, purpose, frequency, times_per_day,
+                   administration_time, start_date, end_date
+            FROM user_medications
+            WHERE user_id = %s
+            ORDER BY id ASC
+            """,
+            (user_id,),
+        )
+        return [
+            {
+                "drug_name": str(item.get("drug_name") or "").strip(),
+                "dosage": str(item.get("dosage") or "").strip(),
+                "purpose": str(item.get("purpose") or "").strip(),
+                "frequency": str(item.get("frequency") or "").strip(),
+                "times_per_day": item.get("times_per_day"),
+                "administration_time": str(item.get("administration_time") or "").strip(),
+                "start_date": item.get("start_date").isoformat() if item.get("start_date") else None,
+                "end_date": item.get("end_date").isoformat() if item.get("end_date") else None,
+            }
+            for item in cursor.fetchall()
+            if str(item.get("drug_name") or "").strip()
+        ]
 
     @staticmethod
     def _get_table_columns(table_name: str, cursor) -> set[str]:
         cursor.execute(f"SHOW COLUMNS FROM {table_name}")
         return {str(row.get("Field") or "").strip() for row in cursor.fetchall()}
+
+    @staticmethod
+    def _table_exists(table_name: str, cursor) -> bool:
+        cursor.execute("SHOW TABLES LIKE %s", (table_name,))
+        return bool(cursor.fetchone())
 
     @staticmethod
     def _clean_string_list(values: Any) -> List[str]:

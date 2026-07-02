@@ -1,0 +1,152 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "洛伐他汀",
+        "canonical_name": "洛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "二氢吡啶类",
+        "canonical_name": "二氢吡啶类",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "硝苯地平",
+        "canonical_name": "硝苯地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "非洛地平",
+        "canonical_name": "非洛地平",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "高血压",
+        "canonical_name": "高血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "血脂异常",
+        "canonical_name": "血脂异常",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "SideEffect",
+        "name": "不良反应",
+        "canonical_name": "不良反应",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+          "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:1",
+          "raw_text": "对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。",
+          "chunk_id": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:1",
+          "data": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。\nDrug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+          "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:1",
+          "raw_text": "患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀",
+          "chunk_id": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:1",
+          "data": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。\nDrug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+          "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:1",
+          "raw_text": "二氢吡啶类降压药",
+          "chunk_id": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:1",
+          "data": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。\nDrug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+          "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:1",
+          "raw_text": "为避免不良反应发生",
+          "chunk_id": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:1",
+          "data": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。\nDrug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_2",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+          "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:1",
+          "raw_text": "为避免不良反应发生",
+          "chunk_id": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:1",
+          "data": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。\nDrug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+          "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:1",
+          "raw_text": "硝苯地平",
+          "chunk_id": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:1",
+          "data": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。\nDrug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+          "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:1",
+          "raw_text": "非洛地平",
+          "chunk_id": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:1",
+          "data": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。\nDrug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲:1",
+    "source": "洛伐他汀与二氢吡啶类药物相互作用研究_夏宗玲.pdf",
+    "text": "分子量、表面积亦对抑制作用产生影响，成负相关。结论对于患有高血压合并血脂异常的患者联合使用二氢吡啶类降压药与洛伐他汀时，产生药物相互作用的可能性较大。为避免不良反应发生，宜选用 LogP 值较大，而分子量、表面积较小的硝苯地平和非洛地平等。\nDrug-interactions between Lovastatin and Dihydropyridin Calcium Antagonists"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "异鼠李素",
+        "canonical_name": "异鼠李素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "伊立替康",
+        "canonical_name": "伊立替康",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "利福平",
+        "canonical_name": "利福平",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "CYP3A4",
+        "canonical_name": "CYP3A4",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽.pdf",
+          "chunk_index": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽:2",
+          "raw_text": "中药及化学品的处理用DMSO溶解异鼠李素、伊立替康和利福平, 配成 0.1 mol·L−1 储液, 避光保存在−20 ℃; 使用前取出融化, 旋涡振荡后, 按一定浓度加入到细胞, 使加入细胞的DMSO终浓度为0.1%。",
+          "chunk_id": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽:2",
+          "data": "-gp)、多药耐药蛋白(multidrug resistance associated protein, MRP)、有机阴离子转运多肽-2 (organ anion transport polypeptides-2,OATP2) 等[2]。\n目前研究最多的是 PXR 对 CYP3A4 代谢酶的调控[3]。CYP3A4 是细胞色素 P450 超家族的主要成员, 负责代谢体内 50%以上的临床用药, 对口服药的生物利用度和系统清除率有着普遍的影响。深入了解 PXR 对 CYP3A4 的调控作用, 已经成为药物相互作用发生机制研究方面的重要内容[4]。鉴于 PXR/CYP3A4在药物代谢中的重要意义, 涌现出许多新的研究方法来检测药物对 PXR 的激活特性, 预测临床潜在的药物-药物相互作用的可能性。其中基于 PXR/CYP3A4 诱导机制的细胞报告基因技术 (cell-basedgene reporter assay) 是反映药物诱导 CYP3A4 表达的最直接检测系统[5]。但是, PXR 报告基因技术仅限于 CYP3A4 转录水平的研究, 若要全面阐明药物对CYP3A4 的影响, 还应该在蛋白功能水平进行证实,即检测 CYP3A4 酶活性和评价药物相互作用[5]。\nLabconco 生物安全柜; Hera Cell 150i CO 培养箱;Thermo Scientific Varioskan Flash 全波长多功能读数仪; ABI 7300 荧光定量 PCR 仪; Syngene 凝胶成像仪;5415R 冷冻离心机。\n中药及化学品的处理用DMSO溶解异鼠李素、伊立替康和利福平, 配成 0.1 mol·L−1 储液, 避光保存在−20 ℃; 使用前取出融化, 旋涡振荡后, 按一定浓度加入到细胞, 使加入细胞的DMSO终浓度为0.1%。"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽.pdf",
+          "chunk_index": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽:2",
+          "raw_text": "中药及化学品的处理用DMSO溶解异鼠李素、伊立替康和利福平, 配成 0.1 mol·L−1 储液, 避光保存在−20 ℃; 使用前取出融化, 旋涡振荡后, 按一定浓度加入到细胞, 使加入细胞的DMSO终浓度为0.1%。",
+          "chunk_id": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽:2",
+          "data": "-gp)、多药耐药蛋白(multidrug resistance associated protein, MRP)、有机阴离子转运多肽-2 (organ anion transport polypeptides-2,OATP2) 等[2]。\n目前研究最多的是 PXR 对 CYP3A4 代谢酶的调控[3]。CYP3A4 是细胞色素 P450 超家族的主要成员, 负责代谢体内 50%以上的临床用药, 对口服药的生物利用度和系统清除率有着普遍的影响。深入了解 PXR 对 CYP3A4 的调控作用, 已经成为药物相互作用发生机制研究方面的重要内容[4]。鉴于 PXR/CYP3A4在药物代谢中的重要意义, 涌现出许多新的研究方法来检测药物对 PXR 的激活特性, 预测临床潜在的药物-药物相互作用的可能性。其中基于 PXR/CYP3A4 诱导机制的细胞报告基因技术 (cell-basedgene reporter assay) 是反映药物诱导 CYP3A4 表达的最直接检测系统[5]。但是, PXR 报告基因技术仅限于 CYP3A4 转录水平的研究, 若要全面阐明药物对CYP3A4 的影响, 还应该在蛋白功能水平进行证实,即检测 CYP3A4 酶活性和评价药物相互作用[5]。\nLabconco 生物安全柜; Hera Cell 150i CO 培养箱;Thermo Scientific Varioskan Flash 全波长多功能读数仪; ABI 7300 荧光定量 PCR 仪; Syngene 凝胶成像仪;5415R 冷冻离心机。\n中药及化学品的处理用DMSO溶解异鼠李素、伊立替康和利福平, 配成 0.1 mol·L−1 储液, 避光保存在−20 ℃; 使用前取出融化, 旋涡振荡后, 按一定浓度加入到细胞, 使加入细胞的DMSO终浓度为0.1%。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽.pdf",
+          "chunk_index": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽:2",
+          "raw_text": "中药及化学品的处理用DMSO溶解异鼠李素、伊立替康和利福平, 配成 0.1 mol·L−1 储液, 避光保存在−20 ℃; 使用前取出融化, 旋涡振荡后, 按一定浓度加入到细胞, 使加入细胞的DMSO终浓度为0.1%。",
+          "chunk_id": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽:2",
+          "data": "-gp)、多药耐药蛋白(multidrug resistance associated protein, MRP)、有机阴离子转运多肽-2 (organ anion transport polypeptides-2,OATP2) 等[2]。\n目前研究最多的是 PXR 对 CYP3A4 代谢酶的调控[3]。CYP3A4 是细胞色素 P450 超家族的主要成员, 负责代谢体内 50%以上的临床用药, 对口服药的生物利用度和系统清除率有着普遍的影响。深入了解 PXR 对 CYP3A4 的调控作用, 已经成为药物相互作用发生机制研究方面的重要内容[4]。鉴于 PXR/CYP3A4在药物代谢中的重要意义, 涌现出许多新的研究方法来检测药物对 PXR 的激活特性, 预测临床潜在的药物-药物相互作用的可能性。其中基于 PXR/CYP3A4 诱导机制的细胞报告基因技术 (cell-basedgene reporter assay) 是反映药物诱导 CYP3A4 表达的最直接检测系统[5]。但是, PXR 报告基因技术仅限于 CYP3A4 转录水平的研究, 若要全面阐明药物对CYP3A4 的影响, 还应该在蛋白功能水平进行证实,即检测 CYP3A4 酶活性和评价药物相互作用[5]。\nLabconco 生物安全柜; Hera Cell 150i CO 培养箱;Thermo Scientific Varioskan Flash 全波长多功能读数仪; ABI 7300 荧光定量 PCR 仪; Syngene 凝胶成像仪;5415R 冷冻离心机。\n中药及化学品的处理用DMSO溶解异鼠李素、伊立替康和利福平, 配成 0.1 mol·L−1 储液, 避光保存在−20 ℃; 使用前取出融化, 旋涡振荡后, 按一定浓度加入到细胞, 使加入细胞的DMSO终浓度为0.1%。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽:2",
+    "source": "异鼠李素对CYP3A4的调节及药物相互作用分析_丁丽丽.pdf",
+    "text": "-gp)、多药耐药蛋白(multidrug resistance associated protein, MRP)、有机阴离子转运多肽-2 (organ anion transport polypeptides-2,OATP2) 等[2]。\n目前研究最多的是 PXR 对 CYP3A4 代谢酶的调控[3]。CYP3A4 是细胞色素 P450 超家族的主要成员, 负责代谢体内 50%以上的临床用药, 对口服药的生物利用度和系统清除率有着普遍的影响。深入了解 PXR 对 CYP3A4 的调控作用, 已经成为药物相互作用发生机制研究方面的重要内容[4]。鉴于 PXR/CYP3A4在药物代谢中的重要意义, 涌现出许多新的研究方法来检测药物对 PXR 的激活特性, 预测临床潜在的药物-药物相互作用的可能性。其中基于 PXR/CYP3A4 诱导机制的细胞报告基因技术 (cell-basedgene reporter assay) 是反映药物诱导 CYP3A4 表达的最直接检测系统[5]。但是, PXR 报告基因技术仅限于 CYP3A4 转录水平的研究, 若要全面阐明药物对CYP3A4 的影响, 还应该在蛋白功能水平进行证实,即检测 CYP3A4 酶活性和评价药物相互作用[5]。\nLabconco 生物安全柜; Hera Cell 150i CO 培养箱;Thermo Scientific Varioskan Flash 全波长多功能读数仪; ABI 7300 荧光定量 PCR 仪; Syngene 凝胶成像仪;5415R 冷冻离心机。\n中药及化学品的处理用DMSO溶解异鼠李素、伊立替康和利福平, 配成 0.1 mol·L−1 储液, 避光保存在−20 ℃; 使用前取出融化, 旋涡振荡后, 按一定浓度加入到细胞, 使加入细胞的DMSO终浓度为0.1%。"
+  }
+]

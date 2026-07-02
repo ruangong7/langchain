@@ -1,0 +1,210 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "奈韦拉平",
+        "canonical_name": "奈韦拉平",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "洛匹那韦",
+        "canonical_name": "洛匹那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "茚地那韦",
+        "canonical_name": "茚地那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "沙奎那韦",
+        "canonical_name": "沙奎那韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Food",
+        "name": "非洲马铃薯",
+        "canonical_name": "非洲马铃薯",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Food",
+        "name": "蒜辣素",
+        "canonical_name": "蒜辣素",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Food",
+        "name": "山柰酚",
+        "canonical_name": "山柰酚",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Food",
+        "name": "橡黄素",
+        "canonical_name": "橡黄素",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Food",
+        "name": "金丝桃素",
+        "canonical_name": "金丝桃素",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Food",
+        "name": "金丝桃提取物",
+        "canonical_name": "金丝桃提取物",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Food",
+        "name": "大蒜提取物",
+        "canonical_name": "大蒜提取物",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "L-Canavanine",
+        "canonical_name": "L-Canavanine",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+          "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+          "raw_text": "发现非洲马铃薯和诱导型一氧化氮合酶(inducible nitric oxide synthase，iNOS)抑制剂(L-Canavanine)显著减低奈韦拉平在 Caco-2 细胞中的透过率，具有提高NVP生物利用度的潜在活性[30]。",
+          "mechanism": "降低透过率",
+          "consequence": "提高生物利用度",
+          "chunk_id": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+          "data": "mathrm { m a x } } [ 2 5 ]$ (LTV)的 $\\mathrm { { C } _ { \\mathrm { { m a x } } } }$ 和 $\\mathrm { A U C } ^ { [ 2 6 ] }$ 。\n4 中药影响抗病毒化药的吸收\n中草药成分与化学药物都需要通过肠胃的消化与吸收，且可能有共同的作用靶点。Brown 等利用 Caco-2 细胞模型研究了几种植物提取物对抗病毒化学药物那韦拉平(nevirapine, NVP)的抑制作用，发现非洲马铃薯和诱导型一氧化氮合酶(inducible nitric oxide synthase，iNOS)抑制剂(L-Canavanine)显著减低奈韦拉平在 Caco-2 细胞中的透过率，具有提高NVP生物利用度的潜在活性[30]。Patel 等用过表达多耐药基因(Multidrug Resistancegene 1，MDR1)的 MDCK 细胞(表达高水平的 P-糖蛋白)研究洛匹拉韦(ritonavir)的吸收时，发现$1 0 0 \\ \\mu \\mathrm { m o l \\cdot L } ^ { - }$ 1 纯化的中草药成分(蒜辣素(allicin)、山柰酚(kaempferol)、橡黄素(quercetin)和金丝桃素(hypericin))能显著提高洛匹拉韦(ritonavir)的吸收率[31]。金丝桃和大蒜提取物分别能降低茚地那韦(Indinavir)和沙奎那韦 (saquinavir)的血药浓度到57%和 51%，从而影响抗病毒治疗效果[32]。深入研究发现，金丝桃提取物对茚地那韦和沙奎那韦的调控是通过影响P-糖蛋白和CYP3A4的表达所致[33]。\n3 中药对 CYP450 酶的影响研究"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+          "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+          "raw_text": "发现非洲马铃薯和诱导型一氧化氮合酶(inducible nitric oxide synthase，iNOS)抑制剂(L-Canavanine)显著减低奈韦拉平在 Caco-2 细胞中的透过率，具有提高NVP生物利用度的潜在活性[30]。",
+          "mechanism": "降低透过率",
+          "consequence": "提高生物利用度",
+          "chunk_id": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+          "data": "mathrm { m a x } } [ 2 5 ]$ (LTV)的 $\\mathrm { { C } _ { \\mathrm { { m a x } } } }$ 和 $\\mathrm { A U C } ^ { [ 2 6 ] }$ 。\n4 中药影响抗病毒化药的吸收\n中草药成分与化学药物都需要通过肠胃的消化与吸收，且可能有共同的作用靶点。Brown 等利用 Caco-2 细胞模型研究了几种植物提取物对抗病毒化学药物那韦拉平(nevirapine, NVP)的抑制作用，发现非洲马铃薯和诱导型一氧化氮合酶(inducible nitric oxide synthase，iNOS)抑制剂(L-Canavanine)显著减低奈韦拉平在 Caco-2 细胞中的透过率，具有提高NVP生物利用度的潜在活性[30]。Patel 等用过表达多耐药基因(Multidrug Resistancegene 1，MDR1)的 MDCK 细胞(表达高水平的 P-糖蛋白)研究洛匹拉韦(ritonavir)的吸收时，发现$1 0 0 \\ \\mu \\mathrm { m o l \\cdot L } ^ { - }$ 1 纯化的中草药成分(蒜辣素(allicin)、山柰酚(kaempferol)、橡黄素(quercetin)和金丝桃素(hypericin))能显著提高洛匹拉韦(ritonavir)的吸收率[31]。金丝桃和大蒜提取物分别能降低茚地那韦(Indinavir)和沙奎那韦 (saquinavir)的血药浓度到57%和 51%，从而影响抗病毒治疗效果[32]。深入研究发现，金丝桃提取物对茚地那韦和沙奎那韦的调控是通过影响P-糖蛋白和CYP3A4的表达所致[33]。\n3 中药对 CYP450 酶的影响研究"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+          "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+          "raw_text": "发现$1 0 0 \\ \\mu \\mathrm { m o l \\cdot L } ^ { - }$ 1 纯化的中草药成分(蒜辣素(allicin)、山柰酚(kaempferol)、橡黄素(quercetin)和金丝桃素(hypericin))能显著提高洛匹拉韦(ritonavir)的吸收率[31]。",
+          "consequence": "提高吸收率",
+          "chunk_id": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+          "data": "mathrm { m a x } } [ 2 5 ]$ (LTV)的 $\\mathrm { { C } _ { \\mathrm { { m a x } } } }$ 和 $\\mathrm { A U C } ^ { [ 2 6 ] }$ 。\n4 中药影响抗病毒化药的吸收\n中草药成分与化学药物都需要通过肠胃的消化与吸收，且可能有共同的作用靶点。Brown 等利用 Caco-2 细胞模型研究了几种植物提取物对抗病毒化学药物那韦拉平(nevirapine, NVP)的抑制作用，发现非洲马铃薯和诱导型一氧化氮合酶(inducible nitric oxide synthase，iNOS)抑制剂(L-Canavanine)显著减低奈韦拉平在 Caco-2 细胞中的透过率，具有提高NVP生物利用度的潜在活性[30]。Patel 等用过表达多耐药基因(Multidrug Resistancegene 1，MDR1)的 MDCK 细胞(表达高水平的 P-糖蛋白)研究洛匹拉韦(ritonavir)的吸收时，发现$1 0 0 \\ \\mu \\mathrm { m o l \\cdot L } ^ { - }$ 1 纯化的中草药成分(蒜辣素(allicin)、山柰酚(kaempferol)、橡黄素(quercetin)和金丝桃素(hypericin))能显著提高洛匹拉韦(ritonavir)的吸收率[31]。金丝桃和大蒜提取物分别能降低茚地那韦(Indinavir)和沙奎那韦 (saquinavir)的血药浓度到57%和 51%，从而影响抗病毒治疗效果[32]。深入研究发现，金丝桃提取物对茚地那韦和沙奎那韦的调控是通过影响P-糖蛋白和CYP3A4的表达所致[33]。\n3 中药对 CYP450 酶的影响研究"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+          "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+          "raw_text": "发现$1 0 0 \\ \\mu \\mathrm { m o l \\cdot L } ^ { - }$ 1 纯化的中草药成分(蒜辣素(allicin)、山柰酚(kaempferol)、橡黄素(quercetin)和金丝桃素(hypericin))能显著提高洛匹拉韦(ritonavir)的吸收率[31]。",
+          "consequence": "提高吸收率",
+          "chunk_id": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+          "data": "mathrm { m a x } } [ 2 5 ]$ (LTV)的 $\\mathrm { { C } _ { \\mathrm { { m a x } } } }$ 和 $\\mathrm { A U C } ^ { [ 2 6 ] }$ 。\n4 中药影响抗病毒化药的吸收\n中草药成分与化学药物都需要通过肠胃的消化与吸收，且可能有共同的作用靶点。Brown 等利用 Caco-2 细胞模型研究了几种植物提取物对抗病毒化学药物那韦拉平(nevirapine, NVP)的抑制作用，发现非洲马铃薯和诱导型一氧化氮合酶(inducible nitric oxide synthase，iNOS)抑制剂(L-Canavanine)显著减低奈韦拉平在 Caco-2 细胞中的透过率，具有提高NVP生物利用度的潜在活性[30]。Patel 等用过表达多耐药基因(Multidrug Resistancegene 1，MDR1)的 MDCK 细胞(表达高水平的 P-糖蛋白)研究洛匹拉韦(ritonavir)的吸收时，发现$1 0 0 \\ \\mu \\mathrm { m o l \\cdot L } ^ { - }$ 1 纯化的中草药成分(蒜辣素(allicin)、山柰酚(kaempferol)、橡黄素(quercetin)和金丝桃素(hypericin))能显著提高洛匹拉韦(ritonavir)的吸收率[31]。金丝桃和大蒜提取物分别能降低茚地那韦(Indinavir)和沙奎那韦 (saquinavir)的血药浓度到57%和 51%，从而影响抗病毒治疗效果[32]。深入研究发现，金丝桃提取物对茚地那韦和沙奎那韦的调控是通过影响P-糖蛋白和CYP3A4的表达所致[33]。\n3 中药对 CYP450 酶的影响研究"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+          "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+          "raw_text": "发现$1 0 0 \\ \\mu \\mathrm { m o l \\cdot L } ^ { - }$ 1 纯化的中草药成分(蒜辣素(allicin)、山柰酚(kaempferol)、橡黄素(quercetin)和金丝桃素(hypericin))能显著提高洛匹拉韦(ritonavir)的吸收率[31]。",
+          "consequence": "提高吸收率",
+          "chunk_id": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+          "data": "mathrm { m a x } } [ 2 5 ]$ (LTV)的 $\\mathrm { { C } _ { \\mathrm { { m a x } } } }$ 和 $\\mathrm { A U C } ^ { [ 2 6 ] }$ 。\n4 中药影响抗病毒化药的吸收\n中草药成分与化学药物都需要通过肠胃的消化与吸收，且可能有共同的作用靶点。Brown 等利用 Caco-2 细胞模型研究了几种植物提取物对抗病毒化学药物那韦拉平(nevirapine, NVP)的抑制作用，发现非洲马铃薯和诱导型一氧化氮合酶(inducible nitric oxide synthase，iNOS)抑制剂(L-Canavanine)显著减低奈韦拉平在 Caco-2 细胞中的透过率，具有提高NVP生物利用度的潜在活性[30]。Patel 等用过表达多耐药基因(Multidrug Resistancegene 1，MDR1)的 MDCK 细胞(表达高水平的 P-糖蛋白)研究洛匹拉韦(ritonavir)的吸收时，发现$1 0 0 \\ \\mu \\mathrm { m o l \\cdot L } ^ { - }$ 1 纯化的中草药成分(蒜辣素(allicin)、山柰酚(kaempferol)、橡黄素(quercetin)和金丝桃素(hypericin))能显著提高洛匹拉韦(ritonavir)的吸收率[31]。金丝桃和大蒜提取物分别能降低茚地那韦(Indinavir)和沙奎那韦 (saquinavir)的血药浓度到57%和 51%，从而影响抗病毒治疗效果[32]。深入研究发现，金丝桃提取物对茚地那韦和沙奎那韦的调控是通过影响P-糖蛋白和CYP3A4的表达所致[33]。\n3 中药对 CYP450 酶的影响研究"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+          "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+          "raw_text": "发现$1 0 0 \\ \\mu \\mathrm { m o l \\cdot L } ^ { - }$ 1 纯化的中草药成分(蒜辣素(allicin)、山柰酚(kaempferol)、橡黄素(quercetin)和金丝桃素(hypericin))能显著提高洛匹拉韦(ritonavir)的吸收率[31]。",
+          "consequence": "提高吸收率",
+          "chunk_id": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+          "data": "mathrm { m a x } } [ 2 5 ]$ (LTV)的 $\\mathrm { { C } _ { \\mathrm { { m a x } } } }$ 和 $\\mathrm { A U C } ^ { [ 2 6 ] }$ 。\n4 中药影响抗病毒化药的吸收\n中草药成分与化学药物都需要通过肠胃的消化与吸收，且可能有共同的作用靶点。Brown 等利用 Caco-2 细胞模型研究了几种植物提取物对抗病毒化学药物那韦拉平(nevirapine, NVP)的抑制作用，发现非洲马铃薯和诱导型一氧化氮合酶(inducible nitric oxide synthase，iNOS)抑制剂(L-Canavanine)显著减低奈韦拉平在 Caco-2 细胞中的透过率，具有提高NVP生物利用度的潜在活性[30]。Patel 等用过表达多耐药基因(Multidrug Resistancegene 1，MDR1)的 MDCK 细胞(表达高水平的 P-糖蛋白)研究洛匹拉韦(ritonavir)的吸收时，发现$1 0 0 \\ \\mu \\mathrm { m o l \\cdot L } ^ { - }$ 1 纯化的中草药成分(蒜辣素(allicin)、山柰酚(kaempferol)、橡黄素(quercetin)和金丝桃素(hypericin))能显著提高洛匹拉韦(ritonavir)的吸收率[31]。金丝桃和大蒜提取物分别能降低茚地那韦(Indinavir)和沙奎那韦 (saquinavir)的血药浓度到57%和 51%，从而影响抗病毒治疗效果[32]。深入研究发现，金丝桃提取物对茚地那韦和沙奎那韦的调控是通过影响P-糖蛋白和CYP3A4的表达所致[33]。\n3 中药对 CYP450 酶的影响研究"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_10",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+          "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+          "raw_text": "金丝桃和大蒜提取物分别能降低茚地那韦(Indinavir)和沙奎那韦 (saquinavir)的血药浓度到57%和 51%，从而影响抗病毒治疗效果[32]。",
+          "consequence": "降低血药浓度至57%",
+          "chunk_id": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+          "data": "mathrm { m a x } } [ 2 5 ]$ (LTV)的 $\\mathrm { { C } _ { \\mathrm { { m a x } } } }$ 和 $\\mathrm { A U C } ^ { [ 2 6 ] }$ 。\n4 中药影响抗病毒化药的吸收\n中草药成分与化学药物都需要通过肠胃的消化与吸收，且可能有共同的作用靶点。Brown 等利用 Caco-2 细胞模型研究了几种植物提取物对抗病毒化学药物那韦拉平(nevirapine, NVP)的抑制作用，发现非洲马铃薯和诱导型一氧化氮合酶(inducible nitric oxide synthase，iNOS)抑制剂(L-Canavanine)显著减低奈韦拉平在 Caco-2 细胞中的透过率，具有提高NVP生物利用度的潜在活性[30]。Patel 等用过表达多耐药基因(Multidrug Resistancegene 1，MDR1)的 MDCK 细胞(表达高水平的 P-糖蛋白)研究洛匹拉韦(ritonavir)的吸收时，发现$1 0 0 \\ \\mu \\mathrm { m o l \\cdot L } ^ { - }$ 1 纯化的中草药成分(蒜辣素(allicin)、山柰酚(kaempferol)、橡黄素(quercetin)和金丝桃素(hypericin))能显著提高洛匹拉韦(ritonavir)的吸收率[31]。金丝桃和大蒜提取物分别能降低茚地那韦(Indinavir)和沙奎那韦 (saquinavir)的血药浓度到57%和 51%，从而影响抗病毒治疗效果[32]。深入研究发现，金丝桃提取物对茚地那韦和沙奎那韦的调控是通过影响P-糖蛋白和CYP3A4的表达所致[33]。\n3 中药对 CYP450 酶的影响研究"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_11",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+          "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+          "raw_text": "金丝桃和大蒜提取物分别能降低茚地那韦(Indinavir)和沙奎那韦 (saquinavir)的血药浓度到57%和 51%，从而影响抗病毒治疗效果[32]。",
+          "consequence": "降低血药浓度至51%",
+          "chunk_id": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+          "data": "mathrm { m a x } } [ 2 5 ]$ (LTV)的 $\\mathrm { { C } _ { \\mathrm { { m a x } } } }$ 和 $\\mathrm { A U C } ^ { [ 2 6 ] }$ 。\n4 中药影响抗病毒化药的吸收\n中草药成分与化学药物都需要通过肠胃的消化与吸收，且可能有共同的作用靶点。Brown 等利用 Caco-2 细胞模型研究了几种植物提取物对抗病毒化学药物那韦拉平(nevirapine, NVP)的抑制作用，发现非洲马铃薯和诱导型一氧化氮合酶(inducible nitric oxide synthase，iNOS)抑制剂(L-Canavanine)显著减低奈韦拉平在 Caco-2 细胞中的透过率，具有提高NVP生物利用度的潜在活性[30]。Patel 等用过表达多耐药基因(Multidrug Resistancegene 1，MDR1)的 MDCK 细胞(表达高水平的 P-糖蛋白)研究洛匹拉韦(ritonavir)的吸收时，发现$1 0 0 \\ \\mu \\mathrm { m o l \\cdot L } ^ { - }$ 1 纯化的中草药成分(蒜辣素(allicin)、山柰酚(kaempferol)、橡黄素(quercetin)和金丝桃素(hypericin))能显著提高洛匹拉韦(ritonavir)的吸收率[31]。金丝桃和大蒜提取物分别能降低茚地那韦(Indinavir)和沙奎那韦 (saquinavir)的血药浓度到57%和 51%，从而影响抗病毒治疗效果[32]。深入研究发现，金丝桃提取物对茚地那韦和沙奎那韦的调控是通过影响P-糖蛋白和CYP3A4的表达所致[33]。\n3 中药对 CYP450 酶的影响研究"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜:7",
+    "source": "中草药与抗艾滋病病毒化学药物相互作用的研究进展_刘晓茜.pdf",
+    "text": "mathrm { m a x } } [ 2 5 ]$ (LTV)的 $\\mathrm { { C } _ { \\mathrm { { m a x } } } }$ 和 $\\mathrm { A U C } ^ { [ 2 6 ] }$ 。\n4 中药影响抗病毒化药的吸收\n中草药成分与化学药物都需要通过肠胃的消化与吸收，且可能有共同的作用靶点。Brown 等利用 Caco-2 细胞模型研究了几种植物提取物对抗病毒化学药物那韦拉平(nevirapine, NVP)的抑制作用，发现非洲马铃薯和诱导型一氧化氮合酶(inducible nitric oxide synthase，iNOS)抑制剂(L-Canavanine)显著减低奈韦拉平在 Caco-2 细胞中的透过率，具有提高NVP生物利用度的潜在活性[30]。Patel 等用过表达多耐药基因(Multidrug Resistancegene 1，MDR1)的 MDCK 细胞(表达高水平的 P-糖蛋白)研究洛匹拉韦(ritonavir)的吸收时，发现$1 0 0 \\ \\mu \\mathrm { m o l \\cdot L } ^ { - }$ 1 纯化的中草药成分(蒜辣素(allicin)、山柰酚(kaempferol)、橡黄素(quercetin)和金丝桃素(hypericin))能显著提高洛匹拉韦(ritonavir)的吸收率[31]。金丝桃和大蒜提取物分别能降低茚地那韦(Indinavir)和沙奎那韦 (saquinavir)的血药浓度到57%和 51%，从而影响抗病毒治疗效果[32]。深入研究发现，金丝桃提取物对茚地那韦和沙奎那韦的调控是通过影响P-糖蛋白和CYP3A4的表达所致[33]。\n3 中药对 CYP450 酶的影响研究"
+  }
+]

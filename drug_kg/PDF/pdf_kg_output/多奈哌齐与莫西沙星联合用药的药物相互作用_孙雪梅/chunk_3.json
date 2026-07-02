@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "多奈哌齐",
+        "canonical_name": "多奈哌齐",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "莫西沙星",
+        "canonical_name": "莫西沙星",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "多奈哌齐与莫西沙星联合用药的药物相互作用_孙雪梅.pdf",
+          "chunk_index": "多奈哌齐与莫西沙星联合用药的药物相互作用_孙雪梅:3",
+          "raw_text": "Drug interaction of donepezil combined with moxifloxacin ... 莫西沙星促进多奈哌齐吸收，抑制其代谢，减慢其内在清除率，增加多奈哌齐体内暴露量。",
+          "chunk_id": "多奈哌齐与莫西沙星联合用药的药物相互作用_孙雪梅:3",
+          "data": "网络出版地址  https://link.cnki.net/urlid/21.1227.R.20250606.1519.028\nDrug interaction of donepezil combined with moxifloxacin\nSUN Xuemei1 ，ZHAO Zhenying1 ，WANG Yuxi2，3，CHEN Peipei4，5，LI $\\mathrm { Z i x u a n } ^ { 4 }$ ，ZHANG Min6 ，YU $\\mathrm { F e i } ^ { 4 }$（1. Department of Pharmacy，Tianjin People’s Hospital，The First Affiliated Hospital of Nankai University，Tianjin 300121，China；2. Department of Pharmacognosy，School of Pharmacy，Nankai University，Tianjin 300071，China；3. New Drug Toxicological Evaluation Platform，Tianjin  International Joint Academy of Biomedicine，Tianjin 300450，China；4. Department of Clinical Pharmacy，School of Pharmacy，Tianjin Medical University，Tianjin Key Laboratory on Technologies Enabling Development of Clinical Therapeutics and Diagnostics，Tianjin 300070，China；5. Outpatient Department，Tianjin Center for Tuberculosis Control，Tianjin 300041，China；6. Biological Sciences Division，Institute of Traditional Chinese Medicine，Tianjin University of Traditional Chinese Medi"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "多奈哌齐与莫西沙星联合用药的药物相互作用_孙雪梅:3",
+    "source": "多奈哌齐与莫西沙星联合用药的药物相互作用_孙雪梅.pdf",
+    "text": "网络出版地址  https://link.cnki.net/urlid/21.1227.R.20250606.1519.028\nDrug interaction of donepezil combined with moxifloxacin\nSUN Xuemei1 ，ZHAO Zhenying1 ，WANG Yuxi2，3，CHEN Peipei4，5，LI $\\mathrm { Z i x u a n } ^ { 4 }$ ，ZHANG Min6 ，YU $\\mathrm { F e i } ^ { 4 }$（1. Department of Pharmacy，Tianjin People’s Hospital，The First Affiliated Hospital of Nankai University，Tianjin 300121，China；2. Department of Pharmacognosy，School of Pharmacy，Nankai University，Tianjin 300071，China；3. New Drug Toxicological Evaluation Platform，Tianjin  International Joint Academy of Biomedicine，Tianjin 300450，China；4. Department of Clinical Pharmacy，School of Pharmacy，Tianjin Medical University，Tianjin Key Laboratory on Technologies Enabling Development of Clinical Therapeutics and Diagnostics，Tianjin 300070，China；5. Outpatient Department，Tianjin Center for Tuberculosis Control，Tianjin 300041，China；6. Biological Sciences Division，Institute of Traditional Chinese Medicine，Tianjin University of Traditional Chinese Medicine，State Key Laboratory of Chinese Medicine Modernization，Haihe Laboratory of Modern Chinese Medicine，Tianjin 301617， China）Abstract Objective  To investigate the drug-drug interaction between donepezil hydrochloride and moxifloxacin hydrochloride during combined administration through in vitro liver microsomal metabolism and changes in pharmacokinetic characteristics in  rats.Methods  A rat liver microsomal incubation system was constructed and optimized. Liquid chromatography-tandem mass spectrometry （LC-MS/MS） analysis of donepezil hydrochloride and high-performance liquid chromatography （HPLC） analysis of moxifloxacin hydrochloride were performed. The pharmacokinetic and metabolic characteristics of the two drugs，alone and in combination，were compared in vitro using rat liver microsomes and in vivo using rats. Results  In the liver microsomal system，the half-life $\\left( \\mathrm { T } _ { 1 / 2 } \\right)$ of donepezil hydrochloride in the combined administration 1 group was prolonged by 29.892% $\\left( P < 0 . 0 1 \\right)$ ） and the intrinsic clearance $\\mathrm { ( C L _ { \\mathrm { i n t } } ) }$ was reduced by 23.194% $\\left( P < 0 . 0 1 \\right)$ ） compared with the donepezil hydrochloride group.  Conversely， the metabolic parameters of moxifloxacin hydrochloride in the combined administration 2 group did not differ significantly from that of the moxifloxacin hydrochloride group $\\left( P > 0 . 0 5 \\right)$ ）.    In the in vivo study，the $\\mathrm { A U C } _ { 0 \\sim }$ t and $\\mathrm { A U C } _ { 0 \\sim \\infty }$ of donepezil hydrochloride in the combined administration 1 group increased by 44.259% and 44.496%，respectively，maximum plasma concentration $\\mathrm { ( C _ { m a x } ) }$ increased by 117.723%， $\\mathrm { { T _ { 1 / 2 } } }$ was prolonged by 98.063%，and $\\mathrm { C L } _ { \\mathrm { i n t } }$ was reduced by 35.293%，compared with that in the donepezil hydrochloride group. Moreover，the differences were all statistically significant $( P < 0 . 0 5 ) $ . The in vivo study findings were consistent with the results of the in vitro study.  Conclusion  A drug-drug interaction occurs when moxifloxacin hydrochloride is used in combination with donepezil hydrochloride. Moxifloxacin hydrochloride promotes the absorption of donepezil hydrochloride，inhibits its metabolism，slows its $\\mathrm { C L } _ { \\mathrm { i n t } } ,$ ，and increases donepezil exposure in the body.Keywords donepezil； moxifloxacin； drug combination； drug interaction药物相互作用是指患者服用多种药物时产生药效增强或减轻，甚至出现不良反应的现象［1］。老年人常常多病共存，不可避免地存在多重用药［2］。由于老年患者身体机能逐渐衰退，代谢能力减退［3］，多种药物联用时易发生药物相互作用，带来不可预知的安全隐患［4］。"
+  }
+]

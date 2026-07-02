@@ -1,7 +1,9 @@
 [
   {
-    "text": "2.2 临床决策支持系统中DI的证据分级方法\n临床决策支持（Clinical Decision Support, CDS）系统及其知识库需要整合现有证据，并基于证据集合对DI 进行评估和分级（表1）。瑞典和芬兰使用一种CDS系统（SFINX）[24]，其知识库根据临床相关性和文献资料的分级将DDI 进行分类。文献资料的分级范围从0至4，0 表示基于与类似药物的研究推断得出的数据。当存在潜在不良的DI且尚无临床研究证实或可能不会开展临床研究时，评为 0 分。与SFINX相似，荷兰的1项CDS系统也基于临床相关性和CDS文件对DDI进行分类[25]。该系统使用4个核心参数：① DI 的证据质量分级；② DI 导致的潜在 ADR 的临床相关性；③风险因素；④接受该药物组合治疗的患者中ADR的发生率。研究者没有提供关于该评价过程或研究质量评级的可靠性或有效性的信息。沙特阿拉伯食品药品监督管理局（SFDA）启动1项 HDI 项目[22]，旨在基于现有证据检测 HDI 安全信号并进行评估。首先，选择30种在SFDA注册的常用草药产品，并根据常用程度进行优先排序。其次，从世界卫生组织全球个体病例安全报告数据库（VigiBase）、SFDA 国家药品监督管理局药物警戒中心数据、AdisInsight® 数据库和天然药物数据库（NatMed）中提取报告的潜在 HDI信号。排除 SFDA未注册的药物以及 SFDA、美国食品药品监督管理局（FDA）和欧洲药品管理局（EMA）产品信息中标明的相互作用信号。最后，通过文献、全球病例、本地病例及其他相关文件对潜在 HDI证据进行检索，并采用DIPS 评估HDI与不良事件的因果关系概率。研究发现共有566 个潜在 HDI信号，最后对41个信号进行因果关系评估。使用DIPS评估的结果显示：22 个 HDI 被评为“可能”（53.66%）、7 个“可能性低”（17.07%）、12个“可疑”（29.27%）。",
+    "text": "表 1）。其中，免费数据库包括 CMSS（Chi Mei SearchSystem）、CWMIIN（Chinese-Western Medicine IntegrativeInformation Network）、DHIQW（Drug Herb InteractionQuery Website）、NaPDI（Center of Excellence for NaturalProduct-Drug Interaction Research）、Probot（Probot ChineseMedicine-Drug Interaction Database）和 SUPP.AI，商业数据库包括 DIDB（UW Drug Interaction Database）、LDI（Lexicomp Drug Interactions）、NMCD（Natural MedicinesComprehensive Database）和 SHMI（Stockley's HerbalMedicines Interactions）数据库。从《中华人民共和国药典》（2015 年版）的 616 种草药中选择了50 种热门草药（按照万方数据和 PubMed 数据库中发表的研究数量进行筛选），在10 个HDI数据库中进行检索，并展示每个数据库中每种草药信息的参考文献数量。结果发现 CMSS、Probot 和 SUPP.AI 对热门草药有较好的覆盖，提供的参考文献也更为全面，而其他 HDI数据库则参考文献数量较少。尽管如此，DHIQW和NaPDI仍然涵盖了非常有用的HDI信息，如实验条件和结果的结构化数据 [6]。",
     "source": "中草药-药物相互作用数据库的建立与评价方法探讨_申晨.pdf",
-    "chunk_index": "中草药-药物相互作用数据库的建立与评价方法探讨_申晨:2"
+    "chunk_index": "中草药-药物相互作用数据库的建立与评价方法探讨_申晨:2",
+    "section": "正文",
+    "section_type": "neutral"
   }
 ]

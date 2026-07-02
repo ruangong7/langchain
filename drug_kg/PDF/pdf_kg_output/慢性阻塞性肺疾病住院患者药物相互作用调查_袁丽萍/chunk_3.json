@@ -1,0 +1,306 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "胰岛素",
+        "canonical_name": "胰岛素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "口服降糖药",
+        "canonical_name": "口服降糖药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "抗凝药",
+        "canonical_name": "抗凝药",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "溶栓药",
+        "canonical_name": "溶栓药",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "降压药",
+        "canonical_name": "降压药",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "利尿药",
+        "canonical_name": "利尿药",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "地高辛",
+        "canonical_name": "地高辛",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "茶碱",
+        "canonical_name": "茶碱",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "西咪替丁",
+        "canonical_name": "西咪替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "氟喹诺酮类药",
+        "canonical_name": "氟喹诺酮类药",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "DrugClass",
+        "name": "大环内酯类药",
+        "canonical_name": "大环内酯类药",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "Drug",
+        "name": "阿司匹林",
+        "canonical_name": "阿司匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "出血",
+        "canonical_name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "SideEffect",
+        "name": "凝血障碍",
+        "canonical_name": "凝血障碍",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "SideEffect",
+        "name": "地高辛中毒",
+        "canonical_name": "地高辛中毒",
+        "properties": {}
+      },
+      {
+        "id": "ent_22",
+        "type": "Indicator",
+        "name": "茶碱血浓度",
+        "canonical_name": "茶碱血浓度",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍.pdf",
+          "chunk_index": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "raw_text": "加强胰岛素或口服降糖药物的降血糖作用",
+          "chunk_id": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "data": "院患者\n从实例中体会临床药学服务\n郑萍＊ 刘世霆张庆李亦蕾晏媛南方医科大学附属南方医院药学部广州市 510515 10010408200908063402\nExperience of Clinical Pharmaceutical Care\nZHENG PingLU Sh-i tingZHANG QingLI Y-i leiYAN Yuan（Dept∙of PharmacyNanfang HospitalSout hern Medical U niversity Guangzhou 510515China）ABSTRACT OBJECT IV E：T o discuss t he contents and importance of clinical pharmaceutical care∙MET HODS ：Our experiences in carr in out clinical harmaceutical care in our hos ital w ere anal zed t hrou h exem lification∙ RES U LT S ＆ CONCL USION：Clinical pharmaceutical care can help improve t he medical quality and reduce medical risks∙Pharmacist system should be established in hospital to support t he w ork of clinical pharmacists∙中仍以老年人居多由于老年人生理机能变化对药物反应敏感性增加不良反应发生率高此外老年人常合并有心脏肝肾等慢性疾病联用多种药物的概率增加更易出现药物间相互作用。同时用药6～10种，不良反应发生率约为7%～10%，11 15种则达24 28 16 20种时高达40 54 [4]本文调查显示患者常合并有高血压冠心病糖尿病等多种疾病药物相互作用情况很普遍且较严重所有患者在住院期间仅有2043 使用药物种类少于8种近一半时间使用10种以上药物最多的每日用药25种有些患者出现了1日发生5种以上的药物相互作用如果再考虑到临时医嘱中所用药物临时用药和中成药药物相互作用的情况更复杂更严重这一问题急需引起临床医师和药师"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍.pdf",
+          "chunk_index": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "raw_text": "与抗凝药溶栓药及其它有类似作用的药物同用时有加重凝血障碍并增加出血的危险",
+          "chunk_id": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "data": "院患者\n从实例中体会临床药学服务\n郑萍＊ 刘世霆张庆李亦蕾晏媛南方医科大学附属南方医院药学部广州市 510515 10010408200908063402\nExperience of Clinical Pharmaceutical Care\nZHENG PingLU Sh-i tingZHANG QingLI Y-i leiYAN Yuan（Dept∙of PharmacyNanfang HospitalSout hern Medical U niversity Guangzhou 510515China）ABSTRACT OBJECT IV E：T o discuss t he contents and importance of clinical pharmaceutical care∙MET HODS ：Our experiences in carr in out clinical harmaceutical care in our hos ital w ere anal zed t hrou h exem lification∙ RES U LT S ＆ CONCL USION：Clinical pharmaceutical care can help improve t he medical quality and reduce medical risks∙Pharmacist system should be established in hospital to support t he w ork of clinical pharmacists∙中仍以老年人居多由于老年人生理机能变化对药物反应敏感性增加不良反应发生率高此外老年人常合并有心脏肝肾等慢性疾病联用多种药物的概率增加更易出现药物间相互作用。同时用药6～10种，不良反应发生率约为7%～10%，11 15种则达24 28 16 20种时高达40 54 [4]本文调查显示患者常合并有高血压冠心病糖尿病等多种疾病药物相互作用情况很普遍且较严重所有患者在住院期间仅有2043 使用药物种类少于8种近一半时间使用10种以上药物最多的每日用药25种有些患者出现了1日发生5种以上的药物相互作用如果再考虑到临时医嘱中所用药物临时用药和中成药药物相互作用的情况更复杂更严重这一问题急需引起临床医师和药师"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍.pdf",
+          "chunk_index": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "raw_text": "降低降压药和利尿药的作用",
+          "chunk_id": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "data": "院患者\n从实例中体会临床药学服务\n郑萍＊ 刘世霆张庆李亦蕾晏媛南方医科大学附属南方医院药学部广州市 510515 10010408200908063402\nExperience of Clinical Pharmaceutical Care\nZHENG PingLU Sh-i tingZHANG QingLI Y-i leiYAN Yuan（Dept∙of PharmacyNanfang HospitalSout hern Medical U niversity Guangzhou 510515China）ABSTRACT OBJECT IV E：T o discuss t he contents and importance of clinical pharmaceutical care∙MET HODS ：Our experiences in carr in out clinical harmaceutical care in our hos ital w ere anal zed t hrou h exem lification∙ RES U LT S ＆ CONCL USION：Clinical pharmaceutical care can help improve t he medical quality and reduce medical risks∙Pharmacist system should be established in hospital to support t he w ork of clinical pharmacists∙中仍以老年人居多由于老年人生理机能变化对药物反应敏感性增加不良反应发生率高此外老年人常合并有心脏肝肾等慢性疾病联用多种药物的概率增加更易出现药物间相互作用。同时用药6～10种，不良反应发生率约为7%～10%，11 15种则达24 28 16 20种时高达40 54 [4]本文调查显示患者常合并有高血压冠心病糖尿病等多种疾病药物相互作用情况很普遍且较严重所有患者在住院期间仅有2043 使用药物种类少于8种近一半时间使用10种以上药物最多的每日用药25种有些患者出现了1日发生5种以上的药物相互作用如果再考虑到临时医嘱中所用药物临时用药和中成药药物相互作用的情况更复杂更严重这一问题急需引起临床医师和药师"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍.pdf",
+          "chunk_index": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "raw_text": "使地高辛中毒的危险性增加",
+          "chunk_id": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "data": "院患者\n从实例中体会临床药学服务\n郑萍＊ 刘世霆张庆李亦蕾晏媛南方医科大学附属南方医院药学部广州市 510515 10010408200908063402\nExperience of Clinical Pharmaceutical Care\nZHENG PingLU Sh-i tingZHANG QingLI Y-i leiYAN Yuan（Dept∙of PharmacyNanfang HospitalSout hern Medical U niversity Guangzhou 510515China）ABSTRACT OBJECT IV E：T o discuss t he contents and importance of clinical pharmaceutical care∙MET HODS ：Our experiences in carr in out clinical harmaceutical care in our hos ital w ere anal zed t hrou h exem lification∙ RES U LT S ＆ CONCL USION：Clinical pharmaceutical care can help improve t he medical quality and reduce medical risks∙Pharmacist system should be established in hospital to support t he w ork of clinical pharmacists∙中仍以老年人居多由于老年人生理机能变化对药物反应敏感性增加不良反应发生率高此外老年人常合并有心脏肝肾等慢性疾病联用多种药物的概率增加更易出现药物间相互作用。同时用药6～10种，不良反应发生率约为7%～10%，11 15种则达24 28 16 20种时高达40 54 [4]本文调查显示患者常合并有高血压冠心病糖尿病等多种疾病药物相互作用情况很普遍且较严重所有患者在住院期间仅有2043 使用药物种类少于8种近一半时间使用10种以上药物最多的每日用药25种有些患者出现了1日发生5种以上的药物相互作用如果再考虑到临时医嘱中所用药物临时用药和中成药药物相互作用的情况更复杂更严重这一问题急需引起临床医师和药师"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍.pdf",
+          "chunk_index": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "raw_text": "同时应用西咪替丁氟喹诺酮类药和大环内酯类药等都可使茶碱血浓度增加",
+          "chunk_id": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "data": "院患者\n从实例中体会临床药学服务\n郑萍＊ 刘世霆张庆李亦蕾晏媛南方医科大学附属南方医院药学部广州市 510515 10010408200908063402\nExperience of Clinical Pharmaceutical Care\nZHENG PingLU Sh-i tingZHANG QingLI Y-i leiYAN Yuan（Dept∙of PharmacyNanfang HospitalSout hern Medical U niversity Guangzhou 510515China）ABSTRACT OBJECT IV E：T o discuss t he contents and importance of clinical pharmaceutical care∙MET HODS ：Our experiences in carr in out clinical harmaceutical care in our hos ital w ere anal zed t hrou h exem lification∙ RES U LT S ＆ CONCL USION：Clinical pharmaceutical care can help improve t he medical quality and reduce medical risks∙Pharmacist system should be established in hospital to support t he w ork of clinical pharmacists∙中仍以老年人居多由于老年人生理机能变化对药物反应敏感性增加不良反应发生率高此外老年人常合并有心脏肝肾等慢性疾病联用多种药物的概率增加更易出现药物间相互作用。同时用药6～10种，不良反应发生率约为7%～10%，11 15种则达24 28 16 20种时高达40 54 [4]本文调查显示患者常合并有高血压冠心病糖尿病等多种疾病药物相互作用情况很普遍且较严重所有患者在住院期间仅有2043 使用药物种类少于8种近一半时间使用10种以上药物最多的每日用药25种有些患者出现了1日发生5种以上的药物相互作用如果再考虑到临时医嘱中所用药物临时用药和中成药药物相互作用的情况更复杂更严重这一问题急需引起临床医师和药师"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍.pdf",
+          "chunk_index": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "raw_text": "同时应用西咪替丁氟喹诺酮类药和大环内酯类药等都可使茶碱血浓度增加",
+          "chunk_id": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "data": "院患者\n从实例中体会临床药学服务\n郑萍＊ 刘世霆张庆李亦蕾晏媛南方医科大学附属南方医院药学部广州市 510515 10010408200908063402\nExperience of Clinical Pharmaceutical Care\nZHENG PingLU Sh-i tingZHANG QingLI Y-i leiYAN Yuan（Dept∙of PharmacyNanfang HospitalSout hern Medical U niversity Guangzhou 510515China）ABSTRACT OBJECT IV E：T o discuss t he contents and importance of clinical pharmaceutical care∙MET HODS ：Our experiences in carr in out clinical harmaceutical care in our hos ital w ere anal zed t hrou h exem lification∙ RES U LT S ＆ CONCL USION：Clinical pharmaceutical care can help improve t he medical quality and reduce medical risks∙Pharmacist system should be established in hospital to support t he w ork of clinical pharmacists∙中仍以老年人居多由于老年人生理机能变化对药物反应敏感性增加不良反应发生率高此外老年人常合并有心脏肝肾等慢性疾病联用多种药物的概率增加更易出现药物间相互作用。同时用药6～10种，不良反应发生率约为7%～10%，11 15种则达24 28 16 20种时高达40 54 [4]本文调查显示患者常合并有高血压冠心病糖尿病等多种疾病药物相互作用情况很普遍且较严重所有患者在住院期间仅有2043 使用药物种类少于8种近一半时间使用10种以上药物最多的每日用药25种有些患者出现了1日发生5种以上的药物相互作用如果再考虑到临时医嘱中所用药物临时用药和中成药药物相互作用的情况更复杂更严重这一问题急需引起临床医师和药师"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍.pdf",
+          "chunk_index": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "raw_text": "同时应用西咪替丁氟喹诺酮类药和大环内酯类药等都可使茶碱血浓度增加",
+          "chunk_id": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "data": "院患者\n从实例中体会临床药学服务\n郑萍＊ 刘世霆张庆李亦蕾晏媛南方医科大学附属南方医院药学部广州市 510515 10010408200908063402\nExperience of Clinical Pharmaceutical Care\nZHENG PingLU Sh-i tingZHANG QingLI Y-i leiYAN Yuan（Dept∙of PharmacyNanfang HospitalSout hern Medical U niversity Guangzhou 510515China）ABSTRACT OBJECT IV E：T o discuss t he contents and importance of clinical pharmaceutical care∙MET HODS ：Our experiences in carr in out clinical harmaceutical care in our hos ital w ere anal zed t hrou h exem lification∙ RES U LT S ＆ CONCL USION：Clinical pharmaceutical care can help improve t he medical quality and reduce medical risks∙Pharmacist system should be established in hospital to support t he w ork of clinical pharmacists∙中仍以老年人居多由于老年人生理机能变化对药物反应敏感性增加不良反应发生率高此外老年人常合并有心脏肝肾等慢性疾病联用多种药物的概率增加更易出现药物间相互作用。同时用药6～10种，不良反应发生率约为7%～10%，11 15种则达24 28 16 20种时高达40 54 [4]本文调查显示患者常合并有高血压冠心病糖尿病等多种疾病药物相互作用情况很普遍且较严重所有患者在住院期间仅有2043 使用药物种类少于8种近一半时间使用10种以上药物最多的每日用药25种有些患者出现了1日发生5种以上的药物相互作用如果再考虑到临时医嘱中所用药物临时用药和中成药药物相互作用的情况更复杂更严重这一问题急需引起临床医师和药师"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_8",
+        "target_id": "ent_22",
+        "properties": {
+          "source": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍.pdf",
+          "chunk_index": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "raw_text": "监测茶碱的血药浓度对估计疗效和副作用有一定意义",
+          "chunk_id": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "data": "院患者\n从实例中体会临床药学服务\n郑萍＊ 刘世霆张庆李亦蕾晏媛南方医科大学附属南方医院药学部广州市 510515 10010408200908063402\nExperience of Clinical Pharmaceutical Care\nZHENG PingLU Sh-i tingZHANG QingLI Y-i leiYAN Yuan（Dept∙of PharmacyNanfang HospitalSout hern Medical U niversity Guangzhou 510515China）ABSTRACT OBJECT IV E：T o discuss t he contents and importance of clinical pharmaceutical care∙MET HODS ：Our experiences in carr in out clinical harmaceutical care in our hos ital w ere anal zed t hrou h exem lification∙ RES U LT S ＆ CONCL USION：Clinical pharmaceutical care can help improve t he medical quality and reduce medical risks∙Pharmacist system should be established in hospital to support t he w ork of clinical pharmacists∙中仍以老年人居多由于老年人生理机能变化对药物反应敏感性增加不良反应发生率高此外老年人常合并有心脏肝肾等慢性疾病联用多种药物的概率增加更易出现药物间相互作用。同时用药6～10种，不良反应发生率约为7%～10%，11 15种则达24 28 16 20种时高达40 54 [4]本文调查显示患者常合并有高血压冠心病糖尿病等多种疾病药物相互作用情况很普遍且较严重所有患者在住院期间仅有2043 使用药物种类少于8种近一半时间使用10种以上药物最多的每日用药25种有些患者出现了1日发生5种以上的药物相互作用如果再考虑到临时医嘱中所用药物临时用药和中成药药物相互作用的情况更复杂更严重这一问题急需引起临床医师和药师"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_18",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍.pdf",
+          "chunk_index": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "raw_text": "阿司匹林可和多种药物产生不良相互作用",
+          "chunk_id": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "data": "院患者\n从实例中体会临床药学服务\n郑萍＊ 刘世霆张庆李亦蕾晏媛南方医科大学附属南方医院药学部广州市 510515 10010408200908063402\nExperience of Clinical Pharmaceutical Care\nZHENG PingLU Sh-i tingZHANG QingLI Y-i leiYAN Yuan（Dept∙of PharmacyNanfang HospitalSout hern Medical U niversity Guangzhou 510515China）ABSTRACT OBJECT IV E：T o discuss t he contents and importance of clinical pharmaceutical care∙MET HODS ：Our experiences in carr in out clinical harmaceutical care in our hos ital w ere anal zed t hrou h exem lification∙ RES U LT S ＆ CONCL USION：Clinical pharmaceutical care can help improve t he medical quality and reduce medical risks∙Pharmacist system should be established in hospital to support t he w ork of clinical pharmacists∙中仍以老年人居多由于老年人生理机能变化对药物反应敏感性增加不良反应发生率高此外老年人常合并有心脏肝肾等慢性疾病联用多种药物的概率增加更易出现药物间相互作用。同时用药6～10种，不良反应发生率约为7%～10%，11 15种则达24 28 16 20种时高达40 54 [4]本文调查显示患者常合并有高血压冠心病糖尿病等多种疾病药物相互作用情况很普遍且较严重所有患者在住院期间仅有2043 使用药物种类少于8种近一半时间使用10种以上药物最多的每日用药25种有些患者出现了1日发生5种以上的药物相互作用如果再考虑到临时医嘱中所用药物临时用药和中成药药物相互作用的情况更复杂更严重这一问题急需引起临床医师和药师"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_20",
+        "properties": {
+          "source": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍.pdf",
+          "chunk_index": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "raw_text": "加重凝血障碍并增加出血的危险",
+          "chunk_id": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "data": "院患者\n从实例中体会临床药学服务\n郑萍＊ 刘世霆张庆李亦蕾晏媛南方医科大学附属南方医院药学部广州市 510515 10010408200908063402\nExperience of Clinical Pharmaceutical Care\nZHENG PingLU Sh-i tingZHANG QingLI Y-i leiYAN Yuan（Dept∙of PharmacyNanfang HospitalSout hern Medical U niversity Guangzhou 510515China）ABSTRACT OBJECT IV E：T o discuss t he contents and importance of clinical pharmaceutical care∙MET HODS ：Our experiences in carr in out clinical harmaceutical care in our hos ital w ere anal zed t hrou h exem lification∙ RES U LT S ＆ CONCL USION：Clinical pharmaceutical care can help improve t he medical quality and reduce medical risks∙Pharmacist system should be established in hospital to support t he w ork of clinical pharmacists∙中仍以老年人居多由于老年人生理机能变化对药物反应敏感性增加不良反应发生率高此外老年人常合并有心脏肝肾等慢性疾病联用多种药物的概率增加更易出现药物间相互作用。同时用药6～10种，不良反应发生率约为7%～10%，11 15种则达24 28 16 20种时高达40 54 [4]本文调查显示患者常合并有高血压冠心病糖尿病等多种疾病药物相互作用情况很普遍且较严重所有患者在住院期间仅有2043 使用药物种类少于8种近一半时间使用10种以上药物最多的每日用药25种有些患者出现了1日发生5种以上的药物相互作用如果再考虑到临时医嘱中所用药物临时用药和中成药药物相互作用的情况更复杂更严重这一问题急需引起临床医师和药师"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_3",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍.pdf",
+          "chunk_index": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "raw_text": "加重凝血障碍并增加出血的危险",
+          "chunk_id": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "data": "院患者\n从实例中体会临床药学服务\n郑萍＊ 刘世霆张庆李亦蕾晏媛南方医科大学附属南方医院药学部广州市 510515 10010408200908063402\nExperience of Clinical Pharmaceutical Care\nZHENG PingLU Sh-i tingZHANG QingLI Y-i leiYAN Yuan（Dept∙of PharmacyNanfang HospitalSout hern Medical U niversity Guangzhou 510515China）ABSTRACT OBJECT IV E：T o discuss t he contents and importance of clinical pharmaceutical care∙MET HODS ：Our experiences in carr in out clinical harmaceutical care in our hos ital w ere anal zed t hrou h exem lification∙ RES U LT S ＆ CONCL USION：Clinical pharmaceutical care can help improve t he medical quality and reduce medical risks∙Pharmacist system should be established in hospital to support t he w ork of clinical pharmacists∙中仍以老年人居多由于老年人生理机能变化对药物反应敏感性增加不良反应发生率高此外老年人常合并有心脏肝肾等慢性疾病联用多种药物的概率增加更易出现药物间相互作用。同时用药6～10种，不良反应发生率约为7%～10%，11 15种则达24 28 16 20种时高达40 54 [4]本文调查显示患者常合并有高血压冠心病糖尿病等多种疾病药物相互作用情况很普遍且较严重所有患者在住院期间仅有2043 使用药物种类少于8种近一半时间使用10种以上药物最多的每日用药25种有些患者出现了1日发生5种以上的药物相互作用如果再考虑到临时医嘱中所用药物临时用药和中成药药物相互作用的情况更复杂更严重这一问题急需引起临床医师和药师"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_20",
+        "properties": {
+          "source": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍.pdf",
+          "chunk_index": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "raw_text": "加重凝血障碍并增加出血的危险",
+          "chunk_id": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "data": "院患者\n从实例中体会临床药学服务\n郑萍＊ 刘世霆张庆李亦蕾晏媛南方医科大学附属南方医院药学部广州市 510515 10010408200908063402\nExperience of Clinical Pharmaceutical Care\nZHENG PingLU Sh-i tingZHANG QingLI Y-i leiYAN Yuan（Dept∙of PharmacyNanfang HospitalSout hern Medical U niversity Guangzhou 510515China）ABSTRACT OBJECT IV E：T o discuss t he contents and importance of clinical pharmaceutical care∙MET HODS ：Our experiences in carr in out clinical harmaceutical care in our hos ital w ere anal zed t hrou h exem lification∙ RES U LT S ＆ CONCL USION：Clinical pharmaceutical care can help improve t he medical quality and reduce medical risks∙Pharmacist system should be established in hospital to support t he w ork of clinical pharmacists∙中仍以老年人居多由于老年人生理机能变化对药物反应敏感性增加不良反应发生率高此外老年人常合并有心脏肝肾等慢性疾病联用多种药物的概率增加更易出现药物间相互作用。同时用药6～10种，不良反应发生率约为7%～10%，11 15种则达24 28 16 20种时高达40 54 [4]本文调查显示患者常合并有高血压冠心病糖尿病等多种疾病药物相互作用情况很普遍且较严重所有患者在住院期间仅有2043 使用药物种类少于8种近一半时间使用10种以上药物最多的每日用药25种有些患者出现了1日发生5种以上的药物相互作用如果再考虑到临时医嘱中所用药物临时用药和中成药药物相互作用的情况更复杂更严重这一问题急需引起临床医师和药师"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍.pdf",
+          "chunk_index": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "raw_text": "加重凝血障碍并增加出血的危险",
+          "chunk_id": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "data": "院患者\n从实例中体会临床药学服务\n郑萍＊ 刘世霆张庆李亦蕾晏媛南方医科大学附属南方医院药学部广州市 510515 10010408200908063402\nExperience of Clinical Pharmaceutical Care\nZHENG PingLU Sh-i tingZHANG QingLI Y-i leiYAN Yuan（Dept∙of PharmacyNanfang HospitalSout hern Medical U niversity Guangzhou 510515China）ABSTRACT OBJECT IV E：T o discuss t he contents and importance of clinical pharmaceutical care∙MET HODS ：Our experiences in carr in out clinical harmaceutical care in our hos ital w ere anal zed t hrou h exem lification∙ RES U LT S ＆ CONCL USION：Clinical pharmaceutical care can help improve t he medical quality and reduce medical risks∙Pharmacist system should be established in hospital to support t he w ork of clinical pharmacists∙中仍以老年人居多由于老年人生理机能变化对药物反应敏感性增加不良反应发生率高此外老年人常合并有心脏肝肾等慢性疾病联用多种药物的概率增加更易出现药物间相互作用。同时用药6～10种，不良反应发生率约为7%～10%，11 15种则达24 28 16 20种时高达40 54 [4]本文调查显示患者常合并有高血压冠心病糖尿病等多种疾病药物相互作用情况很普遍且较严重所有患者在住院期间仅有2043 使用药物种类少于8种近一半时间使用10种以上药物最多的每日用药25种有些患者出现了1日发生5种以上的药物相互作用如果再考虑到临时医嘱中所用药物临时用药和中成药药物相互作用的情况更复杂更严重这一问题急需引起临床医师和药师"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_7",
+        "target_id": "ent_21",
+        "properties": {
+          "source": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍.pdf",
+          "chunk_index": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "raw_text": "使地高辛中毒的危险性增加",
+          "chunk_id": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+          "data": "院患者\n从实例中体会临床药学服务\n郑萍＊ 刘世霆张庆李亦蕾晏媛南方医科大学附属南方医院药学部广州市 510515 10010408200908063402\nExperience of Clinical Pharmaceutical Care\nZHENG PingLU Sh-i tingZHANG QingLI Y-i leiYAN Yuan（Dept∙of PharmacyNanfang HospitalSout hern Medical U niversity Guangzhou 510515China）ABSTRACT OBJECT IV E：T o discuss t he contents and importance of clinical pharmaceutical care∙MET HODS ：Our experiences in carr in out clinical harmaceutical care in our hos ital w ere anal zed t hrou h exem lification∙ RES U LT S ＆ CONCL USION：Clinical pharmaceutical care can help improve t he medical quality and reduce medical risks∙Pharmacist system should be established in hospital to support t he w ork of clinical pharmacists∙中仍以老年人居多由于老年人生理机能变化对药物反应敏感性增加不良反应发生率高此外老年人常合并有心脏肝肾等慢性疾病联用多种药物的概率增加更易出现药物间相互作用。同时用药6～10种，不良反应发生率约为7%～10%，11 15种则达24 28 16 20种时高达40 54 [4]本文调查显示患者常合并有高血压冠心病糖尿病等多种疾病药物相互作用情况很普遍且较严重所有患者在住院期间仅有2043 使用药物种类少于8种近一半时间使用10种以上药物最多的每日用药25种有些患者出现了1日发生5种以上的药物相互作用如果再考虑到临时医嘱中所用药物临时用药和中成药药物相互作用的情况更复杂更严重这一问题急需引起临床医师和药师"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍:3",
+    "source": "慢性阻塞性肺疾病住院患者药物相互作用调查_袁丽萍.pdf",
+    "text": "院患者\n从实例中体会临床药学服务\n郑萍＊ 刘世霆张庆李亦蕾晏媛南方医科大学附属南方医院药学部广州市 510515 10010408200908063402\nExperience of Clinical Pharmaceutical Care\nZHENG PingLU Sh-i tingZHANG QingLI Y-i leiYAN Yuan（Dept∙of PharmacyNanfang HospitalSout hern Medical U niversity Guangzhou 510515China）ABSTRACT OBJECT IV E：T o discuss t he contents and importance of clinical pharmaceutical care∙MET HODS ：Our experiences in carr in out clinical harmaceutical care in our hos ital w ere anal zed t hrou h exem lification∙ RES U LT S ＆ CONCL USION：Clinical pharmaceutical care can help improve t he medical quality and reduce medical risks∙Pharmacist system should be established in hospital to support t he w ork of clinical pharmacists∙中仍以老年人居多由于老年人生理机能变化对药物反应敏感性增加不良反应发生率高此外老年人常合并有心脏肝肾等慢性疾病联用多种药物的概率增加更易出现药物间相互作用。同时用药6～10种，不良反应发生率约为7%～10%，11 15种则达24 28 16 20种时高达40 54 [4]本文调查显示患者常合并有高血压冠心病糖尿病等多种疾病药物相互作用情况很普遍且较严重所有患者在住院期间仅有2043 使用药物种类少于8种近一半时间使用10种以上药物最多的每日用药25种有些患者出现了1日发生5种以上的药物相互作用如果再考虑到临时医嘱中所用药物临时用药和中成药药物相互作用的情况更复杂更严重这一问题急需引起临床医师和药师的重视调查中发现的有加强胰岛素或口服降糖药物的降血糖作用与抗凝药溶栓药及其它有类似作用的药物同用时有加重凝血障碍并增加出血的危险降低降压药和利尿药的作用使地高辛中毒的危险性增加等本次调查采用新编临床用药参考软件 2007年版对患者用药进行审核该软件提供的药物信息比较丰富所提示的相互作用具有一定的可靠性有文献报道作为依据但有些并非肯定同时还缺乏对照确切病例证实故该软件提供的资料仅供临床用药参考笔者建议在病区药房的计算机管理系统中加入处方审查程序对住院患者的处方在发药前进行审查筛选出中度以上不良相互作用的处方与临床医师进行沟通或提醒临床医师进行严密监测或换用发生相互作用较少的同类药物可用可不用的药物尽量不用茶碱类药可解除气道平滑肌痉挛在治疗中应用广泛监测茶碱的血药浓度对估计疗效和副作用有一定意义血茶碱浓度>5 ·mL－1即有治疗作用但当茶碱水平上升到一定水平后药物的治疗作用就不再增加在茶碱的血清水平达到15 $\\mu _ { 9 } \\cdot \\mathrm { m L } ^ { - 1 }$ 1之后第一秒用力呼气容积 1 就变得平坦症状也不再改善而茶碱的毒副作用却会显著增加[5]。影响茶碱在肝内代谢的因素有年龄伴发疾病药物相互作用等已有研究发现[6] 将近80种药物对茶碱清除率有影响而其中近一半药物可与茶碱产生具有临床意义的相互作用同时应用西咪替丁氟喹诺酮类药和大环内酯类药等都可使茶碱血浓度增加本次调查就发现多例与茶碱相关的不良相互作用对茶碱与地尔硫法莫替丁硫糖铝硝苯地平泼尼松沙丁胺醇口服或吸入联用产生的相互作用是否具有重要临床意义还存在争议此外还有多例患者同时使用茶碱口服剂和注射剂这样易造成茶碱血浓度异常升高毒副作用增加阿司匹林可降低心肌梗死卒中的发病及死亡的风险是防治心脑血管疾病的基石现有证据支持阿司匹林长期治疗以预防中高危患者或已有血管事件病史的患者再次发生严重血管事件[7] 但阿司匹林可和多种药物产生不良相互作用此次＊主管药师硕士研究方向临床药学电话 020 62787235321 126"
+  }
+]

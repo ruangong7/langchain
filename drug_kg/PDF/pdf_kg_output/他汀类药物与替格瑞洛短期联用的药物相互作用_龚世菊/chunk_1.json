@@ -1,0 +1,125 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "辛伐他汀",
+        "canonical_name": "辛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "canonical_name": "阿托伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "瑞舒伐他汀",
+        "canonical_name": "瑞舒伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "替格瑞洛",
+        "canonical_name": "替格瑞洛",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "他汀类",
+        "canonical_name": "他汀类",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊.pdf",
+          "chunk_index": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:1",
+          "raw_text": "辛伐他汀",
+          "chunk_id": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:1",
+          "data": "洛之间不存在影响。【关键词】 辛伐他汀; 阿托伐他汀; 瑞舒伐他汀; 替格瑞洛; 药物相互作用\nDrug-drug interactions of short-term combined statins and ticagrelor use\nGONG Shiju1 ，HUANG Ruilin1 ，ZHANG Zhigang 2 ( 1 Department of Pharmacy，2 Department of Cardiac Surgery ，The Central Hospital of Jiangmen，Jiangmen City，Guangdong Province ，Jiangmen 529030，China)【ABSTRACT 】 AIM To observe whether there existed drug-drug interactions between simvastatin，atorvastatin，rosuvastatin combined with ticagrelor． METHODS Acute coronary syndrome patients were randomly assigned to simvastatin，atorvastatin and rosuvastatin groups and ticagrelor in combination with simvastatin，atorvastatin and rosuvastatin groups． The levels of uric acid，aminotransferase，low density lipoprotein-cholesterol and the rate of platelet aggregation were measured． All patients were followed up for 2 months to compare whether there was a difference in the clinical efficacy and the incidence of adverse events． RESULTS Compared with use alone statins，there was no significant "
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊.pdf",
+          "chunk_index": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:1",
+          "raw_text": "阿托伐他汀",
+          "chunk_id": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:1",
+          "data": "洛之间不存在影响。【关键词】 辛伐他汀; 阿托伐他汀; 瑞舒伐他汀; 替格瑞洛; 药物相互作用\nDrug-drug interactions of short-term combined statins and ticagrelor use\nGONG Shiju1 ，HUANG Ruilin1 ，ZHANG Zhigang 2 ( 1 Department of Pharmacy，2 Department of Cardiac Surgery ，The Central Hospital of Jiangmen，Jiangmen City，Guangdong Province ，Jiangmen 529030，China)【ABSTRACT 】 AIM To observe whether there existed drug-drug interactions between simvastatin，atorvastatin，rosuvastatin combined with ticagrelor． METHODS Acute coronary syndrome patients were randomly assigned to simvastatin，atorvastatin and rosuvastatin groups and ticagrelor in combination with simvastatin，atorvastatin and rosuvastatin groups． The levels of uric acid，aminotransferase，low density lipoprotein-cholesterol and the rate of platelet aggregation were measured． All patients were followed up for 2 months to compare whether there was a difference in the clinical efficacy and the incidence of adverse events． RESULTS Compared with use alone statins，there was no significant "
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊.pdf",
+          "chunk_index": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:1",
+          "raw_text": "瑞舒伐他汀",
+          "chunk_id": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:1",
+          "data": "洛之间不存在影响。【关键词】 辛伐他汀; 阿托伐他汀; 瑞舒伐他汀; 替格瑞洛; 药物相互作用\nDrug-drug interactions of short-term combined statins and ticagrelor use\nGONG Shiju1 ，HUANG Ruilin1 ，ZHANG Zhigang 2 ( 1 Department of Pharmacy，2 Department of Cardiac Surgery ，The Central Hospital of Jiangmen，Jiangmen City，Guangdong Province ，Jiangmen 529030，China)【ABSTRACT 】 AIM To observe whether there existed drug-drug interactions between simvastatin，atorvastatin，rosuvastatin combined with ticagrelor． METHODS Acute coronary syndrome patients were randomly assigned to simvastatin，atorvastatin and rosuvastatin groups and ticagrelor in combination with simvastatin，atorvastatin and rosuvastatin groups． The levels of uric acid，aminotransferase，low density lipoprotein-cholesterol and the rate of platelet aggregation were measured． All patients were followed up for 2 months to compare whether there was a difference in the clinical efficacy and the incidence of adverse events． RESULTS Compared with use alone statins，there was no significant "
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊.pdf",
+          "chunk_index": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:1",
+          "raw_text": "辛伐他汀、阿托伐他汀主要是通过 CYP3A4 途径代谢的药物; 替格瑞洛主要通过 CYP3A4 代谢，且是 CYP3A 弱抑制剂",
+          "chunk_id": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:1",
+          "data": "洛之间不存在影响。【关键词】 辛伐他汀; 阿托伐他汀; 瑞舒伐他汀; 替格瑞洛; 药物相互作用\nDrug-drug interactions of short-term combined statins and ticagrelor use\nGONG Shiju1 ，HUANG Ruilin1 ，ZHANG Zhigang 2 ( 1 Department of Pharmacy，2 Department of Cardiac Surgery ，The Central Hospital of Jiangmen，Jiangmen City，Guangdong Province ，Jiangmen 529030，China)【ABSTRACT 】 AIM To observe whether there existed drug-drug interactions between simvastatin，atorvastatin，rosuvastatin combined with ticagrelor． METHODS Acute coronary syndrome patients were randomly assigned to simvastatin，atorvastatin and rosuvastatin groups and ticagrelor in combination with simvastatin，atorvastatin and rosuvastatin groups． The levels of uric acid，aminotransferase，low density lipoprotein-cholesterol and the rate of platelet aggregation were measured． All patients were followed up for 2 months to compare whether there was a difference in the clinical efficacy and the incidence of adverse events． RESULTS Compared with use alone statins，there was no significant "
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊.pdf",
+          "chunk_index": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:1",
+          "raw_text": "辛伐他汀、阿托伐他汀主要是通过 CYP3A4 途径代谢的药物; 替格瑞洛主要通过 CYP3A4 代谢，且是 CYP3A 弱抑制剂",
+          "chunk_id": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:1",
+          "data": "洛之间不存在影响。【关键词】 辛伐他汀; 阿托伐他汀; 瑞舒伐他汀; 替格瑞洛; 药物相互作用\nDrug-drug interactions of short-term combined statins and ticagrelor use\nGONG Shiju1 ，HUANG Ruilin1 ，ZHANG Zhigang 2 ( 1 Department of Pharmacy，2 Department of Cardiac Surgery ，The Central Hospital of Jiangmen，Jiangmen City，Guangdong Province ，Jiangmen 529030，China)【ABSTRACT 】 AIM To observe whether there existed drug-drug interactions between simvastatin，atorvastatin，rosuvastatin combined with ticagrelor． METHODS Acute coronary syndrome patients were randomly assigned to simvastatin，atorvastatin and rosuvastatin groups and ticagrelor in combination with simvastatin，atorvastatin and rosuvastatin groups． The levels of uric acid，aminotransferase，low density lipoprotein-cholesterol and the rate of platelet aggregation were measured． All patients were followed up for 2 months to compare whether there was a difference in the clinical efficacy and the incidence of adverse events． RESULTS Compared with use alone statins，there was no significant "
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊.pdf",
+          "chunk_index": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:1",
+          "raw_text": "瑞舒伐他汀是 CYP2C9 代谢药物，而不是主要经 CYP3A4 代谢; 替格瑞洛主要通过 CYP3A4 代谢，且是 CYP3A 弱抑制剂",
+          "chunk_id": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:1",
+          "data": "洛之间不存在影响。【关键词】 辛伐他汀; 阿托伐他汀; 瑞舒伐他汀; 替格瑞洛; 药物相互作用\nDrug-drug interactions of short-term combined statins and ticagrelor use\nGONG Shiju1 ，HUANG Ruilin1 ，ZHANG Zhigang 2 ( 1 Department of Pharmacy，2 Department of Cardiac Surgery ，The Central Hospital of Jiangmen，Jiangmen City，Guangdong Province ，Jiangmen 529030，China)【ABSTRACT 】 AIM To observe whether there existed drug-drug interactions between simvastatin，atorvastatin，rosuvastatin combined with ticagrelor． METHODS Acute coronary syndrome patients were randomly assigned to simvastatin，atorvastatin and rosuvastatin groups and ticagrelor in combination with simvastatin，atorvastatin and rosuvastatin groups． The levels of uric acid，aminotransferase，low density lipoprotein-cholesterol and the rate of platelet aggregation were measured． All patients were followed up for 2 months to compare whether there was a difference in the clinical efficacy and the incidence of adverse events． RESULTS Compared with use alone statins，there was no significant "
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:1",
+    "source": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊.pdf",
+    "text": "洛之间不存在影响。【关键词】 辛伐他汀; 阿托伐他汀; 瑞舒伐他汀; 替格瑞洛; 药物相互作用\nDrug-drug interactions of short-term combined statins and ticagrelor use\nGONG Shiju1 ，HUANG Ruilin1 ，ZHANG Zhigang 2 ( 1 Department of Pharmacy，2 Department of Cardiac Surgery ，The Central Hospital of Jiangmen，Jiangmen City，Guangdong Province ，Jiangmen 529030，China)【ABSTRACT 】 AIM To observe whether there existed drug-drug interactions between simvastatin，atorvastatin，rosuvastatin combined with ticagrelor． METHODS Acute coronary syndrome patients were randomly assigned to simvastatin，atorvastatin and rosuvastatin groups and ticagrelor in combination with simvastatin，atorvastatin and rosuvastatin groups． The levels of uric acid，aminotransferase，low density lipoprotein-cholesterol and the rate of platelet aggregation were measured． All patients were followed up for 2 months to compare whether there was a difference in the clinical efficacy and the incidence of adverse events． RESULTS Compared with use alone statins，there was no significant difference in blood low density lipoprotein-cholesterol levels． Platelet aggregation rate decreased significantly in the groups of ticagrelor combined with statins． There was no significant difference in the levels of uric acid and aminotransferase． There was also no significant difference in the incidence of adverse events between the combined use of drugs and statins alone． CONCLUSION The therapeutic dose in common use are not expected to affect the clinical curative effect and adverse reactions occurred rate in the short-term． There is no effect between rosuvastatin and ticagrelor，so the combination can be assured．P2Y12 拮抗剂［2］，被广泛用于预防 ACS 患者心血管事件的抗血小板治疗［3］。 替格瑞洛代表 P2Y12 受体抑制剂疗法的进步，但由于上市时间有限，作为抗血小板治疗药物的疗效及安全性仍有待证实。 替格瑞洛主要通过 CYP3A4 代谢［4］，且是 CYP3A 弱抑制剂［5］; 辛伐他汀、阿托伐他汀主要是通过 CYP3A4 途径代谢的药物［6 － 8］; 瑞舒伐他汀是 CYP2C9 代谢药物，而不是主要经 CYP3A4 代谢［9 － 10］。 本研究旨在观察不同代谢途径的他汀类药物与替格瑞洛联合应用后对其临床疗效及不良反应影响，为临床安全合理选药提供参考依据。"
+  }
+]

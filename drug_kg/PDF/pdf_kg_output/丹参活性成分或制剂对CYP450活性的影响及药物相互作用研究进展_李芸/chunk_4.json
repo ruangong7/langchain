@@ -1,0 +1,92 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "丹参素",
+        "canonical_name": "丹参素",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "丹参酮类",
+        "canonical_name": "丹参酮类",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "丹参",
+        "canonical_name": "丹参",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "CYP2C9",
+        "canonical_name": "CYP2C9",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP450",
+        "canonical_name": "CYP450",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "raw_text": "发现水溶性成分中的丹参素是 CYP2C9 的中等强度抑制剂 [9]",
+          "mechanism": "中等强度抑制",
+          "severity": "中等",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "data": "10，13-14]。此外，发现水溶性成分中的丹参素是 CYP2C9 的中等强度抑制剂 [9]。这些研究表明，丹参酮类等脂溶性成分对人类多种肝微粒体 CYP450 同工酶具有抑制作用，而水溶性成分仅发现丹参素可中等强度抑制CYP2C9的活性。\n2 丹参中的活性单体对CYP450活性的影响\n已有多个实验证实丹参活性成分单体可影响CYP450的活性。丹参中提取的单体既可在体外抑制CYP450的活性，也有部分单体化合物可在体内诱导CYP450的活性。根据抑制常数（K）的大小，可将肝药酶分为3类：强抑制剂（竞争性抑制） $( K _ { \\mathrm { i } } < 1 \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）、中等程度抑制剂（非竞争性抑制） $( K _ { \\mathrm { i } } = 1 \\sim 1 { \\times } 1 0 ^ { 9 } \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）和弱抑制剂（非竞争性抑制） $\\left( K _ { \\mathrm { i } } > 1 \\times 1 0 ^ { 9 } \\mu { \\mathrm { m o l } } \\bullet { \\mathrm { L } } ^ { - 1 } \\right)$ ）根据上述抑制常数划分，丹参对 CYP450 活性的抑制强度归纳见表2。\n3 丹参制剂对CYP450 活性的影响"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "raw_text": "丹参酮类等脂溶性成分对人类多种肝微粒体 CYP450 同工酶具有抑制作用",
+          "mechanism": "抑制",
+          "severity": "未明确",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "data": "10，13-14]。此外，发现水溶性成分中的丹参素是 CYP2C9 的中等强度抑制剂 [9]。这些研究表明，丹参酮类等脂溶性成分对人类多种肝微粒体 CYP450 同工酶具有抑制作用，而水溶性成分仅发现丹参素可中等强度抑制CYP2C9的活性。\n2 丹参中的活性单体对CYP450活性的影响\n已有多个实验证实丹参活性成分单体可影响CYP450的活性。丹参中提取的单体既可在体外抑制CYP450的活性，也有部分单体化合物可在体内诱导CYP450的活性。根据抑制常数（K）的大小，可将肝药酶分为3类：强抑制剂（竞争性抑制） $( K _ { \\mathrm { i } } < 1 \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）、中等程度抑制剂（非竞争性抑制） $( K _ { \\mathrm { i } } = 1 \\sim 1 { \\times } 1 0 ^ { 9 } \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）和弱抑制剂（非竞争性抑制） $\\left( K _ { \\mathrm { i } } > 1 \\times 1 0 ^ { 9 } \\mu { \\mathrm { m o l } } \\bullet { \\mathrm { L } } ^ { - 1 } \\right)$ ）根据上述抑制常数划分，丹参对 CYP450 活性的抑制强度归纳见表2。\n3 丹参制剂对CYP450 活性的影响"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+          "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "raw_text": "丹参对 CYP450 活性的抑制强度归纳见表2",
+          "mechanism": "抑制",
+          "severity": "未明确",
+          "chunk_id": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+          "data": "10，13-14]。此外，发现水溶性成分中的丹参素是 CYP2C9 的中等强度抑制剂 [9]。这些研究表明，丹参酮类等脂溶性成分对人类多种肝微粒体 CYP450 同工酶具有抑制作用，而水溶性成分仅发现丹参素可中等强度抑制CYP2C9的活性。\n2 丹参中的活性单体对CYP450活性的影响\n已有多个实验证实丹参活性成分单体可影响CYP450的活性。丹参中提取的单体既可在体外抑制CYP450的活性，也有部分单体化合物可在体内诱导CYP450的活性。根据抑制常数（K）的大小，可将肝药酶分为3类：强抑制剂（竞争性抑制） $( K _ { \\mathrm { i } } < 1 \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）、中等程度抑制剂（非竞争性抑制） $( K _ { \\mathrm { i } } = 1 \\sim 1 { \\times } 1 0 ^ { 9 } \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）和弱抑制剂（非竞争性抑制） $\\left( K _ { \\mathrm { i } } > 1 \\times 1 0 ^ { 9 } \\mu { \\mathrm { m o l } } \\bullet { \\mathrm { L } } ^ { - 1 } \\right)$ ）根据上述抑制常数划分，丹参对 CYP450 活性的抑制强度归纳见表2。\n3 丹参制剂对CYP450 活性的影响"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸:4",
+    "source": "丹参活性成分或制剂对CYP450活性的影响及药物相互作用研究进展_李芸.pdf",
+    "text": "10，13-14]。此外，发现水溶性成分中的丹参素是 CYP2C9 的中等强度抑制剂 [9]。这些研究表明，丹参酮类等脂溶性成分对人类多种肝微粒体 CYP450 同工酶具有抑制作用，而水溶性成分仅发现丹参素可中等强度抑制CYP2C9的活性。\n2 丹参中的活性单体对CYP450活性的影响\n已有多个实验证实丹参活性成分单体可影响CYP450的活性。丹参中提取的单体既可在体外抑制CYP450的活性，也有部分单体化合物可在体内诱导CYP450的活性。根据抑制常数（K）的大小，可将肝药酶分为3类：强抑制剂（竞争性抑制） $( K _ { \\mathrm { i } } < 1 \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）、中等程度抑制剂（非竞争性抑制） $( K _ { \\mathrm { i } } = 1 \\sim 1 { \\times } 1 0 ^ { 9 } \\ \\mu \\mathrm { m o l } \\bullet \\mathrm { L } ^ { - 1 } )$ ）和弱抑制剂（非竞争性抑制） $\\left( K _ { \\mathrm { i } } > 1 \\times 1 0 ^ { 9 } \\mu { \\mathrm { m o l } } \\bullet { \\mathrm { L } } ^ { - 1 } \\right)$ ）根据上述抑制常数划分，丹参对 CYP450 活性的抑制强度归纳见表2。\n3 丹参制剂对CYP450 活性的影响"
+  }
+]

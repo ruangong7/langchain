@@ -1,0 +1,258 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "Ixeris sonchifolia Hance",
+        "canonical_name": "苦碟子",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "Salvia miltiorrhiza",
+        "canonical_name": "丹参",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "safflower yellow",
+        "canonical_name": "红花黄色素",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "Ginkgo Leaf injection",
+        "canonical_name": "银杏叶注射液",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "She Xiang Bao Xin Wan",
+        "canonical_name": "麝香保心丸",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "他汀类",
+        "canonical_name": "他汀类",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "β-受体阻滞剂",
+        "canonical_name": "β-受体阻滞剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "DrugClass",
+        "name": "血管紧张素转化酶抑制剂",
+        "canonical_name": "血管紧张素转化酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "抗栓药物",
+        "canonical_name": "抗栓药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "冠心病",
+        "canonical_name": "冠心病",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Indicator",
+        "name": "CYP450",
+        "canonical_name": "细胞色素P450酶",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华.pdf",
+          "chunk_index": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "raw_text": "多种具有活血祛瘀、扩张血管作用的中成药也广泛用于冠心病支架置入术患者。",
+          "chunk_id": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "data": "但需充分注意其可能发生的药物相互作用。\nTraditional Chinese medicine in coronary stent implantation patients and potential drug interactions\nLIU Li-hua, HE Xin, ZHANG Li, ZHANG Ming-xiang\\* (The Third Hospital of Changsha, Changsha 410015)Abstract: Objective To investigate the use of traditional Chinese medicine in coronary stent implantation patients, and to explore the potential drug interactions mediated by CYP450. Methods Medical records of coronary stent implantation patients from January 2013 to June 2013 were reviewed, the drug classes and DDDs of traditional Chinese medicine were analyzed, and the potential effects on CYP450 were evaluated by literature retrieval. Results Out of the 126 coronary stent implantation patients, 95 (75.4%) used traditional Chinese medicine. The top 5 DDDs drugs were Ixeris sonchifolia Hance, Salvia miltiorrhiza, saffl ower yellow, Ginkgo Leaf injection and She Xiang Bao Xin Wan. There were reports of effect of traditional Chinese medicine on CYP450 except for Ixeris so"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华.pdf",
+          "chunk_index": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "raw_text": "多种具有活血祛瘀、扩张血管作用的中成药也广泛用于冠心病支架置入术患者。",
+          "chunk_id": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "data": "但需充分注意其可能发生的药物相互作用。\nTraditional Chinese medicine in coronary stent implantation patients and potential drug interactions\nLIU Li-hua, HE Xin, ZHANG Li, ZHANG Ming-xiang\\* (The Third Hospital of Changsha, Changsha 410015)Abstract: Objective To investigate the use of traditional Chinese medicine in coronary stent implantation patients, and to explore the potential drug interactions mediated by CYP450. Methods Medical records of coronary stent implantation patients from January 2013 to June 2013 were reviewed, the drug classes and DDDs of traditional Chinese medicine were analyzed, and the potential effects on CYP450 were evaluated by literature retrieval. Results Out of the 126 coronary stent implantation patients, 95 (75.4%) used traditional Chinese medicine. The top 5 DDDs drugs were Ixeris sonchifolia Hance, Salvia miltiorrhiza, saffl ower yellow, Ginkgo Leaf injection and She Xiang Bao Xin Wan. There were reports of effect of traditional Chinese medicine on CYP450 except for Ixeris so"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_3",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华.pdf",
+          "chunk_index": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "raw_text": "多种具有活血祛瘀、扩张血管作用的中成药也广泛用于冠心病支架置入术患者。",
+          "chunk_id": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "data": "但需充分注意其可能发生的药物相互作用。\nTraditional Chinese medicine in coronary stent implantation patients and potential drug interactions\nLIU Li-hua, HE Xin, ZHANG Li, ZHANG Ming-xiang\\* (The Third Hospital of Changsha, Changsha 410015)Abstract: Objective To investigate the use of traditional Chinese medicine in coronary stent implantation patients, and to explore the potential drug interactions mediated by CYP450. Methods Medical records of coronary stent implantation patients from January 2013 to June 2013 were reviewed, the drug classes and DDDs of traditional Chinese medicine were analyzed, and the potential effects on CYP450 were evaluated by literature retrieval. Results Out of the 126 coronary stent implantation patients, 95 (75.4%) used traditional Chinese medicine. The top 5 DDDs drugs were Ixeris sonchifolia Hance, Salvia miltiorrhiza, saffl ower yellow, Ginkgo Leaf injection and She Xiang Bao Xin Wan. There were reports of effect of traditional Chinese medicine on CYP450 except for Ixeris so"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_4",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华.pdf",
+          "chunk_index": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "raw_text": "多种具有活血祛瘀、扩张血管作用的中成药也广泛用于冠心病支架置入术患者。",
+          "chunk_id": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "data": "但需充分注意其可能发生的药物相互作用。\nTraditional Chinese medicine in coronary stent implantation patients and potential drug interactions\nLIU Li-hua, HE Xin, ZHANG Li, ZHANG Ming-xiang\\* (The Third Hospital of Changsha, Changsha 410015)Abstract: Objective To investigate the use of traditional Chinese medicine in coronary stent implantation patients, and to explore the potential drug interactions mediated by CYP450. Methods Medical records of coronary stent implantation patients from January 2013 to June 2013 were reviewed, the drug classes and DDDs of traditional Chinese medicine were analyzed, and the potential effects on CYP450 were evaluated by literature retrieval. Results Out of the 126 coronary stent implantation patients, 95 (75.4%) used traditional Chinese medicine. The top 5 DDDs drugs were Ixeris sonchifolia Hance, Salvia miltiorrhiza, saffl ower yellow, Ginkgo Leaf injection and She Xiang Bao Xin Wan. There were reports of effect of traditional Chinese medicine on CYP450 except for Ixeris so"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_5",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华.pdf",
+          "chunk_index": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "raw_text": "多种具有活血祛瘀、扩张血管作用的中成药也广泛用于冠心病支架置入术患者。",
+          "chunk_id": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "data": "但需充分注意其可能发生的药物相互作用。\nTraditional Chinese medicine in coronary stent implantation patients and potential drug interactions\nLIU Li-hua, HE Xin, ZHANG Li, ZHANG Ming-xiang\\* (The Third Hospital of Changsha, Changsha 410015)Abstract: Objective To investigate the use of traditional Chinese medicine in coronary stent implantation patients, and to explore the potential drug interactions mediated by CYP450. Methods Medical records of coronary stent implantation patients from January 2013 to June 2013 were reviewed, the drug classes and DDDs of traditional Chinese medicine were analyzed, and the potential effects on CYP450 were evaluated by literature retrieval. Results Out of the 126 coronary stent implantation patients, 95 (75.4%) used traditional Chinese medicine. The top 5 DDDs drugs were Ixeris sonchifolia Hance, Salvia miltiorrhiza, saffl ower yellow, Ginkgo Leaf injection and She Xiang Bao Xin Wan. There were reports of effect of traditional Chinese medicine on CYP450 except for Ixeris so"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_2",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华.pdf",
+          "chunk_index": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "raw_text": "很多中药是药物代谢酶细胞色素 P450 酶（cytochrome P450，CYP450）的诱导剂或抑制剂",
+          "chunk_id": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "data": "但需充分注意其可能发生的药物相互作用。\nTraditional Chinese medicine in coronary stent implantation patients and potential drug interactions\nLIU Li-hua, HE Xin, ZHANG Li, ZHANG Ming-xiang\\* (The Third Hospital of Changsha, Changsha 410015)Abstract: Objective To investigate the use of traditional Chinese medicine in coronary stent implantation patients, and to explore the potential drug interactions mediated by CYP450. Methods Medical records of coronary stent implantation patients from January 2013 to June 2013 were reviewed, the drug classes and DDDs of traditional Chinese medicine were analyzed, and the potential effects on CYP450 were evaluated by literature retrieval. Results Out of the 126 coronary stent implantation patients, 95 (75.4%) used traditional Chinese medicine. The top 5 DDDs drugs were Ixeris sonchifolia Hance, Salvia miltiorrhiza, saffl ower yellow, Ginkgo Leaf injection and She Xiang Bao Xin Wan. There were reports of effect of traditional Chinese medicine on CYP450 except for Ixeris so"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_3",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华.pdf",
+          "chunk_index": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "raw_text": "很多中药是药物代谢酶细胞色素 P450 酶（cytochrome P450，CYP450）的诱导剂或抑制剂",
+          "chunk_id": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "data": "但需充分注意其可能发生的药物相互作用。\nTraditional Chinese medicine in coronary stent implantation patients and potential drug interactions\nLIU Li-hua, HE Xin, ZHANG Li, ZHANG Ming-xiang\\* (The Third Hospital of Changsha, Changsha 410015)Abstract: Objective To investigate the use of traditional Chinese medicine in coronary stent implantation patients, and to explore the potential drug interactions mediated by CYP450. Methods Medical records of coronary stent implantation patients from January 2013 to June 2013 were reviewed, the drug classes and DDDs of traditional Chinese medicine were analyzed, and the potential effects on CYP450 were evaluated by literature retrieval. Results Out of the 126 coronary stent implantation patients, 95 (75.4%) used traditional Chinese medicine. The top 5 DDDs drugs were Ixeris sonchifolia Hance, Salvia miltiorrhiza, saffl ower yellow, Ginkgo Leaf injection and She Xiang Bao Xin Wan. There were reports of effect of traditional Chinese medicine on CYP450 except for Ixeris so"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_4",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华.pdf",
+          "chunk_index": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "raw_text": "很多中药是药物代谢酶细胞色素 P450 酶（cytochrome P450，CYP450）的诱导剂或抑制剂",
+          "chunk_id": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "data": "但需充分注意其可能发生的药物相互作用。\nTraditional Chinese medicine in coronary stent implantation patients and potential drug interactions\nLIU Li-hua, HE Xin, ZHANG Li, ZHANG Ming-xiang\\* (The Third Hospital of Changsha, Changsha 410015)Abstract: Objective To investigate the use of traditional Chinese medicine in coronary stent implantation patients, and to explore the potential drug interactions mediated by CYP450. Methods Medical records of coronary stent implantation patients from January 2013 to June 2013 were reviewed, the drug classes and DDDs of traditional Chinese medicine were analyzed, and the potential effects on CYP450 were evaluated by literature retrieval. Results Out of the 126 coronary stent implantation patients, 95 (75.4%) used traditional Chinese medicine. The top 5 DDDs drugs were Ixeris sonchifolia Hance, Salvia miltiorrhiza, saffl ower yellow, Ginkgo Leaf injection and She Xiang Bao Xin Wan. There were reports of effect of traditional Chinese medicine on CYP450 except for Ixeris so"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_5",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华.pdf",
+          "chunk_index": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "raw_text": "很多中药是药物代谢酶细胞色素 P450 酶（cytochrome P450，CYP450）的诱导剂或抑制剂",
+          "chunk_id": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "data": "但需充分注意其可能发生的药物相互作用。\nTraditional Chinese medicine in coronary stent implantation patients and potential drug interactions\nLIU Li-hua, HE Xin, ZHANG Li, ZHANG Ming-xiang\\* (The Third Hospital of Changsha, Changsha 410015)Abstract: Objective To investigate the use of traditional Chinese medicine in coronary stent implantation patients, and to explore the potential drug interactions mediated by CYP450. Methods Medical records of coronary stent implantation patients from January 2013 to June 2013 were reviewed, the drug classes and DDDs of traditional Chinese medicine were analyzed, and the potential effects on CYP450 were evaluated by literature retrieval. Results Out of the 126 coronary stent implantation patients, 95 (75.4%) used traditional Chinese medicine. The top 5 DDDs drugs were Ixeris sonchifolia Hance, Salvia miltiorrhiza, saffl ower yellow, Ginkgo Leaf injection and She Xiang Bao Xin Wan. There were reports of effect of traditional Chinese medicine on CYP450 except for Ixeris so"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华.pdf",
+          "chunk_index": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "raw_text": "在支架置入围手术期，患者往往需要接受多种药物治疗，如抗栓药物、他汀类、β-受体阻滞剂和血管紧张素转化酶抑制剂等",
+          "chunk_id": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "data": "但需充分注意其可能发生的药物相互作用。\nTraditional Chinese medicine in coronary stent implantation patients and potential drug interactions\nLIU Li-hua, HE Xin, ZHANG Li, ZHANG Ming-xiang\\* (The Third Hospital of Changsha, Changsha 410015)Abstract: Objective To investigate the use of traditional Chinese medicine in coronary stent implantation patients, and to explore the potential drug interactions mediated by CYP450. Methods Medical records of coronary stent implantation patients from January 2013 to June 2013 were reviewed, the drug classes and DDDs of traditional Chinese medicine were analyzed, and the potential effects on CYP450 were evaluated by literature retrieval. Results Out of the 126 coronary stent implantation patients, 95 (75.4%) used traditional Chinese medicine. The top 5 DDDs drugs were Ixeris sonchifolia Hance, Salvia miltiorrhiza, saffl ower yellow, Ginkgo Leaf injection and She Xiang Bao Xin Wan. There were reports of effect of traditional Chinese medicine on CYP450 except for Ixeris so"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_7",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华.pdf",
+          "chunk_index": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "raw_text": "在支架置入围手术期，患者往往需要接受多种药物治疗，如抗栓药物、他汀类、β-受体阻滞剂和血管紧张素转化酶抑制剂等",
+          "chunk_id": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "data": "但需充分注意其可能发生的药物相互作用。\nTraditional Chinese medicine in coronary stent implantation patients and potential drug interactions\nLIU Li-hua, HE Xin, ZHANG Li, ZHANG Ming-xiang\\* (The Third Hospital of Changsha, Changsha 410015)Abstract: Objective To investigate the use of traditional Chinese medicine in coronary stent implantation patients, and to explore the potential drug interactions mediated by CYP450. Methods Medical records of coronary stent implantation patients from January 2013 to June 2013 were reviewed, the drug classes and DDDs of traditional Chinese medicine were analyzed, and the potential effects on CYP450 were evaluated by literature retrieval. Results Out of the 126 coronary stent implantation patients, 95 (75.4%) used traditional Chinese medicine. The top 5 DDDs drugs were Ixeris sonchifolia Hance, Salvia miltiorrhiza, saffl ower yellow, Ginkgo Leaf injection and She Xiang Bao Xin Wan. There were reports of effect of traditional Chinese medicine on CYP450 except for Ixeris so"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_8",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华.pdf",
+          "chunk_index": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "raw_text": "在支架置入围手术期，患者往往需要接受多种药物治疗，如抗栓药物、他汀类、β-受体阻滞剂和血管紧张素转化酶抑制剂等",
+          "chunk_id": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "data": "但需充分注意其可能发生的药物相互作用。\nTraditional Chinese medicine in coronary stent implantation patients and potential drug interactions\nLIU Li-hua, HE Xin, ZHANG Li, ZHANG Ming-xiang\\* (The Third Hospital of Changsha, Changsha 410015)Abstract: Objective To investigate the use of traditional Chinese medicine in coronary stent implantation patients, and to explore the potential drug interactions mediated by CYP450. Methods Medical records of coronary stent implantation patients from January 2013 to June 2013 were reviewed, the drug classes and DDDs of traditional Chinese medicine were analyzed, and the potential effects on CYP450 were evaluated by literature retrieval. Results Out of the 126 coronary stent implantation patients, 95 (75.4%) used traditional Chinese medicine. The top 5 DDDs drugs were Ixeris sonchifolia Hance, Salvia miltiorrhiza, saffl ower yellow, Ginkgo Leaf injection and She Xiang Bao Xin Wan. There were reports of effect of traditional Chinese medicine on CYP450 except for Ixeris so"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华.pdf",
+          "chunk_index": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "raw_text": "在支架置入围手术期，患者往往需要接受多种药物治疗，如抗栓药物、他汀类、β-受体阻滞剂和血管紧张素转化酶抑制剂等",
+          "chunk_id": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+          "data": "但需充分注意其可能发生的药物相互作用。\nTraditional Chinese medicine in coronary stent implantation patients and potential drug interactions\nLIU Li-hua, HE Xin, ZHANG Li, ZHANG Ming-xiang\\* (The Third Hospital of Changsha, Changsha 410015)Abstract: Objective To investigate the use of traditional Chinese medicine in coronary stent implantation patients, and to explore the potential drug interactions mediated by CYP450. Methods Medical records of coronary stent implantation patients from January 2013 to June 2013 were reviewed, the drug classes and DDDs of traditional Chinese medicine were analyzed, and the potential effects on CYP450 were evaluated by literature retrieval. Results Out of the 126 coronary stent implantation patients, 95 (75.4%) used traditional Chinese medicine. The top 5 DDDs drugs were Ixeris sonchifolia Hance, Salvia miltiorrhiza, saffl ower yellow, Ginkgo Leaf injection and She Xiang Bao Xin Wan. There were reports of effect of traditional Chinese medicine on CYP450 except for Ixeris so"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华:1",
+    "source": "冠心病支架置入住院患者中成药的使用及潜在药物相互作用分析_刘丽华.pdf",
+    "text": "但需充分注意其可能发生的药物相互作用。\nTraditional Chinese medicine in coronary stent implantation patients and potential drug interactions\nLIU Li-hua, HE Xin, ZHANG Li, ZHANG Ming-xiang\\* (The Third Hospital of Changsha, Changsha 410015)Abstract: Objective To investigate the use of traditional Chinese medicine in coronary stent implantation patients, and to explore the potential drug interactions mediated by CYP450. Methods Medical records of coronary stent implantation patients from January 2013 to June 2013 were reviewed, the drug classes and DDDs of traditional Chinese medicine were analyzed, and the potential effects on CYP450 were evaluated by literature retrieval. Results Out of the 126 coronary stent implantation patients, 95 (75.4%) used traditional Chinese medicine. The top 5 DDDs drugs were Ixeris sonchifolia Hance, Salvia miltiorrhiza, saffl ower yellow, Ginkgo Leaf injection and She Xiang Bao Xin Wan. There were reports of effect of traditional Chinese medicine on CYP450 except for Ixeris sonchifolia Hance. Conclusion The use of traditional Chinese mecidine is common in coronary stent implantation patients, and caution should be paid to potential drug interactions.冠心病是威胁人类健康最重要的心血管疾病之一。冠状动脉支架置入术可解除冠状动脉狭窄，恢复心肌灌注，现已成为冠心病治疗的重要手段。在支架置入围手术期，患者往往需要接受多种药物治疗，如抗栓药物、他汀类、β-受体阻滞剂和血管紧张素转化酶抑制剂等[1]。多种具有活血祛瘀、扩张血管作用的中成药也广泛用于冠心病支架置入术患者。最近有研究证实，很多中药是药物代谢酶细胞色素 P450 酶（cytochrome P450，CYP450）的诱导剂或抑制剂 [2]，可能影响其他药物的代谢，产生药物相互作用；但是在临床实践中这类潜在相互作用往往未引起足够的重视 [3]。本文通过调查本院冠心病支架置入术住院患者中成药的使用现状，对基于 CYP450 的潜在药物相互作用风险进行分析。"
+  }
+]

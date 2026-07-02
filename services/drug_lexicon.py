@@ -40,6 +40,30 @@ class DrugLexiconService:
         )
         return self._lexicon
 
+    def match_mentions(self, text: str, refresh: bool = False) -> List[Dict[str, str]]:
+        lexicon = self.load(refresh=refresh)
+        normalized_text = " ".join(str(text or "").strip().split())
+        if not normalized_text or not lexicon:
+            return []
+
+        matches: List[Dict[str, str]] = []
+        occupied_ranges: List[tuple[int, int]] = []
+        for alias, canonical in lexicon.items():
+            start = normalized_text.find(alias)
+            if start < 0:
+                continue
+            end = start + len(alias)
+            if any(not (end <= left or start >= right) for left, right in occupied_ranges):
+                continue
+            occupied_ranges.append((start, end))
+            matches.append(
+                {
+                    "mention": alias,
+                    "canonical": canonical,
+                }
+            )
+        return matches
+
     def _load_alias_file(self, file_path: str) -> Dict[str, str]:
         path = Path(file_path)
         if not path.is_absolute():

@@ -1,6 +1,5 @@
 """运行 RAGAS 评估"""
 import argparse
-import importlib.util
 import logging
 import os
 import sys
@@ -10,6 +9,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config import *  # noqa: F403
 from evaluation.ragas_evaluator import RAGASEvaluator
 from langchain_community.vectorstores import Redis
+from services.embedding_factory import build_embeddings
 from services.llm_service import LLMService
 from services.rag_service import RAGService
 
@@ -21,22 +21,14 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def init_services(top_k: int = 5, index_name: str = "drug_vectors"):
+def init_services(top_k: int = 5, index_name: str = VECTOR_INDEX_NAME):  # noqa: F405
     """初始化 RAG 和 LLM 服务（仅稠密检索）"""
     logger.info("正在初始化服务...")
 
     # 初始化LLM服务
     llm_service = LLMService(tools=None)
 
-    # 初始化向量存储c
-    project_root = os.path.dirname(os.path.dirname(__file__))
-    main_path = os.path.join(project_root, "main.py")
-    spec = importlib.util.spec_from_file_location("main", main_path)
-    if spec is None or spec.loader is None:
-        raise RuntimeError("无法加载 main.py 中的 DashScopeEmbeddings")
-    main_module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(main_module)
-    embeddings = main_module.DashScopeEmbeddings(model=EMBEDDING_MODEL)  # noqa: F405
+    embeddings = build_embeddings()
 
     redis_url = f"redis://{REDIS_HOST}:{REDIS_PORT}/{REDIS_DB}"  # noqa: F405
     vectorstore = Redis(
@@ -87,7 +79,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--index-name",
-        default="drug_vectors",
+        default=VECTOR_INDEX_NAME,  # noqa: F405
         help="Redis 向量索引名，默认 drug_vectors",
     )
     return parser.parse_args()

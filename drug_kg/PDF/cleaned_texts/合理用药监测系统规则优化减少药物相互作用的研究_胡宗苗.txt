@@ -1,39 +1,23 @@
 合理用药监测系统规则优化减少药物相互作用的研究
 胡宗苗① 冯琴琴① 米守湖① 雷越辰② 郭建芳①△摘要目的通过优化合理用药监测系统（PASS）规则库，增加药物相互作用警示，减少药物治疗中的不良相互作用，提升药学服务能力。方法依据医院近年常见的联合用药不合理情况，确定需优化的药物相互作用内容。通过自定义优化PASS系统，利用人工智能实时审核用药合理性。通过比较优化前后存在药物不良相互作用的医嘱病案的占比，评价PASS系统的优化效果。结果共自定义维护1 112条关于不合理联合用药的警示信息。系统优化后，药物不良相互作用医嘱病案占比显著降低，由4.483%降至2.040%。结论 PASS系统的优化可显著减少存在药物不良相互作用的医嘱，提高药师服务能力。
-Research on the Optimizing PASS System to Reduce Drug Interactions
-HU Zongmiao, FENG Qinqin, MI Shouhu, LEI Yuechen, GUO Jianfang Norinco General Hospital, Xi’an 710065, Shaanxi, China Abstract Objective By optimizing the rule base of the prescription automatic screening system (PASS), we can increase the warning of drug interactions, reduce adverse interactions in drug treatment, and improve the ability of pharmaceutical care. Methods According to the common unreasonable situation of combined drug use in the hospital in recent years, determine the drug interaction content to be optimized. Through user-defined optimization of PASS system, the rationality of medication was reviewed in real time by artificial intelligence. The optimization effect of PASS system was evaluated by comparing the proportion of adverse interaction medical records before and after optimization. Results A total of 1112 warning messages about irrational drug combination were customized and maintained. After system optimization, the proportion of medical records with adverse interactions decreased significantly from 4.483% to 2.040%. Conclusion The optimization of PASS system can significantly reduce the adverse drug interactions and medical orders, and improve the service ability of pharmacists.Keywords PASS; drug adverse interac■ons; ar■ficial intelligence①兵器工业总医院，陕西省西安市，710065②兵器工业卫生研究所，陕西省西安市，710065
-中国卫生信息管理
-CHINESE JOURNAL OF HEALTH INFORMATICS AND MANAGEMENT
-0 引言
-资料与方法
-2018 年以来，国家卫生健康委和国家中医药管理局等部门先后发布多个文件，反复提到推进“互联网 +药学服务”的发展。加快信息化建设、借助信息技术促进安全用药，是提升医院药学管理的重要措施 [1-2]。
 1.1  资料来源
 抽取该院 PASS 系统优化前 2020 年 7—12 月出院患者病案和优化后2021年7—12月出院患者病案。
 1.2  方法
 合理用药监测系统（prescription automaticscreening system，PASS）是运用信息技术对医药学及其相关学科知识进行标准化处理，实现医嘱自动审查和医药信息在线查询，及时发现潜在的不合理用药问题，促进临床合理用药的数据库应用系统 [3-4]。兵器工业总医院（以下简称“该院”）已于2017年安装PASS系统，医师开医嘱时可看到不同级别的警示信息。其中，药物相互作用版块是系统的重要组成部分，该版块主要审查相同或不同给药途径的两种药物，同时或先后给予后在体内所起的联合效应。不良相互作用是指两种药物联合应用时，使药效减弱或出现不应有的毒副作用，甚至出现一些奇特的不良反应，危害用药者。因此，必须重视药物不良相互作用问题。当前的PASS 系统虽然可以对药物产生的不良相互作用给予警示提醒，但警示问题有限，智能化程度较低，很多不良相互作用虽然存在，却因系统无法判断而不能及时提示。因此，通过提高医院信息化水平加强合理用药管理、减少不良相互作用显得尤为重要。
 查阅文献 [5-14]，结合药品说明书，汇总近 3 年该院存在的联合用药不合理情况，如奥美拉唑可抑制氯吡格雷的经肝代谢，碳青霉烯类药物可能降低丙戊酸钠浓度等；此外，筛查常见的辅料中含有乙醇的药物，以及可能发生双硫仑样反应的药物，这两类药物应避免同时使用。对这些问题进行总结，设计相应级别的警示信息。2020 年 12 月底通过医院药事管理委员会审批，确定 PASS 系统的具体优化内容，于 2021 年 6 月完成优化，共优化了 1 112 条警示信息。对优化前后同一时间段的病案进行分析，比较优化前后存在药物不良相互作用的医嘱病案的占比，评价PASS 优化效果。
 1.3  统计学方法
-采用SPSS20.0统计学软件分析数据，计数资料用/%表示， $\boxplus \chi ^ { 2 }$ 检验，以 ＜0.05为差异具有统计学意义。
-2 结果
+采用SPSS20.0统计学软件分析数据，计数资料用/%表示， 2 检验，以 ＜0.05为差异具有统计学意义。
 本研究依据该院近年常见的不合理联合用药情况，确定需优化的关于药物相互作用的内容。通过PASS 系统自定义功能，增加相应的相互作用警示，利用人工智能实时审核用药合理性，为临床用药提供参考。最后通过比较优化前后存在药物不良相互作用的医嘱病案的占比，评估PASS 系统的优化效果。
 2.1  药物相互作用自定义维护内容
 共收集整理常见药物相互作用13项，见表1。
 2.2  优化前后药物不良相互作用医嘱情况分析
-该院 PASS 系统优化前 2020 年 7—12 月出院患者
-DATA ANALYSIS AND UTILIZATION 数据分析利用
-病案 19 385 份，优化后 2021 年 7—12 月出院患者病案 18 134 份；通过 PASS 系统药物相互作用审查版块进行审查，筛选出优化前的药物不良相互作用医嘱病案869 份、优化后的 370 份；总的药物不良相互作用医嘱占比由优化前的 4.483% 降至优化后的 2.040%，差异具有统计学意义 $( P < 0 . 0 5 ) _ { \circ }$ 。见表2。
-3 讨论
+该院 PASS 系统优化前 2020 年 7—12 月出院患者病案 19 385 份，优化后 2021 年 7—12 月出院患者病案 18 134 份；通过 PASS 系统药物相互作用审查版块进行审查，筛选出优化前的药物不良相互作用医嘱病案869 份、优化后的 370 份；总的药物不良相互作用医嘱占比由优化前的 4.483% 降至优化后的 2.040%，差异具有统计学意义 ( P < 0.0 5 ) 。见表2。
 3.1  PASS 系统药物相互作用审查版块优化意义
 2.3  优化前后药物不良相互作用医嘱的科室分布情况
-PASS 系统存在机械警示、过度警示及错误警示等问题，并且对很多不合理用药情况无法给出警示，没有达到 PASS 系统监测目的 [15]。例如，系统无法识别部分药物间的不良相互作用，无法及时发出警示，以致临脊柱外科、普通外科、泌尿外科、心胸外科、产二科、妇科、老年病科、内分泌科、神经内三科、消化内科和新生儿科 11 个科室的药物不良相互作用医嘱病案占比，优化前后变化不明显（ ＞ 0.05）；其他 16个科室相关的药物不良相互作用医嘱病案占比，优化后较优化前明显下降 $\big ( P < 0 . 0 5 \big ) _ { \mathrm { c } }$ 。见表3。
-DATA ANALYSIS AND UTILIZATION 数据分析利用
+PASS 系统存在机械警示、过度警示及错误警示等问题，并且对很多不合理用药情况无法给出警示，没有达到 PASS 系统监测目的 [15]。例如，系统无法识别部分药物间的不良相互作用，无法及时发出警示，以致临脊柱外科、普通外科、泌尿外科、心胸外科、产二科、妇科、老年病科、内分泌科、神经内三科、消化内科和新生儿科 11 个科室的药物不良相互作用医嘱病案占比，优化前后变化不明显（ ＞ 0.05）；其他 16个科室相关的药物不良相互作用医嘱病案占比，优化后较优化前明显下降 ( P < 0.0 5 ) c 。见表3。
 床用药不合理。因此，结合医师实际用药习惯，优化PASS 系统以加强合理用药信息化管理显得尤为重要。
 本研究利用PASS 系统合理用药审查功能下的药物相互作用审查功能，在其中嵌入该院常见药物不良相互作用有关内容后，能够快速有效审查出药物不良相互作用情况。这些相互作用可能导致毒性增强、药效降低等变化，使药品的实际使用效果发生改变，导致不良反应的发生，是临床用药中需要密切关注的问题。系统能在医师录入医嘱时及时发现问题，发出警示，减少用药错误发生。因此，PASS 系统药物相互作用审查版块的优化弥补了人工的不足，减少了用药错误，提高了审查效率。该院合理用药审查从人工转为自动，扩大了审查范围，提升了医院合理安全用药水平。
 对优化前后药物不良相互作用医嘱病案的科室分布情况的分析显示，大部分科室优化后相关的药物不良相互作用医嘱病案数较优化前明显下降。这表明本次优化提高了各科室的合理用药水平；但仍有少部分科室变化不明显，还需药师与医师进行沟通，寻找解决方案，从而减少不合理用药的发生。
-4 结束语
 本研究通过对 PASS 系统药物不良相互作用规则库的自定义维护，降低了药物不良相互作用医嘱病案占比，改善了不合理用药情况，对提高各科室的合理用药水平有一定的帮助。合理用药监测系统的优化能够有效
 3.2  PASS 系统优化后不合理用药情况显著减少
 本研究结果显示，该院总体药物不良相互作用医嘱病案占比由优化前的 4.483% 下降至优化后的 2.040%，显著降低（ ＜ 0.05）。这说明本次优化显著改善了住院患者的药物不良相互作用情况，提升了合理用药管理水平。
-中国卫生信息管理
-CHINESE JOURNAL OF HEALTH INFORMATICS AND MANAGEMENT
-减少不合理用药情况，促进精准用药，提高用药安全性，及时避免可能的用药错误和医疗纠纷，是提升医院药学管理的重要措施，有助于提高医院的医疗质量和用药管理水平。■（上接第127 页）

@@ -1,0 +1,419 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "双膦酸盐类药物",
+        "canonical_name": "双膦酸盐类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "依替膦酸二钠",
+        "canonical_name": "依替膦酸二钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "替鲁膦酸二钠",
+        "canonical_name": "替鲁膦酸二钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "氯膦酸二钠",
+        "canonical_name": "氯膦酸二钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "帕米膦酸二钠",
+        "canonical_name": "帕米膦酸二钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "阿仑膦酸钠",
+        "canonical_name": "阿仑膦酸钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "利塞膦酸钠",
+        "canonical_name": "利塞膦酸钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "伊班膦酸钠",
+        "canonical_name": "伊班膦酸钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "唑来膦酸",
+        "canonical_name": "唑来膦酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "骨质疏松症",
+        "canonical_name": "骨质疏松症",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Disease",
+        "name": "变形性骨炎",
+        "canonical_name": "变形性骨炎",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Disease",
+        "name": "高钙血症",
+        "canonical_name": "高钙血症",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Disease",
+        "name": "骨痛症",
+        "canonical_name": "骨痛症",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "DrugClass",
+        "name": "二价阳离子药物",
+        "canonical_name": "二价阳离子药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "华法林",
+        "canonical_name": "华法林",
+        "properties": {}
+      },
+      {
+        "id": "ent_16",
+        "type": "Drug",
+        "name": "苯妥英",
+        "canonical_name": "苯妥英",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "DrugClass",
+        "name": "非甾体抗炎药",
+        "canonical_name": "非甾体抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "DrugClass",
+        "name": "抗癌药",
+        "canonical_name": "抗癌药",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "DrugClass",
+        "name": "激素",
+        "canonical_name": "激素",
+        "properties": {}
+      },
+      {
+        "id": "ent_20",
+        "type": "DrugClass",
+        "name": "H2受体拮抗剂",
+        "canonical_name": "H2受体拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_21",
+        "type": "DrugClass",
+        "name": "肾毒性药物",
+        "canonical_name": "肾毒性药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "双膦酸盐类药物包括第1代的依替膦酸二钠、替鲁膦酸二钠、氯膦酸二钠，第2代的帕米膦酸二钠、阿仑膦酸钠，第3代的利塞膦酸钠、伊班膦酸钠、唑来膦酸等",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "双膦酸盐类药物包括第1代的依替膦酸二钠、替鲁膦酸二钠、氯膦酸二钠，第2代的帕米膦酸二钠、阿仑膦酸钠，第3代的利塞膦酸钠、伊班膦酸钠、唑来膦酸等",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "双膦酸盐类药物包括第1代的依替膦酸二钠、替鲁膦酸二钠、氯膦酸二钠，第2代的帕米膦酸二钠、阿仑膦酸钠，第3代的利塞膦酸钠、伊班膦酸钠、唑来膦酸等",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "双膦酸盐类药物包括第1代的依替膦酸二钠、替鲁膦酸二钠、氯膦酸二钠，第2代的帕米膦酸二钠、阿仑膦酸钠，第3代的利塞膦酸钠、伊班膦酸钠、唑来膦酸等",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_6",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "双膦酸盐类药物包括第1代的依替膦酸二钠、替鲁膦酸二钠、氯膦酸二钠，第2代的帕米膦酸二钠、阿仑膦酸钠，第3代的利塞膦酸钠、伊班膦酸钠、唑来膦酸等",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "双膦酸盐类药物包括第1代的依替膦酸二钠、替鲁膦酸二钠、氯膦酸二钠，第2代的帕米膦酸二钠、阿仑膦酸钠，第3代的利塞膦酸钠、伊班膦酸钠、唑来膦酸等",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_8",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "双膦酸盐类药物包括第1代的依替膦酸二钠、替鲁膦酸二钠、氯膦酸二钠，第2代的帕米膦酸二钠、阿仑膦酸钠，第3代的利塞膦酸钠、伊班膦酸钠、唑来膦酸等",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_9",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "双膦酸盐类药物包括第1代的依替膦酸二钠、替鲁膦酸二钠、氯膦酸二钠，第2代的帕米膦酸二钠、阿仑膦酸钠，第3代的利塞膦酸钠、伊班膦酸钠、唑来膦酸等",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "双膦酸盐用于预防与治疗骨吸收相关疾病，包括骨质疏松症，变形性骨炎，恶性肿瘤骨转移引起的高钙血症和骨痛症等",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "双膦酸盐用于预防与治疗骨吸收相关疾病，包括骨质疏松症，变形性骨炎，恶性肿瘤骨转移引起的高钙血症和骨痛症等",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_12",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "双膦酸盐用于预防与治疗骨吸收相关疾病，包括骨质疏松症，变形性骨炎，恶性肿瘤骨转移引起的高钙血症和骨痛症等",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "双膦酸盐用于预防与治疗骨吸收相关疾病，包括骨质疏松症，变形性骨炎，恶性肿瘤骨转移引起的高钙血症和骨痛症等",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "与双膦酸盐发生相互作用的药物主要有：含二价阳离子的药物、其他双膦酸盐药物、华法林、苯妥英、非甾体抗炎药、抗癌药、激素、H2受体拮抗剂以及肾毒性药物",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "与双膦酸盐发生相互作用的药物主要有：含二价阳离子的药物、其他双膦酸盐药物、华法林、苯妥英、非甾体抗炎药、抗癌药、激素、H2受体拮抗剂以及肾毒性药物",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_16",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "与双膦酸盐发生相互作用的药物主要有：含二价阳离子的药物、其他双膦酸盐药物、华法林、苯妥英、非甾体抗炎药、抗癌药、激素、H2受体拮抗剂以及肾毒性药物",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_16",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "与双膦酸盐发生相互作用的药物主要有：含二价阳离子的药物、其他双膦酸盐药物、华法林、苯妥英、非甾体抗炎药、抗癌药、激素、H2受体拮抗剂以及肾毒性药物",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_17",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "与双膦酸盐发生相互作用的药物主要有：含二价阳离子的药物、其他双膦酸盐药物、华法林、苯妥英、非甾体抗炎药、抗癌药、激素、H2受体拮抗剂以及肾毒性药物",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_18",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "与双膦酸盐发生相互作用的药物主要有：含二价阳离子的药物、其他双膦酸盐药物、华法林、苯妥英、非甾体抗炎药、抗癌药、激素、H2受体拮抗剂以及肾毒性药物",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_19",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_20",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "与双膦酸盐发生相互作用的药物主要有：含二价阳离子的药物、其他双膦酸盐药物、华法林、苯妥英、非甾体抗炎药、抗癌药、激素、H2受体拮抗剂以及肾毒性药物",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      },
+      {
+        "id": "rel_20",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_21",
+        "properties": {
+          "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+          "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "raw_text": "与双膦酸盐发生相互作用的药物主要有：含二价阳离子的药物、其他双膦酸盐药物、华法林、苯妥英、非甾体抗炎药、抗癌药、激素、H2受体拮抗剂以及肾毒性药物",
+          "chunk_id": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+          "data": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explain"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪:1",
+    "source": "双膦酸盐类药物的药动学及药物相互作用研究进展_王嘉琪.pdf",
+    "text": "体拮抗剂以及肾毒性药物。从药动学角度解释双膦酸的药物相互作用，以避免不良反应发生。\nResearch progress on pharmacokinetics and drug interactions of bisphosphonates\nWANG Jiaqi1,2, LUO Yifan1 , JIANG Mingyan1 , CHU Yang1 Abstract: Bisphosphonates including the first generation of etidronate disodium, tiludronate disodium and clodronate disodium, the second generation of pamidronate and alendronate, the third generation of risedronate sodium, ibandronate and zoledronic acid, and etc, are used to prevent and treat bone resorption diseases. The oral bisphosphonates have short $t _ { \\operatorname* { m a x } } ,$ , low absorption rate and low bioavailability. The half-life and drug retention time of the bone-binding part is long. The drugs that interact with bisphosphonates are mainly: divalent cation-containing drugs, other bisphosphonate drugs, warfarin, phenytoin, non-steroidal anti-inflammatory drugs, anticancer drugs, hormones, H2 receptor antagonists and nephrotoxic drugs. The drug interactions of bisphosphonates can be explained from the perspective of pharmacokinetics to avoid adverse drug reactions.双膦酸盐用于预防与治疗骨吸收相关疾病，包括骨质疏松症，变形性骨炎，恶性肿瘤骨转移引起的高钙血症和骨痛症等［1］。双膦酸盐类药物包括第1代的依替膦酸二钠、替鲁膦酸二钠、氯膦酸二钠，第2代的帕米膦酸二钠、阿仑膦酸钠，第3代的利塞膦酸钠、伊班膦酸钠、唑来膦酸等。近年来双膦酸盐类药物已成为临床上应用最为广泛的治疗与预防骨吸收疾病的药物。"
+  }
+]

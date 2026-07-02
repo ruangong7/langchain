@@ -1,0 +1,99 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "免疫抑制药",
+        "canonical_name": "免疫抑制药",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "降糖药",
+        "canonical_name": "降糖药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "SideEffect",
+        "name": "低血糖",
+        "canonical_name": "低血糖",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "SideEffect",
+        "name": "排斥反应",
+        "canonical_name": "排斥反应",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "SideEffect",
+        "name": "胃肠道不良反应",
+        "canonical_name": "胃肠道不良反应",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:2",
+          "raw_text": "Is可能导致低血糖事件排斥反应胃肠道不良反应等风险增加。 因此，选择适合的降糖药时，其与免疫抑制药相关 DDIs不容忽视［6］。 本文就常用免疫抑制药与降糖药之间已明确和潜在的DDIs 作一综述，旨在为NODAT 患者临床合理用药提供帮助。",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:2",
+          "data": "Is可能导致低血糖事件排斥反应胃肠道不良反应等风险增加。 因此，选择适合的降糖药时，其与免疫抑制药相关 DDIs不容忽视［6］。 本文就常用免疫抑制药与降糖药之间已明确和潜在的DDIs 作一综述，旨在为NODAT 患者临床合理用药提供帮助。\n1 药物动力学相互作用概述"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:2",
+          "raw_text": "Is可能导致低血糖事件排斥反应胃肠道不良反应等风险增加。",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:2",
+          "data": "Is可能导致低血糖事件排斥反应胃肠道不良反应等风险增加。 因此，选择适合的降糖药时，其与免疫抑制药相关 DDIs不容忽视［6］。 本文就常用免疫抑制药与降糖药之间已明确和潜在的DDIs 作一综述，旨在为NODAT 患者临床合理用药提供帮助。\n1 药物动力学相互作用概述"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:2",
+          "raw_text": "Is可能导致低血糖事件排斥反应胃肠道不良反应等风险增加。",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:2",
+          "data": "Is可能导致低血糖事件排斥反应胃肠道不良反应等风险增加。 因此，选择适合的降糖药时，其与免疫抑制药相关 DDIs不容忽视［6］。 本文就常用免疫抑制药与降糖药之间已明确和潜在的DDIs 作一综述，旨在为NODAT 患者临床合理用药提供帮助。\n1 药物动力学相互作用概述"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+          "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:2",
+          "raw_text": "Is可能导致低血糖事件排斥反应胃肠道不良反应等风险增加。",
+          "chunk_id": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:2",
+          "data": "Is可能导致低血糖事件排斥反应胃肠道不良反应等风险增加。 因此，选择适合的降糖药时，其与免疫抑制药相关 DDIs不容忽视［6］。 本文就常用免疫抑制药与降糖药之间已明确和潜在的DDIs 作一综述，旨在为NODAT 患者临床合理用药提供帮助。\n1 药物动力学相互作用概述"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸:2",
+    "source": "免疫抑制药与降糖药的药物相互作用研究进展_王艺茸.pdf",
+    "text": "Is可能导致低血糖事件排斥反应胃肠道不良反应等风险增加。 因此，选择适合的降糖药时，其与免疫抑制药相关 DDIs不容忽视［6］。 本文就常用免疫抑制药与降糖药之间已明确和潜在的DDIs 作一综述，旨在为NODAT 患者临床合理用药提供帮助。\n1 药物动力学相互作用概述"
+  }
+]

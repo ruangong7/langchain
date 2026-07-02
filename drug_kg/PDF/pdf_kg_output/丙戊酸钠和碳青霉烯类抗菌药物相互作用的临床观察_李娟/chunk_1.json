@@ -1,0 +1,156 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "丙戊酸钠",
+        "canonical_name": "丙戊酸钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "碳青霉烯类抗菌药物",
+        "canonical_name": "碳青霉烯类抗菌药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "美罗培南",
+        "canonical_name": "美罗培南",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "亚胺培南",
+        "canonical_name": "亚胺培南",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "亚胺培南/西司他丁",
+        "canonical_name": "亚胺培南/西司他丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Indicator",
+        "name": "血清丙戊酸浓度",
+        "canonical_name": "血清丙戊酸浓度",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Disease",
+        "name": "癫痫",
+        "canonical_name": "癫痫",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟.pdf",
+          "chunk_index": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:1",
+          "raw_text": "血清丙戊酸浓度显著降低，临床上应避免二者联用",
+          "mechanism": "血清丙戊酸浓度显著降低",
+          "consequence": "血清丙戊酸浓度显著降低",
+          "suggestion": "临床上应避免二者联用",
+          "severity": "高",
+          "chunk_id": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:1",
+          "data": "血清丙戊酸浓度显著降低，临床上应避免二者联用; 丙戊酸钠与亚胺培南/西司他丁合用未出现血清丙戊酸浓度下降，需进一步收集资料评估。\nInteraction of Valproic Acid and Carbapenem Antibiotics\nLI Juan，JIANG Hui，WEI Jin-xia( The First Department of Geriatrics，Wuhan General Hospital of Guangzhou Military Command，PLA，Wuhan 430070，China)ABSTRACT Objective To discuss the drug interaction between valproic acid ( VPA) and carbapenem antibiotics ( CP) in epileptic patients． Methods The clinical data of seven symptomatic epileptic patients with severe pneumonia treated with VPA and CP were analyzed retrospectively． The serum concentration of VPA was monitored before，during and after the combined use of VPA and CP． Results In four cases with combined use of VPA and meropenem，VPA was decreased significantly， with the level ranging from 4 to $1 5 ~ { \\mu \\mathrm { g } } \\cdot \\mathrm { m L } ^ { - 1 }$ ，which was $4 0 - 7 0 ~ \\mu \\mathrm { g } \\cdot \\mathrm { \\ m L } ^ { - 1 }$ 1 lower than before the treatment． In one patient prescribed with VPA and meropenem at the "
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟.pdf",
+          "chunk_index": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:1",
+          "raw_text": "Concomitant administration of VPA and meropenem leads to a rapid decline in serum concentration of VPA. To avoid the recurrence of epileptic seizures, the concomitant administration of VPA and meropenem should be avoided in clinic.",
+          "mechanism": "导致血清丙戊酸浓度快速下降",
+          "consequence": "血清丙戊酸浓度快速下降，可能导致癫痫发作复发",
+          "suggestion": "应避免联用",
+          "severity": "高",
+          "chunk_id": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:1",
+          "data": "血清丙戊酸浓度显著降低，临床上应避免二者联用; 丙戊酸钠与亚胺培南/西司他丁合用未出现血清丙戊酸浓度下降，需进一步收集资料评估。\nInteraction of Valproic Acid and Carbapenem Antibiotics\nLI Juan，JIANG Hui，WEI Jin-xia( The First Department of Geriatrics，Wuhan General Hospital of Guangzhou Military Command，PLA，Wuhan 430070，China)ABSTRACT Objective To discuss the drug interaction between valproic acid ( VPA) and carbapenem antibiotics ( CP) in epileptic patients． Methods The clinical data of seven symptomatic epileptic patients with severe pneumonia treated with VPA and CP were analyzed retrospectively． The serum concentration of VPA was monitored before，during and after the combined use of VPA and CP． Results In four cases with combined use of VPA and meropenem，VPA was decreased significantly， with the level ranging from 4 to $1 5 ~ { \\mu \\mathrm { g } } \\cdot \\mathrm { m L } ^ { - 1 }$ ，which was $4 0 - 7 0 ~ \\mu \\mathrm { g } \\cdot \\mathrm { \\ m L } ^ { - 1 }$ 1 lower than before the treatment． In one patient prescribed with VPA and meropenem at the "
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟.pdf",
+          "chunk_index": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:1",
+          "raw_text": "In two cases with concomitant use of VPA and imipenem, the serum level of VPA did not decrease.",
+          "mechanism": "未出现血清丙戊酸浓度下降",
+          "consequence": "血清丙戊酸浓度未下降",
+          "suggestion": "需进一步收集资料评估",
+          "severity": "低",
+          "chunk_id": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:1",
+          "data": "血清丙戊酸浓度显著降低，临床上应避免二者联用; 丙戊酸钠与亚胺培南/西司他丁合用未出现血清丙戊酸浓度下降，需进一步收集资料评估。\nInteraction of Valproic Acid and Carbapenem Antibiotics\nLI Juan，JIANG Hui，WEI Jin-xia( The First Department of Geriatrics，Wuhan General Hospital of Guangzhou Military Command，PLA，Wuhan 430070，China)ABSTRACT Objective To discuss the drug interaction between valproic acid ( VPA) and carbapenem antibiotics ( CP) in epileptic patients． Methods The clinical data of seven symptomatic epileptic patients with severe pneumonia treated with VPA and CP were analyzed retrospectively． The serum concentration of VPA was monitored before，during and after the combined use of VPA and CP． Results In four cases with combined use of VPA and meropenem，VPA was decreased significantly， with the level ranging from 4 to $1 5 ~ { \\mu \\mathrm { g } } \\cdot \\mathrm { m L } ^ { - 1 }$ ，which was $4 0 - 7 0 ~ \\mu \\mathrm { g } \\cdot \\mathrm { \\ m L } ^ { - 1 }$ 1 lower than before the treatment． In one patient prescribed with VPA and meropenem at the "
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟.pdf",
+          "chunk_index": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:1",
+          "raw_text": "丙戊酸钠与亚胺培南/西司他丁合用未出现血清丙戊酸浓度下降，需进一步收集资料评估。",
+          "mechanism": "未出现血清丙戊酸浓度下降",
+          "consequence": "血清丙戊酸浓度未下降",
+          "suggestion": "需进一步收集资料评估",
+          "severity": "低",
+          "chunk_id": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:1",
+          "data": "血清丙戊酸浓度显著降低，临床上应避免二者联用; 丙戊酸钠与亚胺培南/西司他丁合用未出现血清丙戊酸浓度下降，需进一步收集资料评估。\nInteraction of Valproic Acid and Carbapenem Antibiotics\nLI Juan，JIANG Hui，WEI Jin-xia( The First Department of Geriatrics，Wuhan General Hospital of Guangzhou Military Command，PLA，Wuhan 430070，China)ABSTRACT Objective To discuss the drug interaction between valproic acid ( VPA) and carbapenem antibiotics ( CP) in epileptic patients． Methods The clinical data of seven symptomatic epileptic patients with severe pneumonia treated with VPA and CP were analyzed retrospectively． The serum concentration of VPA was monitored before，during and after the combined use of VPA and CP． Results In four cases with combined use of VPA and meropenem，VPA was decreased significantly， with the level ranging from 4 to $1 5 ~ { \\mu \\mathrm { g } } \\cdot \\mathrm { m L } ^ { - 1 }$ ，which was $4 0 - 7 0 ~ \\mu \\mathrm { g } \\cdot \\mathrm { \\ m L } ^ { - 1 }$ 1 lower than before the treatment． In one patient prescribed with VPA and meropenem at the "
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟.pdf",
+          "chunk_index": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:1",
+          "raw_text": "血清丙戊酸浓度显著降低",
+          "effect": "降低",
+          "chunk_id": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:1",
+          "data": "血清丙戊酸浓度显著降低，临床上应避免二者联用; 丙戊酸钠与亚胺培南/西司他丁合用未出现血清丙戊酸浓度下降，需进一步收集资料评估。\nInteraction of Valproic Acid and Carbapenem Antibiotics\nLI Juan，JIANG Hui，WEI Jin-xia( The First Department of Geriatrics，Wuhan General Hospital of Guangzhou Military Command，PLA，Wuhan 430070，China)ABSTRACT Objective To discuss the drug interaction between valproic acid ( VPA) and carbapenem antibiotics ( CP) in epileptic patients． Methods The clinical data of seven symptomatic epileptic patients with severe pneumonia treated with VPA and CP were analyzed retrospectively． The serum concentration of VPA was monitored before，during and after the combined use of VPA and CP． Results In four cases with combined use of VPA and meropenem，VPA was decreased significantly， with the level ranging from 4 to $1 5 ~ { \\mu \\mathrm { g } } \\cdot \\mathrm { m L } ^ { - 1 }$ ，which was $4 0 - 7 0 ~ \\mu \\mathrm { g } \\cdot \\mathrm { \\ m L } ^ { - 1 }$ 1 lower than before the treatment． In one patient prescribed with VPA and meropenem at the "
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟.pdf",
+          "chunk_index": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:1",
+          "raw_text": "癫患者合用丙戊酸钠",
+          "chunk_id": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:1",
+          "data": "血清丙戊酸浓度显著降低，临床上应避免二者联用; 丙戊酸钠与亚胺培南/西司他丁合用未出现血清丙戊酸浓度下降，需进一步收集资料评估。\nInteraction of Valproic Acid and Carbapenem Antibiotics\nLI Juan，JIANG Hui，WEI Jin-xia( The First Department of Geriatrics，Wuhan General Hospital of Guangzhou Military Command，PLA，Wuhan 430070，China)ABSTRACT Objective To discuss the drug interaction between valproic acid ( VPA) and carbapenem antibiotics ( CP) in epileptic patients． Methods The clinical data of seven symptomatic epileptic patients with severe pneumonia treated with VPA and CP were analyzed retrospectively． The serum concentration of VPA was monitored before，during and after the combined use of VPA and CP． Results In four cases with combined use of VPA and meropenem，VPA was decreased significantly， with the level ranging from 4 to $1 5 ~ { \\mu \\mathrm { g } } \\cdot \\mathrm { m L } ^ { - 1 }$ ，which was $4 0 - 7 0 ~ \\mu \\mathrm { g } \\cdot \\mathrm { \\ m L } ^ { - 1 }$ 1 lower than before the treatment． In one patient prescribed with VPA and meropenem at the "
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟:1",
+    "source": "丙戊酸钠和碳青霉烯类抗菌药物相互作用的临床观察_李娟.pdf",
+    "text": "血清丙戊酸浓度显著降低，临床上应避免二者联用; 丙戊酸钠与亚胺培南/西司他丁合用未出现血清丙戊酸浓度下降，需进一步收集资料评估。\nInteraction of Valproic Acid and Carbapenem Antibiotics\nLI Juan，JIANG Hui，WEI Jin-xia( The First Department of Geriatrics，Wuhan General Hospital of Guangzhou Military Command，PLA，Wuhan 430070，China)ABSTRACT Objective To discuss the drug interaction between valproic acid ( VPA) and carbapenem antibiotics ( CP) in epileptic patients． Methods The clinical data of seven symptomatic epileptic patients with severe pneumonia treated with VPA and CP were analyzed retrospectively． The serum concentration of VPA was monitored before，during and after the combined use of VPA and CP． Results In four cases with combined use of VPA and meropenem，VPA was decreased significantly， with the level ranging from 4 to $1 5 ~ { \\mu \\mathrm { g } } \\cdot \\mathrm { m L } ^ { - 1 }$ ，which was $4 0 - 7 0 ~ \\mu \\mathrm { g } \\cdot \\mathrm { \\ m L } ^ { - 1 }$ 1 lower than before the treatment． In one patient prescribed with VPA and meropenem at the same time，the serum concentration of VPA could not reach the therapeutic window． In two cases with concomitant use of VPA and imipenem，the serum level of VPA did not decrease． Conclusion Concomitant administration of VPA and meropenem leads to a rapid decline in serum concentration of VPA． To avoid the recurrence of epileptic seizures，the concomitant administration of VPA and meropenem should be avoided in clinic． There is no decrease of serum concentration of VPA in the concomitant administration of VPA and imipenem，but more data are needed to demonstrate it．近年来越来越多的文献报道，癫患者合用丙戊酸钠和碳青霉烯类抗菌药物时出现丙戊酸( valproicacid，VPA) 血浓度急剧下降、 甚至癫发作的情况。笔者收集我科近年来症状性癫患者合用丙戊酸钠和碳青霉烯类抗菌药物的临床资料，评价二者合用的临床意义 。"
+  }
+]

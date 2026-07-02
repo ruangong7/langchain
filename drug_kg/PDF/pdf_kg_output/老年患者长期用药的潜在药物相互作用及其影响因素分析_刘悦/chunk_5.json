@@ -1,0 +1,349 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "保钾药物",
+        "canonical_name": "保钾药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "血管紧张素转化酶抑制剂",
+        "canonical_name": "血管紧张素转化酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "DrugClass",
+        "name": "血管紧张素Ⅱ受体拮抗剂",
+        "canonical_name": "血管紧张素Ⅱ受体拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "非甾体抗炎药",
+        "canonical_name": "非甾体抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "阿普唑仑",
+        "canonical_name": "阿普唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "地西泮",
+        "canonical_name": "地西泮",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "三唑仑",
+        "canonical_name": "三唑仑",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "唑吡坦",
+        "canonical_name": "唑吡坦",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "Drug",
+        "name": "佐匹克隆",
+        "canonical_name": "佐匹克隆",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "DrugClass",
+        "name": "CYP3A4抑制剂",
+        "canonical_name": "CYP3A4抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "阿司匹林",
+        "canonical_name": "阿司匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Drug",
+        "name": "塞来昔布",
+        "canonical_name": "塞来昔布",
+        "properties": {}
+      },
+      {
+        "id": "ent_14",
+        "type": "Drug",
+        "name": "布洛芬",
+        "canonical_name": "布洛芬",
+        "properties": {}
+      },
+      {
+        "id": "ent_15",
+        "type": "Drug",
+        "name": "双氯酚酸钠",
+        "canonical_name": "双氯酚酸钠",
+        "properties": {}
+      },
+      {
+        "id": "ent_17",
+        "type": "SideEffect",
+        "name": "出血",
+        "canonical_name": "出血",
+        "properties": {}
+      },
+      {
+        "id": "ent_18",
+        "type": "SideEffect",
+        "name": "高血钾",
+        "canonical_name": "高血钾",
+        "properties": {}
+      },
+      {
+        "id": "ent_19",
+        "type": "SideEffect",
+        "name": "胃肠道毒性",
+        "canonical_name": "胃肠道毒性",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+          "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "raw_text": "血管经张素转化酶抑制剂(ACEI)或血管紧张素Ⅱ受体拮抗剂(ARB)与口服非甾体抗炎药(NSAIDs)合用 (22.2%)",
+          "mechanism": "ACEI/ARB与NSAIDs合用",
+          "consequence": "可能增加肾损伤或降压效果减弱",
+          "severity": "中",
+          "chunk_id": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "data": "床意义 DDIs 的患者 202 例(29.6%)，其中多药 178 例。患者潜在 DDIs 发生与患者性别、年龄、收入、使用药品数量、CCI、衰弱、PIM、神经系统疾病、心脑血管疾病、糖尿病\n资料与方法\n相关 (P＜0.05)。见表 1。\n2 DDIs 类型在 683 例中共筛查出具有潜在临床意义的 DDIs 25 类，共发生 405 例次。发生次数最多的潜在 DDIs 分别为≥2 种以上保钾药物同时使用 (25.9%)、血管经张素转化酶抑制剂(angiotensin-converting enzyme inhibitors， ACEI) 或血管紧张素Ⅱ受体拮抗剂 (angiotensin Ⅱ receptorblockers， ARB) 与口服非甾体抗炎药 (nonsteroidalanti-inflammatory drugs， NSAIDs) 合用 (22.2%)、阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶 CYP3A4 抑制剂合用 (18.8%)。在 25 类 DDIs中，最常见的药物相互作用风险为出血 (涉及 5种)、高血钾 (涉及 4 种) 和胃肠道毒性 (涉及 3 种)。见表 2。\n3 参与潜在 DDIs 药物种类涉及潜在 DDIs 最多的三类药物分别是钙离子通道阻滞剂、ARB、NSAIDs。 共有 237 例患者使用了 NSAIDs 类药物，其中 91 例发生了与 NSAIDs 相关的潜在临床意义的 DDIs，91 例使用了阿司匹林，其中 4 例分别合用了其他 NSAIDs 类药物 (塞来昔布、布洛芬、双氯酚酸钠)。有 65.52% 使用 ACEI 类药物的患者发生了 ACEI 相关的 DDIs，52.27% 的使用利尿剂的患者发生了利尿剂相关的 DDIs。见表 3。"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_3",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+          "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "raw_text": "血管经张素转化酶抑制剂(ACEI)或血管紧张素Ⅱ受体拮抗剂(ARB)与口服非甾体抗炎药(NSAIDs)合用 (22.2%)",
+          "mechanism": "ARB与NSAIDs合用",
+          "consequence": "可能增加肾损伤或降压效果减弱",
+          "severity": "中",
+          "chunk_id": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "data": "床意义 DDIs 的患者 202 例(29.6%)，其中多药 178 例。患者潜在 DDIs 发生与患者性别、年龄、收入、使用药品数量、CCI、衰弱、PIM、神经系统疾病、心脑血管疾病、糖尿病\n资料与方法\n相关 (P＜0.05)。见表 1。\n2 DDIs 类型在 683 例中共筛查出具有潜在临床意义的 DDIs 25 类，共发生 405 例次。发生次数最多的潜在 DDIs 分别为≥2 种以上保钾药物同时使用 (25.9%)、血管经张素转化酶抑制剂(angiotensin-converting enzyme inhibitors， ACEI) 或血管紧张素Ⅱ受体拮抗剂 (angiotensin Ⅱ receptorblockers， ARB) 与口服非甾体抗炎药 (nonsteroidalanti-inflammatory drugs， NSAIDs) 合用 (22.2%)、阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶 CYP3A4 抑制剂合用 (18.8%)。在 25 类 DDIs中，最常见的药物相互作用风险为出血 (涉及 5种)、高血钾 (涉及 4 种) 和胃肠道毒性 (涉及 3 种)。见表 2。\n3 参与潜在 DDIs 药物种类涉及潜在 DDIs 最多的三类药物分别是钙离子通道阻滞剂、ARB、NSAIDs。 共有 237 例患者使用了 NSAIDs 类药物，其中 91 例发生了与 NSAIDs 相关的潜在临床意义的 DDIs，91 例使用了阿司匹林，其中 4 例分别合用了其他 NSAIDs 类药物 (塞来昔布、布洛芬、双氯酚酸钠)。有 65.52% 使用 ACEI 类药物的患者发生了 ACEI 相关的 DDIs，52.27% 的使用利尿剂的患者发生了利尿剂相关的 DDIs。见表 3。"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_5",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+          "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "raw_text": "阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶CYP3A4抑制剂合用 (18.8%)",
+          "mechanism": "CYP3A4抑制剂减慢这些药物代谢",
+          "consequence": "增加镇静作用和不良反应风险",
+          "severity": "高",
+          "chunk_id": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "data": "床意义 DDIs 的患者 202 例(29.6%)，其中多药 178 例。患者潜在 DDIs 发生与患者性别、年龄、收入、使用药品数量、CCI、衰弱、PIM、神经系统疾病、心脑血管疾病、糖尿病\n资料与方法\n相关 (P＜0.05)。见表 1。\n2 DDIs 类型在 683 例中共筛查出具有潜在临床意义的 DDIs 25 类，共发生 405 例次。发生次数最多的潜在 DDIs 分别为≥2 种以上保钾药物同时使用 (25.9%)、血管经张素转化酶抑制剂(angiotensin-converting enzyme inhibitors， ACEI) 或血管紧张素Ⅱ受体拮抗剂 (angiotensin Ⅱ receptorblockers， ARB) 与口服非甾体抗炎药 (nonsteroidalanti-inflammatory drugs， NSAIDs) 合用 (22.2%)、阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶 CYP3A4 抑制剂合用 (18.8%)。在 25 类 DDIs中，最常见的药物相互作用风险为出血 (涉及 5种)、高血钾 (涉及 4 种) 和胃肠道毒性 (涉及 3 种)。见表 2。\n3 参与潜在 DDIs 药物种类涉及潜在 DDIs 最多的三类药物分别是钙离子通道阻滞剂、ARB、NSAIDs。 共有 237 例患者使用了 NSAIDs 类药物，其中 91 例发生了与 NSAIDs 相关的潜在临床意义的 DDIs，91 例使用了阿司匹林，其中 4 例分别合用了其他 NSAIDs 类药物 (塞来昔布、布洛芬、双氯酚酸钠)。有 65.52% 使用 ACEI 类药物的患者发生了 ACEI 相关的 DDIs，52.27% 的使用利尿剂的患者发生了利尿剂相关的 DDIs。见表 3。"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_6",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+          "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "raw_text": "阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶CYP3A4抑制剂合用 (18.8%)",
+          "mechanism": "CYP3A4抑制剂减慢这些药物代谢",
+          "consequence": "增加镇静作用和不良反应风险",
+          "severity": "高",
+          "chunk_id": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "data": "床意义 DDIs 的患者 202 例(29.6%)，其中多药 178 例。患者潜在 DDIs 发生与患者性别、年龄、收入、使用药品数量、CCI、衰弱、PIM、神经系统疾病、心脑血管疾病、糖尿病\n资料与方法\n相关 (P＜0.05)。见表 1。\n2 DDIs 类型在 683 例中共筛查出具有潜在临床意义的 DDIs 25 类，共发生 405 例次。发生次数最多的潜在 DDIs 分别为≥2 种以上保钾药物同时使用 (25.9%)、血管经张素转化酶抑制剂(angiotensin-converting enzyme inhibitors， ACEI) 或血管紧张素Ⅱ受体拮抗剂 (angiotensin Ⅱ receptorblockers， ARB) 与口服非甾体抗炎药 (nonsteroidalanti-inflammatory drugs， NSAIDs) 合用 (22.2%)、阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶 CYP3A4 抑制剂合用 (18.8%)。在 25 类 DDIs中，最常见的药物相互作用风险为出血 (涉及 5种)、高血钾 (涉及 4 种) 和胃肠道毒性 (涉及 3 种)。见表 2。\n3 参与潜在 DDIs 药物种类涉及潜在 DDIs 最多的三类药物分别是钙离子通道阻滞剂、ARB、NSAIDs。 共有 237 例患者使用了 NSAIDs 类药物，其中 91 例发生了与 NSAIDs 相关的潜在临床意义的 DDIs，91 例使用了阿司匹林，其中 4 例分别合用了其他 NSAIDs 类药物 (塞来昔布、布洛芬、双氯酚酸钠)。有 65.52% 使用 ACEI 类药物的患者发生了 ACEI 相关的 DDIs，52.27% 的使用利尿剂的患者发生了利尿剂相关的 DDIs。见表 3。"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_7",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+          "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "raw_text": "阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶CYP3A4抑制剂合用 (18.8%)",
+          "mechanism": "CYP3A4抑制剂减慢这些药物代谢",
+          "consequence": "增加镇静作用和不良反应风险",
+          "severity": "高",
+          "chunk_id": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "data": "床意义 DDIs 的患者 202 例(29.6%)，其中多药 178 例。患者潜在 DDIs 发生与患者性别、年龄、收入、使用药品数量、CCI、衰弱、PIM、神经系统疾病、心脑血管疾病、糖尿病\n资料与方法\n相关 (P＜0.05)。见表 1。\n2 DDIs 类型在 683 例中共筛查出具有潜在临床意义的 DDIs 25 类，共发生 405 例次。发生次数最多的潜在 DDIs 分别为≥2 种以上保钾药物同时使用 (25.9%)、血管经张素转化酶抑制剂(angiotensin-converting enzyme inhibitors， ACEI) 或血管紧张素Ⅱ受体拮抗剂 (angiotensin Ⅱ receptorblockers， ARB) 与口服非甾体抗炎药 (nonsteroidalanti-inflammatory drugs， NSAIDs) 合用 (22.2%)、阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶 CYP3A4 抑制剂合用 (18.8%)。在 25 类 DDIs中，最常见的药物相互作用风险为出血 (涉及 5种)、高血钾 (涉及 4 种) 和胃肠道毒性 (涉及 3 种)。见表 2。\n3 参与潜在 DDIs 药物种类涉及潜在 DDIs 最多的三类药物分别是钙离子通道阻滞剂、ARB、NSAIDs。 共有 237 例患者使用了 NSAIDs 类药物，其中 91 例发生了与 NSAIDs 相关的潜在临床意义的 DDIs，91 例使用了阿司匹林，其中 4 例分别合用了其他 NSAIDs 类药物 (塞来昔布、布洛芬、双氯酚酸钠)。有 65.52% 使用 ACEI 类药物的患者发生了 ACEI 相关的 DDIs，52.27% 的使用利尿剂的患者发生了利尿剂相关的 DDIs。见表 3。"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_8",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+          "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "raw_text": "阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶CYP3A4抑制剂合用 (18.8%)",
+          "mechanism": "CYP3A4抑制剂减慢这些药物代谢",
+          "consequence": "增加镇静作用和不良反应风险",
+          "severity": "高",
+          "chunk_id": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "data": "床意义 DDIs 的患者 202 例(29.6%)，其中多药 178 例。患者潜在 DDIs 发生与患者性别、年龄、收入、使用药品数量、CCI、衰弱、PIM、神经系统疾病、心脑血管疾病、糖尿病\n资料与方法\n相关 (P＜0.05)。见表 1。\n2 DDIs 类型在 683 例中共筛查出具有潜在临床意义的 DDIs 25 类，共发生 405 例次。发生次数最多的潜在 DDIs 分别为≥2 种以上保钾药物同时使用 (25.9%)、血管经张素转化酶抑制剂(angiotensin-converting enzyme inhibitors， ACEI) 或血管紧张素Ⅱ受体拮抗剂 (angiotensin Ⅱ receptorblockers， ARB) 与口服非甾体抗炎药 (nonsteroidalanti-inflammatory drugs， NSAIDs) 合用 (22.2%)、阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶 CYP3A4 抑制剂合用 (18.8%)。在 25 类 DDIs中，最常见的药物相互作用风险为出血 (涉及 5种)、高血钾 (涉及 4 种) 和胃肠道毒性 (涉及 3 种)。见表 2。\n3 参与潜在 DDIs 药物种类涉及潜在 DDIs 最多的三类药物分别是钙离子通道阻滞剂、ARB、NSAIDs。 共有 237 例患者使用了 NSAIDs 类药物，其中 91 例发生了与 NSAIDs 相关的潜在临床意义的 DDIs，91 例使用了阿司匹林，其中 4 例分别合用了其他 NSAIDs 类药物 (塞来昔布、布洛芬、双氯酚酸钠)。有 65.52% 使用 ACEI 类药物的患者发生了 ACEI 相关的 DDIs，52.27% 的使用利尿剂的患者发生了利尿剂相关的 DDIs。见表 3。"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_9",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+          "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "raw_text": "阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶CYP3A4抑制剂合用 (18.8%)",
+          "mechanism": "CYP3A4抑制剂减慢这些药物代谢",
+          "consequence": "增加镇静作用和不良反应风险",
+          "severity": "高",
+          "chunk_id": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "data": "床意义 DDIs 的患者 202 例(29.6%)，其中多药 178 例。患者潜在 DDIs 发生与患者性别、年龄、收入、使用药品数量、CCI、衰弱、PIM、神经系统疾病、心脑血管疾病、糖尿病\n资料与方法\n相关 (P＜0.05)。见表 1。\n2 DDIs 类型在 683 例中共筛查出具有潜在临床意义的 DDIs 25 类，共发生 405 例次。发生次数最多的潜在 DDIs 分别为≥2 种以上保钾药物同时使用 (25.9%)、血管经张素转化酶抑制剂(angiotensin-converting enzyme inhibitors， ACEI) 或血管紧张素Ⅱ受体拮抗剂 (angiotensin Ⅱ receptorblockers， ARB) 与口服非甾体抗炎药 (nonsteroidalanti-inflammatory drugs， NSAIDs) 合用 (22.2%)、阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶 CYP3A4 抑制剂合用 (18.8%)。在 25 类 DDIs中，最常见的药物相互作用风险为出血 (涉及 5种)、高血钾 (涉及 4 种) 和胃肠道毒性 (涉及 3 种)。见表 2。\n3 参与潜在 DDIs 药物种类涉及潜在 DDIs 最多的三类药物分别是钙离子通道阻滞剂、ARB、NSAIDs。 共有 237 例患者使用了 NSAIDs 类药物，其中 91 例发生了与 NSAIDs 相关的潜在临床意义的 DDIs，91 例使用了阿司匹林，其中 4 例分别合用了其他 NSAIDs 类药物 (塞来昔布、布洛芬、双氯酚酸钠)。有 65.52% 使用 ACEI 类药物的患者发生了 ACEI 相关的 DDIs，52.27% 的使用利尿剂的患者发生了利尿剂相关的 DDIs。见表 3。"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+          "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "raw_text": "91例使用了阿司匹林，其中4例分别合用了其他NSAIDs类药物(塞来昔布、布洛芬、双氯酚酸钠)",
+          "mechanism": "阿司匹林与其他NSAIDs合用",
+          "consequence": "增加出血风险",
+          "severity": "高",
+          "chunk_id": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "data": "床意义 DDIs 的患者 202 例(29.6%)，其中多药 178 例。患者潜在 DDIs 发生与患者性别、年龄、收入、使用药品数量、CCI、衰弱、PIM、神经系统疾病、心脑血管疾病、糖尿病\n资料与方法\n相关 (P＜0.05)。见表 1。\n2 DDIs 类型在 683 例中共筛查出具有潜在临床意义的 DDIs 25 类，共发生 405 例次。发生次数最多的潜在 DDIs 分别为≥2 种以上保钾药物同时使用 (25.9%)、血管经张素转化酶抑制剂(angiotensin-converting enzyme inhibitors， ACEI) 或血管紧张素Ⅱ受体拮抗剂 (angiotensin Ⅱ receptorblockers， ARB) 与口服非甾体抗炎药 (nonsteroidalanti-inflammatory drugs， NSAIDs) 合用 (22.2%)、阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶 CYP3A4 抑制剂合用 (18.8%)。在 25 类 DDIs中，最常见的药物相互作用风险为出血 (涉及 5种)、高血钾 (涉及 4 种) 和胃肠道毒性 (涉及 3 种)。见表 2。\n3 参与潜在 DDIs 药物种类涉及潜在 DDIs 最多的三类药物分别是钙离子通道阻滞剂、ARB、NSAIDs。 共有 237 例患者使用了 NSAIDs 类药物，其中 91 例发生了与 NSAIDs 相关的潜在临床意义的 DDIs，91 例使用了阿司匹林，其中 4 例分别合用了其他 NSAIDs 类药物 (塞来昔布、布洛芬、双氯酚酸钠)。有 65.52% 使用 ACEI 类药物的患者发生了 ACEI 相关的 DDIs，52.27% 的使用利尿剂的患者发生了利尿剂相关的 DDIs。见表 3。"
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+          "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "raw_text": "91例使用了阿司匹林，其中4例分别合用了其他NSAIDs类药物(塞来昔布、布洛芬、双氯酚酸钠)",
+          "mechanism": "阿司匹林与塞来昔布合用",
+          "consequence": "增加出血风险",
+          "severity": "高",
+          "chunk_id": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "data": "床意义 DDIs 的患者 202 例(29.6%)，其中多药 178 例。患者潜在 DDIs 发生与患者性别、年龄、收入、使用药品数量、CCI、衰弱、PIM、神经系统疾病、心脑血管疾病、糖尿病\n资料与方法\n相关 (P＜0.05)。见表 1。\n2 DDIs 类型在 683 例中共筛查出具有潜在临床意义的 DDIs 25 类，共发生 405 例次。发生次数最多的潜在 DDIs 分别为≥2 种以上保钾药物同时使用 (25.9%)、血管经张素转化酶抑制剂(angiotensin-converting enzyme inhibitors， ACEI) 或血管紧张素Ⅱ受体拮抗剂 (angiotensin Ⅱ receptorblockers， ARB) 与口服非甾体抗炎药 (nonsteroidalanti-inflammatory drugs， NSAIDs) 合用 (22.2%)、阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶 CYP3A4 抑制剂合用 (18.8%)。在 25 类 DDIs中，最常见的药物相互作用风险为出血 (涉及 5种)、高血钾 (涉及 4 种) 和胃肠道毒性 (涉及 3 种)。见表 2。\n3 参与潜在 DDIs 药物种类涉及潜在 DDIs 最多的三类药物分别是钙离子通道阻滞剂、ARB、NSAIDs。 共有 237 例患者使用了 NSAIDs 类药物，其中 91 例发生了与 NSAIDs 相关的潜在临床意义的 DDIs，91 例使用了阿司匹林，其中 4 例分别合用了其他 NSAIDs 类药物 (塞来昔布、布洛芬、双氯酚酸钠)。有 65.52% 使用 ACEI 类药物的患者发生了 ACEI 相关的 DDIs，52.27% 的使用利尿剂的患者发生了利尿剂相关的 DDIs。见表 3。"
+        }
+      },
+      {
+        "id": "rel_11",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_14",
+        "properties": {
+          "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+          "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "raw_text": "91例使用了阿司匹林，其中4例分别合用了其他NSAIDs类药物(塞来昔布、布洛芬、双氯酚酸钠)",
+          "mechanism": "阿司匹林与布洛芬合用",
+          "consequence": "增加出血风险",
+          "severity": "高",
+          "chunk_id": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "data": "床意义 DDIs 的患者 202 例(29.6%)，其中多药 178 例。患者潜在 DDIs 发生与患者性别、年龄、收入、使用药品数量、CCI、衰弱、PIM、神经系统疾病、心脑血管疾病、糖尿病\n资料与方法\n相关 (P＜0.05)。见表 1。\n2 DDIs 类型在 683 例中共筛查出具有潜在临床意义的 DDIs 25 类，共发生 405 例次。发生次数最多的潜在 DDIs 分别为≥2 种以上保钾药物同时使用 (25.9%)、血管经张素转化酶抑制剂(angiotensin-converting enzyme inhibitors， ACEI) 或血管紧张素Ⅱ受体拮抗剂 (angiotensin Ⅱ receptorblockers， ARB) 与口服非甾体抗炎药 (nonsteroidalanti-inflammatory drugs， NSAIDs) 合用 (22.2%)、阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶 CYP3A4 抑制剂合用 (18.8%)。在 25 类 DDIs中，最常见的药物相互作用风险为出血 (涉及 5种)、高血钾 (涉及 4 种) 和胃肠道毒性 (涉及 3 种)。见表 2。\n3 参与潜在 DDIs 药物种类涉及潜在 DDIs 最多的三类药物分别是钙离子通道阻滞剂、ARB、NSAIDs。 共有 237 例患者使用了 NSAIDs 类药物，其中 91 例发生了与 NSAIDs 相关的潜在临床意义的 DDIs，91 例使用了阿司匹林，其中 4 例分别合用了其他 NSAIDs 类药物 (塞来昔布、布洛芬、双氯酚酸钠)。有 65.52% 使用 ACEI 类药物的患者发生了 ACEI 相关的 DDIs，52.27% 的使用利尿剂的患者发生了利尿剂相关的 DDIs。见表 3。"
+        }
+      },
+      {
+        "id": "rel_12",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_12",
+        "target_id": "ent_15",
+        "properties": {
+          "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+          "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "raw_text": "91例使用了阿司匹林，其中4例分别合用了其他NSAIDs类药物(塞来昔布、布洛芬、双氯酚酸钠)",
+          "mechanism": "阿司匹林与双氯酚酸钠合用",
+          "consequence": "增加出血风险",
+          "severity": "高",
+          "chunk_id": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "data": "床意义 DDIs 的患者 202 例(29.6%)，其中多药 178 例。患者潜在 DDIs 发生与患者性别、年龄、收入、使用药品数量、CCI、衰弱、PIM、神经系统疾病、心脑血管疾病、糖尿病\n资料与方法\n相关 (P＜0.05)。见表 1。\n2 DDIs 类型在 683 例中共筛查出具有潜在临床意义的 DDIs 25 类，共发生 405 例次。发生次数最多的潜在 DDIs 分别为≥2 种以上保钾药物同时使用 (25.9%)、血管经张素转化酶抑制剂(angiotensin-converting enzyme inhibitors， ACEI) 或血管紧张素Ⅱ受体拮抗剂 (angiotensin Ⅱ receptorblockers， ARB) 与口服非甾体抗炎药 (nonsteroidalanti-inflammatory drugs， NSAIDs) 合用 (22.2%)、阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶 CYP3A4 抑制剂合用 (18.8%)。在 25 类 DDIs中，最常见的药物相互作用风险为出血 (涉及 5种)、高血钾 (涉及 4 种) 和胃肠道毒性 (涉及 3 种)。见表 2。\n3 参与潜在 DDIs 药物种类涉及潜在 DDIs 最多的三类药物分别是钙离子通道阻滞剂、ARB、NSAIDs。 共有 237 例患者使用了 NSAIDs 类药物，其中 91 例发生了与 NSAIDs 相关的潜在临床意义的 DDIs，91 例使用了阿司匹林，其中 4 例分别合用了其他 NSAIDs 类药物 (塞来昔布、布洛芬、双氯酚酸钠)。有 65.52% 使用 ACEI 类药物的患者发生了 ACEI 相关的 DDIs，52.27% 的使用利尿剂的患者发生了利尿剂相关的 DDIs。见表 3。"
+        }
+      },
+      {
+        "id": "rel_13",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_18",
+        "properties": {
+          "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+          "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "raw_text": "最常见的药物相互作用风险为出血(涉及5种)、高血钾(涉及4种)和胃肠道毒性(涉及3种)",
+          "consequence": "高血钾",
+          "chunk_id": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "data": "床意义 DDIs 的患者 202 例(29.6%)，其中多药 178 例。患者潜在 DDIs 发生与患者性别、年龄、收入、使用药品数量、CCI、衰弱、PIM、神经系统疾病、心脑血管疾病、糖尿病\n资料与方法\n相关 (P＜0.05)。见表 1。\n2 DDIs 类型在 683 例中共筛查出具有潜在临床意义的 DDIs 25 类，共发生 405 例次。发生次数最多的潜在 DDIs 分别为≥2 种以上保钾药物同时使用 (25.9%)、血管经张素转化酶抑制剂(angiotensin-converting enzyme inhibitors， ACEI) 或血管紧张素Ⅱ受体拮抗剂 (angiotensin Ⅱ receptorblockers， ARB) 与口服非甾体抗炎药 (nonsteroidalanti-inflammatory drugs， NSAIDs) 合用 (22.2%)、阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶 CYP3A4 抑制剂合用 (18.8%)。在 25 类 DDIs中，最常见的药物相互作用风险为出血 (涉及 5种)、高血钾 (涉及 4 种) 和胃肠道毒性 (涉及 3 种)。见表 2。\n3 参与潜在 DDIs 药物种类涉及潜在 DDIs 最多的三类药物分别是钙离子通道阻滞剂、ARB、NSAIDs。 共有 237 例患者使用了 NSAIDs 类药物，其中 91 例发生了与 NSAIDs 相关的潜在临床意义的 DDIs，91 例使用了阿司匹林，其中 4 例分别合用了其他 NSAIDs 类药物 (塞来昔布、布洛芬、双氯酚酸钠)。有 65.52% 使用 ACEI 类药物的患者发生了 ACEI 相关的 DDIs，52.27% 的使用利尿剂的患者发生了利尿剂相关的 DDIs。见表 3。"
+        }
+      },
+      {
+        "id": "rel_14",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_17",
+        "properties": {
+          "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+          "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "raw_text": "最常见的药物相互作用风险为出血(涉及5种)、高血钾(涉及4种)和胃肠道毒性(涉及3种)",
+          "consequence": "出血",
+          "chunk_id": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "data": "床意义 DDIs 的患者 202 例(29.6%)，其中多药 178 例。患者潜在 DDIs 发生与患者性别、年龄、收入、使用药品数量、CCI、衰弱、PIM、神经系统疾病、心脑血管疾病、糖尿病\n资料与方法\n相关 (P＜0.05)。见表 1。\n2 DDIs 类型在 683 例中共筛查出具有潜在临床意义的 DDIs 25 类，共发生 405 例次。发生次数最多的潜在 DDIs 分别为≥2 种以上保钾药物同时使用 (25.9%)、血管经张素转化酶抑制剂(angiotensin-converting enzyme inhibitors， ACEI) 或血管紧张素Ⅱ受体拮抗剂 (angiotensin Ⅱ receptorblockers， ARB) 与口服非甾体抗炎药 (nonsteroidalanti-inflammatory drugs， NSAIDs) 合用 (22.2%)、阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶 CYP3A4 抑制剂合用 (18.8%)。在 25 类 DDIs中，最常见的药物相互作用风险为出血 (涉及 5种)、高血钾 (涉及 4 种) 和胃肠道毒性 (涉及 3 种)。见表 2。\n3 参与潜在 DDIs 药物种类涉及潜在 DDIs 最多的三类药物分别是钙离子通道阻滞剂、ARB、NSAIDs。 共有 237 例患者使用了 NSAIDs 类药物，其中 91 例发生了与 NSAIDs 相关的潜在临床意义的 DDIs，91 例使用了阿司匹林，其中 4 例分别合用了其他 NSAIDs 类药物 (塞来昔布、布洛芬、双氯酚酸钠)。有 65.52% 使用 ACEI 类药物的患者发生了 ACEI 相关的 DDIs，52.27% 的使用利尿剂的患者发生了利尿剂相关的 DDIs。见表 3。"
+        }
+      },
+      {
+        "id": "rel_15",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_4",
+        "target_id": "ent_19",
+        "properties": {
+          "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+          "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "raw_text": "最常见的药物相互作用风险为出血(涉及5种)、高血钾(涉及4种)和胃肠道毒性(涉及3种)",
+          "consequence": "胃肠道毒性",
+          "chunk_id": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+          "data": "床意义 DDIs 的患者 202 例(29.6%)，其中多药 178 例。患者潜在 DDIs 发生与患者性别、年龄、收入、使用药品数量、CCI、衰弱、PIM、神经系统疾病、心脑血管疾病、糖尿病\n资料与方法\n相关 (P＜0.05)。见表 1。\n2 DDIs 类型在 683 例中共筛查出具有潜在临床意义的 DDIs 25 类，共发生 405 例次。发生次数最多的潜在 DDIs 分别为≥2 种以上保钾药物同时使用 (25.9%)、血管经张素转化酶抑制剂(angiotensin-converting enzyme inhibitors， ACEI) 或血管紧张素Ⅱ受体拮抗剂 (angiotensin Ⅱ receptorblockers， ARB) 与口服非甾体抗炎药 (nonsteroidalanti-inflammatory drugs， NSAIDs) 合用 (22.2%)、阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶 CYP3A4 抑制剂合用 (18.8%)。在 25 类 DDIs中，最常见的药物相互作用风险为出血 (涉及 5种)、高血钾 (涉及 4 种) 和胃肠道毒性 (涉及 3 种)。见表 2。\n3 参与潜在 DDIs 药物种类涉及潜在 DDIs 最多的三类药物分别是钙离子通道阻滞剂、ARB、NSAIDs。 共有 237 例患者使用了 NSAIDs 类药物，其中 91 例发生了与 NSAIDs 相关的潜在临床意义的 DDIs，91 例使用了阿司匹林，其中 4 例分别合用了其他 NSAIDs 类药物 (塞来昔布、布洛芬、双氯酚酸钠)。有 65.52% 使用 ACEI 类药物的患者发生了 ACEI 相关的 DDIs，52.27% 的使用利尿剂的患者发生了利尿剂相关的 DDIs。见表 3。"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦:5",
+    "source": "老年患者长期用药的潜在药物相互作用及其影响因素分析_刘悦.pdf",
+    "text": "床意义 DDIs 的患者 202 例(29.6%)，其中多药 178 例。患者潜在 DDIs 发生与患者性别、年龄、收入、使用药品数量、CCI、衰弱、PIM、神经系统疾病、心脑血管疾病、糖尿病\n资料与方法\n相关 (P＜0.05)。见表 1。\n2 DDIs 类型在 683 例中共筛查出具有潜在临床意义的 DDIs 25 类，共发生 405 例次。发生次数最多的潜在 DDIs 分别为≥2 种以上保钾药物同时使用 (25.9%)、血管经张素转化酶抑制剂(angiotensin-converting enzyme inhibitors， ACEI) 或血管紧张素Ⅱ受体拮抗剂 (angiotensin Ⅱ receptorblockers， ARB) 与口服非甾体抗炎药 (nonsteroidalanti-inflammatory drugs， NSAIDs) 合用 (22.2%)、阿普唑仑/地西泮/三唑仑/唑吡坦/佐匹克隆与一种肝药酶 CYP3A4 抑制剂合用 (18.8%)。在 25 类 DDIs中，最常见的药物相互作用风险为出血 (涉及 5种)、高血钾 (涉及 4 种) 和胃肠道毒性 (涉及 3 种)。见表 2。\n3 参与潜在 DDIs 药物种类涉及潜在 DDIs 最多的三类药物分别是钙离子通道阻滞剂、ARB、NSAIDs。 共有 237 例患者使用了 NSAIDs 类药物，其中 91 例发生了与 NSAIDs 相关的潜在临床意义的 DDIs，91 例使用了阿司匹林，其中 4 例分别合用了其他 NSAIDs 类药物 (塞来昔布、布洛芬、双氯酚酸钠)。有 65.52% 使用 ACEI 类药物的患者发生了 ACEI 相关的 DDIs，52.27% 的使用利尿剂的患者发生了利尿剂相关的 DDIs。见表 3。"
+  }
+]

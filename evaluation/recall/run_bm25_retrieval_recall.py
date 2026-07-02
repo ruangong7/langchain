@@ -32,11 +32,11 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
-from config import REDIS_DB, REDIS_HOST, REDIS_PORT  # noqa: E402
+from config import REDIS_DB, REDIS_HOST, REDIS_PORT, VECTOR_KEY_PREFIX  # noqa: E402
 
 
 def _redis_scan_match(key_prefix: str) -> str:
-    """与 build_testset_from_redis 一致：默认 qwen3: → 匹配 qwen3:*"""
+    """与 build_testset_from_redis 一致：默认读取配置中的 VECTOR_KEY_PREFIX。"""
     p = key_prefix.strip()
     if "*" in p:
         return p
@@ -92,7 +92,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--question-col", default="question")
     p.add_argument("--redis-key-col", default="redis_key")
     p.add_argument("--top-k", type=int, default=5, help="BM25 返回条数")
-    p.add_argument("--key-prefix", default="qwen3:", help="与写入 Redis / 向量索引一致的前缀")
+    p.add_argument("--key-prefix", default=VECTOR_KEY_PREFIX, help="与写入 Redis / 向量索引一致的前缀")
     p.add_argument("--redis-host", default=REDIS_HOST)
     p.add_argument("--redis-port", type=int, default=REDIS_PORT)
     p.add_argument("--redis-db", type=int, default=REDIS_DB)

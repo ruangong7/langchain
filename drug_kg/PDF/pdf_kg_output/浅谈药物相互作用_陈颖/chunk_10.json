@@ -1,0 +1,199 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "ACEI",
+        "canonical_name": "血管紧张素转化酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "利尿剂",
+        "canonical_name": "利尿剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Disease",
+        "name": "CHF",
+        "canonical_name": "充血性心力衰竭",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Population",
+        "name": "妊娠妇女",
+        "canonical_name": "妊娠妇女",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Disease",
+        "name": "双侧肾动脉狭窄",
+        "canonical_name": "双侧肾动脉狭窄",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "肾功能中一重度减退",
+        "canonical_name": "肾功能中重度减退",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Indicator",
+        "name": "血清钾",
+        "canonical_name": "血清钾",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Symptom",
+        "name": "显著低血压",
+        "canonical_name": "显著低血压",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "SideEffect",
+        "name": "声带水肿",
+        "canonical_name": "声带水肿",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Disease",
+        "name": "无尿性肾功能衰竭",
+        "canonical_name": "无尿性肾功能衰竭",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "浅谈药物相互作用_陈颖.pdf",
+          "chunk_index": "浅谈药物相互作用_陈颖:10",
+          "raw_text": "与利尿剂合用，可减少利尿剂的剂量，减少其不良反应发生",
+          "chunk_id": "浅谈药物相互作用_陈颖:10",
+          "data": "其左室射血分数；⑥与利尿剂合用，可减少利尿剂的剂量，减少其不良反应发生。研究表明对 CHF 患者不论 CHF 是属于轻度或中度或重度者，ACEI 均可显著降低 CHF 的发生率、恶化率及死亡率，是 CHF 治疗的基石 $^{[24]}$ 。\n1.2 ACEI在 CHF治疗过程中应注意的问题首先要严格遵循其适应证，凡有下列情况者不宜应用ACEI制剂：①妊娠妇女；②双侧肾动脉狭窄；③肾功能中一重度减退；④血清钾 $>5.5\\mathrm{mmol / L}$ ⑤显著低血压；⑥以往服用ACEI后发生声带水肿或无尿性肾功能衰竭者。如无上述禁忌证的CHF患者均应服用ACEI制剂，并提倡尽早服用，越早服用临床效果越"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "浅谈药物相互作用_陈颖.pdf",
+          "chunk_index": "浅谈药物相互作用_陈颖:10",
+          "raw_text": "ACEI均可显著降低CHF的发生率、恶化率及死亡率，是CHF治疗的基石",
+          "chunk_id": "浅谈药物相互作用_陈颖:10",
+          "data": "其左室射血分数；⑥与利尿剂合用，可减少利尿剂的剂量，减少其不良反应发生。研究表明对 CHF 患者不论 CHF 是属于轻度或中度或重度者，ACEI 均可显著降低 CHF 的发生率、恶化率及死亡率，是 CHF 治疗的基石 $^{[24]}$ 。\n1.2 ACEI在 CHF治疗过程中应注意的问题首先要严格遵循其适应证，凡有下列情况者不宜应用ACEI制剂：①妊娠妇女；②双侧肾动脉狭窄；③肾功能中一重度减退；④血清钾 $>5.5\\mathrm{mmol / L}$ ⑤显著低血压；⑥以往服用ACEI后发生声带水肿或无尿性肾功能衰竭者。如无上述禁忌证的CHF患者均应服用ACEI制剂，并提倡尽早服用，越早服用临床效果越"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "浅谈药物相互作用_陈颖.pdf",
+          "chunk_index": "浅谈药物相互作用_陈颖:10",
+          "raw_text": "妊娠妇女不宜应用ACEI制剂",
+          "chunk_id": "浅谈药物相互作用_陈颖:10",
+          "data": "其左室射血分数；⑥与利尿剂合用，可减少利尿剂的剂量，减少其不良反应发生。研究表明对 CHF 患者不论 CHF 是属于轻度或中度或重度者，ACEI 均可显著降低 CHF 的发生率、恶化率及死亡率，是 CHF 治疗的基石 $^{[24]}$ 。\n1.2 ACEI在 CHF治疗过程中应注意的问题首先要严格遵循其适应证，凡有下列情况者不宜应用ACEI制剂：①妊娠妇女；②双侧肾动脉狭窄；③肾功能中一重度减退；④血清钾 $>5.5\\mathrm{mmol / L}$ ⑤显著低血压；⑥以往服用ACEI后发生声带水肿或无尿性肾功能衰竭者。如无上述禁忌证的CHF患者均应服用ACEI制剂，并提倡尽早服用，越早服用临床效果越"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "浅谈药物相互作用_陈颖.pdf",
+          "chunk_index": "浅谈药物相互作用_陈颖:10",
+          "raw_text": "双侧肾动脉狭窄不宜应用ACEI制剂",
+          "chunk_id": "浅谈药物相互作用_陈颖:10",
+          "data": "其左室射血分数；⑥与利尿剂合用，可减少利尿剂的剂量，减少其不良反应发生。研究表明对 CHF 患者不论 CHF 是属于轻度或中度或重度者，ACEI 均可显著降低 CHF 的发生率、恶化率及死亡率，是 CHF 治疗的基石 $^{[24]}$ 。\n1.2 ACEI在 CHF治疗过程中应注意的问题首先要严格遵循其适应证，凡有下列情况者不宜应用ACEI制剂：①妊娠妇女；②双侧肾动脉狭窄；③肾功能中一重度减退；④血清钾 $>5.5\\mathrm{mmol / L}$ ⑤显著低血压；⑥以往服用ACEI后发生声带水肿或无尿性肾功能衰竭者。如无上述禁忌证的CHF患者均应服用ACEI制剂，并提倡尽早服用，越早服用临床效果越"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "浅谈药物相互作用_陈颖.pdf",
+          "chunk_index": "浅谈药物相互作用_陈颖:10",
+          "raw_text": "肾功能中一重度减退不宜应用ACEI制剂",
+          "chunk_id": "浅谈药物相互作用_陈颖:10",
+          "data": "其左室射血分数；⑥与利尿剂合用，可减少利尿剂的剂量，减少其不良反应发生。研究表明对 CHF 患者不论 CHF 是属于轻度或中度或重度者，ACEI 均可显著降低 CHF 的发生率、恶化率及死亡率，是 CHF 治疗的基石 $^{[24]}$ 。\n1.2 ACEI在 CHF治疗过程中应注意的问题首先要严格遵循其适应证，凡有下列情况者不宜应用ACEI制剂：①妊娠妇女；②双侧肾动脉狭窄；③肾功能中一重度减退；④血清钾 $>5.5\\mathrm{mmol / L}$ ⑤显著低血压；⑥以往服用ACEI后发生声带水肿或无尿性肾功能衰竭者。如无上述禁忌证的CHF患者均应服用ACEI制剂，并提倡尽早服用，越早服用临床效果越"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "AFFECTS_INDICATOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "浅谈药物相互作用_陈颖.pdf",
+          "chunk_index": "浅谈药物相互作用_陈颖:10",
+          "raw_text": "血清钾>5.5mmol/L不宜应用ACEI制剂",
+          "chunk_id": "浅谈药物相互作用_陈颖:10",
+          "data": "其左室射血分数；⑥与利尿剂合用，可减少利尿剂的剂量，减少其不良反应发生。研究表明对 CHF 患者不论 CHF 是属于轻度或中度或重度者，ACEI 均可显著降低 CHF 的发生率、恶化率及死亡率，是 CHF 治疗的基石 $^{[24]}$ 。\n1.2 ACEI在 CHF治疗过程中应注意的问题首先要严格遵循其适应证，凡有下列情况者不宜应用ACEI制剂：①妊娠妇女；②双侧肾动脉狭窄；③肾功能中一重度减退；④血清钾 $>5.5\\mathrm{mmol / L}$ ⑤显著低血压；⑥以往服用ACEI后发生声带水肿或无尿性肾功能衰竭者。如无上述禁忌证的CHF患者均应服用ACEI制剂，并提倡尽早服用，越早服用临床效果越"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "浅谈药物相互作用_陈颖.pdf",
+          "chunk_index": "浅谈药物相互作用_陈颖:10",
+          "raw_text": "显著低血压不宜应用ACEI制剂",
+          "chunk_id": "浅谈药物相互作用_陈颖:10",
+          "data": "其左室射血分数；⑥与利尿剂合用，可减少利尿剂的剂量，减少其不良反应发生。研究表明对 CHF 患者不论 CHF 是属于轻度或中度或重度者，ACEI 均可显著降低 CHF 的发生率、恶化率及死亡率，是 CHF 治疗的基石 $^{[24]}$ 。\n1.2 ACEI在 CHF治疗过程中应注意的问题首先要严格遵循其适应证，凡有下列情况者不宜应用ACEI制剂：①妊娠妇女；②双侧肾动脉狭窄；③肾功能中一重度减退；④血清钾 $>5.5\\mathrm{mmol / L}$ ⑤显著低血压；⑥以往服用ACEI后发生声带水肿或无尿性肾功能衰竭者。如无上述禁忌证的CHF患者均应服用ACEI制剂，并提倡尽早服用，越早服用临床效果越"
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "浅谈药物相互作用_陈颖.pdf",
+          "chunk_index": "浅谈药物相互作用_陈颖:10",
+          "raw_text": "以往服用ACEI后发生声带水肿者不宜应用",
+          "chunk_id": "浅谈药物相互作用_陈颖:10",
+          "data": "其左室射血分数；⑥与利尿剂合用，可减少利尿剂的剂量，减少其不良反应发生。研究表明对 CHF 患者不论 CHF 是属于轻度或中度或重度者，ACEI 均可显著降低 CHF 的发生率、恶化率及死亡率，是 CHF 治疗的基石 $^{[24]}$ 。\n1.2 ACEI在 CHF治疗过程中应注意的问题首先要严格遵循其适应证，凡有下列情况者不宜应用ACEI制剂：①妊娠妇女；②双侧肾动脉狭窄；③肾功能中一重度减退；④血清钾 $>5.5\\mathrm{mmol / L}$ ⑤显著低血压；⑥以往服用ACEI后发生声带水肿或无尿性肾功能衰竭者。如无上述禁忌证的CHF患者均应服用ACEI制剂，并提倡尽早服用，越早服用临床效果越"
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "HAS_ADVERSE_REACTION",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "浅谈药物相互作用_陈颖.pdf",
+          "chunk_index": "浅谈药物相互作用_陈颖:10",
+          "raw_text": "以往服用ACEI后发生无尿性肾功能衰竭者不宜应用",
+          "chunk_id": "浅谈药物相互作用_陈颖:10",
+          "data": "其左室射血分数；⑥与利尿剂合用，可减少利尿剂的剂量，减少其不良反应发生。研究表明对 CHF 患者不论 CHF 是属于轻度或中度或重度者，ACEI 均可显著降低 CHF 的发生率、恶化率及死亡率，是 CHF 治疗的基石 $^{[24]}$ 。\n1.2 ACEI在 CHF治疗过程中应注意的问题首先要严格遵循其适应证，凡有下列情况者不宜应用ACEI制剂：①妊娠妇女；②双侧肾动脉狭窄；③肾功能中一重度减退；④血清钾 $>5.5\\mathrm{mmol / L}$ ⑤显著低血压；⑥以往服用ACEI后发生声带水肿或无尿性肾功能衰竭者。如无上述禁忌证的CHF患者均应服用ACEI制剂，并提倡尽早服用，越早服用临床效果越"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "浅谈药物相互作用_陈颖:10",
+    "source": "浅谈药物相互作用_陈颖.pdf",
+    "text": "其左室射血分数；⑥与利尿剂合用，可减少利尿剂的剂量，减少其不良反应发生。研究表明对 CHF 患者不论 CHF 是属于轻度或中度或重度者，ACEI 均可显著降低 CHF 的发生率、恶化率及死亡率，是 CHF 治疗的基石 $^{[24]}$ 。\n1.2 ACEI在 CHF治疗过程中应注意的问题首先要严格遵循其适应证，凡有下列情况者不宜应用ACEI制剂：①妊娠妇女；②双侧肾动脉狭窄；③肾功能中一重度减退；④血清钾 $>5.5\\mathrm{mmol / L}$ ⑤显著低血压；⑥以往服用ACEI后发生声带水肿或无尿性肾功能衰竭者。如无上述禁忌证的CHF患者均应服用ACEI制剂，并提倡尽早服用，越早服用临床效果越"
+  }
+]

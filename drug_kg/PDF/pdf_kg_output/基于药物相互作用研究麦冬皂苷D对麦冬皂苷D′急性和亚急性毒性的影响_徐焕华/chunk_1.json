@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "麦冬皂苷D",
+        "canonical_name": "麦冬皂苷D",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "麦冬皂苷D′",
+        "canonical_name": "麦冬皂苷D′",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华.pdf",
+          "chunk_index": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:1",
+          "raw_text": "在急性毒性试验中，OPD先于OPD′使用可有效降低OPD′毒性；在亚急性毒性试验中未观察到此作用。",
+          "chunk_id": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:1",
+          "data": "1. 现代中药制剂教育部重点实验室，2. 创新药物与高效节能降耗制药设备国家重点实验室，江西南昌 330004；3. 军事科学院军事医学研究院辐射医学研究所，北京 100850；\n4. 江西省分子中心医学重点实验室，江西南昌 330006）\n摘要：目的基于药物相互作用研究麦冬皂苷D（OPD）对麦冬皂苷D′（OPD′）急性和亚急性毒性的影响。方法 ①采用Bliss法测定急性毒性：小鼠分为 $\\mathsf { O P D ^ { \\prime } }$ 单用、 $. { \\mathsf { O P D + O P D ^ { \\prime } } } \\left( { \\mathsf { O P D } } \\right.$ 和 $\\mathsf { O P D ^ { \\prime } }$ 提前混合）和OPD→OPD′（先注射OPD间隔15 min再注射 $\\mathsf { O P D ^ { \\prime } } \\mathrm { ~ , ~ }$ ）组，其中 $\\mathsf { O P D ^ { \\prime } }$ 单用组5个剂量分别为3.127，6.460，9.979，10.245 和 13.098 mg·kg-1 ；OPD+OPD′组 OPD 和 $0 \\mathsf { P } \\mathsf { D } ^ { \\prime } \\mathsf { \\Omega } 1 : 1$ 混合，5个剂量分别为5.711，6.129，7.626，8.712 和 10.262 mg·kg-1 ；OPD→OPD′组 OPD 固定为 $1 . 0 \\mathsf { m g } \\cdot \\mathsf { k g } ^ { - 1 } , \\mathsf { O P D } ^ { \\prime } 5$ 个剂量分别为 11.351，15.551，22.732，26.568 和 30.137 mg·kg-1 。单次尾静脉注射，观察给药后 14 d 内小鼠的行为表征和死亡数。② 亚急性毒性试验：SD 大鼠随机分为 5 组，分别为正常对照、OPD 单用 $( 0 . 2 5 \\mathrm { \\ m g } \\cdot \\mathsf { k g } ^ { - 1 } ) \\cdot \\mathsf { O P D } ^ { \\prime }$ 单"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华:1",
+    "source": "基于药物相互作用研究麦冬皂苷D对麦冬皂苷D′急性和亚急性毒性的影响_徐焕华.pdf",
+    "text": "1. 现代中药制剂教育部重点实验室，2. 创新药物与高效节能降耗制药设备国家重点实验室，江西南昌 330004；3. 军事科学院军事医学研究院辐射医学研究所，北京 100850；\n4. 江西省分子中心医学重点实验室，江西南昌 330006）\n摘要：目的基于药物相互作用研究麦冬皂苷D（OPD）对麦冬皂苷D′（OPD′）急性和亚急性毒性的影响。方法 ①采用Bliss法测定急性毒性：小鼠分为 $\\mathsf { O P D ^ { \\prime } }$ 单用、 $. { \\mathsf { O P D + O P D ^ { \\prime } } } \\left( { \\mathsf { O P D } } \\right.$ 和 $\\mathsf { O P D ^ { \\prime } }$ 提前混合）和OPD→OPD′（先注射OPD间隔15 min再注射 $\\mathsf { O P D ^ { \\prime } } \\mathrm { ~ , ~ }$ ）组，其中 $\\mathsf { O P D ^ { \\prime } }$ 单用组5个剂量分别为3.127，6.460，9.979，10.245 和 13.098 mg·kg-1 ；OPD+OPD′组 OPD 和 $0 \\mathsf { P } \\mathsf { D } ^ { \\prime } \\mathsf { \\Omega } 1 : 1$ 混合，5个剂量分别为5.711，6.129，7.626，8.712 和 10.262 mg·kg-1 ；OPD→OPD′组 OPD 固定为 $1 . 0 \\mathsf { m g } \\cdot \\mathsf { k g } ^ { - 1 } , \\mathsf { O P D } ^ { \\prime } 5$ 个剂量分别为 11.351，15.551，22.732，26.568 和 30.137 mg·kg-1 。单次尾静脉注射，观察给药后 14 d 内小鼠的行为表征和死亡数。② 亚急性毒性试验：SD 大鼠随机分为 5 组，分别为正常对照、OPD 单用 $( 0 . 2 5 \\mathrm { \\ m g } \\cdot \\mathsf { k g } ^ { - 1 } ) \\cdot \\mathsf { O P D } ^ { \\prime }$ 单用$( 0 . 2 5 \\mathsf { m g } \\cdot \\mathsf { k g } ^ { - 1 } )$ ）、 ${ \\mathsf { O P D + O P D ^ { \\prime } } }$ （各 $0 . 2 5 ~ \\mathsf { m g } \\cdot \\mathsf { k g } ^ { - 1 } )$ ）和 ${ \\mathsf { O P D } } { \\longrightarrow } { \\mathsf { O P D } } ^ { \\prime }$ （各 $0 . 2 5 \\mathrm { ~ m g } \\cdot \\mathsf { k g } ^ { - 1 } )$ ）组，连续尾静脉注射，每天1次，连续30 d，观察心、肝、脾、肺和肾组织病理变化及血常规、血生化和脏器指数等指标的变化。结果① 急性毒性试验结果表明， $, \\mathsf { O P D ^ { \\prime } }$ 单用组 $\\mathsf { \\Omega } _ { \\mathsf { O P D } ^ { \\prime } }$ 的 $\\mathsf { L D } _ { 5 0 } ^ { }$ 值为 $7 . 7 8 5 \\ : \\mathrm { m g } \\cdot \\mathrm { k g } ^ { - 1 } , \\mathrm { O P D } + \\mathrm { O P D } ^ { \\prime }$ ′组为 $7 . 7 0 6 \\ : \\mathrm { m g } \\cdot \\mathrm { k g } ^ { - 1 }$ ，OPD→OPD′组为 $2 2 . 8 2 0 ~ \\mathsf { m g } \\cdot \\mathsf { k g } ^ { - }$ 1 ；OPD→OPD′组明显高于 $\\cdot \\mathsf { O P D ^ { \\prime } }$ 单用组。②亚急性毒性试验结果表明，与正常对照组比较，其他各给药组大鼠体重显著下降 $( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ），脾指数显著增大 $( P { < } 0 . 0 5$ ，$_ { P < 0 . 0 1 ) }$ ；除OPD单用组外，其他给药组肺指数均显著增大 $\\left( P { < } 0 . 0 5 , P { < } 0 . 0 1 \\right)$ ），血清葡萄糖和甘油三酯水平显著下降 $( P { < } 0 . 0 5 , P { < } 0 . 0 1 )$ ），其余生化指标无显著性差异；各给药组心肌细胞轻度水肿，心肌间质血管淤血，脾红髓淤血，肺泡上皮细胞轻度肿胀，肺泡壁血管不同程度淤血。上述指标 ${ \\mathsf { O P D + O P D } }$ ′和OPD→OPD′组与OPD′或OPD单用组比较均无明显变化。结论在急性毒性试验中，OPD先于 $\\mathsf { O P D ^ { \\prime } }$ 使用可有效降低$\\mathsf { O P D ^ { \\prime } }$ 毒性；在亚急性毒性试验中未观察到此作用。"
+  }
+]

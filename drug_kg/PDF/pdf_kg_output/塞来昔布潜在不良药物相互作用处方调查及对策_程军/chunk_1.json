@@ -1,0 +1,132 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "塞来昔布",
+        "canonical_name": "塞来昔布",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "非甾体抗炎药",
+        "canonical_name": "非甾体抗炎药",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "来氟米特",
+        "canonical_name": "来氟米特",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "DrugClass",
+        "name": "血管紧张素转化酶抑制剂",
+        "canonical_name": "血管紧张素转化酶抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "血管紧张素II受体拮抗剂",
+        "canonical_name": "血管紧张素II受体拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "阿司匹林",
+        "canonical_name": "阿司匹林",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "塞来昔布潜在不良药物相互作用处方调查及对策_程军.pdf",
+          "chunk_index": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:1",
+          "raw_text": "Potential adverse drugs interacting with celecoxib capsules were mainly nonsteroidal anti-inflammatory drugs (NSAIDs), leflunomide, and angiotensin-converting enzyme inhibitors (ACEIs) or angiotensin II receptor blockers (ARBs). The severity of interaction between celecoxib and NSAIDs was determined by \"Contraindications\".",
+          "chunk_id": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:1",
+          "data": "。\n开放科学( 资源服务) 标识码( OSID)\nPrescription Investigation of Celecoxib Potential Adverse Drug Interactions and Countermeasures\nCHENG Jun( Department of Pharmacy，the Third People＇s Hospital of Bengbu，Anhui Province，Bengbu 233000， China)ABSTRACT Objective To analyze the prescription of celecoxib potential adverse drug interactions( pADIs) and to promote rational drug use． Methods Outpatient prescriptions of using celecoxib in combination with other drugs were surveyed from January 1，2020 to December 31，2020 through the third people＇s hospital of Bengbu rational drug software system．And pADIs were identified and classified into categories of potential clinical outcomes． Results A total of 705 prescriptions of celecoxib capsules in combination with other drugs were collected and enrolled．There were 169 prescriptions for pADIs，which occurred 213 times for pADIs． Potential adverse drugs interacting with celecoxib capsules were mainly nonsteroidal anti-inflammatory drugs ( NSAIDs) ，leflunomide，and "
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "塞来昔布潜在不良药物相互作用处方调查及对策_程军.pdf",
+          "chunk_index": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:1",
+          "raw_text": "Potential adverse drugs interacting with celecoxib capsules were mainly nonsteroidal anti-inflammatory drugs (NSAIDs), leflunomide, and angiotensin-converting enzyme inhibitors (ACEIs) or angiotensin II receptor blockers (ARBs).",
+          "chunk_id": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:1",
+          "data": "。\n开放科学( 资源服务) 标识码( OSID)\nPrescription Investigation of Celecoxib Potential Adverse Drug Interactions and Countermeasures\nCHENG Jun( Department of Pharmacy，the Third People＇s Hospital of Bengbu，Anhui Province，Bengbu 233000， China)ABSTRACT Objective To analyze the prescription of celecoxib potential adverse drug interactions( pADIs) and to promote rational drug use． Methods Outpatient prescriptions of using celecoxib in combination with other drugs were surveyed from January 1，2020 to December 31，2020 through the third people＇s hospital of Bengbu rational drug software system．And pADIs were identified and classified into categories of potential clinical outcomes． Results A total of 705 prescriptions of celecoxib capsules in combination with other drugs were collected and enrolled．There were 169 prescriptions for pADIs，which occurred 213 times for pADIs． Potential adverse drugs interacting with celecoxib capsules were mainly nonsteroidal anti-inflammatory drugs ( NSAIDs) ，leflunomide，and "
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "塞来昔布潜在不良药物相互作用处方调查及对策_程军.pdf",
+          "chunk_index": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:1",
+          "raw_text": "Potential adverse drugs interacting with celecoxib capsules were mainly nonsteroidal anti-inflammatory drugs (NSAIDs), leflunomide, and angiotensin-converting enzyme inhibitors (ACEIs) or angiotensin II receptor blockers (ARBs).",
+          "chunk_id": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:1",
+          "data": "。\n开放科学( 资源服务) 标识码( OSID)\nPrescription Investigation of Celecoxib Potential Adverse Drug Interactions and Countermeasures\nCHENG Jun( Department of Pharmacy，the Third People＇s Hospital of Bengbu，Anhui Province，Bengbu 233000， China)ABSTRACT Objective To analyze the prescription of celecoxib potential adverse drug interactions( pADIs) and to promote rational drug use． Methods Outpatient prescriptions of using celecoxib in combination with other drugs were surveyed from January 1，2020 to December 31，2020 through the third people＇s hospital of Bengbu rational drug software system．And pADIs were identified and classified into categories of potential clinical outcomes． Results A total of 705 prescriptions of celecoxib capsules in combination with other drugs were collected and enrolled．There were 169 prescriptions for pADIs，which occurred 213 times for pADIs． Potential adverse drugs interacting with celecoxib capsules were mainly nonsteroidal anti-inflammatory drugs ( NSAIDs) ，leflunomide，and "
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "塞来昔布潜在不良药物相互作用处方调查及对策_程军.pdf",
+          "chunk_index": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:1",
+          "raw_text": "Potential adverse drugs interacting with celecoxib capsules were mainly nonsteroidal anti-inflammatory drugs (NSAIDs), leflunomide, and angiotensin-converting enzyme inhibitors (ACEIs) or angiotensin II receptor blockers (ARBs).",
+          "chunk_id": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:1",
+          "data": "。\n开放科学( 资源服务) 标识码( OSID)\nPrescription Investigation of Celecoxib Potential Adverse Drug Interactions and Countermeasures\nCHENG Jun( Department of Pharmacy，the Third People＇s Hospital of Bengbu，Anhui Province，Bengbu 233000， China)ABSTRACT Objective To analyze the prescription of celecoxib potential adverse drug interactions( pADIs) and to promote rational drug use． Methods Outpatient prescriptions of using celecoxib in combination with other drugs were surveyed from January 1，2020 to December 31，2020 through the third people＇s hospital of Bengbu rational drug software system．And pADIs were identified and classified into categories of potential clinical outcomes． Results A total of 705 prescriptions of celecoxib capsules in combination with other drugs were collected and enrolled．There were 169 prescriptions for pADIs，which occurred 213 times for pADIs． Potential adverse drugs interacting with celecoxib capsules were mainly nonsteroidal anti-inflammatory drugs ( NSAIDs) ，leflunomide，and "
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "塞来昔布潜在不良药物相互作用处方调查及对策_程军.pdf",
+          "chunk_index": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:1",
+          "raw_text": "塞来昔布为特异性选择性抑制环氧化酶-2 (cyclooxygenase-2, COX-2) 非甾体抗炎药物 (nonsteroidal antiinflammatory drugs, NSAIDs)",
+          "chunk_id": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:1",
+          "data": "。\n开放科学( 资源服务) 标识码( OSID)\nPrescription Investigation of Celecoxib Potential Adverse Drug Interactions and Countermeasures\nCHENG Jun( Department of Pharmacy，the Third People＇s Hospital of Bengbu，Anhui Province，Bengbu 233000， China)ABSTRACT Objective To analyze the prescription of celecoxib potential adverse drug interactions( pADIs) and to promote rational drug use． Methods Outpatient prescriptions of using celecoxib in combination with other drugs were surveyed from January 1，2020 to December 31，2020 through the third people＇s hospital of Bengbu rational drug software system．And pADIs were identified and classified into categories of potential clinical outcomes． Results A total of 705 prescriptions of celecoxib capsules in combination with other drugs were collected and enrolled．There were 169 prescriptions for pADIs，which occurred 213 times for pADIs． Potential adverse drugs interacting with celecoxib capsules were mainly nonsteroidal anti-inflammatory drugs ( NSAIDs) ，leflunomide，and "
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_2",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "塞来昔布潜在不良药物相互作用处方调查及对策_程军.pdf",
+          "chunk_index": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:1",
+          "raw_text": "有文献对 NSAIDs 的 pADIs 处方进行分析，主要以阿司匹林为主",
+          "chunk_id": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:1",
+          "data": "。\n开放科学( 资源服务) 标识码( OSID)\nPrescription Investigation of Celecoxib Potential Adverse Drug Interactions and Countermeasures\nCHENG Jun( Department of Pharmacy，the Third People＇s Hospital of Bengbu，Anhui Province，Bengbu 233000， China)ABSTRACT Objective To analyze the prescription of celecoxib potential adverse drug interactions( pADIs) and to promote rational drug use． Methods Outpatient prescriptions of using celecoxib in combination with other drugs were surveyed from January 1，2020 to December 31，2020 through the third people＇s hospital of Bengbu rational drug software system．And pADIs were identified and classified into categories of potential clinical outcomes． Results A total of 705 prescriptions of celecoxib capsules in combination with other drugs were collected and enrolled．There were 169 prescriptions for pADIs，which occurred 213 times for pADIs． Potential adverse drugs interacting with celecoxib capsules were mainly nonsteroidal anti-inflammatory drugs ( NSAIDs) ，leflunomide，and "
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "塞来昔布潜在不良药物相互作用处方调查及对策_程军:1",
+    "source": "塞来昔布潜在不良药物相互作用处方调查及对策_程军.pdf",
+    "text": "。\n开放科学( 资源服务) 标识码( OSID)\nPrescription Investigation of Celecoxib Potential Adverse Drug Interactions and Countermeasures\nCHENG Jun( Department of Pharmacy，the Third People＇s Hospital of Bengbu，Anhui Province，Bengbu 233000， China)ABSTRACT Objective To analyze the prescription of celecoxib potential adverse drug interactions( pADIs) and to promote rational drug use． Methods Outpatient prescriptions of using celecoxib in combination with other drugs were surveyed from January 1，2020 to December 31，2020 through the third people＇s hospital of Bengbu rational drug software system．And pADIs were identified and classified into categories of potential clinical outcomes． Results A total of 705 prescriptions of celecoxib capsules in combination with other drugs were collected and enrolled．There were 169 prescriptions for pADIs，which occurred 213 times for pADIs． Potential adverse drugs interacting with celecoxib capsules were mainly nonsteroidal anti-inflammatory drugs ( NSAIDs) ，leflunomide，and angiotensin-converting enzyme inhibitors ( ACEIs) or angiotensin II receptor blockers( ARBs) ．The severity of interaction between celecoxib and NSAIDs was determined by “Contraindications ”． Conclusion There were pADIs between celecoxib capsules and other drugs in our hospital．Therefore，it is necessary to strengthen risk training of celecoxib capsules pADIs，set medication rules through rational drug use software，and give interception or warning respectively in the electronic prescription window of doctor workstation to reduce medication risk．塞来昔布为特异性选择性抑制环氧化酶-2 ( cy-clooxygenase-2，COX-2) 非甾体抗炎药物 ( nonsteroidalantiinflammatory drugs，NSAIDs) ，一般剂量下对 COX-1几乎无抑制作用，用药相对安全，临床应用非常广泛［1］ 。 目前，潜在不良药物相互作用( potential adversedrug interactions，pADIs) 已成为临床研究热点［2］ 。 有文献对 NSAIDs 的 pADIs 处方进行分析，主要以阿司匹林为主［3-4］，笔者尚未见深入研究塞来昔布 pADIs 及其危险严重性分级的报道。 笔者在本研究调查蚌埠市第三人民医院塞来昔布胶囊联合用药处方，收集处方中 pADIs，并对危险严重性进行分级，为采取应对策略提供依据。"
+  }
+]

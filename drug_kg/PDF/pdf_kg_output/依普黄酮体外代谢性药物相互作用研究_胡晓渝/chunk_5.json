@@ -1,0 +1,152 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "依普黄酮",
+        "canonical_name": "依普黄酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "普罗帕酮",
+        "canonical_name": "普罗帕酮",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "普萘洛尔",
+        "canonical_name": "普萘洛尔",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "雌二醇",
+        "canonical_name": "雌二醇",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "DrugClass",
+        "name": "CYP1A2底物",
+        "canonical_name": "CYP1A2底物",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Disease",
+        "name": "骨质疏松症",
+        "canonical_name": "骨质疏松症",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Population",
+        "name": "绝经期妇女",
+        "canonical_name": "绝经期妇女",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "依普黄酮体外代谢性药物相互作用研究_胡晓渝.pdf",
+          "chunk_index": "依普黄酮体外代谢性药物相互作用研究_胡晓渝:5",
+          "raw_text": "加入普萘洛尔或普罗帕酮（反应液中终浓度为0.5μ／时，依普黄酮的代谢均受抑制。β-受体阻滞剂普萘洛尔与类抗心率失常药普罗帕酮均为CYP1A2的底物，可与依普黄酮发生竞争性拮抗。",
+          "chunk_id": "依普黄酮体外代谢性药物相互作用研究_胡晓渝:5",
+          "data": "两种药物临床合用时有可能发生代谢性相互作用，导致普罗帕酮代谢减慢，血药浓度增加。\nTable 1 Effect of IP on the metabolism of propafenone and estradiol\nReferences：\n2.2 普萘洛尔、普罗帕酮、雌二醇对依普黄酮代谢的影响与单独孵育结果相比较，加入普萘洛尔或普罗帕酮（ 反应液中终浓度为0.5μ／时， 的代谢均受抑制 $P < 0 ~ . 0 5 )$ 。 β-受体阻滞剂普萘洛尔与类抗心率失常药普罗帕酮均为 $\\mathrm { C Y P 1 } \\mathrm { A } ^ { 2 }$ 的底物，可与发生竞争性拮抗。而雌二醇对依普黄酮代谢的影响取决于雌二醇的质量浓度，当反应液中雌二醇为 . μ／时，依普黄酮的代谢不受影响（ $P > 0 . 0 5 )$ ；当雌二醇为 μ／ 时，依普黄酮的代谢有抑制作用${ ( P ^ { < } 0 . 0 2 ) }$ 。 这与文献报道［7］的结果一致，即低剂量的雌二醇与依普黄酮联合使用，不能增加依普黄酮的抗骨更新能力，不能对绝经期妇女的骨质疏松症发挥更大抑制作用。\n表 2 普萘洛尔和普罗帕酮及雌二醇对依普黄酮代谢的影响Table 2 T he effects of propranolol，propafenone， estradiol on IP metabolism［责任编辑黄晓花］"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_3",
+        "properties": {
+          "source": "依普黄酮体外代谢性药物相互作用研究_胡晓渝.pdf",
+          "chunk_index": "依普黄酮体外代谢性药物相互作用研究_胡晓渝:5",
+          "raw_text": "加入普萘洛尔或普罗帕酮（反应液中终浓度为0.5μ／时，依普黄酮的代谢均受抑制。β-受体阻滞剂普萘洛尔与类抗心率失常药普罗帕酮均为CYP1A2的底物，可与依普黄酮发生竞争性拮抗。",
+          "chunk_id": "依普黄酮体外代谢性药物相互作用研究_胡晓渝:5",
+          "data": "两种药物临床合用时有可能发生代谢性相互作用，导致普罗帕酮代谢减慢，血药浓度增加。\nTable 1 Effect of IP on the metabolism of propafenone and estradiol\nReferences：\n2.2 普萘洛尔、普罗帕酮、雌二醇对依普黄酮代谢的影响与单独孵育结果相比较，加入普萘洛尔或普罗帕酮（ 反应液中终浓度为0.5μ／时， 的代谢均受抑制 $P < 0 ~ . 0 5 )$ 。 β-受体阻滞剂普萘洛尔与类抗心率失常药普罗帕酮均为 $\\mathrm { C Y P 1 } \\mathrm { A } ^ { 2 }$ 的底物，可与发生竞争性拮抗。而雌二醇对依普黄酮代谢的影响取决于雌二醇的质量浓度，当反应液中雌二醇为 . μ／时，依普黄酮的代谢不受影响（ $P > 0 . 0 5 )$ ；当雌二醇为 μ／ 时，依普黄酮的代谢有抑制作用${ ( P ^ { < } 0 . 0 2 ) }$ 。 这与文献报道［7］的结果一致，即低剂量的雌二醇与依普黄酮联合使用，不能增加依普黄酮的抗骨更新能力，不能对绝经期妇女的骨质疏松症发挥更大抑制作用。\n表 2 普萘洛尔和普罗帕酮及雌二醇对依普黄酮代谢的影响Table 2 T he effects of propranolol，propafenone， estradiol on IP metabolism［责任编辑黄晓花］"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_4",
+        "properties": {
+          "source": "依普黄酮体外代谢性药物相互作用研究_胡晓渝.pdf",
+          "chunk_index": "依普黄酮体外代谢性药物相互作用研究_胡晓渝:5",
+          "raw_text": "当雌二醇为μ／时，依普黄酮的代谢有抑制作用。",
+          "chunk_id": "依普黄酮体外代谢性药物相互作用研究_胡晓渝:5",
+          "data": "两种药物临床合用时有可能发生代谢性相互作用，导致普罗帕酮代谢减慢，血药浓度增加。\nTable 1 Effect of IP on the metabolism of propafenone and estradiol\nReferences：\n2.2 普萘洛尔、普罗帕酮、雌二醇对依普黄酮代谢的影响与单独孵育结果相比较，加入普萘洛尔或普罗帕酮（ 反应液中终浓度为0.5μ／时， 的代谢均受抑制 $P < 0 ~ . 0 5 )$ 。 β-受体阻滞剂普萘洛尔与类抗心率失常药普罗帕酮均为 $\\mathrm { C Y P 1 } \\mathrm { A } ^ { 2 }$ 的底物，可与发生竞争性拮抗。而雌二醇对依普黄酮代谢的影响取决于雌二醇的质量浓度，当反应液中雌二醇为 . μ／时，依普黄酮的代谢不受影响（ $P > 0 . 0 5 )$ ；当雌二醇为 μ／ 时，依普黄酮的代谢有抑制作用${ ( P ^ { < } 0 . 0 2 ) }$ 。 这与文献报道［7］的结果一致，即低剂量的雌二醇与依普黄酮联合使用，不能增加依普黄酮的抗骨更新能力，不能对绝经期妇女的骨质疏松症发挥更大抑制作用。\n表 2 普萘洛尔和普罗帕酮及雌二醇对依普黄酮代谢的影响Table 2 T he effects of propranolol，propafenone， estradiol on IP metabolism［责任编辑黄晓花］"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_2",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "依普黄酮体外代谢性药物相互作用研究_胡晓渝.pdf",
+          "chunk_index": "依普黄酮体外代谢性药物相互作用研究_胡晓渝:5",
+          "raw_text": "β-受体阻滞剂普萘洛尔与类抗心率失常药普罗帕酮均为CYP1A2的底物",
+          "chunk_id": "依普黄酮体外代谢性药物相互作用研究_胡晓渝:5",
+          "data": "两种药物临床合用时有可能发生代谢性相互作用，导致普罗帕酮代谢减慢，血药浓度增加。\nTable 1 Effect of IP on the metabolism of propafenone and estradiol\nReferences：\n2.2 普萘洛尔、普罗帕酮、雌二醇对依普黄酮代谢的影响与单独孵育结果相比较，加入普萘洛尔或普罗帕酮（ 反应液中终浓度为0.5μ／时， 的代谢均受抑制 $P < 0 ~ . 0 5 )$ 。 β-受体阻滞剂普萘洛尔与类抗心率失常药普罗帕酮均为 $\\mathrm { C Y P 1 } \\mathrm { A } ^ { 2 }$ 的底物，可与发生竞争性拮抗。而雌二醇对依普黄酮代谢的影响取决于雌二醇的质量浓度，当反应液中雌二醇为 . μ／时，依普黄酮的代谢不受影响（ $P > 0 . 0 5 )$ ；当雌二醇为 μ／ 时，依普黄酮的代谢有抑制作用${ ( P ^ { < } 0 . 0 2 ) }$ 。 这与文献报道［7］的结果一致，即低剂量的雌二醇与依普黄酮联合使用，不能增加依普黄酮的抗骨更新能力，不能对绝经期妇女的骨质疏松症发挥更大抑制作用。\n表 2 普萘洛尔和普罗帕酮及雌二醇对依普黄酮代谢的影响Table 2 T he effects of propranolol，propafenone， estradiol on IP metabolism［责任编辑黄晓花］"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_5",
+        "properties": {
+          "source": "依普黄酮体外代谢性药物相互作用研究_胡晓渝.pdf",
+          "chunk_index": "依普黄酮体外代谢性药物相互作用研究_胡晓渝:5",
+          "raw_text": "β-受体阻滞剂普萘洛尔与类抗心率失常药普罗帕酮均为CYP1A2的底物",
+          "chunk_id": "依普黄酮体外代谢性药物相互作用研究_胡晓渝:5",
+          "data": "两种药物临床合用时有可能发生代谢性相互作用，导致普罗帕酮代谢减慢，血药浓度增加。\nTable 1 Effect of IP on the metabolism of propafenone and estradiol\nReferences：\n2.2 普萘洛尔、普罗帕酮、雌二醇对依普黄酮代谢的影响与单独孵育结果相比较，加入普萘洛尔或普罗帕酮（ 反应液中终浓度为0.5μ／时， 的代谢均受抑制 $P < 0 ~ . 0 5 )$ 。 β-受体阻滞剂普萘洛尔与类抗心率失常药普罗帕酮均为 $\\mathrm { C Y P 1 } \\mathrm { A } ^ { 2 }$ 的底物，可与发生竞争性拮抗。而雌二醇对依普黄酮代谢的影响取决于雌二醇的质量浓度，当反应液中雌二醇为 . μ／时，依普黄酮的代谢不受影响（ $P > 0 . 0 5 )$ ；当雌二醇为 μ／ 时，依普黄酮的代谢有抑制作用${ ( P ^ { < } 0 . 0 2 ) }$ 。 这与文献报道［7］的结果一致，即低剂量的雌二醇与依普黄酮联合使用，不能增加依普黄酮的抗骨更新能力，不能对绝经期妇女的骨质疏松症发挥更大抑制作用。\n表 2 普萘洛尔和普罗帕酮及雌二醇对依普黄酮代谢的影响Table 2 T he effects of propranolol，propafenone， estradiol on IP metabolism［责任编辑黄晓花］"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "依普黄酮体外代谢性药物相互作用研究_胡晓渝.pdf",
+          "chunk_index": "依普黄酮体外代谢性药物相互作用研究_胡晓渝:5",
+          "raw_text": "低剂量的雌二醇与依普黄酮联合使用，不能增加依普黄酮的抗骨更新能力，不能对绝经期妇女的骨质疏松症发挥更大抑制作用。",
+          "chunk_id": "依普黄酮体外代谢性药物相互作用研究_胡晓渝:5",
+          "data": "两种药物临床合用时有可能发生代谢性相互作用，导致普罗帕酮代谢减慢，血药浓度增加。\nTable 1 Effect of IP on the metabolism of propafenone and estradiol\nReferences：\n2.2 普萘洛尔、普罗帕酮、雌二醇对依普黄酮代谢的影响与单独孵育结果相比较，加入普萘洛尔或普罗帕酮（ 反应液中终浓度为0.5μ／时， 的代谢均受抑制 $P < 0 ~ . 0 5 )$ 。 β-受体阻滞剂普萘洛尔与类抗心率失常药普罗帕酮均为 $\\mathrm { C Y P 1 } \\mathrm { A } ^ { 2 }$ 的底物，可与发生竞争性拮抗。而雌二醇对依普黄酮代谢的影响取决于雌二醇的质量浓度，当反应液中雌二醇为 . μ／时，依普黄酮的代谢不受影响（ $P > 0 . 0 5 )$ ；当雌二醇为 μ／ 时，依普黄酮的代谢有抑制作用${ ( P ^ { < } 0 . 0 2 ) }$ 。 这与文献报道［7］的结果一致，即低剂量的雌二醇与依普黄酮联合使用，不能增加依普黄酮的抗骨更新能力，不能对绝经期妇女的骨质疏松症发挥更大抑制作用。\n表 2 普萘洛尔和普罗帕酮及雌二醇对依普黄酮代谢的影响Table 2 T he effects of propranolol，propafenone， estradiol on IP metabolism［责任编辑黄晓花］"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "CONTRAINDICATED_FOR",
+        "source_id": "ent_1",
+        "target_id": "ent_7",
+        "properties": {
+          "source": "依普黄酮体外代谢性药物相互作用研究_胡晓渝.pdf",
+          "chunk_index": "依普黄酮体外代谢性药物相互作用研究_胡晓渝:5",
+          "raw_text": "低剂量的雌二醇与依普黄酮联合使用，不能增加依普黄酮的抗骨更新能力，不能对绝经期妇女的骨质疏松症发挥更大抑制作用。",
+          "chunk_id": "依普黄酮体外代谢性药物相互作用研究_胡晓渝:5",
+          "data": "两种药物临床合用时有可能发生代谢性相互作用，导致普罗帕酮代谢减慢，血药浓度增加。\nTable 1 Effect of IP on the metabolism of propafenone and estradiol\nReferences：\n2.2 普萘洛尔、普罗帕酮、雌二醇对依普黄酮代谢的影响与单独孵育结果相比较，加入普萘洛尔或普罗帕酮（ 反应液中终浓度为0.5μ／时， 的代谢均受抑制 $P < 0 ~ . 0 5 )$ 。 β-受体阻滞剂普萘洛尔与类抗心率失常药普罗帕酮均为 $\\mathrm { C Y P 1 } \\mathrm { A } ^ { 2 }$ 的底物，可与发生竞争性拮抗。而雌二醇对依普黄酮代谢的影响取决于雌二醇的质量浓度，当反应液中雌二醇为 . μ／时，依普黄酮的代谢不受影响（ $P > 0 . 0 5 )$ ；当雌二醇为 μ／ 时，依普黄酮的代谢有抑制作用${ ( P ^ { < } 0 . 0 2 ) }$ 。 这与文献报道［7］的结果一致，即低剂量的雌二醇与依普黄酮联合使用，不能增加依普黄酮的抗骨更新能力，不能对绝经期妇女的骨质疏松症发挥更大抑制作用。\n表 2 普萘洛尔和普罗帕酮及雌二醇对依普黄酮代谢的影响Table 2 T he effects of propranolol，propafenone， estradiol on IP metabolism［责任编辑黄晓花］"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "依普黄酮体外代谢性药物相互作用研究_胡晓渝:5",
+    "source": "依普黄酮体外代谢性药物相互作用研究_胡晓渝.pdf",
+    "text": "两种药物临床合用时有可能发生代谢性相互作用，导致普罗帕酮代谢减慢，血药浓度增加。\nTable 1 Effect of IP on the metabolism of propafenone and estradiol\nReferences：\n2.2 普萘洛尔、普罗帕酮、雌二醇对依普黄酮代谢的影响与单独孵育结果相比较，加入普萘洛尔或普罗帕酮（ 反应液中终浓度为0.5μ／时， 的代谢均受抑制 $P < 0 ~ . 0 5 )$ 。 β-受体阻滞剂普萘洛尔与类抗心率失常药普罗帕酮均为 $\\mathrm { C Y P 1 } \\mathrm { A } ^ { 2 }$ 的底物，可与发生竞争性拮抗。而雌二醇对依普黄酮代谢的影响取决于雌二醇的质量浓度，当反应液中雌二醇为 . μ／时，依普黄酮的代谢不受影响（ $P > 0 . 0 5 )$ ；当雌二醇为 μ／ 时，依普黄酮的代谢有抑制作用${ ( P ^ { < } 0 . 0 2 ) }$ 。 这与文献报道［7］的结果一致，即低剂量的雌二醇与依普黄酮联合使用，不能增加依普黄酮的抗骨更新能力，不能对绝经期妇女的骨质疏松症发挥更大抑制作用。\n表 2 普萘洛尔和普罗帕酮及雌二醇对依普黄酮代谢的影响Table 2 T he effects of propranolol，propafenone， estradiol on IP metabolism［责任编辑黄晓花］"
+  }
+]

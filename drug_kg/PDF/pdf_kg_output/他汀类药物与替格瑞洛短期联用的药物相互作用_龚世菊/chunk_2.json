@@ -1,0 +1,159 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "他汀类药物",
+        "canonical_name": "他汀类药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "Drug",
+        "name": "替格瑞洛",
+        "canonical_name": "替格瑞洛",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "瑞舒伐他汀",
+        "canonical_name": "瑞舒伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "辛伐他汀",
+        "canonical_name": "辛伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "阿托伐他汀",
+        "canonical_name": "阿托伐他汀",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "Drug",
+        "name": "阿司匹林",
+        "canonical_name": "阿司匹林",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "DrugClass",
+        "name": "P2Y12受体拮抗剂",
+        "canonical_name": "P2Y12受体拮抗剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Disease",
+        "name": "急性冠脉综合征",
+        "canonical_name": "急性冠脉综合征",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊.pdf",
+          "chunk_index": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:2",
+          "raw_text": "本研究旨在观察不同代谢途径的他汀类药物与替格瑞洛联合应用后对其临床疗效及不良反应影响",
+          "chunk_id": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:2",
+          "data": "途径代谢的药物［6 － 8］; 瑞舒伐他汀是 CYP2C9 代谢药物，而不是主要经 CYP3A4 代谢［9 － 10］。 本研究旨在观察不同代谢途径的他汀类药物与替格瑞洛联合应用后对其临床疗效及不良反应影响，为临床安全合理选药提供参考依据。\n尽管急性冠脉综合征( acute coronary syndrome，ACS) 的治疗有所发展，但目前仍然是危及生命的疾病之一。 双联抗血小板治疗，包括阿司匹林和P2Y12 受体拮抗剂，是治疗 ACS 的基石［1］。 替格瑞洛是一个口服的可直接发挥作用的可逆性结合1． 2 给药方案 6 组均接受阿司匹林 $1 0 0 ~ \\mathrm { ~ m g ~ } \\cdot$ $\\mathrm { ~ d ~ } ^ { - 1 } \\bullet p o$ ，其他基础用药基本相似。 A、B、C 组均在给予替格瑞洛初始负荷量 $1 8 0 \\mathrm { \\ m g } , p o$ ，此后每次 90$\\mathrm { m g , b i d }$ 的基础上，分别加用辛伐他汀 $4 0 \\ \\mathrm { m g \\bullet \\ d ^ { - 1 } } .$ 、阿托伐他汀 20 $\\mathbf { m } \\mathbf { g } \\cdot \\mathbf { d } ^ { - 1 }$ 和瑞舒伐他汀 $1 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } } .$ 。D 组单用辛伐他汀 $4 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } }$ ，E 组单用阿托伐他汀 $2 0 \\mathrm { \\ m g \\cdot d ^ { - 1 } }$ ，F 组用单用瑞舒伐他汀 $1 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } }$ 。疗程均为 2 周。\n1 资料与方法"
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_6",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊.pdf",
+          "chunk_index": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:2",
+          "raw_text": "双联抗血小板治疗，包括阿司匹林和P2Y12 受体拮抗剂，是治疗 ACS 的基石",
+          "chunk_id": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:2",
+          "data": "途径代谢的药物［6 － 8］; 瑞舒伐他汀是 CYP2C9 代谢药物，而不是主要经 CYP3A4 代谢［9 － 10］。 本研究旨在观察不同代谢途径的他汀类药物与替格瑞洛联合应用后对其临床疗效及不良反应影响，为临床安全合理选药提供参考依据。\n尽管急性冠脉综合征( acute coronary syndrome，ACS) 的治疗有所发展，但目前仍然是危及生命的疾病之一。 双联抗血小板治疗，包括阿司匹林和P2Y12 受体拮抗剂，是治疗 ACS 的基石［1］。 替格瑞洛是一个口服的可直接发挥作用的可逆性结合1． 2 给药方案 6 组均接受阿司匹林 $1 0 0 ~ \\mathrm { ~ m g ~ } \\cdot$ $\\mathrm { ~ d ~ } ^ { - 1 } \\bullet p o$ ，其他基础用药基本相似。 A、B、C 组均在给予替格瑞洛初始负荷量 $1 8 0 \\mathrm { \\ m g } , p o$ ，此后每次 90$\\mathrm { m g , b i d }$ 的基础上，分别加用辛伐他汀 $4 0 \\ \\mathrm { m g \\bullet \\ d ^ { - 1 } } .$ 、阿托伐他汀 20 $\\mathbf { m } \\mathbf { g } \\cdot \\mathbf { d } ^ { - 1 }$ 和瑞舒伐他汀 $1 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } } .$ 。D 组单用辛伐他汀 $4 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } }$ ，E 组单用阿托伐他汀 $2 0 \\mathrm { \\ m g \\cdot d ^ { - 1 } }$ ，F 组用单用瑞舒伐他汀 $1 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } }$ 。疗程均为 2 周。\n1 资料与方法"
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_7",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊.pdf",
+          "chunk_index": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:2",
+          "raw_text": "双联抗血小板治疗，包括阿司匹林和P2Y12 受体拮抗剂，是治疗 ACS 的基石",
+          "chunk_id": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:2",
+          "data": "途径代谢的药物［6 － 8］; 瑞舒伐他汀是 CYP2C9 代谢药物，而不是主要经 CYP3A4 代谢［9 － 10］。 本研究旨在观察不同代谢途径的他汀类药物与替格瑞洛联合应用后对其临床疗效及不良反应影响，为临床安全合理选药提供参考依据。\n尽管急性冠脉综合征( acute coronary syndrome，ACS) 的治疗有所发展，但目前仍然是危及生命的疾病之一。 双联抗血小板治疗，包括阿司匹林和P2Y12 受体拮抗剂，是治疗 ACS 的基石［1］。 替格瑞洛是一个口服的可直接发挥作用的可逆性结合1． 2 给药方案 6 组均接受阿司匹林 $1 0 0 ~ \\mathrm { ~ m g ~ } \\cdot$ $\\mathrm { ~ d ~ } ^ { - 1 } \\bullet p o$ ，其他基础用药基本相似。 A、B、C 组均在给予替格瑞洛初始负荷量 $1 8 0 \\mathrm { \\ m g } , p o$ ，此后每次 90$\\mathrm { m g , b i d }$ 的基础上，分别加用辛伐他汀 $4 0 \\ \\mathrm { m g \\bullet \\ d ^ { - 1 } } .$ 、阿托伐他汀 20 $\\mathbf { m } \\mathbf { g } \\cdot \\mathbf { d } ^ { - 1 }$ 和瑞舒伐他汀 $1 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } } .$ 。D 组单用辛伐他汀 $4 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } }$ ，E 组单用阿托伐他汀 $2 0 \\mathrm { \\ m g \\cdot d ^ { - 1 } }$ ，F 组用单用瑞舒伐他汀 $1 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } }$ 。疗程均为 2 周。\n1 资料与方法"
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_2",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊.pdf",
+          "chunk_index": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:2",
+          "raw_text": "替格瑞洛是一个口服的可直接发挥作用的可逆性结合...双联抗血小板治疗，包括阿司匹林和P2Y12 受体拮抗剂，是治疗 ACS 的基石",
+          "chunk_id": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:2",
+          "data": "途径代谢的药物［6 － 8］; 瑞舒伐他汀是 CYP2C9 代谢药物，而不是主要经 CYP3A4 代谢［9 － 10］。 本研究旨在观察不同代谢途径的他汀类药物与替格瑞洛联合应用后对其临床疗效及不良反应影响，为临床安全合理选药提供参考依据。\n尽管急性冠脉综合征( acute coronary syndrome，ACS) 的治疗有所发展，但目前仍然是危及生命的疾病之一。 双联抗血小板治疗，包括阿司匹林和P2Y12 受体拮抗剂，是治疗 ACS 的基石［1］。 替格瑞洛是一个口服的可直接发挥作用的可逆性结合1． 2 给药方案 6 组均接受阿司匹林 $1 0 0 ~ \\mathrm { ~ m g ~ } \\cdot$ $\\mathrm { ~ d ~ } ^ { - 1 } \\bullet p o$ ，其他基础用药基本相似。 A、B、C 组均在给予替格瑞洛初始负荷量 $1 8 0 \\mathrm { \\ m g } , p o$ ，此后每次 90$\\mathrm { m g , b i d }$ 的基础上，分别加用辛伐他汀 $4 0 \\ \\mathrm { m g \\bullet \\ d ^ { - 1 } } .$ 、阿托伐他汀 20 $\\mathbf { m } \\mathbf { g } \\cdot \\mathbf { d } ^ { - 1 }$ 和瑞舒伐他汀 $1 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } } .$ 。D 组单用辛伐他汀 $4 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } }$ ，E 组单用阿托伐他汀 $2 0 \\mathrm { \\ m g \\cdot d ^ { - 1 } }$ ，F 组用单用瑞舒伐他汀 $1 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } }$ 。疗程均为 2 周。\n1 资料与方法"
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊.pdf",
+          "chunk_index": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:2",
+          "raw_text": "瑞舒伐他汀是 CYP2C9 代谢药物，而不是主要经 CYP3A4 代谢",
+          "chunk_id": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:2",
+          "data": "途径代谢的药物［6 － 8］; 瑞舒伐他汀是 CYP2C9 代谢药物，而不是主要经 CYP3A4 代谢［9 － 10］。 本研究旨在观察不同代谢途径的他汀类药物与替格瑞洛联合应用后对其临床疗效及不良反应影响，为临床安全合理选药提供参考依据。\n尽管急性冠脉综合征( acute coronary syndrome，ACS) 的治疗有所发展，但目前仍然是危及生命的疾病之一。 双联抗血小板治疗，包括阿司匹林和P2Y12 受体拮抗剂，是治疗 ACS 的基石［1］。 替格瑞洛是一个口服的可直接发挥作用的可逆性结合1． 2 给药方案 6 组均接受阿司匹林 $1 0 0 ~ \\mathrm { ~ m g ~ } \\cdot$ $\\mathrm { ~ d ~ } ^ { - 1 } \\bullet p o$ ，其他基础用药基本相似。 A、B、C 组均在给予替格瑞洛初始负荷量 $1 8 0 \\mathrm { \\ m g } , p o$ ，此后每次 90$\\mathrm { m g , b i d }$ 的基础上，分别加用辛伐他汀 $4 0 \\ \\mathrm { m g \\bullet \\ d ^ { - 1 } } .$ 、阿托伐他汀 20 $\\mathbf { m } \\mathbf { g } \\cdot \\mathbf { d } ^ { - 1 }$ 和瑞舒伐他汀 $1 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } } .$ 。D 组单用辛伐他汀 $4 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } }$ ，E 组单用阿托伐他汀 $2 0 \\mathrm { \\ m g \\cdot d ^ { - 1 } }$ ，F 组用单用瑞舒伐他汀 $1 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } }$ 。疗程均为 2 周。\n1 资料与方法"
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊.pdf",
+          "chunk_index": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:2",
+          "raw_text": "辛伐他汀...加用辛伐他汀 40 mg·d-1",
+          "chunk_id": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:2",
+          "data": "途径代谢的药物［6 － 8］; 瑞舒伐他汀是 CYP2C9 代谢药物，而不是主要经 CYP3A4 代谢［9 － 10］。 本研究旨在观察不同代谢途径的他汀类药物与替格瑞洛联合应用后对其临床疗效及不良反应影响，为临床安全合理选药提供参考依据。\n尽管急性冠脉综合征( acute coronary syndrome，ACS) 的治疗有所发展，但目前仍然是危及生命的疾病之一。 双联抗血小板治疗，包括阿司匹林和P2Y12 受体拮抗剂，是治疗 ACS 的基石［1］。 替格瑞洛是一个口服的可直接发挥作用的可逆性结合1． 2 给药方案 6 组均接受阿司匹林 $1 0 0 ~ \\mathrm { ~ m g ~ } \\cdot$ $\\mathrm { ~ d ~ } ^ { - 1 } \\bullet p o$ ，其他基础用药基本相似。 A、B、C 组均在给予替格瑞洛初始负荷量 $1 8 0 \\mathrm { \\ m g } , p o$ ，此后每次 90$\\mathrm { m g , b i d }$ 的基础上，分别加用辛伐他汀 $4 0 \\ \\mathrm { m g \\bullet \\ d ^ { - 1 } } .$ 、阿托伐他汀 20 $\\mathbf { m } \\mathbf { g } \\cdot \\mathbf { d } ^ { - 1 }$ 和瑞舒伐他汀 $1 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } } .$ 。D 组单用辛伐他汀 $4 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } }$ ，E 组单用阿托伐他汀 $2 0 \\mathrm { \\ m g \\cdot d ^ { - 1 } }$ ，F 组用单用瑞舒伐他汀 $1 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } }$ 。疗程均为 2 周。\n1 资料与方法"
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_1",
+        "properties": {
+          "source": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊.pdf",
+          "chunk_index": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:2",
+          "raw_text": "阿托伐他汀...加用阿托伐他汀 20 mg·d-1",
+          "chunk_id": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:2",
+          "data": "途径代谢的药物［6 － 8］; 瑞舒伐他汀是 CYP2C9 代谢药物，而不是主要经 CYP3A4 代谢［9 － 10］。 本研究旨在观察不同代谢途径的他汀类药物与替格瑞洛联合应用后对其临床疗效及不良反应影响，为临床安全合理选药提供参考依据。\n尽管急性冠脉综合征( acute coronary syndrome，ACS) 的治疗有所发展，但目前仍然是危及生命的疾病之一。 双联抗血小板治疗，包括阿司匹林和P2Y12 受体拮抗剂，是治疗 ACS 的基石［1］。 替格瑞洛是一个口服的可直接发挥作用的可逆性结合1． 2 给药方案 6 组均接受阿司匹林 $1 0 0 ~ \\mathrm { ~ m g ~ } \\cdot$ $\\mathrm { ~ d ~ } ^ { - 1 } \\bullet p o$ ，其他基础用药基本相似。 A、B、C 组均在给予替格瑞洛初始负荷量 $1 8 0 \\mathrm { \\ m g } , p o$ ，此后每次 90$\\mathrm { m g , b i d }$ 的基础上，分别加用辛伐他汀 $4 0 \\ \\mathrm { m g \\bullet \\ d ^ { - 1 } } .$ 、阿托伐他汀 20 $\\mathbf { m } \\mathbf { g } \\cdot \\mathbf { d } ^ { - 1 }$ 和瑞舒伐他汀 $1 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } } .$ 。D 组单用辛伐他汀 $4 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } }$ ，E 组单用阿托伐他汀 $2 0 \\mathrm { \\ m g \\cdot d ^ { - 1 } }$ ，F 组用单用瑞舒伐他汀 $1 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } }$ 。疗程均为 2 周。\n1 资料与方法"
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊:2",
+    "source": "他汀类药物与替格瑞洛短期联用的药物相互作用_龚世菊.pdf",
+    "text": "途径代谢的药物［6 － 8］; 瑞舒伐他汀是 CYP2C9 代谢药物，而不是主要经 CYP3A4 代谢［9 － 10］。 本研究旨在观察不同代谢途径的他汀类药物与替格瑞洛联合应用后对其临床疗效及不良反应影响，为临床安全合理选药提供参考依据。\n尽管急性冠脉综合征( acute coronary syndrome，ACS) 的治疗有所发展，但目前仍然是危及生命的疾病之一。 双联抗血小板治疗，包括阿司匹林和P2Y12 受体拮抗剂，是治疗 ACS 的基石［1］。 替格瑞洛是一个口服的可直接发挥作用的可逆性结合1． 2 给药方案 6 组均接受阿司匹林 $1 0 0 ~ \\mathrm { ~ m g ~ } \\cdot$ $\\mathrm { ~ d ~ } ^ { - 1 } \\bullet p o$ ，其他基础用药基本相似。 A、B、C 组均在给予替格瑞洛初始负荷量 $1 8 0 \\mathrm { \\ m g } , p o$ ，此后每次 90$\\mathrm { m g , b i d }$ 的基础上，分别加用辛伐他汀 $4 0 \\ \\mathrm { m g \\bullet \\ d ^ { - 1 } } .$ 、阿托伐他汀 20 $\\mathbf { m } \\mathbf { g } \\cdot \\mathbf { d } ^ { - 1 }$ 和瑞舒伐他汀 $1 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } } .$ 。D 组单用辛伐他汀 $4 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } }$ ，E 组单用阿托伐他汀 $2 0 \\mathrm { \\ m g \\cdot d ^ { - 1 } }$ ，F 组用单用瑞舒伐他汀 $1 0 \\ \\mathrm { m g \\cdot d ^ { - 1 } }$ 。疗程均为 2 周。\n1 资料与方法"
+  }
+]

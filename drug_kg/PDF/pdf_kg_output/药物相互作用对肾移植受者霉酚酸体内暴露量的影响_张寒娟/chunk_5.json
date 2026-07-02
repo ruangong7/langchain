@@ -1,0 +1,239 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "Drug",
+        "name": "霉酚酸",
+        "canonical_name": "霉酚酸",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "质子泵抑制剂",
+        "canonical_name": "质子泵抑制剂",
+        "properties": {}
+      },
+      {
+        "id": "ent_3",
+        "type": "Drug",
+        "name": "兰索拉唑",
+        "canonical_name": "兰索拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_4",
+        "type": "Drug",
+        "name": "奥美拉唑",
+        "canonical_name": "奥美拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_5",
+        "type": "Drug",
+        "name": "泮托拉唑",
+        "canonical_name": "泮托拉唑",
+        "properties": {}
+      },
+      {
+        "id": "ent_6",
+        "type": "DrugClass",
+        "name": "替丁类",
+        "canonical_name": "替丁类",
+        "properties": {}
+      },
+      {
+        "id": "ent_7",
+        "type": "Drug",
+        "name": "雷尼替丁",
+        "canonical_name": "雷尼替丁",
+        "properties": {}
+      },
+      {
+        "id": "ent_8",
+        "type": "Drug",
+        "name": "更昔洛韦",
+        "canonical_name": "更昔洛韦",
+        "properties": {}
+      },
+      {
+        "id": "ent_9",
+        "type": "DrugClass",
+        "name": "CNI药物",
+        "canonical_name": "CNI药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_10",
+        "type": "Drug",
+        "name": "他克莫司",
+        "canonical_name": "他克莫司",
+        "properties": {}
+      },
+      {
+        "id": "ent_11",
+        "type": "Drug",
+        "name": "环孢素",
+        "canonical_name": "环孢素",
+        "properties": {}
+      },
+      {
+        "id": "ent_12",
+        "type": "Drug",
+        "name": "MMF",
+        "canonical_name": "霉酚酸酯",
+        "properties": {}
+      },
+      {
+        "id": "ent_13",
+        "type": "Population",
+        "name": "肾移植患者",
+        "canonical_name": "肾移植患者",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_8",
+        "properties": {
+          "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+          "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "raw_text": "合用更昔洛韦会减低肾移植患者体内霉酚酸 AUC",
+          "effect": "降低暴露量",
+          "direction": "更昔洛韦影响霉酚酸",
+          "chunk_id": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "data": "\\mathrm { \\ h } } \\right)$ ，采集服药前即刻服药后共个点血样利用公式计算出 AUC ［8 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } } [ 8 ]$ 。\n2． 3 抑制胃酸分泌药物对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响使用 Mann － Whitney U 检验判断未合用 PPIs与合用 $\\mathrm { P P I s }$ 组兰索拉唑奥美拉唑泮托拉唑三种临床常用质子泵抑制剂）、合用替丁（雷尼替丁）组对于霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异。 未合用抑酸药组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数为 44. 10，合用 PPIs 组和合用替丁组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数分别为 43. 92 和 42. 41。 Mann － Whitney U 检验结果显示合用组替丁组与未合用 $\\mathrm { P P I s }$ 相比差异无统计学意义，结果见表 1。 结果表明，是否合用 $\\mathrm { P P I s }$ 类和替丁类抑酸药对霉酚酸暴露量的影响无统计学意义2．4 合用更昔洛韦对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响本研究使用 Mann － Whitney U 检验对合用更昔洛韦组与未合用组比较，对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异从表结果中得出更昔洛韦组与未合用组比较霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 明显下降，差异有统计学意义 $\\left( \\ U = 1 2 9 3 6 . 5 , Z = \\ - 2 . 4 4 2 , P ="
+        }
+      },
+      {
+        "id": "rel_2",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_10",
+        "properties": {
+          "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+          "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "raw_text": "与合用环孢素相比合用他克莫司的肾移植患者具有较高的霉酚酸体内暴露量",
+          "effect": "相对升高暴露量",
+          "direction": "他克莫司影响霉酚酸",
+          "chunk_id": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "data": "\\mathrm { \\ h } } \\right)$ ，采集服药前即刻服药后共个点血样利用公式计算出 AUC ［8 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } } [ 8 ]$ 。\n2． 3 抑制胃酸分泌药物对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响使用 Mann － Whitney U 检验判断未合用 PPIs与合用 $\\mathrm { P P I s }$ 组兰索拉唑奥美拉唑泮托拉唑三种临床常用质子泵抑制剂）、合用替丁（雷尼替丁）组对于霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异。 未合用抑酸药组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数为 44. 10，合用 PPIs 组和合用替丁组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数分别为 43. 92 和 42. 41。 Mann － Whitney U 检验结果显示合用组替丁组与未合用 $\\mathrm { P P I s }$ 相比差异无统计学意义，结果见表 1。 结果表明，是否合用 $\\mathrm { P P I s }$ 类和替丁类抑酸药对霉酚酸暴露量的影响无统计学意义2．4 合用更昔洛韦对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响本研究使用 Mann － Whitney U 检验对合用更昔洛韦组与未合用组比较，对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异从表结果中得出更昔洛韦组与未合用组比较霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 明显下降，差异有统计学意义 $\\left( \\ U = 1 2 9 3 6 . 5 , Z = \\ - 2 . 4 4 2 , P ="
+        }
+      },
+      {
+        "id": "rel_3",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_11",
+        "properties": {
+          "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+          "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "raw_text": "与合用环孢素相比合用他克莫司的肾移植患者具有较高的霉酚酸体内暴露量",
+          "effect": "相对降低暴露量",
+          "direction": "环孢素影响霉酚酸",
+          "chunk_id": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "data": "\\mathrm { \\ h } } \\right)$ ，采集服药前即刻服药后共个点血样利用公式计算出 AUC ［8 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } } [ 8 ]$ 。\n2． 3 抑制胃酸分泌药物对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响使用 Mann － Whitney U 检验判断未合用 PPIs与合用 $\\mathrm { P P I s }$ 组兰索拉唑奥美拉唑泮托拉唑三种临床常用质子泵抑制剂）、合用替丁（雷尼替丁）组对于霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异。 未合用抑酸药组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数为 44. 10，合用 PPIs 组和合用替丁组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数分别为 43. 92 和 42. 41。 Mann － Whitney U 检验结果显示合用组替丁组与未合用 $\\mathrm { P P I s }$ 相比差异无统计学意义，结果见表 1。 结果表明，是否合用 $\\mathrm { P P I s }$ 类和替丁类抑酸药对霉酚酸暴露量的影响无统计学意义2．4 合用更昔洛韦对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响本研究使用 Mann － Whitney U 检验对合用更昔洛韦组与未合用组比较，对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异从表结果中得出更昔洛韦组与未合用组比较霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 明显下降，差异有统计学意义 $\\left( \\ U = 1 2 9 3 6 . 5 , Z = \\ - 2 . 4 4 2 , P ="
+        }
+      },
+      {
+        "id": "rel_4",
+        "type": "IN_CLASS",
+        "source_id": "ent_3",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+          "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "raw_text": "兰索拉唑、奥美拉唑、泮托拉唑三种临床常用质子泵抑制剂",
+          "chunk_id": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "data": "\\mathrm { \\ h } } \\right)$ ，采集服药前即刻服药后共个点血样利用公式计算出 AUC ［8 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } } [ 8 ]$ 。\n2． 3 抑制胃酸分泌药物对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响使用 Mann － Whitney U 检验判断未合用 PPIs与合用 $\\mathrm { P P I s }$ 组兰索拉唑奥美拉唑泮托拉唑三种临床常用质子泵抑制剂）、合用替丁（雷尼替丁）组对于霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异。 未合用抑酸药组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数为 44. 10，合用 PPIs 组和合用替丁组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数分别为 43. 92 和 42. 41。 Mann － Whitney U 检验结果显示合用组替丁组与未合用 $\\mathrm { P P I s }$ 相比差异无统计学意义，结果见表 1。 结果表明，是否合用 $\\mathrm { P P I s }$ 类和替丁类抑酸药对霉酚酸暴露量的影响无统计学意义2．4 合用更昔洛韦对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响本研究使用 Mann － Whitney U 检验对合用更昔洛韦组与未合用组比较，对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异从表结果中得出更昔洛韦组与未合用组比较霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 明显下降，差异有统计学意义 $\\left( \\ U = 1 2 9 3 6 . 5 , Z = \\ - 2 . 4 4 2 , P ="
+        }
+      },
+      {
+        "id": "rel_5",
+        "type": "IN_CLASS",
+        "source_id": "ent_4",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+          "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "raw_text": "兰索拉唑、奥美拉唑、泮托拉唑三种临床常用质子泵抑制剂",
+          "chunk_id": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "data": "\\mathrm { \\ h } } \\right)$ ，采集服药前即刻服药后共个点血样利用公式计算出 AUC ［8 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } } [ 8 ]$ 。\n2． 3 抑制胃酸分泌药物对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响使用 Mann － Whitney U 检验判断未合用 PPIs与合用 $\\mathrm { P P I s }$ 组兰索拉唑奥美拉唑泮托拉唑三种临床常用质子泵抑制剂）、合用替丁（雷尼替丁）组对于霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异。 未合用抑酸药组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数为 44. 10，合用 PPIs 组和合用替丁组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数分别为 43. 92 和 42. 41。 Mann － Whitney U 检验结果显示合用组替丁组与未合用 $\\mathrm { P P I s }$ 相比差异无统计学意义，结果见表 1。 结果表明，是否合用 $\\mathrm { P P I s }$ 类和替丁类抑酸药对霉酚酸暴露量的影响无统计学意义2．4 合用更昔洛韦对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响本研究使用 Mann － Whitney U 检验对合用更昔洛韦组与未合用组比较，对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异从表结果中得出更昔洛韦组与未合用组比较霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 明显下降，差异有统计学意义 $\\left( \\ U = 1 2 9 3 6 . 5 , Z = \\ - 2 . 4 4 2 , P ="
+        }
+      },
+      {
+        "id": "rel_6",
+        "type": "IN_CLASS",
+        "source_id": "ent_5",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+          "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "raw_text": "兰索拉唑、奥美拉唑、泮托拉唑三种临床常用质子泵抑制剂",
+          "chunk_id": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "data": "\\mathrm { \\ h } } \\right)$ ，采集服药前即刻服药后共个点血样利用公式计算出 AUC ［8 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } } [ 8 ]$ 。\n2． 3 抑制胃酸分泌药物对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响使用 Mann － Whitney U 检验判断未合用 PPIs与合用 $\\mathrm { P P I s }$ 组兰索拉唑奥美拉唑泮托拉唑三种临床常用质子泵抑制剂）、合用替丁（雷尼替丁）组对于霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异。 未合用抑酸药组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数为 44. 10，合用 PPIs 组和合用替丁组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数分别为 43. 92 和 42. 41。 Mann － Whitney U 检验结果显示合用组替丁组与未合用 $\\mathrm { P P I s }$ 相比差异无统计学意义，结果见表 1。 结果表明，是否合用 $\\mathrm { P P I s }$ 类和替丁类抑酸药对霉酚酸暴露量的影响无统计学意义2．4 合用更昔洛韦对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响本研究使用 Mann － Whitney U 检验对合用更昔洛韦组与未合用组比较，对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异从表结果中得出更昔洛韦组与未合用组比较霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 明显下降，差异有统计学意义 $\\left( \\ U = 1 2 9 3 6 . 5 , Z = \\ - 2 . 4 4 2 , P ="
+        }
+      },
+      {
+        "id": "rel_7",
+        "type": "IN_CLASS",
+        "source_id": "ent_7",
+        "target_id": "ent_6",
+        "properties": {
+          "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+          "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "raw_text": "替丁（雷尼替丁）",
+          "chunk_id": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "data": "\\mathrm { \\ h } } \\right)$ ，采集服药前即刻服药后共个点血样利用公式计算出 AUC ［8 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } } [ 8 ]$ 。\n2． 3 抑制胃酸分泌药物对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响使用 Mann － Whitney U 检验判断未合用 PPIs与合用 $\\mathrm { P P I s }$ 组兰索拉唑奥美拉唑泮托拉唑三种临床常用质子泵抑制剂）、合用替丁（雷尼替丁）组对于霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异。 未合用抑酸药组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数为 44. 10，合用 PPIs 组和合用替丁组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数分别为 43. 92 和 42. 41。 Mann － Whitney U 检验结果显示合用组替丁组与未合用 $\\mathrm { P P I s }$ 相比差异无统计学意义，结果见表 1。 结果表明，是否合用 $\\mathrm { P P I s }$ 类和替丁类抑酸药对霉酚酸暴露量的影响无统计学意义2．4 合用更昔洛韦对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响本研究使用 Mann － Whitney U 检验对合用更昔洛韦组与未合用组比较，对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异从表结果中得出更昔洛韦组与未合用组比较霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 明显下降，差异有统计学意义 $\\left( \\ U = 1 2 9 3 6 . 5 , Z = \\ - 2 . 4 4 2 , P ="
+        }
+      },
+      {
+        "id": "rel_8",
+        "type": "IN_CLASS",
+        "source_id": "ent_10",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+          "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "raw_text": "合用CNI 药物",
+          "chunk_id": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "data": "\\mathrm { \\ h } } \\right)$ ，采集服药前即刻服药后共个点血样利用公式计算出 AUC ［8 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } } [ 8 ]$ 。\n2． 3 抑制胃酸分泌药物对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响使用 Mann － Whitney U 检验判断未合用 PPIs与合用 $\\mathrm { P P I s }$ 组兰索拉唑奥美拉唑泮托拉唑三种临床常用质子泵抑制剂）、合用替丁（雷尼替丁）组对于霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异。 未合用抑酸药组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数为 44. 10，合用 PPIs 组和合用替丁组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数分别为 43. 92 和 42. 41。 Mann － Whitney U 检验结果显示合用组替丁组与未合用 $\\mathrm { P P I s }$ 相比差异无统计学意义，结果见表 1。 结果表明，是否合用 $\\mathrm { P P I s }$ 类和替丁类抑酸药对霉酚酸暴露量的影响无统计学意义2．4 合用更昔洛韦对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响本研究使用 Mann － Whitney U 检验对合用更昔洛韦组与未合用组比较，对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异从表结果中得出更昔洛韦组与未合用组比较霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 明显下降，差异有统计学意义 $\\left( \\ U = 1 2 9 3 6 . 5 , Z = \\ - 2 . 4 4 2 , P ="
+        }
+      },
+      {
+        "id": "rel_9",
+        "type": "IN_CLASS",
+        "source_id": "ent_11",
+        "target_id": "ent_9",
+        "properties": {
+          "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+          "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "raw_text": "合用CNI 药物",
+          "chunk_id": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "data": "\\mathrm { \\ h } } \\right)$ ，采集服药前即刻服药后共个点血样利用公式计算出 AUC ［8 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } } [ 8 ]$ 。\n2． 3 抑制胃酸分泌药物对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响使用 Mann － Whitney U 检验判断未合用 PPIs与合用 $\\mathrm { P P I s }$ 组兰索拉唑奥美拉唑泮托拉唑三种临床常用质子泵抑制剂）、合用替丁（雷尼替丁）组对于霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异。 未合用抑酸药组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数为 44. 10，合用 PPIs 组和合用替丁组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数分别为 43. 92 和 42. 41。 Mann － Whitney U 检验结果显示合用组替丁组与未合用 $\\mathrm { P P I s }$ 相比差异无统计学意义，结果见表 1。 结果表明，是否合用 $\\mathrm { P P I s }$ 类和替丁类抑酸药对霉酚酸暴露量的影响无统计学意义2．4 合用更昔洛韦对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响本研究使用 Mann － Whitney U 检验对合用更昔洛韦组与未合用组比较，对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异从表结果中得出更昔洛韦组与未合用组比较霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 明显下降，差异有统计学意义 $\\left( \\ U = 1 2 9 3 6 . 5 , Z = \\ - 2 . 4 4 2 , P ="
+        }
+      },
+      {
+        "id": "rel_10",
+        "type": "INDICATED_FOR",
+        "source_id": "ent_12",
+        "target_id": "ent_13",
+        "properties": {
+          "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+          "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "raw_text": "常与MMF 合用的免疫抑制剂",
+          "chunk_id": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+          "data": "\\mathrm { \\ h } } \\right)$ ，采集服药前即刻服药后共个点血样利用公式计算出 AUC ［8 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } } [ 8 ]$ 。\n2． 3 抑制胃酸分泌药物对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响使用 Mann － Whitney U 检验判断未合用 PPIs与合用 $\\mathrm { P P I s }$ 组兰索拉唑奥美拉唑泮托拉唑三种临床常用质子泵抑制剂）、合用替丁（雷尼替丁）组对于霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异。 未合用抑酸药组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数为 44. 10，合用 PPIs 组和合用替丁组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数分别为 43. 92 和 42. 41。 Mann － Whitney U 检验结果显示合用组替丁组与未合用 $\\mathrm { P P I s }$ 相比差异无统计学意义，结果见表 1。 结果表明，是否合用 $\\mathrm { P P I s }$ 类和替丁类抑酸药对霉酚酸暴露量的影响无统计学意义2．4 合用更昔洛韦对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响本研究使用 Mann － Whitney U 检验对合用更昔洛韦组与未合用组比较，对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异从表结果中得出更昔洛韦组与未合用组比较霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 明显下降，差异有统计学意义 $\\left( \\ U = 1 2 9 3 6 . 5 , Z = \\ - 2 . 4 4 2 , P ="
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟:5",
+    "source": "药物相互作用对肾移植受者霉酚酸体内暴露量的影响_张寒娟.pdf",
+    "text": "\\mathrm { \\ h } } \\right)$ ，采集服药前即刻服药后共个点血样利用公式计算出 AUC ［8 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } } [ 8 ]$ 。\n2． 3 抑制胃酸分泌药物对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响使用 Mann － Whitney U 检验判断未合用 PPIs与合用 $\\mathrm { P P I s }$ 组兰索拉唑奥美拉唑泮托拉唑三种临床常用质子泵抑制剂）、合用替丁（雷尼替丁）组对于霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异。 未合用抑酸药组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数为 44. 10，合用 PPIs 组和合用替丁组霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的中位数分别为 43. 92 和 42. 41。 Mann － Whitney U 检验结果显示合用组替丁组与未合用 $\\mathrm { P P I s }$ 相比差异无统计学意义，结果见表 1。 结果表明，是否合用 $\\mathrm { P P I s }$ 类和替丁类抑酸药对霉酚酸暴露量的影响无统计学意义2．4 合用更昔洛韦对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响本研究使用 Mann － Whitney U 检验对合用更昔洛韦组与未合用组比较，对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响是否有差异从表结果中得出更昔洛韦组与未合用组比较霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 明显下降，差异有统计学意义 $\\left( \\ U = 1 2 9 3 6 . 5 , Z = \\ - 2 . 4 4 2 , P = 0 . 0 1 5 \\right)$ 。结果表明合用更昔洛韦会减低肾移植患者体内霉酚酸 AUC 。 $\\mathrm { A U C } _ { 0 }$2．5 合用CNI 药物对霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的影响依据合用CNI 药物品种的不同，将患者分为他克莫司组和环孢素组对两组患者霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 结果进行统计学分析由表可见他克莫司组霉酚酸$\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 中位数高于环孢素组，且两组间差异性具有统计学意义 $\\left( \\ U = \\ 3 9 1 6 . 0 , Z = \\ - \\ 4 . 6 9 8 , P = \\right.$ 结果表明与合用环孢素相比合用他克莫司的肾移植患者具有较高的霉酚酸体内暴露量他克莫司和环孢素的谷峰浓度与霉酚酸$\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的相关性收集了常与MMF 合用的免疫抑制剂他克莫司和环孢素的谷峰浓度以及相对应的霉酚酸浓度使用相关分析判断他克莫司和环孢素的谷／ 峰浓度与霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的相关性结果如图显示他克莫司谷峰浓度与霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的相关性分别为 $r = 0 . 0 0 0 , P =$ 0.827、r =0.141 $P = 0 . 3 6 4$ 环孢素谷峰浓度与霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } }$ 的相关性分别为 $r = 0 . 2 4 5 , P =$ 0.139、r =0.321, $P = 0 . 0 4 9 _ { \\odot }$ 以上结果说明霉酚酸 $\\mathrm { A U C } _ { 0 \\sim 1 2 \\mathrm { ~ h ~ } ^ { - } }$ 与他克莫司和环孢素的谷／ 峰浓度无明显相关性"
+  }
+]

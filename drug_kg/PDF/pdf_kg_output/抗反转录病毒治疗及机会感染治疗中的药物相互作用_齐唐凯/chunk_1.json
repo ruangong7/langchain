@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {
+        "id": "ent_1",
+        "type": "DrugClass",
+        "name": "抗反转录病毒药物",
+        "canonical_name": "抗反转录病毒药物",
+        "properties": {}
+      },
+      {
+        "id": "ent_2",
+        "type": "DrugClass",
+        "name": "抗感染药物",
+        "canonical_name": "抗感染药物",
+        "properties": {}
+      }
+    ],
+    "relations": [
+      {
+        "id": "rel_1",
+        "type": "INTERACTS_WITH",
+        "source_id": "ent_1",
+        "target_id": "ent_2",
+        "properties": {
+          "source": "抗反转录病毒治疗及机会感染治疗中的药物相互作用_齐唐凯.pdf",
+          "chunk_index": "抗反转录病毒治疗及机会感染治疗中的药物相互作用_齐唐凯:1",
+          "raw_text": "上述药物间的相互作用常常对治疗疗效和（或）不良反应产生显著影响。",
+          "chunk_id": "抗反转录病毒治疗及机会感染治疗中的药物相互作用_齐唐凯:1",
+          "data": "和机会感染治疗中的重要药物相互作用以及与此有关的配伍禁忌和剂量调整。\nDrug interactions in antiretroviral therapy and treatment for occasional infections\\*\nQI Tang-kai1\\*\\*, LU Hong-zhou1, 2, 3\\*\\*\\*（1. Division of Infectious Disease, Shanghai Public Health Clinical Center, Fudan University, Shanghai, 201508; 2. Division of Infectious Disease, Huashan Hospital, Fudan University, Shanghai, 200040; 3. Department of Medicine, Shanghai Medical College of Fudan University, Shanghai, 200032）Abstract More than 30 kinds of drugs are currently used to treat human immunodeficiency virus-1 infection. Combination therapy of 3 or more such drugs has greatly improved antiretroviral efficacy, which can lead to some multiple drug interactions. Antibiotics, especially anti-tubercular agents and antifungal agents are commonly used in patients with HIV/AIDS so as to complicate the drug interactions in this population. Drug interactions might lead to decrease therapeutic efficacy and increase risk of adverse events. This review introduces "
+        }
+      }
+    ],
+    "record_index": 0,
+    "chunk_index": "抗反转录病毒治疗及机会感染治疗中的药物相互作用_齐唐凯:1",
+    "source": "抗反转录病毒治疗及机会感染治疗中的药物相互作用_齐唐凯.pdf",
+    "text": "和机会感染治疗中的重要药物相互作用以及与此有关的配伍禁忌和剂量调整。\nDrug interactions in antiretroviral therapy and treatment for occasional infections\\*\nQI Tang-kai1\\*\\*, LU Hong-zhou1, 2, 3\\*\\*\\*（1. Division of Infectious Disease, Shanghai Public Health Clinical Center, Fudan University, Shanghai, 201508; 2. Division of Infectious Disease, Huashan Hospital, Fudan University, Shanghai, 200040; 3. Department of Medicine, Shanghai Medical College of Fudan University, Shanghai, 200032）Abstract More than 30 kinds of drugs are currently used to treat human immunodeficiency virus-1 infection. Combination therapy of 3 or more such drugs has greatly improved antiretroviral efficacy, which can lead to some multiple drug interactions. Antibiotics, especially anti-tubercular agents and antifungal agents are commonly used in patients with HIV/AIDS so as to complicate the drug interactions in this population. Drug interactions might lead to decrease therapeutic efficacy and increase risk of adverse events. This review introduces the major drug interactions in antiretroviral therapy and treatment for the occasional infections, as well as the dose adjustment and contraindication in combination therapy.Ke y words antiretroviral therapy; occasional infection; drug interactions; human immunodeficiency virus-1 infection/ acquired immunodeficiency syndrome (HIV/AIDS)联合使用 3 种抗反转录病毒药物是治疗艾滋病毒感染（HIV）/ 艾滋病（AIDS）的标准疗法，目前国际上投入市场的抗反转录病毒药物已有 30 余种。HIV/AIDS可以导致多种机会感染，患者可能需要使用多种抗感染药物。上述药物间的相互作用常常对治疗疗效和（或）不良反应产生显著影响。"
+  }
+]
